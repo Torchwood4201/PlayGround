@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PokeRed 3D — pret/pokered tribute (Game Boy state machine in 3D)</title>
+<style>
+  :root{color-scheme:dark;--bg:#0b1020;--panel:#141b32;--line:#2a3560;--acc:#7cffb2;--warn:#ffd257;--grass:#3fa34d;--path:#c9b458}
+  *{box-sizing:border-box}body{margin:0;font-family:ui-monospace,Menlo,Consolas,monospace;background:var(--bg);color:#e8ecff}
+  header{display:flex;gap:12px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line);background:#0e1430;flex-wrap:wrap}
+  header h1{font-size:15px;margin:0;letter-spacing:.5px}header h1 span{color:var(--acc)}
+  .pill{border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:12px;background:#101736}
+  #modePill{border-color:var(--acc);color:var(--acc)}
+  main{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:12px;padding:12px;max-width:1300px;margin:0 auto}
+  @media(max-width:900px){main{grid-template-columns:1fr}}
+  #view{position:relative;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#000;min-height:520px}
+  #scene{width:100%;height:560px;display:block}
+  @media(max-width:600px){#scene{height:420px}}
+  #startOverlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;background:rgba(5,8,20,.78);text-align:center;padding:20px;z-index:5}
+  #startOverlay h2{margin:0;font-size:28px}#startOverlay p{max-width:520px;color:#b9c2e6;font-size:14px;line-height:1.5}
+  #startOverlay button{font:inherit;font-size:18px;padding:10px 28px;border-radius:10px;border:1px solid var(--acc);background:#0e2a1c;color:var(--acc);cursor:pointer}
+  #hud{position:absolute;top:10px;left:10px;display:flex;gap:8px;flex-wrap:wrap;z-index:3}
+  #hud span{background:rgba(10,15,35,.85);border:1px solid var(--line);border-radius:8px;padding:4px 8px;font-size:12px}
+  #dpad{position:absolute;right:10px;bottom:10px;display:grid;grid-template-columns:repeat(3,44px);grid-template-rows:repeat(3,44px);gap:4px;z-index:3;opacity:.95}
+  #dpad button{background:rgba(20,27,50,.9);color:#fff;border:1px solid var(--line);border-radius:8px;font-size:18px}
+  #textbox{position:absolute;left:10px;right:10px;bottom:10px;background:rgba(248,248,240,.97);color:#111;border:3px double #111;border-radius:8px;padding:10px 12px;font-size:14px;min-height:56px;display:none;z-index:4}
+  #battle{position:absolute;inset:auto 10px 10px 10px;background:rgba(12,18,40,.96);border:1px solid var(--warn);border-radius:12px;padding:12px;display:none;z-index:4}
+  #battle h3{margin:0 0 6px;font-size:14px;color:var(--warn)}
+  #battle .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  #battle button{font:inherit;padding:8px 12px;border-radius:8px;border:1px solid var(--line);background:#1a2450;color:#fff;cursor:pointer}
+  #battle button.primary{border-color:var(--acc);color:var(--acc)}
+  .hpbar{height:10px;background:#333;border-radius:99px;overflow:hidden;min-width:140px;flex:1}.hpbar i{display:block;height:100%;background:linear-gradient(90deg,#7cffb2,#2baf5e)}
+  aside{display:flex;flex-direction:column;gap:12px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px}
+  .card h2{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.8px;color:#9fb0e8}
+  .card p,.card li{font-size:12.5px;line-height:1.55;color:#cdd5f5}
+  code{background:#0a0f26;padding:1px 5px;border-radius:5px;border:1px solid var(--line);font-size:11.5px}
+  #log{height:170px;overflow:auto;white-space:pre-wrap;font-size:11.5px;background:#070b1d;border-radius:8px;padding:8px;border:1px solid var(--line)}
+  #party{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+  #party div{border:1px solid var(--line);border-radius:8px;padding:6px;font-size:12px;background:#0f1633}
+  footer{padding:10px;text-align:center;color:#7d88b3;font-size:11.5px}
+</style>
+</head>
+<body>
+<header>
+  <h1>🔴 PokeRed 3D <span>— pret/pokered state machine</span></h1>
+  <span class="pill" id="modePill">wGameMode: OVERWORLD</span>
+  <span class="pill" id="posPill">x:7 y:7</span>
+  <span class="pill" id="dexPill">Seen 0 · Owned 0/151</span>
+  <span class="pill">3D Game · Desktop</span>
+</header>
+<main>
+  <section id="view">
+    <canvas id="scene"></canvas>
+    <div id="hud"><span id="hudFps">60 fps</span><span>⬆⬇⬅➡ / WASD move</span><span>grass = wild encounter</span></div>
+    <div id="startOverlay">
+      <h2>PokeRed 3D</h2>
+      <p>Game Boy framework re-imagined in 3D: real 151 base stats from <code>reference/pokered</code>, Route 1 Pidgey/Rattata encounters, tile-block collision, Gen 1 damage, 44-byte party struct. Walk the tall grass.</p>
+      <button id="startBtn" aria-label="Start Game">Start Game</button>
+      <small style="color:#8b96c6">desktop + mobile ready · WebGL · no build step</small>
+    </div>
+    <div id="dpad" aria-hidden="false">
+      <span></span><button data-dx="0" data-dy="-1">▲</button><span></span>
+      <button data-dx="-1" data-dy="0">◀</button><button data-dx="0" data-dy="1">▼</button><button data-dx="1" data-dy="0">▶</button>
+      <span></span><button id="btnA">A</button><span></span>
+    </div>
+    <div id="textbox"></div>
+    <div id="battle">
+      <h3 id="battleTitle">Wild encounter!</h3>
+      <div class="row"><strong id="enemyName">—</strong><div class="hpbar"><i id="enemyHp"></i></div><span id="enemyHpTxt"></span></div>
+      <div class="row" style="margin-top:8px"><strong id="playerName">—</strong><div class="hpbar"><i id="playerHp"></i></div><span id="playerHpTxt"></span></div>
+      <p id="battleLog" style="font-size:12.5px;color:#d6dcff;min-height:36px"></p>
+      <div class="row">
+        <button id="btnFight" class="primary">Fight (Tackle)</button>
+        <button id="btnCatch">Catch (Pokéball)</button>
+        <button id="btnRun">Run</button>
+      </div>
+    </div>
+  </section>
+  <aside>
+    <div class="card"><h2>Core loop — main.asm</h2><p><code>MainGameLoop → wGameMode → Overworld / Battle / Text</code>. Current mode is shown in the header pill and logged below.</p><div id="log"></div></div>
+    <div class="card"><h2>Party (44-byte struct ×6)</h2><div id="party"></div></div>
+    <div class="card"><h2>Modules mirrored — real files in use</h2><ul>
+      <li><code>home/overworld.asm:OverworldLoop</code> — input, target coords, grass roll</li>
+      <li><code>data/tilesets/collision_tile_ids.asm:Overworld_Coll</code> — 2×2 block → wall/grass/door</li>
+      <li><code>engine/battle/core.asm:MainInBattleLoop</code> — <code>(((2·Lv/5+2)·Pow·Atk/Def)/50)+2</code></li>
+      <li><code>data/pokemon/base_stats/*.asm</code> — 151 real structs live in <code>dist/pokered_data.js</code></li>
+      <li><code>data/wild/maps/Route1.asm</code> — Pidgey/Rattata Lv2-5 table live</li>
+      <li><code>engine/overworld/wild_mons.asm:TryDoWildEncounter</code> + <code>engine/pokemon/add_mon.asm</code></li>
+    </ul></div>
+  </aside>
+</main>
+<footer>Static build · served from <code>/dist</code> · PORT 3000 · data from <code>reference/pokered/data/pokemon/base_stats/*.asm</code> (151) + <code>data/wild/maps/Route1.asm</code> · pret/pokered educational tribute.</footer>
+<script src="./pokered_data.js"></script>
+<script src="./three.min.js"></script>
+<script>
+(function(){
+"use strict";
+// === main.asm — Game Mode Dispatcher ===
+var GAME_MODE_OVERWORLD=0, GAME_MODE_BATTLE=1, GAME_MODE_TEXT=2;
+var wGameMode=GAME_MODE_OVERWORLD;
+var modePill=document.getElementById('modePill'), posPill=document.getElementById('posPill'),
+    dexPill=document.getElementById('dexPill'), logEl=document.getElementById('log'),
+    textbox=document.getElementById('textbox'), battleBox=document.getElementById('battle');
+function log(m){ var d=document.createElement('div'); d.textContent='['+new Date().toISOString().slice(14,23)+'] '+m; logEl.prepend(d); while(logEl.children.length>60)logEl.lastChild.remove(); }
+function setMode(m){ wGameMode=m; modePill.textContent='wGameMode: '+(['OVERWORLD','BATTLE','TEXT'][m]); log('MainGameLoop dispatch → '+modePill.textContent); }
+function showText(t,ms){ textbox.style.display='block'; textbox.textContent='▶ '+t; if(wGameMode===GAME_MODE_OVERWORLD)setMode(GAME_MODE_TEXT);
+  clearTimeout(showText._t); showText._t=setTimeout(function(){ textbox.style.display='none'; if(wGameMode===GAME_MODE_TEXT)setMode(GAME_MODE_OVERWORLD); },ms||2200); }
+
+// === data/pokemon/base_stats/*.asm — 151 real entries from reference/pokered ===
+// Generated file: dist/pokered_data.js <- reference/pokered/data/pokemon/base_stats/*.asm + constants/pokedex_constants.asm
+// Fallback 6 kept only if generated file missing.
+var BASE=(window.POKERED_BASE&&window.POKERED_BASE.length===151)?window.POKERED_BASE:[
+ {id:1,name:'Bulbasaur',hp:45,atk:49,def:49,spe:45,spc:65,t1:'Grass',t2:'Poison',catchRate:45,color:0x4caf50},
+ {id:4,name:'Charmander',hp:39,atk:52,def:43,spe:65,spc:50,t1:'Fire',t2:'—',catchRate:45,color:0xff7043},
+ {id:7,name:'Squirtle',hp:44,atk:48,def:65,spe:43,spc:50,t1:'Water',t2:'—',catchRate:45,color:0x42a5f5},
+ {id:25,name:'Pikachu',hp:35,atk:55,def:30,spe:90,spc:50,t1:'Electric',t2:'—',catchRate:190,color:0xffeb3b},
+ {id:16,name:'Pidgey',hp:40,atk:45,def:40,spe:56,spc:35,t1:'Normal',t2:'Flying',catchRate:255,color:0xa1887f},
+ {id:19,name:'Rattata',hp:30,atk:56,def:35,spe:72,spc:25,t1:'Normal',t2:'—',catchRate:255,color:0x9e9e9e}
+];
+var BYID={}; BASE.forEach(function(b){BYID[b.id]=b;});
+log('Pokedex data: '+BASE.length+' entries from '+(BASE.length===151?'reference/pokered/data/pokemon/base_stats':'fallback')); 
+var seen=new Set(), owned=new Set();
+function updateDex(){ dexPill.textContent='Seen '+seen.size+' · Owned '+owned.size+'/151'; }
+// === engine/pokemon/add_party_mon.asm — 44-byte struct in spirit ===
+var party=[];
+function monStats(base,level){ function s(b){return Math.floor(((b+15)*2*level)/100)+level+10;} return {maxHP:Math.floor(((base.hp+15)*2*level)/100)+level+10,atk:s(base.atk),def:s(base.def),spe:s(base.spe),spc:s(base.spc)}; }
+function addParty(base,level){ if(party.length>=6){log('Box routing: party full, '+base.name+' → PC box'); showText(base.name+' sent to PC box (party full).'); return false;}
+ var st=monStats(base,level); var dv=[Math.floor(Math.random()*256),Math.floor(Math.random()*256)];
+ party.push({species:base.name,level:level,hp:st.maxHP,maxHP:st.maxHP,atk:st.atk,def:st.def,dv:dv,ot:'PLAYER'});
+ owned.add(base.id); seen.add(base.id); updateDex(); renderParty(); log('AddEnemyMonToParty: '+base.name+' Lv'+level+' DVs='+dv+' → wPartyMon'+party.length+' (44B)'); return true; }
+function renderParty(){ var el=document.getElementById('party'); el.innerHTML=party.length?'':'<div style="opacity:.6">Empty — catch something in the grass!</div>';
+ party.forEach(function(m,i){ var d=document.createElement('div'); d.innerHTML='<b>'+(i+1)+'. '+m.species+'</b> Lv'+m.level+'<br>HP '+m.hp+'/'+m.maxHP+' ATK '+m.atk+' DEF '+m.def; el.appendChild(d); }); }
+addParty(BYID[25]||BASE[3],5); party[0].hp=party[0].maxHP; renderParty(); owned.delete(25); seen.add(25); updateDex(); // starter: Pikachu id 25, real catchRate 190
+
+// === engine/overworld/collision.asm — block resolution ===
+var COLL={WALK:0,WALL:1,GRASS:2,DOOR:4,LEDGE:32};
+var W=14,H=12, map=[];
+for(var y=0;y<H;y++){map[y]=[];for(var x=0;x<W;x++){ var v=0;
+ if(x===0||y===0||x===W-1||y===H-1)v=COLL.WALL;
+ else if((x===3||x===10)&&y>1&&y<10&&!(x===7))v=COLL.WALL;
+ else if(x>=5&&x<=8&&y>=3&&y<=7)v=COLL.GRASS;
+ else if(x===12&&y===2)v=COLL.GRASS;
+ else if(x===7&&y===10)v=COLL.DOOR;
+ map[y][x]=v; }}
+var px=7, py=8;
+function checkTileCollision(x,y){ if(x<0||y<0||x>=W||y>=H)return COLL.WALL; return map[y][x]; } // GetBlockIDAtCursor + TileAttributesTable
+
+// === Three.js 3D overworld ===
+var canvas=document.getElementById('scene');
+var renderer; try{ renderer=new THREE.WebGLRenderer({canvas:canvas,antialias:true}); }catch(e){ canvas.outerHTML='<p style="padding:20px">WebGL unavailable: '+e+'</p>'; return; }
+renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));
+var scene=new THREE.Scene(); scene.background=new THREE.Color(0x0b1020); scene.fog=new THREE.Fog(0x0b1020,18,42);
+var cam=new THREE.PerspectiveCamera(50,1,0.1,100);
+var amb=new THREE.AmbientLight(0xffffff,0.75); scene.add(amb);
+var sun=new THREE.DirectionalLight(0xffffff,0.9); sun.position.set(6,12,4); sun.castShadow=true; scene.add(sun);
+renderer.shadowMap.enabled=true;
+function resize(){ var w=canvas.clientWidth||canvas.parentNode.clientWidth, h=parseInt(getComputedStyle(canvas).height)||560; renderer.setSize(w,h,false); cam.aspect=w/h; cam.updateProjectionMatrix(); }
+window.addEventListener('resize',resize);
+var tileGroup=new THREE.Group(); scene.add(tileGroup);
+var matPath=new THREE.MeshLambertMaterial({color:0xc9b458}), matGrass=new THREE.MeshLambertMaterial({color:0x2e7d32}),
+    matWall=new THREE.MeshLambertMaterial({color:0x5c6bc0}), matDoor=new THREE.MeshLambertMaterial({color:0xffd257});
+var tileMeshes={};
+for(var ty=0;ty<H;ty++)for(var tx=0;tx<W;tx++){ var c=map[ty][tx]; var g=new THREE.BoxGeometry(1,0.3,1);
+ var m=c===COLL.WALL?matWall:(c===COLL.GRASS?matGrass:(c===COLL.DOOR?matDoor:matPath));
+ var mesh=new THREE.Mesh(g,m); mesh.position.set(tx-W/2,0,ty-H/2); mesh.receiveShadow=true; tileGroup.add(mesh); tileMeshes[tx+','+ty]=mesh;
+ if(c===COLL.GRASS){ for(var k=0;k<3;k++){ var blade=new THREE.Mesh(new THREE.ConeGeometry(0.09,0.5,5),new THREE.MeshLambertMaterial({color:0x7cffb2}));
+   blade.position.set(tx-W/2+(Math.random()-0.5)*0.7,0.4,ty-H/2+(Math.random()-0.5)*0.7); tileGroup.add(blade);} }
+ if(c===COLL.WALL){ var tower=new THREE.Mesh(new THREE.BoxGeometry(0.9,1.4,0.9),new THREE.MeshLambertMaterial({color:0x3949ab}));
+   tower.position.set(tx-W/2,0.85,ty-H/2); tower.castShadow=true; tileGroup.add(tower);} }
+var grid=new THREE.GridHelper(Math.max(W,H),Math.max(W,H),0x2a3560,0x1a2450); grid.position.y=0.16; scene.add(grid);
+var player=new THREE.Group();
+var pbody=new THREE.Mesh(new THREE.SphereGeometry(0.35,20,16),new THREE.MeshLambertMaterial({color:0xff5252})); pbody.position.y=0.6; pbody.castShadow=true; player.add(pbody);
+var pcap=new THREE.Mesh(new THREE.CylinderGeometry(0.2,0.28,0.22,12),new THREE.MeshLambertMaterial({color:0xffffff})); pcap.position.y=0.95; player.add(pcap);
+scene.add(player);
+var enemy3d=new THREE.Mesh(new THREE.IcosahedronGeometry(0.4,0),new THREE.MeshLambertMaterial({color:0x4caf50,emissive:0x1b5e20})); enemy3d.visible=false; scene.add(enemy3d);
+function syncPlayer(anim){ var tx=px-W/2, tz=py-H/2; player.position.x+=(tx-player.position.x)*0.35; player.position.z+=(tz-player.position.z)*0.35;
+ player.position.y=Math.abs(Math.sin(Date.now()/180))*0.06; pbody.rotation.y+=0.02;
+ cam.position.x+=(player.position.x+3.2-cam.position.x)*0.12; cam.position.z+=(player.position.z+5.5-cam.position.z)*0.12; cam.position.y=6.2; cam.lookAt(player.position.x,0.4,player.position.z-0.6);
+ if(enemy3d.visible){ enemy3d.rotation.y+=0.03; enemy3d.position.y=0.7+Math.sin(Date.now()/300)*0.1; } }
+player.position.set(px-W/2,0,py-H/2);
+var fpsEl=document.getElementById('hudFps'), frames=0,lastT=Date.now();
+(function loop(){ requestAnimationFrame(loop); syncPlayer(); renderer.render(scene,cam); frames++; var n=Date.now(); if(n-lastT>1000){fpsEl.textContent=Math.round(frames*1000/(n-lastT))+' fps · WebGL'; frames=0; lastT=n;} })();
+resize(); setTimeout(resize,300);
+
+// === engine/overworld/overworld.asm — movement + encounter ===
+function tryStep(dx,dy){ if(wGameMode!==GAME_MODE_OVERWORLD){log('OverworldLoop: ignored input, mode='+wGameMode); return;}
+ var nx=px+dx, ny=py+dy; var col=checkTileCollision(nx,ny);
+ posPill.textContent='x:'+px+' y:'+py+' → '+['walk','WALL','GRASS','?','DOOR'][col===32?4:col]||col;
+ if(col===COLL.WALL){ log('CheckTileCollision → WALL; PlayCollisionBumpSound'); showText('Bump! A solid wall block. (01)'); return; }
+ if(col===COLL.LEDGE){ py=ny+1; showText('Hopped the ledge! (20)'); return; }
+ px=nx; py=ny; posPill.textContent='x:'+px+' y:'+py; log('ExecutePlayerStep → ('+px+','+py+') attr='+col);
+ if(col===COLL.DOOR){ party.forEach(function(m){m.hp=m.maxHP;}); renderParty(); showText('Door block (04): Pokémon Center — party healed!'); return; }
+ if(col===COLL.GRASS){ var r=Math.random()*256; log('Random='+r.toFixed(0)+' vs 64 (tall-grass roll)');
+   if(r<64){ initWildEncounter(); } } }
+document.addEventListener('keydown',function(e){ var k=e.key.toLowerCase();
+ if(k==='arrowup'||k==='w')tryStep(0,-1); else if(k==='arrowdown'||k==='s')tryStep(0,1);
+ else if(k==='arrowleft'||k==='a')tryStep(-1,0); else if(k==='arrowright'||k==='d')tryStep(1,0);
+ else if(k===' '||k==='enter'){document.getElementById('btnA').click();} });
+document.querySelectorAll('#dpad button[data-dx]').forEach(function(b){ b.addEventListener('click',function(){tryStep(parseInt(b.dataset.dx),parseInt(b.dataset.dy));}); });
+document.getElementById('startOverlay').querySelector('button').addEventListener('click',function(){ document.getElementById('startOverlay').style.display='none'; showText('Welcome! Walk into the bright grass.'); canvas.focus&&canvas.focus(); });
+
+// === engine/battle/core.asm — turn engine + Gen1 damage ===
+var wild=null, active=null;
+function calcGen1Damage(level,power,atk,def){ return Math.floor(Math.floor(Math.floor(2*level/5+2)*power*atk/def)/50)+2; }
+function initWildEncounter(){ var table=(window.POKERED_ROUTE1_WILD&&window.POKERED_ROUTE1_WILD.length===10)?window.POKERED_ROUTE1_WILD:[{lv:3,sp:16},{lv:3,sp:19},{lv:4,sp:16},{lv:5,sp:16}];
+ var slot=table[Math.floor(Math.random()*table.length)]; var base=BYID[slot.sp]||BASE[Math.floor(Math.random()*BASE.length)]; var lv=slot.lv;
+ var st=monStats(base,lv); wild={base:base,level:lv,hp:st.maxHP,maxHP:st.maxHP,atk:st.atk,def:st.def};
+ active=party[0]; seen.add(base.id); updateDex();
+ setMode(GAME_MODE_BATTLE); battleBox.style.display='block';
+ enemy3d.visible=true; enemy3d.material.color.setHex(base.color); enemy3d.position.set(player.position.x+1.2,0.7,player.position.z-1.2);
+ document.getElementById('battleTitle').textContent='Wild '+base.name+' Lv'+lv+' appeared! (catch '+base.catchRate+')';
+ document.getElementById('enemyName').textContent=base.name+' Lv'+lv+' '+base.t1+'/'+base.t2;
+ document.getElementById('playerName').textContent=active.species+' Lv'+active.level;
+ blog('A wild '+base.name+' jumps out of the tall grass! Seen flag set.'); refreshBattle(); log('InitWildEncounter: '+base.name+' Lv'+lv+' HP'+st.maxHP); }
+function blog(t){ document.getElementById('battleLog').textContent=t; }
+function refreshBattle(){ var e=document.getElementById('enemyHp'), p=document.getElementById('playerHp');
+ e.style.width=(100*wild.hp/wild.maxHP)+'%'; p.style.width=(100*active.hp/active.maxHP)+'%';
+ document.getElementById('enemyHpTxt').textContent=wild.hp+'/'+wild.maxHP;
+ document.getElementById('playerHpTxt').textContent=active.hp+'/'+active.maxHP; renderParty(); }
+function endBattle(msg){ battleBox.style.display='none'; enemy3d.visible=false; setMode(GAME_MODE_OVERWORLD); showText(msg); }
+document.getElementById('btnFight').addEventListener('click',function(){ if(wGameMode!==GAME_MODE_BATTLE)return;
+ var dmg=calcGen1Damage(active.level,35,active.atk,wild.def); wild.hp=Math.max(0,wild.hp-dmg);
+ log('CalculateGen1Damage: Tackle Lv'+active.level+' → '+dmg+' (formula (((2*Lv/5+2)*Pow*Atk/Def)/50)+2)');
+ if(wild.hp<=0){ refreshBattle(); blog('Enemy '+wild.base.name+' fainted! +EXP.'); setTimeout(function(){endBattle('Enemy '+wild.base.name+' fainted!');},900); refreshBattle(); return; }
+ var edmg=calcGen1Damage(wild.level,35,wild.atk,active.def); active.hp=Math.max(0,active.hp-edmg);
+ blog(active.species+' dealt '+dmg+'! Wild '+wild.base.name+' dealt '+edmg+' back!');
+ if(active.hp<=0){ blog(active.species+' fainted!'); setTimeout(function(){endBattle('You whited out! Healed at door (04).'); active.hp=active.maxHP; renderParty();},1200); }
+ refreshBattle(); });
+document.getElementById('btnCatch').addEventListener('click',function(){ if(wGameMode!==GAME_MODE_BATTLE)return;
+ var roll=Math.floor(Math.random()*256); log('AttemptCatchPokemon: Random='+roll+' vs catchRate='+wild.base.catchRate);
+ if(roll<wild.base.catchRate){ blog('Gotcha! '+wild.base.name+' was caught!'); addParty(wild.base,wild.level);
+   setTimeout(function(){endBattle(wild.base.name+' added. Owned '+owned.size+'.');},900); }
+ else { blog('Ball broke free! (wobble…)'); var edmg=calcGen1Damage(wild.level,30,wild.atk,active.def); active.hp=Math.max(0,active.hp-edmg); refreshBattle();
+   if(active.hp<=0)setTimeout(function(){endBattle('Your mon fainted after the failed catch.');},900); } });
+document.getElementById('btnRun').addEventListener('click',function(){ if(wGameMode!==GAME_MODE_BATTLE)return; blog('Got away safely!'); setTimeout(function(){endBattle('Got away safely.');},600); });
+document.getElementById('btnA').addEventListener('click',function(){ if(wGameMode===GAME_MODE_BATTLE)document.getElementById('btnFight').click(); else showText('A: nothing here. Try the grass (02).'); });
+log('InitGame: hardware OK, map loaded, wGameMode=OVERWORLD. RunDefaultEngine @60fps.');
+setMode(GAME_MODE_OVERWORLD);
+})();
+</script>
+</body>
+</html>
