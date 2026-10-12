@@ -1,0 +1,8 @@
+{
+  "name": "Liquid Synth",
+  "description": "An application to generate audio frequencies using the Web Audio API. Users can start, stop, and control the volume and frequency of the tone with sliders.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}

@@ -1,0 +1,191 @@
+.ls-theory-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.ls-theory-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-align: center;
+    color: transparent;
+    background: linear-gradient(to right, #22d3ee, #3b82f6);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.ls-theory-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.ls-theory-body:disabled {
+    opacity: 0.6;
+}
+.ls-theory-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 0.75rem;
+}
+.ls-theory-label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(186, 230, 253, 0.7);
+    font-weight: 600;
+}
+.ls-theory-select {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 0.85rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.6rem;
+    min-width: 7rem;
+}
+.ls-theory-bpm {
+    min-width: 5rem;
+}
+.ls-theory-ghost {
+    font-size: 0.75rem;
+    color: rgba(186, 230, 253, 0.8);
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 9999px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+}
+.ls-theory-ghost:hover:not(:disabled) {
+    border-color: rgba(34, 211, 238, 0.5);
+    color: #fff;
+}
+.ls-theory-ghost:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+.ls-theory-scale-notes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+.ls-theory-note-chip {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #fde68a;
+    background: rgba(120, 53, 15, 0.4);
+    border: 1px solid rgba(251, 191, 36, 0.3);
+    border-radius: 9999px;
+    padding: 0.25rem 0.65rem;
+}
+.ls-theory-chords {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+@media (min-width: 768px) {
+    .ls-theory-chords {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+.ls-theory-chord-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: center;
+    padding: 0.6rem 0.4rem;
+    border-radius: 0.65rem;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.ls-theory-chord-card:hover:not(:disabled) {
+    border-color: rgba(34, 211, 238, 0.5);
+    transform: translateY(-1px);
+}
+.ls-theory-roman {
+    font-weight: 800;
+    font-size: 0.95rem;
+    color: #67e8f9;
+}
+.ls-theory-chord-notes {
+    font-size: 0.68rem;
+    color: rgba(226, 232, 240, 0.7);
+}
+.ls-theory-tray {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 0.65rem;
+    padding: 0.75rem;
+}
+.ls-theory-tray-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(186, 230, 253, 0.7);
+    margin-bottom: 0.6rem;
+}
+.ls-theory-tray-actions {
+    display: flex;
+    gap: 0.4rem;
+}
+.ls-theory-slots {
+    display: flex;
+    gap: 0.5rem;
+    min-height: 3rem;
+    align-items: center;
+}
+.ls-theory-empty {
+    font-size: 0.78rem;
+    color: rgba(148, 163, 184, 0.7);
+}
+.ls-theory-slot {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 3.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: rgba(34, 211, 238, 0.12);
+    border: 1px solid rgba(34, 211, 238, 0.35);
+    cursor: pointer;
+}
+.ls-theory-order {
+    position: absolute;
+    top: -0.5rem;
+    right: -0.4rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 9999px;
+    background: #22d3ee;
+    color: #03181d;
+    font-size: 0.65rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ls-theory-export {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #03181d;
+    background: #22d3ee;
+    border: 0;
+    border-radius: 0.6rem;
+    padding: 0.55rem 1rem;
+    cursor: pointer;
+}
+.ls-theory-export:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}

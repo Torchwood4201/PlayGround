@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquid Synth 1.0</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2322d3ee'/%3E%3Cstop offset='1' stop-color='%238b5cf6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='%23082042'/%3E%3Cpath d='M6 20 L11 20 L13 10 L16 26 L19 12 L21 20 L26 20' stroke='url(%23g)' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ecfeff;
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            overflow-x: hidden;
+        }
+        #root {
+            position: relative;
+            z-index: 1;
+            min-height: 100vh;
+        }
+        
+        @keyframes liquid {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .liquid-bg {
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            right: -50%;
+            bottom: -50%;
+            z-index: -2;
+            background: linear-gradient(-45deg, #020617, #082f49, #1e1b4b, #312e81);
+            background-size: 400% 400%;
+            animation: liquid 20s ease infinite;
+        }
+
+        .liquid-accent {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            background: radial-gradient(circle at 20% 30%, rgba(34, 211, 238, 0.15), transparent 40%),
+                        radial-gradient(circle at 80% 70%, rgba(168, 85, 247, 0.15), transparent 40%);
+            filter: blur(60px);
+        }
+
+        .glass-base {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+        }
+        
+        .neumorphic-outset {
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5), -1px -1px 2px rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            background: linear-gradient(145deg, rgba(255,255,255,0.03), rgba(0,0,0,0.1));
+        }
+        .neumorphic-inset {
+             background: rgba(0, 0, 0, 0.3);
+             box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.6), inset -1px -1px 2px rgba(255, 255, 255, 0.05);
+             border: 1px solid rgba(255, 255, 255, 0.02);
+        }
+
+        /* Custom styled range inputs */
+        input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 6px;
+            background: transparent;
+            outline: none;
+            cursor: pointer;
+        }
+        input[type="range"]::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 6px;
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 3px;
+            box-shadow: inset 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 16px;
+            height: 16px;
+            background: #22d3ee;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 2px solid #083344;
+            box-shadow: 0 0 10px rgba(34, 211, 238, 0.4);
+            margin-top: -5px;
+            transition: transform 0.1s ease, box-shadow 0.1s ease;
+        }
+        input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(34, 211, 238, 0.6);
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); }
+        ::-webkit-scrollbar-thumb { background: rgba(34, 211, 238, 0.2); border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(34, 211, 238, 0.4); }
+    </style>
+</head>
+<body class="text-white antialiased selection:bg-cyan-500/30">
+    <div class="liquid-bg"></div>
+    <div class="liquid-accent"></div>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

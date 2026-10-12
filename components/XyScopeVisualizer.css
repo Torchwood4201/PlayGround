@@ -1,0 +1,114 @@
+.ls-xy-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.ls-xy-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+.ls-xy-modes {
+    display: flex;
+    gap: 0.5rem;
+}
+.ls-xy-mode-btn {
+    padding: 0.375rem 0.875rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: rgba(186, 230, 253, 0.7);
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.ls-xy-mode-btn:hover {
+    color: #fff;
+    border-color: rgba(34, 211, 238, 0.4);
+}
+.ls-xy-mode-btn.ls-xy-active {
+    color: #03181d;
+    background: #22d3ee;
+    border-color: #22d3ee;
+    box-shadow: 0 0 12px rgba(34, 211, 238, 0.5);
+}
+.ls-xy-check {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: rgba(186, 230, 253, 0.8);
+    cursor: pointer;
+}
+.ls-xy-screen {
+    position: relative;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background: #000;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-shadow: inset 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+.ls-xy-canvas {
+    display: block;
+    width: 100%;
+    height: 16rem;
+    filter: contrast(1.2) brightness(1.05) saturate(1.3);
+}
+@media (min-width: 768px) {
+    .ls-xy-canvas {
+        height: 20rem;
+    }
+}
+.ls-xy-grid {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image:
+        linear-gradient(rgba(34, 211, 238, 0.07) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(34, 211, 238, 0.07) 1px, transparent 1px);
+    background-size: 32px 32px;
+}
+.ls-xy-scanlines {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+        to bottom,
+        transparent 0px,
+        transparent 2px,
+        rgba(0, 0, 0, 0.18) 3px,
+        rgba(0, 0, 0, 0.18) 4px
+    );
+}
+.ls-xy-controls {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem 1rem;
+}
+@media (min-width: 768px) {
+    .ls-xy-controls {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+.ls-xy-slider {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(186, 230, 253, 0.7);
+    font-weight: 600;
+}
+.ls-xy-placeholder {
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: rgba(186, 230, 253, 0.5);
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+}
