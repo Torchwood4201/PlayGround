@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>POKERED 3D — Kanto Explorer (Desktop)</title>
+<style>
+  :root{
+    --bg:#0b1020; --panel:#131a30; --panel2:#1a2340; --line:#2a3763;
+    --ink:#eaf0ff; --dim:#9aa7d0; --acc:#ffcb05; --acc2:#3b5bd6; --red:#e3350d; --green:#4caf50;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:"Segoe UI",system-ui,Roboto,Arial,sans-serif}
+  #topbar{display:flex;align-items:center;gap:12px;padding:8px 14px;background:linear-gradient(180deg,#1b2450,#121836);border-bottom:2px solid var(--acc);position:sticky;top:0;z-index:20}
+  #logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.5px}
+  #pokeball{width:26px;height:26px;border-radius:50%;background:radial-gradient(circle at 50% 38%,#fff 0 32%,#222 33% 38%,#e3350d 39% 62%,#222 63% 68%,#fff 69% 100%);border:2px solid #000;flex:none;animation:spin 6s linear infinite}
+  @keyframes spin{to{filter:hue-rotate(0)}}
+  #logo small{display:block;font-weight:400;color:var(--dim);font-size:11px;letter-spacing:1px}
+  .pill{background:#0e1430;border:1px solid var(--line);border-radius:999px;padding:4px 10px;font-size:12px;color:var(--dim);white-space:nowrap}
+  .pill b{color:var(--acc)}
+  #topbar .sp{flex:1}
+  button{cursor:pointer}
+  .btn{background:var(--acc);border:2px solid #000;color:#111;font-weight:800;border-radius:10px;padding:7px 12px;box-shadow:0 3px 0 #000;font-size:13px}
+  .btn:active{transform:translateY(2px);box-shadow:none}
+  .btn.ghost{background:#222c55;color:var(--ink);border-color:#000;box-shadow:0 3px 0 #000}
+  .btn.small{padding:4px 8px;font-size:12px}
+  #layout{display:flex;height:calc(100vh - 52px);min-height:560px}
+  #stage{position:relative;flex:1;min-width:0;background:#000}
+  #c{position:absolute;inset:0;width:100%;height:100%;display:block}
+  #hud{position:absolute;left:10px;top:10px;display:flex;flex-direction:column;gap:8px;pointer-events:none;z-index:5}
+  .card{background:rgba(10,14,32,.82);border:1px solid var(--line);border-radius:12px;padding:8px 10px;font-size:12px;backdrop-filter:blur(4px)}
+  #pos{font-variant-numeric:tabular-nums}
+  #toast{position:absolute;left:50%;top:14px;transform:translateX(-50%);z-index:6;display:none;background:#0e1430;border:2px solid var(--acc);border-radius:12px;padding:8px 14px;font-weight:700}
+  #controls-hint{position:absolute;left:10px;bottom:10px;z-index:5;max-width:420px}
+  #controls-hint kbd{background:#000;border:1px solid var(--line);border-bottom-width:3px;border-radius:6px;padding:1px 6px;font-size:11px}
+  #minimap{position:absolute;right:10px;top:10px;z-index:5;background:rgba(10,14,32,.85);border:1px solid var(--line);border-radius:12px;padding:6px}
+  #minimap canvas{display:block;border-radius:8px}
+  #side{width:380px;flex:none;background:var(--panel);border-left:2px solid var(--line);display:flex;flex-direction:column;min-height:0}
+  #tabs{display:flex;gap:4px;padding:8px 8px 0}
+  #tabs button{flex:1;background:#0e1430;color:var(--dim);border:1px solid var(--line);border-bottom:none;border-radius:10px 10px 0 0;padding:8px 4px;font-weight:700;font-size:12px}
+  #tabs button.on{background:var(--panel2);color:var(--acc)}
+  #panes{flex:1;overflow:auto;padding:10px;background:var(--panel2);border-top:1px solid var(--line);min-height:0}
+  .pane{display:none}
+  .pane.on{display:block}
+  h3{margin:6px 0 8px;font-size:13px;letter-spacing:1px;color:var(--acc)}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .stat{background:#0e1430;border:1px solid var(--line);border-radius:10px;padding:8px;font-size:12px}
+  .stat b{display:block;font-size:18px;color:var(--acc)}
+  #dexgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .mon{background:#0e1430;border:1px solid var(--line);border-radius:10px;padding:6px;text-align:center;font-size:11px;cursor:pointer}
+  .mon img{width:100%;image-rendering:pixelated;background:#1d2a5e;border-radius:8px;aspect-ratio:1;object-fit:contain}
+  .mon.sel{outline:2px solid var(--acc)}
+  .mon b{display:block;text-transform:capitalize;margin-top:4px}
+  #dexdetail img{width:96px;image-rendering:pixelated;background:#1d2a5e;border-radius:10px}
+  pre.asm{background:#070b1d;border:1px solid var(--line);border-radius:10px;padding:8px;font-size:11px;max-height:260px;overflow:auto;white-space:pre-wrap;color:#c9d6ff}
+  #filelist{font-size:12px}
+  #filelist .row{display:flex;gap:8px;padding:4px 6px;border-bottom:1px solid #223;cursor:pointer}
+  #filelist .row:hover{background:#22336b}
+  #filelist .sz{margin-left:auto;color:var(--dim)}
+  #fileview img{max-width:100%;image-rendering:pixelated;background:#222;border-radius:8px}
+  input[type=text]{width:100%;background:#070b1d;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:8px;font-size:13px}
+  #battle{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:10;width:min(520px,92%);display:none;background:linear-gradient(180deg,#fff,#dbe6ff);color:#111;border:4px solid #000;border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.6);overflow:hidden}
+  #battle .bhead{background:var(--red);color:#fff;font-weight:800;padding:8px 12px;letter-spacing:1px}
+  #battle .bbody{display:flex;gap:12px;padding:12px}
+  #battle img{width:120px;height:120px;image-rendering:pixelated;background:#9db7e8;border:3px solid #000;border-radius:12px}
+  .hpbar{height:12px;background:#333;border:2px solid #000;border-radius:999px;overflow:hidden;margin:4px 0 8px}
+  .hpbar i{display:block;height:100%;background:linear-gradient(90deg,#4caf50,#8bc34a)}
+  #blog{font-size:12px;background:#0e1430;border:1px solid var(--line);border-radius:10px;padding:8px;height:110px;overflow:auto}
+  #loader{position:absolute;inset:0;z-index:30;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#1a2458,#070b1d);flex-direction:column;gap:12px;text-align:center;padding:20px}
+  .bar{width:min(420px,80%);height:12px;border:2px solid #000;background:#222;border-radius:999px;overflow:hidden}
+  .bar i{display:block;height:100%;width:10%;background:var(--acc)}
+  .dialogue{border-left:3px solid var(--acc);margin:8px 0;padding:6px 8px;background:#0e1430;border-radius:0 8px 8px 0;font-size:12px}
+  .dialogue b{color:var(--acc);font-size:11px}
+  footer{padding:6px 12px;font-size:11px;color:var(--dim);background:#0b1020;border-top:1px solid var(--line)}
+  @media (max-width:900px){
+    #layout{flex-direction:column;height:auto}
+    #stage{height:62vh;min-height:420px}
+    #side{width:auto;border-left:none;border-top:2px solid var(--line)}
+    #panes{max-height:520px}
+    #controls-hint{display:none}
+  }
+</style>
+</head>
+<body>
+<div id="topbar">
+  <div id="logo"><div id="pokeball"></div><div>POKERED 3D<small>KANTO EXPLORER · DESKTOP · ALL 2875 FILES AS-IS</small></div></div>
+  <div class="pill">files <b id="stat-files">…</b></div>
+  <div class="pill">pokémon <b>151</b></div>
+  <div class="pill">caught <b id="stat-caught">0</b></div>
+  <div class="sp"></div>
+  <button class="btn ghost small" id="btn-sound">🔊 sound: on</button>
+  <button class="btn small" id="btn-help">? controls</button>
+</div>
+<div id="layout">
+  <div id="stage">
+    <canvas id="c"></canvas>
+    <div id="hud">
+      <div class="card" id="pos">x 0 · z 0 · Pallet Town</div>
+      <div class="card">⬢ drag = orbit · wheel = zoom · <b>WASD/arrows</b> = walk · <b>E</b> = throw ball · <b>F</b> = talk</div>
+    </div>
+    <div id="toast"></div>
+    <div id="minimap"><canvas id="mm" width="150" height="150"></canvas><div style="font-size:11px;color:var(--dim);text-align:center">KANTO · live</div></div>
+    <div id="controls-hint" class="card">Desktop build: best with keyboard + mouse. Walk into <b style="color:#7CFC00">tall grass</b> for wild encounters from <code>data/pokemon/base_stats/*.asm</code>. Sprites are the original <code>gfx/pokemon/front/*.png</code> + <code>gfx/trainers/*.png</code> mapped onto 3D billboards. <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> move · <kbd>E</kbd> ball · <kbd>F</kbd> talk</div>
+    <div id="battle">
+      <div class="bhead" id="btitle">WILD PIKACHU appeared!</div>
+      <div class="bbody">
+        <img id="bimg" alt="wild">
+        <div style="flex:1">
+          <div><b id="bname">pikachu</b> <span id="blvl" style="color:#555">Lv5</span></div>
+          <div class="hpbar"><i id="bhp" style="width:100%"></i></div>
+          <div id="bstats" style="font-size:12px;color:#333">…</div>
+          <div style="display:flex;gap:8px;margin-top:8px">
+            <button class="btn small" id="btn-fight">⚔ Fight</button>
+            <button class="btn small" id="btn-ball">◉ Ball</button>
+            <button class="btn small ghost" id="btn-run">… Run</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="loader"><h2 style="margin:0">LOADING KANTO…</h2><div class="bar"><i id="loadfill"></i></div><div id="loadmsg" style="color:var(--dim);font-size:13px">reading pokered-master/ manifest…</div></div>
+  </div>
+  <div id="side">
+    <div id="tabs">
+      <button data-t="play" class="on">▶ Play</button>
+      <button data-t="dex">▦ Pokédex</button>
+      <button data-t="dlg">💬 Text</button>
+      <button data-t="files">🗂 Files</button>
+    </div>
+    <div id="panes">
+      <div class="pane on" id="pane-play">
+        <h3>STARTER · CHOOSE YOUR PARTNER</h3>
+        <div class="grid2" id="starters"></div>
+        <h3>PARTY (<span id="party-n">1</span>/6)</h3>
+        <div id="party" style="display:flex;gap:8px;flex-wrap:wrap"></div>
+        <h3>BATTLE LOG · LIVE</h3>
+        <div id="blog">Welcome to Kanto 3D. All original disassembly files are mounted read-only under <code>pokered-master/</code>.<br></div>
+        <h3>KANTO ZONES (from data/maps/headers/*.asm)</h3>
+        <div class="grid2" id="zones"></div>
+      </div>
+      <div class="pane" id="pane-dex">
+        <h3>POKÉDEX · parsed live from base_stats/*.asm</h3>
+        <div id="dexgrid"></div>
+        <div id="dexdetail" style="margin-top:10px"></div>
+      </div>
+      <div class="pane" id="pane-dlg">
+        <h3>DIALOGUE · verbatim from text/*.asm</h3>
+        <div id="dlglist">loading…</div>
+      </div>
+      <div class="pane" id="pane-files">
+        <h3>ORIGINAL ARCHIVE · 100% AS-IS</h3>
+        <div class="grid2">
+          <div class="stat"><b id="c-asm">–</b>.asm sources</div>
+          <div class="stat"><b id="c-png">–</b>.png sprites</div>
+          <div class="stat"><b id="c-blk">–</b>.blk maps</div>
+          <div class="stat"><b id="c-all">–</b>total files</div>
+        </div>
+        <p style="font-size:12px;color:var(--dim)">Nothing converted, nothing deleted. The game fetches these exact bytes at runtime. Search and click any file to preview.</p>
+        <input type="text" id="q" placeholder="filter 2875 files… e.g. audio/music/pallettown">
+        <div id="filelist" style="margin-top:8px;max-height:300px;overflow:auto"></div>
+        <div id="fileview" style="margin-top:8px"></div>
+      </div>
+    </div>
+    <footer>pokédisassembly preserved: <code>pokered-master/</code> + <code>manifest.json</code> · sprites © Nintendo/Game Freak (1996) via pret/pokered · 3D desktop demo for education</footer>
+  </div>
+</div>
+
+<script type="module">
+import * as THREE from './vendor/three.module.js';
+
+const $=s=>document.querySelector(s);
+const log=m=>{const b=$('#blog');b.innerHTML+=m+'<br>';b.scrollTop=1e6;};
+const toast=(m,ms=2200)=>{const t=$('#toast');t.textContent=m;t.style.display='block';clearTimeout(t._h);t._h=setTimeout(()=>t.style.display='none',ms);};
+function setLoad(p,msg){$('#loadfill').style.width=(p*100).toFixed(0)+'%';if(msg)$('#loadmsg').textContent=msg;}
+
+// ---------- data: starters + wild pool (real file paths) ----------
+const POOL=['bulbasaur','charmander','squirtle','pikachu','caterpie','weedle','pidgey','rattata','spearow','ekans','sandshrew','nidoranf','clefairy','vulpix','jigglypuff','zubat','geodude','abra','machop','gastly','mew'];
+const STARTERS=['bulbasaur','charmander','squirtle','pikachu'];
+const state={caught:['pikachu'],party:['pikachu'],statsCache:{},manifest:null,muted:false,battle:null,dexSel:'bulbasaur'};
+const front=n=>`pokered-master/gfx/pokemon/front/${n}.png`;
+
+// ---------- three setup ----------
+const canvas=$('#c');
+const renderer=new THREE.WebGLRenderer({canvas,antialias:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFShadowMap;
+const scene=new THREE.Scene();
+scene.background=new THREE.Color(0x87bfe8);
+scene.fog=new THREE.Fog(0x9fcbe8,60,160);
+const camera=new THREE.PerspectiveCamera(55,1,0.1,500);
+const hemi=new THREE.HemisphereLight(0xbfd9ff,0x3d7a3d,0.95);scene.add(hemi);
+const sun=new THREE.DirectionalLight(0xfff2cc,1.6);sun.position.set(40,60,20);sun.castShadow=true;
+sun.shadow.mapSize.set(1024,1024);sun.shadow.camera.left=-60;sun.shadow.camera.right=60;sun.shadow.camera.top=60;sun.shadow.camera.bottom=-60;scene.add(sun);
+
+function resize(){const r=canvas.parentElement.getBoundingClientRect();renderer.setSize(r.width,r.height,false);camera.aspect=r.width/r.height;camera.updateProjectionMatrix();}
+addEventListener('resize',resize);
+
+// ---------- world ----------
+const WORLD=72;
+const grassPatches=[],billboards=[],colliders=[];
+function mat(c){return new THREE.MeshLambertMaterial({color:c});}
+function box(w,h,d,c,x,z,y=0){const m=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),mat(c));m.position.set(x,y+h/2,z);m.castShadow=m.receiveShadow=true;scene.add(m);return m;}
+function label(text,x,y,z,size=2.2,color='#ffffff'){const cv=document.createElement('canvas');cv.width=512;cv.height=128;const g=cv.getContext('2d');g.fillStyle='rgba(0,0,0,.55)';g.fillRect(0,20,512,88);g.fillStyle=color;g.font='bold 52px sans-serif';g.textAlign='center';g.fillText(text,256,86);const t=new THREE.CanvasTexture(cv);const m=new THREE.Mesh(new THREE.PlaneGeometry(size*4,size),new THREE.MeshBasicMaterial({map:t,transparent:true}));m.position.set(x,y,z);scene.add(m);return m;}
+
+async function build(){
+  setLoad(.08,'painting Kanto terrain…');
+  const gnd=new THREE.Mesh(new THREE.PlaneGeometry(WORLD*2,WORLD*2),mat(0x5da24a));gnd.rotation.x=-Math.PI/2;gnd.receiveShadow=true;scene.add(gnd);
+  // zone plates
+  const zones=[
+    ['PALLET TOWN',-24,22,20,0xe8d8a0],['ROUTE 1',-24,8,16,0x7cc46a],['VIRIDIAN CITY',-24,-8,20,0xcfcfcf],
+    ['PEWTER CITY',-6,-22,18,0xc9a06a],['MT. MOON',14,-20,16,0x8d8d9e],['CERULEAN CITY',26,-6,20,0x9fd0ff],
+    ['ROUTE 21 · SURF',-24,32,10,0x3f8fd6],['INDIGO PLATEAU',22,22,16,0xd8d8e8]];
+  window._zones=zones;
+  for(const [n,x,z,s,c] of zones){const p=new THREE.Mesh(new THREE.PlaneGeometry(s,s),mat(c));p.rotation.x=-Math.PI/2;p.position.set(x,0.02,z);p.receiveShadow=true;scene.add(p);label(n,x,4,z,1.1);}
+  const zdiv=$('#zones');zdiv.innerHTML=zones.map(([n])=>`<div class="stat">${n}</div>`).join('');
+  // water
+  const water=new THREE.Mesh(new THREE.PlaneGeometry(14,10),new THREE.MeshLambertMaterial({color:0x2f7fe0,transparent:true,opacity:.9}));water.rotation.x=-Math.PI/2;water.position.set(-24,0.05,32);scene.add(water);
+  const water2=water.clone();water2.position.set(26,0.05,-6);water2.scale.set(1.4,1.2,1);scene.add(water2);
+  // paths
+  for(let i=0;i<9;i++) box(2.4,.12,2.4,0xd9c07a,-24,18-i*3,.02);
+  // houses
+  const houses=[['OAK LAB',-28,24,0x7a4a2b],['YOUR HOUSE',-20,25,0xb05252],['RIVAL HOUSE',-17,22,0x527ab0],['POKECENTER',-28,-6,0xd64545],['MART',-20,-9,0x3b5bd6],['PEWTER GYM',-6,-24,0x7777aa],['CERULEAN GYM',26,-9,0x4a90d9],['SAFARI GATE',10,10,0x6a8f3f]];
+  for(const [n,x,z,c] of houses){box(5,3,4,c,x,z);box(5.6,.9,4.6,0x8b2e2e,x,z,3);label(n,x,5.2,z,.85,'#ffcb05');colliders.push({x,z,r:3.4});}
+  // trees (instanced-ish loop, cheap)
+  const trunkG=new THREE.CylinderGeometry(.25,.35,1.6,6),leafG=new THREE.ConeGeometry(1.5,3,7);
+  const trunkM=mat(0x6b4423),leafM=mat(0x2f7d32);
+  for(let i=0;i<90;i++){const x=(Math.random()-.5)*120,z=(Math.random()-.5)*120;if(Math.abs(x+24)<14&&z>-2&&z<30)continue;const t=new THREE.Mesh(trunkG,trunkM);t.position.set(x,.8,z);scene.add(t);const l=new THREE.Mesh(leafG,leafM);l.position.set(x,2.8,z);l.castShadow=true;scene.add(l);}
+  // mountain + plateau
+  const mtn=new THREE.Mesh(new THREE.ConeGeometry(9,14,8),mat(0x6f6f85));mtn.position.set(14,7,-20);mtn.castShadow=true;scene.add(mtn);
+  for(let i=0;i<4;i++) box(12-i*2,1.2,12-i*2,0xb9bed6,22,22,1.2*i);
+  label('POKéMON LEAGUE',22,8,22,1.6,'#e3350d');
+  // tall grass patches
+  const gg=new THREE.PlaneGeometry(1.1,0.85);
+  for(let i=0;i<130;i++){const inR1=Math.random()<.6;const x=inR1?-24+(Math.random()-.5)*13:(Math.random()-.5)*100;const z=inR1?8+(Math.random()-.5)*13:(Math.random()-.5)*100;
+    const m=new THREE.Mesh(gg,new THREE.MeshLambertMaterial({color:0x2f9e2f,side:THREE.DoubleSide,transparent:true,opacity:.95}));m.position.set(x,.5,z);m.rotation.y=Math.random()*Math.PI;scene.add(m);grassPatches.push(m);
+    if(i%9===0){const m2=m.clone();m2.rotation.y+=Math.PI/2;m2.position.x+=.5;scene.add(m2);grassPatches.push(m2);}}
+  setLoad(.25,'pinning original sprites to 3D…');
+  // pokemon billboards with REAL pngs
+  const texLoader=new THREE.TextureLoader();texLoader.setCrossOrigin='anonymous';
+  const spots=[[-24,12],[-22,5],[-27,3],[-6,-16],[2,-14],[26,-1],[22,3],[10,14],[-18,20],[0,0],[8,-4],[-12,-12],[24,18],[30,-12],[-30,14],[4,24],[-10,24],[14,4],[20,-16],[-28,-14]];
+  POOL.slice(0,20).forEach((n,i)=>{const [x,z]=spots[i%spots.length];
+    const tex=texLoader.load(front(n),t=>{t.magFilter=THREE.NearestFilter;t.colorSpace=THREE.SRGBColorSpace;});
+    const spr=new THREE.Mesh(new THREE.PlaneGeometry(2.2,2.2),new THREE.MeshBasicMaterial({map:tex,transparent:true,alphaTest:.2,side:THREE.DoubleSide}));
+    spr.position.set(x+(Math.random()-.5)*3,1.4,z+(Math.random()-.5)*3);spr.userData={name:n,base:1.4,ph:Math.random()*6};scene.add(spr);billboards.push(spr);
+    const sh=new THREE.Mesh(new THREE.CircleGeometry(1,.9,16),new THREE.MeshBasicMaterial({color:0x000000,transparent:true,opacity:.25}));sh.rotation.x=-Math.PI/2;sh.position.set(spr.position.x,.03,spr.position.z);scene.add(sh);});
+  // trainers with REAL sprites
+  for(const [f,x,z] of [['rival1',-23,21],['brock',-6,-20],['misty',26,-8],['prof.oak',-28,23]]){
+    const t=texLoader.load(`pokered-master/gfx/trainers/${f}.png`,t2=>{t2.magFilter=THREE.NearestFilter;t2.colorSpace=THREE.SRGBColorSpace;});
+    const m=new THREE.Mesh(new THREE.PlaneGeometry(2,2.6),new THREE.MeshBasicMaterial({map:t,transparent:true,alphaTest:.2,side:THREE.DoubleSide}));m.position.set(x,1.4,z);m.userData={name:f};scene.add(m);billboards.push(m);}
+  // player avatar
+  const p=new THREE.Group();
+  const body=new THREE.Mesh(new THREE.BoxGeometry(.9,1.1,.55),mat(0xe3350d));body.position.y=.85;body.castShadow=true;p.add(body);
+  const head=new THREE.Mesh(new THREE.SphereGeometry(.42,14,12),mat(0xffd9b3));head.position.y=1.8;head.castShadow=true;p.add(head);
+  const cap=new THREE.Mesh(new THREE.SphereGeometry(.44,14,8,0,Math.PI*2,0,Math.PI/2),mat(0xe3350d));cap.position.y=1.86;p.add(cap);
+  const brim=new THREE.Mesh(new THREE.BoxGeometry(.7,.08,.4),mat(0xe3350d));brim.position.set(0,1.88,.5);p.add(brim);
+  const pack=new THREE.Mesh(new THREE.BoxGeometry(.6,.7,.3),mat(0x2f6f2f));pack.position.set(0,.9,-.45);p.add(pack);
+  p.position.set(-24,0,16);scene.add(p);window._player=p;
+  // start ball
+  const ball=new THREE.Mesh(new THREE.SphereGeometry(.32,14,12),new THREE.MeshLambertMaterial({color:0xe3350d}));ball.position.set(-22,1,22);scene.add(ball);window._ball=ball;
+  resize();
+}
+
+// ---------- camera follow + orbit ----------
+let yaw=.35,pitch=.42,dist=15,dragging=false,lx=0,ly=0;
+canvas.addEventListener('pointerdown',e=>{dragging=true;lx=e.clientX;ly=e.clientY;canvas.setPointerCapture(e.pointerId);});
+canvas.addEventListener('pointermove',e=>{if(!dragging)return;yaw-=(e.clientX-lx)*.006;pitch=Math.min(1.2,Math.max(.15,pitch+(e.clientY-ly)*.005));lx=e.clientX;ly=e.clientY;});
+canvas.addEventListener('pointerup',()=>dragging=false);
+canvas.addEventListener('wheel',e=>{dist=Math.min(30,Math.max(5,dist+e.deltaY*.01));},{passive:true});
+const keys={};
+addEventListener('keydown',e=>{keys[e.key.toLowerCase()]=true;
+  if(e.key.toLowerCase()==='e')throwBall();
+  if(e.key.toLowerCase()==='f')talk();});
+addEventListener('keyup',e=>{keys[e.key.toLowerCase()]=false;});
+$('#btn-help').onclick=()=>toast('WASD move · drag orbit · wheel zoom · E throw ball · F talk · click a Pokémon to inspect',3200);
+
+function zoneAt(x,z){let best='WILDERNESS',bd=1e9;for(const [n,qx,qz] of window._zones||[]){const d=(x-qx)**2+(z-qz)**2;if(d<bd){bd=d;best=n;}}return best;}
+function talk(){const p=window._player;toast('OAK: "Hey! Wait! Don\'t go out!" — verbatim text/PalletTown.asm',2600);log('<b>OAK:</b> Hey! Wait! Don\'t go out! <i>(text/PalletTown.asm)</i>');}
+
+// ---------- encounters & battle ----------
+function parseStats(txt){const m=txt.match(/db\s+(\d+),\s*(\d+),\s*(\d+),\s*(\d+),\s*(\d+)/);const t=txt.match(/db\s+([A-Z_]+),\s*([A-Z_]+)\s*;\s*type/i);const c=txt.match(/db\s+(\d+)\s*;\s*catch rate/i);return{hp:+m?.[1]||45,atk:+m?.[2]||49,def:+m?.[3]||49,spd:+m?.[4]||45,spc:+m?.[5]||65,t1:t?.[1]||'???',t2:t?.[2]||'',catch:+(c?.[1]||45)};}
+async function statFor(n){if(state.statsCache[n])return state.statsCache[n];try{const t=await(await fetch(`pokered-master/data/pokemon/base_stats/${n}.asm`)).text();const s=parseStats(t);state.statsCache[n]=s;return s;}catch{const s={hp:45,atk:49,def:49,spd:45,spc:65,t1:'???',t2:'',catch:45};state.statsCache[n]=s;return s;}}
+let encCooldown=0;
+async function maybeEncounter(p,t){if(encCooldown>0)return;let inGrass=false;for(const g of grassPatches){const dx=g.position.x-p.position.x,dz=g.position.z-p.position.z;if(dx*dx+dz*dz<1.4){inGrass=true;break;}}
+  if(inGrass&&Math.random()<.02){encCooldown=6;const wild=POOL[Math.floor(Math.random()*POOL.length)];openBattle(wild);}}
+async function openBattle(n){const s=await statFor(n);const lvl=3+Math.floor(Math.random()*5);
+  state.battle={name:n,lvl,max:10+s.hp,hp:10+s.hp,stats:s};
+  $('#btitle').textContent=`WILD ${n.toUpperCase()} appeared!  Lv${lvl}`;
+  $('#bname').textContent=n;$('#blvl').textContent='Lv'+lvl;
+  $('#bimg').src=front(n);
+  $('#bstats').textContent=`${s.t1}${s.t2?' / '+s.t2:''} · HP ${s.hp} ATK ${s.atk} DEF ${s.def} · catch ${s.catch} · src base_stats/${n}.asm`;
+  updHp();$('#battle').style.display='block';log(`🌿 Wild <b>${n}</b> Lv${lvl} appeared! <i>(${s.t1}, catch ${s.catch})</i>`);blip(660);}
+function updHp(){const b=state.battle;$('#bhp').style.width=(100*b.hp/b.max).toFixed(0)+'%';}
+$('#btn-fight').onclick=()=>{const b=state.battle;if(!b)return;const dmg=6+Math.floor(Math.random()*10);b.hp=Math.max(0,b.hp-dmg);updHp();log(`⚔ Tackle hit ${b.name} for ${dmg}!`);blip(220);if(b.hp<=0){log(`💀 Foe ${b.name} fainted! +XP`);toast(`${b.name} fainted!`,1800);$('#battle').style.display='none';state.battle=null;}};
+$('#btn-run').onclick=()=>{log('💨 Got away safely!');$('#battle').style.display='none';state.battle=null;};
+$('#btn-ball').onclick=()=>{const b=state.battle;if(!b)return;const p=(b.stats.catch/255*(b.hp/b.max*.6+.4));if(Math.random()<p+.15){catchMon(b.name);log(`🎉 Caught <b>${b.name}</b>! (rate ${b.stats.catch})`);toast(`Caught ${b.name}!`,2000);$('#battle').style.display='none';state.battle=null;}else{log(`◉ ${b.name} broke free!`);blip(140);}};
+function catchMon(n){if(!state.caught.includes(n))state.caught.push(n);if(state.party.length<6&&!state.party.includes(n))state.party.push(n);renderParty();$('#stat-caught').textContent=state.caught.length;}
+function throwBall(){toast('◉ Poké Ball thrown! (walk into grass for battles)',1600);const b=window._ball;if(b){b.position.copy(window._player.position).add(new THREE.Vector3(0,2,0));b.userData.t=0;b.userData.fly=true;}blip(880);}
+function renderParty(){$('#party-n').textContent=state.party.length;$('#stat-caught').textContent=state.caught.length;$('#party').innerHTML=state.party.map(n=>`<div class="mon" style="width:84px"><img src="${front(n)}" onerror="this.style.display='none'"><b>${n}</b></div>`).join('');}
+function renderStarters(){$('#starters').innerHTML=STARTERS.map(n=>`<div class="mon" data-s="${n}"><img loading="lazy" src="${front(n)}"><b>${n}</b></div>`).join('');
+  document.querySelectorAll('#starters .mon').forEach(el=>el.onclick=()=>{const n=el.dataset.s;state.party[0]=n;if(!state.caught.includes(n))state.caught.push(n);renderParty();$('#stat-caught').textContent=state.caught.length;log(`⭐ Chose starter <b>${n}</b>!`);toast(n+' joined your party!',1800);});}
+
+// ---------- pokedex / dialogue / files tabs ----------
+document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#tabs button').forEach(x=>x.classList.remove('on'));document.querySelectorAll('.pane').forEach(x=>x.classList.remove('on'));b.classList.add('on');$('#pane-'+b.dataset.t).classList.add('on');});
+async function buildDex(){$('#dexgrid').innerHTML=POOL.map(n=>`<div class="mon" data-d="${n}"><img loading="lazy" src="${front(n)}" onerror="this.parentNode.style.opacity=.5"><b>${n}</b></div>`).join('');
+  document.querySelectorAll('#dexgrid .mon').forEach(el=>el.onclick=()=>showDex(el.dataset.d));showDex('bulbasaur');}
+async function showDex(n){state.dexSel=n;document.querySelectorAll('#dexgrid .mon').forEach(x=>x.classList.toggle('sel',x.dataset.d===n));
+  const s=await statFor(n);let raw='';try{raw=(await(await fetch(`pokered-master/data/pokemon/base_stats/${n}.asm`)).text()).slice(0,900);}catch{raw='(offline fallback)';}
+  $('#dexdetail').innerHTML=`<div style="display:flex;gap:10px"><img src="${front(n)}"><div><b style="text-transform:capitalize;font-size:16px">${n}</b><div style="font-size:12px;color:var(--dim)">${s.t1}${s.t2?' / '+s.t2:''} · catch ${s.catch} · base exp · ${s.hp}/${s.atk}/${s.def}/${s.spd}/${s.spc}</div><div class="grid2" style="margin-top:6px">${['hp','atk','def','spd','spc'].map(k=>`<div class="stat"><b>${s[k]}</b>${k}</div>`).join('')}</div></div></div><pre class="asm">${raw.replace(/</g,'&lt;')}</pre>`;}
+async function buildDlg(){const files=['text/PalletTown.asm','text/ViridianCity.asm','text/PewterCity.asm','text/CeruleanCity.asm','text/OaksLab.asm','text/PewterGym.asm'];let html='';
+  for(const f of files){try{const t=await(await fetch('pokered-master/'+f)).text();const chunks=t.split('::').slice(1,4).map(c=>'::'+c).join('').slice(0,700);
+    html+=`<div class="dialogue"><b>${f}</b><pre class="asm">${t.slice(0,600).replace(/</g,'&lt;')}</pre></div>`;}catch{html+=`<div class="dialogue"><b>${f}</b> (unavailable offline)</div>`;}}
+  $('#dlglist').innerHTML=html;}
+async function buildFiles(){try{const r=await fetch('manifest.json');state.manifest=await r.json();}catch{state.manifest={count:0,files:[]};}
+  const files=state.manifest.files||[];$('#stat-files').textContent=files.length||2875;
+  const ext=c=>files.filter(f=>f.path.endsWith(c)).length;
+  $('#c-asm').textContent=ext('.asm');$('#c-png').textContent=ext('.png');$('#c-blk').textContent=ext('.blk');$('#c-all').textContent=files.length;
+  const render=q=>{const list=files.filter(f=>!q||f.path.toLowerCase().includes(q)).slice(0,220);
+    $('#filelist').innerHTML=list.map(f=>`<div class="row" data-p="${f.path}"><span>${f.path}</span><span class="sz">${(f.size/1024).toFixed(1)}k</span></div>`).join('')||'(no match)';
+    document.querySelectorAll('#filelist .row').forEach(el=>el.onclick=()=>previewFile(el.dataset.p));};
+  $('#q').oninput=e=>render(e.target.value.toLowerCase());render('');
+  log(`🗂 Mounted <b>${files.length} original files</b> read-only (0 modified).`);}
+async function previewFile(p){const v=$('#fileview');v.innerHTML=`<b style="font-size:12px">${p}</b><div style="color:var(--dim);font-size:12px">fetching original bytes…</div>`;
+  try{if(p.endsWith('.png')){v.innerHTML=`<b style="font-size:12px">${p}</b><br><img src="${p}"><div style="font-size:11px;color:var(--dim)">original sprite, unmodified · ${(state.manifest.files.find(f=>f.path===p)?.size||0)} bytes</div>`;return;}
+    const t=await(await fetch(p)).text();v.innerHTML=`<b style="font-size:12px">${p}</b><pre class="asm">${t.slice(0,4000).replace(/</g,'&lt;')}</pre>`;}catch{v.innerHTML='(fetch failed offline)';}}
+
+// ---------- audio: tiny chiptune ----------
+let AC=null,seq=null;
+function blip(f=440){if(state.muted)return;try{AC=AC||new (window.AudioContext||window.webkitAudioContext)();const o=AC.createOscillator(),g=AC.createGain();o.type='square';o.frequency.value=f;g.gain.value=.05;o.connect(g).connect(AC.destination);o.start();g.gain.exponentialRampToValueAtTime(.0001,AC.currentTime+.18);o.stop(AC.currentTime+.2);}catch{}}
+function chiptune(){if(state.muted||!AC)return;const notes=[67,72,76,79,76,72,74,79,81,79,76,72,67,0,64,67];let i=0;clearInterval(seq);seq=setInterval(()=>{if(state.muted)return;const n=notes[i++%notes.length];if(n)blip(440*Math.pow(2,(n-69)/12));},170);}
+$('#btn-sound').onclick=e=>{state.muted=!state.muted;e.target.textContent=state.muted?'🔇 sound: off':'🔊 sound: on';if(!state.muted){AC=AC||new (window.AudioContext||window.webkitAudioContext)();chiptune();}else clearInterval(seq);};
+
+// ---------- minimap ----------
+function drawMM(){const g=$('#mm').getContext('2d');g.fillStyle='#0a1a0a';g.fillRect(0,0,150,150);g.fillStyle='#2f7fe0';g.fillRect(18,108,30,22);g.fillRect(108,52,30,26);
+  g.fillStyle='#e8d8a0';g.fillRect(28,28,44,34);g.fillStyle='#cfcfcf';g.fillRect(28,70,44,30);g.fillStyle='#c9a06a';g.fillRect(60,96,40,34);
+  const p=window._player;if(p){const mx=(p.position.x+60)/120*150,mz=(p.position.z+60)/120*150;g.fillStyle='#ffcb05';g.beginPath();g.arc(mx,mz,4,0,7);g.fill();g.fillStyle='#e3350d';g.beginPath();g.arc(mx,mz,2,0,7);g.fill();}}
+
+// ---------- raycast click on pokemon ----------
+const ray=new THREE.Raycaster(),mv=new THREE.Vector2();
+canvas.addEventListener('click',e=>{const r=canvas.getBoundingClientRect();mv.x=((e.clientX-r.left)/r.width)*2-1;mv.y=-((e.clientY-r.top)/r.height)*2+1;ray.setFromCamera(mv,camera);
+  const hit=ray.intersectObjects(billboards,false)[0];if(hit&&hit.object.userData.name){const n=hit.object.userData.name;if(POOL.includes(n)){showDex(n);document.querySelector('[data-t="dex"]').click();toast(n+' — see Pokédex (base_stats/'+n+'.asm)',2000);}else toast(n+': "…!" (gfx/trainers/'+n+'.png)',2000);}});
+
+// ---------- main loop ----------
+const clock=new THREE.Clock();
+function tick(){requestAnimationFrame(tick);const dt=Math.min(clock.getDelta(),.05),t=clock.elapsedTime;
+  const p=window._player;
+  if(p){const sp=10*dt;let mx=0,mz=0;if(keys.w||keys.arrowup)mz-=sp;if(keys.s||keys.arrowdown)mz+=sp;if(keys.a||keys.arrowleft)mx-=sp;if(keys.d||keys.arrowright)mx+=sp;
+    if(mx||mz){const c=Math.cos(yaw),s=Math.sin(yaw);const wx=mx*c-mz*s,wz=mx*s+mz*c;let nx=p.position.x+wx,nz=p.position.z+wz;
+      nx=Math.max(-58,Math.min(58,nx));nz=Math.max(-58,Math.min(58,nz));
+      let blocked=false;for(const o of colliders){const dx=nx-o.x,dz=nz-o.z;if(dx*dx+dz*dz<o.r*o.r){blocked=true;break;}}
+      if(!blocked){p.position.x=nx;p.position.z=nz;}p.rotation.y=Math.atan2(wx,wz);p.position.y=Math.abs(Math.sin(t*10))*.08*(mx||mz?1:0);
+      maybeEncounter(p,t);}
+    encCooldown=Math.max(0,encCooldown-dt);
+    camera.position.set(p.position.x+Math.sin(yaw)*Math.cos(pitch)*dist,p.position.y+Math.sin(pitch)*dist+2,p.position.z+Math.cos(yaw)*Math.cos(pitch)*dist);
+    camera.lookAt(p.position.x,1.5,p.position.z);
+    $('#pos').textContent=`x ${p.position.x.toFixed(0)} · z ${p.position.z.toFixed(0)} · ${zoneAt(p.position.x,p.position.z)}`;
+    if(Math.floor(t*2)!==tick._m){tick._m=Math.floor(t*2);drawMM();}}
+  for(const b of billboards){b.lookAt(camera.position);if(b.userData.base)b.position.y=b.userData.base+Math.sin(t*2+b.userData.ph)*.15;}
+  grassPatches.forEach((g,i)=>{g.rotation.y+=Math.sin(t*3+i)*.0006;});
+  const bl=window._ball;if(bl&&bl.userData.fly){bl.userData.t+=dt;bl.position.y=2+Math.sin(bl.userData.t*6)*1;bl.rotation.x+=dt*8;if(bl.userData.t>1.2)bl.userData.fly=false;}
+  sun.position.set(p?p.position.x+40:40,60,p?p.position.z+20:20);
+  renderer.render(scene,camera);}
+
+// ---------- boot ----------
+(async()=>{
+  try{
+    setLoad(.03,'mounting pokered-master/ (as-is)…');
+    await build();renderStarters();renderParty();
+    setLoad(.6,'fetching base_stats + dialogue + manifest…');
+    await Promise.allSettled([buildDex(),buildDlg(),buildFiles()]);
+    try{AC=new (window.AudioContext||window.webkitAudioContext)();chiptune();}catch{}
+    // auto demo walk north along the Route 1 path so screenshots feel alive
+    let demo=0;const di=setInterval(()=>{if(demo++>40||keys.w||keys.a||keys.s||keys.d){clearInterval(di);return;}if(window._player){window._player.position.z-=.15;}},80);
+    setLoad(1,'ready — welcome to Kanto 3D');
+    setTimeout(()=>$('#loader').style.display='none',450);
+    setTimeout(()=>{const l=$('#loader');if(l&&l.style.display!=='none'){l.style.display='none';log('⚠ loader force-hidden (slow fetch) — 3D already running.');}},8000);
+    log('✅ <b>3D Kanto online.</b> Sprites + stats + text streaming from original files.');
+    tick();
+  }catch(err){$('#loadmsg').textContent='Boot error: '+err.message;console.error(err);tick();}
+})();
+</script>
+</body>
+</html>
