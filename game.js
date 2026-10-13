@@ -359,9 +359,14 @@ function hasLOS(x0, y0, x1, y1) {
   }
   return true;
 }
-function fire() {
+function fire(fromPad) {
   const w = WPNS[cur];
   if (player.cd > 0 || player.ammo <= 0 || player.hp <= 0) return;
+  if (fromPad) { // gamepad aim-assist snap (<=2 deg)
+    const tgt = assistTarget();
+    if (tgt) player.dir += Math.max(-PAD.snapMax, Math.min(PAD.snapMax, tgt.err));
+  }
+  rumble(0.15, 0.45, 70);
   player.ammo--; player.cd = w.rate; player.muzzle = 0.09;
   lightT = Math.max(lightT, 0.9);
   playShot(cur);
@@ -397,11 +402,15 @@ addEventListener('keydown', e => {
   if (n >= 1 && n <= 5 && owned[n - 1]) { cur = n - 1; updateGun(); }
 });
 addEventListener('keyup', e => keys[e.key.toLowerCase()] = false);
+let mouseDown = false;
 cv.addEventListener('mousedown', e => {
+  mouseDown = true;
   if (player.hp <= 0) { respawnLevel(); return; }
   if (levelIdx >= LEVELS.length) { restartGame(); return; }
-  fire();
+  fire(false);
 });
+addEventListener('mouseup', () => mouseDown = false);
+addEventListener('blur', () => mouseDown = false);
 addEventListener('mousemove', e => {
   if (document.pointerLockElement !== cv || paused) return;
   player.dir += e.movementX * 0.0028;
@@ -440,6 +449,97 @@ function updateGun() {
   gunGroup.rotation.set(0.06, Math.PI, -0.04);
   flashSpr.position.set(...w.flash);
 }
+function selectWeapon(n) { if (owned[n]) { cur = n; updateGun(); } }
+function cycleWeapon(d) {
+  let n = cur;
+  for (let i = 0; i < owned.length; i++) {
+    n = (n + d + owned.length) % owned.length;
+    if (owned[n]) { cur = n; updateGun(); return; }
+  }
+}
+
+// ---------- gamepad (PlayStation-style twin-stick) ----------
+// Left stick move · right stick look · R2 fire · L2 aim · L3 sprint.
+// Triangle cycles weapons, D-pad selects, R3 quick-turns, Options pauses.
+// Cross/Circle/Square/L1/R1 unbound (engine has no jump/crouch/reload).
+const PAD = { dz: 0.18, look: 2.6, baseFov: 75, adsFov: 55, assistCone: 0.11, assistPull: 1.2, snapMax: 0.035 };
+let padFire = false, adsHeld = false, sprintPad = false, adsK = 0;
+let padPrev = [], lastPad = null, lastRumbleT = -9;
+const dzExpo = v => {
+  const a = Math.abs(v);
+  if (a < PAD.dz) return 0;
+  const s = (a - PAD.dz) / (1 - PAD.dz);
+  return Math.sign(v) * s * s;
+};
+function getPad() {
+  try {
+    const pads = navigator.getGamepads ? navigator.getGamepads() : [];
+    for (const p of pads) if (p && p.connected) return p;
+  } catch {}
+  return null;
+}
+const padBtn = (p, i) => { const b = p.buttons[i]; return !!(b && (b.pressed || b.value > 0.3)); };
+function rumble(weak, strong, ms) {
+  if (t - lastRumbleT < 0.15) return;
+  try {
+    const act = lastPad && lastPad.vibrationActuator;
+    if (!act || !act.playEffect) return;
+    const r = act.playEffect('dual-rumble', { duration: ms, weakMagnitude: weak, strongMagnitude: strong });
+    if (r && r.catch) r.catch(() => {});
+    lastRumbleT = t;
+  } catch {}
+}
+function assistTarget() {
+  let best = null, bestErr = PAD.assistCone;
+  for (const f of foes) {
+    if (f.state === 'dead' || f.state === 'gone' || f.isBarrel) continue;
+    const dx = f.x - player.x, dy = f.y - player.y;
+    const d = Math.hypot(dx, dy);
+    if (d > 14 || d < 0.5) continue;
+    let err = Math.atan2(dy, dx) - player.dir;
+    while (err > Math.PI) err -= 2 * Math.PI; while (err < -Math.PI) err += 2 * Math.PI;
+    if (Math.abs(err) < bestErr && hasLOS(player.x, player.y, f.x, f.y)) { best = f; bestErr = Math.abs(err); }
+  }
+  if (!best) return null;
+  let e = Math.atan2(best.y - player.y, best.x - player.x) - player.dir;
+  while (e > Math.PI) e -= 2 * Math.PI; while (e < -Math.PI) e += 2 * Math.PI;
+  return { f: best, err: e };
+}
+function pollPad(dt) {
+  const p = getPad(); lastPad = p;
+  padFire = false; adsHeld = false; sprintPad = false;
+  const out = { fw: 0, st: 0 };
+  if (!p || demo || paused) return out;
+  const ax = i => (p.axes[i] || 0);
+  out.fw = -dzExpo(ax(1)); out.st = dzExpo(ax(0));
+  // right-stick look (+ aim-assist magnetism while stick is active)
+  const rx = dzExpo(ax(2)), ry = dzExpo(ax(3));
+  if (rx || ry) {
+    const sens = PAD.look * (1 - 0.4 * adsK);
+    player.dir += rx * sens * dt;
+    player.pitch = Math.max(-1.2, Math.min(1.2, player.pitch - ry * sens * dt));
+    const tgt = assistTarget();
+    if (tgt) player.dir += Math.max(-PAD.assistPull * dt, Math.min(PAD.assistPull * dt, tgt.err * 0.4));
+  }
+  const now = p.buttons.map(b => !!(b && (b.pressed || b.value > 0.3)));
+  const was = padPrev;            // previous frame, before overwrite below
+  const edge = i => !!now[i] && !was[i];
+  padFire = !!now[7];             // R2 hold-to-fire
+  adsHeld = !!now[6];             // L2 aim
+  sprintPad = !!now[10];          // L3 sprint
+  if (edge(3)) cycleWeapon(1);    // Triangle: next weapon
+  if (edge(14)) cycleWeapon(-1);  // D-left: prev weapon
+  if (edge(15)) cycleWeapon(1);   // D-right: next weapon
+  if (edge(12)) { let n = owned.length - 1; while (n > 0 && !owned[n]) n--; selectWeapon(n); } // D-up: best gun
+  if (edge(13)) selectWeapon(0);  // D-down: pistol
+  if (edge(11)) player.dir += Math.PI; // R3: quick-turn
+  if (edge(9)) {                  // Options: play / pause
+    if (demo || levelIdx >= LEVELS.length) startPlay();
+    else { paused = !paused; el('pauseBtn').textContent = paused ? 'RESUME' : 'PAUSE'; }
+  }
+  padPrev = now;
+  return out;
+}
 
 // ---------- flow ----------
 function respawnLevel() {
@@ -457,7 +557,6 @@ function cleared() { return foes.every(f => f.state === 'dead' || f.state === 'g
 
 // ---------- update ----------
 function move(dt) {
-  const sp = 3.4 * dt;
   let fw = 0, st = 0;
   if (keys['w'] || keys['arrowup']) fw += 1;
   if (keys['s'] || keys['arrowdown']) fw -= 1;
@@ -465,6 +564,18 @@ function move(dt) {
   if (keys['d']) st += 1;
   if (keys['arrowleft']) player.dir -= 2.4 * dt;
   if (keys['arrowright']) player.dir += 2.4 * dt;
+  // gamepad, additive (no-op without a connected pad)
+  const pad = pollPad(dt);
+  fw += pad.fw; st += pad.st;
+  const sprint = (sprintPad || keys['shift']) && Math.hypot(fw, st) > 0.1;
+  const sp = 3.4 * dt * (sprint ? 1.6 : 1);
+  if ((mouseDown || padFire) && !demo) fire(padFire);
+  // ADS zoom
+  if (!demo) {
+    adsK += ((adsHeld ? 1 : 0) - adsK) * Math.min(1, dt * 8);
+    const fov = PAD.baseFov - (PAD.baseFov - PAD.adsFov) * adsK;
+    if (Math.abs(camera.fov - fov) > 0.05) { camera.fov = fov; camera.updateProjectionMatrix(); }
+  }
   if (demo) {
     if (cleared() && exitPos) {
       const want = Math.atan2(exitPos.y - player.y, exitPos.x - player.x);
@@ -503,7 +614,7 @@ function move(dt) {
         const vx = dx / d * f.spd * dt, vy = dy / d * f.spd * dt;
         if (!isWall(wallAt(f.x + vx, f.y))) f.x += vx;
         if (!isWall(wallAt(f.x, f.y + vy))) f.y += vy;
-      } else if (player.hp > 0) player.hp -= 25 * dt;
+      } else if (player.hp > 0) { player.hp -= 25 * dt; rumble(0.3, 0.8, 120); }
       if (d < 6 && f.atkT <= 0) {
         f.atkT = 2 + Math.random() * 2;
         shots.push({ x: f.x, y: f.y, vx: dx / d * 4, vy: dy / d * 4, life: 2, mesh: null });
@@ -522,7 +633,7 @@ function move(dt) {
     }
     s.mesh.position.set(s.x, 1.0, s.y);
     if (Math.hypot(s.x - player.x, s.y - player.y) < 0.35 && player.hp > 0) {
-      player.hp -= 12; blip(140, 0.2, 'sawtooth', 0.25);
+      player.hp -= 12; blip(140, 0.2, 'sawtooth', 0.25); rumble(0.3, 0.8, 120);
       if (s.mesh) levelGroup.remove(s.mesh);
       shots.splice(i, 1);
     }
@@ -669,7 +780,7 @@ async function boot() {
     } catch (e) { gunModels[i] = null; }
   }
   buildLevel(0);
-  el('hud-msg').textContent = WPNS[0].name + ' · KEYS 1-5 · WASD · CLICK';
+  el('hud-msg').textContent = WPNS[0].name + ' · KEYS 1-5 · WASD · CLICK' + (getPad() ? ' · PAD ON' : ' · NO PAD');
   window.__game = { player, get foes() { return foes; }, get items() { return items; }, get parts() { return parts; }, get levelIdx() { return levelIdx; }, get kills() { return kills; }, gunModels, owned, fire, buildLevel, WPNS, get cur() { return cur; }, gunGroup, camera, scene, THREE };
   requestAnimationFrame(frame);
 }
