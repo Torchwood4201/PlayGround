@@ -5,6 +5,10 @@ const $ = id => document.getElementById(id);
 const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmt = ms => { const s = Math.max(0, Math.round((ms || 0) / 1000)); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); };
 const fmtS = s => { s = Math.max(0, s || 0); return Math.floor(s / 60) + ":" + String(Math.floor(s % 60)).padStart(2, "0"); };
+const isStream = t => !!t && (t.kind === "hls" || t.kind === "dash");
+const durLabel = t => !t ? "0:00" : t.live ? "LIVE" : isStream(t) ? t.kind.toUpperCase() : fmt(t.ms);
+const badgeText = t => t.live ? "LIVE" : isStream(t) ? t.kind.toUpperCase() : t.src === "full" ? "FULL" : "0:30";
+const badgeCls = t => t.live ? "live" : isStream(t) ? "stream" : t.src === "full" ? "full" : "prev";
 const big = u => String(u || "").replace("100x100bb", "600x600bb");
 const HUES = [[32, 60], [8, 50], [200, 55], [160, 45], [280, 45], [45, 70], [340, 50], [100, 40]];
 const grad = i => { const [h, s] = HUES[Math.abs(i || 0) % HUES.length]; return `linear-gradient(135deg,hsl(${h} ${s}% 45%),hsl(${(h + 40) % 360} ${s}% 18%))`; };
@@ -104,10 +108,14 @@ const mixShelves = async (term, genre) => {
   return [...b, ...a];
 };
 
-/* ---------- player ---------- */
+/* ---------- player (dual engine: <audio> for MP3/preview + live radio, Shaka for HLS/DASH) ----------
+   Shaka is attached to the <audio> element so any video tracks inside an HLS/DASH stream
+   are dropped by the player — i.e. we stream the video sources as AUDIO ONLY. */
 const au = $("audio");
 let Q = [], cur = -1, playing = false;
+let engine = "audio", shakaPlayer = null;
 const T = () => Q[cur];
+const setEngine = e => { engine = e; document.body.dataset.engine = e; };
 au.volume = 0.9;
 au.preload = "auto";
 
@@ -126,15 +134,53 @@ function playAt(i, list) {
   if (!Q.length) { toast("QUEUE IS EMPTY"); return; }
   cur = ((i % Q.length) + Q.length) % Q.length;
   const t = T();
-  if (!t || !t.url) { toast("NO PREVIEW FOR THIS TRACK"); return; }
-  au.src = t.url;
-  au.play().catch(() => { playing = false; sync(); toast("TAP PLAY TO START AUDIO"); });
+  if (!t || !t.url) { toast("NO SOURCE FOR THIS TRACK"); return; }
+  loadTrack(t);
   remember(t);
   sync();
   renderQueue();
   renderAbout();
   updateLikeBtn();
   document.body.classList.add("playing");
+}
+function loadTrack(t) {
+  if (isStream(t)) playViaShaka(t);
+  else playViaAudio(t);
+}
+function playViaAudio(t) {
+  if (engine === "shaka") return stopShaka().then(() => startAudio(t));
+  startAudio(t);
+}
+function startAudio(t) {
+  setEngine("audio");
+  au.src = t.url;
+  au.play().catch(() => { playing = false; sync(); toast("TAP PLAY TO START AUDIO"); });
+}
+async function ensureShaka() {
+  if (shakaPlayer) return shakaPlayer;
+  if (!window.shaka) throw new Error("Shaka Player failed to load (offline?)");
+  shaka.polyfill.installAll();
+  if (!shaka.Player.isBrowserSupported()) throw new Error("HLS/DASH not supported in this browser");
+  const p = new shaka.Player(au);
+  p.addEventListener("error", () => { if (engine === "shaka") toast("STREAM ERROR — TRY NEXT"); });
+  shakaPlayer = p;
+  return p;
+}
+async function playViaShaka(t) {
+  setEngine("shaka");
+  try {
+    const p = await ensureShaka();
+    await p.load(t.url);
+    await au.play();
+  } catch (e) {
+    playing = false; sync();
+    toast((t.kind === "dash" ? "DASH" : "HLS") + " UNAVAILABLE" + (e && e.message ? " — " + String(e.message).slice(0, 44) : ""));
+  }
+}
+async function stopShaka() {
+  setEngine("audio");
+  if (shakaPlayer) { try { await shakaPlayer.unload(); } catch {} }
+  try { au.pause(); } catch {}
 }
 function step(d) {
   if (!Q.length) return;
@@ -156,18 +202,34 @@ function toggle() {
 au.onplay = () => { playing = true; document.body.classList.add("playing"); sync(); };
 au.onpause = () => { playing = false; document.body.classList.remove("playing"); sync(); };
 au.onended = () => { if (S.repeat && T()) { au.currentTime = 0; au.play().catch(() => {}); } else step(1); };
-au.onerror = () => { if (au.src) toast("STREAM REFUSED — TRY NEXT"); };
-au.onloadedmetadata = () => { $("dur").textContent = fmtS(au.duration || 30); };
+au.onerror = () => { if (au.src && engine === "audio") toast("STREAM REFUSED — TRY NEXT"); };
+au.onloadedmetadata = () => {
+  const t = T();
+  if (t && t.live && !(isFinite(au.duration) && au.duration > 0)) $("dur").textContent = "LIVE";
+  else if (isFinite(au.duration) && au.duration > 0) $("dur").textContent = fmtS(au.duration);
+  else $("dur").textContent = t ? durLabel(t) : "0:00";
+};
 au.ontimeupdate = draw;
 function draw() {
-  const d = isFinite(au.duration) && au.duration > 0 ? au.duration : 30;
+  const t = T();
+  const hasDur = isFinite(au.duration) && au.duration > 0;
+  if (t && t.live && !hasDur) {
+    $("ring").style.strokeDashoffset = 0;
+    $("seek").value = 1000;
+    $("cur").textContent = "LIVE";
+    $("dur").textContent = "LIVE";
+    return;
+  }
+  const d = hasDur ? au.duration : 30;
   const p = Math.min((au.currentTime || 0) / d, 1);
   $("ring").style.strokeDashoffset = 295.3 * (1 - p);
   $("seek").value = Math.round(p * 1000);
   $("cur").textContent = fmtS(au.currentTime || 0);
-  if (isFinite(au.duration) && au.duration > 0) $("dur").textContent = fmtS(au.duration);
+  if (hasDur) $("dur").textContent = fmtS(au.duration);
 }
 $("seek").addEventListener("input", e => {
+  const t = T();
+  if (t && t.live && !(isFinite(au.duration) && au.duration > 0)) return;
   const d = isFinite(au.duration) && au.duration > 0 ? au.duration : 30;
   au.currentTime = (e.target.value / 1000) * d;
 });
@@ -187,15 +249,15 @@ function sync() {
   if (!t) return;
   ["npT", "mT"].forEach(k => $(k).textContent = t.title);
   ["npA", "mA"].forEach(k => $(k).textContent = t.artist + (t.album ? " · " + t.album : ""));
-  const tag = t.src === "full" ? "FULL TRACK" : "30s PREVIEW";
-  $("npG").textContent = [tag, t.genre, fmt(t.ms)].filter(Boolean).join(" · ");
+  const tag = t.live ? "LIVE RADIO" : isStream(t) ? t.kind.toUpperCase() + " · AUDIO" : t.src === "full" ? "FULL TRACK" : "30s PREVIEW";
+  $("npG").textContent = [tag, t.genre, t.live ? "LIVE" : isStream(t) ? "stream" : fmt(t.ms)].filter(Boolean).join(" · ");
   const kick = document.querySelector(".np-kicker");
   if (kick) kick.textContent = "NOW PLAYING · " + tag;
   $("disc").style.backgroundImage = t.art ? `url('${t.art}')` : "none";
   $("disc").style.backgroundSize = "cover";
   $("disc").style.backgroundPosition = "center";
   $("mSw").style.background = t.art ? `center/cover url('${t.artSm || t.art}')` : grad(cur);
-  $("dur").textContent = fmt(t.ms);
+  $("dur").textContent = durLabel(t);
   document.querySelectorAll(".tr").forEach(r => r.classList.toggle("on", r.dataset.vid === String(t.id)));
   document.querySelectorAll("#queue button").forEach((b, i) => b.classList.toggle("on", i === cur));
   if ("mediaSession" in navigator) {
@@ -215,8 +277,13 @@ function renderAbout() {
   const t = T();
   if (!t) return;
   const full = t.src === "full";
-  $("lyr").innerHTML = esc(`${t.title} — ${t.artist}\n\nAlbum: ${t.album || "Single"}\nGenre: ${t.genre || "Music"}\nLength: ${fmt(t.ms)} (${full ? "full track" : "preview 0:30"})\n\n${full ? "Free full-length stream via Audius (independent artists, legal + no signup)." : "30-second preview via Apple iTunes. Full versions open in Apple Music."}`) +
-    (t.link ? `\n\n<a href="${esc(t.link)}" target="_blank" rel="noopener" style="color:var(--brass-b)">${full ? "Open on Audius ↗" : "Open in Apple Music ↗"}</a>` : "");
+  let kind, body, open;
+  if (t.live) { kind = "Live radio · audio"; body = "Always-on internet radio. There is no track list — you're hearing it live."; open = "Open station ↗"; }
+  else if (isStream(t)) { kind = t.kind.toUpperCase() + " stream · audio only"; body = (t.video ? "This stream carries video, but Playback decodes the audio track only. " : "") + "Adaptive streaming via Shaka Player over " + t.kind.toUpperCase() + "."; open = "View source ↗"; }
+  else if (full) { kind = "Full track"; body = "Free full-length stream via Audius (independent artists, legal + no signup)."; open = "Open on Audius ↗"; }
+  else { kind = "30s preview"; body = "30-second preview via Apple iTunes. Full versions open in Apple Music."; open = "Open in Apple Music ↗"; }
+  $("lyr").innerHTML = esc(`${t.title} — ${t.artist}\n\nKind: ${kind}\nGenre: ${t.genre || "Music"}\n\n${body}`)
+    + (t.link ? `\n\n<a href="${esc(t.link)}" target="_blank" rel="noopener" style="color:var(--brass-b)">${open}</a>` : "");
 }
 function updateLikeBtn() {
   const t = T();
@@ -238,19 +305,33 @@ const ERAS = [
 ];
 const GENRES = ["All", "Electronic", "Hip-Hop/Rap", "Rock", "Pop", "Jazz", "R&B/Soul", "Lo-Fi", "Indie", "Latin", "Alternative"];
 const ST = [["88.1", "jazz classics"], ["91.5", "soul motown"], ["95.3", "indie folk"], ["99.7", "classic rock"], ["103.2", "lofi chill"], ["107.9", "pop hits"]];
+/* Live internet radio (<audio>) + HLS/DASH network streams (Shaka, video decoded as audio only). */
+const STATIONS = [
+  { id: "st-fip", mark: "FIP", kind: "live", live: true, name: "FIP", desc: "Radio France · jazz, soul, world", genre: "Eclectic", url: "https://icecast.radiofrance.fr/fip-midfi.mp3", link: "https://www.radiofrance.fr/fip" },
+  { id: "st-nts", mark: "NTS 1", kind: "live", live: true, name: "NTS Radio 1", desc: "London · underground, global", genre: "Underground", url: "https://stream-relay-geo.ntslive.net/stream", link: "https://www.nts.live" },
+  { id: "st-rpm", mark: "R.P. Mellow", kind: "live", live: true, name: "Radio Paradise · Mellow", desc: "eclectic mellow mix", genre: "Eclectic", url: "https://stream.radioparadise.com/mellow-320", link: "https://radioparadise.com" },
+  { id: "st-rpr", mark: "R.P. Rock", kind: "live", live: true, name: "Radio Paradise · Rock", desc: "rock mix, always on", genre: "Rock", url: "https://stream.radioparadise.com/rock-320", link: "https://radioparadise.com" },
+  { id: "st-defcon", mark: "SomaFM DEF", kind: "live", live: true, name: "SomaFM · DEF CON", desc: "hacker / electronic", genre: "Electronic", url: "https://ice1.somafm.com/defcon-256-mp3", link: "https://somafm.com" },
+  { id: "st-angel", mark: "HLS Angel", kind: "hls", video: true, name: "Angel One", desc: "HLS adaptive · video → audio only", genre: "HLS", url: "https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8", link: "https://github.com/google/shaka-player" },
+  { id: "st-bbb", mark: "HLS BBB", kind: "hls", video: true, name: "Big Buck Bunny", desc: "HLS · video → audio only", genre: "HLS", url: "https://storage.googleapis.com/shaka-demo-assets/bbb-dark-truths-hls/hls.m3u8", link: "https://github.com/google/shaka-player" },
+  { id: "st-mux", mark: "HLS Mux", kind: "hls", video: true, name: "Mux Test Stream", desc: "HLS · video → audio only", genre: "HLS", url: "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8", link: "https://github.com/muxinc" },
+  { id: "st-sintel", mark: "DASH Sintel", kind: "dash", video: true, name: "Sintel", desc: "DASH adaptive · video → audio only", genre: "DASH", url: "https://storage.googleapis.com/shaka-demo-assets/sintel/dash.mpd", link: "https://github.com/google/shaka-player" },
+  { id: "st-angel-dash", mark: "DASH Angel", kind: "dash", video: true, name: "Angel One", desc: "DASH adaptive · video → audio only", genre: "DASH", url: "https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd", link: "https://github.com/google/shaka-player" }
+];
+const stationTrack = s => ({ id: s.id, src: "station", kind: s.kind, live: !!s.live, video: !!s.video, title: s.name, artist: s.desc, album: "", genre: s.genre || (s.live ? "Live radio" : "Stream"), art: "", artSm: "", url: s.url, ms: 0, link: s.link || "" });
 let sta = 2, era = "home", gid = 0;
 const L = {};
 
 const skel = '<div class="skel">' + "<i></i>".repeat(5) + "</div>";
-const badge = t => t.src === "full" ? `<span class="srcbadge full">FULL</span>` : `<span class="srcbadge prev">0:30</span>`;
+const badge = t => `<span class="srcbadge ${badgeCls(t)}">${badgeText(t)}</span>`;
 const card = o => `<button class="card ${o.cls || ""}" data-a="${o.a}" data-v="${esc(o.v)}" ${o.i != null ? `data-i="${o.i}"` : ""}><div class="art" style="background:${esc(o.bg)}">${o.badge || ""}<span class="playbadge">▶</span></div><p>${esc(o.t)}</p><span class="mono">${esc(o.s || "")}</span></button>`;
 const shelfHtml = (key, list) => {
   L[key] = list;
-  return list.length ? `<div class="row">${list.map((t, i) => card({ a: "play", v: key, i, bg: bgOf(t, i), t: t.title, s: (t.src === "full" ? "● " : "") + t.artist, badge: badge(t) })).join("")}</div>` : `<div class="empty mono">Nothing found — check your connection and retry.</div>`;
+  return list.length ? `<div class="row">${list.map((t, i) => card({ a: "play", v: key, i, bg: bgOf(t, i), t: t.title, s: (t.src === "full" || t.live ? "● " : "") + t.artist, badge: badge(t) })).join("")}</div>` : `<div class="empty mono">Nothing found — check your connection and retry.</div>`;
 };
 const rowsHtml = (key, list) => {
   L[key] = list;
-  return list.map((t, i) => `<button class="tr" data-a="play" data-v="${key}" data-i="${i}" data-vid="${esc(t.id)}"><b class="n mono">${String(i + 1).padStart(2, "0")}</b><img loading="lazy" src="${esc(t.artSm || t.art)}" alt="" onerror="this.style.visibility='hidden'"><span class="t">${esc(t.title)} <span class="srcbadge ${t.src === "full" ? "full" : "prev"}">${t.src === "full" ? "FULL" : "0:30"}</span><small class="mono">${esc(t.artist)} · ${esc(t.album || t.genre)}</small></span><button class="like ${isLiked(String(t.id)) ? "liked" : ""}" data-a="likeone" data-v="${key}" data-i="${i}" aria-label="Like">♥</button><span class="mono">${fmt(t.ms)}</span></button>`).join("");
+  return list.map((t, i) => `<button class="tr" data-a="play" data-v="${key}" data-i="${i}" data-vid="${esc(t.id)}"><b class="n mono">${String(i + 1).padStart(2, "0")}</b><img loading="lazy" src="${esc(t.artSm || t.art)}" alt="" onerror="this.style.visibility='hidden'"><span class="t">${esc(t.title)} <span class="srcbadge ${badgeCls(t)}">${badgeText(t)}</span><small class="mono">${esc(t.artist)} · ${esc(t.album || t.genre)}</small></span><button class="like ${isLiked(String(t.id)) ? "liked" : ""}" data-a="likeone" data-v="${key}" data-i="${i}" aria-label="Like">♥</button><span class="mono">${t.live || isStream(t) ? t.live ? "LIVE" : "" : fmt(t.ms)}</span></button>`).join("");
 };
 const h2 = t => `<h2>${t}</h2>`;
 const chips = active => `<div class="chiprow">${GENRES.map(g => `<button class="chip ${active === g ? "on" : ""}" data-a="genre" data-v="${esc(g)}">${esc(g)}</button>`).join("")}</div>`;
@@ -276,10 +357,15 @@ const V = {
     return h2("Your Crate · Albums") + `<div class="crate"><div class="sleeve"><div class="rec"></div><div class="cover" style="background:${esc(bgOf(list[0] || {}, 1))}"></div></div><div class="booklet"><div class="mono" style="margin-bottom:8px">PULL A RECORD · TAP TO PLAY</div>${rowsHtml("vinyl", list.slice(0, 12))}</div></div>`;
   },
   async 2() {
-    const songs = await shelf(ST[sta][1]);
-    L.radio = songs;
-    return h2("Tune the Dial") + `<div class="dial">${ST.map((s, i) => `<b class="${i === sta ? "on" : ""}" data-a="tune" data-i="${i}">${s[0]} · ${s[1]}</b>`).join("")}</div>`
-      + h2("Now broadcasting " + ST[sta][0] + " FM · " + esc(ST[sta][1])) + shelfHtml("radio", songs);
+    const [chill, lofi] = await Promise.all([shelf("lofi chill beats"), shelfFull("Lo-Fi", 10).catch(() => [])]);
+    const stations = STATIONS.map(stationTrack);
+    L.stations = stations;
+    const stCards = stations.map((t, i) => card({ a: "play", v: "stations", i, bg: bgOf(t, i), t: t.title, s: (t.live ? "● " : "▤ ") + t.artist, badge: badge(t) })).join("");
+    return h2("Tune the Dial") + `<div class="dial">${STATIONS.map((s, i) => `<b class="${i === sta ? "on" : ""}" data-a="tune" data-i="${i}">${esc(s.mark || s.name)}</b>`).join("")}</div>`
+      + h2("Live Broadcasts · always on") + `<div class="row">${stCards}</div>`
+      + `<p class="mono" style="margin:-4px 0 4px">LIVE = internet radio (audio) · HLS / DASH = adaptive network streams · video tracks are decoded as <b>audio only</b></p>`
+      + h2("Free Full-Length · Audius Lo-Fi") + shelfHtml("radio2", lofi)
+      + h2("Session Shelf") + shelfHtml("radio", chill);
   },
   async 3() {
     const [m1, m2] = await Promise.all([shelf("workout energy mix"), shelf("midnight drive synth")]);
@@ -309,7 +395,7 @@ const V = {
   async 7() {
     const sw = (k, l, d) => `<div class="r"><div><div>${l}</div><div class="mono">${d}</div></div><button class="sw ${S[k] ? "on" : ""}" data-a="set" data-v="${k}" aria-label="${l}"></button></div>`;
     return `<h2 class="brand">Hi-Fi Rack</h2><p class="mono sub">Tuning &amp; motion · saved on this device</p><div class="rack"><div class="vus"><div class="vu"><span>L</span><i></i></div><div class="vu"><span>R</span><i></i></div></div>${sw("shuffle", "Shuffle", "Randomize next track")}${sw("repeat", "Repeat one", "Loop the current track")}${sw("compact", "MP3 compact mode", "LCD-style player panel")}${sw("motion", "Motion", "Spinning discs, reels and glow")}</div>
-    <div class="empty mono" style="margin-top:14px;text-align:left">DATA · Audius (full free tracks, no key) + iTunes Search API (mainstream 30s previews). Grooveshark-style free listening, no signup. Static build runs anywhere — GitHub Pages, Netlify, Vercel. Note: the 2011 Ruby Grooveshark-API gem targets the original service (shut down 2015); groovesharks.org is a closed BeMusic clone behind Cloudflare with no public API, so it can't be used as a backend.</div>`;
+    <div class="empty mono" style="margin-top:14px;text-align:left">DATA · Audius (full free tracks, no key) + iTunes Search API (mainstream 30s previews). RADIO · live internet radio via &lt;audio&gt;, plus HLS/DASH network streams via Shaka Player — video-bearing streams are decoded as audio only. Grooveshark-style free listening, no signup. Static build runs anywhere — GitHub Pages, Netlify, Vercel. Note: the 2011 Ruby Grooveshark-API gem targets the original service (shut down 2015); groovesharks.org is a closed BeMusic clone behind Cloudflare with no public API, so it can't be used as a backend.</div>`;
   },
   async search(q) {
     const [it, au] = await Promise.all([
@@ -350,7 +436,7 @@ const ACT = {
   play: (k, i) => playAt(+i, L[k]),
   playq: (_, i) => playAt(+i),
   genre: g => go(6, g),
-  tune: (_, i) => { sta = +i; go(2); const songs = L.radio; if (songs && songs.length) setTimeout(() => playAt(0, songs), 600); },
+  tune: (_, i) => { sta = +i; const s = STATIONS[+i]; go(2); if (s) playAt(0, [stationTrack(s)]); },
   set: k => { S[k] = !S[k]; saveS(); applyS(); if (String(era) === "7") go(7); toast(k.toUpperCase() + (S[k] ? " ON" : " OFF")); },
   shuffle: () => { S.shuffle = !S.shuffle; saveS(); applyS(); toast("SHUFFLE " + (S.shuffle ? "ON" : "OFF")); },
   repeat: () => { S.repeat = !S.repeat; saveS(); applyS(); toast("REPEAT " + (S.repeat ? "ON" : "OFF")); },

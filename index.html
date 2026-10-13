@@ -91,6 +91,10 @@
 </div>
 
 <audio id="audio" preload="auto"></audio>
+<!-- Video streams (HLS/DASH) are supported, but Shaka Player is attached to #audio
+     above so video tracks are dropped: these sources play as AUDIO ONLY. -->
+<video id="video" playsinline crossorigin="anonymous" aria-hidden="true"></video>
+<script src="https://cdn.jsdelivr.net/npm/shaka-player@4/dist/shaka-player.compiled.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
