@@ -1,0 +1,178 @@
+import viridiancityImage from "../../assets/map/gen/viridian-city.png";
+import { MapId, MapType } from "../map-types";
+import music from "../../assets/music/maps/pewter-city.mp3";
+
+// Generated from pret/pokered VIRIDIAN_CITY - do not hand-edit.
+const viridianCity: MapType = {
+  name: "Viridian City",
+  image: viridiancityImage,
+  height: 36,
+  width: 40,
+  start: { x: 20, y: 34 },
+  walls: {
+    0: [0, 1, 2, 3, 16, 17],
+    1: [0, 1, 2, 3, 16, 17],
+    2: [0, 1, 2, 3, 16, 17, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+    3: [0, 1, 2, 3, 16, 17, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+    4: [0, 1, 2, 3, 8, 9, 10, 11, 12, 13, 22, 23, 24, 25, 26, 27, 34, 35],
+    5: [0, 1, 2, 3, 8, 9, 10, 11, 12, 13, 22, 23, 24, 25, 26, 27, 34, 35],
+    6: [0, 1, 2, 3, 16, 17, 20, 21, 22, 23, 24, 25, 28, 29, 34, 35],
+    7: [0, 1, 2, 3, 16, 17, 20, 21, 22, 23, 24, 25, 28, 29, 34, 35],
+    8: [0, 1, 2, 3, 16, 17],
+    9: [0, 1, 2, 3, 16, 17],
+    10: [0, 1, 2, 3, 16, 17, 34, 35],
+    11: [0, 1, 2, 3, 16, 17, 34, 35],
+    12: [16, 17],
+    13: [16, 17],
+    14: [16, 17],
+    15: [16, 17],
+    16: [0, 1, 28, 29, 30, 31],
+    17: [0, 1, 28, 29, 30, 31],
+    20: [0, 1],
+    21: [0, 1],
+    22: [0, 1, 22, 23, 24, 25],
+    23: [0, 1, 22, 23, 24, 25],
+    24: [0, 1],
+    25: [0, 1],
+  },
+  text: {
+    3: {
+      38: ["TRAINER TIPS", "Catch POKEMON", "and expand your collection!", "The more you have,", "the easier it is to fight!"],
+      39: ["TRAINER TIPS", "Catch POKEMON", "and expand your collection!", "The more you have,", "the easier it is to fight!"],
+    },
+    15: {
+      54: ["VIRIDIAN CITY", "POKEMON GYM"],
+      55: ["VIRIDIAN CITY", "POKEMON GYM"],
+    },
+    35: {
+      34: ["VIRIDIAN CITY", "The Eternally Green Paradise"],
+      35: ["VIRIDIAN CITY", "The Eternally Green Paradise"],
+    },
+    39: {
+      60: ["All your item", "needs fulfilled! POKEMON MART"],
+      61: ["All your item", "needs fulfilled! POKEMON MART"],
+    },
+    51: {
+      48: ["Heal Your POKEMON!", "POKEMON CENTER"],
+      49: ["Heal Your POKEMON!", "POKEMON CENTER"],
+    },
+    59: {
+      42: ["TRAINER TIPS", "The battle moves", "of POKEMON are limited by their POWER", "POINTs, PP.", "To replenish PP,", "rest your tired POKEMON at a POKEMON CENTER!"],
+      43: ["TRAINER TIPS", "The battle moves", "of POKEMON are limited by their POWER", "POINTs, PP.", "To replenish PP,", "rest your tired POKEMON at a POKEMON CENTER!"],
+    },
+  },
+  maps: {
+    0: {
+      10: MapId.Route2,
+      11: MapId.Route2,
+      12: MapId.Route2,
+      13: MapId.Route2,
+      14: MapId.Route2,
+      15: MapId.Route2,
+      18: MapId.Route2,
+      19: MapId.Route2,
+      20: MapId.Route2,
+      21: MapId.Route2,
+      22: MapId.Route2,
+      23: MapId.Route2,
+      24: MapId.Route2,
+      25: MapId.Route2,
+      26: MapId.Route2,
+      27: MapId.Route2,
+      28: MapId.Route2,
+      29: MapId.Route2,
+    },
+    12: {
+      0: MapId.Route22,
+    },
+    13: {
+      0: MapId.Route22,
+    },
+    14: {
+      0: MapId.Route22,
+      64: { map: MapId.ViridianCityGym, pos: { x: 32, y: 35 } },
+      65: { map: MapId.ViridianCityGym, pos: { x: 32, y: 35 } },
+    },
+    15: {
+      0: MapId.Route22,
+      64: { map: MapId.ViridianCityGym, pos: { x: 32, y: 35 } },
+      65: { map: MapId.ViridianCityGym, pos: { x: 32, y: 35 } },
+    },
+    18: {
+      0: MapId.Route22,
+      42: { map: MapId.ViridianCityNpcHouse, pos: { x: 4, y: 15 } },
+      43: { map: MapId.ViridianCityNpcHouse, pos: { x: 4, y: 15 } },
+    },
+    19: {
+      0: MapId.Route22,
+      42: { map: MapId.ViridianCityNpcHouse, pos: { x: 4, y: 15 } },
+      43: { map: MapId.ViridianCityNpcHouse, pos: { x: 4, y: 15 } },
+    },
+    30: {
+      42: { map: MapId.ViridianCityPokemonAcadamy, pos: { x: 4, y: 15 } },
+      43: { map: MapId.ViridianCityPokemonAcadamy, pos: { x: 4, y: 15 } },
+    },
+    31: {
+      42: { map: MapId.ViridianCityPokemonAcadamy, pos: { x: 4, y: 15 } },
+      43: { map: MapId.ViridianCityPokemonAcadamy, pos: { x: 4, y: 15 } },
+    },
+    35: {
+      10: MapId.Route1,
+      11: MapId.Route1,
+      12: MapId.Route1,
+      13: MapId.Route1,
+      14: MapId.Route1,
+      15: MapId.Route1,
+      16: MapId.Route1,
+      17: MapId.Route1,
+      18: MapId.Route1,
+      19: MapId.Route1,
+      20: MapId.Route1,
+      21: MapId.Route1,
+      22: MapId.Route1,
+      23: MapId.Route1,
+      24: MapId.Route1,
+      25: MapId.Route1,
+      26: MapId.Route1,
+      27: MapId.Route1,
+      28: MapId.Route1,
+      29: MapId.Route1,
+    },
+    38: {
+      58: { map: MapId.ViridianCityPokeMart, pos: { x: 6, y: 15 } },
+      59: { map: MapId.ViridianCityPokeMart, pos: { x: 6, y: 15 } },
+    },
+    39: {
+      58: { map: MapId.ViridianCityPokeMart, pos: { x: 6, y: 15 } },
+      59: { map: MapId.ViridianCityPokeMart, pos: { x: 6, y: 15 } },
+    },
+    50: {
+      46: { map: MapId.ViridianCityPokemonCenter, pos: { x: 6, y: 15 } },
+      47: { map: MapId.ViridianCityPokemonCenter, pos: { x: 6, y: 15 } },
+    },
+    51: {
+      46: { map: MapId.ViridianCityPokemonCenter, pos: { x: 6, y: 15 } },
+      47: { map: MapId.ViridianCityPokemonCenter, pos: { x: 6, y: 15 } },
+    },
+  },
+  exits: {},
+  exitReturnMap: MapId.Route1,
+  exitReturnPos: { x: 4, y: 2 },
+  music,
+  encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
+  grass: {},
+  water: {
+    24: [8, 9, 10, 11, 12, 13],
+    25: [8, 9, 10, 11, 12, 13],
+    26: [8, 9, 10, 11, 12, 13],
+    27: [8, 9, 10, 11, 12, 13],
+  },
+  cut: {
+    4: [14, 15],
+    5: [14, 15],
+    22: [8, 9],
+    23: [8, 9],
+  },
+};
+
+export default viridianCity;

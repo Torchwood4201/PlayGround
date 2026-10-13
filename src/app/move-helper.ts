@@ -1,5 +1,5 @@
 import { PokemonEncounterType, PokemonInstance } from "../state/state-types";
-import { CRITICAL_HIT_MULTIPLIER, CRITICAL_HIT_PERCENTAGE } from "./constants";
+import { CRITICAL_HIT_MULTIPLIER } from "./constants";
 import getTypeEffectiveness from "./type-effectiveness";
 import { getMoveMetadata } from "./use-move-metadata";
 import { getPokemonMetadata } from "./use-pokemon-metadata";
@@ -31,6 +31,20 @@ const getUs = (us: PokemonInstance, isAttacking: boolean, move: string) => {
   };
   return newUs;
 };
+
+// Gen 1 high critical-hit ratio moves (8x the normal crit chance).
+const HIGH_CRIT_MOVES = ["crabhammer", "karate-chop", "razor-leaf", "slash"];
+
+// Gen 1 critical hit: chance = (base Speed / 512), x8 for high-crit moves.
+// Crits deal double damage.
+const getCriticalMultiplier = (attackerId: number, moveId: string) => {
+  const baseSpeed = getPokemonMetadata(attackerId).baseStats.speed;
+  const chance = (baseSpeed / 512) * (HIGH_CRIT_MOVES.includes(moveId) ? 8 : 1);
+  return Math.random() < chance ? CRITICAL_HIT_MULTIPLIER : 1;
+};
+
+// Gen 1 damage variance roll: random 217-255 / 255.
+const getDamageVariance = () => (217 + Math.floor(Math.random() * 39)) / 255;
 
 const processMove = (
   us: PokemonInstance,
@@ -83,24 +97,32 @@ const processMove = (
         ? theirStats.defense
         : theirStats.specialDefense;
     if (!moveMetadata.power) throw new Error("No power for move");
-    const critical =
-      Math.random() < CRITICAL_HIT_PERCENTAGE ? CRITICAL_HIT_MULTIPLIER : 1;
+    const critical = getCriticalMultiplier(us.id, move);
     const stab = ourMetadata.types.includes(moveMetadata.type) ? 1.5 : 1;
     const typeEffectiveness = getTypeEffectiveness(
       moveMetadata.type,
       theirMetadata.types
     );
     const superEffective = typeEffectiveness > 1;
-    const notVeryEffective = typeEffectiveness < 1;
-    const damage = Math.round(
-      ((((2 * us.level * critical) / 5 + 2) *
-        moveMetadata.power *
-        (attack / defense)) /
-        50 +
-        2) *
-        stab *
-        typeEffectiveness
-    );
+    const notVeryEffective =
+      typeEffectiveness < 1 && typeEffectiveness > 0;
+    // Immunity (0x) deals no damage; all other hits deal at least 1.
+    const damage =
+      typeEffectiveness === 0
+        ? 0
+        : Math.max(
+            1,
+            Math.round(
+              ((((2 * us.level * critical) / 5 + 2) *
+                moveMetadata.power *
+                (attack / defense)) /
+                50 +
+                2) *
+                stab *
+                typeEffectiveness *
+                getDamageVariance()
+            )
+          );
 
     return {
       ...defaultReturn,
@@ -132,24 +154,31 @@ const processMove = (
       ? ourStats.defense
       : ourStats.specialDefense;
   if (!moveMetadata.power) throw new Error("No power for move");
-  const critical =
-    Math.random() < CRITICAL_HIT_PERCENTAGE ? CRITICAL_HIT_MULTIPLIER : 1;
+  const critical = getCriticalMultiplier(them.id, move);
   const stab = theirMetadata.types.includes(moveMetadata.type) ? 1.5 : 1;
   const typeEffectiveness = getTypeEffectiveness(
     moveMetadata.type,
     ourMetadata.types
   );
   const superEffective = typeEffectiveness > 1;
-  const notVeryEffective = typeEffectiveness < 1;
-  const damage = Math.round(
-    ((((2 * them.level * critical) / 5 + 2) *
-      moveMetadata.power *
-      (attack / defense)) /
-      50 +
-      2) *
-      stab *
-      typeEffectiveness
-  );
+  const notVeryEffective = typeEffectiveness < 1 && typeEffectiveness > 0;
+  // Immunity (0x) deals no damage; all other hits deal at least 1.
+  const damage =
+    typeEffectiveness === 0
+      ? 0
+      : Math.max(
+          1,
+          Math.round(
+            ((((2 * them.level * critical) / 5 + 2) *
+              moveMetadata.power *
+              (attack / defense)) /
+              50 +
+              2) *
+              stab *
+              typeEffectiveness *
+              getDamageVariance()
+          )
+        );
 
   return {
     ...defaultReturn,

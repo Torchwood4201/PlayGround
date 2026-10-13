@@ -195,12 +195,19 @@ const viridianForrest: MapType = {
           level: 9,
         },
       ],
-      intro: ["Lorem ipsum dolor sit amet, consectetur"],
-      outtro: ["Lorem ipsum dolor sit amet, consectetur"],
+      intro: ["Hey, wait up!", "What's the hurry?"],
+      outtro: ["I give!", "You're good at this!"],
       money: 60,
       pos: {
         x: 2,
         y: 18,
+      },
+      postGame: {
+        message: [
+          "Sometimes, you can find stuff",
+          "on the ground!",
+          "I'm looking for the stuff I dropped!",
+        ],
       },
     },
     {
@@ -220,12 +227,15 @@ const viridianForrest: MapType = {
           level: 7,
         },
       ],
-      intro: ["Lorem ipsum dolor sit amet, consectetur"],
-      outtro: ["Lorem ipsum dolor sit amet, consectetur"],
+      intro: ["Yo! You can't jam out", "if you're a POKEMON trainer!"],
+      outtro: ["Huh?", "I ran out of POKEMON!"],
       money: 70,
       pos: {
         x: 29,
         y: 19,
+      },
+      postGame: {
+        message: ["Darn! I'm going to catch", "some stronger ones!"],
       },
     },
     {
@@ -241,12 +251,15 @@ const viridianForrest: MapType = {
           level: 6,
         },
       ],
-      intro: ["Lorem ipsum dolor sit amet, consectetur"],
-      outtro: ["Lorem ipsum dolor sit amet, consectetur"],
+      intro: ["Hey! You have POKEMON!", "Come on! Let's battle'em!"],
+      outtro: ["No!", "CATERPIE can't cut it!"],
       money: 60,
       pos: {
         x: 30,
         y: 33,
+      },
+      postGame: {
+        message: ["Ssh! You'll scare", "the bugs away!"],
       },
     },
   ],
@@ -259,7 +272,7 @@ const viridianForrest: MapType = {
       },
     },
     {
-      item: ItemType.PpUp, // TODO: Should be Antidote
+      item: ItemType.Antidote,
       pos: {
         x: 25,
         y: 11,

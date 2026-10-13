@@ -1,0 +1,80 @@
+import undergroundpathnorthsouthImage from "../../assets/map/gen/underground-path-north-south.png";
+import { MapId, MapType } from "../map-types";
+import music from "../../assets/music/maps/route-1.mp3";
+
+// Generated from pret/pokered UNDERGROUND_PATH_NORTH_SOUTH - do not hand-edit.
+const undergroundPathNorthSouth: MapType = {
+  name: "Underground Path North South",
+  image: undergroundpathnorthsouthImage,
+  height: 46,
+  width: 8,
+  start: { x: 4, y: 44 },
+  walls: {
+    2: [6, 7],
+    3: [6, 7],
+    4: [6, 7],
+    5: [6, 7],
+    6: [6, 7],
+    7: [6, 7],
+    8: [6, 7],
+    9: [6, 7],
+    10: [6, 7],
+    11: [6, 7],
+    12: [6, 7],
+    13: [6, 7],
+    14: [6, 7],
+    15: [6, 7],
+    16: [6, 7],
+    17: [6, 7],
+    18: [6, 7],
+    19: [6, 7],
+    20: [6, 7],
+    21: [6, 7],
+    22: [6, 7],
+    23: [6, 7],
+    24: [6, 7],
+    25: [6, 7],
+    26: [6, 7],
+    27: [6, 7],
+    28: [6, 7],
+    29: [6, 7],
+    30: [6, 7],
+    31: [6, 7],
+    32: [6, 7],
+    33: [6, 7],
+    34: [6, 7],
+    35: [6, 7],
+    36: [6, 7],
+    37: [6, 7],
+    38: [6, 7],
+    39: [6, 7],
+    40: [6, 7],
+    41: [6, 7],
+  },
+  text: {},
+  maps: {
+    8: {
+      10: { map: MapId.UndergroundPathRoute5, pos: { x: 8, y: 9 } },
+      11: { map: MapId.UndergroundPathRoute5, pos: { x: 8, y: 9 } },
+    },
+    9: {
+      10: { map: MapId.UndergroundPathRoute5, pos: { x: 8, y: 9 } },
+      11: { map: MapId.UndergroundPathRoute5, pos: { x: 8, y: 9 } },
+    },
+    82: {
+      4: { map: MapId.UndergroundPathRoute6, pos: { x: 8, y: 9 } },
+      5: { map: MapId.UndergroundPathRoute6, pos: { x: 8, y: 9 } },
+    },
+    83: {
+      4: { map: MapId.UndergroundPathRoute6, pos: { x: 8, y: 9 } },
+      5: { map: MapId.UndergroundPathRoute6, pos: { x: 8, y: 9 } },
+    },
+  },
+  exits: {},
+  cave: true,
+  music,
+  encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
+  grass: {},
+};
+
+export default undergroundPathNorthSouth;

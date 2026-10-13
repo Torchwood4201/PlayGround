@@ -21,16 +21,17 @@ const viridianCityAcadamy: MapType = {
   text: {
     0: {
       3: [
-        "Lorem ipsum dolor sit amet, consectetur",
-        "adipiscing elit, sed do eiusmod tempor",
-        "incididunt ut labore et dolore magna aliqua.",
+        "POKEMON status problems:",
+        "SLP, PSN, PAR, BRN and FRZ.",
+        "Cures are sold at POKEMON MARTs!",
       ],
     },
     4: {
       3: [
-        "Lorem ipsum dolor sit amet, consectetur",
-        "adipiscing elit, sed do eiusmod tempor",
-        "incididunt ut labore et dolore magna aliqua.",
+        "Looked at the notebook!",
+        "First page...",
+        "POKE BALLs are used to catch POKEMON.",
+        "Up to 6 POKEMON can be carried.",
       ],
     },
   },

@@ -22,11 +22,7 @@ const viridianCityPokemonCenter: MapType = {
   },
   text: {
     4: {
-      0: [
-        "Lorem ipsum dolor sit amet, consectetur",
-        "adipiscing elit, sed do eiusmod tempor",
-        "incididunt ut labore et dolore magna aliqua.",
-      ],
+      0: ["Need healing?", "Talk to NURSE JOY at the counter!"],
     },
   },
   maps: {},

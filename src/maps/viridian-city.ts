@@ -67,44 +67,32 @@ const viridianCity: MapType = {
   text: {
     29: {
       21: [
-        "Lorem ipsum dolor sit amet, consectetur",
-        "adipiscing elit, sed do eiusmod tempor",
-        "incididunt ut labore et dolore magna aliqua.",
+        "TRAINER TIPS",
+        "The battle moves of POKEMON are",
+        "limited by their POWER POINTs, PP.",
+        "To replenish PP, rest your tired",
+        "POKEMON at a POKEMON CENTER!",
       ],
     },
     25: {
-      24: [
-        "Lorem ipsum dolor sit amet, consectetur",
-        "adipiscing elit, sed do eiusmod tempor",
-        "incididunt ut labore et dolore magna aliqua.",
-      ],
+      24: ["Heal Your POKEMON!", "POKEMON CENTER"],
     },
     19: {
-      30: [
-        "Lorem ipsum dolor sit amet, consectetur",
-        "adipiscing elit, sed do eiusmod tempor",
-        "incididunt ut labore et dolore magna aliqua.",
-      ],
+      30: ["All your item needs fulfilled!", "POKEMON MART"],
     },
     17: {
-      17: [
-        "Lorem ipsum dolor sit amet, consectetur",
-        "adipiscing elit, sed do eiusmod tempor",
-        "incididunt ut labore et dolore magna aliqua.",
-      ],
+      17: ["VIRIDIAN CITY", "The Eternally Green Paradise"],
     },
     7: {
-      27: [
-        "Lorem ipsum dolor sit amet, consectetur",
-        "adipiscing elit, sed do eiusmod tempor",
-        "incididunt ut labore et dolore magna aliqua.",
-      ],
+      27: ["VIRIDIAN CITY", "POKEMON GYM"],
     },
     1: {
       19: [
-        "Lorem ipsum dolor sit amet, consectetur",
-        "adipiscing elit, sed do eiusmod tempor",
-        "incididunt ut labore et dolore magna aliqua.",
+        "TRAINER TIPS",
+        "Catch POKEMON and expand your",
+        "collection!",
+        "The more you have, the easier",
+        "it is to fight!",
       ],
     },
   },

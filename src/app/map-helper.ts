@@ -63,17 +63,41 @@ export const isItem = (
   );
 };
 
+export const isWater = (
+  water: Record<number, number[]> | undefined,
+  x: number,
+  y: number
+): boolean => {
+  return !!water && water[y] && water[y].includes(x);
+};
+
+export const isCutTree = (
+  cut: Record<number, number[]> | undefined,
+  x: number,
+  y: number,
+  felledTrees: string[],
+  mapId: string
+): boolean => {
+  if (!cut || !cut[y] || !cut[y].includes(x)) return false;
+  return !felledTrees.includes(`${mapId}-${x}-${y}`);
+};
+
 export const canWalk = (
   x: number,
   y: number,
   mapId: MapId,
-  collectedItems: string[]
+  collectedItems: string[],
+  felledTrees: string[] = [],
+  canSurf: boolean = false
 ) => {
   const map = mapData[mapId];
   if (isItem(map.items, x, y, collectedItems, mapId)) return false;
   if (isWall(map.walls, x, y)) return false;
   if (isFence(map.fences, x, y)) return false;
   if (isTrainer(map.trainers, x, y)) return false;
+  // Standing trees block until cut down; water needs Surf.
+  if (isCutTree(map.cut, x, y, felledTrees, mapId)) return false;
+  if (isWater(map.water, x, y) && !canSurf) return false;
   return true;
 };
 

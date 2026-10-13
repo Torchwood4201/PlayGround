@@ -3,10 +3,12 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   encounterPokemon,
   encounterTrainer,
+  selectCompletedQuests,
   selectDefeatedTrainers,
   selectDirection,
   selectMap,
   selectMapId,
+  selectPokemon,
   selectPokemonEncounter,
   selectPos,
   selectTrainerEncounter,
@@ -21,6 +23,8 @@ import Frame from "./Frame";
 import useEvent from "../app/use-event";
 import { Event } from "../app/emitter";
 import getPokemonEncounter from "../app/pokemon-encounter-helper";
+import { getRivalTeam } from "../app/rival-teams";
+import { TrainerType } from "../maps/map-types";
 import { showText } from "../state/uiSlice";
 
 const StyledTrainerEncounter = styled.div`
@@ -43,6 +47,8 @@ const TrainerEncounter = () => {
   const encounter = useSelector(selectTrainerEncounter);
   const pokemonEncounter = useSelector(selectPokemonEncounter);
   const defeatedTrainers = useSelector(selectDefeatedTrainers);
+  const completedQuests = useSelector(selectCompletedQuests);
+  const party = useSelector(selectPokemon);
   const direction = useSelector(selectDirection);
   const mapId = useSelector(selectMapId);
 
@@ -50,8 +56,17 @@ const TrainerEncounter = () => {
 
   const { trainers, walls, fences } = map;
 
+  // Rival teams depend on the player's starter: resolve at battle time.
+  const withRivalTeam = (trainer: TrainerType): TrainerType => {
+    if (trainer.rivalTier === undefined) return trainer;
+    const team = getRivalTeam(trainer.rivalTier, completedQuests);
+    if (team.length === 0) return trainer;
+    return { ...trainer, pokemon: team };
+  };
+
   useEffect(() => {
     if (!trainers) return;
+    if (party.length === 0) return;
 
     const encounter_ = isTrainerEncounter(
       trainers,
@@ -63,11 +78,12 @@ const TrainerEncounter = () => {
     );
 
     if (!encounter_) return;
-    dispatch(encounterTrainer(encounter_));
+    dispatch(encounterTrainer(withRivalTeam(encounter_)));
     setTimeout(() => {
       setIntroIndex(0);
     }, 500);
-  }, [trainers, walls, fences, pos, dispatch, defeatedTrainers, mapId]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [trainers, walls, fences, pos, dispatch, defeatedTrainers, mapId, party, completedQuests]);
 
   useEvent(Event.A, () => {
     const facingPos = directionModifier(direction);
@@ -76,6 +92,7 @@ const TrainerEncounter = () => {
       isTrainer(map.trainers, pos.x + facingPos.x, pos.y + facingPos.y) &&
       !encounter
     ) {
+      if (party.length === 0) return;
       const trainer = map.trainers.find(
         (trainer) =>
           trainer.pos.x === pos.x + facingPos.x &&
@@ -87,7 +104,7 @@ const TrainerEncounter = () => {
         dispatch(showText(trainer.outtro));
         return;
       }
-      dispatch(encounterTrainer(trainer));
+      dispatch(encounterTrainer(withRivalTeam(trainer)));
       setTimeout(() => {
         setIntroIndex(0);
       }, 500);

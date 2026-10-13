@@ -1,0 +1,242 @@
+import route11Image from "../../assets/map/gen/route-11.png";
+import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { engineer, gambler, youngster } from "../../app/npcs";
+import music from "../../assets/music/maps/route-3.mp3";
+
+// Generated from pret/pokered ROUTE_11 - do not hand-edit.
+const route11: MapType = {
+  name: "Route 11",
+  image: route11Image,
+  height: 18,
+  width: 60,
+  start: { x: 30, y: 16 },
+  walls: {
+    0: [0, 1, 2, 3, 4, 5, 6, 7, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 32, 33, 34, 35, 36, 37, 38, 39],
+    1: [0, 1, 2, 3, 4, 5, 6, 7, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 32, 33, 34, 35, 36, 37, 38, 39],
+    2: [0, 1, 2, 3],
+    3: [0, 1, 2, 3],
+    6: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 18, 19, 20, 21, 32, 33, 34, 35, 50, 51, 56, 57],
+    7: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 18, 19, 20, 21, 32, 33, 34, 35, 50, 51, 56, 57],
+    10: [12, 13, 14, 15, 24, 25, 26, 27, 28, 29],
+    11: [12, 13, 14, 15, 24, 25, 26, 27, 28, 29],
+    14: [32, 33, 34, 35],
+    15: [32, 33, 34, 35],
+    16: [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 38, 39, 40, 41, 42, 43],
+    17: [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 38, 39, 40, 41, 42, 43],
+  },
+  text: {
+    11: {
+      2: ["DIGLETT's CAVE"],
+      3: ["DIGLETT's CAVE"],
+    },
+  },
+  maps: {
+    0: {
+      59: { map: MapId.Route12, pos: { x: 1, y: 54 } },
+    },
+    1: {
+      59: { map: MapId.Route12, pos: { x: 1, y: 54 } },
+    },
+    2: {
+      59: { map: MapId.Route12, pos: { x: 1, y: 56 } },
+    },
+    3: {
+      59: { map: MapId.Route12, pos: { x: 1, y: 56 } },
+    },
+    4: {
+      0: { map: MapId.VermilionCity, pos: { x: 38, y: 12 } },
+      59: { map: MapId.Route12, pos: { x: 1, y: 58 } },
+    },
+    5: {
+      0: { map: MapId.VermilionCity, pos: { x: 38, y: 12 } },
+      59: { map: MapId.Route12, pos: { x: 1, y: 58 } },
+    },
+    6: {
+      59: { map: MapId.Route12, pos: { x: 1, y: 60 } },
+    },
+    7: {
+      59: { map: MapId.Route12, pos: { x: 1, y: 60 } },
+    },
+    8: {
+      0: { map: MapId.VermilionCity, pos: { x: 38, y: 16 } },
+      59: { map: MapId.Route12, pos: { x: 1, y: 62 } },
+    },
+    9: {
+      0: { map: MapId.VermilionCity, pos: { x: 38, y: 16 } },
+      59: { map: MapId.Route12, pos: { x: 1, y: 62 } },
+    },
+    10: {
+      0: { map: MapId.VermilionCity, pos: { x: 38, y: 18 } },
+      8: { map: MapId.DiglettsCaveRoute11, pos: { x: 4, y: 15 } },
+      9: { map: MapId.DiglettsCaveRoute11, pos: { x: 4, y: 15 } },
+      59: { map: MapId.Route12, pos: { x: 1, y: 64 } },
+    },
+    11: {
+      0: { map: MapId.VermilionCity, pos: { x: 38, y: 18 } },
+      8: { map: MapId.DiglettsCaveRoute11, pos: { x: 4, y: 15 } },
+      9: { map: MapId.DiglettsCaveRoute11, pos: { x: 4, y: 15 } },
+      59: { map: MapId.Route12, pos: { x: 1, y: 64 } },
+    },
+    12: {
+      0: { map: MapId.VermilionCity, pos: { x: 38, y: 20 } },
+      59: { map: MapId.Route12, pos: { x: 1, y: 66 } },
+    },
+    13: {
+      0: { map: MapId.VermilionCity, pos: { x: 38, y: 20 } },
+      59: { map: MapId.Route12, pos: { x: 1, y: 66 } },
+    },
+    14: {
+      0: { map: MapId.VermilionCity, pos: { x: 38, y: 22 } },
+      59: { map: MapId.Route12, pos: { x: 1, y: 68 } },
+    },
+    15: {
+      0: { map: MapId.VermilionCity, pos: { x: 38, y: 22 } },
+      59: { map: MapId.Route12, pos: { x: 1, y: 68 } },
+    },
+    16: {
+      0: { map: MapId.VermilionCity, pos: { x: 38, y: 24 } },
+      59: { map: MapId.Route12, pos: { x: 1, y: 70 } },
+      98: { map: MapId.Route11Gate1f, pos: { x: 0, y: 9 } },
+      99: { map: MapId.Route11Gate1f, pos: { x: 0, y: 9 } },
+      116: { map: MapId.Route11Gate1f, pos: { x: 14, y: 9 } },
+      117: { map: MapId.Route11Gate1f, pos: { x: 14, y: 9 } },
+    },
+    17: {
+      0: { map: MapId.VermilionCity, pos: { x: 38, y: 24 } },
+      59: { map: MapId.Route12, pos: { x: 1, y: 70 } },
+      98: { map: MapId.Route11Gate1f, pos: { x: 0, y: 9 } },
+      99: { map: MapId.Route11Gate1f, pos: { x: 0, y: 9 } },
+      116: { map: MapId.Route11Gate1f, pos: { x: 14, y: 9 } },
+      117: { map: MapId.Route11Gate1f, pos: { x: 14, y: 9 } },
+    },
+    18: {
+      98: { map: MapId.Route11Gate1f, pos: { x: 0, y: 11 } },
+      99: { map: MapId.Route11Gate1f, pos: { x: 0, y: 11 } },
+      116: { map: MapId.Route11Gate1f, pos: { x: 14, y: 11 } },
+      117: { map: MapId.Route11Gate1f, pos: { x: 14, y: 11 } },
+    },
+    19: {
+      98: { map: MapId.Route11Gate1f, pos: { x: 0, y: 11 } },
+      99: { map: MapId.Route11Gate1f, pos: { x: 0, y: 11 } },
+      116: { map: MapId.Route11Gate1f, pos: { x: 14, y: 11 } },
+      117: { map: MapId.Route11Gate1f, pos: { x: 14, y: 11 } },
+    },
+  },
+  exits: {},
+  music,
+  encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
+  grass: {},
+  water: {
+    8: [0, 1, 2, 3, 4, 5, 6, 7],
+    9: [0, 1, 2, 3, 4, 5, 6, 7],
+    10: [0, 1, 2, 3, 4, 5, 6, 7],
+    11: [0, 1, 2, 3, 4, 5, 6, 7],
+    12: [0, 1, 2, 3, 4, 5, 6, 7],
+    13: [0, 1, 2, 3, 4, 5, 6, 7],
+  },
+  trainers: [
+    {
+      npc: gambler,
+      facing: Direction.Down,
+      pokemon: [{ id: 60, level: 18 }, { id: 116, level: 18 }],
+      intro: ["Win, lose or draw!"],
+      outtro: ["Atcha!", "Didn't go my way!"],
+      money: 1260,
+      pos: { x: 20, y: 28 },
+      postGame: { message: ["POKEMON is life!", "And to live is to gamble!"] },
+    },
+    {
+      npc: gambler,
+      facing: Direction.Down,
+      pokemon: [{ id: 69, level: 18 }, { id: 43, level: 18 }],
+      intro: ["Competition! I", "can't get enough!"],
+      outtro: ["I had", "a chance!"],
+      money: 1260,
+      pos: { x: 52, y: 18 },
+      postGame: { message: ["You can't be a", "coward in the world of POKEMON!"] },
+    },
+    {
+      npc: youngster,
+      facing: Direction.Left,
+      pokemon: [{ id: 23, level: 21 }],
+      intro: ["Let's go, but", "don't cheat!"],
+      outtro: ["Huh?", "That's not right!"],
+      money: 315,
+      pos: { x: 26, y: 10 },
+      postGame: { message: ["I did my best! I", "have no regrets!"] },
+    },
+    {
+      npc: engineer,
+      facing: Direction.Down,
+      pokemon: [{ id: 81, level: 21 }],
+      intro: ["Careful!", "I'm laying down some cables!"],
+      outtro: ["That", "was electric!"],
+      money: 1050,
+      pos: { x: 72, y: 22 },
+      postGame: { message: ["Spread the word", "to save energy!"] },
+    },
+    {
+      npc: youngster,
+      facing: Direction.Up,
+      pokemon: [{ id: 27, level: 19 }, { id: 41, level: 19 }],
+      intro: ["I just became a", "trainer! But, I think I can win!"],
+      outtro: ["My", "POKEMON couldn't!"],
+      money: 285,
+      pos: { x: 44, y: 8 },
+      postGame: { message: ["What do you want?", "Leave me alone!"] },
+    },
+    {
+      npc: gambler,
+      facing: Direction.Down,
+      pokemon: [{ id: 100, level: 18 }, { id: 81, level: 18 }],
+      intro: ["Fwahaha! I have", "never lost!"],
+      outtro: ["My", "first loss!"],
+      money: 1260,
+      pos: { x: 90, y: 14 },
+      postGame: { message: ["Luck of the draw!", "Just luck!"] },
+    },
+    {
+      npc: gambler,
+      facing: Direction.Up,
+      pokemon: [{ id: 58, level: 18 }, { id: 37, level: 18 }],
+      intro: ["I have never won", "before..."],
+      outtro: ["I saw", "this coming..."],
+      money: 1260,
+      pos: { x: 66, y: 6 },
+      postGame: { message: ["It's just luck.", "Luck of the draw."] },
+    },
+    {
+      npc: youngster,
+      facing: Direction.Right,
+      pokemon: [{ id: 19, level: 17 }, { id: 19, level: 17 }, { id: 20, level: 17 }],
+      intro: ["I'm the best in", "my class!"],
+      outtro: ["Darn!", "I need to make my POKEMON stronger!"],
+      money: 255,
+      pos: { x: 86, y: 10 },
+      postGame: { message: ["There's a fat", "POKEMON that comes down from the", "mountains.", "It's strong if", "you can get it."] },
+    },
+    {
+      npc: engineer,
+      facing: Direction.Left,
+      pokemon: [{ id: 81, level: 18 }, { id: 81, level: 18 }, { id: 82, level: 18 }],
+      intro: ["Watch out for", "live wires!"],
+      outtro: ["Whoa!", "You spark plug!"],
+      money: 900,
+      pos: { x: 90, y: 32 },
+      postGame: { message: ["Well, better get", "back to work."] },
+    },
+    {
+      npc: youngster,
+      facing: Direction.Up,
+      pokemon: [{ id: 32, level: 18 }, { id: 33, level: 18 }],
+      intro: ["My POKEMON should", "be ready by now!"],
+      outtro: ["Too", "much, too young!"],
+      money: 270,
+      pos: { x: 44, y: 24 },
+      postGame: { message: ["I better go find", "stronger ones!"] },
+    },
+  ],
+};
+
+export default route11;

@@ -1,0 +1,248 @@
+import route20Image from "../../assets/map/gen/route-20.png";
+import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { beauty, birdKeeper, jrTrainerFemale, swimmer } from "../../app/npcs";
+import music from "../../assets/music/maps/route-3.mp3";
+
+// Generated from pret/pokered ROUTE_20 - do not hand-edit.
+const route20: MapType = {
+  name: "Route 20",
+  image: route20Image,
+  height: 18,
+  width: 100,
+  start: { x: 50, y: 16 },
+  walls: {
+    2: [46, 47],
+    3: [46, 47],
+    6: [48, 49, 56, 57],
+    7: [48, 49, 56, 57],
+    8: [32, 33, 34, 35, 48, 49],
+    9: [32, 33, 34, 35, 48, 49],
+    10: [58, 59],
+    11: [58, 59],
+  },
+  text: {
+    15: {
+      102: ["SEAFOAM ISLANDS"],
+      103: ["SEAFOAM ISLANDS"],
+    },
+    23: {
+      114: ["SEAFOAM ISLANDS"],
+      115: ["SEAFOAM ISLANDS"],
+    },
+  },
+  maps: {
+    0: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 0 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 36 } },
+    },
+    1: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 0 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 36 } },
+    },
+    2: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 2 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 38 } },
+    },
+    3: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 2 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 38 } },
+    },
+    4: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 4 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 40 } },
+    },
+    5: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 4 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 40 } },
+    },
+    6: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 6 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 42 } },
+    },
+    7: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 6 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 42 } },
+    },
+    8: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 8 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 44 } },
+    },
+    9: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 8 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 44 } },
+    },
+    10: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 10 } },
+      96: { map: MapId.SeafoamIslands1f, pos: { x: 8, y: 35 } },
+      97: { map: MapId.SeafoamIslands1f, pos: { x: 8, y: 35 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 46 } },
+    },
+    11: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 10 } },
+      96: { map: MapId.SeafoamIslands1f, pos: { x: 8, y: 35 } },
+      97: { map: MapId.SeafoamIslands1f, pos: { x: 8, y: 35 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 46 } },
+    },
+    12: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 12 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 48 } },
+    },
+    13: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 12 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 48 } },
+    },
+    14: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 14 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 50 } },
+    },
+    15: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 14 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 50 } },
+    },
+    16: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 16 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 52 } },
+    },
+    17: {
+      0: { map: MapId.CinnabarIsland, pos: { x: 18, y: 16 } },
+      99: { map: MapId.Route19, pos: { x: 1, y: 52 } },
+    },
+    18: {
+      116: { map: MapId.SeafoamIslands1f, pos: { x: 52, y: 35 } },
+      117: { map: MapId.SeafoamIslands1f, pos: { x: 52, y: 35 } },
+    },
+    19: {
+      116: { map: MapId.SeafoamIslands1f, pos: { x: 52, y: 35 } },
+      117: { map: MapId.SeafoamIslands1f, pos: { x: 52, y: 35 } },
+    },
+  },
+  exits: {},
+  music,
+  encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
+  grass: {},
+  water: {
+    0: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    1: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    2: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    3: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    4: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    5: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    6: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    7: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    8: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39, 40, 41, 44, 45, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    9: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39, 40, 41, 44, 45, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    10: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 98, 99],
+    11: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 98, 99],
+    12: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 56, 57, 58, 59, 60, 61, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    13: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 56, 57, 58, 59, 60, 61, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    14: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    15: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    16: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    17: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+  },
+  trainers: [
+    {
+      npc: swimmer,
+      facing: Direction.Up,
+      pokemon: [{ id: 90, level: 31 }, { id: 91, level: 31 }],
+      intro: ["The water is", "shallow here."],
+      outtro: ["Splash!"],
+      money: 155,
+      pos: { x: 174, y: 16 },
+      postGame: { message: ["I wish I could", "ride my POKEMON."] },
+    },
+    {
+      npc: beauty,
+      facing: Direction.Up,
+      pokemon: [{ id: 117, level: 30 }, { id: 116, level: 30 }, { id: 117, level: 30 }],
+      intro: ["SEAFOAM is a", "quiet getaway!"],
+      outtro: ["Quit it!"],
+      money: 2100,
+      pos: { x: 136, y: 22 },
+      postGame: { message: ["There's a huge", "cavern underneath this island."] },
+    },
+    {
+      npc: beauty,
+      facing: Direction.Down,
+      pokemon: [{ id: 119, level: 35 }],
+      intro: ["I love floating", "with the fishes!"],
+      outtro: ["Yowch!"],
+      money: 2450,
+      pos: { x: 90, y: 20 },
+      postGame: { message: ["Want to float", "with me?"] },
+    },
+    {
+      npc: jrTrainerFemale,
+      facing: Direction.Right,
+      pokemon: [{ id: 72, level: 30 }, { id: 116, level: 30 }, { id: 86, level: 30 }],
+      intro: ["Are you on", "vacation too?"],
+      outtro: ["No", "mercy at all!"],
+      money: 600,
+      pos: { x: 110, y: 28 },
+      postGame: { message: ["SEAFOAM used to", "be one island!"] },
+    },
+    {
+      npc: swimmer,
+      facing: Direction.Down,
+      pokemon: [{ id: 120, level: 35 }],
+      intro: ["Check out my buff", "physique!"],
+      outtro: ["Wimpy!"],
+      money: 175,
+      pos: { x: 76, y: 26 },
+      postGame: { message: ["I should've been", "buffing up my POKEMON, not me!"] },
+    },
+    {
+      npc: swimmer,
+      facing: Direction.Up,
+      pokemon: [{ id: 116, level: 28 }, { id: 116, level: 28 }, { id: 117, level: 28 }, { id: 116, level: 28 }],
+      intro: ["Why are you", "riding a POKEMON? Can't you swim?"],
+      outtro: ["Ouch!", "Torpedoed!"],
+      money: 140,
+      pos: { x: 174, y: 26 },
+      postGame: { message: ["Riding a POKEMON", "sure looks fun!"] },
+    },
+    {
+      npc: birdKeeper,
+      facing: Direction.Up,
+      pokemon: [{ id: 22, level: 30 }, { id: 22, level: 30 }, { id: 17, level: 30 }],
+      intro: ["I rode my bird", "POKEMON here!"],
+      outtro: ["Oh", "no!"],
+      money: 750,
+      pos: { x: 68, y: 18 },
+      postGame: { message: ["My birds can't", "FLY me back!"] },
+    },
+    {
+      npc: beauty,
+      facing: Direction.Up,
+      pokemon: [{ id: 90, level: 30 }, { id: 90, level: 30 }, { id: 91, level: 30 }],
+      intro: ["My boy friend gave", "me big pearls!"],
+      outtro: ["Don't", "touch my pearls!"],
+      money: 2100,
+      pos: { x: 50, y: 14 },
+      postGame: { message: ["Will my pearls", "grow bigger inside CLOYSTER?"] },
+    },
+    {
+      npc: jrTrainerFemale,
+      facing: Direction.Down,
+      pokemon: [{ id: 118, level: 31 }, { id: 119, level: 31 }],
+      intro: ["I swam here from", "CINNABAR ISLAND!"],
+      outtro: ["I'm", "so disappointed!"],
+      money: 620,
+      pos: { x: 48, y: 24 },
+      postGame: { message: ["POKEMON have", "taken over an abandoned mansion on", "CINNABAR!"] },
+    },
+    {
+      npc: beauty,
+      facing: Direction.Up,
+      pokemon: [{ id: 60, level: 31 }, { id: 119, level: 31 }],
+      intro: ["CINNABAR, in the", "west, has a LAB for POKEMON."],
+      outtro: ["Wait!"],
+      money: 2170,
+      pos: { x: 30, y: 16 },
+      postGame: { message: ["CINNABAR is a", "volcanic island!"] },
+    },
+  ],
+};
+
+export default route20;

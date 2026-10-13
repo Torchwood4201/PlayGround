@@ -18,7 +18,8 @@ const catchesPokemon = (pokemon: PokemonEncounterType, pokeball: ItemType) => {
   const maxHp = getPokemonStats(pokemon.id, pokemon.level).hp;
   const baseCatchRate = getPokemonMetadata(pokemon.id).baseCatchRate;
   const ballModifier = pokeballModifiers[pokeball];
-  const ball = ItemType.GreatBall ? 8 : 12;
+  // Gen 1 catch formula divisor: 12 for Great Ball, 8 otherwise.
+  const ball = pokeball === ItemType.GreatBall ? 12 : 8;
   const f_ = (maxHp * 255 * 4) / (currentHp * ball);
   const f = Math.min(Math.max(f_, 1), 255);
   const p0 = 0; // TODO

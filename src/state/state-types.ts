@@ -55,4 +55,5 @@ export interface GameState {
   defeatedTrainers: string[];
   collectedItems: string[];
   completedQuests: string[];
+  felledTrees: string[];
 }

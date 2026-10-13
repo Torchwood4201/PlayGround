@@ -2,7 +2,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { MapId } from "../maps/map-types";
 import useBadges from "./use-badges";
 import {
+  addPokemon,
   completeQuest,
+  encounterPokemon,
   moveLeft,
   selectCompletedQuests,
   selectPos,
@@ -10,6 +12,9 @@ import {
   takeMoney,
 } from "../state/gameSlice";
 import { setBlackScreen, showConfirmationMenu } from "../state/uiSlice";
+import { getPokemonStats } from "./use-pokemon-stats";
+import getPokemonEncounter from "./pokemon-encounter-helper";
+import { STARTER_QUESTS } from "./rival-teams";
 
 export interface QuestType {
   trigger: "talk" | "walk";
@@ -32,6 +37,73 @@ const useQuests = () => {
   const pos = useSelector(selectPos);
 
   const quests: QuestType[] = [
+    // Professor Oak's Lab: pick a starter (talk to a POKE BALL).
+    // The rival standing nearby battles you right after (vision trainer).
+    ...[
+      { id: 4, x: 4, name: "CHARMANDER", desc: "fire", moves: [{ id: "scratch", pp: 35 }, { id: "growl", pp: 40 }] },
+      { id: 7, x: 5, name: "SQUIRTLE", desc: "water", moves: [{ id: "tackle", pp: 35 }, { id: "growl", pp: 40 }] },
+      { id: 1, x: 6, name: "BULBASAUR", desc: "plant", moves: [{ id: "tackle", pp: 35 }, { id: "growl", pp: 40 }] },
+    ].map((starter) => ({
+      trigger: "talk" as const,
+      map: MapId.PalletTownLab,
+      positions: { 1: [starter.x] },
+      active: () =>
+        !Object.values(STARTER_QUESTS).some((q) => completedQuests.includes(q)),
+      text: [
+        "OAK: Here, Blue!",
+        "There are 3 POKEMON here!",
+        "Haha!",
+        "They are inside the POKE BALLs.",
+        "In my old age, I have only 3 left, but you can have one! Choose!",
+      ],
+      action: () => {
+        dispatch(
+          showConfirmationMenu({
+            preMessage: `So! You want the ${starter.desc} POKEMON, ${starter.name}?`,
+            postMessage: `Blue received a ${starter.name}!`,
+            confirm: () => {
+              dispatch(
+                addPokemon({
+                  id: starter.id,
+                  level: 5,
+                  xp: 0,
+                  hp: getPokemonStats(starter.id, 5).hp,
+                  moves: starter.moves,
+                })
+              );
+              dispatch(completeQuest(STARTER_QUESTS[starter.id]));
+            },
+          })
+        );
+      },
+    })),
+    // Stationary legendaries (talk to battle; Voltorb/Electrode fakes too).
+    ...[
+      { map: MapId.PowerPlant, x: 4, y: 9, id: 145, level: 50 },
+      { map: MapId.PowerPlant, x: 9, y: 20, id: 100, level: 40 },
+      { map: MapId.PowerPlant, x: 32, y: 18, id: 100, level: 40 },
+      { map: MapId.PowerPlant, x: 21, y: 25, id: 100, level: 40 },
+      { map: MapId.PowerPlant, x: 25, y: 18, id: 101, level: 43 },
+      { map: MapId.PowerPlant, x: 23, y: 34, id: 100, level: 40 },
+      { map: MapId.PowerPlant, x: 26, y: 28, id: 100, level: 40 },
+      { map: MapId.PowerPlant, x: 21, y: 14, id: 101, level: 43 },
+      { map: MapId.PowerPlant, x: 37, y: 32, id: 100, level: 40 },
+      { map: MapId.SeafoamIslandsB4f, x: 6, y: 1, id: 144, level: 50 },
+      { map: MapId.VictoryRoad2f, x: 11, y: 5, id: 146, level: 50 },
+      { map: MapId.CeruleanCaveB1f, x: 27, y: 13, id: 150, level: 70 },
+    ].map((spot) => ({
+      trigger: "talk" as const,
+      map: spot.map,
+      positions: {
+        [2 * spot.y]: [2 * spot.x, 2 * spot.x + 1],
+        [2 * spot.y + 1]: [2 * spot.x, 2 * spot.x + 1],
+      },
+      active: () => true,
+      text: ["..."],
+      action: () => {
+        dispatch(encounterPokemon(getPokemonEncounter(spot.id, spot.level)));
+      },
+    })),
     // Pewter City
     {
       trigger: "walk",

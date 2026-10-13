@@ -38,9 +38,9 @@ const viridianCityPokeMart: MapType = {
   },
   storeItems: [
     ItemType.PokeBall,
-    // ItemType.Antidote, TODO Add this
-    // ItemType.ParalyzeHeal, TODO Add this
-    // ItemType.BurnHeal, TODO Add this
+    ItemType.Antidote,
+    ItemType.ParlyzHeal,
+    ItemType.BurnHeal,
   ],
 };
 

@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { encounterPokemon, selectMap, selectPos } from "../state/gameSlice";
+import { encounterPokemon, selectMap, selectPokemon, selectPos } from "../state/gameSlice";
 import { useEffect } from "react";
 import { PokemonEncounterData } from "../maps/map-types";
 import { DEBUG_MODE } from "../app/constants";
@@ -40,9 +40,12 @@ const EncounterHandler = () => {
   const dispatch = useDispatch();
   const pos = useSelector(selectPos);
   const map = useSelector(selectMap);
+  const party = useSelector(selectPokemon);
 
   useEffect(() => {
     if (!map.encounters || DEBUG_MODE) return;
+    // No Pokemon, no battles (pre-starter).
+    if (party.length === 0) return;
 
     // Handling walk encounters
     const isWalk = map.cave ? true : isGrass(map.grass, pos.x, pos.y);
@@ -55,7 +58,7 @@ const EncounterHandler = () => {
         }
       }
     }
-  }, [pos, map.grass, map.encounters, dispatch, map.cave]);
+  }, [pos, map.grass, map.encounters, dispatch, map.cave, party]);
 
   return null;
 };

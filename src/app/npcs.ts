@@ -1280,6 +1280,82 @@ export const blaine = {
   },
 };
 
+export const lorelei = {
+  canBattle: true,
+  canWalk: true,
+  name: "Lorelei",
+  portrait: aceTrainerFemalePortrait,
+  sprites: {
+    down: aceTrainerFemaleDown,
+    downWalk1: aceTrainerFemaleDownWalk1,
+    downWalk2: aceTrainerFemaleDownWalk2,
+    up: aceTrainerFemaleUp,
+    upWalk1: aceTrainerFemaleUpWalk1,
+    upWalk2: aceTrainerFemaleUpWalk2,
+    left: aceTrainerFemaleLeft,
+    leftWalk1: aceTrainerFemaleLeftWalk1,
+    right: aceTrainerFemaleRight,
+    rightWalk1: aceTrainerFemaleRightWalk1,
+  },
+};
+
+export const bruno = {
+  canBattle: true,
+  canWalk: true,
+  name: "Bruno",
+  portrait: blackBeltPortrait,
+  sprites: {
+    down: blackBeltDown,
+    downWalk1: blackBeltDownWalk1,
+    downWalk2: blackBeltDownWalk2,
+    up: blackBeltUp,
+    upWalk1: blackBeltUpWalk1,
+    upWalk2: blackBeltUpWalk2,
+    left: blackBeltLeft,
+    leftWalk1: blackBeltLeftWalk1,
+    right: blackBeltRight,
+    rightWalk1: blackBeltRightWalk1,
+  },
+};
+
+export const agatha = {
+  canBattle: true,
+  canWalk: true,
+  name: "Agatha",
+  portrait: channelerPortrait,
+  sprites: {
+    down: channelerDown,
+    downWalk1: channelerDownWalk1,
+    downWalk2: channelerDownWalk2,
+    up: channelerUp,
+    upWalk1: channelerUpWalk1,
+    upWalk2: channelerUpWalk2,
+    left: channelerLeft,
+    leftWalk1: channelerLeftWalk1,
+    right: channelerRight,
+    rightWalk1: channelerRightWalk1,
+  },
+};
+
+export const lance = {
+  canBattle: true,
+  canWalk: true,
+  name: "Lance",
+  portrait: aceTrainerMalePortrait,
+  sprites: {
+    down: aceTrainerMaleDown,
+    downWalk1: aceTrainerMaleDownWalk1,
+    downWalk2: aceTrainerMaleDownWalk2,
+    up: aceTrainerMaleUp,
+    upWalk1: aceTrainerMaleUpWalk1,
+    upWalk2: aceTrainerMaleUpWalk2,
+    left: aceTrainerMaleLeft,
+    leftWalk1: aceTrainerMaleLeftWalk1,
+    right: aceTrainerMaleRight,
+    rightWalk1: aceTrainerMaleRightWalk1,
+  },
+};
+
 export const giovanni = {
   canBattle: true,
   canWalk: true,

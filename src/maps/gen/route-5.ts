@@ -1,0 +1,120 @@
+import route5Image from "../../assets/map/gen/route-5.png";
+import { MapId, MapType } from "../map-types";
+import music from "../../assets/music/maps/route-3.mp3";
+
+// Generated from pret/pokered ROUTE_5 - do not hand-edit.
+const route5: MapType = {
+  name: "Route 5",
+  image: route5Image,
+  height: 36,
+  width: 20,
+  start: { x: 10, y: 34 },
+  walls: {
+    16: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    17: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    18: [6, 7, 12, 13, 14, 15],
+    19: [6, 7, 12, 13, 14, 15],
+    20: [6, 7, 8, 9, 12, 13, 14, 15],
+    21: [6, 7, 8, 9, 12, 13, 14, 15],
+    22: [14, 15],
+    23: [14, 15],
+    24: [16, 17, 18, 19],
+    25: [16, 17, 18, 19],
+    28: [8, 9],
+    29: [8, 9],
+    30: [6, 7, 12, 13],
+    31: [6, 7, 12, 13],
+  },
+  text: {
+    59: {
+      34: ["UNDERGROUND PATH", "CERULEAN CITY - VERMILION CITY"],
+      35: ["UNDERGROUND PATH", "CERULEAN CITY - VERMILION CITY"],
+    },
+  },
+  maps: {
+    0: {
+      0: { map: MapId.CeruleanCity, pos: { x: 10, y: 34 } },
+      1: { map: MapId.CeruleanCity, pos: { x: 10, y: 34 } },
+      2: { map: MapId.CeruleanCity, pos: { x: 12, y: 34 } },
+      3: { map: MapId.CeruleanCity, pos: { x: 12, y: 34 } },
+      4: { map: MapId.CeruleanCity, pos: { x: 14, y: 34 } },
+      5: { map: MapId.CeruleanCity, pos: { x: 14, y: 34 } },
+      6: { map: MapId.CeruleanCity, pos: { x: 16, y: 34 } },
+      7: { map: MapId.CeruleanCity, pos: { x: 16, y: 34 } },
+      8: { map: MapId.CeruleanCity, pos: { x: 18, y: 34 } },
+      9: { map: MapId.CeruleanCity, pos: { x: 18, y: 34 } },
+      10: { map: MapId.CeruleanCity, pos: { x: 20, y: 34 } },
+      11: { map: MapId.CeruleanCity, pos: { x: 20, y: 34 } },
+      12: { map: MapId.CeruleanCity, pos: { x: 22, y: 34 } },
+      13: { map: MapId.CeruleanCity, pos: { x: 22, y: 34 } },
+      14: { map: MapId.CeruleanCity, pos: { x: 24, y: 34 } },
+      15: { map: MapId.CeruleanCity, pos: { x: 24, y: 34 } },
+      16: { map: MapId.CeruleanCity, pos: { x: 26, y: 34 } },
+      17: { map: MapId.CeruleanCity, pos: { x: 26, y: 34 } },
+      18: { map: MapId.CeruleanCity, pos: { x: 28, y: 34 } },
+      19: { map: MapId.CeruleanCity, pos: { x: 28, y: 34 } },
+    },
+    35: {
+      0: { map: MapId.SaffronCity, pos: { x: 10, y: 1 } },
+      1: { map: MapId.SaffronCity, pos: { x: 10, y: 1 } },
+      4: { map: MapId.SaffronCity, pos: { x: 14, y: 4 } },
+      5: { map: MapId.SaffronCity, pos: { x: 14, y: 4 } },
+      6: { map: MapId.SaffronCity, pos: { x: 16, y: 4 } },
+      7: { map: MapId.SaffronCity, pos: { x: 16, y: 4 } },
+      8: { map: MapId.SaffronCity, pos: { x: 18, y: 4 } },
+      9: { map: MapId.SaffronCity, pos: { x: 18, y: 4 } },
+      12: { map: MapId.SaffronCity, pos: { x: 22, y: 1 } },
+      13: { map: MapId.SaffronCity, pos: { x: 22, y: 1 } },
+      14: { map: MapId.SaffronCity, pos: { x: 24, y: 1 } },
+      15: { map: MapId.SaffronCity, pos: { x: 24, y: 1 } },
+      16: { map: MapId.SaffronCity, pos: { x: 26, y: 1 } },
+      17: { map: MapId.SaffronCity, pos: { x: 26, y: 1 } },
+      18: { map: MapId.SaffronCity, pos: { x: 28, y: 1 } },
+      19: { map: MapId.SaffronCity, pos: { x: 28, y: 1 } },
+    },
+    42: {
+      20: { map: MapId.Daycare, pos: { x: 4, y: 15 } },
+      21: { map: MapId.Daycare, pos: { x: 4, y: 15 } },
+    },
+    43: {
+      20: { map: MapId.Daycare, pos: { x: 4, y: 15 } },
+      21: { map: MapId.Daycare, pos: { x: 4, y: 15 } },
+    },
+    54: {
+      34: { map: MapId.UndergroundPathRoute5, pos: { x: 6, y: 15 } },
+      35: { map: MapId.UndergroundPathRoute5, pos: { x: 6, y: 15 } },
+    },
+    55: {
+      34: { map: MapId.UndergroundPathRoute5, pos: { x: 6, y: 15 } },
+      35: { map: MapId.UndergroundPathRoute5, pos: { x: 6, y: 15 } },
+    },
+    58: {
+      18: { map: MapId.Route5Gate, pos: { x: 6, y: 1 } },
+      19: { map: MapId.Route5Gate, pos: { x: 6, y: 1 } },
+      20: { map: MapId.Route5Gate, pos: { x: 8, y: 1 } },
+      21: { map: MapId.Route5Gate, pos: { x: 8, y: 1 } },
+    },
+    59: {
+      18: { map: MapId.Route5Gate, pos: { x: 6, y: 1 } },
+      19: { map: MapId.Route5Gate, pos: { x: 6, y: 1 } },
+      20: { map: MapId.Route5Gate, pos: { x: 8, y: 1 } },
+      21: { map: MapId.Route5Gate, pos: { x: 8, y: 1 } },
+    },
+    66: {
+      20: { map: MapId.Route5Gate, pos: { x: 6, y: 11 } },
+      21: { map: MapId.Route5Gate, pos: { x: 6, y: 11 } },
+    },
+    67: {
+      20: { map: MapId.Route5Gate, pos: { x: 6, y: 11 } },
+      21: { map: MapId.Route5Gate, pos: { x: 6, y: 11 } },
+    },
+  },
+  exits: {},
+  exitReturnMap: MapId.SaffronCity,
+  exitReturnPos: { x: 4, y: 2 },
+  music,
+  encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
+  grass: {},
+};
+
+export default route5;

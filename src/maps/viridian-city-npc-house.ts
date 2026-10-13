@@ -21,9 +21,8 @@ const viridianCityNpcHouse: MapType = {
   text: {
     0: {
       3: [
-        "Lorem ipsum dolor sit amet, consectetur",
-        "adipiscing elit, sed do eiusmod tempor",
-        "incididunt ut labore et dolore magna aliqua.",
+        "Oh Grandpa! Don't be so mean!",
+        "He hasn't had his coffee yet.",
       ],
     },
   },

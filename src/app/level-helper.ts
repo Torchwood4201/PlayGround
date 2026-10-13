@@ -22,13 +22,28 @@ const getLevelData = (
 export default getLevelData;
 
 export const getLearnedMove = (pokemon: PokemonInstance): MoveState | null => {
+  const moves = getLearnedMoves(pokemon, pokemon.level - 1, pokemon.level);
+  return moves[0] || null;
+};
+
+// All moves learned between fromLevel (exclusive) and toLevel (inclusive)
+// that the pokemon doesn't already know. Used so multi-level-ups don't skip
+// moves learned at intermediate levels.
+export const getLearnedMoves = (
+  pokemon: PokemonInstance,
+  fromLevel: number,
+  toLevel: number
+): MoveState[] => {
   const pokemonMetadata = getPokemonMetadata(pokemon.id);
-  const moves = pokemonMetadata.moves;
-  const move = moves.find((move) => move.levelLearnedAt === pokemon.level);
-  if (!move) return null;
-  if (pokemon.moves.some((m) => m.id === move.name)) return null;
-  return {
-    id: move.name,
-    pp: getMoveMetadata(move.name).pp || 0,
-  };
+  return pokemonMetadata.moves
+    .filter(
+      (move) =>
+        move.levelLearnedAt > fromLevel &&
+        move.levelLearnedAt <= toLevel &&
+        !pokemon.moves.some((m) => m.id === move.name)
+    )
+    .map((move) => ({
+      id: move.name,
+      pp: getMoveMetadata(move.name).pp || 0,
+    }));
 };

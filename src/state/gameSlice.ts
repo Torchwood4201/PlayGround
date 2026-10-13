@@ -6,7 +6,7 @@ import { getPokemonStats } from "../app/use-pokemon-stats";
 import mapData from "../maps/map-data";
 import { getMoveMetadata } from "../app/use-move-metadata";
 import { ItemType } from "../app/use-item-data";
-import { canWalk, isFence, isItem, isTrainer, isWall } from "../app/map-helper";
+import { canWalk, isCutTree, isFence, isItem, isTrainer, isWall, isWater } from "../app/map-helper";
 import {
   Direction,
   GameState,
@@ -16,8 +16,10 @@ import {
   PosType,
 } from "./state-types";
 
-const initialState: GameState = {
-  pos: palletTown.start,
+export const partyKnowsMove = (pokemon: PokemonInstance[], move: string) =>
+  pokemon.some((p) => p.moves.some((m) => m.id === move));
+
+const initialState: GameState = {  pos: palletTown.start,
   jumping: false,
   moving: false,
   direction: Direction.Down,
@@ -34,55 +36,15 @@ const initialState: GameState = {
     },
   ],
   name: "Blue",
-  pokemon: [
-    {
-      id: 1,
-      level: 5,
-      xp: 0,
-      hp: 10,
-      moves: [
-        { id: "tackle", pp: 35 },
-        { id: "growl", pp: 40 },
-      ],
-    },
-    {
-      id: 4,
-      level: 5,
-      xp: 0,
-      hp: 19,
-      moves: [
-        { id: "scratch", pp: 35 },
-        { id: "growl", pp: 40 },
-      ],
-    },
-    {
-      id: 7,
-      level: 5,
-      xp: 0,
-      hp: 19,
-      moves: [
-        { id: "tackle", pp: 35 },
-        { id: "tail-whip", pp: 30 },
-      ],
-    },
-  ],
-  pc: [
-    {
-      id: 1,
-      level: 5,
-      xp: 0,
-      hp: 19,
-      moves: [
-        { id: "tackle", pp: 35 },
-        { id: "growl", pp: 40 },
-      ],
-    },
-  ],
+  // No starter until Oak's Lab (starter-picked quests in use-quests.ts).
+  pokemon: [],
+  pc: [],
   activePokemonIndex: 0,
   trainerEncounter: undefined,
   defeatedTrainers: [],
   collectedItems: [],
   completedQuests: [],
+  felledTrees: [],
 };
 
 export const gameSlice = createSlice({
@@ -93,7 +55,14 @@ export const gameSlice = createSlice({
       state.direction = Direction.Left;
       if (state.pos.x === 0) return;
       if (
-        !canWalk(state.pos.x - 1, state.pos.y, state.map, state.collectedItems)
+        !canWalk(
+          state.pos.x - 1,
+          state.pos.y,
+          state.map,
+          state.collectedItems,
+          state.felledTrees,
+          partyKnowsMove(state.pokemon, "surf")
+        )
       )
         return;
       state.pos.x -= 1;
@@ -103,7 +72,14 @@ export const gameSlice = createSlice({
       const map = mapData[state.map];
       if (state.pos.x === map.width - 1) return;
       if (
-        !canWalk(state.pos.x + 1, state.pos.y, state.map, state.collectedItems)
+        !canWalk(
+          state.pos.x + 1,
+          state.pos.y,
+          state.map,
+          state.collectedItems,
+          state.felledTrees,
+          partyKnowsMove(state.pokemon, "surf")
+        )
       )
         return;
       state.pos.x += 1;
@@ -112,7 +88,14 @@ export const gameSlice = createSlice({
       state.direction = Direction.Up;
       if (state.pos.y === 0) return;
       if (
-        !canWalk(state.pos.x, state.pos.y - 1, state.map, state.collectedItems)
+        !canWalk(
+          state.pos.x,
+          state.pos.y - 1,
+          state.map,
+          state.collectedItems,
+          state.felledTrees,
+          partyKnowsMove(state.pokemon, "surf")
+        )
       )
         return;
       state.pos.y -= 1;
@@ -134,6 +117,21 @@ export const gameSlice = createSlice({
           state.collectedItems,
           state.map
         )
+      )
+        return;
+      if (
+        isCutTree(
+          map.cut,
+          state.pos.x,
+          state.pos.y + 1,
+          state.felledTrees,
+          state.map
+        )
+      )
+        return;
+      if (
+        isWater(map.water, state.pos.x, state.pos.y + 1) &&
+        !partyKnowsMove(state.pokemon, "surf")
       )
         return;
       state.pos.y += 1;
@@ -213,6 +211,7 @@ export const gameSlice = createSlice({
       state.defeatedTrainers = savedGameState.defeatedTrainers;
       state.collectedItems = savedGameState.collectedItems;
       state.completedQuests = savedGameState.completedQuests;
+      state.felledTrees = savedGameState.felledTrees || [];
     },
     swapPokemonPositions: (state, action: PayloadAction<number[]>) => {
       const [index1, index2] = action.payload;
@@ -338,6 +337,10 @@ export const gameSlice = createSlice({
     completeQuest: (state, action: PayloadAction<string>) => {
       state.completedQuests.push(action.payload);
     },
+    fellTree: (state, action: PayloadAction<PosType>) => {
+      const id = `${state.map}-${action.payload.x}-${action.payload.y}`;
+      if (!state.felledTrees.includes(id)) state.felledTrees.push(id);
+    },
   },
 });
 
@@ -378,6 +381,7 @@ export const {
   faintToTrainer,
   collectItem,
   completeQuest,
+  fellTree,
 } = gameSlice.actions;
 
 export const selectPos = (state: RootState) => state.game.pos;
@@ -421,6 +425,8 @@ export const selectDefeatedTrainers = (state: RootState) =>
   state.game.defeatedTrainers;
 
 export const selectMapId = (state: RootState) => state.game.map;
+
+export const selectFelledTrees = (state: RootState) => state.game.felledTrees;
 
 export const selectCollectedItems = (state: RootState) =>
   state.game.collectedItems;

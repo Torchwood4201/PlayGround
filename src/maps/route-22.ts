@@ -46,11 +46,7 @@ const route22: MapType = {
   },
   text: {
     11: {
-      7: [
-        "Lorem ipsum dolor sit amet, consectetur",
-        "adipiscing elit, sed do eiusmod tempor",
-        "incididunt ut labore et dolore magna aliqua.",
-      ],
+      7: ["POKEMON LEAGUE", "Front Gate"],
     },
   },
   maps: {
@@ -79,29 +75,38 @@ const route22: MapType = {
   trainers: [
     {
       npc: rival,
+      rivalTier: 1,
       pokemon: [
         {
           id: 16,
           level: 9,
         },
         {
-          id: 1,
+          id: 7,
           level: 8,
         },
       ],
       facing: Direction.Right,
       intro: [
-        "Hey!",
+        "Rival: Hey!",
+        "Blue!",
         "You're going to POKEMON LEAGUE?",
         "Forget it! You probably don't have any BADGEs!",
         "The guard won't let you through!",
         "By the way, did your POKEMON get any stronger?",
       ],
-      outtro: ["Awww! You just lucked out!"],
+      outtro: ["Awww!", "You just lucked out!"],
       money: 280,
       pos: {
         x: 25,
         y: 5,
+      },
+      postGame: {
+        message: [
+          "I heard POKEMON LEAGUE has many tough trainers!",
+          "I have to figure out how to get past them!",
+          "You should quit dawdling and get a move on!",
+        ],
       },
     },
   ],

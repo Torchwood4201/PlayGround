@@ -40,6 +40,7 @@ interface UiState {
   pokeMartMenu: boolean;
   actionOnPokemon: ((index: number) => void) | null;
   pokeballThrowing?: ItemType | null;
+  enemyFreeAttack: boolean;
   spinning: Direction | null;
   textThenAction: TextThenActionType | null;
   learningMove: LearningMoveType | null;
@@ -58,6 +59,7 @@ const initialState: UiState = {
   gameboyMenu: true,
   actionOnPokemon: null,
   pokeballThrowing: null,
+  enemyFreeAttack: false,
   pokemonCenterMenu: false,
   pcMenu: false,
   pokeMartMenu: false,
@@ -120,6 +122,12 @@ export const uiSlice = createSlice({
     },
     stopThrowingPokeball: (state) => {
       state.pokeballThrowing = null;
+    },
+    queueEnemyAttack: (state) => {
+      state.enemyFreeAttack = true;
+    },
+    clearEnemyAttack: (state) => {
+      state.enemyFreeAttack = false;
     },
     showPokemonCenterMenu: (state) => {
       state.pokemonCenterMenu = true;
@@ -197,6 +205,8 @@ export const {
   hideActionOnPokemon,
   throwPokeball,
   stopThrowingPokeball,
+  queueEnemyAttack,
+  clearEnemyAttack,
   showPokemonCenterMenu,
   hidePokemonCenterMenu,
   showPcMenu,
@@ -264,6 +274,9 @@ export const selectStartMenuSubOpen = (state: RootState) =>
 
 export const selectPokeballThrowing = (state: RootState) =>
   state.ui.pokeballThrowing;
+
+export const selectEnemyFreeAttack = (state: RootState) =>
+  state.ui.enemyFreeAttack;
 
 export const selectSpinning = (state: RootState) => state.ui.spinning;
 

@@ -44,6 +44,9 @@ import ballRight from "../assets/battle/ball-right.png";
 import Menu, { MenuItemType } from "./Menu";
 import PokemonList from "./PokemonList";
 import {
+  clearEnemyAttack,
+  queueEnemyAttack,
+  selectEnemyFreeAttack,
   selectEvolution,
   selectItemsMenu,
   selectPokeballThrowing,
@@ -58,7 +61,8 @@ import { getMoveMetadata } from "../app/use-move-metadata";
 import { MoveMetadata } from "../app/move-metadata";
 import processMove, { MoveResult } from "../app/move-helper";
 import getXp from "../app/xp-helper";
-import getLevelData, { getLearnedMove } from "../app/level-helper";
+import getLevelData, { getLearnedMoves } from "../app/level-helper";
+import { MoveState } from "../state/state-types";
 import MoveSelect from "./MoveSelect";
 import catchesPokemon from "../app/pokeball-helper";
 import { PokemonEncounterType, PokemonInstance } from "../state/state-types";
@@ -612,6 +616,11 @@ const PokemonEncounter = () => {
     pokemon[involvedPokemon[processingInvolvedPokemon] || 0];
   const processingMetadata = usePokemonMetadata(processingPokemon?.id || null);
   const pokemonEvolving = useSelector(selectEvolution);
+  const freeAttackQueued = useSelector(selectEnemyFreeAttack);
+  // Consecutive failed run attempts this encounter (Gen 1 escape formula).
+  const [runAttempts, setRunAttempts] = useState(0);
+  // Level-up moves waiting to be taught (covers multi-level-ups).
+  const [pendingMoves, setPendingMoves] = useState<MoveState[]>([]);
 
   const [alertText, setAlertText] = useState<string | null>(null);
   const [clickableNotice, setClickableNotice] = useState<string | null>(null);
@@ -693,7 +702,6 @@ const PokemonEncounter = () => {
     // Ending encounter
     setTrainerPokemonIndex(0);
     dispatch(endEncounter());
-
     if (isTrainer) {
       // Defeated trainer
       if (trainerPokemonIndex === 10) {
@@ -723,9 +731,22 @@ const PokemonEncounter = () => {
     }
   };
 
+  // After teaching (or forgetting for) a level-up move: teach the next queued
+  // move, or continue the end-of-battle flow when the queue is empty.
+  const continueAfterTeach = (remaining: MoveState[]) => {
+    setPendingMoves(remaining);
+    if (remaining.length > 0) {
+      setStage(22);
+    } else {
+      endEncounter_();
+    }
+  };
+
   useEffect(() => {
     if (isInBattle) {
       dispatch(resetActivePokemon());
+      setRunAttempts(0);
+      setPendingMoves([]);
       setStage(0);
       setTimeout(() => {
         setStage(1);
@@ -790,6 +811,9 @@ const PokemonEncounter = () => {
     if (pokeballThrowing && enemy) {
       if (isTrainer) {
         setClickableNotice("The trainer blocked the ball!");
+        // Safety: balls are refused before throwing (see use-item-data), but
+        // never leave the throw flag stuck.
+        dispatch(stopThrowingPokeball());
         return;
       }
 
@@ -854,6 +878,16 @@ const PokemonEncounter = () => {
     }
   }, [pokeballThrowing, enemy, dispatch, isTrainer]);
 
+  // Consume a queued enemy free attack (switching, item use, failed run or
+  // failed catch costs the turn in Gen 1) once the battle menu is back up.
+  useEffect(() => {
+    if (stage === 11 && freeAttackQueued && enemy && active) {
+      dispatch(clearEnemyAttack());
+      enemyFreeAttack();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [stage, freeAttackQueued, enemy, active, dispatch]);
+
   useEvent(Event.A, () => {
     if (startMenuOpen) return;
     if (pokemonEvolving !== null) return;
@@ -914,6 +948,11 @@ const PokemonEncounter = () => {
         processingPokemon.xp
       );
       if (leveledUp) {
+        // Queue every move learned between the old and new level so
+        // multi-level-ups don't skip intermediate moves.
+        setPendingMoves(
+          getLearnedMoves(processingPokemon, processingPokemon.level, level)
+        );
         dispatch(
           updateSpecificPokemon({
             index: involvedPokemon[processingInvolvedPokemon],
@@ -931,7 +970,7 @@ const PokemonEncounter = () => {
     }
 
     if (stage === 22) {
-      const move = getLearnedMove(processingPokemon);
+      const move = pendingMoves[0];
       const hasFourMoves = processingPokemon.moves.length === 4;
       if (move && !hasFourMoves) {
         setStage(29);
@@ -966,7 +1005,7 @@ const PokemonEncounter = () => {
     }
 
     if (stage === 29) {
-      const move = getLearnedMove(processingPokemon);
+      const move = pendingMoves[0];
       if (!move) throw new Error("No move found");
       dispatch(
         updateSpecificPokemon({
@@ -978,7 +1017,7 @@ const PokemonEncounter = () => {
         })
       );
 
-      endEncounter_();
+      continueAfterTeach(pendingMoves.slice(1));
     }
 
     if (stage === 30) {
@@ -994,6 +1033,8 @@ const PokemonEncounter = () => {
     }
 
     if ([42, 43, 44].includes(stage)) {
+      // Failed catch attempt costs the turn: the enemy attacks on return.
+      dispatch(queueEnemyAttack());
       setStage(11);
     }
 
@@ -1070,13 +1111,13 @@ const PokemonEncounter = () => {
     if (stage === 27) return `${name} blacked out!`;
     if (stage === 29) {
       if (!processingMetadata) throw new Error("No processing metadata found");
-      const move = getLearnedMove(processingPokemon);
+      const move = pendingMoves[0];
       if (!move) throw new Error("No move found");
       return `${processingMetadata.name.toUpperCase()} learned ${move.id}!`;
     }
     if (stage === 30) {
       if (!processingMetadata) throw new Error("No processing metadata found");
-      const move = getLearnedMove(processingPokemon);
+      const move = pendingMoves[0];
       if (!move) throw new Error("No move found");
       return `${processingMetadata.name.toUpperCase()} is trying to learn ${
         move.id
@@ -1104,7 +1145,10 @@ const PokemonEncounter = () => {
   };
 
   const getRandomEnemyMove = () => {
-    return enemy.moves[Math.floor(Math.random() * enemy.moves.length)];
+    // Prefer damaging moves over no-op status moves; fall back to anything.
+    const damaging = enemy.moves.filter((m) => getMoveMetadata(m).power);
+    const pool = damaging.length > 0 ? damaging : enemy.moves;
+    return pool[Math.floor(Math.random() * pool.length)];
   };
 
   const getActiveMovesFirst = (
@@ -1113,6 +1157,8 @@ const PokemonEncounter = () => {
   ) => {
     if (activeMove.priority > enemyMove.priority) return true;
     if (activeMove.priority < enemyMove.priority) return false;
+    // Speed tie is a coin flip in Gen 1.
+    if (activeStats.speed === enemyStats.speed) return Math.random() < 0.5;
     return activeStats.speed > enemyStats.speed;
   };
 
@@ -1190,9 +1236,16 @@ const PokemonEncounter = () => {
   };
 
   const processBattle = (attackId: string) => {
+    // Out-of-PP moves can't be used. (Gen 1 would offer Struggle here;
+    // refusing keeps battles honest without new UI.)
+    const playerMove = active.moves.find((m) => m.id === attackId);
+    if (!playerMove || playerMove.pp <= 0) {
+      setStage(11);
+      setClickableNotice("No PP left for this move!");
+      return;
+    }
     const activeMove = getMoveMetadata(attackId);
     const enemyMove = getMoveMetadata(getRandomEnemyMove());
-
     const activeMovesFirst = getActiveMovesFirst(activeMove, enemyMove);
 
     // We are moving first
@@ -1258,14 +1311,48 @@ const PokemonEncounter = () => {
               setStage(20);
             }
 
-            // Ending battle
-            else {
-              setStage(11);
-            }
-          }, ATTACK_ANIMATION + 1000);
-        }
-      }, ATTACK_ANIMATION + 1000);
+          // Ending battle
+          else {
+            setStage(11);
+          }
+        }, ATTACK_ANIMATION + 1000);
+      }
+    }, ATTACK_ANIMATION + 1000);
     }
+  };
+
+  // Enemy free attack for turns the player spends switching Pokemon, using an
+  // item, or failing to run/catch. Mirrors the enemy half of processBattle.
+  const enemyFreeAttack = () => {
+    if (!enemy || !active) return;
+    const { us } = processMoveResult(
+      processMove(active, enemy, getRandomEnemyMove(), false),
+      false
+    );
+
+    setTimeout(() => {
+      // We fainted
+      if (us.hp <= 0) {
+        setStage(24);
+      }
+
+      // Back to battle menu
+      else {
+        setStage(11);
+      }
+    }, ATTACK_ANIMATION + 1000);
+  };
+
+  // Gen 1 escape: guaranteed if as fast or faster, else odds grow with each
+  // failed attempt. Returns true on a successful escape.
+  const tryRun = () => {
+    if (!enemy) return true;
+    if (activeStats.speed >= enemyStats.speed) return true;
+    const chance =
+      (Math.floor((activeStats.speed * 32) / enemyStats.speed) +
+        30 * runAttempts) %
+      256;
+    return Math.floor(Math.random() * 256) < chance;
   };
 
   const leftImage = () => {
@@ -1414,8 +1501,13 @@ const PokemonEncounter = () => {
                 action: () => {
                   if (isTrainer) {
                     setClickableNotice("No running from trainer battle.");
-                  } else {
+                  } else if (tryRun()) {
                     setStage(12);
+                  } else {
+                    // Failed escape costs the turn: the enemy attacks.
+                    setRunAttempts(runAttempts + 1);
+                    setClickableNotice("Can't escape!");
+                    dispatch(queueEnemyAttack());
                   }
                 },
               },
@@ -1429,8 +1521,11 @@ const PokemonEncounter = () => {
             <PokemonList
               close={() => setStage(11)}
               switchAction={(index) => {
+                if (pokemon[index].hp <= 0) return;
                 dispatch(setActivePokemon(index));
                 setInvolvedPokemon([...involvedPokemon, index]);
+                // Switching costs the turn: the enemy gets a free attack.
+                dispatch(queueEnemyAttack());
                 throwPokeball();
               }}
             />
@@ -1459,7 +1554,7 @@ const PokemonEncounter = () => {
             show={stage === 33}
             menuItems={[
               ...processingPokemon.moves.map((m) => {
-                const newMove = getLearnedMove(processingPokemon);
+                const newMove = pendingMoves[0];
                 if (!newMove)
                   return {
                     label: "Error",
@@ -1468,7 +1563,6 @@ const PokemonEncounter = () => {
                 const item: MenuItemType = {
                   label: m.id,
                   action: () => {
-                    endEncounter_();
                     dispatch(
                       updateSpecificPokemon({
                         index: involvedPokemon[processingInvolvedPokemon],
@@ -1483,18 +1577,19 @@ const PokemonEncounter = () => {
                         },
                       })
                     );
+                    continueAfterTeach(pendingMoves.slice(1));
                   },
                 };
                 return item;
               }),
               {
-                label: getLearnedMove(processingPokemon)?.id || "Error",
+                label: pendingMoves[0]?.id || "Error",
                 action: () => {
-                  endEncounter_();
+                  continueAfterTeach(pendingMoves.slice(1));
                 },
               },
             ]}
-            close={() => endEncounter_()}
+            close={() => continueAfterTeach(pendingMoves.slice(1))}
             bottom="0"
             right="0"
           />

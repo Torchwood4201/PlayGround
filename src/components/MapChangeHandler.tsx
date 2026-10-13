@@ -57,7 +57,11 @@ const MapChangeHandler = () => {
     };
 
     if (nextMap) {
-      transition(() => dispatch(setMap(nextMap)));
+      transition(() =>
+        dispatch(
+          typeof nextMap === "string" ? setMap(nextMap) : setMapWithPos(nextMap)
+        )
+      );
     } else if (exit) {
       transition(() => dispatch(exitMap()));
     } else if (teleport) {

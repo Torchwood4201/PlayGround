@@ -31,6 +31,7 @@ import Item from "./Item";
 import TextThenAction from "./TextThenAction";
 import LearnMove from "../app/LearnMove";
 import QuestHandler from "./QuestHandler";
+import CutHandler from "./CutHandler";
 import ConfirmationMenu from "./ConfirmationMenu";
 import Evolution from "./Evolution";
 
@@ -137,6 +138,7 @@ const Game = () => {
       <EncounterHandler />
       <SpinningHandler />
       <QuestHandler />
+      <CutHandler />
     </Container>
   );
 };

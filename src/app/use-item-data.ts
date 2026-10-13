@@ -1,7 +1,11 @@
 import { useDispatch, useSelector } from "react-redux";
 import {
   consumeItem,
+  exitMap,
+  selectMapId,
+  selectName,
   selectPokemon,
+  selectTrainerEncounter,
   updateSpecificPokemon,
 } from "../state/gameSlice";
 import { getPokemonStats } from "./use-pokemon-stats";
@@ -10,9 +14,14 @@ import {
   learnMove,
   showActionOnPokemon,
   showEvolution,
+  showText,
+  showTextThenAction,
   throwPokeball,
 } from "../state/uiSlice";
 import { getMoveMetadata } from "./use-move-metadata";
+import { getPokemonMetadata } from "./use-pokemon-metadata";
+import { getLearnedMoves } from "./level-helper";
+import mapData from "../maps/map-data";
 
 export enum ItemType {
   MasterBall = "master-ball", // DONE
@@ -173,6 +182,26 @@ export interface ItemData {
 const useItemData = () => {
   const dispatch = useDispatch();
   const pokemon = useSelector(selectPokemon);
+  const trainerEncounter = useSelector(selectTrainerEncounter);
+  const mapId = useSelector(selectMapId);
+  const playerName = useSelector(selectName);
+
+  // Balls can't catch a trainer's Pokemon: refuse with Oak's warning before
+  // consuming or throwing anything.
+  const throwBall = (ball: ItemType) => {
+    dispatch(hideItemsMenu());
+    if (trainerEncounter) {
+      dispatch(
+        showTextThenAction({
+          text: ["The trainer blocked the ball!", "Don't be a thief!"],
+          action: () => {},
+        })
+      );
+      return;
+    }
+    dispatch(throwPokeball(ball));
+    dispatch(consumeItem(ball));
+  };
 
   const data: Record<string, ItemData> = {
     [ItemType.MaxPotion]: {
@@ -395,6 +424,367 @@ const useItemData = () => {
               })
             );
             dispatch(consumeItem(ItemType.MaxRevive));
+          })
+        );
+      },
+    },
+    // Status healers are collectible (marts, pickups) but inert until the
+    // status-condition system lands; "Use" shows the OAK message.
+    [ItemType.Antidote]: {
+      type: ItemType.Antidote,
+      name: "Antidote",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 100,
+      sellPrice: 50,
+      action: () => {},
+    },
+    [ItemType.BurnHeal]: {
+      type: ItemType.BurnHeal,
+      name: "Burn Heal",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 200,
+      sellPrice: 100,
+      action: () => {},
+    },
+    [ItemType.Awakening]: {
+      type: ItemType.Awakening,
+      name: "Awakening",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 200,
+      sellPrice: 100,
+      action: () => {},
+    },
+    [ItemType.ParlyzHeal]: {
+      type: ItemType.ParlyzHeal,
+      name: "Parlyz Heal",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 200,
+      sellPrice: 100,
+      action: () => {},
+    },
+    [ItemType.Repel]: {
+      type: ItemType.Repel,
+      name: "Repel",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 350,
+      sellPrice: 175,
+      action: () => {},
+    },
+    [ItemType.SuperRepel]: {
+      type: ItemType.SuperRepel,
+      name: "Super Repel",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 500,
+      sellPrice: 250,
+      action: () => {},
+    },
+    [ItemType.MaxRepel]: {
+      type: ItemType.MaxRepel,
+      name: "Max Repel",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 700,
+      sellPrice: 350,
+      action: () => {},
+    },
+    [ItemType.IceHeal]: {
+      type: ItemType.IceHeal,
+      name: "Ice Heal",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 200,
+      sellPrice: 100,
+      action: () => {},
+    },
+    [ItemType.FullHeal]: {
+      type: ItemType.FullHeal,
+      name: "Full Heal",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 600,
+      sellPrice: 300,
+      action: () => {},
+    },
+    [ItemType.FullRestore]: {
+      type: ItemType.FullRestore,
+      name: "Full Restore",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 3000,
+      sellPrice: 1500,
+      action: () => {},
+    },
+    [ItemType.PokeDoll]: {
+      type: ItemType.PokeDoll,
+      name: "Poke Doll",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 1000,
+      sellPrice: 500,
+      action: () => {},
+    },
+    [ItemType.XAccuracy]: {
+      type: ItemType.XAccuracy,
+      name: "X Accuracy",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 950,
+      sellPrice: 475,
+      action: () => {},
+    },
+    [ItemType.GuardSpec]: {
+      type: ItemType.GuardSpec,
+      name: "Guard Spec",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 700,
+      sellPrice: 350,
+      action: () => {},
+    },
+    [ItemType.DireHit]: {
+      type: ItemType.DireHit,
+      name: "Dire Hit",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 650,
+      sellPrice: 325,
+      action: () => {},
+    },
+    [ItemType.XAttack]: {
+      type: ItemType.XAttack,
+      name: "X Attack",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 500,
+      sellPrice: 250,
+      action: () => {},
+    },
+    [ItemType.XDefend]: {
+      type: ItemType.XDefend,
+      name: "X Defend",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 500,
+      sellPrice: 250,
+      action: () => {},
+    },
+    [ItemType.XSpeed]: {
+      type: ItemType.XSpeed,
+      name: "X Speed",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 500,
+      sellPrice: 250,
+      action: () => {},
+    },
+    [ItemType.XSpecial]: {
+      type: ItemType.XSpecial,
+      name: "X Special",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 500,
+      sellPrice: 250,
+      action: () => {},
+    },
+    [ItemType.HpUp]: {
+      type: ItemType.HpUp,
+      name: "HP Up",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 9800,
+      sellPrice: 4900,
+      action: () => {},
+    },
+    [ItemType.Protein]: {
+      type: ItemType.Protein,
+      name: "Protein",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 9800,
+      sellPrice: 4900,
+      action: () => {},
+    },
+    [ItemType.Iron]: {
+      type: ItemType.Iron,
+      name: "Iron",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 9800,
+      sellPrice: 4900,
+      action: () => {},
+    },
+    [ItemType.Carbos]: {
+      type: ItemType.Carbos,
+      name: "Carbos",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 9800,
+      sellPrice: 4900,
+      action: () => {},
+    },
+    [ItemType.Calcium]: {
+      type: ItemType.Calcium,
+      name: "Calcium",
+      countable: true,
+      consumable: false,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 9800,
+      sellPrice: 4900,
+      action: () => {},
+    },
+    [ItemType.EscapeRope]: {
+      type: ItemType.EscapeRope,
+      name: "Escape Rope",
+      countable: true,
+      consumable: true,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: 550,
+      sellPrice: 275,
+      action: () => {
+        const map = mapData[mapId];
+        if (!map.exitReturnMap || !map.exitReturnPos) {
+          dispatch(
+            showText([`OAK: ${playerName}! This isn't the`, "time to use that!"])
+          );
+          return;
+        }
+        dispatch(exitMap());
+        dispatch(consumeItem(ItemType.EscapeRope));
+      },
+    },
+    [ItemType.RareCandy]: {
+      type: ItemType.RareCandy,
+      name: "Rare Candy",
+      countable: true,
+      consumable: true,
+      usableInBattle: false,
+      pokeball: false,
+      badge: false,
+      cost: null,
+      sellPrice: 0,
+      action: () => {
+        dispatch(
+          showActionOnPokemon((index: number) => {
+            const target = pokemon[index];
+            if (target.level >= 100) {
+              dispatch(
+                showText([
+                  `OAK: ${playerName}! This isn't the`,
+                  "time to use that!",
+                ])
+              );
+              return;
+            }
+            const newLevel = target.level + 1;
+            const species = getPokemonMetadata(target.id).name.toUpperCase();
+            // Auto-teach level-up moves only when there is room; a full
+            // moveset skips them (forget-prompt UI lives in battle only).
+            const learned =
+              target.moves.length < 4
+                ? getLearnedMoves(target, target.level, newLevel)
+                : [];
+            dispatch(
+              updateSpecificPokemon({
+                index,
+                pokemon: {
+                  ...target,
+                  level: newLevel,
+                  xp: 0,
+                  moves: [...target.moves, ...learned],
+                },
+              })
+            );
+            dispatch(consumeItem(ItemType.RareCandy));
+            dispatch(
+              showTextThenAction({
+                text:
+                  learned.length > 0
+                    ? [
+                        `${species} grew to level ${newLevel}!`,
+                        `${species} learned ${learned
+                          .map((m) => getMoveMetadata(m.id).name)
+                          .join(", ")}!`,
+                      ]
+                    : [`${species} grew to level ${newLevel}!`],
+                action: () => {},
+              })
+            );
           })
         );
       },
@@ -791,11 +1181,7 @@ const useItemData = () => {
       badge: false,
       cost: null,
       sellPrice: 0,
-      action: () => {
-        dispatch(hideItemsMenu());
-        dispatch(throwPokeball(ItemType.MasterBall));
-        dispatch(consumeItem(ItemType.MasterBall));
-      },
+      action: () => throwBall(ItemType.MasterBall),
     },
     [ItemType.UltraBall]: {
       type: ItemType.UltraBall,
@@ -807,11 +1193,7 @@ const useItemData = () => {
       badge: false,
       cost: 1200,
       sellPrice: 600,
-      action: () => {
-        dispatch(hideItemsMenu());
-        dispatch(throwPokeball(ItemType.UltraBall));
-        dispatch(consumeItem(ItemType.UltraBall));
-      },
+      action: () => throwBall(ItemType.UltraBall),
     },
     [ItemType.GreatBall]: {
       type: ItemType.GreatBall,
@@ -823,11 +1205,7 @@ const useItemData = () => {
       badge: false,
       cost: 600,
       sellPrice: 300,
-      action: () => {
-        dispatch(hideItemsMenu());
-        dispatch(throwPokeball(ItemType.GreatBall));
-        dispatch(consumeItem(ItemType.GreatBall));
-      },
+      action: () => throwBall(ItemType.GreatBall),
     },
     [ItemType.PokeBall]: {
       type: ItemType.PokeBall,
@@ -839,11 +1217,7 @@ const useItemData = () => {
       badge: false,
       cost: 200,
       sellPrice: 100,
-      action: () => {
-        dispatch(hideItemsMenu());
-        dispatch(throwPokeball(ItemType.PokeBall));
-        dispatch(consumeItem(ItemType.PokeBall));
-      },
+      action: () => throwBall(ItemType.PokeBall),
     },
     [ItemType.BoulderBadge]: {
       type: ItemType.BoulderBadge,

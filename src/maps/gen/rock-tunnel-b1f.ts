@@ -1,0 +1,148 @@
+import rocktunnelb1fImage from "../../assets/map/gen/rock-tunnel-b1f.png";
+import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { hiker, jrTrainerFemale, pokeManiac } from "../../app/npcs";
+import music from "../../assets/music/maps/mt-moon.mp3";
+
+// Generated from pret/pokered ROCK_TUNNEL_B1F - do not hand-edit.
+const rockTunnelB1f: MapType = {
+  name: "Rock Tunnel B1F",
+  image: rocktunnelb1fImage,
+  height: 36,
+  width: 40,
+  start: { x: 0, y: 0 },
+  walls: {
+    0: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39],
+    1: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39],
+    14: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
+    15: [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
+    20: [26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37],
+    21: [26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37],
+    22: [12, 13, 14, 15, 16, 17, 18, 19],
+    23: [12, 13, 14, 15, 16, 17, 18, 19],
+    28: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25],
+    29: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25],
+    34: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+    35: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+  },
+  text: {},
+  maps: {
+    6: {
+      6: { map: MapId.RockTunnel1f, pos: { x: 74, y: 35 } },
+      7: { map: MapId.RockTunnel1f, pos: { x: 74, y: 35 } },
+      54: { map: MapId.RockTunnel1f, pos: { x: 10, y: 7 } },
+      55: { map: MapId.RockTunnel1f, pos: { x: 10, y: 7 } },
+    },
+    7: {
+      6: { map: MapId.RockTunnel1f, pos: { x: 74, y: 35 } },
+      7: { map: MapId.RockTunnel1f, pos: { x: 74, y: 35 } },
+      54: { map: MapId.RockTunnel1f, pos: { x: 10, y: 7 } },
+      55: { map: MapId.RockTunnel1f, pos: { x: 10, y: 7 } },
+    },
+    22: {
+      46: { map: MapId.RockTunnel1f, pos: { x: 34, y: 23 } },
+      47: { map: MapId.RockTunnel1f, pos: { x: 34, y: 23 } },
+    },
+    23: {
+      46: { map: MapId.RockTunnel1f, pos: { x: 34, y: 23 } },
+      47: { map: MapId.RockTunnel1f, pos: { x: 34, y: 23 } },
+    },
+    50: {
+      66: { map: MapId.RockTunnel1f, pos: { x: 74, y: 7 } },
+      67: { map: MapId.RockTunnel1f, pos: { x: 74, y: 7 } },
+    },
+    51: {
+      66: { map: MapId.RockTunnel1f, pos: { x: 74, y: 7 } },
+      67: { map: MapId.RockTunnel1f, pos: { x: 74, y: 7 } },
+    },
+  },
+  exits: {},
+  cave: true,
+  music,
+  encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
+  grass: {},
+  trainers: [
+    {
+      npc: jrTrainerFemale,
+      facing: Direction.Down,
+      pokemon: [{ id: 39, level: 21 }, { id: 16, level: 21 }, { id: 52, level: 21 }],
+      intro: ["Hikers leave twigs", "as trail markers."],
+      outtro: ["Ohhh!", "I did my best!"],
+      money: 420,
+      pos: { x: 22, y: 26 },
+      postGame: { message: ["I want to go", "home!"] },
+    },
+    {
+      npc: hiker,
+      facing: Direction.Down,
+      pokemon: [{ id: 74, level: 21 }, { id: 74, level: 21 }, { id: 75, level: 21 }],
+      intro: ["Hahaha! Can you", "beat my power?"],
+      outtro: ["Oops!", "Out-muscled!"],
+      money: 735,
+      pos: { x: 12, y: 20 },
+      postGame: { message: ["I go for power", "because I hate thinking!"] },
+    },
+    {
+      npc: pokeManiac,
+      facing: Direction.Down,
+      pokemon: [{ id: 79, level: 20 }, { id: 79, level: 20 }, { id: 79, level: 20 }],
+      intro: ["You have a", "POKEDEX? I want one too!"],
+      outtro: ["Shoot!", "I'm so jealous!"],
+      money: 1000,
+      pos: { x: 6, y: 10 },
+      postGame: { message: ["When you finish", "your POKEDEX, can I have it?"] },
+    },
+    {
+      npc: pokeManiac,
+      facing: Direction.Right,
+      pokemon: [{ id: 4, level: 22 }, { id: 104, level: 22 }],
+      intro: ["Do you know about", "costume players?"],
+      outtro: ["Well,", "that's that."],
+      money: 1100,
+      pos: { x: 40, y: 42 },
+      postGame: { message: ["Costume players", "dress up as POKEMON for fun."] },
+    },
+    {
+      npc: hiker,
+      facing: Direction.Down,
+      pokemon: [{ id: 74, level: 25 }],
+      intro: ["My POKEMON", "techniques will leave you crying!"],
+      outtro: ["I give!", "You're a better technician!"],
+      money: 875,
+      pos: { x: 60, y: 20 },
+      postGame: { message: ["In mountains,", "you'll often find rock-type POKEMON."] },
+    },
+    {
+      npc: jrTrainerFemale,
+      facing: Direction.Right,
+      pokemon: [{ id: 43, level: 22 }, { id: 1, level: 22 }],
+      intro: ["I don't often", "come here, but I will fight you."],
+      outtro: ["Oh!", "I lost!"],
+      money: 440,
+      pos: { x: 28, y: 56 },
+      postGame: { message: ["I like tiny", "POKEMON, big ones are too scary!"] },
+    },
+    {
+      npc: hiker,
+      facing: Direction.Right,
+      pokemon: [{ id: 66, level: 20 }, { id: 95, level: 20 }],
+      intro: ["Hit me with your", "best shot!"],
+      outtro: ["Fired", "away!"],
+      money: 700,
+      pos: { x: 66, y: 10 },
+      postGame: { message: ["I'll raise my", "POKEMON to beat yours, kid!"] },
+    },
+    {
+      npc: pokeManiac,
+      facing: Direction.Down,
+      pokemon: [{ id: 79, level: 25 }],
+      intro: ["I draw POKEMON", "when I'm home."],
+      outtro: ["Whew!", "I'm exhausted!"],
+      money: 1250,
+      pos: { x: 52, y: 60 },
+      postGame: { message: ["I'm an artist,", "not a fighter."] },
+    },
+  ],
+};
+
+export default rockTunnelB1f;

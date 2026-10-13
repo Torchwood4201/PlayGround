@@ -112,11 +112,7 @@ const route2: MapType = {
   },
   text: {
     11: {
-      11: [
-        "Lorem ipsum dolor sit amet, consectetur",
-        "adipiscing elit, sed do eiusmod tempor",
-        "incididunt ut labore et dolore magna aliqua.",
-      ],
+      11: ["DIGLETT's CAVE"],
     },
     65: {
       5: ["Route 2 VIRIDIAN CITY to PEWTER CITY"],

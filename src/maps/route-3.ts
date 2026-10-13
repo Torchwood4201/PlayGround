@@ -102,6 +102,16 @@ const route3: MapType = {
     },
   },
   maps: {
+    0: {
+      54: { map: MapId.Route4, pos: { x: 4, y: 16 } },
+      55: { map: MapId.Route4, pos: { x: 5, y: 16 } },
+      56: { map: MapId.Route4, pos: { x: 6, y: 16 } },
+      57: { map: MapId.Route4, pos: { x: 7, y: 16 } },
+      58: { map: MapId.Route4, pos: { x: 8, y: 16 } },
+      59: { map: MapId.Route4, pos: { x: 9, y: 16 } },
+      60: { map: MapId.Route4, pos: { x: 10, y: 16 } },
+      61: { map: MapId.Route4, pos: { x: 11, y: 16 } },
+    },
     5: {
       61: MapId.Route3PokemonCenter,
       68: MapId.MtMoon1f,

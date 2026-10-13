@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Gameboy from "./components/Gameboy";
 import Game from "./components/Game";
 
 import "./App.css";
@@ -13,21 +12,23 @@ const StyledApp = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  padding-bottom: 28px;
+`;
 
-  @media (min-width: 1000px) {
-    padding: 5px;
-  }
+const StyledScreen = styled.div`
+  position: relative;
+  width: 100vw;
+  height: 100dvh;
+  overflow: hidden;
+  background: black;
 `;
 
 const App = () => {
   return (
     <StyledApp>
-      <Gameboy>
+      <StyledScreen>
         <Game />
         {PAINT_MODE && <Paint />}
-      </Gameboy>
+      </StyledScreen>
     </StyledApp>
   );
 };

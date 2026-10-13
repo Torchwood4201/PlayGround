@@ -33,16 +33,8 @@ const viridianCityGym: MapType = {
   },
   text: {
     15: {
-      15: [
-        "Lorem ipsum dolor sit amet, consectetur",
-        "adipiscing elit, sed do eiusmod tempor",
-        "incididunt ut labore et dolore magna aliqua.",
-      ],
-      18: [
-        "Lorem ipsum dolor sit amet, consectetur",
-        "adipiscing elit, sed do eiusmod tempor",
-        "incididunt ut labore et dolore magna aliqua.",
-      ],
+      15: ["VIRIDIAN CITY POKEMON GYM", "LEADER: GIOVANNI"],
+      18: ["VIRIDIAN CITY POKEMON GYM", "LEADER: GIOVANNI"],
     },
   },
   maps: {},

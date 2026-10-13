@@ -286,14 +286,14 @@ const mtMoon1f: MapType = {
       },
     },
     {
-      item: ItemType.Revive, // TODO: should be RareCandy
+      item: ItemType.RareCandy,
       pos: {
         x: 35,
         y: 31,
       },
     },
     {
-      item: ItemType.PokeBall, // TODO: should be EscapeRope
+      item: ItemType.EscapeRope,
       pos: {
         x: 36,
         y: 23,
