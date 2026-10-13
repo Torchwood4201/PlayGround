@@ -1,6 +1,6 @@
-"use strict";
 /* Playback — static music streaming app (no backend).
-   Data: iTunes Search API (CORS-open, no key). 30s previewUrl streams. */
+   Grooveshark-style: free, no signup.
+   Data: Audius (full-length, free, CORS-open) + iTunes Search API (mainstream 30s previews). */
 const $ = id => document.getElementById(id);
 const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmt = ms => { const s = Math.max(0, Math.round((ms || 0) / 1000)); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); };
@@ -34,7 +34,7 @@ const toggleLike = t => {
   return !has;
 };
 
-/* ---------- iTunes API ---------- */
+/* ---------- iTunes API (mainstream previews) ---------- */
 async function itunes(params) {
   const u = "https://itunes.apple.com/search?" + new URLSearchParams(Object.assign({ media: "music", entity: "song", limit: 24 }, params));
   const r = await fetch(u);
@@ -44,7 +44,8 @@ async function itunes(params) {
 }
 function norm(x) {
   return {
-    id: String(x.trackId || x.collectionId || Math.random()),
+    id: "it" + String(x.trackId || x.collectionId || Math.random()),
+    src: "preview",
     title: x.trackName || x.collectionName || "Unknown title",
     artist: x.artistName || "Unknown artist",
     album: x.collectionName || "",
@@ -57,6 +58,38 @@ function norm(x) {
     link: x.trackViewUrl || x.collectionViewUrl || ""
   };
 }
+
+/* ---------- Audius API (full-length free tracks, no key) ---------- */
+const AU = "https://discoveryprovider.audius.co/v1";
+const AU_APP = "Playback";
+function normAu(x) {
+  if (!x || !x.id) return null;
+  const art = x.artwork || {};
+  const img = art["480x480"] || art["1000x1000"] || art["150x150"] || "";
+  return {
+    id: "au" + String(x.id),
+    src: "full",
+    title: x.title || "Unknown title",
+    artist: (x.user && x.user.name) || "Unknown artist",
+    album: "",
+    genre: x.genre || (x.tags || "").split(",")[0] || "Audius",
+    art: img,
+    artSm: art["150x150"] || img,
+    url: `${AU}/tracks/${x.id}/stream?app_name=${AU_APP}`,
+    ms: (x.duration || 180) * 1000,
+    plays: x.play_count || 0,
+    link: "https://audius.co" + (x.permalink || "")
+  };
+}
+async function audius(path, params) {
+  const u = `${AU}${path}?` + new URLSearchParams(Object.assign({ app_name: AU_APP }, params));
+  const r = await fetch(u);
+  if (!r.ok) throw new Error("Audius " + r.status);
+  const j = await r.json();
+  return (j.data || []).map(normAu).filter(Boolean).filter(t => t.url);
+}
+const auSearch = (q, limit) => audius("/tracks/search", { query: q, limit: limit || 14 });
+const auTrending = (genre, limit) => audius("/tracks/trending", Object.assign({ limit: limit || 18 }, genre && genre !== "All" ? { genre } : {}));
 const cache = new Map();
 async function cached(key, fn) {
   if (cache.has(key)) return cache.get(key);
@@ -65,6 +98,11 @@ async function cached(key, fn) {
   return p;
 }
 const shelf = term => cached("t:" + term, () => itunes({ term, limit: 18 }));
+const shelfFull = (genre, limit) => cached("au:" + genre + ":" + limit, () => auTrending(genre, limit));
+const mixShelves = async (term, genre) => {
+  const [a, b] = await Promise.all([shelf(term), shelfFull(genre || "All", 12)]);
+  return [...b, ...a];
+};
 
 /* ---------- player ---------- */
 const au = $("audio");
@@ -149,7 +187,10 @@ function sync() {
   if (!t) return;
   ["npT", "mT"].forEach(k => $(k).textContent = t.title);
   ["npA", "mA"].forEach(k => $(k).textContent = t.artist + (t.album ? " · " + t.album : ""));
-  $("npG").textContent = [t.genre, fmt(t.ms)].filter(Boolean).join(" · ");
+  const tag = t.src === "full" ? "FULL TRACK" : "30s PREVIEW";
+  $("npG").textContent = [tag, t.genre, fmt(t.ms)].filter(Boolean).join(" · ");
+  const kick = document.querySelector(".np-kicker");
+  if (kick) kick.textContent = "NOW PLAYING · " + tag;
   $("disc").style.backgroundImage = t.art ? `url('${t.art}')` : "none";
   $("disc").style.backgroundSize = "cover";
   $("disc").style.backgroundPosition = "center";
@@ -173,8 +214,9 @@ function renderQueue() {
 function renderAbout() {
   const t = T();
   if (!t) return;
-  $("lyr").innerHTML = esc(`${t.title} — ${t.artist}\n\nAlbum: ${t.album || "Single"}\nGenre: ${t.genre || "Music"}\nLength: ${fmt(t.ms)} (preview 0:30)\n\nThis is a 30-second preview streamed from Apple iTunes. Full tracks open in Apple Music.`) +
-    (t.link ? `\n\n<a href="${esc(t.link)}" target="_blank" rel="noopener" style="color:var(--brass-b)">Open in Apple Music ↗</a>` : "");
+  const full = t.src === "full";
+  $("lyr").innerHTML = esc(`${t.title} — ${t.artist}\n\nAlbum: ${t.album || "Single"}\nGenre: ${t.genre || "Music"}\nLength: ${fmt(t.ms)} (${full ? "full track" : "preview 0:30"})\n\n${full ? "Free full-length stream via Audius (independent artists, legal + no signup)." : "30-second preview via Apple iTunes. Full versions open in Apple Music."}`) +
+    (t.link ? `\n\n<a href="${esc(t.link)}" target="_blank" rel="noopener" style="color:var(--brass-b)">${full ? "Open on Audius ↗" : "Open in Apple Music ↗"}</a>` : "");
 }
 function updateLikeBtn() {
   const t = T();
@@ -194,33 +236,35 @@ const ERAS = [
   ["Stream", "〰️", "Discover"],
   ["Settings", "🎚️", "Hi-fi rack"]
 ];
-const GENRES = ["Pop", "Hip-Hop", "Rock", "Jazz", "Soul", "Lo-Fi", "Indie", "Latin"];
+const GENRES = ["All", "Electronic", "Hip-Hop/Rap", "Rock", "Pop", "Jazz", "R&B/Soul", "Lo-Fi", "Indie", "Latin", "Alternative"];
 const ST = [["88.1", "jazz classics"], ["91.5", "soul motown"], ["95.3", "indie folk"], ["99.7", "classic rock"], ["103.2", "lofi chill"], ["107.9", "pop hits"]];
 let sta = 2, era = "home", gid = 0;
 const L = {};
 
 const skel = '<div class="skel">' + "<i></i>".repeat(5) + "</div>";
-const card = o => `<button class="card ${o.cls || ""}" data-a="${o.a}" data-v="${esc(o.v)}" ${o.i != null ? `data-i="${o.i}"` : ""}><div class="art" style="background:${esc(o.bg)}"><span class="playbadge">▶</span></div><p>${esc(o.t)}</p><span class="mono">${esc(o.s || "")}</span></button>`;
+const badge = t => t.src === "full" ? `<span class="srcbadge full">FULL</span>` : `<span class="srcbadge prev">0:30</span>`;
+const card = o => `<button class="card ${o.cls || ""}" data-a="${o.a}" data-v="${esc(o.v)}" ${o.i != null ? `data-i="${o.i}"` : ""}><div class="art" style="background:${esc(o.bg)}">${o.badge || ""}<span class="playbadge">▶</span></div><p>${esc(o.t)}</p><span class="mono">${esc(o.s || "")}</span></button>`;
 const shelfHtml = (key, list) => {
   L[key] = list;
-  return list.length ? `<div class="row">${list.map((t, i) => card({ a: "play", v: key, i, bg: bgOf(t, i), t: t.title, s: t.artist })).join("")}</div>` : `<div class="empty mono">Nothing found — check your connection and retry.</div>`;
+  return list.length ? `<div class="row">${list.map((t, i) => card({ a: "play", v: key, i, bg: bgOf(t, i), t: t.title, s: (t.src === "full" ? "● " : "") + t.artist, badge: badge(t) })).join("")}</div>` : `<div class="empty mono">Nothing found — check your connection and retry.</div>`;
 };
 const rowsHtml = (key, list) => {
   L[key] = list;
-  return list.map((t, i) => `<button class="tr" data-a="play" data-v="${key}" data-i="${i}" data-vid="${esc(t.id)}"><b class="n mono">${String(i + 1).padStart(2, "0")}</b><img loading="lazy" src="${esc(t.artSm || t.art)}" alt=""><span class="t">${esc(t.title)}<small class="mono">${esc(t.artist)} · ${esc(t.album || t.genre)}</small></span><button class="like ${isLiked(String(t.id)) ? "liked" : ""}" data-a="likeone" data-v="${key}" data-i="${i}" aria-label="Like">♥</button><span class="mono">${fmt(t.ms)}</span></button>`).join("");
+  return list.map((t, i) => `<button class="tr" data-a="play" data-v="${key}" data-i="${i}" data-vid="${esc(t.id)}"><b class="n mono">${String(i + 1).padStart(2, "0")}</b><img loading="lazy" src="${esc(t.artSm || t.art)}" alt="" onerror="this.style.visibility='hidden'"><span class="t">${esc(t.title)} <span class="srcbadge ${t.src === "full" ? "full" : "prev"}">${t.src === "full" ? "FULL" : "0:30"}</span><small class="mono">${esc(t.artist)} · ${esc(t.album || t.genre)}</small></span><button class="like ${isLiked(String(t.id)) ? "liked" : ""}" data-a="likeone" data-v="${key}" data-i="${i}" aria-label="Like">♥</button><span class="mono">${fmt(t.ms)}</span></button>`).join("");
 };
 const h2 = t => `<h2>${t}</h2>`;
 const chips = active => `<div class="chiprow">${GENRES.map(g => `<button class="chip ${active === g ? "on" : ""}" data-a="genre" data-v="${esc(g)}">${esc(g)}</button>`).join("")}</div>`;
 
 const V = {
   async home() {
-    const [top, chill, rock] = await Promise.all([shelf("top hits 2025"), shelf("chill acoustic"), shelf("classic rock legends")]);
-    L.home = top;
-    const hero = top[0] ? `<div class="hero"><div class="art" style="background:${esc(bgOf(top[0], 0))}"></div><div style="position:relative;z-index:1"><div class="mono">FEATURED RELEASE</div><h1 class="brand">${esc(top[0].title)}</h1><p class="mono">${esc(top[0].artist)} · ${esc(top[0].album || top[0].genre)}</p><div><button class="btn" data-a="play" data-v="home" data-i="0">▶ Play</button><button class="btn ghost" data-a="go" data-v="6">Discover →</button></div></div></div>` : "";
-    return hero + h2("Fresh Signal · Top Hits") + shelfHtml("home", top)
-      + h2("Chill Shelf") + shelfHtml("chill", chill)
-      + h2("Rock Crate") + shelfHtml("rock", rock)
-      + `<p class="mono" style="margin-top:18px">30-second previews · Powered by iTunes Search API · No account needed</p>`;
+    const [top, chill, free] = await Promise.all([shelf("top hits 2025"), shelf("chill acoustic"), shelfFull("All", 18)]);
+    const mixed = [...free.slice(0, 8), ...top.slice(0, 10)];
+    L.home = mixed;
+    const hero = mixed[0] ? `<div class="hero"><div class="art" style="background:${esc(bgOf(mixed[0], 0))}"></div><div style="position:relative;z-index:1"><div class="mono">FEATURED RELEASE ${mixed[0].src === "full" ? "· FULL TRACK" : "· PREVIEW"}</div><h1 class="brand">${esc(mixed[0].title)}</h1><p class="mono">${esc(mixed[0].artist)} · ${esc(mixed[0].album || mixed[0].genre)}</p><div><button class="btn" data-a="play" data-v="home" data-i="0">▶ Play</button><button class="btn ghost" data-a="go" data-v="6">Discover →</button></div></div></div>` : "";
+    return hero + h2("Fresh Signal · Free + Top Hits") + shelfHtml("home", mixed)
+      + h2("Free Full-Length · Audius trending") + shelfHtml("free", free)
+      + h2("Chill Shelf · Previews") + shelfHtml("chill", chill)
+      + `<p class="mono" style="margin-top:18px">● FULL = free full-length (Audius) · 0:30 = preview (iTunes) · No account needed</p>`;
   },
   async 0() {
     const list = await shelf("ella fitzgerald frank sinatra jazz");
@@ -254,24 +298,27 @@ const V = {
       + h2("♥ Liked tracks (" + l.length + ")") + (l.length ? rowsHtml("lik", l) : `<div class="empty mono">Tap ♥ on any track to keep it here.</div>`);
   },
   async 6(g) {
-    const genre = typeof g === "string" && g ? g : "trending pop";
-    const [a, b] = await Promise.all([shelf(genre), shelf(genre + " hits")]);
-    const rel = T() ? (await cached("rel:" + T().id, () => itunes({ term: (T().artist || "pop") + " " + (T().genre || "hits"), limit: 12 }))) : [];
-    return h2("Streaming mode · " + esc(genre)) + chips(typeof g === "string" ? g : "")
-      + shelfHtml("str", a)
+    const genre = typeof g === "string" && g ? g : "All";
+    const [free, main] = await Promise.all([shelfFull(genre, 18), shelf(genre === "All" ? "trending pop" : genre)]);
+    const rel = T() ? (await cached("rel:" + T().id, () => auSearch((T().artist || "pop") + " " + (T().genre || ""), 10))) : [];
+    return h2("Streaming mode · " + esc(genre) + " · full-length first") + chips(typeof g === "string" ? g : "")
+      + shelfHtml("str", [...free, ...main.slice(0, 6)])
       + (rel.length ? h2("Because you played “" + esc(T().title) + "”") + shelfHtml("rel", rel) : "")
-      + h2("More like this") + shelfHtml("str2", b);
+      + h2("Mainstream previews") + shelfHtml("str2", main);
   },
   async 7() {
     const sw = (k, l, d) => `<div class="r"><div><div>${l}</div><div class="mono">${d}</div></div><button class="sw ${S[k] ? "on" : ""}" data-a="set" data-v="${k}" aria-label="${l}"></button></div>`;
-    return `<h2 class="brand">Hi-Fi Rack</h2><p class="mono sub">Tuning &amp; motion · saved on this device</p><div class="rack"><div class="vus"><div class="vu"><span>L</span><i></i></div><div class="vu"><span>R</span><i></i></div></div>${sw("shuffle", "Shuffle", "Randomize next track")}${sw("repeat", "Repeat one", "Loop the current preview")}${sw("compact", "MP3 compact mode", "LCD-style player panel")}${sw("motion", "Motion", "Spinning discs, reels and glow")}</div>
-    <div class="empty mono" style="margin-top:14px;text-align:left">DATA · iTunes Search API (no key, CORS-open). Audio = 30s previews. Actual full-length streaming needs licensed backends (Spotify / Apple Music SDK). This static build runs anywhere — GitHub Pages, Netlify, Vercel.</div>`;
+    return `<h2 class="brand">Hi-Fi Rack</h2><p class="mono sub">Tuning &amp; motion · saved on this device</p><div class="rack"><div class="vus"><div class="vu"><span>L</span><i></i></div><div class="vu"><span>R</span><i></i></div></div>${sw("shuffle", "Shuffle", "Randomize next track")}${sw("repeat", "Repeat one", "Loop the current track")}${sw("compact", "MP3 compact mode", "LCD-style player panel")}${sw("motion", "Motion", "Spinning discs, reels and glow")}</div>
+    <div class="empty mono" style="margin-top:14px;text-align:left">DATA · Audius (full free tracks, no key) + iTunes Search API (mainstream 30s previews). Grooveshark-style free listening, no signup. Static build runs anywhere — GitHub Pages, Netlify, Vercel. Note: the 2011 Ruby Grooveshark-API gem targets the original service (shut down 2015); groovesharks.org is a closed BeMusic clone behind Cloudflare with no public API, so it can't be used as a backend.</div>`;
   },
   async search(q) {
-    const res = await itunes({ term: q, limit: 20 });
-    const alb = await itunes({ term: q + " album", limit: 12 });
-    return h2("Results for “" + esc(q) + "”") + (res.length ? rowsHtml("sr", res.slice(0, 14)) : `<div class="empty mono">No results for “${esc(q)}”.</div>`)
-      + h2("More from “" + esc(q) + "”") + shelfHtml("sr2", alb.length ? alb : res);
+    const [it, au] = await Promise.all([
+      itunes({ term: q, limit: 14 }).catch(() => []),
+      auSearch(q, 14).catch(() => [])
+    ]);
+    const res = [...au, ...it];
+    return h2("Results for “" + esc(q) + "”") + (res.length ? rowsHtml("sr", res.slice(0, 20)) : `<div class="empty mono">No results for “${esc(q)}”.</div>`)
+      + h2("Mainstream previews") + shelfHtml("sr2", it.length ? it : res);
   }
 };
 

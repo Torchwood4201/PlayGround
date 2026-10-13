@@ -59,6 +59,10 @@ h2:first-child{margin-top:0}
 .card:hover .playbadge{opacity:1;transform:scale(1)}
 .card p{margin:0;padding:10px 12px 2px;font-weight:600;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .card span{display:block;padding:0 12px 12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.srcbadge{display:inline-block;font:600 10px "JetBrains Mono",monospace;letter-spacing:.08em;border-radius:99px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.srcbadge.full{background:rgba(55,215,178,.16);color:var(--neon);border:1px solid rgba(55,215,178,.5)}
+.srcbadge.prev{background:rgba(212,162,76,.14);color:var(--brass-b);border:1px solid rgba(212,162,76,.4)}
+.card .srcbadge{position:absolute;left:8px;top:8px;margin:0;z-index:2;background:rgba(11,9,6,.75)}
 .grid2{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
 .chiprow{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px}
 .chip{border:1px solid rgba(212,162,76,.3);border-radius:99px;padding:7px 14px;font-size:12px;color:var(--ts)}
