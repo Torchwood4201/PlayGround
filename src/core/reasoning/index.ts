@@ -132,3 +132,5 @@ export class ModelHubActionPlugin implements ActionPlugin {
     return responses[Math.floor(Math.random() * responses.length)];
   }
 }
+
+export * from './answerComposer';

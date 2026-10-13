@@ -7,6 +7,13 @@
 // emotion.mood()/getStates(), goal.
 
 import type { EmotionalState } from '../types';
+import type { StorageProvider } from './longTermMemory/storage';
+import { inferNamespace } from '../types/memory';
+import {
+  BRAIN_MEMORY_CAP,
+  BRAIN_WORKING_CAP,
+  type BrainSnapshot,
+} from '../types/brain';
 
 export interface BrainPlan {
   thought: string;
@@ -48,6 +55,14 @@ export class EmotionChip {
     return { ...this.states };
   }
 
+  setStates(next: Partial<EmotionalState>): void {
+    for (const [key, value] of Object.entries(next) as [keyof EmotionalState, unknown][]) {
+      if (typeof value === 'number' && key in this.states) {
+        this.states[key] = this.clamp(value);
+      }
+    }
+  }
+
   private clamp(v: number): number {
     return Math.max(0, Math.min(1, v));
   }
@@ -85,6 +100,125 @@ export class PositronicBrain {
   private ethics = new EthicsSubroutine();
   private cycleCount = 0;
   private lastObservation: Record<string, unknown> = {};
+  private provider: StorageProvider | null = null;
+  private saveTimer: ReturnType<typeof setTimeout> | null = null;
+  private generator: { generate: (prompt: string) => Promise<string> } | null = null;
+
+  /** Attach a persistence store (key positronic.brain.v1). Autosaves on mutation. */
+  attachProvider(provider: StorageProvider): void {
+    this.provider = provider;
+  }
+
+  /**
+   * Optional generation service (wired by Beta4 from the shared model hub).
+   * Absent → canned template strings (no throw). See Beta4 header.
+   */
+  attachGenerator(generator: { generate: (prompt: string) => Promise<string> } | null): void {
+    this.generator = generator;
+  }
+
+  setGoal(goal: string): void {
+    this.goal = goal;
+    this.scheduleAutosave();
+  }
+
+  /** Frozen deep copy. Mutating the result never affects the brain. */
+  getSnapshot(): BrainSnapshot {
+    const snapshot: BrainSnapshot = {
+      version: 1,
+      memories: this.memory.map((content) => ({
+        content,
+        namespace: inferNamespace(content),
+        ts: Date.now(),
+        salience: 0.5,
+      })),
+      workingMemory: this.workingMemory.map((content) => ({ content, ts: Date.now() })),
+      goal: this.goal,
+      emotion: { states: this.emotion.getStates(), label: this.emotion.mood() },
+      cycleCount: this.cycleCount,
+      updatedAt: Date.now(),
+    };
+    return Object.freeze({
+      ...snapshot,
+      memories: Object.freeze(snapshot.memories.map((m) => Object.freeze(m))),
+      workingMemory: Object.freeze(snapshot.workingMemory.map((w) => Object.freeze(w))),
+      emotion: Object.freeze({ ...snapshot.emotion, states: Object.freeze({ ...snapshot.emotion.states }) }),
+    }) as BrainSnapshot;
+  }
+
+  /** Restore a snapshot (clamped to caps). Corrupt input → empty, never throws boot. */
+  restoreSnapshot(snapshot: BrainSnapshot): void {
+    try {
+      if (!snapshot || snapshot.version !== 1) throw new Error('unsupported snapshot version');
+      const memories = Array.isArray(snapshot.memories) ? snapshot.memories : [];
+      const working = Array.isArray(snapshot.workingMemory) ? snapshot.workingMemory : [];
+      this.memory = memories
+        .filter((m) => typeof m?.content === 'string')
+        .slice(-BRAIN_MEMORY_CAP)
+        .map((m) => m.content);
+      this.workingMemory = working
+        .filter((w) => typeof w?.content === 'string')
+        .slice(-BRAIN_WORKING_CAP)
+        .map((w) => w.content);
+      if (typeof snapshot.goal === 'string') this.goal = snapshot.goal;
+      if (snapshot.emotion?.states) this.emotion.setStates(snapshot.emotion.states);
+      if (typeof snapshot.cycleCount === 'number') this.cycleCount = snapshot.cycleCount;
+    } catch (error) {
+      console.error('[brain] restoreSnapshot failed — starting empty:', error);
+      this.memory = [];
+      this.workingMemory = [];
+    }
+  }
+
+  /** Load a snapshot saved with persistNow(). Returns true on success. */
+  async loadSnapshot(): Promise<boolean> {
+    if (!this.provider) return false;
+    try {
+      const records = await this.provider.load();
+      for (const record of records) {
+        if (typeof record?.content !== 'string') continue;
+        try {
+          const parsed = JSON.parse(record.content) as BrainSnapshot;
+          if (parsed && parsed.version === 1 && Array.isArray(parsed.memories)) {
+            this.restoreSnapshot(parsed);
+            return true;
+          }
+        } catch {
+          // ignore unparsable records
+        }
+      }
+      return false;
+    } catch (error) {
+      console.error('[brain] loadSnapshot failed — starting empty:', error);
+      return false;
+    }
+  }
+
+  /** Immediately persist the current snapshot. */
+  async persistNow(): Promise<void> {
+    if (!this.provider) return;
+    if (this.saveTimer) {
+      clearTimeout(this.saveTimer);
+      this.saveTimer = null;
+    }
+    await this.provider.save([
+      {
+        content: JSON.stringify(this.getSnapshot()),
+        embedding: [],
+        timestamp: Date.now(),
+        importance: 1,
+      },
+    ]);
+  }
+
+  private scheduleAutosave(): void {
+    if (!this.provider) return;
+    if (this.saveTimer) clearTimeout(this.saveTimer);
+    this.saveTimer = setTimeout(() => {
+      this.saveTimer = null;
+      void this.persistNow();
+    }, 250);
+  }
 
   async perceive(): Promise<Record<string, unknown>> {
     const observations = [
@@ -96,6 +230,7 @@ export class PositronicBrain {
     const note = observations[Math.floor(Math.random() * observations.length)];
     this.lastObservation = { note, cycle: this.cycleCount, timestamp: Date.now() };
     this.remember(`PERCEIVE: ${note}`, false);
+    this.scheduleAutosave();
     return { ...this.lastObservation };
   }
 
@@ -117,14 +252,16 @@ export class PositronicBrain {
       };
       this.remember(`BLOCKED: ${safety.reason}`, true);
       this.emotion.update(false);
+      this.scheduleAutosave();
       return blocked;
     }
 
     const action = this.selectAction();
-    const result = this.executeAction(action, this.goal);
+    const result = await this.executeAction(action, this.goal);
     this.remember(`THOUGHT: ${thought}`, true);
     this.remember(`ACTION: ${action} -> ${result}`, true);
     this.emotion.update(true);
+    this.scheduleAutosave();
 
     return {
       plan: { thought, action, action_input: this.goal },
@@ -156,7 +293,17 @@ export class PositronicBrain {
     return 'GENERATE_TEXT';
   }
 
-  private executeAction(action: string, input: string): string {
+  private async executeAction(action: string, input: string): Promise<string> {
+    // GENERATE_TEXT delegates to the attached generation service (Beta4 wires
+    // the shared model hub). Absent/unready → canned fallback, never throws.
+    if (action === 'GENERATE_TEXT' && this.generator) {
+      try {
+        const text = await this.generator.generate(input);
+        if (typeof text === 'string' && text.trim().length > 0) return text;
+      } catch (error) {
+        console.error('[brain] generator failed, using canned fallback:', error);
+      }
+    }
     switch (action) {
       case 'ETHICAL_ANALYSIS':
         return `Ethical analysis of "${input}": preserves sentient wellbeing, respects autonomy, recommends transparent collaboration.`;
@@ -174,10 +321,10 @@ export class PositronicBrain {
 
   private remember(entry: string, longTerm: boolean): void {
     this.workingMemory.push(entry);
-    if (this.workingMemory.length > 10) this.workingMemory.shift();
+    if (this.workingMemory.length > BRAIN_WORKING_CAP) this.workingMemory.shift();
     if (longTerm) {
       this.memory.push(entry);
-      if (this.memory.length > 200) this.memory = this.memory.slice(-200);
+      if (this.memory.length > BRAIN_MEMORY_CAP) this.memory = this.memory.slice(-BRAIN_MEMORY_CAP);
     }
   }
 }

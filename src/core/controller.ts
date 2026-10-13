@@ -1,8 +1,17 @@
 // controller.ts — orchestrates module communication.
-// Owns the perceive -> plan -> act -> learn cycle plus an internal
-// event bus (pub/sub) so modules signal without tight coupling.
+// Owns the perceive -> plan -> act -> learn cycle.
+//
+// NOTE on the event bus: a previous EventBus (pub/sub) was removed — it had
+// nine emit sites and zero subscribers repo-wide, so it was dead code.
+// Modules communicate through direct typed calls; reintroduce a bus only when
+// cross-module async signaling is actually needed. See types/contracts.ts for
+// the dialog↔cycle contract.
+//
+// Cycles are autonomous background cognition. Dialog is a separate path:
+// dialog writes dialog-namespaced LTM records + ephemeral notes and never
+// calls runCycle; cycles plan from allowlisted namespaces + committed history.
 
-import type { CognitiveEvent, CognitiveEventHandler, CognitiveEventType } from '../types';
+import type { HistoryNote } from '../types/memory';
 import type { PerceptionPlugin } from './perception';
 import type { TaskManager, Task } from './workingMemory';
 import type { MemoryPlugin } from './longTermMemory';
@@ -14,27 +23,6 @@ import {
 } from './reasoning';
 import { FeedbackTracker } from './feedback';
 
-export class EventBus {
-  private handlers = new Map<CognitiveEventType, Set<CognitiveEventHandler>>();
-
-  on(type: CognitiveEventType, handler: CognitiveEventHandler): () => void {
-    if (!this.handlers.has(type)) this.handlers.set(type, new Set());
-    this.handlers.get(type)!.add(handler);
-    return () => this.handlers.get(type)?.delete(handler);
-  }
-
-  emit(type: CognitiveEventType, source: string, payload: Record<string, unknown> = {}): void {
-    const event: CognitiveEvent = { type, source, timestamp: Date.now(), payload };
-    this.handlers.get(type)?.forEach((handler) => {
-      try {
-        handler(event);
-      } catch (error) {
-        console.error(`Event handler error for ${type}:`, error);
-      }
-    });
-  }
-}
-
 export class CognitiveOS {
   private perceptors: PerceptionPlugin[] = [];
   private actors: ActionPlugin[] = [];
@@ -44,13 +32,15 @@ export class CognitiveOS {
   private guardrail: Guardrail;
   private taskManager: TaskManager | null = null;
   private goal = 'Achieve continuous learning and self-improvement while maintaining ethical behavior';
+  /** Committed, cycle-visible log. Only cycle/system entries land here. */
   private history: string[] = [];
+  /** Dialog/system notes. Never read by the planner except via promoteToCycle(). */
+  private ephemeral: HistoryNote[] = [];
   private cycleCount = 0;
   private isRunning = false;
   private lastActionSuccess = true;
   private systemHealth = 1.0;
 
-  public readonly events = new EventBus();
   public readonly feedback = new FeedbackTracker();
 
   constructor() {
@@ -84,7 +74,6 @@ export class CognitiveOS {
 
   setGoal(goal: string): void {
     this.goal = goal;
-    this.events.emit('system:health', 'controller', { goal });
   }
 
   async runCycle(): Promise<{ success: boolean; summary: string; details: unknown }> {
@@ -104,7 +93,6 @@ export class CognitiveOS {
           this.feedback.record({ module: 'perception', success: false, latencyMs: Date.now() - start });
         }
       }
-      this.events.emit('perception:update', 'controller', { observations });
 
       if (Object.keys(observations).length > 0) {
         const obsString = JSON.stringify(observations);
@@ -112,7 +100,6 @@ export class CognitiveOS {
           await memory.add(`OBSERVATION: ${obsString}`);
         }
         this.history.push(`OBSERVE: ${obsString}`);
-        this.events.emit('memory:stored', 'controller', { kind: 'observation' });
       }
 
       // 2. TASK MANAGEMENT
@@ -135,14 +122,19 @@ export class CognitiveOS {
         };
       }
 
-      // 3. REASONING & PLANNING
+      // 3. REASONING & PLANNING — cycle-visible sources only (never dialog).
       const relevantMemories: string[] = [];
       for (const memory of this.memories) {
-        const found = await memory.query(currentTask.goal, 3);
-        relevantMemories.push(...found);
+        if (typeof memory.queryCycle === 'function') {
+          const hits = await memory.queryCycle(currentTask.goal, 3);
+          relevantMemories.push(...hits.map((h) => h.record));
+        } else {
+          const found = await memory.query(currentTask.goal, 3);
+          relevantMemories.push(...found);
+        }
       }
 
-      const planningPrompt = `Current Task: ${currentTask.goal}\nContext: ${currentTask.context}\n\nRecent History:\n${this.history.slice(-5).join('\n')}\n\nRelevant Past Experiences:\n${relevantMemories.slice(0, 5).join('\n')}\n\nCurrent Observations:\n${JSON.stringify(observations)}\n\nBased on this information, determine the best action to take.`;
+      const planningPrompt = `Current Task: ${currentTask.goal}\nContext: ${currentTask.context}\n\nRecent History:\n${this.getCycleVisibleHistory(5).join('\n')}\n\nRelevant Past Experiences:\n${relevantMemories.slice(0, 5).join('\n')}\n\nCurrent Observations:\n${JSON.stringify(observations)}\n\nBased on this information, determine the best action to take.`;
       let planResponse = '';
       if (this.actors.length > 0) {
         try {
@@ -151,7 +143,6 @@ export class CognitiveOS {
           planResponse = `Unable to generate detailed plan. Proceeding with basic task execution for: ${currentTask.goal}`;
         }
       }
-      this.events.emit('reasoning:plan', 'controller', { plan: planResponse });
 
       const safetyCheck = this.guardrail.check(planResponse);
       if (!safetyCheck.safe) {
@@ -193,21 +184,18 @@ export class CognitiveOS {
       }
       this.lastActionSuccess = actionSuccess;
       this.history.push(`ACTION: ${actionType} -> ${JSON.stringify(actionResult)}`);
-      this.events.emit('action:result', 'controller', { action: actionType, success: actionSuccess });
 
       // 5. MEMORY UPDATE
       const experience = `TASK: ${currentTask.goal} | ACTION: ${actionType} | RESULT: ${JSON.stringify(actionResult)} | SUCCESS: ${actionSuccess}`;
       for (const memory of this.memories) {
         await memory.add(experience);
       }
-      this.events.emit('memory:stored', 'controller', { kind: 'experience' });
 
       // 6. REINFORCEMENT LEARNING
       const reward = actionSuccess ? 1.0 : -0.5;
       for (const rl of this.rlPlugins) {
         await rl.update(observations, actionType, reward, null);
       }
-      this.events.emit('feedback:score', 'controller', { reward });
       this.feedback.record({ module: 'cycle', success: actionSuccess, latencyMs: Date.now() - cycleStart });
 
       this.updateSystemHealth(actionSuccess);
@@ -236,17 +224,6 @@ export class CognitiveOS {
     } else {
       this.systemHealth = Math.max(0.1, this.systemHealth - 0.1 + nudge);
     }
-    this.events.emit('system:health', 'controller', { health: this.systemHealth });
-  }
-
-  async run(cycles = 10, delay = 1000): Promise<void> {
-    this.isRunning = true;
-    for (let i = 0; i < cycles && this.isRunning; i++) {
-      const result = await this.runCycle();
-      console.log(`[CYCLE ${i + 1}/${cycles}] ${result.summary}`);
-      if (delay > 0) await new Promise((resolve) => setTimeout(resolve, delay));
-    }
-    this.isRunning = false;
   }
 
   stop(): void {
@@ -278,16 +255,52 @@ export class CognitiveOS {
   }
 
   /**
-   * Short-term working-memory hook: pin a note (e.g. an ingested-document
-   * summary) into the immediate context the next planning cycle reads.
+   * Dialog-side working-memory hook: stage a note (chat turn, ingested-document
+   * summary, seed report) in the ephemeral buffer. Ephemeral notes are NEVER
+   * read by the cycle planner — see getCycleVisibleHistory(). Promotion to
+   * cycle-visible history happens only via promoteToCycle().
+   */
+  noteEphemeral(text: string, origin: HistoryNote['origin'] = 'system'): void {
+    this.ephemeral.push({ text, visibility: 'ephemeral', origin, ts: Date.now() });
+    if (this.ephemeral.length > 300) {
+      this.ephemeral = this.ephemeral.slice(-300);
+    }
+  }
+
+  /**
+   * @deprecated Use noteEphemeral() instead. Kept so older callers compile;
+   * routes to the ephemeral buffer (never the planner).
    */
   rememberWorking(note: string): void {
-    this.history.push(`WORKING: ${note}`);
-    // Bound working context so uploads can't grow memory without limit.
-    if (this.history.length > 300) {
-      this.history = this.history.slice(-300);
+    this.noteEphemeral(note, 'system');
+  }
+
+  /** Cycle-visible history: committed entries only. The planner reads this. */
+  getCycleVisibleHistory(n: number): string[] {
+    return this.history.slice(-n);
+  }
+
+  /** Ephemeral transcript for UI/debug. Never fed to the planner. */
+  getEphemeralTranscript(n: number): string[] {
+    return this.ephemeral.slice(-n).map((note) => note.text);
+  }
+
+  /**
+   * The ONLY dialog→cycle bridge. Promotes the most recent ephemeral note
+   * into committed history with a logged reason. Dedupes identical text.
+   * Returns the promoted text, or null when there is nothing to promote.
+   */
+  promoteLatestEphemeral(reason: string): string | null {
+    const latest = this.ephemeral[this.ephemeral.length - 1];
+    if (!latest) return null;
+    // Dedupe by note text: re-promoting the same note (any reason) commits once.
+    if (!this.history.some((h) => h.startsWith(`PROMOTED: ${latest.text}`))) {
+      this.history.push(`PROMOTED: ${latest.text} (reason: ${reason})`);
+      if (this.history.length > 300) {
+        this.history = this.history.slice(-300);
+      }
     }
-    this.events.emit('memory:stored', 'controller', { kind: 'working-note' });
+    return latest.text;
   }
 
   getCurrentGoal(): string {

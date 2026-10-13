@@ -1,12 +1,34 @@
 // longTermMemory/ — knowledge base, persistent storage.
 // Vector-similarity memory extracted from core/CognitiveOS.ts.
-// Persists through a pluggable StorageProvider (see core/storage/).
+// Persists through a pluggable StorageProvider (see ./storage/).
 
-import type { StorageProvider, StoredMemoryRecord } from '../storage';
+import type { StorageProvider, StoredMemoryRecord } from './storage';
+import {
+  CYCLE_RETRIEVAL_ALLOWLIST,
+  inferNamespace,
+  type MemoryNamespace,
+} from '../../types/memory';
+
+export { inferNamespace };
 
 export interface MemoryPlugin {
   add(record: string): Promise<void>;
   query(prompt: string, topK?: number): Promise<string[]>;
+  /** Allowlisted retrieval for the autonomous planner. Optional; falls back to query(). */
+  queryCycle?(prompt: string, topK?: number): Promise<ScoredRecord[]>;
+}
+
+export interface ScoredRecord {
+  record: string;
+  score: number;
+  namespace: MemoryNamespace;
+}
+
+export interface QueryOptions {
+  /** Restrict retrieval to these namespaces. Default: no restriction. */
+  allowlist?: MemoryNamespace[];
+  /** Exclude these namespaces. Applied after allowlist. Default: none. */
+  excludeNamespaces?: MemoryNamespace[];
 }
 
 export interface VectorMemoryOptions {
@@ -21,6 +43,8 @@ interface StoredMemory {
   embedding: number[];
   timestamp: number;
   importance: number;
+  namespace: MemoryNamespace;
+  marker?: string;
 }
 
 export class VectorMemory implements MemoryPlugin {
@@ -54,6 +78,8 @@ export class VectorMemory implements MemoryPlugin {
       embedding: [...r.embedding],
       timestamp: r.timestamp,
       importance: r.importance,
+      // Namespace persists via flush()'s spread; legacy stores fall back at read time.
+      namespace: (r as Partial<StoredMemory>).namespace ?? inferNamespace(r.content),
     }));
     return this.memories.length;
   }
@@ -88,6 +114,7 @@ export class VectorMemory implements MemoryPlugin {
         embedding: Array.isArray(r.embedding) ? r.embedding : this.generateSimulatedEmbedding(r.content),
         timestamp: typeof r.timestamp === 'number' ? r.timestamp : Date.now(),
         importance: typeof r.importance === 'number' ? r.importance : 0.5,
+        namespace: (r as Partial<StoredMemory>).namespace ?? inferNamespace(r.content),
       });
       added++;
     }
@@ -106,15 +133,32 @@ export class VectorMemory implements MemoryPlugin {
     await this.store?.clear();
   }
 
-  async add(record: string): Promise<void> {
+  async add(record: string, opts?: { namespace?: MemoryNamespace; marker?: string }): Promise<void> {
     const embedding = this.generateSimulatedEmbedding(record);
     const importance = this.calculateImportance(record);
-    this.memories.push({ content: record, embedding, timestamp: Date.now(), importance });
+    this.memories.push({
+      content: record,
+      embedding,
+      timestamp: Date.now(),
+      importance,
+      namespace: opts?.namespace ?? inferNamespace(record),
+      marker: opts?.marker,
+    });
     this.enforceLimit();
     this.scheduleSave();
   }
 
   async query(prompt: string, topK = 5): Promise<string[]> {
+    const scored = await this.queryScored(prompt, topK);
+    return scored.map((s) => s.record);
+  }
+
+  /** Scored variant of query(): exposes the hybrid score for grounding thresholds. */
+  async queryScored(
+    prompt: string,
+    topK = 5,
+    opts?: QueryOptions,
+  ): Promise<ScoredRecord[]> {
     if (this.memories.length === 0) return [];
     const queryEmbedding = this.generateSimulatedEmbedding(prompt);
     // Keyword overlap backs up the simulated embedding so named entities
@@ -132,12 +176,28 @@ export class VectorMemory implements MemoryPlugin {
       });
       const overlap = queryTokens.size > 0 ? matched / queryTokens.size : 0;
       return {
-        content: memory.content,
+        record: memory.content,
         score: overlap * 2.0 + this.cosineSimilarity(queryEmbedding, memory.embedding) * 0.3 + memory.importance * 0.1,
+        namespace: memory.namespace ?? inferNamespace(memory.content),
       };
     });
-    scored.sort((a, b) => b.score - a.score);
-    return scored.slice(0, topK).map((s) => s.content);
+    const allow = opts?.allowlist;
+    const exclude = opts?.excludeNamespaces;
+    const filtered = scored.filter(
+      (s) =>
+        (!allow || allow.includes(s.namespace)) &&
+        (!exclude || !exclude.includes(s.namespace)),
+    );
+    filtered.sort((a, b) => b.score - a.score);
+    return filtered.slice(0, topK);
+  }
+
+  /**
+   * Cycle-side retrieval: allowlisted to knowledge/observation/task/experience.
+   * Dialog records never reach the autonomous planner. See types/contracts.ts.
+   */
+  async queryCycle(prompt: string, topK = 5): Promise<ScoredRecord[]> {
+    return this.queryScored(prompt, topK, { allowlist: CYCLE_RETRIEVAL_ALLOWLIST });
   }
 
   getMemoryStats(): { total: number; avgImportance: number; oldestTimestamp: number } {

@@ -4,7 +4,7 @@ import {
   ACCEPTED_UPLOADS,
   type DocumentKind,
   type IngestedDocument,
-} from '../core/ingestion';
+} from '../core/perception/ingestion';
 
 export interface IngestReport {
   name: string;

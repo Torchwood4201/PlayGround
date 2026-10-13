@@ -1,10 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, MessageCircle, User, Cpu, Mic, MicOff } from 'lucide-react';
-import { ConversationEntry } from '../types';
+import { ConversationEntry, type SourceCitation } from '../types';
 import { useSpeechRecognition } from '../hooks/useSpeechRecognition';
 
 interface ConversationInterfaceProps {
-  onMessage: (message: string) => Promise<{ response: string; reasoning?: string; ethicalConsiderations?: string[] }>;
+  onMessage: (message: string) => Promise<{ response: string; reasoning?: string; ethicalConsiderations?: string[]; sources?: SourceCitation[]; grounded?: boolean }>;
   onSpeakResponse?: (text: string) => void;
 }
 
@@ -70,7 +70,9 @@ export const ConversationInterface: React.FC<ConversationInterfaceProps> = ({ on
         message: result.response,
         timestamp: Date.now(),
         reasoning: result.reasoning,
-        ethicalConsiderations: result.ethicalConsiderations
+        ethicalConsiderations: result.ethicalConsiderations,
+        sources: result.sources,
+        grounded: result.grounded
       };
 
       setMessages(prev => [...prev, aiMessage]);
@@ -144,6 +146,29 @@ export const ConversationInterface: React.FC<ConversationInterfaceProps> = ({ on
                   <span className="text-green-400 font-semibold">Ethical Analysis: </span>
                   <span className="text-gray-300">{message.ethicalConsiderations.join(', ')}</span>
                 </div>
+              )}
+
+              {message.grounded && (
+                <div className="mt-2 inline-block px-2 py-0.5 rounded text-xs font-semibold text-cyan-300 bg-cyan-900/30 border border-cyan-500/30">
+                  Answered from memory
+                </div>
+              )}
+
+              {message.sources && message.sources.length > 0 && (
+                <details className="mt-2 p-2 bg-blue-900/20 rounded text-xs">
+                  <summary className="text-blue-300 font-semibold cursor-pointer">
+                    Sources ({message.sources.length})
+                  </summary>
+                  <ol className="mt-1 list-decimal ml-4 space-y-1">
+                    {message.sources.map((s, i) => (
+                      <li key={i} className="text-gray-300">
+                        <span className="text-blue-200">{s.label}</span>
+                        <span className="text-gray-400"> [{s.kind}] — </span>
+                        {s.excerpt}
+                      </li>
+                    ))}
+                  </ol>
+                </details>
               )}
               
               <div className="text-xs opacity-50 mt-1">

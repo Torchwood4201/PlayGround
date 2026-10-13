@@ -6,7 +6,7 @@ import { CognitiveOS } from './core/controller';
 import { TaskManager } from './core/workingMemory';
 import { VectorMemory } from './core/longTermMemory';
 import { WebSearchPerception, InternalStatePerception } from './core/perception';
-import { ModelHubActionPlugin } from './core/reasoning';
+import { ModelHubActionPlugin, composeGroundedAnswer, type ScoredHit } from './core/reasoning';
 import { NeuralInterface } from './components/NeuralInterface';
 import { ConversationInterface } from './components/ConversationInterface';
 import { EthicalMatrix } from './components/EthicalMatrix';
@@ -18,21 +18,20 @@ import { ModelLoadingInterface } from './components/ModelLoadingInterface';
 import { CognitiveInterface } from './components/CognitiveInterface';
 import { VoiceInterface } from './components/VoiceInterface';
 import { AIFace } from './components/AIFace';
-import { PositronicBrain } from './core/PositronicBrain';
 import { Beta4 } from './core/Beta4';
-import { defaultStorageProvider } from './core/storage';
+import { defaultStorageProvider } from './core/longTermMemory/storage';
 import {
   DocumentRegistry,
   ingestDocument,
   type IngestedDocument,
-} from './core/ingestion';
+} from './core/perception/ingestion';
 import {
   SEED_BYTES,
   SEED_ID,
   SEED_SUMMARY,
   SEED_VERSION,
   seedWorldKnowledge,
-} from './core/knowledge';
+} from './core/longTermMemory/knowledge';
 import { DocumentIngestPanel, type IngestReport } from './components/DocumentIngestPanel';
 import { useRef } from 'react';
 
@@ -41,6 +40,7 @@ function App() {
     longTerm: defaultStorageProvider('positronic.longterm.v1'),
     core: defaultStorageProvider('positronic.core.v1'),
     docs: defaultStorageProvider('positronic.documents.v1'),
+    brain: defaultStorageProvider('positronic.brain.v1'),
   }));
   const [docRegistry] = useState(() => new DocumentRegistry(stores.docs));
   const [documents, setDocuments] = useState<IngestedDocument[]>([]);
@@ -81,23 +81,8 @@ function App() {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [currentSpeechText, setCurrentSpeechText] = useState('');
 
-  // PositronicBrain integration
-  const [positronicBrain] = useState(() => new PositronicBrain());
-  const [pbState, setPbState] = useState<any>(null);
-  const [pbCycle, setPbCycle] = useState(0);
-  const [pbRunning, setPbRunning] = useState(false);
-
-  const runPositronicBrainCycle = async () => {
-    setPbRunning(true);
-    await positronicBrain.perceive();
-    const state = await positronicBrain.thinkAndAct();
-    setPbState(state);
-    setPbCycle(c => c + 1);
-    setPbRunning(false);
-  };
-
-  // Beta4 integration
-  const [beta4] = useState(() => new Beta4());
+  // Beta4 integration (shares the app-wide cognitive instances — no silo)
+  const [beta4] = useState(() => new Beta4({ cognitiveOS, modelHub, positronicCore }));
   const [beta4State, setBeta4State] = useState<any>(null);
   const [beta4Cycle, setBeta4Cycle] = useState(0);
   const [beta4Running, setBeta4Running] = useState(false);
@@ -150,10 +135,11 @@ function App() {
       const seed = await seedWorldKnowledge({
         addToLongTerm: (record: string) => vectorMemory.add(record),
         queryLongTerm: (prompt: string, topK?: number) => vectorMemory.query(prompt, topK),
-        noteToWorking: (note: string) => cognitiveOS.rememberWorking(note),
+        noteToWorking: (note: string) => cognitiveOS.noteEphemeral(note, 'system'),
       });
       const restoredCore = await positronicCore.loadSnapshot();
       const restoredDocs = await docRegistry.load();
+      const restoredBrain = await beta4.boot(stores.brain);
       if (!seed.skipped) {
         console.log(`[knowledge] seeded ${seed.added} world-knowledge entries`);
         if (!docRegistry.list().some((d) => d.id === SEED_ID)) {
@@ -168,9 +154,9 @@ function App() {
           });
         }
       }
-      if (restoredLTM > 0 || restoredCore > 0 || restoredDocs > 0 || !seed.skipped) {
+      if (restoredLTM > 0 || restoredCore > 0 || restoredDocs > 0 || restoredBrain || !seed.skipped) {
         console.log(
-          `[storage] restored ${restoredLTM} long-term + ${restoredCore} core memories + ${restoredDocs} documents`,
+          `[storage] restored ${restoredLTM} long-term + ${restoredCore} core memories + ${restoredDocs} documents + brain ${restoredBrain ? 'snapshot' : 'fresh'}`,
         );
         setMemories(positronicCore.getMemories());
         setDocuments(docRegistry.list());
@@ -184,39 +170,75 @@ function App() {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [positronicCore, vectorMemory, docRegistry, cognitiveOS]);
+  }, [positronicCore, vectorMemory, docRegistry, cognitiveOS, beta4, stores]);
 
   const handleMessage = async (message: string) => {
     setIsThinking(true);
-    let response: string;
-    let reasoning: string;
+    let baseResponse: string;
+    let baseReasoning: string;
     let ethicalConsiderations: string[];
 
+    // 0. RETRIEVE from the AI's own long-term memory (seed + documents).
+    // Retrieval must never break chat.
+    let scored: ScoredHit[] = [];
+    try {
+      scored = await vectorMemory.queryScored(message, 5);
+    } catch {
+      scored = [];
+    }
+
+    // 1. GENERATE base (unchanged template logic)
     if (isModelHubReady) {
       // Use the advanced model hub for more sophisticated responses
       try {
         const result = await modelHub.generateText(message);
-        response = result.text || positronicCore.processThought(message);
-        reasoning = `Advanced neural processing: ${result.tokensUsed} tokens processed in ${result.processingTime}ms. Multi-modal analysis complete.`;
+        baseResponse = result.text || positronicCore.processThought(message);
+        baseReasoning = `Advanced neural processing: ${result.tokensUsed} tokens processed in ${result.processingTime}ms. Multi-modal analysis complete.`;
         
         // Perform ethical analysis
         const ethicalAnalysis = await modelHub.performEthicalAnalysis(message);
         ethicalConsiderations = ethicalAnalysis.principlesApplied;
       } catch (error) {
         // Fallback to basic processing
-        response = positronicCore.processThought(message);
-        reasoning = `Fallback processing activated. Basic neural pathways engaged.`;
+        baseResponse = positronicCore.processThought(message);
+        baseReasoning = `Fallback processing activated. Basic neural pathways engaged.`;
         ethicalConsiderations = ['Ensuring beneficial response', 'Maintaining truthfulness', 'Respecting human autonomy'];
       }
     } else {
       // Use basic positronic core
-      response = positronicCore.processThought(message);
-      reasoning = `Neural pathways activated: ${Math.floor(Math.random() * 1000) + 500}. Processing through ethical and creative matrices.`;
+      baseResponse = positronicCore.processThought(message);
+      baseReasoning = `Neural pathways activated: ${Math.floor(Math.random() * 1000) + 500}. Processing through ethical and creative matrices.`;
       ethicalConsiderations = ['Ensuring beneficial response', 'Maintaining truthfulness', 'Respecting human autonomy'];
     }
-    
+
+    // 2. COMPOSE: strong match -> fact leads, template discarded; weak -> template + citations.
+    const grounded = composeGroundedAnswer(message, scored, baseResponse);
+    const response = grounded.response;
+    const reasoning = `${baseReasoning} ${grounded.reasoning}`;
+
+    // 3. PERSIST the turn (fire-and-forget; CONVERSATION records never re-ground).
+    // Dialog writes are namespaced + ephemeral: the cycle planner can't see them
+    // except through explicit promotion. See types/contracts.ts.
+    try {
+      const q = message.replace(/\s+/g, ' ').trim().slice(0, 300);
+      const a = grounded.sources.length > 0
+        ? grounded.sources[0].excerpt.slice(0, 300)
+        : baseResponse.replace(/\s+/g, ' ').trim().slice(0, 300);
+      void vectorMemory
+        .add(`CONVERSATION Q: ${q} | A: ${a}`, { namespace: 'dialog', marker: 'CONVERSATION' })
+        .catch(() => {});
+      cognitiveOS.noteEphemeral(
+        `CHAT Q: ${q.slice(0, 120)} => cited ${grounded.sources.length} source(s)${
+          grounded.sources[0] ? ` [${grounded.sources[0].label}]` : ''
+        }`,
+        'dialog',
+      );
+    } catch {
+      // persistence must never break reply
+    }
+
     setIsThinking(false);
-    return { response, reasoning, ethicalConsiderations };
+    return { response, reasoning, ethicalConsiderations, sources: grounded.sources, grounded: grounded.grounded };
   };
 
   const handleSpeakText = (text: string) => {
@@ -253,7 +275,7 @@ function App() {
       try {
         const doc = await ingestDocument(file, {
           addToLongTerm: (record: string) => vectorMemory.add(record),
-          noteToWorking: (note: string) => cognitiveOS.rememberWorking(note),
+          noteToWorking: (note: string) => cognitiveOS.noteEphemeral(note, 'system'),
         });
         await docRegistry.add(doc);
         reports.push({ name: file.name, ok: true, chunks: doc.chunks, kind: doc.kind });

@@ -3,7 +3,7 @@
 // Seeding is idempotent: a marker record means "already stored", so
 // reloads never duplicate entries.
 
-import worldKnowledge from '../../data/world_knowledge.json';
+import worldKnowledge from '../../../data/world_knowledge.json';
 
 export const SEED_ID = 'seed-world-knowledge';
 export const SEED_VERSION = '1.1';

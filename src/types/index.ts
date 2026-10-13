@@ -39,6 +39,14 @@ export interface ConversationEntry {
   timestamp: number;
   reasoning?: string;
   ethicalConsiderations?: string[];
+  sources?: SourceCitation[];
+  grounded?: boolean;
+}
+
+export interface SourceCitation {
+  kind: 'KNOWLEDGE' | 'DOCUMENT' | 'CONVERSATION' | 'OTHER';
+  label: string;
+  excerpt: string;
 }
 
 export interface LearningModule {

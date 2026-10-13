@@ -1,10 +1,31 @@
-// Beta4.ts
-// Unified "person" entity combining all major cognitive modules
+// Beta4.ts — the "person" entity. The positronic brain is its backend.
+//
+// Division of labor (binding):
+// - brain (PositronicBrain, PRIVATE) = planner / memory / affect substrate.
+//   The ONLY thing the hot path (perceive/thinkAndAct) runs. Owns persistence
+//   (StorageProvider, key positronic.brain.v1). No live reference ever escapes:
+//   outsiders see frozen snapshots via getBrainSnapshot().
+// - cognitiveOS = LOOP-ONLY autonomous loop. Beta4 may optionally drive one
+//   background cycle via tick(), but perceive/thinkAndAct never call it.
+// - modelHub = generation service. Wired into the brain as its generator with
+//   canned-string fallback (brain works unloaded). Kept because it is USED.
+// - positronicCore = experience projector for getState()/introspect() cold
+//   paths (shares the app-wide instance; Beta4 never drives its pipeline).
 
 import { PositronicBrain } from './PositronicBrain';
 import { CognitiveOS } from './controller';
 import { UnifiedModelHub } from './UnifiedModelHub';
 import { PositronicCore } from './PositronicCore';
+import type { StorageProvider } from './longTermMemory/storage';
+import type { BrainSnapshot } from '../types/brain';
+
+export interface Beta4Deps {
+  cognitiveOS?: CognitiveOS;
+  modelHub?: UnifiedModelHub;
+  positronicCore?: PositronicCore;
+  brain?: PositronicBrain;
+  storage?: StorageProvider;
+}
 
 export class Beta4 {
   public readonly id = 'Beta 4';
@@ -13,21 +34,49 @@ export class Beta4 {
     description: 'Experimental positronic person, combining advanced cognitive, ethical, and creative modules. Successor to Data, B-4, and Lal.'
   };
 
-  public positronicBrain: PositronicBrain;
+  #brain: PositronicBrain;
   public cognitiveOS: CognitiveOS;
   public modelHub: UnifiedModelHub;
   public positronicCore: PositronicCore;
 
-  constructor() {
-    this.positronicBrain = new PositronicBrain();
-    this.cognitiveOS = new CognitiveOS();
-    this.modelHub = new UnifiedModelHub();
-    this.positronicCore = new PositronicCore();
+  constructor(deps: Beta4Deps = {}) {
+    this.#brain = deps.brain ?? new PositronicBrain();
+    this.cognitiveOS = deps.cognitiveOS ?? new CognitiveOS();
+    this.modelHub = deps.modelHub ?? new UnifiedModelHub();
+    this.positronicCore = deps.positronicCore ?? new PositronicCore();
+    // Brain delegates text generation to the shared hub; falls back silently.
+    this.#brain.attachGenerator({
+      generate: async (prompt: string) => {
+        const result = await this.modelHub.generateText(prompt);
+        return result.text ?? '';
+      },
+    });
+    if (deps.storage) {
+      this.#brain.attachProvider(deps.storage);
+    }
+  }
+
+  /** Boot: attach persistence and restore the brain snapshot. Never throws. */
+  async boot(storage?: StorageProvider): Promise<boolean> {
+    if (storage) {
+      this.#brain.attachProvider(storage);
+    }
+    return this.#brain.loadSnapshot();
+  }
+
+  /** Frozen copy of backend state. Mutating it never affects the brain. */
+  getBrainSnapshot(): BrainSnapshot {
+    return this.#brain.getSnapshot();
+  }
+
+  /** Restore backend state (clamped to caps). Used by boot/tests. */
+  restoreBrain(snapshot: BrainSnapshot): void {
+    this.#brain.restoreSnapshot(snapshot);
   }
 
   // Unified perception: run all perception modules and aggregate
   async perceive(): Promise<any> {
-    const pbObs = await this.positronicBrain.perceive();
+    const pbObs = await this.#brain.perceive();
     // CognitiveOS and PositronicCore may have their own perception methods
     // For now, just return PositronicBrain's perception
     return { positronicBrain: pbObs };
@@ -35,7 +84,7 @@ export class Beta4 {
 
   // Unified thought/action: run a cycle in all brains, aggregate results
   async thinkAndAct(): Promise<any> {
-    const pbResult = await this.positronicBrain.thinkAndAct();
+    const pbResult = await this.#brain.thinkAndAct();
     // Optionally, run cycles in CognitiveOS or PositronicCore as well
     // For now, just return PositronicBrain's result
     return { positronicBrain: pbResult };
@@ -51,11 +100,19 @@ export class Beta4 {
     }
   }
 
+  /**
+   * LOOP-ONLY: optionally drive one autonomous background cycle.
+   * Never called by perceive/thinkAndAct. Cycles are not dialog.
+   */
+  async tick(): Promise<{ success: boolean; summary: string; details: unknown }> {
+    return this.cognitiveOS.runCycle();
+  }
+
   // Unified memory access
   async getMemories(): Promise<any> {
     // Combine memories from all modules
     return {
-      positronicBrain: this.positronicBrain.memory,
+      positronicBrain: [...this.getBrainSnapshot().memories.map((m) => m.content)],
       positronicCore: this.positronicCore.getMemories(),
       cognitiveOS: this.cognitiveOS.getHistory()
     };
@@ -64,7 +121,7 @@ export class Beta4 {
   // Unified introspection
   async introspect(): Promise<any> {
     return {
-      positronicBrain: this.positronicBrain.workingMemory,
+      positronicBrain: [...this.getBrainSnapshot().workingMemory.map((w) => w.content)],
       positronicCore: this.positronicCore.introspect(),
       cognitiveOS: await this.cognitiveOS.introspect()
     };
@@ -72,21 +129,22 @@ export class Beta4 {
 
   // Unified goal setter
   setGoal(goal: string) {
-    this.positronicBrain.goal = goal;
+    this.#brain.setGoal(goal);
     this.cognitiveOS.setGoal(goal);
     // Optionally, update in PositronicCore as well
   }
 
   // Unified state snapshot
   getState(): any {
+    const snap = this.getBrainSnapshot();
     return {
       id: this.id,
       persona: this.persona,
-      mood: this.positronicBrain.emotion.mood(),
-      goal: this.positronicBrain.goal,
+      mood: snap.emotion.label,
+      goal: snap.goal,
       positronicBrain: {
-        workingMemory: this.positronicBrain.workingMemory,
-        emotion: this.positronicBrain.emotion.getStates()
+        workingMemory: snap.workingMemory.map((w) => w.content),
+        emotion: { ...snap.emotion.states }
       },
       positronicCore: {
         neuralState: this.positronicCore.getNeuralState(),
@@ -98,4 +156,4 @@ export class Beta4 {
       }
     };
   }
-} 
+}

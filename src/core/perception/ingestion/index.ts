@@ -6,7 +6,7 @@
 // Heavy parsers (pdf.js, mammoth) are lazy-loaded so they only join the
 // bundle when a matching file is actually uploaded.
 
-import type { StorageProvider } from '../storage';
+import type { StorageProvider } from '../../longTermMemory/storage';
 
 export type DocumentKind = 'pdf' | 'docx' | 'text' | 'other';
 

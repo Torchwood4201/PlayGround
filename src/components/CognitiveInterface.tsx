@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { 
   Brain, Play, Pause, RotateCcw, Target, Zap, 
   Activity, Shield, Database, TrendingUp, AlertCircle,
@@ -6,6 +6,7 @@ import {
 } from 'lucide-react';
 import { CognitiveOS } from '../core/controller';
 import type { Task } from '../core/workingMemory';
+import { StatusBadge } from './shared';
 
 interface CognitiveInterfaceProps {
   cognitiveOS: CognitiveOS;
@@ -20,6 +21,11 @@ export const CognitiveInterface: React.FC<CognitiveInterfaceProps> = ({ cognitiv
   const [introspection, setIntrospection] = useState('');
   const [newGoal, setNewGoal] = useState('');
   const [cycleResults, setCycleResults] = useState<any[]>([]);
+  const [promoteNotice, setPromoteNotice] = useState('');
+  // Ref-driven loop: avoids the stale-closure bug where `while (isRunning)`
+  // captured the initial `false` and stopped after ~1 cycle.
+  const runningRef = useRef(false);
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     const interval = setInterval(async () => {
@@ -38,30 +44,39 @@ export const CognitiveInterface: React.FC<CognitiveInterfaceProps> = ({ cognitiv
     return () => clearInterval(interval);
   }, [cognitiveOS]);
 
-  const handleStart = async () => {
+  useEffect(() => {
+    return () => {
+      runningRef.current = false;
+      if (timerRef.current) clearTimeout(timerRef.current);
+    };
+  }, []);
+
+  const runNextCycle = async () => {
+    if (!runningRef.current) return;
+    try {
+      const result = await cognitiveOS.runCycle();
+      setCycleResults(prev => [result, ...prev.slice(0, 9)]); // Keep last 10 results
+    } catch (error) {
+      console.error('Cycle error:', error);
+      runningRef.current = false;
+      setIsRunning(false);
+      return;
+    }
+    if (runningRef.current) {
+      timerRef.current = setTimeout(runNextCycle, 2000);
+    }
+  };
+
+  const handleStart = () => {
+    runningRef.current = true;
     setIsRunning(true);
     setCycleResults([]);
-    
-    // Run continuous cycles
-    const runContinuous = async () => {
-      while (isRunning) {
-        try {
-          const result = await cognitiveOS.runCycle();
-          setCycleResults(prev => [result, ...prev.slice(0, 9)]); // Keep last 10 results
-          
-          // Small delay between cycles
-          await new Promise(resolve => setTimeout(resolve, 2000));
-        } catch (error) {
-          console.error('Cycle error:', error);
-          break;
-        }
-      }
-    };
-    
-    runContinuous();
+    void runNextCycle();
   };
 
   const handleStop = () => {
+    runningRef.current = false;
+    if (timerRef.current) clearTimeout(timerRef.current);
     setIsRunning(false);
     cognitiveOS.stop();
   };
@@ -74,6 +89,14 @@ export const CognitiveInterface: React.FC<CognitiveInterfaceProps> = ({ cognitiv
     }
   };
 
+  const handlePromote = () => {
+    // The ONLY dialog→cycle bridge: manual, logged, deduplicated.
+    // Cycles never read the ephemeral buffer otherwise. See types/contracts.ts.
+    const promoted = cognitiveOS.promoteLatestEphemeral('manual promotion from CognitiveInterface');
+    setPromoteNotice(
+      promoted ? `Promoted to cycle planning: "${promoted.slice(0, 80)}…"` : 'Nothing to promote.',
+    );
+  };
   const handleRunSingleCycle = async () => {
     try {
       const result = await cognitiveOS.runCycle();
@@ -81,13 +104,6 @@ export const CognitiveInterface: React.FC<CognitiveInterfaceProps> = ({ cognitiv
     } catch (error) {
       console.error('Single cycle error:', error);
     }
-  };
-
-  const getHealthColor = (health: number) => {
-    if (health > 0.8) return 'text-green-400';
-    if (health > 0.6) return 'text-yellow-400';
-    if (health > 0.4) return 'text-orange-400';
-    return 'text-red-400';
   };
 
   const getHealthBarColor = (health: number) => {
@@ -220,6 +236,26 @@ export const CognitiveInterface: React.FC<CognitiveInterfaceProps> = ({ cognitiv
               </button>
             </div>
           </div>
+
+          <div className="space-y-2 pt-2">
+            <label className="block text-sm font-medium text-gray-300">
+              Dialog → Cycle bridge
+            </label>
+            <p className="text-xs text-gray-500">
+              Cycles never read chat notes on their own. Promote the latest
+              dialog note into cycle planning explicitly.
+            </p>
+            <button
+              onClick={handlePromote}
+              className="flex items-center px-4 py-2 bg-teal-600 hover:bg-teal-700 text-white rounded-lg transition-colors text-sm"
+            >
+              <Zap className="w-4 h-4 mr-2" />
+              Promote latest note to cycle
+            </button>
+            {promoteNotice && (
+              <p className="text-xs text-teal-300">{promoteNotice}</p>
+            )}
+          </div>
         </div>
 
         <div className="bg-gray-800 rounded-lg p-4 border border-gray-700">
@@ -257,14 +293,7 @@ export const CognitiveInterface: React.FC<CognitiveInterfaceProps> = ({ cognitiv
               tasks.slice(0, 5).map((task, index) => (
                 <div key={task.id} className="p-3 bg-gray-700 rounded border border-gray-600">
                   <div className="flex items-center justify-between mb-1">
-                    <span className={`text-xs px-2 py-1 rounded ${
-                      task.status === 'active' ? 'bg-green-900 text-green-300' :
-                      task.status === 'completed' ? 'bg-blue-900 text-blue-300' :
-                      task.status === 'failed' ? 'bg-red-900 text-red-300' :
-                      'bg-gray-600 text-gray-300'
-                    }`}>
-                      {task.status.toUpperCase()}
-                    </span>
+                    <StatusBadge status={task.status} />
                     <span className="text-xs text-gray-400">
                       Priority: {task.priority}
                     </span>

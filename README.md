@@ -26,47 +26,74 @@ controller, per the realignment guide.
 ```plaintext
 /src
   /components
-    AIFace.tsx / CognitiveInterface.tsx / ... (11 panels)
+    AIFace.tsx (interaction) / CognitiveInterface.tsx (orchestration) / ... (12 panels)
     /shared            # SectionCard, StatusBadge, healthColor
   /core
     /perception/       # PerceptionPlugin, WebSearchPerception, InternalStatePerception
-    /workingMemory/    # TaskManager, WorkingMemoryBuffer, Task
-    /longTermMemory/   # MemoryPlugin, VectorMemory (persisted via storage/)
+      /ingestion/      # extractText (pdf/docx/text), chunkText, ingestDocument, DocumentRegistry
+    /workingMemory/    # TaskManager, WorkingMemoryBuffer, Task, neuralState
+    /longTermMemory/   # MemoryPlugin, VectorMemory, experienceLog
+      /storage/        # StorageProvider, LocalStorageProvider, InMemoryProvider
+      /knowledge/      # world-knowledge seeder (flatten + seed-once)
     /reasoning/        # Guardrail, ModelHubActionPlugin, RLPlugin, selectActionForTask
-    /storage/          # StorageProvider, LocalStorageProvider, InMemoryProvider
-    /ingestion/        # extractText (pdf/docx/text), chunkText, ingestDocument, DocumentRegistry
-    controller.ts      # CognitiveOS orchestrator + EventBus (pub/sub)
-    feedback.ts        # FeedbackTracker (self-calibration)
-    CognitiveOS.ts     # backward-compat re-export facade
-    PositronicBrain.ts # reconstructed (was an empty 1-byte placeholder)
-    PositronicCore.ts  # neural/ethical/memory facade (stable UI API)
+                       # answerComposer, ethicalAnalysis, cannedResponse
+    controller.ts      # CognitiveOS orchestrator (cycles; direct typed calls, no bus)
+    feedback.ts        # FeedbackTracker (self-calibration, recorded from runCycle only)
+    PositronicBrain.ts # Beta4's private persisted backend (planner/memory/affect)
+    PositronicCore.ts  # experience projector facade (stable UI API over submodules)
     UnifiedModelHub.ts # text/vision/audio model hub (web-simulated)
-    Beta4.ts           # unified "person" combining all modules
+    Beta4.ts           # the "person" entity; owns the brain backend
   /hooks
-  /types               # + PerceptionOutput, ReasoningPlan, CycleResult, CognitiveEvent...
+  /types               # + memory (namespaces/notes), brain (snapshot), contracts (cycle↔dialog rules)
   App.tsx / main.tsx
 ```
 
 Notes:
 
-- `src/core/CognitiveOS.ts` is now a thin re-export shim; canonical code
-  lives in `controller.ts` + the four cognitive submodules. Existing imports
-  keep working.
+- `src/core/CognitiveOS.ts` shim deleted (re-export-only, zero importers);
+  canonical code lives in `controller.ts` + the four cognitive submodules.
 - `src/core/PositronicBrain.ts` was empty in the zip and broke `Beta4`/`App`;
   it is reconstructed with the API they expect
   (`perceive`, `thinkAndAct`, `memory`, `workingMemory`, `emotion`, `goal`).
-- Inter-module communication: `CognitiveOS.events` event bus
-  (`perception:update`, `memory:stored`, `reasoning:plan`, `action:result`,
-  `feedback:score`, `system:health`) + `CognitiveOS.feedback` self-calibration
+- Inter-module communication: direct typed calls (the old emit-only event bus
+  had nine emit sites and zero subscribers, so it was removed with a reason
+  comment in `controller.ts`) + `CognitiveOS.feedback` self-calibration
   that nudges the health score each cycle.
 - Verified: `npm run build` passes; runtime smoke (2 cognitive cycles,
-  brain + Beta4 think/act, event + feedback flow) passes.
+  brain + Beta4 think/act, feedback flow) passes.
+
+## Cycles ≠ dialog — the contract (`src/types/contracts.ts`)
+
+- **Cycles are autonomous background cognition** (`CognitiveOS.runCycle`,
+  driven from `CognitiveInterface`). **Dialog is a separate path**
+  (`App.handleMessage` → `ConversationInterface` → `answerComposer`).
+  Neither invokes the other.
+- Long-term records carry namespaces (`dialog|knowledge|observation|task|
+  experience|system`, `src/types/memory.ts`). Cycle retrieval (`queryCycle`)
+  is allowlisted to everything except `dialog`; legacy prefix records
+  (`CONVERSATION`, `DOCUMENT`, `OBSERVATION`…) route via `inferNamespace`.
+- Working memory is split: dialog/seed/ingest notes land in an **ephemeral**
+  buffer the planner never reads; the planner reads committed history only.
+  The ONLY dialog→cycle bridge is the manual **"Promote to cycle"** button
+  in `CognitiveInterface` (logged + deduplicated).
+
+## Brain = Beta4's backend (`src/core/PositronicBrain.ts`, `src/core/Beta4.ts`)
+
+- The brain is Beta4's private substrate (`#brain`, no live accessor):
+  planner/memory/affect, persisted via `StorageProvider`
+  (`positronic.brain.v1`, snapshot + debounced autosave, tolerant load).
+  Outsiders see frozen copies (`getBrainSnapshot()`); mutations go through
+  person verbs (`perceive/thinkAndAct/setGoal`) + `boot()`/`restoreBrain()`.
+- `cognitiveOS` inside Beta4 is LOOP-ONLY (optional `tick()` for one background
+  cycle; hot path never calls it). `modelHub` is the brain's generation service
+  (`attachGenerator`) with canned fallback when unloaded. `positronicCore` is
+  the experience projector for cold `getState()`/`introspect()` paths.
 
 ## Own storage — how the AI keeps what it learns
 
 No external models or vector DBs. Persistence is a small provider seam:
 
-- `src/core/storage/` — `StorageProvider` interface (`load`/`save`/`clear`)
+- `src/core/longTermMemory/storage/` — `StorageProvider` interface (`load`/`save`/`clear`)
   with `LocalStorageProvider` (browser, quota-safe with prune-on-full) and
   `InMemoryProvider` (fallback). `defaultStorageProvider(key)` picks
   localStorage when available, memory otherwise — so a future desktop/file
@@ -85,7 +112,7 @@ No external models or vector DBs. Persistence is a small provider seam:
 
 ## Document upload — files go to both memories
 
-`src/core/ingestion/` + the `DocumentIngest` panel (drag-drop or browse):
+`src/core/perception/ingestion/` + the `DocumentIngest` panel (drag-drop or browse):
 
 - Supported: **PDF** (pdf.js, lazy-loaded), **DOCX** (mammoth, lazy-loaded),
   and plain-text family (`.txt/.md/.json/.csv`/code/…). Legacy `.doc` and
@@ -104,7 +131,7 @@ No external models or vector DBs. Persistence is a small provider seam:
 
 `src/data/world_knowledge.json` (v1.1, 83 entries across technology, empires,
 religions, mathematics, art, codes, music, science, philosophy, literature)
-ships with the app; `src/core/knowledge/` loads it into the AI's own stores:
+ships with the app; `src/core/longTermMemory/knowledge/` loads it into the AI's own stores:
 
 - `flattenWorldKnowledge()` turns each entry into a `KNOWLEDGE [category]
   "Name" …` record (one per entry + overview).
@@ -116,5 +143,26 @@ ships with the app; `src/core/knowledge/` loads it into the AI's own stores:
   with the simulated embedding + importance, so named entities reliably
   surface their own records (verified: Roman Empire, Morse Code, CRISPR,
   Calculus all recall top-3). A real embedding backend would rebalance these
-  weights.
+  weights. `queryScored()` exposes the hybrid score for grounding thresholds.
+
+## Grounded answers — chat replies from its own memory
+
+`src/core/reasoning/answerComposer.ts` + retrieval wired into
+`App.tsx handleMessage`:
+
+- Every question first runs `vectorMemory.queryScored(message, 5)` (seed
+  knowledge + uploaded documents + prior turns, never breaking chat on failure).
+- **Strong match** (top `KNOWLEDGE`/`DOCUMENT` hit, score ≥ 1.5): the fact
+  *leads* the answer (`From memory ([1] label): excerpt…`), template
+  discarded, with an "Answered from memory" badge. Hits below 0.3 are noise
+  and excluded, so gibberish falls back cleanly.
+- **Weak/no match**: existing template kept, relevant citations appended.
+- Each answer renders collapsible **Sources** in the chat panel.
+- Each turn persists back: `CONVERSATION Q:… | A:…` to long-term memory +
+  a `rememberWorking()` note to short-term (past turns are excluded from
+  grounding, so no feedback loops).
+- Cleanup folded in: dead `PositronicBrain` demo state removed from `App.tsx`;
+  `Beta4` now takes shared `{ cognitiveOS, modelHub, positronicCore }`
+  instead of constructing its own silo; `CognitiveInterface` Start/Stop uses
+  a ref-driven loop (the old `while (isRunning)` captured stale state).
 
