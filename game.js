@@ -184,18 +184,49 @@ for (const [ch, nm] of Object.entries(WALLTEX)) wallMats[ch] = new THREE.MeshLam
 const floorMat = new THREE.MeshLambertMaterial({ map: kitTex('rock', 1, 1), color: 0x777777 });
 const ceilMat = new THREE.MeshLambertMaterial({ map: kitTex('concrete', 1, 1), color: 0x555566 });
 const exitMat = new THREE.MeshBasicMaterial({ color: 0x00ff66 });
+exitMat.userData = { shared: true };
 const exitLight = new THREE.PointLight(0x00ff66, 6, 7, 1.8);
 const WALL_H = 2.4;
 let levelGroup = null;
 
 function buildLevel(idx) {
-  if (levelGroup) { scene.remove(levelGroup); levelGroup.traverse(o => { if (o.geometry) o.geometry.dispose(); }); }
+  if (levelGroup) {
+    scene.remove(levelGroup);
+    levelGroup.traverse(o => {
+      if (o.geometry) o.geometry.dispose();
+      const mats = Array.isArray(o.material) ? o.material : o.material ? [o.material] : [];
+      for (const m of mats) {
+        if (m.userData && m.userData.shared) continue;
+        for (const v of Object.values(m)) {
+          if (v && v.isTexture) v.dispose();
+        }
+        m.dispose();
+      }
+    });
+  }
   levelGroup = new THREE.Group();
   scene.add(levelGroup);
   const rows = LEVELS[idx].map;
   MAP = rows.map(r => [...r]);
   MH = MAP.length; MW = MAP[0].length;
+  exitPos = null;
   foes = []; items = []; shots = []; parts = [];
+  // cleanup fireball meshes from previous level
+  for (const s of shots) {
+    if (s.mesh) {
+      s.mesh.geometry.dispose();
+      const mats = Array.isArray(s.mesh.material) ? s.mesh.material : s.mesh.material ? [s.mesh.material] : [];
+      for (const m of mats) {
+        if (!(m.userData && m.userData.shared)) {
+          for (const v of Object.values(m)) {
+            if (v && v.isTexture) v.dispose();
+          }
+          m.dispose();
+        }
+      }
+    }
+  }
+  shots = [];
   pointCloud();
   // walls merged per material
   const buckets = {};
@@ -220,7 +251,11 @@ function buildLevel(idx) {
   for (const [ch, list] of Object.entries(buckets)) {
     const merged = mergeGeometries(list);
     list.forEach(g => g.dispose());
-    levelGroup.add(new THREE.Mesh(merged, wallMats[ch]));
+    if (merged) {
+      levelGroup.add(new THREE.Mesh(merged, wallMats[ch]));
+    } else {
+      console.warn('mergeGeometries failed for wall type:', ch);
+    }
   }
   // floor + ceiling
   floorMat.map.repeat.set(MW, MH);
@@ -232,11 +267,15 @@ function buildLevel(idx) {
   ceil.rotation.x = Math.PI / 2; ceil.position.set(MW / 2, WALL_H, MH / 2);
   levelGroup.add(ceil);
   // exit beacon
-  const door = new THREE.Mesh(new THREE.BoxGeometry(0.9, 2.0, 0.15), exitMat);
-  door.position.set(exitPos.x, 1.0, exitPos.y);
-  levelGroup.add(door);
-  exitLight.position.set(exitPos.x, 1.6, exitPos.y);
-  levelGroup.add(exitLight);
+  if (!exitPos) {
+    console.warn(`Level ${idx}: missing E exit.`);
+  } else {
+    const door = new THREE.Mesh(new THREE.BoxGeometry(0.9, 2.0, 0.15), exitMat);
+    door.position.set(exitPos.x, 1.0, exitPos.y);
+    levelGroup.add(door);
+    exitLight.position.set(exitPos.x, 1.6, exitPos.y);
+    levelGroup.add(exitLight);
+  }
   // enemy sprites
   for (const f of foes) {
     if (f.isBarrel) {
@@ -246,9 +285,9 @@ function buildLevel(idx) {
       f.mesh = m;
     } else {
       const sc = f.kind === 'demon' ? 1.28 : 1;
-      const m = new THREE.Sprite(new THREE.SpriteMaterial({ map: texOf(IMP.walk1), fog: true }));
+      const kind = f.kind === 'demon' ? 'demon' : 'imp';
+      const m = new THREE.Sprite(new THREE.SpriteMaterial({ map: SPRTEX[kind].walk1, fog: true, transparent: true }));
       m.scale.set(0.95 * sc, 1.1 * sc, 1);
-      m.position.set(f.x, 0.62 * sc, f.y);
       f.mesh = m;
     }
     levelGroup.add(f.mesh);
