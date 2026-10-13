@@ -1,0 +1,98 @@
+{
+ "id": "surf_floor",
+ "log": [
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 2,
+    "bounds": [
+     [
+      -0.5,
+      0.0,
+      -0.5
+     ],
+     [
+      0.5,
+      0.0,
+      0.5
+     ]
+    ],
+    "groups": [
+     "tile"
+    ]
+   }
+  },
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 2,
+    "bounds": [
+     [
+      -0.5,
+      0.0,
+      -0.5
+     ],
+     [
+      0.5,
+      0.0,
+      0.5
+     ]
+    ],
+    "groups": [
+     "tile"
+    ]
+   }
+  },
+  {
+   "stage": "s3_automation",
+   "info": {
+    "generator": "rock",
+    "size": 1024,
+    "seed": 107,
+    "tileable": true
+   }
+  },
+  {
+   "stage": "s2_highpoly",
+   "info": {
+    "tris": 8,
+    "amp": 0.015
+   }
+  },
+  {
+   "stage": "s4_retopo",
+   "info": {
+    "tris": 2,
+    "budget": 2
+   }
+  },
+  {
+   "stage": "s5_uv",
+   "info": {
+    "stats": {
+     "assigned": true,
+     "count": 4,
+     "outOfRange": 0,
+     "coverage": 0.001
+    },
+    "texelPxPerM": 1024,
+    "tiling": true
+   }
+  },
+  {
+   "stage": "s6_bake",
+   "info": {
+    "size": 1024,
+    "normalStrength": 1.5
+   }
+  },
+  {
+   "stage": "s7_rig_export",
+   "info": {
+    "tris": 2,
+    "bytes": 2070760,
+    "rigged": false
+   }
+  }
+ ]
+}

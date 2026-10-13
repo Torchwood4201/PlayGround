@@ -1,0 +1,98 @@
+{
+ "id": "proj_flash",
+ "log": [
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 2,
+    "bounds": [
+     [
+      -0.25,
+      0.0,
+      -0.25
+     ],
+     [
+      0.25,
+      0.0,
+      0.25
+     ]
+    ],
+    "groups": [
+     "flash"
+    ]
+   }
+  },
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 2,
+    "bounds": [
+     [
+      -0.25,
+      0.0,
+      -0.25
+     ],
+     [
+      0.25,
+      0.0,
+      0.25
+     ]
+    ],
+    "groups": [
+     "flash"
+    ]
+   }
+  },
+  {
+   "stage": "s3_automation",
+   "info": {
+    "generator": "concrete",
+    "size": 256,
+    "seed": 503,
+    "tileable": false
+   }
+  },
+  {
+   "stage": "s2_highpoly",
+   "info": {
+    "tris": 2,
+    "amp": 0.0
+   }
+  },
+  {
+   "stage": "s4_retopo",
+   "info": {
+    "tris": 32,
+    "budget": 50
+   }
+  },
+  {
+   "stage": "s5_uv",
+   "info": {
+    "stats": {
+     "assigned": true,
+     "count": 25,
+     "outOfRange": 0,
+     "coverage": 0.024
+    },
+    "texelPxPerM": 256,
+    "tiling": false
+   }
+  },
+  {
+   "stage": "s6_bake",
+   "info": {
+    "size": 256,
+    "emissive": true
+   }
+  },
+  {
+   "stage": "s7_rig_export",
+   "info": {
+    "tris": 32,
+    "bytes": 3008,
+    "rigged": false
+   }
+  }
+ ]
+}

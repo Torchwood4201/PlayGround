@@ -1,0 +1,106 @@
+{
+ "id": "prop_shells",
+ "log": [
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 108,
+    "bounds": [
+     [
+      -0.2,
+      0.0,
+      -0.2
+     ],
+     [
+      0.2,
+      0.37,
+      0.2
+     ]
+    ],
+    "groups": [
+     "box",
+     "shell0",
+     "shell1",
+     "shell2",
+     "shell3"
+    ]
+   }
+  },
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 108,
+    "bounds": [
+     [
+      -0.2,
+      0.0,
+      -0.2
+     ],
+     [
+      0.2,
+      0.37,
+      0.2
+     ]
+    ],
+    "groups": [
+     "box",
+     "shell0",
+     "shell1",
+     "shell2",
+     "shell3"
+    ]
+   }
+  },
+  {
+   "stage": "s3_automation",
+   "info": {
+    "generator": "knurl",
+    "size": 512,
+    "seed": 401,
+    "tileable": false
+   }
+  },
+  {
+   "stage": "s2_highpoly",
+   "info": {
+    "tris": 432,
+    "amp": 0.008
+   }
+  },
+  {
+   "stage": "s4_retopo",
+   "info": {
+    "tris": 108,
+    "budget": 300
+   }
+  },
+  {
+   "stage": "s5_uv",
+   "info": {
+    "stats": {
+     "assigned": true,
+     "count": 64,
+     "outOfRange": 0,
+     "coverage": 0.027
+    },
+    "texelPxPerM": 512,
+    "tiling": false
+   }
+  },
+  {
+   "stage": "s6_bake",
+   "info": {
+    "size": 512,
+    "normalStrength": 0.8
+   }
+  },
+  {
+   "stage": "s7_rig_export",
+   "info": {
+    "tris": 108,
+    "bytes": 412412,
+    "rigged": false
+   }
+  }
+ ]
+}

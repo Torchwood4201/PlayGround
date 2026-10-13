@@ -1,0 +1,102 @@
+{
+ "id": "prop_medkit",
+ "log": [
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 36,
+    "bounds": [
+     [
+      -0.2,
+      0.0,
+      -0.2
+     ],
+     [
+      0.2,
+      0.3,
+      0.21
+     ]
+    ],
+    "groups": [
+     "case",
+     "crossA",
+     "crossB"
+    ]
+   }
+  },
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 36,
+    "bounds": [
+     [
+      -0.2,
+      0.0,
+      -0.2
+     ],
+     [
+      0.2,
+      0.3,
+      0.21
+     ]
+    ],
+    "groups": [
+     "case",
+     "crossA",
+     "crossB"
+    ]
+   }
+  },
+  {
+   "stage": "s3_automation",
+   "info": {
+    "generator": "concrete",
+    "size": 512,
+    "seed": 402,
+    "tileable": false
+   }
+  },
+  {
+   "stage": "s2_highpoly",
+   "info": {
+    "tris": 144,
+    "amp": 0.008
+   }
+  },
+  {
+   "stage": "s4_retopo",
+   "info": {
+    "tris": 144,
+    "budget": 300
+   }
+  },
+  {
+   "stage": "s5_uv",
+   "info": {
+    "stats": {
+     "assigned": true,
+     "count": 76,
+     "outOfRange": 0,
+     "coverage": 0.035
+    },
+    "texelPxPerM": 512,
+    "tiling": false
+   }
+  },
+  {
+   "stage": "s6_bake",
+   "info": {
+    "size": 512,
+    "normalStrength": 0.8
+   }
+  },
+  {
+   "stage": "s7_rig_export",
+   "info": {
+    "tris": 144,
+    "bytes": 460344,
+    "rigged": false
+   }
+  }
+ ]
+}

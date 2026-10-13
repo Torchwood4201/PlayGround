@@ -1,0 +1,10 @@
+{
+ "stats": {
+  "assigned": true,
+  "count": 793,
+  "outOfRange": 0,
+  "coverage": 0.275
+ },
+ "texelPxPerM": 1024,
+ "tiling": false
+}

@@ -1,0 +1,158 @@
+{
+ "id": "wall_brick",
+ "log": [
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 12,
+    "bounds": [
+     [
+      -0.5,
+      0.0,
+      -0.5
+     ],
+     [
+      0.5,
+      2.4,
+      0.5
+     ]
+    ],
+    "groups": [
+     "tile"
+    ]
+   }
+  },
+  {
+   "stage": "s3_automation",
+   "info": {
+    "generator": "brick",
+    "size": 512,
+    "seed": 101,
+    "tileable": true
+   }
+  },
+  {
+   "stage": "s2_highpoly",
+   "info": {
+    "tris": 192,
+    "amp": 0.02
+   }
+  },
+  {
+   "stage": "s4_retopo",
+   "info": {
+    "tris": 12,
+    "budget": 12
+   }
+  },
+  {
+   "stage": "s5_uv",
+   "info": {
+    "stats": {
+     "assigned": true,
+     "count": 8,
+     "outOfRange": 0,
+     "coverage": 0.004
+    },
+    "texelPxPerM": 1024,
+    "tiling": true
+   }
+  },
+  {
+   "stage": "s3_automation",
+   "info": {
+    "generator": "brick",
+    "size": 1024,
+    "seed": 101,
+    "tileable": true
+   }
+  },
+  {
+   "stage": "s6_bake",
+   "info": {
+    "size": 1024,
+    "normalStrength": 2.0
+   }
+  },
+  {
+   "stage": "s7_rig_export",
+   "info": {
+    "tris": 12,
+    "bytes": 1794324,
+    "rigged": false
+   }
+  },
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 12,
+    "bounds": [
+     [
+      -0.5,
+      0.0,
+      -0.5
+     ],
+     [
+      0.5,
+      2.4,
+      0.5
+     ]
+    ],
+    "groups": [
+     "tile"
+    ]
+   }
+  },
+  {
+   "stage": "s3_automation",
+   "info": {
+    "generator": "brick",
+    "size": 1024,
+    "seed": 101,
+    "tileable": true
+   }
+  },
+  {
+   "stage": "s2_highpoly",
+   "info": {
+    "tris": 192,
+    "amp": 0.02
+   }
+  },
+  {
+   "stage": "s4_retopo",
+   "info": {
+    "tris": 12,
+    "budget": 12
+   }
+  },
+  {
+   "stage": "s5_uv",
+   "info": {
+    "stats": {
+     "assigned": true,
+     "count": 8,
+     "outOfRange": 0,
+     "coverage": 0.004
+    },
+    "texelPxPerM": 1024,
+    "tiling": true
+   }
+  },
+  {
+   "stage": "s6_bake",
+   "info": {
+    "size": 1024,
+    "normalStrength": 2.0
+   }
+  },
+  {
+   "stage": "s7_rig_export",
+   "info": {
+    "tris": 12,
+    "bytes": 1794324,
+    "rigged": false
+   }
+  }
+ ]
+}

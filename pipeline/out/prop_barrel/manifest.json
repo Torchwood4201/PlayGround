@@ -1,0 +1,98 @@
+{
+ "id": "prop_barrel",
+ "log": [
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 48,
+    "bounds": [
+     [
+      -0.28,
+      0.0,
+      -0.28
+     ],
+     [
+      0.28,
+      0.7,
+      0.28
+     ]
+    ],
+    "groups": [
+     "body"
+    ]
+   }
+  },
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 48,
+    "bounds": [
+     [
+      -0.28,
+      0.0,
+      -0.28
+     ],
+     [
+      0.28,
+      0.7,
+      0.28
+     ]
+    ],
+    "groups": [
+     "body"
+    ]
+   }
+  },
+  {
+   "stage": "s3_automation",
+   "info": {
+    "generator": "metal",
+    "size": 512,
+    "seed": 403,
+    "tileable": false
+   }
+  },
+  {
+   "stage": "s2_highpoly",
+   "info": {
+    "tris": 192,
+    "amp": 0.008
+   }
+  },
+  {
+   "stage": "s4_retopo",
+   "info": {
+    "tris": 192,
+    "budget": 700
+   }
+  },
+  {
+   "stage": "s5_uv",
+   "info": {
+    "stats": {
+     "assigned": true,
+     "count": 98,
+     "outOfRange": 0,
+     "coverage": 0.045
+    },
+    "texelPxPerM": 512,
+    "tiling": false
+   }
+  },
+  {
+   "stage": "s6_bake",
+   "info": {
+    "size": 512,
+    "normalStrength": 1.0
+   }
+  },
+  {
+   "stage": "s7_rig_export",
+   "info": {
+    "tris": 192,
+    "bytes": 605384,
+    "rigged": false
+   }
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "id": "enemy_baron",
+ "log": [
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 412,
+    "bounds": [
+     [
+      -0.5818181818181819,
+      0.07272727272727281,
+      -0.2766709865585902
+     ],
+     [
+      0.5818181818181819,
+      1.5418181818181818,
+      0.2766709865585902
+     ]
+    ],
+    "groups": [
+     "torso",
+     "head",
+     "arm",
+     "leg",
+     "arm",
+     "leg",
+     "pad",
+     "pad"
+    ]
+   }
+  },
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 412,
+    "bounds": [
+     [
+      -0.5818181818181819,
+      0.07272727272727281,
+      -0.2766709865585902
+     ],
+     [
+      0.5818181818181819,
+      1.5418181818181818,
+      0.2766709865585902
+     ]
+    ],
+    "groups": [
+     "torso",
+     "head",
+     "arm",
+     "leg",
+     "arm",
+     "leg",
+     "pad",
+     "pad"
+    ]
+   }
+  },
+  {
+   "stage": "s3_automation",
+   "info": {
+    "generator": "muscle",
+    "size": 1024,
+    "seed": 303,
+    "tileable": false
+   }
+  },
+  {
+   "stage": "s2_highpoly",
+   "info": {
+    "tris": 6592,
+    "amp": 0.03
+   }
+  },
+  {
+   "stage": "s4_retopo",
+   "info": {
+    "tris": 1648,
+    "budget": 6500
+   }
+  },
+  {
+   "stage": "s5_uv",
+   "info": {
+    "stats": {
+     "assigned": true,
+     "count": 845,
+     "outOfRange": 0,
+     "coverage": 0.286
+    },
+    "texelPxPerM": 1024,
+    "tiling": false
+   }
+  },
+  {
+   "stage": "s6_bake",
+   "info": {
+    "size": 1024,
+    "normalStrength": 1.2
+   }
+  },
+  {
+   "stage": "s7_rig_export",
+   "info": {
+    "tris": 1648,
+    "bytes": 1325148,
+    "rigged": true
+   }
+  }
+ ]
+}

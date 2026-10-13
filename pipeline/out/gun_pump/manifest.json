@@ -1,0 +1,108 @@
+{
+ "id": "gun_pump",
+ "log": [
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 112,
+    "bounds": [
+     [
+      -0.17,
+      -0.13,
+      -0.42
+     ],
+     [
+      0.17,
+      0.2,
+      0.28200000000000003
+     ]
+    ],
+    "groups": [
+     "receiver",
+     "barrel",
+     "grip",
+     "mag",
+     "stock",
+     "pump"
+    ]
+   }
+  },
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 112,
+    "bounds": [
+     [
+      -0.17,
+      -0.13,
+      -0.42
+     ],
+     [
+      0.17,
+      0.2,
+      0.28200000000000003
+     ]
+    ],
+    "groups": [
+     "receiver",
+     "barrel",
+     "grip",
+     "mag",
+     "stock",
+     "pump"
+    ]
+   }
+  },
+  {
+   "stage": "s3_automation",
+   "info": {
+    "generator": "knurl",
+    "size": 1024,
+    "seed": 202,
+    "tileable": false
+   }
+  },
+  {
+   "stage": "s2_highpoly",
+   "info": {
+    "tris": 448,
+    "amp": 0.004
+   }
+  },
+  {
+   "stage": "s4_retopo",
+   "info": {
+    "tris": 1792,
+    "budget": 2500
+   }
+  },
+  {
+   "stage": "s5_uv",
+   "info": {
+    "stats": {
+     "assigned": true,
+     "count": 908,
+     "outOfRange": 0,
+     "coverage": 0.114
+    },
+    "texelPxPerM": 1024,
+    "tiling": false
+   }
+  },
+  {
+   "stage": "s6_bake",
+   "info": {
+    "size": 1024,
+    "normalStrength": 1.0
+   }
+  },
+  {
+   "stage": "s7_rig_export",
+   "info": {
+    "tris": 1792,
+    "bytes": 1585704,
+    "rigged": false
+   }
+  }
+ ]
+}

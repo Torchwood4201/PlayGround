@@ -1,0 +1,106 @@
+{
+ "id": "gun_smg",
+ "log": [
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 80,
+    "bounds": [
+     [
+      -0.17,
+      -0.13,
+      -0.125
+     ],
+     [
+      0.17,
+      0.2,
+      0.28200000000000003
+     ]
+    ],
+    "groups": [
+     "receiver",
+     "barrel",
+     "grip",
+     "mag",
+     "sight"
+    ]
+   }
+  },
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 80,
+    "bounds": [
+     [
+      -0.17,
+      -0.13,
+      -0.125
+     ],
+     [
+      0.17,
+      0.2,
+      0.28200000000000003
+     ]
+    ],
+    "groups": [
+     "receiver",
+     "barrel",
+     "grip",
+     "mag",
+     "sight"
+    ]
+   }
+  },
+  {
+   "stage": "s3_automation",
+   "info": {
+    "generator": "knurl",
+    "size": 1024,
+    "seed": 204,
+    "tileable": false
+   }
+  },
+  {
+   "stage": "s2_highpoly",
+   "info": {
+    "tris": 320,
+    "amp": 0.004
+   }
+  },
+  {
+   "stage": "s4_retopo",
+   "info": {
+    "tris": 1280,
+    "budget": 2000
+   }
+  },
+  {
+   "stage": "s5_uv",
+   "info": {
+    "stats": {
+     "assigned": true,
+     "count": 650,
+     "outOfRange": 0,
+     "coverage": 0.067
+    },
+    "texelPxPerM": 1024,
+    "tiling": false
+   }
+  },
+  {
+   "stage": "s6_bake",
+   "info": {
+    "size": 1024,
+    "normalStrength": 1.0
+   }
+  },
+  {
+   "stage": "s7_rig_export",
+   "info": {
+    "tris": 1280,
+    "bytes": 1561572,
+    "rigged": false
+   }
+  }
+ ]
+}

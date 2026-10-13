@@ -1,0 +1,168 @@
+{
+ "id": "enemy_imp",
+ "log": [
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 388,
+    "bounds": [
+     [
+      -0.34,
+      0.05000000000000003,
+      -0.19021130325903074
+     ],
+     [
+      0.34,
+      1.06,
+      0.19021130325903074
+     ]
+    ],
+    "groups": [
+     "torso",
+     "head",
+     "arm",
+     "leg",
+     "arm",
+     "leg"
+    ]
+   }
+  },
+  {
+   "stage": "s3_automation",
+   "info": {
+    "generator": "muscle",
+    "size": 256,
+    "seed": 301,
+    "tileable": false
+   }
+  },
+  {
+   "stage": "s2_highpoly",
+   "info": {
+    "tris": 6208,
+    "amp": 0.03
+   }
+  },
+  {
+   "stage": "s4_retopo",
+   "info": {
+    "tris": 1547,
+    "budget": 3500
+   }
+  },
+  {
+   "stage": "s5_uv",
+   "info": {
+    "stats": {
+     "assigned": true,
+     "count": 793,
+     "outOfRange": 0,
+     "coverage": 0.274
+    },
+    "texelPxPerM": 1024,
+    "tiling": false
+   }
+  },
+  {
+   "stage": "s3_automation",
+   "info": {
+    "generator": "muscle",
+    "size": 1024,
+    "seed": 301,
+    "tileable": false
+   }
+  },
+  {
+   "stage": "s6_bake",
+   "info": {
+    "size": 1024,
+    "normalStrength": 1.0
+   }
+  },
+  {
+   "stage": "s7_rig_export",
+   "info": {
+    "tris": 1547,
+    "bytes": 1324952,
+    "rigged": true
+   }
+  },
+  {
+   "stage": "s1_blockout",
+   "info": {
+    "tris": 388,
+    "bounds": [
+     [
+      -0.34,
+      0.05000000000000003,
+      -0.19021130325903074
+     ],
+     [
+      0.34,
+      1.06,
+      0.19021130325903074
+     ]
+    ],
+    "groups": [
+     "torso",
+     "head",
+     "arm",
+     "leg",
+     "arm",
+     "leg"
+    ]
+   }
+  },
+  {
+   "stage": "s3_automation",
+   "info": {
+    "generator": "muscle",
+    "size": 1024,
+    "seed": 301,
+    "tileable": false
+   }
+  },
+  {
+   "stage": "s2_highpoly",
+   "info": {
+    "tris": 6208,
+    "amp": 0.03
+   }
+  },
+  {
+   "stage": "s4_retopo",
+   "info": {
+    "tris": 1547,
+    "budget": 3500
+   }
+  },
+  {
+   "stage": "s5_uv",
+   "info": {
+    "stats": {
+     "assigned": true,
+     "count": 793,
+     "outOfRange": 0,
+     "coverage": 0.274
+    },
+    "texelPxPerM": 1024,
+    "tiling": false
+   }
+  },
+  {
+   "stage": "s6_bake",
+   "info": {
+    "size": 1024,
+    "normalStrength": 1.0
+   }
+  },
+  {
+   "stage": "s7_rig_export",
+   "info": {
+    "tris": 1547,
+    "bytes": 1324952,
+    "rigged": true
+   }
+  }
+ ]
+}
