@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Playback — A Century of Sound</title>
+<meta name="description" content="Playback: a vintage-hifi music streaming app. Search millions of songs, build your queue, and listen instantly.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎺</text></svg>">
+</head>
+<body data-era="home">
+<div id="boot" aria-hidden="true"><div style="text-align:center"><div class="ring"></div><h1 class="brand">Playback</h1><div class="mono">A CENTURY OF SOUND</div></div></div>
+<div id="toast" class="mono" role="status"></div>
+
+<div class="app" id="app">
+  <header class="top">
+    <button class="logo" data-a="go" data-v="home" aria-label="Home"><span class="logo-disc"></span><span class="brand">Playback</span></button>
+    <div class="searchwrap">
+      <span class="search-ico" aria-hidden="true">🔎</span>
+      <input id="q" placeholder="Search songs, artists, albums…" aria-label="Search" autocomplete="off" spellcheck="false">
+      <kbd>⏎</kbd>
+    </div>
+    <span class="live mono"><i id="liveDot"></i><span id="status">ON AIR</span></span>
+    <button class="iconbtn" data-a="go" data-v="7" aria-label="Settings">⚙</button>
+  </header>
+
+  <nav id="nav" aria-label="Eras"></nav>
+  <main id="main" tabindex="-1"><p class="mono">TUNING…</p></main>
+
+  <aside id="np" aria-label="Now playing">
+    <button class="back mono" data-a="full">◄ BACK</button>
+    <div class="mono np-kicker">NOW PLAYING · 30s PREVIEW</div>
+    <div class="ringwrap">
+      <svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="none" stroke="#2e2318" stroke-width="2"/><circle id="ring" cx="50" cy="50" r="47" fill="none" stroke="#d4a24c" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="295.3" stroke-dashoffset="295.3"/></svg>
+      <div class="disc" id="disc"></div>
+      <div class="arm"></div>
+    </div>
+    <div class="np-meta">
+      <div class="brand" id="npT">Nothing playing</div>
+      <div class="mono" id="npA">Pick a track to start the show</div>
+      <div class="mono" id="npG"></div>
+    </div>
+    <div class="ctl">
+      <button data-a="shuffle" id="shBtn" aria-label="Shuffle">🔀</button>
+      <button data-a="prev" aria-label="Previous">⏮</button>
+      <button class="pp" id="pp2" data-a="toggle" aria-label="Play or pause">▶</button>
+      <button data-a="next" aria-label="Next">⏭</button>
+      <button data-a="repeat" id="rpBtn" aria-label="Repeat">🔁</button>
+    </div>
+    <div class="np-actions">
+      <button class="chip" data-a="like" id="likeBtn" aria-label="Like">♡ Like</button>
+      <button class="chip" data-a="addq" aria-label="Play next">⤵ Play next</button>
+      <button class="chip" data-a="share" aria-label="Share">⧉ Copy link</button>
+    </div>
+    <div class="bars" id="bars" aria-hidden="true"></div>
+    <div class="mono tabsb">
+      <button data-a="tab" data-v="q" id="tq" class="on">QUEUE</button>
+      <button data-a="tab" data-v="l" id="tl">ABOUT</button>
+    </div>
+    <div class="q" id="queue"></div>
+    <pre class="lyr" id="lyr">Play a song and its story shows up here — album, genre, length and a direct preview link.</pre>
+  </aside>
+
+  <footer class="mini" id="mini">
+    <div class="sw" id="mSw"></div>
+    <div class="info" data-a="full" role="button" tabindex="0" aria-label="Open now playing">
+      <b id="mT">Nothing playing</b>
+      <div class="mono" id="mA">Search and hit play</div>
+    </div>
+    <div class="reels" aria-hidden="true"><div class="reel"></div><div class="reel"></div></div>
+    <div class="ctl mini-ctl">
+      <button data-a="prev" aria-label="Previous">⏮</button>
+      <button class="pp" id="pp" data-a="toggle" aria-label="Play or pause">▶</button>
+      <button data-a="next" aria-label="Next">⏭</button>
+    </div>
+    <div class="bar">
+      <span class="mono" id="cur">0:00</span>
+      <input type="range" id="seek" min="0" max="1000" value="0" aria-label="Seek">
+      <span class="mono" id="dur">0:30</span>
+    </div>
+    <div class="vol">
+      <span aria-hidden="true">🔊</span>
+      <input type="range" id="vol" min="0" max="100" value="90" aria-label="Volume">
+    </div>
+  </footer>
+
+  <div class="tabs" id="tabs"></div>
+</div>
+
+<audio id="audio" preload="auto"></audio>
+<script src="app.js"></script>
+</body>
+</html>
