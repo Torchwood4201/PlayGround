@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>PlayGround DOOM-like — raycaster + sprites</title>
+<link rel="icon" href="data:," />
+<link rel="stylesheet" href="style.css" />
+<script type="importmap">
+{ "imports": {
+  "three": "./vendor/three.module.js",
+  "three/addons/": "./vendor/addons/"
+} }
+</script>
+</head>
+<body>
+<header>
+  <div class="kicker">ID SOFTWARE • FPS PROTOTYPE • DESKTOP</div>
+  <h1>PLAYGROUND</h1>
+  <p>Real-time WebGL FPS: 12 hand-built levels, 5 GLB gun models, sprite horde with
+     imp/demon AI, barrels, pickups and sampled gunshots. Move with <b>WASD / arrows</b>,
+     turn with the mouse, shoot with click, switch guns with <b>1–5</b>. Fully offline — engine vendored, no CDN.</p>
+  <div class="badges">
+    <span class="badge">three.js WebGL • 5 GLB guns • 12 levels</span>
+    <span class="badge">fps-asset-kit slice • CC0</span>
+    <span class="badge">linuxdoom • DOOM 3 • idtech sources</span>
+  </div>
+</header>
+<main>
+  <div class="stage" id="stage">
+    <canvas id="game" width="480" height="270"></canvas>
+    <div id="hud-top">
+      <span id="hud-msg">WASD MOVE · MOUSE TURN · CLICK SHOOT</span>
+      <span><span id="hud-lvl">L1 · BOOT CAMP</span> · <span id="hud-kills">KILLS 0</span> · POS <span id="hud-pos">1.5,1.5</span> · FPS <span id="hud-fps">60</span></span>
+    </div>
+    <div id="cross"></div>
+    <div id="diediv">YOU DIED — CLICK TO RESPAWN</div>
+    <div id="overlay">
+      <h1>PLAYGROUND</h1>
+      <p>Real-time 3D · GLB guns · sprite horde · 12 levels</p>
+      <button id="play">CLICK TO PLAY</button>
+      <p class="sub">auto-demo runs behind this panel for screenshots</p>
+    </div>
+    <div class="controls">
+      <button id="pauseBtn" type="button">PAUSE</button>
+      <button id="demoBtn" class="secondary" type="button">DEMO: ON</button>
+    </div>
+  </div>
+  <div id="hud-bottom">
+    <div class="cell"><label>AMMO</label><b id="ammo">50</b></div>
+    <div class="cell face"><b id="face">:-)</b></div>
+    <div class="cell"><label>HEALTH</label><b id="health">100%</b></div>
+    <div class="cell"><label>ENEMIES</label><b id="foes">0</b></div>
+  </div>
+  <div class="grid">
+    <div class="card">
+      <h2>id-Software / DOOM <span>C · 1993</span></h2>
+      <p>Linux port linuxdoom-1.10. ~132 C files, X11 + software raycaster, BSP walls → floors → sprites. Needs commercial WAD data. GPL re-release with IPX + serial netcode.</p>
+      <a href="https://github.com/id-Software/DOOM.git">github.com/id-Software/DOOM.git</a>
+      <div class="stats"><span>2.4 MB</span><span>Makefile / gcc</span><span>2.5D</span></div>
+    </div>
+    <div class="card">
+      <h2>id-Software / DOOM-3 <span>C++ · 2004</span></h2>
+      <p>Fully 3D idTech 4 engine. ~1197 C++ files, OpenGL + stencil shadows, SCons + VS2010 + Xcode. Needs retail pak data. The only true-3D desktop match.</p>
+      <a href="https://github.com/id-Software/DOOM-3.git">github.com/id-Software/DOOM-3.git</a>
+      <div class="stats"><span>48 MB</span><span>SCons / VS / Xcode</span><span>true 3D</span></div>
+    </div>
+    <div class="card">
+      <h2>id / doom, idtech.space <span>C · 1997</span></h2>
+      <p>Pristine 1997 release, single commit “as released 1997-12-23”. linuxdoom-1.10 + sndserv, DOOMLIC.TXT, no GPL headers, no ipx/sersrc extras. Best for archaeology.</p>
+      <a href="https://code.idtech.space/id/doom.git">code.idtech.space/id/doom.git</a>
+      <div class="stats"><span>2.3 MB</span><span>Makefile / gcc</span><span>2.5D</span></div>
+    </div>
+    <div class="card">
+      <h2>fps-asset-kit slice <span>CC0 · in-game</span></h2>
+      <p>Six tileable ambientCG wall photos, two GLB weapon renders (pump + rifle), two resampled gunshots and stone footsteps — vendored into <code>assets/</code> (~1 MB). Full kit: 24 PBR sets, 20 GLB/FBX weapons, firearm SFX.</p>
+      <a href="https://github.com/petroulacl/fps-asset-kit.git">github.com/petroulacl/fps-asset-kit.git</a>
+      <div class="stats"><span>CC0 commercial-safe</span><span>no attribution</span><span>see ASSETS.md</span></div>
+    </div>
+  </div>
+</main>
+<footer>Fan demo for education. DOOM © id Software — WAD/pak data not included. Kit art CC0 via ambientCG / OpenGameArt.</footer>
+<script type="module" src="game.js"></script>
+</body>
+</html>
