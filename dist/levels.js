@@ -1,8 +1,8 @@
-// 12 levels. Legend:
+const LEVELS = [
+
 // walls: # brick  M metal  C concrete  W wood  R rock  L plaster
 // floor: .   @ spawn   E exit   B barrel   i imp   d demon
 // pickups: s shells  m medkit   2 pump  3 rifle  4 smg  5 sniper
-export const LEVELS = [
 { name: 'L1 · BOOT CAMP', map: [
 '################',
 '#@....#....s..E#',
@@ -250,3 +250,4 @@ export const LEVELS = [
 '########################'
 ] },
 ];
+if (typeof module !== "undefined") { module.exports = { LEVELS }; }
