@@ -1,6 +1,6 @@
 import { LEVELS } from './levels.js';
 const WALLS = new Set(['#', 'M', 'C', 'W', 'R', 'L']);
-const ALL = new Set([...WALLS, '.', '@', 'E', 'B', 'i', 'd', 's', 'm', '2', '3', '4', '5']);
+const ALL = new Set([...WALLS, '.', '@', 'E', 'B', 'i', 'd', 's', 'm', '2', '3', '4', '5', 'S']);
 let fails = 0;
 LEVELS.forEach((lv, li) => {
   const errs = [];
