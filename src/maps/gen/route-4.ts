@@ -1,7 +1,7 @@
 import route4Image from "../../assets/map/gen/route-4.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { lass } from "../../app/npcs";
+import { aceTrainerFemale, lass } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/route-3.mp3";
 
@@ -42,6 +42,9 @@ const route4: MapType = {
       35: ["MT.MOON", "Tunnel Entrance"],
       54: ["ROUTE 4", "MT.MOON - CERULEAN CITY"],
       55: ["ROUTE 4", "MT.MOON - CERULEAN CITY"],
+    },
+    16: {
+      18: ["Ouch! I tripped", "over a rocky POKEMON, GEODUDE!"],
     },
   },
   maps: {
@@ -138,6 +141,9 @@ const route4: MapType = {
   ],
   items: [
     { item: ItemType.Tm04, pos: { x: 114, y: 7 } },
+  ],
+  npcs: [
+    { npc: aceTrainerFemale, pos: { x: 18, y: 16 }, facing: Direction.Down },
   ],
 };
 

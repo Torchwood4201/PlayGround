@@ -1,5 +1,7 @@
 import viridianforestsouthgateImage from "../../assets/map/gen/viridian-forest-south-gate.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { lass } from "../../app/npcs";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
 // Generated from pret/pokered VIRIDIAN_FOREST_SOUTH_GATE - do not hand-edit.
@@ -10,7 +12,12 @@ const viridianForestSouthGate: MapType = {
   width: 10,
   start: { x: 8, y: 15 },
   walls: {},
-  text: {},
+  text: {
+    8: {
+      4: ["RATTATA may be", "small, but its bite is wicked! Did you", "get one?"],
+      16: ["Are you going to", "VIRIDIAN FOREST? Be careful, it's a", "natural maze!"],
+    },
+  },
   maps: {
     0: {
       8: { map: MapId.ViridianForrest, pos: { x: 32, y: 95 } },
@@ -33,6 +40,10 @@ const viridianForestSouthGate: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: lass, pos: { x: 16, y: 8 }, facing: Direction.Left },
+    { npc: lass, pos: { x: 4, y: 8 }, facing: Direction.Down },
+  ],
 };
 
 export default viridianForestSouthGate;

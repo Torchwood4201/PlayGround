@@ -1,4 +1,4 @@
-import { bugCatcher } from "../app/npcs";
+import { bugCatcher, youngster } from "../app/npcs";
 import { ItemType } from "../app/use-item-data";
 import image from "../assets/map/viridian-forrest.png";
 import { Direction } from "../state/state-types";
@@ -169,6 +169,12 @@ const viridianForrest: MapType = {
     1: {
       2: ["LEAVING VIRIDIAN FOREST", "PEWTER CITY AHEAD"],
     },
+    44: {
+      16: [
+        "I came here with some friends!",
+        "They're out for POKEMON fights!",
+      ],
+    },
   },
   maps: {
     0: {
@@ -185,6 +191,9 @@ const viridianForrest: MapType = {
     y: 1,
   },
   exitReturnMap: MapId.Route2Gate,
+  npcs: [
+    { npc: youngster, pos: { x: 16, y: 44 }, facing: Direction.Down },
+  ],
   trainers: [
     {
       npc: bugCatcher,

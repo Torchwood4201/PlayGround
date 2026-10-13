@@ -738,6 +738,39 @@ LEADER_BADGE = {'MISTY': 'Cascade', 'LT_SURGE': 'Thunder', 'ERIKA': 'Rainbow',
                 'KOGA': 'Soul', 'SABRINA': 'Marsh', 'BLAINE': 'Volcano',
                 'GIOVANNI': 'Earth', 'BROCK': 'Boulder'}
 
+# flavor (non-battle) overworld sprites -> remake npc key
+FLAVOR_NPC = {
+    'YOUNGSTER': 'youngster', 'BUG_CATCHER': 'bugCatcher', 'LASS': 'lass',
+    'SAILOR': 'sailor', 'JR_TRAINER_M': 'jrTrainerMale', 'JR_TRAINER_F': 'jrTrainerFemale',
+    'POKEMANIAC': 'pokeManiac', 'SUPER_NERD': 'superNerd', 'HIKER': 'hiker',
+    'BIKER': 'biker', 'BURGLAR': 'burglar', 'ENGINEER': 'engineer',
+    'JUGGLER': 'juggler', 'FISHER': 'fisher', 'SWIMMER': 'swimmer',
+    'CUE_BALL': 'cueBall', 'GAMBLER': 'gambler', 'BEAUTY': 'beauty',
+    'PSYCHIC_TR': 'psychic', 'ROCKER': 'rocker', 'JR_TRAINER': 'jrTrainerMale',
+    'BIRD_KEEPER': 'birdKeeper', 'BLACKBELT': 'blackBelt', 'GENTLEMAN': 'gentleman',
+    'CHANNELER': 'channeler', 'TAMER': 'tamer', 'COOLTRAINER_M': 'aceTrainerMale',
+    'COOLTRAINER_F': 'aceTrainerFemale', 'ROCKET': 'teamRocketGrunt', 'SCIENTIST': 'scientist',
+    'GIOVANNI': 'giovanni', 'BROCK': 'brock', 'MISTY': 'misty',
+    'LT_SURGE': 'ltSurge', 'ERIKA': 'erica', 'KOGA': 'koga', 'SABRINA': 'sabrina',
+    'BLAINE': 'blaine', 'LORELEI': 'lorelei', 'BRUNO': 'bruno',
+    'AGATHA': 'agatha', 'LANCE': 'lance', 'OAK': 'oak', 'BLUE': 'rival',
+    'RED': 'ash', 'GIRL': 'lass', 'LITTLE_GIRL': 'lass', 'BRUNETTE_GIRL': 'beauty',
+    'MIDDLE_AGED_MAN': 'gentleman', 'MIDDLE_AGED_WOMAN': 'beauty',
+    'GRAMPS': 'gentleman', 'GRANNY': 'beauty', 'LITTLE_BOY': 'youngster',
+    'BALDING_GUY': 'gentleman', 'COOK': 'gentleman', 'WAITER': 'sailor',
+    'FISHING_GURU': 'fisher', 'GUARD': 'gentleman', 'GYM_GUIDE': 'gentleman',
+    'CLERK': 'gentleman', 'NURSE': 'lass', 'LINK_RECEPTIONIST': 'lass',
+    'SILPH_WORKER_M': 'scientist', 'SILPH_WORKER_F': 'lass',
+    'SAFARI_ZONE_WORKER': 'hiker', 'GAMEBOY_KID': 'youngster',
+    'FAIRY': 'lass', 'MR_FUJI': 'oak', 'DAISY': 'lass', 'MOM': 'beauty',
+    'WARDEN': 'hiker', 'CAPTAIN': 'sailor', 'BIKE_SHOP_CLERK': 'gentleman',
+    'SILPH_PRESIDENT': 'gentleman', 'MONSTER': 'youngster', 'BIRD': 'birdKeeper',
+    'SEEL': 'youngster', 'GAMBLER_ASLEEP': 'gambler',
+}
+
+# inanimate sprites: no NPC, dialogue stays as sign text only
+INANIMATE_SPRITES = {'BOULDER', 'FOSSIL', 'POKEDEX', 'PAPER', 'CLIPBOARD', 'OLD_AMBER'}
+
 # gym leader badge + TM rewards (postGame items)
 LEADER_REWARDS = {
     'MISTY': (['CascadeBadge', 'Tm11'], 'The CASCADEBADGE makes all POKEMON up to L30 obey!'),
@@ -1134,13 +1167,17 @@ class Emitter:
             for tx in (2 * x, 2 * x + 1):
                 text_tbl.setdefault(2 * y + 1, {})[tx] = lines
 
-        # ---- trainers / items
-        trainers, items = [], []
+        # ---- trainers / items / flavor npcs / stationary
+        trainers, items, npcs, stationary = [], [], [], []
         for o in obj['obj']:
             if o['sprite'] == 'POKE_BALL':
                 item = o['item']
                 if item and item in self.species_consts:
                     # disguised Voltorb/Electrode or stationary legendary
+                    rid = self.species_id(item)
+                    if rid is not None:
+                        stationary.append({'id': rid, 'level': o.get('mon_level') or 40,
+                                           'x': 2 * o['x'], 'y': 2 * o['y']})
                     self.report.setdefault('stationary', []).append(
                         f"{mapfile} {item} lv{o['mon_level']} at {o['x']},{o['y']}")
                     continue
@@ -1152,6 +1189,10 @@ class Emitter:
                 continue
             if not o['opp']:
                 if o['item'] and o['item'] in self.species_consts:
+                    rid = self.species_id(o['item'])
+                    if rid is not None:
+                        stationary.append({'id': rid, 'level': o.get('mon_level') or 30,
+                                           'x': 2 * o['x'], 'y': 2 * o['y']})
                     self.report.setdefault('stationary', []).append(
                         f"{mapfile} {o['item']} lv{o['mon_level']} at {o['x']},{o['y']}")
                     continue
@@ -1174,8 +1215,23 @@ class Emitter:
                     continue
                 if o['sprite'] == 'BLUE':
                     self.report['rival_fights'].append(f"{mapfile} rival NPC {o['x']},{o['y']}")
+                elif o['sprite'] == 'SNORLAX':
+                    stationary.append({'id': 143, 'level': 30,
+                                       'x': 2 * o['x'], 'y': 2 * o['y']})
+                    lines = self.label_text(mapfile, o['text'], subs)
+                    text_tbl.setdefault(2 * o['y'], {})[2 * o['x']] = lines
+                elif o['sprite'] in INANIMATE_SPRITES:
+                    lines = self.label_text(mapfile, o['text'], subs)
+                    text_tbl.setdefault(2 * o['y'], {})[2 * o['x']] = lines
                 else:
-                    self.report['skipped_npc'].append(f"{mapfile} {o['sprite']} {o['x']},{o['y']}")
+                    key = FLAVOR_NPC.get(o['sprite'])
+                    if key is None:
+                        self.report['skipped_npc'].append(f"{mapfile} {o['sprite']} {o['x']},{o['y']}")
+                        continue
+                    lines = self.label_text(mapfile, o['text'], subs)
+                    npcs.append({'npc': key, 'x': 2 * o['x'], 'y': 2 * o['y'],
+                                 'facing': FACING.get(o['face'], 'Down')})
+                    text_tbl.setdefault(2 * o['y'], {})[2 * o['x']] = lines
                 continue
             if o['opp'] in ('RIVAL1', 'RIVAL2', 'RIVAL3'):
                 if mapfile in RIVAL_SPOTS:
@@ -1307,6 +1363,7 @@ class Emitter:
                 'walls': walls, 'grass': grass, 'water': water_t, 'cut': cut,
                 'maps': maps_tbl, 'warps_raw': obj['warps'], 'reverse_links': reverse_links,
                 'text': text_tbl, 'trainers': trainers, 'items': items,
+                'npcs': npcs, 'stationary': stationary,
                 'encounters': encounters, 'music': music, 'cave': cave,
                 'name': pretty_name(const), 'subs': subs,
                 'mart': mart, 'center': center}
@@ -1597,6 +1654,20 @@ class Emitter:
             '    { item: ItemType.%s, pos: { x: %d, y: %d } },' % (i['item'], i['x'], i['y'])
             for i in items) + '\n  ]'
 
+    def npcs_str(self, npcs):
+        if not npcs:
+            return '[]'
+        return '[\n' + '\n'.join(
+            '    { npc: %s, pos: { x: %d, y: %d }, facing: Direction.%s },' % (
+                n['npc'], n['x'], n['y'], n['facing']) for n in npcs) + '\n  ]'
+
+    def stationary_str(self, spots):
+        if not spots:
+            return '[]'
+        return '[\n' + '\n'.join(
+            '    { id: %d, level: %d, pos: { x: %d, y: %d } },' % (
+                s['id'], s['level'], s['x'], s['y']) for s in spots) + '\n  ]'
+
     def encounters_str(self, enc):
         def one(e):
             mons = ', '.join(
@@ -1610,7 +1681,7 @@ class Emitter:
         member = const_to_member(a['const'])
         W, H = a['w'] * 2, a['h'] * 2
         start = self.compute_start(a)
-        needs_dir = bool(a['trainers'])
+        needs_dir = bool(a['trainers']) or bool(a.get('npcs'))
         needs_item = (bool(a['items']) or bool((a.get('mart') or {}).get('items'))
                       or any('postGame' in t and 'items' in t['postGame'] for t in a['trainers']))
         lines = []
@@ -1618,7 +1689,7 @@ class Emitter:
         lines.append('import { MapId, MapType } from "../map-types";')
         if needs_dir:
             lines.append('import { Direction } from "../../state/state-types";')
-        npcs = sorted({t['npc'] for t in a['trainers']})
+        npcs = sorted({t['npc'] for t in a['trainers']} | {n['npc'] for n in a.get('npcs', [])})
         if npcs:
             lines.append('import { %s } from "../../app/npcs";' % ', '.join(npcs))
         if needs_item:
@@ -1656,6 +1727,10 @@ class Emitter:
             lines.append(f'  trainers: {self.trainers_str(a["trainers"])},')
         if a['items']:
             lines.append(f'  items: {self.items_str(a["items"])},')
+        if a.get('npcs'):
+            lines.append(f'  npcs: {self.npcs_str(a["npcs"])},')
+        if a.get('stationary'):
+            lines.append(f'  stationary: {self.stationary_str(a["stationary"])},')
         mart = a.get('mart')
         if mart and mart.get('store') and mart.get('items'):
             sx, sy = mart['store']
@@ -1684,6 +1759,7 @@ class Emitter:
             if render:
                 img, stats = self.r.render_color(const, out_path=f'{GEN_IMG}/{slug}.png')
                 print(f'  {slug}: {len(a["trainers"])} trainers, {len(a["items"])} items, '
+                      f'{len(a.get("npcs", []))} npcs, {len(a.get("stationary", []))} stationary, '
                       f'{sum(len(v) for v in a["text"].values())} signs, img {img.size} {stats}')
             reg.append((member, slug))
         return reg

@@ -1,5 +1,7 @@
 import celadonmart4fImage from "../../assets/map/gen/celadon-mart-4f.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { gentleman, superNerd, youngster } from "../../app/npcs";
 import music from "../../assets/music/maps/pokemon-center.mp3";
 
 // Generated from pret/pokered CELADON_MART_4F - do not hand-edit.
@@ -17,6 +19,15 @@ const celadonMart4f: MapType = {
     3: {
       28: ["Express yourself", "with gifts!", "4F: WISEMAN GIFTS", "Evolution Special!", "Element STONEs on sale now!"],
       29: ["Express yourself", "with gifts!", "4F: WISEMAN GIFTS", "Evolution Special!", "Element STONEs on sale now!"],
+    },
+    4: {
+      10: ["I heard something", "useful.", "You can run from", "wild POKEMON by distracting them with a #", "DOLL!"],
+    },
+    10: {
+      30: ["I'm getting a", "# DOLL for my girl friend!"],
+    },
+    14: {
+      10: ["..."],
     },
   },
   maps: {
@@ -37,6 +48,11 @@ const celadonMart4f: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: gentleman, pos: { x: 10, y: 14 }, facing: Direction.Down },
+    { npc: superNerd, pos: { x: 30, y: 10 }, facing: Direction.Down },
+    { npc: youngster, pos: { x: 10, y: 4 }, facing: Direction.Down },
+  ],
 };
 
 export default celadonMart4f;

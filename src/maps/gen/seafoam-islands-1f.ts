@@ -19,7 +19,14 @@ const seafoamIslands1f: MapType = {
     8: [2, 3, 10, 11],
     9: [2, 3, 10, 11],
   },
-  text: {},
+  text: {
+    14: {
+      52: ["This requires", "STRENGTH to move!"],
+    },
+    20: {
+      36: ["This requires", "STRENGTH to move!"],
+    },
+  },
   maps: {
     6: {
       50: { map: MapId.SeafoamIslandsB1f, pos: { x: 50, y: 7 } },

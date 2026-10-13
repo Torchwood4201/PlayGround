@@ -1,7 +1,7 @@
 import route3Image from "../../assets/map/gen/route-3.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { bugCatcher, lass, youngster } from "../../app/npcs";
+import { bugCatcher, lass, superNerd, youngster } from "../../app/npcs";
 import music from "../../assets/music/maps/route-3.mp3";
 
 // Generated from pret/pokered ROUTE_3 - do not hand-edit.
@@ -35,6 +35,9 @@ const route3: MapType = {
     19: {
       118: ["ROUTE 3", "MT.MOON AHEAD"],
       119: ["ROUTE 3", "MT.MOON AHEAD"],
+    },
+    22: {
+      114: ["Whew... I better", "take a rest... Groan...", "That tunnel from", "CERULEAN takes a lot out of you!"],
     },
   },
   maps: {
@@ -168,6 +171,9 @@ const route3: MapType = {
       pos: { x: 66, y: 20 },
       postGame: { message: ["ROUTE 4 is at the", "foot of MT.MOON."] },
     },
+  ],
+  npcs: [
+    { npc: superNerd, pos: { x: 114, y: 22 }, facing: Direction.Down },
   ],
 };
 

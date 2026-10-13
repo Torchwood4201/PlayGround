@@ -1,5 +1,7 @@
 import saffroncityImage from "../../assets/map/gen/saffron-city.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { birdKeeper, gentleman, lass, rocker, scientist, teamRocketGrunt } from "../../app/npcs";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
 // Generated from pret/pokered SAFFRON_CITY - do not hand-edit.
@@ -42,6 +44,9 @@ const saffronCity: MapType = {
     35: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
   },
   text: {
+    8: {
+      68: ["Get out of the", "way!"],
+    },
     11: {
       34: ["SAFFRON CITY", "Shining, Golden Land of Commerce"],
       35: ["SAFFRON CITY", "Shining, Golden Land of Commerce"],
@@ -50,9 +55,27 @@ const saffronCity: MapType = {
       70: ["SAFFRON CITY", "POKEMON GYM LEADER: SABRINA", "The Master of", "Psychic POKEMON!"],
       71: ["SAFFRON CITY", "POKEMON GYM LEADER: SABRINA", "The Master of", "Psychic POKEMON!"],
     },
+    12: {
+      14: ["What do you want?", "Get lost!"],
+    },
+    16: {
+      36: ["I saw ROCKET", "BOSS escaping SILPH's building."],
+      40: ["BOSS said he'll", "take this town!"],
+    },
     23: {
       52: ["All your item", "needs fulfilled! POKEMON MART"],
       53: ["All your item", "needs fulfilled! POKEMON MART"],
+    },
+    24: {
+      26: ["SAFFRON belongs", "to TEAM ROCKET!"],
+      60: ["I flew here on my", "PIDGEOT when I read about SILPH.", "It's already over?", "I missed the media action."],
+      62: ["PIDGEOT: Bi bibii!"],
+    },
+    26: {
+      64: ["Ow! Watch where", "you're walking!"],
+    },
+    28: {
+      16: ["You beat TEAM", "ROCKET all alone? That's amazing!"],
     },
     39: {
       2: ["SILPH's latest", "product!", "Release to be", "determined..."],
@@ -66,11 +89,25 @@ const saffronCity: MapType = {
       30: ["SILPH CO.", "OFFICE BUILDING"],
       31: ["SILPH CO.", "OFFICE BUILDING"],
     },
+    44: {
+      36: ["I'm a security", "guard.", "Suspicious kids I", "don't allow in!"],
+      38: ["...", "Snore...", "Hah! He's taking", "a snooze!"],
+    },
+    46: {
+      46: ["Yeah! TEAM ROCKET", "is gone! It's safe to go out again!"],
+    },
+    50: {
+      22: ["Being evil makes", "me feel so alive!"],
+    },
     59: {
       20: ["Heal Your POKEMON!", "POKEMON CENTER"],
       21: ["Heal Your POKEMON!", "POKEMON CENTER"],
       54: ["MR.PSYCHIC's", "HOUSE"],
       55: ["MR.PSYCHIC's", "HOUSE"],
+    },
+    60: {
+      34: ["People should be", "flocking back to SAFFRON now."],
+      36: ["With SILPH under", "control, we can exploit POKEMON around", "the world!"],
     },
   },
   maps: {
@@ -215,6 +252,23 @@ const saffronCity: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: teamRocketGrunt, pos: { x: 14, y: 12 }, facing: Direction.Down },
+    { npc: teamRocketGrunt, pos: { x: 40, y: 16 }, facing: Direction.Down },
+    { npc: teamRocketGrunt, pos: { x: 68, y: 8 }, facing: Direction.Down },
+    { npc: teamRocketGrunt, pos: { x: 26, y: 24 }, facing: Direction.Down },
+    { npc: teamRocketGrunt, pos: { x: 22, y: 50 }, facing: Direction.Down },
+    { npc: teamRocketGrunt, pos: { x: 64, y: 26 }, facing: Direction.Down },
+    { npc: teamRocketGrunt, pos: { x: 36, y: 60 }, facing: Direction.Down },
+    { npc: scientist, pos: { x: 16, y: 28 }, facing: Direction.Down },
+    { npc: scientist, pos: { x: 46, y: 46 }, facing: Direction.Down },
+    { npc: lass, pos: { x: 34, y: 60 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 60, y: 24 }, facing: Direction.Down },
+    { npc: birdKeeper, pos: { x: 62, y: 24 }, facing: Direction.Down },
+    { npc: rocker, pos: { x: 36, y: 16 }, facing: Direction.Up },
+    { npc: teamRocketGrunt, pos: { x: 36, y: 44 }, facing: Direction.Down },
+    { npc: teamRocketGrunt, pos: { x: 38, y: 44 }, facing: Direction.Down },
+  ],
 };
 
 export default saffronCity;

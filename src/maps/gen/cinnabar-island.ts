@@ -1,5 +1,7 @@
 import cinnabarislandImage from "../../assets/map/gen/cinnabar-island.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { gambler, lass } from "../../app/npcs";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
 // Generated from pret/pokered CINNABAR_ISLAND - do not hand-edit.
@@ -24,9 +26,15 @@ const cinnabarIsland: MapType = {
       26: ["CINNABAR ISLAND", "POKEMON GYM LEADER: BLAINE", "The Hot-Headed", "Quiz Master!"],
       27: ["CINNABAR ISLAND", "POKEMON GYM LEADER: BLAINE", "The Hot-Headed", "Quiz Master!"],
     },
+    10: {
+      24: ["CINNABAR GYM's", "BLAINE is an odd man who has lived", "here for decades."],
+    },
     11: {
       18: ["CINNABAR ISLAND", "The Fiery Town of Burning Desire"],
       19: ["CINNABAR ISLAND", "The Fiery Town of Burning Desire"],
+    },
+    12: {
+      28: ["Scientists conduct", "experiments in the burned out", "building."],
     },
     23: {
       18: ["POKEMON LAB"],
@@ -160,6 +168,10 @@ const cinnabarIsland: MapType = {
     16: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
     17: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
   },
+  npcs: [
+    { npc: lass, pos: { x: 24, y: 10 }, facing: Direction.Down },
+    { npc: gambler, pos: { x: 28, y: 12 }, facing: Direction.Down },
+  ],
 };
 
 export default cinnabarIsland;

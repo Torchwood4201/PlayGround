@@ -18,7 +18,11 @@ const vermilionGym: MapType = {
     14: [2, 3],
     15: [2, 3],
   },
-  text: {},
+  text: {
+    28: {
+      8: ["..."],
+    },
+  },
   maps: {},
   exits: {
     35: [8, 9, 10, 11],
@@ -69,6 +73,9 @@ const vermilionGym: MapType = {
       pos: { x: 0, y: 20 },
       postGame: { message: ["LT.SURGE set up", "double locks! Here's a hint!", "When you open the", "1st lock, the 2nd lock is right next", "to it!"] },
     },
+  ],
+  npcs: [
+    { npc: gentleman, pos: { x: 8, y: 28 }, facing: Direction.Down },
   ],
 };
 

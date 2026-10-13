@@ -125,6 +125,9 @@ const route12: MapType = {
       26: ["ROUTE 12", "North to LAVENDER"],
       27: ["ROUTE 12", "North to LAVENDER"],
     },
+    124: {
+      20: ["A sleeping POKEMON", "blocks the way!"],
+    },
     127: {
       22: ["SPORT FISHING AREA"],
       23: ["SPORT FISHING AREA"],
@@ -433,6 +436,9 @@ const route12: MapType = {
   items: [
     { item: ItemType.Tm16, pos: { x: 28, y: 71 } },
     { item: ItemType.Iron, pos: { x: 10, y: 179 } },
+  ],
+  stationary: [
+    { id: 143, level: 30, pos: { x: 20, y: 124 } },
   ],
 };
 

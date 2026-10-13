@@ -1,5 +1,7 @@
 import celadoncityImage from "../../assets/map/gen/celadon-city.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { fisher, gentleman, lass, teamRocketGrunt, youngster } from "../../app/npcs";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
 // Generated from pret/pokered CELADON_CITY - do not hand-edit.
@@ -32,15 +34,31 @@ const celadonCity: MapType = {
       84: ["Heal Your POKEMON!", "POKEMON CENTER"],
       85: ["Heal Your POKEMON!", "POKEMON CENTER"],
     },
+    24: {
+      60: ["POLIWRATH: Ribi", "ribit!"],
+      64: ["This is my trusted", "pal, POLIWRATH!", "It evolved from", "POLIWHIRL when I used WATER STONE!"],
+    },
     27: {
       24: ["Find what you", "need at CELADON DEPT. STORE!"],
       25: ["Find what you", "need at CELADON DEPT. STORE!"],
+    },
+    28: {
+      84: ["Keep out of TEAM", "ROCKET's way!"],
     },
     31: {
       38: ["CELADON CITY", "The City of Rainbow Dreams"],
       39: ["CELADON CITY", "The City of Rainbow Dreams"],
       54: ["TRAINER TIPS", "X ACCURACY boosts", "the accuracy of techniques!", "DIRE HIT jacks up", "the likelihood of critical hits!", "Get your items at", "CELADON DEPT. STORE!"],
       55: ["TRAINER TIPS", "X ACCURACY boosts", "the accuracy of techniques!", "DIRE HIT jacks up", "the likelihood of critical hits!", "Get your items at", "CELADON DEPT. STORE!"],
+    },
+    32: {
+      44: ["Hello, there!", "I've seen you,", "but I never had a chance to talk!", "Here's a gift for", "dropping by!"],
+    },
+    34: {
+      16: ["I got my KOFFING", "in CINNABAR!", "It's nice, but it", "breathes poison when it's angry!"],
+    },
+    38: {
+      28: ["The GAME CORNER", "is bad for our city's image!"],
     },
     43: {
       54: ["ROCKET GAME CORNER", "The playground for grown-ups!"],
@@ -49,6 +67,15 @@ const celadonCity: MapType = {
       67: ["Coins exchanged", "for prizes! PRIZE EXCHANGE"],
       78: ["TRAINER TIPS", "GUARD SPEC.", "protects POKEMON against SPECIAL attacks", "such as fire and water!", "Get your items at", "CELADON DEPT. STORE!"],
       79: ["TRAINER TIPS", "GUARD SPEC.", "protects POKEMON against SPECIAL attacks", "such as fire and water!", "Get your items at", "CELADON DEPT. STORE!"],
+    },
+    44: {
+      50: ["Moan! I blew it", "all at the slots!", "I knew I should", "have cashed in my coins for prizes!"],
+    },
+    56: {
+      22: ["Heheh! This GYM", "is great! It's full of women!"],
+    },
+    58: {
+      64: ["What are you", "staring at?"],
     },
     59: {
       26: ["CELADON CITY", "POKEMON GYM LEADER: ERIKA", "The Nature Loving", "Princess!"],
@@ -209,6 +236,17 @@ const celadonCity: MapType = {
     32: [34, 35],
     33: [34, 35],
   },
+  npcs: [
+    { npc: lass, pos: { x: 16, y: 34 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 22, y: 56 }, facing: Direction.Up },
+    { npc: lass, pos: { x: 28, y: 38 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 50, y: 44 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 44, y: 32 }, facing: Direction.Down },
+    { npc: fisher, pos: { x: 64, y: 24 }, facing: Direction.Left },
+    { npc: youngster, pos: { x: 60, y: 24 }, facing: Direction.Right },
+    { npc: teamRocketGrunt, pos: { x: 64, y: 58 }, facing: Direction.Down },
+    { npc: teamRocketGrunt, pos: { x: 84, y: 28 }, facing: Direction.Down },
+  ],
 };
 
 export default celadonCity;

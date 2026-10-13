@@ -1,7 +1,7 @@
 import saffrongymImage from "../../assets/map/gen/saffron-gym.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { channeler, psychic, sabrina } from "../../app/npcs";
+import { channeler, gentleman, psychic, sabrina } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/pokemon-gym.mp3";
 
@@ -20,7 +20,11 @@ const saffronGym: MapType = {
     12: [12, 13],
     13: [12, 13],
   },
-  text: {},
+  text: {
+    30: {
+      20: ["..."],
+    },
+  },
   maps: {
     6: {
       2: { map: MapId.SaffronGym, pos: { x: 30, y: 11 } },
@@ -256,6 +260,9 @@ const saffronGym: MapType = {
       pos: { x: 6, y: 2 },
       postGame: { message: ["That's right! I", "used telepathy to read your mind!"] },
     },
+  ],
+  npcs: [
+    { npc: gentleman, pos: { x: 20, y: 30 }, facing: Direction.Down },
   ],
 };
 

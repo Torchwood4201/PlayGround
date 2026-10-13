@@ -1,5 +1,7 @@
 import route12gate1fImage from "../../assets/map/gen/route-12-gate-1f.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { gentleman } from "../../app/npcs";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
 // Generated from pret/pokered ROUTE_12_GATE_1F - do not hand-edit.
@@ -17,7 +19,11 @@ const route12Gate1f: MapType = {
     6: [6, 7],
     7: [6, 7],
   },
-  text: {},
+  text: {
+    6: {
+      2: ["There's a lookout", "spot upstairs."],
+    },
+  },
   maps: {
     12: {
       16: { map: MapId.Route12Gate2f, pos: { x: 14, y: 15 } },
@@ -37,6 +43,9 @@ const route12Gate1f: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: gentleman, pos: { x: 2, y: 6 }, facing: Direction.Down },
+  ],
 };
 
 export default route12Gate1f;

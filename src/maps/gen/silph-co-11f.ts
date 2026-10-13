@@ -1,7 +1,7 @@
 import silphco11fImage from "../../assets/map/gen/silph-co-11f.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { giovanni, teamRocketGrunt } from "../../app/npcs";
+import { beauty, gentleman, giovanni, teamRocketGrunt } from "../../app/npcs";
 import music from "../../assets/music/maps/route-3.mp3";
 
 // Generated from pret/pokered SILPH_CO_11F - do not hand-edit.
@@ -15,7 +15,12 @@ const silphCo11f: MapType = {
     8: [8, 9],
     9: [8, 9],
   },
-  text: {},
+  text: {
+    10: {
+      14: ["PRESIDENT: Thank", "you for saving SILPH!", "I will never", "forget you saved us in our moment of", "peril!", "I have to thank", "you in some way!", "Because I am rich,", "I can give you anything!", "Here, maybe this", "will do!"],
+      20: ["SECRETARY: Thank", "you for rescuing all of us!", "We admire your", "courage."],
+    },
+  },
   maps: {
     0: {
       18: { map: MapId.SilphCo10f, pos: { x: 20, y: 1 } },
@@ -73,6 +78,10 @@ const silphCo11f: MapType = {
       pos: { x: 30, y: 18 },
       postGame: { message: ["Watch your step,", "my BOSS likes his POKEMON tough!"] },
     },
+  ],
+  npcs: [
+    { npc: gentleman, pos: { x: 14, y: 10 }, facing: Direction.Down },
+    { npc: beauty, pos: { x: 20, y: 10 }, facing: Direction.Down },
   ],
 };
 

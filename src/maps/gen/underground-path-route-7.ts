@@ -1,5 +1,7 @@
 import undergroundpathroute7Image from "../../assets/map/gen/underground-path-route-7.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { gentleman } from "../../app/npcs";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
 // Generated from pret/pokered UNDERGROUND_PATH_ROUTE_7 - do not hand-edit.
@@ -13,7 +15,11 @@ const undergroundPathRoute7: MapType = {
     2: [4, 5],
     3: [4, 5],
   },
-  text: {},
+  text: {
+    8: {
+      4: ["I heard a sleepy", "POKEMON appeared near CELADON CITY."],
+    },
+  },
   maps: {
     8: {
       8: { map: MapId.UndergroundPathWestEast, pos: { x: 4, y: 11 } },
@@ -32,6 +38,9 @@ const undergroundPathRoute7: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: gentleman, pos: { x: 4, y: 8 }, facing: Direction.Down },
+  ],
 };
 
 export default undergroundPathRoute7;

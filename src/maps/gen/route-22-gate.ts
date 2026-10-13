@@ -1,5 +1,7 @@
 import route22gateImage from "../../assets/map/gen/route-22-gate.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { gentleman } from "../../app/npcs";
 import music from "../../assets/music/maps/mt-moon.mp3";
 
 // Generated from pret/pokered ROUTE_22_GATE - do not hand-edit.
@@ -10,7 +12,11 @@ const route22Gate: MapType = {
   width: 10,
   start: { x: 8, y: 15 },
   walls: {},
-  text: {},
+  text: {
+    4: {
+      12: ["..."],
+    },
+  },
   maps: {},
   exits: {
     1: [8, 9, 10, 11],
@@ -21,6 +27,9 @@ const route22Gate: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: gentleman, pos: { x: 12, y: 4 }, facing: Direction.Left },
+  ],
 };
 
 export default route22Gate;

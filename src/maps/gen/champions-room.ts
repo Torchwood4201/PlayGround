@@ -1,7 +1,7 @@
 import championsroomImage from "../../assets/map/gen/champions-room.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { rival } from "../../app/npcs";
+import { oak, rival } from "../../app/npcs";
 import music from "../../assets/music/maps/pokemon-gym.mp3";
 
 // Generated from pret/pokered CHAMPIONS_ROOM - do not hand-edit.
@@ -17,7 +17,11 @@ const championsRoom: MapType = {
     4: [6, 7],
     5: [6, 7],
   },
-  text: {},
+  text: {
+    14: {
+      6: ["OAK: Blue!"],
+    },
+  },
   maps: {
     0: {
       6: { map: MapId.HallOfFame, pos: { x: 8, y: 15 } },
@@ -60,6 +64,9 @@ const championsRoom: MapType = {
       pos: { x: 8, y: 4 },
       postGame: { message: ["Why?", "Why did I lose?", "I never made any", "mistakes raising my POKEMON...", "Darn it! You're", "the new POKEMON LEAGUE champion!", "Although I don't", "like to admit it.", "PROF.OAK: Congratulations!", "Welcome to the HALL OF FAME!"] },
     },
+  ],
+  npcs: [
+    { npc: oak, pos: { x: 6, y: 14 }, facing: Direction.Up },
   ],
 };
 

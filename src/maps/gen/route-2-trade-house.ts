@@ -1,5 +1,7 @@
 import route2tradehouseImage from "../../assets/map/gen/route-2-trade-house.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { scientist, youngster } from "../../app/npcs";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
 // Generated from pret/pokered ROUTE_2_TRADE_HOUSE - do not hand-edit.
@@ -13,7 +15,14 @@ const route2TradeHouse: MapType = {
     2: [2, 3],
     3: [2, 3],
   },
-  text: {},
+  text: {
+    2: {
+      8: ["..."],
+    },
+    8: {
+      4: ["A fainted POKEMON", "can't fight. But, it can still use", "moves like CUT!"],
+    },
+  },
   maps: {},
   exits: {
     15: [4, 5, 6, 7],
@@ -23,6 +32,10 @@ const route2TradeHouse: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: scientist, pos: { x: 4, y: 8 }, facing: Direction.Right },
+    { npc: youngster, pos: { x: 8, y: 2 }, facing: Direction.Down },
+  ],
 };
 
 export default route2TradeHouse;

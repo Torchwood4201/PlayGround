@@ -1,5 +1,7 @@
 import diglettscaveroute2Image from "../../assets/map/gen/digletts-cave-route-2.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { fisher } from "../../app/npcs";
 import music from "../../assets/music/maps/mt-moon.mp3";
 
 // Generated from pret/pokered DIGLETTS_CAVE_ROUTE_2 - do not hand-edit.
@@ -10,7 +12,11 @@ const diglettsCaveRoute2: MapType = {
   width: 8,
   start: { x: 4, y: 15 },
   walls: {},
-  text: {},
+  text: {
+    6: {
+      6: ["I went to ROCK", "TUNNEL, but it's dark and scary.", "If a POKEMON's", "FLASH could light it up..."],
+    },
+  },
   maps: {
     8: {
       8: { map: MapId.DiglettsCave, pos: { x: 10, y: 11 } },
@@ -30,6 +36,9 @@ const diglettsCaveRoute2: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: fisher, pos: { x: 6, y: 6 }, facing: Direction.Down },
+  ],
 };
 
 export default diglettsCaveRoute2;

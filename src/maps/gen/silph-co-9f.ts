@@ -1,7 +1,7 @@
 import silphco9fImage from "../../assets/map/gen/silph-co-9f.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { scientist, teamRocketGrunt } from "../../app/npcs";
+import { lass, scientist, teamRocketGrunt } from "../../app/npcs";
 import music from "../../assets/music/maps/route-3.mp3";
 
 // Generated from pret/pokered SILPH_CO_9F - do not hand-edit.
@@ -27,7 +27,11 @@ const silphCo9f: MapType = {
     16: [0, 1, 8, 9, 14, 15],
     17: [0, 1, 8, 9, 14, 15],
   },
-  text: {},
+  text: {
+    28: {
+      6: ["..."],
+    },
+  },
   maps: {
     0: {
       28: { map: MapId.SilphCo10f, pos: { x: 16, y: 1 } },
@@ -93,6 +97,9 @@ const silphCo9f: MapType = {
       pos: { x: 26, y: 32 },
       postGame: { message: ["My brothers will", "avenge me!"] },
     },
+  ],
+  npcs: [
+    { npc: lass, pos: { x: 6, y: 28 }, facing: Direction.Down },
   ],
   pokemonCenter: { x: 6, y: 29 },
 };

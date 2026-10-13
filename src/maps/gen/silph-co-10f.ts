@@ -1,7 +1,7 @@
 import silphco10fImage from "../../assets/map/gen/silph-co-10f.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { scientist, teamRocketGrunt } from "../../app/npcs";
+import { lass, scientist, teamRocketGrunt } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/route-3.mp3";
 
@@ -20,7 +20,11 @@ const silphCo10f: MapType = {
     16: [0, 1],
     17: [0, 1],
   },
-  text: {},
+  text: {
+    30: {
+      18: ["..."],
+    },
+  },
   maps: {
     0: {
       16: { map: MapId.SilphCo9f, pos: { x: 28, y: 1 } },
@@ -89,6 +93,9 @@ const silphCo10f: MapType = {
     { item: ItemType.Tm26, pos: { x: 4, y: 25 } },
     { item: ItemType.RareCandy, pos: { x: 8, y: 29 } },
     { item: ItemType.Carbos, pos: { x: 10, y: 23 } },
+  ],
+  npcs: [
+    { npc: lass, pos: { x: 18, y: 30 }, facing: Direction.Down },
   ],
 };
 

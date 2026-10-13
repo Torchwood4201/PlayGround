@@ -44,7 +44,12 @@ const mtMoonB2f: MapType = {
     30: [6, 7, 34, 35],
     31: [6, 7, 34, 35],
   },
-  text: {},
+  text: {
+    12: {
+      24: ["..."],
+      26: ["..."],
+    },
+  },
   maps: {
     14: {
       10: { map: MapId.MtMoon2f, pos: { x: 46, y: 7 } },

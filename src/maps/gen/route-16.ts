@@ -28,6 +28,9 @@ const route16: MapType = {
     17: [2, 3, 6, 7, 8, 9],
   },
   text: {
+    20: {
+      52: ["A sleeping POKEMON", "blocks the way!"],
+    },
     23: {
       54: ["Enjoy the slope!", "CYCLING ROAD"],
       55: ["Enjoy the slope!", "CYCLING ROAD"],
@@ -222,6 +225,9 @@ const route16: MapType = {
       pos: { x: 6, y: 24 },
       postGame: { message: ["I like harassing", "people with my vicious POKEMON!"] },
     },
+  ],
+  stationary: [
+    { id: 143, level: 30, pos: { x: 52, y: 20 } },
   ],
 };
 

@@ -1,7 +1,7 @@
 import silphco7fImage from "../../assets/map/gen/silph-co-7f.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { rival, scientist, teamRocketGrunt } from "../../app/npcs";
+import { lass, rival, scientist, teamRocketGrunt } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/route-3.mp3";
 
@@ -28,7 +28,20 @@ const silphCo7f: MapType = {
     16: [0, 1],
     17: [0, 1],
   },
-  text: {},
+  text: {
+    10: {
+      2: ["Oh! Hi! You're", "not a ROCKET! You came to save us?", "Why, thank you!", "I want you to", "have this POKEMON for saving us."],
+    },
+    16: {
+      20: ["You! It's really", "dangerous here! You came to save me?", "You can't!"],
+    },
+    20: {
+      14: ["It would be bad", "if TEAM ROCKET took over SILPH or our", "POKEMON!"],
+    },
+    26: {
+      26: ["TEAM ROCKET was", "after the MASTER BALL which will catch", "any POKEMON!"],
+    },
+  },
   maps: {
     0: {
       32: { map: MapId.SilphCo8f, pos: { x: 28, y: 1 } },
@@ -127,6 +140,12 @@ const silphCo7f: MapType = {
   items: [
     { item: ItemType.Calcium, pos: { x: 2, y: 19 } },
     { item: ItemType.Tm03, pos: { x: 48, y: 23 } },
+  ],
+  npcs: [
+    { npc: scientist, pos: { x: 2, y: 10 }, facing: Direction.Down },
+    { npc: scientist, pos: { x: 26, y: 26 }, facing: Direction.Up },
+    { npc: scientist, pos: { x: 14, y: 20 }, facing: Direction.Down },
+    { npc: lass, pos: { x: 20, y: 16 }, facing: Direction.Down },
   ],
 };
 

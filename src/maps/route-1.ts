@@ -1,5 +1,7 @@
 import route1Image from "../assets/map/route-1.png";
 import { MapId, MapType } from "./map-types";
+import { youngster } from "../app/npcs";
+import { Direction } from "../state/state-types";
 
 import music from "../assets/music/maps/route-1.mp3";
 import getEncounterData from "./get-location-data";
@@ -52,10 +54,27 @@ const route1: MapType = {
     35: [9, 12],
   },
   text: {
+    20: {
+      10: [
+        "See those ledges along the road?",
+        "It's a bit scary, but you can jump from them.",
+        "You can get back to PALLET TOWN quicker that way.",
+      ],
+    },
     27: {
       9: ["ROUTE 1", "PALLET TOWN - VIRIDIAN CITY"],
     },
+    30: {
+      10: [
+        "Hi! I work at a POKEMON MART.",
+        "It's a convenient shop, so please visit us in VIRIDIAN CITY.",
+      ],
+    },
   },
+  npcs: [
+    { npc: youngster, pos: { x: 10, y: 20 }, facing: Direction.Down },
+    { npc: youngster, pos: { x: 10, y: 30 }, facing: Direction.Down },
+  ],
   maps: {
     0: {
       10: MapId.ViridianCity,

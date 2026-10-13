@@ -1,7 +1,7 @@
 import viridiangymImage from "../../assets/map/gen/viridian-gym.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { aceTrainerMale, blackBelt, giovanni, tamer } from "../../app/npcs";
+import { aceTrainerMale, blackBelt, gentleman, giovanni, tamer } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/pokemon-gym.mp3";
 
@@ -24,7 +24,11 @@ const viridianGym: MapType = {
     10: [6, 7],
     11: [6, 7],
   },
-  text: {},
+  text: {
+    30: {
+      32: ["..."],
+    },
+  },
   maps: {},
   exits: {
     35: [32, 33, 34, 35],
@@ -128,6 +132,9 @@ const viridianGym: MapType = {
   ],
   items: [
     { item: ItemType.Revive, pos: { x: 32, y: 19 } },
+  ],
+  npcs: [
+    { npc: gentleman, pos: { x: 32, y: 30 }, facing: Direction.Down },
   ],
 };
 

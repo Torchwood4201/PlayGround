@@ -1,5 +1,7 @@
 import route23Image from "../../assets/map/gen/route-23.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { gentleman, swimmer } from "../../app/npcs";
 import music from "../../assets/music/maps/pokemon-gym.mp3";
 
 // Generated from pret/pokered ROUTE_23 - do not hand-edit.
@@ -94,6 +96,27 @@ const route23: MapType = {
       6: ["VICTORY ROAD GATE", "- POKEMON LEAGUE"],
       7: ["VICTORY ROAD GATE", "- POKEMON LEAGUE"],
     },
+    70: {
+      8: ["..."],
+    },
+    112: {
+      20: ["..."],
+    },
+    170: {
+      16: ["..."],
+    },
+    192: {
+      22: ["..."],
+    },
+    210: {
+      24: ["..."],
+    },
+    238: {
+      16: ["..."],
+    },
+    272: {
+      16: ["..."],
+    },
   },
   maps: {
     0: {
@@ -171,6 +194,15 @@ const route23: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: gentleman, pos: { x: 8, y: 70 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 20, y: 112 }, facing: Direction.Down },
+    { npc: swimmer, pos: { x: 16, y: 170 }, facing: Direction.Down },
+    { npc: swimmer, pos: { x: 22, y: 192 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 24, y: 210 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 16, y: 238 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 16, y: 272 }, facing: Direction.Down },
+  ],
 };
 
 export default route23;

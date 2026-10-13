@@ -285,6 +285,18 @@ export interface MapItemType {
   hidden?: boolean;
 }
 
+export interface NpcPlacement {
+  npc: NpcType;
+  pos: PosType;
+  facing: Direction;
+}
+
+export interface StationaryPlacement {
+  id: number;
+  level: number;
+  pos: PosType;
+}
+
 export interface MapWithPos {
   map: MapId;
   pos: PosType;
@@ -323,4 +335,6 @@ export interface MapType {
   stoppers?: Record<number, number[]>;
   trainers?: TrainerType[];
   items?: MapItemType[];
+  npcs?: NpcPlacement[];
+  stationary?: StationaryPlacement[];
 }

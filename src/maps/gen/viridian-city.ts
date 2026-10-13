@@ -1,5 +1,7 @@
 import viridiancityImage from "../../assets/map/gen/viridian-city.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { fisher, gambler, lass, youngster } from "../../app/npcs";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
 // Generated from pret/pokered VIRIDIAN_CITY - do not hand-edit.
@@ -40,9 +42,19 @@ const viridianCity: MapType = {
       38: ["TRAINER TIPS", "Catch POKEMON", "and expand your collection!", "The more you have,", "the easier it is to fight!"],
       39: ["TRAINER TIPS", "Catch POKEMON", "and expand your collection!", "The more you have,", "the easier it is to fight!"],
     },
+    10: {
+      34: ["..."],
+    },
     15: {
       54: ["VIRIDIAN CITY", "POKEMON GYM"],
       55: ["VIRIDIAN CITY", "POKEMON GYM"],
+    },
+    16: {
+      60: ["..."],
+    },
+    18: {
+      34: ["..."],
+      36: ["..."],
     },
     35: {
       34: ["VIRIDIAN CITY", "The Eternally Green Paradise"],
@@ -51,6 +63,15 @@ const viridianCity: MapType = {
     39: {
       60: ["All your item", "needs fulfilled! POKEMON MART"],
       61: ["All your item", "needs fulfilled! POKEMON MART"],
+    },
+    40: {
+      26: ["Those POKE BALLs", "at your waist! You have POKEMON!", "It's great that", "you can carry and use POKEMON any time,", "anywhere!"],
+    },
+    46: {
+      12: ["..."],
+    },
+    50: {
+      60: ["..."],
     },
     51: {
       48: ["Heal Your POKEMON!", "POKEMON CENTER"],
@@ -173,6 +194,15 @@ const viridianCity: MapType = {
     22: [8, 9],
     23: [8, 9],
   },
+  npcs: [
+    { npc: youngster, pos: { x: 26, y: 40 }, facing: Direction.Down },
+    { npc: gambler, pos: { x: 60, y: 16 }, facing: Direction.Down },
+    { npc: youngster, pos: { x: 60, y: 50 }, facing: Direction.Down },
+    { npc: lass, pos: { x: 34, y: 18 }, facing: Direction.Right },
+    { npc: gambler, pos: { x: 36, y: 18 }, facing: Direction.Down },
+    { npc: fisher, pos: { x: 12, y: 46 }, facing: Direction.Down },
+    { npc: gambler, pos: { x: 34, y: 10 }, facing: Direction.Down },
+  ],
 };
 
 export default viridianCity;

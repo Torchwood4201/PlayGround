@@ -37,7 +37,9 @@
 - Add Poke Center animation when healing
 - Update route 22 music
 - Rename all walk-sprite and portrait assets to be the correct name of the sprites
-- Add all the npcs in these areas
+- Add all the npcs in these areas (done: importer emits flavor NPCs w/ dialogue on 149 maps, 0 skipped; visible Npc component + blocking)
+- Stationary legendaries visible (done: StationaryPokemon sprites on Power Plant/Seafoam/Victory Road/Cerulean Cave + Snorlax Route 12/16 with wake-and-battle quests)
+- Safari/Game Corner/Snorlax/SS Anne chains (done: warps verified GameCorner->RocketHideoutB1f, VermilionDock->SsAnne1f, SafariZoneGate->SafariZoneCenter; Snorlax talk->battle quests)
 - Implement town map in NPC houses
 - Battle authenticity follow-ups: Gen-1 type chart (done), immunity handling (done), Gen-1 crit + damage variance (done), speed-tie coin flip (done), enemy AI prefers damaging moves (done), 0-PP moves refused (done), Great Ball catch divisor fix (done), mid-battle switch of fainted Pokemon blocked (done)
-- Content follow-ups: status conditions + status-healer effects (Antidote etc. are collectible but inert), non-damaging move effects, Mt Moon -> Route 4 exit + Cerulean onward (needs new map art), starter-choice/rival intro events
+- Content follow-ups: status conditions + status-healer effects (Antidote etc. are collectible but inert), non-damaging move effects, Mt Moon -> Route 4 exit (done: Route 4 cave mouths land on walkable MtMoon1f/2f tiles + return teleports; Cerulean onward links exist) + Cerulean polish (done: 9 flavor NPCs w/ dialogue, Rocket trainer), starter-choice/rival intro events

@@ -1,5 +1,13 @@
 import viridianCityImage from "../assets/map/viridian-city.png";
 import { MapId, MapType } from "./map-types";
+import {
+  fisher,
+  gambler,
+  gentleman,
+  lass,
+  youngster,
+} from "../app/npcs";
+import { Direction } from "../state/state-types";
 
 import music from "../assets/music/maps/pewter-city.mp3";
 import getEncounterData from "./get-location-data";
@@ -95,6 +103,49 @@ const viridianCity: MapType = {
         "it is to fight!",
       ],
     },
+    8: {
+      30: [
+        "This POKEMON GYM is always closed.",
+        "I wonder who the LEADER is?",
+      ],
+    },
+    10: {
+      15: [
+        "You can't go through here!",
+        "This is private property!",
+      ],
+      18: [
+        "Oh Grandpa! Don't be so mean!",
+        "He hasn't had his coffee yet.",
+        "When I go shop in PEWTER CITY, I have to take the winding trail in VIRIDIAN FOREST.",
+      ],
+    },
+    11: {
+      15: [
+        "Ahh, I've had my coffee now and I feel great!",
+        "Sure you can go through!",
+        "When you catch a POKEMON, POKEDEX is automatically updated.",
+      ],
+    },
+    20: {
+      24: [
+        "You want to know about the 2 kinds of caterpillar POKEMON?",
+        "CATERPIE has no poison, but WEEDLE does.",
+        "Watch out for its POISON STING!",
+      ],
+    },
+    26: {
+      14: [
+        "Yawn! I must have dozed off in the sun.",
+        "I had this dream about a DROWZEE eating my dream.",
+      ],
+    },
+    33: {
+      20: [
+        "Those POKE BALLs at your waist! You have POKEMON!",
+        "It's great that you can carry and use POKEMON any time, anywhere!",
+      ],
+    },
   },
   maps: {
     0: {
@@ -141,6 +192,15 @@ const viridianCity: MapType = {
     y: 1,
   },
   trainers: [],
+  npcs: [
+    { npc: youngster, pos: { x: 20, y: 33 }, facing: Direction.Down },
+    { npc: gambler, pos: { x: 30, y: 8 }, facing: Direction.Down },
+    { npc: youngster, pos: { x: 24, y: 20 }, facing: Direction.Down },
+    { npc: lass, pos: { x: 18, y: 10 }, facing: Direction.Down },
+    { npc: gambler, pos: { x: 15, y: 10 }, facing: Direction.Down },
+    { npc: fisher, pos: { x: 14, y: 26 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 15, y: 11 }, facing: Direction.Down },
+  ],
 };
 
 export default viridianCity;

@@ -24,7 +24,11 @@ const pokemonMansionB1f: MapType = {
     26: [0, 1, 20, 21],
     27: [0, 1, 20, 21],
   },
-  text: {},
+  text: {
+    40: {
+      32: ["Diary; Sept. 1", "MEWTWO is far too powerful.", "We have failed to", "curb its vicious tendencies..."],
+    },
+  },
   maps: {
     44: {
       46: { map: MapId.PokemonMansion1f, pos: { x: 42, y: 47 } },

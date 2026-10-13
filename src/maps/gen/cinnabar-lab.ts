@@ -1,5 +1,7 @@
 import cinnabarlabImage from "../../assets/map/gen/cinnabar-lab.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { fisher } from "../../app/npcs";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
 // Generated from pret/pokered CINNABAR_LAB - do not hand-edit.
@@ -17,6 +19,9 @@ const cinnabarLab: MapType = {
     5: {
       6: ["A photo of the", "LAB's founder, DR.FUJI!"],
       7: ["A photo of the", "LAB's founder, DR.FUJI!"],
+    },
+    6: {
+      2: ["We study POKEMON", "extensively here.", "People often bring", "us rare POKEMON for examination."],
     },
     9: {
       18: ["POKEMON LAB", "Meeting Room"],
@@ -53,6 +58,9 @@ const cinnabarLab: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: fisher, pos: { x: 2, y: 6 }, facing: Direction.Down },
+  ],
 };
 
 export default cinnabarLab;

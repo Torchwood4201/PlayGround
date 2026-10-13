@@ -1,7 +1,7 @@
 import viridianforestImage from "../../assets/map/gen/viridian-forest.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { bugCatcher } from "../../app/npcs";
+import { bugCatcher, youngster } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/mt-moon.mp3";
 
@@ -65,9 +65,15 @@ const viridianForest: MapType = {
       32: ["For poison, use", "ANTIDOTE! Get it at POKEMON MARTs!"],
       33: ["For poison, use", "ANTIDOTE! Get it at POKEMON MARTs!"],
     },
+    80: {
+      54: ["I ran out of #", "BALLs to catch POKEMON with!", "You should carry", "extras!"],
+    },
     81: {
       48: ["TRAINER TIPS", "If you want to", "avoid battles, stay away from grassy", "areas!"],
       49: ["TRAINER TIPS", "If you want to", "avoid battles, stay away from grassy", "areas!"],
+    },
+    86: {
+      32: ["I came here with", "some friends!", "They're out for", "POKEMON fights!"],
     },
     91: {
       36: ["TRAINER TIPS", "Weaken POKEMON", "before attempting capture!", "When healthy,", "they may escape!"],
@@ -152,6 +158,10 @@ const viridianForest: MapType = {
     { item: ItemType.Antidote, pos: { x: 50, y: 23 } },
     { item: ItemType.Potion, pos: { x: 24, y: 59 } },
     { item: ItemType.PokeBall, pos: { x: 2, y: 63 } },
+  ],
+  npcs: [
+    { npc: youngster, pos: { x: 32, y: 86 }, facing: Direction.Down },
+    { npc: youngster, pos: { x: 54, y: 80 }, facing: Direction.Down },
   ],
 };
 

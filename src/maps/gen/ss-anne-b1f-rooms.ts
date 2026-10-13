@@ -1,7 +1,7 @@
 import ssanneb1froomsImage from "../../assets/map/gen/ss-anne-b1f-rooms.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { fisher, sailor } from "../../app/npcs";
+import { fisher, sailor, superNerd, youngster } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/route-3.mp3";
 
@@ -22,7 +22,14 @@ const ssAnneB1fRooms: MapType = {
     12: [2, 3, 12, 13, 22, 23],
     13: [2, 3, 12, 13, 22, 23],
   },
-  text: {},
+  text: {
+    24: {
+      22: ["MACHOKE: Gwoh!", "Goggoh!"],
+    },
+    26: {
+      20: ["My buddy, MACHOKE,", "is super strong!", "He has enough", "STRENGTH to move big rocks!"],
+    },
+  },
   maps: {
     10: {
       4: { map: MapId.SsAnneB1f, pos: { x: 14, y: 7 } },
@@ -143,6 +150,10 @@ const ssAnneB1fRooms: MapType = {
     { item: ItemType.Ether, pos: { x: 40, y: 5 } },
     { item: ItemType.Tm44, pos: { x: 20, y: 5 } },
     { item: ItemType.MaxPotion, pos: { x: 24, y: 23 } },
+  ],
+  npcs: [
+    { npc: superNerd, pos: { x: 20, y: 26 }, facing: Direction.Right },
+    { npc: youngster, pos: { x: 22, y: 24 }, facing: Direction.Down },
   ],
 };
 

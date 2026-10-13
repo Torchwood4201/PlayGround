@@ -1,5 +1,7 @@
 import lavendertownImage from "../../assets/map/gen/lavender-town.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { aceTrainerMale, lass, superNerd } from "../../app/npcs";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
 // Generated from pret/pokered LAVENDER_TOWN - do not hand-edit.
@@ -28,15 +30,24 @@ const lavenderTown: MapType = {
       8: ["Heal Your POKEMON!", "POKEMON CENTER"],
       9: ["Heal Your POKEMON!", "POKEMON CENTER"],
     },
+    14: {
+      16: ["GHOSTs appeared", "in POKEMON TOWER.", "I think they're", "the spirits of POKEMON that the ROCKETs", "killed."],
+    },
     15: {
       34: ["May the Souls of", "POKEMON Rest Easy POKEMON TOWER"],
       35: ["May the Souls of", "POKEMON Rest Easy POKEMON TOWER"],
+    },
+    18: {
+      30: ["..."],
     },
     19: {
       10: ["LAVENDER VOLUNTEER", "POKEMON HOUSE"],
       11: ["LAVENDER VOLUNTEER", "POKEMON HOUSE"],
       22: ["LAVENDER TOWN", "The Noble Purple Town"],
       23: ["LAVENDER TOWN", "The Noble Purple Town"],
+    },
+    20: {
+      18: ["This town is known", "as the grave site of POKEMON.", "Memorial services", "are held in POKEMON TOWER."],
     },
     27: {
       32: ["All your item", "needs fulfilled! POKEMON MART"],
@@ -163,6 +174,11 @@ const lavenderTown: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: lass, pos: { x: 30, y: 18 }, facing: Direction.Down },
+    { npc: aceTrainerMale, pos: { x: 18, y: 20 }, facing: Direction.Down },
+    { npc: superNerd, pos: { x: 16, y: 14 }, facing: Direction.Down },
+  ],
 };
 
 export default lavenderTown;

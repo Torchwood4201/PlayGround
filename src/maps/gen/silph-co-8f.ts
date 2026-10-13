@@ -23,7 +23,11 @@ const silphCo8f: MapType = {
     16: [0, 1],
     17: [0, 1],
   },
-  text: {},
+  text: {
+    4: {
+      8: ["..."],
+    },
+  },
   maps: {
     0: {
       28: { map: MapId.SilphCo7f, pos: { x: 32, y: 1 } },
@@ -105,6 +109,9 @@ const silphCo8f: MapType = {
       pos: { x: 24, y: 30 },
       postGame: { message: ["I'll leave you up", "to my brothers!"] },
     },
+  ],
+  npcs: [
+    { npc: scientist, pos: { x: 8, y: 4 }, facing: Direction.Down },
   ],
 };
 

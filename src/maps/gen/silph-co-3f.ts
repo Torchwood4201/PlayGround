@@ -20,7 +20,11 @@ const silphCo3f: MapType = {
     16: [0, 1],
     17: [0, 1],
   },
-  text: {},
+  text: {
+    16: {
+      48: ["..."],
+    },
+  },
   maps: {
     0: {
       48: { map: MapId.SilphCo4f, pos: { x: 48, y: 1 } },
@@ -103,6 +107,9 @@ const silphCo3f: MapType = {
   ],
   items: [
     { item: ItemType.HyperPotion, pos: { x: 16, y: 11 } },
+  ],
+  npcs: [
+    { npc: scientist, pos: { x: 48, y: 16 }, facing: Direction.Down },
   ],
 };
 

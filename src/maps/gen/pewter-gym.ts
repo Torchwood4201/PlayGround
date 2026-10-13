@@ -1,7 +1,7 @@
 import pewtergymImage from "../../assets/map/gen/pewter-gym.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { brock, jrTrainerMale } from "../../app/npcs";
+import { brock, gentleman, jrTrainerMale } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/pokemon-gym.mp3";
 
@@ -16,7 +16,11 @@ const pewterGym: MapType = {
     10: [2, 3],
     11: [2, 3],
   },
-  text: {},
+  text: {
+    20: {
+      14: ["..."],
+    },
+  },
   maps: {},
   exits: {
     27: [8, 9, 10, 11],
@@ -47,6 +51,9 @@ const pewterGym: MapType = {
       pos: { x: 6, y: 12 },
       postGame: { message: ["You're pretty hot,", "but not as hot as BROCK!"] },
     },
+  ],
+  npcs: [
+    { npc: gentleman, pos: { x: 14, y: 20 }, facing: Direction.Down },
   ],
 };
 

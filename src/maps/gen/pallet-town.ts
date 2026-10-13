@@ -1,5 +1,7 @@
 import pallettownImage from "../../assets/map/gen/pallet-town.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { fisher, lass, oak } from "../../app/npcs";
 import music from "../../assets/music/maps/pallet-town.mp3";
 
 // Generated from pret/pokered PALLET_TOWN - do not hand-edit.
@@ -24,11 +26,17 @@ const palletTown: MapType = {
     15: [8, 9, 16, 17],
   },
   text: {
+    10: {
+      16: ["..."],
+    },
     11: {
       6: ["Blue's house"],
       7: ["Blue's house"],
       22: ["Rival's house"],
       23: ["Rival's house"],
+    },
+    16: {
+      6: ["I'm raising", "POKEMON too!", "When they get", "strong, they can protect me!"],
     },
     19: {
       14: ["PALLET TOWN", "Shades of your journey await!"],
@@ -37,6 +45,9 @@ const palletTown: MapType = {
     27: {
       26: ["OAK POKEMON", "RESEARCH LAB"],
       27: ["OAK POKEMON", "RESEARCH LAB"],
+    },
+    28: {
+      22: ["Technology is", "incredible!", "You can now store", "and recall items and POKEMON as data via", "PC!"],
     },
   },
   maps: {
@@ -107,6 +118,11 @@ const palletTown: MapType = {
     16: [4, 5, 6, 7],
     17: [4, 5, 6, 7],
   },
+  npcs: [
+    { npc: oak, pos: { x: 16, y: 10 }, facing: Direction.Down },
+    { npc: lass, pos: { x: 6, y: 16 }, facing: Direction.Down },
+    { npc: fisher, pos: { x: 22, y: 28 }, facing: Direction.Down },
+  ],
 };
 
 export default palletTown;

@@ -1,7 +1,7 @@
 import pokemontower7fImage from "../../assets/map/gen/pokemon-tower-7f.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { teamRocketGrunt } from "../../app/npcs";
+import { oak, teamRocketGrunt } from "../../app/npcs";
 import music from "../../assets/music/maps/route-3.mp3";
 
 // Generated from pret/pokered POKEMON_TOWER_7F - do not hand-edit.
@@ -31,7 +31,11 @@ const pokemonTower7f: MapType = {
     16: [0, 1, 2, 3, 4, 5, 16, 17, 18, 19],
     17: [0, 1, 2, 3, 4, 5, 16, 17, 18, 19],
   },
-  text: {},
+  text: {
+    6: {
+      20: ["..."],
+    },
+  },
   maps: {
     32: {
       18: { map: MapId.PokemonTower6f, pos: { x: 18, y: 33 } },
@@ -77,6 +81,9 @@ const pokemonTower7f: MapType = {
       pos: { x: 18, y: 14 },
       postGame: { message: ["You're not getting", "away with this!"] },
     },
+  ],
+  npcs: [
+    { npc: oak, pos: { x: 20, y: 6 }, facing: Direction.Down },
   ],
 };
 

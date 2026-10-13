@@ -1,5 +1,7 @@
 import vermilioncityImage from "../../assets/map/gen/vermilion-city.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { beauty, gambler, sailor, youngster } from "../../app/npcs";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
 // Generated from pret/pokered VERMILION_CITY - do not hand-edit.
@@ -52,6 +54,16 @@ const vermilionCity: MapType = {
       54: ["VERMILION CITY", "The Port of Exquisite Sunsets"],
       55: ["VERMILION CITY", "The Port of Exquisite Sunsets"],
     },
+    12: {
+      28: ["..."],
+    },
+    14: {
+      38: ["We're careful", "about pollution!", "We've heard GRIMER", "multiplies in toxic sludge!"],
+      60: ["I'm putting up a", "building on this plot of land.", "My POKEMON is", "tamping the land."],
+    },
+    18: {
+      58: ["MACHOP: Guoh!", "Gogogoh!"],
+    },
     27: {
       14: ["POKEMON FAN CLUB", "All POKEMON fans welcome!"],
       15: ["POKEMON FAN CLUB", "All POKEMON fans welcome!"],
@@ -67,6 +79,12 @@ const vermilionCity: MapType = {
     39: {
       14: ["VERMILION CITY", "POKEMON GYM LEADER: LT.SURGE", "The Lightning", "American!"],
       15: ["VERMILION CITY", "POKEMON GYM LEADER: LT.SURGE", "The Lightning", "American!"],
+    },
+    54: {
+      50: ["S.S.ANNE is a", "famous luxury cruise ship.", "We visit VERMILION", "once a year."],
+    },
+    60: {
+      38: ["..."],
     },
   },
   maps: {
@@ -205,6 +223,14 @@ const vermilionCity: MapType = {
     18: [14, 15],
     19: [14, 15],
   },
+  npcs: [
+    { npc: beauty, pos: { x: 38, y: 14 }, facing: Direction.Down },
+    { npc: gambler, pos: { x: 28, y: 12 }, facing: Direction.Down },
+    { npc: sailor, pos: { x: 38, y: 60 }, facing: Direction.Up },
+    { npc: gambler, pos: { x: 60, y: 14 }, facing: Direction.Down },
+    { npc: youngster, pos: { x: 58, y: 18 }, facing: Direction.Down },
+    { npc: sailor, pos: { x: 50, y: 54 }, facing: Direction.Down },
+  ],
 };
 
 export default vermilionCity;

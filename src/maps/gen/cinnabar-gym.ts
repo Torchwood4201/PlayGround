@@ -1,7 +1,7 @@
 import cinnabargymImage from "../../assets/map/gen/cinnabar-gym.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { blaine, burglar, superNerd } from "../../app/npcs";
+import { blaine, burglar, gentleman, superNerd } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/pokemon-gym.mp3";
 
@@ -18,7 +18,11 @@ const cinnabarGym: MapType = {
     14: [6, 7, 8, 9],
     15: [6, 7, 8, 9],
   },
-  text: {},
+  text: {
+    26: {
+      32: ["..."],
+    },
+  },
   maps: {},
   exits: {
     35: [32, 33, 34, 35],
@@ -109,6 +113,9 @@ const cinnabarGym: MapType = {
       pos: { x: 6, y: 16 },
       postGame: { message: ["Water beats fire!", "But, fire melts ice POKEMON!"] },
     },
+  ],
+  npcs: [
+    { npc: gentleman, pos: { x: 32, y: 26 }, facing: Direction.Down },
   ],
 };
 

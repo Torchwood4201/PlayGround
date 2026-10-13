@@ -1,7 +1,7 @@
 import ceruleangymImage from "../../assets/map/gen/cerulean-gym.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { jrTrainerFemale, misty, swimmer } from "../../app/npcs";
+import { gentleman, jrTrainerFemale, misty, swimmer } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/pokemon-gym.mp3";
 
@@ -24,7 +24,11 @@ const ceruleanGym: MapType = {
     10: [6, 7, 8, 9],
     11: [6, 7, 8, 9],
   },
-  text: {},
+  text: {
+    20: {
+      14: ["..."],
+    },
+  },
   maps: {},
   exits: {
     27: [8, 9, 10, 11],
@@ -65,6 +69,9 @@ const ceruleanGym: MapType = {
       pos: { x: 16, y: 14 },
       postGame: { message: ["MISTY is going to", "keep improving!", "She won't lose to", "someone like you!"] },
     },
+  ],
+  npcs: [
+    { npc: gentleman, pos: { x: 14, y: 20 }, facing: Direction.Down },
   ],
 };
 

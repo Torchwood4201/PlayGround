@@ -1,5 +1,7 @@
 import route1Image from "../../assets/map/gen/route-1.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { youngster } from "../../app/npcs";
 import music from "../../assets/music/maps/route-1.mp3";
 
 // Generated from pret/pokered ROUTE_1 - do not hand-edit.
@@ -34,6 +36,12 @@ const route1: MapType = {
     31: [10, 11],
   },
   text: {
+    26: {
+      30: ["See those ledges", "along the road?", "It's a bit scary,", "but you can jump from them.", "You can get back", "to PALLET TOWN quicker that way."],
+    },
+    48: {
+      10: ["..."],
+    },
     55: {
       18: ["ROUTE 1", "PALLET TOWN - VIRIDIAN CITY"],
       19: ["ROUTE 1", "PALLET TOWN - VIRIDIAN CITY"],
@@ -81,6 +89,10 @@ const route1: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: youngster, pos: { x: 10, y: 48 }, facing: Direction.Down },
+    { npc: youngster, pos: { x: 30, y: 26 }, facing: Direction.Down },
+  ],
 };
 
 export default route1;

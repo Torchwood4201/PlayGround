@@ -60,6 +60,9 @@ const ceruleanCaveB1f: MapType = {
     { item: ItemType.UltraBall, pos: { x: 32, y: 19 } },
     { item: ItemType.MaxRevive, pos: { x: 36, y: 3 } },
   ],
+  stationary: [
+    { id: 150, level: 70, pos: { x: 54, y: 26 } },
+  ],
 };
 
 export default ceruleanCaveB1f;

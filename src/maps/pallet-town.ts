@@ -1,5 +1,7 @@
 import palletTownImage from "../assets/map/pallet-town.png";
 import { MapId, MapType } from "./map-types";
+import { fisher, lass } from "../app/npcs";
+import { Direction } from "../state/state-types";
 
 import music from "../assets/music/maps/pallet-town.mp3";
 import getEncounterData from "./get-location-data";
@@ -40,7 +42,7 @@ const palletTown: MapType = {
       11: ["GARRY's house"],
     },
     8: {
-      4: [
+      5: [
         "I'm raising POKEMON too!",
         "When they get strong, they can protect me!",
       ],
@@ -51,13 +53,17 @@ const palletTown: MapType = {
     13: {
       13: ["OAK POKEMON RESEARCH LAB"],
     },
-    15: {
+    14: {
       10: [
         "Technology is incredible!",
         "You can now store and recall items and POKEMON as data via PC!",
       ],
     },
   },
+  npcs: [
+    { npc: lass, pos: { x: 5, y: 8 }, facing: Direction.Down },
+    { npc: fisher, pos: { x: 10, y: 14 }, facing: Direction.Down },
+  ],
   maps: {
     5: {
       5: MapId.PalletTownHouseA1F,

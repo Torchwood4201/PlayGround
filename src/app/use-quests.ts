@@ -104,6 +104,23 @@ const useQuests = () => {
         dispatch(encounterPokemon(getPokemonEncounter(spot.id, spot.level)));
       },
     })),
+    // Snorlax roadblocks (visible stationary sprites; wake with the flute).
+    ...[
+      { map: MapId.Route12, x: 20, y: 124, id: 143, level: 30 },
+      { map: MapId.Route16, x: 52, y: 20, id: 143, level: 30 },
+    ].map((spot) => ({
+      trigger: "talk" as const,
+      map: spot.map,
+      positions: { [spot.y]: [spot.x] },
+      active: () => true,
+      text: [
+        "SNORLAX is snoring...",
+        "It woke up and attacked!",
+      ],
+      action: () => {
+        dispatch(encounterPokemon(getPokemonEncounter(spot.id, spot.level)));
+      },
+    })),
     // Pewter City
     {
       trigger: "walk",

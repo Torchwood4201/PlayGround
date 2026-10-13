@@ -13,7 +13,22 @@ const ssAnne1fRooms: MapType = {
   width: 24,
   start: { x: 12, y: 14 },
   walls: {},
-  text: {},
+  text: {
+    6: {
+      44: ["Waiter, I would", "like a cherry pie please!"],
+    },
+    22: {
+      4: ["I always travel", "with WIGGLYTUFF!"],
+      6: ["WIGGLYTUFF: Puup", "pupuu!"],
+    },
+    26: {
+      20: ["We are cruising", "around the world."],
+      42: ["Ssh! I'm a GLOBAL", "POLICE agent!", "I'm on the trail", "of TEAM ROCKET!"],
+    },
+    28: {
+      0: ["A cruise is so", "elegant yet cozy!"],
+    },
+  },
   maps: {
     0: {
       0: { map: MapId.SsAnne1f, pos: { x: 62, y: 17 } },
@@ -96,6 +111,14 @@ const ssAnne1fRooms: MapType = {
   ],
   items: [
     { item: ItemType.Tm08, pos: { x: 24, y: 31 } },
+  ],
+  npcs: [
+    { npc: lass, pos: { x: 44, y: 6 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 0, y: 28 }, facing: Direction.Down },
+    { npc: lass, pos: { x: 4, y: 22 }, facing: Direction.Down },
+    { npc: lass, pos: { x: 6, y: 22 }, facing: Direction.Down },
+    { npc: lass, pos: { x: 20, y: 26 }, facing: Direction.Right },
+    { npc: gentleman, pos: { x: 42, y: 26 }, facing: Direction.Down },
   ],
 };
 

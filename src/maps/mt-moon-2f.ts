@@ -125,6 +125,16 @@ const mtMoon2f: MapType = {
         },
       },
     },
+    // Cerulean-side cave mouth: exit back to Route 4.
+    6: {
+      4: {
+        map: MapId.Route4,
+        pos: {
+          x: 49,
+          y: 12,
+        },
+      },
+    },
   },
 
   encounters: getEncounterData("mt-moon-b2f"),

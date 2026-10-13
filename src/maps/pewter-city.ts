@@ -1,5 +1,12 @@
 import image from "../assets/map/pewter-city.png";
 import { MapId, MapType } from "./map-types";
+import {
+  aceTrainerFemale,
+  aceTrainerMale,
+  superNerd,
+  youngster,
+} from "../app/npcs";
+import { Direction } from "../state/state-types";
 import music from "../assets/music/maps/pewter-city.mp3";
 
 const pewterCity: MapType = {
@@ -82,11 +89,41 @@ const pewterCity: MapType = {
     23: {
       25: ["PEWTER CITY", "A Stone Gray City"],
     },
+    24: {
+      24: [
+        "You're a trainer right?",
+        "BROCK's looking for new challengers!",
+        "If you have the right stuff, go take on BROCK!",
+      ],
+    },
+    28: {
+      20: [
+        "There aren't many serious POKEMON trainers here!",
+        "They're all like BUG CATCHERs, but PEWTER GYM's BROCK is totally into it!",
+      ],
+      24: [
+        "Psssst! Do you know what I'm doing?",
+        "I'm spraying REPEL to keep POKEMON out of my garden!",
+      ],
+    },
     29: {
       19: [
         "TRAINER TIPS",
         "Any Pokemon that takes part in battle,",
         "however short, earns Exp!",
+      ],
+    },
+    30: {
+      19: [
+        "It's rumored that CLEFAIRYs came from the moon!",
+        "They appeared after MOON STONE fell on MT.MOON.",
+      ],
+    },
+    8: {
+      16: [
+        "Did you check out the MUSEUM?",
+        "Weren't those fossils from MT. MOON amazing?",
+        "It's right here! You have to pay to get in, but it's worth it!",
       ],
     },
   },
@@ -127,6 +164,13 @@ const pewterCity: MapType = {
     y: 1,
   },
   exitReturnMap: MapId.Route2GateNorth,
+  npcs: [
+    { npc: aceTrainerFemale, pos: { x: 19, y: 30 }, facing: Direction.Down },
+    { npc: aceTrainerMale, pos: { x: 20, y: 28 }, facing: Direction.Down },
+    { npc: superNerd, pos: { x: 16, y: 8 }, facing: Direction.Down },
+    { npc: superNerd, pos: { x: 24, y: 28 }, facing: Direction.Down },
+    { npc: youngster, pos: { x: 24, y: 24 }, facing: Direction.Down },
+  ],
 };
 
 export default pewterCity;

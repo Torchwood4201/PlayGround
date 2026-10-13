@@ -1,7 +1,7 @@
 import silphco2fImage from "../../assets/map/gen/silph-co-2f.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { scientist, teamRocketGrunt } from "../../app/npcs";
+import { lass, scientist, teamRocketGrunt } from "../../app/npcs";
 import music from "../../assets/music/maps/route-3.mp3";
 
 // Generated from pret/pokered SILPH_CO_2F - do not hand-edit.
@@ -21,7 +21,11 @@ const silphCo2f: MapType = {
     16: [0, 1, 22, 23],
     17: [0, 1, 22, 23],
   },
-  text: {},
+  text: {
+    2: {
+      20: ["..."],
+    },
+  },
   maps: {
     0: {
       48: { map: MapId.SilphCo1f, pos: { x: 52, y: 1 } },
@@ -105,6 +109,9 @@ const silphCo2f: MapType = {
       pos: { x: 48, y: 14 },
       postGame: { message: ["SILPH CO. will", "be merged with TEAM ROCKET!"] },
     },
+  ],
+  npcs: [
+    { npc: lass, pos: { x: 20, y: 2 }, facing: Direction.Up },
   ],
 };
 

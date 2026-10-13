@@ -1,5 +1,7 @@
 import pewtercityImage from "../../assets/map/gen/pewter-city.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { aceTrainerFemale, aceTrainerMale, superNerd, youngster } from "../../app/npcs";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
 // Generated from pret/pokered PEWTER_CITY - do not hand-edit.
@@ -44,6 +46,15 @@ const pewterCity: MapType = {
       30: ["PEWTER MUSEUM", "OF SCIENCE"],
       31: ["PEWTER MUSEUM", "OF SCIENCE"],
     },
+    30: {
+      16: ["It's rumored that", "CLEFAIRYs came from the moon!", "They appeared", "after MOON STONE fell on MT.MOON."],
+    },
+    32: {
+      70: ["..."],
+    },
+    34: {
+      54: ["..."],
+    },
     35: {
       22: ["PEWTER CITY", "POKEMON GYM LEADER: BROCK", "The Rock Solid", "POKEMON Trainer!"],
       23: ["PEWTER CITY", "POKEMON GYM LEADER: BROCK", "The Rock Solid", "POKEMON Trainer!"],
@@ -57,6 +68,10 @@ const pewterCity: MapType = {
     47: {
       50: ["PEWTER CITY", "A Stone Gray City"],
       51: ["PEWTER CITY", "A Stone Gray City"],
+    },
+    50: {
+      34: ["There aren't many", "serious POKEMON trainers here!", "They're all like", "BUG CATCHERs, but PEWTER GYM's BROCK", "is totally into it!"],
+      52: ["..."],
     },
     51: {
       28: ["Heal Your POKEMON!", "POKEMON CENTER"],
@@ -183,6 +198,13 @@ const pewterCity: MapType = {
     4: [26, 27],
     5: [26, 27],
   },
+  npcs: [
+    { npc: aceTrainerFemale, pos: { x: 16, y: 30 }, facing: Direction.Down },
+    { npc: aceTrainerMale, pos: { x: 34, y: 50 }, facing: Direction.Down },
+    { npc: superNerd, pos: { x: 54, y: 34 }, facing: Direction.Down },
+    { npc: superNerd, pos: { x: 52, y: 50 }, facing: Direction.Down },
+    { npc: youngster, pos: { x: 70, y: 32 }, facing: Direction.Down },
+  ],
 };
 
 export default pewterCity;

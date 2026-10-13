@@ -1,5 +1,7 @@
 import fuchsiacityImage from "../../assets/map/gen/fuchsia-city.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { fisher, gambler, lass, youngster } from "../../app/npcs";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
 // Generated from pret/pokered FUCHSIA_CITY - do not hand-edit.
@@ -36,9 +38,16 @@ const fuchsiaCity: MapType = {
     35: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
   },
   text: {
+    10: {
+      12: ["!"],
+      62: ["!"],
+    },
     11: {
       34: ["SAFARI GAME", "POKEMON-U-CATCH!"],
       35: ["SAFARI GAME", "POKEMON-U-CATCH!"],
+    },
+    12: {
+      24: ["!"],
     },
     15: {
       14: ["..."],
@@ -50,11 +59,21 @@ const fuchsiaCity: MapType = {
       66: ["Name: CHANSEY", "Catching one is", "all up to chance."],
       67: ["Name: CHANSEY", "Catching one is", "all up to chance."],
     },
+    16: {
+      48: ["That item ball in", "there is really a POKEMON."],
+    },
+    24: {
+      20: ["Did you try the", "SAFARI GAME? Some POKEMON can only be", "caught there."],
+      60: ["!"],
+    },
     27: {
       12: ["All your item", "needs fulfilled! POKEMON MART"],
       13: ["All your item", "needs fulfilled! POKEMON MART"],
       62: ["Name: SLOWPOKE", "Friendly and very", "slow moving."],
       63: ["Name: SLOWPOKE", "Friendly and very", "slow moving."],
+    },
+    28: {
+      60: ["ERIK: Where's", "SARA? I said I'd meet her here."],
     },
     31: {
       26: ["Name: LAPRAS", "A.K.A. the king", "of the seas."],
@@ -63,6 +82,10 @@ const fuchsiaCity: MapType = {
       43: ["POKEMON PARADISE", "SAFARI ZONE"],
       50: ["FUCHSIA CITY", "Behold! It's Passion Pink!"],
       51: ["FUCHSIA CITY", "Behold! It's Passion Pink!"],
+    },
+    34: {
+      16: ["!"],
+      56: ["SAFARI ZONE has a", "zoo in front of the entrance.", "Out back is the", "SAFARI GAME for catching POKEMON."],
     },
     47: {
       30: ["FUCHSIA CITY", "Behold! It's Passion Pink!"],
@@ -233,6 +256,16 @@ const fuchsiaCity: MapType = {
     18: [18, 19],
     19: [18, 19],
   },
+  npcs: [
+    { npc: youngster, pos: { x: 20, y: 24 }, facing: Direction.Down },
+    { npc: gambler, pos: { x: 56, y: 34 }, facing: Direction.Down },
+    { npc: fisher, pos: { x: 60, y: 28 }, facing: Direction.Down },
+    { npc: youngster, pos: { x: 48, y: 16 }, facing: Direction.Up },
+    { npc: lass, pos: { x: 62, y: 10 }, facing: Direction.Down },
+    { npc: youngster, pos: { x: 24, y: 12 }, facing: Direction.Down },
+    { npc: youngster, pos: { x: 60, y: 24 }, facing: Direction.Down },
+    { npc: youngster, pos: { x: 16, y: 34 }, facing: Direction.Down },
+  ],
 };
 
 export default fuchsiaCity;

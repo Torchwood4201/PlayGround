@@ -22,8 +22,10 @@ import PokemonCenter from "./PokemonCenter";
 import Pc from "./Pc";
 import PokeMart from "./PokeMart";
 import SpinningHandler from "./SpinningHandler";
-import { MapItemType, TrainerType } from "../maps/map-types";
+import { MapItemType, NpcPlacement, StationaryPlacement, TrainerType } from "../maps/map-types";
 import Trainer from "./Trainer";
+import Npc from "./Npc";
+import StationaryPokemon from "./StationaryPokemon";
 import { xToPx, yToPx } from "../app/position-helper";
 import DebugOverlay from "./DebugOverlay";
 import TrainerEncounter from "./TrainerEncounter";
@@ -105,6 +107,14 @@ const Game = () => {
           {map.items &&
             map.items.map((item: MapItemType, index: number) => (
               <Item key={index} item={item} />
+            ))}
+          {map.npcs &&
+            map.npcs.map((npc: NpcPlacement, index: number) => (
+              <Npc key={`npc-${index}`} npc={npc} />
+            ))}
+          {map.stationary &&
+            map.stationary.map((spot: StationaryPlacement, index: number) => (
+              <StationaryPokemon key={`st-${index}`} spot={spot} />
             ))}
           <DebugOverlay />
         </BackgroundContainer>

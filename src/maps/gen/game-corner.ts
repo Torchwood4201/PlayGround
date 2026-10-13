@@ -1,7 +1,7 @@
 import gamecornerImage from "../../assets/map/gen/game-corner.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { teamRocketGrunt } from "../../app/npcs";
+import { beauty, fisher, gambler, gentleman, teamRocketGrunt } from "../../app/npcs";
 import music from "../../assets/music/maps/pokemon-gym.mp3";
 
 // Generated from pret/pokered GAME_CORNER - do not hand-edit.
@@ -25,6 +25,28 @@ const gameCorner: MapType = {
     9: {
       18: ["..."],
       19: ["..."],
+    },
+    12: {
+      4: ["Welcome!", "You can exchange", "your coins for fabulous prizes next", "door."],
+      10: ["..."],
+    },
+    20: {
+      4: ["Keep this quiet.", "It's rumored that", "this place is run by TEAM ROCKET."],
+    },
+    22: {
+      10: ["..."],
+      16: ["I'm having a", "wonderful time!"],
+      28: ["..."],
+    },
+    26: {
+      4: ["I think these", "machines have different odds."],
+      34: ["..."],
+    },
+    28: {
+      16: ["..."],
+    },
+    30: {
+      22: ["Games are scary!", "It's so easy to get hooked!"],
     },
   },
   maps: {
@@ -56,6 +78,18 @@ const gameCorner: MapType = {
       pos: { x: 18, y: 10 },
       postGame: { message: ["Our hideout might", "be discovered! I better tell BOSS!"] },
     },
+  ],
+  npcs: [
+    { npc: beauty, pos: { x: 4, y: 12 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 10, y: 12 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 4, y: 20 }, facing: Direction.Left },
+    { npc: beauty, pos: { x: 4, y: 26 }, facing: Direction.Left },
+    { npc: fisher, pos: { x: 10, y: 22 }, facing: Direction.Right },
+    { npc: beauty, pos: { x: 16, y: 22 }, facing: Direction.Left },
+    { npc: gentleman, pos: { x: 16, y: 28 }, facing: Direction.Left },
+    { npc: gambler, pos: { x: 22, y: 30 }, facing: Direction.Right },
+    { npc: gentleman, pos: { x: 28, y: 22 }, facing: Direction.Left },
+    { npc: gentleman, pos: { x: 34, y: 26 }, facing: Direction.Right },
   ],
 };
 

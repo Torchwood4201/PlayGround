@@ -28,7 +28,11 @@ const pokemonMansion3f: MapType = {
     16: [0, 1, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
     17: [0, 1, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
   },
-  text: {},
+  text: {
+    24: {
+      12: ["Diary: Feb. 6", "MEW gave birth.", "We named the", "newborn MEWTWO."],
+    },
+  },
   maps: {
     2: {
       12: { map: MapId.PokemonMansion2f, pos: { x: 12, y: 3 } },

@@ -1,5 +1,7 @@
 import wardenshouseImage from "../../assets/map/gen/wardens-house.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { hiker } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
@@ -17,11 +19,17 @@ const wardensHouse: MapType = {
     7: [4, 5],
   },
   text: {
+    6: {
+      4: ["..."],
+    },
     7: {
       8: ["..."],
       9: ["..."],
       10: ["..."],
       11: ["..."],
+    },
+    8: {
+      16: ["This requires", "STRENGTH to move!"],
     },
   },
   maps: {},
@@ -35,6 +43,9 @@ const wardensHouse: MapType = {
   grass: {},
   items: [
     { item: ItemType.RareCandy, pos: { x: 16, y: 7 } },
+  ],
+  npcs: [
+    { npc: hiker, pos: { x: 4, y: 6 }, facing: Direction.Down },
   ],
 };
 

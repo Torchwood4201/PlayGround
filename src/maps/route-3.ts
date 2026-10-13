@@ -1,4 +1,4 @@
-import { bugCatcher, lass, youngster } from "../app/npcs";
+import { bugCatcher, lass, superNerd, youngster } from "../app/npcs";
 import image from "../assets/map/route-3.png";
 import music from "../assets/music/maps/route-3.mp3";
 import { Direction } from "../state/state-types";
@@ -93,6 +93,12 @@ const route3: MapType = {
     ],
   },
   text: {
+    6: {
+      66: [
+        "Whew... I better take a rest... Groan...",
+        "That tunnel from CERULEAN takes a lot out of you!",
+      ],
+    },
     7: {
       67: ["MT. MOON", "Tunnel Entrance"],
     },
@@ -129,6 +135,9 @@ const route3: MapType = {
   },
   encounters: getEncounterData("kanto-route-3-area"),
   exitReturnMap: MapId.PewterCity,
+  npcs: [
+    { npc: superNerd, pos: { x: 66, y: 6 }, facing: Direction.Down },
+  ],
   trainers: [
     {
       npc: lass,

@@ -1,7 +1,7 @@
 import ceruleancityImage from "../../assets/map/gen/cerulean-city.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { rival, teamRocketGrunt } from "../../app/npcs";
+import { aceTrainerFemale, aceTrainerMale, gentleman, rival, superNerd, teamRocketGrunt, youngster } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
@@ -41,13 +41,27 @@ const ceruleanCity: MapType = {
     33: [6, 7, 8, 9, 30, 31, 32, 33, 34, 35, 36, 37],
   },
   text: {
+    24: {
+      8: ["This is CERULEAN", "CAVE! Horribly strong POKEMON live in", "there!", "The POKEMON LEAGUE", "champion is the only person who is", "allowed in!"],
+      54: ["The people here", "were robbed.", "It's obvious that", "TEAM ROCKET is behind this most", "heinous crime!", "Even our POLICE", "force has trouble with the ROCKETs!"],
+      56: ["The people here", "were robbed.", "It's obvious that", "TEAM ROCKET is behind this most", "heinous crime!", "Even our POLICE", "force has trouble with the ROCKETs!"],
+    },
     35: {
       40: ["Heal Your POKEMON!", "POKEMON CENTER"],
       41: ["Heal Your POKEMON!", "POKEMON CENTER"],
     },
+    36: {
+      30: ["That bush in", "front of the shop is in the way.", "There might be a", "way around."],
+    },
     39: {
       46: ["CERULEAN CITY", "A Mysterious, Blue Aura Surrounds It"],
       47: ["CERULEAN CITY", "A Mysterious, Blue Aura Surrounds It"],
+    },
+    40: {
+      62: ["You're a trainer", "too? Collecting, fighting, it's a", "tough life."],
+    },
+    42: {
+      18: ["You're making an", "encyclopedia on POKEMON? That sounds", "amusing."],
     },
     43: {
       54: ["CERULEAN CITY", "POKEMON GYM LEADER: MISTY", "The Tomboyish", "Mermaid!"],
@@ -58,6 +72,13 @@ const ceruleanCity: MapType = {
       23: ["Grass and caves", "handled easily! BIKE SHOP"],
       52: ["All your item", "needs fulfilled! POKEMON MART"],
       53: ["All your item", "needs fulfilled! POKEMON MART"],
+    },
+    52: {
+      56: ["..."],
+      58: ["..."],
+    },
+    54: {
+      18: ["I want a bright", "red BICYCLE!", "I'll keep it at", "home, so it won't get dirty!"],
     },
     59: {
       34: ["TRAINER TIPS", "Pressing B Button", "during evolution cancels the whole", "process."],
@@ -270,6 +291,17 @@ const ceruleanCity: MapType = {
       pos: { x: 60, y: 16 },
       postGame: { message: ["OK! I'll return", "the TM I stole!"], items: [ItemType.Tm28] },
     },
+  ],
+  npcs: [
+    { npc: aceTrainerMale, pos: { x: 62, y: 40 }, facing: Direction.Down },
+    { npc: superNerd, pos: { x: 30, y: 36 }, facing: Direction.Down },
+    { npc: superNerd, pos: { x: 18, y: 42 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 56, y: 24 }, facing: Direction.Down },
+    { npc: aceTrainerFemale, pos: { x: 58, y: 52 }, facing: Direction.Left },
+    { npc: youngster, pos: { x: 56, y: 52 }, facing: Direction.Down },
+    { npc: aceTrainerFemale, pos: { x: 18, y: 54 }, facing: Direction.Down },
+    { npc: superNerd, pos: { x: 8, y: 24 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 54, y: 24 }, facing: Direction.Down },
   ],
 };
 

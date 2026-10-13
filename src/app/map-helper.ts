@@ -1,5 +1,5 @@
 import mapData from "../maps/map-data";
-import { MapId, MapItemType, TrainerType } from "../maps/map-types";
+import { MapId, MapItemType, NpcPlacement, StationaryPlacement, TrainerType } from "../maps/map-types";
 import { Direction, PosType } from "../state/state-types";
 import { TRAINER_VISION } from "./constants";
 
@@ -43,6 +43,26 @@ export const isTrainer = (
   return (
     !!trainers &&
     trainers.some((trainer) => trainer.pos.x === x && trainer.pos.y === y)
+  );
+};
+
+export const isNpc = (
+  npcs: NpcPlacement[] | undefined,
+  x: number,
+  y: number
+): boolean => {
+  return (
+    !!npcs && npcs.some((n) => n.pos.x === x && n.pos.y === y)
+  );
+};
+
+export const isStationary = (
+  spots: StationaryPlacement[] | undefined,
+  x: number,
+  y: number
+): boolean => {
+  return (
+    !!spots && spots.some((s) => s.pos.x === x && s.pos.y === y)
   );
 };
 
@@ -95,6 +115,8 @@ export const canWalk = (
   if (isWall(map.walls, x, y)) return false;
   if (isFence(map.fences, x, y)) return false;
   if (isTrainer(map.trainers, x, y)) return false;
+  if (isNpc(map.npcs, x, y)) return false;
+  if (isStationary(map.stationary, x, y)) return false;
   // Standing trees block until cut down; water needs Surf.
   if (isCutTree(map.cut, x, y, felledTrees, mapId)) return false;
   if (isWater(map.water, x, y) && !canSurf) return false;

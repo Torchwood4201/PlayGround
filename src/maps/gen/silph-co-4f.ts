@@ -18,7 +18,11 @@ const silphCo4f: MapType = {
     16: [0, 1, 20, 21],
     17: [0, 1, 20, 21],
   },
-  text: {},
+  text: {
+    4: {
+      12: ["..."],
+    },
+  },
   maps: {
     0: {
       48: { map: MapId.SilphCo3f, pos: { x: 48, y: 1 } },
@@ -105,6 +109,9 @@ const silphCo4f: MapType = {
     { item: ItemType.FullHeal, pos: { x: 6, y: 19 } },
     { item: ItemType.MaxRevive, pos: { x: 8, y: 15 } },
     { item: ItemType.EscapeRope, pos: { x: 10, y: 17 } },
+  ],
+  npcs: [
+    { npc: scientist, pos: { x: 12, y: 4 }, facing: Direction.Down },
   ],
 };
 

@@ -24,7 +24,17 @@ const victoryRoad2f: MapType = {
     14: [14, 15, 20, 21],
     15: [14, 15, 20, 21],
   },
-  text: {},
+  text: {
+    10: {
+      10: ["This requires", "STRENGTH to move!"],
+    },
+    28: {
+      8: ["This requires", "STRENGTH to move!"],
+    },
+    32: {
+      46: ["This requires", "STRENGTH to move!"],
+    },
+  },
   maps: {
     2: {
       2: { map: MapId.VictoryRoad3f, pos: { x: 4, y: 1 } },
@@ -130,6 +140,9 @@ const victoryRoad2f: MapType = {
     { item: ItemType.FullHeal, pos: { x: 36, y: 19 } },
     { item: ItemType.Tm05, pos: { x: 18, y: 23 } },
     { item: ItemType.GuardSpec, pos: { x: 22, y: 1 } },
+  ],
+  stationary: [
+    { id: 146, level: 50, pos: { x: 22, y: 10 } },
   ],
 };
 

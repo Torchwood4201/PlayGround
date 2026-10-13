@@ -1,5 +1,7 @@
 import cinnabarlabtraderoomImage from "../../assets/map/gen/cinnabar-lab-trade-room.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { beauty, gentleman, superNerd } from "../../app/npcs";
 import music from "../../assets/music/maps/pewter-city.mp3";
 
 // Generated from pret/pokered CINNABAR_LAB_TRADE_ROOM - do not hand-edit.
@@ -13,7 +15,17 @@ const cinnabarLabTradeRoom: MapType = {
     6: [2, 3],
     7: [2, 3],
   },
-  text: {},
+  text: {
+    4: {
+      6: ["I found this very", "strange fossil in MT.MOON!", "I think it's a", "rare, prehistoric POKEMON!"],
+    },
+    8: {
+      2: ["..."],
+    },
+    10: {
+      10: ["..."],
+    },
+  },
   maps: {
     14: {
       4: { map: MapId.CinnabarLab, pos: { x: 16, y: 9 } },
@@ -32,6 +44,11 @@ const cinnabarLabTradeRoom: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: superNerd, pos: { x: 6, y: 4 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 2, y: 8 }, facing: Direction.Down },
+    { npc: beauty, pos: { x: 10, y: 10 }, facing: Direction.Up },
+  ],
 };
 
 export default cinnabarLabTradeRoom;

@@ -1,7 +1,7 @@
 import ssanne2fImage from "../../assets/map/gen/ss-anne-2f.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { rival } from "../../app/npcs";
+import { rival, sailor } from "../../app/npcs";
 import music from "../../assets/music/maps/route-3.mp3";
 
 // Generated from pret/pokered SS_ANNE_2F - do not hand-edit.
@@ -23,7 +23,11 @@ const ssAnne2f: MapType = {
     12: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39],
     13: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39],
   },
-  text: {},
+  text: {
+    14: {
+      6: ["This ship, she is", "a luxury liner for trainers!", "At every port, we", "hold parties with invited trainers!"],
+    },
+  },
   maps: {
     8: {
       4: { map: MapId.SsAnne1f, pos: { x: 4, y: 13 } },
@@ -90,6 +94,9 @@ const ssAnne2f: MapType = {
       pos: { x: 72, y: 8 },
       postGame: { message: ["Blue! What are", "you, seasick?", "You should shape", "up, pal!"] },
     },
+  ],
+  npcs: [
+    { npc: sailor, pos: { x: 6, y: 14 }, facing: Direction.Down },
   ],
 };
 

@@ -24,7 +24,20 @@ const silphCo5f: MapType = {
     16: [0, 1],
     17: [0, 1],
   },
-  text: {},
+  text: {
+    12: {
+      48: ["It's a POKEMON", "REPORT!", "4 POKEMON evolve", "only when traded by link-cable."],
+    },
+    18: {
+      26: ["..."],
+    },
+    20: {
+      50: ["It's a POKEMON", "REPORT!", "Over 160 POKEMON", "techniques have been confirmed."],
+    },
+    24: {
+      44: ["It's a POKEMON", "REPORT!", "POKEMON LAB", "created PORYGON, the first virtual", "reality POKEMON."],
+    },
+  },
   maps: {
     0: {
       48: { map: MapId.SilphCo6f, pos: { x: 28, y: 1 } },
@@ -117,6 +130,9 @@ const silphCo5f: MapType = {
     { item: ItemType.Tm09, pos: { x: 4, y: 27 } },
     { item: ItemType.Protein, pos: { x: 8, y: 13 } },
     { item: ItemType.CardKey, pos: { x: 42, y: 33 } },
+  ],
+  npcs: [
+    { npc: scientist, pos: { x: 26, y: 18 }, facing: Direction.Down },
   ],
 };
 

@@ -1,7 +1,7 @@
 import pokemontower2fImage from "../../assets/map/gen/pokemon-tower-2f.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { rival } from "../../app/npcs";
+import { channeler, rival } from "../../app/npcs";
 import music from "../../assets/music/maps/route-3.mp3";
 
 // Generated from pret/pokered POKEMON_TOWER_2F - do not hand-edit.
@@ -31,7 +31,11 @@ const pokemonTower2f: MapType = {
     16: [0, 1, 2, 3, 4, 5, 16, 17, 18, 19],
     17: [0, 1, 2, 3, 4, 5, 16, 17, 18, 19],
   },
-  text: {},
+  text: {
+    14: {
+      6: ["Even we could not", "identify the wayward GHOSTs!", "A SILPH SCOPE", "might be able to unmask them."],
+    },
+  },
   maps: {
     18: {
       6: { map: MapId.PokemonTower3f, pos: { x: 6, y: 19 } },
@@ -62,6 +66,9 @@ const pokemonTower2f: MapType = {
       pos: { x: 28, y: 10 },
       postGame: { message: ["Rival: Well,", "look at all your wimpy POKEMON!", "Toughen them up a", "bit more!"] },
     },
+  ],
+  npcs: [
+    { npc: channeler, pos: { x: 6, y: 14 }, facing: Direction.Right },
   ],
 };
 

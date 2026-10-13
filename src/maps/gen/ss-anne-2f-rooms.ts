@@ -1,7 +1,7 @@
 import ssanne2froomsImage from "../../assets/map/gen/ss-anne-2f-rooms.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { fisher, gentleman, lass } from "../../app/npcs";
+import { beauty, fisher, gentleman, lass, youngster } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/route-3.mp3";
 
@@ -22,7 +22,23 @@ const ssAnne2fRooms: MapType = {
     12: [2, 3, 12, 13, 22, 23],
     13: [2, 3, 12, 13, 22, 23],
   },
-  text: {},
+  text: {
+    2: {
+      44: ["POKEMON can CUT", "down small bushes."],
+    },
+    4: {
+      2: ["In all my travels", "I've never seen any POKEMON sleep like", "this one!", "It was something", "like this!"],
+      42: ["Ah yes, I have", "seen some POKEMON ferry people across the", "water!"],
+    },
+    24: {
+      24: ["Have you gone to", "the SAFARI ZONE in FUCHSIA CITY?", "It had many rare", "kinds of POKEMON!!"],
+      40: ["I hear many people", "get seasick!"],
+      44: ["The CAPTAIN looked", "really sick and pale!"],
+    },
+    28: {
+      22: ["Me and my Daddy", "think the SAFARI ZONE is awesome!"],
+    },
+  },
   maps: {
     10: {
       4: { map: MapId.SsAnne2f, pos: { x: 18, y: 23 } },
@@ -130,6 +146,15 @@ const ssAnne2fRooms: MapType = {
   items: [
     { item: ItemType.MaxEther, pos: { x: 24, y: 3 } },
     { item: ItemType.RareCandy, pos: { x: 0, y: 25 } },
+  ],
+  npcs: [
+    { npc: gentleman, pos: { x: 2, y: 4 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 42, y: 4 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 44, y: 2 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 24, y: 24 }, facing: Direction.Down },
+    { npc: youngster, pos: { x: 22, y: 28 }, facing: Direction.Down },
+    { npc: beauty, pos: { x: 44, y: 24 }, facing: Direction.Left },
+    { npc: beauty, pos: { x: 40, y: 24 }, facing: Direction.Right },
   ],
 };
 

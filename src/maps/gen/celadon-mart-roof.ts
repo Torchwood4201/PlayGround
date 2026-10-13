@@ -1,5 +1,7 @@
 import celadonmartroofImage from "../../assets/map/gen/celadon-mart-roof.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { lass, superNerd } from "../../app/npcs";
 import music from "../../assets/music/maps/pokemon-center.mp3";
 
 // Generated from pret/pokered CELADON_MART_ROOF - do not hand-edit.
@@ -30,6 +32,12 @@ const celadonMartRoof: MapType = {
       26: ["ROOFTOP SQUARE:", "VENDING MACHINES"],
       27: ["ROOFTOP SQUARE:", "VENDING MACHINES"],
     },
+    8: {
+      20: ["My sister is a", "trainer, believe it or not.", "But, she's so", "immature, she drives me nuts!"],
+    },
+    10: {
+      10: ["..."],
+    },
   },
   maps: {
     4: {
@@ -45,6 +53,10 @@ const celadonMartRoof: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: superNerd, pos: { x: 20, y: 8 }, facing: Direction.Left },
+    { npc: lass, pos: { x: 10, y: 10 }, facing: Direction.Down },
+  ],
 };
 
 export default celadonMartRoof;

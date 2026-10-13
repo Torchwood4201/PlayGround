@@ -60,6 +60,17 @@ const powerPlant: MapType = {
     { item: ItemType.Tm25, pos: { x: 52, y: 65 } },
     { item: ItemType.Tm33, pos: { x: 40, y: 65 } },
   ],
+  stationary: [
+    { id: 100, level: 40, pos: { x: 18, y: 40 } },
+    { id: 100, level: 40, pos: { x: 64, y: 36 } },
+    { id: 100, level: 40, pos: { x: 42, y: 50 } },
+    { id: 101, level: 43, pos: { x: 50, y: 36 } },
+    { id: 100, level: 40, pos: { x: 46, y: 68 } },
+    { id: 100, level: 40, pos: { x: 52, y: 56 } },
+    { id: 101, level: 43, pos: { x: 42, y: 28 } },
+    { id: 100, level: 40, pos: { x: 74, y: 64 } },
+    { id: 145, level: 50, pos: { x: 8, y: 18 } },
+  ],
 };
 
 export default powerPlant;

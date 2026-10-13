@@ -32,6 +32,10 @@ const seafoamIslandsB4f: MapType = {
       46: ["DANGER", "Fast current!"],
       47: ["DANGER", "Fast current!"],
     },
+    30: {
+      8: ["This requires", "STRENGTH to move!"],
+      10: ["This requires", "STRENGTH to move!"],
+    },
     31: {
       18: ["Boulders might", "change the flow of water!"],
       19: ["Boulders might", "change the flow of water!"],
@@ -92,6 +96,9 @@ const seafoamIslandsB4f: MapType = {
     16: [4, 5, 20, 21],
     17: [4, 5, 20, 21],
   },
+  stationary: [
+    { id: 144, level: 50, pos: { x: 12, y: 2 } },
+  ],
 };
 
 export default seafoamIslandsB4f;

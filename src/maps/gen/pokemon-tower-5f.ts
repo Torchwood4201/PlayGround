@@ -32,7 +32,11 @@ const pokemonTower5f: MapType = {
     16: [0, 1, 2, 3, 4, 5, 16, 17, 18, 19],
     17: [0, 1, 2, 3, 4, 5, 16, 17, 18, 19],
   },
-  text: {},
+  text: {
+    16: {
+      24: ["Come, child! I", "sealed this space with white magic!", "You can rest here!"],
+    },
+  },
   maps: {
     18: {
       6: { map: MapId.PokemonTower4f, pos: { x: 6, y: 19 } },
@@ -95,6 +99,9 @@ const pokemonTower5f: MapType = {
   ],
   items: [
     { item: ItemType.Nugget, pos: { x: 12, y: 29 } },
+  ],
+  npcs: [
+    { npc: channeler, pos: { x: 24, y: 16 }, facing: Direction.Down },
   ],
 };
 

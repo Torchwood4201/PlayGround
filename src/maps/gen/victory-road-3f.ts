@@ -24,7 +24,20 @@ const victoryRoad3f: MapType = {
     12: [14, 15, 16, 17, 18, 19, 20, 21],
     13: [14, 15, 16, 17, 18, 19, 20, 21],
   },
-  text: {},
+  text: {
+    6: {
+      44: ["This requires", "STRENGTH to move!"],
+    },
+    20: {
+      48: ["This requires", "STRENGTH to move!"],
+    },
+    24: {
+      26: ["This requires", "STRENGTH to move!"],
+    },
+    30: {
+      44: ["This requires", "STRENGTH to move!"],
+    },
+  },
   maps: {
     0: {
       4: { map: MapId.VictoryRoad2f, pos: { x: 2, y: 3 } },

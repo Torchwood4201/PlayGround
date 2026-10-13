@@ -1,7 +1,7 @@
 import fuchsiagymImage from "../../assets/map/gen/fuchsia-gym.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { juggler, koga, tamer } from "../../app/npcs";
+import { gentleman, juggler, koga, tamer } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/pokemon-gym.mp3";
 
@@ -13,7 +13,11 @@ const fuchsiaGym: MapType = {
   width: 10,
   start: { x: 8, y: 35 },
   walls: {},
-  text: {},
+  text: {
+    30: {
+      14: ["..."],
+    },
+  },
   maps: {},
   exits: {
     35: [8, 9, 10, 11],
@@ -94,6 +98,9 @@ const fuchsiaGym: MapType = {
       pos: { x: 4, y: 14 },
       postGame: { message: ["Where there is", "light, there is shadow!", "Light and shadow!", "Which do you choose?"] },
     },
+  ],
+  npcs: [
+    { npc: gentleman, pos: { x: 14, y: 30 }, facing: Direction.Down },
   ],
 };
 

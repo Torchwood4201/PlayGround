@@ -103,6 +103,16 @@ const mtMoon1f: MapType = {
         },
       },
     },
+    // Cerulean-side cave mouth: exit back to Route 4.
+    2: {
+      36: {
+        map: MapId.Route4,
+        pos: {
+          x: 37,
+          y: 12,
+        },
+      },
+    },
   },
   exitReturnMap: MapId.Route3,
   encounters: getEncounterData("mt-moon-1f"),

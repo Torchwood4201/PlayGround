@@ -1,7 +1,7 @@
 import ssannebowImage from "../../assets/map/gen/ss-anne-bow.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { sailor } from "../../app/npcs";
+import { aceTrainerMale, sailor, superNerd } from "../../app/npcs";
 import music from "../../assets/music/maps/route-3.mp3";
 
 // Generated from pret/pokered SS_ANNE_BOW - do not hand-edit.
@@ -27,7 +27,17 @@ const ssAnneBow: MapType = {
     12: [0, 1],
     13: [0, 1],
   },
-  text: {},
+  text: {
+    4: {
+      10: ["The party's over.", "The ship will be departing soon."],
+    },
+    18: {
+      8: ["Scrubbing decks", "is hard work!"],
+    },
+    22: {
+      14: ["Urf. I feel ill.", "I stepped out to", "get some air."],
+    },
+  },
   maps: {
     12: {
       26: { map: MapId.SsAnne3f, pos: { x: 0, y: 7 } },
@@ -71,6 +81,11 @@ const ssAnneBow: MapType = {
       pos: { x: 20, y: 16 },
       postGame: { message: ["My Pa said there", "are 100 kinds of POKEMON. I think there", "are more."] },
     },
+  ],
+  npcs: [
+    { npc: superNerd, pos: { x: 10, y: 4 }, facing: Direction.Up },
+    { npc: sailor, pos: { x: 8, y: 18 }, facing: Direction.Down },
+    { npc: aceTrainerMale, pos: { x: 14, y: 22 }, facing: Direction.Down },
   ],
 };
 

@@ -1,5 +1,7 @@
 import celadonmart2fImage from "../../assets/map/gen/celadon-mart-2f.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { gentleman, lass } from "../../app/npcs";
 import music from "../../assets/music/maps/pokemon-center.mp3";
 
 // Generated from pret/pokered CELADON_MART_2F - do not hand-edit.
@@ -17,6 +19,16 @@ const celadonMart2f: MapType = {
     3: {
       28: ["Top Grade Items", "for Trainers!", "2F: TRAINER'S", "MARKET"],
       29: ["Top Grade Items", "for Trainers!", "2F: TRAINER'S", "MARKET"],
+    },
+    6: {
+      10: ["..."],
+      12: ["..."],
+    },
+    8: {
+      28: ["For long outings,", "you should buy REVIVE."],
+    },
+    10: {
+      38: ["SUPER REPEL keeps", "weak POKEMON at bay...", "Hmm, it's a more", "powerful REPEL!"],
     },
   },
   maps: {
@@ -37,6 +49,12 @@ const celadonMart2f: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: gentleman, pos: { x: 10, y: 6 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 12, y: 6 }, facing: Direction.Down },
+    { npc: gentleman, pos: { x: 38, y: 10 }, facing: Direction.Down },
+    { npc: lass, pos: { x: 28, y: 8 }, facing: Direction.Down },
+  ],
 };
 
 export default celadonMart2f;

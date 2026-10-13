@@ -34,7 +34,14 @@ const pokemonMansion2f: MapType = {
     26: [0, 1, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
     27: [0, 1, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
   },
-  text: {},
+  text: {
+    4: {
+      36: ["Diary: July 5", "Guyana, South America", "A new POKEMON was", "discovered deep in the jungle."],
+    },
+    44: {
+      6: ["Diary: July 10", "We christened the newly discovered", "POKEMON, MEW."],
+    },
+  },
   maps: {
     2: {
       12: { map: MapId.PokemonMansion3f, pos: { x: 12, y: 3 } },

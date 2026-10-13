@@ -1,7 +1,7 @@
 import silphco6fImage from "../../assets/map/gen/silph-co-6f.png";
 import { MapId, MapType } from "../map-types";
 import { Direction } from "../../state/state-types";
-import { scientist, teamRocketGrunt } from "../../app/npcs";
+import { lass, scientist, teamRocketGrunt } from "../../app/npcs";
 import { ItemType } from "../../app/use-item-data";
 import music from "../../assets/music/maps/route-3.mp3";
 
@@ -22,7 +22,19 @@ const silphCo6f: MapType = {
     16: [0, 1],
     17: [0, 1],
   },
-  text: {},
+  text: {
+    12: {
+      20: ["..."],
+      40: ["..."],
+      42: ["..."],
+    },
+    20: {
+      22: ["..."],
+    },
+    26: {
+      36: ["..."],
+    },
+  },
   maps: {
     0: {
       28: { map: MapId.SilphCo5f, pos: { x: 48, y: 1 } },
@@ -88,6 +100,13 @@ const silphCo6f: MapType = {
   items: [
     { item: ItemType.HpUp, pos: { x: 6, y: 25 } },
     { item: ItemType.XAccuracy, pos: { x: 4, y: 31 } },
+  ],
+  npcs: [
+    { npc: scientist, pos: { x: 20, y: 12 }, facing: Direction.Down },
+    { npc: scientist, pos: { x: 40, y: 12 }, facing: Direction.Down },
+    { npc: lass, pos: { x: 42, y: 12 }, facing: Direction.Down },
+    { npc: lass, pos: { x: 22, y: 20 }, facing: Direction.Right },
+    { npc: scientist, pos: { x: 36, y: 26 }, facing: Direction.Up },
   ],
 };
 

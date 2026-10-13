@@ -1,5 +1,7 @@
 import ssanne1fImage from "../../assets/map/gen/ss-anne-1f.png";
 import { MapId, MapType } from "../map-types";
+import { Direction } from "../../state/state-types";
+import { sailor } from "../../app/npcs";
 import music from "../../assets/music/maps/route-3.mp3";
 
 // Generated from pret/pokered SS_ANNE_1F - do not hand-edit.
@@ -25,7 +27,14 @@ const ssAnne1f: MapType = {
     14: [4, 5, 36, 37, 38, 39],
     15: [4, 5, 36, 37, 38, 39],
   },
-  text: {},
+  text: {
+    10: {
+      54: ["The passengers", "are restless!", "You might be", "challenged by the more bored ones!"],
+    },
+    12: {
+      24: ["Bonjour!", "I am le waiter on this ship!", "I will be happy", "to serve you any- thing you please!", "Ah! Le strong", "silent type!"],
+    },
+  },
   maps: {
     0: {
       52: { map: MapId.VermilionDock, pos: { x: 28, y: 5 } },
@@ -96,6 +105,10 @@ const ssAnne1f: MapType = {
   music,
   encounters: { walk: { rate: 0, pokemon: [] }, oldRod: { rate: 0, pokemon: [] }, goodRod: { rate: 0, pokemon: [] }, superRod: { rate: 0, pokemon: [] }, surf: { rate: 0, pokemon: [] }, rockSmash: { rate: 0, pokemon: [] }, headbutt: { rate: 0, pokemon: [] }, darkGrass: { rate: 0, pokemon: [] }, grassSpots: { rate: 0, pokemon: [] }, caveSpots: { rate: 0, pokemon: [] }, bridgeSpots: { rate: 0, pokemon: [] }, superRodSpots: { rate: 0, pokemon: [] }, surfSpots: { rate: 0, pokemon: [] }, yellowFlowers: { rate: 0, pokemon: [] }, purpleFlowers: { rate: 0, pokemon: [] }, redFlowers: { rate: 0, pokemon: [] }, roughTerrain: { rate: 0, pokemon: [] }, gift: { rate: 0, pokemon: [] }, giftEgg: { rate: 0, pokemon: [] }, onlyOne: { rate: 0, pokemon: [] } },
   grass: {},
+  npcs: [
+    { npc: sailor, pos: { x: 24, y: 12 }, facing: Direction.Down },
+    { npc: sailor, pos: { x: 54, y: 10 }, facing: Direction.Down },
+  ],
 };
 
 export default ssAnne1f;
