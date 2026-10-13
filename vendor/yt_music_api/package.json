@@ -1,0 +1,46 @@
+{
+  "name": "ytmusic_api_unofficial",
+  "version": "2.1.6",
+  "description": "A simple API to get music from YouTube Music",
+  "scripts": {
+    "test": "nodemon test.js",
+    "publish_npm": "npm run build && npm publish --access public",
+    "build": "tsc",
+    "build_auto": "nodemon --watch src --exec \"npm run build\""
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ],
+    "ext": "js,json,ts"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "keywords": [
+    "YouTube",
+    "YouTube music",
+    "music",
+    "Free"
+  ],
+  "author": "Alexis06030631",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Alexis06030631/yt_music_api.git",
+    "directory": "src",
+    "branch": "main"
+  },
+  "bugs": {
+    "url": "https://github.com/Alexis06030631/yt_music_api/issues"
+  },
+  "homepage": "https://alexis06030631.github.io/yt_music_api/",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}

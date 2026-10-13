@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Playback — A Century of Sound</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&family=Caveat&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="boot"><div style="text-align:center"><div class="ring"></div><h1 class="brand">Playback</h1><div class="mono">A CENTURY OF SOUND</div></div></div>
+<div id="lost" class="mono">SIGNAL LOST</div>
+<div class="app" id="app">
+<header class="top"><span class="brand">Playback</span><input id="q" placeholder="Search songs, albums, playlists…" aria-label="Search"><span class="live mono"><i></i><span id="status">ON AIR</span></span><button data-a="go" data-v="7" aria-label="Settings" style="font-size:20px">⚙</button></header>
+<nav id="nav"></nav>
+<main id="main"></main>
+<aside id="np">
+<button class="back mono" data-a="full">◄ BACK</button>
+<div class="mono" style="text-align:center;margin-bottom:10px">NOW PLAYING</div>
+<div class="ringwrap"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="47" fill="none" stroke="#2e2318" stroke-width="2"/><circle id="ring" cx="50" cy="50" r="47" fill="none" stroke="#d4a24c" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="295.3" stroke-dashoffset="295.3"/></svg><div class="disc" id="disc"></div><div class="arm"></div></div>
+<div style="text-align:center;margin-top:12px"><div class="brand" id="npT" style="font-size:18px;letter-spacing:.04em">Nothing playing</div><div class="mono" id="npA"></div></div>
+<div class="ctl"><button data-a="prev" aria-label="Previous">⏮</button><button class="pp" id="pp2" data-a="toggle" aria-label="Play or pause">▶</button><button data-a="next" aria-label="Next">⏭</button></div>
+<div class="bars" id="bars"></div>
+<div class="mono tabsb"><button data-a="tab" data-v="q" id="tq" class="on">QUEUE</button><button data-a="tab" data-v="l" id="tl">LYRICS</button></div>
+<div class="q" id="queue"></div><pre class="lyr" id="lyr"></pre>
+</aside>
+<footer class="mini" id="mini">
+<div class="sw" id="mSw"></div><div class="info" data-a="full"><b id="mT">Nothing playing</b><div class="mono" id="mA"></div></div>
+<div class="reels"><div class="reel"></div><div class="reel"></div></div>
+<div class="ctl" style="margin:0"><button data-a="prev" aria-label="Previous">⏮</button><button class="pp" id="pp" data-a="toggle" aria-label="Play or pause">▶</button><button data-a="next" aria-label="Next">⏭</button></div>
+<div class="bar"><span class="mono" id="cur">0:00</span><input type="range" id="seek" min="0" max="100" value="0" aria-label="Seek"><span class="mono" id="dur">0:00</span></div>
+</footer>
+<div class="tabs" id="tabs"></div>
+</div>
+<script src="app.js"></script>
+</body></html>

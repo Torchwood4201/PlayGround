@@ -1,0 +1,60 @@
+{
+  "name": "playback",
+  "version": "1.0.0",
+  "description": "Playback: A Century of Sound — music player (muzo-backend + yt_music_api)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest",
+    "deploy": "wrangler deploy",
+    "postinstall": "cd vendor/yt_music_api && npm install --no-audit --no-fund && npm run build || echo \"yt_music_api build skipped\""
+  },
+  "keywords": [
+    "music",
+    "api",
+    "youtube",
+    "jiosaavn",
+    "nodejs",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fast-xml-parser": "^4.4.0",
+    "helmet": "^7.1.0",
+    "jsdom": "^27.2.0",
+    "morgan": "^1.10.0",
+    "serverless-http": "^3.2.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "youtubei.js": "^18.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "wrangler": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "overrides": {
+    "iconv-lite": "^0.6.3"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torchwood4201/PlayGround.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Torchwood4201/PlayGround/issues"
+  },
+  "homepage": "https://github.com/Torchwood4201/PlayGround#readme"
+}

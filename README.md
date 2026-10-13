@@ -1,4 +1,17 @@
-# PlayGround
+# Playback — A Century of Sound
+
+A music streaming web app: vintage-styled player UI (`public/`) backed by an
+Express API with YouTube Music search, albums, playlists, related tracks,
+playable audio resolution (JioSaavn → YouTube fallback) and lyrics.
+
+Run locally: `npm install && npm start` → http://localhost:8000
+Preview: `bash start.sh` serves on `PORT` (default 3000).
+
+How the pieces connect
+- `public/app.js` → `/api/search`, `/api/album/:id`, `/api/playlist/:id`, `/api/related/:id` (YouTube Music)
+- `public/app.js` → `/api/play/:id` (`routes/playback.js`: JioSaavn → `vendor/yt_music_api` fallback)
+- `public/app.js` → `/api/lyrics/:id` (`routes/playback.js`: `vendor/yt_music_api` getLyrics)
+- API docs (Swagger) at `/api-docs`, health check at `/health`.
 
 <!-- omgithub:readme:start -->
 ## 🚀 Build, play, and remix with OMGithub
