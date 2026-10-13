@@ -1,0 +1,1087 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TinyMon Red — 2D Desktop Monster RPG (built from the pokered zip)</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #0b0e14; color: #e8ecf3;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  .wrap { max-width: 1020px; margin: 0 auto; padding: 14px 16px 26px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 6px 2px 12px; }
+  .brand { display: flex; align-items: center; gap: 11px; }
+  .ball { width: 32px; height: 32px; border-radius: 50%; flex: 0 0 auto;
+    background: linear-gradient(to bottom, #ee1c25 0 46%, #20242c 46% 54%, #f2f2f2 54% 100%);
+    border: 3px solid #20242c; position: relative; }
+  .ball::after { content: ""; position: absolute; left: 50%; top: 50%; width: 9px; height: 9px;
+    background: #fff; border: 3px solid #20242c; border-radius: 50%; transform: translate(-50%, -50%); }
+  h1 { font-size: 17px; margin: 0; }
+  h1 small { display: block; font-size: 12px; color: #9aa4b2; font-weight: 500; }
+  .badge { font-size: 11px; font-weight: 800; letter-spacing: .06em; color: #111;
+    background: #ffcb05; border-radius: 999px; padding: 6px 11px; white-space: nowrap; }
+  .stage { background: #141a26; border: 1px solid #263049; border-radius: 14px; padding: 10px;
+    box-shadow: 0 12px 40px rgba(0,0,0,.35); }
+  canvas { display: block; width: 100%; height: auto; border-radius: 8px; background: #000;
+    image-rendering: pixelated; image-rendering: crisp-edges; }
+  .help { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 10px; font-size: 12.5px; color: #9aa4b2; }
+  kbd { background: #0f1522; border: 1px solid #2c3650; border-bottom-width: 2px; border-radius: 6px;
+    padding: 0 6px; font-size: 11.5px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: #e8ecf3; }
+  footer { margin-top: 12px; font-size: 12px; color: #9aa4b2; line-height: 1.6; }
+  footer code { background: #0f1522; padding: 0 6px; border-radius: 6px; font-size: 11.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="ball" aria-hidden="true"></div>
+      <h1>TinyMon Red — 2D Desktop Monster RPG<small>Original fan remake built from the <code>pokered-master.zip</code> disassembly · no emulator, no ROM, no downloads</small></h1>
+    </div>
+    <div class="badge">NATIVE 2D · 960×540</div>
+  </header>
+  <div class="stage">
+    <canvas id="game" width="960" height="540" tabindex="0" aria-label="TinyMon Red playable game"></canvas>
+    <div class="help">
+      <span><kbd>▲▼◀▶</kbd>/<kbd>WASD</kbd> move</span>
+      <span><kbd>Z</kbd>/<kbd>Enter</kbd>/<kbd>Space</kbd> talk · confirm</span>
+      <span><kbd>X</kbd>/<kbd>Esc</kbd> back · menu</span>
+      <span><kbd>H</kbd> help</span>
+      <span><kbd>M</kbd> sound</span>
+    </div>
+  </div>
+  <footer>
+    A complete original mini monster-taming RPG: pick a starter, explore the town, battle wild TinyMon in tall
+    grass, catch them, level up, heal at the lodge, and beat your rival.
+    Map layout, story beats and battle math are inspired by the disassembly's data (town with lab, grass
+    encounters, turn-based damage/XP formulas) — all art, creatures, code and sound here are original.
+    Tip: head <b>east along the path into the tall grass</b> to find wild TinyMon.
+  </footer>
+</div>
+<script>
+"use strict";
+/* ============================================================
+   TinyMon Red — native 2D desktop monster RPG (single file).
+   No emulator, no ROM, no network. Everything is drawn + computed here.
+   ============================================================ */
+const cv = document.getElementById("game");
+const ctx = cv.getContext("2d");
+ctx.imageSmoothingEnabled = false;
+
+const W = 960, H = 540, TILE = 24;
+const COLS = 27, ROWS = 19;               // visible tiles @24px on 960x540 (648x456 world-view)
+const VW = 648, VH = 456;                 // world viewport (side panel uses the rest)
+const Fact = Math.PI / 180;
+
+/* ---------------- utils ---------------- */
+const clamp = (v, a, b) => v < a ? a : v > b ? b : v;
+const rnd = (a, b) => a + Math.random() * (b - a);
+const ri = (a, b) => Math.floor(rnd(a, b + 1));
+const pick = arr => arr[Math.floor(Math.random() * arr.length)];
+function hash2(x, y) { let h = (x * 374761393 + y * 668265263) | 0; h = (h ^ (h >> 13)) * 1274126177; return ((h ^ (h >> 16)) >>> 0) / 4294967295; }
+function $(id) { return document.getElementById(id); }
+
+/* ---------------- audio (procedural bleeps, no assets) ---------------- */
+let AC = null, muted = false;
+function audio() {
+  if (muted) return null;
+  try {
+    if (!AC) AC = new (window.AudioContext || window.webkitAudioContext)();
+    if (AC.state === "suspended") AC.resume();
+    return AC;
+  } catch (e) { return null; }
+}
+function tone(freq, dur, type, vol, when, slideTo) {
+  const ac = audio(); if (!ac) return;
+  try {
+    const t = ac.currentTime + (when || 0);
+    const o = ac.createOscillator(), g = ac.createGain();
+    o.type = type || "square"; o.frequency.setValueAtTime(freq, t);
+    if (slideTo) o.frequency.exponentialRampToValueAtTime(Math.max(30, slideTo), t + dur);
+    g.gain.setValueAtTime(vol || 0.06, t);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+    o.connect(g); g.connect(ac.destination);
+    o.start(t); o.stop(t + dur + 0.02);
+  } catch (e) {}
+}
+const sfx = {
+  blip()  { tone(660, 0.07, "square", 0.05); },
+  back()  { tone(330, 0.09, "square", 0.05); },
+  bump()  { tone(140, 0.08, "sawtooth", 0.05); },
+  heal()  { tone(523, .12, "sine", .07); tone(659, .12, "sine", .07, .12); tone(784, .2, "sine", .07, .24); },
+  hit()   { tone(220, 0.12, "sawtooth", 0.08, 0, 90); },
+  superHit() { tone(300, .1, "sawtooth", .09, 0, 120); tone(450, .14, "square", .07, .08, 150); },
+  faint() { tone(500, 0.5, "sawtooth", 0.07, 0, 60); },
+  fanfare() { [523,659,784,1046].forEach((f, i) => tone(f, .14, "square", .06, i * .13)); },
+  encounter() { tone(196, .5, "sawtooth", .07, 0, 392); tone(392, .3, "square", .06, .35); },
+  ball()  { tone(800, .08, "sine", .07); tone(500, .1, "sine", .07, .1); tone(650, .12, "sine", .07, .22); },
+  level() { [392,523,659,784,1046,1318].forEach((f, i) => tone(f, .1, "square", .05, i * .09)); },
+};
+
+/* ---------------- data: types / moves / species ---------------- */
+const CHART = { Fire: { Leaf: 1.5, Water: 0.66, Fire: 0.66 }, Water: { Fire: 1.5, Leaf: 0.66, Water: 0.66 }, Leaf: { Water: 1.5, Fire: 0.66, Leaf: 0.66 }, Normal: {} };
+function eff(moveType, defType) { return (CHART[moveType] && CHART[moveType][defType]) || 1; }
+
+const MOVES = {
+  tackle:   { name: "Tackle",    type: "Normal", power: 35, acc: 95 },
+  scratch:  { name: "Scratch",   type: "Normal", power: 40, acc: 100 },
+  peck:     { name: "Peck",      type: "Normal", power: 45, acc: 100 },
+  ember:    { name: "Ember",     type: "Fire",   power: 40, acc: 100 },
+  firefang: { name: "Fire Fang", type: "Fire",   power: 65, acc: 95 },
+  bubble:   { name: "Bubble",    type: "Water",  power: 40, acc: 100 },
+  aquatail: { name: "Aqua Tail", type: "Water",  power: 70, acc: 92 },
+  vinewhip: { name: "Vine Whip", type: "Leaf",   power: 42, acc: 100 },
+  razorleaf:{ name: "Razor Leaf",type: "Leaf",   power: 60, acc: 95 },
+  gust:     { name: "Gust",      type: "Normal", power: 45, acc: 100 },
+  bite:     { name: "Bite",      type: "Normal", power: 55, acc: 100 },
+};
+
+const SPECIES = {
+  embercub:  { name: "Embercub",  type: "Fire",   catch: 45, baseXp: 64, base: { hp: 22, atk: 8, def: 6, spd: 7 }, learn: [[1,"scratch"],[1,"ember"],[8,"firefang"]],
+               pal: { body: "#e8763a", belly: "#ffd9a0", ear: "#8a2f1b", tail: "#ffcf3f" }, shape: "cub" },
+  bubskip:   { name: "Bubbleskip",type: "Water",  catch: 45, baseXp: 64, base: { hp: 24, atk: 7, def: 7, spd: 6 }, learn: [[1,"tackle"],[1,"bubble"],[8,"aquatail"]],
+               pal: { body: "#3fa7e8", belly: "#d6f0ff", ear: "#1d5f96", tail: "#9adcff" }, shape: "skip" },
+  leafkit:   { name: "Leafkit",   type: "Leaf",   catch: 45, baseXp: 64, base: { hp: 23, atk: 7, def: 7, spd: 7 }, learn: [[1,"scratch"],[1,"vinewhip"],[8,"razorleaf"]],
+               pal: { body: "#4caf5d", belly: "#dff5c8", ear: "#20663a", tail: "#8fe08a" }, shape: "kit" },
+  nibbler:   { name: "Nibbler",   type: "Normal", catch: 120, baseXp: 40, base: { hp: 20, atk: 7, def: 5, spd: 8 }, learn: [[1,"tackle"],[4,"bite"]],
+               pal: { body: "#b08968", belly: "#f3e3c3", ear: "#6b4a2f", tail: "#7d6a55" }, shape: "cub" },
+  flutterby: { name: "Flutterby", type: "Leaf",   catch: 110, baseXp: 44, base: { hp: 19, atk: 6, def: 6, spd: 9 }, learn: [[1,"tackle"],[1,"vinewhip"],[7,"gust"]],
+               pal: { body: "#9b7ede", belly: "#efe6ff", ear: "#5a3fa0", tail: "#c9b3ff" }, shape: "fly" },
+  splashfin: { name: "Splashfin", type: "Water",  catch: 100, baseXp: 48, base: { hp: 21, atk: 7, def: 6, spd: 7 }, learn: [[1,"tackle"],[1,"bubble"]],
+               pal: { body: "#2f9fd8", belly: "#e2f6ff", ear: "#16617f", tail: "#ffd166" }, shape: "skip" },
+  cindermite:{ name: "Cindermite",type: "Fire",   catch: 100, baseXp: 48, base: { hp: 20, atk: 8, def: 5, spd: 7 }, learn: [[1,"scratch"],[1,"ember"]],
+               pal: { body: "#d84a3a", belly: "#ffe3b3", ear: "#5f1f16", tail: "#ffb03a" }, shape: "kit" },
+  pebblor:   { name: "Pebblor",   type: "Normal", catch: 90,  baseXp: 55, base: { hp: 26, atk: 8, def: 9, spd: 4 }, learn: [[1,"tackle"],[6,"bite"]],
+               pal: { body: "#8d99ae", belly: "#edf2f4", ear: "#4a5568", tail: "#4a5568" }, shape: "orb" },
+};
+
+function statsFor(sp, lvl) {
+  const b = SPECIES[sp].base;
+  return {
+    maxHp: Math.floor(b.hp + b.hp * lvl / 12),
+    atk: Math.floor(b.atk + b.atk * lvl / 14),
+    def: Math.floor(b.def + b.def * lvl / 14),
+    spd: Math.floor(b.spd + b.spd * lvl / 14),
+  };
+}
+function movesFor(sp, lvl) {
+  const out = [];
+  for (const [l, m] of SPECIES[sp].learn) if (lvl >= l && !out.includes(m)) out.push(m);
+  return out.slice(0, 4);
+}
+function makeMon(sp, lvl) {
+  const st = statsFor(sp, lvl);
+  return { sp, lvl, xp: lvl * lvl * lvl, ...st, hp: st.maxHp, moves: movesFor(sp, lvl) };
+}
+function xpNext(lvl) { return (lvl + 1) * (lvl + 1) * (lvl + 1); }
+function calcDamage(att, def, move) {
+  const m = MOVES[move];
+  const stab = SPECIES[att.sp].type === m.type ? 1.25 : 1;
+  const e = eff(m.type, SPECIES[def.sp].type);
+  const rand = rnd(0.85, 1.0);
+  const crit = Math.random() < 1 / 16 ? 1.5 : 1;
+  const dmg = Math.floor((((2 * att.lvl / 5 + 2) * m.power * att.atk / Math.max(1, def.def)) / 50 + 2) * stab * e * rand * crit);
+  return { dmg: Math.max(1, dmg), eff: e, crit: crit > 1 };
+}
+
+/* ---------------- world map (built in code, no assets) ---------------- */
+// Tile codes: 0 grass, 1 tall grass, 2 water, 3 path, 4 tree, 5 wall, 6 roof, 7 door(mat), 8 fence, 9 sign, 10 flower, 11 sand, 12 rock, 13 plank
+const MW = 64, MH = 48;
+const map = new Uint8Array(MW * MH);
+const at = (x, y) => (x < 0 || y < 0 || x >= MW || y >= MH) ? 4 : map[y * MW + x];
+const set = (x, y, t) => { if (x >= 0 && y >= 0 && x < MW && y < MH) map[y * MW + x] = t; };
+function rect(x0, y0, x1, y1, t) { for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) set(x, y, t); }
+
+(function buildMap() {
+  rect(0, 0, MW - 1, MH - 1, 0);
+  // border forest
+  rect(0, 0, MW - 1, 1, 4); rect(0, MH - 2, MW - 1, MH - 1, 4);
+  rect(0, 0, 1, MH - 1, 4); rect(MW - 2, 0, MW - 1, MH - 1, 4);
+  // pond (east)
+  rect(44, 30, 55, 40, 11); rect(45, 31, 54, 39, 2);
+  set(49, 39, 13); set(49, 40, 13); // fishing planks
+  // tall grass fields
+  rect(4, 8, 15, 22, 1); rect(34, 8, 46, 20, 1); rect(50, 10, 58, 22, 1);
+  // paths
+  rect(2, 25, 61, 27, 3); rect(20, 4, 22, 43, 3);
+  // flowers
+  for (let i = 0; i < 70; i++) { const x = ri(2, MW - 3), y = ri(2, MH - 3); if (at(x, y) === 0) set(x, y, 10); }
+  // house: player home (west of main road)
+  rect(11, 29, 17, 33, 6); rect(12, 31, 16, 33, 5); set(14, 33, 7);
+  rect(10, 34, 18, 34, 8); set(14, 34, 3);
+  // lab (east of road)
+  rect(25, 29, 32, 33, 6); rect(26, 31, 31, 33, 5); set(28, 33, 7);
+  rect(24, 34, 33, 34, 8); set(28, 34, 3);
+  // heal lodge (far east)
+  rect(52, 24, 58, 27, 6); rect(53, 26, 57, 27, 5); set(55, 27, 7);
+  // fences + rocks + signs
+  rect(4, 24, 12, 24, 8); rect(36, 28, 42, 28, 8);
+  set(23, 24, 8); set(33, 26, 12); set(48, 26, 12);
+  set(23, 23, 9); set(31, 24, 9); set(51, 23, 9);
+  // scattered trees
+  for (let i = 0; i < 40; i++) { const x = ri(2, MW - 3), y = ri(2, MH - 3); if (at(x, y) === 0 && hash2(x, y) > 0.93) set(x, y, 4); }
+})();
+const SOLID = new Set([2, 4, 5, 6, 8, 9, 12]);
+const SIGNS = {
+  "23,23": "Route 1: tall grass ahead!\nWild TinyMon live there.",
+  "31,24": "Bramble Lab: \"Come talk\nto me before you leave!\"",
+  "51,23": "Heal Lodge: step on the\nred mat to heal up!",
+};
+
+/* ---------------- game state ---------------- */
+const G = {
+  scene: "title",           // title | overworld | battle
+  t: 0,
+  px: 14, py: 35, dir: 0,   // tile pos + facing (0 down,1 up,2 left,3 right)
+  mx: 14 * TILE, my: 35 * TILE, moving: false, stepT: 0, stepFrom: null, stepTo: null,
+  party: [], box: [], traps: 5, potions: 3,
+  hasStarter: false, rivalBeaten: false, metProf: false,
+  dlg: null,               // {lines, i, chars, done, onDone, choice?}
+  menu: null,              // party menu overlay
+  help: false,
+  battle: null,
+  shake: 0, flash: 0,
+  caughtTotal: 0,
+};
+const DIRS = [[0, 1], [0, -1], [-1, 0], [1, 0]];
+
+const NPCS = [
+  { x: 28, y: 34, name: "Prof. Bramble", c1: "#7a4fa3", c2: "#e8d9f5", kind: "prof", wander: 0 },
+  { x: 24, y: 26, name: "Rival Kite", c1: "#c23b3b", c2: "#ffd9d9", kind: "rival", wander: 0 },
+  { x: 8, y: 26, name: "Town Kid", c1: "#2f7fc2", c2: "#cfe8ff", kind: "kid", wander: 0 },
+];
+
+/* ---------------- input ---------------- */
+const keys = {}, pressedQ = [];
+const KEYMAP = { ArrowUp: "up", KeyW: "up", ArrowDown: "down", KeyS: "down", ArrowLeft: "left", KeyA: "left", ArrowRight: "right", KeyD: "right", KeyZ: "a", Enter: "a", Space: "a", KeyX: "b", Escape: "b", KeyH: "help", KeyM: "mute" };
+window.addEventListener("keydown", e => {
+  if (e.code === "Space" || e.code.startsWith("Arrow")) e.preventDefault();
+  const k = KEYMAP[e.code];
+  if (!k) return;
+  if (k === "help" && !e.repeat) { G.help = !G.help; sfx.blip(); return; }
+  if (k === "mute" && !e.repeat) { muted = !muted; if (!muted) sfx.blip(); return; }
+  if (!e.repeat) { keys[k] = true; pressedQ.push(k); }
+});
+window.addEventListener("keyup", e => { const k = KEYMAP[e.code]; if (k) keys[k] = false; });
+cv.addEventListener("mousedown", () => { cv.focus(); try { audio(); } catch (e) {} });
+function pressed(k) { const i = pressedQ.indexOf(k); if (i >= 0) { pressedQ.splice(i, 1); return true; } return false; }
+function consumeDir() {
+  for (const d of ["up", "down", "left", "right"]) { const i = pressedQ.indexOf(d); if (i >= 0) { pressedQ.splice(i, 1); return d; } }
+  if (keys.up) return "up"; if (keys.down) return "down"; if (keys.left) return "left"; if (keys.right) return "right";
+  return null;
+}
+
+/* ---------------- dialogue ---------------- */
+function say(lines, onDone) {
+  if (!Array.isArray(lines)) lines = [lines];
+  G.dlg = { lines, i: 0, chars: 0, onDone: onDone || null, choice: null };
+  sfx.blip();
+}
+function ask(question, options, onDone) {
+  G.dlg = { lines: [question], i: 0, chars: 0, onDone, choice: { options, sel: 0 } };
+  sfx.blip();
+}
+function updateDlg(dt) {
+  const d = G.dlg; if (!d) return;
+  const full = d.lines[d.i];
+  if (d.chars < full.length) {
+    d.chars = Math.min(full.length, d.chars + dt * 60);
+    if (pressed("a") || pressed("b")) d.chars = full.length;
+    pressedQ.length = 0; return;
+  }
+  if (d.choice) {
+    if (pressed("up")) { d.choice.sel = (d.choice.sel + d.choice.options.length - 1) % d.choice.options.length; sfx.blip(); }
+    if (pressed("down")) { d.choice.sel = (d.choice.sel + 1) % d.choice.options.length; sfx.blip(); }
+    if (pressed("a")) { const sel = d.choice.sel; const cb = d.onDone; G.dlg = null; sfx.blip(); if (cb) cb(sel); }
+    if (pressed("b")) { G.dlg = null; sfx.back(); }
+    return;
+  }
+  if (pressed("a") || pressed("b")) {
+    pressed("a"); pressed("b");
+    d.i++; d.chars = 0; sfx.blip();
+    if (d.i >= d.lines.length) { const cb = d.onDone; G.dlg = null; if (cb) cb(-1); }
+  }
+}
+
+/* ---------------- overworld ---------------- */
+function aliveCount() { return G.party.filter(m => m.hp > 0).length; }
+function firstAlive() { return G.party.find(m => m.hp > 0); }
+
+function tryMove(dt) {
+  if (G.moving) {
+    G.stepT += dt * 5.2;
+    if (G.stepT >= 1) {
+      G.stepT = 0; G.moving = false;
+      G.px = G.stepTo[0]; G.py = G.stepTo[1];
+      G.mx = G.px * TILE; G.my = G.py * TILE;
+      onEnterTile(G.px, G.py);
+    } else {
+      G.mx = (G.stepFrom[0] + (G.stepTo[0] - G.stepFrom[0]) * G.stepT) * TILE;
+      G.my = (G.stepFrom[1] + (G.stepTo[1] - G.stepFrom[1]) * G.stepT) * TILE;
+    }
+    return;
+  }
+  const d = consumeDir();
+  if (!d) return;
+  const di = { up: 1, down: 0, left: 2, right: 3 }[d];
+  G.dir = di;
+  const nx = G.px + DIRS[di][0], ny = G.py + DIRS[di][1];
+  // NPC block
+  if (NPCS.some(n => n.x === nx && n.y === ny)) { sfx.bump(); return; }
+  const t = at(nx, ny);
+  if (SOLID.has(t)) { sfx.bump(); return; }
+  G.moving = true; G.stepT = 0;
+  G.stepFrom = [G.px, G.py]; G.stepTo = [nx, ny];
+}
+function onEnterTile(x, y) {
+  const t = at(x, y);
+  // heal lodge mat
+  if (x === 55 && y === 27) {
+    if (aliveCount() < G.party.length || G.party.some(m => m.hp < m.maxHp)) {
+      G.party.forEach(m => { m.hp = m.maxHp; });
+      sfx.heal();
+      say("The warm lodge heals your\nwhole party to full HP!");
+    }
+    return;
+  }
+  // rival challenge
+  if (G.hasStarter && !G.rivalBeaten) {
+    const r = NPCS[1];
+    if (Math.abs(x - r.x) + Math.abs(y - r.y) <= 2) {
+      startRivalBattle(); return;
+    }
+  }
+  // wild encounter
+  if (t === 1 && aliveCount() > 0 && Math.random() < 0.13) {
+    const east = x >= 30;
+    startWildBattle(east ? 2 : 1);
+  }
+}
+function facingTile() { return [G.px + DIRS[G.dir][0], G.py + DIRS[G.dir][1]]; }
+function interact() {
+  const [fx, fy] = facingTile();
+  const npc = NPCS.find(n => n.x === fx && n.y === fy);
+  if (npc) { talkTo(npc); return; }
+  const key = fx + "," + fy;
+  if (SIGNS[key]) { say(SIGNS[key].split("\n")); return; }
+  if (at(fx, fy) === 7) { say("A red doormat. Someone keeps\nthis place cozy."); return; }
+}
+function talkTo(npc) {
+  if (npc.kind === "prof") {
+    if (!G.hasStarter) {
+      G.metProf = true;
+      say(["Ah, you're awake! I'm Prof. Bramble.", "The grass east of town crawls\nwith wild TinyMon.", "Take one of mine, and be safe!"], () => {
+        ask("Choose your partner:", ["EMBERCUB (Fire)", "BUBBLESKIP (Water)", "LEAFKIT (Leaf)"], sel => {
+          if (sel < 0) return;
+          const sp = ["embercub", "bubskip", "leafkit"][sel];
+          const mon = makeMon(sp, 5);
+          G.party.push(mon); G.hasStarter = true;
+          sfx.fanfare();
+          say(["You received " + monName(mon) + "!", "Kite next door already took\none. Watch out east!"]);
+        });
+      });
+    } else if (!G.rivalBeaten) {
+      say(["Your TinyMon grows by battling.", "Heal at the lodge far east\nif you're hurt."]);
+    } else {
+      say(["Marvelous! You beat Kite!", "Tall grass to the far east\nhides stronger TinyMon."]);
+    }
+    return;
+  }
+  if (npc.kind === "rival") {
+    if (!G.hasStarter) { say(["Kite: Out of my way! I'm\ngetting a TinyMon first!"]); return; }
+    if (!G.rivalBeaten) { startRivalBattle(); return; }
+    say(["Kite: ...Fine! You're better.\nThis time."]);
+    return;
+  }
+  say([pick(["I saw a Nibbler by the\nwest field!", "Splashfin like the pond.\nGo south-east!", "Heal Lodge mat fixes\nfainting, I swear!", "Hold H anytime for help."])]);
+}
+function monName(m) { return SPECIES[m.sp].name + " Lv" + m.lvl; }
+
+/* ---------------- battles ---------------- */
+function startWildBattle(zone) {
+  const table = zone === 2
+    ? [["flutterby", 4, 6], ["splashfin", 4, 6], ["cindermite", 5, 7], ["pebblor", 5, 7]]
+    : [["nibbler", 2, 4], ["flutterby", 2, 4], ["splashfin", 3, 5]];
+  const [sp, lo, hi] = pick(table);
+  const foe = makeMon(sp, ri(lo, hi));
+  beginBattle(foe, null);
+  sfx.encounter();
+}
+function startRivalBattle() {
+  const mine = G.party[0] ? G.party[0].sp : "embercub";
+  const counter = mine === "embercub" ? "bubskip" : mine === "bubskip" ? "leafkit" : "embercub";
+  const foe = makeMon(counter, 6);
+  beginBattle(foe, "Rival Kite");
+  sfx.encounter();
+}
+function beginBattle(foe, trainer) {
+  G.scene = "battle";
+  G.battle = {
+    foe, trainer, phase: "intro", t: 0,
+    msg: (trainer ? trainer + " wants to battle!" : "Wild " + SPECIES[foe.sp].name + " appeared!"),
+    menu: 0, fightSel: 0, sel: "main",
+    anim: null, shakeF: 0, shakeP: 0,
+    balls: 0, // shake count anim
+  };
+}
+function playerMon() { return firstAlive(); }
+function foeAlive(b) { return b.foe.hp > 0; }
+
+function battleMsg(b, text, next, dur) { b.msg = text; b.phase = "msg"; b.t = 0; b.next = next; b.dur = dur || 1.15; }
+
+function enemyTurn(b) {
+  const foe = b.foe, me = playerMon();
+  if (!me) return;
+  const mv = pick(foe.moves);
+  const { dmg, eff: e, crit } = calcDamage(foe, me, mv);
+  me.hp = Math.max(0, me.hp - dmg);
+  b.shakeP = 0.35;
+  if (e > 1) sfx.superHit(); else sfx.hit();
+  let txt = "Foe " + SPECIES[foe.sp].name + " used\n" + MOVES[mv].name + "!";
+  if (crit) txt += " Critical hit!";
+  if (e > 1) txt += " Super effective!";
+  else if (e < 1) txt += " Not very effective...";
+  if (me.hp <= 0) {
+    sfx.faint();
+    battleMsg(b, txt + "\n" + SPECIES[me.sp].name + " fainted!", () => {
+      if (!firstAlive()) {
+        battleMsg(b, "No TinyMon left!\nYou scurry to the lodge...", () => {
+          G.party.forEach(m => { m.hp = m.maxHp; });
+          G.px = 55; G.py = 28; G.mx = G.px * TILE; G.my = G.py * TILE;
+          G.scene = "overworld"; G.battle = null;
+          say("The lodge healed everyone.\nTry training in west grass!");
+        }, 1.6);
+      } else {
+        battleMsg(b, "Go, " + SPECIES[firstAlive().sp].name + "!", () => { b.phase = "menu"; b.sel = "main"; }, 1.0);
+      }
+    });
+  } else {
+    battleMsg(b, txt, () => { b.phase = "menu"; b.sel = "main"; });
+  }
+}
+function playerAttack(b, mv) {
+  const me = playerMon(), foe = b.foe;
+  const first = me.spd >= foe.spd;
+  const doHit = (att, def, isPlayer) => {
+    const { dmg, eff: e, crit } = calcDamage(att, def, mv);
+    def.hp = Math.max(0, def.hp - dmg);
+    if (isPlayer) b.shakeF = 0.35; else b.shakeP = 0.35;
+    if (e > 1) sfx.superHit(); else sfx.hit();
+    let txt = (isPlayer ? "Your " : "Foe ") + SPECIES[att.sp].name + " used\n" + MOVES[mv].name + "!";
+    if (crit) txt += " Critical hit!";
+    if (e > 1) txt += " Super effective!";
+    else if (e < 1) txt += " It's weak...";
+    return { txt, ko: def.hp <= 0 };
+  };
+  if (first) {
+    const r = doHit(me, foe, true);
+    if (r.ko) return foeDown(b, r.txt);
+    battleMsg(b, r.txt, () => enemyTurn(b));
+  } else {
+    // foe strikes first with its own random move
+    const fm = pick(foe.moves);
+    const { dmg, eff: e, crit } = calcDamage(foe, me, fm);
+    me.hp = Math.max(0, me.hp - dmg);
+    b.shakeP = 0.35; sfx.hit();
+    if (me.hp <= 0) {
+      sfx.faint();
+      battleMsg(b, "Foe " + SPECIES[foe.sp].name + " used\n" + MOVES[fm].name + "! " + SPECIES[me.sp].name + " fainted!", () => {
+        if (!firstAlive()) {
+          battleMsg(b, "No TinyMon left!\nYou scurry to the lodge...", () => {
+            G.party.forEach(m => { m.hp = m.maxHp; });
+            G.px = 55; G.py = 28; G.mx = G.px * TILE; G.my = G.py * TILE;
+            G.scene = "overworld"; G.battle = null;
+            say("The lodge healed everyone.\nTry training in west grass!");
+          }, 1.6);
+        } else battleMsg(b, "Go, " + SPECIES[firstAlive().sp].name + "!", () => { b.phase = "menu"; b.sel = "main"; }, 1.0);
+      });
+      return;
+    }
+    const r = doHit(me, foe, true);
+    if (r.ko) return foeDown(b, "Foe " + SPECIES[foe.sp].name + " used " + MOVES[fm].name + "!\n" + r.txt);
+    battleMsg(b, "Foe " + SPECIES[foe.sp].name + " used\n" + MOVES[fm].name + "!\n" + r.txt, () => { b.phase = "menu"; b.sel = "main"; }, 1.7);
+  }
+}
+function foeDown(b, txt) {
+  sfx.faint();
+  const me = playerMon();
+  const gain = Math.floor(SPECIES[b.foe.sp].baseXp * b.foe.lvl / 7) + (b.trainer ? 12 : 0);
+  battleMsg(b, txt + "\nFoe " + SPECIES[b.foe.sp].name + " fainted!", () => {
+    me.xp += gain;
+    if (me.xp >= xpNext(me.lvl)) {
+      me.lvl++;
+      const st = statsFor(me.sp, me.lvl);
+      me.maxHp = st.maxHp; me.atk = st.atk; me.def = st.def; me.spd = st.spd;
+      me.hp = Math.min(me.maxHp, me.hp + Math.floor(st.maxHp / 4));
+      me.moves = movesFor(me.sp, me.lvl);
+      sfx.level();
+      battleMsg(b, "Your " + SPECIES[me.sp].name + " grew to\nLv" + me.lvl + "! (+" + gain + " XP)", () => endBattle(b, true), 1.5);
+    } else {
+      battleMsg(b, "Gained " + gain + " XP!", () => endBattle(b, true), 1.0);
+    }
+  });
+}
+function endBattle(b, won) {
+  if (b.trainer && won) {
+    G.rivalBeaten = true;
+    const r = NPCS[1]; r.x = 26; r.y = 22;
+    sfx.fanfare();
+    G.scene = "overworld"; G.battle = null;
+    say(["You beat Rival Kite!", "Kite: Grr... I'll train harder.\nEast field next, loser!"]);
+  } else if (!b.trainer && won) {
+    G.scene = "overworld"; G.battle = null;
+  }
+}
+function tryCatch(b) {
+  const me = playerMon();
+  if (b.trainer) { battleMsg(b, "Can't steal a trainer's\nTinyMon!", () => { b.phase = "menu"; b.sel = "main"; }); return; }
+  if (G.traps <= 0) { battleMsg(b, "No traps left!", () => { b.phase = "menu"; b.sel = "main"; }); return; }
+  if (G.party.length + G.box.length >= 12) { battleMsg(b, "Your box is full!", () => { b.phase = "menu"; b.sel = "main"; }); return; }
+  G.traps--;
+  sfx.ball();
+  const f = b.foe;
+  const rate = (3 * f.maxHp - 2 * f.hp) * SPECIES[f.sp].catch / (3 * f.maxHp) / 100;
+  b.phase = "catch"; b.t = 0; b.shakes = 0;
+  b.catchOk = Math.random() < rate * 1.6;
+}
+function usePotionBattle(b) {
+  const me = playerMon();
+  if (G.potions <= 0) { battleMsg(b, "No potions left!", () => { b.phase = "menu"; b.sel = "main"; }); return; }
+  if (me.hp >= me.maxHp) { battleMsg(b, me.sp ? "HP is already full!" : "HP full!", () => { b.phase = "menu"; b.sel = "main"; }); return; }
+  G.potions--;
+  me.hp = Math.min(me.maxHp, me.hp + 20);
+  sfx.heal();
+  battleMsg(b, "Used a potion!\n" + SPECIES[me.sp].name + " recovered.", () => enemyTurn(b));
+}
+function updateBattle(dt) {
+  const b = G.battle; if (!b) return;
+  b.t += dt;
+  if (b.shakeF > 0) b.shakeF -= dt;
+  if (b.shakeP > 0) b.shakeP -= dt;
+  if (b.phase === "intro") { if (b.t > 1.3) { b.phase = "menu"; b.sel = "main"; } return; }
+  if (b.phase === "msg") { if (b.t >= (b.dur || 1.15) && (pressed("a") || pressed("b") || b.t > (b.dur || 1.15) + 0.6)) { pressedQ.length = 0; const n = b.next; b.next = null; if (n) n(); } return; }
+  if (b.phase === "catch") {
+    if (b.t > 0.5 && b.shakes < 3) { b.shakes++; b.t = 0; tone(500 + b.shakes * 120, .09, "sine", .07); }
+    if (b.shakes >= 3 && b.t > 0.6) {
+      if (b.catchOk) {
+        sfx.fanfare();
+        const nm = SPECIES[b.foe.sp].name;
+        if (G.party.length < 6) G.party.push(b.foe); else G.box.push(b.foe);
+        G.caughtTotal++;
+        battleMsg(b, "Gotcha! " + nm + " was\ncaught!" + (G.party.length >= 6 ? "\nSent to the box." : ""), () => { G.scene = "overworld"; G.battle = null; }, 1.6);
+      } else {
+        battleMsg(b, "Oh no! It broke free!", () => enemyTurn(b));
+      }
+    }
+    return;
+  }
+  // menu phases
+  const me = playerMon();
+  if (b.sel === "main") {
+    if (pressed("up")) { b.menu = (b.menu + 3) % 4; sfx.blip(); }
+    if (pressed("down")) { b.menu = (b.menu + 1) % 4; sfx.blip(); }
+    if (pressed("a")) {
+      sfx.blip();
+      if (b.menu === 0) { b.sel = "fight"; b.fightSel = 0; }
+      else if (b.menu === 1) { usePotionBattle(b); }
+      else if (b.menu === 2) { tryCatch(b); }
+      else {
+        if (b.trainer) { battleMsg(b, "No running from a\ntrainer battle!", () => { b.phase = "menu"; b.sel = "main"; }); }
+        else if (Math.random() < 0.75) { battleMsg(b, "Got away safely!", () => { G.scene = "overworld"; G.battle = null; }, 0.9); }
+        else battleMsg(b, "Can't escape!", () => enemyTurn(b));
+      }
+    }
+    return;
+  }
+  if (b.sel === "fight") {
+    const n = me.moves.length;
+    if (pressed("up")) { b.fightSel = (b.fightSel + n - 1) % n; sfx.blip(); }
+    if (pressed("down")) { b.fightSel = (b.fightSel + 1) % n; sfx.blip(); }
+    if (pressed("b")) { b.sel = "main"; sfx.back(); return; }
+    if (pressed("a")) { const mv = me.moves[b.fightSel]; b.sel = "main"; playerAttack(b, mv); }
+  }
+}
+
+/* ---------------- title / menu ---------------- */
+function updateTitle(dt) {
+  if (pressed("a")) {
+    pressedQ.length = 0;
+    try { audio(); } catch (e) {}
+    sfx.fanfare();
+    G.scene = "overworld";
+    if (!G.hasStarter && !G.metProf && G.party.length === 0) {
+      say(["Welcome to the world of\nTinyMon!", "I'm Prof. Bramble.", "My lab is EAST of the road.\nCome talk to me!"]);
+    }
+  }
+}
+function toggleMenu() {
+  if (G.menu) { G.menu = null; sfx.back(); }
+  else if (G.scene === "overworld" && !G.dlg) { G.menu = { tab: 0 }; sfx.blip(); }
+}
+function updateMenu() {
+  if (pressed("b") || pressed("a")) { toggleMenu(); return; }
+}
+
+/* ---------------- main update ---------------- */
+function update(dt) {
+  G.t += dt;
+  if (G.shake > 0) G.shake -= dt;
+  if (G.flash > 0) G.flash -= dt;
+  if (G.scene === "title") { updateTitle(dt); return; }
+  if (G.menu) { updateMenu(); pressedQ.length = 0; return; }
+  if (G.dlg) { updateDlg(dt); return; }
+  if (G.scene === "battle") { updateBattle(dt); return; }
+  // overworld
+  if (pressed("a")) interact();
+  if (pressed("b")) toggleMenu();
+  tryMove(dt);
+}
+
+/* ============================================================
+   RENDER
+   ============================================================ */
+function drawText(str, x, y, size, color, align, bold) {
+  ctx.font = (bold ? "bold " : "") + size + "px ui-monospace, Menlo, Consolas, monospace";
+  ctx.textAlign = align || "left"; ctx.textBaseline = "top";
+  ctx.fillStyle = "#000";
+  ctx.fillText(str, x + 1, y + 1);
+  ctx.fillStyle = color || "#fff";
+  ctx.fillText(str, x, y);
+}
+function box(x, y, w, h, fill, border) {
+  ctx.fillStyle = fill || "rgba(10,14,22,0.92)";
+  ctx.fillRect(x, y, w, h);
+  ctx.strokeStyle = border || "#ffcb05"; ctx.lineWidth = 2;
+  ctx.strokeRect(x + 1, y + 1, w - 2, h - 2);
+}
+
+/* ---- tiles ---- */
+function drawTile(t, sx, sy, wx, wy, time) {
+  const s = TILE;
+  if (t === 0 || t === 1 || t === 10) { // grass base
+    ctx.fillStyle = (wx + wy) % 2 ? "#5aa64b" : "#54a047";
+    ctx.fillRect(sx, sy, s, s);
+  }
+  if (t === 10) { // flowers
+    ctx.fillStyle = "#5aa64b"; ctx.fillRect(sx, sy, s, s);
+    ctx.fillStyle = hash2(wx, wy) > 0.5 ? "#ff8ab3" : "#fff";
+    ctx.fillRect(sx + 5 + (hash2(wy, wx) * 10 | 0), sy + 6, 4, 4);
+    ctx.fillStyle = "#ffe45e"; ctx.fillRect(sx + 6 + (hash2(wy, wx) * 10 | 0), sy + 7, 2, 2);
+  }
+  if (t === 1) { // tall grass tufts
+    ctx.fillStyle = "#3f8a37";
+    const sw = Math.sin(time * 3 + wx + wy) * 1.5;
+    for (let i = 0; i < 5; i++) {
+      const gx = sx + 3 + i * 4 + sw;
+      ctx.fillRect(gx, sy + 8, 3, 12);
+      ctx.fillRect(gx - 1, sy + 5, 3, 5);
+    }
+  }
+  if (t === 2) { // water
+    ctx.fillStyle = "#2f7fc9"; ctx.fillRect(sx, sy, s, s);
+    ctx.fillStyle = "#57b6f0";
+    const off = Math.floor(time * 2 + wx * 0.7 + wy * 0.4) % 3;
+    ctx.fillRect(sx + 2, sy + 6 + off * 3, 9, 2);
+    ctx.fillRect(sx + 12, sy + 14 - off * 2, 8, 2);
+  }
+  if (t === 3) { // path
+    ctx.fillStyle = "#d9b77c"; ctx.fillRect(sx, sy, s, s);
+    ctx.fillStyle = "#c9a468";
+    if ((wx * 7 + wy * 3) % 5 === 0) ctx.fillRect(sx + 6, sy + 9, 5, 3);
+  }
+  if (t === 4) { // tree
+    ctx.fillStyle = "#4c9a44"; ctx.fillRect(sx, sy, s, s);
+    ctx.fillStyle = "#6b4a2f"; ctx.fillRect(sx + 10, sy + 14, 4, 8);
+    ctx.fillStyle = "#2e7d32"; ctx.fillRect(sx + 2, sy + 1, 20, 14);
+    ctx.fillStyle = "#388e3c"; ctx.fillRect(sx + 5, sy + 3, 9, 6);
+  }
+  if (t === 5) { // wall
+    ctx.fillStyle = "#f2e3c6"; ctx.fillRect(sx, sy, s, s);
+    ctx.fillStyle = "#d9c49a"; ctx.fillRect(sx, sy + 18, s, 6);
+    ctx.fillStyle = "#8a6f4d"; ctx.fillRect(sx, sy, s, 2);
+  }
+  if (t === 6) { // roof
+    ctx.fillStyle = "#c0392b"; ctx.fillRect(sx, sy, s, s);
+    ctx.fillStyle = "#96281b"; if (wy % 2 === 0) ctx.fillRect(sx, sy, s, 4);
+    ctx.fillStyle = "#e74c3c"; ctx.fillRect(sx, sy, s, 2);
+  }
+  if (t === 7) { // doormat
+    ctx.fillStyle = "#d9b77c"; ctx.fillRect(sx, sy, s, s);
+    ctx.fillStyle = "#c0392b"; ctx.fillRect(sx + 3, sy + 6, 18, 12);
+    ctx.fillStyle = "#96281b"; ctx.fillRect(sx + 3, sy + 6, 18, 3);
+  }
+  if (t === 8) { // fence
+    ctx.fillStyle = (wx + wy) % 2 ? "#5aa64b" : "#54a047"; ctx.fillRect(sx, sy, s, s);
+    ctx.fillStyle = "#8a6f4d"; ctx.fillRect(sx, sy + 8, s, 4);
+    ctx.fillRect(sx + 2, sy + 4, 3, 14); ctx.fillRect(sx + 18, sy + 4, 3, 14);
+  }
+  if (t === 9) { // sign
+    ctx.fillStyle = "#5aa64b"; ctx.fillRect(sx, sy, s, s);
+    ctx.fillStyle = "#6b4a2f"; ctx.fillRect(sx + 10, sy + 12, 4, 10);
+    ctx.fillStyle = "#a9713f"; ctx.fillRect(sx + 4, sy + 3, 16, 11);
+    ctx.fillStyle = "#f7e9c8"; ctx.fillRect(sx + 6, sy + 5, 12, 2); ctx.fillRect(sx + 6, sy + 9, 8, 2);
+  }
+  if (t === 11) { // sand
+    ctx.fillStyle = "#e8d29a"; ctx.fillRect(sx, sy, s, s);
+    ctx.fillStyle = "#dbc084"; if ((wx + wy) % 3 === 0) ctx.fillRect(sx + 8, sy + 8, 4, 3);
+  }
+  if (t === 12) { // rock
+    ctx.fillStyle = "#5aa64b"; ctx.fillRect(sx, sy, s, s);
+    ctx.fillStyle = "#8d99ae"; ctx.fillRect(sx + 4, sy + 8, 16, 12);
+    ctx.fillStyle = "#edf2f4"; ctx.fillRect(sx + 6, sy + 10, 6, 4);
+  }
+  if (t === 13) { // planks
+    ctx.fillStyle = "#2f7fc9"; ctx.fillRect(sx, sy, s, s);
+    ctx.fillStyle = "#a9713f"; ctx.fillRect(sx + 2, sy, 20, s);
+    ctx.fillStyle = "#6b4a2f"; ctx.fillRect(sx + 2, sy + 7, 20, 2); ctx.fillRect(sx + 2, sy + 15, 20, 2);
+  }
+}
+
+/* ---- characters ---- */
+function drawPlayer(sx, sy, dir, moving, time) {
+  const bob = moving ? Math.floor(time * 10) % 2 : 0;
+  const y = sy + (moving ? -bob : 0);
+  // shadow
+  ctx.fillStyle = "rgba(0,0,0,0.3)"; ctx.fillRect(sx + 4, sy + 20, 16, 3);
+  // legs
+  ctx.fillStyle = "#2c3e50";
+  const leg = moving ? (Math.floor(time * 10) % 2 ? 1 : -1) : 0;
+  ctx.fillRect(sx + 7, y + 15, 4, 6 + leg); ctx.fillRect(sx + 13, y + 15, 4, 6 - leg);
+  // body (red jacket)
+  ctx.fillStyle = "#d23b3b"; ctx.fillRect(sx + 5, y + 7, 14, 9);
+  ctx.fillStyle = "#fff"; ctx.fillRect(sx + 5, y + 11, 14, 2);
+  // arms
+  ctx.fillStyle = "#d23b3b"; ctx.fillRect(sx + 3, y + 8, 3, 7); ctx.fillRect(sx + 18, y + 8, 3, 7);
+  // head
+  ctx.fillStyle = "#f2c89b"; ctx.fillRect(sx + 6, y - 2, 12, 9);
+  // cap
+  ctx.fillStyle = "#d23b3b"; ctx.fillRect(sx + 5, y - 4, 14, 4);
+  ctx.fillStyle = "#fff"; ctx.fillRect(sx + 10, y - 4, 5, 4);
+  // face dir indicator
+  ctx.fillStyle = "#222";
+  if (dir === 0) { ctx.fillRect(sx + 8, y + 2, 2, 2); ctx.fillRect(sx + 14, y + 2, 2, 2); }
+  else if (dir === 1) { ctx.fillRect(sx + 6, y - 4, 12, 2); }
+  else if (dir === 2) { ctx.fillRect(sx + 4, y + 2, 2, 2); }
+  else { ctx.fillRect(sx + 18, y + 2, 2, 2); }
+}
+function drawNPC(sx, sy, n, time) {
+  ctx.fillStyle = "rgba(0,0,0,0.3)"; ctx.fillRect(sx + 4, sy + 20, 16, 3);
+  ctx.fillStyle = "#2c3e50"; ctx.fillRect(sx + 7, sy + 15, 4, 6); ctx.fillRect(sx + 13, sy + 15, 4, 6);
+  ctx.fillStyle = n.c1; ctx.fillRect(sx + 5, sy + 7, 14, 9);
+  ctx.fillStyle = n.c2; ctx.fillRect(sx + 5, sy + 11, 14, 2);
+  ctx.fillStyle = "#f2c89b"; ctx.fillRect(sx + 6, sy - 2, 12, 9);
+  if (n.kind === "prof") { ctx.fillStyle = "#eee"; ctx.fillRect(sx + 6, sy - 2, 12, 3); ctx.fillStyle = "#7a4fa3"; ctx.fillRect(sx + 5, sy + 7, 14, 3); }
+  if (n.kind === "rival") { ctx.fillStyle = "#c23b3b"; ctx.fillRect(sx + 5, sy - 4, 14, 4); }
+  ctx.fillStyle = "#222"; ctx.fillRect(sx + 9, sy + 2, 2, 2); ctx.fillRect(sx + 14, sy + 2, 2, 2);
+  // name tag
+  drawText(n.name, sx + 12, sy - 16, 9, "#ffcb05", "center", true);
+}
+
+/* ---- monsters (original designs) ---- */
+function drawMon(sp, cx, cy, s, back, time, fainted) {
+  const P = SPECIES[sp].pal, sh = SPECIES[sp].shape;
+  const hop = Math.sin(time * 4) * (back ? 0 : 3);
+  const y = cy + hop - (fainted ? 26 : 0);
+  const alpha = fainted ? 0.35 : 1;
+  ctx.save(); ctx.globalAlpha = alpha;
+  const u = s / 48; // unit
+  ctx.fillStyle = "rgba(0,0,0,0.25)";
+  ctx.beginPath(); ctx.ellipse(cx, cy + 22 * u, 22 * u, 6 * u, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = P.body;
+  if (sh === "cub" || sh === "kit") {
+    // ears
+    ctx.fillStyle = P.ear;
+    ctx.beginPath();
+    ctx.moveTo(cx - 16 * u, y - 8 * u); ctx.lineTo(cx - 12 * u, y - 24 * u); ctx.lineTo(cx - 4 * u, y - 10 * u); ctx.fill();
+    ctx.beginPath();
+    ctx.moveTo(cx + 16 * u, y - 8 * u); ctx.lineTo(cx + 12 * u, y - 24 * u); ctx.lineTo(cx + 4 * u, y - 10 * u); ctx.fill();
+    // body
+    ctx.fillStyle = P.body;
+    ctx.beginPath(); ctx.ellipse(cx, y, 18 * u, 15 * u, 0, 0, Math.PI * 2); ctx.fill();
+    // belly
+    ctx.fillStyle = P.belly;
+    ctx.beginPath(); ctx.ellipse(cx, y + 6 * u, 10 * u, 8 * u, 0, 0, Math.PI * 2); ctx.fill();
+    // tail flame / leaf
+    ctx.fillStyle = P.tail;
+    ctx.beginPath(); ctx.arc(cx + (back ? -20 : 20) * u, y - 12 * u, 5 * u, 0, Math.PI * 2); ctx.fill();
+    if (sh === "kit") { // leaf crest
+      ctx.fillStyle = P.ear;
+      ctx.beginPath(); ctx.ellipse(cx, y - 20 * u, 4 * u, 8 * u, 0.4, 0, Math.PI * 2); ctx.fill();
+    }
+  } else if (sh === "skip") {
+    // fins
+    ctx.fillStyle = P.ear;
+    ctx.beginPath(); ctx.moveTo(cx - 14 * u, y); ctx.lineTo(cx - 24 * u, y - 10 * u); ctx.lineTo(cx - 16 * u, y + 6 * u); ctx.fill();
+    ctx.fillStyle = P.body;
+    ctx.beginPath(); ctx.ellipse(cx, y, 18 * u, 13 * u, 0, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = P.belly;
+    ctx.beginPath(); ctx.ellipse(cx - 4 * u, y + 5 * u, 9 * u, 6 * u, 0, 0, Math.PI * 2); ctx.fill();
+    // tail fin
+    ctx.fillStyle = P.tail;
+    ctx.beginPath(); ctx.moveTo(cx + 16 * u, y); ctx.lineTo(cx + 26 * u, y - 8 * u); ctx.lineTo(cx + 26 * u, y + 8 * u); ctx.fill();
+    // head bump
+    ctx.fillStyle = P.body; ctx.beginPath(); ctx.arc(cx - 10 * u, y - 10 * u, 8 * u, 0, Math.PI * 2); ctx.fill();
+  } else if (sh === "fly") {
+    // wings
+    const flap = Math.sin(time * 10) * 6 * u;
+    ctx.fillStyle = P.tail;
+    ctx.beginPath(); ctx.ellipse(cx - 18 * u, y - 8 * u - flap, 12 * u, 6 * u, -0.5, 0, Math.PI * 2); ctx.fill();
+    ctx.beginPath(); ctx.ellipse(cx + 18 * u, y - 8 * u + flap, 12 * u, 6 * u, 0.5, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = P.body;
+    ctx.beginPath(); ctx.ellipse(cx, y, 10 * u, 13 * u, 0, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = P.belly;
+    ctx.beginPath(); ctx.ellipse(cx, y + 5 * u, 5 * u, 6 * u, 0, 0, Math.PI * 2); ctx.fill();
+    // antennae
+    ctx.strokeStyle = P.ear; ctx.lineWidth = 2 * u;
+    ctx.beginPath(); ctx.moveTo(cx - 4 * u, y - 12 * u); ctx.lineTo(cx - 8 * u, y - 20 * u); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(cx + 4 * u, y - 12 * u); ctx.lineTo(cx + 8 * u, y - 20 * u); ctx.stroke();
+  } else { // orb (pebblor)
+    ctx.fillStyle = P.body;
+    ctx.beginPath(); ctx.arc(cx, y, 17 * u, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = P.ear;
+    ctx.fillRect(cx - 14 * u, y - 4 * u, 8 * u, 5 * u);
+    ctx.fillRect(cx + 6 * u, y - 4 * u, 8 * u, 5 * u);
+    ctx.fillStyle = P.belly;
+    ctx.beginPath(); ctx.ellipse(cx, y + 8 * u, 9 * u, 6 * u, 0, 0, Math.PI * 2); ctx.fill();
+  }
+  // eyes (face viewer)
+  ctx.fillStyle = "#fff";
+  ctx.beginPath(); ctx.arc(cx - 6 * u, y - 4 * u, 4.4 * u, 0, Math.PI * 2); ctx.fill();
+  ctx.beginPath(); ctx.arc(cx + 6 * u, y - 4 * u, 4.4 * u, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = "#1c2430";
+  const look = back ? 0 : Math.sin(time * 1.5) * 1.2 * u;
+  ctx.beginPath(); ctx.arc(cx - 6 * u + look, y - 4 * u, 2.1 * u, 0, Math.PI * 2); ctx.fill();
+  ctx.beginPath(); ctx.arc(cx + 6 * u + look, y - 4 * u, 2.1 * u, 0, Math.PI * 2); ctx.fill();
+  // cheeks for charm
+  ctx.fillStyle = "rgba(255,120,120,0.55)";
+  ctx.beginPath(); ctx.arc(cx - 11 * u, y + 1 * u, 2.4 * u, 0, Math.PI * 2); ctx.fill();
+  ctx.beginPath(); ctx.arc(cx + 11 * u, y + 1 * u, 2.4 * u, 0, Math.PI * 2); ctx.fill();
+  ctx.restore();
+}
+
+/* ---- HUD bits ---- */
+function hpBar(x, y, w, cur, max) {
+  ctx.fillStyle = "#222"; ctx.fillRect(x - 1, y - 1, w + 2, 9);
+  ctx.fillStyle = "#3a3f4a"; ctx.fillRect(x, y, w, 7);
+  const f = clamp(cur / max, 0, 1);
+  ctx.fillStyle = f > 0.5 ? "#4caf5d" : f > 0.2 ? "#ffb03a" : "#e04040";
+  ctx.fillRect(x, y, Math.floor(w * f), 7);
+}
+function drawDlg() {
+  const d = G.dlg; if (!d) return;
+  const x = 24, y = H - 132, w = W - 48, h = 112;
+  box(x, y, w, h);
+  const line = d.lines[d.i].slice(0, Math.floor(d.chars));
+  const parts = line.split("\n");
+  parts.forEach((p, i) => drawText(p, x + 18, y + 16 + i * 26, 20, "#fff"));
+  if (d.chars >= d.lines[d.i].length && !d.choice) {
+    if (Math.floor(G.t * 2) % 2) drawText("▼", x + w - 30, y + h - 30, 18, "#ffcb05");
+  }
+  if (d.choice && d.chars >= d.lines[d.i].length) {
+    d.choice.options.forEach((o, i) => {
+      const yy = y + 46 + i * 24;
+      drawText((d.choice.sel === i ? "▶ " : "  ") + o, x + 320, yy, 18, d.choice.sel === i ? "#ffcb05" : "#cfd6e4", "left", d.choice.sel === i);
+    });
+  }
+}
+function drawMenuOverlay() {
+  ctx.fillStyle = "rgba(0,0,0,0.55)"; ctx.fillRect(0, 0, W, H);
+  const x = 90, y = 60, w = W - 180, h = H - 160;
+  box(x, y, w, h);
+  drawText("PARTY  ·  traps ×" + G.traps + "   potions ×" + G.potions, x + 20, y + 14, 18, "#ffcb05", "left", true);
+  if (!G.party.length) drawText("No TinyMon yet! Visit Prof. Bramble.", x + 20, y + 60, 17, "#cfd6e4");
+  G.party.forEach((m, i) => {
+    const yy = y + 56 + i * 56;
+    drawText((m.hp > 0 ? "● " : "✖ ") + SPECIES[m.sp].name + "  Lv" + m.lvl, x + 20, yy, 17, m.hp > 0 ? "#fff" : "#8a93a5", "left", true);
+    hpBar(x + 320, yy + 2, 220, m.hp, m.maxHp);
+    drawText(m.hp + "/" + m.maxHp, x + 550, yy, 15, "#cfd6e4");
+    drawText(SPECIES[m.sp].type + " · " + m.moves.map(k => MOVES[k].name).join("/"), x + 20, yy + 24, 13, "#9aa4b2");
+  });
+  if (G.box.length) drawText("Box: " + G.box.map(m => SPECIES[m.sp].name).join(", "), x + 20, y + h - 60, 13, "#9aa4b2");
+  drawText("Z / X: close", x + 20, y + h - 32, 14, "#9aa4b2");
+}
+function drawHelpOverlay() {
+  ctx.fillStyle = "rgba(0,0,0,0.7)"; ctx.fillRect(0, 0, W, H);
+  box(180, 70, W - 360, H - 170);
+  drawText("HOW TO PLAY", 480, 95, 22, "#ffcb05", "center", true);
+  const rows = [
+    "Move: Arrows / WASD", "Talk · confirm: Z / Enter / Space",
+    "Back · menu: X / Esc", "Talk to Prof. Bramble (east lab)",
+    "to get your starter!", "Tall grass = wild TinyMon.",
+    "Weaken + TRAP to catch.", "Red mat at Heal Lodge = heal.",
+    "Beat Rival Kite east of lab!", "H: help · M: sound on/off",
+  ];
+  rows.forEach((r, i) => drawText(r, 480, 135 + i * 26, 16, "#e8ecf3", "center"));
+}
+
+/* ---- scenes ---- */
+function renderTitle() {
+  // gradient sky
+  const g = ctx.createLinearGradient(0, 0, 0, H);
+  g.addColorStop(0, "#1b2a5e"); g.addColorStop(0.6, "#274b8f"); g.addColorStop(1, "#101a38");
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  // stars
+  for (let i = 0; i < 90; i++) {
+    const x = hash2(i, 7) * W, y = hash2(i, 13) * 300;
+    ctx.fillStyle = "rgba(255,255,255," + (0.3 + hash2(i, 29) * 0.6) + ")";
+    ctx.fillRect(x, y, 2, 2);
+  }
+  // hills
+  ctx.fillStyle = "#2e7d46"; ctx.beginPath(); ctx.ellipse(180, 560, 320, 200, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = "#35934f"; ctx.beginPath(); ctx.ellipse(780, 580, 360, 220, 0, 0, Math.PI * 2); ctx.fill();
+  // trio of starters
+  drawMon("embercub", 330, 380, 64, false, G.t, false);
+  drawMon("bubskip", 480, 390, 72, false, G.t + 1, false);
+  drawMon("leafkit", 630, 380, 64, false, G.t + 2, false);
+  // logo
+  drawText("TINYMON", 480, 66, 84, "#ffcb05", "center", true);
+  drawText("RED", 480, 150, 44, "#ee1c25", "center", true);
+  drawText("A 2D desktop monster RPG · built from the pokered zip", 480, 208, 17, "#cfd6e4", "center");
+  if (Math.floor(G.t * 1.6) % 2 === 0) drawText("— Press ENTER / Z to start —", 480, 470, 22, "#fff", "center", true);
+  drawText("100% original art · code · sound — no emulator, no ROM", 480, 505, 13, "#9aa4b2", "center");
+}
+function renderOverworld() {
+  // camera
+  const px = G.mx + TILE / 2, py = G.my + TILE / 2;
+  const camX = clamp(Math.floor(px - VW / 2), 0, MW * TILE - VW);
+  const camY = clamp(Math.floor(py - VH / 2), 0, MH * TILE - VH);
+  const ox = 12 - camX, oy = 12 - camY;
+  // world view frame
+  ctx.fillStyle = "#000"; ctx.fillRect(12, 12, VW, VH);
+  ctx.save(); ctx.beginPath(); ctx.rect(12, 12, VW, VH); ctx.clip();
+  const x0 = Math.floor(camX / TILE), y0 = Math.floor(camY / TILE);
+  for (let y = y0; y <= y0 + VH / TILE + 1; y++) {
+    for (let x = x0; x <= x0 + VW / TILE + 1; x++) {
+      const sx = ox + x * TILE, sy = oy + y * TILE;
+      drawTile(at(x, y), sx, sy, x, y, G.t);
+    }
+  }
+  // npcs
+  for (const n of NPCS) drawNPC(ox + n.x * TILE, oy + n.y * TILE, n, G.t);
+  // player
+  drawPlayer(ox + G.mx, oy + G.my - 4, G.dir, G.moving, G.t);
+  ctx.restore();
+  // side panel
+  const pxn = 12 + VW + 10, pw = W - pxn - 12;
+  box(pxn, 12, pw, VH);
+  drawText("TINYMON RED", pxn + 16, 26, 19, "#ffcb05", "left", true);
+  drawText("Route 1 · Pop. 3", pxn + 16, 50, 13, "#9aa4b2");
+  // party mini
+  drawText("PARTY", pxn + 16, 84, 14, "#ffcb05", "left", true);
+  if (!G.party.length) drawText("— empty —", pxn + 16, 106, 14, "#8a93a5");
+  G.party.forEach((m, i) => {
+    const yy = 106 + i * 40;
+    drawText(SPECIES[m.sp].name + " Lv" + m.lvl, pxn + 16, yy, 14, m.hp > 0 ? "#fff" : "#8a93a5", "left", true);
+    hpBar(pxn + 16, yy + 19, pw - 32, m.hp, m.maxHp);
+  });
+  drawText("Traps ×" + G.traps + "   Potions ×" + G.potions, pxn + 16, 106 + 6 * 40, 13, "#cfd6e4");
+  drawText("Caught: " + G.caughtTotal + (G.rivalBeaten ? "   ★ Rival beaten" : "   ○ Rival: east"), pxn + 16, 128 + 6 * 40, 13, "#9aa4b2");
+  // objective
+  box(pxn, 12 + VH - 96, pw, 96, "rgba(20,28,44,0.95)", "#3d7e44");
+  drawText(!G.hasStarter ? "→ Talk to Prof. Bramble!" : G.rivalBeaten ? "★ Explore + complete dex!" : "→ Face Rival Kite (east)!", pxn + 16, 12 + VH - 80, 14, "#8fe08a", "left", true);
+  drawText("Tall grass hides wilds.", pxn + 16, 12 + VH - 54, 12, "#9aa4b2");
+  drawText("X: party menu", pxn + 16, 12 + VH - 32, 12, "#9aa4b2");
+  drawDlg();
+  if (G.menu) drawMenuOverlay();
+  if (G.help) drawHelpOverlay();
+}
+function renderBattle() {
+  const b = G.battle; if (!b) return;
+  const me = playerMon();
+  // backdrop
+  const g = ctx.createLinearGradient(0, 0, 0, H);
+  g.addColorStop(0, "#274b8f"); g.addColorStop(0.55, "#4a7ec9"); g.addColorStop(0.56, "#5aa64b"); g.addColorStop(1, "#3f8a37");
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  // grass ellipses
+  ctx.fillStyle = "#3f8a37";
+  ctx.beginPath(); ctx.ellipse(700, 250, 190, 60, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = "#4c9a44";
+  ctx.beginPath(); ctx.ellipse(240, 400, 210, 62, 0, 0, Math.PI * 2); ctx.fill();
+  const shF = b.shakeF > 0 ? rnd(-6, 6) : 0, shP = b.shakeP > 0 ? rnd(-6, 6) : 0;
+  // foe + player mons
+  const introX = b.phase === "intro" ? (1 - Math.min(1, b.t / 1.0)) * 400 : 0;
+  drawMon(b.foe.sp, 690 + introX + shF, 190, 120, false, G.t, b.foe.hp <= 0);
+  if (me) {
+    const myIntro = b.phase === "intro" ? (1 - Math.min(1, b.t / 1.0)) * -400 : 0;
+    drawMon(me.sp, 250 + myIntro + shP, 330, 132, true, G.t + 0.7, false);
+  }
+  // catch shakes: rock the foe
+  if (b.phase === "catch") {
+    ctx.save(); ctx.translate(690, 190); ctx.rotate(Math.sin(G.t * 20) * 0.12 * Math.min(1, b.shakes + 1));
+    ctx.fillStyle = "#e8e8e8"; ctx.beginPath(); ctx.arc(0, 40, 22, Math.PI, 0); ctx.fill();
+    ctx.fillStyle = "#ee1c25"; ctx.beginPath(); ctx.arc(0, 40, 22, 0, Math.PI); ctx.fill();
+    ctx.fillStyle = "#222"; ctx.fillRect(-22, 38, 44, 4);
+    ctx.fillStyle = "#fff"; ctx.beginPath(); ctx.arc(0, 40, 6, 0, Math.PI * 2); ctx.fill();
+    ctx.restore();
+  }
+  // info plates
+  box(30, 30, 330, 96);
+  drawText((b.trainer ? "RIVAL " : "WILD ") + SPECIES[b.foe.sp].name + "  Lv" + b.foe.lvl, 48, 44, 19, "#fff", "left", true);
+  hpBar(48, 72, 240, b.foe.hp, b.foe.maxHp);
+  drawText(b.foe.hp + "/" + b.foe.maxHp, 48, 84, 14, "#cfd6e4");
+  box(W - 360, H - 240, 330, 96);
+  if (me) {
+    drawText(SPECIES[me.sp].name + "  Lv" + me.lvl, W - 342, H - 226, 19, "#fff", "left", true);
+    hpBar(W - 342, H - 198, 240, me.hp, me.maxHp);
+    drawText(me.hp + "/" + me.maxHp + "   XP " + me.xp + "/" + xpNext(me.lvl), W - 342, H - 182, 13, "#cfd6e4");
+  }
+  // bottom console
+  box(30, H - 132, W - 60, 112);
+  if (b.phase === "intro" || b.phase === "msg" || b.phase === "catch") {
+    const txt = b.phase === "catch" ? "Throwing trap..." + ".".repeat(Math.min(3, b.shakes)) : b.msg;
+    txt.split("\n").forEach((p, i) => drawText(p, 52, H - 112 + i * 28, 21, "#fff"));
+    if (b.phase === "catch") drawText("shakes: " + b.shakes + "/3", 52, H - 56, 15, "#ffcb05");
+  } else if (b.sel === "main") {
+    drawText(me ? "What will " + SPECIES[me.sp].name + " do?" : "No fighter!", 52, H - 112, 20, "#fff");
+    const opts = ["FIGHT", "POTION ×" + G.potions, "TRAP ×" + G.traps, "RUN"];
+    opts.forEach((o, i) => {
+      const ox = 560 + (i % 2) * 180, oy = H - 112 + Math.floor(i / 2) * 34;
+      drawText((b.menu === i ? "▶ " : "  ") + o, ox, oy, 19, b.menu === i ? "#ffcb05" : "#cfd6e4", "left", b.menu === i);
+    });
+  } else if (b.sel === "fight" && me) {
+    me.moves.forEach((k, i) => {
+      const m = MOVES[k];
+      const ox = 52 + (i % 2) * 250, oy = H - 112 + Math.floor(i / 2) * 34;
+      drawText((b.fightSel === i ? "▶ " : "  ") + m.name + " [" + m.type + "]", ox, oy, 18, b.fightSel === i ? "#ffcb05" : "#e8ecf3", "left", b.fightSel === i);
+    });
+    drawText("X: back", 52, H - 44, 14, "#9aa4b2");
+  }
+  if (G.help) drawHelpOverlay();
+}
+function render() {
+  ctx.clearRect(0, 0, W, H);
+  if (G.scene === "title") renderTitle();
+  else if (G.scene === "battle") renderBattle();
+  else renderOverworld();
+  if (G.scene === "title" && G.help) drawHelpOverlay();
+}
+
+/* ---------------- loop ---------------- */
+let last = 0;
+function frame(ts) {
+  const dt = Math.min(0.05, (ts - last) / 1000 || 0.016);
+  last = ts;
+  try { update(dt); } catch (e) { console.error("update:", e); }
+  try { render(); } catch (e) { console.error("render:", e); }
+  requestAnimationFrame(frame);
+}
+
+/* ---------------- test hooks (?scene=title|overworld|battle) ---------------- */
+(function init() {
+  const q = new URLSearchParams(location.search);
+  const scene = (q.get("scene") || "").toLowerCase();
+  if (scene === "overworld" || scene === "battle") {
+    G.scene = "overworld";
+    G.hasStarter = true; G.metProf = true;
+    G.party = [makeMon("embercub", 7)];
+    G.potions = 3; G.traps = 5;
+    G.px = 24; G.py = 26; G.mx = G.px * TILE; G.my = G.py * TILE;
+    if (scene === "battle") beginBattle(makeMon("nibbler", 4), null);
+  }
+  cv.focus();
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>
