@@ -32,6 +32,8 @@
     <div class="row"><span>LIE</span><b id="hud-lie">TEE</b></div>
     <div class="row"><span>WIND</span><b id="hud-wind">→ 2.0 m/s</b></div>
     <div class="row"><span>CAM</span><b id="hud-cam">FOLLOW</b></div>
+    <div class="row"><span>LOFT</span><b id="hud-loft">+0.0°</b></div>
+    <div class="row"><span>SPIN</span><b id="hud-spin">0.0 / 0.0</b></div>
     <div class="clubs" id="clubs">
       <div class="club" data-club="0"><i>1</i> DRIVER <em>260m</em></div>
       <div class="club" data-club="1"><i>2</i> IRON <em>170m</em></div>
@@ -56,6 +58,12 @@
     <button id="swing-btn">SWING ⏎</button>
   </div>
 
+  <!-- Touch controls (fade in only on touch devices, only when relevant) -->
+  <div id="touch-ui">
+    <div id="spin-pad"><div id="spin-dot"></div><label>SPIN</label></div>
+    <button id="touch-swing">SWING</button>
+  </div>
+
   <!-- Message flash -->
   <div id="msg"></div>
   <div id="submsg"></div>
@@ -64,13 +72,15 @@
   <div id="scorecard" class="hidden">
     <h2>SCORECARD</h2>
     <table id="score-table"></table>
-    <p>TAB to close • N next hole • R restart tour</p>
+    <p>TAB to close • N next hole • O courses • R replay • T retry hole • ESC pause</p>
   </div>
 
   <!-- Help -->
   <div id="help">
-    <b>A/D / ◀ ▶</b> aim &nbsp; <b>1–4</b> club &nbsp; <b>SPACE</b> swing ×3 &nbsp;
-    <b>DRAG</b> orbit &nbsp; <b>WHEEL</b> zoom &nbsp; <b>C</b> cam &nbsp; <b>TAB</b> card &nbsp; <b>M</b> sound
+    <b>A/D ◀ ▶</b> aim &nbsp; <b>1–4 Q/E</b> club &nbsp; <b>SPACE</b> swing ×3 &nbsp;
+    <b>W/S</b> loft &nbsp; <b>IJKL</b> spin &nbsp; <b>DRAG</b> orbit &nbsp; <b>WHEEL</b> zoom &nbsp;
+    <b>C</b> cam &nbsp; <b>TAB</b> card &nbsp; <b>R</b> replay &nbsp; <b>O</b> courses &nbsp; <b>T</b> retry &nbsp; <b>Y</b> assist &nbsp;
+    <b>ESC</b> pause &nbsp; <b>M</b> sound &nbsp; <b>PAD</b> stick+buttons OK
   </div>
 
   <!-- Title overlay -->
@@ -78,12 +88,13 @@
     <div class="t-inner">
       <div class="t-kicker">OMGITHUB PRESENTS</div>
       <h1>WIREFRAME<br/>GOLF</h1>
-      <div class="t-sub">WIRE TOUR '86 • 9 HOLES • ALL WIREFRAME • DESKTOP 3D</div>
+      <div class="t-sub">9 HOLES • ALL WIREFRAME • DESKTOP 3D</div>
       <div class="t-controls">
-        AIM <b>A/D</b> • CLUB <b>1-4</b> • SWING <b>SPACE ×3</b> • ORBIT <b>MOUSE</b>
+        AIM <b>A/D</b> • CLUB <b>1-4</b> • SWING <b>SPACE ×3</b> • ORBIT <b>MOUSE</b> • PAD OK
       </div>
-      <button id="tee-btn">▶ &nbsp;TEE OFF</button>
-      <div class="t-note">pure lines. no fills. like 1986 never ended.</div>
+      <div class="t-kicker2">— SELECT COURSE —</div>
+      <div id="course-btns"></div>
+      <div class="t-note">still valley & sand hills yardages: real scorecards, minesing ontario.<br/>pure lines. no fills. like 1986 never ended.</div>
     </div>
   </div>
 </div>
