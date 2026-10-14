@@ -47,6 +47,24 @@ function tidyBody(text: string, maxChars: number): string {
 }
 
 /**
+ * Turn a record label into something a human would actually say.
+ * The quoted label may carry a taxonomy trail ("computer programming >
+ * paradigms > Imperative / Procedural") — speech gets only the entry's own
+ * name, with catalog punctuation spoken out ("Imperative or Procedural").
+ */
+function naturalizeTopic(rawLabel: string): string {
+  return rawLabel
+    .split('>')
+    .pop()!
+    .trim()
+    .replace(/\s\/\s/g, ' or ')
+    .replace(/\s&\s/g, ' and ')
+    .replace(/_+/g, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
+/**
  * Pull the human-sayable parts out of a stored record:
  * the topic name + one clean body. Structured prefixes stay behind.
  */
@@ -54,10 +72,7 @@ function extractSpeakable(record: string): Speakable | null {
   const single = record.replace(/\s+/g, ' ').trim();
   let m = single.match(/^KNOWLEDGE \[[^\]]+\] "([^"]+)" — (.*)$/);
   if (m) {
-    // The quoted label may carry a taxonomy trail
-    // ("computer programming > paradigms > Imperative / Procedural").
-    // Speech gets only the entry's own name — never the breadcrumb path.
-    const topic = m[1].split('>').pop()!.trim();
+    const topic = naturalizeTopic(m[1]);
     // Drop catalog tails (" — significance: ...") into plain sentences so the
     // fact reads like speech, not a database row.
     const narrative = m[2]
@@ -70,7 +85,7 @@ function extractSpeakable(record: string): Speakable | null {
   }
   m = single.match(/^DOCUMENT "([^"]+)" \[[^\]]+\]: (.*)$/);
   if (m) {
-    const topic = m[1].replace(/\.[a-z0-9]+$/i, '');
+    const topic = naturalizeTopic(m[1].replace(/\.[a-z0-9]+$/i, ''));
     const body = tidyBody(m[2], 220);
     if (!topic || !body) return null;
     return { topic, body };
