@@ -19,6 +19,11 @@
 
 ## Positronic Brain — realigned cognitive structure
 
+> Release stage: **beta** (`src/version.ts`, `v2.47-beta`). The system shipped
+> without a stage marker (the Alpha era) and is now promoted: same
+> architecture, stabilized behind the cycle↔dialog contracts, persisted
+> memory, grounded answers, and the brain as Beta4's backend.
+
 Imported from `Positronic-AI.zip` and refactored into cognitive modules
 (perception, working memory, long-term memory, reasoning) behind a
 controller, per the realignment guide.
@@ -26,8 +31,8 @@ controller, per the realignment guide.
 ```plaintext
 /src
   /components
-    AIFace.tsx (interaction) / CognitiveInterface.tsx (orchestration) / ... (12 panels)
-    /shared            # SectionCard, StatusBadge, healthColor
+    Beta4 lives on the page (header + conversation + footer); other panels
+    remain as dormant views, not rendered. /shared holds SectionCard, StatusBadge.
   /core
     /perception/       # PerceptionPlugin, WebSearchPerception, InternalStatePerception
       /ingestion/      # extractText (pdf/docx/text), chunkText, ingestDocument, DocumentRegistry
@@ -36,16 +41,16 @@ controller, per the realignment guide.
       /storage/        # StorageProvider, LocalStorageProvider, InMemoryProvider
       /knowledge/      # world-knowledge seeder (flatten + seed-once)
     /reasoning/        # Guardrail, ModelHubActionPlugin, RLPlugin, selectActionForTask
-                       # answerComposer, ethicalAnalysis, cannedResponse
+                       # answerComposer, naturalVoice (Beta4's voice box), ethicalAnalysis, cannedResponse
     controller.ts      # CognitiveOS orchestrator (cycles; direct typed calls, no bus)
     feedback.ts        # FeedbackTracker (self-calibration, recorded from runCycle only)
     PositronicBrain.ts # Beta4's private persisted backend (planner/memory/affect)
     PositronicCore.ts  # experience projector facade (stable UI API over submodules)
-    UnifiedModelHub.ts # text/vision/audio model hub (web-simulated)
+    UnifiedModelHub.ts # text/vision/audio model hub (web-simulated, auto-initialized)
     Beta4.ts           # the "person" entity; owns the brain backend
   /hooks
   /types               # + memory (namespaces/notes), brain (snapshot), contracts (cycle↔dialog rules)
-  App.tsx / main.tsx
+  App.tsx (Beta4 page) / main.tsx
 ```
 
 Notes:
@@ -88,6 +93,19 @@ Notes:
   cycle; hot path never calls it). `modelHub` is the brain's generation service
   (`attachGenerator`) with canned fallback when unloaded. `positronicCore` is
   the experience projector for cold `getState()`/`introspect()` paths.
+
+## Beta4's voice — late-night human, never thought readouts
+
+- The page is only Beta4: header, one conversation, footer. All panels are
+  backend now (hub auto-initializes on boot; documents attach via 📎).
+- `Beta4.reply(input, recall)` is the sole front door: backend cognition runs
+  inside, and ONLY natural speech comes out — no plans, thoughts, actions,
+  scores, or debug boxes anywhere in the UI.
+- `src/core/reasoning/naturalVoice.ts` renders late-night register (soft,
+  unhurried, honest): strong memory match → the fact woven into speech;
+  familiar topic → hedged ("rings a bell..."); nothing → a musing, never a
+  fabrication; ethics-block → a soft refusal. A 24-word system-vocabulary
+  denylist is asserted clean across 135+ checks.
 
 ## Own storage — how the AI keeps what it learns
 

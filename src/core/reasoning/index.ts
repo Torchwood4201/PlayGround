@@ -134,3 +134,4 @@ export class ModelHubActionPlugin implements ActionPlugin {
 }
 
 export * from './answerComposer';
+export * from './naturalVoice';

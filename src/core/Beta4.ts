@@ -16,6 +16,7 @@ import { PositronicBrain } from './PositronicBrain';
 import { CognitiveOS } from './controller';
 import { UnifiedModelHub } from './UnifiedModelHub';
 import { PositronicCore } from './PositronicCore';
+import { renderLateNightReply, type ScoredHit } from './reasoning/naturalVoice';
 import type { StorageProvider } from './longTermMemory/storage';
 import type { BrainSnapshot } from '../types/brain';
 
@@ -88,6 +89,34 @@ export class Beta4 {
     // Optionally, run cycles in CognitiveOS or PositronicCore as well
     // For now, just return PositronicBrain's result
     return { positronicBrain: pbResult };
+  }
+
+  /**
+   * Talk to the person. Runs the backend (perceive → think → recall) and
+   * returns ONLY natural speech. Internal plans, thoughts, actions, and
+   * scores stay inside — callers never see them.
+   */
+  async reply(
+    input: string,
+    recall: (query: string) => Promise<ScoredHit[]>,
+  ): Promise<{ message: string; mood: string; grounded: boolean }> {
+    this.setGoal(input);
+    await this.perceive();
+    const outcome = await this.thinkAndAct();
+    let hits: ScoredHit[] = [];
+    try {
+      hits = await recall(input);
+    } catch {
+      hits = [];
+    }
+    const mood = this.#brain.emotion.mood();
+    const voiced = renderLateNightReply({
+      userText: input,
+      hits,
+      mood,
+      blocked: outcome.positronicBrain.blocked === true,
+    });
+    return { message: voiced.message, mood, grounded: voiced.grounded };
   }
 
   // Unified run: run N cycles in all brains
