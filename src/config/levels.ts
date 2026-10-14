@@ -43,11 +43,11 @@ export const LEVELS: LevelDef[] = [
     ramp: false,
     targets: [
       { type: 'static', pos: [0, 1.7, -5.6], radius: 0.85 },
-      { type: 'static', pos: [-2.5, 1.9, -8.4], radius: 0.75 },
-      { type: 'static', pos: [2.5, 1.9, -8.4], radius: 0.75 },
-      { type: 'static', pos: [0, 2.1, -12.6], radius: 0.7 },
-      { type: 'static', pos: [-3.5, 1.6, -10.5], radius: 0.65 },
-      { type: 'static', pos: [3.5, 1.6, -10.5], radius: 0.65 }
+      { type: 'static', pos: [-2.9, 1.9, -8.4], radius: 0.75 },
+      { type: 'static', pos: [2.9, 1.9, -8.4], radius: 0.75 },
+      { type: 'static', pos: [2.45, 3.0, -12.6], radius: 0.7 },
+      { type: 'static', pos: [-5.2, 1.3, -10.5], radius: 0.65 },
+      { type: 'static', pos: [5.2, 1.3, -10.5], radius: 0.65 }
     ]
   },
   {
@@ -63,10 +63,10 @@ export const LEVELS: LevelDef[] = [
       { type: 'static', pos: [0, 1.8, -7.0], radius: 0.7 },
       { type: 'static', pos: [-3, 2.0, -9.8], radius: 0.55 },
       { type: 'static', pos: [3, 2.0, -9.8], radius: 0.55 },
-      { type: 'static', pos: [0, 2.2, -14.0], radius: 0.5 },
+      { type: 'static', pos: [1.7, 2.9, -14.0], radius: 0.5 },
       { type: 'static', pos: [-2, 1.5, -11.9], radius: 0.5 },
       { type: 'static', pos: [2, 1.5, -11.9], radius: 0.5 },
-      { type: 'static', pos: [0, 2.4, -16.8], radius: 0.4 }
+      { type: 'static', pos: [-2.4, 2.7, -16.8], radius: 0.4 }
     ]
   },
   {
@@ -98,12 +98,12 @@ export const LEVELS: LevelDef[] = [
     ramp: true,
     targets: [
       { type: 'rotating', pos: [0, 1.8, -6.3], radius: 0.85, speed: 1.2 },
-      { type: 'rotating', pos: [-3, 1.9, -9.1], radius: 0.85, speed: 1.6, phase: 1 },
-      { type: 'rotating', pos: [3, 1.9, -9.1], radius: 0.85, speed: 1.6, phase: 2 },
-      { type: 'rotating', pos: [0, 2.1, -11.9], radius: 0.85, speed: 2.0, scoreMul: 1.5 },
-      { type: 'static', pos: [-4, 1.6, -10.5], radius: 0.55 },
-      { type: 'static', pos: [4, 1.6, -10.5], radius: 0.55 },
-      { type: 'rotating', pos: [0, 2.3, -15.4], radius: 0.55, speed: 2.5, scoreMul: 2 }
+      { type: 'rotating', pos: [-3.4, 1.9, -9.1], radius: 0.85, speed: 1.6, phase: 1 },
+      { type: 'rotating', pos: [4.3, 1.9, -9.1], radius: 0.85, speed: 1.6, phase: 2 },
+      { type: 'rotating', pos: [2.6, 2.1, -11.9], radius: 0.85, speed: 2.0, scoreMul: 1.5 },
+      { type: 'static', pos: [-6.0, 1.5, -10.5], radius: 0.55 },
+      { type: 'static', pos: [6.8, 1.2, -10.5], radius: 0.55 },
+      { type: 'rotating', pos: [-2.9, 2.3, -15.4], radius: 0.55, speed: 2.5, scoreMul: 2 }
     ]
   },
   {
@@ -143,13 +143,13 @@ export const LEVELS: LevelDef[] = [
       { type: 'rotating', pos: [3.2, 2.0, -9.8], radius: 0.85, speed: 1.5, phase: Math.PI },
       { type: 'oscillating', pos: [-5.8, 1.2, -11.2], radius: 0.85, amp: 2.5, speed: 1.3 },
       { type: 'sliding', pos: [0, 2.2, -13.3], radius: 0.85, amp: 3.5, speed: 2.4, scoreMul: 1.5 },
-      { type: 'rotating', pos: [0, 2.0, -15.4], radius: 0.55, speed: 2.2, scoreMul: 1.75 },
+      { type: 'rotating', pos: [2.6, 2.0, -15.4], radius: 0.55, speed: 2.2, scoreMul: 1.75 },
       { type: 'bonus', pos: [-1.3, 2.1, -9.9], radius: 0.7, lifetime: 4, spawnAt: 15, scoreMul: 3 },
       { type: 'bonus', pos: [1.7, 2.1, -11.0], radius: 0.7, lifetime: 3.5, spawnAt: 30, scoreMul: 3 },
       { type: 'bonus', pos: [3.4, 2.3, -15.9], radius: 0.7, lifetime: 3, spawnAt: 50, scoreMul: 4 },
       { type: 'bonus', pos: [-3.6, 1.9, -5.7], radius: 0.7, lifetime: 3, spawnAt: 70, scoreMul: 3 },
-      { type: 'static', pos: [4, 1.6, -11.6], radius: 0.5 },
-      { type: 'static', pos: [-4, 1.6, -11.6], radius: 0.5 }
+      { type: 'static', pos: [5.9, 1.5, -11.6], radius: 0.5 },
+      { type: 'static', pos: [-5.9, 2.9, -11.6], radius: 0.5 }
     ]
   },
   {
@@ -166,7 +166,7 @@ export const LEVELS: LevelDef[] = [
       { type: 'static', pos: [-2.8, 1.9, -9.1], radius: 0.65 },
       { type: 'static', pos: [2.8, 1.9, -9.1], radius: 0.65 },
       { type: 'sliding', pos: [0, 2.0, -11.2], radius: 0.85, amp: 3.5, speed: 1.6 },
-      { type: 'rotating', pos: [0, 2.1, -14.0], radius: 0.6, speed: 1.4 },
+      { type: 'rotating', pos: [-2.4, 2.7, -14.0], radius: 0.6, speed: 1.4 },
       { type: 'oscillating', pos: [-5.5, 1.2, -10.5], radius: 0.85, amp: 2.0, speed: 1.1 },
       { type: 'oscillating', pos: [5.5, 1.2, -10.5], radius: 0.85, amp: 2.0, speed: 1.1, phase: Math.PI },
       { type: 'bonus', pos: [0, 2.3, -8.4], radius: 0.7, lifetime: 5, spawnAt: 10, scoreMul: 3 },

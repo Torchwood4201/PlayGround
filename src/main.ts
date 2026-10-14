@@ -8,6 +8,31 @@ import {
   type AxeFrameConfig
 } from './config/gameConfig';
 import { LEVELS, BONUS_RESPAWN_GAP, levelById, type LevelDef } from './config/levels';
+import { heroSolid, setSolidsLit } from './render/solids';
+import { buildLights } from './render/lighting';
+import { buildComposer, isSoftwareRenderer, type ComposerRig } from './render/composer';
+import {
+  initTextures,
+  getFloorTexture,
+  getHandleTexture,
+  getBrushedTexture,
+  getTargetDiscMaterial
+} from './render/textures';
+
+// Render-stage flags (URL overridable, no rebuild). Full revert to legacy
+// wireframe = ?solid=0&lit=0&tex=0&disc=lines&bloom=0.
+const RENDER_QUERY = new URLSearchParams(window.location.search);
+const RENDER_FLAGS = {
+  solid: RENDER_QUERY.get('solid') !== '0',
+  lit: RENDER_QUERY.get('lit') !== '0', // S2 default ON (?lit=0 restores S1 look)
+  shadows: RENDER_QUERY.get('shadows') !== '0',
+  env: RENDER_QUERY.get('env') !== '0',
+  tex: RENDER_QUERY.get('tex') !== '0', // S3 default ON (?tex=0 restores untextured)
+  discLines: RENDER_QUERY.get('disc') === 'lines', // S3 default: textured disc
+  bloom: RENDER_QUERY.get('bloom') as string | null,
+  stats: RENDER_QUERY.has('stats')
+};
+setSolidsLit(RENDER_FLAGS.lit && RENDER_FLAGS.solid);
 
 // ============================================================================
 // AXE//VECTOR — zero-2D wireframe axe throwing across 7 level arenas.
@@ -25,10 +50,24 @@ const canvas = document.getElementById('game-canvas') as HTMLCanvasElement;
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 renderer.setSize(window.innerWidth, window.innerHeight);
+initTextures(renderer);
 
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x000005);
 scene.fog = new THREE.Fog(0x000005, 22, 70);
+
+if (RENDER_FLAGS.lit) {
+  buildLights(renderer, scene, { shadows: RENDER_FLAGS.shadows, env: RENDER_FLAGS.env });
+  // Shadow-catcher floor (invisible except for shadows).
+  const catcher = new THREE.Mesh(
+    new THREE.PlaneGeometry(20, 40),
+    new THREE.ShadowMaterial({ opacity: 0.35 })
+  );
+  catcher.rotation.x = -Math.PI / 2;
+  catcher.position.set(0, 0.001, -20);
+  catcher.receiveShadow = true;
+  scene.add(catcher);
+}
 
 const camera = new THREE.PerspectiveCamera(
   GAME_CONFIG.camera.fov,
@@ -120,6 +159,22 @@ for (const x of [-1.5, 1.5]) {
   scene.add(new THREE.Line(bar, prismMat));
 }
 
+if (RENDER_FLAGS.tex && RENDER_FLAGS.lit) {
+  // S3 textured floor under the kept grid lines. Walls stay pure wireframe:
+  // solid side walls read as flat slabs and kill the infinite-void depth.
+  const floorSolid = new THREE.Mesh(
+    new THREE.PlaneGeometry(20, 40),
+    new THREE.MeshStandardMaterial({
+      map: getFloorTexture(), roughness: 0.9, metalness: 0.05,
+      emissive: 0xffffff, emissiveMap: getFloorTexture(), emissiveIntensity: 0.35
+    })
+  );
+  floorSolid.rotation.x = -Math.PI / 2;
+  floorSolid.position.set(0, -0.01, -20);
+  floorSolid.receiveShadow = true;
+  scene.add(floorSolid);
+}
+
 // ---------------------------------------------------------------------------
 // Seven-segment 3D digits (no text assets, no screen-space text)
 // ---------------------------------------------------------------------------
@@ -201,21 +256,77 @@ class SevenSegNumber {
   }
 }
 
+// Single-canvas readout plane for the big HUD numbers (S3): one draw per
+// number instead of one per digit segment group. Redrawn only on change.
+class TextNumber {
+  readonly group = new THREE.Group();
+  private canvas: HTMLCanvasElement;
+  private tex: THREE.CanvasTexture;
+  private plane: THREE.Mesh;
+  private last = '';
+  constructor(maxChars: number, w: number, h: number, private css: string) {
+    this.canvas = document.createElement('canvas');
+    this.canvas.width = 128 * maxChars;
+    this.canvas.height = 160;
+    this.tex = new THREE.CanvasTexture(this.canvas);
+    this.tex.colorSpace = THREE.SRGBColorSpace;
+    this.tex.anisotropy = 4;
+    this.plane = new THREE.Mesh(
+      new THREE.PlaneGeometry(w, h),
+      new THREE.MeshBasicMaterial({ map: this.tex, transparent: true })
+    );
+    this.group.add(this.plane);
+    this.setValue(0);
+  }
+  setValue(v: number) {
+    const s = String(Math.max(0, Math.floor(v)));
+    if (s === this.last) return;
+    this.last = s;
+    const ctx = this.canvas.getContext('2d');
+    if (!ctx) return;
+    ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    ctx.font = `bold 118px "Courier New", monospace`;
+    ctx.textAlign = 'right';
+    ctx.textBaseline = 'middle';
+    ctx.shadowColor = this.css;
+    ctx.shadowBlur = 22;
+    ctx.fillStyle = this.css;
+    ctx.fillText(s, this.canvas.width - 10, this.canvas.height / 2 + 4);
+    this.tex.needsUpdate = true;
+  }
+  setPulse(opacity: number) {
+    (this.plane.material as THREE.MeshBasicMaterial).opacity = opacity;
+  }
+}
+
+// Big readouts use texture planes when texturing is on, segment lines legacy.
+function makeReadout(chars: number, w: number, h: number, hex: number, css: string): SevenSegNumber | TextNumber {
+  if (RENDER_FLAGS.tex) return new TextNumber(chars, w, h, css);
+  const stepW = w / (chars + (chars - 1) * 0.35);
+  return new SevenSegNumber(chars, stepW, h, hex);
+}
+
 // Scoreboard + timer digits (both billboarded 3D).
 const scoreboard = new THREE.Group();
-const scoreDigits = new SevenSegNumber(4, 0.34, 0.6, 0x00ffcc);
+const scoreDigits = makeReadout(4, 1.72, 0.6, 0x00ffcc, '#00ffcc');
 scoreDigits.group.position.x = -0.75;
 scoreboard.add(scoreDigits.group);
+const scoreIconGeo = new THREE.OctahedronGeometry(0.16);
 const scoreIcon = new THREE.LineSegments(
-  new THREE.EdgesGeometry(new THREE.OctahedronGeometry(0.16)),
+  new THREE.EdgesGeometry(scoreIconGeo),
   new THREE.LineBasicMaterial({ color: 0xffffff })
 );
 scoreIcon.position.set(0, 0.95, 0);
 scoreboard.add(scoreIcon);
+if (RENDER_FLAGS.solid) {
+  const s = heroSolid(scoreIconGeo, 0xffffff);
+  s.position.set(0, 0.95, 0);
+  scoreboard.add(s);
+}
 scoreboard.position.set(-0.9, 4.9, -10.4);
 scene.add(scoreboard);
 
-const timerDigits = new SevenSegNumber(3, 0.26, 0.46, 0xff5566);
+const timerDigits = makeReadout(3, 0.96, 0.46, 0xff5566, '#ff5566');
 const timerGroup = new THREE.Group();
 timerGroup.add(timerDigits.group);
 timerGroup.position.set(1.5, 4.85, -10.4);
@@ -225,18 +336,69 @@ scene.add(timerGroup);
 // Throw-rack pips (resource display: axes left / misses left / unlimited).
 const rackGroup = new THREE.Group();
 const rackPips: THREE.LineSegments[] = [];
+let rackInst: THREE.InstancedMesh | null = null;
+const rackDummy = new THREE.Object3D();
 {
-  const pipGeo = new THREE.EdgesGeometry(new THREE.OctahedronGeometry(0.09));
-  for (let i = 0; i < 10; i++) {
-    const pip = new THREE.LineSegments(pipGeo, new THREE.LineBasicMaterial({ color: 0x00ffcc, transparent: true, opacity: 0.95 }));
-    pip.position.set(-1.35 + i * 0.3, 1.02, -2.3);
-    rackGroup.add(pip);
-    rackPips.push(pip);
+  if (RENDER_FLAGS.solid) {
+    // One instanced draw instead of ten line draws.
+    rackInst = new THREE.InstancedMesh(
+      new THREE.OctahedronGeometry(0.09),
+      new THREE.MeshBasicMaterial({ color: 0xffffff }),
+      10
+    );
+    for (let i = 0; i < 10; i++) {
+      rackDummy.position.set(-1.35 + i * 0.3, 1.02, -2.3);
+      rackDummy.scale.setScalar(1);
+      rackDummy.updateMatrix();
+      rackInst.setMatrixAt(i, rackDummy.matrix);
+      rackInst.setColorAt(i, new THREE.Color(0x00ffcc));
+    }
+    rackInst.instanceMatrix.needsUpdate = true;
+    if (rackInst.instanceColor) rackInst.instanceColor.needsUpdate = true;
+    rackGroup.add(rackInst);
+  } else {
+    const pipGeo = new THREE.EdgesGeometry(new THREE.OctahedronGeometry(0.09));
+    for (let i = 0; i < 10; i++) {
+      const pip = new THREE.LineSegments(pipGeo, new THREE.LineBasicMaterial({ color: 0x00ffcc, transparent: true, opacity: 0.95 }));
+      pip.position.set(-1.35 + i * 0.3, 1.02, -2.3);
+      rackGroup.add(pip);
+      rackPips.push(pip);
+    }
   }
 }
 scene.add(rackGroup);
 
+const pipColor = new THREE.Color();
 function updateRack(level: LevelDef, throwsUsed: number, misses: number, time: number) {
+  if (rackInst) {
+    for (let i = 0; i < 10; i++) {
+      let hex = 0x00ffcc;
+      let bright = 1;
+      let shown = true;
+      if (level.maxMisses !== null) {
+        // Endless: red pips = misses remaining.
+        shown = i < level.maxMisses;
+        const left = i < level.maxMisses - misses;
+        hex = left ? 0xff3344 : 0x331111;
+      } else if (level.maxAxes !== null) {
+        shown = i < level.maxAxes;
+        const remaining = i < level.maxAxes - throwsUsed;
+        hex = remaining ? 0x00ffcc : 0x113333;
+      } else {
+        hex = 0xffcc00;
+        bright = 0.55 + 0.35 * Math.sin(time * 3 + i * 0.6);
+      }
+      pipColor.setHex(hex).multiplyScalar(bright);
+      rackInst.setColorAt(i, pipColor);
+      rackDummy.position.set(-1.35 + i * 0.3, 1.02, -2.3);
+      rackDummy.scale.setScalar(shown ? 1 : 0.0001);
+      rackDummy.updateMatrix();
+      rackInst.setMatrixAt(i, rackDummy.matrix);
+    }
+    if (rackInst.instanceColor) rackInst.instanceColor.needsUpdate = true;
+    rackInst.instanceMatrix.needsUpdate = true;
+    return;
+  }
   for (let i = 0; i < rackPips.length; i++) {
     const pip = rackPips[i];
     const mat = pip.material as THREE.LineBasicMaterial;
@@ -333,10 +495,22 @@ function createTarget(
   group.scale.setScalar(scale);
 
   let bullseyeRing!: THREE.LineLoop;
-  for (const zone of SCORING_ZONES) {
-    const ring = ringLine(zone.radius, zone.color, zone.points >= 5 ? 1.0 : 0.85);
-    if (zone.points === 6) bullseyeRing = ring;
-    face.add(ring);
+  if (RENDER_FLAGS.discLines || !RENDER_FLAGS.lit || !RENDER_FLAGS.solid || !RENDER_FLAGS.tex) {
+    for (const zone of SCORING_ZONES) {
+      const ring = ringLine(zone.radius, zone.color, zone.points >= 5 ? 1.0 : 0.85);
+      if (zone.points === 6) bullseyeRing = ring;
+      face.add(ring);
+    }
+  } else {
+    // S3: one textured disc replaces six ring loops (draw-call rescue).
+    // Spokes/kill nodes/rear ring stay as wireframe overlays.
+    const disc = new THREE.Mesh(new THREE.CircleGeometry(BOARD_UNIT, 72), getTargetDiscMaterial());
+    disc.position.z = -0.01;
+    disc.castShadow = true;
+    disc.receiveShadow = true;
+    face.add(disc);
+    bullseyeRing = ringLine(0.12, 0xffffff, 1.0, 48);
+    face.add(bullseyeRing);
   }
   {
     const pts: THREE.Vector3[] = [];
@@ -416,6 +590,14 @@ function loadLevelTargets(level: LevelDef) {
     });
   }
   primaryTarget = targets.find(t => t.kind === 'static') ?? targets[0] ?? null;
+  if (RENDER_FLAGS.solid && primaryTarget) {
+    // Solid backing for the primary board's killshot nodes only (S1 budget).
+    for (const local of primaryTarget.killNodeLocals) {
+      const s = heroSolid(new THREE.OctahedronGeometry(KILLSHOT_RADIUS), 0xff3366);
+      s.position.copy(local);
+      primaryTarget.face.add(s);
+    }
+  }
 }
 
 function motionRamp(level: LevelDef, elapsed: number): number {
@@ -471,13 +653,28 @@ let spinEdge!: THREE.Line;
 function buildAxe() {
   while (axeGroup.children.length > 0) axeGroup.remove(axeGroup.children[0]);
   const mat = (color: number) => new THREE.LineBasicMaterial({ color });
-  const handle = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(0.05, 0.7, 0.05)), mat(frame.color));
+  const handleGeo = new THREE.BoxGeometry(0.05, 0.7, 0.05);
+  const handle = new THREE.LineSegments(new THREE.EdgesGeometry(handleGeo), mat(frame.color));
   handle.position.y = -0.15;
   axeGroup.add(handle);
-  const head = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.ConeGeometry(0.13, 0.28, 4)), mat(frame.color));
+  if (RENDER_FLAGS.solid) {
+    const hs = heroSolid(handleGeo, frame.color, RENDER_FLAGS.tex ? { map: getHandleTexture() } : {});
+    hs.position.y = -0.15;
+    axeGroup.add(hs);
+  }
+  const headGeo = new THREE.ConeGeometry(0.13, 0.28, 4);
+  const head = new THREE.LineSegments(new THREE.EdgesGeometry(headGeo), mat(frame.color));
   head.rotation.z = Math.PI / 2;
   head.position.set(0.16, 0.25, 0);
   axeGroup.add(head);
+  if (RENDER_FLAGS.solid) {
+    const ds = heroSolid(headGeo, frame.color, RENDER_FLAGS.tex
+      ? { roughness: 0.35, metalness: 0.9, roughnessMap: getBrushedTexture(), bumpMap: getBrushedTexture(), bumpScale: 0.02 }
+      : { roughness: 0.35, metalness: 0.9 });
+    ds.rotation.z = Math.PI / 2;
+    ds.position.set(0.16, 0.25, 0);
+    axeGroup.add(ds);
+  }
   const bindPts: THREE.Vector3[] = [];
   for (let s = 0; s <= 24; s++) {
     const a = (s / 24) * Math.PI * 2;
@@ -540,16 +737,24 @@ function spawnBurst(p: THREE.Vector3, color: number) {
   scene.add(line);
   bursts.push({ line, life: 0 });
 }
-interface Crystal { mesh: THREE.LineSegments; vel: number; life: number; }
+interface Crystal { group: THREE.Group; lines: THREE.LineSegments; solid: THREE.Mesh | null; vel: number; life: number; }
 const crystals: Crystal[] = [];
 function spawnCrystal(p: THREE.Vector3, color: number, size: number) {
-  const mesh = new THREE.LineSegments(
-    new THREE.EdgesGeometry(new THREE.OctahedronGeometry(size)),
+  const group = new THREE.Group();
+  const octaGeo = new THREE.OctahedronGeometry(size);
+  const lines = new THREE.LineSegments(
+    new THREE.EdgesGeometry(octaGeo),
     new THREE.LineBasicMaterial({ color, transparent: true, opacity: 1 })
   );
-  mesh.position.copy(p);
-  scene.add(mesh);
-  crystals.push({ mesh, vel: 1.4, life: 0 });
+  group.add(lines);
+  let solid: THREE.Mesh | null = null;
+  if (RENDER_FLAGS.solid) {
+    solid = heroSolid(octaGeo, color, { transparent: true, opacity: 0.85, emissiveIntensity: 1.0 });
+    group.add(solid);
+  }
+  group.position.copy(p);
+  scene.add(group);
+  crystals.push({ group, lines, solid, vel: 1.4, life: 0 });
 }
 
 // ---------------------------------------------------------------------------
@@ -673,16 +878,52 @@ function updateTrajectory(power: number) {
 }
 
 const orbiters: THREE.LineSegments[] = [];
+let orbiterInst: THREE.InstancedMesh | null = null;
+const orbiterDummy = new THREE.Object3D();
 {
-  const geo = new THREE.EdgesGeometry(new THREE.TetrahedronGeometry(0.045));
-  for (let i = 0; i < 5; i++) {
-    const o = new THREE.LineSegments(geo, new THREE.LineBasicMaterial({ color: 0xffcc00, transparent: true, opacity: 0.9 }));
-    scene.add(o);
-    orbiters.push(o);
+  if (RENDER_FLAGS.solid) {
+    orbiterInst = new THREE.InstancedMesh(
+      new THREE.TetrahedronGeometry(0.045),
+      new THREE.MeshBasicMaterial({ color: 0xffcc00 }),
+      5
+    );
+    orbiterDummy.scale.setScalar(0.0001);
+    orbiterDummy.updateMatrix();
+    for (let i = 0; i < 5; i++) orbiterInst.setMatrixAt(i, orbiterDummy.matrix);
+    orbiterInst.instanceMatrix.needsUpdate = true;
+    scene.add(orbiterInst);
+  } else {
+    const geo = new THREE.EdgesGeometry(new THREE.TetrahedronGeometry(0.045));
+    for (let i = 0; i < 5; i++) {
+      const o = new THREE.LineSegments(geo, new THREE.LineBasicMaterial({ color: 0xffcc00, transparent: true, opacity: 0.9 }));
+      scene.add(o);
+      orbiters.push(o);
+    }
   }
 }
 function updateOrbiters(streak: number, time: number) {
   const n = Math.min(streak, 5);
+  if (orbiterInst) {
+    for (let i = 0; i < 5; i++) {
+      const on = i < n && (axeState === 'IDLE' || axeState === 'CHARGING');
+      const a = time * 2.2 + (i / Math.max(1, n)) * Math.PI * 2;
+      if (on) {
+        orbiterDummy.position.set(
+          handWorld.x + Math.cos(a) * 0.35 * camRight.x + Math.sin(a * 2) * 0.05 * camUp.x,
+          handWorld.y + Math.cos(a) * 0.35 * camRight.y + 0.12 + Math.sin(a * 2) * 0.05,
+          handWorld.z + Math.cos(a) * 0.35 * camRight.z + Math.sin(a * 2) * 0.05 * camUp.z
+        );
+        orbiterDummy.rotation.set(a, a * 1.3, 0);
+        orbiterDummy.scale.setScalar(1);
+      } else {
+        orbiterDummy.scale.setScalar(0.0001);
+      }
+      orbiterDummy.updateMatrix();
+      orbiterInst.setMatrixAt(i, orbiterDummy.matrix);
+    }
+    orbiterInst.instanceMatrix.needsUpdate = true;
+    return;
+  }
   for (let i = 0; i < orbiters.length; i++) {
     const o = orbiters[i];
     o.visible = i < n && (axeState === 'IDLE' || axeState === 'CHARGING');
@@ -748,7 +989,9 @@ const levelTotemDigits: SevenSegNumber[] = [];
   ];
   LEVELS.forEach((level, i) => {
     const totem = new THREE.Group();
-    totem.add(totemWireframe(shapes[i % shapes.length].geo, shapes[i % shapes.length].color));
+    const shape = shapes[i % shapes.length];
+    totem.add(totemWireframe(shape.geo, shape.color));
+    if (RENDER_FLAGS.solid) totem.add(heroSolid(shape.geo, shape.color));
     const resource = level.time ?? level.maxAxes ?? level.maxMisses ?? 0;
     const digits = new SevenSegNumber(3, 0.15, 0.28, shapes[i % shapes.length].color);
     digits.setValue(resource);
@@ -771,11 +1014,20 @@ for (let i = 0; i < AXE_FRAMES.length; i++) {
   const cfg = AXE_FRAMES[i];
   const mini = new THREE.Group();
   const m = new THREE.LineBasicMaterial({ color: cfg.color, transparent: true, opacity: 0.9 });
-  mini.add(new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(0.05, 0.7, 0.05)), m));
-  const hd = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.ConeGeometry(0.13, 0.28, 4)), m);
+  const miniHandleGeo = new THREE.BoxGeometry(0.05, 0.7, 0.05);
+  mini.add(new THREE.LineSegments(new THREE.EdgesGeometry(miniHandleGeo), m));
+  const miniHeadGeo = new THREE.ConeGeometry(0.13, 0.28, 4);
+  const hd = new THREE.LineSegments(new THREE.EdgesGeometry(miniHeadGeo), m);
   hd.rotation.z = Math.PI / 2;
   hd.position.set(0.16, 0.25, 0);
   mini.add(hd);
+  if (RENDER_FLAGS.solid) {
+    mini.add(heroSolid(miniHandleGeo, cfg.color));
+    const hs = heroSolid(miniHeadGeo, cfg.color);
+    hs.rotation.z = Math.PI / 2;
+    hs.position.set(0.16, 0.25, 0);
+    mini.add(hs);
+  }
   mini.scale.setScalar(0.8);
   mini.position.set((i - 1) * 0.8, 0.7, -4.6);
   mini.rotation.y = 0.4;
@@ -788,20 +1040,26 @@ menuGroup.add(frameRack);
 const resolveGroup = new THREE.Group();
 resolveGroup.visible = false;
 scene.add(resolveGroup);
-const finalDigits = new SevenSegNumber(4, 0.4, 0.72, 0xffffff);
+const finalDigits = makeReadout(4, 2.02, 0.72, 0xffffff, '#ffffff');
 finalDigits.group.position.set(-0.9, 0, 0);
 const resolveHead = new THREE.Group();
 resolveHead.add(finalDigits.group);
+const finalIconGeo = new THREE.OctahedronGeometry(0.2);
 const finalIcon = new THREE.LineSegments(
-  new THREE.EdgesGeometry(new THREE.OctahedronGeometry(0.2)),
+  new THREE.EdgesGeometry(finalIconGeo),
   new THREE.LineBasicMaterial({ color: 0xffffff })
 );
 finalIcon.position.set(0, 1.25, 0);
 resolveHead.add(finalIcon);
+if (RENDER_FLAGS.solid) {
+  const s = heroSolid(finalIconGeo, 0xffffff);
+  s.position.set(0, 1.25, 0);
+  resolveHead.add(s);
+}
 resolveHead.position.set(0, 3.3, -6);
 resolveGroup.add(resolveHead);
 
-const bestDigits = new SevenSegNumber(4, 0.24, 0.44, 0xffcc00);
+const bestDigits = makeReadout(4, 1.21, 0.44, 0xffcc00, '#ffcc00');
 bestDigits.group.position.set(-0.55, 0, 0);
 const bestHead = new THREE.Group();
 bestHead.add(bestDigits.group);
@@ -809,11 +1067,19 @@ bestHead.position.set(0, 2.2, -6);
 resolveGroup.add(bestHead);
 
 const retryTotem = new THREE.Group();
-retryTotem.add(totemWireframe(new THREE.TorusGeometry(0.5, 0.12, 6, 18), 0x00ffcc));
+{
+  const retryGeo = new THREE.TorusGeometry(0.5, 0.12, 6, 18);
+  retryTotem.add(totemWireframe(retryGeo, 0x00ffcc));
+  if (RENDER_FLAGS.solid) retryTotem.add(heroSolid(retryGeo, 0x00ffcc));
+}
 retryTotem.position.set(-1.7, 1.0, -6);
 resolveGroup.add(retryTotem);
 const resolveMenuTotem = new THREE.Group();
-resolveMenuTotem.add(totemWireframe(new THREE.TetrahedronGeometry(0.55), 0xffcc00));
+{
+  const menuGeo = new THREE.TetrahedronGeometry(0.55);
+  resolveMenuTotem.add(totemWireframe(menuGeo, 0xffcc00));
+  if (RENDER_FLAGS.solid) resolveMenuTotem.add(heroSolid(menuGeo, 0xffcc00));
+}
 resolveMenuTotem.position.set(1.7, 1.0, -6);
 resolveGroup.add(resolveMenuTotem);
 
@@ -984,7 +1250,7 @@ function enterResolve() {
   document.exitPointerLock?.();
   if (isBest) { blip(523, 0.4, 'sine', 0.12); setTimeout(() => blip(659, 0.4, 'sine', 0.12), 140); setTimeout(() => blip(784, 0.6, 'sine', 0.12), 280); }
   else { blip(330, 0.4, 'triangle', 0.1); setTimeout(() => blip(220, 0.6, 'triangle', 0.1), 200); }
-  console.log('LEVEL COMPLETE', { level: level.id, score, throwsUsed, misses, hits, bullseyes, best: bestForLevel });
+  console.log('LEVEL COMPLETE ' + JSON.stringify({ level: level.id, score, throwsUsed, misses, hits, bullseyes, best: bestForLevel }));
 }
 
 function enterMenu() {
@@ -1075,7 +1341,7 @@ function resolveStick(dist: number, speed: number, target: Target, hitPoint: THR
       setTimeout(() => blip(1174, 0.3, 'sine', 0.12, panOf(hitPoint.x)), 90);
       setTimeout(() => blip(1568, 0.4, 'sine', 0.1, panOf(hitPoint.x)), 180);
       scoreDigits.setValue(score);
-      console.log('THROW_RESOLVED', { result: 'killshot', score });
+      console.log('THROW_RESOLVED ' + JSON.stringify({ result: 'killshot', score }));
     } else {
       // Called Killshot off the node: a miss that visibly rebounds.
       scoreDigits.setValue(score);
@@ -1134,7 +1400,7 @@ function resolveStick(dist: number, speed: number, target: Target, hitPoint: THR
     blip(320, 0.15, 'triangle', 0.12, panOf(hitPoint.x));
   }
   scoreDigits.setValue(score);
-  console.log('THROW_RESOLVED', { result: 'stick', tier, points, gained, score, dist: Number(dist.toFixed(2)) });
+  console.log('THROW_RESOLVED ' + JSON.stringify({ result: 'stick', tier, points, gained, score, dist: Number(dist.toFixed(2)) }));
 }
 
 function deflect(hitPoint: THREE.Vector3, incoming: THREE.Vector3, result = 'bounce') {
@@ -1148,7 +1414,7 @@ function deflect(hitPoint: THREE.Vector3, incoming: THREE.Vector3, result = 'bou
   registerMiss();
   spawnBurst(hitPoint, 0xff0033);
   blip(180, 0.2, 'square', 0.1, panOf(hitPoint.x));
-  console.log('THROW_RESOLVED', { result, score });
+  console.log('THROW_RESOLVED ' + JSON.stringify({ result, score }));
   window.setTimeout(() => { if (axeState === 'DEFLECTED') axeState = 'RECALLING'; }, 600);
 }
 
@@ -1187,7 +1453,7 @@ function stepAxe(dt: number) {
         tmpNormal.set(0, 0, 1).applyQuaternion(tmpQuat);
         const facing = tmpVelNorm.dot(tmpNormal); // ≈ -1 when square onto the face
         const hitPoint = t.face.localToWorld(new THREE.Vector3(ix, iy, 0.05));
-        console.log('IMPACT_SPEED', { speed: Number(speed.toFixed(2)), threshold: frame.stickThreshold, dist: Number(dist.toFixed(2)), facing: Number(facing.toFixed(3)) });
+        console.log('IMPACT_SPEED ' + JSON.stringify({ speed: Number(speed.toFixed(2)), threshold: frame.stickThreshold, dist: Number(dist.toFixed(2)), facing: Number(facing.toFixed(3)) }));
         if (dist <= SCORING_ZONES[0].radius && speed >= frame.stickThreshold && facing < -Math.cos(THREE.MathUtils.degToRad(55))) {
           const impactVel = axeVel.clone();
           axeGroup.position.copy(hitPoint);
@@ -1209,7 +1475,7 @@ function stepAxe(dt: number) {
     registerMiss();
     if (axeGroup.position.y <= 0.05) spawnBurst(axeGroup.position.clone(), 0xffcc00);
     blip(110, 0.25, 'sine', 0.1, panOf(axeGroup.position.x));
-    console.log('THROW_RESOLVED', { result: 'miss', score });
+    console.log('THROW_RESOLVED ' + JSON.stringify({ result: 'miss', score }));
     axeState = 'RECALLING';
   }
 }
@@ -1351,7 +1617,31 @@ window.addEventListener('resize', () => {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
   renderer.setSize(window.innerWidth, window.innerHeight);
+  if (composerRig) {
+    composerRig.composer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    composerRig.composer.setSize(window.innerWidth, window.innerHeight);
+  }
 });
+
+// S4: composer is ON for real GPUs, auto-OFF under SwiftShader,
+// reduced-motion, or CI hooks (?selftest/?audit) for determinism.
+let composerRig: ComposerRig | null = null;
+{
+  const ci = RENDER_QUERY.has('selftest') || RENDER_QUERY.has('audit');
+  let reduced = false;
+  try {
+    reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  } catch { /* matchMedia unavailable */ }
+  const software = isSoftwareRenderer(renderer);
+  const forced = RENDER_FLAGS.bloom;
+  const on = forced === '1' ? true : forced === '0' ? false : (!software && !reduced && !ci);
+  if (on) {
+    composerRig = buildComposer(renderer, scene, camera);
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.05;
+  }
+  console.log(`[bloom] ${on ? 'on' : 'off'} (forced=${forced ?? 'auto'} software=${software} reduced=${reduced} ci=${ci})`);
+}
 
 // ---------------------------------------------------------------------------
 // Main loop
@@ -1473,12 +1763,13 @@ function animate() {
   for (let i = crystals.length - 1; i >= 0; i--) {
     const c = crystals[i];
     c.life += sdt;
-    c.mesh.position.y += c.vel * sdt;
+    c.group.position.y += c.vel * sdt;
     c.vel *= 1 - sdt * 1.5;
-    c.mesh.rotation.y += sdt * 3;
-    c.mesh.scale.setScalar(Math.max(0.01, 1 - c.life * 0.7));
-    (c.mesh.material as THREE.LineBasicMaterial).opacity = Math.max(0, 1 - c.life * 0.8);
-    if (c.life > 1.3) { scene.remove(c.mesh); c.mesh.geometry.dispose(); (c.mesh.material as THREE.Material).dispose(); crystals.splice(i, 1); }
+    c.group.rotation.y += sdt * 3;
+    c.group.scale.setScalar(Math.max(0.01, 1 - c.life * 0.7));
+    (c.lines.material as THREE.LineBasicMaterial).opacity = Math.max(0, 1 - c.life * 0.8);
+    if (c.solid) (c.solid.material as THREE.LineBasicMaterial).opacity = Math.max(0, 1 - c.life * 0.8);
+    if (c.life > 1.3) { scene.remove(c.group); disposeGroup(c.group); crystals.splice(i, 1); }
   }
 
   if (shake > 0) {
@@ -1489,7 +1780,13 @@ function animate() {
   }
   camera.position.z = THREE.MathUtils.lerp(camera.position.z, 0, sdt * 8);
 
-  renderer.render(scene, camera);
+  if (composerRig) composerRig.composer.render();
+  else renderer.render(scene, camera);
+
+  if (RENDER_FLAGS.stats && frameCount % 60 === 0) {
+    const info = renderer.info.render;
+    console.log(`[stats] calls=${info.calls} tris=${info.triangles} frame=${frameCount}`);
+  }
 }
 
 scoreDigits.setValue(0);
@@ -1522,9 +1819,34 @@ if (query.has('selftest')) {
   for (let t = 0; t < selftestThrows; t++) {
     scene.updateMatrixWorld(true);
     updateHandFrame();
-    updateTargets(level, 0.5, 0.5, true); // exercise real motion/bonus code
+    // Sweep the motion clock per throw so movers sit at different phases —
+    // exercises slider/oscillator/rotor poses, not just one snapshot.
+    updateTargets(level, 0.5, 0.5 + t * 0.9, true);
+    // Aim at the level's lead board (targets[0]) so layout changes can't
+    // silently break selftest coverage. Uses the board's current position,
+    // so movers are aimed at where they are, not where they were.
+    const aimBoard = targets[0] ?? null;
+    if (aimBoard) {
+      const dx = aimBoard.group.position.x - yawObject.position.x;
+      const dy = aimBoard.group.position.y - yawObject.position.y;
+      const dz = aimBoard.group.position.z - yawObject.position.z;
+      yawObject.rotation.y = THREE.MathUtils.clamp(
+        Math.atan2(-dx, -dz),
+        -THREE.MathUtils.degToRad(GAME_CONFIG.camera.maxYaw),
+        THREE.MathUtils.degToRad(GAME_CONFIG.camera.maxYaw));
+      pitchObject.rotation.x = THREE.MathUtils.clamp(
+        Math.atan2(dy, Math.hypot(dx, dz)),
+        THREE.MathUtils.degToRad(GAME_CONFIG.camera.minPitch),
+        THREE.MathUtils.degToRad(GAME_CONFIG.camera.maxPitch));
+      scene.updateMatrixWorld(true);
+      updateHandFrame();
+    }
     startCharge();
     charge = 1;
+    // ?selftest=<level>&killshot=1 arms a called killshot on throw 0 to
+    // exercise the called-miss rebound path (straight throws hit face,
+    // never the node).
+    if (t === 0 && query.has('killshot')) calledKillshot = true;
     releaseAxe();
     let guard = 0;
     while (simState() === 'FLYING' && guard++ < 1200) stepAxe(GAME_CONFIG.fixedStep);
@@ -1538,8 +1860,8 @@ if (query.has('selftest')) {
       checkLevelEnd();
     }
   }
-  document.title = `SELFTEST level=${selftestId} score=${score} throws=${throwsUsed} hits=${hits} bullseyes=${bullseyes} phase=${phase} OUTCOMES=${outcomes.join('|')}`;
-  console.log('SELFTEST', { score, throwsUsed, hits, bullseyes, phase });
+  document.title = `SELFTEST level=${selftestId} score=${score} throws=${throwsUsed} misses=${misses} hits=${hits} bullseyes=${bullseyes} phase=${phase} OUTCOMES=${outcomes.join('|')}`;
+  console.log('SELFTEST ' + JSON.stringify({ score, throwsUsed, misses, hits, bullseyes, phase }));
 }
 
 // ?audit=1: verify every level spawns exactly its spec'd targets and that
