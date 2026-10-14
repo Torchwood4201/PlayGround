@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VoxelCraft — 3D Voxel Terrain Generator</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<canvas id="sky-canvas"></canvas>
+<canvas id="cv"></canvas>
+
+<div id="crosshair"></div>
+<div id="block-info"></div>
+<div id="survival">
+  <div class="meter"><span class="meter-label">HP</span><div class="meter-track"><div id="hp-fill"></div></div></div>
+  <div class="meter"><span class="meter-label">FOOD</span><div class="meter-track"><div id="hunger-fill"></div></div></div>
+</div>
+<div id="hotbar"></div>
+<div id="dmg-flash"></div>
+<div id="death-screen"><div class="death-box"><h2>YOU DIED</h2><p id="death-msg"></p><button id="btn-respawn">Respawn</button></div></div>
+<div id="inv-modal"><div class="inv-card">
+  <button class="modal-x" id="inv-close">&times;</button>
+  <h2>CRAFTING <span id="craft-size-note"></span></h2>
+  <div class="inv-cols">
+    <div><div id="craft-grid"></div><button id="btn-craft">Craft</button><div id="craft-out"></div></div>
+    <div><h3>INVENTORY</h3><div id="inv-grid"></div><p class="text-dim">Click two slots to swap. 1-9 selects hotbar.</p></div>
+  </div>
+</div></div>
+<div id="furnace-modal"><div class="inv-card">
+  <button class="modal-x" id="furnace-close">&times;</button>
+  <h2>FURNACE</h2>
+  <div class="furn-row"><span>Ore</span><div id="fur-in"></div><span id="fur-in-name"></span></div>
+  <div class="furn-row"><span>Fuel</span><div id="fur-fuel"></div><span id="fur-fuel-name"></span></div>
+  <div class="furn-prog"><div id="fur-bar"></div></div>
+  <div class="furn-row"><span>Out</span><div id="fur-out"></div><button id="btn-smelt-take">Take</button></div>
+  <p class="text-dim">Click inventory slot, then a furnace slot to load. Coal smelts 4, log 2, planks/stick 1.</p>
+</div></div>
+<div id="hint">Click to play • ESC to exit &middot; WASD move &middot; Space jump &middot; Left break &middot; Right place &middot; 1-9 select &middot; Wheel cycle &middot; I info</div>
+<div id="fps">FPS: --</div>
+
+<div id="hud">
+  <div class="hud-chip">SEED <span id="hud-seed">9043158</span></div>
+  <div class="hud-chip"><span id="hud-size">256</span> x <span id="hud-size2">256</span></div>
+  <div class="hud-chip hud-hint">drag: orbit &middot; right-drag: pan &middot; wheel: zoom &middot; press I: info</div>
+  <button id="info-btn" title="About (I)">i</button>
+</div>
+
+<button id="sb-toggle" title="Toggle panel">&#x276E;</button>
+
+<aside id="sidebar">
+  <div class="sb-title">
+    <div>
+      <h1>VOXELCRAFT</h1>
+      <p>procedural minecraft-like terrain</p>
+    </div>
+  </div>
+
+  <div class="sb-scroll">
+    <div class="sb-section">
+      <div class="sb-section-head open" data-sec="world"><span>World &amp; Seed</span><span class="chev">&#x276F;</span></div>
+      <div class="sb-section-body open" id="sec-world" style="display:block">
+        <div class="row"><label>Seed</label><input id="s-seed" type="number" value="9043158" min="0"></div>
+        <div class="row"><label>Chunk size</label></div>
+        <div class="sz-row">
+          <button class="sz-badge" data-idx="0">16</button>
+          <button class="sz-badge" data-idx="1">32</button>
+          <button class="sz-badge" data-idx="2">64</button>
+          <button class="sz-badge" data-idx="3">96</button>
+          <button class="sz-badge" data-idx="4">128</button>
+          <button class="sz-badge active" data-idx="5">256</button>
+          <button class="sz-badge" data-idx="6">512</button>
+          <button class="sz-badge" data-idx="7">1024</button>
+        </div>
+        <div class="row"><label>Noise</label>
+          <div class="pill-row">
+            <button class="pill active" data-type="simplex">Simplex</button>
+            <button class="pill" data-type="perlin">Perlin</button>
+          </div>
+        </div>
+        <div class="check-row"><label><input type="checkbox" id="cb-water" checked> Show water</label></div>
+        <div class="row"><label>Hotbar style</label>
+          <select id="hotbar-style" style="width:100%;background:#0d140d;border:1px solid rgba(140,255,140,.3);color:#e8f0e8;padding:6px 8px;border-radius:6px;font:inherit">
+            <option value="minimal">Minimal/Borderless</option>
+            <option value="cards" selected>Cards</option>
+            <option value="modern">Modern Outline</option>
+            <option value="kawaii">Aesthetic/Kawaii</option>
+            <option value="bars">Bars Overhaul</option>
+          </select>
+        </div>
+        <div class="check-row"><label><input type="checkbox" id="rebuild-adaptive" checked> Adaptive rebuild rate</label></div>
+        <div class="slider"><div class="slider-top"><label>Max rebuilds/frame</label><span id="v-maxrebuild">4</span></div><input id="s-maxrebuild" type="range" min="0" max="20" step="1" value="4"></div>
+        <div class="check-row"><label><input type="checkbox" id="cb-wireframe"> Wireframe</label></div>
+        <div class="check-row"><label><input type="checkbox" id="cb-autorotate" checked> Auto-rotate</label></div>
+        <div class="row"><label>Noise preview</label><canvas id="noise-preview" width="232" height="120"></canvas></div>
+      </div>
+    </div>
+
+    <div class="sb-section">
+      <div class="sb-section-head" data-sec="terrain"><span>Terrain Shape</span><span class="chev">&#x276F;</span></div>
+      <div class="sb-section-body" id="sec-terrain" style="display:none">
+        <div class="slider"><div class="slider-top"><label>Water level</label><span id="v-water">36</span></div><input id="s-water" type="range" min="10" max="80" step="1" value="36"></div>
+        <div class="slider"><div class="slider-top"><label>Max height</label><span id="v-maxh">128</span></div><input id="s-maxh" type="range" min="32" max="256" step="1" value="128"></div>
+        <div class="slider"><div class="slider-top"><label>Scale</label><span id="v-scale">0.2</span></div><input id="s-scale" type="range" min="0.05" max="0.6" step="0.01" value="0.2"></div>
+        <div class="slider"><div class="slider-top"><label>Octaves</label><span id="v-oct">3</span></div><input id="s-oct" type="range" min="1" max="6" step="1" value="3"></div>
+        <div class="slider"><div class="slider-top"><label>Lacunarity</label><span id="v-lac">2.15</span></div><input id="s-lac" type="range" min="1.5" max="3.5" step="0.01" value="2.15"></div>
+        <div class="slider"><div class="slider-top"><label>Gain</label><span id="v-gain">0.60</span></div><input id="s-gain" type="range" min="0.3" max="0.9" step="0.01" value="0.60"></div>
+        <div class="slider"><div class="slider-top"><label>Detail scale</label><span id="v-dscale">3.00</span></div><input id="s-dscale" type="range" min="0.5" max="8" step="0.1" value="3.0"></div>
+        <div class="slider"><div class="slider-top"><label>Detail mix</label><span id="v-dmix">0.00</span></div><input id="s-dmix" type="range" min="0" max="1" step="0.01" value="0"></div>
+        <div class="slider"><div class="slider-top"><label>Ridge scale</label><span id="v-rscale">0.35</span></div><input id="s-rscale" type="range" min="0.1" max="1" step="0.01" value="0.35"></div>
+        <div class="slider"><div class="slider-top"><label>Ridge mix</label><span id="v-rmix">0.52</span></div><input id="s-rmix" type="range" min="0" max="1" step="0.01" value="0.52"></div>
+        <div class="slider"><div class="slider-top"><label>Base mix</label><span id="v-basemix">0.54</span></div><input id="s-basemix" type="range" min="0" max="1" step="0.01" value="0.54"></div>
+        <div class="slider"><div class="slider-top"><label>Exponent</label><span id="v-exp">1.96</span></div><input id="s-exp" type="range" min="1" max="3" step="0.01" value="1.96"></div>
+      </div>
+    </div>
+
+    <div class="sb-section">
+      <div class="sb-section-head" data-sec="zones"><span>Biome Zones</span><span class="chev">&#x276F;</span></div>
+      <div class="sb-section-body" id="sec-zones" style="display:none">
+        <div id="zone-bar">
+          <div id="zb-sand" title="sand"></div><div id="zb-all" title="forest"></div><div id="zb-pine" title="pine"></div><div id="zb-sparse" title="sparse"></div><div id="zb-snow" title="snow"></div>
+        </div>
+        <div class="zone-legend"><span>sand</span><span>forest</span><span>pine</span><span>sparse</span><span>snow</span></div>
+        <div class="slider"><div class="slider-top"><label>Snow %</label><span id="v-snow">59</span></div><input id="s-snow" type="range" min="20" max="95" step="1" value="59"></div>
+        <div class="slider"><div class="slider-top"><label>Treeline %</label><span id="v-treeline">52</span></div><input id="s-treeline" type="range" min="20" max="90" step="1" value="52"></div>
+        <div class="slider"><div class="slider-top"><label>Pineline %</label><span id="v-pineline">41</span></div><input id="s-pineline" type="range" min="10" max="80" step="1" value="41"></div>
+        <div class="slider"><div class="slider-top"><label>Sand % of water</label><span id="v-sand">108</span></div><input id="s-sand" type="range" min="80" max="130" step="1" value="108"></div>
+      </div>
+    </div>
+
+    <div class="sb-section">
+      <div class="sb-section-head" data-sec="trees"><span>Trees</span><span class="chev">&#x276F;</span></div>
+      <div class="sb-section-body" id="sec-trees" style="display:none">
+        <div class="slider"><div class="slider-top"><label>Spacing</label><span id="v-tspacing">4</span></div><input id="s-tspacing" type="range" min="1" max="10" step="1" value="4"></div>
+        <div class="slider"><div class="slider-top"><label>Sparse density</label><span id="v-sparsedens">20</span></div><input id="s-sparsedens" type="range" min="0" max="100" step="1" value="20"></div>
+        <div class="slider"><div class="slider-top"><label>Oak</label><span id="tv-oak">40</span></div><input id="t-oak" type="range" min="0" max="100" step="1" value="40"></div>
+        <div class="slider"><div class="slider-top"><label>Pine</label><span id="tv-pine">35</span></div><input id="t-pine" type="range" min="0" max="100" step="1" value="35"></div>
+        <div class="slider"><div class="slider-top"><label>Autumn</label><span id="tv-autumn">12</span></div><input id="t-autumn" type="range" min="0" max="100" step="1" value="12"></div>
+        <div class="slider"><div class="slider-top"><label>Mystic</label><span id="tv-mystic">6</span></div><input id="t-mystic" type="range" min="0" max="100" step="1" value="6"></div>
+        <div class="slider"><div class="slider-top"><label>Golden</label><span id="tv-golden">6</span></div><input id="t-golden" type="range" min="0" max="100" step="1" value="6"></div>
+        <div class="slider"><div class="slider-top"><label>Tropical</label><span id="tv-tropical">0</span></div><input id="t-tropical" type="range" min="0" max="50" step="1" value="0"></div>
+      </div>
+    </div>
+
+    <div class="sb-section">
+      <div class="sb-section-head" data-sec="sky"><span>Clouds &amp; Time</span><span class="chev">&#x276F;</span></div>
+      <div class="sb-section-body" id="sec-sky" style="display:none">
+        <div class="slider"><div class="slider-top"><label>Cloud height</label><span id="v-cloudh">120</span></div><input id="s-cloudh" type="range" min="60" max="200" step="1" value="120"></div>
+        <div class="slider"><div class="slider-top"><label>Cloud speed</label><span id="v-cloudspeed">0.3</span></div><input id="s-cloudspeed" type="range" min="0" max="3" step="0.1" value="0.3"></div>
+        <div class="slider"><div class="slider-top"><label>Cloud amount</label><span id="v-cloudamt">5</span></div><input id="s-cloudamt" type="range" min="0" max="15" step="1" value="5"></div>
+        <div class="slider"><div class="slider-top"><label>Cloud size</label><span id="v-cloudsize">37</span></div><input id="s-cloudsize" type="range" min="8" max="80" step="1" value="37"></div>
+        <div class="slider"><div class="slider-top"><label>Cloud opacity</label><span id="v-cloudopa">0.88</span></div><input id="s-cloudopa" type="range" min="0.1" max="1" step="0.01" value="0.88"></div>
+        <div class="slider"><div class="slider-top"><label>Time of day</label><span id="v-tod">12.0</span></div><input id="s-tod" type="range" min="0" max="24" step="0.1" value="12"></div>
+        <canvas id="tod-arc" width="232" height="44"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="sb-footer">
+    <button id="btn-apply">Generate</button>
+    <button id="btn-rand">Random</button>
+    <button id="btn-reset">Reset</button>
+    <button id="btn-save">Save</button>
+    <button id="btn-load">Load</button>
+  </div>
+</aside>
+
+<div id="loading">
+  <div class="load-box">
+    <div class="load-title">VOXELCRAFT</div>
+    <div id="load-status">BUILDING TEXTURES...</div>
+    <div class="load-track"><div id="bar"></div></div>
+  </div>
+</div>
+
+<div id="render-toast"><span id="toast-text">STREAMING</span><div class="toast-track"><div id="toast-bar"></div></div></div>
+
+<div id="info-modal">
+  <div class="modal-card">
+    <button id="modal-close">&times;</button>
+    <div class="modal-tabs">
+      <button class="modal-tab active" data-tab="about">About</button>
+      <button class="modal-tab" data-tab="controls">Controls</button>
+      <button class="modal-tab" data-tab="contributors">Contributors</button>
+    </div>
+    <div class="modal-pane active" id="tab-about">
+      <h2>VoxelCraft</h2>
+      <p class="text-dim">Procedural voxel terrain in the browser. Simplex / Perlin fBm heightmaps, tiled streaming mesher, six tree species, blocky clouds, full day/night cycle.</p>
+      <p class="text-dim">Left-drag to orbit, right-drag to pan, wheel to zoom. Tune the sidebar and press Generate.</p>
+    </div>
+    <div class="modal-pane" id="tab-controls">
+      <h2>Controls</h2>
+      <p class="text-dim">Left mouse: orbit (disables auto-rotate) &middot; Right mouse: pan &middot; Wheel / pinch: zoom &middot; Touch: 1 finger orbit, 2 finger zoom &middot; I: this panel.</p>
+    </div>
+    <div class="modal-pane" id="tab-contributors">
+      <h2>Contributors</h2>
+      <div id="contributors-list"></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.149.0/three.min.js"></script>
+<script src="contributors/contributors.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
