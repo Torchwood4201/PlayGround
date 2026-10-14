@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>WIREFRAME GOLF — Wire Tour '86</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>⛳</text></svg>" />
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<div id="app">
+  <canvas id="scene"></canvas>
+
+  <div id="scanlines"></div>
+  <div id="vignette"></div>
+
+  <!-- Top bar -->
+  <header id="topbar">
+    <div class="brand">WIREFRAME&nbsp;GOLF <span>// WIRE&nbsp;TOUR&nbsp;'86</span></div>
+    <div class="stats">
+      <div class="stat"><label>HOLE</label><b id="hud-hole">1/9</b></div>
+      <div class="stat"><label>PAR</label><b id="hud-par">4</b></div>
+      <div class="stat"><label>STROKE</label><b id="hud-stroke">0</b></div>
+      <div class="stat"><label>SCORE</label><b id="hud-score">E</b></div>
+      <div class="stat wide"><label>TO PIN</label><b id="hud-dist">—</b></div>
+    </div>
+  </header>
+
+  <!-- Left panel -->
+  <aside id="leftpanel">
+    <div class="panel-title">⛳ CADDY</div>
+    <div class="row"><span>LIE</span><b id="hud-lie">TEE</b></div>
+    <div class="row"><span>WIND</span><b id="hud-wind">→ 2.0 m/s</b></div>
+    <div class="row"><span>CAM</span><b id="hud-cam">FOLLOW</b></div>
+    <div class="clubs" id="clubs">
+      <div class="club" data-club="0"><i>1</i> DRIVER <em>260m</em></div>
+      <div class="club" data-club="1"><i>2</i> IRON <em>170m</em></div>
+      <div class="club" data-club="2"><i>3</i> WEDGE <em>95m</em></div>
+      <div class="club" data-club="3"><i>4</i> PUTTER <em>25m</em></div>
+    </div>
+    <canvas id="minimap" width="168" height="168"></canvas>
+    <div class="mini-label">HOLE MAP</div>
+  </aside>
+
+  <!-- Swing meter -->
+  <div id="meter">
+    <div id="power-wrap">
+      <label>POWER</label>
+      <div id="power-bar"><div id="power-fill"></div><div id="power-needle"></div></div>
+    </div>
+    <div id="acc-wrap">
+      <label>ACCURACY</label>
+      <div id="acc-bar"><div id="acc-zone"></div><div id="acc-needle"></div></div>
+    </div>
+    <div id="swing-hint">HOLD <b>SPACE</b> — POWER ▸ ACCURACY ▸ STRIKE</div>
+    <button id="swing-btn">SWING ⏎</button>
+  </div>
+
+  <!-- Message flash -->
+  <div id="msg"></div>
+  <div id="submsg"></div>
+
+  <!-- Scorecard -->
+  <div id="scorecard" class="hidden">
+    <h2>SCORECARD</h2>
+    <table id="score-table"></table>
+    <p>TAB to close • N next hole • R restart tour</p>
+  </div>
+
+  <!-- Help -->
+  <div id="help">
+    <b>A/D / ◀ ▶</b> aim &nbsp; <b>1–4</b> club &nbsp; <b>SPACE</b> swing ×3 &nbsp;
+    <b>DRAG</b> orbit &nbsp; <b>WHEEL</b> zoom &nbsp; <b>C</b> cam &nbsp; <b>TAB</b> card &nbsp; <b>M</b> sound
+  </div>
+
+  <!-- Title overlay -->
+  <div id="title">
+    <div class="t-inner">
+      <div class="t-kicker">OMGITHUB PRESENTS</div>
+      <h1>WIREFRAME<br/>GOLF</h1>
+      <div class="t-sub">WIRE TOUR '86 • 9 HOLES • ALL WIREFRAME • DESKTOP 3D</div>
+      <div class="t-controls">
+        AIM <b>A/D</b> • CLUB <b>1-4</b> • SWING <b>SPACE ×3</b> • ORBIT <b>MOUSE</b>
+      </div>
+      <button id="tee-btn">▶ &nbsp;TEE OFF</button>
+      <div class="t-note">pure lines. no fills. like 1986 never ended.</div>
+    </div>
+  </div>
+</div>
+<script type="module" src="./game.js"></script>
+</body>
+</html>
