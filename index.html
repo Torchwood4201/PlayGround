@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0c">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>PUSH MY FINGERS — Into My Eyes</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👁️</text></svg>">
+<style>
+  :root{
+    --red:#ff2b2b; --blood:#8b0000; --bone:#f5efe4; --dim:#8a8a93;
+    --safe-t: env(safe-area-inset-top, 0px); --safe-b: env(safe-area-inset-bottom, 0px);
+  }
+  *{ margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ height:100%; overflow:hidden; background:#0a0a0c; }
+  body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
+    color:var(--bone); user-select:none; -webkit-user-select:none; touch-action:manipulation;
+    overscroll-behavior:none;
+  }
+  #stage{ position:fixed; inset:0; }
+  #stage canvas{ display:block; width:100%; height:100%; touch-action:none; }
+
+  /* damage vignette */
+  #vignette{ position:fixed; inset:0; pointer-events:none; opacity:0; z-index:5;
+    background:radial-gradient(ellipse at center, transparent 42%, rgba(255,0,0,.55) 100%);
+    transition:opacity .12s; }
+  #flash{ position:fixed; inset:0; pointer-events:none; opacity:0; z-index:5; background:#ff2020; }
+  /* ink-grain overlay: etched grimoire feel over everything */
+  #grain{ position:fixed; inset:0; pointer-events:none; z-index:6; opacity:.09; mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/></filter><rect width='160' height='160' filter='url(%23n)'/></svg>"); }
+
+  /* HUD */
+  #hud{ position:fixed; top:0; left:0; right:0; z-index:10; pointer-events:none;
+    padding: calc(10px + var(--safe-t)) 12px 0 12px;
+    display:flex; flex-direction:column; gap:8px; }
+  #hud[hidden], #hint-bar[hidden]{ display:none !important; }
+  #hud-row{ display:flex; align-items:center; gap:10px; }
+  #hp-wrap{ flex:1; height:16px; background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.25);
+    border-radius:999px; overflow:hidden; position:relative; }
+  #hp{ height:100%; width:100%; border-radius:999px;
+    background:linear-gradient(90deg,#ff2b2b,#ff7a1a); transition:width .2s; }
+  #hp-label{ font-size:11px; letter-spacing:.14em; color:#ffb3b3; font-weight:700; }
+  .pill{ background:rgba(0,0,0,.55); border:1px solid rgba(255,255,255,.22); border-radius:999px;
+    padding:8px 14px; font-weight:800; font-size:clamp(13px,3.6vw,17px); letter-spacing:.04em;
+    backdrop-filter: blur(6px); white-space:nowrap; }
+  #combo-pill{ color:#ffe27a; border-color:rgba(255,226,122,.5); display:none; }
+  #combo-pill.hot{ display:block; animation:pop .25s; }
+  @keyframes pop{ 0%{transform:scale(.7)} 60%{transform:scale(1.12)} 100%{transform:scale(1)} }
+  #sys-btns{ display:flex; gap:8px; pointer-events:auto; }
+  .icon-btn{ width:48px; height:48px; border-radius:14px; font-size:21px; line-height:1;
+    background:rgba(0,0,0,.55); color:var(--bone); border:1px solid rgba(255,255,255,.25);
+    backdrop-filter:blur(6px); cursor:pointer; display:grid; place-items:center; }
+  .icon-btn:active{ transform:scale(.92); }
+  #wave-banner{ text-align:center; font-weight:900; letter-spacing:.18em; font-size:12px; color:#ff8f8f;
+    text-shadow:0 0 18px rgba(255,43,43,.8); min-height:16px; }
+
+  /* tap FX layer */
+  #fx{ position:fixed; inset:0; z-index:9; pointer-events:none; overflow:hidden; }
+  .tap-finger{ position:absolute; font-size:52px; transform:translate(-50%,-70%);
+    animation:fingerjab .38s ease-out forwards; filter:drop-shadow(0 6px 12px rgba(0,0,0,.6)); }
+  @keyframes fingerjab{
+    0%{ transform:translate(-50%,20%) scale(.4); opacity:0; }
+    25%{ opacity:1; transform:translate(-50%,-40%) scale(1.25); }
+    100%{ transform:translate(-50%,-70%) scale(1); opacity:0; }
+  }
+  .tap-score{ position:absolute; transform:translate(-50%,-50%); font-weight:900;
+    font-size:clamp(18px,5vw,26px); color:#fff; text-shadow:0 0 12px var(--red),0 2px 0 #000;
+    animation:rise .7s ease-out forwards; }
+  @keyframes rise{ 0%{opacity:0; margin-top:10px} 20%{opacity:1} 100%{opacity:0; margin-top:-46px} }
+  .tap-ring{ position:absolute; width:90px; height:90px; border:3px solid rgba(255,255,255,.85);
+    border-radius:50%; transform:translate(-50%,-50%); animation:ring .4s ease-out forwards; }
+  @keyframes ring{ 0%{opacity:.9; scale:.3} 100%{opacity:0; scale:1.4} }
+
+  /* overlays */
+  .overlay{ position:fixed; inset:0; z-index:20; display:flex; align-items:center; justify-content:center;
+    padding:20px; padding-bottom:calc(20px + var(--safe-b));
+    background:radial-gradient(ellipse at 50% 30%, rgba(60,0,0,.55), rgba(0,0,0,.82)); }
+  .overlay[hidden]{ display:none; }
+  .card{ width:min(520px,100%); text-align:center; background:rgba(10,10,14,.78);
+    border:1px solid rgba(255,43,43,.4); border-radius:22px; padding:26px 22px 24px;
+    box-shadow:0 0 60px rgba(255,0,0,.18), 0 20px 60px rgba(0,0,0,.6);
+    backdrop-filter:blur(10px); max-height:92vh; overflow:auto; }
+  .kicker{ font-size:12px; letter-spacing:.3em; color:#ff7a7a; font-weight:800; }
+  h1{ font-family:Georgia,'Times New Roman',serif; font-size:clamp(30px,8vw,46px); line-height:1.02; font-weight:900; margin:8px 0 2px; letter-spacing:.04em;
+    text-shadow:0 0 24px rgba(255,43,43,.6), 0 2px 0 #000; }
+  h1 .eyes{ color:var(--red); }
+  canvas.runes, #wave-runes{ width:min(100%,440px); height:auto; opacity:.92; display:block; margin:6px auto; }
+  .lyric{ font-style:italic; color:#c9c9d1; font-size:clamp(13px,3.6vw,15px); margin:8px 0 14px; }
+  .how{ text-align:left; background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.14);
+    border-radius:14px; padding:12px 14px; font-size:clamp(13px,3.8vw,15px); line-height:1.55; margin-bottom:14px; }
+  .how b{ color:#ffe27a; }
+  #play-btn, #retry-btn{
+    width:100%; min-height:68px; font-size:24px; font-weight:900; letter-spacing:.22em;
+    color:#fff; background:linear-gradient(180deg,#ff3232,#a30000);
+    border:2px solid #ff8080; border-radius:18px; cursor:pointer;
+    box-shadow:0 0 30px rgba(255,43,43,.55), inset 0 1px 0 rgba(255,255,255,.4); }
+  #play-btn:active, #retry-btn:active{ transform:scale(.97); }
+  .sub{ margin-top:10px; font-size:12px; color:var(--dim); letter-spacing:.06em; }
+  #best-line{ margin-top:8px; font-size:13px; color:#ffe27a; font-weight:700; }
+  #final-stats{ display:flex; gap:10px; margin:14px 0; }
+  .stat{ flex:1; background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.15);
+    border-radius:12px; padding:10px 4px; }
+  .stat .v{ font-size:24px; font-weight:900; }
+  .stat .k{ font-size:11px; letter-spacing:.16em; color:var(--dim); }
+  #newbest{ display:none; color:#ffe27a; font-weight:900; letter-spacing:.2em; margin-bottom:6px;
+    animation:pop .4s; }
+  #hint-bar{ position:fixed; left:0; right:0; bottom:0; z-index:10; text-align:center;
+    padding:0 12px calc(12px + var(--safe-b)); pointer-events:none;
+    font-size:clamp(12px,3.4vw,14px); font-weight:700; letter-spacing:.08em; color:#ffd9d9;
+    text-shadow:0 2px 8px #000; }
+  #hint-bar span{ background:rgba(0,0,0,.5); border:1px solid rgba(255,255,255,.2);
+    padding:8px 14px; border-radius:999px; display:inline-block; }
+  #err{ position:fixed; inset:0; z-index:99; display:none; place-items:center; background:#111;
+    color:#fff; padding:30px; text-align:center; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<div id="vignette"></div>
+<div id="flash"></div>
+<div id="grain"></div>
+
+<div id="hud" hidden>
+  <div id="hud-row">
+    <div style="flex:1">
+      <div id="hp-label">SANITY</div>
+      <div id="hp-wrap"><div id="hp"></div></div>
+    </div>
+    <div class="pill" id="score-pill">0</div>
+    <div class="pill" id="combo-pill">x2</div>
+    <div id="sys-btns">
+      <button class="icon-btn" id="mute-btn" aria-label="mute">🔊</button>
+      <button class="icon-btn" id="pause-btn" aria-label="pause">⏸</button>
+    </div>
+  </div>
+  <div id="wave-banner"></div>
+  <canvas id="wave-runes" width="300" height="26"></canvas>
+</div>
+
+<div id="fx"></div>
+<div id="hint-bar" hidden><span>👆 TAP THE EYES before they reach you</span></div>
+
+<div class="overlay" id="start-overlay">
+  <div class="card">
+    <div class="kicker">A DUALITY TRIBUTE · 3D · TOUCH</div>
+    <h1>PUSH MY<br>FINGERS<br><span class="eyes">INTO MY EYES</span></h1>
+    <div class="lyric">“I push my fingers into my eyes…” — Slipknot (unofficial fan game)</div>
+    <canvas class="runes" width="440" height="40"></canvas>
+    <div class="how">
+      👁️ <b>Giant eyes</b> rush at you down the void.<br>
+      👆 <b>TAP an eye</b> to shove your fingers in — squish it for points.<br>
+      👹 <b>Lurkers</b> trail tendrils and take <b>2 pokes</b> — worth 250.<br>
+      💀 <b>Skulls</b> chomp fast — 150. 🧟 <b>Rotters</b> take 3 pokes — 400.<br>
+      😈 Every 3rd wave a <b>demon</b> comes — 5 HP, 1000 pts.<br>
+      💥 Miss one and it <b>slams your face</b> — sanity drops.<br>
+      🔥 Chain pokes for <b>combo ×2 ×3 ×4…</b> Two quick pokes = <b>DUALITY bonus</b>.<br>
+      🌊 Survive the waves. Don’t lose your mind.
+    </div>
+    <button id="play-btn">PLAY</button>
+    <div id="best-line">BEST: 0</div>
+    <div class="sub">PHONE + TABLET READY · SOUND ON RECOMMENDED · FAN TRIBUTE, NOT AFFILIATED WITH SLIPKNOT</div>
+  </div>
+</div>
+
+<div class="overlay" id="over-overlay" hidden>
+  <div class="card">
+    <div class="kicker">YOUR EYES ARE GONE</div>
+    <h1>GAME<br><span class="eyes">OVER</span></h1>
+    <div class="lyric" id="over-quote">“It’s the only thing that slowly stops the ache…”</div>
+    <canvas class="runes" width="440" height="40"></canvas>
+    <div id="newbest">★ NEW BEST ★</div>
+    <div id="final-stats">
+      <div class="stat"><div class="v" id="f-score">0</div><div class="k">SCORE</div></div>
+      <div class="stat"><div class="v" id="f-pokes">0</div><div class="k">POKES</div></div>
+      <div class="stat"><div class="v" id="f-wave">1</div><div class="k">WAVE</div></div>
+    </div>
+    <button id="retry-btn">PLAY AGAIN</button>
+    <div class="sub">TAP PLAY AGAIN TO PUSH FINGERS ONCE MORE</div>
+  </div>
+</div>
+
+<div class="overlay" id="pause-overlay" hidden>
+  <div class="card">
+    <div class="kicker">PAUSED</div>
+    <h1>TAKE A<br><span class="eyes">BREATH</span></h1>
+    <div class="lyric">The eyes wait for you…</div>
+    <button id="resume-btn" style="width:100%;min-height:64px;font-size:20px;font-weight:900;letter-spacing:.2em;color:#fff;background:linear-gradient(180deg,#3a3a42,#17171c);border:2px solid #888;border-radius:18px;cursor:pointer;">RESUME</button>
+    <div class="sub">OR RESTART FROM THE PAUSE BUTTON (HOLD IT)</div>
+  </div>
+</div>
+
+<div id="err"><div><h2>WebGL unavailable</h2><p>This 3D game needs WebGL. Try Chrome / Safari on your phone.</p></div></div>
+
+<script type="module">
+import * as THREE from './three.module.js';
+
+/* ============ helpers ============ */
+const $ = id => document.getElementById(id);
+const clamp = (v,a,b)=>Math.max(a,Math.min(b,v));
+const rand = (a,b)=>a+Math.random()*(b-a);
+const store = {
+  get best(){ try{ return Number(localStorage.getItem('eyepush-best')||0);}catch{ return 0; } },
+  set best(v){ try{ localStorage.setItem('eyepush-best', String(v)); }catch{} }
+};
+const storeMute = {
+  get m(){ try{ return localStorage.getItem('eyepush-mute')==='1'; }catch{ return false; } },
+  set m(v){ try{ localStorage.setItem('eyepush-mute', v?'1':'0'); }catch{} }
+};
+
+/* ============ audio (procedural, no assets) ============ */
+let AC=null, muted = storeMute.m;
+function audio(){
+  if(!AC){ try{ AC = new (window.AudioContext||window.webkitAudioContext)(); }catch{ return null; } }
+  if(AC && AC.state==='suspended') AC.resume();
+  return AC;
+}
+function env(g, t0, a, peak, d){
+  g.gain.setValueAtTime(0.0001,t0); g.gain.exponentialRampToValueAtTime(peak,t0+a);
+  g.gain.exponentialRampToValueAtTime(0.0001,t0+a+d);
+}
+function beep(freq, dur, type='sine', vol=.25, slide=0){
+  if(muted) return; const ac=audio(); if(!ac) return;
+  const t=ac.currentTime, o=ac.createOscillator(), g=ac.createGain();
+  o.type=type; o.frequency.setValueAtTime(freq,t);
+  if(slide) o.frequency.exponentialRampToValueAtTime(Math.max(20,freq+slide), t+dur);
+  env(g,t,0.005,vol,dur); o.connect(g).connect(ac.destination); o.start(t); o.stop(t+dur+.05);
+}
+function noiseBurst(dur=.18, vol=.3, lp=1200){
+  if(muted) return; const ac=audio(); if(!ac) return;
+  const t=ac.currentTime, len=Math.floor(ac.sampleRate*dur);
+  const buf=ac.createBuffer(1,len,ac.sampleRate), d=buf.getChannelData(0);
+  for(let i=0;i<len;i++) d[i]=(Math.random()*2-1)*(1-i/len);
+  const s=ac.createBufferSource(); s.buffer=buf;
+  const f=ac.createBiquadFilter(); f.type='lowpass'; f.frequency.value=lp;
+  const g=ac.createGain(); env(g,t,0.004,vol,dur);
+  s.connect(f).connect(g).connect(ac.destination); s.start(t);
+}
+const sfx = {
+  poke(){ noiseBurst(.14,.5,900); beep(520,.16,'sine',.35,-380); beep(130,.12,'square',.12,-60); },
+  duality(){ beep(220,.3,'sawtooth',.22,440); beep(330,.3,'sawtooth',.18,330); noiseBurst(.25,.4,2000); },
+  whiff(){ noiseBurst(.08,.12,500); },
+  hurt(){ beep(90,.4,'sawtooth',.5,-40); noiseBurst(.3,.5,600); beep(55,.5,'square',.3,-10); },
+  crunch(){ noiseBurst(.22,.5,500); beep(140,.22,'sawtooth',.32,-90); noiseBurst(.1,.3,2500); },
+  wave(){ beep(440,.12,'square',.2); setTimeout(()=>beep(554,.12,'square',.2),130); setTimeout(()=>beep(659,.2,'square',.22),260); },
+  over(){ beep(330,.5,'sawtooth',.3,-250); setTimeout(()=>beep(196,.8,'sawtooth',.3,-140),350); },
+  click(){ beep(660,.07,'square',.15); }
+};
+function updateMuteBtn(){ $('mute-btn').textContent = muted ? '🔇' : '🔊'; }
+updateMuteBtn();
+
+/* ============ three setup ============ */
+let renderer;
+try{
+  renderer = new THREE.WebGLRenderer({ antialias:true, powerPreference:'high-performance' });
+}catch(e){ $('err').style.display='grid'; throw e; }
+renderer.setPixelRatio(Math.min(window.devicePixelRatio||1, 2));
+renderer.setSize(window.innerWidth, window.innerHeight);
+$('stage').appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x0a0a0c);
+scene.fog = new THREE.FogExp2(0x0a0a0c, 0.045);
+
+const camera = new THREE.PerspectiveCamera(72, window.innerWidth/window.innerHeight, 0.1, 120);
+camera.position.set(0, 0.4, 6);
+
+scene.add(new THREE.AmbientLight(0x992222, 1.6));
+const key = new THREE.DirectionalLight(0xffffff, 1.6); key.position.set(3,5,6); scene.add(key);
+const strobe = new THREE.PointLight(0xff2020, 30, 60); strobe.position.set(0,4,-10); scene.add(strobe);
+/* kill flash: jumps to each execution, then decays */
+const killLight = new THREE.PointLight(0xff3020, 0, 22); scene.add(killLight);
+const rim = new THREE.PointLight(0x4411ff, 18, 60); rim.position.set(-6,-2,2); scene.add(rim);
+
+/* ============ grimoire rune engine (inspired by the ink-script sheets) ============ */
+function drawGlyph(ctx, type, x, y, s, color){
+  ctx.strokeStyle = color; ctx.lineWidth = Math.max(1.5, s*0.09); ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  ctx.beginPath();
+  switch(type % 10){
+    case 0: ctx.moveTo(x, y-s/2); ctx.lineTo(x+s/2, y+s/2); ctx.lineTo(x-s/2, y+s/2); ctx.closePath(); break;
+    case 1: ctx.ellipse(x, y, s/2, s*0.3, 0, 0, Math.PI*2); break;
+    case 2: ctx.arc(x, y, s*0.38, 0, Math.PI*2); ctx.moveTo(x+s*0.1, y); ctx.arc(x, y, s*0.1, 0, Math.PI*2); break;
+    case 3: ctx.moveTo(x-s/3, y-s/2); ctx.lineTo(x-s/3, y+s/2); ctx.moveTo(x+s/3, y-s/2); ctx.lineTo(x+s/3, y+s/2); ctx.moveTo(x, y-s/2); ctx.lineTo(x, y+s/2); ctx.moveTo(x-s/3, y+s/4); ctx.lineTo(x+s/3, y+s/4); break;
+    case 4: ctx.moveTo(x-s/2, y); ctx.lineTo(x+s/2, y); ctx.moveTo(x, y-s/2); ctx.lineTo(x, y+s/2); break;
+    case 5: ctx.arc(x, y, s*0.4, Math.PI*0.3, Math.PI*1.7); break;
+    case 6: ctx.moveTo(x, y+s/2); ctx.lineTo(x, y); ctx.moveTo(x, y); ctx.lineTo(x-s/3, y-s/2); ctx.moveTo(x, y); ctx.lineTo(x+s/3, y-s/2); break;
+    case 7: for(let b=-1;b<=1;b++){ ctx.moveTo(x+b*s*0.25, y-s/2); ctx.lineTo(x+b*s*0.25, y+s/2); } break;
+    case 8: ctx.moveTo(x, y-s/2); ctx.lineTo(x+s/3, y); ctx.lineTo(x, y+s/2); ctx.lineTo(x-s/3, y); ctx.closePath(); break;
+    default: ctx.arc(x, y, s*0.35, 0.5, Math.PI*1.8); ctx.lineTo(x-s*0.3, y+s*0.3); break;
+  }
+  ctx.stroke();
+  if(type % 10 === 1){ ctx.beginPath(); ctx.arc(x, y, s*0.11, 0, Math.PI*2); ctx.fillStyle = color; ctx.fill(); }
+}
+function runeStrip(canvas, color='#c11212'){
+  const ctx = canvas.getContext('2d'); ctx.clearRect(0, 0, canvas.width, canvas.height);
+  const n = Math.max(1, Math.floor(canvas.width / 34));
+  for(let i=0;i<n;i++) drawGlyph(ctx, (Math.random()*10)|0, 20+i*34, canvas.height/2, 24, color);
+}
+function canvasTex(w, h, fn){
+  const c = document.createElement('canvas'); c.width = w; c.height = h;
+  fn(c.getContext('2d'), w, h);
+  return new THREE.CanvasTexture(c);
+}
+/* etched crosshatch for the tunnel rings */
+const hatchTex = canvasTex(256, 256, (ctx, w, h) => {
+  ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, w, h);
+  ctx.strokeStyle = 'rgba(120,20,20,.4)'; ctx.lineWidth = 2;
+  for(let i=-h;i<w+h;i+=14){ ctx.beginPath(); ctx.moveTo(i, 0); ctx.lineTo(i+h, h); ctx.stroke(); }
+  ctx.strokeStyle = 'rgba(40,0,0,.3)';
+  for(let i=0;i<w+h*2;i+=22){ ctx.beginPath(); ctx.moveTo(i, 0); ctx.lineTo(i-h, h); ctx.stroke(); }
+});
+hatchTex.wrapS = hatchTex.wrapT = THREE.RepeatWrapping; hatchTex.repeat.set(6, 1);
+/* fleshy ink blotches for the sclera */
+const scleraTex = canvasTex(256, 256, (ctx, w, h) => {
+  ctx.fillStyle = '#f7f2e8'; ctx.fillRect(0, 0, w, h);
+  for(let i=0;i<46;i++){
+    const x = Math.random()*w, y = Math.random()*h, r = 6+Math.random()*26;
+    const g = ctx.createRadialGradient(x, y, 1, x, y, r);
+    g.addColorStop(0, `rgba(190,60,50,${0.05+Math.random()*0.09})`); g.addColorStop(1, 'rgba(190,60,50,0)');
+    ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI*2); ctx.fill();
+  }
+  ctx.strokeStyle = 'rgba(150,30,25,.18)'; ctx.lineWidth = 1.5;
+  for(let i=0;i<12;i++){
+    ctx.beginPath(); let x = Math.random()*w, y = Math.random()*h; ctx.moveTo(x, y);
+    for(let k=0;k<4;k++){ x += (Math.random()-0.5)*60; y += (Math.random()-0.5)*60; ctx.lineTo(x, y); }
+    ctx.stroke();
+  }
+});
+
+/* tunnel rings */
+const rings = [];
+{
+  const geo = new THREE.TorusGeometry(7.5, 0.14, 8, 40);
+  for(let i=0;i<26;i++){
+    const mat = new THREE.MeshStandardMaterial({ color: i%4===0?0x550000:0x1c1c22, emissive: i%4===0?0xff1a1a:0x000000, emissiveIntensity: i%4===0?1.4:0, roughness:.6, metalness:.7, map:hatchTex });
+    const m = new THREE.Mesh(geo, mat);
+    m.position.z = 8 - i*2.2;
+    scene.add(m); rings.push(m);
+  }
+}
+/* side pillars (Slipknot barrels vibe) */
+{
+  const geo = new THREE.CylinderGeometry(1.1,1.1,30,10);
+  const mat = new THREE.MeshStandardMaterial({ color:0x15151a, roughness:.85, metalness:.4 });
+  for(const x of [-9.5, 9.5]){
+    for(let i=0;i<3;i++){
+      const p = new THREE.Mesh(geo, mat);
+      p.rotation.x = Math.PI/2; p.position.set(x, -2+i*3.4, -14);
+      scene.add(p);
+    }
+  }
+}
+/* drifting debris: instanced 3D tetra shards, not point sprites */
+const DUST_N = 260;
+const dustMesh = new THREE.InstancedMesh(new THREE.TetrahedronGeometry(0.06), new THREE.MeshStandardMaterial({ color:0xff6655, emissive:0x991111, emissiveIntensity:.8, roughness:.6 }), DUST_N);
+scene.add(dustMesh);
+const dustP = [], dustS = [], dustR = [];
+{
+  const d = new THREE.Object3D();
+  for(let i=0;i<DUST_N;i++){
+    dustP.push(new THREE.Vector3(rand(-10,10), rand(-5,7), rand(-34,8)));
+    dustS.push(rand(2,7)); dustR.push(new THREE.Vector3(rand(-2,2), rand(-2,2), rand(-2,2)));
+    d.position.copy(dustP[i]); d.updateMatrix(); dustMesh.setMatrixAt(i, d.matrix);
+  }
+  dustMesh.instanceMatrix.needsUpdate = true;
+}
+const dustDummy = new THREE.Object3D();
+/* solid floor + volumetric light strips instead of a line grid */
+{
+  const floor = new THREE.Mesh(new THREE.PlaneGeometry(60, 80), new THREE.MeshStandardMaterial({ color:0x0d0d11, roughness:.9, metalness:.2 }));
+  floor.rotation.x = -Math.PI/2; floor.position.set(0, -3.4, -12); scene.add(floor);
+  const stripMat = new THREE.MeshStandardMaterial({ color:0x330000, emissive:0xff2222, emissiveIntensity:2 });
+  const stripGeo = new THREE.BoxGeometry(0.3, 0.08, 44);
+  for(const x of [-4.5, 4.5]){ const s = new THREE.Mesh(stripGeo, stripMat); s.position.set(x, -3.3, -12); scene.add(s); }
+}
+/* pale watchful moon, unlit so the fog can't swallow it */
+{
+  const moonTex = canvasTex(256, 256, (ctx, w, h) => {
+    ctx.clearRect(0, 0, w, h);
+    ctx.fillStyle = '#ddd6c2'; ctx.beginPath(); ctx.arc(w/2, h/2, 110, 0, Math.PI*2); ctx.fill();
+    for(let i=0;i<26;i++){
+      const a = Math.random()*Math.PI*2, r = Math.random()*85, x = w/2+Math.cos(a)*r, y = h/2+Math.sin(a)*r, cr = 5+Math.random()*20;
+      ctx.fillStyle = `rgba(120,110,90,${0.25+Math.random()*0.3})`;
+      ctx.beginPath(); ctx.arc(x, y, cr, 0, Math.PI*2); ctx.fill();
+    }
+  });
+  const moon = new THREE.Mesh(new THREE.CircleGeometry(7, 32), new THREE.MeshBasicMaterial({ map:moonTex, transparent:true, fog:false }));
+  moon.position.set(-20, 9, -42); moon.lookAt(camera.position); scene.add(moon);
+}
+/* ink vortex churning at the end of the void */
+let vortex;
+{
+  const swirlTex = canvasTex(256, 256, (ctx, w, h) => {
+    ctx.clearRect(0, 0, w, h);
+    for(let arm=0;arm<3;arm++){
+      for(let i=0;i<40;i++){
+        const a = arm*(Math.PI*2/3) + i*0.09, r = 118 - i*2.7;
+        ctx.strokeStyle = i % 3 ? 'rgba(230,220,210,.5)' : 'rgba(200,30,25,.55)';
+        ctx.lineWidth = 7 - i*0.15;
+        ctx.beginPath(); ctx.arc(w/2, h/2, r, a, a+0.5); ctx.stroke();
+      }
+    }
+  });
+  vortex = new THREE.Mesh(new THREE.PlaneGeometry(18, 18), new THREE.MeshBasicMaterial({ map:swirlTex, transparent:true, opacity:.9, fog:false, depthWrite:false }));
+  vortex.position.set(0, 1, -40); scene.add(vortex);
+}
+/* dead trees clawing at the tunnel edges */
+{
+  const barkMat = new THREE.MeshStandardMaterial({ color:0x111114, roughness:1 });
+  function deadTree(x, z, h){
+    const g = new THREE.Group();
+    const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.34, h, 6), barkMat);
+    trunk.position.y = h/2; g.add(trunk);
+    for(let i=0;i<4;i++){
+      const b = new THREE.Mesh(new THREE.CylinderGeometry(0.04, 0.1, h*0.45, 5), barkMat);
+      const a = (i/4)*Math.PI*2 + rand(0, 1);
+      b.position.set(Math.cos(a)*h*0.14, h*(0.55+0.1*i), Math.sin(a)*h*0.14);
+      b.rotation.set(Math.sin(a)*1.1, 0, Math.cos(a)*1.1);
+      g.add(b);
+    }
+    g.position.set(x, -3.4, z); scene.add(g);
+  }
+  deadTree(-7.6, -9, 5); deadTree(7.8, -13, 6); deadTree(-8.2, -19, 7); deadTree(8, -24, 5.5); deadTree(-7.4, -29, 6.5); deadTree(7.6, -33, 7);
+}
+/* rune tablets lining the descent */
+{
+  const tabletTex = canvasTex(128, 256, (ctx, w, h) => {
+    ctx.fillStyle = '#141014'; ctx.fillRect(0, 0, w, h);
+    ctx.strokeStyle = '#5a1010'; ctx.lineWidth = 6; ctx.strokeRect(6, 6, w-12, h-12);
+    for(let i=0;i<7;i++) drawGlyph(ctx, (Math.random()*10)|0, w/2, 34+i*28, 20, '#c11212');
+  });
+  const tabGeo = new THREE.BoxGeometry(1.2, 2.2, 0.25);
+  const tabMat = new THREE.MeshBasicMaterial({ map:tabletTex });
+  [[-7.2, -10], [7.2, -14.5], [-7.2, -19], [7.2, -23.5], [-7.2, -28], [7.2, -32]].forEach(([x, z], i) => {
+    const t = new THREE.Mesh(tabGeo, tabMat);
+    t.position.set(x, 0.2, z); t.rotation.y = (x > 0 ? -1 : 1) * (0.35 + (i % 2)*0.15);
+    scene.add(t);
+  });
+}
+
+/* player hands: fully articulated left + right, built from real volumes */
+const fleshMat = new THREE.MeshStandardMaterial({ color:0xc99878, roughness:.6 });
+const goreMat = new THREE.MeshStandardMaterial({ color:0x6a0a0a, roughness:.25, emissive:0x300000, emissiveIntensity:.5 });
+const clawMat = new THREE.MeshStandardMaterial({ color:0x141014, roughness:.4 });
+function fingerChain(lengths, r, spreadX, clawed=true){
+  /* one finger: chained joint groups, segments along +Y, claw spike on the tip */
+  const root = new THREE.Group(); root.position.set(spreadX, 0.45, -0.02);
+  const joints = [root];
+  let parent = root;
+  lengths.forEach((len, i) => {
+    const seg = new THREE.Mesh(new THREE.CapsuleGeometry(r - i*0.008, len, 4, 8), i===2 ? goreMat : fleshMat);
+    seg.position.y = len/2 + 0.02; parent.add(seg);
+    if(i < 2){
+      const j = new THREE.Group(); j.position.y = len + 0.03; parent.add(j);
+      joints.push(j); parent = j;
+    } else if(clawed){
+      const claw = new THREE.Mesh(new THREE.ConeGeometry(0.045, 0.16, 8), clawMat);
+      claw.position.y = len + 0.1; parent.add(claw);
+    }
+  });
+  return { root, joints };
+}
+function buildHand(mirror){
+  /* mirror: -1 = left hand, +1 = right hand */
+  const g = new THREE.Group();
+  const palm = new THREE.Mesh(new THREE.SphereGeometry(0.42, 14, 12), fleshMat);
+  palm.scale.set(1, 1.25, 0.5); g.add(palm);
+  const wrist = new THREE.Mesh(new THREE.CapsuleGeometry(0.26, 0.5, 4, 8), fleshMat);
+  wrist.rotation.x = Math.PI/2 - 0.3; wrist.position.set(0, -0.62, 0.35); g.add(wrist);
+  const fingers = [
+    fingerChain([0.26, 0.22, 0.18], 0.088, -0.33),
+    fingerChain([0.3, 0.24, 0.2], 0.09, -0.11),
+    fingerChain([0.28, 0.23, 0.19], 0.088, 0.11),
+    fingerChain([0.22, 0.18, 0.16], 0.078, 0.33),
+  ];
+  fingers.forEach(f => g.add(f.root));
+  /* thumb on the mirror side */
+  const thumb = fingerChain([0.24, 0.2], 0.085, 0, true);
+  thumb.root.position.set(mirror*0.42, -0.05, 0.05);
+  thumb.root.rotation.set(-0.4, 0, mirror*-0.75);
+  g.add(thumb.root);
+  /* a blood drip swelling under the palm */
+  const drip = new THREE.Mesh(new THREE.SphereGeometry(0.07, 8, 6), goreMat);
+  drip.position.set(mirror*0.1, -0.55, 0.15); g.add(drip);
+  scene.add(g);
+  return { g, fingers:[...fingers.map(f=>f.joints), thumb.joints], mirror, jab:null, dripT:Math.random()*2, claw:0.15, dripMesh:drip };
+}
+const hands = [buildHand(-1), buildHand(1)];
+let handSide = 0;
+function setClaw(h, c){
+  h.claw = c;
+  const open = [-0.15, -0.2, -0.15], shut = [-0.75, -0.95, -0.7];
+  for(const joints of h.fingers)
+    joints.forEach((j, i) => { j.rotation.x = open[i] + (shut[i]-open[i])*c; });
+}
+function jabHand(target){
+  const h = hands[handSide++ % 2];
+  h.jab = { t:0, from:new THREE.Vector3(h.mirror*1.9, -2.9, 4.0), to:target.clone() };
+  h.g.position.copy(h.jab.from);
+}
+const _hv = new THREE.Vector3();
+function updateHands(dt, t){
+  for(const h of hands){
+    if(h.jab){
+      h.jab.t += dt/0.38;
+      const k = h.jab.t;
+      if(k >= 1){ h.jab = null; }
+      else{
+        /* strike in, claw shut at impact, retract */
+        const ph = k < 0.42 ? k/0.42 : 1-(k-0.42)/0.58;
+        const e = ph<0.5 ? 2*ph*ph : 1-Math.pow(-2*ph+2,2)/2;
+        h.g.position.lerpVectors(h.jab.from, h.jab.to, e);
+        h.g.position.x += h.mirror * Math.sin(ph*Math.PI) * 0.7;
+        setClaw(h, k < 0.42 ? k/0.42 : 1-(k-0.42)/0.58);
+        h.g.rotation.set(-0.9, h.mirror*0.3, h.mirror*0.2);
+        continue;
+      }
+    }
+    /* idle hover in camera space + relaxed curl + swelling drip */
+    _hv.set(h.mirror*1.45, -1.75 + Math.sin(t*1.7 + h.mirror)*0.06, 3.0).applyQuaternion(camera.quaternion).add(camera.position);
+    h.g.position.lerp(_hv, Math.min(1, dt*8));
+    h.g.rotation.set(-0.9 + Math.sin(t*1.3)*0.04, h.mirror*0.25, h.mirror*0.15);
+    setClaw(h, h.claw + (0.15 - h.claw)*Math.min(1, dt*6));
+    h.dripT += dt;
+    const ds = (h.dripT % 2.4)/2.4;
+    h.dripMesh.scale.set(1, 1 + ds*2.2, 1);
+    h.dripMesh.position.y = -0.55 - ds*0.25;
+    if(ds > 0.97) h.dripT = 0;
+  }
+}
+
+/* ============ eyes ============ */
+const IRIS = [0xff2b2b, 0xff7a00, 0xbfff00, 0x22d3ee, 0xc084fc, 0xff2b6a];
+const eyeProto = {
+  sclera: new THREE.SphereGeometry(1, 26, 20),
+  iris: new THREE.SphereGeometry(0.52, 28, 18),
+  pupil: new THREE.SphereGeometry(0.22, 20, 14),
+  cornea: new THREE.SphereGeometry(0.6, 28, 14, 0, Math.PI*2, 0, 0.62),
+  glint: new THREE.SphereGeometry(0.06, 10, 8),
+  shell: new THREE.SphereGeometry(1.45, 20, 14),
+  hit: new THREE.SphereGeometry(1.7, 8, 6),
+};
+const corneaMat = new THREE.MeshPhysicalMaterial({ color:0xffffff, transparent:true, opacity:0.16, roughness:0.05, metalness:0, clearcoat:1, depthWrite:false });
+const veinMat = new THREE.MeshStandardMaterial({ color:0xb00000, roughness:.5, emissive:0x550000, emissiveIntensity:.6 });
+const tendrilMat = new THREE.MeshStandardMaterial({ color:0x4a2b26, roughness:.85, emissive:0x220a08, emissiveIntensity:.5 });
+const glintMat = new THREE.MeshBasicMaterial({ color:0xffffff });
+const eyes = [], skulls = [], zombies = [], demons = [], foes = [];
+function reg(pool, f){ pool.push(f); foes.push(f); return f; }
+/* shared gore dressing materials */
+const boneMat = new THREE.MeshStandardMaterial({ color:0xd8cfb8, roughness:.7 });
+const rotMat = new THREE.MeshStandardMaterial({ color:0x9c7f72, roughness:.85, emissive:0x2a1a12, emissiveIntensity:.5 });
+const demonMat = new THREE.MeshStandardMaterial({ color:0x6e1a12, roughness:.7, emissive:0x330808, emissiveIntensity:.9 });
+const membraneMat = new THREE.MeshStandardMaterial({ color:0x3d0d0d, roughness:.85, side:THREE.DoubleSide });
+const socketMat = new THREE.MeshBasicMaterial({ color:0x050505 });
+const deadEyeMat = new THREE.MeshBasicMaterial({ color:0xe8e4da });
+const glowEyeMat = new THREE.MeshBasicMaterial({ color:0xff3333 });
+const bloodDropMat = new THREE.MeshStandardMaterial({ color:0xa01010, roughness:.15, emissive:0xff2020, emissiveIntensity:.9 });
+/* point on the sclera ball, phi = angle from the +z face pole */
+function ballPoint(phi, theta, r=1.006){
+  return new THREE.Vector3(r*Math.sin(phi)*Math.cos(theta), r*Math.sin(phi)*Math.sin(theta), r*Math.cos(phi));
+}
+function makeEye(){
+  const g = new THREE.Group();
+  const sclera = new THREE.Mesh(eyeProto.sclera, new THREE.MeshStandardMaterial({ color:0xf3ede0, roughness:.25, metalness:.05, map:scleraTex }));
+  g.add(sclera);
+  /* iris: a real dome bulging out of the sclera, not a flat disc */
+  const irisC = IRIS[(Math.random()*IRIS.length)|0];
+  const iris = new THREE.Mesh(eyeProto.iris, new THREE.MeshStandardMaterial({ color:irisC, roughness:.35, emissive:irisC, emissiveIntensity:.3 }));
+  iris.scale.set(1, 1, 0.55); iris.position.z = 0.82; g.add(iris);
+  /* pupil: a black dome rising out of the iris dome */
+  const pupil = new THREE.Mesh(eyeProto.pupil, new THREE.MeshStandardMaterial({ color:0x050505, roughness:.3 }));
+  pupil.scale.set(1, 1, 0.7); pupil.position.z = 0.97; g.add(pupil);
+  /* cornea: transparent bulge over the iris */
+  const cornea = new THREE.Mesh(eyeProto.cornea, corneaMat);
+  cornea.rotation.x = Math.PI/2; cornea.position.z = 0.543; cornea.renderOrder = 2; g.add(cornea);
+  /* glint: a solid white ball sitting on the cornea */
+  const glint = new THREE.Mesh(eyeProto.glint, glintMat);
+  glint.position.set(0.15, 0.17, 1.10); g.add(glint);
+  /* angry veins: 3D tubes hugging the sclera, not drawn lines */
+  for(let i=0;i<5;i++){
+    const th = rand(0, Math.PI*2), p0 = rand(0.9, 1.5), p1 = p0 - rand(0.3, 0.55);
+    const curve = new THREE.CatmullRomCurve3([0, 0.33, 0.66, 1].map(k => ballPoint(p0+(p1-p0)*k, th + rand(-0.15,0.15)*(k>0&&k<1?1:0))));
+    g.add(new THREE.Mesh(new THREE.TubeGeometry(curve, 10, 0.02, 5), veinMat));
+  }
+  const tendrils = new THREE.Group();
+  for(let i=0;i<6;i++){
+    const sx = rand(-1, 1), sy = rand(-0.6, 1);
+    const curve = new THREE.CatmullRomCurve3([
+      new THREE.Vector3(sx*0.3, sy*0.3+0.2, -0.7),
+      new THREE.Vector3(sx*1.2, sy*1.2-0.3, -2.4),
+      new THREE.Vector3(sx*2.2, sy*2.2-1.2, -4.2-rand(0, 1.5)),
+    ]);
+    tendrils.add(new THREE.Mesh(new THREE.TubeGeometry(curve, 12, 0.055, 5), tendrilMat));
+  }
+  tendrils.visible = false; g.add(tendrils);
+  const hit = new THREE.Mesh(eyeProto.hit, new THREE.MeshBasicMaterial({ visible:false }));
+  g.add(hit);
+  /* red aura: geometry shell with additive blending, not a billboard sprite */
+  const aura = new THREE.Mesh(eyeProto.shell, new THREE.MeshBasicMaterial({ color:0xff2222, transparent:true, opacity:0.14, side:THREE.BackSide, blending:THREE.AdditiveBlending, depthWrite:false }));
+  g.add(aura);
+  g.visible=false; scene.add(g);
+  return { kind:'eye', scoreValue:100, g, iris, pupil, hit, aura, sclera, tendrils, active:false, speed:5, wob:Math.random()*9, squash:0, dead:0, baseScale:1, hp:1, lurker:false };
+}
+for(let i=0;i<14;i++) reg(eyes, makeEye());
+
+function spawnEye(ambient=false){
+  const e = eyes.find(e=>!e.active); if(!e) return;
+  e.active=true; e.g.visible=true; e.squash=0; e.dead=0; e.scoreValue=100;
+  const s = ambient? rand(.8,1.6) : rand(1.25,1.9);
+  e.baseScale = s; e.g.scale.set(s,s,s);
+  const xRange = camera.aspect < 0.85 ? 3.1 : 5.5;
+  e.g.position.set(rand(-xRange,xRange), rand(-2.2,3.2), ambient? rand(-30,-24) : rand(-24,-15));
+  e.speed = ambient? rand(1.5,3) : rand(5.5,8) + wave*0.7;
+  const c = IRIS[(Math.random()*IRIS.length)|0];
+  e.iris.material.color.setHex(c); e.iris.material.emissive.setHex(c);
+  /* lurkers: tendriled husks from the ink sheets — 2 HP, worth 250 */
+  e.hp = 1; e.lurker = false; e.tendrils.visible = false;
+  e.sclera.material.color.setHex(0xf3ede0);
+  if(!ambient && Math.random() < 0.25){
+    e.hp = 2; e.lurker = true; e.tendrils.visible = true; e.scoreValue = 250;
+    e.sclera.material.color.setHex(0xb9ac9c);
+    e.iris.material.color.setHex(0x660000); e.iris.material.emissive.setHex(0x660000);
+  }
+  /* face slightly toward player with menace */
+  e.g.lookAt(camera.position);
+  return e;
+}
+/* ---- new enemy varieties, after the ink sheets: chompers, rotters, a demon ---- */
+function makeSkull(){
+  const g = new THREE.Group();
+  const cranium = new THREE.Mesh(new THREE.SphereGeometry(0.7, 18, 14), boneMat);
+  cranium.scale.set(1, 1.05, 0.95); g.add(cranium);
+  for(const sx of [-0.26, 0.26]){
+    const s = new THREE.Mesh(new THREE.SphereGeometry(0.15, 10, 8), socketMat);
+    s.position.set(sx, 0.1, 0.58); s.scale.z = 0.5; g.add(s);
+  }
+  const nose = new THREE.Mesh(new THREE.ConeGeometry(0.08, 0.2, 6), socketMat);
+  nose.position.set(0, -0.14, 0.64); nose.rotation.x = Math.PI/2 - 0.25; g.add(nose);
+  const jawG = new THREE.Group(); jawG.position.set(0, -0.42, 0.2); g.add(jawG);
+  const jaw = new THREE.Mesh(new THREE.BoxGeometry(0.6, 0.26, 0.5), boneMat);
+  jaw.position.set(0, -0.13, -0.02); jawG.add(jaw);
+  const teeth = new THREE.Mesh(new THREE.BoxGeometry(0.5, 0.09, 0.1), deadEyeMat);
+  teeth.position.set(0, 0.03, 0.2); jawG.add(teeth);
+  const hit = new THREE.Mesh(new THREE.SphereGeometry(1.6, 8, 6), new THREE.MeshBasicMaterial({ visible:false }));
+  g.add(hit);
+  g.visible = false; scene.add(g);
+  return reg(skulls, { kind:'skull', scoreValue:150, g, hit, jawG, active:false, speed:8, wob:Math.random()*9, dead:0, baseScale:1, hp:1, maxHp:1, size:[0.9,1.2], spd:[7,10,0.5] });
+}
+function makeZombie(){
+  const g = new THREE.Group();
+  const head = new THREE.Mesh(new THREE.SphereGeometry(0.9, 20, 16), rotMat);
+  head.scale.set(1, 1.15, 0.95); g.add(head);
+  for(const sx of [-0.32, 0.32]){
+    const e = new THREE.Mesh(new THREE.SphereGeometry(0.17, 12, 10), deadEyeMat);
+    e.position.set(sx, 0.18, 0.74); g.add(e);
+    const p = new THREE.Mesh(new THREE.SphereGeometry(0.06, 8, 6), socketMat);
+    p.position.set(sx, 0.18, 0.89); g.add(p);
+  }
+  const jawG = new THREE.Group(); jawG.position.set(0, -0.72, 0.3); g.add(jawG);
+  const jaw = new THREE.Mesh(new THREE.BoxGeometry(0.7, 0.34, 0.5), rotMat);
+  jaw.position.set(0, -0.15, 0); jawG.add(jaw);
+  jawG.rotation.x = 0.4;
+  const gash = new THREE.Mesh(new THREE.BoxGeometry(0.3, 0.5, 0.12), goreMat);
+  gash.position.set(0.3, 0.55, 0.62); gash.rotation.z = 0.3; g.add(gash);
+  const hit = new THREE.Mesh(new THREE.SphereGeometry(2.0, 8, 6), new THREE.MeshBasicMaterial({ visible:false }));
+  g.add(hit);
+  g.visible = false; scene.add(g);
+  return reg(zombies, { kind:'zombie', scoreValue:400, g, hit, jawG, active:false, speed:3, wob:Math.random()*9, dead:0, baseScale:1, hp:3, maxHp:3, size:[1.4,1.8], spd:[2.5,3.5,0.3] });
+}
+function makeDemon(){
+  const g = new THREE.Group();
+  const body = new THREE.Mesh(new THREE.CapsuleGeometry(0.5, 1.1, 4, 10), demonMat);
+  g.add(body);
+  const head = new THREE.Mesh(new THREE.SphereGeometry(0.38, 14, 12), demonMat);
+  head.position.y = 1.1; g.add(head);
+  for(const sx of [-0.25, 0.25]){
+    const horn = new THREE.Mesh(new THREE.ConeGeometry(0.1, 0.55, 8), boneMat);
+    horn.position.set(sx, 1.5, 0); horn.rotation.z = -sx*1.2; g.add(horn);
+    const e = new THREE.Mesh(new THREE.SphereGeometry(0.09, 8, 6), glowEyeMat);
+    e.position.set(sx*0.6, 1.12, 0.32); g.add(e);
+  }
+  const wings = [];
+  for(const m of [-1, 1]){
+    const wg = new THREE.Group(); wg.position.set(m*0.45, 0.55, -0.1); g.add(wg);
+    const spar = new THREE.Mesh(new THREE.BoxGeometry(1.1, 0.1, 0.1), demonMat);
+    spar.position.x = m*0.55; spar.rotation.z = m*0.35; wg.add(spar);
+    const membrane = new THREE.Mesh(new THREE.BoxGeometry(1.5, 0.9, 0.05), membraneMat);
+    membrane.position.set(m*1.0, -0.25, 0); membrane.rotation.z = m*0.15; wg.add(membrane);
+    wings.push({ wg, m });
+  }
+  for(const m of [-1, 1]){
+    const arm = new THREE.Mesh(new THREE.CapsuleGeometry(0.13, 0.6, 4, 8), demonMat);
+    arm.position.set(m*0.55, -0.15, 0.45); arm.rotation.x = -1.1; g.add(arm);
+    const claw = new THREE.Mesh(new THREE.ConeGeometry(0.09, 0.3, 8), clawMat);
+    claw.position.set(m*0.55, -0.35, 0.85); claw.rotation.x = -1.9; g.add(claw);
+  }
+  const tailCurve = new THREE.CatmullRomCurve3([
+    new THREE.Vector3(0, -0.8, -0.4), new THREE.Vector3(0.25, -1.4, -1.2), new THREE.Vector3(-0.15, -1.9, -2.1),
+  ]);
+  const tail = new THREE.Mesh(new THREE.TubeGeometry(tailCurve, 10, 0.09, 6), demonMat);
+  g.add(tail);
+  const sting = new THREE.Mesh(new THREE.ConeGeometry(0.12, 0.35, 8), clawMat);
+  sting.position.set(-0.15, -1.9, -2.25); sting.rotation.x = -1.9; g.add(sting);
+  const hit = new THREE.Mesh(new THREE.SphereGeometry(2.4, 8, 6), new THREE.MeshBasicMaterial({ visible:false }));
+  g.add(hit);
+  g.visible = false; scene.add(g);
+  return reg(demons, { kind:'demon', scoreValue:1000, g, hit, wings, tail, active:false, speed:2.2, wob:Math.random()*9, dead:0, baseScale:1, hp:5, maxHp:5, size:[1.9,2.3], spd:[2.0,2.6,0.1] });
+}
+for(let i=0;i<6;i++) makeSkull();
+for(let i=0;i<4;i++) makeZombie();
+for(let i=0;i<2;i++) makeDemon();
+/* charnel dressing: skull piles and congealed blood pools */
+{
+  function skullPile(x, z, n){
+    for(let i=0;i<n;i++){
+      const r = rand(0.22, 0.38);
+      const c = new THREE.Mesh(new THREE.SphereGeometry(r, 12, 10), boneMat);
+      c.position.set(x+rand(-0.7,0.7), -3.4+r*0.7+(i>2 ? r*1.1 : 0), z+rand(-0.7,0.7));
+      c.rotation.set(rand(0,3), rand(0,3), 0);
+      scene.add(c);
+      const j = new THREE.Mesh(new THREE.BoxGeometry(r*0.9, r*0.4, r*0.7), boneMat);
+      j.position.set(c.position.x, c.position.y-r*0.55, c.position.z+r*0.4);
+      scene.add(j);
+    }
+  }
+  skullPile(-5.6, -8, 5); skullPile(5.6, -18, 6); skullPile(-5.6, -28, 5);
+  const poolMat = new THREE.MeshStandardMaterial({ color:0x4a0505, roughness:.15, emissive:0x1a0000, emissiveIntensity:.4 });
+  for(const [x, z, r] of [[-4.2,-12,1.4],[4.6,-22,1.8],[-4.8,-30,1.2]]){
+    const p = new THREE.Mesh(new THREE.CylinderGeometry(r, r*1.1, 0.06, 20), poolMat);
+    p.position.set(x, -3.37, z); scene.add(p);
+  }
+}
+function activate(e, zPos){
+  e.active = true; e.g.visible = true; e.dead = 0;
+  e.hp = e.maxHp;
+  const s = e.baseScale = rand(e.size[0], e.size[1]);
+  e.g.scale.set(s, s, s);
+  const xRange = camera.aspect < 0.85 ? 3.1 : 5.5;
+  e.g.position.set(rand(-xRange, xRange), rand(-2.2, 3.2), zPos);
+  e.speed = rand(e.spd[0], e.spd[1]) + wave*e.spd[2];
+  e.g.lookAt(camera.position);
+  return e;
+}
+function spawnSkull(){ const e = skulls.find(e=>!e.active); if(e) activate(e, rand(-24,-15)); }
+function spawnZombie(){ const e = zombies.find(e=>!e.active); if(e) activate(e, rand(-24,-16)); }
+let bossForWave = 0;
+function spawnDemonBoss(){
+  const d = demons.find(d=>!d.active); if(!d) return;
+  activate(d, -20); d.g.position.x = 0; d.g.position.y = 0.5;
+  banner('⚠ A DEMON COMES — WORTH 1000'); sfx.crunch();
+  if(navigator.vibrate) navigator.vibrate([60, 40, 80]);
+}
+function maybeBoss(){
+  if(wave % 3 === 0 && bossForWave !== wave && !demons.some(d=>d.active)){
+    bossForWave = wave;
+    spawnDemonBoss();
+  }
+}
+function spawnFoe(){
+  const alive = foes.filter(e=>e.active).length;
+  if(alive >= Math.min(4+wave, 11)) return;
+  const roll = Math.random();
+  if(wave >= 2 && roll < 0.15) spawnZombie();
+  else if(roll < 0.36) spawnSkull();
+  else spawnEye(false);
+}
+/* poke burst: tumbling 3D shards from a shared pool, not point sprites */
+const shardGeo = new THREE.TetrahedronGeometry(0.13);
+const shards = [];
+for(let i=0;i<60;i++){
+  const m = new THREE.Mesh(shardGeo, new THREE.MeshStandardMaterial({ color:0xffee88, emissive:0x997711, emissiveIntensity:.9, roughness:.4 }));
+  m.visible = false; scene.add(m);
+  shards.push({ m, vel:new THREE.Vector3(), spin:new THREE.Vector3(), life:0 });
+}
+function burst(p, color=0xffee88){
+  let n = 0;
+  for(const s of shards){
+    if(s.life > 0) continue;
+    s.life = rand(0.35, 0.6);
+    s.m.visible = true;
+    s.m.material.color.setHex(color); s.m.material.emissive.setHex(color); s.m.material.emissiveIntensity = 0.5;
+    s.m.position.copy(p);
+    s.m.scale.setScalar(rand(1.2, 2.2));
+    s.vel.set(rand(-4,4), rand(-3,5), rand(0,6));
+    s.spin.set(rand(-8,8), rand(-8,8), rand(-8,8));
+    if(++n >= 10) break;
+  }
+}
+/* gore: heavy blood droplets with gravity that spatter the floor */
+const drops = [];
+for(let i=0;i<70;i++){
+  const m = new THREE.Mesh(new THREE.SphereGeometry(0.11, 8, 6), bloodDropMat);
+  m.visible = false; scene.add(m);
+  drops.push({ m, vel:new THREE.Vector3(), life:0 });
+}
+function blood(p, n){
+  let c = 0;
+  for(const d of drops){
+    if(d.life > 0) continue;
+    d.life = rand(0.6, 1.1);
+    d.m.visible = true;
+    d.m.position.copy(p);
+    d.m.scale.setScalar(rand(0.7, 1.8));
+    d.vel.set(rand(-6,6), rand(-1,7), rand(-1,7));
+    if(++c >= n) break;
+  }
+}
+function goreBurst(p, kind, duality){
+  /* flesh shards + blood, scaled by victim */
+  burst(p, duality ? 0xffe27a : kind==='skull' ? 0xd8cfb8 : 0xffee88);
+  if(kind === 'skull' || kind === 'zombie') burst(p, 0xd8cfb8);
+  blood(p, kind==='demon' ? 30 : kind==='zombie' ? 18 : kind==='skull' ? 12 : 10);
+  killLight.position.copy(p); killLight.intensity = 60;
+}
+function updateDrops(dt){
+  for(const d of drops){
+    if(d.life <= 0) continue;
+    d.life -= dt;
+    if(d.life <= 0){ d.m.visible = false; continue; }
+    d.vel.y -= 12*dt;
+    d.m.position.addScaledVector(d.vel, dt);
+    if(d.m.position.y < -3.35){ d.m.position.y = -3.35; d.vel.multiplyScalar(0.25); d.vel.y = 0; d.m.scale.y *= 0.6; }
+  }
+}
+
+/* ============ game state ============ */
+let running=false, paused=false, over=false;
+let score=0, combo=0, bestCombo=0, pokes=0, hp=100, wave=1, waveKills=0;
+let spawnT=0, timeT=0, lastPokeT=0, shake=0, strobeT=0, ambientT=0;
+$('best-line').textContent = 'BEST: ' + store.best;
+
+function setHP(v){ hp=clamp(v,0,100); $('hp').style.width = hp+'%';
+  $('hp').style.background = hp>50? 'linear-gradient(90deg,#ff2b2b,#ff7a1a)' : 'linear-gradient(90deg,#ff0000,#7a0000)'; }
+function setScore(v){ score=v; $('score-pill').textContent = v; }
+function setCombo(){
+  const pill=$('combo-pill');
+  if(combo>=2){ pill.style.display='block'; pill.textContent='COMBO ×'+combo; pill.classList.remove('hot'); void pill.offsetWidth; pill.classList.add('hot'); }
+  else pill.style.display='none';
+}
+function banner(t){ const b=$('wave-banner'); b.textContent=t; clearTimeout(b._t); b._t=setTimeout(()=>b.textContent='',2600); }
+
+function startGame(){
+  audio(); sfx.click();
+  running=true; paused=false; over=false;
+  score=0; combo=0; bestCombo=0; pokes=0; wave=1; waveKills=0; timeT=0; spawnT=0.4; shake=0;
+  setHP(100); setScore(0); setCombo();
+  for(const e of foes){ e.active=false; e.g.visible=false; }
+  /* opening volley so the action is instant */
+  for(let i=0;i<3;i++){ const e=spawnEye(false); if(e) e.g.position.z = -10 - i*5; }
+  spawnT = 1.1;
+  $('start-overlay').hidden=true; $('over-overlay').hidden=true; $('pause-overlay').hidden=true;
+  $('hud').hidden=false; $('hint-bar').hidden=false;
+  banner('WAVE 1 — PUSH YOUR FINGERS');
+  sfx.wave();
+  if(navigator.vibrate) navigator.vibrate(20);
+}
+function endGame(){
+  over=true; running=false;
+  sfx.over(); if(navigator.vibrate) navigator.vibrate([80,40,120]);
+  const isBest = score > store.best;
+  if(isBest) store.best = score;
+  $('f-score').textContent=score; $('f-pokes').textContent=pokes; $('f-wave').textContent=wave;
+  $('newbest').style.display = isBest? 'block':'none';
+  $('best-line').textContent='BEST: '+store.best;
+  setTimeout(()=>{ $('over-overlay').hidden=false; $('hint-bar').hidden=true; }, 650);
+}
+function damageFoe(e){
+  e.active=false; e.g.visible=false;
+  combo=0; setCombo();
+  setHP(hp - (e.kind==='demon' ? 2 : 1) * (10 + wave*1.5));
+  shake=0.7; sfx.hurt();
+  if(navigator.vibrate) navigator.vibrate([50,30,60]);
+  const v=$('vignette'); v.style.opacity=1; setTimeout(()=>v.style.opacity=0,220);
+  const f=$('flash'); f.style.opacity=.35; setTimeout(()=>f.style.opacity=0,120);
+  if(hp<=0) endGame();
+}
+
+/* ============ input: tap / multi-touch ============ */
+const ray = new THREE.Raycaster();
+function pick(cx, cy){
+  const r = renderer.domElement.getBoundingClientRect();
+  const nx = ((cx-r.left)/r.width)*2-1, ny = -((cy-r.top)/r.height)*2+1;
+  ray.setFromCamera({x:nx,y:ny}, camera);
+  const targets = foes.filter(e=>e.active&&e.dead<=0).map(e=>e.hit);
+  const hits = ray.intersectObjects(targets, false);
+  if(!hits.length) return null;
+  return foes.find(e=>e.hit===hits[0].object);
+}
+function domFX(x, y, pts, duality, label=''){
+  const fx=$('fx');
+  const ring=document.createElement('div'); ring.className='tap-ring'; ring.style.left=x+'px'; ring.style.top=y+'px'; fx.appendChild(ring);
+  const fg=document.createElement('div'); fg.className='tap-finger'; fg.textContent = duality? '🤘':'👆'; fg.style.left=x+'px'; fg.style.top=y+'px'; fx.appendChild(fg);
+  const sc=document.createElement('div'); sc.className='tap-score'; sc.textContent='+'+pts+(duality?' DUALITY!':(label?' '+label:'')); sc.style.left=x+'px'; sc.style.top=(y-46)+'px'; fx.appendChild(sc);
+  setTimeout(()=>{ring.remove();fg.remove();sc.remove();},750);
+}
+function pokeAt(cx, cy){
+  if(!running||paused||over) return;
+  const e = pick(cx,cy);
+  if(e){
+    const now = performance.now();
+    const duality = (now-lastPokeT) < 260;
+    lastPokeT = now;
+    if(e.hp > 1){
+      /* wounded lurker: knocked back down the void, not dead yet */
+      e.hp--;
+      combo++; bestCombo=Math.max(bestCombo,combo); pokes++;
+      const wpts = 25 * (combo>=2 ? Math.min(combo,8) : 1);
+      setScore(score+wpts); setCombo();
+      setHP(hp+1);
+      e.g.position.z -= 4;
+      blood(e.g.position, 5);
+      jabHand(e.g.position);
+      domFX(cx,cy,wpts,duality,'WOUNDED');
+      sfx.poke();
+      if(navigator.vibrate) navigator.vibrate(20);
+      return;
+    }
+    const mult = Math.min(combo+1, 8);
+    const base = e.scoreValue;
+    const pts = (duality? 250 : base) * (combo>=2? mult : 1);
+    combo++; bestCombo=Math.max(bestCombo,combo); pokes++; waveKills += (e.kind==='demon' ? 3 : 1);
+    setScore(score+pts); setCombo();
+    setHP(hp+2);
+    e.dead=0.28; e.squash=1;
+    goreBurst(e.g.position, e.kind, duality);
+    jabHand(e.g.position);
+    domFX(cx,cy,pts,duality);
+    if(duality) sfx.duality(); else if(e.kind==='eye'||e.kind==='skull') sfx.poke(); else sfx.crunch();
+    if(navigator.vibrate) navigator.vibrate(duality? [15,30,25] : 12);
+    if(waveKills>=12){ wave++; waveKills=0; banner('WAVE '+wave+' — THE ACHE GROWS'); sfx.wave(); setHP(hp+10); maybeBoss(); }
+  } else {
+    if(combo>=2){ combo=0; setCombo(); }
+    sfx.whiff();
+    const fx=$('fx'); const ring=document.createElement('div'); ring.className='tap-ring';
+    ring.style.left=cx+'px'; ring.style.top=cy+'px'; ring.style.opacity=.4; fx.appendChild(ring);
+    setTimeout(()=>ring.remove(),450);
+  }
+}
+renderer.domElement.addEventListener('pointerdown', ev=>{ ev.preventDefault(); pokeAt(ev.clientX, ev.clientY); }, {passive:false});
+/* prevent double-tap zoom / scroll on iOS */
+document.addEventListener('touchmove', ev=>{ if(running) ev.preventDefault(); }, {passive:false});
+document.addEventListener('dblclick', ev=>ev.preventDefault());
+document.addEventListener('gesturestart', ev=>ev.preventDefault());
+
+$('play-btn').addEventListener('click', startGame);
+$('retry-btn').addEventListener('click', ()=>{ $('over-overlay').hidden=true; startGame(); });
+$('pause-btn').addEventListener('click', ()=>{
+  if(!running) return;
+  paused=!paused;
+  $('pause-overlay').hidden=!paused;
+  $('pause-btn').textContent = paused? '▶':'⏸';
+  sfx.click();
+});
+/* long-press pause button = quit to menu */
+let pauseHold=null;
+$('pause-btn').addEventListener('pointerdown', ()=>{ pauseHold=setTimeout(()=>{ running=false; paused=false; over=false; $('pause-overlay').hidden=true; $('hud').hidden=true; $('hint-bar').hidden=true; $('start-overlay').hidden=false; $('pause-btn').textContent='⏸'; for(const e of foes){e.active=false;e.g.visible=false;} },700); });
+$('pause-btn').addEventListener('pointerup', ()=>clearTimeout(pauseHold));
+$('resume-btn').addEventListener('click', ()=>{ paused=false; $('pause-overlay').hidden=true; $('pause-btn').textContent='⏸'; });
+$('mute-btn').addEventListener('click', ()=>{ muted=!muted; storeMute.m=muted; updateMuteBtn(); if(!muted) sfx.click(); });
+
+/* ============ loop ============ */
+/* tiny hook for automated verification (harmless in production) */
+window.__game = {
+  eyes: foes, foes, camera, hands, scene,
+  spawnSkull, spawnZombie, spawnDemonBoss, spawnFoe,
+  get state(){ return { running, paused, over, score, combo, pokes, hp, wave }; },
+  screenPos(e){
+    const v = e.g.position.clone().project(camera);
+    const r = renderer.domElement.getBoundingClientRect();
+    return { x: r.left + (v.x+1)/2*r.width, y: r.top + (1-v.y)/2*r.height, behind: v.z>1 };
+  }
+};
+
+const clock = new THREE.Clock();
+function frame(){
+  requestAnimationFrame(frame);
+  const dt = Math.min(clock.getDelta(), 0.05);
+  const t = clock.elapsedTime;
+
+  /* tunnel scroll */
+  for(const r of rings){ r.position.z += dt*7; if(r.position.z>9) r.position.z-=57; r.rotation.z += dt*0.15; }
+  if(vortex) vortex.rotation.z += dt*0.12;
+  /* strobe */
+  strobeT += dt;
+  strobe.intensity = (Math.sin(strobeT*7)>0.55)? 42 : 8;
+  strobe.color.setHSL(0, 1, 0.45 + 0.1*Math.sin(strobeT*13));
+  killLight.intensity = Math.max(0, killLight.intensity - dt*320);
+  /* dust */
+  for(let i=0;i<DUST_N;i++){
+    const p = dustP[i];
+    p.z += dustS[i]*dt;
+    if(p.z > 8){ p.z = -34; p.x = rand(-10,10); p.y = rand(-5,7); }
+    dustDummy.position.copy(p);
+    dustDummy.rotation.x += dustR[i].x*dt; dustDummy.rotation.y += dustR[i].y*dt; dustDummy.rotation.z += dustR[i].z*dt;
+    dustDummy.updateMatrix(); dustMesh.setMatrixAt(i, dustDummy.matrix);
+  }
+  dustMesh.instanceMatrix.needsUpdate = true;
+  /* camera sway + shake */
+  shake = Math.max(0, shake - dt*1.6);
+  const shx = shake>0? rand(-1,1)*shake*0.5 : 0, shy = shake>0? rand(-1,1)*shake*0.4 : 0;
+  camera.position.x = Math.sin(t*0.5)*0.35 + shx;
+  camera.position.y = 0.4 + Math.cos(t*0.4)*0.18 + shy;
+  camera.lookAt(0,0.2,-8);
+
+  /* player hands + blood */
+  updateHands(dt, t);
+  updateDrops(dt);
+  /* shards */
+  for(const s of shards){
+    if(s.life <= 0) continue;
+    s.life -= dt;
+    if(s.life <= 0){ s.m.visible = false; continue; }
+    s.vel.y -= 7*dt;
+    s.m.position.addScaledVector(s.vel, dt);
+    s.m.rotation.x += s.spin.x*dt; s.m.rotation.y += s.spin.y*dt; s.m.rotation.z += s.spin.z*dt;
+    s.m.scale.multiplyScalar(1 - dt*0.8);
+  }
+
+  if(!running || paused){
+    /* attract mode behind menu */
+    ambientT -= dt;
+    if(ambientT<=0 && foes.filter(e=>e.active).length<5){ spawnEye(true); ambientT=0.7; }
+    for(const e of foes){
+      if(!e.active) continue;
+      if(!running){ e.g.position.z += e.speed*dt; if(e.g.position.z>7){ e.active=false; e.g.visible=false; continue; } }
+      e.wob+=dt*3; e.g.position.x += Math.sin(e.wob)*dt*0.6;
+      e.g.lookAt(camera.position);
+      if(e.tendrils.visible){ e.tendrils.rotation.z = Math.sin(t*3+e.wob)*0.12; e.tendrils.rotation.x = Math.cos(t*2.3+e.wob)*0.08; }
+      const pulse = 1 + Math.sin(t*5+e.wob)*0.05;
+      e.g.scale.set(e.baseScale*pulse, e.baseScale*pulse, e.baseScale*pulse);
+      if(e.aura) e.aura.material.opacity = 0.10+0.07*Math.sin(t*6+e.wob);
+    }
+    renderer.render(scene,camera);
+    return;
+  }
+
+  /* spawning */
+  timeT += dt;
+  const interval = Math.max(0.32, 1.05 - wave*0.09);
+  spawnT -= dt;
+  if(spawnT<=0){ spawnFoe(); spawnT = interval*rand(0.7,1.2); }
+
+  for(const e of foes){
+    if(!e.active) continue;
+    if(e.dead>0){
+      e.dead-=dt;
+      const s=1-Math.max(0,e.dead/0.28);
+      /* poke compresses the victim front-to-back, like a hand crushing in */
+      e.g.scale.set(e.baseScale*(1+0.6*s), e.baseScale*(1+0.6*s), e.baseScale*(1-0.65*s));
+      e.g.position.z += 2*dt;
+      if(e.dead<=0){ e.active=false; e.g.visible=false; }
+      continue;
+    }
+    e.wob+=dt*4;
+    e.g.position.z += e.speed*dt;
+    e.g.lookAt(camera.position);
+    if(e.kind==='skull'){
+      e.g.position.x += Math.sin(e.wob*1.7)*dt*2.2;
+      e.jawG.rotation.x = 0.15 + Math.abs(Math.sin(t*6+e.wob))*0.5;
+    }else if(e.kind==='zombie'){
+      e.g.position.x += Math.sin(e.wob*0.9)*dt*0.7;
+      e.g.rotateZ(Math.sin(e.wob*0.7)*0.12);
+      e.jawG.rotation.x = 0.4 + Math.sin(t*2+e.wob)*0.12;
+    }else if(e.kind==='demon'){
+      e.g.position.y += Math.cos(e.wob)*dt*0.6;
+      e.g.position.x += Math.sin(e.wob*0.6)*dt*0.5;
+      for(const w of e.wings) w.wg.rotation.z = w.m*(0.25 + Math.sin(t*5+e.wob)*0.55);
+      e.tail.rotation.y = Math.sin(t*2+e.wob)*0.2;
+    }else{
+      e.g.position.x += Math.sin(e.wob)*dt*1.1;
+      e.g.position.y += Math.cos(e.wob*0.8)*dt*0.5;
+      if(e.tendrils.visible){ e.tendrils.rotation.z = Math.sin(t*3.4+e.wob)*0.14; e.tendrils.rotation.x = Math.cos(t*2.6+e.wob)*0.09; }
+      const pulse = 1 + Math.sin(t*6+e.wob)*0.07;
+      e.g.scale.set(e.baseScale*pulse, e.baseScale*pulse, e.baseScale*pulse);
+      if(e.aura) e.aura.material.opacity = 0.10+0.08*Math.sin(t*7+e.wob);
+    }
+    if(e.g.position.z > 1.2){ damageFoe(e); }
+  }
+  renderer.render(scene,camera);
+}
+frame();
+
+window.addEventListener('resize', ()=>{
+  camera.aspect = window.innerWidth/window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+});
+document.addEventListener('visibilitychange', ()=>{
+  if(document.hidden && running && !paused){ paused=true; $('pause-overlay').hidden=false; $('pause-btn').textContent='▶'; }
+});
+/* paint the grimoire rune strips */
+document.querySelectorAll('canvas.runes').forEach(c => runeStrip(c));
+runeStrip($('wave-runes'), '#a00d0d');
+/* seed attract-mode eyes immediately so first paint + screenshots look alive */
+for(let i=0;i<4;i++){ spawnEye(true); const e=foes.filter(e=>e.active).pop(); if(e) e.g.position.z = rand(-26,-6); }
+/* autoplay for screenshots / demos: ?autoplay=1 starts the game shortly after load */
+if(new URLSearchParams(location.search).has('autoplay')){
+  setTimeout(()=>{ if(!running && !$('start-overlay').hidden) startGame(); }, 900);
+}
+</script>
+</body>
+</html>
