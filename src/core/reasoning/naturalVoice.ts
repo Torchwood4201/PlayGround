@@ -54,6 +54,10 @@ function extractSpeakable(record: string): Speakable | null {
   const single = record.replace(/\s+/g, ' ').trim();
   let m = single.match(/^KNOWLEDGE \[[^\]]+\] "([^"]+)" — (.*)$/);
   if (m) {
+    // The quoted label may carry a taxonomy trail
+    // ("computer programming > paradigms > Imperative / Procedural").
+    // Speech gets only the entry's own name — never the breadcrumb path.
+    const topic = m[1].split('>').pop()!.trim();
     // Drop catalog tails (" — significance: ...") into plain sentences so the
     // fact reads like speech, not a database row.
     const narrative = m[2]
@@ -61,8 +65,8 @@ function extractSpeakable(record: string): Speakable | null {
       .replace(/\s—\s([a-z][a-z ]*):\s*/g, '. ')
       .replace(/\.\s*\./g, '.');
     const body = tidyBody(narrative, 220);
-    if (!m[1] || !body) return null;
-    return { topic: m[1], body };
+    if (!topic || !body) return null;
+    return { topic, body };
   }
   m = single.match(/^DOCUMENT "([^"]+)" \[[^\]]+\]: (.*)$/);
   if (m) {
