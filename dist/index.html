@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VBoy Color — Virtual Boy in Color, in 3D</title>
+<meta name="description" content="VBoy Color is a free open-source Virtual Boy emulator: color, stereoscopic 3D, on Quest, PC desktop, and Android.">
+<style>
+  :root { color-scheme: dark; --bg:#0d1117; --panel:#161b22; --accent:#f0b429; --text:#e6edf3; --muted:#9aa4b2; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--text); line-height:1.5; }
+  header { padding:28px 20px 12px; text-align:center; }
+  header h1 { margin:0; font-size:clamp(28px,5vw,44px); letter-spacing:.5px; }
+  header h1 span { color:var(--accent); }
+  header p { margin:8px auto 0; max-width:720px; color:var(--muted); font-size:clamp(15px,2.5vw,18px); }
+  .badges { display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:14px; }
+  .badge { background:#21262d; border:1px solid #30363d; border-radius:999px; padding:4px 12px; font-size:13px; color:var(--text); }
+  main { max-width:1024px; margin:0 auto; padding:12px 20px 48px; }
+  .hero { background:var(--panel); border:1px solid #30363d; border-radius:12px; overflow:hidden; margin:20px 0; }
+  .hero img { display:block; width:100%; height:auto; background:#000; }
+  .hero figcaption { padding:10px 14px; color:var(--muted); font-size:14px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:12px; margin:20px 0; }
+  .card { background:var(--panel); border:1px solid #30363d; border-radius:12px; padding:14px 16px; }
+  .card h2 { margin:0 0 6px; font-size:17px; }
+  .card p, .card li { font-size:14px; color:#c9d1d9; }
+  .card ul { margin:6px 0 0; padding-left:18px; }
+  .actions { display:flex; gap:10px; flex-wrap:wrap; margin:18px 0; }
+  .btn { display:inline-block; padding:10px 18px; border-radius:8px; text-decoration:none; font-weight:600; font-size:15px; }
+  .btn-primary { background:var(--accent); color:#111; }
+  .btn-ghost { background:#21262d; color:var(--text); border:1px solid #30363d; }
+  table { width:100%; border-collapse:collapse; font-size:14px; margin-top:8px; }
+  th, td { text-align:left; padding:8px 10px; border-bottom:1px solid #30363d; }
+  th { color:var(--muted); font-weight:600; }
+  code { background:#21262d; padding:2px 6px; border-radius:6px; font-size:13px; }
+  footer { text-align:center; color:var(--muted); font-size:13px; padding:24px 12px 40px; }
+  footer a { color:var(--text); }
+  @media (max-width:480px){ header{padding:20px 14px 8px} main{padding:8px 14px 32px} }
+</style>
+</head>
+<body>
+<header>
+  <h1>VBOY <span>COLOR</span></h1>
+  <p>Virtual Boy games in color — in 3D on Meta Quest, on PC desktop, and on Android phones and handhelds.</p>
+  <div class="badges">
+    <span class="badge">3D Game</span>
+    <span class="badge">Desktop (Linux / Windows)</span>
+    <span class="badge">Emulator</span>
+    <span class="badge">Open source (GPL-3.0)</span>
+    <span class="badge">Linux build verified</span>
+  </div>
+</header>
+<main>
+  <div class="actions">
+    <a class="btn btn-primary" href="https://github.com/yuk27/VBoyColor" target="_blank" rel="noopener">View source on GitHub</a>
+    <a class="btn btn-ghost" href="https://github.com/yuk27/VBoyColor/releases" target="_blank" rel="noopener">Get releases</a>
+  </div>
+
+  <figure class="hero">
+    <img src="screenshot.png" alt="VBoy Color desktop app running: library menu" width="1280" height="800">
+    <figcaption>Live verification: desktop <code>VBoyColor</code> build running under Vulkan (llvmpipe) — library menu rendered in-window. No ROMs bundled; drop a <code>.vb</code> file you dumped yourself onto the window to play.</figcaption>
+  </figure>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Color, four ways</h2>
+      <ul>
+        <li><b>Auto</b> — per-tile / per-depth coloring, zero setup</li>
+        <li><b>Multicolor</b> — one color per Virtual Boy shade</li>
+        <li><b>Gradient</b> — brightness-mapped palettes</li>
+        <li><b>Tint</b> — classic red, or any mix</li>
+      </ul>
+      <p>17 hand-painted <code>.vbcp</code> color packs built in (Wario Land, Mario Tennis, Teleroboxer, …).</p>
+    </section>
+    <section class="card">
+      <h2>Real 3D</h2>
+      <p>Quest: one picture per eye. On PC / phones: side-by-side, top-bottom, or anaglyph glasses (red/cyan, green/magenta, amber/blue via Dubois).</p>
+    </section>
+    <section class="card">
+      <h2>Desktop build (this worker)</h2>
+      <p>Cloned <code>yuk27/VBoyColor</code>, submodules init, configured with CMake + Ninja, built target <code>VBoyColor</code> (5.3&nbsp;MB ELF x86-64).</p>
+      <p>Run: <code>VBoyColor/build-pc/VBoyColor</code> — needs Vulkan 1.1 (Mesa lavapipe works) and a display. ROMs go in <code>roms/</code>.</p>
+    </section>
+  </div>
+
+  <section class="card">
+    <h2>Controls</h2>
+    <table>
+      <tr><th>Virtual Boy</th><th>Keyboard</th><th>Gamepad</th></tr>
+      <tr><td>Left D-pad</td><td>Arrow keys</td><td>D-pad / left stick</td></tr>
+      <tr><td>Right D-pad</td><td>W A S D</td><td>Right stick</td></tr>
+      <tr><td>A / B</td><td>X / Z</td><td>B / A (VB positions)</td></tr>
+      <tr><td>L / R</td><td>Q / E</td><td>LB / RB</td></tr>
+      <tr><td>Start / Select</td><td>Enter / Backspace</td><td>Start / Back</td></tr>
+    </table>
+    <p>Menu: <code>Tab</code> or <code>Esc</code>. Fullscreen: <code>Alt+Enter</code>. Save <code>F2</code>, load <code>F4</code>, screenshot <code>F12</code>.</p>
+  </section>
+
+  <section class="card" style="margin-top:12px">
+    <h2>Project layout</h2>
+    <p><code>VBoyColor/</code> — full emulator source (CMake root). <code>core/</code> shared app, <code>platform/pc2d/</code> desktop entry, <code>shaders/</code>, <code>colorpacks/</code>, <code>third_party/beetle-vb-libretro</code>. This page is the static preview served from <code>dist/</code> for browser validation.</p>
+  </section>
+</main>
+<footer>
+  Independent fan project. Not affiliated with Nintendo or Meta. No games included — use only ROMs you dumped from cartridges you own.<br>
+  Source: <a href="https://github.com/yuk27/VBoyColor">yuk27/VBoyColor</a> · License: GPL-3.0 · Emulator core: Beetle VB (GPL-2.0+)
+</footer>
+</body>
+</html>
