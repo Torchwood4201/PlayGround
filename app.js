@@ -21,6 +21,7 @@ var DEFAULTS = {
   maxRebuildsPerFrame:4,
   adaptiveRebuild:true,
   hotbarStyle:'cards',
+  texturePack:'procedural',
 };
 var cfg = Object.assign({}, DEFAULTS);
 var currentSeed = 9043158;
@@ -218,6 +219,67 @@ function mkLeafTex(key, sn, base){
     ctx.fillStyle='rgba('+r+','+g+','+b+','+(0.35+rng()*0.45)+')';
     ctx.fillRect(rng()*T,rng()*T,2+rng()*5,2+rng()*5); }
   TEXTURES[key]=mkTex(cv);
+}
+
+/* =====================================================
+   VANILLA TEXTURE PACK — real 26.3 sprites (see sprite-web/).
+   Snapshot lives in textures/vanilla/ so the game is self-contained.
+   Animated strips are cropped to their first frame; fantasy leaf
+   variants are oak leaves re-tinted on canvas.
+===================================================== */
+var VANILLA_TEX={
+  grassTop:'textures/vanilla/block__grass_block_top.png',
+  grassSide:'textures/vanilla/block__grass_block_side.png',
+  dirt:'textures/vanilla/block__dirt.png',
+  stone:'textures/vanilla/block__stone.png',
+  deepStone:'textures/vanilla/block__deepslate.png',
+  sand:'textures/vanilla/block__sand.png',
+  water:'textures/vanilla/block__water_still.png',
+  log:'textures/vanilla/block__oak_log.png',
+  logTop:'textures/vanilla/block__oak_log_top.png',
+  snow:'textures/vanilla/block__snow.png',
+  pine:'textures/vanilla/block__spruce_leaves.png',
+  leavesOak:'textures/vanilla/block__oak_leaves.png',
+  coal_ore:'textures/vanilla/block__coal_ore.png',
+  iron_ore:'textures/vanilla/block__iron_ore.png',
+  gold_ore:'textures/vanilla/block__gold_ore.png',
+  diamond_ore:'textures/vanilla/block__diamond_ore.png',
+  bedrock:'textures/vanilla/block__bedrock.png',
+  planks:'textures/vanilla/block__oak_planks.png',
+  craftTable:'textures/vanilla/block__crafting_table_front.png',
+  furnace:'textures/vanilla/block__furnace_front.png',
+};
+var VANILLA_LEAF_TINTS={leavesAutumn:'#c05020',leavesMystic:'#9060e0',leavesGolden:'#e0b020',leavesTropical:'#20a080'};
+function loadImage(src){
+  return new Promise(function(res,rej){ var i=new Image(); i.onload=function(){res(i);}; i.onerror=function(){rej(new Error('img '+src));}; i.src=src; });
+}
+function vanillaCanvas(img){
+  var s=Math.min(img.width,img.height); // first frame of animated strips
+  var cv=makeCanv(16), ctx=cv.getContext('2d');
+  ctx.imageSmoothingEnabled=false;
+  ctx.drawImage(img,0,0,s,s,0,0,16,16);
+  return cv;
+}
+function tintCanvas(srcCv,color){
+  var cv=makeCanv(16), ctx=cv.getContext('2d');
+  ctx.imageSmoothingEnabled=false;
+  ctx.drawImage(srcCv,0,0);
+  ctx.globalCompositeOperation='multiply';
+  ctx.fillStyle=color; ctx.fillRect(0,0,16,16);
+  return cv;
+}
+async function loadVanillaPack(){
+  var keys=Object.keys(VANILLA_TEX);
+  var imgs={};
+  for(var i=0;i<keys.length;i++){ imgs[keys[i]]=await loadImage(VANILLA_TEX[keys[i]]); }
+  var canvases={};
+  keys.forEach(function(k){ canvases[k]=vanillaCanvas(imgs[k]); });
+  Object.keys(VANILLA_LEAF_TINTS).forEach(function(k){ canvases[k]=tintCanvas(canvases.leavesOak,VANILLA_LEAF_TINTS[k]); });
+  // pine keeps its own spruce texture; oak leaves double as pine fallback? no — spruce loaded above.
+  Object.keys(canvases).forEach(function(k){ TEXTURES[k]=mkTex(canvases[k]); });
+  TEXTURES.stone.wrapS=TEXTURES.stone.wrapT=THREE.RepeatWrapping;
+  TEXTURES.deepStone.wrapS=TEXTURES.deepStone.wrapT=THREE.RepeatWrapping;
+  Object.keys(TEXTURES).forEach(function(k){ TEXTURES[k].magFilter=TEXTURES[k].minFilter=THREE.NearestFilter; });
 }
 
 /* =====================================================
@@ -877,6 +939,22 @@ var lastFrameTime = performance.now();
 var fps = 0, fpsAccum=0, fpsFrames=0, fpsLast=0;
 var tileGroupsMap = {};
 var dirtyTilesSet = new Set();
+/* Chunks & rebuild benchmark state (declared up top: animate() runs once before bottom-of-file code) */
+var bench={frames:0, frameMsAvg:16.6, lastFrameT:0, rebuilds:0, rebuildMsTotal:0, rebuildMsAvg:0, rebuildMsMax:0, lastMs:0, lastKey:'', tris:0, verts:0, tilesTotal:0, pendingPeak:0, benchRes:'--'};
+var tileStatsMap={};
+var benchUiAcc=0;
+var chunkBorderGroup=null;
+var flashGroup=null;
+var flashes=[];
+/* Pre-load perf gate data (up top: showPerfGate runs at init, before bottom-of-file code) */
+var PRESETS={
+  potato:{label:'Potato', sub:'64px world', chunkIdx:2, maxRebuilds:2, pixelRatio:1, shadows:false, shadowSize:1024, clouds:2, desc:'64×64 world, no shadows, min pixels. For weak iGPUs, SW renderers, ≤2 cores.'},
+  laptop:{label:'Laptop', sub:'128px world', chunkIdx:4, maxRebuilds:4, pixelRatio:1.5, shadows:true, shadowSize:1024, clouds:4, desc:'128×128 world, small shadows. For typical laptops / integrated graphics.'},
+  gaming:{label:'Gaming', sub:'256px world', chunkIdx:5, maxRebuilds:4, pixelRatio:2, shadows:true, shadowSize:2048, clouds:5, desc:'Full 256×256 world, full shadows. For discrete GPUs / fast desktops.'},
+  beast:{label:'Beast', sub:'512px world', chunkIdx:6, maxRebuilds:8, pixelRatio:2, shadows:true, shadowSize:2048, clouds:7, desc:'Huge 512×512 world, 8 rebuilds/frame. For high-end GPUs only.'},
+};
+var PRESET_ORDER=['potato','laptop','gaming','beast'];
+var perfProbe=null, perfSpecs=null, perfPick='laptop', perfPlaying=false;
 function isBlockSolid(type){
   if(!type) return false;
   if(type==='water') return false;
@@ -928,6 +1006,17 @@ var player = {
 };
 
 var highlightMesh = null;
+/* combat cooldown + sprint state */
+var lastAttackT=0, lastHitDmg=0, sprintDrain=0;
+function attackCdMs(){ var st=selectedStack(); return (st&&ITEMS[st.id]&&ITEMS[st.id].dmg)?600:350; }
+function attackCdProg(){
+  if(typeof performance==='undefined') return 1;
+  return Math.min((performance.now()-lastAttackT)/attackCdMs(),1);
+}
+function updateCdUI(){
+  var f=$e('cd-fill');
+  if(f) f.style.width=Math.round(attackCdProg()*100)+'%';
+}
 var inv = {hot:[null,null,null,null,null,null,null,null,null], main:[]};
 for(var _mi=0;_mi<27;_mi++) inv.main.push(null);
 var selectedBlockIndex = 0;
@@ -985,7 +1074,12 @@ async function generate(seed, opts){
   $e('hud-size').textContent=CHUNK; $e('hud-size2').textContent=CHUNK;
 
   setProgress(0,'BUILDING TEXTURES...'); await sleep(skipLoading?0:20);
-  matCache={}; buildTextures();
+  matCache={};
+  if(cfg.texturePack==='vanilla'){
+    setProgress(5,'LOADING VANILLA PACK...');
+    try{ await loadVanillaPack(); }
+    catch(e){ console.warn('[texpack]',e); buildTextures(); var bi=$e('block-info'); if(bi) bi.textContent='Vanilla pack failed to load — procedural fallback'; }
+  } else buildTextures();
 
   setProgress(15,'GENERATING WORLD...'); await sleep(skipLoading?0:10);
   var result = genWorld(seed);
@@ -999,6 +1093,8 @@ async function generate(seed, opts){
   scene.add(worldGroup);
   tileGroupsMap = {};
   dirtyTilesSet.clear();
+  resetBench();
+  clearFlashes();
   editLog={}; furnaces={}; clearDrops(); dead=false; health=20; hunger=20;
   var ds=$e('death-screen'); if(ds) ds.classList.remove('open');
 
@@ -1019,9 +1115,11 @@ async function generate(seed, opts){
   setProgress(40,'MESHING CENTRE TILE...'); await sleep(skipLoading?0:5);
 
   var t0=tiles[0];
+  var genT0=(typeof performance!=='undefined')?performance.now():0;
   var m0=buildTileMesh(colMap,typeNames,getBlock,CHUNK,t0.tx,t0.tz,t0.tw,t0.th);
   worldGroup.add(m0);
   tileGroupsMap[t0.tx+','+t0.tz] = m0;
+  recordTileStat(t0.tx+','+t0.tz, m0, (typeof performance!=='undefined')?performance.now()-genT0:0);
   // spawn player near center
   spawnPlayer(); try{ spawnMobs(); addMobMeshes(); }catch(e){}
 
@@ -1037,9 +1135,11 @@ async function generate(seed, opts){
     for(var ti=1;ti<tiles.length;ti++){
       if(renderCancelToken.id!==myToken){ toast.style.display='none'; return; }
       var t=tiles[ti];
+      var genT1=(typeof performance!=='undefined')?performance.now():0;
       var mesh=buildTileMesh(colMap,typeNames,getBlock,CHUNK,t.tx,t.tz,t.tw,t.th);
       worldGroup.add(mesh);
       tileGroupsMap[t.tx+','+t.tz] = mesh;
+      recordTileStat(t.tx+','+t.tz, mesh, (typeof performance!=='undefined')?performance.now()-genT1:0);
       var pct=Math.round((ti+1)/tiles.length*100);
       ttxt.textContent='STREAMING  '+pct+'%  ('+( ti+1)+' / '+tiles.length+' tiles)';
       tbar.style.width=pct+'%';
@@ -1202,6 +1302,8 @@ document.querySelectorAll('.sz-badge').forEach(function(b){
 });
 
 $e('cb-water').addEventListener('change',function(){ cfg.showWater=this.checked; });
+var packSel=$e('sel-pack');
+if(packSel) packSel.addEventListener('change',function(){ cfg.texturePack=this.value; });
 $e('cb-wireframe').addEventListener('change',function(){
   cfg.wireframe=this.checked;
   if(worldGroup) worldGroup.traverse(function(o){ if(o.material) o.material.wireframe=cfg.wireframe; });
@@ -1231,6 +1333,7 @@ $e('btn-reset').addEventListener('click',function(){
   document.querySelectorAll('.sz-badge').forEach(function(b){ b.classList.toggle('active',parseInt(b.dataset.idx)===cfg.chunkIdx); });
   document.querySelectorAll('.pill').forEach(function(p){ p.classList.toggle('active',p.dataset.type===cfg.noiseType); });
   $e('cb-water').checked=cfg.showWater; $e('cb-wireframe').checked=cfg.wireframe; $e('cb-autorotate').checked=cfg.autoRotate;
+  var ps=$e('sel-pack'); if(ps) ps.value=cfg.texturePack;
   $e('s-seed').value=currentSeed;
   updateZoneVis();
   buildClouds();
@@ -1305,7 +1408,7 @@ updateZoneVis();
 onResize();
 applyTOD();
 buildClouds();
-var hb=$e('hotbar'); if(hb){ var hbs=$e('hotbar-style'); hb.className='hotbar-style-'+(cfg.hotbarStyle||(hbs&&hbs.value)||'cards'); } buildHotbar(); setupInput(); wireInvModal(); wireFurnaceModal(); wireSaveLoad(); generate(currentSeed);
+var hb=$e('hotbar'); if(hb){ var hbs=$e('hotbar-style'); hb.className='hotbar-style-'+(cfg.hotbarStyle||(hbs&&hbs.value)||'cards'); } buildHotbar(); setupInput(); wireInvModal(); wireFurnaceModal(); wireSaveLoad(); wirePerfGate(); showPerfGate();
 
 /* =====================================================
    RENDER LOOP
@@ -1320,6 +1423,12 @@ function animate(){
   fpsFrames++;
   fpsAccum += dt*1000;
   if(now-fpsLast>500){ fps=Math.round(fpsFrames*1000/fpsAccum); fpsFrames=0; fpsAccum=0; fpsLast=now; var fe=$e('fps'); if(fe) fe.textContent='FPS: '+fps; }
+  bench.frames++;
+  bench.frameMsAvg += ((now-(bench.lastFrameT||now))-bench.frameMsAvg)*0.05;
+  bench.lastFrameT = now;
+  updateFlashes(dt);
+  benchUiAcc+=dt;
+  if(benchUiAcc>0.5){ benchUiAcc=0; updateBenchUI(); }
 
   if(isLocked){
     updatePlayer(dt);
@@ -1469,6 +1578,7 @@ function spawnPlayer(){
   player.yaw=Math.PI*1.25;
   player.pitch=0;
   player.onGround=false;
+  fallPeak=null; wasAir=false; sprintDrain=0;
 }
 
 function tileKeyFor(x,z){
@@ -1495,14 +1605,20 @@ function rebuildTile(k){
   if(old){
     old.traverse(function(o){ if(o.geometry) o.geometry.dispose(); });
   }
+  if(tileStatsMap[key]){ bench.tris-=tileStatsMap[key].tris; bench.verts-=tileStatsMap[key].verts; delete tileStatsMap[key]; }
   var tw=Math.min(TILE,CHUNK-tx), th=Math.min(TILE,CHUNK-tz);
   if(!colMapGlobal || !getBlockGlobal) return;
+  var t0=(typeof performance!=='undefined')?performance.now():0;
   var mesh=buildTileMesh(colMapGlobal,typeNamesGlobal,getBlockGlobal,CHUNK,tx,tz,tw,th);
+  var ms=(typeof performance!=='undefined')?performance.now()-t0:0;
+  recordTileStat(key, mesh, ms);
   tileGroupsMap[key]=mesh;
   worldGroup.add(mesh);
+  flashTile(tx,tz,tw,th);
 }
 function processDirtyTiles(){
   if(dirtyTilesSet.size===0) return;
+  if(dirtyTilesSet.size>bench.pendingPeak) bench.pendingPeak=dirtyTilesSet.size;
   var budget = (cfg.maxRebuildsPerFrame!=null?cfg.maxRebuildsPerFrame:4); if(budget<0) budget=0;
   if(cfg.adaptiveRebuild!==false){
     var now=performance.now();
@@ -1665,7 +1781,17 @@ function updatePlayer(dt){
   var headB=G(Math.floor(player.pos[0]),Math.floor(player.pos[1]+player.eyeHeight),Math.floor(player.pos[2]));
   var inWater = feet==='water' || headB==='water';
   player.inWater = inWater;
-  var walk = inWater ? 3.0 : 4.3;
+  // sprint (Ctrl+W, needs food) + crawl (sprint under a low ceiling)
+  var fxi=Math.floor(player.pos[0]), fzi=Math.floor(player.pos[2]);
+  var lowCeil = isBlockSolid(G(fxi,Math.floor(player.pos[1]+1.0),fzi)) || isBlockSolid(G(fxi,Math.floor(player.pos[1]+1.7),fzi));
+  var sprintKey = !!(keys['ControlLeft']||keys['ControlRight']);
+  player.crawling = sprintKey && lowCeil && !inWater;
+  player.sprinting = sprintKey && !!keys['KeyW'] && len>0 && player.onGround && hunger>6 && !inWater && !player.crawling && !dead;
+  player.size[1] = player.crawling?1.0:1.8;
+  player.eyeHeight = player.crawling?0.85:1.62;
+  if(player.sprinting){ sprintDrain+=dt; if(sprintDrain>4){ sprintDrain=0; if(hunger>0){ hunger--; updateSurvivalHUD(); } } }
+  else sprintDrain=0;
+  var walk = inWater ? 3.0 : player.crawling ? 2.0 : player.sprinting ? 6.4 : 4.3;
   var gravity = inWater ? -6 : -22;
   var jumpV = inWater ? 4.5 : 8.2;
   player.vel[0]=vx*walk;
@@ -1689,6 +1815,9 @@ function updatePlayer(dt){
   camera.rotation.set(0,0,0);
   camera.rotateY(player.yaw);
   camera.rotateX(player.pitch);
+  var wantFov=player.sprinting?68:58;
+  if(Math.abs(camera.fov-wantFov)>0.1){ camera.fov+=(wantFov-camera.fov)*Math.min(1,dt*8); camera.updateProjectionMatrix(); }
+  updateCdUI();
 }
 
 function carveCaves(colMap, CHUNK){
@@ -1769,11 +1898,11 @@ window.VC = {
   setBlock: function(x,y,z,t){ return setBlock(x,y,z,t); },
   raycast: function(d){ return raycast(d||4.5); },
   spawn: function(){ return spawnPlayer(); },
-  teleport: function(x,y,z){ player.pos=[x,y,z]; player.vel=[0,0,0]; },
+  teleport: function(x,y,z){ player.pos=[x,y,z]; player.vel=[0,0,0]; fallPeak=null; wasAir=false; },
   look: function(yaw,pitch){ player.yaw=yaw; player.pitch=pitch; },
   dirtyCount: function(){ return dirtyTilesSet.size; },
   mobCount: function(){ return mobs.length; },
-  mobPos: function(i){ return mobs[i] ? mobs[i].pos.slice() : null; },
+  mobPos: function(i){ return mobs[i] ? mobs[i].pos.slice().concat([mobs[i].type]) : null; },
   select: function(i){ selectedBlockIndex=i; updateHotbar(); }
 };
 
@@ -2554,7 +2683,14 @@ function tryAttack(){
   }
   if(best<0) return false;
   var mob2=mobs[best];
-  mob2.hp-=heldWeaponDmg();
+  // attack cooldown: damage scales with recharge (swords 600ms, else 350ms)
+  var nowT=(typeof performance!=='undefined')?performance.now():0;
+  var cdMs=(selectedStack()&&ITEMS[selectedStack().id]&&ITEMS[selectedStack().id].dmg)?600:350;
+  var prog=Math.min((nowT-lastAttackT)/cdMs,1);
+  var dmg=heldWeaponDmg()*(0.25+0.75*prog*prog);
+  if(prog>=1) lastAttackT=nowT;
+  lastHitDmg=Math.round(dmg*10)/10;
+  mob2.hp-=dmg;
   mob2.hurtT=0.25;
   mob2.vel[0]+=vx*5; mob2.vel[1]=3; mob2.vel[2]+=vz*5;
   if(mob2.type==='pig'){ mob2.dir=Math.atan2(-vx,-vz); mob2.wanderT=2; }
@@ -2618,6 +2754,33 @@ function spawnerTick(dt){
     var z2=Math.max(2,Math.min(CHUNK-3,CHUNK/2+(Math.random()-0.5)*60));
     spawnMob('pig', x2, groundAt(x2,z2), z2);
   }
+  // cave spawns: hostiles appear wherever light <= 7, day or night
+  if(nz<6 && !dead){
+    for(var t=0;t<6;t++){
+      var cx0=Math.max(2,Math.min(CHUNK-3,player.pos[0]+(Math.random()-0.5)*40));
+      var cz0=Math.max(2,Math.min(CHUNK-3,player.pos[2]+(Math.random()-0.5)*40));
+      var sy=surfaceHeightAt(cx0,cz0);
+      if(sy<9) continue;
+      var cy=sy-2-Math.floor(Math.random()*Math.max(1,sy-8));
+      if(cy<3||cy>=sy) continue;
+      var ix0=Math.floor(cx0), iz0=Math.floor(cz0);
+      if(lightAt(cx0,cy,cz0)<=7 && !G(ix0,cy,iz0) && !G(ix0,cy+1,iz0) && isBlockSolid(G(ix0,cy-1,iz0))){
+        spawnMob('zombie',cx0,cy,cz0);
+        break;
+      }
+    }
+  }
+}
+/* Approx light model: sky 15 by day / 4 by night, -2 per block of depth */
+function surfaceHeightAt(x,z){
+  for(var y=cfg.maxHeight;y>=0;y--){ var t=G(Math.floor(x),y,Math.floor(z)); if(t&&isBlockSolid(t)) return y; }
+  return 0;
+}
+function lightAt(x,y,z){
+  var sky=isNightNow()?4:15;
+  var s=surfaceHeightAt(x,z);
+  if(y>=s) return sky;
+  return Math.max(0, sky-(s-y)*2);
 }
 
 /* =====================================================
@@ -2737,5 +2900,312 @@ animate();
   window.VC.load=function(){ loadGame(); };
   window.VC.edits=function(){ return Object.keys(editLog).length; };
   window.VC.starve=function(n){ hunger=Math.max(0,hunger-(n||5)); updateSurvivalHUD(); };
+  window.VC.cdProg=function(){ return attackCdProg(); };
+  window.VC.lastDmg=function(){ return lastHitDmg; };
+  window.VC.light=function(x,y,z){ return lightAt(x,y,z); };
+  window.VC.key=function(code,down){ keys[code]=!!down; };
+  window.VC.keys=function(){ var o={}; for(var k in keys) o[k]=keys[k]; return o; };
+  window.VC.pstate=function(){ return {sprinting:!!player.sprinting, crawling:!!player.crawling, h:player.size[1], eye:player.eyeHeight, onGround:player.onGround}; };
+  window.VC.bench=function(){ return JSON.parse(JSON.stringify({frames:bench.frames, frameMs:Math.round(bench.frameMsAvg*100)/100, fps:fps, tilesTotal:bench.tilesTotal, tilesLoaded:Object.keys(tileGroupsMap).length, dirty:dirtyTilesSet.size, pendingPeak:bench.pendingPeak, rebuilds:bench.rebuilds, lastMs:Math.round(bench.lastMs*100)/100, lastKey:bench.lastKey, avgMs:Math.round(bench.rebuildMsAvg*100)/100, maxMs:Math.round(bench.rebuildMsMax*100)/100, tris:bench.tris, verts:bench.verts, benchRes:bench.benchRes})); };
+  window.VC.markAllDirty=function(){ markAllDirty(); return dirtyTilesSet.size; };
+  window.VC.benchSync=function(){ return benchRebuildAllSync(); };
 })();
+
+/* =====================================================
+   CHUNKS & REBUILD BENCHMARK (chunk borders + flash + stats)
+===================================================== */
+function fmtMs(v){ return (Math.round(v*100)/100)+' ms'; }
+function recordTileStat(key, mesh, ms){
+  if(tileStatsMap[key]){ bench.tris-=tileStatsMap[key].tris; bench.verts-=tileStatsMap[key].verts; }
+  var tris=0, verts=0;
+  if(mesh) mesh.traverse(function(o){
+    if(o.geometry){
+      var p=o.geometry.getAttribute('position');
+      if(p) verts+=p.count;
+      if(o.geometry.index) tris+=o.geometry.index.count/3;
+      else if(p) tris+=p.count/3;
+    }
+  });
+  tris=Math.round(tris); verts=Math.round(verts);
+  tileStatsMap[key]={tris:tris, verts:verts, ms:ms};
+  bench.tris+=tris; bench.verts+=verts;
+  bench.rebuilds++; bench.rebuildMsTotal+=ms;
+  bench.rebuildMsAvg=bench.rebuildMsTotal/bench.rebuilds;
+  if(ms>bench.rebuildMsMax) bench.rebuildMsMax=ms;
+  bench.lastMs=ms; bench.lastKey=key;
+}
+function resetBench(){
+  bench.frames=0; bench.rebuilds=0; bench.rebuildMsTotal=0; bench.rebuildMsAvg=0;
+  bench.rebuildMsMax=0; bench.lastMs=0; bench.lastKey=''; bench.tris=0; bench.verts=0;
+  bench.pendingPeak=0;
+  tileStatsMap={};
+  var CHUNK=CHUNK_SIZES[cfg.chunkIdx];
+  bench.tilesTotal=Math.ceil(CHUNK/TILE)*Math.ceil(CHUNK/TILE);
+  updateChunkBorders();
+  updateBenchUI();
+}
+function allTileKeys(){
+  var CHUNK=CHUNK_SIZES[cfg.chunkIdx], keys=[];
+  for(var tz=0;tz<CHUNK;tz+=TILE) for(var tx=0;tx<CHUNK;tx+=TILE) keys.push(tx+','+tz);
+  return keys;
+}
+function markAllDirty(){
+  var keys=allTileKeys();
+  for(var i=0;i<keys.length;i++) dirtyTilesSet.add(keys[i]);
+  if(keys.length>bench.pendingPeak) bench.pendingPeak=keys.length;
+}
+function benchRebuildAllSync(){
+  var keys=allTileKeys();
+  var t0=performance.now();
+  for(var i=0;i<keys.length;i++){ dirtyTilesSet.delete(keys[i]); rebuildTile(keys[i]); }
+  var total=performance.now()-t0;
+  bench.benchRes=keys.length+' tiles / '+Math.round(total)+' ms total / '+fmtMs(total/Math.max(1,keys.length))+' avg';
+  updateBenchUI();
+  return {tiles:keys.length, totalMs:Math.round(total*100)/100, avgMs:Math.round(total/Math.max(1,keys.length)*100)/100};
+}
+function benchStreamAll(){
+  markAllDirty();
+  bench.benchRes='streaming '+allTileKeys().length+' tiles at '+cfg.maxRebuildsPerFrame+'/frame budget…';
+  updateBenchUI();
+}
+function clearBenchStats(){
+  bench.rebuilds=0; bench.rebuildMsTotal=0; bench.rebuildMsAvg=0; bench.rebuildMsMax=0;
+  bench.lastMs=0; bench.lastKey=''; bench.pendingPeak=dirtyTilesSet.size; bench.benchRes='--';
+  updateBenchUI();
+}
+function updateBenchUI(){
+  var loaded=Object.keys(tileGroupsMap).length;
+  var b0=$e('bench-chunks'); if(b0) b0.textContent=loaded+'/'+bench.tilesTotal;
+  var b1=$e('bench-dirty'); if(b1) b1.textContent=dirtyTilesSet.size;
+  var b2=$e('bench-rebuild'); if(b2) b2.textContent=(bench.rebuilds?fmtMs(bench.lastMs)+' (avg '+fmtMs(bench.rebuildMsAvg)+')':'--');
+  var b3=$e('bench-tris'); if(b3) b3.textContent=bench.tris?bench.tris.toLocaleString():'--';
+  var s=function(id,v){ var el=$e(id); if(el) el.textContent=v; };
+  s('b-tiles', loaded+' / '+bench.tilesTotal);
+  s('b-dirty', dirtyTilesSet.size);
+  s('b-peak', bench.pendingPeak);
+  s('b-frame', fmtMs(bench.frameMsAvg));
+  s('b-fps', (fps||'--')+' fps');
+  s('b-last', bench.rebuilds?fmtMs(bench.lastMs):'--');
+  s('b-lastkey', bench.lastKey?('@'+bench.lastKey):'');
+  s('b-avg', bench.rebuilds?fmtMs(bench.rebuildMsAvg):'--');
+  s('b-max', bench.rebuilds?fmtMs(bench.rebuildMsMax):'--');
+  s('b-total', bench.rebuilds);
+  s('b-tris', bench.tris?bench.tris.toLocaleString():'--');
+  s('b-verts', bench.verts?bench.verts.toLocaleString():'--');
+  s('b-benchres', bench.benchRes);
+}
+function updateChunkBorders(){
+  if(chunkBorderGroup){ scene.remove(chunkBorderGroup); chunkBorderGroup.traverse(function(o){ if(o.geometry) o.geometry.dispose(); if(o.material) o.material.dispose(); }); chunkBorderGroup=null; }
+  if(!cfg.showChunkBorders) return;
+  var CHUNK=CHUNK_SIZES[cfg.chunkIdx];
+  var g=new THREE.Group();
+  var mat=new THREE.LineBasicMaterial({color:0x00ff88, transparent:true, opacity:0.55});
+  for(var tz=0;tz<CHUNK;tz+=TILE) for(var tx=0;tx<CHUNK;tx+=TILE){
+    var tw=Math.min(TILE,CHUNK-tx), th=Math.min(TILE,CHUNK-tz);
+    var y=cfg.waterLvl+1.5;
+    var pts=[tx,y,tz, tx+tw,y,tz, tx+tw,y,tz, tx+tw,y,tz+th, tx+tw,y,tz+th, tx,y,tz+th, tx,y,tz+th, tx,y,tz];
+    var geo=new THREE.BufferGeometry();
+    geo.setAttribute('position', new THREE.Float32BufferAttribute(pts,3));
+    g.add(new THREE.LineSegments(geo, mat));
+  }
+  chunkBorderGroup=g;
+  scene.add(g);
+}
+function flashTile(tx,tz,tw,th){
+  if(cfg.showFlash===false) return;
+  try{
+    if(!flashGroup){ flashGroup=new THREE.Group(); scene.add(flashGroup); }
+    var y=cfg.waterLvl+1.6;
+    var geo=new THREE.PlaneGeometry(tw,th);
+    var mat=new THREE.MeshBasicMaterial({color:0xffd040, transparent:true, opacity:0.35, depthWrite:false, side:THREE.DoubleSide});
+    var m=new THREE.Mesh(geo,mat);
+    m.rotation.x=-Math.PI/2;
+    m.position.set(tx+tw/2, y, tz+th/2);
+    flashGroup.add(m);
+    flashes.push({mesh:m, life:1.2});
+    if(flashes.length>24){ var o=flashes.shift(); flashGroup.remove(o.mesh); o.mesh.geometry.dispose(); o.mesh.material.dispose(); }
+  }catch(e){}
+}
+function updateFlashes(dt){
+  if(!flashes.length) return;
+  for(var i=flashes.length-1;i>=0;i--){
+    var f=flashes[i];
+    f.life-=dt;
+    if(f.life<=0){ flashGroup.remove(f.mesh); f.mesh.geometry.dispose(); f.mesh.material.dispose(); flashes.splice(i,1); }
+    else f.mesh.material.opacity=0.35*(f.life/1.2);
+  }
+}
+function clearFlashes(){
+  flashes=[];
+  if(flashGroup){ scene.remove(flashGroup); flashGroup.traverse(function(o){ if(o.geometry) o.geometry.dispose(); if(o.material) o.material.dispose(); }); flashGroup=null; }
+}
+function wireBench(){
+  var hud=$e('cb-benchhud');
+  if(hud) hud.addEventListener('change', function(){ var b=$e('bench'); if(b) b.style.display=this.checked?'block':'none'; });
+  var cb=$e('cb-chunkborders');
+  if(cb) cb.addEventListener('change', function(){ cfg.showChunkBorders=this.checked; updateChunkBorders(); });
+  var fl=$e('cb-flash');
+  if(fl) fl.addEventListener('change', function(){ cfg.showFlash=this.checked; if(!this.checked) clearFlashes(); });
+  var d=$e('btn-dirtyall'); if(d) d.addEventListener('click', function(){ markAllDirty(); updateBenchUI(); });
+  var s2=$e('btn-benchsync'); if(s2) s2.addEventListener('click', function(){ var r=benchRebuildAllSync(); var bi=$e('block-info'); if(bi) bi.textContent='BENCH: '+r.tiles+' tiles in '+r.totalMs+' ms ('+r.avgMs+' ms avg)'; });
+  var st=$e('btn-benchstream'); if(st) st.addEventListener('click', function(){ benchStreamAll(); });
+  var cl=$e('btn-benchclear'); if(cl) cl.addEventListener('click', function(){ clearBenchStats(); });
+}
+wireBench();
+wirePerfGateBoot();
+
+/* =====================================================
+   PRE-LOAD PERFORMANCE GATE — probe the player's PC,
+   recommend a preset, pre-apply it before world gen.
+   The sidebar benchmark stays as the optional debug view.
+===================================================== */
+/* (preset data declared up top) */
+function detectSpecs(){
+  var sp={cores:(navigator.hardwareConcurrency||'unknown'), mem:(navigator.deviceMemory||'unknown'), dpr:window.devicePixelRatio||1, screen:(window.screen?screen.width+'×'+screen.height:'unknown'), gpu:'unknown', swift:false};
+  try{
+    var gl=renderer.getContext();
+    var ext=gl.getExtension('WEBGL_debug_renderer_info');
+    if(ext) sp.gpu=gl.getParameter(ext.UNMASKED_RENDERER_WEBGL)||'unknown';
+  }catch(e){}
+  if(sp.gpu && /swiftshader|llvmpipe|software|basic render|angle \(google/i.test(String(sp.gpu))) sp.swift=true;
+  return sp;
+}
+function pickPreset(pr, sp){
+  if(sp.swift) return 'potato';
+  if(typeof sp.mem==='number' && sp.mem<=4) return (pr.cpuMs>1200||pr.gpuMs>50)?'potato':'laptop';
+  if(typeof sp.cores==='number' && sp.cores<=2) return 'potato';
+  if(pr.cpuMs>2500||pr.gpuMs>100) return 'potato';
+  if(pr.cpuMs>1200||pr.gpuMs>50) return 'laptop';
+  if(pr.cpuMs>500||pr.gpuMs>25) return 'gaming';
+  return 'beast';
+}
+async function runProbe(onStep){
+  matCache={}; buildTextures();
+  var step=onStep||function(){};
+  step('Noise math…');
+  var p=makeNoise(1234), acc=0;
+  var n0=performance.now();
+  for(var i=0;i<20000;i++){ acc+=p((i*0.13)%97,(i*0.29)%89); }
+  var noiseMs=performance.now()-n0;
+  step('Test world (32×32)…');
+  await sleep(10);
+  var keep={chunkIdx:cfg.chunkIdx, maxHeight:cfg.maxHeight, waterLvl:cfg.waterLvl, showWater:cfg.showWater};
+  cfg.chunkIdx=1; cfg.maxHeight=64; cfg.waterLvl=20; cfg.showWater=true;
+  var g0=performance.now();
+  var res=genWorld(777);
+  var genMs=performance.now()-g0;
+  step('Test mesh build…');
+  await sleep(10);
+  var gb=makeLookup(res.colMap,res.typeNames,res.CHUNK);
+  var m0=performance.now();
+  var testMesh=buildTileMesh(res.colMap,res.typeNames,gb,res.CHUNK,0,0,res.CHUNK,res.CHUNK);
+  var meshMs=performance.now()-m0;
+  step('Test render (12 frames)…');
+  scene.add(testMesh);
+  var frames=0, f0=performance.now(), tStart=performance.now();
+  await new Promise(function(done){
+    function fr(){
+      renderer.render(scene,camera);
+      frames++;
+      if(frames<12 && performance.now()-tStart<2000) requestAnimationFrame(fr);
+      else done();
+    }
+    requestAnimationFrame(fr);
+  });
+  var gpuMs=(performance.now()-f0)/Math.max(1,frames);
+  scene.remove(testMesh);
+  testMesh.traverse(function(o){ if(o.geometry) o.geometry.dispose(); if(o.material && o.material.map!==undefined && !matCache[o.material.map]){/* shared */} });
+  cfg.chunkIdx=keep.chunkIdx; cfg.maxHeight=keep.maxHeight; cfg.waterLvl=keep.waterLvl; cfg.showWater=keep.showWater;
+  if(acc===123456789) acc=0;
+  return {noiseMs:Math.round(noiseMs*10)/10, genMs:Math.round(genMs*10)/10, meshMs:Math.round(meshMs*10)/10, gpuMs:Math.round(gpuMs*10)/10, cpuMs:Math.round((noiseMs+genMs+meshMs)*10)/10};
+}
+function presetDetail(k){
+  var P=PRESETS[k], CH=CHUNK_SIZES[P.chunkIdx];
+  return P.label+' → '+CH+'×'+CH+' world, '+P.maxRebuilds+'/frame rebuilds, shadows '+(P.shadows?'on ('+P.shadowSize+')':'off')+', '+P.clouds+' clouds.';
+}
+function renderPerfGate(){
+  var sx=$e('perf-specs');
+  if(sx && perfSpecs){
+    sx.innerHTML='<div>CPU cores</div><div>'+perfSpecs.cores+'</div>'+
+      '<div>Device memory</div><div>'+(perfSpecs.mem==='unknown'?'unknown':perfSpecs.mem+' GB')+'</div>'+
+      '<div>GPU</div><div>'+String(perfSpecs.gpu).slice(0,48)+'</div>'+
+      '<div>Display</div><div>'+perfSpecs.screen+' @'+perfSpecs.dpr+'x</div>'+
+      (perfProbe?'<div>Noise test</div><div>'+perfProbe.noiseMs+' ms</div><div>World+mesh test</div><div>'+perfProbe.genMs+' + '+perfProbe.meshMs+' ms</div><div>Avg frame</div><div>'+perfProbe.gpuMs+' ms</div>':'');
+  }
+  var box=$e('perf-presets');
+  if(box){
+    box.innerHTML='';
+    PRESET_ORDER.forEach(function(k){
+      var P=PRESETS[k];
+      var b=document.createElement('button');
+      b.className='perf-preset'+(k===perfPick?' selected':'')+(perfProbe&&k===perfProbe.rec?' recommended':'');
+      b.innerHTML='<b>'+P.label+'</b><small>'+P.sub+'</small>';
+      b.title=P.desc;
+      b.addEventListener('click',function(){ perfPick=k; try{localStorage.setItem('voxelcraft-preset',k);}catch(e){} renderPerfGate(); });
+      box.appendChild(b);
+    });
+  }
+  var d=$e('perf-detail');
+  if(d) d.textContent=presetDetail(perfPick)+(perfProbe&&perfPick===perfProbe.rec?' (recommended for your PC)':'');
+}
+function applyPreset(k){
+  var P=PRESETS[k]||PRESETS.laptop;
+  cfg.chunkIdx=P.chunkIdx;
+  cfg.maxRebuildsPerFrame=P.maxRebuilds;
+  cfg.cloudAmt=P.clouds;
+  try{ renderer.setPixelRatio(Math.min(window.devicePixelRatio||1, P.pixelRatio)); }catch(e){}
+  try{
+    renderer.shadowMap.enabled=P.shadows;
+    sunLight.castShadow=P.shadows;
+    sunLight.shadow.mapSize.width=sunLight.shadow.mapSize.height=P.shadowSize;
+    if(sunLight.shadow.map){ sunLight.shadow.map.dispose(); sunLight.shadow.map=null; }
+    var CH=CHUNK_SIZES[P.chunkIdx], r=Math.max(120,Math.round(CH*0.9));
+    sunLight.shadow.camera.left=-r; sunLight.shadow.camera.right=r;
+    sunLight.shadow.camera.top=r; sunLight.shadow.camera.bottom=-r;
+    sunLight.shadow.camera.updateProjectionMatrix();
+  }catch(e){}
+  try{
+    document.querySelectorAll('.sz-badge').forEach(function(b){ b.classList.toggle('active',parseInt(b.dataset.idx)===P.chunkIdx); });
+    var sm=$e('s-maxrebuild'); if(sm){ sm.value=P.maxRebuilds; var vv=$e('v-maxrebuild'); if(vv) vv.textContent=P.maxRebuilds; updateSliderGrad(sm); }
+    var sc=$e('s-cloudamt'); if(sc){ sc.value=P.clouds; var vc=$e('v-cloudamt'); if(vc) vc.textContent=P.clouds; updateSliderGrad(sc); }
+  }catch(e){}
+  onResize();
+  try{localStorage.setItem('voxelcraft-preset',k);}catch(e){}
+}
+async function showPerfGate(){
+  var gate=$e('perf-gate');
+  if(gate) gate.classList.remove('hidden');
+  var play=$e('btn-play');
+  if(play) play.disabled=true;
+  perfSpecs=detectSpecs();
+  try{ var saved=localStorage.getItem('voxelcraft-preset'); if(saved&&PRESETS[saved]) perfPick=saved; }catch(e){}
+  renderPerfGate();
+  var st=$e('perf-status');
+  try{
+    perfProbe=await runProbe(function(msg){ if(st) st.textContent=msg; });
+    perfProbe.rec=pickPreset(perfProbe, perfSpecs);
+    try{ var sv=localStorage.getItem('voxelcraft-preset'); perfPick=(sv&&PRESETS[sv])?sv:perfProbe.rec; }catch(e){ perfPick=perfProbe.rec; }
+    if(st) st.textContent='Done in '+Math.round(perfProbe.cpuMs+perfProbe.gpuMs*20)+' ms — pick a preset and enter.';
+  }catch(err){
+    if(st) st.textContent='Probe failed, defaulting to Laptop. You can change everything later in the sidebar.';
+    perfPick='laptop';
+  }
+  renderPerfGate();
+  if(play) play.disabled=false;
+}
+function wirePerfGate(){
+  var rp=$e('btn-reprobe');
+  if(rp) rp.addEventListener('click', function(){ showPerfGate(); });
+  var play=$e('btn-play');
+  if(play) play.addEventListener('click', function(){
+    if(perfPlaying) return;
+    perfPlaying=true;
+    play.disabled=true;
+    play.textContent='Loading…';
+    applyPreset(perfPick);
+    $e('perf-gate').classList.add('hidden');
+    generate(currentSeed).then(function(){ perfPlaying=false; play.disabled=false; play.textContent='Enter World'; });
+  });
+}
+function wirePerfGateBoot(){ wirePerfGate(); }
 })();

@@ -1,0 +1,26 @@
+{
+  "name": "sprite-feature-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Browse vanilla Minecraft sprite atlas entries and copy MiniMessage / JSON / tellraw / title commands (Minecraft Java 1.21.9+).",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "sprites:generate": "node scripts/generate-sprites.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "adm-zip": "^0.5.16",
+    "eslint": "^9.35.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "vite": "^8.3.4"
+  }
+}

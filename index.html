@@ -12,6 +12,7 @@
 <canvas id="cv"></canvas>
 
 <div id="crosshair"></div>
+<div id="cd-bar"><div id="cd-fill"></div></div>
 <div id="block-info"></div>
 <div id="survival">
   <div class="meter"><span class="meter-label">HP</span><div class="meter-track"><div id="hp-fill"></div></div></div>
@@ -39,6 +40,7 @@
 </div></div>
 <div id="hint">Click to play • ESC to exit &middot; WASD move &middot; Space jump &middot; Left break &middot; Right place &middot; 1-9 select &middot; Wheel cycle &middot; I info</div>
 <div id="fps">FPS: --</div>
+<div id="bench">CHUNKS <span id="bench-chunks">--/--</span> &middot; DIRTY <span id="bench-dirty">0</span> &middot; REBUILD <span id="bench-rebuild">-- ms</span> &middot; TRIS <span id="bench-tris">--</span></div>
 
 <div id="hud">
   <div class="hud-chip">SEED <span id="hud-seed">9043158</span></div>
@@ -80,6 +82,12 @@
           </div>
         </div>
         <div class="check-row"><label><input type="checkbox" id="cb-water" checked> Show water</label></div>
+        <div class="row"><label>Texture pack</label>
+          <select id="sel-pack" style="width:100%;background:#0d140d;border:1px solid rgba(140,255,140,.3);color:#e8f0e8;padding:6px 8px;border-radius:6px;font:inherit">
+            <option value="procedural" selected>Procedural (classic)</option>
+            <option value="vanilla">Vanilla 26.3 sprites</option>
+          </select>
+        </div>
         <div class="row"><label>Hotbar style</label>
           <select id="hotbar-style" style="width:100%;background:#0d140d;border:1px solid rgba(140,255,140,.3);color:#e8f0e8;padding:6px 8px;border-radius:6px;font:inherit">
             <option value="minimal">Minimal/Borderless</option>
@@ -155,6 +163,32 @@
         <canvas id="tod-arc" width="232" height="44"></canvas>
       </div>
     </div>
+
+    <div class="sb-section">
+      <div class="sb-section-head" data-sec="bench"><span>Chunks &amp; Rebuild Benchmark</span><span class="chev">&#x276F;</span></div>
+      <div class="sb-section-body" id="sec-bench" style="display:none">
+        <div class="bench-grid">
+          <div>Chunks (tiles)</div><div><span id="b-tiles">--</span></div>
+          <div>Dirty queue</div><div><span id="b-dirty">0</span> (peak <span id="b-peak">0</span>)</div>
+          <div>Frame</div><div><span id="b-frame">-- ms</span> (<span id="b-fps">-- fps</span>)</div>
+          <div>Last rebuild</div><div><span id="b-last">-- ms</span> <span id="b-lastkey" class="text-dim"></span></div>
+          <div>Rebuild avg / max</div><div><span id="b-avg">-- ms</span> / <span id="b-max">-- ms</span></div>
+          <div>Total rebuilt</div><div><span id="b-total">0</span></div>
+          <div>Tris / verts</div><div><span id="b-tris">--</span> / <span id="b-verts">--</span></div>
+          <div>Last benchmark</div><div><span id="b-benchres">--</span></div>
+        </div>
+        <div class="check-row"><label><input type="checkbox" id="cb-benchhud" checked> Show benchmark HUD</label></div>
+        <div class="check-row"><label><input type="checkbox" id="cb-chunkborders"> Show chunk borders</label></div>
+        <div class="check-row"><label><input type="checkbox" id="cb-flash" checked> Flash rebuilt chunk</label></div>
+        <div class="bench-btns">
+          <button id="btn-dirtyall">Mark all dirty</button>
+          <button id="btn-benchsync">Benchmark: rebuild all now</button>
+          <button id="btn-benchstream">Benchmark: stream all</button>
+          <button id="btn-benchclear">Clear stats</button>
+        </div>
+        <p class="text-dim">Sync rebuild blocks one frame and reports total/avg ms per chunk; streaming reuses the per-frame budget above so you can compare budget settings.</p>
+      </div>
+    </div>
   </div>
 
   <div class="sb-footer">
@@ -176,6 +210,22 @@
 
 <div id="render-toast"><span id="toast-text">STREAMING</span><div class="toast-track"><div id="toast-bar"></div></div></div>
 
+<div id="perf-gate">
+  <div class="perf-card">
+    <div class="load-title">VOXELCRAFT</div>
+    <p class="text-dim">We check your PC first, then tune the world so it runs smooth.</p>
+    <div id="perf-status">Probing your PC…</div>
+    <div id="perf-specs" class="perf-specs"></div>
+    <div id="perf-presets" class="perf-presets"></div>
+    <div id="perf-detail" class="text-dim"></div>
+    <div class="perf-row">
+      <button id="btn-reprobe">Re-run check</button>
+      <button id="btn-play">Enter World</button>
+    </div>
+    <p class="text-dim">Manual controls + the optional debug benchmark live in the sidebar under “Chunks &amp; Rebuild Benchmark”.</p>
+  </div>
+</div>
+
 <div id="info-modal">
   <div class="modal-card">
     <button id="modal-close">&times;</button>
@@ -191,7 +241,7 @@
     </div>
     <div class="modal-pane" id="tab-controls">
       <h2>Controls</h2>
-      <p class="text-dim">Left mouse: orbit (disables auto-rotate) &middot; Right mouse: pan &middot; Wheel / pinch: zoom &middot; Touch: 1 finger orbit, 2 finger zoom &middot; I: this panel.</p>
+      <p class="text-dim">Click canvas to lock mouse &middot; WASD move &middot; Ctrl sprint (uses food) &middot; Ctrl under a 1-block gap to crawl &middot; Space jump/swim &middot; Left-click attack / hold to mine &middot; Right-click place / eat / open furnace &middot; E inventory &middot; 1-9 / wheel select &middot; ESC unlock &middot; I: this panel.</p>
     </div>
     <div class="modal-pane" id="tab-contributors">
       <h2>Contributors</h2>
