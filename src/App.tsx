@@ -105,6 +105,9 @@ function App() {
     if (!beta4Input.trim() || beta4Running) return;
     const text = beta4Input;
     setBeta4Input('');
+    // Routing rule: anything typed in goes to short-term (ephemeral) memory.
+    // It never touches long-term storage directly.
+    cognitiveOS.noteEphemeral(`CHAT: ${text.replace(/\s+/g, ' ').trim().slice(0, 200)}`, 'dialog');
     setBeta4Running(true);
     try {
       // Backend cognition runs inside; only natural speech comes back.
@@ -128,9 +131,10 @@ function App() {
     const reports: IngestReport[] = [];
     for (const file of files) {
       try {
+        // Routing rule: attached files go to long-term memory ONLY.
+        // No noteToWorking target — the chat ack below is the in-session trace.
         const doc = await ingestDocument(file, {
           addToLongTerm: (record: string) => vectorMemory.add(record),
-          noteToWorking: (note: string) => cognitiveOS.noteEphemeral(note, 'system'),
         });
         await docRegistry.add(doc);
         reports.push({ name: file.name, ok: true, chunks: doc.chunks, kind: doc.kind });

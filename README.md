@@ -95,7 +95,6 @@ Notes:
   the experience projector for cold `getState()`/`introspect()` paths.
 
 ## Beta4's voice — late-night human, never thought readouts
-
 - The page is only Beta4: header, one conversation, footer. All panels are
   backend now (hub auto-initializes on boot; documents attach via 📎).
 - `Beta4.reply(input, recall)` is the sole front door: backend cognition runs
@@ -106,6 +105,15 @@ Notes:
   familiar topic → hedged ("rings a bell..."); nothing → a musing, never a
   fabrication; ethics-block → a soft refusal. A 24-word system-vocabulary
   denylist is asserted clean across 135+ checks.
+
+## Memory routing rule
+
+- **Attached files → long-term memory only.** Ingested chunks persist in
+  `VectorMemory` (`positronic.longterm.v1`); no working-memory note is written.
+  The chat acknowledgement is the only in-session trace.
+- **Anything typed in → short-term memory only.** Each input is noted to the
+  ephemeral working buffer (`origin: 'dialog'`), which the cycle planner never
+  reads. Typed input never touches long-term storage directly.
 
 ## Own storage — how the AI keeps what it learns
 

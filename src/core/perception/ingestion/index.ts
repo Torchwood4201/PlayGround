@@ -167,7 +167,11 @@ export function chunkText(text: string, maxChars = 1200, overlap = 150): string[
 /** Sinks for the two memories an ingested document feeds. */
 export interface IngestTargets {
   addToLongTerm: (record: string) => Promise<void>;
-  noteToWorking: (note: string) => void;
+  /**
+   * Optional working-memory note. Omitted when the routing rule says the
+   * document belongs to long-term memory only (e.g. Beta4 attachments).
+   */
+  noteToWorking?: (note: string) => void;
 }
 
 /** Full pipeline: extract -> chunk -> long-term store + working-memory note. */
@@ -185,7 +189,7 @@ export async function ingestDocument(
   }
   const summary = extracted.text.replace(/\s+/g, ' ').trim().slice(0, 300);
   const pagesNote = extracted.pages ? `, ${extracted.pages} pages` : '';
-  targets.noteToWorking(
+  targets.noteToWorking?.(
     `INGESTED DOCUMENT "${file.name}" (${extracted.kind}${pagesNote}, ${stored.length} chunks): ${summary}`,
   );
   return {
