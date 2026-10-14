@@ -103,6 +103,8 @@ export class PositronicBrain {
   private provider: StorageProvider | null = null;
   private saveTimer: ReturnType<typeof setTimeout> | null = null;
   private generator: { generate: (prompt: string) => Promise<string> } | null = null;
+  /** The person's dialogue thread, held as opaque payload (see DialogueThread). */
+  private thread: Array<{ user: string; beta: string }> = [];
 
   /** Attach a persistence store (key positronic.brain.v1). Autosaves on mutation. */
   attachProvider(provider: StorageProvider): void {
@@ -122,6 +124,21 @@ export class PositronicBrain {
     this.scheduleAutosave();
   }
 
+  /** Read the persisted dialogue thread (copy). */
+  readThread(): Array<{ user: string; beta: string }> {
+    return this.thread.map((t) => ({ ...t }));
+  }
+
+  /** Store the dialogue thread and autosave. Validates defensively. */
+  writeThread(entries: Array<{ user: string; beta: string }>): void {
+    if (!Array.isArray(entries)) return;
+    this.thread = entries
+      .filter((e) => typeof e?.user === 'string' && typeof e?.beta === 'string')
+      .slice(-12)
+      .map((e) => ({ user: e.user.slice(0, 300), beta: e.beta.slice(0, 300) }));
+    this.scheduleAutosave();
+  }
+
   /** Frozen deep copy. Mutating the result never affects the brain. */
   getSnapshot(): BrainSnapshot {
     const snapshot: BrainSnapshot = {
@@ -137,12 +154,14 @@ export class PositronicBrain {
       emotion: { states: this.emotion.getStates(), label: this.emotion.mood() },
       cycleCount: this.cycleCount,
       updatedAt: Date.now(),
+      thread: this.readThread(),
     };
     return Object.freeze({
       ...snapshot,
       memories: Object.freeze(snapshot.memories.map((m) => Object.freeze(m))),
       workingMemory: Object.freeze(snapshot.workingMemory.map((w) => Object.freeze(w))),
       emotion: Object.freeze({ ...snapshot.emotion, states: Object.freeze({ ...snapshot.emotion.states }) }),
+      thread: Object.freeze((snapshot.thread ?? []).map((t) => Object.freeze({ ...t }))),
     }) as BrainSnapshot;
   }
 
@@ -163,6 +182,12 @@ export class PositronicBrain {
       if (typeof snapshot.goal === 'string') this.goal = snapshot.goal;
       if (snapshot.emotion?.states) this.emotion.setStates(snapshot.emotion.states);
       if (typeof snapshot.cycleCount === 'number') this.cycleCount = snapshot.cycleCount;
+      if (Array.isArray(snapshot.thread)) {
+        this.thread = snapshot.thread
+          .filter((e) => typeof e?.user === 'string' && typeof e?.beta === 'string')
+          .slice(-12)
+          .map((e) => ({ user: e.user.slice(0, 300), beta: e.beta.slice(0, 300) }));
+      }
     } catch (error) {
       console.error('[brain] restoreSnapshot failed — starting empty:', error);
       this.memory = [];

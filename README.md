@@ -105,6 +105,14 @@ Notes:
   familiar topic → hedged ("rings a bell..."); nothing → a musing, never a
   fabrication; ethics-block → a soft refusal. A 24-word system-vocabulary
   denylist is asserted clean across 135+ checks.
+- `src/core/reasoning/dialogue.ts` gives it a thread to stand on: social-act
+  reading (greetings, farewells, thanks, identity, feeling, and the
+  consciousness questions — answered person-to-person, vulnerably, never
+  lectured), affect reading (warm/heavy/sharp/playful/flat), lexical
+  entrainment (it uses YOUR words back), continuers that reach back into
+  earlier turns ("like that mars thing you mentioned?"), a comfort path for
+  heavy hearts, and anti-repeat (no template twice in a row). The thread
+  persists in the brain snapshot, so callbacks survive reloads.
 
 ## Memory routing rule
 

@@ -17,6 +17,12 @@ import { CognitiveOS } from './controller';
 import { UnifiedModelHub } from './UnifiedModelHub';
 import { PositronicCore } from './PositronicCore';
 import { renderLateNightReply, type ScoredHit } from './reasoning/naturalVoice';
+import {
+  DialogueThread,
+  detectAffect,
+  detectSocialAct,
+  extractUserKeywords,
+} from './reasoning/dialogue';
 import type { StorageProvider } from './longTermMemory/storage';
 import type { BrainSnapshot } from '../types/brain';
 
@@ -39,6 +45,8 @@ export class Beta4 {
   public cognitiveOS: CognitiveOS;
   public modelHub: UnifiedModelHub;
   public positronicCore: PositronicCore;
+  /** The conversation thread. Private; persisted via the brain snapshot. */
+  #thread: DialogueThread = new DialogueThread();
 
   constructor(deps: Beta4Deps = {}) {
     this.#brain = deps.brain ?? new PositronicBrain();
@@ -57,12 +65,14 @@ export class Beta4 {
     }
   }
 
-  /** Boot: attach persistence and restore the brain snapshot. Never throws. */
+  /** Boot: attach persistence and restore the brain snapshot + thread. Never throws. */
   async boot(storage?: StorageProvider): Promise<boolean> {
     if (storage) {
       this.#brain.attachProvider(storage);
     }
-    return this.#brain.loadSnapshot();
+    const ok = await this.#brain.loadSnapshot();
+    this.#thread.restore(this.#brain.readThread());
+    return ok;
   }
 
   /** Frozen copy of backend state. Mutating it never affects the brain. */
@@ -94,7 +104,8 @@ export class Beta4 {
   /**
    * Talk to the person. Runs the backend (perceive → think → recall) and
    * returns ONLY natural speech. Internal plans, thoughts, actions, and
-   * scores stay inside — callers never see them.
+   * scores stay inside — callers never see them. Social moments answer
+   * person-to-person without touching retrieval at all.
    */
   async reply(
     input: string,
@@ -103,11 +114,18 @@ export class Beta4 {
     this.setGoal(input);
     await this.perceive();
     const outcome = await this.thinkAndAct();
+    const act = detectSocialAct(input);
+    const affect = detectAffect(input);
+    const keywords = extractUserKeywords(input);
+    // Social moments are person-to-person: no retrieval, no facts, no lecture.
+    const social = act !== 'none';
     let hits: ScoredHit[] = [];
-    try {
-      hits = await recall(input);
-    } catch {
-      hits = [];
+    if (!social) {
+      try {
+        hits = await recall(input);
+      } catch {
+        hits = [];
+      }
     }
     const mood = this.#brain.emotion.mood();
     const voiced = renderLateNightReply({
@@ -115,7 +133,14 @@ export class Beta4 {
       hits,
       mood,
       blocked: outcome.positronicBrain.blocked === true,
+      act,
+      affect,
+      keywords,
+      threadKeywords: this.#thread.lastKeywords(),
+      avoid: this.#thread.recentKeys(3),
     });
+    this.#thread.pushTurn(input, voiced.message, voiced.key);
+    this.#brain.writeThread(this.#thread.toSnapshot());
     return { message: voiced.message, mood, grounded: voiced.grounded };
   }
 

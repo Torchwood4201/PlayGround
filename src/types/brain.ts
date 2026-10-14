@@ -31,6 +31,8 @@ export interface BrainSnapshot {
   emotion: BrainEmotionSnapshot;
   cycleCount: number;
   updatedAt: number;
+  /** The person's dialogue thread, persisted as opaque payload. */
+  thread?: Array<{ user: string; beta: string }>;
 }
 
 /** Caps mirror PositronicBrain's in-RAM bounds. */
