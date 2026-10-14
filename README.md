@@ -138,6 +138,15 @@ Every `Beta4.reply()` runs the same five stages (`src/core/Beta4.ts`):
    namespace — the autonomous planner excludes it, so cycles stay clean).
 5. **Output is speech only** — `naturalVoice.ts`, never a readout.
 
+Content recall details: document questions are detected by filename or
+content-seeking words and answered FROM the chunks — even when stopword-heavy
+phrasing scores below the seed-tuned threshold. Recall runs twice per turn
+(bare input at full strength, plus thread-supplemented so long threads can't
+dilute specific questions while continuers still resolve); best score per
+record wins. Speech aims INSIDE chunks at the query terms and leads with the
+point, gathers up to 3 chunks per file, and speaks entry names as words
+("Imperative or Procedural"), never catalog paths or chunk tags.
+
 ## Own storage — how the AI keeps what it learns
 
 No external models or vector DBs. Persistence is a small provider seam:

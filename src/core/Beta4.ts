@@ -122,6 +122,9 @@ export class Beta4 {
   /**
    * Talk to the person. The pipeline runs short → long → brain → speech:
    *  1. Short-term sets the reference point (this input + thread keywords).
+   *     Recall runs on the bare input at full strength plus once with thread
+   *     context, so long threads can't dilute specific questions and
+   *     continuers still resolve.
    *  2. Long-term memory is searched for connections to that reference.
    *  3. The brain weighs the cycle (ethics gate, mood, memory) with the
    *     connections as transient context.
@@ -139,15 +142,31 @@ export class Beta4 {
     const act = detectSocialAct(input);
     const affect = detectAffect(input);
     const keywords = extractUserKeywords(input);
-    // 1. Short-term reference point: this input plus what the thread holds.
-    const reference = [input, ...this.#thread.lastKeywords(2, 4)].join(' ');
     await this.perceive();
-    // 2. Long-term connections to the reference (skipped for social moments).
+    // Long-term connections. Recall runs twice: once on the bare input at
+    // full strength (so a long thread can't dilute a specific question),
+    // once supplemented with short-term thread keywords (so continuers like
+    // "yeah..." still resolve). Best score per record wins.
     const social = act !== 'none';
     let hits: ScoredHit[] = [];
     if (!social) {
       try {
-        hits = await memory.recall(reference);
+        const primary = await memory.recall(input);
+        const threadWords = this.#thread.lastKeywords(2, 4);
+        let extra: ScoredHit[] = [];
+        if (threadWords.length > 0) {
+          try {
+            extra = await memory.recall(`${input} ${threadWords.join(' ')}`);
+          } catch {
+            extra = [];
+          }
+        }
+        const merged = new Map<string, ScoredHit>();
+        for (const hit of [...primary, ...extra]) {
+          const prev = merged.get(hit.record);
+          if (!prev || hit.score > prev.score) merged.set(hit.record, hit);
+        }
+        hits = [...merged.values()].sort((a, b) => b.score - a.score);
       } catch {
         hits = [];
       }

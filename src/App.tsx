@@ -114,7 +114,8 @@ function App() {
       // The pipeline commits the turn to long-term itself (consolidation);
       // typed input was already noted short-term above.
       const reply = await beta4.reply(text, {
-        recall: (q) => vectorMemory.queryScored(q, 3),
+        // Top 8: document content answers gather across several chunks.
+        recall: (q) => vectorMemory.queryScored(q, 8),
         commit: (record) => vectorMemory.add(record, { namespace: 'dialog', marker: 'CONVERSATION' }),
       });
       setBeta4History(h => [...h, { user: text, beta4: reply.message }]);

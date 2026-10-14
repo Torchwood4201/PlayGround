@@ -122,7 +122,98 @@ function usableHits(hits: ScoredHit[]): ScoredHit[] {
       return kind === 'KNOWLEDGE' || kind === 'DOCUMENT';
     })
     .filter((h) => typeof h.score === 'number' && h.score >= MIN_SCORE)
-    .slice(0, 3);
+    .slice(0, 8);
+}
+
+/**
+ * Is the user asking about document content? Filename mentions or
+ * content-seeking words. When true and DOCUMENT chunks match, Beta4 answers
+ * FROM the chunks — the 1.5 strong threshold (tuned for short seed records)
+ * must not gatekeep 1200-char document chunks on stopword-heavy questions.
+ */
+export function isContentQuestion(text: string): boolean {
+  if (/\.(pdf|docx|txt|md|markdown|json|csv|tsv|log|text|org)\b/i.test(text)) return true;
+  return /\b(documents?|files?|uploads?|uploaded|attach(?:ed|ments?)?|read(?:ing)?|summar(?:y|ies|ize|ise)|inside|contents?|contains?|say(?:s|ing)?|said|mentions?|according to|recalled?|remember(?:s|ed)?)\b/i.test(text);
+}
+
+function documentFilename(record: string): string | null {
+  const m = record.replace(/\s+/g, ' ').trim().match(/^DOCUMENT "([^"]+)" \[[^\]]+\]: /);
+  return m ? m[1] : null;
+}
+
+/** Query terms for aiming inside a chunk (distinctive words, order kept). */
+function contentTerms(text: string): string[] {
+  return text
+    .toLowerCase()
+    .split(/[^a-z0-9]+/)
+    .filter((t) => t.length > 3)
+    .filter((t, i, arr) => arr.indexOf(t) === i);
+}
+
+/**
+ * Aim INSIDE a chunk: the fact the user asks about may sit mid-chunk, so
+ * score sentences against the query terms and speak the best window —
+ * never just the head, never a mid-word cut.
+ */
+function focusedExcerpt(chunkBody: string, terms: string[], maxChars: number): string {
+  const sentences = chunkBody.match(/[^.!?]+[.!?]+["']?|[^.!?]+$/g) ?? [chunkBody];
+  if (sentences.length <= 1 || terms.length === 0) {
+    return tidyBody(chunkBody, maxChars);
+  }
+  const lower = sentences.map((s) => s.toLowerCase());
+  let best = 0;
+  let bestScore = -1;
+  for (let i = 0; i < lower.length; i++) {
+    let score = 0;
+    for (const term of terms) {
+      if (lower[i].includes(term)) score++;
+    }
+    if (score > bestScore) {
+      bestScore = score;
+      best = i;
+    }
+  }
+  if (bestScore <= 0) {
+    return tidyBody(chunkBody, maxChars);
+  }
+  // Grow around the best sentence while it fits — forward first, so the
+  // telling leads with the point, not the preamble.
+  let start = best;
+  let end = best + 1;
+  while (end < sentences.length && sentences.slice(start, end + 1).join(' ').length <= maxChars) end++;
+  while (start > 0 && sentences.slice(start - 1, end).join(' ').length <= maxChars) start--;
+  return sentences.slice(start, end).join(' ').trim();
+}
+
+/**
+ * Speak a document's CONTENT, not its name: gather the top matching chunks
+ * from the top file (up to 3), aim inside each at the query terms, and join
+ * into one natural telling. Returns null when nothing usable is present.
+ */
+function documentContent(hits: ScoredHit[], queryText: string): Speakable | null {
+  const docs = usableHits(hits).filter((h) => classifyRecord(h.record) === 'DOCUMENT');
+  if (docs.length === 0) return null;
+  const file = documentFilename(docs[0].record);
+  if (!file) return null;
+  const terms = contentTerms(queryText);
+  const bodies: string[] = [];
+  for (const hit of docs) {
+    if (documentFilename(hit.record) !== file) continue;
+    const raw = hit.record.replace(/\s+/g, ' ').trim().match(/^DOCUMENT "[^"]+" \[[^\]]+\]: (.*)$/);
+    if (!raw) continue;
+    const body = focusedExcerpt(raw[1], terms, 170);
+    if (body) bodies.push(body);
+    if (bodies.length >= 3) break;
+  }
+  if (bodies.length === 0) return null;
+  let combined = bodies.join(' …also in there: ');
+  if (combined.length > 520) {
+    // Back off to a word boundary — never cut mid-word.
+    const cut = combined.slice(0, 517);
+    const space = cut.lastIndexOf(' ');
+    combined = `${space > 300 ? cut.slice(0, space) : cut}…`;
+  }
+  return { topic: naturalizeTopic(file.replace(/\.[a-z0-9]+$/i, '')), body: combined };
 }
 
 // ---- Social banks: pure person-to-person, no retrieval involved ----
@@ -191,6 +282,13 @@ const CALLBACK_TEMPLATES: Array<(keyword: string) => string> = [
   (kw) => `like that ${kw} thing you mentioned? yeah, I'm still thinking about that too.`,
   (kw) => `wait, back up — the ${kw} part. yeah?`,
   (kw) => `hmm, that makes me think of what you said about ${kw}... same thing, or different?`,
+];
+
+const CONTENT_TEMPLATES: Array<(topic: string, body: string) => string> = [
+  (topic, body) => `yeah, I read that one — ${topic}. ${body}`,
+  (topic, body) => `from ${topic}: ${body}`,
+  (topic, body) => `okay, ${topic}... ${body}`,
+  (topic, body) => `let me tell you what's actually in ${topic}. ${body}`,
 ];
 
 const WEAK_MUSINGS: string[] = [
@@ -271,6 +369,20 @@ export function renderLateNightReply(ctx: VoiceContext): VoiceReply {
       return { ...socialReply(FEELING_BANK, 'feel', avoid), grounded: false };
     case 'none':
       break;
+  }
+
+  // Document content: the user asks what's INSIDE — answer from the chunks,
+  // even when stopword-heavy phrasing scores below the seed-tuned threshold.
+  if (isContentQuestion(ctx.userText)) {
+    const content = documentContent(ctx.hits, ctx.userText);
+    if (content) {
+      const i = pickIndex(CONTENT_TEMPLATES.length, avoid, 'content');
+      return {
+        message: finish(CONTENT_TEMPLATES[i](content.topic, content.body), ctx.mood),
+        grounded: true,
+        key: `content-${i}`,
+      };
+    }
   }
 
   // Thread callback: a continuer reaches back to earlier user words.
