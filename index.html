@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Line Rider — 2D Desktop</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 20'><path d='M2 14 L20 14 L24 8' stroke='%234da3ff' stroke-width='3' fill='none' stroke-linecap='round'/></svg>">
+<style>
+  :root{
+    --bg:#0e1116; --panel:#171c24; --panel2:#1f2632; --text:#e8ecf3;
+    --muted:#9aa4b5; --accent:#4da3ff; --accent2:#ff5d5d; --boost:#ff9f2e;
+    --line-normal:#3b82f6; --line-boost:#f97316; --line-scenery:#3ddc84;
+  }
+  *{box-sizing:border-box; user-select:none; -webkit-user-select:none;}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--text);
+    font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;overflow:hidden;}
+  #app{display:flex;flex-direction:column;height:100vh;}
+  /* ---- toolbar ---- */
+  #toolbar{display:flex;align-items:center;gap:8px;padding:8px 12px;
+    background:linear-gradient(180deg,#1b212c,#141922);border-bottom:1px solid #2a3342;
+    flex-wrap:wrap;z-index:10;}
+  #toolbar .logo{font-weight:800;letter-spacing:.5px;font-size:15px;display:flex;align-items:center;gap:8px;margin-right:6px;}
+  #toolbar .logo .sled{width:28px;height:20px;display:inline-block;}
+  .btn{background:var(--panel2);border:1px solid #2e3848;color:var(--text);
+    padding:7px 11px;border-radius:9px;font-size:13px;cursor:pointer;
+    display:inline-flex;align-items:center;gap:6px;transition:.15s;}
+  .btn:hover{background:#2a3446;border-color:#3d4b63;transform:translateY(-1px);}
+  .btn.active{background:var(--accent);border-color:var(--accent);color:#06121f;font-weight:700;}
+  .btn.danger.active{background:var(--accent2);border-color:var(--accent2);color:#fff;}
+  .btn.boost.active{background:var(--boost);border-color:var(--boost);color:#1a0e00;}
+  .btn.play{background:#22c55e;border-color:#22c55e;color:#04140a;font-weight:800;}
+  .btn.play.playing{background:#eab308;border-color:#eab308;}
+  .sep{width:1px;height:26px;background:#2a3342;margin:0 4px;}
+  #statusbar{display:flex;align-items:center;gap:14px;padding:6px 12px;background:#11151c;
+    border-top:1px solid #232b38;color:var(--muted);font-size:12px;z-index:10;}
+  #statusbar b{color:var(--text);}
+  #wrap{position:relative;flex:1;overflow:hidden;background:#0b0e13;}
+  #cv{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:crosshair;touch-action:none;}
+  /* floating help */
+  #help{position:absolute;right:12px;top:12px;width:300px;background:rgba(17,22,30,.94);
+    border:1px solid #2b3547;border-radius:12px;padding:12px 13px;font-size:12.5px;line-height:1.5;
+    color:#cbd5e1;backdrop-filter:blur(6px);box-shadow:0 10px 30px rgba(0,0,0,.4);}
+  #help h3{margin:0 0 6px;font-size:13px;color:#fff;}
+  #help kbd{background:#232c3b;border:1px solid #374152;border-bottom-width:2px;border-radius:5px;
+    padding:0 5px;font-size:11px;color:#fff;font-family:inherit;}
+  #help .row{display:flex;justify-content:space-between;gap:8px;margin:2px 0;}
+  #toast{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);
+    background:#0f172a;border:1px solid #334155;color:#e2e8f0;padding:9px 14px;border-radius:999px;
+    font-size:13px;opacity:0;pointer-events:none;transition:.25s;box-shadow:0 8px 24px rgba(0,0,0,.5);z-index:20;}
+  #toast.show{opacity:1;transform:translateX(-50%) translateY(-4px);}
+  #crashed{position:absolute;left:50%;top:18px;transform:translateX(-50%);
+    background:rgba(127,29,29,.92);border:1px solid #ef4444;color:#fff;font-weight:800;
+    padding:8px 16px;border-radius:999px;display:none;letter-spacing:.4px;}
+  .tool-hint{position:absolute;left:12px;top:12px;background:rgba(15,23,42,.9);border:1px solid #2c3a52;
+    padding:7px 11px;border-radius:999px;font-size:12px;color:#cbd5e1;}
+  @media (max-width:900px){ #help{display:none;} }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="toolbar">
+    <div class="logo">
+      <svg class="sled" viewBox="0 0 28 20"><path d="M2 14 L20 14 L24 8" stroke="#4da3ff" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="8" cy="6" r="3.2" fill="#fff"/><path d="M8 9 L8 13 M8 10 L13 12 M8 10 L4 12" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/></svg>
+      LINE RIDER <span style="color:#9aa4b5;font-weight:400">2D · Desktop</span>
+    </div>
+    <button id="bPlay" class="btn play" title="Play / Pause (Space)">▶ Play</button>
+    <button id="bStop" class="btn" title="Stop & back to start (R)">⏹ Stop</button>
+    <div class="sep"></div>
+    <button id="bDraw" class="btn active" title="Draw solid track (D)">✏️ Draw</button>
+    <button id="bBoost" class="btn boost" title="Draw boost track (B)">⚡ Boost</button>
+    <button id="bScenery" class="btn" title="Draw scenery, no collision (S)">🌲 Scenery</button>
+    <button id="bErase" class="btn danger" title="Eraser (E)">🧽 Erase</button>
+    <button id="bPan" class="btn" title="Pan camera (H or middle-mouse drag)">✋ Pan</button>
+    <button id="bStart" class="btn" title="Move start flag (G then drag)">🚩 Start</button>
+    <div class="sep"></div>
+    <button id="bUndo" class="btn" title="Undo (Ctrl+Z)">↩ Undo</button>
+    <button id="bClear" class="btn" title="Delete all lines">🗑 Clear</button>
+    <button id="bSample" class="btn" title="Load demo track">★ Demo</button>
+    <div class="sep"></div>
+    <button id="bFollow" class="btn active" title="Camera follows rider (F)">🎥 Follow</button>
+    <button id="bSlow" class="btn" title="Slow motion (T)">🐢 Slow</button>
+    <button id="bSave" class="btn" title="Save to browser">💾 Save</button>
+    <button id="bLoad" class="btn" title="Load saved">📂 Load</button>
+    <button id="bExport" class="btn" title="Download track JSON">⬇ Export</button>
+    <label class="btn" title="Import track JSON">⬆ Import<input id="file" type="file" accept="application/json" hidden></label>
+  </div>
+  <div id="wrap">
+    <canvas id="cv"></canvas>
+    <div class="tool-hint" id="toolHint">✏️ Draw: left-drag to draw · wheel to zoom · right-drag to pan</div>
+    <div id="help">
+      <h3>How to play</h3>
+      <div class="row"><span>Draw track</span><span><kbd>drag</kbd></span></div>
+      <div class="row"><span>Play / Pause</span><span><kbd>Space</kbd></span></div>
+      <div class="row"><span>Restart</span><span><kbd>R</kbd></span></div>
+      <div class="row"><span>Tools</span><span><kbd>D</kbd> <kbd>B</kbd> <kbd>S</kbd> <kbd>E</kbd> <kbd>H</kbd> <kbd>G</kbd></span></div>
+      <div class="row"><span>Pan</span><span><kbd>right-drag</kbd> / <kbd>MMB</kbd></span></div>
+      <div class="row"><span>Zoom</span><span><kbd>wheel</kbd></span></div>
+      <div class="row"><span>Undo / Clear</span><span><kbd>Ctrl+Z</kbd> / <kbd>C</kbd></span></div>
+      <div style="margin-top:6px;color:#93a1b5">Blue = solid · Orange = boost (pushes sled forward) · Green = scenery (no collision). Don't let the head hit a solid line!</div>
+    </div>
+    <div id="crashed">💥 CRASHED — press R to retry</div>
+    <div id="toast"></div>
+  </div>
+  <div id="statusbar">
+    <span>Lines: <b id="stLines">0</b></span>
+    <span>Speed: <b id="stSpeed">0</b> px/s</span>
+    <span>Pos: <b id="stPos">0, 0</b></span>
+    <span>Zoom: <b id="stZoom">100%</b></span>
+    <span>State: <b id="stState">editing</b></span>
+    <span style="margin-left:auto">60Hz fixed-step physics · verlet-tuned rigid sled · autosaves locally</span>
+  </div>
+</div>
+<script>
+"use strict";
+/* ============================================================
+   LINE RIDER 2D — Desktop
+   Single-file HTML5 canvas game.
+   Physics: rigid sled body (pos, vel, angle, angVel) with two
+   runner contact points vs capsule line segments.
+   ============================================================ */
+const cv = document.getElementById('cv');
+const ctx = cv.getContext('2d');
+const wrap = document.getElementById('wrap');
+
+let DPR = 1, W = 0, H = 0;
+function resize(){
+  DPR = Math.min(2, window.devicePixelRatio || 1);
+  W = wrap.clientWidth; H = wrap.clientHeight;
+  cv.width = Math.round(W*DPR); cv.height = Math.round(H*DPR);
+}
+window.addEventListener('resize', resize);
+
+// ---------- world state ----------
+let lines = [];        // {x1,y1,x2,y2,type:'solid'|'boost'|'scenery'}
+let undoStack = [];
+let tool = 'draw';     // draw|boost|scenery|erase|pan|start
+let cam = { x: 0, y: 0, zoom: 1 };
+let follow = true, slowmo = false;
+let mode = 'edit';     // edit|play
+let paused = false, crashed = false;
+let crashTimer = 0;
+const start = { x: 120, y: 60, angle: 0 };
+
+const sled = { x:start.x, y:start.y, vx:0, vy:0, angle:0, angVel:0 };
+const GRAV = 0.34, AIR = 0.9995, GROUND_FRICTION = 0.992, ANG_DAMP = 0.995;
+const SLED_HALF = 15, RUNNER_R = 5.5, HEAD_R = 5;
+
+// ---------- helpers ----------
+const $ = id => document.getElementById(id);
+let toastT = null;
+function toast(msg){
+  const t = $('toast'); t.textContent = msg; t.classList.add('show');
+  clearTimeout(toastT); toastT = setTimeout(()=>t.classList.remove('show'), 1800);
+}
+function pushUndo(){ undoStack.push(JSON.stringify(lines)); if(undoStack.length>80) undoStack.shift(); }
+function undo(){ if(!undoStack.length){toast('Nothing to undo');return;} lines = JSON.parse(undoStack.pop()); toast('Undone'); }
+function w2s(wx,wy){ return [ (wx-cam.x)*cam.zoom + W/2, (wy-cam.y)*cam.zoom + H/2 ]; }
+function s2w(sx,sy){ return [ (sx-W/2)/cam.zoom + cam.x, (sy-H/2)/cam.zoom + cam.y ]; }
+
+// ---------- default demo track ----------
+function demoTrack(){
+  pushUndo(); lines = [];
+  const add=(x1,y1,x2,y2,type='solid')=>lines.push({x1,y1,x2,y2,type});
+  // start platform
+  add(-80,140,220,140);
+  // big drop
+  add(220,140,420,300);
+  add(420,300,700,320);
+  // jump gap -> landing
+  add(700,320,820,320);
+  add(900,340,1150,380,'boost');
+  add(1150,380,1400,260);
+  // loop-ish hill
+  add(1400,260,1600,260);
+  add(1600,260,1800,420);
+  add(1800,420,2050,420);
+  // up ramp to fly
+  add(2050,420,2250,300);
+  // landing long downhill
+  add(2320,360,2700,480);
+  add(2700,480,3200,480);
+  // scenery: mountains + tree-ish
+  add(300,60,500,-60,'scenery'); add(500,-60,700,60,'scenery');
+  add(1500,180,1700,40,'scenery'); add(1700,40,1900,180,'scenery');
+  add(2400,220,2550,120,'scenery'); add(2550,120,2700,220,'scenery');
+  start.x = 60; start.y = 100; start.angle = 0;
+  resetSled();
+  cam.x = 200; cam.y = 220; cam.zoom = 1;
+  toast('Demo track loaded — press Space');
+}
+
+// ---------- sled ----------
+function resetSled(){
+  sled.x = start.x; sled.y = start.y;
+  sled.vx = 4.2; sled.vy = 0; sled.angle = start.angle; sled.angVel = 0;
+  crashed = false; crashTimer = 0;
+  $('crashed').style.display = 'none';
+}
+function runnerWorld(offx, offy, angle, px, py){
+  const c = Math.cos(angle), s = Math.sin(angle);
+  return [px + offx*c - offy*s, py + offx*s + offy*c];
+}
+function closestOnSeg(px,py,x1,y1,x2,y2){
+  const dx=x2-x1, dy=y2-y1;
+  const l2 = dx*dx+dy*dy || 1;
+  let t = ((px-x1)*dx+(py-y1)*dy)/l2;
+  t = Math.max(0, Math.min(1, t));
+  return [x1+dx*t, y1+dy*t, t];
+}
+function physicsStep(){
+  if(mode!=='play' || paused || crashed) return;
+  const sub = slowmo ? 6 : 3;
+  for(let s=0;s<sub;s++) integrate(1/sub);
+  // crash cooldown anim
+  if(crashed) crashTimer++;
+}
+function integrate(dt){
+  // gravity + air
+  sled.vy += GRAV*dt;
+  sled.vx *= Math.pow(AIR,dt); sled.vy *= Math.pow(AIR,dt);
+  sled.x += sled.vx*dt; sled.y += sled.vy*dt;
+  sled.angle += sled.angVel*dt;
+  sled.angVel *= Math.pow(ANG_DAMP,dt);
+
+  // contact points: rear & nose
+  const pts = [[-SLED_HALF,0],[SLED_HALF,0]];
+  for(const [ox,oy] of pts){
+    const [rx,ry] = runnerWorld(ox,oy,sled.angle,sled.x,sled.y);
+    // broadphase: only check segments near point
+    for(let i=0;i<lines.length;i++){
+      const L = lines[i];
+      if(L.type==='scenery') continue;
+      // quick reject
+      const minx = Math.min(L.x1,L.x2)-20, maxx=Math.max(L.x1,L.x2)+20;
+      const miny = Math.min(L.y1,L.y2)-20, maxy=Math.max(L.y1,L.y2)+20;
+      if(rx<minx||rx>maxx||ry<miny||ry>maxy) continue;
+      const [cx,cy,t] = closestOnSeg(rx,ry,L.x1,L.y1,L.x2,L.y2);
+      let dx = rx-cx, dy = ry-cy;
+      let dist = Math.hypot(dx,dy);
+      if(dist < RUNNER_R){
+        if(dist < 1e-4){ // degenerate: use segment normal
+          const sx=L.x2-L.x1, sy=L.y2-L.y1, sl=Math.hypot(sx,sy)||1;
+          dx=-sy/sl; dy=sx/sl; dist=1;
+        } else { dx/=dist; dy/=dist; }
+        const pen = RUNNER_R - dist;
+        // positional correction (move body + a bit of torque)
+        sled.x += dx*pen*0.85; sled.y += dy*pen*0.85;
+        // torque from off-center contact: r x n
+        const rX = rx - sled.x, rY = ry - sled.y;
+        const torque = (rX*dy - rY*dx) * 0.0022 * pen;
+        sled.angVel += torque;
+        // velocity at contact
+        const pvx = sled.vx - sled.angVel*rY;
+        const pvy = sled.vy + sled.angVel*rX;
+        const vn = pvx*dx + pvy*dy;
+        if(vn < 0){
+          // kill inward normal velocity (inelastic)
+          const j = -(1.0)*vn; // restitution 0
+          sled.vx += dx*j*0.92; sled.vy += dy*j*0.92;
+          // friction on tangent
+          const tx = -dy, ty = dx;
+          const vt = sled.vx*tx + sled.vy*ty;
+          const fr = vt * (1-GROUND_FRICTION) * 0.9;
+          sled.vx -= tx*fr; sled.vy -= ty*fr;
+          sled.angVel *= 0.985;
+          // align sled a touch toward slope
+          const segAng = Math.atan2(L.y2-L.y1, L.x2-L.x1);
+          let want = segAng;
+          // keep sled upright-ish: pick equivalent angle near current
+          while(want - sled.angle > Math.PI) want -= Math.PI*2;
+          while(want - sled.angle < -Math.PI) want += Math.PI*2;
+          // don't flip upside rendering weirdly: blend only if close
+          if(Math.abs(want-sled.angle) < 1.2) sled.angVel += (want-sled.angle)*0.02*dt;
+        }
+        // boost: push along segment direction of travel
+        if(L.type==='boost'){
+          const sx=L.x2-L.x1, sy=L.y2-L.y1, sl=Math.hypot(sx,sy)||1;
+          let bx=sx/sl, by=sy/sl;
+          // choose direction matching motion
+          if(sled.vx*bx+sled.vy*by < 0){ bx=-bx; by=-by; }
+          sled.vx += bx*0.55*dt; sled.vy += by*0.55*dt;
+        }
+      }
+    }
+  }
+  // head crash check
+  const [hx,hy] = runnerWorld(2,-20,sled.angle,sled.x,sled.y);
+  for(let i=0;i<lines.length;i++){
+    const L=lines[i]; if(L.type==='scenery') continue;
+    const minx=Math.min(L.x1,L.x2)-12,maxx=Math.max(L.x1,L.x2)+12;
+    const miny=Math.min(L.y1,L.y2)-12,maxy=Math.max(L.y1,L.y2)+12;
+    if(hx<minx||hx>maxx||hy<miny||hy>maxy) continue;
+    const [cx,cy]=closestOnSeg(hx,hy,L.x1,L.y1,L.x2,L.y2);
+    if(Math.hypot(hx-cx,hy-cy) < HEAD_R){ doCrash(); break; }
+  }
+  // fell too far -> crash softly (out of bounds)
+  if(sled.y > 4000){ doCrash(); }
+}
+function doCrash(){
+  if(crashed) return;
+  crashed = true; crashTimer = 0;
+  $('crashed').style.display = 'block';
+  // small bounce so it looks alive
+  sled.vx *= 0.3; sled.vy = -2; sled.angVel += 0.05;
+}
+
+// ---------- drawing / input ----------
+let drawing = false, curStroke = null, erasing=false, panning=false, movingStart=false;
+let lastW = null, panBtn = 0;
+let mouse = {x:0,y:0,down:false,wx:0,wy:0};
+
+cv.addEventListener('contextmenu', e=>e.preventDefault());
+function evPos(e){ const r=cv.getBoundingClientRect(); return [e.clientX-r.left, e.clientY-r.top]; }
+
+cv.addEventListener('mousedown', e=>{
+  const [sx,sy]=evPos(e); const [wx,wy]=s2w(sx,sy);
+  mouse.down=true; mouse.x=sx; mouse.y=sy; mouse.wx=wx; mouse.wy=wy;
+  if(e.button===1 || e.button===2 || tool==='pan'){ panning=true; panBtn=e.button; cv.style.cursor='grabbing'; return; }
+  if(tool==='start'){
+    // if near start flag, drag it; else place it
+    const [fx,fy]=w2s(start.x,start.y);
+    if(Math.hypot(sx-fx,sy-fy)<30){ movingStart=true; }
+    else { pushUndoLite(); start.x=wx; start.y=wy; if(mode==='play'){/*keep*/} else resetSled(); }
+    return;
+  }
+  if(tool==='erase'){ erasing=true; pushUndo(); eraseAt(wx,wy); return; }
+  // draw / boost / scenery
+  drawing=true; curStroke={type: tool==='boost'?'boost':tool==='scenery'?'scenery':'solid', pts:[[wx,wy]]};
+  lastW=[wx,wy];
+});
+cv.addEventListener('mousemove', e=>{
+  const [sx,sy]=evPos(e); const [wx,wy]=s2w(sx,sy);
+  mouse.x=sx; mouse.y=sy; mouse.wx=wx; mouse.wy=wy;
+  if(panning){
+    const dx=e.movementX, dy=e.movementY;
+    cam.x -= dx/cam.zoom; cam.y -= dy/cam.zoom;
+    return;
+  }
+  if(movingStart){ start.x=wx; start.y=wy; if(mode!=='play') resetSled(); return; }
+  if(erasing){ eraseAt(wx,wy); return; }
+  if(drawing && curStroke){
+    const [lx,ly]=lastW;
+    const d=Math.hypot(wx-lx,wy-ly);
+    if(d > 6/cam.zoom){ // subdivide long moves
+      const steps=Math.min(24, Math.ceil(d/8));
+      let prev=lastW;
+      for(let i=1;i<=steps;i++){
+        const nx=lx+(wx-lx)*i/steps, ny=ly+(wy-ly)*i/steps;
+        curStroke.pts.push([nx,ny]);
+        commitSeg(prev,[nx,ny],curStroke.type);
+        prev=[nx,ny];
+      }
+      lastW=[wx,wy];
+    }
+  }
+});
+window.addEventListener('mouseup', ()=>{
+  if(drawing && curStroke){ pushUndoForStroke(); }
+  drawing=false; curStroke=null; erasing=false; panning=false; movingStart=false; mouse.down=false;
+  cv.style.cursor = tool==='pan'?'grab':'crosshair';
+});
+// stroke undo: lines are committed live, so snapshot before first segment
+let preStroke = null, snapTaken = false;
+function pushUndoLite(){ pushUndo(); }
+function pushUndoForStroke(){
+  if(preStroke!==null){ undoStack.push(preStroke); if(undoStack.length>80) undoStack.shift(); preStroke=null; }
+}
+function commitSeg(a,b,type){
+  if(!snapTaken){ preStroke = JSON.stringify(lines); snapTaken=true; }
+  lines.push({x1:a[0],y1:a[1],x2:b[0],y2:b[1],type});
+}
+// reset snap flag on mouseup
+window.addEventListener('mouseup', ()=>{ snapTaken=false; }, true);
+
+function eraseAt(wx,wy){
+  const R = 14/cam.zoom;
+  let kept = [];
+  let removed = 0;
+  for(const L of lines){
+    const [cx,cy]=closestOnSeg(wx,wy,L.x1,L.y1,L.x2,L.y2);
+    if(Math.hypot(wx-cx,wy-cy) < R){ removed++; continue; }
+    kept.push(L);
+  }
+  if(removed) lines = kept;
+}
+cv.addEventListener('wheel', e=>{
+  e.preventDefault();
+  const [sx,sy]=evPos(e);
+  const [wx,wy]=s2w(sx,sy);
+  const f = e.deltaY<0 ? 1.12 : 1/1.12;
+  cam.zoom = Math.max(0.15, Math.min(5, cam.zoom*f));
+  // keep world point under cursor
+  cam.x = wx - (sx-W/2)/cam.zoom;
+  cam.y = wy - (sy-H/2)/cam.zoom;
+},{passive:false});
+
+// keyboard
+window.addEventListener('keydown', e=>{
+  if(e.target.tagName==='INPUT') return;
+  const k = e.key.toLowerCase();
+  if((e.ctrlKey||e.metaKey) && k==='z'){ e.preventDefault(); undo(); return; }
+  if(k===' '){ e.preventDefault(); togglePlay(); }
+  else if(k==='r'){ e.preventDefault(); if(mode==='play'){ resetSledKeepStart(); paused=false; $('bPlay').innerHTML='⏸ Pause'; toast('Restarted'); } else { resetSled(); toast('Back at start'); } }
+  else if(k==='d') setTool('draw');
+  else if(k==='b') setTool('boost');
+  else if(k==='s' && !e.ctrlKey && !e.metaKey) setTool('scenery');
+  else if(k==='e') setTool('erase');
+  else if(k==='h') setTool('pan');
+  else if(k==='g') setTool('start');
+  else if(k==='f') toggleFollow();
+  else if(k==='t') toggleSlow();
+  else if(k==='c' && !e.ctrlKey) clearAll();
+});
+function clearAll(){ if(!lines.length) return; pushUndo(); lines=[]; toast('Cleared'); }
+
+// ---------- toolbar ----------
+function setTool(t){
+  tool=t;
+  for(const [id,name] of [['bDraw','draw'],['bBoost','boost'],['bScenery','scenery'],['bErase','erase'],['bPan','pan'],['bStart','start']])
+    $(id).classList.toggle('active', name===t);
+  cv.style.cursor = t==='pan'?'grab':'crosshair';
+  const hints={draw:'✏️ Draw: left-drag to draw · wheel to zoom · right-drag to pan',
+    boost:'⚡ Boost: draws orange speed lines that push the sled',
+    scenery:'🌲 Scenery: pretty lines with no collision',
+    erase:'🧽 Erase: drag over lines to delete · wheel adjusts size via zoom',
+    pan:'✋ Pan: drag to move camera · wheel to zoom',
+    start:'🚩 Start: click anywhere to move the start flag, or drag it'};
+  $('toolHint').textContent=hints[t]||'';
+}
+function setMode(m){
+  mode=m; paused=false;
+  if(m==='play'){ resetSledKeepStart(); $('bPlay').innerHTML='⏸ Pause'; $('bPlay').classList.add('playing'); $('stState').textContent='riding'; }
+  else { $('bPlay').innerHTML='▶ Play'; $('bPlay').classList.remove('playing'); $('stState').textContent='editing'; resetSled(); }
+}
+function resetSledKeepStart(){ crashed=false; $('crashed').style.display='none';
+  sled.x=start.x; sled.y=start.y; sled.vx=4.2; sled.vy=0; sled.angle=start.angle; sled.angVel=0; }
+function togglePlay(){
+  if(mode!=='play'){ setMode('play'); toast('Riding! Space pauses · R restarts'); }
+  else { paused=!paused; $('bPlay').innerHTML = paused?'▶ Resume':'⏸ Pause'; $('stState').textContent = paused?'paused':(crashed?'crashed':'riding'); }
+}
+function stopToEdit(silent){ setMode('edit'); if(!silent) toast('Back to editor'); }
+function toggleFollow(){ follow=!follow; $('bFollow').classList.toggle('active',follow); }
+function toggleSlow(){ slowmo=!slowmo; $('bSlow').classList.toggle('active',slowmo); toast(slowmo?'Slow motion on':'Slow motion off'); }
+
+$('bPlay').onclick=togglePlay;
+$('bStop').onclick=()=>stopToEdit(false);
+$('bDraw').onclick=()=>setTool('draw');
+$('bBoost').onclick=()=>setTool('boost');
+$('bScenery').onclick=()=>setTool('scenery');
+$('bErase').onclick=()=>setTool('erase');
+$('bPan').onclick=()=>setTool('pan');
+$('bStart').onclick=()=>setTool('start');
+$('bUndo').onclick=undo;
+$('bClear').onclick=clearAll;
+$('bSample').onclick=demoTrack;
+$('bFollow').onclick=toggleFollow;
+$('bSlow').onclick=toggleSlow;
+$('bSave').onclick=()=>{ localStorage.setItem('linerider-save', JSON.stringify({lines,start,cam})); toast('Saved to browser'); };
+$('bLoad').onclick=()=>{
+  try{ const s=JSON.parse(localStorage.getItem('linerider-save')); if(!s){toast('No save found');return;}
+    pushUndo(); lines=s.lines||[]; Object.assign(start,s.start||{}); Object.assign(cam,s.cam||{}); resetSled(); toast('Loaded save');
+  }catch{ toast('Save corrupted'); }
+};
+$('bExport').onclick=()=>{
+  const blob=new Blob([JSON.stringify({lines,start},null,1)],{type:'application/json'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='linerider-track.json'; a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),2000);
+};
+$('file').onchange=e=>{
+  const f=e.target.files[0]; if(!f) return;
+  const r=new FileReader(); r.onload=()=>{ try{ const d=JSON.parse(r.result); pushUndo(); lines=d.lines||d||[]; if(d.start)Object.assign(start,d.start); resetSled(); toast('Track imported'); }catch{toast('Bad file');} };
+  r.readAsText(f); e.target.value='';
+};
+
+// ---------- render ----------
+function drawGrid(){
+  const step=60;
+  ctx.lineWidth=1;
+  // minor
+  const x0=Math.floor((cam.x-W/2/cam.zoom)/step)*step, x1=cam.x+W/2/cam.zoom;
+  const y0=Math.floor((cam.y-H/2/cam.zoom)/step)*step, y1=cam.y+H/2/cam.zoom;
+  ctx.strokeStyle='rgba(148,163,184,.10)';
+  ctx.beginPath();
+  for(let x=x0;x<=x1;x+=step){ const [sx1,sy1]=w2s(x,y0),[sx2,sy2]=w2s(x,y1); ctx.moveTo(sx1,sy1); ctx.lineTo(sx2,sy2); }
+  for(let y=y0;y<=y1;y+=step){ const [sx1,sy1]=w2s(x0,y),[sx2,sy2]=w2s(x1,y); ctx.moveTo(sx1,sy1); ctx.lineTo(sx2,sy2); }
+  ctx.stroke();
+  // axes
+  const [ox0,oy0]=w2s(0,0);
+  ctx.strokeStyle='rgba(148,163,184,.28)';
+  ctx.beginPath(); ctx.moveTo(0,oy0); ctx.lineTo(W,oy0); ctx.moveTo(ox0,0); ctx.lineTo(ox0,H); ctx.stroke();
+}
+function drawLines(){
+  ctx.lineCap='round'; ctx.lineJoin='round';
+  for(const L of lines){
+    const [ax,ay]=w2s(L.x1,L.y1), [bx,by]=w2s(L.x2,L.y2);
+    // cull
+    if((ax<-50&&bx<-50)||(ax>W+50&&bx>W+50)||(ay<-50&&by<-50)||(ay>H+50&&by>H+50)) continue;
+    if(L.type==='solid'){ ctx.strokeStyle='#3b82f6'; ctx.lineWidth=Math.max(2,3*cam.zoom); }
+    else if(L.type==='boost'){ ctx.strokeStyle='#f97316'; ctx.lineWidth=Math.max(2,3.4*cam.zoom); }
+    else { ctx.strokeStyle='rgba(61,220,132,.85)'; ctx.lineWidth=Math.max(1.5,2*cam.zoom); }
+    ctx.beginPath(); ctx.moveTo(ax,ay); ctx.lineTo(bx,by); ctx.stroke();
+    if(L.type==='boost'){
+      // chevrons
+      const mx=(ax+bx)/2,my=(ay+by)/2, ang=Math.atan2(by-ay,bx-ax);
+      ctx.save(); ctx.translate(mx,my); ctx.rotate(ang); ctx.fillStyle='#fdba74';
+      ctx.beginPath(); ctx.moveTo(5,0); ctx.lineTo(-3,-4); ctx.lineTo(-3,4); ctx.closePath(); ctx.fill(); ctx.restore();
+    }
+  }
+  // live stroke preview is already committed; nothing extra
+}
+function drawStart(){
+  const [sx,sy]=w2s(start.x,start.y);
+  if(sx<-80||sx>W+80||sy<-80||sy>H+80) return;
+  ctx.save(); ctx.translate(sx,sy);
+  ctx.strokeStyle='#eab308'; ctx.lineWidth=3; ctx.beginPath(); ctx.moveTo(0,0); ctx.lineTo(0,-34); ctx.stroke();
+  ctx.fillStyle='#eab308'; ctx.beginPath(); ctx.moveTo(0,-34); ctx.lineTo(20,-28); ctx.lineTo(0,-22); ctx.closePath(); ctx.fill();
+  ctx.fillStyle='rgba(234,179,8,.25)'; ctx.beginPath(); ctx.arc(0,0,10,0,7); ctx.fill();
+  ctx.restore();
+}
+function drawSled(){
+  const [sx,sy]=w2s(sled.x,sled.y);
+  ctx.save(); ctx.translate(sx,sy); ctx.rotate(sled.angle);
+  const shake = crashed ? Math.sin(performance.now()/40)*1.5 : 0;
+  ctx.translate(shake,0);
+  // shadow runner line
+  ctx.strokeStyle = crashed ? '#ef4444' : '#e2e8f0';
+  ctx.lineWidth = 4; ctx.lineCap='round';
+  ctx.beginPath(); ctx.moveTo(-SLED_HALF,-0); ctx.lineTo(SLED_HALF,0); ctx.stroke();
+  // runner struts
+  ctx.strokeStyle='#94a3b8'; ctx.lineWidth=2;
+  ctx.beginPath(); ctx.moveTo(-9,0); ctx.lineTo(-9,-6); ctx.moveTo(9,0); ctx.lineTo(9,-6); ctx.stroke();
+  // seat
+  ctx.fillStyle='#cbd5e1'; ctx.fillRect(-10,-9,20,3);
+  // rider body
+  ctx.strokeStyle = crashed ? '#fca5a5' : '#f8fafc'; ctx.lineWidth=3;
+  ctx.beginPath(); ctx.moveTo(0,-8); ctx.lineTo(3,-20); ctx.stroke();       // torso
+  ctx.beginPath(); ctx.moveTo(3,-20); ctx.lineTo(10,-14); ctx.stroke();     // arm
+  ctx.beginPath(); ctx.moveTo(0,-8); ctx.lineTo(-6,-4); ctx.stroke();       // leg front
+  ctx.beginPath(); ctx.moveTo(0,-8); ctx.lineTo(6,-4); ctx.stroke();        // leg back
+  // head
+  ctx.fillStyle = crashed ? '#ef4444' : '#fff';
+  ctx.beginPath(); ctx.arc(5,-25,HEAD_R,0,7); ctx.fill();
+  ctx.strokeStyle='#0f172a'; ctx.lineWidth=1; ctx.stroke();
+  // scarf
+  ctx.strokeStyle='#4da3ff'; ctx.lineWidth=2.4;
+  const wav = Math.sin(performance.now()/90)*3 - Math.hypot(sled.vx,sled.vy)*0.6;
+  ctx.beginPath(); ctx.moveTo(2,-24); ctx.quadraticCurveTo(-6,-24+wav*0.4,-12,-20+wav); ctx.stroke();
+  ctx.restore();
+  // velocity vector (debug-ish, subtle)
+  if(mode==='play'){
+    const [ex,ey]=w2s(sled.x+sled.vx*6, sled.y+sled.vy*6);
+    ctx.strokeStyle='rgba(77,163,255,.35)'; ctx.lineWidth=1.5; ctx.setLineDash([5,5]);
+    ctx.beginPath(); ctx.moveTo(sx,sy); ctx.lineTo(ex,ey); ctx.stroke(); ctx.setLineDash([]);
+  }
+}
+function drawCursor(){
+  if(tool!=='erase'||!mouse.down&&true){}
+  if(tool==='erase'){
+    const R=14;
+    ctx.strokeStyle='rgba(255,93,93,.9)'; ctx.lineWidth=1.5; ctx.setLineDash([4,4]);
+    ctx.beginPath(); ctx.arc(mouse.x,mouse.y,R,0,7); ctx.stroke(); ctx.setLineDash([]);
+  }
+  if(tool==='start' && mode!=='play'){
+    ctx.strokeStyle='rgba(234,179,8,.5)'; ctx.lineWidth=1;
+    ctx.beginPath(); ctx.arc(mouse.x,mouse.y,12,0,7); ctx.stroke();
+  }
+}
+function frame(){
+  physicsStep();
+  // camera follow
+  if(mode==='play' && follow && !crashed){
+    cam.x += (sled.x + sled.vx*22 - cam.x)*0.08;
+    cam.y += (sled.y + sled.vy*10 - 40 - cam.y)*0.08;
+  }
+  ctx.setTransform(DPR,0,0,DPR,0,0);
+  // bg
+  const g=ctx.createLinearGradient(0,0,0,H);
+  g.addColorStop(0,'#0d1219'); g.addColorStop(1,'#0a0d12');
+  ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+  drawGrid(); drawLines(); drawStart(); drawSled(); drawCursor();
+  // status
+  $('stLines').textContent = lines.length;
+  $('stSpeed').textContent = mode==='play' ? Math.round(Math.hypot(sled.vx,sled.vy)*60) : 0;
+  $('stPos').textContent = Math.round(sled.x)+', '+Math.round(sled.y);
+  $('stZoom').textContent = Math.round(cam.zoom*100)+'%';
+  if(!paused && mode==='play' && !crashed) $('stState').textContent='riding';
+  requestAnimationFrame(frame);
+}
+
+// ---------- boot ----------
+resize();
+setTool('draw');
+(function init(){
+  try{
+    const s=JSON.parse(localStorage.getItem('linerider-save'));
+    if(s && s.lines && s.lines.length){ lines=s.lines; Object.assign(start,s.start||{}); if(s.cam)Object.assign(cam,s.cam); resetSled(); }
+    else { demoTrack(); }
+  }catch{ demoTrack(); }
+  if(!lines.length) demoTrack();
+  resetSled();
+  cam.x = cam.x || 300; cam.y = cam.y || 220;
+})();
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>
