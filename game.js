@@ -106,7 +106,8 @@ const BALL_MASS = 0.0459;     // kg
 const BALL_RADIUS = 0.02135;  // m (real ball; used for aero forces)
 const BALL_VIS_R = 0.35;      // m (visual wire sphere radius; used for ground contact/render)
 const AIR_DENSITY = 1.225;    // kg/m^3 at sea level
-const CD = 0.24;              // drag coefficient
+const CD = 0.22;              // drag coefficient (dimpled ball, lively arcade air)
+const CL_SLOPE = 0.75;        // lift slope vs spin parameter (tour-like carry)
 const CL_MAX = 0.32;          // lift coefficient cap
 const HOLE_CAPTURE_R = 0.55;  // visual cup radius (real hole: 0.108 m diameter/2 — scaled up so it is playable)
 const HOLE_MAX_SPEED = 1.9;   // m/s capture limit (spec: 1.6; +margin for visual scale)
@@ -596,6 +597,9 @@ function startHole(idx) {
   // auto club: driver off tee
   G.club = spec.par === 3 ? 1 : 0;
   G.swing.stage = 'idle'; G.swing.power = 0; G.swing.acc = 0;
+  // shot-shaping tweaks must never leak between holes/shots — a stuck
+  // loft would silently shorten every drive with no obvious cause
+  G.loftAdjust = 0; G.spinTweak.x = 0; G.spinTweak.y = 0;
   flash(`HOLE ${idx + 1}`, `PAR ${spec.par} • ${Math.round(spec.dist)}m • WIND ${spec.wind.length().toFixed(1)} m/s`);
   AudioSys.beep(660, 0.12, 'square', 0.05);
   updateHUD();
@@ -634,10 +638,15 @@ function strike() {
   const lie = surf.type;
   const meter = clamp(s.power, 0.05, 1);
   const accErr = clamp(s.acc, -1, 1);
+  // Distance scales with ball-speed², so a linear meter would make 50% power
+  // go ~25% distance — mid-power putts/chips would always come up dying.
+  // Square-root the meter: distance comes out roughly linear in the needle,
+  // full power is unchanged. (Spin still uses the raw meter.)
+  const effMeter = Math.sqrt(Math.max(0.02, meter));
   // Player loft/spin tweaks from W/S + IJKL / dpad + right stick / spin pad
   const playerLoftAdjust = clamp(G.loftAdjust, -0.09, 0.09);
 
-  const clubSpeed = meter * club.maxHeadSpeed * lieFactor(lie, G.club);
+  const clubSpeed = effMeter * club.maxHeadSpeed * lieFactor(lie, G.club);
   const smash = 0.68 + club.quality * 0.12;
   let ballSpeed = clubSpeed * smash;
   if (G.club === 3 && lie !== 'green') ballSpeed *= 0.7;
@@ -675,10 +684,34 @@ function strike() {
   G.strokes++;
   trailPts.length = 0; G.curTrail.length = 0;
   AudioSys.swing();
+  // Honest distance promise: simulate the shot with the same integrator.
+  // Airborne clubs → predicted carry (first landing); putter → rolling estimate.
+  let promiseM;
+  if (G.club === 3) {
+    const s0 = getSurface(b.position.x, b.position.z);
+    const aRoll = (s0.rollFriction || 0.5) * GRAVITY * 0.55;
+    promiseM = Math.round((v.length() ** 2) / (2 * Math.max(0.5, aRoll)));
+  } else {
+    const sim = predictShot(b.position, v, spin);
+    const last = sim[sim.length - 1];
+    promiseM = Math.round(Math.hypot(last.x - b.position.x, last.z - b.position.z));
+  }
   const loftTxt = Math.abs(G.loftAdjust) > 0.005 ? ` LOFT ${(G.loftAdjust * 180 / Math.PI).toFixed(1)}°` : '';
-  $('swing-hint').innerHTML = club.name + ' • ' + Math.round(ballSpeed * 3.2) + 'm' + loftTxt + ' • ' +
-    (Math.abs(accErr) < 0.18 ? 'PURE!' : Math.abs(accErr) < 0.5 ? 'OK' : 'WILD!');
+  const quality = Math.abs(accErr) < 0.18 ? 'PURE!' : Math.abs(accErr) < 0.5 ? 'OK' : 'WILD!';
+  $('swing-hint').innerHTML = club.name + ' • ' + promiseM + 'm' + loftTxt + ' • ' + quality;
+  // consume one-shot tweaks so they can't linger into future shots
+  G.loftAdjust = 0; G.spinTweak.x = 0; G.spinTweak.y = 0;
+  // permanent per-shot receipt: power YOU set, speed out, predicted carry
+  G.lastShot = { club: club.name, power: Math.round(meter * 100), ballSpeed: Math.round(ballSpeed * 10) / 10, promise: promiseM, quality };
+  renderShotInfo();
   updateHUD();
+}
+function renderShotInfo() {
+  const el = $('shotinfo');
+  if (!el) return;
+  if (!G.lastShot) { el.textContent = 'NO SHOT YET — HOLD SWING/SPACE TO CHARGE'; return; }
+  const s = G.lastShot;
+  el.textContent = `LAST SHOT — ${s.club} • YOU SET ${s.power}% • ${s.ballSpeed} m/s • ~${s.promise}m • ${s.quality}`;
 }
 
 // --- Aerodynamics ------------------------------------------------
@@ -715,7 +748,9 @@ function updateFlight(ball, dt) {
     if (mdir.lengthSq() > 1e-6) {
       mdir.normalize();
       const spinParameter = (spinLen * BALL_RADIUS) / Math.max(speed, 0.001);
-      const CL = Math.min(CL_MAX, 0.18 * spinParameter);
+      // Slope matches measured dimpled-ball lift (driver S≈0.09 → CL≈0.07,
+      // ≈7 m/s² of carry-extending lift sustains tour-like flight).
+      const CL = Math.min(CL_MAX, CL_SLOPE * spinParameter);
       const liftMag = 0.5 * AIR_DENSITY * speed * speed * CL * area;
       magnus.copy(mdir).multiplyScalar(liftMag);
     }
@@ -902,7 +937,7 @@ function predictShot(startPos, startVel, startSpin, maxPts = 60) {
       if (md.lengthSq() > 1e-6) {
         md.normalize();
         const sp = (spin.length() * BALL_RADIUS) / Math.max(speed, 0.001);
-        mag.copy(md).multiplyScalar(0.5 * AIR_DENSITY * speed * speed * Math.min(CL_MAX, 0.18 * sp) * area);
+        mag.copy(md).multiplyScalar(0.5 * AIR_DENSITY * speed * speed * Math.min(CL_MAX, CL_SLOPE * sp) * area);
       }
     }
     v.addScaledVector(new THREE.Vector3(0, -GRAVITY, 0).add(drag.divideScalar(BALL_MASS)).add(mag.divideScalar(BALL_MASS)), dt);
@@ -1155,7 +1190,8 @@ function aimShotEstimate(powerMeter) {
   const b = G.ball;
   const surf = getSurface(b.position.x, b.position.z);
   const meter = clamp(powerMeter, 0.05, 1);
-  const clubSpeed = meter * club.maxHeadSpeed * lieFactor(surf.type, G.club);
+  const effMeter = Math.sqrt(Math.max(0.02, meter)); // must match strike()
+  const clubSpeed = effMeter * club.maxHeadSpeed * lieFactor(surf.type, G.club);
   const smash = 0.68 + club.quality * 0.12;
   let ballSpeed = Math.max(1.5, clubSpeed * smash);
   if (G.club === 3 && surf.type !== 'green') ballSpeed *= 0.7;
@@ -1312,7 +1348,12 @@ window.addEventListener('keydown', (e) => {
   if (e.repeat) { if (e.code === 'Space') e.preventDefault(); return; }
   keys[e.code] = true;
   AudioSys.ensure();
-  if (e.code === 'Space' || e.code === 'Enter') { e.preventDefault(); advanceSwing(); }
+  // Space flows through Input rose/fell edges in animate() (press = start,
+  // release = lock power, press = strike). Calling advanceSwing here too
+  // would fire every stage TWICE and lock power near zero — weak shots.
+  // Enter is not part of Input.swing, so it keeps the direct call.
+  if (e.code === 'Enter') { e.preventDefault(); advanceSwing(); }
+  if (e.code === 'Space') { e.preventDefault(); }
   if (e.code === 'Digit1') G.club = 0;
   if (e.code === 'Digit2') G.club = 1;
   if (e.code === 'Digit3') G.club = 2;
@@ -1358,7 +1399,24 @@ function startReplay() {
 document.querySelectorAll('.club').forEach((el) => {
   el.addEventListener('click', () => { AudioSys.ensure(); AudioSys.click(); G.club = Number(el.dataset.club); updateHUD(); });
 });
-$('swing-btn').addEventListener('click', () => advanceSwing());
+// SWING buttons (mouse + touch) are press-and-HOLD, exactly like SPACE:
+// hold = charge the meter, release = set your power, next press = hit.
+// A plain instant click can never build power (it would save ~0%), so there
+// is deliberately NO 'click' handler here — holding is the only way.
+const pointerSwing = (on) => { AudioSys.ensure(); touchState.swing = on ? 1 : 0; };
+// Fallback for taps faster than the frame loop (dead clicks on slow machines):
+// if no stage change registered between press and release, count the tap once.
+// Safe: whenever a real hold registered (stage changed), this never fires.
+let btnDownStage = null;
+$('swing-btn').addEventListener('mousedown', (e) => {
+  if (e.button !== undefined && e.button !== 0) return;
+  btnDownStage = G.swing.stage; pointerSwing(true);
+});
+window.addEventListener('mouseup', () => {
+  pointerSwing(false);
+  if (btnDownStage !== null && btnDownStage === G.swing.stage) advanceSwing();
+  btnDownStage = null;
+});
 function selectCourse(i) {
   AudioSys.ensure(); AudioSys.cheer();
   G.course = i;
@@ -1389,8 +1447,17 @@ function renderCourseButtons() {
     box.appendChild(b);
   });
 }
-// touch SWING button: each tap advances the 3-stage meter (same as SPACE)
-$('touch-swing').addEventListener('touchstart', (e) => { e.preventDefault(); AudioSys.ensure(); advanceSwing(); }, { passive: false });
+// touch SWING button: press-and-HOLD to charge, release to set power,
+// tap again to hit — same as SPACE / mouse button (see pointerSwing above)
+let touchDownStage = null;
+$('touch-swing').addEventListener('touchstart', (e) => { e.preventDefault(); touchDownStage = G.swing.stage; pointerSwing(true); }, { passive: false });
+const touchSwingEnd = (e) => {
+  e.preventDefault(); pointerSwing(false);
+  if (touchDownStage !== null && touchDownStage === G.swing.stage) advanceSwing();
+  touchDownStage = null;
+};
+$('touch-swing').addEventListener('touchend', touchSwingEnd, { passive: false });
+$('touch-swing').addEventListener('touchcancel', touchSwingEnd, { passive: false });
 // spin pad: drag from center -> spinTweak (x = sidespin, y = backspin +/-)
 {
   const pad = $('spin-pad'), dot = $('spin-dot');
@@ -1542,7 +1609,7 @@ function animate(now) {
   // swing meters (per-render)
   const sw = G.swing;
   if (!G.paused && sw.stage === 'power') {
-    sw.power += sw.dirP * frameTime * 1.15;
+    sw.power += sw.dirP * frameTime * 0.8;
     if (sw.power >= 1) { sw.power = 1; sw.dirP = -1; }
     if (sw.power <= 0) { sw.power = 0; sw.dirP = 1; }
   } else if (!G.paused && sw.stage === 'acc') {
@@ -1557,9 +1624,9 @@ function animate(now) {
   $('acc-needle').style.left = `${50 + (sw.stage === 'acc' ? sw.acc * 48 : 0)}%`;
   $('acc-needle').style.background = sw.stage === 'acc' && Math.abs(sw.acc) < 0.18 ? '#00ff66' : '#ffcc00';
   if (G.started && sw.stage === 'idle' && G.ball.rest && !G.ball.holed)
-    $('swing-hint').innerHTML = `HOLD <b>SPACE</b> — POWER ▸ ACCURACY ▸ STRIKE`;
-  if (sw.stage === 'power') $('swing-hint').innerHTML = `LOCK POWER — <b>SPACE</b> / TAP / RELEASE`;
-  if (sw.stage === 'acc') $('swing-hint').innerHTML = `HIT THE GREEN ZONE — <b>SPACE</b> / STICK / SWIPE`;
+    $('swing-hint').innerHTML = `HOLD <b>SPACE</b> ▸ RELEASE TO SET POWER ▸ PRESS TO HIT`;
+  if (sw.stage === 'power') $('swing-hint').innerHTML = `RELEASE <b>SPACE</b> TO SET YOUR POWER — ${Math.round(sw.power * 100)}%`;
+  if (sw.stage === 'acc') $('swing-hint').innerHTML = `PRESS <b>SPACE</b> IN THE GREEN — STICK / A-D NUDGES`;
   // touch UI fades in only when a shot can be taken (keeps course readable)
   {
     const tui = $('touch-ui');
@@ -1614,12 +1681,22 @@ function animate(now) {
 
   updateAim();
   updateCamera(frameTime);
-  if ((animate.f = (animate.f || 0) + 1) % 6 === 0) { updateHUD(); drawMinimap(); }
+  if ((animate.f = (animate.f || 0) + 1) % 6 === 0) {
+    updateHUD(); drawMinimap();
+    // live input lamp: proves your hands are reaching the game
+    const lamp = $('inputlive');
+    if (lamp) {
+      const holding = Input.state.swing > 0.1;
+      lamp.textContent = holding ? '● CHARGING — RELEASE TO SET POWER' : '○ HOLD SPACE OR SWING BUTTON TO CHARGE';
+      lamp.classList.toggle('hot', holding);
+    }
+  }
   renderer.render(scene, camera);
 }
 // Debug/test hook (used by automated playtests; harmless in production)
 window.__golf = {
   G, COURSES,
+  version: 8,
   get H() { return H; },
   get WORLD() { return WORLD; },
   play(course, idx) {
@@ -1628,6 +1705,25 @@ window.__golf = {
     startHole(idx);
     const s = H.spec;
     return { par: s.par, dist: Math.round(s.dist), green: { x: Math.round(s.green.x), z: Math.round(s.green.z) } };
+  },
+  // Full-power-equivalent strike bypassing the meter (power/acc set directly)
+  testStrike(power = 1, acc = 0, club = null) {
+    if (club !== null) G.club = club;
+    G.started = true;
+    G.ball.state = 'rest'; G.ball.velocity.set(0, 0, 0); G.ball.spin.set(0, 0, 0);
+    syncBallFlags();
+    G.swing.power = power; G.swing.acc = acc; G.swing.stage = 'idle';
+    G.prevPos.copy(G.ball.position);
+    strike();
+    return {
+      ballSpeed: Math.round(G.ball.velocity.length() * 10) / 10,
+      spin: Math.round(G.ball.spin.length()),
+    };
+  },
+  // Horizontal metres from a reference point (default: shot origin)
+  shotDist(from = null) {
+    const o = from || G.prevPos;
+    return Math.round(Math.hypot(G.ball.position.x - o.x, G.ball.position.z - o.z) * 10) / 10;
   },
 };
 requestAnimationFrame(animate);

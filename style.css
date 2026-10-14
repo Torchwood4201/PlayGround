@@ -63,6 +63,9 @@ html,body{width:100%;height:100%;background:var(--bg);overflow:hidden;
   box-shadow:0 0 8px var(--ylw);left:50%;}
 #swing-hint{font-size:11px;letter-spacing:1px;color:#9fffbe;margin-top:6px;}
 #swing-hint b{color:#fff;border:1px solid #fff;padding:0 5px;}
+#shotinfo{font-size:11px;letter-spacing:1px;color:var(--ylw);margin-top:6px;min-height:14px;}
+#inputlive{font-size:10px;letter-spacing:2px;color:#5f8f70;margin-top:3px;}
+#inputlive.hot{color:#fff;text-shadow:0 0 8px var(--grn);}
 #swing-btn{margin-top:8px;background:transparent;border:1px solid var(--grn);color:var(--grn);
   font:inherit;font-weight:bold;letter-spacing:3px;padding:8px 26px;cursor:pointer;}
 #swing-btn:hover{background:var(--grn);color:#000;box-shadow:0 0 18px var(--grn);}

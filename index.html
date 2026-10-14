@@ -54,7 +54,9 @@
       <label>ACCURACY</label>
       <div id="acc-bar"><div id="acc-zone"></div><div id="acc-needle"></div></div>
     </div>
-    <div id="swing-hint">HOLD <b>SPACE</b> — POWER ▸ ACCURACY ▸ STRIKE</div>
+    <div id="swing-hint">HOLD <b>SPACE</b> ▸ RELEASE TO SET POWER ▸ PRESS TO HIT</div>
+    <div id="shotinfo">NO SHOT YET — HOLD SWING/SPACE TO CHARGE</div>
+    <div id="inputlive">○ HOLD SPACE OR SWING BUTTON TO CHARGE</div>
     <button id="swing-btn">SWING ⏎</button>
   </div>
 
@@ -77,10 +79,10 @@
 
   <!-- Help -->
   <div id="help">
-    <b>A/D ◀ ▶</b> aim &nbsp; <b>1–4 Q/E</b> club &nbsp; <b>SPACE</b> swing ×3 &nbsp;
+    <b>A/D ◀ ▶</b> aim &nbsp; <b>1–4 Q/E</b> club &nbsp; <b>SPACE</b> hold/rls/press &nbsp;
     <b>W/S</b> loft &nbsp; <b>IJKL</b> spin &nbsp; <b>DRAG</b> orbit &nbsp; <b>WHEEL</b> zoom &nbsp;
     <b>C</b> cam &nbsp; <b>TAB</b> card &nbsp; <b>R</b> replay &nbsp; <b>O</b> courses &nbsp; <b>T</b> retry &nbsp; <b>Y</b> assist &nbsp;
-    <b>ESC</b> pause &nbsp; <b>M</b> sound &nbsp; <b>PAD</b> stick+buttons OK
+    <b>ESC</b> pause &nbsp; <b>M</b> sound &nbsp; <b>PAD</b> stick+buttons OK &nbsp; <b>BUILD</b> v8
   </div>
 
   <!-- Title overlay -->
@@ -90,7 +92,7 @@
       <h1>WIREFRAME<br/>GOLF</h1>
       <div class="t-sub">9 HOLES • ALL WIREFRAME • DESKTOP 3D</div>
       <div class="t-controls">
-        AIM <b>A/D</b> • CLUB <b>1-4</b> • SWING <b>SPACE ×3</b> • ORBIT <b>MOUSE</b> • PAD OK
+        AIM <b>A/D</b> • CLUB <b>1-4</b> • SWING <b>HOLD-RLS-PRESS</b> • ORBIT <b>MOUSE</b> • PAD OK
       </div>
       <div class="t-kicker2">— SELECT COURSE —</div>
       <div id="course-btns"></div>
@@ -98,6 +100,6 @@
     </div>
   </div>
 </div>
-<script type="module" src="./game.js"></script>
+<script type="module" src="./game.js?v=8"></script>
 </body>
 </html>
