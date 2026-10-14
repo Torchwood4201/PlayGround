@@ -103,6 +103,14 @@ export class PositronicBrain {
   private provider: StorageProvider | null = null;
   private saveTimer: ReturnType<typeof setTimeout> | null = null;
   private generator: { generate: (prompt: string) => Promise<string> } | null = null;
+  /**
+   * Transient long-term connections for THIS cycle only (set by Beta4 from
+   * recall, cleared after thinkAndAct). Enriches the brain's own record of
+   * what it considered — never shown, never persisted beyond the thought
+   * entry, and never part of the ethics check (safety runs on goal + base
+   * thought so stored documents can't hijack the gate).
+   */
+  private cycleContext = '';
   /** The person's dialogue thread, held as opaque payload (see DialogueThread). */
   private thread: Array<{ user: string; beta: string }> = [];
 
@@ -122,6 +130,18 @@ export class PositronicBrain {
   setGoal(goal: string): void {
     this.goal = goal;
     this.scheduleAutosave();
+  }
+
+  /**
+   * Stage long-term connections for the current cycle (Beta4 sets this from
+   * recall before thinkAndAct). Transient: cleared after the cycle.
+   */
+  setCycleContext(context: string): void {
+    this.cycleContext = context.replace(/\s+/g, ' ').trim().slice(0, 500);
+  }
+
+  clearCycleContext(): void {
+    this.cycleContext = '';
   }
 
   /** Read the persisted dialogue thread (copy). */
@@ -283,13 +303,17 @@ export class PositronicBrain {
 
     const action = this.selectAction();
     const result = await this.executeAction(action, this.goal);
-    this.remember(`THOUGHT: ${thought}`, true);
+    // The brain's own record includes the long-term connections it weighed
+    // this cycle. The safety gate above already ran on the base thought.
+    const enriched =
+      this.cycleContext.length > 0 ? `${thought} | LTM connections: ${this.cycleContext}` : thought;
+    this.remember(`THOUGHT: ${enriched}`, true);
     this.remember(`ACTION: ${action} -> ${result}`, true);
     this.emotion.update(true);
     this.scheduleAutosave();
 
     return {
-      plan: { thought, action, action_input: this.goal },
+      plan: { thought: enriched, action, action_input: this.goal },
       result,
       blocked: false,
     };

@@ -123,6 +123,21 @@ Notes:
   ephemeral working buffer (`origin: 'dialog'`), which the cycle planner never
   reads. Typed input never touches long-term storage directly.
 
+## Reply pipeline — short to long, then through the brain, then speech
+
+Every `Beta4.reply()` runs the same five stages (`src/core/Beta4.ts`):
+
+1. **Short-term sets the reference point** — the input plus the thread's
+   keywords (so "yeah..." still searches for what you were talking about).
+2. **Long-term is searched for connections** — uploads, seed knowledge, and
+   consolidated turns matching the reference (social moments skip this).
+3. **The brain weighs the cycle** — ethics gate, mood, and memory, with the
+   connections as transient context in its own record. The gate runs before
+   the context lands, so stored documents can't hijack it.
+4. **The turn consolidates to long-term** (`CONVERSATION`, `dialog`
+   namespace — the autonomous planner excludes it, so cycles stay clean).
+5. **Output is speech only** — `naturalVoice.ts`, never a readout.
+
 ## Own storage — how the AI keeps what it learns
 
 No external models or vector DBs. Persistence is a small provider seam:

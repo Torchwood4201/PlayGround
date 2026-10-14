@@ -111,7 +111,12 @@ function App() {
     setBeta4Running(true);
     try {
       // Backend cognition runs inside; only natural speech comes back.
-      const reply = await beta4.reply(text, (q) => vectorMemory.queryScored(q, 3));
+      // The pipeline commits the turn to long-term itself (consolidation);
+      // typed input was already noted short-term above.
+      const reply = await beta4.reply(text, {
+        recall: (q) => vectorMemory.queryScored(q, 3),
+        commit: (record) => vectorMemory.add(record, { namespace: 'dialog', marker: 'CONVERSATION' }),
+      });
       setBeta4History(h => [...h, { user: text, beta4: reply.message }]);
       setBeta4Cycle(c => c + 1);
       speak(reply.message);

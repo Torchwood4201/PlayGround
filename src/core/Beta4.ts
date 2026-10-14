@@ -34,6 +34,24 @@ export interface Beta4Deps {
   storage?: StorageProvider;
 }
 
+/**
+ * The person's long-term counterparty: recall connections by reference,
+ * commit consolidated turns. Beta4 owns the pipeline; App just binds it to
+ * the shared VectorMemory.
+ */
+export interface RecallStore {
+  recall(query: string): Promise<ScoredHit[]>;
+  commit(record: string): Promise<void>;
+}
+
+/** Summarize hits into the transient context the brain weighs this cycle. */
+function summarizeForBrain(hits: ScoredHit[]): string {
+  return hits
+    .slice(0, 2)
+    .map((h) => h.record.replace(/\s+/g, ' ').trim().slice(0, 200))
+    .join(' | ');
+}
+
 export class Beta4 {
   public readonly id = 'Beta 4';
   public readonly persona = {
@@ -102,30 +120,45 @@ export class Beta4 {
   }
 
   /**
-   * Talk to the person. Runs the backend (perceive → think → recall) and
-   * returns ONLY natural speech. Internal plans, thoughts, actions, and
-   * scores stay inside — callers never see them. Social moments answer
-   * person-to-person without touching retrieval at all.
+   * Talk to the person. The pipeline runs short → long → brain → speech:
+   *  1. Short-term sets the reference point (this input + thread keywords).
+   *  2. Long-term memory is searched for connections to that reference.
+   *  3. The brain weighs the cycle (ethics gate, mood, memory) with the
+   *     connections as transient context.
+   *  4. The turn consolidates back to long-term (dialog namespace; the
+   *     autonomous cycle planner excludes it, so cycles stay clean).
+   *  5. Only natural speech comes out. Internal plans, thoughts, actions,
+   *     and scores stay inside — callers never see them. Social moments
+   *     answer person-to-person without touching retrieval at all.
    */
   async reply(
     input: string,
-    recall: (query: string) => Promise<ScoredHit[]>,
+    memory: RecallStore,
   ): Promise<{ message: string; mood: string; grounded: boolean }> {
     this.setGoal(input);
-    await this.perceive();
-    const outcome = await this.thinkAndAct();
     const act = detectSocialAct(input);
     const affect = detectAffect(input);
     const keywords = extractUserKeywords(input);
-    // Social moments are person-to-person: no retrieval, no facts, no lecture.
+    // 1. Short-term reference point: this input plus what the thread holds.
+    const reference = [input, ...this.#thread.lastKeywords(2, 4)].join(' ');
+    await this.perceive();
+    // 2. Long-term connections to the reference (skipped for social moments).
     const social = act !== 'none';
     let hits: ScoredHit[] = [];
     if (!social) {
       try {
-        hits = await recall(input);
+        hits = await memory.recall(reference);
       } catch {
         hits = [];
       }
+    }
+    // 3. Through the brain system, connections as transient context.
+    this.#brain.setCycleContext(summarizeForBrain(hits));
+    let outcome: { positronicBrain: { blocked: boolean } };
+    try {
+      outcome = await this.thinkAndAct();
+    } finally {
+      this.#brain.clearCycleContext();
     }
     const mood = this.#brain.emotion.mood();
     const voiced = renderLateNightReply({
@@ -141,6 +174,11 @@ export class Beta4 {
     });
     this.#thread.pushTurn(input, voiced.message, voiced.key);
     this.#brain.writeThread(this.#thread.toSnapshot());
+    // 4. Consolidate the turn to long-term (fire-and-forget; never breaks speech).
+    const answer = voiced.message.replace(/\s+/g, ' ').trim().slice(0, 300);
+    const question = input.replace(/\s+/g, ' ').trim().slice(0, 200);
+    void memory.commit(`CONVERSATION Q: ${question} | A: ${answer}`).catch(() => {});
+    // 5. Output: speech only.
     return { message: voiced.message, mood, grounded: voiced.grounded };
   }
 
