@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Son of Anton — Claude Command Center</title>
+<meta name="description" content="Son of Anton web app: TRON-styled terminal emulator and Claude Code command center simulation." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="grid-bg" aria-hidden="true"></div>
+<div class="scanlines" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">◢◣</div>
+    <div>
+      <div class="brand-title">SON OF ANTON</div>
+      <div class="brand-sub">CLAUDE CODE COMMAND CENTER · WEB APP</div>
+    </div>
+  </div>
+  <div class="top-status">
+    <span class="pill" id="connPill"><span class="dot ok"></span> LOCAL SESSION LIVE</span>
+    <span class="pill mono" id="clock">00:00:00</span>
+    <label class="perm" title="Agent permission mode">
+      <span>🛡</span>
+      <select id="permSelect" aria-label="Agent permission mode">
+        <option>Ask Everything</option>
+        <option selected>Default</option>
+        <option>YOLO</option>
+      </select>
+    </label>
+  </div>
+  <nav class="top-actions">
+    <button id="composerBtn" class="btn">⌨ Composer <kbd>Ctrl+Space</kbd></button>
+    <button id="voiceBtn" class="btn">🎙 Voice</button>
+    <button id="pairBtn" class="btn accent">◉ Mobile Pair</button>
+  </nav>
+</header>
+
+<main class="layout">
+  <section class="terminal-card">
+    <div class="tabsbar">
+      <div class="tabs" id="tabs" role="tablist" aria-label="Terminal tabs"></div>
+      <div class="tabs-actions">
+        <button id="newTabBtn" class="mini-btn" title="New tab">＋</button>
+      </div>
+    </div>
+    <div class="term-meta">
+      <span id="shellLabel" class="mono">zsh — ~/projects/soa-web</span>
+      <span id="tabStatus" class="mono tab-status idle">● idle</span>
+    </div>
+    <div id="terminal" class="terminal" aria-live="polite" aria-label="Terminal output"></div>
+    <form id="inputRow" class="input-row" autocomplete="off">
+      <span class="prompt" id="promptSign">➜</span>
+      <input id="cmdInput" class="cmd" type="text" placeholder='type "help" — try "claude", then ask it to build something' aria-label="Terminal input" />
+      <button type="submit" class="btn send">⏎</button>
+    </form>
+    <div class="hints mono">help · ls · claude · status · theme [neon|amber|matrix] · sound [on|off] · clear · newtab · pair · composer · voice</div>
+    <div class="visualizer-wrap" id="vizWrap" hidden>
+      <canvas id="viz" width="600" height="56"></canvas>
+      <span class="mono viz-label">VOICE INPUT · Web Speech fallback simulation — listening…</span>
+    </div>
+  </section>
+
+  <aside class="side">
+    <section class="panel">
+      <h2>◈ CONTEXT TRACKING</h2>
+      <div class="ctx-num mono"><span id="ctxUsed">12,480</span><span class="muted"> / 200,000 tokens</span></div>
+      <div class="bar"><div id="ctxBar" class="bar-fill" style="width:6%"></div></div>
+      <div class="mono small"><span id="ctxPct">6%</span> · session <span id="sessId">soa-7f3a</span> · <span id="cwdLabel">~/projects/soa-web</span></div>
+    </section>
+
+    <section class="panel">
+      <h2>◈ ACTIVE AGENTS <span id="agentCount" class="count">0</span></h2>
+      <ul id="agents" class="agents"><li class="muted">No subagents running. Ask Claude to build something.</li></ul>
+    </section>
+
+    <section class="panel">
+      <h2>◈ TODO WIDGET</h2>
+      <ul id="todos" class="todos"></ul>
+    </section>
+
+    <section class="panel">
+      <h2>◈ SYSTEM</h2>
+      <div class="sysgrid mono">
+        <div>CPU <b id="cpu">12%</b><div class="bar slim"><div id="cpuBar" class="bar-fill"></div></div></div>
+        <div>RAM <b id="ram">41%</b><div class="bar slim"><div id="ramBar" class="bar-fill magenta"></div></div></div>
+        <div>NET <b id="net">1.2 Mb/s</b></div>
+        <div>UPTIME <b id="uptime">00:00:00</b></div>
+      </div>
+      <div class="files">
+        <div class="mono small muted">▾ ~/projects/soa-web</div>
+        <div class="mono small">📁 server/src/ &nbsp; 📁 web/public/ &nbsp; 📄 orchestrator.config.json</div>
+        <div class="mono small">📁 .agents/skills/ &nbsp; 📄 AGENTS.md &nbsp; 📁 mobile/dist/</div>
+      </div>
+    </section>
+
+    <section class="panel about">
+      <h2>◈ ABOUT</h2>
+      <p class="small">Static web re-imagining of <b>Son of Anton</b>: TRON terminal + Claude Code visibility (context, agents, todos) + voice, composer &amp; mobile-pair simulations. No backend — all state runs in your browser.</p>
+      <div class="row">
+        <button id="demoBtn" class="btn small">▶ Run demo task</button>
+        <button id="resetBtn" class="btn small ghost">Reset session</button>
+      </div>
+    </section>
+  </aside>
+</main>
+
+<footer class="foot mono">SON OF ANTON (APP) · static build · eDEX-UI-inspired · fork-respecting tribute — type <b>help</b> to begin</footer>
+
+<div class="modal" id="composerModal" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-label="Input composer">
+    <h3>INPUT COMPOSER <span class="mono muted">Shift+Enter to send</span></h3>
+    <textarea id="composerText" rows="5" placeholder="Compose a long prompt for Claude…"></textarea>
+    <div class="row end">
+      <button class="btn ghost" id="composerClose">Close</button>
+      <button class="btn accent" id="composerSend">Send to terminal ⏎</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="pairModal" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-label="Mobile pairing">
+    <h3>MOBILE LINK · PAIR</h3>
+    <p class="small">Simulated LAN bridge on <span class="mono">7330+</span>. In the desktop app this QR encodes <span class="mono">http(s)://…/?t=&lt;token&gt;</span>. Here it pairs a simulated phone view.</p>
+    <div class="qr-row">
+      <canvas id="qr" width="148" height="148" aria-label="Simulated pairing code"></canvas>
+      <div>
+        <div class="mono" id="pairToken">token soa-demo-7330</div>
+        <div class="row" style="margin-top:10px">
+          <button class="btn accent small" id="pairSimBtn">Simulate phone connect</button>
+          <button class="btn ghost small" id="pairClose">Close</button>
+        </div>
+        <div class="mono small" id="pairStatus" style="margin-top:8px">status: waiting for phone…</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
