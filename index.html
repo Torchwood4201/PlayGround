@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+<title>Minecraft 0.0.8a — Web Remake (3D, Desktop)</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="assets/grass.png" />
+<script type="importmap">
+{"imports":{"three":"./vendor/three.module.js"}}
+</script>
+</head>
+<body>
+<div id="app">
+  <canvas id="game-canvas"></canvas>
+  <div id="hud">
+    <div id="topbar">
+      <span class="pill">⛏️ Minecraft 0.0.8a <b style="color:#9fe870">web remake</b></span>
+      <span class="pill" id="fps">-- fps</span>
+      <span class="pill" id="pos">--</span>
+      <span class="pill" id="sel-label">grass</span>
+      <span class="pill" id="sf2-label">soundfont: loading…</span>
+    </div>
+    <div id="crosshair"></div>
+    <div id="toast"></div>
+    <div id="hotbar"></div>
+    <div id="toolbar-right">
+      <button class="btn" id="btn-new">🌍 New world</button>
+      <button class="btn" id="btn-save">💾 Save (Enter)</button>
+      <button class="btn" id="btn-zombie">🧟 Spawn zombie (G)</button>
+      <button class="btn" id="btn-sound">🔊 Sound: on</button>
+      <button class="btn" id="btn-help">❓ Help</button>
+    </div>
+    <div id="touch-ui">
+      <div id="joy"><div id="stick"></div></div>
+      <div id="touch-btns">
+        <button class="btn" id="t-jump">▲ Jump</button>
+        <button class="btn" id="t-break">⛏️ Break</button>
+        <button class="btn" id="t-place">🧱 Place</button>
+      </div>
+    </div>
+    <div id="overlay">
+      <div id="card">
+        <h1>Minecraft 0.0.8a <small>web remake • 3D desktop</small></h1>
+        <p>Port of the decompiled <b>Java / LWJGL classic</b> (<span id="ver">0.0.8a</span>) to Three.js + WebGL.
+        Terrain gen, caves, physics, zombies, particles, clouds and fog follow the original logic.
+        Original sprites in <code>assets/</code>, soundfont <code>Minecraft.sf2</code> included.</p>
+        <p><kbd>W A S D</kbd> move • <kbd>Mouse</kbd> look • <kbd>Left click</kbd> break • <kbd>Right click</kbd> place •
+        <kbd>1–6</kbd> blocks • <kbd>Space</kbd> jump • <kbd>R</kbd> respawn • <kbd>G</kbd> zombie • <kbd>Y</kbd> invert mouse • <kbd>Enter</kbd> save</p>
+        <p id="load-status">Generating world…</p>
+        <button id="play">▶ Click to play (locks mouse)</button>
+        <div id="subrow">
+          <button class="btn" id="btn-preview">👁 Preview without lock</button>
+          <button class="btn" id="btn-help2">Controls</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="module" src="main.js"></script>
+</body>
+</html>
