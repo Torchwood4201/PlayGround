@@ -4,379 +4,1365 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="data:,">
-<title>POKERED 3D — Kanto Explorer (Desktop)</title>
+<title>ONE WORLD POKÉMON 3D — Desktop</title>
 <style>
-  :root{
-    --bg:#0b1020; --panel:#131a30; --panel2:#1a2340; --line:#2a3763;
-    --ink:#eaf0ff; --dim:#9aa7d0; --acc:#ffcb05; --acc2:#3b5bd6; --red:#e3350d; --green:#4caf50;
-  }
+  :root{--bg:#070b16;--panel:#111a2e;--line:#2a3763;--ink:#eaf0ff;--dim:#9aa7d0;--acc:#ffcb05;--red:#e3350d}
   *{box-sizing:border-box}
-  html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:"Segoe UI",system-ui,Roboto,Arial,sans-serif}
-  #topbar{display:flex;align-items:center;gap:12px;padding:8px 14px;background:linear-gradient(180deg,#1b2450,#121836);border-bottom:2px solid var(--acc);position:sticky;top:0;z-index:20}
-  #logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.5px}
-  #pokeball{width:26px;height:26px;border-radius:50%;background:radial-gradient(circle at 50% 38%,#fff 0 32%,#222 33% 38%,#e3350d 39% 62%,#222 63% 68%,#fff 69% 100%);border:2px solid #000;flex:none;animation:spin 6s linear infinite}
-  @keyframes spin{to{filter:hue-rotate(0)}}
-  #logo small{display:block;font-weight:400;color:var(--dim);font-size:11px;letter-spacing:1px}
-  .pill{background:#0e1430;border:1px solid var(--line);border-radius:999px;padding:4px 10px;font-size:12px;color:var(--dim);white-space:nowrap}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:"Segoe UI",system-ui,Roboto,Arial,sans-serif;overflow:hidden}
+  #scene{position:fixed;inset:0;width:100%;height:100%;display:block}
+  #topbar{position:fixed;top:0;left:0;right:0;display:flex;align-items:center;gap:8px;padding:8px 12px;background:linear-gradient(180deg,rgba(10,14,32,.92),rgba(10,14,32,.65) 80%,transparent);z-index:20;pointer-events:none;flex-wrap:wrap}
+  #topbar>*{pointer-events:auto}
+  #logo{font-weight:800;letter-spacing:1px}
+  #logo small{display:block;font-weight:400;color:var(--dim);font-size:10px;letter-spacing:2px}
+  .pill{background:rgba(10,16,36,.85);border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:12px;color:var(--dim)}
   .pill b{color:var(--acc)}
-  #topbar .sp{flex:1}
-  button{cursor:pointer}
-  .btn{background:var(--acc);border:2px solid #000;color:#111;font-weight:800;border-radius:10px;padding:7px 12px;box-shadow:0 3px 0 #000;font-size:13px}
-  .btn:active{transform:translateY(2px);box-shadow:none}
-  .btn.ghost{background:#222c55;color:var(--ink);border-color:#000;box-shadow:0 3px 0 #000}
-  .btn.small{padding:4px 8px;font-size:12px}
-  #layout{display:flex;height:calc(100vh - 52px);min-height:560px}
-  #stage{position:relative;flex:1;min-width:0;background:#000}
-  #c{position:absolute;inset:0;width:100%;height:100%;display:block}
-  #hud{position:absolute;left:10px;top:10px;display:flex;flex-direction:column;gap:8px;pointer-events:none;z-index:5}
-  .card{background:rgba(10,14,32,.82);border:1px solid var(--line);border-radius:12px;padding:8px 10px;font-size:12px;backdrop-filter:blur(4px)}
-  #pos{font-variant-numeric:tabular-nums}
-  #toast{position:absolute;left:50%;top:14px;transform:translateX(-50%);z-index:6;display:none;background:#0e1430;border:2px solid var(--acc);border-radius:12px;padding:8px 14px;font-weight:700}
-  #controls-hint{position:absolute;left:10px;bottom:10px;z-index:5;max-width:420px}
-  #controls-hint kbd{background:#000;border:1px solid var(--line);border-bottom-width:3px;border-radius:6px;padding:1px 6px;font-size:11px}
-  #minimap{position:absolute;right:10px;top:10px;z-index:5;background:rgba(10,14,32,.85);border:1px solid var(--line);border-radius:12px;padding:6px}
-  #minimap canvas{display:block;border-radius:8px}
-  #side{width:380px;flex:none;background:var(--panel);border-left:2px solid var(--line);display:flex;flex-direction:column;min-height:0}
-  #tabs{display:flex;gap:4px;padding:8px 8px 0}
-  #tabs button{flex:1;background:#0e1430;color:var(--dim);border:1px solid var(--line);border-bottom:none;border-radius:10px 10px 0 0;padding:8px 4px;font-weight:700;font-size:12px}
-  #tabs button.on{background:var(--panel2);color:var(--acc)}
-  #panes{flex:1;overflow:auto;padding:10px;background:var(--panel2);border-top:1px solid var(--line);min-height:0}
-  .pane{display:none}
-  .pane.on{display:block}
-  h3{margin:6px 0 8px;font-size:13px;letter-spacing:1px;color:var(--acc)}
-  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-  .stat{background:#0e1430;border:1px solid var(--line);border-radius:10px;padding:8px;font-size:12px}
-  .stat b{display:block;font-size:18px;color:var(--acc)}
-  #dexgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-  .mon{background:#0e1430;border:1px solid var(--line);border-radius:10px;padding:6px;text-align:center;font-size:11px;cursor:pointer}
-  .mon img{width:100%;image-rendering:pixelated;background:#1d2a5e;border-radius:8px;aspect-ratio:1;object-fit:contain}
-  .mon.sel{outline:2px solid var(--acc)}
-  .mon b{display:block;text-transform:capitalize;margin-top:4px}
-  #dexdetail img{width:96px;image-rendering:pixelated;background:#1d2a5e;border-radius:10px}
-  pre.asm{background:#070b1d;border:1px solid var(--line);border-radius:10px;padding:8px;font-size:11px;max-height:260px;overflow:auto;white-space:pre-wrap;color:#c9d6ff}
-  #filelist{font-size:12px}
-  #filelist .row{display:flex;gap:8px;padding:4px 6px;border-bottom:1px solid #223;cursor:pointer}
-  #filelist .row:hover{background:#22336b}
-  #filelist .sz{margin-left:auto;color:var(--dim)}
-  #fileview img{max-width:100%;image-rendering:pixelated;background:#222;border-radius:8px}
-  input[type=text]{width:100%;background:#070b1d;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:8px;font-size:13px}
-  #battle{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:10;width:min(520px,92%);display:none;background:linear-gradient(180deg,#fff,#dbe6ff);color:#111;border:4px solid #000;border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.6);overflow:hidden}
-  #battle .bhead{background:var(--red);color:#fff;font-weight:800;padding:8px 12px;letter-spacing:1px}
-  #battle .bbody{display:flex;gap:12px;padding:12px}
-  #battle img{width:120px;height:120px;image-rendering:pixelated;background:#9db7e8;border:3px solid #000;border-radius:12px}
-  .hpbar{height:12px;background:#333;border:2px solid #000;border-radius:999px;overflow:hidden;margin:4px 0 8px}
-  .hpbar i{display:block;height:100%;background:linear-gradient(90deg,#4caf50,#8bc34a)}
-  #blog{font-size:12px;background:#0e1430;border:1px solid var(--line);border-radius:10px;padding:8px;height:110px;overflow:auto}
-  #loader{position:absolute;inset:0;z-index:30;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#1a2458,#070b1d);flex-direction:column;gap:12px;text-align:center;padding:20px}
-  .bar{width:min(420px,80%);height:12px;border:2px solid #000;background:#222;border-radius:999px;overflow:hidden}
-  .bar i{display:block;height:100%;width:10%;background:var(--acc)}
-  .dialogue{border-left:3px solid var(--acc);margin:8px 0;padding:6px 8px;background:#0e1430;border-radius:0 8px 8px 0;font-size:12px}
-  .dialogue b{color:var(--acc);font-size:11px}
-  footer{padding:6px 12px;font-size:11px;color:var(--dim);background:#0b1020;border-top:1px solid var(--line)}
-  @media (max-width:900px){
-    #layout{flex-direction:column;height:auto}
-    #stage{height:62vh;min-height:420px}
-    #side{width:auto;border-left:none;border-top:2px solid var(--line)}
-    #panes{max-height:520px}
-    #controls-hint{display:none}
-  }
+  .btn{background:var(--acc);border:2px solid #000;color:#111;font-weight:700;border-radius:8px;padding:6px 10px;font-family:inherit;font-size:12px;cursor:pointer}
+  .btn.ghost{background:#222c44;color:var(--ink)}
+  .btn.small{padding:4px 8px}
+  #dlg{position:fixed;left:12px;bottom:12px;max-width:460px;background:rgba(255,255,255,.96);color:#111;border:3px solid #000;border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.4;z-index:15;white-space:pre-wrap}
+  #hint{position:fixed;left:12px;bottom:12px;display:none}
+  #toast{position:fixed;left:50%;top:56px;transform:translateX(-50%);background:rgba(10,16,36,.9);border:2px solid var(--acc);border-radius:10px;padding:6px 14px;font-weight:700;display:none;z-index:30}
+  #zone{position:fixed;top:64px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.7);color:var(--acc);font-weight:800;font-size:16px;letter-spacing:2px;padding:6px 18px;border-radius:8px;border:2px solid var(--acc);display:none;z-index:25;pointer-events:none}
+  #mmpanel{position:fixed;right:12px;top:56px;background:rgba(10,16,36,.85);border:1px solid var(--line);border-radius:10px;padding:8px;z-index:15;text-align:center}
+  #mm{image-rendering:pixelated;border-radius:6px}
+  #mmpanel div{font-size:10px;color:var(--dim)}
+  #drawer{position:fixed;right:12px;top:200px;bottom:12px;width:330px;background:rgba(14,20,40,.94);border:1px solid var(--line);border-radius:12px;padding:10px;font-size:12px;overflow:auto;z-index:15}
+  #drawer h3{color:var(--acc);font-size:11px;letter-spacing:1px;margin:10px 0 6px}
+  .row{display:flex;gap:6px;align-items:center;margin:4px 0;flex-wrap:wrap}
+  select{background:#0b1220;color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:4px;font-family:inherit;font-size:12px}
+  input[type=text]{background:#0b1220;color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:5px;font-family:inherit;font-size:12px}
+  #party{display:flex;gap:6px;flex-wrap:wrap}
+  .mon{background:#0b1220;border:1px solid var(--line);border-radius:8px;padding:4px;text-align:center;width:76px;cursor:pointer;font-size:10px}
+  .mon img{width:100%;image-rendering:pixelated;background:#1d2a5e;border-radius:6px;aspect-ratio:1;object-fit:contain}
+  .mon b{display:block;font-size:10px;text-transform:capitalize}
+  #log{background:#0b1220;border:1px solid var(--line);border-radius:8px;padding:8px;height:130px;overflow:auto}
+  #dexgrid2{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:6px;max-height:220px;overflow:auto}
+  #filelist,.fr{font-size:11px}
+  pre.asm{background:#070b14;border:1px solid var(--line);border-radius:8px;padding:8px;font-size:11px;max-height:200px;overflow:auto;white-space:pre-wrap}
+  #battle{display:none;background:linear-gradient(180deg,#fff,#dbe6ff);color:#111;border:4px solid #000;border-radius:14px;position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:40;width:min(500px,92%);overflow:hidden}
+  #battle .bhead{background:var(--red);color:#fff;font-weight:800;padding:8px 12px}
+  #battle .bbody{display:flex;gap:10px;padding:12px}
+  #battle img{width:110px;height:110px;object-fit:contain;background:#9db7e8;border:3px solid #000;border-radius:10px}
+  .hpbar{height:10px;background:#333;border:2px solid #000;border-radius:999px;overflow:hidden;margin:4px 0}
+  .hpbar i{display:block;height:100%;background:#4caf50}
+  #starter{display:none;background:linear-gradient(180deg,#fff,#dbe6ff);color:#111;border:4px solid #000;border-radius:14px;position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:41;width:min(480px,92%);overflow:hidden}
+  #starter .bhead{background:#3b5bd6;color:#fff;font-weight:800;padding:8px 12px}
+  #starterOpts{display:flex;gap:8px;padding:12px}
+  #starterOpts .mon{width:120px;color:#111}
+  #shop{background:#0b1220;border:1px solid var(--line);border-radius:8px;padding:8px;margin-top:6px;max-height:260px;overflow:auto}
+  #loader{position:fixed;inset:0;background:#070b16;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;z-index:50}
+  #help{position:fixed;left:12px;top:56px;background:rgba(10,16,36,.8);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:12px;z-index:15;max-width:300px}
+  #help kbd{background:#000;border:1px solid var(--line);border-bottom-width:3px;border-radius:6px;padding:1px 6px;font-size:11px}
+  @media (max-width:900px){#drawer{display:none}#help{display:none}}
 </style>
 </head>
 <body>
+<canvas id="scene"></canvas>
 <div id="topbar">
-  <div id="logo"><div id="pokeball"></div><div>POKERED 3D<small>KANTO EXPLORER · DESKTOP · ALL 2875 FILES AS-IS</small></div></div>
-  <div class="pill">files <b id="stat-files">…</b></div>
-  <div class="pill">pokémon <b>151</b></div>
-  <div class="pill">caught <b id="stat-caught">0</b></div>
-  <div class="sp"></div>
-  <button class="btn ghost small" id="btn-sound">🔊 sound: on</button>
-  <button class="btn small" id="btn-help">? controls</button>
+  <div id="logo">ONE WORLD <span style="color:var(--acc)">POKÉMON 3D</span><small>DESKTOP · ALL FILES AS-IS</small></div>
+  <div class="pill">map <b id="st-map">—</b></div>
+  <div class="pill">seen <b id="st-seen">0</b></div>
+  <div class="pill">caught <b id="st-caught">0</b></div>
+  <div class="pill">¥<b id="st-money">300</b></div>
+  <div class="pill">balls <b id="st-balls">poke x10</b></div>
+  <button class="btn ghost small" id="btn-mute">sound: on</button>
 </div>
-<div id="layout">
-  <div id="stage">
-    <canvas id="c"></canvas>
-    <div id="hud">
-      <div class="card" id="pos">x 0 · z 0 · Pallet Town</div>
-      <div class="card">⬢ drag = orbit · wheel = zoom · <b>WASD/arrows</b> = walk · <b>E</b> = throw ball · <b>F</b> = talk</div>
-    </div>
-    <div id="toast"></div>
-    <div id="minimap"><canvas id="mm" width="150" height="150"></canvas><div style="font-size:11px;color:var(--dim);text-align:center">KANTO · live</div></div>
-    <div id="controls-hint" class="card">Desktop build: best with keyboard + mouse. Walk into <b style="color:#7CFC00">tall grass</b> for wild encounters from <code>data/pokemon/base_stats/*.asm</code>. Sprites are the original <code>gfx/pokemon/front/*.png</code> + <code>gfx/trainers/*.png</code> mapped onto 3D billboards. <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> move · <kbd>E</kbd> ball · <kbd>F</kbd> talk</div>
-    <div id="battle">
-      <div class="bhead" id="btitle">WILD PIKACHU appeared!</div>
-      <div class="bbody">
-        <img id="bimg" alt="wild">
-        <div style="flex:1">
-          <div><b id="bname">pikachu</b> <span id="blvl" style="color:#555">Lv5</span></div>
-          <div class="hpbar"><i id="bhp" style="width:100%"></i></div>
-          <div id="bstats" style="font-size:12px;color:#333">…</div>
-          <div style="display:flex;gap:8px;margin-top:8px">
-            <button class="btn small" id="btn-fight">⚔ Fight</button>
-            <button class="btn small" id="btn-ball">◉ Ball</button>
-            <button class="btn small ghost" id="btn-run">… Run</button>
-          </div>
-        </div>
+<div id="help">🖱️ drag = orbit · wheel = zoom<br><kbd>WASD</kbd> move · <kbd>Shift</kbd> run · <kbd>B</kbd> bike<br><kbd>E</kbd> throw ball · <kbd>F</kbd> talk · <kbd>G</kbd> evolve</div>
+<div id="zone"></div>
+<div id="toast"></div>
+<div id="mmpanel"><canvas id="mm" width="120" height="108"></canvas><div>LIVE MAP</div></div>
+<div id="drawer">
+  <h3>TRAVEL</h3><div class="row" id="regions"></div>
+  <h3>SPRITES / SPAWN</h3>
+  <div class="row"><select id="o-spr"><option value="modern" selected>PokeAPI modern</option><option value="local">Original files</option><option value="rb">PokeAPI Gen1 red-blue</option><option value="icon">PokeAPI icons gen7</option><option value="anim">PokeAPI animated</option><option value="db-rb">PokémonDB Red/Blue</option><option value="db-home">PokémonDB HOME</option><option value="sheet">Custom sheets (sheets/)</option></select>
+  <select id="o-density"><option value="3">Low</option><option value="6" selected>Normal</option><option value="9">High</option><option value="12">Very High</option></select></div>
+  <div class="row"><label>Wilds <input type="checkbox" id="o-wilds" checked></label><label>Random Enc <input type="checkbox" id="o-rand" checked></label></div>
+  <div class="row"><label>Ball <select id="b-ball"></select></label><button class="btn ghost small" id="btn-shop">SHOP</button><button class="btn ghost small" id="btn-heal">+balls/heal</button></div>
+  <div id="shop" style="display:none"></div>
+  <h3>PARTY</h3><div id="party"></div>
+  <h3>NATIONAL DEX (1025)</h3>
+  <div class="row"><input type="text" id="dexq" placeholder="search…" style="flex:1"><button class="btn ghost small" id="dex-prev">&lt;</button><button class="btn ghost small" id="dex-next">&gt;</button></div>
+  <div id="dexgrid2"></div><div id="dexdetail" style="margin-top:6px"></div>
+  <h3>LOG</h3><div id="log"></div>
+</div>
+<div id="dlg">…</div>
+<div id="battle">
+  <div class="bhead" id="btitle">A wild appeared!</div>
+  <div class="bbody">
+    <img id="bimg" alt="wild">
+    <div style="flex:1">
+      <div><b id="bname">?</b> <span id="blvl"></span></div>
+      <div class="hpbar"><i id="bhp" style="width:100%"></i></div>
+      <div id="bstats" style="font-size:11px"></div>
+      <div id="foeteam" style="font-size:11px"></div>
+      <div style="margin-top:6px;border-top:2px solid #000;padding-top:4px"><b id="pname">—</b> <span id="plvl" style="font-size:11px"></span>
+        <div class="hpbar"><i id="php" style="width:100%"></i></div></div>
+      <div class="row">
+        <button class="btn small" id="btn-fight">FIGHT</button>
+        <button class="btn small" id="btn-ball">BALL:poke</button>
+        <button class="btn ghost small" id="btn-item">ITEM</button>
+        <button class="btn ghost small" id="btn-run">RUN</button>
       </div>
     </div>
-    <div id="loader"><h2 style="margin:0">LOADING KANTO…</h2><div class="bar"><i id="loadfill"></i></div><div id="loadmsg" style="color:var(--dim);font-size:13px">reading pokered-master/ manifest…</div></div>
-  </div>
-  <div id="side">
-    <div id="tabs">
-      <button data-t="play" class="on">▶ Play</button>
-      <button data-t="dex">▦ Pokédex</button>
-      <button data-t="dlg">💬 Text</button>
-      <button data-t="files">🗂 Files</button>
-    </div>
-    <div id="panes">
-      <div class="pane on" id="pane-play">
-        <h3>STARTER · CHOOSE YOUR PARTNER</h3>
-        <div class="grid2" id="starters"></div>
-        <h3>PARTY (<span id="party-n">1</span>/6)</h3>
-        <div id="party" style="display:flex;gap:8px;flex-wrap:wrap"></div>
-        <h3>BATTLE LOG · LIVE</h3>
-        <div id="blog">Welcome to Kanto 3D. All original disassembly files are mounted read-only under <code>pokered-master/</code>.<br></div>
-        <h3>KANTO ZONES (from data/maps/headers/*.asm)</h3>
-        <div class="grid2" id="zones"></div>
-      </div>
-      <div class="pane" id="pane-dex">
-        <h3>POKÉDEX · parsed live from base_stats/*.asm</h3>
-        <div id="dexgrid"></div>
-        <div id="dexdetail" style="margin-top:10px"></div>
-      </div>
-      <div class="pane" id="pane-dlg">
-        <h3>DIALOGUE · verbatim from text/*.asm</h3>
-        <div id="dlglist">loading…</div>
-      </div>
-      <div class="pane" id="pane-files">
-        <h3>ORIGINAL ARCHIVE · 100% AS-IS</h3>
-        <div class="grid2">
-          <div class="stat"><b id="c-asm">–</b>.asm sources</div>
-          <div class="stat"><b id="c-png">–</b>.png sprites</div>
-          <div class="stat"><b id="c-blk">–</b>.blk maps</div>
-          <div class="stat"><b id="c-all">–</b>total files</div>
-        </div>
-        <p style="font-size:12px;color:var(--dim)">Nothing converted, nothing deleted. The game fetches these exact bytes at runtime. Search and click any file to preview.</p>
-        <input type="text" id="q" placeholder="filter 2875 files… e.g. audio/music/pallettown">
-        <div id="filelist" style="margin-top:8px;max-height:300px;overflow:auto"></div>
-        <div id="fileview" style="margin-top:8px"></div>
-      </div>
-    </div>
-    <footer>pokédisassembly preserved: <code>pokered-master/</code> + <code>manifest.json</code> · sprites © Nintendo/Game Freak (1996) via pret/pokered · 3D desktop demo for education</footer>
   </div>
 </div>
-
+<div id="starter">
+  <div class="bhead">OAK: Choose your partner!</div>
+  <div id="starterOpts"></div>
+</div>
+<div id="loader"><h2 style="margin:0">ENTERING THE 3D WORLD…</h2><div id="loadmsg" style="color:var(--dim)">reading files as-is…</div></div>
 <script type="module">
 import * as THREE from './vendor/three.module.js';
-
 const $=s=>document.querySelector(s);
-const log=m=>{const b=$('#blog');b.innerHTML+=m+'<br>';b.scrollTop=1e6;};
+const log=m=>{const l=$('#log');if(!l)return;l.innerHTML+=m+'<br>';l.scrollTop=1e6;};
+const say=t=>{$('#dlg').textContent=t;};
+const lm=m=>{const e=$('#loadmsg');if(e)e.textContent=m;};
 const toast=(m,ms=2200)=>{const t=$('#toast');t.textContent=m;t.style.display='block';clearTimeout(t._h);t._h=setTimeout(()=>t.style.display='none',ms);};
-function setLoad(p,msg){$('#loadfill').style.width=(p*100).toFixed(0)+'%';if(msg)$('#loadmsg').textContent=msg;}
 
-// ---------- data: starters + wild pool (real file paths) ----------
-const POOL=['bulbasaur','charmander','squirtle','pikachu','caterpie','weedle','pidgey','rattata','spearow','ekans','sandshrew','nidoranf','clefairy','vulpix','jigglypuff','zubat','geodude','abra','machop','gastly','mew'];
-const STARTERS=['bulbasaur','charmander','squirtle','pikachu'];
-const state={caught:['pikachu'],party:['pikachu'],statsCache:{},manifest:null,muted:false,battle:null,dexSel:'bulbasaur'};
-const front=n=>`pokered-master/gfx/pokemon/front/${n}.png`;
-
-// ---------- three setup ----------
-const canvas=$('#c');
-const renderer=new THREE.WebGLRenderer({canvas,antialias:true});
-renderer.setPixelRatio(Math.min(devicePixelRatio,2));
-renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFShadowMap;
-const scene=new THREE.Scene();
-scene.background=new THREE.Color(0x87bfe8);
-scene.fog=new THREE.Fog(0x9fcbe8,60,160);
-const camera=new THREE.PerspectiveCamera(55,1,0.1,500);
-const hemi=new THREE.HemisphereLight(0xbfd9ff,0x3d7a3d,0.95);scene.add(hemi);
-const sun=new THREE.DirectionalLight(0xfff2cc,1.6);sun.position.set(40,60,20);sun.castShadow=true;
-sun.shadow.mapSize.set(1024,1024);sun.shadow.camera.left=-60;sun.shadow.camera.right=60;sun.shadow.camera.top=60;sun.shadow.camera.bottom=-60;scene.add(sun);
-
-function resize(){const r=canvas.parentElement.getBoundingClientRect();renderer.setSize(r.width,r.height,false);camera.aspect=r.width/r.height;camera.updateProjectionMatrix();}
-addEventListener('resize',resize);
-
-// ---------- world ----------
-const WORLD=72;
-const grassPatches=[],billboards=[],colliders=[];
-function mat(c){return new THREE.MeshLambertMaterial({color:c});}
-function box(w,h,d,c,x,z,y=0){const m=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),mat(c));m.position.set(x,y+h/2,z);m.castShadow=m.receiveShadow=true;scene.add(m);return m;}
-function label(text,x,y,z,size=2.2,color='#ffffff'){const cv=document.createElement('canvas');cv.width=512;cv.height=128;const g=cv.getContext('2d');g.fillStyle='rgba(0,0,0,.55)';g.fillRect(0,20,512,88);g.fillStyle=color;g.font='bold 52px sans-serif';g.textAlign='center';g.fillText(text,256,86);const t=new THREE.CanvasTexture(cv);const m=new THREE.Mesh(new THREE.PlaneGeometry(size*4,size),new THREE.MeshBasicMaterial({map:t,transparent:true}));m.position.set(x,y,z);scene.add(m);return m;}
-
-async function build(){
-  setLoad(.08,'painting Kanto terrain…');
-  const gnd=new THREE.Mesh(new THREE.PlaneGeometry(WORLD*2,WORLD*2),mat(0x5da24a));gnd.rotation.x=-Math.PI/2;gnd.receiveShadow=true;scene.add(gnd);
-  // zone plates
-  const zones=[
-    ['PALLET TOWN',-24,22,20,0xe8d8a0],['ROUTE 1',-24,8,16,0x7cc46a],['VIRIDIAN CITY',-24,-8,20,0xcfcfcf],
-    ['PEWTER CITY',-6,-22,18,0xc9a06a],['MT. MOON',14,-20,16,0x8d8d9e],['CERULEAN CITY',26,-6,20,0x9fd0ff],
-    ['ROUTE 21 · SURF',-24,32,10,0x3f8fd6],['INDIGO PLATEAU',22,22,16,0xd8d8e8]];
-  window._zones=zones;
-  for(const [n,x,z,s,c] of zones){const p=new THREE.Mesh(new THREE.PlaneGeometry(s,s),mat(c));p.rotation.x=-Math.PI/2;p.position.set(x,0.02,z);p.receiveShadow=true;scene.add(p);label(n,x,4,z,1.1);}
-  const zdiv=$('#zones');zdiv.innerHTML=zones.map(([n])=>`<div class="stat">${n}</div>`).join('');
-  // water
-  const water=new THREE.Mesh(new THREE.PlaneGeometry(14,10),new THREE.MeshLambertMaterial({color:0x2f7fe0,transparent:true,opacity:.9}));water.rotation.x=-Math.PI/2;water.position.set(-24,0.05,32);scene.add(water);
-  const water2=water.clone();water2.position.set(26,0.05,-6);water2.scale.set(1.4,1.2,1);scene.add(water2);
-  // paths
-  for(let i=0;i<9;i++) box(2.4,.12,2.4,0xd9c07a,-24,18-i*3,.02);
-  // houses
-  const houses=[['OAK LAB',-28,24,0x7a4a2b],['YOUR HOUSE',-20,25,0xb05252],['RIVAL HOUSE',-17,22,0x527ab0],['POKECENTER',-28,-6,0xd64545],['MART',-20,-9,0x3b5bd6],['PEWTER GYM',-6,-24,0x7777aa],['CERULEAN GYM',26,-9,0x4a90d9],['SAFARI GATE',10,10,0x6a8f3f]];
-  for(const [n,x,z,c] of houses){box(5,3,4,c,x,z);box(5.6,.9,4.6,0x8b2e2e,x,z,3);label(n,x,5.2,z,.85,'#ffcb05');colliders.push({x,z,r:3.4});}
-  // trees (instanced-ish loop, cheap)
-  const trunkG=new THREE.CylinderGeometry(.25,.35,1.6,6),leafG=new THREE.ConeGeometry(1.5,3,7);
-  const trunkM=mat(0x6b4423),leafM=mat(0x2f7d32);
-  for(let i=0;i<90;i++){const x=(Math.random()-.5)*120,z=(Math.random()-.5)*120;if(Math.abs(x+24)<14&&z>-2&&z<30)continue;const t=new THREE.Mesh(trunkG,trunkM);t.position.set(x,.8,z);scene.add(t);const l=new THREE.Mesh(leafG,leafM);l.position.set(x,2.8,z);l.castShadow=true;scene.add(l);}
-  // mountain + plateau
-  const mtn=new THREE.Mesh(new THREE.ConeGeometry(9,14,8),mat(0x6f6f85));mtn.position.set(14,7,-20);mtn.castShadow=true;scene.add(mtn);
-  for(let i=0;i<4;i++) box(12-i*2,1.2,12-i*2,0xb9bed6,22,22,1.2*i);
-  label('POKéMON LEAGUE',22,8,22,1.6,'#e3350d');
-  // tall grass patches
-  const gg=new THREE.PlaneGeometry(1.1,0.85);
-  for(let i=0;i<130;i++){const inR1=Math.random()<.6;const x=inR1?-24+(Math.random()-.5)*13:(Math.random()-.5)*100;const z=inR1?8+(Math.random()-.5)*13:(Math.random()-.5)*100;
-    const m=new THREE.Mesh(gg,new THREE.MeshLambertMaterial({color:0x2f9e2f,side:THREE.DoubleSide,transparent:true,opacity:.95}));m.position.set(x,.5,z);m.rotation.y=Math.random()*Math.PI;scene.add(m);grassPatches.push(m);
-    if(i%9===0){const m2=m.clone();m2.rotation.y+=Math.PI/2;m2.position.x+=.5;scene.add(m2);grassPatches.push(m2);}}
-  setLoad(.25,'pinning original sprites to 3D…');
-  // pokemon billboards with REAL pngs
-  const texLoader=new THREE.TextureLoader();texLoader.setCrossOrigin='anonymous';
-  const spots=[[-24,12],[-22,5],[-27,3],[-6,-16],[2,-14],[26,-1],[22,3],[10,14],[-18,20],[0,0],[8,-4],[-12,-12],[24,18],[30,-12],[-30,14],[4,24],[-10,24],[14,4],[20,-16],[-28,-14]];
-  POOL.slice(0,20).forEach((n,i)=>{const [x,z]=spots[i%spots.length];
-    const tex=texLoader.load(front(n),t=>{t.magFilter=THREE.NearestFilter;t.colorSpace=THREE.SRGBColorSpace;});
-    const spr=new THREE.Mesh(new THREE.PlaneGeometry(2.2,2.2),new THREE.MeshBasicMaterial({map:tex,transparent:true,alphaTest:.2,side:THREE.DoubleSide}));
-    spr.position.set(x+(Math.random()-.5)*3,1.4,z+(Math.random()-.5)*3);spr.userData={name:n,base:1.4,ph:Math.random()*6};scene.add(spr);billboards.push(spr);
-    const sh=new THREE.Mesh(new THREE.CircleGeometry(1,.9,16),new THREE.MeshBasicMaterial({color:0x000000,transparent:true,opacity:.25}));sh.rotation.x=-Math.PI/2;sh.position.set(spr.position.x,.03,spr.position.z);scene.add(sh);});
-  // trainers with REAL sprites
-  for(const [f,x,z] of [['rival1',-23,21],['brock',-6,-20],['misty',26,-8],['prof.oak',-28,23]]){
-    const t=texLoader.load(`pokered-master/gfx/trainers/${f}.png`,t2=>{t2.magFilter=THREE.NearestFilter;t2.colorSpace=THREE.SRGBColorSpace;});
-    const m=new THREE.Mesh(new THREE.PlaneGeometry(2,2.6),new THREE.MeshBasicMaterial({map:t,transparent:true,alphaTest:.2,side:THREE.DoubleSide}));m.position.set(x,1.4,z);m.userData={name:f};scene.add(m);billboards.push(m);}
-  // player avatar
-  const p=new THREE.Group();
-  const body=new THREE.Mesh(new THREE.BoxGeometry(.9,1.1,.55),mat(0xe3350d));body.position.y=.85;body.castShadow=true;p.add(body);
-  const head=new THREE.Mesh(new THREE.SphereGeometry(.42,14,12),mat(0xffd9b3));head.position.y=1.8;head.castShadow=true;p.add(head);
-  const cap=new THREE.Mesh(new THREE.SphereGeometry(.44,14,8,0,Math.PI*2,0,Math.PI/2),mat(0xe3350d));cap.position.y=1.86;p.add(cap);
-  const brim=new THREE.Mesh(new THREE.BoxGeometry(.7,.08,.4),mat(0xe3350d));brim.position.set(0,1.88,.5);p.add(brim);
-  const pack=new THREE.Mesh(new THREE.BoxGeometry(.6,.7,.3),mat(0x2f6f2f));pack.position.set(0,.9,-.45);p.add(pack);
-  p.position.set(-24,0,16);scene.add(p);window._player=p;
-  // start ball
-  const ball=new THREE.Mesh(new THREE.SphereGeometry(.32,14,12),new THREE.MeshLambertMaterial({color:0xe3350d}));ball.position.set(-22,1,22);scene.add(ball);window._ball=ball;
-  resize();
+// ---------- original-data paths (never modified, fetched as-is) ----------
+const P={
+  player:'pokered-master/gfx/sprites/red.png',
+  front:n=>`pokered-master/gfx/pokemon/front/${n.toLowerCase()}.png`,
+  base:n=>`pokered-master/data/pokemon/base_stats/${n.toLowerCase()}.asm`,
+  wild:map=>`pokered-master/data/wild/maps/${map}.asm`,
+};
+const MAPS={
+  PalletTown:{blk:'pokered-master/maps/PalletTown.blk',w:10,h:9,set:'overworld',spawn:{x:8,y:6}},
+  Route1:{blk:'pokered-master/maps/Route1.blk',w:10,h:18,set:'overworld',spawn:{x:4,y:16}},
+  ViridianCity:{blk:'pokered-master/maps/ViridianCity.blk',w:20,h:18,set:'overworld',spawn:{x:9,y:16}},
+  ViridianForest:{blk:'pokered-master/maps/ViridianForest.blk',w:17,h:24,set:'forest',spawn:{x:18,y:42}},
+};
+const WALKABLE=new Set([1,10,11,26,27,28,47,48,49,50,51,52,81,97,110,111,116]);
+const GRASS_BLOCKS=new Set([49,52,116]);
+const WALK_F=new Set([1,6,7,20,21,22,24,27,33,41,53,55,57,59,73,88]);
+const GRASS_F=new Set([6,7,33,41,53,55,57,59]);
+function walkSet(){return S.map==='ViridianForest'?WALK_F:WALKABLE;}
+function grassSet(){return S.map==='ViridianForest'?GRASS_F:GRASS_BLOCKS;}
+const NATIONAL_RARES=[
+  {sp:'SCYTHER',lvl:5},{sp:'PINSIR',lvl:5},{sp:'HERACROSS',lvl:5},{sp:'MURKROW',lvl:4},
+  {sp:'HOUNDOUR',lvl:4},{sp:'MAREEP',lvl:3},{sp:'WOOPER',lvl:3},{sp:'SNUBBULL',lvl:4},
+  {sp:'SHUCKLE',lvl:5},{sp:'SLUGMA',lvl:4},{sp:'PINECO',lvl:3},{sp:'GLIGAR',lvl:5},
+];
+const REGIONS=[
+  {id:'Johto',dex:'original-johto',seed:11,tint:null,blurb:'JOHTO: 100 new friends.'},
+  {id:'Hoenn',dex:'hoenn',seed:22,tint:'rgba(20,90,160,.10)',blurb:'HOENN: land meets sea. Big water.'},
+  {id:'Sinnoh',dex:'original-sinnoh',seed:33,tint:'rgba(150,200,255,.14)',blurb:'SINNOH: cold north winds.'},
+  {id:'Hisui',dex:'hisui',seed:44,tint:'rgba(220,150,60,.12)',blurb:'HISUI: ancient wilds.'},
+  {id:'Paldea',dex:'paldea',seed:55,tint:'rgba(255,220,120,.10)',blurb:'PALDEA: sunny open skies.'},
+  {id:'Kitakami',dex:'kitakami',seed:66,tint:'rgba(40,160,140,.10)',blurb:'KITAKAMI: mountain festival land.'},
+  {id:'Blueberry',dex:'blueberry',seed:77,tint:'rgba(60,120,255,.12)',blurb:'BLUEBERRY: terrarium dome.'},
+];
+const GENBLK={},regionPool={};
+function srand(seed){let s=seed;return()=>((s=(s*1103515245+12345)&0x7fffffff)/0x7fffffff);}
+function genRegionMap(R){
+  const w=20,h=18,blk=new Uint8Array(w*h),rnd=srand(R.seed);
+  const TREE=[77,78,79,80,81,82];
+  for(let y=0;y<h;y++)for(let x=0;x<w;x++)
+    blk[y*w+x]=(x===0||y===0||x===w-1||y===h-1)?TREE[Math.floor(rnd()*TREE.length)]:1;
+  for(let x=1;x<w-1;x++){blk[8*w+x]=10;blk[9*w+x]=11;}
+  for(let y=1;y<h-1;y++){blk[y*w+9]=10;blk[y*w+10]=11;}
+  const big=R.id==='Hoenn'||R.id==='Blueberry';
+  for(let i=0;i<(big?3:1);i++){
+    const px0=2+Math.floor(rnd()*11),py0=2+Math.floor(rnd()*9);
+    for(let y=0;y<4;y++)for(let x=0;x<5;x++)
+      if(rnd()<.6){const X=px0+x,Y=py0+y;if(X>0&&Y>0&&X<w-1&&Y<h-1)blk[Y*w+X]=rnd()<.5?29:30;}
+  }
+  for(let i=0;i<26;i++){const gx=1+Math.floor(rnd()*(w-2)),gy=1+Math.floor(rnd()*(h-2));
+    for(let k=0;k<4;k++){const x=gx+Math.floor(rnd()*3)-1,y=gy+Math.floor(rnd()*3)-1;
+      if(x>0&&y>0&&x<w-1&&y<h-1&&blk[y*w+x]===1)blk[y*w+x]=rnd()<.7?49:116;}}
+  const house=(hx,hy)=>{blk[hy*w+hx]=56;blk[hy*w+hx+1]=57;blk[(hy+1)*w+hx]=60;blk[(hy+1)*w+hx+1]=61;};
+  house(3,3);house(14,12);
+  GENBLK[R.id]=blk;
+  MAPS[R.id]={blk:null,w,h,set:'overworld',gen:true,spawn:{x:19,y:20},region:R};
+}
+async function regionPoolFor(R){
+  if(regionPool[R.id])return regionPool[R.id];
+  const j=await(await fetch('https://pokeapi.co/api/v2/pokedex/'+R.dex)).json();
+  const es=j.pokemon_entries,rows=[];
+  for(let i=0;i<12;i++){
+    const e=es[Math.floor(i*es.length/12)];
+    rows.push({sp:e.pokemon_species.name.toUpperCase().replace(/-/g,'_'),lvl:3+(i%6)});
+  }
+  return regionPool[R.id]={rate:18,rows};
 }
 
-// ---------- camera follow + orbit ----------
-let yaw=.35,pitch=.42,dist=15,dragging=false,lx=0,ly=0;
-canvas.addEventListener('pointerdown',e=>{dragging=true;lx=e.clientX;ly=e.clientY;canvas.setPointerCapture(e.pointerId);});
-canvas.addEventListener('pointermove',e=>{if(!dragging)return;yaw-=(e.clientX-lx)*.006;pitch=Math.min(1.2,Math.max(.15,pitch+(e.clientY-ly)*.005));lx=e.clientX;ly=e.clientY;});
-canvas.addEventListener('pointerup',()=>dragging=false);
-canvas.addEventListener('wheel',e=>{dist=Math.min(30,Math.max(5,dist+e.deltaY*.01));},{passive:true});
+// ---------- state ----------
+const S={map:'PalletTown',px:8,py:6,fx:0,fy:-1,frame:0,moving:false,stepT:0,wilds:[],party:[],money:300,starter:null,rival:null,bag:{poke:10},ball:'poke',meds:{potion:0,super:0,hyper:0,max:0},stones:{},balls:10,battle:null,foottrail:[],statsCache:{},mapCache:{},talkCd:0,seen:new Set(),cut:{},bpos:null,spark:null,taken:null,bike:false,hmCut:false};
+
+// ---------- helpers ----------
+async function buf(url){const r=await fetch(url);if(!r.ok)throw new Error('missing '+url);return new Uint8Array(await r.arrayBuffer());}
+function img(url){return new Promise((res,rej)=>{const i=new Image();i.onload=()=>res(i);i.onerror=rej;i.src=url;});}
+function parseStats(t){const m=t.match(/db\s+(\d+),\s*(\d+),\s*(\d+),\s*(\d+),\s*(\d+)/);const c=t.match(/db\s+(\d+)\s*;\s*catch rate/i);return{hp:+m?.[1]||45,atk:+m?.[2]||49,def:+m?.[3]||49,spd:+m?.[4]||45,spc:+m?.[5]||65,catch:+(c?.[1]||45)};}
+async function stats(n){n=n.toLowerCase();if(S.statsCache[n])return S.statsCache[n];
+  try{const r=await fetch(P.base(n));const t=await r.text();if(!r.ok||t.startsWith('Not found'))throw 0;return S.statsCache[n]=parseStats(t);}
+  catch{try{const m=await apiMon(n);const sp=await apiSpecies(n).catch(()=>null);
+    return S.statsCache[n]={hp:m.stats.hp,atk:m.stats.attack,def:m.stats.defense,spd:m.stats.speed,spc:m.stats['special-attack'],catch:spc?spc.capture:45};
+  }catch{return S.statsCache[n]={hp:45,atk:49,def:49,spd:45,spc:65,catch:45};}}}
+function parseWilds(t){const rate=(t.match(/def_grass_wildmons\s+(\d+)/)||[])[1]||10;const rows=[...t.matchAll(/db\s+(\d+),\s*([A-Z_]+)/g)].map(m=>({lvl:+m[1],sp:m[2]}));return{rate:+rate,rows};}
+const nice=s=>String(s).toLowerCase().replace(/_/g,' ');
+
+// ---------- tiles: ORIGINAL tilesets, colorized per-block (also used as 3D textures) ----------
+const GB={gb:['#9bbc0f','#8bac0f','#306230','#0f380f'],gray:['#ffffff','#aaaaaa','#555555','#000000']};
+let pal=GB.gb;
+const TILE=16, BLOCK=32;
+const C={GRASS_LT:[125,200,75],GRASS_DK:[70,160,60],TUFT:[55,145,55],MOSS:[70,150,65],
+  PATH:[228,198,138],PATH_DK:[200,170,115],STAIR:[212,192,150],
+  TREE:[45,125,55],TREE_DK:[30,95,45],
+  ROOF:[220,75,60],ROOF_DK:[160,55,50],WALL:[238,224,196],WINDOW:[130,170,215],
+  WOOD:[175,130,85],WOOD_DK:[125,90,60],STONE:[185,185,178],STONEDK:[120,125,120],DOOR:[125,85,55],MAT:[95,95,115],
+  CARPET:[205,65,65],HEDGE:[55,135,65],SAGE:[135,178,92],PALET:[200,205,170],
+  WATER:[65,145,235],FOAM:[235,245,255],SHORE:[232,216,160],
+  FLOWER:[235,95,105],FLOWER2:[245,230,120]};
+const TREEB=new Set([77,78,79,80,81,82,97,98,99]);
+const PATHB=new Set([10,11,26,28,47,110,111]);
+const WATERB=new Set([29,30,100,101]);
+const ROOFB=new Set([12,13,14,56,57]);
+function blockCat(b){if(TREEB.has(b))return 'tree';if(PATHB.has(b))return 'path';if(WATERB.has(b))return 'water';if(ROOFB.has(b))return 'roof';return 'ground';}
+function tileBase(cat,t,set){
+  if(set==='forest')return tileBaseF(t);
+  switch(t){
+    case 3:return C.FLOWER; case 20:return C.WATER; case 84:return C.FOAM; case 50: case 51:return C.SHORE;
+    case 42: case 43: case 58: case 59:return C.TREE;
+    case 5: case 6: case 7: case 21: case 22:return C.ROOF; case 8: case 9:return C.ROOF_DK;
+    case 23: case 24: case 25: case 83:return C.WALL; case 18: case 78:return C.WINDOW;
+    case 37: case 38: case 10: case 11: case 12: case 40: case 41:return C.WOOD;
+    case 27: case 28: case 75: case 31: case 79: case 86: case 87:return C.STONE;
+    case 34:return C.HEDGE; case 92: case 93:return C.DOOR; case 70: case 71:return C.MAT;
+    case 85: case 14:return C.CARPET;
+    case 64: case 65: case 80: case 81:return C.PATH_DK; case 54: case 55:return C.WOOD;
+    case 52: case 60:return C.STAIR; case 35:return C.GRASS_LT; case 57:return C.TUFT;
+    case 90: case 91: case 94: case 95:return C.PALET;
+    case 44:return cat==='tree'?C.MOSS:cat==='path'?C.PATH:C.GRASS_LT;
+    default:return C.SAGE;
+  }
+}
+function tileBaseF(t){
+  switch(t){
+    case 48: case 32:return C.GRASS_LT;
+    case 2: case 3:return C.TUFT;
+    case 18: case 19:return C.HEDGE;
+    case 0: case 4: case 5: case 6: case 7: case 21: case 22: case 23:
+    case 35: case 36: case 37: case 38: case 39: case 53: case 54:return C.TREE;
+    case 52:return C.PATH; case 55:return C.WOOD;
+    case 33: case 34:return C.WOOD; case 49: case 50:return C.STONE;
+    default:return C.SAGE;
+  }
+}
+const blockSprCache={};
+function blockSprite(bid,set){
+  const ck=set+':'+bid;
+  if(blockSprCache[ck])return blockSprCache[ck];
+  const T=TS[set],cat=set==='forest'?'ground':blockCat(bid%128),base=(bid%128)*16;
+  const c=document.createElement('canvas');c.width=BLOCK;c.height=BLOCK;
+  const g=c.getContext('2d'),out=g.createImageData(BLOCK,BLOCK),px=out.data;
+  for(let ty=0;ty<4;ty++)for(let tx=0;tx<4;tx++){
+    const tid=T.bst[base+ty*4+tx]||0, col=tileBase(cat,tid,set), lum=T.lum[tid];
+    for(let py=0;py<8;py++)for(let pxx=0;pxx<8;pxx++){
+      const L=lum[py*8+pxx]/255, o=((ty*8+py)*BLOCK+(tx*8+pxx))*4;
+      px[o]=Math.min(255,col[0]*L+18*L);px[o+1]=Math.min(255,col[1]*L+18*L);px[o+2]=Math.min(255,col[2]*L+10*L);px[o+3]=255;
+    }
+  }
+  g.putImageData(out,0,0);blockSprCache[ck]=c;return c;
+}
+const TSDEF={overworld:{png:'pokered-master/gfx/tilesets/overworld.png',bst:'pokered-master/gfx/blocksets/overworld.bst'},forest:{png:'pokered-master/gfx/tilesets/forest.png',bst:'pokered-master/gfx/blocksets/forest.bst'}};
+const TS={};
+let tileImg=null,bst=null;
+let redImg=null;
+async function loadRed(){
+  try{
+    const raw=await img(P.player);
+    const c=document.createElement('canvas');c.width=raw.width;c.height=raw.height;
+    c.getContext('2d').drawImage(raw,0,0);
+    redImg=edgeClearWhite(c);
+  }catch{redImg=null;}
+}
+async function loadTiles(){
+  for(const set of Object.keys(TSDEF)){
+    const raw=await img(TSDEF[set].png);
+    const rc=document.createElement('canvas');rc.width=raw.width;rc.height=raw.height;
+    const rg=rc.getContext('2d',{willReadFrequently:true});rg.drawImage(raw,0,0);
+    const rd=rg.getImageData(0,0,rc.width,rc.height).data;
+    const lum=[];
+    for(let t=0;t<96;t++){const arr=[];const tx0=(t%16)*8,ty0=Math.floor(t/16)*8;
+      for(let y=0;y<8;y++)for(let x=0;x<8;x++){const k=((ty0+y)*rc.width+(tx0+x))*4;arr.push((rd[k]+rd[k+1]+rd[k+2])/3);}
+      lum.push(arr);}
+    TS[set]={raw:rc,lum,bst:await buf(TSDEF[set].bst)};
+  }
+  tileImg=TS.overworld.raw;bst=TS.overworld.bst;
+}
+async function getMap(name){
+  if(S.mapCache[name])return S.mapCache[name];
+  const M=MAPS[name];
+  const blk=M.gen?GENBLK[name]:await buf(M.blk);
+  const cv=document.createElement('canvas');cv.width=M.w*BLOCK;cv.height=M.h*BLOCK;
+  const g=cv.getContext('2d');g.imageSmoothingEnabled=false;
+  const set=M.set||'overworld';
+  for(let by=0;by<M.h;by++)for(let bx=0;bx<M.w;bx++)
+    g.drawImage(blockSprite(blk[by*M.w+bx],set),bx*BLOCK,by*BLOCK);
+  if(M.region&&M.region.tint){g.fillStyle=M.region.tint;g.fillRect(0,0,cv.width,cv.height);}
+  const rec={cv,blk,w:M.w,h:M.h};
+  S.mapCache[name]=rec;return rec;
+}
+function blockAt(map,bx,by){const M=S.mapCache[map];if(!M)return 0;if(bx<0||by<0||bx>=M.w||by>=M.h)return -1;return M.blk[by*M.w+bx];}
+function walkable(bid){return walkSet().has(bid);}
+
+// ---------- PokeAPI (fair-use: cached, on-demand) ----------
+const SLUG={nidoranf:'nidoran-f',nidoranm:'nidoran-m',mrmime:'mr-mime',farfetchd:'farfetchd',hooh:'ho-oh'};
+const slug=n=>{const s=String(n).toLowerCase();return SLUG[s.replace(/_/g,'')]||s;};
+const apiCache={mon:{},species:{},move:{},type:{},evo:{}};
+try{const old=JSON.parse(localStorage.getItem('pokeapi-v5')||'null');if(old)Object.assign(apiCache,old);}catch{}
+function apiSave(){try{localStorage.setItem('pokeapi-v5',JSON.stringify(apiCache));}catch{}}
+async function apiMon(name){
+  const s=slug(name);
+  if(apiCache.mon[s])return apiCache.mon[s];
+  const r=await fetch('https://pokeapi.co/api/v2/pokemon/'+s);
+  if(!r.ok)throw new Error('pokeapi '+r.status);
+  const j=await r.json();
+  const st={};for(const t of j.stats)st[t.stat.name]=t.base_stat;
+  const ef={};for(const t of j.stats)ef[t.stat.name]=t.effort||0;
+  const held=(j.held_items||[]).map(h=>{const rs=h.version_details.map(v=>v.rarity||0);const top=rs.length?Math.max(...rs):0;return{name:h.item.name,chance:Math.min(50,Math.max(1,Math.round(top/255*100)))};});
+  const rbMoves=j.moves.flatMap(m=>m.version_group_details
+    .filter(v=>v.version_group.name==='red-blue'&&v.move_learn_method.name==='level-up')
+    .map(v=>({name:m.move.name,lvl:v.level_learned_at,url:m.move.url})))
+    .sort((a,b)=>a.lvl-b.lvl).slice(0,4);
+  const slim={id:j.id,name:j.name,types:j.types.map(t=>t.type.name),h:j.height,w:j.weight,
+    ab:j.abilities.filter(a=>!a.is_hidden).map(a=>a.ability.name),stats:st,effort:ef,held,enc:j.location_area_encounters||null,cry:`https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/${j.id}.ogg`,
+    moves:rbMoves.length?rbMoves:[{name:'tackle',lvl:1,url:'https://pokeapi.co/api/v2/move/33/'}],
+    rb:j.sprites?.versions?.['generation-i']?.['red-blue']?.front_default||null,
+    modern:j.sprites?.front_default||null,
+    modernShiny:j.sprites?.front_shiny||null,
+    homeShiny:j.sprites?.other?.home?.front_shiny||null,
+    showdown:j.sprites?.other?.showdown?.front_default||null,
+    icon:`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/${j.id}.png`};
+  apiCache.mon[s]=slim;apiSave();return slim;
+}
+async function apiSpecies(name){
+  const s=slug(name);
+  if(apiCache.species[s])return apiCache.species[s];
+  const j=await(await fetch('https://pokeapi.co/api/v2/pokemon-species/'+s)).json();
+  const red=j.flavor_text_entries.find(f=>f.version.name==='red')||j.flavor_text_entries.find(f=>f.language.name==='en');
+  const slim={flavor:(red?red.flavor_text:'').replace(/[\n\f\r]+/g,' '),genera:(j.genera.find(g=>g.language.name==='en')||{}).genus||'',
+    capture:j.capture_rate,growth:j.growth_rate.name,evo:j.evolution_chain.url};
+  apiCache.species[s]=slim;apiSave();return slim;
+}
+async function apiEvoFor(name){
+  const s=slug(name);
+  if(apiCache.evo[s])return apiCache.evo[s];
+  const sp=await apiSpecies(name);
+  const chain=await(await fetch(sp.evo)).json();
+  let out=null;
+  const walk=(n,from)=>{if(n.species.name===s){const e=n.evolves_to[0];if(e){const det=e.evolution_details[0]||{};out={to:e.species.name,lvl:det.min_level||'?',trigger:(det.trigger||{}).name||'level-up',item:(det.item||{}).name||null};}return true;}
+    for(const e of n.evolves_to)if(walk(e,n))return true;return false;};
+  walk(chain.chain,null);
+  apiCache.evo[s]=out;apiSave();return out;
+}
+async function apiMove(url){
+  if(apiCache.move[url])return apiCache.move[url];
+  const j=await(await fetch(url)).json();
+  const m={name:j.name,power:j.power,acc:j.accuracy||100,type:j.type.name,pp:j.pp||35,dc:j.damage_class.name};
+  apiCache.move[url]=m;apiSave();return m;
+}
+async function apiEnc(url){
+  if(!url)return [];
+  if(apiCache.enc?.[url])return apiCache.enc[url];
+  try{const j=await(await fetch(url)).json();
+    const areas=[...new Set(j.map(e=>e.location_area.name.replace(/-area$/,'').replace(/-/g,' ')))].slice(0,6);
+    (apiCache.enc=apiCache.enc||{})[url]=areas;apiSave();return areas;
+  }catch{return[];}
+}
+async function apiType(name){
+  if(apiCache.type[name])return apiCache.type[name];
+  const j=await(await fetch('https://pokeapi.co/api/v2/type/'+name)).json();
+  const r=j.damage_relations,t={no:[],half:[],double:[]};
+  for(const x of r.no_damage_to)t.no.push(x.name);
+  for(const x of r.half_damage_to)t.half.push(x.name);
+  for(const x of r.double_damage_to)t.double.push(x.name);
+  apiCache.type[name]=t;apiSave();return t;
+}
+async function effectiveness(moveType,foeTypes){
+  const t=await apiType(moveType);
+  let m=1;for(const f of foeTypes){if(t.no.includes(f))m*=0;else if(t.half.includes(f))m*=.5;else if(t.double.includes(f))m*=2;}
+  return m;
+}
+async function apiItem(id){
+  if(apiCache.item?.[id])return apiCache.item[id];
+  try{const j=await(await fetch('https://pokeapi.co/api/v2/item/'+id)).json();
+    const o={sprite:j.sprites?.default||null,cost:j.cost||0};
+    (apiCache.item=apiCache.item||{})[id]=o;apiSave();return o;
+  }catch{return{sprite:null,cost:0};}
+}
+let muted=false;
+function cry(name){if(muted)return;apiMon(name).then(m=>{try{const a=new Audio(m.cry);a.volume=.35;const p=a.play();if(p)p.catch(()=>{});}catch{}}).catch(()=>{});}
+$('#btn-mute').onclick=e=>{muted=!muted;e.target.textContent=muted?'sound: off':'sound: on';};
+
+// ---------- sprites (originals + PokeAPI + PokemonDB + sheets) ----------
+function sprMode(){const el=document.querySelector('#o-spr');return el?el.value:'modern';}
+function edgeClearWhite(c){
+  const g=c.getContext('2d',{willReadFrequently:true});
+  const d=g.getImageData(0,0,c.width,c.height),px=d.data,W=c.width,H=c.height;
+  const seen=new Uint8Array(W*H),stack=[[0,0],[W-1,0],[0,H-1],[W-1,H-1]];
+  const white=k=>px[k]>235&&px[k+1]>235&&px[k+2]>235;
+  while(stack.length){const [x,y]=stack.pop();
+    if(x<0||y<0||x>=W||y>=H||seen[y*W+x])continue;
+    seen[y*W+x]=1;const k=(y*W+x)*4;
+    if(!white(k))continue;
+    px[k+3]=0;stack.push([x+1,y],[x-1,y],[x,y+1],[x,y-1]);
+  }
+  g.putImageData(d,0,0);return c;
+}
+const wimgCache={},wurlCache={};
+async function wimg(sp,shiny){
+  sp=sp.toLowerCase();
+  const mode=sprMode(),ck=mode+(shiny?':sh':'')+':'+sp;
+  if(wimgCache[ck])return wimgCache[ck];
+  let i=null;
+  try{
+    if(mode==='local'){
+      const raw=await img(P.front(sp)).catch(()=>null);
+      if(raw){
+        const c=document.createElement('canvas');c.width=raw.width;c.height=raw.height;
+        c.getContext('2d').drawImage(raw,0,0);
+        i=edgeClearWhite(c);
+      }else{try{const m=await apiMon(sp);if(m.modern)i=await img(m.modern);}catch{}}
+    }else{
+      const meta=await apiMon(sp);
+      if(mode==='icon'){
+        const url=meta.icon||`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/${meta.id}.png`;
+        const blob=await(await fetch(url)).blob();
+        const bmp=await createImageBitmap(blob);
+        const c=document.createElement('canvas');c.width=bmp.width;c.height=bmp.height;
+        c.getContext('2d').drawImage(bmp,0,0);i=c;
+      }else if(mode==='anim'){
+        const url=(shiny&&meta.showdown?meta.showdown.replace('/132.','/shiny/132.'):(meta.showdown||meta.modern));
+        if(!url)throw new Error('no sprite');
+        i=await img(url);
+      }else if(mode==='db-rb'||mode==='db-home'){
+        const base='https://img.pokemondb.net/sprites/'+(mode==='db-rb'?'red-blue/normal':'home/normal')+'/'+slug(sp)+'.png';
+        const im=await img(base);
+        if(mode==='db-rb')im._mul=true;
+        i=im;
+      }else if(mode==='sheet'){
+        const idx=await sheetIndex();
+        const set=idx.sets[idx.active];
+        if(!set||!set.order||!set.order.includes(slug(sp)))throw new Error('no sheet cell');
+        const cell=set.order.indexOf(slug(sp)),sh=await img('sheets/'+set.file);
+        const cw=set.cell,sx=(cell%set.cols)*cw,sy=Math.floor(cell/set.cols)*cw;
+        const c=document.createElement('canvas');c.width=cw;c.height=cw;
+        c.getContext('2d').drawImage(sh,sx,sy,cw,cw,0,0,cw,cw);i=c;
+      }else{
+        const meta2=meta;
+        let url=mode==='rb'?meta2.rb:meta2.modern;
+        if(shiny)url=(mode==='rb'?null:meta2.modernShiny)||url;
+        if(!url)throw new Error('no sprite');
+        if(mode==='rb'){
+          const blob=await(await fetch(url)).blob();
+          const bmp=await createImageBitmap(blob);
+          const c=document.createElement('canvas');c.width=bmp.width;c.height=bmp.height;
+          c.getContext('2d').drawImage(bmp,0,0);i=edgeClearWhite(c);
+        }
+        else i=await img(url);
+      }
+    }
+  }catch{i=null;}
+  wimgCache[ck]=i;return i;
+}
+async function wimgURL(sp,shiny){sp=sp.toLowerCase();const ck=sprMode()+(shiny?':sh':'')+':'+sp;if(wurlCache[ck])return wurlCache[ck];const c=await wimg(sp,shiny);const u=c?(c.toDataURL?c.toDataURL():c.src):P.front(sp);wurlCache[ck]=u;return u;}
+const sheetCache={idx:null};
+async function sheetIndex(){
+  if(sheetCache.idx)return sheetCache.idx;
+  const idx=await(await fetch('sheets/index.json')).json();
+  return sheetCache.idx=idx;
+}
+
+// ---------- THREE.js scene ----------
+const canvas=$('#scene');
+const renderer=new THREE.WebGLRenderer({canvas,antialias:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));
+renderer.shadowMap.enabled=true;
+renderer.shadowMap.type=THREE.PCFShadowMap;
+const scene=new THREE.Scene();
+scene.background=new THREE.Color(0x87bfe8);
+scene.fog=new THREE.Fog(0x9fcbe8,60,170);
+const camera=new THREE.PerspectiveCamera(55,1,0.1,600);
+scene.add(new THREE.HemisphereLight(0xcfe5ff,0x3d7a3d,0.95));
+const sun=new THREE.DirectionalLight(0xfff2cc,1.7);
+sun.position.set(40,70,25);sun.castShadow=true;
+sun.shadow.mapSize.set(1024,1024);
+sun.shadow.camera.left=-60;sun.shadow.camera.right=60;sun.shadow.camera.top=60;sun.shadow.camera.bottom=-60;
+scene.add(sun);
+function resize(){const w=innerWidth,h=innerHeight;renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix();}
+addEventListener('resize',resize);resize();
+const CELL=2, PX2W=1/8; // world units: 1 cell = 2u; px/8
+const texCache={};
+function blockTex(bid,set){
+  const ck=set+':'+bid;
+  if(texCache[ck])return texCache[ck];
+  const t=new THREE.CanvasTexture(blockSprite(bid,set));
+  t.magFilter=THREE.NearestFilter;t.colorSpace=THREE.SRGBColorSpace;
+  texCache[ck]=t;return t;
+}
+function blockHeight(set,bid){
+  bid=bid%128;
+  if(set==='forest')return bid===2?2.6:0.3;
+  if(bid===29||bid===30||bid===100||bid===101)return 0.12;
+  if(TREEB.has(bid)||bid===97||bid===98||bid===99)return 2.2;
+  if(ROOFB.has(bid))return 2.0;
+  if(bid===60||bid===61||bid===8||bid===16||bid===58)return 1.6;
+  return 0.3;
+}
+const MATS={};
+function matFor(color){
+  const k=color.join(',');
+  if(!MATS[k])MATS[k]=new THREE.MeshLambertMaterial({color:new THREE.Color(color[0]/255,color[1]/255,color[2]/255)});
+  return MATS[k];
+}
+const worldGroups={};
+const unitBox=new THREE.BoxGeometry(1,1,1);
+function buildWorld3D(name){
+  if(worldGroups[name])return worldGroups[name];
+  const M=S.mapCache[name],set=MAPS[name].set||'overworld';
+  const grp=new THREE.Group();
+  const U=CELL*2; // block size in units
+  for(let by=0;by<M.h;by++)for(let bx=0;bx<M.w;bx++){
+    const bid=M.blk[by*M.w+bx];
+    const hgt=blockHeight(set,bid);
+    const tex=blockTex(bid,set);
+    const m=new THREE.Mesh(unitBox,new THREE.MeshLambertMaterial({map:tex}));
+    m.scale.set(U,hgt,U);
+    m.position.set(bx*U+U/2,hgt/2,by*U+U/2);
+    m.receiveShadow=true;
+    grp.add(m);
+    if(hgt>1.2&&(ROOFB.has(bid%128)||(set==='forest'&&bid%128===2))){m.castShadow=true;}
+  }
+  // water shimmer plane
+  grp.userData.set=set;
+  scene.add(grp);worldGroups[name]=grp;return grp;
+}
+function showMap(name){
+  for(const k of Object.keys(worldGroups))worldGroups[k].visible=(k===name);
+  buildWorld3D(name);worldGroups[name].visible=true;
+  const M=S.mapCache[name],U=CELL*2;
+  sun.position.set(M.w*U/2+40,70,M.h*U/2+25);
+  sun.target.position.set(M.w*U/2,0,M.h*U/2);sun.target.updateMatrixWorld();
+}
+// player avatar
+const playerG=new THREE.Group();
+{
+  const body=new THREE.Mesh(new THREE.BoxGeometry(.9,1.1,.55),new THREE.MeshLambertMaterial({color:0xe3350d}));body.position.y=.85;body.castShadow=true;playerG.add(body);
+  const head=new THREE.Mesh(new THREE.SphereGeometry(.42,14,12),new THREE.MeshLambertMaterial({color:0xffd9b3}));head.position.y=1.8;head.castShadow=true;playerG.add(head);
+  const cap=new THREE.Mesh(new THREE.SphereGeometry(.44,14,8,0,Math.PI*2,0,Math.PI/2),new THREE.MeshLambertMaterial({color:0xe3350d}));cap.position.y=1.86;playerG.add(cap);
+  const pack=new THREE.Mesh(new THREE.BoxGeometry(.6,.7,.3),new THREE.MeshLambertMaterial({color:0x2f6f2f}));pack.position.set(0,.9,-.45);playerG.add(pack);
+  scene.add(playerG);
+}
+function playerWorld(){return {x:S.px*PX2W*8/8*2/2+S.px*0, z:0};}
+function cellToWorld(cx,cy){return {x:cx*CELL, z:cy*CELL};}
+// camera orbit
+let yaw=.9,pitch=.62,dist=20,dragging=false,lx=0,ly=0;
+canvas.addEventListener('pointerdown',e=>{dragging=true;lx=e.clientX;ly=e.clientY;});
+addEventListener('pointermove',e=>{if(!dragging)return;yaw-=(e.clientX-lx)*.006;pitch=Math.min(1.25,Math.max(.15,pitch+(e.clientY-ly)*.005));lx=e.clientX;ly=e.clientY;});
+addEventListener('pointerup',()=>dragging=false);
+canvas.addEventListener('wheel',e=>{dist=Math.min(34,Math.max(6,dist+e.deltaY*.01));},{passive:true});
+
+// ---------- sprites in 3D (billboards from the exact same art) ----------
+function texOf(im,linear){
+  let t;
+  if(im instanceof HTMLCanvasElement){t=new THREE.CanvasTexture(im);}
+  else{t=new THREE.Texture(im);t.needsUpdate=true;}
+  t.magFilter=linear?THREE.LinearFilter:THREE.NearestFilter;
+  t.colorSpace=THREE.SRGBColorSpace;
+  return t;
+}
+function makeBillboard(im,h=2.2,linear){
+  const iw=im.naturalWidth||im.width,ih=im.naturalHeight||im.height;
+  const k=h/Math.max(1,ih);
+  const m=new THREE.SpriteMaterial({map:texOf(im,linear),transparent:true,alphaTest:.15,depthWrite:false});
+  if(im._mul)m.blending=THREE.MultiplyBlending;
+  const s=new THREE.Sprite(m);
+  s.scale.set(Math.max(.6,iw*k),h,1);
+  return s;
+}
+const NPCS={
+  PalletTown:[
+    {key:'oak',file:'oak.png',cx:10,cy:7,fx:0,fy:1,line:"OAK: Hey! Wait! Don't go out! Waiting for a starter? (flavor)"},
+    {key:'girl',file:'girl.png',cx:4,cy:7,fx:0,fy:1,line:"I'm raising #MON too! (text/PalletTown.asm)"},
+    {key:'fisher',file:'fisher.png',cx:8,cy:14,fx:-1,fy:0,battle:'fisher',sight:3,line:"Technology is incredible! (text/PalletTown.asm)"},
+  ],
+  Route1:[
+    {key:'boy',file:'little_boy.png',cx:6,cy:20,fx:0,fy:-1,line:"I saw a PIDGEY in the tall grass! (flavor)"},
+    {key:'girl2',file:'little_girl.png',cx:12,cy:10,fx:0,fy:1,line:"RATTATA is cute but bitey! (flavor)"},
+  ],
+  ViridianCity:[
+    {key:'blue',file:'blue.png',cx:18,cy:20,fx:0,fy:1,battle:'blue',sight:4,line:"BLUE: Smell ya later! I'll be the greatest! (flavor)"},
+    {key:'guide',file:'gym_guide.png',cx:25,cy:28,fx:0,fy:-1,line:"GUIDE: Brock uses rock types. Bring water or grass! (flavor)"},
+  ],
+  ViridianForest:[
+    {key:'hiker',file:'hiker.png',cx:6,cy:30,fx:0,fy:1,battle:'hiker',sight:3,line:"HIKER: The forest is deep. Bug #MON everywhere! (flavor)"},
+    {key:'girl3',file:'brunette_girl.png',cx:10,cy:16,fx:0,fy:1,line:"Caterpie is my favorite! (flavor)"},
+  ],
+};
+const npcCache={};
+async function npcImg(n){
+  if(npcCache[n.key])return npcCache[n.key];
+  try{
+    const idx=await sheetIndex();
+    const set=idx.sets[idx.trainers||'trainers'];
+    if(set&&set.order&&set.order.includes(n.key)){
+      const cell=set.order.indexOf(n.key),sh=await img('sheets/'+set.file);
+      const cw=set.cell,sx0=(cell%set.cols)*cw,sy0=Math.floor(cell/set.cols)*cw;
+      const c=document.createElement('canvas');c.width=cw;c.height=cw;
+      c.getContext('2d').drawImage(sh,sx0,sy0,cw,cw,0,0,cw,cw);
+      return npcCache[n.key]=edgeClearWhite(c);
+    }
+  }catch{}
+  try{
+    const raw=await img('pokered-master/gfx/sprites/'+n.file);
+    const c=document.createElement('canvas');c.width=raw.width;c.height=raw.height;
+    c.getContext('2d').drawImage(raw,0,0);
+    return npcCache[n.key]=edgeClearWhite(c);
+  }catch{return npcCache[n.key]=null;}
+}
+const npcSprites={}; // key -> THREE.Sprite
+async function syncNPCs(){
+  for(const k of Object.keys(npcSprites)){npcSprites[k].visible=false;}
+  for(const n of NPCS[S.map]||[]){
+    const im=await npcImg(n);
+    if(!im)continue;
+    // down-frame slice
+    const fr=document.createElement('canvas');fr.width=16;fr.height=16;
+    fr.getContext('2d').drawImage(im,0,0,16,16,0,0,16,16);
+    let s=npcSprites[S.map+':'+n.key];
+    if(!s){s=makeBillboard(fr,2.0);s.userData.npc=n;scene.add(s);npcSprites[S.map+':'+n.key]=s;}
+    else{s.material.map=texOf(fr);s.material.needsUpdate=true;s.userData.npc=n;}
+    const p=cellToWorld(n.cx,n.cy);s.position.set(p.x,1.2,p.z);s.visible=true;
+  }
+}
+const wildSprites=new Map(); // wild obj -> sprite
+const alertTex=(()=>{const c=document.createElement('canvas');c.width=32;c.height=32;const g=c.getContext('2d');g.fillStyle='#e3350d';g.font='bold 26px sans-serif';g.textAlign='center';g.fillText('!',16,26);const t=new THREE.CanvasTexture(c);return t;})();
+const qTex=(()=>{const c=document.createElement('canvas');c.width=32;c.height=32;const g=c.getContext('2d');g.fillStyle='#222';g.font='bold 24px sans-serif';g.textAlign='center';g.fillText('?',16,26);const t=new THREE.CanvasTexture(c);return t;})();
+function syncWilds(t){
+  const seen=new Set();
+  for(const w of S.wilds){
+    seen.add(w);
+    let s=wildSprites.get(w);
+    const p={x:w.px*PX2W,z:w.py*PX2W};
+    if(w.hidden){
+      if(!s){s=new THREE.Sprite(new THREE.SpriteMaterial({map:qTex,transparent:true,depthWrite:false}));s.scale.set(1,1,1);scene.add(s);wildSprites.set(w,s);}
+      s.position.set(p.x,1.4+Math.sin(t*3+w.ph||0)*.1,p.z);s.visible=(Math.floor(t*2)%2===0);s.userData.mark=true;
+      continue;
+    }
+    if(!w.img)continue;
+    if(!s||s.userData.mark){if(s)scene.remove(s);s=makeBillboard(w.img,2.4,sprMode()==='modern'||sprMode()==='db-home');s.userData.mark=false;scene.add(s);wildSprites.set(w,s);}
+    s.position.set(p.x,1.5+Math.sin(t*2+(w.ph||0))*.15,p.z);
+    s.visible=true;
+    // alert mark
+    if(w.alert>0&&!s.userData.alert){const a=new THREE.Sprite(new THREE.SpriteMaterial({map:alertTex,transparent:true,depthWrite:false}));a.scale.set(.9,.9,1);a.position.y=1.4;s.add(a);s.userData.alert=a;}
+    if(w.alert<=0&&s.userData.alert){s.remove(s.userData.alert);s.userData.alert=null;}
+  }
+  for(const [w,s] of [...wildSprites])if(!seen.has(w)){scene.remove(s);wildSprites.delete(w);}
+}
+// cut trees / boulders / pickups as 3D props
+const propGroup=new THREE.Group();scene.add(propGroup);
+let propCache={};
+function syncProps(t){
+  const key=S.map;
+  if(propCache.key!==key){while(propGroup.children.length)propGroup.remove(propGroup.children[0]);propCache={key};}
+  if(!propCache.built){
+    propCache.built=true;propCache.items=[];
+    for(const ct of cutAt(S.map)){
+      const m=new THREE.Mesh(new THREE.ConeGeometry(.9,2.0,7),new THREE.MeshLambertMaterial({color:0x2f7d32}));
+      const p=cellToWorld(ct.x,ct.y);m.position.set(p.x,1.1,p.z);m.castShadow=true;propGroup.add(m);propCache.items.push({mesh:m,cut:ct});
+    }
+    for(const b2 of bouldersAt(S.map)){
+      const m=new THREE.Mesh(new THREE.SphereGeometry(.8,10,8),new THREE.MeshLambertMaterial({color:0x888888}));
+      const p=cellToWorld(b2.x,b2.y);m.position.set(p.x,.7,p.z);m.castShadow=true;propGroup.add(m);
+      propCache.items.push({mesh:m,boulder:b2});
+    }
+    const spots=[];
+    const spot=PICKUP_SPOT[S.map];
+    if(spot&&!(S.taken&&S.taken[S.map+':fix']))spots.push(spot);
+    for(const p of pickupsOf(S.map))spots.push(p);
+    for(const p of spots){
+      const m=new THREE.Mesh(new THREE.SphereGeometry(.35,10,8),new THREE.MeshLambertMaterial({color:0xe3350d,emissive:0x550000}));
+      const wp=cellToWorld(p.x,p.y);m.position.set(wp.x,.8+Math.sin(t*3)*.1,wp.z);propGroup.add(m);
+      propCache.items.push({mesh:m,pickup:p});
+    }
+  }
+  // live sync: cut removals, boulder moves, taken pickups
+  const cutGone=new Set((CUT_TREES[S.map]||[]).filter(x=>S.cut&&S.cut[S.map+':'+x.x+','+x.y]));
+  for(const it of propCache.items){
+    if(it.cut&&(S.cut&&S.cut[S.map+':'+it.cut.x+','+it.cut.y]))it.mesh.visible=false;
+    if(it.boulder){const p=cellToWorld(it.boulder.x,it.boulder.y);it.mesh.position.set(p.x,.7,p.z);}
+    if(it.pickup){const gone=it.pickup.kind==='fixed'?(S.taken&&S.taken[S.map+':fix']):!pickupsOf(S.map).includes(it.pickup);it.mesh.visible=!gone;it.mesh.position.y=.8+Math.sin(t*3)*.12;}
+  }
+}
+
+// ---------- travel / movement (grid logic drives the 3D scene) ----------
+function bump(){}
+const CUT_TREES={ViridianForest:[{x:16,y:0},{x:17,y:0}]};
+const BOULDERS={ViridianForest:[{x:12,y:8},{x:14,y:8}]};
+const PICKUP_SPOT={ViridianForest:{x:13,y:7,item:'MASTER_BALL'}};
+function cutAt(map){return (CUT_TREES[map]||[]).filter(t=>!(S.cut&&S.cut[map+':'+t.x+','+t.y]));}
+function bouldersAt(map){
+  S.bpos=S.bpos||{};
+  if(!S.bpos[map])S.bpos[map]=(BOULDERS[map]||[]).map(b=>({...b}));
+  return S.bpos[map];
+}
+function boulderAt(map,x,y){return bouldersAt(map).find(b=>b.x===x&&b.y===y);}
+function npcAt(x,y){return (NPCS[S.map]||[]).find(n=>n.cx===x&&n.cy===y);}
+function pickupsOf(map){
+  S.spark=S.spark||{};
+  if(!S.spark[map])S.spark[map]=[];
+  return S.spark[map];
+}
+function pickupAt(x,y){
+  const spot=PICKUP_SPOT[S.map];
+  if(spot&&spot.x===x&&spot.y===y&&!(S.taken&&S.taken[S.map+':fix']))return{kind:'fixed',...spot};
+  return pickupsOf(S.map).find(p=>p.x===x&&p.y===y);
+}
+function takePickup(pk){
+  if(pk.kind==='fixed'){S.taken=S.taken||{};S.taken[S.map+':fix']=1;}
+  else{S.spark[S.map]=S.spark[S.map].filter(p=>p!==pk);}
+  giveItem(pk.item);propCache.built=false;
+}
+function giveItem(item){
+  if(item==='POKE_BALL'||item==='GREAT_BALL'||item==='ULTRA_BALL'){const bk=item==='POKE_BALL'?'poke':item==='GREAT_BALL'?'great':'ultra';S.bag[bk]=(S.bag[bk]||0)+(item==='POKE_BALL'?3:2);syncBallPill();say('Found '+item.replace(/_/g,' ')+'! +balls.');renderShop();}
+  else if(item==='MASTER_BALL'){S.bag=S.bag||{};S.bag.master=(S.bag.master||0)+1;say('Found a MASTER BALL!! The ultimate ball!');}
+  else if(item==='POTION'||item==='SUPER_POTION'||item==='HYPER_POTION'){S.meds=S.meds||{potion:0,super:0,hyper:0,max:0};S.meds[item==='POTION'?'potion':item==='SUPER_POTION'?'super':'hyper']++;say('Found '+item.replace(/_/g,' ')+'!');}
+  else if(item.endsWith('_STONE')||item==='LINK_CABLE'){S.stones=S.stones||{};S.stones[item]=(S.stones[item]||0)+1;say('Found '+item.replace(/_/g,' ')+'! (party → G to evolve)');}
+  else{S.key=S.key||[];S.key.push(item);say('Found '+item.replace(/_/g,' ')+'! (key item)');}
+  log('Picked up <b>'+item.replace(/_/g,' ')+'</b>!');
+  if(typeof renderShop==='function')renderShop();
+}
+setInterval(()=>{
+  if(S.battle||document.hidden)return;
+  const spots=pickupsOf(S.map);
+  if(spots.length>=3)return;
+  for(let t=0;t<12;t++){
+    const M=S.mapCache[S.map];if(!M)break;
+    const bx=1+Math.floor(Math.random()*(M.w-2)),by=1+Math.floor(Math.random()*(M.h-2));
+    const gs=S.map==='ViridianForest'?GRASS_F:GRASS_BLOCKS;
+    if(!gs.has(M.blk[by*M.w+bx]))continue;
+    const x=bx*2,y=by*2;
+    if(spots.some(p=>p.x===x&&p.y===y))continue;
+    const r=Math.random();
+    const item=r<.5?'POKE_BALL':r<.7?'POTION':r<.82?'GREAT_BALL':r<.9?'SUPER_POTION':r<.95?'ULTRA_BALL':'FIRE_STONE';
+    spots.push({x,y,item,kind:'spark'});propCache.built=false;break;
+  }
+},25000);
+async function tryStep(dx,dy){
+  const M=S.mapCache[S.map];
+  let nx=S.px+dx,ny=S.py+dy;
+  S.fx=dx;S.fy=dy;
+  if(ny<0){
+    if(S.map==='Route1'){return warp('ViridianCity',S.px,17);}
+    if(S.map==='PalletTown'){return warp('Route1',S.px,17);}
+    if(S.map==='ViridianCity'){return warp('ViridianForest',Math.min(S.px,30),46);}
+    if(S.map==='ViridianForest'){
+      if(nx>=16&&nx<=17&&!cutAt('ViridianForest').length)return warp('ViridianCity',Math.min(nx+2,38),34);
+      bump();say(nx>=16&&nx<=17?'A tree blocks the way. Something could CUT it.':'Tall trees block the way.');return;
+    }
+    return;}
+  if(ny>=M.h*2){
+    if(S.map==='Route1'){return warp('PalletTown',S.px,0);}
+    if(S.map==='ViridianCity'&&S.px>=8&&S.px<=11){return warp('Route1',4,0);}
+    if(S.map==='ViridianForest'){return warp('ViridianCity',Math.min(S.px+2,38),34);}
+    return;}
+  if(nx<0||nx>=M.w*2)return;
+  const gx=nx,gy=ny;
+  const bx=Math.floor(gx/2),by=Math.floor(gy/2);
+  const bid=blockAt(S.map,bx,by);
+  if(bid===-1||!walkable(bid)){bump();return;}
+  if((bid===26||bid===47)&&!(dx===0&&dy===1)){bump();return;}
+  for(const n of NPCS[S.map]||[])if(n.cx===nx&&n.cy===ny){bump();return;}
+  for(const t of cutAt(S.map))if(t.x===nx&&t.y===ny){bump();return;}
+  for(const b2 of bouldersAt(S.map))if(b2.x===nx&&b2.y===ny){
+    const bx2=nx+dx,by2=ny+dy,bid2=blockAt(S.map,Math.floor(bx2/2),Math.floor(by2/2));
+    if(bid2!==-1&&walkable(bid2)&&!npcAt(bx2,by2)&&!boulderAt(S.map,bx2,by2)){b2.x=bx2;b2.y=by2;log('Pushed the boulder!');}
+    else bump();return;
+  }
+  S.px=nx;S.py=ny;S.moving=true;S.stepT=0;
+  S.foottrail.unshift({x:S.px,y:S.py});S.foottrail=S.foottrail.slice(0,8);
+  if(grassSet().has(bid)&&$('#o-rand').checked){
+    const T=await wildTable(S.map);
+    if(Math.random()*256<T.rate){const row=T.rows[Math.floor(Math.random()*T.rows.length)];openBattle(row.sp,row.lvl,'tall grass!');}
+  }
+  for(const w of S.wilds){if(!w.hidden&&Math.abs(w.px-S.px*TILE)<12&&Math.abs(w.py-S.py*TILE)<12){openBattle(w.sp,w.lvl,'bumped into!');S.wilds=S.wilds.filter(x=>x!==w);break;}}
+}
+async function warp(map,gx,gy){S.map=map;$('#st-map').textContent=map;S.px=gx;S.py=gy;if(!S.mapCache[map])await getMap(map);showMap(map);await spawnWilds();await syncNPCs();propCache.built=false;log('→ '+map);say(map+':\n'+hintText());banner(map.replace(/([A-Z])/g,' $1').trim().toUpperCase());drawMM();}
+let bannerT=null;
+function banner(t){const z=$('#zone');z.textContent='◈ '+t+' ◈';z.style.display='block';clearTimeout(bannerT);bannerT=setTimeout(()=>z.style.display='none',1800);}
+const MMCAT={tree:'#1d6b2f',path:'#d6b87a',water:'#3f8fd6',roof:'#c0392b',house:'#e8dcc0',ground:'#7ec850'};
+function drawMM(){
+  const M=S.mapCache[S.map];if(!M)return;const mm=$('#mm');if(!mm)return;
+  const s=6;mm.width=M.w*s;mm.height=M.h*s;
+  const g=mm.getContext('2d');
+  const houseish=new Set([8,16,56,57,58,60,61,86,119]);
+  for(let y=0;y<M.h;y++)for(let x=0;x<M.w;x++){const b=M.blk[y*M.w+x];
+    let col=MMCAT.ground;const c=blockCat(b%128);
+    if(c==='tree')col=MMCAT.tree;else if(c==='path')col=MMCAT.path;else if(c==='water')col=MMCAT.water;else if(c==='roof')col=MMCAT.roof;else if(houseish.has(b%128))col=MMCAT.house;
+    g.fillStyle=col;g.fillRect(x*s,y*s,s,s);}
+  g.fillStyle='#e3350d';for(const w of S.wilds){if(w.hidden)continue;g.fillRect(Math.floor(w.px/TILE/2)*s,Math.floor(w.py/TILE/2)*s,2,2);}
+  g.fillStyle='#ffcb05';g.fillRect(Math.floor(S.px/2)*s-1,Math.floor(S.py/2)*s-1,3,3);
+}
+function hintText(){const RG=MAPS[S.map]?.region;if(RG)return RG.blurb+'\nWilds: '+RG.dex+' dex pool via PokeAPI.\nE = throw ball. F = talk/check.';return S.map==='PalletTown'?"OAK: Hey! Wait! Don't go out! (text/PalletTown.asm)\nWalk north to Route 1. Tall grass holds Pidgey + Rattata.":S.map==='Route1'?'ROUTE 1 wilds: Pidgey/Rattata Lv2-5 (data/wild/maps/Route1.asm)\nNorth to Viridian City, then VIRIDIAN FOREST (national rares!).\nE = throw ball. F = talk/check.':S.map==='ViridianForest'?'VIRIDIAN FOREST: local bugs + NATIONAL rares (Heracross, Houndour…)\nBeyond Red/Blue — PokeAPI stats/moves/cries.\nE = throw ball. F = talk/check.':'VIRIDIAN CITY (20x18, ViridianCity.blk). North gate → Viridian Forest.\nHeal: +10 balls button.';}
+
+// ---------- wilds (visible overworld behavior) ----------
+const AFFINITY={PIDGEY:{idle:1.4,aggro:.4},RATTATA:{idle:1.1,aggro:.8},SPEAROW:{aggro:1.6},CATERPIE:{hidden:1.8,aggro:.3},WEEDLE:{hidden:1.8,aggro:.3},METAPOD:{idle:2,aggro:.1},KAKUNA:{idle:2,aggro:.1},PIKACHU:{idle:1.2,aggro:1.1}};
+function pickBehavior(sp){
+  const a=AFFINITY[sp]||{};
+  const pool=[['idle',30*(a.idle||1)],['wander',35],['aggro',15*(a.aggro||1)],['hidden',20*(a.hidden||1)]];
+  if(!$('#o-wilds').checked)return 'idle';
+  let tot=pool.reduce((s,x)=>s+x[1],0),r=Math.random()*tot;
+  for(const [k,w] of pool){r-=w;if(r<=0)return k;}return 'idle';
+}
+function grassCells(map){const M=S.mapCache[map];if(!M)return[];const gs=(map==='ViridianForest'?GRASS_F:GRASS_BLOCKS);const out=[];for(let y=0;y<M.h;y++)for(let x=0;x<M.w;x++){const b=M.blk[y*M.w+x];if(gs.has(b))out.push({x,y});}return out;}
+const wildTables={};
+const NO_WILDS=new Set(['PalletTown','ViridianCity']);
+async function wildTable(map){
+  if(MAPS[map]?.region){if(!wildTables[map])wildTables[map]=await regionPoolFor(MAPS[map].region).catch(()=>({rate:0,rows:[]}));return wildTables[map];}
+  if(wildTables[map])return wildTables[map];if(NO_WILDS.has(map))return wildTables[map]={rate:0,rows:[]};
+  try{const t=await(await fetch(P.wild(map))).text();if(t.startsWith('Not found'))return wildTables[map]={rate:0,rows:[]};return wildTables[map]=parseWilds(t);}catch{return wildTables[map]={rate:0,rows:[]};}
+}
+async function spawnWilds(){
+  S.wilds=[];
+  if(!$('#o-wilds').checked)return;
+  const n=+$('#o-density').value||6;
+  const T=await wildTable(S.map);
+  if(!T.rows.length)return;
+  const cells=grassCells(S.map);
+  if(!cells.length)return;
+  for(let i=0;i<n;i++){
+    let row=T.rows[Math.floor(Math.random()*T.rows.length)];
+    if(S.map==='ViridianForest'&&Math.random()<.35)row=NATIONAL_RARES[Math.floor(Math.random()*NATIONAL_RARES.length)];
+    const c=cells[Math.floor(Math.random()*cells.length)];
+    const st=await stats(row.sp);
+    S.wilds.push({sp:row.sp,lvl:row.lvl,bhv:pickBehavior(row.sp),bx:c.x,by:c.y,px:c.x*TILE,py:c.y*TILE,dir:Math.floor(Math.random()*4),t:Math.random()*3,hidden:Math.random()<.25,alert:0,face:0,stats:st,img:await wimg(row.sp),ph:Math.random()*6});
+    S.seen.add(row.sp);
+  }
+  $('#st-seen').textContent=S.seen.size;
+}
+function tickWilds(dt){
+  const px=S.px*TILE,py=S.py*TILE;
+  for(const w of S.wilds){
+    w.t-=dt;S.talkCd=Math.max(0,S.talkCd-dt);
+    const dx=px-w.px,dy=py-w.py,dist=Math.hypot(dx,dy)/TILE;
+    if(w.bhv==='aggro'){
+      if(dist<5){w.alert=Math.max(w.alert,1.2);const s=22*dt;w.px+=Math.sign(dx)*Math.min(Math.abs(dx),s);w.py+=Math.sign(dy)*Math.min(Math.abs(dy),s);
+        if(dist<.7&&!S.battle){openBattle(w.sp,w.lvl,'chased you!');S.wilds=S.wilds.filter(x=>x!==w);return;}}
+      else if(w.t<=0){w.dir=Math.floor(Math.random()*4);w.t=1+Math.random()*2;}
+    }else if(w.bhv==='wander'){
+      if(w.t<=0){w.dir=Math.floor(Math.random()*4);w.t=1+Math.random()*2.5;
+        const vx=[0,0,-1,1][w.dir],vy=[-1,1,0,0][w.dir];
+        const bid=blockAt(S.map,Math.floor((w.px+vx*16)/BLOCK),Math.floor((w.py+vy*16)/BLOCK));
+        if(bid!==-1&&walkable(bid)){w.px+=vx*16;w.py+=vy*16;}}
+    }else if(w.bhv==='hidden'){
+      if(dist<2.5){w.hidden=false;w.alert=1.5;w.bhv='aggro';}
+    }else{
+      if(w.t<=0){w.face=(w.face+1)%4;w.t=1.5+Math.random()*2;}
+    }
+    if(w.alert>0)w.alert-=dt;
+  }
+}
+
+// ---------- input: walk / run / bike ----------
 const keys={};
-addEventListener('keydown',e=>{keys[e.key.toLowerCase()]=true;
-  if(e.key.toLowerCase()==='e')throwBall();
-  if(e.key.toLowerCase()==='f')talk();});
+addEventListener('keydown',e=>{const k=e.key.toLowerCase();keys[k]=true;
+  if(['arrowup','arrowdown','arrowleft','arrowright',' '].includes(k))e.preventDefault();
+  if(k==='e')throwBall();
+  if(k==='f')talk();
+  if(k==='b'&&!e.repeat){S.bike=!S.bike;log(S.bike?'Mounted the <b>BIKE</b>! (fast)':'Got off the bike.');say(S.bike?'Bike: B = dismount.':'Walking. Press B for bike, hold SHIFT to run.');}
+  if(k==='g'&&!e.repeat){tryStoneEvo();}
+});
 addEventListener('keyup',e=>{keys[e.key.toLowerCase()]=false;});
-$('#btn-help').onclick=()=>toast('WASD move · drag orbit · wheel zoom · E throw ball · F talk · click a Pokémon to inspect',3200);
+function dirVec(){let dx=0,dy=0;if(keys.w||keys.arrowup)dy-=1;else if(keys.s||keys.arrowdown)dy+=1;else if(keys.a||keys.arrowleft)dx-=1;else if(keys.d||keys.arrowright)dx+=1;return[dx,dy];}
+let acc=0;
+function loop(dt){
+  const stepDelay=S.bike?.045:(keys['shift']?.07:.11);
+  if(!S.battle&&!S.moving){const[dx,dy]=dirVec();if(dx||dy){acc+=dt;if(acc>stepDelay*.4){acc=0;tryStep(dx,dy);}}else acc=0;}
+  if(S.moving){S.stepT+=dt;if(S.stepT>.13){S.moving=false;}}
+  tickWilds(dt);tickNPC(dt);
+}
+let last=0;function frame(t){const dt=Math.min(.05,(t-last)/1000||.016);last=t;loop(dt);
+  // 3D sync
+  const pp=cellToWorld(S.px,S.py);
+  playerG.position.x+=(pp.x-playerG.position.x)*Math.min(1,dt*10);
+  playerG.position.z+=(pp.z-playerG.position.z)*Math.min(1,dt*10);
+  if(S.fx||S.fy)playerG.rotation.y=Math.atan2(S.fx,S.fy);
+  const t3=performance.now()/1000;
+  syncWilds(t3);syncProps(t3);
+  const tx=playerG.position.x+Math.sin(yaw)*Math.cos(pitch)*dist,ty=playerG.position.y+Math.sin(pitch)*dist+2,tz=playerG.position.z+Math.cos(yaw)*Math.cos(pitch)*dist;
+  camera.position.set(tx,ty,tz);
+  camera.lookAt(playerG.position.x,1.5,playerG.position.z);
+  sun.position.set(playerG.position.x+40,70,playerG.position.z+25);
+  renderer.render(scene,camera);
+  requestAnimationFrame(frame);
+}
 
-function zoneAt(x,z){let best='WILDERNESS',bd=1e9;for(const [n,qx,qz] of window._zones||[]){const d=(x-qx)**2+(z-qz)**2;if(d<bd){bd=d;best=n;}}return best;}
-function talk(){const p=window._player;toast('OAK: "Hey! Wait! Don\'t go out!" — verbatim text/PalletTown.asm',2600);log('<b>OAK:</b> Hey! Wait! Don\'t go out! <i>(text/PalletTown.asm)</i>');}
+// ---------- talk / cut / pickups ----------
+async function talk(){
+  if(S.talkCd>0)return;S.talkCd=.4;
+  const tx=S.px+S.fx,ty=S.py+S.fy;
+  const npc=(NPCS[S.map]||[]).find(n=>n.cx===tx&&n.cy===ty);
+  if(npc){
+    npc.fx=-S.fx;npc.fy=-S.fy;
+    if(npc.key==='oak'&&!S.starter){showStarter();return;}
+    if(npc.key==='oak'&&!S.hmCut){S.hmCut=true;say(npc.line+'\nOAK: Take this HM01 CUT! Face small trees and press F.');log('Got <b>HM01 CUT</b>!');return;}
+    if(npc.heal){for(const m of S.party)m.hp=m.max;S.bag.poke+=5;syncBallPill();renderParty();say(npc.line+'\nParty fully healed! +5 balls.');log('Center: party healed, +5 balls.');return;}
+    if(npc.battle&&!TRAINERS[npc.battle].beaten){openTrainerBattle(npc.battle);return;}
+    if(npc.battle&&TRAINERS[npc.battle].beaten){say(npc.line+'\n…I lost already. (rematch soon!)');return;}
+    say(npc.line);log('Talked to <b>'+npc.key.toUpperCase()+'</b>');return;
+  }
+  {
+    const ct=cutAt(S.map).find(t=>t.x===tx&&t.y===ty);
+    if(ct){
+      if(!S.hmCut){say('A small tree blocks the way. (Someone could teach CUT.)');return;}
+      S.cut=S.cut||{};S.cut[S.map+':'+tx+','+ty]=1;
+      say('Chop! The tree was CUT down!');log('Cut down the tree!');cry('scyther');return;
+    }
+  }
+  {
+    const pk=pickupAt(tx,ty);
+    if(pk){takePickup(pk);return;}
+  }
+  const w=S.wilds.find(w=>Math.abs(w.px-tx*TILE)<12&&Math.abs(w.py-ty*TILE)<12);
+  if(w){say(nice(w.sp).toUpperCase()+': "'+(w.bhv==='aggro'?'Grr!':'...')+'"\n Lv'+w.lvl+' · catch '+(w.stats?.catch??'?'));
+    log('Talked to '+nice(w.sp));cry(w.sp);
+    Promise.all([apiSpecies(w.sp).catch(()=>null),apiEvoFor(w.sp).catch(()=>null)]).then(([spc,evo])=>{
+      if(!spc)return;
+      say(nice(w.sp).toUpperCase()+' — '+spc.genera+'\n“'+spc.flavor.slice(0,100)+'”'+(evo?'\nEvolves: '+nice(evo.to)+' @Lv'+evo.lvl:'')+'\n(PokeAPI species)');
+    });
+    return;}
+  say('No one there. Face grass and press E to throw a ball.');
+}
+async function tryStoneEvo(){
+  const me=lead();if(!me){say('No Pokémon!');return;}
+  const evo=await apiEvoFor(me.sp).catch(()=>null);
+  if(!evo){say(nice(me.sp)+' does not evolve.');return;}
+  let need=null;
+  if(evo.trigger==='trade')need='LINK_CABLE';
+  else if(evo.trigger==='use-item'&&evo.item)need=evo.item.toUpperCase().replace(/-/g,'_');
+  else if(evo.trigger==='level-up'){say(nice(me.sp)+' → '+nice(evo.to)+' at Lv'+evo.lvl+'. Keep training!');return;}
+  if(!need){say(nice(me.sp)+' → '+nice(evo.to)+' needs '+evo.trigger+'.');return;}
+  if(!((S.stones&&S.stones[need])>0)){say(nice(me.sp)+' needs '+need.replace(/_/g,' ')+'! (SHOP sells it.)');return;}
+  S.stones[need]--;me.sp=evo.to;me.hp=me.max;
+  renderParty();say('What? '+nice(evo.to).toUpperCase()+' evolved with '+need.replace(/_/g,' ')+'!');log('Evolved into <b>'+nice(evo.to)+'</b>!');cry(me.sp);
+}
 
-// ---------- encounters & battle ----------
-function parseStats(txt){const m=txt.match(/db\s+(\d+),\s*(\d+),\s*(\d+),\s*(\d+),\s*(\d+)/);const t=txt.match(/db\s+([A-Z_]+),\s*([A-Z_]+)\s*;\s*type/i);const c=txt.match(/db\s+(\d+)\s*;\s*catch rate/i);return{hp:+m?.[1]||45,atk:+m?.[2]||49,def:+m?.[3]||49,spd:+m?.[4]||45,spc:+m?.[5]||65,t1:t?.[1]||'???',t2:t?.[2]||'',catch:+(c?.[1]||45)};}
-async function statFor(n){if(state.statsCache[n])return state.statsCache[n];try{const t=await(await fetch(`pokered-master/data/pokemon/base_stats/${n}.asm`)).text();const s=parseStats(t);state.statsCache[n]=s;return s;}catch{const s={hp:45,atk:49,def:49,spd:45,spc:65,t1:'???',t2:'',catch:45};state.statsCache[n]=s;return s;}}
-let encCooldown=0;
-async function maybeEncounter(p,t){if(encCooldown>0)return;let inGrass=false;for(const g of grassPatches){const dx=g.position.x-p.position.x,dz=g.position.z-p.position.z;if(dx*dx+dz*dz<1.4){inGrass=true;break;}}
-  if(inGrass&&Math.random()<.02){encCooldown=6;const wild=POOL[Math.floor(Math.random()*POOL.length)];openBattle(wild);}}
-async function openBattle(n){const s=await statFor(n);const lvl=3+Math.floor(Math.random()*5);
-  state.battle={name:n,lvl,max:10+s.hp,hp:10+s.hp,stats:s};
-  $('#btitle').textContent=`WILD ${n.toUpperCase()} appeared!  Lv${lvl}`;
-  $('#bname').textContent=n;$('#blvl').textContent='Lv'+lvl;
-  $('#bimg').src=front(n);
-  $('#bstats').textContent=`${s.t1}${s.t2?' / '+s.t2:''} · HP ${s.hp} ATK ${s.atk} DEF ${s.def} · catch ${s.catch} · src base_stats/${n}.asm`;
-  updHp();$('#battle').style.display='block';log(`🌿 Wild <b>${n}</b> Lv${lvl} appeared! <i>(${s.t1}, catch ${s.catch})</i>`);blip(660);}
-function updHp(){const b=state.battle;$('#bhp').style.width=(100*b.hp/b.max).toFixed(0)+'%';}
-$('#btn-fight').onclick=()=>{const b=state.battle;if(!b)return;const dmg=6+Math.floor(Math.random()*10);b.hp=Math.max(0,b.hp-dmg);updHp();log(`⚔ Tackle hit ${b.name} for ${dmg}!`);blip(220);if(b.hp<=0){log(`💀 Foe ${b.name} fainted! +XP`);toast(`${b.name} fainted!`,1800);$('#battle').style.display='none';state.battle=null;}};
-$('#btn-run').onclick=()=>{log('💨 Got away safely!');$('#battle').style.display='none';state.battle=null;};
-$('#btn-ball').onclick=()=>{const b=state.battle;if(!b)return;const p=(b.stats.catch/255*(b.hp/b.max*.6+.4));if(Math.random()<p+.15){catchMon(b.name);log(`🎉 Caught <b>${b.name}</b>! (rate ${b.stats.catch})`);toast(`Caught ${b.name}!`,2000);$('#battle').style.display='none';state.battle=null;}else{log(`◉ ${b.name} broke free!`);blip(140);}};
-function catchMon(n){if(!state.caught.includes(n))state.caught.push(n);if(state.party.length<6&&!state.party.includes(n))state.party.push(n);renderParty();$('#stat-caught').textContent=state.caught.length;}
-function throwBall(){toast('◉ Poké Ball thrown! (walk into grass for battles)',1600);const b=window._ball;if(b){b.position.copy(window._player.position).add(new THREE.Vector3(0,2,0));b.userData.t=0;b.userData.fly=true;}blip(880);}
-function renderParty(){$('#party-n').textContent=state.party.length;$('#stat-caught').textContent=state.caught.length;$('#party').innerHTML=state.party.map(n=>`<div class="mon" style="width:84px"><img src="${front(n)}" onerror="this.style.display='none'"><b>${n}</b></div>`).join('');}
-function renderStarters(){$('#starters').innerHTML=STARTERS.map(n=>`<div class="mon" data-s="${n}"><img loading="lazy" src="${front(n)}"><b>${n}</b></div>`).join('');
-  document.querySelectorAll('#starters .mon').forEach(el=>el.onclick=()=>{const n=el.dataset.s;state.party[0]=n;if(!state.caught.includes(n))state.caught.push(n);renderParty();$('#stat-caught').textContent=state.caught.length;log(`⭐ Chose starter <b>${n}</b>!`);toast(n+' joined your party!',1800);});}
+// ---------- balls / shop / items ----------
+const BALLS={
+  poke:{m:1,price:200,blurb:'1x the classic'},
+  great:{m:1.5,price:600,blurb:'1.5x'},
+  ultra:{m:2,price:1200,blurb:'2x'},
+  master:{m:255,price:0,blurb:'never fails. not for sale!'},
+  safari:{m:1.5,price:500,blurb:'1.5x'},
+  sport:{m:1.5,price:400,blurb:'1.5x'},
+  fast:{m:'fast',price:350,blurb:'4x if foe base speed 100+'},
+  level:{m:'level',price:350,blurb:'up to 8x if your level is higher'},
+  lure:{m:1,price:350,blurb:'1x on land'},
+  heavy:{m:'heavy',price:350,blurb:'heavier foe = better'},
+  love:{m:1,price:350,blurb:'1x (genders unknown here)'},
+  friend:{m:1,price:350,blurb:'1x, befriends'},
+  moon:{m:1,price:350,blurb:'1x'},
+};
+function bagCount(b){return (S.bag&&S.bag[b])||0;}
+function syncBallPill(){$('#st-balls').textContent=(S.ball||'poke')+' x'+bagCount(S.ball||'poke');const s=$('#b-ball');if(s&&s.value!==S.ball)s.value=S.ball;const bb=$('#btn-ball');if(bb)bb.textContent='BALL:'+(S.ball||'poke');}
+async function ballMult(ball,f,meLvl){
+  if(ball==='master')return 255;
+  const B=BALLS[ball]||BALLS.poke;
+  if(typeof B.m==='number')return B.m;
+  try{const m=await apiMon(f.sp);
+    if(ball==='fast')return (m.stats.speed>=100)?4:1;
+    if(ball==='heavy'){const kg=m.w/10;return kg>=300?3:kg>=200?2:kg>=100?1:.5;}
+    if(ball==='level'){if(!meLvl)return 1;return meLvl>f.lvl*2?8:meLvl>f.lvl?4:1;}
+  }catch{}
+  return 1;
+}
+function catchChance(st,mult){if(mult>=255)return 1;return Math.min(.95,(st.catch/255)*.6*mult+.12);}
+const SHOP=[
+  {id:'poke-ball',kind:'ball',key:'poke',price:200},{id:'great-ball',kind:'ball',key:'great',price:600},
+  {id:'ultra-ball',kind:'ball',key:'ultra',price:1200},{id:'safari-ball',kind:'ball',key:'safari',price:500},
+  {id:'fast-ball',kind:'ball',key:'fast',price:350},{id:'level-ball',kind:'ball',key:'level',price:350},
+  {id:'lure-ball',kind:'ball',key:'lure',price:350},{id:'heavy-ball',kind:'ball',key:'heavy',price:350},
+  {id:'love-ball',kind:'ball',key:'love',price:350},{id:'friend-ball',kind:'ball',key:'friend',price:350},
+  {id:'moon-ball',kind:'ball',key:'moon',price:350},{id:'sport-ball',kind:'ball',key:'sport',price:400},
+  {id:'potion',kind:'med',key:'potion',price:300},{id:'super-potion',kind:'med',key:'super',price:700},
+  {id:'hyper-potion',kind:'med',key:'hyper',price:1200},{id:'max-potion',kind:'med',key:'max',price:2500},
+  {id:'fire-stone',kind:'stone',key:'FIRE_STONE',price:2100},{id:'water-stone',kind:'stone',key:'WATER_STONE',price:2100},
+  {id:'thunder-stone',kind:'stone',key:'THUNDER_STONE',price:2100},{id:'leaf-stone',kind:'stone',key:'LEAF_STONE',price:2100},
+  {id:'moon-stone',kind:'stone',key:'MOON_STONE',price:2100},{id:'sun-stone',kind:'stone',key:'SUN_STONE',price:2100},
+  {id:'link-cable',kind:'link',key:'LINK_CABLE',price:5000},
+];
+function ownedOf(s){
+  if(s.kind==='ball')return bagCount(s.key);
+  if(s.kind==='med')return (S.meds&&S.meds[s.key])||0;
+  if(s.kind==='stone'||s.kind==='link')return (S.stones&&S.stones[s.key])||0;
+  return 0;
+}
+async function renderShop(){
+  const box=$('#shop');if(!box)return;
+  box.style.display='block';
+  box.innerHTML='<b>SHOP</b> · ¥'+S.money;
+  for(const s of SHOP){
+    const row=document.createElement('div');row.className='row';
+    row.innerHTML=`<img width="24" height="24" style="image-rendering:pixelated"><span>${s.id} <i style="color:var(--dim)">${s.kind==='ball'?(BALLS[s.key].blurb):''}</i></span><span style="margin-left:auto">¥${s.price} ×${ownedOf(s)}</span>`;
+    const b=document.createElement('button');b.className='btn small';b.textContent='BUY';b.style.marginLeft='6px';
+    b.onclick=()=>{
+      if(S.money<s.price){say('Not enough money!');return;}
+      S.money-=s.price;$('#st-money').textContent=S.money;
+      if(s.kind==='ball'){S.bag[s.key]=(S.bag[s.key]||0)+1;syncBallPill();}
+      else if(s.kind==='med'){S.meds[s.key]=(S.meds[s.key]||0)+1;}
+      else{S.stones[s.key]=(S.stones[s.key]||0)+1;}
+      log('Bought <b>'+s.id+'</b>!');renderShop();fillBallSels();
+    };
+    row.appendChild(b);box.appendChild(row);
+    if(s.id!=='link-cable')apiItem(s.id).then(it=>{const im=row.querySelector('img');if(it&&it.sprite)im.src=it.sprite;}).catch(()=>{});
+  }
+}
+function fillBallSels(){
+  const s=$('#b-ball');if(!s)return;const cur=s.value||S.ball||'poke';
+  s.innerHTML=Object.keys(BALLS).map(k=>`<option value="${k}">${k} x${bagCount(k)}</option>`).join('');
+  s.value=BALLS[cur]?cur:'poke';S.ball=s.value;syncBallPill();
+}
+$('#btn-shop').onclick=()=>{const b=$('#shop');if(!b)return;if(b.style.display==='block'){b.style.display='none';}else renderShop();};
+{const bb=$('#b-ball');if(bb)bb.onchange=()=>{S.ball=bb.value;syncBallPill();};}
+$('#btn-heal').onclick=()=>{S.bag.poke+=10;syncBallPill();log('+10 poke balls. Party healed.');for(const m of S.party)m.hp=m.max;renderParty();};
 
-// ---------- pokedex / dialogue / files tabs ----------
-document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#tabs button').forEach(x=>x.classList.remove('on'));document.querySelectorAll('.pane').forEach(x=>x.classList.remove('on'));b.classList.add('on');$('#pane-'+b.dataset.t).classList.add('on');});
-async function buildDex(){$('#dexgrid').innerHTML=POOL.map(n=>`<div class="mon" data-d="${n}"><img loading="lazy" src="${front(n)}" onerror="this.parentNode.style.opacity=.5"><b>${n}</b></div>`).join('');
-  document.querySelectorAll('#dexgrid .mon').forEach(el=>el.onclick=()=>showDex(el.dataset.d));showDex('bulbasaur');}
-async function showDex(n){state.dexSel=n;document.querySelectorAll('#dexgrid .mon').forEach(x=>x.classList.toggle('sel',x.dataset.d===n));
-  const s=await statFor(n);let raw='';try{raw=(await(await fetch(`pokered-master/data/pokemon/base_stats/${n}.asm`)).text()).slice(0,900);}catch{raw='(offline fallback)';}
-  $('#dexdetail').innerHTML=`<div style="display:flex;gap:10px"><img src="${front(n)}"><div><b style="text-transform:capitalize;font-size:16px">${n}</b><div style="font-size:12px;color:var(--dim)">${s.t1}${s.t2?' / '+s.t2:''} · catch ${s.catch} · base exp · ${s.hp}/${s.atk}/${s.def}/${s.spd}/${s.spc}</div><div class="grid2" style="margin-top:6px">${['hp','atk','def','spd','spc'].map(k=>`<div class="stat"><b>${s[k]}</b>${k}</div>`).join('')}</div></div></div><pre class="asm">${raw.replace(/</g,'&lt;')}</pre>`;}
-async function buildDlg(){const files=['text/PalletTown.asm','text/ViridianCity.asm','text/PewterCity.asm','text/CeruleanCity.asm','text/OaksLab.asm','text/PewterGym.asm'];let html='';
-  for(const f of files){try{const t=await(await fetch('pokered-master/'+f)).text();const chunks=t.split('::').slice(1,4).map(c=>'::'+c).join('').slice(0,700);
-    html+=`<div class="dialogue"><b>${f}</b><pre class="asm">${t.slice(0,600).replace(/</g,'&lt;')}</pre></div>`;}catch{html+=`<div class="dialogue"><b>${f}</b> (unavailable offline)</div>`;}}
-  $('#dlglist').innerHTML=html;}
-async function buildFiles(){try{const r=await fetch('manifest.json');state.manifest=await r.json();}catch{state.manifest={count:0,files:[]};}
-  const files=state.manifest.files||[];$('#stat-files').textContent=files.length||2875;
-  const ext=c=>files.filter(f=>f.path.endsWith(c)).length;
-  $('#c-asm').textContent=ext('.asm');$('#c-png').textContent=ext('.png');$('#c-blk').textContent=ext('.blk');$('#c-all').textContent=files.length;
-  const render=q=>{const list=files.filter(f=>!q||f.path.toLowerCase().includes(q)).slice(0,220);
-    $('#filelist').innerHTML=list.map(f=>`<div class="row" data-p="${f.path}"><span>${f.path}</span><span class="sz">${(f.size/1024).toFixed(1)}k</span></div>`).join('')||'(no match)';
-    document.querySelectorAll('#filelist .row').forEach(el=>el.onclick=()=>previewFile(el.dataset.p));};
-  $('#q').oninput=e=>render(e.target.value.toLowerCase());render('');
-  log(`🗂 Mounted <b>${files.length} original files</b> read-only (0 modified).`);}
-async function previewFile(p){const v=$('#fileview');v.innerHTML=`<b style="font-size:12px">${p}</b><div style="color:var(--dim);font-size:12px">fetching original bytes…</div>`;
-  try{if(p.endsWith('.png')){v.innerHTML=`<b style="font-size:12px">${p}</b><br><img src="${p}"><div style="font-size:11px;color:var(--dim)">original sprite, unmodified · ${(state.manifest.files.find(f=>f.path===p)?.size||0)} bytes</div>`;return;}
-    const t=await(await fetch(p)).text();v.innerHTML=`<b style="font-size:12px">${p}</b><pre class="asm">${t.slice(0,4000).replace(/</g,'&lt;')}</pre>`;}catch{v.innerHTML='(fetch failed offline)';}}
+// ---------- party / XP / evolution ----------
+function hpMax(baseHp,lvl){return Math.floor(baseHp*2*lvl/100)+lvl+10;}
+async function mkMon(sp,lvl){const st=await stats(sp);const max=hpMax(st.hp,lvl);return{sp:sp.toLowerCase(),lvl,hp:max,max,xp:0,base:st.hp};}
+async function catchMon(sp,lvl){sp=sp.toLowerCase();lvl=lvl||5;
+  if(S.party.length>=6){say(nice(sp)+' was sent to the PC (party full)!');log(nice(sp)+' sent to PC.');return;}
+  const m=await mkMon(sp,lvl);S.party.push(m);renderParty();$('#st-caught').textContent=S.party.length;
+  try{const meta=await apiMon(sp);
+    for(const hd of meta.held||[]){
+      if(Math.random()*100<hd.chance){
+        if(hd.name.endsWith('-ball')){const bk=hd.name.replace(/-ball$/,'');if(BALLS[bk]){S.bag[bk]=(S.bag[bk]||0)+1;syncBallPill();}}
+        else if(hd.name.includes('potion')){const k=hd.name==='potion'?'potion':hd.name==='super-potion'?'super':hd.name==='hyper-potion'?'hyper':'max';S.meds[k]=(S.meds[k]||0)+1;}
+        else{S.key=S.key||[];S.key.push(hd.name.toUpperCase().replace(/-/g,'_'));}
+        log(nice(sp)+' was holding <b>'+hd.name+'</b>!');
+      }
+    }
+  }catch{}}
+function lead(){return S.party.find(m=>m.hp>0)||null;}
+const STARTERS=['bulbasaur','charmander','squirtle'];
+const COUNTER={bulbasaur:'charmander',charmander:'squirtle',squirtle:'bulbasaur'};
+async function showStarter(){
+  const box=$('#starterOpts');
+  box.innerHTML='loading…';$('#starter').style.display='block';
+  say("OAK: You need your own #MON!\nTake one — Bulbasaur, Charmander, or Squirtle!");
+  box.innerHTML='';
+  for(const n of STARTERS){
+    const d=document.createElement('div');d.className='mon';d.style.width='120px';
+    d.innerHTML=`<img alt="${n}"><b style="text-transform:capitalize">${n}</b>`;
+    d.onclick=async()=>{
+      $('#starter').style.display='none';
+      await catchMon(n,5);
+      S.starter=n;S.rival=COUNTER[n];
+      say('OAK: '+nice(n).toUpperCase()+'! A fine choice!\nYour rival takes '+nice(S.rival).toUpperCase()+'!');
+      log('Got starter <b>'+nice(n)+'</b>! Rival took '+nice(S.rival)+'.');
+      cry(n);
+    };
+    box.appendChild(d);
+    try{d.querySelector('img').src=await wimgURL(n);}catch{}
+  }
+}
 
-// ---------- audio: tiny chiptune ----------
-let AC=null,seq=null;
-function blip(f=440){if(state.muted)return;try{AC=AC||new (window.AudioContext||window.webkitAudioContext)();const o=AC.createOscillator(),g=AC.createGain();o.type='square';o.frequency.value=f;g.gain.value=.05;o.connect(g).connect(AC.destination);o.start();g.gain.exponentialRampToValueAtTime(.0001,AC.currentTime+.18);o.stop(AC.currentTime+.2);}catch{}}
-function chiptune(){if(state.muted||!AC)return;const notes=[67,72,76,79,76,72,74,79,81,79,76,72,67,0,64,67];let i=0;clearInterval(seq);seq=setInterval(()=>{if(state.muted)return;const n=notes[i++%notes.length];if(n)blip(440*Math.pow(2,(n-69)/12));},170);}
-$('#btn-sound').onclick=e=>{state.muted=!state.muted;e.target.textContent=state.muted?'🔇 sound: off':'🔊 sound: on';if(!state.muted){AC=AC||new (window.AudioContext||window.webkitAudioContext)();chiptune();}else clearInterval(seq);};
+// ---------- battles ----------
+const TRAINERS={
+  blue:{beaten:false,prize:150,line:'wants to battle!',team:[{sp:'pidgey',lvl:4},{sp:'RIVAL',lvl:5}]},
+  hiker:{beaten:false,prize:120,line:'flexes!',team:[{sp:'geodude',lvl:5},{sp:'onix',lvl:6}]},
+  fisher:{beaten:false,prize:90,line:'casts a line!',team:[{sp:'magikarp',lvl:3},{sp:'tentacool',lvl:4}]},
+};
+async function openBattle(sp,lvl,how,shiny){
+  sp=sp.toLowerCase();const st=await stats(sp);
+  S.battle={kind:'wild',how,trainer:null,foeTeam:[{sp,lvl,hp:hpMax(st.hp,lvl),max:hpMax(st.hp,lvl),st,shiny:!!shiny}],foeIdx:0};
+  startBattleUI();
+}
+async function openTrainerBattle(key){
+  if(!S.starter){say("You don't even have a Pokémon! Talk to OAK first.");return;}
+  const T=TRAINERS[key],team=[];
+  for(const m of T.team){const sp=(m.sp==='RIVAL'?(S.rival||'charmander'):m.sp).toLowerCase();const st=await stats(sp);team.push({sp,lvl:m.lvl,hp:hpMax(st.hp,m.lvl),max:hpMax(st.hp,m.lvl),st});}
+  S.battle={kind:'trainer',how:T.line,trainer:key,foeTeam:team,foeIdx:0};
+  startBattleUI();
+  log('<b>'+key.toUpperCase()+'</b> '+T.line+' '+team.length+' Pokémon · prize ¥'+T.prize);
+}
+function cur(){const b=S.battle;return b.foeTeam[b.foeIdx];}
+function foeDots(){const b=S.battle;$('#foeteam').textContent=b.kind==='trainer'?b.foeTeam.map((f,i)=>(i<b.foeIdx||(i===b.foeIdx&&f.hp<=0)?'●':i===b.foeIdx?'◉':'○')+' '+nice(f.sp)).join('  '):'';}
+function refreshMe(){const me=lead();$('#pname').textContent=me?nice(me.sp):'—';$('#plvl').textContent=me?('Lv'+me.lvl+' · XP '+me.xp+'/'+(me.lvl*25)):'no conscious mon!';$('#php').style.width=me?(100*me.hp/me.max)+'%':'0%';}
+async function startBattleUI(){
+  const b=S.battle,f=cur();
+  if(!lead()){say('No conscious Pokémon! Heal at a Center!');$('#battle').style.display='none';S.battle=null;return;}
+  $('#btitle').textContent=b.kind==='trainer'?b.trainer.toUpperCase()+' wants to battle!':'Wild '+nice(f.sp).toUpperCase()+' appeared!';
+  $('#bname').textContent=(f.shiny?'✦ ':'')+nice(f.sp);$('#blvl').textContent='Lv'+f.lvl+' · '+(b.kind==='trainer'?(b.trainer.toUpperCase()+' '+ (b.foeIdx+1)+'/'+b.foeTeam.length):b.how);
+  $('#bimg').src=await wimgURL(f.sp,f.shiny);
+  $('#bstats').textContent=`catch ${f.st.catch} · ${f.st.hp}/${f.st.atk}/${f.st.def}`;
+  $('#battle').style.display='block';updHp();refreshMe();foeDots();
+  say((b.kind==='trainer'?b.trainer.toUpperCase()+': '+b.how:'Wild '+nice(f.sp).toUpperCase()+' appeared! Lv'+f.lvl)+'\nFIGHT / BALL / RUN');
+  log((b.kind==='trainer'?'Trainer <b>':'Wild <b>')+nice(f.sp)+'</b> Lv'+f.lvl);
+  cry(f.sp);
+  Promise.all([apiSpecies(f.sp).catch(()=>null),apiEvoFor(f.sp).catch(()=>null)]).then(([spc,evo])=>{
+    if(!S.battle||cur().sp!==f.sp)return;
+    if(spc&&spc.flavor)say((b.kind==='trainer'?b.trainer.toUpperCase()+' sent '+nice(f.sp).toUpperCase()+'!':'Wild '+nice(f.sp).toUpperCase()+' appeared! Lv'+f.lvl)+'\n“'+spc.flavor.slice(0,90)+'”\n(Red dex entry via PokeAPI)');
+  });
+  apiMon(f.sp).then(m=>{if(!S.battle||cur().sp!==f.sp)return;
+    $('#bstats').textContent=`#${m.id} ${m.types.join('/')} · ht ${m.h/10}m wt ${m.w/10}kg · ${m.ab[0]||''} · catch ${f.st.catch}`;
+  }).catch(()=>{});
+}
+function updHp(){const b=S.battle;if(!b)return;const f=cur();$('#bhp').style.width=(100*f.hp/f.max)+'%';}
+async function gainXP(amt){
+  const me=lead();if(!me)return;
+  me.xp+=amt;log(nice(me.sp)+' +'+amt+' XP');
+  while(me.xp>=me.lvl*25){
+    me.xp-=me.lvl*25;me.lvl++;
+    const st=await stats(me.sp);me.max=hpMax(st.hp,me.lvl);me.hp=me.max;
+    log(nice(me.sp)+' grew to <b>Lv'+me.lvl+'</b>!');cry(me.sp);
+    const evo=await apiEvoFor(me.sp).catch(()=>null);
+    if(evo&&evo.trigger==='level-up'&&evo.lvl!=='?'&&me.lvl>=+evo.lvl){me.sp=evo.to;say('What? '+nice(evo.to).toUpperCase()+' evolved!');log('Evolved into <b>'+nice(evo.to)+'</b>!');cry(me.sp);}
+    renderParty();refreshMe();
+  }
+  renderParty();refreshMe();
+}
+async function onFoeDown(){
+  const b=S.battle,f=cur();
+  log('Foe '+nice(f.sp)+' fainted!');cry(f.sp);foeDots();
+  await gainXP(b.kind==='trainer'?f.lvl*14:f.lvl*8);
+  if(b.kind==='trainer'&&b.foeIdx+1<b.foeTeam.length){b.foeIdx++;foeDots();startBattleUI();return;}
+  if(b.kind==='trainer'){const T=TRAINERS[b.trainer];T.beaten=true;S.money+=T.prize;$('#st-money').textContent=S.money;log('Beat '+b.trainer.toUpperCase()+'! +¥'+T.prize);say('You beat '+b.trainer.toUpperCase()+'! +¥'+T.prize);}
+  else say('Foe '+nice(f.sp)+' fainted!');
+  $('#battle').style.display='none';S.battle=null;spawnWilds();
+}
+async function onMeDown(){
+  renderParty();
+  if(!S.party.some(m=>m.hp>0)){
+    say('All out! You black out…\n(OAK: Hey! This is really dangerous!)');
+    log('Blacked out! Rushed to Pallet Town. −¥100');
+    S.money=Math.max(0,S.money-100);$('#st-money').textContent=S.money;
+    $('#battle').style.display='none';S.battle=null;
+    for(const m of S.party)m.hp=m.max;
+    renderParty();await warp('PalletTown',8,6);return;
+  }
+  say(nice(lead().sp)+' — go!\nFIGHT / BALL / RUN');refreshMe();
+}
+$('#btn-fight').onclick=async()=>{
+  const b=S.battle;if(!b||b.busy)return;
+  const me=lead();if(!me){say('No conscious Pokémon! Heal up!');return;}
+  b.busy=true;
+  const GEN1_SPECIAL=new Set(['water','grass','fire','ice','electric','psychic','dragon']);
+  async function strike(attName,attLvl,defSp,defLvl){
+    const att=await apiMon(attName);
+    const known=att.moves.filter(m=>m.lvl<=attLvl+3);
+    let mvMeta=(known.length?known[known.length-1]:att.moves[0]);
+    try{
+      const datas=await Promise.all(known.map(m=>apiMove(m.url).catch(()=>null)));
+      const dmg=datas.map((d,i)=>d&&d.power?i:-1).filter(i=>i>=0);
+      if(dmg.length)mvMeta=known[dmg[dmg.length-1]];
+    }catch{}
+    const mv=await apiMove(mvMeta.url);
+    const def=await apiMon(defSp);
+    if(Math.random()*100>mv.acc){log(nice(attName)+' used '+mv.name+' — missed!');return 0;}
+    if(!mv.power){log(nice(attName)+' used '+mv.name+' ('+mv.type+', status) — no damage');return 0;}
+    const special=(mv.dc?mv.dc==='special':GEN1_SPECIAL.has(mv.type));
+    const A=special?att.stats['special-attack']:att.stats.attack;
+    const D=special?def.stats['special-defense']:def.stats.defense;
+    const eff=await effectiveness(mv.type,def.types);
+    const stab=att.types.includes(mv.type)?1.5:1;
+    const base=Math.floor(Math.floor(Math.floor(2*attLvl/5+2)*mv.power*(A||50)/(D||50))/50)+2;
+    const dmg=Math.max(1,Math.floor(base*stab*eff*(0.85+Math.random()*.15)));
+    const tag=eff===0?' (immune!)':eff>1?' (super effective!)':eff<1?' (not very…)':'';
+    log(nice(attName)+' used <b>'+mv.name+'</b> ('+mv.type+' '+mv.power+')'+tag+' −'+dmg);
+    return dmg;
+  }
+  try{
+    const f=cur();
+    const dmg=await strike(me.sp,me.lvl,f.sp,f.lvl);
+    f.hp=Math.max(0,f.hp-dmg);updHp();foeDots();
+    if(f.hp<=0){await onFoeDown();if(S.battle)S.battle.busy=false;return;}
+    const back=await strike(f.sp,f.lvl,me.sp,me.lvl);
+    if(back>0){me.hp=Math.max(0,me.hp-back);refreshMe();renderParty();say(nice(f.sp)+' hit '+nice(me.sp)+' for '+back+'!\nFIGHT / BALL / RUN');}
+    if(me.hp<=0){log(nice(me.sp)+' fainted!');await onMeDown();}
+  }catch{const f=cur();const dmg=6+Math.floor(Math.random()*8);f.hp=Math.max(0,f.hp-dmg);updHp();log('Hit '+nice(f.sp)+' for '+dmg+' (offline fallback)');if(f.hp<=0)await onFoeDown();}
+  if(S.battle)S.battle.busy=false;
+};
+$('#btn-run').onclick=()=>{
+  const b=S.battle;if(!b)return;
+  if(b.kind==='trainer'){say("No! There's no running from a trainer battle!");log('Cannot run from trainers!');return;}
+  say('Got away safely!');$('#battle').style.display='none';S.battle=null;
+};
+$('#btn-ball').onclick=async()=>{
+  const b=S.battle,ball=S.ball||'poke';
+  if(!b||bagCount(ball)<=0)return;
+  if(b.kind==='trainer'){say("Can't steal a trainer's Pokémon!");log('No stealing!');return;}
+  const f=cur(),me=lead();
+  S.bag[ball]--;syncBallPill();
+  const p=catchChance(f.st,await ballMult(ball,f,me?me.lvl:5));
+  if(Math.random()<p){catchMon(f.sp,f.lvl);say('Gotcha! '+nice(f.sp)+' caught! ('+ball+' ball)');log('◉ Caught <b>'+nice(f.sp)+'</b>!');cry(f.sp);$('#battle').style.display='none';S.battle=null;spawnWilds();}
+  else{say('Broke free! ('+ball+' ball)');log('Broke free!');}
+};
+$('#btn-item').onclick=async()=>{
+  const b=S.battle;if(!b||b.busy)return;
+  const me=lead();if(!me)return;
+  const order=[['max',9999],['hyper',200],['super',50],['potion',20]];
+  const pick=order.find(([k])=>(S.meds&&S.meds[k])>0);
+  if(!pick){say('No potions! Buy some (SHOP).');return;}
+  b.busy=true;
+  S.meds[pick[0]]--;me.hp=Math.min(me.max,me.hp+pick[1]);
+  refreshMe();renderParty();
+  log('Used <b>'+pick[0]+' potion</b> on '+nice(me.sp)+' (+'+pick[1]+')');
+  say(nice(me.sp)+' recovered! Foe attacks!');
+  try{
+    const GEN1_SPECIAL=new Set(['water','grass','fire','ice','electric','psychic','dragon']);
+    const f=cur();
+    const att=await apiMon(f.sp);
+    const known=att.moves.filter(m=>m.lvl<=f.lvl+3);
+    let mvMeta=(known.length?known[known.length-1]:att.moves[0]);
+    try{const datas=await Promise.all(known.map(m=>apiMove(m.url).catch(()=>null)));
+      const dmg=datas.map((d,i)=>d&&d.power?i:-1).filter(i=>i>=0);
+      if(dmg.length)mvMeta=known[dmg[dmg.length-1]];}catch{}
+    const mv=await apiMove(mvMeta.url);
+    const def=await apiMon(me.sp);
+    if(mv.power&&Math.random()*100<=mv.acc){
+      const special=(mv.dc?mv.dc==='special':GEN1_SPECIAL.has(mv.type));
+      const A=special?att.stats['special-attack']:att.stats.attack;
+      const D=special?def.stats['special-defense']:def.stats.defense;
+      const eff=await effectiveness(mv.type,def.types);
+      const dmg=Math.max(1,Math.floor((Math.floor(Math.floor(2*f.lvl/5+2)*mv.power*(A||50)/(D||50))/50)+2)*eff);
+      me.hp=Math.max(0,me.hp-dmg);refreshMe();renderParty();
+      log(nice(f.sp)+' used <b>'+mv.name+'</b> −'+dmg);
+      if(me.hp<=0){log(nice(me.sp)+' fainted!');await onMeDown();}
+    }else log(nice(f.sp)+' used '+mv.name+' — no damage');
+  }catch{}
+  if(S.battle)S.battle.busy=false;
+};
 
-// ---------- minimap ----------
-function drawMM(){const g=$('#mm').getContext('2d');g.fillStyle='#0a1a0a';g.fillRect(0,0,150,150);g.fillStyle='#2f7fe0';g.fillRect(18,108,30,22);g.fillRect(108,52,30,26);
-  g.fillStyle='#e8d8a0';g.fillRect(28,28,44,34);g.fillStyle='#cfcfcf';g.fillRect(28,70,44,30);g.fillStyle='#c9a06a';g.fillRect(60,96,40,34);
-  const p=window._player;if(p){const mx=(p.position.x+60)/120*150,mz=(p.position.z+60)/120*150;g.fillStyle='#ffcb05';g.beginPath();g.arc(mx,mz,4,0,7);g.fill();g.fillStyle='#e3350d';g.beginPath();g.arc(mx,mz,2,0,7);g.fill();}}
+// ---------- overworld throw ----------
+let throwAnim=0;function animThrow(){throwAnim=1;}
+async function throwBall(){
+  const ball=S.ball||'poke';
+  if(S.battle||bagCount(ball)<=0){if(bagCount(ball)<=0)say('No '+ball+' balls! Buy more (SHOP).');return;}
+  S.bag[ball]--;syncBallPill();
+  let hit=null;
+  for(let d=1;d<=5;d++){
+    const tx=(S.px+S.fx*d)*TILE,ty=(S.py+S.fy*d)*TILE;
+    hit=S.wilds.find(w=>!w.hidden&&Math.abs(w.px-tx)<14&&Math.abs(w.py-ty)<14);
+    if(hit)break;
+  }
+  animThrow();
+  if(!hit){say(ball+' ball missed... ('+bagCount(ball)+' left)');log('Overworld throw missed.');return;}
+  const st=hit.stats||await stats(hit.sp);
+  const me=lead();
+  const p=catchChance(st,await ballMult(ball,hit,me?me.lvl:5));
+  if(Math.random()<p){catchMon(hit.sp,hit.lvl);S.wilds=S.wilds.filter(x=>x!==hit);say('Gotcha! '+nice(hit.sp)+' was caught!\n('+ball+' ball, rate '+st.catch+', Lv'+hit.lvl+')');log('◉ Caught <b>'+nice(hit.sp)+'</b> overworld!');cry(hit.sp);}
+  else{hit.bhv='aggro';hit.alert=2;say('Oh no! '+nice(hit.sp)+' broke free!\nIt became aggressive! (! → chase)');log(nice(hit.sp)+' broke free — aggressive!');}
+}
 
-// ---------- raycast click on pokemon ----------
-const ray=new THREE.Raycaster(),mv=new THREE.Vector2();
-canvas.addEventListener('click',e=>{const r=canvas.getBoundingClientRect();mv.x=((e.clientX-r.left)/r.width)*2-1;mv.y=-((e.clientY-r.top)/r.height)*2+1;ray.setFromCamera(mv,camera);
-  const hit=ray.intersectObjects(billboards,false)[0];if(hit&&hit.object.userData.name){const n=hit.object.userData.name;if(POOL.includes(n)){showDex(n);document.querySelector('[data-t="dex"]').click();toast(n+' — see Pokédex (base_stats/'+n+'.asm)',2000);}else toast(n+': "…!" (gfx/trainers/'+n+'.png)',2000);}});
+// ---------- trainer sight ----------
+function tickNPC(dt){
+  S.talkCd=Math.max(0,(S.talkCd||0)-dt);
+  for(const n of NPCS[S.map]||[]){
+    if(!n.battle||TRAINERS[n.battle].beaten||S.battle)continue;
+    if(n.mode==='chase'){
+      n.t-=dt;
+      if(n.t<=0){
+        const dx=Math.sign(S.px-n.cx),dy=Math.sign(S.py-n.cy);
+        if(Math.abs(S.px-n.cx)+Math.abs(S.py-n.cy)<=1){n.mode=null;openTrainerBattle(n.battle);return;}
+        if(Math.abs(dx)>=Math.abs(dy))n.cx+=dx;else n.cy+=dy;
+        n.fx=dx;n.fy=dy;n.t=.25;
+      }
+      continue;
+    }
+    for(let d=1;d<=(n.sight||3);d++){
+      if(n.cx+n.fx*d===S.px&&n.cy+n.fy*d===S.py){
+        n.mode='chase';n.t=.8;
+        say('!');log('<b>'+n.key.toUpperCase()+'</b> spotted you!');
+        break;
+      }
+    }
+  }
+}
 
-// ---------- main loop ----------
-const clock=new THREE.Clock();
-function tick(){requestAnimationFrame(tick);const dt=Math.min(clock.getDelta(),.05),t=clock.elapsedTime;
-  const p=window._player;
-  if(p){const sp=10*dt;let mx=0,mz=0;if(keys.w||keys.arrowup)mz-=sp;if(keys.s||keys.arrowdown)mz+=sp;if(keys.a||keys.arrowleft)mx-=sp;if(keys.d||keys.arrowright)mx+=sp;
-    if(mx||mz){const c=Math.cos(yaw),s=Math.sin(yaw);const wx=mx*c-mz*s,wz=mx*s+mz*c;let nx=p.position.x+wx,nz=p.position.z+wz;
-      nx=Math.max(-58,Math.min(58,nx));nz=Math.max(-58,Math.min(58,nz));
-      let blocked=false;for(const o of colliders){const dx=nx-o.x,dz=nz-o.z;if(dx*dx+dz*dz<o.r*o.r){blocked=true;break;}}
-      if(!blocked){p.position.x=nx;p.position.z=nz;}p.rotation.y=Math.atan2(wx,wz);p.position.y=Math.abs(Math.sin(t*10))*.08*(mx||mz?1:0);
-      maybeEncounter(p,t);}
-    encCooldown=Math.max(0,encCooldown-dt);
-    camera.position.set(p.position.x+Math.sin(yaw)*Math.cos(pitch)*dist,p.position.y+Math.sin(pitch)*dist+2,p.position.z+Math.cos(yaw)*Math.cos(pitch)*dist);
-    camera.lookAt(p.position.x,1.5,p.position.z);
-    $('#pos').textContent=`x ${p.position.x.toFixed(0)} · z ${p.position.z.toFixed(0)} · ${zoneAt(p.position.x,p.position.z)}`;
-    if(Math.floor(t*2)!==tick._m){tick._m=Math.floor(t*2);drawMM();}}
-  for(const b of billboards){b.lookAt(camera.position);if(b.userData.base)b.position.y=b.userData.base+Math.sin(t*2+b.userData.ph)*.15;}
-  grassPatches.forEach((g,i)=>{g.rotation.y+=Math.sin(t*3+i)*.0006;});
-  const bl=window._ball;if(bl&&bl.userData.fly){bl.userData.t+=dt;bl.position.y=2+Math.sin(bl.userData.t*6)*1;bl.rotation.x+=dt*8;if(bl.userData.t>1.2)bl.userData.fly=false;}
-  sun.position.set(p?p.position.x+40:40,60,p?p.position.z+20:20);
-  renderer.render(scene,camera);}
+// ---------- UI panels ----------
+async function renderParty(){
+  $('#party').innerHTML=S.party.map(m=>`<div class="mon" style="width:84px"><img data-w="${m.sp}" alt="${nice(m.sp)}"><b>${m.shiny?'✦ ':''}${nice(m.sp)}</b><span style="font-size:10px">Lv${m.lvl} ${m.hp}/${m.max}</span><div class="hpbar" style="height:6px;margin:2px 0 0"><i style="width:${Math.max(0,100*m.hp/m.max)}%"></i></div><div style="font-size:10px;color:var(--dim)">${m.nature||''}</div></div>`).join('')||'<span style="color:var(--dim)">empty — talk to OAK!</span>';
+  for(const el of document.querySelectorAll('#party img')){try{el.src=await wimgURL(el.dataset.w,S.party.find(p=>p.sp===el.dataset.w)?.shiny);}catch{el.style.opacity=.3;}}
+  document.querySelectorAll('#party .mon').forEach((d,i)=>d.onclick=()=>{
+    const n=S.party[i]&&S.party[i].sp;if(!n)return;cry(n);
+    say(nice(n).toUpperCase()+'\nFetching dex entry…');
+    Promise.all([apiMon(n).catch(()=>null),apiSpecies(n).catch(()=>null),apiEvoFor(n).catch(()=>null)]).then(([m,spc,evo])=>{
+      say(nice(n).toUpperCase()+(spc?' — '+spc.genera:'')+'\n'+(spc?('“'+spc.flavor.slice(0,100)+'”'):'')+(evo?'\nEvolves: '+nice(evo.to)+' @Lv'+evo.lvl:' (no evolution)')+(m?'\n#'+m.id+' '+m.types.join('/')+' · '+m.stats.hp+'/'+m.stats.attack+'/'+m.stats.defense+' · '+m.ab[0]:'')+'\n(local base_stats + PokeAPI)');
+    });
+  });
+}
+let DEXN=null,dexPage=0;const DEXP=30;
+async function dexList(){
+  if(DEXN)return DEXN;
+  try{const j=await(await fetch('https://pokeapi.co/api/v2/pokemon?limit=1025')).json();DEXN=j.results;
+    try{localStorage.setItem('pokeapi-dex',JSON.stringify(DEXN));}catch{}
+  }catch{try{DEXN=JSON.parse(localStorage.getItem('pokeapi-dex')||'null');}catch{}}
+  return DEXN;
+}
+function dexId(url){const m=String(url).match(/\/pokemon\/(\d+)\//);return m?+m[1]:0;}
+async function dexRender(){
+  const g=$('#dexgrid2');if(!g||!DEXN)return;
+  const q=($('#dexq').value||'').toLowerCase();
+  const list=DEXN.map((r,i)=>({name:r.name,id:dexId(r.url)||i+1})).filter(x=>!q||x.name.includes(q)||String(x.id)===q);
+  const pages=Math.max(1,Math.ceil(list.length/DEXP));dexPage=Math.min(Math.max(0,dexPage),pages-1);
+  g.innerHTML=list.slice(dexPage*DEXP,(dexPage+1)*DEXP).map(x=>`<div class="mon" data-dex="${x.name}" title="#${x.id} ${x.name}" style="width:auto"><b>#${x.id}</b><b>${x.name}</b></div>`).join('')||'(none)';
+  g.querySelectorAll('.mon').forEach(el=>el.onclick=()=>dexShow(el.dataset.dex));
+  $('#dexdetail').innerHTML=`<span style="color:var(--dim)">page ${dexPage+1}/${pages} · ${list.length} mons · click for entry</span>`;
+}
+async function dexShow(name){
+  const d=$('#dexdetail');d.innerHTML='loading…';
+  try{
+    const [m,spc,evo]=await Promise.all([apiMon(name),apiSpecies(name).catch(()=>null),apiEvoFor(name).catch(()=>null)]);
+    const surl=await wimgURL(name);
+    const areas=await apiEnc(m.enc).catch(()=>[]);
+    d.innerHTML=`<div style="display:flex;gap:8px"><img src="${surl}" style="width:72px;image-rendering:pixelated;background:#0b1220;border-radius:8px"><div><b>#${m.id} ${name}</b><div style="font-size:11px">${m.types.join('/')} · ht ${m.h/10}m wt ${m.w/10}kg · ${m.ab[0]||''}</div><div style="font-size:11px">HP${m.stats.hp} ATK${m.stats.attack} DEF${m.stats.defense} SPD${m.stats.speed}</div><div style="font-size:11px">${spc?('“'+spc.flavor.slice(0,110)+'”'):''}</div><div style="font-size:11px">${evo?('evolves: '+nice(evo.to)+' @Lv'+evo.lvl):'(no evolution)'}</div><div style="font-size:11px;color:var(--dim)">${areas.length?('found: '+areas.join(' · ')):''}</div></div></div>`;
+  }catch{d.innerHTML='offline';}
+}
 
 // ---------- boot ----------
 (async()=>{
   try{
-    setLoad(.03,'mounting pokered-master/ (as-is)…');
-    await build();renderStarters();renderParty();
-    setLoad(.6,'fetching base_stats + dialogue + manifest…');
-    await Promise.allSettled([buildDex(),buildDlg(),buildFiles()]);
-    try{AC=new (window.AudioContext||window.webkitAudioContext)();chiptune();}catch{}
-    // auto demo walk north along the Route 1 path so screenshots feel alive
-    let demo=0;const di=setInterval(()=>{if(demo++>40||keys.w||keys.a||keys.s||keys.d){clearInterval(di);return;}if(window._player){window._player.position.z-=.15;}},80);
-    setLoad(1,'ready — welcome to Kanto 3D');
-    setTimeout(()=>$('#loader').style.display='none',450);
-    setTimeout(()=>{const l=$('#loader');if(l&&l.style.display!=='none'){l.style.display='none';log('⚠ loader force-hidden (slow fetch) — 3D already running.');}},8000);
-    log('✅ <b>3D Kanto online.</b> Sprites + stats + text streaming from original files.');
-    tick();
-  }catch(err){$('#loadmsg').textContent='Boot error: '+err.message;console.error(err);tick();}
+    try{const pr=JSON.parse(localStorage.getItem('ow-prefs')||'{}');
+      if(pr.spr)document.querySelector('#o-spr').value=pr.spr;
+    }catch{}
+    const savePrefs=()=>{try{localStorage.setItem('ow-prefs',JSON.stringify({spr:document.querySelector('#o-spr').value}));}catch{}};
+    document.querySelector('#o-spr').addEventListener('change',savePrefs);
+    lm('original maps + tilesets…');await loadTiles();
+    lm('player sprite…');await loadRed();
+    lm('Kanto maps + 7 regions…');
+    for(const R of REGIONS)genRegionMap(R);
+    for(const k of Object.keys(MAPS))await getMap(k);
+    showMap(S.map);
+    {const pp=cellToWorld(S.px,S.py);playerG.position.set(pp.x,0,pp.z);}
+    lm('wild tables…');
+    await wildTable('Route1');
+    renderParty();await buildFiles();
+    {const tr=$('#regions');
+    const kb=document.createElement('button');kb.className='btn ghost small';kb.textContent='Kanto';kb.style.cssText='font-size:11px';
+    kb.onclick=()=>warp('PalletTown',8,6);tr.appendChild(kb);
+    for(const R of REGIONS){const b=document.createElement('button');b.className='btn ghost small';b.textContent=R.id;b.style.cssText='font-size:11px';b.title=R.blurb;b.onclick=()=>warp(R.id,MAPS[R.id].spawn.x,MAPS[R.id].spawn.y);tr.appendChild(b);}}
+    $('#dexq').oninput=()=>{dexPage=0;dexRender();};
+    $('#dex-prev').onclick=()=>{dexPage--;dexRender();};
+    $('#dex-next').onclick=()=>{dexPage++;dexRender();};
+    dexList().then(()=>dexRender());
+    $('#st-map').textContent=S.map;S.bag=S.bag||{poke:10};S.meds=S.meds||{potion:0,super:0,hyper:0,max:0};S.stones=S.stones||{};fillBallSels();
+    await spawnWilds();
+    await syncNPCs();
+    say('Welcome to the 3D world!\nTalk to OAK (F) for your starter. WASD move, drag to orbit.');
+    log('3D world online. Same original data, real 3D.');
+    $('#loader').style.display='none';
+    window.__game=S;window.__warp=warp;
+    banner('PALLET TOWN');drawMM();setInterval(drawMM,1000);
+    canvas.focus();
+    requestAnimationFrame(frame);
+    setInterval(()=>{if(!S.battle&&Math.random()<.3)spawnWilds().then(syncPropsReset);},20000);
+  }catch(e){lm('Boot error: '+e.message);console.error(e);}
 })();
+function syncPropsReset(){propCache.built=false;}
+async function buildFiles(){
+  try{const m=await(await fetch('manifest.json')).json();$('#st-files')&&($('#st-files').textContent=m.count||m.files?.length||2875);}catch{}
+}
 </script>
 </body>
 </html>

@@ -1,0 +1,20 @@
+{
+  "_howto": "Drop Spriters-Resource overworld sheets here (their pages ask you to self-host, not hotlink). Then point a set at the file and list species slugs in cell order (row-major). cell/cols describe the uniform grid. Example: emerald Kanto overworlds, 16px cells, dex order.",
+  "sets": {
+    "emerald": {
+      "file": "emerald-ow.png",
+      "cell": 32,
+      "cols": 16,
+      "order": []
+    },
+    "trainers": {
+      "_howto": "HGSS/Platinum trainer overworlds: list NPC keys in cell order. Keys used by the game: oak, girl, fisher, boy, girl2, blue, guide, hiker, girl3.",
+      "file": "hgss-trainers.png",
+      "cell": 16,
+      "cols": 16,
+      "order": []
+    }
+  },
+  "trainers": "trainers",
+  "active": "emerald"
+}
