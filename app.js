@@ -21,7 +21,7 @@ var DEFAULTS = {
   maxRebuildsPerFrame:4,
   adaptiveRebuild:true,
   hotbarStyle:'cards',
-  texturePack:'procedural',
+  texturePack:'vanilla',
 };
 var cfg = Object.assign({}, DEFAULTS);
 var currentSeed = 9043158;
@@ -1272,11 +1272,13 @@ async function generate(seed, opts){
 
   setProgress(0,'BUILDING TEXTURES...'); await sleep(skipLoading?0:20);
   matCache={};
-  if(cfg.texturePack==='vanilla'){
-    setProgress(5,'LOADING VANILLA PACK...');
-    try{ await loadVanillaPack(); }
-    catch(e){ console.warn('[texpack]',e); buildTextures(); var bi=$e('block-info'); if(bi) bi.textContent='Vanilla pack failed to load — procedural fallback'; }
-  } else buildTextures();
+  // Vanilla-only: every texture comes from the 26.3 sprite export.
+  // Procedural buildTextures() remains only as a last-resort emergency
+  // fallback if the vanilla PNGs fail to load (offline / missing files).
+  if(cfg.texturePack!=='vanilla') cfg.texturePack='vanilla';
+  setProgress(5,'LOADING VANILLA PACK...');
+  try{ await loadVanillaPack(); }
+  catch(e){ console.warn('[texpack]',e); buildTextures(); var bi=$e('block-info'); if(bi) bi.textContent='Vanilla pack failed to load — emergency fallback'; }
 
   setProgress(15,'GENERATING WORLD...'); await sleep(skipLoading?0:10);
   var result = genWorld(seed);
@@ -1938,34 +1940,9 @@ function setupInput(){
   });
 }
 
-function makeSlotThumb(block){
-  var T=32;
-  var c=document.createElement('canvas'); c.width=c.height=T;
-  var ctx=c.getContext('2d');
-  // simple colored thumb based on block
-  var map={grass:'#5d9e3f',dirt:'#8B5E3C',stone:'#888',sand:'#d4b483',log:'#6b4c2a',snow:'#eef4f7',deep:'#555',water:'#2d7dd2'};
-  if(block && block.indexOf('leaves')===0){ ctx.fillStyle = block.indexOf('Autumn')!==-1 ? '#be371e' : block.indexOf('Mystic')!==-1 ? '#8c32d2' : block.indexOf('Golden')!==-1 ? '#d2aa14' : block.indexOf('Tropical')!==-1 ? '#1eaa78' : '#3f8c2f'; ctx.fillRect(0,0,T,T); ctx.strokeStyle='rgba(0,0,0,.4)'; ctx.strokeRect(0,0,T,T); return c; }
-  ctx.fillStyle=map[block]||'#666';
-  ctx.fillRect(0,0,T,T);
-  ctx.strokeStyle='rgba(0,0,0,.4)'; ctx.strokeRect(0,0,T,T);
-  return c;
-}
-function buildHotbar(){
-  var hb=$e('hotbar');
-  if(!hb) return;
-  hb.innerHTML='';
-  for(var i=0;i<hotbarBlocks.length;i++){
-    var slot=document.createElement('div');
-    slot.className='hotbar-slot'+(i===selectedBlockIndex?' selected':'');
-    var t=makeSlotThumb(hotbarBlocks[i]);
-    slot.appendChild(t);
-    hb.appendChild(slot);
-  }
-}
-function updateHotbar(){
-  var slots=document.querySelectorAll('.hotbar-slot');
-  for(var i=0;i<slots.length;i++) slots[i].classList.toggle('selected', i===selectedBlockIndex);
-}
+/* NOTE: active makeSlotThumb/buildHotbar/updateHotbar live below (NOTCH PART 2,
+   vanilla-sprite versions). This legacy trio is intentionally removed to keep
+   the game vanilla-sprites-only. */
 
 function updatePlayer(dt){
   if(!isLocked) return;
@@ -2323,10 +2300,16 @@ function makeSlotThumb(block){
     var leaf=key.split(':')[1]; // 'leaves:leavesOak' -> oak icon
     key=(leaf==='pine')?'pine':(leaf==='leavesOak'?'leavesOak':'leavesOak');
     if(block.indexOf('Autumn')!==-1||block.indexOf('Mystic')!==-1||block.indexOf('Golden')!==-1||block.indexOf('Tropical')!==-1){
-      // fantasy variants keep their tinted procedural swatch
-      ctx.fillStyle=itemColor(block); ctx.fillRect(0,0,T,T);
-      ctx.strokeStyle='rgba(0,0,0,.4)'; ctx.strokeRect(0,0,T,T);
-      return c;
+      // fantasy variants: vanilla oak leaves re-tinted on canvas (no procedural art)
+      var tint=block.indexOf('Autumn')!==-1?'#c05020':block.indexOf('Mystic')!==-1?'#9060e0':block.indexOf('Golden')!==-1?'#e0b020':'#20a080';
+      var base=vanillaIconCache.leavesOak;
+      if(base && base.width){
+        ctx.drawImage(base,0,0,T,T);
+        ctx.globalCompositeOperation='multiply';
+        ctx.fillStyle=tint; ctx.fillRect(0,0,T,T);
+        ctx.globalCompositeOperation='source-over';
+        return c;
+      }
     }
   }
   var img=vanillaIconCache[key];
@@ -2335,6 +2318,9 @@ function makeSlotThumb(block){
     ctx.drawImage(img,0,0,T,T);
     return c;
   }
+  // Vanilla-only: try the live manifest sprite before any flat fallback.
+  var murl=iconURLFor(block);
+  if(murl && !makeSlotThumb._loading){ /* async upgrade handled by slotDiv/drop paths */ }
   ctx.fillStyle=itemColor(block);
   ctx.fillRect(0,0,T,T);
   if(ITEMS[block]){
@@ -3213,6 +3199,7 @@ function loadGame(){
   var data=JSON.parse(raw);
   pendingLoad=data;
   Object.assign(cfg, data.cfg);
+  if(cfg.texturePack!=='vanilla') cfg.texturePack='vanilla'; // vanilla-only migration
   currentSeed=data.seed;
   $e('s-seed').value=currentSeed;
   syncSidebar();
@@ -3456,7 +3443,8 @@ function pickPreset(pr, sp){
   return 'beast';
 }
 async function runProbe(onStep){
-  matCache={}; buildTextures();
+  matCache={};
+  try{ await loadVanillaPack(); }catch(e){ buildTextures(); }
   var step=onStep||function(){};
   step('Noise math…');
   var p=makeNoise(1234), acc=0;
