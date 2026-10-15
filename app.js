@@ -247,8 +247,61 @@ var VANILLA_TEX={
   bedrock:'textures/vanilla/block__bedrock.png',
   planks:'textures/vanilla/block__oak_planks.png',
   craftTable:'textures/vanilla/block__crafting_table_front.png',
+  craftTableTop:'textures/vanilla/block__crafting_table_top.png',
   furnace:'textures/vanilla/block__furnace_front.png',
+  furnaceTop:'textures/vanilla/block__furnace_top.png',
+  furnaceSide:'textures/vanilla/block__furnace_side.png',
 };
+/* Item/block icons for hotbar, inventory, crafting grid and drops.
+   Real 26.3 sprites snapshotted into textures/vanilla/. */
+var VANILLA_ICONS={
+  stick:'textures/vanilla/item__stick.png',
+  coal:'textures/vanilla/item__coal.png',
+  diamond:'textures/vanilla/item__diamond.png',
+  iron_ingot:'textures/vanilla/item__iron_ingot.png',
+  gold_ingot:'textures/vanilla/item__gold_ingot.png',
+  raw_pork:'textures/vanilla/item__porkchop.png',
+  cooked_pork:'textures/vanilla/item__cooked_porkchop.png',
+  wood_pick:'textures/vanilla/item__wooden_pickaxe.png',
+  stone_pick:'textures/vanilla/item__stone_pickaxe.png',
+  iron_pick:'textures/vanilla/item__iron_pickaxe.png',
+  gold_pick:'textures/vanilla/item__golden_pickaxe.png',
+  diamond_pick:'textures/vanilla/item__diamond_pickaxe.png',
+  wood_sword:'textures/vanilla/item__wooden_sword.png',
+  stone_sword:'textures/vanilla/item__stone_sword.png',
+  iron_sword:'textures/vanilla/item__iron_sword.png',
+  gold_sword:'textures/vanilla/item__golden_sword.png',
+  diamond_sword:'textures/vanilla/item__diamond_sword.png',
+  grass:'textures/vanilla/block__grass_block_side.png',
+  dirt:'textures/vanilla/block__dirt.png',
+  stone:'textures/vanilla/block__stone.png',
+  deep:'textures/vanilla/block__deepslate.png',
+  sand:'textures/vanilla/block__sand.png',
+  log:'textures/vanilla/block__oak_log.png',
+  snow:'textures/vanilla/block__snow.png',
+  planks:'textures/vanilla/block__oak_planks.png',
+  craftTable:'textures/vanilla/block__crafting_table_front.png',
+  furnace:'textures/vanilla/block__furnace_front.png',
+  bedrock:'textures/vanilla/block__bedrock.png',
+  coal_ore:'textures/vanilla/block__coal_ore.png',
+  iron_ore:'textures/vanilla/block__iron_ore.png',
+  gold_ore:'textures/vanilla/block__gold_ore.png',
+  diamond_ore:'textures/vanilla/block__diamond_ore.png',
+  water:'textures/vanilla/block__water_still.png',
+  leavesOak:'textures/vanilla/block__oak_leaves.png',
+  pine:'textures/vanilla/block__spruce_leaves.png',
+};
+var vanillaIconCache={};
+function preloadVanillaIcons(){
+  Object.keys(VANILLA_ICONS).forEach(function(id){
+    if(vanillaIconCache[id]) return;
+    var img=new Image();
+    img.onload=function(){ vanillaIconCache[id]=img; try{ refreshInvUI(); }catch(e){} };
+    img.onerror=function(){ vanillaIconCache[id]=null; };
+    img.src=VANILLA_ICONS[id];
+  });
+}
+var waterAnim=null;
 var VANILLA_LEAF_TINTS={leavesAutumn:'#c05020',leavesMystic:'#9060e0',leavesGolden:'#e0b020',leavesTropical:'#20a080'};
 function loadImage(src){
   return new Promise(function(res,rej){ var i=new Image(); i.onload=function(){res(i);}; i.onerror=function(){rej(new Error('img '+src));}; i.src=src; });
@@ -280,6 +333,35 @@ async function loadVanillaPack(){
   TEXTURES.stone.wrapS=TEXTURES.stone.wrapT=THREE.RepeatWrapping;
   TEXTURES.deepStone.wrapS=TEXTURES.deepStone.wrapT=THREE.RepeatWrapping;
   Object.keys(TEXTURES).forEach(function(k){ TEXTURES[k].magFilter=TEXTURES[k].minFilter=THREE.NearestFilter; });
+  // keep the full water strip for animation; TEXTURES.water shows frame 0
+  try{
+    var wimg=imgs.water;
+    if(wimg && wimg.width>=16 && wimg.height>wimg.width){
+      var frames=Math.floor(wimg.height/wimg.width);
+      var strip=document.createElement('canvas'); strip.width=wimg.width; strip.height=wimg.height;
+      strip.getContext('2d').drawImage(wimg,0,0);
+      waterAnim={strip:strip, size:wimg.width, frames:frames, t:0};
+    } else waterAnim=null;
+  }catch(e){ waterAnim=null; }
+  preloadVanillaIcons();
+}
+function tickWaterAnim(dt){
+  if(!waterAnim || cfg.texturePack!=='vanilla' || !TEXTURES.water) return;
+  waterAnim.t+=dt;
+  if(waterAnim.t<0.15) return;
+  waterAnim.t=0;
+  try{
+    var tex=TEXTURES.water, img=tex.image;
+    if(!img || !img.getContext) return;
+    var s=waterAnim.size, f=Math.floor(performance.now()/400)%waterAnim.frames;
+    var sctx=waterAnim.strip.getContext('2d');
+    var d=img.getContext('2d');
+    var fd=sctx.getImageData(0,f*s,s,s);
+    d.clearRect(0,0,16,16);
+    d.drawImage(waterAnim.strip,0,f*s,s,s,0,0,16,16);
+    void fd;
+    tex.needsUpdate=true;
+  }catch(e){}
 }
 
 /* =====================================================
@@ -297,6 +379,10 @@ function getMat(texKey, opts){
     depthWrite: !(opts && opts.t),
     wireframe: cfg.wireframe
   });
+  // vanilla leaves are real cutouts: punch transparency instead of ghosting
+  if(cfg.texturePack==='vanilla' && (texKey.indexOf('leaves')!==-1||texKey==='pine')){
+    m.alphaTest=0.5; m.transparent=false; m.opacity=1; m.side=THREE.DoubleSide; m.depthWrite=true;
+  }
   matCache[k]=m; return m;
 }
 
@@ -318,8 +404,8 @@ function getTexKey(type, fi){
     case 'diamond_ore': return 'diamond_ore';
     case 'bedrock': return 'bedrock';
     case 'planks': return 'planks';
-    case 'craftTable': return 'craftTable';
-    case 'furnace': return 'furnace';
+    case 'craftTable': return fi===2?'craftTableTop':'craftTable';
+    case 'furnace': return fi===2||fi===3?'furnaceTop':(fi===4?'furnace':'furnaceSide');
     default:      return 'stone';
   }
 }
@@ -1408,7 +1494,7 @@ updateZoneVis();
 onResize();
 applyTOD();
 buildClouds();
-var hb=$e('hotbar'); if(hb){ var hbs=$e('hotbar-style'); hb.className='hotbar-style-'+(cfg.hotbarStyle||(hbs&&hbs.value)||'cards'); } buildHotbar(); setupInput(); wireInvModal(); wireFurnaceModal(); wireSaveLoad(); wirePerfGate(); showPerfGate();
+var hb=$e('hotbar'); if(hb){ var hbs=$e('hotbar-style'); hb.className='hotbar-style-'+(cfg.hotbarStyle||(hbs&&hbs.value)||'cards'); } preloadVanillaIcons(); buildHotbar(); setupInput(); wireInvModal(); wireFurnaceModal(); wireSaveLoad(); wirePerfGate(); showPerfGate();
 
 /* =====================================================
    RENDER LOOP
@@ -1454,6 +1540,7 @@ function animate(){
   }
 
   processDirtyTiles(); try{ updateMobs(dt); }catch(e){}
+  try{ tickWaterAnim(dt); }catch(e){}
   try{ gameTick(dt); }catch(e){ console.error(e); }
   renderer.render(scene,camera);
 }
@@ -2109,6 +2196,24 @@ function makeSlotThumb(block){
   var T=32;
   var c=document.createElement('canvas'); c.width=c.height=T;
   var ctx=c.getContext('2d');
+  ctx.imageSmoothingEnabled=false;
+  var key=block;
+  if(key && key.indexOf(':')!==-1){
+    var leaf=key.split(':')[1]; // 'leaves:leavesOak' -> oak icon
+    key=(leaf==='pine')?'pine':(leaf==='leavesOak'?'leavesOak':'leavesOak');
+    if(block.indexOf('Autumn')!==-1||block.indexOf('Mystic')!==-1||block.indexOf('Golden')!==-1||block.indexOf('Tropical')!==-1){
+      // fantasy variants keep their tinted procedural swatch
+      ctx.fillStyle=itemColor(block); ctx.fillRect(0,0,T,T);
+      ctx.strokeStyle='rgba(0,0,0,.4)'; ctx.strokeRect(0,0,T,T);
+      return c;
+    }
+  }
+  var img=vanillaIconCache[key];
+  if(img && img.width){
+    ctx.clearRect(0,0,T,T);
+    ctx.drawImage(img,0,0,T,T);
+    return c;
+  }
   ctx.fillStyle=itemColor(block);
   ctx.fillRect(0,0,T,T);
   if(ITEMS[block]){
@@ -2148,16 +2253,32 @@ function updateSurvivalHUD(){
 /* Drops */
 var drops=[];
 var dropGeoShared=null;
+var dropTexCache={};
+function dropTexture(id){
+  if(dropTexCache[id]) return dropTexCache[id];
+  var img=vanillaIconCache[id];
+  if(!img || !img.width) return null;
+  var t=new THREE.CanvasTexture(img);
+  t.magFilter=t.minFilter=THREE.NearestFilter;
+  dropTexCache[id]=t;
+  return t;
+}
 function spawnDrop(id, count, x, y, z){
   if(drops.length>40) { var old=drops.shift(); if(old.mesh){ scene.remove(old.mesh); } }
   var m=null;
   try{
-    if(!dropGeoShared) dropGeoShared=new THREE.BoxGeometry(0.3,0.3,0.3);
-    m=new THREE.Mesh(dropGeoShared, new THREE.MeshLambertMaterial({color:itemColor(id)}));
+    var tex=dropTexture(id);
+    if(tex){
+      m=new THREE.Sprite(new THREE.SpriteMaterial({map:tex, transparent:true, alphaTest:0.4, depthWrite:false}));
+      m.scale.set(0.45,0.45,1);
+    } else {
+      if(!dropGeoShared) dropGeoShared=new THREE.BoxGeometry(0.3,0.3,0.3);
+      m=new THREE.Mesh(dropGeoShared, new THREE.MeshLambertMaterial({color:itemColor(id)}));
+    }
     m.position.set(x+0.5, y+0.7, z+0.5);
     scene.add(m);
   }catch(e){ m=null; }
-  drops.push({id:id, count:count, x:x+0.5, y:y+0.7, z:z+0.5, vy:0, mesh:m, age:0});
+  drops.push({id:id, count:count, x:x+0.5, y:y+0.7, z:z+0.5, vy:0, mesh:m, age:0, sprite:!!(m&&m.isSprite)});
 }
 function updateDrops(dt){
   for(var i=drops.length-1;i>=0;i--){
@@ -2178,7 +2299,11 @@ function updateDrops(dt){
     if(dist<1.2 && d.age>0.5){
       if(addItem(d.id, d.count)){ if(d.mesh) scene.remove(d.mesh); drops.splice(i,1); Sfx.play('pickup'); refreshInvUI(); continue; }
     }
-    if(d.mesh){ d.mesh.position.set(d.x,d.y,d.z); d.mesh.rotation.y+=dt*2; }
+    if(d.mesh){
+      d.mesh.position.set(d.x,d.y+Math.sin(d.age*3)*0.05,d.z);
+      if(d.sprite){ d.mesh.material.rotation+=dt*1.5; }
+      else d.mesh.rotation.y+=dt*2;
+    }
   }
 }
 function clearDrops(){
@@ -2905,6 +3030,9 @@ animate();
   window.VC.light=function(x,y,z){ return lightAt(x,y,z); };
   window.VC.key=function(code,down){ keys[code]=!!down; };
   window.VC.keys=function(){ var o={}; for(var k in keys) o[k]=keys[k]; return o; };
+  window.VC.iconCached=function(id){ var im=vanillaIconCache[id]; return !!(im&&im.width); };
+  window.VC.iconsCached=function(){ var n=0; for(var k in vanillaIconCache){ if(vanillaIconCache[k]&&vanillaIconCache[k].width) n++; } return n; };
+  window.VC.waterFrames=function(){ return waterAnim?waterAnim.frames:0; };
   window.VC.pstate=function(){ return {sprinting:!!player.sprinting, crawling:!!player.crawling, h:player.size[1], eye:player.eyeHeight, onGround:player.onGround}; };
   window.VC.bench=function(){ return JSON.parse(JSON.stringify({frames:bench.frames, frameMs:Math.round(bench.frameMsAvg*100)/100, fps:fps, tilesTotal:bench.tilesTotal, tilesLoaded:Object.keys(tileGroupsMap).length, dirty:dirtyTilesSet.size, pendingPeak:bench.pendingPeak, rebuilds:bench.rebuilds, lastMs:Math.round(bench.lastMs*100)/100, lastKey:bench.lastKey, avgMs:Math.round(bench.rebuildMsAvg*100)/100, maxMs:Math.round(bench.rebuildMsMax*100)/100, tris:bench.tris, verts:bench.verts, benchRes:bench.benchRes})); };
   window.VC.markAllDirty=function(){ markAllDirty(); return dirtyTilesSet.size; };
