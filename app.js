@@ -22,6 +22,8 @@ var DEFAULTS = {
   adaptiveRebuild:true,
   hotbarStyle:'cards',
   texturePack:'procedural',
+  piano:true,
+  music:true,
 };
 var cfg = Object.assign({}, DEFAULTS);
 var currentSeed = 9043158;
@@ -343,6 +345,49 @@ async function loadVanillaPack(){
       waterAnim={strip:strip, size:wimg.width, frames:frames, t:0};
     } else waterAnim=null;
   }catch(e){ waterAnim=null; }
+  preloadVanillaIcons();
+}
+/* =====================================================
+   CLASSIC 0.8 PACK — authentic upload textures
+   (reference/minecraft-decompiled-0.8-alpha/, textures/classic08/).
+   grass.png/dirt.png drive terrain; clouds.png tints clouds;
+   char.png skins the zombie (classic mobs used /char.png).
+===================================================== */
+var CLASSIC_TEX={
+  grass:'textures/classic08/grass.png',
+  dirt:'textures/classic08/dirt.png',
+  clouds:'textures/classic08/clouds.png',
+  char:'textures/classic08/char.png',
+};
+var classicCloudTex=null, charSkinTex=null;
+async function loadClassicPack(){
+  var grass=await loadImage(CLASSIC_TEX.grass);
+  var dirt=await loadImage(CLASSIC_TEX.dirt);
+  var gcv=vanillaCanvas(grass), dcv=vanillaCanvas(dirt);
+  TEXTURES.grassTop=mkTex(gcv);
+  TEXTURES.dirt=mkTex(dcv);
+  // grass side: authentic dirt with a grass lip on top
+  var side=makeCanv(16), sctx=side.getContext('2d');
+  sctx.imageSmoothingEnabled=false;
+  sctx.drawImage(dcv,0,0);
+  sctx.drawImage(gcv,0,0,16,4,0,0,16,4);
+  TEXTURES.grassSide=mkTex(side);
+  try{
+    var clouds=await loadImage(CLASSIC_TEX.clouds);
+    var ccv=document.createElement('canvas'); ccv.width=clouds.width; ccv.height=clouds.height;
+    ccv.getContext('2d').drawImage(clouds,0,0);
+    classicCloudTex=new THREE.CanvasTexture(ccv);
+    classicCloudTex.magFilter=classicCloudTex.minFilter=THREE.NearestFilter;
+    classicCloudTex.wrapS=classicCloudTex.wrapT=THREE.RepeatWrapping;
+  }catch(e){ classicCloudTex=null; }
+  try{
+    var ch=await loadImage(CLASSIC_TEX.char);
+    var chcv=document.createElement('canvas'); chcv.width=ch.width; chcv.height=ch.height;
+    chcv.getContext('2d').drawImage(ch,0,0);
+    charSkinTex=new THREE.CanvasTexture(chcv);
+    charSkinTex.magFilter=charSkinTex.minFilter=THREE.NearestFilter;
+  }catch(e){ charSkinTex=null; }
+  Object.keys(TEXTURES).forEach(function(k){ TEXTURES[k].magFilter=TEXTURES[k].minFilter=THREE.NearestFilter; });
   preloadVanillaIcons();
 }
 function tickWaterAnim(dt){
@@ -1000,6 +1045,10 @@ function buildClouds(){
       color:0xffffff, transparent:true, opacity:cfg.cloudOpa,
       depthWrite:false, side:THREE.FrontSide
     });
+    // Classic 0.8 upload: authentic clouds.png on the cloud layer
+    if(cfg.texturePack==='classic08' && classicCloudTex){
+      mat.map=classicCloudTex; mat.needsUpdate=true;
+    }
 
     var mesh=new THREE.Mesh(geo,mat);
     mesh.position.set(wx0, cfg.cloudH, wz0);
@@ -1160,11 +1209,16 @@ async function generate(seed, opts){
   $e('hud-size').textContent=CHUNK; $e('hud-size2').textContent=CHUNK;
 
   setProgress(0,'BUILDING TEXTURES...'); await sleep(skipLoading?0:20);
-  matCache={};
+  matCache={}; waterAnim=null;
   if(cfg.texturePack==='vanilla'){
     setProgress(5,'LOADING VANILLA PACK...');
     try{ await loadVanillaPack(); }
     catch(e){ console.warn('[texpack]',e); buildTextures(); var bi=$e('block-info'); if(bi) bi.textContent='Vanilla pack failed to load — procedural fallback'; }
+  } else if(cfg.texturePack==='classic08'){
+    setProgress(5,'LOADING CLASSIC 0.8 PACK...');
+    buildTextures();
+    try{ await loadClassicPack(); }
+    catch(e){ console.warn('[texpack]',e); var bi2=$e('block-info'); if(bi2) bi2.textContent='Classic 0.8 pack failed to load — procedural fallback'; }
   } else buildTextures();
 
   setProgress(15,'GENERATING WORLD...'); await sleep(skipLoading?0:10);
@@ -1395,6 +1449,8 @@ $e('cb-wireframe').addEventListener('change',function(){
   if(worldGroup) worldGroup.traverse(function(o){ if(o.material) o.material.wireframe=cfg.wireframe; });
 });
 $e('cb-autorotate').addEventListener('change',function(){ cfg.autoRotate=this.checked; });
+$e('cb-piano').addEventListener('change',function(){ cfg.piano=this.checked; if(this.checked){ try{sf2Ensure();}catch(e){} } });
+$e('cb-music').addEventListener('change',function(){ cfg.music=this.checked; ensureMusic(); });
   var hbsel=$e('hotbar-style'); if(hbsel){ hbsel.addEventListener('change',function(){ cfg.hotbarStyle=this.value; var hb=$e('hotbar'); if(hb){ hb.className='hotbar-style-'+cfg.hotbarStyle; }}); }
   var radapt=$e('rebuild-adaptive'); if(radapt){ radapt.addEventListener('change',function(){ cfg.adaptiveRebuild=this.checked; rebuildAdaptive=this.checked; }); }
   var smax=$e('s-maxrebuild'); if(smax){ smax.addEventListener('input',function(){ cfg.maxRebuildsPerFrame=parseInt(this.value); maxRebuildsBudget=cfg.maxRebuildsPerFrame; var v=$e('v-maxrebuild'); if(v) v.textContent=this.value; updateSliderGrad(this); }); }
@@ -1419,6 +1475,7 @@ $e('btn-reset').addEventListener('click',function(){
   document.querySelectorAll('.sz-badge').forEach(function(b){ b.classList.toggle('active',parseInt(b.dataset.idx)===cfg.chunkIdx); });
   document.querySelectorAll('.pill').forEach(function(p){ p.classList.toggle('active',p.dataset.type===cfg.noiseType); });
   $e('cb-water').checked=cfg.showWater; $e('cb-wireframe').checked=cfg.wireframe; $e('cb-autorotate').checked=cfg.autoRotate;
+  $e('cb-piano').checked=cfg.piano; $e('cb-music').checked=cfg.music;
   var ps=$e('sel-pack'); if(ps) ps.value=cfg.texturePack;
   $e('s-seed').value=currentSeed;
   updateZoneVis();
@@ -1544,74 +1601,73 @@ function animate(){
   try{ gameTick(dt); }catch(e){ console.error(e); }
   renderer.render(scene,camera);
 }
-function moveAxisX(a, dx){
-  var na=AABB(a.x0+dx, a.y0, a.z0, a.x1+dx, a.y1, a.z1);
-  if(dx>0){
-    var maxX=Math.floor(na.x1);
-    for(var x=Math.floor(a.x1); x<=maxX; x++){
-      for(var y=Math.floor(a.y0); y<Math.ceil(a.y1); y++){
-        for(var z=Math.floor(a.z0); z<Math.ceil(a.z1); z++){
-          if(isSolidAt(x,y,z)){ na.x1=x; na.x0=x- (a.x1-a.x0); return na; }
-        }
-      }
-    }
-  } else if(dx<0){
-    var minX=Math.ceil(na.x0)-1;
-    for(var x=Math.floor(a.x0)-1; x>=minX; x--){
-      for(var y=Math.floor(a.y0); y<Math.ceil(a.y1); y++){
-        for(var z=Math.floor(a.z0); z<Math.ceil(a.z1); z++){
-          if(isSolidAt(x,y,z)){ na.x0=x+1; na.x1=x+1+(a.x1-a.x0); return na; }
-        }
-      }
+/* Authentic 0.8-alpha AABB clip (reference/.../phys/AABB.java, epsilon=0).
+   Signature: clip<Axis>(blockBox, moverBox, delta) — method on the block,
+   mover passed in. Y resolved first, then X, then Z (see Entity.move). */
+var PHYS_EPSILON=0;
+function clipXCollide(box, c, xa){
+  if(c.y1>box.y0 && c.y0<box.y1){
+    if(c.z1>box.z0 && c.z0<box.z1){
+      var max;
+      if(xa>0 && c.x1<=box.x0){ max=box.x0-c.x1-PHYS_EPSILON; if(max<xa) xa=max; }
+      if(xa<0 && c.x0>=box.x1){ max=box.x1-c.x0+PHYS_EPSILON; if(max>xa) xa=max; }
+      return xa;
     }
   }
+  return xa;
+}
+function clipYCollide(box, c, ya){
+  if(c.x1>box.x0 && c.x0<box.x1){
+    if(c.z1>box.z0 && c.z0<box.z1){
+      var max;
+      if(ya>0 && c.y1<=box.y0){ max=box.y0-c.y1-PHYS_EPSILON; if(max<ya) ya=max; }
+      if(ya<0 && c.y0>=box.y1){ max=box.y1-c.y0+PHYS_EPSILON; if(max>ya) ya=max; }
+      return ya;
+    }
+  }
+  return ya;
+}
+function clipZCollide(box, c, za){
+  if(c.x1>box.x0 && c.x0<box.x1){
+    if(c.y1>box.y0 && c.y0<box.y1){
+      var max;
+      if(za>0 && c.z1<=box.z0){ max=box.z0-c.z1-PHYS_EPSILON; if(max<za) za=max; }
+      if(za<0 && c.z0>=box.z1){ max=box.z1-c.z0+PHYS_EPSILON; if(max>za) za=max; }
+      return za;
+    }
+  }
+  return za;
+}
+function blockAABB(x,y,z){ return AABB(x,y,z,x+1,y+1,z+1); }
+function moveAxisX(a, dx){
+  // Authentic 0.8: clip requested delta against every solid neighbour (epsilon 0),
+  // then shift. Same result as face-snapping, exact on grazes/edges.
+  var x0=Math.floor(a.x0+Math.min(0,dx))-1, x1=Math.ceil(a.x1+Math.max(0,dx))+1;
+  for(var x=x0;x<=x1;x++)
+    for(var y=Math.floor(a.y0);y<Math.ceil(a.y1);y++)
+      for(var z=Math.floor(a.z0);z<Math.ceil(a.z1);z++)
+        if(isSolidAt(x,y,z)) dx=clipXCollide(blockAABB(x,y,z),a,dx);
+  var w=a.x1-a.x0;
+  var na=AABB(a.x0+dx,a.y0,a.z0,a.x0+dx+w,a.y1,a.z1);
   return na;
 }
 function moveAxisY(a, dy){
-  var na=AABB(a.x0, a.y0+dy, a.z0, a.x1, a.y1+dy, a.z1);
-  if(dy>0){
-    var maxY=Math.floor(na.y1);
-    for(var y=Math.floor(a.y1); y<=maxY; y++){
-      for(var x=Math.floor(a.x0); x<Math.ceil(a.x1); x++){
-        for(var z=Math.floor(a.z0); z<Math.ceil(a.z1); z++){
-          if(isSolidAt(x,y,z)){ na.y1=y; na.y0=y-(a.y1-a.y0); return na; }
-        }
-      }
-    }
-  } else if(dy<0){
-    var minY=Math.ceil(na.y0)-1;
-    for(var y=Math.floor(a.y0)-1; y>=minY; y--){
-      for(var x=Math.floor(a.x0); x<Math.ceil(a.x1); x++){
-        for(var z=Math.floor(a.z0); z<Math.ceil(a.z1); z++){
-          if(isSolidAt(x,y,z)){ na.y0=y+1; na.y1=y+1+(a.y1-a.y0); return na; }
-        }
-      }
-    }
-  }
-  return na;
+  var y0=Math.floor(a.y0+Math.min(0,dy))-1, y1=Math.ceil(a.y1+Math.max(0,dy))+1;
+  for(var y=y0;y<=y1;y++)
+    for(var x=Math.floor(a.x0);x<Math.ceil(a.x1);x++)
+      for(var z=Math.floor(a.z0);z<Math.ceil(a.z1);z++)
+        if(isSolidAt(x,y,z)) dy=clipYCollide(blockAABB(x,y,z),a,dy);
+  var h=a.y1-a.y0;
+  return AABB(a.x0,a.y0+dy,a.z0,a.x1,a.y0+dy+h,a.z1);
 }
 function moveAxisZ(a, dz){
-  var na=AABB(a.x0, a.y0, a.z0+dz, a.x1, a.y1, a.z1+dz);
-  if(dz>0){
-    var maxZ=Math.floor(na.z1);
-    for(var z=Math.floor(a.z1); z<=maxZ; z++){
-      for(var x=Math.floor(a.x0); x<Math.ceil(a.x1); x++){
-        for(var y=Math.floor(a.y0); y<Math.ceil(a.y1); y++){
-          if(isSolidAt(x,y,z)){ na.z1=z; na.z0=z-(a.z1-a.z0); return na; }
-        }
-      }
-    }
-  } else if(dz<0){
-    var minZ=Math.ceil(na.z0)-1;
-    for(var z=Math.floor(a.z0)-1; z>=minZ; z--){
-      for(var x=Math.floor(a.x0); x<Math.ceil(a.x1); x++){
-        for(var y=Math.floor(a.y0); y<Math.ceil(a.y1); y++){
-          if(isSolidAt(x,y,z)){ na.z0=z+1; na.z1=z+1+(a.z1-a.z0); return na; }
-        }
-      }
-    }
-  }
-  return na;
+  var z0=Math.floor(a.z0+Math.min(0,dz))-1, z1=Math.ceil(a.z1+Math.max(0,dz))+1;
+  for(var z=z0;z<=z1;z++)
+    for(var x=Math.floor(a.x0);x<Math.ceil(a.x1);x++)
+      for(var y=Math.floor(a.y0);y<Math.ceil(a.y1);y++)
+        if(isSolidAt(x,y,z)) dz=clipZCollide(blockAABB(x,y,z),a,dz);
+  var d=a.z1-a.z0;
+  return AABB(a.x0,a.y0,a.z0+dz,a.x1,a.y1,a.z0+dz+d);
 }
 
 function moveAABB(a, dx,dy,dz){
@@ -2312,6 +2368,86 @@ function clearDrops(){
 }
 
 /* =====================================================
+   CLASSIC PARTICLES — Tile.destroy 4×4×4 burst + Particle tick
+   (reference/.../level/tile/Tile.java, particle/Particle.java).
+   64 shards per break, gravity −0.04/tick, drag 0.98, ground
+   friction 0.7, lifetime 4/(rand*0.9+0.1) ticks.
+===================================================== */
+var breakParticles=[];
+var breakPoints=null, breakGeo=null;
+var MAX_BREAK_PARTICLES=768;
+function avgTexColor(texKey){
+  try{
+    var tex=TEXTURES[texKey];
+    var img=tex&&tex.image;
+    if(!img||!img.width) return [0.6,0.55,0.5];
+    var cv=document.createElement('canvas'); cv.width=cv.height=8;
+    var cx=cv.getContext('2d'); cx.drawImage(img,0,0,8,8);
+    var d=cx.getImageData(0,0,8,8).data, r=0,g=0,b=0,n=0;
+    for(var i=0;i<d.length;i+=16){ r+=d[i]; g+=d[i+1]; b+=d[i+2]; n++; }
+    return [r/n/255,g/n/255,b/n/255];
+  }catch(e){ return [0.6,0.55,0.5]; }
+}
+function spawnBreakParticles(x,y,z){
+  var t=G(x,y,z);
+  var texKey='dirt';
+  try{ texKey=getTexKey(t||'dirt',2)||'dirt'; }catch(e){}
+  var col=avgTexColor(texKey);
+  var SD=4;
+  for(var xx=0;xx<SD;xx++) for(var yy=0;yy<SD;yy++) for(var zz=0;zz<SD;zz++){
+    if(breakParticles.length>=MAX_BREAK_PARTICLES) breakParticles.shift();
+    var xp=x+(xx+0.5)/SD, yp=y+(yy+0.5)/SD, zp=z+(zz+0.5)/SD;
+    var xa=xp-(x+0.5), ya=yp-(y+0.5), za=zp-(z+0.5);
+    var xd=xa+(Math.random()*2-1)*0.4, yd=ya+(Math.random()*2-1)*0.4, zd=za+(Math.random()*2-1)*0.4;
+    var sp=(Math.random()+Math.random()+1)*0.15;
+    var dd=Math.sqrt(xd*xd+yd*yd+zd*zd)||1;
+    breakParticles.push({
+      x:xp,y:yp,z:zp,
+      xd:xd/dd*sp*0.4, yd:yd/dd*sp*0.4+0.1, zd:zd/dd*sp*0.4,
+      age:0, life:4/(Math.random()*0.9+0.1),
+      r:col[0],g:col[1],b:col[2]
+    });
+  }
+  syncBreakPoints();
+}
+function syncBreakPoints(){
+  try{
+    if(breakPoints){ scene.remove(breakPoints); breakGeo.dispose(); breakPoints=null; }
+    if(!breakParticles.length) return;
+    breakGeo=new THREE.BufferGeometry();
+    var pos=new Float32Array(breakParticles.length*3), col=new Float32Array(breakParticles.length*3);
+    for(var i=0;i<breakParticles.length;i++){
+      var p=breakParticles[i];
+      pos[i*3]=p.x; pos[i*3+1]=p.y; pos[i*3+2]=p.z;
+      col[i*3]=p.r; col[i*3+1]=p.g; col[i*3+2]=p.b;
+    }
+    breakGeo.setAttribute('position',new THREE.BufferAttribute(pos,3));
+    breakGeo.setAttribute('color',new THREE.BufferAttribute(col,3));
+    breakPoints=new THREE.Points(breakGeo,new THREE.PointsMaterial({size:0.12,vertexColors:true,sizeAttenuation:true,transparent:true,opacity:0.95,depthWrite:false}));
+    scene.add(breakPoints);
+  }catch(e){}
+}
+function tickBreakParticles(dt){
+  if(!breakParticles.length) return;
+  var step=Math.min(4,Math.max(1,Math.round(dt*20))); // classic ticks at 20tps
+  for(var s=0;s<step;s++){
+    for(var i=breakParticles.length-1;i>=0;i--){
+      var p=breakParticles[i];
+      p.age+=0.05;
+      if(p.age>=p.life){ breakParticles.splice(i,1); continue; }
+      p.yd-=0.04;
+      // collide against world like an Entity (cheap AABB point probe)
+      var nx=p.x+p.xd, ny=p.y+p.yd, nz=p.z+p.zd;
+      var solid=isSolidAt(Math.floor(nx),Math.floor(ny),Math.floor(nz));
+      if(solid){ p.xd*=0.7; p.zd*=0.7; p.yd=0; }
+      else { p.x+=p.xd; p.y+=p.yd; p.z+=p.zd; }
+      p.xd*=0.98; p.yd*=0.98; p.zd*=0.98;
+    }
+  }
+  syncBreakPoints();
+}
+
+/* =====================================================
    NOTCH PART 3 — mining, tools, input, tick hub
 ===================================================== */
 function sfx(n){ try{ if(typeof Sfx!=='undefined' && Sfx) Sfx.play(n); }catch(e){} }
@@ -2341,6 +2477,7 @@ function doBreak(x,y,z){
     tool.stack.dur--;
     if(tool.stack.dur<=0){ inv.hot[selectedBlockIndex]=null; sfx('break_tool'); }
   }
+  try{ spawnBreakParticles(x,y,z); }catch(e){}
   setBlock(x,y,z,null);
   if(def.drop && okTier) spawnDrop(def.drop, 1, x, y, z);
   sfx('break');
@@ -2422,6 +2559,7 @@ function setupInput(){
     cfg.autoRotate = !isLocked;
     var cb=$e('cb-autorotate'); if(cb) cb.checked=cfg.autoRotate;
     if(!isLocked){ lmbDown=false; mining.active=false; }
+    else { try{ sf2Ensure(); }catch(e){} ensureMusic(); }
   });
   document.addEventListener('mousemove', function(e){
     if(!isLocked) return;
@@ -2440,6 +2578,7 @@ function aabbIntersect(a,b){
 function gameTick(dt){
   try{ miningTick(dt); }catch(e){ console.error(e); }
   try{ updateDrops(dt); }catch(e){ console.error(e); }
+  try{ tickBreakParticles(dt); }catch(e){ console.error(e); }
   try{ if(typeof furnaceTick==='function') furnaceTick(dt); }catch(e){ console.error(e); }
   try{ if(typeof survivalTick==='function') survivalTick(dt); }catch(e){ console.error(e); }
   try{ if(typeof spawnerTick==='function') spawnerTick(dt); }catch(e){ console.error(e); }
@@ -2746,6 +2885,11 @@ var MOBTYPES={
 };
 function mobMesh(type){
   var T=MOBTYPES[type]||MOBTYPES.zombie;
+  // Classic 0.8 upload: zombies wear the authentic /char.png skin
+  if(type==='zombie' && charSkinTex){
+    return new THREE.Mesh(new THREE.BoxGeometry(0.6,T.h,0.6),
+      new THREE.MeshLambertMaterial({map:charSkinTex}));
+  }
   var m=new THREE.Mesh(new THREE.BoxGeometry(0.6,T.h,0.6), new THREE.MeshLambertMaterial({color:T.color}));
   return m;
 }
@@ -2755,7 +2899,8 @@ function spawnMob(type, x, y, z){
   var mesh=mobMesh(type);
   mesh.position.set(x, y+T.h/2, z);
   scene.add(mesh);
-  var mob={type:type, pos:[x,y,z], vel:[0,0,0], hp:T.hp, maxhp:T.hp, mesh:mesh, hurtT:0, attackT:0, wanderT:0, dir:Math.random()*Math.PI*2};
+  var mob={type:type, pos:[x,y,z], vel:[0,0,0], hp:T.hp, maxhp:T.hp, mesh:mesh, hurtT:0, attackT:0, wanderT:0, dir:Math.random()*Math.PI*2,
+    rot:Math.random()*Math.PI*2, rotA:(Math.random()+1)*0.01, timeOffs:Math.random()*1239813};
   mobs.push(mob);
   return mob;
 }
@@ -2838,7 +2983,24 @@ function updateMobs(dt){
     if(mob.vel[1]<-30) mob.vel[1]=-30;
     var dx=player.pos[0]-mob.pos[0], dz=player.pos[2]-mob.pos[2];
     var d=Math.sqrt(dx*dx+dz*dz);
-    if(T.hostile && !dead && d<14 && d>1.6){ mob.vel[0]=(dx/d)*2.2; mob.vel[2]=(dz/d)*2.2; }
+    if(mob.type==='zombie' && !(T.hostile && !dead && d<14 && d>1.6)){
+      // Authentic 0.8 Zombie.tick wander (character/Zombie.java):
+      // rot drifts by rotA, rotA damps 0.99 + random walk kicks,
+      // 8% hop when grounded, ground/air control 0.1/0.02, classic friction.
+      mob.rot=(mob.rot||0)+(mob.rotA||0.01)*dt*20;
+      mob.rotA=(mob.rotA||0.01)*Math.pow(0.99,dt*20);
+      mob.rotA+=(Math.random()-Math.random())*Math.random()*Math.random()*0.08*dt*20;
+      var wxa=Math.sin(mob.rot), wza=Math.cos(mob.rot);
+      var ctl=mob.onGround?0.1:0.02;
+      var ml=Math.sqrt(wxa*wxa+wza*wza);
+      if(ml>=0.1){ var sc=ctl/Math.sqrt(ml); mob.vel[0]+=wxa*sc; mob.vel[2]+=wza*sc; }
+      if(mob.onGround && Math.random()<0.08*dt*20) mob.vel[1]=8; // classic 0.5 blocks/tick hop
+      var fr91=Math.pow(0.91,dt*20), fr98=Math.pow(0.98,dt*20), fr70=Math.pow(0.7,dt*20);
+      mob.vel[0]*=fr91; mob.vel[2]*=fr91; mob.vel[1]*=fr98;
+      if(mob.onGround){ mob.vel[0]*=fr70; mob.vel[2]*=fr70; }
+      if(mob.mesh) mob.mesh.rotation.y=mob.rot;
+    }
+    else if(T.hostile && !dead && d<14 && d>1.6){ mob.vel[0]=(dx/d)*2.2; mob.vel[2]=(dz/d)*2.2; }
     else if(mob.type==='pig'){
       mob.wanderT-=dt;
       if(mob.wanderT<=0){ mob.wanderT=2+Math.random()*4; mob.dir=Math.random()*Math.PI*2; }
@@ -2850,6 +3012,7 @@ function updateMobs(dt){
     var a=aabbFromSize(mob.pos[0],mob.pos[1],mob.pos[2],0.6,h,0.6);
     var mv=moveAABB(a, mob.vel[0]*dt, mob.vel[1]*dt, mob.vel[2]*dt);
     mob.pos[0]=mv.aabb.x0+0.3; mob.pos[1]=mv.aabb.y0; mob.pos[2]=mv.aabb.z0+0.3;
+    mob.onGround = mv.collidedY<0;
     if(mv.collidedY!==0) mob.vel[1]=0;
     if(mob.hurtT>0){ mob.hurtT-=dt; if(mob.hurtT<=0){ try{mob.mesh.material.emissive=new THREE.Color(0x000000);}catch(e){} } }
     mob.attackT-=dt;
@@ -2945,6 +3108,16 @@ var Sfx={ctx:null,
       else if(n==='deny') this.tone(120,0.15,'square',0.1);
       else if(n==='break_tool') this.noise(0.3,0.15,500);
       else if(n==='death') this.tone(300,0.8,'sawtooth',0.15,60);
+      // Uploaded SoundFont layer (assets/Minecraft.sf2, Grand Piano)
+      if(cfg.piano && Sf2Piano.state==='ready'){
+        if(n==='pickup') sf2Note(88,0,0.5,0.09);
+        else if(n==='craft'){ sf2Note(72,0,0.8,0.09); sf2Note(76,0.09,0.8,0.09); sf2Note(79,0.18,1.0,0.09); }
+        else if(n==='smelt') sf2Note(81,0,0.8,0.08);
+        else if(n==='hurt') sf2Note(48,0,0.6,0.12);
+        else if(n==='death'){ sf2Note(55,0,0.9,0.11); sf2Note(51,0.25,1.0,0.11); sf2Note(48,0.5,1.4,0.11); }
+        else if(n==='break') sf2Note(64,0,0.3,0.05);
+        else if(n==='place') sf2Note(67,0,0.3,0.05);
+      }
     }catch(e){}
   }
 };
@@ -3006,6 +3179,163 @@ function saveTick(dt){
   autoSaveAcc+=dt;
   if(autoSaveAcc>60){ autoSaveAcc=0; if(isLocked && !dead) saveGame(true); }
 }
+/* =====================================================
+   SF2 PIANO — plays the uploaded assets/Minecraft.sf2
+   (Grand Piano, preset 0) through WebAudio. Minimal parser:
+   RIFF/sdta/smpl PCM + pdta preset→instrument→sample zones,
+   key-range lookup, pitch-shifted one-shots with decay.
+   Falls back silently to the retro synth if anything fails.
+===================================================== */
+var Sf2Piano={state:'idle', presets:null, samples:null, sampleData:null, ctxRate:44100};
+function sf2ReadStr(d,o,n){ var s=''; for(var i=0;i<n;i++){ var c=d[o+i]; if(c===0) break; s+=String.fromCharCode(c); } return s; }
+function sf2U16(d,o){ return d[o]|(d[o+1]<<8); }
+function sf2U32(d,o){ return (d[o]|(d[o+1]<<8)|(d[o+2]<<16)|(d[o+3]<<24))>>>0; }
+function sf2I16(d,o){ var v=sf2U16(d,o); return v>=0x8000?v-0x10000:v; }
+async function sf2Ensure(){
+  if(Sf2Piano.state==='ready') return true;
+  if(Sf2Piano.state==='loading') return false;
+  Sf2Piano.state='loading';
+  try{
+    var res=await fetch('assets/Minecraft.sf2');
+    if(!res.ok) throw new Error('sf2 http '+res.status);
+    var buf=new Uint8Array(await res.arrayBuffer());
+    if(sf2ReadStr(buf,0,4)!=='RIFF'||sf2ReadStr(buf,8,4)!=='sfbk') throw new Error('not sfbk');
+    var smpl=null, pdta={};
+    var off=12;
+    function walk(end){
+      while(off+8<=end){
+        var id=sf2ReadStr(buf,off,4), sz=sf2U32(buf,off+4);
+        var body=off+8, bend=body+sz+(sz%2);
+        if(id==='LIST'){
+          var listType=sf2ReadStr(buf,body,4);
+          var save=off; off=body+4;
+          if(listType==='sdta'||listType==='pdta'){
+            while(off+8<=bend){
+              var sid=sf2ReadStr(buf,off,4), ssz=sf2U32(buf,off+4);
+              var sbody=off+8, send=sbody+ssz+(ssz%2);
+              if(listType==='sdta'&&sid==='smpl') smpl=buf.subarray(sbody,sbody+ssz);
+              if(listType==='pdta'&&['phdr','pbag','pgen','inst','ibag','igen','shdr'].indexOf(sid)!==-1) pdta[sid]=buf.subarray(sbody,sbody+ssz);
+              off=send;
+            }
+          }
+          off=bend; void save;
+        } else off=bend;
+      }
+    }
+    walk(buf.length);
+    if(!smpl||!pdta.phdr||!pdta.shdr) throw new Error('sf2 missing chunks');
+    Sf2Piano.sampleData=smpl;
+    var nSh=pdta.shdr.length/46, samples=[];
+    for(var i=0;i<nSh;i++){
+      var b=i*46;
+      samples.push({
+        name:sf2ReadStr(pdta.shdr,b,20),
+        start:sf2U32(pdta.shdr,b+20), end:sf2U32(pdta.shdr,b+24),
+        loopStart:sf2U32(pdta.shdr,b+28), loopEnd:sf2U32(pdta.shdr,b+32),
+        rate:sf2U32(pdta.shdr,b+36), pitch:0, correction:0, link:0, type:0
+      });
+      samples[i].pitch=pdta.shdr[b+37];
+      samples[i].correction=sf2I16(new Uint8Array([pdta.shdr[b+38],pdta.shdr[b+39]]),0);
+      samples[i].link=sf2U16(pdta.shdr,b+40);
+      samples[i].type=sf2U16(pdta.shdr,b+42);
+    }
+    Sf2Piano.samples=samples;
+    // preset zones: find preset 0 bank 0
+    var nPh=pdta.phdr.length/38, bag0=-1,bag1=-1;
+    for(var p=0;p<nPh-1;p++){
+      var pb=p*38, pn=sf2U16(pdta.phdr,pb+20), bk=sf2U16(pdta.phdr,pb+22);
+      if(pn===0&&bk===0){ bag0=sf2U16(pdta.phdr,pb+24); bag1=sf2U16(pdta.phdr,pb+38+24); break; }
+    }
+    if(bag0<0) throw new Error('no preset 0');
+    var zones=[];
+    for(var bg=bag0;bg<bag1;bg++){
+      var g0=sf2U32(pdta.pbag,bg*4), g1=sf2U32(pdta.pbag,bg*4+4);
+      var z={inst:-1,lo:0,hi:127,coarse:0,fine:0};
+      for(var g=g0;g<g1;g++){
+        var gen=sf2U16(pdta.pgen,g*4), amt=sf2I16(pdta.pgen,g*4+2);
+        if(gen===41) z.inst=amt;
+        else if(gen===43){ z.lo=amt&0xff; z.hi=(amt>>8)&0xff; }
+        else if(gen===51) z.coarse=amt;
+        else if(gen===52) z.fine=amt;
+      }
+      if(z.inst>=0) zones.push(z);
+    }
+    // resolve instrument -> sample for each zone (first sample generator wins)
+    var nInst=pdta.inst.length/22;
+    Sf2Piano.presets=zones.map(function(z){
+      var i0=sf2U16(pdta.inst,z.inst*22+20), i1=(z.inst+1<nInst)?sf2U16(pdta.inst,(z.inst+1)*22+20):pdta.ibag.length/4;
+      for(var ib=i0;ib<i1;ib++){
+        var q0=sf2U32(pdta.ibag,ib*4), q1=sf2U32(pdta.ibag,ib*4+4);
+        var sample=-1,lo=z.lo,hi=z.hi,coarse=z.coarse,fine=z.fine;
+        for(var q=q0;q<q1;q++){
+          var gg=sf2U16(pdta.igen,q*4), aa=sf2I16(pdta.igen,q*4+2);
+          if(gg===53) sample=aa;
+          else if(gg===43){ lo=aa&0xff; hi=(aa>>8)&0xff; }
+          else if(gg===51) coarse+=aa;
+          else if(gg===52) fine+=aa;
+        }
+        if(sample>=0&&sample<samples.length) return {sample:sample,lo:lo,hi:hi,coarse:coarse,fine:fine};
+      }
+      return null;
+    }).filter(Boolean);
+    if(!Sf2Piano.presets.length) throw new Error('no zones');
+    Sf2Piano.state='ready';
+    return true;
+  }catch(e){ Sf2Piano.state='failed'; Sf2Piano.err=String(e&&e.message||e); return false; }
+}
+function sf2Note(midi, delay, dur, gain){
+  try{
+    if(!cfg.piano) return;
+    if(Sf2Piano.state!=='ready') return;
+    var ac=Sfx.ensure(); if(!ac) return;
+    var Z=null;
+    for(var i=0;i<Sf2Piano.presets.length;i++){ var z=Sf2Piano.presets[i]; if(midi>=z.lo&&midi<=z.hi){ Z=z; break; } }
+    if(!Z) Z=Sf2Piano.presets[0];
+    var S=Sf2Piano.samples[Z.sample];
+    var cents=(midi*100)-(S.pitch*100+S.correction)+Z.coarse*100+Z.fine;
+    var rate=Math.pow(2,cents/1200)*(S.rate/ac.sampleRate);
+    if(!isFinite(rate)||rate<=0.05||rate>16) return;
+    var n=S.end-S.start;
+    if(n<=64) return;
+    var raw=Sf2Piano.sampleData;
+    var len=Math.min(n, Math.floor(ac.sampleRate*(dur||1.2)*rate)+64);
+    var ab=ac.createBuffer(1,len,ac.sampleRate);
+    var ch=ab.getChannelData(0);
+    for(var s=0;s<len;s++){
+      var idx=(S.start+Math.floor(s*rate))*2;
+      var v=(raw[idx]|(raw[idx+1]<<8));
+      if(v>=0x8000) v-=0x10000;
+      ch[s]=v/32768;
+    }
+    var src=ac.createBufferSource(); src.buffer=ab;
+    var g=ac.createGain();
+    var t=ac.currentTime+(delay||0), D=dur||1.2, gv=gain||0.12;
+    g.gain.setValueAtTime(0.0001,t);
+    g.gain.exponentialRampToValueAtTime(Math.max(0.0011,gv),t+0.015);
+    g.gain.exponentialRampToValueAtTime(0.0001,t+D);
+    src.connect(g); g.connect(ac.destination);
+    src.start(t); src.stop(t+D+0.05);
+  }catch(e){}
+}
+var musicTimer=null;
+function musicTick(){
+  try{
+    if(!cfg.music||dead) return;
+    if(Sf2Piano.state!=='ready') return;
+    var scale=[60,62,64,67,69,72,74,76];
+    var root=scale[Math.floor(Math.random()*scale.length)];
+    sf2Note(root,0,2.2,0.05);
+    sf2Note(root+7,0.35,2.0,0.04);
+    if(Math.random()<0.5) sf2Note(root+12,0.7,2.4,0.035);
+  }catch(e){}
+}
+function ensureMusic(){
+  if(musicTimer) return;
+  musicTimer=setInterval(function(){
+    if(cfg.music && !dead && isLocked) musicTick();
+  },22000);
+}
+
 /* test hooks */
 animate();
 (function(){
@@ -3034,6 +3364,10 @@ animate();
   window.VC.iconsCached=function(){ var n=0; for(var k in vanillaIconCache){ if(vanillaIconCache[k]&&vanillaIconCache[k].width) n++; } return n; };
   window.VC.waterFrames=function(){ return waterAnim?waterAnim.frames:0; };
   window.VC.pstate=function(){ return {sprinting:!!player.sprinting, crawling:!!player.crawling, h:player.size[1], eye:player.eyeHeight, onGround:player.onGround}; };
+  window.VC.particles=function(){ return breakParticles.length; };
+  window.VC.sf2=function(){ return {state:Sf2Piano.state, zones:Sf2Piano.presets?Sf2Piano.presets.length:0, err:Sf2Piano.err||null}; };
+  window.VC.sf2note=function(m){ sf2Note(m||72,0,1.0,0.1); return Sf2Piano.state; };
+  window.VC.zombieRot=function(i){ var m=mobs[i||0]; return m?{rot:m.rot,rotA:m.rotA,type:m.type}:null; };
   window.VC.bench=function(){ return JSON.parse(JSON.stringify({frames:bench.frames, frameMs:Math.round(bench.frameMsAvg*100)/100, fps:fps, tilesTotal:bench.tilesTotal, tilesLoaded:Object.keys(tileGroupsMap).length, dirty:dirtyTilesSet.size, pendingPeak:bench.pendingPeak, rebuilds:bench.rebuilds, lastMs:Math.round(bench.lastMs*100)/100, lastKey:bench.lastKey, avgMs:Math.round(bench.rebuildMsAvg*100)/100, maxMs:Math.round(bench.rebuildMsMax*100)/100, tris:bench.tris, verts:bench.verts, benchRes:bench.benchRes})); };
   window.VC.markAllDirty=function(){ markAllDirty(); return dirtyTilesSet.size; };
   window.VC.benchSync=function(){ return benchRebuildAllSync(); };
