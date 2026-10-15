@@ -1,0 +1,1029 @@
+/* ==========================================================================
+   SNESBOY 1:1 STANDALONE STYLESHEET (`style.css`)
+   Built using your OG template with Pluggable Top-Loading Cartridge Art
+   ========================================================================== */
+
+
+/* Reset & Box Sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Press Start 2P', monospace;
+  background-color: #3b284f;
+  color: #fff;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Hidden elements */
+.hidden { display: none !important; }
+.hidden-input { display: none; }
+
+
+/* Themes */
+body.theme-snes { background-color: #3b284f; }
+body.theme-famicom { background-color: #800000; }
+
+
+/* Responsive Layout Switching */
+.handheld-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+
+.desktop-container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+
+@media (min-width: 1024px) {
+  .handheld-container { display: none; }
+  .desktop-container { display: flex; }
+}
+
+
+/* ==========================================================================
+   1. HANDHELD / GAME BOY STYLES
+   ========================================================================== */
+.handheld-casing {
+  width: 100%;
+  max-width: 380px;
+  background: #d1d5db;
+  border: 4px solid #9ca3af;
+  border-radius: 1.5rem;
+  padding: 1.25rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  color: #374151;
+}
+
+
+.screen-section {
+  background: #1f2937;
+  border: 2px solid #000;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+.screen-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ef4444;
+  border: 2px solid #000;
+}
+
+
+.screen-title {
+  color: #9ca3af;
+  font-size: 7px;
+  letter-spacing: 1px;
+}
+
+
+.screen-bezel {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 10 / 9;
+  background: #6b7280;
+  border-top: 4px solid #111827;
+  border-left: 4px solid #111827;
+  border-radius: 0.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+#handheld-screen, #desktop-screen {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+
+.screen-off-display {
+  position: absolute;
+  inset: 0;
+  background: #14532d;
+  color: #86efac;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+
+.status-main { font-size: 11px; font-weight: bold; }
+.status-sub { font-size: 8px; opacity: 0.8; }
+
+
+.handheld-brand {
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: bold;
+  color: #1e40af;
+  letter-spacing: -1px;
+}
+
+
+.controls-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+
+.dpad-container {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.dpad-cross-h {
+  position: absolute;
+  width: 100%;
+  height: 33.33%;
+  background: #111827;
+  border-radius: 6px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
+}
+
+
+.dpad-cross-v {
+  position: absolute;
+  width: 33.33%;
+  height: 100%;
+  background: #111827;
+  border-radius: 6px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
+}
+
+
+.dpad-center {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #1f2937;
+  pointer-events: none;
+}
+
+
+.dpad-btn {
+  position: absolute;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  touch-action: none;
+}
+
+
+.dpad-up { top: 0; left: 33.33%; width: 33.33%; height: 33.33%; }
+.dpad-down { bottom: 0; left: 33.33%; width: 33.33%; height: 33.33%; }
+.dpad-left { left: 0; top: 33.33%; width: 33.33%; height: 33.33%; }
+.dpad-right { right: 0; top: 33.33%; width: 33.33%; height: 33.33%; }
+
+
+.snes-handheld-buttons {
+  position: relative;
+  width: 110px;
+  height: 110px;
+}
+
+
+.bottom-controls-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+
+.select-start-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+
+.pill-btn {
+  background: #1f2937;
+  color: #f3f4f6;
+  border: 1px solid #374151;
+  border-radius: 9999px;
+  padding: 0.35rem 0.8rem;
+  font-family: inherit;
+  font-size: 7px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transform: rotate(-30deg);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.4);
+  touch-action: none;
+}
+
+
+.speaker-grille {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transform: rotate(-30deg);
+}
+
+
+.speaker-line {
+  width: 45px;
+  height: 4px;
+  background: #1f2937;
+  border-radius: 2px;
+  opacity: 0.4;
+}
+
+
+.system-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  padding-top: 0.75rem;
+  border-top: 2px solid #9ca3af;
+}
+
+
+.sys-btn {
+  background: #374151;
+  border: 2px solid #4b5563;
+  color: #f3f4f6;
+  border-radius: 6px;
+  padding: 0.4rem 0.75rem;
+  font-family: inherit;
+  font-size: 8px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+
+.sys-btn-power.power-on { background: #16a34a; border-color: #15803d; }
+.sys-btn-purple { background: #7e22ce; border-color: #6b21a8; }
+.sys-btn-blue { background: #1d4ed8; border-color: #1e40af; }
+.file-label { display: inline-flex; align-items: center; justify-content: center; }
+
+
+.toolbar-bar {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+
+.tool-icon-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #374151;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.tool-eject { background: #991b1b; }
+
+
+.key-help {
+  text-align: center;
+  font-size: 6px;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+
+/* ==========================================================================
+   2. DESKTOP TV & 3D TOP-LOAD CONSOLE STYLES (OG Base + Pluggable Cartridge)
+   ========================================================================== */
+.tv-frame {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  border: 18px solid #27272a;
+  background: #18181b;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.8);
+  margin-bottom: 2rem;
+}
+
+
+.tv-screen-bezel {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #000;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.tv-screen-glass {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4b5563;
+}
+
+
+.tv-power-indicator {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1.25rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #450a0a;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.led-light {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #ef4444;
+  opacity: 0.2;
+  transition: opacity 0.3s;
+}
+
+
+.led-light.active { opacity: 1; box-shadow: 0 0 8px #ef4444; }
+
+
+.tv-brand {
+  position: absolute;
+  bottom: -2.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: #9ca3af;
+}
+
+
+.tv-sidebar-controls {
+  position: absolute;
+  right: -5rem;
+  top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+
+.tv-side-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tv-side-btn.purple { background: #7e22ce; }
+.tv-side-btn.gray { background: #374151; }
+.tv-side-btn.red { background: #b91c1c; }
+
+
+/* 3D Console Art Container */
+#snes {
+  width: 45em;
+  height: 18em;
+  margin: 2.5em auto 1.5rem auto;
+  position: relative;
+  color: #B62F28;
+  font-family: 'Coda Caption', sans-serif;
+  font-size: 11px;
+}
+
+
+#snes:after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 0;
+  box-shadow: 0 0 5em 3em rgba(0, 0, 0, 0.4);
+  bottom: -4%;
+  left: 10%;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+
+/* ==========================================================================
+   STANDALONE PLUGGABLE CARTRIDGE (Floats above console, docks down into slot)
+   ========================================================================== */
+.standalone-cartridge-container {
+  position: absolute;
+  top: -4.2em;
+  left: 15.5em;
+  width: 14em;
+  height: 6em;
+  cursor: pointer;
+  z-index: 30;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+
+.cartridge-hitbox {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  z-index: 40;
+}
+
+
+.snes-cartridge-body {
+  position: absolute;
+  inset: 0;
+  background: #d0cbc7;
+  border: 2px solid #a49e9a;
+  border-bottom: none;
+  border-radius: 0.45em 0.45em 0 0;
+  box-shadow: 0 -4px 10px rgba(0,0,0,0.3), inset 0 2px 4px rgba(255,255,255,0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.standalone-cartridge-container:hover {
+  transform: translateY(4.6em); /* Docks straight down into the console slot like a real SNES! */
+}
+
+
+.cartridge-arch-top {
+  width: 86%;
+  height: 0.55em;
+  background: #b5afa9;
+  border-radius: 0.25em 0.25em 0 0;
+  margin-top: 0.3em;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+}
+
+
+.cartridge-label-area {
+  width: 76%;
+  height: 2.6em;
+  background: #4a4240;
+  border-radius: 0.2em;
+  margin-top: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.8);
+}
+
+
+.cartridge-label-text {
+  font-size: 6px;
+  color: #f3f4f6;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+
+.grip-ribs {
+  position: absolute;
+  top: 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+.grip-ribs.left { left: 0.4em; }
+.grip-ribs.right { right: 0.4em; }
+
+
+.grip-ribs span {
+  width: 0.8em;
+  height: 0.3em;
+  background: #b5afa9;
+  border-radius: 1px;
+}
+
+
+/* Console Top Deck */
+.snes-top {
+  position: absolute;
+  top: 3.5em;
+  left: 0;
+  width: 45em;
+  height: 7.4em;
+  background: #cdc8c5;
+  border-radius: 0.3em 0.3em 0 0;
+  box-shadow: 0 0.1em 0 #B8B4B2, 0 0.5em 0 -0.2em #535353;
+  border-top: 0.2em solid rgba(255, 255, 255, 0.32);
+  border-left: 0.2em solid rgba(255, 255, 255, 0.32);
+}
+
+
+.console-title-branding {
+  position: absolute;
+  top: 0.4em;
+  left: 1.2em;
+}
+.console-title-branding h1 { font-size: 1.2em; color: #423b4f; letter-spacing: 2px; }
+.console-title-branding h2 { font-size: 0.55em; color: #423b4f; letter-spacing: 1px; margin-top: 0.2em; }
+
+
+/* Open Top-Loading Slot Bay on Console */
+.cartridge-slot-bay {
+  width: 15em;
+  height: 2.2em;
+  position: absolute;
+  left: 15em;
+  top: 2.4em;
+  border-radius: 0.3em;
+  overflow: hidden;
+  background: #221f24;
+  box-shadow: inset 0 3px 6px #000;
+}
+
+
+.cartridge-slot-border {
+  position: absolute;
+  inset: 0;
+  border: 2px solid #99938f;
+  border-radius: 0.3em;
+}
+
+
+.cartridge-slot-hole {
+  width: 90%;
+  height: 50%;
+  background: #110f12;
+  position: absolute;
+  left: 5%;
+  top: 25%;
+  border-radius: 0.15em;
+  box-shadow: inset 0 2px 4px #000;
+}
+
+
+.snes-bottom {
+  width: 39em;
+  height: 7.5em;
+  background: #7A7077;
+  position: absolute;
+  bottom: 0;
+  left: 3em;
+  box-shadow: 0 0.6em 1em -0.3em rgba(0, 0, 0, 0.45);
+  border-radius: 0 0 0.3em 0.3em;
+}
+
+
+.power-box {
+  position: absolute;
+  left: 1.4em;
+  width: 11.5em;
+  top: 0;
+  height: 5.8em;
+}
+
+
+#power-checkbox { display: none; }
+
+
+.power-btn-label, .reset-btn-label {
+  position: absolute;
+  cursor: pointer;
+  width: 5em;
+  height: 2.4em;
+  line-height: 2.4em;
+  left: 1.5em;
+  top: 1.5em;
+  font-size: 0.7em;
+  text-align: center;
+  background: #5b358c;
+  border-radius: 0.3em;
+  box-shadow: 0 4px 0 #3d225e, 0 6px 8px rgba(0,0,0,0.4);
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.1s;
+}
+
+
+.reset-btn-label { left: 6.5em; }
+
+
+.power-btn-label:active, .reset-btn-label:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #3d225e, 0 2px 4px rgba(0,0,0,0.4);
+}
+
+
+.console-led {
+  position: absolute;
+  width: 0.6em;
+  height: 0.6em;
+  left: 0.6em;
+  bottom: 1.3em;
+  background: #333;
+  border-radius: 1px;
+  transition: all 0.2s;
+}
+
+
+.console-led.active {
+  background: #22c55e;
+  box-shadow: 0 0 10px #22c55e, inset 0 0 4px #fff;
+}
+
+
+.gamepads-slots {
+  height: 100%;
+  position: absolute;
+  width: 19%;
+  right: 13%;
+  background: #333;
+}
+
+
+.gamepad-slot {
+  position: absolute;
+  bottom: 2.15em;
+  width: 3em;
+  left: 0.8em;
+  height: 4em;
+  border-radius: 0.6em;
+  background: #222;
+}
+
+
+.p2 { right: 0.8em; left: auto; }
+
+
+/* ==========================================================================
+   3. SNES CONTROLLER CSS ART (4 Action Buttons X, Y, B, A)
+   ========================================================================== */
+.controller-container {
+  position: relative;
+  width: 600px;
+  height: 240px;
+  margin: 1.5rem auto;
+  font-size: 12px;
+}
+
+
+.controller-cord {
+  position: absolute;
+  background: #111;
+  top: -15px;
+  left: 50%;
+  width: 10px;
+  height: 30px;
+  transform: translateX(-50%);
+}
+
+
+.controller-outer-box {
+  position: absolute;
+  inset: 0;
+  background: #D0CFCB;
+  border-radius: 0.5em;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+
+.controller-cord-connection {
+  background: #8D8C8A;
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 28px;
+  height: 10px;
+  border-radius: 3px 3px 0 0;
+}
+
+
+.controller-inner-box {
+  background: #36312C;
+  position: absolute;
+  inset: 12px;
+  border-radius: 0.3em;
+  display: flex;
+}
+
+
+.left-inner-box, .center-inner-box, .right-inner-box {
+  position: relative;
+  height: 100%;
+}
+
+
+.left-inner-box { width: 33.33%; }
+.center-inner-box { width: 28%; }
+.right-inner-box { width: 38.67%; }
+
+
+/* Controller D-Pad */
+.up-down-outer-box, .left-right-outer-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #D0CFCB;
+  border-radius: 4px;
+}
+.up-down-outer-box { width: 36px; height: 108px; }
+.left-right-outer-box { width: 108px; height: 36px; }
+
+
+.up-down-inner-box, .left-right-inner-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #2C2823;
+  border-radius: 3px;
+}
+.up-down-inner-box { width: 30px; height: 100px; }
+.left-right-inner-box { width: 100px; height: 30px; }
+
+
+.center-circle {
+  background: #363330;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 24px;
+}
+
+
+.up-arrow, .down-arrow, .left-arrow, .right-arrow {
+  position: absolute;
+  cursor: pointer;
+  touch-action: none;
+}
+
+
+.up-arrow { top: 0; left: 0; width: 30px; height: 35px; }
+.down-arrow { bottom: 0; left: 0; width: 30px; height: 35px; }
+.left-arrow { left: 0; top: 0; width: 35px; height: 30px; }
+.right-arrow { right: 0; top: 0; width: 35px; height: 30px; }
+
+
+.up-arrow:after, .down-arrow:after, .left-arrow:after, .right-arrow:after {
+  content: "";
+  position: absolute;
+  border: 6px solid transparent;
+}
+.up-arrow:after { border-bottom-color: #555; top: 6px; left: 9px; }
+.down-arrow:after { border-top-color: #555; bottom: 6px; left: 9px; }
+.left-arrow:after { border-right-color: #555; left: 6px; top: 9px; }
+.right-arrow:after { border-left-color: #555; right: 6px; top: 9px; }
+
+
+/* Controller Center */
+.center-decorative-box {
+  background: #A3A2A0;
+  width: 100%;
+  height: 18px;
+  position: absolute;
+}
+.dec-1 { top: 12px; }
+.dec-2 { top: 38px; }
+.dec-3 { top: 64px; text-align: center; }
+.dec-4 { bottom: 12px; }
+
+
+.select-start-text {
+  font-size: 8px;
+  color: #5b358c;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+
+.center-button-box {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: #A3A2A0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.center-button-box-inner-border {
+  display: flex;
+  gap: 16px;
+}
+
+
+.left-button, .right-button {
+  background: #5b358c;
+  width: 44px;
+  height: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px #000;
+  touch-action: none;
+}
+
+
+/* Controller Right (SNES 4-Button Diamond Layout) */
+.system-text {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #5b358c;
+  font-style: italic;
+}
+
+
+.snes-buttons-container {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+  width: 110px;
+  height: 110px;
+}
+
+
+.action-btn-snes {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Coda Caption', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 0 3px 0 rgba(0,0,0,0.5);
+  touch-action: none;
+}
+
+
+.btn-y { top: 36px; left: 0; background: #3b383d; color: #9ca3af; border-bottom: 2px solid #555; }
+.btn-x { top: 0; left: 36px; background: #3b383d; color: #9ca3af; border-bottom: 2px solid #555; }
+.btn-b { bottom: 0; left: 36px; background: #5b358c; color: #fff; }
+.btn-a { top: 36px; right: 0; background: #b91c1c; color: #fff; }
+
+
+.desktop-footer-help {
+  text-align: center;
+  font-size: 8px;
+  color: #c084fc;
+  margin-top: 1rem;
+}
+
+
+/* ==========================================================================
+   4. MODAL DIALOGS
+   ========================================================================== */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 1rem;
+}
+
+
+.modal-card {
+  background: #1f2937;
+  border: 3px solid #5b358c;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 500px;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.9);
+}
+
+
+.modal-header {
+  padding: 1rem 1.25rem;
+  background: #111827;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #5b358c;
+}
+.modal-header h2 { font-size: 12px; color: #c084fc; }
+.modal-close-btn {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+.modal-body {
+  padding: 1.25rem;
+  overflow-y: auto;
+  font-size: 9px;
+  line-height: 1.6;
+}
+.modal-desc { margin-bottom: 1rem; color: #9ca3af; }
+
+
+.modal-footer {
+  padding: 1rem 1.25rem;
+  background: #111827;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  border-top: 2px solid #5b358c;
+}
+
+
+.modal-action-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-family: inherit;
+  font-size: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+.modal-action-btn.primary { background: #5b358c; color: #fff; }
+.modal-action-btn.secondary { background: #374151; color: #fff; }

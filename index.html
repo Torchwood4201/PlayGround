@@ -1,0 +1,340 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SNESBOY - SNES Emulator</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <!-- Standalone Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* ---- emulator integration (kept separate from style.css) ---- */
+    .handheld-container, .desktop-container { margin: auto; }
+    #ejs-stage { position: absolute; inset: 0; z-index: 1; }
+    #ejs-stage canvas { image-rendering: pixelated; image-rendering: crisp-edges; }
+    .ejs_parent, #ejs-stage > div { width: 100% !important; height: 100% !important; }
+    .screen-off-display { z-index: 3; }
+    .crt-overlay {
+      position: absolute; inset: 0; z-index: 2; pointer-events: none;
+      background: repeating-linear-gradient(0deg, rgba(0,0,0,.22) 0 1px, transparent 1px 3px);
+    }
+    /* The SNESBoy CSS-art pads ARE the controllers: the emulator's own
+       touch overlay must never appear. */
+    #ejs-stage .ejs_virtualGamepad_parent,
+    #ejs-stage .ejs_virtualGamepad_open { display: none !important; }
+    .action-btn-snes.pressed { transform: scale(.92); filter: brightness(.75); }
+    .left-button.pressed, .right-button.pressed { transform: translateY(1px); filter: brightness(.7); }
+    .pill-btn.pressed { background: #111827; }
+    .rom-list-container { display: flex; flex-direction: column; gap: .5rem; max-height: 250px; overflow-y: auto; }
+    .rom-list-item { background: #111827; border: 1px solid #5b358c; border-radius: .5rem; padding: .75rem; display: flex; justify-content: space-between; align-items: center; gap: .5rem; }
+    .rom-name { font-size: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 250px; color: #f3f4f6; }
+    .rom-actions { display: flex; gap: .5rem; }
+    .rom-btn-play, .rom-btn-del { padding: .35rem .6rem; font-family: inherit; font-size: 8px; border-radius: 4px; border: none; cursor: pointer; font-weight: bold; }
+    .rom-btn-play { background: #16a34a; color: #fff; }
+    .rom-btn-del { background: #dc2626; color: #fff; }
+    .info-text p { margin-bottom: .75rem; color: #9ca3af; }
+  </style>
+</head>
+<body class="theme-snes">
+
+
+  <!-- ========================================== -->
+  <!-- MOBILE / HANDHELD GAME BOY VIEW -->
+  <!-- ========================================== -->
+  <div id="handheld-view" class="handheld-container">
+    <div class="handheld-casing">
+
+      <!-- Screen Area -->
+      <div class="screen-section">
+        <div class="screen-header">
+          <span class="screen-dot"></span>
+          <span class="screen-title">DOT MATRIX WITH STEREO SOUND</span>
+          <span class="screen-dot"></span>
+        </div>
+        <div class="screen-bezel">
+          <canvas id="handheld-screen" width="256" height="240"></canvas>
+          <div id="handheld-off-message" class="screen-off-display">
+            <p id="handheld-status-text" class="status-main">Power is OFF</p>
+            <p id="handheld-sub-text" class="status-sub">Press POWER to start</p>
+          </div>
+        </div>
+        <div class="handheld-brand">SNESBOY</div>
+      </div>
+
+
+      <!-- Controls Area -->
+      <div class="controls-section">
+        <!-- D-Pad -->
+        <div class="dpad-container">
+          <div class="dpad-cross-h"></div>
+          <div class="dpad-cross-v"></div>
+          <button type="button" class="dpad-btn dpad-up" data-button="4" aria-label="Up"></button>
+          <button type="button" class="dpad-btn dpad-down" data-button="5" aria-label="Down"></button>
+          <button type="button" class="dpad-btn dpad-left" data-button="6" aria-label="Left"></button>
+          <button type="button" class="dpad-btn dpad-right" data-button="7" aria-label="Right"></button>
+          <div class="dpad-center"></div>
+        </div>
+
+
+        <!-- Action Buttons Y, X, B, A -->
+        <div class="action-buttons-container snes-handheld-buttons">
+          <button type="button" class="action-btn-snes btn-y" data-button="8" aria-label="Y">Y</button>
+          <button type="button" class="action-btn-snes btn-x" data-button="9" aria-label="X">X</button>
+          <button type="button" class="action-btn-snes btn-b" data-button="1" aria-label="B">B</button>
+          <button type="button" class="action-btn-snes btn-a" data-button="0" aria-label="A">A</button>
+        </div>
+      </div>
+
+
+      <!-- Select / Start & Speaker -->
+      <div class="bottom-controls-section">
+        <div class="select-start-buttons">
+          <div class="pill-btn-wrapper">
+            <button type="button" class="pill-btn" data-button="2" aria-label="Select">SELECT</button>
+          </div>
+          <div class="pill-btn-wrapper">
+            <button type="button" class="pill-btn" data-button="3" aria-label="Start">START</button>
+          </div>
+        </div>
+        <div class="speaker-grille">
+          <div class="speaker-line"></div>
+          <div class="speaker-line"></div>
+          <div class="speaker-line"></div>
+          <div class="speaker-line"></div>
+          <div class="speaker-line"></div>
+          <div class="speaker-line"></div>
+        </div>
+      </div>
+
+
+      <!-- System Function Buttons -->
+      <div class="system-bar">
+        <button type="button" id="btn-power" class="sys-btn sys-btn-power">POWER</button>
+        <button type="button" id="btn-theme" class="sys-btn">THEME</button>
+        <button type="button" id="btn-library" class="sys-btn sys-btn-purple">MY GAMES</button>
+        <label class="sys-btn sys-btn-blue file-label">
+          ADD ROM
+          <input type="file" id="rom-file-input" accept=".sfc,.smc,.zip" class="hidden-input">
+        </label>
+      </div>
+
+
+      <!-- Quick Toolbar -->
+      <div class="toolbar-bar">
+        <button type="button" id="btn-info" class="tool-icon-btn" title="Controls & Info">ℹ️</button>
+        <button type="button" id="btn-sound" class="tool-icon-btn" title="Toggle Mute">🔊</button>
+        <button type="button" id="btn-crt" class="tool-icon-btn" title="Toggle CRT Shaders">📺</button>
+        <button type="button" id="btn-reset" class="tool-icon-btn" title="Reset Game">🔄</button>
+        <button type="button" id="btn-eject" class="tool-icon-btn tool-eject" title="Eject ROM">⏏️</button>
+      </div>
+
+
+      <div class="key-help">
+        <p>KEYBOARD: Arrows=D-Pad | X/A/B/Y = Action | Enter=Start | Shift=Select</p>
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- DESKTOP TV & 3D TOP-LOAD SNES CONSOLE VIEW -->
+  <!-- ========================================== -->
+  <div id="desktop-view" class="desktop-container">
+
+    <!-- TV Screen Monitor -->
+    <div class="tv-frame">
+      <div class="tv-screen-bezel">
+        <div class="tv-screen-glass">
+          <canvas id="desktop-screen" width="256" height="240"></canvas>
+          <div id="desktop-off-message" class="screen-off-display">
+            <p id="desktop-status-text" class="status-main">Power is OFF</p>
+            <p id="desktop-sub-text" class="status-sub">Click POWER or insert a ROM</p>
+          </div>
+        </div>
+      </div>
+      <div class="tv-power-indicator">
+        <div id="tv-led" class="led-light"></div>
+      </div>
+      <div class="tv-brand">SNES-TV</div>
+
+
+      <!-- Quick TV Sidebar Controls -->
+      <div class="tv-sidebar-controls">
+        <button type="button" id="dt-btn-library" class="tv-side-btn purple" title="My Games Library">📁</button>
+        <button type="button" id="dt-btn-info" class="tv-side-btn gray" title="Controls & Info">ℹ️</button>
+        <button type="button" id="dt-btn-crt" class="tv-side-btn gray" title="Toggle CRT Shaders">📺</button>
+        <button type="button" id="dt-btn-sound" class="tv-side-btn gray" title="Toggle Sound">🔊</button>
+        <button type="button" id="dt-btn-theme" class="tv-side-btn gray" title="Switch Theme">🎨</button>
+        <button type="button" id="dt-btn-eject" class="tv-side-btn red" title="Eject ROM">⏏️</button>
+      </div>
+    </div>
+
+
+    <!-- 3D Top-Load SNES Console (Based directly on your original OG template structure with separate pluggable Cartridge) -->
+    <div id="snes">
+
+      <!-- SEPARATE PLUGGABLE CARTRIDGE (Positions above console, plugs down into the slot) -->
+      <div class="standalone-cartridge-container" id="cartridge" title="Click or Drop ROM to Insert Cartridge">
+        <label for="desktop-rom-file-input" class="cartridge-hitbox"></label>
+        <input type="file" id="desktop-rom-file-input" accept=".sfc,.smc,.zip" class="hidden-input">
+        <div class="snes-cartridge-body">
+          <div class="cartridge-arch-top"></div>
+          <div class="cartridge-label-area">
+            <span class="cartridge-label-text">16-BIT GAME PAK</span>
+          </div>
+          <div class="grip-ribs left"><span></span><span></span><span></span></div>
+          <div class="grip-ribs right"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+
+
+      <div class="snes-top">
+        <div class="console-title-branding">
+          <h1>Nintendo</h1>
+          <h2>SUPER ENTERTAINMENT SYSTEM</h2>
+        </div>
+        <!-- Open Top-Loading Slot Bay -->
+        <div class="cartridge-slot-bay">
+          <div class="cartridge-slot-border"></div>
+          <div class="cartridge-slot-hole"></div>
+        </div>
+      </div>
+
+
+      <div class="snes-bottom">
+        <div class="power-box">
+          <input type="checkbox" id="power-checkbox">
+          <div id="desktop-power-btn" class="power-btn-label">POWER</div>
+          <div id="desktop-reset-btn" class="reset-btn-label">RESET</div>
+          <div id="snes-console-led" class="console-led"></div>
+        </div>
+      </div>
+      <div class="gamepads-slots">
+        <div class="gamepad-slot p1"></div>
+        <div class="gamepad-slot p2"></div>
+      </div>
+    </div>
+
+
+    <!-- SNES Controller CSS Art (Interactive with 4 Action Buttons) -->
+    <div class="controller-container">
+      <div class="controller-cord"></div>
+      <div class="controller-outer-box">
+        <div class="controller-cord-connection"></div>
+        <div class="controller-inner-box">
+
+          <!-- Controller Left D-Pad -->
+          <div class="left-inner-box">
+            <div class="up-down-outer-box"></div>
+            <div class="left-right-outer-box"></div>
+            <div class="up-down-inner-shadow"></div>
+            <div class="left-right-inner-shadow"></div>
+            <div class="up-down-inner-box">
+              <div class="up-arrow dpad-btn" data-button="4"></div>
+              <div class="down-arrow dpad-btn" data-button="5"></div>
+            </div>
+            <div class="left-right-inner-box">
+              <div class="left-arrow dpad-btn" data-button="6"></div>
+              <div class="center-circle"></div>
+              <div class="right-arrow dpad-btn" data-button="7"></div>
+            </div>
+          </div>
+
+
+          <!-- Controller Center (Select / Start) -->
+          <div class="center-inner-box">
+            <div class="center-decorative-box dec-1"></div>
+            <div class="center-decorative-box dec-2"></div>
+            <div class="center-decorative-box dec-3">
+              <div class="select-start-text">SELECT START</div>
+            </div>
+            <div class="center-button-box">
+              <div class="center-button-box-inner-border">
+                <div class="left-button pill-btn" data-button="2"></div>
+                <div class="right-button pill-btn" data-button="3"></div>
+              </div>
+            </div>
+            <div class="center-decorative-box dec-4"></div>
+          </div>
+
+
+          <!-- Controller Right (Y, X, B, A Action Buttons) -->
+          <div class="right-inner-box">
+            <div class="system-text">Nintendo</div>
+            <div class="snes-buttons-container">
+              <button type="button" class="action-btn-snes btn-y" data-button="8">Y</button>
+              <button type="button" class="action-btn-snes btn-x" data-button="9">X</button>
+              <button type="button" class="action-btn-snes btn-b" data-button="1">B</button>
+              <button type="button" class="action-btn-snes btn-a" data-button="0">A</button>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="desktop-footer-help">
+      <p>KEYBOARD CONTROLS: Arrow Keys = D-Pad | A = A | B = B | X = X | Y = Y | Enter = Start | Shift = Select</p>
+    </div>
+
+
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- MODAL: MY GAMES LIBRARY (IndexedDB) -->
+  <!-- ========================================== -->
+  <div id="library-modal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2>MY GAMES LIBRARY</h2>
+        <button type="button" class="modal-close-btn" data-close="library-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">ROMs are saved directly in your browser's offline storage (IndexedDB).</p>
+        <div id="library-rom-list" class="rom-list-container">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+      <div class="modal-footer">
+        <label class="modal-action-btn file-label primary">
+          + ADD NEW ROM
+          <input type="file" id="modal-rom-file-input" accept=".sfc,.smc,.zip" class="hidden-input">
+        </label>
+        <button type="button" class="modal-action-btn secondary" data-close="library-modal">CLOSE</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- MODAL: INFO & INSTRUCTIONS -->
+  <!-- ========================================== -->
+  <div id="info-modal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2>SNESBOY EMULATOR</h2>
+        <button type="button" class="modal-close-btn" data-close="info-modal">&times;</button>
+      </div>
+      <div class="modal-body info-text">
+        <p>A Super Nintendo emulator featuring a pluggable top-loading cartridge design.</p>
+        <p>Press POWER to boot the loaded game. Click the cartridge (or use ADD ROM) to load your own SNES ROM files — everything stays in your browser.</p>
+        <p>Save states and in-game saves persist in this browser. Only play ROMs of games you own.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="modal-action-btn secondary" data-close="info-modal">CLOSE</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Standalone Script -->
+  <script src="script.js"></script>
+</body>
+</html>
