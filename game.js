@@ -1,4 +1,5 @@
 import * as THREE from './vendor/three.module.js';
+import { AnalogGolfSwing } from './analog-swing.js?v=18';
 
 /* ============================================================
    WIREFRAME GOLF — Wire Tour '86
@@ -17,6 +18,11 @@ function mulberry32(seed) {
 }
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 const lerp = (a, b, t) => a + (b - a) * t;
+// Display units: the sim runs metric, the HUD talks golf (yards / mph / feet).
+const M2YD = 1 / 0.9144, MS2MPH = 2.23694, M2FT = 3.28084;
+const m2yd = (m) => Math.round(m * M2YD);
+const ms2mph = (ms) => Math.round(ms * MS2MPH);
+const m2ft = (m) => Math.round(m * M2FT);
 function distToSeg2D(px, pz, ax, az, bx, bz) {
   const dx = bx - ax, dz = bz - az;
   const L2 = dx * dx + dz * dz;
@@ -112,14 +118,23 @@ const CL_MAX = 0.32;          // lift coefficient cap
 const HOLE_CAPTURE_R = 0.55;  // visual cup radius (real hole: 0.108 m diameter/2 — scaled up so it is playable)
 const HOLE_MAX_SPEED = 1.9;   // m/s capture limit (spec: 1.6; +margin for visual scale)
 const CLUBS = [
-  // maxHeadSpeed ~= tour clubhead speed; smash transfers to ball speed.
-  // Driver ~70 m/s ball speed, ~50+ rps backspin. Wedge slower, much more spin.
+  // Full bag. carryYd matches the HUD card labels; max (m) drives physics.
   // Putter tuned so a full stroke rolls ~20 m on a normal green.
-  { name: 'DRIVER', max: 260, maxHeadSpeed: 95, quality: 0.85, baseLoft: 12 * Math.PI / 180, backspin: 320, sideSpin: 70, key: '1' },
-  { name: 'IRON',   max: 170, maxHeadSpeed: 72, quality: 0.80, baseLoft: 22 * Math.PI / 180, backspin: 480, sideSpin: 45, key: '2' },
-  { name: 'WEDGE',  max: 95,  maxHeadSpeed: 50, quality: 0.75, baseLoft: 36 * Math.PI / 180, backspin: 680, sideSpin: 28, key: '3' },
-  { name: 'PUTTER', max: 25,  maxHeadSpeed: 12, quality: 0.60, baseLoft: 2.5 * Math.PI / 180, backspin: 12, sideSpin: 6, key: '4' },
+  { name: 'Driver',  abbr: 'Dr',   key: '1', carryYd: 250, max: 229, maxHeadSpeed: 95, quality: 0.85, baseLoft: 12 * Math.PI / 180, backspin: 320, sideSpin: 70 },
+  { name: '3 Wood',  abbr: '3W',   key: '2', carryYd: 225, max: 206, maxHeadSpeed: 88, quality: 0.84, baseLoft: 15 * Math.PI / 180, backspin: 350, sideSpin: 62 },
+  { name: 'Hybrid',  abbr: 'Hy',   key: '3', carryYd: 205, max: 187, maxHeadSpeed: 82, quality: 0.83, baseLoft: 19 * Math.PI / 180, backspin: 400, sideSpin: 55 },
+  { name: '5 Iron',  abbr: '5i',   key: '4', carryYd: 185, max: 169, maxHeadSpeed: 72, quality: 0.80, baseLoft: 22 * Math.PI / 180, backspin: 480, sideSpin: 45 },
+  { name: '7 Iron',  abbr: '7i',   key: '5', carryYd: 165, max: 151, maxHeadSpeed: 66, quality: 0.79, baseLoft: 28 * Math.PI / 180, backspin: 540, sideSpin: 38 },
+  { name: '9 Iron',  abbr: '9i',   key: '6', carryYd: 140, max: 128, maxHeadSpeed: 60, quality: 0.78, baseLoft: 34 * Math.PI / 180, backspin: 600, sideSpin: 32 },
+  { name: 'P.Wedge', abbr: 'PW',   key: '7', carryYd: 115, max: 105, maxHeadSpeed: 54, quality: 0.76, baseLoft: 42 * Math.PI / 180, backspin: 660, sideSpin: 28 },
+  { name: 'S.Wedge', abbr: 'SW',   key: '8', carryYd: 90,  max: 82,  maxHeadSpeed: 48, quality: 0.75, baseLoft: 52 * Math.PI / 180, backspin: 720, sideSpin: 24 },
+  { name: 'Chip',    abbr: 'Chip', key: '9', carryYd: 50,  max: 46,  maxHeadSpeed: 30, quality: 0.70, baseLoft: 30 * Math.PI / 180, backspin: 200, sideSpin: 15 },
+  { name: 'Putt',    abbr: 'Putt', key: '0', carryYd: 25,  max: 25,  maxHeadSpeed: 12, quality: 0.60, baseLoft: 2.5 * Math.PI / 180, backspin: 12, sideSpin: 6 },
 ];
+const PUTTER = 9, CHIPPER = 8;
+const isPutter = (i) => i === PUTTER;
+const isChip = (i) => i === CHIPPER;
+const isWedgeClub = (i) => i === 6 || i === 7;
 const C = {
   rough: new THREE.Color('#0d5c2c'),
   fairway: new THREE.Color('#00ff66'),
@@ -167,6 +182,11 @@ const G = {
   paused: false,
   curTrail: [],           // live shot trail (for replay)
   lastTrail: [],          // previous finished shot (for replay ghost)
+  ff: false,              // fast-forward held (roll at 3x)
+  shotAt: 0,              // timestamp of last strike (shot clock)
+  armedPowerup: null,     // legacy (unused, kept for save compat)
+  bag: [],                // collected power-ups (ids), tap to arm for next shot
+  armedIdx: null,         // index into bag armed for the very next shot
   replay: { active: false, t: 0 },
   camMode: 0,          // 0 follow, 1 broadcast, 2 top, 3 green
   orbit: { yaw: 0, pitch: 0.38, dist: 16 },
@@ -421,7 +441,7 @@ function buildCourse(spec, groundHeight) {
   trailPts.length = 0;
 
   // --- terrain with per-vertex wire colors ---
-  const SIZE = 1400, SEG = 128;
+  const SIZE = 2560, SEG = 1280;
   const tg = new THREE.PlaneGeometry(SIZE, SIZE, SEG, SEG);
   tg.rotateX(-Math.PI / 2);
   const p = tg.attributes.position;
@@ -541,6 +561,20 @@ function buildCourse(spec, groundHeight) {
     courseGroup.add(m);
   }
 
+  // --- power-up ring: one floating ring per hole, fly through to collect ---
+  {
+    const a = spec.line[1], b = spec.line[2];
+    const mx = (a.x + b.x) / 2, mz = (a.z + b.z) / 2;
+    const dx = b.x - a.x, dz = b.z - a.z, len = Math.hypot(dx, dz) || 1;
+    const rx = mx + (-dz / len) * 15, rz = mz + (dx / len) * 15;
+    const ry = groundHeight(rx, rz) + 8;
+    const ringMesh = new THREE.Mesh(new THREE.TorusGeometry(6, 0.18, 6, 36), wireMat(0x00ffee, 1));
+    ringMesh.position.set(rx, ry, rz);
+    courseGroup.add(ringMesh);
+    buildCourse._ring = { pos: new THREE.Vector3(rx, ry, rz), taken: false };
+    buildCourse._ringMesh = ringMesh;
+  }
+
   // --- ball ---
   if (!ballMesh) {
     ballMesh = new THREE.Mesh(new THREE.IcosahedronGeometry(0.35, 1), wireMat(0xffffff, 1));
@@ -571,6 +605,7 @@ function buildCourse(spec, groundHeight) {
 
   scene.add(courseGroup);
   H = { spec, groundHeight };
+  if (buildCourse._ring) { H.ring = buildCourse._ring; H.ringMesh = buildCourse._ringMesh; buildCourse._ring = null; }
 }
 
 // ---------- hole lifecycle ----------
@@ -594,13 +629,13 @@ function startHole(idx) {
   const dx = spec.pin.x - spec.tee.x, dz = spec.pin.z - spec.tee.z;
   G.aimAngle = Math.atan2(dx, -dz); // angle from -Z axis... define fwd=(sin a, -cos a)
   G.orbit.yaw = 0; G.orbit.pitch = 0.38; G.orbit.dist = 16;
-  // auto club: driver off tee
-  G.club = spec.par === 3 ? 1 : 0;
+  // auto club: driver off tee (par 3s take an iron for the number)
+  pickTeeClub(spec.dist);
   G.swing.stage = 'idle'; G.swing.power = 0; G.swing.acc = 0;
   // shot-shaping tweaks must never leak between holes/shots — a stuck
   // loft would silently shorten every drive with no obvious cause
   G.loftAdjust = 0; G.spinTweak.x = 0; G.spinTweak.y = 0;
-  flash(`HOLE ${idx + 1}`, `PAR ${spec.par} • ${Math.round(spec.dist)}m • WIND ${spec.wind.length().toFixed(1)} m/s`);
+  flash(`HOLE ${idx + 1}`, `PAR ${spec.par} • ${m2yd(spec.dist)} yd • WIND ${ms2mph(spec.wind.length())} mph`);
   AudioSys.beep(660, 0.12, 'square', 0.05);
   updateHUD();
 }
@@ -610,21 +645,18 @@ function aimDir() {
 }
 
 // ---------- swing / shots ----------
-function advanceSwing() {
-  AudioSys.ensure(); AudioSys.click();
-  const s = G.swing;
-  if (!G.started || G.paused) return;
-  if (!G.ball.rest || G.ball.holed || G.pickingUp) return;
-  if (s.stage === 'idle') { s.stage = 'power'; s.t = 0; s.dirP = 1; s.power = 0; }
-  else if (s.stage === 'power') { s.stage = 'acc'; s.t = 0; s.dirA = Math.random() > 0.5 ? 1 : -1; s.acc = 0; }
-  else if (s.stage === 'acc') { strike(); s.stage = 'idle'; }
-  updateHUD();
-}
+// NOTE: there is no tap/press swing. The ONLY way to hit is the tempo
+// motion (stick pull-flick, mouse/touch drag from the ball), which funnels
+// through strike() via the tempo onSwingComplete callback below.
 
 function lieFactor(lie, clubIdx) {
   if (lie === 'tee' || lie === 'fairway' || lie === 'green') return 1;
   if (lie === 'rough') return clubIdx === 0 ? 0.72 : 0.85;
-  if (lie === 'sand') return clubIdx === 2 ? 0.8 : 0.55;
+  if (lie === 'sand') {
+    if (clubIdx === 7) return 0.9;   // S.Wedge: wide bounce sole, built for sand
+    if (clubIdx === 6) return 0.8;   // P.Wedge: workable
+    return 0.55;
+  }
   return 1;
 }
 
@@ -646,11 +678,19 @@ function strike() {
   // Player loft/spin tweaks from W/S + IJKL / dpad + right stick / spin pad
   const playerLoftAdjust = clamp(G.loftAdjust, -0.09, 0.09);
 
-  const clubSpeed = effMeter * club.maxHeadSpeed * lieFactor(lie, G.club);
+  // Armed power-up for this shot (tap a power-up to arm it)
+  const armed = (G.armedIdx === null || G.armedIdx === undefined) ? null : G.bag[G.armedIdx];
+  const lieForPhys = (armed === 'escape') ? 'fairway' : lie;
+
+  const clubSpeed = effMeter * club.maxHeadSpeed * lieFactor(lieForPhys, G.club);
   const smash = 0.68 + club.quality * 0.12;
   let ballSpeed = clubSpeed * smash;
-  if (G.club === 3 && lie !== 'green') ballSpeed *= 0.7;
-  if (G.club !== 3 && lie === 'green') ballSpeed *= 0.5;
+  if (armed === 'bighit') ballSpeed *= 1.25;
+  if (armed === 'bomb') ballSpeed *= 1.45;
+  if (isPutter(G.club) && lie !== 'green') ballSpeed *= 0.7;
+  if (!isPutter(G.club) && lie === 'green') ballSpeed *= 0.5;
+  // Tempo-swing contact quality: a rushed or crooked flick leaks ball speed
+  if (G.tempoScale && G.tempoScale !== 1) ballSpeed *= G.tempoScale;
 
   const launchAngle = club.baseLoft + playerLoftAdjust;
   const az = G.aimAngle + accErr * 0.045 + (lie === 'rough' || lie === 'sand' ? (Math.random() - 0.5) * 0.03 : 0);
@@ -665,7 +705,7 @@ function strike() {
   // Spin: backspin about the shot's lateral axis + sidespin about vertical.
   // Backspin (upward Magnus) lengthens carry; sidespin curves draw/fade.
   // spinTweak.y adds/reduces backspin, spinTweak.x adds draw/fade.
-  const backspinAmount = club.backspin * (0.35 + 0.65 * meter) * (1 + clamp(G.spinTweak.y, -1, 1) * 0.3) * (lie === 'rough' || lie === 'sand' ? 0.6 : 1);
+  const backspinAmount = club.backspin * (0.35 + 0.65 * meter) * (1 + clamp(G.spinTweak.y, -1, 1) * 0.3) * (armed === 'sticky' ? 2 : 1) * (lieForPhys === 'rough' || lieForPhys === 'sand' ? 0.6 : 1);
   const sidespinAmount = accErr * club.sideSpin + clamp(G.spinTweak.x, -1, 1) * 30;
   const sideAxis = new THREE.Vector3(-direction.z, 0, direction.x).normalize();
   const spin = sideAxis.multiplyScalar(backspinAmount)
@@ -674,20 +714,23 @@ function strike() {
   G.prevPos.copy(b.position);
   b.velocity.copy(v);
   b.spin.copy(spin);
-  b.state = (G.club === 3 && v.length() < 12) ? 'ground' : 'air';
-  if (G.club === 3) {
+  b.noWind = (armed === 'calm');
+  b.shield = (armed === 'shield');
+  b.state = (isPutter(G.club) && v.length() < 12) ? 'ground' : 'air';
+  if (isPutter(G.club)) {
     // putter: keep launch nearly flat
     b.velocity.y = Math.min(b.velocity.y, 0.8);
     if (getSurface(b.position.x, b.position.z).type === 'green') b.state = 'ground';
   }
   syncBallFlags();
   G.strokes++;
+  G.shotAt = performance.now();
   trailPts.length = 0; G.curTrail.length = 0;
   AudioSys.swing();
   // Honest distance promise: simulate the shot with the same integrator.
-  // Airborne clubs → predicted carry (first landing); putter → rolling estimate.
+  // Airborne clubs → predicted carry (first landing); putter/chip → rolling estimate.
   let promiseM;
-  if (G.club === 3) {
+  if (isPutter(G.club) || isChip(G.club)) {
     const s0 = getSurface(b.position.x, b.position.z);
     const aRoll = (s0.rollFriction || 0.5) * GRAVITY * 0.55;
     promiseM = Math.round((v.length() ** 2) / (2 * Math.max(0.5, aRoll)));
@@ -698,20 +741,26 @@ function strike() {
   }
   const loftTxt = Math.abs(G.loftAdjust) > 0.005 ? ` LOFT ${(G.loftAdjust * 180 / Math.PI).toFixed(1)}°` : '';
   const quality = Math.abs(accErr) < 0.18 ? 'PURE!' : Math.abs(accErr) < 0.5 ? 'OK' : 'WILD!';
-  $('swing-hint').innerHTML = club.name + ' • ' + promiseM + 'm' + loftTxt + ' • ' + quality;
+  const tempoTag = G.tempoName && G.tempoName !== 'straight' ? G.tempoName.toUpperCase() + ' • ' : '';
+  banner(`${tempoTag}${club.name} • ${m2yd(promiseM)} yd${loftTxt} • ${quality}`);
+  G.tempoScale = 1; G.tempoName = null;
   // consume one-shot tweaks so they can't linger into future shots
   G.loftAdjust = 0; G.spinTweak.x = 0; G.spinTweak.y = 0;
   // permanent per-shot receipt: power YOU set, speed out, predicted carry
   G.lastShot = { club: club.name, power: Math.round(meter * 100), ballSpeed: Math.round(ballSpeed * 10) / 10, promise: promiseM, quality };
+  if (armed) {
+    G.bag.splice(G.armedIdx, 1); G.armedIdx = null;
+    renderPowerups();
+  }
   renderShotInfo();
   updateHUD();
 }
 function renderShotInfo() {
-  const el = $('shotinfo');
-  if (!el) return;
-  if (!G.lastShot) { el.textContent = 'NO SHOT YET — HOLD SWING/SPACE TO CHARGE'; return; }
-  const s = G.lastShot;
-  el.textContent = `LAST SHOT — ${s.club} • YOU SET ${s.power}% • ${s.ballSpeed} m/s • ~${s.promise}m • ${s.quality}`;
+  const txt = !G.lastShot ? 'NO SHOT YET — PULL BACK, FLICK THROUGH'
+    : `LAST SHOT — ${G.lastShot.club} • YOU SET ${G.lastShot.power}% • ${ms2mph(G.lastShot.ballSpeed)} mph • ~${m2yd(G.lastShot.promise)} yd • ${G.lastShot.quality}`;
+  const a = $('lastshot'), b = $('shotinfo');
+  if (a) a.textContent = !G.lastShot ? '—' : `${G.lastShot.club} ${G.lastShot.power}% • ~${m2yd(G.lastShot.promise)} yd • ${G.lastShot.quality}`;
+  if (b) b.textContent = txt;
 }
 
 // --- Aerodynamics ------------------------------------------------
@@ -719,6 +768,7 @@ function renderShotInfo() {
 // Wind enters via relative velocity: drag uses (v - wind), so a headwind
 // shortens more than a tailwind lengthens.
 const _aero = { tmp: null };
+const _zeroWind = new THREE.Vector3(); // Calm power-up: the shot ignores the wind
 function getWindForce(ballVelocity, wind) {
   const rel = ballVelocity.clone().sub(wind);
   const speed = rel.length();
@@ -730,7 +780,7 @@ function updateFlight(ball, dt) {
   const v = ball.velocity;
   const speed = v.length();
   const area = Math.PI * BALL_RADIUS * BALL_RADIUS;
-  const wind = H.spec.wind;
+  const wind = ball.noWind ? _zeroWind : H.spec.wind;
 
   // Drag against relative airflow
   const rel = v.clone().sub(wind);
@@ -872,14 +922,8 @@ function physicsStep(dt) {
   const ball = G.ball;
   if (ball.state === 'air') {
     updateFlight(ball, dt);
-    // tree canopy hit
-    for (const t of H.spec.trees) {
-      const dx = ball.position.x - t.x, dz = ball.position.z - t.z;
-      if (dx * dx + dz * dz < 9 && ball.position.y < t.h && ball.position.y > t.h - 12) {
-        ball.velocity.x *= -0.35; ball.velocity.z *= -0.35; ball.velocity.y *= 0.4;
-        AudioSys.bounce();
-      }
-    }
+    // Trees and rocks are scenery only — the ball flies straight through.
+    // Only the ground and the water play the shot.
     // pin strike
     {
       const dx = ball.position.x - H.spec.pin.x, dz = ball.position.z - H.spec.pin.z;
@@ -888,6 +932,8 @@ function physicsStep(dt) {
         AudioSys.bounce();
       }
     }
+    // power-up ring: fly through it to collect
+    if (H.ring && !H.ring.taken && ball.position.distanceTo(H.ring.pos) < 7) collectRing();
     const hit = groundCollision(ball);
     if (hit === 'water') { doWater(); return; }
     checkHole(ball);
@@ -897,18 +943,6 @@ function physicsStep(dt) {
     if (ball.state !== 'rest' && ball.state !== 'hole') {
       const s = getSurface(ball.position.x, ball.position.z);
       if (s.type === 'water') { doWater(); return; }
-      // trunk collision
-      for (const t of H.spec.trees) {
-        const dx = ball.position.x - t.x, dz = ball.position.z - t.z, d = Math.hypot(dx, dz);
-        if (d < 0.9 && ball.position.y < t.h - 6) {
-          const nx = dx / (d || 1), nz = dz / (d || 1);
-          ball.position.x = t.x + nx * 0.9; ball.position.z = t.z + nz * 0.9;
-          const dot = ball.velocity.x * nx + ball.velocity.z * nz;
-          ball.velocity.x -= 2 * dot * nx; ball.velocity.z -= 2 * dot * nz;
-          ball.velocity.multiplyScalar(0.4);
-          AudioSys.bounce();
-        }
-      }
       checkHole(ball);
       if (Math.abs(ball.position.x) > WORLD || Math.abs(ball.position.z) > WORLD) { doOB(); return; }
     }
@@ -926,7 +960,7 @@ function predictShot(startPos, startVel, startSpin, maxPts = 60) {
     // inline flight without tree/pin fx
     const speed = v.length();
     const area = Math.PI * BALL_RADIUS * BALL_RADIUS;
-    const wind = H.spec.wind;
+    const wind = (G.bag[G.armedIdx] === 'calm') ? _zeroWind : H.spec.wind;
     const rel = v.clone().sub(wind);
     const rs = rel.length();
     const drag = rs > 1e-4 ? rel.normalize().multiplyScalar(-0.5 * AIR_DENSITY * rs * rs * CD * area) : new THREE.Vector3();
@@ -957,18 +991,37 @@ function updateTrail() {
 }
 
 function doWater() {
+  // Shield: free do-over — the shot doesn't count, no penalty, replay it
+  if (G.ball.shield) {
+    G.ball.shield = false;
+    G.strokes = Math.max(0, G.strokes - 1);
+    G.ball.position.copy(G.prevPos);
+    G.ball.position.y = H.groundHeight(G.ball.position.x, G.ball.position.z) + BALL_VIS_R;
+    G.ball.velocity.set(0, 0, 0); G.ball.spin.set(0, 0, 0);
+    G.ball.state = 'rest';
+    syncBallFlags();
+    banner('SHIELDED — HIT IT AGAIN');
+    autoClub(); updateHUD();
+    return;
+  }
   AudioSys.splash();
   G.ball.state = 'water';
   G.strokes += 1; // penalty
+  // stroke and distance: replay from where you hit
   G.ball.position.copy(G.prevPos);
   G.ball.position.y = H.groundHeight(G.ball.position.x, G.ball.position.z) + BALL_VIS_R;
-  // nudge away from water
+  // ...unless the drop point itself is in the drink (dribbled in from the
+  // edge) — only then move out to the water's edge
   const w = H.spec.water;
-  const dx = G.ball.position.x - w.x, dz = G.ball.position.z - w.z;
-  const d = Math.hypot(dx, dz) || 1;
-  G.ball.position.x = w.x + dx / d * (w.r + 4);
-  G.ball.position.z = w.z + dz / d * (w.r + 4);
-  G.ball.position.y = H.groundHeight(G.ball.position.x, G.ball.position.z) + BALL_VIS_R;
+  {
+    const dx = G.ball.position.x - w.x, dz = G.ball.position.z - w.z;
+    const d = Math.hypot(dx, dz) || 1;
+    if (d < w.r + 4) {
+      G.ball.position.x = w.x + dx / d * (w.r + 4);
+      G.ball.position.z = w.z + dz / d * (w.r + 4);
+      G.ball.position.y = H.groundHeight(G.ball.position.x, G.ball.position.z) + BALL_VIS_R;
+    }
+  }
   G.ball.velocity.set(0, 0, 0); G.ball.spin.set(0, 0, 0);
   G.ball.state = 'rest';
   syncBallFlags();
@@ -978,6 +1031,19 @@ function doWater() {
 }
 
 function doOB() {
+  // Shield: free do-over — the shot doesn't count, no penalty, replay it
+  if (G.ball.shield) {
+    G.ball.shield = false;
+    G.strokes = Math.max(0, G.strokes - 1);
+    G.ball.position.copy(G.prevPos);
+    G.ball.position.y = H.groundHeight(G.ball.position.x, G.ball.position.z) + BALL_VIS_R;
+    G.ball.velocity.set(0, 0, 0); G.ball.spin.set(0, 0, 0);
+    G.ball.state = 'rest';
+    syncBallFlags();
+    banner('SHIELDED — HIT IT AGAIN');
+    autoClub(); updateHUD();
+    return;
+  }
   G.strokes += 1;
   G.ball.position.copy(G.prevPos);
   G.ball.position.y = H.groundHeight(G.ball.position.x, G.ball.position.z) + BALL_VIS_R;
@@ -1008,6 +1074,7 @@ function doHole() {
 }
 
 function onBallRest() {
+  G.ff = false; // never carry a stuck fast-forward into the next shot
   if (G.curTrail.length > 3) G.lastTrail = G.curTrail.slice();
   // max strokes pickup
   if (G.strokes >= 12) {
@@ -1023,20 +1090,32 @@ function onBallRest() {
   // tap-in check helper text
   const d = Math.hypot(G.ball.pos.x - H.spec.pin.x, G.ball.pos.z - H.spec.pin.z);
   if (d < 6 && getSurface(G.ball.pos.x, G.ball.pos.z).type === 'green')
-    $('swing-hint').innerHTML = 'ON THE GREEN • PUTTER READY • <b>SPACE</b> TO PUTT';
+    flashSmall('ON THE GREEN • PUTTER READY');
 }
 
 function autoClub() {
   const d = Math.hypot(G.ball.pos.x - H.spec.pin.x, G.ball.pos.z - H.spec.pin.z);
   const lie = getSurface(G.ball.pos.x, G.ball.pos.z).type;
-  if (lie === 'green') G.club = 3;
-  else if (d < 22) G.club = 3;
-  else if (d < 110) G.club = 2;
-  else if (d < 195) G.club = 1;
+  if (lie === 'green') G.club = PUTTER;
+  else if (d < 20) G.club = PUTTER;
+  else if (d < 50) G.club = CHIPPER;
+  else if (d < 90) G.club = 7;
+  else if (d < 115) G.club = 6;
+  else if (d < 140) G.club = 5;
+  else if (d < 165) G.club = 4;
+  else if (d < 190) G.club = 3;
+  else if (d < 210) G.club = 2;
+  else if (d < 235) G.club = 1;
   else G.club = 0;
   document.querySelectorAll('.club').forEach((el) => {
     el.classList.toggle('active', Number(el.dataset.club) === G.club);
   });
+}
+function pickTeeClub(dist) {
+  if (dist < 150) G.club = 4;
+  else if (dist < 185) G.club = 3;
+  else if (dist < 210) G.club = 1;
+  else G.club = 0;
 }
 
 // ---------- cameras ----------
@@ -1078,28 +1157,42 @@ function updateCamera(dt) {
   if (camPos.distanceTo(want) > 200) { camPos.copy(want); camLook.copy(look); }
 }
 
-// ---------- HUD ----------
+// ---------- HUD (new paper-card layout) ----------
+function setText(id, txt) { const el = $(id); if (el) el.textContent = txt; }
 function updateHUD() {
-  $('hud-hole').textContent = `${G.holeIndex + 1}/${N_HOLES}`;
-  const brandSub = document.querySelector('#topbar .brand span');
-  if (brandSub) brandSub.textContent = `// ${COURSES[G.course].name}`;
-  $('hud-par').textContent = H.spec.par;
-  $('hud-stroke').textContent = G.strokes;
-  $('hud-score').textContent = fmtScore(G.totalVsPar);
+  const pars = coursePars();
+  setText('course-tag', `// ${COURSES[G.course].name}`);
+  const h = $('hole');
+  if (h) h.innerHTML = `<span class="hole-lbl">Hole </span><span class="hole-lbl-sm">H</span>${G.holeIndex + 1}<span class="dim">/${N_HOLES}</span> <span class="dim">·</span> Par ${H.spec.par}`;
+  setText('strokes', `Stroke ${G.strokes}`);
+  setText('total', fmtScore(G.totalVsPar));
   const d = Math.hypot(G.ball.pos.x - H.spec.pin.x, G.ball.pos.z - H.spec.pin.z);
-  $('hud-dist').textContent = G.ball.holed ? 'HOLED' : `${Math.round(d)}m`;
+  setText('distance', G.ball.holed ? 'HOLED' : `${m2yd(d)} yd`);
   const lie = G.ball.holed ? '—' : getSurface(G.ball.pos.x, G.ball.pos.z).type.toUpperCase();
-  $('hud-lie').textContent = lie;
+  setText('lie', lie[0] + lie.slice(1).toLowerCase());
+  setText('cam', ['FOLLOW', 'TV', 'TOP', 'GREEN'][G.camMode]);
+  // wind tile: drawn arrow rotates to relative wind, opacity by strength
   const w = H.spec.wind, spd = w.length();
-  const arrow = windArrow(w);
-  $('hud-wind').textContent = `${arrow} ${spd.toFixed(1)} m/s`;
-  $('hud-cam').textContent = ['FOLLOW', 'TV', 'TOP', 'GREEN'][G.camMode];
-  const loftEl = $('hud-loft'), spinEl = $('hud-spin');
-  if (loftEl) loftEl.textContent = `${G.loftAdjust >= 0 ? '+' : ''}${(G.loftAdjust * 180 / Math.PI).toFixed(1)}°`;
-  if (spinEl) spinEl.textContent = `${G.spinTweak.x.toFixed(1)} / ${G.spinTweak.y.toFixed(1)}`;
+  const rel = Math.atan2(w.x, -w.z) - G.aimAngle;
+  const wa = $('wind-arrow');
+  if (wa) { wa.style.transform = `rotate(${-rel}rad)`; wa.style.opacity = String(0.45 + Math.min(0.55, spd / 8)); }
+  const wt = $('wind-text');
+  if (wt) wt.innerHTML = `${ms2mph(spd)}<span class="tile-unit"> mph</span>`;
+  // elevation tile: pin height minus ball height, in feet
+  const elevM = H.spec.pin.y - G.ball.position.y;
+  const et = $('elevation');
+  if (et) et.innerHTML = `${m2ft(elevM) >= 0 ? '+' : ''}${m2ft(elevM)}<span class="tile-unit"> ft</span>`;
+  const tile = $('elev-tile');
+  if (tile) tile.classList.toggle('down', elevM < -0.5), tile.classList.toggle('flat', Math.abs(elevM) <= 0.5);
+  // shape / trajectory labels mirror the live tweaks
+  const sx = G.spinTweak.x;
+  setText('shape-text', sx < -0.15 ? 'Draw' : sx > 0.15 ? 'Fade' : 'Straight');
+  const lj = G.loftAdjust;
+  setText('traj-text', lj > 0.02 ? 'Higher' : lj < -0.02 ? 'Lower' : 'Normal');
   document.querySelectorAll('.club').forEach((el) => {
     el.classList.toggle('active', Number(el.dataset.club) === G.club);
   });
+  renderShotInfo();
 }
 function windArrow(w) {
   // relative to aim: headwind/tailwind arrows
@@ -1107,6 +1200,14 @@ function windArrow(w) {
   const deg = ((a * 180 / Math.PI) % 360 + 360) % 360;
   const dirs = ['↓', '↙', '←', '↖', '↑', '↗', '→', '↘'];
   return dirs[Math.round(deg / 45) % 8];
+}
+function banner(main, ms = 1800) {
+  const b = $('banner');
+  if (!b) return;
+  b.textContent = main;
+  b.classList.add('show');
+  clearTimeout(banner._to);
+  banner._to = setTimeout(() => b.classList.remove('show'), ms);
 }
 
 let flashTO = null;
@@ -1176,10 +1277,10 @@ function drawMinimap() {
   ctx.moveTo(X(G.ball.pos.x), Y(G.ball.pos.z));
   ctx.lineTo(X(G.ball.pos.x + d.x * 30), Y(G.ball.pos.z + d.z * 30));
   ctx.stroke();
-  // wind arrow (screen corner)
+  // wind readout in the corner, mph like the tile
   ctx.fillStyle = '#00ffee'; ctx.font = '11px monospace';
   const wa = Math.atan2(H.spec.wind.x, H.spec.wind.z);
-  ctx.fillText(`W ${H.spec.wind.length().toFixed(0)}`, 10, Hh - 8);
+  ctx.fillText(`W ${ms2mph(H.spec.wind.length())}`, 10, Hh - 8);
   ctx.save(); ctx.translate(W - 18, Hh - 16); ctx.rotate(-wa);
   ctx.fillText('↑', -4, 4); ctx.restore();
 }
@@ -1194,29 +1295,34 @@ function aimShotEstimate(powerMeter) {
   const clubSpeed = effMeter * club.maxHeadSpeed * lieFactor(surf.type, G.club);
   const smash = 0.68 + club.quality * 0.12;
   let ballSpeed = Math.max(1.5, clubSpeed * smash);
-  if (G.club === 3 && surf.type !== 'green') ballSpeed *= 0.7;
+  if (isPutter(G.club) && surf.type !== 'green') ballSpeed *= 0.7;
   const launchAngle = club.baseLoft;
   const direction = aimDir();
   const v = new THREE.Vector3(
     Math.cos(launchAngle) * direction.x, Math.sin(launchAngle), Math.cos(launchAngle) * direction.z
   ).normalize().multiplyScalar(ballSpeed);
-  if (G.club === 3) v.y = Math.min(v.y, 0.8);
+  if (isPutter(G.club)) v.y = Math.min(v.y, 0.8);
   const sideAxis = new THREE.Vector3(-direction.z, 0, direction.x).normalize();
   const spin = sideAxis.multiplyScalar(club.backspin * (0.35 + 0.65 * meter));
   return { v, spin };
 }
 function updateAim() {
   if (!aimLine) return;
-  const show = G.ball.rest && !G.ball.holed && G.started && G.aimAssist;
+  // Read reveals the putt line, Caddie traces the flight — both force the
+  // predicted trajectory on while armed, even with aim assist off
+  const armedId = (G.armedIdx === null || G.armedIdx === undefined) ? null : G.bag[G.armedIdx];
+  const show = G.ball.rest && !G.ball.holed && G.started &&
+    (G.aimAssist || armedId === 'read' || armedId === 'caddie');
   aimLine.visible = show; aimMarker.visible = show;
   if (!show) return;
   const b = G.ball;
   const meter = G.swing.stage === 'power' ? Math.max(0.15, G.swing.power) : 0.85;
-  const { v, spin } = aimShotEstimate(G.club === 3 ? meter : meter);
-  const pts = G.club === 3
-    ? (() => { // putter: flat ground preview
+  const { v, spin } = aimShotEstimate(meter);
+  const groundGame = isPutter(G.club) || isChip(G.club);
+  const pts = groundGame
+    ? (() => { // putter/chip: flat ground preview
         const dir = aimDir();
-        const carry = CLUBS[3].max * meter * 0.85;
+        const carry = CLUBS[G.club].max * meter * 0.85;
         const ex = b.position.x + dir.x * carry, ez = b.position.z + dir.z * carry;
         return [b.position.clone().add(new THREE.Vector3(0, 0.2, 0)),
           new THREE.Vector3(ex, H.groundHeight(ex, ez) + 0.3, ez)];
@@ -1258,14 +1364,14 @@ class InputManager {
     k.aimY = 0;
     k.cameraX = (keys['KeyE'] ? 1 : 0) - (keys['KeyQ'] ? 1 : 0);
     k.cameraY = 0;
-    k.swing = keys['Space'] ? 1 : 0;
+    k.swing = 0; // no keyboard swing — tempo motion only (stick / drag)
     // A/D doubles as analog accuracy nudge during the impact window
     k.accuracy = (keys['KeyD'] ? 1 : 0) - (keys['KeyA'] ? 1 : 0);
     k.loft = (keys['KeyW'] || keys['ArrowUp'] ? 1 : 0) - ((keys['KeyS'] || keys['ArrowDown']) ? 1 : 0);
     k.spinX = (keys['KeyL'] ? 1 : 0) - (keys['KeyJ'] ? 1 : 0);
     k.spinY = (keys['KeyI'] ? 1 : 0) - (keys['KeyK'] ? 1 : 0);
     k.clubCycle = 0;
-    k.confirm = !!(keys['Enter'] || keys['Space']);
+    k.confirm = !!keys['Enter'];
     k.cancel = false;
     k.pause = false; k.map = false; k.replay = false; k.aimAssist = false;
     k.zoom = (keys['KeyZ'] ? 1 : 0) - (keys['KeyX'] ? 1 : 0);
@@ -1275,7 +1381,7 @@ class InputManager {
     const pad = Array.from(pads).find((p) => p && p.connected);
     const g = this.gamepad;
     if (!pad) {
-      const blank = { aimX: 0, aimY: 0, cameraX: 0, cameraY: 0, swing: 0, accuracy: 0, loft: 0, spinX: 0, spinY: 0, clubCycle: 0, clubNext: false, clubPrev: false, confirm: false, cancel: false, pause: false, map: false, replay: false, aimAssist: false, zoom: 0 };
+      const blank = { aimX: 0, aimY: 0, cameraX: 0, cameraY: 0, swing: 0, accuracy: 0, loft: 0, spinX: 0, spinY: 0, clubCycle: 0, clubNext: false, clubPrev: false, confirm: false, cancel: false, pause: false, map: false, replay: false, aimAssist: false, zoom: 0, dpadL: false, dpadR: false };
       Object.assign(g, blank);
       return;
     }
@@ -1297,6 +1403,7 @@ class InputManager {
     g.replay = pressed(2);
     g.aimAssist = pressed(3);                 // Y / Triangle / X
     g.zoom = value(7) - value(6);             // RT in / LT out (+ right stick)
+    g.dpadL = pressed(14); g.dpadR = pressed(15); // coarse aim (Tiger Woods)
   }
   updateTouch() {
     const t = this.touch;
@@ -1341,6 +1448,50 @@ class InputManager {
 }
 const Input = new InputManager();
 
+// ---------- Tiger Woods tempo swing ----------
+// Pull down (stick / drag) for the backswing, flick up through contact.
+// Depth sets intended power, flick speed + straightness set contact.
+// Lateral wobble becomes draw/fade. Callbacks feed the normal meter and
+// funnel every tempo shot through strike() — no separate shot logic.
+const tempo = new AnalogGolfSwing();
+tempo.onSwingStart = () => {
+  AudioSys.ensure();
+  G.swing.stage = 'power';
+  G.swing.power = Math.max(0, Math.min(1, tempo.backswingY));
+  updateHUD();
+};
+tempo.onSwingUpdate = (s) => {
+  G.swing.stage = 'power';
+  G.swing.power = s.power;
+};
+tempo.onSwingComplete = (r) => {
+  tempo.source = null;
+  G.swing.power = r.power; G.swing.acc = r.acc; G.swing.stage = 'idle';
+  G.tempoScale = r.tempoScale; G.tempoName = r.shotName;
+  strike();
+};
+tempo.onSwingCancel = () => {
+  tempo.source = null;
+  G.swing.stage = 'idle'; G.swing.power = 0;
+  flashSmall('SWING CANCELLED');
+  updateHUD();
+};
+function canTempoSwing() {
+  return G.started && !G.paused && G.ball && G.ball.rest && !G.ball.holed &&
+    !G.pickingUp && G.swing.stage === 'idle';
+}
+function tempoClaim(source) {
+  if (tempo.source && tempo.source !== source) return false;
+  tempo.source = source;
+  return true;
+}
+function tempoRelease(source) {
+  if (tempo.source === source) {
+    if (tempo.state !== 'idle') tempo.cancel('released early');
+    tempo.source = null;
+  }
+}
+
 // Discrete keyboard actions (menus, clubs, swing taps). Analog aim/camera/
 // accuracy flow through Input.state every frame — see animate().
 window.addEventListener('keydown', (e) => {
@@ -1348,16 +1499,11 @@ window.addEventListener('keydown', (e) => {
   if (e.repeat) { if (e.code === 'Space') e.preventDefault(); return; }
   keys[e.code] = true;
   AudioSys.ensure();
-  // Space flows through Input rose/fell edges in animate() (press = start,
-  // release = lock power, press = strike). Calling advanceSwing here too
-  // would fire every stage TWICE and lock power near zero — weak shots.
-  // Enter is not part of Input.swing, so it keeps the direct call.
-  if (e.code === 'Enter') { e.preventDefault(); advanceSwing(); }
-  if (e.code === 'Space') { e.preventDefault(); }
-  if (e.code === 'Digit1') G.club = 0;
-  if (e.code === 'Digit2') G.club = 1;
-  if (e.code === 'Digit3') G.club = 2;
-  if (e.code === 'Digit4') G.club = 3;
+  // No keyboard swing: the shot is the tempo motion (stick pull-flick,
+  // mouse/touch drag from the ball). Space and Enter do nothing.
+  for (let n = 0; n < 10; n++) {
+    if (e.code === `Digit${(n + 1) % 10}`) { AudioSys.ensure(); G.club = n; updateHUD(); }
+  }
   if (e.code === 'KeyQ') cycleClub(-1);
   if (e.code === 'KeyE') cycleClub(1);
   if (e.code === 'KeyC') { G.camMode = (G.camMode + 1) % 4; updateHUD(); }
@@ -1396,27 +1542,96 @@ function startReplay() {
   flashSmall('REPLAY ▸ LAST SHOT');
 }
 
-document.querySelectorAll('.club').forEach((el) => {
-  el.addEventListener('click', () => { AudioSys.ensure(); AudioSys.click(); G.club = Number(el.dataset.club); updateHUD(); });
-});
-// SWING buttons (mouse + touch) are press-and-HOLD, exactly like SPACE:
-// hold = charge the meter, release = set your power, next press = hit.
-// A plain instant click can never build power (it would save ~0%), so there
-// is deliberately NO 'click' handler here — holding is the only way.
-const pointerSwing = (on) => { AudioSys.ensure(); touchState.swing = on ? 1 : 0; };
-// Fallback for taps faster than the frame loop (dead clicks on slow machines):
-// if no stage change registered between press and release, count the tap once.
-// Safe: whenever a real hold registered (stage changed), this never fires.
-let btnDownStage = null;
-$('swing-btn').addEventListener('mousedown', (e) => {
-  if (e.button !== undefined && e.button !== 0) return;
-  btnDownStage = G.swing.stage; pointerSwing(true);
-});
-window.addEventListener('mouseup', () => {
-  pointerSwing(false);
-  if (btnDownStage !== null && btnDownStage === G.swing.stage) advanceSwing();
-  btnDownStage = null;
-});
+function renderClubs() {
+  const box = $('clubs');
+  if (!box) return;
+  box.innerHTML = '';
+  CLUBS.forEach((c, i) => {
+    const b = document.createElement('button');
+    b.className = 'club' + (i === G.club ? ' active' : '');
+    b.dataset.club = String(i);
+    b.innerHTML = `<span class="key">${c.key}</span><span class="club-name">${c.name}</span><span class="club-abbr">${c.abbr}</span><span class="carry"><span class="carry-full">${c.carryYd} yd</span><span class="carry-abbr">${c.carryYd}y</span></span>`;
+    b.addEventListener('click', () => { AudioSys.ensure(); AudioSys.click(); G.club = i; updateHUD(); });
+    box.appendChild(b);
+  });
+}
+function renderPowerups() {
+  const box = $('powerups');
+  if (!box) return;
+  box.innerHTML = '';
+  const mk = (id, label, title, fn, armed) => {
+    const b = document.createElement('button');
+    b.className = 'powerup' + (armed ? ' armed' : '');
+    b.id = id; b.title = title; b.textContent = label;
+    b.addEventListener('click', fn);
+    box.appendChild(b);
+    return b;
+  };
+  mk('pu-mulligan', '↩ MULLIGAN', 'Take the shot back', doMulligan, false);
+  mk('pu-assist', '◎ ASSIST', 'Toggle predicted trajectory', toggleAimAssist, G.aimAssist);
+  const LABELS = { bighit: 'BIG HIT +25%', bomb: 'BOMB +45%', read: 'READ', calm: 'CALM', sticky: 'STICKY', escape: 'ESCAPE', shield: 'SHIELD', caddie: 'CADDIE' };
+  G.bag.forEach((id, i) => {
+    mk(`pu-${id}-${i}`, LABELS[id] || id, 'Tap to arm for your very next shot', () => {
+      AudioSys.ensure(); AudioSys.click();
+      G.armedIdx = (G.armedIdx === i) ? null : i;
+      renderPowerups(); updateHUD();
+    }, G.armedIdx === i);
+  });
+}
+const POWERUP_POOL = ['bighit', 'bomb', 'read', 'calm', 'sticky', 'escape', 'shield', 'caddie'];
+function collectRing() {
+  if (!H.ring || H.ring.taken) return;
+  H.ring.taken = true;
+  if (H.ringMesh) H.ringMesh.visible = false;
+  const id = POWERUP_POOL[Math.floor(Math.random() * POWERUP_POOL.length)];
+  if (G.bag.length < 4) G.bag.push(id);
+  AudioSys.ensure(); AudioSys.cheer();
+  banner(`+ ${(id === 'bighit' ? 'BIG HIT' : id.toUpperCase())} — TAP TO ARM`);
+  renderPowerups();
+}
+function doMulligan() {
+  if (!G.ball || G.ball.state === 'hole' || G.strokes <= 0) { flashSmall('NOTHING TO TAKE BACK'); return; }
+  AudioSys.ensure(); AudioSys.click();
+  G.ball.position.copy(G.prevPos);
+  G.ball.position.y = H.groundHeight(G.ball.position.x, G.ball.position.z) + BALL_VIS_R;
+  G.ball.velocity.set(0, 0, 0); G.ball.spin.set(0, 0, 0);
+  G.ball.state = 'rest'; G.strokes = Math.max(0, G.strokes - 1);
+  syncBallFlags(); autoClub(); updateHUD();
+  banner('MULLIGAN');
+  flashSmall('SHOT TAKEN BACK');
+}
+function nudgeShape(d) {
+  AudioSys.ensure(); AudioSys.click();
+  G.spinTweak.x = clamp(G.spinTweak.x + d * 0.25, -1, 1);
+  banner(G.spinTweak.x < -0.15 ? 'DRAW ◀' : G.spinTweak.x > 0.15 ? '▶ FADE' : 'STRAIGHT', 900);
+  updateHUD();
+}
+function nudgeTraj(d) {
+  AudioSys.ensure(); AudioSys.click();
+  G.loftAdjust = clamp(G.loftAdjust + d * 0.022, -0.09, 0.09);
+  banner(G.loftAdjust > 0.02 ? '▲ HIGHER' : G.loftAdjust < -0.02 ? '▼ LOWER' : 'NORMAL', 900);
+  updateHUD();
+}
+function wireHudButtons() {
+  const on = (id, fn) => { const el = $(id); if (el && !el._wired) { el._wired = true; el.addEventListener('click', fn); } };
+  on('card-btn', () => { renderScorecard(); $('scorecard').classList.toggle('hidden'); });
+  on('help-btn', () => { $('help').classList.toggle('hidden'); });
+  on('map-btn', () => { $('minimap-wrap').classList.toggle('hiddenmap'); });
+  on('range-back', () => openCourseMenu());
+  on('power-cancel', () => tempo.cancel('manual cancel'));
+  on('shape-left', () => nudgeShape(-1));
+  on('shape-right', () => nudgeShape(1));
+  on('traj-up', () => nudgeTraj(1));
+  on('traj-down', () => nudgeTraj(-1));
+  const ff = $('ff-btn');
+  if (ff && !ff._wired) {
+    ff._wired = true;
+    ff.addEventListener('pointerdown', (e) => { e.preventDefault(); G.ff = true; });
+    ['pointerup', 'pointerleave', 'pointercancel'].forEach((ev) => ff.addEventListener(ev, () => { G.ff = false; }));
+  }
+  renderClubs();
+  renderPowerups();
+}
 function selectCourse(i) {
   AudioSys.ensure(); AudioSys.cheer();
   G.course = i;
@@ -1426,7 +1641,7 @@ function selectCourse(i) {
   $('scorecard').classList.add('hidden');
   startHole(0);
   const c = COURSES[i];
-  flash(`${c.name} • HOLE 1`, `PAR ${c.pars[0]} • ${Math.round(c.yards ? c.yards[0] * YD : 0)}m • GOOD LUCK`);
+  flash(`${c.name} • HOLE 1`, `PAR ${c.pars[0]} • ${c.yards ? c.yards[0] + ' yd' : '—'} • GOOD LUCK`);
 }
 function openCourseMenu() {
   G.started = false;
@@ -1447,17 +1662,6 @@ function renderCourseButtons() {
     box.appendChild(b);
   });
 }
-// touch SWING button: press-and-HOLD to charge, release to set power,
-// tap again to hit — same as SPACE / mouse button (see pointerSwing above)
-let touchDownStage = null;
-$('touch-swing').addEventListener('touchstart', (e) => { e.preventDefault(); touchDownStage = G.swing.stage; pointerSwing(true); }, { passive: false });
-const touchSwingEnd = (e) => {
-  e.preventDefault(); pointerSwing(false);
-  if (touchDownStage !== null && touchDownStage === G.swing.stage) advanceSwing();
-  touchDownStage = null;
-};
-$('touch-swing').addEventListener('touchend', touchSwingEnd, { passive: false });
-$('touch-swing').addEventListener('touchcancel', touchSwingEnd, { passive: false });
 // spin pad: drag from center -> spinTweak (x = sidespin, y = backspin +/-)
 {
   const pad = $('spin-pad'), dot = $('spin-dot');
@@ -1474,11 +1678,45 @@ $('touch-swing').addEventListener('touchcancel', touchSwingEnd, { passive: false
   pad.addEventListener('touchend', () => { spinning = false; touchState.spinX = 0; touchState.spinY = 0; dot.style.transform = ''; }, { passive: false });
 }
 renderCourseButtons();
-// mouse orbit (drag = camera; wheel = zoom)
+// ---------- Tiger Woods tempo swing ----------
+// Pull down for the backswing (depth = intended power), flick up through
+// for the downswing. Lateral wobble becomes draw/fade. Works on the left
+// stick, mouse drag, and touch drag — same state machine (analog-swing.js).
+function ballScreenPos() {
+  const v = G.ball.position.clone().project(camera);
+  const r = canvas.getBoundingClientRect();
+  return { x: r.left + (v.x * 0.5 + 0.5) * r.width, y: r.top + (-v.y * 0.5 + 0.5) * r.height };
+}
+const TEMPO_PX = 220; // full backswing drag length in screen px
+// mouse orbit (drag = camera; wheel = zoom) — a press starting on the ball
+// belongs to the tempo swing instead: drag DOWN to load it, flick UP to hit
 let lastM = null;
-canvas.addEventListener('mousedown', (e) => { G.dragging = true; lastM = [e.clientX, e.clientY]; });
-window.addEventListener('mouseup', () => { G.dragging = false; lastM = null; });
+let tempoTouch = null; // touch drag origin while tempo owns the gesture
+let tempoMouse = null; // { sx, sy } drag origin while tempo owns the mouse
+canvas.addEventListener('mousedown', (e) => {
+  if (e.button !== undefined && e.button !== 0) return;
+  AudioSys.ensure();
+  if (canTempoSwing() && tempoClaim('mouse') && G.ball) {
+    const bp = ballScreenPos();
+    if (Math.hypot(e.clientX - bp.x, e.clientY - bp.y) < 70) {
+      tempo.setPutterMode(isPutter(G.club));
+      tempoMouse = { sx: e.clientX, sy: e.clientY };
+      return; // tempo owns this gesture, not the camera
+    }
+    tempoRelease('mouse');
+  }
+  G.dragging = true; lastM = [e.clientX, e.clientY];
+});
+window.addEventListener('mouseup', () => {
+  tempoRelease('mouse');
+  tempoMouse = null;
+  G.dragging = false; lastM = null;
+});
 window.addEventListener('mousemove', (e) => {
+  if (tempo.source === 'mouse' && tempoMouse) {
+    tempo.feed((e.clientX - tempoMouse.sx) / TEMPO_PX, (e.clientY - tempoMouse.sy) / TEMPO_PX, performance.now());
+    return;
+  }
   if (!G.dragging || !lastM) return;
   const dx = e.clientX - lastM[0], dy = e.clientY - lastM[1];
   lastM = [e.clientX, e.clientY];
@@ -1504,6 +1742,20 @@ function touchAim(dx, dy) {
 }
 canvas.addEventListener('touchstart', (e) => {
   AudioSys.ensure();
+  document.body.classList.add('touch');
+  // one finger on the ball = tempo swing, not camera
+  if (e.changedTouches.length === 1 && activeTouches.size === 0 &&
+      canTempoSwing() && tempoClaim('touch') && G.ball && G.ball.rest && !G.ball.holed) {
+    const t = e.changedTouches[0];
+    const bp = ballScreenPos();
+    if (Math.hypot(t.clientX - bp.x, t.clientY - bp.y) < 80) {
+      tempo.setPutterMode(isPutter(G.club));
+      tempoTouch = { id: t.identifier, sx: t.clientX, sy: t.clientY };
+      e.preventDefault();
+      return;
+    }
+    tempoRelease('touch');
+  }
   for (const t of e.changedTouches) activeTouches.set(t.identifier, { x: t.clientX, y: t.clientY, sx: t.clientX, sy: t.clientY });
   if (activeTouches.size === 2) {
     const [a, b] = [...activeTouches.values()];
@@ -1514,6 +1766,15 @@ canvas.addEventListener('touchstart', (e) => {
   e.preventDefault();
 }, { passive: false });
 canvas.addEventListener('touchmove', (e) => {
+  if (tempo.source === 'touch' && tempoTouch) {
+    for (const t of e.changedTouches) {
+      if (t.identifier === tempoTouch.id) {
+        tempo.feed((t.clientX - tempoTouch.sx) / TEMPO_PX, (t.clientY - tempoTouch.sy) / TEMPO_PX, performance.now());
+      }
+    }
+    e.preventDefault();
+    return;
+  }
   for (const t of e.changedTouches) {
     const r = activeTouches.get(t.identifier);
     if (!r) continue;
@@ -1531,7 +1792,13 @@ canvas.addEventListener('touchmove', (e) => {
   e.preventDefault();
 }, { passive: false });
 const endTouch = (e) => {
-  for (const t of e.changedTouches) activeTouches.delete(t.identifier);
+  for (const t of e.changedTouches) {
+    if (tempo.source === 'touch' && tempoTouch && t.identifier === tempoTouch.id) {
+      tempoRelease('touch');
+      tempoTouch = null;
+    }
+    activeTouches.delete(t.identifier);
+  }
   if (!activeTouches.size) { touchState.accuracy = 0; }
   e.preventDefault();
 };
@@ -1559,6 +1826,7 @@ function restartTour() {
 
 // ---------- main loop: fixed-step physics, independent render ----------
 buildSky();
+wireHudButtons();
 startHole(0);
 renderScorecard();
 updateHUD();
@@ -1573,10 +1841,9 @@ function animate(now) {
   // unified input first: gameplay reads Input.state only
   Input.update();
 
-  // gamepad / touch discrete edges -> same actions as keyboard taps
+  // gamepad discrete edges (stick tempo is polled below, not here)
   if (G.started && !G.paused) {
-    if (Input.rose('swing')) advanceSwing();          // A / Cross / B press
-    else if (Input.fell('swing') && G.swing.stage === 'power') advanceSwing(); // release locks power
+    if (Input.rose('cancel')) tempo.cancel('manual cancel'); // Circle backs out of a tempo swing
     if (Input.state.clubNext && !Input.prev.clubNext) cycleClub(1);
     if (Input.state.clubPrev && !Input.prev.clubPrev) cycleClub(-1);
     if (Input.rose('aimAssist')) toggleAimAssist();
@@ -1586,11 +1853,30 @@ function animate(now) {
   }
   Input.latch();
 
-  // analog aim (keys + left stick + touch drag) — per-render.
+  // Tiger Woods tempo on the left stick (pull down, flick up).
+  // Right stick stays shape/spin, aim freezes once the swing starts.
+  tempo.setPutterMode(isPutter(G.club));
+  const pads = (typeof navigator !== 'undefined' && navigator.getGamepads) ? navigator.getGamepads() : [];
+  const padAlive = Array.from(pads).some((p) => p && p.connected);
+  if (!tempo.source && tempo.state === 'idle' && padAlive && canTempoSwing() &&
+      (Input.gamepad.aimY > 0.3 || Math.abs(Input.gamepad.aimX) > 0.3)) {
+    tempo.source = 'pad';
+  }
+  if (tempo.source === 'pad') {
+    if (!padAlive || !G.started || G.paused || !G.ball || G.ball.holed) tempo.cancel('gamepad disconnected');
+    else tempo.feed(Input.gamepad.aimX, Input.gamepad.aimY, now);
+    if (tempo.state === 'idle') tempo.source = null;
+  }
+
+  // analog aim (keys + dpad + left stick flicks, frozen mid-swing).
   // While the meter runs, directional input steers accuracy, not aim.
   if (G.started && G.ball.rest && !G.ball.holed && !G.paused) {
     const turn = 1.15 * frameTime;
-    if (G.swing.stage === 'idle') G.aimAngle += Input.state.aimX * turn;
+    if (G.swing.stage === 'idle' && tempo.state === 'idle') {
+      G.aimAngle += Input.state.aimX * turn;
+      if (Input.gamepad.dpadL) G.aimAngle -= turn; // dpad coarse aim
+      if (Input.gamepad.dpadR) G.aimAngle += turn;
+    }
     // analog camera: right stick / Q-E / two-finger drag (touch moves orbit directly)
     G.orbit.yaw -= Input.state.cameraX * 1.8 * frameTime;
     G.orbit.pitch = clamp(G.orbit.pitch + Input.state.cameraY * 1.2 * frameTime, 0.05, 1.25);
@@ -1606,43 +1892,70 @@ function animate(now) {
     G.spinTweak.x *= (1 - frameTime * 0.4);
     G.spinTweak.y *= (1 - frameTime * 0.4);
   }
-  // swing meters (per-render)
+  // swing meters, button-hold path only (tempo swing drives the needle itself)
   const sw = G.swing;
-  if (!G.paused && sw.stage === 'power') {
-    sw.power += sw.dirP * frameTime * 0.8;
+  if (!G.paused && tempo.state === 'idle' && sw.stage === 'power') {
+    sw.power += sw.dirP * frameTime * 1.15;
     if (sw.power >= 1) { sw.power = 1; sw.dirP = -1; }
     if (sw.power <= 0) { sw.power = 0; sw.dirP = 1; }
-  } else if (!G.paused && sw.stage === 'acc') {
+  } else if (!G.paused && tempo.state === 'idle' && sw.stage === 'acc') {
     // base oscillation + live analog nudge (stick / A-D / swipe)
     sw.acc += (sw.dirA * 1.7 + Input.state.accuracy * 2.2) * frameTime;
     if (sw.acc >= 1) { sw.acc = 1; sw.dirA = -1; }
     if (sw.acc <= -1) { sw.acc = -1; sw.dirA = 1; }
   }
-  // meter DOM
-  $('power-fill').style.width = `${(sw.stage === 'idle' ? 0 : sw.power) * 100}%`;
-  $('power-needle').style.left = `${(sw.stage === 'idle' ? 0 : sw.power) * 100}%`;
-  $('acc-needle').style.left = `${50 + (sw.stage === 'acc' ? sw.acc * 48 : 0)}%`;
-  $('acc-needle').style.background = sw.stage === 'acc' && Math.abs(sw.acc) < 0.18 ? '#00ff66' : '#ffcc00';
-  if (G.started && sw.stage === 'idle' && G.ball.rest && !G.ball.holed)
-    $('swing-hint').innerHTML = `HOLD <b>SPACE</b> ▸ RELEASE TO SET POWER ▸ PRESS TO HIT`;
-  if (sw.stage === 'power') $('swing-hint').innerHTML = `RELEASE <b>SPACE</b> TO SET YOUR POWER — ${Math.round(sw.power * 100)}%`;
-  if (sw.stage === 'acc') $('swing-hint').innerHTML = `PRESS <b>SPACE</b> IN THE GREEN — STICK / A-D NUDGES`;
+  // meter DOM: vertical track + readout, accuracy/shape line underneath
+  const pf = $('power-fill'), pr = $('power-readout');
+  if (pf) pf.style.height = `${(sw.stage === 'idle' ? 0 : sw.power) * 100}%`;
+  if (pr) pr.textContent = `${Math.round((sw.stage === 'idle' ? 0 : sw.power) * 100)}%`;
+  const ps = $('power-shape');
+  if (ps) {
+    if (tempo.state === 'backswing') {
+      ps.textContent = `BACK ${Math.round(tempo.backswingY * 100)}%`;
+      ps.style.color = '#fff';
+    } else if (tempo.state === 'downswing') {
+      ps.textContent = 'FLICK!';
+      ps.style.color = '#ffcc00';
+    } else if (sw.stage === 'power') {
+      ps.textContent = `SET ${Math.round(sw.power * 100)}% — RELEASE`;
+      ps.style.color = '#fff';
+    } else if (sw.stage === 'acc') {
+      const a = Math.round(sw.acc * 100);
+      ps.textContent = a < -18 ? `◀ ${-a}` : a > 18 ? `${a} ▶` : '● PURE';
+      ps.style.color = Math.abs(sw.acc) < 0.18 ? '#00ff66' : '#ffcc00';
+    } else {
+      const sx = G.spinTweak.x;
+      ps.textContent = sx < -0.15 ? '◀ DRAW' : sx > 0.15 ? 'FADE ▶' : 'STRAIGHT';
+      ps.style.color = '';
+    }
+  }
+  // shot clock: elapsed since the strike, while the ball is live
+  const sc = $('shot-clock');
+  if (sc) {
+    if (!G.ball.rest && !G.ball.holed && G.shotAt) {
+      sc.classList.remove('hidden');
+      sc.textContent = `${((performance.now() - G.shotAt) / 1000).toFixed(1)}s`;
+    } else sc.classList.add('hidden');
+  }
+  // fast-forward button: only while rolling
+  const ff = $('ff-btn');
+  if (ff) ff.classList.toggle('hidden', !(G.ball.state === 'ground'));
   // touch UI fades in only when a shot can be taken (keeps course readable)
   {
     const tui = $('touch-ui');
     if (tui) tui.classList.toggle('ready', document.body.classList.contains('touch') && G.started && G.ball.rest && !G.ball.holed && !G.paused);
   }
 
-  // fixed-step physics (skipped while paused)
+  // fixed-step physics (skipped while paused; ff runs a long roll at 3x)
   if (!G.paused) {
-    accumulator += frameTime;
+    accumulator += frameTime * (G.ff && G.ball.state === 'ground' ? 3 : 1);
     let steps = 0;
-    while (accumulator >= FIXED_DT && steps < 12) {
+    while (accumulator >= FIXED_DT && steps < 24) {
       physicsStep(FIXED_DT);
       accumulator -= FIXED_DT;
       steps++;
     }
-    if (steps === 12) accumulator = 0;
+    if (steps === 24) accumulator = 0;
   }
 
   // trail sampling per render (+ replay recording)
@@ -1681,22 +1994,16 @@ function animate(now) {
 
   updateAim();
   updateCamera(frameTime);
-  if ((animate.f = (animate.f || 0) + 1) % 6 === 0) {
-    updateHUD(); drawMinimap();
-    // live input lamp: proves your hands are reaching the game
-    const lamp = $('inputlive');
-    if (lamp) {
-      const holding = Input.state.swing > 0.1;
-      lamp.textContent = holding ? '● CHARGING — RELEASE TO SET POWER' : '○ HOLD SPACE OR SWING BUTTON TO CHARGE';
-      lamp.classList.toggle('hot', holding);
-    }
-  }
+  // power-up ring slowly turns until collected
+  if (H && H.ringMesh && H.ring && !H.ring.taken) H.ringMesh.rotation.y += frameTime * 0.8;
+  if ((animate.f = (animate.f || 0) + 1) % 6 === 0) { updateHUD(); drawMinimap(); }
   renderer.render(scene, camera);
 }
 // Debug/test hook (used by automated playtests; harmless in production)
 window.__golf = {
-  G, COURSES,
-  version: 8,
+  G, COURSES, tempo,
+  version: 18,
+  ballScreen() { return ballScreenPos(); },
   get H() { return H; },
   get WORLD() { return WORLD; },
   play(course, idx) {

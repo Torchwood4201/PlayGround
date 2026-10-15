@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>WIREFRAME GOLF — Wire Tour '86</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>⛳</text></svg>" />
-<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="./style.css?v=18" />
 </head>
 <body>
 <div id="app">
@@ -14,56 +14,90 @@
   <div id="scanlines"></div>
   <div id="vignette"></div>
 
-  <!-- Top bar -->
-  <header id="topbar">
-    <div class="brand">WIREFRAME&nbsp;GOLF <span>// WIRE&nbsp;TOUR&nbsp;'86</span></div>
-    <div class="stats">
-      <div class="stat"><label>HOLE</label><b id="hud-hole">1/9</b></div>
-      <div class="stat"><label>PAR</label><b id="hud-par">4</b></div>
-      <div class="stat"><label>STROKE</label><b id="hud-stroke">0</b></div>
-      <div class="stat"><label>SCORE</label><b id="hud-score">E</b></div>
-      <div class="stat wide"><label>TO PIN</label><b id="hud-dist">—</b></div>
-    </div>
-  </header>
+  <div id="hud">
+      <div id="shot-clock" class="shot-clock hidden"></div>
+      <div id="hud-actions">
+        <button id="range-back" class="card-btn range-back hidden" title="Back to the Locker" aria-label="Back to the Locker"><span class="btn-ico">←</span><span class="btn-lbl">Locker</span></button>
+        <button id="help-btn" class="help-btn" title="How to play" aria-label="How to play">?</button>
+        <button id="card-btn" class="card-btn" title="Scorecard (Tab)" aria-label="Scorecard"><span class="btn-ico">☰</span><span class="btn-lbl">Scorecard</span></button>
+      </div>
+      <button id="map-btn" class="map-btn" title="Hole map" aria-label="Map"><span class="btn-ico">⚑</span><span class="btn-lbl">Map</span></button>
 
-  <!-- Left panel -->
-  <aside id="leftpanel">
-    <div class="panel-title">⛳ CADDY</div>
-    <div class="row"><span>LIE</span><b id="hud-lie">TEE</b></div>
-    <div class="row"><span>WIND</span><b id="hud-wind">→ 2.0 m/s</b></div>
-    <div class="row"><span>CAM</span><b id="hud-cam">FOLLOW</b></div>
-    <div class="row"><span>LOFT</span><b id="hud-loft">+0.0°</b></div>
-    <div class="row"><span>SPIN</span><b id="hud-spin">0.0 / 0.0</b></div>
-    <div class="clubs" id="clubs">
-      <div class="club" data-club="0"><i>1</i> DRIVER <em>260m</em></div>
-      <div class="club" data-club="1"><i>2</i> IRON <em>170m</em></div>
-      <div class="club" data-club="2"><i>3</i> WEDGE <em>95m</em></div>
-      <div class="club" data-club="3"><i>4</i> PUTTER <em>25m</em></div>
-    </div>
-    <canvas id="minimap" width="168" height="168"></canvas>
-    <div class="mini-label">HOLE MAP</div>
-  </aside>
+      <div class="minimap-wrap" id="minimap-wrap"><canvas id="minimap" width="220" height="360"></canvas></div>
 
-  <!-- Swing meter -->
-  <div id="meter">
-    <div id="power-wrap">
-      <label>POWER</label>
-      <div id="power-bar"><div id="power-fill"></div><div id="power-needle"></div></div>
-    </div>
-    <div id="acc-wrap">
-      <label>ACCURACY</label>
-      <div id="acc-bar"><div id="acc-zone"></div><div id="acc-needle"></div></div>
-    </div>
-    <div id="swing-hint">HOLD <b>SPACE</b> ▸ RELEASE TO SET POWER ▸ PRESS TO HIT</div>
-    <div id="shotinfo">NO SHOT YET — HOLD SWING/SPACE TO CHARGE</div>
-    <div id="inputlive">○ HOLD SPACE OR SWING BUTTON TO CHARGE</div>
-    <button id="swing-btn">SWING ⏎</button>
-  </div>
+      <div id="powerups" class="powerups"></div>
 
-  <!-- Touch controls (fade in only on touch devices, only when relevant) -->
+      <div class="top-left">
+        <!-- A column of paper cards: the main card (hole, stroke·score, distance, lie), then two
+             equal tiles for wind and elevation -- the two things players kept missing when they
+             were one dim line under the distance (2026-09-01). Phones keep the same stack. -->
+        <div class="tl-main">
+          <div class="brandline">WIREFRAME GOLF <span id="course-tag">// STILL VALLEY</span></div>
+          <div class="status"><span id="hole"><span class="hole-lbl">Hole </span><span class="hole-lbl-sm">H</span>1<span class="dim">/9</span> <span class="dim">·</span> Par 4</span></div>
+          <div class="substatus"><span id="strokes">Stroke 0</span> <span class="dim">·</span> <span id="total">E</span></div>
+          <div class="dist-hero"><span id="distance">—</span></div>
+          <div class="cond-lie"><span id="lie">Tee</span> <span class="dim">·</span> <span id="cam">FOLLOW</span></div>
+          <div class="lastshot-row">last shot <span id="lastshot">—</span></div>
+        </div>
+        <div class="cond-tiles">
+          <div class="tile tile-wind">
+            <div class="tile-lbl">Wind</div>
+            <div class="tile-row">
+              <!-- A drawn arrow rather than a glyph: it turns to the wind and sways with its strength (hud.js).
+                   Just the arrow and the number -- no words (2026-09-01). -->
+              <svg class="wind-arrow" id="wind-arrow" viewBox="0 0 40 40" aria-hidden="true" style="transform: rotate(0rad); opacity: 1;"><path d="M20 3 L31 18 L23.5 18 L22 37 L18 37 L16.5 18 L9 18 Z"></path></svg>
+              <div class="tile-big" id="wind-text">0<span class="tile-unit"> mph</span></div>
+            </div>
+          </div>
+          <div class="tile tile-elev down" id="elev-tile">
+            <div class="tile-lbl"><span class="lbl-full">Elevation</span><span class="lbl-sm">Elev</span></div>
+            <div class="tile-row">
+              <!-- One chevron: up as drawn, flipped for downhill, a bar when it's flat (CSS on the tile's class). -->
+              <svg class="elev-glyph" viewBox="0 0 40 40" aria-hidden="true"><path class="eg-chev" d="M9 27 L20 13 L31 27"></path><path class="eg-flat" d="M9 20 L31 20"></path></svg>
+              <div class="tile-big" id="elevation">0<span class="tile-unit"> ft</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="power" id="power-wrap" style="--power-lift: 0px;" title="Pull down to load, flick up to hit">
+        <div class="power-track">
+          <div class="power-fill" id="power-fill"></div>
+        </div>
+        <div class="power-readout" id="power-readout">0%</div>
+        <div class="power-caption">power</div>
+        <div class="power-shape" id="power-shape"></div>
+        <button class="power-cancel" id="power-cancel" title="Reset shot (Esc)">Reset</button>
+      </div>
+
+      <div class="banner" id="banner"></div>
+
+      <div class="panel bottom">
+        <!-- Hold to run a long roll at 3x. Only while the ball is rolling and it applies (see main.js). Beside the club strip on desktop, above its corner on a phone. -->
+        <button id="ff-btn" class="ff-btn hidden" title="Hold to fast-forward the roll" aria-label="Hold to fast-forward">»</button>
+        <div id="clubs" class="clubs"></div>
+        <div class="controls">
+          <div class="ctl">
+            <button class="ctl-btn" id="shape-left" title="Draw (A)">◀</button>
+            <span class="ctl-text" id="shape-text">Straight</span>
+            <button class="ctl-btn" id="shape-right" title="Fade (D)">▶</button>
+          </div>
+          <span class="ctl-div"></span>
+          <div class="ctl">
+            <button class="ctl-btn" id="traj-down" title="Lower (S)">▼</button>
+            <span class="ctl-text" id="traj-text">Normal</span>
+            <button class="ctl-btn" id="traj-up" title="Higher (W)">▲</button>
+          </div>
+        </div>
+        <div class="hint">
+          <b>A</b>/<b>D</b> draw &amp; fade · <b>W</b>/<b>S</b> higher &amp; lower · tap a power-up to arm · <b>Esc</b> resets · <b>M</b> mutes · <b>R</b> back to lobby
+        </div>
+      </div>
+    </div>
+
+  <!-- Touch shape control (swing is the drag-from-ball tempo on touch) -->
   <div id="touch-ui">
     <div id="spin-pad"><div id="spin-dot"></div><label>SPIN</label></div>
-    <button id="touch-swing">SWING</button>
   </div>
 
   <!-- Message flash -->
@@ -78,11 +112,11 @@
   </div>
 
   <!-- Help -->
-  <div id="help">
-    <b>A/D ◀ ▶</b> aim &nbsp; <b>1–4 Q/E</b> club &nbsp; <b>SPACE</b> hold/rls/press &nbsp;
-    <b>W/S</b> loft &nbsp; <b>IJKL</b> spin &nbsp; <b>DRAG</b> orbit &nbsp; <b>WHEEL</b> zoom &nbsp;
+  <div id="help" class="hidden">
+    <b>A/D ◀ ▶</b> shape &nbsp; <b>1–0</b> club &nbsp; <b>STICK / DRAG</b> pull-flick &nbsp;
+    <b>W/S</b> traj &nbsp; <b>DRAG</b> orbit &nbsp; <b>WHEEL</b> zoom &nbsp;
     <b>C</b> cam &nbsp; <b>TAB</b> card &nbsp; <b>R</b> replay &nbsp; <b>O</b> courses &nbsp; <b>T</b> retry &nbsp; <b>Y</b> assist &nbsp;
-    <b>ESC</b> pause &nbsp; <b>M</b> sound &nbsp; <b>PAD</b> stick+buttons OK &nbsp; <b>BUILD</b> v8
+    <b>ESC</b> pause &nbsp; <b>M</b> sound &nbsp; <b>PAD</b> stick tempo OK &nbsp; <b>BUILD</b> v18
   </div>
 
   <!-- Title overlay -->
@@ -92,7 +126,7 @@
       <h1>WIREFRAME<br/>GOLF</h1>
       <div class="t-sub">9 HOLES • ALL WIREFRAME • DESKTOP 3D</div>
       <div class="t-controls">
-        AIM <b>A/D</b> • CLUB <b>1-4</b> • SWING <b>HOLD-RLS-PRESS</b> • ORBIT <b>MOUSE</b> • PAD OK
+        AIM <b>A/D</b> • CLUB <b>1-0</b> • <b>DRAG BACK FROM BALL</b> RELEASE TO HIT • <b>MOUSE</b> • PAD OK
       </div>
       <div class="t-kicker2">— SELECT COURSE —</div>
       <div id="course-btns"></div>
@@ -100,6 +134,6 @@
     </div>
   </div>
 </div>
-<script type="module" src="./game.js?v=8"></script>
+<script type="module" src="./game.js?v=18"></script>
 </body>
 </html>
