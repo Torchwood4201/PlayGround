@@ -25,6 +25,8 @@
   var currentName = BUNDLED.name;
   var muted = false;
   var crtOn = false;
+  var autoOn = false;
+  var autoTimer = null;
 
   function $(s, r){ return (r || document).querySelector(s); }
   function $all(s, r){ return Array.prototype.slice.call((r || document).querySelectorAll(s)); }
@@ -86,6 +88,9 @@
   function stopExisting(){
     powering = false;
     if(powerTimer){ clearInterval(powerTimer); powerTimer = null; }
+    replayTimers.forEach(clearTimeout);
+    replayTimers = []; replayingId = null;
+    releaseAuto();
     try{
       if(window.EJS_emulator && typeof window.EJS_emulator.callEvent === 'function'){
         window.EJS_emulator.callEvent('exit');
@@ -136,6 +141,7 @@
        the core directly (driveIndex), so EJS key mapping is irrelevant. */
     window.EJS_ready = function(){
       enableKeyboard();
+      assignUsbPad();
       setStatus(currentName.toUpperCase().slice(0, 32), playing ? 'NOW PLAYING' : 'PRESS POWER');
     };
     window.EJS_onGameStart = function(){
@@ -174,6 +180,7 @@
   function powerOff(){
     powering = false;
     if(powerTimer){ clearInterval(powerTimer); powerTimer = null; }
+    releaseAuto(); /* drop holds; the autopilot itself stays on and resumes on power-up */
     var done = false;
     try{
       if(window.EJS_emulator && typeof window.EJS_emulator.callEvent === 'function'){
@@ -210,13 +217,22 @@
      CSS-art pads REAL controllers. Synthetic keyboard events are still
      sent as a secondary path (see sendKey). Both set the same button
      state, so double delivery is harmless. */
-  function driveIndex(idx, down){
+  function driveIndex(idx, down, src, pl){
     try{
       var gm = window.EJS_emulator && window.EJS_emulator.gameManager;
       if(gm && typeof gm.simulateInput === 'function'){
-        gm.simulateInput(0, idx, down ? 1 : 0);
+        gm.simulateInput(pl || 0, idx, down ? 1 : 0);
       }
     }catch(e){}
+    if(recOn) recInputs.push({ t: Date.now() - recT0, b: idx, d: down ? 1 : 0, s: src || '?', p: pl || 0 });
+  }
+  /* Which players the autopilot drives (human pads/keys stay P1). */
+  function autoPlayers(){
+    var out = [];
+    (AgentOpts.players || [0]).forEach(function(p){
+      if(p >= 0 && p <= 3 && out.indexOf(p) === -1 && out.length < 4) out.push(p);
+    });
+    return out.length ? out : [0];
   }
   var KEYCODES = {
     a: 65, b: 66, x: 88, y: 89, v: 86, Enter: 13,
@@ -252,14 +268,14 @@
     if(key === undefined && PADINDEX[db] === undefined) return;
     var down = function(e){
       e.preventDefault(); el.classList.add('pressed');
-      if(PADINDEX[db] !== undefined) driveIndex(PADINDEX[db], true);
+      if(PADINDEX[db] !== undefined) driveIndex(PADINDEX[db], true, 'pad');
       if(key !== undefined) sendKey(key, 'keydown');
     };
     var up = function(e){
       if(e) e.preventDefault();
       el.classList.remove('pressed');
       try{ if(document.activeElement === el) el.blur(); }catch(e2){}
-      if(PADINDEX[db] !== undefined) driveIndex(PADINDEX[db], false);
+      if(PADINDEX[db] !== undefined) driveIndex(PADINDEX[db], false, 'pad');
       if(key !== undefined) sendKey(key, 'keyup');
     };
     el.addEventListener('pointerdown', down);
@@ -279,27 +295,563 @@
   document.addEventListener('keydown', function(e){
     if(e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')) return;
     var modalOpen = !document.getElementById('library-modal').classList.contains('hidden') ||
-                    !document.getElementById('info-modal').classList.contains('hidden');
+                    !document.getElementById('info-modal').classList.contains('hidden') ||
+                    !document.getElementById('ai-modal').classList.contains('hidden');
     if(['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', ' '].indexOf(e.key) !== -1 && !modalOpen){
       e.preventDefault();
     }
     if(modalOpen || e.repeat) return;
     var idx = physIndex(e);
-    if(idx !== undefined){ e.preventDefault(); driveIndex(idx, true); }
+    if(idx !== undefined){
+      e.preventDefault();
+      driveIndex(idx, true, 'key');
+    }
   });
   document.addEventListener('keyup', function(e){
     var idx = physIndex(e);
-    if(idx !== undefined) driveIndex(idx, false);
+    if(idx !== undefined) driveIndex(idx, false, 'key');
   });
 
-  /* ---------- IndexedDB ROM library ---------- */
+  function releaseAuto(){
+    [AgentMap.dirR, AgentMap.dirL, AgentMap.run]
+      .concat(AgentMap.actions, AgentMap.shoulders)
+      .forEach(function(i){
+        for(var pl = 0; pl <= 3; pl++) driveIndex(i, false, 'sys', pl);
+      });
+  }
+
+  /* ---------- screen-reactive autopilot (AI Lab): cloned copilots ----------
+     One cloned brain per driven player — same screen, own rhythm. The first
+     enabled player works the menus; every pilot senses, modes and plays for
+     itself (phase-offset hops, own button order), so P2 never just parrots
+     P1's exact presses.
+     SEEK (still frames — any menu, pause, title, black transition screen):
+       tap rotation from settings, never holds directions so it can't fight
+       cursors on any system.
+     PLAY (the picture moves — scrolling, pans, action): holds the forward
+       button hard, holds run/dash only while the pixels demand it, and each
+       pilot works the action buttons + shoulders on its own beat.
+     Silence heals: freeze, game-over, quiet black screen → every pilot back
+     to SEEK, taps its own way out of whatever menu maze comes next. */
+  /* ---------- agent options + button map (persisted, tunable in AI Lab) --- */
+  var AgentDefaults = {
+    senseMs: 2000, tapMs: 4000, tapPulseMs: 600, seekCycle: '2,2,3,8',
+    driveMs: 300, hopEvery: 3, hopPulseMs: 260,
+    hiThresh: 8, hiStreak: 3, loThresh: 4, loStreak: 3, blackMean: 10,
+    players: [0, 1], hud: false
+  };
+  var AgentOpts = {};
+  try{
+    var rawOwn = {};
+    try{ rawOwn = JSON.parse(localStorage.getItem('snesboy-agent') || '{}'); }catch(e){}
+    AgentOpts = Object.assign({}, AgentDefaults, rawOwn);
+    /* players defaulted to P1-only before Both existed — migrate old saves */
+    if(!rawOwn || !('players' in rawOwn)) AgentOpts.players = [0, 1];
+  }catch(e){ AgentOpts = Object.assign({}, AgentDefaults, { players: [0, 1] }); }
+  function saveAgentOpts(){
+    try{ localStorage.setItem('snesboy-agent', JSON.stringify(AgentOpts)); }catch(e){}
+  }
+  /* Emulator button indices the brain uses (RetroArch SNES numbering).
+     Human pads keep using PADINDEX; only the agent reads this. */
+  var AgentMap = { dirR: 7, dirL: 6, run: 1, actions: [8, 0], shoulders: [10, 11], select: 2, start: 3 };
+  /* SEEK tap rotation, parsed from AgentOpts.seekCycle ('2,2,3,8' =
+     SELECT, SELECT, START, A). Different games want different confirms;
+     SELECT/START/A/B cycle covers nearly every menu maze. */
+  var autoCycle = [2, 2, 3, 8];
+  function parseSeekCycle(){
+    try{
+      var parts = String(AgentOpts.seekCycle).split(',');
+      var out = [];
+      parts.forEach(function(p){
+        var v = parseInt(p.trim(), 10);
+        if(!isNaN(v) && v >= 0 && v <= 11 && out.length < 8) out.push(v);
+      });
+      if(out.length) autoCycle = out;
+    }catch(e){}
+  }
+  /* One cloned copilot per driven player — same screen, own brain. The
+     first enabled player works the menus; every pilot senses, modes and
+     plays for itself with its own rhythm (phase-offset hops, own button
+     order), so P2 never just parrots P1. */
+  var autoMenuTimer = null, autoSenseTimer = null;
+  var autoPilots = [];
+  function makePilot(player, idx, menus){
+    return { pl: player, menus: menus, mode: 'seek', prev: null, hi: 0, lo: 0,
+      menuN: 0, hopN: idx * 2, tick: 0, shN: 0,
+      order: (idx % 2 === 0) ? AgentMap.actions.slice() : AgentMap.actions.slice().reverse() };
+  }
+  var autoDiff = 0;
+  function pilotModes(){
+    return autoPilots.map(function(pt){ return 'P' + (pt.pl + 1) + ':' + pt.mode.toUpperCase(); }).join(' ');
+  }
+  function updateAutoBtn(){
+    var b = document.getElementById('btn-autopilot');
+    if(b){
+      b.textContent = autoOn ? ('⏸ AUTOPILOT: ON (' + pilotModes() + ')') : '▶ AUTOPILOT: OFF';
+      b.classList.toggle('autopilot-on', autoOn);
+    }
+  }
+  function autoTap(idx, pl){
+    driveIndex(idx, true, 'auto', pl);
+    setTimeout(function(){ driveIndex(idx, false, 'auto', pl); }, AgentOpts.tapPulseMs);
+  }
+  function updateAgentHud(){
+    var txt = (autoOn ? pilotModes() : 'OFF') + ' · d=' + autoDiff.toFixed(1) +
+      (autoOn && /play/.test(pilotModes()) ? (autoDir === AgentMap.dirL ? ' ◀' : ' ▶') : '') +
+      (autoOn ? ' · ' + autoPlayers().map(function(p){ return 'P' + (p + 1); }).join('+') : '');
+    $all('.agent-hud').forEach(function(e){
+      e.textContent = txt;
+      e.classList.toggle('hidden', !AgentOpts.hud);
+    });
+    var hb = document.getElementById('btn-hud');
+    if(hb) hb.textContent = AgentOpts.hud ? 'HUD: ON' : 'HUD: OFF';
+  }
+  function sensePilot(pt, g){
+    if(!g || !pt.prev){ pt.prev = g; return 0; }
+    var d = grayDiff(g, pt.prev);
+    pt.prev = g;
+    pt.lastD = d;
+    if(d > AgentOpts.hiThresh){
+      pt.hi++; pt.lo = 0;
+      if(pt.hi >= AgentOpts.hiStreak && pt.mode !== 'play'){ pt.mode = 'play'; updateAutoBtn(); }
+    }else if(d < AgentOpts.loThresh){
+      pt.lo++; pt.hi = 0;
+      if(pt.lo >= AgentOpts.loStreak && pt.mode !== 'seek'){ pt.mode = 'seek'; releaseAuto(); updateAutoBtn(); }
+    }else{ pt.hi = 0; pt.lo = 0; }
+    return d;
+  }
+  function startAgentEngine(){
+    parseSeekCycle();
+    if(autoMenuTimer) clearInterval(autoMenuTimer);
+    if(autoSenseTimer) clearInterval(autoSenseTimer);
+    if(autoTimer) clearInterval(autoTimer);
+    autoPilots = autoPlayers().map(function(pl, i){ return makePilot(pl, i, i === 0); });
+    autoMenuTimer = setInterval(function(){
+      if(!autoOn || !playing) return;
+      autoPilots.forEach(function(pt){
+        if(pt.mode !== 'seek' || !pt.menus) return;
+        pt.menuN++;
+        autoTap(autoCycle[pt.menuN % autoCycle.length], pt.pl);
+      });
+    }, AgentOpts.tapMs);
+    autoSenseTimer = setInterval(function(){
+      if(!autoOn || !playing){ autoPilots.forEach(function(pt){ pt.prev = null; }); return; }
+      var g = frameGray();
+      if(!g) return;
+      if(grayMean(g) < AgentOpts.blackMean){
+        /* black transition / fade-out: quiet — heal every pilot to SEEK */
+        autoDiff = 0;
+        autoPilots.forEach(function(pt){
+          pt.prev = g; pt.hi = 0; pt.lo = 0;
+          if(pt.mode !== 'seek') pt.mode = 'seek';
+        });
+        releaseAuto(); updateAutoBtn(); updateAgentHud();
+        return;
+      }
+      var sh = null, dMax = 0;
+      autoPilots.forEach(function(pt){
+        if(!pt.prev){ pt.prev = g; return; }
+        if(sh === null) sh = colShift(pt.prev, g); /* one shared world, one steering vote */
+        dMax = Math.max(dMax, sensePilot(pt, g));
+      });
+      if(sh !== null){
+        if(sh >= 2) autoDir = AgentMap.dirR; else if(sh <= -2) autoDir = AgentMap.dirL;
+      }
+      autoDiff = dMax;
+      updateAgentHud();
+    }, AgentOpts.senseMs);
+    autoTimer = setInterval(function(){
+      if(!autoOn) return;
+      if(!playing) return;
+      autoPilots.forEach(function(pt, idx){
+        if(pt.mode !== 'play') return; /* menus get taps only — held buttons would fight navigation */
+        pt.tick++;
+        driveIndex(autoDir, true, 'auto', pt.pl);
+        driveIndex(AgentMap.run, true, 'auto', pt.pl); /* follow the scroll + run/dash */
+        if((pt.tick + idx) % AgentOpts.hopEvery === 0){
+          /* own rhythm per pilot: phase-offset hops, own button order */
+          pt.hopN++;
+          var btn = pt.order[pt.hopN % pt.order.length]; /* jump in one game is attack in another */
+          driveIndex(btn, true, 'auto', pt.pl);
+          (function(b, pl){
+            setTimeout(function(){ if(autoOn) driveIndex(b, false, 'auto', pl); }, AgentOpts.hopPulseMs);
+          })(btn, pt.pl);
+          if(pt.hopN % 4 === 3){
+            /* every 4th beat works a shoulder too — dash/strafe/special, per game */
+            pt.shN++;
+            var sh = AgentMap.shoulders[pt.shN % AgentMap.shoulders.length];
+            driveIndex(sh, true, 'auto', pt.pl);
+            (function(s, pl){
+              setTimeout(function(){ if(autoOn) driveIndex(s, false, 'auto', pl); }, AgentOpts.hopPulseMs);
+            })(sh, pt.pl);
+          }
+        }
+      });
+    }, AgentOpts.driveMs);
+  }
+  function startAutopilot(){
+    if(autoTimer || autoMenuTimer || autoSenseTimer) return;
+    autoOn = true;
+    autoDiff = 0;
+    if(!playing) powerOn();
+    startAgentEngine();
+    updateAutoBtn(); updateAgentHud();
+  }
+  function stopAutopilot(){
+    autoOn = false;
+    if(autoTimer){ clearInterval(autoTimer); autoTimer = null; }
+    if(autoMenuTimer){ clearInterval(autoMenuTimer); autoMenuTimer = null; }
+    if(autoSenseTimer){ clearInterval(autoSenseTimer); autoSenseTimer = null; }
+    autoPilots = [];
+    releaseAuto();
+    updateAutoBtn(); updateAgentHud();
+  }
+  function toggleAutopilot(){ if(autoOn) stopAutopilot(); else startAutopilot(); }
+  function toggleHud(){ AgentOpts.hud = !AgentOpts.hud; saveAgentOpts(); updateAgentHud(); }
+
+  /* ---------- tune the brain (AI Lab inputs) ---------- */
+  var TuneFields = [
+    ['senseMs', 500, 5000], ['tapMs', 2000, 10000], ['hiThresh', 1, 40],
+    ['loThresh', 0.5, 20], ['hopEvery', 1, 10]
+  ];
+  function renderTuneInputs(){
+    TuneFields.forEach(function(f){
+      var el = document.getElementById('opt-' + f[0]);
+      if(el) el.value = AgentOpts[f[0]];
+    });
+    var cy = document.getElementById('opt-seekCycle');
+    if(cy) cy.value = AgentOpts.seekCycle;
+    var ps = document.getElementById('opt-players');
+    if(ps) ps.value = (AgentOpts.players || [0]).join(',');
+    var map = document.getElementById('agent-map-readout');
+    if(map) map.textContent = 'map: dirR=' + AgentMap.dirR + ' dirL=' + AgentMap.dirL +
+      ' run=' + AgentMap.run + ' actions=[' + AgentMap.actions.join(',') +
+      '] shoulders=[' + AgentMap.shoulders.join(',') +
+      '] select=' + AgentMap.select + ' start=' + AgentMap.start;
+  }
+  function resetAgentOpts(){
+    AgentOpts = Object.assign({}, AgentDefaults);
+    saveAgentOpts(); renderTuneInputs();
+    if(autoOn){ startAgentEngine(); }
+    updateAgentHud();
+  }
+
+  /* Readable WebGL: the emulator's canvas is created WITHOUT
+     preserveDrawingBuffer, so 2D readback returns pure black and all
+     vision (sense loop + recorder) goes blind (d=0.0 forever). Force the
+     flag on every WebGL context at creation — before the loader runs. */
+  (function patchGL(){
+    try{
+      var proto = window.HTMLCanvasElement && HTMLCanvasElement.prototype;
+      if(!proto || !proto.getContext) return;
+      var og = proto.getContext;
+      proto.getContext = function(type, attrs){
+        if(type === 'webgl' || type === 'webgl2' || type === 'experimental-webgl'){
+          try{ attrs = Object.assign({}, attrs, { preserveDrawingBuffer: true }); }
+          catch(e){ attrs = { preserveDrawingBuffer: true }; }
+        }
+        return og.call(this, type, attrs);
+      };
+    }catch(e){}
+  })();
+  /* Passive audio tap: learn the emulator's AudioContext the first time
+     it creates a node, then attach ONE extra analyser as an additional
+     destination. The existing graph is untouched (extra connect() calls
+     never alter the original path), so sound keeps working while we
+     sample RMS/peak energy alongside frames and inputs. */
+  var audioTap = { ctx: null, analyser: null, buf: null, busy: false };
+  (function patchAudio(){
+    try{
+      var AC = window.AudioContext || window.webkitAudioContext;
+      if(!AC || !AC.prototype || !window.AudioNode) return;
+      var methods = ['createScriptProcessor', 'createGain', 'createAnalyser',
+        'createBufferSource', 'createOscillator', 'createBiquadFilter'];
+      methods.forEach(function(m){
+        if(typeof AC.prototype[m] !== 'function') return;
+        var f = AC.prototype[m];
+        AC.prototype[m] = function(){ audioTap.ctx = audioTap.ctx || this; return f.apply(this, arguments); };
+      });
+      var oc = window.AudioNode.prototype.connect;
+      window.AudioNode.prototype.connect = function(){
+        try{
+          if(!audioTap.busy && audioTap.ctx && !audioTap.analyser &&
+             this.context === audioTap.ctx){
+            audioTap.busy = true;
+            try{
+              audioTap.analyser = audioTap.ctx.createAnalyser();
+              audioTap.analyser.fftSize = 2048;
+              audioTap.buf = new Float32Array(2048);
+              oc.call(this, audioTap.analyser);
+            }catch(e2){}
+            audioTap.busy = false;
+          }
+        }catch(e){}
+        return oc.apply(this, arguments);
+      };
+    }catch(e){}
+  })();
+  function sampleAudio(t){
+    if(!audioTap.analyser || !audioTap.buf) return null;
+    try{
+      audioTap.analyser.getFloatTimeDomainData(audioTap.buf);
+      var sum = 0, peak = 0;
+      for(var i = 0; i < audioTap.buf.length; i++){
+        var v = audioTap.buf[i];
+        sum += v * v;
+        var a = v < 0 ? -v : v;
+        if(a > peak) peak = a;
+      }
+      return { t: t, rms: Math.round(Math.sqrt(sum / audioTap.buf.length) * 1000) / 1000,
+               peak: Math.round(peak * 1000) / 1000 };
+    }catch(e){ return null; }
+  }
+
+  /* ---------- learning recorder: screen + inputs + sound ----------
+     Samples the emulator canvas at 5fps downscaled to 32x32 grayscale
+     (the same shape the DQN paper feeds its network), logs every input
+     with its source (pad / key / auto / replay), and samples audio
+     energy from the passive tap — all timestamped into one episode. */
+  var recOn = false, recT0 = 0, recTimer = null;
+  var recFrames = [], recInputs = [], recAudio = [];
+  var recCanvas = null, recCtx = null;
+  var REC_MAX_MS = 180000;
+  var BTN_NAMES = { 0: 'B', 1: 'Y', 2: 'Select', 3: 'Start', 4: 'Up', 5: 'Down', 6: 'Left', 7: 'Right', 8: 'A', 9: 'X', 10: 'L', 11: 'R' };
+  function frameGray(){
+    try{
+      var src = stage.querySelector('canvas');
+      if(!src || !src.width) return null;
+      if(!recCanvas){
+        recCanvas = document.createElement('canvas');
+        recCanvas.width = 32; recCanvas.height = 32;
+        recCtx = recCanvas.getContext('2d', { willReadFrequently: true });
+      }
+      recCtx.drawImage(src, 0, 0, 32, 32);
+      var d = recCtx.getImageData(0, 0, 32, 32).data;
+      var g = new Uint8Array(1024);
+      for(var i = 0, j = 0; i < d.length; i += 4, j++){
+        g[j] = (d[i] * 299 + d[i + 1] * 587 + d[i + 2] * 114) / 1000 | 0;
+      }
+      return g;
+    }catch(e){ return null; }
+  }
+  function frameB64(){
+    var g = frameGray();
+    if(!g) return null;
+    var s = '';
+    for(var i = 0; i < g.length; i++) s += String.fromCharCode(g[i]);
+    return btoa(s);
+  }
+  function grayDiff(a, b){
+    var s = 0, n = 0;
+    for(var i = 0; i < a.length; i += 4){
+      var d = a[i] - b[i];
+      s += d < 0 ? -d : d; n++;
+    }
+    return s / n;
+  }
+  function grayMean(g){
+    var s = 0;
+    for(var i = 0; i < g.length; i += 4) s += g[i];
+    return s / Math.ceil(g.length / 4);
+  }
+  /* Which way is the world scrolling? Column-profile SAD between two
+     frames over shifts of -8..+8px. Positive shift = pixels moved left =
+     camera pushing right, so keep holding Right (and mirrored). Lets the
+     agent follow side-scrollers in either direction instead of assuming. */
+  var autoDir = 7;
+  function colShift(a, b){
+    var pa = [], pb = [], x, y;
+    for(x = 0; x < 32; x++){ pa.push(0); pb.push(0); }
+    for(y = 0; y < 32; y++) for(x = 0; x < 32; x++){ pa[x] += a[y * 32 + x]; pb[x] += b[y * 32 + x]; }
+    var best = 0, bestS = Infinity, s, t, q, d;
+    for(s = -8; s <= 8; s++){
+      t = 0;
+      for(x = 0; x < 32; x++){ q = x + s; if(q < 0 || q > 31) continue; d = pa[q] - pb[x]; t += d < 0 ? -d : d; }
+      if(t < bestS){ bestS = t; best = s; }
+    }
+    return best;
+  }
+  function learnStatus(msg){ var e = document.getElementById('learn-status'); if(e) e.textContent = msg; }
+  function updateRecBtn(){
+    var b = document.getElementById('btn-record');
+    if(b){
+      b.textContent = recOn ? '⏹ RECORDING — TAP TO STOP' : '● RECORD SESSION';
+      b.classList.toggle('rec-on', recOn);
+    }
+  }
+  function startRecording(){
+    if(recOn) return;
+    recOn = true; recT0 = Date.now();
+    recFrames = []; recInputs = []; recAudio = [];
+    updateRecBtn();
+    learnStatus('Recording… play! Frames + inputs + sound are being captured.');
+    recTimer = setInterval(function(){
+      if(!recOn) return;
+      if(Date.now() - recT0 > REC_MAX_MS){ stopRecording(); learnStatus('Stopped: 3-minute episode cap reached.'); return; }
+      if(!playing) return;
+      var t = Date.now() - recT0;
+      var px = frameB64();
+      if(px) recFrames.push({ t: t, px: px });
+      var a = sampleAudio(t);
+      if(a) recAudio.push(a);
+    }, 200);
+  }
+  function stopRecording(){
+    if(!recOn) return;
+    recOn = false;
+    if(recTimer){ clearInterval(recTimer); recTimer = null; }
+    updateRecBtn();
+    var dur = Date.now() - recT0;
+    if(!recFrames.length && !recInputs.length){
+      learnStatus('Nothing captured (game was not running).');
+      return;
+    }
+    var counts = {};
+    recInputs.forEach(function(ev){
+      if(ev.d === 1) counts[ev.b] = (counts[ev.b] || 0) + 1;
+    });
+    var ep = { game: currentName, date: new Date().toISOString(),
+      ms: dur, frames: recFrames, inputs: recInputs, audio: recAudio, counts: counts };
+    epPut(ep).then(function(){
+      learnStatus('Saved ' + recFrames.length + ' frames, ' + recInputs.length +
+        ' input events, ' + recAudio.length + ' audio samples (' +
+        Math.round(dur / 1000) + 's).');
+      renderEpisodes();
+    }, function(){
+      learnStatus('Storage full or unavailable — episode kept for this session only.');
+    });
+  }
+  function toggleRecording(){ if(recOn) stopRecording(); else startRecording(); }
+
+  /* ---------- episode store / replay / export ---------- */
+  var replayingId = null, replayTimers = [];
+  function epStore(mode){
+    return DB.transaction('episodes', mode).objectStore('episodes');
+  }
+  function epPut(ep){
+    return new Promise(function(res, rej){
+      try{
+        var q = epStore('readwrite').add(ep);
+        q.onsuccess = function(){ res(q.result); };
+        q.onerror = function(){ rej(q.error); };
+      }catch(e){ rej(e); }
+    });
+  }
+  function epAll(){
+    return new Promise(function(res){
+      try{
+        var q = epStore('readonly').getAll();
+        q.onsuccess = function(){ res(q.result || []); };
+        q.onerror = function(){ res([]); };
+      }catch(e){ res([]); }
+    });
+  }
+  function epDel(id){
+    return new Promise(function(res){
+      try{
+        var tx = DB.transaction('episodes', 'readwrite');
+        tx.objectStore('episodes').delete(id);
+        tx.oncomplete = function(){ res(); };
+        tx.onerror = function(){ res(); };
+      }catch(e){ res(); }
+    });
+  }
+  function stopReplay(){
+    replayTimers.forEach(clearTimeout);
+    replayTimers = [];
+    if(replayingId !== null){ replayingId = null; renderEpisodes(); }
+  }
+  function replayEpisode(id){
+    if(replayingId === id){ stopReplay(); return; }
+    stopReplay();
+    epAll().then(function(eps){
+      var ep = null;
+      eps.forEach(function(e){ if(e.id === id) ep = e; });
+      if(!ep || !ep.inputs.length){ learnStatus('Episode has no inputs to replay.'); return; }
+      if(!playing){ learnStatus('Boot the game first (POWER), then replay.'); return; }
+      replayingId = id;
+      renderEpisodes();
+      learnStatus('Replaying ' + ep.inputs.length + ' inputs… tap REPLAY again to stop.');
+      var t0 = Date.now();
+      ep.inputs.forEach(function(ev){
+        replayTimers.push(setTimeout(function(){
+          driveIndex(ev.b, ev.d === 1, 'replay');
+        }, Math.max(0, ev.t - (Date.now() - t0))));
+      });
+      var last = ep.inputs[ep.inputs.length - 1].t;
+      replayTimers.push(setTimeout(stopReplay, last + 800));
+    });
+  }
+  function exportEpisode(id){
+    epAll().then(function(eps){
+      var ep = null;
+      eps.forEach(function(e){ if(e.id === id) ep = e; });
+      if(!ep) return;
+      var blob = new Blob([JSON.stringify({ app: 'snesboy-ai', v: 1, episode: ep })], { type: 'application/json' });
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'snesboy-episode-' + id + '.json';
+      document.body.appendChild(a); a.click();
+      setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+    });
+  }
+  function renderEpisodes(){
+    var list = document.getElementById('episode-list');
+    var sum = document.getElementById('dataset-summary');
+    if(!list) return;
+    list.innerHTML = '';
+    if(!DB){ if(sum) sum.textContent = 'Library unavailable (no IndexedDB).'; return; }
+    epAll().then(function(eps){
+      var tf = 0, ti = 0, ta = 0, tms = 0, agg = {};
+      eps.slice().reverse().forEach(function(ep){
+        tf += (ep.frames || []).length; ti += (ep.inputs || []).length;
+        ta += (ep.audio || []).length; tms += ep.ms || 0;
+        Object.keys(ep.counts || {}).forEach(function(k){ agg[k] = (agg[k] || 0) + ep.counts[k]; });
+        var item = document.createElement('div'); item.className = 'rom-list-item';
+        var nm = document.createElement('div'); nm.className = 'rom-name';
+        nm.textContent = (ep.frames || []).length + 'f/' + (ep.inputs || []).length + 'i/' +
+          (ep.audio || []).length + 'a ' + Math.round((ep.ms || 0) / 1000) + 's ' +
+          (ep.date || '').slice(5, 16).replace('T', ' ');
+        var act = document.createElement('div'); act.className = 'rom-actions';
+        var rep = document.createElement('button');
+        rep.className = 'rom-btn-play';
+        rep.textContent = (replayingId === ep.id) ? 'STOP' : 'REPLAY';
+        rep.addEventListener('click', function(){ replayEpisode(ep.id); });
+        var exp = document.createElement('button');
+        exp.className = 'rom-btn-export'; exp.textContent = 'JSON';
+        exp.addEventListener('click', function(){ exportEpisode(ep.id); });
+        var del = document.createElement('button');
+        del.className = 'rom-btn-del'; del.textContent = 'DEL';
+        del.addEventListener('click', function(){
+          if(replayingId === ep.id) stopReplay();
+          epDel(ep.id).then(renderEpisodes);
+        });
+        act.appendChild(rep); act.appendChild(exp); act.appendChild(del);
+        item.appendChild(nm); item.appendChild(act); list.appendChild(item);
+      });
+      if(sum){
+        if(!eps.length){ sum.textContent = 'No episodes yet — record a session and the AI dataset starts here.'; return; }
+        var top = Object.keys(agg).sort(function(a, b){ return agg[b] - agg[a]; }).slice(0, 3)
+          .map(function(k){ return (BTN_NAMES[k] || k) + '×' + agg[k]; }).join(' ');
+        sum.textContent = eps.length + ' episodes • ' + tf + ' frames • ' + ti +
+          ' inputs • ' + ta + ' audio samples • ' + Math.round(tms / 1000) +
+          's played' + (top ? ' • top buttons: ' + top : '');
+      }
+    });
+  }
+
+  /* ---------- IndexedDB: ROM library + learning episodes ---------- */
   var DB = null;
   var MEM = [{ name: BUNDLED.name, url: BUNDLED.url, builtin: true }];
   function openDB(){
     return new Promise(function(res, rej){
       try{
-        var r = indexedDB.open('snesboy-roms', 1);
-        r.onupgradeneeded = function(){ r.result.createObjectStore('roms', { keyPath: 'name' }); };
+        var r = indexedDB.open('snesboy-roms', 2);
+        r.onupgradeneeded = function(){
+          var db = r.result;
+          if(!db.objectStoreNames.contains('roms')) db.createObjectStore('roms', { keyPath: 'name' });
+          if(!db.objectStoreNames.contains('episodes')) db.createObjectStore('episodes', { keyPath: 'id', autoIncrement: true });
+        };
         r.onsuccess = function(){ res(r.result); };
         r.onerror = function(){ rej(r.error); };
       }catch(e){ rej(e); }
@@ -444,6 +996,55 @@
     crt.style.display = crtOn ? 'block' : 'none';
   }
 
+  /* Losing the tab releases human-held buttons (never stuck), but the
+     autopilot stays exactly as it was — only its own toggle stops it. */
+  window.addEventListener('blur', function(){
+    for(var pl = 0; pl <= 3; pl++)
+      for(var i = 0; i <= 11; i++) driveIndex(i, false, 'sys', pl);
+    $all('.pressed').forEach(function(el){ el.classList.remove('pressed'); });
+  });
+
+  /* ---------- USB gamepads ----------
+     The emulator only listens to a pad assigned to a player slot
+     (gamepadSelection). Browsers forget assignments, pads reconnect
+     under new ids, stale slots block auto-assign — so take charge:
+     any connected pad is (re)assigned to P1 automatically, with a
+     status line + manual button in the info modal. */
+  function assignUsbPad(){
+    try{
+      if(!window.EJS_emulator || !navigator.getGamepads) return 'no-emu';
+      var pads = Array.prototype.slice.call(navigator.getGamepads());
+      var pad = null;
+      for(var i = 0; i < pads.length; i++){
+        if(pads[i] && pads[i].connected){ pad = pads[i]; break; }
+      }
+      if(!pad) return 'none';
+      window.EJS_emulator.gamepadSelection[0] = pad.id + '_' + pad.index;
+      return pad.id;
+    }catch(e){ return 'err'; }
+  }
+  function updatePadStatus(){
+    var e = document.getElementById('gamepad-status');
+    if(!e) return;
+    var names = [];
+    try{
+      Array.prototype.forEach.call(navigator.getGamepads() || [], function(g){
+        if(g && g.connected) names.push(g.id);
+      });
+    }catch(x){}
+    var sel = '';
+    try{ sel = (window.EJS_emulator && window.EJS_emulator.gamepadSelection[0]) || ''; }catch(x){}
+    if(!names.length){
+      e.textContent = 'USB pad: none detected — connect one, then press any button on it.';
+    }else if(sel){
+      e.textContent = 'USB pad: ' + names[0].slice(0, 44) + ' → player 1 ✓ (if it still ignores you, press REASSIGN)';
+    }else{
+      e.textContent = 'USB pad: ' + names[0].slice(0, 44) + ' detected but unassigned — press REASSIGN.';
+    }
+  }
+  window.addEventListener('gamepadconnected', function(){ assignUsbPad(); updatePadStatus(); });
+  window.addEventListener('gamepaddisconnected', function(){ updatePadStatus(); });
+
   /* ---------- wire all buttons ---------- */
   function on(id, fn){ var e = document.getElementById(id); if(e) e.addEventListener('click', fn); }
   on('btn-power', togglePower);
@@ -456,8 +1057,45 @@
   on('dt-btn-theme', toggleTheme);
   on('btn-library', function(){ renderLibrary(); openModal('library-modal'); });
   on('dt-btn-library', function(){ renderLibrary(); openModal('library-modal'); });
-  on('btn-info', function(){ openModal('info-modal'); });
-  on('dt-btn-info', function(){ openModal('info-modal'); });
+  on('btn-info', function(){ updatePadStatus(); openModal('info-modal'); });
+  on('dt-btn-info', function(){ updatePadStatus(); openModal('info-modal'); });
+  on('btn-pad', function(){ assignUsbPad(); updatePadStatus(); });
+  on('btn-ai', function(){ renderEpisodes(); renderTuneInputs(); updateAgentHud(); openModal('ai-modal'); });
+  on('dt-btn-ai', function(){ renderEpisodes(); renderTuneInputs(); updateAgentHud(); openModal('ai-modal'); });
+  on('btn-autopilot', toggleAutopilot);
+  on('btn-hud', toggleHud);
+  on('btn-tune-reset', resetAgentOpts);
+  on('btn-record', toggleRecording);
+  document.addEventListener('change', function(e){
+    var t = e.target;
+    if(!t || !t.id || t.id.indexOf('opt-') !== 0) return;
+    var key = t.id.slice(4);
+    if(key === 'seekCycle'){
+      AgentOpts.seekCycle = String(t.value || AgentDefaults.seekCycle).slice(0, 31);
+      saveAgentOpts(); renderTuneInputs();
+      if(autoOn) startAgentEngine();
+      return;
+    }
+    if(key === 'players'){
+      var vals = String(t.value || '0').split(',');
+      var out = [];
+      vals.forEach(function(v){
+        var n = parseInt(v, 10);
+        if(!isNaN(n) && n >= 0 && n <= 3 && out.indexOf(n) === -1) out.push(n);
+      });
+      AgentOpts.players = out.length ? out : [0];
+      saveAgentOpts(); renderTuneInputs();
+      return;
+    }
+    var spec = null;
+    TuneFields.forEach(function(f){ if(f[0] === key) spec = f; });
+    if(!spec) return;
+    var v = parseFloat(t.value);
+    if(isNaN(v)) v = AgentDefaults[key];
+    AgentOpts[key] = Math.min(spec[2], Math.max(spec[1], v));
+    saveAgentOpts(); renderTuneInputs();
+    if(autoOn) startAgentEngine(); /* intervals restart with new timing; game untouched */
+  });
   on('btn-sound', toggleSound);
   on('dt-btn-sound', toggleSound);
   on('btn-crt', toggleCrt);
@@ -465,6 +1103,7 @@
 
   /* ---------- go ---------- */
   placeStage();
+  updateAgentHud();
   openDB().then(function(db){
     DB = db;
     return idbAll();

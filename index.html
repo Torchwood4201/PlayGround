@@ -34,7 +34,24 @@
     .rom-btn-play, .rom-btn-del { padding: .35rem .6rem; font-family: inherit; font-size: 8px; border-radius: 4px; border: none; cursor: pointer; font-weight: bold; }
     .rom-btn-play { background: #16a34a; color: #fff; }
     .rom-btn-del { background: #dc2626; color: #fff; }
+    .rom-btn-export { background: #1d4ed8; color: #fff; padding: .35rem .6rem; font-family: inherit; font-size: 8px; border-radius: 4px; border: none; cursor: pointer; font-weight: bold; }
+    #btn-record.rec-on { background: #dc2626; }
+    .agent-hud { position: absolute; top: 6px; left: 6px; z-index: 2; pointer-events: none; font-size: 8px; background: rgba(0,0,0,.65); color: #7CFC00; padding: 4px 6px; border-radius: 6px; white-space: nowrap; }
+    .tune-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .4rem; margin: .5rem 0; }
+    .tune-grid label { font-size: 8px; color: #9ca3af; display: flex; justify-content: space-between; align-items: center; gap: .4rem; }
+    .tune-grid input { width: 72px; font-family: inherit; font-size: 9px; padding: .25rem; border-radius: 4px; border: 1px solid #5b358c; background: #111827; color: #fff; }
     .info-text p { margin-bottom: .75rem; color: #9ca3af; }
+    .ai-lab-body h3 { font-size: 10px; color: #c084fc; margin: 1rem 0 .5rem; }
+    .ai-lab-body h3:first-child { margin-top: 0; }
+    .ai-lab-body p, .ai-lab-body li { color: #9ca3af; }
+    .ai-lab-body ul { list-style: square; margin-left: 1.1rem; display: flex; flex-direction: column; gap: .35rem; }
+    .ai-lab-body table { width: 100%; border-collapse: collapse; margin: .5rem 0; }
+    .ai-lab-body th, .ai-lab-body td { border: 1px solid #5b358c; padding: .35rem .5rem; font-size: 8px; text-align: left; color: #d1d5db; }
+    .ai-lab-body th { background: #5b358c; color: #fff; }
+    .ai-lab-body img { width: 100%; height: auto; border-radius: .5rem; border: 1px solid #5b358c; margin: .5rem 0; display: block; background: #fff; }
+    .ai-lab-body code { color: #fbbf24; font-size: 8px; }
+    .ai-lab-body a { color: #c084fc; }
+    #btn-autopilot.autopilot-on { background: #16a34a; border-color: #15803d; }
   </style>
 </head>
 <body class="theme-snes">
@@ -54,6 +71,7 @@
           <span class="screen-dot"></span>
         </div>
         <div class="screen-bezel">
+          <div class="agent-hud hidden">OFF</div>
           <canvas id="handheld-screen" width="256" height="240"></canvas>
           <div id="handheld-off-message" class="screen-off-display">
             <p id="handheld-status-text" class="status-main">Power is OFF</p>
@@ -126,6 +144,7 @@
         <button type="button" id="btn-info" class="tool-icon-btn" title="Controls & Info">ℹ️</button>
         <button type="button" id="btn-sound" class="tool-icon-btn" title="Toggle Mute">🔊</button>
         <button type="button" id="btn-crt" class="tool-icon-btn" title="Toggle CRT Shaders">📺</button>
+        <button type="button" id="btn-ai" class="tool-icon-btn" title="Mario AI Lab">🤖</button>
         <button type="button" id="btn-reset" class="tool-icon-btn" title="Reset Game">🔄</button>
         <button type="button" id="btn-eject" class="tool-icon-btn tool-eject" title="Eject ROM">⏏️</button>
       </div>
@@ -149,6 +168,7 @@
     <div class="tv-frame">
       <div class="tv-screen-bezel">
         <div class="tv-screen-glass">
+          <div class="agent-hud hidden">OFF</div>
           <canvas id="desktop-screen" width="256" height="240"></canvas>
           <div id="desktop-off-message" class="screen-off-display">
             <p id="desktop-status-text" class="status-main">Power is OFF</p>
@@ -167,6 +187,7 @@
         <button type="button" id="dt-btn-library" class="tv-side-btn purple" title="My Games Library">📁</button>
         <button type="button" id="dt-btn-info" class="tv-side-btn gray" title="Controls & Info">ℹ️</button>
         <button type="button" id="dt-btn-crt" class="tv-side-btn gray" title="Toggle CRT Shaders">📺</button>
+        <button type="button" id="dt-btn-ai" class="tv-side-btn gray" title="Mario AI Lab">🤖</button>
         <button type="button" id="dt-btn-sound" class="tv-side-btn gray" title="Toggle Sound">🔊</button>
         <button type="button" id="dt-btn-theme" class="tv-side-btn gray" title="Switch Theme">🎨</button>
         <button type="button" id="dt-btn-eject" class="tv-side-btn red" title="Eject ROM">⏏️</button>
@@ -326,9 +347,81 @@
         <p>A Super Nintendo emulator featuring a pluggable top-loading cartridge design.</p>
         <p>Press POWER to boot the loaded game. Click the cartridge (or use ADD ROM) to load your own SNES ROM files — everything stays in your browser.</p>
         <p>Save states and in-game saves persist in this browser. Only play ROMs of games you own.</p>
+        <p id="gamepad-status" class="modal-desc">USB pad: checking…</p>
+        <p><button type="button" id="btn-pad" class="modal-action-btn primary">🎮 REASSIGN USB PAD TO P1</button></p>
+        <p>Curious how a machine learns Mario? Open the 🤖 Mario AI Lab from the toolbar.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="modal-action-btn secondary" data-close="info-modal">CLOSE</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ========================================== -->
+  <!-- MODAL: AI LAB (mario-ai deep Q-learning project) -->
+  <!-- ========================================== -->
+  <div id="ai-modal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2>🤖 MARIO AI LAB</h2>
+        <button type="button" class="modal-close-btn" data-close="ai-modal">&times;</button>
+      </div>
+      <div class="modal-body ai-lab-body">
+        <p class="modal-desc">A deep Q-learning agent that learned to play the first level of Super Mario World from raw pixels — bundled into this app from the <code>mario-ai</code> research project (see <code>ai/LICENSE</code>).</p>
+        <h3>HOW IT LEARNS</h3>
+        <ul>
+          <li>Watches the game as 32×32 + 64×64 grayscale screenshots, 4 frames of history, every 5th frame.</li>
+          <li>Stores what it sees in a 250k-entry replay memory, then trains on random batches.</li>
+          <li>Epsilon-greedy policy: random moves 80% of the time at first, down to 10% by action 400k.</li>
+          <li>~6.6M parameters across three branches: action history, screenshot history, current screenshot + spatial transformer.</li>
+        </ul>
+        <h3>REWARD FUNCTION</h3>
+        <table>
+          <tr><th>Event</th><th>Reward</th></tr>
+          <tr><td>Move right fast (8+ px)</td><td>+1.0</td></tr>
+          <tr><td>Move right</td><td>+0.5</td></tr>
+          <tr><td>Move left</td><td>−1.0 (fast: −1.5)</td></tr>
+          <tr><td>Level finished</td><td>+2.0</td></tr>
+          <tr><td>Death</td><td>−3.0</td></tr>
+        </table>
+        <h3>NETWORK ARCHITECTURE</h3>
+        <img src="ai/network-q.png" alt="Q-network architecture diagram">
+        <img src="ai/network-localization.png" alt="Localization network for the spatial transformer">
+        <h3>SAME BUTTONS AS YOUR PAD</h3>
+        <p>The agent picks one arrow + one of A/B/X/Y per step, using the exact same button IDs this app's controllers use (<code>0=B 1=Y 4-7=arrows 8=A 9=X</code>). Watch it: <a href="https://www.youtube.com/watch?v=L4KBBAwF_bE" target="_blank" rel="noopener">model playing on YouTube</a>.</p>
+        <h3>TRY THE AUTOPILOT DEMO</h3>
+        <p>No GPU needed: a screen-reactive bot that watches whatever you load, like the DQN does — it taps through menus while the picture is still, follows the scroll direction once the world moves (left or right, not just right), holds run while the pixels demand it, and alternates the action buttons on the beat — jump in one game is attack in another — working the L/R shoulders in every fourth beat. Pause, game over, or a black fade goes quiet and it finds its own way back. One brain, every game. It stays on until you toggle it off — your own button presses just join in alongside it. It drives players 1 and 2 together out of the box (menus stay on player 1) as two cloned copilot brains — same screen, but each with its own rhythm and button order, so player 2 never just parrots player 1. Narrow it in TUNE below. The trained Torch model itself needs CUDA + lsnes — see the project README.</p>
+        <p class="modal-desc">Tune it below (thresholds, tap rate, seek-tap rotation) or flip the HUD toggle in the footer to watch its mind work: <code>SEEK · d=2.1</code> vs <code>PLAY · d=23.4 ▶</code>. Button map: <code>dirR=7 dirL=6 run=1 actions=[8,0] shoulders=[10,11] select=2 start=3</code>.</p>
+        <h3>LEARN FROM EVERYTHING</h3>
+        <p>Record play sessions and the app captures all three streams together, timestamped: 32×32 grayscale frames (5fps, the DQN paper's input shape), every button press with its source (pad / keyboard / autopilot / replay), and sound energy from the game's audio. Episodes live in your browser — replay any run through the real controllers, or export the JSON dataset for offline training.</p>
+        <p><button type="button" id="btn-record" class="modal-action-btn primary">● RECORD SESSION</button></p>
+        <p id="learn-status" class="modal-desc">No recording yet.</p>
+        <div id="episode-list" class="rom-list-container"></div>
+        <p id="dataset-summary" class="modal-desc"></p>
+        <h3>TUNE THE BRAIN</h3>
+        <p class="modal-desc">Thresholds apply instantly; timing takes effect by restarting the engine (game untouched). Saved in this browser.</p>
+        <div class="tune-grid">
+          <label>Sense ms <input type="number" id="opt-senseMs" min="500" max="5000" step="250"></label>
+          <label>Tap ms <input type="number" id="opt-tapMs" min="2000" max="10000" step="500"></label>
+          <label>Motion &gt; <input type="number" id="opt-hiThresh" min="1" max="40" step="0.5"></label>
+          <label>Still &lt; <input type="number" id="opt-loThresh" min="0.5" max="20" step="0.5"></label>
+          <label>Seek taps <input type="text" id="opt-seekCycle" maxlength="31" style="width:86px"></label>
+          <label>Hop 1/N <input type="number" id="opt-hopEvery" min="1" max="10" step="1"></label>
+          <label>Players <select id="opt-players" style="font-family:inherit;font-size:9px;padding:.25rem;border-radius:4px;border:1px solid #5b358c;background:#111827;color:#fff;">
+            <option value="0">Player 1</option>
+            <option value="1">Player 2</option>
+            <option value="0,1">Both 1+2</option>
+          </select></label>
+        </div>
+        <p class="modal-desc">Seek taps cycle button ids (2=Select 3=Start 8=A 0=B) — reorder per game. Thresholds apply instantly; timing restarts the engine, game untouched.</p>
+        <p class="modal-desc" id="agent-map-readout"></p>
+        <p><button type="button" id="btn-tune-reset" class="modal-action-btn secondary">RESET TUNING</button></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="btn-autopilot" class="modal-action-btn primary">▶ AUTOPILOT: OFF</button>
+        <button type="button" id="btn-hud" class="modal-action-btn secondary">HUD: OFF</button>
+        <button type="button" class="modal-action-btn secondary" data-close="ai-modal">CLOSE</button>
       </div>
     </div>
   </div>
