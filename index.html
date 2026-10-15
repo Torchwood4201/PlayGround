@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cave Game 0.0.8a — Web Tribute</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='5' fill='%236aaa4f'/%3E%3Crect y='5' width='16' height='11' fill='%23866043'/%3E%3C/svg%3E">
+<meta name="description" content="Playable web tribute to Minecraft 0.0.8a: voxel demo ported from the decompiled Java source, note-block music studio powered by Minecraft.sf2, and source explorer.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="logo" aria-hidden="true"></div>
+    <div>
+      <h1>Cave Game <span class="ver">0.0.8a</span> <span class="webtag">web tribute</span></h1>
+      <p class="sub">Voxel demo + note-block studio, rebuilt from the added files</p>
+    </div>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="play" role="tab">⛏ Play</button>
+    <button class="tab" data-tab="music" role="tab">🎵 Music</button>
+    <button class="tab" data-tab="source" role="tab">📜 Source</button>
+    <button class="tab" data-tab="about" role="tab">❔ About</button>
+  </nav>
+</header>
+
+<main>
+  <!-- PLAY -->
+  <section id="tab-play" class="panel active">
+    <div class="game-wrap">
+      <div class="game-stage">
+        <canvas id="game" width="960" height="540"></canvas>
+        <div id="game-overlay" class="game-overlay">
+          <div class="ov-card">
+            <h2>Minecraft 0.0.8a — in your browser</h2>
+            <p>Terrain grown by the original <code>LevelGen</code> algorithm.<br>Click to grab the mouse and play.</p>
+            <button id="btn-enter" class="big">▶ Click to play</button>
+            <p class="hint">WASD move · Space jump · Left-click break · Right-click place · 1–6 blocks · R respawn · Esc release</p>
+          </div>
+        </div>
+        <div id="crosshair" class="crosshair hidden">+</div>
+        <div id="game-toast" class="toast hidden"></div>
+      </div>
+      <aside class="game-side">
+        <div class="card">
+          <h3>World</h3>
+          <label>Seed <input id="seed" type="number" value="1337"></label>
+          <div class="row">
+            <button id="btn-regen">🌍 Regenerate</button>
+            <button id="btn-respawn">⟳ Respawn <kbd>R</kbd></button>
+          </div>
+          <div class="row">
+            <button id="btn-save">💾 Save</button>
+            <button id="btn-load">📂 Load</button>
+          </div>
+          <label class="check"><input id="chk-sing" type="checkbox" checked> Blocks sing (note-block pitch by height)</label>
+          <label class="check"><input id="chk-mobs" type="checkbox" checked> Zombies roam</label>
+          <p id="world-stats" class="mono dim">…</p>
+        </div>
+        <div class="card">
+          <h3>Hotbar <span class="dim">— keys 1–6</span></h3>
+          <div id="hotbar" class="hotbar"></div>
+        </div>
+        <div class="card">
+          <h3>Status</h3>
+          <p id="game-stats" class="mono">fps … · xyz …</p>
+          <p class="dim small">Physics @20 ticks/s, collision via <code>AABB.clip*</code> — same math as <code>Entity.move()</code>. Save goes to <code>localStorage</code> (the applet used <code>level.dat</code>).</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- MUSIC -->
+  <section id="tab-music" class="panel">
+    <div class="music-grid">
+      <div class="card">
+        <h3>SoundFont — <span class="mono">assets/Minecraft.sf2</span></h3>
+        <p id="sf2-status" class="mono">loading…</p>
+        <div id="inst-grid" class="inst-grid"></div>
+        <div class="row wrap">
+          <label>Volume <input id="mus-vol" type="range" min="0" max="100" value="80"></label>
+          <button id="btn-calm">🌙 Generate “Calm”</button>
+          <button id="btn-stop-all">⏹ Stop</button>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Piano <span class="dim">— also play with keys A–K (white) / W E T Y U (black)</span></h3>
+        <div id="piano" class="piano"></div>
+      </div>
+      <div class="card">
+        <h3>Step sequencer <span class="dim">— 16 steps, F♯3–F♯5 note-block range</span></h3>
+        <div class="row wrap">
+          <button id="seq-play">▶ Play loop</button>
+          <button id="seq-clear">🧹 Clear</button>
+          <label>Tempo <input id="seq-bpm" type="number" min="60" max="200" value="112"> bpm</label>
+          <button id="demo-1">🎶 Demo: Sunrise Shaft</button>
+          <button id="demo-2">🎶 Demo: Gravel Steps</button>
+        </div>
+        <div id="seq" class="seq"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOURCE -->
+  <section id="tab-source" class="panel">
+    <div class="src-grid">
+      <div class="card">
+        <h3>Decompiled 0.8-alpha <span class="dim">— <span id="src-count"></span>, served from <code>sources/</code></span></h3>
+        <div class="src-layout">
+          <ul id="src-tree" class="src-tree"></ul>
+          <div class="src-view">
+            <div id="src-path" class="mono dim">select a file…</div>
+            <pre><code id="src-code"></code></pre>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Texture gallery <span class="dim">— from the zip</span></h3>
+        <div id="tex-gallery" class="tex-gallery"></div>
+      </div>
+      <div class="card">
+        <h3>SoundFont contents <span class="dim">— parsed live from <code>Minecraft.sf2</code></span></h3>
+        <p id="sf2-info" class="mono">…</p>
+        <table id="sf2-table" class="sf2-table"><thead><tr><th>#</th><th>instrument</th><th>sample</th><th>rate</th><th>frames</th><th>root</th></tr></thead><tbody></tbody></table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="tab-about" class="panel">
+    <div class="card narrow">
+      <h3>What is this?</h3>
+      <p>This page was empty — the issue asked to <em>“use the added files to upgrade what is here (Website)”</em>.
+      The two attachments became the whole site:</p>
+      <ol>
+        <li><strong><code>minecraft-decompiled-0.8-alpha-main.zip</code></strong> — decompiled Minecraft 0.0.8a (“Cave Game”, 2009).
+          Its <code>LevelGen</code>/<code>NoiseMap</code> terrain code, <code>AABB</code> collision, <code>Player</code>/<code>Entity</code>
+          physics and <code>Tile</code> face-shading were ported to JavaScript (<code>js/world.js</code>, <code>js/game.js</code>)
+          for the playable demo, and the sources are browsable under <b>Source</b>. Textures
+          (<code>grass.png</code>, <code>dirt.png</code>, <code>char.png</code>, <code>clouds.png</code>, <code>default.gif</code>) ship in <code>assets/textures/</code>.</li>
+        <li><strong><code>Minecraft.sf2</code></strong> — “Minecraft Note Block Studio 3” SoundFont (Polyphone, 10 note-block instruments).
+          It is fetched, parsed in-page (<code>js/sf2.js</code>) and played with WebAudio — no conversion, no server synthesis.
+          The <b>Music</b> tab is a note-block piano + step sequencer built on its real samples.</li>
+      </ol>
+      <h3>Faithful bits</h3>
+      <ul>
+        <li>Terrain: diamond-square <code>NoiseMap</code> (quirks included) + worm caves, ported 1:1 to seeded JS so worlds are shareable via seed.</li>
+        <li>Face shading 1.0 / 0.8 / 0.6 exactly like <code>Tile.render()</code>; grass top/side/bottom mapping from <code>GrassTile</code>; bush cross-quads + no collision from <code>Bush</code>.</li>
+        <li>Movement: <code>moveRelative</code> accel 0.1/0.02, gravity 0.08, jump 0.5, friction 0.91/0.98, eye 1.62 — at the original 20 ticks/s.</li>
+        <li>Note range F♯3–F♯5 and the 10 instruments (harp, bass, bell, flute, chime, guitar, xylophone, snare, hat, bass drum) match note blocks.</li>
+      </ul>
+      <h3>Deliberate upgrades</h3>
+      <ul>
+        <li>Seeded RNG (the original used unseeded <code>new Random()</code> everywhere), WebGL renderer instead of LWJGL display lists, DDA raycast picking instead of <code>glSelectBuffer</code>, <code>localStorage</code> instead of <code>level.dat</code>.</li>
+        <li>Missing <code>terrain.png</code> atlas was rebuilt procedurally around the real <code>grass.png</code>/<code>dirt.png</code>.</li>
+      </ul>
+      <h3>Controls</h3>
+      <table class="keys">
+        <tr><td><kbd>W A S D</kbd> / arrows</td><td>move</td></tr>
+        <tr><td><kbd>Space</kbd></td><td>jump</td></tr>
+        <tr><td>mouse</td><td>look (click canvas to lock)</td></tr>
+        <tr><td>left / right click</td><td>break / place</td></tr>
+        <tr><td><kbd>1</kbd>–<kbd>6</kbd></td><td>rock · grass · dirt · brick · wood · leaves</td></tr>
+        <tr><td><kbd>R</kbd></td><td>respawn</td></tr>
+      </table>
+      <p class="dim small">Tribute for education. Minecraft © Mojang. Decompiled source &amp; SoundFont belong to their authors; included here as the issue’s “added files”.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot mono dim">Cave Game 0.0.8a web tribute · LevelGen + Minecraft.sf2 · <span id="foot-stats"></span></footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
