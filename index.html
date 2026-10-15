@@ -3,30 +3,33 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Weird0Radi0 — Beats, Flips &amp; Signals</title>
-<meta name="description" content="Weird0Radi0 — producer behind game flips, type beats, remixes and originals. Tune in." />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b0b12'/%3E%3Ctext x='50' y='66' font-size='38' text-anchor='middle' font-family='monospace' font-weight='bold' fill='%2300ff9d'%3EW0R%3C/text%3E%3C/svg%3E" />
+<title>Los Pollos Hermanos — Taste the Family! | Albuquerque</title>
+<meta name="description" content="Los Pollos Hermanos — Slow-marinated, legendary fried chicken plus full New Mexico menu. Family owned since 1982. Albuquerque, NM." />
+<link rel="icon" href="images/lph.png" />
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <div class="top-ticker" aria-hidden="true">
-  <div class="ticker-track" id="tickerTrack"><span>FUNKY TOWN /// AQUATIC AMBIENCE /// CHEMICAL PLANT ZONE 2.0 /// PAC MAN /// DR. GERALD ROBOTNIK /// DAFT PRYDZ /// KOOPAHARI DESERT /// BART'S NIGHTMARE /// WEIRDMAGEDDON /// FUNKY TOWN /// AQUATIC AMBIENCE /// CHEMICAL PLANT ZONE 2.0 ///&nbsp;</span></div>
+  <div class="ticker-track" id="tickerTrack"><span>TASTE THE FAMILY /// SLOW-MARINATED 24 HOURS /// FAMILY OWNED SINCE 1982 /// NOW SERVING ALBUQUERQUE /// FREE CURLY FRIES FRIDAYS /// TASTE THE FAMILY /// SLOW-MARINATED 24 HOURS /// FAMILY OWNED SINCE 1982 ///&nbsp;</span></div>
 </div>
 
 <header class="nav">
-  <a class="brand" href="#top">
-    <span class="brand-badge" aria-hidden="true">W0R</span>
-    <span class="brand-text"><strong>Weird0Radi0</strong><em>Beats • Flips • Signals</em></span>
+  <a class="brand" id="brandHome" href="#top">
+    <span class="brand-badge" aria-hidden="true"><img class="brand-logo" src="images/lph.png" alt="" width="72" height="44" /></span>
+    <span class="brand-text"><strong>Los Pollos Hermanos</strong><em>Albuquerque • Est. 1982</em></span>
   </a>
   <nav class="links" id="navLinks">
-    <a href="#featured">Featured</a>
-    <a href="#tracks">Tracks</a>
-    <a href="#about">About</a>
-    <a href="#collab">Collab</a>
+    <a href="#menu">Menu</a>
+    <a href="#story">Our Story</a>
+    <a href="#gus">Gus</a>
+    <a href="#training">Training</a>
+    <a href="#jobs">Jobs</a>
+    <a href="#locations">Locations</a>
+    <a href="#contact">Contact</a>
   </nav>
   <div class="nav-actions">
-    <a class="btn btn-sub sm" href="https://youtube.com/@weird0radi0?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a>
-    <button class="cart-btn" id="queueOpen" aria-label="Open queue">Queue <span id="queueCount">0</span></button>
+    <a class="phone" href="tel:+15055550182">(505) 555-0182</a>
+    <button class="cart-btn" id="cartOpen" aria-label="Open cart">Cart <span id="cartCount">0</span></button>
     <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
   </div>
 </header>
@@ -34,138 +37,276 @@
 <main id="top">
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-bg" aria-hidden="true"><div class="grid"></div></div>
+  <div class="hero-bg" aria-hidden="true"><div class="sunburst"></div></div>
   <div class="hero-inner">
     <div class="hero-copy">
-      <div class="pill"><span class="live-dot"></span> TRANSMITTING — 40 DROPS AND COUNTING</div>
-      <h1><span class="script">TUNE IN TO</span><span class="mega">WEIRD0RADI0</span></h1>
-      <p class="lede">Game flips, type beats, mashups and late-night originals. From Chemical Plant Zone to Funky Town — press play and stay weird.</p>
+      <div class="pill">4.9 — 12,400 Happy Pollos Fans</div>
+      <h1><span class="script">Taste the</span><span class="mega">FAMILY!</span></h1>
+      <p class="lede">Slow-marinated for 24 hours in our secret Hermanos spices, pressure-fried golden, and served with our famous curly fries. <strong>"It's the best chicken in Albuquerque. Hands down."</strong></p>
       <div class="cta-row">
-        <button class="btn btn-neon" id="playLatest">Play latest drop</button>
-        <a class="btn btn-ghost" href="https://music.youtube.com/@weird0radi0?si=zKsOHMPiej88DdBn" target="_blank" rel="noopener">Listen on YT Music</a>
+        <a href="#menu" class="btn btn-red">View the Menu</a>
+        <a href="#menu" class="btn btn-dark">Order Pickup</a>
       </div>
       <div class="hero-meta">
-        <div><strong>40</strong><span>tracks</span></div>
-        <div><strong>4</strong><span>vibes</span></div>
-        <div><strong>24/7</strong><span>signal</span></div>
+        <div><strong>15 min</strong><span>Avg. pickup</span></div>
+        <div><strong>6 sauces</strong><span>Made daily</span></div>
+        <div><strong>40+ yrs</strong><span>Family recipe</span></div>
       </div>
-      <div class="eq" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
     </div>
     <div class="hero-card">
-      <div class="hero-thumbs">
-        <img src="images/tracks/UEO6uyczDMk.jpg" alt="Funky Town artwork" />
-        <img src="images/tracks/KvK_pMvFV94.jpg" alt="Aquatic Ambience artwork" />
-        <img src="images/tracks/sEPGWmxvXXw.jpg" alt="Chemical Plant Zone artwork" />
+      <div class="coupon">
+        <div class="coupon-top"><span>FAMILY BUCKET DEAL</span><span class="hot">HOT</span></div>
+        <img class="coupon-img" src="images/menu/bucket.jpg" alt="8pc Hermanos Bucket" />
+        <h3>8pc Pollos Bucket + 2 Large Curly Fries + 4 Drinks</h3>
+        <div class="price-row"><span class="price">$29.99</span><s>$38.99</s><span class="save">SAVE $9</span></div>
+        <button class="btn btn-yellow block" data-add="bucket">Add Bucket to Order +</button>
+        <p class="fine">Dine-in • Drive-thru • Pickup • Every day 10:30a–10p</p>
       </div>
-      <div class="now-strip">ON AIR — <strong id="heroNow">Funky Town</strong></div>
+      <div class="hours-mini"><span class="dot"></span> <strong>Open Now</strong> — Central Ave closes at 10:00 PM</div>
     </div>
+  </div>
+  <div class="hero-strip">
+    <div>Drive-Thru Open</div><div>Halal &amp; Gluten-Free Options</div><div>Kids Eat Free Tuesdays</div><div>Proud ABQ Community Partner</div>
   </div>
 </section>
 
-<!-- FEATURED / PLAYER -->
-<section class="featured" id="featured">
-  <div class="section-head">
-    <p class="eyebrow">— Featured Drop —</p>
-    <h2>Now <span class="neon">spinning</span></h2>
-  </div>
-  <div class="player-wrap deck">
-    <div class="deck-art" id="deckArt" role="button" tabindex="0" aria-label="Play or pause">
-      <img id="deckArtImg" src="images/tracks/UEO6uyczDMk.jpg" alt="Funky Town artwork" />
-      <span class="deck-glyph" id="deckGlyph">▶</span>
-    </div>
-    <div class="deck-main">
-      <p class="eyebrow">Now spinning</p>
-      <h3 id="upNextTitle">Funky Town</h3>
-      <p class="sub" id="upNextMeta">Remix • 3:05</p>
-      <div class="progress" id="progress" role="slider" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0"><div class="progress-fill" id="progressFill"></div></div>
-      <div class="times"><span id="tCur">0:00</span><span id="tTot">0:00</span></div>
-      <div class="deck-controls">
-        <button class="tbtn" id="prevBtn" type="button" aria-label="Previous track">|◀</button>
-        <button class="tbtn big" id="playPauseBtn" type="button" aria-label="Play or pause">▶</button>
-        <button class="tbtn" id="nextBtn" type="button" aria-label="Next track">▶|</button>
-        <input class="vol" id="vol" type="range" min="0" max="100" value="80" aria-label="Volume" />
-      </div>
-      <div class="cta-row">
-        <button class="btn btn-neon sm" id="playQueueBtn">Play my queue</button>
-        <button class="btn btn-ghost sm" id="queueOpen2">View queue</button>
-      </div>
-      <p class="hint">Tap any track card to load it here. Artwork covers the video — audio only, with a seekable progress bar.</p>
-    </div>
-    <div class="yt-holder" aria-hidden="true"><div id="ytAudio"></div></div>
+<!-- TRUST -->
+<section class="trust">
+  <div class="trust-grid">
+    <div class="t"><span class="ico">★</span><div><strong>Pressure-fried, never greasy</strong><span>Sealed-in juices, shattering crust</span></div></div>
+    <div class="t"><span class="ico">★</span><div><strong>Secret Hermanos marinade</strong><span>11 herbs, 24-hour bath</span></div></div>
+    <div class="t"><span class="ico">★</span><div><strong>Legendary curly fries</strong><span>Cut fresh every morning</span></div></div>
+    <div class="t"><span class="ico">★</span><div><strong>Family hospitality</strong><span>"Los Pollos are family!" — Gus</span></div></div>
   </div>
 </section>
 
-<!-- TRACKS -->
-<section class="tracks-section" id="tracks">
+<!-- MENU -->
+<section class="menu-section" id="menu">
   <div class="section-head">
-    <p class="eyebrow">— The Catalog —</p>
-    <h2>40 signals. Pick your <span class="neon">frequency.</span></h2>
-    <p class="sub">Tap a card to play it up top. Hit + Queue to stack your session.</p>
+    <p class="eyebrow">— Our Menu —</p>
+    <h2>Hand-Breaded. Golden. <span class="red">Legendary.</span></h2>
+    <p class="sub">The full Los Pollos Hermanos menu — breakfast platters, NM burritos, burgers &amp; more. Tap + to build your pickup order. Red or green?</p>
   </div>
   <div class="track-tools">
-    <input id="search" type="search" placeholder="Search tracks…" aria-label="Search tracks" />
+    <input id="search" type="search" placeholder="Search the menu…" aria-label="Search menu" />
     <div class="tabs" role="tablist" id="tabs">
       <button class="tab active" data-cat="all">All</button>
-      <button class="tab" data-cat="flips">Game Flips</button>
-      <button class="tab" data-cat="beats">Beats</button>
-      <button class="tab" data-cat="remixes">Remixes</button>
-      <button class="tab" data-cat="originals">Originals</button>
+      <button class="tab" data-cat="breakfast">Breakfast</button>
+      <button class="tab" data-cat="burritos">Burritos</button>
+      <button class="tab" data-cat="platters">Platters</button>
+      <button class="tab" data-cat="burgers">Burgers &amp; Chicken</button>
+      <button class="tab" data-cat="sides">Sides</button>
+      <button class="tab" data-cat="sweet">Drinks &amp; Dessert</button>
     </div>
   </div>
-  <div class="menu-grid" id="trackGrid"></div>
+  <div class="menu-grid" id="menuGrid"></div>
+  <div class="picks-note">★ <strong>Gustavo's Picks</strong> — photos courtesy of the fan franchise concept (<a href="https://lospolloshermanosfranchise.com" target="_blank" rel="noopener">lospolloshermanosfranchise.com</a>), vendored locally in <code>images/</code>.</div>
+  <div class="sauce-bar">
+    <strong>Don't forget the sauce:</strong>
+    <span>Mild Hermanos</span><span>Hot Hermanos</span><span>Cilantro Lime</span><span>Smoky Chipotle</span><span>Honey Mustard</span><span>Blue Agave Ranch</span>
+  </div>
 </section>
 
-<!-- ABOUT -->
-<section class="about" id="about">
-  <div class="about-inner">
+<!-- COMBO BANNER -->
+<section class="combo">
+  <div class="combo-inner">
     <div>
-      <p class="eyebrow">— About The Station —</p>
-      <h2>One producer. Zero genres. <span class="neon">All signal.</span></h2>
-      <p>Weird0Radi0 flips video game classics, cooks type beats, and mashes records into unrecognizable shapes — then drops originals from the same lab. If it knocks, glitches, or makes you grin, it belongs on the station.</p>
-      <div class="values">
-        <div><strong>Game Flips</strong><span>Aquatic Ambience to Robotnik</span></div>
-        <div><strong>Type Beats</strong><span>Tyler swings, Nuja flows</span></div>
-        <div><strong>Remixes</strong><span>Daft Prydz to SHAQ FU</span></div>
-      </div>
-      <div class="cta-row">
-        <a class="btn btn-sub" href="https://youtube.com/@weird0radi0?sub_confirmation=1" target="_blank" rel="noopener">Subscribe on YouTube</a>
-        <a class="btn btn-ghost" href="https://music.youtube.com/@weird0radi0?si=zKsOHMPiej88DdBn" target="_blank" rel="noopener">YT Music artist page</a>
-      </div>
-      <p class="tribute-note">Unofficial fan-made hub. All music belongs to Weird0Radi0 and its respective owners.</p>
+      <p class="eyebrow light">Limited Time</p>
+      <h2>Fryday Fridays: FREE Regular Curly Fries with any 3pc</h2>
+      <p>Every Friday, 11am–8pm. Dine-in &amp; drive-thru. One per guest. No code needed — just say <em>"Pollos!"</em> at the counter.</p>
+      <div class="cta-row"><button class="btn btn-yellow" data-add="curly">Claim Fryday Deal</button><a class="btn btn-ghost" href="#locations">Find a Store →</a></div>
     </div>
-    <div class="about-art">
-      <img src="images/tracks/nUwwnRiKw-k.jpg" alt="Dr. Robotnik flip artwork" />
-      <img src="images/tracks/_lqXKH8YWNY.jpg" alt="Weirdmageddon artwork" />
+    <div class="combo-art" aria-hidden="true"><img class="combo-img" src="images/menu/combo-fries.jpg" alt="Curly fries" /><div class="combo-badge">FREE<br />FRIES</div></div>
+  </div>
+</section>
+
+<!-- STORY -->
+<section class="story" id="story">
+  <div class="story-grid">
+    <div class="story-art">
+      <div class="mural">
+        <img class="mural-logo" src="images/lph.png" alt="Los Pollos Hermanos" />
+        <div class="mural-text">LOS<br />POLLOS<br />HERMANOS</div>
+        <div class="mural-sub">SABOR • FAMILIA • TRADICIÓN</div>
+      </div>
+      <div class="quote-card">"The chicken is the face of the restaurant, but the family is the soul."<span>— Gustavo Fring, Founder</span></div>
+    </div>
+    <div>
+      <p class="eyebrow">— Nuestra Historia —</p>
+      <h2>Two brothers. One recipe. <span class="red">A whole city fed.</span></h2>
+      <p>Founded in Michoacán and raised in Albuquerque, the Hermanos started with a roadside grill, a cast-iron fryer, and their abuela's spice blend. Forty years later we still marinate every thigh, breast and wing for a full day, bread by hand, and greet every guest like family.</p>
+      <ul class="checklist">
+        <li>Family-owned &amp; operated — no shortcuts, ever</li>
+        <li>Fresh, never frozen New Mexico chicken</li>
+        <li>Community-first: 200+ local fundraisers a year</li>
+      </ul>
+      <div class="timeline">
+        <div><strong>1982</strong><span>First grill on Central Ave</span></div>
+        <div><strong>1994</strong><span>Curly fries become legend</span></div>
+        <div><strong>2008</strong><span>Voted "Best Chicken in ABQ"</span></div>
+        <div><strong>Today</strong><span>7 locations &amp; 1 big family</span></div>
+      </div>
+      <div class="cta-row"><a href="#catering" class="btn btn-red">Catering for PTA Nights</a></div>
     </div>
   </div>
 </section>
 
-<!-- COLLAB -->
-<section class="collab" id="collab">
+<!-- GUS BIO -->
+<section class="gus" id="gus">
+  <div class="gus-inner">
+    <div class="gus-portrait"><img src="images/gusfring.png" alt="Gustavo 'Gus' Fring" /></div>
+    <div>
+      <p class="eyebrow">— Meet the Founder —</p>
+      <h2>Welcome! I am the calm in the storm.</h2>
+      <p>Welcome to Los Pollos Hermanos — where family, flavor, and flawless service come together. Our chicken is prepared with the utmost care, seasoned to perfection, and served with a smile as warm as our kitchen.</p>
+      <blockquote class="gus-quote">"I respect discipline — in my restaurants, my people, and my work. We do things the right way here."<span>— Gustavo 'Gus' Fring</span></blockquote>
+      <div class="values">
+        <div><strong>Service</strong><span>Every guest is familia</span></div>
+        <div><strong>Discipline</strong><span>Same perfect fry, every time</span></div>
+        <div><strong>Community</strong><span>Fundraisers, teams &amp; schools</span></div>
+      </div>
+      <p class="tribute-note">A fictional tribute inspired by the series + the fan franchise concept. No affiliation — just love for the craft.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TRAINING -->
+<section class="training" id="training">
+  <div class="training-inner">
+    <div>
+      <p class="eyebrow light">— Train With Us —</p>
+      <h2>Learn the Los Pollos Hermanos way.</h2>
+      <p>From Communication to Emergency Situations: the full 10-lesson employee training course, in proper training order — basics first, emergencies last. Everything plays right here.</p>
+      <div class="training-player">
+        <div class="training-video">
+          <iframe id="trainingPlayer" width="560" height="315" src="https://www.youtube.com/embed/B9RgougnhiE?rel=0" title="Los Pollos Hermanos Employee Training" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="training-controls">
+          <button class="btn btn-yellow sm" id="trainPrev" type="button">← Prev lesson</button>
+          <span id="trainNow">Lesson 1 of 10 — Communication</span>
+          <button class="btn btn-yellow sm" id="trainNext" type="button">Next lesson →</button>
+        </div>
+        <ol class="chapters" id="chapters"></ol>
+        <p class="train-progress" id="trainProgress">Training progress: 0/10 — watch every lesson to the end to unlock the lab.</p>
+        <button class="btn btn-yellow block" id="enterLabBtn" type="button" hidden>Enter the Lab — training complete</button>
+      </div>
+    </div>
+    <div class="training-side">
+      <ul class="checklist light">
+        <li>Start with Communication, finish with Emergency Situations</li>
+        <li>One lesson a day — Gus respects discipline, not cramming</li>
+        <li>Quiz your crew after Loss Prevention</li>
+      </ul>
+      <div class="cta-row"><a class="btn btn-ghost" href="#jobs">Apply for a role →</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- JOBS -->
+<section class="jobs" id="jobs">
+  <div class="section-head">
+    <p class="eyebrow">— Be With Gus —</p>
+    <h2>Join our team</h2>
+    <p class="sub">Roles below are fan-inspired. Apply and Gus (our demo inbox) will review with utmost discipline.</p>
+  </div>
+  <div class="jobs-grid">
+    <article class="job"><h3>Fry Cook — Flagship</h3><p>Master the pressure fryer. Full-time, $18–21/hr + free pollos.</p><button class="btn btn-dark" data-apply="Fry Cook — Flagship">Apply →</button></article>
+    <article class="job"><h3>Hospitality Lead — Nob Hill</h3><p>Own the greeting, the salsa bar, the smiles. Part/full-time.</p><button class="btn btn-dark" data-apply="Hospitality Lead — Nob Hill">Apply →</button></article>
+    <article class="job"><h3>Drive-Thru Star — South Valley</h3><p>Fast, friendly, flawless headsets. Nights &amp; weekends.</p><button class="btn btn-dark" data-apply="Drive-Thru Star — South Valley">Apply →</button></article>
+  </div>
+</section>
+
+<!-- LOCATIONS -->
+<section class="locations" id="locations">
+  <div class="section-head">
+    <p class="eyebrow">— Locations —</p>
+    <h2>Seven stores. One family.</h2>
+    <p class="sub">All locations open daily 10:30 AM – 10:00 PM. Drive-thru until 11 PM on Fri/Sat.</p>
+  </div>
+  <div class="loc-grid">
+    <article class="loc"><h3>Central Ave — Flagship</h3><p>4257 Central Ave NW<br />Albuquerque, NM 87105</p><p class="loc-meta">Open • Drive-thru • Play place</p><a href="#visit">Get directions →</a></article>
+    <article class="loc"><h3>Nob Hill</h3><p>3120 Central Ave SE<br />Albuquerque, NM 87106</p><p class="loc-meta">Open • Patio • Late-night</p><a href="#visit">Get directions →</a></article>
+    <article class="loc"><h3>North Valley</h3><p>5818 4th St NW<br />Albuquerque, NM 87107</p><p class="loc-meta">Open • Drive-thru</p><a href="#visit">Get directions →</a></article>
+    <article class="loc featured"><h3>South Valley ★ Fan Favorite</h3><p>1401 Coors Blvd SW<br />Albuquerque, NM 87121</p><p class="loc-meta">Open • Family room • Salsa bar</p><a href="#visit">Get directions →</a></article>
+    <article class="loc"><h3>Los Angeles — Arts District</h3><p>418 S Alameda St<br />Los Angeles, CA 90013</p><p class="loc-meta">Open • Fan concept store</p><a href="#contact">Ask about LA →</a></article>
+  </div>
+  <p class="tribute-note center">Serving excellence across the Southwest — ABQ + LA, per the fan franchise concept.</p>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews">
+  <div class="section-head"><p class="eyebrow">— Reviews —</p><h2>Albuquerque has spoken</h2></div>
+  <div class="rev-grid">
+    <blockquote>★★★★★<p>"Crispiest crust in the state. The curly fries should be illegal."</p><cite>— Maria G., South Valley</cite></blockquote>
+    <blockquote>★★★★★<p>"Brought my kids Tuesday — kids ate free and the staff treated us like familia."</p><cite>— Hank S., Nob Hill</cite></blockquote>
+    <blockquote>★★★★★<p>"That cilantro lime sauce? I would drink it. Don't judge me."</p><cite>— Jesse P., Central Ave</cite></blockquote>
+  </div>
+</section>
+
+<!-- CATERING -->
+<section class="catering" id="catering">
+  <div class="catering-inner">
+    <div>
+      <p class="eyebrow">— Catering &amp; Parties —</p>
+      <h2>Feed the whole familia — from 10 to 300.</h2>
+      <p>Church events, office lunches, quinceañeras, DEA picnics (we don't ask questions). Hot-box delivery, setup, sauces &amp; sweet tea included.</p>
+      <form class="catering-form" id="cateringForm">
+        <input required placeholder="Your name" aria-label="Your name" />
+        <input required type="tel" placeholder="Phone" aria-label="Phone" />
+        <select aria-label="Party size"><option>20–40 guests</option><option>40–80 guests</option><option>80–150 guests</option><option>150+ fiesta</option></select>
+        <button class="btn btn-dark" type="submit">Request Quote →</button>
+      </form>
+      <p class="form-note" id="cateringNote" hidden>Gracias! Our catering familia will call you within 2 hours.</p>
+    </div>
+    <div class="catering-card">
+      <h3>Most-loved packs</h3>
+      <ul>
+        <li><strong>Pollos Party $79</strong><span>16pc + 2 large sides + 8 drinks</span></li>
+        <li><strong>Fiesta Box $149</strong><span>32pc + 4 large sides + 16 drinks + 8 sauces</span></li>
+        <li><strong>Abuela's Feast $249</strong><span>50pc + 6 large sides + flan tray + tea urn</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
   <div class="contact-inner">
     <div>
-      <p class="eyebrow">— Open Channel —</p>
-      <h2>Book a beat. Pitch a collab.</h2>
-      <p>Beat leases, collabs, remix requests, flip challenges — send a transmission. Replies go out between drops.</p>
-      <form class="contact-form" id="collabForm">
-        <input required placeholder="Name / alias" aria-label="Name" id="collabName" />
-        <input required type="email" placeholder="Email" aria-label="Email" id="collabEmail" />
-        <select aria-label="Request type" id="collabType">
-          <option>Beat lease</option>
-          <option>Collab</option>
-          <option>Remix request</option>
-          <option>Flip challenge</option>
-          <option>Something weirder</option>
-        </select>
-        <textarea required placeholder="Tell me about the project…" aria-label="Message" rows="4" id="collabMsg"></textarea>
-        <button class="btn btn-neon" type="submit">Transmit →</button>
+      <p class="eyebrow">— Contact Us —</p>
+      <h2>Send an inquiry</h2>
+      <p>Questions, fundraisers, or franchise fan mail — fill this up and explore our locations. We reply with discipline (usually within a day).</p>
+      <form class="contact-form" id="contactForm">
+        <input required placeholder="Name" aria-label="Name" id="contactName" />
+        <input required type="email" placeholder="Email" aria-label="Email" id="contactEmail" />
+        <textarea required placeholder="Message — e.g. fundraiser night for our school…" aria-label="Message" rows="4" id="contactMsg"></textarea>
+        <button class="btn btn-red" type="submit">Send Message →</button>
       </form>
     </div>
     <div class="contact-card">
-      <h3>Signal info</h3>
-      <p><strong>YouTube:</strong> @weird0radi0<br /><strong>Music:</strong> YT Music artist page<br /><strong>Catalog:</strong> 40 tracks, 4 vibes</p>
-      <p class="sub">Serious inquiries: beats, features, sync, remixes.</p>
-      <button class="btn btn-ghost block" id="queueOpen3">Open my queue</button>
+      <h3>Find Gus</h3>
+      <p><strong>Flagship:</strong> 4257 Central Ave NW, ABQ<br /><strong>LA concept:</strong> 418 S Alameda St, Los Angeles</p>
+      <p>Phone: (505) 555-0182<br />Email: hola@lospolloshermanos.example</p>
+      <a class="btn btn-ghost block" href="https://lospolloshermanosfranchise.com" target="_blank" rel="noopener">Visit fan franchise concept</a>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section class="visit" id="visit">
+  <div class="visit-grid">
+    <div>
+      <p class="eyebrow">— Visit Us —</p>
+      <h2>Come hungry. Leave familia.</h2>
+      <p class="big-hours">Open Daily<br /><strong>10:30 AM – 10:00 PM</strong></p>
+      <p>4257 Central Ave NW, Albuquerque, NM 87105<br />Phone: (505) 555-0182 • Email: hola@lospolloshermanos.example</p>
+      <form class="newsletter" id="newsForm"><input required type="email" placeholder="Email for secret deals" aria-label="Email" /><button class="btn btn-red" type="submit">Join</button></form>
+      <p class="form-note" id="newsNote" hidden>Welcome to the family! Check your inbox for 20% off.</p>
+    </div>
+    <div class="map-fake" aria-label="Stylized map">
+      <div class="map-road r1"></div><div class="map-road r2"></div>
+      <div class="map-pin p1">Flagship</div><div class="map-pin p2">Nob Hill</div><div class="map-pin p3">South Valley</div>
+      <div class="map-label">CENTRAL AVE →</div>
     </div>
   </div>
 </section>
@@ -173,33 +314,56 @@
 
 <footer>
   <div class="foot-grid">
-    <div><strong>Weird0Radi0</strong><p>Beats, flips and signals. Unofficial fan hub — not affiliated with the artist. All music belongs to its owners.</p></div>
-    <div><strong>Explore</strong><p><a href="#featured">Featured</a><br /><a href="#tracks">Tracks</a><br /><a href="#about">About</a><br /><a href="#collab">Collab</a></p></div>
-    <div><strong>Listen</strong><p><a href="https://youtube.com/@weird0radi0" target="_blank" rel="noopener">YouTube channel</a><br /><a href="https://music.youtube.com/@weird0radi0?si=zKsOHMPiej88DdBn" target="_blank" rel="noopener">YT Music</a></p></div>
-    <div><strong>Stay weird</strong><p>New drops land without warning. Queue everything.</p></div>
+    <div><strong>Los Pollos Hermanos</strong><p>Taste the family since 1982. A loving parody tribute site — not affiliated with any TV show. All chicken fictional but delicious.</p></div>
+    <div><strong>Explore</strong><p><a href="#menu">Menu</a><br /><a href="#story">Story</a><br /><a href="#locations">Locations</a><br /><a href="#catering">Catering</a></p></div>
+    <div><strong>Good to know</strong><p>Nutrition &amp; allergens in-store<br />Gift cards available<br />Fundraiser nights every month</p></div>
+    <div><strong>Si hablas español…</strong><p>Bienvenidos! Pregunta por el menú familiar y las salsas de la casa.</p></div>
   </div>
-  <div class="foot-base"><span>© 2026 Weird0Radi0 fan hub. Stay weird.</span><span>40 tracks • 4 vibes • 1 signal</span></div>
+  <div class="foot-base"><span>© 2026 Los Pollos Hermanos (demo). Made in Albuquerque.</span><span>Say "Pollos!" for 10% off your smile.</span></div>
 </footer>
 
-<!-- QUEUE DRAWER -->
+<!-- CART DRAWER -->
 <div class="overlay" id="overlay" hidden></div>
-<aside class="drawer" id="drawer" aria-label="Your queue" aria-hidden="true">
-  <div class="drawer-head"><h3>Up Next Queue</h3><button id="queueClose" aria-label="Close queue">✕</button></div>
-  <p class="drawer-sub">Your stacked session — tap a track to play it</p>
-  <div class="drawer-items" id="queueItems"></div>
+<aside class="drawer" id="drawer" aria-label="Your order" aria-hidden="true">
+  <div class="drawer-head"><h3>Your Order</h3><button id="cartClose" aria-label="Close cart">✕</button></div>
+  <p class="drawer-sub">Pickup • Central Ave Flagship • ~15 min</p>
+  <div class="drawer-items" id="cartItems"></div>
   <div class="drawer-foot">
-    <button class="btn btn-neon block" id="playQueueBtn2">Play queue →</button>
-    <button class="btn btn-ghost block" id="clearQueue">Clear queue</button>
+    <div class="total-row"><span>Subtotal</span><strong id="cartTotal">$0.00</strong></div>
+    <button class="btn btn-red block" id="checkoutBtn">Checkout →</button>
+    <button class="btn btn-ghost block" id="clearBtn">Clear order</button>
   </div>
 </aside>
 <div class="toast" id="toast" role="status"></div>
 
+<div class="checkout-modal" id="checkoutModal" hidden>
+  <div class="modal-card">
+    <h3>Gracias! Order received</h3>
+    <p id="checkoutText">Your pollos are hitting the fryer.</p>
+    <p class="order-num">Order #<span id="orderNum">LPH-0000</span> • Ready in ~15 min at Central Ave</p>
+    <button class="btn btn-dark block" id="modalClose">Back to the fiesta</button>
+  </div>
+</div>
+
+<!-- APPLY MODAL -->
+<div class="checkout-modal" id="applyModal" hidden>
+  <div class="modal-card">
+    <h3>Apply — <span id="applyRole">Crew</span></h3>
+    <form id="applyForm" class="apply-form">
+      <input required placeholder="Full name" aria-label="Full name" />
+      <input required type="email" placeholder="Email" aria-label="Email" />
+      <input placeholder="Short pitch (or paste link to CV)" aria-label="Pitch" />
+      <div class="cta-row"><button class="btn btn-ghost" type="button" id="applyCancel">Cancel</button><button class="btn btn-red" type="submit">Send Application →</button></div>
+    </form>
+  </div>
+</div>
+
 <!-- CONFIRM MODAL -->
 <div class="checkout-modal" id="confirmModal" hidden>
   <div class="modal-card">
-    <h3>Confirm transmission?</h3>
+    <h3>Confirm submission?</h3>
     <p id="confirmText">Are you sure you want to submit?</p>
-    <div class="cta-row"><button class="btn btn-ghost" id="confirmCancel">Cancel</button><button class="btn btn-neon" id="confirmGo">Proceed →</button></div>
+    <div class="cta-row"><button class="btn btn-ghost" id="confirmCancel">Cancel</button><button class="btn btn-dark" id="confirmGo">Proceed →</button></div>
   </div>
 </div>
 

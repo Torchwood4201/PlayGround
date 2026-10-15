@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Walter's Lab | Blue Sky Clicker</title>
+    <link rel="stylesheet" href="lab.css">
+    <script>
+    // Training gate: the lab opens only after all 10 training lessons are watched.
+    try {
+        var done = JSON.parse(localStorage.getItem('lph_training_done') || '[]');
+        if (!Array.isArray(done) || done.length < 10) {
+            location.replace('index.html#training');
+        }
+    } catch (e) {
+        location.replace('index.html#training');
+    }
+    </script>
+</head>
+<body class="lab-body">
+    <div id="game-container">
+        <div id="top-banner-container">
+            <img src="images/lab/hero-banner.png" id="hero-banner" alt="Breaking Bad">
+        </div>
+
+        <header id="stats-bar">
+            <div class="stat">Cash: $<span id="cash-display">0</span></div>
+            <div class="stat">Product: <span id="meth-display">0</span>g</div>
+            <div class="stat">Purity: <span id="purity-display">50</span>%</div>
+            <div class="stat">Efficiency: <span id="multiplier-display">1.0</span>x</div>
+        </header>
+
+        <main>
+            <section id="lab-floor">
+                <div id="walter-container">
+                    <!-- Clicker logo remains unchanged -->
+                    <img src="images/lab/batch.png" id="main-product" alt="Cook Meth" onclick="game.cook()">
+                    <p>Click the batch to cook</p>
+                </div>
+
+                <img src="images/lab/crystals.jpg" id="crystal-decoration" alt="Pure Crystals">
+
+                <div id="production-stats">
+                    Cook: <span id="pps-display">0</span>g/s |
+                    Sell: <span id="sps-display">0</span>g/s |
+                    Value: $<span id="price-display">0</span>/g
+                </div>
+            </section>
+
+            <aside id="sidebar">
+                <img src="images/lab/saul-logo.png" id="saul-logo" alt="Better Call Saul">
+
+                <nav id="tabs">
+                    <button onclick="ui.switchTab('cooks')">Cooks</button>
+                    <button onclick="ui.switchTab('dealers')">Dealers</button>
+                    <button onclick="ui.switchTab('upgrades')">Upgrades</button>
+                </nav>
+
+                <div id="shop-content">
+                    <div id="upgrade-list"></div>
+                </div>
+
+                <button id="sell-btn" onclick="game.sellProduct()">Sell All Product</button>
+            </aside>
+        </main>
+
+        <footer id="achievement-bar">
+            <img src="images/lab/pollos-logo.png" id="pollos-logo" alt="Los Pollos Hermanos">
+            <div id="status-message">The cook must go on.</div>
+        </footer>
+    </div>
+    <script src="lab.js"></script>
+</body>
+</html>

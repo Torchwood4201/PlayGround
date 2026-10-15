@@ -1,0 +1,160 @@
+/* Walter's Lab — secret page styles. Scoped to #game-container so nothing leaks. */
+#game-container {
+    --bb-green: #365e3d;
+    --bb-blue: #00d4ff;
+    --bb-gold: #ffd700;
+    --bb-purple: #a333c8;
+    --dark-bg: rgba(26, 26, 26, 0.85);
+    --panel-bg: rgba(45, 45, 45, 0.9);
+    --text-color: #e0e0e0;
+}
+
+#game-container body { margin: 0; }
+
+body.lab-body {
+    margin: 0;
+    color: #e0e0e0;
+    font-family: sans-serif;
+    overflow: hidden;
+    background: url('images/lab/rv-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    color: var(--text-color);
+    font-family: sans-serif;
+}
+
+/* Sleek Top Banner Header */
+#game-container #top-banner-container {
+    width: 100%;
+    height: 100px; /* Reduced height for a smaller top bar */
+    overflow: hidden;
+    background: #000;
+    border-bottom: 3px solid var(--bb-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+#game-container #hero-banner {
+    width: auto;
+    height: 100%;
+    max-width: 90%;
+    object-fit: contain; /* Ensures the logo text isn't cut off */
+    filter: drop-shadow(0 0 10px var(--bb-green));
+}
+
+#game-container #stats-bar {
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    border-bottom: 2px solid #444;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+#game-container main { display: flex; flex: 1; overflow: hidden; }
+
+#game-container #lab-floor {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#game-container #crystal-decoration {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    width: 150px;
+    border-radius: 12px;
+    filter: drop-shadow(0 0 20px var(--bb-blue));
+    opacity: 0.6;
+}
+
+#game-container #production-stats {
+    margin-top: 20px;
+    color: var(--bb-blue);
+    font-family: monospace;
+    font-size: 1.1rem;
+    background: rgba(0,0,0,0.7);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+#game-container #main-product {
+    width: 220px;
+    cursor: pointer;
+    transition: 0.1s;
+    filter: drop-shadow(0 0 15px var(--bb-blue));
+    z-index: 2;
+}
+#game-container #main-product:active { transform: scale(0.9); }
+
+#game-container #sidebar {
+    flex: 1.5;
+    background: var(--panel-bg);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-left: 2px solid #444;
+    backdrop-filter: blur(5px);
+}
+
+#game-container #saul-logo {
+    width: 160px;
+    margin: 0 auto 10px auto;
+}
+
+#game-container #shop-content { flex: 1; overflow-y: auto; padding-right: 5px; }
+
+#game-container .upgrade-item {
+    background: #3d3d3d; margin-bottom: 10px; padding: 10px;
+    border-radius: 4px; border-left: 4px solid var(--bb-blue);
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 0.85rem;
+}
+
+#game-container .upgrade-item.special { border-left: 4px solid var(--bb-gold); background: #4a422d; }
+#game-container .upgrade-item.legendary { border-left: 4px solid var(--bb-purple); background: #3b2a4a; }
+
+#game-container .item-info { display: flex; flex-direction: column; gap: 2px; }
+#game-container .item-info small { color: #bbb; }
+
+#game-container #tabs { display: flex; gap: 5px; margin-bottom: 10px; }
+#game-container #tabs button { flex: 1; padding: 8px; background: #444; border: none; color: white; cursor: pointer; font-size: 0.75rem; text-transform: uppercase; }
+#game-container #tabs button:hover { background: #555; }
+
+#game-container .upgrade-item button {
+    padding: 8px 10px; background: #222; border: 1px solid var(--bb-blue);
+    color: #fff; cursor: pointer; border-radius: 4px; white-space: nowrap;
+}
+#game-container .upgrade-item button:hover { background: #333; }
+
+#game-container #sell-btn { padding: 12px; background: #8b0000; color: white; border: none; cursor: pointer; font-weight: bold; margin-top: 10px; }
+
+#game-container #achievement-bar {
+    background: rgba(0,0,0,0.9);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 0.9rem;
+}
+
+#game-container #pollos-logo { height: 35px; }
+
+@media (max-width: 800px) {
+    #game-container main { flex-direction: column; }
+    #game-container #sidebar { border-left: none; border-top: 2px solid #444; }
+}

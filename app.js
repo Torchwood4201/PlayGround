@@ -1,280 +1,184 @@
-const TRACKS = [
-  {id:'UEO6uyczDMk', cat:'remixes', title:'Funky Town', dur:'3:05', badge:'LATEST'},
-  {id:'xQZUjCSx9v4', cat:'remixes', title:'Block Rocking Firestarter', dur:'3:12'},
-  {id:'AdqOXNrHr8o', cat:'originals', title:'Captain G.Capacitor', dur:'3:51'},
-  {id:'OvcsrY8ksvI', cat:'originals', title:'Dance', dur:'4:32'},
-  {id:'XMdR8emp_cQ', cat:'remixes', title:'Rakins (Hey Boy, Hey Girl, Harder, Better, Faster, Satisfaction)', dur:'4:09'},
-  {id:'b2cZX9yMcco', cat:'beats', title:'Had To Go (NujaFlow)', dur:'3:24'},
-  {id:'KvK_pMvFV94', cat:'flips', title:'Aquatic Ambience (Hip Hop/Trap Remix)', dur:'5:57', badge:'FAN FAVE'},
-  {id:'Wb6AauUjceM', cat:'remixes', title:'SHAQ FU (Extended Remaster)', dur:'2:40'},
-  {id:'IiEcpi-ANc4', cat:'beats', title:'Break', dur:'7:21'},
-  {id:'0uN1dCu0iDE', cat:'beats', title:'Jazzed Up', dur:'6:48'},
-  {id:'voJZJmEvd2g', cat:'remixes', title:'itachi Uchiha', dur:'4:16'},
-  {id:'_lqXKH8YWNY', cat:'originals', title:'Weirdmageddon', dur:'3:30'},
-  {id:'iWDEqFFZK3s', cat:'beats', title:'Pac Man (Tyler the Creator Type Beat)', dur:'4:03', badge:'TYPE BEAT'},
-  {id:'cGuNRYCcjCo', cat:'remixes', title:'M is for Max (Headroom EDM)', dur:'5:31'},
-  {id:'jhrt-f9Z-rM', cat:'originals', title:'Fight to Face', dur:'2:58'},
-  {id:'ZIX_XGPy64U', cat:'flips', title:'Klax Amiga (Re-Mix)', dur:'2:38'},
-  {id:'9XMMrZi20zA', cat:'remixes', title:'Sweet Brother Funk Soul', dur:'2:32'},
-  {id:'TQzpwgzwW4Y', cat:'flips', title:'Jet Set Bumble', dur:'5:30'},
-  {id:'54DIDKHmqDQ', cat:'remixes', title:'Everybody Teachers Around', dur:'3:14'},
-  {id:'1LMst8ovXlw', cat:'remixes', title:'Daft Prydz', dur:'4:08'},
-  {id:'nUwwnRiKw-k', cat:'flips', title:'Dr. Gerald Robotnik', dur:'7:52', badge:'EPIC'},
-  {id:'mQd45iUCxFE', cat:'remixes', title:'Daft Voltage', dur:'3:26'},
-  {id:'2rWDeE_mngc', cat:'remixes', title:'Composite Devices', dur:'3:51'},
-  {id:'sEPGWmxvXXw', cat:'flips', title:'Chemical Plant Zone 2.0', dur:'4:25', badge:'FAN FAVE'},
-  {id:'nVpb879Qinc', cat:'remixes', title:'Magique 2.0', dur:'3:59'},
-  {id:'k6SU-jkF2Ks', cat:'flips', title:'Koopahari Desert', dur:'3:59'},
-  {id:'Fma74rHnWdo', cat:'beats', title:'102 Rap', dur:'3:59'},
-  {id:'SFJY6957j4E', cat:'beats', title:'Piece By Piece (Dreams For A Price)', dur:'5:13'},
-  {id:'BAiGJ8Tkob4', cat:'beats', title:'Need A Dollar', dur:'4:04'},
-  {id:'sswM4oASom8', cat:'beats', title:'Falling Rain', dur:'2:31'},
-  {id:'iBIraLyM6YQ', cat:'originals', title:'The Toclafane', dur:'5:16'},
-  {id:'2kYxnMWP0Go', cat:'remixes', title:"Critters Buggin' - Naked Truth (Remix)", dur:'4:18'},
-  {id:'BoYQAanhAmk', cat:'originals', title:'Fulcrum Point', dur:'6:24'},
-  {id:'Umro-inRsxY', cat:'originals', title:'All I Do Is Boogerman', dur:'3:53'},
-  {id:'4SX7V924UVY', cat:'flips', title:"Bart's Nightmare - Dream Street (Re Pro)", dur:'4:00'},
-  {id:'XBKeTuhlMzQ', cat:'originals', title:'Narceus', dur:'2:28'},
-  {id:'HoLPlFd4cac', cat:'originals', title:'Hard Work, No Glory', dur:'2:37'},
-  {id:'U7CjmLNwNjY', cat:'originals', title:'A Beez Kneez', dur:'3:18'},
-  {id:'4SMLcyWGhe4', cat:'originals', title:'Shadow of The Goat', dur:'4:01'},
-  {id:'4_o49CZl_kA', cat:'originals', title:'Eyes of Vanta', dur:'3:24'},
+const MENU = [
+  {id:'huevos-rancheros', cat:'breakfast', name:'Huevos Rancheros', desc:'Rancheros platter: panfried potatoes, slow-cooked pintos, two eggs, red or green chile, cheddar & jack, flour tortilla.', price:5.99, badge:'CLASSIC'},
+  {id:'carne-rancheros', cat:'breakfast', name:'Carne Adovada Rancheros', desc:'Huevos Rancheros with carne adovada. Potatoes, pintos, two eggs, chile & cheese, tortilla.', price:6.75},
+  {id:'taco-rancheros', cat:'breakfast', name:'Taco Rancheros', desc:'Huevos Rancheros with seasoned ground beef on corn tortillas. Potatoes, pintos, eggs, chile & cheese.', price:6.75},
+  {id:'ench-rancheros', cat:'breakfast', name:'Enchilada Rancheros', desc:'Huevos Rancheros with two enchiladas. Potatoes, pintos, eggs, chile & cheese, tortilla.', price:6.75},
+  {id:'two-egg', cat:'breakfast', name:'Two Egg Special (w/ Meat)', desc:'Two eggs, panfried potatoes, HAM / SAUSAGE / BACON, white or wheat toast.', price:5.99},
+  {id:'omelette', cat:'breakfast', name:'Omelette — 4 Eggs', desc:'Ham & Cheddar • Bacon & Cheddar • Sausage & Cheddar • Cheese • Denver (ham, pepper, onion). Potatoes + toast.', price:6.75},
+  {id:'two-four', cat:'breakfast', name:'2 + 4 + 4', desc:'Two eggs, four silver-dollar pancakes, four bacon slices & panfried potatoes.', price:6.99, badge:'BIG'},
+  {id:'bb-basic', cat:'breakfast', name:'Basic Breakfast Burrito', desc:'Egg & potato. Hand-held 2.69 • Smothered chile & cheese 3.69.', price:2.69},
+  {id:'bb-westside', cat:'breakfast', name:'Westside Burrito', desc:'Egg, potato & green chile. Hand-held 2.99 • Smothered 3.99.', price:2.99},
+  {id:'bb-nm', cat:'breakfast', name:'New Mexico Burrito', aka:'Egg, potato, green chile & cheese', desc:'Hand-held 3.39 • Smothered chile & cheese 4.39.', price:3.39},
+  {id:'bb-abq', cat:'breakfast', name:'Albuquerque Burrito', desc:'Sausage, egg, potato, red chile & cheese. Hand-held 3.99 • Smothered 4.99.', price:3.99, badge:'POPULAR'},
+  {id:'bb-south', cat:'breakfast', name:'South Valley Burrito', desc:'Chorizo, egg, potato, red chile & cheese. 3.99 • Smothered 4.99.', price:3.99},
+  {id:'bb-taos', cat:'breakfast', name:'Taos Burrito', desc:'Ham, egg, potato, green chile & cheese. 3.99 • Smothered 4.99.', price:3.99},
+  {id:'bb-rio', cat:'breakfast', name:'Rio Grande Burrito', desc:'Carne adovada, egg, potato, red chile & cheese. 3.99 • Smothered 4.99.', price:3.99},
+  {id:'bb-supreme', cat:'breakfast', name:'Supreme Burrito', aka:'Bacon, egg, potato, red chile & cheese', desc:'Hand-held 3.99 • Smothered 4.99.', price:3.99},
+  {id:'bb-sf', cat:'breakfast', name:'Santa Fe Burrito', desc:'Ground beef, egg, potato, onion, red chile & cheese. 3.99 • Smothered 4.99.', price:3.99},
+  {id:'bb-veg', cat:'breakfast', name:'Vegetarian Burrito', desc:'Egg, bell pepper, onion, tomato, green chile & cheese. 3.99 • Smothered 4.99.', price:3.99},
+  {id:'bb-denver', cat:'breakfast', name:'Denver Burrito', desc:'Egg, ham, bell peppers, onion & cheese. 3.99 • Smothered 4.99.', price:3.99},
+  {id:'bb-biggie', cat:'breakfast', name:'Three Meat Biggie', desc:'Sausage, bacon, ham, egg, potato, green chile & cheese. 4.89 • Smothered 5.99.', price:4.89, badge:'BIG'},
+  {id:'bb-byo', cat:'breakfast', name:'Build-Your-Own Burrito', desc:'Start Basic egg & potato 2.69 + .29 salsa • .49 chile/cheese/beans/sour cream/jalapeno • .99 meats.', price:2.69},
+  {id:'kid-breakfast', cat:'breakfast', name:'Kiddie Breakfast + OJ', desc:'French Toast Stix (5) • Egg & Cheese Burrito • 3 Silver-Dollar Pancakes. Small OJ included.', price:3.75},
+  {id:'kid-lunch', cat:'breakfast', name:'Kiddie Lunch + Soda', desc:'Corn Dog • Taco • Nuggets (5) • Beef or Bean & Cheese Burrito. Fries + 16oz soda.', price:3.99},
+  {id:'pb-beef', cat:'burritos', name:'Pollos Burrito — Beef', desc:'Seasoned ground beef + beans, Pollos fries, red/green chile, cheese, lettuce & tomato. 1/8 4.99 • 1/4 5.99 • 1/2 6.99 • Whole 7.99.', price:5.99, badge:'HOUSE'},
+  {id:'pb-chicken', cat:'burritos', name:'Pollos Burrito — Chicken', aka:'"Pollos Burrito"', desc:'Chicken + beans, Pollos fries, red/green chile, cheese, lettuce & tomato. Sizes 1/8–Whole.', price:5.99, badge:'HOUSE'},
+  {id:'pb-adovada', cat:'burritos', name:'Pollos Burrito — Carne Adovada', desc:'Carne adovada + beans, Pollos fries, red/green chile, cheese, lettuce & tomato.', price:5.99},
+  {id:'pb-veg', cat:'burritos', name:'Pollos Burrito — Vegetarian', desc:'Beans & rice, Pollos fries, red/green chile, cheese, lettuce & tomato.', price:4.99},
+  {id:'b-adovada', cat:'burritos', name:'Carne Adovada Burrito', desc:'Potato, red chile & cheese. Hand-held 4.39 • Smothered 5.39 • Deluxe 5.99.', price:4.39},
+  {id:'b-chicken', cat:'burritos', name:'Chicken Burrito', desc:'Bean, potato, green chile & cheese. Hand-held 4.39 • Smothered 5.39 • Deluxe 5.99.', price:4.39},
+  {id:'b-beef', cat:'burritos', name:'Beef Burrito', desc:'Potato, green chile & cheese. Hand-held 4.39 • Smothered 5.39 • Deluxe 5.99.', price:4.39},
+  {id:'b-bean', cat:'burritos', name:'Bean & Cheese Burrito', desc:'Hand-held 2.69 • Smothered 3.69 • Deluxe 4.29.', price:2.69},
+  {id:'b-shredded', cat:'burritos', name:'Shredded Beef Burrito', desc:'Potato, green chile & cheese. Hand-held 4.69 • Smothered 5.69 • Deluxe 6.29.', price:4.69},
+  {id:'pl-ench', cat:'platters', name:'Enchilada Platter', desc:'3 rolled enchiladas, choice of red/green chile. Beans, rice, lettuce, tomato & cheese.', price:6.49},
+  {id:'pl-burrito', cat:'platters', name:'Burrito Platter', desc:'Choice of chile. Beans, rice, lettuce, tomato & cheese.', price:6.49},
+  {id:'pl-combo', cat:'platters', name:'Combination Platter', desc:'Two chicken enchiladas + two crispy beef tacos, choice of chile + salsa.', price:6.99, badge:'POPULAR'},
+  {id:'pl-chimi', cat:'platters', name:'Chimichanga Platter', desc:'Crispy fried burrito, cheese, sour cream & choice of chile.', price:6.59},
+  {id:'pl-taco2', cat:'platters', name:'Taco Platter — Beef/Chicken/Adovada', desc:'Soft flour or crispy corn, salsa. 2pc 4.99 • 3pc 5.99. Shredded beef +.50.', price:4.99},
+  {id:'indian-taco', cat:'platters', name:'Indian Taco', desc:'Fry bread + beef/chicken/carne adovada, beans, red/green chile, lettuce, tomato & cheese.', price:6.25},
+  {id:'taco-salad', cat:'platters', name:'Taco Salad (Beef/Chicken)', desc:'Crisp flour tortilla, meat, lettuce, beans, cheese, guac, sour cream & tomato.', price:6.25},
+  {id:'gc-stew', cat:'platters', name:'Green Chile Stew', desc:'Beef or chicken, green chile, beans & potato, cheese & garnish + side tortilla.', price:4.99},
+  {id:'nacho', cat:'platters', name:'Nacho Supreme', desc:'Tostados, beans, cheese, jalapenos, guac, sour cream & tomato. +Beef/Chicken 1.00.', price:6.25},
+  {id:'wrap', cat:'platters', name:'Chicken Wrap', aka:'"Pollos Burrito" style wrap', desc:'Crispy strips, cheddar, lettuce, tomato, guac, bacon & ranch. Tostada chips + salsa.', price:5.50},
+  {id:'macho', cat:'platters', name:'Macho Burrito Grande', desc:'Beef, bean, potato & rice, green chile, cheese, sour cream, lettuce & tomato.', price:5.99},
+  {id:'burger-all', cat:'burgers', name:'All American Burger', desc:'Lettuce, tomato, onion, mustard & ketchup. Ala carte 3.79 • Combo 5.99.', price:3.79},
+  {id:'burger-cheese', cat:'burgers', name:'Cheese Burger', desc:'Ala carte 4.04 • Combo w/ fries + 32oz drink 6.24.', price:4.04},
+  {id:'burger-gc', cat:'burgers', name:'Green Chile Cheese Burger', desc:'Ala carte 4.29 • Combo 6.49.', price:4.29, badge:'NM FAVE'},
+  {id:'burger-bacon', cat:'burgers', name:'Bacon Cheese Burger', desc:'Ala carte 4.54 • Combo 6.74.', price:4.54},
+  {id:'burger-cal', cat:'burgers', name:'California Burger', desc:'Cheese, guacamole & bacon. Ala carte 5.03 • Combo 7.23.', price:5.03},
+  {id:'burger-double', cat:'burgers', name:'Double Meat Double Cheese', desc:'Ala carte 5.29 • Combo 7.49.', price:5.29, badge:'BIG'},
+  {id:'burger-hermanos', cat:'burgers', name:'Hermanos Burger', aka:'"El Heisenberg"', desc:'Open face, red chile, cheese, lettuce, tomato & onion. Ala carte 4.79 • Combo 6.99.', price:4.79},
+  {id:'grilled', cat:'burgers', name:'Grilled Chicken Sandwich', desc:'Boneless grilled chicken, mayo, lettuce & tomato. 4.49 • Combo 6.69.', price:4.49},
+  {id:'nm-chicken', cat:'burgers', name:'New Mexico Chicken Sandwich', desc:'Cheddar & jack + green chile. 4.99 • Combo 7.19.', price:4.99},
+  {id:'chx-supreme', cat:'burgers', name:'Chicken Supreme', desc:'Cheddar & jack + bacon. 5.25 • Combo 7.45.', price:5.25},
+  {id:'chx-cal', cat:'burgers', name:'California Chicken', desc:'Cheddar & jack + guacamole. 5.49 • Combo 7.69.', price:5.49},
+  {id:'tenders3', cat:'burgers', name:'Pollos Tenders + Curly Fries', aka:'"Pollos Tenders"', desc:'Hand-breaded tenders, curly fries, Texas toast + 1 sauce.', price:11.49, badge:'POPULAR'},
+  {id:'spicy6', cat:'burgers', name:'Spicy Pollos Wings (6)', aka:'"Wingicita"', desc:'Hot Hermanos glaze, ranch dust, pickles.', price:12.99},
+  {id:'bucket', cat:'burgers', name:'8pc Hermanos Bucket', aka:'"The Full Measure"', desc:'Pressure-fried chicken + secret spices. Feeds 3–4.', price:29.99, badge:'BEST VALUE'},
+  {id:'fries', cat:'sides', name:'French Fries', desc:'Golden & salted.', price:1.79},
+  {id:'curly', cat:'sides', name:'Green Chile Cheese Fries', aka:'"Spice Curls"', desc:'Fries + green chile & cheese.', price:3.25, badge:'ICONIC'},
+  {id:'taco-side', cat:'sides', name:'Taco (Side)', desc:'With homemade salsa.', price:1.59},
+  {id:'ench-side', cat:'sides', name:'Enchilada (Side)', desc:'Red or green.', price:1.99},
+  {id:'nachos-mini', cat:'sides', name:'Mini Nachos', desc:'Tostadas, beans, cheese & jalapeno.', price:3.25},
+  {id:'chips-salsa', cat:'sides', name:'Chips & Homemade Salsa', desc:'Fresh tostada chips.', price:1.50},
+  {id:'nuggets', cat:'sides', name:'Chicken Nuggets (5)', desc:'With barbecue sauce.', price:1.75},
+  {id:'corndog', cat:'sides', name:'Corn Dog', desc:'Classic.', price:1.75},
+  {id:'slaw', cat:'sides', name:'ABQ Street Slaw', aka:'"Slaw Goodman"', desc:'Charred corn, cabbage, cotija, lime crema.', price:4.99},
+  {id:'soda', cat:'sweet', name:'Soda & Iced Tea', desc:'Small 1.49 • Medium 1.89 • Large 2.09.', price:1.49},
+  {id:'coffee', cat:'sweet', name:'Coffee', desc:'Small 1.19.', price:1.19},
+  {id:'oj', cat:'sweet', name:'Orange Juice', desc:'Small .99 • Large 1.99.', price:0.99},
+  {id:'water', cat:'sweet', name:'Bottled Water', desc:'Medium 1.19.', price:1.19},
+  {id:'tea', cat:'sweet', name:'Sweet Hermanos Tea', desc:'Peach + hibiscus iced tea.', price:2.99},
+  {id:'horchata', cat:'sweet', name:'Cinnamon Horchata', desc:'House-made, extra cinnamon.', price:3.49},
+  {id:'apple', cat:'sweet', name:'Apple Bites', desc:'Warm & cinnamon.', price:1.19},
+  {id:'churros', cat:'sweet', name:'Churros', desc:'Cinnamon sugar.', price:1.49, badge:'FRESH'},
+  {id:'flan', cat:'sweet', name:'Cajeta Flan', aka:'"Bombshell"', desc:'Silky caramel flan, family recipe.', price:5.99},
 ];
-const CATS = {flips:'Game Flip', beats:'Type Beat', remixes:'Remix', originals:'Original'};
 
-const grid = document.getElementById('trackGrid');
+// Real photos: franchise concept shots (images/*.webp|png) + stock food photography (images/menu/*.jpg)
+const IMGS = {
+  wrap:'polloloco.webp', bucket:'menu/bucket.jpg', rotis:'menu/rotisserie.jpg', curly:'spicecurls.webp',
+  torta:'pollotorta.webp', tenders3:'tenders.webp',
+  slaw:'sides.webp', spicy6:'wings.webp', sandwich:'fam.webp', flan:'menu/flan.jpg',
+  'pb-chicken':'polloloco.webp', 'burger-hermanos':'menu/bacon-cheeseburger-2.jpg',
+  'huevos-rancheros':'menu/huevos-rancheros.jpg', 'carne-rancheros':'menu/carne-rancheros.jpg',
+  'taco-rancheros':'menu/taco-rancheros.jpg', 'ench-rancheros':'menu/enchiladas.jpg',
+  'two-egg':'menu/eggs-bacon.jpg', omelette:'menu/omelette.jpg', 'two-four':'menu/pancakes.jpg',
+  'bb-basic':'menu/bburrito-1.jpg', 'bb-westside':'menu/bb-westside-green.jpg', 'bb-nm':'menu/bb-nm-green.jpg',
+  'bb-abq':'menu/bburrito-4.jpg', 'bb-south':'menu/bburrito-7.jpg', 'bb-taos':'menu/bburrito-8.jpg',
+  'bb-rio':'menu/bb-rio-red.jpg', 'bb-supreme':'menu/bb-supreme-bacon.jpg', 'bb-sf':'menu/burrito-beef-2.jpg',
+  'bb-veg':'menu/bb-veggie.jpg', 'bb-denver':'menu/bburrito-9.jpg', 'bb-biggie':'menu/bburrito-10.jpg',
+  'bb-byo':'menu/bb-byo-ingredients.jpg', 'kid-breakfast':'menu/french-toast.jpg', 'kid-lunch':'menu/nuggets.jpg',
+  'pb-beef':'menu/burrito-beef.jpg', 'pb-adovada':'menu/burrito-smothered.jpg', 'pb-veg':'menu/burrito-1.jpg',
+  'b-adovada':'menu/burrito-adovada-red.jpg', 'b-chicken':'menu/burrito-2.jpg', 'b-beef':'menu/burrito-beef-shred.jpg',
+  'b-bean':'menu/bean-burrito.jpg', 'b-shredded':'menu/burrito-shredded.jpg',
+  'pl-ench':'menu/enchiladas-2.jpg', 'pl-burrito':'menu/platter-burrito.jpg', 'pl-combo':'polloloco1.webp',
+  'pl-chimi':'menu/chimichanga.jpg', 'pl-taco2':'menu/tacos.jpg', 'indian-taco':'menu/indian-taco.jpg',
+  'taco-salad':'menu/taco-salad.jpg', 'gc-stew':'menu/stew.jpg', nacho:'menu/nachos.jpg',
+  macho:'menu/macho-grande.jpg',
+  'burger-all':'menu/burger.jpg', 'burger-cheese':'menu/cheeseburger-2.jpg', 'burger-gc':'menu/cheeseburger-3.jpg',
+  'burger-bacon':'menu/bacon-cheeseburger.jpg', 'burger-cal':'menu/guac-burger.jpg', 'burger-double':'menu/burger-double-2.jpg',
+  grilled:'menu/chicken-sand.jpg', 'nm-chicken':'menu/chicken-sand-2.jpg',
+  'chx-supreme':'menu/chicken-sandwich-3.jpg', 'chx-cal':'menu/chicken-sandwich-4.jpg',
+  fries:'menu/fries-basket.jpg', 'taco-side':'menu/tacos-crispy-2.jpg', 'ench-side':'menu/enchilada-single.jpg',
+  'nachos-mini':'menu/nachos-2.jpg', 'chips-salsa':'menu/chips-salsa.jpg', nuggets:'menu/nuggets-2.jpg',
+  corndog:'menu/corn-dog.jpg',
+  soda:'bev.webp', coffee:'menu/coffee-cup.jpg', oj:'menu/oj-glass.jpg', water:'menu/water.jpg',
+  tea:'menu/iced-tea.jpg', horchata:'menu/horchata.jpg', apple:'menu/apple-bites.jpg', churros:'menu/churros.jpg'
+};
+MENU.forEach(m=>{ if(IMGS[m.id]) m.img = 'images/' + IMGS[m.id]; });
+
+const cart = new Map();
+const grid = document.getElementById('menuGrid');
 const tabs = document.getElementById('tabs');
 const search = document.getElementById('search');
-const playerEl = null; // replaced by YT API player below
-const upNextTitle = document.getElementById('upNextTitle');
-const upNextMeta = document.getElementById('upNextMeta');
-const heroNow = document.getElementById('heroNow');
-const deckArtImg = document.getElementById('deckArtImg');
-const deckGlyph = document.getElementById('deckGlyph');
-const playPauseBtn = document.getElementById('playPauseBtn');
-const progress = document.getElementById('progress');
-const progressFill = document.getElementById('progressFill');
-const tCur = document.getElementById('tCur');
-const tTot = document.getElementById('tTot');
-const vol = document.getElementById('vol');
 let filter = 'all';
-let currentId = 'UEO6uyczDMk';
-let mode = 'single'; // 'single' | 'queue'
-let qi = 0;
-let yt = null, ytReady = false, wantPlay = false, isPlaying = false;
 
-// Streaming audio via YouTube IFrame API: chromeless player hidden
-// behind the artwork, custom progress bar + transport on top.
-(function loadYT(){
-  const tag = document.createElement('script');
-  tag.src = 'https://www.youtube.com/iframe_api';
-  document.head.appendChild(tag);
-  // Fallback: if the API never loads, show a plain embed instead.
-  setTimeout(()=>{
-    if(!ytReady){
-      const holder = document.querySelector('.yt-holder');
-      if(holder){
-        holder.classList.add('yt-fallback');
-        holder.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/${currentId}?rel=0" title="Weird0Radi0 player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-      }
-      setGlyph(false);
-    }
-  }, 7000);
-})();
-window.onYouTubeIframeAPIReady = function(){
-  yt = new YT.Player('ytAudio', {
-    videoId: currentId,
-    playerVars: { controls: 0, disablekb: 1, fs: 0, iv_load_policy: 3, modestbranding: 1, rel: 0 },
-    events: { onReady: onYTReady, onStateChange: onYTState }
-  });
-};
-function onYTReady(){
-  ytReady = true;
-  yt.setVolume(Number(vol.value));
-  fmtDur();
-  if(wantPlay){ wantPlay = false; yt.playVideo(); }
-}
-function onYTState(e){
-  if(e.data === YT.PlayerState.PLAYING){ setPlaying(true); }
-  else if(e.data === YT.PlayerState.PAUSED){ setPlaying(false); }
-  else if(e.data === YT.PlayerState.ENDED){ advance(1, true); }
-  else if(e.data === YT.PlayerState.CUED){ setPlaying(false); }
-}
-function setPlaying(on){
-  isPlaying = on;
-  deckGlyph.textContent = on ? '❚❚' : '▶';
-  playPauseBtn.textContent = on ? '❚❚' : '▶';
-}
-function fmt(s){
-  s = Math.max(0, Math.floor(s || 0));
-  return `${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`;
-}
-function fmtDur(){
-  if(ytReady && yt.getDuration) tTot.textContent = fmt(yt.getDuration());
-}
-(function tick(){
-  if(ytReady && yt.getCurrentTime && yt.getDuration){
-    try{
-      const c = yt.getCurrentTime(), d = yt.getDuration() || 0;
-      if(d > 0 && !scrubbing){
-        progressFill.style.width = (c/d*100) + '%';
-        progress.setAttribute('aria-valuenow', Math.round(c/d*100));
-        tCur.textContent = fmt(c);
-        tTot.textContent = fmt(d);
-      }
-    }catch(_){}
-  }
-  requestAnimationFrame(tick);
-})();
-// Seek: click or drag on the progress bar
-let scrubbing = false;
-function seekTo(clientX){
-  const r = progress.getBoundingClientRect();
-  const frac = Math.min(1, Math.max(0, (clientX - r.left) / r.width));
-  if(ytReady && yt.getDuration){
-    const d = yt.getDuration();
-    yt.seekTo(frac * d, true);
-    progressFill.style.width = (frac*100) + '%';
-    tCur.textContent = fmt(frac * d);
-  }
-}
-progress.addEventListener('pointerdown', e=>{ scrubbing = true; progress.setPointerCapture(e.pointerId); seekTo(e.clientX); });
-progress.addEventListener('pointermove', e=>{ if(scrubbing) seekTo(e.clientX); });
-progress.addEventListener('pointerup', ()=>{ scrubbing = false; });
-progress.addEventListener('keydown', e=>{
-  if(!ytReady) return;
-  const c = yt.getCurrentTime() || 0;
-  if(e.key === 'ArrowRight') yt.seekTo(c + 5, true);
-  if(e.key === 'ArrowLeft') yt.seekTo(Math.max(0, c - 5), true);
-});
-function setGlyph(playing){ setPlaying(playing); }
-function togglePlay(){
-  if(!ytReady){ wantPlay = true; toast('Buffering the signal…'); return; }
-  const st = yt.getPlayerState();
-  if(st === YT.PlayerState.PLAYING) yt.pauseVideo();
-  else yt.playVideo();
-}
-playPauseBtn.onclick = togglePlay;
-document.getElementById('deckArt').onclick = togglePlay;
-document.getElementById('deckArt').onkeydown = e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); togglePlay(); } };
-vol.oninput = ()=>{ if(ytReady) yt.setVolume(Number(vol.value)); };
+function money(n){ return '$' + n.toFixed(2); }
 
-function trackById(id){ return TRACKS.find(t=>t.id===id); }
-
-function renderTracks(){
+function renderMenu(){
   const q = search.value.trim().toLowerCase();
   grid.innerHTML = '';
-  TRACKS.filter(t => (filter==='all' || t.cat===filter) && (!q || t.title.toLowerCase().includes(q))).forEach(t=>{
+  MENU.filter(m => (filter==='all' || m.cat===filter) && (!q || (m.name+' '+(m.desc||'')).toLowerCase().includes(q))).forEach(m=>{
     const el = document.createElement('article');
-    el.className = 'card' + (t.id===currentId ? ' playing' : '');
-    el.innerHTML = `<div class="card-art"><img src="images/tracks/${t.id}.jpg" alt="${t.title}" loading="lazy" />${t.badge?`<span class="card-badge">${t.badge}</span>`:''}${t.id===currentId?'<span class="now-badge">PLAYING</span>':''}</div>
-      <div class="card-body"><p class="aka">${CATS[t.cat]} • ${t.dur}</p><h3>${t.title}</h3>
-      <div class="card-foot"><button class="play" data-play="${t.id}">Play</button><button class="add" data-queue="${t.id}">+ Queue</button></div></div>`;
+    el.className='card';
+    el.innerHTML = `<div class="card-art"><img src="${m.img||'images/lph.png'}" alt="${m.name}" loading="lazy" />${m.badge?`<span class="card-badge">${m.badge}</span>`:''}</div>
+      <div class="card-body"><h3>${m.name}</h3>${m.aka?`<p class="aka">${m.aka}</p>`:''}<p>${m.desc}</p>
+      <div class="card-foot"><span class="card-price">${money(m.price)}</span><button class="add" data-add="${m.id}">Add +</button></div></div>`;
     grid.appendChild(el);
   });
-  if(!grid.children.length) grid.innerHTML = '<div class="empty">No signal on this frequency. Try another search.</div>';
+  if(!grid.children.length) grid.innerHTML = '<div class="empty">No matches — try another search.</div>';
 }
 tabs.addEventListener('click', e=>{
   const b = e.target.closest('.tab'); if(!b) return;
   document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-  b.classList.add('active'); filter = b.dataset.cat; renderTracks();
+  b.classList.add('active'); filter = b.dataset.cat; renderMenu();
 });
-search.addEventListener('input', renderTracks);
+search.addEventListener('input', renderMenu);
 
-function loadIntoDeck(t, autoplay){
-  currentId = t.id;
-  deckArtImg.src = `images/tracks/${t.id}.jpg`;
-  deckArtImg.alt = `${t.title} artwork`;
-  upNextTitle.textContent = t.title;
-  upNextMeta.textContent = `${CATS[t.cat]} • ${t.dur}`;
-  heroNow.textContent = t.title;
-  tTot.textContent = t.dur;
-  tCur.textContent = '0:00';
-  progressFill.style.width = '0%';
-  if(ytReady){ if(autoplay) yt.loadVideoById(t.id); else yt.cueVideoById(t.id); }
-  else if(autoplay){ wantPlay = true; }
-  renderTracks();
+function addToCart(id){
+  const item = MENU.find(m=>m.id===id); if(!item) return;
+  cart.set(id, (cart.get(id)||0)+1);
+  updateCart();
+  toast(`${item.name} added to order.`);
+  openDrawer();
 }
-function playTrack(id, opts={}){
-  const t = trackById(id); if(!t) return;
-  if(!opts.keepMode) mode = 'single';
-  loadIntoDeck(t, opts.autoplay !== false);
-  document.getElementById('featured').scrollIntoView({behavior:'smooth'});
-}
-// Transport: next/prev step through queue when in queue mode,
-// otherwise through the catalog. Restarts track if >3s in.
-function catalogStep(dir){
-  const i = TRACKS.findIndex(t=>t.id===currentId);
-  const n = TRACKS[(i + dir + TRACKS.length) % TRACKS.length];
-  mode = 'single';
-  playTrack(n.id);
-}
-function advance(dir, auto){
-  if(mode === 'queue' && queue.length){
-    const ni = qi + dir;
-    if(ni >= 0 && ni < queue.length){ qi = ni; playTrack(queue[qi], {keepMode:true}); return; }
-    if(auto){ toast('Queue finished.'); setPlaying(false); return; }
-  }
-  catalogStep(dir);
-}
-document.getElementById('nextBtn').onclick = ()=>advance(1, false);
-document.getElementById('prevBtn').onclick = ()=>{
-  if(ytReady && yt.getCurrentTime && yt.getCurrentTime() > 3){ yt.seekTo(0, true); return; }
-  advance(-1, false);
-};
 document.addEventListener('click', e=>{
-  const p = e.target.closest('[data-play]');
-  if(p){ playTrack(p.dataset.play); return; }
-  const q = e.target.closest('[data-queue]');
-  if(q){ addToQueue(q.dataset.queue); }
+  const b = e.target.closest('[data-add]'); if(b) addToCart(b.dataset.add);
 });
-document.getElementById('playLatest').onclick = ()=>playTrack('UEO6uyczDMk');
 
-// Queue drawer
-const queue = [];
 const drawer = document.getElementById('drawer');
 const overlay = document.getElementById('overlay');
-function openQueue(){ drawer.classList.add('open'); drawer.setAttribute('aria-hidden','false'); overlay.hidden=false; }
-function closeQueue(){ drawer.classList.remove('open'); drawer.setAttribute('aria-hidden','true'); overlay.hidden=true; }
-document.getElementById('queueOpen').onclick = openQueue;
-document.getElementById('queueOpen2').onclick = openQueue;
-document.getElementById('queueOpen3').onclick = openQueue;
-document.getElementById('queueClose').onclick = closeQueue;
-overlay.onclick = closeQueue;
+function openDrawer(){ drawer.classList.add('open'); drawer.setAttribute('aria-hidden','false'); overlay.hidden=false; }
+function closeDrawer(){ drawer.classList.remove('open'); drawer.setAttribute('aria-hidden','true'); overlay.hidden=true; }
+document.getElementById('cartOpen').onclick = openDrawer;
+document.getElementById('cartClose').onclick = closeDrawer;
+overlay.onclick = closeDrawer;
 
-function addToQueue(id){
-  const t = trackById(id); if(!t) return;
-  if(queue.includes(id)){ toast('Already in your queue.'); openQueue(); return; }
-  queue.push(id);
-  updateQueue();
-  toast(`${t.title} queued.`);
-  openQueue();
+function updateCart(){
+  const box = document.getElementById('cartItems');
+  const count = [...cart.values()].reduce((a,b)=>a+b,0);
+  document.getElementById('cartCount').textContent = count;
+  if(count===0){ box.innerHTML = '<div class="empty">Your basket is empty.<br/>The fryer is waiting…</div>'; }
+  else{
+    box.innerHTML='';
+    for(const [id,qty] of cart){
+      const m = MENU.find(x=>x.id===id);
+      const row = document.createElement('div'); row.className='cart-row';
+      row.innerHTML = `<img class="cart-thumb" src="${m.img||'images/lph.png'}" alt="" /><div><strong>${m.name}</strong><span>${money(m.price)} each</span></div>
+        <div class="qty"><button data-dec="${id}">−</button><b>${qty}</b><button data-inc="${id}">+</button></div>`;
+      box.appendChild(row);
+    }
+  }
+  const total = [...cart].reduce((s,[id,q])=>s + MENU.find(m=>m.id===id).price*q, 0);
+  document.getElementById('cartTotal').textContent = money(total);
 }
-function updateQueue(){
-  const box = document.getElementById('queueItems');
-  document.getElementById('queueCount').textContent = queue.length;
-  if(!queue.length){ box.innerHTML = '<div class="empty">Queue is empty.<br/>Stack some signals.</div>'; return; }
-  box.innerHTML = '';
-  queue.forEach((id, i)=>{
-    const t = trackById(id);
-    const row = document.createElement('div'); row.className = 'cart-row';
-    row.innerHTML = `<img class="cart-thumb" src="images/tracks/${id}.jpg" alt="" /><div><strong>${i+1}. ${t.title}</strong><span>${CATS[t.cat]} • ${t.dur}</span></div>
-      <div class="qty"><button data-qplay="${id}">Play</button><button data-qrm="${id}">×</button></div>`;
-    box.appendChild(row);
-  });
-}
-document.getElementById('queueItems').addEventListener('click', e=>{
-  const p = e.target.closest('[data-qplay]'), r = e.target.closest('[data-qrm]');
-  if(p){ closeQueue(); const i = queue.indexOf(p.dataset.qplay); if(i >= 0){ mode = 'queue'; qi = i; } playTrack(p.dataset.qplay, {keepMode:true}); }
-  if(r){ queue.splice(queue.indexOf(r.dataset.qrm), 1); updateQueue(); }
+document.getElementById('cartItems').addEventListener('click', e=>{
+  const inc = e.target.closest('[data-inc]'), dec = e.target.closest('[data-dec]');
+  if(inc){ cart.set(inc.dataset.inc, cart.get(inc.dataset.inc)+1); updateCart(); }
+  if(dec){ const id=dec.dataset.dec; const q=cart.get(id)-1; q<=0?cart.delete(id):cart.set(id,q); updateCart(); }
 });
-document.getElementById('clearQueue').onclick = ()=>{ queue.length = 0; updateQueue(); };
-function playQueue(){
-  if(!queue.length){ toast('Queue is empty — add some tracks first.'); return; }
-  closeQueue(); mode = 'queue'; qi = 0; playTrack(queue[0], {keepMode:true});
-}
-document.getElementById('playQueueBtn').onclick = playQueue;
-document.getElementById('playQueueBtn2').onclick = playQueue;
+document.getElementById('clearBtn').onclick = ()=>{ cart.clear(); updateCart(); };
 
 let toastT;
 function toast(msg){
@@ -282,21 +186,182 @@ function toast(msg){
   clearTimeout(toastT); toastT = setTimeout(()=>t.classList.remove('show'), 2200);
 }
 
-// Collab form with confirm step
-const collabForm = document.getElementById('collabForm');
+document.getElementById('checkoutBtn').onclick = ()=>{
+  if(cart.size===0){ toast('Add something tasty first.'); return; }
+  const total = document.getElementById('cartTotal').textContent;
+  const n = [...cart.values()].reduce((a,b)=>a+b,0);
+  document.getElementById('checkoutText').textContent = `${n} items • ${total} — your pollos are hitting the fryer right now.`;
+  document.getElementById('orderNum').textContent = 'LPH-' + Math.floor(1000+Math.random()*9000);
+  document.getElementById('checkoutModal').hidden = false;
+  cart.clear(); updateCart(); closeDrawer();
+};
+document.getElementById('modalClose').onclick = ()=>{ document.getElementById('checkoutModal').hidden = true; };
+document.getElementById('checkoutModal').addEventListener('click', e=>{ if(e.target.id==='checkoutModal') e.target.hidden=true; });
+
+document.getElementById('cateringForm').addEventListener('submit', e=>{ e.preventDefault(); document.getElementById('cateringNote').hidden=false; toast('Catering request sent.'); e.target.reset(); });
+document.getElementById('newsForm').addEventListener('submit', e=>{ e.preventDefault(); document.getElementById('newsNote').hidden=false; toast('Welcome to the familia.'); e.target.reset(); });
+
+// Training course: full 10-video playlist in proper training order
+// (playlist lists them 10->1; we play basics first, emergencies last)
+const TRAINING = [
+  {title:'Communication', id:'B9RgougnhiE'},
+  {title:'Cleanliness', id:'OJ10cVu2R5I'},
+  {title:'Shipping And Receiving', id:'fH_vg7mSS2M'},
+  {title:'Customer Service', id:'547FLQEjdF8'},
+  {title:'Code Of Conduct', id:'OTDlbmBoFIs'},
+  {title:'Loss Prevention', id:'ELC0ZzD5qeE'},
+  {title:'Brand Management', id:'juWdP2nGRqc'},
+  {title:'Sustainability', id:'XgYIRpnu8lo'},
+  {title:'Conflict Resolution', id:'Vpdoy8KBFdo'},
+  {title:'Emergency Situations', id:'lSHaBnRd9MU'},
+];
+let trainIdx = 0;
+const trainNow = document.getElementById('trainNow');
+const chaptersBox = document.getElementById('chapters');
+const trainProgress = document.getElementById('trainProgress');
+const enterLabBtn = document.getElementById('enterLabBtn');
+
+// Training gate: lessons count only when watched to the end (YT ENDED state).
+// Progress persists in localStorage; unlock is permanent unless site data is cleared.
+const LS_KEY = 'lph_training_done';
+let ytTrain = null, ytTrainReady = false;
+function loadDone(){
+  try {
+    const d = JSON.parse(localStorage.getItem(LS_KEY) || '[]');
+    return Array.isArray(d) ? d.filter(id => TRAINING.some(t => t.id === id)) : [];
+  } catch (e) { return []; }
+}
+let doneIds = loadDone();
+function saveDone(){ try { localStorage.setItem(LS_KEY, JSON.stringify(doneIds)); } catch (e) {} }
+function isUnlocked(){ return doneIds.length >= TRAINING.length; }
+function refreshTrainingUI(){
+  [...chaptersBox.children].forEach((li, j)=>li.classList.toggle('done', doneIds.includes(TRAINING[j].id)));
+  if (isUnlocked()){
+    trainProgress.textContent = 'Training complete: 10/10 — the lab is open. Play it any time.';
+    enterLabBtn.hidden = false;
+  } else {
+    trainProgress.textContent = `Training progress: ${doneIds.length}/10 — watch every lesson to the end to unlock the lab.`;
+    enterLabBtn.hidden = true;
+  }
+}
+function markLessonDone(id){
+  if (!TRAINING.some(t => t.id === id) || doneIds.includes(id)) return;
+  doneIds.push(id);
+  saveDone();
+  refreshTrainingUI();
+  if (isUnlocked()) toast('Training complete. The lab is open.');
+  else toast(`Lesson complete: ${doneIds.length}/10.`);
+}
+TRAINING.forEach((t, i)=>{
+  const li = document.createElement('li');
+  const b = document.createElement('button');
+  b.type = 'button';
+  b.innerHTML = `<strong>${i+1}.</strong> ${t.title}<span class="chk">✓</span>`;
+  b.onclick = ()=>playLesson(i, true);
+  li.appendChild(b);
+  chaptersBox.appendChild(li);
+});
+function playLesson(i, autoplay){
+  trainIdx = (i + TRAINING.length) % TRAINING.length;
+  const t = TRAINING[trainIdx];
+  if (ytTrainReady) {
+    if (autoplay) ytTrain.loadVideoById(t.id);
+    else ytTrain.cueVideoById(t.id);
+  } else {
+    document.getElementById('trainingPlayer').src = `https://www.youtube.com/embed/${t.id}?rel=0${autoplay?'&autoplay=1':''}&enablejsapi=1`;
+  }
+  trainNow.textContent = `Lesson ${trainIdx+1} of ${TRAINING.length} — ${t.title}`;
+  [...chaptersBox.children].forEach((li, j)=>li.classList.toggle('active', j===trainIdx));
+}
+(function loadTrainingAPI(){
+  const tag = document.createElement('script');
+  tag.src = 'https://www.youtube.com/iframe_api';
+  document.head.appendChild(tag);
+})();
+const _prevYTReady = window.onYouTubeIframeAPIReady;
+window.onYouTubeIframeAPIReady = function(){
+  if (typeof _prevYTReady === 'function') _prevYTReady();
+  try {
+    ytTrain = new YT.Player('trainingPlayer', {
+      events: {
+        onReady: ()=>{ ytTrainReady = true; ytTrain.cueVideoById(TRAINING[trainIdx].id); },
+        onStateChange: (e)=>{
+          if (e.data === YT.PlayerState.ENDED) {
+            let vid = '';
+            try { vid = e.target.getVideoData().video_id; } catch (_) {}
+            markLessonDone(vid || TRAINING[trainIdx].id);
+          }
+        }
+      }
+    });
+  } catch (e) { /* API unavailable: videos still play via plain embed, but lessons can't complete */ }
+};
+document.getElementById('trainPrev').onclick = ()=>playLesson(trainIdx-1, true);
+document.getElementById('trainNext').onclick = ()=>playLesson(trainIdx+1, true);
+playLesson(0, false);
+refreshTrainingUI();
+
+// Secret lab entries (all gated on training completion)
+function tryEnterLab(){
+  if (isUnlocked()) { location.href = 'lab.html'; return; }
+  toast(`Training incomplete: ${doneIds.length}/10 lessons watched.`);
+  document.getElementById('training').scrollIntoView({behavior:'smooth'});
+}
+enterLabBtn.onclick = ()=>{ location.href = 'lab.html'; };
+(function brandTripleClick(){
+  const brand = document.getElementById('brandHome');
+  let clicks = 0, timer = null;
+  brand.addEventListener('click', ()=>{
+    clicks++;
+    clearTimeout(timer);
+    timer = setTimeout(()=>{ clicks = 0; }, 800);
+    if (clicks >= 3) { clicks = 0; tryEnterLab(); }
+  });
+})();
+(function blueTypist(){
+  let buf = '';
+  document.addEventListener('keydown', (e)=>{
+    const tag = (e.target && e.target.tagName) || '';
+    if (/^(INPUT|TEXTAREA|SELECT)$/.test(tag)) return;
+    if (e.key.length === 1) buf = (buf + e.key.toLowerCase()).slice(-4);
+    else return;
+    if (buf === 'blue') { buf = ''; tryEnterLab(); }
+  });
+})();
+
+// Jobs apply modal
+const applyModal = document.getElementById('applyModal');
+const applyRole = document.getElementById('applyRole');
+document.addEventListener('click', e=>{
+  const b = e.target.closest('[data-apply]');
+  if(b){ applyRole.textContent = b.dataset.apply; applyModal.hidden = false; }
+});
+document.getElementById('applyCancel').onclick = ()=>{ applyModal.hidden = true; };
+applyModal.addEventListener('click', e=>{ if(e.target===applyModal) applyModal.hidden = true; });
+document.getElementById('applyForm').addEventListener('submit', e=>{
+  e.preventDefault(); applyModal.hidden = true; e.target.reset();
+  toast('Application sent. Gus respects discipline.');
+});
+
+// Contact form with confirm step
+const contactForm = document.getElementById('contactForm');
 const confirmModal = document.getElementById('confirmModal');
-let pending = null;
-collabForm.addEventListener('submit', e=>{
+let pendingContact = null;
+contactForm.addEventListener('submit', e=>{
   e.preventDefault();
-  pending = { name: document.getElementById('collabName').value, email: document.getElementById('collabEmail').value };
-  document.getElementById('confirmText').textContent = `Transmit as ${pending.name}? Reply goes to ${pending.email}.`;
+  pendingContact = {
+    name: document.getElementById('contactName').value,
+    email: document.getElementById('contactEmail').value,
+    msg: document.getElementById('contactMsg').value
+  };
+  document.getElementById('confirmText').textContent = `Send inquiry as ${pendingContact.name}? We'll reply to ${pendingContact.email}.`;
   confirmModal.hidden = false;
 });
-document.getElementById('confirmCancel').onclick = ()=>{ confirmModal.hidden = true; pending = null; };
-confirmModal.addEventListener('click', e=>{ if(e.target===confirmModal){ confirmModal.hidden = true; pending = null; } });
+document.getElementById('confirmCancel').onclick = ()=>{ confirmModal.hidden = true; pendingContact = null; };
+confirmModal.addEventListener('click', e=>{ if(e.target===confirmModal){ confirmModal.hidden = true; pendingContact = null; } });
 document.getElementById('confirmGo').onclick = ()=>{
   confirmModal.hidden = true;
-  if(pending){ toast(`Transmission received. Stay weird, ${pending.name}.`); collabForm.reset(); pending = null; }
+  if(pendingContact){ toast(`Inquiry sent. Gracias, ${pendingContact.name}!`); contactForm.reset(); pendingContact = null; }
 };
 
 document.getElementById('hamburger').onclick = ()=> document.getElementById('navLinks').classList.toggle('open');
@@ -306,4 +371,4 @@ document.querySelectorAll('#navLinks a').forEach(a=>a.onclick=()=>document.getEl
 const track = document.getElementById('tickerTrack');
 track.innerHTML += track.innerHTML;
 
-renderTracks(); updateQueue();
+renderMenu(); updateCart();
