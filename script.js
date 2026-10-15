@@ -25,8 +25,12 @@
   var currentName = BUNDLED.name;
   var muted = false;
   var crtOn = false;
-  var autoOn = false;
   var autoTimer = null;
+  /* Two independent copilots: AI 1 is looped to controller port 1
+     (emulator player 0), AI 2 to controller port 2 (player 1).
+     Each has its own on/off switch in its own AI Lab tab. */
+  var aiOn = { 0: false, 1: false };
+  function anyAiOn(){ return aiOn[0] || aiOn[1]; }
 
   function $(s, r){ return (r || document).querySelector(s); }
   function $all(s, r){ return Array.prototype.slice.call((r || document).querySelectorAll(s)); }
@@ -118,6 +122,11 @@
     }, 250);
   }
 
+  function markPlaying(){
+    playing = true; showStandby(false); setLeds(true);
+    enableKeyboard();
+    setStatus(currentName.toUpperCase().slice(0, 32), 'NOW PLAYING');
+  }
   function boot(url, name){
     stopExisting();
     currentUrl = url; currentName = name || currentName;
@@ -144,11 +153,7 @@
       assignUsbPad();
       setStatus(currentName.toUpperCase().slice(0, 32), playing ? 'NOW PLAYING' : 'PRESS POWER');
     };
-    window.EJS_onGameStart = function(){
-      playing = true; showStandby(false); setLeds(true);
-      enableKeyboard();
-      setStatus(currentName.toUpperCase().slice(0, 32), 'NOW PLAYING');
-    };
+    window.EJS_onGameStart = markPlaying;
     window.EJS_onExit = function(){
       playing = false; showStandby(true); setLeds(false);
       setStatus('POWER IS OFF', 'PRESS POWER TO START');
@@ -165,13 +170,22 @@
     if(powering) return; /* single flight: rapid POWER mashes, one attempt */
     powering = true;
     showStandby(false);
-    var tries = 0;
+    var tries = 0, liveHits = 0;
     powerTimer = setInterval(function(){
       tries++;
       var b = stage.querySelector('.ejs_start_button') ||
         ejsButton(function(t){ return /^start game/.test(t); });
       if(b){ try{ b.click(); }catch(e){} clearInterval(powerTimer); powerTimer = null; powering = false; }
-      else if(playing || tries > 40){
+      /* Fallback: some core versions never fire EJS_onGameStart. If the
+         canvas is actually rendering a picture, the game is playing. */
+      if(!playing){
+        try{
+          var g = frameGray();
+          if(g && grayMean(g) > 8) liveHits++; else liveHits = 0;
+          if(liveHits >= 2){ markPlaying(); clearInterval(powerTimer); powerTimer = null; powering = false; return; }
+        }catch(e){}
+      }
+      if(playing || tries > 60){
         clearInterval(powerTimer); powerTimer = null; powering = false;
         if(!playing) showStandby(true);
       }
@@ -226,13 +240,14 @@
     }catch(e){}
     if(recOn) recInputs.push({ t: Date.now() - recT0, b: idx, d: down ? 1 : 0, s: src || '?', p: pl || 0 });
   }
-  /* Which players the autopilot drives (human pads/keys stay P1). */
+  /* Which players the autopilots drive (human pads/keys stay P1).
+     Each AI tab toggles its own port: AI 1 -> port 1, AI 2 -> port 2. */
   function autoPlayers(){
     var out = [];
-    (AgentOpts.players || [0]).forEach(function(p){
-      if(p >= 0 && p <= 3 && out.indexOf(p) === -1 && out.length < 4) out.push(p);
+    [0, 1].forEach(function(p){
+      if(aiOn[p]) out.push(p);
     });
-    return out.length ? out : [0];
+    return out;
   }
   var KEYCODES = {
     a: 65, b: 66, x: 88, y: 89, v: 86, Enter: 13,
@@ -338,16 +353,23 @@
     senseMs: 2000, tapMs: 4000, tapPulseMs: 600, seekCycle: '2,2,3,8',
     driveMs: 300, hopEvery: 3, hopPulseMs: 260,
     hiThresh: 8, hiStreak: 3, loThresh: 4, loStreak: 3, blackMean: 10,
-    players: [0, 1], hud: false
+    ai1: false, ai2: false, hud: false
   };
   var AgentOpts = {};
   try{
     var rawOwn = {};
     try{ rawOwn = JSON.parse(localStorage.getItem('snesboy-agent') || '{}'); }catch(e){}
     AgentOpts = Object.assign({}, AgentDefaults, rawOwn);
-    /* players defaulted to P1-only before Both existed — migrate old saves */
-    if(!rawOwn || !('players' in rawOwn)) AgentOpts.players = [0, 1];
-  }catch(e){ AgentOpts = Object.assign({}, AgentDefaults, { players: [0, 1] }); }
+    /* On/off state is explicit-only: a fresh profile (or any old save that
+       never stored ai1/ai2) always boots with both AIs OFF. The legacy
+       `players` list only ever chose ports, never auto-started anything. */
+    if(rawOwn.ai1 !== true) AgentOpts.ai1 = false;
+    if(rawOwn.ai2 !== true) AgentOpts.ai2 = false;
+    aiOn[0] = AgentOpts.ai1 === true; aiOn[1] = AgentOpts.ai2 === true;
+  }catch(e){
+    AgentOpts = Object.assign({}, AgentDefaults);
+    aiOn[0] = false; aiOn[1] = false;
+  }
   function saveAgentOpts(){
     try{ localStorage.setItem('snesboy-agent', JSON.stringify(AgentOpts)); }catch(e){}
   }
@@ -384,21 +406,41 @@
   function pilotModes(){
     return autoPilots.map(function(pt){ return 'P' + (pt.pl + 1) + ':' + pt.mode.toUpperCase(); }).join(' ');
   }
-  function updateAutoBtn(){
-    var b = document.getElementById('btn-autopilot');
-    if(b){
-      b.textContent = autoOn ? ('⏸ AUTOPILOT: ON (' + pilotModes() + ')') : '▶ AUTOPILOT: OFF';
-      b.classList.toggle('autopilot-on', autoOn);
+  function pilotMode(pl){
+    for(var i = 0; i < autoPilots.length; i++){
+      if(autoPilots[i].pl === pl) return autoPilots[i].mode;
     }
+    return 'off';
+  }
+  function updateAutoBtn(){
+    /* per-AI tab buttons: AI 1 loops controller port 1, AI 2 loops port 2 */
+    [[0, 'btn-auto-p1'], [1, 'btn-auto-p2']].forEach(function(pair){
+      var b = document.getElementById(pair[1]);
+      if(!b) return;
+      var on = aiOn[pair[0]];
+      b.textContent = on ? ('⏸ AI P' + (pair[0] + 1) + ' (' + pilotMode(pair[0]).toUpperCase() + ')') : ('▶ AI PLAYER ' + (pair[0] + 1) + ': OFF');
+      b.classList.toggle('autopilot-on', on);
+    });
+    updateAiTabStatus();
+  }
+  function updateAiTabStatus(){
+    [[0, 'ai-status-0'], [1, 'ai-status-1']].forEach(function(pair){
+      var e = document.getElementById(pair[1]);
+      if(!e) return;
+      var on = aiOn[pair[0]];
+      e.textContent = on
+        ? ('AI Player ' + (pair[0] + 1) + ' → controller port ' + (pair[0] + 1) + ' · ' + pilotMode(pair[0]).toUpperCase() + ' · d=' + autoDiff.toFixed(1))
+        : ('AI Player ' + (pair[0] + 1) + ' is OFF — looped to nothing. Flip its switch to drive controller port ' + (pair[0] + 1) + '.');
+    });
   }
   function autoTap(idx, pl){
     driveIndex(idx, true, 'auto', pl);
     setTimeout(function(){ driveIndex(idx, false, 'auto', pl); }, AgentOpts.tapPulseMs);
   }
   function updateAgentHud(){
-    var txt = (autoOn ? pilotModes() : 'OFF') + ' · d=' + autoDiff.toFixed(1) +
-      (autoOn && /play/.test(pilotModes()) ? (autoDir === AgentMap.dirL ? ' ◀' : ' ▶') : '') +
-      (autoOn ? ' · ' + autoPlayers().map(function(p){ return 'P' + (p + 1); }).join('+') : '');
+    var txt = (anyAiOn() ? pilotModes() : 'OFF') + ' · d=' + autoDiff.toFixed(1) +
+      (anyAiOn() && /play/i.test(pilotModes()) ? (autoDir === AgentMap.dirL ? ' ◀' : ' ▶') : '') +
+      (anyAiOn() ? ' · ' + autoPlayers().map(function(p){ return 'P' + (p + 1); }).join('+') : '');
     $all('.agent-hud').forEach(function(e){
       e.textContent = txt;
       e.classList.toggle('hidden', !AgentOpts.hud);
@@ -426,16 +468,18 @@
     if(autoSenseTimer) clearInterval(autoSenseTimer);
     if(autoTimer) clearInterval(autoTimer);
     autoPilots = autoPlayers().map(function(pl, i){ return makePilot(pl, i, i === 0); });
+    if(!autoPilots.length){ updateAutoBtn(); updateAgentHud(); return; }
     autoMenuTimer = setInterval(function(){
-      if(!autoOn || !playing) return;
+      if(!anyAiOn() || !playing) return;
       autoPilots.forEach(function(pt){
+        if(!aiOn[pt.pl]) return;
         if(pt.mode !== 'seek' || !pt.menus) return;
         pt.menuN++;
         autoTap(autoCycle[pt.menuN % autoCycle.length], pt.pl);
       });
     }, AgentOpts.tapMs);
     autoSenseTimer = setInterval(function(){
-      if(!autoOn || !playing){ autoPilots.forEach(function(pt){ pt.prev = null; }); return; }
+      if(!anyAiOn() || !playing){ autoPilots.forEach(function(pt){ pt.prev = null; }); return; }
       var g = frameGray();
       if(!g) return;
       if(grayMean(g) < AgentOpts.blackMean){
@@ -461,9 +505,10 @@
       updateAgentHud();
     }, AgentOpts.senseMs);
     autoTimer = setInterval(function(){
-      if(!autoOn) return;
+      if(!anyAiOn()) return;
       if(!playing) return;
       autoPilots.forEach(function(pt, idx){
+        if(!aiOn[pt.pl]) return;
         if(pt.mode !== 'play') return; /* menus get taps only — held buttons would fight navigation */
         pt.tick++;
         driveIndex(autoDir, true, 'auto', pt.pl);
@@ -474,7 +519,7 @@
           var btn = pt.order[pt.hopN % pt.order.length]; /* jump in one game is attack in another */
           driveIndex(btn, true, 'auto', pt.pl);
           (function(b, pl){
-            setTimeout(function(){ if(autoOn) driveIndex(b, false, 'auto', pl); }, AgentOpts.hopPulseMs);
+            setTimeout(function(){ if(aiOn[pl]) driveIndex(b, false, 'auto', pl); }, AgentOpts.hopPulseMs);
           })(btn, pt.pl);
           if(pt.hopN % 4 === 3){
             /* every 4th beat works a shoulder too — dash/strafe/special, per game */
@@ -482,31 +527,34 @@
             var sh = AgentMap.shoulders[pt.shN % AgentMap.shoulders.length];
             driveIndex(sh, true, 'auto', pt.pl);
             (function(s, pl){
-              setTimeout(function(){ if(autoOn) driveIndex(s, false, 'auto', pl); }, AgentOpts.hopPulseMs);
+              setTimeout(function(){ if(aiOn[pl]) driveIndex(s, false, 'auto', pl); }, AgentOpts.hopPulseMs);
             })(sh, pt.pl);
           }
         }
       });
     }, AgentOpts.driveMs);
   }
-  function startAutopilot(){
-    if(autoTimer || autoMenuTimer || autoSenseTimer) return;
-    autoOn = true;
+  /* Per-AI switches: AI 1 loops controller port 1 (player 0),
+     AI 2 loops controller port 2 (player 1). Either runs alone. */
+  function startAutopilot(pl){
+    if(pl !== 0 && pl !== 1) return;
+    aiOn[pl] = true; AgentOpts[pl === 0 ? 'ai1' : 'ai2'] = true; saveAgentOpts();
     autoDiff = 0;
     if(!playing) powerOn();
     startAgentEngine();
     updateAutoBtn(); updateAgentHud();
   }
-  function stopAutopilot(){
-    autoOn = false;
-    if(autoTimer){ clearInterval(autoTimer); autoTimer = null; }
-    if(autoMenuTimer){ clearInterval(autoMenuTimer); autoMenuTimer = null; }
-    if(autoSenseTimer){ clearInterval(autoSenseTimer); autoSenseTimer = null; }
-    autoPilots = [];
-    releaseAuto();
+  function stopAutopilot(pl){
+    if(pl !== 0 && pl !== 1) return;
+    aiOn[pl] = false; AgentOpts[pl === 0 ? 'ai1' : 'ai2'] = false; saveAgentOpts();
+    for(var i = 0; i <= 11; i++) driveIndex(i, false, 'sys', pl); /* release only this AI's port */
+    startAgentEngine(); /* rebuilds pilots for whoever is still on; stops engine if none */
     updateAutoBtn(); updateAgentHud();
   }
-  function toggleAutopilot(){ if(autoOn) stopAutopilot(); else startAutopilot(); }
+  function toggleAutopilot(pl){
+    if(pl !== 0 && pl !== 1) return;
+    if(aiOn[pl]) stopAutopilot(pl); else startAutopilot(pl);
+  }
   function toggleHud(){ AgentOpts.hud = !AgentOpts.hud; saveAgentOpts(); updateAgentHud(); }
 
   /* ---------- tune the brain (AI Lab inputs) ---------- */
@@ -521,8 +569,6 @@
     });
     var cy = document.getElementById('opt-seekCycle');
     if(cy) cy.value = AgentOpts.seekCycle;
-    var ps = document.getElementById('opt-players');
-    if(ps) ps.value = (AgentOpts.players || [0]).join(',');
     var map = document.getElementById('agent-map-readout');
     if(map) map.textContent = 'map: dirR=' + AgentMap.dirR + ' dirL=' + AgentMap.dirL +
       ' run=' + AgentMap.run + ' actions=[' + AgentMap.actions.join(',') +
@@ -530,10 +576,12 @@
       '] select=' + AgentMap.select + ' start=' + AgentMap.start;
   }
   function resetAgentOpts(){
+    var keep1 = aiOn[0], keep2 = aiOn[1];
     AgentOpts = Object.assign({}, AgentDefaults);
+    AgentOpts.ai1 = keep1; AgentOpts.ai2 = keep2;
     saveAgentOpts(); renderTuneInputs();
-    if(autoOn){ startAgentEngine(); }
-    updateAgentHud();
+    if(anyAiOn()){ startAgentEngine(); }
+    updateAgentHud(); updateAutoBtn();
   }
 
   /* Readable WebGL: the emulator's canvas is created WITHOUT
@@ -1062,7 +1110,15 @@
   on('btn-pad', function(){ assignUsbPad(); updatePadStatus(); });
   on('btn-ai', function(){ renderEpisodes(); renderTuneInputs(); updateAgentHud(); openModal('ai-modal'); });
   on('dt-btn-ai', function(){ renderEpisodes(); renderTuneInputs(); updateAgentHud(); openModal('ai-modal'); });
-  on('btn-autopilot', toggleAutopilot);
+  on('btn-auto-p1', function(){ toggleAutopilot(0); });
+  on('btn-auto-p2', function(){ toggleAutopilot(1); });
+  /* AI Lab tabs: one tab per AI plus the lab. Only one pane visible. */
+  document.addEventListener('click', function(e){
+    var t = e.target && e.target.closest ? e.target.closest('.ai-tab') : null;
+    if(!t) return;
+    $all('.ai-tab').forEach(function(b){ b.classList.toggle('active', b === t); });
+    $all('.ai-pane').forEach(function(p){ p.classList.toggle('hidden', p.id !== t.getAttribute('data-aitab')); });
+  });
   on('btn-hud', toggleHud);
   on('btn-tune-reset', resetAgentOpts);
   on('btn-record', toggleRecording);
@@ -1073,18 +1129,7 @@
     if(key === 'seekCycle'){
       AgentOpts.seekCycle = String(t.value || AgentDefaults.seekCycle).slice(0, 31);
       saveAgentOpts(); renderTuneInputs();
-      if(autoOn) startAgentEngine();
-      return;
-    }
-    if(key === 'players'){
-      var vals = String(t.value || '0').split(',');
-      var out = [];
-      vals.forEach(function(v){
-        var n = parseInt(v, 10);
-        if(!isNaN(n) && n >= 0 && n <= 3 && out.indexOf(n) === -1) out.push(n);
-      });
-      AgentOpts.players = out.length ? out : [0];
-      saveAgentOpts(); renderTuneInputs();
+      if(anyAiOn()) startAgentEngine();
       return;
     }
     var spec = null;
@@ -1094,7 +1139,7 @@
     if(isNaN(v)) v = AgentDefaults[key];
     AgentOpts[key] = Math.min(spec[2], Math.max(spec[1], v));
     saveAgentOpts(); renderTuneInputs();
-    if(autoOn) startAgentEngine(); /* intervals restart with new timing; game untouched */
+    if(anyAiOn()) startAgentEngine(); /* intervals restart with new timing; game untouched */
   });
   on('btn-sound', toggleSound);
   on('dt-btn-sound', toggleSound);
@@ -1104,6 +1149,9 @@
   /* ---------- go ---------- */
   placeStage();
   updateAgentHud();
+  updateAutoBtn();
+  /* resume any AI left ON: an AI stays on until its own tab switch flips it */
+  if(anyAiOn()) startAgentEngine();
   openDB().then(function(db){
     DB = db;
     return idbAll();
@@ -1121,6 +1169,7 @@
   }).then(function(){
     renderLibrary();
     boot(BUNDLED.url, BUNDLED.name);
+    if(anyAiOn()){ if(!playing) powerOn(); startAgentEngine(); updateAutoBtn(); updateAgentHud(); }
     fetch(BUNDLED.url, { headers: { Range: 'bytes=0-0' } }).then(function(r){
       if(!(r.ok || r.status === 206)) setStatus('ROM NOT FOUND', 'ADD A FILE VIA MY GAMES');
     }).catch(function(){ setStatus('ROM NOT FOUND', 'ADD A FILE VIA MY GAMES'); });

@@ -40,6 +40,10 @@
     .tune-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .4rem; margin: .5rem 0; }
     .tune-grid label { font-size: 8px; color: #9ca3af; display: flex; justify-content: space-between; align-items: center; gap: .4rem; }
     .tune-grid input { width: 72px; font-family: inherit; font-size: 9px; padding: .25rem; border-radius: 4px; border: 1px solid #5b358c; background: #111827; color: #fff; }
+    .ai-tabs { display: flex; gap: .4rem; margin: 0 0 .8rem; }
+    .ai-tab { flex: 1; font-family: inherit; font-size: 9px; font-weight: bold; padding: .5rem .25rem; border-radius: 8px 8px 0 0; border: 2px solid #5b358c; border-bottom: none; background: #111827; color: #9ca3af; cursor: pointer; }
+    .ai-tab.active { background: #5b358c; color: #fff; }
+    .ai-status { font-size: 8px; color: #c084fc; background: #111827; border: 1px solid #5b358c; border-radius: 6px; padding: .5rem .6rem; margin: .5rem 0; line-height: 1.6; }
     .info-text p { margin-bottom: .75rem; color: #9ca3af; }
     .ai-lab-body h3 { font-size: 10px; color: #c084fc; margin: 1rem 0 .5rem; }
     .ai-lab-body h3:first-child { margin-top: 0; }
@@ -51,7 +55,7 @@
     .ai-lab-body img { width: 100%; height: auto; border-radius: .5rem; border: 1px solid #5b358c; margin: .5rem 0; display: block; background: #fff; }
     .ai-lab-body code { color: #fbbf24; font-size: 8px; }
     .ai-lab-body a { color: #c084fc; }
-    #btn-autopilot.autopilot-on { background: #16a34a; border-color: #15803d; }
+    #btn-auto-p1.autopilot-on, #btn-auto-p2.autopilot-on { background: #16a34a; border-color: #15803d; }
   </style>
 </head>
 <body class="theme-snes">
@@ -368,6 +372,22 @@
         <button type="button" class="modal-close-btn" data-close="ai-modal">&times;</button>
       </div>
       <div class="modal-body ai-lab-body">
+        <div class="ai-tabs" role="tablist">
+          <button type="button" class="ai-tab active" data-aitab="pane-ai1" role="tab">🤖 AI PLAYER 1</button>
+          <button type="button" class="ai-tab" data-aitab="pane-ai2" role="tab">🤖 AI PLAYER 2</button>
+          <button type="button" class="ai-tab" data-aitab="pane-lab" role="tab">📚 LAB</button>
+        </div>
+        <div id="pane-ai1" class="ai-pane">
+          <p class="modal-desc">AI Player 1 is hard-looped to <b>controller port 1</b> (emulator player 0). It watches the screen, taps through menus while the picture is still, then holds run and plays on its own beat. It stays on until you toggle it off — your own presses just join in.</p>
+          <p id="ai-status-0" class="ai-status">AI Player 1 is OFF.</p>
+          <p><button type="button" id="btn-auto-p1" class="modal-action-btn primary">▶ AI PLAYER 1: OFF</button></p>
+        </div>
+        <div id="pane-ai2" class="ai-pane hidden">
+          <p class="modal-desc">AI Player 2 is hard-looped to <b>controller port 2</b> (emulator player 1) — a full clone of the Player 1 brain with its own rhythm and button order, so it never just parrots Player 1. Give it a 2-player game and it plays its own side.</p>
+          <p id="ai-status-1" class="ai-status">AI Player 2 is OFF.</p>
+          <p><button type="button" id="btn-auto-p2" class="modal-action-btn primary">▶ AI PLAYER 2: OFF</button></p>
+        </div>
+        <div id="pane-lab" class="ai-pane hidden">
         <p class="modal-desc">A deep Q-learning agent that learned to play the first level of Super Mario World from raw pixels — bundled into this app from the <code>mario-ai</code> research project (see <code>ai/LICENSE</code>).</p>
         <h3>HOW IT LEARNS</h3>
         <ul>
@@ -390,8 +410,8 @@
         <img src="ai/network-localization.png" alt="Localization network for the spatial transformer">
         <h3>SAME BUTTONS AS YOUR PAD</h3>
         <p>The agent picks one arrow + one of A/B/X/Y per step, using the exact same button IDs this app's controllers use (<code>0=B 1=Y 4-7=arrows 8=A 9=X</code>). Watch it: <a href="https://www.youtube.com/watch?v=L4KBBAwF_bE" target="_blank" rel="noopener">model playing on YouTube</a>.</p>
-        <h3>TRY THE AUTOPILOT DEMO</h3>
-        <p>No GPU needed: a screen-reactive bot that watches whatever you load, like the DQN does — it taps through menus while the picture is still, follows the scroll direction once the world moves (left or right, not just right), holds run while the pixels demand it, and alternates the action buttons on the beat — jump in one game is attack in another — working the L/R shoulders in every fourth beat. Pause, game over, or a black fade goes quiet and it finds its own way back. One brain, every game. It stays on until you toggle it off — your own button presses just join in alongside it. It drives players 1 and 2 together out of the box (menus stay on player 1) as two cloned copilot brains — same screen, but each with its own rhythm and button order, so player 2 never just parrots player 1. Narrow it in TUNE below. The trained Torch model itself needs CUDA + lsnes — see the project README.</p>
+        <h3>TRY THE AUTOPILOT DEMOS</h3>
+        <p>Two independent bots live in the tabs above. <b>AI Player 1</b> is looped to controller port 1, <b>AI Player 2</b> to controller port 2 — each watches the screen, taps through menus while the picture is still, then plays on its own beat: run held while pixels demand it, action buttons alternating, shoulders every fourth beat. Either runs alone; together they co-play 2-player games. Pause, game over, or a black fade drops them back to menu-tapping. They stay on until you toggle them off — your own presses just join in.</p>
         <p class="modal-desc">Tune it below (thresholds, tap rate, seek-tap rotation) or flip the HUD toggle in the footer to watch its mind work: <code>SEEK · d=2.1</code> vs <code>PLAY · d=23.4 ▶</code>. Button map: <code>dirR=7 dirL=6 run=1 actions=[8,0] shoulders=[10,11] select=2 start=3</code>.</p>
         <h3>LEARN FROM EVERYTHING</h3>
         <p>Record play sessions and the app captures all three streams together, timestamped: 32×32 grayscale frames (5fps, the DQN paper's input shape), every button press with its source (pad / keyboard / autopilot / replay), and sound energy from the game's audio. Episodes live in your browser — replay any run through the real controllers, or export the JSON dataset for offline training.</p>
@@ -408,18 +428,13 @@
           <label>Still &lt; <input type="number" id="opt-loThresh" min="0.5" max="20" step="0.5"></label>
           <label>Seek taps <input type="text" id="opt-seekCycle" maxlength="31" style="width:86px"></label>
           <label>Hop 1/N <input type="number" id="opt-hopEvery" min="1" max="10" step="1"></label>
-          <label>Players <select id="opt-players" style="font-family:inherit;font-size:9px;padding:.25rem;border-radius:4px;border:1px solid #5b358c;background:#111827;color:#fff;">
-            <option value="0">Player 1</option>
-            <option value="1">Player 2</option>
-            <option value="0,1">Both 1+2</option>
-          </select></label>
         </div>
         <p class="modal-desc">Seek taps cycle button ids (2=Select 3=Start 8=A 0=B) — reorder per game. Thresholds apply instantly; timing restarts the engine, game untouched.</p>
         <p class="modal-desc" id="agent-map-readout"></p>
         <p><button type="button" id="btn-tune-reset" class="modal-action-btn secondary">RESET TUNING</button></p>
+        </div><!-- /pane-lab -->
       </div>
       <div class="modal-footer">
-        <button type="button" id="btn-autopilot" class="modal-action-btn primary">▶ AUTOPILOT: OFF</button>
         <button type="button" id="btn-hud" class="modal-action-btn secondary">HUD: OFF</button>
         <button type="button" class="modal-action-btn secondary" data-close="ai-modal">CLOSE</button>
       </div>
