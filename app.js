@@ -247,8 +247,145 @@ var VANILLA_TEX={
   bedrock:'textures/vanilla/block__bedrock.png',
   planks:'textures/vanilla/block__oak_planks.png',
   craftTable:'textures/vanilla/block__crafting_table_front.png',
+  craftTableTop:'textures/vanilla/block__crafting_table_top.png',
   furnace:'textures/vanilla/block__furnace_front.png',
+  furnaceTop:'textures/vanilla/block__furnace_top.png',
+  furnaceSide:'textures/vanilla/block__furnace_side.png',
 };
+/* Item/block icons for hotbar, inventory, crafting grid and drops.
+   Real 26.3 sprites snapshotted into textures/vanilla/. */
+var VANILLA_ICONS={
+  stick:'textures/vanilla/item__stick.png',
+  coal:'textures/vanilla/item__coal.png',
+  diamond:'textures/vanilla/item__diamond.png',
+  iron_ingot:'textures/vanilla/item__iron_ingot.png',
+  gold_ingot:'textures/vanilla/item__gold_ingot.png',
+  raw_pork:'textures/vanilla/item__porkchop.png',
+  cooked_pork:'textures/vanilla/item__cooked_porkchop.png',
+  wood_pick:'textures/vanilla/item__wooden_pickaxe.png',
+  stone_pick:'textures/vanilla/item__stone_pickaxe.png',
+  iron_pick:'textures/vanilla/item__iron_pickaxe.png',
+  gold_pick:'textures/vanilla/item__golden_pickaxe.png',
+  diamond_pick:'textures/vanilla/item__diamond_pickaxe.png',
+  wood_sword:'textures/vanilla/item__wooden_sword.png',
+  stone_sword:'textures/vanilla/item__stone_sword.png',
+  iron_sword:'textures/vanilla/item__iron_sword.png',
+  gold_sword:'textures/vanilla/item__golden_sword.png',
+  diamond_sword:'textures/vanilla/item__diamond_sword.png',
+  grass:'textures/vanilla/block__grass_block_side.png',
+  dirt:'textures/vanilla/block__dirt.png',
+  stone:'textures/vanilla/block__stone.png',
+  deep:'textures/vanilla/block__deepslate.png',
+  sand:'textures/vanilla/block__sand.png',
+  log:'textures/vanilla/block__oak_log.png',
+  snow:'textures/vanilla/block__snow.png',
+  planks:'textures/vanilla/block__oak_planks.png',
+  craftTable:'textures/vanilla/block__crafting_table_front.png',
+  furnace:'textures/vanilla/block__furnace_front.png',
+  bedrock:'textures/vanilla/block__bedrock.png',
+  coal_ore:'textures/vanilla/block__coal_ore.png',
+  iron_ore:'textures/vanilla/block__iron_ore.png',
+  gold_ore:'textures/vanilla/block__gold_ore.png',
+  diamond_ore:'textures/vanilla/block__diamond_ore.png',
+  water:'textures/vanilla/block__water_still.png',
+  leavesOak:'textures/vanilla/block__oak_leaves.png',
+  pine:'textures/vanilla/block__spruce_leaves.png',
+};
+var vanillaIconCache={};
+function preloadVanillaIcons(){
+  Object.keys(VANILLA_ICONS).forEach(function(id){
+    if(vanillaIconCache[id]) return;
+    var img=new Image();
+    img.onload=function(){ vanillaIconCache[id]=img; try{ refreshInvUI(); }catch(e){} };
+    img.onerror=function(){ vanillaIconCache[id]=null; };
+    img.src=VANILLA_ICONS[id];
+  });
+}
+var waterAnim=null;
+/* =====================================================
+   SPRITE SERVICE — the full 26.3 atlas export (see sprite-web/)
+   served live at sprite-web/public/minecraft-sprites/. Manifest
+   is fetched once at boot (non-blocking); any sprite id can then
+   be resolved to a PNG, turned into a block texture on demand, or
+   used as a UI icon / sky sprite / particle.
+===================================================== */
+var SPRITE_BASE='sprite-web/public/minecraft-sprites/';
+var spriteIndex=null, spriteIndexByFile={};
+var threeTexCache={};
+function fetchManifest(){
+  if(spriteIndex) return Promise.resolve(spriteIndex);
+  return fetch(SPRITE_BASE+'manifest.json').then(function(r){
+    if(!r.ok) throw new Error('manifest '+r.status);
+    return r.json();
+  }).then(function(m){
+    spriteIndex={};
+    (m.sprites||[]).forEach(function(s){
+      spriteIndex[s.atlasName+':'+s.sprite]=s;
+      if(s.file) spriteIndexByFile[s.file]=s;
+    });
+    spriteIndex._manifest=m;
+    return spriteIndex;
+  }).catch(function(e){ console.warn('[sprites]',e); return null; });
+}
+function findSprite(atlasName, spritePath){
+  if(!spriteIndex) return null;
+  return spriteIndex[atlasName+':'+spritePath]||null;
+}
+function spriteURL(s){ return s&&s.file ? (SPRITE_BASE+s.file.replace(/^minecraft-sprites\//,'')) : null; }
+/* Any 'atlas/path' id (e.g. 'block/bookshelf') gets a real texture,
+   loaded once from the export, then tiles using it are remeshed. */
+var pendingTexLoads={};
+function ensureBlockTexture(type, onDone){
+  if(TEXTURES[type] || !type || type.indexOf('/')===-1){ if(onDone) onDone(!!TEXTURES[type]); return; }
+  if(pendingTexLoads[type]){ if(onDone) pendingTexLoads[type].push(onDone); return; }
+  pendingTexLoads[type]=onDone?[onDone]:[];
+  fetchManifest().then(function(){
+    var s=findSprite('blocks',type) || findSprite('items',type) || findSprite('gui',type);
+    if(!s || !s.supported){ flushTexWaiters(type,false); return; }
+    var img=new Image();
+    img.onload=function(){
+      try{
+        var sq=Math.min(img.width,img.height);
+        var cv=makeCanv(16), ctx=cv.getContext('2d');
+        ctx.imageSmoothingEnabled=false;
+        ctx.drawImage(img,0,0,sq,sq,0,0,16,16);
+        TEXTURES[type]=mkTex(cv);
+        TEXTURES[type].magFilter=TEXTURES[type].minFilter=THREE.NearestFilter;
+        flushTexWaiters(type,true);
+        remeshAllTiles();
+      }catch(e){ flushTexWaiters(type,false); }
+    };
+    img.onerror=function(){ flushTexWaiters(type,false); };
+    img.src=spriteURL(s);
+  });
+}
+function flushTexWaiters(type, ok){
+  var w=pendingTexLoads[type]||[];
+  delete pendingTexLoads[type];
+  w.forEach(function(fn){ try{fn(ok);}catch(e){} });
+}
+function remeshAllTiles(){
+  Object.keys(tileGroupsMap).forEach(function(k){ dirtyTilesSet.add(k); });
+}
+/* UI icon for any id: manifest sprite first, bundled file second, null. */
+function iconURLFor(id){
+  if(!id) return null;
+  if(spriteIndex){
+    var cand=[['items',id],['blocks',id],['gui',id]];
+    for(var i=0;i<cand.length;i++){
+      var s=findSprite(cand[i][0],cand[i][1]);
+      if(s&&s.supported){ return spriteURL(s); }
+    }
+    if(id.indexOf('/')===-1){
+      var s2=findSprite('items','item/'+id);
+      if(s2&&s2.supported) return spriteURL(s2);
+    }
+  }
+  if(VANILLA_ICONS[id]) return VANILLA_ICONS[id];
+  var leafMap={leavesOak:'block__oak_leaves.png', pine:'block__spruce_leaves.png'};
+  if(leafMap[id]) return 'textures/vanilla/'+leafMap[id];
+  return null;
+}
 var VANILLA_LEAF_TINTS={leavesAutumn:'#c05020',leavesMystic:'#9060e0',leavesGolden:'#e0b020',leavesTropical:'#20a080'};
 function loadImage(src){
   return new Promise(function(res,rej){ var i=new Image(); i.onload=function(){res(i);}; i.onerror=function(){rej(new Error('img '+src));}; i.src=src; });
@@ -280,6 +417,35 @@ async function loadVanillaPack(){
   TEXTURES.stone.wrapS=TEXTURES.stone.wrapT=THREE.RepeatWrapping;
   TEXTURES.deepStone.wrapS=TEXTURES.deepStone.wrapT=THREE.RepeatWrapping;
   Object.keys(TEXTURES).forEach(function(k){ TEXTURES[k].magFilter=TEXTURES[k].minFilter=THREE.NearestFilter; });
+  // keep the full water strip for animation; TEXTURES.water shows frame 0
+  try{
+    var wimg=imgs.water;
+    if(wimg && wimg.width>=16 && wimg.height>wimg.width){
+      var frames=Math.floor(wimg.height/wimg.width);
+      var strip=document.createElement('canvas'); strip.width=wimg.width; strip.height=wimg.height;
+      strip.getContext('2d').drawImage(wimg,0,0);
+      waterAnim={strip:strip, size:wimg.width, frames:frames, t:0};
+    } else waterAnim=null;
+  }catch(e){ waterAnim=null; }
+  preloadVanillaIcons();
+}
+function tickWaterAnim(dt){
+  if(!waterAnim || cfg.texturePack!=='vanilla' || !TEXTURES.water) return;
+  waterAnim.t+=dt;
+  if(waterAnim.t<0.15) return;
+  waterAnim.t=0;
+  try{
+    var tex=TEXTURES.water, img=tex.image;
+    if(!img || !img.getContext) return;
+    var s=waterAnim.size, f=Math.floor(performance.now()/400)%waterAnim.frames;
+    var sctx=waterAnim.strip.getContext('2d');
+    var d=img.getContext('2d');
+    var fd=sctx.getImageData(0,f*s,s,s);
+    d.clearRect(0,0,16,16);
+    d.drawImage(waterAnim.strip,0,f*s,s,s,0,0,16,16);
+    void fd;
+    tex.needsUpdate=true;
+  }catch(e){}
 }
 
 /* =====================================================
@@ -297,6 +463,10 @@ function getMat(texKey, opts){
     depthWrite: !(opts && opts.t),
     wireframe: cfg.wireframe
   });
+  // vanilla leaves are real cutouts: punch transparency instead of ghosting
+  if(cfg.texturePack==='vanilla' && (texKey.indexOf('leaves')!==-1||texKey==='pine')){
+    m.alphaTest=0.5; m.transparent=false; m.opacity=1; m.side=THREE.DoubleSide; m.depthWrite=true;
+  }
   matCache[k]=m; return m;
 }
 
@@ -318,9 +488,9 @@ function getTexKey(type, fi){
     case 'diamond_ore': return 'diamond_ore';
     case 'bedrock': return 'bedrock';
     case 'planks': return 'planks';
-    case 'craftTable': return 'craftTable';
-    case 'furnace': return 'furnace';
-    default:      return 'stone';
+    case 'craftTable': return fi===2?'craftTableTop':'craftTable';
+    case 'furnace': return fi===2||fi===3?'furnaceTop':(fi===4?'furnace':'furnaceSide');
+    default:      return TEXTURES[type]?type:'stone';
   }
 }
 function isLeafBlock(t){ return t.indexOf('leaves')!==-1; }
@@ -746,17 +916,44 @@ function drawSky(){
     grd2.addColorStop(0.25,'rgba('+sunCol[0]+','+sunCol[1]+','+sunCol[2]+',0.25)');
     grd2.addColorStop(1,'rgba('+sunCol[0]+','+sunCol[1]+','+sunCol[2]+',0)');
     ctx.fillStyle=grd2; ctx.beginPath(); ctx.arc(sunPos.x,sunPos.y,48,0,Math.PI*2); ctx.fill();
-    ctx.fillStyle='rgb('+sunCol[0]+','+sunCol[1]+','+sunCol[2]+')';
-    ctx.beginPath(); ctx.arc(sunPos.x,sunPos.y,15,0,Math.PI*2); ctx.fill();
+    if(!drawCelestial(ctx,'sun',sunPos.x,sunPos.y,34)){
+      ctx.fillStyle='rgb('+sunCol[0]+','+sunCol[1]+','+sunCol[2]+')';
+      ctx.beginPath(); ctx.arc(sunPos.x,sunPos.y,15,0,Math.PI*2); ctx.fill();
+    }
   }
 
   if(cfg.tod<6 || cfg.tod>18){
     var moonAlpha=Math.min(1, s.stars*1.5+0.3);
     ctx.fillStyle='rgba(200,215,245,'+Math.min(1,moonAlpha*0.4)+')';
     ctx.beginPath(); ctx.arc(moonPos.x,moonPos.y,28,0,Math.PI*2); ctx.fill();
-    ctx.fillStyle='rgba(215,225,248,'+moonAlpha+')';
-    ctx.beginPath(); ctx.arc(moonPos.x,moonPos.y,11,0,Math.PI*2); ctx.fill();
+    ctx.globalAlpha=moonAlpha;
+    if(!drawCelestial(ctx,'moon/full_moon',moonPos.x,moonPos.y,26)){
+      ctx.fillStyle='rgba(215,225,248,'+moonAlpha+')';
+      ctx.beginPath(); ctx.arc(moonPos.x,moonPos.y,11,0,Math.PI*2); ctx.fill();
+    }
+    ctx.globalAlpha=1;
   }
+}
+/* Vanilla sun / moon sprites from the celestials atlas (fallback: drawn shapes) */
+var celestialCache={};
+function drawCelestial(ctx, name, x, y, size){
+  var img=celestialCache[name];
+  if(img==='missing') return false;
+  if(img && img.width){
+    try{ ctx.imageSmoothingEnabled=false; ctx.drawImage(img,x-size/2,y-size/2,size,size); return true; }
+    catch(e){ return false; }
+  }
+  if(img===undefined){
+    var url=null;
+    if(spriteIndex){ var s=findSprite('celestials',name); if(s&&s.supported) url=spriteURL(s); }
+    if(!url) return false; // manifest not ready yet — retry on a later drawSky
+    celestialCache[name]=null;
+    var im=new Image();
+    im.onload=function(){ celestialCache[name]=im; try{ drawSky(); }catch(e){} };
+    im.onerror=function(){ celestialCache[name]='missing'; };
+    im.src=url;
+  }
+  return false;
 }
 
 function applyTOD(){
@@ -1408,7 +1605,7 @@ updateZoneVis();
 onResize();
 applyTOD();
 buildClouds();
-var hb=$e('hotbar'); if(hb){ var hbs=$e('hotbar-style'); hb.className='hotbar-style-'+(cfg.hotbarStyle||(hbs&&hbs.value)||'cards'); } buildHotbar(); setupInput(); wireInvModal(); wireFurnaceModal(); wireSaveLoad(); wirePerfGate(); showPerfGate();
+var hb=$e('hotbar'); if(hb){ var hbs=$e('hotbar-style'); hb.className='hotbar-style-'+(cfg.hotbarStyle||(hbs&&hbs.value)||'cards'); } preloadVanillaIcons(); try{ fetchManifest(); }catch(e){} buildHotbar(); setupInput(); wireInvModal(); wireFurnaceModal(); wireSaveLoad(); wirePerfGate(); showPerfGate();
 
 /* =====================================================
    RENDER LOOP
@@ -1454,6 +1651,8 @@ function animate(){
   }
 
   processDirtyTiles(); try{ updateMobs(dt); }catch(e){}
+  try{ tickWaterAnim(dt); }catch(e){}
+  try{ tickBursts(dt); }catch(e){}
   try{ gameTick(dt); }catch(e){ console.error(e); }
   renderer.render(scene,camera);
 }
@@ -1662,6 +1861,8 @@ function setBlock(x,y,z,type){
     pairs.sort(function(a,b){ return a[0]-b[0]; });
     col.length=0;
     for(var k=0;k<pairs.length;k++){ col.push(pairs[k][0],pairs[k][1]); }
+    // manifest-backed ids fetch their texture on demand, then remesh
+    if(type.indexOf('/')!==-1 && !TEXTURES[type]){ try{ ensureBlockTexture(type); }catch(e){} }
   }
   markDirtyAt(x,z);
 }
@@ -1970,7 +2171,14 @@ var BLOCKS = {
 function blockDef(t){
   if(!t) return null;
   if(t.indexOf('leaves')===0 || t==='leaves:pine') return {hard:0.35, drop:null};
-  return BLOCKS[t] || null;
+  if(BLOCKS[t]) return BLOCKS[t];
+  // any 'atlas/path' id is placeable: medium hardness, drops itself.
+  // Manifest check refines this once loaded; the fallback keeps it working before that.
+  if(t.indexOf('/')!==-1){
+    if(!spriteIndex) return {hard:1.5, drop:t};
+    if(findSprite('blocks',t)||findSprite('items',t)||findSprite('gui',t)) return {hard:1.5, drop:t};
+  }
+  return null;
 }
 /* Items: tools (mult, dmg, dura), food (hunger), fuel (smelts) */
 var ITEMS = {
@@ -2109,6 +2317,24 @@ function makeSlotThumb(block){
   var T=32;
   var c=document.createElement('canvas'); c.width=c.height=T;
   var ctx=c.getContext('2d');
+  ctx.imageSmoothingEnabled=false;
+  var key=block;
+  if(key && key.indexOf(':')!==-1){
+    var leaf=key.split(':')[1]; // 'leaves:leavesOak' -> oak icon
+    key=(leaf==='pine')?'pine':(leaf==='leavesOak'?'leavesOak':'leavesOak');
+    if(block.indexOf('Autumn')!==-1||block.indexOf('Mystic')!==-1||block.indexOf('Golden')!==-1||block.indexOf('Tropical')!==-1){
+      // fantasy variants keep their tinted procedural swatch
+      ctx.fillStyle=itemColor(block); ctx.fillRect(0,0,T,T);
+      ctx.strokeStyle='rgba(0,0,0,.4)'; ctx.strokeRect(0,0,T,T);
+      return c;
+    }
+  }
+  var img=vanillaIconCache[key];
+  if(img && img.width){
+    ctx.clearRect(0,0,T,T);
+    ctx.drawImage(img,0,0,T,T);
+    return c;
+  }
   ctx.fillStyle=itemColor(block);
   ctx.fillRect(0,0,T,T);
   if(ITEMS[block]){
@@ -2148,16 +2374,59 @@ function updateSurvivalHUD(){
 /* Drops */
 var drops=[];
 var dropGeoShared=null;
+var dropTexCache={};
+function dropTexture(id){
+  if(dropTexCache[id]) return dropTexCache[id];
+  var img=vanillaIconCache[id];
+  if(img && img.width){
+    var t=new THREE.CanvasTexture(img);
+    t.magFilter=t.minFilter=THREE.NearestFilter;
+    dropTexCache[id]=t;
+    return t;
+  }
+  // manifest-backed ids (e.g. block/bookshelf): load, cache, upgrade waiting drops
+  var url=iconURLFor(id);
+  if(url && !dropTexCache[id+'_loading']){
+    dropTexCache[id+'_loading']=true;
+    var im=new Image();
+    im.onload=function(){
+      try{
+        var tx=new THREE.CanvasTexture(im);
+        tx.magFilter=tx.minFilter=THREE.NearestFilter;
+        dropTexCache[id]=tx;
+        for(var i=0;i<drops.length;i++){
+          var dr=drops[i];
+          if(dr.id===id && dr.mesh && !dr.sprite){
+            var nm=new THREE.Sprite(new THREE.SpriteMaterial({map:tx, transparent:true, alphaTest:0.4, depthWrite:false}));
+            nm.scale.set(0.45,0.45,1); nm.position.copy(dr.mesh.position);
+            scene.remove(dr.mesh); scene.add(nm);
+            dr.mesh=nm; dr.sprite=true;
+          }
+        }
+        try{ refreshInvUI(); }catch(e){}
+      }catch(e){}
+    };
+    im.onerror=function(){ dropTexCache[id]=null; dropTexCache[id+'_loading']=false; };
+    im.src=url;
+  }
+  return null;
+}
 function spawnDrop(id, count, x, y, z){
   if(drops.length>40) { var old=drops.shift(); if(old.mesh){ scene.remove(old.mesh); } }
   var m=null;
   try{
-    if(!dropGeoShared) dropGeoShared=new THREE.BoxGeometry(0.3,0.3,0.3);
-    m=new THREE.Mesh(dropGeoShared, new THREE.MeshLambertMaterial({color:itemColor(id)}));
+    var tex=dropTexture(id);
+    if(tex){
+      m=new THREE.Sprite(new THREE.SpriteMaterial({map:tex, transparent:true, alphaTest:0.4, depthWrite:false}));
+      m.scale.set(0.45,0.45,1);
+    } else {
+      if(!dropGeoShared) dropGeoShared=new THREE.BoxGeometry(0.3,0.3,0.3);
+      m=new THREE.Mesh(dropGeoShared, new THREE.MeshLambertMaterial({color:itemColor(id)}));
+    }
     m.position.set(x+0.5, y+0.7, z+0.5);
     scene.add(m);
   }catch(e){ m=null; }
-  drops.push({id:id, count:count, x:x+0.5, y:y+0.7, z:z+0.5, vy:0, mesh:m, age:0});
+  drops.push({id:id, count:count, x:x+0.5, y:y+0.7, z:z+0.5, vy:0, mesh:m, age:0, sprite:!!(m&&m.isSprite)});
 }
 function updateDrops(dt){
   for(var i=drops.length-1;i>=0;i--){
@@ -2178,7 +2447,11 @@ function updateDrops(dt){
     if(dist<1.2 && d.age>0.5){
       if(addItem(d.id, d.count)){ if(d.mesh) scene.remove(d.mesh); drops.splice(i,1); Sfx.play('pickup'); refreshInvUI(); continue; }
     }
-    if(d.mesh){ d.mesh.position.set(d.x,d.y,d.z); d.mesh.rotation.y+=dt*2; }
+    if(d.mesh){
+      d.mesh.position.set(d.x,d.y+Math.sin(d.age*3)*0.05,d.z);
+      if(d.sprite){ d.mesh.material.rotation+=dt*1.5; }
+      else d.mesh.rotation.y+=dt*2;
+    }
   }
 }
 function clearDrops(){
@@ -2218,8 +2491,51 @@ function doBreak(x,y,z){
   }
   setBlock(x,y,z,null);
   if(def.drop && okTier) spawnDrop(def.drop, 1, x, y, z);
+  try{ burstParticles(t, x, y, z); }catch(e){}
   sfx('break');
   refreshInvUI();
+}
+/* Block-break particles: 10 shards textured from the broken block itself */
+var bursts=[];
+var burstGeos={};
+function burstParticles(blockId, x, y, z){
+  var texKey=null;
+  try{ texKey=getTexKey(blockId,2); }catch(e){}
+  var cv=null;
+  if(texKey && TEXTURES[texKey] && TEXTURES[texKey].image && TEXTURES[texKey].image.getContext)
+    cv=TEXTURES[texKey].image;
+  else if(blockId.indexOf('/')!==-1){ ensureBlockTexture(blockId); }
+  var n=10;
+  var pos=new Float32Array(n*3), vel=[];
+  for(var i=0;i<n;i++){
+    pos[i*3]=x+0.2+Math.random()*0.6; pos[i*3+1]=y+0.2+Math.random()*0.6; pos[i*3+2]=z+0.2+Math.random()*0.6;
+    vel.push([(Math.random()-0.5)*3, Math.random()*3.5, (Math.random()-0.5)*3]);
+  }
+  var geo=new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.BufferAttribute(pos,3));
+  var mat=new THREE.PointsMaterial({size:0.18, vertexColors:false, transparent:true, opacity:0.95, depthWrite:false});
+  if(cv){
+    var px=cv.getContext('2d').getImageData(6+Math.floor(Math.random()*4),6+Math.floor(Math.random()*4),1,1).data;
+    mat.color.setRGB(px[0]/255, px[1]/255, px[2]/255);
+  } else mat.color.setHex(0x999988);
+  var pts=new THREE.Points(geo,mat);
+  scene.add(pts);
+  bursts.push({pts:pts, vel:vel, life:0.6});
+  if(bursts.length>12){ var o=bursts.shift(); scene.remove(o.pts); o.pts.geometry.dispose(); o.pts.material.dispose(); }
+}
+function tickBursts(dt){
+  for(var i=bursts.length-1;i>=0;i--){
+    var b=bursts[i];
+    b.life-=dt;
+    if(b.life<=0){ scene.remove(b.pts); b.pts.geometry.dispose(); b.pts.material.dispose(); bursts.splice(i,1); continue; }
+    var p=b.pts.geometry.getAttribute('position');
+    for(var j=0;j<b.vel.length;j++){
+      b.vel[j][1]-=9*dt;
+      p.array[j*3]+=b.vel[j][0]*dt; p.array[j*3+1]+=b.vel[j][1]*dt; p.array[j*3+2]+=b.vel[j][2]*dt;
+    }
+    p.needsUpdate=true;
+    b.pts.material.opacity=Math.min(0.95,b.life*1.6);
+  }
 }
 function miningTick(dt){
   if(!lmbDown || !isLocked){ mining.active=false; mining.progress=0; return; }
@@ -2388,7 +2704,15 @@ function slotDiv(st, fn){
   var d=document.createElement('div');
   d.className='cslot';
   if(st){
-    d.appendChild(makeSlotThumb(st.id));
+    // manifest-backed ids render the real sprite image; bundled/cached ids use canvas thumbs
+    var url=(st.id.indexOf('/')!==-1 && !vanillaIconCache[st.id])?iconURLFor(st.id):null;
+    if(url){
+      var img=document.createElement('img');
+      img.src=url; img.alt=''; img.draggable=false;
+      img.style.width='30px'; img.style.height='30px'; img.style.imageRendering='pixelated';
+      img.onerror=function(){ try{ d.replaceChild(makeSlotThumb(st.id),img); }catch(e){} };
+      d.appendChild(img);
+    } else d.appendChild(makeSlotThumb(st.id));
     if(!isTool(st.id) && st.count>1){ var cn=document.createElement('span'); cn.className='cnt'; cn.textContent=st.count; d.appendChild(cn); }
   }
   if(fn) d.addEventListener('click', fn);
@@ -2442,9 +2766,55 @@ function renderInvModal(){
       ig.appendChild(d);
     })(slots[k]);
   }
+  renderBlocksPicker();
+}
+/* Creative Blocks picker: every supported blocks-atlas sprite, searchable.
+   Click gives a 64-stack of that sprite id (placeable via generic blocks). */
+var blocksQuery='', blocksShown=120;
+function blocksAtlasList(){
+  if(!spriteIndex || !spriteIndex._manifest) return [];
+  return spriteIndex._manifest.sprites.filter(function(s){
+    return s.atlasName==='blocks' && s.supported;
+  }).sort(function(a,b){ return a.sprite<b.sprite?-1:1; });
+}
+function renderBlocksPicker(){
+  var grid=$e('blocks-grid');
+  if(!grid) return;
+  var list=blocksAtlasList();
+  var q=blocksQuery.trim().toLowerCase();
+  if(q) list=list.filter(function(s){ return s.sprite.toLowerCase().indexOf(q)!==-1; });
+  var cnt=$e('blocks-count');
+  if(cnt) cnt.textContent=list.length?('('+list.length+')'):'(loading…)';
+  grid.innerHTML='';
+  if(!spriteIndex){ grid.textContent='Loading atlas…'; return; }
+  var n=Math.min(blocksShown, list.length);
+  for(var i=0;i<n;i++){
+    (function(s){
+      var d=document.createElement('div');
+      d.className='cslot'; d.title=s.sprite;
+      var img=document.createElement('img');
+      img.src=spriteURL(s); img.alt=''; img.draggable=false;
+      img.style.width='30px'; img.style.height='30px'; img.style.imageRendering='pixelated';
+      d.appendChild(img);
+      d.addEventListener('click',function(){
+        if(addItem(s.sprite,64)){ sfx('pickup'); renderInvModal(); refreshInvUI(); }
+        else sfx('deny');
+      });
+      grid.appendChild(d);
+    })(list[i]);
+  }
+  if(list.length>n){
+    var more=document.createElement('button');
+    more.textContent='Show more ('+(list.length-n)+' left)';
+    more.style.cssText='grid-column:1/-1;background:#1a2a1a;border:1px solid rgba(140,255,140,.35);color:#cfe8cf;border-radius:6px;padding:7px;cursor:pointer;font:inherit;font-size:11px;';
+    more.addEventListener('click',function(){ blocksShown+=240; renderBlocksPicker(); });
+    grid.appendChild(more);
+  }
 }
 function wireInvModal(){
   $e('inv-close').addEventListener('click', function(){ $e('inv-modal').classList.remove('open'); try{cv.requestPointerLock();}catch(e){} });
+  var bs=$e('blocks-search');
+  if(bs) bs.addEventListener('input', function(){ blocksQuery=bs.value; blocksShown=120; renderBlocksPicker(); });
   $e('btn-craft').addEventListener('click', function(){
     var R=matchRecipe(craftGrid);
     if(!R){ sfx('deny'); return; }
@@ -2905,6 +3275,12 @@ animate();
   window.VC.light=function(x,y,z){ return lightAt(x,y,z); };
   window.VC.key=function(code,down){ keys[code]=!!down; };
   window.VC.keys=function(){ var o={}; for(var k in keys) o[k]=keys[k]; return o; };
+  window.VC.iconCached=function(id){ var im=vanillaIconCache[id]; return !!(im&&im.width); };
+  window.VC.iconsCached=function(){ var n=0; for(var k in vanillaIconCache){ if(vanillaIconCache[k]&&vanillaIconCache[k].width) n++; } return n; };
+  window.VC.waterFrames=function(){ return waterAnim?waterAnim.frames:0; };
+  window.VC.manifest=function(){ return spriteIndex&&spriteIndex._manifest?{sprites:spriteIndex._manifest.sprites.length, atlases:spriteIndex._manifest.atlases.length}:null; };
+  window.VC.atlasCount=function(a){ if(!spriteIndex||!spriteIndex._manifest) return -1; var n=0; spriteIndex._manifest.sprites.forEach(function(s){ if(s.atlasName===a&&s.supported) n++; }); return n; };
+  window.VC.placeSprite=function(sprite){ addItem(sprite,64); refreshInvUI(); return countItem(sprite); };
   window.VC.pstate=function(){ return {sprinting:!!player.sprinting, crawling:!!player.crawling, h:player.size[1], eye:player.eyeHeight, onGround:player.onGround}; };
   window.VC.bench=function(){ return JSON.parse(JSON.stringify({frames:bench.frames, frameMs:Math.round(bench.frameMsAvg*100)/100, fps:fps, tilesTotal:bench.tilesTotal, tilesLoaded:Object.keys(tileGroupsMap).length, dirty:dirtyTilesSet.size, pendingPeak:bench.pendingPeak, rebuilds:bench.rebuilds, lastMs:Math.round(bench.lastMs*100)/100, lastKey:bench.lastKey, avgMs:Math.round(bench.rebuildMsAvg*100)/100, maxMs:Math.round(bench.rebuildMsMax*100)/100, tris:bench.tris, verts:bench.verts, benchRes:bench.benchRes})); };
   window.VC.markAllDirty=function(){ markAllDirty(); return dirtyTilesSet.size; };

@@ -179,3 +179,8 @@ input[type=range]::-webkit-slider-thumb{appearance:none;width:13px;height:13px;b
 /* Attack cooldown pip under crosshair */
 #cd-bar{position:fixed;top:calc(50% + 12px);left:50%;transform:translateX(-50%);width:44px;height:4px;background:rgba(0,0,0,.55);border:1px solid rgba(255,255,255,.35);border-radius:2px;z-index:9;pointer-events:none}
 #cd-fill{height:100%;width:100%;background:#ffd040;border-radius:2px}
+
+/* Creative Blocks picker (full atlas) */
+#blocks-search{width:100%;background:#0d140d;border:1px solid rgba(140,255,140,.3);color:#e8f0e8;padding:6px 8px;border-radius:6px;font:inherit;font-size:12px;margin-bottom:6px}
+#blocks-grid{display:grid;grid-template-columns:repeat(6,44px);gap:4px;max-height:240px;overflow-y:auto;padding-right:2px}
+#blocks-grid img{pointer-events:none}
