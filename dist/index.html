@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PlayGround — PSX / PSP / N64 (EmulatorJS)</title>
+<style>
+  :root { color-scheme: dark; }
+  body { font-family: system-ui, sans-serif; margin: 0; background: #111; color: #eee; }
+  header { padding: 16px 20px; border-bottom: 1px solid #333; }
+  header h1 { margin: 0 0 4px; font-size: 20px; }
+  header p { margin: 0; color: #aaa; font-size: 13px; }
+  main { max-width: 760px; margin: 0 auto; padding: 16px; }
+  .tabs { display: flex; gap: 8px; margin: 12px 0; }
+  .tabs button { flex: 1; padding: 10px; border: 1px solid #444; background: #1c1c1c; color: #eee; border-radius: 8px; cursor: pointer; }
+  .tabs button.active { background: #2f6feb; border-color: #2f6feb; }
+  .card { background: #1a1a1a; border: 1px solid #333; border-radius: 10px; padding: 12px; margin-bottom: 12px; }
+  label { display: block; font-size: 13px; color: #bbb; margin: 8px 0 4px; }
+  input[type=text], select { width: 100%; box-sizing: border-box; padding: 8px; border-radius: 6px; border: 1px solid #444; background: #0f0f0f; color: #eee; }
+  input[type=file] { margin-top: 4px; }
+  .row { display: flex; gap: 8px; }
+  .row > * { flex: 1; }
+  #loadBtn { width: 100%; margin-top: 12px; padding: 12px; font-size: 15px; border: 0; border-radius: 8px; background: #2f6feb; color: #fff; cursor: pointer; }
+  #stopBtn { width: 100%; margin-top: 8px; padding: 8px; border: 1px solid #555; border-radius: 8px; background: transparent; color: #ccc; cursor: pointer; }
+  #stage { width: 640px; height: 480px; max-width: 100%; margin: 0 auto; background: #000; border-radius: 8px; overflow: hidden; border: 1px solid #333; }
+  #game { width: 100%; height: 100%; }
+  .hint { font-size: 12px; color: #999; line-height: 1.5; }
+  code { background: #000; padding: 1px 5px; border-radius: 4px; border: 1px solid #333; }
+  .status { font-size: 13px; margin-top: 8px; min-height: 18px; color: #8ad08a; }
+</style>
+</head>
+<body>
+<header>
+  <h1>PlayGround — EmulatorJS</h1>
+  <p>PSX (BIOS) · PSP (threads) · N64 (no BIOS) — 640×480 player</p>
+</header>
+<main>
+  <div class="tabs">
+    <button id="tab-psx" class="active">★ PlayStation</button>
+    <button id="tab-psp">PSP</button>
+    <button id="tab-n64">Nintendo 64</button>
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <div>
+        <label for="core">Core</label>
+        <select id="core"></select>
+      </div>
+      <div>
+        <label for="romFile">Local ROM file (optional, overrides URL)</label>
+        <input type="file" id="romFile">
+      </div>
+    </div>
+    <label for="gameUrl">EJS_gameUrl</label>
+    <input type="text" id="gameUrl" placeholder="https://…/game.bin / game.iso / game.z64">
+    <div id="biosWrap">
+      <label for="biosUrl">EJS_biosUrl (PSX only)</label>
+      <input type="text" id="biosUrl" placeholder="https://…/scph1001.bin">
+    </div>
+    <label for="localBios">Local BIOS file (optional, overrides BIOS URL)</label>
+    <input type="file" id="localBios">
+    <button id="loadBtn">Load game</button>
+    <button id="stopBtn">Stop / reset player</button>
+    <div class="status" id="status"></div>
+  </div>
+
+  <div id="stage"><div id="game"></div></div>
+
+  <div class="card">
+    <div class="hint" id="hint"></div>
+  </div>
+</main>
+
+<script>
+const SYSTEMS = {
+  psx: {
+    label: 'PlayStation',
+    cores: ['psx', 'pcsx_rearmed', 'mednafen_psx_hw'],
+    defaultCore: 'psx',
+    gamePlaceholder: 'roms/game.bin (.bin/.cue/.chd/.pbp)',
+    hint: "★ PlayStation ready — set <code>EJS_gameUrl</code> + <code>EJS_biosUrl</code>, then load. 640×480 player area. scph1001/scph5500/scph5501/scph5502 supported. <code>psx</code> = pcsx_rearmed.",
+    showBios: true,
+    threads: false
+  },
+  psp: {
+    label: 'PSP',
+    cores: ['psp', 'ppsspp'],
+    defaultCore: 'psp',
+    gamePlaceholder: 'roms/game.iso (.iso/.cso)',
+    hint: "PSP ready (threads on) — <code>EJS_threads = true</code> required for ppsspp core. Needs COOP/COEP headers: <code>same-origin</code> + <code>require-corp</code>, otherwise SharedArrayBuffer is blocked.",
+    showBios: false,
+    threads: true
+  },
+  n64: {
+    label: 'Nintendo 64',
+    cores: ['n64', 'mupen64plus_next', 'parallel-n64'],
+    defaultCore: 'n64',
+    gamePlaceholder: 'roms/game.z64 (.z64/.n64/.v64)',
+    hint: "No BIOS needed — set <code>EJS_gameUrl</code> to .z64/.n64. <code>n64</code> = mupen64plus_next (parallel-n64 on iOS).",
+    showBios: false,
+    threads: false
+  }
+};
+let system = 'psx';
+let objectUrls = [];
+
+const $ = id => document.getElementById(id);
+const coreSel = $('core'), gameUrl = $('gameUrl'), biosUrl = $('biosUrl'),
+  biosWrap = $('biosWrap'), hint = $('hint'), status = $('status');
+
+function selectSystem(name) {
+  system = name;
+  const s = SYSTEMS[name];
+  ['psx','psp','n64'].forEach(k => $('tab-'+k).classList.toggle('active', k === name));
+  coreSel.innerHTML = '';
+  s.cores.forEach(c => {
+    const o = document.createElement('option');
+    o.value = c; o.textContent = c + (c === s.defaultCore ? ' (default)' : '');
+    coreSel.appendChild(o);
+  });
+  coreSel.value = s.defaultCore;
+  gameUrl.placeholder = s.gamePlaceholder;
+  biosWrap.style.display = s.showBios ? '' : 'none';
+  $('localBios').style.display = s.showBios ? '' : 'none';
+  hint.innerHTML = s.hint;
+  status.textContent = '';
+}
+$('tab-psx').onclick = () => selectSystem('psx');
+$('tab-psp').onclick = () => selectSystem('psp');
+$('tab-n64').onclick = () => selectSystem('n64');
+
+function cleanupObjects() {
+  objectUrls.forEach(u => URL.revokeObjectURL(u));
+  objectUrls = [];
+}
+function resetPlayer() {
+  document.querySelectorAll('script[data-ejs-loader]').forEach(s => s.remove());
+  $('stage').innerHTML = "<div id='game'></div>";
+  window.EJS_emulator = undefined;
+}
+
+$('stopBtn').onclick = () => { resetPlayer(); status.textContent = 'Player reset.'; };
+
+$('loadBtn').onclick = async () => {
+  const s = SYSTEMS[system];
+  status.textContent = '';
+  resetPlayer();
+
+  // Resolve game source: local file wins over URL
+  const romFile = $('romFile').files[0];
+  let resolvedGameUrl = gameUrl.value.trim();
+  if (romFile) {
+    resolvedGameUrl = URL.createObjectURL(romFile);
+    objectUrls.push(resolvedGameUrl);
+  }
+  if (!resolvedGameUrl) {
+    status.style.color = '#ff9d9d';
+    status.textContent = 'Set EJS_gameUrl or pick a local ROM file first.';
+    return;
+  }
+
+  // Resolve BIOS for PSX
+  let resolvedBiosUrl = '';
+  if (s.showBios) {
+    const biosFile = $('localBios').files[0];
+    if (biosFile) {
+      resolvedBiosUrl = URL.createObjectURL(biosFile);
+      objectUrls.push(resolvedBiosUrl);
+    } else {
+      resolvedBiosUrl = biosUrl.value.trim();
+    }
+    if (!resolvedBiosUrl) {
+      status.style.color = '#ff9d9d';
+      status.textContent = 'PSX needs EJS_biosUrl (or a local BIOS file). e.g. scph1001.bin';
+      return;
+    }
+  }
+
+  if (s.threads && !window.crossOriginIsolated) {
+    status.style.color = '#ffce7a';
+    status.textContent = 'Warning: page is not cross-origin isolated — PSP/ppsspp threads may fail. Serve with COOP/COEP headers.';
+  } else {
+    status.style.color = '#8ad08a';
+  }
+
+  window.EJS_player = '#game';
+  window.EJS_core = coreSel.value;
+  window.EJS_gameUrl = resolvedGameUrl;
+  window.EJS_pathtodata = 'https://cdn.emulatorjs.org/stable/data/';
+  window.EJS_startOnLoaded = true;
+  if (s.showBios) window.EJS_biosUrl = resolvedBiosUrl;
+  else delete window.EJS_biosUrl;
+  window.EJS_threads = !!s.threads;
+
+  status.textContent = 'Loading ' + s.label + ' [' + window.EJS_core + ']…';
+
+  const loader = document.createElement('script');
+  loader.src = window.EJS_pathtodata + 'loader.js';
+  loader.setAttribute('data-ejs-loader', '1');
+  loader.onload = () => { status.textContent = s.label + ' loaded.'; };
+  loader.onerror = () => {
+    status.style.color = '#ff9d9d';
+    status.textContent = 'Failed to load EmulatorJS loader. Check network / data path.';
+  };
+  document.body.appendChild(loader);
+};
+
+selectSystem('psx');
+</script>
+</body>
+</html>
