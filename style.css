@@ -1,23 +1,11 @@
 /* ==========================================================================
-   SNESBOY 1:1 STANDALONE STYLESHEET (`style.css`)
-   Manual Archive Edition — library-ink theme for the SNES manual archive
-   Built using your OG template with Pluggable Top-Loading Cartridge Art
+   SNESLAB bench stylesheet — written from scratch.
+   Dark instrument-lab theme. No rules carried over from any prior sheet.
+   Functional hooks required by script.js (do not rename):
+   .hidden, .hidden-input, .modal-overlay, .agent-hud, .pressed,
+   body.theme-snes / body.theme-famicom
    ========================================================================== */
 
-
-/* Archive palette (single source of truth for the retheme) */
-:root {
-  --archive-ink: #241b30;
-  --archive-ink-2: #171221;
-  --archive-paper: #ece1c9;
-  --archive-paper-dim: #d8c9a8;
-  --archive-gold: #d9a441;
-  --archive-gold-deep: #8a6420;
-  --archive-stamp: #b3402e;
-}
-
-
-/* Reset & Box Sizing */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -26,1043 +14,619 @@
   -webkit-user-select: none;
 }
 
+:root {
+  --lab-bg: #0c1022;
+  --lab-bg-2: #131838;
+  --lab-panel: #1a2145;
+  --lab-line: #2c3570;
+  --lab-amber: #ffb340;
+  --lab-amber-hot: #ff8a00;
+  --lab-magenta: #ff3d8a;
+  --lab-teal: #37e6c8;
+  --lab-paper: #f2ead6;
+  --lab-ink: #10142b;
+  --lab-muted: #8d94c4;
+}
 
 html, body {
   width: 100%;
   min-height: 100vh;
   font-family: 'Press Start 2P', monospace;
-  background-color: var(--archive-ink);
-  background-image:
-    radial-gradient(ellipse 80% 55% at 50% -8%, rgba(217, 164, 65, 0.14), transparent 60%),
-    radial-gradient(ellipse 60% 40% at 85% 110%, rgba(179, 64, 46, 0.10), transparent 60%),
-    repeating-linear-gradient(0deg, rgba(255,255,255,0.012) 0 2px, transparent 2px 4px);
+  background:
+    radial-gradient(ellipse 90% 40% at 50% -10%, rgba(255, 179, 64, 0.10), transparent 60%),
+    radial-gradient(ellipse 70% 45% at 50% 115%, rgba(255, 61, 138, 0.08), transparent 60%),
+    linear-gradient(180deg, var(--lab-bg-2) 0%, var(--lab-bg) 100%);
   color: #fff;
   overflow-x: hidden;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
+body.theme-famicom {
+  --lab-amber: #ff6b5e;
+  --lab-magenta: #ffb340;
+}
 
-/* Hidden elements */
 .hidden { display: none !important; }
 .hidden-input { display: none; }
 
-
-/* Themes */
-body.theme-snes { background-color: var(--archive-ink); }
-body.theme-famicom { background-color: #6e1a1a; }
-
-
-/* Responsive Layout Switching */
-.handheld-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* ---------- top bar ---------- */
+.labbar {
   width: 100%;
-  padding: 1rem;
-}
-
-
-.desktop-container {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-}
-
-
-@media (min-width: 1024px) {
-  .handheld-container { display: none; }
-  .desktop-container { display: flex; }
-}
-
-
-/* ==========================================================================
-   1. HANDHELD / GAME BOY STYLES
-   ========================================================================== */
-.handheld-casing {
-  width: 100%;
-  max-width: 380px;
-  background:
-    linear-gradient(180deg, var(--archive-paper) 0%, var(--archive-paper-dim) 100%);
-  border: 4px solid #2a2135;
-  border-radius: 1.5rem;
-  padding: 1.25rem;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), inset 0 2px 0 rgba(255,255,255,0.5);
   display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  color: #374151;
-}
-
-
-.screen-section {
-  background: #1f2937;
-  border: 2px solid #000;
-  border-radius: 0.75rem;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 0.75rem;
+  gap: 12px;
+  padding: 12px 20px;
+  border-bottom: 3px solid var(--lab-amber);
+  background: rgba(8, 10, 26, 0.85);
+  position: sticky;
+  top: 0;
+  z-index: 50;
 }
-
-
-.screen-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-
-.screen-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #ef4444;
-  border: 2px solid #000;
-}
-
-
-.screen-title {
-  color: #9ca3af;
-  font-size: 7px;
+.labbar-brand {
+  font-size: 15px;
+  color: #fff;
   letter-spacing: 1px;
 }
+.labbar-brand span { color: var(--lab-amber); }
+.labbar-sub {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--lab-muted);
+}
+.labbar-lamps { margin-left: auto; display: flex; gap: 10px; }
+.lamp {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #3a1a1a;
+  border: 2px solid #000;
+}
+.lamp.active { background: #ff3b30; box-shadow: 0 0 10px #ff3b30; }
+.lamp.alt.active { background: var(--lab-teal); box-shadow: 0 0 10px var(--lab-teal); }
 
-
-.screen-bezel {
-  position: relative;
+/* ---------- bench layout ---------- */
+.bench {
   width: 100%;
-  aspect-ratio: 10 / 9;
-  background: #6b7280;
-  border-top: 4px solid #111827;
-  border-left: 4px solid #111827;
-  border-radius: 0.375rem;
+  max-width: 1180px;
+  padding: 22px 16px 60px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  overflow: hidden;
+  gap: 26px;
+}
+.rig-compact { display: flex; flex-direction: column; align-items: center; gap: 18px; width: 100%; }
+.rig-wide { display: none; flex-direction: column; align-items: center; gap: 26px; width: 100%; }
+@media (min-width: 1024px) {
+  .rig-compact { display: none; }
+  .rig-wide { display: flex; }
 }
 
-
-#handheld-screen, #desktop-screen {
+/* ---------- screens ---------- */
+.rig-frame {
+  width: 100%;
+  max-width: 400px;
+  background: linear-gradient(180deg, #232a5e, #161b3d);
+  border: 3px solid var(--lab-line);
+  border-radius: 20px;
+  padding: 16px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.rig-screenhead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rig-screenlabel { font-size: 8px; color: var(--lab-muted); letter-spacing: 2px; }
+.rig-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--lab-magenta); border: 2px solid #000; }
+.screen-bezel, .tv-screen-bezel {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid #05060f;
+}
+.screen-bezel canvas, .tv-screen-bezel canvas {
   width: 100%;
   height: 100%;
   object-fit: contain;
   display: block;
 }
-
-
 .screen-off-display {
   position: absolute;
   inset: 0;
-  background: #14532d;
-  color: #86efac;
+  z-index: 3;
+  background: #0d3a24;
+  color: #7dffb0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 8px;
   text-align: center;
-  padding: 1rem;
-  gap: 0.5rem;
+  padding: 12px;
 }
-
-
-.status-main { font-size: 11px; font-weight: bold; }
+.status-main { font-size: 11px; }
 .status-sub { font-size: 8px; opacity: 0.8; }
-
-
-.handheld-brand {
-  font-size: 1.25rem;
-  font-style: italic;
-  font-weight: bold;
-  color: #1e40af;
-  letter-spacing: -1px;
-}
-
-
-.controls-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 0.5rem;
-}
-
-
-.dpad-container {
-  position: relative;
-  width: 110px;
-  height: 110px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.dpad-cross-h {
-  position: absolute;
-  width: 100%;
-  height: 33.33%;
-  background: #111827;
-  border-radius: 6px;
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
-}
-
-
-.dpad-cross-v {
-  position: absolute;
-  width: 33.33%;
-  height: 100%;
-  background: #111827;
-  border-radius: 6px;
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
-}
-
-
-.dpad-center {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: #1f2937;
-  pointer-events: none;
-}
-
-
-.dpad-btn {
-  position: absolute;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  z-index: 10;
-  touch-action: none;
-}
-
-
-.dpad-up { top: 0; left: 33.33%; width: 33.33%; height: 33.33%; }
-.dpad-down { bottom: 0; left: 33.33%; width: 33.33%; height: 33.33%; }
-.dpad-left { left: 0; top: 33.33%; width: 33.33%; height: 33.33%; }
-.dpad-right { right: 0; top: 33.33%; width: 33.33%; height: 33.33%; }
-
-
-.snes-handheld-buttons {
-  position: relative;
-  width: 110px;
-  height: 110px;
-}
-
-
-.bottom-controls-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 0.5rem;
-}
-
-
-.select-start-buttons {
-  display: flex;
-  gap: 1rem;
-}
-
-
-.pill-btn {
-  background: #1f2937;
-  color: #f3f4f6;
-  border: 1px solid #374151;
-  border-radius: 9999px;
-  padding: 0.35rem 0.8rem;
-  font-family: inherit;
-  font-size: 7px;
-  letter-spacing: 1px;
-  cursor: pointer;
-  transform: rotate(-30deg);
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.4);
-  touch-action: none;
-}
-
-
-.speaker-grille {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  transform: rotate(-30deg);
-}
-
-
-.speaker-line {
-  width: 45px;
-  height: 4px;
-  background: #1f2937;
-  border-radius: 2px;
-  opacity: 0.4;
-}
-
-
-.system-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  justify-content: center;
-  padding-top: 0.75rem;
-  border-top: 2px solid #9ca3af;
-}
-
-
-.sys-btn {
-  background: #374151;
-  border: 2px solid #4b5563;
-  color: #f3f4f6;
-  border-radius: 6px;
-  padding: 0.4rem 0.75rem;
-  font-family: inherit;
-  font-size: 8px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-
-
-.sys-btn-power.power-on { background: #16a34a; border-color: #15803d; }
-.sys-btn-purple { background: var(--archive-gold-deep); border-color: #6e4f18; }
-.sys-btn-blue { background: #1d4ed8; border-color: #1e40af; }
-.sys-btn:focus-visible, .tool-icon-btn:focus-visible, .tv-side-btn:focus-visible,
-.modal-action-btn:focus-visible, .modal-close-btn:focus-visible {
-  outline: 3px solid var(--archive-gold);
-  outline-offset: 2px;
-}
-.file-label { display: inline-flex; align-items: center; justify-content: center; }
-
-
-.toolbar-bar {
-  display: flex;
-  gap: 0.5rem;
-  justify-content: center;
-}
-
-
-.tool-icon-btn {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: #374151;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-}
-.tool-eject { background: #991b1b; }
-
-
-.key-help {
+.rig-tag {
   text-align: center;
-  font-size: 6px;
-  color: #6b7280;
-  line-height: 1.4;
-}
-
-
-/* ==========================================================================
-   2. DESKTOP TV & 3D TOP-LOAD CONSOLE STYLES (OG Base + Pluggable Cartridge)
-   ========================================================================== */
-.tv-frame {
-  position: relative;
-  width: 100%;
-  max-width: 800px;
-  border: 18px solid #3a2f28;
-  background: #211c18;
-  border-radius: 1.5rem;
-  padding: 0.5rem;
-  box-shadow: 0 25px 50px rgba(0,0,0,0.8), inset 0 2px 0 rgba(217,164,65,0.25);
-  margin-bottom: 2rem;
-}
-
-
-.tv-screen-bezel {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  background: #000;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  position: relative;
-}
-
-
-.tv-screen-glass {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #4b5563;
-}
-
-
-.tv-power-indicator {
-  position: absolute;
-  bottom: 0.5rem;
-  right: 1.25rem;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #450a0a;
-  border: 1px solid #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.led-light {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: #ef4444;
-  opacity: 0.2;
-  transition: opacity 0.3s;
-}
-
-
-.led-light.active { opacity: 1; box-shadow: 0 0 8px #ef4444; }
-
-
-.tv-brand {
-  position: absolute;
-  bottom: -2.2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 1.25rem;
-  font-weight: bold;
+  font-size: 12px;
   font-style: italic;
-  letter-spacing: 2px;
-  color: var(--archive-gold);
+  color: var(--lab-amber);
+}
+.agent-hud {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  z-index: 2;
+  pointer-events: none;
+  font-size: 8px;
+  background: rgba(0, 0, 0, 0.68);
+  color: #7CFC00;
+  padding: 4px 6px;
+  border-radius: 6px;
+  white-space: nowrap;
 }
 
-
-.tv-sidebar-controls {
+.cabinet {
+  position: relative;
+  width: 100%;
+  max-width: 820px;
+  background: #1c213f;
+  border: 4px solid #39427e;
+  border-radius: 22px;
+  padding: 14px;
+  box-shadow: 0 24px 55px rgba(0, 0, 0, 0.6);
+}
+.cabinet-plate {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  color: var(--lab-amber);
+  padding: 12px 0 2px;
+  letter-spacing: 2px;
+}
+.cabinet-side {
   position: absolute;
-  right: -5rem;
-  top: 1rem;
+  right: -58px;
+  top: 16px;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 10px;
+}
+.sidekey {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  background: #2c3570;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.sidekey.hot { background: #6e4f18; }
+.sidekey.danger { background: #8f2b1f; }
+@media (max-width: 1150px) {
+  .cabinet-side { right: -6px; }
+  .sidekey { width: 36px; height: 36px; font-size: 14px; }
 }
 
-
-.tv-side-btn {
+/* ---------- compact pads ---------- */
+.paddeck {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+  padding: 4px 10px;
+}
+.dpad {
+  position: relative;
+  width: 128px;
+  height: 128px;
+}
+.dpad button {
+  position: absolute;
+  background: #10142b;
+  color: #aab1ff;
+  border: 2px solid #39427e;
+  font-family: inherit;
+  cursor: pointer;
+  touch-action: none;
+}
+.pad-up { top: 0; left: 42px; width: 44px; height: 44px; border-radius: 8px 8px 0 0; }
+.pad-down { bottom: 0; left: 42px; width: 44px; height: 44px; border-radius: 0 0 8px 8px; }
+.pad-left { left: 0; top: 42px; width: 44px; height: 44px; border-radius: 8px 0 0 8px; }
+.pad-right { right: 0; top: 42px; width: 44px; height: 44px; border-radius: 0 8px 8px 0; }
+.pad-core {
+  position: absolute;
+  left: 42px;
+  top: 42px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  background: #1c1440;
+  color: var(--lab-magenta);
   border: none;
-  font-size: 18px;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 10px;
 }
-.tv-side-btn.purple { background: var(--archive-gold-deep); }
-.tv-side-btn.gray { background: #374151; }
-.tv-side-btn.red { background: var(--archive-stamp); }
-
-
-@media (max-width: 1150px) {
-  .tv-sidebar-controls { right: -2.6rem; gap: 0.5rem; }
-  .tv-side-btn { width: 38px; height: 38px; font-size: 15px; }
-}
-
-
-/* 3D Console Art Container */
-#snes {
-  width: 45em;
-  height: 18em;
-  margin: 2.5em auto 1.5rem auto;
+.facebtns {
   position: relative;
-  color: #B62F28;
-  font-family: 'Coda Caption', sans-serif;
-  font-size: 11px;
+  width: 128px;
+  height: 128px;
+  transform: rotate(-12deg);
 }
-
-
-#snes:after {
-  content: "";
+.facebtns button {
   position: absolute;
-  width: 80%;
-  height: 0;
-  box-shadow: 0 0 5em 3em rgba(0, 0, 0, 0.4);
-  bottom: -4%;
-  left: 10%;
-  z-index: -1;
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
-}
-
-
-/* ==========================================================================
-   STANDALONE PLUGGABLE CARTRIDGE (Floats above console, docks down into slot)
-   ========================================================================== */
-.standalone-cartridge-container {
-  position: absolute;
-  top: -4.2em;
-  left: 15.5em;
-  width: 14em;
-  height: 6em;
-  cursor: pointer;
-  z-index: 30;
-  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
-}
-
-
-.cartridge-hitbox {
-  position: absolute;
-  inset: 0;
-  cursor: pointer;
-  z-index: 40;
-}
-
-
-.snes-cartridge-body {
-  position: absolute;
-  inset: 0;
-  background: #d0cbc7;
-  border: 2px solid #a49e9a;
-  border-bottom: none;
-  border-radius: 0.45em 0.45em 0 0;
-  box-shadow: 0 -4px 10px rgba(0,0,0,0.3), inset 0 2px 4px rgba(255,255,255,0.9);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-.standalone-cartridge-container:hover {
-  transform: translateY(4.6em); /* Docks straight down into the console slot like a real SNES! */
-}
-
-
-.cartridge-arch-top {
-  width: 86%;
-  height: 0.55em;
-  background: #b5afa9;
-  border-radius: 0.25em 0.25em 0 0;
-  margin-top: 0.3em;
-  box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
-}
-
-
-.cartridge-label-area {
-  width: 76%;
-  height: 2.6em;
-  background: #4a4240;
-  border-radius: 0.2em;
-  margin-top: 0.5em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.8);
-}
-
-
-.cartridge-label-text {
-  font-size: 6px;
-  color: #f3f4f6;
-  letter-spacing: 1px;
+  font-family: inherit;
+  font-size: 13px;
   font-weight: bold;
-}
-
-
-.grip-ribs {
-  position: absolute;
-  top: 1.2em;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4em;
-}
-.grip-ribs.left { left: 0.4em; }
-.grip-ribs.right { right: 0.4em; }
-
-
-.grip-ribs span {
-  width: 0.8em;
-  height: 0.3em;
-  background: #b5afa9;
-  border-radius: 1px;
-}
-
-
-/* Console Top Deck */
-.snes-top {
-  position: absolute;
-  top: 3.5em;
-  left: 0;
-  width: 45em;
-  height: 7.4em;
-  background: #cdc8c5;
-  border-radius: 0.3em 0.3em 0 0;
-  box-shadow: 0 0.1em 0 #B8B4B2, 0 0.5em 0 -0.2em #535353;
-  border-top: 0.2em solid rgba(255, 255, 255, 0.32);
-  border-left: 0.2em solid rgba(255, 255, 255, 0.32);
-}
-
-
-.console-title-branding {
-  position: absolute;
-  top: 0.4em;
-  left: 1.2em;
-}
-.console-title-branding h1 { font-size: 1.2em; color: #423b4f; letter-spacing: 2px; }
-.console-title-branding h2 { font-size: 0.55em; color: #423b4f; letter-spacing: 1px; margin-top: 0.2em; }
-
-
-/* Open Top-Loading Slot Bay on Console */
-.cartridge-slot-bay {
-  width: 15em;
-  height: 2.2em;
-  position: absolute;
-  left: 15em;
-  top: 2.4em;
-  border-radius: 0.3em;
-  overflow: hidden;
-  background: #221f24;
-  box-shadow: inset 0 3px 6px #000;
-}
-
-
-.cartridge-slot-border {
-  position: absolute;
-  inset: 0;
-  border: 2px solid #99938f;
-  border-radius: 0.3em;
-}
-
-
-.cartridge-slot-hole {
-  width: 90%;
-  height: 50%;
-  background: #110f12;
-  position: absolute;
-  left: 5%;
-  top: 25%;
-  border-radius: 0.15em;
-  box-shadow: inset 0 2px 4px #000;
-}
-
-
-.snes-bottom {
-  width: 39em;
-  height: 7.5em;
-  background: #7A7077;
-  position: absolute;
-  bottom: 0;
-  left: 3em;
-  box-shadow: 0 0.6em 1em -0.3em rgba(0, 0, 0, 0.45);
-  border-radius: 0 0 0.3em 0.3em;
-}
-
-
-.power-box {
-  position: absolute;
-  left: 1.4em;
-  width: 11.5em;
-  top: 0;
-  height: 5.8em;
-}
-
-
-#power-checkbox { display: none; }
-
-
-.power-btn-label, .reset-btn-label {
-  position: absolute;
   cursor: pointer;
-  width: 5em;
-  height: 2.4em;
-  line-height: 2.4em;
-  left: 1.5em;
-  top: 1.5em;
-  font-size: 0.7em;
-  text-align: center;
-  background: #5b358c;
-  border-radius: 0.3em;
-  box-shadow: 0 4px 0 #3d225e, 0 6px 8px rgba(0,0,0,0.4);
-  color: #fff;
-  font-weight: bold;
-  transition: all 0.1s;
-}
-
-
-.reset-btn-label { left: 6.5em; }
-
-
-.power-btn-label:active, .reset-btn-label:active {
-  transform: translateY(3px);
-  box-shadow: 0 1px 0 #3d225e, 0 2px 4px rgba(0,0,0,0.4);
-}
-
-
-.console-led {
-  position: absolute;
-  width: 0.6em;
-  height: 0.6em;
-  left: 0.6em;
-  bottom: 1.3em;
-  background: #333;
-  border-radius: 1px;
-  transition: all 0.2s;
-}
-
-
-.console-led.active {
-  background: #22c55e;
-  box-shadow: 0 0 10px #22c55e, inset 0 0 4px #fff;
-}
-
-
-.gamepads-slots {
-  height: 100%;
-  position: absolute;
-  width: 19%;
-  right: 13%;
-  background: #333;
-}
-
-
-.gamepad-slot {
-  position: absolute;
-  bottom: 2.15em;
-  width: 3em;
-  left: 0.8em;
-  height: 4em;
-  border-radius: 0.6em;
-  background: #222;
-}
-
-
-.p2 { right: 0.8em; left: auto; }
-
-
-/* ==========================================================================
-   3. SNES CONTROLLER CSS ART (4 Action Buttons X, Y, B, A)
-   ========================================================================== */
-.controller-container {
-  position: relative;
-  width: 600px;
-  height: 240px;
-  margin: 1.5rem auto;
-  font-size: 12px;
-}
-
-
-.controller-cord {
-  position: absolute;
-  background: #111;
-  top: -15px;
-  left: 50%;
-  width: 10px;
-  height: 30px;
-  transform: translateX(-50%);
-}
-
-
-.controller-outer-box {
-  position: absolute;
-  inset: 0;
-  background: #D0CFCB;
-  border-radius: 0.5em;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-}
-
-
-.controller-cord-connection {
-  background: #8D8C8A;
-  position: absolute;
-  top: -8px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 28px;
-  height: 10px;
-  border-radius: 3px 3px 0 0;
-}
-
-
-.controller-inner-box {
-  background: #36312C;
-  position: absolute;
-  inset: 12px;
-  border-radius: 0.3em;
-  display: flex;
-}
-
-
-.left-inner-box, .center-inner-box, .right-inner-box {
-  position: relative;
-  height: 100%;
-}
-
-
-.left-inner-box { width: 33.33%; }
-.center-inner-box { width: 28%; }
-.right-inner-box { width: 38.67%; }
-
-
-/* Controller D-Pad */
-.up-down-outer-box, .left-right-outer-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #D0CFCB;
-  border-radius: 4px;
-}
-.up-down-outer-box { width: 36px; height: 108px; }
-.left-right-outer-box { width: 108px; height: 36px; }
-
-
-.up-down-inner-box, .left-right-inner-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #2C2823;
-  border-radius: 3px;
-}
-.up-down-inner-box { width: 30px; height: 100px; }
-.left-right-inner-box { width: 100px; height: 30px; }
-
-
-.center-circle {
-  background: #363330;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 24px;
-  height: 24px;
-}
-
-
-.up-arrow, .down-arrow, .left-arrow, .right-arrow {
-  position: absolute;
-  cursor: pointer;
+  border: 2px solid #000;
   touch-action: none;
 }
+.face-x { top: 0; left: 41px; background: #3b3f6e; color: #c6cbff; }
+.face-y { top: 41px; left: 0; background: #3b3f6e; color: #c6cbff; }
+.face-a { top: 41px; right: 0; background: var(--lab-magenta); color: #fff; }
+.face-b { bottom: 0; left: 41px; background: #6e4f18; color: #fff; }
+.dpad button.pressed, .facebtns button.pressed { transform: scale(0.9); filter: brightness(1.35); }
 
-
-.up-arrow { top: 0; left: 0; width: 30px; height: 35px; }
-.down-arrow { bottom: 0; left: 0; width: 30px; height: 35px; }
-.left-arrow { left: 0; top: 0; width: 35px; height: 30px; }
-.right-arrow { right: 0; top: 0; width: 35px; height: 30px; }
-
-
-.up-arrow:after, .down-arrow:after, .left-arrow:after, .right-arrow:after {
-  content: "";
-  position: absolute;
-  border: 6px solid transparent;
-}
-.up-arrow:after { border-bottom-color: #555; top: 6px; left: 9px; }
-.down-arrow:after { border-top-color: #555; bottom: 6px; left: 9px; }
-.left-arrow:after { border-right-color: #555; left: 6px; top: 9px; }
-.right-arrow:after { border-left-color: #555; right: 6px; top: 9px; }
-
-
-/* Controller Center */
-.center-decorative-box {
-  background: #A3A2A0;
+.midrow {
+  display: flex;
+  align-items: center;
+  gap: 18px;
   width: 100%;
-  height: 18px;
-  position: absolute;
+  max-width: 400px;
+  padding: 0 14px;
 }
-.dec-1 { top: 12px; }
-.dec-2 { top: 38px; }
-.dec-3 { top: 64px; text-align: center; }
-.dec-4 { bottom: 12px; }
-
-
-.select-start-text {
+.midbtn {
+  background: #10142b;
+  color: #aab1ff;
+  border: 2px solid #39427e;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-family: inherit;
   font-size: 8px;
-  color: #5b358c;
-  line-height: 18px;
-  font-weight: bold;
-}
-
-
-.center-button-box {
-  position: absolute;
-  top: 90px;
-  left: 0;
-  width: 100%;
-  height: 40px;
-  background: #A3A2A0;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.center-button-box-inner-border {
-  display: flex;
-  gap: 16px;
-}
-
-
-.left-button, .right-button {
-  background: #5b358c;
-  width: 44px;
-  height: 16px;
-  border-radius: 4px;
+  letter-spacing: 1px;
   cursor: pointer;
-  box-shadow: 0 2px 4px #000;
+  transform: rotate(-12deg);
   touch-action: none;
 }
+.midbtn.pressed { background: #000; }
+.vent { display: flex; flex-direction: column; gap: 5px; transform: rotate(-12deg); margin-left: auto; }
+.vent i { width: 52px; height: 5px; background: #39427e; border-radius: 3px; opacity: 0.6; }
 
-
-/* Controller Right (SNES 4-Button Diamond Layout) */
-.system-text {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 14px;
+/* ---------- system rows ---------- */
+.sysrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  border-top: 2px solid var(--lab-line);
+  padding-top: 14px;
+}
+.syskey {
+  background: #2c3570;
+  border: 2px solid #454fa0;
+  color: #fff;
+  border-radius: 8px;
+  padding: 9px 12px;
+  font-family: inherit;
+  font-size: 8px;
   font-weight: bold;
-  color: #5b358c;
-  font-style: italic;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
-
-
-.snes-buttons-container {
-  position: absolute;
-  bottom: 20px;
-  right: 15px;
-  width: 110px;
-  height: 110px;
-}
-
-
-.action-btn-snes {
-  position: absolute;
+.syskey.power.power-on { background: #15803d; border-color: #16a34a; }
+.syskey.accent { background: #6e4f18; border-color: var(--lab-amber); }
+.syskey.file { display: inline-flex; align-items: center; }
+.toolrow { display: flex; gap: 10px; justify-content: center; }
+.toolkey {
   width: 38px;
   height: 38px;
   border-radius: 50%;
+  background: #2c3570;
+  border: none;
+  font-size: 16px;
   cursor: pointer;
+}
+.toolkey.danger { background: #8f2b1f; }
+.toolkey.ai-p1.on, .sidekey.ai-p1.on { background: #15803d; box-shadow: 0 0 10px rgba(21, 128, 61, 0.8); }
+.toolkey.ai-p2.on, .sidekey.ai-p2.on { background: #0e7490; box-shadow: 0 0 10px rgba(14, 116, 144, 0.8); }
+.kbd-hint {
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  color: var(--lab-muted);
+  line-height: 1.6;
+  max-width: 560px;
+}
+
+/* ---------- deck + gamepad (wide rig) ---------- */
+.deck {
+  width: 480px;
+  max-width: 92vw;
+  position: relative;
+  margin-top: 96px;
+  font-size: 11px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+.deck-cartslot { position: absolute; top: -92px; left: 50%; transform: translateX(-50%); width: 190px; height: 96px; cursor: pointer; z-index: 5; }
+.deck-hitbox { position: absolute; inset: 0; cursor: pointer; z-index: 6; }
+.deck-cart {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #e8e2d2, #b9b29c);
+  border: 2px solid #8d8672;
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-family: 'Coda Caption', sans-serif;
+  transition: transform 0.2s;
+}
+.deck-cartslot:hover .deck-cart { transform: translateY(8px); }
+.deck-cart-rib { width: 86%; height: 8px; background: #a09a85; border-radius: 4px; margin-top: 6px; }
+.deck-cart-label {
+  width: 76%;
+  margin-top: 10px;
+  background: #2b2620;
+  color: #f2ead6;
+  border-radius: 4px;
+  font-size: 9px;
+  text-align: center;
+  padding: 10px 4px;
+  letter-spacing: 1px;
+}
+.deck-grip { position: absolute; top: 22px; display: flex; flex-direction: column; gap: 6px; }
+.deck-grip.left { left: 8px; }
+.deck-grip.right { right: 8px; }
+.deck-grip i { width: 10px; height: 5px; background: #a09a85; border-radius: 2px; }
+.deck-top {
+  background: linear-gradient(180deg, #d8d2bd, #a8a28a);
+  border-radius: 10px 10px 0 0;
+  padding: 16px 20px;
+  color: #3a3348;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.deck-brand b { display: block; font-size: 15px; letter-spacing: 2px; }
+.deck-brand small { font-size: 8px; letter-spacing: 1px; }
+.deck-bay { width: 150px; height: 26px; background: #141118; border-radius: 5px; box-shadow: inset 0 3px 6px #000; display: flex; align-items: center; justify-content: center; }
+.deck-bay i { width: 88%; height: 8px; background: #000; border-radius: 3px; }
+.deck-base {
+  background: #6f6a7e;
+  border-radius: 0 0 10px 10px;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.deck-switches { display: flex; gap: 10px; align-items: center; }
+.deck-btn {
+  background: #4a2a86;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #2c1a55;
+}
+.deck-btn:active { transform: translateY(3px); box-shadow: none; }
+.deck-led { width: 9px; height: 9px; background: #222; border-radius: 2px; }
+.deck-led.active { background: #37e6c8; box-shadow: 0 0 10px #37e6c8; }
+.deck-ports { display: flex; gap: 14px; }
+.deck-ports i { width: 44px; height: 14px; background: #141118; border-radius: 4px; box-shadow: inset 0 2px 5px #000; }
+
+.gamepad { position: relative; width: 600px; max-width: 94vw; margin-top: 26px; }
+.gamepad-cable { position: absolute; top: -22px; left: 50%; width: 10px; height: 24px; background: #000; transform: translateX(-50%); }
+.gamepad-shell {
+  background: linear-gradient(180deg, #e3ddca, #b5ae95);
+  border-radius: 12px;
+  padding: 14px;
+  display: flex;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+}
+.gamepad-left, .gamepad-mid, .gamepad-right { position: relative; }
+.gamepad-left { width: 32%; min-height: 190px; }
+.gamepad-mid { width: 30%; }
+.gamepad-right { width: 38%; }
+.mini-dpad { position: absolute; inset: 0; }
+.up-arrow, .down-arrow, .left-arrow, .right-arrow, .center-circle { position: absolute; }
+.up-arrow { top: 30px; left: 62px; width: 30px; height: 40px; background: #241f18; cursor: pointer; }
+.down-arrow { bottom: 30px; left: 62px; width: 30px; height: 40px; background: #241f18; cursor: pointer; }
+.left-arrow { left: 32px; top: 70px; width: 40px; height: 30px; background: #241f18; cursor: pointer; }
+.right-arrow { right: 22px; top: 70px; width: 40px; height: 30px; background: #241f18; cursor: pointer; }
+.center-circle { left: 64px; top: 72px; width: 26px; height: 26px; border-radius: 50%; background: #4a4438; }
+.gamepad-stripes i { display: block; height: 12px; background: #a09a85; border-radius: 2px; margin: 8px 0; }
+.gamepad-select { text-align: center; font-size: 8px; color: #8f2b1f; font-weight: bold; margin: 6px 0; font-family: 'Press Start 2P', monospace; }
+.gamepad-sliders { display: flex; gap: 14px; justify-content: center; margin-top: 8px; }
+.left-button, .right-button { width: 42px; height: 15px; background: #241f18; border-radius: 4px; cursor: pointer; }
+.gamepad-logo { text-align: right; font-size: 13px; font-style: italic; color: #8f2b1f; font-weight: bold; }
+.gamepad-diamond { position: relative; height: 130px; margin-top: 8px; }
+.gamepad-diamond button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-family: inherit;
   font-size: 12px;
   font-weight: bold;
-  box-shadow: 0 3px 0 rgba(0,0,0,0.5);
+  cursor: pointer;
+  border: 2px solid #000;
   touch-action: none;
 }
+.dia-x { top: 0; left: 72px; background: #3b3f6e; color: #c6cbff; }
+.dia-y { top: 45px; left: 27px; background: #3b3f6e; color: #c6cbff; }
+.dia-a { top: 45px; right: 8px; background: var(--lab-magenta); color: #fff; }
+.dia-b { bottom: 0; left: 72px; background: #6e4f18; color: #fff; }
+.up-arrow.pressed, .down-arrow.pressed, .left-arrow.pressed, .right-arrow.pressed,
+.left-button.pressed, .right-button.pressed, .pill-btn.pressed,
+.gamepad-diamond button.pressed { filter: brightness(1.5); }
 
-
-.btn-y { top: 36px; left: 0; background: #3b383d; color: #9ca3af; border-bottom: 2px solid #555; }
-.btn-x { top: 0; left: 36px; background: #3b383d; color: #9ca3af; border-bottom: 2px solid #555; }
-.btn-b { bottom: 0; left: 36px; background: #5b358c; color: #fff; }
-.btn-a { top: 36px; right: 0; background: #b91c1c; color: #fff; }
-
-
-.desktop-footer-help {
-  text-align: center;
-  font-size: 8px;
-  color: #c084fc;
-  margin-top: 1rem;
-}
-
-
-/* ==========================================================================
-   4. MODAL DIALOGS
-   ========================================================================== */
+/* ---------- modals ---------- */
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(4, 6, 18, 0.88);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 100;
-  padding: 1rem;
+  padding: 14px;
 }
-
-
 .modal-card {
-  background: #1f2937;
-  border: 3px solid var(--archive-gold-deep);
-  border-radius: 1rem;
+  background: #141936;
+  border: 3px solid var(--lab-amber);
+  border-radius: 14px;
   width: 100%;
-  max-width: 500px;
-  max-height: 85vh;
+  max-width: 520px;
+  max-height: 86vh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  box-shadow: 0 25px 50px rgba(0,0,0,0.9);
+  box-shadow: 0 26px 60px rgba(0, 0, 0, 0.9);
 }
-
-
+.modal-card.wide { max-width: 620px; }
 .modal-header {
-  padding: 1rem 1.25rem;
-  background: #14101c;
+  padding: 14px 18px;
+  background: #0b0e24;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid var(--archive-gold-deep);
+  border-bottom: 2px solid var(--lab-amber);
 }
-.modal-header h2 { font-size: 12px; color: var(--archive-gold); letter-spacing: 1px; }
-.modal-close-btn {
-  background: transparent;
-  border: none;
-  color: #fff;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
-
-.modal-body {
-  padding: 1.25rem;
-  overflow-y: auto;
-  font-size: 9px;
-  line-height: 1.6;
-}
-.modal-desc { margin-bottom: 1rem; color: #9ca3af; }
-
-
+.modal-header h2 { font-size: 12px; color: var(--lab-amber); letter-spacing: 1px; }
+.modal-close-btn { background: transparent; border: none; color: #fff; font-size: 22px; cursor: pointer; }
+.modal-body { padding: 18px; overflow-y: auto; font-size: 9px; line-height: 1.7; }
+.modal-desc { margin-bottom: 12px; color: var(--lab-muted); }
+.modal-body h3 { font-size: 10px; color: var(--lab-teal); margin: 16px 0 8px; }
+.modal-body h3:first-child { margin-top: 0; }
+.modal-body p, .modal-body li { color: #c3c8ee; }
+.modal-body ul { list-style: square; margin-left: 18px; display: flex; flex-direction: column; gap: 6px; }
+.modal-body table { width: 100%; border-collapse: collapse; margin: 8px 0; }
+.modal-body th, .modal-body td { border: 1px solid var(--lab-line); padding: 6px 8px; font-size: 8px; text-align: left; }
+.modal-body th { background: #6e4f18; color: #fff; }
+.modal-body img { width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--lab-line); margin: 8px 0; display: block; background: #fff; }
+.modal-body code { color: var(--lab-amber); font-size: 8px; }
+.modal-body a { color: var(--lab-teal); }
 .modal-footer {
-  padding: 1rem 1.25rem;
-  background: #111827;
+  padding: 14px 18px;
+  background: #0b0e24;
   display: flex;
   justify-content: flex-end;
-  gap: 0.75rem;
-  border-top: 2px solid #5b358c;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-top: 2px solid var(--lab-line);
 }
-
-
 .modal-action-btn {
-  padding: 0.5rem 1rem;
-  border-radius: 0.375rem;
+  padding: 9px 14px;
+  border-radius: 7px;
   font-family: inherit;
   font-size: 8px;
   font-weight: bold;
   cursor: pointer;
   border: none;
 }
-.modal-action-btn.primary { background: #5b358c; color: #fff; }
-.modal-action-btn.secondary { background: #374151; color: #fff; }
+.modal-action-btn.primary { background: #4a2a86; color: #fff; }
+.modal-action-btn.primary.autopilot-on { background: #15803d; }
+.modal-action-btn.secondary { background: #2c3570; color: #fff; }
+.modal-action-btn.file-label { display: inline-flex; align-items: center; }
+.sys-switches { display: flex; gap: 10px; flex-wrap: wrap; margin: 10px 0 4px; }
+.info-text p { margin-bottom: 10px; }
 
+/* tune grids — one per system, visually distinct */
+.tune-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 8px 0; }
+.tune-grid label { font-size: 8px; color: var(--lab-muted); display: flex; justify-content: space-between; align-items: center; gap: 6px; }
+.tune-grid input, .tune-grid select {
+  width: 84px;
+  font-family: inherit;
+  font-size: 9px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid var(--lab-line);
+  background: #0b0e24;
+  color: #fff;
+}
+.tune-grid input[type="text"] { width: 96px; }
+.sys-panel-s1, .sys-panel-s2 { border-radius: 10px; padding: 12px; margin: 10px 0; }
+.sys-panel-s1 { border: 2px solid var(--lab-teal); background: rgba(55, 230, 200, 0.05); }
+.sys-panel-s2 { border: 2px solid var(--lab-magenta); background: rgba(255, 61, 138, 0.06); }
+.sys-panel-s1 > h3 { color: var(--lab-teal) !important; }
+.sys-panel-s2 > h3 { color: var(--lab-magenta) !important; }
 
-/* Manual Archive Edition: motion + polish */
+/* rom list + telemetry */
+.rom-list-container { display: flex; flex-direction: column; gap: 8px; max-height: 260px; overflow-y: auto; }
+.rom-list-item {
+  background: #0b0e24;
+  border: 1px solid var(--lab-line);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.rom-name { font-size: 8px; color: #e6e9ff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 250px; }
+.rom-actions { display: flex; gap: 6px; }
+.rom-btn-play, .rom-btn-del, .rom-btn-export {
+  padding: 6px 9px;
+  font-family: inherit;
+  font-size: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.rom-btn-play { background: #15803d; color: #fff; }
+.rom-btn-del { background: #8f2b1f; color: #fff; }
+.rom-btn-export { background: #1d4ed8; color: #fff; }
+#telemetry-vision {
+  width: 128px;
+  height: 128px;
+  image-rendering: pixelated;
+  background: #000;
+  border: 1px solid var(--lab-line);
+  border-radius: 8px;
+  display: block;
+}
+.tele-row { display: flex; justify-content: space-between; font-size: 8px; color: #c3c8ee; margin-bottom: 4px; }
+.tele-row span:last-child { color: #7CFC00; }
+#anton-console {
+  max-height: 140px;
+  overflow-y: auto;
+  background: #000;
+  border: 1px solid var(--lab-line);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-family: monospace;
+  font-size: 9px;
+  line-height: 1.6;
+  color: #7CFC00;
+}
+#btn-record.rec-on { background: #8f2b1f; }
+
+/* focus + motion */
+.syskey:focus-visible, .toolkey:focus-visible, .sidekey:focus-visible,
+.modal-action-btn:focus-visible, .modal-close-btn:focus-visible,
+.deck-btn:focus-visible, .midbtn:focus-visible {
+  outline: 3px solid var(--lab-teal);
+  outline-offset: 2px;
+}
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    transition-duration: 0.01ms !important;
-    animation-duration: 0.01ms !important;
-  }
-  .standalone-cartridge-container:hover { transform: none; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+  .deck-cartslot:hover .deck-cart { transform: none; }
 }

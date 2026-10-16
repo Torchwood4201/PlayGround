@@ -1,79 +1,35 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SNESBOY - SNES Emulator</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
-  <!-- Google Fonts -->
+  <title>SNESLAB — SNES Console + AI Lab</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧪</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Press+Start+2P&display=swap" rel="stylesheet">
-  <!-- Standalone Stylesheet -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <style>
-    /* ---- emulator integration (kept separate from style.css) ---- */
-    .handheld-container, .desktop-container { margin: auto; }
-    #ejs-stage { position: absolute; inset: 0; z-index: 1; }
-    #ejs-stage canvas { image-rendering: pixelated; image-rendering: crisp-edges; }
-    .ejs_parent, #ejs-stage > div { width: 100% !important; height: 100% !important; }
-    .screen-off-display { z-index: 3; }
-    .crt-overlay {
-      position: absolute; inset: 0; z-index: 2; pointer-events: none;
-      background: repeating-linear-gradient(0deg, rgba(0,0,0,.22) 0 1px, transparent 1px 3px);
-    }
-    /* The SNESBoy CSS-art pads ARE the controllers: the emulator's own
-       touch overlay must never appear. */
-    #ejs-stage .ejs_virtualGamepad_parent,
-    #ejs-stage .ejs_virtualGamepad_open { display: none !important; }
-    .action-btn-snes.pressed { transform: scale(.92); filter: brightness(.75); }
-    .left-button.pressed, .right-button.pressed { transform: translateY(1px); filter: brightness(.7); }
-    .pill-btn.pressed { background: #111827; }
-    .rom-list-container { display: flex; flex-direction: column; gap: .5rem; max-height: 250px; overflow-y: auto; }
-    .rom-list-item { background: #111827; border: 1px solid #5b358c; border-radius: .5rem; padding: .75rem; display: flex; justify-content: space-between; align-items: center; gap: .5rem; }
-    .rom-name { font-size: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 250px; color: #f3f4f6; }
-    .rom-actions { display: flex; gap: .5rem; }
-    .rom-btn-play, .rom-btn-del { padding: .35rem .6rem; font-family: inherit; font-size: 8px; border-radius: 4px; border: none; cursor: pointer; font-weight: bold; }
-    .rom-btn-play { background: #16a34a; color: #fff; }
-    .rom-btn-del { background: #dc2626; color: #fff; }
-    .rom-btn-export { background: #1d4ed8; color: #fff; padding: .35rem .6rem; font-family: inherit; font-size: 8px; border-radius: 4px; border: none; cursor: pointer; font-weight: bold; }
-    #telemetry-vision { width: 128px; height: 128px; image-rendering: pixelated; background: #000; border: 1px solid #5b358c; border-radius: 6px; display: block; }
-    .tele-row { display: flex; justify-content: space-between; font-size: 8px; color: #d1d5db; margin-bottom: 3px; }
-    .tele-row span:last-child { color: #7CFC00; }
-    #anton-console { max-height: 140px; overflow-y: auto; background: #000; border: 1px solid #5b358c; border-radius: 6px; padding: 6px 8px; font-family: monospace; font-size: 8px; line-height: 1.5; color: #7CFC00; }
-    #btn-record.rec-on { background: #dc2626; }
-    .agent-hud { position: absolute; top: 6px; left: 6px; z-index: 2; pointer-events: none; font-size: 8px; background: rgba(0,0,0,.65); color: #7CFC00; padding: 4px 6px; border-radius: 6px; white-space: nowrap; }
-    .tune-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .4rem; margin: .5rem 0; }
-    .tune-grid label { font-size: 8px; color: #9ca3af; display: flex; justify-content: space-between; align-items: center; gap: .4rem; }
-    .tune-grid input { width: 72px; font-family: inherit; font-size: 9px; padding: .25rem; border-radius: 4px; border: 1px solid #5b358c; background: #111827; color: #fff; }
-    .info-text p { margin-bottom: .75rem; color: #9ca3af; }
-    .ai-lab-body h3 { font-size: 10px; color: #c084fc; margin: 1rem 0 .5rem; }
-    .ai-lab-body h3:first-child { margin-top: 0; }
-    .ai-lab-body p, .ai-lab-body li { color: #9ca3af; }
-    .ai-lab-body ul { list-style: square; margin-left: 1.1rem; display: flex; flex-direction: column; gap: .35rem; }
-    .ai-lab-body table { width: 100%; border-collapse: collapse; margin: .5rem 0; }
-    .ai-lab-body th, .ai-lab-body td { border: 1px solid #5b358c; padding: .35rem .5rem; font-size: 8px; text-align: left; color: #d1d5db; }
-    .ai-lab-body th { background: #5b358c; color: #fff; }
-    .ai-lab-body img { width: 100%; height: auto; border-radius: .5rem; border: 1px solid #5b358c; margin: .5rem 0; display: block; background: #fff; }
-    .ai-lab-body code { color: #fbbf24; font-size: 8px; }
-    .ai-lab-body a { color: #c084fc; }
-    #btn-autopilot.autopilot-on { background: #16a34a; border-color: #15803d; }
-  </style>
 </head>
 <body class="theme-snes">
 
+  <header class="labbar">
+    <div class="labbar-brand">SNES<span>LAB</span></div>
+    <div class="labbar-sub">console · dual-ai bench</div>
+    <div class="labbar-lamps">
+      <span class="lamp" id="tv-led" title="screen power"></span>
+      <span class="lamp alt" id="snes-console-led" title="deck power"></span>
+    </div>
+  </header>
 
-  <!-- ========================================== -->
-  <!-- MOBILE / HANDHELD GAME BOY VIEW -->
-  <!-- ========================================== -->
-  <div id="handheld-view" class="handheld-container">
-    <div class="handheld-casing">
+  <main class="bench">
 
-      <!-- Screen Area -->
-      <div class="screen-section">
-        <div class="screen-header">
-          <span class="screen-dot"></span>
-          <span class="screen-title">DOT MATRIX WITH STEREO SOUND</span>
-          <span class="screen-dot"></span>
+    <!-- ============ COMPACT RIG (< 1024px) ============ -->
+    <section id="handheld-view" class="rig-compact">
+      <div class="rig-frame">
+        <div class="rig-screenhead">
+          <span class="rig-dot"></span>
+          <span class="rig-screenlabel">RIG · COMPACT</span>
+          <span class="rig-dot"></span>
         </div>
         <div class="screen-bezel">
           <div class="agent-hud hidden">OFF</div>
@@ -83,96 +39,58 @@
             <p id="handheld-sub-text" class="status-sub">Press POWER to start</p>
           </div>
         </div>
-        <div class="handheld-brand">SNESBOY</div>
+        <div class="rig-tag">SNESLAB pocket rig</div>
       </div>
 
-
-      <!-- Controls Area -->
-      <div class="controls-section">
-        <!-- D-Pad -->
-        <div class="dpad-container">
-          <div class="dpad-cross-h"></div>
-          <div class="dpad-cross-v"></div>
-          <button type="button" class="dpad-btn dpad-up" data-button="4" aria-label="Up"></button>
-          <button type="button" class="dpad-btn dpad-down" data-button="5" aria-label="Down"></button>
-          <button type="button" class="dpad-btn dpad-left" data-button="6" aria-label="Left"></button>
-          <button type="button" class="dpad-btn dpad-right" data-button="7" aria-label="Right"></button>
-          <div class="dpad-center"></div>
+      <div class="paddeck">
+        <div class="dpad" role="group" aria-label="D-Pad">
+          <button type="button" class="pad-up" data-button="4" aria-label="Up">▲</button>
+          <button type="button" class="pad-left" data-button="6" aria-label="Left">◀</button>
+          <button type="button" class="pad-core" tabindex="-1" aria-hidden="true">●</button>
+          <button type="button" class="pad-right" data-button="7" aria-label="Right">▶</button>
+          <button type="button" class="pad-down" data-button="5" aria-label="Down">▼</button>
         </div>
-
-
-        <!-- Action Buttons Y, X, B, A -->
-        <div class="action-buttons-container snes-handheld-buttons">
-          <button type="button" class="action-btn-snes btn-y" data-button="8" aria-label="Y">Y</button>
-          <button type="button" class="action-btn-snes btn-x" data-button="9" aria-label="X">X</button>
-          <button type="button" class="action-btn-snes btn-b" data-button="1" aria-label="B">B</button>
-          <button type="button" class="action-btn-snes btn-a" data-button="0" aria-label="A">A</button>
+        <div class="facebtns" role="group" aria-label="Action buttons">
+          <button type="button" class="face-x" data-button="9" aria-label="X">X</button>
+          <button type="button" class="face-y" data-button="8" aria-label="Y">Y</button>
+          <button type="button" class="face-a" data-button="0" aria-label="A">A</button>
+          <button type="button" class="face-b" data-button="1" aria-label="B">B</button>
         </div>
       </div>
 
-
-      <!-- Select / Start & Speaker -->
-      <div class="bottom-controls-section">
-        <div class="select-start-buttons">
-          <div class="pill-btn-wrapper">
-            <button type="button" class="pill-btn" data-button="2" aria-label="Select">SELECT</button>
-          </div>
-          <div class="pill-btn-wrapper">
-            <button type="button" class="pill-btn" data-button="3" aria-label="Start">START</button>
-          </div>
-        </div>
-        <div class="speaker-grille">
-          <div class="speaker-line"></div>
-          <div class="speaker-line"></div>
-          <div class="speaker-line"></div>
-          <div class="speaker-line"></div>
-          <div class="speaker-line"></div>
-          <div class="speaker-line"></div>
-        </div>
+      <div class="midrow">
+        <button type="button" class="midbtn" data-button="2">SELECT</button>
+        <button type="button" class="midbtn" data-button="3">START</button>
+        <div class="vent" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
       </div>
 
-
-      <!-- System Function Buttons -->
-      <div class="system-bar">
-        <button type="button" id="btn-power" class="sys-btn sys-btn-power">POWER</button>
-        <button type="button" id="btn-theme" class="sys-btn">THEME</button>
-        <button type="button" id="btn-library" class="sys-btn sys-btn-purple">MY GAMES</button>
-        <label class="sys-btn sys-btn-blue file-label">
-          ADD ROM
+      <div class="sysrow">
+        <button type="button" id="btn-power" class="syskey power">⏻ POWER</button>
+        <button type="button" id="btn-theme" class="syskey">THEME</button>
+        <button type="button" id="btn-library" class="syskey accent">MY GAMES</button>
+        <label class="syskey file">ADD ROM
           <input type="file" id="rom-file-input" accept=".sfc,.smc,.zip" class="hidden-input">
         </label>
       </div>
 
-
-      <!-- Quick Toolbar -->
-      <div class="toolbar-bar">
-        <button type="button" id="btn-info" class="tool-icon-btn" title="Controls & Info">ℹ️</button>
-        <button type="button" id="btn-sound" class="tool-icon-btn" title="Toggle Mute">🔊</button>
-        <button type="button" id="btn-crt" class="tool-icon-btn" title="Toggle CRT Shaders">📺</button>
-        <button type="button" id="btn-ai" class="tool-icon-btn" title="Mario AI Lab">🤖</button>
-        <button type="button" id="btn-reset" class="tool-icon-btn" title="Reset Game">🔄</button>
-        <button type="button" id="btn-eject" class="tool-icon-btn tool-eject" title="Eject ROM">⏏️</button>
+      <div class="toolrow">
+        <button type="button" id="btn-info" class="toolkey" title="Controls & Info">ℹ️</button>
+        <button type="button" id="btn-sound" class="toolkey" title="Toggle Mute">🔊</button>
+        <button type="button" id="btn-crt" class="toolkey" title="Toggle CRT Shaders">📺</button>
+        <button type="button" id="btn-ai" class="toolkey" title="AI Lab">🤖</button>
+        <button type="button" id="btn-ai-p1" class="toolkey ai-p1" title="P1 AI on/off">1️⃣</button>
+        <button type="button" id="btn-ai-p2" class="toolkey ai-p2" title="P2 AI on/off">2️⃣</button>
+        <button type="button" id="btn-reset" class="toolkey" title="Reset Game">🔄</button>
+        <button type="button" id="btn-eject" class="toolkey danger" title="Eject ROM">⏏️</button>
       </div>
 
+      <p class="kbd-hint">Arrows = D-Pad · X/A/B/Y = action · Enter = Start · Shift = Select</p>
+    </section>
 
-      <div class="key-help">
-        <p>KEYBOARD: Arrows=D-Pad | X/A/B/Y = Action | Enter=Start | Shift=Select</p>
-      </div>
-
-
-    </div>
-  </div>
-
-
-  <!-- ========================================== -->
-  <!-- DESKTOP TV & 3D TOP-LOAD SNES CONSOLE VIEW -->
-  <!-- ========================================== -->
-  <div id="desktop-view" class="desktop-container">
-
-    <!-- TV Screen Monitor -->
-    <div class="tv-frame">
-      <div class="tv-screen-bezel">
-        <div class="tv-screen-glass">
+    <!-- ============ WIDE RIG (>= 1024px) ============ -->
+    <section id="desktop-view" class="rig-wide">
+      <div class="cabinet">
+        <div class="tv-screen-bezel">
           <div class="agent-hud hidden">OFF</div>
           <canvas id="desktop-screen" width="256" height="240"></canvas>
           <div id="desktop-off-message" class="screen-off-display">
@@ -180,142 +98,83 @@
             <p id="desktop-sub-text" class="status-sub">Click POWER or insert a ROM</p>
           </div>
         </div>
+        <div class="cabinet-plate">SNESLAB · broadcast monitor</div>
+        <div class="cabinet-side">
+          <button type="button" id="dt-btn-library" class="sidekey hot" title="My Games Library">📁</button>
+          <button type="button" id="dt-btn-info" class="sidekey" title="Controls & Info">ℹ️</button>
+          <button type="button" id="dt-btn-crt" class="sidekey" title="Toggle CRT Shaders">📺</button>
+          <button type="button" id="dt-btn-sound" class="sidekey" title="Toggle Sound">🔊</button>
+          <button type="button" id="dt-btn-theme" class="sidekey" title="Switch Theme">🎨</button>
+          <button type="button" id="dt-btn-ai" class="sidekey hot" title="AI Lab">🤖</button>
+          <button type="button" id="dt-ai-p1" class="sidekey ai-p1" title="P1 AI on/off">1️⃣</button>
+          <button type="button" id="dt-ai-p2" class="sidekey ai-p2" title="P2 AI on/off">2️⃣</button>
+          <button type="button" id="dt-btn-eject" class="sidekey danger" title="Eject ROM">⏏️</button>
+        </div>
       </div>
-      <div class="tv-power-indicator">
-        <div id="tv-led" class="led-light"></div>
-      </div>
-      <div class="tv-brand">SNES-TV</div>
 
-
-      <!-- Quick TV Sidebar Controls -->
-      <div class="tv-sidebar-controls">
-        <button type="button" id="dt-btn-library" class="tv-side-btn purple" title="My Games Library">📁</button>
-        <button type="button" id="dt-btn-info" class="tv-side-btn gray" title="Controls & Info">ℹ️</button>
-        <button type="button" id="dt-btn-crt" class="tv-side-btn gray" title="Toggle CRT Shaders">📺</button>
-        <button type="button" id="dt-btn-ai" class="tv-side-btn gray" title="Mario AI Lab">🤖</button>
-        <button type="button" id="dt-btn-sound" class="tv-side-btn gray" title="Toggle Sound">🔊</button>
-        <button type="button" id="dt-btn-theme" class="tv-side-btn gray" title="Switch Theme">🎨</button>
-        <button type="button" id="dt-btn-eject" class="tv-side-btn red" title="Eject ROM">⏏️</button>
-      </div>
-    </div>
-
-
-    <!-- 3D Top-Load SNES Console (Based directly on your original OG template structure with separate pluggable Cartridge) -->
-    <div id="snes">
-
-      <!-- SEPARATE PLUGGABLE CARTRIDGE (Positions above console, plugs down into the slot) -->
-      <div class="standalone-cartridge-container" id="cartridge" title="Click or Drop ROM to Insert Cartridge">
-        <label for="desktop-rom-file-input" class="cartridge-hitbox"></label>
-        <input type="file" id="desktop-rom-file-input" accept=".sfc,.smc,.zip" class="hidden-input">
-        <div class="snes-cartridge-body">
-          <div class="cartridge-arch-top"></div>
-          <div class="cartridge-label-area">
-            <span class="cartridge-label-text">16-BIT GAME PAK</span>
+      <div id="snes" class="deck">
+        <div class="deck-cartslot" id="cartridge" title="Click to open ROM library">
+          <label for="desktop-rom-file-input" class="deck-hitbox"></label>
+          <input type="file" id="desktop-rom-file-input" accept=".sfc,.smc,.zip" class="hidden-input">
+          <div class="deck-cart">
+            <div class="deck-cart-rib"></div>
+            <div class="deck-cart-label"><span>16-BIT GAME PAK</span></div>
+            <div class="deck-grip left"><i></i><i></i><i></i></div>
+            <div class="deck-grip right"><i></i><i></i><i></i></div>
           </div>
-          <div class="grip-ribs left"><span></span><span></span><span></span></div>
-          <div class="grip-ribs right"><span></span><span></span><span></span></div>
+        </div>
+        <div class="deck-top">
+          <div class="deck-brand"><b>SNESLAB</b><small>SUPER BENCH SYSTEM</small></div>
+          <div class="deck-bay"><i></i></div>
+        </div>
+        <div class="deck-base">
+          <div class="deck-switches">
+            <input type="checkbox" id="power-checkbox" class="hidden-input">
+            <div id="desktop-power-btn" class="deck-btn">POWER</div>
+            <div id="desktop-reset-btn" class="deck-btn">RESET</div>
+            <div id="snes-console-led" class="deck-led"></div>
+          </div>
+          <div class="deck-ports"><i></i><i></i></div>
         </div>
       </div>
 
-
-      <div class="snes-top">
-        <div class="console-title-branding">
-          <h1>Nintendo</h1>
-          <h2>SUPER ENTERTAINMENT SYSTEM</h2>
-        </div>
-        <!-- Open Top-Loading Slot Bay -->
-        <div class="cartridge-slot-bay">
-          <div class="cartridge-slot-border"></div>
-          <div class="cartridge-slot-hole"></div>
-        </div>
-      </div>
-
-
-      <div class="snes-bottom">
-        <div class="power-box">
-          <input type="checkbox" id="power-checkbox">
-          <div id="desktop-power-btn" class="power-btn-label">POWER</div>
-          <div id="desktop-reset-btn" class="reset-btn-label">RESET</div>
-          <div id="snes-console-led" class="console-led"></div>
-        </div>
-      </div>
-      <div class="gamepads-slots">
-        <div class="gamepad-slot p1"></div>
-        <div class="gamepad-slot p2"></div>
-      </div>
-    </div>
-
-
-    <!-- SNES Controller CSS Art (Interactive with 4 Action Buttons) -->
-    <div class="controller-container">
-      <div class="controller-cord"></div>
-      <div class="controller-outer-box">
-        <div class="controller-cord-connection"></div>
-        <div class="controller-inner-box">
-
-          <!-- Controller Left D-Pad -->
-          <div class="left-inner-box">
-            <div class="up-down-outer-box"></div>
-            <div class="left-right-outer-box"></div>
-            <div class="up-down-inner-shadow"></div>
-            <div class="left-right-inner-shadow"></div>
-            <div class="up-down-inner-box">
+      <div class="gamepad">
+        <div class="gamepad-cable"></div>
+        <div class="gamepad-shell">
+          <div class="gamepad-left">
+            <div class="mini-dpad">
               <div class="up-arrow dpad-btn" data-button="4"></div>
               <div class="down-arrow dpad-btn" data-button="5"></div>
-            </div>
-            <div class="left-right-inner-box">
               <div class="left-arrow dpad-btn" data-button="6"></div>
               <div class="center-circle"></div>
               <div class="right-arrow dpad-btn" data-button="7"></div>
             </div>
           </div>
-
-
-          <!-- Controller Center (Select / Start) -->
-          <div class="center-inner-box">
-            <div class="center-decorative-box dec-1"></div>
-            <div class="center-decorative-box dec-2"></div>
-            <div class="center-decorative-box dec-3">
-              <div class="select-start-text">SELECT START</div>
-            </div>
-            <div class="center-button-box">
-              <div class="center-button-box-inner-border">
-                <div class="left-button pill-btn" data-button="2"></div>
-                <div class="right-button pill-btn" data-button="3"></div>
-              </div>
-            </div>
-            <div class="center-decorative-box dec-4"></div>
-          </div>
-
-
-          <!-- Controller Right (Y, X, B, A Action Buttons) -->
-          <div class="right-inner-box">
-            <div class="system-text">Nintendo</div>
-            <div class="snes-buttons-container">
-              <button type="button" class="action-btn-snes btn-y" data-button="8">Y</button>
-              <button type="button" class="action-btn-snes btn-x" data-button="9">X</button>
-              <button type="button" class="action-btn-snes btn-b" data-button="1">B</button>
-              <button type="button" class="action-btn-snes btn-a" data-button="0">A</button>
+          <div class="gamepad-mid">
+            <div class="gamepad-stripes"><i></i><i></i></div>
+            <div class="gamepad-select">SELECT&nbsp;&nbsp;START</div>
+            <div class="gamepad-sliders">
+              <div class="left-button pill-btn" data-button="2"></div>
+              <div class="right-button pill-btn" data-button="3"></div>
             </div>
           </div>
-
-
+          <div class="gamepad-right">
+            <div class="gamepad-logo">SNESLAB</div>
+            <div class="gamepad-diamond">
+              <button type="button" class="dia-x" data-button="9">X</button>
+              <button type="button" class="dia-y" data-button="8">Y</button>
+              <button type="button" class="dia-b" data-button="1">B</button>
+              <button type="button" class="dia-a" data-button="0">A</button>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
+      <p class="kbd-hint">Arrows = D-Pad · A/B/X/Y = action · Enter = Start · Shift = Select</p>
+    </section>
+  </main>
 
-    <div class="desktop-footer-help">
-      <p>KEYBOARD CONTROLS: Arrow Keys = D-Pad | A = A | B = B | X = X | Y = Y | Enter = Start | Shift = Select</p>
-    </div>
-
-
-  </div>
-
-
-  <!-- ========================================== -->
-  <!-- MODAL: MY GAMES LIBRARY (IndexedDB) -->
-  <!-- ========================================== -->
+  <!-- ============ ROM LIBRARY ============ -->
   <div id="library-modal" class="modal-overlay hidden">
     <div class="modal-card">
       <div class="modal-header">
@@ -323,14 +182,11 @@
         <button type="button" class="modal-close-btn" data-close="library-modal">&times;</button>
       </div>
       <div class="modal-body">
-        <p class="modal-desc">ROMs are saved directly in your browser's offline storage (IndexedDB).</p>
-        <div id="library-rom-list" class="rom-list-container">
-          <!-- Dynamically populated -->
-        </div>
+        <p class="modal-desc">ROMs live in your browser's offline storage (IndexedDB).</p>
+        <div id="library-rom-list" class="rom-list-container"></div>
       </div>
       <div class="modal-footer">
-        <label class="modal-action-btn file-label primary">
-          + ADD NEW ROM
+        <label class="modal-action-btn file-label primary">+ ADD NEW ROM
           <input type="file" id="modal-rom-file-input" accept=".sfc,.smc,.zip" class="hidden-input">
         </label>
         <button type="button" class="modal-action-btn secondary" data-close="library-modal">CLOSE</button>
@@ -338,23 +194,20 @@
     </div>
   </div>
 
-
-  <!-- ========================================== -->
-  <!-- MODAL: INFO & INSTRUCTIONS -->
-  <!-- ========================================== -->
+  <!-- ============ INFO ============ -->
   <div id="info-modal" class="modal-overlay hidden">
     <div class="modal-card">
       <div class="modal-header">
-        <h2>SNESBOY EMULATOR</h2>
+        <h2>SNESLAB CONSOLE</h2>
         <button type="button" class="modal-close-btn" data-close="info-modal">&times;</button>
       </div>
       <div class="modal-body info-text">
-        <p>A Super Nintendo emulator featuring a pluggable top-loading cartridge design.</p>
+        <p>A Super Nintendo bench with a pluggable top-loading cartridge and two independent AI systems.</p>
         <p>Press POWER to boot the loaded game. Click the cartridge (or use ADD ROM) to load your own SNES ROM files — everything stays in your browser.</p>
         <p>Save states and in-game saves persist in this browser. Only play ROMs of games you own.</p>
         <p id="gamepad-status" class="modal-desc">USB pad: checking…</p>
         <p><button type="button" id="btn-pad" class="modal-action-btn primary">🎮 REASSIGN USB PAD TO P1</button></p>
-        <p>Curious how a machine learns Mario? Open the 🤖 Mario AI Lab from the toolbar.</p>
+        <p>Curious how a machine learns Mario? Open the 🤖 AI Lab from the toolbar.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="modal-action-btn secondary" data-close="info-modal">CLOSE</button>
@@ -362,18 +215,21 @@
     </div>
   </div>
 
-
-  <!-- ========================================== -->
-  <!-- MODAL: AI LAB (mario-ai deep Q-learning project) -->
-  <!-- ========================================== -->
+  <!-- ============ AI LAB ============ -->
   <div id="ai-modal" class="modal-overlay hidden">
-    <div class="modal-card">
+    <div class="modal-card wide">
       <div class="modal-header">
-        <h2>🤖 MARIO AI LAB</h2>
+        <h2>🤖 AI LAB — SYSTEM 1 + SYSTEM 2</h2>
         <button type="button" class="modal-close-btn" data-close="ai-modal">&times;</button>
       </div>
       <div class="modal-body ai-lab-body">
-        <p class="modal-desc">A deep Q-learning agent that learned to play the first level of Super Mario World from raw pixels — bundled into this app from the <code>mario-ai</code> research project (see <code>ai/LICENSE</code>).</p>
+        <p class="modal-desc">Two fully separate AI systems. <b>System 1 drives player 1, System 2 drives player 2</b> — each with its own switch, tuning panel, profile, governor memory and stuck logic. Neither touches the other.</p>
+
+        <div class="sys-switches">
+          <button type="button" id="btn-autopilot-p1" class="modal-action-btn primary">▶ P1 AI: OFF</button>
+          <button type="button" id="btn-autopilot-p2" class="modal-action-btn primary">▶ P2 AI: OFF</button>
+        </div>
+
         <h3>HOW IT LEARNS</h3>
         <ul>
           <li>Watches the game as 32×32 + 64×64 grayscale screenshots, 4 frames of history, every 5th frame.</li>
@@ -381,6 +237,7 @@
           <li>Epsilon-greedy policy: random moves 80% of the time at first, down to 10% by action 400k.</li>
           <li>~6.6M parameters across three branches: action history, screenshot history, current screenshot + spatial transformer.</li>
         </ul>
+
         <h3>REWARD FUNCTION</h3>
         <table>
           <tr><th>Event</th><th>Reward</th></tr>
@@ -390,65 +247,81 @@
           <tr><td>Level finished</td><td>+2.0</td></tr>
           <tr><td>Death</td><td>−3.0</td></tr>
         </table>
+
         <h3>NETWORK ARCHITECTURE</h3>
         <img src="ai/network-q.png" alt="Q-network architecture diagram">
         <img src="ai/network-localization.png" alt="Localization network for the spatial transformer">
-        <h3>SAME BUTTONS AS YOUR PAD</h3>
-        <p>The agent picks one arrow + one of A/B/X/Y per step, using the exact same button IDs this app's controllers use (<code>0=B 1=Y 4-7=arrows 8=A 9=X</code>). Watch it: <a href="https://www.youtube.com/watch?v=L4KBBAwF_bE" target="_blank" rel="noopener">model playing on YouTube</a>.</p>
-        <h3>TRY THE AUTOPILOT DEMO</h3>
-        <p>No GPU needed: a screen-reactive bot that watches whatever you load, like the DQN does — it taps through menus while the picture is still, follows the scroll direction once the world moves — horizontal and vertical, so it climbs and descends with the camera instead of only pushing left/right — holds run while the pixels demand it, and alternates the action buttons on the beat — jump in one game is attack in another — working the L/R shoulders in every fourth beat. Pause, game over, or a black fade goes quiet and it finds its own way back. One brain, every game. It stays on until you toggle it off — your own button presses just join in alongside it. It drives player 2 out of the box while you play player 1 — both at the same time, neither overriding the other — as two cloned copilot brains — same screen, but each with its own rhythm and button order, so player 2 never just parrots player 1. Narrow it in TUNE below. The trained Torch model itself needs CUDA + lsnes — see the project README.</p>
-        <p class="modal-desc">Tune it below (thresholds, tap rate, seek-tap rotation) or flip the HUD toggle in the footer to watch its mind work: <code>SEEK · d=2.1</code> vs <code>PLAY · d=23.4 ▶</code>. Button map: <code>dirR=7 dirL=6 run=1 actions=[8,0] shoulders=[10,11] select=2 start=3</code>.</p>
-        <h3>LEARN FROM EVERYTHING</h3>
-        <p>Record play sessions and the app captures all three streams together, timestamped: 32×32 grayscale frames (5fps, the DQN paper's input shape), every button press with its source (pad / keyboard / autopilot / replay), and sound energy from the game's audio. Episodes live in your browser — replay any run through the real controllers, or export the JSON dataset for offline training.</p>
-        <p><button type="button" id="btn-record" class="modal-action-btn primary">● RECORD SESSION</button></p>
-        <p id="learn-status" class="modal-desc">No recording yet.</p>
-        <div id="episode-list" class="rom-list-container"></div>
-        <p id="dataset-summary" class="modal-desc"></p>
-        <h3>TUNE THE BRAIN</h3>
-        <p class="modal-desc">Thresholds apply instantly; timing takes effect by restarting the engine (game untouched). Saved in this browser.</p>
+
+        <div class="sys-panel-s1">
+        <h3>SYSTEM 1 TUNING (P1)</h3>
+        <p class="modal-desc">Independent brain — applies to System 1 only.</p>
         <div class="tune-grid">
-          <label>Sense ms <input type="number" id="opt-senseMs" min="500" max="5000" step="250"></label>
-          <label>Tap ms <input type="number" id="opt-tapMs" min="2000" max="10000" step="500"></label>
-          <label>Motion &gt; <input type="number" id="opt-hiThresh" min="1" max="40" step="0.5"></label>
-          <label>Still &lt; <input type="number" id="opt-loThresh" min="0.5" max="20" step="0.5"></label>
-          <label>Seek taps <input type="text" id="opt-seekCycle" maxlength="31" style="width:86px"></label>
-          <label>Hop 1/N <input type="number" id="opt-hopEvery" min="1" max="10" step="1"></label>
-          <label>Start gap ms <input type="number" id="opt-startGapMs" min="15000" max="300000" step="15000"></label>
-          <label>AI players <select id="opt-players" style="font-family:inherit;font-size:9px;padding:.25rem;border-radius:4px;border:1px solid #5b358c;background:#111827;color:#fff;">
-            <option value="0">Player 1</option>
-            <option value="1">Player 2</option>
-            <option value="0,1">Both 1+2</option>
-          </select></label>
-          <label>Profile <select id="opt-profile" style="font-family:inherit;font-size:9px;padding:.25rem;border-radius:4px;border:1px solid #5b358c;background:#111827;color:#fff;">
+          <label>Sense ms <input type="number" id="opt1-senseMs" min="500" max="5000" step="250"></label>
+          <label>Tap ms <input type="number" id="opt1-tapMs" min="2000" max="10000" step="500"></label>
+          <label>Motion &gt; <input type="number" id="opt1-hiThresh" min="1" max="40" step="0.5"></label>
+          <label>Still &lt; <input type="number" id="opt1-loThresh" min="0.5" max="20" step="0.5"></label>
+          <label>Seek taps <input type="text" id="opt1-seekCycle" maxlength="31"></label>
+          <label>Hop 1/N <input type="number" id="opt1-hopEvery" min="1" max="10" step="1"></label>
+          <label>Start gap ms <input type="number" id="opt1-startGapMs" min="15000" max="300000" step="15000"></label>
+          <label>Profile <select id="opt1-profile">
             <option value="generic">Platformer</option>
             <option value="umk3">UMK3 Fighter</option>
             <option value="racer">Racer (heuristic)</option>
             <option value="shooter">Shooter (heuristic)</option>
             <option value="rpg">RPG / menu-heavy (heuristic)</option>
           </select></label>
+          <label>Auto-tune <select id="opt1-autoTune">
+            <option value="on">On</option>
+            <option value="off">Off</option>
+          </select></label>
         </div>
-        <p class="modal-desc">Seek taps cycle button ids (2=Select 3=Start 8=A 0=B 4=Up 5=Down) — reorder per game. START taps throttle to 1 in 8 only within a minute of gameplay, share one minimum gap across menu and OCR taps, and pause A-confirms for 12s after any START — so the bot can't pause-spam or walk a pause menu into Quit, yet menus always keep working. Thresholds apply instantly; timing restarts the engine, game untouched.</p>
+        </div>
+        <div class="sys-panel-s2">
+        <h3>SYSTEM 2 TUNING (P2)</h3>
+        <p class="modal-desc">Independent brain — applies to System 2 only.</p>
+        <div class="tune-grid">
+          <label>Sense ms <input type="number" id="opt2-senseMs" min="500" max="5000" step="250"></label>
+          <label>Tap ms <input type="number" id="opt2-tapMs" min="2000" max="10000" step="500"></label>
+          <label>Motion &gt; <input type="number" id="opt2-hiThresh" min="1" max="40" step="0.5"></label>
+          <label>Still &lt; <input type="number" id="opt2-loThresh" min="0.5" max="20" step="0.5"></label>
+          <label>Seek taps <input type="text" id="opt2-seekCycle" maxlength="31"></label>
+          <label>Hop 1/N <input type="number" id="opt2-hopEvery" min="1" max="10" step="1"></label>
+          <label>Start gap ms <input type="number" id="opt2-startGapMs" min="15000" max="300000" step="15000"></label>
+          <label>Profile <select id="opt2-profile">
+            <option value="generic">Platformer</option>
+            <option value="umk3">UMK3 Fighter</option>
+            <option value="racer">Racer (heuristic)</option>
+            <option value="shooter">Shooter (heuristic)</option>
+            <option value="rpg">RPG / menu-heavy (heuristic)</option>
+          </select></label>
+          <label>Auto-tune <select id="opt2-autoTune">
+            <option value="on">On</option>
+            <option value="off">Off</option>
+          </select></label>
+        </div>
+        </div>
+
+        <p class="modal-desc">Seek taps cycle button ids (2=Select 3=Start 8=A 0=B 4=Up 5=Down) — reorder per game. Thresholds apply instantly; timing restarts live, game untouched.</p>
         <p class="modal-desc" id="agent-map-readout"></p>
         <p><button type="button" id="btn-tune-reset" class="modal-action-btn secondary">RESET TUNING</button>
         <button type="button" id="btn-autotune" class="modal-action-btn secondary">AUTO-TUNE: ON</button></p>
-        <p class="modal-desc" id="anton-live">SON OF ANTON · idle — flip AUTO-TUNE and engage the autopilot.</p>
-        <h3>MANUAL LIBRARY</h3>
-        <p class="modal-desc">Control knowledge is distilled from the Internet Archive SNES manual collection — 863 booklets (<code>ai/manual-index.json</code> has every title; profiles live in <code>ai/manual-knowledge.js</code>). Verified entries: All-Stars platforming (bundled ROM) and the full UMK3 booklet. The rest start from genre heuristics — pick the closest profile in TUNE. Manuals belong to their publishers; grab the PDFs here:</p>
-        <ul>
-          <li><a href="https://archive.org/download/snes_manual_archive/Super%20Mario%20All-Stars%20%28USA%29.pdf" target="_blank" rel="noopener">Super Mario All-Stars (USA)</a> → Platformer</li>
-          <li><a href="https://archive.org/download/snes_manual_archive/Ultimate%20Mortal%20Kombat%203%20%28USA%29.pdf" target="_blank" rel="noopener">Ultimate Mortal Kombat 3 (USA)</a> → UMK3 Fighter</li>
-          <li><a href="https://archive.org/download/snes_manual_archive/Super%20Mario%20Kart%20%28USA%29.pdf" target="_blank" rel="noopener">Super Mario Kart (USA)</a> → Racer</li>
-          <li><a href="https://archive.org/download/snes_manual_archive/Super%20Metroid%20%28Japan%2C%20USA%29.pdf" target="_blank" rel="noopener">Super Metroid</a> → Platformer</li>
-          <li><a href="https://archive.org/download/snes_manual_archive/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.pdf" target="_blank" rel="noopener">Zelda: A Link to the Past</a> → RPG preset</li>
-          <li><a href="https://archive.org/details/snes_manual_archive" target="_blank" rel="noopener">Full 863-manual archive →</a></li>
-        </ul>
+        <p class="modal-desc" id="anton-live">SON OF ANTON · idle — engage a system above.</p>
+
+        <h3>MANUAL BRAIN (AI LEARNING)</h3>
+        <p class="modal-desc">The archive feeds the pilots, not people. On every boot the AI matches the loaded ROM to its manual, loads the cached control lines (or fetches + extracts them once), and uses them to steer: menu confirms, run/block habits, and profile pick. Source: Internet Archive SNES collection, 863 booklets.</p>
         <p><button type="button" id="btn-manual-load" class="modal-action-btn secondary">LOAD MANUAL FOR CURRENT GAME</button></p>
-        <p class="modal-desc" id="manual-status">Plans search → fetch → extract as Son of Anton capability steps. Your click is the approval.</p>
+        <p class="modal-desc" id="manual-status">Auto-loads on boot. Your click is the approval for a fresh fetch.</p>
         <div id="manual-extract" class="rom-list-container"></div>
-        <h3>FIGHTER PROFILE: UMK3</h3>
-        <p class="modal-desc">From the manual: RUN = hold R + Forward to close distance. BLOCK = hold L. Crouch kick = DOWN + X/A, uppercut = DOWN + Y, spin moves = hold AWAY + kick, jump-ins = UP(+toward) + punch timed on the way down. Fighter select takes any button except START; START picks menus. The UMK3 profile plays exactly this way — approach with RUN, strike flurries (button sequences land kombos), BLOCK phases, crouch uppercuts, jump-ins, and rotating special-motion strings from the full move list (<code>ai/umk3-moves.js</code>: 85 combat moves, 25 fighters — Scorpion's spear, Sub-Zero's slide, Reptile's forceballs, simultaneous chords like Sonya's leg grab). Finishers, hold-charges, air-only moves, morphs and bosses are excluded (unverifiable states). Sides alternate since facing is unknown.</p>
+
+        <h3>LEARN FROM EVERYTHING</h3>
+        <p>Record play sessions and the app captures all three streams together, timestamped: 32×32 grayscale frames (5fps, the DQN paper's input shape), every button press with its source (pad / keyboard / autopilot / replay), and sound energy from the game's audio. Episodes live in your browser — replay any run through the real controllers, or export the JSON dataset for offline training.</p>
+        <p><button type="button" id="btn-record" class="modal-action-btn primary">● RECORD SESSION</button></p>
+        <p id="learn-status" class="modal-desc">No recording yet.</p>
+        <div id="episode-list" class="rom-list-container"></div>
+        <p id="dataset-summary" class="modal-desc"></p>
+
         <h3>AGENT TELEMETRY</h3>
-        <p class="modal-desc">Live while the autopilot runs: what it sees (64×64), what it's doing, and why.</p>
+        <p class="modal-desc">Live while either system runs: what it sees (64×64), what each system is doing, and why.</p>
         <canvas id="telemetry-vision" width="64" height="64"></canvas>
         <div class="tele-row"><span>Mode</span><span id="tele-mode">OFF</span></div>
         <div class="tele-row"><span>Last move</span><span id="tele-move">—</span></div>
@@ -458,16 +331,14 @@
         <div class="tele-row"><span>Plan</span><span id="tele-plan">—</span></div>
         <div class="tele-row"><span>Manual</span><span id="tele-manual">—</span></div>
         <div class="tele-row"><span>Memory</span><span id="tele-memory">deaths 0 · stucks 0 · saves 0</span></div>
-        <div id="anton-console"><div>[BOOT] telemetry online — engage the autopilot.</div></div>
-        <h3>AUTONOMOUS PLAYER LOOP</h3>
-        <p class="modal-desc">Every 2s the loop observes (live frame + audio + words), plans a short sequence, acts through the real P1/P2 controllers, then verifies the result on the next frames. Deaths retry via START and, from the 2nd death, the strategic checkpoint. Still-in-play ~20s escalates: reverse burst → checkpoint reload → human help request. It never stops permanently, never edits memory or pixels, and P2 is tracked as an ally, never a target. Pause the AI anytime with its own toggle — your inputs always work alongside it.</p>
-        <h3>SON OF ANTON (GENERAL PLANNER)</h3>
-        <p class="modal-desc">A standalone planning + learning core — no external AI. Goals, states, and actions go in; beam-search plans, approved execution, and feedback-tuned preferences come out. Below, its code-health capability plans a report run over this app's own sources (scores only, nothing modified).</p>
+        <div id="anton-console"><div>[BOOT] telemetry online — engage a system above.</div></div>
+
+        <h3>CODE HEALTH (SON OF ANTON)</h3>
+        <p class="modal-desc">Report-only analyzer: scores this app's own sources for comment/log/dead-code bloat. It never modifies or deletes anything — scores only.</p>
         <p><button type="button" id="btn-anton-analyze" class="modal-action-btn secondary">RUN CODE HEALTH SCAN</button></p>
         <div id="anton-results" class="rom-list-container"></div>
       </div>
       <div class="modal-footer">
-        <button type="button" id="btn-autopilot" class="modal-action-btn primary">▶ AUTOPILOT: OFF</button>
         <button type="button" id="btn-checkpoint" class="modal-action-btn secondary">SAVE CHECKPOINT</button>
         <button type="button" id="btn-ocr" class="modal-action-btn secondary">READ WORDS: OFF</button>
         <button type="button" id="btn-hud" class="modal-action-btn secondary">HUD: OFF</button>
@@ -476,8 +347,6 @@
     </div>
   </div>
 
-
-  <!-- Standalone Script -->
   <script src="ai/son-of-anton.js"></script>
   <script src="ai/manual-knowledge.js"></script>
   <script src="ai/umk3-moves.js"></script>
