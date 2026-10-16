@@ -332,8 +332,9 @@
   });
 
   function releaseAuto(){
-    [AgentMap.dirR, AgentMap.dirL, AgentMap.run]
-      .concat(AgentMap.actions, AgentMap.shoulders, [4, 5])
+    /* Release the full RetroArch button superset on every player slot so
+       no hold survives a core switch (e.g. SNES shoulders -> NES). */
+    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
       .forEach(function(i){
         for(var pl = 0; pl <= 3; pl++) driveIndex(i, false, 'sys', pl);
       });
@@ -372,9 +373,25 @@
   function saveAgentOpts(){
     try{ localStorage.setItem('snesboy-agent', JSON.stringify(AgentOpts)); }catch(e){}
   }
-  /* Emulator button indices the brain uses (RetroArch SNES numbering).
-     Human pads keep using PADINDEX; only the agent reads this. */
+  /* Emulator button indices the brain uses (RetroArch numbering, same
+     index space on all EmulatorJS cores per control-mapping docs:
+     0=B, 1=Y, 2=Select, 3=Start, 4=Up, 5=Down, 6=Left, 7=Right,
+     8=A, 9=X, 10=L, 11=R. Cores simply ignore unmapped indices.)
+     Human pads keep using PADINDEX; only the agent reads the effective map.
+     SNES uses the full map. NES (fceumm) + GB (gambatte) only have
+     A(8)/B(0)/Select/Start/D-Pad: run is B(0), no shoulders, no X/Y. */
   var AgentMap = { dirR: 7, dirL: 6, run: 1, actions: [8, 0], shoulders: [10, 11], select: 2, start: 3 };
+  function effectiveAgentMap(){
+    if(currentCore === 'nes' || currentCore === 'gb'){
+      return { dirR: 7, dirL: 6, run: 0, actions: [8, 0], shoulders: [], select: 2, start: 3 };
+    }
+    return AgentMap;
+  }
+  function agentProfile(){
+    /* UMK3 fighter profile is SNES-only; fall back to generic elsewhere. */
+    if(AgentOpts.profile === 'umk3' && currentCore === 'snes') return 'umk3';
+    return 'generic';
+  }
   /* SEEK tap rotation, parsed from AgentOpts.seekCycle ('2,2,3,8,5,4' =
      SELECT, SELECT, START, A, DOWN, UP). Confirms plus dpad taps: many
      menus need a cursor move before the confirm. Taps only, never holds. */
@@ -397,9 +414,10 @@
   var autoMenuTimer = null, autoSenseTimer = null;
   var autoPilots = [];
   function makePilot(player, idx, menus){
+    var acts = effectiveAgentMap().actions;
     return { pl: player, menus: menus, mode: 'seek', prev: null, hi: 0, lo: 0,
       menuN: 0, hopN: idx * 2, tick: 0, shN: 0, fphase: -1,
-      order: (idx % 2 === 0) ? AgentMap.actions.slice() : AgentMap.actions.slice().reverse() };
+      order: (idx % 2 === 0) ? acts.slice() : acts.slice().reverse() };
   }
   /* UMK3 fighter profile (built from the manual): RUN=R(11)+direction to
      close, BLOCK=L(10), crouch kick=DOWN+X/A, uppercut=DOWN+Y, spin moves=
@@ -502,11 +520,13 @@
     setTimeout(function(){ driveIndex(idx, false, 'auto', pl); }, AgentOpts.tapPulseMs);
   }
   function updateAgentHud(){
+    var emh = effectiveAgentMap();
     var txt = (autoOn ? pilotModes() : 'OFF') + ' · d=' + autoDiff.toFixed(1) +
-      (autoOn && /play/.test(pilotModes()) ? (autoDir === AgentMap.dirL ? ' ◀' : ' ▶') + (autoDirY === 4 ? '▲' : (autoDirY === 5 ? '▼' : '')) : '') +
+      (autoOn && /play/.test(pilotModes()) ? (autoDir === emh.dirL ? ' ◀' : ' ▶') + (autoDirY === 4 ? '▲' : (autoDirY === 5 ? '▼' : '')) : '') +
       (autoOn ? ' · ' + autoPlayers().map(function(p){ return 'P' + (p + 1); }).join('+') : '') +
+      (autoOn ? ' · ' + (CORE_LABEL[currentCore] || currentCore.toUpperCase()) : '') +
       (autoOn && AgentOpts.autoTune ? ' · AT' : '') +
-      (autoOn && AgentOpts.profile === 'umk3' ? ' · UMK3' : '');
+      (autoOn && agentProfile() === 'umk3' ? ' · UMK3' : '');
     $all('.agent-hud').forEach(function(e){
       e.textContent = txt;
       e.classList.toggle('hidden', !AgentOpts.hud);
@@ -568,7 +588,8 @@
         dMax = Math.max(dMax, sensePilot(pt, g));
       });
       if(sh !== null){
-        if(sh >= 2) autoDir = AgentMap.dirR; else if(sh <= -2) autoDir = AgentMap.dirL;
+        var em0 = effectiveAgentMap();
+        if(sh >= 2) autoDir = em0.dirR; else if(sh <= -2) autoDir = em0.dirL;
         if(shy >= 2) autoDirY = 5; else if(shy <= -2) autoDirY = 4;
       }
       autoDiff = dMax;
@@ -583,13 +604,14 @@
       if(!playing) return;
       autoPilots.forEach(function(pt, idx){
         if(pt.mode !== 'play') return; /* menus get taps only — held buttons would fight navigation */
-        if(AgentOpts.profile === 'umk3'){ fightTick(pt, idx); return; }
+        if(agentProfile() === 'umk3'){ fightTick(pt, idx); return; }
+        var em = effectiveAgentMap();
         pt.tick++;
         /* release the opposite direction first: if the scroll vote flipped,
            the old hold would otherwise stay latched (L+R stuck) */
-        driveIndex(autoDir === AgentMap.dirL ? AgentMap.dirR : AgentMap.dirL, false, 'auto', pt.pl);
+        driveIndex(autoDir === em.dirL ? em.dirR : em.dirL, false, 'auto', pt.pl);
         driveIndex(autoDir, true, 'auto', pt.pl);
-        driveIndex(AgentMap.run, true, 'auto', pt.pl); /* follow the scroll + run/dash */
+        if(em.run !== null && em.run !== undefined) driveIndex(em.run, true, 'auto', pt.pl); /* run/dash: SNES Y, NES/GB B */
         if(autoDirY !== null){
           /* vertical scroll voted: hold the voted direction (Up/Down),
              releasing the opposite first — same anti-stuck rule as horizontal */
@@ -617,10 +639,10 @@
           (function(b, pl){
             setTimeout(function(){ if(autoOn) driveIndex(b, false, 'auto', pl); }, AgentOpts.hopPulseMs);
           })(btn, pt.pl);
-          if(pt.hopN % 4 === 3){
-            /* every 4th beat works a shoulder too — dash/strafe/special, per game */
+          if(pt.hopN % 4 === 3 && em.shoulders && em.shoulders.length){
+            /* every 4th beat works a shoulder too — SNES only; NES/GB skip */
             pt.shN++;
-            var sh = AgentMap.shoulders[pt.shN % AgentMap.shoulders.length];
+            var sh = em.shoulders[pt.shN % em.shoulders.length];
             driveIndex(sh, true, 'auto', pt.pl);
             (function(s, pl){
               setTimeout(function(){ if(autoOn) driveIndex(s, false, 'auto', pl); }, AgentOpts.hopPulseMs);
@@ -770,10 +792,14 @@
     var pf = document.getElementById('opt-profile');
     if(pf) pf.value = (AgentOpts.profile === 'umk3') ? 'umk3' : 'generic';
     var map = document.getElementById('agent-map-readout');
-    if(map) map.textContent = 'map: dirR=' + AgentMap.dirR + ' dirL=' + AgentMap.dirL +
-      ' run=' + AgentMap.run + ' actions=[' + AgentMap.actions.join(',') +
-      '] shoulders=[' + AgentMap.shoulders.join(',') +
-      '] select=' + AgentMap.select + ' start=' + AgentMap.start;
+    if(map){
+      var emr = effectiveAgentMap();
+      map.textContent = '[' + (CORE_LABEL[currentCore] || currentCore.toUpperCase()) + '] map: dirR=' + emr.dirR + ' dirL=' + emr.dirL +
+        ' run=' + emr.run + ' actions=[' + emr.actions.join(',') +
+        '] shoulders=[' + emr.shoulders.join(',') +
+        '] select=' + emr.select + ' start=' + emr.start +
+        (agentProfile() === 'umk3' ? ' · UMK3 fighter active' : ' · generic platformer (UMK3 profile is SNES-only)');
+    }
   }
   function resetAgentOpts(){
     AgentOpts = Object.assign({}, AgentDefaults);
@@ -1198,7 +1224,25 @@
         p.className = 'modal-desc'; p.textContent = 'No ROMs yet — add one below.';
         list.appendChild(p); return;
       }
+      /* RomM-style platform sections: roms/snes, roms/nes, roms/gb. */
+      var order = ['snes', 'nes', 'gb'];
+      var groups = { snes: [], nes: [], gb: [] };
       entries.forEach(function(en){
+        var c = en.core || detectCoreFromName(en.name);
+        if(!groups[c]) groups[c] = [];
+        groups[c].push(en);
+      });
+      var shown = 0;
+      order.forEach(function(groupCore){
+        var gens = groups[groupCore] || [];
+        if(!gens.length) return;
+        shown++;
+        var head = document.createElement('div');
+        head.className = 'rom-name';
+        head.style.cssText = 'margin:6px 0 2px;opacity:.8;';
+        head.textContent = '▸ roms/' + groupCore + ' — ' + (CORE_LABEL[groupCore] || groupCore.toUpperCase()) + ' (' + gens.length + ')';
+        list.appendChild(head);
+        gens.forEach(function(en){
         var core = en.core || detectCoreFromName(en.name);
         var item = document.createElement('div'); item.className = 'rom-list-item';
         var nm = document.createElement('div'); nm.className = 'rom-name';
@@ -1239,6 +1283,7 @@
           act.appendChild(del);
         }
         item.appendChild(nm); item.appendChild(act); list.appendChild(item);
+        });
       });
     });
   }
@@ -1258,8 +1303,136 @@
     if(inp) inp.addEventListener('change', function(){ addFiles(inp.files); inp.value = ''; });
   });
 
+  /* ---------- RomM server (self-hosted library) ----------
+     Connects to YOUR RomM instance (Docker + MariaDB + Valkey per their
+     quick-start docs) via its REST API: GET /api/platforms, GET /api/roms,
+     GET /api/roms/{id}/content/{file_name}?purpose=play. Auth is a Client
+     API token (rmm_…) from Administration → Client API Tokens. The RomM
+     host must list this page's origin in ROMM_CORS_ALLOWED_ORIGINS or the
+     browser will block the calls. Imported games land in the local IndexedDB
+     shelf with the platform slug mapped onto our snes/nes/gb cores. */
+  var ROMM_SLUGS = {
+    snes: 'snes', superfamicom: 'snes', sfam: 'snes',
+    nes: 'nes', famicom: 'nes', fds: 'nes',
+    gb: 'gb', gbc: 'gb', gameboy: 'gb', gameboycolor: 'gb'
+  };
+  function rommConfig(){
+    var url = '', token = '';
+    try{
+      url = (document.getElementById('romm-url') || {}).value || localStorage.getItem('snesboy-romm-url') || '';
+      token = (document.getElementById('romm-token') || {}).value || localStorage.getItem('snesboy-romm-token') || '';
+    }catch(e){}
+    url = String(url).trim().replace(/\/+$/, '');
+    token = String(token).trim();
+    return { url: url, token: token };
+  }
+  function rommStatus(msg){
+    var e = document.getElementById('romm-status');
+    if(e) e.textContent = msg;
+  }
+  function rommHeaders(token){
+    return { 'Authorization': 'Bearer ' + token };
+  }
+  function rommCoreFor(slug, fsName){
+    var s = String(slug || '').toLowerCase();
+    if(ROMM_SLUGS[s]) return ROMM_SLUGS[s];
+    return detectCoreFromName(fsName || '');
+  }
+  function rommFetchRoms(){
+    var cfg = rommConfig();
+    var list = document.getElementById('romm-list');
+    if(!cfg.url){ rommStatus('Enter your RomM server URL first (e.g. http://192.168.1.10:8080).'); return; }
+    if(!cfg.token){ rommStatus('Paste a Client API token (rmm_…) from RomM → Administration → Client API Tokens.'); return; }
+    try{
+      localStorage.setItem('snesboy-romm-url', cfg.url);
+      localStorage.setItem('snesboy-romm-token', cfg.token);
+    }catch(e){}
+    rommStatus('Connecting to ' + cfg.url + ' …');
+    if(list) list.innerHTML = '';
+    fetch(cfg.url + '/api/platforms', { headers: rommHeaders(cfg.token) })
+      .then(function(r){
+        if(r.status === 401 || r.status === 403) throw new Error('auth (401/403) — check the token and its scopes');
+        if(!r.ok) throw new Error('HTTP ' + r.status + ' on /api/platforms');
+        return r.json();
+      })
+      .then(function(){
+        return fetch(cfg.url + '/api/roms?limit=50&with_files=true', { headers: rommHeaders(cfg.token) });
+      })
+      .then(function(r){
+        if(!r.ok) throw new Error('HTTP ' + r.status + ' on /api/roms');
+        return r.json();
+      })
+      .then(function(data){
+        var items = (data && data.items) || [];
+        if(!items.length){ rommStatus('Connected — but the server returned 0 ROMs. Scan your library in RomM first.'); return; }
+        var shown = 0;
+        items.forEach(function(rom){
+          var fsName = rom.fs_name || rom.name || ('rom-' + rom.id);
+          var core = rommCoreFor(rom.platform_slug || rom.platform_fs_slug, fsName);
+          var supported = (core === 'snes' || core === 'nes' || core === 'gb');
+          var row = document.createElement('div'); row.className = 'rom-list-item';
+          var nm = document.createElement('div'); nm.className = 'rom-name';
+          nm.textContent = '[' + (CORE_LABEL[core] || core.toUpperCase()) + '] ' + (rom.name || fsName) + '  ·  ' + (rom.platform_slug || '?');
+          var act = document.createElement('div'); act.className = 'rom-actions';
+          var imp = document.createElement('button');
+          imp.className = 'rom-btn-play';
+          imp.textContent = supported ? 'IMPORT' : 'SKIP';
+          imp.disabled = !supported;
+          imp.title = supported ? 'Download from RomM into this browser' : 'Platform not supported here (SNES/NES/GB only)';
+          if(supported){
+            imp.addEventListener('click', function(){ rommImportRom(rom, core); });
+          }
+          act.appendChild(imp);
+          row.appendChild(nm); row.appendChild(act);
+          if(list) list.appendChild(row);
+          shown++;
+        });
+        rommStatus('Connected — showing ' + shown + ' ROMs (SNES/NES/GB importable, others skipped). Tap IMPORT to save one to this device.');
+      })
+      .catch(function(err){
+        var msg = String((err && err.message) || err);
+        if(msg.indexOf('Failed to fetch') !== -1 || msg.indexOf('NetworkError') !== -1){
+          rommStatus('Network/CORS blocked — on the RomM host set ROMM_CORS_ALLOWED_ORIGINS to include ' + location.origin + ' and retry.');
+        }else{
+          rommStatus('RomM error: ' + msg);
+        }
+      });
+  }
+  function rommImportRom(rom, core){
+    var cfg = rommConfig();
+    var fsName = rom.fs_name || rom.name || ('rom-' + rom.id);
+    rommStatus('Downloading ' + fsName + ' …');
+    fetch(cfg.url + '/api/roms/' + rom.id + '/content/' + encodeURIComponent(fsName) + '?purpose=play', { headers: rommHeaders(cfg.token) })
+      .then(function(r){
+        if(!r.ok) throw new Error('HTTP ' + r.status + ' downloading content');
+        return r.blob();
+      })
+      .then(function(blob){
+        var entry = { name: fsName, blob: blob, builtin: false, core: core || detectCoreFromName(fsName), rommId: rom.id };
+        var done = function(){ renderLibrary(); rommStatus('Imported ' + fsName + ' → ON THIS DEVICE below.'); };
+        if(DB){ idbPut(entry).then(done, done); }
+        else{ MEM.push(entry); done(); }
+      })
+      .catch(function(err){
+        rommStatus('Import failed: ' + String((err && err.message) || err));
+      });
+  }
+  function rommPrefill(){
+    try{
+      var u = localStorage.getItem('snesboy-romm-url');
+      var t = localStorage.getItem('snesboy-romm-token');
+      var ue = document.getElementById('romm-url');
+      var te = document.getElementById('romm-token');
+      if(u && ue && !ue.value) ue.value = u;
+      if(t && te && !te.value) te.value = t;
+    }catch(e){}
+  }
+
   /* ---------- modals ---------- */
-  function openModal(id){ document.getElementById(id).classList.remove('hidden'); }
+  function openModal(id){
+    if(id === 'library-modal') rommPrefill();
+    document.getElementById(id).classList.remove('hidden');
+  }
   function closeModals(){ $all('.modal-overlay').forEach(function(m){ m.classList.add('hidden'); }); }
   $all('.modal-overlay').forEach(function(m){
     m.addEventListener('click', function(e){ if(e.target === m) closeModals(); });
@@ -1369,6 +1542,7 @@
   on('dt-btn-theme', toggleTheme);
   on('btn-library', function(){ renderLibrary(); openModal('library-modal'); });
   on('dt-btn-library', function(){ renderLibrary(); openModal('library-modal'); });
+  on('btn-romm-connect', rommFetchRoms);
   on('btn-info', function(){ updatePadStatus(); openModal('info-modal'); });
   on('dt-btn-info', function(){ updatePadStatus(); openModal('info-modal'); });
   on('btn-pad', function(){ assignUsbPad(); updatePadStatus(); });

@@ -323,7 +323,17 @@
         <button type="button" class="modal-close-btn" data-close="library-modal">&times;</button>
       </div>
       <div class="modal-body">
-        <p class="modal-desc">ROMs are saved directly in your browser's offline storage (IndexedDB). Supports SNES (.sfc/.smc), NES (.nes), Game Boy/Color (.gb/.gbc). Core is auto-detected from the filename — fix it with the dropdown if a .zip guesses wrong.</p>
+        <p class="modal-desc">ROMs are saved directly in your browser's offline storage (IndexedDB) — your local RomM-style shelf: <code>roms/snes</code>, <code>roms/nes</code>, <code>roms/gb</code>. Supports SNES (.sfc/.smc), NES (.nes), Game Boy/Color (.gb/.gbc). Core is auto-detected from the filename — fix it with the dropdown if a .zip guesses wrong.</p>
+        <h3 style="margin-top:8px;">ROMM SERVER</h3>
+        <p class="modal-desc">Connect your self-hosted RomM (Docker + DB per their quick-start) and pull games straight in. Needs a Client API token (<code>rmm_…</code>, Administration → Client API Tokens) and your instance's origin in <code>ROMM_CORS_ALLOWED_ORIGINS</code>.</p>
+        <div class="tune-grid">
+          <label style="grid-column:1/-1;">Server URL <input type="text" id="romm-url" placeholder="https://romm.example.com" style="width:170px;"></label>
+          <label style="grid-column:1/-1;">API token <input type="password" id="romm-token" placeholder="rmm_…" style="width:170px;"></label>
+        </div>
+        <p><button type="button" id="btn-romm-connect" class="modal-action-btn secondary">CONNECT + LIST GAMES</button></p>
+        <p id="romm-status" class="modal-desc">Not connected.</p>
+        <div id="romm-list" class="rom-list-container"></div>
+        <h3 style="margin-top:8px;">ON THIS DEVICE</h3>
         <div id="library-rom-list" class="rom-list-container">
           <!-- Dynamically populated -->
         </div>
@@ -397,7 +407,7 @@
         <p>The agent picks one arrow + one of A/B/X/Y per step, using the exact same button IDs this app's controllers use (<code>0=B 1=Y 4-7=arrows 8=A 9=X</code>). Watch it: <a href="https://www.youtube.com/watch?v=L4KBBAwF_bE" target="_blank" rel="noopener">model playing on YouTube</a>.</p>
         <h3>TRY THE AUTOPILOT DEMO</h3>
         <p>No GPU needed: a screen-reactive bot that watches whatever you load, like the DQN does — it taps through menus while the picture is still, follows the scroll direction once the world moves — horizontal and vertical, so it climbs and descends with the camera instead of only pushing left/right — holds run while the pixels demand it, and alternates the action buttons on the beat — jump in one game is attack in another — working the L/R shoulders in every fourth beat. Pause, game over, or a black fade goes quiet and it finds its own way back. One brain, every game. It stays on until you toggle it off — your own button presses just join in alongside it. It drives players 1 and 2 together out of the box (menus stay on player 1) as two cloned copilot brains — same screen, but each with its own rhythm and button order, so player 2 never just parrots player 1. Narrow it in TUNE below. The trained Torch model itself needs CUDA + lsnes — see the project README.</p>
-        <p class="modal-desc">Tune it below (thresholds, tap rate, seek-tap rotation) or flip the HUD toggle in the footer to watch its mind work: <code>SEEK · d=2.1</code> vs <code>PLAY · d=23.4 ▶</code>. Button map: <code>dirR=7 dirL=6 run=1 actions=[8,0] shoulders=[10,11] select=2 start=3</code>.</p>
+        <p class="modal-desc">Plays all three systems: on SNES it uses the full map (Y-run, A/B strikes, L/R shoulders); on NES / Game Boy it auto-switches to A(8)/B(0) strikes with B-run and no shoulders (those buttons don't exist there). The UMK3 fighter profile is SNES-only and falls back to generic elsewhere. Tune it below (thresholds, tap rate, seek-tap rotation) or flip the HUD toggle in the footer to watch its mind work: <code>SEEK · d=2.1</code> vs <code>PLAY · d=23.4 ▶</code>. Button map: <code>dirR=7 dirL=6 run=1 actions=[8,0] shoulders=[10,11] select=2 start=3</code>.</p>
         <h3>LEARN FROM EVERYTHING</h3>
         <p>Record play sessions and the app captures all three streams together, timestamped: 32×32 grayscale frames (5fps, the DQN paper's input shape), every button press with its source (pad / keyboard / autopilot / replay), and sound energy from the game's audio. Episodes live in your browser — replay any run through the real controllers, or export the JSON dataset for offline training.</p>
         <p><button type="button" id="btn-record" class="modal-action-btn primary">● RECORD SESSION</button></p>
