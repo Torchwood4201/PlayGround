@@ -35,6 +35,7 @@
     .rom-btn-play { background: #16a34a; color: #fff; }
     .rom-btn-del { background: #dc2626; color: #fff; }
     .rom-btn-export { background: #1d4ed8; color: #fff; padding: .35rem .6rem; font-family: inherit; font-size: 8px; border-radius: 4px; border: none; cursor: pointer; font-weight: bold; }
+    .rom-core-select { font-family: inherit; font-size: 8px; font-weight: bold; padding: .35rem .4rem; border-radius: 4px; border: none; background: #5b358c; color: #fff; cursor: pointer; }
     #telemetry-vision { width: 128px; height: 128px; image-rendering: pixelated; background: #000; border: 1px solid #5b358c; border-radius: 6px; display: block; }
     .tele-row { display: flex; justify-content: space-between; font-size: 8px; color: #d1d5db; margin-bottom: 3px; }
     .tele-row span:last-child { color: #7CFC00; }
@@ -138,7 +139,7 @@
         <button type="button" id="btn-library" class="sys-btn sys-btn-purple">MY GAMES</button>
         <label class="sys-btn sys-btn-blue file-label">
           ADD ROM
-          <input type="file" id="rom-file-input" accept=".sfc,.smc,.zip" class="hidden-input">
+          <input type="file" id="rom-file-input" accept=".sfc,.smc,.nes,.gb,.gbc,.zip" class="hidden-input">
         </label>
       </div>
 
@@ -205,7 +206,7 @@
       <!-- SEPARATE PLUGGABLE CARTRIDGE (Positions above console, plugs down into the slot) -->
       <div class="standalone-cartridge-container" id="cartridge" title="Click or Drop ROM to Insert Cartridge">
         <label for="desktop-rom-file-input" class="cartridge-hitbox"></label>
-        <input type="file" id="desktop-rom-file-input" accept=".sfc,.smc,.zip" class="hidden-input">
+        <input type="file" id="desktop-rom-file-input" accept=".sfc,.smc,.nes,.gb,.gbc,.zip" class="hidden-input">
         <div class="snes-cartridge-body">
           <div class="cartridge-arch-top"></div>
           <div class="cartridge-label-area">
@@ -322,7 +323,7 @@
         <button type="button" class="modal-close-btn" data-close="library-modal">&times;</button>
       </div>
       <div class="modal-body">
-        <p class="modal-desc">ROMs are saved directly in your browser's offline storage (IndexedDB).</p>
+        <p class="modal-desc">ROMs are saved directly in your browser's offline storage (IndexedDB). Supports SNES (.sfc/.smc), NES (.nes), Game Boy/Color (.gb/.gbc). Core is auto-detected from the filename — fix it with the dropdown if a .zip guesses wrong.</p>
         <div id="library-rom-list" class="rom-list-container">
           <!-- Dynamically populated -->
         </div>
@@ -330,7 +331,7 @@
       <div class="modal-footer">
         <label class="modal-action-btn file-label primary">
           + ADD NEW ROM
-          <input type="file" id="modal-rom-file-input" accept=".sfc,.smc,.zip" class="hidden-input">
+          <input type="file" id="modal-rom-file-input" accept=".sfc,.smc,.nes,.gb,.gbc,.zip" class="hidden-input">
         </label>
         <button type="button" class="modal-action-btn secondary" data-close="library-modal">CLOSE</button>
       </div>
@@ -348,8 +349,8 @@
         <button type="button" class="modal-close-btn" data-close="info-modal">&times;</button>
       </div>
       <div class="modal-body info-text">
-        <p>A Super Nintendo emulator featuring a pluggable top-loading cartridge design.</p>
-        <p>Press POWER to boot the loaded game. Click the cartridge (or use ADD ROM) to load your own SNES ROM files — everything stays in your browser.</p>
+        <p>A Nintendo emulator featuring a pluggable top-loading cartridge design. Plays SNES, NES, and Game Boy / Game Boy Color — no BIOS needed.</p>
+        <p>Press POWER to boot the loaded game. Click the cartridge (or use ADD ROM) to load your own ROM files — everything stays in your browser. X/Y/L/R are SNES-only; on NES and Game Boy just use D-Pad + A/B + Start/Select.</p>
         <p>Save states and in-game saves persist in this browser. Only play ROMs of games you own.</p>
         <p id="gamepad-status" class="modal-desc">USB pad: checking…</p>
         <p><button type="button" id="btn-pad" class="modal-action-btn primary">🎮 REASSIGN USB PAD TO P1</button></p>

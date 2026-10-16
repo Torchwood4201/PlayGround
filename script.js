@@ -7,7 +7,24 @@
 (function(){
   'use strict';
 
-  var BUNDLED = { name: 'Super Mario All-Stars (USA).sfc', url: 'super-mario-all-stars-usa.sfc', builtin: true };
+  var BUNDLED = { name: 'Super Mario All-Stars (USA).sfc', url: 'super-mario-all-stars-usa.sfc', builtin: true, core: 'snes' };
+
+  /* Multi-system core map (no-BIOS EmulatorJS cores, per RomM cores table).
+     NES -> fceumm, GameBoy/Color -> gambatte, SNES -> snes9x ('snes'). */
+  var CORE_LABEL = { snes: 'SNES', nes: 'NES', gb: 'GB' };
+  var CORE_EXT = { sfc: 'snes', smc: 'snes', nes: 'nes', gb: 'gb', gbc: 'gb' };
+  function detectCoreFromName(name){
+    var n = String(name || '').toLowerCase().replace(/\.zip$/, '');
+    var m = n.match(/\.([a-z0-9]+)$/);
+    if(m && CORE_EXT[m[1]]) return CORE_EXT[m[1]];
+    return 'snes'; /* backward compatible default */
+  }
+  function hashGameId(name, core){
+    var s = String(core || 'snes') + ':' + String(name || '');
+    var h = 0;
+    for(var i = 0; i < s.length; i++){ h = ((h << 5) - h + s.charCodeAt(i)) | 0; }
+    return Math.abs(h) % 1000000 + 1;
+  }
 
   /* data-button (template scheme) -> emulator keyboard key.
      Matches EJS_defaultControls below and the on-page key charts. */
@@ -23,6 +40,7 @@
   var powerTimer = null;
   var currentUrl = BUNDLED.url;
   var currentName = BUNDLED.name;
+  var currentCore = BUNDLED.core;
   var muted = false;
   var crtOn = false;
   var autoOn = false;
@@ -118,19 +136,20 @@
     }, 250);
   }
 
-  function boot(url, name){
+  function boot(url, name, core){
     stopExisting();
     currentUrl = url; currentName = name || currentName;
+    currentCore = core || detectCoreFromName(currentName);
     window.EJS_player = '#ejs-stage';
     window.EJS_gameName = currentName;
-    window.EJS_core = 'snes';
+    window.EJS_core = currentCore;
     window.EJS_color = '#7e22ce';
     window.EJS_backgroundColor = '#000';
     window.EJS_alignStartButton = 'center';
     window.EJS_startOnLoaded = true; /* user POWER press = the gesture that unfreezes boot */
     window.EJS_pathtodata = 'https://cdn.emulatorjs.org/stable/data/';
     window.EJS_gameUrl = url;
-    window.EJS_gameID = 9587;
+    window.EJS_gameID = hashGameId(currentName, currentCore); /* saves stay separate per game+core */
     window.EJS_disableAutoLang = true;
     window.EJS_language = 'en-US';
     window.EJS_askBeforeExit = false;
@@ -191,16 +210,16 @@
       var b = ejsButton(function(t){ return t.indexOf('exit emulation') !== -1 || t === 'exit'; });
       if(b){ try{ b.click(); done = true; }catch(e){} }
     }
-    if(!done) boot(currentUrl, currentName);
+    if(!done) boot(currentUrl, currentName, currentCore);
     playing = false; showStandby(true); setLeds(false);
     setStatus('POWER IS OFF', 'PRESS POWER TO START');
   }
-  function togglePower(){ if(!booted) boot(currentUrl, currentName); if(playing) powerOff(); else powerOn(); }
+  function togglePower(){ if(!booted) boot(currentUrl, currentName, currentCore); if(playing) powerOff(); else powerOn(); }
   function resetGame(){
     var b = ejsButton(function(t){ return t.indexOf('restart') !== -1; });
     if(b && playing){ try{ b.click(); return; }catch(e){} }
     var wasOff = !playing;
-    boot(currentUrl, currentName);
+    boot(currentUrl, currentName, currentCore);
     if(wasOff) powerOn(); else showStandby(false);
   }
 
@@ -1117,7 +1136,7 @@
 
   /* ---------- IndexedDB: ROM library + learning episodes ---------- */
   var DB = null;
-  var MEM = [{ name: BUNDLED.name, url: BUNDLED.url, builtin: true }];
+  var MEM = [{ name: BUNDLED.name, url: BUNDLED.url, builtin: true, core: BUNDLED.core }];
   function openDB(){
     return new Promise(function(res, rej){
       try{
@@ -1180,17 +1199,35 @@
         list.appendChild(p); return;
       }
       entries.forEach(function(en){
+        var core = en.core || detectCoreFromName(en.name);
         var item = document.createElement('div'); item.className = 'rom-list-item';
         var nm = document.createElement('div'); nm.className = 'rom-name';
-        nm.textContent = (en.name === currentName ? '▶ ' : '') + en.name;
+        nm.textContent = '[' + (CORE_LABEL[core] || core.toUpperCase()) + '] ' + (en.name === currentName ? '▶ ' : '') + en.name;
         var act = document.createElement('div'); act.className = 'rom-actions';
+        var sel = document.createElement('select');
+        sel.className = 'rom-core-select';
+        sel.title = 'System core';
+        ['snes', 'nes', 'gb'].forEach(function(c){
+          var o = document.createElement('option');
+          o.value = c; o.textContent = CORE_LABEL[c];
+          if(c === core) o.selected = true;
+          sel.appendChild(o);
+        });
+        sel.addEventListener('click', function(e){ e.stopPropagation(); });
+        sel.addEventListener('change', function(){
+          en.core = sel.value;
+          var done = function(){ renderLibrary(); };
+          if(DB && !en.builtin){ var tx = DB.transaction('roms', 'readwrite'); tx.objectStore('roms').put(en); tx.oncomplete = done; tx.onerror = done; }
+          else done();
+        });
         var play = document.createElement('button'); play.className = 'rom-btn-play'; play.textContent = 'PLAY';
         play.addEventListener('click', function(){
           closeModals();
           playing = false; showStandby(true); setLeds(false);
-          setStatus('LOADING…', en.name.toUpperCase().slice(0, 40));
-          boot(entryUrl(en), en.name); powerOn();
+          setStatus('LOADING… [' + (CORE_LABEL[core] || core.toUpperCase()) + ']', en.name.toUpperCase().slice(0, 40));
+          boot(entryUrl(en), en.name, sel.value); powerOn();
         });
+        act.appendChild(sel);
         act.appendChild(play);
         if(!en.builtin){
           var del = document.createElement('button'); del.className = 'rom-btn-del'; del.textContent = 'DEL';
@@ -1208,7 +1245,7 @@
   function addFiles(files){
     var jobs = [];
     Array.prototype.forEach.call(files, function(f){
-      var entry = { name: f.name, blob: f, builtin: false };
+      var entry = { name: f.name, blob: f, builtin: false, core: detectCoreFromName(f.name) };
       if(DB) jobs.push(idbPut(entry));
       else MEM.push(entry);
     });
@@ -1396,14 +1433,14 @@
         if(!r.ok) throw new Error('rom fetch failed');
         return r.blob();
       }).then(function(blob){
-        return idbPut({ name: BUNDLED.name, blob: blob, builtin: true });
+        return idbPut({ name: BUNDLED.name, blob: blob, builtin: true, core: BUNDLED.core });
       });
     }
   }).catch(function(){
     DB = null; /* IndexedDB unavailable: memory-only library */
   }).then(function(){
     renderLibrary();
-    boot(BUNDLED.url, BUNDLED.name);
+    boot(BUNDLED.url, BUNDLED.name, BUNDLED.core);
     fetch(BUNDLED.url, { headers: { Range: 'bytes=0-0' } }).then(function(r){
       if(!(r.ok || r.status === 206)) setStatus('ROM NOT FOUND', 'ADD A FILE VIA MY GAMES');
     }).catch(function(){ setStatus('ROM NOT FOUND', 'ADD A FILE VIA MY GAMES'); });
