@@ -3,6 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SNESBOY - SNES Emulator</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -395,7 +396,7 @@
         <h3>SAME BUTTONS AS YOUR PAD</h3>
         <p>The agent picks one arrow + one of A/B/X/Y per step, using the exact same button IDs this app's controllers use (<code>0=B 1=Y 4-7=arrows 8=A 9=X</code>). Watch it: <a href="https://www.youtube.com/watch?v=L4KBBAwF_bE" target="_blank" rel="noopener">model playing on YouTube</a>.</p>
         <h3>TRY THE AUTOPILOT DEMO</h3>
-        <p>No GPU needed: a screen-reactive bot that watches whatever you load, like the DQN does — it taps through menus while the picture is still, follows the scroll direction once the world moves — horizontal and vertical, so it climbs and descends with the camera instead of only pushing left/right — holds run while the pixels demand it, and alternates the action buttons on the beat — jump in one game is attack in another — working the L/R shoulders in every fourth beat. Pause, game over, or a black fade goes quiet and it finds its own way back. One brain, every game. It stays on until you toggle it off — your own button presses just join in alongside it. It drives players 1 and 2 together out of the box (menus stay on player 1) as two cloned copilot brains — same screen, but each with its own rhythm and button order, so player 2 never just parrots player 1. Narrow it in TUNE below. The trained Torch model itself needs CUDA + lsnes — see the project README.</p>
+        <p>No GPU needed: a screen-reactive bot that watches whatever you load, like the DQN does — it taps through menus while the picture is still, follows the scroll direction once the world moves — horizontal and vertical, so it climbs and descends with the camera instead of only pushing left/right — holds run while the pixels demand it, and alternates the action buttons on the beat — jump in one game is attack in another — working the L/R shoulders in every fourth beat. Pause, game over, or a black fade goes quiet and it finds its own way back. One brain, every game. It stays on until you toggle it off — your own button presses just join in alongside it. It drives player 2 out of the box while you play player 1 — both at the same time, neither overriding the other — as two cloned copilot brains — same screen, but each with its own rhythm and button order, so player 2 never just parrots player 1. Narrow it in TUNE below. The trained Torch model itself needs CUDA + lsnes — see the project README.</p>
         <p class="modal-desc">Tune it below (thresholds, tap rate, seek-tap rotation) or flip the HUD toggle in the footer to watch its mind work: <code>SEEK · d=2.1</code> vs <code>PLAY · d=23.4 ▶</code>. Button map: <code>dirR=7 dirL=6 run=1 actions=[8,0] shoulders=[10,11] select=2 start=3</code>.</p>
         <h3>LEARN FROM EVERYTHING</h3>
         <p>Record play sessions and the app captures all three streams together, timestamped: 32×32 grayscale frames (5fps, the DQN paper's input shape), every button press with its source (pad / keyboard / autopilot / replay), and sound energy from the game's audio. Episodes live in your browser — replay any run through the real controllers, or export the JSON dataset for offline training.</p>
@@ -412,7 +413,8 @@
           <label>Still &lt; <input type="number" id="opt-loThresh" min="0.5" max="20" step="0.5"></label>
           <label>Seek taps <input type="text" id="opt-seekCycle" maxlength="31" style="width:86px"></label>
           <label>Hop 1/N <input type="number" id="opt-hopEvery" min="1" max="10" step="1"></label>
-          <label>Players <select id="opt-players" style="font-family:inherit;font-size:9px;padding:.25rem;border-radius:4px;border:1px solid #5b358c;background:#111827;color:#fff;">
+          <label>Start gap ms <input type="number" id="opt-startGapMs" min="15000" max="300000" step="15000"></label>
+          <label>AI players <select id="opt-players" style="font-family:inherit;font-size:9px;padding:.25rem;border-radius:4px;border:1px solid #5b358c;background:#111827;color:#fff;">
             <option value="0">Player 1</option>
             <option value="1">Player 2</option>
             <option value="0,1">Both 1+2</option>
@@ -420,15 +422,31 @@
           <label>Profile <select id="opt-profile" style="font-family:inherit;font-size:9px;padding:.25rem;border-radius:4px;border:1px solid #5b358c;background:#111827;color:#fff;">
             <option value="generic">Platformer</option>
             <option value="umk3">UMK3 Fighter</option>
+            <option value="racer">Racer (heuristic)</option>
+            <option value="shooter">Shooter (heuristic)</option>
+            <option value="rpg">RPG / menu-heavy (heuristic)</option>
           </select></label>
         </div>
-        <p class="modal-desc">Seek taps cycle button ids (2=Select 3=Start 8=A 0=B 4=Up 5=Down) — reorder per game. Thresholds apply instantly; timing restarts the engine, game untouched.</p>
+        <p class="modal-desc">Seek taps cycle button ids (2=Select 3=Start 8=A 0=B 4=Up 5=Down) — reorder per game. START taps throttle to 1 in 8 only within a minute of gameplay, share one minimum gap across menu and OCR taps, and pause A-confirms for 12s after any START — so the bot can't pause-spam or walk a pause menu into Quit, yet menus always keep working. Thresholds apply instantly; timing restarts the engine, game untouched.</p>
         <p class="modal-desc" id="agent-map-readout"></p>
         <p><button type="button" id="btn-tune-reset" class="modal-action-btn secondary">RESET TUNING</button>
         <button type="button" id="btn-autotune" class="modal-action-btn secondary">AUTO-TUNE: ON</button></p>
         <p class="modal-desc" id="anton-live">SON OF ANTON · idle — flip AUTO-TUNE and engage the autopilot.</p>
+        <h3>MANUAL LIBRARY</h3>
+        <p class="modal-desc">Control knowledge is distilled from the Internet Archive SNES manual collection — 863 booklets (<code>ai/manual-index.json</code> has every title; profiles live in <code>ai/manual-knowledge.js</code>). Verified entries: All-Stars platforming (bundled ROM) and the full UMK3 booklet. The rest start from genre heuristics — pick the closest profile in TUNE. Manuals belong to their publishers; grab the PDFs here:</p>
+        <ul>
+          <li><a href="https://archive.org/download/snes_manual_archive/Super%20Mario%20All-Stars%20%28USA%29.pdf" target="_blank" rel="noopener">Super Mario All-Stars (USA)</a> → Platformer</li>
+          <li><a href="https://archive.org/download/snes_manual_archive/Ultimate%20Mortal%20Kombat%203%20%28USA%29.pdf" target="_blank" rel="noopener">Ultimate Mortal Kombat 3 (USA)</a> → UMK3 Fighter</li>
+          <li><a href="https://archive.org/download/snes_manual_archive/Super%20Mario%20Kart%20%28USA%29.pdf" target="_blank" rel="noopener">Super Mario Kart (USA)</a> → Racer</li>
+          <li><a href="https://archive.org/download/snes_manual_archive/Super%20Metroid%20%28Japan%2C%20USA%29.pdf" target="_blank" rel="noopener">Super Metroid</a> → Platformer</li>
+          <li><a href="https://archive.org/download/snes_manual_archive/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.pdf" target="_blank" rel="noopener">Zelda: A Link to the Past</a> → RPG preset</li>
+          <li><a href="https://archive.org/details/snes_manual_archive" target="_blank" rel="noopener">Full 863-manual archive →</a></li>
+        </ul>
+        <p><button type="button" id="btn-manual-load" class="modal-action-btn secondary">LOAD MANUAL FOR CURRENT GAME</button></p>
+        <p class="modal-desc" id="manual-status">Plans search → fetch → extract as Son of Anton capability steps. Your click is the approval.</p>
+        <div id="manual-extract" class="rom-list-container"></div>
         <h3>FIGHTER PROFILE: UMK3</h3>
-        <p class="modal-desc">From the manual: RUN = hold R + Forward to close distance. BLOCK = hold L. Crouch kick = DOWN + X/A, uppercut = DOWN + Y, spin moves = hold AWAY + kick, jump-ins = UP(+toward) + punch timed on the way down. Fighter select takes any button except START; START picks menus. The UMK3 profile plays exactly this way — approach with RUN, strike flurries (button sequences land kombos), BLOCK phases, crouch uppercuts, jump-ins, and rotating special-motion strings — real ones from the booklet (Kano's knife, Liu Kang's fireball, Scorpion's spear, Sub-Zero's freeze…) — that trigger genuine specials across the roster. Sides alternate since facing is unknown.</p>
+        <p class="modal-desc">From the manual: RUN = hold R + Forward to close distance. BLOCK = hold L. Crouch kick = DOWN + X/A, uppercut = DOWN + Y, spin moves = hold AWAY + kick, jump-ins = UP(+toward) + punch timed on the way down. Fighter select takes any button except START; START picks menus. The UMK3 profile plays exactly this way — approach with RUN, strike flurries (button sequences land kombos), BLOCK phases, crouch uppercuts, jump-ins, and rotating special-motion strings from the full move list (<code>ai/umk3-moves.js</code>: 85 combat moves, 25 fighters — Scorpion's spear, Sub-Zero's slide, Reptile's forceballs, simultaneous chords like Sonya's leg grab). Finishers, hold-charges, air-only moves, morphs and bosses are excluded (unverifiable states). Sides alternate since facing is unknown.</p>
         <h3>AGENT TELEMETRY</h3>
         <p class="modal-desc">Live while the autopilot runs: what it sees (64×64), what it's doing, and why.</p>
         <canvas id="telemetry-vision" width="64" height="64"></canvas>
@@ -436,14 +454,22 @@
         <div class="tele-row"><span>Last move</span><span id="tele-move">—</span></div>
         <div class="tele-row"><span>Activity</span><span id="tele-activity">0.0</span></div>
         <div class="tele-row"><span>Frame diff</span><span id="tele-diff">0.0</span></div>
+        <div class="tele-row"><span>Words</span><span id="tele-words">off</span></div>
+        <div class="tele-row"><span>Plan</span><span id="tele-plan">—</span></div>
+        <div class="tele-row"><span>Manual</span><span id="tele-manual">—</span></div>
+        <div class="tele-row"><span>Memory</span><span id="tele-memory">deaths 0 · stucks 0 · saves 0</span></div>
         <div id="anton-console"><div>[BOOT] telemetry online — engage the autopilot.</div></div>
-        <h3>CODE HEALTH (SON OF ANTON)</h3>
-        <p class="modal-desc">Report-only analyzer: scores this app's own sources for comment/log/dead-code bloat. It never modifies or deletes anything — scores only.</p>
+        <h3>AUTONOMOUS PLAYER LOOP</h3>
+        <p class="modal-desc">Every 2s the loop observes (live frame + audio + words), plans a short sequence, acts through the real P1/P2 controllers, then verifies the result on the next frames. Deaths retry via START and, from the 2nd death, the strategic checkpoint. Still-in-play ~20s escalates: reverse burst → checkpoint reload → human help request. It never stops permanently, never edits memory or pixels, and P2 is tracked as an ally, never a target. Pause the AI anytime with its own toggle — your inputs always work alongside it.</p>
+        <h3>SON OF ANTON (GENERAL PLANNER)</h3>
+        <p class="modal-desc">A standalone planning + learning core — no external AI. Goals, states, and actions go in; beam-search plans, approved execution, and feedback-tuned preferences come out. Below, its code-health capability plans a report run over this app's own sources (scores only, nothing modified).</p>
         <p><button type="button" id="btn-anton-analyze" class="modal-action-btn secondary">RUN CODE HEALTH SCAN</button></p>
         <div id="anton-results" class="rom-list-container"></div>
       </div>
       <div class="modal-footer">
         <button type="button" id="btn-autopilot" class="modal-action-btn primary">▶ AUTOPILOT: OFF</button>
+        <button type="button" id="btn-checkpoint" class="modal-action-btn secondary">SAVE CHECKPOINT</button>
+        <button type="button" id="btn-ocr" class="modal-action-btn secondary">READ WORDS: OFF</button>
         <button type="button" id="btn-hud" class="modal-action-btn secondary">HUD: OFF</button>
         <button type="button" class="modal-action-btn secondary" data-close="ai-modal">CLOSE</button>
       </div>
@@ -453,6 +479,8 @@
 
   <!-- Standalone Script -->
   <script src="ai/son-of-anton.js"></script>
+  <script src="ai/manual-knowledge.js"></script>
+  <script src="ai/umk3-moves.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

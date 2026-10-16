@@ -1,7 +1,20 @@
 /* ==========================================================================
    SNESBOY 1:1 STANDALONE STYLESHEET (`style.css`)
+   Manual Archive Edition — library-ink theme for the SNES manual archive
    Built using your OG template with Pluggable Top-Loading Cartridge Art
    ========================================================================== */
+
+
+/* Archive palette (single source of truth for the retheme) */
+:root {
+  --archive-ink: #241b30;
+  --archive-ink-2: #171221;
+  --archive-paper: #ece1c9;
+  --archive-paper-dim: #d8c9a8;
+  --archive-gold: #d9a441;
+  --archive-gold-deep: #8a6420;
+  --archive-stamp: #b3402e;
+}
 
 
 /* Reset & Box Sizing */
@@ -18,7 +31,11 @@ html, body {
   width: 100%;
   min-height: 100vh;
   font-family: 'Press Start 2P', monospace;
-  background-color: #3b284f;
+  background-color: var(--archive-ink);
+  background-image:
+    radial-gradient(ellipse 80% 55% at 50% -8%, rgba(217, 164, 65, 0.14), transparent 60%),
+    radial-gradient(ellipse 60% 40% at 85% 110%, rgba(179, 64, 46, 0.10), transparent 60%),
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.012) 0 2px, transparent 2px 4px);
   color: #fff;
   overflow-x: hidden;
   display: flex;
@@ -33,8 +50,8 @@ html, body {
 
 
 /* Themes */
-body.theme-snes { background-color: #3b284f; }
-body.theme-famicom { background-color: #800000; }
+body.theme-snes { background-color: var(--archive-ink); }
+body.theme-famicom { background-color: #6e1a1a; }
 
 
 /* Responsive Layout Switching */
@@ -71,11 +88,12 @@ body.theme-famicom { background-color: #800000; }
 .handheld-casing {
   width: 100%;
   max-width: 380px;
-  background: #d1d5db;
-  border: 4px solid #9ca3af;
+  background:
+    linear-gradient(180deg, var(--archive-paper) 0%, var(--archive-paper-dim) 100%);
+  border: 4px solid #2a2135;
   border-radius: 1.5rem;
   padding: 1.25rem;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), inset 0 2px 0 rgba(255,255,255,0.5);
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
@@ -314,8 +332,13 @@ body.theme-famicom { background-color: #800000; }
 
 
 .sys-btn-power.power-on { background: #16a34a; border-color: #15803d; }
-.sys-btn-purple { background: #7e22ce; border-color: #6b21a8; }
+.sys-btn-purple { background: var(--archive-gold-deep); border-color: #6e4f18; }
 .sys-btn-blue { background: #1d4ed8; border-color: #1e40af; }
+.sys-btn:focus-visible, .tool-icon-btn:focus-visible, .tv-side-btn:focus-visible,
+.modal-action-btn:focus-visible, .modal-close-btn:focus-visible {
+  outline: 3px solid var(--archive-gold);
+  outline-offset: 2px;
+}
 .file-label { display: inline-flex; align-items: center; justify-content: center; }
 
 
@@ -356,11 +379,11 @@ body.theme-famicom { background-color: #800000; }
   position: relative;
   width: 100%;
   max-width: 800px;
-  border: 18px solid #27272a;
-  background: #18181b;
+  border: 18px solid #3a2f28;
+  background: #211c18;
   border-radius: 1.5rem;
   padding: 0.5rem;
-  box-shadow: 0 25px 50px rgba(0,0,0,0.8);
+  box-shadow: 0 25px 50px rgba(0,0,0,0.8), inset 0 2px 0 rgba(217,164,65,0.25);
   margin-bottom: 2rem;
 }
 
@@ -422,7 +445,7 @@ body.theme-famicom { background-color: #800000; }
   font-weight: bold;
   font-style: italic;
   letter-spacing: 2px;
-  color: #9ca3af;
+  color: var(--archive-gold);
 }
 
 
@@ -448,9 +471,15 @@ body.theme-famicom { background-color: #800000; }
   align-items: center;
   justify-content: center;
 }
-.tv-side-btn.purple { background: #7e22ce; }
+.tv-side-btn.purple { background: var(--archive-gold-deep); }
 .tv-side-btn.gray { background: #374151; }
-.tv-side-btn.red { background: #b91c1c; }
+.tv-side-btn.red { background: var(--archive-stamp); }
+
+
+@media (max-width: 1150px) {
+  .tv-sidebar-controls { right: -2.6rem; gap: 0.5rem; }
+  .tv-side-btn { width: 38px; height: 38px; font-size: 15px; }
+}
 
 
 /* 3D Console Art Container */
@@ -967,7 +996,7 @@ body.theme-famicom { background-color: #800000; }
 
 .modal-card {
   background: #1f2937;
-  border: 3px solid #5b358c;
+  border: 3px solid var(--archive-gold-deep);
   border-radius: 1rem;
   width: 100%;
   max-width: 500px;
@@ -981,13 +1010,13 @@ body.theme-famicom { background-color: #800000; }
 
 .modal-header {
   padding: 1rem 1.25rem;
-  background: #111827;
+  background: #14101c;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #5b358c;
+  border-bottom: 2px solid var(--archive-gold-deep);
 }
-.modal-header h2 { font-size: 12px; color: #c084fc; }
+.modal-header h2 { font-size: 12px; color: var(--archive-gold); letter-spacing: 1px; }
 .modal-close-btn {
   background: transparent;
   border: none;
@@ -1027,3 +1056,13 @@ body.theme-famicom { background-color: #800000; }
 }
 .modal-action-btn.primary { background: #5b358c; color: #fff; }
 .modal-action-btn.secondary { background: #374151; color: #fff; }
+
+
+/* Manual Archive Edition: motion + polish */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+  .standalone-cartridge-container:hover { transform: none; }
+}

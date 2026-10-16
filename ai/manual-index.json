@@ -1,0 +1,4323 @@
+{
+ "archive": "snes_manual_archive",
+ "archiveUrl": "https://archive.org/details/snes_manual_archive",
+ "count": 863,
+ "note": "Filenames only; manuals remain property of their publishers. Download individual PDFs from the archive item page.",
+ "manuals": [
+  {
+   "title": "3 Ninjas Kick Back ( USA )",
+   "file": "3 Ninjas Kick Back ( USA ).pdf",
+   "bytes": 2128529
+  },
+  {
+   "title": "7th Saga ( USA )",
+   "file": "7th_Saga ( USA ).pdf",
+   "bytes": 5212896
+  },
+  {
+   "title": "90 Minutes European Prime Goal ( UKV )",
+   "file": "90 Minutes European Prime Goal ( UKV ).pdf",
+   "bytes": 7796756
+  },
+  {
+   "title": "AAAHH!!! Real Monsters (USA)",
+   "file": "AAAHH!!! Real Monsters (USA).pdf",
+   "bytes": 2921016
+  },
+  {
+   "title": "ABC Monday Night Football ( USA )",
+   "file": "ABC Monday Night Football ( USA ).pdf",
+   "bytes": 1514230
+  },
+  {
+   "title": "ACME Animation Factory (USA)",
+   "file": "ACME Animation Factory (USA).pdf",
+   "bytes": 5097530
+  },
+  {
+   "title": "ActRaiser (USA)",
+   "file": "ActRaiser (USA).pdf",
+   "bytes": 3476123
+  },
+  {
+   "title": "ActRaiser 2 (USA)",
+   "file": "ActRaiser 2 (USA).pdf",
+   "bytes": 1260541
+  },
+  {
+   "title": "Addams Family Values (USA)",
+   "file": "Addams Family Values (USA).pdf",
+   "bytes": 2464851
+  },
+  {
+   "title": "Addams Family, The ( USA )",
+   "file": "Addams Family, The ( USA ).pdf",
+   "bytes": 2648229
+  },
+  {
+   "title": "Addams Family, The - Pugsley's Scavenger Hunt (EU)",
+   "file": "Addams Family, The - Pugsley's Scavenger Hunt (EU).pdf",
+   "bytes": 743559
+  },
+  {
+   "title": "Advanced Dungeons and Dragons - Eye of the Beholder (USA)",
+   "file": "Advanced Dungeons and Dragons - Eye of the Beholder (USA).pdf",
+   "bytes": 8946485
+  },
+  {
+   "title": "Adventures of Batman and Robin, The ( USA )",
+   "file": "Adventures of Batman and Robin, The ( USA ).pdf",
+   "bytes": 2079476
+  },
+  {
+   "title": "Adventures of Dr Franken, The ( USA )",
+   "file": "Adventures of Dr Franken, The ( USA ).pdf",
+   "bytes": 4486145
+  },
+  {
+   "title": "Adventures of Mighty Max, The (PAL)",
+   "file": "Adventures of Mighty Max, The (PAL).pdf",
+   "bytes": 49618149
+  },
+  {
+   "title": "Adventures of Rocky and Bullwinkle,The (USA)",
+   "file": "Adventures of Rocky and Bullwinkle,The (USA).pdf",
+   "bytes": 1301696
+  },
+  {
+   "title": "Aero Fighters ( USA )",
+   "file": "Aero Fighters ( USA ).pdf",
+   "bytes": 3786037
+  },
+  {
+   "title": "Aero the Acro-Bat (USA)",
+   "file": "Aero the Acro-Bat (USA).pdf",
+   "bytes": 1449991
+  },
+  {
+   "title": "Aero the Acrobat 2 ( USA )",
+   "file": "Aero the Acrobat 2 ( USA ).pdf",
+   "bytes": 2098168
+  },
+  {
+   "title": "Aerobiz (USA)",
+   "file": "Aerobiz (USA).pdf",
+   "bytes": 5212262
+  },
+  {
+   "title": "Aerobiz Supersonic (USA)",
+   "file": "Aerobiz Supersonic (USA).pdf",
+   "bytes": 5025818
+  },
+  {
+   "title": "Aguri Suzuki Super F-1 Driving ( PAL )",
+   "file": "Aguri Suzuki Super F-1 Driving ( PAL ).pdf",
+   "bytes": 41461309
+  },
+  {
+   "title": "Air Cavalry ( USA )",
+   "file": "Air Cavalry ( USA ).pdf",
+   "bytes": 3023106
+  },
+  {
+   "title": "Al Unser Jr.'s Road to the Top (USA)",
+   "file": "Al Unser Jr.'s Road to the Top (USA).pdf",
+   "bytes": 1578000
+  },
+  {
+   "title": "Alien 3 (USA)",
+   "file": "Alien 3 (USA).pdf",
+   "bytes": 2887309
+  },
+  {
+   "title": "Alien VS Predator ( PAL )",
+   "file": "Alien VS Predator ( PAL ).pdf",
+   "bytes": 30178410
+  },
+  {
+   "title": "American Gladiators ( USA )",
+   "file": "American Gladiators ( USA ).pdf",
+   "bytes": 2726549
+  },
+  {
+   "title": "American Tail, An - Fievel Goes West (USA)",
+   "file": "American Tail, An - Fievel Goes West (USA).pdf",
+   "bytes": 5040818
+  },
+  {
+   "title": "Andre Agassi Tennis (USA)",
+   "file": "Andre Agassi Tennis (USA).pdf",
+   "bytes": 1306323
+  },
+  {
+   "title": "Animaniacs (USA)",
+   "file": "Animaniacs (USA).pdf",
+   "bytes": 1629393
+  },
+  {
+   "title": "Arcana (USA)",
+   "file": "Arcana (USA).pdf",
+   "bytes": 2352011
+  },
+  {
+   "title": "Archer Maclean's Super Drop Zone ( PAL )",
+   "file": "Archer Maclean's Super Drop Zone ( PAL ).pdf",
+   "bytes": 15442319
+  },
+  {
+   "title": "Ardy Lightfoot (USA)",
+   "file": "Ardy Lightfoot (USA).pdf",
+   "bytes": 3077125
+  },
+  {
+   "title": "Arkanoid ( PAL )",
+   "file": "Arkanoid ( PAL ).pdf",
+   "bytes": 39413654
+  },
+  {
+   "title": "Arkanoid - Doh it Again ( USA )",
+   "file": "Arkanoid - Doh it Again ( USA ).pdf",
+   "bytes": 2166922
+  },
+  {
+   "title": "Art of Fighting (PAL)",
+   "file": "Art of Fighting (PAL).pdf",
+   "bytes": 3018087
+  },
+  {
+   "title": "Asterix ( PAL )",
+   "file": "Asterix ( PAL ).pdf",
+   "bytes": 16856837
+  },
+  {
+   "title": "Asterix and Obelix ( EUR )",
+   "file": "Asterix and Obelix ( EUR ).pdf",
+   "bytes": 29303608
+  },
+  {
+   "title": "Asterix Et Obelix ( FAH )",
+   "file": "Asterix Et Obelix ( FAH ).pdf",
+   "bytes": 11555165
+  },
+  {
+   "title": "Axelay (USA)",
+   "file": "Axelay (USA).pdf",
+   "bytes": 937522
+  },
+  {
+   "title": "B.O.B. (USA)",
+   "file": "B.O.B. (USA).pdf",
+   "bytes": 1331560
+  },
+  {
+   "title": "Ballz 3D - Fighting at Its Ballziest (USA)",
+   "file": "Ballz 3D - Fighting at Its Ballziest (USA).pdf",
+   "bytes": 1979691
+  },
+  {
+   "title": "Barbie Super Model (USA)",
+   "file": "Barbie Super Model (USA).pdf",
+   "bytes": 1142728
+  },
+  {
+   "title": "Barkley Shut Up and Jam! (USA)",
+   "file": "Barkley Shut Up and Jam! (USA).pdf",
+   "bytes": 12616012
+  },
+  {
+   "title": "Bass Masters Classic ( USA )",
+   "file": "Bass Masters Classic ( USA ).pdf",
+   "bytes": 2547998
+  },
+  {
+   "title": "BASS Masters Classic - Pro Edition (USA)",
+   "file": "BASS Masters Classic - Pro Edition (USA).pdf",
+   "bytes": 3082343
+  },
+  {
+   "title": "Bassin's Black Bass ( USA )",
+   "file": "Bassin's Black Bass ( USA ).pdf",
+   "bytes": 1720041
+  },
+  {
+   "title": "Batman Forever (USA)",
+   "file": "Batman Forever (USA).pdf",
+   "bytes": 2838064
+  },
+  {
+   "title": "Batman Returns (USA)",
+   "file": "Batman Returns (USA).pdf",
+   "bytes": 1317521
+  },
+  {
+   "title": "Battle Blaze ( USA )",
+   "file": "Battle Blaze ( USA ).pdf",
+   "bytes": 791860
+  },
+  {
+   "title": "Battle Cars ( USA )",
+   "file": "Battle Cars ( USA ).pdf",
+   "bytes": 1988998
+  },
+  {
+   "title": "Battle Clash (USA)",
+   "file": "Battle Clash (USA).pdf",
+   "bytes": 1633491
+  },
+  {
+   "title": "Battle Grand Prix ( USA )",
+   "file": "Battle Grand Prix ( USA ).pdf",
+   "bytes": 2023171
+  },
+  {
+   "title": "Battletoads & Double Dragon (USA)",
+   "file": "Battletoads & Double Dragon (USA).pdf",
+   "bytes": 2500293
+  },
+  {
+   "title": "Battletoads in Battlemaniacs (USA)",
+   "file": "Battletoads in Battlemaniacs (USA).pdf",
+   "bytes": 1968673
+  },
+  {
+   "title": "Bazooka Blitzkrieg ( USA )",
+   "file": "Bazooka Blitzkrieg ( USA ).pdf",
+   "bytes": 28916922
+  },
+  {
+   "title": "Beauty and the Beast ( PAL )",
+   "file": "Beauty and the Beast ( PAL ).pdf",
+   "bytes": 18968122
+  },
+  {
+   "title": "Beavis and Butt-Head (USA)",
+   "file": "Beavis and Butt-Head (USA).pdf",
+   "bytes": 1771603
+  },
+  {
+   "title": "Bebe's Kids ( USA )",
+   "file": "Bebe's Kids ( USA ).pdf",
+   "bytes": 1159903
+  },
+  {
+   "title": "Beethoven - The Ultimate Canine Caper! (USA)",
+   "file": "Beethoven - The Ultimate Canine Caper! (USA).pdf",
+   "bytes": 467614
+  },
+  {
+   "title": "Best of the Best - Championship Karate (USA)",
+   "file": "Best of the Best - Championship Karate (USA).pdf",
+   "bytes": 1917218
+  },
+  {
+   "title": "Big Sky Trooper ( PAL )",
+   "file": "Big Sky Trooper ( PAL ).pdf",
+   "bytes": 6279126
+  },
+  {
+   "title": "Big Sky Trooper (USA)",
+   "file": "Big Sky Trooper (USA).pdf",
+   "bytes": 12538242
+  },
+  {
+   "title": "Biker Mice from Mars ( EU )",
+   "file": "Biker Mice from Mars ( EU ).pdf",
+   "bytes": 62247272
+  },
+  {
+   "title": "Biker Mice from Mars (USA)",
+   "file": "Biker Mice from Mars (USA).pdf",
+   "bytes": 18014062
+  },
+  {
+   "title": "Biker Mice From Mars Scan2",
+   "file": "Biker Mice From Mars Scan2.pdf",
+   "bytes": 5950569
+  },
+  {
+   "title": "Bill Lambeer's Combat Basketball ( USA )",
+   "file": "Bill Lambeer's Combat Basketball ( USA ).pdf",
+   "bytes": 1257372
+  },
+  {
+   "title": "Bill Walsh College Football ( USA )",
+   "file": "Bill Walsh College Football ( USA ).pdf",
+   "bytes": 2195527
+  },
+  {
+   "title": "BioMetal ( PAL )",
+   "file": "BioMetal ( PAL ).pdf",
+   "bytes": 5526453
+  },
+  {
+   "title": "Blackthorne (USA)",
+   "file": "Blackthorne (USA).pdf",
+   "bytes": 8009807
+  },
+  {
+   "title": "Blazeon ( USA )",
+   "file": "Blazeon ( USA ).pdf",
+   "bytes": 2058480
+  },
+  {
+   "title": "Blues Brothers, The ( USA )",
+   "file": "Blues Brothers, The ( USA ).pdf",
+   "bytes": 1126508
+  },
+  {
+   "title": "Bonkers ( US A )",
+   "file": "Bonkers ( US A ).pdf",
+   "bytes": 8842101
+  },
+  {
+   "title": "Boogerman ( PAL )",
+   "file": "Boogerman ( PAL ).pdf",
+   "bytes": 13824368
+  },
+  {
+   "title": "Boxing Legends of the Ring ( USA )",
+   "file": "Boxing Legends of the Ring ( USA ).pdf",
+   "bytes": 2778466
+  },
+  {
+   "title": "Brain Lord (USA)",
+   "file": "Brain Lord (USA).pdf",
+   "bytes": 2654756
+  },
+  {
+   "title": "Bram Stoker's Dracula ( USA )",
+   "file": "Bram Stoker's Dracula ( USA ).pdf",
+   "bytes": 1376278
+  },
+  {
+   "title": "Brandish ( USA )",
+   "file": "Brandish ( USA ).pdf",
+   "bytes": 5174215
+  },
+  {
+   "title": "Brawl Brothers (USA)",
+   "file": "Brawl Brothers (USA).pdf",
+   "bytes": 2245852
+  },
+  {
+   "title": "BreakThru! ( USA )",
+   "file": "BreakThru! ( USA ).pdf",
+   "bytes": 4623286
+  },
+  {
+   "title": "Breath of Fire (USA)",
+   "file": "Breath of Fire (USA).pdf",
+   "bytes": 26812935
+  },
+  {
+   "title": "Breath of Fire II ( US )",
+   "file": "Breath of Fire II ( US ).pdf",
+   "bytes": 24922726
+  },
+  {
+   "title": "Brett Hull Hockey ( USA )",
+   "file": "Brett Hull Hockey ( USA ).pdf",
+   "bytes": 2228266
+  },
+  {
+   "title": "Brett Hull Hockey 95 ( USA )",
+   "file": "Brett Hull Hockey 95 ( USA ).pdf",
+   "bytes": 7736918
+  },
+  {
+   "title": "Bronkie the Bronchiasaurus ( USA )",
+   "file": "Bronkie the Bronchiasaurus ( USA ).pdf",
+   "bytes": 3504375
+  },
+  {
+   "title": "Brunswick World Tournament of Champions (USA)",
+   "file": "Brunswick World Tournament of Champions (USA).pdf",
+   "bytes": 1483621
+  },
+  {
+   "title": "Brutal - Paws of Fury ( EU )",
+   "file": "Brutal - Paws of Fury ( EU ).pdf",
+   "bytes": 23924368
+  },
+  {
+   "title": "BSX Setup Guide ( JPN )",
+   "file": "BSX Setup Guide ( JPN ).pdf",
+   "bytes": 17906971
+  },
+  {
+   "title": "Bubsy 2 ( EU )",
+   "file": "Bubsy 2 ( EU ).pdf",
+   "bytes": 22452172
+  },
+  {
+   "title": "Bubsy II ( PAL )",
+   "file": "Bubsy II ( PAL ).pdf",
+   "bytes": 7347524
+  },
+  {
+   "title": "Bubsy in Claws Encounters of the Furred Kind (USA)",
+   "file": "Bubsy in Claws Encounters of the Furred Kind (USA).pdf",
+   "bytes": 2377917
+  },
+  {
+   "title": "Bugs Bunny's Rabbit Rampage ( USA )",
+   "file": "Bugs Bunny's Rabbit Rampage ( USA ).pdf",
+   "bytes": 1074003
+  },
+  {
+   "title": "Bulls vs Blazers and the NBA Playoffs (USA) (Rev 1)",
+   "file": "Bulls vs Blazers and the NBA Playoffs (USA) (Rev 1).pdf",
+   "bytes": 3258482
+  },
+  {
+   "title": "Bust-A-Move ( USA )",
+   "file": "Bust-A-Move ( USA ).pdf",
+   "bytes": 2792737
+  },
+  {
+   "title": "Bust-A-Move (USA)",
+   "file": "Bust-A-Move (USA).pdf",
+   "bytes": 1770660
+  },
+  {
+   "title": "Cacoma Knight in Bizyland ( USA )",
+   "file": "Cacoma Knight in Bizyland ( USA ).pdf",
+   "bytes": 6691764
+  },
+  {
+   "title": "Cal Ripkin Jr Baseball ( USA )",
+   "file": "Cal Ripkin Jr Baseball ( USA ).pdf",
+   "bytes": 1737517
+  },
+  {
+   "title": "California Games II ( USA )",
+   "file": "California Games II ( USA ).pdf",
+   "bytes": 5207468
+  },
+  {
+   "title": "Cannon Fodder ( EU )",
+   "file": "Cannon Fodder ( EU ).pdf",
+   "bytes": 15213943
+  },
+  {
+   "title": "Capcom's MVP Football (USA)",
+   "file": "Capcom's MVP Football (USA).pdf",
+   "bytes": 3416311
+  },
+  {
+   "title": "Captain America and the Avengers (USA)",
+   "file": "Captain America and the Avengers (USA).pdf",
+   "bytes": 1088914
+  },
+  {
+   "title": "Captain Commando ( EU )",
+   "file": "Captain Commando ( EU ).pdf",
+   "bytes": 20784547
+  },
+  {
+   "title": "Captain Commando (USA)",
+   "file": "Captain Commando (USA).pdf",
+   "bytes": 12396951
+  },
+  {
+   "title": "Captain Novolin ( USA )",
+   "file": "Captain Novolin ( USA ).pdf",
+   "bytes": 1903287
+  },
+  {
+   "title": "Carrier Aces ( USA )",
+   "file": "Carrier Aces ( USA ).pdf",
+   "bytes": 2968049
+  },
+  {
+   "title": "Casper ( EU )",
+   "file": "Casper ( EU ).pdf",
+   "bytes": 30049294
+  },
+  {
+   "title": "Castlevania - Dracula X (USA)",
+   "file": "Castlevania - Dracula X (USA).pdf",
+   "bytes": 1430987
+  },
+  {
+   "title": "Champions World Class Soccer ( PAL )",
+   "file": "Champions World Class Soccer ( PAL ).pdf",
+   "bytes": 46228491
+  },
+  {
+   "title": "Championship Pool (USA)",
+   "file": "Championship Pool (USA).pdf",
+   "bytes": 2592069
+  },
+  {
+   "title": "Chessmaster, The (USA)",
+   "file": "Chessmaster, The (USA).pdf",
+   "bytes": 1361251
+  },
+  {
+   "title": "Chester Cheetah - Too Cool to Fool ( USA )",
+   "file": "Chester Cheetah - Too Cool to Fool ( USA ).pdf",
+   "bytes": 1799428
+  },
+  {
+   "title": "Chester Cheetah's Wild Wild Quest ( USA )",
+   "file": "Chester Cheetah's Wild Wild Quest ( USA ).pdf",
+   "bytes": 3048712
+  },
+  {
+   "title": "Choplifter III ( PAL )",
+   "file": "Choplifter III ( PAL ).pdf",
+   "bytes": 25550019
+  },
+  {
+   "title": "Choplifter III (USA)",
+   "file": "Choplifter III (USA).pdf",
+   "bytes": 14701901
+  },
+  {
+   "title": "Chrono Trigger (USA)",
+   "file": "Chrono Trigger (USA).pdf",
+   "bytes": 12769432
+  },
+  {
+   "title": "Chuck Rock (USA)",
+   "file": "Chuck Rock (USA).pdf",
+   "bytes": 1517261
+  },
+  {
+   "title": "Clay Fighter (USA)",
+   "file": "Clay Fighter (USA).pdf",
+   "bytes": 2599906
+  },
+  {
+   "title": "Clay Fighter - Tournament Edition (USA)",
+   "file": "Clay Fighter - Tournament Edition (USA).pdf",
+   "bytes": 2906573
+  },
+  {
+   "title": "Clay Fighter 2 - Judgment Clay (USA)",
+   "file": "Clay Fighter 2 - Judgment Clay (USA).pdf",
+   "bytes": 7042547
+  },
+  {
+   "title": "Claymates (USA)",
+   "file": "Claymates (USA).pdf",
+   "bytes": 2325045
+  },
+  {
+   "title": "Cliffhanger (USA)",
+   "file": "Cliffhanger (USA).pdf",
+   "bytes": 1385101
+  },
+  {
+   "title": "Clue ( USA )",
+   "file": "Clue ( USA ).pdf",
+   "bytes": 1985699
+  },
+  {
+   "title": "College Football USA 97 ( USA )",
+   "file": "College Football USA 97 ( USA ).pdf",
+   "bytes": 2267249
+  },
+  {
+   "title": "College Slam ( USA )",
+   "file": "College Slam ( USA ).pdf",
+   "bytes": 3476909
+  },
+  {
+   "title": "College Slam (USA)",
+   "file": "College Slam (USA).pdf",
+   "bytes": 3090632
+  },
+  {
+   "title": "Combatribes, The (USA)",
+   "file": "Combatribes, The (USA).pdf",
+   "bytes": 2882347
+  },
+  {
+   "title": "Congo's Caper ( USA )",
+   "file": "Congo's Caper ( USA ).pdf",
+   "bytes": 6907080
+  },
+  {
+   "title": "Contra III - The Alien Wars (USA)",
+   "file": "Contra III - The Alien Wars (USA).pdf",
+   "bytes": 986272
+  },
+  {
+   "title": "Cool Spot (USA)",
+   "file": "Cool Spot (USA).pdf",
+   "bytes": 1776894
+  },
+  {
+   "title": "Cool World ( USA )",
+   "file": "Cool World ( USA ).pdf",
+   "bytes": 795590
+  },
+  {
+   "title": "CutThroat Island ( EU )",
+   "file": "CutThroat Island ( EU ).pdf",
+   "bytes": 32269893
+  },
+  {
+   "title": "Cyber Spin ( USA )",
+   "file": "Cyber Spin ( USA ).pdf",
+   "bytes": 1300616
+  },
+  {
+   "title": "Cybernator (USA)",
+   "file": "Cybernator (USA).pdf",
+   "bytes": 1089377
+  },
+  {
+   "title": "D-Force (USA)",
+   "file": "D-Force (USA).pdf",
+   "bytes": 1105661
+  },
+  {
+   "title": "Daffy Duck - The Marvin Missions ( USA )",
+   "file": "Daffy Duck - The Marvin Missions ( USA ).pdf",
+   "bytes": 1662061
+  },
+  {
+   "title": "Darius Twin (USA)",
+   "file": "Darius Twin (USA).pdf",
+   "bytes": 1683599
+  },
+  {
+   "title": "David Crane's Amazing Tennis ( USA )",
+   "file": "David Crane's Amazing Tennis ( USA ).pdf",
+   "bytes": 1632745
+  },
+  {
+   "title": "Daze Before Christmas ( Fan Translation )",
+   "file": "Daze Before Christmas ( Fan Translation ).pdf",
+   "bytes": 13732954
+  },
+  {
+   "title": "Daze Before Christmas ( NOE )",
+   "file": "Daze Before Christmas ( NOE ).pdf",
+   "bytes": 2473959
+  },
+  {
+   "title": "Death and Return of Superman, The ( USA )",
+   "file": "Death and Return of Superman, The ( USA ).pdf",
+   "bytes": 3596677
+  },
+  {
+   "title": "Demolition Man ( EU )",
+   "file": "Demolition Man ( EU ).pdf",
+   "bytes": 35056445
+  },
+  {
+   "title": "Demon's Crest (USA)",
+   "file": "Demon's Crest (USA).pdf",
+   "bytes": 4431616
+  },
+  {
+   "title": "Dennis the Menace (USA)",
+   "file": "Dennis the Menace (USA).pdf",
+   "bytes": 1682317
+  },
+  {
+   "title": "Der Langrisser ( T )",
+   "file": "Der Langrisser ( T ).pdf",
+   "bytes": 974687
+  },
+  {
+   "title": "Desert Fighter ( PAL )",
+   "file": "Desert Fighter ( PAL ).pdf",
+   "bytes": 22453572
+  },
+  {
+   "title": "Desert Strike ( USA )",
+   "file": "Desert Strike ( USA ).pdf",
+   "bytes": 3564664
+  },
+  {
+   "title": "Dig & Spike Volleyball (USA)",
+   "file": "Dig & Spike Volleyball (USA).pdf",
+   "bytes": 3513977
+  },
+  {
+   "title": "Dino City (USA)",
+   "file": "Dino City (USA).pdf",
+   "bytes": 2232289
+  },
+  {
+   "title": "Dino Dini's Soccer ( PAL )",
+   "file": "Dino Dini's Soccer ( PAL ).pdf",
+   "bytes": 11696519
+  },
+  {
+   "title": "Dirt Racer ( PAL )",
+   "file": "Dirt Racer ( PAL ).pdf",
+   "bytes": 1126821
+  },
+  {
+   "title": "Dirt Trax FX (USA)",
+   "file": "Dirt Trax FX (USA).pdf",
+   "bytes": 3811970
+  },
+  {
+   "title": "Disney's Aladdin (USA)",
+   "file": "Disney's Aladdin (USA).pdf",
+   "bytes": 1248992
+  },
+  {
+   "title": "Disney's Goof Troop (USA)",
+   "file": "Disney's Goof Troop (USA).pdf",
+   "bytes": 1171449
+  },
+  {
+   "title": "Disney's Jungle Book, The (USA)",
+   "file": "Disney's Jungle Book, The (USA).pdf",
+   "bytes": 3241272
+  },
+  {
+   "title": "Disney's Lion King, The (USA)",
+   "file": "Disney's Lion King, The (USA).pdf",
+   "bytes": 1356536
+  },
+  {
+   "title": "Disney's Pinocchio ( PAL )",
+   "file": "Disney's Pinocchio ( PAL ).pdf",
+   "bytes": 22471709
+  },
+  {
+   "title": "Disney's The Jungle Book ( USA ) ( Color )",
+   "file": "Disney's The Jungle Book ( USA ) ( Color ).pdf",
+   "bytes": 4585541
+  },
+  {
+   "title": "Disney's Toy Story (USA)",
+   "file": "Disney's Toy Story (USA).pdf",
+   "bytes": 5099329
+  },
+  {
+   "title": "Donkey Kong Country (USA) (Rev 2)",
+   "file": "Donkey Kong Country (USA) (Rev 2).pdf",
+   "bytes": 12478886
+  },
+  {
+   "title": "Donkey Kong Country 2 - Diddy's Kong Quest (USA) (Rev 1)",
+   "file": "Donkey Kong Country 2 - Diddy's Kong Quest (USA) (Rev 1).pdf",
+   "bytes": 3847069
+  },
+  {
+   "title": "Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA)",
+   "file": "Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA).pdf",
+   "bytes": 2125826
+  },
+  {
+   "title": "DOOM (USA)",
+   "file": "DOOM (USA).pdf",
+   "bytes": 2479054
+  },
+  {
+   "title": "Doom Troopers - Mutant Chronicles (USA)",
+   "file": "Doom Troopers - Mutant Chronicles (USA).pdf",
+   "bytes": 2833106
+  },
+  {
+   "title": "Doomsday Warrior ( USA )",
+   "file": "Doomsday Warrior ( USA ).pdf",
+   "bytes": 36885939
+  },
+  {
+   "title": "Dorke & Ymp ( World ) ( Unl )",
+   "file": "Dorke & Ymp ( World ) ( Unl ).pdf",
+   "bytes": 16734557
+  },
+  {
+   "title": "Double Dragon V - The Shadow Falls (USA)",
+   "file": "Double Dragon V - The Shadow Falls (USA).pdf",
+   "bytes": 2982028
+  },
+  {
+   "title": "Dragon - The Bruce Lee Story ( EU )",
+   "file": "Dragon - The Bruce Lee Story ( EU ).pdf",
+   "bytes": 92505597
+  },
+  {
+   "title": "Dragon Ball Z - Hyper Dimension (FRA)",
+   "file": "Dragon Ball Z - Hyper Dimension (FRA).pdf",
+   "bytes": 9891361
+  },
+  {
+   "title": "Dragon Ball Z - La Legende Saien (FRA)",
+   "file": "Dragon Ball Z - La Legende Saien (FRA).pdf",
+   "bytes": 7572861
+  },
+  {
+   "title": "Dragon Ball Z - Super Butouden (FRA)",
+   "file": "Dragon Ball Z - Super Butouden (FRA).pdf",
+   "bytes": 7707709
+  },
+  {
+   "title": "Dragon Ball Z - Ultime Menace (FRA)",
+   "file": "Dragon Ball Z - Ultime Menace (FRA).pdf",
+   "bytes": 7774041
+  },
+  {
+   "title": "Dragon View ( USA )",
+   "file": "Dragon View ( USA ).pdf",
+   "bytes": 3280125
+  },
+  {
+   "title": "Dragon's Lair (USA)",
+   "file": "Dragon's Lair (USA).pdf",
+   "bytes": 19428638
+  },
+  {
+   "title": "Drakkhen (USA)",
+   "file": "Drakkhen (USA).pdf",
+   "bytes": 2422389
+  },
+  {
+   "title": "Dream TV ( USA )",
+   "file": "Dream TV ( USA ).pdf",
+   "bytes": 1932696
+  },
+  {
+   "title": "Dream TV ( USA ) SinglePage",
+   "file": "Dream TV ( USA ) SinglePage.pdf",
+   "bytes": 7091385
+  },
+  {
+   "title": "Duel, The - Test Drive II (USA)",
+   "file": "Duel, The - Test Drive II (USA).pdf",
+   "bytes": 2009920
+  },
+  {
+   "title": "Dungeon Master (USA)",
+   "file": "Dungeon Master (USA).pdf",
+   "bytes": 3095604
+  },
+  {
+   "title": "EarthBound (USA)",
+   "file": "EarthBound (USA).pdf",
+   "bytes": 61260314
+  },
+  {
+   "title": "Earthworm Jim ( USA )",
+   "file": "Earthworm Jim ( USA ).pdf",
+   "bytes": 7210744
+  },
+  {
+   "title": "Earthworm Jim 2 (USA)",
+   "file": "Earthworm Jim 2 (USA).pdf",
+   "bytes": 7532727
+  },
+  {
+   "title": "Eek! the Cat ( EU )",
+   "file": "Eek! the Cat ( EU ).pdf",
+   "bytes": 51937494
+  },
+  {
+   "title": "Elite Soccer ( World Cup Striker EU )",
+   "file": "Elite Soccer ( World Cup Striker EU ).pdf",
+   "bytes": 1413409
+  },
+  {
+   "title": "Emmitt Smith Football ( USA )",
+   "file": "Emmitt Smith Football ( USA ).pdf",
+   "bytes": 3144802
+  },
+  {
+   "title": "Equinox (USA)",
+   "file": "Equinox (USA).pdf",
+   "bytes": 2055571
+  },
+  {
+   "title": "ESPN Baseball Tonight ( USA )",
+   "file": "ESPN Baseball Tonight ( USA ).pdf",
+   "bytes": 3562336
+  },
+  {
+   "title": "ESPN National Hockey Night (USA)",
+   "file": "ESPN National Hockey Night (USA).pdf",
+   "bytes": 13902695
+  },
+  {
+   "title": "ESPN Speedworld ( USA )",
+   "file": "ESPN Speedworld ( USA ).pdf",
+   "bytes": 2145887
+  },
+  {
+   "title": "ESPN Sunday Night Football ( USA )",
+   "file": "ESPN Sunday Night Football ( USA ).pdf",
+   "bytes": 1708656
+  },
+  {
+   "title": "EVO The Quest for Eden ( JP )",
+   "file": "EVO The Quest for Eden ( JP ).pdf",
+   "bytes": 4217058
+  },
+  {
+   "title": "EVO The Quest for Eden ( USA )",
+   "file": "EVO The Quest for Eden ( USA ).pdf",
+   "bytes": 1448886
+  },
+  {
+   "title": "Exertainment Mountain Bike Rally   Speed Racer (USA)",
+   "file": "Exertainment Mountain Bike Rally _ Speed Racer (USA).pdf",
+   "bytes": 6476267
+  },
+  {
+   "title": "Exhaust Heat ( PAL )",
+   "file": "Exhaust Heat ( PAL ).pdf",
+   "bytes": 75067013
+  },
+  {
+   "title": "Extra Innings (USA)",
+   "file": "Extra Innings (USA).pdf",
+   "bytes": 2754968
+  },
+  {
+   "title": "F-Zero ( USA )",
+   "file": "F-Zero ( USA ).pdf",
+   "bytes": 9898666
+  },
+  {
+   "title": "F1 Pole Position (USA)",
+   "file": "F1 Pole Position (USA).pdf",
+   "bytes": 2714713
+  },
+  {
+   "title": "F1 Pole Position 2 ( PAL )",
+   "file": "F1 Pole Position 2 ( PAL ).pdf",
+   "bytes": 4247788
+  },
+  {
+   "title": "F1 World Championship Edition ( PAL )",
+   "file": "F1 World Championship Edition ( PAL ).pdf",
+   "bytes": 4673967
+  },
+  {
+   "title": "F1-ROC II - Race of Champions (USA)",
+   "file": "F1-ROC II - Race of Champions (USA).pdf",
+   "bytes": 25823415
+  },
+  {
+   "title": "Faceball 2000 (USA)",
+   "file": "Faceball 2000 (USA).pdf",
+   "bytes": 1777543
+  },
+  {
+   "title": "Family Dog (USA)",
+   "file": "Family Dog (USA).pdf",
+   "bytes": 1158459
+  },
+  {
+   "title": "Family Feud ( USA ) ( Color )",
+   "file": "Family Feud ( USA ) ( Color ).pdf",
+   "bytes": 2738137
+  },
+  {
+   "title": "Family Feud (USA) (Rev 1)",
+   "file": "Family Feud (USA) (Rev 1).pdf",
+   "bytes": 1648349
+  },
+  {
+   "title": "Fatal Fury (USA)",
+   "file": "Fatal Fury (USA).pdf",
+   "bytes": 3013993
+  },
+  {
+   "title": "Fatal Fury 2 ( USA )",
+   "file": "Fatal Fury 2 ( USA ).pdf",
+   "bytes": 2304411
+  },
+  {
+   "title": "Fatal Fury Special ( PAL )",
+   "file": "Fatal Fury Special ( PAL ).pdf",
+   "bytes": 35169445
+  },
+  {
+   "title": "Fatal Fury Special ( USA ) ( Color )",
+   "file": "Fatal Fury Special ( USA ) ( Color ).pdf",
+   "bytes": 5414702
+  },
+  {
+   "title": "Fever Pitch Soccer ( PAL ) Head-On Soccer",
+   "file": "Fever Pitch Soccer ( PAL ) Head-On Soccer.pdf",
+   "bytes": 14040163
+  },
+  {
+   "title": "FIFA 98 ( PAL )",
+   "file": "FIFA 98 ( PAL ).pdf",
+   "bytes": 16179290
+  },
+  {
+   "title": "FIFA International Soccer (USA)",
+   "file": "FIFA International Soccer (USA).pdf",
+   "bytes": 2492298
+  },
+  {
+   "title": "FIFA Soccer 96 ( USA )",
+   "file": "FIFA Soccer 96 ( USA ).pdf",
+   "bytes": 2128541
+  },
+  {
+   "title": "FIFA Soccer 97 ( USA )",
+   "file": "FIFA Soccer 97 ( USA ).pdf",
+   "bytes": 2278818
+  },
+  {
+   "title": "Fighter's History (USA) (Rev 1)",
+   "file": "Fighter's History (USA) (Rev 1).pdf",
+   "bytes": 1869553
+  },
+  {
+   "title": "Final Fantasy - Mystic Quest (USA) (Rev 1)",
+   "file": "Final Fantasy - Mystic Quest (USA) (Rev 1).pdf",
+   "bytes": 6726832
+  },
+  {
+   "title": "Final Fantasy II (USA) (Rev 1)",
+   "file": "Final Fantasy II (USA) (Rev 1).pdf",
+   "bytes": 8911630
+  },
+  {
+   "title": "Final Fantasy III (USA) (Rev 1)",
+   "file": "Final Fantasy III (USA) (Rev 1).pdf",
+   "bytes": 9681038
+  },
+  {
+   "title": "Final Fight ( PAL )",
+   "file": "Final Fight ( PAL ).pdf",
+   "bytes": 2328156
+  },
+  {
+   "title": "Final Fight (USA)",
+   "file": "Final Fight (USA).pdf",
+   "bytes": 760443
+  },
+  {
+   "title": "Final Fight 2 (USA)",
+   "file": "Final Fight 2 (USA).pdf",
+   "bytes": 1779516
+  },
+  {
+   "title": "Final Fight 3 ( USA )",
+   "file": "Final Fight 3 ( USA ).pdf",
+   "bytes": 3493992
+  },
+  {
+   "title": "Final Fight Guy ( USA )",
+   "file": "Final Fight Guy ( USA ).pdf",
+   "bytes": 1103534
+  },
+  {
+   "title": "Firemen, The ( PAL )",
+   "file": "Firemen, The ( PAL ).pdf",
+   "bytes": 20537542
+  },
+  {
+   "title": "Firepower 2000 (USA)",
+   "file": "Firepower 2000 (USA).pdf",
+   "bytes": 1635430
+  },
+  {
+   "title": "Firestriker ( USA )",
+   "file": "Firestriker ( USA ).pdf",
+   "bytes": 1723092
+  },
+  {
+   "title": "First Samurai ( PAL )",
+   "file": "First Samurai ( PAL ).pdf",
+   "bytes": 16416743
+  },
+  {
+   "title": "Flashback - The Quest for Identity (USA)",
+   "file": "Flashback - The Quest for Identity (USA).pdf",
+   "bytes": 1731231
+  },
+  {
+   "title": "Flintstones The Treasure of Sierra Madrock ( PAL )",
+   "file": "Flintstones The Treasure of Sierra Madrock ( PAL ).pdf",
+   "bytes": 16235519
+  },
+  {
+   "title": "Flintstones, The (USA)",
+   "file": "Flintstones, The (USA).pdf",
+   "bytes": 1517099
+  },
+  {
+   "title": "Football Fury (USA)",
+   "file": "Football Fury (USA).pdf",
+   "bytes": 4661511
+  },
+  {
+   "title": "Foreman For Real ( USA )",
+   "file": "Foreman For Real ( USA ).pdf",
+   "bytes": 1850414
+  },
+  {
+   "title": "Frank Thomas Big Hurt Baseball ( USA )",
+   "file": "Frank Thomas Big Hurt Baseball ( USA ).pdf",
+   "bytes": 2385567
+  },
+  {
+   "title": "Frantic Flea ( USA )",
+   "file": "Frantic Flea ( USA ).pdf",
+   "bytes": 11500611
+  },
+  {
+   "title": "Frogger (USA)",
+   "file": "Frogger (USA).pdf",
+   "bytes": 3629205
+  },
+  {
+   "title": "Full Throttle All-American Racing ( PAL )",
+   "file": "Full Throttle All-American Racing ( PAL ).pdf",
+   "bytes": 26256667
+  },
+  {
+   "title": "Fun 'n Games ( PAL )",
+   "file": "Fun 'n Games ( PAL ).pdf",
+   "bytes": 12005063
+  },
+  {
+   "title": "Game Genie ( Peripheral )",
+   "file": "Game Genie ( Peripheral ).pdf",
+   "bytes": 31744529
+  },
+  {
+   "title": "Garry Kitchen's Super Battletank - War in the Gulf (USA) (Rev 1)",
+   "file": "Garry Kitchen's Super Battletank - War in the Gulf (USA) (Rev 1).pdf",
+   "bytes": 1662809
+  },
+  {
+   "title": "Gemfire (USA)",
+   "file": "Gemfire (USA).pdf",
+   "bytes": 4776723
+  },
+  {
+   "title": "Genghis Khan 2 - Clan of the Grey Wolf ( USA )",
+   "file": "Genghis Khan 2 - Clan of the Grey Wolf ( USA ).pdf",
+   "bytes": 7012351
+  },
+  {
+   "title": "George Foreman's KO Boxing ( EU )",
+   "file": "George Foreman's KO Boxing ( EU ).pdf",
+   "bytes": 53644055
+  },
+  {
+   "title": "George Foreman's KO Boxing (USA)",
+   "file": "George Foreman's KO Boxing (USA).pdf",
+   "bytes": 27064243
+  },
+  {
+   "title": "Ghoul Patrol ( USA )",
+   "file": "Ghoul Patrol ( USA ).pdf",
+   "bytes": 1371807
+  },
+  {
+   "title": "GODS ( PAL )",
+   "file": "GODS ( PAL ).pdf",
+   "bytes": 16854719
+  },
+  {
+   "title": "Goof Troop ( USA ) ( Color )",
+   "file": "Goof Troop ( USA ) ( Color ).pdf",
+   "bytes": 2218764
+  },
+  {
+   "title": "GP-1 (USA)",
+   "file": "GP-1 (USA).pdf",
+   "bytes": 1278295
+  },
+  {
+   "title": "GP-1 - Part II (USA)",
+   "file": "GP-1 - Part II (USA).pdf",
+   "bytes": 3651925
+  },
+  {
+   "title": "Gradius III (USA)",
+   "file": "Gradius III (USA).pdf",
+   "bytes": 1785578
+  },
+  {
+   "title": "Great Circus Mystery Starring Mickey & Minnie, The (USA)",
+   "file": "Great Circus Mystery Starring Mickey & Minnie, The (USA).pdf",
+   "bytes": 2059334
+  },
+  {
+   "title": "Great Waldo Search, The (USA)",
+   "file": "Great Waldo Search, The (USA).pdf",
+   "bytes": 594617
+  },
+  {
+   "title": "GunForce ( USA )",
+   "file": "GunForce ( USA ).pdf",
+   "bytes": 1547600
+  },
+  {
+   "title": "Hagane ( EU )",
+   "file": "Hagane ( EU ).pdf",
+   "bytes": 47484308
+  },
+  {
+   "title": "Hagane (USA)",
+   "file": "Hagane (USA).pdf",
+   "bytes": 19146363
+  },
+  {
+   "title": "HAL's Hole in One Golf Fan Manual  (USA)",
+   "file": "HAL's Hole in One Golf Fan Manual  (USA).pdf",
+   "bytes": 3958374
+  },
+  {
+   "title": "HAL's Hole in One Golf Map Front and Back (USA)",
+   "file": "HAL's Hole in One Golf Map Front and Back (USA).pdf",
+   "bytes": 743368
+  },
+  {
+   "title": "Hammer Lock Wrestling ( USA )",
+   "file": "Hammer Lock Wrestling ( USA ).pdf",
+   "bytes": 1932627
+  },
+  {
+   "title": "Hardball III ( USA )",
+   "file": "Hardball III ( USA ).pdf",
+   "bytes": 2499442
+  },
+  {
+   "title": "Harley's Humongous Adventure (USA)",
+   "file": "Harley's Humongous Adventure (USA).pdf",
+   "bytes": 1519388
+  },
+  {
+   "title": "Harvest Moon (USA)",
+   "file": "Harvest Moon (USA).pdf",
+   "bytes": 3240367
+  },
+  {
+   "title": "Hebereke's Popoitto ( PAL )",
+   "file": "Hebereke's Popoitto ( PAL ).pdf",
+   "bytes": 26345919
+  },
+  {
+   "title": "Hebereke's Popoon ( PAL )",
+   "file": "Hebereke's Popoon ( PAL ).pdf",
+   "bytes": 22117662
+  },
+  {
+   "title": "Hit the Ice ( USA )",
+   "file": "Hit the Ice ( USA ).pdf",
+   "bytes": 2837087
+  },
+  {
+   "title": "Home Alone (USA)",
+   "file": "Home Alone (USA).pdf",
+   "bytes": 1016968
+  },
+  {
+   "title": "Home Alone 2 - Lost in New York (USA)",
+   "file": "Home Alone 2 - Lost in New York (USA).pdf",
+   "bytes": 990031
+  },
+  {
+   "title": "Home Improvement ( USA )",
+   "file": "Home Improvement ( USA ).pdf",
+   "bytes": 1051254
+  },
+  {
+   "title": "Hook (USA)",
+   "file": "Hook (USA).pdf",
+   "bytes": 2227749
+  },
+  {
+   "title": "Humans, The (Europe)",
+   "file": "Humans, The (Europe).pdf",
+   "bytes": 3004327
+  },
+  {
+   "title": "Hungry Dinosaurs ( EU )",
+   "file": "Hungry Dinosaurs ( EU ).pdf",
+   "bytes": 11900809
+  },
+  {
+   "title": "Hunt for Red October, The (USA)",
+   "file": "Hunt for Red October, The (USA).pdf",
+   "bytes": 3026120
+  },
+  {
+   "title": "Hurricanes ( USA )",
+   "file": "Hurricanes ( USA ).pdf",
+   "bytes": 1626117
+  },
+  {
+   "title": "Hyper V-Ball (USA)",
+   "file": "Hyper V-Ball (USA).pdf",
+   "bytes": 6421687
+  },
+  {
+   "title": "Hyperzone ( USA )",
+   "file": "Hyperzone ( USA ).pdf",
+   "bytes": 2504993
+  },
+  {
+   "title": "Ignition Factor, The (USA)",
+   "file": "Ignition Factor, The (USA).pdf",
+   "bytes": 2548601
+  },
+  {
+   "title": "Illusion of Gaia (USA)",
+   "file": "Illusion of Gaia (USA).pdf",
+   "bytes": 7660281
+  },
+  {
+   "title": "Imperium (USA)",
+   "file": "Imperium (USA).pdf",
+   "bytes": 1709320
+  },
+  {
+   "title": "Incantation ( USA )",
+   "file": "Incantation ( USA ).pdf",
+   "bytes": 963610
+  },
+  {
+   "title": "Incredible Crash Dummies, The (USA)",
+   "file": "Incredible Crash Dummies, The (USA).pdf",
+   "bytes": 12674164
+  },
+  {
+   "title": "Indiana Jones' Greatest Adventures (USA)",
+   "file": "Indiana Jones' Greatest Adventures (USA).pdf",
+   "bytes": 1785573
+  },
+  {
+   "title": "Inindo - Way of the Ninja (USA)",
+   "file": "Inindo - Way of the Ninja (USA).pdf",
+   "bytes": 5288403
+  },
+  {
+   "title": "Inspector Gadget (USA)",
+   "file": "Inspector Gadget (USA).pdf",
+   "bytes": 1600731
+  },
+  {
+   "title": "International Sensible Soccer ( PAL )",
+   "file": "International Sensible Soccer ( PAL ).pdf",
+   "bytes": 69802523
+  },
+  {
+   "title": "International Superstar Soccer ( USA )",
+   "file": "International Superstar Soccer ( USA ).pdf",
+   "bytes": 2825507
+  },
+  {
+   "title": "International Superstar Soccer Deluxe ( USA )",
+   "file": "International Superstar Soccer Deluxe ( USA ).pdf",
+   "bytes": 2816758
+  },
+  {
+   "title": "International Tennis Tour ( PAL )",
+   "file": "International Tennis Tour ( PAL ).pdf",
+   "bytes": 5224028
+  },
+  {
+   "title": "Itchy and Scratchy Game ( EU )",
+   "file": "Itchy and Scratchy Game ( EU ).pdf",
+   "bytes": 39864772
+  },
+  {
+   "title": "Izzy's Quest for the Olympic Rings (USA)",
+   "file": "Izzy's Quest for the Olympic Rings (USA).pdf",
+   "bytes": 1318653
+  },
+  {
+   "title": "J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA)",
+   "file": "J.R.R. Tolkien's The Lord of the Rings - Volume 1 (USA).pdf",
+   "bytes": 1809029
+  },
+  {
+   "title": "Jack Nicklaus Golf (USA)",
+   "file": "Jack Nicklaus Golf (USA).pdf",
+   "bytes": 1659275
+  },
+  {
+   "title": "James Bond Jr (USA)",
+   "file": "James Bond Jr (USA).pdf",
+   "bytes": 1051504
+  },
+  {
+   "title": "James Pond 3 Operation Starfi5h ( PAL )",
+   "file": "James Pond 3 Operation Starfi5h ( PAL ).pdf",
+   "bytes": 26041036
+  },
+  {
+   "title": "James Pond's Crazy Sports ( PAL )",
+   "file": "James Pond's Crazy Sports ( PAL ).pdf",
+   "bytes": 38510495
+  },
+  {
+   "title": "Jammit ( USA )",
+   "file": "Jammit ( USA ).pdf",
+   "bytes": 4988786
+  },
+  {
+   "title": "Jelly Boy ( EU )",
+   "file": "Jelly Boy ( EU ).pdf",
+   "bytes": 43642380
+  },
+  {
+   "title": "Jeopardy Deluxe Edition ( USA ) ( Color )",
+   "file": "Jeopardy Deluxe Edition ( USA ) ( Color ).pdf",
+   "bytes": 2143888
+  },
+  {
+   "title": "Jeopardy! ( USA )",
+   "file": "Jeopardy! ( USA ).pdf",
+   "bytes": 1134739
+  },
+  {
+   "title": "Jeopardy! Deluxe Edition ( USA ) ( Rev 1 )",
+   "file": "Jeopardy! Deluxe Edition ( USA ) ( Rev 1 ).pdf",
+   "bytes": 2397009
+  },
+  {
+   "title": "Jeopardy! Sports Edition ( USA )",
+   "file": "Jeopardy! Sports Edition ( USA ).pdf",
+   "bytes": 1220102
+  },
+  {
+   "title": "Jim Lee's WildC.A.T.S - Covert Action Teams (USA)",
+   "file": "Jim Lee's WildC.A.T.S - Covert Action Teams (USA).pdf",
+   "bytes": 1528066
+  },
+  {
+   "title": "Jim Power - The Lost Dimension in 3D (USA)",
+   "file": "Jim Power - The Lost Dimension in 3D (USA).pdf",
+   "bytes": 1995292
+  },
+  {
+   "title": "Jimmy Connors Pro Tennis Tour (USA)",
+   "file": "Jimmy Connors Pro Tennis Tour (USA).pdf",
+   "bytes": 1896374
+  },
+  {
+   "title": "Jimmy Houstons Bass Tournament USA ( USA )",
+   "file": "Jimmy Houstons Bass Tournament USA ( USA ).pdf",
+   "bytes": 17218859
+  },
+  {
+   "title": "Joe & Mac ( USA )",
+   "file": "Joe & Mac ( USA ).pdf",
+   "bytes": 934661
+  },
+  {
+   "title": "Joe & Mac 2 ( USA )",
+   "file": "Joe & Mac 2 ( USA ).pdf",
+   "bytes": 11164559
+  },
+  {
+   "title": "John Madden Football '93 (USA) (Rev 1)",
+   "file": "John Madden Football '93 (USA) (Rev 1).pdf",
+   "bytes": 2891292
+  },
+  {
+   "title": "John Madden Football (USA)",
+   "file": "John Madden Football (USA).pdf",
+   "bytes": 1145363
+  },
+  {
+   "title": "Judge Dredd (USA)",
+   "file": "Judge Dredd (USA).pdf",
+   "bytes": 2927141
+  },
+  {
+   "title": "Jungle Strike (USA)",
+   "file": "Jungle Strike (USA).pdf",
+   "bytes": 4746707
+  },
+  {
+   "title": "Jurassic Park (USA) (Rev 1)",
+   "file": "Jurassic Park (USA) (Rev 1).pdf",
+   "bytes": 4019782
+  },
+  {
+   "title": "Jurassic Park II - The Chaos Continues (USA)",
+   "file": "Jurassic Park II - The Chaos Continues (USA).pdf",
+   "bytes": 3353901
+  },
+  {
+   "title": "Justice League Task Force ( EU )",
+   "file": "Justice League Task Force ( EU ).pdf",
+   "bytes": 36105048
+  },
+  {
+   "title": "Ka-blooey (USA)",
+   "file": "Ka-blooey (USA).pdf",
+   "bytes": 5059523
+  },
+  {
+   "title": "Kawasaki Caribbean Challenge (USA)",
+   "file": "Kawasaki Caribbean Challenge (USA).pdf",
+   "bytes": 2035808
+  },
+  {
+   "title": "Kawasaki Superbikes ( PAL )",
+   "file": "Kawasaki Superbikes ( PAL ).pdf",
+   "bytes": 13525949
+  },
+  {
+   "title": "Ken Griffey Jr. Presents Major League Baseball (USA)",
+   "file": "Ken Griffey Jr. Presents Major League Baseball (USA).pdf",
+   "bytes": 3274129
+  },
+  {
+   "title": "Ken Griffey Jr.'s Winning Run (USA)",
+   "file": "Ken Griffey Jr.'s Winning Run (USA).pdf",
+   "bytes": 2843271
+  },
+  {
+   "title": "Kendo Rage (USA)",
+   "file": "Kendo Rage (USA).pdf",
+   "bytes": 1196485
+  },
+  {
+   "title": "Kevin Keegan's Player Manager ( EU )",
+   "file": "Kevin Keegan's Player Manager ( EU ).pdf",
+   "bytes": 38585001
+  },
+  {
+   "title": "Kick Off ( PAL )",
+   "file": "Kick Off ( PAL ).pdf",
+   "bytes": 21605280
+  },
+  {
+   "title": "Kick Off 3 ( PAL )",
+   "file": "Kick Off 3 ( PAL ).pdf",
+   "bytes": 13728024
+  },
+  {
+   "title": "Kid Klown in Crazy Chase (USA)",
+   "file": "Kid Klown in Crazy Chase (USA).pdf",
+   "bytes": 2035836
+  },
+  {
+   "title": "Killer Instinct (USA) (Rev 1)",
+   "file": "Killer Instinct (USA) (Rev 1).pdf",
+   "bytes": 2359945
+  },
+  {
+   "title": "King Arthur and the Knights of Justice ( USA )",
+   "file": "King Arthur and the Knights of Justice ( USA ).pdf",
+   "bytes": 2679178
+  },
+  {
+   "title": "King Arthur's World (USA)",
+   "file": "King Arthur's World (USA).pdf",
+   "bytes": 2771644
+  },
+  {
+   "title": "King of Dragons, The (USA)",
+   "file": "King of Dragons, The (USA).pdf",
+   "bytes": 1779798
+  },
+  {
+   "title": "King of the Monsters (USA)",
+   "file": "King of the Monsters (USA).pdf",
+   "bytes": 4875504
+  },
+  {
+   "title": "King of the Monsters 2 (USA)",
+   "file": "King of the Monsters 2 (USA).pdf",
+   "bytes": 2766096
+  },
+  {
+   "title": "Kirby Super Star (USA)",
+   "file": "Kirby Super Star (USA).pdf",
+   "bytes": 3239735
+  },
+  {
+   "title": "Kirby's Avalanche (USA)",
+   "file": "Kirby's Avalanche (USA).pdf",
+   "bytes": 2408387
+  },
+  {
+   "title": "Kirby's Dream Course ( USA )",
+   "file": "Kirby's Dream Course ( USA ).pdf",
+   "bytes": 11487197
+  },
+  {
+   "title": "Kirby's Dream Land 3 (USA)",
+   "file": "Kirby's Dream Land 3 (USA).pdf",
+   "bytes": 2887500
+  },
+  {
+   "title": "Kirby's Fun Pak (Europe)",
+   "file": "Kirby's Fun Pak (Europe).pdf",
+   "bytes": 6902279
+  },
+  {
+   "title": "Knights of the Round (USA)",
+   "file": "Knights of the Round (USA).pdf",
+   "bytes": 1059442
+  },
+  {
+   "title": "Krusty's Super Fun House (USA) (Rev 1)",
+   "file": "Krusty's Super Fun House (USA) (Rev 1).pdf",
+   "bytes": 1338292
+  },
+  {
+   "title": "Kyle Petty's No Fear Racing (USA)",
+   "file": "Kyle Petty's No Fear Racing (USA).pdf",
+   "bytes": 3966300
+  },
+  {
+   "title": "Lagoon ( USA )",
+   "file": "Lagoon ( USA ).pdf",
+   "bytes": 5944966
+  },
+  {
+   "title": "Lamborghini American Challenge (PAL)",
+   "file": "Lamborghini American Challenge (PAL).pdf",
+   "bytes": 4844148
+  },
+  {
+   "title": "Last Action Hero (USA)",
+   "file": "Last Action Hero (USA).pdf",
+   "bytes": 1120963
+  },
+  {
+   "title": "Lawnmower Man, The (USA)",
+   "file": "Lawnmower Man, The (USA).pdf",
+   "bytes": 1604180
+  },
+  {
+   "title": "Legend ( EU )",
+   "file": "Legend ( EU ).pdf",
+   "bytes": 37031889
+  },
+  {
+   "title": "Legend of the Mystical Ninja, The (USA)",
+   "file": "Legend of the Mystical Ninja, The (USA).pdf",
+   "bytes": 2753016
+  },
+  {
+   "title": "Legend of Zelda, The - A Link to the Past (USA)",
+   "file": "Legend of Zelda, The - A Link to the Past (USA).pdf",
+   "bytes": 4267975
+  },
+  {
+   "title": "Lemmings (USA) (Rev 1)",
+   "file": "Lemmings (USA) (Rev 1).pdf",
+   "bytes": 2396118
+  },
+  {
+   "title": "Lemmings 2 The Tribes ( USA )",
+   "file": "Lemmings 2 The Tribes ( USA ).pdf",
+   "bytes": 2728289
+  },
+  {
+   "title": "Lester the Unlikeley ( USA )",
+   "file": "Lester the Unlikeley ( USA ).pdf",
+   "bytes": 3544233
+  },
+  {
+   "title": "Lethal Enforcers (USA)",
+   "file": "Lethal Enforcers (USA).pdf",
+   "bytes": 1859367
+  },
+  {
+   "title": "Lethal Weapon (USA)",
+   "file": "Lethal Weapon (USA).pdf",
+   "bytes": 1142965
+  },
+  {
+   "title": "Liberty or Death (USA)",
+   "file": "Liberty or Death (USA).pdf",
+   "bytes": 5658903
+  },
+  {
+   "title": "Life Fitness Exertainment Bike 3500 Manual USA",
+   "file": "Life_Fitness_Exertainment_Bike_3500_Manual_USA.pdf",
+   "bytes": 3166993
+  },
+  {
+   "title": "Life Fitness Mountain Bike Rally & Program Manager ( USA )",
+   "file": "Life Fitness Mountain Bike Rally & Program Manager ( USA ).pdf",
+   "bytes": 3107903
+  },
+  {
+   "title": "Lock On (USA)",
+   "file": "Lock On (USA).pdf",
+   "bytes": 3810569
+  },
+  {
+   "title": "Looney Tunes B-Ball ( USA )",
+   "file": "Looney Tunes B-Ball ( USA ).pdf",
+   "bytes": 4998496
+  },
+  {
+   "title": "Lost Vikings 2, The ( USA )",
+   "file": "Lost Vikings 2, The ( USA ).pdf",
+   "bytes": 2503995
+  },
+  {
+   "title": "Lost Vikings, The (PAL)",
+   "file": "Lost Vikings, The (PAL).pdf",
+   "bytes": 1359076
+  },
+  {
+   "title": "Lucky Luke ( EU )",
+   "file": "Lucky Luke ( EU ).pdf",
+   "bytes": 23859728
+  },
+  {
+   "title": "Lufia & the Fortress of Doom ( USA )",
+   "file": "Lufia & the Fortress of Doom ( USA ).pdf",
+   "bytes": 14112337
+  },
+  {
+   "title": "Lufia II - Rise of the Sinistrals (USA)",
+   "file": "Lufia II - Rise of the Sinistrals (USA).pdf",
+   "bytes": 3134515
+  },
+  {
+   "title": "M.A.C.S. Basic Rifle Marksmanship (USA)",
+   "file": "M.A.C.S. Basic Rifle Marksmanship (USA).pdf",
+   "bytes": 5062816
+  },
+  {
+   "title": "Madden NFL '94 (USA)",
+   "file": "Madden NFL '94 (USA).pdf",
+   "bytes": 2157329
+  },
+  {
+   "title": "Madden NFL 95 (USA)",
+   "file": "Madden NFL 95 (USA).pdf",
+   "bytes": 8172473
+  },
+  {
+   "title": "Madden NFL 96 (USA)",
+   "file": "Madden NFL 96 (USA).pdf",
+   "bytes": 11856314
+  },
+  {
+   "title": "Madden NFL 97 (USA)",
+   "file": "Madden NFL 97 (USA).pdf",
+   "bytes": 2336446
+  },
+  {
+   "title": "Madden NFL 98 (USA)",
+   "file": "Madden NFL 98 (USA).pdf",
+   "bytes": 9790200
+  },
+  {
+   "title": "Magic Boy ( EU )",
+   "file": "Magic Boy ( EU ).pdf",
+   "bytes": 32630990
+  },
+  {
+   "title": "Magic Sword ( USA )",
+   "file": "Magic Sword ( USA ).pdf",
+   "bytes": 5234033
+  },
+  {
+   "title": "Magical Quest Starring Mickey Mouse, The (USA)",
+   "file": "Magical Quest Starring Mickey Mouse, The (USA).pdf",
+   "bytes": 1210558
+  },
+  {
+   "title": "Manchester United Championship Soccer ( PAL )",
+   "file": "Manchester United Championship Soccer ( PAL ).pdf",
+   "bytes": 12954184
+  },
+  {
+   "title": "Mario Is Missing! (USA)",
+   "file": "Mario Is Missing! (USA).pdf",
+   "bytes": 566956
+  },
+  {
+   "title": "Mario Paint (Japan, USA)",
+   "file": "Mario Paint (Japan, USA).pdf",
+   "bytes": 3832251
+  },
+  {
+   "title": "Mario's Early Years Fun With Letters ( USA )",
+   "file": "Mario's Early Years Fun With Letters ( USA ).pdf",
+   "bytes": 19911359
+  },
+  {
+   "title": "Mario's Early Years Preschool Fun ( USA )",
+   "file": "Mario's Early Years Preschool Fun ( USA ).pdf",
+   "bytes": 3548305
+  },
+  {
+   "title": "Mario's Early Years! - Fun with Numbers (USA)",
+   "file": "Mario's Early Years! - Fun with Numbers (USA).pdf",
+   "bytes": 2564782
+  },
+  {
+   "title": "Mario's Time Machine (USA)",
+   "file": "Mario's Time Machine (USA).pdf",
+   "bytes": 901388
+  },
+  {
+   "title": "Mark Davis the Fishing Master ( USA )",
+   "file": "Mark Davis the Fishing Master ( USA ).pdf",
+   "bytes": 7723584
+  },
+  {
+   "title": "Marko's Magic Football ( PAL )",
+   "file": "Marko's Magic Football ( PAL ).pdf",
+   "bytes": 21636122
+  },
+  {
+   "title": "Marvel Super Heroes - War of the Gems ( USA )",
+   "file": "Marvel Super Heroes - War of the Gems ( USA ).pdf",
+   "bytes": 8213246
+  },
+  {
+   "title": "Mary Shelley's Frankenstein (USA)",
+   "file": "Mary Shelley's Frankenstein (USA).pdf",
+   "bytes": 2377844
+  },
+  {
+   "title": "Mask, The (USA)",
+   "file": "Mask, The (USA).pdf",
+   "bytes": 3801182
+  },
+  {
+   "title": "Math Blaster Episode 1 ( USA )",
+   "file": "Math Blaster Episode 1 ( USA ).pdf",
+   "bytes": 1537796
+  },
+  {
+   "title": "Maui Mallard in Cold Shadow ( USA )",
+   "file": "Maui Mallard in Cold Shadow ( USA ).pdf",
+   "bytes": 10975082
+  },
+  {
+   "title": "Maui Mallard in Cold Shadow (USA)",
+   "file": "Maui Mallard in Cold Shadow (USA).pdf",
+   "bytes": 3130563
+  },
+  {
+   "title": "Mecarobot Golf ( USA )",
+   "file": "Mecarobot Golf ( USA ).pdf",
+   "bytes": 2237235
+  },
+  {
+   "title": "MechWarrior (USA)",
+   "file": "MechWarrior (USA).pdf",
+   "bytes": 1376583
+  },
+  {
+   "title": "MechWarrior 3050 (USA)",
+   "file": "MechWarrior 3050 (USA).pdf",
+   "bytes": 3683932
+  },
+  {
+   "title": "MechWarrior 3050 (USA) Scan2",
+   "file": "MechWarrior 3050 (USA) Scan2.pdf",
+   "bytes": 29423029
+  },
+  {
+   "title": "Mega Man 7 (USA)",
+   "file": "Mega Man 7 (USA).pdf",
+   "bytes": 1381029
+  },
+  {
+   "title": "Mega Man Soccer ( USA )",
+   "file": "Mega Man Soccer ( USA ).pdf",
+   "bytes": 1214164
+  },
+  {
+   "title": "Mega Man X (USA) (Rev 1)",
+   "file": "Mega Man X (USA) (Rev 1).pdf",
+   "bytes": 1071974
+  },
+  {
+   "title": "Mega Man X2 (USA)",
+   "file": "Mega Man X2 (USA).pdf",
+   "bytes": 4101077
+  },
+  {
+   "title": "Mega Man X3 (USA)",
+   "file": "Mega Man X3 (USA).pdf",
+   "bytes": 1330362
+  },
+  {
+   "title": "Mega-Lo-Mania ( PAL )",
+   "file": "Mega-Lo-Mania ( PAL ).pdf",
+   "bytes": 27476671
+  },
+  {
+   "title": "Metal Combat - Falcon's Revenge (USA)",
+   "file": "Metal Combat - Falcon's Revenge (USA).pdf",
+   "bytes": 2103391
+  },
+  {
+   "title": "Metal Marines ( PAL )",
+   "file": "Metal Marines ( PAL ).pdf",
+   "bytes": 3302823
+  },
+  {
+   "title": "Metal Morph (USA)",
+   "file": "Metal Morph (USA).pdf",
+   "bytes": 1495885
+  },
+  {
+   "title": "Metal Warriors ( USA )",
+   "file": "Metal Warriors ( USA ).pdf",
+   "bytes": 6070559
+  },
+  {
+   "title": "Michael Andretti's Indy Car Challenge ( USA )",
+   "file": "Michael Andretti's Indy Car Challenge ( USA ).pdf",
+   "bytes": 28457015
+  },
+  {
+   "title": "Michael Jordan Chaos in the Windy City ( PAL )",
+   "file": "Michael Jordan Chaos in the Windy City ( PAL ).pdf",
+   "bytes": 17370216
+  },
+  {
+   "title": "Mickey Mania ( EU )",
+   "file": "Mickey Mania ( EU ).pdf",
+   "bytes": 43199603
+  },
+  {
+   "title": "Mickey's Ultimate Challenge ( USA )",
+   "file": "Mickey's Ultimate Challenge ( USA ).pdf",
+   "bytes": 2097155
+  },
+  {
+   "title": "Micro Machines (USA)",
+   "file": "Micro Machines (USA).pdf",
+   "bytes": 3241519
+  },
+  {
+   "title": "Micro Machines 2 ( PAL )",
+   "file": "Micro Machines 2 ( PAL ).pdf",
+   "bytes": 11155133
+  },
+  {
+   "title": "Miday Arcade's Greatest Hits - The Atari Collection 1 ( PAL )",
+   "file": "Miday Arcade's Greatest Hits - The Atari Collection 1 ( PAL ).pdf",
+   "bytes": 2052024
+  },
+  {
+   "title": "Midway Arcade's Greatest Hits ( USA )",
+   "file": "Midway Arcade's Greatest Hits ( USA ).pdf",
+   "bytes": 2643551
+  },
+  {
+   "title": "Might and Magic II ( PAL )",
+   "file": "Might and Magic II ( PAL ).pdf",
+   "bytes": 29354723
+  },
+  {
+   "title": "Might and Magic III - Isles of Terra (USA)",
+   "file": "Might and Magic III - Isles of Terra (USA).pdf",
+   "bytes": 1301687
+  },
+  {
+   "title": "Mighty Morphin Power Rangers (USA)",
+   "file": "Mighty Morphin Power Rangers (USA).pdf",
+   "bytes": 1469254
+  },
+  {
+   "title": "Mighty Morphin Power Rangers The Fighting Edition ( PAL )",
+   "file": "Mighty Morphin Power Rangers The Fighting Edition ( PAL ).pdf",
+   "bytes": 13656091
+  },
+  {
+   "title": "Mighty Morphin Power Rangers The Movie ( PAL )",
+   "file": "Mighty Morphin Power Rangers The Movie ( PAL ).pdf",
+   "bytes": 12441664
+  },
+  {
+   "title": "Miracle Piano Teaching System, The (USA)",
+   "file": "Miracle Piano Teaching System, The (USA).pdf",
+   "bytes": 3026919
+  },
+  {
+   "title": "MLBPA Baseball (USA)",
+   "file": "MLBPA Baseball (USA).pdf",
+   "bytes": 6860016
+  },
+  {
+   "title": "Mohawk & Headphone Jack ( EU )",
+   "file": "Mohawk & Headphone Jack ( EU ).pdf",
+   "bytes": 78885171
+  },
+  {
+   "title": "Monopoly (USA) (Rev 1)",
+   "file": "Monopoly (USA) (Rev 1).pdf",
+   "bytes": 1956702
+  },
+  {
+   "title": "Mortal Kombat (USA)",
+   "file": "Mortal Kombat (USA).pdf",
+   "bytes": 2208818
+  },
+  {
+   "title": "Mortal Kombat 3 (USA)",
+   "file": "Mortal Kombat 3 (USA).pdf",
+   "bytes": 4032514
+  },
+  {
+   "title": "Mortal Kombat II (USA) (Rev 1)",
+   "file": "Mortal Kombat II (USA) (Rev 1).pdf",
+   "bytes": 1935527
+  },
+  {
+   "title": "Mr Do ( USA )",
+   "file": "Mr Do ( USA ).pdf",
+   "bytes": 2857342
+  },
+  {
+   "title": "Mr Nutz ( PAL )",
+   "file": "Mr Nutz ( PAL ).pdf",
+   "bytes": 1852517
+  },
+  {
+   "title": "Ms. Pac-Man (USA)",
+   "file": "Ms. Pac-Man (USA).pdf",
+   "bytes": 1010432
+  },
+  {
+   "title": "Musya ( USA )",
+   "file": "Musya ( USA ).pdf",
+   "bytes": 6523910
+  },
+  {
+   "title": "Natsume Championship Wrestling ( USA )",
+   "file": "Natsume Championship Wrestling ( USA ).pdf",
+   "bytes": 4057587
+  },
+  {
+   "title": "NBA All-Star Challenge (USA)",
+   "file": "NBA All-Star Challenge (USA).pdf",
+   "bytes": 2167658
+  },
+  {
+   "title": "NBA Give N Go ( EU )",
+   "file": "NBA Give N Go ( EU ).pdf",
+   "bytes": 53448346
+  },
+  {
+   "title": "NBA Hang Time (USA)",
+   "file": "NBA Hang Time (USA).pdf",
+   "bytes": 2536022
+  },
+  {
+   "title": "NBA Jam (USA) (Rev 1)",
+   "file": "NBA Jam (USA) (Rev 1).pdf",
+   "bytes": 3478684
+  },
+  {
+   "title": "NBA Jam - Tournament Edition (USA)",
+   "file": "NBA Jam - Tournament Edition (USA).pdf",
+   "bytes": 6219948
+  },
+  {
+   "title": "NBA Live 95 (USA)",
+   "file": "NBA Live 95 (USA).pdf",
+   "bytes": 2117944
+  },
+  {
+   "title": "NBA Live 96 (USA)",
+   "file": "NBA Live 96 (USA).pdf",
+   "bytes": 3364017
+  },
+  {
+   "title": "NBA Live 97 (USA)",
+   "file": "NBA Live 97 (USA).pdf",
+   "bytes": 4635978
+  },
+  {
+   "title": "NBA Live 98 (USA)",
+   "file": "NBA Live 98 (USA).pdf",
+   "bytes": 3952992
+  },
+  {
+   "title": "NBA Showdown (USA)",
+   "file": "NBA Showdown (USA).pdf",
+   "bytes": 3711447
+  },
+  {
+   "title": "NCAA Basketball ( USA )",
+   "file": "NCAA Basketball ( USA ).pdf",
+   "bytes": 4318344
+  },
+  {
+   "title": "NCAA Basketball (USA) (Rev 1)",
+   "file": "NCAA Basketball (USA) (Rev 1).pdf",
+   "bytes": 1880352
+  },
+  {
+   "title": "NCAA Final Four Basketball (USA)",
+   "file": "NCAA Final Four Basketball (USA).pdf",
+   "bytes": 3099522
+  },
+  {
+   "title": "NCAA Football ( USA )",
+   "file": "NCAA Football ( USA ).pdf",
+   "bytes": 1656824
+  },
+  {
+   "title": "Newman-Haas IndyCar featuring Nigel Mansell (USA)",
+   "file": "Newman-Haas IndyCar featuring Nigel Mansell (USA).pdf",
+   "bytes": 2564158
+  },
+  {
+   "title": "NFL Football ( USA )",
+   "file": "NFL Football ( USA ).pdf",
+   "bytes": 2110555
+  },
+  {
+   "title": "NFL Quarterback Club (USA)",
+   "file": "NFL Quarterback Club (USA).pdf",
+   "bytes": 4875070
+  },
+  {
+   "title": "NFL Quarterback Club 96 (USA)",
+   "file": "NFL Quarterback Club 96 (USA).pdf",
+   "bytes": 4877688
+  },
+  {
+   "title": "NHL '94 (USA)",
+   "file": "NHL '94 (USA).pdf",
+   "bytes": 2036356
+  },
+  {
+   "title": "NHL '95 (USA)",
+   "file": "NHL '95 (USA).pdf",
+   "bytes": 2225643
+  },
+  {
+   "title": "NHL '96 (USA)",
+   "file": "NHL '96 (USA).pdf",
+   "bytes": 1985128
+  },
+  {
+   "title": "NHL '97 (USA)",
+   "file": "NHL '97 (USA).pdf",
+   "bytes": 2216257
+  },
+  {
+   "title": "NHL 98 ( USA )",
+   "file": "NHL 98 ( USA ).pdf",
+   "bytes": 2049762
+  },
+  {
+   "title": "NHL Stanley Cup (USA)",
+   "file": "NHL Stanley Cup (USA).pdf",
+   "bytes": 2841329
+  },
+  {
+   "title": "NHLPA Hockey 93 ( USA )",
+   "file": "NHLPA Hockey 93 ( USA ).pdf",
+   "bytes": 2349748
+  },
+  {
+   "title": "Nickelodeon Guts ( USA )",
+   "file": "Nickelodeon Guts ( USA ).pdf",
+   "bytes": 5409628
+  },
+  {
+   "title": "Nigel Mansell's World Championship Racing (PAL)",
+   "file": "Nigel Mansell's World Championship Racing (PAL).pdf",
+   "bytes": 2477078
+  },
+  {
+   "title": "Ninja Gaiden Trilogy (USA)",
+   "file": "Ninja Gaiden Trilogy (USA).pdf",
+   "bytes": 2480882
+  },
+  {
+   "title": "Ninja Warriors ( PAL )",
+   "file": "Ninja Warriors ( PAL ).pdf",
+   "bytes": 5129372
+  },
+  {
+   "title": "Ninja Warriors (USA)",
+   "file": "Ninja Warriors (USA).pdf",
+   "bytes": 10343156
+  },
+  {
+   "title": "No Escape (USA)",
+   "file": "No Escape (USA).pdf",
+   "bytes": 2031030
+  },
+  {
+   "title": "Nobunaga's Ambition (USA)",
+   "file": "Nobunaga's Ambition (USA).pdf",
+   "bytes": 2955512
+  },
+  {
+   "title": "Nobunagas Ambition - Lord of Darkness ( USA )",
+   "file": "Nobunagas Ambition - Lord of Darkness ( USA ).pdf",
+   "bytes": 6927845
+  },
+  {
+   "title": "Nolan Ryan Baseball ( USA )",
+   "file": "Nolan Ryan Baseball ( USA ).pdf",
+   "bytes": 3990770
+  },
+  {
+   "title": "Nosferatu ( USA )",
+   "file": "Nosferatu ( USA ).pdf",
+   "bytes": 3312570
+  },
+  {
+   "title": "Obitus ( USA )",
+   "file": "Obitus ( USA ).pdf",
+   "bytes": 4332628
+  },
+  {
+   "title": "Ogre Battle - The March of the Black Queen (USA)",
+   "file": "Ogre Battle - The March of the Black Queen (USA).pdf",
+   "bytes": 8944170
+  },
+  {
+   "title": "Olympic Summer Games Atlanta 1996 ( EU )",
+   "file": "Olympic Summer Games Atlanta 1996 ( EU ).pdf",
+   "bytes": 23428090
+  },
+  {
+   "title": "On the Ball (USA)",
+   "file": "On the Ball (USA).pdf",
+   "bytes": 1067401
+  },
+  {
+   "title": "Operation Europe - Path to Victory 1939 - 1945 ( USA )",
+   "file": "Operation Europe - Path to Victory 1939 - 1945 ( USA ).pdf",
+   "bytes": 7356940
+  },
+  {
+   "title": "Operation Logic Bomb ( USA )",
+   "file": "Operation Logic Bomb ( USA ).pdf",
+   "bytes": 30202309
+  },
+  {
+   "title": "Operation Thunderbolt ( USA )",
+   "file": "Operation Thunderbolt ( USA ).pdf",
+   "bytes": 11620715
+  },
+  {
+   "title": "Oscar (USA)",
+   "file": "Oscar (USA).pdf",
+   "bytes": 2976036
+  },
+  {
+   "title": "Out of This World (USA)",
+   "file": "Out of This World (USA).pdf",
+   "bytes": 794142
+  },
+  {
+   "title": "Out to Lunch (USA)",
+   "file": "Out to Lunch (USA).pdf",
+   "bytes": 1767454
+  },
+  {
+   "title": "Outlander (USA)",
+   "file": "Outlander (USA).pdf",
+   "bytes": 2280587
+  },
+  {
+   "title": "P.T.O. - Pacific Theater of Operations (USA)",
+   "file": "P.T.O. - Pacific Theater of Operations (USA).pdf",
+   "bytes": 3876134
+  },
+  {
+   "title": "P.T.O. II - Pacific Theater of Operations (USA)",
+   "file": "P.T.O. II - Pacific Theater of Operations (USA).pdf",
+   "bytes": 3405863
+  },
+  {
+   "title": "Pac-Attack (USA)",
+   "file": "Pac-Attack (USA).pdf",
+   "bytes": 1446018
+  },
+  {
+   "title": "Pac-in-Time (USA)",
+   "file": "Pac-in-Time (USA).pdf",
+   "bytes": 17265198
+  },
+  {
+   "title": "Pac-Man 2 - The New Adventures (USA)",
+   "file": "Pac-Man 2 - The New Adventures (USA).pdf",
+   "bytes": 851818
+  },
+  {
+   "title": "Pac-Man 2 The New Adventures ( USA ) ( Color )",
+   "file": "Pac-Man 2 The New Adventures ( USA ) ( Color ).pdf",
+   "bytes": 1849920
+  },
+  {
+   "title": "Packy and Marlon ( USA )",
+   "file": "Packy and Marlon ( USA ).pdf",
+   "bytes": 7476125
+  },
+  {
+   "title": "Pagemaster, The (USA)",
+   "file": "Pagemaster, The (USA).pdf",
+   "bytes": 1573415
+  },
+  {
+   "title": "Paladin's Quest (USA)",
+   "file": "Paladin's Quest (USA).pdf",
+   "bytes": 3284292
+  },
+  {
+   "title": "Paperboy 2 (USA)",
+   "file": "Paperboy 2 (USA).pdf",
+   "bytes": 487578
+  },
+  {
+   "title": "Parodius ( PAL )",
+   "file": "Parodius ( PAL ).pdf",
+   "bytes": 26997371
+  },
+  {
+   "title": "Peace Keepers, The ( USA )",
+   "file": "Peace Keepers, The ( USA ).pdf",
+   "bytes": 5397834
+  },
+  {
+   "title": "PGA European Tour (USA)",
+   "file": "PGA European Tour (USA).pdf",
+   "bytes": 2456484
+  },
+  {
+   "title": "PGA Tour 96 ( PAL )",
+   "file": "PGA Tour 96 ( PAL ).pdf",
+   "bytes": 38139974
+  },
+  {
+   "title": "PGA Tour 96 ( USA )",
+   "file": "PGA Tour 96 ( USA ).pdf",
+   "bytes": 1829708
+  },
+  {
+   "title": "PGA Tour Golf (USA)",
+   "file": "PGA Tour Golf (USA).pdf",
+   "bytes": 2194250
+  },
+  {
+   "title": "Phalanx - The Enforce Fighter A-144 (USA)",
+   "file": "Phalanx - The Enforce Fighter A-144 (USA).pdf",
+   "bytes": 1803023
+  },
+  {
+   "title": "Phantom 2040 ( USA )",
+   "file": "Phantom 2040 ( USA ).pdf",
+   "bytes": 1953886
+  },
+  {
+   "title": "Pieces ( USA )",
+   "file": "Pieces ( USA ).pdf",
+   "bytes": 1496623
+  },
+  {
+   "title": "Pilotwings (USA)",
+   "file": "Pilotwings (USA).pdf",
+   "bytes": 1944203
+  },
+  {
+   "title": "Pinball Dreams ( USA )",
+   "file": "Pinball Dreams ( USA ).pdf",
+   "bytes": 1928746
+  },
+  {
+   "title": "Pinball Fantasies ( PAL )",
+   "file": "Pinball Fantasies ( PAL ).pdf",
+   "bytes": 5889930
+  },
+  {
+   "title": "Pinball Fantasies ( USA )",
+   "file": "Pinball Fantasies ( USA ).pdf",
+   "bytes": 4350884
+  },
+  {
+   "title": "Pink Goes to Hollywood (USA)",
+   "file": "Pink Goes to Hollywood (USA).pdf",
+   "bytes": 1149275
+  },
+  {
+   "title": "Pit-Fighter (USA)",
+   "file": "Pit-Fighter (USA).pdf",
+   "bytes": 998617
+  },
+  {
+   "title": "Pitfall - The Mayan Adventure (USA)",
+   "file": "Pitfall - The Mayan Adventure (USA).pdf",
+   "bytes": 4901487
+  },
+  {
+   "title": "Plok! (USA)",
+   "file": "Plok! (USA).pdf",
+   "bytes": 2959881
+  },
+  {
+   "title": "Pocky & Rocky (USA)",
+   "file": "Pocky & Rocky (USA).pdf",
+   "bytes": 1478607
+  },
+  {
+   "title": "Pocky & Rocky 2 (USA)",
+   "file": "Pocky & Rocky 2 (USA).pdf",
+   "bytes": 13310331
+  },
+  {
+   "title": "Pocky and Rocky 2 ( PAL )",
+   "file": "Pocky and Rocky 2 ( PAL ).pdf",
+   "bytes": 2250096
+  },
+  {
+   "title": "Pop'n Twinbee ( PAL )",
+   "file": "Pop'n Twinbee ( PAL ).pdf",
+   "bytes": 36533126
+  },
+  {
+   "title": "Pop'n TwinBee - Rainbow Bell Adventures (PAL)",
+   "file": "Pop'n TwinBee - Rainbow Bell Adventures (PAL).pdf",
+   "bytes": 6997957
+  },
+  {
+   "title": "Pop'n TwinBee - Rainbow Bell Adventures (UKV)",
+   "file": "Pop'n TwinBee - Rainbow Bell Adventures (UKV).pdf",
+   "bytes": 60672086
+  },
+  {
+   "title": "Populous (USA)",
+   "file": "Populous (USA).pdf",
+   "bytes": 4223597
+  },
+  {
+   "title": "Populous II - Trial of the Olympian Gods ( PAL )",
+   "file": "Populous II - Trial of the Olympian Gods ( PAL ).pdf",
+   "bytes": 8542059
+  },
+  {
+   "title": "Porky Pig's Haunted Holiday (USA)",
+   "file": "Porky Pig's Haunted Holiday (USA).pdf",
+   "bytes": 892360
+  },
+  {
+   "title": "Power Drive ( EU )",
+   "file": "Power Drive ( EU ).pdf",
+   "bytes": 38058014
+  },
+  {
+   "title": "Power Instinct ( USA )",
+   "file": "Power Instinct ( USA ).pdf",
+   "bytes": 27026829
+  },
+  {
+   "title": "Power Moves (USA)",
+   "file": "Power Moves (USA).pdf",
+   "bytes": 8995292
+  },
+  {
+   "title": "Power Piggs of the Dark Age ( EU )",
+   "file": "Power Piggs of the Dark Age ( EU ).pdf",
+   "bytes": 24373301
+  },
+  {
+   "title": "Power Piggs of the Dark Age ( PAL )",
+   "file": "Power Piggs of the Dark Age ( PAL ).pdf",
+   "bytes": 6737131
+  },
+  {
+   "title": "Power Rangers Zeo - Battle Racers (USA)",
+   "file": "Power Rangers Zeo - Battle Racers (USA).pdf",
+   "bytes": 1280279
+  },
+  {
+   "title": "Powermonger ( PAL )",
+   "file": "Powermonger ( PAL ).pdf",
+   "bytes": 70592110
+  },
+  {
+   "title": "Prehistorik Man ( EU )",
+   "file": "Prehistorik Man ( EU ).pdf",
+   "bytes": 33834855
+  },
+  {
+   "title": "Primal Rage (USA)",
+   "file": "Primal Rage (USA).pdf",
+   "bytes": 2119258
+  },
+  {
+   "title": "Prince of Persia (USA)",
+   "file": "Prince of Persia (USA).pdf",
+   "bytes": 1098282
+  },
+  {
+   "title": "Prince of Persia 2 - The Shadow & The Flame (USA)",
+   "file": "Prince of Persia 2 - The Shadow & The Flame (USA).pdf",
+   "bytes": 763770
+  },
+  {
+   "title": "Pro Quarterback ( USA )",
+   "file": "Pro Quarterback ( USA ).pdf",
+   "bytes": 1428022
+  },
+  {
+   "title": "Pro Sport Hockey (USA)",
+   "file": "Pro Sport Hockey (USA).pdf",
+   "bytes": 11487972
+  },
+  {
+   "title": "Push-Over ( USA )",
+   "file": "Push-Over ( USA ).pdf",
+   "bytes": 1000531
+  },
+  {
+   "title": "Putty Squad ( PAL )",
+   "file": "Putty Squad ( PAL ).pdf",
+   "bytes": 28819680
+  },
+  {
+   "title": "Q-bert 3 (USA)",
+   "file": "Q-bert 3 (USA).pdf",
+   "bytes": 2684954
+  },
+  {
+   "title": "R-Type III ( PAL )",
+   "file": "R-Type III ( PAL ).pdf",
+   "bytes": 31223797
+  },
+  {
+   "title": "R-Type III - The Third Lightning (USA)",
+   "file": "R-Type III - The Third Lightning (USA).pdf",
+   "bytes": 14931496
+  },
+  {
+   "title": "R.P.M. Racing (USA)",
+   "file": "R.P.M. Racing (USA).pdf",
+   "bytes": 1825796
+  },
+  {
+   "title": "Race Drivin ( USA )",
+   "file": "Race Drivin ( USA ).pdf",
+   "bytes": 640424
+  },
+  {
+   "title": "Radical Rex (USA)",
+   "file": "Radical Rex (USA).pdf",
+   "bytes": 10163990
+  },
+  {
+   "title": "Raiden Trad ( USA )",
+   "file": "Raiden Trad ( USA ).pdf",
+   "bytes": 1358398
+  },
+  {
+   "title": "Rampart ( USA )",
+   "file": "Rampart ( USA ).pdf",
+   "bytes": 2995567
+  },
+  {
+   "title": "Ranma 1-2 - Hard Battle (USA)",
+   "file": "Ranma 1-2 - Hard Battle (USA).pdf",
+   "bytes": 2411514
+  },
+  {
+   "title": "Rapjam - Volume 1 ( USA ) Partial",
+   "file": "Rapjam - Volume 1 ( USA ) Partial.pdf",
+   "bytes": 6191615
+  },
+  {
+   "title": "RapJam Volume One ( USA )",
+   "file": "RapJam Volume One ( USA ).pdf",
+   "bytes": 50175989
+  },
+  {
+   "title": "Realm ( PAL )",
+   "file": "Realm ( PAL ).pdf",
+   "bytes": 7199819
+  },
+  {
+   "title": "Relief Pitcher (USA)",
+   "file": "Relief Pitcher (USA).pdf",
+   "bytes": 3791057
+  },
+  {
+   "title": "Ren & Stimpy Show, The - Veediots! (USA)",
+   "file": "Ren & Stimpy Show, The - Veediots! (USA).pdf",
+   "bytes": 7269137
+  },
+  {
+   "title": "Ren and Stimpy Buckeroo$ ( USA )",
+   "file": "Ren and Stimpy Buckeroo$ ( USA ).pdf",
+   "bytes": 2540878
+  },
+  {
+   "title": "Ren and Stimpy Fire Dogs ( USA )",
+   "file": "Ren and Stimpy Fire Dogs ( USA ).pdf",
+   "bytes": 1744433
+  },
+  {
+   "title": "Ren and Stimpy Time Warp ( PAL )",
+   "file": "Ren and Stimpy Time Warp ( PAL ).pdf",
+   "bytes": 36605845
+  },
+  {
+   "title": "Revolution X (USA)",
+   "file": "Revolution X (USA).pdf",
+   "bytes": 2560847
+  },
+  {
+   "title": "Rex Ronan - Experimental Surgeon ( USA )",
+   "file": "Rex Ronan - Experimental Surgeon ( USA ).pdf",
+   "bytes": 3420698
+  },
+  {
+   "title": "Riddick Bowe Boxing ( USA )",
+   "file": "Riddick Bowe Boxing ( USA ).pdf",
+   "bytes": 2099161
+  },
+  {
+   "title": "Rise of the Phoenix ( USA )",
+   "file": "Rise of the Phoenix ( USA ).pdf",
+   "bytes": 5878731
+  },
+  {
+   "title": "Rise of the Robots (USA)",
+   "file": "Rise of the Robots (USA).pdf",
+   "bytes": 2501245
+  },
+  {
+   "title": "Rival Turf! (USA)",
+   "file": "Rival Turf! (USA).pdf",
+   "bytes": 3098790
+  },
+  {
+   "title": "Road Riot 4WD (USA)",
+   "file": "Road Riot 4WD (USA).pdf",
+   "bytes": 997388
+  },
+  {
+   "title": "Road Runner's Death Valley Rally (USA)",
+   "file": "Road Runner's Death Valley Rally (USA).pdf",
+   "bytes": 910391
+  },
+  {
+   "title": "RoboCop 3 (USA)",
+   "file": "RoboCop 3 (USA).pdf",
+   "bytes": 1046893
+  },
+  {
+   "title": "RoboCop versus The Terminator (USA)",
+   "file": "RoboCop versus The Terminator (USA).pdf",
+   "bytes": 1783956
+  },
+  {
+   "title": "Robotrek (USA)",
+   "file": "Robotrek (USA).pdf",
+   "bytes": 2370158
+  },
+  {
+   "title": "Rock 'N Roll Racing (USA)",
+   "file": "Rock 'N Roll Racing (USA).pdf",
+   "bytes": 3241890
+  },
+  {
+   "title": "Rock 'n' Roll Racing ( PAL )",
+   "file": "Rock 'n' Roll Racing ( PAL ).pdf",
+   "bytes": 43864506
+  },
+  {
+   "title": "Rocketeer, The ( USA )",
+   "file": "Rocketeer, The ( USA ).pdf",
+   "bytes": 1541985
+  },
+  {
+   "title": "Rockman and Forte - JP Manual - SNS",
+   "file": "Rockman_and_Forte_-_JP_Manual_-_SNS.pdf",
+   "bytes": 4797043
+  },
+  {
+   "title": "Rockman X - JP Manual - SNS",
+   "file": "Rockman_X_-_JP_Manual_-_SNS.pdf",
+   "bytes": 4598657
+  },
+  {
+   "title": "Rocko's Modern Life ( USA )",
+   "file": "Rocko's Modern Life ( USA ).pdf",
+   "bytes": 1820701
+  },
+  {
+   "title": "Rocky Rodent ( USA )",
+   "file": "Rocky Rodent ( USA ).pdf",
+   "bytes": 10896072
+  },
+  {
+   "title": "Roger Clemens' MVP Baseball ( USA )",
+   "file": "Roger Clemens' MVP Baseball ( USA ).pdf",
+   "bytes": 2245202
+  },
+  {
+   "title": "Romance of the Three Kingdoms II (USA)",
+   "file": "Romance of the Three Kingdoms II (USA).pdf",
+   "bytes": 3106934
+  },
+  {
+   "title": "Romance of the Three Kingdoms III - Dragon of Destiny (USA)",
+   "file": "Romance of the Three Kingdoms III - Dragon of Destiny (USA).pdf",
+   "bytes": 4125965
+  },
+  {
+   "title": "Romance of the Three Kingdoms IV - Wall of Fire (USA)",
+   "file": "Romance of the Three Kingdoms IV - Wall of Fire (USA).pdf",
+   "bytes": 7313064
+  },
+  {
+   "title": "Run Saber ( USA )",
+   "file": "Run Saber ( USA ).pdf",
+   "bytes": 3423140
+  },
+  {
+   "title": "S.O.S - Sink or Swim ( EU )",
+   "file": "S.O.S - Sink or Swim ( EU ).pdf",
+   "bytes": 27716474
+  },
+  {
+   "title": "Sailor Moon ( FRA )",
+   "file": "Sailor Moon ( FRA ).pdf",
+   "bytes": 10863877
+  },
+  {
+   "title": "Samurai Shodown (USA)",
+   "file": "Samurai Shodown (USA).pdf",
+   "bytes": 4333049
+  },
+  {
+   "title": "Saturday Night Slam Masters ( USA )",
+   "file": "Saturday Night Slam Masters ( USA ).pdf",
+   "bytes": 3430347
+  },
+  {
+   "title": "Scooby Doo Mystery ( USA ) ( Color )",
+   "file": "Scooby Doo Mystery ( USA ) ( Color ).pdf",
+   "bytes": 2089611
+  },
+  {
+   "title": "Scooby-Doo Mystery (USA)",
+   "file": "Scooby-Doo Mystery (USA).pdf",
+   "bytes": 2859481
+  },
+  {
+   "title": "SeaQuest DSV ( PAL )",
+   "file": "SeaQuest DSV ( PAL ).pdf",
+   "bytes": 58070282
+  },
+  {
+   "title": "Secret of Evermore (USA)",
+   "file": "Secret of Evermore (USA).pdf",
+   "bytes": 9109805
+  },
+  {
+   "title": "Secret of Mana ( USA ) HQ",
+   "file": "Secret of Mana ( USA ) HQ.pdf",
+   "bytes": 23892045
+  },
+  {
+   "title": "Secret of Mana (USA)",
+   "file": "Secret of Mana (USA).pdf",
+   "bytes": 4698546
+  },
+  {
+   "title": "Seiken Densetsu 3 - JP Manual - SNS",
+   "file": "Seiken_Densetsu_3_-_JP_Manual_-_SNS.pdf",
+   "bytes": 3415887
+  },
+  {
+   "title": "Sensible Soccer European Champions ( PAL )",
+   "file": "Sensible Soccer European Champions ( PAL ).pdf",
+   "bytes": 57418693
+  },
+  {
+   "title": "Shadowrun (USA)",
+   "file": "Shadowrun (USA).pdf",
+   "bytes": 4626809
+  },
+  {
+   "title": "Shanghai II Dragon's Eye ( USA )",
+   "file": "Shanghai II Dragon's Eye ( USA ).pdf",
+   "bytes": 2286732
+  },
+  {
+   "title": "Shaq Fu (USA)",
+   "file": "Shaq Fu (USA).pdf",
+   "bytes": 1731084
+  },
+  {
+   "title": "Shien's Revenge ( USA )",
+   "file": "Shien's Revenge ( USA ).pdf",
+   "bytes": 5309371
+  },
+  {
+   "title": "Sid Meier's Civilization (USA)",
+   "file": "Sid Meier's Civilization (USA).pdf",
+   "bytes": 4468095
+  },
+  {
+   "title": "Side Pocket (USA)",
+   "file": "Side Pocket (USA).pdf",
+   "bytes": 1339086
+  },
+  {
+   "title": "SimAnt ( USA )",
+   "file": "SimAnt ( USA ).pdf",
+   "bytes": 3565188
+  },
+  {
+   "title": "SimCity (USA)",
+   "file": "SimCity (USA).pdf",
+   "bytes": 7542339
+  },
+  {
+   "title": "SimCity 2000 (PAL)",
+   "file": "SimCity 2000 (PAL).pdf",
+   "bytes": 7597753
+  },
+  {
+   "title": "SimEarth - The Living Planet (USA)",
+   "file": "SimEarth - The Living Planet (USA).pdf",
+   "bytes": 2914372
+  },
+  {
+   "title": "Simpsons, The - Bart's Nightmare (USA)",
+   "file": "Simpsons, The - Bart's Nightmare (USA).pdf",
+   "bytes": 6591663
+  },
+  {
+   "title": "Skuljagger ( USA )",
+   "file": "Skuljagger ( USA ).pdf",
+   "bytes": 7256463
+  },
+  {
+   "title": "Skyblazer ( PAL )",
+   "file": "Skyblazer ( PAL ).pdf",
+   "bytes": 20353526
+  },
+  {
+   "title": "SkyBlazer (USA)",
+   "file": "SkyBlazer (USA).pdf",
+   "bytes": 5463241
+  },
+  {
+   "title": "Skyblazer PAL Comic",
+   "file": "Skyblazer PAL Comic.pdf",
+   "bytes": 6912066
+  },
+  {
+   "title": "Smart Ball (USA)",
+   "file": "Smart Ball (USA).pdf",
+   "bytes": 1942506
+  },
+  {
+   "title": "Smash Tennis (Europe)",
+   "file": "Smash Tennis (Europe).pdf",
+   "bytes": 6096308
+  },
+  {
+   "title": "SNES Super Play Action Football Playbook ( USA )",
+   "file": "SNES Super Play Action Football Playbook ( USA ).pdf",
+   "bytes": 9711196
+  },
+  {
+   "title": "Snow White Happily Ever After ( USA )",
+   "file": "Snow White Happily Ever After ( USA ).pdf",
+   "bytes": 1957565
+  },
+  {
+   "title": "Soccer Kid ( PAL )",
+   "file": "Soccer Kid ( PAL ).pdf",
+   "bytes": 4418706
+  },
+  {
+   "title": "Soccer Shootout ( PAL )",
+   "file": "Soccer Shootout ( PAL ).pdf",
+   "bytes": 27650267
+  },
+  {
+   "title": "Soldiers of Fortune ( USA )",
+   "file": "Soldiers of Fortune ( USA ).pdf",
+   "bytes": 56347452
+  },
+  {
+   "title": "Sonic Blast Man (USA)",
+   "file": "Sonic Blast Man (USA).pdf",
+   "bytes": 1200835
+  },
+  {
+   "title": "Sonic Blastman II (USA)",
+   "file": "Sonic Blastman II (USA).pdf",
+   "bytes": 4542760
+  },
+  {
+   "title": "SOS (USA)",
+   "file": "SOS (USA).pdf",
+   "bytes": 918958
+  },
+  {
+   "title": "Soul Blazer (USA)",
+   "file": "Soul Blazer (USA).pdf",
+   "bytes": 4687528
+  },
+  {
+   "title": "Space Ace (USA)",
+   "file": "Space Ace (USA).pdf",
+   "bytes": 993901
+  },
+  {
+   "title": "Space Football One on One ( USA )",
+   "file": "Space Football One on One ( USA ).pdf",
+   "bytes": 927947
+  },
+  {
+   "title": "Space Invaders ( USA )",
+   "file": "Space Invaders ( USA ).pdf",
+   "bytes": 925346
+  },
+  {
+   "title": "Space Megaforce ( USA )",
+   "file": "Space Megaforce ( USA ).pdf",
+   "bytes": 4116791
+  },
+  {
+   "title": "Spanky's Quest (USA)",
+   "file": "Spanky's Quest (USA).pdf",
+   "bytes": 1442934
+  },
+  {
+   "title": "Sparkster ( PAL )",
+   "file": "Sparkster ( PAL ).pdf",
+   "bytes": 19435111
+  },
+  {
+   "title": "Spectre (USA)",
+   "file": "Spectre (USA).pdf",
+   "bytes": 1411848
+  },
+  {
+   "title": "Speed Racer in My Most Dangerous Adventures (USA)",
+   "file": "Speed Racer in My Most Dangerous Adventures (USA).pdf",
+   "bytes": 3314235
+  },
+  {
+   "title": "Speedy Gonzales ( USA ) ( Rev 1 )",
+   "file": "Speedy Gonzales ( USA ) ( Rev 1 ).pdf",
+   "bytes": 1344534
+  },
+  {
+   "title": "Spider-Man (USA)",
+   "file": "Spider-Man (USA).pdf",
+   "bytes": 4659524
+  },
+  {
+   "title": "Spider-man Venom Maximum Carnage (USA)",
+   "file": "Spider-man Venom Maximum Carnage (USA).pdf",
+   "bytes": 10242813
+  },
+  {
+   "title": "Spider-Man-Venom - Maximum Carnage (USA)",
+   "file": "Spider-Man-Venom - Maximum Carnage (USA).pdf",
+   "bytes": 2065509
+  },
+  {
+   "title": "Spider-Man-X-Men - Arcade's Revenge (USA)",
+   "file": "Spider-Man-X-Men - Arcade's Revenge (USA).pdf",
+   "bytes": 3906812
+  },
+  {
+   "title": "Spindizzy Worlds ( USA )",
+   "file": "Spindizzy Worlds ( USA ).pdf",
+   "bytes": 5173801
+  },
+  {
+   "title": "Spirou ( EU )",
+   "file": "Spirou ( EU ).pdf",
+   "bytes": 27438768
+  },
+  {
+   "title": "Sporting News Baseball ( USA )",
+   "file": "Sporting News Baseball ( USA ).pdf",
+   "bytes": 23298142
+  },
+  {
+   "title": "Sports Illustrated Championship Football and Baseball ( USA )",
+   "file": "Sports Illustrated Championship Football and Baseball ( USA ).pdf",
+   "bytes": 1144446
+  },
+  {
+   "title": "Star Fox (USA) (Rev 2)",
+   "file": "Star Fox (USA) (Rev 2).pdf",
+   "bytes": 1631018
+  },
+  {
+   "title": "Star Ocean - JP Manual - SNS",
+   "file": "Star_Ocean_-_JP_Manual_-_SNS.pdf",
+   "bytes": 3778168
+  },
+  {
+   "title": "Star Trek - Deep Space Nine - Crossroads ( USA )",
+   "file": "Star Trek - Deep Space Nine - Crossroads ( USA ).pdf",
+   "bytes": 1596397
+  },
+  {
+   "title": "Star Trek - Starfleet Academy - Starship Bridge Simulator (USA)",
+   "file": "Star Trek - Starfleet Academy - Starship Bridge Simulator (USA).pdf",
+   "bytes": 2726602
+  },
+  {
+   "title": "Star Trek - The Next Generation - Future's Past (USA)",
+   "file": "Star Trek - The Next Generation - Future's Past (USA).pdf",
+   "bytes": 2529925
+  },
+  {
+   "title": "Starfox 2 ( Fan Manual )",
+   "file": "Starfox 2 ( Fan Manual ).pdf",
+   "bytes": 6821783
+  },
+  {
+   "title": "Stargate (USA)",
+   "file": "Stargate (USA).pdf",
+   "bytes": 3263898
+  },
+  {
+   "title": "Steel Talons ( USA )",
+   "file": "Steel Talons ( USA ).pdf",
+   "bytes": 3725129
+  },
+  {
+   "title": "Sterling Sharpe - End 2 End (USA)",
+   "file": "Sterling Sharpe - End 2 End (USA).pdf",
+   "bytes": 3866641
+  },
+  {
+   "title": "Stone Protectors ( USA )",
+   "file": "Stone Protectors ( USA ).pdf",
+   "bytes": 39520928
+  },
+  {
+   "title": "Street Combat (USA)",
+   "file": "Street Combat (USA).pdf",
+   "bytes": 2818389
+  },
+  {
+   "title": "Street Fighter Alpha 2 (USA)",
+   "file": "Street Fighter Alpha 2 (USA).pdf",
+   "bytes": 2305227
+  },
+  {
+   "title": "Street Fighter II ( PAL )",
+   "file": "Street Fighter II ( PAL ).pdf",
+   "bytes": 31814115
+  },
+  {
+   "title": "Street Fighter II (USA)",
+   "file": "Street Fighter II (USA).pdf",
+   "bytes": 2210128
+  },
+  {
+   "title": "Street Fighter II Turbo (USA)",
+   "file": "Street Fighter II Turbo (USA).pdf",
+   "bytes": 2616235
+  },
+  {
+   "title": "Street Hockey 95 ( USA )",
+   "file": "Street Hockey 95 ( USA ).pdf",
+   "bytes": 19313995
+  },
+  {
+   "title": "Street Racer ( EU )",
+   "file": "Street Racer ( EU ).pdf",
+   "bytes": 4039490
+  },
+  {
+   "title": "Street Racer (USA)",
+   "file": "Street Racer (USA).pdf",
+   "bytes": 9182283
+  },
+  {
+   "title": "Striker ( PAL )",
+   "file": "Striker ( PAL ).pdf",
+   "bytes": 16493407
+  },
+  {
+   "title": "Stunt Race FX (USA) (Rev 1)",
+   "file": "Stunt Race FX (USA) (Rev 1).pdf",
+   "bytes": 3282556
+  },
+  {
+   "title": "Sunset Riders (USA)",
+   "file": "Sunset Riders (USA).pdf",
+   "bytes": 908394
+  },
+  {
+   "title": "Super Adventure Island (USA)",
+   "file": "Super Adventure Island (USA).pdf",
+   "bytes": 3371595
+  },
+  {
+   "title": "Super Adventure Island II (USA)",
+   "file": "Super Adventure Island II (USA).pdf",
+   "bytes": 2352414
+  },
+  {
+   "title": "Super Aleste ( PAL )",
+   "file": "Super Aleste ( PAL ).pdf",
+   "bytes": 33562533
+  },
+  {
+   "title": "Super Alfred Chicken (USA)",
+   "file": "Super Alfred Chicken (USA).pdf",
+   "bytes": 896388
+  },
+  {
+   "title": "Super B.C ( PAL )",
+   "file": "Super B.C ( PAL ).pdf",
+   "bytes": 28456570
+  },
+  {
+   "title": "Super Baseball 2020 (USA)",
+   "file": "Super Baseball 2020 (USA).pdf",
+   "bytes": 4053682
+  },
+  {
+   "title": "Super Baseball Simulator 1.000 (USA)",
+   "file": "Super Baseball Simulator 1.000 (USA).pdf",
+   "bytes": 2791079
+  },
+  {
+   "title": "Super Bases Loaded ( USA )",
+   "file": "Super Bases Loaded ( USA ).pdf",
+   "bytes": 2540997
+  },
+  {
+   "title": "Super Bases Loaded 2 ( USA )",
+   "file": "Super Bases Loaded 2 ( USA ).pdf",
+   "bytes": 1529638
+  },
+  {
+   "title": "Super Bases Loaded 3 License to Steal ( USA )",
+   "file": "Super Bases Loaded 3 License to Steal ( USA ).pdf",
+   "bytes": 47747979
+  },
+  {
+   "title": "Super Batter Up ( USA )",
+   "file": "Super Batter Up ( USA ).pdf",
+   "bytes": 1914044
+  },
+  {
+   "title": "Super Battleship ( USA ) ( Color )",
+   "file": "Super Battleship ( USA ) ( Color ).pdf",
+   "bytes": 2358281
+  },
+  {
+   "title": "Super Battleship (USA)",
+   "file": "Super Battleship (USA).pdf",
+   "bytes": 1319519
+  },
+  {
+   "title": "Super Battletank 2 (USA)",
+   "file": "Super Battletank 2 (USA).pdf",
+   "bytes": 6259434
+  },
+  {
+   "title": "Super Black Bass (USA)",
+   "file": "Super Black Bass (USA).pdf",
+   "bytes": 2945258
+  },
+  {
+   "title": "Super Bomberman (PAL)",
+   "file": "Super Bomberman (PAL).pdf",
+   "bytes": 1348560
+  },
+  {
+   "title": "Super Bomberman (USA)",
+   "file": "Super Bomberman (USA).pdf",
+   "bytes": 9335438
+  },
+  {
+   "title": "Super Bomberman 2 (USA)",
+   "file": "Super Bomberman 2 (USA).pdf",
+   "bytes": 1652797
+  },
+  {
+   "title": "Super Bomberman 3 ( PAL )",
+   "file": "Super Bomberman 3 ( PAL ).pdf",
+   "bytes": 25403139
+  },
+  {
+   "title": "Super Bonk (USA)",
+   "file": "Super Bonk (USA).pdf",
+   "bytes": 4952786
+  },
+  {
+   "title": "Super Bowling ( USA )",
+   "file": "Super Bowling ( USA ).pdf",
+   "bytes": 1264421
+  },
+  {
+   "title": "Super Buster Bros. ( USA )",
+   "file": "Super Buster Bros. ( USA ).pdf",
+   "bytes": 13525869
+  },
+  {
+   "title": "Super Caesars Palace (USA)",
+   "file": "Super Caesars Palace (USA).pdf",
+   "bytes": 2868048
+  },
+  {
+   "title": "Super Castlevania IV (USA)",
+   "file": "Super Castlevania IV (USA).pdf",
+   "bytes": 1224240
+  },
+  {
+   "title": "Super Chase H.Q ( PAL )",
+   "file": "Super Chase H.Q ( PAL ).pdf",
+   "bytes": 16159836
+  },
+  {
+   "title": "Super Conflict - The Mideast (USA)",
+   "file": "Super Conflict - The Mideast (USA).pdf",
+   "bytes": 2221833
+  },
+  {
+   "title": "Super Dany ( EU )",
+   "file": "Super Dany ( EU ).pdf",
+   "bytes": 23138881
+  },
+  {
+   "title": "Super Double Dragon (USA)",
+   "file": "Super Double Dragon (USA).pdf",
+   "bytes": 3148014
+  },
+  {
+   "title": "Super Earth Defense Force ( USA )",
+   "file": "Super Earth Defense Force ( USA ).pdf",
+   "bytes": 20939912
+  },
+  {
+   "title": "Super Game Boy ( USA )",
+   "file": "Super Game Boy ( USA ).pdf",
+   "bytes": 1557731
+  },
+  {
+   "title": "Super Game Boy ( USA ) ( Rev 999 )",
+   "file": "Super Game Boy ( USA ) ( Rev 999 ).pdf",
+   "bytes": 1327364
+  },
+  {
+   "title": "Super Ghouls'n Ghosts (USA)",
+   "file": "Super Ghouls'n Ghosts (USA).pdf",
+   "bytes": 1163338
+  },
+  {
+   "title": "Super Goal! ( PAL )",
+   "file": "Super Goal! ( PAL ).pdf",
+   "bytes": 59284561
+  },
+  {
+   "title": "Super Goal! 2 (USA)",
+   "file": "Super Goal! 2 (USA).pdf",
+   "bytes": 3618496
+  },
+  {
+   "title": "Super Godzilla ( USA ) ( Color )",
+   "file": "Super Godzilla ( USA ) ( Color ).pdf",
+   "bytes": 4038178
+  },
+  {
+   "title": "Super Godzilla (USA)",
+   "file": "Super Godzilla (USA).pdf",
+   "bytes": 2868016
+  },
+  {
+   "title": "Super High Impact ( USA )",
+   "file": "Super High Impact ( USA ).pdf",
+   "bytes": 1832348
+  },
+  {
+   "title": "Super Ice Hockey ( PAL )",
+   "file": "Super Ice Hockey ( PAL ).pdf",
+   "bytes": 23092363
+  },
+  {
+   "title": "Super International Cricket (Europe)",
+   "file": "Super International Cricket (Europe).pdf",
+   "bytes": 2322702
+  },
+  {
+   "title": "Super James Pond ( PAL )",
+   "file": "Super James Pond ( PAL ).pdf",
+   "bytes": 23818423
+  },
+  {
+   "title": "Super James Pond (USA)",
+   "file": "Super James Pond (USA).pdf",
+   "bytes": 6863508
+  },
+  {
+   "title": "Super Mario All Stars (PAL Greek Manual)",
+   "file": "Super Mario All Stars (PAL Greek Manual).pdf",
+   "bytes": 6241222
+  },
+  {
+   "title": "Super Mario All-Stars (USA)",
+   "file": "Super Mario All-Stars (USA).pdf",
+   "bytes": 3057807
+  },
+  {
+   "title": "Super Mario All-Stars + Super Mario World (USA)",
+   "file": "Super Mario All-Stars + Super Mario World (USA).pdf",
+   "bytes": 5073351
+  },
+  {
+   "title": "Super Mario Kart (USA)",
+   "file": "Super Mario Kart (USA).pdf",
+   "bytes": 2334906
+  },
+  {
+   "title": "Super Mario RPG - Legend of the Seven Stars (USA)",
+   "file": "Super Mario RPG - Legend of the Seven Stars (USA).pdf",
+   "bytes": 3155271
+  },
+  {
+   "title": "Super Mario World (USA)",
+   "file": "Super Mario World (USA).pdf",
+   "bytes": 2099279
+  },
+  {
+   "title": "Super Mario World 2 - Yoshi's Island (USA) (Rev 1)",
+   "file": "Super Mario World 2 - Yoshi's Island (USA) (Rev 1).pdf",
+   "bytes": 1746033
+  },
+  {
+   "title": "Super Metroid (Japan, USA)",
+   "file": "Super Metroid (Japan, USA).pdf",
+   "bytes": 2291538
+  },
+  {
+   "title": "Super Morph ( PAL )",
+   "file": "Super Morph ( PAL ).pdf",
+   "bytes": 13366808
+  },
+  {
+   "title": "Super NES Scope 6 ( USA )",
+   "file": "Super NES Scope 6 ( USA ).pdf",
+   "bytes": 2109973
+  },
+  {
+   "title": "Super Ninja Boy ( USA )",
+   "file": "Super Ninja Boy ( USA ).pdf",
+   "bytes": 4013203
+  },
+  {
+   "title": "Super Noah's Ark 3D ( USA )",
+   "file": "Super Noah's Ark 3D ( USA ).pdf",
+   "bytes": 1549654
+  },
+  {
+   "title": "Super Nova ( USA )",
+   "file": "Super Nova ( USA ).pdf",
+   "bytes": 6026532
+  },
+  {
+   "title": "Super Off Road ( USA )",
+   "file": "Super Off Road ( USA ).pdf",
+   "bytes": 48458442
+  },
+  {
+   "title": "Super Off Road The Baja ( USA )",
+   "file": "Super Off Road The Baja ( USA ).pdf",
+   "bytes": 2382657
+  },
+  {
+   "title": "Super Pinball - Behind the Mask (USA) (Rev 1)",
+   "file": "Super Pinball - Behind the Mask (USA) (Rev 1).pdf",
+   "bytes": 2385092
+  },
+  {
+   "title": "Super Play Action Football (USA)",
+   "file": "Super Play Action Football (USA).pdf",
+   "bytes": 3679967
+  },
+  {
+   "title": "Super Probotector Alien Rebels ( PAL )",
+   "file": "Super Probotector Alien Rebels ( PAL ).pdf",
+   "bytes": 1899363
+  },
+  {
+   "title": "Super Punch-Out!! (USA)",
+   "file": "Super Punch-Out!! (USA).pdf",
+   "bytes": 8197907
+  },
+  {
+   "title": "Super Putty ( USA )",
+   "file": "Super Putty ( USA ).pdf",
+   "bytes": 16554316
+  },
+  {
+   "title": "Super R-Type (USA)",
+   "file": "Super R-Type (USA).pdf",
+   "bytes": 1387670
+  },
+  {
+   "title": "Super RBI Baseball ( USA )",
+   "file": "Super RBI Baseball ( USA ).pdf",
+   "bytes": 2771272
+  },
+  {
+   "title": "Super Slam Dunk ( USA )",
+   "file": "Super Slam Dunk ( USA ).pdf",
+   "bytes": 1304386
+  },
+  {
+   "title": "Super Slam Dunk Watermarked ( USA )",
+   "file": "Super Slam Dunk Watermarked ( USA ).pdf",
+   "bytes": 5852488
+  },
+  {
+   "title": "Super Slap Shot ( USA )",
+   "file": "Super Slap Shot ( USA ).pdf",
+   "bytes": 1710558
+  },
+  {
+   "title": "Super Smash T.V. (USA)",
+   "file": "Super Smash T.V. (USA).pdf",
+   "bytes": 23218977
+  },
+  {
+   "title": "Super Soccer (USA)",
+   "file": "Super Soccer (USA).pdf",
+   "bytes": 2159708
+  },
+  {
+   "title": "Super Soccer Champ (USA)",
+   "file": "Super Soccer Champ (USA).pdf",
+   "bytes": 18869119
+  },
+  {
+   "title": "Super Solitaire ( USA )",
+   "file": "Super Solitaire ( USA ).pdf",
+   "bytes": 2124171
+  },
+  {
+   "title": "Super Star Wars (USA) (Rev 1)",
+   "file": "Super Star Wars (USA) (Rev 1).pdf",
+   "bytes": 1475380
+  },
+  {
+   "title": "Super Star Wars - Return of the Jedi (USA) (Rev 1)",
+   "file": "Super Star Wars - Return of the Jedi (USA) (Rev 1).pdf",
+   "bytes": 1860988
+  },
+  {
+   "title": "Super Star Wars - The Empire Strikes Back (USA) (Rev 1)",
+   "file": "Super Star Wars - The Empire Strikes Back (USA) (Rev 1).pdf",
+   "bytes": 1311937
+  },
+  {
+   "title": "Super Street Fighter II (USA)",
+   "file": "Super Street Fighter II (USA).pdf",
+   "bytes": 4194820
+  },
+  {
+   "title": "Super Strike Eagle (USA)",
+   "file": "Super Strike Eagle (USA).pdf",
+   "bytes": 1612554
+  },
+  {
+   "title": "Super Strike Gunner ( PAL )",
+   "file": "Super Strike Gunner ( PAL ).pdf",
+   "bytes": 19995384
+  },
+  {
+   "title": "Super Tennis (USA)",
+   "file": "Super Tennis (USA).pdf",
+   "bytes": 2315863
+  },
+  {
+   "title": "Super Troll Islands ( USA )",
+   "file": "Super Troll Islands ( USA ).pdf",
+   "bytes": 12691715
+  },
+  {
+   "title": "Super Turrican (USA)",
+   "file": "Super Turrican (USA).pdf",
+   "bytes": 940841
+  },
+  {
+   "title": "Super Turrican 2 ( EU )",
+   "file": "Super Turrican 2 ( EU ).pdf",
+   "bytes": 1104420
+  },
+  {
+   "title": "Super Turrican 2 (USA)",
+   "file": "Super Turrican 2 (USA).pdf",
+   "bytes": 6718800
+  },
+  {
+   "title": "Super Valis IV ( USA )",
+   "file": "Super Valis IV ( USA ).pdf",
+   "bytes": 10587065
+  },
+  {
+   "title": "Super Widget ( USA )",
+   "file": "Super Widget ( USA ).pdf",
+   "bytes": 101372251
+  },
+  {
+   "title": "Super Wildcard DX2 ( Peripheral )",
+   "file": "Super Wildcard DX2 ( Peripheral ).pdf",
+   "bytes": 2612683
+  },
+  {
+   "title": "Suzuka 8 Hours ( USA )",
+   "file": "Suzuka 8 Hours ( USA ).pdf",
+   "bytes": 1237487
+  },
+  {
+   "title": "Swat Kats Radical Squadron ( USA )",
+   "file": "Swat Kats Radical Squadron ( USA ).pdf",
+   "bytes": 1322994
+  },
+  {
+   "title": "Syndicate ( PAL )",
+   "file": "Syndicate ( PAL ).pdf",
+   "bytes": 30775839
+  },
+  {
+   "title": "Syvalion (ESP)",
+   "file": "Syvalion (ESP).pdf",
+   "bytes": 5512843
+  },
+  {
+   "title": "T2 - The Arcade Game (USA)",
+   "file": "T2 - The Arcade Game (USA).pdf",
+   "bytes": 3299795
+  },
+  {
+   "title": "Taz-Mania (USA) (Rev 1)",
+   "file": "Taz-Mania (USA) (Rev 1).pdf",
+   "bytes": 1267679
+  },
+  {
+   "title": "Tecmo Secret of the Stars ( USA )",
+   "file": "Tecmo Secret of the Stars ( USA ).pdf",
+   "bytes": 6696523
+  },
+  {
+   "title": "Tecmo Super Baseball ( USA )",
+   "file": "Tecmo Super Baseball ( USA ).pdf",
+   "bytes": 2828306
+  },
+  {
+   "title": "Tecmo Super Bowl (USA)",
+   "file": "Tecmo Super Bowl (USA).pdf",
+   "bytes": 3416719
+  },
+  {
+   "title": "Tecmo Super Bowl II - Special Edition ( USA )",
+   "file": "Tecmo Super Bowl II - Special Edition ( USA ).pdf",
+   "bytes": 5834065
+  },
+  {
+   "title": "Tecmo Super Bowl III - Final Edition (USA)",
+   "file": "Tecmo Super Bowl III - Final Edition (USA).pdf",
+   "bytes": 2719253
+  },
+  {
+   "title": "Tecmo Super NBA Basketball ( USA )",
+   "file": "Tecmo Super NBA Basketball ( USA ).pdf",
+   "bytes": 2970562
+  },
+  {
+   "title": "Teenage Mutant Ninja Turtles - Tournament Fighters (USA)",
+   "file": "Teenage Mutant Ninja Turtles - Tournament Fighters (USA).pdf",
+   "bytes": 2731551
+  },
+  {
+   "title": "Teenage Mutant Ninja Turtles IV - Turtles in Time ( USA )",
+   "file": "Teenage Mutant Ninja Turtles IV - Turtles in Time ( USA ).pdf",
+   "bytes": 2193180
+  },
+  {
+   "title": "Teenage Mutant Ninja Turtles IV - Turtles in Time ( USA ) Alternate",
+   "file": "Teenage Mutant Ninja Turtles IV - Turtles in Time ( USA ) Alternate.pdf",
+   "bytes": 11561603
+  },
+  {
+   "title": "Teenage Mutant Ninja Turtles IV - Turtles in Time (USA)",
+   "file": "Teenage Mutant Ninja Turtles IV - Turtles in Time (USA).pdf",
+   "bytes": 1151272
+  },
+  {
+   "title": "Terminator 2 - Judgment Day ( EU )",
+   "file": "Terminator 2 - Judgment Day ( EU ).pdf",
+   "bytes": 27830243
+  },
+  {
+   "title": "Terranigma ( EU )",
+   "file": "Terranigma ( EU ).pdf",
+   "bytes": 7115926
+  },
+  {
+   "title": "Tetris & Dr. Mario (USA)",
+   "file": "Tetris & Dr. Mario (USA).pdf",
+   "bytes": 2384738
+  },
+  {
+   "title": "Tetris 2 (USA) (Rev 1)",
+   "file": "Tetris 2 (USA) (Rev 1).pdf",
+   "bytes": 1460015
+  },
+  {
+   "title": "Tetris Attack (USA)",
+   "file": "Tetris Attack (USA).pdf",
+   "bytes": 1597681
+  },
+  {
+   "title": "The 7th Saga (USA)",
+   "file": "The 7th Saga (USA).pdf",
+   "bytes": 9807849
+  },
+  {
+   "title": "The Brainies ( USA )",
+   "file": "The Brainies ( USA ).pdf",
+   "bytes": 1369544
+  },
+  {
+   "title": "The Incredible Hulk ( PAL )",
+   "file": "The Incredible Hulk ( PAL ).pdf",
+   "bytes": 9189735
+  },
+  {
+   "title": "The IREM Skins Game Manual",
+   "file": "The IREM Skins Game Manual.pdf",
+   "bytes": 2719091
+  },
+  {
+   "title": "The Jetsons - Invasion of the Planet Pirates (USA)",
+   "file": "The Jetsons - Invasion of the Planet Pirates (USA).pdf",
+   "bytes": 8503927
+  },
+  {
+   "title": "The Lost Vikings (USA)",
+   "file": "The Lost Vikings (USA).pdf",
+   "bytes": 21274532
+  },
+  {
+   "title": "The Pirates of Dark Water ( EU )",
+   "file": "The Pirates of Dark Water ( EU ).pdf",
+   "bytes": 25043828
+  },
+  {
+   "title": "The Pirates of Dark Water (USA)",
+   "file": "The Pirates of Dark Water (USA).pdf",
+   "bytes": 8285084
+  },
+  {
+   "title": "The Smurfs ( PAL )",
+   "file": "The Smurfs ( PAL ).pdf",
+   "bytes": 29433219
+  },
+  {
+   "title": "The Smurfs Travel the World ( PAL )",
+   "file": "The Smurfs Travel the World ( PAL ).pdf",
+   "bytes": 21381714
+  },
+  {
+   "title": "The Tick ( USA )",
+   "file": "The Tick ( USA ).pdf",
+   "bytes": 4265358
+  },
+  {
+   "title": "The Twisted Tales of Spike McFang ( USA )",
+   "file": "The Twisted Tales of Spike McFang ( USA ).pdf",
+   "bytes": 1746262
+  },
+  {
+   "title": "The Untouchables ( USA )",
+   "file": "The Untouchables ( USA ).pdf",
+   "bytes": 11266567
+  },
+  {
+   "title": "The Violinist of Hameln - JP Manual - SNS",
+   "file": "The_Violinist_of_Hameln_-_JP_Manual_-_SNS.pdf",
+   "bytes": 3317338
+  },
+  {
+   "title": "Theme Park ( PAL )",
+   "file": "Theme Park ( PAL ).pdf",
+   "bytes": 31563832
+  },
+  {
+   "title": "Thomas The Tank Engine and Friends ( PAL )",
+   "file": "Thomas The Tank Engine and Friends ( PAL ).pdf",
+   "bytes": 12551324
+  },
+  {
+   "title": "Thunder Spirits ( USA )",
+   "file": "Thunder Spirits ( USA ).pdf",
+   "bytes": 1604050
+  },
+  {
+   "title": "Time Slip ( USA )",
+   "file": "Time Slip ( USA ).pdf",
+   "bytes": 9049451
+  },
+  {
+   "title": "Time Trax ( USA )",
+   "file": "Time Trax ( USA ).pdf",
+   "bytes": 1648974
+  },
+  {
+   "title": "Timecop ( EU )",
+   "file": "Timecop ( EU ).pdf",
+   "bytes": 16844686
+  },
+  {
+   "title": "Timon & Pumbaa's Jungle Games (USA)",
+   "file": "Timon & Pumbaa's Jungle Games (USA).pdf",
+   "bytes": 2406210
+  },
+  {
+   "title": "Tin Star (USA)",
+   "file": "Tin Star (USA).pdf",
+   "bytes": 2265448
+  },
+  {
+   "title": "TinTin in Tibet ( PAL )",
+   "file": "TinTin in Tibet ( PAL ).pdf",
+   "bytes": 18314205
+  },
+  {
+   "title": "TinTin Prisoners of the Sun ( PAL )",
+   "file": "TinTin Prisoners of the Sun ( PAL ).pdf",
+   "bytes": 31150234
+  },
+  {
+   "title": "Tiny Toon Adventures - Buster Busts Loose! (USA)",
+   "file": "Tiny Toon Adventures - Buster Busts Loose! (USA).pdf",
+   "bytes": 1871944
+  },
+  {
+   "title": "Tiny Toon Adventures - Wacky Sports Challenge (USA)",
+   "file": "Tiny Toon Adventures - Wacky Sports Challenge (USA).pdf",
+   "bytes": 2786822
+  },
+  {
+   "title": "TKO Super Championship Boxing (USA)",
+   "file": "TKO Super Championship Boxing (USA).pdf",
+   "bytes": 13141180
+  },
+  {
+   "title": "TNN Bass Tournament of Champions ( USA )",
+   "file": "TNN Bass Tournament of Champions ( USA ).pdf",
+   "bytes": 2136381
+  },
+  {
+   "title": "Todd McFarlane's Spawn (USA)",
+   "file": "Todd McFarlane's Spawn (USA).pdf",
+   "bytes": 2009131
+  },
+  {
+   "title": "Tom & Jerry (USA)",
+   "file": "Tom & Jerry (USA).pdf",
+   "bytes": 1049396
+  },
+  {
+   "title": "Tommy Moe's Skiing and Snowboarding Winter eXtreme ( USA )",
+   "file": "Tommy Moe's Skiing and Snowboarding Winter eXtreme ( USA ).pdf",
+   "bytes": 2380501
+  },
+  {
+   "title": "Tony Meola's Sidekicks Soccer ( USA )",
+   "file": "Tony Meola's Sidekicks Soccer ( USA ).pdf",
+   "bytes": 2879478
+  },
+  {
+   "title": "Top Gear (USA)",
+   "file": "Top Gear (USA).pdf",
+   "bytes": 1726932
+  },
+  {
+   "title": "Top Gear 2 (USA)",
+   "file": "Top Gear 2 (USA).pdf",
+   "bytes": 6385918
+  },
+  {
+   "title": "Top Gear 3000 (USA)",
+   "file": "Top Gear 3000 (USA).pdf",
+   "bytes": 1552960
+  },
+  {
+   "title": "Total Carnage (USA)",
+   "file": "Total Carnage (USA).pdf",
+   "bytes": 1824464
+  },
+  {
+   "title": "Toys (USA)",
+   "file": "Toys (USA).pdf",
+   "bytes": 3424907
+  },
+  {
+   "title": "Troddlers ( USA )",
+   "file": "Troddlers ( USA ).pdf",
+   "bytes": 7815811
+  },
+  {
+   "title": "Troy Aikman NFL Football (USA)",
+   "file": "Troy Aikman NFL Football (USA).pdf",
+   "bytes": 3542563
+  },
+  {
+   "title": "True Golf Classics - Waialae Country Club (USA)",
+   "file": "True Golf Classics - Waialae Country Club (USA).pdf",
+   "bytes": 4675890
+  },
+  {
+   "title": "True Golf Classics Pebble Beach Golf Links ( PAL )",
+   "file": "True Golf Classics Pebble Beach Golf Links ( PAL ).pdf",
+   "bytes": 17314661
+  },
+  {
+   "title": "True Golf Classics Wicked 18 ( USA )",
+   "file": "True Golf Classics Wicked 18 ( USA ).pdf",
+   "bytes": 2603050
+  },
+  {
+   "title": "True Lies (USA)",
+   "file": "True Lies (USA).pdf",
+   "bytes": 8920898
+  },
+  {
+   "title": "Tuff E Nuff ( USA )",
+   "file": "Tuff E Nuff ( USA ).pdf",
+   "bytes": 5224236
+  },
+  {
+   "title": "Turbo Toons ( PAL )",
+   "file": "Turbo Toons ( PAL ).pdf",
+   "bytes": 10987670
+  },
+  {
+   "title": "Turn and Burn - No-Fly Zone (USA)",
+   "file": "Turn and Burn - No-Fly Zone (USA).pdf",
+   "bytes": 3967541
+  },
+  {
+   "title": "U.N. Squadron (USA)",
+   "file": "U.N. Squadron (USA).pdf",
+   "bytes": 1163342
+  },
+  {
+   "title": "Ultima - Runes of Virtue II (USA)",
+   "file": "Ultima - Runes of Virtue II (USA).pdf",
+   "bytes": 4490973
+  },
+  {
+   "title": "Ultima Runes of Virtue 2 ( USA )",
+   "file": "Ultima Runes of Virtue 2 ( USA ).pdf",
+   "bytes": 5004586
+  },
+  {
+   "title": "Ultima VI - The False Prophet (USA)",
+   "file": "Ultima VI - The False Prophet (USA).pdf",
+   "bytes": 1353738
+  },
+  {
+   "title": "Ultima VII - The Black Gate ( USA )",
+   "file": "Ultima VII - The Black Gate ( USA ).pdf",
+   "bytes": 2721820
+  },
+  {
+   "title": "Ultimate Fighter (USA)",
+   "file": "Ultimate Fighter (USA).pdf",
+   "bytes": 6086253
+  },
+  {
+   "title": "Ultimate Mortal Kombat 3 (USA)",
+   "file": "Ultimate Mortal Kombat 3 (USA).pdf",
+   "bytes": 3540597
+  },
+  {
+   "title": "Ultraman - Towards the Future (USA)",
+   "file": "Ultraman - Towards the Future (USA).pdf",
+   "bytes": 1067894
+  },
+  {
+   "title": "Uncharted Waters (USA)",
+   "file": "Uncharted Waters (USA).pdf",
+   "bytes": 3154682
+  },
+  {
+   "title": "Uncharted Waters - New Horizons (USA)",
+   "file": "Uncharted Waters - New Horizons (USA).pdf",
+   "bytes": 5179636
+  },
+  {
+   "title": "Uniracers (USA)",
+   "file": "Uniracers (USA).pdf",
+   "bytes": 11040877
+  },
+  {
+   "title": "Unirally ( PAL )",
+   "file": "Unirally ( PAL ).pdf",
+   "bytes": 3326206
+  },
+  {
+   "title": "Urban Strike ( USA ) ( Color )",
+   "file": "Urban Strike ( USA ) ( Color ).pdf",
+   "bytes": 2613879
+  },
+  {
+   "title": "Urban Strike (USA)",
+   "file": "Urban Strike (USA).pdf",
+   "bytes": 2645103
+  },
+  {
+   "title": "Utopia - The Creation of a Nation ( USA )",
+   "file": "Utopia - The Creation of a Nation ( USA ).pdf",
+   "bytes": 4753189
+  },
+  {
+   "title": "Vegas Stakes (USA)",
+   "file": "Vegas Stakes (USA).pdf",
+   "bytes": 3202137
+  },
+  {
+   "title": "Venom-Spider-Man - Separation Anxiety (USA)",
+   "file": "Venom-Spider-Man - Separation Anxiety (USA).pdf",
+   "bytes": 2798281
+  },
+  {
+   "title": "Virtual Bart ( PAL )",
+   "file": "Virtual Bart ( PAL ).pdf",
+   "bytes": 17590429
+  },
+  {
+   "title": "Virtual Soccer (PAL)",
+   "file": "Virtual Soccer (PAL).pdf",
+   "bytes": 21608974
+  },
+  {
+   "title": "Vortex (USA)",
+   "file": "Vortex (USA).pdf",
+   "bytes": 3864179
+  },
+  {
+   "title": "War 2410 ( USA )",
+   "file": "War 2410 ( USA ).pdf",
+   "bytes": 15339157
+  },
+  {
+   "title": "War 3010 The Revolution ( USA )",
+   "file": "War 3010 The Revolution ( USA ).pdf",
+   "bytes": 23060839
+  },
+  {
+   "title": "Wario's Woods ( USA )",
+   "file": "Wario's Woods ( USA ).pdf",
+   "bytes": 2954565
+  },
+  {
+   "title": "Warlock ( PAL )",
+   "file": "Warlock ( PAL ).pdf",
+   "bytes": 15329873
+  },
+  {
+   "title": "Warlock ( USA )",
+   "file": "Warlock ( USA ).pdf",
+   "bytes": 2004201
+  },
+  {
+   "title": "WarpSpeed ( PAL )",
+   "file": "WarpSpeed ( PAL ).pdf",
+   "bytes": 22439391
+  },
+  {
+   "title": "Waterworld (NOE)",
+   "file": "Waterworld (NOE).pdf",
+   "bytes": 2052777
+  },
+  {
+   "title": "Wayne Gretzky and the NHLPA All-Stars ( USA )",
+   "file": "Wayne Gretzky and the NHLPA All-Stars ( USA ).pdf",
+   "bytes": 47636519
+  },
+  {
+   "title": "Wayne's World (USA)",
+   "file": "Wayne's World (USA).pdf",
+   "bytes": 12432053
+  },
+  {
+   "title": "WCW Super Brawl Wrestling ( USA )",
+   "file": "WCW Super Brawl Wrestling ( USA ).pdf",
+   "bytes": 3547024
+  },
+  {
+   "title": "We're Back A Dinosaur's Story ( USA )",
+   "file": "We're Back A Dinosaur's Story ( USA ).pdf",
+   "bytes": 976720
+  },
+  {
+   "title": "Weapon Lord ( PAL )",
+   "file": "Weapon Lord ( PAL ).pdf",
+   "bytes": 65392278
+  },
+  {
+   "title": "Wheel of Fortune (USA)",
+   "file": "Wheel of Fortune (USA).pdf",
+   "bytes": 2160467
+  },
+  {
+   "title": "Wheel of Fortune - Deluxe Edition (USA)",
+   "file": "Wheel of Fortune - Deluxe Edition (USA).pdf",
+   "bytes": 2940156
+  },
+  {
+   "title": "Wheel of Fortune Deluxe Edition ( USA ) ( Color )",
+   "file": "Wheel of Fortune Deluxe Edition ( USA ) ( Color ).pdf",
+   "bytes": 3218963
+  },
+  {
+   "title": "Where in the World Is Carmen Sandiego (USA)",
+   "file": "Where in the World Is Carmen Sandiego (USA).pdf",
+   "bytes": 1899268
+  },
+  {
+   "title": "Where in Time Is Carmen Sandiego (USA)",
+   "file": "Where in Time Is Carmen Sandiego (USA).pdf",
+   "bytes": 2295531
+  },
+  {
+   "title": "Whirlo (ESP)",
+   "file": "Whirlo (ESP).pdf",
+   "bytes": 13914911
+  },
+  {
+   "title": "Whizz ( PAL )",
+   "file": "Whizz ( PAL ).pdf",
+   "bytes": 10977338
+  },
+  {
+   "title": "Wild Guns ( PAL )",
+   "file": "Wild Guns ( PAL ).pdf",
+   "bytes": 15082790
+  },
+  {
+   "title": "Wild Guns (USA)",
+   "file": "Wild Guns (USA).pdf",
+   "bytes": 13449097
+  },
+  {
+   "title": "Wildsnake ( USA )",
+   "file": "Wildsnake ( USA ).pdf",
+   "bytes": 3409780
+  },
+  {
+   "title": "Williams Arcade's Greatest Hits (USA)",
+   "file": "Williams Arcade's Greatest Hits (USA).pdf",
+   "bytes": 1597779
+  },
+  {
+   "title": "Wing Commander ( USA )",
+   "file": "Wing Commander ( USA ).pdf",
+   "bytes": 3295766
+  },
+  {
+   "title": "Wing Commander - The Secret Missions ( USA )",
+   "file": "Wing Commander - The Secret Missions ( USA ).pdf",
+   "bytes": 2561044
+  },
+  {
+   "title": "Wings 2 - Aces High (USA)",
+   "file": "Wings 2 - Aces High (USA).pdf",
+   "bytes": 1527871
+  },
+  {
+   "title": "Winter Gold ( PAL )",
+   "file": "Winter Gold ( PAL ).pdf",
+   "bytes": 33870996
+  },
+  {
+   "title": "Winter Olympic Games - Lillehammer '94 (USA)",
+   "file": "Winter Olympic Games - Lillehammer '94 (USA).pdf",
+   "bytes": 1623588
+  },
+  {
+   "title": "Wizard of Oz, The (USA)",
+   "file": "Wizard of Oz, The (USA).pdf",
+   "bytes": 1686209
+  },
+  {
+   "title": "Wizardy V - Heart of the Maelstrom ( USA )",
+   "file": "Wizardy V - Heart of the Maelstrom ( USA ).pdf",
+   "bytes": 3624119
+  },
+  {
+   "title": "Wolfchild (USA)",
+   "file": "Wolfchild (USA).pdf",
+   "bytes": 1181885
+  },
+  {
+   "title": "Wolfenstein 3D (USA)",
+   "file": "Wolfenstein 3D (USA).pdf",
+   "bytes": 1104369
+  },
+  {
+   "title": "Wolverine - Adamantium Rage ( EU )",
+   "file": "Wolverine - Adamantium Rage ( EU ).pdf",
+   "bytes": 28493853
+  },
+  {
+   "title": "Wordtris ( USA )",
+   "file": "Wordtris ( USA ).pdf",
+   "bytes": 2460355
+  },
+  {
+   "title": "World Class Rugby ( EU )",
+   "file": "World Class Rugby ( EU ).pdf",
+   "bytes": 108743758
+  },
+  {
+   "title": "World Cup USA 94 ( PAL )",
+   "file": "World Cup USA 94 ( PAL ).pdf",
+   "bytes": 15055084
+  },
+  {
+   "title": "World Heroes (USA)",
+   "file": "World Heroes (USA).pdf",
+   "bytes": 2038266
+  },
+  {
+   "title": "World Heroes 2 (USA)",
+   "file": "World Heroes 2 (USA).pdf",
+   "bytes": 41046068
+  },
+  {
+   "title": "World League Basketball (Europe)",
+   "file": "World League Basketball (Europe).pdf",
+   "bytes": 6280812
+  },
+  {
+   "title": "World League Soccer ( USA )",
+   "file": "World League Soccer ( USA ).pdf",
+   "bytes": 1364025
+  },
+  {
+   "title": "World Masters Golf ( EU )",
+   "file": "World Masters Golf ( EU ).pdf",
+   "bytes": 12036546
+  },
+  {
+   "title": "World Masters Golf ( PAL )",
+   "file": "World Masters Golf ( PAL ).pdf",
+   "bytes": 12036437
+  },
+  {
+   "title": "Worms ( PAL )",
+   "file": "Worms ( PAL ).pdf",
+   "bytes": 18466037
+  },
+  {
+   "title": "WWF Raw (USA)",
+   "file": "WWF Raw (USA).pdf",
+   "bytes": 2376871
+  },
+  {
+   "title": "WWF Royal Rumble (USA)",
+   "file": "WWF Royal Rumble (USA).pdf",
+   "bytes": 5285196
+  },
+  {
+   "title": "WWF Super WrestleMania (USA)",
+   "file": "WWF Super WrestleMania (USA).pdf",
+   "bytes": 2153030
+  },
+  {
+   "title": "WWF WrestleMania - The Arcade Game (USA)",
+   "file": "WWF WrestleMania - The Arcade Game (USA).pdf",
+   "bytes": 3420086
+  },
+  {
+   "title": "X Zone (Japan, USA)",
+   "file": "X Zone (Japan, USA).pdf",
+   "bytes": 1827485
+  },
+  {
+   "title": "X-Kaliber 2097 ( EU )",
+   "file": "X-Kaliber 2097 ( EU ).pdf",
+   "bytes": 47504881
+  },
+  {
+   "title": "X-Men - Mutant Apocalypse (USA)",
+   "file": "X-Men - Mutant Apocalypse (USA).pdf",
+   "bytes": 2695692
+  },
+  {
+   "title": "Xardion (USA)",
+   "file": "Xardion (USA).pdf",
+   "bytes": 1195182
+  },
+  {
+   "title": "XBand SNES Keyboard US Manual",
+   "file": "XBand SNES Keyboard US Manual.pdf",
+   "bytes": 1653435
+  },
+  {
+   "title": "Yogi Bear's Cartoon Capers ( PAL )",
+   "file": "Yogi Bear's Cartoon Capers ( PAL ).pdf",
+   "bytes": 30419070
+  },
+  {
+   "title": "Yoshi's Cookie (USA)",
+   "file": "Yoshi's Cookie (USA).pdf",
+   "bytes": 1631088
+  },
+  {
+   "title": "Yoshi's Safari (USA)",
+   "file": "Yoshi's Safari (USA).pdf",
+   "bytes": 1952303
+  },
+  {
+   "title": "Young Merlin (USA)",
+   "file": "Young Merlin (USA).pdf",
+   "bytes": 2138246
+  },
+  {
+   "title": "Ys III - Wanderers from Ys (USA)",
+   "file": "Ys III - Wanderers from Ys (USA).pdf",
+   "bytes": 4770281
+  },
+  {
+   "title": "Zero the Kamikaze Squirrel (USA)",
+   "file": "Zero the Kamikaze Squirrel (USA).pdf",
+   "bytes": 6088786
+  },
+  {
+   "title": "Zombies Ate My Neighbors (USA)",
+   "file": "Zombies Ate My Neighbors (USA).pdf",
+   "bytes": 3494630
+  },
+  {
+   "title": "Zool - Ninja of the Nth Dimension (USA)",
+   "file": "Zool - Ninja of the Nth Dimension (USA).pdf",
+   "bytes": 4052547
+  },
+  {
+   "title": "Zoop (USA)",
+   "file": "Zoop (USA).pdf",
+   "bytes": 898652
+  }
+ ]
+}

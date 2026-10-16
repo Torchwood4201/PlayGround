@@ -90,7 +90,7 @@
     if(powerTimer){ clearInterval(powerTimer); powerTimer = null; }
     replayTimers.forEach(clearTimeout);
     replayTimers = []; replayingId = null;
-    releaseAuto();
+    releaseAll();
     try{
       if(window.EJS_emulator && typeof window.EJS_emulator.callEvent === 'function'){
         window.EJS_emulator.callEvent('exit');
@@ -180,7 +180,7 @@
   function powerOff(){
     powering = false;
     if(powerTimer){ clearInterval(powerTimer); powerTimer = null; }
-    releaseAuto(); /* drop holds; the autopilot itself stays on and resumes on power-up */
+    releaseAll(); /* drop all holds; the autopilot itself stays on and resumes on power-up */
     var done = false;
     try{
       if(window.EJS_emulator && typeof window.EJS_emulator.callEvent === 'function'){
@@ -216,15 +216,37 @@
   /* Primary input path: drive the core directly. This is what makes the
      CSS-art pads REAL controllers. Synthetic keyboard events are still
      sent as a secondary path (see sendKey). Both set the same button
-     state, so double delivery is harmless. */
-  function driveIndex(idx, down, src, pl){
+     state, so double delivery is harmless.
+     Human + AI share this path, so holds are multiplexed: human-held
+     ('pad'/'key') and AI-held ('auto'/'replay') states are tracked
+     separately per player+button and OR'd into the core. Either side
+     pressing counts, and one side releasing never erases the other's
+     still-held button — so the human keeps control while the AI plays. */
+  var heldHuman = {}, heldAuto = {};
+  function applyCombined(pl, idx){
+    var v = (heldHuman[pl + ':' + idx] || heldAuto[pl + ':' + idx]) ? 1 : 0;
     try{
       var gm = window.EJS_emulator && window.EJS_emulator.gameManager;
       if(gm && typeof gm.simulateInput === 'function'){
-        gm.simulateInput(pl || 0, idx, down ? 1 : 0);
+        gm.simulateInput(pl, idx, v);
       }
     }catch(e){}
-    if(recOn) recInputs.push({ t: Date.now() - recT0, b: idx, d: down ? 1 : 0, s: src || '?', p: pl || 0 });
+  }
+  function driveIndex(idx, down, src, pl){
+    pl = (pl === undefined || pl === null) ? 0 : pl;
+    var key = pl + ':' + idx;
+    if(src === 'sys'){
+      delete heldHuman[key]; delete heldAuto[key];
+      applyCombined(pl, idx);
+    }else if(src === 'pad' || src === 'key'){
+      if(down) heldHuman[key] = true; else delete heldHuman[key];
+      applyCombined(pl, idx);
+    }else{ /* 'auto', 'replay', or anything else: AI side */
+      if(down) heldAuto[key] = true; else delete heldAuto[key];
+      /* politeness: never overwrite a button the human is holding right now */
+      if(!heldHuman[key]) applyCombined(pl, idx);
+    }
+    if(recOn) recInputs.push({ t: Date.now() - recT0, b: idx, d: down ? 1 : 0, s: src || '?', p: pl });
   }
   /* Which players the autopilot drives (human pads/keys stay P1). */
   function autoPlayers(){
@@ -312,12 +334,28 @@
     if(idx !== undefined) driveIndex(idx, false, 'key');
   });
 
+  /* Drop only AI-held buttons (mode switches, autopilot stop): human holds
+     survive, so the human never has to re-press after the AI lets go. */
   function releaseAuto(){
-    [AgentMap.dirR, AgentMap.dirL, AgentMap.run]
-      .concat(AgentMap.actions, AgentMap.shoulders, [4, 5])
-      .forEach(function(i){
-        for(var pl = 0; pl <= 3; pl++) driveIndex(i, false, 'sys', pl);
-      });
+    var keys = Object.keys(heldAuto);
+    if(!keys.length) return;
+    heldAuto = {};
+    /* re-apply every touched button: human-held stays pressed, rest release */
+    keys.forEach(function(k){
+      var parts = k.split(':');
+      applyCombined(+parts[0], +parts[1]);
+    });
+  }
+  /* Full reset: clear BOTH sides (boot, power-off, tab blur). */
+  function releaseAll(){
+    heldHuman = {}; heldAuto = {};
+    try{
+      var gm = window.EJS_emulator && window.EJS_emulator.gameManager;
+      if(gm && typeof gm.simulateInput === 'function'){
+        for(var pl = 0; pl <= 3; pl++)
+          for(var i = 0; i <= 11; i++) gm.simulateInput(pl, i, 0);
+      }
+    }catch(e){}
   }
 
   /* ---------- screen-reactive autopilot (AI Lab): cloned copilots ----------
@@ -338,24 +376,62 @@
     senseMs: 2000, tapMs: 4000, tapPulseMs: 600, seekCycle: '2,2,3,8,5,4',
     driveMs: 300, hopEvery: 3, hopPulseMs: 260,
     hiThresh: 8, hiStreak: 3, loThresh: 4, loStreak: 3, blackMean: 10,
-    players: [0, 1], hud: false, autoTune: true, profile: 'generic'
+    players: [1], hud: false, autoTune: true, profile: 'generic', ocr: false,
+    startGapMs: 90000
   };
   var AgentOpts = {};
   try{
     var rawOwn = {};
     try{ rawOwn = JSON.parse(localStorage.getItem('snesboy-agent') || '{}'); }catch(e){}
     AgentOpts = Object.assign({}, AgentDefaults, rawOwn);
-    /* players defaulted to P1-only before Both existed — migrate old saves */
-    if(!rawOwn || !('players' in rawOwn)) AgentOpts.players = [0, 1];
+    /* human owns P1: fresh installs get AI on P2. Stored [0,1] from the old
+       Both default migrates to P2 unless explicitly chosen (playersSet). */
+    if(!rawOwn || !('players' in rawOwn)) AgentOpts.players = [1];
+    else if(!rawOwn.playersSet && String((rawOwn.players || []).join(',')) === '0,1') AgentOpts.players = [1];
     if(!rawOwn || !('autoTune' in rawOwn)) AgentOpts.autoTune = true;
-    if(!rawOwn || !('profile' in rawOwn) || (rawOwn.profile !== 'umk3' && rawOwn.profile !== 'generic')) AgentOpts.profile = 'generic';
-  }catch(e){ AgentOpts = Object.assign({}, AgentDefaults, { players: [0, 1], autoTune: true, profile: 'generic' }); }
+    if(!rawOwn || !('profile' in rawOwn) || ['generic', 'umk3', 'racer', 'shooter', 'rpg'].indexOf(rawOwn.profile) === -1) AgentOpts.profile = 'generic';
+    if(!rawOwn || !('ocr' in rawOwn)) AgentOpts.ocr = false;
+    if(!rawOwn || !('startGapMs' in rawOwn)) AgentOpts.startGapMs = 90000;
+  }catch(e){ AgentOpts = Object.assign({}, AgentDefaults, { players: [1], autoTune: true, profile: 'generic', ocr: false }); }
   function saveAgentOpts(){
     try{ localStorage.setItem('snesboy-agent', JSON.stringify(AgentOpts)); }catch(e){}
   }
   /* Emulator button indices the brain uses (RetroArch SNES numbering).
      Human pads keep using PADINDEX; only the agent reads this. */
   var AgentMap = { dirR: 7, dirL: 6, run: 1, actions: [8, 0], shoulders: [10, 11], select: 2, start: 3 };
+  /* Genre presets distilled from the manual archive (ai/manual-knowledge.js).
+     Only the UMK3 fighter entry changes the driver; the rest tune the
+     platformer driver (menu cycle, action tempo, tap pacing). */
+  var BUILTIN_PROFILES = {
+    generic: { seekCycle: '2,2,3,8,5,4', hopEvery: 3, tapMs: 4000 },
+    umk3: { seekCycle: '2,2,3,8,5,4', hopEvery: 3, tapMs: 4000 },
+    racer: { seekCycle: '3,8,8,2,5,4', hopEvery: 5, tapMs: 4000 },
+    shooter: { seekCycle: '2,2,3,8,5,4', hopEvery: 2, tapMs: 4000 },
+    rpg: { seekCycle: '8,8,3,2,5,4', hopEvery: 4, tapMs: 6000 }
+  };
+  var PROFILE_IDS = ['generic', 'umk3', 'racer', 'shooter', 'rpg'];
+  function profileTable(){
+    try{
+      var ext = window.MANUAL_KNOWLEDGE && window.MANUAL_KNOWLEDGE.PROFILES;
+      if(!ext) return BUILTIN_PROFILES;
+      var merged = {};
+      PROFILE_IDS.forEach(function(id){
+        merged[id] = {
+          seekCycle: (ext[id] && ext[id].seekCycle) || BUILTIN_PROFILES[id].seekCycle,
+          hopEvery: (ext[id] && ext[id].hopEvery) || BUILTIN_PROFILES[id].hopEvery,
+          tapMs: (ext[id] && ext[id].tapMs) || BUILTIN_PROFILES[id].tapMs
+        };
+      });
+      return merged;
+    }catch(e){ return BUILTIN_PROFILES; }
+  }
+  function applyProfile(name){
+    var table = profileTable();
+    var p = table[name] || table.generic;
+    AgentOpts.seekCycle = p.seekCycle;
+    AgentOpts.hopEvery = p.hopEvery;
+    AgentOpts.tapMs = p.tapMs;
+  }
   /* SEEK tap rotation, parsed from AgentOpts.seekCycle ('2,2,3,8,5,4' =
      SELECT, SELECT, START, A, DOWN, UP). Confirms plus dpad taps: many
      menus need a cursor move before the confirm. Taps only, never holds. */
@@ -377,6 +453,33 @@
      order), so P2 never just parrots P1. */
   var autoMenuTimer = null, autoSenseTimer = null;
   var autoPilots = [];
+  /* Once gameplay has been seen, START taps are throttled: on virtually
+     every SNES title START pauses a running game, so a SEEK dip mid-game
+     (standing still, quiet screen) fires it far less often — 1 in 8
+     landings instead of every landing. Menus keep working via
+     SELECT/A/dpad taps. Reset on every engine start. */
+  var autoHasPlayed = false;
+  var autoStartN = 0;
+  /* Recency window: a single animated-title blip must not throttle menus
+     forever. START is throttled only while gameplay was seen recently. */
+  var lastPlaySeen = 0;
+  var START_QUIET_MS = 60000;
+  /* Shared START gate: every AI START tap (menu cycle or OCR unpause) goes
+     through here. Minimum gap between STARTs, plus a pause-guard window
+     after each one where only SELECT/dpad may fire — never A or START —
+     so the bot can't walk a pause menu into Quit/Title. */
+  var lastStartTap = 0;
+  var pauseGuardUntil = 0;
+  var PAUSE_GUARD_MS = 20000;
+  function startAllowed(){
+    return (Date.now() - lastStartTap) >= (AgentOpts.startGapMs || 90000);
+  }
+  function noteStartTap(pauseRisky){
+    lastStartTap = Date.now();
+    /* A-suppression only when the START may have paused a running game.
+       Title-screen STARTs leave A confirms flowing so menus keep advancing. */
+    if(pauseRisky) pauseGuardUntil = Date.now() + PAUSE_GUARD_MS;
+  }
   function makePilot(player, idx, menus){
     return { pl: player, menus: menus, mode: 'seek', prev: null, hi: 0, lo: 0,
       menuN: 0, hopN: idx * 2, tick: 0, shN: 0, fphase: -1,
@@ -392,7 +495,10 @@
      documented approximation from pp.14-16: uppercut is DOWN+Y so HP=Y(1),
      crouch kicks are X/A so HK=A(8), LK=X(9), leaving LP=B(0); RN=11, BL=10.
      F/B are facing-relative and resolved to fwd/back at play time. */
-  var UMK3_MOVEBOOK = [
+  /* Full combat move list lives in ai/umk3-moves.js (85 entries, 25
+     fighters, transcribed from the complete move list). Fallback keeps the
+     original 15 manual strings if that file ever fails to load. */
+  var UMK3_MOVEBOOK = (window.UMK3_MOVES && window.UMK3_MOVES.length) ? window.UMK3_MOVES : [
     { name: 'Kano knife', seq: ['D','B',1] },
     { name: 'Reptile acid', seq: ['F','F',1] },
     { name: 'Cyrax net', seq: ['B','B',9] },
@@ -410,13 +516,14 @@
     { name: 'Jade rang', seq: ['B','F',0] }
   ];
   function resolveMove(seq, fwd, back){
-    return seq.map(function(t){
+    function one(t){
       if(t === 'F') return fwd;
       if(t === 'B') return back;
       if(t === 'D') return 5;
       if(t === 'U') return 4;
       return t;
-    });
+    }
+    return seq.map(function(t){ return Array.isArray(t) ? t.map(one) : one(t); });
   }
   function fightRelease(pl){
     [4, 5, 6, 7, 10, 11].forEach(function(i){ driveIndex(i, false, 'auto', pl); });
@@ -425,10 +532,22 @@
     driveIndex(btn, true, 'auto', pl);
     setTimeout(function(){ if(autoOn) driveIndex(btn, false, 'auto', pl); }, ms || 140);
   }
+  function fightChord(btns, pl){
+    btns.forEach(function(b){ driveIndex(b, true, 'auto', pl); });
+    setTimeout(function(){
+      if(!autoOn) return;
+      btns.forEach(function(b){ driveIndex(b, false, 'auto', pl); });
+    }, 120);
+  }
   function fightTapSeq(steps, pl){
     var t = 0;
     steps.forEach(function(btn){
-      setTimeout(function(){ if(autoOn) fightPulse(btn, pl, 120); }, t);
+      /* nested arrays are simultaneous chords (e.g. slide 3+5+7+9) */
+      setTimeout(function(){
+        if(!autoOn) return;
+        if(Array.isArray(btn)) fightChord(btn, pl);
+        else fightPulse(btn, pl, 120);
+      }, t);
       t += 150;
     });
   }
@@ -463,7 +582,7 @@
       }, 300);
     }else{
       var mv = UMK3_MOVEBOOK[(pt.tick + idx) % UMK3_MOVEBOOK.length];
-      pt.lastMove = mv.name;
+      pt.lastMove = mv.fighter ? (mv.fighter + ' ' + mv.name) : mv.name;
       fightTapSeq(resolveMove(mv.seq, fwd, back), pt.pl); /* real manual strings, e.g. spear/freeze */
     }
   }
@@ -487,7 +606,7 @@
       (autoOn && /play/.test(pilotModes()) ? (autoDir === AgentMap.dirL ? ' ◀' : ' ▶') + (autoDirY === 4 ? '▲' : (autoDirY === 5 ? '▼' : '')) : '') +
       (autoOn ? ' · ' + autoPlayers().map(function(p){ return 'P' + (p + 1); }).join('+') : '') +
       (autoOn && AgentOpts.autoTune ? ' · AT' : '') +
-      (autoOn && AgentOpts.profile === 'umk3' ? ' · UMK3' : '');
+      (autoOn && AgentOpts.profile && AgentOpts.profile !== 'generic' ? ' · ' + AgentOpts.profile.toUpperCase() : '');
     $all('.agent-hud').forEach(function(e){
       e.textContent = txt;
       e.classList.toggle('hidden', !AgentOpts.hud);
@@ -502,11 +621,19 @@
     pt.lastD = d;
     if(d > AgentOpts.hiThresh){
       pt.hi++; pt.lo = 0;
-      if(pt.hi >= AgentOpts.hiStreak && pt.mode !== 'play'){ pt.mode = 'play'; antonLog('P' + (pt.pl + 1) + ': SEEK→PLAY (d=' + d.toFixed(1) + ')'); updateAutoBtn(); }
+      if(pt.hi >= AgentOpts.hiStreak && pt.mode !== 'play'){
+        pt.mode = 'play'; autoHasPlayed = true;
+        antonLog('P' + (pt.pl + 1) + ': SEEK→PLAY (d=' + d.toFixed(1) + ')');
+        if(!aiCheckpointSaved && Date.now() - aiEngineStart > 5000 && aiCheckpoint()){
+          antonLog('checkpoint slot ' + aiCheckpointSlot);
+        }
+        updateAutoBtn();
+      }
     }else if(d < AgentOpts.loThresh){
       pt.lo++; pt.hi = 0;
       if(pt.lo >= AgentOpts.loStreak && pt.mode !== 'seek'){ pt.mode = 'seek'; antonLog('P' + (pt.pl + 1) + ': PLAY→SEEK (d=' + d.toFixed(1) + ')'); releaseAuto(); updateAutoBtn(); }
     }else{ pt.hi = 0; pt.lo = 0; }
+    if(pt.mode === 'play') lastPlaySeen = Date.now();
     return d;
   }
   function startAgentEngine(){
@@ -515,12 +642,33 @@
     if(autoSenseTimer) clearInterval(autoSenseTimer);
     if(autoTimer) clearInterval(autoTimer);
     autoPilots = autoPlayers().map(function(pl, i){ return makePilot(pl, i, i === 0); });
+    autoHasPlayed = false; autoStartN = 0; lastPlaySeen = 0;
+    lastStartTap = 0; pauseGuardUntil = 0;
     autoMenuTimer = setInterval(function(){
       if(!autoOn || !playing) return;
       autoPilots.forEach(function(pt){
         if(pt.mode !== 'seek' || !pt.menus) return;
         pt.menuN++;
-        autoTap(autoCycle[pt.menuN % autoCycle.length], pt.pl);
+        var tap = autoCycle[pt.menuN % autoCycle.length];
+        /* post-gameplay START throttle: tapping START mid-game pauses it,
+           so within a minute of gameplay allow only 1 in 8 START landings.
+           Older than that, menus get the full rate (a lone animated-title
+           blip must not stall menu advance forever). */
+        if(tap === 3 && autoHasPlayed && (Date.now() - lastPlaySeen < START_QUIET_MS)){
+          autoStartN++; if(autoStartN % 8 !== 0) tap = 2;
+        }
+        /* shared START gap + pause guard: at most one START per gap, and
+           for 20s after any risky START only SELECT may fire — no A, no
+           dpad, no START — so a pause menu can neither be navigated nor
+           confirmed into Quit/Title. */
+        if(tap === 3){
+          if(!startAllowed()) tap = 2;
+          else noteStartTap(autoHasPlayed && (Date.now() - lastPlaySeen < START_QUIET_MS));
+        }else if(Date.now() < pauseGuardUntil && tap !== 2){
+          tap = 2; /* guard window: SELECT-only, pause menu can't be navigated or confirmed */
+        }
+        /* menus listen to player 1 on virtually every SNES title */
+        autoTap(tap, 0);
       });
     }, AgentOpts.tapMs);
     autoSenseTimer = setInterval(function(){
@@ -555,6 +703,9 @@
       autoDiff = dMax;
       teleActivity += dMax;
       antonGovern(dMax);
+      ocrSample();
+      stuckWatch(dMax);
+      try{ lastScene = buildScene(dMax); }catch(e){}
       updateAgentHud();
       drawTeleVision();
       updateTelemetry();
@@ -663,7 +814,105 @@
       if(ac) ac.textContent = teleActivity.toFixed(1);
       var df = document.getElementById('tele-diff');
       if(df) df.textContent = autoDiff.toFixed(1);
+      var wd = document.getElementById('tele-words');
+      if(wd) wd.textContent = AgentOpts.ocr ? (ocrWords || 'listening…') : 'off';
+      try{
+        if(autoOn && autoPilots.length){
+          var pt0 = autoPilots[0];
+          lastPlan = (pt0.mode === 'play')
+            ? (AgentOpts.profile === 'umk3'
+              ? ('fight: ' + (['approach+RUN', 'strike flurry', 'BLOCK', 'crouch/uppercut', 'jump-in', 'special string'][((pt0.fphase % 6) + 6) % 6]))
+              : ('hold scroll+run, hop every ' + AgentOpts.hopEvery))
+            : 'menu taps';
+          lastManual = (lastScene && lastScene.manual && lastScene.manual.matched)
+            ? (lastScene.manual.game + ' ✓') : 'no match';
+        }else{ lastPlan = '—'; lastManual = '—'; }
+      }catch(e){ lastPlan = '—'; lastManual = '—'; }
+      var pl = document.getElementById('tele-plan');
+      if(pl) pl.textContent = lastPlan;
+      var mn = document.getElementById('tele-manual');
+      if(mn) mn.textContent = lastManual;
+      var mm = document.getElementById('tele-memory');
+      if(mm) mm.textContent = 'deaths ' + agentMemory.deaths + ' · stucks ' + agentMemory.stucks +
+        ' · saves ' + agentMemory.recoveries + (aiCheckpointSaved ? ' · ckpt✓' : '');
     }catch(e){}
+  }
+  /* ---------- word reader (screen OCR) ----------
+     Lazy-loads Tesseract.js only when enabled, samples the emulator canvas
+     every ~3rd sense tick, and matches menu keywords: GAME OVER and PAUSE
+     earn one START tap each (10s cooldown); everything else is display-only
+     in telemetry. Any load/recognition failure degrades silently to off. */
+  var ocrBusy = false, ocrWords = '', ocrTick = 0, ocrReady = null;
+  function ocrKeywords(text){
+    var t = String(text || '').toUpperCase();
+    var hits = [];
+    if(/GAME\s*OVER/.test(t)) hits.push('GAME OVER');
+    if(/\bPAUS/.test(t)) hits.push('PAUSE');
+    if(/PRESS.*START|START.*GAME/.test(t)) hits.push('PRESS START');
+    if(/\bSELECT\b/.test(t)) hits.push('SELECT');
+    if(/CONTINUE/.test(t)) hits.push('CONTINUE');
+    if(/1\s*PLAYER|2\s*PLAYER/.test(t)) hits.push('1P/2P MENU');
+    if(/\bWIN\b|\bFINISH\b|TIME\s*UP|\bKO\b/.test(t)) hits.push('ROUND END');
+    return hits;
+  }
+  function ensureTesseract(){
+    if(ocrReady) return ocrReady;
+    ocrReady = new Promise(function(res){
+      try{
+        if(window.Tesseract && window.Tesseract.recognize){ res(true); return; }
+        var s = document.createElement('script');
+        s.src = 'https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js';
+        s.async = true;
+        s.onload = function(){ res(true); };
+        s.onerror = function(){ res(false); };
+        document.head.appendChild(s);
+      }catch(e){ res(false); }
+    });
+    return ocrReady;
+  }
+  function ocrSample(){
+    if(!AgentOpts.ocr || !autoOn || !playing || ocrBusy) return;
+    ocrTick++;
+    if(ocrTick % 3 !== 0) return;
+    var src = stage.querySelector('canvas');
+    if(!src || !src.width) return;
+    ocrBusy = true;
+    ensureTesseract().then(function(ok){
+      if(!ok || !window.Tesseract || !window.Tesseract.recognize) return null;
+      var c = document.createElement('canvas');
+      var W = 480, H = Math.max(1, Math.round(480 * src.height / src.width));
+      c.width = W; c.height = H;
+      c.getContext('2d').drawImage(src, 0, 0, W, H);
+      return window.Tesseract.recognize(c, 'eng', { logger: function(){} });
+    }).then(function(r){
+      ocrBusy = false;
+      if(!r || !r.data || !r.data.text) return;
+      var words = r.data.text.replace(/\s+/g, ' ').trim().slice(0, 120);
+      var hits = ocrKeywords(words);
+      ocrWords = (hits.length ? hits.join(' · ') + ' — ' : '') + (words.slice(0, 60) || '(no text)');
+      if(hits.length && (hits.indexOf('GAME OVER') !== -1 || hits.indexOf('PAUSE') !== -1)){
+        /* same shared START gate as menu taps: unpause retries obey the gap
+           so OCR can neither pause-spam nor walk a pause menu into Quit */
+        if(startAllowed()){
+          /* GAME OVER means title-flow ahead (A/dpad needed to re-enter),
+             so no guard; PAUSE-only means a live pause menu — guard it. */
+          noteStartTap(hits.indexOf('GAME OVER') === -1);
+          autoTap(3, 0);
+          antonLog('words [' + hits.join(', ') + '] → START');
+        }else{
+          antonLog('words [' + hits.join(', ') + '] — START held (gap)');
+        }
+        if(hits.indexOf('GAME OVER') !== -1) agentOnDeath(hits);
+      }
+      updateTelemetry();
+    }).catch(function(){ ocrBusy = false; });
+  }
+  function toggleOcr(){
+    AgentOpts.ocr = !AgentOpts.ocr;
+    saveAgentOpts(); renderTuneInputs();
+    if(AgentOpts.ocr){ ensureTesseract(); antonLog('word reader on — sampling screen text'); }
+    else ocrWords = '';
+    updateTelemetry();
   }
   function antonGovern(dMax){
     if(!AgentOpts.autoTune || !autoOn || !playing) return;
@@ -712,6 +961,9 @@
     if(autoTimer || autoMenuTimer || autoSenseTimer) return;
     autoOn = true;
     autoDiff = 0; teleActivity = 0;
+    aiEngineStart = Date.now(); aiCheckpointSaved = false;
+    stuckTicks = 0; stuckLevel = 0; lastScene = null;
+    lastPlan = '—'; lastManual = '—';
     antonLog('engine started — telemetry live');
     antonHist = []; antonLastModes = ''; antonCool = 0;
     antonSeekStuck = 0; antonPlayStall = 0;
@@ -732,10 +984,231 @@
   function toggleAutopilot(){ if(autoOn) stopAutopilot(); else startAutopilot(); }
   function toggleHud(){ AgentOpts.hud = !AgentOpts.hud; saveAgentOpts(); updateAgentHud(); }
 
+  /* ---------- autonomous player loop: bridge, perception, memory, recovery --
+     Subsystems wired to real capabilities only (all calls feature-detected):
+     1. bridge — live canvas frame, analyser audio window, simulateInput
+        injection, quickSave/quickLoad + getState/loadState checkpoints
+     2. perception — OCR words (above), motion-blob movers labeled UNKNOWN
+        (never misclassified), audio tags, menu/gameplay/over/paused states
+     3. manual brain — ai/manual-index.json + manual-knowledge.js, matched
+        to the loaded ROM, heuristic entries always labeled as such
+     4. loop — observe, plan short sequences, verify the result, recover on
+        death/stuck, P1+P2 tracked separately, human takeover anytime */
+  var SNESBridge = {
+    getFrame: function(){ try{ return stage.querySelector('canvas'); }catch(e){ return null; } },
+    getAudioWindow: function(){
+      try{
+        if(!audioTap.analyser || !audioTap.buf) return null;
+        audioTap.analyser.getFloatTimeDomainData(audioTap.buf);
+        return Array.prototype.slice.call(audioTap.buf);
+      }catch(e){ return null; }
+    },
+    press: function(pl, btn, ms){
+      driveIndex(btn, true, 'auto', pl);
+      setTimeout(function(){ if(autoOn) driveIndex(btn, false, 'auto', pl); }, ms || 120);
+    },
+    pressSequence: function(pl, steps){
+      var chain = Promise.resolve();
+      (steps || []).forEach(function(st){
+        chain = chain.then(function(){
+          return new Promise(function(res){
+            SNESBridge.press(pl, st.button, st.holdMs || 100);
+            setTimeout(res, (st.holdMs || 100) + (st.gapMs || 60));
+          });
+        });
+      });
+      return chain;
+    },
+    saveCheckpoint: function(slot){ return aiCheckpoint(slot); },
+    loadCheckpoint: function(slot){ return aiRecoverCheckpoint(slot); },
+    getRawState: function(){
+      try{
+        var gm = window.EJS_emulator && window.EJS_emulator.gameManager;
+        if(gm && typeof gm.getState === 'function') return gm.getState();
+      }catch(e){}
+      return null;
+    },
+    loadRawState: function(state){
+      try{
+        var gm = window.EJS_emulator && window.EJS_emulator.gameManager;
+        if(gm && typeof gm.loadState === 'function' && state){ gm.loadState(state); return true; }
+      }catch(e){}
+      return false;
+    }
+  };
+  /* Motion blobs on the 32x32 sample: connected active cells become movers.
+     Type is always 'unknown' with a fixed low confidence — the loop tracks
+     and avoids them, it never pretends to know what they are. */
+  var lastBlobs = [];
+  function detectBlobs(prev, curr){
+    if(!prev || !curr) return [];
+    var W = 32, active = [], i;
+    for(i = 0; i < 1024; i++){
+      var d = curr[i] - prev[i];
+      if((d < 0 ? -d : d) > 25) active.push(i);
+    }
+    var seen = {}, boxes = [];
+    active.forEach(function(cell){
+      if(seen[cell]) return;
+      var stack = [cell], xs = [], ys = [];
+      seen[cell] = true;
+      while(stack.length){
+        var c = stack.pop();
+        var x = c % W, y = (c / W) | 0;
+        xs.push(x); ys.push(y);
+        [[1,0],[-1,0],[0,1],[0,-1]].forEach(function(o){
+          var nx = x + o[0], ny = y + o[1];
+          if(nx < 0 || ny < 0 || nx >= W || ny >= W) return;
+          var nc = ny * W + nx;
+          if(!seen[nc] && active.indexOf(nc) !== -1){ seen[nc] = true; stack.push(nc); }
+        });
+      }
+      if(xs.length >= 8){
+        boxes.push({ x: Math.min.apply(null, xs), y: Math.min.apply(null, ys),
+          w: Math.max.apply(null, xs) - Math.min.apply(null, xs) + 1,
+          h: Math.max.apply(null, ys) - Math.min.apply(null, ys) + 1, n: xs.length });
+      }
+    });
+    boxes.sort(function(a, b){ return b.n - a.n; });
+    var out = boxes.slice(0, 4).map(function(b, k){
+      var cx = b.x + b.w / 2, cy = b.y + b.h / 2, motion = 'appeared';
+      for(var j = 0; j < lastBlobs.length; j++){
+        var p = lastBlobs[j];
+        var dx = cx - (p.bbox[0] + p.bbox[2] / 2), dy = cy - (p.bbox[1] + p.bbox[3] / 2);
+        if(dx * dx + dy * dy < 36){ motion = (Math.abs(dx) + Math.abs(dy) >= 2) ? 'moving' : 'static'; break; }
+      }
+      return { id: 'mover_' + (k + 1), type: 'unknown', bbox: [b.x, b.y, b.w, b.h], motion: motion, confidence: 0.4 };
+    });
+    lastBlobs = out;
+    return out;
+  }
+  function audioTags(){
+    try{
+      var w = SNESBridge.getAudioWindow();
+      if(!w) return [];
+      var sum = 0, peak = 0, i, v;
+      for(i = 0; i < w.length; i++){ v = w[i]; sum += v * v; v = v < 0 ? -v : v; if(v > peak) peak = v; }
+      var rms = Math.sqrt(sum / w.length);
+      if(rms < 0.005) return ['silence'];
+      if(peak > 0.4) return ['loud-spike'];
+      return ['sound'];
+    }catch(e){ return []; }
+  }
+  function retrieveForScene(opts){
+    try{
+      if(window.MANUAL_KNOWLEDGE && window.MANUAL_KNOWLEDGE.retrieve)
+        return window.MANUAL_KNOWLEDGE.retrieve(opts);
+    }catch(e){}
+    return { game: null, matched: false, excerpts: [] };
+  }
+  var lastScene = null, lastPlan = '—', lastManual = '—';
+  function pilotPlanText(pt){
+    if(!pt || pt.mode !== 'play') return 'menu taps';
+    if(AgentOpts.profile === 'umk3'){
+      var phases = ['approach+RUN', 'strike flurry', 'BLOCK', 'crouch/uppercut', 'jump-in', 'special string'];
+      return 'fight: ' + (phases[((pt.fphase % 6) + 6) % 6] || 'fight');
+    }
+    return 'hold scroll+run, hop every ' + AgentOpts.hopEvery;
+  }
+  function buildScene(dMax){
+    var modes = '', play = false;
+    try{ modes = pilotModes(); play = /play/i.test(modes); }catch(e){}
+    var hits = ocrKeywords(ocrWords);
+    var screenType = !playing ? 'off' : 'menu';
+    if(playing && play) screenType = 'gameplay';
+    if(hits.indexOf('GAME OVER') !== -1) screenType = 'game-over';
+    else if(hits.indexOf('PAUSE') !== -1) screenType = 'paused';
+    var manual = retrieveForScene({ gameTitle: currentName, profile: AgentOpts.profile,
+      query: (ocrWords || '') + ' ' + screenType });
+    var players = [];
+    try{
+      players = autoPilots.map(function(pt){
+        return { id: 'P' + (pt.pl + 1), mode: pt.mode,
+          owner: pt.pl === 0 ? 'shared(human+ai)' : 'ai', status: 'active' };
+      });
+    }catch(e){}
+    var objective = !playing ? 'boot the game' :
+      (screenType === 'gameplay'
+        ? (AgentOpts.profile === 'umk3' ? 'reduce opponent health, preserve own' : 'follow scroll, avoid hazards, keep moving')
+        : 'advance menus to gameplay');
+    return { timestamp: Date.now(), screen_type: screenType,
+      game_title: currentName, manual: manual, players: players,
+      enemies: lastBlobs, hazards: [], items: [], ui: null,
+      ocr_text: ocrWords || '', audio_events: audioTags(),
+      objective_guess: objective };
+  }
+  /* Persistent session memory: deaths, stalls, recoveries, help requests. */
+  var agentMemory = { deaths: 0, stucks: 0, recoveries: 0, helps: 0 };
+  try{ Object.assign(agentMemory, JSON.parse(localStorage.getItem('snesboy-agent-memory') || '{}')); }catch(e){}
+  function saveMemory(){ try{ localStorage.setItem('snesboy-agent-memory', JSON.stringify(agentMemory)); }catch(e){} }
+  var aiCheckpointSlot = '9', aiCheckpointSaved = false, aiEngineStart = 0;
+  function aiCheckpoint(slot){
+    try{
+      var gm = window.EJS_emulator && window.EJS_emulator.gameManager;
+      if(gm && typeof gm.quickSave === 'function'){
+        gm.quickSave(slot || aiCheckpointSlot);
+        aiCheckpointSaved = true;
+        return true;
+      }
+    }catch(e){}
+    return false;
+  }
+  function aiRecoverCheckpoint(slot){
+    try{
+      var gm = window.EJS_emulator && window.EJS_emulator.gameManager;
+      if(gm && typeof gm.quickLoad === 'function' && aiCheckpointSaved){
+        gm.quickLoad(slot || aiCheckpointSlot);
+        return true;
+      }
+    }catch(e){}
+    return false;
+  }
+  function agentOnDeath(hits){
+    agentMemory.deaths++; saveMemory();
+    antonLog('down — likely cause: ' + (hits.join(', ') || 'unknown') + ' (death #' + agentMemory.deaths + ')');
+    if(agentMemory.deaths >= 2 && aiCheckpointSaved){
+      if(aiRecoverCheckpoint()){
+        agentMemory.recoveries++; agentMemory.deaths = 0; saveMemory();
+        antonLog('recovery: checkpoint slot ' + aiCheckpointSlot);
+      }
+    }
+    updateTelemetry();
+  }
+  /* Stuck escalation: still-in-play too long → reverse burst → checkpoint
+     reload → ask the human (throttled). Never stops permanently. */
+  var stuckTicks = 0, stuckLevel = 0, stuckHelpAt = 0;
+  function stuckWatch(dMax){
+    var modes = '';
+    try{ modes = pilotModes(); }catch(e){}
+    var inPlay = /play/i.test(modes);
+    if(!autoOn || !playing || !inPlay){ stuckTicks = 0; stuckLevel = 0; return; }
+    if(dMax >= AgentOpts.hiThresh){ stuckTicks = 0; stuckLevel = 0; return; }
+    stuckTicks++;
+    if(stuckTicks === 10){
+      stuckLevel = 1; agentMemory.stucks++; saveMemory();
+      autoDir = (autoDir === AgentMap.dirR) ? AgentMap.dirL : AgentMap.dirR;
+      antonLog('stuck ~20s — trying reversed direction');
+    }else if(stuckTicks === 15){
+      stuckLevel = 2;
+      if(aiRecoverCheckpoint()){
+        agentMemory.recoveries++; saveMemory();
+        antonLog('still stuck — checkpoint slot ' + aiCheckpointSlot);
+        stuckTicks = 0; stuckLevel = 0;
+      }
+    }else if(stuckTicks >= 20){
+      stuckLevel = 3;
+      if(Date.now() - stuckHelpAt > 60000){
+        stuckHelpAt = Date.now(); agentMemory.helps++; saveMemory();
+        antonLog('stuck — requesting human help (take P1, or press SAVE CHECKPOINT)');
+      }
+      stuckTicks = 10; /* loop L1/L2 again, never give up */
+    }
+  }
+
   /* ---------- tune the brain (AI Lab inputs) ---------- */
   var TuneFields = [
     ['senseMs', 500, 5000], ['tapMs', 2000, 10000], ['hiThresh', 1, 40],
-    ['loThresh', 0.5, 20], ['hopEvery', 1, 10]
+    ['loThresh', 0.5, 20], ['hopEvery', 1, 10], ['startGapMs', 15000, 300000]
   ];
   function renderTuneInputs(){
     TuneFields.forEach(function(f){
@@ -748,8 +1221,10 @@
     if(ps) ps.value = (AgentOpts.players || [0]).join(',');
     var at = document.getElementById('btn-autotune');
     if(at) at.textContent = 'AUTO-TUNE: ' + (AgentOpts.autoTune ? 'ON' : 'OFF');
+    var oc = document.getElementById('btn-ocr');
+    if(oc) oc.textContent = 'READ WORDS: ' + (AgentOpts.ocr ? 'ON' : 'OFF');
     var pf = document.getElementById('opt-profile');
-    if(pf) pf.value = (AgentOpts.profile === 'umk3') ? 'umk3' : 'generic';
+    if(pf) pf.value = AgentOpts.profile || 'generic';
     var map = document.getElementById('agent-map-readout');
     if(map) map.textContent = 'map: dirR=' + AgentMap.dirR + ' dirL=' + AgentMap.dirL +
       ' run=' + AgentMap.run + ' actions=[' + AgentMap.actions.join(',') +
@@ -763,8 +1238,10 @@
     updateAgentHud();
   }
 
-  /* ---------- Son of Anton: report-only code health (never modifies files) ---------- */
-  var ANTON_SOURCES = ['index.html', 'style.css', 'script.js', 'ai/son-of-anton.js'];
+  /* ---------- Son of Anton: general-purpose planner, code-health capability --
+     The scan below plans coverage of the report run, then scores each file
+     with the report-only scorer. Nothing is modified, ever. */
+  var ANTON_SOURCES = ['index.html', 'style.css', 'script.js', 'ai/son-of-anton.js', 'ai/umk3-moves.js'];
   function runAntonScan(){
     var box = document.getElementById('anton-results');
     if(box) box.innerHTML = '<p class="modal-desc">Scanning…</p>';
@@ -780,18 +1257,153 @@
       }).catch(function(){ return { name: name, content: '', error: true }; });
     });
     Promise.all(jobs).then(function(sources){
-      var rows = anton.analyzeAll(sources.filter(function(s){ return !s.error; }));
+      var good = sources.filter(function(s){ return !s.error; });
+      var names = good.map(function(s){ return s.name; });
+      anton.register('code-health', window.SonOfAnton.codeHealth(names));
+      var plan = anton.plan({ domain: 'code-health',
+        state: { files: names, reported: [] }, goal: { reported: names } });
+      return anton.execute({ plan: plan,
+        state: { files: names, reported: [] } }).then(function(){
+        if(!box) return;
+        box.innerHTML = '';
+        if(!plan.steps.length){ box.innerHTML = '<p class="modal-desc">No sources readable.</p>'; return; }
+        plan.steps.forEach(function(step){
+          var src = null;
+          for(var i = 0; i < good.length; i++){
+            if(good[i].name === step.params.name) src = good[i];
+          }
+          var r = window.SonOfAnton.scoreContent(src ? src.content : '');
+          var item = document.createElement('div'); item.className = 'rom-list-item';
+          var nm = document.createElement('div'); nm.className = 'rom-name';
+          nm.textContent = step.params.name + ' — ' + r.score.toFixed(2) + ' ' + r.verdict +
+            ' (' + r.lines + ' lines, ' + r.commentLines + ' comments, ' + r.logStatements + ' logs)';
+          item.appendChild(nm); box.appendChild(item);
+        });
+      });
+    }).catch(function(){
+      if(box) box.innerHTML = '<p class="modal-desc">Scan failed.</p>';
+    });
+  }
+
+  /* ---------- Manual archive as a Son of Anton capability ----------
+     Loads the matched game's PDF from archive.org (user click = approval),
+     extracts text with pdf.js, caches it, and surfaces control lines.
+     Both libraries lazy-load; every failure degrades to a status line. */
+  var pdfjsReady = null;
+  function ensurePdfjs(){
+    if(pdfjsReady) return pdfjsReady;
+    pdfjsReady = new Promise(function(res){
+      try{
+        if(window.pdfjsLib && window.pdfjsLib.getDocument){ res(true); return; }
+        var s = document.createElement('script');
+        s.src = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js';
+        s.async = true;
+        s.onload = function(){ res(true); };
+        s.onerror = function(){ res(false); };
+        document.head.appendChild(s);
+      }catch(e){ res(false); }
+    });
+    return pdfjsReady;
+  }
+  function manualCacheKey(file){
+    return 'snesboy-manual-' + String(file || '').toLowerCase().replace(/[^a-z0-9]+/g, '-');
+  }
+  function loadManualForCurrentGame(){
+    var status = document.getElementById('manual-status');
+    var box = document.getElementById('manual-extract');
+    function say(msg){ if(status) status.textContent = msg; }
+    if(typeof window.SonOfAnton === 'undefined' ||
+       !window.MANUAL_KNOWLEDGE || !window.MANUAL_KNOWLEDGE.manualsCapability){
+      say('Manual brain failed to load.');
+      return;
+    }
+    var entry = window.MANUAL_KNOWLEDGE.matchGame(currentName);
+    if(!entry){ say('No confident manual match for this ROM — pick its PDF from the list above.'); return; }
+    var file = entry.file;
+    try{
+      var cached = localStorage.getItem(manualCacheKey(file));
+      if(cached){
+        renderManualExtract(file, JSON.parse(cached).controls || []);
+        say('Served from cache (' + file + ').');
+        return;
+      }
+    }catch(e){}
+    say('Planning: search → fetch → extract…');
+    var anton = new window.SonOfAnton();
+    var host = {
+      _bufs: {}, _texts: {},
+      index: function(){ return [{ title: entry.title, file: entry.file }]; },
+      fetchFile: function(f){
+        var self = this;
+        return fetch(window.MANUAL_KNOWLEDGE.archiveFileUrl(f)).then(function(r){
+          if(!r.ok) throw new Error('HTTP ' + r.status);
+          return r.arrayBuffer();
+        }).then(function(buf){ self._bufs[f] = buf; return buf; });
+      },
+      extractText: function(f){
+        var self = this;
+        if(self._texts[f]) return Promise.resolve(self._texts[f]);
+        function parse(buf){
+          return window.pdfjsLib.getDocument({ data: buf }).promise.then(function(pdf){
+            var pages = [];
+            for(var p = 1; p <= pdf.numPages; p++){
+              pages.push(pdf.getPage(p).then(function(page){
+                return page.getTextContent().then(function(tc){
+                  return tc.items.map(function(it){ return it.str; }).join('\n');
+                });
+              }));
+            }
+            return Promise.all(pages);
+          }).then(function(texts){
+            var text = texts.join('\n');
+            self._texts[f] = text;
+            return text;
+          });
+        }
+        return ensurePdfjs().then(function(ok){
+          if(!ok || !window.pdfjsLib) throw new Error('pdf.js unavailable');
+          if(self._bufs[f]) return parse(self._bufs[f]);
+          return self.fetchFile(f).then(parse);
+        });
+      }
+    };
+    var goal = { query: entry.title, file: file, wantText: true };
+    anton.register('manuals', window.MANUAL_KNOWLEDGE.manualsCapability(host));
+    var plan;
+    try{
+      plan = anton.plan({ domain: 'manuals',
+        state: { query: '', candidates: [], file: null, fetched: false, textChars: 0, reported: [] }, goal: goal });
+    }catch(err){ say('Planner error: ' + err.message); return; }
+    if(!plan.predictedSuccess){ say('Planner found no route to ' + file + '.'); return; }
+    say('Plan: ' + plan.steps.map(function(s){ return s.action; }).join(' → ') + ' — fetching…');
+    anton.execute({ plan: plan,
+      state: { query: '', candidates: [], file: null, fetched: false, textChars: 0, reported: [] },
+      approve: function(){ return Promise.resolve(true); } /* the button click above is the approval */
+    }).then(function(res){
+      return host.extractText(file).then(function(text){
+        var controls = window.MANUAL_KNOWLEDGE.extractControls(text, 25);
+        try{ localStorage.setItem(manualCacheKey(file), JSON.stringify({ controls: controls })); }catch(e){}
+        renderManualExtract(file, controls);
+        say('Extracted ' + controls.length + ' control lines from ' + file +
+          ' (' + res.completed.length + ' planned steps, ~' + Math.round(text.length / 1024) + ' KB read).');
+      });
+    }).catch(function(err){
+      say('Manual load failed: ' + (err && err.message ? err.message : err));
+    });
+    function renderManualExtract(f, controls){
       if(!box) return;
       box.innerHTML = '';
-      if(!rows.length){ box.innerHTML = '<p class="modal-desc">No sources readable.</p>'; return; }
-      rows.forEach(function(r){
+      if(!controls.length){
+        box.innerHTML = '<p class="modal-desc">No control lines found in ' + f + '.</p>';
+        return;
+      }
+      controls.forEach(function(line){
         var item = document.createElement('div'); item.className = 'rom-list-item';
         var nm = document.createElement('div'); nm.className = 'rom-name';
-        nm.textContent = r.name + ' — ' + r.score.toFixed(2) + ' ' + r.verdict +
-          ' (' + r.lines + ' lines, ' + r.commentLines + ' comments, ' + r.logStatements + ' logs)';
+        nm.textContent = line;
         item.appendChild(nm); box.appendChild(item);
       });
-    });
+    }
   }
 
   /* Readable WebGL: the emulator's canvas is created WITHOUT
@@ -1050,7 +1662,7 @@
       var t0 = Date.now();
       ep.inputs.forEach(function(ev){
         replayTimers.push(setTimeout(function(){
-          driveIndex(ev.b, ev.d === 1, 'replay');
+          driveIndex(ev.b, ev.d === 1, 'replay', ev.p || 0);
         }, Math.max(0, ev.t - (Date.now() - t0))));
       });
       var last = ep.inputs[ep.inputs.length - 1].t;
@@ -1274,8 +1886,7 @@
   /* Losing the tab releases human-held buttons (never stuck), but the
      autopilot stays exactly as it was — only its own toggle stops it. */
   window.addEventListener('blur', function(){
-    for(var pl = 0; pl <= 3; pl++)
-      for(var i = 0; i <= 11; i++) driveIndex(i, false, 'sys', pl);
+    releaseAll();
     $all('.pressed').forEach(function(el){ el.classList.remove('pressed'); });
   });
 
@@ -1338,10 +1949,17 @@
   on('btn-ai', function(){ renderEpisodes(); renderTuneInputs(); updateAgentHud(); openModal('ai-modal'); });
   on('dt-btn-ai', function(){ renderEpisodes(); renderTuneInputs(); updateAgentHud(); openModal('ai-modal'); });
   on('btn-autopilot', toggleAutopilot);
+  on('btn-checkpoint', function(){
+    if(aiCheckpoint()){ antonLog('checkpoint saved (slot ' + aiCheckpointSlot + ')'); }
+    else antonLog('checkpoint unavailable');
+    updateTelemetry();
+  });
   on('btn-autotune', toggleAutotune);
+  on('btn-ocr', toggleOcr);
   on('btn-hud', toggleHud);
   on('btn-tune-reset', resetAgentOpts);
   on('btn-anton-analyze', runAntonScan);
+  on('btn-manual-load', loadManualForCurrentGame);
   on('btn-record', toggleRecording);
   document.addEventListener('change', function(e){
     var t = e.target;
@@ -1361,14 +1979,18 @@
         if(!isNaN(n) && n >= 0 && n <= 3 && out.indexOf(n) === -1) out.push(n);
       });
       AgentOpts.players = out.length ? out : [0];
+      AgentOpts.playersSet = true; /* explicit choice: never auto-migrated */
       saveAgentOpts(); renderTuneInputs();
       if(autoOn) startAgentEngine(); /* rebuild pilots for the new roster */
       return;
     }
     if(key === 'profile'){
-      AgentOpts.profile = (t.value === 'umk3') ? 'umk3' : 'generic';
+      var valid = ['generic', 'umk3', 'racer', 'shooter', 'rpg'];
+      AgentOpts.profile = (valid.indexOf(t.value) !== -1) ? t.value : 'generic';
+      applyProfile(AgentOpts.profile);
       saveAgentOpts(); renderTuneInputs(); updateAgentHud();
-      return; /* drive loop reads the profile every tick — no restart needed */
+      if(autoOn) startAgentEngine(); /* new tempo takes effect now; game untouched */
+      return;
     }
     var spec = null;
     TuneFields.forEach(function(f){ if(f[0] === key) spec = f; });

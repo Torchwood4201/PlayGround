@@ -1,0 +1,15 @@
+{
+  "name": "snes-manual-ingest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local-only SNES manual ingestion tooling (NOT shipped to browsers).",
+  "scripts": {
+    "ingest": "node ingest-snes-manuals.cjs"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "adm-zip": "^0.5.10",
+    "pdf-parse": "^1.1.1",
+    "tesseract.js": "^5.1.0"
+  }
+}
