@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pied Piper — Code Editor (self-made)</title>
+<link rel="stylesheet" href="styles.css" />
+<style>
+  .ed-wrap{display:flex;flex-direction:column;height:100vh;background:#0c0c0e;color:#e4e4e7;font-family:'JetBrains Mono',ui-monospace,monospace}
+  .ed-bar{display:flex;align-items:center;gap:4px;padding:4px 8px;background:#121214;border-bottom:1px solid #27272a;overflow-x:auto;flex:none;user-select:none}
+  .ed-bar .lbl{font-size:10px;color:rgba(245,158,11,.8);font-weight:700;padding:0 4px;text-transform:uppercase;letter-spacing:.08em;flex:none}
+  .ed-bar button{padding:4px 8px;background:#1c1c22;color:#d4d4d8;border:1px solid #2e2e38;border-radius:4px;font-size:12px;font-family:inherit;flex:none;cursor:pointer}
+  .ed-bar button:hover{background:rgba(245,158,11,.2);color:#fcd34d}
+  .ed-bar button:active{transform:scale(.95);background:rgba(245,158,11,.3)}
+  .ed-main{flex:1;display:flex;overflow:hidden;min-height:0;position:relative}
+  .ed-lines{width:40px;background:#09090b;border-right:1px solid #27272a;user-select:none;overflow:hidden;flex:none;font-size:11px;pointer-events:none}
+  @media(min-width:640px){.ed-lines{width:56px;font-size:13px}}
+  .ed-lines-inner{padding:16px 8px 128px 0;text-align:right;color:#71717a}
+  .ed-lines-inner div{height:24px;line-height:24px;font-size:10px;opacity:.6}
+  @media(min-width:640px){.ed-lines-inner div{font-size:12px}}
+  .ed-lines-inner div.cur{color:#fbbf24;font-weight:700;background:rgba(245,158,11,.15);margin-right:-8px;padding-right:8px;border-radius:4px 0 0 4px;opacity:1}
+  .ed-code{flex:1;min-width:0;background:#0c0c0e;position:relative}
+  .ed-code textarea{width:100%;height:100%;padding:16px 12px 128px;background:transparent;color:#e4e4e7;resize:none;outline:none;font-family:inherit;font-size:12px;line-height:24px;white-space:pre;overflow:auto;display:block;border:0}
+  @media(min-width:640px){.ed-code textarea{font-size:13px;padding-left:16px;padding-right:16px}}
+  .ed-code textarea::placeholder{color:#3f3f46}
+  .ed-foot{height:28px;background:#09090b;border-top:1px solid #27272a;padding:0 12px;display:flex;align-items:center;justify-content:space-between;font-size:10px;color:#a1a1aa;user-select:none;flex:none}
+  @media(min-width:640px){.ed-foot{font-size:11px}}
+  .ed-foot .lang{display:flex;align-items:center;gap:6px;color:#fbbf24;font-weight:600}
+  .ed-foot .lang i{width:6px;height:6px;border-radius:50%;background:#fbbf24;display:inline-block}
+  .ed-top{display:flex;align-items:center;gap:8px;padding:8px 12px;background:#09090b;border-bottom:1px solid #27272a;font-size:12px;flex:none;flex-wrap:wrap}
+  .ed-top a{color:#a4e86a;text-decoration:none}
+  .ed-top .home{margin-right:4px}
+  .tab{background:transparent;color:#71717a;border:1px solid #27272a;border-radius:6px 6px 0 0;padding:3px 10px;font-size:11px;font-family:inherit;cursor:pointer}
+  .tab.on{background:#1c1c22;color:#fbbf24;border-color:#2e2e38}
+  .tab .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#fbbf24;margin-left:6px;vertical-align:middle}
+  .toolbtn{background:#1c1c22;color:#d4d4d8;border:1px solid #2e2e38;border-radius:6px;padding:3px 10px;font-size:11px;font-family:inherit;cursor:pointer}
+  .toolbtn:hover{color:#fcd34d;border-color:#fbbf24}
+  .toolbtn.live{color:#a4e86a;border-color:#2c4a1e}
+  #preview{flex:1;min-width:0;background:#fff;border:0;display:none;height:100%}
+  .ed-main.prev #preview{display:block}
+  .ed-main.prev .ed-lines,.ed-main.prev .ed-code{display:none}
+  #diffBadge{font-size:10px;color:#fbbf24}
+</style>
+</head>
+<body>
+<div class="ed-wrap">
+  <div class="ed-top"><a class="home" href="index.html">← Pied Piper</a><span id="tabs" style="display:flex;gap:4px;flex-wrap:wrap"></span><button class="toolbtn" id="previewBtn" type="button">Preview: off</button><button class="toolbtn" id="revertBtn" type="button">Revert file</button><button class="toolbtn" id="dlBtn" type="button">Download</button><span id="diffBadge"></span></div>
+  <div class="ed-bar" id="quickbar"><span class="lbl">Quick Insert:</span></div>
+  <div class="ed-main" id="main">
+    <div class="ed-lines" id="lines"><div class="ed-lines-inner" id="linesInner"></div></div>
+    <div class="ed-code"><textarea id="code" spellcheck="false" autocomplete="off" autocapitalize="none" autocorrect="off" placeholder="// Start coding..."></textarea></div>
+    <iframe id="preview" title="draft preview" sandbox="allow-scripts"></iframe>
+  </div>
+  <div class="ed-foot">
+    <div style="display:flex;align-items:center;gap:12px">
+      <span class="lang"><i></i><span id="langLabel">TYPESCRIPT</span></span>
+      <span id="pos">Ln 1, Col 1</span>
+    </div>
+    <div style="display:flex;gap:12px;color:#71717a"><span id="statLines">1 lines</span><span id="statChars">0 chars</span><span>UTF-8</span></div>
+  </div>
+</div>
+<script>
+(function () {
+  var FILES = [
+    { name: "CodeEditor.tsx", lang: "TYPESCRIPT" },
+    { name: "index.html", lang: "HTML" },
+    { name: "styles.css", lang: "CSS" },
+    { name: "app.js", lang: "JAVASCRIPT" }
+  ];
+  var QUICK = [
+    ["Tab", "  "], ["{ }", "{\n  \n}"], ["( )", "()"], ["[ ]", "[]"],
+    ["< >", "<>"], ['" "', '""'], ["' '", "''"], ["` `", "``"],
+    ["=>", " => "], [";", ";"], ["=", " = "], ["/", "/"],
+    ["const", "const "], ["function", "function "], ["return", "return "],
+    ["console.log", "console.log();"]
+  ];
+  var ta = document.getElementById("code");
+  var linesBox = document.getElementById("lines");
+  var linesInner = document.getElementById("linesInner");
+  var posEl = document.getElementById("pos");
+  var statLines = document.getElementById("statLines");
+  var statChars = document.getElementById("statChars");
+  var langLabel = document.getElementById("langLabel");
+  var bar = document.getElementById("quickbar");
+  var tabsEl = document.getElementById("tabs");
+  var previewBtn = document.getElementById("previewBtn");
+  var revertBtn = document.getElementById("revertBtn");
+  var dlBtn = document.getElementById("dlBtn");
+  var diffBadge = document.getElementById("diffBadge");
+  var mainEl = document.getElementById("main");
+  var frame = document.getElementById("preview");
+  var KEY = "pp-editor-drafts-v2";
+  var live = {}, drafts = {}, cur = FILES[0].name, previewOn = false, timer = null;
+
+  try { drafts = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { drafts = {}; }
+  function persist() {
+    try { localStorage.setItem(KEY, JSON.stringify(drafts)); } catch (e) {}
+  }
+
+  QUICK.forEach(function (s) {
+    var b = document.createElement("button");
+    b.type = "button";
+    b.textContent = s[0];
+    b.onclick = function () { insertSymbol(s[1]); };
+    bar.appendChild(b);
+  });
+
+  function text(name) { return (drafts[name] !== undefined) ? drafts[name] : (live[name] || ""); }
+
+  function renderTabs() {
+    tabsEl.innerHTML = "";
+    FILES.forEach(function (f) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "tab" + (f.name === cur ? " on" : "");
+      b.innerHTML = f.name.replace(/</g, "&lt;") + (drafts[f.name] !== undefined && drafts[f.name] !== live[f.name] ? '<span class="dot"></span>' : "");
+      b.onclick = function () { switchFile(f.name); };
+      tabsEl.appendChild(b);
+    });
+  }
+
+  function switchFile(name) {
+    drafts[cur] = ta.value;
+    cur = name;
+    ta.value = text(name);
+    var f = FILES.filter(function (x) { return x.name === name; })[0];
+    langLabel.textContent = f.lang;
+    persist();
+    render();
+    renderTabs();
+    schedulePreview();
+  }
+
+  function diffCount() {
+    var a = (live[cur] || "").split("\n"), b = ta.value.split("\n");
+    var n = 0, m = Math.max(a.length, b.length);
+    for (var i = 0; i < m; i++) if (a[i] !== b[i]) n++;
+    return n;
+  }
+
+  function render() {
+    var before = ta.value.substring(0, ta.selectionStart || 0).split("\n");
+    var line = before.length, col = before[before.length - 1].length + 1;
+    var count = Math.max(1, ta.value.split("\n").length);
+    var html = "";
+    for (var i = 1; i <= count; i++) {
+      html += '<div class="' + (i === line ? "cur" : "") + '">' + i + "</div>";
+    }
+    linesInner.innerHTML = html;
+    posEl.textContent = "Ln " + line + ", Col " + col;
+    statLines.textContent = count + " lines";
+    statChars.textContent = ta.value.length + " chars";
+    var d = diffCount();
+    diffBadge.textContent = d ? (d + " lines vs live") : "matches live";
+  }
+
+  function composePreview() {
+    var html = text("index.html"), css = text("styles.css"), js = text("app.js");
+    html = html.replace(/<link rel="stylesheet" href="styles\.css"[^>]*>/, "<style>" + css + "</style>");
+    html = html.replace(/<script src="app\.js"><\/script>/, "<script>" + js.replace(/<\/script>/g, "<\\/script>") + "<\/script>");
+    return html;
+  }
+
+  function updatePreview() {
+    if (!previewOn) return;
+    frame.srcdoc = composePreview();
+    previewBtn.textContent = "Preview: live draft";
+    previewBtn.className = "toolbtn live";
+  }
+
+  function schedulePreview() {
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(updatePreview, 500);
+  }
+
+  previewBtn.onclick = function () {
+    previewOn = !previewOn;
+    if (previewOn) { mainEl.className = "ed-main prev"; updatePreview(); }
+    else { mainEl.className = "ed-main"; previewBtn.textContent = "Preview: off"; previewBtn.className = "toolbtn"; }
+  };
+  revertBtn.onclick = function () {
+    delete drafts[cur];
+    ta.value = live[cur] || "";
+    persist(); render(); renderTabs(); schedulePreview();
+  };
+  dlBtn.onclick = function () {
+    var blob = new Blob([ta.value], { type: "text/plain" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = cur;
+    a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 2000);
+  };
+
+  function insertSymbol(s) {
+    var start = ta.selectionStart || 0, end = ta.selectionEnd || 0;
+    ta.value = ta.value.substring(0, start) + s + ta.value.substring(end);
+    requestAnimationFrame(function () {
+      ta.focus();
+      var p = start + s.length;
+      ta.setSelectionRange(p, p);
+      render();
+    });
+    drafts[cur] = ta.value;
+    persist(); renderTabs(); schedulePreview();
+  }
+
+  ta.addEventListener("input", function () { drafts[cur] = ta.value; render(); renderTabs(); persist(); schedulePreview(); });
+  ta.addEventListener("keyup", render);
+  ta.addEventListener("click", render);
+  ta.addEventListener("scroll", function () { linesBox.scrollTop = ta.scrollTop; });
+  ta.addEventListener("keydown", function (e) {
+    if (e.key === "Tab") {
+      e.preventDefault();
+      var start = ta.selectionStart, end = ta.selectionEnd;
+      ta.value = ta.value.substring(0, start) + "  " + ta.value.substring(end);
+      requestAnimationFrame(function () {
+        ta.selectionStart = ta.selectionEnd = start + 2;
+        render();
+      });
+      drafts[cur] = ta.value;
+      persist(); renderTabs(); schedulePreview();
+    }
+  });
+
+  Promise.all(FILES.map(function (f) {
+    return fetch(f.name).then(function (r) { return r.ok ? r.text() : ""; }).then(function (t) { live[f.name] = t; }).catch(function () { live[f.name] = ""; });
+  })).then(function () {
+    ta.value = text(cur);
+    render();
+    renderTabs();
+  });
+
+  var isTouch = ("ontouchstart" in window) || (navigator.maxTouchPoints > 0);
+  if (!isTouch && document.activeElement !== ta) ta.focus();
+  render();
+  renderTabs();
+})();
+</script>
+</body>
+</html>

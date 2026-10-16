@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pied Piper — Blank Canvas</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<main id="top"><!-- maker: blank canvas. build here. -->  <p class="maker-stamp" style="border-left:3px solid #7ac142;padding-left:10px;color:#a4e86a">Self-made · maker cycle #8 · 2026-10-16T23:24:35.697Z · building on a clear canvas · reversible in tools/.backups/</p>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

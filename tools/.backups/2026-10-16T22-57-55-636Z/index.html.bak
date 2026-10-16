@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pied Piper — Middle-Out Compression</title>
+<meta name="description" content="Pied Piper: the middle-out, decentralized compression platform. Fan-made educational tribute." />
+<link rel="icon" type="image/webp" href="assets/piedpiperoldlogo.webp" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">
+      <img src="assets/piedpiperoldlogo.webp" alt="Pied Piper logo" />
+      <span>Pied Piper</span>
+    </a>
+    <nav class="links">
+      <a href="#middleout">Middle-Out</a>
+      <a href="#demo">Live Demo</a>
+      <a href="#platform">Platform</a>
+      <a href="#anton">Son of Anton</a>
+      <a href="#team">Team</a>
+    </nav>
+    <a class="btn small" href="#demo">Try the demo</a>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker"><span class="dot"></span> Pied Piper Inc. — Hooli-proof since 2014</p>
+        <h1>Lose liters<br/>of data <em>with middle-out.</em></h1>
+        <p class="lede">A lossless, middle-out compression engine that starts from <strong>8 independent midpoints</strong> and expands outward — breaking sequential dependencies so every segment can be processed in parallel.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#demo">Run middle-out demo</a>
+          <a class="btn ghost" href="#middleout">How it works</a>
+        </div>
+        <div class="score-card">
+          <div>
+            <div class="score-num" id="weissman">5.2</div>
+            <div class="score-label">Weissman score <span title="Fictional benchmark from the show">(fictional)</span></div>
+          </div>
+          <div class="score-divider"></div>
+          <ul class="score-facts">
+            <li><strong>Lossless</strong> round-trip guaranteed</li>
+            <li><strong>8 segments</strong> · XOR deltas · zero deps</li>
+            <li><strong>Educational</strong> Python + JS implementation</li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="pipe-card">
+          <img src="assets/piedpiperoldlogo.webp" alt="Classic Pied Piper logo" />
+          <canvas id="heroCanvas" width="420" height="160" aria-label="Middle-out segment visualization"></canvas>
+          <div class="pipe-meta">
+            <span id="heroStat">8 segments · expanding outward →</span>
+            <span class="live">● live visualization</span>
+          </div>
+        </div>
+        <img class="story-img" src="assets/story.jpg" alt="Pied Piper story arc collage" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="strip">
+    <div class="wrap strip-grid">
+      <div><strong data-count="8">8</strong><span>independent segments</span></div>
+      <div><strong>XOR</strong><span>sparse delta encoding</span></div>
+      <div><strong>100%</strong><span>lossless round-trip</span></div>
+      <div><strong>0</strong><span>external dependencies</span></div>
+    </div>
+  </section>
+
+  <!-- MIDDLE OUT -->
+  <section id="middleout" class="section">
+    <div class="wrap">
+      <p class="kicker green">01 — Middle-Out Engine</p>
+      <h2>Don't go top-down. Don't go bottom-up.<br/>Start in the middle and work out.</h2>
+      <div class="cols-3">
+        <div class="card">
+          <h3>◈ Segmented layout</h3>
+          <p>Input is split into <code>N = 8</code> roughly equal segments. Each segment stores its own uncompressed <strong>reference word</strong> (64-bit), so there are no cross-segment dependencies.</p>
+          <pre><code>bounds = compute_segment_bounds(
+  n_words, n=8
+)
+# [(0,12),(12,24),…]</code></pre>
+        </div>
+        <div class="card">
+          <h3>◈ XOR delta encoding</h3>
+          <p>Every subsequent word is stored as <code>XOR(curr, prev)</code> inside its segment. Structured data produces sparse diffs that compress well in a second entropy pass.</p>
+          <pre><code>diff = curr ^ prev
+stream += diff
+prev = curr</code></pre>
+        </div>
+        <div class="card">
+          <h3>◈ Deterministic &amp; lossless</h3>
+          <p>Compressor and decompressor share identical segment geometry. Header stores <code>orig_len · pad · n_seg</code>, then refs, then the entropy-coded XOR stream.</p>
+          <pre><code>header = pack(orig_len,
+  pad, n_seg)
+assert decompress(
+  compress(x)) == x</code></pre>
+        </div>
+      </div>
+      <p class="note">Educational implementation inspired by the show. It is not zlib / zstd and won't hit mythical Weissman scores — it's here to make the <em>idea</em> runnable. Full Python source in the <a href="#code">code section</a>.</p>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section id="demo" class="section alt">
+    <div class="wrap">
+      <p class="kicker green">02 — Live in-browser demo</p>
+      <h2>Try middle-out on your own text</h2>
+      <p class="lede small">Runs 100% locally in your browser. Nothing is uploaded. This is a <strong>visualization</strong> of segmentation + XOR sparsity, not a production codec.</p>
+      <div class="demo-grid">
+        <div class="card">
+          <label for="demoInput">Input text</label>
+          <textarea id="demoInput" rows="7">hello world hello world hello world the quick brown fox jumps over the lazy dog Pied Piper middle-out compression!!!</textarea>
+          <div class="demo-controls">
+            <label>Segments
+              <input id="segRange" type="range" min="2" max="16" value="8" />
+              <span id="segVal">8</span>
+            </label>
+            <button id="runDemo" class="btn primary small">Compress (visualize)</button>
+          </div>
+        </div>
+        <div class="card dark">
+          <div class="metrics">
+            <div><span>Original</span><strong id="mOrig">–</strong></div>
+            <div><span>XOR non-zero bytes</span><strong id="mXor">–</strong></div>
+            <div><span>Sparsity</span><strong id="mSparse">–</strong></div>
+            <div><span>Round-trip</span><strong id="mRound" class="ok">–</strong></div>
+          </div>
+          <canvas id="demoCanvas" width="520" height="180"></canvas>
+          <pre id="demoOut" class="terminal">Press “Compress” to see segments, references and XOR diffs…</pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLATFORM -->
+  <section id="platform" class="section">
+    <div class="wrap">
+      <p class="kicker green">03 — Core Convergence Platform</p>
+      <h2>One crucible: compression × mesh × sanity checks</h2>
+      <div class="cols-3">
+        <div class="card">
+          <h3>Richard — Throughput</h3>
+          <p><code>compression_score = get_middle_out_ratio()</code></p>
+          <p>Raw middle-out ratio drives the fitness function. Higher effective throughput, higher fitness.</p>
+        </div>
+        <div class="card">
+          <h3>Gilfoyle — Mesh stability</h3>
+          <p><code>uptime = get_decentralized_mesh_stability()</code></p>
+          <p>Decentralized node routing multiplies the compression score. No single point of failure.</p>
+        </div>
+        <div class="card">
+          <h3>Dinesh — Cleanliness constraint</h3>
+          <p><code>penalty = 1.5·complexity + overhead + 100000·failures</code></p>
+          <p>AST crucible flattens deep loops and rejects mutations over 12&nbsp;ms latency or with memory leaks.</p>
+        </div>
+      </div>
+      <div class="fitness card">
+        <h3>Combined fitness</h3>
+        <pre><code>fitness = (compression_score * network_uptime_score) - overhead_penalty</code></pre>
+        <p>Errors and complexity drain the score, forcing the platform toward leaner execution paths. Guardrails only allow <code>compression_ratio</code> and <code>node_routing</code> mutations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SON OF ANTON -->
+  <section id="anton" class="section alt">
+    <div class="wrap">
+      <p class="kicker green">04 — Son of Anton</p>
+      <h2>Local autonomous optimizer <span class="pill">safe simulator</span></h2>
+      <p class="lede small">In the show, Son of Anton autonomously purges “inefficient” assets. <strong>This page never deletes or modifies files.</strong> The simulator below only <em>scores pasted text</em> in your browser (comment density, debug logs, blank lines) and suggests cleanups.</p>
+      <div class="demo-grid">
+        <div class="card">
+          <label for="antonInput">Paste code to score (nothing leaves your browser)</label>
+          <textarea id="antonInput" rows="8">// TODO: delete this
+console.log("debug noise");
+const x = 1;
+
+
+function hello() {
+  console.log("hi");
+  return x;
+}</textarea>
+          <div class="demo-controls">
+            <label>Aggressiveness
+              <input id="aggRange" type="range" min="10" max="90" value="50" />
+              <span id="aggVal">0.50</span>
+            </label>
+            <button id="runAnton" class="btn primary small">Score code</button>
+          </div>
+        </div>
+        <div class="card dark">
+          <div class="metrics">
+            <div><span>Inefficiency</span><strong id="aScore">–</strong></div>
+            <div><span>Verdict</span><strong id="aVerdict">–</strong></div>
+          </div>
+          <pre id="antonOut" class="terminal">Press “Score code” for a heuristic breakdown…</pre>
+          <p class="tiny">Heuristic only: <code>score = noise_lines / total_lines</code>. No filesystem access, no auto-execution, no purging.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team" class="section">
+    <div class="wrap">
+      <p class="kicker green">05 — Team</p>
+      <h2>The geniuses who (almost) shipped it</h2>
+      <div class="team-grid">
+        <div class="card"><h3>Richard Hendricks</h3><span>Founder · Compression visionary</span><p>Saw music piracy and thought: “what if lossless, but middle-out?”</p></div>
+        <div class="card"><h3>Bertram Gilfoyle</h3><span>Systems · Mesh &amp; security</span><p>Runs the servers, the sarcasm, and the Anton lineage.</p></div>
+        <div class="card"><h3>Dinesh Chugtai</h3><span>Engineering · Sanity scaffolding</span><p>Flattens your nested loops and your ego.</p></div>
+        <div class="card"><h3>Jared Dunn</h3><span>Business · Heart of the company</span><p>Guides, Gantt charts, and unwavering optimism.</p></div>
+        <div class="card"><h3>Monica Hall</h3><span>Finance · Voice of reason</span><p>Keeps Pied Piper alive through every pivot.</p></div>
+        <div class="card"><h3>Jian-Yang</h3><span>Not a team member</span><p>Erlich’s equity? A fridge full of silence.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CODE -->
+  <section id="code" class="section alt">
+    <div class="wrap">
+      <p class="kicker green">06 — Source</p>
+      <h2>Take the engine with you</h2>
+      <div class="cols-2">
+        <div class="card">
+          <h3>middle_out.py</h3>
+          <p>Pure Python 3, stdlib only (<code>struct</code> + <code>zlib</code> entropy stage). Save as <code>middle_out.py</code> and run:</p>
+          <pre><code>python3 middle_out.py
+# Sample  Original  MiddleOut  zlib  Roundtrip
+# zeros        4096       ...     ...   OK</code></pre>
+          <button id="copyPy" class="btn ghost small">Copy Python implementation</button>
+          <pre id="pySource" class="terminal small-pre">from middle_out import compress, decompress
+raw = b"your data here"
+assert decompress(compress(raw)) == raw</pre>
+        </div>
+        <div class="card">
+          <h3>Why “middle-out”?</h3>
+          <p>Classic delta coders march left-to-right, each value depending on the last. Middle-out gives every segment its own reference point, so segments are <strong>independent and parallelizable</strong>.</p>
+          <ul class="check">
+            <li>✓ Tunable segments (default 8)</li>
+            <li>✓ 8-byte refs + XOR stream + header</li>
+            <li>✓ Deterministic geometry on both ends</li>
+            <li>✗ Not a zlib replacement (by design)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <div class="brand"><img src="assets/piedpiperoldlogo.webp" alt="" /><span>Pied Piper</span></div>
+      <p>Fan-made educational tribute to HBO’s <em>Silicon Valley</em>. Not affiliated with HBO or any real Pied Piper. Compression ratios shown are illustrative. The Son of Anton demo on this page is a harmless in-browser scorer — it never reads, writes, or deletes files.</p>
+      <p class="tiny">Built as a static site · index.html + styles.css + app.js · Images: attached fan logos.</p>
+    </div>
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
