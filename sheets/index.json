@@ -8,7 +8,7 @@
       "order": []
     },
     "trainers": {
-      "_howto": "HGSS/Platinum trainer overworlds: list NPC keys in cell order. Keys used by the game: oak, girl, fisher, boy, girl2, blue, guide, hiker, girl3.",
+      "_howto": "Player-protagonist overworlds (Ethan, Lyra, Brendan, May, Lucas, Dawn, Hilbert, Hilda, ...): list keys in cell order. Keys you add here appear as Custom avatar options in-game, e.g. order: [\"ethan\", \"lyra\"].",
       "file": "hgss-trainers.png",
       "cell": 16,
       "cols": 16,
