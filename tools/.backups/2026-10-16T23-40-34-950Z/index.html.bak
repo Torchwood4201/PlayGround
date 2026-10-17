@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pied Piper — Blank Canvas</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<main id="top"><!-- maker: blank canvas. build here. -->  <p class="maker-stamp" style="border-left:3px solid #7ac142;padding-left:10px;color:#a4e86a">Self-made · maker cycle #8 · 2026-10-16T23:24:35.697Z · building on a clear canvas · reversible in tools/.backups/</p>
+  <p class="maker-stamp" style="border-left:3px solid #7ac142;padding-left:10px;color:#a4e86a">Self-made · maker cycle #9 · 2026-10-16T23:27:40.983Z · building on a clear canvas · reversible in tools/.backups/</p>
+
+    <section id="grown" class="section">
+      <div class="wrap">
+        <p class="kicker">grown by the maker</p>
+        <h2>Laid down one block per cycle</h2>
+        <div class="grid3">
+    <article class="card" data-growth="1"><h3>Middle-out, in one sentence</h3><p>Start from N independent midpoints and expand outward, so no segment waits on another. Parallel by construction, lossless by geometry.</p></article>
+        <article class="card" data-growth="2"><h3>Weissman score</h3><p>The show's fictional benchmark: effective compression over a theoretical baseline. Pied Piper's 5.2 made grown engineers weep. This site's ticker still oscillates 5.1–5.4 in tribute.</p></article>
+        <article class="card" data-growth="3" data-seed="0"><h3>The workstation: CodeEditor.tsx</h3><p>Pasted four times, grown once — deduplicated. 16 quick-insert symbols, synced line numbers, cursor tracking, Tab handling, touch-aware focus. Committed verbatim at CodeEditor.tsx and opened live in the site editor. This block grew from a planted seed, not the built-in dozen.</p></article>
+        <article class="card" data-growth="4"><h3>XOR deltas</h3><p>Inside each segment, every word is stored as curr ^ prev. Structured data yields sparse, mostly-zero diffs — and sparse diffs compress.</p></article>
+        <article class="card" data-growth="5" data-seed="1"><h3>Learn track: HTML foundations</h3><p>Start https://www.w3schools.com/html/default.asp — intro https://www.w3schools.com/html/html_intro.asp — editors https://www.w3schools.com/html/html_editors.asp — basic https://www.w3schools.com/html/html_basic.asp — elements https://www.w3schools.com/html/html_elements.asp — attributes https://www.w3schools.com/html/html_attributes.asp — practice https://www.w3schools.com/html/html_exercises.asp and https://www.w3schools.com/html/html_quiz.asp</p></article>
+    <!-- maker-growth-end -->
+        </div>
+      </div>
+    </section>
+  <p class="maker-stamp" style="border-left:3px solid #7ac142;padding-left:10px;color:#a4e86a">Self-made · maker cycle #10 · 2026-10-16T23:32:59.622Z · building on a clear canvas · reversible in tools/.backups/</p>
+  <p class="maker-stamp" style="border-left:3px solid #7ac142;padding-left:10px;color:#a4e86a">Self-made · maker cycle #11 · 2026-10-16T23:33:01.643Z · building on a clear canvas · reversible in tools/.backups/</p>
+  <p class="maker-stamp" style="border-left:3px solid #7ac142;padding-left:10px;color:#a4e86a">Self-made · maker cycle #12 · 2026-10-16T23:34:20.825Z · building on a clear canvas · reversible in tools/.backups/</p>
+  <p class="maker-stamp" style="border-left:3px solid #7ac142;padding-left:10px;color:#a4e86a">Self-made · maker cycle #13 · 2026-10-16T23:36:26.592Z · building on a clear canvas · reversible in tools/.backups/</p>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pied Piper — The Decentralized Internet (Rebuilt)</title>
+<meta name="description" content="Pied Piper v2: middle-out compression, decentralized mesh, and a guarded self-improvement demo. Fan-made educational tribute." />
+<link rel="icon" type="image/webp" href="assets/piedpiperoldlogo.webp" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="topline" aria-hidden="true"></div>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">
+      <img src="assets/piedpiperoldlogo.webp" alt="Pied Piper logo" />
+      <span>Pied Piper <em>v2</em></span>
+    </a>
+    <nav class="links">
+      <a href="#engine">Engine</a>
+      <a href="#demo">Demo</a>
+      <a href="#mesh">Mesh</a>
+      <a href="#anton">Anton</a>
+      <a href="#team">Team</a>
+      <a href="#code">Code</a>
+    </nav>
+    <a class="btn small primary" href="#demo">Compress live</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="kicker"><span class="pulse"></span> Autonomous rebuild · guarded optimizer · backup on every write</p>
+        <h1>The internet,<br />but <span class="grad">middle-out.</span></h1>
+        <p class="lede">Pied Piper v2 pairs an 8-segment middle-out codec with a decentralized mesh — and this very page was rebuilt by its own guarded optimizer: free to redesign the whole site, forbidden from touching anything that keeps it alive.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#demo">Run the codec</a>
+          <a class="btn ghost" href="#engine">Read the theory</a>
+        </div>
+        <dl class="hero-stats">
+          <div><dt>Weissman (fictional)</dt><dd id="weissman">5.20</dd></div>
+          <div><dt>Segments</dt><dd>8</dd></div>
+          <div><dt>Round-trip</dt><dd>lossless</dd></div>
+          <div><dt>Runtime files touched</dt><dd>0</dd></div>
+        </dl>
+      </div>
+      <div class="hero-visual">
+        <figure class="console">
+          <figcaption><img src="assets/piedpiperoldlogo.webp" alt="" /> middle-out // live <span class="rec">●</span></figcaption>
+          <canvas id="heroCanvas" width="440" height="170" aria-label="Animated middle-out segments"></canvas>
+          <pre id="heroLog">S1 ref=6a3f…  S2 ref=91c0…  S3 ref=44de…  S4 ref=b201…
+S5 ref=77aa…  S6 ref=0f9c…  S7 refxd41…  S8 ref=53e8…
+&gt; expanding outward from 8 midpoints_</pre>
+        </figure>
+        <img class="story" src="assets/story.jpg" alt="Pied Piper story collage" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <section class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>middle-out</span><i>◆</i><span>lossless</span><i>◆</i><span>8 segments</span><i>◆</i><span>xor deltas</span><i>◆</i><span>zero deps</span><i>◆</i><span>decentralized</span><i>◆</i><span>middle-out</span><i>◆</i><span>lossless</span><i>◆</i><span>8 segments</span><i>◆</i><span>xor deltas</span><i>◆</i><span>zero deps</span><i>◆</i><span>decentralized</span><i>◆</i>
+    </div>
+  </section>
+
+  <section id="engine" class="section">
+    <div class="wrap">
+      <p class="kicker">01 — The engine</p>
+      <h2>Top-down is sequential.<br />Middle-out is parallel.</h2>
+      <p class="lede narrow">Classic delta coders march left to right — every value depends on the last. Middle-out splits input into <strong>N independent segments</strong>, each with its own uncompressed reference word, so all N can be encoded at once.</p>
+      <div class="grid3">
+        <article class="card">
+          <div class="step">A</div>
+          <h3>Split into midpoints</h3>
+          <p>Partition words into 8 roughly equal ranges. Geometry is deterministic — compressor and decompressor compute identical bounds.</p>
+          <pre><code>bounds = segment(n_words, 8)
+# [(0,12) (12,24) …]</code></pre>
+        </article>
+        <article class="card">
+          <div class="step">B</div>
+          <h3>XOR the chain</h3>
+          <p>Inside each segment, store <code>curr ^ prev</code>. Structured data yields sparse, mostly-zero diffs.</p>
+          <pre><code>diff = curr ^ prev
+stream.append(diff)</code></pre>
+        </article>
+        <article class="card">
+          <div class="step">C</div>
+          <h3>Entropy-code + verify</h3>
+          <p>Header <code>(len, pad, n)</code> + refs + compressed XOR stream. Decompress asserts byte-identical round-trip.</p>
+          <pre><code>assert dec(enc(x)) == x</code></pre>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="demo" class="section dark">
+    <div class="wrap">
+      <p class="kicker light">02 — Live codec visualization</p>
+      <h2>Feed it text. Watch the segments.</h2>
+      <p class="lede narrow dim">100% in-browser. Nothing uploads. An educational visualization of segmentation + XOR sparsity — not a production codec.</p>
+      <div class="demo-grid">
+        <div class="panel">
+          <label for="demoInput">Input text</label>
+          <textarea id="demoInput" rows="7">hello world hello world hello world the quick brown fox jumps over the lazy dog Pied Piper middle-out compression!!!</textarea>
+          <div class="presets">
+            <button class="chip" data-preset="repeat">repetitive</button>
+            <button class="chip" data-preset="english">english</button>
+            <button class="chip" data-preset="mixed">mixed</button>
+          </div>
+          <div class="controls">
+            <label class="slider">Segments <input id="segRange" type="range" min="2" max="16" value="8" /> <b id="segVal">8</b></label>
+            <button id="runDemo" class="btn primary small">Compress (visualize)</button>
+          </div>
+        </div>
+        <div class="panel readout">
+          <div class="metrics">
+            <div><span>Original</span><strong id="mOrig">–</strong></div>
+            <div><span>XOR nonzero</span><strong id="mXor">–</strong></div>
+            <div><span>Sparsity</span><strong id="mSparse">–</strong></div>
+            <div><span>Round-trip</span><strong id="mRound">–</strong></div>
+          </div>
+          <canvas id="demoCanvas" width="540" height="170"></canvas>
+          <pre id="demoOut" class="term">Press “Compress” — references, diffs and sparsity appear here…</pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="mesh" class="section">
+    <div class="wrap">
+      <p class="kicker">03 — Convergence mesh</p>
+      <h2>Compression × mesh × sanity gate</h2>
+      <div class="grid3">
+        <article class="card"><h3>Richard · ratio</h3><p><code>compression_score</code> — effective middle-out throughput feeds the fitness function.</p></article>
+        <article class="card"><h3>Gilfoyle · uptime</h3><p><code>mesh_stability</code> — decentralized routing multiplies the score. No single point of failure.</p></article>
+        <article class="card"><h3>Dinesh · penalty</h3><p><code>1.5·complexity + overhead + 100000·failures</code> — the AST crucible rejects slow or leaky mutations.</p></article>
+      </div>
+      <div class="fitness"><code>fitness = (compression × uptime) − penalty</code><span>Only <code>compression_ratio</code> and <code>node_routing</code> mutations are ever allowed.</span></div>
+    </div>
+  </section>
+
+  <section id="anton" class="section dark">
+    <div class="wrap">
+      <p class="kicker light">04 — Son of Anton · guarded build log</p>
+      <h2>It rebuilt this page — safely.</h2>
+      <p class="lede narrow dim">The optimizer behind v2 can rewrite <strong>any site file</strong>, but every write passes a guardrail: protected paths refused, content validated, backup taken, rollback on failure. Try its (harmless) scoring heuristic below — pasted text only, never your files.</p>
+      <div class="demo-grid">
+        <div class="panel">
+          <label for="antonInput">Paste code to score</label>
+          <textarea id="antonInput" rows="8">// TODO: delete this
+const x = 1;
+
+function hello() {
+  return x;
+}</textarea>
+          <div class="controls">
+            <label class="slider">Aggressiveness <input id="aggRange" type="range" min="10" max="90" value="50" /> <b id="aggVal">0.50</b></label>
+            <button id="runAnton" class="btn primary small">Score code</button>
+          </div>
+        </div>
+        <div class="panel readout">
+          <div class="metrics two">
+            <div><span>Inefficiency</span><strong id="aScore">–</strong></div>
+            <div><span>Verdict</span><strong id="aVerdict">–</strong></div>
+          </div>
+          <pre id="antonOut" class="term">Press “Score code” for the breakdown…</pre>
+          <ul class="guardlog">
+            <li>✓ runtime files: refused (12/12 guardrail tests)</li>
+            <li>✓ backups: every committed write copied first</li>
+            <li>✓ validation: html tags · node --check · css braces</li>
+            <li>✗ deletes / renames: no such API exists</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="section">
+    <div class="wrap">
+      <p class="kicker">05 — Team</p>
+      <h2>Five visionaries. One fridge.</h2>
+      <div class="team">
+        <article class="card"><h3>Richard Hendricks</h3><span>Founder · codec</span><p>Tabs or spaces? Middle-out.</p></article>
+        <article class="card"><h3>Bertram Gilfoyle</h3><span>Systems · mesh</span><p>Runs the servers and the sarcasm.</p></article>
+        <article class="card"><h3>Dinesh Chugtai</h3><span>Sanity scaffolding</span><p>Your nested loops, flattened.</p></article>
+        <article class="card"><h3>Jared Dunn</h3><span>Business · heart</span><p>Gantt charts and optimism.</p></article>
+        <article class="card"><h3>Monica Hall</h3><span>Finance · reason</span><p>Survived every pivot.</p></article>
+        <article class="card dim-card"><h3>Jian-Yang</h3><span>Not on the team</span><p>Erlich's equity? Silence.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="code" class="section dark">
+    <div class="wrap">
+      <p class="kicker light">06 — Source</p>
+      <h2>Steal this engine.</h2>
+      <div class="cols2">
+        <div class="panel">
+          <h3>middle_out.py</h3>
+          <p>Pure stdlib Python (<code>struct</code> + <code>zlib</code>). Save, run, learn:</p>
+          <pre class="term"><code>python3 middle_out.py
+# zeros   4096B → tiny · round-trip OK</code></pre>
+          <button id="copyPy" class="btn ghost small">Copy Python implementation</button>
+        </div>
+        <div class="panel">
+          <h3>Rebuild manifest</h3>
+          <p>This v2 page was committed through <code>writeSiteFile()</code>: protected targets refused, content validated (<code>DOCTYPE</code> · <code>node --check</code> · balanced braces), backups in <code>tools/.backups/</code>, rollback armed. Runtime files touched: <strong>zero</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <div class="brand"><img src="assets/piedpiperoldlogo.webp" alt="" /><span>Pied Piper v2</span></div>
+      <p>Fan-made educational tribute to HBO's <em>Silicon Valley</em>. Not affiliated with HBO. Demos run locally; the Anton scorer never reads, writes, or deletes files. Rebuilt autonomously under guardrails — <code>index.html</code> + <code>styles.css</code> + <code>app.js</code> only.</p>
+    </div>
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

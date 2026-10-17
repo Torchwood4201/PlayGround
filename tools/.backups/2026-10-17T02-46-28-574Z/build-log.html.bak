@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pied Piper — Build Log (self-made)</title>
+<link rel="stylesheet" href="styles.css" />
+<style>main.log{max-width:960px;margin:0 auto;padding:32px 20px;font-family:system-ui,sans-serif}table.log{border-collapse:collapse;width:100%;font-size:13px}table.log td,table.log th{border:1px solid #31452a;padding:6px 10px;text-align:left}table.log th{background:#141b12}.stat{display:inline-block;margin:0 18px 8px 0}</style>
+</head>
+<body>
+<main id="top" class="log">
+<p><a href="index.html">← Pied Piper</a> · <a href="editor.html">Open the code editor →</a></p>
+<h1>Build Log — written by the maker, cycle #36</h1>
+<p>Every row below is a cycle the maker ran on its own. This page regenerates each cycle; it never existed before the maker wrote it.</p>
+<p><span class="stat"><strong>35</strong> cycles remembered</span><span class="stat">aggressiveness 0.5 → 0.5</span><span class="stat">site: index.html score=0.02 · styles.css score=0.01 · app.js score=0.06 · build-log.html score=0.02 · editor.html score=0.07 · growth-seeds.json score=0.00 · CodeEditor.tsx score=0.12</span><span class="stat">knowledge: 4 topics loaded</span><span class="stat">reference shelf: 19 groups · 686 urls</span></p>
+<table class="log"><tr><th>#</th><th>time</th><th>mode</th><th>success</th><th>steps</th></tr>
+<tr><td>#1</td><td>2026-10-16T23:06:43.008Z</td><td>commit</td><td>yes</td><td>—</td></tr>
+<tr><td>#2</td><td>2026-10-16T23:13:16.754Z</td><td>commit</td><td>yes</td><td>optimizeFile index.html</td></tr>
+<tr><td>#3</td><td>2026-10-16T23:13:25.992Z</td><td>commit</td><td>yes</td><td>optimizeFile styles.css, optimizeFile app.js</td></tr>
+<tr><td>#4</td><td>2026-10-16T23:15:03.058Z</td><td>commit</td><td>yes</td><td>—</td></tr>
+<tr><td>#5</td><td>2026-10-16T23:16:03.094Z</td><td>commit</td><td>yes</td><td>—</td></tr>
+<tr><td>#6</td><td>2026-10-16T23:16:26.469Z</td><td>commit</td><td>yes</td><td>—</td></tr>
+<tr><td>#7</td><td>2026-10-16T23:22:14.904Z</td><td>commit</td><td>yes</td><td>stampSite</td></tr>
+<tr><td>#8</td><td>2026-10-16T23:24:35.702Z</td><td>commit</td><td>yes</td><td>createPage, stampSite</td></tr>
+<tr><td>#9</td><td>2026-10-16T23:27:40.989Z</td><td>commit</td><td>yes</td><td>createPage, stampSite</td></tr>
+<tr><td>#10</td><td>2026-10-16T23:32:59.629Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#11</td><td>2026-10-16T23:33:01.652Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#12</td><td>2026-10-16T23:34:20.831Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#13</td><td>2026-10-16T23:36:26.598Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#14</td><td>2026-10-16T23:40:34.951Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#15</td><td>2026-10-16T23:43:15.639Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#16</td><td>2026-10-16T23:43:15.679Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#17</td><td>2026-10-16T23:46:26.729Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#18</td><td>2026-10-16T23:47:09.308Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#19</td><td>2026-10-16T23:48:39.087Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#20</td><td>2026-10-16T23:56:26.855Z</td><td>commit</td><td>yes</td><td>optimizeFile CodeEditor.tsx, expandSite, createPage, stampSite</td></tr>
+<tr><td>#21</td><td>2026-10-17T00:06:26.976Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#22</td><td>2026-10-17T00:16:27.064Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#23</td><td>2026-10-17T00:26:27.166Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#24</td><td>2026-10-17T00:36:27.241Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#25</td><td>2026-10-17T00:46:27.306Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#26</td><td>2026-10-17T00:56:27.447Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#27</td><td>2026-10-17T01:06:27.501Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#28</td><td>2026-10-17T01:16:27.645Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#29</td><td>2026-10-17T01:26:27.766Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#30</td><td>2026-10-17T01:36:27.910Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#31</td><td>2026-10-17T01:46:27.986Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#32</td><td>2026-10-17T01:56:28.133Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#33</td><td>2026-10-17T02:06:28.188Z</td><td>commit</td><td>yes</td><td>expandSite, createPage, stampSite</td></tr>
+<tr><td>#34</td><td>2026-10-17T02:16:28.326Z</td><td>commit</td><td>yes</td><td>createPage, stampSite</td></tr>
+<tr><td>#35</td><td>2026-10-17T02:26:28.441Z</td><td>commit</td><td>yes</td><td>createPage, stampSite</td></tr>
+</table>
+<p class="maker-stamp" style="border-left:3px solid #7ac142;padding-left:10px">Self-made · rendered 2026-10-17T02:36:28.511Z · reversible in tools/.backups/</p>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

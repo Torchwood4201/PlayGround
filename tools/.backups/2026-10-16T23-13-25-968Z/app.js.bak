@@ -1,0 +1,197 @@
+// Pied Piper v2 — in-browser visualizations. No filesystem access, no network calls.
+
+function computeBounds(n, segs) {
+  if (n === 0) return [];
+  const base = Math.floor(n / segs), rem = n % segs;
+  const out = []; let s = 0;
+  for (let i = 0; i < segs; i++) {
+    const size = base + (i < rem ? 1 : 0);
+    out.push([s, s + size]); s += size;
+  }
+  return out;
+}
+
+var PALETTE = ['#7ac142', '#4cc2ff', '#ffb020', '#ff6b6b', '#c792ea', '#64d8cb',
+  '#f879df', '#d3f26a', '#8aff8a', '#ffd166', '#06d6a0', '#ef476f',
+  '#9b5de5', '#00bbf9', '#80ed99', '#ff9770'];
+
+function segX(i, bounds, total, pad, gap, usable) {
+  var x = pad;
+  for (var k = 0; k < i; k++) {
+    var frac = total ? (bounds[k][1] - bounds[k][0]) / total : 1 / bounds.length;
+    x += Math.max(8, usable * frac) + gap;
+  }
+  return x;
+}
+
+function drawSegments(canvas, bounds, total) {
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext('2d');
+  var W = canvas.width, H = canvas.height;
+  ctx.clearRect(0, 0, W, H);
+  var pad = 12, gap = 6, barY = 34, barH = 46;
+  var usable = W - pad * 2 - gap * (bounds.length - 1);
+  var t = Date.now() / 500;
+  bounds.forEach(function (b, i) {
+    var s = b[0], e = b[1];
+    var frac = total ? (e - s) / total : 1 / bounds.length;
+    var w = Math.max(8, usable * frac);
+    var x = segX(i, bounds, total, pad, gap, usable);
+    ctx.fillStyle = PALETTE[i % PALETTE.length];
+    ctx.beginPath();
+    if (ctx.roundRect) ctx.roundRect(x, barY, w, barH, 9);
+    else ctx.rect(x, barY, w, barH);
+    ctx.fill();
+    ctx.fillStyle = '#0b0f0a';
+    ctx.font = 'bold 12px system-ui';
+    ctx.fillText('S' + (i + 1), x + 7, barY + 21);
+    ctx.font = '10px system-ui';
+    ctx.fillText(s + '-' + e, x + 7, barY + 37);
+    var cx = x + 12 + ((t * 32 + i * 53) % Math.max(12, w - 24));
+    ctx.fillStyle = 'rgba(255,255,255,.9)';
+    ctx.beginPath(); ctx.arc(cx, barY + barH / 2, 3, 0, 7); ctx.fill();
+  });
+  ctx.fillStyle = '#7d9178'; ctx.font = '12px system-ui';
+  ctx.fillText('reference word -> XOR deltas expand outward', pad, barY + barH + 26);
+}
+
+function hexRef(word) {
+  return Array.prototype.map.call(word, function (b) {
+    return b.toString(16).padStart(2, '0');
+  }).join('');
+}
+
+// Hero loop + fictional Weissman ticker
+(function hero() {
+  var c = document.getElementById('heroCanvas');
+  if (c) {
+    var bounds = computeBounds(96, 8);
+    (function frame() { drawSegments(c, bounds, 96); requestAnimationFrame(frame); })();
+  }
+  var el = document.getElementById('weissman');
+  if (el) setInterval(function () { el.textContent = (5.1 + Math.random() * 0.3).toFixed(2); }, 1600);
+})();
+
+// Scroll reveal
+(function reveal() {
+  var els = document.querySelectorAll('.card, .panel, .fitness');
+  els.forEach(function (el) { el.classList.add('reveal'); });
+  if (!('IntersectionObserver' in window)) {
+    els.forEach(function (el) { el.classList.add('in'); });
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+    });
+  }, { threshold: 0.12 });
+  els.forEach(function (el) { io.observe(el); });
+})();
+
+// Middle-out demo
+(function demo() {
+  var input = document.getElementById('demoInput');
+  var segRange = document.getElementById('segRange');
+  var segVal = document.getElementById('segVal');
+  var btn = document.getElementById('runDemo');
+  var canvas = document.getElementById('demoCanvas');
+  var out = document.getElementById('demoOut');
+  if (!btn) return;
+  var PRESETS = {
+    repeat: 'hello world '.repeat(24),
+    english: 'the quick brown fox jumps over the lazy dog. '.repeat(10),
+    mixed: 'Pied Piper middle-out 0123456789 '.repeat(8) + 'hello world '.repeat(8)
+  };
+  document.querySelectorAll('[data-preset]').forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      input.value = PRESETS[chip.getAttribute('data-preset')] || '';
+      run();
+    });
+  });
+  segRange.addEventListener('input', function () { segVal.textContent = segRange.value; });
+  function run() {
+    var text = input.value || '';
+    var bytes = new TextEncoder().encode(text);
+    var nSegs = parseInt(segRange.value, 10);
+    drawSegments(canvas, computeBounds(bytes.length, nSegs), bytes.length || 1);
+    var pad = (8 - (bytes.length % 8)) % 8;
+    var padded = new Uint8Array(bytes.length + pad);
+    padded.set(bytes);
+    var words = [];
+    for (var i = 0; i < padded.length; i += 8) words.push(padded.slice(i, i + 8));
+    var wBounds = computeBounds(words.length, nSegs);
+    var xorBytes = 0, nonzero = 0, lines = [];
+    lines.push('bytes=' + bytes.length + ' pad=' + pad + ' words=' + words.length + ' segments=' + nSegs);
+    wBounds.forEach(function (b, i) {
+      var s = b[0], e = b[1];
+      if (s >= e) { lines.push('S' + (i + 1) + ': (empty)'); return; }
+      lines.push('S' + (i + 1) + ' words [' + s + ',' + e + ') ref=' + hexRef(words[s]));
+      var prev = words[s];
+      for (var k = s + 1; k < e; k++) {
+        var cur = words[k];
+        for (var q = 0; q < 8; q++) {
+          xorBytes++;
+          if ((cur[q] ^ prev[q]) !== 0) nonzero++;
+        }
+        prev = cur;
+      }
+    });
+    var sparsity = xorBytes ? (1 - nonzero / xorBytes) : 1;
+    document.getElementById('mOrig').textContent = bytes.length + ' B';
+    document.getElementById('mXor').textContent = nonzero + ' / ' + xorBytes;
+    document.getElementById('mSparse').textContent = (sparsity * 100).toFixed(1) + '% zero';
+    document.getElementById('mRound').textContent = 'OK';
+    lines.push('XOR stream: ' + xorBytes + ' bytes, ' + nonzero + ' nonzero, sparsity ' + (sparsity * 100).toFixed(1) + '%');
+    lines.push('A real entropy stage (e.g. zlib) would follow the XOR stream.');
+    out.textContent = lines.join('\n');
+  }
+  btn.addEventListener('click', run);
+  if (input.value) run();
+})();
+
+// Son of Anton SAFE scorer — pasted text only, never touches files
+(function anton() {
+  var input = document.getElementById('antonInput');
+  var agg = document.getElementById('aggRange');
+  var aggVal = document.getElementById('aggVal');
+  var btn = document.getElementById('runAnton');
+  if (!btn) return;
+  agg.addEventListener('input', function () { aggVal.textContent = (agg.value / 100).toFixed(2); });
+  btn.addEventListener('click', function () {
+    var content = input.value || '';
+    var lines = content.split('\n');
+    var noise = 0, detail = [];
+    lines.forEach(function (line, i) {
+      var t = line.trim(), why = null;
+      if (t === '') why = 'blank';
+      else if (t.indexOf('console.log') !== -1) why = 'debug log';
+      else if (t.substring(0, 2) === '//' || t.substring(0, 2) === '/*' || t.charAt(0) === '*') why = 'comment';
+      else if (/TODO|FIXME|XXX/i.test(t)) why = 'todo marker';
+      if (why) { noise++; detail.push('  line ' + (i + 1) + ': [' + why + '] ' + t.slice(0, 60)); }
+    });
+    var score = lines.length ? noise / lines.length : 1;
+    var threshold = agg.value / 100;
+    var verdict = score >= threshold ? 'WOULD FLAG (fiction)' : score > 0.1 ? 'WOULD TIDY (fiction)' : 'CLEAN';
+    document.getElementById('aScore').textContent = score.toFixed(2);
+    document.getElementById('aVerdict').textContent = verdict;
+    document.getElementById('antonOut').textContent =
+      'lines=' + lines.length + ' noise=' + noise + ' score=' + score.toFixed(3) + ' threshold=' + threshold.toFixed(2) + '\n' +
+      (detail.length ? detail.slice(0, 12).join('\n') + (detail.length > 12 ? '\n  … +' + (detail.length - 12) + ' more' : '') : '  (no noisy lines)') +
+      '\n\nSAFE SIMULATOR: no files read, written, or deleted.';
+  });
+})();
+
+// Copy helper for the Python engine
+(function copyBtn() {
+  var btn = document.getElementById('copyPy');
+  if (!btn) return;
+  var PY = '#!/usr/bin/env python3\n"""Middle-Out Compression Engine (educational)."""\nimport struct, zlib\nNUM_SEGMENTS = 8\ndef compute_segment_bounds(length, n=NUM_SEGMENTS):\n    if length == 0: return []\n    base, rem = divmod(length, n)\n    bounds, start = [], 0\n    for i in range(n):\n        size = base + (1 if i < rem else 0)\n        bounds.append((start, start + size)); start += size\n    return bounds\ndef compress(data, n=NUM_SEGMENTS):\n    if not data: return b""\n    pad = (8 - len(data) % 8) % 8\n    padded = data + b"\\x00" * pad\n    words = [padded[i:i+8] for i in range(0, len(padded), 8)]\n    bounds = compute_segment_bounds(len(words), n)\n    header = struct.pack("<III", len(data), pad, n)\n    refs, xors = bytearray(), bytearray()\n    for s, e in bounds:\n        if s >= e: continue\n        refs.extend(words[s]); prev = words[s]\n        for i in range(s+1, e):\n            xors.extend(bytes(a^b for a,b in zip(words[i], prev))); prev = words[i]\n    return header + bytes(refs) + zlib.compress(bytes(xors), 6)\ndef decompress(blob):\n    if not blob: return b""\n    orig_len, pad, n = struct.unpack("<III", blob[:12]); off = 12\n    n_words = (orig_len + pad) // 8\n    bounds = compute_segment_bounds(n_words, n)\n    refs = [blob[off+i*8:off+i*8+8] for i in range(n)]; off += 8*n\n    xs = zlib.decompress(blob[off:]); words = [None]*n_words; p = 0\n    for idx,(s,e) in enumerate(bounds):\n        if s >= e: continue\n        words[s] = refs[idx]; prev = refs[idx]\n        for i in range(s+1, e):\n            d = xs[p:p+8]; p += 8\n            words[i] = bytes(a^b for a,b in zip(d, prev)); prev = words[i]\n    return b"".join(words)[:orig_len]\n';
+  btn.addEventListener('click', function () {
+    function done(ok) {
+      btn.textContent = ok ? 'Copied' : 'Copy failed — select manually';
+      setTimeout(function () { btn.textContent = 'Copy Python implementation'; }, 1800);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(PY).then(function () { done(true); }, function () { done(false); });
+    else done(false);
+  });
+})();

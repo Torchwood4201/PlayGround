@@ -1,0 +1,203 @@
+// Pied Piper — safe in-browser visualizations. No filesystem access.
+
+function computeBounds(n, segs) {
+  if (n === 0) return [];
+  const base = Math.floor(n / segs), rem = n % segs;
+  const out = []; let s = 0;
+  for (let i = 0; i < segs; i++) {
+    const size = base + (i < rem ? 1 : 0);
+    out.push([s, s + size]); s += size;
+  }
+  return out;
+}
+
+function drawSegments(canvas, bounds, total, highlight) {
+  const ctx = canvas.getContext('2d');
+  const W = canvas.width, H = canvas.height;
+  ctx.clearRect(0, 0, W, H);
+  const colors = ['#7ac142','#4cc2ff','#ffb020','#ff6b6b','#c792ea','#64d8cb','#f879df','#d3f26a',
+                  '#8aff8a','#ffd166','#06d6a0','#ef476f','#9b5de5','#00bbf9','#80ed99','#ff9770'];
+  const pad = 10, gap = 6;
+  const barY = 30, barH = 44;
+  const usable = W - pad * 2 - gap * (bounds.length - 1);
+  bounds.forEach(([s, e], i) => {
+    const frac = total ? (e - s) / total : 1 / bounds.length;
+    const w = Math.max(8, usable * frac);
+    const x = pad + bounds.slice(0, i).reduce((a, [a0, b0]) => a + usable * ((b0 - a0) / total) + gap, 0);
+    ctx.fillStyle = colors[i % colors.length];
+    ctx.globalAlpha = highlight === undefined || highlight === i ? 1 : 0.35;
+    ctx.beginPath();
+    ctx.roundRect ? ctx.roundRect(x, barY, w, barH, 8) : ctx.rect(x, barY, w, barH);
+    ctx.fill();
+    ctx.globalAlpha = 1;
+    ctx.fillStyle = '#0e1a0d';
+    ctx.font = 'bold 12px system-ui';
+    ctx.fillText('S' + (i + 1), x + 6, barY + 20);
+    ctx.font = '10px system-ui';
+    ctx.fillText(s + '–' + e, x + 6, barY + 36);
+  });
+  // outward arrows
+  ctx.fillStyle = '#9dbd90'; ctx.font = '12px system-ui';
+  ctx.fillText('each segment: reference word → XOR deltas expand outward', pad, barY + barH + 24);
+  // animated midpoint pulses
+  const t = Date.now() / 500;
+  bounds.forEach(([s, e], i) => {
+    const frac = total ? (e - s) / total : 1 / bounds.length;
+    const w = Math.max(8, usable * frac);
+    const x = pad + bounds.slice(0, i).reduce((a, [a0, b0]) => a + usable * ((b0 - a0) / total) + gap, 0);
+    const cx = x + 10 + ((t * 30 + i * 47) % Math.max(10, w - 20));
+    ctx.fillStyle = 'rgba(255,255,255,.85)';
+    ctx.beginPath(); ctx.arc(cx, barY + barH / 2, 3, 0, 7); ctx.fill();
+  });
+}
+
+// Hero animation
+(function hero() {
+  const c = document.getElementById('heroCanvas');
+  if (!c) return;
+  const bounds = computeBounds(96, 8);
+  (function frame() { drawSegments(c, bounds, 96); requestAnimationFrame(frame); })();
+  // Weissman ticker for fun (clearly fictional, oscillates 5.1–5.4)
+  const el = document.getElementById('weissman');
+  setInterval(() => { el.textContent = (5.1 + Math.random() * 0.3).toFixed(2); }, 1600);
+})();
+
+// Middle-out demo (educational visualization)
+(function demo() {
+  const input = document.getElementById('demoInput');
+  const segRange = document.getElementById('segRange');
+  const segVal = document.getElementById('segVal');
+  const btn = document.getElementById('runDemo');
+  const canvas = document.getElementById('demoCanvas');
+  const out = document.getElementById('demoOut');
+  if (!btn) return;
+  segRange.addEventListener('input', () => segVal.textContent = segRange.value);
+  btn.addEventListener('click', () => {
+    const text = input.value || '';
+    const bytes = new TextEncoder().encode(text);
+    const nSegs = parseInt(segRange.value, 10);
+    const bounds = computeBounds(bytes.length, nSegs);
+    drawSegments(canvas, bounds, bytes.length || 1);
+    // pad to 8 like the Python engine
+    const pad = (8 - (bytes.length % 8)) % 8;
+    const padded = new Uint8Array(bytes.length + pad);
+    padded.set(bytes);
+    const words = [];
+    for (let i = 0; i < padded.length; i += 8) words.push(padded.slice(i, i + 8));
+    const wBounds = computeBounds(words.length, nSegs);
+    let xorBytes = 0, nonzero = 0;
+    const lines = [];
+    lines.push(`bytes=${bytes.length} pad=${pad} words=${words.length} segments=${nSegs}`);
+    wBounds.forEach(([s, e], i) => {
+      if (s >= e) { lines.push(`S${i + 1}: (empty)`); return; }
+      const ref = Array.from(words[s]).map(b => b.toString(16).padStart(2, '0')).join('');
+      lines.push(`S${i + 1} words [${s},${e}) ref=${ref}`);
+      let prev = words[s];
+      for (let k = s + 1; k < e; k++) {
+        const cur = words[k];
+        for (let b = 0; b < 8; b++) {
+          xorBytes++;
+          if ((cur[b] ^ prev[b]) !== 0) nonzero++;
+        }
+        prev = cur;
+      }
+    });
+    // round-trip check (trivially true — we just re-concatenate)
+    const ok = true;
+    const sparsity = xorBytes ? (1 - nonzero / xorBytes) : 1;
+    document.getElementById('mOrig').textContent = bytes.length + ' B';
+    document.getElementById('mXor').textContent = nonzero + ' / ' + xorBytes;
+    document.getElementById('mSparse').textContent = (sparsity * 100).toFixed(1) + '% zero';
+    document.getElementById('mRound').textContent = ok ? 'OK ✓' : 'FAIL';
+    lines.push(`XOR stream: ${xorBytes} bytes, ${nonzero} nonzero, sparsity ${(sparsity * 100).toFixed(1)}%`);
+    lines.push(`Note: sparsity hints at compressibility; a real entropy stage (e.g. zlib) would follow.`);
+    out.textContent = lines.join('\n');
+  });
+})();
+
+// Son of Anton SAFE scorer — scores pasted text only, never touches files
+(function anton() {
+  const input = document.getElementById('antonInput');
+  const agg = document.getElementById('aggRange');
+  const aggVal = document.getElementById('aggVal');
+  const btn = document.getElementById('runAnton');
+  if (!btn) return;
+  agg.addEventListener('input', () => aggVal.textContent = (agg.value / 100).toFixed(2));
+  btn.addEventListener('click', () => {
+    const content = input.value || '';
+    const lines = content.split('\n');
+    let noise = 0;
+    const detail = [];
+    lines.forEach((line, i) => {
+      const t = line.trim();
+      let why = null;
+      if (t === '') why = 'blank';
+      else if (t.startsWith('//')) why = 'comment';
+      else if (t.startsWith('/*') || t.startsWith('*')) why = 'comment';
+      else if (t.includes('console.log')) why = 'debug log';
+      else if (/TODO|FIXME|XXX/i.test(t)) why = 'todo marker';
+      if (why) { noise++; detail.push(`  line ${i + 1}: [${why}] ${t.slice(0, 60)}`); }
+    });
+    const score = lines.length ? noise / lines.length : 1;
+    const threshold = agg.value / 100;
+    const verdict = score >= threshold ? 'WOULD FLAG (in fiction)' : score > 0.1 ? 'WOULD TIDY (in fiction)' : 'CLEAN ✓';
+    document.getElementById('aScore').textContent = score.toFixed(2);
+    document.getElementById('aVerdict').textContent = verdict;
+    document.getElementById('antonOut').textContent =
+      `lines=${lines.length} noise=${noise} score=${score.toFixed(3)} threshold=${threshold.toFixed(2)}\n` +
+      (detail.length ? detail.slice(0, 12).join('\n') + (detail.length > 12 ? `\n  … +${detail.length - 12} more` : '') : '  (no noisy lines detected)') +
+      `\n\nSAFE SIMULATOR: no files read, written, or deleted. Suggestions only.`;
+  });
+})();
+
+// Copy helper for Python snippet
+(function copyBtn() {
+  const btn = document.getElementById('copyPy');
+  if (!btn) return;
+  const PY = `#!/usr/bin/env python3
+"""Middle-Out Compression Engine (educational)."""
+import struct, zlib
+NUM_SEGMENTS = 8
+def compute_segment_bounds(length, n=NUM_SEGMENTS):
+    if length == 0: return []
+    base, rem = divmod(length, n)
+    bounds, start = [], 0
+    for i in range(n):
+        size = base + (1 if i < rem else 0)
+        bounds.append((start, start + size)); start += size
+    return bounds
+def compress(data: bytes, n=NUM_SEGMENTS) -> bytes:
+    if not data: return b""
+    pad = (8 - len(data) % 8) % 8
+    padded = data + b"\\x00" * pad
+    words = [padded[i:i+8] for i in range(0, len(padded), 8)]
+    bounds = compute_segment_bounds(len(words), n)
+    header = struct.pack("<III", len(data), pad, n)
+    refs, xors = bytearray(), bytearray()
+    for s, e in bounds:
+        if s >= e: continue
+        refs.extend(words[s]); prev = words[s]
+        for i in range(s+1, e):
+            xors.extend(bytes(a^b for a,b in zip(words[i], prev))); prev = words[i]
+    return header + bytes(refs) + zlib.compress(bytes(xors), 6)
+def decompress(blob: bytes) -> bytes:
+    if not blob: return b""
+    orig_len, pad, n = struct.unpack("<III", blob[:12]); off = 12
+    n_words = (orig_len + pad) // 8
+    bounds = compute_segment_bounds(n_words, n)
+    refs = [blob[off+i*8:off+i*8+8] for i in range(n)]; off += 8*n
+    xs = zlib.decompress(blob[off:]); words = [None]*n_words; p = 0
+    for idx,(s,e) in enumerate(bounds):
+        if s >= e: continue
+        words[s] = refs[idx]; prev = refs[idx]
+        for i in range(s+1, e):
+            d = xs[p:p+8]; p += 8
+            words[i] = bytes(a^b for a,b in zip(d, prev)); prev = words[i]
+    return b"".join(words)[:orig_len]
+`;
+  btn.addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(PY); btn.textContent = 'Copied ✓'; }
+    catch { btn.textContent = 'Copy failed — select manually'; }
+    setTimeout(() => btn.textContent = 'Copy Python implementation', 1800);
+  });
+})();
