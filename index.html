@@ -56,7 +56,14 @@
     .ai-lab-body img { width: 100%; height: auto; border-radius: .5rem; border: 1px solid #5b358c; margin: .5rem 0; display: block; background: #fff; }
     .ai-lab-body code { color: #fbbf24; font-size: 8px; }
     .ai-lab-body a { color: #c084fc; }
-    #btn-autopilot.autopilot-on { background: #16a34a; border-color: #15803d; }
+    #btn-autopilot.autopilot-on, .sys-toggle.autopilot-on, .sys-page-toggle.autopilot-on { background: #16a34a; border-color: #15803d; }
+    .sys-page-toggle { opacity: .55; }
+    .sys-page-toggle.autopilot-on { opacity: 1; }
+    .sys-panel { border: 2px solid #5b358c; border-radius: .5rem; padding: .6rem; margin: .5rem 0; }
+    .sys-head { display: flex; justify-content: space-between; align-items: center; font-size: 9px; color: #fff; margin-bottom: .4rem; }
+    .sys-status { color: #7CFC00; }
+    .sys-row { display: flex; gap: .5rem; margin-bottom: .4rem; }
+    .sys-row select { font-family: inherit; font-size: 9px; padding: .25rem; border-radius: 4px; border: 1px solid #5b358c; background: #111827; color: #fff; }
   </style>
 </head>
 <body class="theme-snes">
@@ -150,6 +157,8 @@
         <button type="button" id="btn-sound" class="tool-icon-btn" title="Toggle Mute">🔊</button>
         <button type="button" id="btn-crt" class="tool-icon-btn" title="Toggle CRT Shaders">📺</button>
         <button type="button" id="btn-ai" class="tool-icon-btn" title="Mario AI Lab">🤖</button>
+        <button type="button" id="btn-auto-p1" class="tool-icon-btn sys-page-toggle" data-sys-toggle="0" title="P1 copilot on/off">1️⃣</button>
+        <button type="button" id="btn-auto-p2" class="tool-icon-btn sys-page-toggle" data-sys-toggle="1" title="P2 copilot on/off">2️⃣</button>
         <button type="button" id="btn-reset" class="tool-icon-btn" title="Reset Game">🔄</button>
         <button type="button" id="btn-eject" class="tool-icon-btn tool-eject" title="Eject ROM">⏏️</button>
       </div>
@@ -193,6 +202,8 @@
         <button type="button" id="dt-btn-info" class="tv-side-btn gray" title="Controls & Info">ℹ️</button>
         <button type="button" id="dt-btn-crt" class="tv-side-btn gray" title="Toggle CRT Shaders">📺</button>
         <button type="button" id="dt-btn-ai" class="tv-side-btn gray" title="Mario AI Lab">🤖</button>
+        <button type="button" id="dt-btn-auto-p1" class="tv-side-btn purple sys-page-toggle" data-sys-toggle="0" title="P1 copilot on/off">1️⃣</button>
+        <button type="button" id="dt-btn-auto-p2" class="tv-side-btn purple sys-page-toggle" data-sys-toggle="1" title="P2 copilot on/off">2️⃣</button>
         <button type="button" id="dt-btn-sound" class="tv-side-btn gray" title="Toggle Sound">🔊</button>
         <button type="button" id="dt-btn-theme" class="tv-side-btn gray" title="Switch Theme">🎨</button>
         <button type="button" id="dt-btn-eject" class="tv-side-btn red" title="Eject ROM">⏏️</button>
@@ -404,36 +415,24 @@
         <p id="learn-status" class="modal-desc">No recording yet.</p>
         <div id="episode-list" class="rom-list-container"></div>
         <p id="dataset-summary" class="modal-desc"></p>
-        <h3>TUNE THE BRAIN</h3>
-        <p class="modal-desc">Thresholds apply instantly; timing takes effect by restarting the engine (game untouched). Saved in this browser.</p>
+        <h3>AI SYSTEMS — ONE PANEL PER PLAYER</h3>
+        <p class="modal-desc">Two separated AI systems. Each panel is its own ON/OFF button, profile, and tuning — a change restarts that system only and never touches the other. Saved in this browser.</p>
         <div class="tune-grid">
-          <label>Sense ms <input type="number" id="opt-senseMs" min="500" max="5000" step="250"></label>
-          <label>Tap ms <input type="number" id="opt-tapMs" min="2000" max="10000" step="500"></label>
-          <label>Motion &gt; <input type="number" id="opt-hiThresh" min="1" max="40" step="0.5"></label>
-          <label>Still &lt; <input type="number" id="opt-loThresh" min="0.5" max="20" step="0.5"></label>
-          <label>Seek taps <input type="text" id="opt-seekCycle" maxlength="31" style="width:86px"></label>
-          <label>Hop 1/N <input type="number" id="opt-hopEvery" min="1" max="10" step="1"></label>
-          <label>Start gap ms <input type="number" id="opt-startGapMs" min="15000" max="300000" step="15000"></label>
           <label>AI players <select id="opt-players" style="font-family:inherit;font-size:9px;padding:.25rem;border-radius:4px;border:1px solid #5b358c;background:#111827;color:#fff;">
             <option value="0">Player 1</option>
             <option value="1">Player 2</option>
             <option value="0,1">Both 1+2</option>
           </select></label>
-          <label>Profile <select id="opt-profile" style="font-family:inherit;font-size:9px;padding:.25rem;border-radius:4px;border:1px solid #5b358c;background:#111827;color:#fff;">
-            <option value="generic">Platformer</option>
-            <option value="umk3">UMK3 Fighter</option>
-            <option value="racer">Racer (heuristic)</option>
-            <option value="shooter">Shooter (heuristic)</option>
-            <option value="rpg">RPG / menu-heavy (heuristic)</option>
-          </select></label>
+          <label>Start gap ms <input type="number" id="opt-startGapMs" min="15000" max="300000" step="15000"></label>
         </div>
-        <p class="modal-desc">Seek taps cycle button ids (2=Select 3=Start 8=A 0=B 4=Up 5=Down) — reorder per game. START taps throttle to 1 in 8 only within a minute of gameplay, share one minimum gap across menu and OCR taps, and pause A-confirms for 12s after any START — so the bot can't pause-spam or walk a pause menu into Quit, yet menus always keep working. Thresholds apply instantly; timing restarts the engine, game untouched.</p>
+        <div id="system-panels"></div>
+        <p class="modal-desc">Seek taps cycle button ids (2=Select 3=Start 8=A 0=B 4=Up 5=Down) — reorder per game. START taps throttle to 1 in 8 only within a minute of gameplay, share one minimum gap across menu and OCR taps, and pause A-confirms for 12s after any START — so the bot can't pause-spam or walk a pause menu into Quit, yet menus always keep working. Thresholds apply instantly; timing restarts that system only, game untouched.</p>
         <p class="modal-desc" id="agent-map-readout"></p>
         <p><button type="button" id="btn-tune-reset" class="modal-action-btn secondary">RESET TUNING</button>
         <button type="button" id="btn-autotune" class="modal-action-btn secondary">AUTO-TUNE: ON</button></p>
         <p class="modal-desc" id="anton-live">SON OF ANTON · idle — flip AUTO-TUNE and engage the autopilot.</p>
         <h3>MANUAL LIBRARY</h3>
-        <p class="modal-desc">Control knowledge is distilled from the Internet Archive SNES manual collection — 863 booklets (<code>ai/manual-index.json</code> has every title; profiles live in <code>ai/manual-knowledge.js</code>). Verified entries: All-Stars platforming (bundled ROM) and the full UMK3 booklet. The rest start from genre heuristics — pick the closest profile in TUNE. Manuals belong to their publishers; grab the PDFs here:</p>
+        <p class="modal-desc">Control knowledge is distilled from the Internet Archive SNES manual collection — 863 booklets (<code>ai/manual-index.json</code> has every title; profiles live in <code>ai/manual-knowledge.js</code>). Verified entries: All-Stars platforming (bundled ROM) and the full UMK3 booklet. The rest start from genre heuristics — pick the closest profile in its panel below. Manuals belong to their publishers; grab the PDFs here:</p>
         <ul>
           <li><a href="https://archive.org/download/snes_manual_archive/Super%20Mario%20All-Stars%20%28USA%29.pdf" target="_blank" rel="noopener">Super Mario All-Stars (USA)</a> → Platformer</li>
           <li><a href="https://archive.org/download/snes_manual_archive/Ultimate%20Mortal%20Kombat%203%20%28USA%29.pdf" target="_blank" rel="noopener">Ultimate Mortal Kombat 3 (USA)</a> → UMK3 Fighter</li>
@@ -446,7 +445,7 @@
         <p class="modal-desc" id="manual-status">Plans search → fetch → extract as Son of Anton capability steps. Your click is the approval.</p>
         <div id="manual-extract" class="rom-list-container"></div>
         <h3>FIGHTER PROFILE: UMK3</h3>
-        <p class="modal-desc">From the manual: RUN = hold R + Forward to close distance. BLOCK = hold L. Crouch kick = DOWN + X/A, uppercut = DOWN + Y, spin moves = hold AWAY + kick, jump-ins = UP(+toward) + punch timed on the way down. Fighter select takes any button except START; START picks menus. The UMK3 profile plays exactly this way — approach with RUN, strike flurries (button sequences land kombos), BLOCK phases, crouch uppercuts, jump-ins, and rotating special-motion strings from the full move list (<code>ai/umk3-moves.js</code>: 85 combat moves, 25 fighters — Scorpion's spear, Sub-Zero's slide, Reptile's forceballs, simultaneous chords like Sonya's leg grab). Finishers, hold-charges, air-only moves, morphs and bosses are excluded (unverifiable states). Sides alternate since facing is unknown.</p>
+        <p class="modal-desc">From the manual: RUN = hold R + Forward to close distance. BLOCK = hold L. Crouch kick = DOWN + X/A, uppercut = DOWN + Y, spin moves = hold AWAY + kick, jump-ins = UP(+toward) + punch timed on the way down. Fighter select takes any button except START; START picks menus. The UMK3 profile plays exactly this way — approach with RUN, strike flurries (button sequences land kombos), BLOCK phases, crouch uppercuts, jump-ins, and rotating special-motion strings from the full move list (<code>ai/umk3-moves.js</code>: 85 combat moves, 25 fighters — Scorpion's spear, Sub-Zero's slide, Reptile's forceballs, simultaneous chords like Sonya's leg grab), with every third special executed through the UMK3 engine's own movebook (<code>ai/son-of-anton-umk3.js</code>). Finishers, hold-charges, air-only moves, morphs and bosses are excluded (unverifiable states). Sides alternate since facing is unknown.</p>
         <h3>AGENT TELEMETRY</h3>
         <p class="modal-desc">Live while the autopilot runs: what it sees (64×64), what it's doing, and why.</p>
         <canvas id="telemetry-vision" width="64" height="64"></canvas>
@@ -467,7 +466,6 @@
         <div id="anton-results" class="rom-list-container"></div>
       </div>
       <div class="modal-footer">
-        <button type="button" id="btn-autopilot" class="modal-action-btn primary">▶ AUTOPILOT: OFF</button>
         <button type="button" id="btn-checkpoint" class="modal-action-btn secondary">SAVE CHECKPOINT</button>
         <button type="button" id="btn-ocr" class="modal-action-btn secondary">READ WORDS: OFF</button>
         <button type="button" id="btn-hud" class="modal-action-btn secondary">HUD: OFF</button>
@@ -481,6 +479,8 @@
   <script src="ai/son-of-anton.js"></script>
   <script src="ai/manual-knowledge.js"></script>
   <script src="ai/umk3-moves.js"></script>
+  <script src="ai/snes-seek-play-agent.js"></script>
+  <script src="ai/son-of-anton-umk3.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
