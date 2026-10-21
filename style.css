@@ -1229,6 +1229,53 @@ input[type="range"].modern-vertical-slider::-moz-range-thumb {
     70%, 100% { opacity: 0; transform: scale(1.12); }
 }
 
+/* YouTube embeds */
+.youtube-stage {
+    position: absolute;
+    inset: 0;
+    z-index: 12;
+    background: #000;
+}
+.youtube-stage iframe, #youtube-player {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.youtube-fallback {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding: 28px;
+    text-align: center;
+    background:
+        radial-gradient(circle at 50% 38%, rgba(255, 46, 72, 0.12), transparent 45%),
+        #05060c;
+}
+.youtube-fallback[hidden] { display: none; }
+.youtube-fallback > i { color: #ff4059; font-size: 2rem; }
+.youtube-fallback strong { font-size: 1rem; font-weight: 800; letter-spacing: -0.02em; }
+.youtube-fallback p { max-width: 340px; color: var(--muted); font-size: 0.7rem; line-height: 1.55; }
+.youtube-fallback a {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 5px;
+    padding: 9px 13px;
+    border: 1px solid var(--stroke-strong);
+    border-radius: 9px;
+    background: var(--surface);
+    color: var(--text);
+    font-size: 0.66rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.youtube-fallback a:hover { border-color: var(--accent-line); color: var(--accent); }
+
 .player-panel:fullscreen {
     width: 100vw;
     height: 100vh;

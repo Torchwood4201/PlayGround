@@ -240,6 +240,16 @@
                         <small id="remote-host">example.com</small>
                     </div>
 
+                    <div class="youtube-stage" id="youtube-stage" hidden>
+                        <div id="youtube-player"></div>
+                        <div class="youtube-fallback" id="youtube-fallback" hidden>
+                            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                            <strong id="youtube-fallback-title">YouTube video unavailable</strong>
+                            <p id="youtube-fallback-text">This video could not be embedded.</p>
+                            <a id="youtube-open" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">Open on YouTube <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+
                     <div class="placeholder-logo" id="placeholder-logo">
                         <svg class="mobius-svg" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                             <defs>
@@ -412,9 +422,9 @@
             </div>
             <label class="url-field">
                 <span>Media URL</span>
-                <input id="url-input" type="url" placeholder="https://example.com/audio.mp3" autocomplete="off" spellcheck="false" required>
+                <input id="url-input" type="url" placeholder="https://youtube.com/watch?v=… or audio.mp3" autocomplete="off" spellcheck="false" required>
             </label>
-            <p class="url-hint">Direct links to MP3, WAV, FLAC, M4A, OGG, MP4, WebM and MKV. Remote media plays directly; the live visualizer and EQ stay exclusive to local audio.</p>
+            <p class="url-hint">YouTube watch, Shorts, live and youtu.be links, plus direct MP3, WAV, FLAC, M4A, OGG, MP4, WebM and MKV files. YouTube uses the official embedded player; the live visualizer and EQ stay exclusive to local audio.</p>
             <p class="url-error" id="url-error" role="alert"></p>
             <div class="url-actions">
                 <button type="button" class="btn-ghost" data-close="url-modal">Cancel</button>
