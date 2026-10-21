@@ -1,0 +1,5842 @@
+# X-Kaliber 2097
+source: https://archive.org/details/snes_manual_archive
+pdf: X-Kaliber 2097 ( EU ).pdf
+region: EU
+pages: 72
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-X7-EUR
+
+INSTRUCTION BOOKLET
+
+ACTIVISION.
+
+===== Page 2 =====
+
+LICENSED BY
+
+Nintendo of Europe GmbH : 63760 GroBostheim, Deutschland
+Keep Gene) information / Gardez ces informations / Diese Information aufbewahren
+Conservare queste informazioni / Guarde estas informes / Bewaar daze informatie
+Behall denna information / Behold denne information / Pida tama tieto
+
+ce
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, (S} AND . ARE TRADEMARKS OF NINTENDO CO.,LTD.
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT. ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO
+ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU'IL
+EST CONFORME AUX NORMES D'EXCELLENCE
+EN MATIERE DE FABRICATION, DE FIABILITE ET
+SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIESES QUALITATSSIEGEL IST DIE GARANTIE
+DAFUR, DASS SIE NINTENDO-QUALITAT
+GEKAUFT HABEN. ACHTEN SIE DESHALB
+IMMER AUF DIESES SIEGEL, WENN SIE SPIELE
+ODER ZUBEHOR KAUFEN, DAMIT SIE SICHER
+SIND, DASS ALLES EINWANDFREI ZU [HREM
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+PASST.
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO.
+QUESTO PRODOTTO. RICHIEDILO SEMPRE
+ALL'ACQUISTO DI GIOCHI! ED ACCESSORI PER:
+ASSICURARE LA COMPLETA COMPATIBILITA
+CON IL TUO SUPER NINTENDO.
+ENTERTAINMENT SYSTEM.
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA APROBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIEMPRE ESTE
+SELLO CUANDO COMPRES VIDEQJUEGOS Y
+ACCESSORIOS PARA ASEGURARTE UNA.
+COMPLETA COMPATIBILIDAD CON TU SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO IS GECONTROLEERD EN DAT
+HET QUA CONSTRUCTIE, BETROUWBAARHEID
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+Bld HET KOPEN VAN SPELLEN EN
+ACCESSOIRES ALTIJD OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+DENNA ETIKETT GARANTERAR ATT NINTENDO
+STAR FOR PRODUKTENS KVALITET.
+KONTROLLERA ATT ETIKETTEN FINNS PA SPEL
+OCH TILLBEHOR DU KOPER FOR ATT
+FORSAKRA DIG OM ATT DE AR KOMPATIBLA
+MED SUPER NINTEND ENTERTAINMENT
+SYSTEM.
+
+DETTE SEGL GARANTERER, AT NINTENDO HAR.
+GODKENDT KVALITETEN AF DETTE PRODUKT.
+SE AL TID EFTER DETTE SEGL, NAR DU KOBER
+SPIL OG TIBEH@R, SA DU ER SIKKER PA FULD
+KOMPATIBILITET MED DIT SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO ON
+HYVAKSYNYT TAMAN TUOTTEEN LAADUN
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+SAAT VARMASTI SUPER NINTENDO ENTERTAIN-
+MENT SYSTEM YHTEENSOPIVIA TUOTTEITA.
+
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEVILLEZ LIRE ATTENTIVEMENT LA NOTICE “INFORMATIONS ET PRECAUTIONS
+D'EMPLOI” QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER
+NINTENDO HARDWARE WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+SYSTEM™ LE CASSETTE O GLI ACCESSORI
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEOJUEGO O ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE BlJ DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO-
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR
+
+ADVARSEL : L/S FORBRUGERINFORMATIONEN OG HAEFTET MED SIKKERHEDSREGLER, DER
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM,
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISEST! LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAl MUUN VAURSTEEN KAYTTOA.
+
+===== Page 3 =====
+
+ENGLISH
+DEUTSCH
+FRANGATS
+NEDERLANDS
+ESPANOL
+ITALIANO
+SVENSKA
+SUOMI
+
+ab
+
+af -
+
+4
+al
+
+ab -
+
+1-§
+7
+rk)
+33
+A
+- 4
+4
+i
+
+===== Page 4 =====
+
+THBLE OF CONTENTS
+
+X-Kaliber 2097
+
+The NNYSF Mission
+Getting Started
+X-Kaliber Controls
+Checking Your Status
+The Enemy
+
+The Final NNYSF Briefing
+Strategy Hints
+
+Credits
+
+66
+
+X-KALIBER 2097
+
+The year is 2097 A.D. Life has ground to a
+standstill. No jobs to go to. No parks to walk
+in. Countries and cities have been swallowed
+by warlords, dividing the globe.
+
+(Raptor) rules Neo
+f New York with an
+army of
+bloodthirsty
+Morphs — mutant
+§ shapeshifters
+
+; created by (Dr.
+Blast), one of the scientists in his employ.
+But one man stands between Raptor and
+absolute power — (Slash) !
+
+Slash is one of two surviving members of
+Neo New York’s Special Forces, one of two
+agents Raptor can’t get rid of — or corrupt.
+Armed with X-Kaliber, a mythical, bolt-
+shooting blade, Slash can single-handedly
+slice Raptor’s Morphs into pieces. So if
+Raptor can’t get Slash, he’ll get his blade.
+At all costs.
+
+Alix is Slash’s
+partner, the
+world-renowned
+female agent and
+the only other
+remaining Special
+Forces agent
+leading a revolution against Raptor’s rule.
+Raptor’s henchman, Kane, has kidnapped
+her, knowing Slash will soon come after her
+— with X-Kaliber.
+
+Then Raptor will have the three things he’s
+always wanted: control of Neo New York, a
+
+===== Page 5 =====
+
+sword more powerful than his own and
+Slash’s head on a plate
+
+But that may not be easy. Slash is slicing his
+way through Raptor’s outer defenses,
+shredding each Morph in his path. Every
+time he defeats one, he gains information,
+and discovers a mystery. These Morphs are
+too sophisticated to be genetically
+engineered by Raptor and Blast — there
+must be another explanation. But what?
+
+Slash confronts Raptor in the final
+showdown — or is it? Slash learns the first in
+a series of shocking truths: Raptor is his own
+twin brother, separated from him as a boy.
+It happened during that fateful explosion
+when the two were exploring New York’s
+underground sewer system... When Slash
+came to, Raptor was gone. And there,
+gleaming from beneath the rubble, was
+X-Kaliber.
+
+Finally Raptor lies in defeat, his lust for evil
+broken, as if a spell had been lifted. But
+Slash’s work isn’t done: he encounters
+Spuke, yet another strange Morph
+henchman. Spuke leads him to a bigger,
+shocking truth — Krux.
+
+Krux is the power behind the throne — a
+hideous, inter-dimensional monster, the
+boss of bosses! He oversees earth for an
+intergalatic mob; Raptor was simply
+carrying out Krux’s orders.
+
+Krux’s own homeland was already crowded,
+polluted and ruined. He needed new
+territory to muscle into. With the help of Dr.
+Blast’s out-of-control experiments, Krux was
+able to pierce the .
+
+dimensional veil,
+and further his
+quest for
+worldwide
+corruption.
+
+The sewer explosion was the first time Krux
+was able to burst through the dimensional
+wall; it was then he took Raptor and
+converted him to evil. But with all the
+confusion of the explosion, Krux left
+something behind: a weapon. His prized
+sword. And, because it’s from Krux’s
+homeworld, it’s the one thing that can
+possibly hurt him, the one thing he’s afraid
+of: X-Kaliber.
+
+Meanwhile, Krux has Alix in his clutches.
+He’s using her to lure Slash into his trap.
+Once the Special Forces agents are out of his
+way, his race of Morphs will permanently
+control not just New York, but the whole
+earth. The only thing stopping him is
+X-Kaliber.
+
+But X-Kaliber is in the hands of Slash. And
+he’s not letting go.
+
+THE NNYSP MISSION
+
+As a member of the Neo New York Special
+Forces you, must rescue your partner Alix
+from the clutches of the evil warlord Krux.
+To get to Alix you must battle the evil
+members of a powerful intergalactic mob
+that will stop at nothing to re-claim
+X-Kaliber for their relentless power-
+hungry leader.
+
+GETTING STARTED
+
+STARTING THE GAME
+
+Insert the Game Pak and turn your system
+ON. The X-Kaliber preview will appear on
+your screen.
+
+Note: You can interrupt the game preview at
+any time by pressing START on your Control
+Pad to bring up the title screen.
+
+hap
+bil
+A
+
+wiv
+
+2 1K.
+
+> 4 PLAYER quesT
+2 PLAYER DUEL
+OPTIONS
+
+===== Page 6 =====
+
+For One-Player Quest:
+
+Since a [1-player] game is the default
+setting, just press any button to begin.
+For Two-Player Duel:
+
+PLAVER SELECT
+
+a) Use the SELECT button or the Control Pad
+to move the cursor next to [2 Player
+Duel] and press any button to bring up
+the [Player Select] screen.
+
+b) Use the Control Pad to highlight the
+character you want and then press any
+button (except START). The duel begins
+as soon as both players select
+their characters.
+
+After each duel, a
+
+SLASH DEFEATED RAPTOR?
+
+wh, record of each
+
+90 00 of 00
+
+sLAcH
+Tattoo 90 00 00 00
+OHAIHSAU 00 00-00 00
+KANE 90 00 00 00
+00 00 00 00
+00 00 00 00
+00 04 00 00
+Mans
+4
+
+character’s
+winning statistics
+is displayed on
+the [RESULT]
+20000 screen. You can
+press START to exit the Two-Player mode
+and begin a One-Player game; or press any
+other button to return to the [CHARACTER
+SELECT] screen to begin a new
+
+Two-Player game
+
+DR.oLAST
+SPUKE
+RAPTOR
+
+PRESS START TO
+EXIT 2e GAHE
+
+Pi p2
+
+CHANGING THE
+GAME OPTIONS
+To change the
+game settings
+before playing,
+a use the SELECT
+button or the
+Control Pad to move the cursor down to
+OPTIONS on the title screen, and then press
+any button. The Options Menu will then
+appear on the screen. Use the Control Pad to
+select your new settings.
+
+OPTIONS
+
+DIFFIOULTY 3 NORMAL
+Lives 2
+OoNTINUES «=o.
+
+SOUND HODE STEREO
+
+CONTROL SETUP
+HUSIG TRACKS 00
+
+DIFFICULTY
+
+Choose one of eight levels ranging from
+
+easiest to hardest. Use the Control Pad to
+move left or right to scroll through your
+setting options.
+
+LIVES
+Select from one to five lives per game.
+
+CONTINUES
+Select from zero to five continues.
+
+SOUND MODE
+
+STEREO is the normal default sound setting.
+If your Super Nintendo Entertainment
+System is connected to a Mono television, or
+through a single audio channel VCR,
+
+select MONAURAL.
+
+CONTROL SETUP
+You can assign your sword moves to any
+button on your controller.
+
+SONTROL SETUP
+
+Select the sword
+y ; move you want
+te i to assign, and
+then press the
+button you'd
+like to use on
+the corresponding controller. Press the
+
+START button to exit the control setup mode.
+
+PRESS START 7
+
+MUSIC TRACKS
+
+Allows you to listen to all the Neo-Techno
+tracks before playing the game. Just use the
+Control Pad to select the number of the track
+to which you want to listen and press the B
+button. Select Track 00 to stop the current
+song from playing.
+
+EXIT
+
+Lets you return to the title screen.
+
+Note: To return to the original settings, turn
+your Super Nintendo Entertainment System
+OFF, and then ON again. Press RESET to
+restart the game without altering your new
+option settings.
+
+===== Page 7 =====
+
+X-KALIBER CONTROLS
+
+Master the use of your sword X-Kaliber to
+free Neo New York from Krux’s reign of
+terror. The basic moves are thrust (A
+button), parry (Xx button), swipe (Y button),
+and slice (A plus UP).
+
+X-Kaliber’s inter-dimensional powers give it
+unique abilities unknown to this world. By
+pressing the L or R button, X-Kaliber
+releases a bolt of energy powerful enough to
+slice a mutant Morph in half.
+
+Note: The following controller operations
+refer to the default button settings. See
+CONTROL SETUP in the [Options] Menu to
+change your controller settings.
+
+Energy Bolt (ATTACK 3)
+Energy Bolt (ATTACK 3)
+Sword Parry (GUARD)
+Button not used
+
+Walk & crouch
+
+Pause
+Sword Swipe (ATTACK 1)
+Jump
+Sword thrust (ATTACK 2)
+
+HECKING YOUR STATUS
+
+i}
+
+2
+)
+4
+3
+6
+if
+8
+9
+t
+
+nm mend
+
+0900120. 4
+
+1 SCORE —
+Shows your score
+
+2 TOP SCORE —
+
+Highest score since starting play.
+
+3. THE ENERGY LEVEL —
+
+Measures Slash’s life force or, in duel
+mode, Player 1’s life force.
+
+4 OPPONENT’S ENERGY LEVEL —
+Measures the life forec of Slash’s
+oponent or, in duel mode, Player 2’s
+life force.
+
+5 TIME—
+
+Check the top of your screen to see how
+much time you have left in the
+current level.
+
+LIVES —
+
+At the beginning of each new life, the
+
+number of Slash’s remaining lives is
+
+displayed in the center of the screen.
+
+Note: Turning your Super Nintendo
+
+Entertainment System ON and OFF will reset
+
+the high score.
+
+THE ENEMY
+
+The Army — Raptor’s mob of robotic foot-
+soldiers enforce evil through every stage of
+your mission. They are Krux’s weakest but
+largest force.
+
+Cyberdynes
+
+Hovering pods
+monitor the activities of
+the region.
+
+Laser pods
+patrol certain stages to
+keep you out.
+
+Energy storage devices
+contain special life force
+items to replenish your
+
+} energy. Look for hidden
+
+H Cyberdynes with a special
+item that gives you an extra life.
+
+===== Page 8 =====
+
+Kane —
+
+Wears a hat and carries a
+cane, which double as
+deadly weapons.
+
+Special Life Force items:
+
+Beverage gives you a small
+amount of extra energy.
+
+Dr. Blast —
+
+The creator of the mutant
+Morphs, and a victim of
+his own experiment,
+morphs into a dangerous
+flying scorpion.
+
+§ Hamburger gives you
+moderate energy.
+
+Meat gives you maximum
+energy. Raptor —
+
+Slash’s long-lost brother
+holds another one of
+Krux’s powerful swords,
+to make for a fierce
+
+(1-UP) gives you extra life. dueling challenge.
+
+Spuke —
+
+When defeated, this
+acrobatic, gas-breathing
+mutant will lead you to
+Alix and the evil being
+
+# that plagues Neo
+
+The Mutant Morphs —
+
+Dr. Blast’s experimental creations gain a
+variety of special attack capabilities
+through metamorphosis.
+
+KRUN'S MOB New York,
+Tattoo —
+Uses a long-range sword THE PINAL NNYSF BRIEFING
+4 and his rose tattoo for You are about to take on the deadliest NNYSF
+special attacks. mission ever assigned. Krux’s forces will stop
+
+at nothing. Your thrust, parry, slice and
+swipe moves can only buy enough time to
+hold back your furious evil opponents for so
+long. You must master X-Kaliber’s inter-
+
+Chainsaw — dimensional abilities to conquer the deadly
+3 A mutant machine in force of this intergalactic mob.
+
+human form reduces toa © Remember, each alien henchman has
+
+robotic skeleton with a information that can help you further your
+
+chainsaw-arm. quest. You must defeat each enemy and
+
+gather all the necessary information before
+you can rescue Alix and restore Neo New
+York to peace.
+
+===== Page 9 =====
+
+Th
+
+ATEGY HINTS
+
+Use the Parry maneuver to ward off
+blows from your relentless opponents.
+Watch your life force gauge, and try to
+collect as many energy replenishing
+items as possible. :
+
+Time your movements to avoid the
+predictable mechanical attacks of
+Krux’s defenses.
+
+Each sword maneuver has its
+advantages, depending on
+
+the situation.
+
+===== Page 10 =====
+
+EPILEPSY WARNING
+Please read before using this video game system
+or allowing your children to use it.
+
+Some people are susceptible to epileptic
+seizures or loss of consciousness when
+exposed to certain flashing lights or light
+patterns in everyday life. Such people may
+have a seizure while watching certain television
+images or playing certain video games. This
+may happen even if the person has no medical
+history of epilepsy or has never had any
+epileptic seizures.
+
+If you or anyone in your family has ever had
+symptoms related to epilepsy (seizures or loss
+of consciousness) when exposed to flashing
+lights, consult your doctor prior to playing.We
+advise that parents should monitor the use of
+video games by their children. If you or your
+child experience any of the following
+symptoms: dizziness, blurred vision, eye or
+muscle twitches, loss of consciousness,
+disorientation, any involuntary movement or
+convulsion, while playing a video game,
+IMMEDIATELY discontinue use and consult
+your doctor.
+
+PRECAUTIONS TO TAKE DURING USE
+
+* Do not stand too close to the screen. Sit a
+good distance away from the television screen,
+as far away as the length of the cable allows.
+
+¢ Preferably play the game on a small
+television screen.
+
+* Avoid playing if you are tired or have not had
+much sleep.
+
+* Make sure that the room in which you are
+playing is well lit.
+
+* Rest for at least 10 to 15 minutes per hour
+while playing a video game.
+
+WARRANTY
+““Sony Electronic Publishing warrants to the original
+purchaser of this Sony Electronic Publishing product, for a
+period of ninety (90) days from the date of purchase, that
+this Game Pak is free from defects in material and
+workmanship and agrees, within such period and at its
+option, to either repair or replace it free of charge. Send
+product postage paid, together with dated proof of
+purchase, to the address shown below. This warranty
+shall not be applicable and shall be void if the defect in this
+Sony Electronic Publishing product has arisen through
+abuse, unreasonable use, mistreatment or neglect.
+
+THIS WARRANTY |S IN LIEU OF ALL OTHER
+WARRANTIES AND NO OTHER REPRESENTATIONS OR
+CLAIMS OF ANY NATURE SHALL BE BINDING ON OR
+OBLIGATE SONY ELECTRONIC PUBLISHING. ANY
+IMPLIED WARRANTIES APPLICABLE TO THIS SOFTWARE
+PRODUCT, INCLUDING WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE, ARE LIMITED TO THE NINETY (90) DAY
+PERIOD SPECIFIED ABOVE. SUBJECT TO THE
+FOREGOING, THIS SONY ELECTRONIC PUBLISHING
+PRODUCT IS SOLD “AS |S", WITHOUT EXPRESS OR
+IMPLIED WARRANTY OF ANY KIND, AND SONY
+ELECTRONIC PUBLISHING |S NOT LIABLE FOR ANY
+LOSSES OR DAMAGES OF ANY KIND RESULTING FROM
+THE USE OF THIS PRODUCT. IN NO EVENT WILL SONY
+ELECTRONIC PUBLISHING BE LIABLE FOR INCIDENTAL
+OR CONSEQUENTIAL DAMAGES RESULTING FROM
+POSSESSION, USE OR MALFUNCTION OF THIS
+SOFTWARE PRODUCT.
+
+Some countries do not allow limitations as to how long a
+warranty may last and/or exclusion or limitations of
+consequential damages, so the above limitations and/or
+exclusions of liability may not apply to you. The above
+warranty gives you specific legal right, and you may also
+have other rights which vary from country to country.”
+warranty gives you specific legal right, and you may also
+have other rights which vary from country to country.”
+
+UK
+
+Columbia Tristar Home Video UK
+Fourth Floor
+
+Horatio House
+
+77-85 Fulham Palace Road
+London W6 8JA
+
+IRELAND
+
+Columbia Tristar Home Video
+Marshalsea Court
+
+20/23 Merchants Quay
+Dublin 8
+
+AUSTRALIA
+Sony Music Australia Limited
+11-19 Hargrave Street
+East Sydney, NSW 2010
+Hotline: Sony Music (Australia) Hotline
+0055 33153*
+* 25c buys 21.4 secs
+Get parents OK to call.
+
+===== Page 11 =====
+
+
+
+===== Page 12 =====
+
+Inhalt
+
+X-Kaliber 2097
+
+Der NNYSF-Einsatz
+
+Start Vorbereitung
+X-Kaliber-Steuerung
+Statusamzeige
+
+Der Feind
+NNYSF-Einsatzbesprechung
+Strategische Tips
+
+Credits
+
+X-KALIBER 2097
+
+Wir schreiben das Jahr 2097 A.D. Das Leben
+ist zum Stillstand gekommen. Es gibt keine
+Arbeit, keine Griinflachen zum
+Spazierengehen, die Stadte werden
+unterjocht von Kriegsherren, die sich um
+jedes Stiickchen Erde reiBen.
+
+Raptor herrscht
+itiber Neo New
+York mit seiner
+Armee von
+blutriinstigen
+Morphs —
+
+- = mutierten
+Kreaturen, die metamorphosefahig sind,
+Geschdpfen von Dr. Blast, einem der
+Wissenschaftler in Raptors Diensten. Doch
+EINER steht zwischen Raptor und der
+absoluten Macht — Slash!
+
+Slash ist einer von zwei iiberlebenden
+Mitgliedern aus Neo New Yorks
+Spezialtrupps, einer von zwei Agenten, die
+Raptor nicht los wird — aber auch nicht
+korrumpieren kann. Bewaffnet mit X-
+Kaliber, einem mythischen,
+blitzegenerierenden Schwert, kann Slash die
+Morphs einhandig in Sticke schlagen. Wenn
+es Raptor nicht gelingt, Slash zu fangen,
+dann muB er zumindest sein Schwert
+bekommen. Und zwar um jeden Preis.
+
+ya
+
+Alix ist Slashs
+Partnerin, die
+weltberiihmte
+Agentin, und
+auBer ihm der
+einzige
+Uberlebende der
+
+===== Page 13 =====
+
+Spezialtrupps. Gemeinsam fiihren die beiden
+die Revolution gegen Raptors Herrschaft an.
+Raptors Henker, Kane, hat Alix entfihrt,
+wohl wissend, da® Slash die Fahrte
+aufnehmen wiirde, natiirlich in Begleitung
+von X-Kaliber.
+
+Dann wird Raptor endlich die drei Dinge in
+seinen Besitz bekommen, die er schon immer
+haben wollte: die Macht tiber Neo New York,
+ein Schwert, das mdchtiger ist als sein
+eigenes, und Slashs Kopf auf einem Teller.
+
+Doch das ist leichter gesagt als getan. Slash
+kampft sich seinen Weg durch die &uBeren
+Verteidigungsringe und zerfetzt alle
+Morphs, die sich ihm entgegenstellen.
+Jedesmal, wenn er einen besiegt, erhalt er
+zusatzliche Informationen und ein Geheimnis
+offenbart sich. Diese Morphs sind zu
+raffiniert, als daB sie aus der Genkiiche von
+Raptor und Blast stammen kénnten. Es muB
+noch eine andere Erklarung geben.
+
+Aber welche?
+
+Slash konfrontiert Raptor in einem
+endgiiltigen Duell — so macht es zumindest
+den Anschein. Dann erfahrt er das erste in
+einer ganzen Reihe von erschiitternden
+Geheimnissen: Raptor ist sein
+Zwillingsbruder, von dem er als Junge
+getrennt wurde. Dies geschah in der Folge
+einer furchtbaren Explosion, als die beiden
+das unterirdische Abwassersystem von New
+York erkundeten... Als Slash zu sich kam,
+war Raptor verschwunden. Und dort,
+glitzernd inmitten eines Haufens von Gerdll,
+lag X-Kaliber.
+
+SchlieBlich sinkt Raptor besiegt zu Boden,
+sein Machthunger und seine Bosheit wie
+verflogen, gerade so, als hatte sich ein Fluch
+aufgeldst, als sei ein Bann gebrochen. Doch
+noch ist Slash nicht am Ende seiner Aufgabe.
+Es folgt die Begegnung mit Spuke, einem
+weiteren seltsamen Morph, der ihn mit
+einem neuen, schockierenden Geheimnis
+konfrontiert: Krux.
+
+Krux ist die Macht hinter dem Thron, ein
+furchtbares, interdimensionales Monster,
+der Boss der Bosse. Er iberwacht die Erde
+mit Hilfe einer intergalaktischen Meute.
+Raptor hatte lediglich seine Befehle
+ausgefthrt.
+
+Krux’ eigene
+Heimat war
+bereits
+tbervolkert,
+verschmutzt und ruiniert. Er brauchte ein
+neues Territorium, um seine Macht zu
+entfalten. Mit der Hilfe von Dr. Blasts
+ungeziigelten Experimenten war Krux in der
+Lage, den dimensionalen Schleier zu
+durchbrechen und seinen Plan zur
+weltweiten Korruption zu verfolgen.
+
+Die Explosion im Abwassersystem war das
+erste Mal, da es Krux gelang, die
+dimensionale Mauer zu durchbrechen.
+Damals bemachtigte er sich des jungen
+Raptor und lehrte in die Wege des Bésen.
+Doch in dem allgemeinen Chaos lie® er
+etwas liegen — eine Waffe. Sein
+unbezwingbares Schwert. Weil es aus seiner
+Heimat stammt, ist es die einzige Waffe, die
+ihm etwas anhaben kann daher auch das
+einzige, vor dem er sich fiirchtet: X-Kaliber.
+
+Indessen hat Krux Alix in seiner Gewalt. Er
+benutzt sie, um Slash in die Falle zu locken.
+Wenn er sich diese beiden Agenten vom Hals
+geschafft hat, wird seine Rasse der Morphs
+nicht nur New York, sondern die ganze Welt
+beherrschen. Das einzige, was ihn von
+diesem Ziel trennt, ist X-Kaliber.
+
+Denn noch befindet sich X-Kaliber in Slashs
+Hand. Und der hiitet es wie seinen Augapfel.
+
+===== Page 14 =====
+
+DER NNYSP-EINSATZ
+
+Als Mitglied der Spezialtrupps von Neo New
+York miissen Sie Ihre Partnerin Alix aus den
+Krallen des bésen Kriegsherrn Krux befreien.
+Auf dem Weg dorthin gilt es, eine machtige
+intergalaktische Meute zu bekampfen, die
+vor nichts zurlickschreckt, um das Schwert
+X-Kaliber fiir ihren gnadenlosen,
+machtgierigen Anfiihrer in ihren Besitz
+
+zu bekommen.
+
+STARTVORBEREITUNG
+
+STARTEN DES SPIELS
+
+Schieben Sie das Game Pak ein und schalten
+Sie Ihr System EIN. Auf dem Bildschirm
+erscheint eine Vorschau zu X-Kaliber.
+Hinweis: Diese Vorschau kénnen Sie jederzeit
+unterbrechen, indem Sie auf dem
+Steuerblock START driicken, worauf der
+Titelbildschirm erscheint.
+
+\-Spieler-Spiel
+
+2 as
+
+> 4 PLAYER GUEST
+2 PLAYER DUEL
+OPTIONS
+
+Die Einstellung 1-player (i-Spieler) ist die
+Standardvorgabe. Driicken Sie eine
+beliebige Taste, um das Spiel zu beginnen.
+2-Spieler-Duell
+
+PLAVER SELEOT
+
+a) Benutzen Sie die Taste SELECT oder den
+Steuerblock, um den Cursor neben 2
+Player Duel (2-Spieler-Duell) zu fahren,
+und driicken Sie dann eine beliebige
+Taste, um die Bildschirmseite Player
+
+Select (Spielerauswahl) einzublenden.
+Benutzen Sie den Steuerblockk, um die
+gewiinschte Figur zu markieren, und
+driicken Sie dann eine beliebige Taste
+(auBer START). Das Duell nimmt seinen
+Anfang, sobald beide Spieler ihre Figur
+ausgewahlt haben.
+
+b)
+
+Nach jedem Duell
+werden die
+siegreichen
+Statistiken jeder
+Figur auf der Seite
+RESULT
+(Ergebnisse)
+angezeigt. Mit START konnen Sie aus dem 2-
+Spieler-Modus aussteigen und ein 1-Spieler-
+Spiel beginnen; jede andere Taste bringt Sie
+wieder in die Bildschirmseite CHARACTER
+SELECT (Spielerauswahl) zuriick, damit Sie
+ein neues Spiel mit 2 TeiInehmern
+
+anfangen konnen.
+
+SLASH DEFEATED RAPTORS
+
+SLASH
+Tattoo
+oupInsaL
+KANE,
+DR.oLAST
+SPUKE
+RAPTOR
+
+00 00
+00 00
+00 00
+00 of
+PRESS START TO
+EXIT 2P GAME
+
+arri0no
+
+eDIFFIOULTY —& NORMAL
+Lives 3
+OONTINUES = &
+
+SOUND NODE STEREO
+
+SONTROL SETUP
+MUSIC TRACKS 00
+
+EXIT
+
+ANDERN DER SPIELEINSTELLUNGEN
+
+Wenn Sie vor Beginn des Spiels die
+Spieleinstellungen andern méchten,
+benutzen Sie die Taste SELECT oder den
+Steuerblock, um den Cursor im
+Titelbildschirm auf OPTIONS zu fahren, und
+driicken dann eine beliebige Taste. Dies
+blendet das Optionen-Menii ein. Hier
+wahlen Sie den Kontrolblock zur Auswahl
+der gewiinschen Einstellungen.
+
+DIFFICULTY (Schwierigkeitsgrad)
+Wahlen Sie eine der acht Ebenen,
+angefangen von “leichtest” bis “am
+schwierigsten”. Benutzen Sie den
+Steuerblock, um nach links oder rechts
+zu steuern.
+
+===== Page 15 =====
+
+LIVES (Leben).
+Wahlen Sie von einem bis fiinf Leben
+pro Spiel.
+
+CONTINUES (Fortsetzungen).
+Wahlen Sie zwischen Null bis
+flinf Fortsetzungen.
+
+SOUND MODE
+
+STEREO ist die tibliche Sound-Einstellung.
+Wenn Ihr Super Nintendo Entertainment
+System an einen Monochrom-Fernseher
+angeschlossen ist oder ein Einzel-Audio-
+Kanal-VCR benutzt wird, ist MONAURAL
+zu wahlen.
+
+CONTROL SETUP (Bedienung).
+
+Die Schwertbewegungen kénnen jedem
+beliebigen Knopf auf dem Steuergerat
+zugewiesen werden.
+
+Wahlen Sie das
+Schwertmanover,
+das Sie zuweisen
+wollen, und
+driicken Sie dann
+den Knopf, den
+Sie auf dem Gerat
+bedienen wollen. Driicken Sie START, um
+diesen Modus wieder zu verlassen.
+
+TROL SETUP
+
+vane
+
+PRESS START TO EXIT
+
+MUSIC TRACKS
+
+Damit konnen Sie sich vor dem Spiel die
+ganzen Neo-Techno-Sounds anhéren.
+Wahlen Sie die gewiinschte Spurnummer mit
+dem Steuerblock aus und driicken Sie dann
+die Taste B. Wahlen Sie “Track 00”, um das
+Abspielen des aktuellen Songs anzuhalten.
+
+EXIT
+Bringt Sie zuriick in den Titelbildschirm.
+
+Hinweis: Um wieder auf die
+vorprogrammierten Originaleinstellungen
+zuriickzugelangen, schalten Sie Ihr Super
+Nintendo Entertainment System AUS und
+dann wieder EIN. Driicken Sie RESET, um das
+
+Spiel unter Beibehaltung der neuen
+Einstellungen erneut zu starten.
+
+X-KALIBER-STEVERUNG
+
+Meistern Sie die Bedienung Ihres Schwertes
+X-Kaliber, um Neo New York von Krux’
+Schreckensherrschaft zu befreien. Die
+Grurdbewegungen sind: StoB (A-Knopf),
+Parieren (X-Knopf), Schwung (Y-Knopf) und
+Schnitt (A plus UP).
+
+Seine interdeminsionalen Krafte verleihen X-
+Kaliber einzigartige Fahigkeiten, wie man sie
+in dieser Welt nicht kennt. Ein Druck auf den
+L- oder R-Knopf bewirkt, daB ein Blitz von
+solcher Energie abgegeben wird, daB ein
+mutierter Morph in zwei Halften
+
+geschlitzt wird.
+
+Hinweis: Die folgenden Steuermandver
+gelten fiir die Standard-Knopfbelegungen.
+Wenn Sie diese andern méchten,
+
+benutzen Sie CONTROL SETUP im Meni
+Options (Optionen),
+
+7
+
+5
+
+Energieblitz (Angriff 3)
+Energieblitz (Angriff 3)
+Parieren (Abwehr)
+Nicht belegt
+
+Gehen & in die Hocke
+Pause
+
+Schwung (Angriff 1)
+Sprung
+
+StoB (Angriff 2)
+
+WON AUFWH -
+
+===== Page 16 =====
+
+STATUSANZEGE
+
+1 SCORE (Punkte) —
+Zeigt Ihren Punktestand
+
+2 TOP SCORE (Maximum) —
+Héchstpunktestand seit Spielbeginn
+
+3 THE ENERGY LEVEL (Energiestand) —
+MiBt die Lebenskraft von Slashs Gegner
+oder, beim Spielen mit zwei
+Teilnehmern (“Duell”), die Lebenskraft
+von Spieler 2.
+
+4 OPPONENT’S ENERGY LEVEL
+(Gegnerische Kraft) —
+MiBt die Lebenskraft von Slashs Gegner
+oder, beim Spielen mit zwei
+Teilnehmern (“Duell”), die Lebenskraft
+von Spieler 2.
+
+5 TIME (Zeit) —
+Wieviel Zeit Innen auf der aktuellen
+Ebene noch verbleibt, sehen Sie in der
+Zeitanzeige am oberen Bildschirmrand.
+
+LIVES (Leben) —
+
+Zu Anfang jedes neuen Lebens wird die
+
+Anzahl von Slashs restlichen Leben in der
+
+Mitte des Bildschirms angezeigt.
+
+Hinweis: Wenn Sie den Hochstpunktstand
+
+zurticksetzen wollen, mlissen Sie Ihr Super
+
+Nintendo Entertainment System AUS- und
+
+wieder ElNschalten.
+
+DER FEIND
+
+Die Armee — Raptors Meute
+
+Cyberdynes
+
+Schwebekapseln iiberwachen
+die Aktivitaten in der Gegend
+
+Laserkapseln patroullieren
+bestimmte Bezirke
+
+Energiespeicherbehalter
+
+H enthalten spezielle,
+lebenskraftspendende Mittel,
+| die Ihnen Energie
+zurlickgeben. Halten Sie
+Ausschau nach versteckten
+Cyberdynes mit einem besonderen Objekt,
+das Ihnen ein zusatzliches Leben verleiht.
+
+Spezielle lebensspendende Mittel:
+Getrank: ein wenig zusatzliche
+Energie
+
+Hamburger: maBig Energie
+
+Fleisch: maximale
+Energiequelle
+
+\-UP: ein Zusatzleben
+
+Mutierte Morphs —
+
+Dr. Blasts Geschépfe beziehen durch
+Metamorphose eine ganze Reihe spezieller
+Angriffsfahigkeiten.
+
+===== Page 17 =====
+
+KAUN’ MEDTE
+
+Tattoo —
+
+zg ausgestattet mit einem
+
+& Schwert, das auf Distanz
+kampfen kann, und einer
+tatowierten Rose fiir
+
+; spezielle Angriffe
+
+i; Chainsaw —
+
+eine Mutantenmaschine
+in menschlicher Form,
+
+| die sich zu einem
+Roboterskelett mit
+Sagearm verkleinern
+kann
+
+es Kane —
+
+tragt einen Hut und
+
+Ba einen Stock und setzt
+RM beide als tadliche
+
+H Waffen ein
+
+Dr. Blast —
+
+der Erfinder der
+mutierten Morphs und
+Opfer seines eigenen
+Experiments — er kann
+sich in einen gefahrlichen
+fliegenden Skorpion
+verwandeln
+
+Raptor —
+
+Slashs langst verloren
+
+= geglaubter Bruder. Fuhrt
+ein weiteres von Krux’
+machtigen Schwertern
+mit sich und ist deshalb
+gefiirchtet im Duell
+
+isesee Soeaa traet St ne
+
+Spuke —
+
+wenn bezwungen, fiihrt
+Sie dieser akrobatische,
+gasspeiende Mutant zu
+Alix und zu dem bésen
+
+EB Wesen, das Neo New York
+in Atem halt.
+
+WSF ASITSPRECHUA
+
+Sie sind dabei, den todlichsten Auftrag
+anzunehmen, den die NNYSF je zu vergeben
+hatte. Die Anhanger von Krux schrecken vor
+nichts zuriick. Auch die geschicktesten
+Schwertmandver — Hieb, Stich, StoB und
+Parieren — werden Ihre Gegner nicht fiir
+lange in Schach halten. Eine echte Chance
+haben Sie nur, wenn Sie die
+interdimensionalen Fahigkeiten von X-
+Kaliber zu nutzen wissen.
+
+Wir erinnem noch einmal daran, da® jeder
+der auBerirdischen Henkersknechte
+Informationen hat, die Ihnen bei Ihrer Sache
+dienlich sein konnen. Deshalb miissen Sie
+alle Ihre Feinde besiegen und die
+erforderlichen Informationen
+zusammentragen, um schlieBlich Alix zu
+befreien und dafiir zu sorgen, daB in Neo
+New York wieder Friede einkehrt.
+
+STHATEGISCHE TPs
+
+Weichen Sie mit Parieren aus, um den
+Schlagen Ihrer gnadenlosen Gegner zu
+entgehen.
+
+* — Halten Sie Ihre Lebenskraftsanzeige im
+Auge, und versuchen Sie, méglichst
+viele lebensspendende Objekte zu
+sammeln.
+
+*  Versuchen Sie den mechanischen,
+regelmaBigen Angriffen von Kruxs
+Verteidigern durch geschicktes Einteilen
+Ihrer eigenen Bewegungen zu entgehen.
+Jedes Schwertmanéver hat je nach
+Situation seine eigenen Vorteile.
+
+===== Page 18 =====
+
+EPILEPSIE-WARNUNG
+Bitte lesen Sie diese Hinweise, bevor Sie dieses
+Videospiel-System benutzen oder Ihre Kinder
+damit spielen lassen.
+
+Bei manchen Personen kann es 2u epileptischen
+Anfallen oder BewuBtseinsstérungen kommen,
+wenn sie bestimmten Blitzlichtern oder
+Lichteffekten im taglichen Leben ausgesetzt sind.
+Diese Personen kénnen einen Anfall erleiden,
+wahrend sie bestimmten Fernsehbildern
+ausgesetzt sind oder bestimmte Videospiele
+benutzen. Es kénnen auch Personen davon
+betroffen sein, deren Krankengeschichte bislang
+keine Epilepsie aufweist und die nie zuvor
+epileptische Anfalle gehabt haben.Falls bei Ihnen
+oder einem Ihrer Familienmitglieder unter
+Einwirkung von Blitzlichtern mit Epilepsie
+zusammenhangende Symptome (Anfalle oder
+BewuBtseinsstdrungen) aufgetreten sind, wenden
+Sie sich an Ihren Arzt, bevor Sie das Spiel
+benutzen
+Eltern sollten ihre Kinder bei der Benutzung von
+Videospielen beaufsichtigen. Sollten bei Ihnen
+oder Ihrem Kind wahrend der Benutzung eines
+Videospiels Symptome wie Schwindelgefiihl,
+Sehstdrungen, Augen- oder Muskelzuckungen,
+BewuBtseinsverlust, Desorientiertheit, jegliche Art
+von unfreiwilligen Bewegungen oder Krampfen
+auftreten, so beenden Sie SOFORT das Spiel und
+konsultieren Sie Ihren Arzt.
+
+VORSICHTSMASSNAHMEN WAHREND DER
+BENUTZUNG
+
+¢ Halten Sie sich nicht zu nah am Bildschirm auf.
+Sitzen Sie so weit vom Fernsehbildschirm
+entfernt, wie es die Lange des Kabels gestattet.
+
+¢ Verwenden Sie fiir die Wiedergabe des Spiels
+einen moglichst kleinen Fernsehbildschirm.
+
+* Spielen Sie nicht, wenn Sie mide sind oder
+nicht genug Schlaf gehabt haben.
+
+* Achten Sie darauf, daB der Raum, in dem Sie
+Spielen, gut beleuchtet ist.
+
+¢ Ruhen Sie sich wahrend der Benutzung eines
+Videospiels mindestens 10 bis 15 Minuten pro
+Stunde aus.
+
+GARANTIE
+Sony Electronic Publishing garantiert dem
+urspriinglichen Kaufer dieses Sony Electronic
+Publishing-Produktes fiir einen Zeitraum von
+neunzig (90) Tagen ab Kaufdatum, daB dieses
+Game Pak frei von Material- und
+Verarbeitungsfehlern ist. Sollte dennoch innerhalb
+
+der 90 Tage ein Defekt dieser Art auftreten, ersetzt
+oder repariert Sony Electronic Publishing das
+Game Pak kostenlos. Dazu senden Sie das
+Produkt und einen datierten Kaufnachweis bitte
+ausreichend frankiert an die unten angegebene
+Adresse. Diese Garantie gilt nicht fiir und erlischt
+im Fall von unsachgemaBer Handhabung,
+Vernachlassigung oder mutwilliger Beschadigung
+dieses Sony Electronic Publishing-Produktes.
+
+DIESE GARANTIE GILT ANSTELLE JEGLICHER
+ANDERER GARANTIEN, UND KEINERLE! ANDERE
+ERKLARUNGEN ODER FORDERUNGEN
+BELIEBIGER ART SIND FUR SONY ELCTRONIC
+PUBLISHINGBINDEND ODER VERPFLICHTEND.
+JEGLICHE AUF DIESES SOFTWAREPRODUKT
+ANWENDBARE IMPLIZIERTE GARANTIE,
+EINSCHLIESSLICH DERER ZU
+HANDELSUBLICHER QUALITAT UND EIGNUNG
+FUR EINEN BESTIMMTEN ZWECK, IST AUF DIE
+OBEN GENANNTEN FRIST VON NEUNZIG (90)
+TAGEN BEGRENZT. IN ANBETRACHT DESSEN
+WIRD DIESES SONY ELCTRONIC-PRODUKT “IM
+GEGENWARTIGEN ZUSTAND” VERKAUFT, OHNE
+JEDWEDE AUSDRUCKLICHE ODER INDIREKTE
+GARANTIE, UND SONY ELCTRONIC UBERNIMMT
+IN KEINER WEISE HAFTUNG FUR VERLUSTE
+ODER SCHADEN, DIE AUS DER BENUTZUNG
+DIESES PRODUKTS HERVORGEGANGEN SIND.
+IN KEINEM FALL HAFTET SONY ELCTRONIC FUR
+INDIREKTE ODER FOLGESCHADEN, DIE AUS
+BESITZ, BENUTZUNG ODER VERSAGEN DIESES
+SOFTWAREPRODUKTES ENTSTEHEN.
+
+Einige Staaten verbieten den Ausschlu8 und/oder
+die Begrenzung von zufalligen oder Folgeschaden
+und/oder die zeitliche Begrenzung der Garantie. Es
+ist daher mdglich, daB die oben aufgefiihrten
+Einschrankungen und/oder Ausschllisse nicht auf
+Sie zutreffen. Mit dieser Garantie erhalten Sie
+bestimmte gesetzliche Rechte. Ihre zusatzlichen
+landesiiblichen Rechte werden davon nicht
+beeintrachtigt.
+
+===== Page 19 =====
+
+GERMANY
+
+Sony Electronic Publishing
+Zeil 13
+
+60313 Frankfurt
+
+Germany
+
+AUSTRIA
+
+Sony Music Entertainment GmBH
+Erlachgasse 134-140
+
+A-1101 Vienna
+
+f.d. SCHWEISS s.S 25.
+
+===== Page 20 =====
+
+TABLE DES MATIEBES
+
+X-Kaliber 2097
+Mission NNYSF
+Demarrage
+Commandes X-Kaliber
+Vérifiez votre état
+L’ennemi
+
+Instructions finales
+pour la mission NNYSF
+
+Stratégie
+
+Générique
+
+23
+
+23
+
+66
+
+K-KALIBER 2097
+
+Nous sommes en |’an 2097. La vie s’est
+arrétee. Les gens ne se rendent plus au
+travail. Les parcs ont disparu. Les seigneurs
+de la guerre, qui se divisent la planete, ont
+anéanti les pays et les villes.
+
+Raptor gouverne
+| Neo New York
+avec son armée
+de Morphs
+assoiffés de sang,
+g des mutants
+changeant de
+forme créés par le Dr. Blast, |’un des
+scientifiques travaillant pour lui. Toutefois,
+un homme s’interpose entre Raptor et le
+pouvoir absolu. Cet homme s’appelle Slash !
+
+Slash est l’un des deux survivants des Forces
+spéciales de Neo New York, un des deux
+agents dont Raptor ne peut pas se
+débarrasser ou corrompre. Avec l’aide d’X-
+Kaliber, une épée mythique foudroyant
+l'ennemi, Slash peut d’une seule main tailler
+en pieces les Morphs de Raptor. Donc, si
+Raptor ne peut pas prendre Slash, il aura
+son épée. Coitte que cotite.
+
+Alix est la
+partenaire de
+Slash. Celebre
+dans le monde
+entier, elle est
+l'un des deux
+agents survivants =
+des Forces armées et s’insurge contre a
+domination de Raptor. Kane, l’agent de
+Raptor, l’a kidnappée, sachant que tét ou
+tard, Slash allait partir 4 sa recherche - armé
+d’X-Kaliber.
+
+===== Page 21 =====
+
+Raptor aura alors les trois choses qu’il a
+toujours convoitées : le contrdle de Neo New
+York, une épée plus puissante que la sienne
+et la téte de Slash servie sur un plateau.
+
+Mais cela ne sera peut-étre pas si facile.
+Slash est en train de se faufiler au travers
+des défenses extérieures de Raptor,
+réduisant en pieces chaque Morph rencontre
+sur son chemin. A chaque fois qu’il en bat
+un, il recoit des informations et découvre un
+mystere. Ces Morphs sont trop sophistiques
+pour étre élaborés par Raptor et Blast au
+moyen de la technique génétique. II doit y
+avoir une autre explication, mais laquelle ?
+
+Slash affronte Raptor dans la derniere
+epreuve de force - est-ce vraiment la
+derniére ? || apprend la premiére d’une série
+de vérités choquantes : Raptor est son frére
+jumeau, dont il a eté separé pendant son
+enfance. Cela s’est produit pendant cette
+explosion fatale, alors que tous deux
+exploraient le réseau souterrain des égouts
+de New York...Lorsque Slash a repris
+conscience, Raptor avait disparu. Et X-
+Kaliber se trouvait la, étincelant a cote
+
+des décombres.
+
+Finalement Raptor est battu, son attirance
+pour le mal est anéantie, comme si un
+sortilege était rompu. Mais le travail de
+Slash n'est pas termine : il rencontre Spuke,
+autre agent Morph étrange. Spuke lui
+dévoile une autre verite encore plus
+choquante : Krux.
+
+Krux incarne le pouvoir au-dela du tréne :
+un abominable monstre interdimensionnel,
+le maitre des maitres ! II surveille la terre
+pour le compte d’un gang intergalactique ;
+Raptor ne faisait qu’exécuter les ordres
+
+de Krux.
+
+La patrie de Krux était déja surpeuplée,
+polluée et ruineée. II lui fallait un nouveau
+territoire ol il pouvait s’imposer. Grace aux
+expériences incontrélables du docteur Blast,
+Krux a pu percer
+le voile
+dimensionnel et
+faire progresser
+son projet de
+corruption
+mondiale.
+
+Lors de |’explosion des égouts, Krux a pu
+traverser le mur dimensionnel pour la
+premiere fois. C’est alors qu’il emmena
+Raptor et le convertit au mal. Mais dans le
+désordre de |’explosion, Krux laissa quelque
+chose derriére lui : une arme. Sa précieuse
+épée. Et provenant du monde d'origine de
+Krux, c’est la seule chose capable de le
+blesser, la seule chose qu’il redoute :
+X-Kaliber.
+
+Entre-temps, Krux détient Alix. II l’utilise
+pour attirer Slash dans un piége. Une fois
+qu’il se sera débarrassé des agents des
+Forces spéciales, son armée de Morphs
+contrélera 4 tout jamais non seulement New
+York mais la terre entiere. Seule X-Kaliber
+est au travers de son chemin.
+
+Mais X-Kaliber est entre les mains de Slash,
+qui ne s’en séparera pour rien au monde.
+
+LA MISSION NAYS
+
+En tant que membre des Forces spéciales de
+Neo New York, vous devez sauvez votre
+partenaire Alix de l’emprise du sinistre
+seigneur de guerre Krux. Pour arriver a Alix,
+vous devez vous battre contre les membres
+sataniques d'un puissant gang
+intergalactique, qui ne reculera devant rien
+pour reprendre X-Kaliber pour leur
+dirigeant assoiffé de pouvoir.
+
+===== Page 22 =====
+
+DEMARRAGE
+
+DEBUT DU JEU
+
+Insérer le Game Pak et mettez votre systeme
+en route. La presentation d’X-Kaliber va
+apparaitre sur votre écran.
+
+Remarque : Vous pouvez interrompre la
+présentation 4 tout moment en appuyant
+sur le bouton Start de votre bloc de contréle
+pour faire apparaitre l’écran de titre.
+
+» 4 PLaveR quest
+2 PLAYER DUEL
+OPTIONS
+
+Pour un joueur :
+
+Etant donné que le jeu i-player (a un seul
+joueur) constitue les paramétres par défaut,
+appuyez sur n’importe quel bouton
+
+pour commencer.
+
+Duel a deux joueurs :
+
+PLAVER SELEOT
+Ps
+RAPTOR
+
+PRESS START TO EXIT 2P GAME
+
+Utilisez le bouton Select ou la manette
+multidirectionnelle pour déplacer le
+curseur vers 2 Player Duel (duel a 2
+joueurs) et appuyez sur n’importe quel
+bouton pour faire apparaitre l’écran
+Player Select (sélection joueurs).
+Utilisez la manette multidirectionnelle
+pour mettre en surbrillance le
+personnage que vous voulez, puis
+appuyez sur n'importe quel bouton
+(excepteé Start). Le duel commence dés
+que les deux joueurs ont choisi leurs
+personnages.
+
+a)
+
+b)
+
+20
+
+A l'issue de
+chaque duel, une
+statistique des
+points remportés
+SS oe par chaque
+
+gre personnage est
+ams affichée a l’écran
+RESULT (de résultats). Vous pouvez appuyer
+sur Start pour sortir du mode a deux joueurs
+et commencer une partie a un seul joueur ou
+appuyer sur n’importe quel bouton pour
+revenir a |’ecran CHARACTER SELECT
+(sélection de personnages) pour commencer
+un nouveau jeu a deux joueurs.
+
+SLASH DEFEATED RAPTORS
+wt
+00 00
+00 00
+00 00
+00 00
+00 00
+00 00
+
+stash
+Tattoo
+OHATHGAW
+
+Kane
+bR.-BLAST
+SPUKE
+RAPTOR
+
+PRESE START TO
+EXIT 2P Gane
+
+Changer les
+options de jeu
+Pour changer les
+parametres du jeu
+avant de
+commencer a
+jouer, utilisez le
+bouton Select ou la manette
+multidirectionnelle pour déplacer le curseur
+vers les OPTIONS sur I’écran de titre, puis
+appuyez sur n’importe quel bouton. Le
+menu d’options apparaitra ensuite a l’écran.
+Utilisez la manette multidirectionnelle pour
+sélectionner vos nouveaux parametres.
+
+opTioNs
+
+DIFFIOULTY 3 NORMAL
+Lives 3
+CONTINUES =.
+
+SOUND HOPE © STEREO
+
+CONTROL SETUP
+MUSIC TRACKS 00
+
+exIT
+
+DIFFICULTY (Difficulté)
+
+Choisissez |’un des huit niveaux allant du
+plus facile au plus difficile. Utilisez la
+manette multidirectionnelle pour vous
+déplacer 4 gauche ou a droite pour
+parcourir vos options de parametres.
+
+LIVES (vies)
+Choisissez une a cing vie par jeu.
+
+CONTINUES (continuations)
+Sélectionnez de zero a cing continuations.
+
+SOUND MODE (mode son)
+
+STEREO est le parametre par défaut normal
+du son. Si votre-Super Nintendo
+Entertainment System est connecté a une
+
+===== Page 23 =====
+
+télévision mono ou par |’intermédiaire d’un
+magnétoscope a canal audio unique,
+sélectionnez MONAURAL.
+
+CONTROL SETUP (configuration des
+commandes)
+
+Vous pouvez affecter les mouvements de
+votre épée a n’importe quel bouton de votre
+bloc de contréle.
+
+Sélectionner le
+mouvement
+d’épée que vous
+voulez affecter,
+puis appuyer sur
+le bouton que
+vous voulez
+utiliser sur le bloc de contrdle
+correspondant. Appuyez sur le bouton
+Start pour sortir du mode de configuration
+des commandes.
+
+CONTROL SETUP
+
+gum
+avaro
+
+PRESS START 1
+
+MUSIC TRACKS (morceaux de musique)
+Vous permet d’écouter tous les morceaux
+Neo-Techno avant d’entamer le jeu. II suffit
+d’utiliser la manette multidirectionnelle
+pour choisir le nombre de morceaux que
+vous voulez écouter et d’appuyer sur le
+bouton B. Selectionnez le morceau 00 pour
+arréter la chanson que vous étes en train
+d’écouter.
+
+EXIT (sortie)
+Vous permet de retourner a |'écran de titre.
+
+Remarque : Pour revenir aux parametres
+initiaux, éteignez votre Super Nintendo
+Entertainment System, puis rallumez-le.
+Appuyez sur Reset pour redémarrer le jeu
+sans changer vos nouveaux parametres.
+
+COMMANDES D'X-KALIBER
+
+Maitrisez l'utilisation de votre épée X-
+Kaliber pour libérer Neo New York du régime
+de terreur imposé par Krux. Les mouvements
+de base sont : botte (bouton A), parer
+(bouton X), frapper (bouton Y) et trancher
+
+2i
+
+(bouton A plus fleche haut)
+
+Les pouvoirs interdimensionnels d’X-Kaliber
+lui conferent des capacités extraordinaires,
+inconnues en ce monde. Si vous appuyez sur
+les boutons L ou R, X-Kaliber libérera un
+éclair d’énergie assez puissant pour trancher
+un Morph mutant.
+
+Remarque : les commandes suivantes se
+referent a la configuration des boutons par
+défaut. Consultez la configuration des
+commandes dans le menu Options pour
+changer vos parametres.
+
+5 6
+
+8 9
+
+Eclair d’énergie (Attaque 3)
+
+7
+
+botte (Attaque 2)
+
+RIFIER VOTRE ETAT
+
+I
+
+2 Eclair d’énergie (Attaque 3)
+
+3 Parade avec l’épée (Garde)
+
+4 Bouton non utilisé
+
+5 Marcher et s’accroupir
+
+6 Interrompre
+
+7 Frapper avec |’épée (Attaque 1)
+8 Sauter
+
+9
+
+——N
+
+I 2
+
+SN TG IR
+YOU_0G004107 =! SS TTOP. S5sb0%20 4g
+
+k
+
+3
+
+1 SCORE (score) —
+Indique votre score
+
+5
+
+===== Page 24 =====
+
+2 TOP SCORE (score maximal) —
+Score le plus élevé depuis le debut
+du jeu.
+3. THE ENERGY LEVEL
+(niveau d’énergie) —
+Mesure la force vitale de Slash ou, en
+mode duel, la force vitale du
+joueur ng.
+4 OPPONENT’S ENERGY LEVEL (Niveau
+d’énergie de l’adversaire) —
+Mesure la force vitale de l’adversaire de
+Slash ou, en mode duel, la force vitale
+du joueur n82.
+5 TIME (Temps) —
+Verifier en haut de |’écran pour voir
+combien de temps il vous reste dans le
+niveau en cours.
+VIES —
+Au début de chaque nouvelle vie, le nombre
+de vies restantes de Slash est affiché au
+milieu de |’écran.
+Remarque : En éteignant, puis allumant
+votre Super Nintendo Entertainment System,
+vous remettrez le score a zero.
+
+LENNEMI
+
+L’armée — la bande de fantassins robotiques
+de Raptor fait intervenir le mal 4 chaque
+étape de votre mission. Ils constituent la
+force la plus faible mais aussi la plus grande
+de Krux.
+
+“Cyberdynes”
+Des nacelles a coussin d’air
+
+contrdlent les activités de
+la région.
+
+Des nacelles laser patrouillent
+a certains niveaux pour vous
+en éloigner.
+
+Des dispositifs de stockage
+ij d’energie contiennent des
+éléments spéciaux de force
+vitale pour refaire le plein
+de votre energie. Cherchez
+les “Cyberdynes” cachées avec un
+élément spécial vous conférant une
+
+vie supplémentaire.
+
+Eléments spéciaux de force vitale :
+
+Les boissons vous donnent
+une petite quantité d’énergie
+supplémentaire.
+
+Les Hamburgers renforcent
+modérément votre énergie.
+
+La viande vous donne un
+maximum d’énergie.
+
+I-UP vous donne une vie
+supplémentaire.
+
+Les Morphs mutants —
+
+La métamorphose confére des capacités
+d’assaut spéciales aux créations
+expeérimentales du Dr. Blast.
+
+LE GANG DE KRUX
+
+Tatouage —
+
+Il emploie une épée a
+longue portée et son
+tatouage en forme de
+§ yose pour des attaques
+| particuliéres.
+
+===== Page 25 =====
+
+Trongonneuse —
+Machine mutante de
+forme humaine se
+
+= transformant en
+squelette robotique avec
+une tronconneuse en
+guise de bras.
+
+Kane —
+
+Il porte un chapeau et
+une canne également
+employes comme
+
+§ armes mortelles.
+
+f Dr. Blast —
+
+Créateur des Morphs
+mutants et victime de sa
+propre experience, il se
+transforme en redoutable
+scorpion volant.
+
+= Raptor —
+
+Le frére que Slash a
+
+= perdu il y a longtemps
+porte une autre epee
+puissante de Krux, pour
+provoquer violemment
+un adversaire en duel.
+
+Spuke —
+
+Une fois vaincu, ce
+mutant acrobate,
+
+| respirant le gaz,
+
+vous menera a Alix
+
+et a l’étre démoniaque
+; qui tourmente Neo
+New York.
+
+23
+
+INSTRUCTIONS PINALES POUR LA
+MISSION ANYSP
+
+Vous étes sur le point d’effectuer la mission
+NNYSF la plus mortelle qui soit. Les forces de
+Krux ne reculeront devant rien. Porter des
+bottes, parer, frapper et trancher ne vous
+servira qu’a gagner du temps pour contenir
+temporairement vos adversaires féroces et
+démoniaques. Vous devez maitriser les
+capacités interdimensionnelles d’x-Kaliber
+pour vaincre la force mortelle de ce gang
+intergalactique.
+
+Rappelez-vous, chaque agent des forces du
+mal a des informations qui peuvent vous
+aider a poursuivre votre recherche. Vous
+devez battre chaque ennemi et rassembler
+toutes les informations nécessaires avant de
+pouvoir sauver Alix et réinstaurer la paix a
+Neo New York.
+
+STRATEGIE
+
+*  Servez-vous de la parade pour éviter les
+coups de vos adversaires impitoyables.
+
++ Surveillez votre indicateur de force
+vitale et essayez de rassembler autant
+d’élements que possible pour refaire de
+plein de votre energie.
+
+*  Chronométrez vos mouvements pour
+éviter les attaques mécaniques
+prévisibles des defenses de Krux.
+
++ Chaque mouvement d’épée a ses
+avantages selon les situations.
+
+===== Page 26 =====
+
+__ AVERTISSEMENT SUR LEPILEPSIE
+A lire avant toute utilisation d'un jeu vidéo par
+vous-méme ou votre enfant.
+
+Certaines personnes sont susceptibles de faire
+des crises d’épilepsie ou d’avoir des pertes de
+conscience a la vue de certains types de lumiéres
+clignotantes ou d’éléments fréquents dans notre
+environnement quotidien. Ces personnes
+s'exposent a des crises lorsqu’elles regardent
+certaines images télévisées ou lorsqu’elles jouent
+a certains jeux vidéo. Ces phénoménes peuvent
+apparaitre alors méme que le sujet n’a pas
+d’antécédent médical ou n’a jamais été confronté
+a une crise d’épilepsie.
+Si vous-méme ou un membre de votre famille
+avez déja présenté des symptomes liés a
+l'épilepsie (crise ou perte de conscience) en
+présence de stimulations lumineuses, veuillez
+consulter votre médecin avant toute utilisation.
+Nous conseillons aux parents d’étre attentifs a
+leurs enfants lorsqu'ils jouent avec des jeux vidéo.
+Si vous-méme ou votre enfant présentez un des
+symptémes suivants: vertige, trouble de la vision,
+contraction des yeux ou des muscles, perte de
+conscience, trouble de |'orientation, mouvement
+involontaire ou convulsion, veuillez
+IMMEDIATEMENT cesser de jouer et consulter un
+médecin.
+
+PRECAUTIONS A PRENDRE DANS TOUS LES
+CAS POUR L'UTILISATION D’UN JEU VIDEO
+Ne vous tenez pas trop pres de I’écran. Jouez a
+bonne distance de l’écran de télévision et aussi
+loin que le permet le cordon de raccordement.
+Utilisez de préférence les jeux vidéo sur un
+écran de petite taille.
+
+Evitez de jouer si vous étes fatigué ou si vous
+manquez de sommeil.
+
+Assurez-vous que vous jouez dans une piéce
+bien éclairée.
+
+En cours d'utilisation, faites des pauses de dix
+a quinze minutes toutes les heures.
+
+GARANTIE
+“Sony Electronic Publishing garantit a l’acheteur
+initial de ce produit Sony Electronic Publishing,
+pour une période de quatre-vingt-dix (90) jours a
+compter de la date d’achat, que cette cartouche
+de jeu est exempte de tout défaut de matiére
+premiére ou de vice de fabrication, et accepte,
+pendant cette période, de la réparer ou la
+remplacer (a sa discrétion) gratuitement. Envoyez
+le produit, port payé, accompagné d'une preuve
+
+2h
+
+de la date d’achat, a l’adresse indiquée ci-
+dessous. Cette garantie ne s’appliquera pas et
+sera invalide au cas oli le défaut de ce produit
+Sony Electronic Publishing résulterait d’un usage
+abusif ou déraisonnable, d'un mauvais traitement
+ou d’un manque de soins.
+
+CETTE GARANTIE EXCLUT TOUTE AUTRE
+GARANTIE ET AUCUNE DEMANDE OU
+RECLAMATION DE QUELQUE NATURE QUE CE
+SOIT NE LIERA OU N'ENGAGERA Sony Electronic
+Publishing. LES GARANTIES IMPLICITES
+APPLICABLES A CE PRODUIT LOGICIEL, Y
+COMPRIS LES GARANTIES DE QUALITE
+MARCHANDE ET D’ADAPTATION A UN USAGE
+PARTICULIER, SONT LIMITEES A UNE PERIODE
+DE QUATRE-VINGT-DIX (90) JOURS, COMME
+EXPLIQUE CI-DESSUS. SOUS RESERVE DE CE
+QUI PRECEDE, CE PRODUIT SONY ELECTRONIC
+PUBLISHING EST VENDU “TEL QUEL”, SANS
+AUCUNE GARANTIE EXPRESSE OU IMPLICITE,
+ET SONY ELECTRONIC PUBLISHING NE SERA
+PAS TENU RESPONSABLE DES PERTES OU
+DOMMAGES DE QUELQUE SORTE QUE CE SOIT,
+RESULTANT DE L'UTILISATION DE CE PRODUIT.
+EN AUCUN CAS, SONY ELECTRONIC
+PUBLISHING NE SERA TENU RESPONSABLE DE
+DOMMAGES ACCESSOIRES OU INDIRECTS
+DECOULANT DE LA POSSESSION, DE
+LUTILISATION OU DU MAUVAIS
+FONCTIONNEMENT DE CE PRODUIT LOGICIEL
+
+Certains pays n’acceptent pas les limitations de
+durée de garantie implicite et/ou les exclusions ou
+les limitations des dommages accessoires: il est
+donc possible que les limitations et/ou les
+exclusions de responsabilité ci-dessus ne vous
+concernent pas. La garantie ci-dessus vous donne
+des droits legaux spécifiques, mais vous pouvez
+également avoir d’autres droits qui varient d'un
+pays a l'autre.”
+
+===== Page 27 =====
+
+FRANCE
+
+Sony Electronic Publishing
+131, Avenue de Wagram
+75838 Paris Cedex 17
+
+France
+
+Hotline: SME (France) Hotline
+36 68 22 02
+
+SWITZERLAND
+
+Sony Music Entertainment AG
+Oberneuhofstrasse 6
+CH-6340 Baar
+
+Switzerland
+
+25
+
+===== Page 28 =====
+
+INHOUDSOPGAV E
+
+X-Kaliber 2097
+
+De NNYSF-missie
+
+Aan de slag
+X-Kaliber-besturing
+
+Je status controleren
+
+De vijand
+
+De laatste NNYSF-instructies
+Strategische hints
+
+Credits
+
+26
+
+27
+
+28
+
+29
+
+29
+
+30
+
+31
+
+3!
+
+66
+
+26
+
+K-KALIBER 2097
+
+Het is het jaar 2097 A.D. Het leven is tot
+stilstand gebracht. Er is geen werk meer te
+vinden. Er zijn geen parken meer om in te
+wandelen. Landen en steden zijn opgeslokt
+door krijgsheren die de globe aan het
+verdelen zijn
+
+Raptor regeert
+Neo New York met
+een bloeddorstig
+kameleontisch
+leger: door Dr.
+Blast gecreéerde
+gemuteerde
+vormveranderaars. Er staat slechts één man
+tussen Raptor en absolute macht: Slash!
+
+Slash is 6én van twee overlevende leden van
+de Neo-newyorkse speciale politiemacht,
+eén van de twee agenten die Raptor niet uit
+de weg kan ruimen: of omkopen. Gewapend
+met X-Kaliber, een mythisch bliksemstraal-
+schietend zwaard, kan Slash helemaal alleen
+Raptors kameleontische schepselen in
+stukjes hakken. Dus als Raptor Slash niet te
+pakken kan krijgen, dan zal hij beslag
+leggen op zijn zwaard. Het kost wat
+
+het kost.
+
+Alix, de partner
+van Slash, is een
+werelberoemde
+agente en het
+enige andere
+overgeblevene lid
+van de speciale
+politiemacht die een revolutie leidt tegen
+Raptors heerschappij. Raptors handlanger,
+Kane, heeft haar ontvoerd in de wetenschap
+
+===== Page 29 =====
+
+dat Slash niet lang op zich zal laten
+wachten: vergezeld van X-Kaliber natuurlijk.
+
+Dan krijgt Raptor de drie dingen die hij
+altijd heeft willen bezitten: beheer van Neo
+New York, een zwaard machtiger dan het
+zijne en Slash’ hoofd op een bord.
+
+Maar dat is niet zo eenvoudig als het lijkt.
+Slash baant zich een weg door Raptors
+buitenste verdedigingswerken waarbij hij
+elke kameleontisch schepsel dat hem de weg
+verspert, in stukjes snijdt. Telkens als hij er
+één verslaat, ontvangt hij informatie
+waarmee hij achter een geheim komt. Deze
+kameleontische schepselen zijn te
+uitgekiend om genetisch door Raptor en
+Blast in elkaar geflanst te zijn: Er moet een
+andere uitleg zijn. Maar welke?
+
+Slash confronteert Raptor in de laatste
+krachtmeting — of niet? Slash krijgt de
+eerste van een serie schokkende waarheden
+te horen: Raptor is zijn eigen tweelingbroer
+van wie hij als jongen gescheiden werd. Het
+gebeurde tijdens die fatale ontploffing,
+terwijl ze beiden de Newyorkse riolering aan
+het verkennen waren... Toen Slash weer bij
+kwam, was Raptor spoorloos verdwenen.
+Maar onder het puin zag hij iets glinsteren:
+X-Kaliber!
+
+Eindelijk ligt Raptor verslagen, zijn zucht
+naar kwaad weg, alsof er een ban verbroken
+was. Maar Slash’ taak is nog niet volbracht:
+hij komt tegenover Spuke te staan, weer een
+andere buitenissige handlanger van de
+kameleontische schepselen. Spuke voert hem
+naar een nog grotere, weerzinwekkende
+waarheid: Krux.
+
+Krux is de macht
+achter de troon:
+een walgelijk,
+interdimensionaal
+monster, de baas
+der bazen! Hij
+
+27
+
+bewaakt de aarde voor een intergalactische
+bende; Raptor was slechts de
+boodschappenloper voor Krux.
+
+Krux’ eigen geboorteland was reeds overvol,
+verontreinigd en geruineerd. Hij had een
+nieuw territorium nodig om binnen te
+dringen. Met behulp van de uit de hand
+gelopen experimenten van Dr. Blast kon
+Krux de dimensionale sluier oplichten en
+zijn queeste voor wereldwijde corruptie
+vooruithelpen.
+
+De rioolontploffing gaf Krux zijn eerste kans
+door de dimensionale muur heen te barsten;
+het was bij deze gelegenheid dat hij Raptor
+meenam en hem tot het kwaad bekeerde.
+Maar in alle verwarring van de ontploffing
+liet Krux iets achter: een wapen. Zijn
+geliefkoosde zwaard. En, omdat het tot
+Krux’ thuiswereld behoort, is dit het enige
+wat hem wellicht bezeren kan, het enige dat
+hij vreest: X-Kaliber.
+
+Ondertussen is Alix nog steeds in de macht
+van Krux. Hij gebruikt haar om Slash in zijn
+val te lokken. Zijn de agenten van de
+speciale politiemacht eenmaal uit de weg
+geruimd, dan zal zijn kameleontisch ras
+permanent New York én de hele wereld
+regeren. Alleen X-Kaliber staat hem nu nog
+in de weg.
+
+Maar X-Kaliber is in het bezit van Slash. En
+die zal hem heus niet loslaten.
+
+DE NNYSP-MISSIE
+
+Als lid van de speciale politiemacht van Neo
+New York moet jij je medewerkster Alix uit
+de klauwen redden van de boosaardige
+oorlogskrijger Krux. Wil je Alix kunnen
+bevrijden, dan moet je het eerst opnemen
+tegen de schurkachtige leden van een
+machtige intergalactische bende die tot
+alles in staat is, om X-Kaliber op te eisen
+voor hun meedogenloze megalomane leider.
+
+===== Page 30 =====
+
+AAN DE SLAG
+
+HET SPEL OPSTARTEN
+
+Steek het Game Pak erin en zet je systeem
+aan (ON). De voorvertoning van X-Kaliber
+verschijnt nu op je scherm.
+
+Let op: Je kunt deze voorvertoning op het
+scherm te allen tijde onderbreken door
+START in te drukken op je bedieningspaneel.
+Het titelscherm komt dan tevoorschijn.
+Queeste voor één speler:
+
+> 4 PLAYER QUEST
+2 PLAYER DUEL
+OPTIONS
+
+Omdat een spel met i-player (1-speler)
+de standaardinstelling is, kun je een
+willekeurige knop indrukken om
+
+te beginnen.
+
+Duel met twee spelers:
+
+PLAYER SELEOT
+
+a) Gebruik de SELECT-toets of de
+richtingstoets om de cursor naast 2
+Player Duel (duel met twee spelers) te
+zetten en druk op een willekeurige knop
+om het scherm Player Select
+(Spelerselectie) op te roepen.
+
+Selecteer de gewenste figuur met de
+richtingstoets en druk dan op een
+willekeurige knop (behalve START). Het
+duel begint, zodra beide spelers hun
+figuren geselecteerd hebben.
+
+b)
+
+28
+
+Na elk duel
+verschijnen de
+uitslagen van de
+winnaar op het
+scherm RESULT
+(Resultaten). Je
+kunt op START
+drukken om de twee-spelermodus te
+beéindigen en met een één-spelerspel te
+beginnen. Je kunt ook op een willekeurige
+knop drukken om naar het scherm
+CHARACTER SELECT Figurenselectie te gaan en
+met een nieuw twee-spelerspel te beginnen.
+
+SLASH DEFEATED RAPTORS
+wey
+
+stasH
+TATTOO
+ova Insaw
+KANE
+DR.BLAST
+sPUKE
+RAPTOR
+
+00 00
+00 00
+00 00
+00 00
+00 00
+00 00
+
+00 0% 00 00
+
+wins
+
+PRESS START TO
+Pa
+
+mit a? one ve
+
+DE SPELOPTIES
+VERANDEREN
+
+Wil je de
+spelinstellingen
+veranderen,
+voordat je begint
+te spelen, dan
+gebruik je de SELECT-toets of de
+richtingstoets om de cursor omlaag te laten
+gaan naar OPTIONS (Opties) op het
+titelscherm. Daarna druk je op een
+willekeurige knop. Het optiemenu verschijnt
+nu op het scherm. Je gebruikt de
+richtingstoets om je nieuwe instellingen
+
+te selecteren.
+
+options
+
+3 NORMAL
+2
+
+3
+STEREO
+
+>DIFFIOULTY
+LIVES
+CONTINUES:
+SOUND MODE
+
+CONTROL SETUP
+MUSIC TRACKS 00
+
+exIT
+
+DIFFICULTY (moeilijkheidsgraad)
+
+Kies één uit acht niveaus die van
+gemakkelijkst tot moeilijkst variéren. Met
+behulp van je richtingstoets ga je naar links
+of rechts om je instellingsopties te bekijken.
+
+LIVES (levens)
+Selecteer uit één tot vijf levens per spel.
+
+CONTINUES
+Selecteer uit nul tot vijf continues.
+
+SOUND MODE (geluidsmodus)
+
+STEREO is de standaard geluidsinstelling. Is
+jouw Super Nintendo Entertainment System
+op een monotelevisie of via één audiokanaal
+VCR aangesloten, dan selecteer je
+
+===== Page 31 =====
+
+MONAURAL (monauraal).
+
+CONTROL SETUP (besturingsinstelling)
+Je kunt de bewegingen van je zwaard
+toewijzen aan een willekeurige knop op je
+bedieningspaneel.
+wonmnon seme Selecteer de
+gewenste
+zwaardbeweging
+en druk dan op
+de betreffende
+knop die je wilt
+gebruiken op het bedieningspaneel. Druk op
+de START-toets om de
+besturingsinstellingmodus te beéindigen.
+
+oe
+
+guano
+
+PRESS START TO EXIT
+
+MUSIC TRACKS (muziektracks)
+
+Hiermee kun je luisteren naar alle Neo-
+Technotracks, voordat je begint te spelen.
+Selecteer het nummer van de track die je
+wilt beluisteren gewoon met de
+richtingstoets en druk op de B-knop.
+Selecteer track 00 om het afspelen van het
+huidige liedje te beéindigen.
+
+EXIT (Afsluiten)
+Hiermee kom je weer bij het ti
+telscherm terecht.
+
+Let op: Wil je de oorspronkelijke instellingen
+weer terughebben, dan zet je het Super
+Nintendo Entertainment System eerst uit
+(OFF) en dan weer aan (ON). Druk op RESET
+om het spel weer op te starten zonder je
+nieuwe optie-instellingen te wijzigen.
+
+Y-KALIBER-DESTURING
+
+Leer omgaan met je zwaard X-Kaliber om
+Neo New York te bevrijden van Krux’
+schrikbewind. De basisbewegingen zijn:
+steek rechtuit (A-knop), parade (X-knop),
+harde slag (Y-knop) en snijden
+
+(A plus Omhoog).
+
+X-Kalibers interdimensionale krachten
+geven hem in deze wereld ongekende
+unieke capaciteiten. Druk je op de Linker- of
+
+Rechterknop dan vuurt X-Kaliber een
+energiestraal af, krachtig genoeg om een
+kameleontische mutant te halveren.
+
+Let op: De volgende acties van het
+bedieningspaneel hebben betrekking op de
+standaard knoppeninstellingen. Zie
+CONTROL SETUP (Besturingsinstelling) in het
+menu Options (Opties) om de instellingen
+van je bedieningspaneel te veranderen.
+
+Energiestraal (Aanval 3)
+Energiestraal (Aanval 3)
+Zwaardparade (Stelling)
+Ongebruikte knop
+
+Lopen en hurken
+
+Pauzeren
+
+Harde slag met zwaard (Aanval 1)
+Springen
+
+Zwaardsteek (Aanval 2)
+
+E STATUS CONTROLEREN
+
+Sa 0 MNaurWwn -
+
+29
+
+! SCORE:
+
+Vertoont je score
+
+TOP SCORE:
+
+Hoogste score sinds het begin van
+het spel.
+
+===== Page 32 =====
+
+THE ENERGY LEVEL (het
+energieniveau):
+
+meet Slash’ levenskracht of, in
+duelmodus, de levenskracht van speler 1.
+OPPONENT’S ENERGY LEVEL
+(tegenstanders energieniveau):
+
+meet de levenskracht van Slash’
+tegenstander of, in duelmodus, de
+levenskracht van speler 2.
+
+TIME (tijd):
+
+bovenin je scherm zie je hoeveel tijd je
+nog over hebt in het huidige niveau.
+LIVES (levens):
+
+aan het begin van elk nieuw leven wordt het
+aantal overgebleven levens voor Slash in het
+midden van het scherm vertoond.
+
+Let op: Als je het Super Nintendo
+Entertainment System aan- (ON) en uitzet
+(OFF), dan worden de topscores gewist en
+punten opnieuw geteld.
+
+DE VIJAND
+
+Het leger: Raptors bende robotachtige
+voetsoldaten versterken het kwaad
+gedurende elk stadium van je missie. Zij zijn
+Krux’ zwakste maar grootste macht.
+
+Cyberdynes
+
+Zwevende doppen controleren
+de activiteiten in de
+omgeving.
+
+Laserdoppen patrouilleren
+bepaalde stadia om je uit de
+buurt te houden.
+
+Energieopslagplaatsen
+bevatten speciale voorwerpen
+met levenskracht om je
+energie weer op te vullen.
+Zoek om verborgen
+Cyberdynes met een speciaal voorwerp dat
+je extra levenskracht geven kan.
+
+30
+
+Speciale voorwerpen met levenskracht:
+
+Drankjes geven je een klein
+beetje extra energie.
+
+’ Hamburger geeft je matige
+energie.
+
+g Viees geeft je maximum
+energie.
+
+\-UP geeft je een extra leven.
+
+De kameleontische mutanten:
+
+Dr. Blasts experimentele schepselen
+ontvangen een aantal speciale
+aanvalstechnieken door metamorfose.
+
+KAUN BENDE
+
+Tatoe:
+
+Gebruikt een lange-
+afstandszwaard en
+zijn roostatoe voor
+speciale aanvallen.
+
+Kettingzaag:
+
+Een machinemutant in
+menselijke gedaante
+wordt gereduceerd tot
+een robotachtig skelet
+met een kettingzaag
+als arm
+
+===== Page 33 =====
+
+Kane:
+
+draagt een hoed en heeft
+een stok in zijn hand die
+beide als dodelijke
+wapens kunnen
+fungeren.
+
+Dr. Blast:
+
+de schepper van de
+kameleontische
+mutanten, en een
+slachtoffer van zijn eigen
+experiment, verandert in
+een gevaarlijkevliegende
+schorpioen.
+
+Raptor:
+
+de langverloren broer
+van Slash heeft nog een
+ander machtig zwaard
+van Krux in zijn bezit
+waarmee hij felle
+
+m dueluitdagingen
+
+kan maken.
+
+Spuke:
+
+Als je hem verslaat, dan
+leidt deze acrobatische
+gasspuwende mutant je
+naar Alix en het
+boosaardige schepsel
+dat heel Neo New
+
+York teistert.
+
+DE LAATSTE NNYSP-INSTRUCTIES
+
+Je staat op het punt de dodelijkste NNYSF-
+missie uit te voeren die iemand ooit
+opgedragen werd. Je steek-, parade-, snij-
+en slatechnieken kunnen alleen voldoende
+tijd winnen om je woeste schurkachtige
+tegenstanders kortstondig tegen te houden.
+Je moet de interdimensionale capaciteiten
+van X-Kaliber meester worden om de
+dodelijke macht van deze intergalactische
+bende te overwinnen.
+
+Vergeet vooral niet dat iedere buitenaardse
+
+handlanger informatie heeft die jou kan
+helpen bij je queeste. Je moet iedere vijand
+verslaan en alle benodigde informatie
+vergaren, voordat je Alix kunt redden
+
+en het vredig bestaan van Neo New York
+kunt herstellen.
+
+STRATEGISCHE HINTS
+
+Gebruik de parademanoeuvre om
+uitvallen van je meedogenloze
+tegenstanders af te weren.
+
+*  Houd een oogje op je levenskrachtmeter
+en probeer zo veel mogelijk
+energiegevende voorwerpen
+te verzamelen.
+
+* — Voer je bewegingen op het juiste
+moment uit om de voorspelbare
+mechanische aanvallen van Krux’
+verdediging te ontwijken.
+
+Elke zwaardmanoeuvre heeft zijn
+voordelen, afhankelijk van de situatie.
+
+===== Page 34 =====
+
+WAARSCHUWING VOOR EPILEPSIE
+Doorlezen voordat u dit videogame-systeem
+in gebruik neemt of het door uw kinderen
+laat gebruiken.
+
+Sommige mensen kunnen een epileptische aanval
+krijgen of bewusteloos raken wanneer zij in het
+dagelijkse leven worden blootgesteld aan
+bepaalde lichtpatronen of knipperende lichten.
+Tijdens het kijken naar bepaalde TV-beelden of het
+spelen van bepaalde videospelletjes kunnen deze
+mensen een aanval krijgen. Dit kan gebeuren
+zonder dat men een medische historie van
+epilepsie heeft of zonder dat men ooit eerder een
+epileptische aanval heeft gehad.
+Indien u of iemand in uw familie bij blootstelling
+aan knipperende lichten ooit symptomen van
+epilepsie heeft gehad (een aanval of
+bewusteloosheid), raadpleeg dan uw arts alvorens
+u gaat spelen.
+Wij raden ouders aan om toezicht te houden op
+het gebruik van videospelletjes door hun kinderen
+Indien u bij uzelf of bij uw kind tijdens het spelen
+van een videospel één van de volgende
+symptomen constateert, moet u het gebruik
+ONMIDDELLIJK staken en uw arts raadplegen.
+Het gaat hierbij om de volgende symptomen:
+duizeligheid, wisselend zicht, trekken van het oog
+of van de spieren, bewusteloosheid, desoriéntatie,
+onwillekeurige bewegingen of stuiptrekkingen.
+
+VOORZORGSMAATREGELEN BIJ GEBRUIK
+
+¢ Ga niet te dicht bij het beeldscherm staan. Ga
+op ruime afstand van het TV-scherm zitten,
+zover de lengte van de kabel dit toelaat.
+
+¢ Gebruik het spel op een zo klein mogelijk TV-
+scherm.
+
+* Ga niet spelen, indien u vermoeid bent of niet
+voldoende slaap hebt gehad.
+
+¢ Zorg ervoor dat de kamer waarin u speelt,
+goed verlicht is.
+
+* Tijdens het spelen van een videospelletje moet
+u elk uur tenminste 10 4 15 minuten rusten
+
+GARANTIE
+Sony Electronic Publishing garandeert de
+originele koper van het Sony Electronic Publishing
+produkt, voor een periode van negentig (90)
+dagen vanaf de dag van aankoop, dat deze
+Spelcassette geen materiaaldefecten of
+fabricagefouten vertoont en verplicht binnen deze
+periode om naar goeddunken het produkt te
+reparen of te vervangen, zonder enige kosten in
+rekening te brengen. Zend het produkt port
+
+betaald en met een gedateerd aankoopbewijs naar
+bygaand adres. Deze garantieregeling is niet van
+toepassing en nietig, als het defect aan dit Sony
+Electronic Publishing produkt het gevolg is van
+misbruik, verkeerd gebruik, en gebruik voor
+oneigenlijke doeleinden of nalatigheid.
+
+DEZE GARANTIEBEPALING IS IN PLAATS VAN
+ALLE ANDERE GARANTIEBEPALINGEN EN GEEN
+ANDERE PROTESTEN OF EISEN VAN WELKE
+AARD DAN OOK ZIJN BINDEND VOOR SONY
+ELECTRONIC PUBLISHING OF VERPLICHTEN
+SONY ELECTRONIC PUBLISHING ERGENS TOE.
+GEIMPLICEERDE GARANTIEBEPALINGEN DIE
+VAN TOEPASSING ZIJN OP DIT
+SOFTWAREPRODUKT, INCLUSIEF
+GARANTIEBEPALINGEN BETREFFENDE VERKOOP
+EN GEBRUIK VOOR BEPAALDE DOELEINDEN,
+GELDEN SLECHTS VOOR DE PERIODE VAN DE
+BOVENGENOEMDE NEGENTIG (90) DAGEN,
+ONDERHEVIG AAN HET VOORAFGAANDE WORDT
+DIT SONY ELECTRONIC PUBLISHING
+VERKOCHT ZONDER ENIGE UITDRUKKELIJKE OF
+IMPLICIETE GARANTIEBEPALINGEN EN SONY
+ELECTRONIC PUBLISHING IS NIET
+AANSPRAKELIJK VOOR ENIG VERLIES OF
+SCHADE GELEDEN ALS RESULTAAT VAN HET
+GEBRUIK VAN DIT PRODUKT. IN GEEN GEVAL |S
+SONY ELECTRONIC PUBLISHING
+AANSPRAKELIJK VOOR INCIDENTELE SCHADE
+OF GEVOLGSCHADE VOORTVLOEIENDE UIT HET
+BEZIT, GEBRUIK OF HET DEFECT VAN DIT
+SOFTWAREPRODUCT.
+
+Sommige landen laten geen tydslimiet toe
+betreffende de geldigheid van de
+garantiebepalingen en/of uitsluiting of
+beperkingen van gevolgschade en daarom zijn de
+voornoemde beperkingen en/of uitsluitingen van
+aansprakelijkheid wellicht niet op u van
+toepassing. De voornoemde garantiebepalingen
+geven u bepaalde wettelijke rechten en het is
+mogelijk dat u nog andere rechten heeft die van
+land tot land kunnen verschillen."
+
+===== Page 35 =====
+
+THE NETHERLANDS
+Columbia Tristar Home Video
+Postbus 685
+
+1200 AR Hilversum
+
+The Netherlands
+
+BELGIUM
+
+Columbia Tristar Home Video
+Opperstraat 38, rue Souveraine
+1050 Brussels
+
+Belgium
+
+33
+
+===== Page 36 =====
+
+INDICE OE MATBRIAS
+
+X-Kaliber 2097
+
+La mision de las Fuerzas
+Especiales de Neo
+Nueva York
+
+Manos a la obra
+
+Mandos de X-KALIBER
+Comprobacion del estado
+El enemigo
+
+Ultima reunion informativa
+de las FENNY
+
+Consejos de estrategia
+
+Ficha tecnica y artistica
+
+3h
+
+35
+36
+37
+37
+
+38
+
+39
+39
+
+66
+
+34
+
+X-KALIBER 2097
+
+Estamos en el afio 2097. La situacion se ha
+hecho insostenible. Empleos y parques han
+desaparecido a manos de los sefiores de la
+guerra, quienes se han hecho con el poder
+de las naciones y ciudades y han dividido
+el globo.
+
+Raptor gobierna
+Neo Nueva York
+con un ejército de
+morfos sedientos
+de sangre —
+mutantes
+metamorficos,
+obra del Dr. Blast, uno de los cientificos a
+sus Ordenes—, pero un hombre se interpone
+entre Raptor y el poder absoluto: Slash.
+
+Slash es uno de los dos tnicos sobrevivientes
+de las Fuerzas Especiales de Neo Nueva York,
+uno de los dos agentes que Raptor no
+consigue eliminar ni corromper. Armado con
+X-Kaliber, la mitica espada lanzarrayos,
+Slash es capaz de hacer trizas a los morfos
+de Raptor con una sola mano. Y puesto que
+Raptor no logra deshacerse de Slash, tendra
+que eliminar su espada, a cualquier precio.
+
+sie
+
+La companera de
+fatigas de Slash es
+Alix, la
+renombrada
+agente de las
+Fuerzas Especiales
+y lider de la hs
+revolucion contra el yugo de Raptor. El
+hombre de confianza de Raptor, Cafia, ha
+secuestrado a Alix, consciente de que Slash
+acudira sin tardar a su ayuda, con
+X-Kaliber.
+
+===== Page 37 =====
+
+De esta forma, Raptor consequira las tres
+cosas que mas anhela: hacerse con el control
+de Neo Nueva York, conseguir una espada
+mas poderosa que la suya y la cabeza de
+Slash servida en bandeja.
+
+No obstante, no sera tarea sencilla. Slash
+esta abriendose paso a través de las lineas
+de defensa de Raptor, despedazando a todo
+morfo que se interponga en su camino.
+Cada vez que derrota a uno, obtiene valiosa
+informacion y descubre un misterio. La
+ingenieria genética precisada para fabricar
+estos morfos es demasiado compleja para
+que sea obra de Raptor y Blast, tiene que
+haber otra explicacion, pero ¢cual?
+
+Slash se enfrenta a Raptor en el combate
+final. En él, Slash se entera de la dura
+verdad: Raptor es su propio hermano
+mellizo, del que le separaron en la infancia,
+durante la fatidica explosion habida
+mientras los dos exploraban la red de
+alcantarillado de Nueva York... Cuando
+Slash volvio en si, Raptor habia
+desaparecido y, en su lugar, habia
+aparecido X-Kaliber, refulgente entre
+
+la inmundicia.
+
+Por fin, Raptor es derrotado y su amor por el
+Mar desaparece como por arte de magia.
+Pero, la mision de Slash no ha concluido: se
+encuentra con Spuke, otro secuaz aun mas
+extrario si cabe, que le lleva a Krux, otro
+descubrimiento aun mas cruel
+
+y estremecedor.
+
+Krux —un repugnante monstruo
+interdimensional, guardian de los
+guardianes— es el que manejaba los hilos
+del poder y el que gobierna la Tierra en
+nombre de una turba intergalactica; Raptor
+no era mas que un mero pedn bajo las
+ordenes de Krux.
+
+35
+
+La tierra natal de Krux se le ha quedado
+pequenia al estar ya superpoblada,
+contaminada y en ruinas. Ahora, precisa
+nuevo territorio en el que ejercer su yugo.
+Con ayuda de los demenciales experimentos
+del Dr. Blast, Krux
+logr6 atravesar el
+velo dimensional
+para lograr
+imponer la
+corrupcion en
+todo el mundo.
+
+Aquella explosion habida en las alcantarillas
+no fue otra cosa que la primera ocasion en
+que Krux atraveso el velo dimensional; fue
+entonces cuando se apoderé de Raptor y lo
+convirtio al Mal. Con toda la confusion que
+siguid a la explosion, Krux se dejé olvidada
+un arma: su preciada espada. Al pertenecer
+a su mundo, esta espada es el Unico objeto
+capaz de herirlo, el Unico objeto al que Krux
+teme: X-Kaliber.
+
+Mientras tanto, Krux se ha apoderado de
+Alix y la utiliza como sefuelo para atraer a
+Slash hasta su trampa. Una vez que se haya
+librado de los agentes de las Fuerzas
+Especiales, su raza de morfos controlara no
+solo Nueva York, sino la Tierra entera. Lo
+Unico que se lo impide es X-Kaliber.
+
+Pero, X-Kaliber esta en manos de Slash y no
+esta dispuesto a desprenderse de ella.
+
+LA MISION DE LAS PUBRZAS BSPECIALES
+DE NEO NUEVA YORK
+
+Como miembro de las Fuerzas Especiales de
+Neo Nueva York, te toca rescatar a tu
+companera Alix de las garras del perverso
+senor de la guerra Krux. Para salvarla, tienes
+que luchar contra los maleficos miembros de
+una poderosa turba intergalactica que no se
+detendra ante nada para recuperar X-
+Kaliber y devolvérsela a su lider sediento
+
+de poder.
+
+===== Page 38 =====
+
+MANOS A LA OBRA
+
+INICIO DEL JUEGO
+
+Introduce el cartucho de juego y enciende
+el sistema. A continuacién, aparecera en
+pantalla la secuencia de introduccion de
+X-Kaliber.
+
+Nota: Es posible interrumpir la secuencia de
+introducci6n en cualquier momento con
+solo pulsar el boton START del panel de
+mandos a fin de proceder a la secuencia
+del titulo.
+
+Hay bu
+
+ATA
+2. ‘he iol
+
+> 4 PLAYER QUEST
+2 PLAYER DUEL
+OPTIONS
+
+Para aventuras de un jugador:
+
+Debido a que la configuracion
+predeterminada es la de un jugador (i-
+player), basta con pulsar un boton
+cualquiera para empezar.
+
+Para duelo de dos jugadores:
+
+PLAYER SELEOT
+Pa
+RAPTOR
+
+PRESS START TO EXIT 2P GAME
+
+Usa el boton SELECT 0 las flechas para
+llevar el cursor hasta la opcion 2 Player
+Duel y, seguidamente, pulsa un boton
+cualquiera para que aparezca la
+pantalla de seleccion de personajes
+(Player Select).
+
+Utiliza las flechas para resaltar el
+personaje que deseas representar y, a
+continuacion, pulsa un boton
+cualquiera (excepto START). El duelo da
+comienzo en cuanto ambos jugadores
+han elegido a sus personajes.
+
+b)
+
+36
+
+Tras cada duelo,
+se muestran las
+estadisticas
+victoriosas de
+cada uno de los
+personajes en la
+pantalla de
+resultados (RESULT). Se te da la posibilidad
+de pulsar el boton START para abandonar la
+modalidad de dos jugadores y empezar un
+juego de uno solo o de pulsar otro boton
+cualquiera para volver a la pantalla de
+seleccion de personajes (CHARACTER SELECT)
+y empezar otro duelo de dos jugadores.
+
+SLASH DEFEATED RAPTORS
+
+sLasH
+TATTOO
+
+0% 00
+
+00 00
+
+00 00
+
+90 90
+
+00 00
+
+00 00
+
+00 00
+
+waNs
+Ps
+
+oHAINSAL
+KANE,
+DR.BLAST
+SPUKE
+RAPTOR
+
+PRESS START TO
+
+P2
+EXIT 2P Gane
+
+CAMBIO DE LAS
+OPCIONES DE
+JUEGO
+
+Para cambiar las
+opciones de juego
+antes de empezar,
+desde la pantalla
+de titulo, usa el botén SELECT o las flechas
+para llevar el cursor hasta OPTIONS y, acto
+seguido, pulsa un boton cualquiera. A
+continuacion, verads aparecer en pantalla el
+menu de opciones. Usa las flechas para ir de
+una a otra de las mismas.
+
+options
+
+DIFF IOULTY
+Lives
+OONTINUES
+SOUND MODE
+
+3 NORMAL
+°
+
+3
+
+STEREO
+
+CONTROL SETUP
+MUSIC TRACKS 00
+
+EXIT
+
+DIFFICULTY (dificultad)
+
+Puedes elegir entre ocho niveles de
+dificultad que van de facil a dificil. Usa las
+flechas derecha e izquierda para llegar al
+nivel que prefieras.
+
+LIVES (vidas)
+Selecciona de una a cinco vidas por juego.
+
+CONTINUES (continuaciones)
+Selecciona de cero a cinco continuaciones.
+
+SOUND MODE (sonido)
+
+STEREO (estéreo) es la seleccion normal. Si el
+Super Nintendo Entertainment System esta
+conectado con una television monofonica 0
+con un video de un solo canal, selecciona
+MONAURAL (monofénico).
+
+===== Page 39 =====
+
+CONTROL SETUP (mandos)
+Puedes asignar las distintas técnicas de
+espada a los botones que prefieras.
+
+Selecciona la
+técnica de espada
+en cuestion y,
+seguidamente,
+pulsa el boton
+que deseas
+asignarle. Pulsa el
+boton START para salir de esta opcion.
+
+PRESS START
+
+To EMIT
+
+MUSIC TRACKS (bandas sonoras)
+
+Esta opcidn te permite oir todas las bandas
+neotecno antes de empezar a jugar. Basta
+con seleccionar el numero de la banda que
+quieres oir, con ayuda de las flechas, y
+pulsar el boton B. Selecciona la pista 00 a
+fin de parar la musica.
+
+EXIT (salir)
+Sirve para regresar a la pantalla de titulo.
+
+Nota: Para devolver las opciones a su estado
+original, desactiva el Super Nintendo
+Entertainment System y vuélvelo a activar.
+Para pasar a jugar con las nuevas opciones,
+pulsa RESET.
+
+MANDOS DE X-KALIBER
+
+Domina a la perfeccion el arte del manejo de
+la espada para poder librar a Neo Nueva
+York del yugo despiadado de Krux. Los
+movimientos elementales son: estocada
+(botén A), parada (botén X), golpe (botén
+Y) y corte (botén A mas flecha superior).
+
+La naturaleza interdimensional de X-Kaliber
+le confiere unos poderes desconocidos en
+nuestro mundo. Al pulsar el boton derecho o
+izquierdo, X-Kaliber lanza un rayo de
+energia de potencia tal que es capaz de
+partir a un mutante por la mitad.
+
+Nota: Las operaciones siguientes se refieren
+a la configuracion predeterminada de los
+
+mandos. Consulta la opcion CONTROL SETUP
+del menu Options para cambiar la
+configuracion de los mandos.
+
+Rayo de energia (ataque 3)
+
+Rayo de energia (ataque 3)
+
+Parada de espada (guardia)
+Boton sin usar
+
+Caminar y agacharse
+
+Pausa
+
+Golpe de espada (ataque 1)
+
+Salto
+
+Estocada (ataque 2)
+
+GOMPROBAGION DEL ESTADO
+
+COON DUEWH -
+
+1 SCORE (puntuacién):
+
+Muestra los puntos obtenidos.
+
+TOP SCORE (puntuacion maxima):
+
+La puntuacion maxima desde el inicio
+del juego.
+
+THE ENERGY LEVEL (nivel energético):
+Mide la fuerza vital de Slash 0, en
+modalidad de duelo, la fuerza vital del
+jugador numero |.
+
+OPPONENT’S ENERGY LEVEL (nivel
+energético enemigo):
+
+Mide la fuerza vital del adversario de
+Slash 0, en modalidad de duelo, la
+
+37
+
+===== Page 40 =====
+
+fuerza vital del jugador numero 2.
+5 TIME (cronémetro):
+Consulta la parte superior de la pantalla
+para ver el tiempo que te queda en el
+nivel actual.
+VIDAS:
+Al principio de cada vida nueva, el numero
+de vidas de que dispone Slash aparece en el
+centro de la pantalla.
+Nota: La puntuaci6n maxima se pone a cero
+si apagas el Super Nintendo Entertainment
+System y lo activas inmediatamente.
+
+EL ENEMIGO
+
+El ejército: La turba de Raptor de soldados
+automatas de infanteria se dedica a sembrar
+el Mal en todas las etapas de la mision. Si
+bien es la fuerza mas débil de Krux, es
+también la mas numerosa.
+
+Ciberdinos
+
+Las naves de reconocimiento
+observan las actividades de
+la zona.
+
+Las naves laser patrullan
+ciertas etapas para impedirte
+la entrada.
+
+Los dispositivos de
+almacenamiento de energia
+contienen articulos de fuerza
+vital especiales que te
+restituyen la energia perdida.
+Busca los ciberdinos ocultos que te dotan de
+una vida extra.
+
+Articulos de fuerza vital especiales:
+
+La bebida te proporciona un
+poco de energia extra.
+
+La hamburguesa te da un
+nivel moderado de energia.
+
+La carne te suministra el nivel
+maximo de energia.
+
+1-UP te regala una vida extra.
+
+Los morfos mutantes:
+
+Las creaciones de laboratorio del Dr. Blast
+logran una gran variedad de poderes de
+ataque al sufrir una metamorfosis.
+
+LA TURBA DE KAUY
+
+Tatuaje:
+
+Usa una espada
+larguisima y su tatuaje
+especial de rosa en los
+ataques especiales
+
+Sierra eléctrica:
+
+Esta maquina mutante
+con forma humana se
+convierte en un esqueleto
+de automata con una
+sierra eléctrica por brazo.
+
+Cana:
+
+Lleva sombrero y cana de
+bambu, dueto utilizado
+como arma mortifera.
+
+===== Page 41 =====
+
+Dr. Blast:
+
+El creador de los morfos
+
+mutantes es victima de
+
+sus propios is
+
+Be experimentos, al
+convertirse en un
+
+s peligrosisimo escorpion
+
+volador.
+
+Raptor:
+
+tl hermano prédigo de
+Slash posee otra de las
+B poderosas espadas de
+Krux para batirse en
+duelo a muerte.
+
+Spuke:
+
+Cuando es derrotado,
+este mutante acrobata
+que se alimenta de gas,
+te guiara hasta Alix y el
+
+E Mal que se ha apoderado
+de Neo Nueva York.
+
+ULTIMA REUNION INFORMATIVA DE LAS
+PENMY
+
+Estas a punto de lanzarte a la mision de las
+Fuerzas Especiales de Neo Nueva York
+(FENNY) més peligrosa de todos los tiempos.
+Las fuerzas de Krux no se detendran ante
+nada. Tu técnica de espadachin sirve tan
+solo para ganar tiempo ante tus feroces
+enemigos. Has de aprender a dominar los
+poderes interdimensionales de X-Kaliber
+para conquistar la malévola fuerza de esta
+turba intergalactica.
+
+Recuerda, cada uno de los alienigenas tiene
+informacion que puede resultarte de gran
+utilidad en tu mision. Tienes que derrotar a
+todos y cada uno de los enemigos y recoger
+toda la informacion disponible antes de
+poder rescatar a Alix y devolver la paz a Neo
+Nueva York.
+
+39
+
+GONSEJOS DE ESTRATEGIA
+
+Usa la maniobra de parada de espada
+para escudarte de los golpes enemigos.
+Consulta el contador de fuerza vital y
+procura recoger todos los articulos de
+recuperacion de energia posibles.
+Ejecuta tus movimientos en el momento
+preciso para esquivar los predecibles
+ataques de las fuerzas de defensa
+
+de Krux.
+
+Cada técnica de espada tiene sus
+ventajas, segun la situacion.
+
+===== Page 42 =====
+
+ADVERTENCIA ACERCA DE LA EPILEPSIA
+Lea esta advertencia antes de utilizar este
+sistema de juego de video o permitir que sus
+hijos lo utilicen.
+
+Algunas personas son susceptibles de padecer
+ataques epilépticos o pérdida del conocimiento
+cuando se exponen a ciertos patrones de luz 0
+luces destellantes en su vida cotidiana. Tales
+personas pueden sufrir un ataque mientras ven
+Ciertas imagenes de television o utilizan ciertos
+juegos de video. Esto puede suceder incluso si la
+persona no tiene un historial médico de epilepsia
+0 nunca ha sufrido ataques epilépticos.
+
+Si usted o cualquier miembro de su familia ha
+tenido alguna vez sintomas relacionados con la
+epilepsia (ataques o pérdida de conocimiento)
+cuando se haya expuesto a luces destellantes,
+consulte a su médico antes de jugar.
+
+Nosotros recomendamos que los padres
+supervisen la utilizaci6n que sus hijos hacen de
+los juegos de video. Si usted o sus hijos
+experimentan alguno de los siguientes sintomas:
+mareos, vision borrosa, contracciones oculares 0
+musculares, pérdida de conocimiento,
+desorientacion, cualquier movimiento involuntario
+0 convulsiones, mientras utiliza un juego de
+video, interrumpa INMEDIATAMENTE la utilizacion
+del sistema y consulte a su médico.
+
+PRECAUCIONES QUE DEBEN TOMARSE
+DURANTE LA UTILIZACION
+
+No se ponga demasiado cerca de la pantalla.
+Siéntese bien separado de la pantalla del
+televisor, tan lejos como permita la longitud
+del cable.
+Utilice el juego con una pantalla de television
+lo mas pequefia posible.
+Evite jugar si se encuentra cansado o no ha
+dormido lo suficiente.
+Asegurese de que la habitacion donde esté
+jugando esté bien iluminada.
+Descanse un minimo de entre 10 y 15 minutos
+cada hora mientras utiliza un juego de video.
+
+GARTANTIA
+“Sony Electronic Publishing le garantiza al
+comprador original de este producto Sony
+Electronic Publishing, por un perlodo de novonta
+(90) dias desde la fecha de su compra, que este
+Paquete de Juego esta libre de defectos de
+material y mano de obra y conouerda, que dontro
+de este periodo y a su opcion, ya sea reparario 0
+camblarlo gratuitamente. Envia el producto a
+
+40
+
+porte pagado, junto con prueba de fecha de
+compra, al domicilio indicado abajo. Esta garantia
+no aplicara y sera nula si el defecto de este
+producto Sony Electronic Publishing ha resultado
+de su abuso, uso irrazonable, mal tratamiento o
+negligencia.
+
+ESTA GARANTIA REENPLAZA TODAS LAS OTRAS
+GARANTIAS Y NINGUNA OTRA
+REPRESENTACION O RECLAMACION OBLIGARA
+A SONY ELECTRONIC PUBLISHING. CUALQUIER
+IMPLICACION DE GARANTIA QUE APLIQUE A
+ESTE PRODUCTO DE SOFTWARE. INCLUYENDO
+GARANTIAS DE MERCABILIDAD Y VALOR PARA
+UN ESPECIFICO PROPOSITO. ESTA LIMITADA AL
+PERIODO DE NOVENTA DIAS (90) ESPECIFIADO
+ARRIBA. SUJETO A LO ANTERIOR,ESTE
+PRODUCTO DE SONY IELECTRONIC PUBLISHING
+SE VENDE "COMO ES" SIN NINGUNA GARANTIA
+EXPRESADA O IMPLICADA DE NINGUNA CLASE,
+Y SONY ELECTRIONIC PUBLISHING NO ES
+RESPONSABLE DE CUALQUIER PERDIDA 0
+DANOS DE CUALQUIER CLASE RESULTANTES
+DEL USO DE ESTE PRODUCTO, BAJO NINGUNA
+CIRUNSTANCIA SERA SONY ELECTRONIC
+PUBLISHING RESULTANTES DE LOS DANOS
+CONSECUENCIALES O INCIDENTALES
+RESULTANTES, DE LA POSESION, USO 0 MAL
+FUNCIONAMIENTO DE ESTE PRODUCTO DE
+SOFTWARE.
+
+Algunos paises no permiten limites de duracion
+de garantia y/o exclusiones o limites de dafios
+consecuenciales, de forma que los limites de
+arriba y/o las exclusiones de responsabilidad
+puede que no apliquen en tu caso. La garantia de
+arriba te da derechos legales especilicos y puede
+que también tengas otros dorochos, los cuales
+varian de pais a pais."
+
+SPAIN
+
+Columbia Tristar Home Video Y Cia, SRC
+C/Albacete, 5-4 Planta
+
+28027 Madrid
+
+Spain
+
+===== Page 43 =====
+
+
+
+===== Page 44 =====
+
+INDICE
+
+X-Kaliber 2097
+
+La missione delle NNYSF
+Avvio
+
+| controlli di X-Kaliber
+
+Controllo dello stato
+del giocatore
+
+Il nemico
+L’ultimo bollettino delle NNYSF
+Consigli strategici
+
+Autori
+
+42
+43
+43
+
+45
+
+45
+46
+AT
+
+AT
+
+66
+
+2
+
+X-KALIBER 2097
+
+E il 2097. La vita si é fermata. Non c’é pil
+lavoro. Non ci sono pill parchi dove
+passeggiare. | paesi e le citta sono state
+inghiottite dai signori della guerra ed il
+mondo é stato diviso.
+
+j Raptor governa
+Neo New York con
+un esercito di
+Morfi assetati di
+sangue, mutanti,
+y creati da Dr.
+
+Blast, uno degli
+scienziati al suo servizio. Ma c’é un uomo tra
+Raptor e il potere assoluto: Slash!
+
+Slash e uno dei due membri sopravwvissuti
+delle forze speciali di Neo New York, uno dei
+due agenti che Raptor non riesce ad
+eliminare oppure a corrompere. Utilizzando
+la sua arma X-Kaliber, la mitica spada
+lancia fulmini, con una sola mano Slash é@
+capace di tagliare i Morfi di Raptor a
+pezzettini e cerchera di prendere la sua
+spada, a tutti i costi.
+
+\ we
+
+Alix é la
+compagna di
+Slash, l’agente
+donna famosa in
+tutto il mondo, ed
+l’unico altro
+agente rimasto -
+delle forze speciali a condurre una
+rivoluzione contro il potere di Raptor. Kane,
+il sequace di Raptor, I’ha rapita, sapendo
+che Slash la cerchera subito con X-Kaliber.
+
+===== Page 45 =====
+
+Cosi Raptor otterra le tre cose cha ha sempre
+desiderato: i] controllo di Neo New York,
+una spada piu potente della sua e la testa
+di Slash.
+
+Ma non sara cosi facile. Slash si sta facendo
+largo con la sua spada tra le difese esterne
+di Raptor, riducendo a pezzi ogni Morfo che
+incontra sul suo cammino. Ogni volta che ne
+sconfigge uno, guadagna delle informazioni
+e scopre un mistero. Questi Morfi sono
+troppo sofisticati per essere stati progettati
+geneticamente da Raptor e Blast; ci deve
+essere un’altra spiegazione. Quale sara
+
+il segreto?
+
+Slash affronta Raptor nella resa dei conti
+finale? Slash apprende la prima di una serie
+di verita sconvolgenti: Raptor e suo fratello
+gemello; i due sono stati separati quando
+erano ragazzi. Tutto accadde durante quella
+micidiale esplosione quando entrambi
+stavano esplorando le fognature sotterranee
+di New York... Quando Slash riprese i sensi,
+Raptor era scomparso. E li, sotto le macerie
+brillava X-Kaliber.
+
+Infine Raptor viene sconfitto, la sua sete di
+sangue é stata distrutta, come se un
+incantesimo fosse stato rotto. Ma la missione
+di Slash non é ancora compiuta. Slash
+incontra Spuke, un altro strano seguace dei
+Morfi. Spuke lo conduce verso un’altra
+verita, pit grande e sconvolgente: Krux.
+
+Krux rappresenta i] potere in senso assoluto:
+un orribile mostro interdimensionale, é il
+capo dei capi. Sorveglia la terra per conto di
+una banda criminale intergalattica; Raptor
+eseguiva soltanto gli ordini di Krux.
+
+II luogo nativo di
+Krux era gia
+affollato,
+inquinato e
+rovinato. Krux
+aveva bisogno di
+
+conquistare altri mondi. Grazie agli
+esperimenti senza controllo del Dr. Blast,
+Krux poté perforare il velo dimensionale
+e procedere nella sua ricerca della
+corruzione mondiale.
+
+Per la prima volta, con l’esplosione delle
+fognature, Krux fu in grado di oltrepassare
+il muro dimensionale; fu allora che prese
+Raptor e lo converti al male. Ma nella
+confusione dell’esplosione, Krux lascid
+indietro qualcosa: un’arma. La sua preziosa
+spada. E poiché proviene dalla patria di
+Krux X-Kaliber é l’unica cosa che pud fargli
+del male, |’unica cosa di cui ha paura.
+
+Nel frattempo, Alix é@ nelle grinfie di Krux. La
+sta usando per attirare Slash nella sua
+trappola. Una volta eliminate le forze
+speciali, la sua banda di Morfi controllera
+per sempre non solo New York, ma anche
+tutta la terra. L’unica cosa che per ora gli
+impedisce di raggiungere il suo obiettivo é
+X-Kaliber.
+
+Ma X-Kaliber é nelle mani di Slash, che non
+ha intenzione di lasciarla.
+
+LA MISSIONE DELLE NNYSP
+
+Voi, in qualita di membri delle forze speciali
+di Neo New York, dovete salvare la
+compagna Alix dalle grinfie di Krux, il
+malvagio signore della guerra. Per
+raggiungere Alix dovete combattere contro i
+membri malvagi della banda criminale
+intergalattica, che non si fermeranno
+davanti a niente pur di riportare X-Kaliber
+al loro spietato capo, avido di potere.
+
+AVVIO
+
+AVVIO DEL GIOCO
+
+Inserire Game Pak (i dischetti del gioco) e
+accendere il sistema (ON). Sullo schermo
+verra visualizzata l’anteprima del gioco di
+X-Kaliber.
+
+Nota: l’anteprima del gioco puo essere
+
+===== Page 46 =====
+
+interrotta in qualsiasi momento premendo il
+pulsante START sul tastierino di controllo per
+visualizzare la schermata dei titoli.
+
+FT
+ATAAY Ad
+2 | DS
+
+2 PLAYER DUEL
+OPTIONS
+
+Per la ricerca ad un giocatore:
+
+Poiché il gioco ad 1-player (1 giocatore) é
+l'impostazione predefinita, per incominciare
+é sufficiente premere un pulsante qualsiasi.
+Per il duello a due giocatori:
+
+PLAYER SELEOT
+
+PRESS START TO ENIT 2P
+
+Gane
+
+a) Premere il pulsante SELECT oppure il
+tastierino di controllo per spostare il
+cursore vicino a 2 Player Duel (Duello a
+2 giocatori) e premere un pulsante
+qualsiasi per visualizzare la schermata
+Player Select (Selezione dei giocatori).
+Utilizzare il tastierino di controllo per
+evidenziare i] personaggio desiderato e
+premere un pulsante qualsiasi (ad
+eccezione del pulsante START). II duello
+incomincia non appena entrambi i
+giocatori selezionano i personaggi
+desiderati.
+
+b)
+
+Dopo ogni duello,
+sulla schermata
+RESULT (Risultato)
+verranno
+visualizzate le
+statistiche di ogni
+EXIT 2P GAME ooo oo personaggio.
+Premere il pulsante START per uscire dalla
+modalita a due giocatori e incominciare il
+gioco nella modalita ad un giocatore;
+oppure premere un pulsante qualsiasi per
+
+SLASH DEFEATED RAPTORS
+
+sLasH
+TatTToo
+
+cHamnsaw
+KANE
+DR.BLAST
+SPUKE
+RAPTOR
+
+PRESS START TO
+
+Ah
+
+tornare alla schermata CHARACTER SELECT
+(selezione dei personaggi) per incominciare
+un nuovo gioco nella modalita a
+
+due giocatori.
+
+COME CAMBIARE
+LE OPZIONI DI
+GIOCO
+
+Per cambiare le
+impostazioni del
+gioco prima di
+iniziare a giocare,
+premere il pulsante SELECT oppure utilizzare
+il tastierino di controllo per spostare il
+cursore su Opzioni nella schermata dei titoli
+e premere un pulsante qualsiasi: verra
+visualizzato i] menu opzioni. Utilizzare il
+tastierino di controllo per selezionare le
+nuove impostazioni.
+
+opTroNs
+
+»DIFFIOULTY
+Lives
+OONTINUES.
+SOUND MODE
+
+@ NORMAL
+e
+
+3
+STEREO
+
+cONTROL SETUP
+MUSIC TRACKS 00
+
+EXIT
+
+DIFFICULTY (Difficolta)
+
+Scegliere uno degli otto livelli che vanno da
+molto facile a molto difficile. Utilizzare il
+tastierino di controllo per spostarsi a sinistra
+0 a destra per far scorrere le opzioni
+
+di impostazione.
+
+LIVES (Vite)
+Selezionare da una a cinque vite per gioco.
+
+CONTINUES (Continua)
+Selezionare da zero a cinque continua.
+
+SOUND MODE (Modalita del suono)
+STEREO é l’impostazione sonora predefinita.
+Se Super Nintendo Entertainment System é
+collegato ad una televisione mono, oppure
+ad un VCR con un canale audio singolo,
+selezionare MONAURAL (Monoaurale).
+
+CONTROL SETUP (Impostazione dei
+controlli)
+
+Si possono assegnare le mosse della spada
+ad un pulsante qualsiasi del controllore.
+
+===== Page 47 =====
+
+Selezionare la
+mossa della
+spada da
+assegnare e
+premere il
+pulsante che si
+desidera
+utilizzare sul relativo controllore. Premere il
+pulsante START per uscire dalla modalita di
+impostazione dei controlli.
+
+CONTROL SETUP
+
+JUMP
+euarD
+
+PRESS START TO EXIT
+
+MUSIC TRACKS (Brani musicali)
+
+Consente di ascoltare tutti i brani di musica
+neo-tecno prima di iniziare a giocare. Con il
+tastierino di controllo selezionare i] numero
+del brano che si vuole ascoltare e premere il
+pulsante B. Selezionare i] brano musicale 00
+per interrompere la canzone corrente.
+
+EXIT (Esci)
+Consente di tornare alla schermata dei titoli.
+
+Nota: per tornare alle impostazioni originali,
+spegnere (OFF) il Super Nintendo
+Entertainment System e riaccenderlo (ON).
+Premere RESET (Ripristina) per avviare di
+nuovo il gioco senza cambiare le nuove
+impostazioni delle opzioni.
+
+CONTROL OI X-KALIBER
+
+Imparate ad utilizzare con padronanza la
+spada X-Kaliber per liberare Neo New York
+dal regno del terrore di Krux. Le mosse
+fondamentali sono: stoccata (pulsante A ),
+parata (pulsante X), colpo violento
+(pulsante Y) e colpo tagliato (pulsante A e
+pulsante su contemporaneamente).
+
+Con i suoi poteri interdimensionali, X-
+Kaliber possiede delle abilita uniche fino ad
+ora sconosciute. Premendo il pulsante L
+oppure R, X-Kaliber libera un fulmine di
+energia cosi potente da tagliare a meta un
+Morfo mutante.
+
+Nota: le seguenti operazioni del controllore
+si riferiscono alle impostazioni predefinite
+
+dei pulsanti. Vedere Impostazione dei
+controlli nel menu Options (Opzioni) per
+cambiare le impostazioni del controllore.
+
+I k 2 3
+
+6 7
+
+5
+
+Fulmine di energia (Attacco 3)
+Fulmine di energia (Attacco 3)
+Parata con spada (Guardia)
+Pulsante inutilizzato
+
+Camminare e accovacciarsi
+
+Pausa
+
+Colpo violento con spada (Attacco 1)
+Salto
+
+Stoccata (Attacco 2)
+
+COON DAU FWhH -
+
+CONTROLLO DELLO STATO DEL GlOCATORE
+
+45
+
+SCORE (Punteggio):
+
+indica il punteggio
+
+TOP SCORE (Punteggio piu alto):
+indica il punteggio pit alto dall’inizio del
+gioco.
+
+THE ENERGY LEVEL (Livello di energia):
+consente di misurare l’energia vitale di
+Slash, oppure, nella modalita duello,
+consente di misurare |’energia del
+giocatore |.
+
+OPPONENT’S ENERGY LEVEL (Livello di
+energia dell’avversario):
+
+consente di misurare |’energia
+dell’avversario di Slash, oppure, nella
+modalita duello, consente di misurare
+l'energia del giocatore 2.
+
+===== Page 48 =====
+
+TIME (Tempo):
+
+viene visualizzato sulla parte superiore dello
+schermo e consente di vedere quanto tempo
+é rimasto a disposizione nel livello corrente.
+VITE :
+
+All’inizio di ogni nuova vita il numero delle
+vite rimanenti di Slash viene visualizzato al
+centro della schermata.
+
+Nota: Accendendo (On) e spegnendo (Off) il
+Super Nintendo Entertainment System verra
+azzerato i] punteggio alto.
+
+IL NEMICO
+
+Esercito: la banda criminale di Raptor con i
+suoi fanti-robot impone la sua malvagita in
+ogni livello della missione. E la forza pit
+debole ma pit numerosa di Krux.
+
+‘Cyberdyne”
+
+Navicelle a cuscino d’aria
+controllano le attivita della
+zona.
+
+Navicelle laser pattugliano
+alcune aree per tenere lontano
+il giocatore.
+
+| Dispositivi di accumulazione
+i di energia contengono degli
+1 elementi di energia speciali
+per reintegrare |’energia.
+
+i Cercare le “Cyberdyne”
+nascoste per ottenere una vita extra.
+
+Elementi di energia speciali:
+
+Bevande forniscono una
+piccola quantita di
+energia extra.
+
+Hamburger fornisce una
+E quantita moderata di energia.
+
+Carne fornisce la quantita
+massima di energia.
+
+\-UP fornisce una vita extra.
+
+| Morfi mutanti:
+
+mediante la metamorfosi, le creazioni
+sperimentali del Dr. Blast ottengono la
+capacita di sferrare attacchi speciali.
+
+LA BANDA CRIMINALE DI KRUX
+
+= ———!
+
+Uomo Tatuato:
+
+usa una spada a lungo
+raggio ed il suo
+tatuaggio rosa per gli
+attacchi speciali.
+
+Uomo motosega:
+
+si tratta di un
+apparecchio mutante
+
+G dalla forma umana che si
+trasforma in una
+struttura robot con un
+braccio motosega.
+
+Kane:
+
+porta un cappello e un
+“*. bastone, utilizzate anche
+come armi mortali.
+
+===== Page 49 =====
+
+Dr. Blast:
+
+é il creatore dei Morfi
+mutanti e vittima del suo
+stesso esperimento; si
+trasforma in un
+pericoloso scorpione
+volante.
+
+# Raptor:
+
+il fratello smarrito di
+Slash possiede un’altra
+potente spada di Krux
+per lanciare una feroce
+sfida a duello.
+
+Spuke:
+
+quando sara sconfitto,
+questo mutante
+acrobatico che respira
+gas, condurra il
+giocatore a Alix e
+all’essere malvagio che
+affligge Neo New York.
+
+L'ULTIMO BOLLETTING DELLE NYSP
+
+State per intraprendere una delle piu
+pericolose missioni delle NNYSF che siano
+mai state assegnate. Le forze di Krux non si
+fermeranno davanti a niente. Le stoccate,
+parate, i colpi violenti e i colpi tagliati
+possono soltanto servire a guadagnare
+tempo per tenere temporaneamente lontani
+gli avversari malvagi. Dovete conoscere a
+fondo le abilita interdimensionali di X-
+Kaliber per conquistare la forza mortale di
+questa banda criminale intergalattica.
+Ricordate, ogni alieno seguace delle forze
+del male possiede delle informazioni che
+possono aiutare la vostra ricerca. Dovete
+sconfiggere ogni nemico e raccogliere tutte
+le informazioni necessarie prima di poter
+salvare Alix e far tornare la pace a Neo
+
+New York.
+
+47
+
+cn
+
+SIGLI STRATEGIC!
+
+Utilizzare la parata per respingere i
+colpi degli avversari spietati.
+Controllare il contatore dell’energia e
+cercare di raccogliere il maggior
+numero possibile di elementi che
+riforniscono energia.
+
+Cronometrare i movimenti per evitare
+gli attacchi meccanici prevedibili delle
+difese di Krux.
+
+Ogni mossa della spada ha i suoi
+vantaggi a seconda della situazione.
+
+===== Page 50 =====
+
+AVVERTENZA A PROPOSITO DELL’EPILESSIA
+Per favore, leggete quanto segue prima di
+utilizzare o di permettere ai vostri figli di utilizzare
+questo sistema per video giochi.
+
+Alcune persone sono suscettibili di attacchi
+epilettici o di perdita della conoscenza se esposte
+a particolari luci intermittenti o motivi luminosi
+durante la vita quotidiana. Tali persone possono
+subire un attacco durante la visione di alcune
+immagini televisive o utilizzando alcuni video
+giochi. Questo pud accadere anche se la persona
+non ha precedenti clinici riguardanti l'epilessia o
+non é mai stata colta da attacchi epilettici.
+
+Se voi 0 altri componenti della vostra famiglia
+avete sperimentato i sintomi correlati all'epilessia
+(attacchi 0 perdita di conoscenza) durante
+l'esposizione a luci intermittenti, consultate il
+vostro medico prima di giocare.
+
+Consigliamo che i genitori tengano sotto controllo
+l'utilizzo dei video giochi da parte dei loro figli. Se
+voi 0 vostro figlio avvertite uno dei seguenti
+sintomi: senso di vertigine, vista annebbiata,
+contrazioni degli occhi o dei muscoli, perdita di
+conoscenza, disorientamento, un qualsiasi
+movimento involontario o convulsione, durante
+lutilizzo di un video gioco, interrompetene |’uso
+IMMEDIATAMENTE e consultate il vostro medico.
+
+Precauzioni durante |’utilizzo
+Non state in piedi davanti allo schermo a
+distanza rawvicinata. Sedetevi ad una certa
+distanza dallo schermo televisivo, tanto quanto
+lo permette la lunghezza del cavo.
+Preferibilmente utilizzate i giochi su uno
+schermo televisivo piccolo.
+Evitate di giocare se siete stanchi 0 non avete
+dormito abbastanza.
+Accertatevi che la stanza nella quale state
+giocando sia ben illuminata.
+Riposate per almeno 10 0 15 minuti ogni ora
+durante l’utilizzo di un video gioco
+
+GARANZIA LIMITATA
+"Sony Electronic Publishing garantisce
+all'acquirente originale di questo prodotto Sony
+Electronic Publishing, per un periodo di novanta
+(90) giorni dalla date d'acquisto, che questo
+Game Pak é libero da difetti di materiale e mano
+d'opera e consente, entro tale per iodo e a sua
+scelta, di ripararlo o sostitulrlo gratis. Spedisci il
+prodotto con le spese di spedizione a tuo carico,
+insieme alla prova d'acquisto datata, all'indirizzo
+
+48
+
+indicato qui sotto. Questa garanzia non sara
+applicabile e sara nulla se il difetto in questo
+prodotto Sony Electronic Publishing é stato
+causato da abuso, uso non ragionevole,
+trattamento improprio o negletto
+
+QUESTA GARANZIA SOSTITUISCE TUTTE LE
+GARANZIE E SONY ELECTRONIC PUBLISHING
+NON SARA’ RESPONSABILE 0 OBBLIGATA PER
+NESSUN 'ALTRA RAPPRESENTAZIONE O
+RICHIESTA DI QUALSIAS! NATURA. QUALSIASI!
+GARANZIA IMPLICITA APPLICABLIE A QUESTO
+PRODOTTO SONY ELECTRONIC PUBLISHING, E
+GARANZIA IMPLICITA DI COMMERCIABILITA’ E
+IDONEITA' AD UNO SCOPO PARTICOLARE
+E'LIMITATA AL PERIODO DI! NOVANTA (90)
+GIORNI SPECIFICATO QUI SOPRA. SOGGETTO A
+QUANDO ESPOSTO PRECEDENTEMENTE,
+QUESTO PRODOTTO SONY ELECTRONIC
+PUBLISHING E' VENDUTO “COME E", SENZA
+ALCUAN GARANZIA ESPRESSA 0 IMPLICITA DI
+NESSUN TIPO SONY ELECTRONIC PUBLISHING
+NON E' RESPONSABILE PER NESSUNA PERDITA
+0 DANNO DI QUALSIAS! TIPO RISULTANTE
+DALL'USO DI QUESTO PRODOTTO. IN NESSUN
+CASO, SONY ELECTRONIC PUBLISHING SARA’
+RESPONSABILE PER DANNI INCIDENTAL! O
+CONSEQUENZIALI RISUL TANTI DAL POSSESSO,
+USO 0 MAL FUNZIONAMENTO DI QUESTO
+PRODOTTO D! SOFTWARE.
+
+Alcuni paesi non permettono limiti sulla durata
+della garanzia e'o sulle esclusioni o sui limiti dei
+danni consequenziali, per cul i limiti e/o esclusioni
+su esposti potrebbero non essere applicabill a te.
+Questa garanzia ti da un diritto legale specifico, e
+potresti avere altri diritti che variano da paese a
+paese.”
+
+ITALY
+Columbia Tristar Home Video SPA
+Via Flaminia 872
+
+00191 Rome
+Italy
+Hotline: CTHV (ITALY) Hotline
+
+33 36 359
+
+===== Page 51 =====
+
+
+
+===== Page 52 =====
+
+INNEHALL
+
+X-Kaliber 2097
+
+NNYSFs uppdrag
+
+Komma igang med spelet
+Kontrollera X-Kaliber
+
+Din spelstatus
+
+Fienden
+
+Sammandrag av
+NNYSFs uppdrag
+
+Strategitips
+
+Design och produktion
+
+50
+
+5!
+
+52
+
+53
+
+53
+
+54
+
+55
+
+55
+
+66
+
+Y-KALIBER 2097
+
+Aret ar 2097 e.Kr. Det vardagliga livet som vi
+kanner det har stannat upp. Inga jobb att
+ga till. Inga parker att promenera i. Lander
+och stader har erévrats av krigsherrar som
+delat upp jordklotet mellan sig.
+
+Raptor regerar i
+w# Neo New York
+med sin armé av
+blodtérstiga
+Morphar —
+E muterade
+
+= E monster som
+skapats av Dr. Blast, en av de
+vetenskapsman som arbetar at honom. Men
+en man star mellan Raptor och
+maktfullkomligheten — Slash!
+
+Slash ar en av de tva Gverlevande
+medlemmarna av Neo New Yorks Special
+Forces, en av tva agenter som Raptor inte
+kan skaka av sig — eller korrumpera.
+Bevapnad med X-Kaliber, ett
+sagenomspunnet svard som kan avfyra
+blixtar, kan Slash pa egen hand skara
+Raptors morphar i smabitar. $8 om Raptor
+inte kan komma at Slash kan han i alla fall
+forsdka fa tag i hans svard. Kosta vad det
+kosta vill.
+
+50
+
+Alix, den
+varldsbero6mda
+kvinnliga
+agenten, ar Slashs
+partner och den
+andra aterstaende
+medlemmen av :
+
+Special Forces som leder en revolution for att
+stérta Raptor. Raptors féljeslagare, Kane,
+
+===== Page 53 =====
+
+har kidnappat henne eftersom han vet att
+Slash snart kommer att félja efter — med
+X-Kaliber.
+
+Da kommer Raptor att ha de tre saker han
+alltid velat ha: kontrollen over Neo New
+York, ett svard som ar kraftfullare an hans
+eget och Slashs huvud pa ett fat.
+
+Men sa enkelt gar det kanske inte. Slash
+svingar sig genom Raptors yttre férsvar och
+
+forgor alla morphar som kommer i hans vag.
+
+Varje gang en morph méter sitt dde far han
+tag i information och upptacker nagot
+mystiskt. Morpharna 4r alltfor sofistikerade
+for att ha blivit skapade genom
+genmanipulation av Raptor och Blast — det
+maste finnas en annan férklaring.
+
+Men vilken?
+
+Slash moter Raptor i den stora slutstriden —
+eller dr det inte slut? Slash lar sig den forsta
+i en serie av chockerande sanningar: Raptor
+ar hans egen tvillingbror som férsvann nar
+han var pojke. Det intraffade i den
+édesdigra explosion som intraffade nar de
+bada hdll pa att utforska New Yorks
+kloaksystem. Nar Slash kvicknade till var
+Raptor borta. Och dar, glittrande under
+ruinerna, lag X-kaliber.
+
+Till slut Ay Raptor slagen och hans ondska
+bruten, precis som om en fértrollning hade
+slappt. Men Slashs arbete ar inte fardigt:
+han méter den underliga morphen Spuke.
+Spuke leder honom till en stdrre och mer
+chockerande sanning — Krux.
+
+Krux ar den verkliga makten bakom tronen
+— ett ohyggligt inter-dimensionellt
+monster, ledarnas ledare! Han 6vervakar
+Jorden fér en intergalaktisk liga — Raptor
+utforde bara Krux order.
+
+Krux hemplanet var redan 6verbefolkad,
+férorenad och é6delagd. Han behévde nytt
+territorium att erovra. Med hjalp av Dr.
+
+Blasts okontrollerade experiment kunde
+Krux ta sig genom den dimensionella
+barriaren och beframja sin plan for
+varldsomspannande korruption.
+
+Kloakexplosionen hjalpte Krux att for forsta
+gangen ta sig till var dimension — det var
+da han tog Raptor och omvande honom till
+ondskan. Men i villervallan efter
+explosionen rakade han lamna nagot efter
+sig: ett vapen. Hans ovardeliga svard. Och,
+eftersom det kommer fran Krux hemplanet
+ar det den enda tingest som kan skada
+honom, det enda han fruktar — X-Kaliber.
+
+Under tiden har Krux Alix i sina klor. Han
+anvander henne som lockbete for att lura
+Slash i fallan. Nar Special Forces-agenterna
+ar ur varlden kommer hans morphar att ha
+fullstandig kontroll éver inte bara New York,
+utan hela varlden. Det enda som kan stoppa
+honom ar X-Kaliber.
+
+Men X-Kaliber ar i Slashs hander. Och han
+slapper inte taget.
+
+NNYSPS UPPORAG
+
+Som en medlem av Neo New York Special
+Forces maste du radda din partner Alix fran
+den ondskefulle krigsherren Krux. Fér att
+komma till Alix maste du slass mot de onda
+medlemmarna av en méktig intergalaktisk
+liga som inte backar for nagonting nar det
+galler att aterta X-Kaliber till sin
+obarmhartige maktgalne ledare.
+
+===== Page 54 =====
+
+KOMMA IGANG MED SPELET
+
+STARTA SPELET
+
+Satt in din Game Pak och sla PA systemet.
+En férhandsvisning av X-Kaliber visas
+
+pa skarmen.
+
+Obs: Du kan nar som helst avbryta
+forhandsvisningen genom att trycka pa
+START, sa visas titelskarmen.
+
+> 4 PLAYER QUEST
+2 PLAYER DUEL
+OPTIONS
+
+Installningar for en spelare:
+
+i-player (1 spelare) ar spelets
+grundinstallning, sa du kan bérja spela
+direkt genom att trycka pd valfri knapp.
+Installningar fér tva spelare:
+
+PLAYER SELECT
+Pa
+RAPTOR
+
+PRESS START TO EXIT 2P GANE
+
+a) Flytta med hjalp av knappen SELECT
+eller riktningskontrollen markéren till
+alternativet 2 Player Duel (2 spelare)
+och tryck pa valfri knapp, sa visas
+skarmen Player Select (Valj spelare).
+Markera med hjalp av
+riktningskontrollen den figur du vill
+anvanda och tryck sedan pa valfri
+
+knapp (utom START). Spelet startar sa
+
+b)
+
+fort bada spelarna har valt sina figurer.
+
+SLASH DEFEATED RAPTORS
+
+Efter varje spel
+visas resultatet
+for varje figur pa
+skaérmen RESULT
+(RESULTAT). Du
+kan avsluta
+
+SLASH
+tattoo
+oHaInsaN
+KANE
+DR.BLAST
+PUKE
+RAPTOR
+
+PRESS START TO
+EXIT 2P cane
+
+52
+
+installningen fdr tva spelare och starta ett
+spel for en spelare, eller ga tillbaka till
+skarmen CHARACTER SELECT (VALJA FIGUR)
+genom att trycka pa valfri knapp och starta
+ett nytt spel for tva spelare.
+
+ANDRA SPELINSTALLNINGARNA
+
+opTrons:
+
+*DIFFIOULTY S NORMAL
+Lives s
+CONTINUES = G.
+
+SOUND HODE STEREO
+
+CONTROL SETUP
+MUSIC TRACKS 00
+
+EXIT
+
+Om du vill andra spelinstallningama innan
+du startar spelet kan du flytta markéren till
+OPTIONS (ALTERNATIV) med knappen SELECT
+eller med riktningskontrollen och sedan
+trycka pa valfri knapp. Valj dina nya
+installningar med hjalp av
+riktningskontrollen.
+
+DIFFICULTY (SVARIGHETSGRAD)
+
+Valj en av atta svarighetsgrader. Bladdra
+genom de olika installningarna genom att
+trycka vanster eller hoger pa
+riktningskontrollen.
+
+LIVES (LIV)
+Valj fran ett till fem liv per spel.
+
+CONTINUES (OMSTART)
+Valj fran noll till fem omstarter.
+
+SOUND MODE (LJUDINSTALLNING)
+
+Spelets grundinstallning ar STEREO (STEREO).
+Om din Super Nintendo Entertainment
+System ar kopplad till en TV utan stereoljud,
+eller genom en enskild ljudkanal pa din
+videobandspelare, ska du valja
+
+MONAURAL (MONO).
+
+===== Page 55 =====
+
+CONTROL SETUP (KONTROLLINSTALLNING)
+Du kan lata valfri knapp bestamma dina
+svardsrGrelser pa din spelkontroll.
+
+Valj aktuell
+svardsrérelse och
+tryck sedan pa
+aktuell knapp pa
+din kontrollenhet.
+Du avslutar
+installningen
+genom att trycka pa START.
+
+control SETUP
+
+MUSIC TRACKS (MUSIK)
+
+Har kan du lyssna pa alla Neo-Techno-
+latarna innan du spelar spelet. Markera med
+hjalp av riktningskontrollen numret pa den
+lat du vill lyssna pa och tryck sedan pa
+knapp B. Du avbryter den aktuella laten
+genom att valja nummer oo.
+
+EXIT (AVSLUTA)
+Visar titelskarmen.
+
+Obs: Vill du aterga till
+originalinstallningarna maste du sla AV ditt
+Super Nintendo Entertainment System och
+sedan sla PA det igen. Vill du starta spelet
+utan att andra dina nya installningar
+trycker du pa RESET.
+
+KONTROLLERA X-KALIBER
+
+Bemastra ditt svard X-Kaliber och anvand
+det for att befria Neo New York fran Krux
+terrorregim. Grundrorelserna dr stot
+(knapp A), parering (knapp X), bredsida
+(knapp Y) och hugg (A + UPPAT).
+
+X-Kalibers inter-dimensionella krafter ger
+svardet unika egenskaper som ar okanda i
+var varld. Genom att trycka pa knapparna
+VANSTER eller HOGER avlossar X-Kaliber en
+energiblixt som kan skaéra en muterad
+morph i tva delar.
+
+Obs: Féljande knappar pa spelkontrollen
+galler grundinstallningarna. Se CONTROL
+
+SETUP (KONTROLLINSTALLNINGAR) i menyn
+Options (Alternativ) om du vill andra
+installningarna fér din spelkontroll.
+
+Energiblixt (ATTACK 3)
+Energiblixt (ATTACK 3)
+Parera (GUARD)
+
+Knapp som inte anvands
+Ga & ducka
+
+Paus
+
+Bredsida (ATTACK 1)
+Hoppa
+
+Stot (ATTACK 2)
+
+DIN SPELSTATUS
+
+O ONAN EWHD -
+
+Re a eee a
+=< #To O009.
+¥oU_ooooss03 == ETOP
+
+3
+
+he
+
+5
+
+1 SCORE (POANG) —
+Visar dina poang.
+
+2 TOP SCORE (HIGH SCORE) —
+Hégsta antal podng sedan spelet
+startades.
+
+3 THE ENERGY LEVEL (ENERGINIVA) em
+Mater Slashs livskraft eller, i installning
+for tva spelare, livskraften for spelare 1.
+
+4 OPPONENT’S ENERGY LEVEL
+(MOTSTANDARENS ENERGINIVA) —
+Mater Slashs motstandares livskraft
+eller, i installning for tva spelare,
+
+53
+
+===== Page 56 =====
+
+livskraften for spelare 2.
+
+5 TIME(TID) —
+Overst pa skarmen ser du hur mycket
+tid du har kvar pa den aktuella
+spelnivan.
+
+LIFE (LIV) —
+
+| bérjan av varje nytt liv visas hur manga liv
+
+Slash har kvar i mitten av skarmen.
+Obs: Om du slar PA och AV ditt Super
+
+Nintendo Entertainment System kommer du
+
+att nollstdlla spelets high score.
+
+FIENDEN
+
+Armen — Raptors trupper av robotsoldater
+sprider ondskan i alla stadier av ditt
+uppdrag. De ar Krux svagaste men mest
+omfattande styrkor.
+
+Cyberdyner
+
+Svavande robotar 6vervakar
+aktivitet i omradet.
+
+Laserrobotar patrullerar vissa
+omraden fér att halla dig
+pa avstand.
+
+sdrskilda objekt fyllda med
+livskraft som kan aterstalla
+i) din energiniva. Hall utkik
+
+Sarskilda objekt med livskraft:
+
+extra energi.
+
+efter gomda Cyberdyner med
+sarskilda objekt som kan ge dig ett extra liv.
+
+Dryck ger dig en liten mangd
+
+s Hamburgare ger dig en
+mattlig mangd energi.
+
+ae Kitt ger dig maximalt
+= med energi.
+
+I-UP ger dig ett extra liv.
+
+De muterade morpharna —
+
+Dr. Blasts experimentella skapelser far en
+mangd olika anfallsmojligheter nar de
+genomgar en metamorfos.
+
+KRUX Lith
+
+Tattoo —
+
+Anvander ett svard med
+lang rackvidd och sin
+tatuering av en ros fér
+sarskilda anfall.
+
+Chainsaw —
+
+En muterad maskin i
+manniskohamn
+forvandlas till ett
+robotskelett med en
+motorsagsarm.
+
+Kane —
+Bar hatt och kapp som
+aven ar livsfarliga vapen.
+
+===== Page 57 =====
+
+A Dr. Blast — STRATEGITIPS
+
+Skaparen av de
+muterade morpharna
+och ett offer for sina
+egna experiment. Kan
+forvandla sig till en
+farlig flygande skorpion.
+
+Anvand pareringskommandot for att
+avvarja hugg fran dina outtrdttliga
+motstandare.
+
+Hall ett dga pa din livskraftsmatare och
+forsék samla pa dig sa manga
+energipafyllande objekt som méjligt.
+
+*  Anpassa dina rorelser sa att du kan
+undvika de férutsagbara mekaniska
+attackerna fran Krux
+forsvarsanordningar.
+
+* — Varje svardsmanéver har sina fordelar,
+beroende pa situationen.
+
+Raptor —
+
+Slashs forsvunna bror
+haller ett annat av Krux
+maktiga svard som
+baddar fdr en valdsam
+duell.
+
+Spuke —
+
+Nar han ar besegrad
+kommer den har
+akrobatiska,
+gasandande mutanten
+
+B leda dig till Alix och den
+
+ondskefulla varelse som
+hemsoker Neo New York.
+
+SAMMANDRAG AV NNYSPS UPPORAG
+
+Du star i fard med att acceptera det mest
+livsfarliga NNYSF-uppdraget nagonsin.
+
+Krux trupper vajer i
+
+nte for nagonting.
+
+Dina stétar, pareringar, hugg och bredsidor
+kan bara ge dig tillracklig tidsfrist for att
+halla tillbaka dina ondsinta elaka
+
+motstandare ett lite
+
+t tag. Du maste
+
+bemastra X-Kalibers inter-dimensionella
+
+egenskaper och 6ve
+intergalaktiska liga.
+
+rvinna denna dédliga
+
+Kom ihag att alla ondskefulla motstandare
+har information som kan hjalpa dig med ditt
+
+uppdrag. Du maste
+
+forgéra varje fiende och
+
+samla all nddvandig information innan du
+kan radda Alix och aterstalla freden i Neo
+
+New York
+
+55
+
+===== Page 58 =====
+
+EPILEPSIVARNING
+Las igenom nedanstéende varning innan du
+bérjar anvaénda detta TV-spelsystem eller innan
+du later dina barn b6rja spela.
+
+En del manniskor kan drabbas av epileptiska
+anfall eller forlora medvetandet nar de utsatts for
+vissa blinkande ljus eller |jusmonster i
+vardagslivet. Sadana personer kan drabbas av
+anfall medan de ser pa vissa sorters bilder pa TV
+eller medan de spelar vissa TV-spel. Detta kan
+intraffa aven om personen ifraga aldrig tidigare
+har lidit av epilepsi eller drabbats av nagra
+epileptiska anfall.
+
+Om du eller nagon i din familj nagonsin har kant
+av epilepsi-relaterade symptom (anfall eller
+medvetandef6rluster) pa grund av blinkande |jus,
+bor du radfraga en lakare innan du bérjar spela.
+Vi rekommenderar att foraldrar haller ett 6ga pa
+sina barn medan de spelar TV-spel. Om du eller
+ditt barn skulle kanna av nagot av foljande
+symptom medan du eller barnet spelar TV-spel,
+sa sluta OMEDELBART spela och kontakta lakare:
+yrsel, Ogonflimmer, dgon- eller muskelryckningar,
+forlust av medvetandet, disorientering, ofrivilliga
+rorelser eller krampryckningar.
+
+FORSIKTIGHETSATGARDER MEDAN DU SPELAR
+¢ Sta inte for nara TV-skarmen. Sitt sa langt bort
+fran TV-skarmen som kabeln tillater.
+
+Spela helst pa en liten TV-skarm.
+
+Undvik att spela om du ar trdtt eller har
+
+sovit daligt.
+
+Se till att rummet du spelar i ar
+
+ordentligt upplyst.
+
+Ta en paus pa minst 10 - 15 minuter varje
+timme nar du spelar TV-spel.
+
+BEGRANSAD GARANTI
+"Sony Electronic Publishing garanterar den
+ursprunglige koparen av denna Sony Electronic
+Publishing-produkt, for en period av nittio (90)
+dagar fran inképsdatumet, att denna Game Pak ar
+fri fran material- och tillverkningsdefekter och
+samtycker till att, inom denna period och enligt
+eget gottfinnande, antingen reparera eller byta ut
+den utan kostnad. Frankera och sand produkten,
+tillsammans med daterat inkdpsbevis till adressen
+nedan. Denna garanti galler ej och ar ogiltig on
+defekten hos denna Sony Electronic Publishing-
+produkt orsakats av missbruk, oresonligt bruk,
+misshandel eller slarv.
+DENNA GARANTI ERSATTER ALLA ANDRA
+
+56
+
+GARANTIER OCH INGA ANDRA
+PRESENTATIONER ELLER KRAV BINDER ELLER
+FORPLIKTAR SONY ELECTRONIC PUBLISHING.
+ALLA IMPLICITA GARANTIER SOM GALLER
+DENNA MJUKVARU-PRODUKT, INKLUSIVE
+GARANTIER GALLANDE FORSALUNINGSBARHET
+OCH LAMPLIGHET FORETT SPECIELLT
+ANDAMAL, BEGRANSAS TILL NITTIO-DAGS (90)
+PERIODEN OVAN. UNDERKASTAT DET TIDIGARE
+NAMNDA, SALUS DENNA SONY ELECTRONIC
+PUBLISHING PRODUKT "| NUVARANDE SKICK’,
+UTAN UTRYCKLIGA ELLER IMPLICITA
+GARANTIER AV NAGOT SLAG OCH SONY
+ELECTRONIC PUBLISHING AR EJ ANSVARIGA
+FOR FORLUST ELLER SKADOR AV NAGOT SLAG
+ORSAKAT AV DENNA PRODUKTS BRUK. UNDER
+INGA OMSTANDIGHETER AR SONY ELECTRONIC
+PUBLISHING ANSVARIGA FOR TILLFALLIGA
+ELLER ATFOLJANDE SKADOR SOM UPPSTAR PA
+GRUND AV INNEHAV, BRUK ELLER FEL HOS
+DENNA MJUKVARU-PRODUKT.
+
+Vissa lander tillater loke tidsbegransade garantier
+och/eller undantag eller begransningar av
+atfdljande skador sa begransningarna och/eller
+undantagen ovan kanske inte galler dig. Garantin
+ovan ger dig specifika, lagliga rattigheter och du
+kan ocksa ha andra rattigheter som kan variera
+fran land till land.”
+
+SWEDEN
+
+Sony Music Entertainment (Sweden)
+Mariehallsvagen 40
+
+Bromma
+
+Sweden
+
+NORWAY
+
+Sony Music Entertainment (Norway) AS
+Ostre Aker Vei 19
+
+0581 Oslo
+
+Norway
+
+===== Page 59 =====
+
+ete Ata
+birds
+a
+; oY epee iia las Fe i ae
+
+===== Page 60 =====
+
+SISALLISLUETTELD
+
+X-Kaliber 2097
+NNYSF-pelastusretkikunta
+Valmistautuminen
+X-Kaliberin ohjaimet
+Pelitilanteen tarkastus
+Vihollinen
+
+Lahtotilanteen selostus
+Strategiavinkit
+
+Suunnittelu ja toteutus
+
+58
+59
+60
+61
+
+61
+
+62
+63
+63
+
+66
+
+58
+
+K-KALIBER 2097
+
+Eletaéan armon vuotta 2097. Elaminen on
+pysahtynyt paikoilleen. Ei ole toita, missé
+kayda. Ei puistoja, missd kulkea.
+Sotapaallikdt ovat jakaneet maapallon
+keskendan ja nielaisseet sen maat
+
+ja kaupungit.
+
+Raptor hallitsee
+uutta New Yorkia,
+A] Neo New Yorkia,
+5 verenhimoisene
+
+@ morfiarmeijoineen
+- Dr. Blastin,
+
+= Raptorin
+palveluksessa olevan tiedemiehen luomien,
+muotoaan muuttavien mutanttien avulla.
+Raptorin ja ehdottoman vallan valissa on
+kuitenkin viela yksi mies — Slash!
+
+Slash on toinen Uuden New Yorkin
+Erikoisjoukkojen, Neo New York Special
+Forcesin eli NNYSF:n, henkiinjaanyt jasen ja
+toinen kahdesta agentista, joista Raptor ei
+ole pddssyt eroon - tai onnistunut
+lahjomaan. X-Kaliber - tarunomainen,
+salamoiva miekka - lyamatt6mana aseenaan
+Slash pystyy silppuamaan Raptorin morfit
+toisella kadellaan. Koska Raptor ei siis
+pysty hoitelemaan Slashia, hanen on
+saatava haltuunsa taman ase. Mihin
+hintaan tahansa.
+
+Slashin kumppanina on Alix,
+maailmanmaineen
+saavuttanut
+naisagentti ja
+toinen Special
+Forcesin
+jaljellaoleva
+
+===== Page 61 =====
+
+agentti, joka johtaa Raptorin hirmuvaltaa
+vastaan taéhdattya vallankumousta. Raptorin
+katyri Kane on kidnapannut Alixin tietaen
+Slashin tulevan pian noutamaan tata - X-
+Kaliber mukanaan.
+
+Taman jalkeen Raptor on saanut kolme
+viimeista asiaa jarjestetyiksi niin kuin on
+aina toivonutkin: Han on saavuttanut
+yksinvallan Neo New Yorkissa, saanut omia
+aseitaan mahtavamman miekan ja Slashin
+paan lautasella.
+
+Taman saavuttaminen on kuitenkin kaikkea
+muuta kuin helppoa. Slash raivaa tiensa
+Raptorin ulompien puolustuslinjojen lavitse
+nujertaen jokaisen tielleen osuvan morfin.
+Aina voittaessaan jonkun naista han saa
+talta lisdtietoja ja yllattyy. Nama morfit ovat
+liian kehittyneita voidakseen olla Raptorin ja
+Blastin geenimanipulaation tulosta - asiaan
+on oltava toinen selitys. Mutta mika?
+
+Slash kohtaa Raptorin lopullisessa
+valienselvittelyssa - vai onko se sita? Slash
+kokee ensimmaisen monista kohahduttavista
+yllatyksista: Raptor on hanen oma
+kaksoiveljensa, joka on kadonnut jo
+poikaiassé. Tama tapahtui kohtalokkaassa
+rajahdyksessa heidan ollessaan kaksistaan
+seikkailemassa New Yorkin maanalaisessa
+viemariverkostossa... Slashin tultua
+tajuihinsa Raptor oli kadonnut. Ja tilalla
+kiilteli X-Kaliber raunioiden seassa.
+
+Lopultakin Raptor on kukistunut. Hanen
+ilkeytensd on kadonnut kuin taikaiskusta.
+Slashin urakka ei ole kuitenkaan viela
+loppunut: Han kohtaa toisen omituisen
+morfiapurin, Spuken. Spuke ohjaa hanet
+edellistakin suuremman, mullistavan uutisen
+- Kruxin - jaljille.
+
+Krux on hirmuvallan varsinainen
+taustavoima - vastenmielinen,
+interdimensionaalinen hirvid, johtajien
+johtaja! Han valvoo maapallolle
+
+59
+
+lahettamaansa, linnunradalta toiselle
+liikkuvaa roskajoukkoa, ja Raptor on vain
+toteuttanut hanen kaskyjaan!
+
+Kruxin oma
+kotimaa oli jo
+ylikansoittunut,
+saastunut ja
+raunioitunut. Han
+tarvitsi uutta
+aluetta kykyjensé
+esittamiseen. Dr. Blastin salaisten kokeiden
+avulla Krux pystyi katkomaan
+ulottuvuuksien sidokset ja aloittamaan
+maailmanlaajuisen korruptioretkensa.
+
+Viemaristérajahdyksessé Krux onnistui
+lapdisemaan ulottuvuusesteet ensi kertaa, ja
+han sai Raptorin valtaansa muuntaen hanet
+ilkidksi. Rajahdyksen jaljilta Kruxilta jai
+paikalle kuitenkin jotain: Ase. Hanen
+ylistetty miekkansa. Koska miekka on
+perdisin Kruxin kotimaailmasta, se on ainoa
+esine, jolla hanet voidaan taltuttaa ja ainoa
+asia, jota han pelkaa: X-Kaliber.
+
+Nyt Kruxilla on kuitenkin Alix kynsissdan.
+Han kayttaa Alixia houkutellakseen Slashin
+ansaan. Saadessaan Special Forcesin agentit
+lopultakin tieltéan hanen morfirotunsa ei
+paase hallitsemaan pelkastaan New Yorkia,
+vaan koko maailmaa. Taman ainoana
+esteend on X-Kaliber.
+
+Mutta X-Kaliber on Slashin hallussa. Eika
+han aio luopua siita.
+
+NNYOP-PELASTUSRETKIKUNTA
+
+Neo New York Special Forcesin jasenenad
+sinun on pelastettava nyt Alix-kumppanisi
+ilkean Kruxin kynsista. Onnistuaksesi joudut
+taistelemaan suuren linnunratainvdlisen
+roskajoukon ilkimyksia vastaan, jotka eivat
+kaihda keinoja saadakseen X-Kaliberin
+palautetuksi taipumattomalle,
+vallanhimoiselle johtajalleen.
+
+===== Page 62 =====
+
+VALMISTAUTUMINEN
+
+PELIN ALOITTAMINEN
+
+Ty6nné pelikasetti paikoilleen ja kytke
+konsolin virta paalle (asentoon ON). X-
+Kaliberin johdantoruutu ilmestyy nayttdén.
+Huom! Voit keskeyttaa pelin joahdannon
+milloin tahansa painamalla peliohjaimesi
+START-painiketta siirtyaksesi pelin
+otsikkoruutuun.
+
+a
+2
+
+uw
+1
+
+> 4 PLAYER QUEST
+2 PLAYER DUEL
+OPTIONS
+
+Yhden pelaajan etsintaretki:
+
+Koska oletusalkuasetuksina on juuri i-player
+(Yksinpelaaja), painat vain jotakin
+painiketta halutessasi aloittaa pelin.
+Kahden pelaajan kamppailut:
+
+PLAYER SELECT
+P2
+SLASH
+
+PRESS START TO EXIT 2P GAME
+
+a) Kaytd SELECT-painiketta tai
+peliohjaintasi siirtaaksesi kohdistimen 2
+Player Duel (2 pelaajan ottelu) -option
+kohdalle ja paina mita painiketta
+tahansa saadaksesi esiin Player Select
+(Pelaajien valinnat) -ruudun.
+
+Kayta peliohjaintasi korostaaksesi
+haluamasi pelihahmon ja paina taman
+jalkeen mita painiketta tahansa (Start-
+painiketta lukuunottamatta).
+
+b)
+
+Kaksinkamppailu
+alkaa heti
+molempien
+pelaajien valittua
+pelihahmonsa.
+Jokaisen
+
+SLASH DEFEATED RAPTORS
+
+SLASH
+TATTOO
+cHaInsaN
+KANE
+DR.BLAST
+SPUKE
+RAPTOR
+
+PRESS START TO
+GHIT 2P GAHE
+
+kaksinkamppailun jalkeen kummankin
+pelihahmon saavuttamat pisteet esitetaan
+RESULT (Tulokset)-ruudussa. Voit painaa
+painiketta START poistuaksesi kahden
+pelaajan tilasta aloittaaksesi pelin
+Yksinpelaaja-tilassa tai painaa mita muuta
+painiketta tahansa palataksesi CHARACTER
+SELECT (Pelihahmon valinta) -ruutuun
+aloittaaksesi uuden kahden pelaajan pelin.
+
+Pelioptioiden
+muuttaminen
+Halutessasi
+muuttaa pelin
+alkuasetuksia
+ennen pelin
+aloittamista,
+kayt& SELECT-painiketta tai peliohjaintasi
+siirtéaksesi kohdistimen otsikkoruudun
+OPTIONS-kohtaan ja paina sitten mita
+painiketta tahansa. Optiovalikko ilmestyy
+ruutuun. Valitse peliohjaimesi avulla
+uudet alkuasetukset.
+
+opTroNs
+
+»DIFFIOULTY
+LIVES s
+OONTINUES «=.
+SOUND MODE STEREO
+
+9 NORMAL
+
+CONTROL SETUP
+MUSTO TRACKS 00
+
+EXIT
+
+DIFFICULTY (Vaikeusaste)
+
+Valitse pelin vaikeustaso kahdeksasta
+vaihtoehdosta, jotka on esitetty
+jarjestyksess& helpoimmasta vaikeimpaan.
+Siirry peliohjaimesi avulla vasempaan tai
+oikealle vierittaaksesi tarjolla olevat
+asetusoptiot lavitse.
+
+LIVES(Elamat)
+Valitse peliisi yksi - viisi elamaa.
+
+CONTINUES(Jatkot)
+
+Valitse peliin nollasta viiteen
+jatkomahdollisuutta.
+
+60
+
+===== Page 63 =====
+
+SOUND MODE
+
+STEREO (Aanitila)(Stereo) on ddnentoiston
+perusalkuasetuksena. Jos Super Nintendo
+Entertainment Systemisi on liitetty
+stereottomaan televisioon tai kaytat
+yksittaistaé VCR-kanavaa, sinun on
+valittava MONAURAL.
+
+CONTROL SETUP (Ohjailuasetukset)
+Voit valita miekkailuliikkeisiin mitka
+painikkeet tahansa peliohjaimestasi.
+
+Valitse
+siirrettavaksi
+haluamasi
+miekkailuliike ja
+paina sitten
+painiketta, jota
+haluat kayttaa
+siihen ohjaimessasi. Paina taman jalkeen
+Start-painiketta poistuaksesi
+
+ohjainten asetustilasta.
+
+cONTROL SETUP
+me
+
+»y
+
+gun
+evan
+
+Res:
+
+MUSIC TRACKS (Musiiinvalinta)
+
+Pystyt kuuntelemaan kaikki NeoTechno-
+kappaleet ennen pelin aloittamista. Valitset
+vain peliohjaimellasi kappaleen numeron,
+jota haluat kuunnella, ja painat painiketta
+B. Valitsemalla levyn oo saat senhetkisen
+kappaleen paattymaan.
+
+EXIT (Poistu)
+Tasta paaset palaamaan otsikkoruutuun.
+
+Huom! Halutessasi palauttaa alkuperdiset
+alkuasetukset kadnnat Super Nintendo
+Entertainment Systemisi virran asentoon OFF,
+ja sen jalkeen uudestaan asentoon ON.
+Sitten painat RESET kéynnistaaksesi pelin
+uudelleen vaihtamatta optioasetuksia.
+
+Y-RALIBERIN OHJAIMET
+
+Opettele hallitsemaan X-Kaliberia mestarin
+tavoin vapauttaaksesi Neo New Yorkin
+Kruxin hirmuvallasta. Miekan perusliikkeet
+ovat pisto (painike A), torjunta (painike X),
+heilautus (painike Y) ja lyénti (A ja Ylés).
+
+61
+
+X-Kaliber ennennakemattémat,
+ainutlaatuiset kyvyt ovat aseen
+interdimensionaalisten voimien ansiota.
+Painaessasi painiketta L tai R X-Kaliber
+padstaa valloilleen energiapurkauksen,
+jonka voima riittaa morfimutantin
+halkaisemiseen.
+
+Huom! Seuraavissa ohjaimen kayttdohjeissa
+oletetaan, etta kaytat painikkeiden
+oletusalkuasetuksia. Katso kohtaa CONTROL
+SETUP (Ohjainten asetukset) valikosta
+Options (Optiot) halutessasi muuttaa
+ohjaimesi asetuksia.
+
+8 9
+
+Energiapurkaus (Hyékkays 3)
+Energiapurkaus (Hyékkays 3)
+Miekkapareeraus (Torjunta)
+Kayttamatén painike
+
+Kavele & kumarru
+
+Tauko
+
+Miekan heilautus (Hydkkays 1)
+
+Hyppy
+Pisto miekalla (Hyékkays 2)
+
+ELITILANTEEN TARKASTUS
+
+ST OMY ANE wWD -
+
+===== Page 64 =====
+
+1 SCORE (Pisteet) —
+Esittaa pistetilanteesi
+2 TOP SCORE (Huippupisteet) —
+Suurin pistemaara pelin alusta lukien.
+3 THE ENERGY LEVEL (Energiataso) —
+Mittaa Slashin tai, kahden pelaajan
+kamppailussa, Pelaajan | elinvoimaa.
+4 OPPONENT’S ENERGY LEVEL
+(Vastapuolen energiataso) —
+Mittaa Slashin vastapuolen tai, kahden
+pelaajan kamppailussa, Pelaajan
+2 elinvoimaa.
+5 TIME (Aika) —
+Tarkista ruudun ylalaidasta, paljonko
+aikaa sinulla on jaljella tason
+pelaamiseen.
+ELAMAT -
+
+Slashin jokaisen uuden elaman alussa hanen
+
+jaljellé olevien elamiensd madara esitetaan
+keskella ruutua.
+Huom! Kédntaessasi Super Nintendo
+
+Entertainment Systemisi virran asentoon ON
+
+ja sitten OFF huippupisteet nollautuvat.
+
+VIHOLLINEN
+
+Armeija - Joudut ottamaan yhteen Raptorin
+
+jalkamiesrobottien roskajoukon kanssa
+retkesi kaikissa vaiheissa. Tama on Kruxin
+heikoin, mutta lukumaéraltaéan suurin
+apurijoukko.
+
+Kyberneettiyksikot
+
+ilmatyynykapselit valvovat
+alueen tapahtumia.
+
+Laserkapselit partioivat
+tietyissa vaiheissa pitadkseen
+sinut loitolla.
+
+| Energiasdildissa on tiettyja
+| elinvoimayksikoita energiasi
+palauttamiseksi. Etsi
+
+62
+
+piilotettuja KyberneettiyksikGita, joiden
+erikoissisallosta saat aina lisdelaman.
+
+Elinvoiman erikoistarvikkeet:
+
+Virvokkeista saat hieman
+lisdenergiaa.
+
+Hampurilaisesta saat
+_ kohtalaisen paljon energiaa.
+
+Lihasta saat maksimimaaran
+energiaa.
+
+I-UP merkitsee lisaelamaa.
+
+Morfimutantit —
+
+Dr. Blastin koeluomuksilla on erilaisia,
+muodonvaihdoksiin perustuvia
+erikoisominaisuuksia hyOkatessaan.
+
+ARUAIN ROSKAJOUKKD
+
+Tattoo -
+
+Kayttaa pitkalle yltavaa
+miekkaa ja
+ruusutatuointiaan
+erikoishydkkayksissaan.
+
+===== Page 65 =====
+
+Moottorisaha -
+Ihmishahmoinen
+konemutantti pienenee
+} kooltaan
+luurankorobotiksi, jonka
+kasivartena on
+moottorisaha.
+
+Kane —
+
+Kayttaa kahta tappavaa
+asetta, hattua ja
+
+a rottinkikeppia.
+
+Dr. Blast —
+Morfimutanttien luoja ja
+omien kokeilujensa uhri,
+joka muuttuu
+
+§ vaaralliseksi lentavaksi
+skorpioniksi.
+
+Raptor —
+
+Slashin kauan sitten
+kadonnut veli on saanut
+Kruxilta toisen
+voimakkaan miekan
+pystyadkseen haastamaan
+tunkeutujat raivokkaisiin
+
+kaksintaisteluihin.
+
+Spuke —
+Voittaessasi taman
+akrobaattisen, kaasuja
+
+New Yorkin
+kiusanhengen luo.
+
+MNYSP-RETKIKUNNAN LANTOTILANTBEK
+SELOSTIS
+
+Olet juuri aloittamassa kaikkien aikojen
+vaarallisinta NNYSF-etsintaretked. Kruxin
+
+puhaltavan mutantin han
+johtaa sinut Alixin ja Neo
+
+joukkoja ei pysayté mikaan. Pistoistasi,
+torjunnoistasi, iskuistasi ja heilautuksistasi
+saat vain armonaikaa raivoisien vastustajiesi
+pidattelemiseksi toistaiseksi. Sinun on
+hallittava X-Kaliburin interdimensionaaliset
+kyvyt pystyaksesi taltuttamaan taman
+linnunradan toiselta puolelta saapuneen
+vaarallisen roskavaen voiman
+
+Muista, etta jokaisella vihollisen apurilla on
+tietoja, joista saat apua retkellesi. Sinun on
+voitettava jokainen vihollinen ja hankittava
+kaikki tarvittavat tiedot, ennenkuin pystyt
+pelastamaan Alixin ja palauttaamaan
+rauhan Neo New Yorkiin.
+
+STRATEGIAVIN EET
+
+Kayta pareerausta torjuaksesi
+taipumattomien vastustajiesi iskut.
+
+* — Seuraa elinvoimamittariasi ja yrita
+kerata mahdollisimman paljon energiaa
+palauttavia esineita
+
+* — Ajoita liikkeesi valttaéaksesi Kruxin
+puolustuksen helposti ennustettavat,
+mekaaniset hydkkaykset.
+
++ Jokaisessa miekkailuliikkeessd on omat
+etunsa tilanteesta riippuen.
+
+===== Page 66 =====
+
+VAROITUS EPILEPSIASTA
+Lue ennen kuin kaytat tata videopelijarjestelmaa
+itse tai annat lastesi kayttad sita.
+
+Joillakin ihmisilla on taipumus, jonka vuoksi he
+voivat saada epileptisen kohtauksen tai menettaa
+tajuntansa joutuessaan alttiiksi tietyille vilkkuville
+valoille tai valokuvioille normaaleissa arkielaman
+tilanteissa. Tallainen henkild saattaa kokea
+kohtauksen katsellessaan tietynlaisia
+televisiokuvia tai pelatessaan tiettyja videopeleja.
+Nain voi kayda, vaikka kyseisella henkildlla ei
+olisikaan havaittu epilepsiaa ja hanella ei olisi
+aiemmin ollut epilepsiakohtauksia.
+
+Jos sinulla tai jollakin perheenjasenellasi on
+joskus ollut epileptisia oireita (kohtaus tai
+tajunnan menetys) vilkkuvalle valolle altistumisen
+seurauksena, kysy laakarin neuvoa ennen pelien
+pelaamista.
+
+Suosittelemme, etta vanhemmat valvovat lastensa
+videopelien kayttéa. Lopeta VALITTOMASTI
+laitteen kayttd ja kaanny laakarin puoleen, jos
+sinulla tai lapsellasi ilmenee jokin seuraavista
+oireista pelid pelatessa: huimausta, nakokyvyn
+heikkenemista, silmien tai lihasten nykimista,
+tiedottomuutta, ajan ja paikan tajun katoamista,
+tahdottomia liikkeita tai kouristuksia.
+
+KAYTON AIKANA NOUDATETTAVAT
+VAROTOIMENPITEET
+
+Ala seiso liian lahella ruutua. Istu riittavan
+kaukana televisioruudusta, mieluiten niin
+kaukana kuin johto riittad.
+
+Pelaa peleja pienella televisioruudulla, jos
+mahdollista.
+
+Valta pelaamista vasyneena tai kun et ole
+nukkunut riittavasti.
+
+Pida huolta, etta huone, jossa pelaat on
+kunnolla valaistu.
+
+Pida pelin aikana vahintaan 10-15 minuutin
+tauko kerran tunnissa.
+
+Rajoitettu takuu
+
+"Sony Electronic Publishing takaa taman Sony
+Electronic Publishing tuotteen alkuperalselle
+ostajalle yhdeksankymmenen (90) paivan ajaksl
+ostopaivasta, etta tama pelikasetti on vapaa
+materiaali ja tyon laatuviolsta ja hyvaksyy, sen
+ajanjakson sisdlla ja sen optlossa, joko korjata tai
+vaihtaa se maksuttomasti. Laheta tuote
+postimaksutta, yhdessa ostopdivatakuun kanssa,
+
+64
+
+alapuolelia mainittuun osoitteeseen. Tama takuu
+oi oie sovellettavissa ja on mitat6n, jos vika tassa
+Sony Electronic Publishing tuotteessa on
+alheutunut vaarinkaytosta, kohtuuttomasta
+kaytésta, vaarlnkasitielysta tai
+huolimattomuudesta johtuen.
+
+TAMA TAKUU ON KAIKKIEN MUIDEN TAKUIDEN
+SIJASTA JA El MINKA HYVANSA LUONTEISEN
+MITKAAT MUUT ESITTAMISET TAI VAATIMUKSET
+TULE SITOMAAN TAI VELVOITTAMAAN SONY
+ELECTRONIC PUBLISHING, MITKA TAHANSA
+IMPLIKOIDUT TAKUUT SOVELLETTAVISSA
+TAHAN PEHMOTUOTTEESEEN, SISALTAEN
+KAUPPAVALMIUDEN JA SOPIVUUDEN TAKUUT
+MAARATYLLE TARKOITUKSELLE, OVAT
+RAJOITETUT YHDEKSANKYMMENEN (90)
+PAIVAN AJANJAKSOLLE KUTEN EDELLA
+TASMENNETTY. KOHDE EDELLISEEN, TAMA
+SONY ELECTRONIC PUBLISHING TUOTE ON
+MYYTY "KUTEN SE ON’, ILMAN MINKAANLAISTA
+ILMENTAVAA TAI IMPLIKOITUA TAKUUTA, JA
+SONY ELECTRONIC PUBLISHING El OLE
+VASTUUSSA MINKAANLAISIIN MILLAISIIN
+MENETYKSIIN TAI VAHINKO|HIN TAHANSA,
+JOTKA OVAT TULOKSENA TAMAN TUOTTEEN
+KAYTOSTA. SONY ELECTRONIC PUBLISHING El
+TULE MISSAAN TAPAUKSESSA OLEMAAN
+VELVOLLINEN TAMAN PEHMOTUOTTEEN =
+SATUNNAISISTA TAL OMISTUKSESTA, KAYTOSTA
+TAI TOIMINTAHAIRIOSTA OLEVISTA
+SEURAUKSISTA JOHTUVISTA VAHINGOISTA.
+Muutamat meat eivat salii rajoituksia kuten, miten
+kauan takuu on voimassa ja/tai polkkeuksia tai
+rajoituksla johtuen vahingoista, joten edella
+mainitut vastuun rajoltukset ja/tai poikkeukset
+eivat saata soveltua sinulle. Edella mainittu takuu
+antaa sinulle erltyisen laillisen oikeuden, ja sinuilla
+saattaa my6s olla muita olkeuksla, jotka
+vaihtelevat maasta toiseen."
+
+FINLAND
+
+Sony Music Entertainment OY
+Ahventie 4b (PL 12)
+
+02171 Espoo
+
+Finland
+
+DENMARK
+
+Sony Music Entertainment A/S
+Vognmagergade 7
+
+1120 Copenhagen K
+
+Denmark
+
+===== Page 67 =====
+
+
+
+===== Page 68 =====
+
+CREDITS
+
+Programming courtesy of Toshiba EMI
+
+Produced for Activision by Tom Sloper
+and Kelly Rogers
+
+Story and on-screen text written by
+Mark London Williams
+
+Testing by Lobotomy and Chris Campbell
+
+MIDI Editing by Ali Lexa and
+UBIK Musik Productions
+
+Player's guide by Veronica Milito
+Package by TDC Group
+Cover Art by Joe Spencer
+
+Special Thanks to: Bill Swartz, Mika
+Kawamura, Alan Gershenfeld, John Spinale,
+Brian G. Kelly, Trish Wright, Erik Jensen,
+Michael Rivera, Psykosonik, Dietrich Dexter,
+Wax Trax! Records and TVT Records
+
+Game © 1994 Activision
+
+Code © 1994 Toshiba EMI
+
+All recordings ® 1993 Wax Trax! Records,
+all compositions © 1993 TVT Music.
+
+66
+
+===== Page 69 =====
+
+
+
+===== Page 70 =====
+
+
+
+===== Page 71 =====
+
+
+
+===== Page 72 =====
+
+Sony Electronic Publishing
+13 Great Marlborough Street A Iv
+a London W1V 2LP c ISION.
+
+PRINTED IN JAPAN
+IMPRIME AU JAPON

@@ -1,0 +1,1124 @@
+# Timecop
+source: https://archive.org/details/snes_manual_archive
+pdf: Timecop ( EU ).pdf
+region: EU
+pages: 28
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-ATCP-EUR
+
+INSTRUCTION BOOKLET
+
+@ 5,
+
+===== Page 2 =====
+
+LICENSED BY
+
+cE
+
+(iintende) Nintendo of Europe GmbH : 63760 GroBostheim, Deutschland
+Keep this information / Gardez ces informations / Diese Information aufbewahren
+Conservare queste informazioni / Guarde estas informes / Bewaar daze informatie
+
+Behall denna information / Behold denne information / Pida tama tieto
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, iS} AND. <9 ARE TRADEMARKS OF NINTENDO CO.,LTD.
+
+“ Original
+\ Seal of
+
+\ . Quality “4
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT.ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO
+ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU'IL
+EST CONFORME AUX NORMES D'EXCELLENCE
+EN MATIERE DE FABRICATION, DE FIABILITE ET
+SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIESES QUALITATSSIEGEL IST DIE GARANTIE
+DAFUR, DASS SIE NINTENDO-QUALITAT
+GEKAUFT HABEN. ACHTEN SIE DESHALB
+IMMER AUF DIESES SIEGEL, WENN SIE SPIELE
+ODER ZUBEHOR KAUFEN, DAMIT SIE SICHER
+SIND, DASS ALLES EINWANDFREI ZU IHREM
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO
+QUESTO PRODOTTO. RICHIEDILO SEMPRE
+ALL'ACQUISTO D! GIOCHI ED ACCESSORI PER
+ASSICURARE LA COMPLETA COMPATIBILITA
+CON IL TUO SUPER NINTENDO.
+ENTERTAINMENT SYSTEM.
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA APROBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIEMPRE ESTE
+SELLO CUANDO COMPRES VIDEQJUEGOS Y
+ACCESORIOS PARA ASEGURARTE UNA
+COMPLETA COMPATIBILIDAD CON TU SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO IS GECONTROLEERD EN DAT
+HET QUA CONSTRUCTIE, BETROUWBAARHEID
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+BIJ HET KOPEN VAN SPELLEN EN
+ACCESSOIRES ALTIJD OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+DENNA ETIKETT GARANTERAR ATT NINTENDO
+STAR FOR PRODUKTENS KVALITET.
+KONTROLLERA ATT ETIKETTEN FINNS PA SPEL
+OCH TILLBEHOR DU KOPER FOR ATT
+FORSAKRA DIG OM ATT DE AR KOMPATIBLA
+MED SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+DETTE SEGL GARANTERER, AT NINTENDO HAR
+GODKENDT KVALITETEN AF DETTE PRODUKT.
+SE ALTID EFTER DETTE SEGL, NAR DU KOBER
+SPIL OG TIBEHOR, SA DU ER SIKKER PA FULD
+KOMPATIBILITET MED DIT SUPER NINTENDO.
+ENTERTAINMENT SYSTEM.
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO ON
+HYVAKSYNYT TAMAN TUOTTEEN LAADUN.
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+SAAT VARMASTI SUPER NINTENDO
+ENTERTAINMENT SYSTEM YHTEENSOPIVIA
+TUOTTEITA.
+
+WARNING ; PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEVILLEZ LIRE ATTENTIVEMENT LA NOTICE "INFORMATIONS ET PRECAUTIONS
+D'EMPLO!" QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER
+NINTENDO HARDWARE WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+SYSTEM™ LE CASSETTE O GLI ACCESSORI.
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEOQJUEGO O ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE BIJ DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO-
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR.
+
+ADVARSEL : L/ES FORBRUGERINFORMATIONEN OG H/EFTET MED SIKKERHEDSREGLER, DER
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM,
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISESTI LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA 3
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAl MUUN VAURSTEEN KAyTTOA.
+
+===== Page 3 =====
+
+CON TEN TS
+
+START Ne: THE GAME .........2isakber : omeW Jus 3
+RR ei icc it hee ae ais 3
+RSENS iA eo ee 4
+STD CITE, Sate ap een epee ete od ice 4
+1: LICK, 4... al aan ante ee ae ecsee ae ve 4
+AMIE SMRERDE «.,.... 20. HRS. 09 cae! naciee srebalial 5
+AUER BON SE scx) Acsjeiciitesc tena cunen Magu aisantaats 5
+LEVELS alsicaneeial caine cits: A ies, (a atenencen 6
+
+TIME WA LTS .F 0 R= YOU)
+
+Thanks to Max Walker and the Time Enforcement Commission
+(TEC), The time travel system created by Professor Kleindast,
+didn’t fall into Senator Aaron MC Combs’ hands, a new security
+system called Timescan has been developed to intercept imme-
+diately anyone who tries to change the course of history.
+
+The use of Timescan makes interventions from Max Walker use-
+less. After a last routine mission, he got ready to leave TEC of-
+fices when he noticed that a new company logo appeared on
+the electronic devices of the company: HKE - Hans Kleindast
+
+Electronics Inc.......
+
+TIMECOP- 1)
+
+===== Page 4 =====
+
+So the inventor of time travel, Professor
+Kleindast wasn't dead during the first ex-
+periment. Walker is suddenly
+teleported.......
+
+He finds himself in a new building, seized
+by armed guards, who bring him in front
+of Kleindast. Kleindast hails Walker as
+the last Human able to travel through
+time.
+
+Kleindast explains that he became the
+
+master of todays technology, the only
+
+one able to conceive timescan and since
+its turning on, the only one able to travel
+through time with impunity.
+
+However, his status of Time Master bores
+him. He needs a valuable opponent to play
+against him on the board of time.
+
+Kleindast gives to Walker a bracelet of tem-
+poral control and declares, “The duel be-
+gins”.
+
+As soon as Walker took the bracelet around
+his wrist, He’s put by the guards into a time
+pod.
+
+The engine starts immediately, and Walker is
+sent out into the endless corridors of time
+
+for his most dangerous mission evet......
+
+TIMECOP-
+
+===== Page 5 =====
+
+ST AR PN Gone G6 AM E
+1. Turn off your Super Nintendo Entertainment System by sliding
+the POWER bar away from the Game Pak slot. Plug a game
+controller into your system.
+2. Insert the TIMECOP Game Pak, label facing front, in the
+system slot.
+3. Turn on the system by sliding the POWER bar toward the
+
+Game Pak slot.
+4. When the Title screen appears, press the START Button to
+
+begin play.
+
+CONTROLS
+Left Trigger
+
+Right Trigger
+
+2 SUPER MNTENOD
+
+X Button
+
+A Button
+
+B Button
+Y Button
+
+TIMECOR @>
+
+Start Button
+Select Button
+
+Control Pad
+
+===== Page 6 =====
+
+MOVE: Press the Control Pad LEFT or RIGHT;
+
+Press DOWN to crouch.
+UPPERCUT: Press the LEFT or RIGHT Trigger.
+TO KICK: Press the A Button.
+TO JUMP: Press the B Button.
+
+TO PUNCH: Press the X Button.
+TO SHOOT: Press the Y Button.
+TO USE BOMB: Press the SELECT Button.
+TO PAUSE: Press the START Button.
+
+Aa
+
+i Control Pad Right
+
+Control Pad Left oO
+/
+
+Control Pad Down
+
+GAME
+
+GAM EM EN U
+To make a selection in the Main Game Menu, press UP or DOWN
+
+on the Control Pad to select an option, then press ANY Button
+
+to make a selection.
+
+START GAME
+Press any button to begin your timeless journey.
+
+OPT O Nes
+Press any button to view options.
+
+Jump, Fire, Punch & Kick - Push A,B,X or Z to choose these controls
+Music, Sounds - Push Left or Right to turn music and sounds on
+
+or off
+
+@y TIMECOR
+
+===== Page 7 =====
+
+G‘AeM-Ec YS CoR EE’ N
+
+SCORE
+Here's how you're doing so far in your race
+
+against time!
+
+HEALTH
+A time traveller needs plenty of energy to
+
+ensure his destiny.
+
+R-ESM AVION IEN Go Lah VES :
+You can use Time Travel energy to regenerate. §
+
+TIMES REMAINING
+You can only spend so much time in one sector before
+
+disintegration!
+
+GUN SHOTS REMAINING
+This is how many shots you have left in your pistol.
+
+BOMBS REMAINING
+This is how many bombs you have remaining.
+
+WEAPONS
+You begin the game with a standard hand gun (and on some
+
+levels, the sub-machine gun).
+
+BOMB
+Firing the powerful T.E.C. Ripple Bomb is recommended only in the
+
+most extreme circumstances!
+
+TIMEC OP sO;
+
+===== Page 8 =====
+
+TeEsVcE LS
+
+WATS Hal NeG T:O°N Doel,
+Tot Ceo EA D:O UA RT ERS —2 0'0 5
+Blast back into the present—and Kleindast’s dark alternate real-
+
+ity! Once you get past the security guard, you've gained access
+to the Classified area of T.E.C. HQ...keep the remaining goons
+down and you can discover Kleindast’s secret plan for world
+
+domination...
+
+SAN ANDREAS BREAK,
+UNDER THE OCEAN—1945
+Kleindast plans to harvest a fortune in the ocean! Rare under-
+
+water metals are necessary for perfecting revolutionary new
+electronic components. To fight off Kleindast’s army (and
+octopi!) you must use your feet and your trusty pistol. Use your
+shots wisely...it’s sink or swim! Twice bitten and your under-
+
+water adventure is all washed up.
+
+NESW YOr Rkeo {Cell ayed
+W) Avil [iy 3S) DOR SE jE e149) 2219
+Kleindast has the Mob in his back pocket, they're everywhere,
+
+and they're after Walker. Drive-by shootings are nothing new in
+this version of
+1929—one in which
+Kleindast tries to
+control the stock
+market as well!
+
+Not willing to give
+
+sO;
+
+===== Page 9 =====
+
+up, Kleindast sends his robotic double after Walker, chasing
+
+him into a warehouse.
+
+LA Keke DO 2 T MAD;
+
+G*EGR> MAIN Ys—"1 9° 44
+Kleindast has a master plan to horde the German's gem and art
+
+treasures until benefiting from their peak value in 2005! Your
+mission is to recover the two trucks loaded with the treasure
+
+and hand them over to the arriving Allied troops.
+
+LOS ANGELES
+BRAINBLAST FACTORY—2117
+Walker gets blasted to the only place he can stop Kleindast: his
+
+Brainblast production line shortly before it goes on the market.
+There’s a wave of robots to battle before you find your way to
+Kleindast's inner sanctum. save your energy for the final battle:
+
+you and Kleindast in a jet pack duel high above the L.A. skyline.
+
+===== Page 10 =====
+
+EB P2ISL*E? BoSeY* oWitACREN? FO N&G
+Please read before using this video game system or allowing your
+children to use it.
+Some people are susceptible to epileptic seizures or loss of conscious-
+ness when exposed to certain flashing lights or light patterns in
+everyday life. Such people may have a seizure while watching certain
+television images or playing certain video games. This may happen
+even if the person has no medical history of epilepsy or has never had
+any epileptic seizures.
+If you or anyone in your family has ever had symptoms related to
+epilepsy (seizures or loss of consciousness) when exposed to flashing
+lights, consult your doctor prior to playing.
+We advise that parents should monitor the use of video games by their
+children. If you or your child experience any of the following
+symptoms: dizziness, blurred vision, eye or muscle twitches, loss of
+consciousness, disorientation, any involuntary movement or
+convulsion, while playing a video game, IMMEDIATELY discontinue use
+and consult your doctor.
+
+PRECAUTIONS TO TAKE DURING USE
+Do not stand too close to the screen. Sit a good distance away
+from the television screen, as far away as the length of the cable
+allows.
+
+Preferably play the game on a small television screen.
+Avoid playing if you are tired or have not had much sleep.
+
+* Make sure that the room in which you are playing is well lit.
+
++ Rest for at least 10 to 15 minutes per hour while playing a video
+game.
+
+WARRANTY
+
+This product is guaranteed for a period required by the law of your
+country. This does not affect your statutory rights.
+
+Virgin Interactive Entertainment reserves the right to make improve-
+ments in the product described in this manual, at any time and with-
+out notice. Virgin Interactive Entertainment makes no warranties ex-
+pressed or implied, with respect to this manual, its quality,
+merchantability or fitness for any particular purpose.
+
+TIMECOPR
+
+===== Page 11 =====
+
+TABLE DES MATIERES
+
+COMMENCER e3...40h5. RRR ath a atin u
+CONTROLES
+
+MENUSDEMBUEY crete 81a quan etre 12
+COMMENCER A JOUER ..0.....c.cssccsssessssecssssssssessssescssessnseee 12
+
+LE T EMP S VOUS “A TT END!
+
+Grace a Max Walker et a la Commission Temporelle (TEC), le
+systeme de voyage temporel du Professeur Kleindast n'est pas
+tombé aux mains du sénateur McComb. Un nouveau systeme de
+sécurité appelé TimeScan a été créé pour intercepter
+immédiatement toute personne essayant de changer le cours de
+l'histoire.
+
+L'utilisation de Time Scan rend les interventions de Max Walker
+inutiles. Apres une derniére mission de routine, il s'appréte a
+quitter les bureaux de TEC lorsqu’il se rend compte qu'un
+nouveau logo est apparu sur les appareils électroniques de la
+
+compagnie: HKE... Hans Kleindast Electronics Inc...
+
+TIMEG-EP-
+
+===== Page 12 =====
+
+Ainsi l'inventeur des voyages temporels
+n'est pas mort lors de la premiére
+expérience. Soudain, Walker est
+téléporte...
+
+Il se retrouve dans un nouveau batiment,
+entouré de gardes armés, qui l'amenent
+devant Kleindast.
+
+Kleindast dit a Walker qu'il est le seul
+humain capable de voyager dans le
+temps. II lui explique qu’il est devenu le
+
+maitre des technologies modernes, le
+
+seul capable de concevoir TimeScan, et
+
+aeae depuis, le seul a pouvoir voyager dans le
+
+ff ete pa temps impunément.
+
+Cependant, son statut de maitre du temps
+l'ennuie, il a besoin d'un adversaire de
+valeur avec lequel jouer sur |'échiquier du
+temps. Kleindast donne un bracelet
+controleur temporel a Walker et déclare
+“Que le duel commence”.
+
+Dés que Walker enfile le bracelet, les
+gardes le poussent dans une nacelle
+temporelle. Le moteur se met en route
+immédiatement.Et Walker est envoyé dans
+les corridors infinis du temps pour la mission
+
+la plus dangereuse de sa vie...
+
+TIME6OP-
+
+===== Page 13 =====
+
+COMMENCER
+
+1. Eteignez votre Super Nintendo Entertainment System en
+faisant glisser la barre d’ALIMENTATION (POWER) loin de la
+fente pour les cartouches.
+
+2. Insérez la cartouche TIMECOP, I’étiquette vers vous.
+
+3. Allumez la console en faisant glisser la barre
+d’ALIMENTATION (POWER) vers la fente.
+
+4. Lorsque l’écran titre apparait, appuyez sur le bouton START
+
+pour commencer a jouer.
+
+CONTROLES
+
+| L Bouton R Bouton
+
+2 PE MTENDD
+
+X Bouton
+
+A Bouton
+
+Start Bouton B Bouton
+
+Select Bouton
+
+Control Pad
+Y Bouton
+
+===== Page 14 =====
+
+SE DEPLACER: Appuyez vers la GAUCHE ou la DROITE
+sur le Control Pad; appuyez vers le BAS
+
+pour vous accroupir.
+
+UPPERCUT: Appuyez sur le bouton GAUCHE ou DROIT.
+COUP DE PIED: Appuyez sur le bouton A.
+POUR SAUTER: Appuyez sur le bouton B.
+COUP DE POING: Appuyez sur le bouton X.
+POUR TIRER: Appuyez sur le bouton Y.
+
+POUR UTILISER BOMBE: Appuyez sur le bouton SELECT.
+POUR PAUSER LE JEU: Appuyez sur le bouton START.
+
+4]
+Control Pad vers 1 OO - Control Pad vers la Droite
+Ry,
+
+Control Pad vers la Bas
+
+la Gauche
+
+LE [-e-8
+
+M E.N.U. DEE JEU
+Pour effectuer une sélection sur le menu principal du jeu,
+
+appuyez vers le HAUT ou le BAS sur le Control Pad pour choisir
+une option, puis appuyez sur n'importe quel bouton pour la
+
+sélectionner.
+
+C OsMEMGE NiGebeR.  (GS.13A R.T  .G A/MeE )
+Appuyez sur n'importe quel bouton pour commencer votre
+
+voyage dans le temps.
+
+OPT LEONS
+Appuyez sur n'importe quel bouton pour voir les options.
+
+[NON ACTIVE DANS CETTE VERSION DU JEU]
+
+3) TIMECOPR
+
+===== Page 15 =====
+
+ECRAN DE JEU
+SCORE
+Ici, vous pouvez voir comment vous vous
+débrouillez dans votre course contre la
+
+montre!
+
+SANTE
+Un voyageur temporel a besoin de beaucoup
+
+d’énergie pour survivre.
+
+VLE S, {RES ToA'NET E'S
+Vous pouvez utiliser l'énergie des Voyages
+
+Temporels pour vous régénérer.
+
+TEM P2S'— RE ST AUN YT
+Vous ne pouvez rester qu'un temps limité dans chaque secteur
+
+avant de vous désintégrer!
+
+(gp)
+
+O2U,RiS2 eR E S. Te ASNT -S:
+Cela vous indique combien il reste de balles dans votre re-
+
+volver.
+
+B O.MUB: ES). RES 12 ASNi PES
+Le nombre de bombes qu'il vous reste.
+
+AcREM:- ESS
+Vous commencez le jeu avec un revolver standard (et, a certains
+
+niveaux, la mitrailleuse).
+
+n=]
+
+OMBE
+N'utilisez cette bombe TEC hyper puissante que dans les situa-
+
+tions extrémes!
+
+===== Page 16 =====
+
+NIVEAUX
+
+WA SsHslgNaG TO .N, 2° DGS;
+QeU-AR TIGER G ENE RvAcho:D- Ewa EG. 2402-030 5
+Vous voila projeté dans le présent, et dans la sombre réalité
+
+paralléle de Kleindast! Passez le garde et vous aurez accés a la
+zone top secréte du QG de TEC... Tenez les autres en respect et
+le plan secret de domination mondiale Kleindast sera a votre
+
+porteée...
+
+IAEA Ig L ED E .-S AZN 7APN¢D REV A:S_,
+S/0°UcS 2-0 C EsAN: = <1 9745
+Kleindast a l'intention de récolter une fortune... dans l'océan!
+
+De rares métaux sous-marins sont nécessaires a la fabrication
+de nouveaux composants électroniques révolutionnaires. Pour
+repousser l'armée de Kleindast (et les pieuvres!), servez-vous de
+vos pieds et de votre fidéle revolver. Tirez avec parcimonie...
+Soit vous nagez, soit vous coulez. Faites-vous toucher deux fois et
+
+cest la fin de votre aventure sous-marine.
+
+NUE W..Y..O RK — C1 AY)
+WALI Si TRE OE glo u2K0
+Kleindast a les gangsters dans sa poche, ils sont partout et
+
+surtout aux
+trousses de
+Walker. Les fusil-
+lades a partir de
+voitures sont
+
+monnaie courante
+
+===== Page 17 =====
+
+en 1929 et Kleindast essaie de controler la Bourse! II n’est pas
+
+prét d’abandonner: il envoie son double robotique sur les
+
+traces de Walker, et la poursuite se termine dans un entrepot.
+
+LAC DORTMUND, ALLEMAGNE,1944
+Kleindast a un plan de génie pour s'emparer des trésors et des
+
+ceuvres d'art allemands et ensuite attendre 2005 afin de profiter
+de leur valeur maximum! Vous devez retrouver les deux camions
+qui les transportent et les amener aux troupes alliées qui sont
+
+en train d’arriver.
+
+L. BUSS IANE se ASV ANG? ED CEOS CeEORaVebeAeUs © |,
+LO.Soe AGC NeGebeLaE Seo
+Walker se retrouve dans le seul endroit ou il peut arréter
+
+Kleindast: sa chaine de production “Lavage de cerveau”, juste
+avant que ses produits n’envahissent le marché. Vous devez
+affronter des hordes de robots avant d’arriver au sanctuaire de
+Kleindast. Mais, n'oubliez
+pas de garder de I’énergie
+pour la bataille finale: vous
+et Kleindast vous livrerez un
+duel en jet-pack sans merci
+
+dans le ciel de L.A.
+
+===== Page 18 =====
+
+AVERTISSEMENT SUR L’EPILEPSIE
+A lire avant toute utilisation d'un jeu vidéo par vous-méme ou votre enfant.
+Certaines personnes sont susceptibles de faire des crises d'épilepsie ou d'avoir
+des pertes de conscience a la vue de certains types de lumieéres clignotantes ou
+d'éléments fréquents dans notre environnement quotidien. Ces personnes
+s'exposent a des crises lorsqu’elles regardent certaines images télévisées ou
+lorsqu’'elles jouent a certains jeux vidéo. Ces phénomeénes peuvent apparaitre
+alors méme que le sujet n'a pas d'antécédent médical ou n‘a jamais été
+confronté a une crise d’épilepsie.
+
+Si vous-méme ou un membre de votre famille avez déja présenté des
+symptomes liés a l’épilepsie (crise ou perte de conscience) en présence de
+stimulations lumineuses, veuillez consulter votre médecin avant toute utilisation.
+Nous conseillons aux parents d’étre attentifs a leurs enfants lorsqu’'ils jouent
+avec des jeux vidéo. Si vous-méme ou votre enfant présentez un des
+symptomes suivants; vertige, trouble de la vision, contraction des yeux ou des
+muscles, perte de conscience, trouble de l’orientation, mouvement
+involontaire ou convulsion, veuillez IMMEDIATEMENT cesser de jouer et con-
+
+sulter un médecin.
+
+PRECAUTIONS A PRENDRE DANS
+T OU S ccl-E Ss CAS 3P-O:U R
+
+LU Te slS: A elO2N 2 DeaU Nik Uis: VeleDsE O
++ Ne vous tenez pas trop pres de |’écran. Jouez a bonne distance de I'écran
+de télévision et aussi loin que le permet le cordon de raccordement.
+3 Utilisez de préférence les jeux vidéo sur un écran de petite taille.
++  Evitez de jouer si vous étes fatigué ou si vous manquez de sommeil.
+: Assurez-vous que vous jouez dans une piece bien éclairée.
++ En cours d'utilisation, faites des pauses de dix a quinze minutes toutes les
+
+heures.
+
+Ce produit est garanti pendant une période édictée par la loi de votre pays.
+Cela n’affecte en rien vos droits statutaires.
+
+Virgin Interactive Entertainment (Europe) Ltd. se réserve le droit d'améliorer le
+produit décrit dans ce manuel a tout moment et sans préavis. Virgin Interactive
+Entertainment (Europe) Ltd. ne donne aucune garantie expresse ou implicite
+concernant ce manuel, sa qualité, sa qualité marchande ou son adaptation a un
+usage particulier.
+
+(16) FIMEBOP.
+
+===== Page 19 =====
+
+INHALT
+
+NMOTG EMIS ICL ON caer serlancto ese cetosee tec stores ct cacecerse es 19
+
+Steuerungen
+
+Spielmeni....
+
+Spielstart...
+
+Optionen
+
+Spielbildschinms sc. 2 es ee 21
+Waffen
+
+Levels
+
+ExdoiNigewN SEG UCEDS 22 Bell ER Eek BUNeIeS st
+
+Max Walker und der Zeitkontrollkommission (TEC: Time Enforce-
+ment Commission) war es zu verdanken, da8 das von Professor
+Kleindast entwickelte Zeitreisesystem nicht in die Hande von Sena-
+tor Aaron McComb gefallen war. Durch die Entwicklung des neuen
+Sicherheitssystems Timescan, mit dem jeder, der versucht, den Lauf
+der Geschichte zu 4ndern, sofort aufgehalten werden kann, wurde
+Max Walker jedoch tiberfliissig. Nach seinem letzten Routineeinsatz
+bereitete er sich auf den Auszug aus seinem Buro vor, als er
+plotzlich ein neues Logo auf den elektronischen Geraten der Firma
+
+bemerkte: HKE - Hans Kleindast Electronics Inc...
+
+===== Page 20 =====
+
+Der Erfinder des Zeitreisens war also doch
+nicht tot. Er hatte das erste Experiment
+uberlebt. Plotzlich wurde Walker teleportiert.
+Er findet sich selbst in einem modernen
+Gebaude wieder, umgeben von bewaffneten
+Wachen, die ihn zu Kleindast bringen.
+Kleindast riihmt ihn als den letzten Menschen,
+der in der Lage ist, durch die Zeit zu reisen. Er
+
+behauptet, Herrscher iiber die moderne
+
+Technologie zu sein, der einzige, der in der : _ ¥
+Lage sei, eine Erfindung wie das Zeitscan-Gerat zu machen, und seit
+dessen Inbetriebnahme auch der einzige, der ungestraft durch die
+Zeit reisen kann.
+
+Doch sein Status als Herr tiber die Zeit
+langweile ihn. Er brauche einen ebenbirtigen
+Gegner, mit dem er sich auf dem Schachbrett
+der Jahrzehnte messen k6nne. Kleindast gibt
+Walker ein Zeitkontroll-Armband und erklart:
+“Die Jagd beginnt!”
+
+Kaum hat Walker sich das Armband um sein
+Handgelenk geschnallt, da wird er auch schon
+von den Wachen in eine Zeitkapsel geschubst.
+Die Triebwerke werden aktiviert, und Walker
+ist auf seinem Weg durch die endlosen
+Korridore der Zeit, zum gefahrlichsten Einsatz
+
+seines Lebens.
+
+===== Page 21 =====
+
+V :O¢R 35 DE Ms S*P2IlGEeLeE=N
+
+1. Schalten Sie Ihr Super Nintendo Entertainment System aus,
+indem Sie den POWER-Knopf vom Spielmodul-Einschub
+wegschieben. SchlieBen Sie ein Spielsteuergerat an Ihr System an.
+
+2. Legen Sie das TIMECOP-Game Pak mit dem Etikett nach vorn in
+den Einschub.
+
+3. Schalten Sie Ihr Gerat ein, indem Sie den POWER-Knopf in
+Richtung des Spielmodul-Einschubs bewegen.
+
+4. Sobald der Titelbildschirm erscheint, konnen Sie durch
+
+Driicken von START mit dem Spielen beginnen.
+
+ST E U.E_R U.N-G_E_N
+
+L Knopf
+
+29 SUPER NINTENDO.
+
+Control Pad
+
+Select Knopf Y Knopf
+
+TIMECOP
+
+===== Page 22 =====
+
+BEWEGEN: R-Knopf LINKS oder RECHTS dricken;
+Zum Ducken R-Knopf UNTEN drucken.
+
+UPPERCUT: LINKEN oder RECHTEN Knopf driicken.
+KICKEN: Knopf A driicken.
+
+SPRINGEN: Knopf B driicken.
+
+SCHLAGEN: Knopf X driicken.
+
+SCHIESSEN: Knopf Y drticken.
+
+BOMBE BENUTZEN: SELECT driicken.
+
+SPIEL UNTERBRECHEN: START driicken.
+
+Aa
+R-Knopf Rechts O > R-Knopf Links
+
+R-Knopf Unten
+DeAc S52 SoP2IbeE
+
+SPIELMENU
+Wollen Sie auf dem Hauptmenti des Spiels eine Option wahlen,
+
+dann drticken Sie den R-Knopf OBEN oder UNTEN, um die
+Markierung auf die gewiinschte Option zu bewegen, und betatigen
+Sie anschlieBend einen BELIEBIGEN Knopf, um die Wahl zu
+
+bestatigen.
+
+SPE Lis: PeACRGT .3(-S,TiA-R. 1. G AgMeE.)
+Dricken Sie einen beliebigen Knopf, um die Reise in die
+
+Zeitlosigkeit zu beginnen.
+
+0. Po O NSEAN | COLP°T 10 N:S )
+Driicken Sie einen beliebigen Knopf, um die Optionen zu sehen.
+
+[IN DIESER VERSION DES SPIELS NICHT AKTIVIERT]
+
+TIMECOP
+
+===== Page 23 =====
+
+S7Po1-E EB I EDS CH ERM
+POULN KeT-E CS CO RED)
+Hier konnen Sie ablesen, wie gut Sie im Rennen
+gegen die Zeit bisher abgeschnitten haben.
+GES (UCN; D-HLEMI fp CHE AL 1H)
+Ein Zeitreisender braucht geniigend Energie, um
+an seinen Bestimmungsort gelangen zu kénnen.
+VE; ROB LSE I B°E_N-D-E.. EE BEN
+
+CREM AINIUN GE IVES )
+Sie konnen Zeitreise-Energie verwenden, um
+
+Ihre Lebenskrafte aufzustocken.
+
+VERY BLS EE BYE N Dek 7b r
+(TIMES REMAINING)
+Sie haben nur eine begrenzte Menge Zeit in jedem Scktor!
+
+VERBLEIBEN DE SCH US'S Z-A-H L
+(GUN SHOTS REMAINING)
+Soviel SchuB Munition haben Sie noch in Ihrer Pistole.
+
+VE ReB EE B EN’ DE. - By OuMeB EN
+(BOMBS REMAINING)
+Dies ist die Anzahl der Bomben, die Ihnen noch zur Verfiigung
+
+stehen.
+WAFFEN (WEAPONS)
+Sie beginnen das Spiel mit einem Standardgewehr (auf manchen
+
+Levels auch mit einem Sub-Maschinengewehr)
+
+BOMBE (BOMB)
+Das Abfeuern der TEC-Wellenbombe wird nur in
+
+auBergewohnlichen Situationen empfohlen.
+
+TIME CEP -@i
+
+===== Page 24 =====
+
+EES EES
+
+WASHINGTON, DC,
+TEC-HAUPTQUARTIER - 2005
+Erleben Sie die Gegenwart - und Kleindasts dunkle Doppelrealitat!
+
+Wenn Sie erst einmal an den Sicherheitswachen vorbeigekommen
+sind, steht Ihnen der Weg in die Sperrzone des TEC-Hauptquartiers
+offen... Uberwaltigen Sie die restlichen Schlagertypen, und
+
+entdecken Sie Kleindasts Plane zur Beherrschung der Welt...
+
+ACN] DERGEVA,S -.G-R’A BEN, <1 N *DE'N
+Toh tot tae D ES OLE ANS! 1'9 45
+Kleindast hat die Absicht, ein Vermégen im Ozean zu erlangen! Er
+
+bendtigt die seltenen Unterwassermetalle fiir die Perfektionierung
+einer revolutionaren elektronischen Komponente. Um Kleindasts
+Armee (und die Tintenfische) zu vernichten, mtissen Sie Ihre FiiBe
+und Ihre altbewahrte Pistole nutzen. Setzen Sie Ihre Munition
+sinnvoll ein... es geht um Leben und Tod! Nur zwei Treffer, und Ihr
+
+Unterwasser-Abenteuer geht den Bach runter.
+
+N EeWer VOR K e-Ca ys
+WALL Leg ScD Rok Zl gt .2 BH
+Kleindast hat die Gangster auf seiner Seite. Sie sind iiberall, und
+
+vor allem sind sie
+hinter Walker her.
+Schtisse aus
+vorbeifahrenden
+Autos sind in dieser
+
+Version des Jahres
+
+6
+
+===== Page 25 =====
+
+1929, in der Kleindast selbst die Borse regiert, nichts
+
+Ungewohnliches! Ihr Gegner wird nicht klein beigeben. Er schickt
+
+sein Roboterdouble los, um Walker in eine Lagerhalle zu jagen.
+
+DORTMUND,
+D> EU. T. $20 HL AUN D2 1 9.44
+Kleindast hat den genialen Plan, die Diamanten und Kunstschatze
+
+der Deutschen zu horten, um sie im Jahr 2005 zu Héchstpreisen zu
+verkaufen! Ihr Auftrag besteht darin, die zwei Wagenladungen
+
+voller Schatze zu finden und sie den Alliierten zu tbergeben.
+
+LOS" aN Ger Les,
+“BOR AGI pNABsk, A, Silt enel cAcByR yl Ke usr 2elodl: 7
+Walker wird an den einzigen Ort versetzt, an dem er Kleindast
+
+aufhalten kann: das “Brainblast"-FlieBband, von dem schon bald
+die ersten Produkte rollen sollen. Sie miissen jedoch erst eine
+Horde von Robotern bekampfen, bevor Sie in das Innere von
+Kleindasts Heiligtum eindringen kénnen. Verausgaben Sie sich nicht
+zu frith, denn der gr6Bte
+Kampf steht Ihnen noch
+bevor: Sie gegen Kleindast,
+beide bepackt mit einem
+Diisen-Antrieb, in einem Duell
+hoch tiber den Dachern von
+
+Los Angeles.
+
+TIMECOP
+
+===== Page 26 =====
+
+EC P21) Dee IP Seek e-"WrAcReNne UN G
+
+Bitte lesen Sie diese Hinweise, bevor Sie dieses Videospiel-System benutzen
+oder Ihre Kinder damit spielen lassen.
+
+Bei manchen Personen kann es zu epileptischen Anfallen oder
+BewuBtseinsstorungen kommen, wenn sie bestimmten Blitzlichtern oder
+Lichteffekten im taglichen Leben ausgesetzt sind. Diese Personen kénnen einen
+Anfall erleiden, wahrend sie bestimmten Fernsehbildern ausgesetzt sind oder
+bestimmte Videospiele benutzen. Es kénnen auch Personen davon betroffen
+sein, deren Krankengeschichte bislang keine Epilepsie aufweist und die nie
+zuvor epileptische Anfalle gehabt haben.
+
+Falls bei Ihnen oder einem Ihrer Familienmitglieder unter Einwirkung von
+Blitzlichtern mit Epilepsie zusammenhangende Symptome (Anfalle oder
+BewuBtseinsstérungen) aufgetreten sind, wenden Sie sich an Ihren Arzt, bevor
+Sie das Spiel benutzen.
+
+Eltern sollten ihre Kinder bei der Benutzung von Videospielen beaufsichtigen.
+Sollten bei Ihnen oder Ihrem Kind wahrend der Benutzung eines Videospiels
+Symptome wie Schwindelgefiihl, Sehst6rungen, Augen- oder Muskelzuckungen,
+BewuBtseinsverlust, Desorientiertheit, jegliche Art von unfreiwilligen
+Bewegungen oder Krampfen auftreten, so beenden Sie SOFORT das Spiel und
+konsultieren Sie Ihren Arzt.
+
+VORSICHTSMASSNAHMEN
+
+WAHREND DER BENUTZUNG
+
++  Halten Sie sich nicht zu nah am Bildschirm auf. Sitzen Sie so weit vom
+Fernsehbildschirm entfernt, wie es die Lange des Kabels gestattet.
+
++  Verwenden Sie fiir die Wiedergabe des Spiels einen méglichst kleinen
+Fernsehbildschirm.
+
+* — Spielen Sie nicht, wenn Sie miide sind oder nicht genug Schlaf gehabt haben.
+
+. Achten Sie darauf, daB der Raum, in dem Sie spielen, gut beleuchtet ist.
+
++ Ruhen Sie sich wahrend der Benutzung eines Videospiels mindestens 10 bis
+15 Minuten pro Stunde aus.
+
+Die Garantiezeit fiir dieses Produkt ist abhangig von den Gesetzen Ihres
+Landes. Ihre gesetzlich vorgeschriebenen Rechte werden dadurch nicht
+beeinfluBt.
+
+Virgin Interactive Entertainment (Europe) Ltd. behalt sich das Recht vor,
+jederzeit und ohne vorherige Ankiindigung Verbesserungen an dem in diesem
+Handbuch beschriebenen Produkt vorzunehmen. Virgin Interactive Entertain-
+ment (Europe) Ltd. iibernimmt keine ausdriicklichen oder implizierten
+Garantien in bezug auf dieses Handbuch, seine Qualitat, handelsiibliche
+Qualitat oder Eignung fir einen bestimmten Zweck.
+
+(24) TIME P-
+
+===== Page 27 =====
+
+90 Day Limited Warranty
+
+JVC Musical Industries, Inc. warrants to the original purchaser of this JMI sofeware product that the medium on which this computer program is recorded
+is free from defects in materials and workmanship for a period of ninety (90) days from the date of purchase. This JMI software program is sold “as is”
+without express or impliad warranty of any kind, and JMI ig not liable for any losses or damages of any kind resulting from the use of this program, JMI
+agrees for a period of ninety (90) days to either repair or replace, at its options, free of charge. any JMI software product, postage paid, with proof of date
+(of purchase, at its Factory Service Center.
+
+‘This warranty is not applicable to normal wear and tear. This warranty shall not be applicable and shall be void if the defect in the JMI software product
+has arisen chrough abuse, unreasonable use, mistreatment or neglect.
+
+THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES AND NO OTHER REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE
+BINDING ON OR OBLIGATE JMI. ANY IMPLIED WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT, INCLUDING WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE LIMITED TO THE NINETY (90) DAY PERIOD DESCRIBED ABOVE. IN NO.
+EVENT WILL JMI BE LIABLE FOR ANY SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM POSSESSION, USE OR
+MALFUNCTION OF THE JMI SOFTWARE PRODUCT.
+
+‘Some states do not allow limitations as to how long an implied warranty lasts and/or exclusions or limited or incidental or consequential damages so the
+above limitations and/or exclusions of lability may not apply to you. This warranty gives you specific rights, and you may also have other rights which may
+vary from state to state,
+
+JVC Musical Industries Europe Led
+4F. 17/18 Henrietta Street
+‘Covent Garden
+
+London
+
+WC2E 8OX
+
+===== Page 28 =====
+
+TIMECOP™ Videogame program © 1995 Victor Entertainment, Inc. Timecop™ Artwork
+Logo © 1995 Largo Entertainment, Inc. Tec Logo © 1995 Largo Entertainment, Inc.
+Timecop™ Comic Book Artwork © 1995 Dark Horse Comics, Inc. And Mark Verheiden
+Additional Comic Artwork © 1995 Victor Entertainment, Inc. All rights reserved. Largo
+Entertainment, Inc. And Victor Entertainment, Inc. Are Licensees of Dark Horse
+Entertainment, Inc., owner of the trademark, Timecop™.
+
+Licensed to JVC MUSICAL INDUSTRIES, EUROPE LTD
+JVC Musical Industries Europe Limited
+18 Henrietta Street
+ovent Garden PRINTED IN JAPAN
+London WC2E 8QX IMPRIME AU JAPON

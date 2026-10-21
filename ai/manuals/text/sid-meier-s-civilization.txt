@@ -1,0 +1,2613 @@
+# Sid Meier's Civilization
+source: https://archive.org/details/snes_manual_archive
+pdf: Sid Meier's Civilization (USA).pdf
+region: USA
+pages: 41
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+TION
+
+INSTRUCTION, BOOKLET
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER INFORMATION AND
+PRECAUTIONS BOOKLET CAREFULLY BEFORE USING YOUR)
+HARDWARE SYSTEM OR GAME PAK.
+
+‘THIS PRODUCT HAS BEEN RATED BY THE ENTERTAINMENT SOFTWARE
+
+(CONTACT THE ESRB AT 1-800-771:3772,
+
+Civilization
+KOEI Corporation
+1350 Bayshore Hivy., Ste. 540
+‘Burlingame CA, 94010
+
+(©1995 MlcroProse Software. Ine.
+ALL RIGHTS RESERVED
+MicroProse Software, Inc. is a subsidiary of
+Spectrum HoloByte, Ine,
+“This book may not be reproduced in whole or tn part. by rimeograph or
+‘pholacopy oF other means without permission, with the exception of
+quoting brlet passages for the purpose of review,
+
+===== Page 3 =====
+
+GREETIN TABLE OF CONTENTS
+
+Foreword.
+
+‘Thank you for purchasing Sid Meiers Civilization for the Super Fundamentals
+
+Nintendo Entertainment System. To get the most out of it, please
+familiarize yourself with this Operation Manual firs.
+
+Use of the Controller and Mouse
+Use of the Controller * Use of the Mouse
+How to View the Displays and Windows.
+‘General Screen
+Displays within the City
+
+City Display + Production Display * Armed Forces Display
+
+Explanations of Menus and Commands
+‘Main Menu * Unit Menu + Setler Unit
+Commands * City Menu.
+
+How to Start and Save Games
+
+Game Start + Planet Setup * Level of Difficulty
+and Nationality * Saving the Game
+
+(OK, Let’ Play!
+‘Greate the First City + Lets Increase Population or
+Resources + Which Units to Produce First? + Which
+City Facilites to Construct Fits? + Developing the
+Necessary Technology + Lers Explore the
+Surrounding World + Constructing a New City *
+Diplomacy with Rival States * War Breaks Out
+Changing, Government by Revolution * Lets Think
+About the Happiness of the Citizens * Emigrants to
+the Stars
+
+Rules
+
+On Cities
+‘The Founding of Cay * Improvement of the Terrain +
+Increasing Production * The Happiness of Citizens
+and the Specialists * Corruption and Envizonmental
+Pollution
+
+Revolution and Forms of Government
+
+‘On the Development of Technology
+Obtaining Technology + Ways of Developing
+Technology + The Influence of New Technology *
+[Accelerating Development
+
+2
+
+30
+31
+
+38
+41
+
+===== Page 4 =====
+
+Diplomacy and Trade
+
+Diplomacy = Diplomats + Caravan Trade
+
+Units and Conflict.
+Types of Units and Their Stents
+
+Movenent
+Order of Moves + The Influence of Topography»
+Limits of Mobility + Confit
+
+Reprding the Seven Wonders ofthe World
+onsicton ofthe Seven Wonders » Destruction or
+Inefcaey of the Seven Wonders + Representative
+‘Wonders of Each Age
+
+Spacecraft and Emigation
+Conditions for the Consiriction of Spacecalt»
+Spacecraft Components + Space Emigration and
+Scoring
+
+Regarding Evens
+Minor Tribes © Barbarians + Disasters + Festivals of
+Thanksgiving tothe King
+
+Game Options
+Seitng up the Planet + Seting the Level of Dificuly
+
+The Hal of Fame
+Conditions for Finishing * Figaring Your Score «Hall
+of Fame
+
+“oposraphy Chart
+
+Credits vies
+
+eB
+
+at
+
+el
+
+65
+
+70
+n
+
+Sid Meier's Civilization is a simulation game in which you can found
+4 civilization and bring it to maturity. In this game you make cites,
+increase population, and develop science and technology, making
+progress though war and trade, Experience how, from ancient times 10
+the present and into the future, human civilization and culuure
+
+systematically progressed.
+
+‘Now we shall outline for you the particulars of the game; please read
+this to grasp the essentials of the game.
+
+===== Page 5 =====
+
+FROM A SINGLE City TO A Major STATE
+
+‘The game begins with your tribe setiling somewhere and creating
+city You inetease the population while carrying on agriculture and, with
+technological research, consinueting various kinds of buildings and an
+army. Once the population reaches a certain level, you can explore new
+Jands and send out setlers to build a second city
+
+‘The basis ofthe game is the repetition ofthis process in which the cities
+are like cells dividing As your cities multiply and your population
+increase, ta revenues and prodiuction grow, and) your states sphere of
+influence gts larger. Along with this progress comes the need foradvanced
+facilities and transportation, Whether you can do a good job leading, you
+Stale economically and culturally all depends on youe policies,
+
+RIVAL CIVILIZED STATES AND THE
+COMPETITION FOR SURVIVAL
+
+Im this world, besides you, the player, there are many states that
+‘operate the computer Just like you, they are making cities and founding
+civilizations. If you expand your power, itis just a matter of time belore
+you encounter them; when this happens, youe rivals expect to enter into
+{iplomatie relations, Sometimes they are haugh
+So what do you do? Maybe they are more advanced than you in city-
+building or technology; or maybe their military level is higher
+
+Competition with such rivals is one of the goals of the gsme, Your
+rivals include great men of bistory like Napeleon or Mao Zedong. Just
+4s so many civilizations have disappeared from the earth, your
+civilization too could be wiped out tha moment of carelessness. OF
+‘course, wether that happens or not depends on how you play
+
+Wirt TRiumpHs IN TECHNOLOGICAL
+DEVELOPMENT, ON TO THE STARS
+
+The ukimate goal of this game is to sendl settlers imto space. Ifa
+country somewhere in the world sends settlers ro the Alpha Centauri
+system, the game ends ac that point. Therefore, you must make your
+space setslement plan suceeed before any of your rivals. But that takes a
+Jot of people and resources, and more than anything, these depend on
+advanced science ancl technology.
+
+From the alphabet to the opening up of space, this game ineludes all
+lands of technology for you to consider. Just as with the evolution of
+living things, these technologies proceed ffom the old to the new
+systematically —you cannot just make them from nothing, You are
+going to have 1o worry about which technology should be developed at
+‘given point, but the greatest pleasure of this game is pondering this
+and finding what ss the “right answer” for you!
+
+===== Page 6 =====
+
+Here we bring together the commands and icon functions you will use
+in play and explain them cleatly, We also include simple examples of
+play, so afer reading this you can go right into a game.
+
+UsE OF THE CONTROLLER AND THE MOUSE
+
+¢ of the Controller
+‘This game is played by one person. When playing, securely connect
+the controller to the control connector on the Super Nintendo
+Entertainment System unit
+
+CONTROL +X BUTTON Ls RBUTTONS Y BUTTON:
+‘Speeds up eucor Movement shatcut
+
+ECT BUTTON: START BUTTON:
+dumps to seve und oy orend of tun ump to ele wereen
+
+START Button
+*+ Displays the tile screen when pressed in the opening sequence
+
+SELECT Button
++ When pressed in the General sereen, one can move immediately
+to the mobile units.
++ fall moves have been completed, goes immediately to the city
+seen on the screen or to the End of Turn Command
+
+Control Pad
++ Moves the cursor or sevolls through menu items.
++ When on a unit allows it to move.
++ Serolls the map or the display. (See the LefRight Buttons.)
+
+X Button
++ iE you press this button while using the Control Pad, the
+‘movement of the cursor is speeded up.
+
+Y Button
++ When the cursor is on a unit, skips dieeetly to movement artoWs,
+
+A Button,
+‘+ Displays the title sereen when pressed in the tile display
++ Confirms commands (Yes/No) or menu selections.
++ Selects units, cities, oF terrain
++ Scrolls through message or event text
+
+BButton
+‘+ Cancels commands (Yes/No) or menu selections.
+
+Closes windows or displays.
+
+Displays Topography when cursor i on terrain in the General
+
+screen (or aller @ unit has moved for the turn).
+
+===== Page 7 =====
+
+L&R Buttons
+
++ On the General screen, when the L or R Button is pressed while
+‘moving the Control Pad, the map sevolls to where the cursor has
+‘been fixed on the screen,
+In the menus oF information screen displays, when the Lor R
+Button is pressed while moving the Control Pad up or down, you
+fan view the continuation of the text.
+In City, Production, or Armed Forces displays of a particular city,
+when the Lor R Button ss pressdd while moving the Control Pad
+left or right, you can scroll beeween the three screens.
+
+Use of the Mouse
+‘This game can be used with a Super Nintendo Entertainment System
+mouse. Please connect the mouse securely 10 one of the control
+
+Left Button
+Performs the same functions as the A Butron of the Controller;
+
++ Displays the vide screen when pressed in the title display
++ Confirens commands (esINo) ot menu selections.
+
++ Selects units, cities, or terrain
+
++ Scrolls chrough message or event tex.
+
+Right Button
+Performs the same functions as the B Button ofthe Controller:
+
++ Cancels commands (YesNo) or menu s
+
++ Closes windows oF displays
+
++ Displays Topography when cursor ison terrain in the General screen
+{or alter a unit has moved for the turn)
+
+Im addition, pressing the Right Mouse Buuton twice mn rapid
+succession performs the same functions 4s the SELECT Button of the
+Controllet
+
+How To VIEW THE DisPLays AND WINDOWS
+
+General Screen
+In this screen, you select units or cities andl issue orders
+
+‘The Status Window
+
+‘The status window appears at the top of the screen whenever you
+select units or issue orders; that is, whenever you press the A Button ot
+the ¥ Button
+
+essury
+
+getub
+
+Population
+(Moby)
+
+Detibution
+(untiyee)
+
+Name o tte
+
+Player Name: The name you determine at the start ofthe game
+
+‘Year: The curtent game year, displayed BC or AD. Depending on
+the historical period, one curn advances you from twenty-year
+increments to only one
+
+‘Treasury: Funds presenily available for use
+
+‘Sun: Present environmental pollution situation (appears after the
+Age of Industrialization),
+
+Lightbulb: Shows the progress of cechnology presently under
+evelopment: when lit, velopment is almost complete.
+
+Population (Mobility): The population of the players state or city.
+‘When a unit is selected, the remaining mobility
+
+===== Page 8 =====
+
+‘Name of State (City): The name of the player’ state or the name of
+the city that has ben selected. When a unit has been selected,
+the name of the city to which the unit belongs.
+
+Distribution (Unit Type}: Apportionment of Iuxury goods, tax
+receipis, and science, When a unit has been selected, the unit
+type. Displays gold eagle badge when a unit as been decorated
+
+DISPLAYS WITHIN THE City
+City Display \
+
+When you Sle Cy on the hy menu ou se his play.
+
+Population Roster box Food Storage box
+
+Population Roster Box
+
+The population of the city is shown by icons of chizens. One person
+represents one population point, Citizens’ appearance changes in
+‘accordance with the degree of happiness inthe ciy The ctizens who cannot
+‘be deployed on the City Environs map are displayed here as specials
+
+City Environs Map
+
+‘This map shows a city’ terrain and the current production situation,
+‘Each map square that sports grain, shields and/or rade arrows indicates,
+where a etizen is deployed 10 produce food, resources, and trade. Ifyou
+select a productive square on the map, that citizen is converted into &
+specialist (in the Population Roster bos). If you wish to redeploy him,
+please select an tunoceupied square whose topography you like
+
+Food Storage Box
+
+The provisions stored by the city, Surplus food production is stored
+here every turn, When a ety isnot producing enough grain per tur to
+feed its roops and citizens, the dilerence is withdrawn Irom hee
+
+Rest: Amount of food needed to fil the Food Storage box. Once the
+box isilled, the city population increases by one
+Need: Total capacity of the Food Storage box.
+
+City Resources Box
+
+Displays the commodity situation for every tuen. Divided, som top,
+nto food, vesourees, and trade.
+
+For food and resourees, the quantity 16 the left of the white bar is the
+portion consumed: that to the right is the surplus, For trade, the lel side
+is income and the right sie is losses due 16 comruption,
+
+The allocation ofa city’ income from trade is displayed beside the
+appropriate icons along the botiom edge of this box. From let to right,
+you see luxury goods (gem), tax revenue (Coin), and science and
+technology (lightbulb). The amounts here are determined using the
+Distribute option on the Main menu.
+
+‘Trade Box
+‘A list of the cities linked to this city by trade routes and a list of the
+tuade volume.
+
+===== Page 9 =====
+
+Production Display
+‘When you select Proctin on the Giyy men, you se this dapay
+
+actos
+‘Surmary box
+
+Product Display box
+
+Product Display Box
+shows units or buildings presently in production and number of
+turns to completion.
+
+Facilities Summary Box
+Lists the facilities in this city: Select the appropriate bag symbol when
+you want to sell a faciy
+
+Production Box
+
+Shows the resources consumed by the unit or building under
+production in the city All resources produced in excess of ity
+‘maintenance are used here
+
+Rest: Amount of resoucces needed to complete the unit or building,
+in production,
+‘Need: Total resousces necessary for unit or building in production
+
+Select Change atthe top of the box to change what is being produced
+Select Buy when paying money to complete production in a single turn,
+If the Bay option is dark, your treasury does not yet contain enough
+‘coins to purchase the item.
+
+Home City Box
+
+Shows the military waits belonging 10 this city: Depending on the
+form of government, these unlls use varying amounts of & city’
+‘esoutoes, as indicated by the resource and food icons displayed in the
+corner of each unit
+
+Environment Box
+
+Shows the environmental pollution situatton for the ety by the
+umber of chimneys displayed. Pollution appears when the player’
+cuilization is industrialized,
+
+===== Page 10 =====
+
+Armed Forces Display
+
+‘When you select Armed Forces on the City menu, this display appears
+
+Home ety of
+
+Unit on
+
+sant ty
+
+Unt on defense
+
+Shows all units in the city by type and home city na summary table,
+‘Those units showing a leter Fin the bottom let comer ate on. defense
+within the city: those showing the Teter $ are on sentry dy IF units,
+selected inthis display, itis eleased, and ean be moved in the normal way.
+
+EXPLANATIONS OF MENUS AND COMMANDS
+
+Main menu
+
+Appears when something other than a unit or city is selected on the
+General sereen, In any screen oF display, selecting the step artows inthe
+comers ofthe boxes scrolls to feveal more information.
+
+DISTRIBUTE: Determines the allotment ratio of state income. Press
+the A Button to see the Ratio bos, The sum of the allouments must
+always be ten Fitst decrease one allotment by pressing the B Button,
+then redistribute those points by pressing the A Bution to increase a
+differnt allotment
+
+Lux: The proportion for making lusury goods to dispel the
+dlssatisfactions of the residents,
+
+‘Tax: The proportion given aver to the player’ state eeastry
+
+Sci: The proportion devoted to technological development.
+
+Exits Once you have set the ratio you desire, select this co return to
+the Main menu, While you are adjusting the ratio, this key
+says "Rest," and inclicates the remaining points to distribute.
+
+ADVICE; Displays all kinds of information screens for relerence
+when playing
+
+City Status: Indicates the population and production situation for
+‘each city in one own county.
+
+Military: Indicates the types and nurnbers of military units and casuals.
+
+Intelligence: Indicates the situation of other states and their
+diplomatic relationship with your country, once you have
+established embassies
+
+Attitude: Indicates the degree of happiness of each city in your
+‘country.
+
+===== Page 11 =====
+
+‘Trade; Indicates your financial status,
+
+‘Summary Box: Indicates the umber of turns needed! to
+complete researching the current technology, total
+income for your state, and total state expenditures.
+
+Income: When this ten) is selected, figures for luxuries, ta
+receips, and science are shown for each city
+
+Cost: When this item is selected, a list of facilities you have
+constructed appeats. The number before the slash V)
+indicates a single buildings upkeep cost; the number
+after the slash is the sum of all such facilities’ upkeep
+costs, nationwide,
+
+Seienee: Indicates the rate of completion forthe current technology
+you ate researching, and lists all wchnologies already in
+your possession.
+
+REVOLUTION: Select when you wish to change the form of
+‘government, When a revolution occurs, a new form of government
+may be selected aller a ceriain nurnber of turns (See p. 38)
+
+INFORMATION: The present score or the situation of the state of the
+player is displayed as a table
+
+‘Top Five Cities: The top five developing eities rom the various
+places in the world are displayed,
+
+Score: Displays the Civilization Score for the present player
+
+Demographics: Displays the sinuation in the players own country.
+‘current rato of support for the government, GNP. et.
+
+Spacecraft; Displays intelligence on space vehicles under
+‘construction, including those in other states (only appears
+‘when space vehicle construction has started).
+
+Seven Wonders: Lists the wonders that have been built so far, by
+city and state alliiation
+
+JUMP: Displays alist of ees. you select a city wo which you would
+Uke to go, you immediately move to that city.
+
+WORLD MAP: Displays a map of the presently known world. The
+range circumscribed within the line is shown in its entirety of the
+dlsplay The arrows inthe display may be moved with the A Button or
+the Land R Buttons + Control Pad
+
+14
+
+OPTION: The various options that enhance your play are decided here
+
+Instant Advice: You choose whether to receive advice from the
+computer.
+
+End of Turn: You choose whether to display che End of Turn
+Command,
+
+Animation: You choose whether to view animation during the
+‘game,
+
+Music: You choose whether to listen fo musi.
+
+Enemy Moves: You choose whether to view the movement of
+‘enemy units if you turn this off, the game goes a hl faster,
+
+[SAVE: Saves the game ints presen site: Ifyou select CONTINUE from the
+Tile steer nest time you sat, you can begin the game fom ths station
+
+RETIRE: Select when wishing to end a game during the course of
+play. The game ends and the player’ results are displayed. You must
+fist Save the game ifyou wish to rexurn to this situation late:
+
+Unit Menu
+
+"Appears when you select a unit on the General screen by pressing the
+‘A Button, or if there is an active unit in the city you select, and you
+choose Unit ment
+
+MOVE; Allows you to move a unit. The diections in which
+‘movement is possible are shown by arrows around the unit; use the
+Control Pad to select the direction in which you wish to move
+indicated by the Mashing red directional arrow), andl press the &
+Button, Press the B Button if you change your mind. The unit returns
+to blinking stats, ready for orders
+
+“WAIT: Used when you wish to depart from the regular onderof units and
+‘move another nit first, (With units that are not blinking, the same thing
+Inappens when you select one whose movements are not completed)
+
+SENTRY; Become /eady when other units approach, Note: When in
+2 city, entries automatically Board ships that leave port. Select anit
+‘when you want to release a; defensive strength of sentried units does
+not change. Units on sentry show the leter $n the botiom leit comner
+of the icon
+
+===== Page 12 =====
+
+DEFENSE: Select when you want to puta unit on defensive posture. A
+‘unit remains on delensive postuce until you select it again, and release
+it, Defensive strength is Taised 50 percent, Units on defensive posture
+show the leuer F in the boutom left corner of the icon, as well as a
+‘back line outlining the icon,
+
+NO ORDER: Use when you have no assignment for a unit, On your
+next tum it vetums to its regular positon inthe sequence of active Units.
+
+DISBAND: Used when a unit is no longer needed, The unit is
+Immediately removed from the game.
+
+HOME CITY: Used when you wish to change the home city of @ unit
+the uni s alteady i us home city, this option does not appeat
+
+PLUNDER: Catries out plunder at that location. Irigation or mines at
+‘that square all become void
+
+LAND: Select when you wish to cause a unit in transit to disembark:
+
+Settler Unit Commands
+The commands below are displayed only for Settler units, The commands
+displayed depend on the terrain type on which the Setler unit rests,
+
+CITY: This changes a Settler unit imo a city
+
+IRRIGATION: Afier several turns of preparation, srrigates bat
+Jocation. With irrigation, the lood production of that square increase.
+
+PLAINS: Aller several turns of preparation, changes that location into
+plains (or grasslands), Does not appear on the menu unless you are in
+a forest, jungle, or swamp.
+
+FOREST: Alter several cums of preparation, changes that location
+into a forest. Does not appear on the menu unless you are in a
+arasslands jungle, plains, of swamp,
+
+ROAD: Afier several turns of preparation, builds a road at that
+location. Moving through a square with a road costs only one-third
+‘of a point in movement energy: Trade also increases in squares with
+toads. Until the technology for Bridge Building has been developed,
+roads cannot ross rivers
+
+16
+
+RAILROAD: Afier several tuens of preparation, builds a railroad at
+that location. However, @ raroad cannot be built unless a road
+already exists, To move on a raltoad requires no movement energy:
+All production on chat square rises by 50 percent (discarding
+fractions). Until the technology for Railroad has been developed, this
+command will nt appear on the menu
+
+‘MINE: Alier several turns of preparation, mining commences at that
+location, Mining increases the resource production of that square.
+
+FORTRESS: Aller several turns of preparation, builds a fort at that
+location. A unit protected by a fort doubles in defensive strength
+Construction technology is required
+
+SUPPLEMENT: Adds settlers to a city, creasing the population of
+that city, However, settlers may not be added to-a city that has more
+than ten population points
+
+CLEANUP: Removes pollution rom that location. Afier several turns,
+restores the original topography.
+
+City Menu
+‘Appears when you have selected City on the General screen.
+
+CITY: Displays the Cay seen
+PRODUCTION: Displays the Production soreen
+
+ARMED FORCES: Displays the Armed Fores screen
+
+‘VIEW: Displays the present condition ofthat ity in graphic form
+
+HAPPY: Displays the happiness situation of the citizens of that city. At
+top is the natural situation, followed in order by effectiveness of
+Iuxuries, improvements, miliary untis, and Wonders,
+
+RENAME: Can change the name of the city. When you do not wish
+to change i, select U-turn, leaving it blank.
+
+===== Page 13 =====
+
+How 10 START AND SAVE GAMES
+
+Game Start
+
+‘When you inser the eassette into the unit and turn on the power
+somrce switch, the Title seteen that starts the game appears. Please select
+START to begin a new game, or CONTINUE to take up a
+previous game
+
+‘The Start screen appears nea, Select Game Siar‘ to begin a game with
+the setup of the present planet, Customize World to change to a new
+setup, andl EARTH to play a game with an environment the same as that
+ofthe Earth
+
+Planet Setup
+
+By selecting Customize World on the Start screen, the player can set up
+sin imaginary world as he wishes, making a new map. This has several
+meanings, as follows,
+
+‘Land Mass: Decides the ratio of sea and land on the map.
+
+‘Temperature: If cool, tundra increases; if warm, jungle increases
+
+Climate: If ard, desetssinerease; if wer, swamps inctease
+
+‘Age: AL 3 billion years the topography is rugged a5 billion years,
+the sloping is gentle
+
+‘When you have decided on each condition, complete the setup by
+pressing the B Button,
+
+18
+
+Level of Difficulty and Nationality
+
+‘Afier you have decided on the map, next isthe level of difficulty: From
+the easiest—Chiefiain—to the most difficult —Emperor—there ate
+ive levels of cllicully: The conditions placed on the player athe high
+levels ate strict, and the computer has the advantage, Select the level
+you prefer I'you are playing for the first time, Chieliain is probably best
+(Gee p. 60)
+
+Difficuley Leve
+
+‘Once you have set the level of dificult, set the number of rival states
+‘operated by the computer and your own nationality. Once you select your
+nation, enter your leader’ name, When you're finished typing, select the
+quarter-urn aryow; iF you want to use the suggested nate, select U Tarn
+Tina moment, the game will start. Onee you're familiar with the game. you
+‘an go directly to the Tile sereen by pressing the START button
+
+===== Page 14 =====
+
+Level of Compas i ion
+
+Saving the Game
+
+fin the course of play you do not wish to quit the game, select Save
+from the Main menu, This saves the game in is present configuration
+Gaiting off the power wall nat affect it, The saved contents may be
+recalled as many tines as you wish, a long as nothing new is save
+
+OK, Let’s PLay!
+
+‘ere isa simple explanation of the course of a game. Once you have
+tead this, you will have a yough idea of how to play and what kind of
+things can come up in a game. I's enough information to play, though
+you might have a hard time winning your frst game. If you want more
+details or data, please read the corresponding pages.
+
+Let tok fora goo place ard ld a ys
+
+Create the First City Gee alo p 30)
+‘When a game stats, one Setter unt is given to the player (when you
+star at the Chieftain level, you get two Sefer units). Let begin with
+the consiriction of your fis iy, Move the Settler unit o discover the
+surrounding topography (as you move, you strip the blackness from
+
+ind find
+
+squares adjacent to your unit, and reveal the terrain beneath)
+‘a good place for building a city.
+
+===== Page 15 =====
+
+Points for Selecting a City Site
+
++ Close to a river oF to the shores of an aceas of lakes
+‘+ Many plains, grasslands, oF hills in the vicinity,
+
+‘+ Topography with a unigie resource mark attached
+
+‘Once you have decided on your location, seleet the Cigy command.
+‘When you do that, the Settler unit changes into acity. This ety becomes
+the capital ety of the player.
+
+Guy Viniy Map
+
+2
+
+Let's Increase Population or Resources (see alsa p. 32)
+
+‘Once the city is built, let make an ellos 10 inewease the population
+somehow. For that, select the viy and display the City sereen, then
+place exizens on the City Environs map as often as possible in the
+distriets witha lot of food prochction,
+
+“City Reso Rox
+
+Points for Increasing Population
+
++ Grasslands, cases, and fishing grounds produce alot of provisions,
+‘When the Food Storage box is full, population inereases by one,
+
+‘i the beginning, one population poine (a person symbol) consumes
+
+{wo units of provisions every turn
+
+By using Seiter units to iigate the area around the eity. you can
+
+increase food production,
+
+1a depends on the topography, but in the squares around the eity you
+can produce foodstulls (grain symbol) and resources (shield symbol)
+and conduct trade (arrow symbol). Then look atthe City Resources box.
+to see how many you can make, and how much you are consuming
+Foodstulls are used for the inetease of population, resources for the
+production of units or of buildings, and trade for the maintenance of
+technical development or buildings
+
+23
+
+===== Page 16 =====
+
+Which Units to Produce First? Gee als p. 47)
+
+‘Armiltary is necessary to defend yourity once the city is built, Sele
+the city and display the Production screen to produce the only military
+hunit you can make, Militia, Ina while, with advances in the
+development of technology, all kinds of other things can be made
+
+How to View the Unit and Building Table
++ On the Production sereen, if you select Change. you see a table of the
+‘units that may be produeed wth your present technology
+
+‘The data ate, from let, name; units atack factor (A), defense
+factor (D), and mobility [actor (MM; the number of tums to
+completion; andthe Help (H) button, which offers particulars about
+the unit or building,
+
+Which City Facilities to Construct First? Gee also p. 33)
+
+After units, buildings are arrayed on the chart. Once a Miia unit is
+in place, let make some civic facies, staring with grananes, which
+can speed up the growth of population. Or, lets make some barracks oF
+‘walls to defend against the suekden appearance of Barbarians, or in case
+‘war looms with other states. However, buildings cannot be constructed
+swithout technology just as isthe case with units.
+
+24
+
+Recommended City Facilities for the Early Period
+
++ Granaries: With these, population increases rapidly
+
++ Barracks: To ward olf pirates. The attack and defensive factors of
+production units increases 50 percent!
+
+‘Temples: Make violent outbreaks less likely to occur
+
+Walls: To ward off floods, The defensive factor of units inthe city
+
+increases threefold
+
+Aside from ordinary buildings, there are the unique Seven Wonders
+lof the World, It takes several tens of tums to complete one of these, but
+ach isa unique item with great efficacy
+
+Developing the Necessary Technology Gee ao p. 4)
+
+The three technologies you star with are Irrigation, Roads, and
+Mining. Anything else has to be developed in order to be available to
+you, Development begins automatically with the construction of a city
+
+‘Technology for the Early Period
+
++ Pottery: Enables you to make granaties.
+
++ Bronze Metallurgy: Enables you 10 make Phi
+appropriate for city defense,
+
+Burial Rites: Enables you to make temples
+
+‘The Wheel: Enables you to make powerful Chariot units
+
++ Alphabet: The basis for the next level of technology
+
+Afier one technology’ is accomplished, the question arises: what to
+‘make next? Look atthe appended Civilzation Technology chan and think.
+about this. The char indicates which units or buildings ean be made from.
+‘which technology and which technology can be developed next
+
+Rules for the Development of Technology.
++ New technology requires whatever technology serves as its base
++ Most technology s bor from a combination of two technologies.
+
+25
+
+===== Page 17 =====
+
+Let Explore the Surrounding World (ee also p-61
+Tn the beginning, the environs of the city ae unknown tertain and
+appear blacked out. When several units have been made, lets explore
+this terra incognito, Terrain with village icons represents minor bes.
+your unit enters a village, you usually obtain gold or uit
+ceasonaly there are Barbarians instead, and they aac
+
+Limits on the Movement of Units:
+
+Units move in accordance with their mobility factor; when they dont
+hhave the mobility to move into the next terrain, hey cannot move. Also
+‘units and cities possess a suppor? area of eight squares around them. You
+cannot move from the support area of a unit or city ofa different state
+to another such suppor area
+
+2400 ve
+CHARIOT
+
+Support Avew
+Inti case the cava nl carn nave montas, eas, southeast
+sath, rc of he suppor areas of al uns
+
+Constructing a New City
+
+‘When population has increased to three or four eitizens, you can
+‘make Setter units and build a new ety the same way as the fits time
+In the city you build, you ean repeat the projet of producing units that
+increase population Through this process of dividing cites and
+founding the next city, the player is able 10 expand his state’ sphere of
+influence. Because the revenue from trade multiplies with the inerease
+in ies, you can make lots of units that wil speed up the development
+of technology
+
+Diplomacy with Rival States Ger ao p 43)
+
+fthe illuseri
+Emperor of
+bYlon? Hamurabi
+most deeply
+@ discuss lon:
+
+aveful for
+
+When you move units and explore the world.
+discover tval states somewhere, When contact occurs, the other side
+will want 10 seek an audience with the player If this #8 permitted, a
+peace treaty is concluded with the other sides state and exchanges of
+technology can take place, Or, Byplomas or Caravans can be sent tothe
+other state’ city and exchanges can become possible with the openit
+of embassies,
+
+you are bound 10
+
+a
+
+===== Page 18 =====
+
+War Breaks Out Gee abo p. 51)
+
+‘When rival states or rcaleitrant Barbarians attack, chee is war, In
+war, the use ofa miliary unit to enter a square containing. & unit of city
+ofa rival is considered an attack. Defeated unitsare removed, and when
+the units defending a ity ae gone, a ground units moved ino the city
+and occupies it, When all the cites ofa rival state ate conquered, the
+state is obliterated
+
+‘Among military units, thee ae types that are superior in attack, types
+that are superior in defense, and types that are capable of rapid
+‘movement. Also, ground and ait units can be moved by maritime uss
+
+Changing’ Government by Revolution (ee asop. 38
+
+There ae rules onthe forms of goverment this game. Because the
+form of government influence the nature of production, the miliary
+expenditures, the happiness index, and the diplomatic relations of city,
+cwth the advance of civilization one own state changes its form of
+government. However, the form of government cannot change
+Svithout technology
+
+To change the form of government, select Revolution rom tbe Main
+sem Altera namber of tums, you can slet a new form of government.
+
+Possible Forms of Government
+
++ Despotie Rule: Also known as Dictator; the system at the star.
+Prniitive
+
+‘Monarchy: The productivity is higher than for Despotism
+
+Republic: The productivity is higher than for Monarchy, but urban
+
+dissatisfaction is great
+
++ Democracy: Productivity is highest, but violent outbreaks are most
+likely to occur
+
++ Communism: Also known as Socialism; litle corruption is seen.
+
+Let Think About the Happiness of the Citizens ee. abo p. 38
+
+‘When the population of city leaps ahead, shappy cizens who raise
+complaints appear. In cites where they appear, violent outbreaks
+(aries) occu that totaly shut dovn the proton of the ci To pat
+a stop to that, happy ciizens (this has nothing to do with content citizens!)
+tous exist in that city n numbers equal to or greater than the number
+of unhappy citizens.
+
+‘Content Cazens Specie
+Hepey ciizon/ Unrapey Geers Entrisiner, Se
+
+‘Ways of Making Citizens Happy
+
+‘+ Make non-laboring cnizens (entertainers) by taking a citizen off work.
+
+* Build such religious or charitable facilities as temples, monasteri
+and churches,
+
+Hold down taxes or spending on science and take luxuries
+
+Place many weilitary units in the cy.
+
+‘To Know the Happiness Index of the Citizens of a City
+
+(On the City menu, seleet Happy or, on the City (or Production oF
+[Armed Forces) sereen, look at the Population Roster box an the top
+section, The Auitude display under Advice on the Main menu shows the
+Ihappiness ofall your cities
+
+Emigrants to the Stars Gee also p. 38)
+
+IE you survive wars and technological competitions vitoriousy
+finally you enter into the final goal: the project to emigrate to the sas.
+[Any civilization can sta this project with the competion ofthe Apollo
+Program under the Seven Wondets. Lets develop the technology, build
+the space vehicle, andl aim for the Alpha Centauri System,
+
+If you get 10 your destination ahead of your rival states, the game
+ends. You win!
+
+29
+
+===== Page 19 =====
+
+More detailed explanations of the particulars of the game are given here
+Read this well 10 get even more enjoyment out of the world of
+Sid Meiers Civilization,
+
+ON Cities
+
+CCaies, which oceupy a big position in the game,
+once they are founded, so iy your best to find a favorable location for
+production and defense. And once you have founded your city, use
+‘many method to increase production and sim at making it a city
+dlistinguished in the worl,
+
+not be moved
+
+The Founding of a City
+er units can make a city, When a ety is built on a plain
+
+Oe ee
+in that square and production rises
+
+When a city is founded, the environs become productive territories,
+(City Environs map) and the production of foodstulls, resourees, and
+trade becomes possble with the placement of citizens there. What is
+produced and how much is possible cifers greatly withthe terrain and
+the form of government. Hf yon want to change the placement of
+Citizens, select a productive squate once andl make a specialist, and then
+select the new terrain you wish to make productive
+
+The production of a city is carted out automatically with every cum.
+Foodstuffs or resources remaining aller consumption are stockpiled in
+the Food Storage box or the Production box, and trading revenues are
+<Gsiributed among loxry goods, tax tevenue, and knowledge according
+to the proportions decided by Distribute in the Main menu.
+
+Pradulive Tertoy = City save) +ajoiing squares 8 + he saes
+ound them (12) ttl of 2 squares
+
+3
+
+===== Page 20 =====
+
+Improvement of the Terrain
+
+By changing the eran around the ey: the tmount of oodsuts and
+resources that can be produced there ean be increased, Only Setler
+‘its ean accomplish improvement ofthe train. Any process requites
+several turns to complete. Watch out: the orginal unig resources are
+Tost when improvements ae made
+
+Irrigation: When carvied out on grasslands, mountains, oF deserts,
+fooduull production increases, Irigation can only be performed
+fon square that shares one side witha ea square a river square,
+(of a square that has already been irrigated
+
+‘Mining: When carried out in hills, mountains, or desert resource
+production increases by one,
+
+Leveling: Forest becomes plains (or ground); jungles or swamps
+become grassland,
+
+Forestation: Plains (or ground), grasslands, jungles, or swamps
+become forest.
+
+Plunder: The irrigation and mining on that square becomes void
+
+Increasing Production
+
+Increased. production does not come to city only. through
+ienprovement ofthe tera, Roads and railroads made by Seuler units
+or facilites built through tecnologia! development also cause trade or
+
+Roads
+
+‘The presence of « road in any terain decreases the movement cost to
+fone-thied normal. In plains, grasslands, and desert, roads increase the
+square’ production by one point of trade, Roads cannot cross rivers
+until Bridge Building technology has been developed.
+
+Railroads
+
+‘When you develop Railroad technology, you can build uacks over
+squares where toads already exist. Moving over them does not use up
+‘any unit movement factor in any terrain, In addition, the products of
+‘that square increase by 50 percent (discarding fractions),
+
+2
+
+Factories and Industrial Plants
+
+By making factories or industrial plants, you can raise the resource
+production output of the entive city. Once you make industrial plants,
+factories become out of date and inellective
+
+Electric Power Stations
+
+‘Vanous kinds of electric power stations raise the resource production
+‘output of factories and industrial plants Except for combustion-powered
+generating stations, they reduce the pollution from industrial waste
+
+Markets and Banks
+By making markets and banks, you increase xy goods and tax event
+
+Factory: Raises the resource production output ofthe city by 50 percent
+(isregnrding fractions). Necessary Technology: Industralization,
+
+Industrial Plant: Doubles the resource production of the city
+‘Necessary Technology: Roboites.
+
+Combustion Power Station: Raises the resource production output
+hy 50 percent (disregarding fractions); industrial waste
+remains unchanged. Necessary Technolagy: Refining,
+
+Hydroelectric Power Station: Raises the resource production
+‘output by 100 percent (isregarding factions), industiat
+‘waste is cut in half. Cannot he set up in cities that are not
+close to hills or mountains. Necessary Technology: Television,
+
+‘Nuclear Power Station: Raises the resource production output by:
+50 percent (disregarding fractions): industial waste is cut m
+half, When violent outbreaks occur in the ety, there is a
+possbility ofa meltdown, but if Fusion technology is available,
+this will not oceut. Necessary Technology: Nuclear Power
+
+Market: Tax revenue and production of lusury goods rises
+50 percent, Necessary Technology: Trade
+
+Bank: Together with the elleet of a market, raises tax revenne and
+production of lusury goods by another 50 percent (discarding
+fractions), However, you must already: have developed
+‘markets to build banks. Necessary Tehnology: The Republic
+
+3B
+
+===== Page 21 =====
+
+The Happiness of Citizens and the Specialists
+
+out iypes of citizens lve in the city: content citizens, happy etzens,
+unhappy ckizens, and specialists. At the stan, all are content citizens,
+buat when a certain line is crossed with the increase in population, oF
+when units lave the city, unhappy ciizens are born. If the number of
+"unhappy chizens ses above the number of happy citizens (aot content
+Giizens), violent outbreaks take place in that city All activity
+(surrounding production, unt production, ct) ceases.
+
+In oder to guard agains this, you must make haury goods or fe
+to increase the nun of happy ciizens aleve the number of unhappy
+cizens Citizens who ate made specialists ae considered content cizens
+
+Luxury Goods
+
+Lewury goods can be made each tun from inde revenue ina
+proportion deided at Distsbute on the Main meno. With oo luxury
+00d, « single content citizen ean he changed into @ happy citizen or
+av unhappy citizen can be turned into a content citizen. This i carried
+‘on alteroately, starting fom changing content ctizens.
+
++ Temples, cathedrals, and stadiums have great elficac
+the unhappy citizens of «city to being content ciuzens
+
+Among the Seven Wonders there are many things related to the
+
+happiness ofthe citizens, staring with the Oracle
+
+‘in returning
+
+(ek on tis step
+fowates
+
+use iy Sts nd ie Man cis inser
+eet ae
+
+34
+
+Forms of Government and Units
+
+‘When you select Despotism, Monarchy, of Communism (also known
+4s Socialism) as a form of government, one military unit within the city
+with an attack lactor of one or more can convert one unbappy citizen
+
+(On the other hand, when you select the Republic or Democracy
+‘wher units attached ta the city Teave it, unhappy citizens increase. And
+if you make only airborne unis, unbappy citizens are born tn. like
+quantity See also p. 40),
+
+‘Temples: Can change one unhappy eitlzen into a content ehizen
+{alter the technology of Mystieisin is available: two citizens).
+Necessary technology: Burial Rites.
+
+Stadium: Can change three unhappy citizens into three content
+citizens, Necessary technalogy: Construction
+
+Cathedral: Can change four unhappy citizens into four content
+cinzens (if you make Miclaelangelos Chapel, one of the
+Seven Wonders six citizens), Necessary technolugy: Religion.
+
+Specialists
+
+Tn the cities, those who have not been placed in the urban environs
+for production ate displayed in the Population Roster box as specialists,
+distinguished from the general citizenry, There are three types of
+Specialists entertainer, ‘4x collector, and seientist—and they are
+‘exchanged! in sequence every time you use the Control Pad and the A
+‘Button together: Their functions are described below
+
+Entertainer: Each one of these increases luxury goods by twa
+‘Tax Collector: Each one of these increases tax revenues by two.
+Scientist: Each one of these increases knowledge by two.
+
+===== Page 22 =====
+
+Corruption and Environmental Pollution
+
+‘when a city develops and the volume of trade increases toa certain
+point, corrption occurs and consumes some of the actual revente from
+trade. Furthermore, when a civilization becomes developed and
+industiaization or automobiles come into being, pollution ofthe city
+environment begins and may have phystal effects, These are wo
+thinuses that grow step by step with the development of cities.
+
+In adliion, an attack by Nuclear Missiles ora meltdown at a nucleat
+power station has a tremendous impaet on the environment
+
+Corruption
+
+‘The two elements that determine the degree to which corruption will
+‘occur are distance from the capital (the ety with a palace), and the form
+fof govemment, The farther a city is from the capital, the more
+corruption will occur. As for forms of government, itis most rampant
+under Anarchy and progressively less with Despotism, Monarchy,
+Communism, and the Republic. It does not occur at all under
+Democracy. The measure for warding off corruption isthe courthouse
+
+Courthouse: Reduces corruption by hall. Necessary technology’ Law.
+
+Pollution
+
+‘Most related to pollution are the quantity of resources and population
+produced in the city When more resources are produced, more
+industrial waste occurs, and the probability of physical eflects from
+pollution grows. Population has ule effect until the development of
+Automobiles, but once this technology is accomplished, lifestyle waste
+‘is produced in Fruge quantities, and this becomes a significant factor. As
+you advance further, to Mass Production and Plastic technologies, the
+impact of population gets biager and bigger
+
+Physical Effects of Pollution
+
+‘The pollution probability i shown by the numberof smokestacks in
+the Environment box on the Production screen. If pollution actually
+cceuts, you receive a message and some squares around the ety will be
+impaired (blackened). Polluted squares’ production falls by halt
+(rounded off o the nearest whole nurnber) and does not return until a
+cleanup is done
+
+Cleanup and Prevention
+
+Polluted squares can be restored by Settler units, Move the units to
+the squares and select Cleanup ffom the Unit menu, When you are
+finshed, production can continue a before
+
+‘Also, ifone takes ecological measutes inthe city the probably of
+pollition is reduced and physical elects can be prevented, Either
+hydroelectric power plants or nuclear power plants reduce industtial
+waste by bale aso p. 33).
+
+Recyeling Center: Reduces industrial waste by one-third.
+Necessary technology: Recycling.
+
+Public Transportation Facilities: Reduces lifestyle waste to zeto.
+Necessaty echnology: Mass Production
+
+Nuclear Pollution
+
+‘Attack from Nuclear Missiles or a meltdown that occurs when there
+‘sa violent outbreak in a city that has 2 nuclear power staion will bring
+about physical effects trom pollution. Of coutse, cleanup by Setter
+mits is possible, here, too,
+
+‘Nuclear Missile: The cty and squares occupied by units are polluted,
+together with the nine most productive surrounding squares
+‘Meltdown: Cuts the population in half when it occurs; the squares
+around that city are polluted at random. But if Nuclear Fusion
+yhas been developed, the power plant automatically becomes 2
+rnucleat fusion power plant, and so meltdown does not occu.
+
+Planet Changes
+
+If for various reasons the polluted squares become numerous, a
+raising of the sea level de to global warming will begin to change the
+topography on a planetary scale. When this happens, some plains near
+seas randomly become dessert, some gfasslands randomly tun 10
+‘swamp, and some forests randomly become jungle
+
+‘To predict the likelihood of this degradation of the environment, ook
+atthe Sun icon that appears next to the Lightbulb in the Status Window
+‘The Sun shows the present condition of the planetary environment
+deep ted means low danger: pale means high danger. The Sun does not
+appear until your nation is industrialized,
+
+aT
+
+===== Page 23 =====
+
+REVOLUTION AND FORMS OF GOVERNMENT
+
+‘The form of @ states government is an important factor in its
+productivity and warfare. You start with Despotism, but it is possible to
+change governmental systems both by technical development and
+by revolution
+
+Revolution
+
+When moving Irom one form of government to another, one frst
+carries out a revolution, A state where revolution occurs lapses into
+Anarchy, but alter several tums, a message to select the next form of
+government appeas,
+
+If you build the Pyramids—one of the Seven Wonders—you
+become able to select any form of government without regard 10
+technological development, and after revolution can move 10 anew
+{form without lapsing into Anarchy
+
+Forms of Government
+
+‘There ate six forms of government altogether, but besides Despotism
+athe star and the special situation of Anarchy, none can be selected
+without cechnotogical development
+
+‘The Topography screen (B Botton) also acquaints you with: the
+production level ofeach form of government
+
+Despotic Rule
+
+Gay producion: The production level of squares hat prose three o
+more foods, esourers, or ade is edued by one
+
+‘Mitnary expendicues; The maipienance of each multary unit in
+excess of the niimber of ety: population paints costs one
+resource per turn, Each Seitler um must consume one
+foodstufl per ten
+
+Urhur corrueion Great.
+
+Peuce treaties: Conclded or beoken as the player decides
+
+38
+
+Monarchy
+Gigr prodtction: Production neither increases nor decreases.
+Milcary expenditures The maintenance of each military unit costs
+‘one resource per tum and has ino connection to population,
+Each Setler unit consumes two foodstalls per turn.
+Urian corruption: Less than under Despotisms
+Peace reaies: Concluded or broken as the player decides
+
+Communism
+‘Cay production: Production neither inereases nor decreases.
+Miliary expenditures: The maintenance of each military unit costs
+‘one resource per turn and has no connection to population,
+Each Sealer unit consumes two foodstulls per tur.
+Urban corruption: Rave, but does oceur at an average rate
+Peace eaties: The player is free to conclude or break them.
+
+Republican System
+
+ity praucion: Trade increases by one on squares possessing trade
+
+Miltary expenditures: The maietenance of each unit costs one
+resouee pe turn ad has no connection to population, Each
+Setler unit consumes two foods per turn
+
+Urb corruption: Less shan tmnder Monarchy
+
+Peace ates: Must be concluded, and cannot be torn up
+unilaterally by the player (the Senate always overrles
+aggresive ations)
+
+Other: IF one attached military unit ety’ of maritime) is separated
+from the «ity, one unhappy cizen is created, The mere
+‘ation of one airbome unit makes one unhappy citizen
+
+APs,
+
+39
+
+===== Page 24 =====
+
+Democracy.
+
+CGity production: Trade ineveases by one on squares possessing trade
+
+Military expenditures; The maintenance of each unit costs one
+resource per tuen and has no connection to population, Each
+Settler unit consumes two foodstuls per turn
+
+Urban corruption: Noe.
+
+Peace treaties: Must be concluded, and cannot be tom up
+unilaterally by the player (the Senawe always overrules
+aggressive actions),
+
+Other: IFone attached military unit (army or navy) Is separated from
+the city, two unhappy citizens are created. The mere creation
+of one airborne unit makes two unhappy citizens. If violent
+outbreaks occur two tums running within the state, they
+automatically trigger revolution,
+
+‘Anarchy
+
+City pructon: The production level of squares that prauce three
+‘oF more load, sources, or trade is reduced by one
+
+Miluary expenditures: The maintenance of each miliary unit in
+excess of the numberof city population points costs one
+resource. per turn, Esch Seiler umt must consume one
+foodstull per turn
+
+Urban corruption: Great
+
+Peace treaties: The player is fee to conclude or break them
+
+Other: Tax revenues do not come in. The maintenance of chy
+facies cannot be pid for. Technological development ceases.
+
+40
+
+é
+
+ON THE DEVELOPMENT OF TECHNOLOGY
+
+Along with the founding of cities and the production of units and
+buildings, ee., an important point with shis game is the progress of
+guiization through the development or discovery of technology
+
+Obtaining Technology
+
+TEchmology develops as knowledge bulls up: knowledge is the
+portion of aciystmde revenue indicated by lightbulbs) thats reserved
+for scence. When you accumulate the share af knowledge eeded for
+the technology tha is your goal, you acquit the new technology
+
+Ways of Developing Technology
+
+No technology can he developed from zero. When you have
+developed io diferent technologies, ofien one new technology can be
+born fom that. To fearn what new technology can be developed next
+from which current technologies, please see the fold-out Civilization
+Technology Chan
+
+The Influence of New Technology
+‘When new technology is obtained, the following usually occurs
+
++ The production of new types of units, buildings, and/or Wonders
+Dhecomies possible
+
++ Anew form of government can be selected.
+
++ A portion of old unit types can no longer be produced.
+
+Furthermore, with the development of Gunpowder or the loternal
+Combustion Engine, the barracks in all the cities become obsolete and
+‘are removed, In the same way, when a certain technology is developed,
+‘a comtesponding Wonder loses its elfeciveness (see also p. 55).
+
+4
+
+===== Page 25 =====
+
+Accelerating Development
+
+To increase the speed of tchnological development, it is necessary’ 10
+increase the amount of knowledge made by: a i! Since knowledge 1s
+alloted from trace revenues, the simple ways would be to boost that
+tity’ total trae or ad to the share for scene uncer Distribute in the
+Main mens, Knowledge is ditetly increased when you make scientists
+or libris and universities
+
+Scientists: by making citizens inin specialists (Sciemtists), you ean
+increase the amount of knowledge. For each scientist, wo
+lightbulbs are added (see also p. 35),
+
+Library: Raises knowledge ia ety by 50 percent
+
+University: Added to the effet ofa library, adds another 50 percent
+to knowledge. A university cannot be mace unless you have 2
+library beforehand, Necessary Technology: University
+
+a2
+
+Ah CEE LEEPER EE AEB SES EE
+
+DIPLOMACY AND TRADE.
+
+There can be three or more states besides the player in the world
+Diplomatic relations or imereity trade can be carried on with these
+sival states
+
+Diplomacy
+
+Diplomacy curs through contact with val states, When the players
+uni encouters a rivals unit o¢ city, contact is begun on the basis of
+judgments made by the companer When the player seeks Co enter nto
+Contact, he or she sends Diplomat ni nto a rival cy, and selects
+Fae an Audlence withthe King
+
+TatelLigence Report: | 1680 ne
+
+Head (Gonuze
+
+Estpans towise ie
+ui livar ise
+
+Caoital SSamarband
+
+mens DeSPoe is
+
+Sf ye ave a embassy, 0 cn acerca an lige
+Hep tht ste eve you have an aan
+
+B
+
+===== Page 26 =====
+
+The particulars of contact change, depending on whether a players
+state of a rival state is warlike or peaceful, but the general sequence is
+as follows,
+
+Exchange of Technology
+Some rivals may offer to sell you technology you have not developed. If
+you agree, they in return choose one of your technologie, as they please
+
+Peace Proposals
+
+Someone may approach you for tribute or ask you to sell your
+technology. If you agree, a peace teaty is implemented, With peaceful
+rivals, refusal may not ruffle feathers, but warlike rivals may go to war
+
+Breaking Treaties
+Someone will come wanting you to break a treaty you have conchided
+with another rival Ifyou refuse, a warlike rival may go to war with you.
+
+Implementing Peace Treaties
+
+[As longaas there is no declaration of war, contact always ends with the
+offer ofa peace treaty Ia this point you implement a peace treaty, you
+‘may ask your new aly to raise an army or for tribute, Whenever you ask
+them to raise an army, they demand more money. If you refuse the
+treaty, a peaceful or weak rival may olfer money or technology and
+continue contact, but warlike rivals may go t0 war
+
+Diplomats
+
+‘ADiplomat unit has unique moves that a mitary unit does noc have
+When a Diplomat unit moves into @ rivals city, a memu appears from
+which you can choose the action you prefer, as shown below. If a
+Diplomat moves into a rival units squat, it ean offer a bribe to win that
+unit over to your side, Excepting when bribing units, the Diplomat is
+lost when a commands executed.
+
+Establish an Embassy: Establishes an embassy to spy om that state,
+‘Technological developments or foreign relations intelligence
+‘ean now be teported regularly, You may only have one
+embassy per sate
+
+Search Cities: The detailed particulars of the city into which the
+Diplomat is sent become visible
+
+Steal Technology: I your rival has developed technology you have
+rot, you can steal one technology at random. Only one
+technology can be stolen from each city
+
+Cause Destruction: Destroys a unit in production or a facility of
+the city at random,
+
+Incite Rebellion: With a payment of money, cities other than your
+rivals capital eity ean become yours
+
+iplomatic relations can be
+established with a rival state at any time.
+
+‘Bribing Units: fenemy writs are bribed, chey immediately become allies,
+
+Prat ety
+
+Diplomat unit
+
+Senin a Diplomat unit and sok out telgence on he rl tet
+
+ca)
+
+===== Page 27 =====
+
+Caravan Trade
+
+‘Besides carrying on trade with their envitons, cities can conduct trace
+‘with other cites. Send a Caravan unit toa city ten oF more squares away
+and open up a Trade Route. When you do that, trade with that city
+begins automaticaly and trade revenue comes in every turn,
+
+Trade Revenue
+The money received when a Caravan unit artives (or the subsequent
+trade revenie) rises with distance, especially when the city is in another
+sate or on another continent. There is no limit to the number of trade
+Toutes a city can open up, but only up 10 three can have high profits
+
+‘Support for the Seven Wonders
+
+‘When a Caravan unit is sent to a city i its own state that is in the
+process of building a Wonder, it can also be used to speed up that
+Production. The procedure isthe same as for opening up a trade route
+
+Cavan a
+
+‘A caravan appnches acy wo etabsh ae. Tad revenue om distant
+large ee reat
+
+46
+
+UNITS AND CONFLICT
+
+In the course of a game, you move many units to explore unknown
+terrain, defend cites, and fight with rival states
+
+Types of Units and Their Strengths
+Military Units
+
+Miltary nits are sed in confi, unit escort, and parting dow violent
+cutbreals in cties, Depending on their msn Sphere of activity, military
+tits are dived int land, mate, of ait uns. Land uns’ principle
+duty is confit, Maritime units ae used to’ move across he oceans. Air
+“its are powerful units that appear inthe later half of the game
+
+“The abilty values are, fom lel: attack factor, delense factor, and
+‘mobility factor. Tetminal technology i the technology which, when
+appeas, makes ic impossibl to produce the unit any longer
+
+Representative Land Units
+
+Phalanx: The mainstay of defense until the appearance of
+
+musketeers, Necessary Technology: Bronze Working, Terminal
+Technology: Gunpowder, Abily: 1-2-1
+
+Cavalry: An absolute necessity ifwarsare frequent Necessary Technol:
+‘Chivalry; Terminal Technology: Automobiles; Abily: 4-2-2,
+
+‘War Vehicles: The strongest weapon for ground defense balance.
+Necessary Technology: Automobiles; Terminal Technology
+
+None; Abily: 10.5:3.
+
+Representative Maritime Units
+‘sail: Can carry up to three land units Necessary Technology
+‘Navigation; Terminal Technology: Compass; Abiity: 1-1-3.
+
+Battleship: Except for nuclear missiles, the strongest attack and
+defense force. Necessary Technology: Steel; Terminal Technolog
+None; Ability: 18-12-4
+
+Aireraft Carrier: Can carty eight alt units. Necessary Technology
+‘Advanced Flight; Terminal Technology: None; Ability: 1-12-5.
+
+ca
+
+===== Page 28 =====
+
+Representative Air Units
+Fighter: Can attack air units, Necessary Technology: Flight 1
+Terminal Technology: None; Ability: 4-2-10.
+
+Bomber: Best thing for attacking ctles or land and maritime units,
+Necessary Technology: Advanced Flight; Terminal Technology
+None; Abily: 12-1-8,
+
+Nuclear Missile: Tremendous destructive power, but an evil
+‘weapon that pollutes the environment, Necessary Technology:
+Rocketry + Manhattan Project (one of the Seven Wonders),
+Terminal Technology: None; Ability; 99.06.
+
+Afver one turn (Fighters or Nuclear Missiles) or to turns (Bombers)
+‘of movement, if air units do not return to city of alteralt cater, (or, in
+the case of missiles, explode) they crash
+
+Special Units
+
+‘Special units include Settlers, Diplomats, and Caravans, Allthree are
+land units. They require no resources under any form of government,
+‘and they create no unhappy citizens,
+
+Settlers: Units that make cities or change the topography: Necessary
+Technology: None, Terminal Technology: None; Ability: 0-1-1
+
+Diplomats: Units that seck out intelligence on the cites of other
+sates or engage in bribery and sabotage (see also p. 45)
+Necessary Technology: Writing; Terminal Technolagy: None,
+Abiiy: 0-0-2.
+
+Caravans: Units that are used when carrying on trade between
+cities oF to speed up construction of Wonders (see page 40)
+Necessary Technology’ Trade; Terminal Technology: None,
+Abily 0-1-1
+
+48
+
+MOVEMENT
+
+Units can move on the map by using their mobility factors. Even if
+there are points remaining in @ units mobility factor, f not enough
+points are Teft to move into the next square, a unit cannot enter
+that squate
+
+Order of Moves
+
+‘When a player's mim begins, units waiting for orders blink to let you
+know this. When the motion of one unit ends, you zip to the next
+‘iting unit automatically, and in this way all units receive their orders
+and the tum ends. When you don want 10 move a given unit, you can
+select No Orders, and its aetion for that tuen will end,
+
+Altering the Order
+
+‘when, in the middle of a turn, you want to change the order and
+‘move different unit fist, select Wait jump out of sequence and select
+the unit you want to move, to make i blink
+
+Removing Defenders or Sentries
+
+Units ordered to go on defense or sentry duty will not ome up in the
+move sequence until they ave released. When you want to release them,
+seleet them an the General screen or the Armed Forces screen, Sentries
+are released when rival units come into the vicinity Units can move or
+fight in the regular way after the turn in which they are released.
+
+The Influence of Topography
+
+The mobili factor associated with a land units movement imo
+squares differs with tertain, For deals, see the Topography Chart
+{p. 70-71), air units always use one point of their mobility factor 1
+‘Move one square, sithout regard to topography. Martine uns also use
+one point per sae
+
+‘Also, when land units move on roads oF raroads, they ean move
+fosier than usual
+
+Roads: n any terrain, square costs only one-third point.
+Railroads: in any terrain, no mobility points at all are needed,
+
+49
+
+===== Page 29 =====
+
+Limits on Mobility
+
+Land units can ordinarily move only on land, They can move on the
+seas only when maritime units carry them, Maritime units camot move
+nto land, unless they make port in coastal cities. Air units ean mor
+‘over land or sea, but if they do not return to a city oF aiecral cartier in
+fone oF two tums, they crash,
+
+Support Areas
+
+‘Units and eities are considered to have the surrounding eight squares
+as support areas. Except for Diplomats and Caravans, no land unit can
+‘move directly from one enemy support area te another. When you want
+to make such a move, you must fist leave the enemy support area and
+then move toward the tage square. However, m eases where a ety of
+fone’ own country is within the enemy’ support area, movernent in and
+‘ut of that city is permitted
+
+Maritime Transport
+‘Only. four units —Triremes, Sails, Frgawes, and Tansports—can
+transport land unis. Ale units ean be transported only by Aircraft Carriers.
+{fa maritime unit is aiacked by the enemy while transporting and is
+lost, any units being transported are lost at the same time, OF course
+Jand units or air onits under transport cannot defend
+
+50
+
+Embarking on a Vessel
+
+Units can be moved onto a vessel only by moving land or ai unit onto
+an adjoining maritime unit Also, in a case where a land uit that has
+Jecome a sentry is stationed in aelty where there is a maritime unit, it
+‘moves aukomatially ono the maritime unit ifthe mariime unit leaves pon.
+
+Disembarking
+
+To offload a land unit, select Land on the Unit menu while the
+taritime unit i ata seacoast oF in a city: The units being transported
+can disembark in their move sequence,
+
+DDisembarkation can be accomplished only during the move ofa matiime
+tit. Ireannat be done directly into a squawe that hasan enemy’ anit or city.
+
+Conflict
+
+‘When your units move into an enemys square, confct occurs. The
+cntcomne of the conti is sted igh then and ther the ute of he
+Ising side are immediately removed, When there are wo or more units
+onthe square of the defender, hen wth the grees deensive ator
+iseonsdered o be defending Itha un loses asthe resto he confi,
+alums on that square are removed (City defense the only xcepon)
+
+‘The Effect of Topology
+
+The terrain of the defending side has an influence on confit. The
+defense factor of land units holding hilly oF forested terain is taised
+For deus, see the Topography Char. The dele
+and air units des not change no matter what terran they are in, Also,
+the attacking side isnot influenced by topography:
+
+Taetor of matithme
+
+Unit Status
+
+‘The altack or defense factor ofa unit differs in war depending on its
+staus(active, sentry on defensive posture). When you want the ultimate
+attack or defensive power, adjustment wil depend on this satus
+
+Mobility Factor
+
+[Units that have used their entire mobility factor to get where they are
+‘cannot attack, If they sake advantage of roads 10 move and thelr
+siandard mobility factor is less than one, they ean attack, but their
+attack stength is lowered, Ua unit has extra points of mobility factor
+and attacks, it can do 50 continually to the extent ofits mobility factor.
+
+51
+
+===== Page 30 =====
+
+Defensive Posture
+
+‘When land units assume a defensive posture, their delensive factor is
+rmised 50 percent, The defensive posture is accomplished by selecting
+Defense on the Unit menu,
+
+Veterans
+
+Units produced in a city that has barmeks or units that have eon
+victorious at least once ate veteran units, with 50 percent mote atzack
+and defensive power. Veteran units have a gold eagle badge displayed
+rent to their names.
+
+Defensive Facilities
+
+Special facilities inerease the defense factor of units’ Adjustments for
+special facilities are made after adjustments for the ellect of topography
+or veteran status
+
+Barracks: Can make veteran units, Defends against pirates
+Necessary Technology (First Level): None, Second Level
+Gunpowder, Third Level: Combustion
+
+Walls: Triples the defensive factor of units ina city. However, they
+hhave no effect against Tanks or Fighters, Defend against flood
+
+Necessary Technolegy: Masonry.
+
+Fortress: Units on sch a square are doubled in defensive ste
+Can be constructed outside cities by Seiler units,
+Necessary Technology: Building
+
+Attacks on Cities
+
+1m battles fought to defend a city, even if the defending unit is
+defeated, the other unis are not wiped out, Usually, only the unit that
+loses is removed. Ifa situation arises where there are-no units on the
+defending side, the land units of the attacking side can enter the ety,
+which, being occupied, now belongs to the attacking side.
+
+‘When a city without walls is attacked and defeated by a land unit, the
+population drops by one point. If there is only one point of population
+there, hat city is wiped out, An attack by an air unit (except a Nuclear
+Missile) of a maritime unit does not reduce the population
+
+Offshore Bombardment
+
+Maritime units, except lor Submarines, can attack cities or land units
+‘on the seacoast. No special adjustment is made om this basis. Of course,
+maritime units are removed if they lose
+
+‘Air Auack
+
+‘The only thing that can auack an aie unit is a Fighter unit, Land or
+‘maritime units cannot attack, In air to ground conflict, terrain and walls
+or fortresses have no elect,
+
+Whe cape ol a mane ad ne
+
+technology Gf the rival had developed a technology you
+did noo se a
+
+Special Attacks
+‘Nuclear Missiles and Diplomats can carry out unique attacks
+
+33
+
+===== Page 31 =====
+
+Nuclear Attack
+
+When a Nuclear Missle attacks an enemy city ot unit, there is a
+‘nuclear explosion centered on that square. When the explosion occurs,
+egardless of defensive factors or nationality, ll units in and around that
+square are los; in a ety half the population is lost. The blast center and
+rounding squares are polluted. Only an SDI Defense Base can
+ward olf such a nuctearatack,
+
+SDI Defense Base: A city with one of these cannot be attacked by:
+1 Nuclear Misile, Necessary Technology: Superconductor
+
+Bribery
+
+Just a6 in a regular attack, when a Diplomat unit enters @ square
+‘ccupied by an enemy uit, can commat bribery. Upon payment ofthe
+displayed cash amount, enemy unis irameditely becomes a friendly unit
+The amount ofthe bribe decreases the farther the units om ts eaptal
+
+Diplomat unt
+Unit bees
+
+the babery sued and tae he wut os yours?
+
+Iskeworth to ma
+
+34
+
+REGARDING THE SEVEN WONDERS:
+
+The Seven Wonders are unique items that confer many things on the
+states that build them. There are a total of 21 wonders, seven tn each
+age: Antiquity the Middle Ages, and the Industrial Age
+
+Construction of the Seven Wonders
+
+None of the Seven ‘Wonders may be constructes! more than once in
+any game, Just as with ordinary units and buildings, a required
+technology is set. However, once they are built, they do not ental any
+maintenance costs
+
+Destruction or Inefficacy of the Seven Wonders
+
+'AS ume advances and technology is developed, the onginal Seven
+Wonders lose their eflicacy. Also, when a city is destroyed and
+disappears, any Wonder in disappears at the same Une.
+
+Ye sa sce which counes have which Wonders wide
+Inligence, under Advice on the Mais mt
+
+===== Page 32 =====
+
+Representative Wonders of Each Age
+
+Voiding technology means the technology that removes te ellcay of
+the Wonder. When a state anywhere in the world develops that
+techmology the Wonkler loss its power
+
+Antiquity
+Oracle
+
+Gest: 300
+
+Necessary Technology: Mysticism
+
+Voiding Technology: Religion
+
+Power: Raises the efficacy of temples from two people (itis two
+people because Mysticism has already been developed) to
+four people.
+
+Colossus
+ost: 200
+[Necessary Technology: Bronze Working
+Woiding Technology: Electricity
+Powers The trade volume on squates with trade increases by one,
+
+[Necessary Technology: Masomy
+
+Voiding Technology: Communism
+
+Power: Alter a revolution, you may chose any form of government,
+includmg those not yer developed, on the next mun (without
+going through Anarchy)
+
+Middle Ages
+Galileo’ Observatory
+Cast 300
+Necessary Technology: Astronomy
+Voidng Technology’ The Automobile
+Power: Doubles the amount of knowledge in all eties ultimately
+
+56
+
+‘Magellan’ Voyage of Exploration
+Gost: 400
+[Necessary Technology: Navigation
+Volding Technology: None
+Power: The mobility factor ofall mantime units increases by one,
+
+Shakespeare’ Theatre
+ost: 400
+Necessary Technology: Medicine
+Voiding Technology: Television
+Power: Unhappy citizens in all cites retuen to being content
+
+Industrial Age
+Apollo Program
+
+Cost 600
+
+Necessary Technolngy: Space Flight
+
+Voiding Technology: None
+
+Power: All sates become capable of producing components for the
+space vehicle the locations of all eities of all states with
+‘embassies can be confirmed
+
+‘Manhattan Projeet
+Cost: 600
+Necessary Technology: Nuclear Fission
+Voiding Technology: None
+Power: States that have developed Rocketry hecame capable of
+producing Nuclear Missiles
+
+‘Women’s Suffrage
+Cost 600
+Necessary Technology: Industrialization
+Voiding Technology: None
+Power: Under a Republie or Democracy, the number of unhappy
+‘etizens produced when a land, maritime, or air unit leaves
+the ety decreases by one person,
+
+57
+
+===== Page 33 =====
+
+SPACECRAFT AND EMIGRATION
+
+(One of the final goals of this game is to emigrate to other planets.
+‘When any state, including the player’, accomplishes this, the game endl
+
+Conditions for the Construction of Spacecraft
+
+In onder to-go to other planets, a spectallzed spacecral is required,
+but acondiion for its construction s that acty somewhere in the world
+rus have completed the Apollo Program, one of the Seven Industral
+Age Wonders,
+
+ach state can make only single spacscrat. I capital conquered
+and occupied, the spacecraft is automatically destroyed, but ip such a
+case its possible to reconstrt i
+
+A sept of sacs tumigration fom the is space
+ey of mark
+
+58
+
+Spacecraft Components
+
+Unlike ordinary units, a spacecraft is made from various kinds of
+components, and when all those components ate produced and put
+together, one big spacecralt is complete Maximum indicates the largest
+numberof the given component that a player ean produce. ist ists the
+price of one uni, You can ereate a spaceship wath fewer than the
+aim components
+
+Spacecraft Structure
+The framework that connects the spacecraft block and living area
+Maximum: 39; Cost: 80; Necessary Technology: Space Flight
+
+Components
+
+‘The components connected with the engine, After produetion, you
+an choose whether you want a propulsion block or a fuel block
+Maximum 8 of each type; Cost: 160; Necessary Technology: Plate
+
++ Propulsion Block: The engine part. The more you add, the faster
+
+you reach your destination and the greater your chances of success.
+Fuel Block: The source of energy forthe propulsion block. In ander
+for the engines 10 put out the maximum force, one of these Is
+required for each propulsion block.
+
+Modules
+
+The components connected with lie, Afler production, you can
+choose whether you want a living are, ile support area, orsolar panel
+Maximum: 4 of each type; Cust: 320; Necessary Technology: Rabatics.
+
+‘+ Living Area: A facility that houses 10,000 people
+
+‘+ Life Support Area: Each provides the hfe support for one living
+area. Residents that do not receive life support service have a low tate
+
+cof survival inflight.
+
+Solar Panel: A facility that provides electric power to one living, area
+
+andl one life support area, Facilities not getting electric power cannot
+
+work right
+
+===== Page 34 =====
+
+Space Emigration and Scoring
+A minimal spacecraft siractare arrayed with ten components and
+rodiles can take off Once it has launched, a spaceeralt cannot be
+aborted, All you can da is wait fr the repor
+‘When the spacecraft reaches a planet, the score depends on the
+numberof emigrants & bigger spaceralt hat can carry more emigrants
+om ts voyage wil esl in higher score
+
+Passengers: The number of people that can be caried,
+
+Supply Rate: the percentage of people who can receive lie suppor
+
+Energy: the percentage of electricity necessary for occupation and lie
+support that is supplied.
+
+‘Weight: the total weight of the spacecraft.
+
+Fuel: the percentage of fuel used by the propulsion equipment that is
+supplied.
+
+Flight Time: the number of years needed until arrival
+
+Probability of Success: The projected percentage of people that will
+survive until arsival
+
+Passengers Support,
+
+Fight Time
+
+Probability of
+Success
+
+0
+
+REGARDING EVENTS
+
+‘Many events happen in the course of a game. The events mentioned
+h here, with the exception of minor tribes, appear automatically with the
+
+check at the beginning of a warn,
+
+Minor Tribes
+
+‘When a unit enters @ square with the minor tibe ieon, an event
+
+‘occurs immediately
+
+Scroll of Knowledge: You gain at random a technology as yet
+undeveloped. With the advance of ciiization, this no longer occurs
+
+Birth of a City: A new city is made here, under your contol
+Birth of a Unit: One new military uoit becomes yours,
+Precious Metal: Money becomes yours in units of fifty coins.
+
+Sudden Attack: You are attacked by a Barbarian unit that appears
+
+suddenly.
+
+Prats are approaching te ct
+
+61
+
+===== Page 35 =====
+
+Barbarians
+
+‘When you play the game, red military units may appear suddenly in
+the vicinity of a city. These are Barbarians. They are not units ofa rival
+sate, but they attack and plunder the eity or unit of the player.
+
+‘Types and Natures
+
+There are two types of Barbarians: Brigands that appear on land and
+Pirates that come from the sea, They both approach cities, but act
+somewhat differently
+
+Brigands: They are interested only in the spoils of war. They have
+no desire to setle down, so they plunder irrigated squares
+and totally destroy any city they conquer
+
+Pirates: They are looking for a fixed dwelling place. Therefore, they
+do not plunder, but if they occupy a city they stat producing
+tunis and set out to attack nearby cities,
+
+Sites Where they Appear
+
+Barbarians appear at random on sea coasts ori friendly squares that
+hhave not been explored. But Brigandls de not show up within the City
+Environs map. Also, as the age changes, Barbarians develop sttonger
+riltary units
+
+Subjugation and Ransom
+
+4s with ovdinary conflict, when attacked by a. military unit,
+Barbarians can be subjugated. Furthermore, i you attack @ Barbarian
+king who has taken on the appearance of a Diplomat, you ean collect
+100 coins in ransom ihe is captured. Bue if his support tits disappear,
+this Barbarian king éscapes and disappears i he is pox captured within
+several turns,
+
+Disasters
+‘Oceurring in cites, these ruin facilites and reduce population. One is
+‘protected from them if there are certain measures (protective measures).
+
+Earthquake
+‘These occur in cities built on oF among hills and destroy one facility
+or another, Protective Measures: None
+
+Famine
+These occur at random and the Food Storage box becomes empty
+Population decreases. Protective Measures: Granaries
+
+Fire
+This occurs at random and ruins one facility or another. Protective
+Measures: Aqueducts
+
+Flood
+‘Occurs at citles on oF near rivers and reduces population, Protective
+Measures: Walls
+
+Pirates
+
+[Arise at cities on lakes of the sea coast; the foodstuffs in the Food
+Storage box and the resources inthe Production box disappear entirely,
+Protective Measures: Barracks
+
+Plague
+Ceeurs at random and reduces population. No longer occurs once
+Medicine has been developed. Preventive Measures: Aqueduct
+
+Yoleano
+(Occurs tn eities on or near hills, reducing population, Preventive
+Measures: Temples
+
+3
+
+===== Page 36 =====
+
+Aqueduct: If you dont have this, population wall not increase
+higher than ten, Protects against fire and. plague, Necessary
+“Technology: Consteuetion
+
+Barracks: Can make veteran units, Wards oll pirates
+Necessary. Technology (First Level!” None; Second. Level:
+Gunpowder; Third Level: Combustion
+
+Granary: If you have this, population increases rapidly, Protects
+against famine,
+
+Necessary Technology: Pottery
+
+‘Temple: Can change one unhappy citizen into a content citizen
+(alter the technology of Mysticism is developed two citizens)
+[Necessary Technology: Ceremonial Burial
+
+‘Wall: The defensive factor of units in ciies with this triples. But has
+no elfect against Tank or Bomber attacks, Protects agains lood,
+[Necessary Technology: Masonry
+
+Festivals of Thanksgiving to the King
+
+‘A good event that happens in a ety of more than three population
+‘where there are no unhappy citizens, and the numberof happy czens
+exceeds that of content clzens. The effects depend om the form
+of government
+
+Anarchy: Nothing happens
+
+Despotism: Even on squares with more than three ip production,
+prodluctivity does not decrease.
+
+Monarchy, Communism: Trade increases hy one on squares with
+trade,
+
+Republic, Democracy: If there is enough food, population,
+Increases by one point.
+
+64
+
+GAME OPTIONS
+
+Before beginning a new game, the topography of the map and the
+sirength of rival states can be set. Ifyou clear it once and change the
+conditions, you can enjoy’ different gare
+
+Setting up the Planet
+‘When you start, you can determine the setup ofthe planet where you
+sul play from now on
+
+Setting up the Environment of the Planet
+‘The player can set up an imaginary planet as he likes and make the
+map to it #, The various options ate as follows
+
+Land Mass: Decides the ratio of sea andl land on the map. Small
+‘means many lie islands and greater isolation; lange means
+extensive continents and more rapid cultural contact.
+
+“Temperature: If cool, windra increases. if warm, jungle increases.
+
+Climate: I arid, deseris increase; if wet, swamps increase
+
+Planet Age: With 3 billion years the topography is rugged; with 5
+Dillion years, the sloping i gentle
+
+Earth
+
+I you select this, the game can start ata place close to an actual
+‘country on a map resembling the Earth. Naturally, rival states will also
+appear neat their actual historical locations,
+
+65
+
+===== Page 37 =====
+
+Setting the Level of Difficulty
+
+‘There ae five Levels of cifielly fo this game, The terminal year of
+the game, the money in the teastry of your frst city and the time i
+takes to develop technology change with the evel ofdificuhy. At the
+high level, the conditions for winning ae st.
+
+Chiefiin: The easiest level, beginning withthe possession of two
+Seitler units. First-time players may prefer this,
+
+‘Commander: The cash in your possession atthe start disappears
+and rival states are trong. But if you play two or three times
+and understand the game, you can win.
+
+Prince: The ewvals are prety stro, and if you dant keep an eye on
+‘he citizens, violent outbreaks late up right away. At this level
+you ean win if you dom keep your wits about you
+
+king: The nvals are at about the same level asthe player: Barbarians
+ae also strong, and you are always having to fight bicerly
+cover something. You need los af experience to win,
+
+Emperor: The most demanding level. Rival sates grow fester in
+every respect than the player, so it i really umpressive if you
+
+66
+
+HALL OF FAME
+
+When the game finishes, the score of the player is calculated and
+recorded. The place where its recorded is the Palace of Fame
+
+Conditions for Finishing
+“The game over a he following times:
+
++ before the erminal year, you have eradicated all rival states
+
+I before the terminal year, you have succeeded in emigrating to
+space.
+Ifyou are eradicated.
+1 you select Retire on the Main menu (and have neglected 10
+Save fis),
++ When you teach the terminal year,
+
+or
+
+===== Page 38 =====
+
+Figuring Your Score
+“The score for Sid Meier's Civilization is calculated on the following,
+faeiors
+
+Basic Wins and Losses Score
+“The score computed according to the state of the eles or state
+
+Happy citizen: 2 points per person
+‘Content citizen: 1 point per person
+
+Seven Wonders: 20 points cach
+
+‘Each turn in which no wars were fought: 3 points
+
+(but i there iseven one battle the accumulated points reset a zero)
+‘Technology of the Future: 5 points each
+
+Polluted square: minus 10 points each
+
+Bonus
+‘There are wo bonuses beyond the basic score
+
+‘Space Emigration Bonus: This is a bonus attached to save arrival
+‘of the space vehicle. Filly points are awarded for every 10,000
+‘tizens who successfully become space emigrants
+
+‘World Conquest Bonus: This is a bonus atiached to defeating the
+world, The more rival states there are and the faster you
+accomplish this, the higher the point,
+
+The Hall of Fame
+
+‘The five siates ofthe player that are highest in civilization rank are
+recorded in the Palace of Fame. The cilization wank is decided by
+combination ofthe game score an level of dificult Thus, tothe extent
+that you have a high level of dificliy, even a low scote will rise
+your rank,
+
+)
+
+===== Page 39 =====
+
+‘cuonsey Suypuessp) mato o¢ sid uonsnpoid yy oraz
+nujod panyy-auo 5} enim Sue
+
+peony
+IGOH SPEC,
+
+2)
+
+quo snjd apeu :Korourog ‘ygnday
+sfuyp 0 stsqunUNo> MypIeUON,
+‘a9 snus ye auou Jo san A Jo uoRMpaLd -wspodsaq “yreuy
+UDUNUI2AOD Jo WHO
+
+‘ytd = [B02 Suppnposd SPH +NA_-oRpord KseuIps0 ov syd v se paroudaayun st sasunosasjerads Jo 15042 2,
+
+2a = 1
+a
+spood=a
+
+ee td er rary = T 0
+ALLY 5
+
+4 z 800
+aun so) a = 1 a
+comp song | rye on a z duns
+
+ee,
+
+wrasm | eases] swse] a 7
+
+peo | Bap en w
+
+= as ON inane
+
+Gawd bayreN wu
+Qgssamesny Hu = t ex)
+
+spunseig |
+suey)
+fon son, a+ | aiqesediar | ar uu = 1
+
+sua
+Gp wepuey — a = 1 pun
+unses syqesoday | 20x = : nave
+(e) semosoa anbiua | spe | Suu asp ada wear
+
+IRIVHD KHaVaDOdOL.
+
+===== Page 40 =====
+
+Original Game Design
+Sid Meier with Brace Shelley
+
+Super Famicom Edition Planning and Production
+-Asmic Softwate, Inc. Operation Division
+
+Super Famicom Edition Editorial Supervision
+‘Kurata Sachihiso/Muse Software
+Art Direction, Design, Cover Design
+
+‘Mike Smith, John Emory, Cesar Novo
+
+Image Hlustration
+Mike Smith buildup (CG Production)
+
+“Text, Chart Design
+‘Martin Hagisawa, Kadowani Naomi, Noda Chizu (Hit Studio)
+
+‘Manual Design & Layout
+Cesar Novoa, Joe More]
+
+Editor, Writer
+(Coda Fukumitsy, Jonatha Casplan-Kaulman
+
+Image Photography
+PPS Communications
+
+Reference Text
+Civilization Master Guide (MicroProse Japan, Ine.)
+
+WARRANTY
+
+90-Day Limited Warranty
+
+el Caperaton nar oheoigna cosine purchase hal mis gare oak tal te ee
+
+fram detec in meal and workmanship fra erad of 30 days form deo purchase. a
+
+eles covared by tis waranty cca daring hs ay waar per, Kos wil ea or
+
+replete pr pak, ts pte, to eae
+
+Toreceive this waranty serie:
+
+4 Save your aes ee. indcatng dat of pura, nthe UPC eos unt onthe gare
+rack,
+
+2: your game cove under soe waranty, ren he ae lk te set which yo
+prada.
+
+Spans einen sic re ara eid ag
+re iy Koei Gop by cag the Teel Su
+(asia ah, beeen ne ors of. 1495 pm Pate tanta Tne Nendy
+thowah Fri.
+
+4 Koei seice Reese ual soe he poblem by phone you wil be provides
+‘witha Return uthoreton suns: Reco ths nanbe protean eos acaning
+‘your dein gane pak eros ou sane ass a ghone rane. a tu he
+tae pk FREIGHT PREPND AND INSURED FOR LOSS OR DAMAGE gether wth our saes
+rd te UPC code wt he 0-ywaranty ed
+
+KOEI Corporation
+4350 Bayshore Huy. Se 50,
+Burlingame, CA 84010
+
+‘Biwany hal oto e cane al hsb anand reales, scien
+
+Unreasonable se, modo, tapering, orb oer causes unrelated to dec
+
+tata or wokash.
+
+Service After Expiration of Warranty
+ibe ga ak des aoe gai sever ter be dy vary pl, ou may
+Cora te Ko lanl Support Dep tte poe umber aed preva. hot
+Serie Repesetae uate ste te pti plone Yost prove ita
+Faun rion nonerandsao sen e ae pate Ko arpa mepeton
+Record hs unter omen nthe ouside plage dette ane pak etn
+Meera, EIGHT PREPAID AND SURED FOR LOSS OR DAMAGE ta Kaw a
+urn err 2010 coe pao eae, ye 0 Kon Crore, Ks
+‘eens he gt cage posta sos fe andor pe
+
+Online Support
+
+CampeSere: G0 VIOPUB, Sectan & Send E-al 0.7671. SS. campusee canbe
+hud alin 052-58 and aang fo Rep. 6 nee a ee ode
+{oy eri S18 sige cet, and on at of base eves He.
+
+===== Page 41 =====
+
+KOEI Corporation
+ne Bay Plaza, Suite 540,
+‘950 Bayshore Hwy. Buringame, CA 94010
+
+pumciv-40-c0
+Ponte in Japan

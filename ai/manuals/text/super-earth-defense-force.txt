@@ -1,0 +1,828 @@
+# Super Earth Defense Force
+source: https://archive.org/details/snes_manual_archive
+pdf: Super Earth Defense Force ( USA ).pdf
+region: USA
+pages: 13
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+2
+GAMEBUSTERS #101 750-9433
+
+WIN Hn
+
+Uc etl Ae
+
+===== Page 2 =====
+
+JALECO™ USA LIM ;
+Jaleco USA Inc. warrants to the original purchaser of this Jaleco software product that
+the medium on which this computer program is recorded is free from defects in
+materials and workmanship for a period of ninety (90) days from the date of purchase.
+This Jaleco software program is sold "as is," without express or implied warranty of any
+kind, and Jaleco is not liable for any losses or damages of any kind resulting from use
+of this program. Jaleco agrees for a period of ninety (90) days to either repair or
+replace, at its option, free of charge, any Jaleco software product, postage paid, with
+proof of date of purchase, at its Factory Service Center.
+
+This warranty is not applicable to normal wear and tear. This warranty shall not be
+applicable and shall be void if the defect in the Jaleco software product has arisen
+through abuse, unreasonable use, mistreatment, or neglect. THIS WARRANTY IS IN
+LIEU OF ALL OTHER WARRANTIES AND NO OTHER REPRESENTATIONS OR
+CLAIMS OF ANY NATURE SHALL BE BINDING ON OR OBLIGATE JALECO. ANY
+IMPLIED WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT,
+INCLUDING WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE, ARE LIMITED TO THE NINETY (90) DAY PERIOD
+DESCRIBED ABOVE. IN NO EVENT WILL JALECO BE LIABLE FOR ANY SPECIAL,
+INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM POSSESSION,
+USE, OR MALFUNCTION OF THIS JALECO SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an implied warranty lasts and/or exclusions or limitations of
+incidental or consequential damages so the above limitations and/or exclusions of liability may not apply to you.
+This warranty gives you specific rights, and you may also
+have other rights which vary from state to state.
+
+Jaleco™ is a trademark of Jaleco USA Inc.
+
+E.D.F. ™ & © 1991 Jaleco USA Inc.
+All rights reserved.
+
+Official
+
+LICENSED BY
+
+NINTENDO, SUPER NINTENDO
+ENTERTAINMENT SYSTEM AND THE
+OFFICIAL SEALS ARE REGISTERED
+TRADEMARKS OF NINTENDO OF AMERICA
+INC. © 1991 NINTENDO OF AMERICA INC.
+
+JALECO USA INC.
+310 Era Drive
+
+Northbrook, Illinois 60062
+(708) 480-1811
+
+THIS OFFICIAL SEAL IS YOUR
+ASSURANCE THAT NINTENDO HAS
+APPROVED THE QUALITY OF THIS
+PRODUCT. ALWAYS LOOK FOR THIS
+SEAL WHEN BUYING GAMES AND
+ACCESSORIES TO ENSURE COMPLETE
+COMPATIBILITY WITH YOUR SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+ALL NINTENDO PRODUCTS ARE
+LICENSED BY SALE FOR USE ONLY
+WITH OTHER AUTHORIZED PRODUCTS
+BEARING THE OFFICIAL NINTENDO
+SEAL OF QUALITY.
+
+Warning, please read the enclosed consumer information
+and precautions booklet carefully before using your
+Nintendo® hardware system or gamepak.
+
+TRE: BREE IN Gia cicc ned sch stat dete tes anced agin ue
+OBJECT OF THE GAME..............0::: eee
+GETTING STARTED..............:0:ceeeeeerreteeees
+OPTIONS... oc. ccc cece cee eeeeteeeeee sete ttnneeetees
+CONTROLLER FUNCTIONG..............5
+ON-SCREEN DISPLAYS scar ins sree torr agen dine stor «
+THE STAGE Ses ces siren ese sun cane nemsits He wah Se Balen
+MORE ABOUT THE
+
+GAT ELLITE SIP ses sag pecs batt onecscne opin ned en
+CHOOSING A WEAPON. .......cccccccccetetene ene
+KNOWING THE SCORE. ss tics aces sass naan gore one
+
+GAME TIPS — THE JALECO
+MAJOR PLAYER'S HOTLINE..............::00
+
+TAKING CARE OF YOUR
+JALEGO) GAME. cee cece mnvenscr sains ame voit a Sa SEER
+
+===== Page 3 =====
+
+} (
+
+WHY SHOULD YOU JOIN THE JALECO
+MAJOR PLAYER'S CLUB?
+
+Here's what you get if you join:
+¢- WIN FREE GAMES
+
+You'll be eligible to win free Jaleco games from our once-a-
+month drawings!
+
+- FIND OUT ABOUT NEW GAMES
+
+Find out about new Jaleco games before they're released!
+Get in on special Jaleco promotions and contests! And more!
+
+* TEST GAMES BEFORE THEY'RE RELEASED
+
+Hey, maybe we'll even ask a few of you if you'd like to test
+Jaleco games before they're released! You could be selected
+as a Jaleco Major Player!
+
+Here's what you get if you don't join:
+- YOU GET NUTTIN IF YOU DON'T JOIN!
+
+And there's only one way you can get in on all this good stuff
+— and all it's going to cost you is a few moments of your time
+and the price of a postage stamp!
+
+Here's how to join:
+
+» Find the JalecoMajor Player's
+Membership/Warranty card enclosed in this
+package.
+
+- Fill in the information requested on the card.
+
+- Putastamp on the card.
+
+- Drop the card in the mail.
+
+That's right, all you gotta do is fill out the card, mail it to us, and
+you're in! Even if you've joined before, fill out the card and send
+it again. It will increase your chances of winning!
+
+Welcome to the club!
+
+4
+
+THE BRIEFING
+
+Date: September 14, 4129
+Location: E.D.F. Headquarters, Planet Earth |
+Subject: Fate of the Universe |
+
+Welcome to E.D.F. Headquarters, Commander. You've
+volunteered for the mission of a lifetime — a life-or-death
+struggle against the forces of evil in the universe. First, a little
+background. As you know, our universe has been at peace for
+the last 2000 years, ever since the Union of Federated Planets
+was formed to promote harmony and understanding between the
+thousands of member races. Now, that peace is threatened.
+
+A mysterious organization known only as AGYMA has been
+plotting to gain power and plunge the universe into chaos.
+Already, trouble is brewing in a distant corner of Galaxy Zena-2.
+AGYMA forces attacked civilian populations on Urasium and
+Mentar, igniting a centuries-old feud between the two
+neighboring planets. Reports of similar disturbances continue to
+come in from other galaxies and solar systems — all of them the
+work of this one sinister organization.
+
+By infiltrating AGYMA, the Galactic Intelligence Force has
+learned just in time of its next deadly mission: annihilation of the
+Earth, charter member of the Union of Federated Planets and
+home to the Union Council. AGYMA forces have already set up |
+home bases at several Earth locations,
+including a heavily fortified stronghold
+on the far side of the moon.
+
+The only hope of stopping this ruthless
+conspiracy is E.D.F. — Earth Defense
+Force — and the latest in its line of
+special mechanized fighters, the XA-1.
+Outfitted with eight deadly weapons
+and accompanied by two smaller
+
+===== Page 4 =====
+
+satellite ships, the XA-1 represents state-of-the-art battle
+technology... the best Earth has to offer.
+
+You must now proceed immediately to the launch site, where
+you'll take the controls of the XA-1 and lead the counter-
+offensive in a last ditch attempt to save the Earth and thwart
+AGYMA’'s goal of universal domination. Your mission: Attack
+AGYMA strongholds and destroy the six Big Bosses who control
+the organization. It won't be easy — they're protected by tons of
+mechanized armor and heavily guarded by a host of renegade
+forces. If you succeed, your name will go down in history. If you
+fail, well... let's not even consider that possibility. Just get out
+there and give it everything you've got. And by the way — good
+luck!
+
+OBJECT OF THE GAME
+
+E.D.F. is a high-speed, super-charged one-player game packed
+with amazing 3-D graphics, dynamite music and sound effects
+and non-stop action that’s guaranteed to keep you on the edge
+of your seat. Once you start playing, you won't want to stop until
+you know every maneuver and enemy ambush like the back of
+your hand. As we like to say, “it’s outta this world!”
+
+What To Do
+There are six stages in E.D.F., each of them more difficult than
+the last. In order to win the game you must defeat the enemy in
+all six stages as hundreds of alien fighters attack your ship from
+all sides. The enemy ships come ina
+weird assortment of shapes and sizes:
+Tanks with wings. Dive bombs. Flying
+hands that hurl deadly fireballs.
+Spinning discs. Killer bees, and
+mechanized creatures of every
+description. Don't be fooled by these
+disguises — every one of them is out
+
+6
+
+to get you. To survive, just follow this simple rule of thumb: If it
+moves, shoot it down.
+
+At the end of each stage you confront
+a Big Boss, whose job it is to see that Gu EPA See
+you don't make it back home in one
+
+piece. Some stages also have a
+Middle Boss — not quite as deadly as
+the Big Boss, but no piece of cake,
+either. How do you recognize the Big
+Boss? It’s easy. When you see the
+lightning bolts, you'll know there's trouble ahead. With a little
+experience you'll know just what to do. Don’t be discouraged if
+you get shot down at first — it’s happened to the best of us.
+
+Play It Again, Sam
+
+There are four XA-1 fighter ships at your disposal. Each time
+you lose one you're given the option of continuing with the next
+ship or starting over. When the last one bites the dust, the game
+ends. Each ship has up to three shields, depending on the
+number you choose on the Config Screen. These shields
+protect the XA-1 from damage, but are themselves destroyed by
+enemy fire. Once your shields are gone, the ship is vulnerable
+and will be destroyed if shot. A little friendly advice — start out
+with all three shields. Later on, you can drop one or two fora
+real challenge.
+
+The Arsenal
+
+The XA-1 has access to eight different
+types of weapons. Each of these
+weapons provides its own unique
+advantages, as described later on.
+You're allowed to use only one
+
+weapon ata time. Experiment with
+each weapon until you find the one that
+best suits your fighting strategy. The more experience you gain
+as a fighter, the more powerful your weapons become. You can
+
+7
+
+===== Page 5 =====
+
+switch weapons during the game, but only between stages or
+after you lose one of your ships.
+
+Experience Counts
+
+As your battle skills improve, so does your experience level.
+You begin at Level 1 and can progress to Level 5 by shooting as
+many of the alien ships as possible. With each new level, your
+weapons gain greater firepower. You'll notice the improvement
+right away — the shots look different on the screen and it takes
+less of them to destroy an enemy ship.
+
+A Little Help From Your Friends
+
+You are accompanied by two smaller satellite ships which can
+assume up to four different formations during battle. Unlike the
+XA-1, these satellite ships are indestructible. Like your weapon
+power, the types of formations available to you depend on your
+experience level. The more experience you get, the more
+options you will have. Each formation is described in further
+detail later on in this manual.
+
+Now you know what to do — so get out there and start shooting!
+
+GETTING STARTED
+
+1. Place the E.D.F. Game Pak into your Super Nintendo
+Entertainment System® and turn on the unit. The title
+will begin to scroll by. Press any button to bypass this
+sequence.
+
+2. When the title screen appears, your options are
+START and CONFIG. Press START to begin the
+game. To change the game configuration, highlight
+CONFIG using the Control Pad (or SELECT), then
+press START.
+
+3. If you select neither option, a demo sequence will
+begin. Press START to exit the demo sequence and
+return to the title screen.
+
+You have five options available to you
+on the Config Mode Screen. Use the
+Control Pad to highlight each option.
+Unless otherwise indicated, press the
+A, B, X, or Y button to change that
+option. When your selection is
+complete, press START to return to
+the Title Screen.
+
+Game Level
+Choose NORMAL or HARD.
+
+Shield Stock
+
+Choose 1, 2, or 3. This number indicates how many
+shields your XA-1 will have in battle. When the last shield
+is lost, the XA-1 will be destroyed.
+
+Control Configuration
+
+This option allows you to change the buttons used to
+control the XA-1 during battle. There are six combinations
+using the A, B, X, Y, L, and R buttons.
+
+The standard configuration (1) is:
+
+SHOOT B button
+
+FORMATION CHANGE __ A button
+
+SPEED UP X button
+Sound Mode
+
+This option allows you to hear all of the music that occurs
+during the game. There are nine selections in all. Press
+the A button to change music selections, then press the B
+button to play that selection.
+
+Exit
+Select EXIT to return to the Title Screen.
+
+===== Page 6 =====
+
+CONTROLLER FUNCTIONS DURING A GAME
+
+Cross Button
+
+Left Button | | Right Button
+
+X Button
+
+A Button
+B Button
+
+Select Button Y Button
+
+Start Button
+
+CONTROL PAD: Move the XA-1 up, down, left or right.
+
+A BUTTON: Change the satellite ship formation.
+B BUTTON: Fire your weapon.
+X BUTTON: Change your ship speed
+(slow, medium, or fast).
+START: Pause the game.
+
+ON-SCREEN DISPLAYS
+
+During the game, a number of
+indicators are displayed at the top of
+the screen.
+
+10
+
+SCORE
+
+Your current score is displayed
+in the upper left corner of the
+screen.
+
+LEVEL
+
+The current Level (1-5) is indicated at the top center of the
+screen. The level number indicates your experience.
+Beneath the level number, an experience bar indicates
+how close you are to reaching the next level. When the
+bar turns completely orange, the words LEVEL UP appear
+and the level indicator increases by one. With each new
+level, your weapons gain greater firepower and the variety
+of satellite ship formations available to you increases.
+
+SPEED
+Your speed is indicated by the number of arrows
+displayed to the right of the level number:
+
+> = Slow >> = Medium >>> = Fast
+
+You begin each battle at the medium speed and can
+change your speed at any time during play by pressing
+the X button one or more times. The speed you set
+remains in effect until you change it or until the game
+ends.
+
+SHIELDS
+
+Depending on how you have set this option on the Config
+Screen, you will see either one, two, or three shields in the
+upper right corner of the screen at the beginning of each
+battle. These shields protect your XA-1 but are
+themselves destroyed by enemy fire. When the last shield
+has been eliminated, your ship is vulnerable and can be
+shot down by the enemy.
+
+11
+
+===== Page 7 =====
+
+_
+|
+THE STAGES |
+
+Stage 1: First Encounter Stage 4: Space Ambush
+Your first exposure to the You leave the Earth and head
+AGYMA Empire. You'll be flying toward AGYMA’s fortress on the
+a daylight mission over the far side of the moon. Fighting
+
+Stage 2: Midnight Intercept
+
+Stage 3: Deep Blue Cave
+
+12
+
+Earth. Watch out for enemy
+ships armed with deadly lasers
+and radioactive fuel rods. If you
+want a shot at the Big Boss,
+you'll have to make it past the
+Middle Boss in this stage.
+
+begins as you approach the
+Space Colony. The Big Boss on
+this stage is determined to stop
+you at all costs, using satellite
+ships of its own that fire search
+lasers at the XA-1.
+
+Stage 5: Lunar Landing
+
+A nighttime mission over the city eo et
+
+of Megalopolis, now under the
+control of the AGYMA Empire.
+The enemy adds plasma beams
+and ripple lasers to its arsenal of
+weapons, testing your skill in
+
+As you approach AGYMA’s
+lunar base, enemy defense
+forces are there to greet you. If
+you survive the meteor shower,
+a Middle Boss attacks with
+super-charged, heat-seeking
+
+strike and evade maneuvers. photon lasers. The Big Boss
+Look out for surprise attacks guarding the base is equipped with ice armor, which also
+behind you. becomes its weapon in the final attack as it twists and
+
+turns to evade your fire.
+
+Stage 6: Final Fortress
+
+| At last, you're inside AGYMA
+
+| headquarters! Now the real
+battle begins, as you fly through
+the steel fortress protected by
+hordes of enemy fighters and a
+
+Your third mission is in a huge
+underwater cavern that AGYMA
+has converted into a hidden
+base. Don't be discouraged by
+the wrecked hulls of E.D.F.
+naval ships filling the water
+
+below. Fight and destroy the computerized defense system.
+Middle Boss to reach the big showdown It'll take every ounce of skill and
+at the end of this stage. determination you possess (not to mention a little luck) to
+
+survive the final challenge and come out a winner!
+13
+
+===== Page 8 =====
+
+Each XA-1 is accompanied by two
+smaller satellite ships. These ships
+are invincible and cannot be harmed
+by enemy fire. The satellite ships can
+assume up to four different formations
+during battle, depending on your
+experience level. Use the A button to
+change formations.
+
+The formation you choose affects the way your weapon
+performs. In Union formation, the XA-1 fires powerful single
+shots. In all other formations, the XA-1 and its satellite ships
+each fires a weapon to produce a rapid shot effect. Rapid shots
+are not as powerful as single shots but can hit a greater number
+of targets in the same amount of time. The satellite ship
+formations are:
+
+14
+
+UNION (Levels 1-5)
+
+The satellite ships are united with the XA-1 and provide
+extra protection for the front part of the ship. If that part of
+the XA-1 is hit by enemy fire (other than lasers), the ship
+will not be damaged.
+
+ROLLING (Levels 1-5)
+The satellite ships circle around the XA-1, protecting it
+from any enemy fire that they intercept.
+
+SHADOW (Levels 3-5)
+The satellite ships follow the XA-1, shadowing its
+movement.
+
+HOMING (Level 5)
+
+The satellite ships take up position behind the XA-1.
+When enemy ships appear, they home in on the targets
+and destroy them.
+
+Once you press START to begin the
+game, the Weapons Screen appears.
+You may choose from eight weapons.
+Only one weapon is active at a time,
+and you may change weapons only at
+the beginning of each battle sequence
+
+(after losing an XA-1).
+
+Weapons are ranked according to three
+factors: Shot Speed, Shot Power and Rapid Shot. Each factor
+is scored as A (excellent), B (fair) or C (poor).
+
+The weapons are:
+VULCAN
+
+Shot spread out in a fan-
+shaped pattern.
+
+Shot Speed A
+Shot Power C
+Rapid Shot B
+
+LASER
+
+Concentrated shots cause
+severe damage at the
+point of impact.
+
+Shot Speed B
+Shot Power B
+Rapid Shot C
+
+ATOMIC
+
+When an atomic shot hits
+an enemy ship or is hit by
+enemy fire, it explodes
+over a wide area and
+
+engulfs all enemy ships
+around it. It is not effective
+against laser fire.
+
+Shot Speed B
+Shot Power A
+Rapid Shot C
+
+HOMING
+
+Shots home in on enemy
+ships.
+
+Shot Speed B
+Shot Power C
+Rapid Shot A
+
+EXPLODE
+
+Shots explode on impact
+and destroy all enemy
+ships in the area.
+
+Shot Speed A
+Shot Power B
+Rapid Shot C
+
+15
+
+===== Page 9 =====
+
+GRENADE
+
+These air mines explode at
+timed intervals, or when
+touched by an enemy ship
+or enemy fire.
+
+Shot Speed C
+Shot Power A
+Rapid Shot C
+
+| SEARCH LASER
+
+| Slow, powerful shots that
+home in on the closest
+| enemy ship.
+
+Shot Speed C
+Shot Power A
+Rapid Shot A
+
+PHOTON
+
+Hold the B button to
+
+accumulate energy, then
+
+release it to fire a powerful
+
+shot that can pass through
+| objects.
+
+Shot Speed A
+| Shot Power A
+Rapid Shot C
+
+| Move the Control Pad up or down to highlight a weapon. Each
+weapon's effectiveness rankings are displayed in the upper right
+corner of the screen when that weapon is highlighted. Press
+| any button to select the highlighted weapon and begin the game.
+After choosing a weapon, you'll see your ship being launched
+from E.D.F. Command Central. As luck would have it the enemy
+is waiting for you, so come out firing!
+
+KNOWING THE SCORE
+
+When the High Score Screen appears, use the Control Pad to
+move the cursor to a letter, then press the B button to select that
+letter. You may enter up to eight letters or characters. When
+you have finished entering your name, move the cursor to the
+lower right corner of the character grid and select EX to exit this
+
+screen.
+16
+
+GAME TIPS —
+THE JALECO MAJOR
+
+PLAYER'S HOTLINE
+
+If there's something you don't understand about
+your new Jaleco game, or if you're having
+problems with your cartridge, or if you're just plain |
+stuck, you're welcome to call the Jaleco Major |
+Player's Hotline between the hours of 8:30AM and
+5:00PM Central time Monday through Friday
+(except holidays). One of our friendly game
+counselors will be happy to give you tips or help |
+you out with any problems you're having. Here's |
+the number to call:
+
+708-480-7733 _|
+
+Note: Normal telephone charges apply when you call the
+hotline number. It is not a toll-free call. Kids: get your
+parent's or guardian's permission to call before dialing the
+Jaleco Major Player's Hotline!
+
+17
+
+===== Page 10 =====
+
+TAKING CARE OF YOUR
+
+JALECO GAME
+
+@ This Jaleco Game Pak is a precision-crafted device
+with complex electronic circuitry. Avoid subjecting it to
+undue shock or extremes of temperature. Never attempt
+to open or dismantle the Game Pak.
+
+@ Donot touch the terminal leads or allow them to come
+into contact with water or the game circuitry will be
+damaged.
+
+@ Always make sure your Super NES Control Deck is
+SWITCHED OFF when inserting the Game Pak or
+removing it from the Super NES Control Deck.
+
+DO NOT USE WITH FRONT OR
+REAR PROJECTION TV
+
+Do not use a front or rear projection television with your Super
+Nintendo Entertainment System® ("Super NES") and this video
+game. Your projection television screen may be permanently
+damaged if video games with stationary scenes or patterns are
+played on your projection television. Similar damage may occur if
+you place a video game on hold or pause. If you use your projection
+television with this video game, neither Jaleco U.S.A. Inc. nor
+Nintendo of America Inc. will be liable for any damage. This
+situation is not caused by a defect in the Super NES or this game;
+other fixed or repetitive images may cause similar damage to a
+projection television. Please contact your TV manufacturer for
+further information.
+
+18
+
+COMPLIANCE WITH FCC REGULATIONS
+
+This equipment generates and uses radio frequency energy
+and if not installed and used properly, that is, in strict
+accordance with the manufacturer's instructions, may cause
+interference to radio and television reception. It has been
+type tested and found to comply with the limits for a Class B
+computing device in accordance with the specifications in
+Subpart J of Part 15 of FCC Rules, which are designed to
+provide reasonable protection against such interference in a
+residential installation. If this equipment does cause
+interference to radio or television reception, which can be
+determined by turning the equipment off and on, the user is
+encouraged to try to correct the interference by one or more
+of the following measures:
+
+—Reorient the receiving antenna
+—Relocate the SUPER NES with respect to the receiver.
+—Move the SUPER NES away from the receiver.
+—Plug the SUPER NES into a different outlet so
+
+that computer and receiver are on different circuits.
+
+If necessary, the user should consult the dealer or an
+experienced radio/television technician for additional
+suggestions. The user may find the following booklet
+prepared by the Federal Communications Commission
+helpful: How to Identify and Resolve Radio/TV Interference
+Problems. This booklet is available from the U. S.
+Government Printing Office, Washington, DC 20402. Stock
+No. 004-000-00345-4.
+
+19
+
+===== Page 11 =====
+
+| ADVISORY
+
+READ BEFORE USING YOUR SUPER NES
+
+A very small portion of the population may experience
+epileptic seizures when viewing certain kinds of flashing
+lights or patterns that are commonly present in our daily
+environment. These persons may expereince seizures
+while watching some kinds of television pictures or
+playing certain videogames. Players who have not had
+any previous seizures may nonetheless have an
+undetected epileptic condition. We suggest that you
+consult your physician if you have an epileptic condition
+or if you experience any of the following symptoms
+while playing videogames: altered vision, muscle
+twitching, other involuntary movements, loss of
+awareness of your surroundings, mental confusion and
+convulsions.
+
+20
+
+21
+
+===== Page 12 =====
+
+22
+
+23
+
+===== Page 13 =====
+
+Watch for new Jaleco video games for the .
+Super Nintendo Entertainment System® in coming months.
+. And, always remember to ask your favorite video game store
+for the latest Jaleco video games for
+the Nintendo Entertainment System®
+and the Nintendo® Game Boy®.
+
+Jaleco™ and EARTH DEFENSE FORCE™ are trademarks
+of Jaleco USA Inc. Super Nintendo Entertainment System®, Nintendo
+Entertainment System® and Nintendo® Game Boy® are registered trademarks of
+Nintendo of America Inc. ©1991 Jaleco USA Inc. Printed in Japan.
+
+JALECO USA Inc.
+310 Era Drive
+Northbrook, Illinois 60062
+(708) 480-1811

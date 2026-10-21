@@ -1,0 +1,679 @@
+# Obitus
+source: https://archive.org/details/snes_manual_archive
+pdf: Obitus ( USA ).pdf
+region: USA
+pages: 20
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+S
+
+Ce,
+Ch
+
+£
+ww
+
+Bullet-Proof Software’
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER INFORMA-
+TION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE USING
+YOUR NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+LICENSED BY
+
+Nintendo, Super Nintendo Entertainment System and the official seals are
+registered trademarks of Nintendo of America Inc. ©1991 Nintendo of America Inc.
+
+Instruction Manual
+and
+Strategy Guide
+
+This official seal is your assurance that Nintendo has approved the quality of this
+
+product. Always look for this seal when buying games and accessories to ensure
+
+complete compatibility with your Super Nintendo Entertainment System. All
+
+Nintendo products are licensed by sale for use only with other authorized products
+
+bearing the official Nintendo seal of quality. Bullet-Proof Software®
+
+===== Page 3 =====
+
+About Obitus ......
+
+Prepare for your Journey ......
+A Kingdom Crumbles .
+
+Controls—Two Views .
+Playing the Game .
+Main Screen scississssessssessssiess
+Options Menu ...
+
+The Items of Obitus
+—wWhat You'll Discover on Your Journey ..........:eeeeee 12
+
+The Land of Obitus ............0+++
+
+ADVENTURERS BEWARE: Pages 16-29 reveal informa-
+tion about the location of the first two Gems of Tranquil-
+lity that advanced adventurers may want to discover on
+
+their own.
+
+The Quest for the First Gem — Drakehust Shire ........... 16
+The Quest for the Second Gem — Burville Shire ........... 22
+The Journey Continues
+
+Words of Wisdom ....
+
+Obitus™ published under license from Psygnosis Limited ©1989, 1993
+Psygnosis Limited. ©1993 Bullet-Proof Software, Inc. Psygnosis and Obitus
+are trademarks of Psygnosis Limited and are used with permission. All
+rights reserved. Bullet-Proof Software and BPS logo are registered trade-
+marks of Bullet-Proof Software, Inc.
+
+Obitus Obitus 3
+
+===== Page 4 =====
+
+ABOUT OB
+
+Obitus is a one player adventure with both first person perspec-
+tive and side view sections. The Obitus game pak is equipped
+with a battery which allows you to save your progress and
+complete the adventure in several playing sessions.
+
+Prepare for your Journey
+
+Insert your Obitus game pak into your Super NES and tum the
+power switch on. The title screen will appear. You will have the
+option to begin a new adventure or to load a previously saved
+adventure. If you are beginning anew, make sure that the cursor
+is pointing to the word “Start,” then press the Start Button. If you
+are loading a saved adventure, press Down on the Control Pad
+to move the cursor to the word “Load” and press the Start
+Button.
+
+A KINGDOM CRUMBLES
+
+Old King Cullen ruled over the land of Obitus with his Queen,
+Genvieve, and the four Gems of Tranquillity for many peaceful
+years. It was said that when the Gems were kept together in the
+Tower Obitus, they radiated a mystical force which protected the
+land from intruders. The royal couple's four sons knew this story
+well. When the King passed away the princes were to rule the
+kingdom together as a symbol of the unity of the Gems. This
+bond would ensure that the tradition of peace in the land
+continued.
+
+Not long after this passing of power took place, an enchantress
+named Salome began to advise the young quartet. She told
+them each in confidence that greater power, riches and fame
+could be theirs if they broke away from the others and ruled the
+kingdom alone. Those thoughts of power brewed a sibling
+rivalry. The brothers began to fight and eventually broke away
+from each other. The confrontation ended with each prince
+taking one quarter of the land and one of the four Gems. They
+retreated to their own comers of the kingdom and built for-
+tresses to keep their rivals away.
+
+Many years have passed. Without the protection of the Gems of
+Tranquillity, the kingdom is a dark and divided ruin. You have
+grown up with the legend of the four Gems. Now it is time to
+prove the legend true. You must travel to the four shires of the
+rival princes, Drakehurst, Burville, Blackestone and Cullen the
+younger, and fight for possession of the Gems. When you return
+the Gems to their rightful place in the Tower Obitus, peace will
+return to the kingdom.
+
+===== Page 5 =====
+
+The action is presented in two different perspectives. In the
+woods and underground settings, a first person point of view is
+used. This perspective switches to a side view, with the player
+controlled character on the screen, in the castles.
+
+‘X Button
+A Button
+B Button
+Y Button
+
+First Person Perspective
+
+Control Pad: Move through forest paths and underground passages.
+Press left and right on the Control Pad to turn 45 degrees at a
+time to the left and right. Press up to move forward and press
+down to move backward.
+
+Top UR Buttons: Press the L and R Buttons to cycle through the
+items in your inventory window.
+
+Y Button: Press the Y Button to pick up the objects in your path. If
+there are several objects to be picked up, you'll place them into
+your inventory one at a time. Press the Y Button repeatedly until
+all of the objects are in your possession.
+
+B Button: By pressing the B Button, you will make use of the item
+which is currently shown in your inventory window. If the item
+is food or an elixir, you will consume it. If it is a weapon, you
+
+will send a shot into the air. If the item has no use in your
+current position, nothing will happen.
+
+X Button: Press the X Button to drop the currently selected inventory
+item. Trading with the inhabitants of land is done in this
+manner. Drop the item which you intend to trade away. If the
+trade is accepted, the item will disappear and a new item will
+appear in your inventory window.
+
+Start Button: Press the Start Button to pause the game. The word
+“Pause” will appear on the screen and the action will freeze.
+Press the button again to resume play.
+
+Select Button: By pressing the Select Button, you will call up the
+Options Menu. This screen is explained on page 10.
+
+.
+Side View
+Most of the controls in the side view stages are identical to those
+in the first person perspective passages. What changes is how
+you control the character on the screen.
+
+Control Pad: Guide your character through the castles of Obitus.
+Press left and right on the Control Pad to make him run to the
+left and right. Press up to make him move toward the far wall or
+door and press down to make him move away from the wall.
+
+A Button: Press the A Button to make the character leap into the air.
+Top UR Buttons: Cycle through the items in your inventory window.
+Y Button: Pick up the objects in your path.
+
+B Button: Use the currently selected item.
+
+X Button: Drop the currently selected item.
+
+Start Button: Pause the game.
+
+Select Button: Call up the Options Menu .
+
+===== Page 6 =====
+
+PLAYING THE GAME
+
+In your quest to recover the four Gems of Obitus, you must
+seek out weapons and useful items, gather clues from the
+inhabitants of the land and defeat the evil creatures that block
+your path. The action takes place in the top two thirds of the
+screen. The lower third of the screen is reserved for the stamina
+and health indicators, the inventory window and the compass.
+
+Action Window
+As you are traveling through the woods and underground
+passages of the kingdom, the action window shows the scene in
+first person perspective. This perspective changes to a side view
+when you are within the walls of the kingdom’s four castles.
+
+Stamina Indicator
+Your stamina decreases at a constant rate as you tire from a
+long day of adventuring. If you allow your stamina to burn
+down to nothing, your health will begin to shrink at the same
+rate. You can recover your stamina by sleeping in a safe place
+Select “Sleep” from the Options Menu and keep an eye open for
+enemies as your stamina is replenished.
+
+8 _ Obitus
+
+Health Indicator
+If the health candle burns down to nothing, your adventure
+will be over. This candle shrinks if enemies attack or if the
+stamina candle is burned out. You can replenish your health
+by consuming food and magic elixirs.
+
+Inventory Window
+The inventory window displays the currently selected inventory
+item. Press the L and R Buttons to cycle through to another item.
+
+Compass
+The compass arrow points in the direction (North, South, East,
+West) that you, the player, are facing. This is important to
+remember in the side view sections, as the scene sometimes
+shifts 90 degrees when your character enters a new room. In the
+first person perspective sections, the compass also shows which
+paths are open to the immediate area. Watch the compass
+closely and make a map as you explore.
+
+SNe
+
+===== Page 7 =====
+
+You can press the Select Button to pause the game and switch
+to the Options Menu at any time in your adventure for a list of
+available features. Press Up and Down on the Control Pad to
+move the cursor up and down the list and press the B Button to
+activate the selected feature
+
+The inventory option allows you to take a look at all of the items
+that you have accumulated. The current selected item is shown
+in the upper left comer and a description of this item is shown in
+on the right side of the screen. This description should help you
+decide how best to use the item. Press the L and R Buttons to
+cycle through the items.
+
+Sleep
+
+You can restore your stamina by resting in a safe place. Your
+sleep will be interrupted if an enemy attacks.
+Save Game
+
+This option allows you to save your progress on the cartridge
+battery so that you can stop playing for a while, store the
+cartridge and later load in your saved game.
+
+New Game
+The new game option takes you to the beginning of the
+adventure and allows you to start over.
+
+Exit this Menu
+
+Choose this option to exit the menu and continue your adven-
+ture
+
+===== Page 8 =====
+
+Food: Your health candle breaks down to approximately 250 hit points. Consume
+these edible items to restore the listed number of hit points
+
+Roll 15 points Flask 156 points
+Cherries 20 points Green Potion 96 points
+° Apple 28 points Red Potion 125 points
+—What You'll Discover on Your Journey Tedd. 30 points
+
+There are many objects in the passages of the kingdom which
+will aid you in your journey. Listed below are a few helpful items
+that you will discover early in your travels. Use them wisely.
+
+Tools: Many of the items that you will discover are best used in particular
+circumstances. Use them wisely and you will succeed.
+The Ring of Genvieve: You'll have this item in your possession at the
+beginning of your adventure. Use it to discover the power and allegiances of the
+characters that you meet in your travels. Be careful. Each time you use the ring,
+your stamina will decrease a small amount.
+Heavy Key: There are four heavy keys in the land of Obitus. Each one opens a
+door in the Tower Obitus which leads to one of the shires
+Light Keys: Light keys open the doors of castles. A particular key opens outer
+doors. Groups of other light keys open inner doors.
+Gold and Silver: Coins and bars made of precious metals can be traded for
+other valuable items.
+Book Pages: The pages of a magic book are spread throughout the kingdom.
+Collect them to trigger an important event late in your journey.
+Fire Brand: These useful torches will help you see in the mines, caves,
+dungeons and other underground passages. You'll also discover lamps and
+lanterns which offer even more light to the adventurous traveler.
+Blue Gem — Key of the Subterranean: This tear drop shaped key can be used
+to open up an important passage in the Subterranean catacombs which
+connect the four shires.
+
+Rope: Use the rope to climb up from the subterranean catacombs. If you don't
+
+Weapons: Fight off invading creatures with an arsenal of powerful items. have the rope when you fall into the catacombs, you'll be lost forever.
+
+Quiver of Arrows: Each Quiver contains 20 arrows. Use them to dispatch the More valuable items are available to you. Pick them up and
+wandering warriors of the forests and the cave hounds of the underground study their properties in the inventory screen to decide how to
+ ensieda best make use of them.
+
+Daggers: You'll find these weapons five at a time. Save them for your
+encounters with the more powerful creatures which block your path.
+
+Powders of Fire: The magic powders release an impressive blast of power.
+‘They will be very useful in your battles with the strong and stubbom agents of
+the four princes who protect the Gems
+
+Obitus 13
+
+===== Page 9 =====
+
+
+
+===== Page 10 =====
+
+* RTs
+Drakchurst Shire ee | }
+The Tower Obitus ie pe ie
+} Your Joumey begins in the Tower Obitus | Site te pe Leary r |
+where the borders of the four shires pela olan
+meet. You will possess the Ring of information on their own.
+
+Genvieve when you begin and a heavy
+key will lie on the floor in front of you. Use the key to open the
+door which leads to the northwest shire called FalconWood.
+
+FalconWood
+Soon after you enter FalconWood, you will encounter Sir
+Grumwold, a strong knight whose allegiance is to Lord
+Drakehurst. Grumwold guards the first of the four Gems of
+Tranquillity. Before you can defeat him and win possession of
+the Gem, you must find the powerful Powders of Fire.
+
+Collect the items that are in the vicinity of Sir Grumwold, then
+proceed to Maladina in the southwest section of the shire. She
+will recognize the Ring of Genvieve and give you six light keys
+which open doors inside Drakehurst Castle. Venture north to
+Morant. This knight will tell you that he is your friend, but when
+you use the Ring of Genvieve in his presence, you will discover
+that he is not trustworthy. By defeating Morant, you will eam a
+page to the legendary Spell Book of Obitus.
+
+Continue to collect the items of FalconWood on your way to the |
+Eldon Mine and defeat any evil creature that stands in your way.
+In addition to the knights of Drakehurst, you will encounter \
+
+many wandering warriors who can cause a lot of damage.
+Dispatch these creatures with two arrows and move on. Before
+you enter the mine, collect the Blue Gem which works as a key,
+from the Green Man.
+
+Blue Gem and
+The Green Man
+
+Light Keys
+and Maladina
+
+Book Page
+and Morant
+
+Arrows, Daggers, Apple
+
+===== Page 11 =====
+
+Eldon Mine
+After you take a few steps into Eldon Mine, the passages will
+become very dark. Use a fire brand to light your way, then move
+on to the northeast section of the mine, collecting all of the items
+that you find on your way. In the northeast comer you will
+encounter a knight named Uffinan. Defeat this agent of
+Drakehurst and take his health-replenishing Flask. Then walk to
+the west, making sure to grab the rope, the light key to the outer
+door of Drakehurst Castle and the gold bar, and proceed to
+Evalak, the dwarf. He will offer to trade you for his heavy key
+which opens the northeast door to the Tower Obitus. Drop the
+gold bar. Evalak will quickly take the bar and place the heavy key
+into your inventory.
+Once you've made the trade with Evalak, you should visit
+Annore, just south of where Evalak stands. Either fight Evalak to
+get passed him or walk around him the long way. Annore has six
+light keys to the inside doors of Drakehurst. Drop the silver bar in
+the presence of this mystic and the light keys will be yours.
+From Annore, venture southeast, then west to Marlak in the
+southwest comer of Eldon Mine. Marlak will give you his lamp in
+exchange for the gold coin. You could also fight him in order to
+win this treasure. East of Marlak is a hole which leads to the
+subterranean catacombs. This dark maze acts as a link between
+the four shires. You must enter the catacombs in order to find the
+key that opens the last room of Drakehurst Castle. Before you go
+down, make sure that you have lighting supplies and a rope.
+Then drop into the hole and use a Fire Brand or a Lamp so that
+you can see where you are going. The key that you are looking
+for is very close to the Eldon Mine entrance of the catacombs.
+You'll find it by walking a few steps into the maze. When you
+have the key, use the rope and climb back up to Eldon Mine.
+
+Move on to Drakehurst Castle and confront the knight at the
+entrance.
+
+Heavy Key and
+Evalak of the Dwarves
+
+===== Page 12 =====
+
+18
+
+After you take a few steps into Eldon Mine, the passages will
+become very dark. Use a fire brand to light your way, then move
+on to the northeast section of the mine, collecting all of the items
+that you find on your way. In the northeast comer you will
+encounter a knight named Uffinan. Defeat this agent of
+Drakehurst and take his health-replenishing Flask. Then walk to
+the west, making sure to grab the rope, the light key to the outer
+door of Drakehurst Castle and the gold bar, and proceed to
+Evalak, the dwarf. He will offer to trade you for his heavy key
+which opens the northeast door to the Tower Obitus. Drop the
+gold bar. Evalak will quickly take the bar and place the heavy key
+into your inventory.
+
+Once you've made the trade with Evalak, you should visit
+Annore, just south of where Evalak stands. Either fight Evalak to
+get passed him or walk around him the long way. Annore has six
+light keys to the inside doors of Drakehurst. Drop the silver bar in
+the presence of this mystic and the light keys will be yours.
+
+From Annore, venture southeast, then west to Marlak in the
+southwest comer of Eldon Mine. Marlak will give you his lamp in
+exchange for the gold coin. You could also fight him in order to
+win this treasure. East of Marlak is a hole which leads to the
+subterranean catacombs. This dark maze acts as a link between
+the four shires. You must enter the catacombs in order to find the
+key that opens the last room of Drakehurst Castle. Before you go
+down, make sure that you have lighting supplies and a rope.
+Then drop into the hole and use a Fire Brand or a Lamp so that
+you can see where you are going. The key that you are looking
+for is very close to the Eldon Mine entrance of the catacombs.
+You'll find it by walking a few steps into the maze. When you
+have the key, use the rope and climb back up to Eldon Mine.
+
+Move on to Drakehurst Castle and confront the knight at the
+entrance.
+
+Obitus
+
+===== Page 13 =====
+
+Drakehurst Castle
+
+Before you enter Drakehurst Castle, you should replenish your
+stamina by sleeping in the long Eldon Mine passage which leads
+to the castle, as you will not be able to sleep within the castle's
+walls. While you sleep, watch the passage to the southwest for
+cave hounds and fight them if they get close.
+
+Move quickly and watch your stamina once you're in the castle.
+If your stamina candle is burning close to the bottom, you
+should leave the castle and come back when it is maxed out
+Your main goal in the castle should be to collect the Powders of
+Fire in the southwest corner room. Unlock doors with the light
+keys, collect everything that you can find, defeat the evil
+creatures, then return to FalconWood with the Powders in hand.
+
+There are three different Powders of Fire. When you meet Sir
+Grumwold, hit him with a single blast. If he doesn't go down
+tight away, use some more conventional weapons to finish him
+off or hit him with another blast. You'll be able to defeat this evil
+knight with little or no damage to yourself. Once Sir Grumwold
+is gone, you can proceed along his path and collect the first
+Gem.
+
+Return to the Tower Obitus with the first Gem and place it above
+the northwest door. Then rest and prepare to continue your
+quest.
+
+Chalice
+
+Obitus
+
+21
+
+===== Page 14 =====
+
+THE QUEST FOR THE SECOND GEM
+
+Burville Shire
+
+The Tower Obitus
+The heavy key that you received from Evalak in Eldon Mine
+opens the northeast door of the tower. Open the door and walk
+forth to Fernholt Forest. Now that you are an experienced
+adventurer, you should have a good idea of what must be done
+in order to succeed in the world of Obitus. Collect all of the
+items that you find in your path, fight off the evil creatures that
+have invaded the land and search for the next Gem.
+
+| Fernholt Forest
+
+| The forest is populated by knights who have pledged loyalty to
+the various princes of the kingdom as well as other dastardly
+
+| creatures. Defeat these simple foes and continue on to Burville
+|
+
+|
+
+Castle. Make sure to collect the small gold key in the far west
+area of the forest and the rope, lamp and Silver Keys in the far
+east. You will need these items soon.
+
+22 Obitus
+
+Powder of Fire
+
+Small Gold Key
+
+Amulet and Almaric
+
+Silver Keys
+
+===== Page 15 =====
+
+| Burville Castle
+
+24
+
+You'll find two locked doors in the first room of Burville
+Castle. Use a silver key collected in Femholt Forest to open
+the closest door and move on to the southeast section of
+
+the castle, making sure that you avoid the traps of the castle.
+You'll be able to enter the southeast comer room by using a
+gold key that you found in Femholt Forest. There, you'll
+discover another key. Return to the first room of the castle and
+use this key to enter the northern most door. More keys and
+other treasures will be yours for the taking in the northem half of
+the castle. Collect everything and continue to explore every
+room in the castle.
+
+Obitus
+
+Zaman Small Gold Key
+
+===== Page 16 =====
+
+In the southwest comer of this dark maze, you'll discover a
+prisoner who will tell you a few words about a key in the
+catacombs. This key that he speaks of will allow you to enter
+the most important room of Burville Castle. Make sure to bring a
+rope and strong light to the catacombs. Then search carefully for
+the small gold key.
+
+‘Small Gold Key
+
+===== Page 17 =====
+
+Subterranean Catacombs
+The subterranean catacombs are a maze of passages that
+connect the mines, caves and dungeons of the kingdom. You
+must explore these dark and dangerous tunnels in order to find
+certain items that you will need to complete your journey.
+
+The small gold key that will help you open an important room in
+Burville Castle is in the northeast section of the catacombs.
+Follow the map on the next page to make your way from the
+Burville Dungeon through the catacombs to the key.
+
+===== Page 18 =====
+
+THE JOURNEY CONTINUES
+
+Once you have returned successfully from your adventure in
+Burville Shire, you will have accomplished a great task. Two of
+the Gems of Tranquility will be in their place in the Tower
+Obitus. Journey forth to Blakestone Shire then Cullen Shire and
+find the last two Gems. The peaceful future of the kingdom is
+within your grasp.
+
+WORDS OF WISDOM
+
+While you are traveling through the challenging world of Obitus,
+there are a few tips that you should keep in mind:
+
+Keep Your Eyes on the Road: Objects in pathways are often
+very small. Walk slowly and make sure that you don’t pass over
+any valuable items. You should also watch the compass so that
+you know where all of the paths branch off.
+
+Fire First: Always keep a weapon at the ready in your inventory
+window so that you can get the first shot off if an enemy attacks.
+When you pick up a new item, this object will be displayed in
+your inventory window. Cycle through the items so that a
+weapon is shown again, then proceed.
+
+Save Often: Before you try something risky, save your game on
+the Options Menu. If the risk doesn't pay off, you can load your
+previously saved game and try something else instead.
+
+Sleep Safely: There are helpful citizens of the kingdom in all four
+
+of the shires who will guard you from wandering villains as you
+
+sleep. Seek out these characters and get some rest.
+
+===== Page 19 =====
+
+Limited Warranty
+
+Bullet-Proof Software, Inc. warrants to the original purchaser of this
+Bullet-Proof Software product that the medium on which this computer
+program is recorded is free from defects in materials and workmanship
+for a period of ninety (90) days from the date of purchase. This Bullet-
+Proof Software program is sold “as is” without express or implied
+warranty of any kind, and Bullet-Proof Software is not liable for any
+losses or damages of any kind resulting from use of this program.
+Bullet-Proof Software agrees for a period of ninety (90) days to either
+repair or replace, at its option, free of charge, any Bullet-Proof Software
+product, with proof of date of purchase, at its factory.
+
+This warranty is not applicable to normal wear and tear. This warranty
+shall not be applicable and shall be void if the defect in the Bullet-Proof
+Software product has arisen through abuse, unreasonable use,
+mistreatment or neglect. This warranty is in lieu of all other warranties
+and no other representations or claims of any nature shall be binding
+on or obligate Bullet-Proof Software. Any implied warranties applicable
+to this software product, including warranties of merchantability and
+fitness for a particular purpose, are limited to the ninety (90) day period
+described above. In no event will Bullet-Proof Software be liable for
+any special, incidental, or consequential damages resulting from
+possession, use or malfunction of this Bullet-Proof Software product
+
+The provisions of this warranty are valid in the United States only.
+Some states do not allow limitations on how long an implied warranty
+lasts or exclusions of consequential, or incidental damages, so the
+above limitations may not apply to you. This warranty gives you
+specific rights, and you may also have other rights which vary from
+state to state.
+
+Bullet-Proof Software, Inc.
+8337 154th Ave. N.E.
+Redmond, Washington 98052
+(206) 861-9200
+
+===== Page 20 =====
+
+£ * a
+war @
+
+Bullet-Proof Software’

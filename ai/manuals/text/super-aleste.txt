@@ -1,0 +1,831 @@
+# Super Aleste
+source: https://archive.org/details/snes_manual_archive
+pdf: Super Aleste ( PAL ).pdf
+region: PAL
+pages: 28
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+i \
+wed
+
+INSTRUCTION BOOKLET
+
+9
+
+our NINTENDO.
+
+SOMES UE ET EEE
+
+===== Page 2 =====
+
+/ COMPILE
+
+GAME PLAY, ~~
+STARTING THE GAME.
+
+THE STORY
+
+THE 5)
+
+? *--+ OBSION MODE
+HOTS
+
+OM
+
+©1992 TOHO CO., LTD.
+
+LTD.
+
+en scene
+
+trademark of TOHO CO
+
+IiSa
+
+SUPER ALESTE™
+
+===== Page 3 =====
+
+THE STORY
+
+{ cl
+:
+
+In the year 2048 A.D., the earth faced a major crisis.
+All of an enormous glowing object 15 kilometers in
+diameter suddenly appeared from space ‘dnd began to
+attack all the major cities on earth. The retaliative
+attacks of the hastily formed emergency Earth Defence
+Forces had no effect on this unknown enemy. In an
+instant, all of the major cities of the world were
+reduced into rubble and the attacks on humanity
+ceased. Just as quickly the mysterious object then flew
+over to the tropical rain forests in Central America and
+
+began construction of a floating city in mid-air.
+
+In order to break down the superior defences of this
+mysterious object, the planets of the support units that
+supplied energy to the object were to be freed to stop
+its momentum. The Earth Defence Forces’ final ultimate
+weapon, the ED-057, was modified for space flight and
+refitted with numerous super weapons to make it a
+super shooting machine beyond imagination with the
+
+aid of world’s most intelligent scientists.
+
+The ED-057 started off to the first planet. What kind
+
+of enemies and traps could possibly be waiting there?
+
+And what is the objective and true nature of the
+mysterious object? The tremendous battle to save the
+
+earth was to start here.
+
+===== Page 4 =====
+
+f
+
+This game is'a single player vertically scrolling shoot-
+ing game. The player must control the ED-057 and
+collect super weapons and proceed to areas where
+fierce enemies lay in wait. The object of the game is to
+use the continuous shot weapons and the wide area
+destruction bombs efficiently to clear all 12 areas of
+
+enemies.
+
+GAME PLAY
+
+_ With your craft the ED-057, you can equip and select
+from 8 different types of weapons. Additionally, by
+gathering items, you can power up your weapons from
+
+O - 6 (see pages 14, and 16 - 19). By pressing the “R”
+
+button, you can vary your attack with the built-in shot |
+
+control system and enjoy a wide variation in game
+play (see page 15). If the ED-057 is hit by an enemy
+
+or by an enemy shot, your weapon will be down
+
+graded and when the weapon is at level one or zero,
+
+a ship will be subtracted from your remaining ships. If
+you loose a ship when the number of remaining ships is
+0, the game will end. Also, if you are forced out of the
+screen by an object no matter what your weapon level
+
+is, you loose a ship.
+
+|
+
+===== Page 5 =====
+
+The ED-057 can further increase its power by gather-
+ing items. There are many different types of items,
+however by memorizing the characteristics of the
+different items you will be headed on the path towards
+
+victory.
+
+Green Capsule:
+Getting this will immediately grade up your current
+
+weapon by level 1. This is a valuable item.
+
+Orange Capsule:
+Grades up your weapon when gathered in the numbers
+corresponding to each level. Appears more frequently
+
+than Green Capsules during the game.
+
+Weapon Capsule (Red):
+Changes your weapon to weapon of the number
+shown. If taken when the weapon number matches the
+
+weapon currently in use, it will grade up your weapon.
+
+4
+_ A
+
+===== Page 6 =====
+
+Weapon Capsule (Green):
+The weapon number on it constantly changes, however
+it remains the same while being shot, and is otherwise
+
+same as the Red Capsule.
+
+Bomb Capsule:
+
+A bomb that destroys all enemies on the screens and
+
+pe
+]
+
+clears any shots that enemy ships have fired will be
+
+added to your supply.
+
+* Only the Green Weapon Capsule can be
+destroyed and will change to an “Enemy
+Eraser” (shown on the side) that can clear
+
+all enemies of the screen.
+
+===== Page 7 =====
+
+ADDITIONAL SHIPS
+
+You gain one ship when your score reaches 50,000
+points, 200,000 points and 500,000 points. Additional
+ships are given for each additional 500,000 points
+scored after the first 500,000 points.
+
+You can continue the game as many times as you like.
+When in the GAME OVER screen, choose the “ START
+AT CHECK POINT” to continue the game a little before
+your ship was destroyed or “START AT AREA’ fo start
+at the beginning of the last area and press the START
+
+button.
+
+i
+
+===== Page 8 =====
+
+STARTING THE GAME
+
+Place the cartridge properly into the Super NES slot.
+Turn on the power and the opening demonstration will
+start. Pressing the START button will show the mode
+selection screen as shown in the photo. Use either the
+Control Pad or the SELECT button to choose and press
+the START button.
+
+High score for short game
+
+High score for standard game
+
+sSTANDARD.1500000 SHORT. 300000
+
+SOP Qo
+
+MLZ (hr
+
+21 CHAE
+
+: CEis t=
+
+STANDARD GAME
+
+Starts the game
+
+===== Page 9 =====
+
+You can casually sample the Space Megaforce world.
+The stages are condensed so you can play this version
+
+as a diversion or for score competition.
+
+i
+
+Game settings, sound tests, and various other functions
+
+are found here (see page 9).
+
+‘hii
+
+===== Page 10 =====
+
+a
+
+When in the mode selection screen and you choose
+
+“OPTIONS”, the screen in the picture is shown.
+
+@ ExIT
+GAME MODE NORMAL
+MUSIC O1
+SOUND O01
+VOICE 01
+TRIGGER SETTINGS
+CONTROLLER TEST
+
+BREAK TIME
+SOUND MONO
+
+MAA
+
+Returns you to the title screen
+
+The overall game settings can be selected by moving
+the Control Pad left or right. The initial setting is
+“NORMAL” but choosing “HARD” or “HYPER” will
+increase the enemy movements and attacks in gradual
+order. Also when you choose the “TRICKY” setting, the
+enemies destroyed will attack in a special way. The
+“WILD” setting is the “HYPER” mode for that setting
+
+and clearing stages in this mode will take extra special
+
+effort.
+
+____GAMEMODE __
+
+Re
+@
+: :
+
+===== Page 11 =====
+
+Allows you to hear the background music that plays
+
+during the game. The “B” button will stop the music.
+
+Allows you to hear the various sound effects.
+
+Allows you to hear the various voices in the game.
+
+il
+
+Allows you to rearrange the setting of the controller
+for PAUSE, S-CTRL{( SHOT CONTROL), FIRE, BOMB
+and SPEED to your liking. Choose from types 1 - 4
+with the Control Pad by pressing left or right. You can
+also set the layout of the buttons the way you want
+with the “Custom Setting” mode. Press the SELECT
+button until the mode display shows “CUSTOM” and
+choose the button to be set by pressing the Control
+Pad up or down and set the function for that button by
+pressing the Control Pad left or right. (You can not
+change the setting for the START and SELECT buttons.)
+
+ih
+
+oe
+
+===== Page 12 =====
+
+CONTROLLER TEST
+
+Allows to test the controller to see if it is working
+correctly. Pressing the buttons on controller 1 or 2 will
+change the circle corresponding to that button to white
+
+on the screen if the controller is working properly.
+
+BREAK TIME
+
+Allows you to rotate, enlarge and reduce characters
+on the screen with the Control Pad by using the Super
+NES built in functions. To get out of this mode, you
+must either turn off the power or press the RESET
+button.
+
+Allows you to choose either stereo or mono sound
+
+output. Choose the setting according to how your
+Super NES is hooked up.
+
+see
+
+x
+ee:
+
+===== Page 13 =====
+
+,
+:
+;
+;
+‘
+
+USING THE CONTROLLER
+
+R button
+
+ee oes - | ee ee ee ee ee ee ee ee ee
+
+controls shots
+
+B button
+
+releases bombs
+
+Y button
+
+fires shots (automatic continuous fire)
+
+START or L button
+
+pauses the game
+
+SELECT button
+adjusts the speed of your ship (4 levels)
+
+Control Pad
+
+controls your ship (8 directions)
+
+L or START button
+
+pauses the game
+
+* The setting are the initial settings and can be chan-
+ged in the OPTION MODE (see page 10).
+
+SOFT RESET FUNCTION
+
+ee
+:
+
+You can reset the game by pressing the SELECT button
+while holding down the L, R and START buttons.
+
+===== Page 14 =====
+
+-_ =
+
+THE GAME SCREEN
+
+1. Weapon in use (weapon number, abbreviation)
+and Level (LV) display
+
+2. Speed display
+
+(As the number of speed displays lit up is increased
+by pressing the SELECT button, you can move your
+ship faster.)
+
+3. Score
+4. The ED-057 (your ship)
+5. Number of remaining ships
+
+(When the ED-057 is shown in gold, the player will
+be able to continue at that when the ship is des-
+
+troyed.)
+
+6. Remaining number of bombs
+
+===== Page 15 =====
+
+4
+
+BASIC BATTLE LEVEL UP
+
+@
+= i
+: \,
+
+There are 8 different weapons that the ED-057 can be
+equipped with. The super weapons can be graded up
+to further increase their power. When grading up your
+weapons, the shots will become bigger, the numbers
+fired at one time will increase, and the effects are
+widely varied. However, the higher you are able to
+grade up your weapon, the more the battle will be in
+your favour. Also, if your weapon is level 2 or higher,
+you will not lose a ship if you are hit. When just
+
+starting out, it is very helpful if you concentrate in
+
+grading up your weapons.
+
+===== Page 16 =====
+
+SHOT CONTROL SYSTEM
+
+DIFFERENT ATTACK PATTERNS CAN BE SELECTED WITH THE “R’’ BUTTON
+
+The ED-057 has a powerful support. system in addition
+to the wide variation of weapons it can use: There are
+many ways of using even a single weapon - this is what
+is called the Shot Control System. With this system,
+your attack can have a wide variation and by master-
+ing the use of the “R” button you will effectively more
+than double your attack strength. This system should
+be a very powerful support to the ED-057. Pressing
+the “R” button activates the Shot Control System,
+however depending on the weapon the ED-057 is
+using, the effects differ. The photo shows the Multiple
+Shot weapon and the direction of the shots are
+controlled. Weapons such as the Malti-Direction Shot
+will activate the system only during the time the ig”
+button is being pressed. Each weapon has different
+functions and you should memorize them (see page 16
+- 19). This system holds the key to victory. You should
+work out an effective attack plan with your weapon
+
+selection.
+
+‘
+
+&
+
+===== Page 17 =====
+
+THE SHOTS
+
+j
+
+MULTIPLE SHOT (MPL) 2
+
+This is your basic weapon that shoots in various direc-
+tions. Using the “R” button will change the directions
+
+[cua
+oe SS
+Eee eee re
+Preteen ee eee]
+RATERS REA ETE
+Rese ee cee neen entree ec eee
+ee eee eee ee
+TSE ASR ga EERO REET
+SSD eS EY
+SE
+aS SEED
+SE EE
+SS
+ATO
+EH SST ETD DEES, fired in 6 different ways.
+22 RARER TRE
+
+AES AERA
+
+SS SSUES
+
+re ear ee er ee eres ae)
+
+22 SSPE
+ete eer er era
+
+LASER (LSR)
+Ce ee nae eee eee
+
+A very powerful laser ray that passes right through
+enemies. The “R” button will change it to an automatic
+
+path finding “homing” ray.
+
+iil
+
+===== Page 18 =====
+
+id
+
+A defensive satellite that circles the ED-O57. Pressing
+the “R” button will stop the satellites from circling while
+
+the “R” button is being pressed.
+
+| CIRCLE (CIR)
+
+M OT (MDS)
+
+ULTI-DIRECTION SH
+
+Fires shots in the direction that the Control Pad is pressed. The
+direction that the shots are fired are fixed to the direction the
+
+Control Pad is pressed while the “R” button is being pressed.
+
+Il
+
+===== Page 19 =====
+
+MISSILE (MIS)
+
+ass o *
+Ries. ’
+tf «
+« * ee
+= % b a. : ys a8 :
+
+e%o
+
+Sa,
+
+A path finding homing type missile. When the “R”
+
+button is pressed, the missile will change into a normal
+
+straight shooting shot.
+
+POWER SHOT (PWR)
+
+A shot that stores power before releasing a beam. The
+“R” button switches between normal charge and quick
+
+charge.
+
+EEE EDEL DE LT E  TTE.
+SEE DEED I TLE DIODE ILL EA
+LET EIDE IE LE LEE.
+PEELED) LDL LEE SELLE ELEN
+LE ELD ELIE
+22 SEL SR EES,
+RELEASE EE EE
+DELETE LEE IODA TIT,
+DES EEE LIS
+z s
+; e
+
+Gok
+8
+
+===== Page 20 =====
+
+SPRITE (SPR)
+
+Attack units that support the ED-057. Pressing the “R”
+
+button fixes their positions around your ship.
+
+SCATTER SHOT (SCT)
+
+A spherical shot that release mini-missiles at impact.
+Pressing the “R” button allows you to control left and
+
+right movement after firing.
+
+RRR US CARRE IOI RIC SESS
+RES SS SS DRS PS
+SS SeReR a A EE SEE
+‘a a i a CSE ERTS
+AS MEER EEE SESE
+GRRE Sc I Sa Se SS
+(27S ee ae ESS
+PLEO SS Sele EAE, MEE
+PE STE ORBEA EE SE
+See RD Cr LR
+REE EEC EES
+SEAS IS SaaS NEST SE
+EET ERT EER AE
+SS ER ARE EE
+ce
+
+===== Page 21 =====
+
+THE DIFFERENT AREAS
+
+SSE BN SS EET
+ERS ELLE ETRE? RNY TET
+ERE) EES aS EE
+RES ES Sd BE CIE EWS IRS
+PRED TESTS LEE RES
+SEES SAT RS SIS ON EEN ERTIES
+SS LET LR LE s
+EP SEE EERE IEE,
+SRS EE ET
+ST SE RE OT
+SR CS RES EES,
+SP SS EE TS
+RES I EN LES
+RSE EE
+EE EEE TRIES FSET R ATE OD LILLY
+SSE EE ET
+PRES EES SOS LT ERLE ERSTE)
+EERE LORETTA TORE AILS BONES!
+PIRES OED EEL ORCA ISTE EDS
+RG EE ELE SRE OF TERS,
+SS CD EE RT
+SEE a LE LOE
+EDELSTEIN YS
+LOSE IPRS A EE 1
+saeuiiiiienip piaaeintdinnamann Area | is set above the jungles of Central America.
+SET EE LET PN AER ETRE,
+5 RE OE UII The defense systems of the mysterious flying object and
+ST ES a SSR A a
+acids daiametnaememeamnieanes the strange on ground drawings await the ED-057.
+SS NS EO
+ieniammaniimenemmaammens Defeat the boss “Zolbo” and take off to outer space.
+SE a ES .
+FEES SS OE RT ELE
+SE Cae PES,
+SEP ANS) SS RO
+PT EEE LIE OE TES
+DE DLL LL
+ST a IE
+SB a FES REE SETS,
+SSE SR RE
+SSF PSE BES EE
+ee SE A EIS
+TE EE EEE ILE,
+SEAR REE SIS ee EE
+RETESET SES A IES .
+DL PS *
+FE EET OSES LILLE EIT
+SE EAE A
+A SS DL EAL TS
+a ee
+SS SO ES
+PLL SS TE
+SA aT EEE PTE ae
+FREE, RRL EL IELTS DAES IS IE ETE
+EET REESE a ER TES
+ESS Sar ST
+RETA ee SE RS EES
+SEES SLT IO TEE
+SSE SS PL a OSD REED
+aaioisnadimianmemmemenen The scene changes to space in Area 2. Attack the ~~
+ASS a AE SS
+aceite approaching gigantic space station Lono! If you are ;
+SELAH SLE e A :
+PE LEE RS Pa SES
+BEES SS TE
+Se Ea OE
+4
+
+exhausted by this level of attack you are not ready for
+
+the rest. The battle to free the planet has just begun.
+
+===== Page 22 =====
+
+_
+
+In Area 3, the ED-057 must absorb the enemies’ supply
+
+base. The defense system here is relatively sparse and
+
+the boss characters are small! If you proceed with
+
+care, you should be able to build up your system.
+
+Area 4 is a solar flame space system. Reinforced
+enemy troops and an elastic planetary system pursues
+
+the ED-057. Destroy the giant boss “Jannel” which
+
+es
+ee
+
+attacks with the BIT (remote control attack system).
+
+A
+hot
+.
+
+===== Page 23 =====
+
+a cial
+iver
+
+The ever nearing Area 5 is comprised of a surface scraped off
+from a planet. The defense robots are rapidly launched from the
+
+surface below. Special care must be taken in handling the
+
+long-armed boss “Nardork” who tosses boulders in all directions.
+
+Area 6 is the enemies’ middle base. However, the
+
+enemy troops are sparsely stationed here and are
+
+poorly equipped. In addition, the boss character is
+
+small so you should crush the enemy here.
+
+.
+bast
+
+oe
+
+‘i
+
+===== Page 24 =====
+
+Area 7 is the asteroid surface scraped off as in Area 5.
+Laser beams, missile pods, and even flying boulders
+are your troublesome enemies. The heavily armed
+
+boss “Rubar” is a formidable enemy.
+
+An ultra-large scale space ship lays in wait in Area 8.
+
+Debris falling off from the ship obstruct the passage of
+
+the ED-057 and so extra efforts are required in attack-
+
+ing. The boss you will face is the rotating “Carrier Nont”.
+
+===== Page 25 =====
+
+AREA 10
+
+meena
+ue
+ines
+%
+oe
+
+_ See
+
+Area 9 is the final battle in space. If you free this
+supply base, you can return to Earth. You must take
+care even though the boss is small. Prepare yourself
+
+and jump into battle.
+
+You at last return to Earth in Area 10. What awaits
+you is a jungle without any vegetation and a gigantic
+maze-like enemy defence system. What you finally
+
+encounter at the end is Zolbo again.
+
+===== Page 26 =====
+
+In Area 11 the ED-057 enters the mysterious object and
+you must speed up through this bio-machine interior.
+There are no boss enemies but you cannot afford to relax
+
+in here, for even a small mistake will lead to disaster.
+
+At last the final battle in Area 12. The ED-057 flying
+in the object’s interior encounters the most powerful,
+most evil enemy in the very center. Can you restore
+
+peace on Earth?
+
+===== Page 27 =====
+
+CLUES TO THE GAME
+
+ONE POINT CHECK I
+
+Usually when a player loses a ship, the game will
+restart at a point further back from where your ship
+was destroyed. However, if you obtain an “Enemy
+Eraser”, you will be able to restart from the point you
+were destroyed as the same’ number of times as you
+
+have taken “Enemy Erasers”.
+
+ONE POINT CHECK 2 :
+
+Items are sometimes hidden in the shadows of destruc-
+tible blocks. Piles of blocks casually placed on the
+edges of the screen are suspicious. If you have the
+
+chance, you should try destroying these blocks.
+
+ONE POINT CHECK 3 |
+
+If you are not very good at shooting games, you
+should start off with the Short Game. The Space
+Megaforce World is widely represented in this version
+and will help you get accustomed to using the various
+
+weapons and the Shot Control System.
+
+===== Page 28 =====

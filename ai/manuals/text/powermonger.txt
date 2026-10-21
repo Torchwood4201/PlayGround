@@ -1,0 +1,1385 @@
+# Powermonger
+source: https://archive.org/details/snes_manual_archive
+pdf: Powermonger ( PAL ).pdf
+region: PAL
+pages: 41
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+LICENSED TO
+
+ae
+
+ES PAL VERSION Ea
+
+===== Page 2 =====
+
+WARNING: PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND
+PRECAUTIONS BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR
+NINTENDO ® HARDWARE SYSTEM, GAME PAK OR ACCESSORY
+
+THIS SEAL IS YOUR ASSURANCE THAT
+
+NINTENDO HAS APPROVED THE QUALITY OF
+
+THIS PRODUCT. ALWAYS LOOK FOR THIS
+
+SEAL WHEN BUYING GAMES AND
+
+— , ACCESSORIES TO ENSURE COMPLETE
+
+Quality “4 COMPATIBILITY WITH YOUR SUPER
+“NINTENDO ENTERTAINMENT SYSTEM.
+
+—S— © BULLFROG PRODUCTIONS LID. 1990-1993
+> — er LICENSED FROM ELECTRONIC ARTS 4
+ELECTRONIC ARTS SNES VERSION BY BULLFROG PRODUCTIONS LTD
+
+BULLERDL
+
+PRODUCTIONS LTD
+
+LICENSED BY
+
+' Nintendo) NINTENDO © SUPER NINTENDO ENTERTAINMENT SYSTEM ™, THE NINTENDO PRODUCT
+. SEALS AND OTHER MARKS DESIGNATED AS “TM” ARE TRADEMARKS OF NINTENDO.
+
+===== Page 3 =====
+
+CONTENTS
+
+GETTING STARTED ©). 3 1
+JOVDRO CONTSIS os. Sg eee 2
+TQE Situationy, .. ae Pisa a »
+Fhe Path te Conquest <<. 3 7
+
+‘THE WORDED en ee ee 9
+The Ovetview Map... 02 i. Societies 9
+F x ivomiew Map Controls... os es eh y
+
+‘Contours, Objects, Settlements and Food ...... 10
+GMPIAIRS .. ins nk sp ae ee. oe a al 7.
+SeitementS. <<... kes Moree awe abl
+
+Ciose-Up. Map «..2 .2......5 Aas piles eat A 11
+Close-Lip Map-Controls.. 2 3.....5...% gait aes 11
+Ghianelde the View. 3... 2... de ne ae Pe elt
+
+The ROtAtiONATOWS weve Gas 5. -siuinstaiie eines ae
+The Zoom Batons” oS enone. es 12
+The Conquest Balance ©2206. 1 Re ee 12
+
+Seasons ad Weather..0% ..... 2°. eae F-
+
+===== Page 4 =====
+
+Option, Posture, Command & Query
+The Optior
+
+QD
+zB
+=
+
+_ eS
+
+Senet? Sie... -
+More About Posture. .
+ee Ae ee
+Equip Invention.....
+
+QUESTIONS & ANSWERS ae
+
+(Compatible with Super NES Mouse:
+___ Sold separately MODLE No.SNS-016E)
+
+===== Page 5 =====
+
+GETTING STARTED
+
+Credit Screen
+
+Click the left mouse button to move onto the next screen. If left in this
+
+e attract mode.
+
+screen it will e
+
+Option Screen
+Next, the Option Screen will appear. This lists the options you have at
+the beginning of the game. Click on the option of your choice:
+
+of ? TES
+EMAC IMEER
+- Pigase eeiect eptis
+
+STSRT Ske CORGU
+
+. COWYIWUE  CONRUERT
+
+RESTORE CONGUEST
+
+PLAY ESeOOe LS
+
+Name Screen
+
+After the opening sequence, a
+screen will appear asking “What
+Is Thy Name, O Lord?” Type in
+the name you want to use in the
+game, either your own or one
+you make up, and then click on
+the END box with the left mouse
+button. Ifyou don’t want to use a
+name, just click on the END box.
+
+Start New Conquest: Start the
+conquest from the beginning.
+This will be the Standard game
+with 195 pre-set territories to
+conquer.
+
+Continue Conquest: Allows you
+to select the next area of
+conquest.
+
+Restore Conquest: Password feature allows you to access previously
+
+saved game.
+
+Play Random Land: Enter a random computer generated territory.
+
+===== Page 6 =====
+
+se
+®
+=
+
+: Option:
+Controller Port - The port in which the controlle
+Quickpad Mode | 1
+
+Mouse Speed -
+
+Mouse speeds 1, 2 and 3 (1 being slow).
+
+Music - Turns music on and off.
+Sound FX - Turns sound effects on and off.
+
+The options changed will only take effect when the option window is
+closed. To close any window, click the upper right hand corner.
+
+Map Selection Screen
+
+Press “A” to select the map.
+Press “X”’ to scroll map up.
+Press “Y” to scroll map.down.
+
+Joypad Game Controls
+
+L Button R Button
+
+X Button
+
+A Button
+
+PER NINTENDO
+
+@&
+ENTERTAINMENT SYSTEM
+
+SELECT START
+
+B Button
+
+SELECT Button | START Button Y Button
+
+POWERMONGER
+
+===== Page 7 =====
+
+Pause pressing the START button will pause the game.
+
+Backspace when entering your name or a password, the “B” button will
+backspace the cursor.
+
+Windows at any time during the game, pressing the SELECT button will
+agen Of the Option window (“!” icon). Pressing SELECT
+he window.
+
+fe) Query (“?”) windows can be closed by pressing
+Bel bi : :
+
+General Controls
+
+To change from area to area,
+press the “Y” button. This will go
+from area to area in the order
+shown above Cie: 1 to 2, 2 to 3,
+etc. ). AREA 4 (Icons) is selected
+from any area by using the “X”
+button. This toggles the icon
+area on/off. Each area, when
+selected, will be shown brighter
+than the other areas on the screen.
+
+The “L” and “R” buttons rotate
+the close up map (AREA 1).
+
+ais
+
+AREA 1 Button “A” has different functions depending on the mode of
+the game. Ifthe “attack” icon is selected, the ‘click’ will start the attack to
+the point selected. Ifthe “A” button is held down and the direction pad
+moved, the map position will be moved using the compass north.
+
+AREA 2 While on this area, the direction pad moves the cursor position
+on the small map. Pressing the “A” or “B” button zooms the 3D in or out.
+
+POWERMONGER 2
+
+sg cgi
+
+===== Page 8 =====
+
+AREA 3 This area uses button “A” to select the required part
+to pre If Any of the i icons at be tp, of ra a ar
+
+rotate the map around (same as z
+’ zooms into the map.
+
+POWERMONGER
+
+===== Page 9 =====
+
+Barrie was fair and just. Your fate may not be...
+
+iremer was destroyed by a devastating
+50! oad mountains and fiery, poisonous
+subjects and none of your lands. You have
+
+Your kingdoms of
+
+f followers (and a new realm for
+ives grew weary of toying with you
+onto the unfamiliar shores of a foreign
+E re as you have dreamed it would
+places, , it is populated. Petty warlords
+
+s the Pinned You could debase
+P rscifl into vues t ese backward nobles and submit
+your followers to their misrule. But you were a king not so long
+ago, and you have borne enough indignity. It is they who will pay
+homage to you. You will gain a crown once again ... or die in the
+attempt.
+
+As you venture across this new domain, you will have to win the
+fealty of those you encounter by words of diplomacy or dint of
+arms. The native tribes are laggards in the art of war, but are far
+from helpless. You are also not the only strangers here. Other
+invading tribes under ruddy or azure banners mourn lost
+kingdoms, and yearn after new ones. Like the natives, they must
+be persuaded to join your cause or be put to the sword. There is
+no other path to kingship.
+
+As you campaign, you will reap the fields’ fair bounty and probe
+the deep places of the world for hidden wealth. The powers of
+life and death, enrichment and improverishment, plenty and
+starvation, can be yours in absolute measure. But you must
+manage your power, like any other resource, wisely. Constant
+warfare will deprive you of present followers and future recruits,
+
+— POWERMONGER 5
+
+===== Page 10 =====
+
+and continual pillaging will fill your stores for the mom
+will leave the land empty of anything. to fill the | ir | the “s
+
+of the day with the needs of days to come. Only
+the ultimate...
+
+POWERMONGER
+
+===== Page 11 =====
+
+e Path to Conquest
+
+There are 195 territories to conquer in the world of Powermonger in the
+Conquest mode. After the map is generated, the Map Selection Chart
+will appear displaying the various territories you can conquer. At the
+beginning the only territory you can conquer is the island
+comer; if you cannot immediately find this island,
+inter around in that corner of the Chart. The red
+ppear when the pointer is over it. Select this
+se button.
+
+rritory you will need to conquer
+en, and invent both weapons and trading
+
+2 are enemy armies prowling about who
+25 and doing the same things you are. These
+as yo id some of their commanders are at least
+as aggressive and clever as you. You have conquered a territory when
+you bring a significant portion of the population under your control.
+When all the gold in the Conquest Balance is on the right side you have
+conquered the current territory. (You don’t always have to bring all the
+population of a territory under your control to conquer the territory).
+When you have conquered a territory, click the left mouse button on the
+Option Symbol, then on the Retire box (explained under Option
+Symbol in the Symbols section of this manual ). The computer will then
+tell you that you have won. Click the left mouse button to go back to the
+Option Screen.
+
+After you have conquered the first territory, you can move to any
+adjacent territory. To enter a territory, place the On-Screen Pointer over
+its map; when the red Selection Rectangle appears around the territory,
+click the left mouse button. (Note that you can only move into territories
+which are highlighted in red when the On-Screen Pointer is over them).
+In the case of this first territory, you can move to territories to the right
+and below; in more centrally located territories away from the corners
+or the edge, there will of course be more directions in which you can
+move and more territories to choose from. To help you keep track of
+where you’ve been, a dagger will appear in the map of each territory
+after you conquer and leave it, and a yellow Selection Rectangle will
+appear around them when the On-Screen Pointer is over them.
+
+are after the :
+armies are as
+
+POWERMONGER 7
+
+===== Page 12 =====
+
+When you move to a new territory, you will effectively be s
+over again. The Captains you recruited will stay behind to
+
+your conquest. You may not have as many men or as much God as
+_ had before; building up vast armies and enormous ds o
+help you in the territory you were in, but not in the
+You can’t take your spoils wi
+
+- restuliceseoilt become Weeasinoly atificult ro Had and secure
+manage. (You « can move back to easier territories you haven't
+conquered yet if the going gets too tough). The most formidable
+territory ofall, and the one you must finally conquer to rule the world, is
+in the lower right corner of the Map Selection Chart.
+
+POWERMONGER
+
+===== Page 13 =====
+
+The Overview Map
+
+The Overview Map shows the
+territory you are currently
+attempting to conquer. On this
+map you can see roads, bodies
+of water, forests, settlements,
+and their occupants.
+
+Overview Map Controls
+
+The White Cross on the Overview Map indicates the center of the area
+currently shown in the Close-Up Map. By changing the position of the
+cross on the Overview Map, you change the view in the Close-Up Map.
+You can move the White Cross in two ways:
+
+Compass: Use either mouse button or click on the Compass to indicate
+in which direction you want the White Cross to scroll. Ifyou click the left
+mouse button, the cross will move a short distance with each pressing of
+the button; ifyou press and hold down the right mouse button, the cross
+will continue to scroll until you release the button.
+
+Joypad: The left and right mouse buttons are the same as pressing “A”
+and “B” on the joypad. When using the joypad press the “Y” button to
+
+POWERMONGER 7
+
+Ws,
+‘ie
+
+===== Page 14 =====
+
+=
+
+select AREA 2 (Compass ), then use the joypad to scroe ie
+desired direction.
+
+The Compass can move the White Cross in eight diff
+North, South, East and West, as well as North- east, Not
+
+ornate ee Settlements and Food
+
+Directly above the Overview Map are four map icons. Selecting each of
+as these icons will show you different map information on the Overview
+: Map. :
+
+Countour Mode Hills, valleys and plains. Dark green indicates the
+lowest-lying areas, while higher elevations are coloured lighter green,
+then yellow, then brown, and at the highest elevation of all, white.
+
+Objects Mode Trees, houses, workshops, men and roads. Trees appear
+as red dots, roads appear as grey lines, houses appear as light brown
+dots, your men appear as white dots, and workshops appear as yellow
+dots in settlements. :
+
+Settlements Mode Settlements and roads shown in grey, and your men
+_as white dots.
+
+Food Mode Same as the Settlements Mode, with settlements
+colour-coded according to how much food is in each. Black settlements
+indicate no food and white settlements indicate comestibles in massive
+abundance. Dots in varying shades of grey indicate food supplies
+somewhere in between the two extremes; the lighter the shade of grey,
+the more food is present. Click on the Food Map Icon again to update
+this map.
+
+Captains
+The currently selected Captain will be visible on the Overview Map as a
+
+man in a red cloak. But if he is spying, he will wear a shirt of the same
+colour as the army on which he is spying.
+
+POWERMONGER
+
+===== Page 15 =====
+
+Settlements are important sources Caf food, men and inventions. When
+you conquer one, you may want to strip it of all of the above. But if you
+here will be no one to gather food or create
+
+Close-Up Map >
+
+Close-Up Map Controls
+The Close-Up Map shows you
+details of the area where the
+White Cross is positioned on the
+Overview Map.
+
+Changing the View
+
+There are several ways to change
+the Close-Up Map to view a
+different area:
+
+i
+
+Compass: See Overview Map Controls
+Overview Map: See Overview Map Controls He 5"
+
+Captain: Select the large figure of any Captain by clicking the right Mes |
+mouse button. (Careful not to click on his medals, nor with the left ee
+mouse button). The Close-Up Map will immediately jump to that ee
+captain’s current location. ee
+
+POWERMONGER I]
+
+===== Page 16 =====
+
+The Rotation Arrows .
+The Rotation Arrows rotate the Close-Up Map left or right so you can
+improve or just change your view. Clicking on a Rotation Arrow with :
+left or right mouse button rotates the map to the next
+(north, south, east, west) in the direction of the arr
+
+different view positions. Also, ifyou press and hold do
+button on a Rotation Arrow, the map wi
+
+The Zoom Buttons
+
+You can zoom the Close-Up Map view in or out by using the Zoom
+Buttons. Clicking on a Zoom Button with the left or right mouse button
+zooms in or out by one step. Note that as you zoom in closer and closer
+on the Close-Up Map, mobile figures (people, animals, etc.) seem to
+move faster and faster. They aren't, really; this is an illusion created by
+the fact that smaller and smaller areas are being viewed as you Zoom in.
+
+The Conquest Balance
+
+A territory has been conquered. when a substantial portion of its
+population is under your control. The Conquest Balance indicates when
+this has happened. When you start conquering a territory, the scales will
+be tipped toward the left. As you gain control of more and more people,
+your half of the balance on the right will fill with gold. When the balance
+is tipped in favour of the white-and-blue-shield on the right, and all the
+gold is on your side, you've won that territory. Click on the Retire box in
+the Option Symbol (explained in the Symbols section of this manual) to
+move on to the next territory.
+
+Seasons and Weather
+
+Seasons pass in the world of Powermonger as they do in any world. In
+
+spring, summer, and especially in the autumn, food will be plentiful; in
+
+_ winter, it will be scarce, as no more will be produced in the settlements.
+You will notice two weather effects, rain and snow, as the seasons run
+
+their cycle. These forms of precipitation will, of course, slow an army as
+
+it moves across the land.
+
+IZ POWERMONGER
+
+===== Page 17 =====
+
+There is little even the First Captain can do to change the weather, but
+there is one way his followers and the followers of his subordinate
+captains can change weather patterns. When townspeople or armies are
+ordered to Invent (see Invent section), oe will often use wood to
+
+which lea
+Forests
+
+aaing, birds singing or taking flight, work
+Ms men cheering, etc. These noises
+
+ear a sheep, it means one or more of
+ig le source of food. Sounds of
+
+someone i disturbed the n; t hat might mean there is an enemy in the
+forest. Hammering and sawing from a nearby settlement or woods
+means someone is inventing something; if this is going on inan enemy
+settlement, you might want to go in and put a stop to it, or at least start
+inventing something of your own to counter them. Birds singing means
+spring has returned, and wind blowing means winter is here. And when
+your men start cheering during a battle, it means they’ve won.
+
+The First Captain and his subordinate Captains also express their level of
+enthusiasm concerning orders. If they like the order you give them, they
+will say an excited “Yeah!” Ifthey don’t like it, their “yeah” will be much
+more muted, or they might not say anything at all. This could be a clue
+that your order might not be such a good idea.
+
+In the background, you will always hear the breathing of whichever
+Captain you have selected. Ifhe is breathing evenly, everything is going
+well. If his breathing becomes laboured and ragged during a battle, it
+means that things aren’t going well, and he may even be dying.
+
+POWERMONGER iG
+
+===== Page 18 =====
+
+Option, Posture, Command
+& Query ©
+
+To activate a symbol, click on it
+with the left mouse button.
+
+The Option Symbol
+Use this multi-purpose symbol to change maps, restart, retire from
+
+game, change game controls or obtain information about the land you
+are in.
+
+Game Box Options
+
+Click on the Game Box to access these options, then click on the
+appropriate box to activate its option: :
+
+Retire Retire from the territory you’re in. If you are ahead (see the 2
+Conquest Balance under the Overview Map ) you win; ifyou are behind, at eee
+you loose. :
+
+Replay Map Restart conquering the current map from the beginning.
+
+POWERMONGER
+
+===== Page 19 =====
+
+Select Map Leave the current territory and go back to the Ma
+Chart to choose another territory to conquer.
+
+Random Map Call up a computer generated rand
+
+| Option. under Option Screen)
+
+World Info Gives player information about the territory they are
+currently in.
+
+Posture Symbols
+
+Posture determines the relative aggressiveness of a Captain, from the
+First Captain (you) down through all the Captains you recruit during
+your campaign of conquest. These icons only modify the innate
+ageression of any Captain; the First Captain is always the most
+ageressive, and the last Captain farthest to the right is always the least
+aggressive. A Captain’s Posture effects not only his own behavior, but the
+behavior of his troops and of others nearby aswell. The more aggressive
+a Captain is, the more food and men he will take from a village he has
+captured, and the more people his troops will kill in the course of battle.
+
+- A Captains’ aggressiveness will also effect what the people of a
+
+conquered village will invent (see Invent), and what sort of Trading
+deals can be made. Note that the first Captain set on Aggressive posture
+will take all food and men and do his best to kill everyone when
+attacking a village.
+
+To set a Captain’s posture, click on the Captain (making sure the
+Selection Arrow is over his head), and then click on one of the three
+Posture Symbols:
+
+Passive Posture _
+
+POWERMONGER
+
+===== Page 20 =====
+
+Normal Posture
+
+The Command Symbol t the different orders you can issue to
+yourself as First Captain, the other captains who have joined you, and
+indirectly the people who follow them.
+
+To issue a command: —
+
+1. Click on the First Captain or a subordinate Captain with the left
+mouse button. (Click on the large figure of him standing at the table,
+not on the smaller images of him that appear on either of the
+Overview or Close-Up Maps). The bobbing arrow should appear
+over his head and his expression will change, meaning he is ready to
+
+_ give or receive a command. If the arrow doesn’t appear, try clicking
+on the Captain again. Be careful! Do not click on his medals.
+
+2. Click on the Command Symbol that corresponds to the order you
+want to give. (A Command Symbol will be highlighted green when it eal
+is active; ifa symbol does not highlight, try to click on it again). Any ts!
+incomplete command can be cancelled by clicking on its symbol Bo)
+again, which will unhighlight it; make sure the highlighting goes out est
+or the command will still be active. Most Command Symbols =
+become unhighlighted as soon as the command it represents is
+
+POWERMONGER
+
+===== Page 21 =====
+
+given. Any command can be cancelled before it has bee
+clicking on its Command Symbol a second time. Make”
+highlighting goes out or the command will still be active.
+
+The Go Home, Drop Food and Drop Inven
+exceptions to this procedure. Those commands:
+step (see the individual Command.
+
+. Mosuaons n irection Line when you
+Overview Map. A Direction Line is a line that extends from the
+selected Captain to the On-Screen Pointer on the Overview Map. Use
+the On-Screen Pointer to point at the location you want to be the
+target of the command. To view an area before you decide to give a
+command, click with the right mouse button.
+
+The location or object selected as the target of an order must be
+appropriate for that order. For example, an Attack command must
+have a settlement, a person, livestock, etc., as its target or it cannot be
+given. Ifthe Direction Line is pointed at an inappropriate location or
+object, it will be black, you will hear a slow drumbeat, and no
+command can be issued. If it is pointed at an appropriate location,
+the Direction Line will be red, and the drumbeat will be more rapid.
+Click with the left mouse button to give the command.
+
+Orders can also be issued on the Close-Up Map. You can choose
+targets more precisely this way; that is, you can choose a single
+person as target for an Attack order on the Close-Up Map vs. choosing
+a whole settlkement on the Overview Map. When an appropriate
+target is visible on the Close-Up Map, click on a command symbol!
+and then on the target. The Direction Line will appear red on the
+Overview Map when the On-Screen Pointer is over an appropriate
+target and the order will be issued.
+
+Bodies of water can prevent an order from being carried out; for
+example, if the target is on an island, and the selected Captain is on
+the mainland and does not have access to boats, an order to Get F ood
+
+POWERMONGER
+
+===== Page 22 =====
+
+pace up and down once he as Breached the interposing body of
+water. :
+
+the Eid and he will wen ‘Yeah.” If an
+or rdinate Captain, The First Captain must
+dis t pigeon so it may take a while for him to
+
+ide the Status Bars above the targeted
+ans the order is still on its way. When
+subordinate Captain’s head and says
+
+8. Some commands do not operate in keeping with these general
+
+instructions. You'll find specific instructions about how they work
+under the Command Symbol descriptions given next.
+
+POWERMONGER
+
+===== Page 23 =====
+
+Military Symbols
+
+Attack
+the person, place or thing at the «
+Line. Possible targets include —
+
+and chop it down, you can prevent enemies from
+using it to make their own inventions. Ifyou attack a
+settlement or army and win, the people left alive will
+become your followers, and you will have access to
+all their resources; watch for souls going up to
+heaven during such combats because it means that
+casualties are occuring. Keep in mind that if your
+target is ambulatory, it may well have trudged,
+marched or scampered away by the time you get to
+where it was when you targeted it. You will then
+track it down, but it might be faster than you. Note
+~also that your active Captain is free to move around
+during a combat (see Send Captain below).
+
+Ifyou click with the right mouse button after a target
+has been chosen using the Attack Symbol, and the
+rank is on its way to the chosen target, the Captain
+will scan the immediate area for men from that
+target. If he detects any, he will change direction and
+attack them. This could be used to take out people
+from the target area who are out inventing, ora lone
+wanderer.
+
+You lose a combat when your Captain dies. If a
+subordinate Captain dies, he disappears from the
+screen, and he drops his stock and equipped items,
+which will be visible on the screen. Another Captain
+can be recruited to take his place later. (Men killed
+in combat also drop their equipped items, which
+will be visible). But if the First Captain dies, the
+
+POWERMONGER
+
+===== Page 24 =====
+
+game is Over anda You Have Been Defeated screen
+will appear. Click the left mouse button to return to
+the Game Option Screen.
+
+Get Men
+
+in; a Passive Captain will attract only a
+is banner, a Neutral Captain will be able
+w more, and an Aggressive Captain will
+
+n transferred will depend on the
+ee being transferred from:-
+
+0%, and Aggressive posture will
+fe %. Click with the left mouse button on
+the tran erring from Captain, click on the icon, and
+then click on the Captain to whom the men are
+being transferred.
+
+sends any Captain to gather intelligence. To enter
+into this intrigue, select the Captain to whom you
+want to assign the task by clicking on him with the
+left mouse button, then click on the Spy symbol.
+Now click on the neutral or enemy settlement you
+want him to spy on. He will go there, and if he is
+accepted into the community, the location of the
+settlement’s population will show up on the Overview
+Map as dots of the appropriate colour (red or blue
+for enemies, yellow for neutral). If he is recruited
+into an enemy army, then dots of the appropriate
+colour will appear on the Overview Map showing
+the locations of the soldiers in that army.
+
+POWERMONGER
+
+===== Page 25 =====
+
+conta without breaking off the gare by clicking
+
+Send Captain
+a you choose. Select the
+
+on the Send Captain symbol and clicking on a
+destination a short distance away on either map;
+however, the Captain might get dragged right back
+into the battle. Note that an individual cannot get out
+ofa battle while engaged in hand-to-hand combat. If
+you click on a location far away on the Overview
+Map and the Captain is not dragged back into the
+battle, his men will follow him and the battle will be
+broken off.
+
+Go Home
+
+sends the Captain and his army back to the Captain’s
+home. This command is a handy way of getting out
+of a losing battle while keeping an army intact.
+
+Derank
+
+is similar to Go Home but will send you a fraction of
+an army home while the Captain involved will stay
+with the portion of his forces that remain in the field.
+If the Captain’s Posture is Passive, 25% of his troops
+will leave; if it is Neutral 50% will find their
+enlistment is up; and if it is Aggressive, 100% will
+re-enter civilian life. People with the worst weapons
+or no weapons, or no boats, will go first, leaving the
+most useful soldiers to remain in the army.
+
+POWERMONGER
+
+===== Page 26 =====
+
+Food Symbols
+
+active Captain to drop a portion of his
+The amount he drops depends on
+% if his Posture is Passive, 50% if it is
+
+appear on the Close-Up Map as a small sack of grain.
+Animals, enemy armies, and passers by will not take
+his food since it is hidden from everyone except you
+and your followers. But if food is dropped in a
+settlement, it will be added to that settlement’s food
+supply. Note: Don’t drop your food into the sea! It
+will be unrecoverable.
+
+Supply Food
+
+to anywhere that is an object. The selected Captain
+looks for a nearby settlement that is friendly. He will
+then go there, drop food (the amount he drops is
+determined by his Posture, just as described in the
+Get Food command above), go to the nearest
+friendly location that has food, and get more food
+(again, the amount he gets depends on his Posture),
+and return to the place to be supplied to drop more
+a food. This process will be repeated until he gets
+||.» dierent orders.
+
+POWERMONGER
+
+===== Page 27 =====
+
+Invent Symbols
+
+Invent
+
+something new and wonderful
+Workshops are found only in se
+rtheless
+
+in\ id in 4 p ular villa ends on raw
+materials are available, the occupation of certain
+locals, and the Posture of the Captain involved. See
+separate Invent section for more details.
+
+Equip Invention
+
+equips either inventions you have ordered to be
+made or objects carelessly left behind by their
+previous owners. To equip an Invention you have
+ordered to be made, click the Equip Invention
+symbol and then on the settlement where the
+invention was created; to equip found objects, click
+
+on the object itself. Found objects and inventions
+
+are identical, i:e., boats, swords, bows, etc. The
+Captain’s Posture determines how much is picked
+up: 25% if Passive, 50% if Neutral, and 100% if
+Aggressive Note that picking up too much will slow
+down a Captain. |
+
+Drop Invention
+
+drops any surplus stock. The Captain’s Posture
+determines how much gets dropped: 25% if Passive,
+50% if neutral, and 100% if Aggressive. Surplus stock
+is shown as what the Captain is carrying when you
+click on his Medals, and is defined as unequipped
+weapons or pots, but never equipped weapons or
+boats. These may later be picked up by the Captain
+who dropped them or by another Captain using the
+Equip Invention command (as long as you don’t
+drop them in the sea, since they're gone forever if
+you do). They will not be picked up by passers by or
+
+POWERMONGER
+
+===== Page 28 =====
+
+enemy armies. Ifyou drop them in a settlement they
+will be added to that settlement’s stock.
+
+pons, pots, etc.) with a settlement in
+od, items or stock. Every item has a set
+that will be modified if your Captain is
+ing, and bartering skill is in turn
+innate aperessiQn: adhe ate
+
+ade for a cannon ee a Passive
+| while a epal Captain will fall
+
+cannon, 1, while a neutral Captain will Mee a boat to
+a cannon. Note that the weapons your army is using
+or carrying willl not be traded.
+
+Make Alliance
+
+with another tribe. This requires the payment of
+tribute from your excess stock (similar to Trade
+above ). Once an alliance has been made, you will
+have access to that tribe’s settlements and resources,
+and they will likewise have access to yours. An
+Alliance will be broken by a violent act taken against
+that ally. And if an offer of alliance is rejected, you
+loose the tribute you offered, and you may become
+the object of an attack.
+
+POWERMONGER 25
+
+ie
+
+===== Page 29 =====
+
+Query Symbol
+
+Query
+eee up information about
+
+mer the window fas to be closed Betas clicking
+another object). To move a window, just place the
+On-Screen Pointer over any edge of the Query
+window, just place the On-Screen Pointer over any
+edge of the Query window, hold down the left
+mouse button, and drag the window to any part of
+the screen.
+
+There are three small icons that appear in Query Windows; some
+windows include all three, while others contain only one or two, but the
+icons always work the same way in every window. Click with the left
+mouse button on the Tick Mark Icon in the upper right hand corner of
+all Query Windows to cancel the window. Click with the left mouse
+button on the Rectangle Icon to update information in the Query
+Window; this is a valuable icon to click on frequently if you have a
+Querry Window up during a battle. And click with the left mouse button
+on the Eye Icon the centre the Close-Up Map on the subject of the Query
+Window.
+
+Different objects reveal different ranges of information when they are
+the subject of a Query command:
+
+Buildings/Settlements Building type; setthement; names of the —
+building’s two occupants (there are never more than two, husband and
+wife); to which ruler the settlement belongs: Harold II, Jayne III, or Jos
+XVIII; the nearest forest; how much food there is in the entire
+settlement; how many men there are in the settlement and what stock
+(if any) the settlement has.
+
+26 POWERMONGER
+
+===== Page 30 =====
+
+<ind of tree it is, whether there are any =
+
+ae
+
+highlighted and active until you cancel it
+
+===== Page 31 =====
+
+other Captains along the way; he can
+: the settlements they rule. As they are
+recruited, the | appear by the first Captain’s side, and they are his to
+
+Status Bars Three bars appear above the head of every Captain under
+your command, displaying his current food supply, men, and strength.
+The top blue line indicates food, the middle red line signifies men, and
+the bottom green line stands for strength. Keep an eye on the green
+strength line; when it is gone, so’s the Captain. And when the First
+Captain’s strength line comes to an end, so does the game.
+
+The Selection Arrow This arrow bobs up and down over the head of the
+currently selected Captain. Click on a Captain to select him; he will be
+the Captain who will receive the orders you give.
+
+The Medals Click on the medals hanging on a Captain’s chest to display
+an information box about him, even if he is not the currently selected
+Captain. Clicking on medals will tell you the Captain’s name, current
+job, aggression level, loyalty level, Strength, Speed, the amount of food
+he has, how many men he has, and how much stock Gif any) he is
+carrying. This information box functions just like a Query Box (see
+
+Query Symbol).
+
+POWERMONGER ay
+
+===== Page 32 =====
+
+Strength
+
+Strength is the indication of how healthy people in the l
+PowerMonger are. For Captains, strength is displayed in two ways. Fi
+as the green line in the Status Bars. Anda second, int
+
+g that will reduce his Strength. If he is :
+will eventually heal back in camp. If his Strength is reduced to Dead, his
+stay on this planet is over (unless you Replay The Map or Start New
+Conquest). :
+
+More About Posture
+
+A Captain's innate aggressica is indicated by his position at the table.
+The Captains to the left are more aggressive than the Captains on the
+
+right, but any Captain’s Posture can be modified by using the Posture
+icons.
+
+A Captain's actions, or even the actions of his troops, are not always
+predictable when his Posture is set at the Aggressive or Passive
+extremes. Ifa Captain is camped near a battle, even a battle that does not
+immediately concern him, he may join in the fray if he is in an aggressive
+frame of mind, or he may run away ifhe is feeling passive. An Aggressive
+~ Captain might kill someone who does no more than cross his path when
+that Captain is moving from place to place. Obviously, any of these
+actions can be avoided by changing the Captain’s Posture. But you might
+be too late unless you are paying close and careful attention.
+
+Inventions 3
+You won't find everything you need just lying around on the ground or
+in the settlements you conquer. Sometimes it pays to use your head
+
+instead of your sword to get what you need. This is where inventions
+come in. —
+
+The Invent command tells a Captain to have his men or the citizens ofa
+friendly settlement invent something. You can only invent in a village
+with a workshop; as mentioned previously, these show up as yellow
+
+POWERMONGER
+
+===== Page 33 =====
+
+a = - Sans
+
+dots in settlements in the Overview Map when it is in Object Mode.
+What the settlement produces depends on four factors: The Posture of
+the Captain carrying out the order, the available resources, the presence
+of a merchant and the occupations of certain locals.
+
+nerally produces heavy weapons like cannons
+
+or pikes. Pa
+these, of ¢
+
+est on low land near water will usually
+own that is on high ground away from any
+1s or cannons. .
+
+: wood and steel. Forests are a good place to ae
+2m forests. But keep an eye on people ace
+n strip a forest clean, and forests take a ;
+
+back. on’t leave the Invent command active
+
+long time to grow back
+without keeping track of what people are doing off in the woods. Wood
+can be used to make pikes, bows, ploughs, catapults, and, if you're near
+water boats.
+
+Steel is harder to come by. You have to construct a mine to extract the
+raw ore to forge into steel, and the mine will usually have to be situated
+at a high altitude. Mine construction is a time-consuming process, and
+any settlement that has a mine will be an inventing target; they’re easy to
+spot since they’re all marked by a tower. If you are not near any useful
+raw materials when you try to Invent, you'll produce pots from the local
+mud. Pots are valuable mainly for trade. They won’t help you during
+battles, of course, but at least you'll have a handsome and sturdy
+receptable to bleed into after you’ve had the stuff beaten out of you.
+
+Note: When people in a settlement are inventing, they can’t get food or
+other supplies. And if they run out of food, they'll gradually stop
+inventing and take up producing food; ie., they can still invent ifenough
+people are producing food.
+
+The table below lists what Posture is needed to invent particular items
+plus other conditions that might be necessary:
+
+===== Page 34 =====
+
+a
+
+Item Posture
+
+Catapult Aggressive posture & merchant in settlement
+Cannon Aggressive posture & merchant in settlement
+Sword Near a mine & no merchant in settlement
+Pikes Neutral posture
+
+Bows Aggressive posture
+
+Boats Passive posture & fishermen present
+
+Plows Passive posture
+
+Plots Can be made any time
+
+Equip Invention
+
+Once you've invented something, you probably want to pick it up and
+use it. Or, you might want a loyal Captain and his men to pick up the
+item. In either case, use the Equip Invention symbol and modify the
+
+Captain's Posture appropriately to pick up your invention by clicking on
+the building in the settlement where the invention was made.
+
+You can also equip inventions you find. Often after a battle, weapons
+will be left on the battlefield. You can equip these the same way you
+equip things made in workshops, by clicking on the Equip Invention
+symbol and then on the weapons. You can also equip boats you find or
+that belong to your settlements. But since settlements on bodies of
+water or rivers depend on fishing for part of their food, if you take away
+
+~ their boats their production of food will go down.
+
+If the invention you equip is a hand weapon, empty-handed troops are
+equipped first. The Captain is equipped first of all, next the First
+Captain's original followers, and, finally the other troops.
+
+If troops have more than one kind of hand weapon to select from when
+they equip, they will choose weapons in the following order: Bow first,
+then sword, then pike. In camp, holders of different weapons will sit
+
+_ different concentric circles around the Captain and the campfire.
+
+Anything other than equipped weapons or boats is considered to be |
+carried as stock by the Captain and to be used as trade or for making —
+alliances. The more stock a Captain has, the slower he will travel, so be
+
+careful not to overload him. (The only excess items that won't weigh _
+him down are pots.) : :
+
+me 32 POWERMONGER —
+
+===== Page 35 =====
+
+i. What is the object of t
+
+To gain control of the settlements and armies in a territory
+through diplomacy or conquest. When a significant portion of
+the population of a territory are under your control, and all the
+gold in the Conquest Balance is on your side, the territory is
+yours. 3
+
+2. What do I do first?
+
+Become familiar with the command symbols and how they
+function in the game and how maps work: Pay particular attention
+to the commands that move your forces around the maps, as well as
+the commands that manage your resources. You should probably
+play several practice games to familiarize yourself with the
+commands and the maps.
+
+3. How can I best prepare myself for a battle?
+
+A Make sure the size of your army matches or exceeds the
+number of people in the town you intend to capture.
+
+B_ Ifyou have a subordinate captain who has an army, send them
+into battle before your main army. This will reduce the number
+of casualties your main army will suffer, divide the enemy
+forces, and give you a chance to gauge the enemys’ aggression
+level. ;
+
+— POWERMONGER 33
+
+===== Page 36 =====
+
+C Do not go and decimate an entire settlement eve
+know they will be an easy victory. You will usually w.
+at least part of the population behind to produce f
+inventions, and conscripts for you.
+
+Make sure you have a sufficient amount
+Captain is in Fit con Ww 700d $
+
+Equip your First Captain and his army with the best weapons
+available. This will greatly enhance your chances of winning
+battles.
+
+F Taking over the closest settlement is not always the best thing
+to do. Survey the other settlements and choose one that will
+benefit you and your army. Some settlements have better
+Strategic positions than others, and some are richer in
+resources, ie. food, population and weapons.
+
+4. How can I tell if an invention I have equipped or traded for is my
+
+possession?
+
+Check the inventory of the settlement, shop, etc, where the
+invention was located; then click the Captain who tried to equip
+the invention (select his medals), or the individual soldiers in the
+Captain's army. Ifthe invention still appears in the inventory of that
+location, and does not appear in the Captain’s or any of the soldier’s
+inventories, you have not successfully equipped the invention.
+Change your Posture level and try again.
+
+5. Once the Balance is tipped in my favour in a particular territory,
+
+must I retire from that territory, or can I continue
+PowerMongering there?
+
+You can continue to adventure in any territory after you have
+conquered it as long as your First Captain is not killed. In fact, doing
+
+SO is a good way to try out different strategies before moving on toa
+more difficult territory.
+
+I sometimes see an enemy hiding or walking around in my
+settlement, once I even saw an enemy carrier pigeon flying into
+
+POWERMONGER
+
+===== Page 37 =====
+
+You have a spy, or even worse a traitor in your midst. He or she is
+probably communicating vital economic and military information
+Don’t take kindly to these people; simple
+
+‘ god for them.
+
+your soldiers well fed, and battle
+supply, or your men 1 will say good-
+
+hands on “onteane . yi ‘ How do I get my Captain to distribute
+these items? —
+
+The best place to do this is in a settlement.
+a. Make camp in a settlement.
+
+b. Choose the Drop Invention Icon, make sure you have
+the appropriate Posture level set.
+
+c. Now these items are part of the settlement’s stock.
+
+. Choose the Equip Invention Icon, again make sure you
+have your Posture set accordingly.
+
+e. The Captain will now redistribute all the stock he picks up to
+the soldiers that need them, and keep what is in excess for
+trading purposes.
+
+This procedure can also be performed outside of a settlement,
+but not as quickly.
+
+9. When am I crossing through terrain that is near a body of water,
+or there is a body of water in my direct path, my soldiers
+sometimes lag behind and get lost. This is not good when I am
+
+POWERMONGER >>
+
+===== Page 38 =====
+
+on my way to glorious battle and my own men shov
+Should I send them back to marching and fitn ess train
+
+Unfortunately, not all of your soldiers are as smart as.
+ore followers. If you do not want to
+
+ek .
+Seether can i speed them up?
+
+Click on the Captain’s medals and check the speed. If you are
+loaded up with a huge weapons cache or trading items, simply use
+the Drop Invention Icon, update the window, and check the Speed
+again. It should have gone up. Speeds above 30 are generally o.k.
+for most territories.
+
+11. Can -I take a catapult or cannon on a boat and transport it
+across the sea?
+
+Yes, any weapon you have equipped can be taken out on a boat.
+You can even fire on enemy settlements from offshore.
+
+Can I divide my army and do complex attack formations?
+
+No, the only way you can send in multiple armies into battle is if
+you have one or more Surbordinate Captains. The soldiers with
+hand weapons will engage the enemy face to face, while the
+soldiers with projectile weapons will fight from afar.
+
+What are the pros and cons of forming an alliance with another
+tribe?
+
+The Pros: Forming an alliance will give your army stability in the
+form of being able to trade for better weapons, as well as having an ©
+ample supply of food. In some territories, having a safe place to
+retreat to and gather your wits about you will determine your
+outcome in hostile territory.
+
+The Cons: If the tribe you have formed an alliance with takes over,
+or already controls a large part of the territory, you will eventually
+have to break the alliance and take the tribe on in battle. If he has
+
+POWERMONGER
+
+===== Page 39 =====
+
+mh lots of exploration, and it will take some time
+7ith and effectively use every option this game has.
+
+POWERMONGER
+
+===== Page 40 =====
+
+Published by Imagineer Co., Ltd. JAPAN
+2-7-1 Nishi-Shinjuku 15th Floor
+Shinjuku-Ku, Tokyo
+
+163-07 Japan
+
+Tef:-81-3-33429191
+
+Fax: 81-3-3342-9194
+
+© 1989, 1990, 1991, 1992 Bullfrog Productions Ltd. All Rights Reserved.
+PowerMonger is a registered Trademark of Electroncic Arts.
+
+This product is guaranteed by the Publisher. In case of difficulty,
+please contact the distributor.
+
+Distributed in the U.K. by:
+
+Anco Software Ltd.
+
+Unit 7, Millside Industrial Estate
+Lawson Road, DARTFORD
+Kent, DAi 5BH
+
+Tel: 0322 287782
+
+Fax: 0322 293422
+
+38 POWERMONGER
+
+===== Page 41 =====
+
+LICENSED TO
+
+imagineer
+
+2-7-1 Nishi-Shinjuku, 15th Floor, Shinjuku-Ku, TOKYO 163, Japan Tel: 81-3-3342-9191 Fax: 81-3-3342-9194
+
+DISTRIBUTED IN THE U.K. BY ANCO SOFTWARE LTD.
+7 MILLSIDE INDUSTRIAL ESTATE, LAWSON ROAD, DARTFORD, KENT, DA1 5BH, TEL: 0322 287782.
+
+- PRINTED IN JAPAN
+
+ee

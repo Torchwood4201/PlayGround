@@ -1,0 +1,1177 @@
+# Shadowrun
+source: https://archive.org/details/snes_manual_archive
+pdf: Shadowrun (USA).pdf
+region: USA
+pages: 20
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+LAIBROOd NOLLONRELS NI
+
+===== Page 2 =====
+
+ttle extra There’s alway
+
+Be) st... hey, chummer—need a y
+room for another runner in the spra It's
+@ nasty world out there and Shadowrunne
+
+gets ed. Still Interested? Ther around—things are about ta
+
+heat up, and there's ple
+
+ty of nuyen waitin’ where the ac
+
+Welcome to the streets of Seattle, more than 50 years in the future. A
+ed in the last half-century. Most of it
+
+¢ of small citi use the giant Megacc
+
+the most part, live a pretty safe and
+The real acti c place on the streets belo in the shadows. For
+
+the right amount of nuyen, you can buy adventurers-for-hire, called
+
+Shadowrunners, to do anyth
+
+The Shadowrunners range from cutting-edge cyborgs to spell-casting
+mage > of whom aren’t'even human. In fact. Metahumans have
+played a huge part in this world since the “awakening” years ago, when
+trolls, dwarves, and orcs beg:
+
+All this results in a con
+
+that the world
+
+magical beings such as elve:
+resurface after lying dormant for centurles
+hnology. a bala
+
+0 maintain.
+you take the role of Jake Armatage, a runner with
+no must put the pieces of his own mystery together to stay
+
+You'll find help along the w st put your trust in
+
+anyone—you can never tell who's already been bought and pald f
+
+===== Page 3 =====
+
+Starting the Game
+
+1. Turn off your Super Nintendo Entertainment System by
+Names of Controller Parts sliding the POWER bar away from the Game Pak slot.
+
+Plug ect
+Game Controls Summary lug a game controller into your system.
+
+Main Game Menu » Insert the Shadowrun Game Pak, label facing front, in the
+
+Playing Shadowrun system slot.
+
+or Ae 3. Tum on the system by sliding the POWER bar toward the
+Inventory Sub-Menus Game Pak slot.
+
+Using Weapons and Armor . When the title screen appears, you may either wait for the
+Cisubat and Shudowruiness j ARCOME ee appear, or press START to access the
+Party Status Screen
+Using Your Magic
+Stalls NAMES OF CONTROLLER PARTS
+
+Resting and Regaining Strength
+
+Spending Karma
+
+Dialogue Windows
+
+Keywords
+
+Using the Vidphone ;
+
+The Matrix aay
+
+How to Play the Matrix Game
+
+ART
+
+DOWN Contra Pad BUTTON Y BUTTON B BUTTON
+
+===== Page 4 =====
+
+CONTROL PAD
+
++ Moves your character in eight directions.
+
++ Positions the ACTION GLOVE, the MAGIC GLOVE and the CROSS-HAIR.
++ Positions selection arrow beside options on all game menus.
+
+X BUTTON
++ Brings up the SPELL GLOVE while on the MAIN GAME SCREEN.
++ Casts the currently selected spell where SPELL GLOVE Is pointed.
+
+Y BUTTON
+
++ Directly brings up the ITEMS INVENTORY sub-menu on the STATUS SCREEN]
+
+A BUTTON
++ Brings up the weapon CROSS-HAIR while on the MAIN GAME SCREEN.
++ Fires the currently selected weapon at the target in the CROSS HAIR
+
+B BUTTON
+* Brings up the ACTION GLOVE while on the MAIN GAME SCREEN,
++ Activates currently selected action from the ITEM ACTION window.
+
+LEFT BUTTON
+
++ Directly activates EXAMINE action where the ACTION GLOVE Is pointed.
+
++ SHORTCUT: flips to the previous page of KEYWORDS while viewing the
+VOCABULARY INVENTORY sub-menu
+
+RIGHT BUTTON
+
++ Directly activates OPEN on the door the ACTION GLOVE is pointing to.
+
++ SHORTCUT: flips to the next page of KEYWORDS while viewing the
+VOCABULARY INVENTORY sub-menu,
+
+START BUTTON
+* Press to bring up the STATUS SCREEN while on the MAIN GAME SCREEN.
++ Selects options while on the MAIN GAME SCREEN and OPTIONS screens.
+
+SELECT BUTTON
++ Brings up the PARTY STATUS SCREEN while on the MAIN GAME SCREEN.
+
+t
+
+a n/n
+
+START NEW GAME
+
+To start a new game, use the CONTROL PAD to choose START NEW
+GAME from the TITLE SCREEN and press the START BUTTON
+
+START SAVED GAME
+
+Shadowrun has a battery back-up allowing you to save up to two games.
+atone time. To start from a saved game, choose START SAVED GAME
+and press the START BUTTON to bring up the RESUME SAVED GAME
+
+SCREEN. Now choose your saved game using the Control Pad and press
+the B BUTTON to begin play on that game.
+
+If there is no SAVED GAME stored in a save game slot, the text will
+appear dim. If there is a SAVED GAME stored in the slots, that game will
+appear highlighted.
+
+OPTIONS
+
+Under OPTIONS, you can program your control pad settings and back-
+ground sound effects, and choose to play in stereo or monophonic sound,
+
+CONTROL TYPE: A / B
+
+Use this option to select your control type:
+
+* CONTROL TYPE A ; Left, Right, Up, Down on the CONTROL PAD moves
+your character diagonally on the screen
+
+* CONTROL TYPE B : Diagonal on the CONTROL PAD moves your
+character diagonally on the screen.
+
+===== Page 5 =====
+
+STEREOPHONIC /MONOPHONIC
+
+Use this option to select STEREO or MONO sound output. You only need
+to select MONOPHONIC if your Super Nintendo Entertainment System has
+a stereo video connector and your TV or monitor only has a mono
+connector.
+
+B.G. MUSIC : FULL / EVENT / OFF :
+The following is a list of the available background music settings you have
+to choose from.
+
++ FULL: Background music plays at all times.
+
+- EVENT: Background music only plays during Important events, or
+when you talk to certain people.
+
++ OFF: No background music plays.
+
++ EXIT; EXITS back to the TITLE SCREEN
+
+Wednesday, 8:45 a.m. Officially you don’t exist. You awake—head
+throbbing—in a body drawer at the city morgue. Disoriented and
+confused. . . you've got to pull it together and unravel a deadly puzzle of
+mystery, murder and mayhem. You alone can shatter the Mexaplexes
+with the data locked inside your brain. Survival depends on your wits and
+
+your wayward companions, But only high-caliber firepower can help you
+avoid a retum trip to the morgue.
+
+MAIN GAME SCREEN
+
+The MAIN GAME SCREEN Is where all the
+action takes place.
+
+Moving
+
+Use the CONTROL PAD to move along
+streets, through doorways, down stairs,
+and into buildings and rooms.
+
+Tags
+
+The TAG BOX appears in the lower right comer of the screen to identify
+the item or character your ACTION GLOVE, SPELL GLOVE or CROSS HAIR
+fs positioned on. In order for an action or spell to have any effect, the TAG
+BOX for the item or character must appear.
+
+===== Page 6 =====
+
+Action Glove
+
+This yellow glove is used to Identify the
+specific characters and items you wish to
+examine, talk to, pick-up or manipulate in
+some way. To bring up the ACTION
+GLOVE, press the B BUTTON. To cancel
+the ACTION GLOVE, press the B BUTTON
+again.
+
+Spell Glove
+
+This gray glove Is used to target the
+character or area you want to cast a spell
+on. To bring up the SPELL GLOVE, press
+the X BUTTON. To cast the currently
+selected spell, press the X BUTTON again.
+
+If you do not
+have magic or do
+not havea spell
+
+selected, the message ‘NO SPELL SELECTED’ will
+
+appear. Press the X BUTTON again to remove
+this message and continue. (see page 23 for
+more Information on how to use magic).
+
+Cross~Halr
+
+The CROSS-HAIR is used to target enemies when
+firing a weapon. To bring up the CROSS-HAIR,
+press the A BUTTON. (See page 16 for more
+information on how to use weapons)
+
+ee
+
+a
+
+ITEM ACTION WINDOW
+
+The ITEM ACTION WINDOW contains
+various verb commands you can use with
+specific characters or items.
+
+Doors
+
+Many of the people and items in Shadowrun
+
+can be found behind closed doors. To open
+
+a door, press the B BUTTON to bring up the
+
+ACTION GLOVE, position it over the door
+until the tag box appears, then press the B BUTTON again to bring up the
+ITEM ACTION WINDOW. Now select OPEN from the ITEM ACTION
+WINDOW to open the door
+
+LOCKED DOORS require that you find the correct key to open them. Once
+you have a key, you can bring up your ITEMS INVENTORY, choose the key
+and use it on the door,
+
+items
+In order to complete your quest successfully, you will need to pick up and
+use the various items you find along your way.
+
+To EXAMINE and PICKUP an item, call up the ACTION GLOVE and position
+it over the item, press the B BUTTON to bring up the ITEM ACTION win-
+dow, choose the appropriate action word, then press the B BUTTON to
+enter that command.
+
+Money (Nuyen)
+
+To buy the various weapons and items, and to hire the necessary people to
+complete you quest, you will need to gather a lot of cash. Nuyen, the cur-
+rency of the day, can be found in many places, for example when an enemy
+is defeated, in many cases they will leave behind nuyen which you can pick
+
+up using the ACTION GLOVE.
+
+===== Page 7 =====
+
+BUYING & SELLING ITEMS
+In order to improve your chances of survival, you will need to take
+advantage of any items that are for sale.
+
+Should you find interest in an item, you can EXAMINE it from the ITEM
+ACTION window to leam more about it before buying,
+
+To buy an item, you will have to ASK ABOUT... something in your
+VOCABULARY INVENTORY in order for the seller to offer you the item for
+sale. When someone offers you an item, they will ask you whether you
+want to buy it. To buy the item, choose YES from the YES/NO requester
+box and press the B BUTTON.
+
+To sell an item to a buyer, bring up the ITEM ACTION window, choose
+GIVE from the ITEM ACTION window and then move the ACTION GLOVE
+over the character you wish to sell the item to,
+
+If the character agrees to buy it from you, he/she will offer you money for
+it. This amount Is not negotiable. To sell the item choose YES from the
+YES/NO requester box and press the B BUTTON.
+
+People
+
+There are many characters in the game you should talk to. Some won't
+give you the time of day, while others will provide you with very
+important clues (see TALKING TO PEOPLE on page 30).
+
+Life Meter
+
+Located in the top right comer of the screen is your LIFE METER, The
+length of this meter is equal to your BODY level. The BODY level dictates
+the maximum STAMINA points the player can have. The LIFE METER
+shows the amount of STAMINA POJNTS you have remaining.
+
+Each time you suffer a hit from an enemy, you lose STAMINA POINTS.
+When your STAMINA POINTS fall to 0, you will lose your life. For an exact
+count of how many STAMINA POINTS you have remaining, press the
+START BUTTON from the MAIN GAME SCREEN to bring up the STATUS
+SCREEN or the SELECT BUTTON to bring up the PARTY STATUS SCREEN
+
+When you press the START BUTTON, the
+STATUS SCREEN appears. The STATUS
+SCREEN shows your condition and allows
+you to access your various inventory items.
+
+The main area of the screen lists your
+ATTRIBUTE LEVELS, the amount of KARMA
+and MONEY you have, and which SPELL,
+WEAPON and ARMOR you are currently
+using (if any).
+
+All INVENTORY items are accessed through the INVENTORY menu. To
+access an INVENTORY sub-menu, use the CONTROL PAD to move the
+arrow to the sub-menu you want to view and press the START BUTTON.
+The INVENTORY sub-menu will appear listing all the items you have for the
+category you chose. If no items exist in the Inventory sub-menu, the arrow
+will automatically return to EXIT.
+
+To select an item in the INVENTORY sub-menu, use the same procedure
+described above. To EXIT the STATUS SCREEN and return to the MAIN
+GAME SCREEN, choose EXIT from the STATUS SCREEN menu or press
+SELECT to abort out of the STATUS SCREEN.
+
+The following Is a list of various Items in your Inventory.
+
+BODY
+Ranges from Level 0-20. Begins on Level 3. The maximum number of
+STAMINA points you can have Is controlled by your BODY level. For
+
+| example, if you have BODY strength of 7, you can regenerate your
+
+STAMINA to a maximum
+of 70 points.
+
+===== Page 8 =====
+
+STAMINA is the number of hits you can take. Each hit you suffer takes off a
+varying number of STAMINA points. When your STAMINA reaches 0, you
+will lose your life.
+
+MAGIC
+
+Ranges from 0 - 20. Begins on level 0. The maximum number of SPELL
+POINTS you can have is controlled by your MAGIC level. For example, if
+you have MAGIC of 8, you caf regenerate your SPELL POINTS to a
+maximum of 80 points
+
+SPELL POINTS are used to cast magic. Even if you have spells, you must
+have enough SPELL POINTS in order to cast a spell
+
+STRENGTH
+
+Ranges from 0.- 6. Begins on level 0. Your STRENGTH level controls
+which WEAPONS and ARMOR you are able to use. Although you can
+carry any type of WEAPON or piece of ARMOR, you can only USE a
+WEAPON or WEAR a type of ARMOR if you have the strength to do so.
+The various WEAPONS and ARMOR you can obtain and the STRENGTH
+they require to be used are listed on page 21.
+
+CHARISMA
+
+Ranges from 0 - 6. Begins on level 3. Your CHARISMA level controls how
+many Shadowrunners you can have working for you at any one time. At
+the maximum level of 6, you can hire up to three Shadowrunners to help
+you on a run.
+
+KARMA
+Karma is magical energy you can spend in order to upgrade your attribute
+and skill levels.
+
+MONEY (NUYEN)
+
+This shows the amount of money you currently hold. This money is shown
+as nuyen, the currency in the year 2050. (See Page 9 for Information on
+how to collect money).
+
+j
+|
+[
+!
+t
+
+ao btenrscsett
+
+SPELL
+
+This shows the spell currently selected.
+WEAPON
+
+This shows the weapon you are currently using.
+ARMOR
+
+This shows the armor you are currently wearing. For ARMOR to be
+effective, you must wear (or USE it, as described in the next section) it and
+not just carry it in your ITEMS INVENTORY.
+
+===== Page 9 =====
+
+The sub-menus in the STATUS SCREEN provide access to information
+regarding the various items you are carrying. These sub-menus are
+divided into the following INVENTORY menus
+
+ITEMS MENU
+
+The ITEMS INVENTORY sub-menu lists all the items you have acquired
+during the game. Depending on the item, you can either EXAMINE, GIVE
+or USE it by calling up the ITEM ACTION WINDOW and selecting the
+corresponding verb.
+
+The MAGIC INVENTORY sub-menu lists all
+the magic spells you have learned during
+the game
+
+The LEVEL of each spell is listed to the right
+of the spell, The number of SPELL POINTS.
+required to cast the spell is indicated in
+brackets. From this menu, you can choose
+your default spell assigned to the X
+BUTTON.
+
+WEAPON MENU
+The WEAPONS INVENTORY sub-menu lists all the weapons you are
+currently canying. (See page 17 for weapons detail.)
+
+ARMOR MENU
+The ARMOR INVENTORY sub-menu lists all the armor you are currently
+carrying. (See page 17 for armor details.)
+
+SKILLS MENU
+
+The SKILLS INVENTORY sub-menu lists all the skills you have leamed dur-
+ing the game. The level of experience for each level is listed alongside
+each skill. (Increasing the level of a spell increases its power or the period
+it stays active, and increases the number of spell points it takes to cast the
+spell. You begin the game with level 1 FIREARMS and COMPUTER skills).
+
+You cannot choose skills from the SKILLS INVENTORY sub-menu. Alll skills
+are active as soon as you learn them. But, you can improve your skills by
+
+spending Karma in the SLEEP MENU (for more information see SPENDING
+KARMA on page 28).
+
+CYBER INVENTORY
+The CYBER INVENTORY
+sub-menu lists all the
+cyber equipment you are
+currently carrying. You
+cannot choose cyber
+items from the CYBER
+INVENTORY sub-menu.
+All cyber equipment is
+operational at all times
+from the moment you
+have it fitted.
+
+===== Page 10 =====
+
+USING YOUR FIREPOWER
+
+To use a weapon, first select It from the WEAPON INVENTORY sub-menu
+in the STATUS SCREEN
+
+To fire a weapon, press the A BUTTON to bring up the CROSS-HAIR,
+position it over the enemy so that their TAG BOX appears and repeatedly
+press the fire BUTTON. Your weapons (apart from grenades) have
+unlimited ammunition.
+
+You can find a wide array of weapons and armor, each with Its own advan-
+tages. You can carry any weapon or armor in the ITEMS INVENTORY at
+any time, although you will not be able to use it until their STRENGTH
+
+ATTRIBUTE Is equal to or greater than your STRENGTH required of the item.
+
+USING YOUR ARMOR
+
+To use a piece of ARMOR, you must select it from the ARMOR
+INVENTORY SUB-MENU in the STATUS SCREEN. The ARMOR currenily in
+use (if any) is shown on the MAIN STATUS SCREEN next to ARMOR.
+
+To wear a piece of ARMOR, choose it from the ARMOR INVENTORY and
+press the START BUTTON.
+
+When you select a WEAPON or piece of ARMOR, it will automatically
+replace any WEAPON or ARMOR previously in use. The WEAPON or
+ARMOR previously in use can be selected again from the appropriate
+STATUS SCREEN SUB-MENU.
+
+ae 1
+
+It is essential you become weil armed and well protected in order to attack
+and defend against the many enemies you will encounter in the wortd of
+2050. Wearing suitable ARMOR can significantly reduce the number of hits
+you suffer
+
+The following Is a list of the various weapons/armor and their
+corresponding strength levels:
+
+‘WEAPON NAME STRENGTH ARMOR STRENGTH
+
+| Zip Gun Leather Jacket
+
+Beretta 101T Pistol Mesh Jacket
+
+Colt American L36
+
+| Pistol Full Concealable
+
+Bullet Proof Vest
+
+} Grenade Partial Body Suit
+|
+
+Ares Viper Heavy Pistol Full Bodly Suit
+
+Fichetti Light Pistol
+Uzi I SMG
+
+Defiance T~250
+| Shotgun
+
+| Ruger Warhawk Pistol
+
+| HK227 Assualt Rifle
+
+AS& Assualt Cannon
+
+===== Page 11 =====
+
+A vital part of surviving in Shadowrun is performing well in combat
+Although certain hazards exist almost on every street comer, when there
+is a Shadowrun to be performed, you will need more than just the fire-
+power—you will need the help of Shadowrunners.
+
+SHOOTING INNOCENT PEOPLE
+
+You should contain your attacks to combat situations. If you shoot
+characters that are not posing a threat to you, your spirit guide will wam
+you. If you continue shooting innocent people, an additional message will
+appear and one point of Karma (if you have any Karma) will be deducted.
+
+SHADOWRUNNERS
+There are three types of “Shadowrunners’ ready for hire—each with his
+
+own size, strengths and weaknesses.
+
+Mercenaries
+Mercenaries are always ready for combat and they're usually well armed
+and wearing some decent armor.
+
+Deckers
+Deckers are primarily useful in handling trips into the Matrix. They also
+usually carry a firearm and armor.
+
+Magic Users
+
+Magic users rarely carry a firearm—they cast POWERORBS by default.
+With Magic Users, you can tap into their SPELL POINTS and SPELL
+INVENTORY and cast some spells they may not have the knowledge or
+SPELL POINTS to use.
+
+HIRING SHADOWRUNNERS
+
+To hire a Shadowrunner, you must obtain and use KEYWORDS in your
+VOCABULARY INVENTORY In order to ask them to join you. Once a
+Shadowrunner has agreed to come on a run with you, they will follow you
+just about anywhere.
+
+There are certain places however, where the Shadowrunners will not enter,
+preferring to stand guard outside for you. When a Shadowrunner leaves,
+he'll indicate that he’s fulfilled his contract and disappear. He'll return to
+where he was first hired, where you can then _re-hire him if you need to.
+
+CONTROLLING YOUR RUNNERS IN COMBAT
+
+When you first enter a screen containing combat, the Shadowrunners will
+spread out and take up vantage points. They will also decide on which
+enemy they will target and begin firing.
+
+While in combat, you can control your actions, and those of the
+Shadowrunners you have hired. Although each Shadowrunner has.
+artificial intelligence controlling where they will stand, who they will attack
+and with what weapon, you are able to force your Shaclowrunner to.
+perform in a certain way.
+
+To control a Shacdowrunner, press the B BUTTON, move the ACTION
+GLOVE over the character you wish to control and press the B BUTTON
+again. An ITEM ACTION window will appear allowing you to perform the
+following actions.
+
+EXAMINE
+
+Allows you to examine the Shadowrunner’s STATUS SCREEN. This screen
+looks similar to your screen, although each Shadowrunner is different.
+Some may not be carrying weapons.
+
+You are also able to look at the SKILLS and CYBER menus of your
+Shadowrunners in order to learn their strengths and weaknesses.
+
+===== Page 12 =====
+
+TALK
+
+To talk to a Shadowrunner, point to them with the ACTION GLOVE,
+choose TALK from the ITEM ACTION window and press the B BUTTON.
+
+TARGET
+
+To make a Shadowrunner TARGET a specific enemy, choose the
+Shadowrunner you require, choose TARGET from his ITEM ACTION
+window and then move the ACTION GLOVE over the enemy you wish
+them to TARGET and press the B BUTTON.
+
+This option only appears in the middle of a combat situation. TARGET
+allows you to force a Shadowrunner to target a specific enemy. This is
+useful if more than one enemy appears on the screen and the one chosen
+by the Shadowrunner Is not the most dangerous one.
+
+The Shadowrunner may have the most lethal weapons of anybody in the
+party, so that it would be more useful to have them attack and defeat the
+enemy causing most damage to your party sooner, rather than having
+your best Shadowrunner attack the weaker enemies.
+
+MOVE TO
+
+To MOVE a Shadowrunner to a specific location, choose the
+Shadowrunner you require, choose MOVE TO in his ITEM ACTION window
+and then move the ACTION GLOVE to the position you want them to
+MOVE TO and press the...
+
+This option only appears in the middle of a combat situation. MOVE TO
+allows you to reposition the location of a Shadowrunner on screen.
+Although Shadowrunners take up vantage points when there is combat on
+the screen, you may wish to move them out of your way or move them to
+somewhere where they are not a visible target to the enemy.
+
+By moving them, you may either cause them to change who they TARGET
+since they may be moved closer to another enemy, or they may be moved
+out of the enemies” sight so that they do not suffer as much damage.
+
+GIVING WEAPONS AND ARMOR TO YOUR SHADOWRUNNERS
+As you improve your weapons and armor in later levels, you may decide
+that instead of trading it in, you'd prefer to give it to some of your
+Shadowrunners who may need it. By providing a Shadowrunner with a
+gun or piece of armor that is better than the one they had, you can
+decrease your combat time and reduce the amount of healing or resting
+required to keep that Shadowrunner alive. You must be sure however,
+that the Shadowrunner you wish to give the Item to has the strength to
+use it.
+
+HEALING RUNNERS
+
+Just as you will lose HIT POINTS during COMBAT, so will your
+Shadowrunners. After each major combat, you will need to check your
+STAMINA level, and that of each of your Shadowrunners, to ensure they
+can stay alive through another combat situation.
+
+To check the status of each of your Shadowrunners individually, you can
+move the ACTION GLOVE over them and choose EXAMINE from the ITEM.
+ACTION window, or you can view a summary of all the members of your
+party including your character by using the PARTY STATUS SCREEN.
+
+If a Shadowrunner’s STAMINA POINTS are close to zero, you may want to
+increase them by HEALING the Shadowrunner. This can be done either
+through your magic or a magic user that was hired.
+
+You may have to go through long combat situations where you might not
+find a bed or be able to retum to one. In this event, it is sometimes wise
+
+te hire a good magic user who has HIGHER MAGIC ability in order to HEAL
+your party SLAP PATCHES can also be used to HEAL your party although
+these must be bought and cannot be regenerated like SPELL POINTS.
+
+===== Page 13 =====
+
+a ea
+
+To bring up the PARTY STATUS screen, press SELECT while on the MAIN
+GAME SCREEN.
+
+When you've hired some Shadowrunners, the PARTY STATUS screen can
+save you time by allowing you to view the STAMINA POINTS and SPELL
+POINTS for all your party members including your own character,
+
+Your Shadowrunners will be listed in the order in which they are following
+you. Ifa Shadowrunner is defeated, the space they occupied in the list will
+be erased and filled by the remaining Shadowrunners.
+
+The PARTY STATUS screen should be checked after combat situations in
+case any member of your party Is close to losing all his STAMINA POINTS
+and is in need of HEALING or REST.
+
+In order to check your own character's STAMINA and SPELL POINTS, you
+may also call up the PARTY STATUS screen when you don’t have any
+Shadowrunners hired.
+
+CASTING SPELLS
+
+You begin the game without any magical ability. Once you have met the
+demands of your spirit guide, you will then be granted magic and be able
+to learn different spells. Your spirit guide will also provide you with clues
+as to what talisman items are required for each spell.
+
+Spells can only be learned once you have collected the talismans required
+to cast them. You must then retum to your spirit guide with the items in
+order to be granted the spell.
+
+When you first learn one of the six spells available, it will appear in your
+MAGIC INVENTORY sub-menu. Next to each spell Is the level of the spell
+and the number of SPELL POINTS It takes to cast the SPELL. Attempting
+to cast a spell when you have insufficient SPELL POINTS will result in the
+message ‘Not enough spell points’ appearing.
+
+The level of a spell is increased by spending Karma (see SPENDING
+KARMA on page 28).
+
+To cast a spell, press the X BUTTON to bring up the SPELL GLOVE,
+position it over the enemy so that their tag box appears, and press the X
+BUTTON again. The same procedure can be followed to cast a protective
+spell on yourself or one of your Shadowrun party
+
+===== Page 14 =====
+
+The following ts a list of various Magic Spells you can obtain.
+
+Heal
+Cures 5 hit points of STAMINA per level.
+
+Armor
+Armor protects you against damage. The time and level depends on the
+level of the spell. You can only have four ARMOR spells active at one time.
+
+Invisibility
+
+The Invisibility spell enables you to become invisible so you cannot be
+tracked by enemies (but you can still be hit). The duration of the
+INVISIBILITY depends on the level of the spell
+
+Powerball
+Powerball is a form of firepower. The strength of the Powerball depends
+on the level of the spell.
+
+Summon Spirit
+
+Summons a servant of your spirit guide who will attack all enemies on the
+screen, The strength of the attack depends on the level of the spell. This
+spell does not need to be targeted at an enemy since it attacks all enemies
+on the screen. You can only cast one SUMMON SPIRIT spell at a time.
+
+Freeze
+
+This spell freezes an enemy in a cocoon of ice. The duration of the freeze
+depends on the level of the spell. You can only have four FREEZE spells
+active at one time.
+
+SPELL LIMITATIONS
+
+You cannot cast an offensive spell on a character that Is not an enemy.
+Other magic users, however, do not have this limitation since they are not
+under the guidance of your spirit.
+
+COMBINING SPELLS
+
+You can combine magic spells for greater effect—you may decide to use a
+FREEZE spell on an enemy before attacking them with an offensive spell
+such as a POWERBALL or a weapon.
+
+You can leam and improve your skills so you can meet your quest. You
+begin the game with two skills (Firearms & Computer), both at level 1
+experience, When anew skill Is learned, it begins at level 1, but can be
+ralsed up to Level 6 using Karma (see Spending Karma on page 28).
+
+The following are the skills you can lear:
+
+LEADERSHIP
+
+In order for the Shacowrunners you hire to stay with you through the
+dangerous times, you will need to be a good leader. Shacowrunners will
+fight more adversaries before terminating their contract if you have good
+leadership skills. Once the Shadowrunner leaves, he/she will tell you
+they've had enough and retum to the point where you hired him,
+
+NEGOTIATION
+The better you are at NEGOTIATION, the less you will have to pay for most
+things in Shadowrun, including the hiring fees of Shadowrunners.
+
+No haggling is involved in NEGOTIATION. If you have this skill, the prices
+for items or hire contracts offered to you will be automatically discounted.
+
+===== Page 15 =====
+
+COMPUTER
+
+The higher your COMPUTER SKILL the less STAMINA you lose when
+attacked by an IC within the Matrix. When combating an IC in the Matrix,
+a higher COMPUTER SKILL also increases your chances of defeating the IC
+(see MATRIX on page 32).
+
+You begin the game with COMPUTER SKILL at level 1.
+
+FIREARMS
+
+Firearms allows you to
+defeat enemies quicker and
+therefore spend less time
+in combat where you can
+lose STAMINA, The higher
+your FIREARMS SKILL, the
+more accurate your aim is
+when shooting enemies.
+Your FIREARMS SKILL will
+begin at level 1 and can
+range from up to 16.
+
+Scattered throughout the city are beds that you can use to rest and regain
+your strength. You can also save a game while you rest
+
+To use a bed, walk over to it, position the ACTION GLOVE over it and
+press the B BUTTON. Choose USE from the ITEM ACTION and press the B
+BUTTON again and you will climb into the bed.
+
+SLEEP MENU
+
+Each time you rest in a bed, the SLEEP
+MENU will appear. While resting, you can
+save your current progress in the game,
+SPEND KARMA or select ‘Exit’ to replenish
+your STAMINA POINTS and SPELL POINTS
+and continue gameplay.
+
+Resting also replenishes the STAMINA
+POINTS and SPELL POINTS of any
+Shadowrunners you currently have hired.
+
+SAVING A GAME
+
+To save a game, select ‘SAVE GAME’ from the SLEEP MENU, then choose
+the save game slot under which you want to save your game and press
+the B BUTTON.
+
+The save-game slots are called GAME 1 and GAME 2, You will hear a
+beep to indicate that your game has been saved.
+
+===== Page 16 =====
+
+Karma is obtained after defeating a certain
+number of enemies. The more difficult the
+enemies, the faster Karma will be awarded.
+
+If you select ‘USE KARMA’ from the SLEEP
+MENU, you will be taken to the KARMA
+INVENTORY screen. This screen allows you
+to allocate any Karma you have been
+awarded during play to increase your
+ATTRIBUTES, SKILLS and MAGIC levels.
+
+The amount of Karma you have is displayed on the top left of your KARMA
+INVENTORY. To allocate Karma, use the CONTROL PAD to point to either
+ATTRIBUTE, SKILLS or MAGIC and press the START BUTTON. A sub-menu
+will appear on the right listing the various ATTRIBUTES, SKILLS or MAGIC
+SPELLS you are able to increase the level of.
+
+Use the CONTROL PAD to choose one and press the START BUTTON to
+increase it by one level. Karma will be automatically deducted. The higher
+the level you wish to increase something, the more Karma points it will
+cost to increase it by a level. For example, if your current FIREARMS skill
+under the ATTRIBUTES menu is 10, it will cost you 10 Karma points to
+Increase your FIREARMS skill to level 11
+
+In order to leam about your past and survive your future, you will need to
+talk to different characters along your quest. While some people will talk
+to you automatically, in most cases you will have to make the first move
+
+To talk to another character, point to them with the ACTION GLOVE and
+then press the B BUTTON.
+
+Now choose ‘TALK’ from the ITEM ACTION window and you will be
+presented with DIALOGUE WINDOWS. The screen divides into two
+areas. The top half contains a picture of the person you are talking to and
+their dialogue lines. The bottom half of the screen contains a your picture
+and your available dialogue options.
+
+===== Page 17 =====
+
+As you progress through the game, you will collect many KEYWORDS.
+KEYWORDS are specific words you will need to ask characters about in
+order to gain Insight into various puzzles in the game.
+
+When you collect more than the VOCABULARY INVENTORY can display at
+one time, an arrow will appear to indicate that there are more words than
+can be displayed in the window.
+
+Instead of scrolling through the window with the pointer, you are able to
+flip between pages of KEYWORDS by using the LEFT and RIGHT BUTTONS,
+The RIGHT BUTTON displays the next window of KEYWORDS, while the
+
+LEFT BUTTON displays the previous window.
+
+TALKING TO PEOPLE
+
+When you first TALK to a person and the DIALOGUE WINDOW appears,
+the character will greet you with an opening remark. You may then
+choose TALK from the available options. This provides you with further
+dialogue lines which are usually general in nature. You should study both
+of these as they may provide KEYWORDS that you can ask this or other
+characters about.
+
+To ask the character about something specific, you should choose a word
+from your VOCABULARY INVENTORY, To choose a KEYWORD to ask a
+character about, choose ASK ABOUT... from your available options. Your
+VOCABULARY INVENTORY sub-menu will then appear. Use UP and
+DOWN on the CONTROL PAD to move through the alphabetically sorted
+KEYWORDS. When you are pointing at the KEYWORD you want to ASK
+ABOUT..., press the B BUTTON,
+
+Early in the game you will need to find a credstick. You must use the
+CREDSTICK on the VIDPHONE in order to operate it
+
+When using the credstick on the VIDPHONES found in various locations,
+you are also able to use the DIALOGUE WINDOWS to talk to the charac-
+ter. These work In exactly the same way as when talking to someone
+standing close to your character.
+
+To use the VIDPHONE, move your
+ACTION GLOVE over it and press
+the B BUTTON. Then choose USE
+from the ACTION WINDOW. If
+you have any phone numbers in
+your dialing directory, these will
+appear in a DIALLING DIRECTORY
+window. Choose the number you
+want to dial by using UP or
+DOWN on the CONTROL PAD
+and press the B BUTTON to begin
+Jialing.
+
+If the person you are calling
+answers, the DIALOGUE
+WINDOWS will automatically
+appear
+
+===== Page 18 =====
+
+In order to successfully complete your quest, you must master the vast
+global communications grid known as the Matrix. Cyberspace, as it is
+called by those who have been there, allows the user to walk around the
+vast communications lines without ever leaving their bodies.
+
+To do this, they must ‘Jack-In’ to an appropriate point using the right
+equipment. A person who Jacks-in to the Matrix is known as a ‘decker’.
+
+Jacking in to the Matrix allows you to open locked electronic doors, down-
+load valuable information and transfer money onto your own credstick,
+
+THE RIGHT EQUIPMENT
+
+To jack-in, you must first be fitted with a DATAJACK. This thin wire linked to
+the users brain, is used to send sensory information to and from the Matrix.
+
+Although It is always dangerous jacking into the Matrix, it is especially so if
+done directly with a DATAJACK. The user will therefore need a cyberdeck.
+
+A Cyberdeck (Matrix Imaging Cybernetic Interface Device) sits between
+your DATAJACK and the Matrix. Although similar to a 20th century key-
+board, a cyberdeck is much more complex. It projects the users persona
+into the Matrix, allowing them to take on a certain form. When you jack-in
+to the Matrix, you appear as a miniature version of yourself.
+
+The Cyberdeck also carries the programs used to attack and defend against
+ICE (Intrusion Countermeasure Electronics), and has storage capacity to
+hold any information downloaded from the grid.
+
+JACK-IN POINTS
+To jack-in to the Matrix, you will need a suitable entry point. In
+
+| Shadowrun, this is any computer terminal that is linked to the GRID.
+
+LAYOUT OF THE MATRIX
+
+When you have successfully jacked in, your persona (a smaller representa-
+tion of your character) will appear standing next to a representation of the
+terminal they jacked in from. The Matrix will appear as one or more areas
+of tiles joined by DATALINES. Your persona Is able to travel along these
+DATALINES to get to other areas,
+
+The bottom left corner of the screen contains two status bars. The top bar
+indicates your current STAMINA level. If this level drops to nothing while
+in the Matrix, you will be ‘dumped’ from the Matrix and Immediately lose
+your life. The bottom status bar indicates your STORAGE CAPACITY.
+
+When this bar reaches full, you will not be able to download any more data
+from a DATASTORE, although you will still be able to attack IC's and CPU's.
+Any attempt to download further data when your storage Is full will result
+in the message ‘ERROR: OUT OF STORAGE.”
+
+NODES
+To get to the areas containing the DATASTORES and CPU's which you are
+after, you must travel along the DATALINES.
+
+At various points along a DATALINE, and especially at junctions, you will
+cross a NODE. In most cases, you will be able to just pass through a NODE
+without any problem. Sometimes, however, a NODE may be locked
+requiring a password to let you through. In order to be allowed through,
+you will need to find the passwords for these NODES. These can be found
+by jacking in through other terminals and from other characters. Once you
+have a PASSWORD, it is stored in your ITEMS INVENTORY as an item. Next
+time you pass through a locked NODE. if you have the right PASSWORD in
+your ITEMS INVENTORY, you can pass tight through.
+
+===== Page 19 =====
+
+When you arrive on a tiled area, you should move carefully. Although
+these areas contain the DATASTORES and CPU's which you are after, they
+also contain hidden IC’s (Intrusion Countermeasure Electronics).
+
+These IC’s are implemented by the owners of the area you have accessed to
+protect their valuable data and computer systems from theft and sabotage.
+
+ATTACKING IC’S
+
+To successfully cross these areas, you will have to avoid these IC’s or
+destroy them. In some cases, you will have no choice but to destroy an
+IC in order to proceed. Fortunately your cyberdeck is running a trace
+program for narrowing down the location of these.
+
+When you stand on a tile, the program scans the surrounding eight tiles
+for these programs. If any IC’s are detected, a message appears in the
+top left corner warning you of the number it has found. As you move
+through the area, by monitoring these messages, you can deduce the
+possible locations of an IC and either avoid them or attack them
+
+To attack an IC, face the tile you think the IC is on and press the B
+BUTTON. If there is no IC present on that tile, combat will fail, You will
+lose STAMINA points and the message “COMBAT FAILED’ will appear in
+the top left corer. The amount of STAMINA points you will lose depends
+on your COMPUTER SKILL level. It is therefore not good strategy to
+regularly attack tiles which do not contain IC’s.
+
+Ifan IC is present anc: COMBAT succeeds, the IC will explode and the
+message ‘COMBAT SUCCESSFUL’ will appear. You will then be able to
+walk over the tile without suffering damage.
+
+If you walk onto a tile containing an IC without destroying it first, you will
+lose STAMINA and be thrown back onto the tile you came from,
+
+You should improve your COMPUTER SKILL level as you progress through
+the game since the IC’s you will encounter later in the game will be of a
+higher strength. Attacking an IC of greater strength may take more com-
+bat attempts to defeat and will cause you to lose more STAMINA POINTS
+for each unsuccessful attempt.
+
+DOWNLOADING INFORMATION FROM DATASTORES
+
+To gain valuable information and money to help you on your quest, you
+should try to download information from DATASTORES. DATASTORES are
+represented as WHITE BLOCKS in the Matrix. Once you have fought your
+way next to a DATASTORE, tum your persona to face it and press the A
+BUTTON. The information will be downloaded to your storage and the
+DATASTORE will change in appearance to a transparent block.
+
+When you JACK-OUT of the Matrix, windows will appear to tell you what
+you downloaded,
+
+Not all DATASTORES contain valuable data and information. The following
+are the types of things you can find in DATASTORES.
+
+Passwords
+
+In certain areas of the Matrix, you will find areas locked off by password
+protected NODES. To get past these NODES, you will need PASSWORDS
+which can either be found on people or within the Matrix.
+
+Datafiles
+
+Datafiles containing valuable information are stored in your ITEMS.
+INVENTORY so that you can examine them whenever you want. All
+DATAFILES have a DF prefix and include the filename as well.
+
+Accounts
+
+Since money is held purely as data, financial accounts containing Nuyen
+can be transferred to your credstick, Any Nuyen you download is
+automatically reflected in your character's STATUS SCREEN.
+
+===== Page 20 =====
+
+Trash Data
+This Is data of no meaning or value to you. Therefore, when you
+
+JACK-OUT of the Matrix, it is automatically discarded.
+
+COMBATTING CPU’S
+
+CPU's control certain systems and
+are vital to your character's pro-
+gression through the game—attack-
+ing a CPU can open electronic
+doors and elevators and tum off
+alarm systems and other security
+devices,
+
+Some CPU's are linked to the IC’s
+protecting them. Therefore, suc-
+cessfully attacking them causes all
+hidden IC's on the area to be
+detonated. The area is therefore
+made safe,
+
+Attacking a CPU is done by tuning
+your persona to face them and
+pressing the B BUTTON.
+
+JACKING OUT OF THE MATRIX
+Jacking out of the Matrix can be
+done at any time or location while
+in the grid. To jack out, press the X
+BUTTON. Your programs will be
+terminated and you will reappear
+standing next to the terminal you
+jacked in from.

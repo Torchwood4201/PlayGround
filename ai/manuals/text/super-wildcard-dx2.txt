@@ -1,0 +1,1314 @@
+# Super Wildcard DX2
+source: https://archive.org/details/snes_manual_archive
+pdf: Super Wildcard DX2 ( Peripheral ).pdf
+region: Peripheral
+pages: 22
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+net
+
+===== Page 2 =====
+
+Hardware Features:
+
+dopt_new generation FC930¢-ISI core chip,
+i-directional parallel port (PC compatible),
+D-AUDIO mix input
+
+High speed PC-Link 1/0 port
+[32M bits program memory (expandable to 130M bits),
+{2M bits BIOS ROM (expandable to 8M bits).
+
++ IK bits Non-Volatile memory
++ 256K bits battery backup ier
++ 145M bytes m
+
+[Tilas
+
+PER
+
+LL)
+TH?
+
+for backup user setting
+smory for game,
+floppy disk drive,
+
+Software Features;
+
+¢ New configurable GUI OS with background music
+* Plug. & play driver for CD-AUDIO, CD-ROM. hard disk & aip
+drive.
++ Dehixe CD-AUDIO control panel
+ipport peripheral drive d
+
+| op New design file managemen
+LP, Enhanced cheat code search algorithm
+Accept code of Action Replay (tm), Game Genie(tm), Gold
+Binger(tm) & Fareast(tm) format
+* Support 720K, 5001
+
+» 800K, |» 1.6M, 2.88M, 32M format on any
+of disk media (2DD,2HD or 2ED
+
+4D or
+disk driver by AER. algorithm (Automatic
+Error Retry)
+
+Program download for PC-Link port
+RealPime Save function (still screen, slow motion).
+
+KROM/hard disk drive 2int
+S floppy disk drive (PC
+
+(PC compatibie ).
+(for sub RAM of Real-Time Save).
+.M_ module,
+
+Spin. male to male D-SUB).
+IST
+
+===== Page 3 =====
+
+FRONT FAREAST®
+
+_ SUPER WILDCARD® DX2
+
+The Ultimate Video Game Enhancer for SNES™
+
+User’s Guide
+
+-—
+ej o|n|t)
+
+FRONT FAREAST INDUSTRIAL CORPORATION
+TAIPEI, TAIWAN
+REPUBLIC OF CHINA
+
+===== Page 4 =====
+
+CREDITS
+
+Code: JSI, Rock
+Graphics: Chen, Kao, UU
+Music: Chen, Teddy |
+Game: JMK |
+Beta Testing: Tiger, JoJo
+
+This product is NOT
+licensed and endorsed
+by Nintendo™ Inc.
+
+©1996 Front Fareast Corporation. All rights reserved. No part of this Guide
+may be reproduced or transmitted in any form or by any means, electronic or
+mechanical for any purpose without the express permission of Front Fareast
+Corporation.
+
+Front Fareast Corporation is unable to guarantee the accuracy of printed
+material after the date of publication and disclaims liability for changes, errors
+or omissions.
+
+QQ 05/31/96 11:36 AM
+
+SUPER WILDCARD is a registered trademark of Front Fareast Corporation.
+Other trademarks are properties of their respective owners.
+
+Contents
+
+dO SREAD! THIS WE IRST: S722 rote ialeya rasan. cvaaimiara\ avalate ein wralevalselae te ove aye wle\Gia' allevefevn 3
+INTRODUCTION ‘oie0\s sie Sis <!s sis Se abs 315 sleieieisleieisinimsicisieie Gieies wisis.s ale se 0% oie ols HES 3
+PACKAGE CONTENTS «2052s ces cece cece cece cece sete cece wena ne ee asceees 3
+ACCESSORIES siejcjcis ale wis sis ops sis sie ais sis sip sieysielsipieiein celeue te eleeimiecelene gieinse exe ti ©. 4
+SERVICE: -sieierelela\eselalls tie steisie oe 6s aie a's sip) nibsyavetale eis oelaleei stew aveisielaieye o's 6% we Se © Cy
+2 (GETPTING STARTED) 3:5 sco ci. os 012 aks cimmisiscetain ele: ate) enereieraierelelsiioye| wie yols!s ais ere 6
+SYSTEM REQUIREMENTS 5 6602 0ceeceee ce ce ene cee e wee eisaceseee sens secs ces 6
+INSTALLATION, 6:0 :eisieveieisieieiwinlinielorelae aie #26 0) scoisie ean sieieheisleieveeiessieie sieges eis. eise 7
+START TO USE YOUR DX2 22) w'e/s/ssie =i vie ois sieie'sinlsiselaie cis sieiaieisinisiesimeinas see 8
+3 (GENERAL OPERATION (2:00.50: 5% 6 ce aes sje sem eine eee siisodew aces eu 9)
+(lot sto SICA UOT OS Ack te Salo loge ocOc oo ba Ad or enn OURO Or ORS ce 9
+GENERAL USAGE OF THE BUTTONS .6:0\:01-si0s 06 o's o's o's 6's 0s 04 ou sete quieuiewe ena 9
+USEFUL TCONS FOR EDITING .2..e:cceeseejereieieaie ote oie oie wie ie vie oom ele tial siereieienejeiereie 10
+BACKUP CARTRIDGE TO FLOPPY DISK. 200 cieice sc ee cs cee cnet ca ealeneeceaesee 11
+PLAY GAME PROM: FLOPBY DISK «.s20:cepecerais: cine pie o)e ete ye tie oie oie a1 syaisieterejeiersieieieie LE
+@ “ADVANCED: OPERATION: 6:00:05 2.0:0:0iesefom)e ape a: aie ajo ois we ane eiwinisioneeie sis sissies 12
+
+(©1996 Front Fareast Corporation
+
+===== Page 5 =====
+
+FLOPPY DISK OPERATING SYSTEM . 1.6... e ese e ee ev ete ere cer er cece er eceees 22
+
+HARD DISK OPERATING
+
+Compact Disc 0;
+
+Zip DISK OPE
+
+£96 6.200 0) i 27
+INTERFACE PORTS OF THE DX2 22... sees eeeee cee e ence renee reece ee eee ence 28
+VGS wees eee re reser ere cere news e cent eee renee ees ee eee see eee eee sees 29
+PASSWORD FORMAT 22.02 sce e cece reece secre reece eee eee ee eee eereneees 31
+HEX/STRING EDIT 20 0505'ss'.0 2's 02 o's oo oe 0s ole ole sie oe oe Se reldele ed eee eens 33
+
+BLESHOOTING
+
+IFICATIONS ...
+
+Super Wildcard DX2 User's Guide
+
+1 Read This First
+
+Introduction
+
+Welcome to the Super Wildcard DX2 operating system. With DX2, all the
+things you do now will be easier and faster, and what you’ve always wanted
+to do is now possible.
+
+This book introduces you to the DX2 operating system and gets you up and
+running quickly.
+
+Package Contents
+
+Check your Super Wildcard DX2 package to see if everything is there. If any
+pieces are missing, contact the retailer from whom you purchased the
+product. In the package, you should find the following items:
+
+@ Super Wildcard DX2 main unit
+
+@ Extended slot cartridge
+
+@ = Warranty card
+
+@ = User’s guide
+
+©1996 Front Fareast Corporation
+
+===== Page 6 =====
+
+4
+
+Accessories
+
+To unlock the most power of your DX2 system, you have to purchase the
+following accessories:
+
+@ =~ Diskdual - the CD-ROM & hard drive external case from Front Fareast.
+
+e
+
+@ 2.88M, 3.5 inch, internal floppy disk drive. (IBM™ PC compatible)
+
+@ VGS - the communication utility available for IBM™ PC compatibles.
+
+@ = = PClink cable - available for IBM™ PC compatibles, Amiga™ PCs.
+
+@ 64 or 66M bits RAM module.
+
+@ 2Mbits expansion RAM - support the Real-time Save buffer of your 32M
+
+games.
+For more information, contact your DX2 dealer.
+
+Service
+
+Front Fareast corporation would like to provide you the best service in the
+
+industry. If you have questions about your DX2 system or need help, there
+
+are several resources available to you to keep you zipping along:
+
+@ Review your user’s guide.
+
+@ = Call or visit your DX2 dealer.
+
+@ = If your dealer is unable to help, contact Front Fareast customer support
+through one of the following methods:
+
+Tel: +886-2-5048851
+Fax: +886-2-5042319
+E-mail: ffe@ms3.hinet.net
+Address: 1F, No 56, Lane 102, Ho-chiang St., Taipei, Taiwan, R.O.C.
+
+Some things you’ll need to provide before we can do the repair service for
+you:
+
+v¥ Warranty card.
+
+Y  Acomplete description of the problem.
+
+¥ Game diskette if it required.
+
+You can get the latest Wildcard news from the web site - www.anthrox.com
+
+Super Wildcard DX2 User's Guide
+
+(©1996 Front Fareast Corporation
+
+===== Page 7 =====
+
+2 Getting Started
+
+System Requirements
+
+Make sure everything is ready before you go to installation.
+
+Minimum
+
+@ Super Nintendo™ entertainment system (SNES) or compatible console,
+
+NTSC or PAL version.
+
+Optional
+
+Floppy diskette : 3.5 inch 2DD, 2HD or 2ED.
+SNES game cartridge.
+
+9V~12V DC power adapter for DX2.
+Diskdual.
+
+Zip drive.
+
+PC communication cable.
+
+Installation
+
+Do not power on the SNES system before all steps are completed.
+
+Install the DX2
+
+1. Connect your SNES system as described in your SNES instruction
+booklet.
+
+2. Insert the extended slot cartridge into the bottom of the DX2.
+
+3. Put the DX2 on top of the SNES, and let the extended cartridge be tightly
+inserted into the SNES slot.
+
+Install the Diskdual
+
+1. Connect the power cable of the Diskdual.
+
+2. Connect the ‘To System’ port of the Diskdual to the DX2 parallel port by
+the 25-pins round cable coming with the Diskdual package.
+
+3. Option: Connect the stereo AUDIO cable from the AUDIO output port
+of Diskdual to the CD-AUDIO input port in front of DX2.
+
+4. Turn on Diskdual power before turn on your SNES power.
+
+Install the Zip™ Drive
+
+1. Connect the power adapter of the Zip Drive.
+2. Remove Diskdual cable if it has been connected to the DX2.
+
+‘Super Wildcard DX2 User's Guide
+
+©1996 Front Fareast Corporation
+
+===== Page 8 =====
+
+8
+3. Connect the round cable coming with the Zip package from Zip drive to
+
+the DX2 parallel port. 3 General Operation
+
+4. Connect Zip Drive power before you turn on your SNES power.
+
+Start to Use Your DX2 :)
+
+This is the picture of the sample DX2 system, which has Diskdual at
+the right side. Get ready to enjoy the game.
+
+Hot-Key
+
+Press the following button while power on the system.
+
+Real-time mode on floppy disk stored game
++A Real-time mode on cartridge stored game
+
+Jump to copy option menu
+
+Backup cartridge game
+
+Execute cartridge game
+
+Disk auto-loading disable
+
+R
+R
+
+Po K
+
+General Usage of the Buttons
+
+Usually you can use joy pad 1 or 2 to activate the following action.
+
+©1996 Front Fareast Corporation
+
+Super Wildcard DX2 User's Guide
+
+===== Page 9 =====
+
+10
+
+Enter/Accept
+Abort/Quit to previous menu
+Abort/Quit to main menu
+
+List of the available buttons
+
+O00
+
+Useful Icons for Editing
+
+When you are editing file names, memory or password you can see the
+
+following extra icons on your screen.
+
+‘o ACCEPT
+
+fg CLEAR ENTIRE LINE/CHARACTER
+4 DELETE CURRENT CHARACTER
+ONE CHARACTER BACK
+
+ONE CHARACTER FORWARD
+
+1
+
+Super Wildcard DX2 User's Guide
+
+Backup Cartridge to Floppy Disk
+
+1
+2
+3
+4.
+5.
+6
+7
+
+Power off your SNES.
+
+Insert the cartridge into the slot on top of DX2.
+
+Insert an empty & formatted disk in the floppy drive of DX2.
+Hold down < B > button and power on your SNES.
+
+Select the floppy disk item by pressing the < B > button.
+
+Press < B > button again to start the game program transfer,
+Insert the next empty disk if prompted to do so until the transfer
+procedure is complete.
+
+Play Game from Floppy Disk
+
+1
+2.
+3's
+4
+5
+6
+
+Power off your SNES.
+
+Insert the game disk into floppy disk drive.
+
+Power on your SNES.
+
+The game will automatically transfer into the DX2 memory.
+Press < B > to select the playing mode: normal or real-time save.
+Start to play the game.
+
+©1996 Front Fareast Corporation
+
+===== Page 10 =====
+
+12
+
+13
+
+4 Advanced Operation
+
+Overview
+
+The DX2 is consist of 6 operating systems.
+
+1. WILD CARD OS.
+=
+
+@ Run
+@ Program manager
+Restore from: Floppy disk, Hard disk, Zip disk, CD-ROM, Cartridge
+Backup to: Hard disk, Zip disk, Floppy disk
+Edit
+Game info
+@ Battery SRAM manager
+Restore from: Floppy disk, Hard disk, Zip disk, CD-ROM, Cartridge
+Backup to: Floppy disk, Hard disk, Zip disk, Cartridge
+Edit
+@ Password manager
+Restore from: Floppy disk, Hard disk, Zip disk, CD-ROM
+Backup to: Hard disk, Zip disk, Floppy disk
+Edit
+
+First search
+
+Continue search
+
+List code
+
+Real-time save manager
+
+Restore from: Floppy disk, Hard disk, Zip disk, CD-ROM
+Backup to: Hard disk, Zip disk, Floppy disk
+
+Extra utilities
+
+Option: Screen/audio, User message, Default
+
+PCX slide show
+
+PCX puzzle game
+
+Self test: DRAM read/write, SRAM read/write, Floppy drive
+
+System info: WILD CARD INFORMATION, SFC/SNES INFORMATION, Credits
+
+2. CARTRIDGE O.S.
+S
+
+Run
+
+Program manager
+
+Backup to: Floppy disk, Hard disk, Zip disk, Wild Card
+
+Edit
+
+Battery SRAM manager
+
+Restore from: Floppy disk, Hard disk, Zip disk, CD-ROM, Wild Card
+Backup to: Floppy disk, Hard disk, Zip disk, Wild Card
+
+Edit
+
+Game info
+
+3. FLOPPY DISK O.S.
+
+8
+
+Super Wildcard DX2 User's Guide
+
+‘©1996 Front Fareast Corporation
+
+===== Page 11 =====
+
+15
+
+@ Run
+
+@ = File/Directory manager
+Rename
+Delete
+
+Edit file
+
+New directory
+Move
+
+Copy file
+
+Disk format
+Disk info
+
+Disk copy
+
+4. HARD DISK O.S.
+@ Run
+@  File/Directory manager
+Rename
+Delete
+Edit file
+New directory
+Move
+Copy file
+@ = Disk format
+@ Disk info
+
+5. COMPACT DISC O.S.
+
+@ Run
+
+@ File manager
+
+Dump
+
+Copy
+
+DISC info
+
+CD audio panel
+Eject/Load DISC tray
+
+6. ZIP DISK O.S.
+al
+
+@ Run
+@ = File/Directory manager
+Rename
+Delete
+Edit file
+New directory
+Move
+Copy file
+@ = Disk format
+@ = Disk info
+
+File/Directory Operation
+
+In DX2, the File/Directory is designed for MS-DOS & PC-DOS compatibility.
+The button’s functions are listed below:
+L/R Goto previous/next page if more than 6 files in the directory.
+
+Super Wildcard DX2 User's Guide
+
+©1996 Front Fareast Corporation
+
+===== Page 12 =====
+
+16
+
+€/2 Goto parent/sub directory.
+
+aly Select file or directory.
+B Go/Accept.
+¥. Abort.
+
+Wildcard Operating System
+
+The most excited function of DX2 is the wildcard icon, let’s show you more
+about it in detail.
+
+Run
+
+Play or continue the game that is restored in the DX2 memory, you will be
+asked for choosing the normal or real-time save mode before running the
+
+game, you can restore the game by the next (program manager) function.
+
+Program manager
+This function is used for transferring/backing up games. You can also edit the
+game program, selecting this options will bring you to a sub menu.
+Restore from :
+In this function you can load the game file from following storage
+devices: CD-ROM, hard disk, zip disk, floppy disk, cartridge.
+Backup to:
+
+After editing the game program, you can save it to the storage device.
+Game info. :
+
+When you restore a game to DX2 memory you can see all game info i.e.:
+title name, B-RAM size...
+
+Battery SRAM manager
+This function is used to save your battery backup data for future use. (This is
+mainly for role playing games which save game data into the battery back-up
+RAM. You can use this to save your game position in a game and give it to
+your friends) Selecting this will bring you to another sub menu.
+Restore from :
+In this function you can load battery backup data from following storage
+devices: CD-ROM, hard disk, zip disk, floppy disk, cartridge.
+Backup to :
+Save battery backup data in DX2 to other storage devices.
+Edit :
+This option allows you to edit the battery backup memory of DX2. Use
+of this function might be to edit hi-scores in a game or change your
+character data, giving you unlimited lives, etc.
+
+Password manager
+
+This option allows you edit/input passwords for enhancing game features.
+
+Super Wildcard DX2 User's Guide
+
+©1996 Front Fareast Corporation
+
+===== Page 13 =====
+
+18
+
+19
+
+(live forever, etc. ) The DX2 accepts 4 kinds of popular code format that you
+
+can find in most game magazines:
+
+1. Front Fareast standard format.
+
+2. Gnnnnnnnnnnnnn : 14 character set format (be sure to add a “G” char
+before each code yourself) |
+
+3. nnnn-nnnn : two 4 characters set format.
+
+4. 7Ennnnnn or 7Fnnnnnn : Cheat code finder format.
+
+@ All the code must be capital.
+
+@ Be sure to input the code from the first column of each line for the code
+to work properly, other characters or comments behind the code will be
+ignored.
+
+°
+
+Codes of Format 3 & 4 work under real-time mode.
+
+Restore from :
+
+Allows You to load passwords from other storage devices into the DX2.
+Backup to:
+
+Allows you to save current password in the DX2 onto other storage
+
+devices for future use.
+
+Edit :
+
+This option can edit or input the password. !
+First search / Continue search / List code : |
+This option must be used in real-time save mode. Please select it before
+
+the game starts. In this mode you can hunt for code such as INFINITE
+
+lives and powerful weapons etc.
+Be sure to move the code to the password buffer when you list the
+matched code so that the code will then be active.
+
+Real-time save manager
+This feature allows you to FREEZE and SAVE your game ANYTIME during
+game play. It works on majority of current games.
+Restore from :
+Use this option to load your REAL-TIME saved data to DX2 from other
+storage devices.
+Backup to :
+Use this function to save your REAL-TIME freeze data from DX2 to other
+storage devices.
+
+Extra Utilities
+
+Utilities that make the DX2 user friendly.
+Option:
+Customize your WILD CARD DX2 to the way you want it to appear upon
+start-up.
+1. Screen/Audio : Customize your DX2 SCREEN with the following option :
+~+ Logo (2 sets)
+~ Windows (2 sets)
+
+Super Wildcard DX2 User's Guide
+
+©1996 Front Fareast Corporation
+
+===== Page 14 =====
+
+20
+
+21
+
+Background tile (16 sets)
+
+Icon (4 sets)
+
+Audio option ( 4 sets, sound effects, music on / off )
+
+Menu language (2 sets)
+
+2. User message : Customize the user message on the DX2 screen to what
+
+ooo
+
+you want it to be.
+
+3. Default : Restore the original setup which was shipped with the DX2.
+
+PCX slide show :
+
+View PCX pictures. (16/256 colors, 256 x 224 pixels is recommended)
+
+1 View a single PCX picture.
+
+2: View PCX slide show from the Floppy disk, hard disk, Zip disk or DX2
+memory.
+
+PCX puzzle :
+
+A built-in puzzle game, you can load your own picture, the picture file must
+
+be 16/256 colors, 256 x 224 pixels PCX.
+
+Self test :
+
+Test the chips inside your DX2.
+
+1. DRAM read/write tests all 32 Megabits of it or move if you have more.
+
+2. SRAM read/write tests your battery backup RAM.
+
+3. FLOPPY DRIVE tests the floppy drive. This test require a 2HD disk to be
+inserted in the disk drive. DO NOT insert a disk which contains any
+important data because the data will be erased. Insert a BLANK or
+
+‘Super Wildcard DX2 User's Guide
+
+unused disk.
+
+System info :
+
+1. WILD CARD INFORMATION
+Show the information about your DX2.
+MAIN MEMORY size of the DX2.
+SUB MEMORY size. (extra memory for real-time mode)
+BACKUP MEMORY size is 256K bits standard.
+BIOS DATE, the released data of the DX2 ROM.
+
+2. SFC/SNES INFORMATION
+Show the Information about your game console.
+CPU version, version number of the CPU chip inside your console.
+PPU1 version, version of the graphic chip inside you console.
+PPU2 version, the second graphic chip version number.
+Display type, the TV system of your game console.
+
+3. CREDIT
+The names of the people in the team which created the DX2.
+
+Cartridge Operating System
+
+Run
+
+Play the game on the inserted cartridge just like you insert the cartridge
+
+©1996 Front Fareast Corporation
+
+===== Page 15 =====
+
+22
+
+23
+
+directly to the SNES.
+
+Program manager
+
+You can transfer the game of the cartridge to other storage devices, or dump
+it’s contents to screen, you can not edit the game program in cartridge
+because it is read only memory.
+
+Battery SRAM manager
+You can transfer the battery backup data of the cartridge to and from other
+storage devices or edit it’s contents.
+
+Game info
+You can see game information of the cartridge, including title name, mode,
+
+size...
+
+Floppy Disk Operating System
+
+The floppy drive is a built-in device, so this is the most common function of
+the DX2 system.
+
+RUN
+
+This options allows you to load & play games from the floppy disk. The
+system will also search & load SRAM data(*.BBD), real-time data(*.RTS), SPS,
+
+file(international patch standard) and password file(*.PAS) automatically after
+the main game program has been loaded.
+
+File/Directory manager
+
+Rename : Change file or directory name.
+
+Delete : Delete file or directory that you no longer want on your disk.
+
+Edit file : Edit the file content without loading into DX2 memory.
+
+New Directory : Creating a Directory. This function is useful if you want
+to organize files into groups and mark them so they are easy to find.
+
+Move : Move file or directory to another directory in the same disk.
+
+Copy file : Copying file creates a duplicate of original file and does not
+move the original file.
+
+Disk format
+
+You can initialize any type of disk to 1.6M, 1.44M, 800K, 720K, 2.88M or
+3.2M format. But the DX2 is equipped with 1.44M drive so that you can not
+use 2.88MB or 3.2MB format unless you have a 2.88M drive, the drive
+hardware and the software format is fully compatible with PC.
+
+Disk info
+
+Show you the label, capacity, total file count and free space of the disk.
+
+Super Wildcard DX2 User's Guide
+
+©1996 Front Fareast Corporation
+
+===== Page 16 =====
+
+24
+
+Hard Disk Operating System
+
+If you have the diskdual, you can backup all you games to the hard drive, and
+restore to the DX2 for playing, it will save your valuable time and storage
+space because of the high loading speed and its large capacity. All the
+operation is similar to the floppy drive O.S.
+
+Warning : You will be prompted to confirm the operation of the disk
+format, all the data will be erased if you use the disk format operation.
+
+Compact Disc Operating System
+This is another Diskdual option for the DX2, with a CD-ROM drive you will be
+able to play CD-ROM games or AUDIO CDs.
+
+RUN
+
+Load the game and data from CD-ROM and the DX2 will also search/load for
+data on hard/floppy drive before running the game. Note that the data means
+the battery backup data, real-time save data, password and IPS file.
+
+File manager
+Dump : You can dump hexadecimal/ASCII code of the file to the screen.
+Copy : You should copy the game to another writable storage device. If
+you want to edit the game program on CD-ROM.
+
+25
+
+Super Wildcard DX2 User's Guide
+
+Disc info
+Show you the type, total capacity, file count information of CD DISC.
+
+CD audio panel
+
+This is an interactive control panel for playing AUDIO tracks.
+
+@ Gen oes
+
+Track icons:
+Maximum of 20 tracks can be display on screen, place cursor on the track
+
+number and press enter to play the track.
+Control icons:
+: Open/Close the DISC Tray.
+
+: Backward one track. It will go to the last track if this is the first.
+©1996 Front Fareast Corporation
+
+===== Page 17 =====
+
+27
+
+: Stop.
+: Play.
+
+606000’
+
+TRO
+
+SHUFFLE
+REPEAT
+
+PROGRAM
+Control buttons:
+€e2nv
+X,Y,A,B
+START
+L/R
+
+: Pause.
+
+: Backward 5 second.
+
+: Forward 5 second.
+
+: Forward one track. It will go to the first track if this is the last.
+: Every track will be played 10 second.
+
+: Random play music.
+
+: Repeats playing of the selected track.
+
+: You can edit the music play sequence.
+
+: Move cursor
+: Go / Accept
+: Play / Pause
+: Backward / Forward one track
+
+It will automatically play the track after CD is inserted, from first track to the
+
+last. You can change any play sequence while playing.
+
+Zip Disk Operating System
+
+All the function is similar to Floppy Disk O.S. Please refer there.
+
+Appendixes
+
+File Format
+
+The DX2 file consists of a 512 bytes header and program (or data) blocks, one
+program block is 8K bytes and is loaded into memory from low address to
+high address sequentially.
+
+File Name Format :
+*.SMC or *.SWC program
+
+* BBD battery backup data
+
+* RTS real time save
+
+*.PAS Password (without file header
+
+* IPS international patch standard (without file header
+
+Content of the File Header :
+
+byte 0 - numbers of block (low byte)
+byte 1 - numbers of block (high byte)
+total numbers of block = (bytel * 256) + byte0
+byte 2 - program execution mode
+bit: 76543210
+x : 0, reserved
+x : 0= no more split file, the last file
+
+1= search for next split file
+: SRAM memory mapping, 0=mode20, 1=mode21
+x : program memory mapping, 0=mode20, 1=mode21
+
+e]
+
+Super Wildcard DX2 User's Guide
+
+‘©1996 Front Fareast Corporation
+
+===== Page 18 =====
+
+28
+
+XX : SRAM mode(size), 00=256K, 01=64K, 10=16K, 1i=off
+XX : 00, reserved
+
+byte 3~7 - 00, RESERVED
+byte 8 - AA, FILE ID
+byte 9 - BB, FILE ID
+byte 10 - file type
+04: program
+05: battery back-up data
+08: real-time save data
+byte 11~511 - 00, RESERVED
+
+Interface Ports of the DX2
+
+PC Communication
+
+It’s possible to connect virtually any kind of computers equipped with a
+parallel (or printer) port via DX2 PC Communication port, but some of the
+computers supports only ‘download to wildcard’ mode (Ex: Amiga and NEC
+PC98 series). You will have both of the download and upload capability if you
+have IBM PC or compatibles, the cable is a standard 25 pins male to male
+round type.
+
+Parallel
+
+It’s a industrial standard parallel port and can be connected to the DiskDual
+
+or printer.
+
+Super Wildcard DX2 User's Guide
+
+29
+
+VGS
+
+This is Front Fareast VIDEO GAME SYSTEM utility for PC-AT and compatibles.
+
+F1 - Play Game
+
+This function allows you to load a console backup image file from a subdirectory in your hard
+disk and to play it on your copier.
+
+F2 - Play Cartridge
+This function allows you to issue command to your copier so that it is forced to RUN IC card
+which is inserted in the copier. |C CARD must be inserted into the copier.
+
+F3 - Backup Cartridge
+
+This function allows you to copy a backup image of the IC CARD which is currently inserted
+into your copier. The VGS saves the backup image to a subdirectory on your PC's hard disk
+for future play.
+
+F4 - Restore SRAM
+
+This function allows you to restore an image of the SRAM and load it into the copier's SRAM.
+from a subdirectory on your PC's hard disk.
+
+F5 - Backup SRAM
+This function allows you to store the contents of your copier's SRAM to your PC's hard disk.
+
+F6 - Set I/O Port
+
+This function should be selected first. It allows you to select the operational |/O port on your
+PC which will be used to communicate with your copier. The suggested port is LPT1 (the
+primary printer port), using a 25 pin PARALLEL cable connected to your copier's PARALLEL
+\/O port. [Note for SMD Owners: The I/O port on the Super Magic Drive is labeled "COM
+
+©1996 Front Fareast Corporation
+
+===== Page 19 =====
+
+30
+
+31
+
+1/0" which is NOT a COM: port. It is still a parallel port, used normally as described above.|
+
+Available Ports:
+LPT1 = Primary printer port on your PC. <SUGGESTED>
+LPT2 Secondary [optional] printer port on your PC.
+LPT3 = Secondary [optional] printer port on your PC.
+
+Other technical options are available for constructing a custom PC to COPIER interface.
+
+F7 - Set Device
+
+This option should be selected second, immediately after you select the I/O port. It allows
+you to define the type of BACKUP DEVICE you will be using in conjunction with the VGS/PC
+software. The supported device names will be listed on your screen. Please use the arrow
+keys to select the appropriate choice for your configuration and hit the ENTER key when
+choice is satisfactory.
+
+Available Devices: (Copiers)
+
+MAGICOM / WILD CARD << SMC/SWC owners should select this option
+MAGIC DRIVE << SMD owners should select this option
+
+MAGIC GRIFFIN
+
+SUPER MAGIC CARD << SMC owners should also attempt this if above fails.
+
+ESC - Quit to DOS
+
+This option allows you to terminate the FRONT FAR EAST VGS/PC software and to exit to
+your PC's operating system. You will be prompted with a YES/NO choice. Please hit the Y
+key to exit to the operating system, or the N key to remain in VGS/PC.
+
+Password Format
+
+The detail description of password supported by DX2 is list below:
+
+Front Fareast™ Standard
+
+This is the patch/deprotect password format used by Front Fareast Co.
+Code format is [nnaaaaaadd....]
+
+nn = data byte count.
+aaaaaa = offset address of the program file. (without 512 bytes header)
+dd... = data. (should be nn*2 characters)
+
+Gold Finger™
+
+The old popular password format used by many copiers.
+Code format is [Gaaaaaddddddccc]
+
+G = gold finger ID, (must be capital)
+
+aaaaa = offset address of the program file. (without 512 bytes header)
+dddddd =3 data bytes.
+
+cece = checksum. (ignore by DX2)
+
+Game Genie™
+
+You can get this kind of code from most popular game magazines.
+Code format is [dddd-dddd]
+Remember to input *-” character as show in above format.
+
+Action Replay™ / DX2 Search Cheat Code
+
+The cheat code searched by DX2 is compatible to Action Replay™ code, It’s
+
+Super Wildcard DX2 User's Guide
+
+©1996 Front Fareast Corporation
+
+===== Page 20 =====
+
+32
+
+33
+
+the most easy & powerful way to find codes by most end-user, let’s try the
+trick with game.
+
+1. Start your game and during the game, count the number of lives your character has.
+
+Use SELECT & TOP RIGHT & TOP LEFT combination to go to DX2 menu.
+
+3. Goto PASSWORD MANAGER and select FIRST SEARCH-COUNTABLE option. Enter
+the number of lives and the DX2 will now search for possible codes and inform you of
+possibilities.
+
+4. Continue the game by RUN option in Wildcard O.S.
+
+5. Now, lose a life and go back to the DX2 menu and then the password manager. This
+time, use CONTINUE SEARCH function. Now, the possibilities are reduced from the
+
+iS)
+
+previous possibilities. If you have only 1 or 2 possibilities, then you have found the code.
+
+If you still have more possibilities, then you have to repeat this procedure until you find
+just 1 or 2 possibilities.
+
+6. Now go back to the password manager and use LIST CODE function to list possible
+codes. You can press select to transfer the code and press B to continue listing.
+
+All your cheat codes can then be saved on a disk using the BACKUP TO function for future
+play. Some games do not use the same number that you can see on screen. For example, if
+you try Super Mario World™, the number of lives that you see on screen is 5 but you have
+to use 4 when searching for this. In some games, you might have to add 1 to the number you
+see on the screen. It takes some practice and once you become familiar with this, you can
+finish all games before your friends and easily master any game you wish to try your luck
+with.
+
+The ‘HALF SCALE’ method is used where no number is known, for example: energy bar or
+meter where you can tell relatively how much energy you have. To use this method, you can
+start the first search at any level of energy, i.e. full energy, and stop the game goto continue
+search at half scale of the previous level, i.e. 50% energy, and if you still have many
+possibilities and want to do continue search then you should stop the game while energy is
+25%, just repeat this procedure until you find just 1 or 2 possibilities.
+
+HEX/String Edit
+
+HEX/STRING EDITOR:
+001234
+
+41 41 41 41 41 41 41 41
+AAAAAAAA
+
+The editor screen has 3 information lines:
+
+@ Offset address of the file or memory data.
+
+@ HEX value of data.
+
+@ ASCII code of data.
+
+You can edit data of the file, program or battery back-up memory, all the
+numbers displayed are in HEX format, input HEX or ASCII code value, please
+press < A > button to see more button function.
+
+Note: you can only browse the data of cartridge and CD-ROM file, the data
+can’t be changed.
+
+Super Wildcard DX2 Users Guide
+
+©1996 Front Fareast Corporation
+
+===== Page 21 =====
+
+34
+
+35
+
+Troubleshooting
+
+Why the game backup from a cartridge can not work properly in DX2?
+
+@ You can not backup and play game, if the cartridge has a special DSP chip inside.
+
+@ Try to backup the cartridge once again.
+
+= Contact your dealer or login console BBS to get the patch file if the game is
+protected.
+
+@ Return your DX2 and the game disk for check service.
+
+Screen flash while accessing floppy disk ?
+@ You need an extra power adapter on your DX2.
+
+Disk error message while loading or saving the file?
+= Eject the disk and insert again, if it still errors then re-format your disk.
+
+VGS doesn’t work?
+@ Check if ‘Set 1/O Port’ setting is correct?
+®& Check if you connect cable to the PC COM. port on DX2?
+@ Check if your 25pins round cable is error free?
+@ Try to run the VGS by turn off the PC turbo mode.
+= Try to get the latest version of the VGS.
+
+Gold finger code doesn’t work?
+@ Make sure to input a ‘G’ character in front of the code.
+
+Why the game hang up while running in the real time save mode?
+
+= Some of the games require to synchronize between main program and sound driver,
+so you can only play it in normal mode, it’s estimated that 85% to 90% of the games
+
+can run with real time mode perfectly.
+
+Specifications
+Model SWC3201DX2
+Core Chip FC9304-JSI
+Memory DRAM
+
+SRAM
+
+NVRAM
+Connector PC Communication
+
+Parallel (Bi-Direction)
+CD-AUDIO Input
+
+Floppy Drive 1.44MB High Density
+
+(4M Bytes)
+(32K Bytes)
+(128 Bytes)
+
+(25pin D-Type Female)
+(25pin D-Type Female)
+(Mini Jack)
+
+Super Wildcard DX2 User's Guide
+
+(©1996 Front Fareast Corporation
+
+===== Page 22 =====
+
+36
+
+Warranty
+
+Front Fareast warrants to the original purchaser this product to be free from
+defects in material and workmanship under normal authorized use for a
+Warranty Period of ninety (90) days from the date of purchase as evidenced
+by your receipt. After the expiration of the Warranty Period, you assume the
+entire cost of all necessary servicing, repair or correction.
+
+The warranty is null and void if the hardware case has been opened and/or
+any parts were removed or if software or any accessories other than those
+authorized by Front Fareast are used in connection with this product.
+
+za MEMO
+
+Super Wildcard DX2 User's Guide

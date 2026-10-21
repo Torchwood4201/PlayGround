@@ -1,0 +1,888 @@
+# Plok!
+source: https://archive.org/details/snes_manual_archive
+pdf: Plok! (USA).pdf
+region: USA
+pages: 16
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+if wll -@ rRavewest
+
+‘@ TRavEwest
+
+Tradewest, Inc.
+
+2400 South Highway 75, Corsicana, TX 75110 i INSTRUCTION MANUAL
+PRINTED IN JAPAN SUPER NINTENDO
+
+‘SNS-P4-USA~
+
+===== Page 2 =====
+
+Thank you for purchasing PLOK from Tradewest for your Super Nintendo
+Entertainment System. For maximum enjoyment, please read this instruc-
+tion manual thoroughly before playing
+
+WARNING:
+
+PLEASE READ THE ENCLOSED CONSUMER INFORMATION &
+PRECAUTIONS BOOKLET CAREFULLY BEFORE USING YOUR
+NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+Plok TM & © 1993 John and Ste Pickford. All rights reserved. Licensed to
+Tradewest, Inc. by Software Creations (Holdings) Ltd.
+
+Lice E ew THIS OFFICIAL SEAL 1s YOUR ASSURANCE
+THAT NINTENDO HAS
+QUALITY OF THIS PI DUCT, MLWAYS
+LOOK FOR THIS SEAL WHEN BUYING
+GAMES AND ACCE: RIES TO ENSURE
+COMPLETE COMPATIBILITY WITH YOUR
+NINTENDO, SUPER NINTENDO ‘SUPER NINTENDO ENTERTAIN! T
+ESE ie 2h ‘SYSTEM AND SYSTEM. ALL NINTENDO PRODUCTS ARE
+THE OFFI SEALS ARE LICENSED BY “OR Us LY WITH
+REGISTERED. TRADEMARKS OF OTHER AUTHORIZED PRO! BEARING
+NINTENDO OF AMERICA INC. THE OFFICIAL NINTENDO PF QUALITY.
+
+The Story
+Getting Started
+Controller...
+Screen Layout
+
+Skill Levels...
+Plokontinue System
+
+Check Out the Hardware! .
+A Tour of Poly-Esta
+Advanced Techniques
+
+===== Page 3 =====
+
+AT LAST, A REAL HERO!
+
+Plok is an irresistible, irrepressible, unstoppable, highly improbable and
+downright dangerous bundle of pure energy.
+
+Plok does not like fleas.
+
+Plok has the amazing ability to fire all his body parts at will.
+
+Plok can really ‘throw’ a punch.
+
+Plok has a very short fuse; at the slightest
+irritation those limbs begin to fly.
+
+Plok hates fleas.
+
+Plok is a true hero, with a heart of gold and joints of
+the highest-quality velcro.
+
+Plok is a man with a mission. He is dedicated to
+ridding the world of the menace of the dreaded Fleas.
+Plok is a dreamer, a wanderer, a free spirit. He's
+suave and elegant. He's grade-A, first-class prime cut.
+Plok really does not like Fleas.
+Plok is the king of the beautiful
+island called Akrillic, part of the
+archipelago Poly-Esta.
+
+Everyone knows that Plok is simply crazy about flags (of course you do!). He
+has them everywhere. He uses them to mark out which parts of Akrillic (he
+thinks) belongs to him. His flags are all over the place!
+
+Now, what you may not know is that Plok has a particular favorite flag, a big
+square one with a picture of himself on it. He keeps this special flag on top of
+
+his own house so that he can see it every day when he gets up and every night
+when he returns from a hard day of...uh, of being Plok!
+
+If you were a despicable character and you wanted to upset Plok or get him out
+of the way for some reason, what would you do? Hide his special flag? Well,
+that’s exactly what happened today!
+
+Somebody, he doesn’t yet know who, has stolen his special flag and placed it
+on nearby Cotton Island, As you can imagine, Plok is hopping mad about
+this. First thing this morning he set off in his boat to retrieve his property.
+But knowing Plok, he's not gonna leave it at that. Nope, no way!
+
+Anyway, that’s the story so far, but there may be more to this business than
+meets the eye...
+
+ae
+
+===== Page 4 =====
+
+LOADING
+
+1) Search your room for pesky Fleas.
+
+2) Make sure the power switch is OFF.
+
+3) Insert the PLOK game pak as described in the SNES manual.
+4) Have one last check for those sneaky Fleas.
+
+5) Switch the power ON.
+
+PLAYING
+
+6) Count your limbs (no more than four
+allowed).
+
+7) Push start.
+
+8) Check that your flag is in position.
+
+9) What are you waiting for? Get going!
+
+CONTROLLER
+
+Rapid pushin,
+activates Amulet
+
+Release
+Buddy Hornets
+
+L&R direction Supe
+somersault
+Down for crouch
+and lower jump
+Jump
+
+Fire limb
+
+or current weapon
+
+Pause
+
+Shell counter: fill it
+for an extra life’
+
+Plokontinue
+
+Score indicator tokens collected
+
+Extra lives
+indicator
+
+Fleas left or Boss
+
+energy meter
+
+Plok’s energy
+
+SKILL LEVELS
+
+The skill level can be selected by pushing the Select button on the title screen.
+There are two settings to choose from: NORMAL and CHILD'S PLAY. The
+default setting is NORMAL.
+
+spe cee
+
+NORMAL
+
+This is the complete game from start to finish, with every boss and every fea-
+ture in place. Only when the game is completed on this level is the full end
+sequence shown.
+
+CHILD'S PLAY
+
+This is a special version of the game designed to be easier for younger players.
+The baddies all move slower and usually take less shots to defeat, and some of
+the most difficult levels have been omitted.
+
+===== Page 5 =====
+
+At the start of a new game, Plok has no continues available. When all spare
+lives are used up the game is over. During the course of the game, Plok can
+earn several continues, which allow the game to continue from specified points
+when all lives are lost.
+
+P-L-O-K TOKENS
+
+One P-L-O-K token is awarded when the player plays a new level from the
+beginning to the flag at the end without losing a life. As soon as a life is lost,
+no P-L-O-K token can be earned on that level in the current game. When the
+
+fourth token is collected and the word PLOK is lit up at the top of the screen, a
+
+Plokontinue is awarded on the current level. This will be visible on the map
+screen as four tiny spinning P-L-O-K tokens hovering over the level where the
+Plokontinue was earned.
+
+Now when the player loses all remaining lives, instead of Game Over, the game
+will return to the level where the last Plokontinue was earned. The score will be
+reset to its previous value, and play will begin again with three lives. Several
+Plokontinue points can be earned in one game. At Game Over, Plok will
+restart at the place where the last Plokontinue was earned.
+
+PERMANENT CONTINUE POSITIONS
+
+A few key positions in the game have been designated ‘Permanent Continue
+Positions’. These are after either the Bobbins Bros. or Rockyfella have been
+defeated. Once a player has reached one of these positions, every new game
+started will begin at this position, so the earlier levels will not have to be played
+through again and again. This position will be remembered even if the Reset
+button is pressed.
+
+To play the game again from the beginning after a ‘Permanent Continue
+Position’ has been reached, the Power switch should be switched off for a
+
+few seconds.
+
+patties apices
+
+COTTON ISLAND
+Each section of Cotton Island is completed by reaching the end and running
+
+up the flag at the flagpole. This may not be as straightforward as it seems...
+
+AKRILLIC
+
+All parts of Akrillic have been populated by
+pesky fleas. To complete these sections,
+Plok must defeat every flea. The last
+flea defeated will give up Plok’s flag
+and it will then float to the flagpole.
+If Plok gets to the flagpole before all
+the fleas have been overthrown, their
+flag will still be flying. If Plok gets lost,
+an arrow will appear pointing towards the nearest flea or to the flagpole.
+
+LEGACY ISLAND
+
+Each section of Legacy island is completed by reaching the end and digging at
+the mound. Valuables may be hidden there, but maybe not...
+
+BOSS LEVELS
+
+These short levels usually contain one large enemy who must be
+
+defeated. When beaten, the Boss will drop Plok’s flag, which will then float
+to the flagpole.
+
+FLEAPIT LEVELS
+
+Each cavern of the Fleapit is played as a race to the final archway, with a big
+bonus for Plok waiting there. Each level is one step nearer to the Flea Queen.
+
+SECRET BONUS LEVELS
+
+These levels (if you can find them) are a race against time. The idea is to
+reach the end before a digital timer counts down to zero. This can be very
+difficult, but there is a special reward for completing this challenge.
+
+===== Page 6 =====
+
+The loathsome spawn of the evil Flea Queen from the dark depths of the mys-
+terious Fleapit, these beasts should never have been allowed to see the light of
+day. Plok will have a tough task ahead of him if he wants to make Akrillic a
+
+safe and clean place to plant his flags again.
+
+FLEA EGGS
+
+Every level of Akrillic will be populated by a dozen or so
+‘ey Blan cash, cook cis st id biggalt  dingoating blue
+4 Flea gunge. The eggs are harmless in themselves, but
+will soon hatch into horrid little bug-eyed Fleas.
+
+Flea eggs will hatch of their own accord after a minute or so, freeing one more
+blue menace to roam the face of Akrillic. Much better to shoot the egg, as it
+will hatch quicker and you can blast the Flea as soon as it has hatched.
+
+are ADULT FLEAS
+
+Full-grown Fleas are truly the most terrible beasts in
+the whole of Poly-Esta. The jittery little bugs are hop-
+ping mad and never stay in one spot for more than a
+few seconds. Every hit turns them a shade greener as
+their strength is sapped. Three whacks should end their
+foul existence for good, but watch out that they don’t
+jump on Plok’s head first.
+
+SUPER FLEAS
+
+Many more powerful Flea types guard the Flea Queen in her underground lair.
+Flying mutant Fleas, slime-spitting super Fleas and tough sentry Fleas are all
+ready and waiting for anyone brave enough to enter the Fleapit.
+
+BY
+
+===== Page 7 =====
+
+Most of the inhabitants of Akrillic have yet to learn who their true leader
+is and still don’t treat Plok with the respect that he deserves. Plok should
+
+dispense some discipline...
+
+Ln)
+
+GERSHWIN
+A crazy kid from Cotton Island, this guy hops ‘til he
+drops, Two punches should knock him out for good.
+
+GIBSON
+
+Gibson is a metal fish who is all
+wound up about being wet! He's so scared of getting
+rusty, he tries to spend as much time as he can above
+water. Plok’s ordinary limbs won't do any damage to
+Gibson, so it is best to just stay out of his way.
+
+THE SHPROUTS
+
+These short, fat guys are the main indigenous
+population of Poly-Esta, The little suckers are all over
+the place! They come in several varieties, but they'll
+always fall for the old one-two punch.
+
+SHPROUTS Two shots should sort these out.
+
+SHIELD SHPROUTS You have to shoot these guys from
+behind — twice!
+
+SHCUBA SHPROUTS One hit and they'll jump in fright —
+shoot them again before they fall down.
+
+SHKY SHPROUTS These fall down from parachutes.
+
+SHCUBA SHIELD SHPROUTS These guys are only frightened if you
+get them from behind.
+
+SHKY SHIELD SHPROUTS The toughest Shprouts of all.
+
+ORSON
+
+This shy creature doesn’t like company much; he'll
+always try to frighten Plok away. If you can hit him
+once he'll lie back and play dead. Then you can hop on
+and hitch a free ride!
+
+JIVE HIVE
+
+There is always a party going on in here. This place
+rocks! Don’t go too near unless you really mean
+business.
+
+FUNKY B.
+These guys party in the JIVE HIVE and hate gatecrash-
+ers. They may be small but they can really give Plok a
+
+run for his money!
+
+BIG BUDD
+This giant flower is really lazy and hates to be disturbed, If Plok wakes him up,
+he'll always be ina bad mood. He's very tough to defeat and will release
+
+BUDD LITES to fight his battles for him.
+
+BUDD LITE
+
+This young flower is immune to Plok’s limbs; but
+Plok isn’t immune to the seeds it loves to spit, so
+watch out!
+
+===== Page 8 =====
+
+FROGROSE
+. see cousin of the BUDD flowers, usually found in the wetlands
+
+HATTERSLY
+A thoroughly rude character, Hattersly is so bad mannered he'll spit on Plok
+if he comes anywhere near him. A quick punch will scare him away for awhile,
+
+though.
+
+LILY MACE
+LILY MACE is a gentle giant of solid rock who floats around the ‘islands of
+
+Poly-Esta. She doesn’t mean any harm, but always wants to be near to Plok.
+Unfortunately, her spikes are quite deadly to the touch.
+
+Although Plok is the self-proclaimed King of Akrillic, a few renegade big shots
+have yet to come under his full control. These are all likely to give Plok some
+
+trouble during his mission.
+
+BOBBINS BROTHERS
+Milton and Marshall are failed circus
+acrobats who now roam the islands of
+Poly-Esta as thugs for hire. They are
+rumored to be in league with the Flea
+Queen. Some people say there used to
+bea third brother, Irving, who left the
+
+act many years ago due to “creative
+
+differences.”
+
+PENKINOS
+
+A tribe of inflatable magicians living in
+the north of Akrillic. Nobody knows
+where they came from or why they're
+
+there, because no one has ever returned
+to tell the tale. They cannot be hurt
+when fully inflated. Besides, they float
+too high, so something sharp should be
+used to bring them down to earth.
+
+===== Page 9 =====
+
+WOMACK SPIDER
+
+A real cool dude who lives right in the center
+of Akrillic. He thinks he’s the king of all
+
+he surveys and won't let Plok past without a
+fight. Womack’s spindly spider legs are
+definitely his weak point.
+
+ROCKYFELLA
+
+The spirit of the very soil of Akrillic, Rockyfella
+can pop out of the ground wherever he likes.
+Rocky is pretty sore about all the flagpoles
+which Plok stuck into the ground a while ago
+and is out for some kind of revenge. His
+stronghold is the mountains in the southeast
+
+of Akrillic.
+
+THE FLEA QUEEN
+
+Nobody has ever set eyes on the supreme Flea, but you can bet your last shell
+she's going to be ugly.
+
+FLEA GUNGE i
+
+This disgusting, sticky blue mess is left behind wherever the loathsome Flea
+Queen has laid her eggs. Most of it is harmless and will be cleaned away when
+Plok reclaims his kingdom, but some blobs can be shot away while playing,
+making Plok’s route easier.
+
+LOGS, ROCKS AND PEBBLES
+
+These are liable to fall from a great height at any point. Plok’s limbs are
+useless against any of these, so jumping is the only defense. What is it that
+keeps dropping things on his head? That's what Plok wants to know.
+
+SPIKY DOORWAYS
+
+These are spinning death traps — approach with extreme caution! I’m sure
+you'll work them out.
+
+SPIKES & BARBED WIRE
+
+These are deadly to the touch, and usually surround an area that somebody
+wants to keep Plok out of. There is always another way around. You can walk
+on these for a short time when you pick up a force field.
+
+RINGERS
+All kinds of junk and rubbish left by Plok’s arch-enemies (guess who?) to fool
+him into thinking he’s found what he’s looking for.
+
+===== Page 10 =====
+
+There are plenty of objects on the islands of Poly-Esta that are very useful to
+Plok, and all of these will help him in one way or another.
+
+LIMBS
+
+Plok’s main weapon. Plok has only four of these, so
+don’t fire them all at once or he'll end up with a pain
+in the posterior.
+
+TARGETS
+
+Targets must be hit in the center by one of Plok’s
+limbs to trigger a change in the landscape. This could
+be anything, from a moving spike to a wall of solid
+rock bursting from the sea. The limb that hits the
+target will be left out to dry on the nearest hanger.
+Some targets will only accept certain types of limbs,
+and some are connected to dynamite — so beware!
+
+HANGERS
+
+Usually found near a target, these are a collecting
+point for any limbs that have been fired at the target.
+
+FLAGS
+
+Each level has a pennant flag featuring the face of its
+owner (Plok instigated this system a while ago when he
+decided that he himself owned every level), with a
+special square flag exclusively reserved for Plok's
+House. When a gang of Fleas steals a flag, the last
+Flea to be defeated will give up the flag which will
+float back to the bottom of the flagpole, ready to be run up. Impostor flags
+can always be collected for extra energy.
+
+y
+
+SHELLS
+
+‘These are the most valuable items on Poly-Esta, so
+collect as many of them as you can. As well as giving
+points, the shells also power Plok’s AMULET. When
+the shell counter at the top of the screen is filled up, an
+extra life is awarded.
+
+SPEED BLADE
+
+This turns Plok into an indestructible spinning ball
+of steel, whizzing across the islands of Poly-Esta at
+breakneck speeds for a few short seconds.
+
+FORCE FIELD GEMS
+These magic gems give Plok an invisible force field for
+a few brief seconds.
+
+SURPRISE GIFTS
+
+Gifts have been left around the island by a mysterious
+secret admirer. They usually contain a costume or a
+vehicle to help Plok past a tricky situation.
+
+===== Page 11 =====
+
+MAGIC FRUIT
+
+Fruits restore your energy. Magic fruits are very small,
+but will get bigger if you shoot them. The bigger the
+fruit, the more energy they restore. Beware you don’t
+shoot them too many times, or you might not get what
+you expected.
+
+GOLDEN FRUIT
+
+Golden fruits are very rare. They are always full size, and will always fill
+Plok’s energy level to the max.
+
+THE LOST AMULET
+
+The Amulet was lost by Plok’s Grand Pappy many moons ago, but tales of
+its fabulous powers are legendary in the Plok household. The Amulet was
+powered by shells, and when activated the wearer would develop a fierce
+temper and fight like a whirling tornado, destroying everything in sight until
+the shells ran out.
+
+SAFETY CRADLES
+
+These floating platforms will carry Plok over dangerous gaps, complete with a
+handy safety rail.
+
+AUTO CRADLES
+
+These rotating platforms are fixed to a central cog and are quite handy for
+reaching high ledges. Some of these are broken, so Plok needs to hit the
+central cog with his fist punches to get them going.
+
+BUDDY HORNETS
+
+These friendly little bugs can be found around Akrillic
+in tiny blue and yellow nests. When Plok picks them
+up, they will buzz around his head until he sends them
+out as humming missiles to attack any nearby enemies.
+They may be loyal, but they're not too clever, and may
+not always attack the right target.
+
+SQUARE HEADS
+
+Strange creatures, half vegetable and half mineral, who
+are found scattered around the island of Akrillic.
+Although quite happy to sit and do nothing all day, if
+you jump on their heads a few times they might help
+you out a little.
+
+===== Page 12 =====
+
+Plok likes nothing better than to dress up like his favorite characters from the
+movies. He has quite an extensive wardrobe, and each costume also gives him
+a better weapon.
+
+PLOCKY
+Plok loves boxing, and with this
+costume, he has even bigger boxing
+gloves and unlimited punch power.
+
+VIGILANTE
+
+PLOK
+Straight from his
+favorite video,
+“Ploxterminator,” Plok is
+on the warpath with a nasty
+flame-thrower under his arm.
+
+SQUIRE PLOK
+
+An English country gent in a deerstalker
+hat and with a blunderbuss under his arm,
+Plok can be lord of all he surveys. Anyone
+who disagrees will soon find a pound of
+
+buckshot headed in their direction.
+
+COWBOY PLOK
+
+Plok’s favorite films are westerns.
+With a ten-gallon hat and spurs on
+his boots, Plok is the fastest gun in
+Poly-Esta.
+
+ROCKETPLOK
+
+Armed to the teeth with rocket launchers!
+
+===== Page 13 =====
+
+In the final battle with the Fleas, no punches will be pulled, The doors to
+Plok’s garage will be opened and his extensive fleet of fighting vehicles will be
+put to full use. Enterprising players may get to test-drive these vehicles earlier
+on, though...
+
+UNICYCLE
+
+Not bad for beginners, the
+
+Unicycle has some unique
+
+advantages for the ecologically-
+minded user. Comes with a
+free water cannon.
+
+OFF-ROAD TRUCK
+For tougher terrain than
+the Unicycle, this four-
+
+wheel-drive beauty offers
+both speed and comfort
+
+for those who want to go
+that little bit further, All
+models are equipped with an
+army surplus rocket launcher.
+
+JETPACK
+Straight from the drawing board, this prototype
+flying machine is sure to become the transport
+of the future. Not all safety features
+are in place yet; but it sure gives a
+hair-raising ride, and the powerful
+laser packs quite a punch!
+
+MOTORBIKE
+Now we're talking! A fast and mean
+radical machine! The quickest vehicle on
+the whole of Akrillic, and if anyone gets in
+your way, just chuck a grenade in their face...
+
+===== Page 14 =====
+
+HELICOPTER
+The only choice when it
+comes to air-to-ground
+combat, this baby is totally
+maneuverable in the
+tightest situations, and
+will drop bombs on
+anybody from a
+great height.
+
+TANK
+This is for those of you who really mean business!
+An unstoppable monster machine that
+
+nobody is going to argue
+with. What this
+
+thing lacks in speed,
+
+it makes up for in
+
+power.
+
+UFO
+
+For a limited period
+only, and at great
+expense, we have this
+totally alien, highly unlikely
+flying machine. Equipped with plasma
+cannons and fashionable deeley-boppers, this
+
+gadget will save you from a close encounter with doom,
+
+SECRET SUPER-VEHICLE
+The very latest in high-tech sophistication
+and modern battle armor technology has
+been utilized in this no-expense-spari
+weapon of the future to help Plok defeat
+
+the evil Flea Queen.
+
+===== Page 15 =====
+
+Plok’s world is the breathtaking archipelago of Poly-Esta, located in the
+Meridian Sea. Let’s take a quick tour of some of the more interesting
+locations...
+
+COTTON ISLAND
+
+A picturesque island to the west of Akrillic,
+where everything is made of soft fabrics.
+There are only a few local inhabitants and so
+far nobody (not even Plok) has claimed
+sovereignty over this small domain. Cotton
+Island is famous throughout Poly-Esta for its
+beautiful sunsets.
+
+AKRILLIC
+
+This is Plok’s homeland and the biggest island
+of Poly-Esta. Akrillic has many inhabitants
+both large and small, with the Penkinos,
+Womack Spider and Rockyfella being the most
+notable. The countryside ranges from sandy
+beaches through deep shady forests to craggy
+cliffs and caves. The only blot on this beautiful landscape is the highly
+built-up Plok Town. Plok recently proclaimed himself king of the island,
+
+although whether anyone took any notice of this is another matter.
+
+LEGACY ISLAND
+
+This is a long-deserted island to the north of Akrillic. In years gone by this
+was the site of Grand Pappy Plok’s great quest for the Lost Amulet. After
+many fruitless years, Grand Pappy Plok returned empty-handed. The Amulet
+is rumored to still be buried on Legacy Island.
+
+THE FLEAPIT
+Who knows what lurks in the underground home of the Fleas? Nobody,
+that’s who! No one has ever been stupid enough to go down there!
+
+Fired limbs come back instantly when they hit a baddie, but float back
+slowly when they miss. So try to make every punch hit.
+
+Plok cannot fire in a somersault jump, but can jump much higher
+than an ordinary jump.
+
+Pushing the Control Pad down at the same time as the Jump button
+gives Plok a lower jump.
+
+Pushing the Control Pad down during a jump brings Plok back to the
+
+ground much faster.
+
+When Plok has no limbs, he bounces constantly, being very difficult
+to control. Avoid this if at all possible.
+
+Buddy hornets only last for a short time, so don’t release them when
+there are no enemies around.
+
+When Plok is short of limbs, a power-up costume will bring them all
+hack if there is one lying around.
+
+===== Page 16 =====
+
+Concept, Design and Manual
+John Pickford & Ste Pickford
+
+A Software Creations Game
+
+Graphics and Design
+Lyndon Brooke
+Ste Pickford
+
+Program and Design
+John Buckley
+
+Music and Effects
+Geoff Follin & Tim Follin
+
+Compression Software
+Kevin Edwards
+Stephen Ruddy
+
+Additional Graphics
+Dan Whitworth
+
+Artwork
+Ste Pickford
+Chris Jojo
+
+Thanks to
+Mike Webb
+Brian Ullrich
+Dave Mac
+Malcolm Daglish
+Steve Thomas
+Lucy Gell
+
+Tay: Hiern
+Rare Ltd.
+
+Joel Hochberg
+Zippo Games Ltd.
+
+Producers
+John Pickford & Ste Pickford
+
+Executive Producers
+Richard Kay
+Byron Cook
+Joey Territo
+
+Tradewest, Inc. warrants to the original purchaser of this Tradewest software product
+that the medium on which this computer program is recorded is free from defects in
+materials and workmanship for a period of ninety (90) days from the date of purchase.
+This Tradewest software program is sold “as is,” without express or implied warranty of
+any kind, and Tradewest is not liable for any losses or damages of any kind resulting
+
+from use of this program. ‘Tradewest agrees for a period of ninety (90) days to either
+
+repair or replace, at its option, free of charge, any Tradewest software product, postage
+
+paid, with proof of purchase, at its Factory Service Center,
+
+This warranty is not applicable to normal wear and tear. This warranty shall not be
+applicable and shall be void if the defect in the Tradewest software product has arisen
+through abuse, unreasonable use, mistreatment or neglect. THIS WARRANTY IS
+
+IN LIEU OF ALL OTHER WARRANTIES AND NO OTHER REPRE-
+
+SENTATIONS OR CLAIMS OF ANY NATURE SHALL BE BINDING ON
+OR OBLIGATE TRADEWEST. ANY IMPLIED WARRANTIES APPLICABLE
+
+TO THIS SOFTWARE PRODUCT, INCLUDING WARRANTIES OF
+
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE,
+ARE LIMITED TO THE NINETY(90) DAY PERIOD DESCRIBED ABOVE.
+IN NO EVENT WILL TRADEWEST BE LIABLE FOR ANY SPECIAL,
+INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM
+
+POSSESSION, USE OR MALFUNCTION OF THIS TRADEWEST
+
+SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an implied warranty lasts and/or
+
+exclusions or limitations of incidental or consequential damages so the above
+
+limitations and/or exclusions of liability may not apply to you. This warranty gives you
+specific rights, and you may also have other rights which vary from state to state,
+
+ey TRADEWEST
+
+Tradewest, Inc.
+
+2400 South Highway 75
+Corsicana, TX 75110
+(903) 874-2683

@@ -1,0 +1,2516 @@
+# Utopia - The Creation of a Nation
+source: https://archive.org/details/snes_manual_archive
+pdf: Utopia - The Creation of a Nation ( USA ).pdf
+region: USA
+pages: 31
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+‘SNS-UP-USA
+
+Fase
+
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+JALECO® USA INC, LIMITED WARRANTY
+
+JJaleco USA Ine. warrants to the orignal purchasor of thi Jaloco volar product that the
+‘medium on which this computer program is recorded is reo korn dole thin matorals and
+‘workmanship for a period of ninety (60) days from tho dato ol purchawa TH Jaleco
+software program is sold "as," without express or impliod wavranly of any ki and
+Jaleco isnot liable for any losses or damages of any kind! rosuitig Hon wo of his
+program. Jeleco agrees for a period of ninety (90) days to either pat or replace, alts
+
+‘option, fee of charge, any Jeleco sofware product, postage pad ith proot of dato of
+purchase, atts Factory Service Center.
+
+‘This warranty le not appleable to normal wear and tear. This warranty shall not be
+applicable and shall be void ifthe dafect in the Jaleco software product has ar'sen through
+abuse, unreasonable use, mistreatment, or neglect. THIS WARRANTY IS IN LIEU OF ALL
+OTHER WARRANTIES AND NO OTHER REPRESENTATIONS OF CLAIMS OF ANY
+NATURE SHALL BE BINDING ON OR OBLIGATE JALECO. ANY IMPLIED
+WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT, INCLUDING
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE,
+ARE LIMITED TO THE NINETY (90) DAY PERIOD DESCRIBED ABOVE. INNO EVENT
+WILL JALECO BE LIABLE FOR ANY SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES RESULTING FROM POSSESSION, USE, OR MALFUNCTION OF THIS
+JALECO SOFTWARE PRODUCT.
+
+‘Some states do not alow limitations as to how fong an implied wasranty lasts andlor
+exclusions or limitations of incidental or consequential damages so the above limitations
+andor exclusions of itilty may not apply to you. This warrenty gives you specific rights,
+‘and you may also have olher rights which vary from slate to state
+
+Nintendo, Super Nintondo Entertainment
+Systom=, Super NES, and SNES are
+registred trademaris and ademas,
+respectively, of Nintendo of America Inc LbeNeED ey:
+
+Offcat
+
+Sealof Quality
+
+1996 JalaeoAlrights rose.
+
+‘This official seat is your assurance that
+Nintendo has approved the quality of
+
+{his product. Always look for this seal
+‘whion buying qamos and accossorios
+{o ensure comploto compatiity with
+JALECO USA INC. your Super Ninlondo Entertainment
+685 Chaddick Drive Syolom, A Nintondo products are
+Wheeling Ilinois 60090 liconwod by gale for use only with other
+
+e anionzot products bearing the
+(708) 215-1811 Official Nintondo Seal of Quality.
+
+WHY SHOULD YOU JOIN THE JALECO
+MAJOR PLAYER’S CLUB?
+
+Here’s what you get if you join:
+
+¢ WIN FREE GAMES
+‘You'll be eligible to win free Jaleco games from our
+once-a-month drawings!
+
+* EIND OUT ABOUT NEW GAMES
+Find out about new Jaleco games before they're
+released! Get in on special Jaleco promotions and
+contests! And more!
+
++ TEST GAMES BEFORE THEY'RE RELEASED
+Hey, maybe we'll even ask a few of you if you'd
+like to test Jaleco games before they're released!
+You could be selected as a Jaleco Major Player?
+
+Here’s what you get if you don’t jo
++ YOU GET NUTTIN’ IF YOU DON'T JOIN!
+‘And there’s only one way you can get in on all this
+‘good stuff — and all it's going to cost you is a few
+moments of your time and the price of a postage
+stamp!
+
+Here's how to join:
+Find the JalecoMajor Player's
+Membership/Warranty card enclosed in
+
+this package.
++ Fill in the information requested on the card,
+Puta stamp on the card,
++ Drop the card in the mail.
+
+‘That's right, all you gotta do is fill out the card, mail it to
+us, and you're in! Even if you've joined before, fill out the
+card and send it again. It will increase your chances of
+winning! Welcome to the club!
+
+===== Page 3 =====
+
+TABLE OF CONTENTS
+
+INTRODUCTION.
+OBJECT OF 'THE GAME.
+GETTING STARTED...
+CONTROLS.
+PRACTICE SE
+‘THE MAIN SCREEN,
+QUALITY OF LI
+‘THE BUILDINGS .
+THE ADVISORS.
+THE MAP SCREEN...
+FINANCE AND INDUSTRY.
+SPYING...
+DEFENDING YOUR COLONY.
+THE COLONISTS.
+RESEARCH. .
+SAVE GAME. .
+TROUBLESHOOTING GUIDE.
+GAME TIPS — THE JALECO
+| MAJOR PLAYER'S HOTLINE.
+TAKING CARE OF YOUR JALECO GAMI
+
+| WARNING: PLEASE READ THE CONSUMER INFORMATION
+AND PRECAUTIONS BOOKLET INCLUDED WITH THIS
+PRODUCT CAREFULLY BEFORE USING YOUR NINTENDO®
+| BARDWARH SYSTEM O8 GAME PAK
+
+INTRODUCTION
+
+Burke looked up as his first lieutenant stepped into the room.
+
+Movement in Sector Y6, Commander.”
+
+What is 12"
+
+“We don't know for sure, but my guess is Eldorian troops. According to the
+latest intelligence reports, two units have recently established an outpost in that
+sector. Our eadar has picked up several vehicles headed this way, and they're
+‘moving fast, ETA 15 minutes.”
+
+“Assemble the Battle Council — we need grounel and air reconnaissance reports
+As the door shut, Burke leaned back in his chair and contemplated the situation,
+It could be a false sepor...interference — a malfunction in the monitoring
+‘equipment,,,but he knew it wasn’t, The atack he'd been expecting for several
+weeks was om its way.
+
+Burke entered the War Room and found the others waiting. “Air reconnaissance?”
+“Nothing sighted ye, sir. However, spy reports suggest that.”
+es, Pye read the latest reports. Ground reconnaissance?”
+“The vehicles are now positively identitied as Eldorian assault era, heavily
+armed, Current ETA 10 minutes.”
+Burke tumed to the Defense Minister. “What’s our status, Jordan?”
+“Shields, radar, and laser turrets all operational. We're as prepared as we'll ever
+be. Sir, [recommend that we dispatch a tank squadron to intercept the Eldorians
+immediately...and begin evacuating the colonists.”
+
+1 long until the ships are ready for launch?"
+Five, maybe six minutes.”
+“Let's do it, Red Alert!”
+
+[As the room cleared, Burke switched on the viewing screen, Five assault eraft
+could be seen speeding across the rough terrain of Delta TV. A magnified view
+showed roof-mounted missiles om the top of each craft. He watehed helplessly as
+they ground to a halt, launched their missiles, then quickly trned ane! disappeaeed
+ina cloud of dust. Burke switched to radar, wondering if thei defenses would
+sand up to this kind of assault... afterall, the new heat-sccking rockets had never
+been tested in bal.
+
+Page 5
+
+===== Page 4 =====
+
+He stored at the radar. As he watched, three ofthe enemy missile disappeared
+from the sereen...but the other two kept coming. Switching to fullscreen vi
+be savy the laser turets on the outer perimeter open fire. One of the two
+remaining missiles exploded in mid-air, releasing vast plumes of green smoke
+‘hat slowly blanketed the planet suface in an eerie fog. A moment later,
+Lieutenant Morgan burst into the room,
+
+“Commander, sensors are indicating the presence a deadly bacterial agent..ift
+
+reaches the oxygen processor, i'll bein the life suppott system inten minutes.”
+Hho emergency backup, How long do we have?"
+
+“Only a few hours, sit. As you may recall, we had to divert. a large quantity of
+
+‘our esourees last month, and as a result,
+
+He stopped in mid-sentence, his eyes riveted t0 the view sereen, As they watched
+
+insilence, the final missile scored a direct hit on the main power station, It
+
+collapsed in pile of rubble.
+
+‘A moment later the Defense Minister rurned to the briefing room.
+ir, I'm afraid we can’t track the enemy missiles with any accuracy... they must
+bbe using some type of cloaking deviee, Air reconnaissance reports al leat four
+more waves of assault vehicles heuding this way. Looks like an all-out attack —
+what ate your orders
+
+“Gentlemen, we have very few options lef. We ean stay and fight, but the odds
+are against us.,.oue technology is simply no match for these weapons. Give the
+‘order al onve, Lieutenant — all military personnel are to join the evacuation
+immediately.”
+
+“The next day, Burke replayed the whole scenario in his mind as he entered the
+‘conference room. ‘The simulation had been impossibe...a no-win situation from
+the start. What had they expected him to do — stay and fight to the end? Go out
+in ablaze of glory? He surveyed the advisory panel seated atthe far end of the
+room, So, they were going to evaluate him, were they? Well, they could keep
+their command post...there must be easier ways to make living.
+
+“Good morning, Commander, Allow me to inteaduce mysel 1
+‘Coon Bree Le8dce Calon fee ss ir tsribrs 6 te CGS
+Advisory Panel...”
+
+Page 6
+
+He introduced each one in wen, but Burke wasn’t paying much attention. He'd
+never been very good at remembering names. He listened vaguely as they
+reviewed the current status of each colony and discussed plans forthe future.
+He'd already decided to leave the service and get a nice easy job in the private
+sector.-.maybe stat his own business.
+
+"as Twas saying, we were all immensely impressed with your performance
+yesterday, Commander. Your administration skills are beyond question, but we
+needed to see how you'd react ina crisis. ‘The Omicron system ison the frontier,
+‘nd you're likely to meet some heavy resistance. Colonizing ten planets i a tall
+order, but we're confident that you..."
+
+Burke was brought back to reality with a jolt ashe realized what Coleman was
+saying.-they were offering him the post — leader of the entire Omicron colony
+project!
+
+‘so what do you say, Commander? Are you up (othe challenge?”
+Burke did't hesitate fora minute. “When do Leave?”
+
+OBJECT OF THE
+GAME
+
+Did you ever dream of creating a
+perfect society, free from erime, hunger,
+disease, even boredom? Impossible as
+it sounds, you're about to get the chance
+to make that dream a reality in
+Ctopia...the ultimate blend of colony
+simulation and all-out adventure.
+There's everything you'd expect in a true simulation — a full, rich environment
+complete with building eonstruetion, trade, population control, reseatch,
+‘manufacturing, and a myriad of other elements. But Utopia takes the genre one
+step beter, with an outer space setting anda whole new dimension...war, After
+all, what civilization would be complete without it?
+
+‘The Planets
+‘As Colony Leader, you're given the opportunity to establish settlements on ten
+
+Page 7
+
+===== Page 5 =====
+
+different planets. Each planet has its own
+unique terain, Some are nothing but
+desert, with sattered outcroppings of rock
+and patches of dense space moss, Others
+feature lush green forests and vast
+expanses of bright blue water, You'll
+‘encounter everything from arctic wndra
+and fiery lava lows to batlomless
+crevasses and suphurous lakes.
+
+The characteristics of each landscupe will restrict the layout of your colony, but
+should also provide you with clues as tothe likely direction of an enemy attack
+‘Study the map carefully before you begin building. You can move on (oa new
+planet any time you ssish, but don’t be too hasty to abandon an existing colony,
+Experience inthe field is invaluable... especially as each scenario is alittle more
+dlifficlt than the las.
+
+‘The Aliens
+Each planet supports its own hostile alien race, whose colony i located out of
+‘map range on the far side of the planet. Tt seems that the aliens have plans for
+‘expansion, 199, nd they're none too pleased to find you setting up shop inthe
+same sector. Infact, once they realize what you're up to they can get downright
+nasty...s0 be prepared to defend yourself and your colony before long. With the
+proper funding, your spies can provide you with invaluable information about the
+aliens’ Features, habits, mifilary strength, and plans for attack.
+
+‘The Calon)
+‘You begin each venture witha small nucleus colony, including a population of
+100 eager, enthusiastic setlers. You literally build your colony from the ground
+up, constructing living quarters, life support systems, hospitals, hydroponic food
+produetion domes, laboratories...maybe even a spots stadium or two. The
+Federation kindly supports you for the First few years, but when the Colony Grant
+runs out, you're on your own, ‘Taxes bring in moncy, as does trade in supplies
+and raw materials, You ace responsible for managing both ofthese variables,
+
+‘Wilh the threat of an alien attack imminent, one of your First concems should be
+
+Page 8
+
+the defense of your colony. You have immediate access to a number of weapons,
+including laser torrets and missile aunchers, Place radar installations on the
+perimeter ofthe colony ta seam for enemy eraft. ‘The construction of tanks and
+spaceships requires a litle mote planning, but is well worth the effort. These
+Units will give you the fre power and flexibility you need to defeat the invading
+forees...or even launch a stike of your own.
+
+AA sophisticated map and radar facility gives you instant access o detaited plans
+‘of the surrounding area. Use this seen to survey your farees and gauge the
+strength of an enemy attack. ‘The map sereen also indicates the location of
+Valuable fuel and ore deposits hidden beneath the planet's surface — eventually
+Both of these resources are necessary if you plan to maintain a yell-armed
+colony. Another crucial factor in the development of your colony is esearch
+bbe sure to supply enough money for both Military and Civilian grants. Doing so
+will ensure that your seientists are able to invent powerful new weapons and
+cother devices that can make life easier for you and your colonists
+
+all this seems a file daunting, don’t be discouraged...you're not init alone
+‘The Federation has provided you with a team of six expert advisors, who keep
+you informed about day-to-day affairs and let you know when a problem
+‘develops. ‘Their counsel chambers are open except when you have an energy
+shortage orif your Command Center is destroyed, andl they provide a wealth of
+information about your growing colony and its people.
+
+The Mission
+
+Your ultimate goal is to make the people happy — specifically, to raise their
+quality of Fife to the highest possible level, To reach this goal, you should avoid
+the obvious problems: crowded living quarters, insufficient food or air supplies,
+tahigh crime rate. Shore up your defenses early, and be sure to maintain a strong
+military presense — defeat in battle ean have a drastic effect on your colonists.
+Boost their morale by holding sports events, building more hospitals, lowering
+taxes, and controlling pollution. Will they ever be 100% satisfied? Probably not,
+but don't et that keep you from tying. Your efforts won"t go unnoticed.
+
+‘When you've had enough for one day, just save the game. You'll be able to pick
+things up again next time, right where you left of Utopia is an open-ended
+
+Page 9
+
+===== Page 6 =====
+
+‘game, whieh means you can play it forever...as long as you don’t get assassinated,
+‘wiped out by a virus, or destroyed by aliens. Hey, no one said this was going to be
+
+totally risk-free venture. Bul if you've always wanted to be Commander-it
+‘Chief and eal the shots, now's your ehance,...with not one, but ten unique
+scenarias. I's the challenge of a lifetime — the creation ofa soviety where
+‘everyone is happy, heathy, safe, and secure. In other words, a true Utopia..\ho
+could ask for more?
+
+GETTING STARTED
+1. Place the Utopia Game Pak into your Super
+erlainment System and tura onthe uni.
+2. When the tite screen appears, press any button to beg
+
+Game Options
+“The frst game panel displays three options. Use the Contr Pad to highlight an
+‘option, then press the ¥ Button to select that option,
+
+MUSIC ON/OFF
+“Turn che music on or off.
+
+START NEW GAMI
+Choos his option to dsplay a sereen showing the names ofthe 10 available
+planets plus a Pratce mode. Each pine has oa thigue train and suppodts a
+Uifferent alien ace. You may select any plane that you wish, However, sive the
+Scenatios are anked inorder offical, we commend that you begin at the top
+and work your way dou. Ifyou choose Practice mode, you wil be placed onthe
+planet Rhendoe IV) without an alien treat. To choose an option, use the
+onto! Pad to highligh that option and press he ¥ Button. Your option are:
+
+Plancts Aliens
+PRACTICE. st NONE
+RHENDOR IV sossnsnnsnnennsnneeELDORIANS
+ALPHA CETL. VROARSCANS
+VEGA Ml snnnnnnninnnnnnnn SOOMANIS
+ASTORIA Te seues KAL-KRIKEN
+BENEZAR IV ssn CATALYTES
+
+Page 10
+
+ANTARES Il SQUIZ-QuUY
+RUKBAT IIL /sPASCALENES
+BETA ZAN To TILIKANTHUA,
+MERAK VI... - -VANACANCIA
+GAMMA LUCRA. LUCRATIANS
+
+CONTINUE
+
+You
+
+ay save a single game on your Super NES™ Utopia Game Pak.
+
+this option and press the ¥ Button to continue the saved game.
+
+CONTROLS
+
+Control Pad
+
+‘Main Sereen
+Control Pad
+
+AButton
+B Button
+
+XButton
+
+Y Button
+
+Left Button Right Button
+
+Select Button Y Button
+Start Button
+
+‘Move Up, Down, Left, or Right to view the
+inhabitable portion of planet surface
+
+Carry out the selected action
+
+Switch cursor control between Planet View
+area and Icon Selection area
+
+‘Switch cursor made on Planet View
+(Construct, Demolish, Information)
+
+Reposition Marker on Planet View
+
+Highlight
+
+X Button
+
+A Button
+B Button
+
+===== Page 7 =====
+
+(On other sereens, y
+
+vill generally use the A Button to select an action and the
+
+B Button to exit the sereen. Specific controls for each sereen are provided in the
+corresponding sections of this manual,
+
+‘Mouse Controls
+
+Title Sereen
+
+Main Sereen
+
+Pause
+
+Spy Screen
+
+‘Map Screen
+
+Bui
+Sereen
+
+ng
+
+On the Title Sereen, clic either button to begin the game,
+‘To select an option from the first panel that appears, position,
+the cursor aver the option and click either button,
+
+(On the Main Sereen, the Hand cursor appears on the Planet
+‘View as well as over the Icon Selection area. On the Planet
+View, move the Hand to move the Hashing cursor around
+the planet surface. Click the tight mouse button to change
+the ican made, from Build Made to Information Mode 10
+Demolish Mode.
+
+Click the left mouse button o carry out the selected action,
+Use the arrows in the lower tight comer ofthe seveen 10
+scroll the planet surface. Position the Hand cursor over the
+ireotion you wish to scroll and click cither button, To
+selest one ofthe icons atthe bottom ofthe sereen, position
+the Hand eursor over an icon and click either bution,
+
+Position the Hand cursor over the Pause icon (222) and
+click either button,
+
+‘Click the left bution to view additional pages, and click the
+right button to view additional reports. Position the eursor
+‘over the X icon and click ether button to return to the Main
+Screen,
+
+Click the left bution to change the sereen mode, Click the
+right button to return to the Main Screen,
+
+Position the Hand cursor aver a building, then cick either
+button to select that building and return to the Main Sereen,
+
+Advisors
+Sereet
+
+Finance
+Sereen
+
+Game Options
+
+Position a
+Marker
+
+Deploy a
+‘Tank
+
+Position the Hand cursor over an advisor, then eliek the eft
+‘button to select that advisor and display the First information
+panel. Click the left button to display the next information
+panel, or elick the right button fo exit the panels. Click the
+sight button again to return to the Main Screen,
+
+Position the Hand cursor over the number you want 10
+change. Click the sight button to increase the amount,
+‘0¢ click the left button to decrease it. To continue tothe
+‘next panel, position the cursor over the X icon and
+
+‘he left button, Position the cursor over the X
+icon and click the right button to return to the Main
+Sereen,
+
+Position the cursor aver an option, then click ether button
+to select that option, Position the cursor over the X icon
+and click ether button to return to the Main Sereen,
+
+Move the Hand cursor over the Planet View and click
+the sight mouse button until the Question Mark cursor
+appears, Position the Question Mark over the new location
+forthe Marker, then elick both buttons atthe same time to
+display the Marker panel. Use the cursor to select a Marker
+number, then click either mouse bulton to move the selected
+‘Marker to the new locato
+
+Position the Question Mark cursor over a tank and double
+click the left mouse button to display the tank information
+panel. To select a marker, position the cursor over'a marker
+‘and click either button. ‘To select the number of tanks to
+‘send t0 that marker, postion the cursor over the 00 in the
+line SEND 00 TANKS TO MARKER. Click the right
+mouse button to increase the number, or click the elk mouse
+button to decrease it. Postion the cursor over the X ican
+‘and click either button to deploy the tanks and yeturn tothe
+Main Sereen,
+
+Page 13
+
+===== Page 8 =====
+
+Seleet a Ship Position the Question Mark cursor over a Ship Yard snd
+click the left mouse button to display the ship informacion
+panel, Selecta ship then cick ether button to begin
+constuction,
+
+Deploy a Ship Position the Question Mark cursor over a. ship and double=
+click the let mause bution to display an information panel
+for that ship. To change the ship's orders, position the
+cursor over the ORDERS line and click ether button, To
+select a marker, position the cursor over a marker number
+
+click either button. To exit the sereen and deploy'the
+ship, psition the cursor over the X icon and eliek either
+bute
+
+PRACTICE SESSION
+
+‘This shor learning guide is designed to give you a feel forthe game and allow
+you t hegin playing Urepia Immediately, without reading the rest of the manual.
+During this practice session, you will be given the opportunity to create a small
+colony, accessing many of the major game sereens and carrying out most of the
+basic commands and aetions (excluding combat). However, you will need to
+read the rest of the game manual to understand the complexities of game play so
+that you may experience the full depth of Utopia . But nov, on tothe colony!
+
+‘The Gam
+Begin the game as instructed above, then choose START NEW GAME and
+select a PRACTICE game. You willbe placed on the frst planet (Rhendor IV),
+but the alien race there is programmed not to attack you — so relax! You begin
+the practice session with 500,000 credits
+
+and a Quality of Life factor of 50%, as
+displayed atthe top of the seveen, The
+center of the sereen shows a 3-D,
+isomettic view of a small portion of the
+planet surface. Seven icons are displayed
+beneath the Planet View. You will use
+these icans to aceess other game sereens,
+as described later on,
+
+Page 14
+
+Every scenario begins with small nucleus colony. which contains 100 150 in a
+Practice game) colonists and all ofthe basic necessities of life. Your goal is to
+‘expand this colony in an orderly and productive manner. Use the Control Pac to
+slowly seroll the view so that you can take a Look atthe rest of your colony. You
+will sea Launch Pad, your Control Center afew Living Quarters, and various
+‘other structures. Notice the flashing cursor, which appears over the Planct View
+inthe shape of a Construction Truck. This indicates that the cursor isin Build
+Mode. ‘The two other modes are lnformation Mode (a Question Mark) an
+Demolish Mode (a Bulldozer).
+
+Gatting fnform:
+“To find out more about one ofthe buildings in your colony, you rust switch 10
+Information Mode, Press the X Button until the flashing cursor changes toa
+
+Question Mark, Next, position the eursor over one of your buildings and press
+the A Button, You will sce a small panel describing the building. Press the B.
+ution to exit the panel. Spend a few minutes examining each of the buildings
+{in your colony. Notice that some panels provide more information than others.
+
+Construction and Demolition
+
+Constructing nev buildings is vital pat of Utopia. To learn how to perform
+this task, you will now build more Living Quarters for your colonists. First,
+seleet Build Mode by pressing the X Button until the Construction Truck cursor
+appears on the sereen. Next, press the B Button to display a Hand eursor atthe
+‘bottom of the sereen, near the icons,
+
+Use the Control Pad to select the Build
+icon (the Hard Hat) and press the
+Button to display the Buildings Screen.
+AAs you move the Hand cursor around
+the sereen, the name ofthe selected
+building appears inthe information
+panel, Select the Living Quarters
+{(ocated in the upper right corner) and
+press the A Button to return tothe Main
+Screen,
+
+[Notice that the building you sclected now appears in the upper right corner of the
+sotecn, asa reminder. Press the B Button to return tothe Planet View. Next
+position the Construction Truck cursor over the spot you want to build and press
+
+Page 15
+
+===== Page 9 =====
+
+the A Button. Colonists are assigned nvtomaticaly to the construction task and
+scaffolding should appear at that location. A message will appear on the sere
+you cannot build because you are too far away from a power source
+Construction ine varies from building to building, ‘The building will appear
+when the time is up.
+
+To experiment with demolition, you will now demolish a solar panel (don’t
+
+worry — it can be easily rebuilt}, Press the X Button until the flashing cursor
+‘on the main display changes fo the Bulldozer. Position the cursor over a solar
+panel and press the A Button to demolish it. A pile of rubble will ake the place
+‘of the solar panel, Press the A Button again to remove the rubble,
+
+Looking at the Ma
+Press the B Button to display the Hand cursor atthe bottom of the screen, then
+position the eursor over the Map ivon (the Planet) and press the A Button to
+Gisplay te Map Seren. The main ply shows al fhe planet surface thal
+available'for colonization, Black areas represent flat terrain on which you may
+uikd, Gray areas indicate mountains or other landscape features on which you
+‘may not build.
+
+‘Your colony appears in the center of the sereen, surrounded by a circle which
+indicates radar coverage. ‘The flashing square corresponds to the area of the
+planet which is displayed in 3-D on the main game screen, A magnified view of
+this area appears in one corner. Use the Control Pad to seroll the Mashing square
+around the surface. ‘The numbers onthe sereen (1-8) represent markers to which
+tanks and spaceships may be sent.
+
+‘The Map Sereen shows three different
+aspects of your colony: its buildings, its
+ral resources, an its military
+‘equipment. Press the X Button to view
+‘each of these sereens in turn. Notice that
+the color-coded legend at the bottom of
+the screen changes to identify the selected
+elements. When you have finished
+viewing the Map Sereen, position the
+flashing square over your colony and press,
+the B Button to roturn to the Main Screen.
+
+Getting Advice
+As Colony Administrator, you're not alone
+‘You have six able advisors who watch over
+various aspects of your colony and make
+suggestions when appropriate. .s0 pay
+tention! Ta see what they have to say,
+press the B Button to display the Hand
+‘cursor at the hottom of the sreen, then
+select the Advisor icon (the Face} and press
+the A Button to display the Advisors Screen,
+
+Position the cursor over one of the advisors and press the A Button to display a series
+‘of information panels. Press the B Button to exit the panels at any time. Take a few
+riiautes to consult with each of your advisors in tm, Don't worry about the time —
+the elock stops as Tong as an information sereen or panel is displayed. When you are
+ready fo retnrm to the Main Sereen, press the B Button,
+
+Conclusion
+
+‘You have nov seen most of the important game elements. Take as Jong as you want in
+practice mode, constructing buildings and experimenting with various other options.
+However, before beginning an actual game we strongly recommend that you read the
+rest of this instruction manual. It contains a wealth of information on many’ subjects
+not mentioned here, including trade, finance, spying, and ship and tank construction.
+
+‘When you feel confident enough o play area scenario, press the B Button to disp
+the Hand cursor, then select the Options icon (the Computer Cap) and press the A.
+‘Button to display the Options Sereen, Choose START NEW GAME, then select the
+first planet (Rhendor LV) and press the A
+
+Button to bogin, ‘This scenario is identical
+to tha ofthe practice scenario... except for
+ihe aliens, of course, Good luck!
+
+THE MAIN SCREEN
+
+“The Main Screen contains a three
+dimensional world view of one small
+section of the planet you are colonizing,
+along with other important game controls
+and information,
+
+===== Page 10 =====
+
+Planet View
+‘The Planet View shows you a focused area ofthe planet surface. Using the
+Control Pad, you can sevall this view to see mare of your ealony and the pla
+‘You perform three types of activities on the Planet View — the cursor om this
+portion of the screen changes shape to indicate which activity is selected. Press
+{the X Button to switch between modes:
+
+2
+
+Information Cursor appears as a Question Mark, Allows you to
+
+Mode. Alisplay information panels describing the buildings in
+‘your colony.
+
+Build Mode. Cursor appears as a Construction Truck, Allows you to
+
+place buildings on the planet sutace.
+
+Demolish Mode. Cursor appears as a Bulldozer. Allows you to tear
+down existing buildings and clear away wreckage
+
+nformatir
+Use the Control Pad to position the
+Question Mark over an existing building,
+then press the A Button to display the
+information panel for that building. Press
+the A Button again to hide the
+information pane! once you have read the
+information. Some information panels
+simply identify the building, Others
+
+provide addtional information. ‘The
+ospital information panel allows you to change the colony's birth rate. See the
+BUILDINGS section ofthis manual for more information,
+
+Build Mode
+
+Use the Control Pad to move the Truck (othe desired location, Remember, you
+niust build within 12 squares of a Flux Pod. Press the A Button co begin
+construction ofthe selected building. Scaffolding will now appear atthe location
+fof the cursor. Construction time varies from building to building. ‘The building
+‘will appear automatically when the construction period is over. Note that you
+may not build on tp of other buildings, scaffolding, wreckage, ora variety of
+terrain features.
+
+Page 18
+
+Demolish Mode
+Use the Control Pad to position he Bulldozer over wreckage or an existing
+
+building, then press the A Button. If you have demolished a building, wreckage
+‘now appears at that location, Press the A Button again to remove the wreckage.
+
+Status
+'A status ine a the top of the Main Screen shows the following information:
+QOL s0%% ERD s0000 O1/ANI2090
+
+QOL Quality of Life percentage. This begins at 50% and
+increases or decreases as the game progresses, depending
+‘on your skill as Colony Leader.
+
+CRD Available credits (money). You are given $0,000 credits at
+the heginning of the game to spend as you wish. You will
+‘also receive a small allowance from the Federation every
+‘month for the fest 50 months (Four years and two months)
+in the fore of a Colony Grant. This grant begins at
+‘5000/month and decreases by 100 credits each month,
+‘Additional money comes from trade nd taxes.
+
+DATE The calendar begins at O1//AN/2090 and runs
+continuously when the Main Screen is displayed atthe
+rate of approximately one day every two seconds. ‘The
+ccalendar stops and the game pauses whenever a
+secondary seteen of an information panel is displayed.
+
+Building Indicator
+“The Building Indicator is located below the date in the upper right portion of the
+sereen, This indicator tells you which building is curently selected on the
+
+Building Screen, Bach building occupies from one to four squares, depending on
+itssize. When the game begins the frst building selected is a Flux Pod. To
+select another building, you must gain access to the Building Seren, The
+selection prooess is described fully later on in this manu
+
+eons
+Seven icons appear along the bottom edge of the Planet View, To select one of
+these icons, press the B Button. A Hand cursor appears at the bottom of the
+
+Page 19
+
+===== Page 11 =====
+
+screen. Use the Control Pad to position the Hand over an icon, then press the
+‘A Button to select thal icon, When you have finished viewing the information
+‘on the selected screen, press the B Button to exit. From left to tight, these
+icons give you access tothe Following screens and funelions:
+
+Pause. Press the A Button to pause the game, and press
+any button to continue. NOTE: The game also pauses
+ivhienever an information sereen ox panel is displayed.
+
+Sy Inarmaton Seren, Once yu locate money
+tothe Spying Grant jour pes pesto wil provide
+Sou vit itlignse eons, NOTE: THs eo il ct
+eetv onl hes spying spot ise bak, Behe
+ssn on SPYING fornae information
+
+Planet ‘Map Seren, An overview of the planet surface showing
+thee different views, indicating the location ofall
+buildings, natural resources, markers, and military
+equipment. Sec the full description of the MAP SCREEN
+Tor dt
+
+Hard Hat Building Sereen. Shows al ofthe buildings currenily
+available for placement within your colony, along with
+thir cost and construction time. See the BUILDINGS
+section for more information,
+
+Face Advisors Screen. Gives you access to the information
+and suggestions provided by your six advisors. See the
+jon on ADVISORS for more information,
+
+$ Fi
+
+nice/Industry Screens. The first sereen allows
+| ‘you fo establish trade guidelines, set the tx rate and fund
+‘grants. The second sereen shows the number of colon
+
+| foo em nd lps teen See be
+‘Stn on BINANCE AND INDUSTIY fo more
+itm
+
+wuter —Save/L.oad Game. Allows you to stata new game, save
+the current game, load a saved game, or turn the music on
+
+or of. See the SAVE GAME section for details.
+
+Warning Indicators
+When certain dangerous situations arise, a flashing warning indicator will
+appear in the lower left portion ofthe sereen, ‘These indicators are:
+
+Light Bulb Your colony is running out of power. Build a
+over Plant or Solar Panel immediately
+
+Knife and Fork. Your colony is running out of food. Build
+more Hydroponics.
+
+02 ‘Your colony is running out of air. Build
+another Life Suppor facility
+
+Running Man An unusual event has occurred somewhere
+within the colony. Position the Hand eursor
+‘ver this indicator and press the A Button to
+_g0 immediately co the scene of the event
+Press the A Button again to return t your
+previous location
+
+QUALITY OF LIFE
+
+In Uropia, success is measure in terms ofthe colonists’ Quality of Life rating.
+
+‘This percentage isan indication of how well you are managing the colony and
+
+how happy’ the colonists aro with their environment, ‘The QOL factor is displayed
+
+ax all rimes on the Main Seroen so you ean Keep an eye on it, The rating starts at
+
+‘50% and increases or decreases hased on a wide range of factors, reflecting long
+
+term trends rather than short-term benefits or disadvantages. lac follow are just
+
+of few of the factors that affect the QOL:
+
+Crime A low crime rate will positively affect the QOL. As
+
+you might guess, if your colonists are happy they are
+less likely o turn to rime,
+
+Page 21
+
+===== Page 12 =====
+
+Morale
+
+Combat
+
+rech Level
+
+Colony Size
+
+Population
+
+Environment
+
+‘Your Psychiatric Advisor keeps you informed as to
+the colonists’ morate level. Strive for high morale
+by ensuring that your colonists have adequate living
+‘quarters food and air supplies, and an occasional
+sporting event to attend
+
+Winning batties or fending off an enemy altack ean
+have a dramatic affect on the QOL. On the other
+‘hand, morale will plummet ifthe aliens ropel an
+altack or manage to destroy part of your colony.
+
+I you build Jaboratories and fund civilian and
+military esearch, your scientists will reward you
+by inventing new devices that ean make life safer
+and easier for the colonists
+
+‘A well-organized colony gives the people a sense of
+security. If at all possible, keep your living
+‘quarters, hospitals, solar panels, and hydroponies
+away from military sites, construction yards, life
+support, and power stations, Plan your layout
+carefully and be sure to clear away any wreckage.
+
+Large populations allow more social interaction,
+creating greater personal fulfillment. Life is easier
+‘because the workload is shared among a larger group.
+
+A low death rate along with controled bisths adds to
+the colonists felings of security and well being.
+
+[Keep taxes as low as possible to improve the QOL.
+
+Pollution becomes a problem as industry expancls an
+you embark on lage construction projects
+Investments in civilian research will result in new
+inventions that eliminate this polfution and create
+‘ahealthy environment,
+
+‘Your goal is o bring the Quality of Life rating as close to 100% ns possible, You
+will receive achievement medals if you are able to reach and maintain a QOL.
+rating of 60% or more. You may move on to the next scenario at any time,
+although we recommend waiting until your current QOL reaches at least 80.
+‘You'll Find that the skills you aequite in the early levels will be of use 10 you as
+‘you progress,
+
+THE BUILDINGS
+
+‘The placement and construction of buildings isthe foundation of Utopia, You
+create the best ofall possible worlds by deciding what to build, where to build it,
+and when it should be built. Initially, you have 23 buildings to choose from,
+
+Each of these structures is described below.
+
+‘The Buildings Screen
+Dress the B Button to display the Hand
+ceursor, then select the Building icon
+(the Hard Hag) at the bottom of the
+Main Sereen and press the A Button to
+display the Buildings Sereen. As you
+point toa building on the Buildings
+Screen, the name, cost, and time
+required to build that structure are
+Alsplayed. Buildings associated with
+new inventions (for example, Compressed Fuel Tanks) appear on the Buildings
+Sereen as they are discovered. Some of these inventions will replace earlier,
+obsolete structures.
+
+Construetion
+Aiter sclectng a building, press any button to return to the Main Sereen. Press
+the B Button to return to the Planet View area, then select Build Mode by
+pressing the X Button until the Construction Truck cursor appears. Position the
+{ruck over the area you want to build on and press the A Button fo begin
+construction. Scaffolding will appear,
+
+Each building occupies one or more squares, depending on its size and
+complexity. An average of 20 colonists are eeruited to work on each new
+building. A warning message will appear if there are no colonists currently
+
+===== Page 13 =====
+
+available to work on the new construction site, IPthis occurs, wait a minute oF
+tygo and then try to place the building again.
+
+Construction takes anywhere from one week to four months, depending on the
+building. The average construction time is one month. If you decide to demolish
+‘building orif tis destroyed in an altack, the structure tums to rubble. ‘To clear
+the wreckage from the sereen, press the X Button to seleot the Demolish cursor,
+place the cursor over the wreckage, and press the A Button to remove the
+wreckage.
+
+What to Build
+‘The initial 23 buildings ful nto four broad groups: Support Systems, Defense,
+Industrial Development, and Community Enhancement, A network of basic
+suppor systems is provided with your startup eolony, so you don’t need to worty.
+about those right away, On the other hand, you would probably be wise to shore
+up your defenses early on and begin preparing for the coming assault. ‘That done,
+‘you can decide whether to throw your resources into industry or attend more
+‘directly tothe needs ofthe people with hospitals and civilian grants. When in
+doubt, listen to your advisors — they ean provide invaluable assistance in colony
+management.
+
+Where to Build
+Each startup colony includes a Fhix Pod,
+‘which stores the colony's energy reserves.
+All buildings must be located within 12
+squares of a Flux Pod. If you try to build
+outside the designated area, a warning. |
+message appears onthe sereen, You also
+
+gota watning if you try o build on top of
+rocky terain, lakes, revices, space moss,
+tuces, or other unsuitable areas. ‘Try it and
+
+‘You don’t need a degree in city planning, but take your time ancl use some
+‘common sense in the layout of your colony. Don’t build too close together or too
+ar apart, and try to maintain a sense of order. Remember, an organized colony
+contributes tothe well being of your colonists and raises the Quality of Life. If
+you're unhappy with the location of a building, you can call in the demolito
+
+Page 24
+
+crews and then rebuild it elsewhere, but this is both costly and time:
+cconsuming...better to get it right the first time.
+
+When to Build
+Build early! Once your basic colony isin place, Keep on top of the situation by
+‘analyzing the information available to you and planning ahead. If you inctease
+the birth rate, be sure to have plenty of Hospitals and Living Quarters available.
+Once the population reaches a certain level, you may want to start thinking about
+‘adding Security installations. If you build Tank or Ship Yards, remember that
+you'll also need to build Mines, Chemical Plants, Fuel Tanks, Arms Laboratories,
+and Stores.
+
+‘Check frequently with the Colony Administrator, who'll keep you up-to-date on
+the colony’s Air, Food, Fuel, Power, and Ove reserves. If your usage starts to
+catch up to your production in any ofthese areas, it's time to build new facilities.
+‘You should also pay regular visits to the Senior Psychiatrist for reports on
+‘morale, population control, and crime. Pay aitention to all of your Advisors, but
+don’t ait for them to prompt you — by that ime it’s already too Tate, and the
+‘colonists may suffer for several months while the new buildings are under
+construction.
+
+Buildings
+“The following provides a brief description of each ofthe 23 original buildings ts
+purpose, and the part that i will play in the development of your cotony. The
+‘buildings that result from now inventions are deseribed in alate section.
+
+Arms Laboratory
+Produces weapons which are then stockpiled in your Stores. Weapons
+are required for the construction of Tanks and Spaceships.
+
+‘Chemical Plant
+[Extracts fuel from the ground for use in Spaceships (Tanks do not vequite
+fuel), Chemical Plants must be built near fuel deposits. Use the Map
+Sereen to locate deposits close t your colony site — you may have to guess
+at first before the Fuel Detector is invented, Plant produetion depends on
+the yield of fuel underneath it
+
+‘Command Center
+Critical to the security of your colony. You may construct as many
+
+===== Page 14 =====
+
+‘Command Centers as you lke, but only one will be active at any given
+time. Because the netive Command Center isa primary target in alien
+‘attacks, you would be wise to construct a least one backup Center. If
+the active Command Center is destroyed, the backup will be activated
+automatically. Your colony can exist without an active Command
+Center, but several Key funetions will shut dawn...we'll leave i up to
+‘you to discover what they are!
+
+Stores surplus power for later use
+‘An information pane! is displayed
+‘when you select a Flux Pod in
+oemation Mode, This panel
+indicates the amount of power
+currently stored in all Plux Pods, 1
+well as the maximum number of
+storage units available, Each Flux
+Pod ean store 20 power units. AU! bui
+squares of a Flux Pod.
+
+Fuel Tank
+
+‘Stores the fuel produced by Chemical Plants or aequired in wade. An
+information pane! is displayed when you select Pel Tank in
+
+Information Mode, ‘This panel indicates the amount of fuel currently stored
+in the selected Tank, as well as the mximum numuber of storage units
+
+4 Tanks, Each Fue! Tank can hold up $00 units
+offfvcl. Fuel Tanks must be located within eight squares of a Launch
+Pad (for refueling by Ships).
+
+ings must be located within 12
+
+Hospital
+Improves morale, cures viruses, and enables you to control the birth rate
+‘You may build as many hospitals as you like. An information panel is
+displayed when you select a Hospital in Information Mode. This panel
+Indicates the total number of Hospitals the number of medics employed in
+those hospitals, and the current birth rate (NONE, LOW, MEDIUM, or
+HIGH). To change the birth rate, press the ¥ Button until the desired birth
+rate appears.
+
+Page 26
+
+Hydroponics
+Controed environment that uses special nutrients to produce Food for the
+colonists. Each Hydroponie dome provides enough food for 100 people
+per month. The Colony Administrator ean provide you with food Storage,
+Production, and Usage figures.
+
+Laboratory
+
+‘Staffed by scientists who conduct research and produce new
+
+inventions such as Ore Detectors and Long Distance Radar, More
+information about these inventions is given later on, Be sure to allocate
+‘money for Military and Civilian Grants or the inventions willbe few and far
+between. Grants are funded on the Finance Sereen. ‘The Head of Research
+‘keeps you up to date on the latest developments and lets you know when
+‘more money is needed,
+
+Laser Turret
+Used to defend the colony. Once built, they enter “auto seek” mode,
+continuously rotating in search of «target. When an enemy is
+detected, the Turret Fixes its position and fires at segular intervals
+
+Its ange isa 30-degree cone extending approximately six squares
+
+in the direction of the barel
+
+Launeh Pad
+Holding focation and refueling facility for Spaceships.
+‘ard must have an adjacent Launch Pad on whi
+‘constructed ships ean he stored until needed.  warin,
+
+message appears and ship construction halts if a Launch Pad is nat
+available, Be sure to place Fuel Tanks near each Launch Pad — your
+spaceships will nt be able to take off unless there is feel availabe.
+cen refuel «ship by landing on a Launch Pad, but only if iis
+within eight squares of a Fuel Tank.
+
+Life Support
+Converts the unbreatheable planet atmosphere into oxygen. Each Life
+Support unit provides enough oxygen for several hundred people per month.
+Life Support units also store surplus ar for later use — the Colony
+Administrator ean provide you with oxygen Storage, Predoction, and
+
+Usage figures.
+
+===== Page 15 =====
+
+Special apartments where all colonists live. Each building provides
+‘enough space for 50 colonists. The Psychiatrie Advisor reports on
+population density — check this figure often espectaly if you have
+increased the birth rate, A density of 100%¢ or higher decreases morale,
+
+Mine
+Extracts ore from the ground, Mines
+‘st be boilf near ore deposits
+
+‘Use the Map Sereen to locate deposits
+close to your colony site — you'll see
+‘more once your scientists invent the
+re Detector. Mine production
+depends om the yield of ore |
+underneath it, Ore is required for
+
+the construction of Tanks an =
+Spaceships. Gems are a by-product of
+
+‘mining and can be used for trading purposes.
+
+Missile Launcher
+Used to defend the colony. Bach Launcher contains one missile, which
+‘must be fired by the player — see the section on DEFENDING YOUR
+COLONY for more information, You do not need to aim the missile — if
+‘target is present it will home in on it automaticaly. The missile
+
+Will not launch iF it doesnot detect an enemy target within range.
+
+‘The Missile Launcher will disappear once its missile has been fice.
+
+Power Station
+‘The main means of generating power for your colony. Each Power
+
+Station provides 50 units of power per month.
+
+Radar
+
+‘Scans for approaching enemy craft. Enemies are only detected when they
+are within radar range. Access the Map Seren to view your radar coverage.
+Coverage is determined by the number and postion of your Radar towers. so
+build as many as you feel is necessary. Try to position Radar towers for
+‘maximum cover, without gaps or overlap,
+
+Page 28
+
+Security
+Prevent crime
+
+thin the colony. You will be advised when a erime is
+‘committed, but it is advisable to build one or more Security headquarters
+before the problem gets out of hand.
+
+Ship Yard
+
+Used to construct up to six different types of Spaceships. Bach Ship type
+and the Ship construction process is described ina later section. A Ship
+‘Yard can build only one Ship ata time, so you may want to have several
+‘Yards to increase your production capabilities. Both Ore and Weapons
+must be available before a Ship can be built. The amount needed is based
+‘on the size and power of the Ship. Ifsupplies are low, construction will stop
+until the Stores ate replenished.
+
+Remember to build a Launch Pad next to the Ship Yard (or vice vers),
+‘Ships will appear on the Launeh Pad as they are finished, If there is no
+Launch Pad, 2 warning is given and production stops until one is built. For
+refueling purposes, Fuel Tanks must be placed within eight squares ofthe
+Launch Pad. You may either purchase the fuel or supply it through your
+‘own Chemical Plants
+
+Solar Panel
+Low-tech method of power generation tha is cheap and quick to build,
+although relatively inefficient, Each Power Station provides 2 unit
+
+power per month. Solar Panels are useless during the frequent solar
+eclipses, so you may experience power shortages ifyou rely heavily on this,
+
+Sports Complex
+Provides rest and relaxation forthe colonists. ARer building a Sposts
+Complex, you may call an event onee every three months. Events open
+oo the first day of the next month and last an entre month. Calling an
+event boosts the morale ofthe colonists, but means that litle work
+will be done since everyone is in attendance,
+
+To call an event, switch fo Information Mode and seTect the Sports
+Complex. An information pane! lets you know whether or not an event
+may be called. To call an event, press the ¥ Button, Press the A
+
+Page 29
+
+===== Page 16 =====
+
+Button or the B Button to exit without calli
+
+Store
+Used to store various items for later
+use or trade, ‘These itoms are
+FOOD, ORE, GEMS, WEAPONS,
+and TECH GOODS. Items are stored
+automatically once they are bought ot
+
+1 produced. Each Store can hold a
+maximum of 1000 units. warning
+
+message appears when your existing
+
+Stores are full,
+
+iI ;
+
+| tanevaa
+
+|] Cretioconver Tans, Hat Ore and Weapons ar eid
+. Sone olor eee
+I] aenteonncs (pt Dnt) ss igs eae ste
+
+resources, producing one Tank every two to three months, Each Tank
+‘Yard can build only one Tank ata time, so you may want to have more
+than one Yard to increase production.
+
+‘Once & Tank is built, it will appear in any empty square immediately
+next tothe Tank Yard, ‘Thus, a maximum of eight Tanks may be around
+Tank Yard at any one time. If all eight squares are accupied, Tank
+production halts until one or more ofthe squares is made available.
+“Tanks do not require fuel, and may be moved away from the Tank Yard
+at any time by directing them to specified Marker. A complete
+explanation of Tank deployment is given in a later section,
+
+Workshop.
+Produces Tech Goods for trade purposes only,
+
+|) THE ADVIsoRS
+
+‘As Colony Leoder, you are frat to have ot your caps sx exelent
+duis Pres the B Ration to display the Hand cursor then select he Face
+icon atthe botom o he Main Sercen and press he Aton to slay the
+Advisors Screen, The avis are
+
+Page 30
+
+Head of Research
+
+Engineer
+
+Colony Administrator Financial Consultant Supreme Commander
+
+Each advisor provides constant reports on
+the status of their particular area of
+expertise. This includes day-to-day affairs
+as well as crisis situations, You may
+follow their advice or ignore itand choose
+‘your own route, To select an advisor, use
+‘the Control Pad to position the Hand
+cursor over that advisor and press the A.
+Button, —
+
+‘The frst display panel shows the name of the advisor and presents the
+information that they have gathered. Press the A Button again to display their
+advice. Press the B Button to return to the Advisor Sereen while viewing a
+panel. Since the game is paused on the Advisor Screen, you may spend as much
+‘inne as you Tike viewing the information, Bach of the six advisors and the
+information they provide are described in more detail below. Press the B Button
+to exit this sereen,
+
+Senior Psychiatr
+‘The Senior Psychiatrie Advisor keeps track
+(of the cotal number of colonists and how
+‘each colonists occupied. Categories
+include Builders, Technicians, Medics,
+Scientists, and Security personnel. He also
+reports on the current morale, birth rate, i
+population density, birth, and death figures |
+for the previous month and any crime — ——
+‘occuring in the colony. Pay particular tention to the population density, which is
+the percentage of occupied Living Quarters, AS long as itis at or below 100%,
+your colonists will be adequately housed. Densities above 100% decrease the
+Colonists” morale. ‘The Advisor provides a warning when the figure rises
+
+above 90%.
+
+===== Page 17 =====
+
+Civil Engineer
+‘The Civil Engineer provides an
+alphabetical lst ofall available buildings
+‘and other structures, and indicates how
+‘many of each are currently present in the
+colony
+
+Tread of Research
+‘The Head of Research identifies the
+current Tech Level, the number of
+Laboratories and Scientists, and the
+amount of money let in the Military and
+Civilian Research Grants. Your Teeh
+Level will increase if you build more Labs
+‘and fund more research, As the Tech
+Level advances, so does the quality and
+‘quantity of scientific breakthroughs.
+
+Colony Administrator
+‘The Colony Administrator reports on the
+status of five vital commodities: Air,
+
+"0d, Fuel, Power, and! Ore. For each
+commodity, the Administrator identifies
+‘the amount stored, the amount produced
+last month and the amount use last
+month. As you Took at this sereen, make
+‘sure that your monthly usage figures do
+not exeeed your production figures. If you
+are using more han you pracuce, your
+stores will dwindle and the cofony will
+begin o suffer as result
+
+Financial Consultant
+
+‘The Financial Consultant keeps track of your Income and Expenditure forthe
+
+current month und year, the Tax Rate, and Current Fo
+
+xis, Gross Income is
+
+supplied from three separate sources: the Colony Grant, Trade Income, and
+
+Colony Taxes. ‘The Colony Support Gra
+
+is money supplied to you every month
+
+forthe fist few years to help get the
+colony off toa good start. ‘Trade Income
+isthe profit you eara from selling surplus
+‘goods. See the section on FINANCE
+AND INDUSTRY for more information
+about trading. Colony Taxes are collected
+from your people atthe specified rate (0.0
+2008), The basic tax rate is 15%, but you
+‘may increase or decrease ths figure on the
+Finance Screen. It's no surprise that a low
+tax rate improves colony morale,
+
+Supreme Commander
+‘The Supreme Commander reports on your
+defensive and offensive military statns
+detailing your arsenal of ground-based
+‘weapons, Tanks, and Spaceships.
+
+THE MAP SCREEN
+
+Press the B Button to display the Hand
+ceusor, then select the Planet icon atthe
+bottom of the Main Screen and press the A
+Button to display the Map Sereen, This
+sereen shows the entire planet surface that
+is available for colonization. Flat terrain is
+sown in black. Rocks, tees, lakes, and
+other landscape features are shown in Tight
+gray. ‘The circle of darker gray
+surrounding your colony represents your
+initial radar coverage. This coverage will
+increase as you add more radat installations.
+the locations to which you may send Tanks
+
+‘Markers numbered 1-8) i
+‘or Spaceships. See the section
+
+entitled DEFENDING YOUR COLONY for more information about Markers.
+
+===== Page 18 =====
+
+‘The portion of the planet currently displayed on the Main Sereen is enclosed in a
+flashing square on the map. A magnified view of this area also appears in one
+comer of the screen. You may usc the Control Pad to move the square around
+the map. Notice thatthe magnified view changes accordingly. Press the B
+Button (o exit the Map Sereen and return to the Main Seveen. When you return
+lo the Main Screen, the new area defined by the square will he displayed.
+
+Map Sercen Modes
+‘The Map Screen provides you with access to three viewing modes that display
+different aspects of your colony. Press the X Button to switch between modes.
+‘Te legend atthe bottom of the sereen changes to identify the elements displayed
+in each mode. ‘The modes are:
+
+Buildings Mode Ore/Fuel Mode
+
+Buildings Mode
+‘Shows al ofthe buildings in your colony. Command Centers, Scaffolding,
+Wreckage, Fux Pods, Living Quarters, and Power Sources ate color-coded for
+easy identification,
+
+Ore/Fuel Mode
+‘Shows the location of Ore and Fuel deposits, as well as Mines and Chemical
+Plants. This view also shows Command Centers and Living Quasters. Note that
+most of the Ore and Fuel deposits will not appear until yau have discovered them
+(hough the invention of the Ore Detector or the Fuel Detector).
+
+Weapons Mode
+Shows the location of al defensive weapons (Missile Silos, Gun Turrets, and
+Land Mines), Command Centers, Launch Pads, Tanks, and Ships (both fiendly
+and enemy),
+
+FINANCE AND INDUSTRY
+
+Although financial eoncems and industrial production may initially take a back
+seat, they cannot be ignored in the long run if you intend to raise the standard of
+living and protect your colony from invasion. Finances inelude such things as
+trade, taxes, and research grants, A thriving industrial sector allows you (o create
+‘Tanks and Spaceships, as well as technical goods for trade. Each is described
+below.
+
+‘Weapons Mode
+
+Press the B Button to display the Hand cursor, then select the $ icon atthe
+bottom of the Main Sereen and press the B Button to display the
+Finance/Industey Panels. These screens are!
+
++ Finance Organ
+
++ Manual Trading Panel
+
+‘To mave from one panel (othe next, position the eursor over the X icon inthe
+fower left comer of the pane! and press the A Button, To return to the Main.
+Screga from any panel, press the B Button.
+
+‘The Finance Organization Panel
+‘The first panel that appears is the Finance
+Organization Panel, ‘The infor
+
+the top of the panel relates to automatic
+lunging, Iyou have the time and the
+inclination, you may also perform manual
+leading, whieh is desesibed later in this
+seation, The remaining information on the
+panel concerns taxes and grants. To
+‘change one of the values an this panel, Ls
+highlight che value by positioning the cursor over tha Line, Press the X Button to
+increase the figure, or press the Y Button to decrease it
+
+The six commodities available for tading are listed at the top ofthe Finance
+Organization Panel. These commodities ae:
+
+FUEL FOOD ORE
+GEMS WEAPONS TECH
+
+“The UNITS column shows you how many units of each commodity are currently
+available. ‘The KEEP column shows you the percentage of each commodity that
+is boing retained for colony'use. Tae default value is $0& forall commodities.
+‘The computer performs automat trading once a month, based on the
+percentages shown here. If no units are available, none willbe traded.
+
+Since your colony does not use GEMS or TECH GOODS, you can safely set the
+percentage for both of these commodities to 0, You may also wish to change the
+
+===== Page 19 =====
+
+‘other valles based on the needs of your colony, although itis probably not wise
+to trade more than $0% of your FOOD, FUBL, ORE, and WEAPONS. Monitor
+this pane! throughout the game to sce where surpluses are building up, then set
+the values accordingly.
+
+Taxes
+‘Once the Colony Grant runs out, your colony will need to become financially
+self-sufficient, Collecting taxes from your colonists is one way of earning the
+money you need. The basic tax rae is 15%, You may reduce or inesease this
+amount, depending on your financial needs. The lower the tax rae, the higher
+the colonists’ morale, The valid range is 0-208, ‘The new tax rate will not take
+effect unill the frst day of the next year, and will remain in effect at least one
+year.
+
+Grants
+‘You are responsible for funding three grants. These grants are the Military
+Grant, the Civilian Gray
+
+‘useful new inventions more quickly if you supply them with money inthe form
+(of Militay and Civilian Grants, Military Grants go toward the development of
+new weapons and better defenses. Civilian Grants go toward environmental
+research and other non-military pursuits. You also must fund the Spying Grant
+in order to receive intelligence reports from your spies in the field. No spying
+will be done unless money is allocated to this Grant, You may ive as much as
+‘you wish from your eurtent funds, in units of 1000. ‘The Current Funds amount
+‘atthe hottom of the pane! shows how much will be left for general use
+
+‘The Industry Information Panel
+This panel shows you how many colonists
+
+and the Spyhig Grant. Your scientists will discover
+
+are currently employed in each type of
+industry (excluding building construction).
+‘The average is 10 employees per building.
+[Each type of work is identified by the
+building associated with it. These
+buildings are
+
+Industry
+
+ARMS LAB Weapons
+CHEMICAL PLANT Fuel
+
+MINE Or
+
+SHIP YARD. Spaceships
+TANK YARD, Tanks
+WORKSHOP ‘Tech Goods
+MOSPITAL,
+
+LABORATORY
+
+SECURITY
+
+‘Monthly production figures are given forthe First six industries, Weapons, Ore,
+tnd Tech Goods are sent to your Stores until needed. Fuel is stored in Fuel
+Tanks. Spaceships appear on the Launch Pad, which must be built ext to the
+Ship Yard. ‘Tanks appear next tothe ‘Tank Yard. Production figures are not
+provided for HOSPITALS, LABORATORIES, or SECURITY headquarters
+
+‘You may only view the information on this panel, not change it. To increase the
+‘number of colonists employed ina particular area, construct more buildings of
+that type. To decrease the number of colonists employed in & particular area,
+demolish one or more of those buildings. Increasing the numberof technicians
+raises production Tevels, but atthe same time reduces the number of colonists
+available for new construction. Your goal isto find the tight balance between
+industry, service, and construction,
+
+‘Manual Trading P
+“The six commodities available for manual trading ate the same used in
+aulotrading: FUEL, FOOD, ORE, GEMS, WEAPONS, and TECH. ‘The four
+
+values aeross from each commodity show you the following information:
+UNITS, Units on hand
+cost Current market price pe
+SUPP ‘nts sve rye tba (SUPPLY)
+DEMD Units requested by other colonies (DEMAND)
+
+===== Page 20 =====
+
+Postion the cursor over a line to highlight
+that Fine. A prompt appears atthe bottom
+‘of the pane! if you are able to buy or sell
+that praduet. Press the ¥ Button to carry
+‘out the transaction, No prompt appears if
+there is no supply or demand for a
+product, oF if you do not have any
+available for ttade. Purchased fuel is
+stored in Fuel Tanks. All other goods go
+to your Stores. If you do not have the
+necessary facilities or if the existing facilites ae full, you will not he allowed to
+buy any goods.
+
+“The cost, supply. and demand values for each commodity will vary from month
+to month. You can buy only as many units a6 are available (SUPP), and you can
+sell only as many units as ate needed by others (DEMD), As in autotcading, you
+may sell as many GEMS and TECH GOODS as you are able, since these items
+are not needed by the colony. On the other hands, be careful not to cut coo deeply
+into your reserves of such vital eommodities as FOOD, FUEL, ORE, and
+WEAPONS. You may wish to consult with the Colony Administrator first 10
+review your Storage, Production, and Usage figures.
+
+I you suddenly find yourseI( short of a vital commodity such as FOOD, you may
+be able to purchase enough to take cate of your short term needs while additional
+production facilities are heing buill. Try not to rely on this method, however.
+Prices may rise dramatically, or the supply may drop off just when you need it
+ost. Better 1o exceed your ovin production needs and sell the surplus for extra
+cash,
+
+When you are finished trading, press the B Button to exit the panel, You may
+only perform manual trading once a month Therefore, make sure you complete
+all necessary trading before exiting this panel. If you have already performed
+‘manual trading duzing the eurrent month, 9 message to that effect will be
+displayed and the Manual Trading Panel will not be available. No sutotrading
+will ake place during any month in which you perform manual trading,
+
+SPYING
+
+In the tradition ofall great expansionist
+ppowiers, we recommend! that you take up
+spying...how else wil you know what the
+enemy is up to? Your spies are pai in the
+form of a Spying Grant, whieh you fund
+
+(on the Finance/Industry Panls. The
+‘more money you give them, the more
+Information you'll get back, and the more
+reliable that information will be. Spics are sent into the file automatically once
+you provide them with funds. Their reports will ppear on the Spy Information
+Panel as information becomes available
+
+Once you see a message telling you that an Intelligence Report is available, press
+the B Button to display the Hand cursor, then select the Magnifying Glass icon
+atthe bottom of the Main Sereen and press the A Button to display the Spy
+Information Panel. NOTE: This panel is not available until she frst report
+
+Intelligence Reports
+‘The current Surveillance Level is displayed at the top of the panel, along with the
+‘amount remaining inthe Spying Grant Fund. This is followed by the page count
+‘and report count, and then the report itself. Typical reports include descriptions
+of the aliens and their weapons, their Tech Level, and the likelihood of an
+imminent atack. ‘The more money you provide, the more reliable the
+information will be. Keep an eye on the amount in the Spying Grant, as it
+decreases overtime. Ifthe money runs oul, ao spying will tke place until mare
+Funds are allocated,
+
+If there is more than one page in the current report, the word " MORE” appears at
+the bottom of the screen. Press the ¥ Button to display the additional page(s)
+Old intelligence reports remain available at all imes, even alter new reports
+‘come in, The most recent report appears firs, follawed by any previous reports.
+If more than one report available, press the X Button to display each ofthe
+earlier reports in turn, Press the B Button 1o exit the Spy Informa
+
+===== Page 21 =====
+
+‘Surveillance Level
+‘Thee levels of surveillance are possible, depending on the funds provided inthe
+Spying Grant, ‘The higher the spying level, the more quickly the funds are used
+tup. The quality and quantity of the information you receive depends entirely on
+hhow much you're willing to spend. The levels are;
+
+1: Low Level Survelllance. A minimal amount of spying will be
+‘carried out. The information provided! will bea mixture of basic facts
+and speculation
+
+>: Normal Intelligence Activity, Your spies will provide a
+regular supply of fairly seliable information
+
+3: Special Operatives in Use. Your best agents will carry out
+‘dangerous infiltration missions to bring you the highest quality
+information possible.
+
+DEFENDING YOUR COLONY
+
+‘You may think that keeping your people housed, fed, and happy is enough to
+keep you ont of trouble forthe next few years, Well, guess what? Think age
+You're not the only life form altempling to establish colonies in this sector of the
+galaxy, you know. Wherever you go, you're bound to encounter a few hostile
+aliens...sooner or later
+
+(O.K., make that sooner, ‘The Alien Federation has claimed this quadrant for their
+‘own, and they're not about to give up without w fight. Each planet is occupied by
+a different alien race who are determined to have the entize planet surface for
+themselves, As you'll find out, different alien races use different battle tactics.
+Some rely on air-based weapons while others use ground-based anllery. The
+smart ones use 2 combination ofthe two, Take advantage of your sp
+
+capabilities to scope out the opposition...otherwise you're liable to find oxt the
+hard way.
+
+Your basie weapons include Laser Turrets, Missile Launchers. Tanks. and
+Spaceships. All ave vulnerable to enemy attack, Laser Turrets and Missile
+Launchers maintain fixed positions. Tanks and Spaceships can be moved to
+‘various locations using specially placed Markers, and will fire automaticaly at
+
+————
+noms within thee squares of thet position, For besteffect, place these mobile
+units thoughout the colony to acta senes, Concenate most of your frees on
+the edges of he colony, bu he ead to deploy them to any area when an enemy
+strike ocr,
+
+I you build Laboratories and fond Military Research, your scientists will veward
+‘you wih helpful new inventions like Land Mines, Bomb Detectors, and Spy
+Satellites, See the section on RESEARCH for more information,
+
+Laser Turrets
+Laser Turets use auto-socking sensor devices to scan the surrounding arca
+continuously for alien forees. A Turret will lock in and open fire if
+dlereeted within six squares ofits location. Laser Turnets are best built where they
+‘can covera wide atea, away from buildings and other obstacles. A good
+defensive strategy isto circle your colony with Laser Turrets to cover all
+approaches. See the section on BUILDINGS for more information on Laser
+‘Turrets. note from the Head of Research: your stienlists are eurrently
+developing s high-powered version of the Laser Turret, called the Plasma Gun,
+Sounds promising.
+
+Missile Launchers
+Each Missile Launcher is equipped wit a single high-density explosive missile
+that you must fire. Because they have a limited range, Missile Launchers should
+be positioned on the edges of your colony. Rumor has it that an improved
+version with preater range and explosive povver is in the works.
+
+To fire a Missile, position the Question Mark cursor over the Missile Launcher
+and press the A Button, The missile will target automatically and then howe in
+‘on any enemy within its range, A message will inform you if wo target is found,
+I the target is destroyed before the missile reaches it, the missile will explode
+hharmtessly in the air. Once the missle is fited, the Launcher will disappear.
+
+Markers
+Markers are litte flags that identity the locations to which your Tanks and
+Spaceships can be sent, ALthe beginning of a game, eight Markers are positioned
+atound the startup colony. You can change the locations of these Markers
+whenever you wish. Place your Markers wisely — a successful defensive
+strategy depends in large part an the effective deployment of Tanks and Ships
+
+===== Page 22 =====
+
+J
+
+the letter A t send a Tank to the Alen City. (your spies
+discovered the Alien City this order wil not be oeyed.)
+est. poiton the cursor over the mimer 0 inthe line SEND 00 TANKS TO
+MARKER X. Press the X Button to inerese ths number and press the ¥
+Button to decrease it. When you are ready, press the B Button to exit this seen
+and deploy the selected Tank. Ifyou wish, you may sol the Planet View to
+
+sac the tank's progress. The Tank wll continue to move ony while he main
+
+{ume sereen is splayed. Ifyou select more than one Tank, the chosen Tank an
+
+those closes tot wll beset, ‘The Tanks wl dive to ther new location and
+
+stop when they reach it. If hey cannot reach the designated Marker, they wil
+
+patrol around the vicinity. |
+
+have not yet ||
+
+Repositioning a Ma
+“To reposition a Marker, press the X
+Button vatl the Question Mark cursor
+appears onthe Planet View. Position the
+cursor over the spot you would lke to
+move a Marker to, then press the Y
+Button, Use the Hand eursor to select a
+Marker number, then press any button to
+ove the selected Marker tothe new
+position. To exit this screen without making a change, move the Hand cursor off
+the Marker numbers and press any button,
+
+‘Tank Inventions
+eau ‘One of the advances mae possible by seientiie research isthe Hover Tank
+‘This new and improved model is more powerful than its predecessor and uses a
+hover jt propulsion mechanism to advance easly over rough terran, Well |
+‘worth the investment, wouldn't you say?) Another invention you may’ sce in the
+future isa Tank Teleport a device which allows you to transport Tanks instantly
+from one location to another
+
+‘Mobile Tank units enable you to defend your colony more effectively, and can
+teven be used to mount a pre-emptive strike against alien cities (see below), In
+‘resto construct Tanks, you need both Tank Yards and a ready supply of Ore
+and Weapons, You may trade for these goods, or produce them yourself by
+building Mines and Arms Laboratories. Sec the section oa BUILDINGS for
+details,
+
+Spaceships |
+Like Tanks, Spaceships are positioned using Markers und will automatically fire
+‘on enemies within three squares oftheir position. ‘They, too, can be used in \
+offensive assaults agains! the enemy and require both Ore and Weapons during
+
+the consiruetion process. However, Spaceships are more versatile than ‘Tanks in
+that they can fly over obstacles and possess a wider range of weapons.
+Deploying Tank Units Spaceships ulso require Fuel, which can be bought on the open matket or |
+‘To send a Tank to a Marker, position the produced in Chemical Plants. See the section entitled Buildings for more
+
+‘Question Mark cursor aver one of your information
+
+Tanks and press the A Button neice
+
+rapidly. An information panel appears
+showing the selected Tank's current Hit
+Poin and the total number of Tanks in
+‘operation. Selecta destination Marker by
+positioning the cursor over a Marker
+‘number and pressing the A Button, Select
+
+Page 42
+
+|A fly operational Tank Yard will produce one Tank every to to three months
+“The finished product appears in any open squate immediately next to the Tank
+Yard. Move your Tanks into position using the Markers, as deseried below
+
+‘Once in place, Tanks are always on the alert and will ire at any enemy presence
+within three squares of their location,
+
+Assixth Ship, known as the Fusion Cruiser, is currently in development. This
+Ship is nuclear-powered and does not need fuel. The larger and more powerful
+‘he Ship, the longer it will take to build, the more Ore and Weapons it will
+require during construction, and the more fue it will use. ‘The Ship types are:
+
+i}
+‘Your Ship Yards are intially equipped to build five different types of Spaceships. |
+|
+|
+
+===== Page 23 =====
+
+Explorer 0 10 80 50
+Fighter 2 20 80 50
+Assault Craft 3 15 120 100
+Cruiser 4 20 200 180
+Fusion Cruiser 4 30 none 8
+Warship S 30 240 240
+Lauilding a Spaceship
+
+[Before building a Ship. first make sure
+that you have plenty of Ore, Weapons, and
+Fuel. Build each Ship Yard next to a
+Launch Pad, and place several Fuel Tanks
+close by. A'waming message will appear
+bn the sereen if you do not have enough of
+a paricular material. Each Ship Yard
+‘constructs only one Ship ata time, so you
+should build several Ship Vards to speed
+up construction.
+
+To select Ship, position the Question Mark cursor over the Ship Yard and press
+the A Button. ‘The information panel shows a picture of each avaiable Ship.
+Position the cursor over a Ship to display its name, the amount of time needed to
+build, and the amount of Ore required. After selecting a Ship, press any buono
+begin construction.
+
+‘You may follow the Ship's progress by selecting the Ship Yard during
+‘construction, ‘The information panel will displ
+
+remaining, tone will sound when construction of the Ship is complete. Once a
+Ship has been built, twill appear on the adjacent Launch Pad and fil its tanks,
+from nearby Puel Tanks,
+
+Dera
+
+“To deploy a Ship, postion the Question Mark cursor over the ship and press the
+(on twice rapidly. An information panel appears showing the selected
+Ship's current hit points te total number of Ships in operation, the selected
+Ship's Tuel usage, its current orders, and new orders. When you select a new
+
+ABu
+
+—
+Ship. the new orders will appeat as
+“(NO CHANGE).” Ta change the
+‘onders, postion the cursor over the
+ORDERS option and press the X
+Button or the ¥ Button to eyele
+throug the options.
+
+‘Two options (FLIGHT/LAND and
+FLIGHT/HOVER) require you to select
+
+a destination Marker, Select a Marker
+
+by positioning the cursor over the Marker number and pressing the A Button,
+‘Select the leter A to send a Ship tothe Alien City. (IF your spies have not yet
+discovered the Alien City, this order will not be obeyed.) Your options are:
+
+(NOCHANGE) Nothing will happen.
+LANDING
+HOVERING
+
+FLIGHT/LAND Ship will fy to the selected Marker and
+attempt to land there.
+
+FLIGHT/HOVER Ship will ly tothe selected Marker and
+
+Ship will atempt to land at current location
+
+Ship will hover at cureent location,
+
+hover there
+CONSTRUCT Available o Explorer Ships only, It will
+LAUNCHPAD construct a launchpad at ils current
+
+location and then land on it, You may
+start a new colony’ at the launchpad site
+by constructing a Flux Pod, which must
+be adjacent to the launchpad, then other
+buildings as needed.
+
+FLY TO Ship will attack Alien City. ‘The Ship
+
+ENEMY CITY will nt obey this order if the city has
+rt been discovered.
+
+Hit Points
+Hit points for each Ship are shown as current pointsmaximum points. When the
+‘cutent it points are reduced to zero, the Ship is destroyed,
+
+===== Page 24 =====
+
+Fuel Usage .
+‘Once a Ship is buil, i will ot contain any fuel unless there are Fuel Tanks.
+nearby. If there are no Fuel Tanks within eight squares of the Launch Pad, at
+feast one Fuel Tank will have to be built before the Ship can take off. After
+building your Fuel Tanks, make sure co fill them. You can trade for ful (the
+tanks ate filled automatically) or extract it from the ground by placing Chemical
+Plants over fuel deposits. On each Spaceship display panel, fuel is shown as
+‘current fuel unitsfmaximum fvel units
+
+Ships use fuel during takeoff, landing, flying, and hovering. Therefore, you
+should land a Ship when notin use. You can refuel a Ship by landing it on a
+Launch Pad (you will need to place a Marker on the Launch Pad to do so). If
+there ave Fuel Tanks nearby and if there is enough fuel available, the Ship will
+refiel automatically © full capacity. IE fuel runs out while a Ship is airborne i
+wil erash, With the proper Facilities and enough money, your scientists may
+eventually develop a new invention called a Matter Transporter which will allow
+you to refuel your Ships in Might.
+
+Attacking an Enemy City
+Your spies have brought back reports tha the alien colony is vulnerable, Their
+‘Tech Level is stil low, and their defenses are poor. Should you wait for the
+inevitable allack, o take the initiative and strike first? I you choose to atack,
+‘you may be able to set your opponents back yeas, or even wipe them out
+‘completely. Besides, everyone knows that successful batles are good for
+morale!
+
+When you send your Tanks and Spaceships to destroy the alien city, you'll
+receive progress reports from the front, but won't be able to view the assault
+dlitoctly. Cheek the Spy’ Information Panel forthe latest information and confer
+\with your Supreme Commander if you need advice. You may send
+reinforcements at any time, but remember that any fotees sent tothe alien city
+‘will not be available to defend your colony.
+
+THE COLONISTS
+
+Each colony starts out with 100 colonists. The population will increase or
+docrease as a result of biths and deaths, although the general trend will be a
+gradual inerease over time,
+
+Births and Deaths
+‘The initial birth rate is set to LOW. You may change this to MEDIUM, HIGH,
+‘or NONE, depending on how quickly you want the population to inerease, To set
+the birth rate, first you must build a Hospital. See the section on BUILDINGS
+for more information on Hospitals. A small number of deaths occur each month
+asa result of natural causes. However, the death rate will increase rapidly if your
+colony is attacked by alien forces, ia virus strikes if the crime rate increases, oF
+i you run shot of food or air,
+
+‘To prevent serious losses inthe event of an enemy invasion, build
+adequate defenses and stay onthe alert for aliens, Once your Tanks
+
+Wd Spaceships are in place, you may’ want w launch your own
+pre-emptive strike against the alien city.
+
+Building more Hospitals ean help contain the spread of deadly viruses.
+If you fund Civilian Research, your Scientists eventually will discover
+‘8 vaccination that provides immunity to all knowa viruses
+
+‘The erime rate increases when the colonists’ morale deteriorates,
+
+‘This is true especially in large populations. Security headquarters
+
+can help combat this problem, ‘The various types of evimes found in
+the colony are describe later inthis section,
+
+Life Support
+Each Hydroponic dome supplies the nutritional needs of 100 coloni
+A single Life Support facility produces enough ar for 400 colonists,
+Surplus FOOD and AIR also can be stored for future use. Check
+‘eecasionally with the Colony Administrator to ensure that your
+supplies aren't running low. You should build more facilities if Usage
+is equal to or greater than Production.
+
+===== Page 25 =====
+
+Employment
+Colonists may’ be employed in the following areas
+
+Workers Employed in construction of now buildings
+‘Techni
+
+Employed in Hydroponic domes, Power Stations, Life
+Support facilites, Arms Labs, Chemical Plants,
+Mines, Ship and Tank Yards, and Workshops
+
+Medes
+
+nploye
+
+Scientists Employes
+Security Tmployed in Security Headquarters
+
+“The Paychiatie Advisor reports on current employment figures. The average
+
+‘number of employees is 10 per building. Vacancies are filled in the following
+
+order of pririty: food, power, and life support systems first, followed by
+
+construction and then industry and service jobs.
+
+Crime
+Although you may be attempting to create the ultimate Utopian community, your
+colony is not immune from the evils of crime, Crime tends to inerease as the
+population grows, especially if morale is low. Of course, it also has the effect of
+lowering the colonists’ morale even further. To counteract crime in the
+Community, you should strive to increase morale among the colonists, ,.and a few
+Security headquarters wouldn't hurt either, ‘There are four levels of exime, as
+described below:
+
+‘Theft
+
+Unscrupulous computer hackers infiltrate the eolony’s financial
+
+computers and secretly transfer funds to their own accounts, Can't
+
+these guys make an honest living?
+
+Mander
+
+It your colony experiences a wave of unexplained deaths, the answer
+
+could be murder, You should take immediate steps to end the violence
+
+and regain control ofthe situation,
+
+‘Vorrarism
+
+‘You may receive unonysmous bomb threats ifthe people are truly
+
+unhappy with the way you're running the colony, ‘These terrorists will
+20 to any lengths to get their point across, including the random
+destruction of colony buildings, So couldn’t they just write to their
+‘congressman?
+
+Assassination
+‘The ultimate no-confidence vote. Your unlayal subjects hire an
+underworld.,.or inthis ease, otherworld...hit man to force you into
+‘permanent retirement. Time o ask fora reassignment
+
+RESEARCH
+
+In order to cary out research within the colony, you must build Laboratories and
+provide money for Military and Civilian Grants. Research is important because it
+eventually leads to the development of new and useful inventions, described in
+detail below. If you build Laboratories but do not give Grant money, research
+will occur at a much slower pace, For fastest scientific progress, build as many
+Laboratories as you can and be generous with your funds
+
+Research directly affects the colony's Tech Level, which begins at Level 1 and
+increases as new inventions are discovered, The maximum Tech Level is Level
+10. The Head of Research is responsible for keeping you up-to-date on your
+Tech Level, numbers of Laboratories and Scientists, and current Grant levels,
+
+Grants
+‘Most research draws from the Military Grant, which should be funded
+accordingly. Your generosity will be rewarded by new weapons and improved
+dofense systems, ‘The Civilian Grant funds research into environmental isues
+such as pollution control and more efficient production methods. ‘The Grants will
+decrease overtime, so remember to check periodically with the Head of Research
+and add more money as needed. Grants are funded on the Finance Sercen, For
+‘more information, see the section of this manual entitled FINANCE AND
+INDUSTRY,
+
+Inventions
+When a new invention is created, a message appears on the sereen explaining
+What the device is and how to use il. Many inventions take the form of new
+buildings which appear on the Buildings Screen, ether as replacements for
+
+===== Page 26 =====
+
+existing buildings or in addition to them.
+
+Bomb Detector
+Detects even the smallest trace of
+explosives. Once invented, these sensitive
+scanning deviees are installed
+‘automatically throughout the colony to
+deter terrorists and enemy saboteurs
+
+Compressed Fuel Tanks
+Safely store greater amounts of fuel undet
+
+pressure, ‘These tanks eeplace the existing, less efficent Fuel Tanks.
+
+uel Detector
+sa sonar device to sean the entire surface ofthe planet for underground fuel
+deposits. Switch to Fuel Mode on the Map Screen to see all available fuel
+deposit
+
+Fusion Cruiser Spaceship
+“This nuclear-powered Cruiser has a distinet advantage in that it never needs
+refueling. ‘These ships are constructed in the same way as all other ships and
+require both ore and weapoa
+
+HDX Missile Launcher
+
+Uses HDX (High Devastation eXplosive) 10 wreak havoc against the enemy,
+Because of their smaller mass, these missiles also have a greater range, This
+‘weapon replaces the existing Missile Launcher.
+
+Hover Tan}
+
+This new vehicle has superior armor and weapons, as well as the ability to hover
+just above the ground. ‘This feature allows itt cross easily over space moss,
+rocky terain, ice floes, and other landseape features that stop normal Tanks in
+their tracks. Your existing Tank Yards will w-tool and immediately begin
+production ofthe new model
+
+Land Mine
+This intelligent device will detonate only when an enemy land vehicle passes
+fver it. Place land mines as you would any other building. Mines cannot be
+‘moved once they are placed,
+
+ention of high penetration microwaves gives this new device a greater
+range than standard radar. Long distance radar replaces the standard radar
+installation on the Buildings Sercen,
+
+Matter Transpo
+
+‘Automatically efuels Spaceships in light by drawing fuel from the Fuel Tanks
+‘and beaming it on board, Must be built close to Fuel Tanks.
+
+‘Meteor Scanner
+
+Uses a high-performance pulse laser to detect and destroy meteors in deep space
+before they strike the colony.
+
+sdroponies
+‘A niore efficient means of growing tasty, nutitious food...you'd never know it
+‘was pond seu — uh, I mean algae, ‘This new and improved facility replaces the
+original Hydroponic dome on the Buildings Sereen,
+
+or 0
+
+‘Seans beneath the surface ofthe planet for hidden one deposits, which are now
+plainly visible. Switch io Ore Mode on the Map Screen to see all available
+deposit
+
+Prasma Gun
+
+‘A more powerful version ofthe good ol” Laser Turret, which it replaces on the
+Buildings Sereen
+
+Solar Generator
+‘Thanks to superconductor technology, this new Solar Generator can produce
+‘ovice as many posser units asa normal Solar Panel. ‘The new version replaces the
+old version on the Buildings Sereen,
+
+‘Space Moss Converter
+Space moss is a strange type of fungus that appears on the surface of many
+planets and it prevents you from building wherever it grows. Now. scientists
+have discovered a way to extract life-giving oxygen from the moss, Space Moss
+‘Converters must be placed directly on top ofthe moss, The oxygen collected
+from the space moss will supplement the production of your existing Life
+Support facili
+
+Page 51
+
+===== Page 27 =====
+
+Spy Satellite
+‘This early warning device makes radar obsolete, Once the satellite is in place,
+the Map Sereen wll shov all enemy units in your sector, even if they are outside
+the range of your current radar installations.
+
+‘Tank ‘Teleport
+‘This breakthrough in high-energy physics allows you to send Tanks immediately
+to the area ofa potential enemy attack, Drive a Tank onto the Teleport, then
+swite to Information Mode and press the B Button fo display the Teleport
+information panel. Simply select a Marker and the tank will transpaet,
+immediately to that location. Sure beats driving, doesnt it?
+
+‘When you establish colonies on remote planets, the threat from deadly strains of
+indigenous bacteria and viruses is an occupational hazard, Alien races sometimes
+unleash these biological weapons on your colony in a devious altempl to crush
+the population and destroy morale. The funding of Civilian Grants allows
+‘Medics to develop an adaptable proto-onzyme that seeks out and attacks any new
+Slrain of virus, This compound is the basis for & new wonder vaccine that gives
+‘your colonists complete immunity.
+
+SAVE GAME
+
+TTo save the current game or select other game options, press the B Button to
+
+i the Hand cursor, then select the Save Game icon (the Computer Chip) at
+ss the A Button to display the Save Game
+Panel. ‘To select an option, use the Control Pad to highlight that option and then
+press the A Button, Your options are:
+
+START NEW GAME
+
+Select this option to start a new game, either on the same planet or on a different
+planet. When you select this option, the list of planets appears. See the section
+on GETTING STARTED for more information.
+
+SAVE CURRENT GAME
+
+‘Select this option to save the current game, ‘The words SAVE SUCCESSFUL
+should appenr on the screen. You may save only one game on your Game Pak.
+‘Saving a game will erase any previously saved game,
+
+eee
+
+PLAY SAVED GAME
+Select tis option to exit the current
+‘game and oad the saved game.
+Select this option tot
+or off.
+
+le the music on
+
+TROUBLESHOOTING GUIDE
+
+so many things to keep track of, you may find yourself running into trouble
+in one oF more aiwas. The following guide may kelp you solve the problems
+‘you'll encounter inthe day-to-day business of running a eolony.
+
+You are unable to construct a building
+
++ You are trying to build on top of another building
+
+‘You are trying to build on top of a torain feature oF wreckage,
+‘Yow do not have enough money to build — try again later.
+‘You do not have enough colonists to build — ey again later,
+‘The colonists are ata sports event.
+
+‘You cannot obta
+
+information about a building
+
++ You are notin Information Mode. Press the X Button until the
+(Question Mark cursor appears, ‘Then position the eursor over a
+building and press dhe A Button.
+
+‘Too many colonists are dying
+
++ The birth rate is set too low. Tnerease the birth rate through the
+information panel displayed when a Hospital is selected in
+Information Mode.
+
++ There is insufieient food or air. Check with the Colony
+Administrator to review your stores. If you need more food, build
+Hytiroponies domes. Ifyou need more air, build Life Support
+facilities
+
+===== Page 28 =====
+
++ Build more Hospitals to combat disease
++ Your colony is overcrowded. Check the population density level with
+the Senior Psychiatric Advisor. Build more Living Quarters ifthe
+
+population density is over 100
++ Colonists are being murdered, Build more Security headquarters
+
+igh
++ Construct more Security headquarters. This will ower the erime rate
+within few months,
+
++ Raise the colonists’ morale and Quality of Life. See the section of
+this manual entitled QUALITY OF LIFE for more information
+
+‘The evime rate is
+
+No research is taking place
+
++ Build more Laboratories,
+Give more money 10 the Military and Civilian Grants. See the section
+‘omitled FINANCE AND INDUSTRY for more information,
+
+ss and/or Chemical Plants are not producing
+
+‘They are built on the wrong lovation. Use the Map Sereen to locate ore
+and fuel deposits. Make sure you are building Mines on top of ore
+{deposits and Chemical Plants on tp of fuel deposit.
+
+Your Stores and/or Fuel Tanks are Ful
+
+‘You cannot perform manual trade
+
++ You have alteady performed manual trade this month,
++ The computers are down — wai for them to be fixed,
++ You have no active Command Center
+
+{old to bul
+
+You keep bei more Stores,
+
++ Your Stoves are overstocked with a particular iter. Trade the surplus
+‘nd cut production in a particular area if needed by demolishing the
+buildings associated with tha item. See the section on FINANCE,
+AND INDUSTRY for more information,
+
+——=-
+No Tanks are being built
+
++ You do not have enough Ore or Weapons. Check your current stores on
+the Finance Screen, To produce more Ore, build more Mines (use the
+‘Map Sereen to make sure they're on top of Ore deposits). To produce
+‘more Weapons, build more Arms Laboratories . You also may buy these
+items on the open market. See the section on FINANCE AND
+INDUSTRY for details z
+
+‘There are no open squares next to the Tank Yards. Free up one or more
+spaces by moving a Tank or demolishing a building.
+
++ You do not have an active Command! Center.
+
+‘You do not have sufficient power. Build more Solar Panels or Power
+Stations.
+
+‘You cannot get a Tank to move
+
+wl take off
+
+‘Your Spaceships wil
+
++ There ave no Fuel ‘Tanks elose tothe Launch Pad, Build Fuel ‘Tanks
+within cipht squares of the Lanne Pad.
+
+Page 68
+
+===== Page 29 =====
+
++ There is no fuel available. Use the Map Sereen to locate Fuel deposits
+and build Chemical Plants on top of them, You may also trade
+surplus goods for fuel
+
+‘Your Spaceships are running out of fuel and crashing
+
++ You have not refueled recently. Your Ships will refuel automatically
+‘when you land on a Launch Pad, provided there are Fuel Tanks
+nearby and that you have an adequate supply of fuel
+
++ Your Fuel Tanks are too far avay from the Launch Pad, Build Fuel
+‘Tanks within eight squares of the Launch Pad,
+
++ Your Fuel Tanks are empty. Buy'or produce more fuel
+
+*+ Your Ships are hovering. Land a Ship wlaen noc in use to
+conserve fuel.
+
+GAME TIPS — THE JALECO.
+‘MAJOR PLAYER’S HOTLINE
+
+If there's something you don’t understand about your new Jaleco
+game, or if you're having problems with your Game Pak, or if you're
+just plain stuck, you're welcome to call the Jaleco Major Player's
+Hotline between the hours of 8:30AM and 5:00PM Central time
+Monday through Friday (except holidays). One of our friendly game
+‘counselors will be happy to give you tips or help you out with any
+problems you're having. Here’s the number to call:
+
+708-215-2359
+
+I the hotine number. es Ho a ll
+isson tn ell before dling the Haleco
+
+Note: Normal telephone charges apply when you
+free call. Kids: get your prea's or guanan's pr
+Major Payers Howie!
+
+TAKING CARE OF YOUR
+JALECO GAME
+
+* This Jaleco Game Pak is a precision-crafted device
+with complex electronic circuitry. Avoid subjecting it
+to undue shock or extremes of temperature. Never
+attempt to open or dismantle the Game Pak.
+
+Do not touch the terminal leads or allow them to come
+into contact with water or the game circuitry will be
+damaged.
+
+Always make sure your Super NES Control Deck is
+SWITCHED OFF when inserting the Game Pak or
+removing it from the Super NES Control Deck.
+
+Page 57
+
+===== Page 30 =====
+
+————
+COMPLIANCE WITH FCC REGULATIONS CONTRIBUTING STAFF
+‘This equipment generates and uses radio frequency energy and if not GREMILIN GRAPHICS International Coordination
+installed and used properly, that is, in strict accordance with the SOFTWARE LTD. ‘Masao Ohata, Oliver Tang
+manufacturer's instructions, may cause interference to radio and (Sheffield, Bogland) Management & Supervision of
+television reception. It has been type tested and found to comply Ian Stewart, Marketing, Advertising,
+with the limits for a Class B computing device in accordance with Managing Director & Package Design
+the specifications in Subpart J of Part 15 of FCC Rules, which are James North-Hearn, Technical ‘Susan Kazmer (President,
+designed to provide reasonable protection against such interference Digcios Marketing Solutions)
+in a residential installation. If this equipment does cause interference Game Design Package Design & Layout
+to radio or television reception, which can be determined by turning Groeme Ing ‘Murrie White Drummond Lienhart
+the equipment off and on, the user is encouraged to try to correct the Game Code & Associates - Dan Carstens|
+interference by one or more of the following measures: Simon Blake, Graeme Ing (Account Fxecutive),
+me ‘Adrienne Maryn (Designer)
+— _ Reorient the receiving antenna chad Package Copy Writer
+— Relocate the SNES with respect to the receiver Mike Landers
+
+— Move the SNES away from the receiver JALECO LTD. ecco Wien
+— Plug the SNES into a different outlet so that computer (Tokyo, Japan)
+
+rm — Kate Hunt
+and receiver are on different circuits. ie Aumacare, Pietident
+Instruction Manat
+
+Design & Layout
+Jack Nichols (Jack Nichols Design)
+Testers (USA)
+
+Adams, Baki Allen, Erie
+
+Product Management
+If necessary, the user should consult the dealer or an experienced H. Saigusa, T. Kaneko, H.
+
+ian for additional suggestions. The user may ‘Nunokawa, and all at Jaleco Lid.
+1g booklet prepared by the Federal Communications
+Commission helpful: Hovw to Identify and Resolve Radio/TV
+
+J
+
+ECO USA,
+
+yand R (Wht, 1) Vai Mike Le
+
+Interference Problems. This booklet is available from the U. S. Howard Rubin, President Buteh € Uric Rosenzweig,
+
+Government Printing Office, Washington, DC 20402. Stock No. ‘Prowuct fi Joe Sistow
+
+OPO ES 4 Jef Hl, Seoit Lawrence Heike to thank all of you who
+Advertsing/rkeny Manager we boo, I wre iL ay
+ater se tei he
+
+ra
+
+===== Page 31 =====
+
+Watch for new Jaleco video games for the Super Nintendo
+Entertainment System @ in coming months. And
+remember, Jaleco makes great video games for the
+Nintendo Entertainment System @ and the
+Nintendo Game Boy ® as well!
+
+JALECO USA INC.
+685 Chaddick Drive
+‘Wheeling, IL 60090
+
+(708) 215-1811 (Main Gtfice)
+(708) 215-2359 (Game Help)
+
+Jaleco @, the Jaleo logo, and Brawi Brothers ™ are
+registered trademarks and trademarks, respectively, of
+Jaleco USA Inc. Nintendo ®, Super Nintendo Entertainment
+‘System ®, Nintendo Entertainment System @ and Nintendo
+‘Game Boy ® are registered trademarks of Nintendo of
+‘America Inc. © 1993 Jaleco USA Inc. All rights reserved.
+
+Printed in Japan.

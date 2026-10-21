@@ -1,0 +1,1667 @@
+# Ultima VI - The False Prophet
+source: https://archive.org/details/snes_manual_archive
+pdf: Ultima VI - The False Prophet (USA).pdf
+region: USA
+pages: 21
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+FCI&.
+
+SNS-U6-USA
+
+The False Prophet”
+
+PO Mt MUN ANID Henin +
+
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+Thank you for selecting, Ultima® The False Prophet™ for the Super Nintendo
+Entertainment System”. Warning: please read the enclosed consumer information
+& precaution booklet carefully before using your Nintendo" Hardware System or
+Game Pak.
+
+LICENSED BY
+
+NINTENDO, SUPER NINTENDO
+ENTERTAINMENT SYSTEM AND THE
+
+ICIAL SEALS ARE REGISTERED
+TRADEMARKS OF NINTENDO OF AMERICA
+INC. ©1992 NINTENDO OF AMERICA INC.
+
+‘SNES VERSION OF ULTIMA® THE FALSE
+1S 1992 FC! /PONY.
+
+ON,
+ORIGINAL VERSION OF ULTIMA 6 THE ‘THIS OFFICIAL SEAL IS YOUR ASSURANCE THAT
+FALSE PROPHET ©1990 ORIGIN SYSTEMS NINTENDO HAS APPROVED THE QUALITY OF
+ING. ULTIMA AND LORD BRITISH ARE WAYS LOOK FOR THIS SEAL
+<GISTERED TRADEMAR? ICHARD. WHEN BUYING GAMES ANO IESTO.
+PROPHET, AVATAR, RE ‘COMPATIBILITY WITH YOI
+‘AND THE DISTINCTIVE, LOGO ARE ‘SUPER NINTENDO ENTERTAINMER
+IF ORIGIN SYSTEMS INC. AL CER
+FCIISAREGK K OF FOR USE ONLY WITH OTHER AUTHORIZED
+
+FUJISANKEI COMMUNICATIONS PRODUCTS BEARING THE OFFICIAL NINTENDO
+INTERNATIONAL, INC. ‘SEAL OF QUALITY.
+
+===== Page 3 =====
+
+Table of Contents
+
+3 History
+5 Beginning the Adventure
+10 Explanation of Status Screen
+11 Centers of Power and Learning
+13 Other Places of Note
+14 Life in Britannia
+16 Combat
+18 Magic
+20 Table of Spells
+24 Items
+25 Armor
+25 General Items
+26 Special Items
+26 Movement
+27 Moonorbs and Moonstones
+28 Experience Points
+29 Karma and the Eight Virtues
+31 Monsters
+
+Control Pad
+Left Right
+Button Button
+Y Button
+X Button
+A Button
+Directional
+Control Pad
+B Button
+Select Start
+Button Button
+
+History
+
+lam Lord British, king and creator of Britannia. | take up my pen to
+inform thee, Avatar, of a serious problem which we now confront. | wish
+to enlist thy help to save our land. As thou remembers time and time
+again, Britannia has been cast into crisis by the resurgent influence of
+wickedness. Thou hast answered my call every time. Recently thou
+brought back the Codex of Ultimate Wisdom and helped me to
+
+escape from the Underworld. In order for thee to clearly understand the
+magnitude of this adventure, let us cast a glance at Britannia’s history.
+
+The Dark Ages
+
+The wicked wizard Mondain and his malevolent disciple, the
+enchantress Minax, were erased from the world. Yet Exodus, their
+vile brain child, was left behind. Neither human nor machine, his
+terrible power spread, until four brave warriors, including thou,
+answered my call and destroyed him.
+
+The Age of the Avatar
+
+With the Dark Ages over, Britannia’s culture flourished around the
+eight major cities. In order to properly guide Britannian cultural
+advancement, a role model was necessary. We waited for such a
+person; a person who would show us the way to all virtues. Thou
+responded to this call. To explain the difficult concept of the
+virtues, thou brought forth the Codex of Ultimate Wisdom from the
+Abyss. Currently the Codex is housed in the Shrine on Avatar
+Island, created after a great cataclysm.
+
+The Shadowlord Conspiracy
+
+Unfortunately, removing the Codex from the Underworld upset the
+balance of the Universe and resulted in the emergence of the three
+Shadowlords from splinters of Mondain’s black jewel. | was imprisoned
+in the Underworld and the once-trusted Blackthom ruled Britannia in
+my stead. Full of malice, Blackthom’s rule of tyranny began. Again,
+thou rescued us from this crisis. With the principles of truth, love and
+courage, thou succeeded in driving back the Shadowlords and
+unseating the nefarious Blackthom. My retum brought about a huge
+tectonic cataclysm and the destruction of the Underworld.
+
+===== Page 4 =====
+
+And Now the Menace of the Gargoyles
+
+In the wake of the underground upheaval, the Gargoyles, once
+thought to be creatures of legend, suddenly invaded Britannia. At first,
+the Gargoyle army occupied our shrines, but then they started to
+make sneak night attacks on villages and homes. The forces of
+Britannia are desperately struggling to oppose them, but the Gargoyle
+Army far exceeds them in physical strength, and the situation looks
+grim. If we analyze the Gargoyle strategy, it seems like they are
+looking for something important. It is also rumored that thy end is one
+of their objectives, although | cannot guess the reason. | entreat thee
+once more to find some way to save our land in this time of crisis.
+
+On this journey your limitless knowledge of truth, love and courage
+will be the key. Thy destiny awaits thee at the end of this journey, as it
+has been foretold since time beyond memory. “One who possesses
+the power of an army, the eye of a seer and the heart of a generous
+person shall come forth. This one shall lead to the end of the struggle
+between dark and light.”
+
+Thus, | call upon thee once again. It is thy destiny to fulfill this
+prophecy. Shouldst thou fail, the light will be extinguished and the
+world will be plunged into everlasting darkness.
+
+| bid thee to fight bravely.
+Lord British
+
+Beginning the Adventure
+
+Insert the game pak into the Super
+Nintendo Entertainment System? and turn
+on the power. When you see NEW HERO
+on the screen, select it with the control pad
+and press the start button.
+
+Next input your character’s name. Choose
+the letters with the control pad and set
+them with the A Button. You can input up to
+7 letters or spaces. If you make a mistake,
+correct it with the B Button. When you have
+finished inputting the name, move to END,
+and press the A Button.
+
+The next screen determines the speed at which messages will
+appear. Move the control pad to choose the speed you want. It is
+possible to change the message speed later in the game (see page 7).
+
+After making these selections, game play begins. Use the A Button or
+the B Button to advance to the next screen. When the opening
+sequence has finished, your first battle will soon begin, so refer to the
+combat description (page 16-17) before advancing to the first fight.
+
+While adventuring, your character will need to
+do several things like searching and using
+items. A menu with these commands will
+appear in the left corner of your screen when
+you push the A Button. With the control pad
+and the A Button, you can implement all
+these commands. Any command can be
+cancelled with the B Button.
+
+===== Page 5 =====
+
+Inven.
+
+This command is for checking objects or
+armor. Press the A Button again and the
+status screen will appear in the next
+window. There are two different types of
+items: those which can be used as they are,
+and those which must be selected before
+being used.
+
+Use
+
+This is the command for arming and disarming yourself and for using
+an item. Select USE and then select which character will use the item.
+Alist of items that each character currently has will be indicated in the
+box in the left side of the screen. At the same time, illustrations of the
+items will appear. You will see a square cursor and by using the
+control pad to move the cursor, decide which item you want to use,
+then press the A Button. The item you selected will be displayed in the
+message window at the bottom of the screen, showing its name,
+number of times it can be used, weight and in case of a weapon,
+attack strength. As the number of your character's items increases, an
+arrow will appear to the right of the list which means you can scroll in
+that direction to see the items not pictured.
+
+When you select armor and weapons from the item list, the item will
+automatically appear on the appropriate part of the character's body
+in the status screen. If the character is already wearing a similar item,
+the new item will replace the old one. To remove an item your
+character is wearing or is armed with, move the square cursor to the
+part of the body holding the item you want removed, and use the A
+Button to make the selection. The item you want removed will
+automatically be added to the item list on the status screen.
+
+Give
+
+Use this command to give items your character has to someone
+else in the party. Choose which item you want to give and to which
+character you want to give it by using the A Button.
+
+Move
+
+This command is used to rearrange items your character has
+collected on the item list. Highlight the item you want to rearrange
+with the square cursor and press the A Button. Move the cursor to
+the place where you want to put the item and hit the A Button
+again. You can also use this command if you have an object that
+you want to store away in your bag. To store the item in your bag,
+move it there. To retrieve the items that you have stored, simply
+move the cursor over the bag. Press the X Button, select the item to
+be retrieved with the A Button, press the X Button again and the
+object will be added to your ordinary item list.
+
+Drop
+
+Use this command to get rid of unnecessary items. Select the item
+you do not want with the square cursor and throw it away with the
+A Button.
+
+Reorder
+
+This is the command to change the order in which your party is
+marching. Indicate the order in which you want the characters and
+select with the A Button. Changing the arrangement of the
+characters has strategic effects during combat.
+
+Options.
+
+This is the command to change the game
+mode. When you select this command, the
+subwindow COMBAT, SOUND, or
+
+- MESSAGE will appear.
+
+—_- pital. *COMBAT changes the character's
+
+individual combat style.
+
+*SOUND is the command to change the
+background music between stereo and
+mono sound.
+
+*MESSAGE is the command to change
+the speed at which the game text
+appears on the screen.
+
+===== Page 6 =====
+
+Here is another set of commands necessary for adventuring.
+
+Talk
+
+In this game, your character can talk with the many people
+inhabiting Britannia. By talking with the other characters you can
+gather information that may aid you on your quest.
+
+When you select TALK, the square cursor will appear on the screen.
+Move the cursor up, down, right or left with the control pad to
+indicate the character with whom you wish to speak and then press
+the A Button.
+
+When the description of the characters has
+finished, press the A Button and a
+conversation window will appear in the upper
+portion of the screen. You will see a heading
+in this window with Name and Occupation,
+among other topics, and you can continue
+the conversation by highlighting these key
+words. If an important topic is spoken during conversation, a new
+heading will be added to the conversation window. If the headings
+increase beyond their allocated space in the window, an arrow will
+appear in the lower right-hand corner of the window. You can scroll the
+screen to see additional text with the control pad. Occasionally after
+you have received a hint from a character, if you speak to the character
+again, the conversation will change.
+
+To end the conversation, press the B
+Button and bid the person farewell. There
+are certain characters who will want to join
+the party. Be sure to speak with every
+character you meet along your journey. Ask
+a lot of questions.
+
+This command is used to look for things
+around you. Select the LOOK command
+and the square cursor will appear. Using
+the control pad, you can move the cursor in
+any direction. If you want to pick up the
+item, hit the A Button.
+
+Attack
+
+This is the command used to start a battle
+when your party has encountered an
+enemy. Select the enemy you wish to
+attack with the square cursor. Once you
+begin to attack, the game will automatically
+shift to the combat mode.
+
+Use this command for casting magic spells.
+Select the character who will cast the spell
+and which spell you will use with the A
+Button. You can change the order of the
+spells in your Spell Book by moving the
+control pad left or right.
+
+This command is used to restore your
+character’s hit points and magic points by
+setting up camp. Your characters must have
+enough food when you set up camp or their
+hit points will not be restored. Indicate with
+the direction key how long your party wishes
+to rest and select with the A Button.
+However, when your party camps in the more dangerous places of
+Britannia, monsters may attack while you are sleeping. When you
+camp in the cities, you cannot camp in small places.
+
+Use this command to save a record of your
+adventures. Enter this command to stop
+adventuring and always remember to hold
+down the reset button while turning off the
+power. When you restart the game,
+JOURNEY ONWARD will appear on the
+Start/Continue screen and you can pick up
+from the point at which you saved your game.
+
+===== Page 7 =====
+
+Explanation of the Status Screen
+
+GI om: Command
+LV>3
+us STR:20 HP: 907 30
+DEX:18 MP: AZZ AZ
+Give IWT:21 EX: 375
+ou Ego
+Drop & a
+Reorder Ne: ;
+Options ‘
+2 2720 I: 3760
+sh! 360
+anaes ates 1- 6711
+
+MP (Magic Points) This is the level of a character's magic power. It decreases as the magic is
+used, and when it reaches 0, you cannot use magic.
+
+XX__ Highest Number of MP Attainable
+
+YC Current Number of MP
+
+EX (Experience Level)
+
+INT (Intelligence): This influences the amount of magical knowledge a character has.
+
+DEX (Dexterity): This influences the number of times the character can strike during combat.
+
+‘STR (Strength): This affects the amount of damage that the character can inflict on enemies.
+
+E (Equipment): To the left is the strength of the armor currently being worn. To the right is
+the potential armor strength.
+
+GP (Gold Pieces):The number of gold pieces the character has.
+
+@ Current movement of the moon and sun (Right is east and left is west).
+
+HP (Hit Points) This is the measure of the character's vitality. It decreases as the character is
+wounded. If it reaches 0, the character expires.
+
+Current Hit Points
+
+XX Highest Number of Hit Points Available
+
+Lv Current Level
+
+CM Command Mode
+
+KR (Karma Level)% See page 29.
+
+(Item Strength): To the left is the item's strength, to the right is the highest potential
+strength of the item.
+
+Centers of Power and Learning
+
+In the vast world of Britannia, cities dot the land. Here we will
+briefly list each of the centers of culture and learning.
+
+The Castle of Lord British
+
+Protected from behind by the Serpent Spine Mountains, the castle
+overlooks the city of Britain. You are free to take items found in the
+castle such as food and arms. A room has been prepared for your
+use so use it from time to time throughout your journey. Sherry the
+talking mouse and others live there with Lord British.
+
+Lyczeum
+
+Perched on the slopes of Verity Isle, the Lycaeum is a place of
+great cultural and educational importance. There is a massive
+underground library full of books of great significance. It is rumored
+that four times a year, the Inner Circle of Mages is held in the
+hidden underground passages. The Lyczeum also houses an
+observatory which boasts Britannia’s largest telescope.
+
+Empath Abbey
+
+The center of the Abbey is a retreat where people can engage in
+contemplation. The Abbey is also the stronghold of the
+“Brotherhood of the Rose.” It is located on the coastline near Yew,
+in Northwestern Britannia. Next to the Abbey is a vineyard where
+the brothers grow excellent grapes.
+
+Serpent’s Hold
+
+A fortress of honor, valor and triumph, Serpent’s Hold is also the
+bastion of the “Order of the Silver Serpent.” Additionally, it houses
+the training facilities for Britannia’s militia. The soldiers are guided
+by heroes of the 100 martial disciplines. Many of the soldiers from
+Serpent's Hold went to battle the Gargoyles, but only a few
+returned.
+
+Moonglow, the City of Honesty
+
+This is a city of sincere and noble people. Located on the tip of
+Verity Isle, the port of Moonglow is frequented by mages and
+students due to its proximity to the Lycaeum. Lodging and services
+are reasonable.
+
+an
+
+===== Page 8 =====
+
+Britain, the City of Compassion
+
+Britain is the home of Lord British. Toolmakers, inns and
+blacksmiths are all found in this large metropolis. It is one of the
+most well populated cities in Britannia, so keep listening for
+valuable information.
+
+Jhelom, the City of Valor
+
+The citizens of Jhelom are a tough-looking lot, but most of
+Britannia’s famous warriors hail from this city. Shipbuilding is one
+of the most noted occupations but there are also inns, taverns and
+blacksmiths.
+
+Yew, the City of Justice
+
+As a center for law administration, the supreme court’s justice is
+issued from Yew. A proud city, it is second in size only to Britain. It
+features blacksmiths and apothecaries.
+
+Minoc, the City of Sacrifice
+
+A city long famous for its engineers and builders, Minoc is located
+on Lost Hope Bay in northern Britannia. The Builders’ Guild was
+formed there. Minoc also has skilled artisans who excel in glass
+blowing, metal working and clock making.
+
+Trinsic, the City of Honor
+
+Situated in the south of Britannia, Trinsic provides many services
+such as blacksmiths and taverns. It is the birthplace of many noble
+knights.
+
+Skara Brae, the City of Spirituality
+
+Skara Brae is located near a mysterious forest, and is rumored to
+be the spiritual center of Britannia. The people of Skara Brae are
+noted for their production of cider.
+
+New Magincia, the City of Humility
+
+The former Magincia was destroyed by pride and arrogance, but
+was rebuilt by a more humble people who favored the simple life.
+New Magincia has flourished over the ruins of the old prideful city
+and has become famous for its clothiers and taverns.
+
+12
+
+Other Places Of Note
+
+Buccaneer’s Den
+
+Buccaneer’s Den is a rough city, famed for the notorious pirates
+who live here. Many travellers desiring unique goods visit this
+eastern island’s small village, which also has skilled tool makers
+and blacksmiths.
+
+Cove
+
+This secluded village is nestled in mountains to the south of Lost
+Lake. Many healers, mages, and alchemists come here for the
+magic shops and houses of healing.
+
+Paws
+
+A coastal village located between Britain and Trinsic, Paws is
+celebrated for its tailoring establishments. Looking out from Paws
+you can barely see the mysterious islands known as the “Fens of
+the Dead,” where you can seek the ingredients for spells.
+
+The Plains
+
+This is the ancient battleground of the most brutal war in
+Britannia’s history. A region cursed with the spirits of brave
+warriors who perished here, mandrake and nightshade potions can
+be gathered here.
+
+Isle of the Avatar
+
+After the Avatar brought forth the Codex of Ultimate Wisdom from
+the Stygian Abyss, a cataclysmic volcanic upheaval created this
+island. The Codex is safely kept in the Shrine of the Avatar but few
+dare to venture across the lava-strewn isle to see it.
+
+Sutek’s Castle
+
+Few visit the former home of the nefarious Blackthorn, but rumors.
+have it that Sutek the mad wizard has taken up residence here.
+What he is actually doing here is a mystery.
+
+Dry Land
+
+This desert region is east of the Plains. In ancient times, the town
+of Vesper stood here, but disappeared as the land mysteriously
+turned into arid land.
+
+13
+
+===== Page 9 =====
+
+Life in Britannia
+
+In Britannia there are many significant people and buildings
+important to the continuation of your journey. When your party
+enters a town, be sure to fully explore the surroundings. When
+your party is not moving, time is considered to have stopped.
+
+Armories
+
+The armories of Britannia are famous for their weapons
+and armor necessary for combat. Most cities have a
+blacksmith, but their products and prices vary. It is possible
+to sell arms for which you have no more need. The smith
+will examine your offerings and decide on the price.
+
+Taverns
+
+In big cities there is always at least one place selling
+food and beverages. Different locations offer different
+types of goods, so take note of the specialties of each
+place.
+
+Lae
+ea
+
+Healers
+; Your journey across the varied terrains of Britannia can
+be fraught with perils. Fortunately, there are many fine
+healers in the major cities. They can heal you and your
+party members when you are poisoned or injured. Some
+healers are versed in the ways of magic and there are
+even those who can resurrect fallen party members.
+
+Magic Shops
+
+These stores have a great variety of the ingredients
+necessary to cast all types of spells, even those not
+found in magic books. The ingredients found in each
+magic shop are different so a careful mage is sure to note
+the availability of each type of ingredient in each shop.
+There are also magic shops that sell magic books.
+
+Inns
+
+After a strenuous day, inns offer safe, comfortable
+| lodging to travellers. Even at cheap inns, your safety is
+| guaranteed.
+
+Ship Builders
+
+Several of the port towns of Britannia are known for their
+ship building. The ship builders mostly sell boats for river
+and ocean voyages. Prices vary from place to place so
+be sure to keep an eye out for a good price. It is also
+wise to heed the local advice about wind and weather
+conditions.
+
+Guilds
+Members of certain professions have organized
+themselves into groups called guilds. These guilds can
+provide the adventurer with the necessary tools for
+travelling into the wilderness and dungeons.
+
+Tailors
+
+The tailors of Britannia make beautiful clothing to fit
+each customer’s tastes. The clothing industry is
+concentrated in Paws, where there are many wool
+shops, clothiers and tailors.
+
+Bow and Arrow Makers
+These shops sell bows as well as arrows for both the
+crossbow and the regular bow. The bows made in
+Britannia are especially famous. Bows are very useful
+weapons but remember if you run out of arrows, you
+cannot use the bow.
+
+People of Britannia
+
+Time in Britannia is “real time.” It is light during the day and it gets
+dark at night. People go about their business in accordance with
+this time. For example, a farmer gets up in the morning and leaves
+for his fields, has lunch at mid-day and goes home to sleep for the
+night. Therefore, as you continue your journey, you must travel ina
+way that will accommodate this schedule.
+
+In the middle of the night, most people are sleeping, and even the
+inns are closed. Unless you want to sleep in a field, it is advisable
+to enter an inn early. You can check the time by watching the sun’s
+position on the status screen or you can look at a clock hanging
+from the pillars in any number of buildings.
+
+15
+
+===== Page 10 =====
+
+How to Collect Money
+
+You can get gold from the monsters you defeat, but there are a
+number of other ways to raise money in Britannia. One way is
+through trade. In each town there are shops carrying out their
+business, and one store’s stock can often be sold in another town
+for a profit.
+
+Another way to collect money is to explore the dungeons where
+gold is buried. If you ask around and dig in the proper place, it is
+possible you may get lucky and find some. You could also make
+money by gambling or selling items you have. As a rule, things you
+buy from a blacksmith can be sold everywhere. It is profitable to
+sell arms and such to the most expensive store.
+
+Meeting People
+
+As you continue on your adventure, you will meet many people,
+among them those who want to join your party. Up to six people
+can be party members, so when you meet people you like, have
+them join the party. To release a person from the party, use the
+talk command.
+
+Combat
+
+When you or an enemy attack one another, you will
+automatically enter combat mode and the music will change to
+alert you that you are being attacked. Combat commands will
+
+appear.
+
+How to Fight
+
+In the beginning of a combat round, combat is handled entirely by
+the computer for all characters but your character. Each attack will
+be handled in turn and automatically carried out by the computer.
+When it is your turn to fight, the combat command will appear on
+the screen. (In combat mode, there is an option that lets you
+control each character's combat as well as letting you change that
+character’s combat style.)
+
+For each character you may choose from the following four types
+of combat.
+
+Command: Your character's actions rest in the players hands.
+When you choose this command, the character’s battle
+time and combat commands will appear on screen.
+
+16
+
+Charge: Automatically attacks the closest enemy.
+
+Raid: Judges the strongest enemy and attacks
+automatically.
+
+Retreat: The character retreats when it is too dangerous to
+attack.
+
+To change to combat mode, use the command INVEN. Select
+OPTIONS and then select the COMBAT mode. However, note that
+once you are in the COMBAT mode, you can only select COMBAT
+to change modes.
+
+How To Use the Combat Commands
+
+Auto
+
+This command lets the Super NES decide which enemy to attack.
+This is useful when it is a weaker character’s turn to fight.
+
+Move
+Use this command to change your character’s location. It allows
+you to move the character one step in any direction.
+
+Attack
+
+To attack with hand-held (close range) weapons, indicate which
+enemy you are going to attack with the cursor. To attack with
+projectile (long range) weapons, move the cursor with the control
+pad to indicate the target, and attack using the A Button.
+
+Cast
+
+Use this command to cast spells. Select the items you will use,
+then press the A Button. Indicate the ingredients necessary for the
+spell with the cursor. Change the order of the spells on the spell list
+by moving the control pad left and right.
+
+Use
+
+This is the command for using an item during combat. Choose the
+item you want with the A Button. When you choose an item for a
+character other than your character, that character will use the
+selected item in his next combat round. With the USE command,
+you can also switch the weapon you are currently holding and
+move into combat mode.
+
+17
+
+===== Page 11 =====
+
+Magic
+
+There are eight levels of magic encompassing 48 different
+spells, Mastery of these spells is necessary in order to
+successfully complete your adventure. Here are some words of
+caution for casting spells: sometimes the spell will not have
+the desired effects either because the target is immune to
+magic or the spell does not fully hit the target. Also be careful
+of other people who are in the vicinity. You do not want to
+accidentally harm a friend.
+
+How to Use Magic
+To use magic spells, you must fulfill these three requirements:
+
+1. Your character must have a spell book.
+
+2. Your character must have enough magic points (MP) to cast
+that particular spell.
+
+3. You must have the necessary ingredients to cast the spell.
+
+Additionally, each character is limited to using spelis in his magic
+level. When your character has attained a high magic level, it is
+possible to cast some powerful spells.
+
+Not all spells are written in the Spell Book. Your character can
+purchase these spells in a magic shop and have them copied in the
+Spell Book. It is not just to your advantage to gather spells as you
+continue your journey, it is one of the main purposes of your
+travels.
+
+Explanations of Ingredients
+
+One or more of eight ingredients make up every spell, and the
+preparation of each spell is completed prior to casting it. Some of
+the ingredients are common herbs and minerals, but the rarer
+ingredients, found in the more powerful spells, must be diligently
+sought after.
+
+After you mix the ingredients for a spell, its magic will take effect.
+When you cast the spell, the ingredients used in the spell are
+consumed. Next to each spell on the spell list you can see how
+many more times you can use the spell. Do not forget to buy new
+ingredients from magic shops and refill the ones you need before
+you run out.
+
+18
+
+Black Pearl (PE)
+This precious gem is ground up for use in magic. When used, it
+produces a propulsive energy.
+
+Blood Moss (MO)
+
+This moss is so called because of its ruddy color. It is found in the
+enchanted forest of Spiritwood. Blood moss is used to speed up
+movement and action in a spell.
+
+Garlic (GA)
+This common household spice is useful in warding off evil spirits.
+
+Ginseng (GI)
+Actually the root of a plant, ginseng has strong curative powers.
+
+Mandrake (MA)
+
+Mandrake is the most valued of the magical ingredients. It is found
+in the swamplands and marshes. When used as an ingredient, it
+increases the power of a desired enchantment.
+
+Nightshade (NI)
+
+This fungus, found primarily in swamps, sprouts only in the dark of
+night. Its main function in spells is to create illusions or poisonous
+effects.
+
+Spider Web (SI)
+
+The web of giant spiders works the best in magic spells. Spider
+web adds restraining power to magical spells. There is a rumor that
+there is a cave where spider web is plentiful.
+
+Sulfur Ash (AS)
+The product of volcanic eruptions, sulfur ash adds a high level of
+energy to spells.
+
+19
+
+===== Page 12 =====
+
+Table of Spells
+
+Magic| Spell Effect Potion MP Magic} Spell Effect Potion MP
+Level Level
+1 Create food Anumber of GA, GI, MA 1 3 Dispel Field Eliminates a magic field of | PE, AS 3
+food servings appear fire, poison or other power
+(cont'6)
+Detect magic Discerns magical NI, AS. 1 Great Light Lights the way for a AS, MA 3
+properties of an item long time
+Dispel Dispels magic GA,GI 1 Mass Awaken | Wakes all characters Gl, GA 3
+within a 2-square area
+Harm Causes physical NI, SI 1 Peer Shows a map of the area NI, MA 3
+damage to the enemy that you are in
+Help Transports you to Lord 1 Protection Increases defensive AS, GI, GA 3
+British’s castle power against fire, poison
+Light Lights the way for AS 1 Repel Undead | Drives away nearby GA, AS 3
+a short time Undead
+2 Magic Arrow Shoots a magic arrow AS,PE 2 4 Disable Inflicts a fatal blow Gl, SI, MA 4
+Poison Poisons enemy NI, MO, PE 2 Great Heal Completely restores HP GI, SI, MA 4
+Sleep Puts enemy to sleep NISI, PE 2 Locate Indicates current lati- NI 4
+tude & longitude
+Unlock Unlocks magic locks AS, MO 2 Mass Dispel Heals characters of GA, GI 4
+poison & sleep
+3 Curse Reduces enemy's armor, AS, NI, GA 3 Mass Sleep Puts all characters to GI, NI, SI 4
+abilities and intelligence sleep in 2-square radius
+Fireball Hurls a ball of fire AS, PE 3 5 Explosion Sets off explosion MA, AS, PE, 5
+at enemies MO
+
+20
+
+PE Black Pearl, MO Blood Moss, GA Garlic, Gl Ginseng,
+MA Mandrake, NI Nightshade, SI Spider's Web, AS Sulfur Ash
+
+PE Black Pearl, MO Blood Moss, GA Garlic, Gl Ginseng,
+MA Mandrake, NI Nightshade, S| Spider's Web, AS Sulfur Ash
+
+21
+
+===== Page 13 =====
+
+Magic| Spell Effect Potion MP
+Level
+5 Invisibility You become invisible NI, MO 5
+for a short time
+(cont'a)
+Lightning Damages enemies with PE, MA, AS 5
+magic thunderbolt
+Paralyze Paralyzes enemies SI,AS, NI, PE | 5
+X-ray You see through walls MA, AS. 5
+6 Charm Entices enemies to be PE, NI, SI 6
+friends
+Flame Wind Blows flame at enemies AS, MO, MA 6
+Hail Storm Starts large hail storm MO, PE, MA 6
+Mass Protect Makes protective wall AS, GI, GA, MA| 6
+around everyone in a
+2-square radius
+Negate Magic | Target cannot use magic | GA,AS,MO | 6
+for short time
+Poison wind Blows poisoned wind NI, AS, MO. 6
+7 Chain Bolt Decreases energy in PE, NI, AS, MO.
+the area 7
+Defeat Defeats enemy suddenly PE, NI, AS 7
+
+22
+
+PE Black Pearl, MO Blood Moss, GA Garlic, Gl Ginseng,
+MA Mandrake, NI Nightshade, SI Spider's Web, AS Sulfur Ash
+
+Magic Spell Effect Potion MP
+Level
+7 | Energy Wind | Shoots an energy beam —_| MA, NI, AS, MO
+in an indicated area 7
+(cont'a)
+Fear Makes all enemies flee NI, MA, GA 7
+Gate Travel Lets you transport to AS, PE, MA 7
+location indicated by
+moonstone
+Mass Curse Reduces the defensive AS, NI, GA, MA | 7
+power of all within
+2-square radius
+Mass Makes all characters MA, NI, MO, PE | 7
+Invisibility within 2 squares invisible
+Wing Strike Rampaging, winged MO, SI, MA, AS | 7
+dragon cuts through
+enemies
+8 Doom Wind Awind of doom blows MA, AS, NI, MO} 8
+Mass Charm Entices enemies to be PE, NI, SI, MA, | 8
+friends in 2-square |O
+radius
+Mass Defeat | Defeats everything in PE,NI,SI,MA | 8
+2-square radius
+Resurrect Restores fallen friend GA, GI, SI, AS, | 8
+to life MO, MA
+Time Stop Stops time for all but MA, GA, MO 8
+those in party
+Tremor Causes an earthquake MO, AS, MA. 8
+
+PE Black Pearl, MO Blood Moss, GA Garlic, Gl Ginseng,
+MA Mandrake, NI Nightshade, SI Spider's Web, AS Sulfur Ash
+
+===== Page 14 =====
+
+Items
+
+No matter how brave the warrior, to hurl oneself into the thick
+of Britannia’s greatest crisis without adequate armor and items
+would be ill-advised. Before you forget, it is important to arm
+and gird each character with the items and armor best suited
+to each character's abilities. In addition to the items
+introduced below, other kinds of items exist in Britannia.
+
+Weaponry
+
+There are a variety of weapons available in Britannia. You should
+choose such weapons as your finances and opportunity allow. The
+proper choice of weapon is crucial to success in battle.
+
+Daggers
+
+A dagger is a short, light sword which is useful for stabbing or
+throwing as a projectile weapon. It does not have much power, but
+it is quick and inexpensive.
+
+Main Gauche
+
+Similar in shape to a dagger, it can be used to exchange blows with
+an enemy. Unlike the dagger, it cannot be thrown, as it has a
+protective handle.
+
+Sword
+
+The most popular weapon in Britannia is the sword. It comes in
+one-handed and two-handed varieties. The short one-handed
+sword is lighter and the preferred blade of adventurers since only
+the strongest of warriors are able to heft the two-handed sword.
+The strength of the sword depends on the material of the blade.
+
+Sling
+Asling is the simplest of projectile weapons since all you need are
+a few rocks in your pocket. Hurl the rocks from the sling.
+
+Bow
+
+The best bows are hewn from strong, resilient trees. Of course you
+need to have arrows to use the bow. Although it’s the best projectile
+weapon, the bow is not effective in hand-to-hand combat.
+
+Cross Bow
+Unparalleled as a distance weapon, the cross bow is very powerful.
+The cross bow uses special short arrows.
+
+Morningstar
+
+This is a weapon with an iron ball attached to a length of chain. You
+can fight an enemy at close range with a morningstar, but to use it
+correctly requires a lot of strength.
+
+24
+
+Armor
+
+Only the truly foolhardy venture forth without any protective
+covering. There are several types of armor available, ranging in
+price and protectiveness. Learn about the various types of
+armor from the merchants of Britannia.
+
+Mail
+
+This is armor which you wear on your body. There are several
+different kinds; some made of interconnected chains and others of
+metal plate.
+
+Helmets
+
+Helmets come in many varieties, ranging from leather to metal. It is
+a wise idea to protect your head in battle, as it is an excellent
+target for your opponents.
+
+Shields
+
+Effective in protecting you from an enemy attack. When using a
+weapon requiring both hands, you should remove your shield.
+Keep it close to you at all times.
+
+General Items
+
+Food
+
+Do not forget to take food with you on your journey. There is an
+abundance of food in Britannia, and many taverns sell items like
+bread, meat, and cheese.
+
+Fire Pot
+This is used for starting fires and for hurling at enemies. It can
+cause damage to other things around you as well.
+
+Swamp Boots
+
+These are for protecting your feet from the various poisons that
+you might find in the dangerous blue-white glowing swamps. They
+are made of leather and are watertight.
+
+Potions
+
+There are all kinds: red, blue, white, black... Some are swallowed,
+others are thrown, for a variety of results. Be careful though; some
+of them have harmful effects.
+
+Magic Balls
+These are used to display your current locations and surroundings.
+Sold in magic shops, they disappear once they are used.
+
+25
+
+===== Page 15 =====
+
+Powder Keg
+They are useful for blasting doors that you just cannot open. Ignite
+them with the USE command and get as far away as possible.
+
+Sack
+
+A sack is useful for organizing small items. Use it for potions and
+things that you do not ordinarily use. (Refer to the PASS command
+on page 6).
+
+Sextant
+
+This is a tool for calculating your current latitude and longitude. It
+becomes especially necessary on an ocean-going voyage.
+
+Special Items
+
+Sherry the Mouse
+
+Sherry is a mouse who lives in Lord British’s castle. Use her as a
+reconnaissance mouse and move her with the USE command.
+When you want her to come back, move her to the Avatar, select
+RETURN and she will come back to your character.
+
+Magic Items
+
+There are magic weapons, magic rings and all kinds of other
+magic items. You can use most of them a few times before
+
+they stop working and disappear.
+
+Runes
+
+These are the eight ancient stones with carved letters symbolizing
+the eight virtues. They are used when you meditate at the shrines.
+
+Moonorb and Moonstones
+See pages 27 -28.
+
+Movement
+
+In Britannia, roads have been built to connect the towns.
+Ordinarily if you walk on these roads, the odds of a monster
+coming out and attacking you are pretty slim. Also, when you
+cross a river or the sea, you must use some mode of
+transportation.
+
+Methods of Transportation
+
+Skiffs
+
+These are collapsible boats that are useful in crossing rivers or the
+sea. A strong character can carry a skiff.
+
+26
+
+Ships
+
+Ships differ from skiffs in that they are larger. They are used for
+crossing the Great Oceans. If you get shipwrecked, you will drift in
+the ocean on a raft. When on a ship, except during combat, you
+cannot use magic.
+
+Balloons
+
+These are handy vehicles for flying through the sky. They are not
+sold anywhere! You can collect the materials and build one
+yourself. When you disembark from the airship, do not forget to
+carry it with you with the LOOK command.
+
+Moonorbs and Moonstones
+
+Both moonorbs and moonstones are useful stones that make
+the red and blue moongates (warp zones) respectively appear.
+
+Moonorb
+
+Moonorbs are black stones which you discovered before you came
+to Britannia. Before you can use them, you must speak with Lord
+British about their use. Refer to this chart for destinations. Select
+USE to use the moonorb. You can determine where to place the
+moonorb based on this chart. Be careful, there are many dangerous
+places for the beginning adventurer.
+
+Moonglow Shrine of Britain Shine of Jhetom
+Honesty Compassion
+
+Shrine of Shrine of Lord Shrine of Shrine of
+
+Humility Control British Passion Valor
+
+New Void Avatar Void Yew
+
+Magincia
+
+Shrine of The Slab Shrine of Isle of Shrine of
+
+Spirituality Diligence the Avatar | Justice
+
+Skara Brae | Shrine of Trinsic Shrine of Minoc
+Honor Sacrifice
+
+27
+
+===== Page 16 =====
+
+Moonstone
+
+Moonstones are stones that make the blue moongates appear,
+depending on the phase of the moon. There are eight moonstones.
+Each moonstone corresponds to a shrine. To use a moonstone,
+select USE and place it on the ground. Wait for the appropriate moon
+phase and the gate will appear. When you enter the blue moongate,
+it takes you to the moongate which corresponds to the highest moon
+on the status screen. In the beginning of the game the eight
+moonstones are fixed at each shrine. After saving the shrine from the
+gargoyles, you can change the positions of the moonstones.
+
+e@ New Moon @ Crescent Waxing
+q) 1st Quarter @) Gibbous Waxing
+O Full Moon © Gibbous Waning
+© Last Quarter @® Crescent Waning
+
+Experience Points
+
+As you adventure and defeat monsters, each character
+acquires experience points. In Ultima, however, you do not go
+on to the next level (level up) by merely gaining experience
+points. You must also build up KARMA, a more subtle change
+in your ordinary daily behavior in accordance with your
+character’s unique personality traits. You must accumulate
+many experiences for your adventure to be a success.
+
+Level Up and Meditation
+
+Basically, experience points are awarded to the one who actually
+defeats the enemy. You can go on to the next level (Level Up) when
+you have earned experience points as indicated in the chart and
+you have gone to one of the shrines to meditate.
+
+Exp. Pts.| 1-99 | 100+ | 200+ | 400+ | 800+ | 1600+ | 3200+ | 6400+
+
+Level 1 2 3 4 5 6 7 8
+Max HP | 30 60 90 120 | 150 | 180 210 | 240
+28
+
+When you go to meditate at the shrine, begin speaking at the dais.
+Meditate as the dais indicates and your intelligence points will
+increase as your levels increase. The number of intelligence points
+you will receive differs from shrine to shrine. Think about each
+character’s distinctive qualities and decide who will meditate at
+which shrine. Before meditating, you should present a rune at the
+dais. Also, depending on the shrine, you will only go up one level
+each time you meditate, so characters with high experience points
+should return to meditate several times.
+
+Honesty Intelligence + 3
+
+Compassion | Dexterity +3
+
+Valor Strength +3
+
+Justice Intelligence + 1 & Dexterity + 1
+Sacrifice Dexterity + 1 & Strength +1
+Honor Strength + 1 & Intelligence + 1
+
+Spirituality Intelligence + 1, Dexterity + 1, & Strength +1
+
+Karma and the Eight Virtues
+
+Karma indicates the current state of your character's virtue points
+(expressed in %). These are shown on the character’s status
+screens. The virtues are honesty, compassion, valor, justice,
+sacrifice, honor, spirituality, and humility. The virtues should be a
+part of your daily life so that if your actions match the virtue, then
+your karma level will rise. Conversely, if you take opposing action,
+your karma level will fall. For example, if you steal something from
+another character or tell a lie, your karma level will decline rapidly.
+
+The greatest effect of low karma is when your character has
+perished. When you or a member of your party with low karma are
+resurrected, the experience points needed to bring the revived
+character back to his former level are greater. For example, if a
+character’s karma is at 50%, when he is revived, his experience
+points are half of their previous level.
+
+To increase your character’s karma level, always keep your
+promises, behave in a proper way and meditate at the shrines.
+
+If your character’s karma drops, it is very difficult to bring it back to
+its former level. You, as the Avatar, are conscious of this and should
+not let your karma decrease. One other important fact about your
+karma level: if it gets too low, you cannot finish your adventure.
+
+29
+
+===== Page 17 =====
+
+The Meanings of the Eight Virtues
+
+In Britannia, the eight virtues are revered. A shrine has been
+built and dedicated to each virtue as a place to meditate.
+These virtues are guided by the three principles of love, truth
+and courage.
+
+Honesty You must never tell a lie. Honesty is guided by the
+principle of truth.
+
+Compassion Be generous and forgiving of other people’s mistakes.
+Compassion is guided by the principle of love.
+
+Valor To have valor is to live without fear. Valor is guided
+by the principle of courage.
+
+Justice Justice is the ability to distinguish right from wrong,
+moderated by mercy. All are created equal. Justice
+is guided by the principles of truth and love.
+
+Sacrifice Sacrifice has a selfless heart and lives to serve
+humanity. Sacrifice is guided by the principles of
+love and courage.
+
+Honor Honor is the ability to keep your promises and never
+go back on what you say. Honor is guided by the
+principles of courage and truth.
+
+Spirituality To be spiritual is to be generous with your reverent
+heart and spirit. Spirituality is guided by the
+principles of love, courage, and truth.
+
+Humility A humble person is neither proud nor arrogant.
+Humility is to speak in a gentle manner.
+
+30
+
+Monsters
+
+There are numerous monsters
+and beasts who inhabit the
+land, skies and seas of
+Britannia. Other creatures also
+inhabit Britannia that have not
+been recorded here. Keep an
+eye open for these predators.
+Giant
+
+This is a giant arachnid with a
+venomous bite. It captures living
+creatures and stores them in its vile
+underground nest.
+
+Giant Rat
+
+These gigantic rodents live in the
+sewers and other murky, damp places.
+If you are bitten, there is a chance of
+‘catching a horrible disease or a plague
+from them.
+
+Giant Ant
+
+The desert sands hide these large
+insects. They have powerful jaws
+which are capable of crushing any
+brave adventurer.
+
+Headless
+
+These are deformed creatures created
+by a wizard's failed experiment. They
+scorn pity and would rather attack you
+with their bare hands than walk by you.
+
+Wisp
+
+Wisps are mysterious beasts that
+appear in the forests. They resemble
+fireflies with their lights blinking on and
+off. They cause only minor damage
+when they attack and can disappear in
+the blink of an eye.
+
+Cyclops
+
+These huge one-eyed creatures are
+fearless and have inhuman strength.
+They are said to live in caves and to
+hurl rocks at adventurers who stray too
+close to their dwellings.
+
+31
+
+===== Page 18 =====
+
+32
+
+Corpser
+Corpsers live in the depths of the
+dungeons of Britannia. They grab their
+prey with their tentacles and drag them
+into their foul lairs. Their one weakness
+seems to be fire.
+
+Hydra
+
+This ferocious plant-like beast lives
+near the fetid swamps of Britannia.
+Although hydra are plants, they are
+carnivorous in nature. Hydra inhabit
+swamps in which nightshade, prized for
+magic spells, is found.
+
+Rotworm
+These leech-like creatures live on the
+surface of swamps. They are more of a
+nuisance than an actual danger, and
+they can be destroyed by fire.
+
+Gremlin
+
+These are little demons who attack in
+swarms. They are not that powerful
+when they are alone. Given the chance,
+these pesky creatures are adept at
+stealing your food.
+
+Demon
+These are vile warriors that you should
+never underestimate, since they have
+overwhelming strength and super
+battle skill. They possess great magical
+powers and can summon hordes of
+companions to help them.
+
+Drake
+
+‘Smaller than their dragon cousins,
+drakes are no less ferocious in battle.
+They are always found near their larger
+family members.
+
+Sea Serpent
+
+These are powerful sea snakes which,
+like land-bound serpents, will attack
+adventurers with fireballs and by
+swinging their powerful tails. It is
+advisable to steer clear of them.
+
+Giant Squid
+
+Sea creatures that are considered to be
+‘one of the most dangerous of the sea
+monsters, giant squid possess great
+strength and stamina. One can destroy
+an entire ship with its tentacles.
+
+Gargoyle
+
+There are two classes of gargoyles:
+winged and wingless. The winged
+gargoyles are powerful enemies since
+they are intelligent and possess a
+knowledge of magic.
+
+Reaper
+
+At first the reaper appears like a tree
+trunk rooted in rock. As you get closer,
+branches lash out at you. Reapers can
+be destroyed by fire,
+
+Ghost
+
+Found near cemeteries and places
+where people have perished, ghosts
+can pass through walls and other
+obstacles easily, Although they do not
+have great strength, their mobility and
+their knowledge of magic make them
+difficult to defeat.
+
+Gazer
+
+These monstrous creatures have
+multiple eyes and when they spot a
+victim, they render it motionless with
+their mesmerizing glare. If you suspect
+a gazer is nearby, be alert because
+they are always on the prowl.
+
+Dragon
+
+The fire-breathing dragon is a holdover
+from Britannia’s mysterious past.
+Dragons breathe fire and other noxious
+fumes that are devastating. They are
+very difficult to defeat and therefore
+require great battle skills. Their eggs
+are considered to be a delicacy.
+
+Insect
+
+Insects are flying nuisances when by
+themselves, but when they are
+gathered in a swarm, they can be
+dangerous to the wearied adventurer.
+
+33
+
+===== Page 19 =====
+
+Giant Bat
+
+These large flying creatures are difficult
+to attack. Their fur-covered bodies are
+very hard to damage, even when you
+manage to hit them.
+
+Skeleton
+
+The remains of fallen warriors, these
+piles of bone roam Britannia. Skeletons
+are both fearless and tireless in battle,
+so they are hard to defeat.
+
+Troll
+
+Although they look quite fierce, trolls
+are a relatively weak enemy and can be
+defeated. They act viciously and like to
+hide beneath bridges to terrorize
+innocent passers-by.
+
+Mongbat
+
+‘These creatures resemble monkeys as
+much as they resemble bats. They are
+powerful and quick in their attacks. As
+they live in the deepest dungeons, you
+will not often encounter them in
+daylight.
+
+Slime
+
+This shining biob does not appear to
+be a threat when you first encounter it,
+but one can engulf your party.
+Conventional weapons are little use
+against slime, but fire can be effective.
+
+Silver Serpent
+
+Silver serpents are creatures of mythic
+proportions. A body of a silver serpent
+was spotted outside of a gargoyle
+camp. The gargoyles had been milking
+the creature of its deadly venom and
+ingesting it. It is believed to make the
+gargoyles much more aggressive in
+battle even though they perish soon
+after.
+
+Giant Scorpion
+
+This is a fearsome beast with an
+armored body and a lethal stinger on
+the end of its tail. Itis advised to keep
+moving when you spot one of these
+creatures, as its sting is quite harmful.
+
+90 Day Limited Warranty FCI Game Paks
+
+90-Day Limited Warranty:
+
+Fujisankei Communications International, Inc. (FCl) warrants to the
+original consumer purchaser that this FCI Game Pak shall be free from
+defects in material and workmanship for a period of 90 days from date
+of purchase. If a defect covered by this warranty occurs during this 90-
+day warranty period, FCI will repair or replace the game pak, at its
+option, free of charge. Replacement of the game pak, free of charge,
+to the original purchaser (except for the cost of returning the game
+pak) is the full extent of our liability.
+
+To receive this warranty service, return the defective game pak along
+with a dated proof of purchase and your name and address to an
+authorized FCI dealer or directly to FCI:
+
+Fujisankei Communications International, Inc.
+150 East 52 Street, New York, N.Y. 10022
+Attention: Returns Department
+
+(212) 753-8100
+
+This warranty shall not apply if the game pak has been damaged by
+negligence, accident, unreasonable use, modification, tampering, or
+other causes unrelated to defective materials or workmanship.
+
+===== Page 20 =====
+
+Warranty Limitations:
+
+ANY APPLICABLE IMPLIED WARRANTIES, INCLUDING
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE, ARE HEREBY LIMITED TO NINETY DAYS
+FROM THE DATE OF PURCHASE AND ARE SUBJECT TO THE
+CONDITIONS SET FORTH HEREIN. IN NO EVENT SHALL FCI BE
+LIABLE FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES
+RESULTING FROM THE BREACH OF ANY EXPRESS OR IMPLIED
+WARRANTIES.
+
+The Provisions of this warranty are valid in the United States only.
+Some states do not allow limitations on how long an implied warranty
+lasts or exclusion of consequential or incidental damages, so the
+above limitations and exclusion may not apply to you. This warranty
+gives you specific legal rights, and you may also have other rights
+which vary from state to state.
+
+36
+
+FCI Games
+
+If you enjoyed Ultima’, The False Prophet
+try these other exciting games from FCI!
+
+NES
+
+ADVANCED DUNGEONS & DRAGONS® games
+AD&D© DragonStrike
+
+AD&D® Heroes of the Lance
+
+AD&D® Hillsfar
+
+AD&D® Pool of Radiance
+
+The Bard’s Tale™
+
+BreakTime™ The National Pool Tour
+Dr.Chaos™
+
+Lunar Pool®
+
+Phantom Fighter™
+
+Ultima® Exodus™
+
+Ultima® Quest of the Avatar™
+
+Ultima® Warriors of Destiny™
+
+WCW™ World Championship Wrestling
+Zanac®
+
+GameBoy
+
+Panel Action BINGO™ WCW™ The Main Event Wrestling
+Boxxie® Ultima® Runes of Virtue™ II
+Boxxle® I
+
+Bubble Ghost™
+
+Out of Gas™
+
+Tasmania Story™
+
+Ultima® Runes of Virtue™
+
+SNES
+
+SimEarth™
+
+Ultima® The False Prophet
+Might and Magic® III
+
+WCW™ SuperBraw! Wrestling
+
+‘ADVANCED DUNGEONS & DRAGONS and ADAD ae registered trademarks owned by TSR, Inc Lake Geneva, WI USA, and
+‘used under license from Strategic Simulations, Inc. Sunnyvale, CAUSA
+
+===== Page 21 =====
+
+FCIS.
+
+Fulisankei Communications international, Inc.
+150 East 52 Street
+
+New York, NY 10022
+
+Sales Office (212) 753 8100
+
+PRINTED IN JAPAN

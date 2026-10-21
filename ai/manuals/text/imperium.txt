@@ -1,0 +1,469 @@
+# Imperium
+source: https://archive.org/details/snes_manual_archive
+pdf: Imperium (USA).pdf
+region: USA
+pages: 16
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNS-DN-USA
+
+INSTRUCTION BOOKLET
+
+VIC TOKAI
+
+NINTENDO
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+THIS OFFICIAL SEAL IS youR,
+UIGENSED BY, ASSURA IAT NINTENDO HAS.
+APBROVED THE QUALITY OF THIS
+PRODUCT. ALWAYS LOOK FOR THIS.
+‘SEAL WHEN BUYING GAMES AND.
+SESSORIES TO ENSURE COMPLETE
+‘COMPATIBILITY WITH YOUR SUPER.
+NINTENDO, SUPER NINTENDO NINTENDO ENTERTAINMENT SYSTEM,
+ENTERTAI sYSTEI ALL NINTENDO PRODUCTS ARE
+‘AND THE OFFICIAL SEALS ARE LICENSED BY SALE FOR USE ONLY
+REGISTERED TRADEMARKS OF WITH OTHER,
+ENDO OF AMERICA I BEARING THE OFFICIAL NINTENDO
+
+INC.
+© 1991 NINTENDO OF AMERICAINC. SEAL OF QUALIT
+
+===== Page 3 =====
+
+
+
+===== Page 4 =====
+
+INTRODUCTION .........00008 Perereerererererirrrrrrrrryy
+TAKING CONTROL.,.....ccccceeeeeees Se eeeeeeeeeeesesees.
+
+OPTIONS..
+
+STATUS SUB SCREEN... ...cscssssecsceececreceeeees,
+
+SPECIAL WEAPONG.......cceceeceseeeceeees seeeeee ee
+
+IMPORTANT NOTEG........ccecseceeseeeees pereeereereys
+
+STAGES..
+
+ENEMIES. .....cccsccscececeverees, nessecessesesesseesepacerese:
+
+WARRANTY INFORMATION ......... setesseesreeeee TB
+
+===== Page 5 =====
+
+Prologue: On a distant planet where human life disappeared
+a millennium ago, the only inhabitants are a martial society of
+ultra high-tech robots and the enslaved class of mechanized
+creatures whose fate it is now to serve their “masters”.
+
+Meanwhile, an underground movement of some of the best
+minds among the enslaved robots has developed a suit of
+body armor that may lead the way to victory over the master
+robots, however, only a human can wear the suit...
+
+IMPERIUM is a vertically-scrolling high-speed shoot out. From
+the beaches of Earth to Space and beyond, you'll blast
+through 6 stages of peril, using the latest in high-tech battle
+gear. So, strap into your DYNAMOR (“dynamic armor”) and
+prepare for all the graphic beauty and explosive action you
+can handle!!
+
+DYNAMOR STATISTICAL DATA
+
+Height: 75 feet 3 inches
+
+Weight: 150 tons; however, a special
+Gravity Manipulation System will allow the
+
+user to manuever as though weight were
+only 15 tons.
+
+Power Supply: (1) Turbo Generator (4303 Ibs./cu. ft.)
+(2) Nucleon Generators (172,700 Ibs./cu. ft. x 2)
+(2) Ram-Jet Engines (30,800 Ibs./cu. ft. x 2)
+(1) Plasmatic Combustion Engine (18,000 Ibs./ft.)
+
+Firepower: (1) Nucleon Propulsion Launcher
+
+(2) Turbonic Laser Systems
+(2) Ultra-Shock Generators
+
+===== Page 6 =====
+
+L Button R Button
+| X Button
+
+seect START
+Button Button oy A Button
+Button B
+Button
+
+CONTROL
+PAD
+
+START Button + Skips introduction
+* Begins game
+* Pauses game
+
+SELECT Button + NOT USED
+
+CONTROL PAD » Selects/adjusts options
+* Directs hero
+
+Y Button + Fires current weapon
+
+B Button * Selects weapons (when avallable)
+X Button + Adjusts hero’s speed
+
+A Button + Fires bomb (when available)
+
+L Button + Fires bomb (when available; fixed)
+R Button + Locks trajectory of SHOOTING STARS
+
+only (while held)
+NOTE: The functions listed above are standard. Some of these
+
+functions may be switched using the OPTIONS screen.
+Please refer to OPTIONS for more details.
+
+===== Page 7 =====
+
+To access the OPTIONS screen, select “OPTIONS” from the title
+screen using the CONTROL PAD and press START.
+
+During the OPTIONS screen,
+use UP or DOWN on the
+CONTROL PAD to select an
+option and LEFT or RIGHT to
+adjust. For CONTROLLER
+functions, use UP or DOWN on
+the CONTROL PAD to select,
+then hit the button you wish
+to switch that function to. For
+example: to switch shot from
+Y to X, position the cursor at
+SHOT and press x.
+
+The adjustable options are as follows:
+
+LEVEL: EASY, NORMAL, HARD.
+SOUND: STEREO, MONO
+
+CONTROLLER: SHOT (fires weapon)
+CHANGE (selects weapons: when available)
+SPEED (adjusts hero's speed)
+BOMB (fires bomb; when available)
+
+Music: 00-18*
+SE: 00-50* (Sound Effects)
+EXIT
+
+*Use CONTROL PAD to select/adjust and hit ¥ to trigger.
+Any changes made should remain effective until re-changed or the unit is reset or
+turned off,
+
+NOTE: Unless you are using a true STEREO T.V., be sure and switch
+the sound to MONO before beginning the game or you will
+lose some of the sound during play.
+
+You may only assign one CONTROLLER function per button. If
+there is more than one function assigned to the same button,
+you will be unable to exit the OPTIONS screen until it is
+corrected. Also, no matter which button you choose to fire
+bombs, it will also remain as a permanent and
+unchangeable function of L.
+
+===== Page 8 =====
+
+1
+
+Experience Level 10 Saber
+
+5 Speed Meter
+7 Cannon 6 Life Meter
+
+Next Experience Level 9 Laser 3 Weapon Level 4 Bomb Gauge
+8 Shooting Stars
+
+. Experience Level: “score”
+
+. Next Experience Level: number of points needed for
+additional or more powerful
+weapons; decreases as
+Experience Level increases
+
+. Weapon Level: particular weapon's current
+strength
+
+. Bomb Gauge: number of bombs currently
+available
+
+. Speed Meter: hero’s current mobility
+
+Life Meter: when emptied, the game Is over
+
+. Cannon: (see SPECIAL WEAPONS)
+
+. Shooting Stars: (see SPECIAL WEAPONS)
+
+. Laser: (see SPECIAL WEAPONS)
+
+. Saber: (see SPECIAL WEAPONS)
+
+===== Page 9 =====
+
+Make no mistake about it, your DYNAMOR has been
+equipped with some heavy-duty artillery. And with some
+skillful shooting on your part, you'll be capable of much
+damagel! For your convenience (and your enemies’ disgust),
+your DYNAMOR has also been equipped with rapld fire
+capability. Using the B Button, simply select your desired
+weapon, and hold down Y (fire). The weapon currently
+selected will appear highlighted in yellow.
+
+Your weapons are received and powered
+up in the following order:
+
+CANNON
+
+You begin the game with this, the most basic of all your
+weapons. However, because It fires quickly, and in sets of
+two, it has great potential for damage, especially at the
+higher levels.
+
+SABER
+
+This is the first weapon you receive after reaching your first
+experience plateau. While probably not the most powerful
+of your weapons, it does fire quickly and cover a good area,
+even at Level 1
+
+:
+
+LASER
+
+This is the second weapon you receive, and perhaps the
+most powerful. While it does do a good amount of damage,
+It's probably the most limited weapon in terms of area.
+
+oe
+foam
+
+SHOOTING STARS
+This is the last of the weapons you'll receive, and
+easily the most difficult to control. These projectiles
+always fire opposite of whichever direction you hit on
+the CONTROL PAD (including diagonal), giving you
+
+===== Page 10 =====
+
+the ability to hit enemies even while trying to dodge or retreat.
+To lock the trajectory of the stars, hold R. This 360 degree
+range, combined with the ability to fire rapidly in sets and/or
+control the path of your fire (even on Level 1), makes this the
+weapon with the most potential and well worth the time
+needed to master.
+
+BOMBS
+These special weapons give you the ability to wipe
+out just about every type of enemy on screen at one
+time. Additional BOMBS may be gained periodically
+by grabbing the “B” icon when it appears. While you
+begin each level with three, leftover BOMBS do not carry over
+
+from one level to the next, so don’t hesitate to use them when
+necessary.
+
+The maximum level for all weapons is Level 3, and
+obviously, the higher the level, the more powerful the
+weapon. But be carefull! Each time you are hit, not only
+does your life meter decrease by one, but the weapon
+currently in use decreases by one level, as well. This will
+continue until the particular weapon reaches Level 1;
+however, once you gain a weapon, you will never lose It
+altogether.
+
+TIP: If you find yourself in a particularly hectic situation,
+temporarily switch to a weapon of lower level (ideally,
+Level 1). Then you can concentrate on not getting hit
+solely for the purpose of survival.
+
+Experiment to see which weapons/techniques work best!!
+
+===== Page 11 =====
+
+LIFE METER
+
+Although your DYNAMOR is quite powerful, you are by no
+means invincible. Each time you are hit, your life meter will
+decrease by one (hits will be noted by both flashing and a
+special tone). Each time you reach the Next Experience Level,
+yout life meter will increase by one. And since the key to this
+game is survival, you will be rewarded with a fresh, full life
+meter at the beginning of each new stage. Your game will
+end when yout life meter is empty, so stay alert!
+
+CONTINUES
+When your game has ended, you will have 3 opportunities to
+continue.
+
+When GAME OVER appears, press START to return to title
+screen.
+
+Use the CONTROL PAD to position the cursor next to
+CONTINUE.
+
+Press START.
+
+The game should now continue from the beginning of the
+most recent stage.
+
+SKILL LEVELS
+
+Because of the difficulty and skill needed to complete
+IMPERIUM, we suggest beginning at EASY, at least until you get
+the hang of things. You may also choose to use this as an
+opportunity to master different weapons or practice new
+techniques. In any event, please be advised that even skilled
+players may find themselves struggling Just to survive (let alone
+power weapons any higher than Level 2) even in NORMAL
+mode.
+
+===== Page 12 =====
+
+Your mission in IMPERIUM consists of 6 high-powered stages,
+many of which have both an end boss and a sub-boss—so,
+look alive. As the fate of an entire planet depends on your
+success, Underground Intelligence was able to get you the
+following information. Please study it carefully, as it is all you've
+got!
+
+STAGE 1 Atmospheric Assault
+
+Boss: Sidehack
+
+Note: He Is relentless with his massive side-
+cannons and is heavily-armored.
+
+LL SE82888 2 | <b 46500000 STAGE 2 Seaward Ho!!
+<]. . Boss: Swinger
+& j=} Be Note: While perhaps not as swift as the
+
+others, beware of his huge flying battle
+axe and ball & chain. Watch for fallen
+debris!!
+
+STAGE 3 Desert Swarm
+
+Boss: Ditto
+
+Note: He is powerful, crafty, and loves
+puzzles. For example, can you find his
+weak-spot, then determine which is
+which?
+
+===== Page 13 =====
+
+ES BBTOE TE Ib x ¥ 46 00000 »
+
+WEE OBSEE TS I x y+ S00 2
+
+ES BBRES Ils x 56600000
+
+STAGE 4 Moon Base Alpha 1
+
+Boss: Amazon Queen
+
+Note: Don’t be fooled by this “beauty”.
+And should you fall to give her your full
+and undivided attention, her twin
+boomerang assault should grab It!
+
+STAGE 5 Hyper-Space
+
+Boss: Big Shot
+
+Note: He is definitely the largest and best
+protected of any of your previous
+encounters. He is determined to make
+sure his double “plasma blast” keeps you
+from ever seeing Stage 6.
+
+STAGE 6 Welcome to the Terror Dome!
+
+Boss: 27?
+Note: Good Luck!!
+
+===== Page 14 =====
+
+While you contemplate whether or not to tisk life & limb
+shooting the extra enemy necessary to gain that treasured
+power-up or retreat in hopes of surviving Just long enough to
+see the next stage, here’s a sampling of some of the robotic
+nasties you'll be dealing with...
+
+===== Page 15 =====
+
+90-DAY LIMITED WARRANTY
+
+VIC TOKAI, INC. warrants to the original purchaser only that the
+product provided with this manual will perform in accordance with
+the descriptions in this manual for a period of 90 days from the date of
+purchase. If the product is found defective within 90 days of
+purchase, it will be repaired or replaced, at our option. Simply return
+the product, postage paid, to VIC TOKAI, INC. along with dated
+proof-of-purchase. Repair/replacement of the product free of charge
+to the original purchaser (less the cost of returning the product) is the
+full extent of our liability. This warranty does not apply to damage due
+to normal wear and tear. This warranty shall be void if the defect to
+the product is determined to have arisen through abuse,
+unreasonable use, mistreatment or neglect at which time the product
+may be deemed irreparable, leaving the owner liable for
+repair/replacement costs.
+
+This warranty is in lieu of all other warranties, whether oral or written,
+express or implied. All implied warranties, including those of
+merchantability and fitness for a particular purpose, if applicable, are
+limited in duration to 90 days form the date of purchase of this
+product.
+
+VIC TOKAI INC. shall not be liable for the incidental and/or
+consequential damages for the breach of any express or implied
+warranty including damage to property and, to the extent permitted
+by law, damages for personal injury, even if VIC TOKAI INC. has been
+advised of the possibility of such damages. Some states do not allow
+the exclusion or limitation of incidental or consequential damages or
+limitations on how long an implied warranty lasts, so the above
+limitations or exclusions do not apply to you.
+
+This warranty shall not be applicable to the extent that any provision
+of this warranty is prohibited by any federal, state or municipal law
+which cannot be pre-empted. This warranty gives you specific legal
+tights and you may also have other rights which vary from state to
+state.
+
+VIC TOKAI INC.
+
+22904 LOCKNESS AVE.
+TORRANCE, CA 90501
+(310) 326-8880
+
+===== Page 16 =====
+
+VIC TOKAI INC.
+22904 Lockness Ave., Torrance, CA 90501
+PRINTED IN JAPAN

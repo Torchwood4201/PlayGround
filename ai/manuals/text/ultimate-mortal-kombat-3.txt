@@ -1,0 +1,1012 @@
+# Ultimate Mortal Kombat 3
+source: https://archive.org/details/snes_manual_archive
+pdf: Ultimate Mortal Kombat 3 (USA).pdf
+region: USA
+pages: 16
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNS-ASZE-USA
+
+COR! Ay BS
+ms Entertainment Ines. Allrighils reser e
+\ufacturing Company. tights Res hOrtal Kor MKS, the Dragon
+design and all character names are speemare of.Midway Manufacturing Company.
+Williams® is a registered Tradémark’ ot Williams Electronics Games, Inc. Used under
+license. Super NES version developedUnder license by. A\ Software.
+st eZ
+
+=~» SUPER NINTENDD
+
+PRINTED IN USA
+é 7, ©
+
+===== Page 2 =====
+
+he
+Ba? WARNING: PLEASE READ THE \4
+% ENCLOSED CONSUMER INFOR- i
+MATION AND PRECAUTIONS
+BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO ®
+HARDWARE
+SYSTEM OR GAME PAK.
+
+Sonn. AY
+
+oe a =
+THIS PRODUCT HAS BEEN RATED BY THE 4
+ENTERTAINMENT SOFTWARE RATING BOARD. FOR
+INFORMATION ABOUT THE ESRB RATING, OR TO
+
+COMMENT ABOUT THE APPROPRIATENESS OF THE RATING,
+PLEASE CONTACT THE ESRB AT
+1-800-771-3772
+
+Wittiams Customer SupPort:
+903 874-5092
+
+10:00am - 6:30pm _/ Central Time
+Monday - Friday
+
+Ths OFFICIAL SEALS YOUR
+ASSURANGE THAT NITE
+
+LcensED py APPROVED THE QUAL
+P ia
+
+KONTENTS
+
+KREDITS
+
+GETTING STARTED
+
+THE MORTAL KOMBAT STORY
+OPTIONS
+
+KONTROL KONFIGURE
+KOMBAT MODES & FIGHTERS
+FIGHTING SUMMARY
+
+BASIC MOVES
+
+SPECIAL MOVES
+
+KLOSE QUARTERS
+KROUCHING MOVES
+SPINNING MOVES
+
+AERIAL MOVES
+
+SECRET KODES
+
+WARRIOR BIOS
+
+WARRANTY
+
+===== Page 3 =====
+
+~KREDITS
+MIDWAY UMK3 TEAM
+
+Ed Boon, John Tobias, Steve Beran, Dan Forden,
+Tony Goskie, Dave Michicich, John Vogel
+
+AVALANCHE UMK3_ TEAM
+
+PROGRAMMING
+JohnBlackburn, Gary Penacho, Jim Henn,
+Todd Blackburn
+ARTISTS
+Derek Newman, Alan Taylor
+ADDITIONAL SuPPORT
+Jason Humphrey, Bob Lowe, Ken Fultz, Andrew Kite,
+Bill Van. Overbeck
+
+WILLIAMS ENTERTAINMENT UMK3 TEAM
+Executive PRoDucER
+Michael Rubinelli
+ASSOCIATE PRODUCER
+Michael Gottlieb
+ASSISTANT PRODUCER
+Curtis R. Cherrington
+Print DesiGn & PRopucTION
+Debbie Austin, Steve High, Shawn Murphy,
+Dave Young, Jon Mongelluzzo
+Leap Tester
+John Ubalde
+Wittiams ENTERTAINMENT TESTING
+Jason Ubalde, Toan Ngo, Florence Mandilag,
+Joshua Hutchins, Erwin Gasmin
+SPECIAL THANKS
+Dave Schwartz, Mark Guidarelli, Paul Dussault,
+Jim Flaharty, Justin Heber, Will Shen
+
+GETTING STARTED
+
+Turn'the power OFF on your Super NES®.
+
+Make sure a Controller is plugged into the #1 Port on the
+Super NES® System
+
+Insert the Game Pak into the’slot on the Super NES®
+Press firmly to lock the Game Pak in place:
+
+Turn the power switch ON. After the appearance of the
+Ultimate Mortal Kombat®3 title screen, you may bypass at
+any time by pressing START,
+
+Press START to get to the Main Menu. Here you have two
+choices: START of OPTIONS. Press up/down on the con-
+trol pad to highlight with.the rotating coin. Then press
+START to select your choice. Good Luck!
+
+This product is not
+designed for use
+with the Super
+NES® Mouse, Super
+NES® Super Scope
+or Super NES®
+Multi-Player
+
+Adapters.
+
+oPrions
+
+CREDITS 5
+9 nc einen”
+
+===== Page 4 =====
+
+THERE IS“NO KNOWLEDGE
+
+THAT.IS NOT POWER
+
+“You have been chosen to represent Earth in Mortal
+Kombat. Be warned. For although your souls are
+safe from Shao Kahn’s evil: your lives are not. | can
+no longer interfere, as your Earth
+
+is now ruled by the Outworld gods.”
+
+... These are the words of Rayden
+
+The Shaolin. Tournament for Martial Arts, better known as
+Mortal Kombat was, for countless ages, a noble institution
+that tested the metal of the very best Warriors. Years ago, the
+Tournament was Corrupted by the evil sorcerer Shang Tsung
+who dared to take not only the lives of his opponents, but
+their very souls. Eventually, it became known that Shang
+Tsung was acting at the behest of his diabolical master Shao
+Kahn, Emperor of the Outworld, who planned to claim all the
+souls on earth. The Champions of Earth: Liu Kang, Kung
+Lao, their Ancestors and others have, so far, thwarted this
+plan. For centuries Earth has used Mortal Kombat to defend
+itself against the Outworlds Emperor, Shao Kahn:
+
+Frustrated by failed attempts to take Earth through®
+Tournament battle, Kahn enacts a plan which began 10,000
+years ago. During that time Shao. Kahn had a Queen named
+Sindel and her early death was unexpected. Kahn's Shadow
+Priests, led by Shang Tsung, made it possible for Sindels spirit
+to someday be reborn: ‘not on the Outworld, but on the Earth
+Realm itself
+
+this evil act gives Shao Katin the power to step through the
+dimensional gates afd reclaim his Queen, thus enabling him
+to finally seize the Earth Realm.
+
+Upon breaching the-portal into Earth, Shao Kahn slowly
+transforms the planet into ¢ part of the Qutworld. He strips
+the Earth of all human life - claiming every soul as his own
+But there are souls which Kahn cannot take. These souls
+belong to the Warriors chesen to represent Earth in a new
+Mortal Kombat... The-remaining humans are scattered
+throughout the planet.’ Shao Kahn sends an army of fierce
+Outworld Warriors to. find and eliminate them. Some of
+Earths Warriors survive the attacks.. Most do not. The remain-
+ing few hold the one chance at saving all of human kind.
+
+===== Page 5 =====
+
+OPTIONS
+
+s If you select OPTIONS at the Main Menu you will goto the |
+Options Screen. Here you will be able to modify a number
+of the game feetures by using the Control Pad. Use
+the Control Pad Up/Down and Left/Right to select the
+settings you Want
+
+CHOOSE YOUR OPTIONS
+
+music
+STEREO
+SOUND FX
+on
+
+DIFFICULTY LEVEL
+WEOTUN
+HANDICAP
+
+CONTROL CONFIGURATION
+
+VIOLENCE CONTROL
+Pa apaaapoennnwon
+
+MUSIC: MONO, STEREQ
+
+SOUND FX: ON. OFt
+
+DIFFICULTY: VERY EASY, EASY, MEDIUM, HARD,
+VERY HARD
+
+HANDICAP: (Bar graph)
+
+CONTROL CONFIGURATION: (see next page)
+
+VIOLENCE CONTROL: (see next page}
+
+CONTROL CONFIGURATION:
+
+Highlight. “CONTROL CONFIGURE” to customize your Con-
+troller. Use the Control Pad Up/Down to highlight the
+control you want to change and then press the button that
+corresponds with the change you. desire.
+
+“conrROLLER
+conFiauRATION
+
+RUN
+BLock.
+HIGH KICK
+Low KICK
+HIGH PUNCH
+Low PUNCH
+
+VIOLENCE CONTROL:
+
+If you scroll down to Violence Control and press an Action
+Button you will go to the Violence Control Screen where you,
+may select Fatalities - ON or OFF and Blood - ON or OFF
+
+FATALITIES
+on
+
+BLOOD
+on
+
+vroLence conTROL
+<i penitionmis
+
+After you have finished with your options, press START to
+get back tothe menu hierarchy. When you get to the Main
+Menu, press START and you will go directly to the Fighter
+® Select Screen.
+
+===== Page 6 =====
+
+KOMBAT
+
+Once you have chosen your Fighter in the 1-Player Mortal
+Kombat mode, you will be transported to the CHOOSE YOUR
+DESTINY Screen. Press the Control Pad Left/ Right to tog-
+gle between the columns: NOVICE, WARRIOR, MASTER or
+MASTER II. Press ANY Button to select. You will see a large
+column scrolling with the characters" faces
+
+There are three
+
+different modes
+
+of Kombaton
+
+the MODE
+
+SELECT Sereen.
+
+MORTAL KOM-
+
+BAT, 4-PLAYER
+
+TWO-ON-TWO
+
+KOMBAT or 8-
+
+PLAYER TOUR-
+
+NAMENT KOM-
+
+BAT. Any of
+
+these options will send you to the FIGHTER
+SELECT Screen, which has pictures of all the War-
+riors available to a player. The Mortal Kombat
+mode will allow you to choose one Fighter per
+player. The 4-Player mode will allow you to select
+two Fighters per player. The 8-Player mode will
+allow you to select a total of 8 Fighters. Use the
+Control Pad to move the colored frame onto
+the Fighter(s) of your choice. Press Any Button
+except START to select your Fighter(s) and
+begin your Kombat!
+
+» If a second player wishes to join the fight, ne may do so at
+any time by pressing the START Button. This will returr
+both players to the MODE SELECT Screen, where they can
+select the desired fighting mode. After selecting the mode,
+both players will be sent to the SELECT YOUR FIGHTER"
+Screen, where they must choose Warriors again. If both play:
+
+> ers select the same Warrior, Player Two will be identified by a
+different calor.
+
+===== Page 7 =====
+
+FIGHTING SUMMARY
+
+The Tournamens first tests a Warriors fighting skill by pitting
+him, against other Tournament challengers.
+
+In all Mortal Kombat battles, meters in the upper part of the #4
+
+screen measure the health of each Warrior. Keep your eye on
+them! The meters begin each round indicating the Warriors
+health is at» 100%;-but they are reduced with each blow:
+taken. The amount of the reduction depends both on the.
+type of hit and whether or not it was blocked. When a
+Warriors health meter runs out, he/she is knocked out and
+the round goes to the opponent.
+
+If time is up before either Kombatant is knacked aut, the War
+
+& rior with fewer injuries is declared the victor. The first
+Warrior to Win two,rounds takes the match and moves on.to
+the next opponent.
+
+RUN
+METERS
+
+Also, pay attention to the Run Meters. The-Run Meter allows
+you to perform combos and run toward your opponent. But
+they are “time sensitive’. You can only activate the Run Func-
+tion (oer Combo Function) while the meter is green.
+
+SH ROY ee
+
+BASIC MOVES
+
+Each kontestant invited to the Tournament has
+spent years in practice and meditation to perfect
+his/her martial arts skills. Before challenging
+these Warriors in Kombat, you too, should prac-
+tice the martial arts by meditating on these
+lessons.
+
+BLOCK iiiH RUN
+
+as PUNCH
+HIGH
+
+MOVE
+CHARACTER: eck
+
+Low
+PUNCH
+
+The best way to begin your training is with the fundamental
+moves: Kicks, Punches, Crouches, Jumps and Blocks. These
+moves may seem trivial compared to powerful and acrobatic
+moves like the Flying Kick. However, knowing how to stop,
+avoid or counteract a Flying Kick can be far more useful than
+knowing haw to land one. These fundamental moves are the
+foundation for both a strong defense and a dotent offense.
+
+The R Button (RUN) is especially powerful No longer can
+a foe hide by backing off. To Run, hold the R Button while 4
+pressing Forward on the Control Pad
+
+===== Page 8 =====
+
+SPECIAL MOVES
+
+All of the Mortal Kombat Warriors possess expert fighting
+skills. In that respect, they are equal to thousands of other @
+Warriors around the universe. What raises them above their
+peers are the special moves which they have created and
+perfected.
+
+In order to. become’a superior Warrior, skilled enough to win ™
+the title of Grand Champion, you too must learn these moves,
+These moves, whether Special Kicks or Elemental Bolts, make
+the Mortal Kombat Warriors the fiercest and most ferocious
+Kombatants to be found. Mastering their special moves will
+make you the same.
+
+KLOSE. QUARTERS
+
+SELECT START
+
+Additional moves used during close-in Kombat situations are
+the Kneeand the Throw. They are highly effective anddo @
+not require full limb extension, which is impossible in close ™
+quarters. Although these moves are potent, they can only be
+used when you are directly adjacent to an.opponent. i
+
+CHECK IT OUT: Pressing the Attack Buttons in a certain
+sequence will result in‘different “Kombos” for different char-
+acters.
+
+KROUCHING MOVES
+
+CROUCHING CROUCHED
+BLOCK KICKS
+
+CROUCHED'
+
+CROUCH PUNCHES
+
+Defensively, the Crouching Moves allow one to escape from
+close proximity, avoid punches, aerial weapons and being
+thrown. Offensively, the uppercut, executed from the
+crouch, is one of the\most powerful weapons in a Warriors
+offensive arsenal.
+
+To do the Crouching Moves, hold the Control Pad DOWN
+and simultaneously push X or A for a Crouching Kick. Hold
+the Control Pad DOWN and push Y for Uppercut. The
+Block (L Button ) can always be used'to defend against your
+opponents moves.
+
+===== Page 9 =====
+
+SPINNING MOVES
+
+yy |
+
+SELECT STANT
+
+The Spin is the key to such exotic moves as the Roundhouse™
+
+Kick and the Foot Sweep. The Foot Sweep hits your oppo-
+nents ankles and knocks him.on,his.butt.. The Roundhouse is.
+a Spinning Kick which nails your opponent in the face. To!
+execute the Spin Moves, hold the Control Pad AWAY from
+your opponent while you press the Kick Buttons.
+
+AERIAL MOVES
+
+The final moves one should learn are the Aerial Moves: Fly#
+ing Punches and Kicks, To execute them, either jump in place
+
+(Control Pad UP) OR towards (Control Pad @@
+
+UP+Fwd/Back) your opponent. Then press the Attack
+Buttons while in the air. However, unlike most attacks, Aer
+ial Attacks must be timed properly in order to land blows, so.
+keep your wits about you and watch your timing.
+
+FLYING
+PUNCHES
+
+FLYING
+\, KICKS.
+wy, AA
+
+SELECT START
+
+SECRET KODES
+
+At the bottom of the VS BATTLE Screen you will see a row
+
+of six boxes with
+
+% different Icons in
+tnem. Player 1
+
+# can change the
+symbols in the
+first three boxes
+by pressing
+his/her LOW
+PUNCH, LOW
+
+B KICK and
+HIGH KICK
+(default: ¥, B,A)
+Buttons.
+
+Player 2 can do the same with
+the other three symbols. The six
+symbols represent secret codes
+which can have subtle or dra
+
+BAQUESTION matic effects on game play.
+EqicHTNine Each button causes the symbol
+
+in the correspending box to
+change to the next iconin a pre-
+determined order. If you hold
+up while pressing. ¥, B, or A,
+the order in;which the Icons are
+
+egsnvo KAHN cycled will be reversed,
+lew SKULL
+p=
+
+===== Page 10 =====
+
+This is important stuff, so pay attention! Here's an example: kK
+Pressing the Player 1, LOW PUNCH (default: Y Button}
+‘once will change the Dragon Icon in the first box into a “MK”
+symbol; pressing. it a second time will change it to the third %
+Icon in the sequence (a Yin/Yang) and so on. F
+
+Pressing a button more than nine times will cause, the order
+Of the Icons to start over. In other words, pressing a button
+that Corresponds tora box with a Skull symbol will change the
+Skull back to the original Dragon Icon
+
+Mii
+
+Now, let's take a look at the code pictured above: Skull, Shao
+Kahn, Rayden, MK, Yin/Yang and 3. To enter this code, Player
+1 presses HIGH PUNCH (default: Y) Button nine. times,
+LOW PUNCH (default: B) eight times and LOW KICK
+(default: A) seven times.
+
+Meanwhile, Player 2 presses ¥Y onetime, B twice and A three
+times. The match-up screen doesn't stay up for long, so you
+need to punch in the codes quickly!
+
+Some players find it easier to memorize the codes by referring
+to them in terms of the number of Button presses it takes to =
+get the proper symbols in place. For example, the code that ‘
+activates the “Throwing~ Disabled” feature’- MK, Dragon,
+Dragon, MK, Dragon,«Dragon = is easier to remember in
+numeric form as: 100-100. Example, both.Player 1 and Player
+2 press HIGH PUNCH (default: ¥) Button one time. Got it?
+
+===== Page 11 =====
+
+KANO
+
+Kano is thought to have been
+killed in the first Tournament.
+Instead, hes found aliveiin the
+Outworld where he once again
+
+escapes capture by Sonya
+Before the actual Outworld
+
+Kahn to Spare his soul. Kahn
+needs someone to teach his
+Warriors how to use Earth’
+weapons. And Kano is the. man
+to do it.
+
+Knife Throw - D,B,HP
+Grab & Choke - D,ELP
+
+REPTILE
+
+Always a reliable servant to
+Shao Kahn, Reptile is chosen
+to assist Jade in the capture
+
+of Kitana. In contrast to
+Jade’s instructions, Reptile is
+
+J ordered to stop the renegade
+Princess at all costs...even
+
+if it means her death.
+
+Acid Spit - FFHP
+Slow Forceball - B,B, HP+ LP
+
+LP - Low Punch LK- Low Kick RN- Run B - Back D- Down
+
+ee
+
+en hs sie
+
+CYRAX
+
+Gyrax is Unit LK-4D4, the
+=>) second of three prototype Cyber-
+§ netic Ninjas built
+» by the Lin Kuei. Like his counter-
+Parts, Cyrax’s last
+programmed command is to find
+and terminate the rogue Ninja
+Sub-Zero: Without a soul, Cyrax
+goes undetected by Shao Kahn
+and remains a possible threat
+against his occupation of Earth.
+
+Energy Net - B,B,LK
+Bomb - Hold LK,B,B,HK
+
+LIU KANG
+
+After the Outworld invasion,
+
+Liu Kang finds himself the
+
+prime target of Kahn's extermi
+nation squads. He is the
+Shaolin Champion and has &
+thwarted Kahn's schemes in
+
+the past. Of all the humans,
+Kang poses the greatest threat to
+Shao Kahn&s rule.
+
+Fireball - FEHP
+Flying Kick - FF HK
+
+HK = High Kick BL- Block F - Forward. U - Up
+
+===== Page 12 =====
+
+JAX.
+
+After failing to convince his
+superiors of the coming
+Outworld menace, Jax
+begins to covertly prepare 4}
+for future battle with
+
+Kahn’ minions. He out-
+
+fits botharms with inde-  ¥
+structible bionic implants.
+This is a war that Jax is
+prepared to win.
+
+Gotcha Grab - FFELP
+Missile - B,EHP
+
+As a Chosen Warrior, his
+identity is a mystery to all.
+It is believed that he is the sur-
+vivor of an attack by Shao
+Kahn's extermination squads. As
+a result, he is viciously scarred
+and kept alive only
+by artificial respirators and a rage
+for ending Shao Kahn's con-
+quest
+
+Tornado Spin - B, ELK
+Ground Razor- B,B,B,RN
+
+RN-Run B - Back D)- Down
+
+SHANG TSUNG
+
+Shang Tsung is Shao Kahn's
+lead Sorcerer. He once fell
+out of favor with his Emper-
+or after failing to win the
+Earth Realm through
+Tournament Battle. But
+the ever-scheming
+Shang Tsung is instru-
+» mental in Kahn's con-
+" quest of Earth. He
+has now been granted
+more power than ever
+
+Flaming Skull - B,B,HP
+Hell Skulls - EB,B,LK
+
+SINDEL
+
+She once ruled the Outworld
+at Shao Kahn’s side as his
+Queen. Now, 10,000 years
+after her untimely death, she
+is reborn on Earth. Her evil
+intent is every match for
+Shao Kahn’ss tyranny. She is
+the key to his occupation of
+Earth.
+
+Shriek Wave - FE EHP
+Fireball - FELP.
+
+IP High Punch. His High:Kick  BL- Block F - Forward. U
+
+===== Page 13 =====
+
+SEKTOR
+
+Sektor is actually the code name
+for Unit LK-9T9. He was the first
+of three prototype Gybernetic
+Ninjas built by the Lin Kuei.
+Sektor was once a human assas-
+sin trained by the Lin Kuei. He
+volunteered for automation
+because of his loyalty to the
+Clan. Sektor survives the
+Outworld invasion...he has no
+soul to take:
+
+Missile - FFELP
+Teleport Uppercut - FE LK
+
+HP. - High Punch HIG. High Kick BL - Block
+
+STRYKER
+
+When the Outworld portal
+opens Overa.large city in
+North America, panic and
+chaos rage out of control.
+
+Kurtis Stryker was the
+leader of a riot contro! brigade
+when Shao Kahn began taking
+
+souls. He finds himself the
+
+lone survivor of a‘city once
+populated: by millions.
+
+Grenade - D,B,LP
+Nightstick Toss - RRHK
+
+F - Forward U
+
+LP
+
+NIGHTWOLF
+
+He works as a historian and pre-
+server of his peoples
+
+culture. When Kahn’ portal
+opens over North America,
+Nightwolf uses the magic of
+
+his Shamen to protect his
+
+tribes sacred land. This area
+becomes a vital threat to
+
+Kahn's occupation of the
+
+Earth
+
+Arrow - D,B,LP
+Hatchet Uppercut - D,EHP
+
+KUNG LAO
+
+Kung Lao’ plan to reform
+his old group, The White
+Lotus Society, comes to a
+halt when Shao Kahn
+begins his invasion of
+Earth. As a Chosen
+Warrior, Lao must use his
+greatest fighting skills to
+Bring down Shao Kahn’
+reign of terror.
+
+Hat Throw - B,ELP
+Dive Kick - D+HK in air
+
+Low Punch “LK — Low Kick RN-Run B- Back
+
+===== Page 14 =====
+
+KITANA
+
+Kitana is accused of treason by
+the high courts of the Outworld
+after murdering her evil twin
+Mileena. Shao Kahn appoints
+a group of warriors specifically
+to catch his daughter and
+bring her back alive. But
+Kitana must find a way to
+reach the*newly crowned
+Queen Sindel first and warn
+her of their true past
+
+Fan Toss - FF HP+LP
+Fan Lift - B,B,B,HP
+
+SCORPION
+
+When Shao Kahn makes a failed
+attempt at stealing the souls
+which occupy Earth's hell,
+Scorpion is able to escape from
+the nether. region. Free to roam
+the Earth once more, Scorpion
+holds allegiance with no one.
+He’ a wild card in Earth’s struggle
+against the Outworld.
+
+Spear - B,B,LP
+Teleport Punch - D,B,HP
+
+HK-High'Kick BL- Block F - Forward, U-Up
+
+SONYA
+
+Sonya Blade disappears in the first
+tournament, but is later
+
+rescued from the Outworld by Jax
+After returning to earth,
+
+she and Jax try to warn the U.S.
+Government of the looming
+Outworld menace. Lacking proof,
+they watch helplessly as Shao
+Kahn begins his invasion
+
+Ring Toss - D,ELP
+Bicycle Kick - B,B,D,HK
+
+SUB-ZERO
+
+The Ninja returns unmasked.
+
+He was betrayed by his own
+Ninja clan, the Lin Kuei. He
+broke the sacred Codes of
+Honor by leaving the Clan
+
+@ and is marked for death, But
+unlike the Ninja of old, his pur-
+suers come as machines. He
+must not only defend against
+the Outworld menace, but
+
+must also elude his soulless
+assassins
+
+Freeze - D,ELP
+Ice Clone - D,B,LP
+
+LP - Low Punch LK - Low Kick RN-Run B- Back D~-Down
+
+===== Page 15 =====
+
+SMOKE
+
+Smoke is unit LK-772, the third
+prototype cyberninja built by
+the Lin Kuel. He tries to
+escape the Lin Kuei automa-
+tion process with Sub-Zero
+but is captured. His memo-
+ries are stripped away leav-
+ing behind.an emotionless
+killer. However, Sub-Zero
+believes that somewhere in
+this machine is a human soul
+trying to escape.
+
+Spear - B,B,LP
+Teleport Uppercut - FE LK
+
+When the renegade Princess
+Kitana makes her escape
+into the unknown regions
+of Earth, Jade is appointed
+by Shao Kahn to bring her
+back alive. Once a close
+friend of the Princess, she is
+faced with the choice of
+betraying her friend or dis-
+obeying:her Emperor.
+
+Boomerang - B,F LP
+Shadow Kick - D,ELK
+
+HP. High Punch HIG High Kick | BL- Block F - Forward, U - Up.
+
+SHAO KAHN
+
+Many decades ago, Shao
+Kahn rose to power in the
+Outworld, usurping the
+realm from Kitana’s, par-
+ents and taking Queen
+Sindel for his bride.
+
+Then, she died. Now, g
+centuries later Sindel
+
+is reborn. Since Shang,
+Tsung failed to win
+
+the Earth Realm
+
+through Mortal
+
+Kombat | and fi, her
+rebirth is the means
+
+by which Kahn will
+
+finally seize the planet for-
+ever unless...(Unplayable Character)
+
+In the reaim,of the Outworld, Motaros
+race of Centaurians has long since
+come into conflict with the Shokan.
+When Shao Kahn formed special
+extermination squads to eliminate
+
+the Chosen War-
+riors of Earth,
+Motaro was
+appointed to head
+=f this elite group of
+Savage Warriors.
+(Unplayable
+\ Character)
+
+RN- Run B- Back D- Down)
+
+===== Page 16 =====
+
+WARRANTY
+
+WILLIAMS ENTERTAINMENT INC. warrants to the original purchaser of this
+Williams Entertainment inc. software product that the medium on.which this
+computer program is recorded is free from defects in materials and work
+manship for a period of ninety, (90) days ‘from the date of purchase. This
+
+© Williams Entertainment Inc. software program is sold “as is,” without express
+or implied warranty damages of any kind, and Williams Entertainment Inc. is
+not llable for any lossesor damages of any kind resulting from the use of this
+program.. Willis ns Entertainment Inc. agrees for a period of ninety (90) days
+to either 1epait Or replace, at its option, 2 of Charge, any Williams Enter
+tainment Inc. software. products. postage. paid, with proof of purchase, at its
+Factory Service Center.
+
+This warranty is not applicable to normal Wear and tear This warranty shall
+not be applicable and shall be void jf the defect in the Williams Entertainment
+Inc. software product has arisen through abuse, unreasonable use, mistreat
+ment or neglect THIS WARRANTY 1S IN LIEU OF ALL OTHER WARRANTIES
+AND NO OTHER REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE
+BINDING ON OR OBLIGATE WILLIAMS ENTERTAINMENT INC.. ANY IMPLIED.
+WARRANTIES APPLICABLE 10 THIS SOFTWARE PRODUCT, INCLUDING WAR-
+RANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+
+ARE LIMITED TO THE:NINETY (90) DAY PERIOD DESCRIBED ABOVE. IN NO
+EVENT WILL. WILLIAMS ENTERTAINMENT INC. BE LIABLE FOR ANY SPECIAL
+
+INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM POSSES.
+SION, USE OR MALFUNCTION. OF THIS WILLIAMS ENTERTAINMENT. INC
+
+SOFTWARE PRODUCT
+
+Some states do not allow limitations as to how long an implied warranty lasts
+and/or exélusions Of limitations of incidental omconsequential damages so
+the above limitations and/or exclusions of liability may not apply to you. This
+warranty givesyou Specific rights, and you may also have other rights which’
+vary from state to state.
+
+Williams Customer Support :
+903 874-5092
+
+10:00am - 6:30pm - Central Time
+Monday - Friday
+
+WILLIAMS ENTERTAINMENT: live
+1800 Sour Business 45
+GoRsicana, IX 75151

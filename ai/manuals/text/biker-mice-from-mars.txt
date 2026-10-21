@@ -1,0 +1,3655 @@
+# Biker Mice from Mars
+source: https://archive.org/details/snes_manual_archive
+pdf: Biker Mice from Mars ( EU ).pdf
+region: EU
+pages: 84
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+KONAMI
+
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+LICENSED BY
+
+Keep this information / Gardez ces informations / Diese Information aufbewahren
+Conservare queste informazioni / Guarde estas informes / Bewaar daze informatie
+Behall denna information / Behold denne information / Pida tama tieto
+
+C € Qiintends) Nintendo of Europe GmbH : 63760 GroBostheim, Deutschland
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, @ AND <9 ARE TRADEMARKS OF NINTENDO CO.,LTD.
+
+Quality 4
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT.ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO.
+ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU'IL
+EST CONFORME AUX NORMES D'EXCELLENCE
+EN MATIERE DE FABRICATION, DE FIABILITE ET
+SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+ODER ZUBEHOR KAUFEN, DAMIT SIE SICHER:
+SIND, DASS ALLES EINWANDFREI ZU IHREM
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+PASST.
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO.
+QUESTO PRODOTTO. RICHIEDILO SEMPRE
+ALL'ACQUISTO DI GIOCHI ED ACCESSORI PER
+ASSICURARE LA COMPLETA COMPATIBILITA
+CON IL TUO SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA APROBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIEMPRE ESTE
+SELLO CUANDO COMPRES VIDEOJUEGOS Y
+AGCESORIOS PARA ASEGURARTE UNA
+COMPLETA COMPATIBILIDAD CON TU SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO IS GECONTROLEERD EN DAT
+HET QUA CONSTRUCTIE, BETROUWBAARHE!D
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+BIJ HET KOPEN VAN SPELLEN EN
+ACCESSOIRES ALTWD OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+Original DIESES QUALITATSSIEGEL IST DIE GARANTIE DENNA ETIKETT GARANTERAR ATT NINTENDO
+DAFUR, DASS SIE NINTENDO-QUALITAT STAR FOR PRODUKTENS KVALITET.
+GEKAUFT HABEN. ACHTEN SIE DESHALB KONTROLLERA ATT ETIKETTEN FINNS PA SPEL
+Seal of IMMER AUF DIESES SIEGEL, WENN SIE SPIELE OCH TILLBEHOR DU KOPER FOR ATT
+
+FORSAKRA DIG OM ATT DE AR KOMPATIBLA
+MED SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+DETTE SEGL GARANTERER, AT NINTENDO HAR
+GODKENDT KVALITETEN AF DETTE PRODUKT.
+SE ALTID EFTER DETTE SEGL, NAR DU KOBER
+SPIL OG TIBEHOR, SA DU ER SIKKER PA FULD
+KOMPATIBILITET MED DIT SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO ON
+HYVAKSYNYT TAMAN TUOTTEEN LAADUN.
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+SAAT VARMASTI SUPER NINTENDO
+ENTERTAINMENT SYSTEM YHTEENSOPIVIA
+TUOTTEITA.
+
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEUILLEZ LIRE ATTENTIVEMENT LA NOTICE "INFORMATIONS ET PRECAUTIONS
+D'EMPLOI" QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER
+NINTENDO HARDWARE WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+
+SYSTEM™ LE CASSETTE O GLI ACCESSORI.
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEQJUEGO O ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE BlJ DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO-
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR.
+
+ADVARSEL : LS FORBRUGERINFORMATIONEN OG HAEFTET MED SIKKERHEDSREGLER, DER
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISEST! LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAI MUUN VAURSTEEN KAYTTOA:
+
+===== Page 3 =====
+
+GUARANTEE
+
+Konami guarantees that this Super Nintendo
+Entertainment System Game Pak is supplied by them
+in full working order and free from any defect.
+
+If this Game Pak fails to work or develops a fault
+within 90 days from purchase,
+
+Konami undertakes to replace or repair it.
+
+In such cases, return your Game Pak by post to the
+address below together with a till receipt or other
+proof of purchase. Please describe the problem
+as fully as possible. Don’t forget to include your
+
+name, address and telephone number.
+
+This guarantee does not apply if the Game Pak has
+been damaged by misuse,tampered with or through
+any reason other than a manufacturing fault.
+
+DISTRIBUTED BY KONAMI UK LTD.
+KONAMI HOUSE, 54a COWLEY MILL ROAD,
+UXBRIDGE, MIDDLESEX UB8 2QE
+
+For any further information on
+this or other Konami Game Paks call the
+Konami Hotline on 0891 775741
+
+===== Page 4 =====
+
+Contents
+
+Contents/About the Game.. 4
+Starting Up...
+
+Basic Controls
+Main Race
+Battle Race
+Practice ...
+
+About the Courses Hed
+UN ofoT¥ |e Ud Le] W121 pert ees ees oe ae teleport co eoscc oboe recreation nian ees
+
+hey’re supercool and they come from Mars - the Biker Mice are here! Their planet was
+invaded by the evil alien Limburger, who has now set his sights on Earth. Hit the road on a
+hotted-up motorbike to crush Limburger and beat all others to the finish line!
+
+AbouttheGame mw Wa wa ea wee ee eee ||
+
+I. this game you can select any one of six characters. Choose from Throttle, Modo, Vinnie
+(the three Biker Mice), Limburger, or his sidekicks Grease Pit or Dr Karbunkle. Watch out -
+this isn’t a normal race! Traps lie in wait for you along the way, and other players will try to
+attack you. You can also lay a variety of traps yourself.
+
+There are four different races you can try:
+
+-Main Race: The main race of the game, for one or two players.
+
+- Battle Race: Win by taking out all enemies, or by crossing the finish line first. For one or
+two players.
+
++ Practice: Practice your racing. For one player only.
+
++ VS Race: Take on a friend. For two players only.
+
+The way you play is different for each type of race.
+
+vif is a registered trademark. © Mars incorporated 1994.
+
+===== Page 5 =====
+
+nsert the Game Pak into your Super Nintendo Entertainment System, and turn the power
+
+ON. Press the Start button to bring up the Title screen.
+
+At the Select screen
++ Control Pad, Select button: Make selections
+Start button, B button: Set selections
+X button, Y button: Cancel (sometimes this function cannot be used)
+
+Tile screen 7 972 Oe eee eee ee || |
+
+se the + Control Pad or the Select button to choose a mode, and press the Start button to
+move to the next screen.
+
++1 PLAYER - Game Select + PASSWORD - Password screen
++2 PLAYERS - Difficulty screen - OPTION - Option screen
+
+Game Select screen, Difficulty screen a a @ a om
+
+ba the game you want to play and the difficulty level. The Player Select screen will then
+appear.
+
+Player Selectscreen 9 9 OW Oe ee ee eee
+
+hoose your character. The game will then begin. If two people are playing, you can’t both
+select the same character. See “The Players” section for details on each character.
+
+f you use a password, you can pick up from where you left off in the Main Race. Passwords
+come up on screen at the end of the game and at the end of each round.
+
+Select 1P or 2P. Move the cursor to the input point using the + Control Pad, and use the A or
+B button to input the letter When all the characters have been inputted, move the cursor to
+“OK” and press the Start button or the B button to start the game.
+
+You can also input the password for a second character at the same time, if you want to play
+a VS game. However, you can't do so if the other character finished in a different round or at
+a different difficulty level, or if both characters are the same.
+
+Option screen @ 7 e ee ee eee eee) |
+
+ou can change the game parameters from this screen. Use the + Control Pad to set the
+following items.
+
+AUTO ACCEL.: Lets you rev up your bike. Keep the B button held down for one or two
+seconds to rev, and press it quickly to take off.
+SOUND MODE: Choose stereo or mono sound.
+SOUND TEST: Listen to the game sounds using the A, B, X, or Y buttons.
+ENGINE POWER: Adjust the bike speed in VS Race.
+EXIT: Return to the Title screen. You can also press the Start button to return
+to the Title screen.
+
+===== Page 6 =====
+
+Basic Controls
+
+Basic functions of the controller during game play ay = @
+L button R button
+
+X button
+
+A button
+
++ CONTROL pad Ybutton g button
+SELECT button START button
+
+X button: Brake + Control Pad: Move your character (turn
+A button: Use items steering wheel)
+
+B button: Accelerate UR buttons: Side-swipe to left/right
+
+Y button: Attack (some characters cannot
+Start button: Start game/ Pause do this move)
+
+Select button: Not used
+
+Controller functions at the Select screen # 2 29 a a @
+
++ Control Pad, Select button: Make selections
+Start button, B button: Set selections
+X button, Y button: Cancel (sometimes this function cannot be used)
+
+Basic moves during game play wawowooe ee
+
+Accelerating (B button)
+Hold down the B button to accelerate. If you keep it held down your speed will level off once you've
+
+reached top speed .
+
+—— Dashing: Hit the B button repeatedly to dash. You can only dash for a short distance. Dashing
+is particularily useful when starting off and when going over jumps.
+
+Directional moves (+ Control Pad <->)
+Use the + Control Pad to do directional moves. Press it left to turn left, and right to turn right.
+
+— — Jumps: You can make your character lean
+backwards and forwards during jumps. Press
+the + Control Pad down to bring the front of
+the bike up in a wheelie position and increase
+the jump distance. Press the + Control Pad
+up to bring the front of the bike down and
+shorten the jump distance.
+
+Direction of movement
+
+Side-swiping (L, R buttons)
+You can slide left and right to side-swipe other bikes while staying in an upright position on your
+bike. Press the L button to side-swipe to the left, and the R button to side-swipe to the right.
+
+* Modo, Limburger, and Dr Karbunkle cannot side-swipe.
+
+a
+
+===== Page 7 =====
+
+Leaning
+To lean left, press the + Control Pad left and the R (L) button at the same time.
+To lean right, press the + Control Pad right and the R (L) button at the same time.
+
+*For Limburger, first press the R (L) button twice rapidly, and then press the + Control Pad
+left or right.
+
+Wheelie (B button and + Control Pad J)
+You'll come across rough patches and obstacles on the course that'll slow you down if you
+travel over them. Keep your speed up by doing a wheelie over them.
+
+Limbuger and Dr Karbunkle can’t do wheelies. Limburger will lean backwards if you press
+the + Control Pad down.
+
+You can also use this command to protect yourself from injury from bombs left on the
+ground.
+
+Using Items (A button)
+This command is only effective if you've got items to use.
+
+Attacking (Y button)
+Each character attacks in a different way.
+
+*When controlling Vinnie, press the Y button once to make him jump up into the air, then
+press it again while he’s still airborne to make him attack.
+
+= Laying Bombs (+ Control Pad 4 + Y button)
+You can lay bombs on the ground as a trap for characters coming up from behind.
+
+Going Over Jumps
+The distance you jump varies depending on the size of the jump and the speed you're travel-
+ing at when you go over it.
+
+Braking (X button)
+
+Braking Dash (X button + B button, then release X button)
+To do a braking dash, hold down the brake (X button) and accelerate (B button). Release the
+brake to dash off at high speed.
+
+Retire
+Stop racing. You can select this after pressing the Start button to pause.
+
+Hintfor Jumping wooo eee eee
+
+To land your bike without losing time, press the + Control Pad up/down to keep it horizontal
+with the ground.
+
+v7
+
+===== Page 8 =====
+
+Main Race
+
+One or two players can compete in the Main Race.
+
+You must make five laps of each course to complete it. There are five courses in the race,
+each over different terrain. You have to complete all five courses to win each round.
+
+The number of rounds in the race depends on the difficulty level. There are three rounds in
+the Easy level, five in the Normal level, and six in the Hard level. The courses themselves
+get harder as you progress through the rounds of the race.
+
+You receive points for each race corresponding to where you are placed in the race. The rid-
+ers placed first, second, and third at the end of each round move on to the next round. As
+well as points, you can also win victory money at the end of each race depending on where
+you're placed.
+
+Your placing at the end of each race affects your start position in the next race.
+
+Each character has a food gauge. The gauge represents the amount of (SMIGKERS/ bars
+you have bought. Every time you are hit by an attack or fall into a trap your food gauge will
+decrease. When the gauge reaches zero your character's hunger level will be so high that
+he will be unable to control his vehicle. When this happens he will explode. After exploding,
+he will revive again, but will have lost valuable time.
+
+Attacking: Each character attacks in a different way. At the start of a race, the number of
+available attacks is zero, but after completing one lap attacks are counted and become avail-
+able for use. The number of attacks is initially set at three, but if the player buys more at the
+Shop s/he can increase this to up to eight attacks per lap.
+
+If you attack an opponent and make him explode, you'll receive bonus money in addition to
+the normal race money.
+
+([SHIGKERS jroo gauge Number of remaining attacks
+
+ttem box
+
+Course
+Lap
+
+If you are placed fourth or lower at the end of a round, the Continue screen will appear.
+Press the Start button or the B button before the countdown reaches zero and you'll be able
+to continue the game from the start of the round you were just playing. You'll still have the
+same amount of money and equipment that you had before, but you'll lose all your points. If
+the countdown reaches zero, the game will end, and the Password screen will come up.
+Passwords come up on screen at the end of each round.
+
+a
+
+===== Page 9 =====
+
+Es time you complete a lap you'll be able to get an item. The type of item is chosen at
+random. All of them will help you in your efforts to win the race. However, should you col-
+lect the special Snickers item your character will no longer be in any danger of a hunger
+attack so he will be invincible for a short period of time.
+
+Earthquake Time stopper Dash
+
+PowerUlSs @@ 29 Ue eee eee ee|| |
+
+ou can use your race money to power up by buying equipment for your bike at the Shop.
+Choose SHOP at the Preparation screen to go to the Shop screen.
+
+You keep the equipment you buy when you move to the next course or the next round. If you
+input a password when you stop playing, your equipment will still be there when you resume
+play again.
+
+There are four different types of equipment you can buy.
+
+Each one has five levels of effectiveness.
+
+&
+v
+
+Engine
+Increases your top speed and
+your acceleration power.
+
+Tire
+Makes your tires grip the road
+more effectively.
+
+you have.
+
+WELCOHE TO
+
+(SMEKERS) F008
+
+The races you'll be competing in
+are so intense that the slightest
+distraction, especially hunger,
+can destroy your chances of
+winning. So, the Biker Mice will
+need to use their hard earned
+cash to buy as many
+
+(SMIEKERS) oars as possible to
+
+fight off hunger attacks. In the
+
+future bars have
+become highly valued for their
+ability to ward off hunger which
+is why they are so valuable in
+the game.
+
+a
+
+===== Page 10 =====
+
+Battle Race
+
+| i or two players can play in Battle Race. Your aim is to destroy the other characters and
+‘stay alive until the end of the race to cross the finish line. You have to clear all the set
+courses.
+
+The courses are the same as in the Main Race, but if you are destroyed you won't be able to
+recover and complete that course.
+
+The way you attack is the same as in the Main Race, but you have the full number of attacks
+right from the beginning of the race. You can get bonus money by injuring enemies and
+blowing them up.
+
+The player left alive at the end of the race is placed first, the player destroyed last is placed
+second, and so on. If more than one player is left alive at the end to cross the finish line, the
+player who crosses the finish line first is placed first, the player who crosses second is
+placed second, and so on.
+
+If you are placed first, second or third at the end of a race, you'll move on to the next race. If
+you're placed fourth or lower you're out of the race, and the Continue screen will come up.
+Press the Start button or the B button before the countdown reaches zero and you'll be able
+to continue the game from the start of the race you were just playing. If the countdown
+reaches zero, the game will end, and you'll return to the Title screen.
+
+You can buy equipment (except extra Shots) from the Shop in the same way as in the Main
+Race.
+
+Victory Tips
+Use these tips to get out in front!
+
+1. Master the art of leaning to take corners effectively!
+
+2. Hit the acceleration button (B button) repeatedly to dash when going over jumps!
+3. Use attacks and items to your best advantage!
+
+When you've got used to the courses, take on a friend! Pitting your wits against a
+worthy rival is the best way to hone your skills and become a No. 1 racer!
+
+===== Page 11 =====
+
+I this mode (for one player only) you choose one of the courses in the Main Race and
+practice your driving skills.
+
+Course Select screen” @ a 2 eo a a ew eee
+
+ou choose your course at this screen, and then the game
+begins.
+
+ISLAND
+
+Only one player can play in this mode. There are no opponents,
+and no items or attacks for you to use. The time it took for you
+to complete the course is displayed when you've finished all five
+laps of the course and crossed the finish line.
+
+Your best time for each course in Practice mode will also be dis-
+played. Time records are kept in memory until you turn your Super Nintendo Entertainment
+System off.
+
+When you've completed one course, the Practice Select screen
+will appear. You can select from the following items:
+
+RETRY: Practice the same course again.
+COURSE CHANGE: Return to the Course Select screen to
+select a different course to practice.
+PLAYER CHANGE: Go to the Player Select screen to
+choose a different character and con-
+tinue playing.
+END GAME: Return to the Title screen.
+
+===== Page 12 =====
+
+VS Race
+
+t this mode (for two players only) you choose one of the courses in the Main Race and
+compete against a friend.
+
+Course Selectscreehn@a @a ama m@m@ ewan ae
+
+ou choose your course at this screen, and then the game
+begins.
+
+VS Race is basically the same as the Main Race. You choose a
+course, and the person who completes the five laps and cross-
+es the finish line first is the winner.
+
+There are no items.
+
+The 1P bike races in the top half of the game screen, and the 2P bike races in the bottom
+half.
+
+When you've completed one course, the VS Race Select screen will appear. You can select
+from the following items:
+
+RETRY: Race the same course again.
+COURSE CHANGE: Return to the Course Select screen to
+select a different course to race.
+PLAYER CHANGE: Go to the Player Select screen to choose
+a different character and continue play-
+ing. ul
+END GAME: Return to the Title screen. This Is displayed in the loser’s
+section of the screen.
+
+You can change player speed at the Option screen.
+
+===== Page 13 =====
+
+here are thirty courses in total in the Main Race, set in a variety of different locations and
+terrain for action-packed, exciting racing.
+
+There are five main types of course:
+
+@ CITY: Race through urban landscapes of freeways and city
+buildings
+
+@® ISLAND: Speed along from island to island in tropical settings.
+
+@ SEWERAGE: Experience the thrills of racing in gloomy underground
+tunnels full of traps.
+
+1 ROUND
+
+@ CIRCUIT: Action-packed courses set in a stadium.
+
+© FORTRESS: Fight through the final race in the round, along courses
+set in a heavily guarded iron fortress.
+
+You must complete five laps of each course to clear a round. There are three rounds in the
+Easy level, five in the Normal level, and six in the Hard level.
+
+===== Page 14 =====
+
+About the Players
+
+Bike Characteristics f7ea oom meme eee
+
+Each character has a different kind of bike. Each bike has different speed, acceleration, and
+grip characteristics.
+
+Speed - How high a speed the bike can reach.
+
+Acceleration - How long it takes for the bike to hit top speed after you’ve pressed the
+accelerator.
+
+Grip ~ How the bike handles corners.
+
+These are the strengths and weaknesses of each bike:
+
+' Speed Accelleration Grip
+
+1 1 1
+Throttle | >>> | >>> | >>>b>
+Modo | PPP | >> | PPP
+Vinnie | > | DPPPPP> _ PPPPPP
+Limburger ! | ddd H PPPPrrPr >
+Grease Pit | DPPPPPP | DP | >>
+Dr. Karbunkie | >> | >> >> | >> >>>
+
+Attacking 9 9We@ we ewe ee eee e|)| |e
+Each character's bike can do a different kind of attack.
+
+Throttle : Tornado Shot Flings enemies up into the air.
+Modo : Bionic Crash A deadly tackle that severely injures enemies.
+Vinnie : Shooting Star Propels the bike up into the air and sends it
+
+zooming down at top speed to attack.
+Limburger : Plutarkian Beam Freezes enemies with a lightning bolt.
+Grease Pit : Grease Gun Sprays enemies with grease and melts them.
+
+Dr Karbunkle : Mutation Beam Transforms enemies into “Fred the Mutant” for
+a fixed period of time.
+
+===== Page 15 =====
+
+Characters and Bikes
+
+Throttle
+The cool and self-possessed leader of the Biker Mice. His bike is sta-
+ble and takes corners well.
+
+Modo
+
+A Biker Mouse with incredible power. He drives a hard race, jumping
+in the air to execute sharp turns, and harrassing enemies with power-
+ful attacks.
+
+Vinnie
+A quick-witted and agile Biker Mouse. He has a flashy, technically-
+skilled racing style that features jump attacks and corner skids.
+
+Limburger
+The boss of the bad guys. He races in his flying saucer, attacking in
+all directions without mercy.
+
+Grease Pit
+
+His bike is the fastest of all, but doesn’t take corners well. His favorite
+technique is to spray grease all over people who try to overtake him
+with his Grease Gun.
+
+Dr Karbunkle
+
+He rides an insect-shaped bike with tentacles that he designed him-
+self. An evil scientist who delights in turning people into mutants with
+his Mutation Beam.
+
+===== Page 16 =====
+
+Inhalt/Beschreibung des Spiels
+Spielvorbereitung
+Grundfunktionen der Bedienelemente .
+Hauptrennen....
+Kampfrennen
+Training...
+Wettkampf..
+Beschreibung der Rennstrecken
+Charakteristiken der Spielfiguren
+
+ie sind supercool und sie kommen vom Mars - die “Biker Mice” (Mause, die
+
+Motorradrennen fahren) sind da! Ihr Planet wurde von dem bosen AuBerirdischen
+Limburger erobert, der es nun auf die Erde abgesehen hat. Schwing Dich in den Sattel
+Deines frisierten Motorrades, und mach Dich auf die Socken, um Limburger zu beseitigen
+und alle anderen zu besiegen, ehe Du die Ziellinie erreichst!
+
+Beschreibung des Spielsa 9 wo owe eee
+
+I: diesem Spiel kannst Du Deine Wahl zwischen sechs Spielfiguren treffen. Wahle zwis-
+chen Throttle, Modo, Vinni (die drei Biker-Mause), Limburger oder seinen Helfershelfern
+Grease Pit oder Dr. Karbunkle. Aber paB auf — dies ist kein normales Rennen! Auf Deinem
+Weg erwarten Dich jede Menge Fallen, und die anderen Mitspieler werden versuchen, Dich
+anzugreifen. Du kannst selbst auch verschiedene Fallen auslegen.
+
+Es gibt vier verschiedene Rennarten, wo Du Deine Fahigkeiten zeigen kannst
+
++ Hauptrennen: Das Hauptrennen des Spiels, flr einen oder zwei Spieler.
+
++ Kampfrennen: Du gewinnst, indem Du alle Gegner ausschaltest oder die Ziellinie
+als erster Uberfahrst. Fur einen oder zwei Spieler.
+
+* Training: Hier kannst Du flr das Rennen trainieren. Nur fir einen Spieler.
+
+* Wettkampf-Rennen: Messe Deine Fahigkeiten an einem Freund. Nur fiir zwei Spieler.
+
+Die Spielweise ist bei jeder Art des Rennens unterschiedlich.
+
+Smanazuacenta)
+Fich (SMIGKERS/ is a registered trademark. © Mars incorporated 1994.
+
+===== Page 17 =====
+
+Spielvorbereitung
+
+chiebe das Game Pak in Dein Super Nintendo Entertainment System ein und schalte die
+Stromversorgung an. Driicke die Start-Taste, damit der Titel-Screen erscheint.
+
+Auf dem Auswahl-Screen
++ Control Pad, Wahitaste: Wahlvorgange durchfihren
+Start-Taste, B-Taste: Ausgewahlite Positionen bestatigen
+X-Taste, Y-Taste: Beenden (in einigen Fallen kann diese Funktion nicht verwendet werden)
+
+Titel-Screeha @ @O OS eee eS eS eee ew
+
+| foals das + Control Pad oder die Wahltaste, um einen Modus zu wahlen und dricke die Start-Taste,
+um zum nachsten Screen weiterzuschalten.
+
++1 PLAYER - Spielwahl + 2 PLAYERS - Schwierigkeitsgrad-Screen
++ PASSWORD - Password-Screen (Codewort) + OPTION - Optionen-Screen
+
+Spielwahl-Screen, Schwierigkeitsgrad-Screen #7 = ay ay
+
+ier kannst Du die Spielart und den Schwierigkeitsgrad wahlen, mit dem Du spielen méchtest.
+AnschlieBend erscheint der Spielfigurenauswah|-Screen-
+
+Spielfigurenauswahl-Screen @ a aoooeoeoee ee
+
+ier kannst Du Deine Spielfigur wahlen. AnschlieBend beginnt das Spiel. Wenn zwei Personen am Spiel
+teilInehmen, kénnen diese nicht dieselbe Spielfigur wahlen. Weitere Einzelheiten zu den einzelnen
+Spielfiguren findest Du im Kapitel “Die Spielfiguren”.
+
+Password-Screeh @ 2 2 2 eS ee ee eee
+
+Wenn Du ein Codewort (Password) verwendest, kannst Du das Spiel an der Stelle wieder fortsetzen, wo Du
+es wahrend des Hauptrennens verlassen hast. Die Codeworter erscheinen am Ende des Spiels und am
+Ende jeder einzelnen Runde auf dem Screen.
+
+Wahle 1 P oder 2 P. Bewege den Cursor mit dem + Control Pad zum Eingabepunkt und verwende die A-
+oder B-Taste, um den Buchstaben einzugeben. Wenn alle Spielfiguren eingegeben worden sind, bewege
+den Cursor auf “OK” und driicke die Start-Taste oder die B-Taste, um das Spiel zu beginnen.
+
+Gleichzeitig kannst Du auch ein Codewort flr eine zweite Spielfigur eingeben, wenn Du einen Wettkampf
+durchfuhren méchtest. Dies ist jedoch nicht mdglich, wenn die andere Spielfigur das Spiel in einer anderen
+Runde oder mit einem anderen Schwierigkeitsgrad beendet hat, oder wenn beide Spielfiguren gleich sind.
+
+Optionen-Screeh @# waa wa eee eee eee
+
+uf diesem Screen kannst Du die Parameter des Spiels verandern. Verwende das + Control Pad, um die
+folgenden Positionen einzustellen.
+AUTO ACCEL: Hiermit kannst Du Dein Motorrad stark beschleunigen. Halte die B-Taste fiir eine oder zwei
+Sekunden gedrtickt, um den Motor hochzujubein und driicke sie danach rasch, um loszufahren.
+SOUND MODE: Wahle zwischen Stereo- oder Mono-Sound.
+SOUND TEST: Mit den A-, B-, X- oder Y-Tasten kannst Du die Sounds des Spiels anhéren.
+ENGINE POWER: Hiermit kannst Du die Motorrad-Geschwindigkeit in einem Wettkampf einstellen.
+EXIT: Rickstellung auf den Titel-Screen. Du kannst ebenfalls die Start-Taste driicken, um zum Titel-Screen
+zuriickzukehren.
+
+Pi
+
+===== Page 18 =====
+
+Grundfunktion der Bedienelemente
+
+Grundfunktionen des Controllers wahrend des Spiels
+L-Taste R-Taste
+
+X-Taste
+
+a as A-Taste
++ Control Pad ? \ Y-Tasté B-Taste
+Wanhiitaste Start-Taste
+
+X-Taste: Bremse + Control Pad: Bewegt Deine Spielfigur (Steuern
+A-Taste: Verwendung von Gegenstanden des Lenkers)
+
+eschleunigen L/A-Tasten: Seitenschlag nach links/rechts
+Y-Taste: Angreifen (einige Spielfiguren konnen diese Bewegung
+Start-Taste: Spielbeginn/Pause nicht ausfiihren)
+
+Wahitaste: Nicht verwendet
+
+Funktionen des Controllers im Auswahl-Screen a a = a
+
++ Control Pad, WahI-Taste: Durchfiihrung von Wahlvorgangen
+Start-Taste, B-Taste: Bestatigung von gewahlten Positionen
+X-Taste, Y-Taste: Beenden (manchmal kann diese Funktion nicht verwendet werden)
+
+Grundbewegungen wahrend des Spiels@ @ @ a a @ @
+
+Beschleunigen (B-Taste)
+Die B-Taste gedriickt halten, um das Motorrad zu beschleunigen. Wenn Du sie gedriickt halst, bleibt die
+Geschwindigkeit gleich, sobald Du die Héchstgeschwindigkeit erreicht hast.
+
+ Spurten: Driicke die B-Taste mehrfach kurz hintereinander, um zu spurten. Du kannst jedoch nur auf kurze
+Entfernungen spurten. Der Spurt ist insbesondere wahrend des Starts und bei Spriingen nittzlich.
+
+Gerichtete Bewegungen (+ Control Pad <>)
+Das + Control Pad verwenden, um gerichtete Bewegung durchzufiihren. Nach links driick-
+en, um die Spielfigur nach links, und nach rechts driicken, um die Spielfigur nach rechts zu
+wenden.
+
+> Spriinge: Du kannst bewirken, daB sich Deine Bewegungsrichtung
+Spielfigur wahrend eines Sprungs nach hinten oder
+vorn lehnt. Driicke das + Control Pad abwarts, um
+das Vorderrad des Motorrades anzuheben und auf
+dem Hinterrad zu fahren. Dadurch erhdht sich die
+Sprungentfernung. Driicke das + Control Pad
+aufwarts, um das Vorderrad des Motorrades zu
+senken und die Sprungentfernung zu verkiirzen.
+
+Seitenschlag (L-, R-Tasten)
+
+Du kannst das Motorrad nach links und rechts ausschlagen lassen, um andere Motorrader “anzurempein”,
+wahrend Du in aufrechter Haltung auf Deinem Motorrad stehst. Driicke die L-Taste, um nach links zu schlagen
+und die R-Taste, um nach rechts zu schlagen.
+
+* Modo, Limburger und Dr. Karbunkle kénnen diese Bewegung nicht ausfiihren.
+
+Ff
+
+===== Page 19 =====
+
+Seiten-Neigung
+Um Dich nach links zu neigen, driickst Du das + Control Pad nach links und die R- (L)-Taste
+gleichzeitig.
+
+Um Dich nach rechts zu neigen, driickst Du das + Control Pad nach rechts und die R- (L)-Taste
+gleichzeitig.
+
+Fur Limburger driickst Du zunachst die R- (L-) Taste zweimal rasch hintereinander und drickst dann
+das + Control Pad nach links oder rechts.
+
+“Wheelie”, Fahren auf dem Hinterrad; (B-Taste und + Control Pad +)
+
+Wenn Du auf Deinem Wege Uber rauhes Gelande fahrst oder Hindernisse vorfindest, die Deine
+Geschwindigkeit vermindern, wenn Du dartiber fahrst, kannst Du Deine Geschwindigkeit aufrechter-
+halten, wenn Du nur auf dem Hinterrad fahrst.
+
++ Limburger und Dr. Karbunkle kénnen keine Wheelies durchfuhren. Limburger lehnt sich nach hin-
+ten, wenn Du das + Control Pad abwarts driickst. Du kannst diese Funktion auch verwenden, um
+Dich gegen Verletzungen durch Bomben zu schittzen, die auf dem Boden liegen.
+
+Verwendung von Gegenstanden (A-Taste)
+Dieser Befehl ist nur wirksam, wenn Du tatsachlich Uber Gegenstande verfiigst.
+
+Angriff (Y-Taste)
+Jede Spielfigur greift auf andere Weise an.
+
++ Wenn Du Vinnie steuerst, driicke die Y-Taste einmal, damit er in die Luft springt, und driicke sie
+noch einmal, wahrend er sich immer noch in der Luft befindet, um ihn angreifen zu lassen.
+
+Bomben legen (+ Control Pad | und Y-Taste)
+Du kannst Bomben auf den Boden legen, die eine Falle fir Spielfiguren bilden, die Dir folgen.
+
+Oberspringen von Hindernissen
+Die Sprungentfernung ist unterschiedlich und hangt davon ab, wie groB der Sprung ist und welche
+Geschwindigkeit Du hast, wenn Du dariber fahrst.
+
+Bremsen (X-Taste}
+
+Bremsen mit nachfolgendem Spurt (X-Taste + B-Taste, dann X-Taste loslassen)
+Um zu bremsen und anschlieBend zu spurten, halst Du die Bremse (X-Taste) gedriickt und
+beschleunigst dann (B-Taste). Lasse die Bremse los, um dann mit hoher Geschwindigkeit loszus-
+purten.
+
+Beendigung des Spiels ;
+Diese Funktion dient zum Abbruch des Spiels. Du kannst sie wahlen, nachdem Du die Start-Taste
+gedriickt und eine Spielpause eingelegt hast.
+
+Hinweise fir Spriingew 29 wa wee e eee
+
+m Dein Motorrad zu landen, ohne Zeit zu verlieren, driicke das + Control Pad aufwarts/abwarts,
+um es gegentber dem Boden horizontal zu halten.
+
+Fi of
+
+===== Page 20 =====
+
+im Hauptrennen kénnen ein oder zwei Spieler fahren. Du muBt auf jeder Rennstrecke finf Runden
+
+fahren, um sie erfolgreich abzuschlieBen. Es gibt funf Rennstrecken in jedem Rennen, von denen
+jede Uber ein anderes Gelande fihrt. Du muBt in jeder Runde alle fiinf Rennstrecken vollstandig
+abschlieBen.
+
+Die Anzahl der Runden in einem Rennen hangt vom Schwierigkeitsgrad ab. Beim leichtesten
+Schwierigkeitsgrad (Easy) gibt es drei Runden, bei normaler Schwierigkeit flinf Runden und sechs
+Runden in der héchsten Schwierigkeits-Stufe (Hard). Die Rennstrecken selbst werden schwieriger,
+je weiter Du innerhalb einer Rennrunde vorankommst.
+
+Du erhalst Punkte fiir jedes Rennen, deren Hohe davon abhangt, welchen Platz Du in dem Rennen
+erzielt hast. Die Fahrer, die am Ende einer Runde den ersten, zweiten und dritten Platz belegt
+haben, riicken in die nachste Runde vor. Am Ende eines Rennens kannst Du zusatzlich zu den
+Punkten auch ein Preisgeld gewinnen, dessen Hohe davon abhangt, wie Du plaziert bist.
+
+Deine Plazierung am Ende eines Rennens hat Einflu8 auf die Startposition im nachsten Rennen.
+Jede Spielfigur verfiigt iber eine Lebensmittel-Anzeige. Die Anzeige gibt die Menge der
+
+an, die Du gekauft hast. Jedesmal, wenn Du von einem Angriff getroffen worden bist
+
+oder in eine Falle geratst, vermindert sich Deine Lebensmittel-Anzeige. Wenn die Anzeige Null er-
+reicht hat, ist der Hunger Deiner Spielfigur so groB, daB Du nicht mehr in der Lage bist, das
+Fahrzeug zu kontrollieren. Wenn dies geschieht, explodiert die Spielfigur. Nach der Explosion wird
+sie wieder zum Leben erweckt, aber Du hast wertvolle Zeit verloren.
+
+Angriff: Jede Spielfigur hat ein unterschiedliches Angriffsverfahren. Am Anfang eines Rennens ist
+die Anzahl der zur Verfiigung stehenden Angriffe Null, aber nachdem Du eine Runde beendet hast,
+beginnt die Zahlung der Angriffe, und Du kannst diese einsetzen. Die Anzahl der Angriffe wird
+anfangs auf drei eingestellt, aber wenn der Spieler (die Spielerin) weitere Angriffe im Geschaft
+kauft, kann er bzw. sie die Anzahl der Angriffe bis zu acht pro Runde erhdhen.
+
+Wenn Du einen Gegner angreifst und ihn explodieren |aBt, erhalst Du einen Bonus zusatzlich zu
+Deinem normalen Preisgeld.
+
+Gegenstand-Box (SMIGKERS)y evensminel-anzeive Anzahl der noch
+verbleibenden Angrifte
+
+Plazierung
+Spieler
+
+Wenn Du am Ende einer Runde den vierten Platz oder einen schlecnteren Platz belegst, erscheint
+der Fortsetzungs-Screen CONTINUE. Driicke die Start-Taste oder die B-Taste, ehe der Countdown
+Null erreicht, und Du kannst das Spiel vom Beginn der Runde an fortsetzen, die Du gerade gespielt
+hast. Du hast immer noch dieselbe Summe Geld und die Ausriistungs-Gegenstande, die Du vorher
+hattest, aber Du verlierst alle Deine Punkte. Wenn der Countdown Null erreicht hat, endet das
+Spiel, und der Screen zur Eingabe des Codeworts (Password) erscheint. Codeworter erscheinen
+am Ende jeder Runde auf dem Screen.
+
+F of
+
+===== Page 21 =====
+
+iedesmal, wenn Du eine Runde beendet hast, kannst Du Gegenstande erlangen. Die
+
+Auswahl der Gegenstande ist zufallig. Alle untersttitzen Dich dabei, das Rennen zu
+gewinnen. Wenn Du jedoch den speziellen Snickers-Riegel aufsammelst, ist Deine Spielfigur
+nicht langer gefahrdet, vom Hunger tibermannt zu werden, so daB Du fir einen kurzen
+Zeitraum unverwundbar bist.
+
+Erdbeben Zeit-Stopper Spurt
+
+Mittel zur Leistungssteigertungan aw a ooo
+
+D: kannst Dein wahrend des Rennens gewonnes Geld dazu verwenden, Deine Leistung
+
+zu steigern, indem Du zusatzliche Ausriistungsgegenstande fiir Dein Motorrad im Laden
+kaufst. Wahle die Position SHOP (Laden) im Vorbereitungs-Screen (Preparation), um zum
+Shop-Screen umzuschalten.
+
+Du behAltst die Ausristungsgegenstande, die Du kaufst, | NELconE To
+wenn Du zur nachsten Strecke oder zur nachsten Runde sabi ict
+weiterruckst. Wenn Du das Spiel beendest und ein Codewort
+eingibst, speichert das Gerat den gegenwartigen Zustand,
+den Du wieder aufrufen kannst, wenn Du das Spiel fortsetzt.
+
+Du kannst vier verschiedene Arten von Ausrustungsgegenstanden kaufen. Jeder Typ hat
+fiinf Wirksamkeitsgrade.
+
+Motor (SNICKERS; NERS /1cbensmittel
+pr Erhoht Deine Die Rennen, an denen Du teil-
+G CA Hochstgeschwindigkeit und Deine om nimmst, erfordern eine so hohe
+Beschleunigungs-Leistung. Konzentration, daB die leichteste
+
+Ablenkung, insbesondere durch
+Hunger, Deine Gewinnchancen
+Vollig vernichten kann. Daher
+missen die Biker-Mause ihr hart
+Reifen verdientes Geld dazu verwenden,
+
+© Macht Deine Reifen auf der StraBe s0 viele (SHIGKERS) wie méglich
+
+griffiger. zu kaufen, um nicht vom Hunger
+ubermannt zu werden. In der
+
+Zukunft werden (SMICKERS)
+
+ihre Eigenschaft, den Hunger zu
+SchuB dampfen, auBerordentlich hoch
+Pico Erhoht die Anzahl der Angriffe, die bewertet. Dies ist der Grund,
+Dir zur Verfligung stehen. warum sie in diesem Spiel so
+wertvoll sind. ri
+
+===== Page 22 =====
+
+Kampfrennen
+
+m Kampfrennen kénnen ein oder zwei Spieler spielen. Ziel des Spieles ist es, die anderen
+Spielfiguren zu vernichten und selbst bis zum Ende des Rennens am Leben zu bleiben und
+die Ziellinie zu Uberqueren. Du muBt alle vorgeschriebenen Rennstrecken meistern.
+
+Die Rennstrecken sind dieselben wie im Hauptrennen, aber wenn Deine Spielfigur zerstért
+wird, bist Du nicht in der Lage, Dich wieder zu erholen und die Rennstrecke zu beenden.
+
+Die Angriffsweise ist dieselbe wie im Hauptrennen, aber Dir steht vom Anfang des Rennens
+an die volle Anzahl von Angriffen zur Verflgung. Du erhalst einen Geldbonus, wenn Du
+Gegner verletzt oder sie in die Luft jagst.
+
+Der Spieler, der bis zum Ende des Rennes am Leben bleibt, ist der Sieger, der Spieler, der
+zuletzt beseitigt wurde, wird Zweiter usw. Wenn mehr als ein Spieler am Ende des Rennens
+am Leben bleibt und die Ziellinie berquert, ist der Spieler, der die Ziellinie als erster Uber-
+quert, Sieger, derjenige, der sie als Zweiter iberquert, Zweiter usw.
+
+Wenn Du am Ende eines Rennens Erster, Zweiter oder Dritter wirst, kannst Du mit dem
+nachsten Rennen weitermachen. Wenn Du am Ende einer Runde den vierten Platz oder
+einen schlechteren Platz belegst, erscheint der Fortsetzungs-Screen CONTINUE. Drticke
+die Start-Taste oder die B-Taste, ehe der Countdown Null erreicht, und Du kannst das Spiel
+vom Beginn der Runde an fortsetzen, die Du gerade gespielt hast. Wenn der Countdown
+Null erreicht hat, endet das Spiel, und Du kehrst zum Titel-Screen zurtick.
+
+Du kannst Ausriistungsgegenstande (mit Ausnahme von zusatzlichen Schtissen) auf
+dieselbe Weise im Laden kaufen wie im Hauptrennen.
+
+Hinweise zur Siegestrategie
+Wenn Du diese Tips beachtest, kommst Du an die Spitze!
+1. Lerne unbedingt, wie Du Dich richtig in die Kurve legst, damit Du Kurven schnell
+durchfahren kannst!
+2. Driicke die Beschleunigungs-Taste (B-Taste) wiederholt, um zu spurten, wenn Du
+uber Spriinge fahrst!
+3. Verwende Angriffe und Gegenstande zu Deinem Vorteil!
+
+Wenn Du Dich an die Rennstrecken gewohnt hast, messe Deine Krafte mit einem
+Freund! Wenn Du Deine eigenen Fahigkeiten an denen eines gleichwertigen Partners
+miBt, ist dies der beste Weg, Deine Fahigkeiten zu verbessern und der Rennfahrer
+Nummer 1 zu werden!
+
+===== Page 23 =====
+
+Training
+
+in diesem Modus (nur fiir einen Spieler) kannst Du eine der Rennstrecken des
+Hauptrennens wahlen und Deine Fahrkiinste schulen.
+
+Rennstreckenwahi-Screen aa a oam@ ee eee
+
+Auf diesem Screen kannst Du Deine Rennstrecke wahlen, und
+das Spiel beginnt.
+
+In diesem Modus kann nur ein Spieler teilnehmen. Es gibt keine
+Gegner und keine Gegenstande oder Angriffe, die Du verwen-
+den kannst. Wenn Du alle flinf Runden der Strecke gefahren
+und die Ziellinie Uberquert hast, wird die Zeit angezeigt, die Du
+dafiir benétigt hast.
+
+Ebenso wird die beste Zeit im Ubungs-Modus fiir die jeweilige Strecke angezeigt. Die
+Zeitnahme bleibt gespeichert, bis Du Dein Super Nintendo Entertainment System ausschal-
+test.
+
+Wenn Du eine Strecke abgeschlossen hast, erscheint der
+Auswahl-Screen. Du kannst unter den folgenden Positionen
+wahlen:
+
+RETRY: Zum Wiederholen derselben Rennstrecke.
+
+COURSE CHANGE: Rickschaltung auf den
+Rennstreckenwahl-Screen, um eine andere Rennstrecke
+zum Uben zu wahlen.
+
+PLAYER CHANGE: Umschalten auf den Spielfigurenwahl-
+Screen, um eine andere Spielfigur zu wahlen und das Spiel
+fortzusetzen.
+
+END GAME: Rickschaltung auf den Titel-Screen.
+
+===== Page 24 =====
+
+Wettkampf-Rennen (VS)
+
+I diesem Modus (nur fiir zwei Spieler) kannst Du eine der Rennstrecken des Hauptrennens
+wahlen und gegen einen Freund fahren.
+
+Rennstreckenwahl-Screen #9 wa oo eee
+
+uf diesem Screen wahlst Du Deine Rennstrecke, und das
+Spiel beginnt.
+
+Das Wettkampf-Rennen ist prinzipiell dasselbe wie das
+Hauptrennen. Du wahlst eine Rennstrecke, und die Person, die
+fiinf Runden erfolgreich abschlieBt und die Ziellinie als erste
+Uberquert, wird Sieger.
+
+Es gibt keine besonderen Gegenstande.
+
+Das Motorrad fiir den ersten Spieler fahrt in der oberen Halfte des Spiel-Screens, und das
+Motorrad fiir den zweiten Spieler in der unteren Halfte.
+
+Wenn Du eine Strecke abgeschlossen hast, erscheint der Auswahl-Screen des Wettkampf-
+Rennens. Du kannst unter den folgenden Positionen wahlen:
+
+RETRY: Zum Wiederholen derselben Rennstrecke.
+
+COURSE CHANGE: Ruckschaltung auf den
+Rennstreckenwahl-Screen, um eine andere Rennstrecke zu
+wahlen.
+
+PLAYER CHANGE: Umschalten auf den Spielfigurenwahl- Diese Anzeige erfolgt im
+Screen, um eine andere Spielfigur zu wahlen und das Spiel Abschnitt des Verlierers auf
+fortzusetzen. dem Screen.
+
+END GAME: Rickschaltung auf-den Titel-Screen.
+
++ Du kannst die Geschwindigkeit der Spielfigur im Optionen-Screen verandern.
+
+===== Page 25 =====
+
+Einzelheiten zu den Rennstrecken
+
+m Hauptrennen gibt es 30 verschiedene Rennstrecken, die sich in unterschiedlichen
+Gegenden und verschiedenem Gelande befinden und spannende Rennen voller Action
+liefern. Es gibt finf Haupt-Typen von Rennstrecken:
+
+@ CITY: Du rast durch eine Stadtlandschaft mit Stadtautobahn und
+Gebauden.
+
+@ ISLAND: Du rast von Insel zu Insel, in einer tropischen Landschaft.
+
+@ SEWERAGE: Du erlebst ein aufregendes Rennen in den disteren
+Untergrund-Tunneln, voller Fallen.
+
+1 ROUND
+
+@® CIRCUIT: Aktionsgeladene Rennstrecken in einem Stadion.
+
+® FORTRESS: Du kampfst Dich durch das letzte Rennen der Runde
+und muBt Rennstrecken bezwingen, die durch eine schwer
+bewaffnete, eiserne Festung fihren.
+
+Du muBt auf den Rennstrecken funf Runden absolvieren, um eine Spielrunde erfolgreich
+abzuschlieBen. Es gibt drei Spielrunden bei leichtem Spielniveau (Easy), fiinf bei normalem
+Spielniveau und sechs bei hohem Spielniveau (Hard).
+
+===== Page 26 =====
+
+Vorstellung der Spielfiguren
+
+Charakteristiken der Motorrader a a a a a a oa
+
+de Spielfigur fahrt ein anderes Motorrad. Jedes Motorrad hat andere Charakteristiken
+eziiglich Geschwindigkeit, Beschleunigung und Bodenhaftung.
+
+Geschwindigkeit >
+Beschleunigung >
+
+Bodenhaftung
+
+>
+
+Wie hoch die Geschwindigkeit ist, die ein Motorrad erreichen kann.
+Wie lange es dauert, bis ein Motorrad die Héchstgeschwindigkeit
+
+erreicht, nachdem Du Vollgas gegeben hast.
+Dieser Parameter bestimmt, wie gut ein Motorrad in Kurven fahrt.
+
+Dies sind die Starken und Schwachen jedes einzelnen Motorrades:
+
+Geschwindigkeit Beschleunigung Bodenhaftung
+Throttle | — a
+Modo | >>> | >> | >>>
+Vinnie ae | PP>P>P>P | DPP>P>PPp
+Limburger | DP LCP PPO
+GreasePit | DPPP>P>P | Pb | >
+Dr.Karbunkle | >> | > >>> | D> Ppp
+
+Awiffwrew ew eee eee eeeee||e
+Jedes Motorrad einer Spielfigur kann eine unterschiedliche Angriffsart ausfihren.
+
+Throttle
+Modo
+
+Vinnie :
+
+Limburger
+Grease Pit
+Dr. Karbunkle :
+
+Tornado Shot
+Bionic Crash
+
+Shooting Star
+Plutarkian Beam
+
+Grease Gun
+Mutation Beam
+
+LaBt die Gegner durch die Luft fliegen.
+
+Ein tédlicher Direktangriff, der die Gegner schwer
+verletzt.
+
+LaBt das Motorrad in die Luft schieBen und mit
+Héchstgeschwindigkeit zurtickkehren, um anzu-
+greifen.
+
+Friert Gegner mit einem Blitzschlag ein.
+
+Spriiht Gegner mit Fett ein und laBt sie schmelzen.
+Verwandelt Gegner fiir einen bestimmten Zeitraum
+in “Fred der Mutant”
+
+===== Page 27 =====
+
+Spielfiguren und Motorrdder
+
+Throttle
+Der coole und selbstbewuBte Anfiihrer der Biker-Mause. Sein
+Motorrad ist stabil und liegt gut in Kurven.
+
+Modo
+
+Eine Biker-Maus mit unglaublicher Kraft. Er fahrt ein hartes Rennen,
+springt in die Luft, um scharfe Wendungen auszufihren, und argert
+seine Gegner mit harten Angriffen.
+
+Vinnie
+Eine schlaue und agile Biker-Maus. Er hat einen mitreiBenden, tech-
+nisch ausgereiften Rennstil, der Sprungangriffe und Sliding in Kurven
+umfaBt.
+
+Limburger
+Er ist der BoB der Bésewichte. Er fahrt das Rennen in seiner fliegen-
+den Untertasse und greift gnadenlos nach allen Richtungen an.
+
+Grease Pit
+
+Sein Motorrad ist das schnellste von allen, aber es liegt nicht so gut
+in der Kurve. Seine Lieblingstechnik ist es, jeden, der ihn zu Uber-
+holen versucht, mit seiner Fettkanone anzuschieBen.
+
+Dr. Karbunkle
+
+Er fahrt ein insektenférmiges Motorrad mit Tentakeln, die er selbst
+konstruiert hat. Er ist ein bler Zeitgenosse, der seinen Spa8B daran
+hat, andere mit seinem Mutation Beam in Mutanten zu verwandelin.
+
+===== Page 28 =====
+
+Sommaire/Présentation du jeu ees
+Pour commencer..... 29
+Commandes de base. -30
+
+Course principale . 32
+
+Course d’attaque.. 34
+Course d’entrainement.. 35
+Course “Un contre un”... .36
+Quelques mots sur les épreuves.. oF
+Quelques mots sur les personnages 38
+
+lles sont trés détendues et elles viennent de Mars: ce sont les Biker Mice, des souris
+
+motocyclistes. Leur planéte a été envahie par le terrible Limburger qui a des vues sur la
+Terre. Prenez la route sur une moto de course pour écraser Limburger et franchir en vain-
+queur la ligne d’arrivée.
+
+Présentation dujeu @oaooomweoeeeee| |
+
+lous pouvez choisir un des six personnages. Vous pouvez étre Throttle, Modo, Vinnie (les
+
+trois Biker Mice), Limburger ou l'un de ses deux sous-fifres, c’est-a-dire Grease Pit ou Dr
+Karbunkle. Faites attention, car il ne s’agit pas d’une course comme les autres! Des piéges
+parsément le parcours et les autres personnages tenteront limpossible pour vous mettre
+hors jeu. Il va sans dire que vous pouvez également placer quelques chausse-trappes par-ci
+par-la, pour agrémenter le plaisir de vos adversaires!
+
+Quatre courses différentes sont prévues:
+
++ Course principale: Un ou deux joueurs peuvent y participer.
+
+- Course d’attaque: Vous gagnez si vous éliminez tous vos adversaires, ou si vous fran-
+chissez le premier la ligne d’arrivée. Pour un ou deux joueurs.
+
++ Course d’entrainement: Pour un seul joueur.
+
+- Course “Un contre un”: Vous relevez le défi que vous lance un ami. Pour deux joueurs
+uniquement.
+
+La maniére de jouer dépend du type de la course.
+
+Pf /SMIGKERS/ is a registered trademark. © Mars incorporated 1994.
+
+===== Page 29 =====
+
+Pour commencer
+
+[rons la cartouche de jeu dans le Super Nintendo Entertainment System et mettez ce dernier
+sous tension. Appuyez sur le bouton Start pour afficher la page de titre.
+
+eae page de sélection étant affichée
+Croix + du pavé de commande, bouton Select: Pour effectuer un choix
+Bouton Start, bouton B: Pour confirmer un choix
+Bouton X, bouton Y: Pour annuler (!annulation n'est pas toujours possible)
+
+Pagedetire @@7 ao mwmwew ee ee eee a2
+
+hoisissez un mode de fonctionnement au moyen de la croix + du pavé de commande ou du bou-
+ton Select puis appuyez sur le bouton Start pour afficher la page suivante.
+
++1 PLAYER - Choix du jeu +2 PLAYERS - Choix de la difficulté
+* PASSWORD - Frappe du mot de passe * OPTION - Choix des options
+
+Page de choix du jeu, page de choix de la difficulté =” =
+
+Pp" choisir le'jeu et le niveau de difficulté. La page de sélection du personnage s’affiche ensuite.
+
+Page de choix de personnage @ Woe eee eee
+
+our choisir le personnage qui doit vous incarner. La partie commence aussitét aprés le choix.
+Deux joueurs ne peuvent pas choisir le méme personnage. Reportez-vous a “Quelques mots sur
+les personnages” pour en savoir plus sur chacun.
+
+Page de frapne du motde passe awa aaa aeae
+
+S$: vous avez enregistré un mot de passe, vous pouvez reprendre une partie la ou vous l'avez
+interrompue, sous réserve que ce soit durant la course principale.
+
+Choisissez 1P ou 2P. Au moyen de la croix + du pavé de commande, amenez le curseur a
+‘emplacement de frappe puis utilisez les boutons A ou B pour taper une lettre. Lorsque vous avez
+terminé la frappe de toutes les lettres, amenez le curseur sur “OK” et appuyez sur le bouton Start
+ou sur le bouton B pour lancer la partie.
+
+Vous pouvez taper le mot de passe du second joueur a la suite du mot de passe du premier joueur.
+Toutefois, cela n'est pas possible si le personnage de l'autre joueur n’en est pas au méme point de
+la partie, ou si les niveaux de difficulté sont différents, ou encore si vous avez tous deux choisi le
+méme personnage.
+
+Page des options 7a ame meweeeee|| |
+
+jour modifier les paramétres de la partie. Utilisez la croix + du pavé de commande pour choisir
+les postes suivants:
+
+AUTO ACCEL.: Pour accroitre le regime du moteur. Maintenez la pression d'un doigt sur la touche
+B pendant une ou deux secondes, ou appuyez rapidement sur ce bouton pour démarrer en trombe.
+SOUND MODE: Pour choisir la stéréophonie ou la monophonie.
+
+SOUND TEST: Pour écouter les effets sonores; utilisez les boutons A, B, X ou Y.
+
+ENGINE POWER: Pour régler la vitesse de la moto dans une course “Un contre un”.
+
+EXIT: Pour afficher 4 nouveau la page de titre. Vous pouvez également appuyez sur le bouton Start
+
+pour obtenir le méme effet.
+
+===== Page 30 =====
+
+Commandes de base
+
+Réle du pavé de commande pendant une partie 7 = a @
+Bouton L Bouton R
+
+Croix + du pavé de
+
+commande Bouton Select Bouton Start
+Croix + du pavé de commande: Bouton A: Utilisation des objets
+Déplacement du personnage (rotation du Bouton B: Accélération
+guidon) Bouton Y: Attaque
+Boutons L/R: Ecart brusque vers la droite © Bouton Start: Lancement de la
+ou vers la gauche (certains personnages partie/Pause
+ne peuvent pas exécuter ce mouvement) Bouton Select: Non utilisé
+
+Bouton X: Freinage
+Role du pavé de commande lorsque la page de sélection est affichée
+
+Croix + du pavé de commande, bouton Select: Pour effectuer un choix.
+Bouton Start, bouton B: Pour valider un choix
+Bouton X, bouton Y: Pour annuler (l'annulation n'est pas toujours possible)
+
+Mouvements de base au cours d’une partie ay ay ay ay
+
+Accélération (bouton B)
+Maintenez la pression d'un doigt sur le bouton B. La vitesse demeure constante lorsque le maximum est
+atteint.
+
+Ruée vers l’avant: Appuyez de maniére répétée sur le bouton B. Vous ne pouvez vous élancer que
+sur une courte distance. La ruée vers l’avant est trés utile pour prendre un départ ou franchir des
+obstacles.
+
+Déplacements (Croix + du pavé de commande ¢>)
+
+Utilisez la croix + du pavé de commande pour
+
+effectuer des déplacements. Appuyez sur la gauche
+
+pour tourner @ gauche, et sur la droite pour tourner a
+
+droite. Direction du déplacement
+
+Sauts: Pendant un saut, votre personage peut
+s'incliner vers l'avant ou vers l'arriére. Appuyez
+vers le haut sur la croix + du pavé de commande
+pour soulever la roue avant et augmenter la
+longueur du saut. Appuyez vers le bas sur la
+croix + du pavé de commande pour poser la roue
+avant sur la piste et réduire la longueur du saut.
+
+Ecart sur le cété (Boutons L et R)
+
+Vous pouvez faire un écart vers la gauche ou vers la droite pour éviter d'autres motos tout en conservant
+votre moto verticale. Appuyez sur le bouton L pour vous écarter vers la gauche et sur le bouton R pour vous
+carter vers la droite.
+
+Modo, Limburger et Dr. Karbunkle ne peuvent pas faire d’écart.
+
+of
+
+===== Page 31 =====
+
+Inclinaison
+Pour vous incliner vers la gauche, appuyez vers la gauche sur la croix + du pavé de commande et
+en méme temps sur le bouton R (L).
+
+Pour vous incliner vers la droite, appuyez vers la droite sur la croix + du pavé de commande et en
+méme temps sur le bouton R (L).
+
+* Pour Limburger, appuyez tout d’abord sur le bouton R (L) a deux reprises et rapidement, puis
+vers la gauche, ou vers la droite, sur la croix + du pavé de commande.
+
+Soulévement de Ia roue avant (Bouton B + Croix + du pavé de commande 4)
+
+Certaines parties de la piste qui sont en mauvais état et les divers obstacles qui la jonchent ralen-
+tiront votre moto si vous roulez dessus. Franchissez-les roue avant levée de maniére a conserver
+votre vitesse.
+
+Limburger et Dr Karbunkle ne peuvent pas soulever la roue avant de leur moto.
+Limburger peut s'incliner vers I'arriére; il vous faut pour cela appuyer vers le bas sur la croix + du
+pavé de commande.
+
+Vous pouvez également utiliser cette commande pour vous protéger des blessures que peuvent
+occasionner les bombes qui parsément la piste.
+
+Utilisation des objets (Bouton A)
+Ce bouton n'a d’effet que si vous disposez d’objets.
+
+Attaque (Bouton Y)
+Chaque personnage attaque a sa maniére.
+
+Pour le contréle de Vinnie, appuyez une fois sur le bouton Y pour qu’il saute en I’air puis appuyez
+a nouveau sur ce bouton, avant qu’il ne touche le sol, pour déclencher son attaque.
+
+Pose des bombes (Croix + du pavé de commande \ + Bouton Y)
+
+Vous pouvez poser des bombes sur la piste; elles seront autant de piéges pour vos poursuiv-
+ants.
+
+Saut d’obstacle
+La distance parcourue dépend de l’amplitude du saut et de la vitesse avec laquelle vous l’abordez.
+
+Freinage (Bouton X)
+
+Elancement aprés freinage (Bouton X + bouton B, puis relachement du bouton X)
+Pour vous élancer aprés un freinage, freinez (bouton X) puis accélérez (bouton B). Relachez le
+frein pour vous élancer a grande vitesse.
+
+Abandon
+Vous pouvez choisir de quitter la course aprés avoir appuyé sur le bouton Start pour marquer une
+pause. J
+
+Conseil pourlessaus @oaaa@eeeeeee |
+
+po que la moto touche ultérieurement le sol sans perdre de temps, maintenez-la horizontale en
+agissant vers le haut, ou vers le bas, sur la croix + du pavé de commande.
+x
+
+===== Page 32 =====
+
+Course principale
+
+Un ou deux joueurs peuvent prendre part a la course principale.
+
+Chaque épreuve comporte cing tours. Cing épreuves sont prévues pour cette course, chacune a
+lieu sur une piste différente. Vous devez terminer les cing épreuves pour gagner une manche.
+
+Le nombre de manches que comporte la course dépend du niveau de difficulté. Trois manches sont
+prévues pour le niveau Facile, cing pour le niveau Normal et six pour le niveau Difficile. La difficulté
+des épreuves elles-mémes augmente chaque fois que vous passez a la manche suivante.
+
+Vous recevez des points pour chaque épreuve en fonction de votre classement. Les coureurs
+classés premier, deuxiéme et troisiéme a la fin d'une manche peuvent participer a la manche suiv-
+ante. A la fin de chaque épreuve et selon votre classement, vous pouvez, outre des points, égale-
+ment gagner de l’argent.
+
+Votre classement a la fin de chaque épreuve détermine votre position de départ pour l’épreuve
+suivante.
+
+Chaque personnage dispose d'une jauge d’alimentation. Cette jauge indique le nombre de barres
+
+de que vous avez achetées. Chaque fois que vous étes touché par un adversaire, ou
+que vous tombez dans un traquenard, votre jauge d’alimentation diminue. Lorsque sa valeur est
+nulle, votre personnage est si torturé par la faim qu’il est dans l’impossibilité de contréler sa
+machine. II explose! Heureusement pour vous, et pour lui, cette explosion est suivie d'une renais-
+sance; mais que de temps perdu!
+
+Attaque: Chaque personnage posséde sa maniére propre d’attaquer. Au début d’une course, le
+nombre d’attaques possibles est nul; les attaques ne sont disponibles qu’aprés avoir terminé un
+tour. Initialement le nombre des attaques est limité a trois; toutefois, si le personnage fait des
+emplettes au Magasin, il peut porter le nombre d’attaques a huit par tour.
+
+Si vous attaquez un adversaire et provoquez son explosion, vous recevez une prime qui s'ajoute a
+l'argent que vous rapporte la course.
+
+Boite a objets Jauge di (SIGKERS iniimentation Nombre d’attaques
+
+Classement
+
+Joueur
+
+Course
+
+Tour
+
+Si, & la fin d'une manche, vous étes quatriéme ou moins bien placé que quatriéme, la page de
+poursuite de la partie s’affiche. Appuyez sur le bouton Start, ou sur le bouton B, avant que le
+compte a rebours n’atteigne zéro de maniére a reprendre la partie au début de la manche que vous
+venez de terminer. Vous disposerez alors de la méme somme d'argent et des mémes équipements,
+mais vous aurez perdu tous les points acquis. Si le compte a rebours atteint zéro avant que nous
+n’ayez appuyé sur l'un des boutons mentionnés, la partie se termine et la page de frappe du mot de
+passe s'affiche. D'une maniére générale, cette page apparait a la fin de chaque manche.
+
+Ff
+
+===== Page 33 =====
+
+Ae fin de chaque tour, vous serez en mesure de recevoir un objet. La nature de cet objet
+st choisie au hasard. Tous ces objets vous aideront a gagner la course. Toutefois, si
+vous vous emparez de la barre spéciale de Snickers, votre personnage sera a l'abri de toute
+fringale pendant quelque temps et sera donc invincible.
+
+Tremblement de terre Arrét du temps Elancement
+
+sd
+
+raey
+
+Augmentation de la puissance w aw aawaoeneee
+
+\ me pouvez employer l’argent de la course a l'achat d’accessoires qui augmenteront la
+puissance de votre moto. La page de préparation étant affichée, choisissez SHOP pour
+vous rendre au magasin d'accessoires.
+
+Lorsque vous étes prét pour une nouvelle course ou une nouvelle manche, vous disposez
+des accessoires ou des équipements que vous avez acquis. Si vous tapez le mot de passe
+au moment ou vous arrétez de jouer, ces équipements seront a nouveau disponibles lors de
+la reprise de la partie.
+
+Les équipements et les accessoires que vous pouvez
+acheter forment quatre catégories. Chaque catégorie est
+divisée en cing niveaux d’efficacité.
+
+Moteur ([SMIGKERS)) A \irments
+
+ll accroit la vitesse de pointe de Les courses exigent une si grande
+
+votre machine et son accélération. attention de votre part que la moin-
+dre distraction, en particulier celle
+que peut causer la faim, réduit con-
+sidérablement toute chance de
+remporter une victoire. Les Biker
+
+Pneu Mice devront donc employer tout
+
+lla accroit la tenue de route de l'argent durement gagné pour
+
+votre moto. acheter autant de barres de
+(SMUCKERS) que possible de
+
+maniére a calmer leur faim. Dans
+
+le futur, les barres de
+
+Balle seront trés appréciées pour assou-
+Elle augmente le nombre vir l'appétit et cela explique qu’elles
+d'attaques dont vous disposez. aient autant d'importance dans ce
+
+jeu.
+
+===== Page 34 =====
+
+Course d'attaqu
+
+U ou deux joueurs peuvent participer a la course d’attaque. Le but est d’éliminer les
+autres personnages et de demeurer en vie jusqu’au franchissement de la ligne d’arrivée.
+Vous devez terminer toutes les épreuves.
+
+Les épreuves sont les mémes que celles de la course principale a ceci prés que si vous étes
+anéanti, vous ne serez pas en mesure de renaitre et vous ne pourrez donc pas terminer
+l'épreuve.
+
+La technique d’attaque est également la méme que celle de la course principale. Toutefois,
+vous disposez, dés le début de la course, du nombre maximum d’attaques. Vous recevez
+des sommes d'argent complémentaires lorsque vous blessez un adversaire ou le faites
+exploser.
+
+Le personnage demeurant vivant a la fin de l’épreuve est classé premier, le dernier person-
+nage éliminé est classé deuxiéme, et ainsi de suite. Si plusieurs personnages sont vivants a
+la fin d’une épreuve, le premier a franchir la ligne d’arrivée est classé premier, le deuxiéme a
+franchir la ligne d'arrivée est classé deuxiéme, et ainsi de suite.
+
+Si vous étes classé premier, deuxiéme ou troisieme, vous pouvez prendre part a l’épreuve
+suivante. Si vous étes quatriéme ou moins bien placé que quatriéme, vous étes hors jeu et
+la page de poursuite de la partie s’affiche. Appuyez sur le bouton Start, ou sur le bouton B,
+avant que le compte a rebours n’atteigne zéro de maniére a reprendre la partie au début de
+la manche que vous venez de terminer. Si le compte a rebours atteint zéro avant que nous
+n’ayez appuyé sur |'un des boutons mentionnés, la partie se termine et la page de titre
+s'affiche.
+
+Comme dans le cas de la course principale, vous pouvez acheter des équipements (sauf
+des balles) au magasin.
+
+Conseils pour gagner
+Tenez compte de ceci pour vous placer premier!
+1. Apprenez a vous incliner de maniére a négocier les virages avec aisance et efficacité.
+2. Appuyez de maniére répétée sur le bouton d'accélération (bouton B) pour vous élancer
+avant un saut.
+3. Utilisez les attaques et les objets de la maniére la plus appropriée.
+
+Aprés vous étre familiarisé avec les régles et les courses, invitez un ami a se joindre a vous.
+Affronter un adversaire est le meilleur moyen d’affiner votre sens de la conduite et de devenir
+le meilleur coureur.
+
+===== Page 35 =====
+
+Entrainement
+
+teens de atin (un seul joueur) vous permet de choisir une des épreuves de la course prin-
+cipale dans le dessein de maitriser les difficultés de conduite qu’elle pose.
+
+Page de choix del'é@prewea aaoaoeeeeee
+
+ette page vous permet de choisir |'épreuve, aprés quoi
+l'entrainement peut débuter.
+
+Un seul joueur peut s’entrainer. Vous n’avez aucun adversaire,
+vous ne recevez aucun objet, vous ne disposez d’aucun moyen
+d’attaque. Le temps de l'épreuve est affiché lorsque vous avez
+accompli les cing tours et franchi la ligne d’arrivée.
+
+Sont également affichés les meilleurs temps réalisés pour chaque
+
+épreuve au cours des entrainements précédents. Ces temps sont conservés par la mémoire
+du jeu aussi longtemps que vous ne mettez pas le Super Nintendo Entertainment System
+hors tension.
+
+Ala fin d’une épreuve, la page de choix de l’entrainement
+s’affiche. Les possibilités suivantes sont prévues:
+
+RETRY: Pour vous entrainer une nouvelle fois a la méme
+épreuve.
+
+COURSE CHANGE: Pour afficher la page de choix de
+l'épreuve de maniére a vous entrainer a une épreuve dif-
+férente.
+
+PLAYER CHANGE: Pour afficher la page de choix de per-
+sonnage, sélectionner un autre personnage et continuer la
+partie.
+
+END GAME: Pour afficher la page de titre.
+
+===== Page 36 =====
+
+Course “Un contre un"
+
+Cc! course implique que deux joueurs prennent part au jeu. Vous choisissez une des
+épreuves de la course principale et vous rivalisez avec l'autre joueur.
+
+Page de choix deléprewea wa aanoneaeaee
+
+hae page vous permet de choisir I'épreuve, aprés quoi la
+partie peut débuter.
+
+La course “Un contre un” est tres semblable a la course princi-
+pale. Vous choisissez une épreuve, et le premier personnage a
+franchir la ligne d’arrivée apres cing tours est le gagnant.
+
+Aucun objet ne sont prévus pour cette course.
+
+La moto du joueur 1 parcourt la moitié supérieure de |'écran, celle du joueur 2 la moitié
+inférieure.
+
+A la fin d'une épreuve, la page de choix d’épreuve pour la course “Un contre un” s'affiche.
+Les possibilités suivantes sont prévues:
+
+RETRY: Pour courir une nouvelle fois la méme €épreuve.
+COURSE CHANGE: Pour afficher la page de choix de
+l'épreuve de maniére a courir une épreuve différente.
+PLAYER CHANGE: Pour afficher la page de choix de person-
+nage, sélectionner un autre personnage et continuer la partie.
+
+END GAME: Pour afficher la page de titre.
+
+« Vous avez le moyen de modifier la vitesse grace a la page des
+options.
+
+===== Page 37 =====
+
+Queiques mots sur les €preuves
+
+La course principale comporte trente épreuves sur pistes et parcours différents qui ne man-
+quent pas d’embiches.
+
+Ces épreuves sont divisées en cing catégories:
+
+@ CITY (Ville): Epreuves sur des autoroutes urbaines et entre les bati-
+ments d'une ville.
+
+@ ISLAND (Ile): Epreuves d’ile en ile, sous les tropiques.
+
+@ SEWERAGE (Egouts): Epreuves dans des égouts sombres ou les
+piéges sont nombreux.
+
+@® CIRCUIT (Piste): Epreuves dans un stade; elles exigent beaucoup
+de présence d’esprit.
+
+© FORTRESS (Forteresse): Epreuves dans un fort d’acier soigneuse-
+ment gardé; vous devrez vous battre jusqu’a la derniére minute.
+
+Vous devez effectuer cing tours au cours de chaque épreuve de maniére a terminer la
+manche. Trois manches sont prévues pour le niveau Facile, cing pour le niveau Normal et
+six pour le niveau Difficile.
+
+===== Page 38 =====
+
+Quelques mots sur les personnages
+
+Caractéristiques des motos @ a av av aw a a a a
+
+haque personnage posséde une moto différente qui présente des caractéristiques partic-
+uliéres en matiére de vitesse, d'accélération et de tenue de route.
+
+Vitesse > Vitesse de pointe de la moto.
+Accélération > Temps nécessaire pour atteindre la vitesse maximale aprés action sur
+
+l'accélérateur.
+
+Tenue de route > Maniére dont la moto est capable de négocier un virage.
+
+Les points forts et les points faibles de chaque moto sont les suivants:
+
+Vitesse Accélération Tenue de route
+Throtie | D> _— | >be
+Modo i id dd | >>
+Vinnie H > ' | Adda PPPPrPr
+Limburger H PPrPPr | ddddadl >
+Grease Pit | DPPPPPP | PP 1 >
+Dr. Karbunkle 1 >> PPP de--D-p--
+
+H H H
+
+Chaque moto permet une attaque différente.
+
+Throttle
+Modo
+
+Vinnie
+
+Limburger
+
+Grease Pit
+
+Dr Karbunkle
+
+£
+
+Tornade
+Ecrasement bioénergétique
+
+Etoile filante
+
+Faisceau de la nuit
+
+Bain de graisse
+
+Rayon mutant
+
+Les adversaires sont projetés dans les
+airs.
+
+Une botte secréte qui blesse sérieuse-
+ment les adversaires.
+
+Projection de la moto dans les airs suiv-
+
+ie d'une attaque par descente en piqué
+a vitesse maximale.
+
+Géle les ennemis au moyen d'une boule
+de feu.
+
+Vaporise de la graisse sur les adver-
+saires, graisse qui les fait fondre. Trés
+amusant!
+
+Transforme les ennemis en “Fred le
+Mutant”; pour quelque temps seulement.
+
+===== Page 39 =====
+
+Personnages et particularites des motos
+
+Throttle
+Froid et orgueilleux, c’est le chef des Biker Mice. Sa moto est stable
+et vire bien.
+
+Modo
+
+ll posséde une puissance incroyable. Il conduit vite, saute volontiers
+en l'air pour faire des pirouettes et harcéle les ennemis de ses
+attaques vigoureuses.
+
+Vinnie
+
+ll est plein de bon sens et il est agile. |l posséde une technique de
+course brillante qui met en oeuvre des attaques par saut et glisse-
+ments sur le cété.
+
+Limburger
+C'est le méchant, ou plutdt, le chef des méchants. Il court dans sa
+soucoupe volante, attaquant sans merci dans toutes les directions.
+
+Grease Pit
+
+Sa moto est la plus rapide mais elle se conduit mal en virage. Sa
+technique favorite consiste a vaporiser de la graisse sur les gens qui
+tentent de le dépasser.
+
+Dr Karbunkle
+
+Il monte une moto en forme d’insecte qui posséde des tentacules
+qu'il a lui-méme dessinées. C’est un savant diabolique qui se distrait
+comme il peut au moyen de son rayon mutant.
+
+===== Page 40 =====
+
+AVERTISSEMENT SUR L'EPILEPSIE
+
+A lire avant toute utilisation d'un jeu vidéo
+par vous-méme ou votre enfant.
+
+Certaines personnes sont susceptibles de faire des crises
+d'épilepsie ou d'avoir des pertes de conscience a la vue de certains
+types de lumiéres clignotantes ou d'éléments fréquents dans notre
+environnement quotidien. Ces personnes s'exposent a des crises
+lorsqu'elles regardent certaines images télévisées ou lorsqu'elles
+jouent a certains jeux vidéo. Ces phénomeénes peuvent apparaitre
+alors méme que le sujet n'a pas d'antécédent médical ou n'a jamais
+été confronté a une crise d'épilepsie.
+
+Si vous-méme ou un membre de votre famille avez déja
+présenté des symptomes liés a l'epilepsie (crise ou perte de
+conscience) en présence de stimulations lumineuses, veuillez
+consulter votre médecin avant toute utilisation.
+
+Nous conseillons aux parents d'étre attentifs a leurs enfants
+lorsqu'ils jouent avec des jeux vidéo. Si vous-méme ou votre enfant
+présentez un des symptdmes suivants: vertige, trouble de la vision,
+contraction des yeux ou des muscles, perte de conscience, trouble
+de l'orientation, mouvement involontaire ou convulsion, veuillez
+immédiatement cesser de jouer et consulter un médecin.
+
+PRECAUTIONS A PRENDRE DANS TOUS LES CAS
+POUR L'UTILISATION D'UN JEU VIDEO
+
+¢ Ne vous tenez pas trop prés de l'écran. Jouez a bonne distance
+de l'écran de télévision et aussi loin que le permet le cordon de
+raccordement.
+
+¢ Utilisez de préférence les jeux vidéo sur un écran de petite taille.
+
+* Evitez de jouer si vous étes fatigué ou si vous manquez de
+sommeil.
+
+¢ Assurez-vous que vous jouez dans une piéce bien éclairée.
+
+¢ En cours d'utilisation, faites des pauses de dix a quinze minutes
+toutes les heures.
+
+===== Page 41 =====
+
+FRANCE SEULEMENT
+GARANTIE LIMITEE A 90 JOURS
+
+Super Nintendo Entertainment System GAME PAKS
+(Cartouches)
+
+Konami France garantit cette cartouche (GAME PAK) pour le
+Super Nintendo Entertainment System contre tout défaut durant
+une période de 90 jours a compter de la date d’achat. Si un défaut
+de fabrication apparait pendant cette période de garantie, Konami
+France remplacera ou réparera gratuitement la cartouche
+défectueuse.
+
+Pour faire jouer cette garantie, veuillez expédier la cartouche avec
+un double de votre facture d’achat en recommandé et en port
+payé a:
+KONAMI FRANCE
+23 Rue Cambon,
+75001 Paris
+France
+
+Vérifiez de bien mentionner vos nom, adresse complete et numéro
+de téléphone. Merci de donner une bréve description des défauts
+constatés.
+
+Les cartouches retournées sans facture ou apres expiration de la
+durée de garantie seront, au choix de Konami France, soit réparées
+soit remplacées a la charge du client aprés acceptation préalable
+d’un devis.
+
+Cette garantie ne jouera pas si cette cartouche a été endommagée
+par négligence, accident, usage abusif, ou si elle a été modifiée
+aprés son acquisition.
+
+£
+
+===== Page 42 =====
+
+PASSWORD
+
+===== Page 43 =====
+
+- PASSWORD
+
+===== Page 44 =====
+
+Inhoudsopgave/Het spel
+
+Starten van het spel.
+Basisbediening .
+Hoofdrace
+Strijdrace..
+Oefenrace...
+Tweekamp ..
+De parkoersen i
+DG{GOUNGUIS desc. ccssteecpsosevs.cetes-tocnestes fives sTasecievs eh odssshasny tang eciesattapiabccsdssans (eles Vsripeanioner vied oer
+
+r zijn supercool en ze komen van Mars - de Motormuizen zijn hier! Hun planeet werd
+vervallen door de kwaadaardige ruimteling Limburger, die nu z’n zinnen heeft gezet op
+de Aarde. Start je opgevoerde motorfiets en versla Limburger en alle anderen door als
+eerste over de eindstreep te gaan!
+
+E. zijn zes coureurs waarmee je in dit spel kunt racen. Kies tussen Throttle, Modo, Vinnie
+(de drievoudige Motormuis), Limburger, of z’n handlangers Grease Pit of Dr Karbunkle.
+Kijk uit - dit is geen normale race! Onderweg wachten je allerlei valstrikken en andere spel-
+ers zullen je aanvallen. Je kunt tevens zelf een aantal vastrikken opzetten.
+
+Je kunt vier verschillende racen aangaan:
+
+* Hoofdrace: De hoofdrace van het spel, voor één of twee spelers.
+
++ Strijdrace: Win door al je tegenstanders uit te schakelen of door het eerst over de eind-
+streep te gaan. Voor één of twee spelers.
+
+* Oefenrace: Oefen je racetechniek. Alleen voor één speler.
+
+* Tweekamp: Bind de strijd aan met een andere speler. Alleen voor twee spelers.
+
+De manier waarop je het spel speelt is verschillend voor elk type race.
+
+L£ (SNICKERS; a registered trademark. © Mars incorporated 1994.
+
+===== Page 45 =====
+
+Starten van het spel
+
+eek de spelcassette in je Super Nintendo Entertainment System en schakel het toestel aan. Druk op de
+tarttoets zodat het titelscherm verschijnt.
+
+In het keuzescherm
++ Stuurkussen, Selecttoets: Keuze maken
+Starttoets, B toets: Keuze bevestigen
+X toets, Y toets: Annuleren (deze funktie is soms niet bruikbaar)
+
+Tielscherm 7 a2 279 aU eS eS See eee | |
+
+Gebruik het + Stuurkussen of de Selecttoets om een funktie te kiezen, en druk vervolgens op de Starttoets
+om door te gaan naar het volgende scherm.
+
++1 SPELER - Spelkeuze + 2 SPELERS - Moeilijkheidsgraad keuzescherm
+» PASSWORD - Paswoordscherm : OPTION - Optiescherm
+
+Spelkeuzescherm, Moeilijkheidsgraad keuzescherm # a
+
+K* het spel dat je wilt spelen en de moeilijkheidsgraad. Hierna verschijnt het Coureur keuzescherm.
+
+Coureurkeuzescherm @w#a@aemwmw ewes
+
+ies de coureur waarmee je wilt racen. Hierna begint het spel. Als je met twee spelers speelt kan je niet
+llebei dezelfde coureur kiezen. Zie het hoofdstuk “De coureurs” voor nadere bijzonderheden omtrent de
+verschillende coureurs.
+
+Paswoordscherm #2 7 a2 ea ee ee eee|| |
+
+| een paswoord in te voeren kan je na een onderbreking de Hoofdrace vervolgen vanaf het punt tot
+aar je de vorige keer bent gekomen. Paswoorden verschijnen in beeld aan het eind van het spel en aan
+het eind van iedere ronde.
+
+Kies tussen 1 speler (1P) of 2 spelers (2P). Verplaats de cursor naar het invoerpunt met het + stuurkussen,
+€n voer de letter in met de A of B toets. Als alle coureurs zijn ingevoerd, verplaats je de cursor naar “OK” en
+druk je op de starttoets of de B toets om het spel te starten.
+
+Je kun tevens tegelijkertijd het paswoord voor een tweede coureur invoeren als je een Tweekamp wilt spe-
+len. Dit is echter niet mogelijk als de andere coureur eindigde in een andere etappe of met een andere
+moeilijkheidsgraad reed, of als de coureurs hetzelfde zijn.
+
+Optiescherma wae eee eee eee || |
+
+i dit scherm kun je verschillende instellingen kiezen waarmee je gaat spelen. Gebruik het + stuurkussen
+voor het maken van de instellingen.
+
+AUTO ACCEL: Hiermee kun je je motor opvoeren voor een snelle start. Houd de B toets ingedrukt voor één
+of twee sekonden en druk de toets vervolgens snel in om een viiegende start te maken.
+
+SOUND MODE: Kies tussen stereo of mono geluid.
+
+SOUND TEST: Luister naar de spelgeluiden met behulp van de A, B, X of Y toetsen.
+
+ENGINE POWER: Kies de snelheid van je motorfiets in de Tweekamp.
+
+EXIT: Keer terug naar het Titelscherm. Je kunt tevens de Starttoets indrukken om terug te gaan naar het
+Titelscherm.
+
+Pf
+
+===== Page 46 =====
+
+Basisbedieningen
+
+Select toets Start toets
+X toets: Remmen + Stuurkussen: Bestuurt je coureur (door het
+A toets: Items gebruiken stuur te draaien)
+B toets: Snelheid opvoeren _. UR toetsen: Zijwaarts uithalen naar
+Y toets: Aanvallen “~ links/rechts (sommige coureurs kunnen dit
+Starttoets: Spel starten/Pauze niet)
+
+Selecttoets: Geen funktie
+
+Funkties van het bedieningspaneel in het keuzescherm a
+
++ Stuurkussen, Selecttoets: Keuze maken Starttoets, B toets: Keuze bevestigen
+X toets, Y toets: Annuleren (deze funktie is soms niet bruikbaar)
+
+Basisbediening tijdens het spel = a7 a7 ay a gs a a
+Snetheid opvoeren (B toets}
+
+Houd de B toets ingedrukt om je snelheid op te voeren. De snelheid neemt toe zolang je de toets ingedrukt
+houdt tot je de topsnelheid hebt bereikt.
+
+Sprinten: Druk de B toets snel achter elkaar in om te sprinten. Je kunt slechts een korte afstand
+sprinten. Sprinten is vooral handig bij de start en als je over hindernissen springt.
+
+Sturen (+ Stuurkussen €>)
+Je stuurt de coureur met het + Stuurkussen. Druk naar links om naar links af te slaan, en naar rechts om
+naar rechts af te slaan.
+
+Springen: Je kunt de coureur vooruit of achteruit Richting van verplaatsen
+laten leunen tijdens het maken van een sprong.
+Druk het + stuurkussen omlaag om de neus van
+de motorfiets van de grond te halen en de
+afstand van de sprong te vergroten. Druk het +
+stuur-kussen omhoog om de neus van de motor
+omlaag te drukken en de springafstand te
+verkorten.
+
+Zijwaarts uithalen (L, R toetsen)
+Je kunt naar rechts of links glijden om andere rijders uit balans te brengen terwiijl je zelf in het zadel blijft
+zitten. Druk op de L toets om naar links te glijden en op de R toets om naar rechts te glijden.
+
+* Modo, Limburger, en Dr Karbunkle kunnen niet zijwaarts uithalen.
+
+£
+
+===== Page 47 =====
+
+Overhelien
+
+Om naar links over te hellen, druk het + stuurkussen naar links en tegelijkertijd op de R (L) toets.
+Om naar rechts over te hellen, druk het + stuurkussen naar rechts en tegelijkertijd op de de R (L)
+toets.
+
+In geval van Limburger, druk eerst tweemaal snel op de R (L) toets, en druk vervolgens het + stuur-
+kussen naar links of rechts.
+
+Rij-techniek (B toets en + stuurkussen ¥)
+In het parcourse zal je erbarmelijk slecht wegdek en hindernissen tegenkomen die je snelheid
+kosten als je er over rijdt. Behoud je snelheid door er met een bepaalde rij-techniek over te rijden.
+
+* Limburger en Dr Karbunkle kunnen geen rij-technieken doen. Limburger zal achteruit leunen als je
+het + stuurkussen omlaag drukt.
+
+Je kunt deze rij-techniek tevens gebruiken om jezelf tegen op de grond geplaatste bommen te
+beschermen.
+
+Items gebruiken (A toets)
+Dit is alleen mogelijk als je items hebt die je kunt gebruiken.
+
+Aanvallen (Y¥ toets)
+Alle coureurs hebben een eigen manier van aanvallen.
+
++ Als je Vinnie bestuurt, druk de Y toets dan eenmaal in om hem in de lucht te laten springen, en
+druk vervolgens nogmaals terwijl hij nog van de grond is om hem een aanval te laten doen.
+
+Bommen leggen (+ Stuurkussen J en Y toets)
+Je kunt bommen op de grond plaatsen als een valstrik voor je tegenstanders die je op de hie-
+len zitten.
+
+Sprongen maken
+De afstand van je sprong is afhankelijk van de grootte van de springhindernis en de snelheid
+waarmee je rijdt op het moment dat je er overheen gaat.
+
+Remmen (X toets)
+
+Remsprint (X toets + B toets, vervolgens X toets losiaten)
+Een remsprint maak je door eerst te remmen (X toets) en vervolgens te accelereren (B toets). Laat
+de rem los om met grote snelheid weg te sprinten.
+
+Athaken
+Stop de race. Je kunt hiervoor kiezen als je de Starttoets hebt ingedrukt om te pauzeren.
+
+Tip voor springen @ 9a ooo ee eee |
+
+m zonder tijdverlies je motor na een sprong weer op de grond te brengen, druk het + stu-
+urkussen omhoog/omlaag om de motorfiets horizontaal met de grond te houden.
+
+Y
+
+===== Page 48 =====
+
+(Main Race)
+
+Aan de Hoofdrace kunnen één of twee spelers deelnemen.
+
+Je moet elk parcourse vijfmaal rijiden om het te volbrengen. De race bestaat uit vijf verschil-
+lende parcoursen, elk over een ander type terrein. Voor het winnen van een etappe moet je alle
+vijf parcoursen hebben gereden.
+
+Het aantal etappes in een race is afhankelijk van de moeilijkheidsgraad. Het “Easy” niveau
+bestaat uit drie etappes, het “Normal” niveau uit vijf etappes, en het “Hard” niveau uit zes
+etappes. De parcourse worden geleidelijk aan moeilijker naarmate je de ronden van de race
+afwerkt.
+
+Voor elke race ontvang je punten gebaseerd op je positie in het klassement. De coureurs die
+
+als eerste, tweede en derde een etappe eindigden mogen doorgaan naar de volgende ronde.
+Behalve punten kun je tevens een geldprijs winnen aan het eind van een race, afhankelijk van
+de positie waarmee je eindigt.
+
+Je positie in het klassement aan het eind van een race bepaalt je startpositie in de volgende
+race. :
+
+Alle coureurs hebben een voedselmeter. De meter geeft aan hoeveel repen je
+hebt gekocht. Telkens als je door een aanval wordt geraakt of in een valstrik rijdt zal je voed-
+selmeter afnemen. Als de meter het nulpunt bereikt zal je coureur zo’n honger hebben dat hij
+de macht over het stuur verliest en explodeert. Na de explosie staat hij weliswaar weer op,
+maar heeft hij uiterst kostbare tijd verloren.
+
+Aanval: Elke coureur heeft een eigen manier van aanvallen. Aan het begin van een race heb
+je nog geen aanvallen tot je beschikking, maar als je het parcourse eenmaal hebt gereden krijg
+je aanvallen tot je beschikking. Het aantal aanvallen is in aanvang vastgesteld op drie, maar dit
+aantal kan worden verhoogd tot acht per ronde op het parcourse door extra aanvallen in de
+winkel te kopen.
+
+Als je een tegenstander dusdanig aanvalt dat hij explodeert, zal je naast het normale racegeld
+tevens bonusgeld verdienen.
+
+Item box
+
+Aantal resterende aanvallen
+
+Plaatsing
+
+Speler
+
+Parcourse
+
+Als je aan het eind van een etappe op de vierde of lagere plaats komt, zal het “Continue” door-
+speelscherm verschijnen. Druk op de Starttoets of B toets alvorens tot nul is afgeteld om door
+te spelen vanaf het begin van de etappe die je net hebt gereden. Je hebt dan nog steeds even-
+veel geld en uitrusting als voorheen, maar je verliest al je punten. Als de aftelling nul bereikt,
+zal het spel eindigen en verschijnt het Paswoordscherm. Paswoorden verschijnen op het
+scherm aan het eind van elke etappe.
+
+Pa
+
+===== Page 49 =====
+
+elkens als je een ronde hebt gereden kan je een item krijgen. Het soort item wordt
+
+willekeurig gekozen. Alle items zullen je helpen bij je poging om de race te winnen. Indien
+je echter in bezit komt van het speciale Snickers item, dan zal je coureur geen honger meer
+voelen waardoor hij voor korte tijd onverslaanbaar zal worden.
+
+Aardbeving Tijdstopper Sprint
+
+Oppepperties Pe aemwnw ewe w ae ees
+
+e kunt je racegeld als een oppeppertje gebruiken door in de winkel uitrusting voor je
+motorfiets te kopen. Kies SHOP in het voorbereidingsscherm om door te gaan naar het
+winkelscherm.
+
+De gekochte uitrusting behoud je als je doorgaat naar het volgende parcourse of de vol-
+gende etappe. Als je een paswoord in hebt gevoerd, zal je uitrusting worden bewaard tot de
+volgende keer dat je speelt.
+
+Er zijn vier verschillende typen uitrusting die je kunt kopen.
+Elk heeft vijf verschillende niveau’s van effektiviteit.
+
+Motor
+
+Verhoogt je topsnelheid en je ge De races waaraan je deelneemt
+
+accelleratievermogen. 2p zijn zo intensief dat de minste
+afleiding, en in het bijzonder
+honger, je kans op een
+overwinning verloren gaat. Onze
+Motormuizen zullen hun zuur-
+
+Band verdiende centen dus hard nodig
+
+Zorg dat je banden een betere hebben om zo veel mogelijk
+
+greep op het wegdek hebben. repen te kopen
+
+zodat ze niet bezwijken aan een
+hongeraanval. In de wereld van
+de toekomst worden
+
+repen erg
+
+Schot
+Verhoogt het aantal aanvallen aia ae ee a
+dat je hebt. o P ¢)
+
+onderdrukken, waardoor ze een
+
+waardevol goed zijn in dit spel.
+
+===== Page 50 =====
+
+Az de Strijdrace kunnen één of twee spelers deelnemen. Je hebt als doel de andere
+oureurs op het circuit te vernietigen en het levend over de eindstreep te brengen. Je
+moet je door alle parcourse werken.
+
+De parcoursen zijn hetzelfde als in de Hoofdrace, maar als je coureur wordt vernietigd volgt
+er geen herstel en kan je het parcourse niet afmaken.
+
+De aanvalstechniek is hetzelfde als in de Hoofdrace, maar je beschikt reeds vanaf het begin
+van de race over je volledige aanvalsvermogen. Je verdient bonusgeld door je tegen-
+standers te verwonden en ze op te blazen.
+
+De coureur die het overleeft tot aan het eind van de race komt op de eerste plaats, de laatst
+vernietigde coureur wordt tweede, en zo door. Als meer dan één coureur het redt tot over de
+eindstreep, dan wint de coureur die het eerst de finish bereikt, en krijgen de daaropvolgende
+coureurs een plaats in het klassement naargelang de volgorde waarop ze over de streep rij-
+den.
+
+Als je aan het eind van de race op de eerste, tweede of derde plaats komt, dan mag je door
+naar de volgende race. Haal je de vierde of een lagere plaats dan is de race afgelopen en
+verschijnt het “Continue” doorspeelscherm. Druk op de Starttoets of B toets alvorens tot nul
+is afgeteld om door te spelen vanaf het begin van de race die je net hebt gereden. Als de
+aftelling nul bereikt, zal het spel eindigen en verschijnt het Titelscherm.
+
+Je kunt uitrusting (behalve extra Schoten) in de Winkel kopen net als in de Hoofdrace.
+
+Tips om te winnen
+
+Gebruik deze tips om je tegenstanders achter je te laten!
+
+1. Leer goed over te hellen voor extra snel bochtwerk!
+
+2. Druk de accelleratietoets (B toets) herhaaldelijk in om te sprinten bij het springen
+over een hindernis!
+
+3. Gebruik de aanvallen en items zo slim mogelijk!
+
+Meet je met een vriend als je de parcourse goed kent! Door slag te leveren met een
+geduchte rivaal zal je je racetechniek verder polijsten en een eersteklas motorduivel
+worden!
+
+===== Page 51 =====
+
+Oefenrace (practice)
+
+I de Oefenrace (alleen voor één speler) kies je een van de parcourse uit de Hoofdrace om
+je rijtechniek te oefenen.
+
+Parcourse keuzescheth aw awaaaae eee
+
+Kies je parcourse in dit scherm en het spel begint.
+
+Aan de Oefenrace kan slechts één speler deelnemen. Er zijn
+geen tegenstanders en je hebt geen items of aanvallen tot je
+beschikking. De tijd waarin je het parcourse hebt gereden wordt
+getoond als je na afloop van alle vijf de ronden over de eind-
+streep rijdt.
+
+Het scherm toont tevens de beste tijd waarmee je een parcourse
+als Oefenrace hebt gereden. De tijden worden in het geheugen bewaard tot je het Super
+Nintendo Entertainment System uitschakeld.
+
+Als je een parcourse hebt gereden zal het Oefenrace
+keuzescherm verschijnen. In dit scherm kan je de volgende
+keuzes maken:
+
+RETRY: Oefen hetzelfde parcourse nogmaals.
+
+COURSE CHANGE: Terug naar het parcourse keuzescherm
+om een ander oefenparcourse te kiezen.
+
+PLAYER CHANGE: Ga naar het Coureur keuzescherm om
+een andere coureur te kiezen en vervolg de oefensessie.
+
+END GAME: Terug naar het Titelscherm.
+
+===== Page 52 =====
+
+Tweekamp ws race)
+
+k een Tweekamp (alleen voor twee spelers) kies je een van de parcourse in de Hoofdrace
+len neem je het op tegen een vriend.
+
+Parcourse keuzescherma# #7 amamama@me eee
+Kies je parcourse in dit scherm en het spel begint.
+
+Tweekamp is vrijwel hetzelfde als Hoofdrace. Je kiest een par-
+course en de persoon die na vijf ronden als eerste over de eind-
+streep komt is de winnaar.
+
+Er zijn geen items.
+
+Speler 1 (1P) rijdt in de bovenste helft van het scherm, en speler
+2 (2P) in de onderste helft.
+
+Als je een parcourse hebt gereden, zal het Tweekamp keuzescherm verschijnen. In dit
+scherm kun je volgdende keuzes maken:
+
+RETRY: Rij opnieuw hetzelfde parcourse.
+
+COURSE CHANGE: Terug naar het parcourse keuzescherm
+om een ander parcourse te kiezen.
+
+PLAYER CHANGE: Ga naar het Coureur keuzescherm om
+een andere coureur te kiezen en vervolg
+de racesessie.
+
+END GAME: Terug naar het Titelscherm. Dit wordt getoond in het
+schermdeel van de verliezer.
+
++ Je kunt de snelheid van je coureur veranderen in het
+Optiescherm.
+
+===== Page 53 =====
+
+De parkoersen
+
+e Hoofdrace bevat in totaal dertig verschillende parcourse, verspreid over een verschei-
+denheid aan terreinen en lokaties voor extra opwinding en sensatie tijdens het racen.
+
+De parcourse zijn te verdelen in vijf hoofdgroepen
+
+@ CITY: Race door een stedelijk gebied van snelwegen en gebouwen.
+
+@ ISLAND: Ga van eiland tot eiland in een tropische omgeving.
+
+@ SEWERAGE: Ervaar de opwinding van een race door verraderlijke
+ondergrondse tunnels.
+
+1 ROUND
+
+@ CIRCUIT: Sensationele parcourse in een stadium.
+
+© FORTRESS: Sta je mannetje in laatste race van de etappe die zich
+begeeft op de parcourse van een zwaarbewaakt ijzeren fort.
+
+Van elk parcourse moet je vijf ronden rijden om een etappe te voltooien. Het “Easy” niveau
+bestaat uit drie etappen, het “Normal” niveau uit vijf etappen, en het “Hard” niveau uit zes
+etappen.
+
+===== Page 54 =====
+
+De coureurs
+
+Eigenschappen van de motorfietsen a7 a7 ay av oy a a
+
+Ike coureur rijdt op een ander soort motorfiets, die verschilt in snelheid, accelleratievermo-
+gen en greep op het wegdek.
+
+Snetheid > De topsnelheid van een motorfiets.
+
+Accelleratie > Hoe lang het duurt voordat de motorfiets topsnelheid bereikt na het
+drukken op de accelleratietoets.
+
+Wielgreep > Hoe de motorfiets zich gedraagt in de bocht.
+
+Dit zijn de sterke en zwakke punten van de diverse motorfietsen:
+
+Snelheid i Accelleratie | Wielgreep
+Throtie = | D> | b> —
+Modo | DP P>PP | >> | >>>
+Vinnie 1 > | PP>P>P>P | PP>P>P>p
+Limburger ! PPPPrP PPPPrrr H >
+Grease Pit ! Add dididl > ! >>
+Dr. Karbunkle | DP adda | DPPPP
+
+Aawallen@w@ @ we eeeeeeeeee||
+De motorfiets van iedere coureur heeft een andere aanvalstechniek.
+
+Throttle : Tornado Shot Gooit tegenstanders de lucht in.
+
+Modo : Bionic Crash Een dodelijke tackle die tegenstanders zwaar ver-
+wond.
+
+Vinnie : Shooting Star  Stuwt de motorfiets de lucht in voor een aanval op
+topsnelheid.
+
+Limburger : Plutarkian Beam Bevriest tegenstanders met een bliksemschicht.
+Grease Pit : Grease Gun Bespuit tegenstanders met vet waardoor ze smelten.
+
+Dr Karbunkle : Mutation Beam _ Tovert tegenstanders voor bepaalde tijd om in “Fred
+de Mutant”.
+
+===== Page 55 =====
+
+Couriers en hun motorfietsen
+
+Throttle
+De zeer koele leider van de Motormuizen die nooit in paniek rijdt. Z’n
+motorfiets is stabiel en ligt goed in de bocht.
+
+Modo
+
+Een uitzonderlijk krachtige Motormuis. Hij is een gewaagde racer die
+in de lucht springt om extra scherpe bochten te nemen en z’n vijan-
+den het leven zuur maakt met knalharde aanvallen.
+
+Vinnie
+
+Een gewiekste en behendige Motormuis. Hij heeft een flitsende,
+technisch geperfectioneerde racestijl die wordt gekenmerkt door
+springaanvallen en glijden in de bocht.
+
+Limburger
+De baas van de slechterikken. Hij heeft als voertuig een viiegende
+schotel, en valt zonder genade in alle richtingen aan.
+
+Grease Pit
+
+Z’n motorfiets is weliswaar de allersnelste maar ligt slecht in de
+bocht. Z’n favoeriete truck is daarom tegenstanders die hem in
+proberen te halen met z'n Grease Gun te bespuiten met smeervet.
+
+Dr Karbunkle
+
+Deze kwaadaardige geleerde rijdt een zelf-ontworpen insekt-achtige
+motorfiets met tentakels. Hij vindt het leuk anderen om te toveren in
+mutanten met z’n Mutation Beam.
+
+===== Page 56 =====
+
+VRAGEN OVER NINTENDO - OF SUPER NINTENDO
+ENTERTAINMENT SYSTEM - SPELLEN?
+
+BEL DE NINTENDO
+SERVICELIJN!
+
+Hoe leuk videospellen ook zijn, als het niet lukt verder
+te komen, is de lol er snel af. Maar Nintendo- en
+Super Nintendo Entertainment System-bezitters zitten
+daar gelukkig niet mee!
+
+Die bellen gewoon de Nintendo Servicelijn:
+
+In Nederland 03402-54490
+
+Dat kan in Nederland van maandag t/m vrijdag
+tussen 11.00 en 19.00 uur.
+
+De speladviseurs van Club Nintendo - de grootste
+club van de Benelux - wenten altijd raad.
+
+Even bellen dus...
+en gewoon weer lekker verder spelen!
+
+===== Page 57 =====
+
+PASSWORD
+
+===== Page 58 =====
+
+Indice
+
+Indice/Sobre el juego 58
+Inicio del juego 59
+Controles basicos .. -60
+Carrera principal .... 62
+Carrera con batalla 64
+Practica 65
+Carrera VS... 66
+Sobre las rutas. 67
+Sobre los jugadores 68
+
+. Le super audaces Biker Mice (Ratones motociclistas) provenientes del Marte estan
+
+ahora aqui! Su planeta fue invadido por el maldito y extrano Limburger que ahora ha
+puesto su mira en nuestro planeta. jArremétete con una moto para aplastar a Limburger,
+vencer a todos los otros enemigos y pasar la linea final!
+
+Sobreeljuego 72 2 owe eeeeeee |e
+
+n este juego puedes seleccionar uno de los seis caracteres. Escoge de entre Throttle,
+
+Modo, Vinnie (los tres ratones motociclistas), Limburger, o su compinche Grease Pit o Dr
+Karbunkle. jCuidado - no es una carrera normal! Te aguardan las trampas a lo largo de la
+pista, y los otros jugadores trataran de atacarte. TU puedes también poner una variedad de
+trampas.
+
+Hay cuatro diferentes carreras que puedes competir:
+
+» Carrera principal: La carrera principal sefalada para uno o dos jugadores.
+
+- Carrera con batalla: Gana la carrera poniendo fuera a todos tus enemigos 0 cruzando
+primero la linea final. Para uno o dos jugadores.
+
+» Practica: Para la carrera de practica. Es sdlo para un jugador.
+
+- Carrera VS: Lleva un amigo. Solo para dos jugadores.
+
+El modo de jugar depende del tipo de la carrera.
+
+3 is a registered trademark. © Mars incorporated 1994.
+
+===== Page 59 =====
+
+Inicio del juego
+
+inserta el Game Pak en tu Sistema de Entretenimiento Super Nintendo, y pon el interruptor en la posicién
+(ON. Presiona el botén de inicio (Start) para visualizar la pantalla de titulos.
+
+En la pantalla de Seleccién
+Mando de control +, botén de seleccién: Hacen selecciones
+Botén de inicio, botén B: Fijan las selecciones
+Botén X, botén Y: Cancelacion (algunas veces no puede usarse esta funcién)
+
+Pantalladetituos 7 v7 a wee eee
+
+a el mando de control + 0 el botén de seleccién para seleccionar un modo, y presiona el bot6n de inicio
+para mover hacia la siguiente pantalla.
+
++ 1 PLAYER (1 jugador) - Seleccién de juegos = - 2 PLAYERS (2 jugadores) - Pantalla de dificultad
+» PASSWORD (Palabra de paso) - Pantalla de palabras de paso
+» OPTION (Opcién) - Pantalla de opciones
+
+Pantalla de seleccion de juegos, Pantalla de dificultad =
+
+Seon el juego deseado y también el nivel de dificultad. Aparecera la pantalla de seleccion de
+jugadores
+
+Pantalla de seleccion de jugadores w wooo
+
+See tu caracter. Entonces, empezara el juego. Si participan dos jugadores, cada cual no podran
+seleccionar el mismo caracter. Consulta la seccién “Los jugadores” para los detalles de cada caracter.
+
+Pantalla de palabras de paso @ 9 wma wa a aaa
+
+i usas una palabra de paso, puedes empezar el juego desde el punto donde dejaste la Carrera Principal.
+Las palabras de paso aparecen en la pantalla al fin del juego asi como al fin de cada carrera.
+
+Selecciona 1P 0 2P. Mueve el cursor al punto de registro usando el mando de control +, y usa el bot6én Ao
+B para registrar la letra. Cuando termines el registro de todos los caracteres, mueve el cursor hacia la posi-
+cién “OK” y presiona el botén de incio o el botén B para comenzar el juego.
+
+Puedes registrar también la palabra de paso para un segundo caracter al mismo tiempo, si deseas jugar un
+juego VS. Sin embargo, no podras hacerlo si otro caracter terminé en un diferente roundo o a un diferente
+nivel de dificultad, o cuando ambos caracteres son los mismos.
+
+Pantalla de opciones a7 ay av aw gw a a a a aaa a
+
+Pucces cambiar los parametros del juego en esta pantalla. Usa el mando de control +
+para fijar los siguientes itemes:
+
+AUTO ACCEL.(Aceleracién automatica): Te permite acelerar tu moto. Mantén presionado
+
+el botén B durante uno o dos segundos para acelerar, y presiénalo rapidamente para saltar.
+SOUND MODE (Modo de sonidos): Selecciona el sonido estereof6nico o monaural.
+
+SOUND TEST (Prueba sonora): Escucha los sonidos del juego usando los botones A, B, X
+
+oY.
+
+ENGINE POWER (Potencia de! motor): Ajusta la velocidad de la moto en la Carrera VS.
+
+EXIT (Salida): Retorno a la pantalla de titulos. Puedes presionar también el botén de inicio
+
+Para volver a la pantalla de titulos.
+
+===== Page 60 =====
+
+Controles basicos
+
+Funciones basicas de los controles durante el juego = =
+Botén L Botén R
+
+Botén X
+f yo
+[ + Boton A
+Mando de control BotonY BotonB
+Boton de seleccion Botén de inicio
+
+Mando de control +: Mueve tu caracter Boton A: Uso de itemes
+(Gira el volante de direccién) Boton B: Aceleracién
+Botones L/R: Manotazo lateral a la Botén Y: Ataque
+derecha/izquierda (algunos caracteres no Bot6n de inicio: Inicio del juego/Pausa
+pueden hacer este movimiento) Botén de seleccién: No usado
+
+Boton X: Freno
+
+Funcion de los controles en la pantalla de seleccion a a
+
+Mando de control +, Botén de seleccidi jacen selecciones
+Botén de inicio, Botén B: Fijan las selecciones
+Botén X, Botén Y: Cancelacién (algunas veces no puede usarse esta funcién)
+
+Movimientos basicos durante el juego = ay ay ay oy oy
+
+Aceleracién (Botén B)
+Mantén presionado el botén B para acelerar. Si lo mantienes presionado, bajara la velocidad una vez que
+haya alcanzado la maxima.
+
+Arremetida (auxiliar): Golpea repetidamente el boton B para correr rapidamente. Puedes correr sola-
+mente por una corta distancia. La arremetida es particularmente util cuando te pongas en marcha y
+cuando saltas.
+
+Movimientos direccionales (Mando de control + €-)
+Usa el mando de control + para realizar movimientos direccionales. Presiona “derecha” para voltear a la
+derecha o “izquierda” para voltear a la izquierda.
+
+=~ Saltos (auxiliar): Puedes hacer quc tu caracter Direcci6n del movimiento
+se incline hacia adelante y hacia atras durante
+los saltos. Presiona “abajo” del mando de con-
+trol + para poner la delantera de la moto hacia
+arriba y aumentar la distancia del salto. Presiona
+“arriba” del mando de control + para dejar la
+delantera de la moto hacia abajo y acortar la dis-
+tancia del salto.
+
+Manotazo lateral (Botones R, L)
+
+Puedes deslizarte a la derecha e izquierda para dar manotazos a otras motos mientras permaneces en una
+posici6n vertical en tu moto. Presiona el botén R para dar manotazo a la derecha, y el botén L para dar
+manotazo a la izquierda.
+
+* Modo, Limburger y Dr Karbunkle no pueden dar manotazo lateral.
+
+===== Page 61 =====
+
+Inclinaci6n
+
+Para la inclinaci6n a la derecha, presiona “derecha” del mando de control + y el bot6n R(L)
+al mismo tiempo. Para la inclinacion a la izquierda, presiona “izquierda” del mando de con-
+trol + y el botén R(L) al mismo tiempo.
+
+* Para Limburger, presiona el boton R(L) dos veces rapidamente y luego presiona
+“derecha” o “izquierda” del mando de control +.
+
+Recorrido por la rueda trasera (Bot6én B + Mando de control + 4)
+
+Podras pasar a través de caminos escabrosos y obstaculos de la pista sin pérdida de veloci-
+dad. Mantén la velocidad acelerada corriendo mediante la rueda trasera.
+
+Limburger y Dr Karbunkle no pueden usar esta técnica. Limburger se inclinara hacia atras si
+presionas “abajo” del mando de control +.
+
+Puedes usar también este mando para protegerte de las heridas que pueden causar las
+bombas que hay en el suelo.
+
+Uso de los itemes (Botén A)
+Este mando es efectivo sdlo cuando hayas obtenido los itemes.
+
+Ataque (Botén Y)
+Cada caracter ataca de diferente manera.
+
+Cuando estés controlando a Vinnie, presiona una vez el boton Y para poder saltar al aire,
+y mientras se mantiene en el aire, presiona otra vez el mismo boton para que Vinnie ataque.
+
+Bombas tendidas (auxiliar) (Mando de control+ | +BotonY)
+Puedes tender bombas sobre el suelo como una trampa para los caracteres que te per-
+siguen.
+
+Saltos
+La distancia que puedes saltar varia segtin la medida del salto y la velocidad en que estas
+Corriendo en el momento del intento.
+
+Frenado (Botoén X)
+
+Frenado y arremetida (Botén X + Boton B, luego soltar el botén X)
+Para hacer un frenado y arremetida, mantén presionado el freno (Boton X) y acelera (Botén
+B). Suelta el freno para salir corriendo a alta velocidad.
+
+Retiro
+Paro de la carrera. Puedes seleccionar esto después de presionar el botén de inicio para
+hacer una pausa.
+
+Sugerencia paraelsilba waa nnamaamm
+
+ara aterrizar tu moto sin pérdida de tiempo, presiona arriba/abajo del mando de control +
+de manera que baje en posicién horizontal al suelo.
+
+x
+
+===== Page 62 =====
+
+Carrera PFINCIPAL tain race
+
+Uno o dos jugadores pueden competir en la carrera principal.
+
+En esta competencia, debes correr cinco vueltas por carrera. Hay cinco diferentes rutas de
+Carrera, cada cual sobre diferente terreno. Tienes que completar las cincos rutas para
+ganar cada round.
+
+El numero de rounds depende del nivel de dificultad. Hay tres rounds en el nivel facil (Easy),
+cinco en el nivel normal (Normal) y seis en el nivel dificil (Hard). Las rutas se hacen mas difi-
+ciles a medida que avanzan los rounds de la carrera.
+
+Obtienes puntos por cada carrera de acuerdo a la posicién que ocupes en la carrera. Los
+motociclistas que ocupan el primer, segundo y tercer lugar en cada round pasan al sigu-
+iente. Ademas de los puntos, puedes ganar también dinero de victoria al fin de cada carrera
+segun el lugar que ocupes.
+
+El lugar que ocupes al fin de cada carrera afecta tu posicion de partida en la subsiguiente
+carrera.
+
+Cada caracter tiene un indicador de alimento. El indicador representa la cantidad de barras
+
+de comprada. Cuando el indicador llega a cero, el nivel de hambre de tu
+caracter llegara a tal punto que no podra controlar su moto. Cuando ocurrre esto, explosion-
+ara tu caracter. Después de la explosién, resucitara pero con gran pérdida de tiempo.
+
+Ataque: Cada caracter ataca de una manera diferente. Al comienzo de una carrera, el
+numero de ataques posibles es cero. Pero después de completar una vuelta, se hace posi-
+ble usar los ataques. El numero de ataques es inicialmente tres, pero si el jugador compra
+mas en la Tienda, podra aumentar hasta ocho ataques por vuelta.
+
+Si atacas a un enemigo y lo haces explosionar, recibiras dinero de bonificacién ademas del
+dinero normal por carrera.
+
+Cajadeitemes Indicador de (SWIGKERS jatimentos
+Namero de
+Clasificacion ataques restantes
+Jugador
+Curso
+Vuelta
+
+Si ocupas el cuarto lugar o inferior al final de un round, aparecera la pantalla de continuar
+(Continue). Presiona el boton de inicio o el boton B antes de que la cuenta regresiva
+alcance cero de manera que puedas continuar el juego desde el comienzo del round que
+acabas de terminar. Tu tendras la misma cantidad de dinero y equipos que tenias antes,
+pero perderas todos tus puntos. Si la cuenta regresiva llega a cero, terminara el juego y
+aparecera la pantalla de palabra de paso (Password). Las palabras de paso se indicaran en
+la pantalla al fin de cada round.
+
+a
+
+===== Page 63 =====
+
+pls vez que termines una vuelta, podras obtener un item. El tipo de item se escoge al
+azar. Todos los itemes te ayudaran a ganar la carrera. Y cuando coleccionas el item
+especial Snickers, tu caracter se librara de cualquier peligro de un ataque de hambre, por lo
+que él sera invencible por un corto tiempo.
+
+Terremoto Detenedor del tiempo Arremetida
+Pes
+
+Refuerzos @ 9 DR eS eee ee ee ee | |
+
+P= teforzarte, puedes usar tu moneda para comprar equipos para tu moto en la tienda
+(Shop). Selecciona SHOP en la pantalla de preparacion para que se visualice la pantalla
+de tienda.
+
+Tendras a tu disposicion los equipos comprados aun cuando pases al siguiente curso 0
+round. Si registras una palabra de paso a la interrupcion del juego, los equipos seguiran en
+tu poder cuando reanudes el juego.
+
+Hay cuatro diferentes tipos de equipos que puedes comprar. |_| NELCONE To
+Cada uno tiene cinco niveles de efectividad.
+
+Motor ([SMEKERS)/\imento
+Aumenta la velocidad y fuerza Pig Las carreras en que participaras
+de aceleracion. son tan intensas que aun la
+
+menor distraccion, especial-
+mente el hambre, puede destruir
+tu chance de triunfar. Por lo
+tanto, los Ratones Motociclistas
+
+Neumatico (Biker Mice) tendran que gastar
+
+Hace que tus neumaticos ofrez- el dinero dificilmente ganado
+
+can un agarre mas efectivo. para comprar cuanto mas barras
+(SMIGKERS) para vencer los
+
+ataques de hambre. En el
+
+futuro, las barras
+
+se convertiran en prendas de
+
+Disparo ne
+Aumenta el numero de ataques gran valor por su habilidad de
+que tienes. impedir la hambre durante el
+
+juego.
+
+£
+
+===== Page 64 =====
+
+Carrera con batalla (Battie Race)
+
+Us 0 dos jugadores pueden jugar este juego. El fin que persigues es destruir los otros
+caracteres y permanecer vivo hasta que pases la linea final. Debes pasar todos los cur-
+
+sos establecidos.
+
+Las rutas son iguales que las de la carrera principal (Main Race), con la diferencia que si
+eres destruido, no podras recuperarte y terminar el curso.
+
+El modo de atacar es idéntico al de la carrera principal, pero tienes el numero completo de
+ataques desde el comienzo de la carrera. Puedes obtener dinero de bonificacién hiriendo y
+
+explosionando los enemigos.
+
+El jugador que sobrevive hasta el fin de la carrera ocupa el primer lugar, el que es destruido
+Ultimo se clasifica el segundo lugar, y asi por el estilo. Si permanecen vivos y cruzan la linea
+final mas de un jugador, se clasifica ganador el que la pasa primero, y segundo puesto el
+que lo hace después.
+
+Si ocupas el primer, segundo o tercer lugar al fin de la carrera, pasaras a la siguiente car-
+rera. Por el contrario, si ocupas el cuarto lugar o inferior, quedards fuera de la carrera, y
+aparecera la pantalla de continuar (Continue). Presiona el boton de inicio o el boton B antes
+de que la cuenta regresiva llegue a cero para poder continuar el juego desde el comienzo
+de la carrera que acabas de terminar. Si la cuenta regresiva alcanza cero, terminara el
+juego y se visualizara la pantalla de titulos.
+
+Consejos para Ia victoria
+
+jGuiate de estos consejos para triunfar!
+
+1. Domina el arte de ladear para voltear efectivamente!
+
+2. jGolpea repetidamente el botén de aceleracion (Boton B) para acelerar en los saltos!
+3. jUsa los ataques e itemes que mas te convienen!
+
+Cuando te hayas acostumbrado a las rutas, juega con tu amigo. jLa lucha con un digno
+rival es el camino mas corto para elevar tu nivel técnico y convertirte en el motociclista
+
+No. 1!
+
+===== Page 65 =====
+
+Practica
+
+E: este modo (sélo para un jugador), tu seleccionas uno de las rutas en la carrera principal
+para mejorar tus habilidades de conducci6n.
+
+Pantalla de seleccifnderutaawaaaownonmneeee
+
+Selecciona el curso en esta pantalla e incia el juego
+
+Solo un jugador puede jugar en este modo. No hay oponentes,
+itemes ni ataques que puedas usar. El tiempo que tardas para
+terminar la carrrera se visualiza cuando termines cinco vueltas
+y pases la lineas final.
+
+Se visualizara también tu mejor tiempo en el modo de practica.
+Los registros de tiempo se mantienen en la memoria hasta que
+apagues el Sistema de Entretenimiento Super Nintendo.
+
+Cuando hayas terminado una carrera, aparecera la pantalla de
+seleccion de practica. Puedes seleccionar de entre los sigu-
+ientes itemes:
+
+RETRY (Nuevo intento): Para practicar en la misma ruta
+otra vez.
+
+COURSE CHANGE (Cambio de ruta): Retorno a la pantalla
+de seleccién de etapas para seleccionar una diferente ruta.
+
+PLAYER CHANGE (Cambio de jugador): Visualizacion de
+la pantalla de seleccién de jugadores para elegir un distinto
+caracter y continuar el juego.
+
+END GAME (Fin del juego): Retorno a la pantalla de titulos.
+
+===== Page 66 =====
+
+Carrera VS§ ws race
+
+neste modo (sdlo para dos jugadores), selecciona una de las rutas en la Carrera
+Principal y juega con tu amigo.
+
+Pantalla de seleccion de etapas 79 wa a aaa ee
+
+Selecciona una ruta en esta pantalla e inicia el juego.
+
+La carrera VS (VS Race) es basicamente igual que la carrera
+principal (Main Race). Selecciona una ruta, y la persona que
+termina las cinco vueltas y cruza primero la linea final es el
+ganador.
+
+No hay itemes
+
+Carreras motociclistas 1P (1 jugador) en la mitad superior de la pantalla de juego y carreras
+motociclistas 2P (2 jugadores) en la mitad inferior de la pantalla.
+
+Cuando hayas terminado una carrera, aparecera la pantalla de seleccion de Carrera VS. Tu
+puedes seleccionar de los siguientes itemes:
+
+RETRY (Nuevo intento): Para competir en la misma ruta otra
+vez.
+
+COURSE CHANGE (Cambio de ruta): Retorno a la pantalla de
+seleccién de rutas para seleccionar una diferente ruta a compe-
+tir.
+
+PLAYER CHANGE (Cambio de jugador): Visualizacion de la__ Esto se visualiza en la seccion
+pantalla de seleccién de jugadores para elegir un distinto carac- del perdedor de la pantalla.
+ter y continuar el juego.
+
+END GAME (Fin del juego): Retorno a la pantalla de titulos.
+
+* Puedes cambiar la velocidad del jugador en la pantalla de opciones.
+
+===== Page 67 =====
+
+nla carrera principal hay treinta rutas en total, dispuestas en una variedad de lugares y
+terrenos para permitir carreras emocionantes.
+
+Hay cinco tipos principales de ruta:
+
+@ CITY (Ciudad): Carrera en la ciudad, con vista de autopistas y edifi-
+cios.
+
+@ ISLAND (Isla): Carrera a través de las islas tropicales.
+
+@ SEWERAGE (Aguas negras): Experimenta la carrera emocionante
+en los tuneles subterraneos llenos de trampas.
+
+@® CIRCUIT (Circuito): Circuitos lleno de accién dentro de un estadio.
+
+————1 ROUND
+
+© FORTRESS (Fortaleza): Lucha en la carrera final del round, a lo
+largo de las rutas con fortaleza de hierro de gran protecci6n.
+
+Debes terminar cinco vueltas de cada ruta para pasar con exito un round. Hay tres rounds
+en el nivel facil (Easy), cinco en el nivel normal (Normal) y seis en el nivel dificil (Hard).
+
+===== Page 68 =====
+
+obre los jugadores
+
+Caracteristicas delasmolos @ wooo eee
+
+G caracter tiene un diferente tipo de moto. Cada moto tiene distinta velocidad, acel-
+eracion y caracteristicas de agarre de los neumaticos.
+
+Velocidad >  Lavelocidad que puede alcanzar la moto.
+
+Aceleracién > El tiempo que tarda la moto hasta alcanzar la velocidad maxima
+después de presionar el acelerador.
+
+Agarre >  Lacapacidad en que la moto toma curvas.
+
+Estas son las potencias y debilidades de cada moto:
+
+Velocidad Aceleracion Agarre
+Throttle >P>P | ata PPPr
+Modo | > >P>> | >> | >>>
+Vinnie ' > H | Adahatat PPPPPP
+Limburger | DP |
+Grease Pit | DPPPPPP | DP | >>
+Dr.Karbunkle | DP il dcdidial ilddddd
+
+Aauew aa eee eee eee eee |)
+La moto de cada caracter puede hacer una diferente clase de ataques.
+
+Throttle : Disparo explosivo Lanza los enemigos al aire.
+
+Modo : Tritulacién bidnico _ Un atajo mortal que hiere severamente a los
+
+enemigos.
+Vinnie : Shoorting Star Impulsa la moto al aire a maxima velocidad para
+el ataque.
+Limburger : Haz Plutarkian Inmoviliza los enemigos con un relampago.
+
+Grease Pit : Pistoladeengrase _Pulveriza los enemigos con grasa y los derrite.
+
+Dr Karbunkle : Haz de mutacion Transforma los enemigos en “Fred the Mutant”
+(Fred el Mutante) por un tiempo determinado.
+
+===== Page 69 =====
+
+Caracteres y motos
+
+Throttle
+El audaz y sereno lider de los ratones motociclistas. Su moto es
+estable y toma las curvas de lo lindo.
+
+Modo
+
+Un raton motociclista con una fuerza increible. Es asombroso en las
+carreras arduas; salta en el aire para realizar curvas cerradas y
+ataca potentemente a los enemigos.
+
+Vinnie
+Un rat6én motociclista listo y agil. El es duefio de un estilo habil y lla-
+mativo. Hace ataques al salto y curvas cerradas.
+
+Limburger
+El mandamas de los malditos. El vuela en su platillo volador, atacan-
+do en todas las direcciones sin piedad.
+
+Grease Pit
+
+Su moto es el mas veloz de todos, pero no puede dar curvas bien.
+Su técnica favorita es inyectar grasa con su pistola de engrase sobre
+todos quienes tratan de alcanzarlo.
+
+Dr Karbunkle
+
+El monta una moto en forma de insecto con tentaculos disefados
+por él mismo. Es un cientifico malvado que se deleita convirtiendo a
+la gente en mutantes con su haz de mutaci6n.
+
+===== Page 70 =====
+
+Comandi principali .
+
+Gara Principale...
+Battaglia in corsa
+Allenamento..
+Gara a Due
+Note sui circuiti
+Note sui personagg
+
+— dei duri e vengono da Marte: i Topi in Motocicletta sono arrivati. II loro pianeta &
+stato invaso da un malvagio straniero, Limburger, che ora ha messo gli occhi sulla Terra.
+E quindi necessario mettersi per strada su un'ardente motocicletta per schiacciare
+Limburger e battere tutti gli altri sulla linea del traguardo!
+
+Note sulgioco Wa aoe ew ee eee eee ee
+
+i questo gioco si pud scegliere uno qualunque dei sei personaggi: Throttle, Modo e Vinnie
+(i tre Topi in Motocicletta), Limburger, 0 i suoi sgherri Grease Pit o Dr. Karbunkle. Ma
+attenzione! Non si tratta di una normale corsa! II percorso é seminato di trappole e
+trabocchetti, e gli altri concorrenti cercheranno di attaccare il giocatore che, a sua volta,
+potra porre trappole sulla loro strada.
+
+Si possono effettuare quattro tipi diversi di corsa:
+
+Gara Principale: La Gara Principale del gioco, per uno o due giocatori.
+
+Battaglia in corsa: Si vince eliminando tutti gli avversari, o riuscendo a tagliare il traguardo
+per primo. Per uno o due giocatori.
+
+Allenamento: Per potersi esercitare a correre. Per un solo giocatore.
+
+Gara a Due: Per confrontarsi con un amico. Solo per due giocatori.
+
+Le modalita del gioco sono diverse a seconda del tipo di corsa prescelto.
+
+F7 of is a registered trademark. © Mars incorporated 1994.
+
+===== Page 71 =====
+
+peels la cartuccia nel Super Nintendo e accendere l'apparecchio. Premere il tasto di avvio per
+visualizzare lo schermo del titolo.
+
+Non appena compare lo schermo di selezione
+
+Tasto direzionale e tasto “select”: per effettuare le selezioni desiderate.
+Tasto “start” e tasto B: per memorizzare la selezione effettuata.
+Tasto X e tasto Y: per la cancellazione (talvolta questa funzione non pud essere utilizzata).
+
+Scherme deltiolo 2 oa mwommwmw ewes
+
+Uz il tasto direzionale o il tasto “select” per scegliere una modalita, e premere poi il tasto “start”
+per passare allo schermo successivo.
+
+1 PLAYER - Selezione del gioco 2 PLAYERS - Schermo della difficolta
+PASSWORD - Schermo della parola d’ordine OPTION - Schermo delle opzioni
+
+Schermo di selezione del gioco e schermo della difficolta
+
+elezionando il tipo di gioco che si vuole giocare ed il livello di difficolta, compare poi lo schermo
+di selezione del giocatore.
+
+Schermo di selezione del giocattre #7 29 a aw a aa
+
+Laas il personaggio desiderato. II gioco si avvia. Se si gioca in due, non é possibile
+scegliere lo stesso personaggio per entrambi i giocatori. Per ulteriori dettagli vedere la sezione
+“Note sui personaggi”.
+
+Schermo della parolad’ordine 2# Poe ooo
+
+S° é stata memorizzata una parola d’ordine, si pud riprendere il gioco dal punto in cui lo si era
+interrotto, nella Gara Principale. Le parole d’ordine compaiono sullo schermo alla fine del gioco
+e alla fine di ogni manche.
+
+Selezionare 1P 0 2P. Spostare il cursore sulla lettera per mezzo del tasto direzionale, e usare poi i
+tasti A o B per inserirla. Una volta inserite tutte le lettere desiderate, spostare il cursore sulla voce
+“OK” e premere il tasto “start” o il tasto B per far partire il gioco.
+
+Contemporaneamente si pud inserire una parola d'ordine anche per un secondo personaggio, se si
+vuole giocare una Gara a Due. Cid non é perd possibile se l’altro personaggio ha terminato la corsa
+in una manche diversa, 0 con un diverso livello di difficolta o se entrambi i giocatori hanno usato lo
+stesso personaggio.
+
+Schermo delleopzioni aa annwoeoe eee
+
+olendo, si possono modificare i parametri del gioco a partire da questo schermo. Usare il tasto
+direzionale per modificare le voci seguenti.
+
+AUTO ACCEL.: Consente di aumentare i giri della motocicletta. Per l'accelerazione tenere premuto
+il tasto B per uno o due secondi, e premerlo poi rapidamente per balzare via.
+
+SOUND MODE: Per selezionare il suono stereo 0 mono.
+
+SOUND TEST: Per ascoltare i suoni del gioco per mezzo dei tasti A, B, Xo Y.
+
+ENGINE POWER: Per regolare la potenza del motore della motocicletta nella Gara a Due.
+
+EXIT: Per tornare allo schermo del titolo (si pud anche usare il tasto “start’).
+
+rif
+
+===== Page 72 =====
+
+Comandi principali
+
+Funzioni principali del joypad durante il gioco = = = @
+Tasto L Tasto R
+
+Tasto X
+
+Tasto di commando + = // ‘ TastoY Taste B
+
+Tasto “select” Tasto “start”
+
+Tasto A
+
+Tasto direzionale: per spostare il personag- Tasto A: per usare gli oggetti.
+
+gio (cioé sterzare). Tasto B: per accelerare.
+
+Tasti Le R: per dare colpi violenti a sinistra Tasto Y: per attaccare
+
+0 a destra (certi personaggi non possono Tasto “start”: inizio del gioco o pausa.
+effettuare questo movimento). Tasto “select”: non utilizzato.
+
+Tasto X: per frenare.
+
+Funzioni del joypad per lo schermo diselezione a = @
+
+Tasto direzionale e tasto “select”: per effettuare le selezioni desiderate.
+Tasto “start” e tasto B: per memorizzare le selezioni effettuate.
+Tasti X e tasto Y: per la cancellazione (talvolta questa funzione non puo essere utilizzata).
+
+Principali operazioni nel corso del gioco = = = =» = a@
+
+Accelerazione (tasto B)
+Per accelerare tenere premuto il tasto B. La velocita, una volta raggiunto il massimo livello consentito, non
+aumenta pil. nemmeno continuando a tenere premuto B.
+
+Balzo in avanti: per balzare in avanti premere ripetutamente il tasto B. E possibile saltare in avanti
+solamente per brevi tratti. Questa funzione é particolarmente utile in partenza, e quando si salta.
+
+Movimenti (tasto direzionale¢>)
+
+Per cambiare direzione usare il tasto direzionale. Premerlo sulla destra per svoltare a destra e sulla sinistra
+per svoltare a sinistra.
+Direzione del movimento
+Salti: Nel corso dei salti si pud far chinare il
+personaggio in avanti o all'indietro. Premere il
+tasto direzionale verso i] basso per sollevare la
+ruota anteriore della motocicletta e aumentare la
+distanza del salto. Premere il tasto direzionale
+verso I'alto per abbassare la ruota anteriore e
+diminuire la distanza del salto.
+
+Colpi laterali (tasti L e R)
+
+Si pud derapare a sinistra e a destra per dare colpi di coda ad altre motociclette pur continuando a rimanere
+diritti in sella sulla propria. Premere il tasto L per colpi laterali sulla sinistra e il tasto R per colpi laterali sulla
+destra.
+
++ | personaggi Modo, Limburger e Dr. Karbunkle non possono dare colpi laterali.
+
+#
+
+===== Page 73 =====
+
+Inclinazione
+Per inclinarsi a sinistra premere contemporaneamente il tasto direzionale e il tasto L.
+Per inclinarsi a destra premere contemporaneamente il tasto direzionale e il tasto R.
+
+Per Limburger, premere prima due volte rapidamente il tasto R ( 0 L), e successivamente il
+tasto direzionale verso sinistra 0 verso destra.
+
+Sollevamento deila ruota anteriore (tasto B + tasto direzionale +)
+
+Lungo il percorso si incontrano buche e altri ostacoli, che rallentano l’'andatura se vi si passa
+direttamente sopra. Tenere alta la velocita sollevando la ruota anteriore per passare oltre.
+
+* Questa operazione non puo essere effettuata da Limburger e dal Dr. Karbunkle.
+Limburger si inclina all'indietro se si preme verso il basso il tasto direzionale.
+
+Si puo usare questo comando anche per evitare di subire danni causati dalle bombe lasciate
+sul terreno.
+
+Uso degli oggetti (tasto A)
+Questo comando funziona solamente se si dispone di oggetti da usare.
+
+Attacco (tasto Y)
+Ogni personaggio attacca in modo diverso.
+
+* Quando si gioca con Vinnie, premere una volta il tasto Y per farlo balzare in aria e premere
+poi di nuovo lo stesso tasto, mentre il personaggio é ancora in aria, per farlo attaccare.
+
+Posizionamento di bombe (tasto direzionale J + tasto Y)
+
+Si possono posare sul terreno delle bombe come trappole per i personaggi che
+inseguono.
+
+Salti
+La distanza alla quale si pud saltare dipende dall'entita della spinta e dalla velocita alla quale
+si sta viaggiando quando si salta.
+
+Frenata (tasto X)
+
+Frenata improvvisa (tasto X + tasto B, e lasciar poi andare il tasto X)
+Per effettuare un frenata improvvisa, tenere abbassato il freno (tasto X) ed accelerare (tasto
+B). Lasciar poi andare il freno per poter effettuare una ripresa ad alta velocita. .
+
+Ritiro
+Smettere di correre. Si pud selezionare questa modalita dopo aver premuto il Tasto “start”
+per attivare la pausa.
+
+Suggerimenti perilsaio mao aowommw eee
+
+riatterrare con la motocicletta senza perdere tempo, agire verso il basso e verso I’alto
+col tasto direzionale per mantenere la motocicletta in assetto rispetto al terreno.
+
+===== Page 74 =====
+
+Nella Gara Principale possono competere uno o due giocatori .
+
+Per completare la Gara Principale bisogna fare cinque giri di ciascun percorso. In ogni gara vi
+sono cinque percorsi, ciascuno su un tipo di terreno diverso. Per vincere tutte le manche é nec-
+essario completare tutti e cinque i percorsi.
+
+ll numero di manche di una corsa dipende dal livello di difficolta. Nel livello Facile vi sono tre
+manche, nel livello Normale cinque, e nel livello Difficile sei. Anche i percorsi divengono sempre
+piu difficili a mano a mano che si avanza nelle manche della corsa.
+
+Per ogni corsa si ricevono dei punti in relazione alla posizione ottenuta nella corsa stessa. | cor-
+ridori che si trovano al primo, secondo e terzo posto di ogni manche, possono passare alla
+manche successiva. A seconda del piazzamento ottenuto, alla fine di ogni corsa si possono
+anche vincere soldi, oltre ai punti.
+
+La posizione nella quale ci si viene a trovare al termine di una certa corsa influenza la posizione
+di partenza che si avra per la corsa successiva.
+
+Ogni personaggio dispone di un misuratore di cibo. Il misuratore rappresenta la quantita di bar-
+
+rette che sono state comprate. Ogni volta che si viene colpiti da un attacco o si
+
+cade in una trappola il misuratore di cibo diminuisce. Quando il misuratore scende a zero, il per-
+sonaggio sara cosi affamato da non riuscire a controllare la motocicletta. A questo punto il per-
+sonaggio esplode. Dopo |’esplosione il personaggio rinasce, ma nel frattempo si sara perso del
+tempo prezioso.
+
+Attacco: Ogni personaggio attacca in modo diverso. All’inizio della corsa, il numero di attacchi
+disponibili 6 zero, ma al termine del primo giro gli attacchi cominciano a essere conteggiati e
+divengono utilizzabili. || numero di attacchi possibili é inizialmente di tre, ma se il giocatore fa
+molti acquisti nei negozi, il numero di attacchi utilizzabili per ogni giro pud salire fino a otto.
+
+Se si attacca un awversario e lo si fa esplodere, oltre al normale premio per la gara si riceve
+anche un abbuono in soldi.
+
+Misuratore degli N
+daobba lumero di attacchi
+Scatola degli oggetti (SMICKERS/e de\ cibo a disposizione rimanenti
+
+Plazzamento
+
+Se si termina una manche dalla quarta posizione in poi compare lo schermo del “Continue”.
+Premendo il tasto “start” o il tasto B prima che il contatore giunga a zero si pud ricominciare il
+gioco dall'inizio della manche che si stava correndo. Si continuera a disporre degli stessi soldi e
+delle stesse attrezzature che si avevano all'inizio della manche, ma si perderanno tutti i punti
+guadagnati. Se il contatore giunge a zero il gioco ha termine, e compare lo schermo della parola
+d'ordine.
+
+Le parole d’ordine compaiono sullo schermo alla fine di ogni manche.
+
+25
+
+===== Page 75 =====
+
+Al termine di ogni giro si potra ottenere un oggetto. Il tipo di oggetto viene scelto a caso, ma
+ognuno di questi aiuta il giocatore nel proprio sforzo di vincere la gara. Se si riescono a
+ottenere delle speciali barrette di SNICKERS6, il personaggio non sara pill soggetto ad
+attacchi di fame, e risultera quindi invincibile per un certo periodo di tempo.
+
+Terremoto Ferma tempo Partenza veloce
+
+Aumento dipotenza w@aawewemnm eee eee
+
+S$: possono utilizzare i soldi guadagnati nella corsa per acquistare attrezzature per la moto-
+cicletta nell’'apposito negozio. Per andare allo schermo del negozio selezionare la voce
+SHOP nello schermo dei preparativi.
+
+Le attrezzature acquistate si conservano anche passando al percorso successivo 0 alla
+manche successiva. Memorizzando una parola d’ordine quan-
+do si interrompe il gioco, le attrezzature continuano a
+rimanere a disposizione anche quando si riprende poi a gio-
+care,
+
+Si possono acquistare quattro diversi tipi di attrezzature.
+Ogni tipo dispone di cinque diversi livelli di efficienza.
+
+Motore L
+Aumenta il livello della velocita ot Le gare alle quali si partecipa
+massima e la capacita di acceler- sono cosi intense che la minima
+azione. distrazione, e specialmente la
+fame, pud cancellare tutte le pos-
+sibilita di vittoria. Per questo moti-
+vo i Topi in Motocicletta devono
+utilizzare tutti i soldi, cosi dura-
+Tiro mente guadagnati nel corso delle
+Aumenta il numero di attacchi a gare, per acquistare quante pil
+disposizione. possibili sbarrette
+ed evitare quindi gli attacchi della
+fame. Nel futuro le sbarrette
+(SMIEKERS) sono diventate
+Pneumatico estremamente importanti per la
+Rende i pneumatici ancora pit loro capacita di eliminare la fame,
+aderenti alla strada. ed 6 questa la ragione per cui
+
+sono tenute in cosi alta consider-
+
+azione in questo gioco.
+rf
+
+===== Page 76 =====
+
+Battaglia in corsa
+
+E battaglia in corsa é per uno o due giocatori. Lo scopo é quello di distruggere tutti gli altri
+personaggi e di riuscire a tagliare il traguardo finale della corsa ancora vivi. Bisogna quin-
+di completare tutti i percorsi prestabiliti.
+
+| percorsi sono gli stessi della Gara Principale, ma se si viene distrutti non sara possibile
+rinascere e completare quel percorso.
+
+ll modo in cui si attacca é lo stesso della Gara Principale, ma si dispone di tutti gli attacchi
+gia sin dall'inizio della gara. Si possono ottenere soldi in abbuono se si riescono a ferire i
+nemici, facendoli poi saltare in aria.
+
+Il giocatore rimasto vivo sino alla fine della corsa viene piazzato al primo posto, quello dis-
+trutto per ultimo viene a trovarsi al secondo posto, e cosi via. Se piu di un giocatore é riusci-
+to a tagliare il traguardo ancora vivo, quello che taglia il traguardo per primo si piazza al
+primo posto, il secondo al secondo, e cosi di seguito.
+
+Se alla fine della corsa ci si trova piazzati al primo, secondo o terzo posto, si potra passare
+alla corsa successiva. Se ci si trova invece in quarta posizione, o oltre, compare lo schermo
+del “Continue”. Premendo il tasto “start” 0 il tasto B, prima che il conto alla rovescia arrivi a
+zero, sara possibile continuare a giocare a partire dall'inizio della manche nella quale si
+stava correndo. Quando il conteggio giunge a zero il gioco ha termine e si ritorna allo scher-
+mo del titolo.
+
+Come nella Gara Principale, anche qui di possono acquistare oggetti vari (esclusi i tiri spe-
+ciali) al negozio.
+
+Suggerimenti per vincere
+
+Questi i suggerimenti per passare in testa!
+
+1. Imparare bene l’arte di inclinarsi per gestire bene le curve.
+
+2. Agire ripetutamente sul tasto di accelerazione (tasto B) per poter balzare in avanti
+quando si salta.
+
+3. Usare gli attacchi e gli oggetti al meglio per il proprio vantaggio.
+
+Una volta che si sara presa confidenza con i percorsi, ci si potra rivolgere a un amico
+per giocare insieme. Confrontare le proprie capacita con un rivale di valore é il miglior
+modo per valutare la propria abilita e divenire cosi il corridore Numero 1.
+
+===== Page 77 =====
+
+n questa modalita (per un solo giocatore) si pud scegliere uno dei percorsi della Gara
+Principale ed esercitarsi a migliorare le proprie capacita di guida.
+
+Schermo di selezione del percotso wa a awmamamam
+
+per. aver scelto su questo schermo il percorso desiderato il
+gioco ha inizio.
+
+In questa modalita pud giocare un solo giocatore. Non vi sono
+awersari, e non si dispone né di oggetti né di attacchi da poter
+usare. Il tempo necessario per completare il tracciato viene
+visualizzato quando si taglia il traguardo al termine dei cinque
+giri.
+
+Sullo schermo viene anche visualizzato il miglior tempo ottenuto per ciascuno dei percorsi
+della modalita di Allenamento. | tempi registrati vengono conservati in memoria sino a quan-
+do si spegne il Super Nintendo.
+
+Al termine di un percorso, compare di nuovo lo schermo di
+selezione dell’Allenamento. Si pud scegliere fra le seguenti
+voci:
+
+RETRY: per esercitarsi di nuovo sullo stesso percorso.
+
+COURSE CHANGE: per tornare allo schermo di selezione
+del percorso onde poter scegliere un altro percorso per
+l'Allenamento.
+
+PLAYER CHANGE: per andare allo schermo di selezione
+del giocatore onde poter selezionare un diverso personaggio
+per l’Allenamento.
+
+END GAME: per tornare allo schermo del titolo.
+
+===== Page 78 =====
+
+Gara a Due
+
+in questa modalita (solamente per due giocatori) si sceglie uno dei percorsi della Gara
+Principale e si compete con un altro giocatore.
+
+Schermo di selezione del percotso #9 v7 aaaamam
+
+| gioco ha inizio subito dopo aver selezionato, su questo scher-
+mo, il percorso desiderato.
+
+La Gara a Due é sostanzialmente simile alla Gara Principale.
+Si sceglie un percorso, e vince chi riesce a completare i cinque
+giri e a tagliare il traguardo per primo.
+
+Non vi sono oggetti a disposizione.
+
+La motocicletta 1P (Giocatore 1) corre nella meta superiore del teleschermo e la motociclet-
+ta 2P (Giocatore 2) nella meta inferiore.
+
+Terminato uno dei percorsi, ricompare lo schermo di selezione della Gara a Due. Si pud
+scegliere fra le voci seguenti:
+
+RETRY: Per esercitarsi di nuovo sullo stesso percorso.
+
+COURSE CHANGE: Per tornare allo schermo di selezione del
+percorso onde poter scegliere un altro percorso per la Gara a
+Due.
+
+PLAYER CHANGE: Per andare allo schermo di selezione del __Cid viene visualizzato sulla
+
+giocatore onde poter selezionare un diverso personaggio per la Sezione dello schermo del
+Gara a Due. giocatore perdente.
+
+END GAME: Per tornare allo schermo del titolo.
+
++ La velocita del giocatore pud essere modificata nello schermo delle opzioni.
+
+===== Page 79 =====
+
+Note sui circuiti
+
+ella Corsa principale vi sono in totale 30 percorsi, localizzati in una grande varieta di
+luoghi e con diversi tipi di terreno, per rendere la corsa piena di azione e quanto pit inter-
+essante ed affascinante possibile.
+
+| cinque principali tipi di percorsi sono:
+
+@ CITY: corsa in paesaggi urbani di autostrade e grattacieli.
+
+@ ISLAND: Corsa in velocita da un’isola a un’altra, in un ambiente
+tropicale.
+
+@ SEWERAGE: per sperimentare l’emozione di una corsa in scure
+gallerie sotterranee piene di trappole.
+
+@® CIRCUIT: percorsi pieni di azione, realizzati in uno stadio.
+
+® FORTRESS: percorsi realizzati all’interno di una sorvegliatissima
+fortezza di acciaio, dove la lotta per riuscire a raggiungere il traguar-
+do é acerrima. :
+
+Una manche termina se si riescono a compiere cinque giri di un certo percorso. Vi sono tre
+manche nel livello Facile, cinque nel livello Normale, e sei nel livello Difficile.
+
+===== Page 80 =====
+
+Note sui giocatori
+
+Caratteristiche delle motociclete # a#@aamaaaa
+
+0: personaggio ha un diverso tipo di motocicletta. E per ogni motocicletta velocita,
+accelerazione e caratteristiche di manovrabilita sono diverse.
+
+Velocita: la massima velocita raggiungibile con quella motocicletta.
+
+Accelerazione: il tempo necessario perché la motocicletta raggiunga la massima velocita
+possibile, dal momento in cui si preme |’acceleratore.
+
+Aderenza: le caratteristiche di presa nelle curve.
+
+| punti di forza e i punti deboli di ogni motocicletta sono i seguenti:
+
+Velocita Accelerazione Aderenza
+Throtte | | b> | PhP
+Modo 1 id a | >> | >>>
+Vinnie 1 > PPPPP ' PPPPPppP
+Limburger | D>P>P>P>P | DPPPPPP | bP
+Grease Pit | DPPPPPP = PP | >>
+Dr.Karbunkle | > dddd ll dddiciel
+
+Attacco ies ff ff ff ff fF Ff ff fF |
+La motocicletta di ciascuno dei personaggi pud portare un diverso tipo di attacco.
+
+Throttle: Tornado Lancia i nemici in aria.
+
+Modo: Colpo Bionico Un terribile tamponamento che ferisce grave-
+mente i nemici.
+
+Vinnie: Stella Cadente Solleva la motocicletta a mezz’aria e la scaglia ad
+altissima velocita verso il basso, colpendo gli
+avwversari.
+
+Limburger: Raggio Plutarchiano Congelai nemici con una formidabile scarica di
+energia.
+
+Grease Pit: Fucile Sparagrasso Spruzza del grasso sui nemici e li fa sciogliere.
+
+Dr. Karbunkle: Raggio Mutante Trasforma i nemici per un certo periodo di tempo
+
+in “Fred il Mutante”.
+
+FE: of
+
+===== Page 81 =====
+
+Peronaggio e profilo della motociciett
+
+Throttle
+Il lucidissimo leader dei Topi in motocicletta. La sua moto é molto
+stabile e prende assai bene le curve.
+
+Modo
+
+Un Topo in motocicletta di incredibile potenza. Corre sempre corse
+difficili, saltando in aria per effettuare curve strettissime, e tormenta i
+nemici con potenti attacchi.
+
+Vinnie
+
+Un Topo in motocicletta spiritoso e agile. Ha uno stile di corsa
+veloce, tecnicamente molto buono, che comporta anche attacchi in
+volo e derapate in curva.
+
+Limburger
+|| capo dei cattivi. Corre in un disco volante, attaccando senza pieta
+in tutte le direzioni.
+
+Grease Pit
+
+La sua motocicletta é la pit’ veloce di tutte, ma non prende bene le
+curve. La sua tecnica favorita é quella di spruzzare grasso, con il
+suo Fucile Sparagrasso, su tutti quelli che cercano di superarlo.
+
+Dr. Karbunkle
+
+Siede alla guida di una motocicletta a forma di insetto, con tentacoli,
+Progettata da lui stesso. Uno scienziato malefico che, con il proprio
+Raggio Mutante, si diverte a trasformare la gente in Mutanti.
+
+===== Page 82 =====
+
+PASSWORD
+
+===== Page 83 =====
+
+PASSWORD
+
+(Nintendo) Prodotto da: KONAMI CO., LTD.
+
+D-8754 GroBostheim
+MADE IN JAPAN
+
+PRODOTTO CONFORME AL DECRETO LEGISLATIVO 27/9/1991, N° 313 IN ATTUAZIONE
+DELLA DIRETTIVA 88/378/CEE. NON ADATTO A BAMBINI DI ETA INFERIORE Al 36 MES! A
+CAUSA DELLE PARTI TROPPO PICCOLE E DEL CONSEGUENTE RISCHIO DI INGESTIONE.
+CONSERVARE LE ISTRUZIONI O LA SCATOLA PER FUTURA REFERENZA.
+
+===== Page 84 =====
+
+DISTRIBUTED BY KONAMI UK LTD.
+KONAMI HOUSE, 54a COWLEY MILL ROAD, UXBRIDGE, MIDDLESEX UB8 2QE
+DISTRIBUTED BY KONAMI (DEUTSCHLAND) GMBH
+POSTFACH 56 01 80, 60406 FRANKFURT
+© 1994 “BIKER MICE FROM MARS” AND ALL OTHER CHARACTER NAMES AND THE
+DISTINCT LIKENESS THEREOF ARE THE TRADEMARKS AND COPYRIGHTS OF
+BRENTWOOD TELEVISION FUNNIES, INC. AND ARE USED WITH PERMISSION.
+KONAMI® IS A REGISTERED TRADEMARK OF KONAMI CO.,LTD.
+©1994 KONAMI ALL RIGHTS RESERVED.
+
+KONAMI.
+
+PRINTED IN JAPAN
+IMPRIME AU JAPON

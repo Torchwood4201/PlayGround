@@ -1,0 +1,727 @@
+# Fever Pitch Soccer Head-On Soccer
+source: https://archive.org/details/snes_manual_archive
+pdf: Fever Pitch Soccer ( PAL ) Head-On Soccer.pdf
+region: PAL
+pages: 15
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-AVSP-EUR
+
+_ INSTRUCTION BOOKLET ~~
+
+2
+
+===== Page 2 =====
+
+CONTENTS
+
+ENGLISH INSTRUCTIONS 4
+
+INSTRUCTIONS FRANGAISES 16
+
+HANDLEIDING IN HET NEDERLANDS 28
+
+DEUTSCHE ANLEITUNG 40
+INSTRUCCIONES EN ESPANOL 52
+ISTRUZIONI IN ITALIANO 64
+
+===== Page 3 =====
+
+CONTENTS
+
+STARTING UP YOUR SYSTEM )
+FEEL THE FEVER 5
+PLAYER CONTROLS 5
+LANGUAGE SELECT /
+GAME SELECT (MAIN MENU) ]
+
+GAME TYPE /
+
+OPTIONS 8
+
+RESUME Ns
+TEAM SELECT 9
+CONTROLS 10
+THE PLAYERS 11
+PLAYER PROFILES 12
+THE FINAL WHISTLE 414
+
+LIMITED WARRANTY 15
+
+===== Page 4 =====
+
+STARTING UP
+YOUR SYSTEM
+
+1. Make sure your Super NES™
+is OFF.
+
+2. Plug a control pad into port 1.
+
+3. Insert the Fever Pitch Soccer Game
+Pak into your Super NES™. Press firmly
+to lock the Game Pak in place.
+
+WARNING: Never try to insert
+or remove a Game Pak when the
+power is ON.
+
+4. Turn the power ON. Press any button to
+begin Fever Pitch Soccer.
+
+FEEL THE FEVER
+
+Feel the full-blooded fever in this frantic
+feast of fast and furious football action!
+
+GASP in awe when a 40-yard scorcher
+bursts into a flaming fireball and blasts the
+‘keeper into the back of the net.
+
+SCREAM in agony as Barger charges across
+the field and slams you hurtling into the
+hostile crowd.
+
+JUMP with joy as you swing a curving
+corner through the crowded box and head
+home that last-minute winner against the
+boys from Brazil.
+
+This is total football: qualified to satisfy the
+most demanding arcade appetite.
+
+Anyone can pick-up and play — you'll grasp
+the basics within a few games. However, to
+appreciate the intricate subtleties woven
+
+into the gameplay you should study this
+manual and, above all, practice, practice,
+practice.
+
+Take on the world’s top teams in
+international competition or play with
+up to five friends in an exhibition match.
+
+But beware — this game can seriously
+threaten your friendship as passions
+overheat and you reach boiling point in .
+the wild world of Fever Pitch Soccer!
+
+PLAYER CONTROLS
+
+In possession
+KICK/SHOOT: + Y
+BALL SWERVE: D-pad LEFT/RIGHT
+
+(after touch)
+
+PASS: B
+
+HEAD: X
+
+THROW-IN: Position crosshair + Y
+Star Players only
+
+SPECIAL MOVE: A
+
+BACK HEEL: L
+
+CROSS: R
+
+Winning the ball
+
+SLIDE TACKLE: B
+
+===== Page 5 =====
+
+At any time
+PAUSE: _ START (any control pad)
+To quit a game, pause and then press
+
+L/R/SELECT/A simultaneously to return to
+Game Select (Main Menu).
+
+GOALKEEPER CONTROL
+
+Your ‘keeper is predominately computer-
+controlled, but you do have an influence
+with the D-pad once a shot has been fired.
+
+Drop kick: Y
+Throw: B
+
+Goal kick: Position crosshair +
+Y (long kick) / B (short pass)
+
+Defending a penalty: In real soccer, goalies
+must anticipate a penalty kick before it is
+taken. Fever Pitch Soccer goalies are no
+exception. Guess where the penalty-taker
+will shoot and move the D-pad to dive the
+right way and make a save. If the D-pad is
+not pressed, the goalie will drop to the floor
+to save a straight shot.
+
+SET-PIECES
+
+Corner/Indirect free kick:
+Position crosshair + Y/B
+
+Direct free kick: Position crosshair and
+press Y to nominate initial direction of shot.
+Now re-position the crosshair to determine
+the final destination of your shot (preferably
+in the back of the net), press Y to confirm
+your aim (hold Y longer for more height) and
+press Y again to unleash your shot. Practice
+will help you find the right balance
+between the initial direction and final
+destination to produce spectacular
+swerving shots around the defensive wall.
+
+<> BRAS =n
+
+Note: At a direct free kick, the crosshair
+is represented by an icon of a ball
+bouncing on a small circle.
+
+Penalty: The crosshair sweeps across the
+goal mouth from left to right. Press Y to
+direct your aim, hold Y to determine shot
+height (the longer you hold Y, the higher
+your shot) and release Y to unleash your
+shot.
+
+===== Page 6 =====
+
+MENU CONTROLS
+
+Move D-pad UP/DOWN between options,
+LEFT/RIGHT to scroll through variables
+
+(or press any button to toggle) and press
+START to select.
+
+In multi-player mode, control pad 1 governs
+menu controls.
+
+Note: If your control pad has a rapid-fire
+feature, switch it OFF when you play
+Fever Pitch Soccer.
+
+LANGUAGE SELECT
+
+At the end of the introduction sequence,
+the Language Select screen appears. Move
+D-pad UP/DOWN to highlight your chosen
+language and press START to select. All
+subsequent on-screen text will now appear
+in this language.
+
+GAME SELECT
+
+(MAIN MENU)
+
+GAME dELECT
+[OURNAMEN Te «
+
+Orqins
+
+ogo FcSUME tg
+
+GAME TYPE
+
+Move D-pad LEFT/RIGHT to toggle
+Exhibition or Tournament mode and press
+START to confirm your selection.
+
+Exhibition
+
+An Exhibition match is a one-off friendly
+between two teams of your choice. See
+Team Select.
+
+Tournament
+
+The Fever Pitch Soccer World
+Tournament is a 28-team knockout
+competition, featuring national sides from
+across the globe.
+
+Once you've chosen a country to represent
+
+(see Team Select) you progress through the
+contest by beating the world’s best in four
+
+continental groups of seven.
+
+===== Page 7 =====
+
+There are 51 teams in the overall pool, so
+the competition structure looks like this:
+
+First Round: Asia
+7 from 8 teams
+
+Time
+Move D-pad LEFT/RIGHT to select the
+length of each half:
+
+1 minute, 3 minutes (default),
+5 minutes, 10 minutes or 15 minutes.
+
+Fever Second Round: Africa
+pitch 7 from 11 teams
+
+soccer
+
+f scores are level at the final whistle, a
+
+Third Round: Americas
+7 from 12 teams
+
+Final Round: Europe
+7 from 20 teams
+
+Naturally, the quality of opposition
+improves as you progress, and you are
+given the opportunity to strengthen your
+side. See The Players.
+
+Before each match you are presented with
+the Tournament Start-up screen. Press
+START to kick-off or L to return to the
+previous display.
+
+OPTIONS
+
+From Game Select (Main Menu), highlight
+Options and press any button to view
+Options menu.
+
+Move UP/DOWN to highlight the gameplay
+option you wish to customise.
+
+OPUONG
+
+elimesa:o0#
+
+Meniom
+
+PGW THE a
+
+period of extra-time will be played,
+equivalent to one-third of normal-time
+eg. 1-min half normal-time = 20-second
+
+half extra-time, 3-min half normal-time
+
+= |-min half extra-time, etc). And if the
+result remains a draw, a penalty shoot-out
+will take place to decide the winners.
+
+Difficulty
+
+Move D-pad LEFT/RIGHT to set overall
+standard of computer-controlled matchplay;
+Easy, Medium or Hard.
+
+Switches
+Press any button to modify in-game
+preferences.
+
+Note: * = default
+
+Replays: On*/Off
+Set ON to view an automatic action
+replay of every goal scored. To cut the
+
+replay short during a match, press
+START.
+
+The following video controls can be
+used to revel in the glory of your own
+magic moments of Fever Pitch
+Soccer:
+
+===== Page 8 =====
+
+Play
+
+Fast
+Forward
+
+Rewind
+
+Note: Press R to watch the action from
+the other side of the pitch.
+
+Cameos: On*/Off
+Do you want to watch celebration
+sequences after every goal/victory?
+
+Aggro: On*/Off
+Determines tolerance level of the
+referee when players commit fouls.
+
+RESUME
+
+Click on Resume to enter the password
+entry screen. This option allows you to
+input a 13-character password to resume
+play from the desired stage within a
+previously contended Tournament.
+Passwords are supplied at the Tournament
+Start-up screen before each match (except
+the first match, obviously). See
+Tournament. Password characters are
+displayed in one of two colours; blue or
+yellow — take care to record and enter them
+correctly.
+
+BCOFGHIAUTIT”
+
++tPOARSTUWHYe=
+
+eles Tsereys
+
+Enter each character from the main grid
+into the password entry slot at the top of
+the screen. Move the D-pad to highlight a
+character from the grid, and press X to
+enter the character in blue or B to enter the
+character in yellow. Place each character
+into the password using A/Y to nominate
+its position. To confirm your password,
+press START.
+
+TEAM SELECT
+
+To choose your team, move LEFT/RIGHT
+
+(D-pad) to scroll through the available
+countries.
+
+LEAM «cELEM
+
+HAAeL
+
+€ ,
+
+ITALY
+
+The pitch layout shows team formation.
+Standard players are displayed in the
+national colours, while Star Players are
+distinguished as bright yellow dots.
+
+Note: In Tournament mode you begin
+with eleven Standard players.
+See The Players.
+
+===== Page 9 =====
+
+10
+
+If you are playing an Exhibition match, use
+the above method to select Team 1 and
+then press D-pad DOWN. Now move
+LEFT/RIGHT to choose one of four different
+Pitch Types.
+
+Note: The playing surface is
+automatically allocated in a
+Tournament, according to the
+origin of your opponents (ie. which
+continent they are from).
+
+Press D-pad DOWN again and move
+LEFT/RIGHT to select Team 2.
+
+When you are satisfied with the teams
+selected, press START to continue.
+
+CONTROLS
+
+Now pick sides! Each connected control
+pad can be allocated to one of the
+participating teams. An icon appears on-
+screen to represent every control pad
+currently connected.
+
+CON TAOS
+
+HAHeIL oe
+
+SH
+
+LAL
+
+With the D-pad, you can move your icon
+into one of three different positions to
+determine your role in the forthcoming
+match; Team 1 (top), Team 2 (bottom) or no-
+man’s land (middle) ie. not participating.
+
+This procedure allows you to play with up
+
+to four friends (using a Nintendo approved
+multi-tap system) in the line-up of your
+choice — the computer will take control of
+any team not enlisted by human players. So
+you can play One vs. One, One vs Computer,
+Two vs. Two, Four vs One, or Five vs
+Computer — any combination.
+
+Note: When more than one player
+represents the same team, player
+control alternates after every pass.
+
+Once you have chosen sides, press START
+to continue.
+
+Fever Pitch Soccer also gives you the
+Opportunity to intervene at any stage of a
+match. If you have not been assigned to a
+team before kick-off, you can plug a pad
+into a vacant port and join in the action.
+
+When a spare control pad is available
+during play, a ‘Press Start’ message flashes
+in the top right-hand corner of the screen.
+Press START and move LEFT/RIGHT to
+select which team you wish to join
+(highlighting the national! flags) and press
+START again to enter the fray.
+
+===== Page 10 =====
+
+THE PLAYERS
+
+Fever Pitch Soccer is not played by
+hordes of animated clones. Star players
+shine among Standard players, with
+individual characteristics, personalities and
+distinctive styles of play. The key to Fever
+Pitch Soccer success is to make full use
+of your Star players’ special skills. Star
+players are distinguished on-field by
+striking individual features in their
+appearance and unique abilities. But if you
+still have trouble recognising them, when
+controlled they are identified by a huge star
+floating above their heads.
+
+In Exhibition mode, Star players have
+already been appointed to each national
+team, in a wide variety of formations. Some
+sides are blessed with only one or two
+superstars, others boast a perfect eleven.
+Experiment with as many different teams
+as possible to find the right line-up to suit
+your style of play.
+
+Competing in a Tournament, Star players
+are not so freely available — you must earn
+them!
+
+Fever Pitch Soccer employs a top-secret
+computer-controlled talent scout, which
+assesses your performance in each match
+according to a predetermined set of hidden
+criteria.
+
+After each match, this assessment system
+is then used to reward you with bonus
+‘credits’, which are not revealed to you but
+used to determine which new Star signings
+are available.
+
+Star players want to play for quality teams,
+so if your performance in a match
+impresses the stable of superstars
+watching, they will offer to join your side.
+
+After an impressive performance, the Player
+Select screen appears to showcase the
+stars who are willing to sign-up.
+
+PLAYER SELECT
+
+dELECT ge
+
+Position
+
+TRICKY
+
+Highlight Select, move D-pad LEFT/RIGHT
+to scroll through the available players and
+choose your man.
+
+Move the D-pad DOWN and nominate the
+position you want him to play in your new
+team line-up by moving LEFT/RIGHT and
+pressing button B to confirm.
+
+Note: Your new Star player is
+represented by a green dot on the
+pitch layout.
+
+Press START to continue without recruiting
+a new Star player and your bonus ‘credits’
+(which remain secret) will be saved to give
+you more weight in the transfer market
+after the next match.
+
+11
+
+===== Page 11 =====
+
+| pitch
+
+soccer
+
+12
+
+PLAYER PROFILES
+
+STANDARD PLAYER
+
+Average, run-of-the-mill, no frills, no thrills
+ordinary Joe Bloggs.
+
+He can't even manage a back heel or put a
+decent cross into the box.*
+
+Standard man’s strongest asset is his
+consistency — he is consistently ordinary.
+
+* All Star Players can back heel and
+cross the ball.
+
+BARGER
+
+Shoulder-barging, iron-pumping, muscle-
+bound, rough’n'ready hard man of Fever
+Pitch Soccer.
+
+This rock-solid powerhouse flattens any
+opponents who get in his way — hard
+enough to make sure that they don't get
+up again for a long while!
+
+THE CHEAT
+
+Slippery and sly, snide and sneering,
+unscrupulous, Oscar-winning, referee-
+fooling, slap-headed CHEAT!
+
+When he dives in midfield, The Cheat has a
+50-50 chance of winning a free kick — the
+odds are reduced to 25% for a penalty in
+the box.
+
+===== Page 12 =====
+
+THE MARKER
+
+Tight-marking, shirt-tugging, boot-
+stomping, hair-pulling, nose-biting, man-to-
+man marker. This solid team player has no
+special move, but he will stick to key
+opponents like glue. He won't give them an
+inch. He'll get inside their shirt, Brian.
+
+PASSER
+
+Clinically-precise, technically-perfect, prime
+physical specimen with an uncanny ability
+to find the forwards with inch-perfect,
+defence-splitting long balls.
+
+; Feve
+TRICKY pitch
+
+soccer
+Silky-skilled, weaving, leaping, dazzling
+dribbler who dances through dumb
+defenders’ desperate lunges and makes
+inspirational darting dashes upfield with
+the ball stuck to his feet.
+
+13
+
+===== Page 13 =====
+
+14
+
+STRIKER 1
+
+Stylish-swerving, spectacular-swinging,
+killer-curling, bombastic-bending, banana-
+kicking legend with the awesome ability to
+fire the ball on a wicked curve around
+impossible angles.
+
+STRIKER 2
+
+Power-blasting, thunder-bolting, fire-
+cracking, net-busting, hammer-thumping,
+disintegrating, woodwork-whacking, whip-
+lashing, thigh-slapping, rocket-blazing, ball-
+bursting, bone-breaking hot-shot hero!
+
+THE FINAL WHISTLE
+
+After an Exhibition match, you have the
+opportunity to replay the game by pressing
+START within ten seconds.
+
+The Tournament is a knockout competition,
+so if you lose a match, you're out!
+
+However, if you feel that defeat was unjust
+Or simply can't bear to start all over again,
+you have the option to replay the match and
+rewrite history, by pressing START within
+ten seconds of the final whistle.
+
+===== Page 14 =====
+
+LIMITED
+WARRANTY
+
+U.S. Gold reserves the right to make
+
+improvements in the product described in
+this manual, at any time and without
+
+notice.
+
+U.S. Gold makes no warranties expressed
+or implied, with respect to this
+manufactured material, its quality,
+merchantability or fitness of any particular
+purpose.
+
+f any defect arises during the 90 day
+imited warranty on the product itself
+i.e. not the software program, which is
+
+provided “as is”) return it in its original
+condition to the point of purchase. Proof of
+purchase required to effect the 90 day
+
+warranty.
+
+THIS LIMITED WARRANTY DOES NOT
+AFFECT YOUR STATUTORY RIGHTS.
+
+15
+
+===== Page 15 =====

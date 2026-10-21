@@ -1,0 +1,857 @@
+# Relief Pitcher
+source: https://archive.org/details/snes_manual_archive
+pdf: Relief Pitcher (USA).pdf
+region: USA
+pages: 24
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNS-5R-USA
+
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET
+CAREFULLY BEFORE USING YOUR NINTENDO®
+HARDWARE SYSTEM OR GAME PAK.
+
+Left Field Entertainment
+163 Main St.
+Westport, CT 06880
+(203) 454-4588
+Left Field Entertainment and the Left Field Entertainment logo are trademarks of Left Field
+
+Entertainment. Relief Pitcher™ & ©1991 Atari Games Corp.; licensed to Tengen, Inc.
+©1998 Tengen, Inc. All rights reserved.
+
+Seal of Quality
+
+‘THIS OFFICIAL SEAL IS YOUR
+ASSURANCE THAT NINTENDO HAS
+‘APPROVED THE QUALITY OF THIS
+PRODUCT. ALWAYS LOOK FOR THIS
+‘SEAL WHEN BUYING GAMES AND
+
+LICENSED BY
+
+NINTENDO, SUPER NINTENDO.
+ENTERTAINMENT SYSTEM AND
+THE OFFICIAL SEALS ARE
+REGISTERED TRADEMARKS OF
+NINTENDO OF AMERICA INC.
+©1991 NINTENDO OF AMERICA INC.
+
+‘ACCESSORIES TO ENSURE COMPLETE
+COMPATIBILITY WITH YOUR SUPER.
+NINTENDO ENTERTAINMENT SYSTEM.
+ALL NINTENDO PRODUCTS ARE
+LICENSED BY SALE FOR USE ONLY
+WITH OTHER AUTHORIZED PRODUCTS
+BEARING THE OFFICIAL NINTENDO
+‘SEAL OF QUALITY,
+
+===== Page 3 =====
+
+@ INTRODUCTION...
+@ OBJECT OF THE GAME
+PRE-GAME ACTIVITIES - GETTING STARTED ................::::00cs000 5
+
+Game Select Screen
+
+Select Team Screen
+Select Pitcher Screen.
+
+Select Lineup Screen
+@ BATTER UP! ----PLAYING THE GAME
+Quick Start---Overview of Controller FUNCIONS.........sceeeen 9
+
+Batting...
+Pitching.......
+Fielding & Throwing
+
+Baserunning
+
+Special Situations
+Making Substitutions «0.0...
+On-screen Displays.
+
+@ THE STATS 00. :
+
+Stadium Information
+
+Player ROStG1S sissies
+
+@ TAKING CARE OF YOUR LEFT FIELD
+ENTERTAINMENT GAME...
+
+===== Page 4 =====
+
+“Welcome ladies and gentlemen. It's a
+great day for baseball!” And you'll hear that
+very statement along with dozens of others
+from the actual, digitized voice of Jack
+Buck, one of the most famous baseball
+announcers in history. Jack Buck's play-by-
+play is just one of many great features that
+makes Relief Pitcher™ one of the most realistic baseball games ever
+produced for the Super NES. Based on the original coin-op hit, Relief
+Pitcher™ blends arcade-paced action with the kind of baseball
+simulation options you'd expect from a home videogame.
+
+Take the long walk in from the bullpen and toe the rubber in a
+tense, game-saving situation as the stopper, or take it right from the
+national anthem as the starter. And don't let the game title fool you -
+Relief Pitcher™ won't take the bat out of your hands! You'll be taking
+your cuts in the batter's box too, as well as fielding, throwing, and
+running the bases against either the computer or another player.
+
+As fireman or starter, we hope you enjoy Relief Pitcher's detailed
+pitching, batting, fielding, and baserunning animation,
+straightforward controls (fielding has never been easier!), coaching
+options, and realistic game play - Relief Pitcher™ has it all!
+
+===== Page 5 =====
+
+l 1 NI
+
+Relief Pitcher™ adheres to the normal mules of baseball -- so
+what you want to do is score more ms than the opposing team!
+This instruction manual makes no attempt to explain the rules and
+strategies of the sport -- we assume that you're already familiar with
+the finer points of baseball.
+
+You can start a game in the late innings as a reliever or begin
+from the beginning as a starter in either a one-player game against
+the computer or a two-player game against another person. Each
+pitcher has a full repertoire of pitches available -- fast ball, curve
+ball, and a unique specialty pitch of your choosing. Batters can use
+the power swing to hit for the fences, pull the ball to the power field,
+go with a pitch and hit to the opposite field, bunt, and swing high or
+low. Strategies such as the hit & run, stealing bases, safety squeeze,
+and suicide squeeze are available. You can play it one game at a
+time or, if you begin the game in the late innings as a reliever, a 12-
+game “season” (one-player) or a best-of-seven series (two-player)
+option is available.
+
+===== Page 6 =====
+
+' AD
+TING SIAR LEH
+
+Place the Relief Pitcher” Game Pak into
+
+your Super NES and tum on the unit. The
+
+title screen appears, followed automatically
+by the GAME SELECT screen.
+
+AN) BEEN
+
+There are two types of game situations to
+choose from in either a one-player or a two-
+player game. Ina one-player game, you can
+begin a game as the starting pitcher and play
+an entire game or you can come in as a relief
+pitcher in the late innings in any of a variety of
+game situations that are determined by the computer. When you
+choose to begin a game as a relief pitcher, there's a 12-game season for
+you to play. Asa starter, there is no season - just one game ata time.
+
+You have similar options in two-player, head-to-head action - either start
+a game in the first inning or start the game in the late innings with the
+game on the line. When you choose the RELIEF PITCHER option in a
+two-player game, you'll play through a best-of-seven series, in which the
+first player to win four games wins the series.
+
+To choose an option from the GAME SELECT screen, press Up or
+Down (or SELECT) on the Control Pad to move the highlight (blue
+background with yellow outline) from one option to another, then press
+START (or the A or B Button) to select the highlighted option.
+
+===== Page 7 =====
+
+There are four teams from which to
+choose: The Boston Bashers (a good
+power hitting team), the Houston Dusters
+(a good fielding team), the Los Angeles
+Speeders (a team with a lot of speed), and
+the Chicago Strokers (a solid, all-around good hitting team).
+
+The team chosen from the left side of the SELECT TEAM screen is
+the home team unless you choose RELIEF PITCHER - 12 GAME
+SEASON (one-player) or RELIEF PITCHER - BEST OF 7 SERIES
+(two-player game), in which case the home team varies from game
+to game. Each team plays in a different stadium, so the field
+graphics vary depending on the team you select. The four stadiums
+are modeled after real, big-league ballparks. Boston plays in a
+stadium modeled after Fenway Park complete with the famous
+“Green Monster” wall. Houston plays in a stadium that closely
+resembles the spacious Astrodome. Los Angeles plays in a typical
+Dodger Stadium atmosphere including palm trees. Chicago plays
+in the “Friendly Confines’ --- venerable Wrigley Field, complete with
+vined outfield walls.
+
+In a one-player game, the computer selects your opponent
+automatically. In a two-player game, each player chooses a team,
+although the two players can't choose the same team.
+
+To select a team, press Up or Down on the Control Pad (or
+SELECT) to move the highlight from one team to another. Press
+START (or the A or B Button) to select a highlighted team. Ina one-
+player game, you'll select from the left side of the screen while the
+computer's team appears on the right side of the screen. In a two-
+player game, player one’s team selection appears on the left side
+while player two's team selection appears on the right side.
+
+After making team selections, press any button to move on to
+
+the SELECT PITCHER screen.
+
+===== Page 8 =====
+
+use v ‘
+
+The SELECT PITCHER screen has three
+parts. In the top section, choose your
+pitcher's special pitch from among the
+four choices given (knuckleball, rising
+fastball, screwball, or sinker). In the
+middle section, choose your pitcher's throwing arm (left-handed or
+right-handed). In the bottom section, choose whether your pitcher
+throws overhand or sidearm.
+
+First, press Up or Down on the Control Pad (or SELECT) to move
+the blue highlight to the special pitch you want for your pitcher.
+Then press the A or B Button (or START) to select the highlighted
+pitch. Next, use the same procedure to highlight and select LEFT-
+HANDED or RIGHT-HANDED. Finally, highlight and select
+OVERHAND or SIDEARM. Ina two-player game, player one makes
+selections first, then player two gets a chance. When you've made
+all selections, press any button to advance to the next screen (or just
+wait a few seconds and the screen will advance automatically).
+Jack Buck appears to make an announcement. Again, press any
+button to advance to the next screen (the SELECT LINEUP screen)
+or wait for the screen to advance by itself.
+
+1 1 ‘
+
+The SELECT LINEUP screen shows the
+
+current on-field lineup, reserve players,
+
+and player statistics and enables you to
+
+change the lineup and/or the batting
+
+order. The first nine players listed (with
+
+their positions to the left of their names) make
+
+up the current lineup. They are listed in the order in which they bat.
+
+===== Page 9 =====
+
+The player at the top of the list (highlighted in white) is the current
+batter. The player listed beneath him is the next batter, and so on.
+Note that the batting order on the SELECT LINEUP screen always
+shows the current batter at the top of the list. After a batter has
+completed his tum at bat, his name moves to the bottom of the list
+and every other name moves up one line.
+
+The five players at the bottom of the screen are reserves. You can make
+lineup changes before a game or during a game when the ball is not in
+play. Press SELECT to bring up the SELECT LINEUP screen during a
+game. There are some dam good hitters on the bench, so take a close
+look at your lineup before you begin and make changes as you see fit.
+Don't worry too much about what position a bench player plays.
+
+The batting statistics given on the SELECT LINEUP screen represent
+an estimate of how a player will perform over the course of the season
+based on his skills. The statistics do not change from game to game,
+and Relief Pitcher™ does not track or save individual player statistics
+from the games that you play. Of course, a great deal depends on
+your skill as a game player, so if you keep track of individual statistics
+yourself, don't be surprised if your results do not match the statistics
+given on the SELECT LINEUP screen. The SELECT LINEUP
+screen stats are meant just to give you a rough idea of how one player
+stacks up against another in batting average (AVG), home runs (HR),
+and stolen bases (SB). “B” indicates the side of the plate that a player
+hits from (left, right, or switch hitter).
+
+To change the lineup, press UP or Down on the Control Pad (or
+SELECT) to highlight the player you want to change in the batting
+order, remove from the lineup, or bring in from the bench, and
+press the A or B Button. Now move the highlight to the place in the
+batting order you want the selected player to hit (or to the player on
+the bench that you want to replace the player with) and press the A
+or B Button again. The players will switch positions on
+
+the list. START always exits the SELECT LINEUP
+
+screen, whether you have made any lineup changes or not.
+
+===== Page 10 =====
+
+—Y Button
+
+X Button
+
+Up (Control Pad)...
+Down (Control Pad)..
+Left (Control Pad)
+
+pull inside pitch to left field. For left-handed
+batter, hit outside pitch to left (opposite) field.
+Right (Control Pad)........... For right-hand batter, hit outside pitch to
+right (opposite) field. For left-handed
+batter, pull inside pitch to right field.
+Power swing
+..Regular swing
+
+A Button.
+B Button...
+X Button
+
+PITCHING
+Control Pad.......
+A Button...
+B Button...
+X Button...
+
+FIELDING & THROWING
+Right (Control Pad) .
+Up (Control Pad)..
+Left (Control Pad)
+Down (Control Pad)
+A Button
+
+...Special pitch
+
+Directs throw to first base
+
+.Directs throw to second base
+
+Directs throw to third base
+
+.Directs throw to home plate
+
+Run with ball to base (in conjunction
+with Control Pad)
+
+‘Throw ball to base (in conjunction with
+Control Pad)
+
+-Outfielder throws fielded ball to infield
+cut off man
+
+B Button......
+
+X Button.......
+
+===== Page 11 =====
+
+Directs baserunner to first base
+Directs baserunner to second base
+Directs baserunner to third base
+Directs baserunner to home plate
+Advance baserunner to next base (in
+conjunction with Control Pad)
+
+B Button iesiccsirannnc Return baserunner to previous base (in
+conjunction with Control Pad)
+
+A Button
+
+SPECIAL SITUATIONS
+
+A Button... _These three buttons select specified
+
+B Button options, such as BIG LEAD, SHORT LEAD,
+Y Button STEAL, HIT & RUN, SAFETY SQUEEZE,
+and SUICIDE SQUEEZE from the
+Coaching Display when runners
+are on base.
+
+Press the B Button to take a normal
+swing. If you want to swing for the fences,
+press the A Button to swing the bat. This
+power swing may jack a few more over
+the wall, but it also increases strikeouts
+and fly outs. To bunt, press the X Button. To swing high, press Up
+on the Control Pad. To swing low, press Down on the Control Pad.
+
+Hint: If you find that the batter doesn’t swing the bat after you press the button,
+you're pressing the button too late. Swing earlier than your mind tells you to and
+you'll make contact in no time.
+
+In addition, there’s an on-screen message that tells you why you
+missed a pitch and a graphic that shows where the ball ended up
+(marked by an “X”) in relation to the strike zone (marked by a
+rectangle). The messages tell you if you swung early or late, high or
+low. There also are “BALL” and “STRIKE” messages. And
+
+or course, Jack Buck keeps you on top of the situation.
+
+(Note: you cannot move the batter around the batter's box.)
+
+===== Page 12 =====
+
+Pitching is a four-step process:
+
+1) Select the location of the pitch by
+pressing and holding the appropriate
+direction on the Control Pad (including
+diagonals). For example, to pitch a right-
+handed batter low and inside, press the Down/Left diagonal on the
+Control Pad. To pitch low and inside to a lefty, press the
+Down/Right diagonal on the Control Pad.
+
+2) While still pressing on the Control Pad in the direction you want
+the pitch to go, press the appropriate button to select the pitch you
+want and to initiate the windup. Use the A Button to throw a curve
+ball, the B Button to throw a fast ball, and the X Button to throw the
+special pitch that you selected for your pitcher on the SELECT
+PITCHER screen.
+
+3) The Pitching Meter begins to run in an upward arc from left to
+right on the lower left side of the screen. Press the A, B, orX Button
+(it doesn't matter which one you press) when the meter reaches the
+“Perfect Grip” (a white slash indicates the optimal point to press the
+button) segment of the meter (or as close as you can get to the white
+slash). Note: If you want to walk a batter intentionally, let the meter
+mun into the INT. WALK area of the meter before pressing the button.
+
+4) Now the Pitching Meter begins to mun in an upward arc from right
+to left. Press the A, B, orX Button when the Pitching Meter reaches
+the “Maximum Power" segment (the optimal power is indicated by
+a slash line in the meter) of the meter (or sooner if you want to take
+something off the pitch or to throw a changeup). After many of your
+pitches, Jack Buck announces the result. In addition, “BALL” and
+“STRIKE” messages appear on the screen.
+
+===== Page 13 =====
+
+When a ball is hit, fielders automatically move toward the ball and
+catch it or pick it up (which may come as a relief to those of you who
+have been frustrated by fielding control on other video baseball
+games). You do not control the fielders until after they have
+possession of the ball, at which point you select the base toward
+which to throw and fire the ball as follows:
+
+1) After a fielder has possession of the ball, press and hold the
+direction of the Control Pad that corresponds to the base to which
+you want to throw.
+
+Right .aims the throw to first base.
+Up... .aims the throw to second base.
+Lett.. aims the throw to third base.
+Down .aims the throw to home plate.
+
+2) While still holding a direction on the Control Pad, press the
+B Button to throw the ball
+
+3) If you want a fielder to run to a base with the ball rather than
+throw the ball, press and hold the direction on the Control Pad that
+represents the base to which you want the fielder to run and then
+press the A Button
+
+4) If you want an infielder to cut off a throw from the outfield, press
+the X Button to throw the ball instead of the B Button. An infielder
+will intercept the outfielder’s throw. Once an infielder cuts off a
+throw, press the direction on the Control Pad that corresponds to
+the base to which you want the infielder to throw and press the
+B Button (if you don’t do so within a few seconds, the infielder
+simply will throw the ball back to the pitcher). This technique is
+useful to prevent trailing baserunners from taking an extra base ----
+or, on occasion, to throw them out trying ----- if you think you have no
+real chance of throwing out the lead runner.
+
+===== Page 14 =====
+
+BROERUNIIN
+
+During any on-field play, an inset of a
+baseball diamond appears on the lower
+left (if Player 1 is up) or lower right (if
+Player 2 or the computer is up) side of the
+screen. This inset shows you the location
+on the basepaths of any runners on base. In the inset, the bottom of
+the diamond is home plate, the right side is first base, the top is
+second base, and the left side is third base.
+
+Hitters run to first base automatically. Baserunners who have been
+instructed to execute HIT & RUN, STEAL, SUICIDE SQUEEZE, or
+SAFETY SQUEEZE (when the batter makes contact with the pitch)
+from the Coaching Display move toward the next base automatically
+on the ensuing pitch. Otherwise, you have to direct your
+baserunners around the basepaths.
+
+To advance a runner, press and hold the direction on the Control
+Pad that corresponds to the base to which you want the baserunner
+to move. Then press the A Button. For example, to advance a
+baserunner from first base to second base, press and hold Up on
+the Control Pad and then press the A Button. To make a
+baserunner go back to a base, use the same procedure except
+press the B Button instead of the A Button. You control each
+baserunner individually, so you have to direct each one. For
+example, trailing runners will not move to the next base
+automatically just because the lead runner has been instructed to do
+so. With regard to baserunning, here's how the Control Pad
+corresponds to the bases:
+.... Home plate
+
+First base
+
+Second base
+.. Third base
+
+===== Page 15 =====
+
+PECIA ATION
+
+A number of special baserunning and
+hitting options will appear when you have
+men on base. These option include HIT &
+RUN, BIG LEAD, SHORT LEAD, STEAL,
+SAFETY SQUEEZE, and SUICIDE
+SQUEEZE. Any three of these options will appear at one time on a
+random basis in a “Coaching Display.” The A Button, B Button,
+and Y Button are used to select one of the three available options,
+as indicated in the Coaching Display. The Coaching Display
+appears on the screen for a few seconds. You must press the button
+that corresponds to your choice to execute one of the options. If you
+don't want to choose any of the options, just wait a few seconds for
+the display to disappear from the screen.
+
+Here’s an explanation of each option:
+
+BIG LEAD Makes your base-
+runner take a big
+leadoff, making him
+more susceptible to
+a pickoff play by the
+opposing pitcher.
+
+SHORT LEAD Keeps your baserunner's leadoff short.
+
+HIT & RUN Makes your baserunner head for the next base
+on the next pitch if the batter hits the ball, This
+will help your baserunner advance an extra
+base on a base hit or perhaps will make a
+double play more difficult for the opposition
+ona ground ball, On the down side, your
+baserunner is more likely to be doubled
+off the base in the event of a line drive
+that is caught.
+
+===== Page 16 =====
+
+‘SPECIAL SITUATIONS CONTINUED...
+STEAL Makes your baserunner attempt to steal a
+base on the next pitch.
+
+SAFETY SQUEEZE This option only appears with a runner on
+third. It makes your batter attempt a sacrifice
+bunt to try to score the runner from third. Your
+baserunner on third will head for the plate, but
+only if the batter makes contact with the ball.
+
+SUICIDE SQUEEZE This option only appears with a runner on
+third. It makes your batter attempt to bunt to try
+to score the runner from third. Your
+baserunner on third will head for the plate
+without waiting to see if the batter makes
+contact with the ball. If the batter fails to make
+contact, your baserunner is, in essence,
+attempting to steal home plate, which is
+extremely difficult to do.
+
+MAKIN D \
+
+Whether you're at bat or in the field, you can make substitutions by
+
+pressing SELECT, which brings up the SELECT LINEUP screen.
+
+Follow the instructions given in the Select Lineup section of the
+
+manual. Note: You cannot change pitchers.
+
+===== Page 17 =====
+
+The ball and strike count and the number
+
+of outs appears on the outfield wall. A red
+
+lamp lights for each ball, strike, or out in
+
+the current half of the inning. In addition,
+
+a lamp lights to the right of the inning
+number to indicate whether the visiting (top lamp lit) or the home
+team (bottom lamp lit) is at bat. The visitor's score appears to the
+right of the "V" and the home team's score appears to the right of
+the “H” on the scoreboard.
+
+In addition, an inset of a baseball diamond appears on the lower left
+(if Player 1 is up) or lower right (if Player 2 or the computer is up)
+side of the screen. This inset shows you the runners on base.
+
+Other displays include the Pitching Meter, Coaching Display (HIT
+& RUN, BIG LEAD, SHORT LEAD, STEAL, SAFETY SQUEEZE),
+the rectangular strike zone indicator, the EARLY/LATE /HIGH/LOW
+swing indicator, and the BALL/STRIKE messages, all of which are
+discussed elsewhere in the manual.
+
+And, when you clobber one over the fence, a message appears to
+tell you how many feet your prodigious blast traveled.
+
+===== Page 18 =====
+
+The following information about stadiums and team rosters may
+help you pick your team and lineup. The starting lineups given
+below are the game's default lineups when you select STARTING
+PITCHER (in either a one-player game or a two-player game) from
+the GAME SELECT screen. If you choose RELIEF PITCHER
+(again, either one-player or two-player) from the GAME SELECT
+screen, the lineup is different from game to game and probably will
+not appear as listed below, although the makeup of the roster as a
+whole and the player statistics will be the same.
+
+You can alter the lineup before or at any time during a game
+when the ball is not in play (see the section of this manual entitled
+Select Lineup) in any way that you want. Don't worry about what
+position a bench player plays. Just plug any bench player into
+whatever position you want him to play.
+
+Note: Player statistics do not change and cumulative individual
+player and team statistics are not tracked or saved in Relief
+Pitcher™ . You will get a summary of your team’s statistics after each
+game, but this information will be lost as soon as you leave the
+screen or tum off your Super NES".
+
+BUI INT ORMALION
+
+STADIUM SURFACE LF LCF CF RCF RF
+
+Boston Grass 320 390 420 380 300
+Houston Artificial 380 ~ 400 420 400 350
+Los Angeles Grass 330 385 395 385 330
+
+Chicago Grass 380 370 400 370 350
+
+===== Page 19 =====
+
+Legend:
+
+Pos. ...Player’s defensive position
+Bg sess .Estimate of player's batting average based
+on his ability.
+B.... -Batter's orientation (L=Lefthanded,
+= Righthanded, S=Switch Hitter)
+HRw. ..Estimate of player's seasonal homerun total
+based on his ability.
+SB Estimate of player's seasonal stolen base
+total based on his ability.
+BOSTON BASHERS
+Starters = mies
+Player Pos. Avg. B HR ‘SB
+Sandoval ss 268 R 4 22
+Deak 2B 342 s 7 9
+Drobny 1B 273 L al 3
+Hally LF 214 R 42 1
+Rofo RF 267 R 32 6
+Taylor c 310 R 8 1
+Downend 3B 210 R 14 6
+Benzler DH 261 R 12 1
+Eyler cr 218 R 6 18
+Bench = z =
+Bates 364 s 4 6
+Lopez 268 R 34 4
+Clark 273 R 3 36
+Anderson 216 R 4 17
+Young 210 s 8 29
+HOUSTON DUSTERS
+Starters a
+Player Pos. Avg. B HR SB
+Vernon 2B 327 s 6 1
+Sherman ss 213 s 3 36
+Morgan DH 312 R 7 5
+Comstock RF 260 R 24 6
+Kug 1B 269 L 18 8
+Murphy 3B 308 R 5 8
+Perez c 2m R 13 4
+Moore LF 216 R 4 17
+Slocum cr 210 s 8 29
+Bench
+Rushing 364 s 4 6
+Klein 268 R 34 4
+Olson 268 R 4 22
+Allen 214 R 42 7
+Gonzalez 218 R 6 18
+
+===== Page 20 =====
+
+LOS ANGELES SPEEDERS
+
+Starters
+
+Player Pos. Avg. B HR cer
+Momoda RF 284 R 8
+
+Owens c 314 R 4
+
+Stern 3B 327 R 7
+
+Flanagan 1B 210 L 23
+
+Clayton DH 262 R 16
+
+Williams LF 218 R 8
+
+Ford CF 283 Ss 2
+
+Vejar ss 268 Ss 5
+
+Logg 2B 261 s 3
+
+Bench
+
+Hughes 364 s 4 6
+Jones 268 R 34 4
+Ellis 213 Ss 3 36
+Padilla 274 R 42 Z
+Floyd 270 s 8 29
+CHICAGO STROKERS
+
+Starters
+
+Player Pos. Avg. B HR SB
+Lipson 2B 364 s 4 6
+Sava ss 281 R 2 28
+McNamara RF 348 R 8 z
+Rotberg 3B 268 R 34 4
+Loper 1B 332 L 8 8
+McDowell LF 210 R 16 6
+Beaird DH 306 L 8 3
+Pierce c 310 R 8 2
+Meyer cr 268 s 7 20
+Bench
+
+Wilson 342 s z 9
+Reed 327 R 7 6
+Phillips 213 s 3 36
+Gates 214 R 42 1
+Jennings 210 s 8 29
+
+===== Page 21 =====
+
+|
+\ \l
+¢ This Left Field Entertainment Game Pak is a precision-crafted
+device with complex electronic circuitry. Avoid subjecting it to
+
+undue shock or extremes of temperature. Never attempt to open
+or dismantle the Game Pak.
+
+* Do not touch the terminal leads or allow them to come into
+contact with water or the game circuitry will be damaged.
+
+¢ Always make sure your Super NES Control Deck is
+SWITCHED OFF when inserting the Game Pak or removing it
+from the Super NES Control Deck.
+
+===== Page 22 =====
+
+OMPLIANCE Wilt ATION
+
+This equipment generates and uses radio frequency energy and if
+not installed and used properly, that is, in strict accordance with the
+manufacturer's instructions, may cause interference to radio and
+television reception. It has been type tested and found to comply
+with the limits for a Class B computing device in accordance with
+specifications in Subpart J of Part 15 of FCC Rules, which are
+designed to provide reasonable protection against such
+interference in a residential installation. If this equipment does
+cause interference to radio or television reception, which can be
+determined by turning the equipment off and on, the user is
+encouraged to try to correct the interference by one or more of the
+
+following measures:
+
+ Reorient the receiving antenna
+
+° Relocate the Super NES __ with respect to the receiver.
+
+* Move the Super NES away from the receiver.
+
+* Plug the Super NES _ into a different outlet so that
+computer and receiver are on different circuits.
+
+If necessary, the user should consult the dealer or an experienced
+radio/television technician for additional suggestions. The user may
+find the following booklet prepared by the Federal Communications
+Commission helpful: How to Identify and Resolve Radio/TV
+Interference Problems. This booklet is available from the U.S
+Government Printing Office, Washington, DC 20402.
+
+Stock No. 004-000-00345-4.
+
+===== Page 23 =====
+
+i D EN NEN VULED We \
+
+Left Field Entertainment warrants to the original purchaser of the Left Field
+Entertainment software product that the recording medium on which the
+Game Pak is recorded will be free from defects in material and
+workmanship for ninety (90) days from the date of purchase. Defective
+media retumed by the purchaser during the ninety (90) day period will be
+replaced without charge, provided the returned media have not been
+subjected to misuse, damage, or excessive wear.
+
+Return defective media to point of purchase. You must include a dated
+proof of purchase, a brief statement describing the defect, and your retum
+address. Left Field Entertainment does not warrant that the Game Pak will
+meet the purchaser's specific requirements. ANY STATEMENTS MADE.
+CONCERNING THE UTILITY OF THE GAME PAK ARE NOT TO BE
+CONSTRUED AS EXPRESS OR IMPLIED WARRANTIES
+
+THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES, WHETHER
+ORAL OR WRITTEN, EXPRESS OR IMPLIED. ANY IMPLIED
+WARRANTIES, INCLUDING IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE
+EXCLUDED. IN NO EVENT WILL LEFT FIELD ENTERTAINMENT BE
+LIABLE FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES OF ANY
+KIND IN CONNECTION WITH THE GAME PAK.
+
+Some states do not allow the exclusion or limitation of incidental or
+consequential damages or limitations on how long an implied warranty
+lasts, so the above limitation or exclusion may not apply to you. This
+warranty gives you specific rights, and you may also have other rights which
+may vary from state to state. Address all correspondence to:
+
+LEFT FIELD ENTERTAINMENT
+163 Main St.
+Westport, CT 06880
+203/454-4588
+
+===== Page 24 =====
+
+Watch for more games for the Super Nintendo Entertainment System
+... from out of Left Field!
+
+Left Field Entertainment
+163 Main St.
+Wesport, CT 06880
+203/454/4588
+
+Left Field Entertainment and the Left Field Entertainment logo are
+trademarks of Left Field Entertainment. Nintendo’, Super Nintendo
+Entertainment System’, and Super NES are registered trademarks and
+trademarks, respectively, of Nintendo of America Inc. © 1993 Left Field
+Entertainment. All rights reserved. Printed in Japan.

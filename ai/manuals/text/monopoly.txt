@@ -1,0 +1,1163 @@
+# Monopoly
+source: https://archive.org/details/snes_manual_archive
+pdf: Monopoly (USA) (Rev 1).pdf
+region: USA, Rev 1
+pages: 16
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+Parker Brothers
+Real Estate Trading Game
+
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO" HARDWARE SYSTEM OR GAME PAK.
+
+TABLE OF CONTENTS
+
+INTRODUCTION ..
+HOW TO USE THE CONTROLLER
+TO START A GAME . :
+WHO ARE THE COMPUTER OPPONENTS? ..
+BUYING AND AUCTIONING PROPERTIES
+ASSETS & GET OUT OF JAIL FREE ..
+‘MAIN AND SUB-MENUS ..
+Buy/Sell Buildings
+Mortgage ..
+
+BASIC MONOPOLY™ GAME RULES
+INDEX .
+
+Igstnetion Booklet 1935, 1992; Rich Uncle ©1935 Parker Brothers, Division of Tonks
+Corporation, Bevery, MA 01915. Printed in Japan
+
+===== Page 3 =====
+
+INTRODUCTION '
+
+HOW TO USE THE CONTROLLER
+
+Parker Brothers’ MONOPOLY® Real Estate Trading Game was
+presented to Parker Brothers during the Depression by Charles B. Darrow
+of Germantown, Pennsylvania. Darrow had made the first games by
+
+hhand, given them to friends and sold a few through a Philadelphia
+department store. But as demand grew, he could not keep up with the
+orders and arranged for Parker Brothers to acquire the rights to the game
+in 1935.
+
+Since then, it has become the leading proprietary game not only in the
+United States but throughout the Westemn world, Its published under
+license in 32 countries and in 23 foreign languages!
+
+This Super Nintendo Entertainment System® version of the MONOPOLY
+‘game conforms to all the rules of the board game and some of the rules
+used in tournament play. The beauty of this version is that the system acts,
+as the Banker and takes care of all the accounting and money manage-
+ment tasks—which speeds up play and prevents mathematical errors in
+the High Finance Department!
+
+Note, too, that we've created a special series of 12 Wheel and Deal Preset
+‘games (see page 17). These four-player game setups assume you have
+already acquired certain properties and assign all players a certain amount
+‘of cash, which varies from scenario to scenario, so you can “cut to the
+chase” and begin the game at the high-stakes trading level. You may also
+‘eteate your own preset game by selecting “Options” (see page 15): this
+way, you decide who gets what.
+
+Players are advised to read the Basic MONOPOLY Game Rules at the
+back of this book to learn—or refresh—the basics. Then you'll be ready
+to play against human rivals, or against some of the eight fast-playing,
+sometimes-ruthless computer opponents.
+
+START Button... To bexin the game
+SELECT Button... To call up the Main Menu
+A Button... To
+‘To buy un-owned property you land on
+‘To bid at auction
+‘To move from the Main Menu to a Sub-Menu
+‘To exit from most sereens
+B Button... To send a property to auction
+To quit some screens or menu selections
+X Button... To see all players
+¥ Button... To see Title Deed cards; to Get Out of Jail
+Control Pad... To move and scroll to numbers, letters, tokens, options
+NOTE: There will be brief instructions and reminders on sereen while
+you're playing.
+
+ect and enter all choices
+
+Control Pad vox
+
+Select
+
+===== Page 4 =====
+
+TO START A GAME
+
+Cheek that the Power switch is OFF, Insert the Game Pak as described in
+‘your Super Nintendo Entertainment System manual, and turn the Power
+ON. When the title sereen appears:
+
+1. Hil START... to begin.
+
+2. NUMBER OF PLAYERS... The system will default o 2 players, You
+an play with from 2 (you and one computer opponent, oF you and
+another human) to 8 players. Use the Control Pad to pick the number of
+players, then press the A Button fo select the number.
+
+3. 1S THIS PLAYER HUMAN
+‘OR COMPUTER?...
+
+If Human, press A’to select.
+I-Compuier, move to
+“Computer,” then press A to
+select. If you picked any
+‘computer players, your
+rogues” gallery of possible
+‘opponents will appear (see
+page 6). Use the Control Pad
+to move from portrait to
+portrait; hit the A Button to
+select each rival
+
+ENTER NAME... Use the
+Control Pad to move the yellow square cursor to the first letter of the
+player's name, then hit the A Button to select that letter. Continue until
+you have spelled out the player's name, then move to “OK,” then hit the
+‘A Button to select. (Use the <—at the bottom to backspace and “erase” a
+letier to change the spelling: use the —> to add a space, as in Mary Lou.)
+5. TOKEN... Use the Control Pad to scroll to the Token you want, then
+press A to select. (Computer opponents pick their own tokens
+immediately, so enter the human players first to get first choice.)
+
+There are 8 tokens to choose from: HAT, HORSE, IRON, THIMBLE,
+DOG, WHEELBARROW, CAR, SHOE.
+
+6. Repeat... sweps3, 4 and 5 for all remaining players.
+
+7. Press A... o start the game immediately. Your alternative is to press B
+for Options to preset the gameplay. The one option you may want to pick
+now is Short Game. See page 15 for details on this and all other Options.
+
+4
+
+8. WHO GOES FIRST?... ‘The system randomly picks who goes first and
+
+that player's name appears on the first sereen,
+
+NOTE: Your cash on hand will always be displayed at the start of your
+turn along with your name.
+
+9, ROLL THE DICE... Now it’s time to play! The first player presses A to
+“toll” the dice; the token automatically moves the number of spaces
+
+Ready t0 roll!
+
+‘ILLEGAL MOVES”
+
+‘You can’t get away with any shady dealings! Whenever you try to make
+a move that does not follow the official MONOPOLY rules, the system
+will let you know! The move will not be carried out, and play will resume
+at the point before the illegal move was attempted
+
+===== Page 5 =====
+
+COMPUTER OPPONENTS...
+
+WHO ARE THEY?
+
+Ellzabeh. The sre dane of Newpot
+society, she earned her money tl
+
+Oe eh ond oay. soe ceed Tova
+4s a battleship, and approximately the
+ame Weight, she's a tough opponent
+
+Jeeves... For years an esteemed butler, he
+retired 10 Monaco on his earnings from
+stock market tips overheard at the
+
+sion. He is vedy, vedy British, and
+even more devious.
+
+A former flapper, she is quick
+with her money. She has always wanted
+the finer things in life... like a mansion on
+Park Place.
+
+Paulie... Always the butt of accusations of
+wrongdoings merely because of his erony.
+Capone, Paulie is really a good boy: as he
+is quick to point out, “You can’t prove
+nothin’.” After trading, with him, count
+your fingers!
+
+Gary Cant... A smooth, debonair actor
+Gary still harkens back to his middle class,
+roots. He can be had in a trades just play on
+his childhood memories,
+
+Betty Sue... Elizabeth's private secretary,
+she pays great attention to detail but often
+misses the big picture.
+
+Billy Bob... \ good ole boy. he acquired
+his busines sense in wilt oil Hels
+
+Unfortunately. this d
+translate tog well nteal esac als
+
+Mary Anne... Head of the Department of
+Underachieving Matrons (DUM), she is
+full of big words and small thoughts.
+
+===== Page 6 =====
+
+TO BUY... When your token
+Jands on an unowned piece
+Of real estate—with a “For
+Sale” sign—press A to buy
+it immediately. If you need
+to raise money to buy it, see
+“Mortgage” (page 12). To
+view all of that property’s
+Title Deed card information,
+press Y
+
+TO AUCTION... If you don't
+want to buy the property
+press B to send itto auction,
+‘where all players may
+participate if they wish. The
+auctioneer will run the
+‘auction and determine what
+the bids will be. To bid, use
+the Control Pad to move
+‘back and forth from player
+to player and to up the ante;
+the auctioneer sets each new
+bid. As soon as no one
+makes another bid, he will
+Hash “Going, going, going...” Move the cursor fo your name; press A to
+Ifno one jumps in, it will be accept the auctioneer's bid.
+
+“SOLD! to the highest
+
+bidder.
+
+agen gf
+
+ASSETS... To find out
+everyones’ status at any
+particular time, press X 10
+bring up the Assets screen
+and see:
+
++ Properties owned
+
++ Cash levels
+
++ "Get Out of Jail Free”
+card: If you drew one from
+Chance or Community
+Chest, it will show up here,
+
+Press any bution to exit.
+
+TO GET OUT OF JAIL... You may
+
+L)Press A to roll the dice and try for doubles, OR
+
+2)Press Y to use a “Get Out of Jail Free” card if you have one or
+3)Press Y to pay $50 if you don’t have a card,
+
+Z <
+ve
+*
+\
+
+===== Page 7 =====
+
+| Hit Select to bring up the
+Main Menu. When the
+system asks who itis talking
+to, use the Control Pad 10.
+identify yourself, Press A.
+* Use the Control Pad to
+move between options,
+
++ Hit A to make your
+selection and bring up
+Sub-menus,
+
+* Hit B when you're
+through:
+
+10
+
+Note: The number of.
+Houses and Hotels left in
+the Bank and available for
+sale appears on the main
+sereen at the beginning of
+each player's turn. Watch
+Jor impending shortages!
+
+TO BUY HOUSES &
+
+HOTELS.... Press A to buy
+Houses or Hotels: press B to
+sell them, Use the Control
+Pad to view the Title Deed
+‘cards for the properties you
+‘own: When you reach the one you want to build on, press A. On the next
+scteen, use the Control Pad to enter the number of Houses (or Hotels)
+you
+
+NOTE: If you purchased more than one House, the system will
+‘automatically put the first one on the property you're on, then
+distribute the others evenly among the properties in that color group.
+
+Does Anyone Else Want to Build?... At this point, other players may
+jump in and purchase Houses or Hotels for their own properties by
+pressing the B Button, This is very important if there is a potential
+building shortage. Each player indicates how many he/she wants. If there
+is a shortage, the system automatically starts an auiction for each available
+building,
+
+The au
+SELL: HOUSES & HOTELS... Follow the “Buy” instructions above,
+press B to sell, If-you're selling a Hotel, it will first be “e
+into four Houses: now select Sell Houses fo continue to sell off evenly
+from those properties.
+
+jon follows the usual procedure (see page 8); the highest bidder
+
+===== Page 8 =====
+
+Use the Control Pad to move
+to different properties you
+‘own and display their Title
+Deed cards; the mortgage
+value (50% of the property's
+worth) is displayed halfway
+down, Press the A Button io
+‘mortgage the property you
+stopped on. If you decide
+not to mortgage, press B to
+exit
+
+NOTE: Before you can
+‘mortgage a property, you
+‘must sell any buildings on it
+back to the bank.
+
+To un-mortgage, follow the above procedure to select the property you
+wish (o pay off: press B (o un-mortgage it. Your cash on hand will be
+debited for the value of the mortgage plus 10% interest.
+
+1. Select Trade on the
+Main Menu. Press A
+
+2. Scroll... to select the
+Player yu wis ora
+with; press A to confirm, ae |
+3. Point Rich Uncle's eet" 2H) EX Bev" 9° ,P80CEFT”
+hand... at a menu item and JP* TRADE SCREEN
+press A to selec.
+
+4. Put together your deal:
+PROPERTY: Use the Control
+Pad to scroll through your
+deeds and find one to offer.
+Press A to select it and make
+itpar of your trade: you
+may press A again to
+tinselect tif you want to
+change your offer. Keep
+scrolling and selecting until
+you've picked all the
+Droperties you want to offer
+Hie'B to return tothe main
+Trade sereen
+
+GASH: Use the Control Pad
+{© enter the amount of your
+cash offer: UP raises the
+number, DOWN Towers it
+Hit A to confirm your final cash offer
+Point Rich Uncle atthe other player's name, and repeat the above steps
+forthe other haf ofthe deal
+
+ACCEPT: Once an acceptable deal is set up, move Rich Uncle to Accept
+and press A, or use the Control Pad to further modify the offer. When the
+deal isto everyone's liking, each player in tam presses A to accep.
+REFUSE:... No Deal!
+
+NOTE: You can set up the deal for what you want to receive in a trade
+4s well as what you are willing io offer. This is especially important
+When dealing with computer opponents. Follow the same steps above.
+
+B
+
+===== Page 9 =====
+
+TIMER... If you lected 10
+play a short, timed game,
+this will tell you how much
+time you have left
+
+GAME SPEED. .. Press. A to
+speed up or slow down the
+pace.
+
+DEEDS... To look at all the
+deeds on the board, includ
+ing who owns what, and
+figure what a property is
+worth, When the Title Deed
+is displayed, you will see the
+status:
+
++ Ownership of the property
++ Nu
++ Mortgage/LUn-mortgage status
+
+‘The game board will also be displayed it, t00, indicates the status of each
+property. Use the Control Pad to move to the property you want to
+review. Press B to exit
+
+COMPUTERIZE... To change Human player to @ Computer player if
+somebody wants to leave the game. Once you have converted the player,
+‘you can’t un-do the switch
+
+TURN ORDER. .. To see the order of the players,
+
+END GAME... To end the game for any reason. The Assets sereen appears
+and shows who won. You may then tn off the unit
+
+ber of Houses/Hotels and rent
+
+OPTIONS... acthe
+beginning of each game,
+after you have selected the
+number of players, you may
+press A to start a regular
+‘game. Or you may hit B 10
+bring up the Options screen:
+This allows you to 20,
+player-by-player to set cash
+and assign properties, and
+place Houses and Hotels
+bofore the first roll oF the
+dice; o select a Short Game
+‘or to Load a Preset Gam
+so you begin right in the thick of things!
+
+Note: Each of the options marked with an ® affects individual players;
+the system will ask which player’s “assets” you are designing. Repeat
+all © steps for each player as you go along, then place Houses and
+Hotels on the properties
+
+“Load Preset Game” pre-sets many of these options for you.
+
+*SET CASH... Use UP Arrow to raise and DOWN to lower how much
+cash each player starts with. Press A to select.
+
+*ASSIGN PROPERTIES... Use Control Pad to move around the board.
+hitting A to assign a property to that player: property values are not
+deducted from players’ cash. Hit B to quit this option.
+
+*PLACE TOKEN... Use Control Pad to place each token where you want it
+to be at the game's official start, Press A to select
+
+*PLACE BUILDINGS... (You may do so only if you own all the properties
+ina particular color group.) Use Control Pad to move through property
+deeds to the color group where you want to place buildings. Press A. Use
+UP on the Control Pad to fill in'the number of Houses you want to place;
+if you change your mind, use DOWN to lower the number. Press A to
+select, The system will automatically distribute buildings evenly across
+all the properties in this color group.
+
+If you've already placed four Houses on each property in a color group,
+‘you may replace the four Houses with a Hotel Irom the bank
+
+cos
+Loap preset cane
+
+Is
+
+===== Page 10 =====
+
+‘SHORT GAME... To play a short game, use UP/DOWN on the Control
+Pad to enter the number of minutes you want to play; press A to select
+that number. When the time in a limited game expires, the game
+automatically and immediately ends and the winner is displayed,
+
+If you picked Short Game, the system will ask if you want it to randomly
+deal out two Title Deed cards to each player (so you don’t have to spend
+time acquiring property). Press A if you want it fo deal, Press B if you
+‘want to skip this option and exit
+
+LOAD PRESET GAME... Use
+to load one of the 12 preset
+‘games (see following paze),
+‘Use Control Pad to scroll
+through your choices. Press
+‘A to select the one you
+‘want
+
+These special games for two
+to four players assume you
+have already acquired the
+properties you see listed,
+and each player is given a
+certain amount of money-
+from $300 t0 $1600
+depending on the game.
+Note: If there are just two players, the system automatically combines
+the resources from Player I and Player 3, and Player 2 and Player 4.
+If there are three players, it deletes Player 4 entirely.
+
+16
+
+‘Number 1—The Big Boys
+At players start wih $1000
+Phyer!
+ak Blues
+Dark Purples
+
+Player 2
+Yellows
+
+Player 3
+Reds
+
+Player 4
+Greens
+
+Number 2—Trader's Delight
+Al players start with $500
+Player 1
+Boardwalk
+Pacific Avenue
+Kentuehy Avenue
+Ponssylvania Reroad
+St Jatnes Phice
+Conncetiot Avenue
+Player 2
+‘North Carolina Aventis
+
+Mediterranean Avene
+Player 3
+Peasylvanio Avenue
+Aftnie Avenue
+iiois Avene
+‘Termessee Avenue
+Virginia Avenue
+alte Avene
+Reading Rtlroad
+
+‘Marvin Gardens
+BAO Ra
+
+‘New York Avenue
+lectne Company
+States Avene
+rtm Avenue
+
+‘Number 3—Even Steven
+All players start ith $1000
+Player |
+
+Boardwalk
+
+Stes Avenue
+Kentucky Avene
+RAO Ratload
+Baltic Avene
+
+Player 2
+Noah Carolina Avenue
+New York Avenue
+Reading Railroad
+Indln Avenue
+Vermont Avene
+
+Player 3
+Pacific Avenue
+Miinois Avenue
+Tennessee Avene
+Onienal Avenue
+Pennsylvania Railroad
+
+Player
+Park Place
+Store ine Railroad
+‘Mediterancan Avenue
+
+jor Avenue
+
+Virgina Avene
+
+‘Number 4—Small Stuff
+All players start with $500
+Al plvers sat on Froe Parking
+Player 1
+
+Tight lcs
+
+llties
+
+Prayer?
+Tight Purples
+Player 3
+Oranges
+Player
+
+Dark Purples
+All Railoads
+
+===== Page 11 =====
+
+‘Number 5—Money Isn't Everything Number 7—Building Shortage
+
+All players start with $300
+
+‘Shoe ine Railroad
+
+Player 2
+ah Parples
+
+Bath Utes
+
+AAT Raia except Short L
+
+‘Number 6—Short and Sweet
+All players start wih $500
+Player
+
+‘Greens with 4 Houses
+
+Player 2
+
+Reds with Howls
+Player 3
+
+Yellows with Hotels
+
+ayer t
+Tight Purples with Hotels
+Dark Purples with Hotels
+AIT Rao
+
+All players star with $1500,
+Player |
+Recs with Hotels
+ark Purples with 4 Houses each
+‘I Rilo
+Player 2
+‘Yellows with 3 Houses each
+[ight Purples with Hotels
+Player 3
+Tight Blues with Hotels
+Oranges wit H
+Both Uaities
+Player 4
+‘Greens with 4 Houses
+Boardwalk with 2 Houses
+Park Place with | House
+
+‘Number 8—Ht's a Start
+Al players start with $1500
+Player 1
+Toi Avemie
+‘avenue
+Penns) vane Rid
+Player 2
+Ventnor Avenue
+Virginia Avene
+BAO Railroad
+Player 3
+‘Vermont Avenue
+Pennsylvania Avenue
+Reading Raload
+Player 4
+Park Place
+atic Avenue
+‘Shot Line Rao
+
+‘Number 9—Jump in the Middle Number 10—Corner the Market
+
+ers tart with $1000
+
+eo seme
+
+eh Blas
+
+All Railroads except Reading
+Boardwalk
+
+Marvin Gardens
+
+Payer 3
+‘Groene
+Stchares Place
+Ailntic Avenue
+
+Vis Avene
+sie Company
+
+Digert
+Reds
+
+Reading Railroad
+
+States Avenue
+
+Water Works
+Park Place
+
+All players stan with $1500
+
+Mediterranean Avenue
+Balke Avenue
+Player?
+Vermont Avenue
+
+States Avenue
+Virgina Avenue
+leer Company
+
+Player 3
+St James Phase
+‘Tennensee Avenue
+[New York Avenue
+‘Kentucky Avenue
+
+Player
+‘Aulantic Avenue
+Ventnor Avene
+Marvin Ganlens
+Pacific Avenue
+
+===== Page 12 =====
+
+‘Number 11—Championship Game
+Al players star with $1600
+Player
+
+Pennsylvania Avenue
+
+Noth Carolina Avenue
+
+Penns vania Railroad
+
+Player 2
+‘dante Avenue
+
+3
+Kentucky Avenue
+
+Reading Raroad
+Player
+‘St James Place
+Tennessee Avene
+‘New York Avene
+Boar
+Meahteranean Avene
+‘Short Line Raleood
+‘Odental Averie
+
+‘Number 12—Ht's Not Fair
+AA payers start with $1500
+Player 1
+
+Note: This player asthe advantage, so let
+the youngest of least experienced
+Player {Enter hisher name fist when
+stating anew game sce pae 9).
+“Meaiteranean Avenue with 1 Hotel
+Baltic Avenue with 1
+Oviental Avene
+Vermont Avene
+Connecticut Avenue
+AU Railroads
+Phayer 2
+Pacific Avenue
+North Carina Avenue
+Kentucky Avenue
+New York Avene
+Ventnor Avenue
+lecste Company
+Player 3
+Thdiana Avenue
+Minos Avenue
+Si Charles Place
+Tonnessse Avene
+Allantic Avene.
+
+Player 4
+
+‘These are the traditional and internationally accepted rules for the board
+game, plus certain tournament rules. We have re-worded and revised
+Some sections to reflect the fact that the game will be played on the Super
+Nintendo Entertainment System, The screen will indicate certain basic
+instructions as you proceed through a game.
+
+OBJECT... To become the wealthiest player by buying, renting and
+selling property
+
+PREPARATION... Enter your name and pick a token on-screen. The
+system Banker automatically allots each player $1500 from the Bank and
+keeps track of all other equipment
+
+BANKER... The system will always act as Banker.
+
+THE BANK... Besides its money, the Bank holds the Title Deed Cards and
+Houses and Hotels prior to purchase by the players. The Bank pays
+salaries and bonuses. It sells and auctions properties and distributes their
+proper Title Deed cards, sells Houses and Hotels, and loans money when
+required on mortgages,
+
+‘The Bank collects all taxes, fine
+Houses and Hotels (at half price)
+Note: All of these functions are performed automatically by the system.
+
+loans and interest and will buy back
+
+THE PLAY... ‘The system picks who goes first, and that player uses the A
+Button to “roll” the dice. The token is automatically moved that number
+of spaces along the board. After the play is completed, the tum passes to
+the next player, (The system sets the order of plays to see the sequence of
+players, sce page 14) The tokens remain on the spaces occupied and
+proceed from that point on the player's next tum. One or more tokens
+may rest on the same space at the same time,
+
+Depencling on which space your token reaches,
+‘you may be entitled to buy feal estate or other
+properties or be obliged 10 pay rent, pay
+
+taxes, draw a Chance or Community Chest
+
+If you throw doubles, move, then roll and
+
+===== Page 13 =====
+
+G0... ach time you land on or pass over “GO,” the Bank pays you $200
+lary." This amount is added to your “account” and the new total
+
+uvlomatically appears on-screen every time you begin your turn
+
+BUYING AND AUCTIONING PROPERTY... Whenever you land on an
+
+tunowned property, you may bul it from the Bank at its displayed price. If
+
+4you don’t want i, i will be auctioned, and the Banker will sll 10 the
+
+highest bidder.
+
+PAYING RENT... Whenever you land on property owned by another
+player, the owner “collects” rent from you in accordance with the
+information displayed on its Tite Deed card, The syste handles the
+
+‘whole transaction,
+
+IF the property is mortgaged, no rent can be collected.
+
+Itisan advantage to hold all Title Deeds in a color group (i.c., Boardwalk
+and Park Place, or Connecticut, Vermont and Oriental Avenues) because
+the owner may then charge double rent for unimproved properties in that
+‘sroup. This rule applies to unmorigaged properties even if another
+property in that color group is mortgaged
+
+Itis an even greater advantage to have Houses or Hotels on properties,
+because rents are much higher than for unimproved properties.
+
+CHANCE and COMMUNITY CHEST... Whenever you land on either of
+these spaces, the system gives instructions to follow—and automatically
+‘hakes the appropriate move or handles any monetary transaction. Press
+Ato proceed.
+
+‘The “Get Out of Jail Free” card is held in a player's “account” —and will
+show on his Assets screen—until needed, To use it, press Select; see
+page 9. After being used, it is “retuned” to the “pack.
+
+INCOME TAX... When you land on “Income Tax” you have two options:
+Estimate your tax at $200 and pay the Bank, or pay 10% of your total
+worth to the Bank, Your total worth is all your cash on hand, printed
+prices of mortgaged and un-mortgaged properties, and the cost price of
+all buildings you own.
+
+You must decide which option you want before you add up your tot
+wort
+
+JAIL... You land in Jail when...
+(1) Your token lands on the space marked “GO TO JAIL,” OR
+(2) You are allocated a card marked “GO TO JAIL,” OR
+
+(3) You throw doubles three times in succession.
+If you are sent to Jail, you cannot collect $200
+salary on that move since, regardless of
+Where your token is on the board, you
+must go directly to Jail. Your turn ends
+when you're sent to Jail
+
+Ifyou are not sent to Jai but in the
+ordinary course of play you
+
+that space, you are “Just Vi
+‘you incur no penalty, and you move
+dahead in the usual manner on your
+next turn.
+
+You can get out of Jail if you...
+
+(1) Throw doubles on any of your next three turns; if you succeed in
+doing this, immediately move forward the number of spaces shown by
+‘your doubles throws even though you have thrown doubles, you do not
+take another turn, OR
+
+(2) Use a “Get Out of Jail Free” card if you have one, OR
+
+(G) Pay a fine of $50 before you throw the dice on either of your next
+bvo turns.
+
+If you do not throw doubles by your third turn, you must pay the $50
+fine, You then get out of Jail and immediately move forward the number
+‘oF spaces shown by your throw.
+
+Even when in Jail, you may buy or sell property, buy or sell buildings,
+and collect rents,
+
+FREE PARKING... A player who lands on this space does not receive any
+‘money, property or reward of any kind. This is just a “free” resting place
+HOUSES... When you own all the properties in a color group, you may
+buy Houses from the Bank and erect them evenly on those properties.
+Ifyou buy one House, you may put iton any one property. The next
+House you buy must be erected on one of the unimproved properties of
+this or any other complete color group you may own.
+
+23
+
+===== Page 14 =====
+
+The price you pay the Bank for each House is shown on your Title Deed
+card for the property on which you erect the House
+
+‘Aa oirnel. you can ell calltel dolble teat froin) opponent who ints
+6n the uninproved properties of your complete color group.
+
+‘You may buy and erect al any time as many Houses as your judgement
+and finances will allow. But you must build evenly, ie., you cannot erect
+‘more than one House on any one property of any color group until you
+have built one House on every property of that group. You may then
+begin on the second row of Houses, and so on, up to a limit of Four toa
+property. For example, you cannot build three Houses on one property if
+You have only one House on another property of that group,
+
+‘As you build evenly, you must also break down evenly if you sell Houses
+back to the Bank (see “Selling Property,” below)
+
+HOTELS... When you have four Houses on each property of a complete
+Color group, you may buy a Hotel from the Bank and erect iton any
+property ofthat color group, The four Hovses from tat property are
+retumed to the Bank, and you pay the price for the Hotel as shown on the
+screen. Only one Hoiel may’ be erected on any one property
+
+BUILDING SHORTAGE...When the Bank has no more Houses to sell
+players wishing to build must wait for some player to turn back or sel
+Houses to the Bank before building. If there are a limited number of
+Houses and Hotels available and two or more players wish to buy more
+than the Bank has, the Houses or Hotels must be sold by auction (se
+page 8) to the highest bidder. Hotels take priority over Houses when
+bought or auetioned
+
+SELLING PROPERTY... Unimproved properties, railroads and utilities
+{ut not buildings) may be sold to any player asa private transaction for
+any amount the owner can get. However, no property can be sold to
+another player if buildings are standing on any properties ofthat color
+group. Any buildings so located must be sold ack to the Bank before the
+Owner can sell any property of that color group,
+
+Houses and Hotels may be sold back to the Bank at any time for one balf
+the price paid for them,
+
+All Houses on one color group may be sold one by one, evenly, in
+reverse of the manner in which they were erected. All Hotels on one color
+group may be sold at once or they may be sold one House ata time,
+evenly, in the reverse of the manner in which they were erected.
+
+24
+
+MORTGAGES... Unimproved properties can be mortgaged through the
+Bank at any time. Before an improved property can be mortgaged, all the
+buildings on all the properties of its color group must be sold back to the
+Bank at half price. The mortgage value is displayed on each Title Deed
+card. No rent can be collected on the mortgaged properties or utilities, but
+rent can be collected on un-mortgaged properties in the same group,
+In orderto lit the mortgage, you must pay the Bank the amount of the
+‘mortgage plus 10% interest. When all the properties of a color group are
+no longer mortgaged, you may begin to buy back Houses at full price.
+‘The player who mortgages property retains possession of it, and no other
+player may secure it by lifting the mortgage from the Bank. However,
+‘You may sell this mortgaged property to another player at any agreed
+price. The new owner has the option of lifting the mortgage at once by
+paying off the mortgage plus 10% interest to the Bank. Ifthe new owner
+Sue a ee
+nn buying the properly. and if the morigage is lifted later, must pay an
+ditional 10% interest a5 well asthe amount ofthe mortgage tothe
+Bank.
+BANKRUPTCY... You are bankrupt when you owe more than you can pay
+either to another player or to the Bank.
+If your debt is to another player, you tum over to that player all that you
+have of value and retire from the game. In the making ofthis settlement,
+if you own Houses or Hotels, you must return these to the Bank in
+exchange for one half the amount of money paid for them.
+This cash is given to the creditor. If you have mortgaged property, you
+also turn this property over to your creditor, but the new owner must at
+‘nce pay the Bank the amount of interest on the
+foan, which is 10% of the value of the
+property. Its possible lor the player
+collecting the debt to go bankrupt if
+the 10% cannot be paid.
+After paying up, the new owner
+may, at his/her option, pay the
+principal or hold the property until
+Some later turn, at which time the
+mortgage may be lifted.
+
+===== Page 15 =====
+
+Should you owe the Bank, instead of another player, more than you can
+pay (because of taxes or penalties) even by selling your buildings and
+mortgaging property, you must turn overall your assets to the Bank,
+
+‘The Bank immediately sells by auction all property so taken, except
+buildings.
+
+A bankrupt player must immediately retire from the game. The last player
+left in the game wins
+
+MISCELLANEOUS... Money can only be loaned to a player by the Bank,
+and then only by mortgaging property
+
+We will be happy to answer your questions or comments about this
+MONOPOLY" game. Write to:
+
+Consumer Relations Department, Parker Brothers,
+P.O. Box 1012, Beverly, MA 01915,
+
+26
+
+| INDEX
+
+A Button
+Assets
+Assign Properties.
+‘Auction Properties.
+B Button coon
+Bank/Banker
+Bankruptey ..
+Basic MONOPOLY Game Rules ..
+Bidding at Auctions
+Building Shortage ..
+Buildings ...
+Buying and Auctioning Properties ..
+Buying Buildings
+Cash, to set
+Chance Cards ..
+Community Chest Cards ..
+Computer Opponents ..
+Computerize a Player .
+Controller .
+Deeds
+Dice, to roll
+End Game
+Free Parking
+Game Speed
+Get Out of Jail
+60 .
+Houses and Hotels ..
+‘Human/Computer
+
+11, 23,24
+Had
+
+27
+
+===== Page 16 =====
+
+Income Tax...
+Jail
+Main Menu .
+Mortgage.
+‘Name, to enter ....
+‘Number of Players
+Options
+Play .
+Preset Games...
+Properties
+Property Ounership, see Assets
+Rent ..
+SELECT Button
+Sell Buildings ..
+Selling Property .
+Set Cash ....
+Short Game
+
+START Button ..
+Start Game
+Sub-menus ..
+Timer
+
+Turn Order
+Un-mortgage
+UP/DOWN/LEFT/RIGHT Control Pad ee
+X Button .
+Y Button
+
+28
+
+90-DAY LIMITED WARRANTY
+Parker Brothers warrants to the original purchaser of this software
+product that the medium on which this computer program is
+fecorded is tree from defects in materials and workmanship for a
+otiod of ninety (90) days from the date of purchase. This software
+program is sold “as is.” without express or implled warranty of any
+kind, and Parker Brothers not liable for any losses or damages of
+any kind resulting from use of this program, Parker Brothers agrees
+fora period of ninety (90) days from date of purchase to either
+Tepat or replace, at its option, free of charge, any software
+product. which is sent postage paid, with proof of purchase
+Showing date of purchase. to: Parker Brothers, Atin: Consumer
+Relations Department, 50 Dunharn Road, Beverly, MA 01916. This
+‘warranty is not applicable to normal wear and tear. This warranty
+Shall not be applicable and shall be void if the defect in the
+Software product has arisen through abuse, unreasonable use,
+mistreatment or neglect. THIS WARRANTY ISIN LIEU OF ALL OTHER
+WARRANTIES AND NO OTHER REPRESENTATIONS OR CLAIMS OF ANY
+NATURE SHALL BE BINDING ON OR OBLIGATE PARKER BROTHERS, ANY
+IMPLIED WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT,
+INCLUDING WARRANTIES OF MERCHANTABILITY AND FINES FORA
+PARTICULAR PURPOSE, ARE LIMITED TO THE NINETY (90) DAY PERIOD
+DESCRIBED ABOVE. IN NO EVENT WILL PARKER BROTHERS BE ABLE
+FOR ANY SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES.
+RESULTING FROM POSSESSION, USE OR MALFUNCTION OF THIS
+SOFTWARE PRODUCT.
+
+Some states do not allow limitations as te how long an implied
+warranty lasts andjor exclusions or limitations of incidental or
+Consequential damages so the above limitations and/or exclusions
+Oflabiity may not apply fo you. This warranty gives you specific
+fights, ond you may ako have other rights which vary fom sate to,
+sate.

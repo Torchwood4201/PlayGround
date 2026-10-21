@@ -1,0 +1,1710 @@
+# F1 Pole Position 2
+source: https://archive.org/details/snes_manual_archive
+pdf: F1 Pole Position 2 ( PAL ).pdf
+region: PAL
+pages: 21
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-2G-EUR
+
+Je= a POLE
+2 of = 4
+
+INSTRUCTION BOOKLET
+
+UBI SOFT
+
+Entertainment Software
+FE nA
+a
+Pp FORMULA1
+WORLD
+‘CHAMPIONSHIP
+
+@,
+
+FOCA suman
+
+===== Page 2 =====
+
+LICENSED BY
+‘Koop this information Gardez ces informations / Diese Information aufbewahven
+(Nintendo) Censervare quest iniormazion/ Guarde estas informes / Bewaar daze inormati
+
+C Glintends) Nintendo of Europe GmbH : 63760 GroBostheim, Deutschland
+Behall denna information / Behold denne information / Pida tama ticto
+
+NINTENDO @, SUPER NINTENDO ENTERTAINMENT SYSTEM™, @) AND <4) ARE TRADEMARKS OF NINTENDO 00.7.
+
+THiS SEAL IS YOUR ASSURANCI ESTE Gri. 65-10 EGURO DE QUE
+HINTENDO HAs APPROVED THE QUALITY OF NnTENDOY ’ACCALIDAD DE
+THIS PRODUCT ALWAYS LOOK F AL ESTE PROD me 0 BUSCA SIEMPRE ESTE
+
+WWENBUYING GAMES AND ACEESSORIES TO SELL
+ENSURE COMPLETE COMPATIBILITY WITH ac
+
+YOUR SUPER NINTENOO ENTERTAINMENT ‘0 CONT
+
+SySTEM invtenoO CNTERTAIMENT SYSTEM
+
+CE SCEAU EST VOTRE ASSURANCE QUE (GEL WAARGORGT U, OAT Or
+NINTENDO A APPROUVE CE PRODUIT ET QUIL_ DOOR NINTENDO Is GECONTROLEERD EN DAT
+EST CONFORME AUKNOMMES DTXCELLENCE HET QUACONSTTUCTIE TCTHOUNDAA IID
+ENMATIERE DE FABRICATION. DE FABLITEET UMENTW
+
+‘SURTOUT. DE QUALITE. RECHERG
+SSCEAU LORGQUE VOUS ACHETE? DE
+ETDES ACCESSOIRES POUR ASSURER UNE _ACCESSOINES ALTLIO OP OT ZEGEL. ZODAT U
+TOTALECOWPATIOLITE AVEC VOTRE SUPER VERZEKERO DUNT Van FEN HOLD WeTWtND
+
+NINTENOO ENTERTAINMENT SYSTEM. SUPER NINTENDO ENTERTAINMEN!
+
+DDIESES QUALITATSSIEGEL IST OIE GARANTIE TT GANANTERAR AT HINTENOO
+
+‘QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO.
+
+ee
+
+QUESTO PRODOTTO, RICHEDLO SEMPRE Mt
+‘ALLACQUISTO D1 GIOCHI ED ACCESSO IMITET MED OY HOPE HT ENDO.
+ASSICUMARELACOMPLETA COMPATIOLITA,_ ENTERTAIAAEHTY HV EA
+‘CON i TUO SUPER NINTENDO
+r TAMA TARRA VAKUUTTAA.ETTA NINTENDO ON,
+ENTERTARMENT SYSTEM: HIYVAKSYNYT TAMAN TOOTTEEN UAADUN
+TARKIOTA AIA TAMA TATU CNC KUN
+TAWVIKKEITAJOTTA
+wT
+ENTERT i SYSTEM YHTEENSOPMIA
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTION:
+
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEUILLEZ LIRE ATTENTIVEMENT LA NOTICE "INFORMATIONS ET PRECAUTION
+EMPLOI" QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LE
+ACCESSOIRES AVANT DE LES UTILISER,
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER,
+NINTENDO HARDWARE, WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG.
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA Di USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+SYSTEM™ LE CASSETTE O GLI ACCESSORI.
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEOJUEGO 0 ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE BIJ DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO.
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+I BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED £
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR,
+
+ADVARSEL : L/ES FORBRUGERINFORMATIONEN OG HAEFTET MED SIKKEFHEDSMEGLIY
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HANDWANI
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISESTI LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEL
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAI MUUN VAURSTI YTTOA.
+
+SOMMAIRE
+
+Démarrer le jeu.
+Contréles
+
+Mode World Grand Prix
+Mode Battle..
+
+Mode Test run.
+
+Mode Edit
+
+Configuration.
+
+Les stands
+
+Réglages de votre voiture
+
+L’écran de jeu.
+CONTENTS .
+INHALT
+
+ae
+
+See eee ee
+
+===== Page 3 =====
+
+DEMARRERLE JEU — CONTROLES
+
+Lorsque I'écran de présentation apparait,
+
+sélectionnez votre mode a laide de la croix (is
+5 PRES SS
+
+de direction, puis validez avec le bouton B
+
+pour lancer le jeu.
+
+ns
+
+Permet d’afficher votre
+
+Permet de modifier la
+position actuelle
+
+durée du jeu
+*Permet d’annuler votre
+
+choix
+
+choix
+
+*Noir: Pendant la course
+*Bleu: Dans les menus
+
+*Permet de valider vos
+
+*Accélérer
+
+WORLD GRAND PRIX
+Seul ou a deux joueurs, participez a une saison de Grands Prix.
+
+BATTLE
+Seul contre l'ordinateur, ou a deux, participez a une course en
+conditions réelles.
+
+start
+
+TEST RUN
+C’est le mode d’apprentissage des pistes. Il vous permet de tester
+tous les circuits par tous les temps.
+
+Passer la vitesse
+supérieure
+
+start et select, permet
+d'abandonner la course.
+
+En appuyant en méme temps sur
+
+EDIT MODE 5
+Ce mode vous permet d’entrer, puis de sélectionner de nouveaux sg a
+3
+pilotes. > = 2
+y 2
+s =
+& 3
+RECORD E
+; 2
+Ce mode vous permet de visualiser les meilleurs temps pour chacune S)
+3
+fs 2
+des courses. gse 5 £3
+oo} ares ag
+Eh eae ot
+og 3
+CONFIG Srey hl
+Pour configurer vos conditions de course. Bass 8633
+Scie este
+Ne ze
+sige gate
+Bases Eu
+®@o352 52
+Posse 23
+
+FIG
+
+Cee |
+
+===== Page 4 =====
+
+WORLD GRAND PRIX Ha
+
+Enregistrer votre nom
+
+Placez le curseur sur la lettre que vous voulez imprimer
+puis validez avec le bouton B. Lorsque toutes les lettres
+sont entrées, placez le curseur sur END et validez avec
+le bouton B.Le curseur du joueur 1 est bleu et celui du
+joueur 2 est rouge.
+
+Sélectionner votre pilote
+
+En appuyant sur les touches haut et bas de la
+croix de direction, sélectionnez votre pilote et
+validez en appuyant sur le bouton B.
+
+Menu
+
+‘Apres avoir sélectionné votre pilote, un écran indiquant
+le tracé du circuit, les caractéristiques de course et le
+menu de sélection apparait. Déplacez-vous dans le
+
+direction et validez avec le bouton B.
+
+Setting
+
+Pour déterminer les réglages de votre voiture.
+
+Free Run
+
+Ces essais libres vous permettent de faire quelques tours de pistes pour
+vérifier les réglages de votre voiture et prendre contact avec le circuit.
+Qualify
+
+Il s'agit des essais qualificatifs, qui permettront de définir votre position
+
+sur la grille de départ. Aprés vos trois tours d’essais qualificatifs, vous
+accédez directement a la course.
+
+Race
+
+Cest la course réelle. Avant de démarrer la course, vous pouvez modifier les
+réglages de votre voiture. Si vous n’avez pas effectué les essais quaificatits,
+vous partirez en demiére position. Si vous terminez la course dans les six
+premiers vous marquerez des points.Vous pouvez abandonner la course
+lorsque vous étes aux stands, en appuyant en méme temps sur Select + Start.
+Point Data Data Save
+
+Vous permet de consulter les Vous permet de sauvegarder les
+résultats du championnat en cours. — données du jeu.
+
+BATTLE
+
+Choix de la piste
+
+Aprés avoir sélectionné le mode Battle, un écran
+semblable a celui de droite et affiché. Déplacez-vous
+dans le menu a l'aide de la croix de direction et modifiez
+chacun des critéres proposés : Sélection du circuit,
+nombre de tours, conditions météo, ennuis mécaniques
+‘u non (trouble on/off). Lorsque tous vos choix sont faits,
+placez-vous sur exit et validez avec le bouton B.
+
+Choix du pilote
+
+‘Sélectionnez votre pilote a laide des touches haut et bas
+de la croix de direction, puis validez avec le bouton B.
+
+Choix des adversaires
+
+Pour sélectionner vos rivaux, validez avec le
+bouton B les noms des pilotes contre lesquels
+vous souhaitez courir dans la liste qui vous est
+proposée. Si vous souhaitez quills soient tous
+présents sélectionnez “FULL ENTRY”. Pour
+terminer, placez-vous sur EXIT et validez avec le
+bouton B pour accéder a I'écran suivant.
+
+Machine Setting
+
+Avant de commencer la course, vous pouvez
+effectuer les réglages de votre voiture. Pour plus
+de précisions reportez-vous a la page 10. Quand
+vous sélectionnez EXIT, la course commence.
+
+Ala fin de la course, un écran affiche les résultats et vous propose les
+écrans suivants :
+
+- TRY AGAIN... .Recommencer la méme course
+- CHANGE COURSE. ..Courir sur un autre circuit
+- EXIT, .Terminer le jeu et revenir a I’écran
+
+principal.
+
+FIG
+
+===== Page 5 =====
+
+TEST RUN
+
+Il s'agit de séances d’essais libres.
+
+Choisissez votre circuit, les conditions météo, le nombre de
+tours que vous souhaitez effectuer. Puis sélectionnez votre
+voiture. Enfin procédez aux réglages de votre voiture. Le
+départ a lieu depuis les stands. Pendant ces essais, vous
+pouvez modifier les réglages de votre voiture en appuyant sur
+START + SELECT.
+
+MODE EDIT
+
+C’est le mode qui vous permet de construire votre propre
+voiture et votre propre team. Il vous donne accés au menu
+suivant :
+
+Member Clear
+
+Lorsque vous avez déja choisi une configuration
+personnalisée, cette fonction vous permet de revenir a la
+configuration par défaut.
+
+Files
+
+Vous permet de sauvegarder ou de charger une configuration
+personnalisée.
+
+Edit
+
+Vous permet de créer une configuration personnalisée.
+
+Exit
+
+Vous raméne au menu principal.
+
+Lorsque vous avez sélectionné EDIT, le menu suivant apparait :
+Driver Edit
+
+Pour créer votre pilote : Nom, date de naissance, nationalité,
+visage.
+
+Entry Member
+
+Pour placer votre pilote ou les « guest drivers » (pilotes
+invités) dans les teams de votre choix.
+
+Engine Contract
+
+Pour affecter différents moteur sur les chassis. Ex : Moteur
+Ford sur Williams.
+
+Exit
+
+Pour revenir au premier menu Edit.
+
+SSB
+
+===== Page 6 =====
+
+Cee ee
+
+CONFIG
+
+Computer level : Vous permet de définir la rapidité des autres
+concurrents sur une échelle de 0 a 3 ; 3 étant le plus rapide.
+
+Machine touch : Pour déterminer l’incidence d'un contact
+avec un autre véhicule.
+
+0.Pas du tout d'incidence
+
+1.Seul un gros choc aura une incidence
+
+2.A l'exception des pneus, tout choc aura une incidence
+3.Tout contact a une incidence
+
+Machine Damage : Pour définir le degré d’'endommagement
+de votre véhicule sur une échelle de 0 a 3. 0 étant le
+minimum.
+
+World GP Lap : Vous permet de définir le nombre de tours a
+parcourir en mode Grand Prix. Vous avez le choix entre 10,
+20, 30, 40 ou MAX; MAX correspondant au nombre de tours
+effectué réellement pour chaque Grand Prix.
+
+Weather : Vous permet de définir les conditions météo en
+mode Grand Prix.
+
+Real : Conditions météo identiques a celles de 1993.
+
+Normal : Les conditions météo sont déterminées au hasard.
+
+Sound : Vous permet de sélectionner votre mode sonore :
+Mono ou Stéréo selon votre téléviseur.
+
+Pour rentrer aux stands, prenez la piste
+de décélération, indiquée par des
+| fleches jaunes. Les réparations seront
+effectuées automatiquement. Toutefois
+si vous souhaitez changer votre
+équipement pneumatiques, utilisez les
+touches gauche et droite de la croix de direction, puis validez
+avec le bouton B.Les indicateurs de dommages vous sont
+indiqués par une variation de couleur : du jaune pour de
+légers dégats au rouge pour vous indiquer une situation de
+danger.
+
+WIN : En cas de choc, un aileron endommagé diminue votre
+vitesse et votre tenue de route.
+
+TIR : Pendant la course, vos pneus s'usent et l'adhérence de
+votre voiture s'en trouve diminuée.
+
+SUS : Collisions ou sorties de pistes peuvent endommager
+votre suspension et donc diminuer votre tenue de route.
+
+BRA : Au fur et a mesure de leur utilisation l'efficacité de vos
+freins diminue.
+
+GER : Si votre boite de vitesse est endommagée, la reprise
+
+de votre voiture sera plus faible et vous contrélerez moins
+bien votre véhicule.
+
+PUD
+
+Be ee
+
+©
+Bs a
+
+===== Page 7 =====
+
+eee eee
+
+MACHINE SETTING =|, |
+
+AUTO SET : Pour utiliser les réglages
+par défaut
+
+STEER : Pour régler la souplesse de la
+direction et le retour du volant aprés un
+tournant.
+
+Type 1 : Le volant revient un petit peu
+Type 2 : Le volant ne revient pas du tout
+Type 3 : Le volant revient automatiquement (configuré par
+défaut)
+
+Type 4 : Le volant revient en ligne en appuyant sur la touche
+opposée de la croix de direction.
+
+Par ailleurs, plus vos réglages seront proches de EASY, plus
+votre direction sera souple.
+
+TYRE Vous pouvez sélectionner des pneus slick (temps sec)
+ou rain (pluie) et définir la dureté de la gomme :
+
+HARD, gomme dure de longue durée, mais de faible
+adhérence.
+
+SOFT, gomme tendre de courte durée, mais de forte
+adhérence.
+
+GEAR Vous pouvez choisir :
+
+une boite a rapports courts, accélération puissante, mais
+vitesse de pointe inférieure,
+
+une boite a rapports longs, accélération moins puissante, mais
+vitesse de pointe élevée.
+
+MAN/AUTO Vous avez le choix entre 3 types de transmission :
+Automatique, manuelle 5 ou 6 vitesses.
+
+FT
+
+BRAKE : Il existe 7 réglages possible de freinage, entre SOFT
+(tres résistants, mais peu efficaces) et HARD (trés efficaces,
+mais peu résistants).
+
+SUSPENSION : Pour déterminer la stabilité du chassis de la
+voiture, il existe 7 réglages entre SOFT (souple, peu
+d’adhérence, mais résistante) et HARD (dure, peu résistante,
+mais donnant beaucoup d’adhétence).
+
+WING : Pour régler l'aérodynamisme, il existe 7 réglages entre
+MAX SPEED, qui privilégie la recherche de vitesse et DOWN
+FORCE qui axe sur une plus grande stabilité de votre
+véhicule.
+
+METER : Choisissez votre modéle de compte-tours :
+Analogique ou Digital.
+
+PIT IN : Sélectionnez le type d’intervention qui sera effectuée
+lorsque vous rentrerez aux stands.
+
+Auto 1: Toutes les piéces ayant subi des dommages seront
+réparées. C'est I'intervention la plus longue
+
+Auto 2: Toutes les piéces pour lesquelles les dommages sont
+signalés en jaune seront réparées.
+
+Auto 3: Toutes les piéces pour lesquelles les dommages sont
+signalés en rouge seront réparées.
+
+FILES : Pour sauvegarder ou charger des données.
+
+PUB
+
+===== Page 8 =====
+
+lel EEE S| se
+
+12
+
+LECRAN
+
+1
+1. Affichage du temps réalisé
+pour le tour en cours.
+
+2. Affichage de votre meilleur
+temps au tour.
+
+3. Affichage de votre position.
+
+4. Compte-tours
+
+5. Position du levier de
+vitesse.
+
+6. Indicateur de vitesse.
+7. Curseur de direction,
+
+indique la direction
+prise par la voiture.
+
+Pica Sula Cit! iets)
+
+Gh the Shs)
+
+8. Indicateurs de dommages.
+Les différents indicateurs
+‘s‘allument en jaune pour des
+dégats mineurs, puis en
+rouge.
+
+©
+
+Voyant d’aspiration. Si
+votre F1 se trouve
+derriére une autre
+voiture, vous pouvez
+profiter du phénoméne
+d'aspiration (le voyant
+SLP s’allume). Votre
+vitesse sera augmentée
+et vous pourrez en
+profiter pour dépasser
+vos adversaires.
+
+10. Affichage du nombre de
+tours effectués.
+
+FID
+
+CONTENTS a
+
+Starting the Game
+
+Controls...
+
+World Grand Prix Mode
+
+Battle Mode.............
+
+Test Run Mode.......
+Edit Mode..
+
+Configuration..........
+
+Pit In..
+
+Car Settings
+
+Game Screen...........
+INHALT
+
+BEER
+
+o
+EI
+
+===== Page 9 =====
+
+See eee eee
+
+=
+ES
+
+STARTING THE GAME (i
+
+When the selection screen appears, choose
+the mode you want, using the control pad,
+and validate your choice by pressing the B
+button to start the game.
+
+WORLD GRAND PRIX
+Alone, or with another player, participate in a season of Grand Prix
+racing,
+
+BATTLE
+Alone against the computer, or with another player, participate in a
+race under real conditions.
+
+TEST RUN
+This is the training mode. It lets you try out all the different tracks
+under a variety of weather conditions.
+
+EDIT MODE
+Enter, then select new drivers.
+
+RECORD
+See the best times for each of the races.
+
+CONFIG
+Set your race conditions.
+
+PUD
+
+CONTROLS =a
+
+3 ae 3
+
+° shed °
+
+3 Cio matt 3 8
+
+e e . 3 e)
+é B/ rage | Aaive (Rue
+of seers 8 3 § 2
+oe? g¢ = Bs § S¥ &
+os ~ 29 as @ 23
+
+Se 8 08 &3 8 28 §
+go @ 76 a8 ¢ FH Q
+
+Shift into the next gear.
+start
+game.
+
+By pressing START and SELECT
+at the same time you can end the
+
+2 3
+5 5
+2 &
+: ©
+0 si
+3
+8
+the é
+ges §
+3
+£3 3
+2e5 2
+285 2
+Pe? ©
+seo 8
+S30 &
+woe Ey
+Loe 32
+Sieh snes
+feu. Bo
+=33 32
+> ese at
+
+===== Page 10 =====
+
+WORLD GRAND PRIX Sill
+
+Register your Name ;
+Place the cursor on the letter you want to print rr
+
+and validate your choice with the B button.
+When all the letters are entered, place the cursor
+on END and validate with the B button. Player 1's
+cursor is blue, player 2's is red.
+
+Choose your Driver
+
+Use the up/down arrows of your control pad to
+choose your driver. Validate by pressing the B
+button.
+
+Menu
+
+After choosing your driver, a screen showing the
+track lay out, its caracteristics and the selection
+menu will appear. Move around in the menu by
+using the up/down arrows of your control pad and
+
+Setting
+Choose your car settings.
+
+Free Run
+These trial runs let you tour the track a few times to check your car
+settings and learn about the track.
+
+Qualify
+These are practice runs which will determine your position on the
+starting grid. After your three practice runs, you go directly to the race.
+
+Race
+
+This is the real race. Before starting it you can change your car
+settings. If you didn’t participate in the practice runs, you will start the
+race in the last position on the starting grid. You will score points if you
+finish the race among the first six drivers.You can abandon the race
+during a pit stop by pressing SELECT + START together.
+
+Point Data Data Save
+Lets you check on the results of Lets you save the game data.
+the championship being raced.
+
+Pung
+
+BATTLE as
+
+Circuit Choice
+
+After you choose Battle mode, a screen like the
+one on your right will be displayed.
+
+Move around the menu using your control pad
+and change each of the options: circuit choice,
+number of laps, weather conditions, mechanical
+trouble or not (trouble on/off). Once you've made
+your choices, position yourself on EXIT and validate with the B button.
+
+Driver Choice
+
+Choose your driver by using the up/down arrows
+of your control pad and validate by pressing the
+B button.
+
+Opponent Choice
+
+To choose your opponents, select the names of
+the drivers against whom you want to race from
+the list of drivers and validate your choices by
+pressing the B button. If you want to race
+against all of them, select “FULL ENTRY”
+Position yourself on EXIT and press the B button
+in order to go on to the next screen.
+
+Machine Setting
+
+Before beginning the race you can choose your
+car settings. For more information see page 10.
+When you select EXIT, the race will begin.
+
+At the end of the race, a screen will display the results and offer you
+the following choices:
+
+- TRY AGAIN ....... tart the same race over again
+- CHANGE COURSE .. face on another circuit
+Bil 1 en .End the game and return to the main
+
+screen
+
+PUD
+
+Seen ee
+
+=|
+|
+
+===== Page 11 =====
+
+BEB eee
+
+18
+
+nee
+
+TEST RUN
+
+Trial run sessions. Choose your course, the weather
+conditions and the number of laps that you would like to
+run. Choose your car settings. You start from the pit.
+During these trial runs, you can change your car
+settings by pressing START + SELECT.
+
+EDIT MODE ay
+
+This mode lets you put together your own car and team. It lets
+you access the following menu:
+
+Member Clear
+
+When you have already chosen a customized configuration
+this lets you return to the default configuration .
+
+Files
+
+Lets you save or load a customized configuration.
+
+Edit
+
+Lets you create a customized configuration.
+
+Exit
+
+Lets you return to the main menu.
+
+When you choose EDIT, the following menu will appear:
+Driver Edit
+
+To create your driver: name, date of birth, nationality, face.
+Entry Member
+
+To place your driver or the guest drivers in the teams of your
+choice.
+
+Engine Contract
+
+To put a different engine in a car frame. Ex: a Ford engine in a
+Williams car.
+
+Exit
+
+To return to the first Edit Menu.
+
+PO Etiol
+OPS IICIN,
+
+Bee
+
+o
+Pe af
+
+===== Page 12 =====
+
+:
+
+CONFIG as
+
+Computer Level: Lets you determine the speed of the other
+competitors on a scale of 0 to 3, 3 being the fastest.
+
+Machine Touch: To determine the incidence of contact with
+another car.
+
+0. No incidence what so ever
+
+1. Only a large shock will have an incidence
+
+2. Besides the tires, all shocks will have an incidence
+
+3. All contacts have an incidence
+
+Machine Damage: Lets you determine the degre of damage
+done to your car on a scale of 0 to 3, 0 being the minimum.
+
+World GP Lap: Lets you determine the number of laps to race
+in Grand Prix mode. You have the choice between
+10,20,30,40 or MAX, MAX being the actual number of laps
+raced for each Grand Prix.
+
+Weather: Lets you determine weather conditions in Grand
+Prix mode.
+
+Real: Weather conditions identical to those of 1993.
+
+Normal: The weather conditions are chosen at random.
+
+Sound: Lets you choose your sound mode: Mono or Stereo
+depending on your television.
+
+PUD
+
+To enter the pit, take the deceleration
+track indicated by the yellow arrows.
+Repairs will be made automatically. If
+you wish to change your tires, use the
+left/right arrows of your control pad and
+validate by pressing the B button.
+
+The damage indicators are shown by a change in color: from
+yellow for slight damages to red to show a dangerous
+situation.
+
+WIN: In the case of a shock, a damaged wing will reduce your
+speed and your downforce will not be as good as it was.
+
+TIR: During the race, your tires wear down and your car’s
+traction will be reduced.
+
+SUS: If you hit another car or get run off the race track, your
+suspension may get damaged. Your traction will be reduced.
+
+BRA: The more you use your brakes, the less effective they
+will be.
+
+GER: If your gear box is damaged, your car's pick up will be
+weaker and you will not control your car as well.
+
+PUB
+
+oe ee!
+
+===== Page 13 =====
+
+N
+LX
+
+Pee eee ee
+
+MACHINE SETTING
+
+AUTO SET
+To use the default settings .
+
+STEER it
+To adjust the ease with which you steer jf PIF Hone
+and the realignment of the steering 7
+wheel after a curve.
+
+Type 1: the steering wheel turns back a bit
+
+Type 2: the steering wheel doesn't turn back
+
+Type 3: the steering wheel realigns itself automatically (default
+configuration )
+
+Type 4: the steering wheel realigns itself when you press the
+opposite control pad arrow. Steering will be easier the nearer
+you are to EASY.
+
+TYRE
+
+You can choose slick tires (dry weather) or rain tires and
+determine the hardness of the rubber:
+
+HARD: hard resistant rubber with little traction.
+
+SOFT: soft less resistant rubber with greater traction.
+
+GEAR
+
+You can choose:
+
+Short gear ratios, which mean a faster acceleration but a lower
+maximum speed.
+
+Long gear ratios, which mean a less abrupt acceleration but a
+higher maximum speed.
+
+MAN/AUTO
+You can choose between 3 types of transmission: automatic, 5
+or 6 speed manual.
+
+BRAKE
+
+There are 7 different brake levels, from SOFT (very resistant
+but not very effective) to HARD (very effective but not very
+resistant).
+
+SUSPENSION
+
+There are 7 different levels to help you determine the stability
+of your car’s frame, from SOFT (soft, little traction but
+resistant) to HARD (hard, not resistant but a lot of traction).
+
+WING
+
+There are 7 different levels to help you adjust your car's
+aerodynamics, from MAX SPEED (the closest to your car's
+maximum speed) to DOWN FORCE, (which gives your car
+greater stability).
+
+METER
+Choose the type of tachometer you want: analog or digital.
+
+PIT IN
+Choose the type of work you would like to have done on your
+
+car when you make a pit stop.
+
+AUTO 1: all damaged parts will be repaired. This type of work
+takes the longest.
+
+AUTO 2: all parts for which damage is indicated in yellow will
+be repaired.
+
+AUTO 3: all parts for which damage is indicated in red will be
+repaired.
+
+FILES: To save or load data.
+
+FUing?
+
+BEE ee
+
+nD
+©
+fe |
+
+===== Page 14 =====
+
+Nn)
+ENS
+
+"Eee eee eee
+
+THESCREEN
+
+2
+
+. Displays the current lap
+time.
+
+yn
+
+. Displays your best lap
+time.
+
+ad
+
+Displays your position.
+
+>
+
+Tachometer.
+
+a
+
+bd
+
+Speed Indicator.
+
+Set
+
+Direction Cursor, shows
+the car's direction.
+
+Jui a)
+
+. Position of the gear shift.
+
+lee Ss «
+
+Gioia 9) Mani)
+
+8. Damage Indicator. The
+different indicators light
+up in yellow for minor
+damages, then in red for
+more serious ones.
+
+9. Draft Signal. If your F-1 is
+behind another car, you
+can take advantage of the
+draft phenomenon (your
+SLP signal will light up).
+Your speed will be
+increased and you can
+pass your opponents.
+
+10. Displays the number of
+laps raced.
+
+PUD
+
+POG
+
+INHALTSVERZEICHIS Hi
+
+Starten des Spiels
+
+Kontrolltasten....
+
+World Grand Prix Spielart
+
+Battle Spielart
+
+Test Run Spielart.............
+Edit Spielart....
+
+Gestaltung ......
+
+Die Boxen....
+
+Einstellung Ihres Rennwagens
+
+Der Spielbildschirm ............
+
+===== Page 15 =====
+
+2
+
+o
+
+“EE ee eee eee ee
+
+STARTEN DES SPIELS i
+
+Wahlen Sie vom ersten Bildschirm mit Hilfe
+des Steuerkreuzes Ihre Spielart. Bestatigen
+Sie Ihre Wahl anschlieBend mit der B Taste
+und das Spiel kann beginnen.
+
+WORLD GRAND PRIX
+Sie kénnen an der Grand Prix Saison allein oder mit einem Mitspieler
+teilnehmen.
+
+BATTLE
+Sie kénnen unter Realbedingungen gegen den Computer spielen,
+allein oder mit einem Mitspieler.
+
+TEST RUN
+Dies ist die Spielart ‘Training’. Sie kénnen hier samtliche Pisten unter
+sAmtlichen Wetterbedingungen ausprobieren.
+
+EDIT MODE
+Hiermit kénnen Sie neue Fahrer auswahlen.
+
+RECORD
+Hiermit kénnen Sie die Bestzeiten und Rundenrekorde eines jeden
+Rennens abfragen
+
+CONFIG
+Hiermit kénnen Sie das Spiel nach Ihrer Wahl gestalten.
+
+PUD
+
+KONTROLLTASTEN 2
+
+SE « 2 «
+s§ S< 2 Se 8
+2s 25 § 5 8
+ee S55 ¢ 52 AS
+55 225 22 2
+22 = 2 2
+5 ef € oe 5 g
+22 Ss ¢ « B38 =
+3s e Ee & f= S
+ae 5S © ear = =
+5a s 22 = pee 3 Ho 8
+80 2 $2 = 2 8 aoe
+oo ee > [fant & 3
+es 2 FS 82 § = é 8
+53
+gaa
+oh 853
+© s R22
+s a Ce
+2 Eso
+# gies
+S HESS
+3 5528
+= sege
+2 dace
+s gse2
+Y Bess
+Bors
+sige
+oess
+§ age
+2 zi OCF
+3 Ea c§
+5 $3 §S%
+3 gz 4
+g Ss $33
+3 —» f2. *58
+5 556
+a qoS
+2 Fes
+c} e538
+33
+ae
+egNG ER gs
+B22 ga De
+Sssic s® =
+25g = >
+2235 of
+gia 25
+136% E=
+EGS 2 Se
+uBB53 ye
+SU Css 3s
+eyeoO8R 3
+eS Sr
+2e°2s *¥S-
+2 ce Lap
+258tr 38
+@Sgcf a5
+OZ28E DES
+*HOCS 2 £5
+
+PUD
+
+_
+-
+-
+"s
+
+nD
+=
+
+===== Page 16 =====
+
+2
+
+oo
+
+WORLD GRAND PRIX Ei
+
+Speichern Sie Ihren Namen ab
+Gehen Sie mit dem Cursor auf den Buchstaben den Sie
+eingeben wollen und bestatigen Sie Ihre Wah! mit der B
+Taste. Wenn Sie alle Buchstaben eingegeben haben,
+gehen Sie mit dem Cursor auf END und bestatigen Sie
+Ihre WahI mit der B Taste. Der Cursor des Spielers Nummer 1 ist blau und des
+Spielers Nummer 2 ist rot.
+
+Wahl Ihres Fahrers eases setECT
+
+Wahlen Sie Ihren Fahrer mit Hilfe der rauf/runter
+Tasten des Steuerkreuzes. Bestatigen Sie Ihre
+Wahl anschlieBend mit der-B Taste.
+
+Meni
+Nachdem Sie Ihren Fahrer gewahlt haben, zeigt Ihnen der Bildschirm
+den Verlauf der Piste und die Besonderheiten des Rennens an. Das
+Auswahimenii erscheint auf dem Bildschirm. Sie kénnen Sich mit Hilfe
+der rauf/runter Tasten des Steuerkreuzes im Ment bewegen.
+Bestatigen Sie Ihre Wahl anschlieBend mit der B Taste.
+
+Setting
+
+Hiermit konnen Sie Ihr Fahrzeug einstellen.
+
+Free Run
+
+Die Testrundenfunktion erméglicht Ihnen, einige Testrunden auf der
+
+Piste zu drehen, um die Einstellung Ihres Fahrzeugs zu dberpriifen
+und Sich mit den Gegebenheiten der Piste vertraut zu machen.
+
+Qualify
+
+Dies sind Qualifikationsrunden, die Uber Ihre Position auf dem Startfeld
+entscheiden. Nachdem Sie drei Qualifikationsrunden durchlaufen
+haben, gehen Sie sofort fiir das eigentliche Rennen an den Start.
+
+Race
+
+Dies ist das eigentliche Rennen. Bevor Sie losfahren, kénnen Sie noch einmal
+die Einstellung Ihres Wagens verandem. Falls Sie an den Qualifikationsrunden
+nicht tellgenommen haben, starten Sie an letzter Position. Wenn Sie als einer
+der ersten sechs durchs Ziel gehen, erhalten Sie Punkte fiir das Rennen. Sie
+kénnen das Rennen abbrechen, wenn Sie an den Boxen sind und gleichzeitig
+auf die Start und Select Taste driicken.
+
+Point Data Data Save
+
+Hiermit k6nnen Sie die Ergebnisse Hiermit kénnen Sie die Daten des
+der Meisterschaff, die zur Zeit Spiels abspeichern
+
+stattfindet, abfragen.
+FULD
+
+BATTLE
+
+Wahlen Sie die Piste.
+
+Nachdem Sie die Battle Spielart ausgewahlt
+haben, zeigt der Bildschirm Ihnen ein bestimmtes
+Bild an (siehe rechts). Mit Hilfe des
+Steuerkreuzes kénnen Sie Sich im Meni
+bewegen und jede der angegebenen
+Méglichkeiten verandem: Wahl der Piste, Anzahl
+der Runden, Wetterbedingungen, technische Schwierigkeiten an/aus
+(trouble on/off). Wenn Sie Ihre Want getroffen haben, gehen Sie mit
+dem Cursor auf Exit und bestatigen Sie mit der B Taste.
+
+Wahl des Fahrers
+
+Wahlen Sie Ihren Fahrer mit Hilfe der rauf/runter
+Tasten des Steuerkreuzes und bestatigen Sie
+Ihre Wahl anschlieBend mit der B Taste.
+
+Wahl der Gegner
+
+Wahlen Sie unter den Namen der Fahrer, die
+Ihnen die Liste vorschlagt, die Gegner aus,
+gegen die Sie antreten wollen und bestaitigen Sie
+Ihre Wahl mit der B Taste. Wenn Sie gegen
+sAmtliche Gegner gleichzeitig antreten méchten,
+wahlen Sie “FULL ENTRY” aus. Gehen Sie auf
+EXIT und bestatigen Sie mit der B Taste, wenn Sie Ihre Wahl
+getroffen haben und zum nachsten Bildschirm vorgehen wollen.
+
+Machine Setting
+
+Bevor Sie mit dem Rennen beginnen, kénnen Sie Monae 378
+Ihren Rennwagen einstellen. Nahere Einzelheiten [itis
+hierzu entnehmen Sie bitte der Seite 10. Gehen [RSH
+
+Sie auf EXIT und das Rennen kann beginnen ! i
+
+Am Ende jedes Rennens zeigt Ihnen der Bildschirm die Ergebnisse an
+und Sie kénnen unter folgenden Méglichkeiten wahlen:
+
+TRY AGAIN . Das gleiche Rennen noch einmal fahren
+CHANGE COURSE..... Ein anderes Rennen fahren
+
+EXIT ..Das Spiel beenden und zum Hauptmenit
+
+zuriickkehren.
+
+===== Page 17 =====
+
+30
+
+See eee eee
+
+TEST RUN
+
+Dies sind die Trainingsrunden. Sie kénnen die Piste, die
+Wetterbedingungen und die Anzahl der zu fahrenden Runden
+wahlen. AnschlieBend wahlen Sie Ihre Fahrzeug. Dann
+missen Sie es richtig einstellen. Sie beginnen die
+Trainingsrunden von den Boxen aus. Wahrend der
+Trainingsrunden haben Sie die Méglichkeit, die Einstellung
+Ihres Wagens zu verandern, indem Sie auf START und
+SELECT driicken.
+
+EDIT MODE
+
+Hier kénnen Sie Ihren eigenen Wagen bauen und Ihr eigenes
+Team zusammenstellen. Sie haben Zugang zu folgendem
+Meni:
+
+Member Clear
+
+Falls Sie bereits Ihre eigenen Aufstellungen vorgenommen
+haben, kénnen Sie hiermit diese annulieren und zuriick zur
+vom Computer vorgegebenen Aufstellungen gehen.
+
+Files
+
+Hiermit kénnen Sie Ihre Austellung abspeichern oder abrufen.
+Edit
+
+Hiermit kénnen Sie Ihre persénliche Aufstellung vorbereiten.
+Exit
+
+Sie kehren zum Hauptmendi zuriick.
+
+Wenn Sie EDIT gewahlt haben, zeigt Ihnen der Bildschirm
+folgendes an:
+
+Driver Edit
+
+Wa4hlen Sie Ihren Fahrer: Name, Geburtsdatum,
+Staatsangehérigkeit, Gesicht
+
+Entry Member
+
+Hiermit kénnen Sie Ihren Fahrer oder die “Guest Drivers”
+(Gastfahrer) in die Teams Ihrer Wahl aufnehmen.
+
+Engine Contract
+
+Hiermit kénnen Sie verschiedene Motoren in unterschiedliche
+Fahrgestelle einbauen. Beispiel: Ford Motor im Williams
+Fahrgestell.
+
+Exit
+
+Sie kehren zum Edit Hauptmend zurick.
+
+===== Page 18 =====
+
+32
+
+“eee
+
+CONFIG
+GESTALTUNG
+
+Computer Level: Hiermit kénnen Sie die Geschwindigkeit der
+Gegner auf einer Skala von 0 bis 3 bestimmen. 3 ist die
+héchste Geschwindigkeit.
+
+Machine Touch: Hiermit kénnen Sie festlegen, was passiert,
+wenn Sie einen anderen Wagen streifen.
+
+0. Keine Vorkommnisse.
+
+1. Nur ein gr6Berer Aufprall fihrt zu Komplikationen.
+
+2. Mit Ausnahme der Reifen flihrt ede Beriihrung zu Komplikationen.
+3. Samtliche Kontakte fiihren zu Komplikationen.
+
+Machine Damage: Hiermit kénnen Sie den Schaden, der
+Ihrem Wagen zugefigt wird, auf einer Skala von 0 bis 3
+festlegen. 0 ist der niedrigste Schadensgrad.
+
+World GP Lap: Hiermit kénnen Sie festlegen, wieviele
+Runden in der Spielart Grand Prix gefahren werden sollen. Sie
+kénnen zwischen 10, 20, 30, 40 oder MAX wahlen. MAX
+entspricht der Anzahl der Runden, die tatsachlich bei einem
+Grand Prix Rennen gefahren wird.
+
+Weather: Hiermit kénnen Sie die Wetterbedingungen in der
+Spielart Grand Prix festlegen
+
+Real: Die Wetterbedingungen entsprechen den tatsachlichen
+Wetterbedingungen im Jahre1993.
+
+Normal: Die Wetterbedingunen werden durch Zufall bestimmt.
+
+Sound: Hiermit k6nnen Sie den Ton wahlen: Mono oder
+Stereo, je nach dem wie Ihre Fernseher ausgestattet ist.
+
+PUD
+
+Um zu den Boxen zuriickzukehren,
+fahren Sie auf die Bremsspur, die Ihnen
+durch gelbe Pfeile angezeigt wird. Die
+= Reparaturen werden dann automatisch
+-_ vorgenommen. Wenn Sie Ihre Reifen
+wechseln wollen, benutzen Sie hierfiir die links/rechts Tasten
+des Steuerkreuzes. Bestatigen Sie anschlieBend mit der B
+Taste.
+Die Schaden werden Ihnen in verschiedenen Farben
+angezeigt: von gelb (leichte Schaden) bis rot
+(Gefahrensituation).
+
+WIN: Wenn ein anderer Wagen Sie streift, wird Ihr Kotfliigel
+beschadigt und Ihre Bodenhaftung sowie Ihre Geschwindigkeit
+nehmen ab.
+
+TIR: Wahrend des Rennens nutzen sich Ihre Reifen ab und
+die Bodenhaftung nimmt ab.
+
+SUS: ZusammenstéBe oder Abweichungen von der Fahrbahn
+kénnen Ihre Federung beschadigen und Ihre Bodenhaftung
+nimmt ab.
+
+BRA: Nach und nach nimmt nutzen sich Ihre Bremsen ab und
+Ihre Bremskraft nimmt ab.
+
+GER: Wenn Ihre Gangschaltung beschadigt ist, gewinnt Ihr
+
+Fahrzeug weniger schnell an Fahrt und Sie kénnen es nicht
+mehr so gut kontrollieren.
+
+FIGioQ
+
+===== Page 19 =====
+
+wo
+
+‘eee
+
+MACHINE SETTING —)
+
+AUTO SET: Der Computer nimmt die
+Einstellungen automatisch vor.
+
+STEER: Hiermit kénnen Sie die [Ra
+Lenkung einstellen und ob sich das ijaeam
+
+Lenkrad nach einer Drehung
+
+zurtickdreht oder nicht.
+
+Typ 1: Das Lenkrad dreht sich ein wenig zuriick.
+
+Typ 2: Das Lenkrad dreht sich iberhaupt nicht zuriick.
+
+Typ 3: Das Lenkrad dreht sich automatisch voll zuriick. (Wird
+automatisch vorgegeben, wenn Sie nichts Anderes eingeben)
+Typ 4: Das Lenkrad dreht sich zuriick wenn Sie auf die
+Gegentaste des Steuerkreuzes driicken. Im allgemeinen gilt,
+daB je mehr Sie Ihre Einstellung in Richtung EASY
+vorgenommen haben, desto leichter laBt sich der Wagen
+lenken.
+
+TYRE: Sie k6nnen Slick Reifen (trockenes Wetter) oder Rain
+(Regen) Reifen auswahlen. Sie kénnen auch die Harte des
+Reifengummis vorgeben:
+
+HARD: hartes Reifengummi, lange Haltbarkeit, aber
+schlechtere Bodenhaftung
+
+SOFT: weiches Reifengummi, kurze Haltbarkeit, aber gute
+Bodenhaftung
+
+GEAR: Sie kénnen unter folgenden Gangschaltungen wahlen:
+harte Gangschaltung, starke Beschleunigung, aber niedrigere
+Spitzengeschwindigkeit
+
+weiche Gangschaltung, weniger starke Beschleunigung, aber
+héhere Spitzengeschwindigkeit
+
+MAN/AUTO: Sie haben die Wahl zwischen 3
+Gangschaltungsarten: automatisch oder per hand mit 5 oder 6
+Gangen.
+
+BRAKE: Sie k6énnen unter 7 verschiedenen
+Bremseneinstellungen Wahlen: von SOFT (sehr
+widerstandsfahig, aber nicht sehr leistungsfahig) bis HARD
+(sehr leistungsfahig, aber nicht sehr widerstandfahig)
+
+SUSPENSION: Es gibt 7 verschiedene Einstellungen fir die
+Stabilitat des Fahrgestells: von SOFT (geschmeidig, wenig
+Bodenhaftung, aber sehr widerstandsfahig) bis HARD (hart,
+wenig widerstandsfahig, aber sehr gute Bodenhaftung).
+
+WING: Es gibt 7 verschiedene Einstellungen fur die
+Aerodynamik Ihres Wagens: von MAX SPEED (gibt der
+Geschwindigkeit Ihres Wagens den Vorzug) bis DOWN
+FORCE (gib der Stabilitat des Wagens den Vorzug).
+
+METER: Wahlen Sie Ihren Rundenzahler: analog oder digital
+
+PIT IN: Wahlen Sie die Reparaturen und Wartungen, die an
+Ihrem Wagen vorgenommen werden sollen, wenn Sie zur Box
+fahren.
+
+Auto 1: Alle beschadigten Teile werden ausgebessert. Diese
+Reparatur dauert am langsten.
+
+Auto 2: Alle in gelb angezeigten beschadigten Teile werden
+repariert.
+
+Auto 3: Alle in rot angezeigten beschadigten Teile werden
+repariert.
+
+FILES: Zum Abspeichern oder Laden von Daten.
+
+FID
+
+Bee ee
+
+===== Page 20 =====
+
+rs)
+
+1. Fahrzeitanzeiger der zur
+Zeit gefahrenen Runde
+
+2. Fahrzeitanzeiger der
+besten Rundenfahrzeit
+
+3. Positionsanzeiger
+
+4. Drehzahimesser
+
+5. Ganganzeiger (zeigt an, in
+welchem Gang Sie sich
+befinden)
+
+6. Geschwindigkeitsanzeiger
+7. Richtungscursor, zeigt die
+Fahrtrichtung Ihres Wagens
+
+an
+
+8. Schadensanzeiger. Bei
+kleinen Schaden leuchtet der
+
+7 4 5 6 8 9
+
+10
+
+jeweilige Anzeiger in gelb
+auf und bei gréBeren
+Schaden leuchtet er in rot
+auf.
+
+9. Sogkraftanzeiger. Wenn
+sich Ihr Rennwagen hinter
+einem anderen Fahrzeug
+befindet, konnen Sie von der
+sogenannten  Sogkraft
+profitieren. Der SLP
+Anzeiger leuchtet dann auf.
+Ihre Geschwindigkeit erhoht
+sich und Sie kénnen diesen
+Vorteil nutzten, um Ihre
+Gegner zu Uberholen.
+
+10. Rundenanzeiger (zeigt
+die Anzahl der gefahrenen
+Runden an)
+
+poe)
+
+REDTS
+
+Licensed by Foca to Fuji Television
+© 1993 Human Corporation
+© 1994 Ubi Soft Entertainment Software
+
+GAME DESIGN AND DEVELOPMENT BY HUMAN
+CORPORATION
+
+PUBLISHED BY UBI SOFT ENTERTAINMENT
+SOFTWARE
+
+TEAM AT HUMAN
+
+Hifumi Koto
+
+Hiroyuki Abe
+
+Ryuichi Ito
+
+Shinya Nishina
+
+TEAM AT UBI SOFT
+
+Test and Technical support : Serge Hascoét, Denis
+Muffat-Meridol
+
+Marketing : Florence Gayet
+
+Manual : Cynégéthic
+
+===== Page 21 =====
+
+Distribué par
+Guillemot Int. Software
+BP 2
+56200 La Gacilly
+France
+
+SOS LUDI
+16 (1) 48 70 29 45
+3615 LUD! GAMES.
+
+UBI SOFT
+Entertainment Software
+28, rue Armand Carrel
+93100 Montreuil-sous -Bois
+France
+
+UBI SOFT Ltd
+Finchley House
+707 High road
+North Finchley
+London N12 OBT
+
+UBI SOFT GmbH
+
+Bartholomausweg 31
+33334 Giitersioh
+
+STADLBAUER
+
+MARKETING + VERTRIES GES GmbH!
+MAGAZINSTRASSE 4.8027 SALZBURG.
+Tel.: A-0662-88921
+
+WALDMEIER AG
+
+Auf dem Wolf 30
+(CH-4028 BASEL
+Tel.: CH-061-311-8818
+
+PRINTED IN JAPAN,
+IMPRIME AU JAPON,

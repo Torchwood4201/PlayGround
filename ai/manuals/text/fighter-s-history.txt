@@ -1,0 +1,811 @@
+# Fighter's History
+source: https://archive.org/details/snes_manual_archive
+pdf: Fighter's History (USA) (Rev 1).pdf
+region: USA, Rev 1
+pages: 12
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+DATA EAST USA, INC.
+1850 LITTLE ORCHARD STREET
+SAN JOSE, CA 95125
+
+PRINTED IN JAPAN
+
+INSTRUCTION BOOKLET
+
+‘SNS-YH-USA
+
+===== Page 2 =====
+
+Thank you for adding Fighter’s History™ to your video
+game library. We hope you enjoy many hours of
+challenging bouts and demanding action in this non-stop
+fighting game for your Super NES.
+
+Please take the time to read this instruction manual.
+This will allow you to thoroughly enjoy the action and
+excitement of Fighter's History. We truly hope you have
+a sensational time with our product!
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION & PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO* HARDWARE SYSTEM OR GAME PAK.
+
+DATA
+-EAST ucenseo BY
+
+"TRADEMARK OF DATA EAST ENTERTAINMENT SYSTEM. ALL NINTENDO
+USA, INC. DATA EAST ISA PROOUCTS ARE LICENSED BY SALE FOR USE
+REGISTERED TRADEMARK: ‘ONLY WITH OTHER AUTHORIZED PRODUCTS
+
+DATA EAST USA, INC.
+
+&
+
+BEARING THE OFFICIAL NINTENDO SEAL OF
+‘QUALITY.
+
+Table of Contents
+
+The Story ..........
+
+Using the Controllers
+
+Selecting a Mode.
+
+Screen Components
+
+Game Rules
+
+New Entries and Continues
+
+Basic Operation
+
+The World's Greatest Fighters
+
+14-19
+
+Special Attacks.....
+
++20-21
+
+900 Number-.......
+
+Warranty Information ..
+
+===== Page 3 =====
+
+As you leave your dojo after a strenuous workout, you see
+a short, uniformed man approach you from a parked
+luxury sedan. You brace yourself as he comes up to you,
+stops, then hands you an envelope. His only words to
+you as you grasp the note is, “For you.” He makes a
+quick bow, turns, and walks back to the automobile.
+
+You notice an eerie scent to the envelope — incense?, as
+
+you read your own name scrawled on its surface. Inside
+is an invitation:
+
+GREETINGS!
+
+four Wo! \e study of martial ° sea y
+‘ in pe
+
+Sond sour W idest dreams! You are invited to Lan in i. nal
+
+combat with eight of the strongest fighters In the world for un ‘old
+
+rtial artist! My
+ing the world’s finest mat
+Jory of becoming
+treasures and the gl
+
+‘Great ctor - the losers,
+Fighter's Competition” rewards only the victor
+setae a cE. ee nters of the world interests you, you
+mann i as to the tim
+Baers of st in. You shall be instructed
+elcome
+a location of the first event. =.
+J truly look forward to seeing you at the col
+
+“K
+
+Hmmm. “Untold treasures, huh?” You
+ponder the offer as you walk back to your
+apartment. The cold air whips past you,
+and the odd little man in the car returns
+your smile as you stride past him. You
+feel like you can take on the world!
+
+&
+
+Using the Controllers
+
+Y Button
+L Button X Button
++ R Button
+=
+Sal.
+a i) O
+Start
+ControlPad Select Le ve na
+
+This game can be played by 1 or 2 players.
+START BUTTON
+
+During the Title screen: Press to begin a game or select a
+game mode.
+
+During a Set up screen: Press to return from the set up
+screen to the title screen.
+
+Pause Function: Press during a match to temporarily pause
+a game in progress. Press again to resume the match.
+New Entry: A new player can interrupt a match between
+another player and a computer opponent by pressing the
+
+Start Button on their controller. This starts a new match
+between the two players.
+
+CONFIG
+
++ Press the Select Button to view all players or fighters and
+observe their hits and kicks. At the same time you can
+customize each to your preference.
+
+CONTROL PAD
+
+* During the Title Screen: Press to select a game mode.
+
+* During a Set up screen: Press to change items and select a
+character.
+
+ATTACK BUTTONS
+
+* The X, Y, or L Buttons execute Punch attacks.
+* The A, B, or R Buttons execute Kick attacks. @
+
+===== Page 4 =====
+
+Selecting a Mode
+
+Selecting A Mode Continued
+
+Press the Start Button to select a mode during the Title or
+Demonstration Screen. Select a mode with the Control Pad
+or Select Button, then begin the game by pressing the X,
+
+Y, A, B, or the Start Button.
+
+CPU BATTLE
+
+The computer is your opponent when you select this mode.
+A second player can always interrupt a CPU match by
+pressing the Start Button on the second controller. Use
+the Control Pad to select a character you want to play,
+then enter it by pressing the Start Button (or the X, Y, A,
+B, L, R Buttons.)
+
+VERSUS
+
+Two player games are played in the Versus mode. Select
+items such as a stage, configure, time limit, and handicap
+by pressing Up or Down on the Control Pad. You can
+make changes to your selections by pressing Left or
+Right on the Control Pad.
+
+After selecting the items, press the Start Button to bring up
+the Player Selection Screen. Now each player can choose
+from the available list of player characters for their match.
+
+NOTES: Both players can play the same character if they
+wish to!
+
+If you want to change the mode you selected
+during the character selection screen, press the
+Select Button to display a different screen.
+
+If you want to select a different game mode,
+press the L or R Buttons while the game results
+are displayed and you will return to the game
+mode selection screen.
+
+SURVIVAL
+
+This is a mode for a Team Survival Battle! Each player
+selects five players for his team. Each team competes
+against each other until the last character on one of the
+teams is eliminated. This is a one set elimination
+tournament. If a player loses all five players on his team,
+he loses the game.
+
+Select characters you want to use on your team by pressing
+the Control Pad and then the Y, X, A or Start Button. If
+you want to make a change to your selection of charac-
+ters, press the B Button to cancel your previous selection.
+The outcome of your game will be shown on your screen.
+
+* If a double knock-out happens, then both players lose a
+fighter.
+
+Various Options
+
+Either Manual or Auto Play can be selected for both the
+first or second player's part. You can enjoy a match
+against another player or watch a game operated entirely
+by the computer.
+
+===== Page 5 =====
+
+Selecting A Mode Continued
+
+SET UP
+
+In Set Up Mode, you can make changes to: the settings for
+each button, game levels, time limits, sound and speed of
+the game. Select the item you wish to alter by pressing Up
+or Down on the Control Pad and change it by pressing
+Right or Left.
+
+Configure (config.)
+
+You can assign a different function to each button. Press
+Up on the Control Pad to select config. and assign a
+different function of either punch or kick to each button.
+You can eliminate a button function by selecting Off by
+pressing Left or Right on the Control Pad.
+
+Game Level
+
+You can adjust the level of each character's fighting
+abilities. The more difficult the level, the more power in
+the punches, kicks and special moves. There are seven
+levels of difficulty, ranging from Easiest to Hardest.
+
+Easiest At game end you will see a screen urging
+Very Easy you to go to the next stage level of
+
+Easy difficulty.
+
+Medium At game end you will see an ending story
+
+for the character you have been playing.
+
+Hard At game end you will see an ending story
+Very Hard and the game credits.
+
+Hardest At game end you will see an ending story,
+credits and a special bonus if completed
+with no continues.
+
+&
+
+Selecting A Mode Continued
+Time Limit
+You can turn the time limit on/off.
+
+Sound
+Choose between Stereo and Mono sound output.
+
+Speed
+You can change the speed of the game play.
+
+===== Page 6 =====
+
+Screen Components
+
+Game Rules
+
+Scores Timer
+
+Bower anne
+Gauges
+
+1. Power Gauges: These are affected by successful attacks
+from your opponent. Should this gauge reach zero, the
+match is over. When the Power Gauge of either player
+reaches zero, that player loses that round.
+
+2. Scores: These are displayed for each player.
+
+3. Timer: The time limit for the game. The game goes to
+the player with the best score should time run out
+during a game. If No Time is selected, the words
+“No Time” are displayed here.
+
+NOTES: When a letter “C” is shown on the upper part of
+the screen, it displays the number of games
+continued,
+
+A “W” indicates the number of victories in the
+Versus Mode game.
+
+eo
+
+One game consists of three rounds, and the first player to
+win two rounds is entitled to take their character to the
+next round of play.
+
+If both players’ Power Gauges run out at the same time,
+it's a Double KO. If they are at the same level when the
+time runs out, the round is a draw.
+
+When the game runs out of time and both players still
+have power, the player with the highest power level wins
+the round.
+
+If the game is prolonged and the fourth round ends in a
+draw, a final round shall be held.
+
+Weak Spot System
+
+Each character has a unique weak spot. When an attack on
+a fighter’s weak spot inflicts a certain amount of damage,
+the character will be temporarily stunned and unable to
+move. After snapping out of it, the character's weak spot
+will have even less defensive power. So, if your character
+is “on the ropes,” focus your remaining attacks on your
+opponent's weak spot for a better chance at turning the
+tables to win the game.
+
+When the weak spot is attacked, it flashes. If it is attacked
+repeatedly, the flashing continues. If the weak spot
+suffers enough damage, the player is knocked out. NOTE:
+For a quicker recovery, RAPIDLY press Left or Right on
+the Control Pad or the Punch or Kick Buttons.
+
+de
+
+===== Page 7 =====
+
+New Entry and Continues
+
+Basic Operation
+
+NEW ENTRY
+
+During CPU Battle Mode, the second player can break
+into a one player game in progress by pressing the Start
+Button on the unused Controller.
+
+CONTINUE FUNCTION
+If you lose in CPU Battle Mode, the game is over at that
+point. If you wish to continue playing, press the Start or
+
+A Button within ten counts upon completion of the game.
+
+A new game starts, and your opponent from the last
+game is awarded the first move.
+
+NOTE: There is no limit to the number of games you can
+play continuously.
+
+Pane
+
+re =i iN “4
+
+—
+
+The following commands are in effect when the player is
+facing right. Reverse the actions (when applicable) when
+the character faces the left.
+
+* The Control Pad
+Left - Move backward and Upper Body Defense.
+Down/Left - Lower Body Defense.
+Down - Squat.
+Right - Move forward.
+Up - Jump.
+
+Punch and Kick Buttons
+
+¥ x i Punch Buttons
+small medium big
+B A R Kick Buttons
+
+You can change the functions of these buttons. (See Set
+Up section of manual.)
+
+Defense
+
+Use the Control Pad to direct your defensive strategy
+while you are being attacked. Use Upper Body Defense
+when the threat is from a jump attack or one directed at
+your character’s upper body. Use Lower Body Defense
+against Foot Sweeps and attacks aimed at your legs.
+
+Throws
+
+Step close to your opponent, then press Left or Right on
+the Control Pad (depending on which way you want to
+throw them). Now, depending on the character, press the
+Punch or Kick Buttons to execute the throw.
+
+&
+
+===== Page 8 =====
+
+The World’s Greatest Fighters
+
+The World’s Greatest Fighters Continued
+
+Ray
+
+Ray learned martial arts when he was a young boy. He
+has learned of the Fighter’s History Competition and
+signs up to further his skills. He has mastered the art of
+using his natural strength to power his deadly “Wheel
+Kick, Big Tornado, and Dynamite Tackles.”
+
+Nationality: American
+
+Status: Martial Arts Instructor
+Height: 510"
+
+Weight: 178 Ibs.
+
+Age: 25
+
+Blood Type: B
+Weak Point: Chest
+
+Fei-Lin
+She is the top actress in a Beijing traveling show. Fei-Lin
+has learned the ancient Chinese “To-Ro-Zan” art of fire.
+
+Her specialty is releasing her To-Ro-Zan from the air to
+stun her opponents on the ground.
+
+Nationality: Chinese
+Status: Actress
+Height: 5/5"
+Weight: 116 Ibs.
+Age: 26
+
+Blood Type: oO
+Weak Point: Chest
+
+Ryoko
+
+A natural at judo, she was taught all the secrets by her
+grandfather when she was just a baby. She has won all
+the national judo tournaments she ever competed in and
+has mastered all of her grandfather's trademark moves,
+the “Mountain Storm” throw and the “Vacuum Backflip”
+press.
+
+Nationality: Japanese
+Status: Judo student
+Height: 51
+
+Weight: 104 Ibs.
+
+Age: 16
+
+Blood Type: B
+Weak Point: Head band
+
+Matlock
+
+He calls himself the Fighting Rocker and with his rhythm
+and stamina he’s built up from long months of training,
+he has become the only man alive who can perform the
+nasty “Road Hurricane” and “Spinning Wave” attacks!
+
+Nationality: English
+
+Status: Punk Rocker
+Height: a"
+Weight: 190 Ibs.
+Age: 24
+
+Blood Type: oO
+
+Weak Point: Sunglasses
+
+ép
+
+===== Page 9 =====
+
+The World’s Greatest Fighters Continued
+
+The World’s Greatest Fighters Continued
+
+Samchay
+
+The current kick boxing champion. His strength is so
+punishing he has nearly destroyed all of his challengers.
+The one event that he has yet to win is the Fighter's
+History Competition. His training has slimmed off all
+unnecessary body fat, giving him incredible leaping power.
+
+Mizoguchi
+
+Mizoguchi survived on the streets of Tokyo for years. He
+learned self-defense after being beaten by a street gang.
+His deadly karate makes him one of the most feared
+competitors in the competition!
+
+Nationality: Japanese
+hs Status: Drifter
+
+Nationality: Thailand
+Status: Kick Boxer
+Height: 6'4”
+Weight: 130 Ibs.
+Age: 48
+
+Blood Type: A
+Weak Point: Chest
+
+Lee
+
+Lee is gifted in the mysterious Hexpolar branch of Kung-Fu.
+Lee’s father entered the Fighter's History Tournament
+years before and was defeated and killed by a shadowy
+opponent. Lee has entered in the hope of avenging his
+father’s death.
+
+Nationality: Chinese
+Status: Kung-Fu Expert
+Height: 57°
+
+Weight: 155 Ibs.
+
+Age: 26
+
+Blood Type: A
+
+Weak Point: Knees
+
+Height: 8
+Weight: 180 Ibs.
+Age: 27
+
+Blood Type: B
+Weak Point: Head
+
+Jean-Pierre
+
+By profession, he’s a gymnast, but unlike any gymnast
+that came before him. His subtle moves and flexibility
+combine to make a terrifying fighter! His rapid-fire
+
+“Needle Shower” is among the most terrifying moves.
+
+Nationality: French
+
+Status: Gymnast/Florist
+Height: 64"
+
+Weight: 177 |bs.
+
+Age: 23
+
+Blood Type: AB
+Weak Point: Legs
+
+===== Page 10 =====
+
+The World’s Greatest Fighters Continued The World’s Greatest Fighters Continued
+
+Marstorius Karnov
+He believes the only valid form of combat is wrestling, ‘ He was born to a poor farmer in Russia. At age 5 he left
+and he’s entered this year’s competition to prove it! What the farm to pursue a career in fighting. He has trained
+he lacks in speed he more than makes up for in power! several fighters and would like to continue teaching his
+His "Double German” move is so deadly, he has saved J fighting art to new students. Little else is known of this
+using it for this competition only! powerful man.
+
+Nationality: Hungarian Nationality: Russian
+
+Status: Pro Wrestler Status: Unknown
+
+Height: 6'3” Height: Unknown
+
+Weight: 270 Ibs. Weight: Unknown
+
+Age: 43 Age: Unknown
+
+Blood Type: fe) Blood Type: Unknown
+
+Weak Point: Ankles Weak Point: Unknown
+
+Clown
+
+Very little is known about the Clown. It is said that he was
+trained by the mighty Karnov himself. Few have seen him
+in action and lived to tell about it. Many people have
+given their lives to bring this information to you.
+
+Nationality: Unknown
+Status: Circus Performer
+Height: S11"
+
+Weight: 152 Ibs.
+
+Age: 32
+
+Blood Type: A
+
+Weak Point: Unknown
+
+===== Page 11 =====
+
+Special Attacks
+
+Special Attacks Continued
+
+JEAN Bal Rose ~ for a while, then >
++ punch Button
+
+Needle Shower punch Button (continuously)
+
+Sliding 4 + kick Button
+
+MATLOCK Spinning Wave ~ for a while, then >
++ punch button
+
+Lord Hurricane Y for a while, then 4
+
++ kick Button
+
+Overhead Kick ~ for a while, then >
+
++ kick Button
+
+RAY Big Tornado Y4> + punch Button
+Wheel Kick Vs + kick Button
+
+Dynamite Tackle (twice in succession)
+
+>> + punch Button
+
+MIZOGUCHI Tiger Bazooka Y4> +punch Button
+Koryusai Y 4 + punch Button
+
+Continuous Aerial Kick var +kick Button
+
+RYOKO Pneumonic » 4 4-< at short range + medium/
+big punch Button
+
+One-arm Back Throw | » 4 ¥ #~ at some distance + medium/
+
+big punch Button
+
+Forward Defensive Fall ~< for a while, then >
+
++ punch Button
+
+MARSTORIUS | Double German » 4 4-< + medium/big punch Button
+Kneel Kick ~< for a while, then >
+
++ kick Button
+
+Dash Lariat + for a while, then >
+
++ punch Button
+
+Tiger Flip Y for a while, then &
+
++ punch Button
+
+LEE Zesshoho Y4> + punch Button
+Senkyudtai vy4> +kick Button
+
+SAMCHAY Matron Jusalop Y4> + punch Button
+Ti Kau Koon v4> +kick Button
+
+Bap Sew Cau punch Button + kick Button
+
+(equal level Button at the same time)
+
+FEI-LIN Touchou-zan v4» + punch Button
+Aerial Toro-zan Y >< when jumping up + punch Button
+
+Hakkaku-sohi Ken Y for a while, then a
+
++ punch Button
+
+@
+
+» You can execute reversed throws such as “Super
+Mountain Storm," "One Arm Back Throw," and "Double
+German" by reversing the command from right to left
+or vice versa.
+
+* Some characters have more attacks than listed in the
+above chart. Try various commands and find them
+out yourself.
+
+===== Page 12 =====
+
+Ne
+doorsteP-
+and a home: ”
+
+Lost: cave be
+seen being
+
+FOUND: Out
+wheels Bel’
+
+last see"
+
+key le!
+call ida
+
+—
+FOUND
+joyce P
+
+FOUND
+invad’
+fire 7
+
+—
+
+Tost
+and
+
+eft
+
+Warranty Information
+
+Data East USA, Inc. warrants to the original purchaser only that the
+Game Pak provided with this manual and the software program coded
+on it will perform in accordance with the descriptions in this manual
+when used with the specified equipment, for a period of 90 days from
+the date of purchase. If this program is found to be defective within 90
+days of purchase, it will be replaced. Simply return the Game Pak to
+Data East USA, Inc. or its authorized dealer along with a dated proof of
+purchase. Replacement of the Game Pak, free of charge to the original
+purchaser (except for the cost of returning the Game Pak) is the full
+extent of our liability.
+
+THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES, WHETHER
+ORAL OR WRITTEN, EXPRESS OR IMPLIED. ALL IMPLIED WAR-
+RANTIES, INCLUDING THOSE OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE, IF APPLICABLE, ARE LIMITED IN
+DURATION TO 90 DAYS FROM THE DATE OF PURCHASE OF THIS
+PRODUCT.
+
+Data East USA, Inc. shall not be liable for incidental and/or consequential
+damages for the breach of any express or implied warranty including
+damage to property and, to the extent permitted by law, damages for
+personal injury, even if Data East USA, Inc. has been advised of the
+possibility of such damages. Some states do not allow the exclusion or
+limitation of any incidental or consequential damages or limitations on
+how long an implied warranty lasts, so the above limitations or
+exclusions may not apply to you.
+
+This warranty shall not be applicable to the extent that any provision of
+this warranty is prohibited by any federal, state or municipal law which
+cannot be pre-empted. This warranty gives you specific legal rights and
+you may also have other rights which vary from state to state.
+
+Data East USA, Inc.
+1850 Little Orchard Street
+San Jose, California 95125.
+(408) 286-7080
+
+Data East product information
+and support is available 24 hours per
+day on the CompuServe Information
+Service in the VIDEO GAME
+PUBLISHERS FORUM
+
+Credits: Jay Malpas, Data East type G0 DATA-EASN,
+
+Dave Hoffman, Data East
+Matt Valen, Data East
+Ravi Gadhia, Data East
+Peter Stern, Data East
+
+ee

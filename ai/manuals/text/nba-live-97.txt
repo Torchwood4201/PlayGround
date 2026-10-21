@@ -1,0 +1,1907 @@
+# NBA Live 97
+source: https://archive.org/details/snes_manual_archive
+pdf: NBA Live 97 (USA).pdf
+region: USA
+pages: 22
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+ELECTRONIC ARTS”
+P.O. Box 7578, San Mateo, CA 94403-7578
+
+{
+|
+Printed in USA i
+
+Wis ‘TO ADULTS
+
+ey
+
+‘CONTENT RATED BY
+ESRB
+
+INSTRUCTION BOOKLET
+
+SNS-A7LE-USA
+
+SPORTS
+
+SUPER NINTENDO
+
+ENTERTAINMENT SYSTEM bg
+
+===== Page 2 =====
+
+WARNING:
+PLEASE READ THE ENCLOSED CONSUMER INFORMATION
+
+AND PRECAUTIONS BOOKLET CAREFULLY BEFORE USING
+YOUR NINTENDO* HARDWARE SYSTEM OR GAME PAK.
+
+THIS PRODUCT HAS BEEN RATED BY THE ENTERTAINMENT SOFTWARE RATING BOARD. FOR
+INFORMATION ABOUT THE ESRB RATING, OR TO COMMENT ABOUT THE APPROPRIATENESS
+OF THE RATING, PLEASE CONTACT THE ESRB AT 1-800-771-3772.
+
+Licensed By
+
+NINTENDO, SUPER THIS OFFICIAL SEAL IS YOUR ASSURANCE THAT
+NINTENDO ENTERTAINMENT NINTENDO HAS APPROVED THE QUALITY OF
+SYSTEM AND THE OFFICIAL THIS PRODUCT. ALWAYS LOOK FOR THIS SEAL
+SEALS ARE REGISTERED WHEN BUYING GAMES AND ACCESSORIES TO
+TRADEMARKS OF NINTENDO ENSURE COMPLETE COMPATIBILITY. ALL
+OF AMERICA INC. ©1991 NINTENDO PRODUCTS ARE LICENSED BY SALE
+NINTENDO OF AMERICA INC. FOR USE ONLY WITH OTHER AUTHORIZED
+PRODUCTS BEARING THE OFFICIAL NINTENDO
+SEAL OF QUALITY.
+
+rl NBA LIWR OF
+hy
+
+TABLE OF CONTENTS
+
+STARTING THE GAME
+COMMAND SUMMARY ..
+INTRODUCTION .........-:0esceceeeeseeeentersee
+SETTING UP THE GAME.
+GAME SETUP MENU
+TEAM SELECT SCREEN ..
+CUSTOM TEAMG........
+
+PLAYER SETUP SCREEN......
+PREGAME INTRODUCTION
+
+PLAYING THE GAME
+
+SPORTS.
+
+INFRACTIONS,
+PLAYCALLING
+PAUSE MENU
+END OF THE QUARTER/HALF/GAME
+
+PRACTICE MODES ...............20+4
+2-ON-2 OR 3-ON-3 HALF COURT..
+
+SEASON PLAY ...........
+STARTING A SEASON.
+TEAM SCHEDULE SCREEN
+AFTER THE GAME
+
+THE NBA PLAYOFFS ...............
+STARTING A PLAYOFF SERIES ..
+THE PLAYOFF TREE..
+
+ROSTER SETUP MENU...
+
+===== Page 3 =====
+
+SPORTS.
+
+STARTING THE GAME
+
+1. Turn OFF the power switch on your Super Nintendo Entertainment
+System? WARNING: Never try to insert or remove a game pak
+when the power is ON.
+
+2. Make sure a Controller is plugged into the controller socket 1
+‘on the Super NES?
+
+© If you're playing against a friend, plug the other Controller into
+controller socket 2.
+
+3. Insert the game pak into the slot on the Super NES. Press firmly
+to lock the game pak in place.
+
+4, Turn ON the power switch. The EA SPORTS” and NBA" Live 97
+logos appear. If you don’t see them, begin again at step 1.
+
+© Press START after each screen to proceed to the Game Setup
+menu.
+
+COMMAND SUMMARY
+
+L.Button Up Right
+
+om
+NEA LIWR OF \
+
+R Button
+
+Control Pad
+
+Left
+
+oS< >
+
+Down SELECT START
+
+GAMEPLAY CONTROLS
+Control Pad Move player
+START Pause game
+R button Turbo mode (see p. 4)
+
+i NBA BIWR OF =
+‘| SPORTS.
+
+OFFENSE—with THE BALL
+
+Y No action X Crossover dribble/
+Spin move (if available)
+
+A Shoot (press to jump;
+release to shoot)
+
+B Pass (Control Pad
+to choose receiver)
+
+OFFENSE—withouT THE BALL
+Y Call for pass X — Jump/Rebound/Tip-in
+(or make computer
+ball handler shoot)
+B_ Switch to player nearest A Hand-check
+the ball (Control Pad to
+choose specific player)
+
+DEFENSE
+
+Y Steal X Jump to rebound or
+block shot
+
+B_ Switch players A Hand-check
+
+(Control Pad to choose
+specific player)
+
+PLAYCALLING
+
+© To call the set/play assigned to A, B, X, or Y, press SELECT +
+A, B, X, or Y.
+
+1 The default Offensive Play assignments are:
+
+A: Isolation A B: Inside A A
+X: Three Point A Y: Box A
+| The default Defensive Set assignments are:
+A: 1/4 Court B: 3/4 Court
+X: Full Court Y: Half Court
+
+> To call the Quick Play assigned to A, B, X, or Y, press L + A, B,
+X, or Y.
+
+===== Page 4 =====
+
+int h |
+zy REA LIVE OF i
+
+SPORTS \]
+O The default Offensive Quick Play assignments are:
+A: Pick and Fade B: Pick and Slip
+X: Hand Off Y: Pick and Roll
+1 The default Defensive Quick Play assignments are:
+X: Instant Foul Y: Double Team
+TURBO MODE
+R + Control Pad Run faster
+R + A (Check) Hard hand-check
+MENU CONTROLS
+Control Move highlight Control Change
+Pad ¢ up/down Pad +> highlighted option
+SELECT Return to START Continue
+previous screen
+(if available)
+B Action button 1. x Action button 2
+L Action button 3 R Action button 3
+(left) (right)
+
+“NOTE: To erase all saved data and reset the battery-backed
+memory to the original factory settings, see Set Options
+Menu on p. 8.
+
+\ NBA LIWR OF zy
+\] SPORTS.
+
+INTRODUCTION
+
+On every court, there are players and...everyone else. Players
+create. Players push the game beyond expected boundaries.
+
+In the arena of interactive b-ball, there’s only one player: NBA Live 97.
+Real 5-on-5 hoops, with all 29 NBA teams, complete rosters, and
+authentic strategy.
+
+Take your man at the top of the circle with a spin dribble, then dish
+in mid-air when the big man cuts off the lane. Launch off the floor
+for a power slam. And before the ball is out of the net, call for a full
+court press, because you're still down a bucket.
+
+Be a player. Play NBA Live 97.
+
+1 Exhibition, Season, and Playoff modes, with battery back-up and
+1996-97 schedule.
+
+1 All 29 NBA teams, 2 All-Star teams, and 4 Custom teams.
+
+Real NBA players updated with complete 1995-1996 stats.
+(So put away that sports almanac; it’s in the game.)
+
+New Trivia Quiz—test your b-ball knowledge.
+New larger rendered player animations.
+New 2-on-2 and 3-on-3 practice modes.
+Ability to create and modify custom players.
+
+ABOUT THIS MANUAL:
+‘ie EA TIP Read EA TIPS for special hints and tips.
+
+Qo
+
+gogo ag
+
+/NOTE: Read notes for important information
+
+===== Page 5 =====
+
+HEA LIVE OF ‘
+SPORTS. \|
+
+SETTING UP THE GAME
+GAME SETUP MENU
+
+Use the Game Setup menu to choose the game mode, rules,
+and level of difficulty you want to play. Different options become
+available depending on which mode is selected.
+
+> Control Pad ¢ to highlight options.
+Control Pad «> to change the highlighted option.
+
+Press A to go to the highlighted submenu. (A is the primary
+action button in all menus.)
+
+© Press START to continue.
+
+9
+
+a
+
+fb EA TIP These controls are used in all menus in NBA Live 97,
+so learn 'em here and use them everywhere.
+
+MODE EXHIBITION MODE: Play a single game with any
+NBA, All-Star, or Custom teams.
+
+SEASON MODE: Start a new Season where
+you control an NBA team. See Season Play
+on p. 28.
+
+PLAYOFF MODE: Start a new Playoff tournament.
+See The NBA Playoffs on p. 32.
+
+LOAD SERIES: Continue a Season or Playoff
+saved in one of the two memory slots.
+
+NEW 2 ON 2 or 3 ON 3 HALF COURT practice: Work
+on your individual skills in a competitive prac-
+tice session with two or three players per side.
+
+1 If this mode is selected, the RULES option
+becomes POINTS, the QUARTER option becomes
+OUTS, and SET RULES changes to BASKET
+POINTS. See Practice Modes on p. 27.
+
+RULES ARCADE RULES: Freeform basketball where the
+players never tire or get injured, and fouls and
+other violations aren't called by the refs.
+
+¥ HEM LIWR OF re
+\| SPORTS.
+
+SIMULATION RULES: Absolute realism. Players
+
+tire, get injured, and foul out, so you must
+
+substitute accordingly.
+
+CUSTOM RULES: Use last Set Rules menu
+
+settings for rules and simulation options.
+LEVEL ROOKIE LEVEL: The easiest level. It's easy to
+
+score, and the computer team isn’t too hard
+
+on you.
+
+STARTER LEVEL: Average difficulty; the computer
+
+plays harder on defense.
+
+ALL-STAR LEVEL: Showtime! It's difficult to
+
+make steals or block shots, and the computer
+
+offense and defense are cranked to the max.
+
+QUARTER The length of a quarter can be set to 3, 5, 8,
+or 12 MIN.
+
+SET RULES Go to Set Rules menu. (See below.)
+
+SET OPTIONS Go to Set Options menu. (See p. 8.)
+
+ROSTER SETUP Go to the Roster Setup menu to modify your
+roster line-up and create, edit, and trade players.
+(See Roster Setup Menu on p. 34.)
+
+Set Rutes Menu
+
+Use this menu to set custom rules and simulation options. Default
+settings are listed in bold.
+
+DEFENSIVE FOULS This slider (OFF by default) sets the defensive
+foul sensitivity. More fouls are called the more
+the bar is filled.
+
+OFFENSIVE FOULS Sets the offensive foul sensitivity (OFF by default).
+OUT OF BOUNDS _ Toggle out of bounds calls ON/OFF.
+BACKCOURT Toggle backcourt calls ON/OFF.
+
+TRAVELING Toggle traveling calls ON/OFF.
+
+GOALTENDING Toggle goaltending calls ON/OFF.
+
+===== Page 6 =====
+
+SPORTS.
+
+3 IN THE KEY
+FOUL OUT
+
+SHOT CLOCK
+INBOUND CLOCK
+
+NBA LIWk OF &
+
+Toggle three second calls ON/OFF.
+
+Toggle player foul outs ON/OFF. When ON, players
+are ejected when they commit their sixth foul.
+
+Toggle 24 second shot clock ON/OFF.
+Toggle 5 second inbound clock ON/OFF.
+
+HALF COURT CLOCK Toggle 10 second backcourt clock ON/OFF.
+
+FATIGUE
+INJURIES
+
+Toggle player fatigue ON/OFF.
+
+Turn player injuries ON/OFF. When Injuries are
+ON, every time a player gets knocked down
+there is a slight chance he will be injured.
+
+In an Exhibition game, an injured player is only
+affected during the current game. In Season
+or Playoff mode, he is out for 1-7 games.
+
+Set Options Menu
+Set sound and control options.
+OVERALL VOLUME This slider sets the volume of the sound effects
+
+SFX VOLUME
+MUSIC MODE
+CROWD SOUND
+
+SLOW MOTION
+DUNKS
+
+SHOT CONTROL
+
+CPU ASSISTANCE
+
+and music that play during menu screens.
+Set game sound effects volume.
+
+ON or OFF.
+
+Turn crowd sound ON or OFF.
+
+Turn automatic slow motion for spectacular
+slams ON or OFF.
+
+Toggle shot control between PLAYER and CPU
+(computer). In PLAYER mode, the chance the
+shot will go in is determined by the distance,
+angle, and release point of the shot. In CPU
+mode, the shot's probability is determined by
+the NBA player's statistics and attributes rather
+than player control.
+
+Turn CPU Assistance ON or OFF. When ON, the
+computer increases the statistical percentages
+of the team that's behind to help them get back
+in the game.
+
+SPORTS.
+
+SCORE OVERLAY Turn the Score Overlay ON or OFF. The Score
+Overlay displays the current score of the game
+in the upper left corner of the game screen.
+
+ERASE CARTRIDGE This function erases all saved data and resets
+the battery-backed memory to the original
+factory settings. To perform this function,
+press START + SELECT from the Erase
+Cartridge screen. Or to exit this screen without
+any changes, press any other button.
+
+TEAM SELECT SCREEN
+
+The Team Select screen appears before every Exhibition game.
+The visiting team is shown on the left side of the screen, and the
+home team is shown on the right. Team rankings appear below
+the team logos when NBA teams are selected.
+
+> To toggle the highlight between the home and visitor teams,
+press A.
+
+> To change the highlighted team, Control Pad «> to cycle through
+the NBA, All-Star, and Custom teams.
+
+© To sort the teams by ranking, highlight a rating. You then cycle
+through the teams as sorted by that rating.
+
+© To go to the Team Info screen to view information for the high-
+lighted team, select TEAM INFO.
+
+Team Info options:
+© To cycle through NBA teams, Control Pad «>.
+
+© To change the home or visiting team to the currently selected
+team, press START. When prompted to confirm your choice,
+select NO (cancel) or YES (confirm).
+
+( NEA LIWR OF
+
+ie EA TIP To allow the computer to randomly match up two NBA
+teams, press L+B.
+
+© Press START to continue. The Player Setup screen appears.
+
+===== Page 7 =====
+
+10
+
+= NEA BLWR OF 4
+
+S7
+
+SPORTS ‘|
+CUSTOM TEAMS
+
+In NBA Live 97, you can build up to four Custom teams, using,
+players from 29 NBA teams. Custom teams can only be used
+in Exhibition games.
+
+To play with a Custom team:
+
+© Select any of the four Custom teams (SLAMMERS, BLOCKERS,
+JAMMERS, or STEALERS) from the Team Select screen. Press
+START, and the Custom Team screen appears.
+
+Starting 5
+player slots i!
+
+select plaver.
+
+Custom TEAM SCREEN
+
+To change the players on the Custom roster:
+
+1. Control Pad { to highlight the player you want to change, then
+press A. The bottom of the screen lists the roster players for
+an NBA team.
+
+© Press the L/R buttons to cycle through the 29 NBA teams.
+
+2. Highlight a player from an NBA team and press A to replace
+the original player with the highlighted player. You return to the
+roster of the Custom team.
+
+© To cancel the transaction, highlight the player originally selected
+and press A.
+
+> To view more stats, Control Pad <>.
+> To toggle between 1995-96 stats and current stats, press X.
+
+NBA BO
+) SPORTS
+
+/NOTE: The first time you select a Custom team, all the roster
+slots are empty and read —SELECT PLAYER—. You
+must fill every roster slot in order to continue.
+
+PLAYER SETUP SCREEN
+
+An icon representing every Controller plugged into the system
+appears on this screen. Up to five players may play if a Multi-Player
+Adapter is attached. In addition to selecting the team you control,
+you can select, enter, and delete user names to personalize your
+controller to track your user stats.
+
+MuttipLaYeR GAMES
+
+The Multi-Player Adapter lets up to five players play competitively or
+cooperatively. Just plug the adapter into Controller Socket 2 on the
+Super NES, and you're ready to go.
+
+YNOTE: The Multi-Player Adapter is not designed for use with
+the Super NES Super Scope? the Super NES Mouse?
+or Controller Socket 1.
+
+Control arrow Player names
+
+> To change the setting for your Controller, Control Pad «> to
+position the Controller symbol under either team to select that
+team or in the middle to select computer control.
+
+> To toggle the control method, press the L/R buttons. When the
+control arrow points up, Control Pad diagonally to move up and
+down the court. When the control arrow points diagonally,
+Control Pad <«» to move up and down the court.
+
+===== Page 8 =====
+
+-
+NBA LIWe OF N
+SPORTS. \|
+
+> To cycle through player names, Control Pad {. Press A to select
+the highlighted name.
+
+To ENTER A NEW PLAYER NAME, highlight NEW and press A. Control
+Pad { to select a letter, then Control Pad <> to delete/add a letter.
+
+© When you've entered the last letter, press START to enter the
+name.
+
+To DELETE A NAME, highlight DELETE and press A. Highlight a user
+name, then press X to delete that name.
+
+© When all players have pressed A to select their user names, press
+START to continue. The Pregame Introduction screens appear.
+
+PREGAME INTRODUCTION
+
+Before the game, the Pregame Introduction screens set the stage
+for the basketball action to follow. First, the Game Introduction
+screen announces the teams and home court.
+
+> Press START to continue. The Team Matchup screen appears.
+
+> The Team Matchup screen compares the two teams. One to
+three basketballs indicate strength in each of five categories.
+
+SCORING: Scoring ability.
+
+REBOUNDS: Offensive and defensive rebounding.
+BALL CONTROL: Passing and dribbling ability.
+DEFENSE: Shot blocking and steals.
+
+OVERALL: Overall matchup.
+
+© Press START to continue. The player introductions introduce the
+starting players from both teams. Press START to go directly to
+the tip-off.
+
+THE TIP-OFF
+Every game starts with a tip-off between the centers.
+> To jump for the tip-off, press X.
+
+NRE bowie 8 7
+\| SPORTS.
+
+PLAYING THE GAME
+
+You control the man over the star/circle control symbol. On offense,
+you control the man over the star. On defense, the star changes to
+a circle. Depending on which Controller you're using, the control
+symbol has a different color:
+
+Player 1 BLUE
+Player 2 RED
+Player 3 GREEN
+Player 4 CYAN
+Player 5 PURPLE
+
+If your player is offscreen, an arrow the same color as your control
+symbol points toward him from the edge of the screen. Press the
+Control Pad in the opposite direction to bring him back onscreen.
+
+Just like in the NBA, offense and defense require different skills
+
+in NBA Live 97. While the Control Pad is always used to move your
+player, the buttons have different functions on offense and defense.
+Learn the controls first, then you can focus on your basketball skills
+and strategy.
+
+Cig EATIP When your player's control symbol is pulsing, he’s on
+a hot streak, and his attributes are temporarily boosted.
+
+OFFENSE
+
+Movine WITH AND WITHOUT THE BALL
+
+> Press the Control Pad in the direction that you want to move.
+You continue to move and dribble as long as you hold down the
+Control Pad. When you release the Control Pad, you stop moving,
+but maintain your dribble.
+
+9
+
+To execute a crossover dribble or spin move, press X. The
+dribbling move your player executes is determined by his
+Dribbling rating and his proximity to other players.
+
+> Once you leave your feet to shoot you must release the ball
+before you land, or the refs call traveling.
+
+===== Page 9 =====
+
+_ — h|
+Zz NBA hive OF ¥
+SPORTS. ‘|
+> To run faster, hold down the R button while moving. This kicks
+
+you into Turbo mode, where you may be able to catch another
+player from behind or make a lightning drive to the bucket.
+
+lf you don’t have the ball, you can hand-check your defender to get
+better position:
+
+> To hand-check, press A. To give an especially hard hand-check,
+hold R while pressing A. (The ref may call you for a foul, though.)
+
+PassinG
+
+© To pass to the default receiver, press B. To retain control of the
+passer (perfect for give and go plays), hold B until the receiver
+catches the ball.
+
+© To pass to a specific player, use the Control Pad to aim the
+pass while pressing B.
+
+To throw an alley-oop pass, throw the ball to a player with a
+clear path to the basket. If he is in a position to jump for an
+alley-oop, an alley-oop play is automatically executed.
+
+9
+
+© To call for a pass from a computer-controlled player, press Y.
+
+‘e EATIP Since you can throw the ball faster than you can run,
+passing is the quickest way to move the ball on the
+court. Ball movement is the key to offensive success—
+NBA defenses can contain almost any single player, but
+good passing gives fits to even the best defense.
+
+SHOOTING
+
+Players shoot differently depending on who and where they are.
+
+For instance, when shooting from the outside, the player will try
+
+a jumpshot. Closer in, and he may try a hook shot. Near the hoop
+
+he'll try one of a variety of slams (assuming he can slam) or layups.
+
+© To shoot, press and hold A. Release the ball at the top of your
+jump by releasing the button.
+
+© To fake a shot, tap A.
+
+ri NGA bEWR aT zy *
+hy SPORTS.
+
+le EA TIP if SHOT CONTROL in the Set Options menu is set to
+PLAYER, you'll shoot more accurately if you get your
+feet set before you shoot and release the ball at the
+top of your jump.
+
+‘fe EA TIP If you press B before you release A, you can still pass
+the ball after you leave your feet to shoot.
+
+REBOUNDING AND TIP-INS
+
+When you don’t have the ball, you can crash the boards. If your
+player has good position, he automatically tries to tip the ball back
+in the basket.
+
+© To jump to grab a rebound or tip the ball in, press X.
+
+24 Seconp Suot CLock
+
+From the moment your team gains possession of the ball, you have
+
+24 seconds to get off a shot that hits the rim. Each time the ball
+
+hits the rim or a change of possession occurs, the clock is reset.
+
+The 24 second clock appears at the bottom left of the screen when
+
+there are 10 or fewer seconds left.
+
+7 If you don't get a shot off before the 24 second clock expires,
+the referee calls a shot clock violation, and the other team gets
+possession.
+
+DEFENSE
+
+Everyone wants to make the sports highlights with awesome dunks,
+but to win games you have to play tough D.
+
+SwitcHine DEFENDERS
+
+You can switch to the defender nearest the ball at any time,
+
+assuming he isn't controlled by another human player.
+
+© To take control of the defender closest to the ball (between the
+ball and basket), press B.
+
+===== Page 10 =====
+
+16
+
+NBA LIVR OF h
+SPORTS »,)
+
+> To take control of a specific defender, Control Pad in the direction
+of the defender and press B.
+
+a EA TIP Your first order on defense is to stop the ball, so get
+a man on the ballhandler before he reaches the top
+of the key. This cuts off easy penetration and slows
+down the offense.
+
+STEALS
+
+When you're close to the ballhandler, you can try to reach in and
+steal the ball.
+
+> To try to steal the ball from an opponent, press Y.
+‘ft EATIP You have to be close to the man with the ball to pull off
+
+a steal. But don't get too aggressive, unless you want
+to get whistled for a foul.
+
+Svot BLocKING AND REBOUNDING
+You can jump to try to block a shot or grab a rebound.
+> To jump to reject a shot or work the glass, press X.
+
+ie EATIP Don't jump for the ball too quickly after a shot or you
+may get called for goaltending.
+
+INFRACTIONS
+
+When the refs spot an infraction on the court, they blow the whistle
+to stop play, and the violation is displayed onscreen.
+
+Fouts
+
+An offensive player gets to take free throws:
+
+| When a player is fouled after the defense commits 5 or more
+team fouls in a quarter, the offensive player gets 2 free throws.
+Offensive fouls don't count as team fouls.
+
+h NEA LiWE OF
+‘ SPORTS.
+
+| When a player is fouled in the act of shooting, he goes to the
+line. The basket counts if it is good, and the player gets 1 free
+throw. If the basket is missed, the player gets 2 free throws
+(3 if he was fouled while shooting a three-pointer).
+
+1 After a flagrant foul, the offense gets 2 free throws plus
+possession of the ball.
+
+FREE THROWS
+
+Use the T-Meter™ to aim your shots from the line. The T-Meter
+appears when your player goes to the charity stripe.
+
+Long/short distance
+
+Left/right aim
+
+Hey Grandma,
+shoot already!
+The longer you
+wait to shoot,
+
+the faster the
+ball travels along
+the T Meter
+
+Press A TO STOP THE BALL IN THE CENTER OF THE METER
+
+The ball moves left/right on the horizontal bar to control the
+left/right accuracy of your shot.
+
+© Press A when the ball is in the center of the bar to aim your shot.
+The ball moves up/down on the vertical bar to control the distance
+of your free throw.
+
+© Press A when the ball is in the center of the vertical bar. The
+
+player shoots the ball, and normal play resumes after the final
+free throw.
+
+===== Page 11 =====
+
+— ; A
+MEA LIVE &
+SPORTS. |
+
+co
+ed]
+
+The speed the basketball cursor travels on the bars of the T-Meter
+is controlled by the player's Free Throw rating—the better the rating,
+‘the slower the ball travels.
+
+Did EATIP if playing against another human player, there is
+a definite home court advantage! When the visitor
+shoots free throws, his opponent can rapidly press
+A, B, X, or ¥ to animate the home crowd background,
+making it harder to concentrate on the T-Meter.
+
+PLAYCALLING
+
+You can assign four different Sets and/or specific Plays for both
+offense and defense from the Strategy menu, and then call them on
+the fly during the game. In addition, you can assign offensive and
+defensive Quick Plays. See Strategy Menu on p. 21 for instructions
+on selecting sets and plays.
+> To call the Set/Play assigned to A, B, X, or Y, press SELECT +
+A, B, X, or Y. If your team has possession of the ball, an
+offensive play is called; on defense, a defensive play is called.
+> To call the Quick Play assigned to A, B, X, or Y, press L + A, B,
+X, or Y.
+Follow the steps from the animated diagram to execute the play.
+Computer-controlled players will move as outlined on the diagram,
+but you must control the actions of the ballhandler.
+
+a
+
+/NOTE: The plays and sets are guidelines, but NBA players.
+aren't robots—you make the play happen. We've drawn
+the X's and O's, but it's up to you to orchestrate your
+team.
+
+‘ a
+
+NEA LUIWR OF
+\| SPORTS.
+
+PAUSE MENU
+
+The Pause menu appears whenever you press START during a game.
+You must pause the game to call a time out, make a substitution, or
+choose from other menu options. The TIME OUT and SUBSTITUTION
+options are not always available—for instance, you can make a
+substitution only when the play clock is stopped. When options
+
+are grayed out, they cannot be selected.
+
+Time Outs
+
+You can pause the game at any time, but you must have possession
+of the ball to call a time out. The number of time outs remaining is
+listed after TIME OUT in the Pause menu. Each team gets 7 time
+outs per game. (If you call a time out after your 7 are exhausted, a
+technical foul is called and the other team shoots a free throw—
+but the clock is stopped.)
+
+To call a time out:
+
+© Highlight TIME OUT from the Pause menu and press B. The
+SUBSTITUTION option becomes available if it was not already.
+
+SUBSTITUTION
+
+You can make player substitutions when the play clock is stopped
+between periods, by a time out, or by a violation such as a foul or
+out of bounds. When the clock is not stopped, the SUBSTITUTION
+option isn't available.
+
+To make a substitution:
+
+1. When the clock is stopped, select SUBSTITUTION from the Pause
+menu. The Substitution screen lists the 5 players currently in
+the game.
+
+© To toggle between the two teams to check out your opponent's
+line-up, press L/R. (You can only make substitutions for the
+team you control, however.)
+
+===== Page 12 =====
+
+20
+
+NMBA L
+
+IW OF ¥
+My
+
+> To cycle between game stats, player ratings, 1995-96 stats,
+and season/playoff stats (if applicable), press X.
+
+To cycle through the available statistics/ratings for the players,
+Control Pad «>,
+
+2. To highlight a player for substitution, Control Pad t.
+
+To substitute for the highlighted player, press A. A screen listing
+the available bench players appears.
+
+Highlight a bench player, and press A to insert that player
+
+into the lineup. To return to the Pause menu, press START
+
+or SELECT.
+
+SPORTS.
+
+9
+
+>
+
+ib EA TIP Try to sub in a player who plays the same position as
+the player you're replacing—don't put a center in for the
+point guard.
+
+REPLAY
+You can replay the last few seconds of action during the game.
+
+© Select REPLAY from the Pause menu. An overlay displaying the
+game clock and the button functions appears at the bottom of
+the screen.
+
+X: Frame reverse
+'Y: Play reverse
+‘A: Play forward
+B: Frame forward
+
+> To move the center of the Replay screen, Control Pad in any
+direction.
+
+> To toggle between normal and reverse angle, press SELECT.
+
+Lew &
+
+ni NBA
+ky :
+
+StrateGy Menu
+OFFENSIVE PLAYS
+
+Go to the Offensive Plays menu to select offensive plays and strate-
+gy. You can have the computer automatically choose sets and plays,
+or you can choose four sets/plays to call during the action.
+
+CPU SELECTS
+
+SPORTS.
+
+Select this option to have the computer auto-
+matically select your offensive sets and plays.
+(But you can still call your own plays when you
+want.) When set to OFF, you call all your plays
+manually, and any play or set you call is run
+until you call another.
+
+> To toggle an option ON (W)/OFF, highlight the
+option and press A.
+Go after offensive rebounds aggressively if
+ON(W), and get back on defense if OFF.
+
+CRASH BOARDS.
+
+Offensive Sets and Plays
+
+Seven offensive sets are available in NBA Live 97, and each set
+contains from 4—10 plays.
+
+Animated
+
+Press A, B, X, ~ play diagram
+
+or Y to assign
+highlighted play Ball
+to button
+
+© To cycle through the plays for the highlighted set, Control Pad +>.
+
+===== Page 13 =====
+
+MBA LIWE OF
+SPORTS. ‘|
+
+As you select plays, the animated diagram on the right displays the
+motion of the players and the ball. In the diagram:
+
+1 Point Guard
+3 Small Forward
+5 Center
+
+2 Shooting Guard
+4 Power Forward
+@ Player with the ball
+
+The first play in each set has an “A” for automatic after it. When
+an Automatic play is selected, the computer randomly chooses a
+play from the offensive set when that set is called, and then keeps
+calling plays from that set until another set or play is called. If you
+select a specific play (i.e., any play other than “A”), that play is run
+until you select another.
+© To select the highlighted set/play and assign it to a button,
+press A, B, X, or Y. The selected play is assigned to that
+button, and any other play assigned to that button is cleared.
+
+© To call the appropriate play during the game, press SELECT + A,
+B, X, or Y.
+
+DEFENSIVE SETS
+Go to Defensive Sets screen to select defensive sets and options.
+
+CPU SELECTS When set to ON (), the computer selects
+defensive sets automatically. When set to OFF,
+any defensive set you call is maintained until
+you call a different set.
+
+PRESSURE Select LOW, MEDIUM, or HIGH defensive
+pressure. Higher pressure may lead to more
+steals, but also more fouls.
+
+Defensive Sets
+
+Five defensive sets are available, including man-to-man and trapping
+sets. The clipboard diagram on the right side of the screen shows
+the alignment for the highlighted set. Sets are selected and called
+in the same manner as offensive sets, except that there are no
+individual plays—only basic sets.
+
+‘ NBA LIWE OF —
+
+SPORTS.
+
+Orr. Quick PLays
+
+In the NBA, a basic play such as a pick and roll between a point
+guard and a power forward can be the cornerstone of a team's
+offensive success. In NBA Live 97, you can call your own NBA-style
+Quick Plays on the fly. Quick Plays differ from standard plays in that
+they are quick, simple, and can be run from any set (but do not
+alter the set).
+
+Quick Plays are selected and called in the same manner as plays,
+and any button assigned to a Quick Play overwrites any other
+offensive set or play assigned to that button. The diagrams show
+a typical situation in which the Quick Play can be called. However,
+the plays will execute differently depending on which player calls
+the play and where the player is located on the court. Experiment
+for best results.
+
+© To call the appropriate Quick Play during the game, press L + A,
+B, X, or Y.
+
+Der. Quick PLays
+The two Defensive Quick Plays let you stop the clock with a foul or
+double-team the ballhandler without altering your basic defensive set.
+INSTANT FOUL, Computer players try to foul the ballhandler
+
+to stop the clock.
+
+Computer players try to double-team the
+ballhandler.
+
+© To call the appropriate Quick Play during the game, press L + X
+or Y.
+
+DOUBLE TEAM
+
+DEFENSIVE MatcHups
+Go to Defensive Matchups screen.
+> To select the highlighted player, press A.
+
+> To change the opposing player that the selected player guards,
+highlight the player you want to guard, and press A again. The
+player who was guarding the man you selected now guards your
+original man.
+
+===== Page 14 =====
+
+NEA LIV OF {
+
+SPORTS.
+
+> To toggle double-teaming ON (Y) or OFF (N) for the selected
+player, Control Pad «>. When on, the computer-controlled
+defensive players try to double-team the ballhandler.
+
+at EATIP Double-teaming is a good way to shut down a player
+who's lighting you up.
+
+SUBSTITUTION
+
+Toggle between MANUAL and AUTO player substitution. When set
+to AUTO, the computer subs for tired players automatically.
+
+> To view the player changes when the computer makes an AUTO
+substitution, press START when a substitution message appears
+on the screen.
+
+OFFENSIVE SWITCH
+
+Set the mode for switching players on offense when you don't control
+the ballhandler. When you press B without pressing the Control Pad,
+you switch to the player closest to the ball (unless this setting is OFF).
+This option controls how the Control Pad affects player switching.
+
+OFF Disables player switching, so you control the
+same player all the time. To use this feature,
+switch to the player you want to control, pause
+the game, and select OFF. You now always con-
+trol the same player on offense.
+
+BALL Switch players relative to the ball. When you
+press B + T, you control the closest player in
+the up direction from the ballhandler.
+
+PLAYER Switch players relative to the player you now
+control. When you press B + 7, you control
+the closest player in the up direction from your
+current player.
+
+CLOSEST Switch to the player closest to the ball, regardless
+of what direction you press the Control Pad.
+
+h NBA LIWB OF wy 2
+SPORTS
+
+DeFENsIve SwitcH
+
+Set the mode for switching players on defense in the same manner
+as OFFENSIVE SWITCH. The default setting is BALL.
+
+Pray Notiry
+
+Toggle notification of playcalling ON/OFF. When ON, an overlay on
+the game screen lists the play being called.
+
+Coach Mope
+
+Toggle coaching mode ON/OFF. When ON, you can call plays, pause
+the game, etc., but you don't directly control any players.
+Statistics Menu
+
+View stats for the current game or, if available, the current series.
+
+TEAM STATS Go to the Team Stats screen to view both
+teams’ statistics for the current game.
+
+PLAYER STATS Go to the Player Stats screen to view statistics
+for NBA players. The team you control is shown
+by default.
+
+© To switch to the other team, press L/R.
+
+> To cycle between game stats, player ratings,
+1995-96 stats, and series stats (Season
+or Playoff modes only), press X.
+
+USER STATS Go to the User Stats screen to view stats
+(sorted by Controller) for all human players
+participating in the current game.
+
+© To toggle between Game and Career stats,
+press X.
+
+===== Page 15 =====
+
+me AN
+MEA LIYE OF
+
+SPORTS. |
+
+SHOT CHART View a shot chart showing made shots
+
+(green O) and those you missed (red X).
+
+Cycle between
+
+Team, User,
+
+and individual
+
+Players Cycle between
+
+Cycle between GAME and
+individual
+
+all FGs, 2 point,
+
+and 3 point shots QUARTER shots
+
+© To switch to the other team, press L/R.
+
+Pay Options Menu
+The Play Options menu gives you access to options and rules screens.
+
+SET RULES Go to the Set Rules screen to change specific
+rules. See Set Rules Menu on p. 7.
+SET OPTIONS Go to the Set Options menu (p. 8).
+
+PLAYER SETUP Change controller options. See Player Setup
+Screen on p. 11.
+
+EXIT GAME Go to the Exit menu. Select EXIT CURRENT GAME
+to quit the game; select DO NOT EXIT to return
+to the Play Options menu. In Season or Playoff
+mode, you have the option to exit the entire
+season or playoff as well as the current game.
+
+END OF THE QUARTER/HALF/GAME
+
+END OF THE quarTER: The buzzer sounds, play stops, and the score is
+displayed. Press START, and the Qtr Stats screen appears. Press
+START to continue, and the teams return to the floor.
+
+4 NBA LIWR OF we 2
+
+M SPORTS.
+
+En OF THE HALF: After the score is displayed, the Key Players screen
+highlights a player from each team, followed by the Halftime Stats
+screen. (To view additional stats, Control Pad <>.) Press START to
+continue after each screen, and a trivia question appears. (The
+answer is given after the third quarter.) When play resumes,
+
+all uninjured players are at full Stamina.
+
+Enp oF THE Game: After the final buzzer, the final score is displayed.
+Press START, and the game stats of the Player of the game are
+shown. Press START after each screen, and the End of Game stats
+are displayed followed by the Statistics menu. (See Statistics Menu
+on p. 25.) When you're through looking at the screens, press START
+to go to the Game Setup menu.
+
+PRACTICE MODES
+
+Created to tighten your game, the 2-on-2 or 3-on-3 Half Court
+practice games are new and ready for use. Nothing can sharpen
+your skills faster than a little quick and dirty competition.
+
+2-ON-2 OR 3-ON-3 HALF COURT
+
+Selecting either of these modes places you in a halfcourt practice
+game to a specified number of points. Arcade rules are in effect,
+so don't look for the refs to bail you out with a call when you get
+fouled on the way to the hoop. Define just how quick you want this
+competition to last from the Game Setup menu.
+
+POINTS Set the number of points it takes to win to 7,
+11, 15, 21, 30, or 50. The first team to the
+specified point total, with a 2 point lead, wins
+the game.
+
+OUTS Select LOSER’S OUTS to let the other team
+inbound the ball after a basket or WINNER'S
+OUTS to give the ball back to the team who
+makes the bucket. Winner's outs make it easier
+to get on a run; loser's outs ensure a more bal-
+anced game.
+
+===== Page 16 =====
+
+28
+
+zy\ REA LOVE 87 q
+SPORTS \|
+
+BASKET PTS
+
+Select 1 AND 2 POINT or 2 AND 3 POINT
+BASKETS to set the scoring for normal shots
+and shots from behind the 3-point line.
+
+1. When you continue from the Game Setup screen, the 2 on 2
+(or 3 on 3) Setup screen appears. To toggle between team slots,
+press A; to cycle through teams, press L/R; to highlight a player
+slot, Control Pad +; to cycle through players for the highlighted
+slot, Control Pad «>.
+
+2. Press START, and the Player Setup screen appears. Select
+controller options as normal, and the game begins.
+| The ball must be cleared beyond the 3-point line after every
+
+change of possession. A tone and screen message signal
+successful clearance.
+
+SEASON PLAY
+
+You can take a team through an entire season in NBA Live 97.
+
+You can play and/or simulate your way right on to the NBA Playoffs
+and the Finals. Two memory slots for saving season or playoff
+series (including stats) are provided, so you can save and resume
+your season any way you want.
+
+STARTING A SEASON
+
+1. From the Game Setup menu, select SEASON from the MODE
+option.
+
+2. Set up the remaining options, then press START. The Team
+Select screen appears.
+
+To continue a saved Season:
+
+1. From the Game Setup menu, select LOAD SERIES from the
+MODE option. Press START to continue, and the Load Series
+screen appears.
+
+2. Select one of the two memory slots, and press START. You
+return to the position at which the season was saved.
+
+A MBA bo
+
+by | _— BE
+
+SEASON TEAM SELECT SCREEN
+
+In Season mode, the Team Select screen allows you to choose the
+
+team you'll control through the season and choose the number of
+
+games in the season.
+
+TEAM Control Pad «> to select from the 29 NBA
+teams. Ratings for the selected team are
+displayed to the right of the screen.
+
+SEASON Select from 82 (the standard NBA schedule),
+28, or 56 game seasons.
+
+29
+
+> Press START to continue. The Team Schedule screen appears.
+
+TEAM SCHEDULE SCREEN
+
+Use this screen to play or simulate games throughout your team’s
+season; view league standings, and scheduled games; or make
+player trades.
+
+Date
+Opponents
+
+Options
+
+> To move through your team's schedule by day, Control Pad «>.
+© To activate the highlighted option, press A.
+
+> To jump to the next scheduled game, press START or X. If the
+next scheduled game is already highlighted, pressing START
+takes you to the game.
+
+===== Page 17 =====
+
+= h|
+MEA LIVE OF LS
+SPORTS. ‘|
+
+PLAY Play the currently highlighted game. You can
+only play or simulate the next game; you cannot
+skip any unplayed games.
+
+Simulate the currently highlighted game. The
+game score appears beneath the team names.
+
+SIMULATE
+
+/NOTE: If quitting Season play, you must save the last simulated
+game in order to play out the rest of the Season.
+
+STANDINGS View League Standings by division.
+© To cycle through the NBA divisions, Control
+Pad «>.
+© To cycle through the NBA teams, Control Pad }.
+CALENDAR View the league schedule by day.
+
+> To page through the league schedule by day,
+Control Pad «+. (To page by month, press L/R.)
+
+YNOTE: The TNT logo indicates games broadcast on TNT.
+
+ROSTER SETUP Go to the Roster Setup menu (p. 34).
+
+GO TO PLAYOFFS _ Go directly to the Playoffs, with the current
+standings determining the Playoff seeding.
+See The NBA Playoffs on p. 32.
+
+SAVE Go to the Save Series screen. See Save Series
+Screen on p. 31.
+
+EXIT Exit the Season.
+
+h NBA LIWE OF —
+\ SPORTS
+
+AFTER THE GAME
+
+After a Season game, the postgame and Statistics screens appear
+as normal. Press START to continue, and the Save Series screen
+appears.
+
+Save SERIES SCREEN
+
+1. To select a memory slot, highlight one of the two slots and
+press A. The current Season series is listed in the selected slot.
+
+© To toggle between SAVE and DO NOT SAVE, Control Pad <>.
+If you want to save the series, be sure to select SAVE before
+exiting the screen.
+
+2. To continue, press START. You return to the Team Schedule
+screen.
+
+END OF THE SEASON
+
+The Standings screen appears after the Save Series screen. Teams
+that qualify for the playoffs are highlighted in gold (division winners
+in red, and conference champions in blue). Press START to advance
+to the Playoff Tree screen. If you made the playoffs, see Starting a
+Playoff Series on p. 32. If you didn't make the playoffs, the Playoff
+Tree displays the playoff results. Press START to return to the
+Game Setup screen.
+
+===== Page 18 =====
+
+SPORTS.
+
+jas FA
+Zy\ NBA LIWE OF ky
+
+THE NBA PLAYOFFS
+
+The playoffs come but once a year in the NBA, but you can create
+your own playoff atmosphere any time you want in NBA Live 97.
+You can start with an NBA team in Season play and try to make the
+playoffs, or set up your own custom playoffs using any NBA teams.
+
+STARTING A PLAYOFF SERIES
+
+From THE GAME Setup MENU: When you start a new Playoff series
+
+from the Game Setup menu, you can choose the teams that play in
+
+the series, as well as which teams are human-controlled.
+
+1. From the Game Setup menu, select PLAYOFF MODE from the
+MODE option.
+
+2. Set up the remaining options, then press START. The Playoff
+Tree screen appears.
+
+From Season ptay: If your team qualifies for the playoffs, the Playoff
+
+Tree appears after the end of the season, and your team is high-
+
+lighted with a control star. Playoffs proceed as normal, except that
+
+you cannot change the teams or human control stars.
+
+THE PLAYOFF TREE
+
+Press L/R to
+cycle through
+
+teams for high
+lighted siot
+
+Press A to toggle
+human control
+Star on/off for
+highlighted team
+
+Highlighted team:
+name/ranking
+
+q ; —
+
+{ Lhiwe 97
+| SPORTS.
+
+© To highlight a team, Control Pad {. To scroll the screen left/right,
+Control Pad «>.
+
+To toggle human control on/off for the highlighted team, press
+A. Human-controlled teams have a blue star behind the team
+name at the bottom of the screen. Games involving human-
+controlled teams are played; other games are simulated.
+
+> To change the team in the highlighted playoff slot before the
+playoffs begin, press L/R to cycle through the NBA teams.
+A team can appear in more than one playoff slot.
+
+© To change the series schedule, highlight GAMES in the center
+of the screen. Press A to cycle through the choices. Choose
+from 5-7-7-7 (the NBA format; 5 games in the first round and
+7 games thereafter), 1-1-1-1, 1-3-3-3, or 3-5-5-5.
+
+© To go to the Roster Setup screen to change your playoff roster,
+select ROSTER SETUP. See Roster Setup Menu on p. 34.
+
+® To continue, press START. The Playoff options appear at the
+center of the screen:
+
+9
+
+PLAY: Play the next scheduled Playoff game. Press A, and the
+Player Setup screen appears. Gameplay proceeds as normal.
+
+SIMULATE: Simulate the next Playoff game.
+SAVE: Go to the Save Series screen (p. 31).
+
+REORDER ROSTER: Go to the Re-Order Roster menu (p. 37).
+EXIT: Exit the Playoff.
+
+END OF THE GAME
+
+After a Playoff game, the postgame and Statistics screens appear
+as normal, Press START to continue, and the Save Series screen
+appears.
+
+1. To select a memory slot, highlight one of the two slots and
+press A. The current Playoff series is listed in the selected slot.
+
+To toggle between SAVE and DO NOT SAVE, Control Pad «>.
+2. To continue, press START. You return to the Playoff Tree screen.
+
+===== Page 19 =====
+
+NBA LIWE OF ¥
+SPORTS. ‘|
+
+ENp oF THE RouND
+
+> If you win your round, the procedure is the same as any other
+game, except when you return to the Playoff Tree your team icon
+is moved to the next bracket and you face a new opponent.
+
+> If you lose a round, you return to the Playoff Tree screen to see
+the final playoff results after the postgame screens. Press
+START after each screen to return to the Game Setup screen.
+
+ROSTER SETUP MENU
+
+From the Roster Setup menu, you can trade players as well as
+create Custom players to change the roster and starting lineup for
+any team(s).
+
+“NOTE: Team rosters are determined by actual NBA rosters
+as of August 13, 1996. Some players are not included
+in the game for legal or contractual reasons.
+
+TRADE PLAYERS SCREEN
+
+You can trade players between your team and any other team, as
+well as pick up free agents from the Free Agents pool. You're the
+GM here—you make the deals!
+
+1. Select TRADE PLAYERS from the Roster Setup menu. The Trade
+Players screen appears.
+
+2. Highlight the player you wish to trade, and press A. The bottom
+portion of the screen lists the roster of another NBA team.
+
+> To cycle through the NBA teams, including the Free Agents pool,
+press L/R.
+
+> To cycle through the statistics/ratings for the players, Control
+Pad <>. (X to toggle between 1995-96 stats and ratings.)
+3. To accept the trade for the highlighted player, press A. (Or to
+
+abort the trade, highlight the original player and press A.) You
+return to the Trade Players screen.
+
+Al NBA LOWS OF zZy\
+hy SPORTS.
+
+CREATE/EDIT/DELETE PLAYER
+
+You can create and edit up to 24 players in NBA Live 97. Newly
+
+created players are placed in the Free Agents pool, and may be
+
+picked up by any team.
+
+1. Select CREATE PLAYERS from the Roster Setup menu, and the
+Create Player screen appears.
+
+Picture of player
+Control Pad «+
+to change high
+lighted option
+
+To TOGGLE BETWEEN THE CREATE PLAYER
+AND Ebir RATINGS SCREENS, PRESS L/R
+
+CREATE PLAYER
+
+NAME Enter a player name of up to 12 letters.
+
+© Press A to access the Name, then Control Pad
+t to change a highlighted letter; Control Pad <>
+to add/highlight a letter.
+
+© Press A to accept the name.
+
+NUMBER Enter a jersey number from 00-99.
+HEIGHT and Adjust player height (5'3"-7'10") and weight
+WEIGHT (130-355lb).
+HAND Select LEFT or RIGHT hand for dribbling and
+shooting.
+
+HEAD and PLAYER Select head style and player skin tone.
+POSITION
+COLLEGE
+
+Player's natural position.
+Player's college.
+
+===== Page 20 =====
+
+36
+
+MBA RIVE OF y
+SPORTS:
+Epit Ratines 50-99
+FIELD GOAL Field goal rating.
+THREE POINT Three-point shooting ability.
+FREE THROW Free throw shooting ability.
+DUNKING Ability to make spectacular slams.
+STEALING Ability to steal the ball.
+BLOCKING Shot blocking rating.
+OFF. REBOUND Offensive rebounding ability.
+DEF. REBOUND. Defensive rebounding ability.
+OFF. ABILITY Offensive court awareness.
+DEF. ABILITY Defensive court awareness.
+PASSING Passing skill.
+SPEED Running speed.
+QUICKNESS Quickness rating.
+JUMPING Leaping ability.
+DRIBBLING Ball handling skill.
+STRENGTH Body strength.
+
+le EATIP To add a Created player to your roster, select a player
+from your team, and trade for the Created player from the
+Free Agents pool that appears after the last NBA team.
+
+To EDIT AN EXISTING PLAYER: Choose EDIT PLAYERS from the Roster
+Setup menu, then select a player from the Edit Player list screen.
+Press A, and the Edit Player screen appears. Change player features
+and attributes in the same manner as in the Create Player screen.
+
+To DELETE AN EXISTING PLAYER: Choose DELETE PLAYERS from the
+Roster Setup menu, then select a player from the Delete Player list
+screen. Press A to erase the player or START to return to the Roster
+Setup screen.
+
+“NOTE: You can only delete a created player if he is currently in
+the Free Agents pool in all game modes (Ehxibition,
+Season, and Playoff).
+
+| —
+NBA LIWB OF
+SPORTS.
+
+RE-ORDER RosTER Menu
+
+The Re-order Roster menu allows you to change the roster slots for
+
+the players on your team. The first 5 players on the roster are the
+
+starters.
+
+© To select a team, press L/R.
+
+> To cycle through the statistics/ratings for the players, Control
+Pad <>. (X to toggle between 1995-96 stats and ratings.)
+
+© To exchange the roster slot of two players, highlight a player
+
+and press A. Highlight a second player, and press A again.
+The players switch roster slots.
+
+Reset Roster
+
+Reset all team rosters to their original lineups with the press of one
+
+button. (Not available in Season mode.)
+
+© To reset all rosters, press X. All trades are reversed and every
+roster returns to its original order.
+
+© To return to the Roster Setup menu without resetting the rosters,
+press any other button.
+
+===== Page 21 =====
+
+NBA LIWB OF N
+SPORTS aN}
+
+CREDITS
+
+Procrammer: John Siegesmund, Ed Hellesen, Joe Guagenti
+
+Grapuics AND Animation: Dave Pasciuto, Mike Smith, Ken Thurston,
+Mike Vanaselja, Sebastiaan Reinarz
+
+Propucer For NUFX: Patrick Quinn
+Music: Brian Schmidt
+Appitionat SFX: Traz Damji
+
+Executive Propucer: Sam Nelson
+
+Propucer: Stanley Chow
+
+Associate Probucer AND Desien: Tarrnie Williams Jr.
+Assistant Probucer: Michael Klassen
+
+Propuct Marketine: Glenn Chin
+
+Documentation: Andrea Engstrom, David Lee
+Packace Art Direction: Nancy Waisanen
+
+Packace Desian: Susan Spies
+
+Rocky Widner/NBA PhotosDocumentation
+Documentation Layout: Corinne Mah
+
+QA Leap: Geoff Ball
+
+QA Backup Leap: Peter Dodson
+
+Testers: Lori Wilson, Jamie Ip, Kristen Olafson, Nathan Wawruck,
+Peter Pearson, Kirby Leung, Evan Stanfield, Phong Lam,
+Fred Hirschfeld, Edwin Singh, Nathan McDonald
+
+QA Support: Gary Lam, Rod Higo
+San Mateo QA: Ollie Ongpin, Brian Winslow
+
+Speciat THanks: Amory Wong, Dan Scott, Daniel Ng, Renata Antonic,
+Jeremy Strauser, Zoe Quinn
+
+Packace Pxor’
+
+\ NSA LIWE OF
+
+SPORTS
+ELECTRONIC ARTS LIMITED WARRANTY
+
+Electronic Arts warrants to the original purchaser of this Electronic Arts software product
+that the medium on which this computer program is recorded is free from defects in mate-
+rials and workmanship for a period of ninety (90) days from the date of purchase. This
+Electronic Arts software program is sold “as is,” without express or implied warranty of
+any kind, and Electronic Arts is not liable for any losses or damages of any kind resulting
+from use of this program. Electronic Arts agrees for a period of ninety (90) days to either
+repair or replace, at its option, free of charge, any Electronic Arts software product,
+postage paid, with proof of purchase, at the Electronic Arts Warranty Department. This,
+warranty is not applicable to normal wear and tear. This warranty shall not be applicable
+and shall be void if the defect in the Electronic Arts software product has arisen through
+abuse, unreasonable use, mistreatment or neglect.
+
+LIMITATIONS —This warranty is in lieu of all other warranties and no other representations
+or claims of any nature shall be binding on or obligate Electronic Arts. Any implied war-
+ranties applicable to this software product, including warranties of merchantability and
+fitness for a particular purpose, are limited to the ninety (90) day period described above.
+In no event will Electronic Arts be liable for any special, incidental, or consequential
+damages resulting from possession, use or malfunction of this Electronic Arts software
+product
+
+Some states do not allow limitations as to how long an implied warranty lasts and/or
+exclusions or limitations of incidental or consequential damages so the above limitations
+and/or exclusions of liability may not apply to you. This warranty gives you specific rights,
+and you may also have other rights which vary from state to state.
+
+NOTICE
+
+Electronic Arts reserves the right to make improvements in the product described in this
+‘manual at any time and without notice.
+
+This manual and the software described in this manual are copyrighted. All rights are
+reserved. No part of this manual or the described software may be copied, reproduced,
+translated, or reduced to any electronic medium or machine-readable form without the
+prior written consent of Electronic Arts, P.O. Box 7578, San Mateo, California 94403-
+7578, Attn: Customer Support.
+
+RETURNS AFTER WARRANTY—To replace defective media after the ninety (90) day war-
+ranty period has expired, send the original game pak to Electronic Arts’ address below.
+Enclose a statement of the defect, your name, your return address, and a check or money
+order for $30.00.
+
+Electronic Arts
+
+Customer Warranty
+
+P.O, Box 7578
+
+San Mateo, California 94403-7578
+
+Mf you need to talk to someone about this product, call us at (415) 578-0316 Monday
+through Friday between 8:30 AM and 4:30 PM, Pacific Time
+
+EA Tech Support Fax: (415) 286-5080
+
+39
+
+===== Page 22 =====
+
+NBA LIVE OF A
+SPORTS. ‘|
+
+HOW TO REACH US ONLINE
+
+CompuServe: Game Publishers A Forum (GO GAMAPUB)
+Or send E-mail to 76004,237
+
+America OnLine: Send e-mail to ELECARTS
+
+Internet e-mail: support1@ea.com
+Warranty Inquiries: CSWarranty@ea.com
+(Or send email to elecarts@aol.com or 76004.237@compuserve.com)
+
+World Wide Web: Access our Web Site at http://www.ea.com
+FIP: Access our FTP Site at ftp.ea.com
+
+TBS Super Station is a registered service mark of Turner Broadcasting Sales, Inc.
+
+All rights reserved. TNT is a registered trademark of Turner Network Television, Inc.
+
+All rights reserved.
+
+The NBA and individual NBA Team identifications used on or in this product are trade-
+marks, copyrighted designs and other forms of intellectual property of NBA Properties,
+Inc. and the respective Teams and may not be used, in whole or in part, without the
+prior written consent of NBA Properties, Inc. © 1996 NBA Properties, Inc. All rights
+reserved.
+
+EA SPORTS, the EA SPORTS logo, and T-Meter are trademarks, and “If it’s in the game,
+it’s in the game” and Electronic Arts are registered trademarks of Electronic Arts.
+
+Software and documentation © 1996 by Electronic Arts. All rights reserved.

@@ -1,0 +1,961 @@
+# Garry Kitchen's Super Battletank - War in the Gulf
+source: https://archive.org/details/snes_manual_archive
+pdf: Garry Kitchen's Super Battletank - War in the Gulf (USA) (Rev 1).pdf
+region: USA, Rev 1
+pages: 10
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+Garry Kitchen’s
+
+CUPER BATTLETANIY
+
+WAR IN THE GULF =
+Design and program by Carry Kitchen and Alex DeMeo
+Graphics by Jesse Kapili
+Music by Mark Van Hecke
+
+Thanks to Dan Kitchen, Mark Morris, and David Crane
+Package and Manual Design by W. R. Wentworth
+Instruction Manual by Barry Marx
+
+Photo Credit: Mason Morfit
+
+Garry Kitchen has been designing video
+games since 1979. His first titles were the
+Jandmark Atari 2600 version of Donkey
+Kong™ (Coleco) and his original creation,
+Keystone Kaper (Activision), also for the
+2600.
+
+Garry's other products for Activision include
+Designer's Pencil™ and Carry Kitchens
+Gamemaker,” both for the Commodore 64.
+His work on these titles led to his being
+named 1985's Video Game Designer of the
+Year by Computer Entertainer magazine.
+For the NES, Garry has worked on
+Destination Earthstar™ and The Simpsons:
+Bart vs. the Space Mutants™ (Acclaim);
+Stealth ATF™ (Activision); and Absolute’s A
+Boy and His Blob” He was also the designer
+Of Absolute’s best-selling NES release,
+Battletank”
+
+Carry currently serves as president and CEO
+of Absolute Entertainment, inc
+
+COMMANDER'S DIRECTIVE
+
+Published by Absolute Entertainment. Inc. 251 Rock Road, P.O. Box 116, Glen Rock, NJ 07452. Distributed by Electro Brain Corp
+Super Battietank: War in the Gulf a trademark of Absolute Entertainment, INc Al rights reserved. Absolute Entertainment is a N
+registered trademark of Absolute Entertainment, Inc.All rights reserved, Nintendo, Super Nintendo Entertainment System and
+
+the Official Seals are registered trademarks of Nintendo of America inc «© 1992 Nintendo of America Inc. # 1992 Absolute
+Entertainment, ine allrights reserved \
+
+Printed in Jaan D
+
+===== Page 2 =====
+
+MD AAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER INFORMATION &
+PRECAUTIONS BOOKLET CAREFULLY BEFORE USING YOUR NINTENDO’
+HARDWARE SYSTEM OR GAME PAK.
+
+THIS OFFICIAL SEAL IS YOUR ASSURANCE THAT
+NINTENDG* HAS REVIEWED THIS PRODUCT AND THAT
+IT HAS MET OUR STANDARDS FOR EXCELLENCE IN.
+WORKMANSHIP: RELABLITY AND ENTERTAINMENT
+VALUE. ALWA\ FOR THIS SEAL WHEN BUYING
+CAMES AND ACCESSORIES TO ENSURE COMPLETE
+COMPATIBILITY WITH YOUR SUPER NINTENDO
+ENTERTAINMENT SYSTEM, ALL NINTENDO PRODUCTS
+ARE LICENSED BY SALE FOR USE ONLY WITH OTHER
+AUTHORIZED PRODUCTS BEARING THE OFFICIAL
+NINTENDO SEAL OF QUALITY.
+
+LICENSED BY
+
+(N tendo)
+
+NINTENDO, SUPER NINTENDO ENTERTAINMENT
+SYSTEM AND THE OFFICIAL SEALS ARE TRADEMARKS
+OF NINTENDO OF AMERICA INC
+
+© 1992 NINTENDO OF AMERICA INC.
+
+2
+
+ABSOLUTE
+
+ENTERTAINMENT].
+
+MA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL
+
+TABLE OF CONTENTS
+
+Powering Up .........
+Controlling the M1A1
+Receiving Mission Orders . .
+
+The Battle Screen
+The Instrument Panel. .
+
+The Radar Maps
+@ Long-range Radar Map. .
+ Short-range Radar Map ..
+
+Weapons .
+« 7.62mm Machine Guns .
+120mm Cannons .
+¢ Laser-guided Shells .
+* Smoke Screen...
+
+Allied Bases..........
+Damage and Repair. .
+e Refueling
+© Rearmament. .
+
+Fortified Enemy strongholds
+Stronghold Assault Strategy
+
+Mission Completion ... .
+
+===== Page 3 =====
+
+COMMUNI
+
+BATTLETAN
+
+FROM THE Cc
+
+ALLIED FORCES
+
+‘As you know, the PersiaD. Gulf air war has beep.
+underway for some time now, and we have been
+
+completely successful in all aspects of that
+campaign.
+
+‘While we have previously een unable to confirm
+
+the necessity of launching @ ground assault, we
+
+have certainly been prepared to commence such
+
+an action for the past several months.
+
+tis my duty to jnform you at this time that the
+decision to go ahead with the ground war has been
+made. We have peceived orders from the president
+authorizing immediate troop movements into
+Kuwait.
+
+On behalf of the Allies and the American people,
+the president extends his appreciation to you and
+your men for training SO diligently and waiting so
+patiently these last few jnonths. You ave earned
+jis respect and complete confidence.
+
+As for myself, I know you will perform prilliantly.
+
+vvvvvvvY
+vvvV
+VVVV VV VV VV VV VV VV VV
+VVVVVVVY
+
+4. Mi
+A Male Sure the power switch is OFF.
+in the Gulf came fake deel ed
+eas NINTENDO" a
+INMENT SYSTEM™
+3. Turn the power switch nn
+
+TO START: Push
+u the S
+the game controller. TART BUTTON on.
+
+qlildse wank evervoody to know
+
+Cia wena /e a toolbox that's full of
+
+ceecaae
+in
+
+Chairman, Joint Chiefs OF Staff
+
+M1A1 Abrams
+Weight: 63 tons Barseons
+
+Measurements:
+wide, 7.8 ft. Nan 20 ft. long, 11.8 ft.
+
+Primary Weaponry: 420mm M-68E
+pilates cannon, firing M-728 i
+anne ing shells at a range of 2.5
+
+Secondary We:
+aponry:
+-240 machine panty: Ze2mn
+ngine: 1,500 hp
+E gas turk
+Top Speed: 42 mph ei
+
+Maximum Ran
+ge
+Capacity: 28 mies
+
+Number of Uni
+Persian Gulf: nics penloved to
+
+===== Page 4 =====
+
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL
+
+CONTROLLING THE Mia1
+
+Refer to the diagram below and
+familiarize yourself with the controls
+needed to operate your M1.
+
+TOP LEFT BUTTON. y TOP RIGHT BUTTON
+
+To Steer Tank-Press the TOP RIGHT or To Lower Cannon or Weapons
+TOP LEFT BUTTONS. Sight—Press the UP ARROW.
+
+To Increase Speed-Hold down To Raise Cannon or Weapons
+BUTTON X. Sight—Press the DOWN ARROW.
+
+To Decrease Speed-Hold down To Pause/Unpause—Press START.
+BUTTON Y.
+
+To Reverse Direction-Hold down
+BUTTON Y when stopped.
+
+To View Long-Range Radar Map-
+Press BUTTON B.
+
+To Select a New Weapon—Press
+SELECT.
+
+To Fire a Weapon-Press BUTTON A.
+
+MA AADAAAAAAAADAAADDAADAAAADAAADAAAAAAAAAAAL
+
+Receivinc Mission ORDERS
+
+Your mission orders will appear here.
+
+After a short briefing by the
+commander of the Allied Forces, you
+will be given your mission orders along
+with the current time and present
+location. Each mission assigns to your
+M1A1 a number of enemy objectives
+that must be located and destroyed
+(see the Long-range Radar Map icons
+‘on page 10 for a complete listing of
+enemy targets),
+
+Expect a total of 10 missions in this
+campaign that will increase in difficulty
+and vary as to time of day. The number
+of enemy encounters will progressively
+tise, and combat will become more
+intense. Missions 3-10 are expected to
+culminate with assaults on heavily-
+fortified Enemy Strongholds; see page
+44 for more information.
+
+If you have previously familiarized
+yourself with your orders, you may
+bypass this screen by pressing START or
+BUTTON A.
+
+===== Page 5 =====
+
+MA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL
+
+THE BaTrTLe SCREEN
+
+This is the view from which you will deploy your weapons and actively engage
+the enemy. All tank commanders are expected to have spent the requisite
+number of hours in battle station training, as stipulated by the Allied Forces
+commander. Combat participation without a complete understanding of the
+following section is strongly discouraged.
+
+Gun Angle
+
+Range of Sighted
+Enemy from Tank
+
+Mission Number
+Enemy Targets
+Remaining
+speedometer
+Fuel Gauge
+
+Message Center
+
+Short-range
+Radar Map
+
+Damage
+Indicator Lights
+
+Weapons Status Weapons Shots Remaining
+Indicator
+
+The Instrument Panel
+
+The M1A1's fully-instrumented driver's station provides direct access to all
+computerized weaponry and guidance systems.
+
+Following is a brief overview of instrumentation function. For detailed
+explanations of each feature, consult the appropriate sections contained in this
+document.
+
+VV VV VV VV VV VV VV VY
+
+Gun Angle: The precise angle to which
+the 120mm cannon turret is raised or
+lowered at any given time Irange: from
+O° = straight ahead, through 10’
+
+fully raised)
+
+Range: The distance, in meters, of the
+sighted enemy from your tank. This
+information can only be provided
+when a weapons sight has targeted
+either a mobile or stationary enemy,
+
+Mission Number: Numbered 1-10.
+
+Message Center: Relays crucial
+information, such as equipment
+status, mine field approach warnings,
+communications from headquarters,
+and your score.
+
+Enemy Targets Remaining: This is
+the number of enemies still active and
+in operation that must be destroyed in
+order to complete a mission,
+
+Short-range Radar Map: Shows the
+location of the enemy relative to your
+tank.
+
+Damage Indicator Lights: Each light
+registers a significant hit your tank has
+sustained from the enemy. The M1A1 is
+capable of tolerating a maximum of 5
+hits. On the sixth hit, your mission will
+be reported as failed.
+
+Speedometer: The needle moves
+Clockwise as your speed increases, and
+counterclockwise as it decreases.
+When your tank is in reverse, the
+needle moves counterclockwise past
+the zero point.
+
+Fuel Gauge: When the needle is
+positioned all the way to the right, you
+are fueled to capacity. As you burn up
+fuel, the needle moves to the left.
+
+‘Weapons: When a particular weapon
+has been selected for use, its Status
+Indicator will be illuminated
+
+Weapons Status Indicator: Indicates
+the condition of the weapon in use.
+Green light — OK to engage. Red light
+system out; unavailable. Blinking
+green light — reloading or overheated.
+
+Shots Remaining: The amount of
+ammunition available for a particular
+weapon
+
+===== Page 6 =====
+
+MADAAADAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL
+
+THE RapaAR Maps
+
+The M1A1 comes equipped with
+advanced Nav-Star uplink navigational
+systems that will maximize your
+effectiveness in combat. Use these
+instruments in the following
+sequence:
+
+1. Long-range Radar Map
+The Long-range Radar map enables
+you to quickly and efficiently locate
+Mobile and stationary enemy targets,
+mine fields, and Allied bases. Pressing
+BUTTON B displays the map in place of
+the Battle Screen
+
+Various combinations of the icons
+shown below will appear, depending
+on which mission you are currently
+undertaking,
+
+Long-range Radar Map Icons
+
+ee
+viet-m —-
+oi.
+
+7-62 Tank
+Mine Field
+
+SCUD Launcher
+
+Location of Heavily-
+Fortified Stronghold
+
++
+
+Soviet-made
+Mi-24 HIND Helicopter
+
+Allies
+Allied Base
+
+=
+
+10
+
+The blinking tank is yours. After
+identifying each icon, steer your M1
+into the desired sector and press
+BUTTON B again to switch back to the
+Battle Screen.
+
+CAUTION: It is not advisable to drive
+
+‘mission sector parameters on either the Long-
+range Radar Map or the Battle Screen.
+
+‘To prevent such a breach from occurring, your
+tank's computerized guidance system has been
+
+re-programmed to stop at these boundaries,
+
+2. Short-range Radar Map
+The enemy (represented by a square
+icon) will now appear on the Battle
+Screen’s Short-range Radar Map, and
+will be identified in the Message
+Center. A mobile enemy may begin to
+move toward you and commence
+firing. At such times, it is strongly
+recommended you engage in combat
+immediately (see “Weapons” on
+
+page 14).
+
+When an enemy is destroyed, the icon
+will disappear from both the Long-
+range and Short-range maps. Mine
+fields and fortified enemy strongholds
+are not depicted on the Short-range
+Map.
+
+Mine Fields
+
+Mine fields will cause damage to your
+tank on both the Long-range Radar
+Map and the Battle Screen, but do not
+appear on the Short-range Radar Map.
+On the Long-range Radar Map, avoid
+Passing over the mine icons. As you
+approach a mine field on the Battle
+Screen, a mine detection warning will
+appear on the Message Center. You
+should attempt to steer around them
+so they pass on either side and not
+under you.
+
+Mines can be taken out with machine
+guns.
+
+MAAAAAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAL
+
+The M1A1 is equipped with four types
+of artillery. These are available to you
+during combat on the Battle Screen
+Pressing SELECT highlights the weapon
+on the instrument panel; pressing
+BUTTON A fires it,
+
+You will be issued a different number
+of rounds for each mission. On the
+instrument panel, the number next to
+the weapon indicates how many of its
+shots remain.
+
+The Weapons Status Indicator lights
+provide you with immediate feedback
+on the condition of your artillery. A
+
+green light signals normal firing status;
+
+a red light signals a weapon's
+unavailability, which may be due to
+complete expenditure of ammunition.
+In the latter case, rearmament is
+possible at an Allied base (see “Allied
+Bases” on page 13 for more details on
+this process). A blinking green light
+signifies temporary reloading
+procedures in progress, or
+overheating.
+
+7.62mm Machine Guns
+Machine guns are best used in short
+punctuated bursts. Prolonged firing
+will lead to overheating, which is
+indicated by a flashing green Weapons
+System Status light. If this situation
+occurs, you will be unable to fire until
+the guns cool and the steady green
+light returns.
+
+In addition to their effectiveness on
+mobile and stationary enemies, the
+machine guns can take out mines and
+enemy shells visible on the Battle
+Screen.
+
+The machine guns are represented on
+the Battle Screen by an “X” sight.
+
+120mm Cannons
+
+In all missions, your main ammunition
+allotment will be for the 120mm.
+cannons.
+
+The cannon turret must be carefully
+aimed to maximize the effectiveness
+of a shot. Refer to the Gun Angle
+indicator on your instrument panel to
+make your adjustments, based on your
+distance from the enemy. For a shot
+to travel longer distances, the gun
+angle should be raised (the maximum
+is 10°). Caution must be exercised,
+however, not to fire over the top of a
+close enemy tank.
+
+For shorter distances, a smaller angle
+is called for (0° will result in a shot that
+travels straight and low),
+
+n
+
+===== Page 7 =====
+
+MADMAADAAAADAAAADAAAAAAAAAAAAAAAAAAAAAAAAL
+
+Laser-guided Shells (“Fire
+and Forget’)
+
+A limited number of cannon shells
+may be placed under the computer-
+controlled guidance system. When the
+laser’s square sight is placed on an
+enemy it will begin to flash, signifying
+it has locked onto its target. You may
+now fire when ready and the shell will
+seek the objective
+
+Unlike standard cannon ammunition,
+laser-guided shells can be aimed by
+raising or lowering the turret all the
+way to the top and bottom of the
+Battle Screen. This feature is
+Particularly valuable for helicopter
+attacks,
+
+CAUTION: The laser-guided shells are not
+infallible. Rare cases have been reported of
+enemy tanks using Electronic Counter
+Measures (ECM) against these shells, ECM's
+confuse the shells’ guidance systems, causing
+them to veer off course, away from the enemy
+target
+
+12
+
+Smoke Screen
+
+Releasing the smoke screen provides
+an excellent defensive cover, especially
+during intense mobile enemy.
+encounters. The smoke will disorient
+your opponents, causing them to
+cease fire and possibly stop to regroup.
+Take advantage of their vulnerability by
+moving your weapon sight right or left
+until the Range light on your
+instrument panel illuminates. The
+enemy is now within firing range and
+you may attack uncontested until the
+smoke screen dissipates.
+
+‘CAUTION: Selecting the smoke screen de-
+selects any other weapon in use at that time.
+‘You must choose a weapon after the smoke is
+released to restore a sight to the Battle Screen
+and resume an attack,
+
+MAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL
+
+ALueED Bases
+
+Represented by a flag on the Long-
+range Radar Map, these Allied _
+command posts act as way stations
+that provide full damage repair,
+refueling, and rearmament with each
+visit. You can only enter a base when it
+appears on the Battle Screen, so get as
+Close to them as possible on the Long-
+range Radar Map.
+
+Due to proscribed conservation
+mandates, you are only permitted one
+visit to a particular base during a
+mission. If you attempt to enter the
+same base twice, access will be denied.
+Check your Message Center for this
+information. The more difficult the
+mission, the greater the number of
+bases provided
+
+You must wait for a completion
+message to appear before exiting a
+base. Then press START or BUTTON A to
+resume the mission
+
+Following is a review of the situations
+that may warrant a trip to a base:
+
+Damage and Repair |
+
+Your tank can sustain a maximum of 5
+hits. Each significant hit you receive
+results in the illumination of a Damage
+Indicator Light on your instrument
+panel. After 5 hits, an alert siren will
+sound and a critical damage warning
+will appear in the Message Center, At
+this point you are stronaly advised to
+proceed toward an Allied
+
+repair, since one more hit will result in
+mission failure.
+
+Hits
+
+Damage to the M1A1 occurs when:
+
+you are shot by an enemy
+
+you drive over a mine -
+
+* you are hit by an accumulation of
+shells fired from an enemy
+stronghold
+
+CAUTION: Your tank will sustain a hit if you
+rive over a mine on the Long-range Radar
+‘Map. Additionally, selecting the Long-range
+Radar Map screen is not a refuge from enemy
+fire. An engaged opponent can hit your vehicle
+‘even as you view the map.
+
+Refueling
+
+Monitor your fuel gauge and Message
+Center for warnings that you're low on
+fuel. There are few acceptable excuses
+for allowing your vehicle to run dry. If
+
+this Seas) a severe reprimand will be
+issued.
+
+Rearmament 7
+
+Carefully monitor your instrument
+panel for the number of remaining
+shots available to each weapon.
+Replenishment partially restores your
+armament capacity. In some cases
+(based on consumption during a
+mission), you will leave the base with
+more ammunition than you began the
+mission with.
+
+===== Page 8 =====
+
+MAAAADAAAAAAAAAAADADAAAAAAAAAAAAAAAAAAAAAAAAL
+
+ForTIFIED ENEmy
+
+STRONGHOLDS
+
+Confidential sources have indicated
+the existence of several heavily-
+fortified enemy strongholds: oil
+refineries, chemical weapons
+manufacturing facilities, tank and
+troop bunkers, ammo dumps, and
+possibly others. Allied AWACS.
+freconnaissance has been authorized to
+confirm these locations.
+
+When you have successfully completed
+the initial stages of missions 3-10, a
+field intelligence report will be relayed
+to your Message Center via satellite,
+along with your new orders. The
+location of one of these targets will
+now have been pinpointed. Calling up
+the Long-range Radar Screen at this
+time shows a flashing icon that
+represents the stronghold. This icon
+can only be seen after all other
+enemies in a mission have been
+destroyed.
+
+When you arrive at the stronghold on
+the Battle Screen, the enemy is
+expected to attack with a renewed
+fervor. Bursts will be fired at you, not
+individual shells.
+
+Your objective is to knock out the
+concentrated areas on the stronghold
+that the shots originate from. You will
+notice that there are two types of
+enemy bursts here: large and small.
+The large ones cause more damage
+than the small, so aim for them first.
+
+14
+
+Depending on an enemy's location
+within the stronghold, you may
+choose to fire either your cannon or
+the machine guns, which eim higher
+than the cannon but require more
+shots to be effective. You'll know
+you've scored a machine gun hit on
+the stronghold when you hear the
+ricochet sound. This indicates you have
+zeroed in on a weak area, so keep
+firing at that area until it explodes into
+flame and smoke. Only one direct
+cannon hit is required to take out an
+enemy position.
+
+Your M1 will be subject to an intense
+barrage of firepower during this siege.
+You must respond quickly, accurately,
+and instinctively since your vehicle will
+incur greater amounts of damage the
+longer a large number of enemies
+remain active.
+
+When all of the stronghold’s flak bursts
+are knocked out, the firing will cease
+and your mission will be deemed
+successful.
+
+MADMADAAAAAADDAAAAAAAAAAAAAAAAAAAAAAAAAAAL
+
+Stronghold Assault Strategy  « The importance of advance
+
+‘* Evaluate your weapons supply and
+damage situation before embarking
+upon a stronghold assault scenario.
+Your tank enters this confrontation
+in its most current condition. Once
+the firefight commences, it will not
+be possible to visit an Allied base for
+replenishment. You can only use
+what you have brought with you.
+Accordingly, it is recommended you
+save a base visit for the time directly
+after the mission's initial stage-when
+all the original enemies are
+destroyed—and just before
+proceeding to the stronghold target.
+This way you are assured optimal
+armament and no damage.
+
+Your smoke screen is especially
+effective for dealing with
+strongholds. When released, the
+smoke will temporarily conceal the
+M1A1, drastically reducing the
+accuracy of enemy fire and the rate
+of hits that score.
+
+You will still be able to see enemy
+bursts through the smoke, thus
+ensuring your aim.
+
+preparation for these encounters
+cannot be overstressed. With each
+progressive mission, the enemy is
+certain to step up stronghold
+fortification.
+
+===== Page 9 =====
+
+MAAAAAAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAL
+
+Mission ComPLeTION
+
+After a mission has been successfully accomplished, the commander of the
+Allied Forces will recap the day’s events. You will then receive your next set of
+orders and resume active duty.
+
+If your mission has resulted in failure, the commander will offer you the
+opportunity to continue. He will do so a maximum of 3 times throughout the
+campaign. If you agree to go on, you will be returned to the beginning of the
+mission you have most recently failed to complete. Your M1A1 will be rearmed,
+fully powered up and your current score left intact.
+
+In any circumstance, you may only exit after the commander has completed his
+briefing. At that time, press START or BUTTON A to move on
+
+MADAAADADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL
+
+OTHER Great GAMES FROM
+
+ABSOLUTE ENTERTAINMENT!
+For the NES:
+
+BATTLETANK~
+The only NES tank combat game that
+Puts you inside the tank!
+
+SPACE SHUTTLE PROJECT™
+
+Blast off into six top-priority missions
+based on actual U.S. space agency
+Operations!
+
+RACE AMERICA”
+
+1- or 2-player road race excitement
+across the USA!
+
+===== Page 10 =====
+
+MAAAAAAADAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAL
+
+OTHER Great GAMES FROM
+ABSOLUTE ENTERTAINMENT!
+For Game Boy: For the Super NES:
+
+THE RESCUE OF PRINCESS
+BLOBETTE™
+
+Blob is back! Sequel to the award-
+winning NES A Boy and His Blob!
+
+DAVID CRANE'S AMAZING, TENNIS“
+Superbly animated, precision-play
+court action!
+
+TURN AND BURN™
+
+A first-person aerial assault simulator,
+featuring a fully-armed F-14 fighter jet
+and 99 intense combat missions!
+
+SUPER BATTLETANK: WAR IN THE
+GULF™
+
+First-person tank warfare blasts onto
+Game Boy!
+
+18
+
+MADD AADAAAAAAAAAAAAAAAAADAAAAAAAAADAAAAAAL
+
+ABSOLUTE ENTERTAINMENT,
+Inc.'s LimITED 90-DAY
+WARRANTY
+
+Absolute Entertainment, inc. warrants to the original retail purchaser of this video game
+computer program (“Program’") that the Game Pak (Game Pak"’) on which the Program is
+embodied will be free from defects in materials and workmanship for a period of ninety (90)
+days from the day of purchase. If your Game Pak becomes defective during that period,
+Absolute Entertainment, inc. will replace it free of charge.
+
+To replace a defective Game Pak during the warranty period, mail the entire Game Pak, proof
+of your purchase with the purchase date circled, a brief statement describing the defect,
+and a large, self-addressed stamped envelope to:
+
+Warranty Officer
+
+Absolute Entertainment, inc.
+
+P.O, Box 116
+
+Glen Rock, New Jersey 07452
+
+Tel: (201) 652-1227
+
+if your Game Pak fails after the end of the 90-day warranty period you may return it to
+Absolute Entertainment, Inc. at the address above along with a check or money order for
+$25.00, a brief statement describing the defect, and a large self-addressed stamped
+envelope. This offer to repair or replace defective Game Paks after the end of the 90-day
+warranty period may be withdrawn at any time without notice.
+
+We recommend that defective Game Paks be packaged carefully and sent certified mail,
+return receipt requested. Absolute Entertainment, inc. will not be responsible for replacing
+defective Game Paks until they have been received by us at the above address
+
+This warranty is limited to the Game Pak as originally supplied by Absolute Entertainment,
+Inc. and is not applicable to the Program embodied on the Game Pak. This warranty will not
+be honored if the defect has arisen through abuse, mistreatment, improper care of the
+Game Pak, neglect, or normal wear and tear.
+
+THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES, WHETHER ORAL OR WRITTEN, EXPRESS
+OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR
+PURPOSE, AND NO OTHER REPRESENTATIONS OR CLAIMS OF ANY NATURE WILL BE BINDING ON
+OR OBLIGATE ABSOLUTE ENTERTAINMENT, INC. IN NO EVENT WILL ABSOLUTE ENTERTAINMENT,
+INC. BE LIABLE FOR SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM
+POSSESSION, USE OR MALFUNCTION OF THIS GAME PAK OR PROGRAM, INCLUDING DAMAGE TO
+PROPERTY, AND TO THE EXTENT PERMITTED UNDER THE LAW, DAMAGES FOR PERSONAL
+INJURY, EVEN IF ABSOLUTE ENTERTAINMENT, INC. HAS BEEN PREVIOUSLY ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES
+
+THE PROGRAM IS SOLD “AS-IS” AND NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING
+WARRANTIES FOR MERCHANTABILITY OR FITNESS OF PURPOSE, WILL BE APPLICABLE
+
+SOME STATES DO NOT ALLOW LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY LASTS AND/
+OR THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE
+ABOVE LIMITATIONS AND/OR EXCLUSION OR LIMITATION OF LIABILITY MAY NOT APPLY TO YOU
+THIS WARRANTY GIVES YOU SPECIAL LEGAL RIGHTS, AND YOU MAY HAVE OTHER RIGHTS WHICH
+VARY FROM STATE TO STATE.

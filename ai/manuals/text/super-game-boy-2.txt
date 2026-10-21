@@ -1,0 +1,540 @@
+# Super Game Boy
+source: https://archive.org/details/snes_manual_archive
+pdf: Super Game Boy ( USA ).pdf
+region: USA
+pages: 11
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNS-A-SG(USA)
+
+Special thanks
+to
+
+Thunder
+
+for contributing
+this manual
+
+INSTRUCTION BOOKLET —
+
+===== Page 2 =====
+
+"WARRING: PLERSE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO® HAROWARE
+SYSTEM, GAME PAK, OR RCCESSORY.
+
+This oficial seal is your assurance that
+Nintendo has reviewed this product ana it
+hhas met our standards for excellence in work
+smanship, reliability and entertainment
+lok fortis seal when buy
+
+male, Ak
+
+‘ampaaiblity with your Nintendo product.
+
+or use wth other authorized products,
+bearing the Official Nintendo Seal of Quality."
+
+/able of Contents
+
+Connecting Super Game Boy
+
+How to Use Super Game Boy
+
+‘Super Game Boy System Windows
+
+How to change colors
+
+Thx your sectng Sper
+Pease read this instruction booklet thoroughly to ensure proper handling of your new
+Supor Game Boy. Sve ths manual or ure releronce
+
+2 oy™ whic ay emp
+
+wae super Natendo
+
+WARIUNG: the POWER switch i utched ON and OFF repeatedly, the saved dat in
+{your Game Pak may be deleted. Avid tuning the POWER switch OFF unnecessary
+(vetore saving the game) or data may be lost.
+
+How to change borders
+
+How to set button preferences
+
+How to customize colors
+
+Passwords
+
+How to create graffiti
+
+Super Game Boy Enhanced games
+
+Operating with a Super NES Mouse
+
+Troubleshooting
+
+===== Page 3 =====
+
+vim 00 use Super Gane buy
+
+Using Super Game B0y™, you can play all your Game Boy® Game Paks through
+your Super NES®, on your television in coloe! Super Game Boy aso has many
+special features that enhance and customize your Game Boy paying experince.
+
+Game Boy Game Pak eae
+Game Pak slot
+‘Super Game Boy unit —}
+
+‘Super NES Gamo Pak slot ~
+
+Correa insert the Gare Boy Game Pak ito Super Game Bay. When you
+Insert your Game Pak, make sure that the label faces front
+
+Before inserting Super Game Boy into the Super NES control deck, make
+sure thatthe Super NES power is OFF.
+
+Pease read the Super NES instruction mana or nformaton about connecting ard isang
+your Super NES to your television,
+
+NOTE: Super Game Boy cannot be inked using the Game Boy Game Link cable.
+Two players simultaneous game modes in Game Boy software are not accessible
+using Super Game Boy
+
+When Super Game Bay is correctly inserted into your Super NES, side
+the power ON.
+
++ When remonng Super Game Boy rom you Super NES, or when removing Game Boy
+Game Paks from Super GameBoy, be sure totum the power OF.
+
+“The Super Game Boy and Nintendo
+logo wl appear on the screen, fo
+Towed by the game's tite screen. Read
+the Game Pak instruction manval fo infor
+‘mation on how to start the game.
+
+4 tf the Game Paks not inserted corer
+Int the Super Game Boy unit, orf the Super
+‘Game Boy s incorrect inserted into the Super
+NES, an mark wil appear onthe screen.
+Tur he power OFF and check to se your
+Game Paks inserted correct.
+
+Use Controle 1 to operate the
+game. (Controle, 2 does nat oper
+ate the game.) The A,B, START and
+
+SELECT Buttons function the same as
+Game Boy Buttons,
+
+‘Yu can use ether convo to operate the Super
+
+‘ae Game Boy system. Press the Land R Buttons simulta
+
+c 7 neously and the Super Game Boy Sytem Window wl
+
+ope.
+
+| * en tne Syste nos pened ing Contr.
+Tu camot play te gare Gare ply wil conirue when te Sytem Windows en
+“ert, you shut pause te game belore open Sst Widow. #0 open the
+‘ter Mido wth Contre 2, you can ly the gare with Cortroter 1. To cose the
+Stem Window ad resin game pay, ress te and Buon Smutanensh
+
+===== Page 4 =====
+
+Th the System Window, you can change the screen color setngs, button assign
+‘ments and border.
+
+Tove the arrow to the Color Palete Icon and press the A Button to activate the
+Color Palette Window,
+
+controler or Mouse —_|
+(ison indeates which
+‘dence steng used)
+Peep es
+
+ame Play Window —|
+
+Systom Window
+
+Border leon ‘Custom Color leon
+
+Moves the arrow, index finger, or pen
+
+Press A Button: + Activate a selected icon
+
++ Use the selected too!
+
+ne
+
+Index Finger
+: Press B Button: * Change the palette or tum a number back
+
+ed vatd
+
+Pen
+
+** Change a palette or turn @ number forward
+
+‘Custom Color Icon
+
+‘@ Ga
+
+‘$68 Enhanced Color leon
+
+Color Patt Icon Color Palette Group Switch Icon
+
+‘Systom Color Palettes Icons
+
+"Color Palette Toon
+Thisis the same icon used in the System Window.
+
+SGB Enhanced Color Icon
+If the game is programmed with SGB Enhanced color, this icon willbe activ.
+
+(Color Palette Group Switch Icon
+‘Super Game Boy has 32 stored color palettes.
+
+Use the Color Palette Group Switch Icon to switch between the four different
+palette groups.
+
+Select your favorite color palette from A to H, and press the A Button to acti
+vate it. The screen wil change color to show your new palette
+
+‘To close the window, move the arrow tothe Color Palette Icon (nthe left
+comer) and press the A Button.
+
+4 Press the Land R Buttons simultaneously to close al the System Windows.
+
+‘Custom Color Toon
+‘This icon wil change the palette to your custom color palette. This icon will only
+be activated if you have created a custom color palette, See page 10 for details
+(on creating your own color palette.
+
+===== Page 5 =====
+
+(ym to Set Batton Preferences
+
+Tove the arrow to the Border Ieon and press the A Button to make the Border Tove the arrow tothe Button Seting leon in the System Window and press the A
+Window open. Button to activate it. nthe Button Setting Window, you can change the asign-
+ment ofthe A and B Buttons on the controler.
+orderleon Graft eon
+SS — = Barton Sting Toon Burton Assignment Diagram
+|
+'8GB Enhanced Border Icon ‘System Borde Ions
+
+'SGB Enhanced Border loon,
+Hf the game is programmed with SGB Enhanced Border, ths con will be active,
+(Some SGB Enhanced games wil not use ths feature.)
+
+‘System Border
+Teons
+
+Super Game Boy has 9
+diferent stored Border
+
+‘You can draw simple pictures and characters on the Border or even over the TNOTE: The K Button wil alvays sultch back and forth between the game's default
+game play window, If you have created graft, press this icon to select tas your Color palette and any other color palette you may have selected or created.
+border. See page 13 fr information on how to do ths.
+
+===== Page 6 =====
+
+(ym to Customize Colors
+
+Recover on
+
+‘Mave the arraw to the Custom Color lon in the System Window and press the A
+Button. The Custom Color Window will appear.
+
+Password
+Clear Button
+
+Shading Bar
+
+‘ei Button
+
+aioe a
+Paint Set Switeh leon Paint Colors
+
+‘Shading Bar
+This bar indicates the ightness or darkness ofthe color as you modiy it
+
+Color Palette Icon
+This palette displays the four colors that are curently being used inthe game
+-ereen. When the index finger presses the white tube above the color (use the A
+Button, the color wi become iter. When the black tube is pressed (A Button),
+the color becomes darker.
+
+Recover Button
+‘This will undo the last action you took. You can only undo one action.
+Custom Color Icon
+
+‘ter you have set the colors the way you want them, press the Custom Color
+Icon. This con wil then correspond to your colors.
+
+Paint Colors and Paint Set Switch Icon,
+Super Game Boy has 52 different colors of paint
+
+| "To choose a paint colo, select the Paint Set you want using the Pant Set
+
+‘Switch leon. There are 5 different sets to choose from.
+
+| Pace he index ger onthe olor you want and press the A Button to
+choose he colo.
+
+13 | “he index tage wil change into a siphon and pick up the pant
+4} Move the index finger to one ofthe cols inthe Color Palette and press the
+
+‘A Button, The color willbe changed to the one you selected. (You can then
+‘change the color’ lightness or darkness using the white and black tubes.)
+
+‘Color Adjustment Advice
+
+2 The screen image wil ook
+better if you make the colors get
+‘radualy darker from left to right.
+
+‘Use four ctferent colors to
+‘ive the screen image more com
+trast
+
+‘Clear Button
+To restore the orginal color
+palette, press the Clear Button.
+
+Sell Button.
+This button will take @ snapshot of the screen at any point inthe game. f you
+press the button again, the screen wil start moving. * NOTE: Even when te screen
+{ssi the game wil continue plying. Alter essing he Sl Button you shoul also pause or
+save the game (ifthe game has these fnctions)
+
+===== Page 7 =====
+
+J eseuieds
+
+o to Create Graffiti
+
+a
+
+ia] TA password stem Wil save your changes tothe colo palette, As you
+
+adjust the color, the password will be generated atthe top ofthe game
+‘play window, Write this number down ona piece of paper.
+
+2} To restore your custom color palette when you return to the game later,
+
+‘open the Cuistom Colar Window and move the index finger tothe password
+Tumbers
+
+3 | Push the A Buiton to make the number increase (+) or the 8 Button to make
+it decrease (
+
+Use the form below to save some of your color palette passwords
+
+OOOO-O000-0000
+OOUU-O000-0000
+OOOO-O000-0000
+OOOO-OOULFUUUU
+OOOO-OOUU-U0U0
+OOOO-OO000CE0U000
+OOOO-O000-0000
+OOOO-OOO0-0000
+
+Move the arow te
+to activate the Gr.
+
+jow and press the A Button
+
+tad tS;
+Bina)
+
+“rear Buton Recover Button Rainbow leon
+
+Gratftiicon
+
+(i a 2 [a Sone
+
+mW
+Paint Colors Pen Area Setting Icons
+
+colors of paint: Move the arrow tothe calor you want to
+ton.
+
+- 4 press the A Button,
+b ‘Select the color you want,
+® ene eee
+
+===== Page 8 =====
+
+Recover Button
+This button wil ‘undo’ your lat action in the graffit window.
+
+Clear Button
+This button wil clear all he characters or pictures you have drawn,
+
+Area Setting Ieon
+These icons allow you to select the area you can draw on.
+
+Black
+Press this to restrict your drawings to the Border.
+
+White
+Press this to allow drawing anywhere on the screen, including the
+Game Play Window.
+
+Graffiti feon
+‘After drawing your Picture, select the Graffiti lcon, The drawings wil then cor-
+respond to this icon inthe Border Window.
+
+Rainbow Icon
+‘The Rainbow Icon is your eraser in the Graft mode.
+
+1 Place the arrow on the Rainbow Icon (Finger) and press the A Button to
+‘change the pen ito a finger.
+
+BD, "owe sero porn of rai tou wont eas, and jt
+The en press andl te Aton pat ver the ra be
+cre
+
+B Tee pointes ara wishin hea rainbow. When you have covered the
+‘area you want to erase, move the arrow to the Bomb Icon and press.
+the A button. The rainbow wll disappear and erase everything it was covering.
+
+INOTE: Super Game Boy does not save your Graffiti drawings when the power
+is tuned OFF.
+
+Sper Gan eB cy Lnhanced Yanes :
+
+(Games programmed especialy for Super Game Boy (SGB Enhanced) might ds
+play special borders and colors. These games might also have extra colors and
+other suprises.
+
+NOTE: All SGB Enhanced games are completely compatible with hancneld Game
+Boy for gaming on the go!
+
++ Some 568 Enhanced games may override some reglr Super Game Boy features
+Read each Game Pa’sinstucon manual careful
+
+Look for this icon to find
+
+‘games that have SB
+
+Enhanced features!
+
+===== Page 9 =====
+
+You can use a Super NES Mouse to make t easier to operate the System
+Windows. You must plug the Super NES Mouse into controller socket #2. You
+‘cannot operate Super Game Boy ifthe Super NES Mouse is plugged into con-
+troller socket #1.)
+
+ick the right and lft buttons ofthe Super NES Mouse simultaneously to open
+the Super Game Boy System Window. The Device Icon Window wil now display
+
+The Super NES Mouse wil then control the movement ofthe index finger or pen
+
+Left Button (click):
+
+* Activates the selected icon
+
+‘Uses the selected tool
+
+* Changes a palette or increases a number
+
+Left Button (hota):
+°*Uses the selected pen or index finger
+
+Right Button (click):
+‘Changes a palette or decreases a number
+
+1s SUPER GAME BOY correctly inserted into the
+‘Super NES control deck?
+
+Is your Game Boy Game Pak correct inserted into
+‘Super Game Boy?
+
+| Super NES correctly connected tothe TV set?
+(Read the Super NES instruction manual for how to
+connect the Super NES to your TV set)
+om contr
+
+Ifyou still cannot get your Super Game Boy to function propery, please call the
+Nintendo World Class Service® Center Consumer Assistance Hotine at 1-800-
+2553700.
+
+===== Page 10 =====
+
+WARNING
+
+Itis a serious crime to copy video games. 18 USC 2319
+Nintendo games are strictly protected by copyright rights
+roridwide. Backup copies are not authorized and are not nec-
+essary to protect your Nintendo Game Pak. Please destroy any
+illegal copies that may come into your possession. Violators
+will be prosecuted.
+
+lf your Game Pak ceases to operate and itis not a copy and
+your Nintendo Control Deck has no alteration or backup device
+attached to it, please call the Nintendo Consumer Assistance
+Hotline at 1-800-255-3700 ( U.S. and Canada) or your local
+authorized Nintendo distributor for assistance
+
+Wernanty and Service lufermation
+
+a Harr, Cae Pak ener iret owes re)
+eee peice waranty perod, Nntendo wil repair or replace the clecive
+producer edfeenent pata ts oon re of cage
+
+Carre On Neterdo warns te rg pucase the harcore ton
+in ateral ag worknansho for an adios tee (3 mnths exer he aga Sronh war
+'y pera described sbove detect covers by hs waranty oes ving is stone Sram wa
+(abst tr eae ee hone ode conor ee of cage. Th ra
+purchases eile to the aetna 3month nites repair waranty en # the Proc! of
+tached oh trbrte paca when sc) ered pero atte ae pa
+
+3 crigeal purchaser or the original purchase’ ear.
+
+ange ony simple instructions to correct any problems with your product. Call te NF
+TENDO WORLD CLASS SERVICE® Consumer Assistance Hotine st 1-800-25-3700 rather thon
+fon 1 yur rata Hs of pete re. nh FT dy Sy
+
+the tetany lb tered to he newest AUTHORED NINTENDO WORLD CLASS SERIES Cn
+or yu il Beloved express factry senic trough Need. You aso may rtr to your yelow page
+recor andy the beadeg of Vdbo Gare Service & Repo for te retest suborized sve lato.
+bn soe estos, may be necessary for you o sp he complete produ, FREIGHT PREPAD AND
+[SURED FOR [DSS OR DAME, to the nearest sence can,
+
+THIS WARRANT} SHALL NOT APPLY IF THI PRODUCT: (IS USED WITH PRODUCTS NOT SOLD OR
+LUCENSED BY NNTENDO (NCLUOING, SUT NOT LIMITED TO, NOLICENSED GAME ENHANCEMENT
+DEVICES, ADNPTERS, AND PONER SUPPLY DE OIL PURPOSES (NCLUD
+ING RENTAL ORI MODFED OR TANPERED WT ED BY NEGLIGENCE, ACODENT, NER
+SORBLE USE, Of BY OTHER CRUSE cs MANSHE: OR
+HAS HAD THE SERIAL NUMBER ALTERED, DEFACED 8 REMOVED.
+
+Ny APPUCABLE-PLIED WARRANTIES, NOLUDING WARRANTIES OF NERCHANTABLITY AND FTES
+FOR A PARTICULAR PURPOSE, ARE HEREBY LIMITED IN DURATION TO THE WARRANTY PERIODS
+DESCREED ABOVE\.3 MONTHS OR 6 MONTHS, AS APPLICABLE) INNO EVENT SHALL NANTENDO BE
+LURBLE FOR CONSEQUENTIAL OR NCDENTAL DAMAGES RESULTING FROM THE SREACH OF ANY NPLIED
+OR EXPRESS WARRANTS. SOME STATES DO NOT ALM MTATIONS ON HOW LONG AN LED Wt
+FANTY LASTS Of EICLUSON OF CONSEQUENTAL OR INDENTAL ORMAGES, SO THE ABOVE LATA
+TONS ma NOT APP TOYO.
+
+‘his warany ves yo} pec eal as ad you may aso Rove ter rit which vay rom tat o
+state. Neer’ sds St oth othe back cove of is mana
+
+‘is waranty val ony nthe United Sate.
+
+"Vina Lar weecenencset
+
+===== Page 11 =====
+
+Nintendo of America In {
+20. Box 957, Redmond, WA 960750957 USA. reaceow sw
+
+‘Vii’: La: eeseneaek

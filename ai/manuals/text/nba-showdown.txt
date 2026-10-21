@@ -1,0 +1,1598 @@
+# NBA Showdown
+source: https://archive.org/details/snes_manual_archive
+pdf: NBA Showdown (USA).pdf
+region: USA
+pages: 19
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+INSTRUCTION BOOKLET
+
+|
+
+f
+
+ELECTRONIC ARTS®
+P.O. Box 7578, San Mateo, CA 94403-7578
+
+|
+} ————
+
+wipe | ELECTRONIC ARTS" SUPER NINTENDO —
+|
+
+===== Page 2 =====
+
+LICENSED BY
+
+NINTENDO, SUPER NINTENDO ENTERTAINMENT SYSTEM AND THE
+OFFICIAL SEALS ARE REGISTERED TRADEMARKS OF NINTENDO
+OF AMERICA INC. ©1991 NINTENDO OF AMERICA INC,
+
+This Official Seal is your assurance that Nintendo
+has approved the quality of this product. Always
+look for this seal when buying games and
+accessories to ensure complete compatibility with
+your Super Nintendo Entertainment System. All
+Nintendo products are licensed by sale for use only
+with other authorized products bearing the Official
+Nintendo Seal of Quality.
+
+Rob Martyn, Development Producer and 5'10" power guard (if there is such o thing) learned the
+game on a 7-foot basket, which irrevocably ruined his game. He is a graduate of Michigan State
+(home of Magic Johnson and Scott Skiles) and is one of thousands who accurately called the Bulls
+vs. Suns final at the stort of the year.
+
+Marc Aubanel, Assistant Development Producer, became the basketball stat expert of the
+development group and knows more about this year’s players than their mothers do. The Quebec-
+raised 6-footer is working on his jump shot for next year’s version.
+
+Allan Johanson, assembly language guru and moster debugger, iso natural forward at over 6’,
+but wos mistakenly born and raised in Canada, where they tried to make him play hockey. Now
+that his immersion in the Super NES game is finished, he may get out on the court for some actual
+playing time.
+
+Doug Smith, programmer (not the starter for Dallas), helped get the latest NBA game off the
+ground. Starting early in the development season, he became a free agent and headed to another
+
+software company (f6r'no future considerations ot alll). We'll retire his jersey anyway—when the
+time comes.
+
+Daniel Ng, country music fon and branching coder, went from NBA ground zero to leading the NBA
+development team in assists, fixing bugs right ond left in record time. We'll take him out to the
+playground to let him work on his real passing game.
+
+Dan Scott, Sultan of Stats, single handedly coded the league leader boards, crunching stats forall
+players and maintaining the high scorers. Dan has helped create the aura of the NBA around the
+game. As builder of the custom team and trading screens, Don now knows more about the NBA stars
+than anyone except Marc.
+
+‘Mike Smith, Lead Artist. From marbles to LaCrosse, Smokey has been a participant and fon of
+sports his whole life. His collection of hockey and basketball cards is the envy of 11-year-old
+collectors throughout North America. When he’s not playing or enjoying the finer things Vancouver
+has to offer, sports artis his life.
+
+Darrell Olthuis, master of NBA graphic simulation, made the starters mugs more realistic, olong
+with the colors that make each court in the game stand up like the real things. By now Darrell has
+seen more ofthe NBA cours than he'd ike, though he says he expects some free tickets to NBA
+{gomes as compensation.
+
+Theresa Henry-Smith, who had to come out late in the third period for a baby delivery (unless it
+‘wos actually o basketball) provided some great art, including team logos. She also created the glass
+bar effect, EA Sports logo, supremo gold fonts and is currently nursing a future point guard.
+
+‘Traz Domi (his name is not an anagram for Kareem Abdul-Jabbar), is master composer, synther
+‘nd mixer, providing the courtly music that adds on exciting aural dimension to the NBA action.
+
+After an illustrious career starring as the main tester in the development group, Lee Patterson
+went on to draft and coach a testing “Dream Team” which hammered away at the game, looking
+for every possible bug. Lee has rebounded from that effort and is managing to steal away time for
+testing other products here and there.
+
+===== Page 3 =====
+
+Custom Team Builder Screen
+Scroll through Custom Team
+Scroll through franchise team
+Select new player
+
+Go to next franchise team
+
+Go to previous franchise team
+Go to Pregame show
+
+Game Screen
+Start Tip OF
+Jump
+
+DURING PLAY—OFFENSE
+
+Pause game/Go to INSTANT
+REPLAY screen
+Move player with ball
+
+Pass
+Choose receiver (while holding B)
+
+Jump shot
+Dunk shot (from close range)
+Marquee shot
+
+Foke jump shot (TAP button)
+
+DURING PLAY—DEFENSE
+
+Pause game/Go to INSTANT
+REPLAY screen
+Move current defender
+
+Jump to block shot or rebound
+Control player closest to the ball
+(between the ball and basket)
+Intercept poss or steal dribble
+
+INSTANT REPLAY /TIME OUT
+
+Rewind
+
+Forward (normal spéed)
+
+Fast forward
+
+Frame by frame advance
+Resume game
+
+Time Out (Offense only)
+
+UP/DOWN
+LEFT/RIGHT
+B
+
+Button RIGHT
+Button LEFT
+START
+
+START
+Y
+
+START
+UP/DOWN
+LEFT/RIGHT
+B
+
+UP/DOWN
+LEFT/RIGHT
+A
+
+Y
+Y
+AorY
+
+START
+UP/DOWN
+LEFT/RIGHT
+Y
+
+X (Top)
+START
+SELECT
+
+WELCOME TO THE NBA ry
+
+{tll started in 1891, when Dr. James Naismith nailed up o bushel basket on a gym wall. Kids
+with nothing better to do on a winter afternoon threw a ball at it. Every once in a while the ball
+went in. ..So began the game we call basketball.
+
+There were no pros in the early days. Nobody knew about lay ups, or dribbling, or no-look
+passes. If any one back then even dreamed about a Get-outta-the-wayin'-I-ain't-playin'-
+backboard-swayin'-game-delayin'-in-your-face-discrace-Monster Jam, he didn’t tell anybody
+else about it. They would have thought he was crazy.
+
+Lucky for us, basketball has changed a lot since then. Great players came along who
+revolutionized the game. George Mikan’s hook, Cousy’s creative assists, a Russell block, on
+Abdul-Jabbar sky-hook, and o thundering tomahawk slam by the Doctor of Dunkology, Julius
+Erving, all played a part in the remarkable evolution of the sport. These guys really shook
+things up and helped raise the game to the level we see today. Dr. Naismith’s boring school
+exercise has become the world’s most popular indoor sport, played by the world’s best athletes.
+
+Nowhere is the game played better than in the NBA. The fierce rivalries and frantic excitement
+of an NBA game showcase players whose blinding speed, artistic shot-making, and awesome
+power constantly amaze and delight us. Each game is competitive and there's something
+fantastic happening almost every second. To us fans, NBA players make basketball the greatest
+game on the planet!
+
+NBA SHOWDOWN—THE GAME
+
+Every year great teams from all over the country battle for the chance to compete for the NBA
+World Championship. The season schedule is grueling—over 80 games. Some of the league's
+best players don’t last to the end, succumbing to injuries or fatigue which results in poor play.
+‘And the coaches are no less vulnerable. Most seasons at least one head coach loses his job.
+Trades are made; deals are cut; starting lineups can change like the weather. Everyone from
+the franchise owners to the ball boys are butching it out to make the first cut.
+
+|i was no surprise that the handful of teams who earned a place in the 1993 Playoffs were
+burning with a hunger to win. Playoff series evolved into battles. The stars stepped up their
+play. Fans came out in full force to witness the greatest moments of the season. When it was all
+soid and done, two-time defending NBA World Champion Chicago Bulls faced off with the
+Season MYP Charles Barkely-powered Phoenix Suns, who sported the league's best record, for
+the crown of the NBA.
+
+Ench team had proven its tenacity in the Playoffs: Trailing the ferocious Knicks two games to
+none in the semi-final round, the Bulls came back to win four straight. At the other end of the fe
+
+===== Page 4 =====
+
+¢
+
+Playoff Tree, Phoenix fought back to win three straight games after losing the first two to a
+revived Lakers squad in round 1, then duked it out with Seattle in a gutwrenching series no
+team deserved to lose. There was no telling what would happen in the Championship round.
+
+The Bulls came out strong, easily winning two in Phoenix. It looked as if the experience of the
+World Champion would overwhelm the raw desire of the “Team of Destiny.” But behind the 3-
+point shooting of Dan Mojerle, the sharp shooting of rookie Richard Dumas and the all-oround
+strong play of Barkely, the Suns stunned the Bulls in a triple-overtime thriller in Chicago. But
+the inevitable happened, as everyone knew it would. As if awakened by some unearthly power,
+Michael Jordan stepped back onto the floor, scored 55 points (tying Rick Barry's record of 2nd
+highest point total in a championship game), and lead the Bulls to a 3-1 series advantage. With
+Game 5 to take place in Chicago, it looked bad for the Suns.
+
+Again, backs to the wall, the Suns hammered the Bulls, taking it to the hapless and tired-
+looking champions with confidence, and taking the series back to Phoenix. But again the
+inevitable happened. Chicago took control of Game 6, keeping the Suns at bay through three
+‘quarters of play which saw Bulls guards B.J. Armstrong and John Paxson drain a record
+number of 3-point field goals. The fourth quarter showed o different side of both teams.
+Phoenix stepped up its defensive play holding the bulls to nearly eight minutes without scoring
+cond forcing the Bull’s to commit several 24-second violations, two in the last two minutes of the
+game. Chicago's shooting went stone cold, while the Suns poured in basket after basket,
+erasing an eight-point deficit, then taking a four-point lead.
+
+With less than o minute left, the Bulls had scored only seven points in the fourth quarte-—all
+by Jordan. The Suns were riding a wave of confidence. The crowd was going nuts. The ball fell
+into Jordan's hands, and while the Suns hurried to guard Chicago's 3-point threats, he raced the
+length of the court for on easy layup. 98-96, Suns lead, forty seconds on the clock. Phoenix
+took it out, Danny Ainge fed the ball to Majerle, who missed a jumper from beyond the key.
+Bulls’ ball, After a timeout, Chicago inbounded to Jordan, who passed nearly the length of the
+court to Scottie Pippen. Pippen, who had a clear lane to the hoop, dished off to Horace Grant
+who drew a swarm of Suns. Without pause, Grant kicked it out to Paxson just beyond the 3-
+point line. Paxson was all alone. The clock showed six seconds. In one motion he caught the ball
+cand shot. Swish.
+
+With less than four seconds on the clock, the Bulls had retaken the lead, 99-98. But Phoenix
+had one last chance. Many teams have scored with less than four seconds on the clock. It wasn’t
+over, The Suns inbounded to slashing guard Kevin Johnson, who with a lightening stutter step,
+beat Horace Grant and drove for the hoop. But Grant reacted and, as Johnson drove past him
+cand leapt into the air for what looked like an unmolested scoop shot, he put all five fingers on
+the ball. Stuff. Buzzer. The Chicago Bulls—only the third team in the history of the NBA—had
+won a third consecutive NBA World Championship!
+
+NBA SHOWDOWN pays tribute to the great NBA World Championship Series of 1993. But our
+game includes all of the NBA's 27 teams and their players. From the stellar Boston Celtics to the
+upstart San Antonio Spurs, this game puts every player and his statistics in the palm of your
+hand. Toke the already legendary Shaquille O'Neal to the hoop for his signature Gorilla Slam.
+Work up a slick perimeter passing game with the quick-footed Warriors. Play an entire season
+nd, if you're good enough, take your team to the Playoffs. NBA SHOWDOWN tallies each
+player's statistics and provides you with lists of league leaders. Find out who's hot and who's
+not. You can even trade players, customize your own team, and, if you're a masochist, you can
+customize your opponent, too.
+
+You have to start somewhere, usually at the bottom. But that doesn’t mean you have to stay
+there. So if you're ready to stand up with the big boys, stretch out, pump up those shoes, and
+
+fire it up!
+GAME CLOCK
+
+PERIOD SCORE
+
+TIP OFF
+FIRE IT UP—HOW TO GET STARTED
+
+Follow the steps below to start jamming with the NBA on your Super Nintendo Entertainment
+System?
+
+Everyone knows that playing basketball isa lot more fun than reading about i. In fact, after
+you look at the numbered start-up instructions in FIRE IT UP, you can probably figure out most
+everything you need to play just by looking at Summary of Commands on page 1. Come on,
+let's take it to the hoop.
+
+1. Flip OFF the power switch on the Super NES®
+
+Never insert or remove a game pak when the power is on. Don’t risk shredding
+your game pak. Make sure a Controller is plugged into Port 1.
+
+.
+
+===== Page 5 =====
+
+a
+
+hs
+
+j
+:
+1
+]
+J
+
+2. Insert NBA SHOWDOWN into the slot on the Super NES. To lock the game pak in place,
+press firmly, but don’t force it.
+
+3. Turn ON the power switch,
+The EA Sports logo appears. If you don’t see the logo, begin again at step 1
+4. The NBA SHOWDOWN fitle screen appears. Press START.
+
+The Game Set-Up screen appears.
+
+SETTING UP THE GAME
+
+The Game Set-Up screen is where you set up the parameters for the kind of game you want to
+play.
+
+© Control Pad UP/DOWN Uo highlight the options.
+© Control Pad LEFT/RIGHT to cycle through the choices for the selected option,
+
+If you want to use the game’s default settings and play a game right now, you can press START
+and move on to the pregame show. Read the stuff about game options another time.
+
+COMESHTUE
+
+__START to ply
+
+GAME SET-UP SCREEN
+
+OPTIONS
+
+NOTE: Initial DEFAULT SETTINGS are in bold type. Once you play the game and turn the Super
+NES off, the last settings you programmed appear as default settings.
+
+GAME MODE
+
+Pre-Season: Play a game where the outcome affects neither the season standings nor the
+playoff standings.
+
+Season: Play a full season with any team against the SUPER NES. Team standings
+
+ond league leading players’ statistics ore maintained throughout the season.
+
+Playoffs Enter the playoffs with any team against the SUPER NES. Play until you're
+knocked out of the Playoffs, or take home the championship. For more
+information, see Entering the NBA Playoffs, page 23.
+
+Continue Restore a saved season or playoff. Statistics, standings remain intact,
+
+PLAYER SELECT
+ONE PLAYER: Play against the SUPER NES. 1 Player is automatically set when you play a
+PLAYOFF or SEASON game, but you can select 2 PLAYER CoOp.
+
+DPLAYER Vs.: Play against a friend. Make sure the second Controller is plugged into Port 2.
+(PRE-SEASON mode only)
+
+‘-PLAYER CoOp: Play with a friend as teammates. Make sure the second Controller is plugged
+into Port 2.
+
+PLAYERS 1 & 2
+
+This is where you (and a friend if you're playing with or against one) choose
+your team(s). You can choose any franchise team or the East and West All-
+Stor teams. You can even customize your own team in Pre-Season mode!
+(See Custom Team Builder on page 9.)
+
+PLAY OPTION
+
+ARCADE: (PRE-SEASON and SEASON mode only) Fast-paced basketball. The players
+never tire, and they can’t foul out,
+
+SIMULATION: Players fatigue and you must substitute them. (Check the rating at HE on the
+
+Player Statistics screen) Fouls count.
+
+Player is well rested, in top form.
+
+Player has tired, but is still strong.
+
+Player is fading fost, slows down, shots miss the mark: sub now or pay later!
+Player is on the verge of collapse: you've waited too long. Sub!
+
+fF
+
+i
+
+===== Page 6 =====
+
+Ina big game you'll need to give your players a rest or risk getting blown out of the arena by
+your opponent's well-rested subs. Also, while in Simulation mode, the SUPER NES keeps track of
+fouls, and your players can foul out of a game.
+
+NOTE: Shorter period games in SIMULATION mode require you to substitute players more
+frequently. You may want to play 2- and 5-minute period exhibitions in ARCADE mode.
+
+PLAY LEVEL
+
+EXHIBITION: — Players aren’t quite as quick or aggressive as they become at other levels.
+Referees take it easy on foul calls. Opponents take fewer shots. They also
+steal the ball less often and get fewer rebounds. This is a good place to start
+practicing for your run at the Championship.
+
+REG-SEASON: This skill level is for intermediate players. The refs calla tight game, and
+‘opponents play tough.
+SHOWTIME: The stars come out, big time. Play is fully charged. The pace of the game
+
+heats up, and oll the players crank it up a notch. The action is fierce, and
+body contact has a way of becoming body collision. The ref cuts you no
+slack. Opponents play as hard as their stats and bench allow. SHOWTIME is
+‘automaticaly set if you are playing o PLAYOFF game.
+
+PERIOD LENGTH
+
+12 MINUTES: Or choose 2-, 5-, or 8- minute periods. The team with the highest score at
+the end of 4 periods wins. In the event of a tie, you play a five minute
+overtime period (2-minute period games play a 2-minute overtime period).
+You keep playing overtime periods until there’s a winner.
+
+MUSIC
+
+STEREO: For monitors with stereo speakers. The music plays in between games and at
+halftime. There is no music during actual game play.
+
+MONO: For monitors with one speaker.
+
+OFF: No music.
+
+INJURIES
+
+OFF Injuries ore automatically set to OFF in Arcade mode
+
+ON: The big risk of playing hard, o player can be injured for up to seven games.
+
+Custom Team Builder
+
+Ever wonder what it might be like to play a team of Michael Jordan clones against a team of
+Charles Barkley clones? Well, wonder no longer. EA Sports is proud to present the all-new All-
+‘Star machine: The Custom Team Builder.
+
+The Custom Team Builder lets you build your own “Dream Team” populated with the best of the
+best—your choice from the starting five of 27 NBA teams.
+
+NOTE: The Custom Team Builder is available in PRE-SEASON mode only. If both players select
+Custom Slammers or Custom Jammers, Player 2 cannot customize his team; he must use the
+same team customized by Player 1.
+
+To Custom Build your team, first bring up the Custom Team Builder:
+
+1. From the GAME MODE option, Control Pad LEFT/RIGHT to highlight PRE-SEASON.
+
+2. Atthe Game Setup screen, Control Pad DOWN to highlight PLAYER 1.
+
+3. Control Pad LEFT /RIGHT to select CUSTOM SLAMMERS or CUSTOM JAMMERS,
+
+4. Press START.
+
+STARTING FIVES
+(Choose from
+these)
+
+CUSTOM TEAM BUILDER
+The Custom Team Builder screen appears.
+
+5. Press the Left or Right button to cycle through franchise teams.
+
+6. Control Pad UP/DOWN to highlight the player in the Custom Team you want to replace.
+
+===== Page 7 =====
+
+!
+|
+|
+|
+!
+
+<
+
+7. Control Pad LEFT/RIGHT to highlight the franchise team player you want to play on your
+Custom Team.
+
+8. Press B to place the player on the Custom Team.
+
+Repeat until you have built your dream team, then press START to go to the Pre-Game Show.
+
+THE EA SPORTS” PRE-GAME SHOW
+
+After you've chosen teams, the Pre-Game Show begins and the EA Sports announcers introduce
+the game ond the starting lineups, up close and personal. Often the Pre-Game Show contains
+important information about the competitors, such as who's hot and who's hurt.
+
+‘© To view the next Pre-Game Show screen press B.
+
+© To bypass the Pre-Game Show screens and go to the Game Starters screen, press START.
+
+PIPPEN
+
+STARTING FIVE
+* Togo to the Substitution screen, press START.
+© To see more stats press the Left or Right button.
+
+© [If you want to give a surprise start fo one of your bench players, see Substitutions under
+Time Outs, Substitutions, and the Stats Screens (page 27) to change your starting lineup.
+
+STATS/SUBSTITUTIONS SCREEN
+
+‘© When you're ready to play the game, press START.
+© Press START again to begin the tip-off.
+
+© When the ball goes into the air, press ¥ to direct your big man to go up after it. You wont
+to control the tip if you can. Remember the old saying, “You can’t score without the ball.”
+
+HINT: Don’t be over-anxious. Wait until you see the ball before you press Y.
+
+PLAYER CONTROLS
+
+The team with the ball is the offense; the other team is the defense.
+
+OFFENSE
+
+You always control the man with the ball. He’s over the red star. If you're playing with a friend,
+Player 2 controls the man over the green star.
+
+Moving and Dribbling
+
+Press the arrow on the Control Pad that matches the direction you want your player to move,
+He'll move and dribble as long as you hold down the arrow. When you let up on the Control
+Pad he stops moving, but he'll keep dribbling in place.
+
+Ifa defensive man is really up in your face, you can press Y quickly BEFORE you start dribbling
+to pump foke and get the defender off his feet, Maybe then you can move your guy around
+him and drive to the hoop. (See Shooting, page 12, for more information on foking a shot.)
+
+When your man wants to pass the ball to another player, fake a shot, or shoot the ball at the
+
+===== Page 8 =====
+
+A basket, he stops dribbling. Once he stops, he can’t dribble again, or the refs will call traveling
+\| (see Fouls, Violations, and Turnovers).
+
+* Passing
+
+© To pass the ball to another player, press B. This automatically passes the ball to the player
+who is both closest to and facing the passer. When he catches the pass, he gets the red
+star. Now you're controlling him.
+
+© To pass to a particular player, press and hold B, then Control Pad
+UP /DOWN/LEFT/RIGHT to move the brown star under that player. Release B to
+poss the ball to that player.
+
+Shooting
+© To shoot a jumpshot with forward momentum, to foke a jumpshot (quick press and
+release), to drive, or to execute a marquee shot, press Y.
+
+© To shoot a jumpshot without forward momentum, or to fake a jumpshot (quick press and
+telease) press A.
+
+How well your player shoots the ball depends on four things:
+
+1. His statistical record.
+
+Players with high shooting percentages make more baskets than players with low shooting
+percentages. It’s as simple as that (see Team and Player Characteristics and Time Outs,
+Substitutions, and the Stats Screens, page 27). If you need some points quickly, get some guys
+on the floor who can shoot the rock.
+
+2. What type of shooter he is.
+
+Guords and Forwards typically are more successful from longer range and have more moves
+to the hoop than centers. All players in NBA SHOWDOWN have been modeled after their real
+life counterparts as realistically as possible.
+
+3. How closely he is being guarded.
+
+Try to shake off the guy who's guarding the shooter. It's tough to hit the bottom of the net
+when the defender is up in your man’s face. The more open your player, the better his
+chances of burying the shot.
+
+4, How healthy the player is.
+The higher the player's health rating, the better chance he has of making the shot.
+
+Once you tell a player to shoot, he decides how to complete the shot. The game statistically
+determines what the player’s best percentage shot is, checks out how closely he is being
+
+a guarded, and then tells him to execute. Say o player is 0 few feet out from the basket: Ewing
+
+might baby hook, Mullin might take a short jumper, Jordan might go for the slam, and Shaq A
+
+might finger-roll it in. Right!
+
+Marquee Shots
+© Marquee shots are difficult to perform and are most likely to occur in and around the
+lane. To execute a marquee shot, move the player into the lane and press Y.
+
+Every cager tries to develop a favorite move—one nobody can imitate, one that is nearly
+indefensible, one tailored to his size and ability. We've captured some of the most dramatic,
+gravity-defying one-on-one moves history has ever witnessed: Jordan’s “Kiss the Rim”,
+Robinson's “Windmill Slam”, and Pippen’s “Off The Glass Slam” to name a few. Most teams
+have one or two star players who perform marquee shot—trademark dunks or lay-ups—
+they'll hit from a certain spot on the court. The following lists those special players and their
+
+stunning moves.
+
+PLAYER TEAM MARQUEE SHOT
+Wilkins Atlanta Alley Oop
+
+Lewis Boston Foke Drive Two-Hand Slam
+Brown Boston Spin Layup
+
+L Johnson Charlotte Hang On The Rim
+Mourning Charlotte Double Pump Two-Hand Slam.
+Jordan Chicago Kiss the Rim
+
+Pippen Chicago Off the Glass Jam
+Daugherty Cleveland Windmill Slam
+
+Jackson Dallas Spin Layup
+
+Dumars Detroit Spinning Jump Shot
+Thomas Detroit Fake Pass Layup
+
+Mullin Golden State Spinning Jump Shot
+Hardaway Golden State Crossover 360
+
+Olajuwon Houston Windmill Slam
+
+Miller Indiana 180 Slam
+
+Manning LA. Clippers Double Pump Jam
+Threat LA. Lokers Foke Pass Layup
+
+Worthy LA. Lakers Fake Drive Two-Hand Slam
+Miner Miami Around the World
+
+Long Miami 180 Scoop Slam
+
+Loettner Minnesota Spinning Jump Shot
+Coleman New Jersey Alley Oop Slam
+
+Anderson New Jersey Crossover 360
+
+Starks New York Fake Layup Slam
+
+Ewing New York Windmill Slam
+
+O'Neal Orlando Gorilla Slam
+
+Barkley Phoenix In-Your-Face Slam
+
+===== Page 9 =====
+
+K. Johnson Phoenix Windmill Finger Roll
+Drexler Portland 180 Scoop Slam
+Kersey Portland 180 Slam
+
+Richmond Socramento Fake Layup Slam
+Robinson San Antonio Gorilla Slam
+
+Elliot San Antonio ‘Around the World
+Kemp Seattle Bounce Ball Slam
+Payton Seattle Windmill Finger Roll
+Malone Utah Off the Glass Jom
+Stockton Utah Foke Pass Layup
+Ellison Washington Hand on the Rim
+Shot-Clock
+
+In NBA basketball you have 24 seconds from the time you bring the ball in bounds to get a shot
+off. If the ball does not strike or clear the rim within 24 seconds, the referee calls a shot clock
+violation and the other team gets possession of the ball.
+
+You'll hear one of your fellow players yell “Shoot if!” or “Put it up!” when the shot clock runs
+down to five seconds.
+
+The shot-clock that keeps track of how many seconds you have left to shoo! appears at the
+bottom center of the screen. When there are less than 24 seconds left in the half, the shot clock
+shows the time remaining in the half.
+
+Free Throws
+
+No defender trying to shove the ball back into your face, no running or jumping. Just you, the
+hoop and the ball. But who says they're free? NBA SHOWDOWN features the T-Meter’, a free
+throw gauge which lets you “aim” your shot just like the pros.
+
+The T-Meter appears on the screen with your player at the line. A basketball cursor moves back
+nd forth along the horizontal bar. This bar controls the Left/Right aim of the shot.
+
+‘¢ When the basketball cursor moves through the white zone, press A or Y to stop it.
+
+Then a basketball cursor begins to move up and down in the vertical bar. The vertical bar
+controls the strength of the shot.
+
+© When the basketball cursor moves through the white zone, press A or Y to stop it.
+The speed with which the basketball cursor travels within the T-Meter is based on the actual
+Free Throw Percentage of the player at the line. The better the Free Throw Percentage the
+player has, the slower the basketball cursor travels.
+
+HINT: Try to stop the ball as close to the center of the white zone as possible. The closer to the
+center the ball stops, the more accurate your free throw.
+
+When both balls have stopped in their bars, the player shoots the ball.
+
+Offensive Tips
+
+Give your big men the ball in the paint so they can shoot from close range. The air gets thin for
+most of these big guys when they get beyond the free-throw line.
+
+were ball quickly. That means, catch and drive, dish a pass, or catch and shoot. Use your
+speed.
+
+Ifa defender is blocking the lane, you may want to hit A instead of ¥ for the jump shot, just to
+make sure you don’t give the ref the opportunity to slap you with charging.
+
+If you're having trouble getting around the defender (some of these guys will climb all over
+
+you), back up a bit before driving. This will make some space between the two of you, and you
+can blow right by him.
+
+DEFENSE
+As on offense, you control the player over the red star.
+
+When you're playing in 2-Player Co-op mode or 2-Player Vs. mode, Player | controls the
+defensive man over the red stor, and Player 2 controls the man over the green star.
+
+Mi
+
+===== Page 10 =====
+
+Switching Defenders
+© To take control of the defensive man closest to the ball (between the ball and the basket),
+press B.
+
+© Tomove the defender you're controlling, press the Control Pad in any direction. He'll only
+follow the action with his eyes unless you help him.
+
+Just as you control shooting on offense, you can send a defender to double-team the ball or get
+in position to block out for a rebound if you want.
+
+Stealing
+When your defensive man is guarding the guy with the ball, you can try to steal it from him or
+
+block his shot.
+© Totry to “rip” the ball from an opponent, press A.
+
+You have to be close to the man with the ball to pull off a steal, but don’t be too aggressive.
+The refs watch closely, and they may call a foul. If o player fouls out, he'll have to spend the
+rest of the game riding the pine (in SIMULATION mode).
+
+Blocking Shots
+© Totry to block a shot, press Y.
+
+Your man has the best chance of blocking a shot if he is directly in front of and facing the
+shooter. In fact, get right up in his face. To block the shot, press Y as the offensive player rises
+to shoot.
+
+NOTE: Pressing the Control Pad while blocking the shot lets the player glide toward the shooter.
+
+Defensive Tips
+
+If you just can’t seem to stop the opposition from dunking and scoring lay-ups, try getfing a
+defender up on the opponent bringing the ball down court before he reaches the top of the key.
+That way you can block his lane and force him to dish the ball off to a teammate,
+
+Also, try to get your center positioned down court and in the paint as soon as possible. He'll
+toke up some room in the lane as well.
+
+If you've just scored and the half is drawing to a close, closely guard the player with the ball.
+He'll have a harder time getting it down court (increasing the likelihood that time will run out
+before he gets a good shot off) and you'll be right there if he does get the chance to shoot. If
+he passes, press B to move the red star under the defender closest to the ployer with the ball
+
+PLAYING A SEASON
+
+NBA SHOWDOWN features full season league play. Now you can see your team through an
+entire season and, if you're good enough, take them to the playoffs, where you'll fight it out
+with the cream of the crop for the NBA Crown. Each player's statistics are tallied and saved
+throughout the season. League leaders in the vital statistical categories are listed. You can even
+trade players!
+
+© To Play a Season:
+1) Control Pad LEFT/RIGHT to highlight SEASON in the GAME MODE option.
+2) Set up the remaining options, then press START.
+
+NOTE: Only one player (two players in 2-Player Co-Op) can participate in SEASON play. PLAY
+LEVEL is restrcied to REGULAR SEASON or SHOWTIME.
+
+CURRENT DATE
+
+SEASON CALENDAR
+
+The Season Calendar appears. On it are the dates of your team’s games. Dates in red print
+denote home games; dates in white print denote road games.
+
+Playing the Season Opener
+
+Press START to go to the season opener. The EA Sports Pre-Game Show begins. Season games
+are played just like Pre-Season games. (To learn more about starting the game, see The EA
+Sports Pre-Game Show on page 10.)
+
+fF
+
+ls
+
+===== Page 11 =====
+
+OPTIONS MENU
+
+Season Options
+From the Season Calendar you can perform several options.
+
+© Access the Season Options Menu: Press A.
+
+Back to the Calendar
+Press any button to return to the Season Calendar.
+
+© View previous or next month’s schedule: Control Pad LEFT/RIGHT.
+
+Save Season
+
+NBA SHOWDOWN lets you save up to three seasons-in-progress or playoffs-in-progress. All
+
+sts toad, injuries, streaks and slumps are saved until the season's end but not through
+playoffs.
+
+After playing a SEASON game, press START to move to the SUBSTITUTION screen, then press
+START again to move to the SAVE SEASON screen.
+
+fF
+
+i
+
+the
+START witl excxt.
+
+SAVE SEASON
+
+1) Control Pad UP/DOWN to highlight the season you wish to override, then press SELECT.
+The old season is erased, and the new season is saved.
+
+2) Press START to return to the Season Calendar.
+NOTE: You cannot save during a game in progress.
+* To Load a saved season:
+
+1) Select CONTINUE from the GAME MODE option on the Game Set-Up screen, then press
+START.
+
+The Load Season screen appears.
+2) Control Pad UP/DOWN to highlight the season you wont to load, then press SELECT.
+Press START to go to the Season Calendar.
+
+Standings
+
+The EA Sports team records each division's standings, record, winning percentage and games
+behind the first place team.
+
+© View the Stondings:
+
+1) From the SEASON OPTION menu, press A.
+
+2) Control Pad DOWN to highlight STANDINGS.
+
+===== Page 12 =====
+
+STANDINGS SCREEN
+
+The Standings screen appears. From this screen you can check out the races for playoff berths
+in each conference and division. And you can check out the day's scores around the league.
+After 40 games, teams that have currently qualified for a playoff appear in gold.
+
+© View standings of other divisions: Press the Left or Right buttons.
+
+© View the day's results: Press B.
+
+Press START to exit to the Season Calendar.
+
+Trade Players
+
+NBA SHOWDOWN lets you trade players during the season. Only starters can be traded, and all
+players are valued equally. In other words, you can’t trade two bench players for one starter.
+© Trade o player:
+
+1) From the SEASON CALENDAR, press A to move to the OPTION menu.
+
+2) Control Pad DOWN to highlight TRADE PLAYERS, then press ony button.
+
+The Trading Board appears.
+
+TRADING BOARD
+
+3) Control Pad UP/DOWN to highlight the player on your team you want to trade.
+
+4) Press the Left or Right button to select the team from which you want to take a player.
+5) Control Pad LEFT/RIGHT to highlight the player you want to acquire.
+
+6) Press B to make the trade.
+
+Press START to return to the Season Calendar.
+
+League Leaders
+
+The EA Sports crew keeps you informed of who’s hot and who's rot, keeping up-to-date stats of
+every player in the league and presenting you with the league leaders in several categories. If
+‘one of your players is good enough, you can look for him on the charts, then track him as he
+makes his way to the top. Your team’s players are highlighted in green.
+
+Applayer must meet the following requirements to be considered os league leaders:
+
+Points Per Game: A player must average at least 12 points per game.
+
+Free Throws: A player must make an average of at least three attempts per game.
+
+Three Point: A player must make an average of at least one attempt per game.
+
+Rebounds, steals and blocks are tallied without criteria.
+
+NOTE: League Leaders playing for other teams show statistics for full-length games. If a player
+
+‘on your team is among the league leaders in a category and you want fo see if he can retain
+his position, be sure to play 12-minute periods.
+
+===== Page 13 =====
+
+© View the League Leaders:
+
+1) From the SEASON CALENDAR, Press A to move to the SEASON OPTION menu.
+2) Control Pad DOWN to highlight LEAGUE LEADERS.
+
+3). Press any button.
+
+The Points Per Game screen appears.
+
+POINTS PER GAME
+
+© To scroll: Control Pad UP/DOWN.
+© To view league leaders in other categories: Press the left or right buttons.
+
+Press START to return to the Season Calendar.
+
+Season Simulation
+
+The NBA season is a grueling epic. If you don’t want to play each game, you can simulate any
+game. In fact, you can simulate on entire season up to the playoffs.
+
+© Simulate a game: Press B.
+You can review the results from around the league by selecting STANDINGS then RESULTS.
+
+When you simulate o game, the score of the game, based on the actual team statistics from the
+1992-93 season, appears beneath the Season Calendar.
+
+At the end of the season, you either enter the playoffs or get kicked back to the Game Set-Up
+screen.
+
+ENTERING THE NBA PLAYOFFS
+
+Choose 0 team from either Conference and try to take it all the way to the NBA championship.
+Remember: In playoffs it’s you (or you and a friend) against the SUPER NES.
+
+There are two ways to enter the playoffs: by selecting PLAYOFFS from the Game Set-Up screen
+or by qualifying in season play,
+
+Entering the Playoffs From the Game Set-Up Screen
+
+© Select PLAYOFFunder Game Mode on the Game Set-Up screen. (Control Pad UP/DOWN
+to highlight to Game Mode; then Control Pad LEFT /RIGHT to toggle the choices.)
+
+NOTE: Custom and All-Star teams are not available in PLAYOFF mode.
+
+This automatically sets the play level to SHOWTIME. You can still choose ONE PLAYER/2 PLAYER
+CO-OP, PLAY OPTION, PERIOD LENGTH, MUSIC and INJURIES.
+
+‘* When you have set up the playoffs, press START to continue. Skip ahead to The Playoff
+Tree below.
+
+Saving the Playoffs
+
+NBA SHOWDOWN lets you save up to three playoffs-in-progress. All stats, standings, injuries,
+streaks and slumps are saved.
+
+© Save a playoff immediately after a playoff game:
+
+After playing a PLAYOFF game, press START to move to the SUBSTITUTION screen, then press
+START again to move to the SAVE SEASON screen.
+
+1) Control Pad UP/DOWN to highlight the playoff or season you wish to override, then
+press SELECT. The old season or playoff is erased, and the new playoff is saved.
+
+2) Press START to return to the Playoff Tree.
+
+NOTE: You cannot save during a game in progress.
+
+===== Page 14 =====
+
+h| © Load a saved playoff:
+
+1) Select CONTINUE from the GAME MODE option on the Game Set-Up screen, then press
+START.
+
+2) Control Pad UP/DOWN to highlight the playoff you want to load, then press SELECT.
+
+Press START to go to the Playoff Tree.
+
+Playoff Tree
+
+The NBA Championship Playoff tree shows the match-ups for the whole Playoffs. These match-
+ups only change when you enter a new Playoff,
+
+© View the rest of the tree: Control Pad UP/DOWN /LEFT/RIGHT
+
+Your team logo is blinking. In first round action, the team you're playing against is in the
+
+adjacent box. In subsequent rounds, the team you're playing against is connected to your team >
+
+by a bracket.
+
+© Press START to move to the Pregame show.
+
+The EA Sports Announcers introduce the game and the starting lineups. Press B to show more
+“ is START to go to the Starting 5 screen.
+
+© Press START to go to the Substitution screen.
+
+The Substitution screen appears just like in a non-tournament game. You can make player
+substitutions if you want to.
+
+© Press START to move to the tip-off.
+
+IMPORTANT INFORMATION
+End of Each Period
+
+‘At the end of each period during a game, the Substitution screen appears, letting you make
+substitutions and check out the current foul situation (see Timeouts, Substitutions and the Stats
+Screens on page 27 for details on this screen).
+
+During halftime the EA Sports’ Ron Barr and K. C. Darty highlight the game's key players. Then
+they send you back to the Substitution screen so you can check team performance and make
+‘ny substitutions you want.
+
+At Halftime :
+© To view more text at the Halftime screen, press B.
+© Togo directly to the Substitution screen, press START.
+
+© Press START to return to the second half of the game.
+
+End of the Game
+At the end of a PRE-SEASON game the EA Sports announcers give you the final score and report
+on the game's stars,
+
+© Press B to advance through the EA Sports Announcer screens.
+
+The Final Stats screen appears so you can check out each player's stats for the game.
+
+‘© Press START to go to the Game Set-Up screen for another round of action.
+
+A the end of o SEASON or PLAYOFF game, the EA Sports announcers give you the final score,
+and report on the game's key players.
+
+© Press B to advance through the EA Sports Announcer screens.
+
+The Final Stats screen appears so you can check out each player's stats for the game,
+
+© Press START again to go to the Save Season screen. (To learn more about saving a
+Season, see Continuing the Playoffs below.)
+
+Continuing the Playoffs
+
+© From the Save Season screen, press SELECT to save the playoffs, then press START.
+The Playoff Tree screen appears. Press START, and Ron Barr introduces the next game.
+End of the Round
+
+If you lose the round, you're taken out of the tournament and returned fo the Game Set-Up
+
+screen. The first round of the EA Sports NBA Championship is the best of five games.
+‘Subsequent rounds are the best of seven games.
+
+===== Page 15 =====
+
+tournament tree. Press START to start playing in the next round against a new opponent.
+
+& When a round is completed, the winning team’s logo is advanced to the next bracket of the
+
+* Ifyou win it al, your team logo appears in the World Champion screen.
+
+After receiving high-fives from your friends and neighbors, and gloating for an appropriate
+period of time, press START or Reset to play again.
+
+FOULS, VIOLATIONS AND TURNOVERS
+Fouls
+‘An offensive player gets to take free throws when:
+© The defense commits 5 or more team fouls per quarter (2 free throws).
+© He's fouled in the act of shooting, and the shot misses (2 free throws).
+He's fouled in the act of shooting, and the shot goes in (1 free throw).
+
+For more information on free throws turn to Free Throws on page 14.
+
+Violations and Turnovers
+
+The offense turns the ball over to the other team when the ref calls any of the following
+violations :
+
+© Traveling. When your man wants to pass the ball to another player, fake a shot, or shoot
+the ball at the basket, he stops dribbling. Once he stops, he can’t dribble again, or the refs
+will cal traveling. You can't move him with the Control Pad. If you do it’s double-dribble
+
+and he gets called for traveling.
+
+© Charging (offensive foul). You can't run into a defensive player who's set.
+
+© 24 second shot clock violation. From the moment you inbound the ball you have 24
+seconds to get off a shot (one that hits the rim at least—blocked shots don’t count!). You
+must shoot the ball to reset the clock. The 24 second shot clock isin the bottom middle of
+
+the screen,
+
+© 10 second backcourt violation: You can't stay in the backcourt killing time. You must
+ross the Half-Court line within 10 seconds.
+
+© Backcourt violation: Once you advance the ball over the halfcourt line, you can’t take
+the ball back over the halfcourt line in the reverse direction,
+
+© 5 second inbound violation: You have 5 seconds to get the ball into play.
+
+© Out of bounds: When the ball or the player with the ball leaves the boundaries of the
+court, the ref calls “Out of Bounds.”
+
+TIME OUTS, SUBSTITUTIONS, AND THE
+STATS SCREENS
+
+Time Outs and Substitutions
+
+When you need a rest, or if your guys are in danger of getting blown out of the stadium by the
+other team, press START. This pauses the game and lets you catch your breath. If your team
+has the ball and you think you need to make a substitution, you may want to call an official
+time out,
+
+© To call an official Time Out, press START; then press SELECT. You must be in possession of
+‘the ball to call a time out.
+
+Each team gets five time outs per period. Unused time outs from one period don’t carry over to
+the next.
+
+© To make a substitution during play, press SELECT when a foul or violation has been called
+on the court, or call Time Out.
+
+===== Page 16 =====
+
+h| The Substitution screen appears.
+
+SUBSTITUTION SCREEN
+
+© To Substitute a player:
+1) Control Pad UP/DOWN to highlight the player you want to take off the floor.
+2) Control Pad LEFT/RIGHT to highlight the player you want to put in the game.
+
+3). Press B to substitute the players.
+
+Statistics
+
+The following are the statistics available to evaluate your players’ performance:
+
+NO. Jersey number
+
+WI Weight (displayed in ARCADE MODE only)
+
+POS Position. C = Center, G = Guard, F = Forward.
+
+HT Height
+
+FOUL (SIMULATION mode only). A player with 6 personal fouls is disqualified from the
+current game. Offensive fouls (charging for example), are included in this total of
+
+six.
+
+HE Health, Fatigue affects player performance only in SIMULATION mode. Players
+with 4 rating are at full strength. As the player fatigues, the number decreases.
+When a players fatigue rating drops fo 2, he becomes noticeably slower, loses
+height from his vertical leap, and his shooting accuracy decreases.
+
+FGA Field Goals Attempted: How many shots, excluding free throws, the player has
+attempted.
+
+FG Field Goals Made: How many shots, excluding free throws, the player has made.
+
+FG% Field Goal Percentage: The percentage of field goals made, calculated by dividing
+the number of field goals made by the number of field goals attempted.
+
+FIA Free Throws Attempted
+
+A Free Throws made
+
+FI% Free Throw Percentage: The percentage of free thrc.ws made, calculated by
+dividing the number of free throws made by the number of free throws attempted.
+
+3P% Three Point Percentage: The percentage of three point shots made, calculated by
+dividing the number of three point shots made by the number attempted.
+
+PT Point Total: Total points scored.
+
+RB Rebounds: Total number of rebounds.
+
+You can also view each player's statistics for the last year.
+© To View the statistics from the 1992-93 season: Press A.
+
+MIN Minutes played.
+PPG Points scored per game, including free throws.
+
+AST Assists.
+
+PF Personal fouls.
+
+00 Disquolifications (the number of games a player fouls out)..
+BK Shots blocked.
+
+STL Steals.
+
+Streaks, Slumps and Fatigue
+
+All players have their on days and their off days. The cagers in NBA SHOWDOWN are no
+exception. Sometimes a player gets hot. It seems every shot he puts up drops. Other days the
+same player couldn't make an unguarded layup. Streaks and Slumps usually don’t last more
+than seven games, and you can bet Ron Barr and K.C. Darty will let you know if a player has
+been exceptionally hot or cold. I’s your job to make sure the hot player gets a lot of court time
+‘and the cool player rides it out on the pine or takes fewer shots.
+
+Fatigue can affect both a player and a team. If a player has been logging a lot of court time, or
+if he has been injured (INJURIES ON mode only), he can experience fatigue. This fatigue often
+leads to the player's HEALTH rating to diminish faster than it normally would; sometimes it
+leads to additional injuries. Make sure you rest even your best players now ond then.
+
+Team fatigue occurs after a team plays over its head for about five games. Coming off a big
+winning streak, a team is certainly going to experience a letdown, And the players’ bodies have
+to be tired and beat up. If your team rises to the occasion and beats better teams or absolutely
+crushes teams of equal caliber, expect a toll to be taken sometime within the next few games.
+
+i
+
+===== Page 17 =====
+
+\
+
+TEAM AND PLAYER CHARACTERISTICS
+Your players are modeled after their real NBA namesakes using their stats from the 1992-1993
+season. Game play is designed to be real. If you try to make Patrick Ewing into a 3-point threat
+or Tom Chambers into a point guard, you're in for a long night of losing. Try to turn the Celtics
+into a fostbreak team, and you may wind up turning the ball over more often. Try making the
+Warriors play a half-court game and you'll stunt their explosive scoring potential. Remember,
+play up your strengths and try to minimize your weaknesses. That's the way you win games!
+
+This appendix contains up-to-date facts about all 27 of the 1992-93 NBA teams, as well as
+recent historical facts about world champions and MVPs.
+
+New York Knicks: Atlantic Division - Eastern Conference, 92/'93 record 60-22
+
+With the best record in the East, the Knicks fell just short of fulfilling everyone's expectations of an NBA
+Finals appearance. MVP candidate Patrick Ewing continued his domination inside by leading the team in
+scoring (24.2 ppg), rebounds (12.1 pg), and blocks (1.99 pg). Both Charles Oakley and Charles Smith
+complemented Ewing's play by toking much of the inside burden off of the All-Star center. Fiery John
+Starks also made some welcomed contributions to the Atlantic Division champions. His outstanding shooting
+performance in the Eastern Conference Finals gave Chicago a run for their money.
+
+Orlando Magic: Atlantic Division - Eastern Conference, ‘92/'93 record 41-41
+
+SHAQ.....The sound says it oll. Thunder-Dunking Shaquile O'Neal ushered in an exciting new era to Orlando.
+‘The NBA's newest star was nothing short of spectacular. In addition to his intimidating defense (3.3 blocks
+9), O'Neal led the team in scoring (23.4 ppg) ond rebounds (13.9 pg). The Rookie ofthe Year trophy is 0
+nice storting piece for the superstar’s future NBA hardware collection. As a team, the Magic benefited from
+the rookie's performance by neorly making their first playoff appearance. Among other notable
+performers, point guard Scott Skiles distributed the ball well with 9.4 assists pg. Owning the #1 pick in the
+draft, the future looks even brighter for the Magic. Look for the Shaq to lead the Magic into the playoffs
+this year with one of the most powerful frontcourts in the NBA.
+
+Philadelphia 76ers: Atlantic Division - Eastern Conference, '92/'93 record 26-56
+
+With virtually all new faces, the Sixers were hard pressed to establish o new identity. Led by veteran Hersey
+Hawkins, who led the team in scoring (20.3 ppg) and steals (1.69), the Sixers put together o few fine
+games. Off season acquisition Jeff Hornacek made strong contributions offensively, with 19.1 ppg and 6.9
+ossists pg, while rookie Clarence Weatherspoon successfully stepped in at power forward trying hard to
+moke the fans forget about the Chorles Barkley era. With the #2 pick in this year's draft, look for the
+‘Sixers to significantly improve on this year’s disappointing season.
+
+Washington Bullets: Atlantic Division - Eostern Conference, '92/'93 record 22-60
+
+The Bullets, slowed by injuries, had a tough year putting together any chemistry. Center Pervis Ellison's
+injury was a major blow to the team. The positive aspects of the year were the play of All-Rookie Tom
+Gugliotta ond Horvey Grant. The muli-tolented Guliotta proved he could score, pass and rebound on 0
+consistent bass. The much underrated Harvey Grant led the team in scoring (18.6 ppa). The backcourt was
+{ed by super quick, 3-point bomber Michael Adams and Rex Chapman. The Bullets must be more consistent
+in order to improve. .
+
+New Jersey Nets: Allntc Division - Eastern Conference, '92/'93 record 43-39
+As their playoff performance agoinst the Cavaliers displayed, the New Jersey Nets area young team whose
+
+individual tolents are just beginning to gel. Kenny Anderson, The NBA's most improved player, distributed
+the ball well (8.2 assists pg), and the late Drazen Petrovic became one of the best shooting guards in the
+
+league. With the coming together of this group, look for team-leading scorer Derrick Coleman (20.7 ppg)
+‘and the Nets to give another solid performance in the tough Atlantic Division.
+
+‘Miami Heat: Atlantic Division - Eostern Conference, ‘92/'93 record 36-46
+
+‘The Heat fell off bit from the form that took them tothe playoffs last year. An early season injury to
+guard Steve Smith devostated the Heat. Glen Rice continued to impress the rest of the league with his
+scoring obility; he lead the team in scoring (19 ppg). The continued improvement of center Ron Seikaly is 0
+must in order for the Heat to compete in the Eas|—Seikaly led the team in rebounding and played strong
+in the paint, Rookie Horold Miner displayed his sky walking ability ths yeor, most notedly when he won the
+Slam Dunk Contest ot the All-Star game, The Heat will need to be injury free in order to compete in this
+ever improving conference.
+
+Boston Celtics: Atlantic Division - Eastern Conference, 92/"93 record 48-34
+
+The aging Celtics played their first season in years without the legendary Larry Bird. Now they've lost Kevin
+‘McKale to retirement: New Captain Reggie Lewis stepped up and led the team in scoring (20.8 ppg). The
+exciting Dee Brown provided fons more than a few highlights with his explosive leaping ability. Robert
+Parish will be back after another steady year: the Chief showed he can stil play at « high level. The Celtics
+must receive consistent play from the guard position and the young front court players in order to improve.
+
+Milwaukee Bucks: Central Division - Western Conference, ‘92/'93 record 28-54
+
+The new look Bucks brought in many new faces, including coach Mike Dunleavy. Explosive leaping Blue
+Edwards and hard working Frank Brickowski led the team in scoring. Edwards’ spectacular dunks pleased
+crowds around the league. The emergence of point guard Eric Murdock and power forward Anthony Avent
+were nice surprises for the Bucks. This team is young and and inexperienced, but very talented and hungry.
+The Bucks will abways be competitive, but it wll be tough for them to make the playoffs
+
+Atlanta Hawks: Central Division - Eastern Conference, '92/'93 record 43-39
+
+The Hawks made an appearance inthe playoffs after a year’s absence. Dominique Wilkins returned to his
+high flying, spectacular repertoire after sitting out most of last season with o potential career ending injury.
+“Nique finished second in the NBA in scoring (29.9 ppg). The addition of Mookie Blaylock at the point guard
+position gives the Hawks the direction they were looking for. Young Stacey Augmon's stellar defense and
+Kevin Wills’ boord work are vital to ths team’s sucess. After a year of playin together look forthe
+Hawks to improve.
+
+Charlotte Hornets: Central Division - Eastern Conference, ‘92/93 record 44-38
+
+The Hornets re the teom ofthe future. With the adition of Alonzo Mourning to an clready young,
+talented team, the Hornets looked strong in their first playoff appearance. Mourning, runner-up for Rookie
+of the Yeor, averaged 21 ppg, 10.3 rebounds, ond 3.47 blocked shots. All-Star Lorry Johnson, dynamo
+Mugsy Bouges and the ultra-talented Kendall Gill give the Hornets a awesome nucleus for the future. Look
+for the Hornets to be a mainstay in the playoffs.
+
+Chicago Bulls: Central Division - Eastern Conference,'92/’93 record 57-25
+
+The Bulls won thei 3d consecutive championship with great team defense, a strong bench and
+contributions from a variety of players. Michael Jordan led the league in scoring forthe 7th consecutive
+season at 32.6 ppg All Str, do-everyhing Scotty Plpen provided the Bul with scoring, rebounding ond
+outstanding defense. Pint quard BJ. Armstrong stepped into the starting lineup and led the NBA in 3 pint
+field goo percentage. The workhorse ofthe team, leading the Bul in rebounding and playing tough
+
+e
+
+===== Page 18 =====
+
+Mi
+
+physical defense all year, was Horace Grant. The Bul ore ona rll and goining experience every yer,
+don't count them out to win a fourth championship.
+
+Geveland Cavaliers: Central Division - Eastern Conference’, 92/'93 record 54-28
+
+The Cavs have been omong the league's elite for the post few yeors; however, they con't seem to get past
+those Chicago Bulls! Point guard Mark Price was named Ist team All-NBA after another great season. Price
+is the mon who really makes the Cavs go; he led the team in assists and averaged 18.2 points a game. All
+Star Brod Daugherty proved once agoin he i one ofthe top centers in the league (20.2 ppg and 10.2 rpq).
+The addition of Gerald Wilkins gave the Cavs explosiveness and flare. Veteran Lorry Nance was among the
+league leaders in block shots. This team is still dangerous and willbe right there again come playoff time.
+
+Detroit Pistons: Central Division - Eastern Conference, ‘92/'93 record 40-42
+
+The Pistons missed the playoffs for the first time in a while. Hit by injuries, the continually changing team
+lacked cohesiveness. Dennis Rodman was a terror on the boards. “Worm” averaged a whopping 18.3
+rebounds a game. The Pistons backcourt may be aging but Joe Dumars and Isiah Thoms are os tough a
+duo any team will foce. Dumars averaged 23.5 points o game and was once again named to the NBA's All
+Defense team. Thomas dished out 8.5 assists while chipping in about 18 points a game. With two lottery
+picks in the upcoming draft, the Pistons may be able to pick up some young talent to blend with their
+veteran corp. Look for the Pistons to return to the playoffs this year.
+
+Indiana Pacers: Central Division - Eastern Conference, '92/'93 record 41-41
+
+The Pacers pu up a strong showing inthe playots despite fitst round loss othe Knicks, Shorpshooter
+Reggie Miler (21.2 ppg) proved he was nat only a long range bomber, but can fake it strong fo the hole.
+The addition of point quad Pooh Richardson solidified the floor leadership. Former NBA sixth man ofthe
+year Dele Scrempf moved int he string inp and made his fist appearance in the AlLStr game.
+Hever Brom hs an vere bode Pacers heen toh the
+next level.
+
+Minnesota Timberwolves: Midwest Division - Eastern Conference, '92/'93 record 19-63
+
+The Timberwolves are sil trying to climb out of expansion team mode. The adlton of Dream Teom
+member Csian Loetner greatly bul upon the team’s foundation. The all-rokie fist teom player
+contributed 18.2 ppg ond 8,7 rebound pg. Both Lotner and leading scorer Doug West 19.3 pa) willbe
+the building blocks forthe up and coming Wolves. Michael Wiliams added some drama tothe Timberwolves
+season by breaking the record for consecutively made fee throws.
+
+Utah Jazz: Midwest Division - Western Conference, ‘92/'93 record 47-35
+
+John Stockton and Karl Malone proved once again that they are a duo to be feared. The Co-MVP’s of the
+All-Star game led the team in assists and points respectively. Stockton averaged a lead leading 12 assists a
+game hile “The Mailman” was among the leaders in scoring (27.0 ppg). Sharpshooter Jeff Malone is 0
+proven scorer; his deadly outside shooting really opens up the Jazz bso The Jazz must continue to get
+‘support from their bench if they want to remain a force in the West.
+
+Houston Rockets: Midwest Division - Western Conference, '92/’93 record 55-27
+
+After the All-Star break, no team had o better record than the Rockets. Hakeem Olojuwon, a true franchise
+player, put up MVP-like numbers. “Dream” averaged 26.1 points, 13 rebounds, and 4 blocks per game.
+Olajuwon also led the teom in steals and passed out of double teams effectively, averaging a career high
+3.5 ossists per game. Number one draft pick Robert Horry arrived with some controversy after the Rockets
+bypassed more well known players to get im. He responded by having an All-Rookie season helping the
+Rockets shore up their front line. The back court wos led by 3-point bomber Vernon Maxwell and speedy
+Kenny Smith, Look for the Rockets to challenge for the top spot in the West.
+
+San Antonio Spurs: Midwest Division - Western Conference, '92/'93 record 49-23
+
+The Spurs were once again a force in the West. New coach John Lucas brought enthusiasm and direction to
+‘this multi-talented team. Dream Teamer and All-Star David Robinson led the team by averaging 23.4
+points, 3 blocks and 11 rebounds per game. Powerhouse Sean Eliot made the AlLStar game forthe fst
+time. New comers included J.R. Reid, Dale Elis and playground legend Lloyd Daniels. Watch for the Spurs
+‘to finally challenge for the top spot in the West
+
+Dallas Mavericks: Midwest Division - Western Conference, ‘92/'93 record 11-71
+
+The Mavericks barely avoided having the all-time worst recordin the NBA. The young Mavs were led by
+veteran point guard Derrek Harper, who led the team in both scoring and assists. Number one dratt pick
+Jimmy Jackson did not sign until mid season and only played in 28 games; however, he showed enough
+talent to give the team hope for the future. Front court players Terry Davis and Sean Rooks worked hard
+inide ond oined valuable court time this year. New coach Quinn Buckner inherits a team with litle
+‘experience and talent. It wll take time, but look for the Mavs to improve.
+
+Denver Nuggets: Midwest Division - Western Conference, 92/'93 record 36-46
+Guard Chris Jackson, now known as Mahmoud Abdul-Rauf, continued to improve a play upto the top
+biling he had coming out of college. Jckson ld the team in scoring (19.2 ppg) and was consistently
+dependable throughout the year. Dikembe Mutombo followed up his sensational rookie year with a fine
+season. Mutombo was among to league leaders in rebounds and block shots. All-Rookie
+LaPhonso Elis added enthusiasm and power to the team (14.7 ppg and 9.1 rpg). The Nuggets are a young
+col impr, tine it oper b ph fr fem ae on te
+playoffs.
+
+Golden State Warriors: Pacific Division - Western Conference, ‘92/'93 record 34-48
+
+With injuries to virtually every key player, the Wariors suffered through o su par year. AlLStr Chris
+ln, ily Owens and Sarunas Marcilnis mised mast ofthe yeor wih injures, Sil, many opponents
+fal prey o Tim Hardaway’ vicious crossover his year es he averaged 21.5 ppg and 10.6 csi per game.
+The emergence of Tyronne Hill as a physical rebounder and the suprise play of All-Rookie Ltrell prewell
+rmoke the Warriors future look bright. With everyone helt and #3 pick inthe lotry, the Warriors
+
+should make o return tothe playoffs.
+
+Seattle Supersonics: Pacific Division - Western Conference, ‘92/'93 record 55-27
+
+The Sonics are a big and tolented team. It’s hard for any team to match up with them. This is a deep and
+hungry squad that is finally beginning to gel. New coach George Karl has a group of young talent led by
+the explosive Shawn Kemp (17.8 ppg), and savvy point guard Gary Payton. The late season addition of
+Sam Perkins proved pivotal as he and sharpshooter Rickey Pierce brought the Sonics within one game of
+the NBA Finals. The Sonics are poised to step up to the next level. Look for this young crew to moke their
+
+presence known.
+
+Los Angeles Clippers: Pacific Division - Western Conference, ‘92/'93 record 41-41
+
+The Clippers returned to the playoffs this year, making a strong showing against the Rockets, though
+‘eventually losing the series. Leading scorer Danny Manning (22.8 ppg) made his frst oppearance in the
+All-Star game. Ron Harper teamed up with newly acquired Mark Jackson to form on exciting backcourt,
+Steady Ken Norman, along with beefy frontliners Stanley Roberts and John Williams, must continue to
+contribute for the Clippers if the team is to return to the playoffs.
+
+Los Angeles Lakers: Pacific Division - Western Conference, ‘92/'93 record 39-43
+
+The Lakers struggled this year under fist year coach Randy Phund, but tured it up during the playos.
+Veterans James Worthy and AC. Green rally stepped up their games. Worthy was incredible during the
+
+===== Page 19 =====
+
+h| ployots when the Lakers took the Suns to five gomes. Pont uardSeadol Threat ld he team in scoring
+and esis (15.1 ppg and 6.9 apg). Rookie Anthony Peeler showed flashes of explosiveness ond scoring
+abiiy. Youn players ike Eien Campbell and Doug Crise must produce ihe Lakes are o
+Y retumto th playoffs
+
+Sacramento Kings: Pacific Division - Western Conference, '92/"93 record 25-57
+
+All-Star Mitch Richmond is the leader of this young, talented team. Richmond hod o great season (21.9
+ppg) before breaking his hand at midseason. Veteran point guard Spud Webb really pushes the ball up in
+‘the King’s open court system. Rookie sensation Walt “the Wizzard" Williams and Lionel Simmons could be
+future stars in this league. If the Kings can put fogether an injury free, cohesive season, they'll be a force to
+contend with. Look for them to challenge for a spot in the playoffs.
+
+Phoenix Suns: Pacific Division - Western Conference,'92/'93 record 62-20
+
+The Suns ran their way to the best regular season recordin the NBA. MVP Charles Barkley averaged a
+‘mean 25.6 points per game while powering down an overage of 12.2 rebounds per contest. Sir Charles lent
+his fierce competitive atitude to the team. Blazing point guard Kevin Johnson was slowed by injuries, but
+when healthy showed why he is one of most dangerous players in the league. The 3-point shooting of
+Donny Ainge and AlLStor Don Majerle helped the Suns put points onthe Board quickly. Young players like
+Richard Dumas ond rookie Oliver Miller add depth to this already potent team. Playing in the ‘93 finals,
+should add legitimacy to their ttle run in ‘94,
+
+Portland Trailblazers:Pacifc Division - Western Conference, 92/'93 record 51-31
+
+A perennial power in the West, the Blazers were hurt late in the season by injuries. Veteran guard and
+Olympian Clyde Drexler went down late in the season and was not at full strength in the playoffs. “Clyde
+‘the Glide” led the team in scoring (19.9 ppg). The hustle and strong play of forward Cliff Robinson earned
+him the NBA’s Sixth Man of the Year award. Guards Terry Porter and Rod Strickland were steady
+performers in the backcourt. The Blazers must be ready for a strong campaign, os the rest of the teams in
+the West are ready to challenge.
+
+ni Allan Joh Doug Smith, Dan Sec Daniel
+esign and Programming: Allan Johanson, Doug Smit in Scott & Daniel Ni
+Original Design| Robert Weatherby a §
+Development Producer: Rob ral
+
+Ant: Paul Vernon, Mike Smith,
+Producer: Jim Rushing
+
+Associate Producer: Todd Gilliland
+Technical Director: John Brooks
+Sounds and Music: Traz Damji
+Product Management: Gary Gettys
+Package Design: E. J. Sarraille
+Cover Photo: Nathaniel S. Butler
+Documentation: J. Polos
+
+Team Write-Ups: Glenn Chin & Terrence Chin
+
+Documentation Layout: Steve Naegele
+
+Testing: Mike Lopez, Lee Patterson
+
+Testing Manager: at Delucchi
+
+Quality Assurance: kolnick, P. P. Armatta, Glenn Chin & William “The Man”
+
+rel Olthuis & Theresa Henry-Smith
+
+ELECTRONIC ARTS LIMITED WARRANTY |
+WARRANTY - Electronic Arts warrants to the original purchaser of this Electronic
+Arts software product that the medium on which this computer program is recorded is
+{ree from defects in materials and workmanship for a period of ninety (90) days from
+the date of purchase. This Electronic Arts software program is sold “as is,” without °
+express or implied warranty of any kind, and Electronic Arts is not liable for any
+losses or damages of any kind resulting from use of this program. Electronic Arts
+agrees for a period of ninety (90) days to either repair or replace, at its option, free of
+charge, any Electronic Arts software product, postage paid, with proof of purchase, at
+the Electronic Arts Warranty Department. This warranty is not applicable to normal
+wear and tear. This warranty shall not be applicable and shall be void if the defect in
+the Electronic Arts software product has arisen through abuse, unreasonable use,
+mistreatment or neglect.
+
+LIMITATIONS - THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES AND
+NO OTHER REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE
+BINDING ON OR OBLIGATE ELECTRONIC ARTS. ANY IMPLIED WARRANTIES
+APPLICABLE TO THIS SOFTWARE PRODUCT, INCLUDING WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE
+LIMITED TO THE*NINETY (90) DAY PERIOD DESCRIBED ABOVE. IN NO EVENT
+WILL ELECTRONIC ARTS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, OR
+CONSEQUENTIAL DAMAGES RESULTING FROM POSSESSION, USE OR
+MALFUNCTION OF THIS ELECTRONIC ARTS SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an implied warranty lasts and/or
+exclusions or limitations of incidental or consequential damages, so the above
+limitations and/or exclusions of liability may not apply to you. This warranty gives you
+‘specific rights, and you may also have other rights which vary from state to state.
+RETURNS AFTER WARRANTY - To replace defective media after the ninety (90)
+day warranty period has expired, send the original cartridge to Electronic Arts’
+address below. Enclose a statement of the defect, your name, your return address,
+and a check or money order for $30.00.
+
+Electronic Arts
+Customer Warranty
+
+P.O. Box 7578
+
+San Mateo, California 94403-7578
+
+If you need to talk to someone about this product, call us at (415) 578-
+0316 Monday through Friday between 8:30 am and 4:30 pm, Pacific Time.
+
+Unless indicated otherwise, all software and documentation is
+© 1993 Electronic Arts. All Rights Reserved,
+
+The individual NBA team insignias are trademarks which are exclusive
+property of the respective teams and may not be reproduced without the
+written consent of NBA Properties, Inc. The NBA logo is a registered
+trademark of NBA Properties, Inc. EA SPORTS and the T-Meter are
+trademarks of Electronic Arts.

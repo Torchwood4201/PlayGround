@@ -1,0 +1,1215 @@
+# Captain Commando
+source: https://archive.org/details/snes_manual_archive
+pdf: Captain Commando ( EU ).pdf
+region: EU
+pages: 36
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-QM-EUR
+
+SPIELANLEITUNG
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+LICENSED BY
+
+Gintenad) |C€
+
+Nintendo of Europe GmbH : 63760 GroBostheim, Deutschland
+Keep this information / Gardez ces informations / Diese Information aufbewahren
+Conservare queste informazioni / Guarde estas informes / Bewaar daze informatie
+Behall denna information / Behold denne information / Pida tama tieto
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, = AND 9 ARE TRADEMARKS OF NINTENDO CO.,LTD.
+
+” Original ~
+
+Seal of
+
+\ Quality 4
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT.ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO
+ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU'IL
+EST CONFORME AUX NORMES D'EXCELLENCE
+EN MATIERE DE FABRICATION, DE FIABILITE ET
+SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIESES QUALITATSSIEGEL IST DIE GARANTIE
+DAFUR, DASS SIE NINTENDO-QUALITAT
+GEKAUFT HABEN. ACHTEN SIE DESHALB
+IMMER AUF DIESES SIEGEL, WENN SIE SPIELE
+ODER ZUBEHOR KAUFEN, DAMIT SIE SICHER
+SIND, DASS ALLES EINWANDFREI ZU IHREM
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+PASST.
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO
+QUESTO PRODOTTO. RICHIEDILO SEMPRE
+ALL'ACQUISTO DI GIOCHI ED ACCESSORI PER
+ASSICURARE LA COMPLETA COMPATIBILITA
+CON IL TUO SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA APROBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIEMPRE ESTE
+SELLO CUANDO COMPRES VIDEOJUEGOS Y
+ACCESORIOS PARA ASEGURARTE UNA
+COMPLETA COMPATIBILIDAD CON TU SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO IS GECONTROLEERD EN DAT
+HET QUA CONSTRUCTIE, BETROUWBAARHEID
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+Bid HET KOPEN VAN SPELLEN EN
+ACCESSOIRES ALTID OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+DENNA ETIKETT GARANTERAR ATT NINTENDO
+STAR FOR PRODUKTENS KVALITET.
+KONTROLLERA ATT ETIKETTEN FINNS PA SPEL
+OCH TILLBEHOR DU KOPER FOR ATT
+FORSAKRA DIG OM ATT DE AR KOMPATIBLA
+MED SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+DETTE SEGL GARANTERER, AT NINTENDO HAR
+GODKENDT KVALITETEN AF DETTE PRODUKT.
+SE ALTID EFTER DETTE SEGL, NAR DU KOBER
+SPIL OG TIBEH@R, SA DU ER SIKKER PA FULD
+KOMPATIBILITET MED DIT SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO ON
+HYVAKSYNYT TAMAN TUOTTEEN LAADUN,
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+‘SAAT VARMAST! SUPER NINTENDO
+ENTERTAINMENT SYSTEM YHTEENSOPIVIA
+TUOTTEITA.
+
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEUILLEZ LIRE ATTENTIVEMENT LA NOTICE “INFORMATIONS ET PRECAUTIONS.
+D'EMPLOI" QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER
+NINTENDO HARDWARE, WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+
+SYSTEM™ LE CASSETTE O GLI ACCESSORI.
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEOJUEGO O ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE Bld DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO-
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR.
+
+ADVARSEL : L/S FORBRUGERINFORMATIONEN OG HAEFTET MED SIKKERHEDSREGLER, DER
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SysT_ewm,
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISESTI LAITTEEN VARUSTEISIIN KUULUVAT KULU EIS HEDOT JA
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAI MUUN VAURSTEEN KAYTTOA.
+
+===== Page 3 =====
+
+© CAPCOM 1991, 1995 ALL RIGHTS RESERVED.
+
+INAAL |
+
+SOrqentSslosbsncntx cs ere. Har sities small Seceurerenasea ec eraea 4
+CAPTAIN COMMANDO gegen SCUMOCIDE ........ 6
+Das; GormmandesGLeannin. .\aitas dic. Vaso yee Rig. ont es vA
+Spezialattacken & tdodliche Kampftechniken ........ 13
+Anweisungen von CAPTAIN COMMANDO.......... Le
+@PtiOMmenk-sae 2 ieceen cay the Seah atigeees i apiece ee ALE
+IN@EIZeM, Zur Strabe Gic asics, nes eee ceo TES
+GBaranbierees Hee ae tae eee ee eee eee Noche 35
+
+3
+
+===== Page 4 =====
+
+SO GEHT'S LOS
+
+Baue Dein Super Nintendo Entertainment
+System auf und stecke einen Controller in
+die AnschluBbuchse 1. Fuir ein Spiel mit 2
+Mitspielern steckst Du einen weiteren
+Controller in Buchse 2.
+
+Lege Dein CAPTAIN COMMANDO-Madul in
+Dein Super Nintendo Entertainment System
+ein und schalte das Gerat an. Nach dem
+CAPCOM-Logo wird dann der Titelbildschirm
+erscheinen.
+
+Falls Du Dich nicht dazu entscheiden sollitest,
+jetzt gleich zu starten, lauft nun eine
+Demonstration des Spieles mit kurzer
+Erklarung der Charaktereigenschaften der
+Spielfiguren ab. Um von der Demonstration
+zuruck zum Titelbildschirm zu gelangen,
+druckst Du den START-Knopf.
+
+Wenn der Titelbildschirm erscheint, stehen
+drei Méglichkeiten zur Auswahl: 1 PLAYER
+(Ein Mitspieler), 2 PLAYER (2 Mitspieler) und
+OPTIONS (Optionen). Mit dem 1 PLAYER-
+und 2 PLAYER-Modus kannst Du das Spiel
+sofort beginnen, wahrend Dir der OPTIONS-
+Modus erlaubt, vorher einige Einstellungen
+vorzunehmen. Schaue bitte auf Seite 17
+nach, uM weitere Informationen zum
+Options-Modus 2u erhalten.
+
+===== Page 5 =====
+
+Wenn Du den 2 PLAYER-Modus im
+Titelbildschirm anwaéhlist, kannst Du
+zusammen mit einem zweiten Spieler
+starten. Das geht jedoch auch im 1PLAYER-
+Modus, wenn Du im Charakterauswahl-
+Bildschirm auf dem zweiten Controller den
+START-Knopf drutckst.
+
+Um das Spiel zu jedem beliebigen Zeitpunkt
+abzubrechen, schaltest Du Dein Super
+Nintendo Entertainment System einfach aus
+und entfernst das Modul. Schutze Dein
+CAPTAIN COMMANDO-Modul mit der
+Plastikabdeckung.
+
+Y-Knopf
+L-Taste X-Knopf
+| R-Taste
+___ te SUPEENINTENDD
+
+Start A-Knopf
+
+Steuerkreuz
+Select 5&-Knopf
+
+===== Page 6 =====
+
+CAPTAIN COMMANDO
+
+GEGEN SCUMOCIDE
+
+In nicht allzu ferner Zukunft wird die Galaxie der
+Milchstrafse von einer korrupten Gruppe von Mutanten
+infiziert. Ihr erklartes Ziel ist es, zunachst alle
+benachbarten Galaxien zu kontrollieren, um schlieBlich das
+gesamte Universum in ihre Gewalt zu bringen. Diese
+Mutantengruppe hat zwar viele Namen, doch ihren
+Anfuhrer kennen seine Feinde als SCUMOCIDE.
+
+Doch nicht viele sind stark genug, um sich Feinde von
+SCUMOCIDE nennen zu kOnnen. Nicht bis sich ein Erdling
+unerschutterlichen Charakters dazu bereit erklart, ein
+Elite-Kommando-Team zu formieren, um das Vorgehen
+von SCUMOCIDE zu unterbinden.
+
+Wir schreiben das Jahr 2026. CAPTAIN COMMANDO
+und seine drei treuen Gefahrten erheben sich, um das
+Verbrechen auf der Erde und in der MilchstraBe
+auszuradieren. Es ist kein leichtes Vorhaben,
+SCUMOCIDE daran zu hindern, das Universum zu
+kontrollieren. Viele seiner AnfUhrer sind hochqualifizierte
+
+Kriminelle ohne jegliches Ehrgefuhl.
+
+Kann das Commando Team die Schdpfung vor diesen
+Kriminellen bewahren’?? Oder ist die geheime, grausame
+Macht SCUMOCIDES zu gros, als daB sie von drei Leuten
+zerstort werden kénnte? Dieses Risiko mufB in Kauf
+genommen werden und die eventuellen Folgen mussen
+ignoriert werden.
+
+6
+eee
+
+===== Page 7 =====
+
+|
+
+BAS COMMANDO TEAM
+
+CAPTAIN COMMANDO
+
+Captain Commando ist der AnfUhrer des
+Commando Teams im Kampf gegen SCUMOCIDE.
+Zu seinen naturlichen Begabungen zahlen sein
+starker Wille und sein kraftiger KOrper. Er macht
+auBerdem von seinem "Energy Glove" Gebrauch, der
+dazu in der Lage ist, m&€chtige Elektrizitats- und
+Feuerblitze zu verschieBen.
+
+Zu CAPTAIN COMMANDOS Spezialattacken zahlt
+der "Captain Kick" und die "Captain Cannon", die den
+Feind mit einem gewaltigen FeuerstoB entzundet. Er
+kann sich seine Gegner auch schnappen, sie in den
+Magen treten oder ihre Kérper umherschleudern.
+
+===== Page 8 =====
+
+ee ee eee ee |
+DAS COMMANDO TEAM
+
+Captain-Brille
+
+Captain-
+Brustpanzer
+
+Captain-Handschuh
+Captain-Stiefel
+
+CAPTAIN-BRILLE
+
+Diese Brille erlaubt es ihrem Trager, durch einen
+Vergleich des Wahrgenommenen mit einer
+Datenbank, das Gesicht eines Kriminellen auf eine
+Distanz von 2 Kilometern zu identifizieren.
+
+CAPTAIN-BRUSTPANZER
+
+Hergestellt aus superharter Titaniumkeramik, kann
+dieser Schutzpanzer einer Hitze von bis zu 1000
+Grad widerstehen.
+
+CAPTAIN-HANDSCHUH
+
+Mit seiner Hilfe Kann man dicke Eisenplatten
+durchschlagen. Macht die Schlagkraft seines
+Benutzers 48mal so hoch.
+
+CAPTAIN-STIEFEL
+Ihr Trager kann ohne Schaden 100 Meter in die
+Tiefe springen.
+
+===== Page 9 =====
+
+|
+DAS COMMANBRO TEAM
+
+MACK THE KNIFE
+
+Als AuBerirdischer ist Mack The Knife stets cool
+und beherrscht. CAPTAIN COMMANDO konnte ihn
+fur die Schlacht um die Erde gewinnen. Macks
+Bandagen schuitzen ihn vor der fur ihn gefahrlichen
+Atmosphare der Erde, behindern ihn aber leicht bei
+der Fortbewegung. Er verwendet im Kampf seine
+Unterschall-Messer, die den getroffenen Feind
+"“schmelzen" lassen. Seine Drehattacke ist sehr
+gefurchtet.
+
+Zu Mack The Knifes Spezialattacken zahit der
+“Double Trouble" und der "Sky Assault". Mack kann
+sich seine Feinde auch schnappen und sie dann
+entweder aufspieBen oder zu Boden werfen.
+
+Captain-Mutze
+
+Genetische
+Bandagen
+
+Genetisches
+Messer
+
+Schwerkraftcontroller
+
+CAPTAIN-MUTZE
+Ein Souvenir von seinem ersten Zusammentreffen
+mit CAPTAIN COMMANDO.
+
+===== Page 10 =====
+
+Ee eee ee ee eee |
+DAS COMMANDO TEAM
+
+GENETISCHE BANDAGEN
+Lebenserhaltende Ausruistung ftir ein Uberleben in
+der sauerstoffreichen Atmosphare der Erde.
+
+GENETISCHES MESSER
+Schmilzt jegliche Materie
+
+SCHWERKRAFT-CONTROLLER
+Gleichen die unterschiedliche Schwerkraft
+verschiedener Planeten aus, optimal fur den Kampf.
+
+BABY HEAD
+
+Baby Head besitzt einen starken und schnellen
+Roboter-Korpus. Dieser wird von einem Super-
+Wunderbaby gesteuert, das diesen Roboter auch
+selbst entworfen hat.
+
+Seine Spezialattacken sind der "Rolling Punch" und
+der "Elbow Smash". Baby Head kann sich auch einen
+Feind schnappen und bei diesem dann einen Knietritt
+oder einen "Pile-Driver" landen oder ihn zu Boden
+werfen.
+
+Sprechhilfe
+
+Panzerwiege
+
+Silberfaust-
+Vehikel
+
+Schwebestiefel
+Raketenwerfer
+
+10
+
+===== Page 11 =====
+
+ee |
+DAS COMMANBO TEAM
+
+SPRECHHILFE
+Sieht wie ein Schnuller aus, beherrscht aber alle 3
+Millionen Sprachen des Kosmos.
+
+SILBERFAUST-VEHIKEL
+
+Freunde nennen es die "Babytrage”". Verfugt Uber
+12.000 PS, wiegt 582 Kilo und besitzt eine
+Gedankensteuerung.
+
+RAKETENWERFER
+Im Bein ist eine Einrichtung, die der
+Raketenproduktion dient.
+
+SGCERWEBESREFEL
+Ermodglichen Positionsveranderungen in
+atemberaubender Geschwindigkeit.
+
+PANZERWIEGE
+Verhindert, da der Roboter bei starker
+Erschuitterung seine Fuhrerkanzel verliert.
+
+GINZU, DER NINJA
+
+Dieser Nachfahre von Bushin-Ryu Ninpo ist ein
+speziell trainierter Ninja. Sein rasiermesserscharfes
+Schwert kann einen Gegner in zwei Halften teilen.
+Seine Rauchbombe hullt ihn in einen Rauchschild ein,
+das bei Explosion an allen Gegnern im Umkreis eine
+verheerende Wirkung hinterlaBt.
+
+Ginzus Spezialattacken heiBen “laizuki" und “Flying
+Katana". Er kann sich auch einen Feind schnappen,
+ihn in den Magen treten oder beim Gegner einen
+Schulter- oder Uberkopfwurf landen.
+
+11
+
+===== Page 12 =====
+
+PES ee ee ee ee |
+DAS COMMANDO TEAM
+
+Auge des Ninja
+
+Dienerschwert
+
+Ninja-Anzug
+
+AUGE DES NINJA
+Identifiziert Feinde auf 500 Meter Entfernung und
+das sogar bei absoluter Dunkelheit.
+
+DIENERSCHWERT
+Dient ausschlieBlich Ginzu. Genannt "Lichtblitz",
+zerlegt es Feinde in Atomscheiben.
+
+NINJA-ANZUG
+Harter als Eisen. Weicher als Seide.
+
+12
+
+===== Page 13 =====
+
+SPEZIALATTACKEN &
+
+TODLICHE KAMPFTECHNIKEN
+
+Die Spezialattacken werden fur alle Mitglieder des
+Commando Teams gleichermaRBen ausgeftihrt.
+Benutze das Steuerkreuz, um die Spielfigur zu
+bewegen, dann springe oder greife an, je nach dem,
+wie Du die Knépfe programmiert hast. Die tdodlichen
+Kampftechniken werden Deiner Spielfigur Energie
+abziehen, sobald Du einem Feind Schaden zufUgst.
+
+Dies sind die Standardeinstellungen. Wenn Du mehr
+daruber wissen willst, wie man die Einstellungen
+verandern kann, lies auf Seite 17 unter OPTIONS
+
+nach.
+
+Angreifen Drutcke den Y¥-Knopf
+Gegner schnappen, dann Wenn Du neben einem
+schlagen, treten oder Feind stehst, druicke das
+werfen Steuerkreuz in Richtung
+
+des Feindes und drucke
+wiederholt den Y-Knopf
+
+Hechtsprung Druicke das Steuerkreuz
+zweimal schnell nach
+vorne
+
+Hechtsprung-Attacke Mache den Hechtsprung,
+
+druicke dann den Y¥-Knopf
+
+Todliche Kampftechniken Drucke den A-Knopf oder
+drucke B und Y zugleich
+
+13
+
+===== Page 14 =====
+
+_ SPEZIALATTACKEN &
+TODLIGHE KAMPF" rEGHNIKEN
+
+CAPTAIN
+COMMANDO
+
+Captain Corridor Drttcke den A-Knopf, oder
+® und Y gleichzeitig
+
+Captain Cannon Fuhre den Hechtsprung
+aus, druicke dann den B-
+Knopf. Wahrend Du in der
+Luft bist, druUckst Du den
+Y -Knopf
+
+Captain Kick Fuhre den Hechtsprung
+aus, drucke dann den Y-
+Knopf
+
+MACK
+THE KNIFE
+
+Spinning Attack Drtcke den A-Knopf, oder
+drucke B und Y gleichzeitig
+
+Double Trouble Fuhre den Hechtsprung
+aus, drucke dann den Y-
+Knopf
+
+Sky Assault Fuhre den Hechtsprung
+aus,drucke dann den B-
+Knopf. Wahrend Du in der
+Luft bist, druckst Du den
+Y-Knopf
+
+14
+
+===== Page 15 =====
+
+| eA a ee |
+SPEZIALATTAGKEN &
+TODLICHE KAMPFTECHNIKEN
+
+BABY
+HEAD
+
+Knee Rocket Druicke den A-Knopf, oder
+drucke 8 und Y gleichzeitig
+
+Rolling Punch Fuhre den Hechtsprung
+aus, drticke dann den Y-
+Knopf
+
+Elbow Smash Fuhre den Hechtsprung
+aus, drtcke dann den B-
+Knopf. Wahrend Du in der
+Luft bist, drUckst Du den
+Y-Knopf
+
+Pile-Driver Schnappe Dir einen Feind,
+druicke dann den &-Knopf.
+Wahrend Du in der Luft
+bist, druckst Du den Y-
+Knopf
+
+GINZU,
+DER NINJA
+
+Smoke Bomb | Drtcke den A-Knopf, oder
+B und Y zugleich
+
+laizuki Fuhre den Hechtsprung
+aus, druicke dann den Y-
+Knopf
+
+Flying Katana Fuhre den Hechtsprung
+aus, drucke dann den B-
+Knopf. Wa&hrend Du in der
+Luft bist, druUckst Du den
+Y-Knopf
+
+15
+
+===== Page 16 =====
+
+ANWBISUNGEN VON
+CAPTAIN COMMAND®G
+
+Gegenstande wie Essen und Waffen nimmst Du
+auf, indem Du Dich Uber sie stellst und dann
+den Y-Knopf druckst
+
+Bringe soviele gestohlene Gegenstande wie
+moglich zurtck. Diese Gegenstande sind
+Artefakte menschlichen Lebens. Wenn Du sie
+zuruckbringst, sind sie von hohem Wert.
+
+Wenn Du einen Anftihrer angreifst, versuche
+ein paar Schlage zu landen, dann wende Dich
+ab. Der AnfUhrer wird nun wahrscheinlich
+blitzartig ein heftiges Abwehrfeuer entfachen,
+das Dir Schaden zuftigt, wenn Du nicht
+genuigend Abstand haltst.
+
+Du wirst einigen robotischen Angriffsvehikeln
+des Gegners begegnen. Greife die Gegner an,
+bis sie von ihrem Vehikel fallen, dann springe
+auf die Roboter und benutze sie fur kurze Zeit.
+Es gibt unterschiedliche Arten von Robotern,
+also benutze den Angriffsknopf um zu
+experimentieren, wie sich der Roboter dann
+verhalt.
+
+Da Deine tdédlichen Kampftechniken Dir Energie
+abziehen, benutze sie nur, wenn es die
+Situation unbedingt erfordert.
+
+Wenn alle Deine Leben verbraucht sind und Du
+noch einige Continues besitzt, kannst Du Deine
+Spielfigur wechseln ohne das Spiel neu starten
+zu mussen. Druttcke das Steuerkreuz nach links
+oder rechts, um das Gesicht Deiner Spielfigur
+am oberen Bildschirmrand zu verandern,
+drucke dann den Y¥-Knopf, um diesen
+Charakter auszuwéhlen.
+
+16
+
+===== Page 17 =====
+
+| Se ee ee eee
+OPTIONEN
+
+Der Optionsmodus erlaubt es Dir, den
+Schwierigkeitsgrad Deines Spieles einzustellen, die
+Knopfbelegung zu verandern oder den Sound von
+Stereo auf Mono zu verandern, je nach
+Leistungsf@higkeit Deines Fernsehers.
+
+SCHWIERIGKEITSGRAD
+
+Drucke das Steuerkreuz nach oben oder unten, bis
+DIFFICULTY (Schwierigkeitsgrad) angewahlt ist.
+Drticke dann das Steuerkreuz nach links oder
+rechts, um den Schwierigkeitsgrad zu verandern.
+
+ANGRIFF, SPRINGEN, SPECIALS
+
+Wahle eine dieser drei Optionen (Attack, Jump,
+Special) an. DrUcke dann das Steuerkreuz nach links
+oder rechts, um den Knopf auszuwahlen, den Du als
+Angriffs-, Sprung- und Special-Knopf verwenden
+willst.
+
+SOUNDMODUS
+
+Wahle SOUND MODE an. Drttcke dann das
+Steuerkreuz nach links oder rechts, um zwischen
+STEREO und MONO (Monaural) hin- und
+herzuschalten
+
+OPTION MODE
+
+===== Page 18 =====
+
+ee
+NOTIZEN ZUR STRATEGIE
+
+18
+
+===== Page 19 =====
+
+”
+
+Houle
+
+© GAPCOM 1991, 1995 ALL RIGHTS RESERVED.
+
+CONTENTS
+
+(etting; StARGeGlee aii ca ariiti merge tree ine aatesle Satals 20
+CAPTAIN COMMANDO VS. SCUMOCIDE ......... ee
+Goraimandosl ecannranNwie 20 0... rene tid arden meres ehttion sie 23
+Dash Attacks & Sure-Kill Techniques................. 29g
+Briefings from CAPTAIN COMMANDO.............. 32
+CASCIO Se eet A ee ee ee cris Ns Ce a esa aE a3
+StrareGgVy. NOE Sinta. tinier tpn. oe eres elec ols's oss ace 34
+
+19
+
+===== Page 20 =====
+
+ac ea
+GETTING STARTED
+
+Set up your Super Nintendo Entertainment
+System and plug a controller into the
+controller #1 plug. For a two-player game,
+plug in 2 controllers.
+
+Insert your CAPTAIN COMMANDO Game
+Pak into your Super Nintendo Entertainment
+System and turn the power on. The title
+screen will appear after the CAPCOM logo.
+
+A demonstration game and profiles of each
+character will begin if you do not begin
+playing right away. To return to the TITLE
+screen from a demo, press the START
+button.
+
+When the TITLE screen appears, you have
+three choices: 1 PLAYER, 2 PLAYER and
+OPTIONS. The 1 PLAYER and 2 PLAYER
+modes allow you to begin playing the game,
+while the OPTIONS mode lets you adjust
+certain features of the game. For an
+explanation of the OPTIONS mode, see page
+33)
+
+20
+
+===== Page 21 =====
+
+GETTING STARTED, cont.
+
+While choosing 2 PLAYER from the TITLE
+screen lets you play a @-player game, if you
+select 1 PLAYER from the TITLE screen you
+may still play a @-player game by pressing
+the START button on controller #2 at the
+Character select screen.
+
+To end the game at any time, simply turn off
+the power on your Super Nintendo
+Entertainment System and remove the
+Game Pak. Make sure to replace the plastic
+cover on your CAPTAIN COMMANDO Game
+Pak.
+
+Y-Button
+L-Button X-Button
+
+| | R-Button
+
+SELECT START
+
+Control Pad A-Button
+
+Select -Button
+
+B21
+
+===== Page 22 =====
+
+CAPTAIN COMMANDO
+YS. SGUIVMGGIDE
+
+In the not-so-distant future, the Milky Way galaxy
+becomes infested by a corrupt group of mutants.
+Their utmost goal is to sontro! all activity in other
+nearby galaxies, then move on to taking Over the
+entire universe. This group is Known by many
+names, but their enemies call the leader
+SCUMOCIDE.
+
+But not many are strong enough to call themselves
+enemy of SCUMOCIDE. Until one Earthling of
+staunch character forms an elite commando team
+to undermine the advancements of SCUMOCIDE.
+
+It is 2026. CAPTAIN COMMANDO and his three
+faithful rogues rise up to erase the crime from
+Planet Earth and the Milky Way. It won't be an easy
+crusade to keep SCUMOCIDE from controlling the
+universe. Many of the leaders are highly-trained
+criminals with no regard for decency.
+
+Can the Commando Team save all existence from
+these criminals? Or will the secret evil power
+SCUMOCIDE possesses be too much for three
+beings to destroy? The risks must be taken, and
+the consequences must be ignored.
+
+===== Page 23 =====
+
+COMMANDO TEAM
+
+CAPTAIN COMMANDO
+
+CAPTAIN COMMANDO leads the Commando Team
+into battle against SCLUMOCIDE. His natural gifts
+include a powerful mind and a strong body. He also
+uses his "Energy Glove," which is capable of shooting
+mighty bolts of electricity and fire.
+
+CAPTAIN COMMANDO'S Dash Attacks include the
+"Captain Kick" and the "Captain Cannon," which
+torches the enemy with a blast of flame. He can
+also grab his opponent and kick their stomach or
+throw their whole body.
+
+23
+
+===== Page 24 =====
+
+COMMANDO TEAM, conr.
+
+Captain Goggles
+
+Captain
+Protector
+
+Captain Gauntlet
+Captain Boots
+
+CAPTAIN GOGGLES
+
+Goggles allow the wearer to identify a criminal's face
+up to 2 kilometers, by comparing visual with a data
+base.
+
+CAPTAIN PROTECTOR
+
+Made of Super-tough titanium ceramic, this
+protective matter withstands heat of up to 1000
+degrees.
+
+CAPTAIN GAUNTLET
+Can smash through a thick iron plate. Multiplies
+user's power by 48 times.
+
+CAPTAIN BOOTS
+
+Possible for user to take 100-meter fall with no
+damage.
+
+24
+
+===== Page 25 =====
+
+COMMANDO TEAM, conr.
+
+MACK THE KNIFE
+
+An extra-terrestrial being, Mack the Knife always
+seems cool and collected. He was recruited by
+CAPTAIN COMMANDO for the fight on Earth.
+Mack's bandage wrap protects him from the
+harmful atmosphere on Earth and hinders
+movement slightly. But he uses sub-sonic knives
+which melt any enemy he hits. His spinning attack is
+extremely fearsome.
+
+Mack the Knife's Dash Attacks include the "Double
+
+Trouble" and the "Sky Assault." Mack can also grab
+his enemy and either stick or throw them.
+
+Captain Cap
+
+Genetic Bandage
+
+Genetic Knife
+
+Gravity
+Controller
+
+CAPTAIN GAP
+A souvenir from his first meeting with CAPTAIN
+COMMANDO.
+
+25
+
+===== Page 26 =====
+
+COMMANDO TEAM, cont.
+
+GENETIC BANDAGE
+Life-sustaining equipment for survival while
+submerged in Earth's oxygen-rich atmosphere.
+
+GENETIC KNIFE
+Melts all matter.
+
+GRAVITY CONTROLLER
+Adjusts gravitational pull when on different planets
+so it's best for the battle.
+
+BABY HEAD
+
+Baby Head consists of a strong and quick robot
+body. It is controlled by a super-genius baby who
+designed the robot himself.
+
+His Dash Attacks are the "Rolling Punch" and the
+"Elbow Smash." Baby Head can also grab his enemy
+and do either a knee kick, a "pile-driver" or toss the
+
+enemy.
+Talking
+Machine
+
+Stable
+
+Cradie
+Silverfist
+Vehicle
+
+Jet Hover
+
+Missile
+Launcher
+
+===== Page 27 =====
+
+| 2 ee eel
+COMMANDO TEAM, contr.
+
+TALKING MACHINE
+Looks like a baby's pacifier, it can speak the 3
+million languages of the cosmos.
+
+SI-VERFISth VEnIGCEE
+
+Friends call it "Baby Carriage." Consists of 12,000
+horsepower, 582 kilograms of bodyweight and
+mounts a fuzzy-logic control.
+
+MISSILE LAUNCHER
+The leg is a missile production facility.
+
+JE HOVER
+Used for high-speed position shifting.
+
+STABLE CRADLE
+Protects the robot from rocking off its base, no
+matter how far it's tilted.
+
+GIN2ZU THE NINJA
+
+A highly trained ninja and successor to Bushin-ryu
+Ninpo. His rezor-shanp sword is capable of cutting
+an opponent in two. His smoke bomb shrouds him
+in a smoke screen, and when the smoke explodes all
+enemy in the vicinity pay dearly.
+
+Ginzu's Dash Attacks are called “laizuki" and "Flying
+Katana." He can also grab enemy and kick
+
+27
+
+===== Page 28 =====
+
+COMMANDO TEAM), cont.
+
+their stomach or do a shoulder throw or an
+overhead throw.
+
+Ninja Eye —
+
+Servant Sword
+
+Ninja Suit
+
+NINJA EYE
+Identifies enemies at 500 meters in pitch darkness.
+
+SERVANT SWORD
+Serves no one but Ginzu. Named the Lightning
+Light, it cuts things apart at atomic levels.
+
+NINJA SUIT
+Tougher than iron. Softer than silk.
+
+===== Page 29 =====
+
+DASH ATTACKS &
+SURE-KILL TECHNIQUE
+
+Dash Attacks are performed identically for each of
+the Commando Team. Use the contro! pad to move
+the character, and then jump or attack based on
+
+* how you have configured your buttons. The Sure-Kill
+Techniques will drain some of your character's
+energy when damage is done to enemy.
+
+Here are the default controls, but for more on how
+to adjust the controls see OPTIONS, page 33.
+
+Attack Press the Y button
+Grab an enemy,then When next to an enemy,
+punch, kick or throw press control pad toward
+
+enemy and press the Y¥
+button repeatedly
+
+Dash Press control pad
+forward twice quickly
+
+Dash Attack Dash, then press the Y
+button
+Sure-Kill Technique Press the A button, or
+
+press 8B and Y together
+
+29
+——————————ooooOoOOOOeeeeeeeeeeeeeeeeee ea eee
+
+===== Page 30 =====
+
+ee eae: |
+DASH ATTACKS &
+
+SURE-KILL TECHNIQUES, conr.
+
+CAPTAIN
+COMMANDO
+
+Captain Corridor Press the A button, or
+press B and Y together
+
+Captain Cannon Dash then press the &
+button. While in the air,
+press the Y button
+
+Captain Kick Dash, then press the ¥Y
+button
+
+MACK
+THE KNIFE
+
+Spinning Attack press the A button, or
+press 8 and Y together
+
+Double Trouble Dash, then press the
+Y button
+Sky Assault Dash, then press the 8
+
+button. While in the air,
+press the Y button
+
+30
+
+===== Page 31 =====
+
+DASH ATTACKS &
+
+SURE-KILL TECHNIQUES, conr.
+
+BABY
+HEAD
+
+Knee Rocket Press the A button, or
+press B and Y together
+
+Rolling Punch Dash, then press the
+Y button
+Elbow Smash Dash, then press the
+
+8 button. While in the air,
+press the Y button
+
+Pile-Driver Grab enemy, then press
+the B button. While in the
+air, press the Y button
+
+GIN2ZU
+THE NINJA
+
+Smoke Bomb Press the A button, or
+press B and Y together
+
+laizuki Dash, then press the
+Y button
+Flying Katana Dash, then press the 8
+
+button. While in the air,
+press the Y button
+
+31
+
+===== Page 32 =====
+
+32
+
+SRIEFINGS FROM
+
+CAPTAIN COMMANDO
+
+Pick up items like food and weapons by stand-
+ing over the item, then press the Y button.
+
+Be sure to recover as many stolen items as
+you can. These items are stolen artifacts of
+human life, and if you recover them they are
+quite valuable.
+
+When attacking a leader, try inflicting several
+hits then back away. Eventually the leader will
+break through a quick barrage and damage
+you, SO move away from it before it gets the
+chance to hurt you.
+
+You may stumble upon some enemy controlling
+robotic attack vehicles. Attack the enemy so
+they fall off the robot, then jump onto the
+robot and use it for a short period of time.
+There are several types of robots, so use the
+Attack button to experiment with the robot's
+powers.
+
+Since your Sure-Kill Techniques use up some
+of your energy, use these only when the action
+gets especially heated.
+
+Once all your lives run out, and you have some
+continues left, you may change your character
+without restating your game. Press the
+contro! pad left or right to change the face of
+the character at the top of the screen, then
+press the Y button to select that character.
+
+===== Page 33 =====
+
+|
+OPTIONS
+
+The option mode lets you adjust the difficulty of
+your game, change the button configuration or
+switch the game sound from stereo to monaural
+depending on the capability of your T.V.
+
+DIFFICULTY
+
+Press the control pad up or down until DIFFICULTY
+is highlighted. Then press left or right to change the
+difficulty.
+
+ATTACK, JUMP, SPECIAL
+
+Highlight any of these three options. Then press the
+control pad left or right to choose the button you
+want to have as your attack button, jump button
+and Special/Sure-Kill button.
+
+SOUND MODE
+
+Highlight SOUND MODE. Then press the control
+pad left or right to choose between STEREO sound
+and MONAURAL [mono] sound.
+
+OPTION MODE
+
+===== Page 34 =====
+
+ee eee |
+STRATEGY MOTES
+
+34
+
+===== Page 35 =====
+
+GARANTIE-INFORMATION
+
+CAPCOM Europe GmbH gewahrt fur die Dauer von
+sechs Monaten ab Kauf eine Qualitaétsgarantie fur
+die in Deutschland von CAPCOM Europe GmbH
+gekauften Produkte.
+
+Beachten Sie bitte folgendes, wenn Sie trotzdem
+einen Mangel feststellen:
+
+«Falls kein Bedienungsfehler oder ahniiches vorliegt,
+schicken Sie das CAPCOM Produkt im
+Originalkarton zusammen mit dem Kaufbeleg an:
+
+CAPCOM Europe GmbH
+Heltorferstr. 18
+40472 Dusseldorf
+
+¢ Die Gewéhrleistung ist nach Wahl von CAPCOM
+auf eine Mangelbeseitigung, oder auf eine
+Ersatzlieferung eines mangelfreien Produkts
+beschraénkt; weitergehende Anspruche sind
+ausgeschlossen.
+
+¢ Die Gewahrleistung erlischt, wenn der Mangel auf
+einer unsachgemaBen Behandlung und/oder auf
+nicht autorisierten Reparaturversuchen und/oder
+auf sonstigen Beschadigungen nach dem Kauf
+beruht.
+
+35
+
+===== Page 36 =====
+
+EUROPE GMBH
+
+Heltorferstr. 18 40472 Dusseldorf
+
+PRINTED IN JAPAN
+IMPRIME AU JAPON

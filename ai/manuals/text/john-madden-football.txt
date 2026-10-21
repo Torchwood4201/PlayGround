@@ -1,0 +1,825 @@
+# John Madden Football
+source: https://archive.org/details/snes_manual_archive
+pdf: John Madden Football (USA).pdf
+region: USA
+pages: 14
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+INSTRUCTION BOOKLET /
+
+supra mwreuno/
+
+Ca 94403-7578 ‘
+Pines n sews | ELECTRONIC ARTS eee ae
+
+===== Page 2 =====
+
+) OP 080
+
+SUMMARY OF COMMANDS
+
+KICK-OFF
+RECEIVING ONSIDE KICK
+‘OFFENSE - BEFORE THE SNAP
+
+John Madden Football developed by Park Place Production Team, Oceanside, CA. ner sis ae
+
+‘Whipple, Jim Simmons, Erich Horn, Will Robinson, Dave Miller, Brian O'Hara, OFFENSIVE AUDIBLES
+
+Michael Knox. x ‘Trigger
+OFFENSE - AFTER THE SNAP
+=
+
+} Dive np eaktuele
+| sg
+
+HHI NOENOO OF AMERICA NC. PRODUCTS BEA
+
+===== Page 3 =====
+
+SUMMARY OF COMMANDS (continued)
+
+RECEIVING/RUNNING
+x 8 a Trigger
+Reachforeatch. __Dive_“Unphbeaaktachl__Spin.
+
+DEFENSE - BEFORE THE SNAP
+x y
+
+Trigger
+ile Line surge
+DEFENSIVE AUDIBLES
+x y 8 A Trigger *
+Cancel audible Stun Bite Oefend
+DEFENSE - AFTER THE SNAP
+x y Trigger
+Reach, Dive Act Power tackle
+PLAYER IDENTIFICATION MARKER
+
+ONE PLAYER—Blue before snap on offense, Yellow for ball-carrier,
+Blue for defense,
+
+‘TWO PLAYERS—Player One: Blue before the snap on offense, Yellow
+for ball-carrier, Blue on defense. Player Two: Gray before the snap
+on offense, Yellow for ball-carrier, Gray on defense.
+
+TEAMMATES—Player One: Light Blue. Player Two: Gray.
+Ball-carrier: Yellow.
+
+@ CONTENTS @
+
+GAME SET-UP 2
+5
+
+5
+
+TEAMMATES, 5
+THE KICK-OFF 7
+OFFENSE 8
+DEFENSE 13
+SPECIAL TEAMS (PUNT/FIELD GOAL) 15
+
+MAXIMIZING YOUR POTENTIAL/THE X BUTTON:
+THE PLAY CLOCK
+PAUSE/TIMEOU
+THE ELEMENTS
+PENALTIES
+TURNOVER:
+INSTANT REPLAY ..
+PLAYOFFS...
+STATISTICS.
+
+JOHN MADDEN'S FOOTBALL TAL!
+
+OFFENSE—SETS, FORMATIONS, AND PLAYS.
+DEFENSE—FORMATIONS, SETS, AND PLAYS
+
+===== Page 4 =====
+
+John Madden football is the best game going, It's
+exciting, fast-paced, and unpredictable, The coach
+has put together a professional playbook so you can
+pit your football wits against a friend's, or against
+Madden himself. This manual puts all the necessary
+instructions at your fingertips, If you want to start
+right away, follow the simple start-up procedure listed below then
+turn back to the page called CONTROLLING THE GAME. As you get
+more and more into the game you'll probably find it useful to consult,
+the fully detailed instructions in PLAYING THE GAME and the com-
+plete set, formation and play descriptions in JOHN MADDEN'S
+FOOTBALL TALK.
+
+FIRE OFF THE LINE: STARTING UP THE GAME
+|. Flip OFF the power switch on your Super NES.
+
+WARNING: Never try to insert or remove a Game Pak when the
+power is ON.
+
+2. Make sure a Controller is plugged into the port labelled 1 on
+the Console,
+
+It you're playing against a friend, plug the other Controller into
+the port labelled 2.
+
+3. Insert the game cartridge into the slot on the Super NES. Press
+firmly to lock the Game Pak in place.
+
+4. Turn ON the power switch.
+
+The Electronic Arts* Sports Network (EASN) intro will begin. If
+you don’t see it, begin again at step 1.
+
+5, When Coach Madden's picture appears, press START to see
+the Game Setup screen.
+
+@
+
+TEAM ONE!
+
+QUARTER LENOTH! 15 MINUTES
+
+PRESS START TO EXIT-
+
+PLAYING THE GAM
+‘GAME SET-UP
+
+You'll use the Game Set-Up Screen every time you play
+John Madden Football
+
+‘+ D-Pad up or down to highlight the options,
+‘+ D-Pad left or right to change the settings.
+* Press START to begin the game.
+
+GAME MODE:
+REGULAR SEASON: Play a regular season game. All penalties and
+the play clock are in enforced.
+
+PRE-SEASON: Play a pre-season game. The play clock is not
+enforced.
+
+PLAYOFFS: You can enter the post-season tournament in One Player
+mode only. All penalties and the play clock are in enforced,
+
+SUDDEN DEATH: Play until one team scores. All penalties and the
+
+play clock are enforced,
+
+===== Page 5 =====
+
+PLAYER SELECT
+
+ONE PLAYER: Play against the computer. (You will always be the
+home team.)
+
+‘TWO PLAYERS: Play against another person. (Not in PLAYOFFS.)
+
+TEAMMATES: Two players compete against the computer. (Not in
+PLAYOFFS.)
+
+DEMO: Watch an exhibition game. Press any button to return to the
+Game Set-Up screen
+
+TEAM ONE - Home team.
+TEAM TWO - Visiting team
+
+QUARTER LENGTH
+5, 10, or 15 minutes,
+
+FIELD TYPE
+GRASS or TURF.
+
+WEATHER
+FAIR, RAIN/MUD, or SNOW/ICE (No domed stadiums.)
+
+a
+
+WOE!
+
+i i
+{press START co mure-
+p re ree
+
+‘After you've set up your game and pressed START, the SCOUT-
+
+ING REPORT screen will appear. On this screen the two teams
+about to square off are compared to each other by position
+
+Atleast one check mark will appear at every position, for one
+team or the other. The team with the checkmark is stronger than
+its opponent at that position.
+
+If both teams have a check mark at a given position, then both
+teams are relatively equal at that position.
+
+> PLAY CONTROLS
+Throughout the game you control the player standing on the
+four-arrow cross. When playing in TWO PLAYERS mode, TEAM 2
+is controlled by the player with controller 2.
+
+When playing in the TEAMMATES mode the player with controller 1
+controls the man on the BLUE cross. The player with controller 2
+
+controls the player on the GRAY cross.
+
+===== Page 6 =====
+
+In TEAMMATES mode, the player with controller 1 “is” the quarter-
+back and therefore responsible for selecting the sets, formations, and
+plays and snapping the ball.
+
+A YELLOW cross indicates the ball-carrier. When Player 1 (the
+quarterback) hands off or passes to Player 2, then player 2is marked
+with the YELLOW cross. But when Player 1 hands off or passes to a
+player not controlled by Player 2, then Player 1 “becomes” the ball-
+carrier and is marked with the YELLOW cross.
+
+The player with controller 2 may use the B key to “become” any of
+the other players on the field. In most cases, the control 2 player will
+choose to act as either a running back or a pass receiver, but some
+people might like to play on the line, as Madden himself once did
+
+In TEAMMATES mode, when one player is dissatisfied or upset with
+the play of his teammate, there is no need to arque. For example, if
+the player controlling the quarterback and the play-calling is making
+a lot of unwise decisions, both players should discuss the problem
+and come to an agreement—perhaps pause the game and decide
+together which play to run next. It's ok to be angry, but don’t let your
+anger get the best of you, and never resort to violence.
+
+THE KICKOFF:
+
+You control the kickoff with the Kick Meter. If you wait too
+Jong before kicking off, the computer will kick for you, and
+not very well. Always kickoff for yourself.
+
+* Press B to start kicker,
+* D-Pad left or right to aim the kick.
++ Watch the Strength Marker rise on the Kick Meter.
+
+* Press B again to kick football. The higher the Strength
+Marker on the Kick Meter, the farther the ball will travel
+
+* Press B again to activate man nearest to ball-carrier.
+
+(See DEFENSIVE ACTIONS on p.15 for tackling instructions.)
+AUDIBLE: You cannot call an onside kick after a safety.
+
++ Press A to call an audible.
+
+‘+ Press ¥ for the onside kick formation,
+
++ Press B to kick the ball
+
+‘+ Press B to activate the man closest to the ball
+
++ Press ¥ to dive on the bal @
+
+===== Page 7 =====
+
+|
+
+RECEIVING THE KICK
+‘+ The return man stands on the four-arrow cross.
+
+* Either let the Super NES pick his return route or control
+player with D-Pad.
+
+* When you field the ballin the endzone, remain there if
+you wish to down the ball for a touchback. Once out of
+the endzone, you cannot return to the endzone to down
+the ball for a touchback,
+
+OFFENSE:
+
+When you are on offense you must start the play by hiking
+the ball. After that you can allow the play to run itself, or you
+can control the ball-carrier. The ball-carrier stands on the
+yellow four-arrow cross.
+
+MADDEN’S CHOICE
+
+When in doubt, go with Madden's choice. To select
+Madden's choice, choose the set in the B window at the
+beginning of the down, then select the formation in the B
+window, and then choose the play in the B window.
+
+An offensive set is a group of players chosen for certain forma-
+tions to run specific plays
+
++ D-Pad left or right to reveal the different sets.
+* Select desired set with the corresponding button.
+
+* D-Pad up to return to previous options if you change your mind
+or hit the wrong button,
+
+When you change sets, the name of the new set flashes on the
+screen above the huddle as the substitutions are shuttled in.
+
+===== Page 8 =====
+
+@
+
+The formation tells the players how to line up before the snap.
++ D-Pad left or right to reveal the different formations.
+* Select desired formation with the corresponding button.
+
+* D-Pad up to return to previous options if you change your mind
+or hit the wrong button.
+
+* D-Pad left or right to reveal the different plays.
+
+Passing Play
+Running Play
+
+Plays with a diagonal slashes at both ends of the play ttle are
+passing plays. Those without these marks are running plays.
+
+‘+ Select desired play with the corresponding button.
+
++ Ifyou change your mind or hit the wrong button, you will have
+to call a Time Out to change the play. (See TIME OUT p.17),
+
+When you select a play, your players line up in their respective
+
+positions.
+
+* Press X if you want to fake a snap,
+
+‘+ Press B to snap the ball
+
+I} back
+} Out.
+
+RUNNING:
+
+{ AUDIBLE—Once you select an audible play, there's no turning
+
+You can call another audlible play if you like, but you will
+
+not be able to return to your original play unless you call a Time
+
+Press A to call an audible
+Press ¥ for a running play.
+Press A for a trick play
+Press B for an anti-blitz play.
+
+Press X to cancel audible (before one of the above plays is
+selected),
+
++ Use D-Pad to contro! runner.
+
++ Press ¥ to dive,
+
+‘+ Press B for “umph” to break tackle.
+
+| ‘+ Press A to spin,
+
+===== Page 9 =====
+
+PLAYOFFS:
+
+‘When you're ready to challenge the rest of the league for the right to
+play on Super Sunday, choose Playoffs as the Season Mode from the
+Game Setup Screen.
+
+‘+ D-Pad down to the Team 1 option.
++ D-Pad left or right to select desired team.
+Visiting and Home Teams
+Initia! team match-ups are set by the Super NES. But you can take
+any team you want into the playoffs. Simply select the team you want
+to “be” in the Team 1 field, and Super NES will select your opponent.
+
+‘+ When you've made your playoff choices from the Game Set-Up
+screen, press START,
+
+PLAYOFF TREE
+
+The Playoff Tree shows the match-ups that will lead to the champion-
+ship game on Super Sunday.
+
+* D-Pad left or right and up or down to scroll through the
+Playoff Tree.
+
+When you're ready to play your playoff game, press START.
+
+Game rules, functions, conditions and operations are the same in the
+Playoffs as they are during the Regular Season.
+
+At the end of your playoff game, you'll see a screen with an updated
+playoff tree. A ten digit number appears in the middle of the screen,
+Copy this number down on a piece of paper. It will be your password,
+
+To return to those playoffs, choose CONT PLAYOFFS from the Game
+Set-Up screen. The password screen will appear.
+
+Use your D-Pad to select the appropriate letters and numbers and the
+‘A button to enter them.
+
+Alter you enter the password correctly, press START and the playoffs
+will resume where you left off
+
+STATISTICS
+
+Athalf-time and at the end of the game, Coach Madden presents the
+stats for your game: who's running well, who's going nowhere fast,
+who's sacking whom, and all the rest.
+
+The coach also offers general strategy tips based on his philosophy
+of football. You can take these or leave these as you see fit
+
+In addition to that, you'll see scores from other games around the
+league.
+
+===== Page 10 =====
+
+JOHN MADDEN'S FOOTBALL TALK
+
+If the play you called in the huddle looks lke a loser when you hit the line of
+scrimmage, you can call an audible, Once in formation, hit the A button once
+‘to alert your team that you're calling an audible, and then press A,B, or ¥ to
+choose a specific play. X cancels the audible before a play is called. If you
+call an audible play and change your mind, you must call a Time Out in order
+return tothe original play.
+
+ONSIDE KICK
+‘= Press A for an onside formation. Have your kicker aim a kick
+toward the right sideline, and kick the ball weakly
+
+‘+ Press B to control the player nearest to the ball after the
+onside kick.
+
+‘+ Press ¥ to make that player dive forthe ball
+
+‘THE SHAP
+
+Ail the action starts with the snap of the bal, and only the offense knows the
+count. If you're on defense and want to try to anticipate the snap from the
+‘quarterback’s cadence (that is how he calls the signals) press either finger
+trigger just before or as the ball is snapped. Your defensive guys will try to
+fire into the backfield and dump the quarterback, or at least stuff the play
+before it gets rolling
+
+The down-side is, if you press a finger trigger too soon before the ball is
+snapped, you'll get an encroachment penalty (5 yards)
+
+TIME OUT
+
+You can call Time Out anytime before the ball is snapped, or after a play is
+over. First press START. This pauses the game and a screen message reads
+OFFENSE [or DEFENSE] CALLS: A Time Out (depending on who called the
+Time Out), and gives the number of time outs remaining in the half for that.
+team,
+
+@
+
+I you want to use one of your remaining time outs, press A. You can take a
+break from the action, or reset a play after calling a time out. Sometimes an
+audible just won't do and you really want to realign your formation, Call atime
+ut and take care of it. Better safe than sorry. However, you only get three
+time outs each half, so use them wisely.
+
+you change your mind (you're allowed), and decide against a time out press
+START again. Play resumes at the point where you paused the game,
+
+*+ Press START if you want to pause the game during a play
+
+OFFENSE—SETS, FORMATIONS, AND PLAYS
+
+SETS
+
+FAST
+
+This set features four quick receivers and a halfback. Guys who run forty
+yards in less than five seconds are the stuff defensive backs have nightmares
+about
+
+NORMAL
+Refers to the standard offensive “package:” two wide receivers, a tight end,
+a halfback and a fullback,
+
+HANDS
+Puts your best group of receivers on the field, and includes two running
+backs.
+
+BIG
+Fields your strongest backs, cannonballs with legs who can grind out yards in
+the mud and snow. These guys let the defense grab a leg just so they can ram
+itthrough their chests.
+
+SPECIAL TEAMS - PUNT
+
+Calls the punting team onto the field, Except for the punter, these guys are
+fast, mean and have litte regard for their bodies. They'll run headlong into
+the wedge like freaking maniacs,
+
+FAKE PUNT
+
+Ityou're in a desperate situation, orf you simply want to catch your
+‘opponent off guard, you can calla fake punt. On this play, your punter can
+either pass the ball toa receiver of try to run for the first down himselt.
+
+===== Page 11 =====
+
+SPECIAL TEAMS - FIELD GOAL
+Putoon the field goal unit. The holder has soft hands, the kicker a steady head
+‘and a swift foot, and the linemen know how to hold their ground,
+
+FAKE FIELD GOAL
+Here success isin the hands of the holder. Alter the snap he can either pass
+to a receiver down field or sprint to the first down marker himself. But he has
+‘to make a decision quickly, fora delay spells almost certain disaster.
+
+FORMATIONS:
+
+RUN AND SHOOT
+
+This is primarily a passing formation because the quarterback receives the
+snap about five yards behind the line. He doesn’t have to drop back to throw
+the ball, cause he’s already there.
+
+PRO-FORM
+This is my version of the pro-set, where a fullback and a halfback line up
+beside one another and behind the quarterback
+
+FAR and NEAR :
+These are my ways of describing where the halfback lines up. He's either far
+from or near to the strong side ofthe offensive line, that's the side where the
+tight end lines up.
+
+GOAL LINE
+Use this formation when you need a few yards fora frst down or to bust
+‘across the goal line for a score.
+
+PLAYS:
+
+FLOOD
+
+One of the most effective ways for a quarterback to beat zone coverage is to
+flood, ar overload the zone with multiple receivers, A defender has to think
+twice about leaving his own zone to follow a receiver into another guy's zone.
+
+cur
+You've heard of turning on a dime. That's sportswriter talk. never really
+understood why you'd want to do that, even iitwas possible. guess it
+‘means turning fast. | think cutting is more accurate description ofthe ability
+
+@
+
+to change direction. A guy's going one way and boom, he cuts and is going
+another way,
+
+PULL
+In pull play the guard runs parallel tothe line of scrimmage and turns up
+field when he clears the tight end. The running back follows right behind, 3
+simile on his face,
+
+TRAP
+Like all good offensive plays the Trap depends on deception to work. The
+idea is you “trap” a defensive guy into thinking one thing is happening, when
+really something totaly different is going on. For example, you let a defensive
+end just walk nto the backfield. You put up ony token resistance. He's saying
+“Man, tis is apiece of cake, I'm going to stuff his play and maybe get a
+sack." Suddenly an earth mover disguised as an offensive guard comes from
+‘an unexpected direction andthe defensive guy ison his backside wondering
+What happened. The runner jets through the area where the defensive guy
+was, when he was standing up.
+
+COUNTER
+‘A Counter play relies on misdirection. You try to sell the defense on the idea
+that the play is going right, for example, when in fact you want to go left. I's @
+tough sell. You send everybody but the water boy and the guy who's going to
+‘carry the ballin one direction. When you have them moving the “wrong” way,
+give the ball to the running back and he runs to daylight in the opposite
+direction.
+
+SCREEN
+Ascreenis a short pass caught behind the line of scrimmage. Usually the
+quarterback lures rushing defenders toward him and then loops a sokt pass
+‘ver their outstretched hands to a moving running back/receiver who follows
+‘a screen of blockers downfield.
+
+PLAYACTION
+
+Playaction (also called play fake) refers to @ pass thrown after the quarter-
+back has faked a handoff to a running back. The back tries to add to the
+deception by pretending to take the ball and follow blockers. The idea is that
+the fake delays the pass rushers, and makes the defensive backs run toward
+
+the line to help tackle the guy they think has the ball
+
+===== Page 12 =====
+
+DRAW
+
+‘The opposite ofa play action pass. The QB drops back asf to pass and
+hands off to the running back who charges up the middle of the formation. By
+the time the rushing defenders realize the deception, their momentum may
+have taken them beyond the ballcarrier
+
+quickouTs
+
+‘Sometimes called a square out. In this pass pattern the receiver takes a few
+steps upfield and makes a quick 90 degree cut tothe nearest sideline. Ithe
+doesn't want to sit next to the water cooler for the rest of the game, he tries
+to stay in bounds.
+
+CROSS
+
+‘Most crossing patterns are the opposite of quickouts—the receiver turns
+toward the middle of the field. Some guys call them slants, butt just depends
+‘on the angle that the receiver runs.
+
+POST UP
+
+Post patterns are for fast guys. The receiver runs downfield and angles in
+toward the goal post. If the quarterback can really air out the ball, and the
+receiver can run like the wind, this bomb can score.
+
+SETS, AND PLAYS
+FORMATIONS
+
+BIG
+{A good line up for stuffing the short run and goal fine defense.
+
+43
+Standard four down linemen with three linebackers. Used for short and
+‘medium zone pass coverage and basic defense against the run.
+
+NICKEL
+
+Gets its name from the addition ofa fth defensive back (nickel back). When
+‘a passis expected, many teams add a defensive back to their sets, and take
+‘out a down lineman of linebacker. Cover and Read sets are available.
+
+DIME
+
+‘When the defense is willing to mortgage the farm that the next play is going
+tobe a pass, they might putin a sixth defensive back. This is the Dime
+defense or Dime package. Cover and Read sets are available.
+
+Q2
+
+‘SPECIAL TEAMS
+
+‘The special teams formations are designed for special situations, such as
+punts, and fieldgoals. The plays from these formations are fairly self explana-
+tary, except perhaps for Prevent.
+
+PREVENT
+
+Prevent concedes a short gain to the offense but focuses on preventing &
+Jong gain. The defensive backfield lines up farther back from the line than,
+usual, so they give up the short pass too. I's usually used late in the half or
+game when the defensive team is way ahead, and the offensive team is out of
+scoring position.
+
+SETS
+
+CONTROL
+
+A Control setis the best defense against running plays because it empha
+sizes containment. Control basically means that the defense is willing to give
+up short stuff up the middle, but they're not prepared to let the offense work
+the sidelines and make big yards on sweeps and stuf ike that.
+
+Control is not available with the Nickel and Dime formations.
+
+READ
+
+The Read set gives balanced coverage. The defense has a lite bit more
+flexibility to react quickly tothe pass or run. This is known as having some
+‘options. ls probably the safest defense against run or pass, but it’s not the
+strongest defense against either one,
+
+COVER
+
+Cover is usually the best set against the pass. The defense is trying to
+Convince the offense thatallits receivers are covered and any ball town
+willbe shut down or intercepted. Pass coverage comes in two basic flavors:
+‘Man-to-man and Zone (see Defensive Plays, below)
+
+PLAYS.
+
+BLITZ
+
+[Abilitz is when one or more of the linebackers or defensive backs unexpect
+‘edly rush the quarterback. This usually happens when the defense thinks the
+offense is going to pass. A bliting linebacker tries to sack the quarterback
+but he's satisfied if he puts enough pressure on the ball handler to make him
+hurry his motion and throw badly
+
+===== Page 13 =====
+
+STUNT
+
+AA stunt is when a defensive lineman takes an unexpected route toward the
+(quarterback. Instead of going straight ahead and trying to get by the
+offensive man in front af him, he might loop around one or two teammates to
+‘approach the backfield. When one or more defensive linemen stunt, they can
+‘cause confusion in the offensive line.
+
+Z0NE
+
+In Zone pass coverage, the defender is responsible for a particular area of
+the field. He covers any receiver who enters his area. Some defensive backs
+hate it when you come into their zone. They say, “get out of my area, and no
+‘one gets hurt.” Some receivers believe them. Zone defenders will play 5
+yards off the receiver to prevent getting burned deep.
+
+MAN
+
+In Man-to-man pass coverage, the defender follows a certain receiver
+wherever he goes. Man on man defenders are tough guys who love a
+challenge. They play closer to the receiver but better have the horsepower to
+stay with a speedy opponent, Their reputations are on the line every time the
+ball goes in the air. They can't say “I thought you were guarding him.” They
+‘say stuf lke, “Ym gonna be an his back like white on rice.”
+
+CREDITS
+
+Designed by: John Madden, Scot Orr, Richard Hileman for Electronic Arts™
+Developed by Park Place Production Team: Will Robinson-Programming.
+
+sim Simmons-Programming, Art Huf-Graphics Design, Steve Quinn-Graphics Design
+‘Additional Graphics Design by: Michael Kosaka, Arthur Koch, Paul Vernon, Sher! Knowles
+‘Music & Sound by: Rob Hubbard
+
+Produced by. Richard Hileman
+
+Technical Direction: Scott Cronce
+
+Product Marketing Management: Sue Goerss
+
+‘An Direction: Don Transeth, Nancy Waisanen
+
+Documentation: 'S. Flanagan, RJ. Berg
+
+‘Documentation Layout: Jennie Maruyama
+
+Package Design: Mark Anderson Design
+
+‘Quality Assurance: Michael Prince, Kurt Hsu
+
+Product Testing: Michael Lubugin, Ted Fitzgerald, Mike Walls,
+
+Special Thanks to Michael Brook, Mike Madden, Joe Madden, Troy Lyndon,
+
+Michael Knox, Sandy Montag, Jim Haldy, David Bunch (EASN Brother #1) Eric Knopp
+(EASN Brother #2), James “Mr. Offense” Bailey, Roland "Mr. Delense” Kippenhan, and
+Marjorie “Mom” Martin.
+
+ELECTRONIC ARTS LIMITED WARRANTY
+
+WARRANTY - Electronic Arts warrants tothe orginal purchaser ofthis Electronic Arts
+software product thatthe medium on which this computer program is recordad is tree
+{om defects in materials and workmanship for a period of minty (90) days trom the
+date of purchase. This Electronic Arts software program is sold “asis," without
+express or implied warranty of any kind, and Electronic Arts s not lise for any losses.
+‘or damages of any kind resulting from use of this program. Electronic Arts agrees for
+period of ninety (90) days to either repair or replace, ats option, tree of charge, any
+Electronic Arts software product, postage paid, with proof of purchase, at the
+Electronic Arts Warranty Department. This warranty is nt applicable to normal wear
+‘and tear. This warranty shal not be applicable and shal be void the defect inthe
+Electronic Arts software product has arisen through abuse, unteasonable use,
+imistreatment or neglect.
+
+LIMITATIONS - THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES AND NO.
+(OTHER REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE BINDING ON OR
+OBLIGATE ELECTRONIC ARTS. ANY IMPLIED WARRANTIES APPLICABLE TO THIS
+‘SOFTWARE PRODUCT, INCLUDING WARRANTIES OF MERCHANTABILITY ANO.
+FITNESS FOR A PARTICULAR PURPOSE, ARE LIMITED TO THE NINETY (90) DAY
+PERIOD DESCRIBED ABOVE. IN NO EVENT WILL ELECTRONIC ARTS BE LIABLE FOR
+‘ANY SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM
+POSSESSION, USE OR MALFUNCTION OF THIS ELECTRONIC ARTS SOFTWARE
+PRODUCT.
+
+Some states do not allow limitations as to how long an implied warranty lasts andor
+exclusions o imitations of incidental or consequential damages so the above
+limitations and/or exclusions of lability may not apply to you. This warranty gives you
+specific rights, and you may also have other rights which vary from state to state
+[RETURNS AFTER WARRANTY - To replace detective media after the ninety (30) day
+‘warranty period has expired, send the original cartridge to Electronic Arts’ address
+below, Enclose a statement ofthe defect, our name, your return address, and 3
+check or money order for $30.00,
+
+Electronic Arts
+(Customer Warranty
+P.O, Box 7578
+
+San Mateo, California 94403-7578
+
+you need to tak ta someone about this product, callus at (415) 578-0316 Monday
+through Friday between 830 am and 430 pm, Pacific Time,
+
+Unies indicated otherwise, allsoftware and documentation is © 1981 Electronic Arts
+
+All Rights Reserved
+
+‘John Madden Footbllis a trademark of Electronic Arts
+
+===== Page 14 =====

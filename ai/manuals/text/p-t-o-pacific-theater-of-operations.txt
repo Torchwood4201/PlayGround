@@ -1,0 +1,2458 @@
+# P.T.O. - Pacific Theater of Operations
+source: https://archive.org/details/snes_manual_archive
+pdf: P.T.O. - Pacific Theater of Operations (USA).pdf
+region: USA
+pages: 35
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO" HARDWARE SYSTEM OF GAME PAK.
+
+Rieoo oe alten ne
+TES MNTENGD Gr ANEHICA No
+
+WELCOME TO THE KOE! WORLD!
+
+‘We are proud to introduce you to another
+dimension from the Koei world of quality games.
+Koel is committed to bringing you games filed with
+excitement, challenge and intrigue. Our goal is to
+eate top quality products and provide excellent
+service for our customers
+
+Asa Koei Gamer, you are important to us and we
+value your opinions. Please send us your comments
+and we will continue to bring you the best in
+
+interactive entertainment. Look for future releases
+from Koei to experience new realms of gaming!
+
+Thank you for exploring the Koel world.
+
+Koei Corporation
+
+Beanie fie orFieac HNTENDO
+
+===== Page 3 =====
+
+TABLE OF CONTENTS
+
+INTRODUCTION.
+
+CONTROLLER.
+
+KEY TO QUICK PLAY
+Starting
+Options Menu
+‘Scenario Victary Conditions
+Conditions for Defeat
+
+PLAYING THE GAME,
+Main Screen Operations.
+Example Play
+Game Flow Chart
+
+BATTLE.
+
+Battle Screen Operations.
+Warships
+
+Warplanes.
+
+Base Armaments.
+
+PORT COMMANDS,
+‘SEA COMMANDS
+BATTLE COMMANDS
+
+VIEWING THE DATA,
+
+Officer Data
+
+Nation Data
+
+Base Data
+
+Fleet Data
+
+Warship Data
+
+Data for Other Lands,
+PTO VOCABULARY
+STRATEGY HINTS
+DESIGNER NOTES
+
+WARRANTY
+
+===== Page 4 =====
+
+7 ee. «s«a aS eee
+INTRODUCTION
+
+P.T.O. is a WWII simulation on the Pacific. Relive this theater
+of war by either taking the side of the Japanese or Allied
+forces. As Naval Commander, you may control as many as
+16 fleets. With direct control over the #1 Fleet, formulate a
+winning strategy to full your military objectives.
+
+Nine scenarios make up the entire Pacific Campaign with
+‘each one requiring specific goals for victory. Major battles at
+Pearl Harbor, Coral Sea, Midway, Solomon islands, Marianas
+islands, Philippine Sea and Okinawa are realistically simulat-
+ed. Victory in one scenario will allow you to continue the
+game to the end, Ultimately, your goal is to either destroy all
+of the enemy’s ships or occupy all 45 seaside bases.
+
+Air, land and sea operations are at your disposal. Orders
+such as a landing invasion or the bombing of a base can be
+part of your overall strategy. Rely on history proven tech
+riques or develop your own. Whatever your strategy-make
+sure victory is:on your side Of the Pacific!
+
+mm See) a ae
+
+===== Page 5 =====
+
+GC re UG. ee
+
+im Bia) & abe
+
+CONTROLLER
+
+SELECTButon START Auton Buon A
+
+Control Pad
+
+1B Scroll to select commands and sub-commands
+
+Mark positions for movement, attack targets and future reference
+Im Press left to answer Yes and right to answer No to YIN questions
+Im ress eft or right to access other info for data summaries
+Button A
+
+{© Input commands and selections
+
+1m Answer Y to YIN questions
+
+Button B
+
+1 Cancel commands and selections
+
+1 Escape from maps and windows of information
+
+Access base data while at port
+
+1m Access information on #1 Fleet while at sea
+
+Answer N to YIN questions
+
+ai
+
+UR Buttons
+
+Access map of the Pacific
+
+1m Return to.a main command screen
+
+|W Scroll through additional screens of information
+Change speed of scrolling messages
+
+SELECT Button
+
+1M Access the Options Menu from main command screen
+
+START Button
+1 Skip to Set-Up from the opening
+
+Entering Names
+
+A chart wil be displayed from which you can create a name for an
+‘officer or saved game, Use the Control Pad to access each character.
+Button B will erase the last character inputted. After you've created
+Your name, press Start to move the cursor to ‘End’ and then press A,
+to finalize. name may have a maximum of 12 characters.
+
+Inputting Numbers
+
+Pres left and right of the Control Pad to select the digit and up and
+‘down to increase or decrease the amount. Pressing left inputs the
+maximum value while pressing right inputs the minimum.
+
+===== Page 6 =====
+
+gg EEE
+
+KEY TO QUICK PLAY
+
+STARTING
+
+41) Insert the game pak
+
+2) Tutn the Super Nintendo Entertainment System ON.
+
+3) The PT. opening wil begin. Press Start o skip to game set-up
+
+4) Select New or Saved Game and press A
+
+5) Select a scenario.
+
+6) Select 1 or 2 player game and press A, The O-player game will un
+a demo
+
+7), Select command of Aled or Japanese forces
+
+8). Answer game option questions (Message wait time, view of battle
+animation, view of fleet and base batles)
+
+9). Select ificly level, 10 the most dificult
+
+10) Confirm you ae ready and begin
+
+See PORT, SEA, and BATTLE COMMANDS for command explanations.
+
+Distributing Budget Funds
+
+Pres left on the Control Pad or use Button Ato increase the funds allo-
+‘ated, Press right on the Control Pad or use Button B to decrease ths
+‘amount. Up and down will alow you to distribute funds to different
+‘areas. When finished, press Start
+
+NOTE: Each investment area hasan investment muitipe up)
+
+For example, set one unit of budget funds towards fuel and the
+
+|_ fuel supply (Budget wi increase by 10,000
+
+0-Player Game
+The computer wil lay both sides, Before the game begins, you
+can adjust game options from the Options Menu, To stop a derno
+game, press the RESET button
+
+‘Saving and Quitting
+Select 6, Save game from the Options Menu. Selecta save locaton;
+all previous information atthe location wil be replaced with your
+‘current game. See Entering Names to create a name for a saved fi.
+After saving, decide whether to continue or end your game.
+
+Continuing a Saved Game
+Select Pay saved game’ at the beginning of game set-up to play a
+eviousy saved game, Selec a saved game to continue
+
+‘Anew screen will appear with an officer's graphic and randomly
+saoling numbers. Press any button to distribute ability points to an
+officer, 102 points willbe distributed between the four ability levels
+Confirm each officer's ably by pressing or lft on the Control Pad
+The game wil begin ater the abilities have been set for al officers.
+
+===== Page 7 =====
+
+aS
+
+Supplying Your Fleets
+
+Change items loaded on ships at the location of a cursor. Move the
+Cuts to different items with the Control Pad and input an amount.
+Press Ato view addtional warships. Press B to access two addtional
+screens to change the numberof soldiers on transports and to set fi
+fuel sufficiency
+
+Monitor Messages
+
+Between command tums, the map screen will appear with teletype
+‘messages scofing at the botiom. Occasionally, requests for assstance
+wil are fom other lands. Approve or reject these requests.
+
+OPTIONS MENU
+
+Press Select for options when ata main menu,
+1) Name change
+Change an officer's name, Select an officer and then enter the new
+‘name from the character chart. See Entering Names.
+2) Wait
+Set the message display time (1-10). The higher the number, the
+longer the message display time,
+3) HEX
+Turn the display of fleet and base hex battles for fleets other than
+the #1 Fleet ono.
+4) Battle animation
+Turn battle animation oro
+5) Participation
+Switch from a 1 102 player game or from a2 to 1 player game.
+6) Save game
+fe your game. Decide to quit or continue the game afte
+
+* saving,
+
+THe: You can switch sides from a 1 player game: Select
+Participation and change to a2 player dame. At the command
+tum ofthe side you wil alt, select Participation again and
+you wil return to 81 player game with you in command of the
+other side
+
+===== Page 8 =====
+
+eee
+
+SCENARIO VICTORY CONDITIONS
+
+Scenario 1 covers the entire Pacific Campaign between the Allies and
+Japan, Waris yet to be declared, You set the strategy for your forces
+and target the first area of attack
+
+Scenarios 2 through 9 simulate famous sea battles. Playing any of
+‘these scenarios will quickly immerse you in battle. Victory differs
+according to each scenario. Fuiling the original scenario victory condi
+tions wil allow you to continue the game under the victory conditions
+for Scenario 1
+
+Conditions for victory are displayed when you select a scenario in the
+‘opening setup. You can also verity these conditions during the game
+through DATA-Victory Goal. Only one of the lsted victory conditions
+
+must be met
+Scenario 1 Negotiations Breakdown November 1, 1941
+Victory Both Sides: 1), Occupy al 45 seaside bases
+2) Sink all enemy ships
+Scenario 2 ‘Attack on Pearl Harbor December 8,194
+Victory apan: 1) Sinkat least 4 Fleet |
+Aircraft Carers |
+2) Sink at least 3 Battleships
+and 4 Crsers
+3) Occupy Hawail
+Victory Allies: 1) Sink at least 4 Fleet |
+‘Aircraft Carers
+2) Sink at least 3 Battleships
+and 4 Cruisers
+Scenario 3 Battle ofthe Coral Sea May 7, 1942
+
+Victory Both sides: 1) Sink at least 2 Fleet
+Aircraft Carters
+
+ee Se) ae
+
+Scenario 4
+Victory Japan
+
+Victory lies:
+
+Scenario 5
+Victory Japan:
+
+Victory Ales:
+
+Scenario
+Victory Japan:
+
+Battle at Midway June 5, 1942
+1) Sink atleast 2 Feet
+Aircraft Carers
+
+2) Sink atleast 1 Fleet
+Aircraft Carrier and 4 Cruisers
+
+3) Occupy Midway
+
+1) Sink atleast 3 Feet
+Aircraft Carriers
+
+2) Sink atleast Fleet Aircraft
+Carrier and 3 Battleships
+
+3) Sink at least 3 Battleships
+and 4 Cruisers
+
+Battle of the Solomon Islands August 8, 1942
+
+1) Sink atleast 3 Fleet
+Aircraft Carers
+
+2) Sink at least 1 Flet Airraft
+Carrier and 6 Cruisers
+
+3) Occupy Guadalcanal
+1) Sink at least 3 Fleet
+Aircraft Carriers
+2) Sink atleast 1 Fleet or Light
+Aircraft Carter and 6 Cruisers
+Battles in the South Pacific October 26, 1942
+
+1) Sink atleast 2 Fleet
+Aircraft Carriers
+
+2) Sink atleast 1 Battleship
+and 4 Cruisers
+
+3) Occupy Guadalcanal
+
+J.
+
+===== Page 9 =====
+
+Victory Allis:
+
+Scenario 7
+Victory Japan:
+
+Victory Allis:
+
+Scenario 8
+Victory Japan
+
+Victory Allies:
+
+Scenario 9
+
+Vietory Japan
+
+Victory Allies:
+
+4) Sink atleast 2 Fleet
+Aircraft Carers
+
+2) Sink at least 1 leet or Light
+Aircraft Carier and 2 Battleships
+Assault on the Marianas
+1) Sink at least 6 ships, including
+either a Fleet or Light Alrcraft Carer
+2) Sink at least 3 Battleships
+and 6 Cruisers
+
+June 19, 1944
+
+1) Sink atleast 6 ship, including
+either a Fleet or Light Aircraft Carier
+2) Sink at least 3 Battleships
+and 6 Cruisers
+3) Occupy at least two of these
+bases: Saipan, Tinian or Guam
+
+Battle for the Philippines
+
+1) Sink atleast 8 ships,
+induding either a Fleet or
+Light Aircraft Carrier
+
+1) Sink atleast 4 ships,
+including either a Fleet or
+Light Aircraft Carier
+
+2) Sink atleast § Battleships
+and 8 Cruisers
+
+Oct 23, 1944
+
+Okinawa Offensive
+1) Sink at least 4 Fleet
+‘Aircraft Carriers
+
+2) Sink at least 6 Battleships
+
+April 7, 1945,
+
+1) Sink the Yamato
+Dreadnought Battleship
+
+CONDITIONS FOR DEFEAT
+‘ONE PLAYER GAME
+
+The game will end when:
+
+1) Your #1 Fleet is destroyed
+
+2) Enemy occupies all 45 seaside bases resuiting inthe loss of your
+Home Port
+
+3) You are dismissed as Naval Commander. Tiss based on your suc.
+ess ating after returning to the Home Por.
+
+TWO PLAYER GAME
+
+‘Your game will end when the other player achieves victory conditions
+
+first or you meet the conditions for defeat
+
+PLAYING THE GAME
+
+MAIN SCREEN OPERATIONS
+When starting the game, the following screen will be displayed.
+
+1) Commands
+2) DatefTime, Weather
+
+3) Fleet Data, Base Data (Home Port) Conditions; Map
+4) Messages
+
+===== Page 10 =====
+
+i |
+
+The following icons display port strenath.
+
+Fighters Jet Fighters
+
+Bombers Rockets
+
+=| Scouts BES on onge Borbes
+
+we
+
+Materials Pal Soldiers
+| Fuel a | Freighters
+a | ‘Troop Transports
+
+Issuing Commands
+A Fleet
+{At sea, commands can be issued a maximum of six times per day.
+While at port, commands can be issued a maximum of once per day
+Other Fleet
+At sea, commands cannot be issued; the computer controls each let.
+: ‘While at port, only one command may be issued per day. When order-
+ing a fleet to leave port, you select the mission and target destination
+(ex. Attack enemy base at Truk.
+‘When the #1 Fletis at sea, press B to access the close-up map of the
+fleet, At port, pres Button 8 to sutch between fleet and base data.
+Commands may be issued from both displays,
+
+Wide Map
+
+At the main display, press A to change the screen to the wide map of
+
+the Pacific. You cannot access commands from this screen, At this
+
+screen, use the left and right arows ofthe Control Pad to view con
+
+troled bases of both sides, View close-up maps of fleets with Button B
+
+Intelligence
+
+Inteligence reports from fleets and bases wil reach you through tele-
+
+type messages when radio communication isin use. Typical reports will
+
+be: discovery of enemy fleets, base attack reports and the arval of
+
+fleets at por
+
+Special Event Notices
+
+Special event notices and requests are displayed between command
+
+‘ums and are explained below:
+
+1H Pleas from citizens for labor compensation or an increase in food
+rations
+
+Rejecting their requests will decrease ther Friendliness towards you.
+
+Low Friendliness wil resuit in queria attacks. Accepting thei
+
+requests wil raise support, but decrease the military strength of the
+
+base
+
+Technology and weapon requests from Aled and Neutal lands
+
+Rejecting their requests wal lower Friendliness. Accepting requests
+raise Friendliness and lower your supply of the particular item,
+
+When your #1 Fleet sat the Home Por, you respond fo the
+
+fequests, When you're out at sea, the government wil respond
+
+Historical evens, such as declarations of war
+
+Reports of new weapon developments
+
+1 Reports on friendly o enemy special force operations
+
+EXAMPLE PLAY
+Scenario 1 (Negotiations Breakdown)
+This example play will walk you through general game tactics,
+
+| NOTE: See Conroe for game contoinfo. |
+
+===== Page 11 =====
+
+ee = Sl
+
+SET-UP
+
+Start New Game
+
+Select Scenario 1: Negotiations Breakdown
+
+Selec aT-player game
+
+Command Aled forces
+
+Inputa message wait time of 5
+
+Answer Nto viewing battle animation, fleet battles and base battles
+Command Allied forces
+
+Select 0 level of cifficulty
+
+Contin set-up
+
+Distribute Budget Funds, Set Officer Abilties, Monitor Messages
+‘See Controller and Key to Quick Play fo specific directions, When
+distributing budget funds, set the last sx budget areas to their maxi-
+mum of
+
+{Attend the Miltary Conference
+
+The land forces will request a meeting to decide on military targets.
+Selet an officer to attend the conference. At the conference, select
+Don’t make proposal and choose from one of the 3 Army plan.
+Read the detais of the selected plan and Approve it.
+
+TIP: An officer gains an enpenence point by attending a
+conference,
+
+“aia
+
+Supply Your Fleets
+Select PORT-Supply to prepare flets to leave port. Selecta fleet to
+supply. Change the load of each warship and input fleet fuel sufi
+ency. See Supplying Your Fleets under Key to Quick Play. Do this,
+for all lets at por. To execute resupply at fleet summary, press B
+
+ee ee
+‘with planes. Concentrate your supply activites to soldiers and fuel. |
+
+‘The wide map of the Pacific will appear and teletype messages from
+‘other fleets wil sro across the bottom, Fleets wil appear at other
+ports, Supply all fleets as you did the first time.
+1m Rest Until Fleets are Supplied
+
+‘teach fleet command turn, select REST-Resupply to wait unt
+supply preparations ae finished. If a fleets not resupphying (ex. #4
+Saratoga), proceed with ‘Depart From Port After supply and refuel.
+ing have been completed, a fleet i eady to leave port
+Depart From Port
+Select PORT-Depart and Other to senda fleet out to sea. Decide on
+the fee's mission and then mark the general target area on the
+map. At the close-up sceen, pinpoint your destination. You'l return
+to the fleet summary. The flet will be displayed in red to indicate
+that its mission was selected, Select a mission for other fleets at the
+same port. ress 8 atthe fleet clsplay to confirm dispatch ofall
+fleets at that por.
+
+NOTE: Base names will be displayed in red and blue to |
+differentiate control wihen pinpointing targets on the map. Red |
+indicates Japanese contol whe bie indicates Aled contol. |
+
+===== Page 12 =====
+
+= Ss
+
+Commanding the #1 Fleet
+
+Select attack target
+
+21) a86 on
+
+‘After al fleets other than the #1 Fleet have left port, select PORT-
+Depart and #1 Fleet io dispatch the #1 leet. Select TACT-Move to
+Set its speed and direction. Adjust the numberof times you issue
+Commands at sea with the REST command, Speed and destination
+‘must be reset when the fleet reaches its target location.
+
+Keep track ofinteligence reports during your movement. Send out
+scout planes to war you of enemy movernents with INT-Scout, If
+Youre attacked, defend to the best of your ably with a move and
+attack strategy. I lose to an enemy leet, launch a gun attack with
+TACT-Gun Attack
+
+Continue setting new speed and destination targets for your #1
+Fleet. Pay atention tothe teletype messages onthe bottom ofthe
+screen. enemy flets are discovered, keep tack of the fleet which
+made the discovery along with the coordinates ofthe sighting
+Then launch an Air Attack against the enemy flet, targeting the
+sighting coordinates.
+
+‘iP: Direc your lets to the 3 Key Bates set atthe itary
+
+conference.
+
+If your naval force fulfills the 3 Key Battle conditions, return your #1
+Fleet to the Home Port. Upon arrival, your fee's degree of bate
+
+success will be displayed, Morale and ctizen suppor wil increase or
+decrease depending on your success. low succes level may cause
+
+you to be dismissed and end the game. Favorable conditions alow
+you to continue the garne,
+
+Upon return to the Home Port, ships should be resupplied and
+damages should be repaired. A conference should be opened to
+select 3 new Key Battles, You may leave port and continue this
+process for as long as you outwit the enemy and fulfil missions,
+
+GAME FLOW CHART
+
+1
+TLTARY ConFeRENCE
+
+RIA Een
+
+‘DEPART PORT
+agrees st ia
+1 tet Sadr eran
+
+NAVIGATE, ENGAGE N BATIIE
+fete His tea |
+
+~ TURNTO WOME FORT |
+
+===== Page 13 =====
+
+eRe . ae
+
+BATTLE
+BATTLE SCREEN OPERATIONS
+
+The main screen will change to the battle screen after an outbreak of
+‘war. You can initiate war inthe tactics of Sea Commands with Gun,
+Attack, Air Attack and Landing
+
+1) Battle map
+
+2) Tums remaining
+
+3) Type of unit
+
+4) Command summary
+‘Weather conditions affect the accuracy of attacks, Weather graphics at
+the main menu include: Clear, Cloudy, Rain and Fog. In rain and fog,
+
+yu can view only adjacent hexes, The battle screen will change in
+Color depending on the weather
+
+The battle screen appears in these situations
+
+1) #1 Fleet becomes embroiled in battle
+
+2) War erupts at the Home Port
+
+3) Fleets battle at sea
+
+4) Battle between base planes and a fleet
+
+5) Base plane squadron attacks a feet at port
+
+Battle Flow
+
+Starting withthe attacking side, each unit takes its war strategy tur.
+‘When all units ofa side have executed its commands, the turn for that
+side is over.
+
+TIP: Attack fist f possible, the attacker aivays ksues battle
+commands first.
+
+‘The maximum number of strategy turnsis 12 when a fleet attacks a
+base. The number of turns for an air attack is determined by the dis-
+tance from its fleet tothe target destination. Sea battles have 8 tums
+If scenario victory conditions ae fulfiled mict-war, the batte wil end,
+With a landing invasion, the battle will continue unti al strategy turns
+have been executed
+
+NOTE: When a fleet other than the # Fleet engages an enemy,
+‘you will have no control over the fleet's battle tactics. Battles will
+‘begin shortly ater starting the game in Scenarios 2-8. Since
+viewing of battles sometimes takes a longtime, you may turn this
+function off a the Options Menu when rot involved in battle
+
+Battle Topography
+
+The defense protection of a particular terrain i rated as follows: 1 has
+the least defensive attributes and 6 has the most defensive attributes
+te
+
+Terrain Defense Comments
+
+Sea (Only ships may
+‘move upon the sea
+
+Air Strip Resting site for
+land-based planes
+
+===== Page 14 =====
+
+ae EE.
+
+1 ee
+
+Factories 4 Indust strength
+t ‘orbase
+
+Forest 5 Good attack postion
+for solders
+
+fuel Storage of base
+
+Tanks fuel supply
+
+Harbor 8 Place mins hereto
+damage enemy
+
+Plains 3 Airplanes can see
+soldiers neve
+
+River! 2 Dangerous postion
+
+Shallows for solders
+
+swamp 3 Moderate pstion
+for soldiers
+
+Town : 4 Morale lowers when
+
+a town satacked
+Village m4 Holds same endurance
+int level as harbor, factories
+c: andtown
+
+Woods 6 Great bate poston
+
+for soldiers
+
+* Planes may fy anywhere except for those spaces occupied by
+other units
+
+Battle Units
+
+Japanese and Aled forces are differentiated by color and direction of
+<raphic. Red units are Japanese while blue units are Ales. Japanese
+Unis face right while Allied units fae lef
+
+WARSHIPS
+
+There are seven warship classes as listed below. New-type warships
+‘may be created for each class when Steel, Artillery, Engine and
+Electronics abilities are all greater than 80
+
+ach warship has an armor rating, i that rating fas to 0, the ship wil
+sink
+
+Japan Allies Comments
+Fleet Aircraft Gun, Air,
+Light Aircraft Gun, Air,
+Carrier (CVL) kt, Lad
+Dreadnought Gun, Rkt
+Battleship (088) tnd
+Cruiser (C) Gun, Tor,
+Destroyer (DD) Gun, Tor,
+Dep,
+‘Submarine (SUB) ae ea Tor
+
+===== Page 15 =====
+
+eS ee
+
+1a ee
+
+Fleet and Light Aircraft Cartiers: These warships can carry many
+Fighters and Bombers, Set your formation to defend these cartes in
+case of an attack
+
+Carriers have weak attack and defense capabilites, These ships can be
+modified to cary Rockets and Jet Fighters. When modified, Rockets wll
+replace Bombers.
+
+Battleships: These warships have superior attack and defense abies,
+Their long-range attack isa great advantage; however, their heavy guns
+result in aslow speed and quick consumption of fuel. Through mocif-
+cation you can load Rockets.
+
+Cruisers and Destroyers: Attack and defense capabiites are average.
+Their arsenal includes torpedoes and depth charges. Destroyers are usu
+ally capable of moving 2 hex spaces during battle
+
+‘Submarines: These vessels can't be seen in the water unless you or the
+‘enemy possess sonar equipment, Upon discovery, a graphic ofthe
+Submarine will appear on Screen, Submarines ir torpedoes and can
+attack all warships. Submarines can be attacked only by Cruisers,
+Destroyers and other Submarines,
+
+NOTE: See FX in the Port Commands for explanation of |
+‘modification abilities
+
+Warship Attack Methods
+
+GUN isthe defauit method of attack (AT)
+attack options
+
+GUN (Gun Attack)
+
+Fie artillery shel from warship guns at both enemy fleets and bases
+This mode of attack is effective against other sips and base faites.
+Hit accuracy s determined by shin speed, feet Morale and weather con-
+ditions. The effects of atllery gunfire will depend upon the ant-leet
+and anté-air attack abies ofthe enemy.
+
+ress ¥ to choose between
+
+“TIP: Warships can't flee the battle area in the presence of enemy,
+Submarines or ar squadrons
+
+ee
+
+TOR (Torpedo)
+
+Cruisers, Destroyers and Submarines have these within their arsenal
+Torpedoes are effective weapons, but their short range requires you to
+be in an adjoining hex to utlize their destructive capabilities, Only a
+Submarine may use torpedoes to attack another Submarine
+
+DEP (Depth Charges)
+
+Only Cruisers and Destroyers may execute this type of attack. An explo-
+sive is dropped into the sea in an attempt to attack a Submarine. Since
+the Submarine will be submerged, you can release a depth charge not
+Cony to an adjoining hex, but a0 to a location directly beneath one of
+your ships.
+
+RKT (Rocket) Requires Aviation > 80 & Electronics > 80
+
+‘When abilities rise high enough, you may request Rocket production at
+a conference. Those ships equipped with Rockets can attack distant
+bases. Ships must be mosified to load Rockets,
+
+LND (Soldier Invasion)
+
+Select warships whose solders were prepared fora landing invasion. A
+Ship must be adjacent to land in order to dispateh its soldiers. During
+battle, you control the movements ofthe landing troops.
+
+Night Battles
+
+Your movement and attack ranges are limited to adjacent heres. Yet if
+your technology and skill alow you to have Gunnery Radar, those ships
+equipped can execute attacks just as if it were daytime.
+
+WARPLANES
+Fighters and Bombers are used in battle primarily when launched from
+
+‘Atcrat Carriers. f Aviation ability rises significantly, Jet Fighters and
+Long-range Bombers may be developed. lanes cannot be deployed at
+right
+
+Japan Allies Comments
+~ a a ©
+Bombers Ea cx | Gun, 8mb, Tor
+
+===== Page 16 =====
+
+Ge: Se)
+
+ay
+&
+
+Fighters & Gun, Bmb, Tor
+Bombers
+
+Bombers
+
+a al
+
+Fighters
+‘These planes can protect a fleet as an escort, defend against enemy
+Bombers or attack enemy Fighters, Machine gunfire i a Fighter's
+‘weapon. Destruction of other planes, base facilities and enemy solders
+is its specially. With respect to warships, Fighters are effective at
+
+‘These planes have the ability to cany either bombs or torpedoes.
+Before preparations are made for an air attack, you must choose which
+one to load. Bombs are useful aginst a base. Torpedoes can be used
+only against warships.
+
+Fighters & Bombers
+
+When you load both Fighters and Bombers onto the same Aircraft
+Canner, youl be able to deploy them together. A graphic wil show
+both planes on screen: the top number represents Fighters and the
+bottom Bombers, When sending out an escort for your fleet, the
+Fighters wil leave and the Bombers wil remain aboard
+
+Long-range Bombers Requies Avion Skil > 80,
+
+Long-range Bomber production can be requested at military confer-
+ences, Distant bases can be bombed with these planes. Since these.
+planes generally fy at high altitudes, they are not very useful in attacks
+against enemy Fighters or Bombers. Long-range Bombers are and-
+based planes which cannot be loaded upon shins nor controlled by
+the Player.
+
+Jet Fighters Requires Aviation Skil > 80
+
+Jet Fighter production can be requested at military conferences. A Jet
+Fighter can attack Long-range Bombers with machine gunfire. An
+Aircraft Carrer must be modified £6 transport Jet Fighters
+
+WARPLANE ATTACK METHODS
+GGUN is the default method of attack (ATT. Press Y to choose between
+attack options,
+
+Machine Guns (GUN)
+
+All Fighters and Bombers have machine guns. A GUN attack is effective
+‘against other planes and soldiers. The hit accuracy is determined by the
+‘Aviation sk evel, fleet Morale and weather conditions Attack force
+increases with the number of planes
+
+Bombs (BMB)
+
+Bombs can be loaded onto all Bombers. They are effective at destroying
+base facies and can also be used against werships.
+
+Torpedoes (TOR)
+
+‘Torpedoes can be loaded onto all Bombers, They are an effective
+weapon only against warshins
+
+BASE ARMAMENTS
+Armory
+Battery installation which protects a base from enemy attack. Armories
+appear in elation to the base arms level. 10 s the maximum arms level
+{or each armory. For example: ifthe ams level for a baseis 10, there is
+1 atrnory of guns f the arms levels 30, there are 3 armones,
+At the outbreak of war, armories will appear onscreen. If your forces
+have developed Gunnery Radar and
+your firing range will be the same during day or night.
+Mines
+Explosive see device which may be strategically placed around your
+base to damage approaching enemy flets. The locations may be
+changed at any command tur, To get a dspay ofall mines, select
+PORT-Show Mines. There is 2 50% chance that a mine will explode and
+cause demmage when hit
+
+‘Armory Mine
+
+===== Page 17 =====
+
+PP Se ee
+
+Soldiers
+
+Soldiers ether forthe invasion or defense of a base. Soldier attack
+Strength i relatively weak, yet fleets have difficulty hitting them. A
+base occupation requires soldiers to enter either the town or a vilage.
+
+Japanese Soldier Allied Soldier
+
+Transport Ships
+Troop Transports and Fighters used for the transfer of Soldiers, Oi
+and Matefals between bases. During battles at sea, both ships appear
+‘on screen, During base battles, only Troop Transports wil be dspayed.
+Transports have no attacking ability and can easy be sunk
+
+Allied Freighter Allied Transport
+
+Conditions for Occupation of Base
+
+‘base will be occupied and fall into new hands when the base's fuel
+supply, soldier strength and endurance level reach 0, and when your
+landing troops have pushed thei way into ether avilage or town,
+
+‘A few attacks are usually needed for a complete occupation. Although
+base endurance may fall to 0, solders are often held in reserve. Reserve
+soldiers wil try to build up endurance before the next day.
+
+‘When a base falls under new contro, the base planes and soldiers wil
+bee reduced to 0. Any remaining fuel, materials or transport ships will
+transfer to the victor as war spois.
+
+PorT COMMANDS
+
+‘Most commands can be issued only once per day.
+* indicates that a command may be issued an unlimited number of
+times, Use of tis type of command will not use up a turn.
+
+PORT
+
+supply
+
+Equip flets with fuel, solders and planes, Select a warship to supply,
+and load itwith planes and soldiers. Next will be the boarding of sok
+Gers onto Troop Transport ships, Finally, fuel up the ship. Depending
+(on a port's supply of oil, you may not be able to il ship to 100%
+‘capacity. The supplying period is determined by the amount being sup-
+Dlied. Press Button B atthe fleet display to execute the supply.
+
+= (igh uel sufficiency i essential for traveling long distances
+‘over the ocean. Ty to set this value to is maximum,
+
+Fighters and Bombers can be supplied to Aircraft Caries, Scouts can
+be supplied to Battleships, Cruises and Aircraft Carriers, Soldiers can
+be put on all ships except for Destroyers and Submarines
+
+Shore Leave
+Give Shore Leave to your crew to decrease Fatigue. Set the rest period
+{rom 3 to 30 days. Supply and repair commands cannot be isued dur-
+ing Shore Leave. Any feet inflicted with an epidemic should be brought
+to port for Shore Leave immediately
+Depart
+Esta flet from port.
+#1 Fleet. Once the #1 Fleet leaves port, you can issue Sea
+Commands every 4 hours.
+Other When the #2-#16 fees leave port, you select the mission
+for each one. You cannot isue commands to these fleets
+Until they reach a port; however, you can change aflet’s
+mmission during the #1 Fleet command turn. See command
+ORD-Fleet-Duty.
+
++
+
+===== Page 18 =====
+
+Red Alert
+
+Emergency cal to soldiers on leave. Shore Leave is canceled andi sok
+dlers ae put on alert. Soldier Fatigue wil ise above the level before
+they took Shore Leave
+
+Lay Mines
+
+Postion mines in the water near your base. Only one mine may be
+placed a a time. 2 containers of material are needed for each mine, A
+mine has a 50% chance of exploding when hit
+
+Remove Mines
+
+Remove a previously placed mine, Only one mine may be removed at a
+time,
+
+* Show Mines
+
+Check the postion ofall mines. The base will appear with all placed
+mines displayed,
+
+REST
+Pass your tur. You may also cancel rest orders for any fleets at port.
+
+One Day Let one day pass without doing anything
+Resupply Let te pass unt your ships are supplied.
+
+Repair Let ime pass until emergency repais are completed
+Set Days. Set number of days (1-30) that your fleet wil est.
+End Cancel any rest orders for a feet.
+
+FIX
+
+Urgent Repair
+
+‘Make emergency repairs to a warship, Materials ae taken from the
+repairing base. At the Home Port, materials are taken from the National
+Resource supply, Select the warship to be prepared and a warship
+capability o be fixed. A repaired capabiity wil be raised by 5.
+
+Not all bases are capable of executing repairs. To learn whether a base
+is capable of repairs, select ORD-Base.
+
+=i] Base abilty to make repairs
+
+NOTE: A warship has four abilties:antifleet,antiair, armor rat
+and peed. Urgent Repair may fx one o these bites whe Tota
+Repair wil fix al of them, |
+
+Total Repair (only at Home Port)
+Execute a complete restoration to a ship in eserve (See ORD-Arrange-
+Discharge)
+
+Materials needed for Total Repair are taken from the National Resource
+Supply. One container of materials is needed foreach ability that you
+raise one level. Total Repair on a warship can take several months to
+complete. Reassign a ship toa feet at the beginning ofthe month after
+all epairs have been rade. To vey ships being repaired, select Data-
+Ships-Under Repair.
+
+Total Repair must be done to a ship to load itwith Search or Gunnery
+Radar
+
+Modify Warship (only at Home Fort)
+Modify your warship toa different ship class, Only ships in reserve can
+bbe modified (see ORD-Arrange-Discharge),
+
+Modifications possible
+Fleet aircraft Carrier (CV) > Battleshi (88)
+
+Light Aircraft Cari (CV) > Cruiser (C)
+
+Dreadnought Battleship (088) > Fleet Aircraft Carrier (CV)
+Battleship (88) > Fleet Aircraft Carrier (CV)
+Cruiser (C) > light Aircraft Carer (CVU)
+
+Moaifications can take from 3-12 months. You determine modification
+time in one month intervals. Materials, Fuel and Industry power are
+‘expended, The quicker modifications are made, the greater amount of
+Industry power expended
+
+Build Warship (only atHome Port) _ Requires Warship Abilty > 95
+
+‘Construct 2 new warship to replace any ships sunk. You can name the
+‘ew ship. Warships can be built only wiien ships have been sunk.
+
+===== Page 19 =====
+
+ii |
+
+Select the type of ship which you wil construct. Construction can be
+Set from 6-24 months. Mates, Fuel and Industry power are expend
+ed, The eater the finishing dat, the greater amount of Industry power
+expended
+
+Modify Fighter (only at Home Port)
+
+Mogify your Aircraft Carer to carry newly developed et Fighters. For
+each plane which s tobe loaded, 1 container of materials is required
+The changes can usualy be completed in one month, but this depends
+fn the numberof Jet Fighters and the base Industty power.
+
+Modify Rocket (only t Home Port)
+
+Mogity Aircraft Carriers, Battleship, Cruiser and new-type Submarines
+to accommodate the loading of Rockets and their launchers.
+Modification for each Rocket requires 1 container of materi
+
+_ Mogifcations can usually be done in a month, but tis depends on the
+umber of Rockets and your land's Industry level.
+ORD (orders)
+
+* Fleet
+
+View the condition ofa fleet, verify scout reports and initiate new com
+mand directives. Select a specific fleet for each order.
+
+Place View fleet locations on the wide map.
+
+Rept Verify sighting reports on enemy forces, With the #2-#16
+fleets, only the reports may be viewed, You can access
+addtional information withthe #1 Fleet:
+
+Map Display the location on the wide map.
+
+= Verify Choose sighting repo locations to be
+displayed. Repors highlighted in red will be
+displayed.
+Mark Mark a sighting location for future
+reference
+
+Ships Display data for each warship.
+‘Trans Display data on transport ships
+
+Duty Set or change the missions of the #2-#16 fleets while
+they're at sea
+Missions: Attack enemy base; Attack enemy fleet, nfo
+search and Port cal Fleets assigned to an Info Search ot
+Port Call mission will not make attacks against enemy flets
+
+Mark Marka location for future reference.
+
+iP summary, Cs
+canbe repair icon will always be shown wi
+
+‘priority over the supply icon, Select a base to verify aes
+‘base can supply as well as repair. Both icons willbe displayed on.
+the base data chart if it has the capability.
+
+Base
+‘Analyze the condition of the base, verify bas sighting reports and view
+supplying activities.
+
+*Place_ View a base location on the map,
+
+*Rept Verily base sighting reports of enemy forces With the #2
+416 fleets, only reports may be viewed, You can access
+additional information with the #1 let. The sub-
+‘commands are the same as those for ORD-Fleet-Rept.
+
+Supply Supply a base with fut, materials, planes and solders. Once
+Supplying begins, the base cannot be supplied again unt all
+previous supply Orders have been finished. Ths rest petiod
+depends onthe distance from the Home Port tothe base
+being supplied, The maximum amount of fuel, materials
+and rockets which can be supplied depends on the number
+Of transports assigned to the base. Plane and soldier
+supplies may not each their destination when traveling in
+close-range of enemy lands
+
+‘Mark Marka postion on the wide map for future reference
+
+TIP: Suppiying outlying ports is essential to meet the needs of
+‘warships in the Pacific See ORD-Base-Supply.
+
+i.
+
+Je
+
+===== Page 20 =====
+
+ee |
+
+‘Arrange * Special Forces
+Organize your flet into formation. Select the fleet you will change and Call fora special forces report, Special forces can be sent into enemy
+then the warships which you wil rearrange. lands unde the CONE cormard Reports n ney base data nd
+i sabotage activities wil be communicated. High nteligence ability wil
+Formation at Port Change the formations of flets at port. All geen ene Teco
+five choices will appear when at the Home Port, but at all ther Se earec eta You et
+ports only Join and Split wil appear Planes Destroy enemy arstrp and airplanes
+Join Link two fleets together into one larger fleet. Artillery. Destroy armories and lower base arms level
+Split Remove warships from a fleet to create a new Fuel Set fuel supplies on fre
+fleet. People Disseminate propaganda fo the citizens, lowering ther
+New Create anew feet for warships in eserve Friendliness towards the base. Propaganda in the enemy
+
+re in that land andi Ales!
+Discharge Remove warships from a fleet and put them in Hg ed wa denies Moen tatoo ae te
+
+! reserve. Ships must be discharged for Total a
+Repair and Modify Warship * Results
+rea “nent Ce ie novierel ns olin foc wee ant ear
+Betwean sneteets ‘After retuming to the Home Port, the listing of sunk ships will be reset
+Formation at Sea Change the formation of fleets at sea. we
++ Report
+ia LL When tose ne weit be
+: ; : Sele De EPG Henna fuvet oe ge of ey sone
+spit Benove wasps on fet cee ane snssgrins tare val bad) he leat rggned neh
+Scuttle Sink a heavily dé jed ship sk fle eer
+oh ree roel ig a pure ee
+INFO Select fleets to view their postions on the wide map. Those fleets high:
+Nes pe eee ie
+TER ee announce aa
+Pe ceo ee bie ie eae ae a
+eee ee ae cae See EWING THE DATA era cpte nde of te nf
+fleets. The #1 Fleet may communicate only with fleets at is same base i
+IEeat ete stats chy mio tovwerval mased nation
+‘matically with you having no control over commands, Nation resource data.
+Enemy info Officers
+Cae hrmaon en sey re, gh eect wt offer
+
+increase the ammount of information you receive.
+
+===== Page 21 =====
+
+;
+= |
+
+Allies
+
+Data for 13 nations, including Friendliness towards Japan and the Ales
+Ships
+Under Repair Displays warships atthe Home Port undergoing
+Total Repairs. The sip’s name, graphic and the
+repair time will be shown,
+
+Being Built Displays those ships being built or undergoing
+modifications.
+InReserve Displays warships not assigned to any lets
+Base
+
+Data summary of bases for both sides. Japanese, Allied and Neutra
+bases will be differentiated by color. Japanese bases are displayed in
+fed, Alied bases in blue and Neutral bases in white. Selecta base and
+view the base's location on the wide mao.
+
+TP: Pres lft an rohit on the Control
+‘information in the DATA summaries for,
+
+acces al
+lies and Base.
+
+Key Battle
+
+‘View the mission orders decided at the military conference. Full the
+Key Battle conditions Ifyou occupy a base attack target, you must
+defend it, f you lose a base which was a defend target, you must
+attack and reoccupy that base
+
+Victory Goal
+
+Victory conditions for your scenario.
+
+CONF (Conference) Only when #1 Fleets atthe Home Por
+
+Hold a conference to formulate a itary strategy with land forces
+The abilities of the naval oficer sent to the conference will determine
+‘whether your proposals accepted. Your proposal can be rejected
+
+Set Goals
+
+CChange or create 3 Key Battle targets to outline military strategy. Poor
+performance may prevent you from making a plan. In these tes, you
+must accept a land force proposal
+
+Produce Arms
+Use budget funds to produce armaments and vansportshis. One
+armament can be produced with each allocated fund. Jet Fighters,
+Long-range Bombers and Rackets can be produced when you reach
+the require sil level
+Internal
+Industry Use budget funds to increase Industry power
+Industy wal increase by | for each allocated fund,
+Propaganda Use budget funds to soread postive news about the
+‘ilar. The rise in Morale wil increase the number
+of people enering the military and increase budget
+funds
+
+iplomacy
+
+Send delegates to lied or Neutral lands fr tactical discussions,
+Request Technology
+Request technical assistance from an Allied nation. I successful, the
+particular kil level wil increase.
+Request Armament
+Request armaments from an Alied nation. Your abies increase
+‘according to the armament you receive. You have no choice 25 to
+‘which armament you will rece.
+Propose Alliance
+Conclude an alliance with a Neutral nation. Success wil increase
+your ineligence ability. You'e likely to fail when Friendliness low,
+Invite Envoy
+Offer tectiology or arms to Aled or Neutral nations to increase
+their Friendliness. Your offer may be refused when Friendliness
+low.
+
+[te Ales are important. Propose alliances with Neutral ands.
+
+ads.
+
+===== Page 22 =====
+
+‘
+:
+~
+
+Base Policy
+issue orders to citizens at bases other than the Homeland, When a fleet
+is at port, orders will be easily followed. Friendliness (citizen support)
+‘changes according tothe orders issued
+Soldiers
+Recruit soldiers from the population. The number that may be
+recruited depends on population size and Friendliness.
+
+Fuel
+
+Seize fuel from the base. Decreases Friendliness
+
+Materials
+
+Seize materials from the base, Decreases Friendliness.
+
+Food Rations
+
+Increase the food rations tothe people. Food supply will decrease,
+
+but Friendliness wil increase.
+
+Compensation
+
+Improve citizen treatment, including the payment of compensation
+
+for work instead of forced labor. Base endurance and armament
+els will decrease and Friendliness wil increase
+
+Raise Skill
+
+Distribute budget funds to raise certain kil levels. Each skill will add to
+
+national strength
+
+Special Forces
+
+Send special uit to foreign lands for inteligence missions. Using the
+
+INFO command, you can check on the activities of these forces.
+
+MIL (wiltary Rule)
+
+Same as Base Policy commands under CONF. Assert contra over occu-
+pied lands. These policies cannot be executed at the Home Port, n the
+Homeland or at uninhabited bases. See PTO VOCABULARY for expla-
+nation of Home Port and Homeland,
+
+inant
+
+SEA COMMANDS
+
+These are commands for the #1 Fleet after departing from port, There
+
+are six command turns per day: Midnight; 4 a.m.; 8 am.; Noon, 4 p.m.
+dB pm,
+
+* indicates that a command may be issued an unlimited number of
+
+times, Use ofthis type of command will not use up a tur.
+
+TACT (Tactics)
+
+Move
+
+Navigate your flets to specified destinations
+
+ary Feet: Order the fleet to move and set the speed for a fleet.
+Faster speeds will consume fuel at a faster rate, Then, choose your des-
+tiation from the close-up map. land mass cannot be between your
+present location and your destination
+
+‘Moving Flet: Halt movernent ofthe flet or make changes mid-
+course. Anew course, speed and target destination can be selected
+Attacks are possible during movement. At the end of a battle, your
+fleet wil be stationary
+
+Arr Attack
+
+Launch Fighters and Bombers from caries to attack the enemy.
+Preparation time fs needed to ready the planes. Bombs or torpedoes
+can be loaded onto Bombers, Bombs are effective against bases while
+rpedoes are effective for attacks against enemy warships. After
+preparations have been completed, the attack target must be selected,
+Preparation time depends on the numberof planes involved. Loading
+‘of torpedoes will increase the time required. Fleet Morale, Fatigue,
+Aviation and Warship levels wil als affect the time. Your feet can
+Continue to move while preparations are being made, Air strikes can-
+not be executed at night
+
+Gun Attack
+
+Use warship artery to attack an enemy target within range of the
+close-up map. Gun attacks need no preparation Fighting escorts
+launched prior to gun attacks can assist in your attack
+
+cnet.
+
+===== Page 23 =====
+
+Landing
+
+Follow up an artillery attack witha landing invasion. Select those ships
+whose Sodiers will be prepared for the invasion. Only warships specif
+cally picked are capable of carving out this mission, Preparation time
+willbe affected by fleet Morale, Fatigue and Warship levels.
+
+Rocket Attack
+
+Rackets can be launched at distant enemy bases. Hit accuracy is depen-
+dent on Warship ski level
+
+REST
+ass a command turn. The time required to reach your selected dest-
+nation will be displayed. Rest lowers crew Fatigue.
+
+Hours Pass one command turn,
+
+‘rival Pass as much time needed in order to each your
+
+destination,
+Tomorrow Pass your turns unti 8 aim. the next morning
+Cancel Cancel a rest command for any let at base
+
+INT
+
+Scout
+
+Send out scout planes to search for enemy planes. For each warship
+loaded with Scouts, decide in which ofthe 9 directions you will send
+your planes, Sighting skill denends on Aviation skill and inteligence
+Bad weather, night time or an enemy ban on radio communication wil
+hinder chances of detecting the enemy,
+
+Escort
+
+Protect your flet by sending out Fighter plane escorts. The escorts can
+‘only be sent out during the day and wil return by nightfall, Ths is
+important when moving near bases occupied by enemy forces.
+*Report
+
+Get information on discovered enemy flets. A summary of scouting
+reports wil be displayed, Select reports from the close-up map. To view
+this data on the map, you may also see ORD-Fleet-Rept
+
+Map View location of your fleets on close-up map.
+Confm_ Location of selected sighting wil flash for confirmation,
+Mark Mark a sighting location for future reference.
+
+ORD, INFO, DATA
+These commands are the same as those listed under Port Commands.
+
+MISC (Miscellaneous)
+
+Set Up
+Set up the formation for your flet to assume atthe outbreak ofa battle
+Anti Attack For Chase
+25) =
+
+For Bombardment For Torpedo
+=
+
+Training
+“Train your crew for flet and plane manewvers to increase their hit accu-
+‘acy. Training takes two days; the fleet remains stationary during tis
+time. Training will expend fuel and increase the Fatigue ofthe crew. A,
+
+iow fuel level and high Fatigue vl prevent training
+
+Banquet
+
+Provide the crew with a gourmet feast Tis will increase Morale and
+decrease Fatigue. Each time a fleet is supplied, banquets are set at their
+‘maximum of 10. Each banquet wil est the fleet for one day
+
+Port
+
+Make a por call ata nearby friendly port. f your #1 Fleet returns to your
+Home Port, you battle success as Naval Commander is talied,
+
+eee
+
+===== Page 24 =====
+
+Direct batle orders for your #1 Fleet. Exception: You cannot control
+battle operations when you're attacked at port or when you have a
+ban on radio communication,
+
+* indicates that a command may be issued an unlimited number of
+
+times. Use ofthis type of command will not use up turn.
+
+TIP: Press UR buttons to hide the battle commands, Press UR
+_egan and you may scl trough the entre battle tee
+
+MOVE
+
+"Maneuver your fleet. Most warships can only move 1 hex. However,
+Destroyers with a maximum speed above 30 knots and others with @
+‘maximum speed above 36 knots can move 2 Hexes. You can view
+\warship's speed through the Battle Command INF. At night, al ships
+an move only 1 hex, even those which can usually move 2 spaces
+Highlighted areas display your range of movement. An attack may be
+executed after moving, See ATT (Attack) below
+
+ATT (attack)
+
+Execute an attack without moving ist. The normal attack method for
+Warships gun attack, For Cruisers and Destroyers, torpedoes and
+depth charges may be dscharged by pressing the ¥ button and then
+selecting the attack method. After selecting your attack mode, your fi
+ing range wil be highlighted. Depth charges can be released beneath
+your ship as wel as in other highlighted areas
+
+* INF (information)
+Display data on warships, planes and soldiers. View which warships
+«and transports have the abilty to participate in a landing invasion,
+
+UND (.2nding invasion)
+
+‘Only warships prepared in advance may execute the landing invasion
+(see TACT-Landing), Warships must be adjacent to the base before the
+soldiers can be dispatched. Areas capable of being landed upon will be
+
+clsplayed. You can verify a warship’s ability to land its troops through
+he INF command. Troops may be loaded back onto a shin from a base
+wth the FLE command,
+
+After a landing invasion is successful, the occupied base becomes the
+
+pst fr the landing troops. After invading a base i's possible to find
+
+‘ut the enemy soldier strength there, At the main menu, select ORD-
+Base for ths information
+
+EXT (Exinguish)
+
+Attempt to extinguish a fre caused by an enemy attack. For each turn
+sihich you are unable to put out the fire, the armor rating of your ship
+wil decrease by 1. If another fire breaks out with one sil blazing, the
+armor rating will decrease substantial. The abilty to extinguish fres
+‘depends on the Warship skill ofthe Feet Commander and the Ship skill
+ofthe crew.
+
+SNR (Sonar)
+
+Locate enemy Submarines with the use of sonar. All warships, with the
+‘exception of transport ships, have the ability to be equipped with
+sonar. Your Success at discovering enemy Submarines depends upon
+‘your Electronics sk. Upon discovery, the submarine's graphic wil
+eppear
+
+FLE (Flee)
+
+‘Command a warship to flee from battle. A warship must reach the
+edge ofthe battle area to flee, Warships cannot fee in the presence of
+enemy planes, Submarines or when an enemy ship isin an adjoining
+battle space. A damaged ship will have difficulty trying to escape.
+Warships which fied wil rejoin the leet after the battle has finshed.
+
+DEL (oeegates)
+
+Delegate battle command to the computer. You select which attack
+method the computer should use against the enemy. Once this com-
+mands executed, you will have no control unti the battle has ended or
+your attack method is destroyed. If your attack methods destoyed, a
+‘new method must be selected.
+
+ds.
+
+===== Page 25 =====
+
+VIEWING THE DATA
+
+OFFICER DATA
+
+Officers command your fleets and represent the navy at miitary confer-
+ences. Each officer has 102 abilty points distributed between four
+‘major abiities: Sea; Air; War and Bravery. The maximum level ofan
+abl is 99. View officer data through DATA- Officers.
+
+Name Officer's name. For Scenarios 1 and 2, there are 20 offices
+for each side. For other scenarios, the number of officers
+will vary.
+
+‘Sea Ability to command a warship, A high level wil increase hit
+‘accuracy for gun attacks and improve fre extinguishing
+efforts
+
+‘Air Ability 0 command Aviation operations. A high eve wil
+increase hit accuracy for air attacks.
+
+War Overall battle ability. Officers with high wer ability will be
+‘most sucessful in making proposals at miltary
+conferences
+
+Bry (Braver)
+
+‘Courage under battle conditions. high level will make it
+unlikely that an officer wil flee from the battle area
+
+Exp (Bxperience)
+
+Miltary experience. This level wil aise one point each time
+an officer's sent to a conference, aven command of a
+fleet, or participates ina battle. A high level wil increase
+the overal abilities ofan officer.
+
+Duty The fet which an officer commands
+
+NATION DATA
+
+Data on the mitary strength of a nation, Use DATA-Nation to view this
+information
+
+Mor (Morale)
+Citizen attitude towards the war. High Morale wil increase budget
+
+a
+
+funds, number of solders available each month, 25 well as decrease
+the amount of time needed for repairs
+‘Morale is affected bythe battle success rating received by the #1 Feet
+when it returns to the Home Port. Propaganda can aso raise this level
+Ifa Homeland base is attacked, the citizen Morale of the attacked side
+wil decrease
+Ind (industiy)
+The industrial strength of a nation, As industry increases, monthly bud-
+{get funds wil increase and the time required for repairs wil decrease
+‘More money can be allocated towards industry at military conferences,
+Industral strength decreases when warships are either built or mod
+fied, Ths evel wil also decrease when factories or port facilities on
+your Homeland are attacked.
+Abilities
+‘Your skills to build and repair warships or develop new armaments
+Ability levels can increase by: requesting technology from another land,
+developing new technology and allcatig budget funds toward the
+iferent skis
+Int (inteligence’: Abilty to spy and gather information on the
+‘enemy. The success of sabotage missions is based upon thi ability
+High inteligence wil increase your detection of enemy forces.
+‘Art (tilry:_ Ability t0 produce both small arms and large atilery.
+This skill wl affect the artillery attack strenath of newly built or
+repaired warships.
+Stel (tee): Abilty to produce steel for warship armor. A high level
+wil result in trong armor protection for newly but and repared
+ships.
+ng (Engine): Abiity to create the machinery to propel your war
+Shins and Rockets. A high lve wilincrease maximum speed for
+nny built and repared warships and improve the performance of
+torpedoes.
+Air (Aviation): Ability to produce warplanes. A high level will enable
+he development of Long-range Bombers and Jet Fighters
+
+YVLV 3HL ONIMGIA
+
+===== Page 26 =====
+
+Elet(Eleconics): Ability to use electronics for military purposes.
+Radar and sonar capabilities improve as ths level increases. high
+level wll enable Search and Gunnery Radar tobe developed
+
+Military Resources
+
+These resources area military strength which has not yet been commit-
+
+ted to warships o bases, These items can always be supplied to fees
+
+atthe port of any base and are stockpiled at the Home Por.
+
+Fuel
+
+‘Amount of fue avaiable to the military. Fue takes on the broad
+
+‘meaning of energy for war: food for soldiers; gunpowder fr weapons
+
+and ol products fo fuel warships and planes
+
+The itary fuel supply is used when warships are fueled at the Home
+
+Port; when Supplies ae transported to outing bases and when sup
+
+plying newly bult ships. Occupying a base with ol extracting
+
+‘operations wil increase your fuel supply each month,
+
+Materials
+
+‘Materials avaliable to the military, including ion oe. Iron ore i used to
+
+bud and repair warships. Ifyou occupy a base which mines for iron
+
+Cre, your material supply wil increase each month
+
+Soldiers
+
+Soldiers for the invasion and defense ofa base. Soldiers at base wil act
+
+as base defendess, and those on warships wil act as landing invasion
+
+troops High Morale wil increase the number of soldiers avalable for
+duty each month
+
+nds available to the military budget each month, These
+funds can be invested in the production of armaments or the develop-
+‘ment of skills. Budget funds wil increase each month as a result of
+tether an increase in Industry, Morale or the occupation ofa base with
+ahigh industrial level,
+
+saeaastlibiatn
+
+BASE DATA
+
+\iew ths information through ORD-Base.Scrol through the infoxma-
+con with left and right on the Control Pad andl access adelttonal bases
+with UR Buttons.
+Base: Name of military base.
+Post: Side who controls the base. ‘si for Japan and A’ is for the
+Allies,
+Iron: Amount of iron at base. iron s transported to the Home Port
+depending on the number of Freightes at the base. Once transpor-
+ed, iron wil then be known as Materia and contribute tothe
+national resource supply
+Oil: Amount of ol held at base. Extracted ol will be added to the
+fuel supoly every day, Oilis transported to the Home Port depend-
+ing on the numiber of Freighters a the base. Once transported, the
+rational fuel supply wil increase.
+industrial power at base. Depending on a base's
+industy stength, the budget will be adjusted accordinaly in the
+beginning of each month. If you occupy a base with a igh indust-
+aleve, your budget funds wil increase
+RS (Repair & Supply: Abily of a base to Fix and Supply warships.
+For the most part, with the exception of inner land areas, ll bases
+have supply abiity. Total repairs and modifications can be made
+‘only at the Home Port. Others pots able to make repairs can only
+
+execute emergency repairs
+fal Repair ability
+
+Supply ability
+
+Frnd (Friendliness) Citizen support for your military, As Friendliness
+decreases, orders wll not be folowed easly. Citizens may engage in
+guerra aids and attack base soldiers at low suport levels
+‘Through Base Policy or MIL, support wil ower with the seizure of
+‘materials and increase when treatment of citizens is improved with
+Compensation of increased Food Rations. Friendliness will also
+lower when enemy special forces agitate the citizens of the base.
+
+aa.
+
+===== Page 27 =====
+
+EnMn Enemy Men): Enemy battalions at base. When enemy s
+lets enter a town or vilage and the base endurance levels 0,
+base wil fall into enemy hands
+Pop (Population): Base population. A large population wil increase
+the number of people available to fil military equests for soldiers.
+End (Endurance): Abilty of base to withstand enemy attacks, The
+endurance evel decreases each time pot facilities, the town, vi
+lages, of factories are hit by enemy fie, The endurance eve will
+decrease also when you improve the conditions of the citizens with
+Compensation or increased Food Rations trough Base Policy or
+MIL. When both the endurance level and number of soldiers reaches
+‘0, and invasion troops force their way into ether the town ora vik
+lage, 2 base wil fall into new hands.
+
+‘Alow endurance lev! wil be built up between battle turns when
+
+defending solders remain on base. Materials wil be expended
+‘Aims: Armory attack strength for base defense. Each set of guns
+has an attacking strength of 10. Ths strenath may be built up when
+defending soldiers remain on base. Materials will be expended,
+
+‘When citizens receive Compensation for labor or when enemy special
+
+forces sabotage armaments, the base attack strength will decrease.
+
+nor Base has enemy scout reports
+
+Home Port base
+
+1 Base Resources
+Resources include: Soldiers, Materials and Fuel. Through ORD-Base,
+Selection of a base and then Supply, you may supply bases with these
+items from the National Resources stockpiled at the Home Por.
+Mtrl (Materials): Supply of materials. Meximum 9,999,
+Materials may be used to buld up Endurance and Arms levels and
+ate used in executing repair
+
+Sr (Soldiers Battalions of solders. the bases attacked, these
+soldiers wil participate in batl, Noxmaly few battalions are kept
+in reserve
+
+Fuel: Supply of fuel and food. Maimur 300,000.
+
+Fuels expended when supelying warships and land-based
+squadrons The Fuel supply wil detease when Food Rations are
+increased and when ful tanks ae attacked or sabotaged
+
+1m Base Transports
+The transports are used to transfer National Resources from the Home
+Port to outlying bases and to transfer Base Resources from bases to the
+Home Port. There are two types of transports: Troop Transports and
+eightes, Te transfer of materials increases with the numberof trans
+rs.
+
+np (Transport: Number of Troop Transports at base. Each Troop
+Transport may hold as many as 10 battalions of solders for the
+transfer to bases,
+
+Fegt (Freighter): Number of Freighter at base, Both fuel and mate-
+fal ae transported on Freighter. Each Freighter may hold a
+‘maximum of 4000 barrels of Fuel and 10 containers of Materials
+
+Days: Number of days required to transfer supplies. The time per
+cod willbe shown after executing a supply command. The length of
+time is determined by the distance from the base to the Home Port
+During this time, no resupping can be done,
+1 Military Strength
+
+ere ae sx elements to this Military Strength Fighters (Fat); Bombers
+(mb, Scouts (Scout); Jt Fighters Uet fat), Rockets (Rkt) and Long-
+range Bombers (Lomb), Transferring these planes to bases from the
+Home Port wil strengthen base miitary tenath,
+
+===== Page 28 =====
+
+FLEET DATA
+
+At the main menu, this info wil be displayed for ether the #1 Flet or
+fleets making a port call. Use ORD-Fleet fo view Fuel, Morale, Fatigue
+levels and the Fleet Commander name for other fleets Press the UR
+Buttons to view a fee's mission, present postion and destination gol
+Select a feet for more data, See Main Screen Operations forthe
+explanation of other icons
+
+Flagship (Flag): The mainstay of the fleet. The Fagship name along
+with is warship dass wil be displayed. The Fleet Commander boards
+this ship and issues orders to other ships from this fleet. f the Flagship
+is sunk, crew Morale wil decrease dramatically
+
+Position (Pos): The present postion of your fleet. fat sea, coordinates
+wil be liste. fat port, the name of the port wl be displayed. The des-
+tination will so be displayed. The most extreme coordinates are (0-0)
+in the northwest and (3839-1919) inthe southeast.
+
+& Feet present postion ja Fleet destination goal
+
+Speed (Spd): The current cruising speed of your fleet. Your maximum
+Speed is displayed in parentheses, Transport ships will slow the move-
+ment ofan enti flet down to a maximum of 20 knots. Fleet
+‘movement limited by the speed ofthe slowest moving ship. Faster
+speeds will get you toa location quicker, but will consume fuel ata
+faster rate.
+
+Fuel: Amount of fue loaded upon the warships. A percentage nurm-
+bers shown to represent at what capacity the tank filed. The actual
+gallons of fuel is displayed in parentheses. When fuel percentage
+reaches 0, you have run out fuel and will not be able to move volunt
+ily. However, itis possible for you to drift with curents,
+
+Fighters
+
+Displays how many of
+Bombers these war resources are
+Scouts boarded on the warships
+Soldiers Jr future batts.
+
+ei
+
+Morale: Crew happiness and support towards the war effort
+Maximum is 99,
+
+“Morale wil increase wth the sinking ofan enemy Flagship and occupa-
+tion of an enemy base High Morale increases hit accuracy and
+iscovery of enemy fleets, and decreases the time needed to prepare
+for attacks. Morale will decrease withthe sinking of your Flagship, the
+loss ofa bas, high Fatigue or an attack upon one of your Homeland
+bases.
+
+i Crew Morale
+
+Fatigue: Fatique level ofthe crew. Maximum s 99. Fatigue rises gradur
+ally as you cruise through the waters and jumps significantly when
+involved in battle. After Fatigue goes beyond 60, Morale decreases.
+High Fatigue wil increase the amount of time required to prepare for
+attacks and decrease your ability to detect enemy fleets. When th fuel
+level als to 0 and Fatigue reaches the maximum of 99, the fleet is
+effectively destroyed
+
+‘0 lower Fatigue, you may ether make a port cll and gve your crew
+Shore Leave or present the crew with a Banquet at sea. Depending
+tipon the selected length of time, rest at sea wil lower Fatigue a5 wel
+
+@ Crew Fatigue
+
+Transports: Number of transport ships assigned toa fleet. fieet with,
+transports will not be able to travel faster than 20 knots.
+
+Other: This information is shown when viewing a fet summary,
+
+Resupphing ae
+‘Shore Leave Ei ‘Scout Report
+
+Epidemic Outbreak
+
+===== Page 29 =====
+
+WARSHIP DATA.
+
+View information on each fleet through ORD-Fleet. Selecta fleet and
+then Ships:
+
+Class: Warship las, Graphics differentiate the seven classes of ships
+and any new-ype warships which were developed. See WARSHIPS for
+more information.
+
+Name: Name of warship.
+
+Post: Fleet number to which the warship is assigned, Warships are
+arranged into any ofthe #1-#16 fleets If ship isnot assigned to a
+fleet, nothing is displayed
+
+1 Warship Condition
+
+‘Measures warship abiity to fight n battle, Attacks will worsen this
+ability, but repairs and modifications will restore ashi.
+
+‘Anti-ship: Attack strength against enemy flets
+
+Anti-air: Attack strenath against enemy planes.
+
+Fort Fortitude): Armor strength to withstand damage. When this evel
+reaches 0, the ship is sunk
+
+Spd (Speed): Maximum speed. For Destroyers which have a speed
+‘above 30 knots and other shins with a speed above 36 knots, it isos
+sible to move 2 hexes at a time. Warship speed wil decrease when hit,
+by enemy attack. When speed falls to, the ship will be immobile end
+‘ause the movement of its fleet to come to a halt. A shi with O speed
+should be separated from the rest ofthe flet in order to allow the fleet
+tomove
+
+Cargo
+
+items loaded on the shins.
+
+Load: Total number of planes and Rockets loaded on a ship. Fleet and
+Light Aircraft Carriers, Dreadnought Battleships, Battleships, Cruisers
+and new-type Submarines all have the ability to hold planes. aircraft
+‘carriers can hold Fighters, Bombers, Rockets and Scouts. Batleships
+and Cruisers may hold only Scouts or Rockets and new-type
+Submarines may hold only Scouts
+
+Fgtr (Fighters: Fighters loaded on a warship, ia carrer is modified,
+<an hold newly developed Jt Fighters. The numberof let Fighters wil
+be added to other Fighters already boarded.
+‘Bmbr (Bombers): Bombers or Rockets loaded on a warship. Ifyou mod
+ify Aircraft Carriers, Battleships or Cruisers, you can load Rockets, An
+Aircraft Carter modified to hold Rockets will no longer be able to catry
+Bombers.
+Scout: Planes used for reconnaissance missions Ships modified to hold
+Rackets wil no longer be able to hold Scout planes.
+Sidr Soldiers): Landing invasion troops. Battalions able to board a ship
+‘depend on the warship class, Soldiers may be loaded onto all warship
+‘lasses except for Destroyers and Submarines,
+‘rm: in order to place Jet Fighters and Rockets on a warship, modifica.
+ions must be made,
+J] Warship modified for Jet Fighters
+
+a] Warship modified for Rockets
+
+I Warship modified for both Jet Fighters and Rockets
+'® Crew Abilities
+Since the operations of the ship are in the hands of the crew, itis
+important fr them to be trained. This includes the navigators, engine
+‘oom operators, naval en and the carrie plane pilots. Ay newly built
+
+ship will have a0 Ship and a O Fly sil level
+
+Ship: Abiity to fire warship artilery and extinguish ship fires.
+‘Maximum is 99. Ship skill wil increase depending on warsho battle
+experience and traning, Repairs or modifications wal lower ths skill as
+the crew wil be less familiar with new equipment.
+
+Fly: Ability to execute plane attacks, Maximum is 99. Fly skill wil
+increase depending on ai attack experience and training. The loading
+of new planes will ower this ability
+Luck: Luck of your crew and warship. Goodluck wll decease your
+chances of being hit while bal uck wil increase your chances of get
+ting hit
+
+NIMGAIA
+
+VIVO 3H:
+
+===== Page 30 =====
+
+New Armament Icon
+Rat (Search Radar): A large circular icon under Re wil indicate that @
+warship is equipped with Search Radar. To equip a warship with Search
+Radar, Total Repair must be done.
+
+Seek (Gunnery Radar: A large circular icon under Seek wil indicate
+that a warship is equipped wath Gunnery Radar. To equip a warship
+wath Gunnery Radar, Total Repair must be done,
+
+1m Transport Ship Data
+
+View transport shis through ORD-Fleet, selec a fleet and then Trans.
+Type: Indicates whether the transports Troop Transport or
+
+Freighter.
+
+Soldier: Soldier battalions boarded on a Troop Transport. Maximum is.
+10 battalions.
+
+Fuel: Barrels of ful loaded on a transport. Maximum i 1,000 barels
+fora Toop Transport and 6,000 bares fora Freighter
+
+DATA FOR OTHER LANDS
+
+To access the wartime alignment fr a particular land, select DATA
+Alles. You can view the information on the 13 nations besides Japan
+and the Ales (United States). The 13 nations included are: Germany,
+italy; England, France; Holand; China; Australi; Thaland India;
+Sweden; Switzedand; the Soviet Union and Braz. Holand and England
+are considered part ofthe Alied force in P.O
+
+Ally:
+
+View a nation’ wartime alignment. A nation can either be aled with
+Japan (), the Ales (A) or Neutral). Itis possible to gain an allance
+with a country whichis orginally neutral
+
+For Jpn, For Alls:
+
+Displays the Friendliness of each nation towards both Japan and the
+Allies. Requests for technology and armaments may come from both
+‘lied and Neutral nations. Friendliness towards you wil increase wien
+You accept the requests and decrease whien you refuse
+
+‘Your request for technology or armaments wil be refused by alied
+
+‘cacti
+
+vations whose Friendliness towards you is low. High Friendiness wl
+low you to conclude an aliance with a Neutral land. Lower the
+Friendliness of an enemy Aled land with the dispatch of special forces
+
+‘Armaments and Skills
+Displays whether Rockets or Long-range Bombers have been developed
+and each nation’s skill eves
+
+PTO VOCABULARY
+
+Base
+
+An occupied port or inland area used for military purposes. Provides
+supply and repair facts for warships. Iron ore and oil are transferred
+vetwveen bases and the Home Port to maintain National and Base
+Resource supplies. Occupation of enemy bases i essential to win the
+game.
+
+Budget
+mount of funds available for military investment each month. After
+Jocting funds a Set-Up, Budget indicates your side's mitarycapabi-
+es at the start of the game.
+
+Flagship
+
+The warship from which commands are issued for aflet, The Naval
+‘ommander and Fleet Commanders always board the Flagship of theie
+eet. Ifa Flagship sinks, Morale wil fall drastically and the leet
+Commander will de with the ship.
+
+Fleet
+
+Arrangement of warships into task force. Both Japan and the Alles
+
+‘may have a maximum of 16 different fleets. fleet consists of a max
+
+‘mum of 24 ships: 16 warshins, 4 Troop Transports and 4 Freighter.
+
+Fleet Commander
+
+‘An officer delegated to command a fleet. Strategy ofthe fleet will be
+determined by the abilities of the Fleet Commander. The Fleet
+Commander always boards the Flagship.
+
+AMVINaVIOA OO
+
+===== Page 31 =====
+
+Homeland
+
+Bases citer pat of Japan or the United States. Japanese Homeland
+bases are: Kure, Tokyo, Sasebo, Naha, Yokosuka while United States
+Homeland bases ae’ Hawaii Los Angeles, San Francisco, Defense of
+these ares is crucial tothe Morale of your military.
+
+Home Port
+
+“Main base for naval force. All Nation Resources are stockpiled here for
+Supply of fleets and bases. tis only at your Home Port where you can
+build new ships and complete a Total Repair. When the #1 Fleets at
+the Home Port, miltary objectives can be decided upon at a
+Conference. if the enemy is able to occupy your Home Port, the new
+Home Port wil be selected from those remaining, When there are no
+remaining ports, the game wll end with you being the vanquished
+patty.
+
+Key Battles
+
+3 military targets as defined by 2 conference between the land and
+‘naval forces of your side, The Player can select these targets from
+Scenario 1. Occupied bases have to be defended and enemy bases
+attacked and occupied. The Naval Commander will be given a success
+rating in fufling these goals after returning to the Home Port
+National Resources
+
+Home Port supply of Fuel, Materials, Soldiers, Rockets, Warplanes and
+Transports. These resources are transferred to bases for the support of
+forces throughout the Pacific. National Resources are aso used when.
+suppling fleets atthe Home Port. Each month, base Transports wil
+bring oil and iron to the Home Port and increase the Material supply.
+Naval Commander
+
+Highest ranking naval officer whois also Fleet Commander of the
+
+41 Fleet, The Naval Commander issues commands to a maximum of
+16 fleets: supply fleets at port, select battle targets and direct battle
+operations
+
+‘A Naval Commander success rating is computed from the time you
+leave the Home Port (See Key Battles). this success rating i substan
+tially low, you will be relieved of your duties and the game wal enc.
+
+‘The Naval Commander ison the Flagship ofthe #1 Fleet. f the #1
+Fleet is destroyed, you will go down with the sinking ship and the
+game will end.
+
+Officers
+
+Naval personnel under the authority ofthe Naval Commander. officers
+may be delegated to conferences or gven the authority to command
+speci lets as Fleet Commanders. the Opening Set-Up, you set
+each officer's ability
+
+STRATEGY HINTS
+
+Running Out of Fuel
+
+A fleet cannot move when ithas a 0% fue sufficiency. Carefully watch
+the fuel level when moving and if it's low, quickly make a port cal ata
+friendly base for refueling, if afleet runs out of fuel while at se, sum
+man the closes flet toward the direction of the stationary let.
+Through ORD-Fleet, direc the rescue fleet towards the immobile fleet
+wath a Info Search mission, Once both fleets are near contact, select
+ORD-Arrange-Formation at Sea-Join, Ths wil jon both fleets together
+‘an fuel wil be ddd between al ships,
+
+ke sure the rescue feet has alge amount of fuel when
+May ie Grier lees senate 20% fe
+sufficiency.
+
+|
+
+WARNING: A 0% fue level and a Fatigue of 99 will destroy the
+fleet
+
+Fleet Can't Move
+
+if orders are given toa feet with fuel andit doesn’t move, the explana
+tion most probably wil be that epair or supply activities are being
+performed on certain warships within the fleet, After those prepara-
+tions are finshed, fleets with sufficient fuel will be able to move. In
+‘order to move your leet from the base while repais or supplying are
+‘being done, you may separate those ships being worked on from the
+
+4
+
+===== Page 32 =====
+
+‘ome
+
+fleet and depart without them. This can be done only atthe Home Port
+through ORD-Arrange-Formation at Port-Discharge
+
+Epidemic Outbreak
+
+‘An epidemics a rare occurrence, butitcan dramatically affect war-
+ships. Any fleet inflicted with an epidemic will see Morale fll and
+Fatigue rise significantly. An epidemic is much mare likly to appear
+‘after traveling through Southern tropical areas.
+
+Immediate upon an outbreak, move the affected fleet towards the
+‘eatest port. At port, give the crew Shore Leave, The base population
+will be exposed to the disease and soldier strength will decrease. The
+epidemic con will disappear after one day, but affected individuals wall
+need many more days of est to fully recover from the sickness,
+
+DESIGNER NOTES
+
+1.0. isa collaborative effort between our Japanese and American
+evelopment teams. It was originally designed in Japan under the name
+Teitoku no Ketsudan, New developments show a refinement in grap!
+ics, layout and ease of play
+
+‘Our goal was to create a comprehensive WW strategy game from the
+perspective of a Naval Commander. The result isa realistic simulation of
+the island battles inthe Pacific,
+
+7.0. is loaded with information: a map covering the entire Pacific, 50
+accurate bases and over 250 historical warships in 7 dlsses. Player
+responsbilties include: budget allocation; command of ar, land and
+sea battles; and administration over conquered lands.
+
+Legal considerations necessitated the replacement of historical officer
+ames with fictitious names, However, within the game its possible to
+change every officer's name on your side to your preference.
+
+The Pactic Wer had far-reaching effects upon the people and counties
+of the world. To maintain an objective view, we encourage additional
+reading to flly understand the complexities ofthis time period,
+
+Koei Development Team
+
+‘acca
+
+90-DAY LIMITED WARRANTY
+Koei Corporation warrants tothe original consumer purchaser that this
+«game pak shall be free from defects in material and workmanship for a
+period of 90 days from date of purchase. fa defect covered by this
+warranty occurs during ths 90-day warranty period, Koe will repait or
+replace the game pak at is option, free of charge
+
+To receive this warranty service:
+1. Send in your Registration Card
+2. Save your sales receipt and the UPC code found on the game pack-
+aging,
+3. If your game isstil covered under a store warranty, return the game
+pak tothe store at which you purchased the game.
+
+4, Ifthe game develops a problem requiring service during the 90-day
+‘warranty period, and is not covered by a store warranty, notify Koei
+Corp. by calling the Technical Support Dept. at (415)348-0500,
+between the hours of 9 a.m. to 4:45 p.m. Pacific Standard Time,
+Monday through Friday.
+Ifthe Koe! Service Representative is unable to sole the problem by
+phone, you willbe provided with a Return Authorization number.
+Simply record this number prominently onthe outside packaging of
+your defective game pak, enclose your name, address and phone
+fhumber, and return the Game pak, FREIGHT PREPAID AND INSURED
+FOR LOSS OR DAMAGE, together with your sales recent or similar
+proof-of purchase (UPC code) within the 90-day warrenty period to:
+
+Koei Corporation
+
+One Bay Plaza, Ste. 540
+
+1350 Bayshore Hwy.
+
+Burlingame, CA 94010.
+
+===== Page 33 =====
+
+This warranty shall not apply ifthe game pak has been damaged by
+negigence, accident, unreasonable use, modification, tampering or by
+other causes unrelated to defective materials or workimanship.
+
+Service After Expiration of Warranty
+
+ifthe game pak develops a problem requiring service after the 90-day
+‘warranty period, you may contact the Koei Technical Support Dept. at
+the phone number noted previously. the Koe! Service Representative
+is unable to sole the problem by phone, you may be provided with a
+Retuin Authorization number and asked to send the game pak to Koei
+{or personal inspection, Record this number prominently On the outside
+packaging ofthe defective game pak and return the merchandise,
+FREIGHT PREPAID AND INSURED FOR LOSS OR DAMAGE, to Koei with
+‘a check or money order for $20, to cover repair or replacement,
+‘payable to Koei Corporation. Koei reserves the right fo change the
+post-warranty service fee andor poly
+
+===== Page 34 =====
+
+You're a young ninja hungry for revenge against the ruthless
+ruler who destroyed your home village. Trav
+boat to famous training grounds where you ¥
+1 art of stealth fighting! Use your trusty swo
+ing stars or even magic spells against vicious monsters
+Japan's treacherous dungeons. Victory will raise yout
+skill level and gold will be your reward!
+
+‘on foot or by
+
+Jean
+
+lobal ari
+special se
+
+FEATURES: 1
+
+China's Fate is in Your Hands!
+
+The Second Han L is crumbling! Asa powerful ruler
+
+fetermined to beat your enem
+position with brute force or wear them
+
+down with patience and cunning. Only you can
+
+the fate of Chinat
+
+FEATURES: 1-12
+
+reate your oun
+character, myst
+
+up to savegam
+
+===== Page 35 =====

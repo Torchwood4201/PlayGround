@@ -1,0 +1,759 @@
+# Super Battletank 2
+source: https://archive.org/details/snes_manual_archive
+pdf: Super Battletank 2 (USA).pdf
+region: USA
+pages: 14
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+DESIGN MULTIMEDIA SUPPORT
+
+© Garay KITCHEN Mike SULLivan
+Davin Lugar Ron Roserts
+Mark Morais JONATHAN EITEN
+Carol ALBERT JoHN FEASENMYER
+Dan KiTcHEN
+LE SEQUE!
+ies Mark GLiDpen
+PROGRAMMING a
+‘SPECIAL THANKS
+ee Gene SeweLt
+Mark Morris Avex DeMeo
+Cui Y. CHan Racel ENSIGN
+Tal Lao Lau
+ART. Rosert Prescott
+Jesse Kapiti
+Gen ScHorieLo MANUAL
+Jorn CasseLts BRIAN ENGLISH
+Ray BRADLEY PACKAGE DESIGN
+AUDIO DIRECTOR W. R. WentworTH
+Mark VAN HECKE ‘MANUAL DESIGN
+MUSIC AND SOUND JOHN FEASENMYER
+Jim WALLACE
+ABSOLUTE.
+
+Poblished by Auslute Etertinment, nc. Suite 38 South, 20 ourainvew Rel pyr Sle River, N O78. super Bale 2
+trademark of Absolute Enetaimest, ne Rights Reseed. Absolute Entrainment ested trademark of bute Entertain ne
+A Rights Reserve, Nintendo, Super Nitendo Entersunment Sse and the Oficial Seals are repeal trademash f Navn of Aner Ie
+© 1951 Nintendo of meres Ie. © 1998 Absolute Eerste NI Rights Rese
+
+Write pan
+“\
+
+ &
+
+- ABSOLUTE.
+
+===== Page 2 =====
+
+TABLE oF CONTENTS
+
+WARNING: PLEASE READ THE ENCLOSED Allied Armored Command Communiqie...
+CONSUMER INFORMATION AND PRECAUTIONS BOOKLET =| __Specifications........... .
+CAREFULLY BEFORE USING YOUR NINTENDO? Pre-Patrol Checklist. ummunaac
+HARDWARE SYSTEM OR GAME PAK.
+
+Passwords
+Controlling the M1A2..
+Receiving Mission Orders......
+The Cockpit Control Panel .....
+
+* The Cockpit Computer Display.
+The Radar Maps”
+
+* The Long-Range Radar Map
+| © The Tactical Radar Map ....
+Weapons and Defense Systems......
+
+Offensive Weapons Systems
+
+© The 7.62mm Machine Gun
+
+* Phalanx Machine Gun
+| © 120mm Cannon.
+
+* Laser-Guided Missile:
+
+* Night Vision Scope...
+
+Defensive Weapons Systems
+
+© Smoke Screen
+
+* Air Support
+
+* PATRIOT Air Defense Missiles.
+Allied Supply Depots ..
+Enemy Weapons and Equipment.........
+
+Enemy Strongholds........
+Ee © Stronghold Assault Strategy
+
+NI SYS DO PRODUCTS ARK
+apeceraenerne waceeeenes=  ABSOLUT
+SURED, BARTER I “y
+
+=o oONounns
+
+FICIAL SEALS YOUR
+a
+
+===== Page 3 =====
+
+COMMUNIQUE
+To: M1A2 Commanders, Mid-East Peacekeeping Forces
+RE: Violation of Neutral Territory Gease-Fire
+
+Early this morning, elements of the 24th Mechanized Infantry
+were engaged and overrun by combined air and ground forces
+attacking through territory defined as neutral in accordance with
+the recent cease-fire agreement. Intelligence regarding the
+national origin of the aggressor unlts 's sketchy; confidence is
+high, however, that these units are part of a renewed offensive by
+‘our previous adversary.
+Admittedly, Allied Armored Command has been caught unaware,
+‘and the results of this initial defeat will take days to reverse. It
+ig at this desperate hour that we require the battle-tested skills
+of our veteran tank commanders. Operating as individual units,
+you are ordered to proceed into the neutral territory and begin to
+‘conduct small-scale offensive operations against any hostile
+forces encountered. Eliminate any strongholds that may delay
+the advance of the main force once itis assembled. Your sole
+mission is to destroy as many of the enemy a5 possible, for as
+jong as possible, utilizing forward supply depots as necessary.
+
+Itis your job to stem this tide before the scope of hostilities
+wwddens. The peace and future ofthis region le n Your capable
+hands. Allied Armored Command expects that every man will
+
+do his duty.
+
+M1A2 Main Bart.etanx SPECIFICATIONS
+Weight: 63 tons sei
+on Wen, 20' long, 11.8 wide, 7.8 high
+rimai i sh
+ry Weaponry: 120mm M-68E1 smoothbore cannon, firing M-728
+
+armor-piercin, if i
+as pi g shells with an effective range of.2.5
+
+Secondary Weaponry: Hi
+ry: High-speed Phalanx Get A
+es iste neral-Purpose 7.62mm
+Engine: 1,500 hp gas turbine
+Top Speed: 42 mph
+
+Maximum Range at Top Fuel Capacity: 288 miles
+
+Pre-Patrot CHECKLIST
+
+1. Make sure the if
+power switch on the consol
+NINTENDO ENTERTAINMENT SYSTEM® ‘stg
+
+2. Insert the SUPER BATT!
+LETAI ue
+pies oh INK 2™ Game Pak as described in your
+
+3. Turn the power switch ON.
+
+===== Page 4 =====
+
+Passworps
+
+Password Entry Screen
+
+At the end of every four missions, you will receive a password. This
+password should be written down; it will allow you to restart the game at
+any time from that point. Without the password, you will be required to
+start from the beginning of the game.
+
+To enter the password, select Passworp on the Title Screen. The
+Password Entry Screen will then appear. Enter the password by using
+the Control Pad to move around the letter grid, and BUTTON B to lock in
+your selection. After entering the entire password, select ENTER on the let-
+ter grid and press BUTTON B. You will then resume the game from the
+point at which you were assigned the password.
+
+Cowrrowiing THE M1A2
+
+Refer to the diagram below and familiarize yourself with the controls
+needed to operate the M1A2
+
+up
+
+Left Right
+Controller
+
+Down
+
+Top Left Button ‘Top Right Button
+
+Button X
+
+Control Pad Button A
+
+Button B
+
+Select Button
+Start Button
+
+To Steer Tank: Press the TOP RIGHT or TOP LEFT BUTTONS.
+
+To Increase Speed: Hold down BUTTON X.
+
+To Decrease Speed: Hold down BUTTON Y.
+
+To Reverse Direction: Hold down BUTTON Y when the tank is stopped.
+To View Long-Range Radar Map: Press BUTTON B.
+
+To Select a New Weapon: Press SELECT.
+
+To Fire a Weapon: Press BUTTON A.
+
+To Lower Cannon or Weapons Sight: Press UP.
+
+To Raise Cannon or Weapons Sight: Press DOWN.
+
+To Pause or Unpause the Game: Press START.
+
+a
+
+===== Page 5 =====
+
+Receivine Mission Orvers
+
+Each mission assignment will give your M1A2 a number of enemy
+
+objectives that must be located and destroyed (see Enemy Weapons
+
+| and Equipment on pages 22-23 for a complete listing of possible enemy
+targets).
+
+| Expect a total of 16 missions in this campaign that will increase in
+
+| difficulty and vary as to time of day. The number of enemy encounters
+
+will progressively rise, and combat will become more intense. Some
+
+missions will culminate with assaults on heavily-fortified Enemy
+
+Strongholds (see page 24 for more details).
+
+If you have previously familiarized yourself with your orders, you may
+bypass them by pressing START or BUTTON A.
+
+Tue Cockpit Controt PANEL
+
+Cockpit
+Computer
+4 i Display
+Com-Link i Tactical
+
+Display § Radar Map
+Weapons: = / ‘Weapons Shots
+Status Indicator Remaining
+‘ Damage
+pate Z Indicator Lights
+. Fractional
+Damage Meter
+
+The M1A2’s driver's station provides direct access to all computerized
+weaponry and guidance systems. This is the primary view from which
+you will actively engage the enemy. An experienced commander should
+be intimately acquainted with all of the following instrumentation:
+COM-LINK DISPLAY:
+
+Crucial information regarding your M1A2's equipment and damage status
+will be relayed from your computer systems onto this display. Commun-
+ications from field headquarters and your score are also displayed here.
+
+TACTICAL RADAR MAP:
+Shows enemy units in the immediate vicinity of your tank, within range of
+your weapons systems (see page 14 for details).
+
+DAMAGE INDICATOR LIGHTS:
+
+Each light registers a substantial hit that your M1A2 has sustained as a
+result of enemy fire. The M1A2’s hull is capable of tolerating a maximum
+of five substantial hits. A sixth substantial hit will destroy your tank.
+
+FRACTIONAL DAMAGE METER:
+Displays mounting fractional damage that your hull sustains as a result of
+concentrated machine gun fire and shrapnel from enemy ordnance.
+
+When this meter is filled, the Damage Indicator Lights will be illuminated,
+and this meter will be unlit.
+
+a
+
+===== Page 6 =====
+
+Tue Cockpit Controt Panet (Conro.)
+
+SPEEDOMETER:
+
+Displays your speed in miles per hour. The needle will move clockwise
+as your speed increases, and counterclockwise as it decreases. When
+
+your tank is in reverse, the needle will move counterclockwise past the
+zero point.
+
+FUEL GAUGE:
+
+Maximum fuel capacity is designated by a fuel needle positioned all
+the way to the right. As fuel is burned, the needle will move counter-
+clockwise.
+
+WEAPONS STATUS INDICATOR:
+
+Indicates the condition of the weapon in use. A green light indicates that
+the system is fully operational. A blinking green light denotes a reloading
+or overheated weapons system. A red light on this display indicates that
+the system is not operational (i.e., is overheated or out of ammunition).
+
+WEAPONS SHOTS REMAINING:
+The amount of ammunition available for a particular weapon.
+
+The Cockpit Computer Display
+
+Targets of Opportunity:
+Range
+Mission Number:
+
+Total Targets
+
+The Cockpit Computer Display (CCD) contains a variety of crucial infor-
+mation regarding the position and number of enemy units (termed
+“Targets of Opportunity”) during the mission. This information will
+change as you begin to accomplish mission objectives.
+
+TARGETS OF OPPORTUNITY (TO):
+
+This is the number of enemy units still active and in operation in your
+Area of Operations (A.0.; defined as the area visible on the Long-Range
+Radar Map—see page 12).
+
+RANGE (R):
+
+The distance (in meters) of a sighted enemy from your tank. This
+information can only be provided when a weapons system has acquired
+either a kinetic or stationary T.0.
+
+MISSION NUMBER (M):
+
+The number of the mission in which you are currently engaged; ranging
+between 1 and 16.
+
+TOTAL TARGETS REMAINING (TT):
+The number of enemy units in operation within striking distance of your
+M1A2's weapons systems, and visible on your Tactical Radar Map (see
+
+page 14).
+- ef
+
+===== Page 7 =====
+
+Tue Raoar Maps
+The Long-Range Radar Map
+
+Information from the state-of-the-art NavStar navigational satellite will be
+downloaded onto the Long-Range Radar Map. This system enables you
+to quickly locate all enemy targets (kinetic or stationary, ground-based or
+airborne), mine fields and Allied bases in your current A.O., and to direct
+your tank toward them.
+To Access the Long-Range Radar Map:
+
+Press BUTTON B
+The blinking tank on the Long-Range Radar Map represents your M1A2
+You may steer your M1A2 on this map using the TOP RIGHT and TOP
+LEFT BUTTONS.
+Remember: Though calling up the Long-Range Radar Map replaces the
+Cockpit Control Screen, it DOES NOT PAUSE THE GAME; your M1A2 will
+still sustain battle damage. The enemy's radar and tracking systems will
+be able to pick you up once you enter their sector, so be ready for imme-
+diate combat.
+When an enemy unit has been neutralized, it will no longer appear on the
+Long-Range Radar Map.
+
+LONG-RANGE RADAR MAP ICONS
+
+>
+
+SCUD Missile Launcher
+
+Soviet Mi-24 Helicopter
+
+Enemy Stronghold Anti-tank Mine Fields
+
+Armored Assault Helicopter Allied Supply Depot
+
+a
+
+Halftrack Soviet T-72 Tank
+
+Armored Jeep
+
+See Enemy Weapons and Equipment on pages 22-23 for more details.
+
+a
+
+===== Page 8 =====
+
+Tue Raoar Maps (Conro.)
+The Tactical Radar Map
+
+The location of enemy units within range of your M1A2’s weapons
+systems appear on Tactical Radar Map.
+
+These enemies will appear as either land-based (green) or airborne (blue)
+enemy icons. Your tank will always appear in the center of this map, and
+will be represented by an open triangle icon (the point of this triangle will
+represent the front of your M1A2).
+
+Your M1A2 will likewise be within range of the ordnance of any enemies
+appearing on this map.
+Once an enemy unit has been neutralized, it will no longer appear on the
+
+Tactical Radar Map. Mine fields and enemy fortifications do not appear
+on this map.
+
+Weapons AND DEFENSE SYSTEMS
+
+The M1A2 is.armed with four types of the most sophisticated weapons
+and defense systems ever developed:
+OFFENSIVE WEAPONS SYSTEMS
+
+¢ 7.62mm Machine Gun
+
+e Phalanx High-Speed Machine Gun
+
+¢ 120mm Cannon
+
+ Laser-Guided Missiles
+
+© Night Vision Scope
+
+DEFENSE SYSTEMS
+Smoke Screens
+¢ Air Support
+¢ PATRIOT Air Defense Missiles
+To Choose a Weapons or Defense System:
+e Press SELECT to cycle through available weapons systems (the
+
+Weapons Status Indicator Light will appear next to the system you
+have selected),
+
+To Fire or Activate a Selected Weapons or Defense System:
+e Press BUTTON A to fire or engage the system you have selected.
+
+The Weapons and Defense System Status Indicator Lights—
+Provide immediate feedback on weapons conditions.
+Green Light—Indicates that a system is ready to be fired.
+
+Blinking Green Light—Indicates that the round is being reloaded, or the
+the machine gun has overheated.
+
+Red Light—Indicates a system that is damaged or out of ammunition
+(the amount of ammunition you are issued varies from mission to mis-
+sion). Ammunition can be replenished at Allied Supply Depots (see page 21
+for more details).
+
+as
+
+===== Page 9 =====
+
+Weapons Ano DeFense Systems (Conro.)
+
+Offensive Weapons Systems
+7.62mm Machine Gun
+
+Effective against all targets, this general-purpose gun augments the
+M1A2's armament load by providing a strong second line of defense.
+Useful against air attacks, this weapon is best held in reserve for when
+120mm cannon ammunition runs low. Also useful against anti-tank
+mines, it is best used in short, punctuated bursts. Prolonged firing will
+inevitably result in an overheated weapon.
+
+Phalanx High-Speed Machine Gun
+
+This powerful machine gun has limited ammunition and is also best used
+in short, punctuated bursts. Firing a high volume of ordnance into a con-
+centrated area, it is quite effective against armor. The Phalanx is the gun
+that you will use in the top-turret mode against ambushes. It is also
+prone to overheating if fired for prolonged periods.
+
+Dic
+
+120mm Cannon
+
+In all missions, your M1A2's main ammunition allotment will be for the
+120mm cannon. The cannon must be carefully aimed to maximize a
+shot's effectiveness. Make the proper adjustments based on your dis-
+tance from an enemy target. For a shot to travel longer distances, the
+gun should be raised; aim lower for closer targets. Careful attention
+must be paid to gunnery as it is important not to waste valuable rounds
+by firing them over the top of rapidly-closing enemy T-72s.
+
+Laser-Guided Missiles
+
+A limited number of your M1A2’s magazine is devoted to Laser-Guided
+Missiles (LGMs). When this weapon's sight is aligned with a T.O., it will
+begin to flash, signifying that it has locked onto its target. LGMs are
+particularly effective against helicopter attacks.
+
+Night Vision Scope
+
+The Night Vision Scope is available for limited periods during nighttime
+combat. Each activation lasts 30 seconds (viewing the Long-Range Radar
+Map pauses this timer). A Smoke Screen cannot be discharged while the
+Night Vision Scope is in use.
+
+tiie
+
+===== Page 10 =====
+
+Weapons Ano DeFense Systems (Conto.)
+Defensive Weapons Systems
+Smoke Screen
+
+Smoke screens provide excellent defensive cover, and are especially
+effective when combatting multiple enemies. This smoke serves to cloak
+your tank from view, eliminating the possibility of direct enemy fire. As a
+result, enemy units will cease fire entirely (except those entrenched in
+Enemy Strongholds). Experienced tank commanders use this respite
+from enemy attack to move their weapon sight around the screen until
+the range light on their instrument panel is illuminated. This will indicate
+that an enemy target is within range and may be fired upon with accuracy.
+
+Commander's Advisory:
+
+Selecting the smoke screen will de-select other offensive weapon options.
+
+Be sure to re-select an offensive weapon after the smoke has been discharged
+so that you may resume offensive operations.
+
+Air Support
+
+In the event that your tank is overwhelmed by enemies, you can call in air
+support from nearby F-15 squadrons. These squadrons will immediately
+appear and obliterate any enemies in your immediate vicinity. Due to
+the number of offensive operations being conducted in this theater
+simultaneously, you are limited to five air support calls over the course
+of a 16-mission campaign.
+
+To Call in Air Support:
+© Press and hold SELECT for THREE SECONDS, and then press
+BUTTON A.
+
+===== Page 11 =====
+
+Weapons Ano Derense Systems (Conro.)
+
+PATRIOT Air Defense Missiles
+
+During the course of any mission, you may receive a message on your
+Com-Link Display that an enemy SCUD launch is imminent. SCUDs often
+target Allied Supply Depots (see page 21), and will destroy them if they
+are not intercepted. While PATRIOT missiles are a reliable defense
+against SCUDs, they require a second radar contact of the SCUD to trian-
+gulate their guidance system. Your M1A2 can send this signal when it is
+positioned in the same quadrant as the SCUD missile icon on the Long-
+Range Radar Map.
+
+To Complete PATRIOT Guidance Triangulation and for Signal Launch:
+Select the PATRIOT by cycling through your weapons systems
+pressing SELECT.
+
+Position your tank in the same quadrant as the SCUD missile icon on
+the Long-Range Radar Map.
+
+© Signal the PATRIOT crew to launch their ordnance by pressing
+BUTTON A.
+
+Atwieo Suppy Depots
+
+Represented by a United States Flag on the Long-Range Radar Map,
+these areas are an oasis in the harsh, supply-restrictive desert combat
+environment. A depot can only be entered if it appears on the Cockpit
+Control Screen, so get as close to it as possible on the Long-Range
+Radar Map.
+
+Due to conservation mandates from high command, an M1A2 is permit-
+ted only one visit per depot during the course of a mission. Depots that
+have already been visited will disappear from the Long-Range Radar
+Map. The number Of depots available will vary from mission to mission.
+
+Stop at Allied Supply Depots to:
+Repair all hull damage
+© Completely replenish fuel supply
+ Restock ammunition (supply restrictions may limit the quantity of
+ammunition available for certain weapons systems)
+You must wait for a completion message to appear on the Depot Screen
+
+before exiting a base. After this message appears, press START or
+BUTTON A to resume your mission.
+
+ee
+
+===== Page 12 =====
+
+Enemy Weapons ano Equipment
+
+Soviet-made T-72 Tank:
+
+The enemy’s main battle weapon, the T-72 and its
+
+variants, is the M1A2 commander's most common
+foe. Quick and manueverable, they are most dan-
+
+gerous to the M1A2 when attacking en masse.
+
+Soviet-made SCUD Missile Launcher:
+
+While their missiles are capable of wreaking havoc,
+SCUD missile launchers are slow, clumsy, and
+extremely vulnerable to Allied ordnance. They are
+sometimes guarded by T-72s and Mi-24 HINDs.
+
+Anti-tank Mines:
+
+Though the enemy deploys these anti-tank mines
+more as a nuisance than a threat, the unwary
+M1A2 commander who blunders into their path is
+in great danger. Easily visible on the ground, they
+can be neutralized with machine gun fire.
+
+Soviet-made Mi-24 HIND Helicopter:
+
+Fast and heavily armed, these tank killers can
+swoop down and unleash a withering barrage of
+missiles and 20mm cannon fire. They are difficult
+to target and best attacked with LGMs or the
+Phalanx machine gun.
+
+=a
+
+Armored Jeeps:
+
+Though fast and effective against infantry moving
+in the open, armored jeeps are easy prey for.the
+
+= M1A2. One well-aimed shot of the 120mm gun
+will obliterate them.
+
+Halftracks:
+While it is obsolete on the modern battlefield, the
+outmoded halftrack has been utilized very effectively —
+
+by the enemy. Though heavily armored, they are
+under-gunned and primarily serve more as troop
+transports than offensive vehicles.
+
+Armored Assault Choppers:
+
+These are the most dangerous threat from the sky
+that an M1A2 will face. The strength of their frame
+and the power of their dual rotors combine to make
+an awesome weapons platform. They are heavily
+armed and armored, and not easily brought down.
+
+===== Page 13 =====
+
+Enemy STRONGHOLDS
+
+Fortified Enemy Strongholds
+
+Reliable intelligence from forward observation teams have indicated the
+existence of several heavily-fortified enemy strongholds. It is likely that
+the approaches to these redoubts are heavily defended by crack enemy
+units and high-quality equipment.
+
+These areas are also known to be defended by large concentrations of
+enemy armor and attack helicopters.
+
+After you have successfully completed the initial stages of your mission,
+you will receive a message on your Com-Link Display to begin your
+assault on the main enemy stronghold in your A.0. A flashing icon will
+reveal the location of the stronghold on your Long-Range Radar Map
+after you have received this message from high command. The message
+and the icon will appear only after all other enemy units in your area of
+operations have been neutralized.
+
+To neutralize the forces of an enemy stronghold, you must knock out the
+areas from which enemy fire originates—aim for the flashes of their
+guns. Use any means at your disposal to eliminate all resistance at these
+strongholds. Continue your assault until all enemy fire ceases. Keep firing
+at that point until the emplacement erupts into a pillar of smoke.
+
+Stronghold Assault Strategy
+Save at least one Supply Depot visit for just before your final assault.
+This will ensure you have no hull damage and plenty of ammunition
+for the final attack.
+Use a smoke screen to temporarily conceal your tank. This will drasti-
+cally reduce the accuracy of enemy fire, while the flashes of their guns
+will remain visible for your targeting.
+
+=i
+
+Barmte Loc
+
+===== Page 14 =====
+
+Barrie Loe
+
+Assoture ENTERTAINMENT, INc.’s
+Limirep 90-Day WARRANTY
+
+Absolute Entertainment, Inc, warrants to the original retail purchaser of this video game computer program
+
+("Program") that the Game Pak ("Game Pak") on which the Program is enbodied will be free from defects
+
+in materials and workmanship for a period of ninety (90) days from the day of purchase. If your Game Pak
+becomes defective during that period, Absolute Entertainment, Inc. will replace it free of charge.
+
+To replace a defective Game Pak during the warranty period, mail the entire Game Pak, proof of your purchase
+with purchase date circled, a briel statement describing the defect, and a large, self-addressed envelope to:
+Warranty Officer
+Absolute Entertainment, Inc.
+
+10 Mountainview Road
+Suite 300 South
+Upper Saddle River, NJ 07458
+Tel: (201) 818-4800.
+
+If your Game Pak Jails after the end of the 90-day warranty period you may return it to Absolute
+Entertainment, Ine. at the address above along with a check or money order for $25.00, a brief statement
+describing the defect, and a large self-addressed stamped envelope. This offer to repair or replace detective
+Game Paks after the end of the 90-day warranty period may be withdrawn at any time without notice.
+
+We recommend that defective Game Paks be packaged carefully and sent certified mail, return receipt
+requested. Absolute Entertainment, in. will not be responsible for replacing defective Game Paks until they
+have been received by us at the above address.
+
+This warranty is limited to the Game Pak as originally supplied by Absolute Entertainment, Inc. and is not
+applicable to the Program embodied on the Game Pak. This warranty will not be honored if the defect has
+arisen through abuse, mistreatment, improper care of the Game Pak, neglect, or normal wear and tear.
+THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES, WHETHER ORAL OR WRITTEN, EXPRESS OR
+IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR
+PURPOSE, AND NO OTHER REPRESENTATIONS OR CLAIMS OF ANY NATURE WILL BE BINDING ON OR
+OBLIGATE ABSOLUTE ENTERTAINMENT, INC. IN NO EVENT WILL ABSOLUTE ENTERTAINMENT, INC. BE
+
+LIABLE FOR SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM POSSESSION,
+
+E OR MALFUNCTION OF THIS GAME PAK OR PROGRAM, INCLUDING DAMAGE TO PROPERTY, AND
+TO THE EXTENT PERMITTED UNDER THE LAW, DAMAGES FOR PERSONAL INJURY, EVEN IF ABSOLUTE
+ENTERTAINMENT, INC, HAS BEEN PREVIOUSLY ADVISED OF SUCH DAMAGES.
+
+THE PROGRAM IS SOLD “AS-IS” AND NO WARRANTIES EXPRESS OR IMPLIED, INCLUDING WAR-
+RANTIES FOR MERCHANTABILITY OR FITNESS OF PURPOSE, WILL BE APPLICABLE.
+
+SOME STATES DO NOT ALLOW LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY LASTS AND/OR
+THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES. SO THE LIMITATIONS
+AND/OR EXCLUSION OR LIMITATION OF LIABILITY MAY NOT APPLY TO YOU, THIS WARRANTY GIVES
+
+YOU SPECIAL LEGAL RIGHTS, AND YOU MAY HAVE OTHER RIGHTS WHICH VARY FROM STATE TO STATE.

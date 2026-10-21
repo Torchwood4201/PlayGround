@@ -1,0 +1,907 @@
+# Super Black Bass
+source: https://archive.org/details/snes_manual_archive
+pdf: Super Black Bass (USA).pdf
+region: USA
+pages: 15
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+HOT.
+
+Distributed by:
+Majesco Sales, Inc.
+244 Fernwood\Avenue
+Edison, Nu 08837
+800-826-0015
+
+PRINTED IN USA.
+
+INSTRUCTION BUURLET
+
+SNS-I
+
+‘BQ-USA
+
+===== Page 2 =====
+
+TABLE OF CONTENTS
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER This instruction manual is divided into three main sections for easier
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE understanding.
+
+2
+USING YOUR NINTENDO® HARDWARE SYSTEM Of GAME PAK. Introduction and Quick Start Guide
+
+1. HOW THE TOURNAMENTS WORK.
+2. STARTING THE GAME.
+3. HOWTOFISH.
+Lake Map Screen
+Casting Screen...
+Retrieving the Lure/Fighting the Fish
+How To End The Game/Weigh-In ..
+
+Professional Fishing Information
+
+HOT-B USA would like to thank the following organizations for their 4. CHOOSING A SPOT ON THE LAKE
+Surface Fishing Points
+
+assistance in the creation of Underwater Fishing Points
+
+ints .
+
+Super Back Bass Fish Finder.....
+
+5. READY TO CAST!
+
+BASSIN’ Magazine and the entire staff at NatCom Inc. Casting Like A Pro.
+
+The entire staff at ZEBCO Corporation. Casting Mark Option
+
+SOC CLAY ENTERPRISES, Inc. for photography. 6. FISHING AT LAST!
+
+Lure Presentation ..
+
+Retrieving The Lure
+
+7. AFISH STRIKES!
+
+| Setting The Hook .
+
+Landing A Fish .
+
+Line Tensior
+
+8. FISHY INFORMATIOI
+
+Your Catch Screen
+Livewell Data.....
+
+Angler Data.....
+
+Tournament Update ..
+
+9. TOURNAMENT WEIGH-IN
+
+General Information
+10. CATCHING A LUNKEI
+11. LAKE MAP DATA.
+12. FISH GUIDE
+13. TACKLEBOX..
+Surface Lures
+
+LICENSED BY
+
+UF
+NINTENDO. SUPER NINTENOO SinteNDO ENTENTANMENT SYSTEM x
+ENTERTAINMENT SYSTEM. ALLMNTENDO PRODUCTS ARE Sink Lures .
+AND THE OFFICIAL SEALS ARE Uicens AL ;
+
+‘ With OTHER AUTHORIZED PRODUCTS 14. FISHIN’ TIPS.
+
+NINTENDO OF AMERICA INC BEARING THE OFFICIAL NINTENDO
+[ST99} NINTENDO OF AMERICA INC SEAL OF QUALITY Glossary of Terms
+
+===== Page 3 =====
+
+1. HOW THE TOURNAMENTS WORK
+
+The following four stages outline the different tournaments. Each of the
+different tournament screens shows the current fishing conditions and
+the lake record.
+
+STAGE I. LOCAL AMATEUR TOURNAMENT
+ee * 50 amateur anglers
+
+* Held 2 times per year.
+
+1 day tournament on Skywater Lake.
+
+* Winner must have the highest cumulative bass
+weight.
+
+* Top 3 anglers qualify for the Amateur Bass
+Championship.
+
+* Ifyou lose, you must try again next season.
+
+JATEUR BASS CHAMPIONSHIP
+
+Mm -° 100 amateur anglers.
+
+* Held 1 time each year.
+
+* 1 day tournament on Clear Lake.
+
+* Winner must have the highest cumulative bass
+weight.
+
+* Top 3 anglers qualify for the Pro Bass Circuit.
+
+* If you lose, you return to the local level.
+
+STAGE Ill. PRO BASS CIRCUIT
+Y- TT * 80 professional anglers.
+
+* Held 9 times per year in different divisions.
+
+* 3 day/3 round tournament on Lake Murphy.
+
+* Winner must have the highest cumulative bass
+weight at the end of 3 days.
+
+* Top 10 anglers qualify, along with the top 10 anglers
+from 2 other divisions, for the Super Bass
+Championship.
+
+* If you lose, you must try again in the next Pro Bass
+Circuit.
+
+STAGE IV. SUPER BASS CHAMPIONSHIP
+S * 30 professional anglers compete for top bass
+honors.
+
+* Held 1 time each year.
+
+* 1 day tournament on Bluestone Lake.
+
+* Winner must have the highest cumulative bass
+weight.
+
+* Top 3 anglers are honored in the final celebration
+scene.
+
+* If you lose, you may try again in the next Pro Bass
+Circuit.
+
+rar cs
+
+Welcome to the exciting world of tournament bass fishing. In this high
+quality fishing simulation you begin as a weekend angler who dreams
+
+of becoming a professional. Each year the top 30 professional anglers
+compete in the Super Bass Championship. Your goal is to work your
+way up through the different tournament levels. Once you have achieved
+status as a professional you will compete for the prestigious title of
+Super Bass Champion!
+
+TOURNAMENT RULES
+
+1. Tournament hours: 7:00 a.m. to 4:30 p.m. Be prompt, or be
+penalized.
+
+2. There is a 1 Ib. penalty for each minute an angler is late to weigh-in.
+If you are more than 20 minutes late, you will lose the day’s weight.
+
+3. Beware of No Fishing areas, for example, near the spawning pool or
+the dock. If you run out of lures, return to the dock for weigh-in.
+
+4. There is a 5 bass maximum allowed in the livewell. Any other bass
+caught will be automatically culled. Ranking is based on the total
+weight of bass in the livewell brought to the weigh-in.
+
+===== Page 4 =====
+
+Make sure the Power switch is OFF. Insert the Game Pak into the Super
+Nintendo Entertainment System control deck and turn the Power switch
+ON.
+
+After the demonstration mode, the title screen will appear automatically.
+Press the START Button. Next, select from one of the following options:
+
+.u..Begin a new game
+Continue a game.
+
+Sound test.
+
+Press the Control Pad Left/Right to choose an option and then press the
+START Button.
+
+This screen will ask you to input your name
+Enter your name, using the Control Pad to select up
+to 8 different characters, and pressing the A Button to
+enter each one. When you have finished entering all of
+the characters, select END and press the A Button.
+
+This screen will ask you to input your password.
+Enter your password, using the Control Pad to
+select the 27 different characters, and pressing the A
+Button to enter each one. When you have finished
+entering all of the characters, select END and press
+the A Button.
+
+EEEresh
+
+FST T)
+
+This screen allows you to hear the different sound
+effects and the music in the game. It also lets you
+choose stereo or mono sound, depending on your
+television's capabilities. Press the Control Pad
+Up/Down to select an option and press the A Button.
+
+If you are starting a new game the next screen
+displays the Official Rules of the tournament. Use the
+Control Pad to scroll Down as you read the rules.
+When you have finished, press the START Button.
+
+The next screen displays information about each of
+the different tournaments. Press the A Button to view
+a map of the lake and current fishing conditions. Press
+the START Button when you are ready to fish.
+
+===== Page 5 =====
+
+3. HOW TO FISH (Quick Start Guide)
+
+There are three main screens that you will use to fish: LAKE MAP SCREEN,
+CASTING SCREEN, and RETRIEVING THE LURE/FIGHTING THE FISH.
+
+LAKE MAP SCREEN
+This screen gives you an overhead view of the boat on the lake, and
+allows you to move your boat and access all the fishing data that you
+
+will need.
+
+Steer the boat ...... Press the Control Pad
+Left/Right.
+
+Accelerate .. ress the A Button.
+
+Reverse ......... ress the B Button.
+
+Go to Casting Screen...Press the Y Button.
+
+Press the L or R Button to choose a data symbol.
+Press the X Button to Open/Close a data window.
+
+Note: Selecting the Arrow symbol lowers the control board from the screen.
+
+This screen lets you view the angler’s perspective of the casting area
+that you have chosen on the Lake Map Screen.
+
+.Press the Control Pad Left/Right.
+
+View the casting area ..
+
+You can cast overhand or flip.
+-Press the A button to raise the bar meter and
+press again to cast your lure.
+
+..Hold down the L or R Button, then press the A
+Button to set the desired casting distance and
+press again to cast your lure.
+
+When the lure is in the air you will see an aerial view of the water.
+You can adjust the lures movements by pressing the Control Pad
+to change direction and by pressing the B Button to thumb.
+
+===== Page 6 =====
+
+Lure Menu
+You have a limited number of lures, 4 each of three colors: Red, Purple
+& Black.
+
+Open the lure menu...........Press the X Button.
+Choose a lure ........-. Press the Control Pad Left/Right.
+Choose a color .Press the Control Pad Up/Down.
+Enter lure choice. .....Press the A Button.
+
+Note: If you run out of one type of lure, it will be replaced in the next tournament.
+If you lose all of your lures, you must retum to the dock for weigh-in.
+
+This is an option that allows you to view the casting area and choose a
+mark where you would like to cast. (See page 13)
+
+RETRIEVING THE LURE/FIGHTING THE FIS
+This screen gives you an overhead view of the water, and lets you
+control your lure movement and battle fish.
+
+When a fish strikes you will hear a snapping sound. You need to set the
+hook immediately. (See Setting the Hook, pg. 16)
+...Press the Control Pad
+
+Left/Right to swing the rod and
+Down to pull the rod up.
+
+Setting the hook..
+
+Once the hook is set follow the directions on the next page for reeling in
+the line.
+
+Reeling in the line
+
+Reel in the line _svv-Press the A Button.
+
+Reel quickly ....................Press A with L or R Button.
+
+Swing the rod. Press the Control Pad Left/Right
+
+Swing strongly . Press the Control Pad with L or R Button
+Pull the rod up .. ....Press the Control Pad Down.
+
+Thumb the line ..Press the B Button,
+
+Reel in line instantly or.......Press A and B Button together.
+
+Cut the line
+
+Caution: You will lose your fish, if you cut the line while reeling.
+Your line will snap if the bar meter reaches the end.
+
+Fran
+ReGCEr.
+
+TO END THE GAME/WEIGH
+To end the game, return to the dock. A message will
+appear asking you if you are ready to weigh-in. Select
+YES with the Control Pad Left/Right and press the
+
+A Button.
+
+The next screen will take you to the Weigh-In. Press
+the A Button whenever you are ready to continue. At
+the end of the weigh-in you will be given a password.
+It is important that you write this password down in
+order to continue where you left off.
+
+===== Page 7 =====
+
+Cruise around the lake, pressing the A Button to accelerate, and the
+Control Pad to change directions, until you find a fishing point you want
+to try. Black Bass feed in the early morning and late evenings. During
+the warmer parts of the day bass stay in deeper waters, especially
+lunker bass. Monitor the temperature changes and the fishing point data
+to fish more effectively.
+
+There are two types of bass fishing points, surface and underwater.
+
+These points are usually visible on the screen, for example: reeds, weeds
+or lily pads. To access data on a surface fishing point, maneuver your
+boat to one of these areas, select the Fishing Point Data symbol on the
+Control Board, then press the X Button.
+
+WATER TEMP.
+WEATHER COND...
+HOT TIPS...
+FISH FACTS..
+
+Varies with the time of day.
+
+Unpredictable as in real life.
+
+water conditions.
+
+} Advice based on weather and
+
+Underwe
+
+This describes any fishing points that are not visible to the eye, because
+they are located underwater. Use the Fish Finder to monitor the lake
+floor and locate fish.
+
+On the bottom right side of the control board is the fish finder, an
+electronic device that uses sonar to detect fish. Any flicker that you see
+is normal. As you accelerate, the topography of the lake floor will scroll
+along. When the sonar detects fish you will hear a “pong,” and fish will
+appear on the fish finder screen. Press the Y Button when you wish to
+begin casting.
+
+Nira ent
+
+===== Page 8 =====
+
+Once you have selected a fishing point, you are ready to cast. Monitor
+the current fishing conditions using the gauges provided on the bottom
+of the screen.
+
+Determine carefully where you want to cast your line based on your
+knowledge of bass habits. Don’t spend much time in any one area. You
+may only scare the fish away and waste valuable time in the tournament.
+The key to good fishing is timing, knowing when to fish a spot and when
+to move on.
+
+Selecting a Lure
+
+Choose the best lure after carefully considering the current
+fishing conditions and the Fishing Point Data provided. You may
+begin fishing with the pencilbait lure that is provided or select a
+different lure. If you need further explanation about the different
+lures, please see pages 24-25.
+
+RHAND CASTING
+
+This is an effective casting method when you want to cast far out into a
+specific area. Use the bar meter as a guide to the distance that you want
+to cast.
+
+FLIPPING
+
+This is an effective casting method when you want to cast short range
+with deadly accuracy. Cast out to the left or to the right depending on
+where you want your lure to hit the water.
+
+Casting Tip: Cast a little beyond where you aim, then thumb the line just before the lure hits
+
+the water. This will decrease the speed of the lure so that it will land more
+quietly on the surface of the water.
+
+Casting Mark Optior
+You may select a casting mark, in order to practice or perfect your
+casting skills. The purpose of a casting mark is so that you can aim for
+
+a specific fishing spot.
+
+Press the B Button for an overhead view of the casting mark area.
+Press the Control Pad to move the marker.
+
+Press the A Button to select the casting mark and return to the
+Casting Screen.
+
+Follow the above directions each time you wish to select a new
+casting mark.
+
+The casting mark that you have chosen will be highlighted, and an arrow
+will appear alongside of the bar meter. This arrow indicates the distance
+that you need to cast.
+
+ow
+Right on target!
+
+oe
+Cast past the Casting Mark
+
+Ci a |
+Aim to hit the Casting Mark
+
+Casting Advice: Aim to cast just beyond your casting mark, and press the B Button to
+thumb.
+
+13
+
+===== Page 9 =====
+
+> AT LAST! Retrieving are
+Remember, when you reel in the line, pull up the rod, or swing it left or
+right you are controlling the lure. With practice, you will learn to have
+very precise control over your lure movements.
+
+You've cast your line and now you're ready for some action. The
+challenge begins by making artificial lures move in a realistic manner.
+This requires a combination of skill, dedication and luck which
+separates amateur anglers from professionals.
+
+Lure Presentation
+
+The key to lure presentation is developing a style of movement that
+works for you. Artificial lures are just that, artificial. So, it's up to you to
+imitate the motions of live bait that will incite the fish's striking instincts.
+For example, pencilbait lures resemble small fish, so you need to move
+the lure to resemble a fish swimming near the surface of the water.
+
+AS
+
+Artificial lures are designed using a variety of different colors, shapes,
+sounds and movements. Some are designed to float and other to sink.
+Some are designed to avoid snags in dense areas. For example, the
+spinnerbait maneuvers well in the reeds.
+
+Tip: If you snag your lure, press the Control Pad LEFT/RIGHT and the L and R Buttons to
+work it loose. If nothing works cut your line, by pressing the A and B Buttons together.
+Then, select a new lure.
+
+| 14
+
+===== Page 10 =====
+
+When the fish strikes you will hear a “snapping” sound. Quickly swing
+the rod Left/Right or pull the rod Up to set the hook. You will know the
+fish is hooked by the movements on the line tension gauge.
+
+Timing is crucial when setting the hook. Wait until you
+are certain the fish has taken the lure in its mouth.
+Otherwise, the fish may shake the hook loose.
+
+Learning to land a fish without losing it or snapping your line takes time
+and practice. Ease the fish in. Don’t reel in the line continually. If the fish
+takes off, let him run a bit, then thumb the line and gradually reel in the
+slack. Practice these steps and you should notice the fish getting tired.
+
+Line Tensior
+Monitor the line tension gauge when fighting a fish. The top arrow
+measures the fish’s strength, the bottom arrow measures the angler’s
+strength. These arrows travel along the gauge, turning from blue to red,
+indicating lagging strength. Line tension is measured by a bar meter. A
+warning bell will sound if your line is in danger of snapping. Your line will
+snap when the bar meter reaches the end.
+
+Tip: Beware when the fish jumps! The line is in danger of snapping, so ease up.
+
+Tip: Sometimes the fish may shake the hook loose. If so, you should try another fishing point,
+because the commotion will most likely scare any other fish away.
+
+16
+
+Your Catch Screen
+
+When you land a fish, this screen will appear, informing
+you what type of fish you have caught and the
+approximate weight. Press the A Button and the next
+screen displays the contents of your livewell
+
+Livewell Data
+
+This screen lets you check data about the biggest
+bass that you have caught, where you caught them,
+the fight time, and the approximate weight. The
+livewell holds up to 5 bass, all other bass caught are
+automatically culled.
+
+Note: You cannot keep any other types of fish.
+
+Angler Data
+
+Current data on your personal condition. There are
+three parts: Player's Skill, Techniques, Player's
+Strength.
+
+Your skill level increases once you begin to catch
+bass. The more your skill level increases, the more
+your physical strength and technique levels will
+also increase. Catching as many bass as you can
+will help you to progress.
+
+Increasing your techniques level allows you to
+move your lure in a more realistic manner. This will
+cause bigger bass to strike and you won't lose
+them as easily.
+
+Increasing your strength gives you more power to
+reel in the line. This allows you to catch bigger
+bass more quickly and easily.
+
+Tournament Update
+
+This screen lets you check data, updated every two
+hours, on the top 10 anglers and your current ranking,
+Check this data often to keep track of your
+tournament standing.
+
+17
+
+wer
+
+sa
+
+Tt
+KS LIKE A LUNKER)
+
+===== Page 11 =====
+
+The tournament ends at 4:30 p.m. When you arrive at the dock a
+message will appear asking you if you are ready to wei
+or No by pressing the Control Pad LEFT or RIGHT and press the X
+Button. Press the A Button to continue from screen to screen.
+
+At the end of the weigh-in you will be given a password. If you wish to
+continue participating in this tournament, you must write down the
+password. If you do not record the password, you will need to start from
+the beginning the next time you decide to play.
+
+Caution: Be careful that you record all of the characters correctly. (For example, the spade
+and the club, the 2 and the Z.)
+
+18
+
+40, CATCHING A LUNKER
+
+Lunker bass are set in their feeding times and their habits. During most
+of the day they rest deep in the water and don’t move.
+
+Se
+weg WE
+
+Lunker bass are not easily attracted to artificial lures. Chances are that
+the bass may have been caught and released before. Try to make your
+lure movements as realistic as possibl
+
+Enticing a lunker to strike takes skill. Choose the proper lure, work it
+effectively and above all BE PATIENT. Most of the older, bigger bass will
+
+not be easily fooled.
+a
+
+Lunker bass lay deep in the waters and do not move much. If you see a
+shadow that may be a lunker, cast your lure a little beyond it and reel in
+the line. Repeat this several times, and change your lure, lure color and
+lure movement if necessary. You will see a murky cloud and the bass
+will begin to move if you move your lure correctly.
+Nee, SHU
+s£ ; Gli
+
+ee Es Pad
+
+Some of the lunkers weigh more than 20 Ibs. Don’t think it will be easy
+to reel one in. The best method of tiring him out is by making sure he
+never gets much of a chance to rest.
+
+19
+
+===== Page 12 =====
+
+11. LAKE MAP GUIDE
+
+Skywater Lake...Stage 1
+
+Asmall, shallow mountain lake. The bottom is extremely rocky from
+previous volcanic eruptions. Vegetation is dense with an abundance or
+weeds and reeds. Most of the good fishing points are sporadically
+located.
+
+Clear Lake...Stage 2
+
+A large, man-made lake. The dam flooded a large area where there used
+to be houses and trees. There are several good bass fishing points. It
+has been rumored that lunker bass might be found in the deep, middle
+part of the lake where the river once flowed.
+
+Lake Murphy...Stage 3 (3 day / 3 round)
+
+An old, shallow lake. Its murky waters are covered with many reeds,
+weed beds, and lily pads. Many of the good fishing points are found
+near the shore. This lake will be divided into three areas marked off by
+buoys.
+
+Bluestone Lake...Stage 4
+
+Awide, field lake. Many different kinds of fishing points are found under
+docks and bridges, near the island and in the shallow areas. The
+spawning areas are off limits. Rumor has it that this is the place to catch
+a world record lunker. For this reason, this lake was chosen to be the
+site of the Super Bass Championship.
+
+20
+
+21
+
+===== Page 13 =====
+
+The following is a brief description of the five different species of fish
+that you can catch. Each of the fish has its own particular habits, which
+any good angler knows.
+
+BLACK BASS
+
+This is one of the biggest game fish in America. Anglers love the
+challenge of fishing for bass because of the size he reaches and
+because he is so elusive.
+
+BLUE GILL
+This fish is easily recognized by his shape and blue color. He is mostly
+found in highly vegetated lakes.
+
+22
+
+RAINBOW TROUT
+Another of the country’s biggest game fish. He gets the name “rainbow”
+because of the pink to red stripe that runs laterally down his side.
+
+CATFISH
+This fish was named for his 4 pairs of barbels around his mouth. Some
+species have fin spines that are venomous.
+
+NORTHERN PIKE
+
+This fish has a long body with a pointy face and forked tail. He is a
+favorite game fish because of its strength. These fish sneak attack their
+victims by darting from cover, catching their prey with razor teeth.
+
+===== Page 14 =====
+
+* left and right imitates a:small fish:
+
+_ LEFT and RIGHT, while reeling inthe line. ©
+
+<The, following is.a brief. description of the: eight different types.of lures
+
+that you'can-use. Each.of the lures comes in three colors and there is a
+limited quantity. If you lose alt of your lures, they will not be replaced .
+until the next tournament date.
+
+Surfiée lures: past
+
+PENCIL BAIT::A thin, float lure, usefullin:shallow place: When, moved
+
+struggling on top of the water: ‘Suggested
+movement is to press the Control Pad
+
+POPPER: A minnow sized float lure; usefut.in shallow places, that has a
+depression in the front thatmakesa e ee
+
+“popping” sound and splashes in the water. ©
+Stiggested movement is to press the Control -
+Pad DOWN, while reeling in the line slowly.»
+
+SWISHER: A.K.A., ‘propeller. bait. This float lure, useful in.shallow areas,
+
+1as-one -ormore propellers in the front or
+
+backi4t, causes great action in the water
+
+_ pressing the Contral Pad DOWN.
+
+‘when retrieving the line. Suggested
+movement is to reel in the line-slowly, while
+
+Control Pad ina a LEFT /RIGHT. ecion.
+
+~ down.
+
+_ by tapping the Control Pad DOWN..*
+
+SPINNERBAIT. “Areial tu
+
+and vibrates in the water. Suggested movement
+is to.reel in the line slowly, while pressing t jthe
+
+CRANKBAIT: A sink lure resembling a slowly
+
+sinking small baitfish, best used around floating
+vegetation. Suggested movementis to reel”
+in'the line using a start, stop motion. 5
+
+RUBBER JIG: A sink.lure with a skirt covering.a iead-nead and, hook:
+with’a piece of rubber trailing behind vibrating
+‘invitingly. Suggested movement is.to tap the
+‘Control Pad ‘DOWN, to;make:the lure pop up a and |
+
+ptastic WORM: A. sink lure-res bling @ worm, and sworn to be the
+all around best artificial lure. Suggested movement is to’make
+the lure wiggle. and jiggletike the real thil
+
+===== Page 15 =====
+
+14. FISHIN’
+
+Moving the rod
+
+Swinging the rod left and right and reeling in the line is not enough to
+make the lure movements realistic. Each of the lures has a specific
+movement that works best. See the Tacklebox Section for suggestions.
+
+Swinging the rod can create slack in the line. Reel in the slack by
+pressing the A Button.
+
+Reeling in the line
+
+Be careful of line tension when trying to land a large bass. The warning
+bell will sound and you must release the line tension. Watch the bar
+meter and begin to reel again when you feel that it’s safe. Your line is in
+danger of snapping when the fish jumps, or thrashes in the water.
+
+If your line becomes snagged when you have a fish on the line, all you
+can do is try swinging the rod to the left or right. If nothing works, press
+the A and B Button together to cut the line.
+
+When the fish runs, don’t reel or you will only tire yourself out. Better to
+let him run and ease him in.
+
+Bass Habits
+
+The amount of sunlight you have to fish by depends on the time of day,
+and the weather, of course. You will notice the light patterns changing at
+different times of the day.
+
+Consider the wind direction when casting your line. You may want to
+adjust your casting distance based on the direction the wind is blowing.
+
+You might try working an area from one end to another as an effective
+way to find where bass may be hiding.
+
+If a fish shakes the hook loose, he will be wary the next time. Consider
+moving to another fishing point.
+
+ACTION “The movements of a lure in the water.
+
+BAIT ‘Any number of artificial objects used to entice bass into striking,
+
+COVER Anything that a bass can use to hide in or under.
+
+CULL ‘Adding oF subtracting fish from the livewell so that the larger remain.
+DROP-OFF ‘A sharp change in the water's depth.
+
+FISH FINDER ..........A sonar unit that displays underwater objects, including fish,
+
+FLIP v-nnned Casting technique where you “flip” your lure out with an underhand motion,
+LINE TENSION The tautness of a line caused by a hooking a strong fish or a line snag
+LIVEWELL -An on-board fishing tank that keeps the fish you have caught alive.
+
+LUNKER ‘A trophy-sized bass.
+
+PRESENTATION........Lure movement methods designed to cause a fish to strike,
+RETRIEVE .-miMethod of reeling in the line.
+
+90-DAY LIMITED WARRANTY
+
+Majesco Sales, Inc. warrants to the original consumer purchaser that this Nintendo
+
+Game Pak (PAK) shall be free from defects in material and workmanship for a period
+
+of 90 days from date of purchase. If a defect covered by this warranty occurs during
+
+the 90-day warranty period, Majesco Sales, Inc. will repair or replace the PAK, at its
+option, free of charge.
+
+To receive this warranty service:
+
+1. DO NOT return your defective Game Pak to the retailer.
+
+2. Notify Majesco Sales, Inc. of the problem requiring warranty service by calling our
+Technical Support Dept. at (800) 826-0015, and leave a message.
+
+3. If the Majesco Sales, Inc. Service Representative is unable to solve the problem by
+phone, you will be provided with a Return Authorization number. Simply record this,
+number on the outside packaging of your defective PAK, enclose your name,
+address and phone number, and return your PAK, FREIGHT PREPAID AND
+INSURED FOR LOSS OR DAMAGE, together with your sales slip or similar proof of
+purchase (UPC code) within the 90-day warranty period to:
+
+Majesco Sales, Inc.
+244 Fernwood Avenue
+Edison, NJ 08837
+
+This warranty shall not apply if the PAK has been damaged by negligence, accident,
+unreasonable use, modification, tampering, or by other causes unrelated to defective
+materials or workmanship.
+
+* Repairs/Service after Expiration of Warranty
+
+If the PAK develops a problem requiring service after the 90-day warranty period, you
+may contact the Majesco Sales, Inc. Technical Support Dept. at the phone number
+noted earlier. If the Majesco Sales, Inc. Service Representative is unable to solve the
+problem by phone, you may be informed of the approximate cost for Majesco Sales,
+Inc. to repair or replace the PAK, and provided with a Return Authorization number.
+Record this number on the outside packaging of the defective PAK and return the
+merchandise, FREIGHT PREPAID AND INSURED FOR LOSS OR DAMAGE, to
+Majesco Sales, Inc., and enclose a money order payable to Majesco Sales, Inc. for the
+cost quoted to you. If after personal inspection, the Majesco Sales, Inc. Service
+Representative determines the PAK cannot be repaired, it will be returned and your
+payment refunded.
+
+* Warranty Limitations
+
+ANY APPLICABLE IMPLIED WARRANTIES, INCLUDING WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE HEREBY
+LIMITED TO NINETY DAYS FROM THE DATE OF PURCHASE AND ARE SUBJECT
+TO THE CONDITIONS SET FORTH HEREIN. IN NO EVENT SHALL MAJESCO SALES,
+INC. BE LIABLE FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES RESULTING
+FROM THE BREACH OF ANY EXPRESS OR IMPLIED WARRANTIES.
+
+‘The provisions of this warranty are valid in the United States only. Some states do
+‘not allow limitations on how long an implied warranty lasts or exclusion of
+consequential or incidental damages, so the above limitations or exclusion may not
+apply to you. This warranty gives you specific legal rights, and you may also have
+other rights which vary from state to state.

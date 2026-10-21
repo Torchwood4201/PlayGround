@@ -1,0 +1,661 @@
+# Flashback - The Quest for Identity
+source: https://archive.org/details/snes_manual_archive
+pdf: Flashback - The Quest for Identity (USA).pdf
+region: USA
+pages: 12
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+ie SA 2 eat '
+
+- INSTRUCTION BOOKLET
+
+i
+~ SONY :
+1 =) |
+a tS
+es & |
+a |
+IMAGESOFT. KK |
+f } SONY {
+DISTRIBUTED BY COLUMBIA TRISTAR HOME VIDEO UK, HORATIO HOUSE, 4TH FLOOR, - ™ )
+77-85 FULHAM PALACE RD, LONDON W6 8JA. { EN EO RUTPASE NE MOE ONT M
+PRINTED IN JAPAN \ PAL VERSION iMacesort, Eee
+M £9 Oh bee 5 pe eee
+
+===== Page 2 =====
+
+Please read this instruction booklet thoroughly to ensure maximum enjoyment of your
+
+new game. Then save this book for future reference.
+
+WARNING: PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND.
+PRECAUTIONS BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR
+NINTENDO°HARDWARE SYSTEM, GAME PAK OR ACCESSORY.
+
+Thank you for selecting the Flashback Game Pak for your Super Nintendo
+Entertainment System™.
+
+Under exclusive licence to Sony Imagesott Lid ™
+Creation and Development: Delphine Software
+International. © 1993 Delphine Software
+International. © 1993 U.S.Gold Ltd, Al rights
+reserved. U.S.Gold registered trademark of
+U.S.Gold Ltd Licensed by Nintendo. Nintendo®,
+‘Super Entertainment System™, The Nintendo
+Product Seals and other marks designated as
+“TM” are trademarks of Nintendo
+
+IMAGESOFT.
+
+Original»
+\ Seal of
+
+LICENSED BY ually
+
+‘THIS SEAL IS YOUR ASSURANCE THA’
+INTENDO®, SUPER NINTENDO NINTENDO HAS APPROVED THE ‘QUALITY
+ENTERTANVENT ‘SYSTEM™ PRODUCT, ALWAYS {GOK FOR
+IE NINTENDO PRODUCT. Shug SEAL Wr ING
+Seals AND OTHER MARIS AeceSeonles To ENSURE COMPLETE
+DESIGNATED AS "TM" ARE. COMPATIBILITY WITH YOUR SUPER.
+TRADEMARIS OF NINTENDO INTENDO ENTERTAINMENT SYSTEM.
+
+Table of Contents
+
+Game Scenario ....
+
+Your Quest starts here ..
+Getting Started ....
+Playing the Game .....
+
+Interacting with your surroundings
+Inventory ..
+Objectlist ....
+Miscellaneous devices .
+Shield
+Resetting the game
+Summary of General Commands
+Hints and Tips...
+Limited Warranty
+
+===== Page 3 =====
+
+Game Scenario:
+
+The year 2142, Conrad Hart, agent with the Galaxia Bureau of Investigation
+was in great danger.
+
+“Got to keep one step ahead of them, if | don’t I'm hamburger!”
+
+Hugging the shop fronts, collar turned up, he was making his way back to
+his apartment.
+
+“I must try and contact Sonya, wherever she is, and get to headquarters, it's
+the only safe place.”
+
+While field testing his latest piece of equipment, the Molecular Density
+Analyser, Conrad and his girlfriend Sonya made a startling discovery.
+Certain individuals had a molecular density so high, the only conclusion
+could be that they weren't human! Since then, Sonya had mysteriously
+disappeared, leaving him as the only one who could warn the authorities.
+
+“They'd better believe me... Still, if they don’t, the visual record of my
+discovery can be extracted from my cloned memory patterns within this
+holocube I'm carrying. They've got to believe that!”
+
+Reaching his apartment block, movement from the top of the building
+Opposite caught his eye. As he turned around to get a better look,
+
+a pulse of laser light caught him square in the centre of his back, sending
+him sprawling across the sidewalk. Almost immediately, the silence was
+broken by a whining roar. A sleek shuttle hovered over head. Its landing
+thrusters blew clouds of water vapour and trash into the air all around as it
+sat down beside him. Two dark suited figures got out and with their eyes
+scanning the surrounding buildings, quickly approached an unconscious
+Conrad.
+
+“Get him into the shuttle fast!” rasped one of his captors, “I'll contact
+central command.”
+
+He brought a walkie talkie up to his mouth.
+
+“Number Seven here. Subject acquired, we're bringing him in.”
+Semi-conscious and totally paralysed, the only thing Conrad could do was
+listen to the voices of his kidnappers coming from the front of the shuttle.
+
+“| don’t see why they bother with all that memory erasure business.” Came
+a voice. “ Why don't they just have us kill him and be done with it?”
+
+After a short pause another voice responded.
+
+“Insurance...We'll place one of our agents in his job with orders to gather as
+much information as possible. If for any reason, the operative is threatened
+with discovery, we can extract him and send this one back minus his
+memory. Everyone will think he’s gone ga- ga...leaving us undiscovered.”
+“Ah...1 see, but where...”
+
+Suddenly a third voice blasted over their conversation.
+
+“SHUTTLE HQ782, THIS IS TITAN FLIGHT CONTROL, STAND BY TO RECEIVE
+RE-ENTRY COORDINATES.”
+
+“TITANI!” The thought almost burst out of Conrad's skull. “I know I've been
+Squirming, fighting against his bonds,he could feel what little strength he
+had left slowly slipping away.
+
+“Got to remember to escape, escape, escape, escape, exca..”
+
+The shock of his position was too much for Conrad, a wave of
+unconsciousness swept over him.
+
+Light, Blinding light. Conrad staggered to his feet. Grazes and cuts on his
+wrists and ankles burned painfully.
+
+“Can't remember... where am | ..., who am |..., what's going on?”.
+
+Before Conrad realised what he was doing, he was running down a long
+corridor gun in hand.
+
+“Got to getaway!” the thought kept repeating itself over and over in his
+head. Alarms suddenly broke the silence.
+
+“ATTENTION, ATTENTION... DANGEROUS PATIENT ATTEMPTING TO
+ESCAPE... SECURE ALL EXITS... SECURITY TEAMS TO LEVEL 3........ ATTEN”
+
+Conrad stopped dead in his tracks. Confused and scared, not knowing which
+way to turn he stood transfixed.
+
+PTOOM!!
+
+A laser blast striking the wall nearby shook him back to reality. Two guards
+were closing in on him. This is security team 2, patient near entrance to
+main hangar area. Close security door, level 3.”
+
+===== Page 4 =====
+
+With no time to think, Conrad hurled himself through the closing doorway.
+Scrambling to his feet, he spotted a hover bike.
+
+“Open the door! Open the door!” Both guards yelled into their intercoms,
+watching Conrad climb aboard the bike.
+
+“Stand back!” Three blasts from one guard's laser gun and a shoulder
+charge from both of them shattered the door. Conrad had already cleared
+the hangar by the time the guards had bought their guns to bear.
+
+a frustrated guard called in the news.
+
+“ The patient has escaped on a stolen hover bike, continuing to pursue in a
+shuttle.”
+
+‘Skipping the tree tops, the shuttle and the hover bike were locked in an
+aerobatic cat and mouse game. The more agile hover bike ducking and
+dodging laser blasts from the larger, but slightly faster, shuttle that was
+slowly closing in.
+
+“5 more seconds and I've got him!” The determined guard muttered as he
+began to match Conrad's manoeuvres with the targeting cross-hair on his
+heads-up-display.
+
+Two pulses narrowly missed but the third one hit its target. A plume of
+sparks and white hot gas exploded out of the back of the bike marking the
+end of Conrad's bid for freedom. rocking violently the bike spiralled
+downward out of control. Conrad plunged through the jungle canopy and
+with the ground rushing up towards him, blacked out. The shuttle circled
+over the crash sight once. Satisfied that there was nothing left to salvage,
+the smug guards returned to their base. Unknown to them, Conrad was still
+alive lying in the undergrowth.
+
+As the sound of the shuttle’s engines died away into the distance, Conrad
+stirred. Moving his arm to try to get to his feet he knocked what looked to
+him like a small plastic box over a ledge. Standing up he walked over to the
+ledge and looked around. Vegetation covered everything, huge trees draped
+in vines, rocks and boulders overgrown with mosses and grass. He could
+clearly see the box about 10 metres below, a red light on the side of it
+blinking steadily.
+
+“Might as well go fetch it.” Conrad thought.”! suppose it could contain
+something useful.”
+
+He thought he was safe now. However, we know different and it’s up to you
+to make sure Conrad gets to know too.
+
+Your Quest Starts Here:
+
+You play the part of Conrad Hart, controlling his every move through the 6
+levels of the game. During your quest, you will come across many different
+friends and foes who you may wish to help or vanquish using your gun. You
+will have to complete many challenges in order to restore your lost memory.
+Each level features its own unique graphics and hazards, linked by
+cinematic animation sequences.
+
+Getting Started
+Make sure your Super NES™ is OFF.
+
+; Make sure a Control Pad is plugged into the port labelled 1 on the
+Control Deck.
+
+3 __ Insert the Flashback game pak into your Super NES™. Press firmly to
+lock the Game Pak in place.
+WARNING:
+Never try to insert or remove a Game Pak when the power is ON.
+Turn the power switch ON.
+
+L Button
+
+Control Pad
+
+Select Button Y Button A Button
+Start Button B Button
+
+After the title screen is displayed, an animation sequence explaining the
+story so far is displayed. If you have seen this sequence before, you may
+press the START button on Control Pad 1 to jump to the Main Menu.
+
+5
+
+===== Page 5 =====
+
+MAIN MENU
+To select an option, use the Control Pad up/down buttons to move the
+highlight, and the START button to select the option.
+
+Start: Start a new game.
+
+Password: Allows you to enter a Password, and re-start the game from the
+beginning of the level that the Password corresponds to, it will also restore
+the difficulty level. The Password for Level 1 (normal difficulty) is DLRGS, this
+is the same as starting the game with the START option. To select the
+password, use the Control Pad to move the cursor, and select using the ‘Y’
+button, ‘B’ button for Backspace and ‘A’ button to Clear. When you have
+entered all the letters of the password, press the START button. If the
+Password is incorrect, you will return to the Main Menu. At the start of each
+level, a new password will be displayed in the centre at the top of the
+screen. N.B. Please take a note of each password required for each level for
+easy reference.
+
+Options: Use the up/down Control Pad buttons to select an option, then by
+using the left/right Control Pad buttons, you may change the setting.
+
+Level: Allows you to choose the game difficulty (easy, normal, expert)
+Language: Allows you to choose English or French in-game text.
+
+Control Type: Allows you to choose different button configurations (3
+possible choices). The buttons referred to later are the options when the
+machine is switched on and no changes to the buttons have been made.
+
+Exit: Returns you to the Main Menu
+
+Demo: Runs a demo of the game. Pressing any button on Control Pad 1, will
+return you to the Main Menu.
+
+Playing the game:
+On the screen you will see Conrad, his movements are varied and some of
+them complex. Please refer to the section Summary of General Commands
+later in this manual for all available moves.
+
+Interacting with your surroundings.
+As you move through the level, you will come across many people and
+objects. Each time you come across one, the name and an icon will be
+displayed at the top left of the screen. The icon will explain which way you
+can interact with the object. Pressing the “Action” button performs the
+action indicated by the icon. The various icons are as follows:
+
+Take
+Pick up an object (stone, key, etc)
+and place it in your inventory.
+
+Talk
+Talk to a person.
+
+===== Page 6 =====
+
+Look
+Examine an object or a notice,
+
+Activate
+Operates doors, lifts etc.
+
+Recharge
+Recharges your shield or cartridge.
+
+Use
+Allows you to use an object from your inventory (e.g. inserts
+a keycard into a cardlock). It may also be used to give
+
+items to other people.
+
+Inventory
+
+To Open / Close the Inventory, press the SELECT button. At the start of the
+game, there are already several objects listed. As you ‘Take’ further items,
+on your journey through each level, they will be added to your inventory.
+At the end of each level, any unnecessary objects will be discarded.
+
+You may be given extra objects to help you complete the next level.
+
+Once you have opened the inventory, use the Control Pad to move the
+selector left / right. If other objects have been stored an arrow will be
+displayed, and you may move to the extra object lines by pressing the up /
+down buttons. To select an object, highlight it and exit the inventory with the
+SELECT button. That object will now be active. If you give the object away,
+the previously selected object becomes active again.
+
+The active object is displayed in the top right hand corner of the play screen.
+
+Whilst in the Inventory, press ‘Y’,’B’ or ‘A’ buttons to display the current
+score and difficulty level.
+
+===== Page 7 =====
+
+Exploding mouse
+Similar to the mechanical mouse, but explodes at the
+slightest touch. May be picked up when not moving.
+
+Object List
+
+Here are some of the objects which you may find in the course of the
+adventure.
+
+Holocube
+Contains important information
+
+ID Card
+Identity card. Some may be used as keys.
+
+Force Field
+Creates an energy barrier which stops enemy shots.
+
+Teleport Receiver
+
+The character may teleport to where the receiver is
+placed - works only in conjunction with the Teleport
+Remote Control. This object may be thrown or placed.
+
+Teleport Remote Control
+>. Works only with the receiver and allows you to teleport to
+‘the receiver's position. You can retrieve the receiver
+
+Stone
+Can be thrown or placed.
+
+automatically by putting the remote control down.
+
+Gun
+Your main weapon
+
+Credits
+Money.
+
+E}
+Magnetic cartridge
+Creates an energy source when recharged and placed
+in the corresponding generator.
+
+Mechanical mouse
+Advances along the ground setting off pressure pads
+and cameras.
+
+nu
+
+===== Page 8 =====
+
+Key lock
+
+Miscellaneous devices
+Operated by a key. Opens doors or trap-doors,
+
+Used with certain objects to activate them.
+
+Teleport
+Transports you to a place that is inaccessible on foot.
+
+Save
+The game can be restarted from that point. The memorised
+position will be erased if you switch off your machine.
+
+Energy Generator
+Allows you to recharge the shield or magnetic cartridge.
+
+Shield
+Switch The shield is an item in your inventory. You start with 4 shields, and each
+time you are hit, you will lose 1 shield. If you have no shields left and you
+take a hit, you are dead. You can recharge your shield using the energy
+
+generator, However there are death hazards,
+
+Opens a door or calls a lift.
+
+Camera Immediate death if you cross this.
+May open or close a door, call a lift etc. It also aims
+automatic fire from the laser cannon.
+’ Electrified floor
+Pressure pad You may run or jump over it.
+May open or close a door, calla lift and may also set
+off an alarm.
+
+If the character falls more than two floors, he dies. However, it is possible to
+Card lock > stop yourself falling if you are lucky enough to catch a side wall.
+Operated by an ID Card. Opens doors.
+
+13 mS
+
+===== Page 9 =====
+
+Hazards
+
+During the game, you will come across various kinds of enemy and killer
+objects, The enemy may be destroyed by using your gun. However killer
+objects cannot be destroyed using your gun. These objects are as follows:
+
+Land mine
+Explodes when you pass over or near to it. An explosion
+destroys one shield. Itis possible to jump over these.
+
+Falling mine
+
+Explodes on contact (with the ground, the character,etc.)
+and destroys one shield. If any object passes beneath one
+of these mines it will cause it to fall.
+
+Laser Cannon
+
+ak. Causes death if the character has no shields left. Is only
+a set off by a camera or pressure pad.
+
+Resetting The Game
+When playing the game, you may re-set it by pressing ‘Y’, ‘B’, ‘A’ and
+‘SELECT’ simultaneously. This will take you to the Continuation screen.
+
+END OF GAME
+If Conrad dies, the game is over, and the continuation screen will be
+displayed. If you decide to continue, press the START button, and you will
+
+re-start the game from the last saved point or the beginning of the last level.
+
+If you do not wish to continue, pressing either of the ‘Y’, “B’ or ‘A’ buttons
+will decrease the counter faster.
+
+Summary of General Commands:
+1 Control Pad Moves the character during the game.
+
+2. SELECT button Opens and closes the inventory during the game.
+Shortens the animated scenes.
+
+Y button“Action” button (running, jumping, firing, picking up
+an object, etc.)
+
+B button “Use” button (use an object selected from the
+inventory and placing down object).
+
+A button Draws the gun or puts it away.
+
+CONTROL PAD USE The instructions below are for preset control
+settings: Control Pad 1
+
+@ To call a taxi, stand facing the stop and press button Y.
+
+@ To take the Metro, stand in the entry zone, wait for the train to arrive and
+press the “Action” button.
+
+===== Page 10 =====
+
+To Ascend or Descend on a Lift
+AL 00 9,
+peace peso
+
+i
+
+To Ascend *To Descend
+
+& ao OO A. 8: oO $
+ce apes pogo
+Run
+
+Stand Still Walk Roll Stand Still
+
+De
+oe, 7 Bas
+}
+M
+i @
+Stand Still Small Jump Stand Still
+
+If you hold down button Y the
+character hangs in mid-air.
+
+a Ao ao PEs\
+( <y>e5° <pefo <poge
+i ‘ —
+
+* Going down one floor
+
+16
+
+*Run «Large Jump
+
+Are°,
+<ppeoe
+
+pe ar
+eg A
+
+D
+LoMKo}
+
+* Run and hang on to a higher floor automatically
+
+Ay 90 Ade
+4
+peo Pogo
+
+* Crouch
+
+7
+
+===== Page 11 =====
+
+ons
+
+* Drop down a floor with the gun drawn on landing
+
+Ar0° pe! po
+<poge Spode ° Ff
+Climb up a floor then draw the gun.
+N
+oo. oO.
+
+000 080
+Stand *Take gun * Advance with Take aim - : i g aaa 2
+Still out the gun or fire
+* Stand Still * Roll
+7. °
+ypeto Grose <Gpeoo Geo peo
+‘ is = & To pick up an object from the To talk to someone or to
+ground, move the character press a lever press button Y
+*Kneel down with * Come out of roll with onto the object and press
+the gun ready the gun ready button Y.
+
+===== Page 12 =====
+
+Spoke <p oo dete n,
+fieai if
+
+To put some objects on the ground, select * To use or give away an
+itwith “SELECT” and then press button B. —_ object, select it with “SELECT”
+then press button B.
+
+*To throw an object, select
+the object with “SELECT”
+then press button B.
+
+U.S. GOLD/NINTENDO
+HELPLINE
+
+US. Gold is dedicated to your enjoyment of this game. However if you
+need a helpful hint then we have a special telephone number for you
+available 24 hours a day, 7 days a week. This line also includes
+information on new releases, promotions and events!
+
+CALL NOW ON
+0839 654 250*
+This service is provided by U.S. Gold Limited, Units 2/3 Holford Way,
+Holford, Birmingham B6 7AX. Tel: 021 625 3366
+Please obtain permission to call from
+
+the person who pays the bill
+Calls cost 36p per minute cheap rate, 48p per minute all other times.
+(Maximum charge £2.40). Prices correct at time of going to press. If in any
+doubt contact U.S. Gold Customer Services for full details of current
+charges and contents.
+
+* Available in the UK only
+
+20
+
+Hints and Tips
+
+Before starting your quest, pick up the holocube and read the information.
+You may not travel far without it. Source information from people you talk to,
+to help you. Search the screen for objects which may not be obvious at first
+glance. Keep an eye on your shields, you may be closer to death than you
+think. Save the game regularly.
+
+Limited Warranty
+
+“Sony Imagesoft warrants to the original purchaser of this Sony Imagesoft
+product, for a period of ninety (90) days from the date of purchase, that this
+Game Pak is free from defects in material and workmanship and agrees,
+within such period and at its option, to either repair or replace it free of
+charge. Send product postage paid, together with dated proof of purchase,
+to the address shown below. This warranty shall not be applicable and shall
+be void if the defect in this Sony Imagesoft product has arisen through
+abuse, unreasonable use, mistreatment or neglect.
+
+THIS WARRANTY IS IN LIEU OF ALL WARRANTIES AND NO OTHER
+REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE BINDING ON
+OR OBLIGATE SONY IMAGESOFT. ANY IMPLIED WARRANTIES APPLICABLE
+TO THIS SOFTWARE PRODUCT, INCLUDING WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE
+LIMITED TO THE NINETY (90) DAY PERIOD SPECIFIED ABOVE. SUBJECT TO
+THE FOREGOING, THIS SONY IMAGESOFT PRODUCT IS SOLD “AS IS",
+WITHOUT EXPRESS OR IMPLIED WARRANTY OF ANY KIND, AND SONY
+IMAGESOFT IS NOT LIABLE FOR ANY LOSSES OR DAMAGES OF ANY KIND
+RESULTING FROM THE USE OF THIS PRODUCT. IN NO EVENT WILL SONY
+IMAGESOFT BE LIABLE FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES
+RESULTING FROM POSSESSION, USE OR MALFUNCTION OF THIS
+SOFTWARE PRODUCT.
+
+Some countries do not allow limitations as to how long a warranty may last
+and/or exclusions or limitations of consequential damages, so the above
+limitations and/or exclusions of liability may not apply to you. The above
+warranty gives you specific legal right, and you may also have other rights
+which vary from country to country.”
+
+COLUMBIA TRISTAR HOME VIDEO UK, HORATIO HOUSE, 4TH FLOOR,
+77-85 FULHAM PALACE RD, LONDON W6 8JA.

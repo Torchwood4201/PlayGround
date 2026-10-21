@@ -1,0 +1,1071 @@
+# Rampart
+source: https://archive.org/details/snes_manual_archive
+pdf: Rampart ( USA ).pdf
+region: USA
+pages: 15
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNS-RM-USA
+
+Fat
+
+p
+=
+
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER |
+INFORMATION & PRECAUTIONS BOOKLET CAREFULLY BEFORE
+
+RAMPART™
+
+| _ USING YOUR NINTENDO” HARDWARE SYSTEM OR GAME PAK. — See AGNI CALL
+
+= = : = — 1-900-288-HINT
+WHO MADE THIS GAME, ANYWAY? Si gestae
+
+24 Hours a day, 7 days a week!
+Franz Lanzinger (pictured below, right) has played and designed games for
+
+most of his life. He got his big break in 1982 when he was hired by Atari Games
+to program coin operated games. He designed and programmed Crystal Castles,
+programmed a number of conversions including NES Ms. Pacman, Toobin’, and
+Rampart, and is now juggling too many jobs, including programmer, game
+
+95¢ for the first minute, 75¢ for each additional minute. If you are
+under 18, be sure to get a parent’s permission before calling, Hotline
+
+requires a Touch-Tone telephone and is only available in the US. Call
+length determined by user; average length is four minutes. Messages
+
+designer, secretary, janitor, and president of Bitmasters Inc. Franz is an avid
+golfer and plays tournament bridge whenever he can.
+
+Greg, Hancock (pictured in center) has been a fantasy illustrator for the last
+six years, and took the plunge into computer animation and multimedia three
+years ago. Since then he has specialized in computer generated 3D animation,
+corporate training, and animated programs. From time to time, Greg works as a
+
+magical entertainer just for kicks. He joined
+Bitmasters very recently and we all think
+he’s nuts.
+
+Dave O’Riva (left) has been interested
+in programming for most of his life,
+wandering from custom databases (which,
+by the way, are extremely uncool) up to his
+present enviable position as a game author.
+Disdaining the comfort and protection of a
+salary (and a roof, and food), he and Franz
+got together to form Bitmasters, a start-up
+company that is turning out to be highly
+successful. Pursuing an avid interest in
+being able to afford to eat, he will continue
+to write games until someone holds a
+cannon to his head and makes him stop.
+
+LICENSED BY Official
+
+Seal of Quality
+
+NINTENDO, SUPER NINTENDO THIS OFFICIAL SEAL 1S YOUR ASSURANCE THAT NINTENDO
+
+ENTERTAINMENT SYSTEM ANO THE HAS APPROVED THE QUALITY OF THIS PRODUCT. ALWAYS
+
+OFFICIAL SEALS ARE REGISTERED LOOK FOR THIS SEAL WHEN BUYING GAMES AND
+
+TRADEMARKS OF NINTENDO OF ‘ACCESSORIES TO ENSURE COMPLETE COMPATIBILITY WITH
+
+AMERICA INC. 1992 NINTENDO OF YOUR SUPER NINTENDO ENTERTAINMENT SYSTEM. ALL
+
+‘AMERICA INC. ‘NINTENDO PRODUCTS ARE LICENSED BY SALE FOR USE ONLY
+WITH OTHER AUTHORIZED PRODUCTS BEARING THE OFFICIAL
+‘NINTENDO SEAL OF QUALITY.
+
+subject to change without notice.
+
+TABLE-OF CONTENTS
+
+Command:
+Getting Started .
+©The Object of the Game ..
+Gameplay
+Game Type ..
+One Player Game Options
+Secret Code..
+Two Player Game Options
+Pausing a Game
+Quitting a Game
+Normal Rampart Game
+Selecting a Home Castle ..
+Doing Battle .
+*Cannon Placement Phase .
+Combat Phase ..
+Repair Phase ..
+Enemies...
+Winning the Game
+Super Rampart Game
+Super Guns....
+Propaganda Balloons
+Special Ship: a!
+Obstacles: Rocks, Trees, Swamp, ai
+Houses & Grunts
+Graveyards
+Kraken...
+Challenge Round
+*Scoring ...
+*Commands Summary
+Credits ...
+
+ind Lakes
+
+===== Page 3 =====
+
+SUMMARY OF COMMANDS
+
+A BUTTON
+
+Place Cannon, Super Gun, or
+Propaganda Balloon
+
+Place Wall Sections
+
+START BUTTON Release propaganda from
+Start a Game Propaganda Balloon
+Pause Game Fire Cannons
+
+CONTROLLER
+Move Castle Selection Square BBUTTON
+
+Move Cannon Placement Square Rotate Wall Sections
+Move Combat Targeting Square Cycle through Cannon
+Move Super Gun Icon PlacementSquare,
+
+Move Propaganda Balloon Icon
+Move Propaganda Balloon Super Gun Icon (Super
+Move Wall Sections Rampart Game only)
+Select Secret Code Letter
+
+Propaganda Balloon Icon,
+
+THE FIRST SALVO: GETTING STARTED
+
+1. Flip the power switch on your Super NES™ to the
+OFF position.
+
+WARNING: Never try to insert or remove a
+Game Pak when the power is ON.
+
+2. Make sure a Controller is plugged into the left-
+hand port on the Console.
+
+If you're playing against a friend, plug the other
+Controller into the right-hand port.
+
+3. Insert the Game Pak into the slot on the Super
+NES™. Press firmly to lock the Game Pak into
+place.
+
+4. Turn the power switch ON.
+
+5. When the Rampart title screen appears, press
+START to see the Game Setup screen.
+
+THE GAME SET UP SCREEN
+
+One or Two Player Game Selection
+
+When the Game Set Up Screen appears, choose whether
+a game will be one player or two player. Controllers
+must be plugged into both the left port and the right
+port to play a two player game.
+
+Ina one player game, the player will be the Blue Player
+if his Controller is plugged into the left port, or the Red
+Player if his Controller is plugged into the right port;
+press any button on your Controller when it is plugged
+into a port to proceed to the Game Options Screen.
+
+Ina two player game, Player One will be the Blue Player
+and use the Controller plugged into the left port, and
+Player Two will be the Red Player and use the
+
+===== Page 4 =====
+
+Controller plugged into the right port. Press any button
+on both Controllers to proceed to the Game Options
+Screen.
+
+THE OBJECT OF THE GAME
+
+Normal Rampart One Player Game
+
+Enemy Ships circle your shores and land their artillery,
+called Grunts, to invade your territory. Your goal is to
+sink all the Ships and destroy the Grunts while you
+enclose Castles in your territory, and accumulate points.
+To win, you must sink all enemy Ships and enclose at
+least one Castle in your territory. Points are awarded
+for:
+
+enclosing Castles
+
+enclosing open territory
+
+destroying enemy forces
+
+Super Rampart One Player Game
+
+The object of one player Super Rampart is the same as
+one player Normal Rampart. However there are more
+ways to accumulate points in Super Rampart. These are
+described in the Super Rampart section of this manual.
+
+Normal Rampart Two Player Game
+
+Enemy Castles on the neighboring island are aiming
+their artillery at your lands. Each players’ goals are to
+destroy his opponent's Castle walls and other forces, try
+to prevent him from repairing his walls, and accumulate
+points. Points are awarded for:
+
+destroying enemy Castles and forces
+*enclosing Castles and open territory
+*enclosing flashing Bonus Squares
+
+Two player Games are won on a best three out of five
+rounds basis. That is, the first player to win three
+rounds is the victor. If the Red and Blue players’ scores
+are tied at the end of a round, the Blue player wins that
+round.
+
+Super Rampart Two Player Game
+
+The object of two player Super Rampart is the same as
+two player Normal Rampart. However there are more
+ways to accumulate points in Super Rampart. These are
+described in the Super Rampart section of this manual.
+
+GAMEPLAY
+
+Game Type
+
+There are two types of games to choose from, Normal
+Rampart and Super Rampart. To select the type of game
+you want to play:
+
+1. Use the Controller to move the Selection Arrow to
+Game Type
+
+2. Press the Controller left or right to toggle between
+Normal (the basic game) and Super Rampart (an
+enhanced and more difficult version of Rampart).
+
+ONE PLAYER GAME OPTIONS
+
+Battlefield
+
+There are two Battlefields to choose from: Recruit,
+which is the easier field, and Veteran, which is more
+difficult. Starting on the Veteran Battlefield earns 5000
+bonus points. To select the beginning Battlefield:
+
+1. Use the Controller to move the Selection Arrow to
+Battlefield.
+
+2. Press the Controller left or right to toggle between
+Recruit and Veteran.
+
+Difficulty
+
+This determines how much time you will have to repair
+your walls. There are three levels of difficulty: Easy,
+Medium, and Tough. You will have more time to repair
+walls at the Easy level of difficulty, less time at the
+
+===== Page 5 =====
+
+Medium level, and the least time at the Tough level. To
+select the Difficulty level:
+
+1. Use the Controller to move the Selection Arrow to
+Difficulty.
+
+2. Press the Controller left or right to toggle the
+Difficulty level between Easy, Medium, and
+Tough.
+
+Secret Code
+
+When you complete each level above Level 2 in a one
+player Normal Rampart or Super Rampart, a Secret
+Code for the next level will appear. If you enter a Secret
+Code in the Secret Code Entry line on the Option
+Screen, you will skip intervening levels and go directly
+to that screen. For example, you could go directly to the
+Kraken level or the Barge level in a one player Super
+Rampart game. Secret Codes contain only consonants,
+no vowels, and may contain a blank space. When
+entering a Secret Code, you will find the blank space
+before B and after Z. To enter a Secret Code:
+
+1. Use the Controller to move the Selection Arrow to
+the Secret Code Entry Line.
+
+2. Use the Controller to move the Letter Selection
+Arrow (the arrow beneath the letters in the Secret
+Code) left or right until it is beneath the letter you
+want to change.
+
+3. To change a letter, press the B button to scroll the
+letter toward the beginning of the alphabet
+(toward B) or use the A button to to scroll it
+toward the end of the alphabet (toward Z).
+
+4. Once you have entered the Secret Code, press
+START to start the game.
+
+Note: There are no Secret Codes in Normal Rampart
+for levels after level 4.
+
+Beginning a Game
+When you have chosen your Starting Level, Game Type,
+and Difficulty, press Start to begin a game.
+
+TWO PLAYER GAME OPTIONS
+
+Battlefield
+
+There are 8 starting Battlefields to choose from:
+Smotania, Martonia, Frepania, Crotania, Brana, Mortra,
+Mellodia, and Smilobn. To select a Battlefield:
+
+1. Use the Controller to move the Selection Arrow to
+Battlefield.
+
+2. Press the Controller left or right to toggle between
+Battlefields.
+
+Battles
+
+The Battles option sets the maximum number of Battles
+a Round will last. To set the Battles number:
+
+1. Use the Controller to move the Selection Arrow to
+Battles.
+
+2. Press the Controller left or right to toggle the
+maximum Battles from 3 to 5 to 7.
+
+Cannon Kill
+
+This option determines the number of Cannonball hits it
+will take to destroy a Cannon (usually your enemy's).
+To set the number of hits:
+
+1. Use the Controller to move the Selection Arrow to
+this option.
+
+===== Page 6 =====
+
+2. Press the Controller left or right to select the number
+you want: None, 2, 4, 9, or 12.
+
+Beginning a Game
+
+When you have chosen your Battlefield, number of
+Battles, and number of hits it will take to destroy a
+Cannon, press Start to begin a game.
+
+PAUSING A GAME
+
+To Pause a game, press the START button. To resume
+playing, press START again.
+
+RESTARTING A GAME
+To Restart a game, press the RESET button.
+
+QUITTING A GAME
+
+To Quit a game, turn the Power button OFF or press the
+RESET button.
+
+THE NORMAL RAMPART GAME
+
+SELECTING A HOME CASTLE
+
+You will need to select a Home Castle for each Battlefield.
+The Home Castle will be your beginning headquarters for
+the current round of play, and will be where your first
+walls are constructed and where you can place your first
+Cannons. To select a Home Castle:
+
+1. Use the Controller to move the Castle Selection
+
+Square.
+
+2. Press the A button to select a Castle.
+
+DOING BATTLE
+Each Battle is divided into three phases: The Cannon
+
+Placement Phase, the Combat Phase, and the Repair Phase.
+
+During the Cannon Placement Phase you place your
+allotted Cannons; during the Combat Phase you fight
+your opponent; and during the Repair Phase you may
+repair and build walls around your Castles.
+
+Cannon Placement Phase
+
+To destroy your opponents, you need to bombard him
+with Cannonballs fired from Cannons placed within
+your Castle walls. At the beginning of each Cannon
+Placement Phase, you are given an allotment of
+Cannons to place. The number of Cannons left in the
+allotment is displayed in an icon in a corner of the
+screen. To place a Cannon:
+
+1. Use the Controller to move the Cannon Placement
+
+Square.
+
+2. Press the A button to place the Cannon
+
+Combat Phase
+
+The goals of the Combat Phase in One Player and Two
+Player Games are slightly different:
+
+*One Player Combat
+
+The object in the one player Combat Phase is to destroy
+all enemy Ships. Each Combat Phase lasts for a set
+period of time. To destroy enemy Ships:
+
+1. Use the Controller to move the Targeting Square.
+(If you hold down the B button while moving the
+Targeting Square, it will move faster.)
+
+2. Press the A button to fire your Cannons.
+
+Note: Each Cannon can have only one Cannonball in
+the air at a time.
+
+*Two Player Combat
+The object in the two player Combat Phase is to destroy
+enemy Castle walls. The players determine how many
+
+===== Page 7 =====
+
+10
+
+battles each round will last on the Options Screen. Each
+Combat Phase is timed. The player with the highest
+number of points after the last battle wins the round. To
+destroy enemy walls:
+
+1. Use the Controller to move the Targeting Square.
+(If you hold down the B button while moving the
+Targeting Square, it will move faster.)
+
+2. Press the A button to fire your Cannons.
+
+Note: Each Cannon can have only one Cannonball in
+the air at a time.
+
+Repair Phase
+
+You will get the chance to repair your walls during the
+Repair Phase. You can also place walls around other
+Castles; if you enclose additional Castles with walls,
+those Castles become your territory and you can place
+new Cannons within these new enclosures. To repair
+and construct walls:
+
+1. Use the Controller to move outlined Wall
+Sections.
+
+2. Press the B button to rotate Wall Sections.
+(Certain Wall Sections will change shape when
+you press B.)
+
+3. Press the A button to place a Wall Section.
+
+Wall Sections can only be placed on open ground. Once
+a Wall Section has been placed, it cannot be moved
+again. There is a time limit for placing walls; if you do
+not have at least one Castle completely enclosed when
+time runs out, you lose the round.
+
+Freestanding wall sections that are not attached to
+larger wall sections, or wall extensions that jut out from
+larger wall sections, will be “trimmed” when the Repair
+Phase is complete. Such wall sections and extensions
+
+will become slightly shorter, but this will not weaken or
+otherwise effect enclosed walls.
+
+After the Repair Phase, you are awarded a number of
+Cannons and you return to the Cannon Placement
+Phase. The number of Cannons awarded is based on the
+number of Castles you surround. Surrounding your
+Home Castle will award you 2 new Cannons;
+surrounding other Castles will award you 1 new
+Cannon each. Cannon awards are cumulative so, for
+example, if you surround your Home Castle and two
+other Castles, you will be awarded a total of 4 new
+Cannons.
+
+Bonus Squares
+
+During the Repair Phase of a Two Player Normal
+Rampart Game, you will see flashing squares on the
+battlefield. You will also notice these squares when
+selecting your Home Castle. These are called Bonus
+Squares. if you encircle these squares with walls during
+the Repair phase, you will receive bonus Territory
+Points. The more Cannons you have surrounded when
+you surround a Bonus Square, the more bonus Territory
+Points you will receive.
+
+ENEMIES
+
+Ships
+
+Ships appear only in one player games. There are three
+types of Ships:
+
+«White Ships bombard the land with cannonfire.
+
+| *Grey Ships bombard the land with cannonfire
+and land Grunts on shore.
+
+Red Ships bombard the land with cannonfire
+that leaves burning pits. Walls cannot be placed
+over these pits until the pits burn out after three
+Battles.
+
+u
+
+===== Page 8 =====
+
+Grunts
+
+Grunts are self-propelled enemy artillery units that
+disembark from enemy Ships which reach your shore.
+Grunts will attempt to surround and destroy walls and
+Castles, and can in turn be destroyed by cannonfire.
+You can also destroy Grunts by surrounding them with
+Castle walls.
+
+GRAVEYARDS
+
+When a Castle is destroyed by Grunts, it becomes a
+Graveyard. You cannot place walls on top of a
+Graveyard, but you can surround it with walls. A
+surrounded Graveyard disappears and becomes normal
+enclosed territory.
+
+FIGHT AGAIN/GIVE UP
+
+If you lose a Round in one player Rampart, you will
+have up to two chances to Fight Again or Give Up. If
+you have any continues left, a screen will appear with
+the caption “Decide Your Fate Commander” press
+START to select the Fight Again option and replay the
+most recent combat. If you do not want to replay the
+most recent combat, press the Controller left or right for
+the Give Up option to appear; when it appears,
+
+press START.
+
+WINNING THE GAME
+
+Ship
+
+Wall
+Section
+
+Cannon Castle
+
+The game is played on a series of maps. The player
+controls the land forces, and his enemies are the naval
+forces. Points are awarded in four categories:
+
+* Destruction Points for destroying enemies.
+
+* Territory Points for enclosing territory with walls.
+
+* Castle Bonus for enclosing Castles (including
+your original Home Castle) within walls. The
+more Castles you enclose, the higher the Castle
+Bonus.
+
+* Bonus Points are awarded for completing a game,
+game difficulty, and unused continues.
+
+===== Page 9 =====
+
+*
+14
+
+Two Player Game
+
+Wall Section Castle
+
+The game is played on a series of maps. Player One is
+the Blue Army and Player Two is the Red Army. The
+player with the most points after the final battle wins
+the round; if one player cannot enclose at least one
+Castle within walls during the Repair Phase, he loses.
+Points are awarded in three categories:
+
+* Destruction Points for destroying enemies.
+
+* Territory Points for enclosing territory with walls.
+
+* Castle Bonus for enclosing Castles (including
+your original Home Castle) within walls; the
+more Castles you enclose, the higher the Castle
+Bonus.
+
+WALKING THE PLANK
+
+The winner of a two player game has the rare pleasure
+of making his vanquished foe walk the plank. You have
+to make him, he won’t do it by himself. To make him
+take a walk:
+
+1. Use the Controller to move your sword-wielding
+commander toward your enemy.
+
+2. Press the A button to prod your enemy forward.
+
+HIGH SCORE
+
+If you achieve an especially high score in a one player
+game, it will be displayed when the game is completed
+and you will have the chance to display your initials
+beside the score. To display your initials:
+
+1. Press the Controller up or down to scroll through
+the alphabet.
+
+2. When the letter you want appears, press the
+Controller right to go to the next initial.
+
+3. When you have chosen the initials you want,
+press START to save the initials and start anew
+
+game.
+High scores will be saved only as long as you continue
+
+playing Rampart. If you turn off your Super NES™,
+your high scores will be erased.
+
+===== Page 10 =====
+
+SUPER RAMPART
+
+houses
+
+rock
+
+grunts graveyard
+
+In most respects, Super Rampart works the same as
+Normal Rampart. The Normal Rampart instructions for
+Selecting A Home Castle, Cannon Placement Phase,
+Combat Phase, Repair Phase, and conditions for
+winning the game are unchanged. See the Normal
+Rampart Game instructions for more information. Super
+Rampart does have additional options and challenges,
+however.
+
+SUPER GUNS
+
+B Super Gun fea Super Gun Icon
+
+During Cannon Placement you can sometimes put
+Super Guns in one or more of your Castles. Super Guns
+fire incendiary Cannonballs that leave burning pits
+when they strike land, and do extra damage when they
+strike Ships at sea. You can place a Super Gun when
+
+you are allotted 3 Cannons during the Cannon
+Placement Phase. Super Guns are slightly larger than
+regular Cannons and so require more space. Like
+regular Cannons, they can only be placed within Castle
+walls. To place a Super Gun:
+
+1. Use the Controller to move the Cannon Placement
+
+Square.
+
+2. Press the B button to change the Cannon
+Placement Square to the Super Gun Icon.
+
+3. Press the A button to place the Super Gun.
+
+PROPAGANDA BALLOONS
+
+Propaganda Propaganda Balloon
+Balloon Icon
+
+During the Cannon Placement Phase, you can place a
+Propaganda Balloon when you have been allotted 3
+Cannons. Propaganda Balloons fly over enemy Ships or
+Cannons and shower them with pamphlets that recruit
+them to join your side. (Note that you cannot guide the
+course of a Ship). A single Propaganda Balloon can only
+
+* be used once, and must be used immediately after
+
+placing all allotted Cannons. You can place more
+Propaganda Balloons in later rounds. Like Super Guns,
+they require more space than regular Cannons and can
+only be placed inside Castle walls. To place a
+Propaganda Balloon:
+
+1. Use the Controller to move the Cannon Placement
+
+Square.
+
+2. Press the B button to change the Cannon
+Placement Square to the Propaganda Balloon
+Icon.
+
+—_—
+
+===== Page 11 =====
+
+18
+
+3. Press the A button to place the Propaganda
+Balloon.
+
+To use a Propaganda Balloon:
+
+1. Use the Controller to direct the Propaganda
+Balloon over the enemy Ship or Cannon you want
+to control.
+
+2. When the targeting square is on the Ship or
+Cannon, press the A button.
+
+Once you recruit a Ship or Cannon, it remains in your
+service.
+
+SPECIAL SHIPS
+
+White, Grey, and Red Ships all appear in one player
+Super Rampart; they are the same as the Ships in
+Normal Rampart. Additionally, there are also Special
+Ships — Barges and Viking Ships — that appear in one
+player Super Rampart:
+
+*Barge
+
+A Barge is a huge floating gun platform that is much
+less vulnerable than a normal Ship. Barges will sink if
+you destroy all their guns with cannonfire. Note: Guns
+ona Barge cannot be recruited by a Propaganda
+Balloon.
+
+© Viking Ship
+
+The Viking Ship is a huge vessels that you will
+encounter only at the end of the game. It has several
+Cannons that fire flaming Cannonballs that leave fiery
+pits around your Castles. Unlike a Barge, a Viking
+
+Ship’s Cannons are not plainly visible, but are concealed
+behind portholes. You must strike these portholes to
+disable the Cannons. To sink a Viking Ship, you must
+disable its Cannons and strike its four hidden
+vulnerable areas. Hint: Different Viking Ships have
+different vulnerable areas in different games.
+
+OBSTACLES
+
+*Rocks
+
+Small Rocks may be blown up by cannonfire. Large
+Rocks are permanent parts of the landscape and cannot
+be blown up. Wall Sections cannot be placed on top of
+Rocks, but Rocks can be enclosed within walls.
+Enclosing Rocks within walls will not destroy them.
+Grunts cannot travel across Rocks.
+
+Trees
+
+Like Rocks, Trees are impassible to Grunts. But while
+they are easier to destroy than Rocks, they can multiply
+and spread. Trees can be destroyed by cannonfire and/
+or by enclosing them within Wall Sections.
+
+Swamps
+
+Swamps are marshy, impassable terrain. Grunts cannot
+travel across Swamps, and Wall Sections cannot be
+placed on them. They can be surrounded by Wall
+Sections, however; and once surrounded, they become
+normal, passable terrain.
+
+Lakes
+
+Like Rocks and Trees, Lakes are impassible to Grunts,
+and Wall Sections cannot be placed directly upon them.
+However, if Lakes are enclosed with walls, they will
+turn into dry land.
+
+‘19
+
+===== Page 12 =====
+
+HOUSES & GRUNTS
+
+Houses are the residences of peasants who live outside
+your Castle walls. Houses appear spontaneously; you
+never get the chance to place Houses as you do
+Cannons. If you enclose a House within walls in a one-
+player game, you receive points. If you enclose a house
+within walls in a two player game, it’s residents are
+recruited into your service and become Grunts in your
+enemy’s territory. If you place walls on top of Houses,
+they become enemy Grunts. Houses can also be
+destroyed by cannonfire.
+
+GRAVEYARDS
+
+Castles destroyed by Grunts will turn into Graveyards.
+You cannot place walls on top of Graveyards, but you
+can build walls around them. If you enclose a
+Graveyard with walls, it will revert back to a Castle.
+
+KRAKEN
+
+Kraken are horrible sea monsters that rise from the
+ocean depths to hurl boulders at your Castles and walls.
+These boulders destroy walls and leave fields of small
+Rocks where they strike. Kraken are hard to damage,
+and can be hit only when their hideous heads are
+completely out of the water.
+
+CHALLENGE ROUND
+
+There are special levels in Super Rampart called the
+Challenge Rounds. There is no combat during
+Challenge Rounds; rather, they are an opportunity to
+build up points. The Challenge Round playing field
+features Castles, Houses, and Rocks. As always, points
+are won by enclosing Castles, Houses, and open
+territory; building walls on top of Houses will transform
+the Houses into Grunts. If you are not able to enclose
+any Territory, Castles, or Houses during a Challenge
+Round, it will not end the game; you'll just go on to the
+next Super Rampart round.
+
+Destruction Points
+Destroying Castle Wall Section
+Hitting a Ship
+Destroying a Cannon
+Shooting a Grunt
+Surrounding a Grunt
+Destroying a House
+Destroying a Small Rock
+
+*Territory Points
+Each Surrounded Square
+Starting at Veteran Level
+Surrounding a House
+(one player game only)
+
+*Castle Bonuses
+1 Castle
+2 Castles
+3 Castles
+4 Castles
+5 Castles
+6 Castles
+
+Bonus Points
+Each unused Continue
+Playing Medium Difficulty game
+Playing Tough Difficulty game
+Completing Normal game
+Completing Super Rampart game
+
+SCORING
+
+5000
+
+100 for first
+house,
+
+200 for second
+house, etc.
+
+500
+700
+900
+1000
+1200
+1400
+
+50,000
+100,000
+200,000
+1,000,000
+2,000,000
+
+21
+
+===== Page 13 =====
+
+COMMANDS SUMMARY
+
+START A GAME START
+PAUSE GAME START
+CASTLE SELECTION
+
+Move Castle Selection square CONTROLLER
+Select a Home Castle A BUTTON
+
+CANNON, SUPER GUN, OR PROPAGANDA
+BALLOON
+Move Cannon Placement Square CONTROLLER
+
+Change to Super Gun Icon B BUTTON
+Change to Propaganda
+
+Balloon Icon B BUTTON
+Place Cannon, Super Gun, or
+
+Propaganda Balloon A BUTTON
+Move Propaganda Balloon CONTROLLER
+Release Propaganda A BUTTON
+COMBAT
+Move Targeting Square CONTROLLER
+Increase Targeting Square Speed CONTROLLER + B
+
+BUTTON
+
+Fire Cannons A BUTTON
+BUILDING WALLS
+Move Wall Sections CONTROLLER
+Rotate Wall Sections BBUTTON
+Place Wall Sections ABUTTON
+SECRET CODE
+Select Letter CONTROLLER
+Upa Letter ABUTTON
+Down a Letter B BUTTON
+
+CREDITS
+
+Original Design: Dave Ralston & John Salwitz
+Conversion and Enhancements: Bitmasters
+Programmer: Franz Lanzinger
+
+Audio: Dave O’Riva & LX Rudis
+
+Graphics: Greg Hancock
+
+Executive Producer: Don Traeger
+
+Producer: Happy Keller
+
+Product Manager: Chip Lange
+
+Art Direction: Nancy Waisanen
+
+Package Design: William Gin
+
+Public Relations: Rachel Hassard
+
+Product Testing: Jeff Glazier, Scott Gilliland
+Documentation: Michael Humes
+Documentation Layout: Emily Favors
+Quality Assurance: Bryan C. Beckstrand, Jim Newman
+
+ELECTRONIC ARTS LIMITED WARRANTY
+
+Electronic Arts warrants to the original purchaser of this
+Electronic Arts software product that the medium on which
+this computer program is recorded is free from defects in
+materials and workmanship for a period of ninety (90) days
+from the date of purchase. This Electronic Arts software
+program is sold “as is,” without express or implied warranty of
+any kind, and Electronic Arts is not liable for any losses or
+damages of any kind resulting from use of this program.
+Electronic Arts agrees for a period of ninety (90) days to either
+repair or replace, at its option, free of charge, any Electronic
+Arts software product, postage paid, with proof of purchase, at
+the Electronic Arts Warranty Department. This warranty is not
+applicable to normal wear and tear. This warranty shall not be
+applicable and shall be void if the defect in the Electronic Arts
+software product has arisen through abuse, unreasonable use,
+mistreatment or neglect.
+
+===== Page 14 =====
+
+24
+
+LIMITATIONS — THIS WARRANTY IS IN LIEU OF ALL
+OTHER WARRANTIES AND NO OTHER
+REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL
+BE BINDING ON OR OBLIGATE ELECTRONIC ARTS. ANY
+IMPLIED WARRANTIES APPLICABLE TO THIS SOFTWARE
+PRODUCT, INCLUDING WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE, ARE LIMITED TO THE NINETY (90) DAY PERIOD.
+DESCRIBED ABOVE. IN NO EVENT WILL ELECTRONIC
+ARTS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, OR
+CONSEQUENTIAL DAMAGES RESULTING FROM
+POSSESSION, USE OR MALFUNCTION OF THIS
+ELECTRONIC ARTS SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an implied
+warranty lasts and /or exclusions or limitations of incidental or
+consequential damages so the above limitations and /or
+exclusions of liability may not apply to you. This warranty
+gives you specific rights, and you may also have other rights
+which vary from state to state.
+
+RETURNS AFTER WARRANTY — To replace defective
+media after the ninety (90) day warranty period has expired,
+send the original cartridge to Electronic Arts’ address below.
+Enclose a statement of the defect, your name, your return
+address, and a check or money order for $30.00.
+
+Electronic Arts
+Customer Warranty
+P.O. Box 7578
+San Mateo, California 94403-7578
+
+If you need to talk to someone about this product, call us at
+(415) 578-0316 Monday through Friday between 8:30 am and
+4:30 pm, Pacific Time.
+
+Unless indicated otherwise, all software and documentation is
+© 1992 Electronic Arts. All Rights Reserved.
+
+Rampart is a trademark of Atari Games Corporation
+
+Software © 1991 Atari Games Corporation. All Rights
+Reserved. Licensed by Electronic Arts.
+
+===== Page 15 =====
+
+SSF
+ELECTRONIC ARTS
+
+P.O. Box 7578, San Mateo, CA 94403-7578

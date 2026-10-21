@@ -1,0 +1,1469 @@
+# Miracle Piano Teaching System, The
+source: https://archive.org/details/snes_manual_archive
+pdf: Miracle Piano Teaching System, The (USA).pdf
+region: USA
+pages: 40
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+THE
+
+MIRACLE
+
+ANO TEACHING
+
+SUPER NES USER’S GUIDE
+
+MIRACLE
+
+===== Page 2 =====
+
+
+
+===== Page 3 =====
+
+The
+Miracle
+Piano Teaching System
+
+Super Nintendo Entertainment Systeme
+User's Guide
+
+Copyright © 1990, 1991 The Software Toolworks, Inc.
+All rights reserved
+
+===== Page 4 =====
+
+
+
+===== Page 5 =====
+
+TABLE OF CONTENTS
+
+TABLE OF CONTENTS
+Getting Started on Your Super NES
+
+What's in the Package ........ ...
+What's in Store for the Future
+Rear Connectors on The Miracle
+Connecting The Miracle to Your Super NES.
+Starting the Program. .....
+
+Rove
+
+Using the Super NES Software ..
+
+Welcome Screen.
+Quick Reference .. ..
+Telling The Miracle Your Age.
+Selecting a Chapter.
+The Chalkboard...
+Options Screen
+Activities. .. ..
+Finger Numbers & Note Names.
+Practice Notes... ..
+The Shooting Gallery
+Practice Rhythms:
+Steady Quarters...
+Roboman ...
+
+Sheet Music ..
+Ripchord. ..
+Flashcards...
+The Practice Room .
+Hand Selection... ..
+Toolworks Orchestra/Solo Performance .
+Other Activities ..
+Demonstration Mode
+Select Another Piece.
+Return to Lesson. ...... .
+
+5
+6
+6
+6
+7
+8
+9
+0
+1
+2
+3
+3
+4
+5
+5
+6
+7
+8
+9
+9
+9
+0
+
+Common Questions and Answers.
+
+Index...
+
+===== Page 6 =====
+
+TABLE OF CONTENTS
+
+===== Page 7 =====
+
+CREDITS
+
+The Miracle Piano Teaching System
+Project Manager Jon Mandel
+Piano Method Gary Davenport, DMA
+
+Program Design Jon Mandel
+Norman Worthington
+
+Software Development Michael Duffy
+Zareh Gorjian
+David Grenewetzki
+Andrew Iverson
+John Krause
+Don Laabs
+Mark Manyen
+Henrik Markarian
+Richard Payne
+Betsy Scafati
+Vicki Sidley
+Peter Stone
+
+Super NES Conversion Eastridge Technologies
+Music Design Fred Werner
+
+Music Transcription Debbra Freeman
+Thomas Munsell
+Tara Patterson
+Ralf Schipke
+Jacob Smith
+William Todd
+
+Testing Scot Lane
+Roger Hupfauer
+
+Documentation
+
+Manual Design & Production Anne Schwimer
+Darilyn Kotzenberg
+Cory Haibloom
+
+llustrations Carol Dickason
+Roger Nelson
+
+===== Page 8 =====
+
+CREDITS
+
+The Miracle Keyboard
+
+Hardware Design Chuck Monte
+Mike Collins
+John Dirkson
+‘Anne Graham
+Ray Livingston
+Paul White
+
+Hardware Produ
+
+Val Garcia
+Peter Gilligan
+Ben Okawa
+
+Sound Design Drew Neumann
+
+Copyrights
+
+Software Copyright © 1990, 1991 The Software Toolworks, Inc. All rights
+reserved.
+
+Manual Copyright © 1990, 1991 The Software Toolworks, Inc. All rights
+reserved.
+
+The Software Toolworks® is a registered trademark of and Toolworks is a
+trademark of The Software Toolworks, Inc. The Miracle and The Miracle
+Piano Teaching System are trademarks of The Software Toolworks, Inc.
+
+‘This official seal is your assurance that Nintendo® has reviewed this
+
+oc product and that thas met our standards for excellence in workmanship,
+reliability and entertainment vale, Always look for this seal when
+buying games and accessories to ensure complete compatibility with
+ying g plete comp.
+estoy your Super Nintendo Entertainment System®. ll Nintendo products
+fe axelicense by sale for use only with other authorized products bearing
+
+the official Nintendo seal of quality
+
+Licensed by
+
+Nintendo® and Super Nintendo Entertainment System® are registered
+trademarks of Nintendo of America, Inc.
+
+The photographs in the chapter HisTORY OF THE PIANO in THE MIRACLE PIANO
+Teactine System Owwer’s MANUAL are used by permission of The Bettman
+Archive.
+
+===== Page 9 =====
+
+Super NES Song The following are Original Musical compositions written and orchestrated by
+Copyrights Fred Werner. Copyright © 1990 by Cats Eye Productions, Inc. and The
+Software Toolworks, Inc. All rights reserved.
+
+Journey, Northwood, For Laura, Sad Story, Woodbird, Treble Explorer,
+Sharps ‘n Flats, Treble Teaser, Black & White, For Denise, Dots, Eighty
+Eight, For Jessica, Top Ten, Carefree, Gina’s Lament, Rose Bud, Bull Frog,
+Chimp, Chopstick, Space Cadet, Frightnight, Channel 11, Toccata,
+Renaissance, For Ana, Clouds, Technotron.
+
+The following music is used with permission:
+
+Let's Go Crazy
+
+(Prince Nelson)
+
+© 1984 Controversy Music
+
+All Rights on behaif of Controversy Music for the USA & Canada
+‘Administered by WB Music Corp.
+
+All Rights Reserved. Used By Permission.
+
+Star Wars
+
+ohn Williams)
+
+© 1977 Warner-Tamerlane Publishing Corp.
+All Rights Reserved. Used By Permission.
+
+Hound Dog
+
+(erry Leiber, Mike Stoller)
+
+© 1956 Gladys Music & MCA Music Publishing (Renewed)
+
+All Rights on behalf of Gladys Music for the USA Administered by Chappel
+&Co.
+
+All Rights Reserved. Used By Permission.
+
+‘My Funny Valentine
+
+(Lorenz Hart, Richard Rodgers)
+
+© 1937 Chappel & Co. (Renewed)
+
+All Rights Reserved. Used By Permission.
+
+Puff (The Magic Dragon)
+
+(Peter Yarrow, Leonard Lipton)
+
+© 1963 Pepemar Music Corp.
+
+All Rights Reserved. Used By Permission.
+
+Evergreen
+
+(Barbara Streisand, Paul Williams)
+
+© 1976 WB Music Corp., Emmanuel Music Corp.
+& First Artists Music Co.
+
+All rights administered by WB Music Corp.
+
+All Rights Reserved. Used By Permission.
+
+===== Page 10 =====
+
+CREDITS
+
+Celebration
+
+(Ronald Bell, Claydes Smith, George Brown,
+
+James Taylor, Robert Mickens, Earl Toon, Dennis Thomas
+Robert Bell, Eumir Deodato)
+
+© 1980 Wamer-Tamerlane Publishing Corp.,
+
+Second Decade Music Co. & WB Music Co.
+
+All rights on behalf of Second Decade Music Co.
+administered by Warner-Tamerlane Publishing Corp.
+
+All Rights Reserved. Used By Permission.
+
+Theme from M.A.S.H.
+
+(Gohnny Mandel, Michael Altman)
+
+© 1984 WB Music Corp.
+
+All Rights Reserved. Used By Permission.
+
+Moondance
+
+(Van Morrison)
+
+© 1971 WB Music Corp. &
+
+Caledonia Soul Music
+
+All rights administered by WB Music Corp.
+All Rights Reserved. Used By Permission.
+
+The Rose
+
+(Amanda McBroom)
+
+© 1979 Wamer-Tamerlane Publishing Corp. &
+Third Story Music Inc.
+
+All Rights Reserved. Used By Permission.
+
+vi
+
+===== Page 11 =====
+
+CREDITS
+
+Advisory A very small portion of the population may experience epileptic seizures
+when viewing certain kinds of flashing lights or patterns that are commonly
+present in our daily environment. These persons may experience seizures
+while watching some kinds of television pictures or playing certain video
+games. Players who have not had any previous seizures may nonetheless
+have an undetected epileptic condition. We suggest that you consult your
+physician if you have an epileptic condition or if you experience any of the
+following symptoms while playing video games. altered vision, muscle
+twitching, other involuntary movements, loss of awareness of your
+surroundings, mental confusion and/or convulsions.
+
+Warning: Do NOT Use with Front or Rear Projection TV
+
+Do not use a front or rear projection television with your Super Nintendo
+Entertainment System® (Super NES) and this video game. Your projection
+television screen may be permanently damaged if video games with stationary
+scenes or patterns are played on it. Similar damage may occur if you place a
+video game on hold or pause.
+
+If you use your projection television with this video game, neither The
+Software Toolworks, Inc. nor Nintendo of America, Inc. will be liable for any
+damage. This situation is not caused by a defect in the Super NES or The
+Miracle Piano Teaching System; other fixed or repetitive images may cause
+similar damage to a projection television. Please contact your TV
+manufacturer for further information.
+
+Caution
+Insert or remove The Miracle Game Pak from your Super NES only when the
+
+power is off Inserting or removing the Game Pak while the power is on can
+cause permanent damage to the Game Pak.
+
+FCC Notice This equipment has been tested and found to comply with the limits for a
+Class B digital device, pursuant to Part 15 of the FCC Rules. These limits are
+designed to provide reasonable protection against harmful interference in a
+residential installation, This equipment generates, uses and can radiate radio
+frequency energy, and, if not installed and used in accordance with the
+instructions, may cause harmful interference to radio communications.
+However, there is no guarantee that interference will not occur in a particular
+installation. If this equipment does cause harmful interference to radio or
+television reception, which can be determined by turning the equipment off
+and on, the user is encouraged to try to correct the interference by one or more
+of the following measures:
+
++ Reorient or relocate the receiving antenna.
++ Increase the separation between the equipment and receiver
+
+* Connect the equipment into an outlet on a circuit different from that to
+which the receiver is connected.
+
+* — Consult the dealer or an experienced radio/TV technician for help.
+
+===== Page 12 =====
+
+Technical Support
+
+For technical support in the USA, please contact:
+
+Mindscape Inc.
+
+A Software Toolworks Company
+60 Leveroni Court
+
+Novato, CA 94949
+
+Telephone: (415) 883-5157
+FAX: (415) 883-3303
+
+For technical support in Europe, please contact:
+
+Mindscape International
+P.O. Box 51
+
+Burgess Hill RH15 9FH
+
+West Sussex
+
+England, United Kingdom
+Telephone: (0) 444 239-600
+FAX: (0) 444 248-996
+
+For technical support in Australia and New Zealand,
+please contact:
+
+Mindscape Intemational
+5/6 Gladstone Road
+
+Castle Hill, New South Wales
+Australia 2154
+
+Telephone: (02) 899-2277
+FAX. (02) 899-2348
+
+viii
+
+===== Page 13 =====
+
+GETTING STARTED ON YOUR SUPER NES
+
+GETTING STARTED ON YOUR SUPER NES
+Welcome to The Miracle Piano Teaching System for the Super Nintendo
+Entertainment System® (Super NES)! In the months to come, your Super
+NES will provide hundreds of lessons to teach you how to play the piano.
+
+Once you've found a place for The Miracle keyboard, setting it up is easy
+
+What's in the Package For starters, check The Miracle Piano Teaching System package. Remove
+and identify each of these parts:
+
+Mri de
+
+Registration
+Foot Pedal Earphones Keyboard The Miracle Card and Quick
+Power Supply Cable Start Card
+
+BITTMAN
+
+The Miracle Keyboard
+Owner's Manual This User's oe
+Guide WIRACLE
+The Miracle Keyboard Overlay
+Game Pak
+
+Contents of The Miracle Box
+
+===== Page 14 =====
+
+GETTING STARTED ON YOUR SUPER NES.
+
+What's in Store for Please fill out your Warranty Registration Card and mail it right away. This
+the Future is the only way we can keep in touch and let you know about:
+
++ Future software upgrades.
++ Add-on products, such as new Lessons.
+
++ — Advanced courses.
+
+Rear Connectors Look at the the rear connectors on the back of the keyboard.
+‘on The Miracle
+aot wracieronr| | 4 suo.) | @"@
+©© lio ® @| |roor “poven
+Wout HONE UT AT) (PEDAL T2V-AG
+
+Rear Connectors on The Miracle Keyboard
+The rear connectors are:
+
+* MIDI - Use In and Out to connect The Miracle to another MIDI device
+(Musical Instrument Digital Interface) if you have one.
+
++ Miracle Port - Use The Miracle Cable to connect The Miracle to your
+‘Super NES.
+
++ Audio Out - Use the Head Phone jack to plug in your head phones; use
+LT and RT to connect The Miracle to your stereo.
+
+* Input - Use the Foot Pedal jack to plug in the foot pedal, use the Switch
+to turn The Miracle on and off; use Power and the Keyboard Power
+‘Supply to plug The Miracle into the electrical outlet.
+
+For information about the keyboard overlay, foot pedal, earphones, stereo
+audio connectors, and the MIDI connector, see AsouT THE KEYBOARD in THE
+MiraCLe PIANO TEACHING SysTeM OwneR's MANUAL.
+
+When The Miracle is properly connected and turned on, the instrument and
+volume indicators light up.
+
+===== Page 15 =====
+
+GETTING STARTED ON YOUR SUPER NES
+
+Connecting The To connect The Miracle to your Super NES, follow the steps below.
+Miracle to Your
+‘Super NES CAUTION: Do not plug any cable other than The Miracle Cable into the
+
+Miracle Port. Using another cable in this port can damage The Miracle and
+will void your warranty
+
+1. Plug the wide end of The Miracle Cable into the Miracle Port on the
+back of the keyboard. Plug the small end into Controller Port #1 on the
+front of the Super NES
+
+Important Note: Don’t plug The Miracle Cable into the #2 Port on the
+Super NES. It won't work.
+
+vnace Font © ©
+| eae,
+
+2. Connect a Super NES Game Controller to Port #2 on the Super NES.
+
+3. Plug the Keyboard Power Supply into the the Power connector on the
+back of the keyboard and into the electric outlet.
+
+@
+s
+roa
+Bc
+
+4. Plug the Foot Pedal into the Foot Pedal jack. It doesn’t matter which
+side of the plug is up.
+
+5 Put the pedal on the floor with the foam (squishy) side up.
+
+F001
+PEDAL
+
+===== Page 16 =====
+
+GETTIN ‘ARTED ON YOUR SUPER NES.
+
+6. Use the On/Off Switch and tum The Miracle keyboard on. The
+instrument and volume indicators will light up.
+
+a
+= >
+
+a 2) The Top of the Keyboard
+
+(Co is
+
+i
+i
+
+7. Press any key to make sure that sound comes out of the built-in speakers.
+Adjust the volume as necessary by pressing the Volume A and W keys.
+
+Starting the Program To start leaning with The Miracle:
+1. Put The Miracle Game Pak into the Super NES.
+2. Tum on the Super NES.
+
+3. Press the Select button to get past the title screens. See USING THE SUPER
+NES SorTware.
+
+===== Page 17 =====
+
+USING THE SUPER NES SOFTWARE
+
+USING THE SUPER NES SOFTWARE
+
+The Miracle presents music and information to you in a variety of ways,
+ranging from standard sheet music to arcade games. This chapter identifies
+The Miracle’s screens that appear on your Super Nintendo Entertainment
+System® (Super NES) and explains their uses.
+
+Welcome Screen When you turn on The Miracle, the Welcome screen appears on the Super
+
+NES after the titles. Use the Welcome screen to tell The Miracle your age and
+to set the Lessons you want.
+
+Adult
+Child
+
+Choose Section an
+Your Age
+
+Press Start to Begin
+
+Welcome Screen
+
+===== Page 18 =====
+
+USING THE SUPER NES SOFTWARE
+
+Quick Reference The following are the Super NES Controller commands that you'll use most
+frequently:
+To Perform This Function Press These Buttons
+Restart Activity B
+Return to Chalkboard from Activity Select
+Skip to next Lesson from Chalkboard Select, A
+Go to previous Lesson from Chalkboard B
+Pause; Continue Start
+
+Telling The Miracle The Miracle offers slightly different training for children than it does for
+Your Age adults. The material covered is the same, but the text in Child format is
+easier to read.
+
+Atthe Welcome screen, adults and teenagers should press A to select the
+Adult text, Pre-teens should press B to select the Child text. The mode you
+select is highlighted. Press Start to begin,
+
+Selectinga Chapter The Lessons in the course are organized into Chapters. As you begin each
+day’s practice, go back to the Chapter where you left
+
+The Chapter where The Miracle will start appears on the Welcome screen and
+the Chalkboard screen as a Section number Example: 01.01 is Lesson 1 in
+Chapter 1
+
+To select a different Chapter:
+
+1. Press the Up and Dn arrows on the control pad.
+
+2. Press Start to begin.
+
+===== Page 19 =====
+
+USING THE SUPER NES SOFTWARE
+
+The Chalkboard Chalkboard screens explain what to do in each Lesson, They also provide
+interesting trivia about the material in that Lesson, and talk about your
+progres
+
+After reading a Chalkboard, press a button on your Super NES game
+controller to continue. Available functions appear at the bottom of the screen.
+
+These Chalkboard functions match the buttons on the game controller as
+
+follows:
+A Begin the Activity for this Lesson.
+B Go back to the previous Lesson
+
+Select Go to the Options screen, which lets you jump between Lessons,
+hear the muste for the current Lesson, or go to the Practice Room.
+
+The Chapter and Lesson number appears as a Section number at the bottom
+right comer of the Chalkboard. When you finish for the day, this number
+says where you stopped. Use it to return to that Chapter the next time you use
+The Miracle.
+
+Note. If you have difficulty completing a Lesson, The Miracle provides
+Chalkboards and exercises to help you overcome your problem. These Oops
+Chalkboards do not have Chapter and Lesson numbers.
+
+WELCOME TO THE MIRACLE
+PIANO TEACHING SVSTEM?
+
+N vousRE DONE
+
+Press THE
+
+Chalkboard Screen
+
+===== Page 20 =====
+
+Options Screen
+
+When you press Select from a Chalkboard screen, the Options screen
+appears. The Options screen has these options.
+
+Next Lesson Jump ahead to the next Lesson.
+
+Previous Lesson Redo the previous Lesson.
+
+Welcome Screen Go to the Welcome screen to change the
+Chapter number or student age.
+
+Practice Room Go to the Practice Room.
+
+Listen to the Piece Listen while The Miracle demonstrates the
+
+piece that you're learning to play After the
+demonstration, you automatically return to the
+
+Lesson.
+
+Orchestra Volume Use the keys in the control pad to adjust,
+orchestra volume.
+
+Continue Return to the Lesson where you left.
+
+To use the Options screen:
+
+1 Use the Up and Dn arrows on the control pad to move the yellow arrow
+to your selection.
+
+2. Press A to go to that selection.
+
+Options Screen
+
+===== Page 21 =====
+
+USING THE SUPER FTWARE
+
+Activities The Lessons use eight different Activities:
++ Finger Numbers & Note Names
++ Practice Notes
++ The Shooting Gallery
+* Practice Rhythms
+* Steady Quarters
++ Roboman
+* Sheet Music
++ Ripchord
++ Flashcards
+
+During all Activities except Flashcards, your Super NES game controller
+provides the following options:
+
+B Restarts the Activity at the beginning.
+Start Pauses the Activity. Press Start again to continue.
+Select Returns you to the Chalkboard for the Lesson.
+
+See FLAsHcARos for information about that Activity’s special Super NES
+controller options.
+
+===== Page 22 =====
+
+USING THE SUPER NES SOFTWA‘
+
+Finger Numbers &
+Note Names
+
+This Activity allows you to play without knowing how to read music. Itis
+used only in the early Lessons, before musical notation is introduced.
+
+The green arrow indicates which note to play. A blue X under a note means
+that you played that note incorrectly
+
+The onscreen keyboard matches the action of The Miracle keyboard. When
+you press a key, the same key on the screen keyboard also appears to press
+down.
+
+In some Lessons, finger numbers (and occasionally finger names) appear on
+the keys of the onscreen keyboard,
+
+HU)
+ero)
+wows
+uaue
+vawe
+heMeE
+sunny
+0
+
+8
+
+Finger Numbers & Note Names
+
+10
+
+===== Page 23 =====
+
+USING THE SUPER NES SOFTWARE
+
+Practice Notes This Activity teaches the notes and fingering of a piece of music. You can
+also use it to familiarize yourself with the hand position changes required to
+play the piece.
+
+Because the purpose of this Activity is to concentrate on playing the correct
+notes and fingering, no set rhythm for the piece is provided. All notes appear
+on the staff as black circles.
+
+A finger number appears under the note you must play. This finger number
+does not advance until you play the correct note.
+
+Grey brackets indicate points in the piece that require a different hand
+position.
+
+Practice Notes
+
+W
+
+===== Page 24 =====
+
+USING THE SUPER NES SOFTWARE
+
+‘The Shooting Gallery
+
+This Activity is an arcade-style game that helps you associate keys on the
+keyboard with notes on the staff.
+
+Ducks swim across the lines and spaces of the staff from right to left. You
+must hit each duck by playing the note that it swims across. If you press the
+correct key, the duck quacks and disappears. If you miss, the shots splat
+against the scale on the note you played.
+
+The number of shots per duck varies from Lesson to Lesson. That number is
+displayed as a row of ammunition under the staff.
+
+Note: No matter how many ducks appear on the screen, your shots can only
+hit the duck that is farthest to the left.
+
+The Shooting Gallery
+
+12
+
+===== Page 25 =====
+
+USING THE SUPER NES SOFTWARE
+
+Practice Rhythms This Activity is just for practicing rhythms. In it, you tap out rhythms using
+only one key, concentrating on when and how long you press that key.
+
+Any single note on The Miracle keyboard may be used with this Activity.
+However, once selected, strike only that one key to tap out the rhythm.
+
+When tapping out a rhythm to a two-handed piece, select a key on the left half
+of the keyboard for your left hand, and on the right half of the keyboard for
+your right hand,
+
+The large numbers on the screen represent beats (ticks of the metronome). In
+some Lessons, smaller numbers appear between the larger numbers. They
+represent subdivisions of each beat.
+
+The red arrow moves one beat at a time. Since there may be more than one
+note per beat, this is not necessarily the same as one note at a time.
+
+The amount of time that you hold each note is indicated by a blue line, a note
+of a specific time value, or both. Notes and lines that appear above the beat
+numbers are played with the right hand. Notes and lines that appear below
+the beat numbers are played with the left hand.
+
+Practice Rhythms
+
+Steady Quarters This Activity is identical to Practice Notes except that the metronome is
+tumed on. This provides practice making smooth transitions from one hand
+position to another. During this Activity, play one note per beat.
+
+13
+
+===== Page 26 =====
+
+USING THE SUPER NES SOFTWARE
+
+Roboman
+
+This Activity teaches you the concepts of rhythm,
+
+The screen has two parts. The bottom part works just like the Rhythm mode
+screen, except that a blue vertical line replaces the yellow arrow
+
+‘The rest of the screen shows you Roboman, a robot in a piano factory
+
+To move through the factory, Roboman must build bridge segments under his
+treads. Otherwise, Roboman crashes to the floor and must start back at the
+beginning of the measure in which he fell. After three falls, he is sent off to
+the junk heap and the game ends. Press B to start over
+
+Roboman builds bridge segments as long as a key is held down on The
+Miracle keyboard. As he builds, he uses up fuel.
+
+To refuel, you must make Roboman grab the power plugs that dangle from the
+ceiling. Do this by striking a key as Roboman passes under a power plug.
+
+A fuel gauge appears at the left side of the screen, When Roboynan has a full
+tank, the gauge is blue. As fuel is used, the gauge changes to red. When it is
+completely red, Roboman is out of fuel. He falls apart and the game is over.
+
+Note: When Roboman starts up again after falling off a bridge, his fuel 1s not
+replenished.
+
+The counter above the fuel gauge has two functions.
+
++ At the beginning of each run, it displays the number of chances Roboman
+has left to make it through the factory
+
+* During the run, it displays the number of power plugs Roboman has
+grabbed
+
+ae
+ve Git
+743
+
+kes
+
+Roboman
+
+14
+
+===== Page 27 =====
+
+USING THE SUPER NES SOFTWARE
+
+Sheet Music This Activity presents music to you exactly as it would appear in sheet music.
+Sheet Music Lessons teach you to combine pitch and rhythm. Green arrows
+
+indicate which note(s) you should play As you play, the onscreen keyboard
+shows which keys you've pressed.
+
+ee Set BEES
+= Paya es
+Se eS ip ee
+
+Sheet Music
+
+Ripchord This Activity is an arcade-style game that helps you practice chords. A
+helicopter appears pulling the chord you must play The timer on the upper
+right of the screen shows you how miany seconds you have to play the chord.
+Play the notes to send the parachuters on their way Play the wrong chord and
+
+‘ops, the little men go splat!
+
+Ripchord
+
+15
+
+===== Page 28 =====
+
+USING THE SUPER NES SOFTWARE
+
+Flashcards
+
+Flashcards test your understanding of what you've leamed. All questions are
+multiple choice. To answer them:
+
+1. Use the Up and Down arrows on the control pad to move the onscreen
+arrow to your guess.
+
+2. Press the A button.
+If you guess wrong:
+1. Use the Up and Down arrows on the control pad to try a different answer.
+
+2. When you guess right, press the A button to move on to the next question.
+
+[ QROOREDDONseBowEDDEM!
+
+aoe nes, ue eee
+
+Flashcards
+
+oe
+
+16
+
+===== Page 29 =====
+
+USING THE SUPER NES SOFTWARE
+
+The Practice Room
+
+In the Practice Room, using The Miracle’s different Activities, you can
+practice any piece of music in the course. It’s a good idea to visit here often.
+Practice sharpens your skills so that you can tackle more advanced Lessons.
+‘You get to the Practice Room from the Options screen.
+
+Select a Piece
+
+When you enter the Practice Room, you see the Select A Piece screen:
+
+Practice Room: Select a Piece
+
+The Level number next to each piece is the Chapter in which the piece is
+introduced.
+
+To select the piece you want to practice:
+
+1. Use the Up and Down arrows on the Super NES controller, and position
+the red arrow next to:
+
++ The piece you want to practice,
+see
++ Beside Next Screen to see a different menu of choices.
+
+2. Press the A button to go to your selection.
+
+17
+
+===== Page 30 =====
+
+USING THE SUPER NES SOFTWARE
+
+To return to the Lessons.
+1. Select Exit.
+2. Press A.
+
+After selecting a piece, the Practice Room menu appears.
+
+Practice Room Menu
+
+Hand Selection The line below the words Practice Room indicates the hand you will practice:
+
++ Ifthe piece you selected was from a Lesson in which you used only your
+right hand, this line says Right Hand.
+
++ — If the piece was from a left-handed Lesson, the line says Left Hand.
+
++ Ifthe piece was from a Lesson that worked with both hands, you may
+choose to practice with your left hand, right hand, or both hands.
+
+To choose your practice hand, use the Select button.
+
+18
+
+===== Page 31 =====
+
+USING THE SUPER NES SOFTWARE
+
+Toolworks The name and function of the first selection on the Practice Room menu
+Orchestra/Solo changes depending upon the piece of music you’ ve chosen:
+Performance
+
++ Toolworks Orchestra appears when the piece is available with full
+accompaniment. This gives you practice playing with others.
+
++ Solo Performance appears when the piece is played in the Lesson
+without accompaniment. If The Miracle played one hand for you in the
+Lesson, it will also do it here.
+
+The Activity used also depends upon which piece is selected:
+
++ Finger Numbers/Note Names is used with pieces from Chapters 1-4.
+
+* Sheet Music is used with all other pieces.
+
+Other Activities ‘You may also practice only the rhythm or only the notes of a piece by
+selecting one of these Activities:
+
++ Practice Rhythms.
++ Practice Notes.
+
+‘You may also choose Roboman, Shooting Gallery, Ripchord, Select
+Another Piece, Return to Lesson, or Demonstrate the Piece.
+
+For information about these activities see THE CHALKBOARD.
+
+For information about Demonstrate the Piece, Select Another Piece or
+Return to Lesson, see below.
+
+Demonstration Mode _If you don’t press a Super NES controller button at the title screen, the system.
+goes into Demonstration mode. In this mode, The Miracle plays various
+pieces from the course while displaying the different Activities. The word
+Demo appears in blue at the bottom of the screen.
+
+You may also enter this mode from the Practice Room to demonstrate a
+specific piece. To do this, select Demonstrate The Piece from the Practice
+Room menu.
+
+To exit Demonstration mode, press the Select button on your Super NES
+game controller
+
+19
+
+===== Page 32 =====
+
+USING THE SUPER NES SOFTWARE
+
+Select Another Piece Use this to select another song for practice.
+
+Return to Lesson ‘Use this to go back to the Lesson.
+
+20
+
+===== Page 33 =====
+
+COMMON QUESTIONS AND ANSWERS
+
+COMMON QUESTIONS AND ANSWERS
+
+Here are some commonly asked questions about running The Miracle
+Keyboard and Piano Teaching System on the Super Nintendo Entertainment
+System (Super NES). For additional information, see THE MIRACLE PIANO
+TEACHING System Owner's MANUAL.
+
+Why don’t! hear anything when | press a key on the keyboard?
+
+* Check that the earphones aren’t connected. When earphones are
+attached, the speakers on The Miracle are tured off.
+
+* Check the volume. Make sure that at least 3 or 4 volume indicators are lit
+up. Press the volume keys (AV) to change the volume.
+
+* Check the power supply Make sure it’s plugged into the wall, and make
+sure the other end hasn’t slipped out of the back of The Miracle.
+
++ Make sure The Miracle is turned on.
+How come nothing happens, when I turn on my Super NES?
+
+* Check The Miracle cable. It must be plugged into Super NES Controller
+Port #1. It won't work if it is plugged into Controller Port #2.
+
+* Check The Miracle Game Pak. Make sure it is fully inserted into the
+Super NES and pushed all the way down.
+
++ Make sure your TV is turned on, and that the brightness is high enough so
+you see a picture.
+
+* Check your Super NES connections to your TV. If you're not sure how
+things should be connected, look in the manual that came with your
+Super NES.
+
+Why can't | hear the metronome?
+
+* Check the volume on your TV. The metronome sound comes out of the
+TV, not out of The Miracle keyboard, so your TV volume must be high
+‘enough for you to hear it.
+
+* Check your Super NES. See if other games make noise. If they don’t,
+make sure your Super NES is properly connected to your TV (see your
+Super NES owner's manual).
+
++ Make sure you're supposed to hear a metronome. Some activities, like
+the duck game or pitch practice, don’t have a metronome sound.
+
+Why can’t I hear the metronome when | use the earphones?
+
++ The metronome sound comes out of your TV, not out of the Miracle
+speakers and not out of the earphones. Make sure the TV volume is loud
+enough so you can hear the metronome while you are wearing your
+earphones.
+
+21
+
+===== Page 34 =====
+
+COMMON QUESTIONS AND ANSWERS
+
+I pushed the Piano button, so why doesn’t it sound like a piano?
+
++ Look for a blinking light. If you find one, the keyboard is in library
+mode, or in one of the preset modes. Hold down the Select button (on
+the lower right) and press the Scroll Down button. Then try the Piano
+button again.
+
++ The keyboard may be split (playing one sound for the notes below middle
+C and a different sound for the notes above). Press the Piano button
+again, by itself.
+
+Why doesn’t the foot pedal work?
++ Make sure the foam side is facing up.
++ Make sure the connector is fully inserted into the back of The Miracle.
+
+The keyboard makes noise, so why isn’t the program responding
+to what I play?
+
++ Make sure The Miracle cable is properly connected, both to The Miracle
+Port on the back of the keyboard and to Super NES Controller Port #1
+
+* See if The Miracle is demonstrating something for you. Look for the
+Demo icon at the bottom of the screen. If so, wait for a Lesson where
+
+you play.
+The Miracle is hooked into my stereo, so why does the sound still
+come out of The Miracle speakers?
+
+* Plugging your stereo into the RCA connectors on the back of The Miracle
+doesn’t disable The Miracle speakers. To turn off the speakers, plug in
+the headphones.
+
+The Miracle is hooked into my stereo, so why doesn’t anything
+come out of my speakers?
+
++ Make sure The Miracle volume is set high enough. The Miracle volume
+controls the volume that your stereo gets.
+
+* Check the RCA connectors. Make sure each is plugged into the right
+place. For more information, see AsouT THE Keyeoaro in THE MIRACLE
+PIANO TEACHING System Owner's MANUAL.
+
+* Make sure your stereo is switched to the source that The Miracle is,
+hooked to (usually AUX).
+
+Why don’t I see more pieces to select in the Practice Room?
+
+* — Select the second-to-last item on the screen and you'll see another screen
+of choices.
+
+22
+
+===== Page 35 =====
+
+about the keyboard iis
+See also your Owner's Manual
+
+game controller OptiONS .usnnuid
+in the Lessons... ait
+in the Practice Room uel
+adult level
+See age level.
+age level
+changing saosin
+selecting adult or child 6
+Audio Out 2
+See also your Owner's Manual.
+
+c
+
+Chalkboard sereens ai
+Chapter
+changing the ..
+selecting the.
+child age level
+See age level
+common problems
+connecting The Miracle
+
+D
+
+Demonstrate the Piece ees)
+Demonstration mode...
+duck game
+
+See Shooting Gallery
+
+E
+
+earphones
+‘See also head phone,
+
+wl, 2,21
+
+F
+
+Flasheards
+foot pedal
+connecting the.
+jack...
+problems with
+
+G
+
+‘game controller
+connecting the.
+with Activities.
+with Chalkboard Es
+with Flasheards...
+
+hand selection ..
+
+head phone.
+Jack
+problems with ..
+See also your Owners Manual
+helicopter game
+See Ripchord.
+
+Input 2
+See also your Owner’s Manual
+instrument i
+
+J
+
+jack
+foot pedal...
+head phone 2
+See also your Owner's Manual.
+
+K
+
+keyboard
+‘connecting to Super NES 6.
+overlay .
+Power Supply
+rear connectors
+See also your Owner's Manual.
+
+L
+
+Lessons
+jumping to next
+Jumping t0 previous ercrunsnnnn8
+returning to
+
+listening to musi
+
+M
+
+Manuals
+Menus
+Options screen.
+Practice Room ..
+MELOMOME rn
+problems with
+MIDI...
+See also your Owner's Manual.
+Miracle Cable
+
+===== Page 36 =====
+
+Miracle Port 2,3
+“Masical Instrument Digital Interface
+See MIDI.
+
+N
+
+notation
+
+note
+AMES oe
+practices ..
+
+°
+
+‘On/Off Switch
+‘Oops Chalkboards...
+Options sereen .
+
+P
+
+package contents .
+Piano button problems =
+See also your Owner's Manual.
+power,
+connector.
+supply
+switch
+Practice Notes.
+Practice Rhythms
+Practice Room ..
+Activities
+
+selecting hands
+practicing
+notes
+rhythms .
+problems
+‘earphones
+foot pedal
+metronome
+Piano button on
+Practice Room 2
+rogram.
+stereo
+‘Super NES
+volume .
+program
+problems with .. 2
+starting the . 4
+
+INDEX
+
+Q
+
+Quick Reference ..
+Quick Start Card.
+quiz sereens
+
+See Flashcards
+
+R
+
+rear connectors
+returning to Lessons,
+rhythm practices.
+
+Screen types
+Chalkboard
+Flashcards
+ops ..
+Options menu
+Selecta Piece.
+Welcome
+
+selecting
+Chapters
+pieces...
+student age HEVEL oon
+
+setup, i snd
+‘See also your Owner's Manual
+
+Sheet MUSIC nun
+
+Shooting Gallery ..
+
+Software
+starting the 4
+using the
+
+Solo Performance
+
+staff notation...
+
+starting the program
+
+Steady Quarters
+
+stereo problems -
+See also your Owner's Manual.
+
+student age
+changing the level
+selecting the level
+
+‘Super NES
+Activities controls
+connecting the
+Flashcards controls
+game controller
+problems with ..
+starting the...
+
+Super Nintendo Entertainment System
+‘See Super NES.
+
+switeh
+
+===== Page 37 =====
+
+T
+
+‘The Miracle
+Activities
+CABLE eon
+connecting
+Game PAK oon
+package contents
+
+rear connectors ..
+using the SofWAIE eernnonn S20
+See also your Owner's Manual
+
+‘The Miracle Piano Teaching System
+See The Miracle.
+
+Toolworks Orchestt nur 19
+
+U
+
+using the software
+
+v
+
+volume
+adjusting the orchestra .eusnen
+indicators...
+problems with
+See also your Owner's Manual.
+
+Ww
+
+Warranty Registration Card
+Welcome screen ..
+
+INDEX
+
+25
+
+===== Page 38 =====
+
+INDEX
+
+26
+
+===== Page 39 =====
+
+
+
+===== Page 40 =====
+
+THESOFTWARE TOOLWORKS,
+
+60 Leveroni Court * Novato ¢ California 94949
+
+1800346

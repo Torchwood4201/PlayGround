@@ -1,0 +1,3835 @@
+# CutThroat Island
+source: https://archive.org/details/snes_manual_archive
+pdf: CutThroat Island ( EU ).pdf
+region: EU
+pages: 40
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-AC8P-EUR
+
+===== Page 2 =====
+
+LICENSED BY
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, (S} AND
+
+Keep this information / Gardez ces informations / Diese Information aufbewahren
+Conservare queste informazioni / Guarde estas informes / Bewaar daze informatie
+
+C Nintendo of Europe GmbH : 63760 GrofBostheim, Deutschland
+
+Behall denna information / Behold denne information / Pida tama tieto
+
+ARE TRADEMARKS OF NINTENDO CO.,LTD.
+
+THIS SEAL 1S YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT.ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO
+ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU'IL
+EST CONFORME AUX NORMES D'EXCELLENCE
+EN MATIERE DE FABRICATION, DE FIABILITE ET
+SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE.
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIESES QUALITATSSIEGEL IST DIE GARANTIE
+DAFUR, DASS SIE NINTENDO-QUALITAT
+GEKAUFT HABEN. ACHTEN SIE DESHALB
+IMMER AUF DIESES SIEGEL, WENN SIE SPIELE
+ODER ZUBEHOR KAUFEN, DAMIT SIE SICHER
+‘SIND, DASS ALLES EINWANDFREI ZU IHREM
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+PASST.
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO.
+QUESTO PRODOTTO. RICHIEDILO SEMPRE
+ALL'ACQUISTO DI GIOCHI ED ACCESSORI PER
+ASSICURARE LA COMPLETA COMPATIBILITA
+CON IL TUO SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA APROBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIEMPRE ESTE
+SELLO CUANDO COMPRES VIDEOJUEGOS Y
+ACCESORIOS PARA ASEGURARTE UNA
+COMPLETA COMPATIBILIDAD CON TU SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO IS GECONTROLEERD EN DAT
+HET QUA CONSTRUCTIE, BETROUWBAARHEID
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+BIJ HET KOPEN VAN SPELLEN EN
+ACCESSOIRES ALTWD OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND
+‘SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+DENNA ETIKETT GARANTERAR ATT NINTENDO
+STAR FOR PRODUKTENS KVALITET.
+KONTROLLERA ATT ETIKETTEN FINNS PA SPEL
+OCH TILLBEHOR DU KOPER FOR ATT
+FORSAKRA DIG OM ATT DE AR KOMPATIBLA
+MED SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+DETTE SEGL GARANTERER, AT NINTENDO HAR
+GODKENDT KVALITETEN AF DETTE PRODUKT.
+SE ALTID EFTER DETTE SEGL, NAR DU KOBER
+SPIL OG TIBEH@R, SA DU ER SIKKER PA FULD
+KOMPATIBILITET MED DIT SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO ON.
+HYVAKSYNYT TAMAN TUOTTEEN LAADUN.
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+SAAT VARMASTI SUPER NINTENDO
+ENTERTAINMENT SYSTEM YHTEENSOPIVIA
+TUOTTEITA.
+
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY,
+
+ATTENTION : VEUILLEZ LIRE ATTENTIVEMENT LA NOTICE "INFORMATIONS ET PRECAUTIONS
+D'EMPLOI" QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER |
+NINTENDO HARDWARE WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+SYSTEM™ LE CASSETTE O GLI ACCESSORI.
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEQJUEGO O ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE BIJ DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO-
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR.
+
+ADVARSEL : L/S FORBRUGERINFORMATIONEN OG H/EFTET MED SIKKERHEDSREGLER, DER
+FOLGER, MED DETTE‘PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM,
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISEST! LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAl MUUN VAURSTEEN KAYTTOA.
+
+===== Page 3 =====
+
+90-DAY LIMITED WARRANTY
+
+‘Super Nintendo Entertainment System GAME PAKS
+
+ACCLAIM ENTERTAINMENT LTD. ("ACCLAIM") warrants to the original
+consumer purchaser that the Super Nintendo Game Pak ("PAK") shall be
+free from defects in material and workmanship for a period of 90 days from
+the date of purchase.
+
+if a defect covered by this warranty occurs during this 90-day limited
+warranty period, ACCLAIM will repair or replace the defective Pak, at its
+option, free of charge.
+
+To receive this warranty service, return the Pak postage prepaid, insured,
+and with proof of the date of purchase to:
+
+ACCLAIM ENTERTAINMENT LTD.
+
+Moreau House, 112-120 Brompton Rd., Knightsbridge,
+
+London SW3 1JJ, England
+
+Paks returned without proof of the date of purchase or after the 90-day
+limited warranty period will, at the option of ACCLAIM, be repaired at the
+service charge then in effect for out-of-warranty repair. Call (071) 3445000
+for the amount of this charge. (Repair done after acceptance of the
+quotation.) Payments must be made by cheque or postal order, payable to
+ACCLAIM ENTERTAINMENT LTD.
+
+This warranty shall not apply if the Pak has been damaged by negligence,
+accident, abuse or modification subsequent to purchase. This warranty does
+not affect your statutory rights.
+
+For all information on this Game Pak or other Acclaim Game Paks, call
+‘the Acclaim "Hotline" at (071) 2251166.
+
+™ & © 1995 Cutthroat Distribution Inc. All rights reserved. Published by
+LUN, Inc., A subsidiary of Acclaim Entertainment, Inc. Developed by
+Software Creations, Inc. Spawn game © 1995 Sony Electronic Publishing
+Company. Based on material © 1995 Todd McFarlane Productions, Inc.
+Spawn is a trademark of Todd McFarlane Productions, Inc. All Rights
+Reserved. Developed by Ukiyotei. Acclaim is a division of Acclaim
+Entertainment. ® & © 1995 Acclaim Entertainment. All rights reserved.
+GEWAHRLEISTUNG
+
+Acclaim Entertainment GmbH gewahrt fiir die Dauer von sechs
+
+Monaten ab Kauf eine Qualitétsgarantie fir in Deutschland von Acclaim
+Entertainment GmbH gekauften Produkte. Die Gewahrleistung ist nach Wahl
+von Acclaim auf eine Méngelbeseitigung oder auf eine Ersatzlieferung eines
+mangelfreien Produktes beschrankt, weitergehnde Anspriiche sind
+ausgeschloosen.
+
+Die Gewahrleistung erlischt, wenn die Mangel auf einer
+
+unsachgemaBen Behandlung und/oder nicht autorisierte Reparaturversuche
+und/oder sonstige Beschadigungen nach dem Kauf beruhen.
+
+Zur Wahrnehmung der Garantie wenden Sie sich bitte an der Handler, bei dem
+Sie das Spiel erworben haben.
+
+Vertrieb durch: Acclaim Entertainment GmbH,
+
+Mohistrasse 10, 81675 Miinchen, Deutschland,
+
+FRANCE SEULEMENT
+
+GARANTIE LIMITE A 90 JOURS
+
+‘Super Nintendo Entertainment System GAME PAKS (Cartouches)
+ACCLAIM ENTERTAINMENT SA garantit la présente cartouche NINTENDO
+contre tout défaut durant une période de 90 jours a compter de la date
+achat.
+
+Si un défaut de fabrication apparait pendant la période de garantie,
+ACCLAIM ENTERTAINMENT SA réparera ou remplacera gratuitement la
+cartouche défectueuse.
+
+Pour faire jouer cette garantie, veuillez retourner la cartouche a votre
+revendeur NINTENDO avec un justificatif d’achat a:
+
+GAUMONT COLUMBIA TRISTAR HOME VIDEO
+
+Division ACCLAIM
+
+31 Rue Louis Pasteur, 92200 Boulogne-Billancourt, France
+
+Pour plus d'informations sur les jeux Acclaim, vous pouvez consulter:
+
+© Le minitel au 36-15 ACCLAIM
+
+‘+ Le vocal ACCLAIM au 36. 68. 10, 25
+
+Les cartouches retournées sans facture ou aprés I'expiration de la durée
+de la garantie seront au choix de ACCLAIM ENTERTAINMENT SA, soit
+reparées soit remplacées a la charge du client.
+
+Cette garantie ne jouera pas si la cartouche a été endommagée par
+négligence, accident, usage abusif, ou si elle a été modifiée aprés son
+acquisition.
+
+BELGIQUE ET LUXEMBOURG SEULEMENT
+
+GARANTIE LIMITEE A 90 JOURS
+
+‘Super Nintendo Entertainment System GAME PAKS (Cartouches)
+
+ACCLAIM ENTERTAINMENT SA garantit a l'acheteur, premier utilisateur, que
+la SUPER NINTENDO ENTERTAINMENT SYSTEM GAME PAK («Cartouche»)
+ne comporte aucun défaut de matériau ou d’exécution durant une période
+de 90 jours 4 compter de la date d’achat. Si un défaut couvert par cette
+garantie apparait durant cette période, ACCLAIM ENTERTAINMENT SA soit
+réparera soit remplacera gratuitement, a son choix, la cartouche
+défectueuse.
+
+Pour faire jouer cette garantie, retournez la cartouche a votre revendeur
+NINTENDO ou expédiez-la en recommandé et port payé accompagneée d’un
+double de votre facture d’achat a:
+
+Columbia TriStar Home Video
+
+38 Rue Souveraine, 1050 Brussels, Belgium
+
+Les cartouches retournées sans le double de la facture d’achat ou apres
+expiration de la durée de la garantie seront, au choix de ACCLAIM
+ENTERTAINMENT SA ou réparées ou remplacées a la charge du client,
+suivant le tarif prévu pour les réparations non couvertes par la garantie.
+Cette garantie ne jouera pas si la cartouche a été endommagée par
+négligence, accident, usage abusif, ou si elle a été modifiée aprés
+acquisition.
+
+90 DAGEN GARANTIE
+
+‘Super Nintendo Entertainment System SPELKASSETTE (PAL versie)
+Acclaim garandeert de eerste konsument - koper/gebruiker, dat deze
+‘Super Nintendo Entertainment System Spelkassette (=spelkassette)
+gedurende 90 dagen na aankoop geen materiaal- of konstruktietouten zal
+vertonen.
+
+Indien onverhoopt toch een defekt optreed! dat gedekt wordt door
+onderhavige garantie, zal de distributeur, Columbia TriStar Home Video, de
+spelkassette kosteloos repareren of vervangen, zulks te harer keuze.
+
+Om van deze service gebruik te maken, retourneert u de kassette aan uw
+Nintendo dealer, dan wel, voldoende gefrankeerd an met volledig
+aankoopbewijs (voorzien van officiéle aankoopdatum), aan
+
+Columbia TriStar Home Video,
+
+postbus 685, 1200 AR Hilversum, Nederland
+
+Columbia TriStar Home Video
+
+Opperstraat 38, 38 Rue Souveraine, 1050 Brussels, Belgium
+Spelkassettes welke zonder geldig aankoopbewijs of na het verstrijken van
+de 90 dagen termijn worden aangeboden, zullen gerepareerd of vervangen
+worden, en dit naar keuze van Columbia TriStar Home Video, tegen de
+buiten de garantie vallende kosten.
+
+De hiervoor beschreven garantie geldt niet als de spelkassette beschadigd is
+door onachtzaamheid, ongeluk, abnormaal gebruik of indien veranderingen aan
+de spelkassette zn aangebracht na de aanschaf.
+
+GARANZIA
+
+I perfetto funzionamento di questogioco é stato controllato prima della
+spedizione. Per questo motivo il Acclaim Entertainment,Ltd. di garantisce
+il prodotto acquistatoper un periodo di 3 (tre) mesi dalla data di acquisto.
+Per i successivi 9 (nove) mesi prov-vedera alla riparazione 0 sostituzione
+dei prodotti che risulteranno non fun-zionanti. Il costo della riparazione
+portra variare, in base all’intervento da eseguire, da un minimo di L.
+20,000 ad un massimo di L. 120,000 da pagarsi in contrassegno. La
+presente garanzia copre i difetti di produzioneo di materiale, ma non
+quelli dovuti ad un uso non proprio de! prodotto o a manutenzioni e
+riparazioni da parte di personale non autorizzato.Se il prodotto risultasse
+difettoso durante il periodo di garanzia, la preghiamo di spedirlo per la
+sostituzione, porto franco, perfettamente imballato ed accompagnato da
+questa garanzia (compilare in ogni sua parte e con lo scontrino fiscale
+
+allegato) a:
+C € s 1-8754 GroBostheim Brompton Re., Knightsbridge,
+
+MADE IN JAPAN London SW3 1), England
+PRODOTTO CONFORME AL DECRETO LEGISLATIVO 27/9/1991, N 313 IN ATTUAZIONE
+DELLA DIRETTIVA 88/378/CEE. NON ADATTO A BAMBINI DI ETA INFERIORE Al 36
+MES| A CAUSA DELLE PARTI TROPPO PICCOLEE DEL CONSEGUENTE RISCHIO DI
+INGESTIONE. CONSERVARE LE ISTRUZIONI 0 LA SCATOLA PER FUTURA REFERENZA.
+
+This product is exempt from classification under U.K. Law.
+In accordance with The Video Standards Council Code of Practice
+its considered suitable for viewing by the age ronge(s) indicated.
+
+ACCLAIM ENTERTAINMENT LID.
+Moreau House, 112-120
+
+===== Page 4 =====
+
+Real Treasure!
+
+Cutthroat Island™ features a special in-game
+sweepstakes, giving YOU the chance to win a trip
+to the Treasure Island Hotel, Las Vegas, movie
+passes and more! The sweepstakes is open to
+residents of the UK, France, Germany and Spain.
+You must collect all five of the treasure chest icons
+hidden throughout the Cutthroat Island™ game,
+answer all three questions shown on your screen
+correctly and send in your entry. For details on
+entering the sweepstakes and sweepstakes rules,
+see the official rules found in this manual. No
+purchase necessary. Void where prohibited.
+Sweepstakes entries must be received by
+May 31, 1996.
+
+Before you weigh anchor...
+LOADING:
+
+1. Make sure ‘the power switch is or.
+2. Insert the Cutthroat Island™ Game S
+Pak as described in your SUPER fs
+
+NINTENDO ENTERTAINMENT on
+SYSTEM™ instruction manual. hee
+
+3. Turn the power switch ON. An
+introduction will tell you the story of Cutthroat
+Island™. An introduction will tell you the story of
+Cutthroat Island™. When the Cutthroat Island™
+title screen aj you will see the following
+choices: START GAME and OPTIONS. To begin
+searching for treasure, highlight START GAME
+and press the START BU
+
+Options
+
+Fighting Style
+
+Cutthroat saat allows you to choose between
+two exciti ing styles:
+
+SWORDPLAY ae the sword as the default
+attack, letting you slice and slash your way
+through the pemie.
+
+BRAWLING features a punch with the swordbutt
+as the default attack, giving you the feeling of
+hand to hand fisticutis!
+
+Once you have highlighted your choice, press the
+START BUTTON to begin play.
+
+Game Features
+
+One Player Game
+
+Catthroat hs Island™ is for one or two players. Ifa
+second player wishes to “jump in” at any time, he
+or she may do so by pressing the START BUTTON
+on controller 2.
+
+Two Player Game
+
+Ifyou choose to play Cutthroat Island™ with two
+players, the player using Controller 1 controls
+Morgan, while the player using Controller 2 will
+play as Shaw. In a two player game, players work
+together to complete the various levels and
+capture the treasure.
+
+Once you've chosen how you wish to play, press
+the START BUTTON to begin.
+
+The Cutthroat Island™ Screen
+
+Score Lives
+
+Bea Meters
+
+Each character's energy is displayed in a bar
+
+located next to his or her portrait. As Morgan or
+
+Shaw is hit, her/his energy is depleted, and the
+
+bar progressively empties. When it becomes
+
+completely empty, the character loses a life.
+
+Picking up various icons will partially or
+
+completely restore energy.
+
+Aggression Indicator
+
+Your character’s Aggression Indicator changes to
+
+indicate successful hits. When the indicator is full,
+
+special moves may be performed! If you lose a life
+
+or 25% of your health within 3 seconds, the
+
+indicator will reset.
+
+Lives Remaining
+
+Each character begins Cutthroat Island™ with 3
+
+lives. The number of lives a player has left is
+
+displayed next to that character’s portrait.
+
+Enemy Energy
+
+When battling an enemy, that foe’s energy will be
+
+displayed on screen (for 2 seconds, or until a
+
+different enemy is hit) on an energy meter next to
+
+the enemy portrait.
+
+Scoring
+
+Each player’s score appears above his or her
+
+ene y meter. Points in Cutthroat Island™ are
+led for defeating enemies, collecting pick up
+
+teas and for accomplishing certain Bonus tasks.
+
+Points are also awarded for accuracy (hits vs.
+
+misses), health, map pieces collected, and
+
+successful Hits.
+
+Continues
+
+Players can earn continues, which allow for
+
+continued game play after all lives have been lost.
+
+A continue is automatically awarded every
+
+30,000 points.
+
+Weapons
+
+While the sword is your default weapon, different
+
+weapons can be collected throughout the game.
+
+When you collect a weapon, it will appear in your
+
+character’s hand. To use a throwing weapon, press
+
+the CONTROL PAD in the desired direction of the
+
+throw while pressing the X BUTTON. Below is a
+
+guide to the weapons you may encounter on your
+
+search for the elusive treasure.
+
+Swords
+
+The major weapons in Cutthroat Island™ are
+
+swords. Swords can never be used up, but they can
+
+be replaced by better ones. Swords can also be
+
+knocked or stripped away from you in the heat of
+
+battle, making it necessary to find another one.
+
+Sword
+
+This is Shaw’s default weapon.
+
+Rapier
+This is Morgan’s default weapon.
+
+werful swords hidden in the
+id them?
+
+There are more
+game. Can you
+Other Weapons
+
+At various levels and locations in Cutthroat
+Island™, weapons which are not featured below
+may be used to thwart your enemies. Be
+resourceful and ever-alert to the potential for
+pistols, bombs and other useful items to appear.
+Some weapons in Cutthroat Island™ are
+temporary, and will break or be discarded after
+one or more hits.
+
+===== Page 5 =====
+
+™ te
+Bomb -
+Bottle a
+Boulders/
+
+Rubble
+
+Pick Ups
+
+Food gi
+
+Medicine Fu
+
+Controls Brawling: Sword
+
+Butt (right hand)
+Swordplay: Sword Slash =XB IN
+(eft hand) = Y BUTTON
+Brawling: Sword Butt (left Block = A
+hand) = Y BUTTON BUTTON
+Jump = B
+Move Player
+
+Scissor Kick =
+
+Throw Enemy B BUTTON then
+Backwards = Y BUTTON
+Back + Y
+
+BUTTON
+
+There are moves which aren't given away here.
+Can you discover them?
+
+To successfully find and win the precious treasure
+hidden on Cutthroat Island™, you must first
+master the art of swordplay. Practice these moves
+until they are second nature. Combining moves is
+often the most effective way to dispatch a foe.
+Keep in mind that there are many items which
+can be picked up and used as weapons in
+Cutthroat Island™. Use your wiles to find them
+and be as ruthless as the many enemies you face.
+Remember, you’re up against the most ruthless of
+pirates, and mistakes are costly, if not fatal!
+Bonus Moves
+
+After successfully getting rhsougl some areas, you
+are awarded a “bonus move ich you could not
+do before. This move will be demonstrated and
+the button controls shown on screen. Bonus moves
+can only be performed when a player's aggression
+meter is flashing.
+
+Pirate Action!
+
+Cutthroat Island™ features many exciting areas of
+play. To complete the game and earn the highest
+score, you must meet the goals of each area.
+
+The action begins in the
+
+rank prison overseen by a
+cruel Warden. Looking for
+someone who can
+translate the Latin
+inscribed on her treasure
+. "| map, Morgan hears that
+
+L the learned ne’er-do-well
+William arg is imprisoned for stealing, and is to
+be sold into slavery. Determined to fin ‘him,
+Morgan goes to the prison, where she gains the
+unwanted attention of a clever prison guard who
+Tec es her from a wanted posting. With the
+alert sounded, Moser and Shaw feverishly try to
+escape the prison. To do so, they must find the key
+which will open the oe But they must act
+quickly, as swarms of Redcoats deploy on the
+double to capture them. You will have to overcome
+a fair number of guards before you face the final
+foe who stands between you and freedom: the
+Warden! Vanquished enemies may drop useful
+items which you can collect.
+
+Morgan and Shaw
+| desperately flee pursuing
+| prison guards, using
+whatever means are at
+) hand. Leaping into an
+abandoned quarry cart,
+they are soon careeni:
+down a steep grade out of
+the prison quarry and into the surrounding hills,
+with a troop of determined guards close behind!
+It’s a daring plan, but the way is littered with huge
+boulders and angry pursuers. The escaping duo
+must lean the right way to direct their rmaway
+quarry cart out of harm’s way. If you’re playing a
+two player game, you'll find that both players have
+to work togther in order to make it safely out of
+the quarry.
+Spittalfield
+The lively town of
+Spittalfield is full of
+shops, and townspeople
+who don’t much care for
+lawless pirates! Morgan
+and Shaw can expect less
+than open arms when
+they arrive looking for
+Morgan’s Uncle Mordechai, who has the
+remaining treasure map. Shaw and Morgan find all
+manner of mayhem in the various streets and
+shops they visit, but they must stop at the
+Blacksmith’s in order to temper their swords, and
+so defeat the pirates e guarding the entry to
+Spittalfield Tavern, where Mordechai and his
+crew await with pistols primed and sabers
+drawn— Dawg’s in town, and means to have
+the map as well!
+
+Spittalfield Tavern
+
+Morgan and Shaw fall
+into the filthy fingers of
+Dawg Brown’s band of
+brigands, who have taken
+over the Spittalfield
+Tavern in hopes of forcing
+Mordechai to
+reveal the
+
+whereabouts of his map! The tavern
+
+erupts in a furious donnybrook as pirates
+
+===== Page 6 =====
+
+and patrons alike fight with anything handy
+against anyone standing! Dawg’s First Mate,
+Snelgrave (a man of pure evil who loves a good
+fight) must be thoroughly beaten if you are to
+retrieve the map from its hiding place. Look out
+for the trap door that offers escape back into the
+town, but don’t forget the map!
+
+Carriage Chase
+
+The town is in an uproar,
+with a hornet’s nest of
+British Redcoats out in
+force to subdue the
+raucous pirate outrag
+Morgan and Shaw, having
+narrowly escaped death at
+the hands of Dawg and
+town and return to the
+Morning Star with both pirates and Redcoats fast
+on their heels. Ina typically bold manner, Morgan
+and Shaw leap to the roof of a passing carriage,
+and attempt to ride it along the harbor front to the
+docks. You'll have to dodge deadly accurate
+cannon fire from the warships of His Majes
+Navy in the harbor while you fend off the attacks
+of determined pursuers. When there’s a price on
+your head, even timid souls seem to gain the
+courage to dare to bring you down! From windows
+and rooftops, the way to the harbor is a gauntlet of
+ferocious fire and would-be warders
+Spittalfield Harbor
+With all the noise you’ve been making in the town,
+the Harbormaster has had plenty of time to
+prepare for you! A good friend of Governor Ainslee,
+the Harbormaster is going to do his best to make
+sure you don’t return to your ship!
+Mutiny on the Morning Star
+Morgan and Shaw manage
+a to return to the supposed.
+safe haven of the Morning
+Star with a complete map
+in hand giving the
+location
+of the treasure. They set
+sail for Cutthroat
+Island™, only to find that the simmering hatred of
+First Mate Scully has finally exploded into open
+defiance: Mutiny! Shaw and Morgan must battle
+for command of the Morning Star. The fight rages
+between decks with all hands slashing and slicing
+for their very lives!
+
+Jungle
+
+Dawn finds the weary,
+water-logged survivors
+miraculously washed up
+on the beach of Cutthroat
+Island™, When Dawg’s
+ship The Reaper is spied
+anchored in a secluded
+inlet, it becomes clear
+that Morgan and crew will have more than
+monkeys to deal with! From jungle treetop to
+quicksand-filled swamps, they set off to explore
+Cutthroat Island™. As they make their way, they
+
+rotting rope bridges. The jungle island has many
+
+dangers! Beware of fierce jungle creatures
+‘ch for Dawg and his men.
+
+DS
+
+The Cliffs
+
+Governor Ainslee has
+promised Dawg a full
+pardon if Dawg can
+deliver Morgan and half
+the treasure to him. This
+uneasy bargain means
+that Morgan, Shaw and
+company must now
+contend not just with Dawg and the Reaper's crew,
+but with a company of British Redcoats as well.
+You've got the map, but are you leading your
+enemies right to the treasure? The map indicates
+that the treasure is—down a cliff? The intrepid
+searchers must now confront a sheer cliff face in
+order to pursue the treasure that is so close! You'll
+have to rappel down the cliff on jungle vines,
+moving from ledge to ledge as you battle the
+enemies that now dog your every step.
+
+The odds are uneven at best, but who said a
+pirate’s life was fair?
+
+Treasure Cavern
+
+In a vast cavern lies the
+treasure you've fought so
+hard to find. The
+chambers of the cavern
+are full of dangers like
+bats and black panthers,
+watched over by the
+bones of those who never
+lived to tell of the treasure they now silently
+guard. The gloomy cavern is full of traps for the
+unsuspecting. If you can find a torch to light your
+way, you may have a dead man’s chance of finding
+the bounty that you seek!
+
+There are further adventures ahead— discover
+them if you can!
+
+Characters
+“a
+Morgan William Dawg
+Adams Shaw Brown
+Snelgrave Governor Mordechai
+Ainslee Adams
+: Harbor- Warden
+v2 master
+at
+Redcoats Pirates
+
+===== Page 7 =====
+
+EXCITING INTERACTIVE IN-GAME
+
+SWEEPSTAKES!
+
+PLAY ALONG AND WIN
+REAL TREASURE!
+
+Play along and win real treasure! As you cast off in search of treasure on
+the mysterious and dangerous Cutthroat Island”, you could find yourself
+winning real treasure! Throughout the many different levels of the game,
+you will encounter five treasure chest icons. Once you have collected all
+five, a sweepstakes screen will appear and you will be asked three
+questions. Answer each question on the card provided below; mail it in,
+and you could win one of the exciting prizes. That is, if you are brave and
+skilled enough to survive the perils which await you in Cutthroat Island”...
+
+YOU COULD WIN!
+
+¢ Grand Prize: (1) An exciting four day/three night trip for two to the
+Treasure Island Hotel, Las Vegas! (includes transportation from major
+airport nearest winners’ home to nearest major airport of destination, hotel
+accommodations (one room))
+
+* Second Prize: (60) Cutthroat Island Home T-shirts
+
+¢ Third Prize: (100 pairs) Two movie passes to a local Cinema
+
+pp Fc poy a ge a eR |
+
+1 CUTTHROAT ISLAND” IN-GAME SWEEPSTAKES |
+I I
+I NAME I
+I ADDRESS APT#. I
+I cy STATE zIP I
+DAYTIME PHONE DATE OF BIRTH.
+| GAME PURCHASED FOR: (Check all that apply) I
+I © Super Nintendo” (© Mega Drive™ I
+ANSWERS: |
+ee 1
+12) I
+I 3) I
+| ENTRIES MUST BE RECEIVED BY MAY 31, 1996 |
+I ELIGIBILITY: Sweepstakes is open to residents of the United Kingdom, France. Germany and |
+Spain only Employees of Acclaim Entertainment, Ltd., Cutthroat Distribution, Inc., The
+I Licensing Group Ltd., their affiliates, subsidiaries, advertising, promotion and publicity I
+I agencies, and Two Ten Ltd., and the immediate families of each are not eligible. Taxes on I
+
+prizes, if any, are the sole responsibility of the individual prize winners.
+
+===== Page 8 =====
+
+WHAT TO DO!
+
+1) Fill out the front of the entry form entirely making sure you have answered
+all three questions that appear on the in-game sweepstakes screen.
+
+2) Cut out the entry form on the dotted line, place it in a self-addressed
+stamped envelope and mail to:
+
+"Cutthroat Island" In-Game Sweepstakes
+P.O. Box 400
+West Yorkshire, England
+LA23 7LG.
+Entries must be received by 31/5/96
+GOOD LUCK!
+
+an nn a 4
+
+------------------4
+
+r
+I
+I
+I
+I
+I
+I
+I
+I
+I
+1
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+L
+
+===== Page 9 =====
+
+CUTTHROAT ISLAND IN-GAME SWEEPSTAKES OFFICIAL RULES
+
+1. TO ENTER: NO PURCHASE NECESSARY. Enter the "Cutthroat Island" In-Game
+Sweepstakes by completing an official entry form, or on a postcard, print your name,
+complete address, question answers, daytime phone, date of birth, and game systems
+owned and mail to: "Cutthroat Island" In-Game Sweepstakes, P.O. Box 400, West
+Yorkshire, England, LA23 7LG. Mutilated, incomplete, or illegible entries will be
+disqualified. Sponsor is not responsible for late, lost, postage due or misdirected entries.
+Entries must be mailed separately and be received by 31/5/96. Mechanically reproduced
+entries are not eligible.
+
+2. PRIZE DRAWING DETAILS: Winners will be selected in a random drawing conducted
+on or about 1/6/96 from among all eligible entries with the correct answers received by
+Two Ten Ltd., an independent judging organization whose decisions are final. No
+substitutions or transfer of prizes permitted except, if prize is unavailable, sponsor has
+right to substitute a prize of equal value. Odds of winning a prize depend upon the number
+of eligible entries received. By entering this sweepstakes, entrant consents to the use of his
+or her name and/or photograph without additional compensation, in any publicity carried
+out by Acclaim Entertainment, Inc. related to the sweepstakes, except where prohibited by
+law. Winners must confirm, in writing, their acceptanceof the prize, within 14days of being
+notifed. Failure to do this in the time noted will result in the disqualification of the entry
+and an alternate winner will be selected. If trip winner and/or guest is younger than 18
+years of age, he/she/they must have permission of a parent or legal guardian in order to
+travel. Winner's travel companion will be required to complete a Publicity/Liability Release
+form. All prizes will be awarded and winners will be notified by mail or overnight delivery.
+
+8. PRIZES: (1) Grand Prize: A four day/three night trip for two to the Treasure Island
+Hotel, Las Vegas, includes transportation from major airport nearest winners' home to ~
+nearest major airport of destination, hotel accommodations (one room). Personal expenses
+such as, but not limited to, beverages, souvenirs, taxes and gratuities not included. Trip
+must be taken by 31/12/96. Second Prizes: Cutthroat Island Home T shirts (50). Third
+Prizes: Two movie passes to a local Cinema (100 pairs) Trip winner and guest agree to hold
+Acclaim Entertainment, Inc., Cutthroat Distribution Inc., The Licensing Group Ltd., their
+employees, agents, affiliates, subsidiaries, licensees, and advertising/publicity and
+promotion agencies harmless against all claims or liabilities arising directly or indirectly
+from prize winning.
+
+4. ELIGIBILITY: Sweepstakes is open to residents of the United Kingdom, France.
+Germany and Spain only Employees of Acclaim Entertainment, Ltd., Cutthroat
+Distribution Inc., The Licensing Group Ltd., their affiliates, subsidiaries, advertising,
+promotion and publicity agencies, and Two Ten Ltd., and the immediate families of each
+are not eligible. Taxes on prizes, if any, are the sole responsibility of the individual prize
+winners.
+
+5. WINNERS LIST: For a list of prize winners, available after 1/6/96, send a stamped, self-
+
+addressed envelope to: "Cutthroat Island" In-Game Sweepstakes Winners, P.O. Box 400,
+West Yorkshire, England, LA23 7LG.
+
+8
+
+===== Page 10 =====
+
+ECHTE SCHATZE!
+
+Cutthroat Island™ bietet Dir im Spiel ein ganz
+besonderes Gewinnspiel, bei dem DU einen
+echten Schatz gewinnen kannst! Der Hauptpreis
+ist eine Reise nach Las Vegas in das Treasure
+Island Hotel und viele weitere tolle Preise! Du
+darfst allerdings nur teilnehmen, wenn Du in
+Deutschland, GroSbritannien, Frankreich oder
+Spanien wohnst. Du mut alle 5 Schatztruhen-
+Icons, die in Cutthroat Island™ versteckt sind,
+finden und am Ende des Spiels 3 Fragen richtig
+beantworten . Wenn Du das geschafft hast, muBt
+Du nur noch Deinen Teilnahmeschein einsenden.
+Genauere Infos zum Preisausschreiben findest Du
+in den offiziellen Teilnahmebedingungen in
+diesem Handbuch, Einsendeschlu& ist der 31.
+Mai 1996. Der Rechtsweg ist ausgeschlossen.
+
+BEVOR DU DEN
+ANKER
+
+LICHTEST...
+LADEN:
+
+1. Vergewissere Dich,
+da8 Dein Gert
+AUSgeschaltet ist.
+2. Lege das Cutthroat
+Island™-Game Pak ein,
+wie im Handbuch zu
+Deinem SUPER
+NINTENDO
+ENTERTAINMENT
+SYSTEM™
+beschrieben.
+
+3. Schalte nun das Gerat EIN.
+
+Wenn der Cutthroat Island™-Titelbildschirm
+erscheint, stehen Dir folgende Optionen zur
+Verfiigung: START GAME (Spiel starten) und
+OPTIONEN (Optionsmenii). Um nach dem Schatz
+zu suchen, markiere START GAME und driicke
+START.
+
+OPTIONSMENU
+
+Fighting Style (Kampfstil)
+
+Cutthroat Island™ stellt Dir zwei aufregende
+Kampfstile zur Ve:
+
+SWORDPLAY (Geigectinnn macht Deinen
+Siibel zur Standardwaffe! So kannst Du Deinen
+Weg durch das Spiel sébeln.
+
+BRAWLING (Raufen) erlaubt es Dir, den
+Sabelgriff als Kniippel zu beniitzen. So kannst Du
+Dich durch das Spiel priigeIn!
+
+Wenn Du Deine Wahl markiert hast, driicke
+START, um das Spiel zu beginnen.
+
+SPIELFUNKTIONEN
+One Player Game
+
+(Ein-Spieler-Modus)
+
+Cutthroat Island™ kann von 1 oder 2 Personen
+
+gespielt werden. Wahrend des Spiels kann sich
+
+ein zweiter Spieler jederzeit einklinken, indem er
+auf Controller 2 einfach START
+driickt.
+
+9 Two Player Game
+(Zwei-Spieler-Modus)
+
+Entscheidest Du Dich fiir diese Option, dann
+steuert der Spieler am Controller 1 Morgan,
+wihrend der Spieler an Controller 2 die Rolle von
+Shaw iibernimmt. Im Zwei-Spieler-Modus gehen
+die Spieler im Team die Levels und die
+Schatzsuche an. Bek&impft Morgan beispielsweise
+einen Gegner, dann kann der Spieler, der Shaw
+steuert, Spezialbewegungen einsetzen, um ihr zu
+Hilfe zu eilen. Im Zwei-Spieler-Modus ist
+Zusammenarbeit einfach alles!
+
+Hast Du Dich fiir einen Modus entschieden, dann
+driickst Du einfach START, um die Schatzsuche zu
+beginnen.
+
+Der Cutthroat Island™-
+Bildschirm
+
+Energieanzeige
+
+Punktestand
+
+Energieanzeige
+
+Energieanzeige
+des Gegners
+
+Energieanzeige
+des Gegners
+
+Energieanzeigen
+
+Die Energie jedes Spielers/jeder Spielfigur wird auf
+einer Leiste neben dem entsprechenden Bild
+angezeigt. Werden Morgan oder Shaw vom Gegner
+getroffen, dann nimmt ihre Energie ab, und die
+Leiste leert sich langsam. Ist sie villig leer, dann
+verliert die Seetee ein Leben. Durch das
+Einsammeln verschiedener Icons kann die Energie
+teilweise oder vollkommen wiederhergestellt werden.
+
+essionsanzeige
+Die ressionsanzeige veraindert sich mit jedem
+erfolgreichen Schlag. Hat die Anzeige die
+Héchstgrenze erreicht, dann kénnen
+Spezialbewegungen eingesetzt werden! Wenn Du
+innerhalb von 3 Sekamden ein Leben oder 25%
+Deiner Gesundheit einbiiBen muBt, geht die
+Anzeige wieder auf den Ausgangsstand zuriick.
+Verbleibende Leben
+Jede Spielfigur beginnt Cutthroat Island™ mit 3
+Leben. Die Anzahl der verbleibenden Leben jedes
+Spielers erscheint neben dem jeweiligen Bild.
+
+Energieanzeige des Gegners
+Bekampfst Du Ge Gegner, teen erscheint
+dessen Energieanzeige auf dem Bildschirm (und
+zwar 2 Sekunden lang bzw. bis ein anderer Gegner
+getroffen wird) neben seinem Bild.
+
+Punktestand
+
+Der Punktestand jedes Spieler wird oberhalb
+seiner Energieanzeige angegeben. In Cutthroat
+Island™ gibt es Punkte, wenn man einen Gegner
+erledigt, Pick-Ups einsammelt oder Bonus-
+Aufgaben erledigt. Au8erdem bekommst Du unter
+anderem Punkte fiir Deine Fechtkunst
+
+===== Page 11 =====
+
+(Treffer/Fehlschlage) und Gesundheit
+gutgeschrieben, aber auch wenn Du Teile der
+Schatzkarte cinsammelst oder erfolgreiche Power
+Hits landest.
+
+Continues
+
+Wahrend des Spiels kénnen Continues erkémpft
+werden, die es Dir erméglichen, das Spiel
+fortzusetzen, selbst wenn Du alle Leben verloren
+hast. Nach jeweils 30.000 Punkten bekommst Du
+automatisch ein Continue gutgeschrieben.
+
+WAFFEN
+
+Das Schwert ist zwar Deine Standardwaffe, Du
+kannst aber in verschiedenen Spiellevels weitere
+Waffen sammeln. Eine von Dir eingesammelte
+Waffe erscheint auf dem Bildschirm in der Hand
+Deiner Spielfigur. Um eine Wurfwaffe einzusetzen,
+driickst Du den Richtungsknopf (R-Knopf) in die
+gewiinschte Wurfrichtung und gleichzeitig Knopf
+X. Eine Liste aller Waffen, auf die Du bei Deiner
+Schatzsuche treffen kannst, ist im folgenden
+aufgefiihrt.
+
+SCHWERTER
+
+Die wichtigsten Waffen in Cutthroat Island™
+sind Schwerter. Um die Gegner zu besiegen, die
+zwischen Dir und dem unermeBlichen Schatz
+von Cutthroat Island™ stehen, mu8t Du Dein
+Arsenal an Schwertern meisterlich beherrschen!
+Deine Schwerter bleiben Dir immer erhalten,
+auch wenn Du sie noch so oft verwendest.
+Allerdings kannst Du sie gegen bessere
+eintauschen. Es kann auch passieren, da8 Dir
+Dein Schwert im Kampf aus der Hand
+geschlagen wird und Du dann ein anderes
+brauchst. Wenn Du Dawg nicht mit leeren
+Handen gegeniibertreten willst, mu8t du Dein
+Schwert also immer fest im Griff haben!
+
+Schwert Degen
+ia
+WEITERE WAFFEN
+
+In bestimmten Levels und an verschiedenen
+Schauplatzen in Cutthroat Island™ kénnen auch
+Waffen, die nicht in der Liste unten aufgefiihrt
+sind, im Kampf benutzt werden. Sei deshalb
+clever und halte immer nach méglicherweise
+auftauchenden Pistolen, Musketen, Bomben und
+anderen niitzlichen Gegenstinden Ausschau.
+Einige der Waffen in Cutthroat Island™ kannst Du
+nur voriibergehend verwenden, da sie entweder
+nach einem oder mehreren Einsitzen im Kampf
+zerbrechen oder nicht mehr zu gebrauchen sind.
+
+Messer Brennende
+
+Fackel
+Bombe cy Hammer |
+Flasche Pistole =
+Steine/
+
+Geroll
+
+PICK-UPS
+
+Nahrung Extra-Leben
+
+Schliissel
+Tr Schatztruhen
+ne is
+STEUERUNGEN
+Walle werfen
+
+X + RICHTUD
+
+Angriff abwehren
+= KNOPF A
+
+SCHWERTKAMPF:
+Schwerthieb (linke
+Hand) = KNOPF Y
+Sprung =
+KNOPF B
+
+Scherenkick =
+KNOPE B und
+Spieler in dann KNOPF Y
+gedriickte
+Richtung
+bewegen =
+R-KNOPF Drehhieb = KNOPF B
+es FEREL: +KNOPFY
+Sahecrie Schwerigrifischlag
+Schwertgrfischlag — Ginke Hand) =
+(rechte Hand) = KNOPFY — SCHWERTKAMPF:
+KNOEFX Schwerthieb (rechte Hand)
+
+= KNOPF X
+
+Es gibt Moves, die hier nicht verraten wurden.
+Kannst Du sie herausfinden?
+
+Willst Du bei Deiner Schatzsuche auf Cutthroat
+Island™ erfolgreich sein und gewinnen, dann
+mu8t Du das Schwert meisterhaft beherrschen.
+Trainiere so lange, bis Dir die Schwerthiebe in
+Fleisch und Blut iibergegangen sind. Am
+effektivsten ist es, wenn Du im Kampf gegen einen
+Widersacher verschiedene Bewegungen
+kombinierst. Vergi8 nicht, daB in Cutthroat
+Island™ die unterschiedlichsten Gegenstiinde
+eingesammelt und als Waffen eingesetzt werden
+kénnen. Benutze auf der Suche danach Dein
+Képfchen, und sei genauso skrupellos wie Deine
+Gegner. Denk dran, Du kimpfst gegen Piraten,
+und Fehler kénnen schmerzhaft sein, wenn nicht
+sogar verhiingnisvoll!
+
+10
+
+===== Page 12 =====
+
+PIRATEN-ACTION!
+
+In Cutthroat Island™ gibt es viele spannende Spielabschnitte. Um das Spiel mit den meisten Punkten
+beenden zu kénnen, muS8t Du (nacheinander) jeden Abschnitt erfolgreich absolvieren.
+
+Jagd mit der
+Steinbruchlore
+
+| ae eis
+
+Meuterei auf der
+“Morning Star”
+
+Cutthroat -Spielfiguren
+Morgan Adams William Shaw Dawg Brown
+Governor Ainslee __Gefiingniswarter Hafenmeister Rotrécke
+iad
+Mordechai Adams Piraten
+
+ra
+
+11
+
+===== Page 13 =====
+
+DAS AUFREGENDE INTERAKTIVE
+CUTTHROAT ISLAND-PREISAUSSCHREIBEN!
+
+Versuch Dein Gliick, und finde einen
+echten Schatz!
+
+Wenn Du den Anker lichtest, um auf der geheimnisvollen und gefahrlichen
+Insel Cutthroat Island™ nach Reichtiimern zu suchen, kénntest Du jetzt
+sogar einen echten Schatz finden! Achte auf die verschiedenen
+Schatztruhen-Icons in den zahlreichen Levels des Spiels. Sobald Du alle
+fiinf gesammelt hast, erscheint der Preisausschreiben-Bildschirm mit drei
+Fragen. Trage die korrekten Antworten zu allen Fragen auf der
+beiliegenden Karte ein, und sende sie ab. Du kénntest einen der
+aufregenden Preise gewinnen! Vorausgesetzt natiirlich, Du bist mutig und
+gewitzt genug, um die Gefahren zu bestehen, die in Cutthroat Island™
+
+lauern... a .
+
+Das kénntest Du gewinnen!
+¢ Super-Hauptgewinn: Eine (1) 4-tagige Reise (6 Ubernachtungen) fiir zwei
+Personen ins Treasure Island Hotel in Las Vegas, einschlieBlich Flug vom
+nachsten gréBeren Flughafen (in Nahe des Wohnorts des Hauptgewinners)
+zum Zielflughafen und Ubernachtungen (ein Zimmer).
+
+¢ Zweite Preise: 50 Cutthroat Island-T-Shirts.
+* Dritte Preise: 100 mal je zwei Kinokarten fiir ein Kino in Deiner Nihe.
+
+I 7 recap tet pes een Ane on Satara amok ae tp
+
+CUTTHROAT ISLAND™ IN-GAME SWEEPSTAKES
+
+NAME.
+ADDRESS (ADRESSE) APT# (HAUSNUMMER).
+
+CITY (ORT). STATE (LAND) ZIP (PLZ).
+DAYTIME PHONE (TELEFONNUMMER). DATE OF BIRTH (GEBURTSDATUM).
+GAME PURCHASED FOR: (Check all that apply) (Spiel gekauft fiir: bitte ankreuzen)
+© Super Nintendo” C Mega Drive™
+
+ANSWERS (ANTWORTEN):
+1)
+2)
+3)
+ENTRIES MUST BE RECEIVED BY MAY 31, 1996 (Einsendeschluss Ist Der 31. Mai 1996)
+
+TEILNAHMEBEDINGUNGEN: An dem Preisausschreiben kénnen alle in
+GroBbritannien, Frankreich, Deutschland und Spanien ansiissigen Interessenten
+teilnehmen. Nur die Belegschaft von Acclaim Entertainment, Ltd., Cutthroat
+Distribution Inc., The Licensing Group Ltd., ihrer
+
+Tochtergesellschaften, Filialen, Werbeagenturen und von Two Ten Ltd. sowie deren
+Familienangehérige sind von der Teilnahme ausgeschlossen. Die eventuell auf Preise
+anfallenden Steuern sind jeweils vom Gewinner zu tragen.
+
+===== Page 14 =====
+
+Und das muft Du tun!
+
+1) Fille die Vorderseite der Teilnahmekarte vollstandig aus, und achte
+darauf, da8 Du alle drei Fragen des Preisausschreiben-Bildschirms
+beantwortet hast.
+
+2) Schneide die Teilnahmekarte entlang der gepunkteten Linie aus, lege
+einen an Dich selbst adressierten und frankierten Umschlag bei, und
+sende beides an:
+
+"Cutthroat Island" In-Game Sweepstakes
+P.O. Box 400
+West Yorkshire, England
+LA23 7LG
+GB
+EinsendeschluB ist der 31.05.1996.
+VIEL GLUCK!
+
+Faery ps es aa gee ee eae a ne eer aha
+
+BS SS Se SSS oSemS Sooo Seo Soe
+
+===== Page 15 =====
+
+PREISAUSSCHREIBEN TEILNAHMEBEDINGUNGEN
+
+1. TEILNAHME OHNE KAUFZWANG., Du kannst am Cutthroat Island-
+
+Preisausschreiben teilnehmen, indem Du einfach eine Teilnahmekarte ausfiillst oder eine
+Postkarte mit Deinem Namen, Deiner Adresse, der Auflésung, der Telefonnummer, unter
+der Du tagsiiber zu erreichen bist, Deinem Geburtsdatum und den Spielsystemen, die Du
+besitat, an folgende Anschrift einsendest: "Cutthroat Island" In-Game Sweepstakes
+
+P.O. Box 400, West Yorkshire, England, LA23 7LG.
+
+Unvollstindige oder unleserliche Einsendungen nehmen nicht an der Ziehung teil. Der
+Veranstalter kann bei zu spat eingesandten, verlorengegangenen, unfrankierten oder falsch
+adressierten Einsendungen nicht haftbar gemacht werden. Einsendeschlu8 ist der
+31.05.1996. Es werden nur handschriftliche Einsendungen beriicksichtigt.
+
+2. VERLOSUNG DER GEWINNE: Unter allen richtigen Einsendungen werden etwa am
+01.06.1996 durch Two Ten Ltd., ein unabhangiges Gremium, die Gewinne verlost. Der
+Rechtsweg ist ausgeschlossen. Die Gewinne kénnen weder ersetzt noch abgetreten
+werden, es sei denn, der Veranstalter ersetzt einen nicht verfiigbaren Preis durch einen
+gleichwertigen. Die Gewinnchancen hangen von der Zahl der giiltigen Einsendungen ab.
+Mit der Teilnahme an diesem Preisauschreiben erklart sich der Teilnehmer/die
+Teilnehmerin damit einverstanden, da sein/ihr Name und Foto ohne Honorar fiir jede
+Werbung von Acclaim Entertainment, Inc., die mit dem Preisausschreiben in
+Zasammenhang steht, verwendet wird, soweit rechtlich zulassig. Die Gewinner miissen
+sich innerhalb von 14 Tagen nach Benachrichtigung schriftlich zur Annahme ihres Preises
+bereiterkléren. Andernfalls geht ihr Preis an einen anderen Teilnehmer. Sollte der
+Gewinner/die Gewinnerin der Reise und/oder die Begleitperson unter 18 Jahren sein, so
+wird vor Reiseantritt die Erlaubnis der Eltern oder gesetzlichen Vertreter benstigt. Die
+Begleitperson des Gewinners mufs sich damit einverstanden erklaren, daB Acclaim Namen
+und Fotos fiir Werbezwecke verwenden kann und fiir keinerlei eventuell durch die Reise
+entstehenden Schaden haftet. Die Gewinner werden per Post benachrichtigt oder
+bekommen die Preise zugesandt.
+
+3. PREISE: 1. Hauptgewinn: Eine 4-tagige Reise (3 Ubernachtungen) fiir zwei Personen ins
+Treasure Island Hotel in Las Vegas, einschlieBlich Flug vom niichsten gréBeren Flughafen
+Gn Nihe des Wohnorts des Haupigewinners) zum Zielflughafen und Ubernachtumgen (ein
+Zimmer). Ausgaben, wie z.B. - aber nicht ausschlieBlich - Getriinke, Souvenirs, Steuern und
+Trinkgelder sind nicht eingeschlossen. Die Reise muB8 bis spitestens 31.12.1996
+angetreten werden. Zweite Preise: 50 Cutthroat Island-T-Shirts. Dritte Preise: 100 mal je
+zwei Kinokarten fiir ein Kino in Deiner Nahe. Der Gewinner der Reise sowie die
+Begleitperson verpflichten sich, Acclaim Entertainment, Inc.,Cutthroat Distribution, Inc.,
+The Licensing Group Ltd., deren Belegschaft, Vertreter, Tochtergesellschaften, Filialen,
+Lizenznehmer und Werbeagenturen nicht fiir direkt baw. indirekt aus dem Gewinn
+entstehende Schaden oder Verluste haftbar zu machen.
+
+4. TELLNAHMEBEDINGUNGEN: An dem Preisausschreiben kénnen alle in
+GroBbritannien, Frankreich, Deutschland und Spanien ansiissigen Interessenten
+teilnehmen. Nur die Belegschaft von Acclaim Entertainment, Lid., Cutthroat Distribution
+Inc., The Licensing Group Ltd., ihrer Tochtergesellschaften,
+
+Filialen, Werbeagenturen und von Two Ten Ltd. sowie deren Familienangehérige sind von
+der Teilnahme ausgeschlossen. Die eventuell auf Preise anfallenden Steuern sind jeweils
+vom Gewinner zu tragen.
+
+5. LISTE DER UND GEWINNER: Eine Liste mit den Namen aller und Gewinner ist ab
+01.06.1996 erhiailtlich. Schicke dazu einen frankierten, adressierten Riickumschlag an
+folgende Adresse: "Cutthroat Island" In-Game Sweepstakes Winners, P.O. Box 400
+
+West Yorkshire, England, LA 23 7LG. 1 4
+
+===== Page 16 =====
+
+UN VRAI TRESOR!
+
+Cutthroat Island™ vous propose un concours grace
+auquel vous pouvez gagner un voyage a |'H6tel
+Treasure Island de Las Vegas, des tickets de
+cinéma et bien plus encore! Le concours est ouvert
+aux personnes résidant au Royaume-Uni, en
+France, en Espagne ou en Allemagne. Vous devez
+répondre correctement aux trois questions qui
+apparaitront sur votre écran et envoyer votre
+bulletion de participation. Pour les détails
+concernant la participation et les régles de ce
+concours, reportez-vous aux régles officiclles dans
+ce manuel. Les réponses au concours doivent étre
+recues le 31 mai 1996 au plus tard.
+
+AVANT QUE VOUS NE LEVIEZ
+
+L’ANCRE...
+
+COMMENT CHARGER:
+
+1. Assurez-vous que l’appareil soit éteint (OFF).
+2. Insérez la cartouche de jeu Cutthroat Island™
+de la maniére décrite dans le manuel
+dinstructions de SUPER NINTENDO.
+ENTERTAINMENT SYSTEM™,
+
+3. Allumez
+V’appareil (ON).
+Lorsque I’écran
+titre Cutthroat
+Island™ apparait, vous ©
+aurez les
+
+choix suivant: START
+GAME et OPTIONS. Pour
+commencer la chasse au
+trésor, mettez START
+
+fF
+
+GAME en surbrillance en |
+et appuyez sur le
+bouton START. =e O°
+
+OPTIONS
+
+Le mode de combat
+
+Cutthroat Island™ vous permet de choisir parmi
+deux modes de combat.
+
+SWORDPLAY: L’arme par défaut est l’épée.
+BRAWLING: Dans ce mode, vous avrez deux
+attaques par d‘faut, l’épée et vos poings.
+
+Une fois que vous avrez fait votre choix, appuyez
+sur START pour commencer a jouer.
+
+LES FONCTIONS DU JEU
+
+Jeu a un joueur
+
+Cutthroat Island™ convient 4 un ou deux joueurs.
+Si un second joueur désire s’associer a la partie, il
+ou elle peut le faire en appuyant sur le BOUTON
+START de la manette 2.
+
+Jeu a deux joueurs
+
+Si vous choisissez de jouer 4 deux, le joueur
+utilisant la manette 1 contréle Morgan alors que le
+joueur utilisant la manette 2 contréle Shaw. Dans
+un jeu a deux joueurs, les joucurs s’associent pour
+terminer les niveaux et s’emparer du trésor.
+Lorsque vous avez choisi votre mode de jeu,
+appuyez sur le BOUTON START pour commencer.
+
+15
+
+L’écran Cutthroat Island™
+
+Nombre
+
+Le compteur d’agressions
+
+Le portrait de votre personnage change en
+indiquant les coups réussis. Lorsque le compteur
+est A son maximum, il est possible d’effectuer des
+actions spéciales! Si vous perdez une vie ou 25% de
+votre santé en moins de 3 secondes, le compteur
+se remet a zéro.
+
+Le compteur d’énergie
+
+Lénergie de votre joueur/personnage est affichée
+dans une barre qui est située prés de son portrait.
+Lorsque Morgan ou Shaw est touché, son énergie
+est épuisée et la barre se vide progressivement.
+Lorsqu’elle est complétement vide, vous perdez
+une vie. Vous pouvez récupérer partiellement ou
+totalement l’énergie en ramassant diverses icones.
+
+Le nombre de vies restantes
+
+Le joueur commence la partie de Cutthroat
+Island™ avec 3 vies. Le nombre de vies restant au
+joueur est affiché a cété du portrait du personnage.
+
+L’énergie des ennemis
+
+Lors d’un affrontement avec un ennemi, l’énergie
+de cet adversaire est affichée sur I’écran (pendant
+2 secondes ou jusqu’a ce qu’un autre ennemi soit
+touché) dans un compteur d’énergie se trouvant 4
+cété du portrait du personnage.
+
+Le score é
+
+Le score du joueur apparait au-dessus du
+compteur d’énergie du personnage. Les
+points dans une partie de Cutthroat Island™
+sont obtenus en battant des adversaires, en
+ramassant certains objets et en accomplissant
+certaines taches de Bonus. Il est également
+possible d’obtenir des points grace a votre
+habileté aux armes, votre santé, le nombre
+d'objets ramassés, ete...
+
+Continues
+
+Les joueurs peuvent gagner des Continues, ce qui
+permet de poursuivre le jeu aprés avoir perdu
+toutes ses vies. Un Continue est automatiquement
+accordé a chaque fois qu’un joueur atteint
+
+30,000 points.
+
+LES ARMES
+
+Bien que l’épée soit votre arme par défaut, il
+
+vous est possible de ramasser de nombreuses
+armes différentes au cours des divers niveaux de
+jeu. Lorsque vous ramassez une arme, elle apparait
+
+===== Page 17 =====
+
+dans votre main. Pour utiliser une arme de jet,
+appuyez sur le CONTROL PAD dans la direction
+souhaitée, tout en appuyant sur le BOUTON X. Il
+est proposé ci-dessous un guide présentant les
+diverses armes que vous aurez peut-étre l’occasion
+de rencontrer au cours de votre chasse au trésor.
+
+LES EPEES
+
+Les armes les plus importantes dans le jeu de
+Cutthroat Island™ sont les épées. Il se peut
+que votre épée vous soit retirée ou que vous la
+perdiez dans le feu de la bataille, ce qui vous
+oblige a en trouver une autre.
+
+LES AUTRES ARMES
+
+Les armes qui sont énumérées ci-dessous peuvent
+étre utilisées pour vous défendre contre vos
+ennemis. Montrez de l’initiative et soyez attentif a
+l’apparition possible de pistolets, de mousquets,
+de bombes et d’autres objets particulig¢rement
+utiles. Certaines armes sur Cutthroat Island™
+sont temporaires et arrétent de fonctionner ou
+disparaissent aprés un ou plusieurs coups.
+
+Le Coutean La Torche
+Enflammée
+
+La Bombe *
+
+La Bouteille C4
+
+Les Rochers/
+Les Débris
+
+Le Marteau
+
+Le Pistolet =~
+
+LES OBJETS A RAMASSER
+
+Nourriture ’ Vie
+
+“e Supplémentaire
+Clé
+
+oT
+Médicament Coffre
+
+LES COMMANDES
+
+Pour lancer une arme
+= BOUTONS }
+
+Pour Pour donner un
+interrompre coup d’épée =
+momentaném — BOUTONY
+
+Pour bloquer =
+
+ent une partie BOUTON A
+
+= Bouton Start
+Pour sauter =
+
+Pour déplacer
+BOUTON B
+
+un joucur dans
+la direction
+voulue =
+
+CONTROL PAD Pour donner un
+
+Pour lancer vers V'arriére COUP = BOUTON X
+
+= ARRIERE + BOUTON Y
+
+Pour découvrir et remporter le précieux trésor
+caché sur Cutthroat Island™, il vous faut maitriser
+l'art de l’escrime, Répétez ces mouvements
+jusqu’a ce qu’ils deviennent instinctifs. La
+combinaison de divers mouvements constitue
+souvent la meilleure maniére de vous débarrasser
+d'un ennemi. Gardez présent a l’esprit qu'il y a
+beaucoup d’objets qui peuvent étre ramassés et
+utilisés comme armes sur Cutthroat Island™.
+Utilisez toutes les ruses que vous pouvez imaginer
+et soyez aussi implacable que les nombreux
+ennemis auxquels vous allez faire face. Rappelez-
+vous que c’est le Prince des Pirates que vous
+affrontez, et les erreurs peuvent se révéler
+cofiteuses, si ce n’est fatales!
+
+Aprés avoir franchi avec succés certaines étapes,
+vous serez récompensé par un coup spécial, que
+vous ne pouviez faire auparavant. Ce coup sera
+expliqué a I'écran. Les coups spéciaux ne peuvent
+étre réalisés que lorsque votre compteur
+d'agression clignote.
+
+16
+
+===== Page 18 =====
+
+UNE AVENTURE DE PIRATES !
+Pour remporter une partie et gagner le maximum de points, il vous faut atteindre les objectifs de chaque
+niveau autres.
+
+La Prison
+
+La poursuite dans
+le tombereau
+
+Spittalfield
+
+La Taverne La Poursuite La Mutinerie sur
+de Spittalfield en Diligence le Morning S
+
+Les Cavernes
+au Trésor
+
+LES PERSONNAGES
+
+Morgan William Shaw Le Capitaine du Port Dawg
+A a
+Les Tuniques Mordechai Snelgrave Le Gardien
+Rouges
+Le Gouverneur Ainslee Les Pirates
+
+17
+
+===== Page 19 =====
+
+Un concours interactif
+passionnant integre au jeu!
+
+Jouez et gagnez de vrais trésors!
+
+Alors que vous vous lancez a la recherche de trésors sur la mystérieuse et
+dangereuse ile de Cutthroat Island™, vous pourriez bien gagner de vrais
+trésors! Dispersés dans les cing niveaux du jeu, vous trouverez cing coffres
+au trésor. Lorsque vous les avez tous ramassés, un écran apparaitra: vous
+devrez répondre a trois questions. Répondez a chaque question sur la carte
+ci-dessous; envoyez-la et vous pourriez bien gagner l'un des superbes prix
+mis en jeu. Mais vous devrez d'abord étre assez courageux et assez rusé
+pour survivre aux multiples dangers qui vous guettent dans Cutthroat
+Island™...
+
+Vous pouvez gagner:
+
+¢ ler prix: Un voyage de 4 jours/3 nuits pour deux personnes, a I'Hétel
+Treasure Island de Las Vegas; cela comprend le vol de I'aéroport important
+le plus proche du lieu de résidence du gagnant a 1'aéroport important le plus
+proche du lieu de destination, et les nuits d'hétel (1 chambre)
+
+¢ 2éme prix: T-Shirts Cutthroat Island (50).
+¢ 3éme prix: Deux tickets de cinéma gratuits (190 paires).
+
+lee salentanetontoelentententeetaalentontentantenlanlantantentestenionion
+
+| CUTTHROAT ISLAND” IN-GAME SWEEPSTAKES
+
+NAME (NOM)
+ADDRESS (ADRESSE), APT#
+
+CITY (VILLE) STATE (CODE POSTAL) zIP
+DAYTIME PHONE (N° TEL:) DATE OF BIRTH (DATE DENAISSANCE)
+GAME PURCHASED FOR: (Check all that apply) (Format du jeu acheté)
+CO Super Nintendo C1 Mega Drive
+
+ANSWERS (REPUESTAS):
+1)
+2)
+3)
+ENTRIES MUST BE RECEIVED BY MAY 31, 1996 (Le concours sera clos le 31 Mai 96 a minuit.)
+
+fe toe rl
+
+PARTICIPATION: Ce concours est ouvert aux personnes résidant au Royaume-Uni, en France,
+en Allemagne ou en Espagne. Seuls les employés d'Acclaim Entertainment Ltd., Cutthroat
+Distribution Inc. The Licensing Group Ltd. de ses affiliés, branches, agences de
+promotion/publicité et de Two Ten Ltd., ainsi que leur famille proche, ne peuvent participer.
+Les taxes/imp6ts sur les prix, s'il y en a, sont la responsabilité des gagnants.
+
+oe Se Seas
+
+i ater ri of cetera ee
+
+===== Page 20 =====
+
+Comment participer:
+
+1) Remplissez le verso du bulletin de participation, en vous assurant que
+vous avez bien répondu aux trois questions qui sont apparues 4 l'écran.
+2) Découpez le bulletin en suivant la ligne pointillée, et envoyez-le,
+accompagné d'une enveloppe timbrée portant votre adresse, a:
+"Cutthroat Island" In-Game Sweepstakes
+P.O. Box 400
+
+West Yorkshire, England
+LA23 7LG.
+Les bulletins doivent nous parvenir avant le 31/05/96.
+BONNE CHANCE!
+
+| aca A, a ame SY Sala! Se ae TE IN ne Eat eae ||
+
+Lease CoSeecoREeSeeseceseeSseeeseead
+
+‘
+
+===== Page 21 =====
+
+LE CONCOURS CUTTHROAT ISLAND -
+REGLES OFFICIELLES
+
+1. POUR PARTICIPER: PAS D'ACHAT OBLIGATOIRE. Pour participer au concours
+"Cutthroat Island", remplissez un bulletin de participation officiel, ou sur une carte
+postale, indiquez votre nom, votre adresse compléte, les réponses aux questions, le numéro
+de téléphone auquel vous pouvez étre contacté pendant la journée, votre date de naissance,
+et le nom de votre systéme de jeux vidéo; puis, envoyez le bulletin ou la carte postale a
+l'adresse suivante: "Cutthroat Island" In-Game Sweepstakes, P.O. Box 400, West
+Yorkshire, Angleterre, LA23 7LG.
+
+Les réponses incomplétes ou illisibles seront disqualifiées. Le sponsor ne pourra étre tenu
+responsable des bulletins perdus, en retard, envoyées a la mauvaise adresse ou non
+timbrées. Tous les bulletins doivent étre envoyés séparément et doivent arriver le 31/5/96
+au plus tard. Les bulletins reproduits mécaniquement seront disqualifiées.
+
+2. TIRAGE AU SORT: Les gagnants seront sélectionnés par tirage au sort, qui aura lieu aux
+environs du 1/6/96. Le tirage sera effectué parmi tous les bulletins contenant les réponses
+correctes, recus par Two Ten Ltd., une organisation indépendante dont les décisions seront
+définitives et sans appel. Les prix ne peuvent étre ni substitués, ni transférés, sauf si un
+prix n'est plus disponible, auquel cas le sponsor a le droit de le remplacer par un prix de
+valeur équivalente. Les chances de gagner un prix dépendent du nombre de bulletins
+valides recus. En participant 4 ce concours, vous consentez a ce que votre nom et/ou photo
+soient utilisés, sans aucune compensation supplémentaire, dans toute publicité d'Acclaim
+Entertainment, Inc. ayant trait au concours, sauf dans les cas interdits par la loi. Les
+gagnants doivent confirmer, par écrit, qu'ils acceptent leur prix, dans un délai de 14 jours.
+S'ils ne le font pas, ils seront disqualifiés et un autre gagnant sera sélectionné. Si le
+gagnant du voyage et/ou son invité a moins de 18 ans, une autorisation des parents ou
+tuteurs est nécessaire. Le compagnon de voyage du gagnant devra remplir un formulaire de
+Décharge de Responsabilité/Publicité. Tous les prix seront distribués et les gagnants
+seront avertis par courrier ou livraison.
+
+3. PRIX: (1) ler prix: Un voyage de 4 jours/3 nuits pour deux personnes, a l'Hétel Treasure
+Island de Las Vegas; cela comprend le vol de l'aéroport important le plus proche du lieu de
+résidence du gagnant a l'aéroport important le plus proche du lieu de destination, et les
+nuits d'hétel (1 chambre). Les dépenses personelles, dont les boissons, les souvenirs, les
+taxes, les pourboires et autres, ne sont pas comprises. Le voyage doit étre effectué avant le
+31/12/96.
+
+2éme prix: T-Shirts Cutthroat Island (50).
+
+3éme prix: Deux tickets de cinéma gratuits (100 paires).
+
+Le gagnant du voyage et son invité ne pourront en aucun cas tenir Acclaim Entertainment,
+Inc., Cutthroat Distribution Inc., The Licensing Group Ltd., ses employés, agents, affiliés,
+branches, opérateurs sous licence et agences de publicité/promotion responsables quant a
+toute réclamation ou responsabilité survenant directement ou indirectement du prix gagné.
+
+4. PARTICIPATION: Ce concours est ouvert aux personnes résidant au Royaume-Uni, en
+France, en Allemagne ou en Espagne. Seuls les employés d'Acclaim Entertainment Ltd.,
+Cutthroat Distribution Inc., The Licensing Group Ltd., de ses affili¢s, branches, agences de
+promotion/publicité et de Two Ten Ltd., ainsi que leur famille proche, ne peuvent
+participer. Les taxes/impdts sur les prix, s'il y en a, sont de la responsabilité des gagnants.
+
+5. LISTE DES DE GAGNANTS: Pour obtenir la liste des gagnants, qui sera disponible a
+partir du 01/06/96, envoyez une enveloppe timbrée portant votre nom et adresse a:
+"Cutthroat Island" In-Game Sweepstakes Winners, P.O. Box 400, West Yorkshire,
+Angleterre, LA23 7LG. Dy) 0
+
+===== Page 22 =====
+
+ANTES DE LEVAR
+
+ANCLAS
+COMO
+CARGAR:
+
+1. Asegtirate de que
+el interruptor de la
+corriente esta
+apagado (Off).
+
+2. Inserta el cartucho
+de Cutthroat Island™
+segtin se describe en
+el manual de
+instrucciones del
+SUPER NINTENDO
+ENTERTAINMENT SYSTEM™.
+
+3, Enciende el interruptor (On). Una introduccién
+te contaré la historia de Cutthroat Island™
+Cuando aparezca la pantalla del titulo de
+Cutthroat Island™, verds las siguientes
+
+opciones: START GAME (Empezar juego) y
+OPTIONS (Opciones). Para comenzar la
+btisqueda del tesoro, selecciona START
+
+GAME y pulsa el BOTON START.
+
+OPTIONS (Opciones)
+
+Estilo de lucha
+
+Cutthroat Island™ te permite elegir entre dos
+
+excitantes estilos de lucha:
+
+SWORDPLAY (Espada), configura la espada como
+
+arma por defecto, permitiéndote cortar y pinchar
+
+en tu recorrido por el juego.
+
+BRAWLING (Pelea), configura pufietazos con el
+
+mango de la espada como ataque por defecto,
+
+dandote la sensaci6n de la lucha a purfietazos. Una
+
+vez que hayas seleccionado una opcidn, pulsa el
+IN START para empezar a jugar.
+
+CARACTERISTICAS DEL JUEGO
+One Player Game
+
+(Partida para un jugador)
+
+Cutthroat Island™ es para uno o dos jugadores. Si
+un segundo jugador quiere unirse a la partida,
+puede hacerlo en cualquier momento con sélo
+
+pulsar el BOTON START del controladora.
+Two Player Game
+
+(Partida para dos Jugadores)
+
+Si se decide jugar una partida para dos jugadores,
+el que tenga el controlador nimero 1 controlaré a
+Morgan, y el que tenga el controlador ntimero 2
+controlara a Shaw, En una partida para dos
+jugadores, ambos colaboran con el fin de
+completar los diferentes niveles y encontrar el
+tesoro.
+
+Una vez que hayas decidido como quieres jugar,
+pulsa el IN START para empezar.
+
+21
+
+La pantalla de Cutthroat Island™
+
+Indicador pds
+de energia
+
+Puntuacién
+
+de energia
+
+Indicador
+le
+
+agresividad
+
+ia
+
+enemigo
+
+enemigo
+
+Indicador de agresividad
+
+El indicador de agresi6n de tu personaje cambiara
+para reflejar los ataques que han dado en el
+blanco. Cuando el indicador esta leno, jse pueden
+realizar movimientos especiales! Si pierdes una
+vida o un 25% de tu energia en 3 segundos, el
+indicador volvera a donde estaba.
+
+Indicadores de energia
+
+La energia de cada personaje/jugador aparece
+indicada en una barra situada junto a su retrato.
+Cuando Morgan o Shaw son golpeados, su energia
+disminuye, de manera que la barra se va vaciando.
+Cuando se quede completamente vacia, el
+personaje perder una vida. Si recoges ciertos
+iconos, repondras la energia de tu personaje
+parcial o totalmente.
+
+Vidas que quedan
+
+En Cutthroat Island™ cada personaje comienza
+con 3 vidas. El nttmero de vidas que le queda a
+cada jugador aparece indicado junto al retrato de
+su personaje.
+
+Energia del enemigo
+
+Cuando luches contra un enemigo, su energia
+apareceré en la pantalla (durante 2 segundos o
+hasta que golpees a un enemigo diferente) en un
+indicador situado junto al retrato del enemigo.
+
+Puntuaci6n
+
+La puntuaci6n de cada jugador aparece encima de
+su respectivo indicador de energia. En Cutthroat
+Island™ se conceden puntos por vencer a
+enemigos, reunir articulos y realizar ciertas tareas
+adicionales. También se conceden puntos por el
+manejo de la espada (golpes certeros contra golpes
+fallidos), salud, recoleccién de objetos y golpes
+potentes realizados con éxito.
+
+Continuaciones
+
+Los jugadores pueden ganar continuaciones que les
+permitiran seguir jugando después de haber
+perdido todas las vidas. Por cada 30.000 puntos se
+concede automaéticamente una continuacién.
+
+Puntuacion
+
+yIndicador
+
+===== Page 23 =====
+
+ARMAS
+
+La espada es tu arma por defecto, pero puedes
+coger muchas otras a lo largo de los diferentes
+niveles del juego. Cuando cojas un arma, ésta
+apareceré en la mano de tu personaje. Para utilizar
+un arma arrojadiza, pulsa el MANDO
+DIRECCIONAL en la direccién en la que quieras
+arrojarla, al mismo tiempo que pulsas el IN
+X. Mas adelante, encontrards una guia de las
+armas que podras encontrar durante la
+
+bisqueda del tesoro.
+
+ESPADAS
+
+Las armas mas importantes en Cutthroat Island™
+son las espadas. Las espadas nunca se gastan, pero
+puedes reemplazarlas por otras mejores. También
+puede ocurrir que pierdas una espada durante una
+pelea, con lo cual, tendras que buscar otra.
+
+Espada Estoque
+
+Ea
+
+OTRAS ARMAS
+
+En ciertos niveles y lugares de Cutthroat Island™
+se pueden usar armas que no aparecen descritas
+a continuacién, con el fin de acabar con los
+enemigos. Sé ingenioso y ten siempre en cuenta
+el potencial de las pistolas, los mosquetes, las
+bombas y otros articulos titiles que puedan
+aparecer. Algunas de las armas de Cutthroat
+Island™ son temporales, es decir, después
+
+de utilizarlas una o dos veces, se romperan.
+
+o serdn desechadas.
+
+Cuchillo ke Antorcha fe
+Bomba ry Martillo
+Botella F2 Pistola =~
+Cantos
+
+rodados/ |
+cascotes
+ARTICULOS
+Comida
+
+Llave
+
+Vida adicional
+
+“Tr
+
+LOS CONTROLES
+
+Brawling: Puno de la
+espada (mano dcha) =
+
+BOTON X
+Pour donner un risen =
+coup d’épée en BORON A
+
+Detener el juego taille = BOTON Y
+
+= IN Start
+
+Pour déplacer
+un joueur dans
+
+la direction
+
+voulue = :
+
+CONTROL PAD joes Dar tajadas
+Aa girando = BOTON
+
+4 4 “BOTON Y B+BOTONY
+
+Mover el personaje en la Mn
+
+direccién = PANEL DE Arrojar arma = BOTON x +
+
+CONTROL BOTON Y
+
+Existen movimientos que no estan
+descritos aqui. ¢,descubrirlos?
+
+Para encontrar y ganar el fabuloso tesoro que hay
+escondido en Cutthroat Island™, primero tienes
+que dominar el] manejo de la espada. Practica
+estos movimientos hasta que te salgan sin pensar.
+A menudo, la forma mas eficaz de despachar a un
+enemigo es combinando movimientos. No olvides
+que en Cutthroat Island ™ hay muchos articulos
+que puedes recoger y usar como armas. Sirvete de
+tretas para encontrarlos y s¢ tan despiadado como
+los muchos enemigos con los que tendras que
+luchar. Recuerda que te enfrentas al mas duro de
+los piratas, y los errores se pagan caros, jsi no es
+con la vida!
+
+Movimento Extra
+
+Después de pasar varios areas con éxito se te dara
+un “movimiento extra” que no podias realizar
+antes. Este movimiento te sera mostrado y los
+controles apareceran en pantella. Los movimientos
+extra s6lo pueden ser realizados cuando ek
+Medidor de Agresividad del jugador esté
+parpadeando,
+
+Cofres de tesoro
+
+Medicina ca ees|
+
+22
+
+===== Page 24 =====
+
+jACCION PIRATA!
+
+‘utthroat Island™ presenta emocionantes dreas de juego. Para completar el juego y conseguir la
+puntuacién mas alta, tienes que cumplir los objetivos de cada area (por orden).
+
+¥: Persecucion en
+Prision vagoneta de cantera
+
+Spittafield
+
+La taberna Persecucién Motin en el
+de Spittafield en carreta Morning Star
+
+PERSONAJES de Cutthroat
+Morgan Adams William Shaw Snelgrave Dawg Brown
+
+Gobernador Ainslee Aleaide Capitan de puerto Mordechai Adams
+
+HH
+
+Los casacas rojas
+
+23
+
+===== Page 25 =====
+
+Emocionante sorteo interactivo
+incorporado al juego
+
+jParticipa en el juego y gana un tesoro de verdad!
+
+Al mismo tiempo que sueltas amarras en busca de un tesoro hacia la
+misteriosa y peligrosa isla llamada Cutthroat Island™, ;jpuedes ganar un
+tesoro de verdad! A lo largo de los numerosos niveles del juego, te
+encontraras cinco iconos del cofre del tesoro. Una vez que los hayas reunido
+todos, apareceré la pantalla del concurso en la que se te preguntaran tres
+cosas. Responde a todas las preguntas en la tarjeta adjunta, mandala por
+correo y tendras la posibilidad de ganar uno de los extraordinarios premios
+del sorteo. Bueno, eso si eres lo suficientemente lanzado y habilidoso como
+para sobrevivir a los peligros que te esperan en Cutthroat Island™...
+
+jEsto es lo que puedes ganar!
+¢ Primer premio: (1) j|Un emocionante viaje de cuatro dias para dos personas
+con alojamiento por tres noches en el hotel Treasure Island de Las Vegas!
+Incluye el desplazamiento desde el aeropuerto internacional mas cercano a la
+residencia de los ganadores hasta el aeropuerto internacional mas cercano al
+destino, y alojamiento en el hotel (una habitacién).
+¢ Segundo premio: (50) Camisetas de Cutthroat Island.
+
+¢ Tercer premio: (100 pares) Dos entradas para ver una pelicula en un cine de
+tu lugar de residencia.
+
+REQUISITOS DE PARTICIPACION: Pueden participar en el concurso todos los residentes del I
+Reino Unido, Francia, Alemania y Espatia. S6lo los empleados de Acclaim Entertainment, Ltd.,
+Cutthroat Distribution, Inc., The Licensing Group Ltd., sus compaiiias afiliadas y subsidiarias, I
+sus agencias publicitarias, y Two Ten Ltd., y sus familiares més préximos no tienen derecho a
+participar. El ganador se hace totalmente responsable del pago de cualquier tasa impuesta
+
+CUTTHROAT ISLAND" IN-GAME SWEEPSTAKES |
+I NAME (Nombre) l
+I appress (Direccién) APT# I
+l CITY (Cuidad) STATE (Provincia) ZIP (CODIGO POSTAL). I
+I DAYTIME PHONE (Teléfono de contacto) I
+; DATE OF BIRTH (Fecha de nacimiento).
+I GAME PURCHASED FOR: (Check all that apply) I
+I Juego comprado para: (Tacha lo que proceda) I
+I © Super Nintendo” () Mega Drive™ I
+ANSWERS (REPUESTAS):
+
+f |
+Le I
+I? I
+I ENTRIES MUST BE RECEIVED BY MAY 31, 1996 (Los cupones deben recibirse antes del 31/05/96. I
+l
+
+I
+
+l
+
+sobre el premio.
+
+ee ee eee ee oe |
+
+===== Page 26 =====
+
+jEsto es lo que tienes que hacer!
+
+1) Rellenar completamente la parte delantera del cup6n de participacién
+asegurandote de que has respondido a las tres preguntas que veras en la
+pantalla del concurso que aparece durante el desarrollo del juego.
+
+2) Recorta el cup6n de participacién por la linea de puntos, mételo en un
+sobre que Ileve tu nombre y direccién y con un sello pegado y mandalo a:
+
+"Cutthroat Island" In-Game Sweepstakes
+
+P.O. Box 400
+West Yorkshire, England
+LA 23 7LG.
+Las inscripciones deben recibirse antes del 31 de mayo de 1996.
+jBUENA SUERTE!
+
+ES Se ene ae oe ae eS pe ee eee Td
+
+eS SS SSS SSeS Cac eeSSsecoesaeae|
+
+===== Page 27 =====
+
+LAS REGLAS OFICIALES DEL CONCURSO EN
+EL JUEGO DE CUTTHROAT ISLAND
+
+1. COMO PARTICIPAR: NO NECESITAS HACER NINGUNA COMPRA. Para participar
+solo tienes que rellenar y mandar por correo el formulario oficial de inscripcién, o una
+postal con las respuestas, tu nombre, domicilio completo, teléfono, fecha de nacimiento y
+una lista de tus sistemas de videojuegos. La direcci6n a la que tienes que enviar esto es:
+"Cutthroat Island" In-Game Sweepstakes, P.O. Box 400, West Yorkshire, England, LA23
+7LG. Las participaciones que estén dafiadas, incompletas o sean ilegibles seran
+descalificadas. La organizaci6n patrocinadora no se hace responsable de las
+participaciones sin sello, con sefias incorrectas, recibidas con retraso o extraviadas. Las
+participaciones deben ser enviadas por separado y deben ser recibidas antes del 31/5/96.
+Las participaciones reproducidas mecénicamente no son validas.
+
+2. DETALLES DEL SORTEO: Los ganadores serén seleccionados al azar en un sorteo que
+tendra lugar aproximadamente el 1/6/96 entre todas las participaciones validas con las
+respuestas correctas, que hayan sido recibidas por Two Ten Ltd., una organizaci6n
+independiente cuya decision final sera definitiva. No est4 permitido transferir ni sustituir
+un premio, excepto si esta agotado, en cuyo caso los patrocinadores deben de reemplazar el
+premio por otro del mismo valor. Las probabilidades de ganar dependen del ntimero de
+participaciones vdlidas recibidas. Los participantes del concurso consienten antemano que
+su nombre y/o fotografia sean utilizados, sin recibir compensacién adicional alguna, en
+cualquier tipo de publicidad realizada por Acclaim Entertainment, Inc. en relaci6n al
+concurso y de acuerdo con la ley. Los ganadores deben contestar por escrito confirmando la
+aceptacion del premio, antes de que pasen dos semanas después de haber sido notificados.
+En caso contrario, se seleccionara un nuevo ganador. Si el ganador del viaje y/o su
+acompafiante son menores de 18 afios'de edad, necesitaran obtener permiso de su padre 0
+tutor legal para poder viajar. El acompafiante del ganador debera rellenar un impreso en el
+que libera a Acclaim de cualquier responsabilidad y le da permiso para utilizar su nombre
+sin ninguna compensaci6n adicional. Todos los premios serén otorgados y los ganadores
+serén notificados por correo normal o urgente.
+
+3. LOS PREMIOS: (1) El premio gordo: un viaje de tres/cuatro noches para dos personas
+al hotel Treasure Island en Las Vegas. El premio incluye el transporte desde el aeropuerto
+mas cercano al domicilio del ganador hasta el aeropuerto mas cercano al lugar de destino,
+alojamiento en el hotel (una habitacién)...No estan incluidos gastos personales como por
+ejemplo, bebidas, recuerdos, tasas, propinas y cualquier otro que no se incluya aqui. Debes
+viajar antes del 31/12/96. Segundo premio: una camiseta de Cutthroat Island Home (50 en
+total). Tercer premio: dos entradas para el cine validas en cualquier sala de tu localidad
+(100 pares). El ganador del viaje y su acompaniante consienten no hacer responsables de
+ninguna reclamaci6n u obligacién derivada directa o indirectamente de la entrega del
+premio a Acclaim Entertainment, Inc., Cutthroat Distribution, Inc., The Licensing Group,
+Ltd., sus empleados, agentes, empresas afiliadas, subsidiarias, concesionarias ni agencias
+publicitarias.
+
+4. REQUISITOS DE PARTICIPACION: Pueden participar en el concurso todos los
+residentes del Reino Unido, Francia, Alemania y Espaiia. Sélo los empleados de Acclaim
+Entertainment, Ltd., Cutthroat Distribution, Inc., The Licensing Group, Ltd., sus
+compariias afiliadas y subsidiarias, sus agencias publicitarias, y Two Ten Ltd., y sus
+familiares mds préximos no tienen derecho a participar. El ganador se hace totalmente
+responsable del pago de cualquier tasa impuesta sobre el premio.
+
+5. LISTA DE GANADORES: Para obtener la lista de ganadores, disponible después del
+
+1/6/96, manda un sobre con sello y con tu nombre y direcci6n a: “Cutthroat Island” In-
+Game Sweepstakes Winners, P.O.Box 400, West Yorkshire, England, LA23 7LG. Dy) 6
+
+===== Page 28 =====
+
+Anno 1688. L’Inghilterra @ in guerra con la Spagna, i cui
+galeoni Lrasporlano per i mari pregiati lesori provenienti dalle
+colonie americane. Corsari, al soldo della corona inglese
+depredano queste navi con il consenso del governo, mentre i
+Pirati che battono solo la bandiera con il teschio, assallano sia le
+navi da Lrasporto merci Spagnole sia quelle Inglesi. Se vengono
+calturati gli aspetla la forea. [ cilladini pit sfortunati vengono
+catturati dalle bande erranti degli uomini dell’arruolamento
+forzato e vengono obbligali a servire la Marina di Sua Maesti. A
+morire sono in molti. Altri preferiscono sottrarsi a questo destino
+diventando bucanieri. Nella colonia inglese della Giamaica,
+coloro che hanno commesso crimini minori, vengono venduti
+chiavi al migliore offerente. Sono tempi duri, anche i pitt
+
+i tremano alla sola idea dei_.Pirati!
+
+619, la nave da Lrasporlo spagnola Santa Susanna venne
+attaccala da una lancia armata pirata, la Sea Devil (Diavolo del
+
+?). Era diretta a Tortuga con a bordo il carico pitt prezioso
+
+> avesse mai lasciato le americhe, I] Sea Devil si imbatté in
+una lempesta e naufrago sull'isola deserta di Culthroal, da cui
+solamente un uomo era riuscito a salvarsi. [I pericolaso
+sopravvissulo, uno spielalo pirala chiamato Fingers Adams,
+riusci a seappare dall’isola ma non riusci a portare con sé¢ il
+tesoro. Sul letto di morte, disegnd una mappa che divise in tre
+parti e spedi ai suoi eredi. Ma Dawg, il suo figlio illegittimo non
+ebbe niente. In una delle parli veniva mostrala la latitudine, in
+un/altra la longitudine e nell‘altra parte il Iuogo in cui si trovava
+il tesoro. Adesso partecipa anche tu alla caccia al lesoro,
+un’avventura che ti portera dai mari profondi dei caraibi alle
+fitte giungle dell’atollo di Cutthroat Island™!
+
+PRIMA DI SALPARE...
+CARICAMENTO
+
+1. Accertati che l’interruttore
+sia spento.
+
+2. Inserisci la cartuccia
+di Cutthoart Island™ . %
+come descritto nel
+manuale @’istruzioni
+del SUPER
+NINTENDO
+ENTERTAINMENT
+SYSTEM™,
+ACCENDI
+Vinterruttore.
+Un'introduzione ti
+raccontera la storia di ee
+
+Cutthroat Island”. 2e
+Quando apparira la
+
+videata di testa di Cutthroat
+
+Island™ ti verranno presentate le seguenti
+scelte: START GAME (INIZIA GIOCO) e
+OPTIONS (OPZIOND. Per cominciare la caccia
+al tesoro, evidenzia START GAME e premi il
+PULSANTE START.
+
+OPZIONI
+
+Tipo di Combattimento
+27
+
+Cutthroat Island™ ti consente di
+scegliere tra due tipi di
+combattimento:
+
+SWORDPLAY (COMBATTIMENTO,
+CON SPADE) nella quale avrai la
+
+spada come arma predefinita per aprirti un varco
+nel gioco.
+
+BRAWLING (RISSA) con il pugno con
+Timpugnatura della spada come arma predefinita,
+per provare l’emozione di una vera e propria
+scazzottata.
+
+Quando avrai evidenziato la tua scelta, premi il
+PULSANTE START per cominciare a giocare.
+
+MODALITA DEL GIOCO
+One Player Game
+
+(Partita ad un giocatore)
+
+Cutthroat Island™ é per uno 0 due giocatori. Se un
+secondo giocatore desidera iniziare a giocare,
+dovra semplicemente premere il PULSANTE
+
+START sulla pulsantiera 2.
+Two Player Game
+
+(Partita a due giocatori)
+
+Quando giochi Cutthroat Island™ con due
+giocatori, il giocatore con la Pulsantiera 1 controlla
+Morgan, menitre il giocatore con la Pulsantiera 2
+gioca nei panni di Shaw. In una partita a due
+giocatori, i giocatori collaboreranno per completare
+i livelli e mettere le mani sul tesoro. Quando avrai
+scelto il modo in cui desideri giocare, per
+cominciare premi il PULSANTE START.
+
+La videata Cutthroat Island™
+
+Punteggio
+
+Vite
+
+Indicatore
+Aggressione
+
+Indicatore'
+dellenergiaf
+
+Aggression Indicator
+(ndicatore aggressione)
+
+Lindicatore aggressione cambiera quando i colpi
+sono andati a segno. Quando l’indicatore sara
+pieno, potranno essere eseguite delle mosse
+speciali! Se perderai una vita o il 25% della salute
+entro 3 secondi, l’indicatore verra azzerato.
+
+Energy Meters
+(ndicatori dell’energia)
+
+L’energia di ogni giocatore o personaggio viene
+visualizzata nella barra accanto al suo ritratto.
+Quando Morgan o Shaw vengono colpiti, ’energia
+diminuira ¢ la barra si svuotera progressivamente.
+Quando sara completamente vuota, il personaggio
+perdera una vita. L’energia potra essere
+ripristinata completamente o in parte raccogliendo
+le diverse icone.
+
+===== Page 29 =====
+
+Lives Remaining (Vite residue)
+Ogni personaggio comincia Cutthroat Island™
+con 8 vite. Il numero delle vite residue di un
+giocatore viene visualizzato accanto al ritratto
+
+del personaggio.
+
+Enemy Energy (Energia del nemico)
+Quando combatti contro un nemico, l’energia del
+nemico verra visualizzata sullo schermo (per 2
+secondi 0 fino a quando non verra colpito un altro
+nemico) sull’indicatore d’energia accanto al
+ritratto del nemico,
+
+Punteggio (Scoring)
+
+Il punteggio dei giocatori apparira sopra il relativo
+indicatore d’energia. In Cutthroat Island™ i punti
+vengono segnati sconfiggendo nemici, raccogliendo
+degli oggetti ¢ portando a termine alcuni compiti
+bonus. Vengono assegnati punti anche per l’Abilita
+con la spada (colpi a segno contro quelli mancati),
+salute, oggetti raccolti e colpi potenti.
+
+Continues (Continua)
+
+I giocatori possono guadagnare dei Continues
+(Continua), che consentono di continuare a giocare
+dopo che sono state perdute tutte le vite. Un
+continua verra assegnato automaticamente ogni
+30,000 punti.
+
+ARMI
+
+La spada é l’arma predefinita ma durante i vari
+livelli possono essere raccolte altre armi. Dopo che
+avrai raccolto un’arma, questa apparira in mano al
+tuo personaggio. Per utilizzare un’arma da getto,
+premi il PULSANTE DIREZIONALE nella
+direzione in cui desideri lanciarla tenendo
+premuto il PULSANTE X. Qui di seguito troverai
+una guida delle armi che potresti trovare nel corso
+della caccia al tesoro.
+
+SPADE
+
+Le armi principali di Cutthroat Island™ sono le
+spade. Le spade non si esauriranno mai, ma
+potranno essere sostituite con delle armi migliori.
+Potresti perd perdere una spada in combattimento
+e in questo caso dovresti cercarne un’altra.
+
+Spada
+Questa é l'arma predefinita di Shaw.
+
+7
+
+Stocco
+Questa é l'arma predefinita di Morgan
+
+Ci sono altre spade potenti nascoste ne gioco.
+Riuscirai a trovarle?
+
+ALTRE ARMI
+
+In alcuni luoghi o livelli di Cutthroat Island™,
+potrai usare contro il tuo nemico delle armi
+diverse da quelle elencate precedentemente. Usa
+limmaginazione e stai attento perché pistole,
+moschetti, bombe e altri oggetti utili potrebbero
+apparire in qualsiasi momento. Alcune armi di
+Cutthroat Island™ sono provvisorie e si
+romperanno o potranno essere utilizzate
+solamente per un colpo o due.
+
+Coltello
+
+Sara utile raccogliere questo coltello,
+poiché potrai dameggiare il nemico da
+una certa distanza.
+
+Bomba
+
+Non é certo un gioco da ragazzi ed
+un’esplosione potrebbe portarti alla
+gloria! Raccogli la bomba e lanciala
+prima che esploda!
+
+Bo a
+Una bottiglia potrebbe salvarti la pelle
+negli scontri ravvicinati.
+
+Masso/Macerie
+
+Potrai lanciarli ai nemici dopo che li
+avrai raccolti. I massi e le macerie
+potranno essere utilizzati di seguito
+per eliminare i tuoi ayversari.
+
+Torcia infiammata
+
+Dopo che avrai raccolto una torcia
+infiammata potrai tenerla fino a
+
+quando ti servira luce. Nel caso sia
+necessario, lanciando una Torcia Infiammata
+causerai notevoli danni ai nemici.
+
+Martello
+Se il tuo avversario non riesce a star
+fermo, immobilizzalo con quest'arnese.
+
+™
+
+Pistola
+Con questa eliminerai un sacco
+di nemici.
+
+28
+
+===== Page 30 =====
+
+PICK UP
+
+Cibo
+
+Nel corso del gioco potranno essere
+trovati ¢ consumati (raccogliendoli)
+diversi tipi di cibi che ripristineranno
+totalmente o parzialmente (a seconda
+della quantita del cibo).
+
+Chiave
+
+Talvolta i personaggi devono trovare
+delle chiavi che gli consentiranno di
+fuggire dagli inseguitori aprendo delle
+porte chiuse
+
+ad
+
+Medicina
+
+Raccogliendo un’icona Medicina
+ripristinerai immediatamente e€
+completamente la forza del
+personaggio.
+
+Vita extra
+
+Ecco una possibilita in pitt per
+sconfiggere i pirati e gli inseguitori che
+agognano di mettere le mani sul tesoro
+di Cutthroat Island™,
+
+29
+
+COMANDI
+
+Impugnatura =
+colpo di
+PULSANTE X
+Bloccaggic
+PULSANTE /
+
+BRAWLING (RISSA):
+colpo di spada (mani
+
+Mettere il sinistra) = PULSANTE
+
+gioco in pausa Saltare
+
+= Pulsante PULSANTE B
+Start
+
+Muovere il Calcio
+
+giocatore sforbiciata =
+nella PULSANTE B,
+direzione in quindi
+
+cui stai pulsante Y.
+
+Lanciare al
+
+premendo = Y
+Pulsante nemico indietro
+Direzionale = Indietro +
+PULSANTE Y
+Lanciare ¢ =
+PULSANTE X. SWORDPLAY (COMBATTIMENTO
+DIREZIONI AL gio di spada
+
+PULSANTE Y
+
+Ci sono anche delle mosse che non ti abbiamo
+spiegato. Riuscirai a scoprirle?
+
+Per trovare ¢ impossessarsi del prezioso tesoro
+nascosto a Cutthroat Island™, come prima cosa
+dovrai diventare uno spadaccino provetto. Allenati
+fino a quando queste mosse non diventeranno
+naturali. Le combinazioni di mosse sono spesso il
+modo pit efficace per eliminare un nemico.
+Ricorda che in Cutthroat Island™ ci sono molto
+oggetti che possono essere raccolti ed utilizzati
+come armi. Usa la tua furbizia per trovarli ¢ sii
+spietato come i nemici che dovrai affrontare!
+Ricorda, dovrai vedertela con pirati spietati e ogni
+minimo errore ti costera molto caro!
+
+Mosse bonus
+
+Dopo che avrai completato alcune aree, potrai
+eseguire una "mossa speciale," che prima non
+riuscivi a fare. Questa mossa ti verra mostrata
+sullo schermo assieme ai pulsanti eseguirla. Le
+mosse speciali possono essere eseguite solo
+quando l'indicator dell'aggressione lampeggia.
+
+===== Page 31 =====
+
+PIRATI IN AZIONE!
+
+In Cutthroat Island™ ci sono molte emozionanti
+aree di gioco. Per completare il gioco e ottenere il
+punteggio pit alto, devi raggiungere l'obiettivo di
+ogni area.
+
+Prigione
+
+L’azione comincia
+nella prigione
+sorvegliata dallo
+spietato
+Carceriere. Alla
+
+} ricerca di una
+persona che possa
+tradurre le
+iscrizioni latine
+sulla mappa del
+tesoro, Morgan
+viene a sapere che il rinomato fannullone William
+Shaw é stato imprigionato per furto e sta per
+essere venduto come schiavo. Con Vintento di
+trovarlo, Morgan si dirige verso la prigione dove,
+sfortunatamente, inizia ad essere corteggiata da
+una guardia che la riconosce dalla fotografia di un
+poster di ricercato. Dopo aver fatto scattare
+Vallarme, Morgan e Shaw cercano di evadere dalla
+prigione. Per riuscirci dovranno trovare la chiave
+che aprira il cancello laterale, ma devono fare in
+fretta, perché ci sono sciami di soldati inglesi alle
+loro calcagne. Dovrai eliminare parecchie guardie
+prima di affrontare l’ultimo nemico che ti separa
+dalla liberta: il Carceriere! I nemici sconfitti
+potrebbero lasciare oggetti utili da raccogliere.
+
+Inseguimento sui vagoncini
+da miniera
+
+Morgan e Shaw
+cercano
+disperatamente di
+fuggire alle
+guardie della
+
+prigione,
+utilizzando tutto
+
+quello che gli
+capita sotto mano.
+Salendo a bordo
+di un vagoncino
+da miniera potranno ritrovarsi fuori dalla miniera
+della prigione sulle colline anche se con le guardie
+alle calcagne! E un piano molto coraggioso ma la
+strada é piena di massi ¢ inseguitori imbestialiti.
+Tl duo in fuga deve piegarsi dalla parte giusta per
+guidare il vagoncino lontano dai pericoli. Se stai
+giocando una partita a due giocatori, nota che
+ambedue i giocatori dovranno collaborare per
+uscire sani ¢ salvi dalla miniera.
+
+La ridente
+cittadina di
+Spittalfield e
+piena di negozi e
+di gente di citta
+poco interessata
+ai pirati
+fuorilegge!
+Morgan e Shaw
+non dovranno
+
+~ aspettarsi un
+accoglienza troppo calorosa quando arriveranno
+alla ricerca di Mordechai, lo zio di Morgan, che
+possiede la parte residua della mappa. Shaw e
+Morgan si imbatteranno in una gran confusione
+nelle strade e nei negozi che visiteranno, ma
+dovranno andare dal fabbro per farsi temprare
+le spade e quindi sconfiggere i pirati di guardia
+all’entrata della Taverna di Spittalfield, dove
+Mordechai ¢ il suo equipaggio aspettano con
+pistole cariche ¢ spade sguainate; Dawg é in
+citta e anche lui sta cercando di impadronirsi
+della mappa!
+
+La Taverna di Spittalfield
+
+« Morgan e Shaw
+cadono nelle
+sporche grinfie
+della banda di
+briganti di Dawg
+Brown, che si
+sono impadroniti
+della Taverna di
+Spittalfield nella
+speranza di
+forzare
+Mordechai a rivelare la posizione sulla sua mappa!
+Nella taverna scoppia una rissa furibonda in cui
+pirati e clienti combattono con tutto quello che gli
+capita sotto mano! Il braccio destro di Dawg,
+Snelgrave, un uomo spietato con i combattimenti
+nelle vene, dovra essere conciato per le feste se
+vorrai prendere la mappa che ha nascosto in fondo
+al barile delle anguille. Cerca la botola che
+nasconde una via per ritornare in citta, ma non
+dimenticarti la mappa!
+
+Inseguimenti sui carri
+=e La citta é in
+Cr. | agitazione, con
+una banda
+scatenata di
+soldati inglesi che
+
+cerca di mettere
+| fine alle peripezie
+del pirata!
+Morgan e Shaw,
+eS e »| dopo essere
+
+: sfuggiti per un
+pelo alla morte per mano di Dawg ¢ il suo
+equipaggio, adesso devono lasciare la citta ¢
+ritornare alla Stella del mattino con i pirati e i
+soldati inglesi alle calcagne. Morgan e Shaw
+saltano coraggiosamente sul tetto di una carrozza
+e cercano di guidarla sulla banchina del porto fino
+ai bacini. Mentre combatterai con gli inseguitori,
+
+===== Page 32 =====
+
+dovrai cercare di schivare le palle di cannone
+sparate dalle navi da guerra della Marina di Sua
+Maesta ancorate nel porto. Quando c’é una taglia
+sulla tua testa anche l’essere pitt timido sembra
+trovare il coraggio di darti la caccia! Dalle finestre
+ai tetti, la strada verso il porto é piena di nemici ¢
+di eventuali carcerieri!
+
+Il porto di Spittalfield
+
+Con tutto quel baccono che hai fatto in citta, il
+capitano del porto ha avato tutto il tempo per
+prepararsi! Un caro amico del governatore Ainslee,
+il capitano del porto fara di tutto per non farti
+salire sulla tua nave!
+
+Ammutinamento sulla Stella
+del mattino
+
+Morgan e Shaw
+riescono a
+ritornare in quello
+che ritenevano il
+rifugio sicuro
+della Stella del
+Mattino, con in
+mano la mappa
+completa e quindi
+la posizione del
+tesoro per
+scoprire che l’odio del braccio destro Scully &
+scoppiato: ammutinamento! Shaw, Morgan devono
+combattere per prendere il comando della Stella
+del mattino. I combattimenti passano da un ponte
+all’altro con in gioco la propria la pelle!
+
+Giungla
+
+Dawn trova i
+naufraghi esausti
+ed inzuppati
+d’acqua che sono
+stati
+miracolosamente
+trasportati su una
+barriera corallina
+ai confini estremo
+di Cutthroat,
+Island™. La nave
+di Dawg I Seminatore di morte viene scoperta
+ancorata in un’insenatura nascosta ed a questo
+punto é chiaro che Morgan e compagni non
+dovranno vedersela solamente con le scimmie
+dell’isola! Dalle cime degli alberi della giungla
+alle paludi di sabbie mobili, la banda degli
+audaci parte all’esplorazione di Cutthroat
+Island™, Dovranno arrampicarsi sulle piante
+rampicanti e tenere gli occhi bene aperti quando
+attraversano ponti di corde marce. I/isola é una
+vera e propria giungla densa di pericoli! E stai
+attento agli animali feroci della giungla durante la
+caccia a Dawg € ai suoi uomini.
+
+31
+
+Lord Ainslee ha
+promesso a Dawg
+Vamnistia se
+riuscira a
+consegnargli
+Morgan ¢ meta
+del tesoro, In
+
+| seguito a questo
+patto, adesso
+Morgan, Shaw e
+compagnia oltre
+ad avere alle calcagne Dawg ¢ l’equipaggio del
+Seminatore di morte dovranno vedersela anche
+con i soldati inglesi. Hai la mappa nelle tue mani
+ma non stai mica conducendo i nemici
+direttamente sul tesoro? Secondo la mappa il
+tesoro si trova...sotto la scogliera? Adesso i nostri
+intrepidi cacciatori dovranno affrontare una ripida
+scogliera per mettere le mani sul tesoro che si
+trova a due passi! Dovrai scendere sulle scogliere
+sulle piante rampicanti, saltando da una sporgenza
+all'altra mentre combatti contro i nemici che
+seguono ogni tuo singolo passo. Dovrai davvero
+mettercela tutta perché basta un attimo di
+distrazione e ti ritroverai sfracellato sulle rocce!
+La situazione é davvero pericolosa, ma chi ha mai
+detto che la vita dei pirati ¢ rosa e fiori?
+
+Le grotte del tesori
+
+In un’enorme
+grotta marina
+giace l’ambito
+tesoro. Le grotte
+sono piene di
+pericoli, come
+pipistrelli pantere
+nere,ea
+sorvegliare il
+tesoro sono
+rimaste
+solamente le ossa di coloro che non sopravvissero
+per raccontare dove si trovava il tesoro. La grotta
+scura é piena di trappole per gli sprovveduti. Se
+riuscirai a trovare una torcia per farti luce potresti
+avere la minima possibilita di trovare il bottino!
+
+Ti aspettano altre avventure...trovale
+se ti riesce!
+
+===== Page 33 =====
+
+PERSONAGGI
+Morgan
+- — Un delinquente alquanto singolare
+e un buon pirata, Morgan é
+cresciuta tra la feccia piti
+| malvagia. Una veterana di grandi
+colpi, ¢ furba e spietata come si
+addice ad un vero e proprio pirata.
+In seguito alla morte del padre
+Harry, deve dimostrare di poter
+trovare il tesoro e prendere comando
+dell’equipaggio prima che Dawg possa mettere le
+sue manacce su di lei o sulla mappa!
+
+William Shaw
+Un furfante spietato ma
+affascinate, William Shaw dice di
+
+avere una buona istruzione e di
+essere di buona famiglia, che ha
+deciso di abbandonare per
+dedicarsi ad una vita criminale. Il
+rispetto che nutriva per Morgan si
+é trasformato in amore e
+rischierebbe qualsiasi cosa per lei!
+
+Dawg Brown é cresciuto
+nell’adulazione di tutto cid che
+faceva parte del mondo del
+crimine. Disprezzato dalla sua
+famiglia, ¢ il pid malvagio della
+compagnia. Appena é venuto a
+sapere delle tre parti della
+mappa del tesoro, trovare il
+
+é pronto a rischiare il tutto per tutto pur di
+metterci sopra le sue manacce. Adesso Dawg ¢
+acaccia di Mordechai, e poi? E meglio che
+Morgan stia in guardia!
+
+Snelgrave
+
+ay Snelgrave, il leccapiedi di
+
+Dawg é il furfante pit spictato,
+dopo Dawg. Al posto della mano
+sinistra amputata indossa una
+pesante catena con la quale
+colpisce i suoi nemici!
+
+Il Governatore Ainslee
+
+Lord Ainslee é il Governatore
+corrotto della Colonia della
+Giamaica al servizio di Sua
+
+) per il denaro, Ainslee é un partner
+
+era interessato a Morgan, ma
+adesso si ¢ riversato sul tesoro!
+
+| Maesta. Un tiranno con la passione
+
+perfetto di Dawg Brown. Un tempo
+
+Mordechai
+
+Mordechai, lo zio di Morgan, é un
+pirata godereccio. E non c’é da
+sorprendersi che l’albero
+genealogico é un patibolo!
+Mordechai possiede la terza parte
+della mappa del tesoro e puoi
+giurare che per sottrargliela
+dovrai mettercela dawvero tutta!
+
+Il capitano del porto
+
+Il capitano del porto é un
+omaccione che sorveglia il
+porto con una palla legata
+ad una catena. Un vero ¢
+
+proprio cattivo, pane peri
+denti di Morgan e Shaw!
+
+Il Carceriere
+
+Perfido guardiano delle carceri
+della Giamaica, il guardiano é
+una persona molto ansiosa la cui
+vita sta per prendere una brutta
+svolta. Rimpiangera il giorno in
+cui ha incontrato William Shaw
+e Morgan Brown!
+
+I Soldati
+
+lesi
+
+guarnigione inglese nel porto
+della Giamaica é rinomata per i
+combattimenti ben organizzati
+sotto il comando del Governatore
+Ainslee. Quando ayrai alle
+calcagne una truppa di soldati
+inglesi, sara meglio che tu te la
+
+dia a gambe.
+
+Uomini disperati che
+hanno abbandonato il
+proprio Paese e la corona
+nell’illusione di grandi
+ricchezze per una vita
+dura e pericolosa. Un
+tesoro come quello di
+Cutthroat Island™ é come
+un sogno! Ma le regole dei
+pirati prevedono che
+solamente colui che
+sopravvivera potra godersi
+il bottino!
+
+32
+
+===== Page 34 =====
+
+Het jaar: 1688. Engeland is in oorlog met Spanje, de Spaanse
+bezittingen in de Amerika’s vullen de ruimen van Spaanse
+galjoenen met legendarische schatten. Kaperkapileins die in
+dienst zijn van de Britse kroon azen op deze schatschepen met de
+volledige medewerking van hun regering terwijl Piraten die
+alleen maar onder de piratenvlag varen het op Spaanse en Britse
+koopvaardijschepen hebben voorzien. Wanneer ze gevangen
+worden genomen staal hun de galg te wachten. Ongelukkige
+burgers worden opgewacht door zwervende ronselaarsbendes en
+worden onvrijwillig aangemonsterd in His Majesty's Marine.
+Velen gaan er aan onder door. Sommigen slagen er in om aan dit
+lot te ontsnappen door boekaniers te worden. In de Engelse
+kolonie Jamaica worden veroordeelde kruimeldieven verkocht als
+slaven aan de hoogste bieders. Het is cen gewelddadig tijdperk,
+zelfs de moedigste mensen trillen van angst wanneer ze aan
+Piraten denken!
+
+In 1619 werd het Spaanse vrachtschip Santa Susanna geénterd
+door een piratenschip, de Sea Devil. Hel geénterde sehip was op
+weg naar Tortuga met de rijkste vracht die ooit vanuit de
+Amerika’s werd verstuurd. In een storm leed de Sea Devil
+schipbreuk bij Cutthroat Island” dat op geen enkele kaart
+voorkoml. Slechts én man heeft het eiland ooil levend-verlaten.
+De verraderlijke overlevende, een meedogentoze piraat die
+Fingers Adams heelte, wist van het eiland af te komen maar hij
+was gedwongen om de schat achter te laten. Toen hij op sterven
+lag, maakle hij een kaart die hij in drie stukken
+drie wetlige erfgenamen kregen elk een stuk toegestuurd. di ijn
+bastaardzoon Dawg kreeg niels. Op én van de stukken stond de
+breedtegraad, op een ander de lengtegraad, en op het derde stuk
+was de plek wa begraven aangegeven. Jij gaal nu
+meedoen aan d vy jal, een jacht die je van de
+diepzee van de Cariben naar de dodelijke jungles van het met
+riffen omringde atol yan Gutthroat Island” zal voeren!
+
+VOORDAT JE HET ANKER
+
+LICHT....
+
+LADEN:
+
+1. Zorg er voor
+
+dat de machine
+
+UIT staat.
+
+2. Stop de Cutthroat
+
+Island TM Game Pak
+
+in je SUPER
+
+NINTENDO
+
+ENTERTAINMENT
+
+SYSTEM™ zoals wordt
+
+beschreven in de
+
+handleiding van de
+
+machine.
+
+3. Zet de
+
+machine AAN.
+
+Wanneer het Cutthroat
+
+Island™ titelscherm verschijnt, zie je de volgende
+keuzes: START GAME (BEGINNEN MET HET
+SPEL) en OPTIONS (OPTIES). Als je wilt beginnen
+met de jacht naar de schat laat je START GAME
+oplichten en druk je op de START KNOP.
+
+33
+
+OPTIES
+Fighting Style (Vecht Stijl)
+
+In Cutthroat Island™ kun je ee tussen twee
+opwindende vecht stijlen: SWORDPLAY
+(ZWAARDGEVECHD) heeft het zwaard als
+standaard aanvalswapen zodat je je een weg door
+het spel kunt snijden en hakken.
+
+BRAWLING (KNOKKEN) heeft een stoot met de
+greep van je zwaard als standaard aanval, je krijgt
+het gevoel van vuist tegen vuist handgemeen,
+Wanneer je je keuze hebt laten oplichten, druk je
+op de START KNOP om te beginnen met het spel.
+
+GAME FEATURES
+
+(SPELKENMERKEN)
+One Player Game (Eén speler spel)
+
+Cutthroat Island™ is voor één of twee spelers.
+Wanneer een tweede speler op een willekeurig
+moment mee wil gaan doen, dan kan dit door de
+START KNOP op besturingspad 2 in te drukken.
+Two Player Game
+
+(Iwee spelers spel)
+
+Wanneer je er voor kiest om Cutthroat Island™
+met twee spelers te spelen dan bestuurt de speler
+die besturingspad 1 gebruikt Morgan, terwijl de
+speler die besturingspad 2 gebruikt als Shaw zal
+spelen. In een twee spelers spel werken de spelers
+samen om de verschillende levels te voltooien en
+de schat te vinden.
+
+Als je éénmaal hebt gekozen hoe je wilt spelen,
+druk je op de START KNOP om te beginnen.
+
+Het Cutthroat Island™ scherm
+
+Score
+
+Leyens
+
+Aggression Indicator
+
+(Aggressie Indicator)
+
+De aggressie indicator van jouw figuur verandert
+om succesvolle volireffers aan te geven. Wanneer
+de indicator vol is, kunnen speciale bewegingen
+uitgevoerd worden! Wanneer je een leven verliest
+of 25% van je gezondheid binnen 3 seconden wordt
+de indicator teruggezet.
+
+Energy Meters (Ener; aie Meters)
+
+De energie van elk figuur wordt getoond in een
+meter die naast zijn of haar portret staat. Wanneer
+Morgan of Shaw worden geraakt, neemt hun
+energie af en de meter wordt leger. Als de
+
+meter helemaal leeg is, verliest het figuur een
+leven. Door het oppikken van verschillende
+
+wordt de energie gedeeltelijk of
+
+volledig aangevuld.
+
+===== Page 35 =====
+
+Lives Remaining
+
+(Overgebleven levens)
+
+Elk figuur begint Cutthroat Island™ met drie
+levens. Hoeveel levens een speler nog over heeft,
+wordt getoond naast het portret van dat figuur.
+
+Enemy Energy (Vijand Haerel)
+Wamneer je tegen een ea vecht, zal de energie
+yan die vijand getoond worden op het scherm
+
+(2 seconden lang of totdat er cen andere vijand
+wordt geraakt) in een energiemeter naast het
+portret van de vijand.
+
+Scoring (Scoren)
+
+De score van elke speler verschijnt boven zijn
+of haar energie meter. In Cutthroat Island™
+krijg je punten voor het verslaan van vijanden,
+het verzamelen van bepaalde voorwerpen, en
+voor het uitvoeren van bepaalde Bonus
+opdrachten. Je krijgt ook punten voor onder
+andere schermkumst (voltreffers vs. missers),
+gezondheid, het verzamelen van voorwerpen en
+succesvolle hits.
+
+Continues
+
+Spelers kunnen Continues verdienen die er voor
+zorgen dat je door kunt spelen nadat je al je levens
+bent kwijtgeraakt. Voor elke 30.000 punten krijg je
+automatisch een continue.
+
+WAPENS
+
+Het zwaard is je standaard wapen maar daarnaast
+kun je heel veel verschillende wapens verzamelen
+in de verschillende levels van het spel. Wanneer je
+een wapen oppakt zal het in de hand van je figuur
+verschijnen. Voor het gebruiken van een
+gooiwapen druk je de BESTURINGSPAD in de
+richting waarin je wilt gooien terwij x
+KNOP drukt. Hieronder vind je a
+van de wapens die je kunt tegenkomen tijdens je
+jacht naar de moeilijk te vinden schat.
+
+ZWAARDEN
+
+De belangrijkste wapens in Cutthroat Island™ zijn
+zwaarden. Een zwaard kun je altijd blijven
+gebruiken maar je kunt ook een zwaard vervangen
+door een beter exemplaar. In de hitte van de strijd
+kan een zwaard ook uit je hand worden geslagen of
+je worden ontnomen zodat je dan gedwongen bent
+om een ander zwaard te vinden.
+
+2
+
+Zwaard
+
+Dit is het standaard wapen van Shaw.
+
+Rapier
+Dit is het standaard wapen van
+Morgan.
+
+ANDERE WAPENS
+
+In verschillende levels en op verschillende
+plaatsen in Cutthroat Island™ vind je wapens die
+hieronder niet worden genoemd maar die goed
+gebruikt kunnen worden tegen je vijanden, Je
+moet vindingrijk zijn en goed opletten zodat je de
+pistolen, musketten, bommen en andere nuttige
+voorwerpen die verschijnen goed kunt benutten.
+Sommige wapens in Cutthroat Island™ zijn
+tijdelijk en zullen na één of meer voltreffers
+breken of weggegooid worden.
+
+Mes
+
+Het is erg nuttig om dit mes op
+te pakken omdat je cen
+
+vijand van afstand beschadigen.
+
+Bom
+
+Het wordt moeilijk om door te
+
+gaan wamneer je door een vurige
+doodsbal de lucht in wordt geslingerd!
+Pak deze bom op en gooi hem voordat
+ie ontploft!
+
+Fles
+Door het grijpen naar de fles kun je
+overleven wanneer je in het nauw zit.
+
+Keien/puin
+
+Gooi deze naar je vijand zo vaak je ze
+maar op kunt pakken. Keien en puin
+kumen herhaaldelijk gebruikt worden
+om je tegenstanders wezenloos te
+gooien,
+
+Viammende Toorts
+
+Wanneer je cen vilammende toorts
+oppakt, moet je die vasthouden zo lang
+je het licht nodig hebt. Maar wanneer
+de omstandigheden daarom vragen,
+kun je de toorts ook naar je vijanden
+gooien die er erg beschadigd door
+zullen worden.
+
+Hamer
+
+Wanner je vijand erop staat om te
+bewegen, probeer je hem vast te
+nagelen met dit fijne gereedschap.
+
+Pistol
+Met het pistool kum je de vele vijanden
+naar het hiernamaals helpen.
+
+VG a it
+
+===== Page 36 =====
+
+PICK UPS
+
+Voedsel
+
+In het hele spel kun je verschillende
+voedingsmiddelen vinden en opeten
+die de energie van een speler
+gedeeltelijk of volledig (afhankelijk
+van de hoeveelheid
+
+voedsel) zullen herstellen.
+
+4)
+
+Sleutel
+
+Soms moeten de figuren sleutels
+vinden die hun in staat stellen om te
+ontsnappen aan achtervolgers door
+het openen van gesloten deuren.
+
+Medicijn
+
+Het. alien van een medicijn
+icoontje zorgt er direct voor dat een
+figuur zijn volledige sterkte
+terugkeijgt.
+
+oT
+
+Extra Leven
+
+Verdien een extra kans om de piraten
+en de achtervolgers die achter de
+Cutthroat Island™ schat aan zitten
+
+te slim af te zijn (en ze te overleven!)
+door het oppakken van het Extra
+Leven icoontje.
+
+for
+
+BESTURING
+
+SWORDPLAY:
+Zwaard Houw
+(rechterhand) =
+KNOP X
+
+Blokkeren =
+KNOP A
+
+SWORDPLAY: Zwaard
+
+Houw (linker hand) =
+Paweer Spel= KNOPY
+START KNOP Gane
+KNOP B
+
+Verplaats ‘Schaartrap
+speler in de = KNOP B,
+druk richting = daarna
+BESTURINGS KNOP Y
+FAL Vijand Naar
+Achteren Draai Houw =
+Gooien = Terug B+ KNOPY
++ KNOP Y
+Gooi Wapen =
+KNOP X +
+RICHTING
+
+Er zijn bewegingen die we hier niet
+verklappen. Kun jij ze ontdekken’?
+
+Voor het vinden en het veroveren van de
+kostbare schat die op Cutthroat
+Island™ verborgen is, moet je eerst de
+3 5 kunst van het zwaardgevecht onder de
+Imie krijgen. Oefen deze bewegingen
+totdat je ze bijna automatisch uit Iunt
+
+voeren. Het combineren van bewegingen is
+meestal de meest effectieve manier om van een
+vijand af te komen. Onthoud dat er op Cutthroat
+Island™ veel voorwerpen zijn te vinden die je op
+kunt pakken en die je als wapen kunt gebruiken.
+Gebruik je verstand om ze te vinden en wees net
+zo meedogenloos als de vele vijanden waar je mee
+te maken krijgt. Onthoud dat je te maken hebt
+met de meest meedogenloze piraat en dat fouten
+je duur kunnen komen te staan of zelfs fataal
+kunnen zijn!
+
+Bonus Bewegingen
+
+Nadat je goed door bepaalde gebieden bent
+gekomen, krijg je een bonus beweging die je van
+tevoren niet uit kon voeren. Deze beweging wordt
+gedemonstreerd en knoppen besturing wordt ook
+getood. Bonus bewegingen kunnen alleen.
+uitgevoerd worden wanneer de aggressie meter
+van een speler oplicht.
+
+PIRATEN AKTIE!
+
+Cutthroat Island™ bevat opwindende
+spelgebieden. Voor het voltooien van het spel en
+voor het halen van de hoogste score moet je in de
+juiste volgorde de doelen in elk gebied halen.
+
+De aktie begint in
+de stinkende
+cvagenis dic
+bewaakt wordt
+door een wrede
+Bewaker.
+
++ Wanneer Morgan
+
+vertalen, hoort ze dat de geleerde schurk William.
+Shaw gevangen is genomen vanwege diefstal en
+dat hij als slaaf verkocht zal worden. Morgan is
+vastbesloten om hem te pakken te krijgen en.
+daarom gaat ze naar de gevangenis waar ze de
+ongewenste aandacht trekt van een slimme
+gevangenisbewaker die haar herkent omdat ze
+voorkomt op cen poster met mensen die gezocht
+worden. Er wordt alarm geslagen en Morgan en
+Shaw proberen koortsachtig te ontsnappen uit de
+gevangenis. Om eruit te kunnen komen moeten ze
+de sleutel vinden van de poort. Ze moeten snel
+handelen: een heel leger roodjassen wordt erop uit
+gestuurd om hen te vangen. Je moet nogal wat
+mensen om zeep helpen voordat je tegenover de
+laatste vijand komt te staan die tussen jou en de
+vrijheid staat: de Bewaker! Overmeesterde
+vijanden kunnen nuttige voorwerpen laten vallen
+die je kunt verzamelen.
+
+===== Page 37 =====
+
+Morgan en Shaw
+vluchten weg voor
+de achtervolgende
+gevangenisbewakers
+en ze gebruiken
+alles wat ze maar
+} op hun weg
+
+| vinden. Ze
+springen op een
+leeg groeve
+karretje dat een
+steile helling afdendert, uit de gevangenis groeve
+naar de omringende heuvels terwijl een troep
+vastbesloten bewakers hun dicht op de hielen zit!
+Het is een gewaagd plan. De weg zit vol met grote
+keien en boze achtervolgers die met hun pistolen
+schieten en stenen gooien. Het ontsnappende duo
+moet de juiste kant opleunen om hun yvlucht
+groeve karretje op het juiste spoor te houden
+terwijl ze zich tegelijkertijd de vijand van het lijf
+moeten zien te houden. Wanneer je een twee
+spelers spel speelt, zul je merken dat beide
+spelers tegelijkertijd dezelfde kant op
+
+moeten leunen om veilig te kunnen
+
+ontsnappen uit de groeve.
+
+Spittalfield
+
+- Het levendige
+stadje Spittalfield
+zit vol met
+winkels en met
+stadsmensen die
+niet veel op
+
+niet echt
+verwachten dat ze met open armen zullen worden
+ontvangen wanneer ze in het stadje aankomen. Ze
+zijn op zoek naar Morgan’s oom Mordechai die de
+overgebleven schatkaart heeft. Shaw en Morgan
+komen heel wat rotzooi tegen in de verschillende
+straten en winkels die ze bezoeken maar bij de
+Smid moeten ze even wachten omdat ze daar hun
+zwaarden moeten laten scherpen zodat ze de
+piraten kunnen verslaan die de toegang naar de
+Spittalfield Tavern bewaken. Mordechai en zijn
+bemanning zitten daar te wachten met pistolen
+die op scherp staan en getrokken sabels. Dawg is
+in de stad en wil de kaart ook hebben!
+
+Spittalfield Tavern
+~ Fal Morgan en Shaw
+vallen in de vieze
+vingers van Dawg
+Brown’s
+bandietenbende
+die de Spittalfield
+tavern in bezit
+hebben genomen
+omdat ze hopen.
+dat ze Mordechai
+‘aunnen dwingen
+om te vertellen waar hij zijn kaart heeft verstopt!
+Er breekt een geweldige vechtpartij uit. Piraten en
+andere bezoekers vechten met alles wat ze maar
+
+in hun handen kunnen krijgen tegen ieder die nog
+staat! Snelgrave, de eerste stuurman van Dawg,
+een inslechte man die van een goed gevecht
+houdt, moet eerst volledig in elkaar worden
+geslagen voordat je de kaart uit zijn schuilplaats
+kunt halen. Let op het valluik waarlangs je
+
+kunt ontsnappen naar de stad maar vergeet
+
+de kaart niet!
+
+Rijtuig jacht
+ui Bs - De stad is in rep
+
+en roer met een
+heel horzelnest
+yan Britse
+Roodjassen die
+uitgevlogen
+
+zijn om de rauwe
+piraten wandaden
+te onderdrukken.
+Morgan en Shaw,
+die nog maar net
+ontsnapt zijn aan de moordaanslagen van Dawg en
+zijn bemanning, moeten nu wegvluchten uit de
+stad en terugkeren naar de Morning Star terwijl de
+piraten en de Roodjassen hun op de hielen zitten.
+Op hun typische gedurfde manier springen
+Morgan en Shaw op het dak van een passerend
+rijtuig en proberen ze daarop te blijven zitten
+terwijl het rijtuig langs de haven naar de dokken
+rijdt. Je moet de dodelijk nauwkeurige
+kanonsschoten van de oorlogsschepen van Her
+Majesty’s Marine ontwijken terwijl je de aanvallen
+van vastbesloten achtervolgers afweert. Als er een
+prijs op je hoofd staat, lijlkt het erop dat zelfs de
+meest bange zieltjes de moed vinden om te
+proberen om je neer te halen! Vanaf ramen en
+daken, de weg naar de haven is een vuurproef van
+wilde vuurgevechten en bewakers in spé!
+
+Spittalfield Haven
+
+Door al het lawaai dat je in de stad maakt, heb je
+de Havenmeester meer dan genoeg tijd gegeven
+om zich op jouw komst voor te bereiden! De
+Havenmeester is een goede vriend van Gouverneur
+Ainslee en hij gaat zijn best doen om er voor te
+zorgen dat je niet terugkeert naar je schip!
+
+Muiterij op de Morning Star
+
+——— Morgan en Shaw
+slagen erin om
+terug te keren
+naar de
+zogenaamde
+veilige haven van
+de Morning Star
+maar daar blijkt
+dat de smeulende
+haat van eerste
+stuurman Scully
+eindelijk tot uitbarsting is gekomen: Muiterij!
+Shaw en Morgan moeten vechten voor het
+commando over de Morning Star. Het gevecht
+woedt tussendeks, alle bemanningsleden stoten en
+steken voor hun levens!
+
+oe
+
+===== Page 38 =====
+
+Als de zon
+opkomt, blijkt dat
+de vermoeide
+doornatte
+overlevenden zijn
+aangespoeld op
+het strand van
+Cutthroat
+Island™. Wanneer
+het schip van
+Dawg, The
+Reaper, wordt gesignaleerd terwijl het voor anker
+ligt in een verborgen inham, wordt het duidelijlx
+dat Morgan en bemanning niet alleen met apen te
+maken zullen krijgen! Van de boomtoppen in de
+jungle naar met drijfzand gevulde moerassen, de
+taaie troep gaat op weg om Cutthroat Island™ te
+onderzoeken. Ze zijn op zoek naar Dawg en hopen
+dat ze het laatste stuk van de schatkaart kunnen
+stelen. Via lianen moeten ze omhoog klimmen.
+Ook moeten ze voorzichtig rottende touwbruggen
+oversteken. Het jungle ciland herbergt vele
+gevaren! Pas op voor de woeste jungle dieren
+terwijl je op zoek bent naar Dawg en zijn mannen.
+
+Gouverneur
+
+# Ainslee heeft
+Dawg volledige
+
+4 gratie belooft als
+hij hem Morgan
+en de helft van de
+schat kan leveren.
+Deze
+ongemakkelijke
+deal betekent dat
+Morgan, Shaw en
+hun mensen nu niet alleen te maken krijgen met
+Dawg en de bemanning van The Reaper maar ook
+met een compagnie Britse soldaten. Jij hebt de
+kaart, maar leid jij je vijanden regelrecht naar de
+schat? De kaart geeft aan dat de schat.....
+onderaan een klif ligt? De onverschrokken
+zoekers moeten nu de confrontatie aangaan met
+de steile klifhelling voor het bereiken van de schat
+die ze nu zo dicht genaderd zijn! Je moet afdalen
+via de jungle lianen, je zwaait van richel naar
+richel terwijl je tegen de vijanden vecht die je
+
+op de voet volgen. Dit is erg moeilijk, het is
+
+erg gemakkelijk om het loslaten verkeerd te
+timen waardoor je op de rotsen beneden te
+
+pletter zult vallen! De kansen zijn niet eerlijk
+verdeeld maar wie beweert dat het leven van
+
+een piraat cerlijk is?
+
+37
+
+Schatgrotten
+
+In een heel erg
+grote grot ligt de
+schat waarvoor je -
+zo hard gevochten
+hebt. De
+verschillende
+kamers van de
+grot zitten vol met
+gevaren zoals
+vleermuizen en
+spinnen, ze
+worden bewaakt door de botten van degenen die
+nooit levend over de schatten hebben kunnen
+praten die ze nu stilzwijgend bewaken. De
+duistere grot zit vol met vallen voor degenen
+
+die niets vermoeden. Wanneer je een toorts
+
+kunt vinden die je weg kan verlichten, heb je
+misschien een heel klein kansje dat je de schat
+vindt die je zoekt!
+
+Er liggen nog meer avonturen op je te
+wachten. Ontdek ze maar, als je dat kunt!
+
+===== Page 39 =====
+
+Cutthroat FIGUREN
+Morgan
+
+Morgan is een mooie piraat en dat
+is een zeer zeldzaam soort schurk.
+Ze is opgegroeid op zee tussen de
+laagste en gemeenste mensen. Ze
+heeft al heel wat slechte zaken op
+haar naam staan en ze is net zo
+sluw en wreed als een man. Na de
+dood van haar vader Harry moet
+ze nu bewijzen dat ze de schat kan vinden en de
+leiding op zich kan nemen over zijn bemanning
+voordat Dawg haar en de kaarten in zijn gretige
+handen kan krijgen!
+
+William Shaw
+
+Shaw is een zeer charmante maar
+“a woeste schurk die net doet alsof
+hij een geleerde en gepriviligeerde
+achtergrond heeft die hij heeft
+afgezworen om cen crimineel
+leven te kunnen leiden. Eerst
+bekijkt hij Morgan met
+
+geamuseerd respect maar
+uiteindelijk gaat hij van haar houden. Hij zou zijn
+ziel voor haar op het spel willen zetten en dat doet
+hij dan ook!
+
+Snelgrave
+7 Snelgrave, de verschrikkelijke
+hielenlikker van Dawg, is bijna net
+zon Ikwaadaardige schurk als
+Dawg zelf is. Hij heeft geen
+linkerhand meer maar in plaats
+daarvan heeft hij een stevige
+ketting waarmee hij zijn vijanden
+dodelijk precies kan raken!
+
+Dawg Brown groeide op met cen
+diepe waardering voor alles wat
+crimineel is. Dit meest ve:
+
+met de nek aangekeken. Toen hij
+hoorde dat er drie schatkaart
+stukken waren, werd het vinden
+van de schat een obsessie voor
+hem. Hij wil er alles voor doen! Mordechai zal het
+volgende slachtoffer van Dawg worden en daarna?
+Morgan moet echt oppassen!
+
+Gouv erneur Ainslee
+
+seq Gouverneur Ainslee is de corrupte
+Gouverneur van Jamaica, Her
+Majesty’s Royal Island Colony. Hij
+is een tiran die van roofbuit houdt
+en het blijkt dat hij een geschikte
+maar onbetrouwbare misdaad
+partner is voor Dawg Brown. Hij
+heeft al eerder een waarderend
+oogje op Morgan laten vallen, maar nu is hij meer
+geinteresseerd in de schat!
+
+Mordechai
+
+Morgan’s oom Mordechai is cen
+verdorven piraat. Dat is niet zo
+vreemd wanneer je weet dat de
+familie stamboom de galg is!
+Mordechai heeft het derde stuk
+van de schatkaart en je kunt er
+zeker van zijn dat hij dat stuk niet
+zonder slag of stoot aan iemand
+anders zal geven!
+
+Havenmeester
+
+De havenmeester is een groot
+varken dat een ketting met een
+bal eraan gebruilst om zijn
+heerschappij over de waterkant
+en iedereen die daar rondloopt.
+Als je weet dat Morgan en Shaw
+er nog een hele kluif aan zullen
+hebben om hem te verslaan dan
+weet je hoe kwaadaardig hij is.
+
+Gevangenisbewaker
+
+De Gevangenisbewaarder, die op
+een wrede manier zorgt voor het
+criminele uitschot van Jamaica, is
+een gespannen man wiens carriére
+vanaf nu bergafwaarts zal gaan.
+Hij zal de dag betreuren dat
+William Shaw en Morgan Brown
+zijn pad kruisten!
+
+Roodjassen.
+
+Het Britse garnizoen in de haven
+van Jamaica staat bekend om de
+gedisciplineerde gevechten onder
+de leiding van Gouverneur
+Ainslee. Wanneer een troep
+roodjassen in looppas achter je
+aanzit, kum je het beste maar de
+benen nemen en er voor zorgen
+dat je je zaalgjes in orde hebt.
+
+Het leven van een piraat
+is gevaarlijk en wreed.
+Het zijn wanhopige
+mensen die alles achter
+zich hebben gelaten
+terwijl ze denkbeeldige
+schatten najagen. Ze
+dromen van een schat als
+die van Cutthroat Island"!
+Maar de erecode van een
+piraat houdt alleen maar
+in dat degene die het
+langst in leven blijft de
+buit krijgt!
+
+===== Page 40 =====
+
+AIM ENTERTAINMENT LTD.,
+Moreau House, 112-120 Brompton Rd/Knightsbridge, London SW3 1JJ, England
+DISTRIBUTED BY ACCLAIM ENTERTAINMENT, GmbH, Mohistra3e 10, 81675 Munchen, Deutschland.
+DISTRIBUEPAR ACCLAIM ENTERTAINMENT SA, 12/14 Rond Point des Champs: Elysees, 75008 Paris France
+OISTRIBUIDO POR ARCADIA SOFTWARE $ A, Paseo de.\a Castellana, 52- GalPieha, 28046 Madrid, Espaia
+OISTRIBUTED BY ROADSHOW NEW MEDIA, The Merlin Centre 235 Pyrmont Sire i) Pyrm ont eNSWK2009, Au
+ee PRIME A
+
+4
+t

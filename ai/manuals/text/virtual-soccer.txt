@@ -1,0 +1,672 @@
+# Virtual Soccer
+source: https://archive.org/details/snes_manual_archive
+pdf: Virtual Soccer (PAL).pdf
+region: PAL
+pages: 18
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+-
+
+Welcome to Virtual Soccer, the only user-friendly
+football game that features a variable pitch,
+easy-to-learn controls and a variety of options that
+will ensure you years of exciting gameplay!
+
+ntents
+
+MAICHINFORMAIION....................................
+
+HOW 1O PLAY VRIUAL SOCCER...
+
+===== Page 3 =====
+
+Virtual Soccer has six pre-game menus. The Selection icons — other than those in light blue
+— can be flipped and/or selected for a variety of choices.
+Here’s how :
+
+A description of each menu and their various selections follows.
+
+Main Menu
+@® Number of Players (Flip)
+
+Flip this icon to select the desired number of players.
+
+Your options: One Player vs CPU and Player vs Player.
+
+@ Mode of Play (Flip)
+
+Flip this icon to select the desired type of game. Pre-season
+or Custom Teams or Custom Teams allow up to two players SOCCER
+to compete in a single match. However, a Custom Teams _
+match cannot be played unless the data for two teams has
+been inputted. The Nations Shield, Custom Trophy and
+Continental Cup are only available in the one player vs CPU
+mode. Please note that Custom Trophy cannot be played
+unless the data for all eight teams has been inputted.
+Selecting Practice will open the Practice menu (see Practice).
+
+Your options: Pre-Season; Custom Teams; Nations Shield, Continental Cup, Custom
+Trophy and Practice.
+
+@ Options
+Triggering this icon opens the Options Menu (see Options).
+
+@® Weather
+Triggering this icon opens the Weather Menu (see Weather ).
+
+2
+
+===== Page 4 =====
+
+Options
+
+This menu offers the following selections:
+
+Weather
+
+Time
+Press right or left on the direction pad to decide the length of time for each match.
+
+Pitch View (Flip)
+
+Flip this icon to decide what view you wish to play a match in.
+
+Your options: Side view, Top view and Flat view.
+
+Customize
+Triggering this icon opens the Customize Menu (see Customize).
+
+Normal/Fast
+Flipping this icon allows you to set the difficulty level of the game.
+
+This menu offers the following selections:
+
+Weather Conditions (Flip)
+
+Flip this icon to select a specific weather condition for either Practice or Custom
+Teams/Pre-season matches.
+
+Your options: Fine, Hot or Raining
+
+Pitch Condition (Flip)
+
+Flip this icon to select a specific pitch condition for either Practice or Custom
+Teams/Pre-Season matches.
+
+Your options: Firm, Hard, Soggy
+
+Wind Direction (Flip)
+
+Flip this icon to select a specific wind direction for either Practice or Custom
+Team/Pre-Season matches.
+
+Your options: Calm, Northerly, Southerly, Easterly, Westerly
+
+Mono/Stereo (Flip)
+
+Flip this icon to switch the game’s sound output between mono or stereo.
+
+===== Page 5 =====
+
+ee
+
+This menu offers the following selections:
+
+Normal
+
+Trigger this icon to send a team of your choice out on the play field to practice your
+moves.
+
+Penalty Kick
+
+Trigger this icon to practice your penalty kicks.
+
+1vs2
+
+Trigger this icon to compete head-to-head with a friend in a sudden-death penalty kick
+tournament.
+
+Penalty Save
+Trigger this icon to practice penalty saves.
+
+Note: To exit any of these modes, press START.
+
+Up to eight teams can be created for competition in
+Custom Teams/Custom Trophy matches. By pressing up
+or down on the control pad, you may choose one of
+eight files for saving a custom team. Upon choosing a
+file in which you wish to save your team, press either
+START/A/B/X/Y buttons to open the customization
+screen. To exit this and the previous data file screen,
+simply choose “Exit” and press any of the aforemen-
+tioned buttons. Here’s how you make your own team:
+
+6 tho Data
+
+Control Pad Up/Down Move cursor vertically to next selection.
+| Right/Left _ Moves cursor horizontally to next selection.
+
+START _ Returns to previous menu.
+
+AS ss Shifts through letters, numerals and uniform colors.
+
+When finished customizing, move the cursor to the EXIT selection and press either START/
+A/B/X/Y to exit the screen.
+
+===== Page 6 =====
+
+TEAM SELECTION
+
+The Team Selection screen appears prior to a match (the Custom Teams screen will appear in
+its place when a Custom Teams/Custom Trophy match is selected). The screen allows you to
+choose one of 24 teams from around the world.
+
+Control Pad — Right/Left Rotates the world
+to the country of
+your choice.
+
+_ B/START _ Enters a selection.
+
+For the selection of custom teams:
+
+Control Pad Up/Down Moves between team selections
+
+B/START Enters a selection
+
+MATCH INFORMATION
+
+The Match Information screen appears prior to a match and offers a look at the conditions
+that could affect your game. The information and effects are as follows:
+
+Place | Affects the morale of a visiting team. |
+
+Weather Affects the stamina of your players.
+Pitch  _ Affects balll action on the pitch.
+Wind Affects the course of a ball in flight.
+
+Referee Affects penalty calls.
+
+Pressing START/A/B/X/Y will take you to the next screen.
+
+Note: Prior to a Pre-season or Custom Teams match, the referee can be changed by pressing
+right or left on the control pad.
+
+5
+
+===== Page 7 =====
+
+REVIEW SQUAD
+
+The Review Squad screen appears prior to a match, when a player is injured on the field, and
+can also be called up during a match when the ball is out of play by pressing SELECT. The
+screen allows you to choose formations, substitute players and check individual player
+statistics. Here’s how you use it:
+
+Automatic Goalie
+
+The auto-goalie feature allows you to concentrate on controlling the other players on the —
+field. Auto-goalie is active if a black circle surrounds the goalie on the Review Squad screen.
+
+When active, the goalie will move to save the goal regardless of control pad or trigger key
+input. He will also automatically handle goal kicks and defend against free kicks.
+
+The auto-goalie feature does not apply to penalty kicks which is explained later in this
+manual. In short, it’s up to you to defend your own goal during penalty kicks.
+
+To activate or deactivate the auto-goalie feature, simply press either A/B/X/Y until the black
+circle appears or disappears from view.
+
+-
+
+One of a variety of formations can be chosen by pressing either the L or R buttons on your controller.
+
+6
+
+===== Page 8 =====
+
+Team Strength
+
+The team strength varies with the chosen formation. This is indicated by the meters in the
+upper left-hand corner of the Review Squad screen. The meters are:
+
+® Morale — Note: Morale affects the various stats of an
+® Backfield Strength individual player. Morale will often drop |
+© Midfield Strength when the captain of a team is injured or —
+®@ Forward Strength sent off the field during a game.
+
+Individual Player Statistics sooo
+
+Pressing down on the control pad pulls open the statistic or stats table
+for an arrow-indicated player on the Review Squad screen. The
+player’s name and position are also indicated. The position markings
+are “G” for goalie, ““B” for backs, “M” for midfielders and “F” for
+forwards. “Cpt” indicates the captain of the team. Also, “AUTO”
+indicates that the auto-goalie mode is active. Each player has his own
+set of stats which governs his performance on the play field. They are:
+
+© Kick Power ; Governs the speed and distance of kicks.
+® Speed Governs on- screen movement.
+@Defense  Governsa player’ s defensive skill (.e.: how well he tackles,
+
+fouling without being carded, etc.). For a goalie, it indicates how
+_ well he defends the goal.
+
+8 Strength  Governs a player Ss stamina, particularly his overall performance
+ees the latter half of anaich
+
+_ © Attack  Governs a player’ Ss offensive technical skill Ht Ce. “how well he
+avoids tackles, accuracy of kicks, etc.).
+
+Stat ratings range from | (poor) to 5 (excellent).
+
+To substitute or change positions, select the player you wish to substitute by using the control pad to
+move the arrow over him and press either of the A/B/X/Y buttons (a white circle will appear around
+the selected player). Then move the arrow over the player with which you wish to change the selected
+player. Press either A/B/X/Y and the players will exchange positions.
+
+Pressing START will return you to the match.
+r,
+
+===== Page 9 =====
+
+HOW TO PLAY VIRTUAL SOCCER
+
+The following is a breakdown of the key features in Virtual Soccer.
+
+The Play Field
+
+Virtual Soccer’s play field provides the following on-screen information:
+
+The name and
+position of the
+player controlling
+the ball.
+
+Acquired yellow/
+red cards (if any)
+of the player
+controlling the
+
+ball. Time remaining
+on the clock (red
+“00” indicates
+injury time).
+
+The score.
+
+A listing of various events (offsides, free kicks, etc.)
+as they occur.
+
+The Coin Toss
+
+Prior to the start of a match, there is a coin toss sequence. A
+player may call heads or tails simply by flipping the coin on
+the right (player one) or left (player two/CPU) by pressing
+any direction on the control pad and then pressing either A/B/
+X/Y. Upon selection, the coin in the middle will flip to decide
+the winner of the coin toss.
+
+The winner of the coin toss can then either select which end
+of the field to defend, or whether to kickoff with the field
+icons displayed on the screen. The center icon signifies
+kickoff. Choose the desired icon with your conrol pad and
+then press either A/B/X/Y to make your selection.
+
+===== Page 10 =====
+
+The Kickoff
+
+At the beginning of a match, after a goal is scored and following half time intervals, there’s
+the kickoff. During the kickoff, press either of the A/B/X/Y buttons to commence the game.
+The ball will be passed to the nearest square-marked player.
+
+Controlling Your Team ee —=REErttsisi«sisrsttsésaéc.€#w”ttét
+
+The player indicated with an arrow is under your control and the player indicated with a
+square is your pass receiver.
+
+-Offense-
+Arrow-marked player with ball
+
+Shift pass marker left (top/flat view).
+
+Shift pass. marker left i in relation to player dribbling the ball Il (side
+view). :
+
+Shift pass 5 marker right (top/flat aon
+
+_ Shift pass marker right in aig to player dribbling the ball (side
+view) - :
+
+: Pause during the game.
+
+Call up in-game menu when ball. is out of play.
+
+Pass ball to pass- -marker indicated player.
+Lift ball (quick tap of the button).
+
+| Shoot ball (long press of the button).
+
+Intentional foul attempt (charging).
+
+Pass ball to pass-marker indicated player.
+
+===== Page 11 =====
+
+-Offense/Defense-
+Arrow-marked player without ball
+
+2 Not used.
+
+: Not t used.
+
+a Pause during ihe game.
+
+Call up in- game menu when | ball is out tof Play.
+
+i Head ball.
+
+ing on height and angle of the intercepted ball).
+
+: Slide- kick ball when it s out of reach
+
+Shoot ball ea SAeoL diving header c or overhead kick depend-
+
+: Intentional foul attempt.
+
+"| Head ball.
+
+-Defense-
+Arrow-marked player
+
+_ Not used.
+
+Not used.
+
+Pause during the game.
+
+— Call up in- -game- menu en ball i IS out of play.
+
+- Tackle/sliding tackle.
+
+Tackle/sliding tackle.
+
+Intentional foul attempt. -
+
+Tackle/sliding tackle.
+
+10
+
+===== Page 12 =====
+
+Goalie with ball
+
+(
+
+Manual mode)
+
+Shift pass marker left (top/flat view).
+Shift pass marker left in relation to goalie dribbling the ball (side view).
+R Shift pass marker right (top/flat view).
+| Shift pass marker right in relation to goalie dribbling the ball (side
+| view)
+| START Pause during the game.
+| SELECT Call up in-game menu when ball is out of play.
+A button Pass/roll ball to pass-marker indicated player.
+B button Kick ball. (Note: The goalie will make a high-trajectory kick when
+| within the penalty area.)
+| X button Intentional foul attempt.
+| Y button Pass ball to pass-marker indicated player.
+
+L
+
+Goalie without ball (Manual mode)
+
+Not used.
+
+R Not used.
+
+START Pause during the game.
+
+SELECT Call up in-game menu when ball is out of play.
+A button Dive to catch or punch the ball.
+
+B button Dive to catch or punch the ball.
+
+X button Intentional foul attempt.
+
+7 button Dive to catch or punch the ball. :
+
+11
+
+===== Page 13 =====
+
+Corner AC. cusses
+
+When a corner kick is awarded, the field will pan
+out as players move into position for the kick.
+
+Note that an arrow will appear on the screen
+indicating which direction the ball is to be kicked.
+
+@)
+
+At this view, use the control pad to select which
+point in the penalty area you wish to direct your
+kick. While pressing the control pad, press either
+A/B/X/Y to input your selection. All control pad
+inputs are relative to the penalty area that is seen
+on-screen.
+
+After the corner swings into the corner-kick
+position, you may either kick the ball to the
+selected point in the penalty area by pressing B,
+or pass the ball to a square-marked player (which
+you can re-designate with the L/R buttons) by
+pressing either A or Y. After a kick, you may
+apply after-touch to the ball with the control pad.
+
+When dribbling the ball, a player who suddenly changes directions while the ball is furthest from
+him, will often lose control of the ball.
+
+When a throw-in is awarded, the sideline from which the throw-in is to be made will swing to the
+bottom of the screen. Use the L or R button to determine the player to whom you wish to throw
+the ball (indicated by a square over the player). Then press either A/B/X/Y and continue play.
+
+12
+
+===== Page 14 =====
+
+After-toOUCHN) smmes
+
+After kicking a ball, a player can slightly curve a
+ball by either pressing right/left (top or flat view)
+or up/down (side view) on the control pad.
+
+~
+
+In-game Menu
+
+Pressing the SELECT button anytime the ball is
+out of play will call up the In-game Menu. This
+menu allows you to access the Statistics, Records
+(see Records), and Review Squad screens.
+
+Records nnn
+
+Virtual Soccer maintains a constantly updated
+record of various achievements such as the best
+
+score and quickest goal. To exit this screen press
+either START/A/B/X/Y.
+
+The Reteree mmmussemssms
+
+There are five different types of referees in
+Virtual Soccer. They range from blind to
+spartan when it comes to penalizing a player
+for fouls on the field. However, regardless of
+type, if the referee is in the vicinity during an
+intentional foul (a press of the X button) or
+when a player tackles from behind, the odds are
+high that the fouling player will be penalized.
+
+Yellow/Red Cards snus
+
+Depending on the severity of a foul as well
+as the whim of the referee, the fouling player
+may receive a yellow or red card. Two
+yellow cards or a red card will send the
+penalized player off the field, leaving the
+team to compete with the remaining on-field
+members.
+
+Free Kicks siesta i Uisiciaaeatls ain
+
+On occasion, direct or indirect free kicks are awarded to a fouled player. A free kick is conducted
+
+from the spot where the foul occurred.
+
+-The Waill-
+
+When a free kick is awarded in the proximity of an
+opponent’s goal area, the opposing team will form a wall
+between the kicker and the goal. A well-timed header by a
+player in the wall could cut off a shot over the wall.
+
+-Direct-
+
+A direct free kick allows the player to kick towards the
+opposition’s goal or pass the ball to a square-marked player
+(which you can re-designate with the L/R buttons). Pressing
+B will send the ball over the wall. To pass, press A or Y .
+
+-Indirect-
+
+Usually awarded to the defender when the offense is called
+for offsides, an indirect kick only allows the player to pass to
+a square-marked team-mate. An indirect kick is indicated
+by a red “x” over the controlled player. Press A or Y to pass
+
+the ball. oS <
+
+13
+
+===== Page 15 =====
+
+A player is usually awarded a penalty © oO @
+kick if he is fouled by an opposing
+player in the opposition’s penalty area.
+
+When a penalty kick is awarded, play @ rs)
+switches to the penalty kick screen.
+(a) Team One’s score @
+(bo) Team Two’s score re)
+(c) The kick meter
+(d) The number of shots
+9)
+
+In PRACTICE mode, the team scores
+are substituted with the following:
+
+(a) The number of goals scored.
+(6) The number of shots attempted. 5)
+
+During a penalty kick, the player can direct his kick with the control pad to one of nine areas
+within the goal net. In two-player mode, the other player who controls the goalkeeper can
+choose one of nine areas within the goal to defend. These are:
+
+To kick, choose the area you’re aiming for and press either A/B/X/Y (see Kick Meter). In
+two-player mode, the player controlling the goalie must simultaneously input likewise to
+defend the goal.
+
+-Kick Meter-
+
+The accuracy and power of a penalty kick is governed by the Kick Meter. When pressing A/
+B/X/Y to launch a successful kick, the player must do so when the needle is within the “blue
+area”. The size of the blue area is governed by the Kick Power rating. The speed of the
+needle is governed by the Attack rating.
+
+14
+
+===== Page 16 =====
+
+Half/Full Time Statistics SCree@n snus
+
+After the first and second half of a match, a statistics screen will appear. Along certain names
+will be the time that a goal was scored (white for normal goals and red for self-inflicted
+goals); yellow/red cards acquired during a match, and injured/substituted players (in italics).
+
+The same screens will be displayed should a match go into overtime (two fifteen-minute halves).
+
+There are no draw games in the Pre-season and Continental Cup modes. Should the score of
+a match still remain even after overtime, the game will enter the Penalty Kick mode for a
+sudden-death tournament to decide the winner. A sudden death tournament involves five
+kicks taken alternately by each team. Should the score still be tied after ten kicks, each team
+will kick alternately and the first to lead will be declared the winner.
+
+On occasion, a referee may call a player offside during a match.
+The frequency of the call largely depends on the level of the referee.
+
+Game Analysis
+
+Following every match, a Game Analysis screen listing information
+such as ball possession, the number of penalties, and what
+percentage of the time your team occupied your opponent’s
+territory will appear on-screen. Hitting START/A/B/X/Y will exit anNa@reySsTs
+to the scoreboard. : oe Te
+
+15
+
+===== Page 17 =====
+
+Continental Cup
+
+Aside from single matches. Virtual Soccer offers you a knockout
+tournament which can be played in one-player mode. A team must
+battle its way through four grueling matches to win the coveted
+Continental Cup.
+
+The progress of the various teams during the tournament is
+recorded on the Continental Cup tournament table. Pressing right
+or left on the direction pad will allow you to review the entire table.
+
+Note: In a Cup tournament, an injured player carried off by stretcher is unavailable for the next
+match. 2
+
+Custom Trophy and Nations Shiel sum
+
+You can compere in an eight team, fourteen-match league with the currently available teams
+(Nations Shield) or with the eight custom teams (Custom Trophy). League rankings are based
+on a point system (3 points for each win, | point for each draw and 0 points for each loss).
+The column of numbers on the League ranking screen from left to right are: Number of
+Games; Total Wins; Total Draws; Total Losses; Total Goals (Difference between goals
+scored against opponents and goals scored by opponents); and Total Points. In cases where
+the goals scored by opponents are higher than the goals scored against opponents, Total
+Goals will be listed in red numbers.
+
+Note: In league tournaments, an injured player carried off by stretcher is unavailable for the
+next match.
+
+16
+
+===== Page 18 =====
+
+Imported to Europe by Virgin Interactive Entertainment
+
+Virgin Interactive Entertainment (Europe) Ltd.
+338a Ladbroke Grove
+London W10 5AH
+
+PRINTED IN JAPAN
+
+Wee ee sos fee ase ae ees SA EOS SE ee

@@ -1,0 +1,1216 @@
+# War 3010 The Revolution
+source: https://archive.org/details/snes_manual_archive
+pdf: War 3010 The Revolution ( USA ).pdf
+region: USA
+pages: 20
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+EXECUTIVE PRODUCER
+
+Salvatore Simeone
+
+GAME PRODUCTION MANAGER
+
+Thomas Mulvey
+
+GAME DESIGN
+Salvatore Simeone
+Anthony Verducci
+Michael Schiavetta
+
+Thomas Mulvey
+
+Pareshkumar
+
+Dean Camastro
+
+Herve Marcel
+
+PROJECT MRECTGR
+
+Pareshkumar
+
+PROGRAMMING
+Herve Marcel
+Pareshkumar
+
+_ SHIP DESIGNER
+
+Anthony Verducci
+
+MODEL -SHIP BUILDERS
+
+Anthony Verducci-
+Timothy Samuels
+Dean Camastro
+
+SHIP DIGITIZING
+Anthony Verducci
+
+WRAPPER SCREENS »
+
+Anthony Verducci
+
+' ANIMATIONS
+Dean Camastro
+
+INTRODUCTION
+& ENDING
+
+- Anthony Verducci
+
+Dean Camastro
+
+ANIMATION
+PROGRAMMING
+
+Herve Marcel
+
+SOUND EFFECTS
+PROGRAMMING
+Herve Marcel
+
+MUSIC
+Stephen Melillo
+
+MANUAI., DESIGN -
+
+Anthony Verducci
+
+MANUAI.
+
+Anthony Verducci
+‘Michael Schiavetta
+
+COVER ART
+Kenn Richards
+
+Advanced Productions Inc.
+
+1230 Hempstead Turnpike
+
+Franklin Square, NY 11010
+
+Packaging and Manual Execution: The Sisson Group Inc. — New York
+
+Printed in USA
+
+SS =
+
+U/SNS-AZNE-USA ~"
+
+_ Advanced
+__ Productions
+Inc.
+
+fe Se \
+
+gy ENR ce SRL Ripe Lan PE PR OR
+
+INSTRUCTION BOOKLET!
+
+===== Page 2 =====
+
+fom) Gm GE La "=
+
+TABLE GF CONTENTS
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER INFORMATION AND
+PRECAUTIONS BOOKLET CAREFULLY BEFORE USING YOUR NINTENDO®
+
+HARDWARE SYSTEM OR GAME PAK. STORYLINE wscoverse ones snd nits 4c be 500 Sam Sas senienine samme UH
+
+A PRIMER ON THE KYLLEN BROTHERHOOD......
+THIS PRODUCT HAS BEEN RATED BY THE ENTERTAINMENT SOFTWARE
+
+RATING BOARD. FOR INFORMATION ABOUT THE ESRB RATING, OR TO CONTROLLERevevsresrrcnes even ssn 6 ch dan damian sm Hanae Ne
+
+COMMENT ABOUT THE APPROPRIATENESS OF THE RATING, PLEASE
+CONTACT THE ESRB AT 1-800-771-3772. MAIN CONTROL MENU... . ccc ceeceeeceeceeeee seen eene eens
+
+OPTION SCREENS .osscsssssesessesseessnsesssssssesssssvess
+PASSCODES & STELLAR MAP v..scsssssesssssseeessssieed
+LONG RANGE SCAN & FLEET STATUS .......4-+.10
+BATTLE VIEW & SHIELD POWER .....s-ssssesessseeeT 1
+SHIP INFO & STARFIELD STATS .......:-ssesssee 42
+SHIP PRODUCTION & UPGRADES ........:-00000013
+INTERSTELLAR TERRAINS ......ssessseesesseessosneed 4
+FLEET TECHNICAL SPECIFICATIONS ..........00:00017
+PLANNING YOUR STRATEGY .s..ssessseesesseeees 35
+
+we OO Oop HELPLINE & ONLINE ....sssesssessssseessresssseeess 36
+
+; AePrOvee GUA Seis PASSCODE. INDEX ...ssssssssssseesessssseeesesssssssnnnne ST
+Nintendo ST OLN
+
+ACCESSORIES TO ENSURE
+
+4
+5
+6
+7
+8
+
+Official
+
+Qintendo)
+
+Seal of Quality
+
+NINTENDO, SUPER NINTENDO COMPLETE COMPATIBILITY. ALL CREDITS vcccucaveusavevceveveasertassesssenseven 40
+ENTERTAINMENT SYSTEM NINTENDO PRODUCTS ARE see ene eee eenenes
+
+AND THE OFFICIAL SEALS ARE LICENSED BY SALE FOR USE
+
+REGISTERED TRADEMARKS OF ONLY WITH OTHER AUTHORIZED
+
+NINTENDO OF AMERICA INC, PRODUCTS BEARING THE OFFICIAL
+
+©1991 NINTENDO OF AMERICA INC. NINTENDO SEAL OF QUALITY.
+
+===== Page 3 =====
+
+In the 20th century, humanity called out to the stars, searching for
+intelligent life outside the cradle of Earth. In the year 2641, they finally received
+an answer...
+
+A technologically superior race calling themselves the Kyllens broke the
+cosmic silence and offered peace and friendship. They spent close to a
+decade assimilating themselves into human society and culture and, in the
+process, cured every disease, every famine, every biological hazard, until
+humanity had at last achieved Paradise. These galactic saviors were quick to
+earn the admiration of humans everywhere.
+
+Then things changed. . .
+
+Goodwill and mutual understanding gave the Kyllens the opportunity to
+observe the humans’ every weakness and exploit their blind devotion to the
+Kyllen Brotherhood. Kyllen Supreme Command seized all arenas of human
+power and subjugated Earth’s civilization using weapons of war that could
+not be matched by any Terran technology.
+
+In the following years, humanity became subservient to Kyllen rule, stripped
+of all dignity and honor. Kyllen forces pillaged Earth and its colonies, conquering
+any resistance, and proclaimed their superiority with the formal establishment of
+human slave camps. Like the ancient empires of Earth, it seemed as though
+human civilization would fade into the forgotten annals of history.
+
+Finally, a leader emerged from the ashes of what was once humanity,
+determined to reclaim Earth and liberate its children from the merciless grip of
+Kyllen power. This leader coordinated a massive slave revolt, seizing a small
+Kyllen fleet. These captured vessels were renamed after the mythological
+figures of ancient Greece, resurrecting one of the greatest cultures-ef old
+Earth. Breaking into the Kyllen computer network, rebel slaves learned of
+hidden caches containing Kyllen technology scattered throughout the
+quadrants. Such treasures will certainly prove useful as the rebels leave no
+survivors, endure overwhelming odds, and commit to an offensive that will
+ultimately take them into the black heart of Kyllen Supreme Command.
+
+The last shred of human spirit, nearly extinguished by Kyllen domination,
+would rise again. The year is 3010. The interstellar void will soon become a
+battlefield where humanity's fate is decided. The Revolution is at hand...
+
+A PRIMER GN THE KYLLEN BROTHERHOOD
+
+The Kyllen Brotherhood has sustained itself for nearly 25,000 years through
+deception and conquest. The Kyllen scheme for enslaving less-developed
+civilizations remains the same: fool them into thinking they have made an ally,
+become an integral component of their culture, then seize the reins of power
+by subjugating them with overwhelming technological warfare. The Kyllen
+Brotherhood (which in itself sounds deceptive) spans over three-quarters of the
+galaxy, with slave populations of various alien races reaching upwards of 10
+billion on some planets. The Kyllens believe themselves to be the most superior
+form of intelligence in the universe and are able to maintain their omnipotence
+through listening posts and military bases scattered throughout their territories.
+
+Kyllen Supreme Command represents the military arm of the Kyllen
+Brotherhood. The Supreme Fleet is the most powerful tool at their disposal,
+enabling them to crush any opposition within hours of initial unrest. It is broken
+down into organized elements of varying lethality, including the brutally-effective
+Task Force, the standard System Defense Battle Group, and down to local
+Planetary Protectors. Sharing the same reputation for ruthless efficiency is the
+Perimeter Guard, an elite division of the Supreme Fleet that provides an
+impenetrable defensive screen around several of the Kyllen core systems. The
+most legendary Perimeter Guards are the Nussa, Hodaak, and Bivlea Defense
+Perimeters, all of which have remained unbroken for literally thousands of years.
+
+In the past, no alien race has been able to endure the prolonged war plan
+which the Kyllens have perfected. Kyllen military superiority remains unmatched,
+thanks in part to their confiscation and manipulation of alien technology. It has
+been said that the only way to defeat the Kyllen. Supreme Fleet and the
+Perimeter Guard is to turn their own technological prowess against them. So
+far, no one has been able to take advantage of this potential weakness.
+
+Until now. . .
+
+===== Page 4 =====
+
+CONTROL PAD
+
+RIGHT BUTTON Y BUTTON
+
+X BUTTON
+
+GO?
+
+A BUTTON
+
+B BUTTON
+
+STARFIELD
+STATS
+
+SHIP INFO
+
+CONTROLLER FUNCTIONS
+
+CONTROL PAD
+
+Controls the cursor
+
+"B-BUTTON |
+
+Selects an action ~~.
+
+A-BUTTON.
+
+Cancels an action
+
+~X-BUTTON
+
+LONG
+RANGE
+SCAN
+
+STATUS
+
+OPTIONS
+
+UPGRADES
+
+The Main Control Menu is activated by pressing the B-BUTTON. Each selection
+is described below. Using the Control Pad, move the arrow over the desired
+selection and press the B-BUTTON once again. Choices not currently accessible
+are shaded. To cancel the Main Control Menu, or any other selection in the
+
+game, press the A-BUTTON.
+
+MOVE Moves a Rebel ship
+BATTLE Engages the enemy
+END Ends turn
+STARFIELD STATS Displays information on planets, star clusters, etc.
+SHIP INFO Displays information on a selected Rebel ship
+LONG RANGE SCAN Displays an overview of the entire battle
+FLEET STATUS Reports on the status of all ships
+EQUIPMENT UPGRADES Accesses special equipment (once found)
+
+OPTIONS Displays Secondary Options Screen
+
+===== Page 5 =====
+
+Main Control Menu
+
+Secondary Options
+
+PRIMARY AND SECONDARY OPTIONS
+
+Primary Options are available only at the start of the game
+
+START Begins a new game
+OPTIONS Accesses the Auxiliary Options
+PASSCODE Continues a previous mission
+
+CREDITS The Creators of War 3010
+Secondary Options are always available
+
+CONTINUE Resumes the battle
+OPTIONS Accesses the Auxiliary Options
+MISSIONS Restates the objective for the current level
+
+QUIT Surrenders your forces and ends the game
+
+we
+
+AUXILIARY OPTIONS
+
+These toggle switches are available during game play
+
+ANIMATIONS
+
+Battle View ON/OFF
+
+MUSIC
+
+ON/OFF & Selection
+
+ICONS
+
+Letters/Symbols
+
+At the completion of each level, you will be given a passcode. This allows
+
+you to continue the Revolution at a later date. To enter a passcode, go to the
+Primary Options Screen, select Passcode with the Control Pad, and press the
+B-BUTTON. Now enter the passcode. A page in the back of this manual is
+
+provided for easy storage of passcodes.
+
+Rebel Fleet :
+| :
+Su :
+
+Ship has fired
+but not moved
+
+Ship has moved
+
+but not fired am
+
+Ship has
+completed its turn —
+
+/
+
+This screen depicts the strategic layout of the battlefield. The Stellar Map is
+where you will position your Rebel forces against the evil Kyllen Brotherhood.
+You will encounter several different maps during your adventures. The path to
+victory rests in adopting new strategies to fit each battlefield. Once an attack is
+
+underway, the screen will change to the Battle View.
+
+Kyllen Fleet
+
+===== Page 6 =====
+
+Main Control Menu
+
+rubies
+Le
+
+Long Range Scan
+
+Each ship carries external sensors that will allow you to receive long-range stellar
+information. The Long Range Scan is activated from the Main Control Menu
+(see the above diagram). This readout displays every sector on the stellar map,
+revealing each ship and its location. Moving the cursor to a particular sector
+and pressing the B-BUTTON allows you to position yourself within that same
+location when returning to the map.
+
+Main Control Menu
+
+FAG
+a
+
+Fleet Status
+
+Bae
+
+Fleet Status reveals the condition of each ship in the current mission, including
+the number of ships that have been destroyed by both Rebel and Kyllen forces.
+Use the Control Pad (left + right) to toggle between sides.
+
+a
+
+The Battle View simulates the action as opposing warships trade salvos.
+
+The outcome of each battle relies on several factors. A ship’s endurance is
+dependent upon its shield integrity. However, firepower, range, and interstellar
+terrain, as well as other elements, must be considered when determining an
+overall strategy. :
+
+SHIELD POWER
+
+Deflector shields are the backbone of a ship’s defenses. Shield power for
+each side is displayed within the Battle View and the Ship Information Screen.
+Shields can only be recharged by docking with Space Ports or Refuelers. To
+accomplish this, simply place a ship next to one of the four pods located on
+each corner of a Space Port. To recharge shield power using a Refueler, place
+your Refueler adjacent to the shield-drained vessel and press the Y-BUTTON.
+Now select a ship to refuel and and press the B-BUTTON.
+
+===== Page 7 =====
+
+To view specific data concerning an individual ship, select Ship Information from
+the Main Control Menu. This information includes the ship’s designation, class,
+icon, weapons data, and shield integrity.
+
+Main Control Menu
+
+Starfield Statistics
+
+CIENTIFIC RESEARCH
+auLac ion Seog
+
+To receive a detailed analysis of interstellar terrain, place your cursor over any
+background object on the Stellar Map and select Starfield Statistics from the
+Main Control Panel. When viewing the data, keep in mind that all diameter
+measurements (DIA) are given in kilometers unless indicated otherwise (light
+years = LY). Density (DEN) is in grams/cubic cm.
+
+1Z
+
+The Ship Production Screen allows
+you to oversee the construction of new
+vessels. In order to build your armada,
+you must first gain control of a Space
+Station by placing two units over the
+bridge portion (the middle two spaces
+of the uppermost row). Once this has
+been accomplished, you can construct
+ships by selecting End Turn and then
+highlighting Build. When viewing the
+
+Ship Production Screen, use the
+Control Pad to select the vessel you wish to build and press the B-BUTTON to
+confirm its construction in Bay Area 1. Pressing the B-BUTTON again w
+construction in Bay Area 2. To cancel ship production, press down on the
+Control Pad, highlight a ship, and press the A-BUTTON. Note that each ship
+requires a fixed number of turns for completion.
+
+Main Control Menu
+
+You can search for top secret Kyllen technology by placing your scout vessels
+over the thousands of planets and moons scattered throughout the galaxy. Once
+an Upgrade has been found, select a ship, go to the Equipment Upgrades
+Screen, highlight your discovery, and press the B-BUTTON. Only one Upgrade
+can be applied to one ship for the duration of a level. Use them wisely.
+
+===== Page 8 =====
+
+© Listed below are the various terrain types that will be found during the
+course of your adventures. Each object can be viewed in greater detail by
+moving the cursor over the desired area and selecting Starfield Statistics
+from the Main Control Menu. Remember that each object possesses its
+own unique value that must be considered when constructing your strategy
+against the Kyllens. An object’s defensive condition (DFC on the Starfield
+Statistics) is rated from 0 (very poor) to 9 (excellent). When viewing the
+Starfield Statistics, it is important to note that the number after an E is the
+exponent of 10. For example, 6.3E 7 means 6.3 times 10 to the 7th power.
+An N before the exponent indicates a negative exponential value.
+
+Clear Space Port
+
+Space Station
+
+Major Nebula Minor Nebula lon Storm
+
+Red Gas Giant
+
+Red Terrestrial
+— Hot -
+
+Desert World
+
+Gray Gas Giant
+
+Gray Terrestrial
+- Cool -
+
+Frozen World
+
+Brown Gas Giant
+
+Brown Terrestrial
+— Temperate —
+
+Moon
+
+===== Page 9 =====
+
+Volcanic World
+
+Local Star
+
+Type Il Supernova
+
+Series A Ring Planet
+
+Series B Ring Planet
+
+Globular Cluster
+
+OpenCluster
+
+Asteroids
+
+FLEET
+
+TECHNICAL
+
+SPECIFICATIONS
+
+===== Page 10 =====
+
+Mavajin Disruptor |
+
+Diivec Shield Ls Novakore Class B NovaKore QuickFix
+Systems Model —Il maa | Anti-Matter Missile Laser Cannons ~~ Bal — with Dedicated
+2415 Generator Target Fix
+meee —— Diivec X2 Diivec M9 Blasters i
+Blaster Cannons Novakore
+| — Tripletrack
+< Railguns
+SheaTommi A NN SheaTommi | Diivec Shield | NovaKore
+Flux Torpedo AX-33 Heavy - Systems Model say ~DoubleTrack
+Laser Cannons | 6111 Generator Railguns
+4
+MAXIMUM SHIELD | WEAPON STRENGTH WEAPON RANGE MOVEMENT MAXIMUM SHIELD WEAPON STRENGTH WEAPON RANGE MOVEMENT
+INTEGRITY LONG SHORT LONG SHORT RANGE INTEGRITY LONG SHORT LONG SHORT RANGE
+40 55 70 4 1 3 60 60 75 5 1 2
+fagiiee| FLEET REPRESENTATION |Fy7/\\:fe)k LETTERS || 929210 sigeiasyay7-aeth | SYMBOLS
+ee eel STATISTICS a ee | 8 STATISTICS Ea ee
+VESSEL CLASSIFICATION | LUYRAM-CLASS LIGHT MARAUDER VESSEL CLASSIFICATION | NUURLICH-CLASS HEAVY MARAUDER
+LENGTH 30.3 meters LENGTH 252.5 meters
+HULL COMPOSITION UltraPlate L-205 HULL COMPOSITION Carliorr Optimum Grade A
+CREW 32 CREW 90
+TROOPS 20 — TROOPS 68
+ENGINE TYPE Novakore | Series D ENGINE TYPE Neksuun Flash SBL
+OFFENSIVE CAPABILITY | 2 SheaTommi AX-33 Heavy Laser Cannons OFFENSIVE CAPABILITY | 2 NovaKore QuickFix Laser Cannons
+Q Diivec X2 Blaster Cannons | 1 Mavajin Disruptor with Dedicated Target Fix
+1 NovaKore Class B Anti-Matter Missile 2 Diivec M9 Blasters
+1 SheaTommi Flux Torpedo 2 NovaKore DoubleTrack Railguns
+2 NovaKore TripleTrack Railguns
+DEFENSIVE CAPABILITY Diivec Shield Systems Model 2415 DEFENSIVE CAPABILITY Diivec Shield Systems Model 6111
+
+===== Page 11 =====
+
+Plax Model 4000
+Deflector ~—]
+
+Generator
+
+Diivec 5.15
+——t
+Laser Cannons
+
+Plax Medium 4
+
+er Rear Blaster
+
+NovaKore
+[— Reaction 63
+Missile Launchers
+
+Mavajin Seek
+
+Disruptor |
+
+Diivec Riposte
+Cannons
+
+Neksuun MRS |
+
+SheaTommi Twin
+
+" fanercer Cannon
+
+NovaKore
+Reaction 86 Missile
+. Launchers
+
+NovaKore Mavajin s- Plax Model 9090
+Double Track —~] l~ Medium GH Torpedo Launcher Deflector
+‘ Laser Cannons Disruptors | Generator
+MAXIMUM SHIELD WEAPON STRENGTH WEAPON RANGE MOVEMENT MAXIMUM SHIELD | WEAPON STRENGTH WEAPON RANGE MOVEMENT
+| INTEGRITY LONG SHORT LONG SHORT RANGE INTEGRITY LONG SHORT LONG SHORT RANGE
+35 65 55 3 1 4 70 65 4 1 4
+|
+| aagee| FLEET REPRESENTATION |By/i\:.eb tapiem| FLEET REPRESENTATION |Ry/i\:fe)55
+ee STATISTICS UE ee Eee STATISTICS SEE a
+i VESSEL CLASSIFICATION | GAADEN-CLASS LIGHT DESTROYER VESSEL CLASSIFICATION | J/FFETS-CLASS HEAVY DESTROYER
+LENGTH 162.3 meters LENGTH 941.5 meters
+HULL COMPOSITION UltraPlate F-9 HULL COMPOSITION Carliorr Optimum Grade B
+CREW 54 CREW 88
+| TROOPS 30 — TROOPS 56
+ENGINE TYPE NovaKore II Series R | ENGINE TYPE Novakore Il Series C
+OFFENSIVE CAPABILITY 4 Diivec 5.15 Laser Cannons OFFENSIVE CAPABILITY 2 NovaKore Reaction 86 Missile Launchers
+2 NovaKore Reaction 63 Missile Launchers | 2 Diivec Riposte Cannons
+I 2 NovaKore DoubleTrack Laser Cannons 1 SheaTommi Twin Enforcer Cannon
+| 2 Mavajin Medium GH Disruptors 1 Neksuun MRS Torpedo Launcher
+1 Plax Medium 4 Rear Blaster 1 Mavajin Seek Disruptor
+DEFENSIVE CAPABILITY Plax Model 4000 Deflectors DEFENSIVE CAPABILITY Plax Model 9090 Deflectors
+
+===== Page 12 =====
+
+Plax Virtual Armor Diivec A1 Defender Plax Overkill JJ Neksuun Flame
+Model D Turrets Disruptor Battery Torpedo Launchers
+cnc ~ A — Th ij
+ia ~ Mavajin LaserSpill Deloreg Combat — Neksuun
+Attack Cannons Shield Generator — Deliverance Il
+Quad Batteries
+MAXIMUM SHIELD WEAPON STRENGTH WEAPON RANGE MOVEMENT MAXIMUM SHIELD WEAPON STRENGTH WEAPON RANGE MOVEMENT
+INTEGRITY LONG SHORT LONG SHORT RANGE INTEGRITY LONG SHORT LONG SHORT RANGE
+50 55 4 1 6 40 60 65 4 1 4
+tape | FLEET REPRESENTATION |[7/"\:{e) E> FLEET REPRESENTATION |BS/\:ie)k5
+DEO swmsres UE an Bp a siatisties,
+VESSEL CLASSIFICATION | BUZRE-CLASS LIGHT PREDATOR VESSEL CLASSIFICATION | PAREF-CLASS HEAVY PREDATOR
+LENGTH 104.8 meters LENGTH 202 meters
+HULL COMPOSITION UltraPlate H-721 HULL COMPOSITION NovakKore Special
+CREW Q4 CREW 50
+TROOPS 18 4 TROOPS 42
+ENGINE TYPE Diivec 2.93 Turbo ENGINE TYPE Novakore Il Series T
+OFFENSIVE CAPABILITY 2 Mavajin LaserSpill Attack Cannons OFFENSIVE CAPABILITY 2 Neksuun Flame Torpedo Launchers
+2 Diivec A1 Defender Turrets . 2 Neksuun Deliverance I] Quad Batteries
+1 Plax Overkill JJ Disruptor Battery
+DEFENSIVE CAPABILITY Plax Virtual Armor Model D DEFENSIVE CAPABILITY Deloreg Combat Shields
+
+===== Page 13 =====
+
+i
+
+| | Mavajin MI-LC
+
+Plax Model 4075 Mavajin Seek Sorrim Energies
+
+Polite Defense A Deflector Disruptor Invisible UltraPlate
+
+Package -——~ Generator |— Generator
+
+|
+
+r Neksuun C-12-GA Diivec 4.9 Novakore
+
+Puncture Cannons Anti-Pest — | — Reaction 33
+Blaster Cannon Missile Launchers
+
+a
+
+MAXIMUM SHIELD | WEAPON STRENGTH WEAPON RANGE MOVEMENT MAXIMUM SHIELD | WEAPON STRENGTH WEAPON RANGE MOVEMENT
+INTEGRITY LONG SHORT LONG SHORT RANGE INTEGRITY LONG SHORT LONG SHORT RANGE
+
+55 55 3 1 3 65 65 3 1 2
+
+anit) FLEET REPRESENTATION |By7/1\ fe) k eagiace) FLEET REPRESENTATION |Fy/\\:fe)h
+
+fi Ste“ SratisTes I ieee i a  StarISTES |
+
+i VESSEL CLASSIFICATION | L/W-CLASS LIGHT CRUISER VESSEL CLASSIFICATION | GUZY-CLASS HEAVY CRUISER
+LENGTH 89.5 meters LENGTH 133.7 meters
+HULL COMPOSITION Bohhon Plating HULL COMPOSITION Carliorr Optimum Grade H
+| CREW 38 CREW 65
+| TROOPS 28 ——e TROOPS . 48
+
+ENGINE TYPE Novakore | Series M ENGINE TYPE Neksuun Flash VCL
+
+OFFENSIVE CAPABILITY 2 Neksuun C-12-GA Puncture Cannons OFFENSIVE CAPABILITY 2 NovaKore Reaction 33 Missile Launchers
+
+1 Mavajin MI-LC Polite Defense Package . 1 Mavajin Seek Disruptor
+1 Diivec 4.9 Anti-Pest Blaster Cannon
+DEFENSIVE CAPABILITY Plax Model 4075 Deflectors DEFENSIVE CAPABILITY Sorrim Energies Invisible UltraPlate
+
+===== Page 14 =====
+
+NovaKore QuickFix
+Laser Cannons NJ
+
+SheaTommi Deluxe
+
+Missile Packages coal
+
+Novakore Triplekill
+Disruptor Battery
+
+Diivec Shield
+Systems Model
+2410 Generator
+
+—~
+
+Diivec BlasterFire
+
+Cannons 7
+
+Deloreg 931 ——
+Crosshair Cannons
+
+Neksuun
+|— Deliverance X
+Quad Battery
+
+— Plax Model 9000
+Deflector
+Generator
+
+MAXIMUM SHIELD
+
+INTEGRITY LONG
+
+WEAPON STRENGTH
+
+WEAPON RANGE MOVEMENT
+SHORT LONG SHORT RANGE
+
+MAXIMUM SHIELD
+
+INTEGRITY LONG
+
+WEAPON STRENGTH
+
+WEAPON RANGE
+SHORT LONG SHORT
+
+MOVEMENT
+RANGE
+
+50
+
+50 2 1 5
+
+50
+
+50 1 1
+
+7
+
+LETTERS
+
+FLEET REPRESENTATION |B) /\:te)&)
+
+fame FLEET REPRESENTATION
+
+SYMBOLS
+
+Ei eee FA
+
+STATISTICS (0a eee
+
+VESSEL CLASSIFICATION
+
+RESA’KO-CLASS SLAVE TRANSPORT
+
+LENGTH
+
+85 meters
+
+HULL COMPOSITION
+
+UltraPlate C-9
+
+CREW
+
+40
+
+TROOPS
+
+22
+
+ENGINE TYPE
+
+Diivec 1.2 Turbo
+
+OFFENSIVE CAPABILITY
+
+2 SheaTommi Deluxe Missile Packages
+2 NovaKore QuickFix Laser Cannons
+1 Novakore Triplekill Disruptor Battery
+
+DEFENSIVE CAPABILITY
+
+Diivec Shield Systems Model 2410
+
+2 eeeeterieene Sy, by
+
+STATISTICS
+
+TE el ere ve
+
+VESSEL CLASSIFICATION
+
+KAMBOR-CLASS WARSHIP TRANSPORT
+
+LENGTH
+
+512.4 meters
+
+HULL COMPOSITION
+
+Nylex Steel
+
+CREW
+
+34
+
+TROOPS
+
+)
+
+ENGINE TYPE
+
+SheaTommi B 938
+
+OFFENSIVE CAPABILITY
+
+2 Diivec BlasterFire Cannons
+2 Deloreg Crosshair Cannons
+
+1 Neksuun Deliverance X Quad Battery
+
+DEFENSIVE CAPABILITY
+
+Plax Model 9000 Deflectors
+
+===== Page 15 =====
+
+Neksuun CVLN —{t
+Light Blasters
+
+Plax 144
+|— Anti-Intrusion
+Shield Generator
+
+Neksuun
+Protector Shield
+Generator ——
+
+Novakore DDT8
+L- Laser Cannons
+
+Mavajin COM-66 m NovaKore DDA5
+Missiles Laser Cannons
+MAXIMUM SHIELD | WEAPON STRENGTH WEAPON RANGE MOVEMENT
+INTEGRITY LONG SHORT LONG SHORT RANGE
+50 55 4 1 6
+
+MAXIMUM SHIELD WEAPON STRENGTH WEAPON RANGE MOVEMENT
+INTEGRITY LONG SHORT LONG SHORT RANGE
+15 50 50 3 1 8
+aagiaice| FLEET REPRESENTATION |B\7\\:.o i
+
+[eee STATISTICS EES ee [se]
+VESSEL CLASSIFICATION | SEVAT-CLASS LIGHT SCOUT
+
+LENGTH 12.7 meters
+
+HULL COMPOSITION UltraPlate R-18
+
+CREW Q
+
+TROOPS 0 we
+ENGINE TYPE Deloreg Runner VIII
+
+OFFENSIVE CAPABILITY 2 Neksuun CVLN Light Blasters
+
+DEFENSIVE CAPABILITY Plax 144 Anti-Intrusion Shield
+
+LETTERS
+
+FLEET REPRESENTATION |By/iiolk
+
+eee eee Be
+
+STATISTICS
+
+EGS) ieee |)
+
+VESSEL CLASSIFICATION
+
+NOJA-CLASS HEAVY SCOUT
+
+LENGTH 39.2 meters
+
+HULL COMPOSITION UltraPlate Z-12
+
+CREW 10
+
+TROOPS 0
+
+ENGINE TYPE Diivec 2.21 Turbo
+
+OFFENSIVE CAPABILITY 2 NovaKore DDT8_Laser Cannons
+
+9 NovaKore DDA5 Laser Cannons
+2 Mavajin COM-66 Missiles
+
+DEFENSIVE CAPABILITY
+
+Neksuun Protector Shield
+
+===== Page 16 =====
+
+Mavajin LT-10 Plax Model 4025
+
+| Novakore Rapid
+
+Fire Blasters See
+
+—— Disruptor
+
+Deflector
+Generator ——
+
+Mavajin COM-66 |
+
+va Missiles
+
+Neksuun FIT Force
+Screen Generator 8
+
+m Neksuun DualFire
+Laser Cannons
+
+I SheaTommi
+HotShot Repeating
+Blasters
+
+Mavajin Medium
+MS Disruptors -—~
+
+Diivec DoubleGun
+Laser Cannons —~l
+
+MAXIMUM SHIELD | WEAPON STRENGTH WEAPON RANGE MOVEMENT MAXIMUM SHIELD | WEAPON STRENGTH WEAPON RANGE MOVEMENT
+INTEGRITY LONG SHORT LONG SHORT RANGE INTEGRITY LONG SHORT LONG SHORT RANGE
+50 55 3 1 8 50 55 4 1 5
+| | - ead
+ante) FLEET REPRESENTATION |B/\\:fe) ky agiacm| FLEET REPRESENTATION |Fy7\\:[e) RS
+ke eee Es STATISTICS. (Ue Pe Statistics = (UJ
+VESSEL CLASSIFICATION | KIRST-CLASS LIGHT FIGHTER VESSEL CLASSIFICATION | AHSAT-CLASS MEDIUM FIGHTER
+LENGTH 10.6 meters LENGTH 25.5 meters
+HULL COMPOSITION UltraPlate E-18 HULL COMPOSITION UltraPlate E-20
+CREW 3 CREW 8
+TROOPS 0 a TROOPS L 0
+ENGINE TYPE Deloreg Runner II ENGINE TYPE Diivec 1.0 Turbo
+OFFENSIVE CAPABILITY 2 Novakore Rapid Fire Blasters OFFENSIVE CAPABILITY 2 Mavajin Medium MS Disruptors
+2 Diivec DoubleGun Laser Cannons ‘ 2 Mavajin COM-62 Missiles
+2 SheaTommi HotShot Repeating Blasters 2 Neksuun DualFire Laser Cannons
+1 Mavajin LT-10 Disruptor
+DEFENSIVE CAPABILITY Neksuun FIT Force Screens DEFENSIVE CAPABILITY Plax Model 4025 Deflectors
+
+===== Page 17 =====
+
+| Plax Rear Guard
+
+Turret Blaster ——J
+
+Mavajin SixPak
+Assault Batteries —J
+
+Novakore SIMLock
+i— Disruptor
+
+j~ Haadin Defensive
+Screen Generator
+
+Plax Model 4050
+Deflector —__|
+Generator
+
+L—
+
+Diivec
+OmniTurret ST
+
+|
+
+1 Plax Rear Guard Blaster Turret
+1 Novakore SIMLock Disruptor
+
+MAXIMUM SHIELD | WEAPON STRENGTH WEAPON RANGE MOVEMENT
+INTEGRITY LONG SHORT LONG SHORT RANGE
+50 60 3 1 3
+haeite| FLEET REPRESENTATION SYMBOLS
+
+Ge ee itl. smristics (Rib
+VESSEL CLASSIFICATION | KALR-CLASS HEAVY FIGHTER
+
+LENGTH 36.7 meters
+
+HULL COMPOSITION Bohhon Plating
+
+CREW 15
+
+TROOPS 0) a
+ENGINE TYPE Novakore | Series H
+
+OFFENSIVE CAPABILITY 2 Mavajin SixPak Assault Batteries
+
+DEFENSIVE CAPABILITY
+
+Haadin Defensive Screens
+
+MAXIMUM SHIELD | WEAPON STRENGTH WEAPON RANGE MOVEMENT
+INTEGRITY LONG SHORT LONG SHORT RANGE
+35 _ 50 50 1 1 7
+
+LETTERS FLEET REPRESENTATION |By7/\\:fe) ky]
+i ee ee STATISTICS [Eee
+VESSEL CLASSIFICATION | TAEM’NAV-CLASS REFUELER
+LENGTH 78.1 meters
+HULL COMPOSITION Nylex Steel
+CREW 20
+TROOPS e)
+ENGINE TYPE SheaTommi-B 333
+
+OFFENSIVE CAPABILITY
+
+1 Diivec OmniTurret, ST
+
+DEFENSIVE CAPABILITY
+
+Plax Model 4050 Deflectors
+
+===== Page 18 =====
+
+q
+
+Main Bridge NY
+
+Hangar Bay
+
+| Kyllen FTL Comm
+Supreme Engine Relays
+MAXIMUM SHIELD WEAPON STRENGTH WEAPON RANGE MOVEMENT
+INTEGRITY LONG SHORT LONG SHORT RANGE
+100 70 99 5 1 1
+
+faniaee| FLEET REPRESENTATION SYMBOLS
+CII [O01 STATISTICS WO ane
+VESSEL CLASSIFICATION | DELL-CLASS MOTHERSHIP
+LENGTH 1.39 kilometers
+HULL COMPOSITION Kyllen Ultimate 001 Reinforced
+CREW 944
+TROOPS 688 ss
+ENGINE TYPE Plax 99 Supreme
+OFFENSIVE CAPABILITY 44 NovaKore TripleTrack Railguns
+28 NovaKore DoubleTrack Railguns
+25 NovaKore QuickFix Laser Cannons
+12 Mavajin COM-66 Missile Launchers
+10 Diivec Incinerator Torpedo Launchers
+10 Mavajin Disruptors
+DEFENSIVE CAPABILITY 14 Plax Fortress 01 Deflector Generators
+
+>> Get to know your surroundings and use the environment to your
+
+V
+
+Y
+
+=> As commander of the Rebel forces, you must know what each vessel in
+
+advantage. Each object has different properties that will affect how well
+you can defend yourself. An asteroid field will conceal your fleet and make
+them extremely difficult to hit but flying through nebulae and leaving visible
+dust trails will only make you an easy target. Remember, interstellar terrain
+will play a large role in shaping your victories... or sealing your defeat.
+
+Study your mission objectives carefully. Identify critical points on each
+Stellar Map. Ignorance does not become a leader.
+
+Use the Pandora Warship Transport to its fullest advantage. This vessel will
+enable you to quickly transport slow-moving ships (such as the Kronos)
+across the Stellar Map. To move a ship inside the Pandora, select that
+vessel, place it over the Warship Transport, and press the B-BUTTON. To
+remove a vessel, select the Pandora and press the X-BUTTON. One turn
+must pass before another ship can enter the Pandora after it has unloaded
+a previous vessel. Furthermore, only one transport can carry one ship at a
+time. Be careful not to lose a loaded transport, however, for you will also
+lose the vessel being transported.
+
+Keep a sharp eye out for Equipment Upgrades. They are primarily located on
+planets and moons. Remember, only one upgrade can be used by one ship
+during a mission. Don’t foolishly waste an upgrade early on only to end up
+wishing that you had saved it. Because of the tremendous stress such
+experimental devices have on standard-issue equipment, upgrades burn out
+quickly and, therefore, do not carry over into following levels. In addition, you
+must protect your scout ships. Only they can discover hidden technology!
+
+To capture a Space Station, you must have two ships over the bridge
+section at the same time (the middle two spaces of the uppermost row).
+You are not, however, required to keep them there. Space Ports do not
+need to be captured to be used. They are automated facilities pro-
+grammed to respond to Kyllen transponder codes and since your fleet is
+comprised of captured Kyllen vessels, you too can recharge your shield
+energy there. Keep in mind that if you capture a Space Station while the
+Kyllens are constructing a ship, you will be able to pick up where they left
+off and receive that ship. ‘
+
+your fleet is capable of. Ship performance varies greatly with each class and
+understanding which one to send into a battle is crucial in achieving
+ultimate victory.
+
+strategies. Remember, the fate of humanity is in your hands... 45 |
+
+===== Page 19 =====
+
+LEVEL PASSCODE
+
+For hints and tips, call
+
+= 1-900-420-2WIN <X
+
+$1.29 per minute, touch-tone phone only. s >
+If you are under 18, have your
+parent’s permission before making this call.
+
+7 NeY mr |
+_. 2g NN _ K ALiLALWN
+For further adventures, visit our web site at ,
+
+va
+
+> http://www.apigames.com=<X i. Pe | KCC RZ QT
+
+LEVEL
+
+PASSCODE
+
+===== Page 20 =====
+
+API® Limited Warranty
+
+API warrants to the original purchaser only that the Game Pak provided
+with manual and the software program coded on it will perform in
+accordance with the descriptions in this manual when used with the
+specified equipment, for a period of 90 days from the date of
+purchase. If the program is found defective within 90 days of purchase,
+it will be replaced. Simply return the Game Pak to API or its authorized
+dealer along with a dated proof of purchase. Replacement of the
+Game Pak, free of charge to the original purchaser (except for the cost
+of returning the Game Pak) is the full extent of API’s liability.
+
+THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES, WHETHER ORAL
+OR WRITTEN, EXPRESS OR IMPLIED. ALL IMPLIED WARRANTIES, INCLUDING
+THOSE OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE,
+IF APPLICABLE, ARE LIMITED IN DURATION TO 90 DAYS FROM THE DATE
+OF PURCHASE OF THIS PRODUCT.
+
+API shall not be liable for incidental and/or consequential damages for
+the breach of any express or implied warranty including damage to
+property and, to the extent permitted by law, damages for personal
+injury, even if API has been advised of the possibility of such damages.
+Some states do not allow the exclusion or limitation of incidental or
+consequential damages or limitations on how long an implied warranty
+lasts, so the above limitations or exclusions may not apply to the
+purchaser.
+
+ae
+
+This warranty shall not be applicable to the extent that any provision of You Are The Last Line Of Defense! son cane wsasms can
+this warranty is prohibited by any federal, state or municipal law which SUPER NINTENDO & PES _1;900-420- -2WIN
+‘ J per minute, touch-tone phone only.
+
+cannot be preempted. This warranty gives the purchaser specific legal
+
+If you are under 18, have your parent's
+permission before making this call.
+
+FOR ORDERS ONLY CALL
+
+1 -800- 404- 4334
+
+ADVANCED PRODUCTIONS, INC. =a OVERNIGHT DELIVERY AVAILABLE
+1230 Hempstead Turnpike ° Franklin Square, NY 11010
+(516) 328-7000
+
+PRODUCTIONS, INC.
+
+rights and the purchaser may also have other rights which vary from \ ADVANCED ray
+AT
+borer
+
+state to state.

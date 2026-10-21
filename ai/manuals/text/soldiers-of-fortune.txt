@@ -1,0 +1,1358 @@
+# Soldiers of Fortune
+source: https://archive.org/details/snes_manual_archive
+pdf: Soldiers of Fortune ( USA ).pdf
+region: USA
+pages: 21
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+Spectrum HoloByte —
+
+===== Page 2 =====
+
+Ss OF FORTUNE ==>!
+
+™
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION & PRECAUTIONS BOOKLET CAREFULLY
+BEFORE USING YOUR NINTENDO® HARDWARE
+SYSTEM OR GAME PAK.
+
+LICENSED BY
+
+NINTENDO, SUPER NINTENDO ENTERTAINMENT SYSTEM AND THE OFFICIAL
+SEALS ARE REGISTERED TRADEMARKS OF NINTENDO OF AMERICA INC.
+©1991 NINTENDO OF AMERICA INC.
+
+Seal of Qi
+
+uality |
+
+THIS OFFICIAL SEAL IS YOUR ASSURANCE THAT NINTENDO HAS APPROVED
+THE QUALITY OF THIS PRODUCT. ALWAYS LOOK FOR THIS SEAL WHEN BUY-
+ING GAMES AND ACCESSORIES TO ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO ENTERTAINMENT SYSTEM. ALL NINTENDO PROD-
+UCTS ARE LICENSED BY SALE FOR USE ONLY WITH OTHER AUTHORIZED
+PRODUCTS BEARING THE OFFICIAL NINTENDO SEAL OF QUALITY.
+
+© 1993 The Bitmap Brothers. All Rights Reserved. Soldiers of Fortune is a
+trademark of Omega Group, Lid. and is used under license. Spectrum
+HoloByte is a registered trademark of Spectrum HoloByte, Inc. Other trade-
+marks are the property of their respective holders.
+
+Ss5| OF FORTUNE Ss)
+
+™
+
+Table of Contents
+
+I. Getting Started .
+The THE BAStes ce cE 8 Reka oot eRe tear ee ae certo
+HL. The Background ........... cece cece eee e eset ee ccteeeeeteneneeeeney 4
+IN, Tlie! Se CU eceee este eeeetpepnmwomanesen sapieoecranes normaitoeonamioanastramnik 6
+Select Players screen
+Select Game screen ..
+
+Vi The Quest xienst stir enstent heath premarin ie netthinsears
+Controlling your Soldier
+Shooting Weapons 0.0... cence eee eee eeeneeeies
+
+PO Wet Up iessessswersseew sesmoss camwanenaiaaesanansanoauteazioewaaees
+Using Special Abilities sevesscsssesderensemencrccesteerrences 12
+Special Powers...
+Special Abilities...
+Changing SpecialsADilitiesiistrctisceivieticredvhteshsdtewrnsy 15
+Using:the GRU/s Special Abilities st..dctieicteberns: 15
+
+Activating Nodes
+Picks wp 1te ri Sizes ensitact eeu tnazatynecreonenwreninesenndesonnseateses
+LeVél BORUS SCEEET...s..0nnscpodeesrendenpancdisontermena Senshi women tm: 18
+Equip Character SCreen..........cccccceceesteteeteteetenereees 19
+VI. The Soldiers
+VII. The Worlds
+VILL. The Nasties ......00cccccccccccccceccsecceececeteceeeeseteeecesenseetessnsetees 28
+DG The! Tis wea ct eceres cexegsesstisuase means aaminaremecedosemanecswansircaet ons oeeesnied 30
+
+===== Page 3 =====
+
+SS OF FORTUNE) ==;
+
+Credits
+
+Kenegade Software and The Bitmap
+
+Game Design:
+
+Graphic Design:
+Graphic Conversion:
+Original Code:
+
+Code Conversion:
+
+Game Music & SFX:
+Title Music:
+Product Managment:
+
+Brothers
+
+Simon Knight and Eric
+Matthews
+
+Dan Malone
+
+Herman Seranno
+
+Steve Cargill
+
+Rob Trevellyan, Gordon Fong
+and Mike Montgomery
+Richard Joseph
+
+JO!
+
+Graeme Boxall
+
+Spectrum HoloByte
+
+Product Manager:
+Testing:
+
+Manual Writer:
+Manual Design:
+Marketing:
+
+Special Thanks:
+
+Kurt Boutin
+
+Robert Wong and Tod Semple
+Robert Giedt
+
+Carrie Galbraith
+
+Rita Harrington, Kathryn Lynch
+and Leslie Simmons
+
+Clyde Grossman, Daniel Lucas,
+Marisa Ong, Ann Pratt, Joel
+Voelz and the Moore & Price
+Design Group
+
+I. Getting Started
+
+Before playing Soldiers of Fortune, there are a few things
+youll need to do:
+
+Control Pad START Button X Button
+A Button
+
+SELECT Button B Button
+
+1. Set up your Super Nintendo Entertainment System
+according to the instructions given in your Super
+Nintendo system manual.
+
+2. Plug a Controller into Controller Slot 1 on your SNES.
+If you have a second Controller and want a two-player
+game, plug the other Controller into Controller Slot 2.
+
+3. Make sure the Power Switch is OFF.
+
+Plug the Soldiers of Fortune Game Pak into the console
+and press it down firmly, then turn the Power Switch
+ON.
+
+5. After the title sequence, press any button to go to the
+first Setup screen.
+
+Important Note: If you don’t see the introduction screens
+when you turn your SNES on, turn the Power Switch to
+OFF again. Check all connections and make sure you set up
+your SNES properly. Next, remove the Soldiers of Fortune
+Game Pak and re-insert it, label facing the front. Finally,
+turn the power back ON again. Always turn the power OFF
+before removing or inserting a SNES Game Pak.
+
+===== Page 4 =====
+
+Controller Slot 1
+
+Ss OF FORTUNE, ==)
+
+II. The Basics
+
+Getting started in Soldiers of Fortune:
+
+Controls
+
+7 SNES Game Pak
+
+Controller Slot 2
+
+Control Pad
+
+Moves your Soldier around the screen
+Run over stuff to pick it up
+
+A Button
+
+Changes your current Special Ability if you have more
+than one in your inventory
+
+B Button
+
+Shoots your normal weapon
+You have an unlimited number of shots
+Power-Ups make your weapon more deadly
+
+X Button
+
+In a one-player game, it changes Player 2’s Special
+Ability (if he has more than one)
+
+Ss OF FURTUNE ==
+
+Y Button
+
+Activates the current Special Ability
+Each use of a Special Ability requires one Special Power
+
+L Button
+
+Rotates your Soldier 12.5° counter-clockwise
+
+K Button
+
+Rotates your Soldier 12.5° clockwise
+
+START Button
+
+Pauses the game
+
+SELECT Button
+
+In a one-player game, it allows you to switch to Player
+2’s Special Ability
+
+Notes
+
+Blast the silver towers (Nodes) to open exits
+
+There’s tons of things to pick up, so grab everything you
+can
+
+Shoot anything that moves, you can’t destroy anything
+of value
+
+Shoot things that don’t move, some things must be shot
+to be activated
+
+Gather as much money as possible, you'll need it later
+on
+
+Since there’s no time limit, be cautious so monsters can’t
+surprise you
+
+===== Page 5 =====
+
+vss| OF FORTUNE, == 4
+
+il. The Background
+
+To fully understand your mission, a little background might
+be of assistance...
+
+History of the World
+
+England, 1887. Just south of Berkshire, a prehistoric
+dinosaur is found trapped in a rock quarry. Scholars from
+around the globe were sent out to research the beast, only to
+determine that it is not a life form known to man. The mys-
+tery had begun.
+
+At the same time, strange events began to ripple across the
+globe. In Paris, a theater was suddenly swallowed by the
+earth. Half the residents of Bavaria were turned into raven-
+ous wolves, roaming the countryside in packs, stalking their
+next innocent prey. Across the Atlantic, the newly assem-
+bled Statue of Liberty rose from its granite moorings and
+waded its way into the heart of New York, crushing build-
+ings and anything else in its path.
+
+Great Britain, the source of the disturbances, is plunged into
+anarchy. Landscapes began to change violently, and mutat-
+ed beasts wandered everywhere. City folk moved to the
+country to escape the devastation, while the army turned
+
+into roaming bandits, preying on helpless citizens. Things
+looked bleak.
+
+Baron Fortesque and the
+Chaos Engine
+
+Unbeknownst to the world, the source of these chaotic ema-
+nations was a remote area of moors just south of
+Cornwall—the home of Baron Fortesque. The Baron’s lust
+for knowledge and power drove him to hire the finest scien-
+tists and architects money could buy. When one of his
+
+(4)
+
+researchers came up with plans for a massive steam-driven
+engine that would achieve the alchemists’ dream of trans-
+muting matter, the Baron imprisoned the researcher.
+Fortesque then began building the engine himself for his
+own nefarious schemes.
+
+The Baron was able to transform the engine into a breeder of
+chaos, radically altering time and space. Without warning,
+Fortesque was imprisoned by the machine, transforming
+him into a hideous beast in the process. Fueling itself, the
+Chaos Engine continued to wreak devastating effects on the
+world.
+
+Enter the Soldiers
+
+The creator of the engine escaped from the Baron’s dank cel-
+lars and revealed to the world the location of the Chaos
+Engine. With the world’s arsenal in disarray, an elite strike
+force was necessary to infiltrate the area and destroy the foul
+machine.
+
+A group of mercenaries was called forth, each with special
+abilities and extraordinary qualities. These Soldiers all swore
+to put a stop to the menace of the Engine and free the world
+from its chaotic turmoil. Two Soldiers could penetrate the
+estate grounds undetected and, with skill and a little luck,
+get to the cellars and obliterate the machine.
+
+On their last night together, each Soldier prepared his
+weapon and readied himself for the battle that could be his
+last. Two of them were going to enter the mad Baron’s estate
+with the fate of the world in their hands. They would either
+destroy the Chaos Engine or it would destroy them.
+
+You are that last hope. Good luck, Soldier.
+
+===== Page 6 =====
+
+==> OF FORTUNE +=
+
+IV. The Setup
+
+Before you begin playing Soldiers of Fortune, there are a few
+screens you'll need to travel through. On all these screens,
+the Control Pad moves between options, the B Button
+selects an option, while the A Button returns you to the first
+screen of the game, the Select Players screen.
+
+Intro screens
+
+The first things you'll see are the title and history screens.
+Press any button to go to the Select Players screen.
+
+Select Players screen
+
+Choose “One Player & CPU” if you are playing a single-
+player game or “Two Players” if you are going to use both
+Controllers to play a two-player game.
+
+Select Game screen
+
+“Start New Game” will bring you to the Hire Character
+screen, while “Enter Password” will bring you to the
+Password screen.
+
+Password screen
+
+If you are continuing a previous game, this is where you can
+enter a password to begin where you left off. Use the
+Control Pad to move around the screen and the B Button
+to select. Passwords are given at the end of each World. If
+you lost your last life in a game and had completed at least
+one World, you can find your most recent password already
+entered. Select “End” to exit this screen.
+
+Hire Character screen
+
+On this screen, you select the two Soldiers you want to
+assault the Baron’s mansion and eliminate the Chaos Engine.
+Player 1 selects first, then Player 2. If this is a one-player
+game, Player | can select the character that the computer
+(CPU) will play.
+
+Use the Control Pad to move around this screen and the B
+Button to select a Soldier.
+
+Attributes. Money Remaining Player 1
+’ Player 2
+“aij (or CPU)
+
+== Cost to hire
+: Soldier
+
+Weapon =“
+
+Weapon’s [serra
+
+relative power Exit button
+
+Special ability inventory Soldiers available
+
+Attributes
+
+Each Soldier has four major attributes that distinguish him
+from the other Soldiers. These are (from top to bottom):
+Skill, Health, Speed and Wisdom.
+
+===== Page 7 =====
+
+SS OF FORTUNE o>
+
+= OF FORTUNE!) ==
+
+Reading the Attribute Bars
+The bars to the right of the attribute icons serve three func-
+tions. From left to right they show an attribute’s Current
+Level, Current Potential and Absolute Potential.
+
+Current Level
+This green portion of the bar shows the current amount of
+the particular attribute. When you increase this ability on
+the Equip Character screen, the length of the green bar will
+increase as well.
+
+Current Potential
+This orange portion of the bar shows the current maximum
+of the particular attribute. This potential can be increased by
+purchasing levels of Skill on the Equip Character screen.
+
+Absolute Potential
+This blue portion of the bar shows the maximum attainable
+ability that can be reached with a particular attribute. A
+character’s Current Potential will never exceed his Absolute
+Potential.
+
+Skill
+Skill is your Soldier’s overall character level. It is the most
+important attribute since it affects all the other attributes.
+Increasing a character’s Skill will increase the Absolute
+Potential of the other three attributes. The level of Skill also
+determines when you can purchase Power-Ups and addi-
+tional Special Abilities.
+
+Health
+
+Health is a reflection of your Soldier’s life level. The less
+Health your Soldier has, the weaker he is and the easier it is
+for him to lose a life.
+
+Speed
+Speed determines how fast your Soldier can move. The
+higher the Speed, the quicker he can get from place to place.
+
+Wisdom
+Wisdom is used only for computer-controlled Soldiers in a
+single-player game. The higher the Wisdom level, the
+smarter the CPU character will act and the farther he can
+see.
+
+Weapon power
+This bar represents the current power level of the Soldier’s
+standard weapon. Purchasing or running over Power-Ups
+will increase this level. The higher the power level, the dead-
+lier the shots are.
+
+Special Ability inventory
+These icons represent what Special Abilities a Soldier has to
+choose from. Initially, there will be only one Special Ability,
+but more can be purchased from the Equip Character screen
+after every other Level (if the Soldier’s Skill is high enough).
+
+===== Page 8 =====
+
+$s OF FURTUNE) ==>
+
+Special Power storage
+
+Each Soldier can carry up to six Special Powers. You need a
+Special Power to activate your character’s Special Ability.
+Special Powers can be purchased or found in the game.
+
+Soldiers for hire
+
+Use the Control Pad to select a Soldier from the small por-
+traits in the lower right corner of the screen. When the light
+above a portrait is lit, that Soldier's characteristics will be
+displayed in the rest of the screen. Press the B Button to
+select that Soldier.
+
+Exit button
+
+After you select the Soldier for Player 2, press the B Button
+to exit this screen. Press the B Button on the next screen to
+begin your mission.
+
+V. The Quest
+
+Now that you have your party assembled, it’s time to
+embark on your quest to eliminate the Chaos Engine.
+During your journey, you will travel through four Worlds,
+each World containing four Levels.
+
+Each Level has at least one exit. To open the exit, you'll
+need to shoot the silver towers called Nodes located
+throughout the Level. Collecting Silver Keys may open path-
+ways to locate these Nodes.
+
+Player 1’s score
+
+Every two Levels, your party will get to take a break and re-
+equip. On the Equip Character screen (page 19), you can
+purchase new equipment and train your Soldier to become
+more proficient with his weapons and skills.
+
+Node Counter Money Player 2’s lives left
+
+Player 1's 6 Player 2’s
+Health y <—_
+Player 1’s lives “figs Health *
+left
+Player 2 (Thug)
+Player 1
+(Brigand)
+
+Player 1’s special powers —_—Player 2’s special powers
+
+Controlling your Soldier
+
+Use the Control Pad to move your Soldier around the
+screen. He can both move and shoot in all eight compass
+directions. Also, in a single-player game, the computer-con-
+trolled player (Player 2) will follow you around the screen. If
+he’s injured and there’s food nearby, he'll grab some to
+increase his Health. He'll also pick up coins to add to the
+party treasure.
+
+Shooting weapons
+
+Use the B Button to shoot your weapon. Holding the button
+down will allow constant fire in the direction you're facing.
+You've got unlimited ammo, so fire at will.
+
+===== Page 9 =====
+
+Ss OF FORTUNE! ==>
+
+Power-Ups
+To increase the damage of your Soldier’s weapon, you
+need to collect or purchase Power-Ups. If you run over
+a Power-Up in the game, you'll hear the words
+“POWER-UP!” and your weapon power will be
+increased by one.
+
+Using Special Abilities
+Use the Y Button to activate a Special Ability. When you
+use a Special Ability, you'll hear “SPECIAL ACTIVATED!”
+You must have at least one Special Power to activate a
+Special Ability.
+
+Special Powers
+Special Powers are what allow you to activate your
+Special Abilities. A Soldier can carry up to six at a time.
+You can either purchase them in the Equip Character
+screen or you can find them in the game. When you
+run over a Special Power in the game, you'll hear “SPE-
+CIAL POWER!” and it will add one to your total.
+
+Special Abilities
+Each Soldier has a pool of Abilities that he can acquire with
+increased skill. Soldiers have the potential to attain up to
+four different Special Abilities depending on the character.
+There are also one-time Special Abilities lying about in the
+game. See page 21 for complete details on Soldiers and their
+Abilities.
+Air Burst
+
+This Ability launches a 360° aerial attack on all crea-
+tures and objects one floor above your Soldier’s present
+floor. The shots are made up from the maximum power
+and damage of your Soldier's regular weapon.
+
+S35) OF FORTUNE! ss
+
+Bomb
+When activating this Ability, a large Bomb flies out
+from the Soldier's hand in the direction he is pointing.
+Upon impact, eight pieces of shrapnel fly from it, hit-
+ting everything in their path. The Bomb can be thrown
+up or down floors with equal effectiveness.
+
+Distract Monster
+The Distract Monster Special Ability places a blinking
+object at the Soldier's feet that monsters are attracted to.
+They'll ignore the Soldiers for a five second countdown,
+after which they'll chase you around again.
+
+Dynamite
+If a Soldier activates this Ability, bundled sticks of
+Dynamite fly from the Soldier in the direction he is fac-
+ing. It will destroy any monster it lands on, but is more
+effective when thrown in an area. When not thrown on
+a monster, after a short delay, it will wipe out all mon-
+sters on the screen.
+
+First Aid
+The First Aid Special Ability will restore some of the
+activating Soldier’s lost Health. If the First Aid Ability is
+found in the game, it will fully heal both Soldiers to
+their current maximum Health.
+
+Freeze
+When the Freeze Ability is activated, all monsters on
+and off the screen will stop in their tracks. This only
+lasts for a four second countdown, so shoot ’em while
+you can!
+
+Map
+The Map is a useful Ability if you are lost in a particular
+Level. When activated, a map of the entire Level will
+appear. The B Button exits the Map.
+
+===== Page 10 =====
+
+Ground Mines
+This Ability will drop a blinking Mine at the Soldier’s
+feet. It will destroy any monster that runs over it.
+
+Molotov
+When the Molotov is activated, a flask of flammable
+liquid is tossed from the Soldier’s hand. On impact, it
+bursts into a semicircle of fireballs that continue travel-
+ling the direction of the impact. The Molotov can be
+thrown either up or down floors as well.
+
+Party Power
+When Party Power is activated, the stars in the Special
+Ability window will flash. Both Soldiers will be given
+maximum Speed and maximum weapon Power-Up for
+a five second countdown.
+
+Kepel Monster
+The Repel Monster Ability will make all monsters on
+the screen run in terror from that Soldier. After a three
+second countdown, the monsters regain their courage.
+
+Shield
+
+When the Shield Ability is activated, the shields in the
+Special Ability window will flash and both Soldiers will
+become invulnerable to monsters and their shots. It
+also enables the Soldiers to run through monsters,
+destroying them and collecting their money. Monsters
+dispatched this way aren’t worth any points. This
+Ability lasts for a five second countdown.
+
+Shot Burst
+Similar to the Air Burst Ability, the Shot Burst shoots a
+360° ring of bullets when activated. These bullets fly
+out on the floor you are currently on and are made up
+of the maximum power and damage of your Soldier’s
+regular weapon.
+
+Changing Special Abilities
+Use the A Button to change your Special Ability (if you have
+purchased one or more from the Equip Character screen).
+Each Soldier has a different number of Special Abilities he
+
+can purchase. Check each Soldier’s description for what he
+can have.
+
+Using the CPU’s Special Abilities
+
+In a single-player game, you can also use any of the comput-
+er-controlled player’s Special Abilities. Simply press the
+
+SELECT Button to switch your Special Ability with the one
+the CPU has.
+
+If you want to change the CPU’s Ability before switching
+(assuming he has more than one), hit the X Button until
+you find the one you want. Then press the SELECT Button
+as usual to switch Abilities.
+
+Activating Nodes
+
+While on your journey, you will run across a number of sil-
+ver towers called Nodes. These Nodes open the exits to the
+next Level. Shoot the towers to activate them. When activat-
+ed, a bolt of lightning will shoot out from the top and the
+silver shell will disappear. The now gold-colored Node will
+begin pulsating, and you'll hear “NODE ACTIVATED!”
+
+===== Page 11 =====
+
+ss OF FORTUNE) >=
+
+™
+
+The Node Counter at the top of the game screen lets you
+know how many more Nodes you have to activate to open
+an exit to the next Level. When you have activated the last
+Node necessary to exit a Level, youll hear “EXIT OPEN!”
+The Soldier who exits first gets additional points.
+
+One more thing. After the Node Counter has dropped to
+zero, there may be more Nodes available to activate.
+Shooting these additional Nodes may open other exits more
+advantageous to leave from. These will be labelled with a
+letter: “B,” “C,” etc. As a rule of thumb, the higher lettered
+exits are the best.
+
+Shoot everything
+Keep your finger on that trigger! All creatures are out to get
+
+you, so you gotta blast them first. You can’t harm your fel-
+low Soldier or shoot anything valuable, so don’t worry.
+
+Some pillars and walls can be shot to provide access to
+other parts of the Level. Look for distinctive features as
+clues. Also, generators can be shot to stop monsters from
+
+appearing.
+Pick up items
+
+Grab everything you can. Some items may make monsters
+appear and others may make passages open or close. You
+may not be able to pick up all the items in a Level, so don’t
+worry if you can’t seem to accumulate that perfect score.
+
+Silver Keys
+
+These keys help you find the exit by opening passages
+and can make crucial items appear.
+
+Ss| OF FORTUNE! ss4
+
+™
+
+Gold Keys
+
+These keys open up secret or bonus areas where you
+might find Food, Coins, Power-Ups or more! Watch for
+passages opening up nearby. Be careful: there may be
+monsters guarding the loot.
+
+Coins
+
+You need money to increase Attributes and purchase
+Special Abilities, Special Powers, Power-Ups and Extra
+Lives. Gold Coins are worth £10 while Silver Coins are
+worth £5.
+
+Food
+
+Food restores your Health. The higher your Health, the
+more Food it will take to raise your Health. Hf you
+haven’t taken damage, the Food won't help, so you
+might want to wait before picking it up. When you're
+playing a single-player game, the CPU Soldier may go
+after the food if he’s hurt, so don’t be surprised.
+
+Extra Life
+
+Running over one of these gives you an Extra Life.
+There aren’t many in the game, so watch carefully for
+them. You also get a free Extra Life every 7,000 points.
+
+Telephone
+When you run over a Telephone, the other player
+(whether a CPU player or human player) will be imme-
+diately teleported to that location. This allows you to
+avoid being trapped by moving walls.
+
+===== Page 12 =====
+
+$s| OF FORTUNE) ==
+
+Death Zone Token
+
+Death Zone Tokens (DZTs) do many things. They save
+your position in the Level so that if both Soldiers lose a
+life, they will return to the last hit DZT. If no DZTs
+have been hit on a Level, the two Soldiers will return to
+the beginning of the Level or last hit Telephone.
+
+In a two-player game, whenever one of the Soldiers has lost
+a life, hitting a DZT will return that dead Soldier to play
+(assuming he has extra lives left).
+
+In a one-player game, hitting a DZT will return the CPU
+player to play if he has a life left. If the human player loses a
+life, both Soldiers will return to the last hit DZT.
+
+When a Death Zone Token is hit, you'll hear “PLAYERS
+SAVED!”
+
+Level Bonus screen
+
+This screen appears upon completion of a Level and shows
+what was accomplished by the Soldiers during that Level.
+The bars on the left half of the screen show the total possi-
+ble monsters/Coins/etc. available on that Level on the left,
+and the amount eliminated/collected/etc. by the party on the
+right. The bottom number is a total percentage for all things
+on that Level.
+
+OF FORTUNE!) s3)o
+
+™
+
+Player 1 column Player 2 column
+
+Monsters
+% of work for
+
+Money each soldier
+
+% of work completed Party split of money
+
+The right half of the screen shows the breakdown by Soldier
+for who did what. The total number destroyed/collected/etc.
+is split between the two Soldiers. At the bottom is the per-
+cent of work completed on that Level and the total party
+treasure split between the two Soldiers.
+
+Equip Character screen
+
+At the end of every other Level, you have the opportunity to
+resupply and strengthen your Soldiers.
+
+If one of the two Soldiers (or CPU player) lost his last life on
+the previous Level, the other player will have the option to
+resurrect him for £500. Generally this is a good idea.
+
+===== Page 13 =====
+
+Buy Skill Buy Extra Life Player 1
+
+Extra a a pe Player 2
+t
+° ; Buy Health
+Buy Speed
+
+Money left &
+
+Complete Training
+Buy Power-Up
+
+|
+Special Ability Special Power Buy Special Buy Special
+inventory storage Power Ability
+
+Remember that when you purchase Skill, you need to
+increase your other Attributes before buying more levels of
+Skill. Selecting Complete Training will look at your current
+cash situation and select the best Attributes to increase. It
+won't buy any Special Abilities, Power-Ups or Special
+Powers.
+
+Player 1 gets to equip first. Use the Control Pad and the B
+
+Button to move around and buy things. When you're fin-
+ished, go to the Exit button and press the B Button.
+
+nis OF FORTUNE) >>
+
+VI. The Soldiers
+
+This hardy group contains some of the fiercest, strongest,
+smartest and most powerful warriors the land has to offer.
+The Soldiers take no flak from anyone and are experts at
+what they do. And what they do could save humanity.
+
+Each Soldier has strengths and weaknesses. You should be
+able to accomplish your objective with any pair of them. Pay
+attention. Knowing who you'll work with might make all the
+difference.
+
+Mercenary
+
+He’s the leader of the bunch. From defending politi-
+cal leaders to out-and-out frontal assaults, he’s done
+it all. A veteran of many battles, he picked up his
+taste for explosives from skirmishes in western
+Africa. The Mercenary may be strong, but some say
+he’s not in his right mind.
+
+The Mercenary’s weapon is the fearsome and mighty Gatling
+gun. It can pump out tons of rounds in a split second. He’s a
+good all-around Soldier to have—no great strengths, but no
+major weaknesses, either. The Special Abilities he has
+include two explosive devices and a medical pack to heal
+himself. He’s no fool.
+
+Characteristics
+Health: Average |
+Speed: Average |
+
+Wisdom: Average
+
+Weapon: — Gatling gun |
+
+Ammunition: — Multiple small bullets |
+
+Weapon Damage:
+
+Average
+
+===== Page 14 =====
+
+Ss OF FORTUNE! ==>
+
+Maximum Weapon Power: Wide scatter | Gentleman
+Special Abilities (3): | Bomb, Ground Mines, The Gentleman makes his living with his brains, not
+First Aid his brawn. He’s made an impressive living through
+the lucrative import trade, but still occasionally hires
+
+* himself out for a little rough and tumble. The
+Brigand Gentleman is a favorite with the women and fancies
+
+Never one to take part in “just causes,” the loot that himself a crack shot with his flame pistol.
+
+the Baron’s mansion was reported to hold prompted
+
+the Brigand to join the group. Normally, he prefers The Gentleman may not have the most robust health or the
+to make his living fleecing local travellers of their most powerful weapon, but he was a track star in school
+hard-earned wealth. Hey, this guy ain’t no Robin and can run with the best of them. The Special Abilities he
+Hood. can have are useful for avoiding sticky situations. Why fight
+
+; : : if you don’t need to?
+The Brigand uses a long-distance rifle with average power.
+
+The man moves fast when he needs to, because in his busi- Characteristics
+ness it literally pays to be light on your feet. He’s also fairly Health: Low
+smart, but don’t expect him to cover your back every time. Speed: High
+He isn’t in this for your health, you know. Wisdom: High
+wg Weapon: Flame pistol
+Characteristics inlaneent oi Flame eis (shots pass
+Health: — Average through monsters)
+Speed: Average Weapon Damage: Low
+Wisdom: Average Maximum Weapon Power: — Double
+Weapon: Rifle Special Abilities (4): Map, Distract Monster,
+
+Ammunition: — Single bullets
+Weapon Damage: _ Average
+Maximum Weapon Power: Quadruple °
+Special Abilities (3): Shot Burst, Molotov, | Navvie
+
+Distract Monster This hard-working, blue-collar man has built up his
+
+massive strength building roads and canals for the
+
+government. During his stint with the army, the
+
+Navvie built his weapon of weapons, the shoulder
+
+cannon. He may not be as quick of wit, but he’s the
+strongest of the six Soldiers.
+
+Repel Monster, Party Power
+
+===== Page 15 =====
+
+=s| OF FORTUNE) +>
+
+The Navvie’s monstrous cannon fires shots strong enough to
+take out even the mightiest beast. He’s also got two of the
+most destructive Specials available: the ever-potent
+Dynamite and the lethal Shot Burst. Don’t mess with this
+character!
+
+Characteristics
+Health: High
+Speed: Low
+
+Wisdom: Low
+Weapon: Cannon
+Ammunition: Large single shells
+Weapon Damage: High
+Maximum Weapon Power: = Quadruple
+Special Abilities (2): | Dynamite, Shot Burst
+
+Thug
+
+Hideously deformed, the Thug is rarely seen in pub-
+lic. His usual haunts are the nighttime alleys and
+side streets of London. He’s also been known to do
+some “collecting” for the neighborhood gangs.
+Intelligence has never been the Thug’s strong point,
+but his shotgun is more than a match for almost any
+monster.
+
+Though he doesn’t possess great speed, the Thug can with-
+stand a tremendous number of attacks before going down.
+The only Specials he can carry are ones that inflict massive
+damage. Careful with that lit Molotov!
+
+Characteristics
+
+Health: — High
+Speed: Low
+
+Wisdom: Low
+Weapon: = Shotgun
+Ammunition: Multiple small shells
+Weapon Damage: High
+Maximum Weapon Power: Wide scatter
+
+Special Abilities (2): Molotov, Air Burst
+
+Scientist
+
+Without a doubt, the Scientist is the smartest of all
+the Soldiers. For years, he’s been secreted away in a
+remote area of northern England, preferring to tinker
+away with his experiments. He’s also dabbled in the
+art of weapon creation, producing the curious but
+powerful Lightning gun.
+
+The Scientist’s greatest assets are his quickness and intelli-
+gence. What he lacks in sheer power, he definitely makes up
+for with his speed and defensive Special Abilities. The First
+Aid kit he carries makes him a most valuable addition to the
+team. Just watch where you stick that needle, bub.
+
+Characteristics
+Health: Low
+Speed: High
+
+Wisdom: High
+Weapon: Lightning gun
+Ammunition: — Energy bolts (shots pass
+through monsters)
+Weapon Damage: Low
+Maximum Weapon Power: _ Single
+Special Abilities (4): First Aid, Map, Shield,
+Freeze
+
+===== Page 16 =====
+
+fSs=s\ OF FORTUNE
+
+Vil. The Worlds
+
+Each World consists of four distinct Levels. At the end of
+every other Level, you will have the chance to re-equip your
+Soldiers as discussed previously. At the end of each World,
+you will receive a password that you can write down for
+later play. With a password, you can pick up at the begin-
+ning of the last World finished without having to revisit pre-
+viously completed Worlds.
+
+The Forest
+
+Strange mutations of both flora and fauna abound in this
+world. Molten pits of liquid earth permeate the land, and
+the stench of rotting decay is overwhelming. The monsters
+have not become as mutated this far from the Engine, main-
+ly consisting of elephantine varieties of ordinary creatures.
+
+The landscape is dotted with dense forests, islands and rock
+fortresses. Once meticulously tended, these magnificent
+grounds have seen better days. Be especially wary of the
+swamp plants; they can be deadly if approached.
+
+The Workshops
+
+Rusting metal gantries connect the outer buildings and
+workshops of the Fortesque mansion. This is where the mad
+Baron worked and devised his twisted plans and kept his
+researchers in shabby hovels fit only for rats and other ver-
+min.
+
+Buildings made of igneous rock spanned by iron bridges
+cover this World. Beneath can be seen the massive pipes
+carrying steam power to the infernal Engine and transport-
+ing foul, brackish waste to the surrounding countryside.
+
+pss OF FORTUNE s=sS
+
+Fortesque Mansion
+
+Ornate sculptures and intricate stonework punctuate the
+grandeur that in another era was the land’s finest mansion.
+Once upon a time, the Baron, and his ancestors before him,
+held many a decadent party in these lofty halls.
+
+The Chaos Engine has been hard at work here, as evidenced
+by the animated decor and general disrepair of the building.
+Savage beasts spring up from every conceivable naok, while
+the bottomless pits seemingly entice unwanted visitors to
+their doom.
+
+The Cellars
+
+Dark and foreboding, the cellars house the immense
+machinery of the Chaos Engine. Akin to a sewer, this dark
+and gloomy place harbors pools of stagnant liquid in and
+amongst its dimly lit interior. The weighty valves and pipes
+keep water and unwanted visitors from areas of the cellar.
+
+Huge cables attach to the walls, fueling the Engine’s self-
+made security system. The incessant throbbing and pound-
+ing of the generators grows ominously stronger the closer
+one gets to the Hall of Machines. Within the Hall lies the
+Chaos Engine and the completion of the quest.
+
+===== Page 17 =====
+
+OF FORTUNE, S=))
+
+Vill. The Nasties
+
+Fearsome and half-crazed monsters populate the estate and
+its grounds. Once normal inhabitants of the neighboring
+moors and citizens of neighborhood villages were trans-
+formed into abominations. They now roam the countryside,
+possessed by a mind not fully their own, searching for
+escape...and food.
+
+Some of the more nightmarish creatures are spawned from
+the earth itself, emerging from craters or trapdoors in the
+floors. These generators can be destroyed by a concentration
+of fire.
+
+Since none have ever returned from the Baron’s Workshops
+on World 2, the following lexicon of monster information
+may be a bit sketchy. You'll find these beasts throughout
+World 1. It never hurts to be informed.
+
+Lumbering Stone Golems
+
+These ponderous, rock-like creatures lumber about
+slowly and are fairly easy to avoid. Each of them carries
+a seemingly endless supply of huge boulders to throw
+at enemies. The Stone Golems live both in the forest
+and in the rocky crags of the moors.
+
+Dreaded Chaos Beetles
+
+The Beetles are pesky little bugs that scuttle around
+erratically, scarfing anything in their path. Although
+they can’t shoot anything, their quick movements and
+group attacks make them a deadly annoyance.
+
+Giant Marsh Frogs
+
+Giant Marsh Frogs are always extremely ravenous and
+can be found lurking about throughout this World.
+Like the Beetles, they can’t shoot anything, but they can
+
+jump incredible distances and almost always attack in
+packs.
+
+Spitting Swamp Plants
+These deformed floral nightmares don’t move around,
+and it’s a good thing! These plants sense the motion of
+living things and belch forth four diagonal shots when
+approached. Shoot these things early and often.
+
+Hulking Lizardmen
+
+The Lizardmen stomp about in both the moors and in
+its stone structures. They fire medium speed rocks, but
+can be quite stupid at times. Still, they pose a formida-
+ble threat when encountered in numbers.
+
+Lobbing Mini-Volcanoes
+
+Volcanoes lob single green blobs of some indistinguish-
+able, yet deadly, mass high into the air. Don’t be under-
+neath when they land! Fortunately, the Volcanoes don’t
+move and can be easily destroyed.
+
+===== Page 18 =====
+
+Ss OF FORTUNE, =>
+
+IX. The Tips
+
+Following is a list of hints and tips you can use while play-
+ing Soldiers of Fortune. Some of them are fairly specific, so
+you might not want to read this section as it might decrease
+the enjoyment of figuring out everything for yourself.
+
+Grab as much money as you can early on. You'll need it
+to equip yourself and your partner.
+
+The order in which you pick things up may make a dif-
+ference in what rooms you can access and what other
+items you can collect. It'll also affect which exits open
+and when they open.
+
+Don’t shoot the monster generators. Wait until a mon-
+ster appears, shoot it, grab the loot and repeat until the
+generator disappears.
+
+Revisit areas you've already cleared out. There may be
+something there for you to grab...or shoot.
+
+In two-player games, it’s beneficial to share Extra Lives,
+Power-Ups and Special Powers.
+
+Shoot monsters diagonally and ambush them. They
+don’t shoot as well when they’re rounding corners.
+
+Try to find additional exits. Taking the first exit you
+find may not lead to the location with the greatest
+rewards.
+
+Keep your eye out for clues to help you through a
+Level. There are quite a few of these hints.
+
+Always write down your passwords (at the end of each
+World). This will save you lots of time in completing
+the game.
+
+a
+
+™
+
+Try to build up your Skill Attribute quickly. It will let
+you buy cool Specials and more weapon Power-Ups.
+
+Keep your CPU partner alive in a one-player game. He
+can cover your back, and you can use his Special
+Abilities and Special Powers.
+
+Always look for secret rooms. Sometimes taking an item
+may open a passage, other times simply walking in a
+certain area may provide another route and could also
+seal off a previously accessible area.
+
+Try to maintain full Health before entering the Equip
+Character screen (at the end of every two Levels).
+Otherwise, you'll have to purchase your lost Health
+before increasing your other Attributes.
+
+For an alternative to the basic one-player game, try a
+two-player game and let Player 2 die off. When the
+game asks you to resurrect your partner, just say no.
+You'll be able to increase your Attributes and Abilities
+
+more quickly, but you'll have to do all the work in the
+Level.
+
+If you solve the game with one set of Soldiers, try a dif-
+ferent pair. The Thug and Mercenary is the hardest
+combination to win with.
+
+===== Page 19 =====
+
+90-Day Warranty
+
+Spectrum HoloByte warrants to the original consumer pur-
+chaser that this Game Pak (“PAK”) (not including Game Pak
+Accessories or Robot Accessories) shall be free from defects
+in material and workmanship for a period of 90 days from
+date of purchase. If a defect covered by this warranty occurs
+during this 90-day warranty period, Spectrum HoloByte will
+repair or replace the PAK, at its option, free of charge.
+
+To receive this warranty service:
+1. Do not return your defective Game Pak to the retailer.
+
+2. Notify Spectrum HoloByte’s Customer Support depart-
+ment of the problem requiring warranty service by call-
+ing: (510) 522-1164. Our Customer Support department
+is in operations from 9:00 AM to 5:00 pM Pacific Standard
+Time, Monday through Friday.
+
+3. If the Spectrum HoloByte Customer Support
+Representative is unable to solve the problem by phone,
+he will provide you with a Return Authorization num-
+ber. Simply record this number on the outside packaging
+of your defective PAK, and return your PAK postage
+paid, at your risk of damage, together with your dated
+sales slip or similar proof-of-purchase within the 90-day
+warranty period to:
+
+Spectrum HoloByte
+Customer Support Department
+Attn: Soldiers of Fortune SNES
+2490 Mariner Square Loop
+Alameda, CA 94501
+This warranty shall not apply if the Game Pak has been
+damaged by negligence, accident, unreasonable use, modifi-
+cation, tampering, or by other causes unrelated to the defec-
+tive materials or workmanship.
+
+a2)
+
+Warranty Limitations
+
+ANY APPLICABLE IMPLIED WARRANTIES, IN-
+CLUDING WARRANTIES OF MERCHANTABILITY
+AND FITNESS FOR A PARTICULAR PURPOSE, ARE
+HEREBY LIMITED TO NINETY DAYS FROM THE
+DATE OF PURCHASE AND ARE SUBJECT TO THE
+CONDITIONS SET FORTH HEREIN. IN NO EVENT
+SHALL SPECTRUM HOLOBYTE BE LIABLE FOR
+CONSEQUENTIAL OR INCIDENTAL DAMAGES RE-
+SULTING FROM THE BREACH OF ANY EXPRESS OR
+IMPLIED WARRANTIES.
+
+The provisions of this warranty are valid in the United
+States only. Some states do not allow limitations on
+how long an implied warranty lasts or exclusion of
+consequential or incidental damages, so the above limi-
+tations and exclusion may not apply to you. This war-
+ranty gives you specific legal rights, and you may also
+have other rights which vary from state to state.
+
+===== Page 20 =====
+
+==| OF FORTUNE =>
+
+Notes |
+
+GET a
+Se: CLUE!
+
+Stuck? stumped?
+
+Help is at your
+fingertips!
+
+Passwords, Hints and Secret Locations
+are just a phone call away. Get the latest
+info on what’s hot and what’s coming
+
+soon from Spectrum HoloByte
+
+cal 900-773-HINT
+
+$.95 per minute. “7 If you’re under 18,
+don’t forget to ask your parents before you
+call. Hintline requires a Touch-Tone telephone
+and is only available in the U.S.
+
+gp
+/ rene 2490 Mariner Square Loop
+loloByte = Alameda, CA 94501
+
+===== Page 21 =====
+
+BITMAP
+BROTHERS
+
+Spectrum
+HoloByte
+2490 Mariner Square Loop
+Alameda, CA 94501 PRINTED IN JAPAN

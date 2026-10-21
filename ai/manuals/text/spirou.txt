@@ -1,0 +1,664 @@
+# Spirou
+source: https://archive.org/details/snes_manual_archive
+pdf: Spirou ( EU ).pdf
+region: EU
+pages: 26
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-AUOP-FAH
+
+SUPER NINTENDO.
+
+MODE D’EMPLOI
+HANDLEIDING
+
+INFO 1 ;
+FO | ®
+
+ENTERTAINMENT SYSTEM
+
+===== Page 2 =====
+
+ATTENTION: VEUILLEZ LIRE ATTENTIVEMENT LA NOTICE “INFORMATIONS ET
+PRECAUTIONS D'EMPLOI” QUI ACCOMPAGNE LA CONSOLE NINTENDO®, LA
+CARTOUCHE DE JEU OU LES ACCESSOIRES AVANT DE LES UTILISER.
+
+WAARSCHUWING: LEES EERST ZORGVULDIG DE BROCHURE MET CONSU-
+MENTENINFORMATIE EN WAARSCHUWINGEN DOOR DIE BIJ DIT PRODUKT
+IS MEEVERPAKT VOORDAT HET NINTENDO®-SYSTEEM, DE SPELCASSETTE
+OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+& ‘ Original ~
+
+|Gintendo)|
+
+Seal of /
+\ Quality 4
+
+\
+
+CE SCEAU EST VOTRE ASSURANCE QUE NINTENDO A
+APPROUVE CE PRODUIT ET QU'IL EST CONFORME AUX
+NORMES D'EXCELLENCE EN MATIERE DE FABRICATION,
+DE FIABILITE ET SURTOUT, DE QUALITE. RECHERCHEZ
+CE SCEAU LORSQUE VOUS ACHETEZ DES JEUX ET DES
+
+LICENSED BY ACCESSOIRES POUR ASSURER UNE TOTALE
+COMPATIBILITE AVEC VOTRE SUPER NINTENDO
+
+. @ ENTERTAINMENT SYSTEM.
+Nintendo
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT DOOR
+NINTENDO IS GECONTROLEERD EN DAT HET QUA
+NINTENDO ®, SUPER NINTENDO CONSTRUCTIE, BETROUWBAARHEID EN
+
+ENTERTAINMENT SYSTEM™, ENTERTAINMENTWAARDE VOLLEDIG AAN ONZE HOGE
+THE NINTENDO PRODUCT KWALITEITSEISEN VOLDOET. LET BIJ HET KOPEN VAN
+SEALS AND.OTHER MARKS SPELLEN EN ACCESSOIRES ALTIJD OP DIT ZEGEL,
+
+DESIGNATED AS "TM" ARE ZODAT U VERZEKERD BENT VAN EEN GOED WERKEND
+TRADEMARKS OF NINTENDO. SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+===== Page 3 =====
+
+
+
+===== Page 4 =====
+
+\
+
+32/4) Le "vidéo-colloque" internatio-
+j gaa?
+f My nal de la recherche scientifique
+pv,
+| se tient 4 New-York et regroupe
+des invités prestigieux.
+
+/ + Parmi eux, le Comte de Champignac, émi-
+nent mycologue et inventeur génial, doit
+a cette occasion dévoiler les secrets de
+chacune de ses merveilleuses inventions.
+
+Ht
+
+===== Page 5 =====
+
+LES COMMANDES
+
+ws MANETTE MULTIDIRECTIONNELLE
+Déplacer Spirou
+Déplacer le curseur dans les menus
+Prendre et poser un objet
+Pousser un objet
+
+BOUTON B
+Sauter
+Valider les options
+
+BOUTON Y
+Courir
+Sauter plus haut
+
+BOUTON START
+
+Commencer le jeu
+
+Faire une pause
+
+Valider les options -—— Bouton X
+
+|
+<2 SUPER NINTENDO
+
+Manette
+
+multi- 4
+directionnelle
+Sl
+
+ERECT 8 6STA
+
+Bouton Select —— iL. Bouton B
+
+Bouton Start Bouton Y
+
+===== Page 6 =====
+
+COMMENCER LE JEU
+
+Pour parcourir les différents. mondes avec Spirou et neutraliser
+l'ignoble Cyanure, introduisez la cartouche dans la console de
+jeu Super Nintendo Entertainment System et mettez l'interrup-
+teur sur ON. Vous verrez alors apparaitre successivement les
+écrans de copyrights, du choix de la langue et du menu de sélec-
+tion. Pour passer de I'un a l'autre de ces écrans, appuyez sur le
+Bouton Start. Si vous n'appuyez sur aucun Bouton, vous décou-
+vrirez des extraits du jeu. Lorsque vous étes prét 4 commencer
+une partie, appuyez sur le Bouton Start. Vous voyez alors appa-
+raitre le menu de sélection. Déplacez-vous dans ce menu avec
+la Manette Multidirectionnelle et validez avec le Bouton B.
+Vous pouvez commencer une partie en validant JEU. Sinon vous
+pouvez entrer dans le menu OPTIONS ou sur I'écran PASSWORD
+(MOT DE PASSE).
+
+OPTIONS
+
+Ce menu vous permet de modifier les paramétres suivants :
+* Le niveau de difficulté : Facile - Moyen - Difficile
+¢ La Musique :
+Vous pouvez |'écouter ou la supprimer : MARCHE / ARRET
+* Les tests : Vous pouvez écouter chacune des musiques du jeu.
+¢ Pour quitter ce menu d'options, validez EXIT (FIN) en utilisant
+le Bouton B.
+
+Pe EeW ORD nbd DE PASSE)
+
+Ce menu vous permet d'afficher
+
+un mot de passe qui vous aura
+
+été donné lors d'une précédente
+
+partie. Utilisez la droite ou le
+
+gauche de la Manette Multidirec-
+
+tionnelle pour déplacer le curseur
+
+sur le personnage désiré. Utilisez
+
+: le haut ou le bas de la Manette
+
+Multidirectionnelle pour sélectionner un des _personnages.
+Appuyez sur Start pour valider votre choix.
+
+===== Page 7 =====
+
+LES INVENTIONS DE CHAMPIGNAC
+
+Tout au long de votre aventure, des objets apparaitront :
+
+LE "MICROPULSEUR": Le "micropulseur" est un usten-
+
+sile qui a la forme d'un seche-cheveux et qui vous permet de
+rapetisser et de rendre microscopique les ennemis que vous ren-
+contrerez sur votre passage.
+
+LE "SABLOTRON" : Le “sablotron” est un objet
+
+qui ressemble a un parapluie et qui vous permet de ~*
+transformer la pierre en un tas de sable.
+
+LE "CHAMPIZENE" : Le "champizéne" est tres <>.
+
+utile dans la poursuite aérienne, vous pouvez le récu-
+pérer en détruisant certains robots de Cyanure. Si vous
+le manquez, vous risquez de tomber en panne de carburant.
+
+LA “FIOLE DE ZZ!" (FIOLE ORANGE):
+
+La "fiole de ZZ1" contient un engrais végétal surpuis-
+sant. Le liquide de cette fiole doit étre répandu sur la
+plante. :
+
+===== Page 8 =====
+
+La TETE DE SPiIROU
+Elle figure en haut 4 gauche de I'éeran de jeu.
+~~ "Sp Lorsque Spirou est blessé, l'une des cing barres
+at d'énergie qui la compose disparait. A la cinquiéme
+‘O% blessure, sa téte se met a clignoter et s'il est touché
+encore une fois, vous perdez une vie. Le chiffre en dessous de la
+téte de Spirou vous indique le nombre de vies qu'il vous reste.
+
+Le Coeur
+Il redonne un point de vie 4 Spirou.
+
+===== Page 9 =====
+
+ACTIONS POSSIBLES
+
+ae
+
+MARCHER : Pour marcher, utilisez les directions droite
+ou gauche de la Manette Multidirectionnelle (selon que
+vous désirez vous déplacer 4 gauche ou a droite).
+
+SAUTER : Pour sauter, appuyez sur le Bouton B. ce
+
+FAIRE UN GRAND SAUT : Pour faire un grand saut,
+courez puis appuyez sur le Bouton B, mais vous pouvez \°
+aussi appuyer simultanément sur les Boutons B et Y.
+
+ENTRER DANS UN LIEU : Pour pénétrer dans un immeuble ou dans
+une grotte, appuyez sur le haut de la Manette Multidirectionnelle.
+
+‘~~ SE BAISSER : Pour vous baisser, utilisez le bas de la
+22... Manette Multidirectionnelle.
+
+PLONGER "A TERRE" : Pour plonger a terre, courez puis ee.
+appuyez sur le bas de la Manette Multidirectionnelle. =A
+
+NAGER : Pour nager, appuyez plusieurs fois de suite
+sur le Bouton B. Puis pour vous diriger, utilisez la
+Manette Multidirectionnelle. {
+
+"
+
+4
+Pe)
+
+PRENDRE UN OBJET : Pour prendre un objet,
+baissez-vous et il est ramassé automatiquement.
+
+===== Page 10 =====
+
+OD
+WONIME
+oo
+.
+
+Pour placer un objet sur un mur, utilisez le haut de la Manette
+Multidirectionnelle.
+
+POSER UN OBJET : Pour poser un objet, utilisez le bas de la
+Manette Multidirectionnelle et l'objet sera posé automatiquement.
+
+»  UTILISER LE “MICROPULSEUR" : Pour utiliser le "micro-
+pulseur", appuyez sur le Bouton X, le "micropulseur" est
+"dégainé" et "activé". Des que vous relachez le Bouton
+X, le "micropulseur" est rangé automatiquement.
+
+coy
+
+Sz
+
+===== Page 11 =====
+
+Il faut avoir "l'oeil"
+
+et le bon pour pro-
+SBresser dans ce
+niveau qui deman-
+de adresse et
+réflexion.
+
+===== Page 12 =====
+
+AVERTISSEMENT SUR L'EPILEPSIE
+
+Alive avant toute utilisation d'un jeu vidéo par vous-méme ou votre enfant. Certaines personnes sont susceptibles de faire
+des crises d'épilepsie ou d'avoir des pertes de conscience a la vue de certains types de lumieres clignotantes ou d'élé-
+ments fréquents dans notte environnement quotidien, Ces personnes s'exposent a des crises lorsqu'elles. regardent cer-
+taines images télévisées ou lorsquielles jouent a certains jeux vidéo. Ces phénoménes peuvent apparaitre alors méme
+que le sujet n'a pas d'antécédent médical ou n'a jamais été confronté a une crise d’épilepsie. Si vous-méme ou un
+membre de votre famille avez déja présenté des symptomes liés a l'épilepsie (crise ou perte de conscience) en présen-
+ce de stimulations lumineuses, veuillez consulter votre médecin avant toute utilisation. Nous conseillons aux parents
+d'étre attentifs a leurs. enfants lorsqu'ils jouent avec des jeux vidéo. $i vous-méme ou votre enfant présentez un des
+symptimes suivants: vertige, trouble de la vision, contraction des yeux ou des muscles, perte de conscience, trouble de
+orientation, mouvement involontaire ou convulsion, veuillez IMMEDIATEMENT cesser de jouer et consulter un médecin.
+
+PRECAUTIONS A PRENDRE DANS TOUS LES CAS POUR L'UTILIGATION D'UN JEU VIDEO
+* Ne vous fenez pas trop prés de I'écran. Jouez @ bonne distance de l'écran de télévision et aussi loin que le per-
+
+met le cordon de raccordement.
+
+Utilisez de préférence les jeux vidéo sur un écran de petite taille.
+
+Evitez de jouer si vous étes fatigué ou si vous manquez de sommeil
+Assurez-vous que vous jouez dans une piéce bien éclairée.
+
+En cours d'utilisation, faites des pauses de dix 4 quinze minutes toutes les heures,
+
+===== Page 13 =====
+
+ally
+
+CONNAID PAS
+, UNIWUIVNAW?,
+
+CHAQUE SEMAINE,
+
+TU Y TROUVERAS
+
+LE PETIT SPIROU,
+CEDRIC, LAGENT 212,
+LES TUNIQUES BLEUES,
+LES FEMMES EN BLANC,
+KID PADDLE ET
+BEAUCOUP D'AUTRES.
+A8 PAGES INEDITES
+D'HUMOUR ET D'AVENTURE.
+
+Se
+‘a 1 \ ) = at
+VDECOUVRELE!
+RECOIS UN SPIROU =
+GRATUITEMENT , NOW
+
+EN REMPLISSANT CE COUPON
+
+ET EN LE RENVOYANT i PRENOM (2
+
+SOUS ENVELOPPE TIMBREE A: i DATE DE NAISSANCE ........- Tei Ad...
+
+EDITIONS DUPUIS ADRESSE ee
+
+52 RUE DESTRER (0) 2 oe ee ee
+B-6001 MARCINELLE.
+
+OUI, JE VEUX RECEVOIR CODEPOSTAL
+
+UN SPIROU i
+GRATUITEMENT! VILLE pees a oe
+
+===== Page 14 =====
+
+EL?)
+
+REMDEMD
+RELADINIEs
+
+ELKE WEEK VIND JE ER
+DE KLEINE ROBBE,
+STEFAN, AGENT 212,
+DE BLAUWBLOEZEN,
+VROUWEN IN 'T WIT
+EN VELE ANDEREN
+
+IN TERUG.
+
+32 ONUITGEGEVEN
+PAGINA’S BOORDEVOL
+HUMOR EN AVONTUUR.
+
+MAAK KENNIS!
+
+EN ONTVANG wiggies mee
+GRATIS : .
+EEN ROBBEDOES
+
+VUL DEZE COUPON
+IN EN STUUR HEM ONDER
+GEFRANKEERDE OMSLAG
+TERUG NAAR
+
+UITGEVERI) DUPUIS
+RUE DESTREE 52
+B-6000 MARCINELLE
+
+JA, 1K WIL GRATIS
+EEN ROBBEDOES
+ONTVANGEN !
+
+===== Page 15 =====
+
+
+
+===== Page 16 =====
+
+2/4) In New York wordt de internatio-
+8) nale "Video-Conferentie" van
+wetenschappelijk onderzoek gehou-
+den, waar vooraanstaande genodig-
+
+den bijeen zullen komen.
+
+\= Eén van deze genodigden is Graaf van
+a) Rommelgem, een beroemd mycoloog en
+geniaal uitvinder, die van plan was tijdens
+
+===== Page 17 =====
+
+HET BEDIENINGSPANEEL
+
+& VIERPUNTSDRUKTOETS
+Robbedoes verplaatsen
+De cursor in de menu's verplaatsen
+Voorwerpen neerleggen en oppakken
+Voorwerpen duwen
+
+KNOP B
+Springen
+De opties bevestigen
+
+KNOP Y
+Lopen
+Hoger springer
+
+STARTKNOP
+
+Het spel beginnen of pauzeren (tijdens het spel)
+-—— X-Knop
+
+LI
+<2 SUPER NINTENDO
+
+Vierpunts-
+
+druktoets x % yi
+RY
+
+EMECT = START
+
+Select-Knop ——
+
+Start-Knop -——
+
+===== Page 18 =====
+
+HET SPEL BEGINNEN |
+
+Om samen met Robbedoes de Graaf proberen te bevrijden en de
+gemene Cyanide uit te schakelen, breng je de ROBBEDOES cas-
+sette in het Super Nintendo Entertainment System en zet je de
+schakelaar op ON. Vervolgens verschijnen de schermen van het
+Copyright, de taalkeuze en het selektiemenu. Om van het ene
+naar het andere scherm over te gaan, druk je op de Startknop.
+Als je geen enkele knop indrukt, verschijnen uittreksels van het
+spel. Wanneer je klaar bent om een spel te beginnen, druk je op
+START. Vervolgens verschijnt het selektiemenu. Loop het menu
+door met de Vierpuntsdruktoets en bevestig met de B knop.
+
+Je kunt een spel starten door START te bevestigen. Maar je kunt
+ook in het menu OPTIONS (opties) of in het scherm PASSWORD
+(wachtwoord) gaan.
+
+OPTIES
+
+Met behulp van dit menu kun je de volgende parameters veranderen:
+
+* DIFFICULTY (moeilijkheidsgraad): EASY (gemakkelijk) -
+MEDIUM (gemiddeld) - HARD (moeilijk).
+
+¢ MUSIC (muziek): ON/OFF (muziek inschakelen of uitschakelen).
+
+* TEST: je kunt de spelmuziek afzonderlijk beluisteren.
+
+* Om het optiemenu te verlaten moet je EXIT (uitgang) met de
+B Knop bevestigen.
+
+Liiitidebambes alc bl tea
+
+Met behulp van dit menu kun je
+een wachtwoord afbeelden, dat
+tijdens een voorgaand spel aan
+“4 jou toegewezen was. Druk op de
+Vierpuntsdruktoets naar rechts of
+links om de cursor te verplaatsen
+op de gewenste figuur.
+Po st Druk op omhoog en omlaag van
+de Vig ipliticdniktosts‘c om één van de figuren te kiezen.
+Druk op START om je keuze te bevestigen.
+
+===== Page 19 =====
+
+DE UITVINDINGEN
+VAN GRAAF VAN ROMMELGEM
+
+Tijdens de bevrijdingsaktie van Robbedoes verschijnen er diver-
+se voorwerpen:
+
+DE “MICROPULSOR”: dit is een instrument in de vorm
+van een haardroger met behulp waarvan je de vijanden, die je
+
+onderweg tegenkomt, kunt verkleinen tot een "microscopisch"
+formaat.
+
+De “SABLOTRON": met behulp van de sablo- :
+tron, die op een paraplu lijkt, kun je een steen in een yt
+hoop zand veranderen.
+
+DE “CHAPPIZEEN"': is zeer handig tijdens de -—.,
+
+achtervolgingen in de lucht. Je kunt het bemachtigen i
+door een aantal robots van Cyanide te vernietigen. Als
+
+je het niet te pakken krijgt, loop je het risico dat je met te wei-
+nig brandstof komt te zitten.
+
+Het “FLege MET ZZ1" (ORANJE FLESJE):
+Dit flesje bevat een uiterst krachtige plantaardige meststof.
+Deze vioeistof moet over een plant uitgespreid worden. oD
+
+===== Page 20 =====
+
+HET HOOFD VAN ROOBBEDOES
+Deze wordt links bovenaan het scherm afgebeeld.
+Wanneer Robbedoes gewond is, verdwijnt één van
+e de vijf energieregels. Bij de vijfde verwonding, gaat
+‘O% het hoofd knipperen en als hij nog eens verwond
+wordt, verlies je een leven. Het cijfer onder het hoofd van
+Robbedoes geeft je het aantal levens aan, dat je nog over hebt.
+
+Het HART
+
+Geeft een levenspunt aan Robbedoes terug.
+
+===== Page 21 =====
+
+MOGELIJKE HANDELINGEN
+
+2
+
+LOPEN: Om te lopen, gebruik je de richtingen RECHTS
+<» of LINKS van de Vierpuntsdruktoets (al naar gelang je
+naar RECHTS of naar LINKS wilt lopen).
+
+dl
+YS «/
+
+SPRINGEN: Om te springen, druk je op de B-knop. oH
+
+a
+EEN GROTE SPRONG MAKEN: Om een grote sprong te 4
+
+maken, moet je lopen en dan op de B-knop drukken.
+Maar je kunt ook de knoppen B en Y $elijktijdig drukken. »
+
+ERGENS NAAR BINNEN GAAN: Om een gebouw of een grot in te
+gaan, druk je bovenaan op de Vierpuntsdruktoets.
+
+BUKKEN: Om je te bukken, gebruik je de
+yy»... Vierpuntsdruktoets naar beneden.
+
+OP DE GROND DUIKEN: Om op de grond te duiken,
+moet je eerst lopen en vervolgens op de Vierpunts-
+
+druktoets naar beneden drukken.
+
+‘+  ZWEMMEN
+<® Om te zwemmen, druk je meerdere keren op de
+B-knop en gebruik je de Vierpuntsdruktoets om
+
+de gewenste richting op te gaan. |
+
+EEN VOORWERP NEMEN
+Om een voorwerp te nemen, hoef je je alleen maar
+te bukken.
+
+===== Page 22 =====
+
+Om een voorwerp op een muur te plaatsen, gebruik je de
+Vierpuntsdruktoets naar boven.
+
+EEN VOORWERP NEERLEGGEN
+
+Om een voorwerp neer te leggen, gebruik je de
+Vierpuntsdruktoets naar beneden en het voorwerp wordt auto-
+matisch op de gewenste plaats neergelegd.
+
+ey = DE "MICROPULSOR" GEBRUIKEN
+‘Om de “micropulsor" te gebruiken: als je op de
+X-knop drukt, wordt de micropulsor "uitgepakt"
+en "geactiveerd". Zodra je de X-knop loslaat, wordt
+de "micropulsor" automatisch opgeborgen.
+
+===== Page 23 =====
+
+Je moet een
+scherp oog (en
+het goede) heb-
+ben om in deze
+
+ruimte vooruit te
+komen. Hier is
+behendigheid en
+denkwerk vereist.
+
+===== Page 24 =====
+
+PROGRAMMED BY
+FREDERIC O'ROURKE - ALEXANDRE BACQUART -
+FREDERIC JAY - EMMANUEL REGIS
+
+TOOLS PROGRAMMERS
+VINCENT POURIEUX - YANNICK TURBE
+
+GRAPHICS
+PASCAL CASOLARI - JEAN-MARC TORROELLA -
+DAVID HAMBLIN - LAURENCE FILLON - CELINE BILLON -
+NICOLAS POTHIER - ETRANGES LIBELLULES
+
+SOUND AND MUSIC
+
+FREDERIC MENTZEN - THIERRY CARON - EMMANUEL REGIS
+
+DESIGN
+RODOLPHE FURYKIEWICZ
+
+EXECUTIVE PRODUCER
+EDITH PROTIERE
+
+PRODUCTION UNIT
+XAVIER CUCUEL
+
+PRODUCTION
+BRUNO BONNELL
+
+THANKS TO
+FREDERIC BIBET - LIONEL LAISSUS -
+NADEGE DE BERGEVIN
+ALL THE TESTING DEPARTMENT
+THE TRANSLATION DEPARTMENT
+
+===== Page 25 =====
+
+
+
+===== Page 26 =====
+
+Distribué par :
+INFOGRAMES
+84, rue du ter Mars 1943
+69628 VILLEURBANNE CEDEX
+
+PRINTED IN JAPAN
+
+© 1995 Dupuis, TF1, Ciné-Groupe
+©1995 - INFOGRAMES MULTIMEDIA IMPRIME AU JAPON

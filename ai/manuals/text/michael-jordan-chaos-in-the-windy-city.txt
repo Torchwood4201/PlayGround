@@ -1,0 +1,723 @@
+# Michael Jordan Chaos in the Windy City
+source: https://archive.org/details/snes_manual_archive
+pdf: Michael Jordan Chaos in the Windy City ( PAL ).pdf
+region: PAL
+pages: 18
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-AWCP-UI
+
+BY
+CREATIVE
+DEVELOPMENT
+
+===== Page 2 =====
+
+TABLE OF CONTENTS
+
+Control Summary
+Starting the Game
+The Setup Screen
+Start
+
+Options
+Controller
+Password
+Chances
+
+Energy
+
+Moving Around
+Running
+
+Jumping
+Climbing
+
+Pulleys
+
+Elevators
+
+Ball Handling
+Throwing
+
+Spiking
+
+items
+
+Keys
+
+Normal Balls and Power Balls
+Powerups
+Basketball Coins
+Card Keys
+
+Doors
+Backboards
+Levels
+
+Maps
+
+Breakaway Walls & Floors
+Scoreboard
+
+OOOO OAOnNNnN NNO TOD WWW DY
+
+mh mk kk ek
+ooh BR WHNNH “= ©
+
+===== Page 3 =====
+
+CONTROL SUMMARY
+
+L
+Button
+
+Button
+
+Control (oh)
+Pad
+
+Button
+
+Button
+
+Select Start
+Button Button
+
+Nioving
+Run left or right
+Turbo run
+Crouch
+Jump
+Slam jump
+_ Super-slam
+Jump & Grab Pulley
+
+Climb Ladder
+
+Flip
+
+Ball Handling
+Throw ball
+Jump & throw ball straight
+Jump & Spike Ball
+Crouch & throw ball
+_ Change balls
+
+¥ Button
+
+Button
+
+Control Pad LEFT/RIGHT
+Control Pad LEFT/RIGHT + L
+Control Pad DOWN
+
+B
+
+X
+
+X+Y
+
+Control Pad UP + B (press B
+again to let go of pulley) _
+Control Pad UP to grab ladder;
+Control pad UP/DOWN to
+climb up or down
+
+Control Pad LEFT/RIGHT + L to
+turbo run and build up speed,
+then press B
+
+Y
+
+Bry
+
+X, then Y
+
+Control Pad DOWN + Y
+R
+
+===== Page 4 =====
+
+KEYS
+
+Use key A
+Sort through keys SELECT
+Pause Game START
+
+To break through a breakaway wall, hit it with a ball.
+To break through a breakaway floor, slam a ball.
+
+NOTE: Some power balls break through breakaway walls or
+floors faster than normal balls or other power balls.
+
+STARTING THE GAME
+
+1. Turn OFF the power switch on your Super Nintendo
+Entertainment System .
+
+WARNING: Never try to insert or remove a
+cartridge when the power is ON.
+
+2. Make sure a Controller is plugged into controller socket 1
+on the Super NES.
+
+3. Insert the Game Pak into the slot on the Super NES.
+Press firmly to lock the Game Pak in place.
+
+4. Turn ON the power switch.
+
+The startup screen appears. If this screen does not appear,
+start again from step 1.
+
+THE SETUP SCREEN
+
+There are three options available from the Startup Screen: Start,
+Options, and Password. :
+
+Start
+
+To start a game without changing options or entering a
+
+===== Page 5 =====
+
+password, press the Control Pad left/right to highlight Start, and
+press START.
+
+Options
+
+To call up the Options Screen, press the Control Pad
+left/right to highlight Option on the Startup screen and press
+START.
+
+There are two menus on the Options screen, the Options Menu
+and Controller. Use the Options Menu to set the level of game
+difficulty, turn music and sound effects on/off, or choose
+between stereo or mono sound. Use the Controller to change
+game controls or exit the Options screen.
+
+To leave the Options screen at any time, press the Control
+Pad up/down to highlight Exit and press START.
+
+OPTIONS MENU
+
+To change options, Control Pad up/down to highlight an
+option, then Control Pad left/right to cycle through choices.
+
+Difficulty
+There are three levels of difficulty: Rookie, Pro, and All Star.
+Difficulty determines how challenging a game is.
+
+Music/Effects
+Turn music and sound effects on/off.
+
+===== Page 6 =====
+
+Sound
+Toggle between stereo/mono sound.
+
+Controller
+1. The default controls are: Throw Ball ¥, Jump B,
+Slam Jump X, and Operate (item) A.
+
+2. To change controls, press the Control Pad up/down to
+highlight the control you want to change.
+
+3. Now press the button-A, B, X, or ¥ - which you want to
+become the control. For example, if you want A to be the Shot
+Slam Button, highlight Shot Slam and press A. Note that this
+automatically resets the function A controlled before. So if A
+replaces ¥ as the Shot Slam control, ¥ will replace A as the
+Operate control.
+
+4. Tocancel any control changes you've made, press the
+Control Pad up/down to highlight Restore Default and press
+A, B, X, or Y.
+
+Password
+
+When you complete a location, you get a password. The
+password appears at the bottom of the Scoreboard when it
+appears to add up your score (see Scoreboard on page 15).
+Passwords are up to 11 characters long; copy them down
+carefully. This password bypasses the last completed location.
+
+Select Password on the Startup screen. The Password
+screen appears.
+
+===== Page 7 =====
+
+Entering A Password
+
+To highlight a letter, number, or command on the Password
+screen, press the Control Pad in any direction until the spinning
+basketball is over it.
+
+To enter a password:
+
+1. Highlight the letter or number you want, and press A, B, X,
+or Y. The letter or number you selected appears at the top of the
+screen.
+
+2. If you make a mistake, highlight the arrows, then press A,
+B, X, or ¥ to move the cursor forward or back. The selected
+character will blink. Move the highlight to the correct character,
+and press A, B, X, or Y.
+
+3. Once you have entered the password you want, highlight
+OK and press A, B, X, or ¥ to restart the game you want. If this
+does not work, check your password and enter it again if
+necessary. |
+
+4. To leave the Password screen at any time, highlight
+CANCEL and press A, B, X, or Y.
+
+Chances
+
+You start with three chances. You can lose a chance by running
+out of Energy (see Energy, below) or falling off a path.
+
+When you lose all your Chances, you must start over from the
+
+very beginning.
+
+Energy
+
+===== Page 8 =====
+
+Your energy is shown by the expression on Michael Jordan’‘s:
+face in the upper left corner of the screen and red globes by his
+face. When Michael looks happy and the globes are large and
+red, you are at maximum health. If you get hit, you lose energy;
+as you lose more and more energy, Michael's face looks less
+and less happy and the globes shrink. When all the globes are
+small and blue, your energy is gone and you lose a chance.
+
+MOVING AROUND
+
+Running
+Press the Control Pad left/right to run along any horizontal
+surface.
+
+To increase your speed, press the Control Pad left/right
+and press L at the same time.
+
+Jumping
+
+To jump, press B.
+To slam jump, press X.
+
+To flip, press the Control Pad left/right and at the same
+time press L, then B.
+
+Climbing
+
+To climb up a ladder, stand directly in front of it and press
+the Control Pad up; to climb down a ladder, press the
+Control Pad down. Press B to get off a ladder.
+
+===== Page 9 =====
+
+lf a ladder is out of reach, press and hold the Control Pad
+up and press B to jump and grab a ladder.
+
+Pulleys
+
+Sometimes, you need to use pulleys to get where you want to
+go. Some pulleys activate automatically when you grab them,
+some are constantly moving, you need to throw a lever or use a
+key to activate others, and there are some pulleys that won't
+move until you choose which way you want to go.
+
+1. | To jump and grab a pulley, press the Control Pad up and |
+press B.
+
+2. If there is an arrow on a pulley, you need to press the
+Control Pad left/right to make it move.
+
+3. To get off a pulley, press B.
+Elevators
+
+Elevators are red disks in clear tubes. To use an elevator, you
+
+must step on the red disk and indicate which direction you want
+
+to go, up or down.
+
+1. To get into an elevator, stand in front of it and press the
+Control Pad up.
+
+2. To go upward in an elevator, press the Control Pad up, and
+to go down, press the Control Pad down.
+
+3. To get out of an elevator, press A.
+
+===== Page 10 =====
+
+BALL HANDLING
+
+Throwing
+
+You need great ball-handling skills to reach the end of your
+adventure. You need-to hit enemies, flip switches to activate
+platforms and sliding doors, and bust through breakaway walls
+and floors.
+
+To throw a ball, press Y. You will always throw a ball in the
+direction you're facing.
+
+NOTE: See the Balls section under Items (immediately following)
+for information about the special balls you can find and use.
+
+Jumping & Throwing
+To jump and throw the ball in a straight line while still in
+mid-air, press and hold B, and then press Y.
+
+Spiking
+Sometimes, especially if you are using a special ball, you'll want
+to spike it.
+
+To spike a ball, press X to slam jump and then press ¥
+while you are still airborne. |
+
+You will encounter Items throughout Chicago. These include
+power balls, keys, and a variety of powerups. Some Items are in
+plain sight or behind breakaway walls and backboards; others
+are dropped by enemies when you defeat them; and some are
+behind locked doors.
+
+Heys
+
+Your currently equipped key will appear in the bubble in the
+upper right corner of the screen. Whenever you pick up a key,
+it becomes equipped.
+
+To change keys, press SELECT to sort through the keys in
+
+===== Page 11 =====
+
+your inventory; each key appears, in turn, in the bubble in the
+upper right corner of the screen.
+
+Keys are colour-coded to the doors or locks they open; match
+the key to the lock to open it. Gold and Silver keys come on key
+rings and can be used more than once; but Green, Yellow, and
+Red keys can be used once only. You can’t carry keys from one
+
+level to another; when you go to a new level, you have to find
+more keys.
+
+To use a key, press A while standing in front of an
+appropriately coloured door lock.
+
+NORMAL BALLS AND POWER BALLS
+
+You have an unlimited supply of normal basketballs throughout
+
+the game. Even though they're normal they can still knock out
+enemies and, of course, make baskets.
+
+But sometimes, you will need something a little more special
+than a regulation ball. That's where power balls come in. Power
+
+balls appear as small floating basketball icons of various colours
+when you first encounter them. When you touch a power ball, it
+is added to your inventory and becomes your equipped ball.
+
+The different power balls are:
+
+White Knuckle ball: Goes through solid walls, but always
+
+returns when thrown. It can pick up items it touches and bring
+them back.
+
+===== Page 12 =====
+
+Blue Ice ball: Freezes most enemies into a solid chunk of ice,
+which will shatter if you hit it with another ball. Enemies will
+thaw out and escape if you don’t destroy them while they're
+frozen. Spike an ice ball to coat part of the floor with a layer of
+ice and make it slippery.
+
+Purple Rebound ball: Bounces around when it hits a horizontal
+surface; or splits into two balls when it hits a vertical or angled
+surface.
+
+Red Flame ball: Does double damage to enemies. Spike it to
+create a trail of flame along the floor.
+
+Gold Homing ball: Tracks down enemies who are within range.
+Spike it to split it into multiple missiles.
+
+Black Iron ball: Doesn't go far if you throw it, rolling along the
+floor to hit enemies. It explodes when spiked.
+
+Orange Earthquake ball: It makes everything shake when you
+spike it and takes out all enemies within range.
+
+Your currently equipped ball appears in the ball selection
+window, along with how many balls of that kind you have.
+
+To change your equipped ball, press R.
+
+There are several powerups you can find:
+
+11
+
+===== Page 13 =====
+
+MJ Heart: Completely restores health.
+
+Wheaties™ Box: Restores a large amount of health.
+Gatorade Bottle: Restores a small amount of health.
+Trophy: Adds another globe to health meter.
+
+Golden 23: Gives an extra chance.
+
+High-Tops: Short term invincibility from enemies; this lasts as
+long as shoes are sparkling.
+
+To acquire a power up, touch it.
+
+Basketball Coins
+
+Coins look like big power balls. Each coin is worth a point
+bonus: A silver coin is worth 1 point, and a gold coin is worth 5
+points. You get an extra chance when you collect 100 points in
+coins. Your current coin total is displayed on screen.
+
+Card Keys
+
+Card Keys appear at the end of levels when you defeat the
+“boss” who runs the level for Dr. Max Cranium. You need all
+three Card Keys to get into Riverview.
+
+DOORS
+
+You will encounter quite a few locked doors everywhere you go.
+You can open any door if you have the right key. Behind some
+doors are things you will need to get to the end of your
+
+_ adventure; behind other doors are things that will try to end your
+
+adventure then and there. Among the things you can find behind
+doors are Captives, Enemies, Powerups, and Special Balls.
+
+1. To open a door, press the Control Pad left/right to walk
+directly in front of the door.
+
+2. Press SELECT until a key that is the same colour as the
+lock appears in the bubble in the upper-right corner of the
+screen.
+
+3. Press A to operate the key and open the door. If the door
+
+va
+
+===== Page 14 =====
+
+doesn't open, press the Control Pad left/right to reposition
+yourself in front of the door and try again.
+
+Warp Doors & Bonus Levels
+
+Warp Doors open like normal Doors; they don't look special and
+neither do the keys that open them. But when you open a Warp
+Door, you can enter the vortex inside to go to a Bonus Level,
+where you can pick up points, items, and powerups by shooting
+baskets or defeating enemies.
+
+To enter a warp, press the Control Pad up.
+A timer appears in a Bonus Level to show how long you have to
+
+take your shots. When the timer runs out, you return to the
+Vortex Door.
+
+Backboards
+
+There are several kinds of backboards, and all have special
+powers that activate when you make a slam-dunk in them.
+
+Milestone Backboards
+
+lf you make a slam-dunk in a glass Milestone Backboard and
+then lose a chance and have to start a level over again, you will
+restart at the location of the Milestone Backboard rather than the
+very beginning of the level. Some levels have more than one
+Milestone Backboard.
+
+Award Backboards
+
+These backboards drop items when you shatter them with a
+slam-dunk.
+
+ge
+
+===== Page 15 =====
+
+14
+
+Freeze Backboards
+
+A timer appears when you slam-dunk into a Freeze Backboard.
+All enemies are frozen until the timer runs out.
+
+You can recognize Freeze Backboards by the number 23 that
+marks them.
+
+Big Bang Backboards
+
+When Michael makes a dunk in a Big Bang Backboard, the floor
+trembles and the walls shake, and every enemy within range
+vanishes.
+
+Little Bang Backboard
+Triangular Little Bang Backboards are like Big Bang Backboards,
+but cause only limited damage to enemies.
+
+LEVELS
+
+Locations & Levels
+
+There are four main locations you need to explore in the Windy
+City: The Cells, The Factory, The Laboratory, and Riverview. The El
+(elevated) train connects the first three locations, and a tunnel
+leads to Riverview.
+
+MAPS
+
+The Main Map of Chicago shows you the locations you need to
+explore and the general route you will take. Unexplored locations
+show as red dots on the main map; locations you have already
+explored show up as blue dots. Your position on the map is
+shown by a spinning basketball.
+
+===== Page 16 =====
+
+To go from one location to the next on the Main map,
+press the Control Pad left/right to move the spinning basketball.
+
+When it is over the location where you want to go, press START.
+
+Breakaway Walls & Floors
+
+Breakaway walls and floors occur throughout underground
+Chicago. They are not obvious, and you can't find them by
+jumping up and down or pushing against them (although some
+floors are so fragile, they'll crumble away if you just stand on
+them). You have to bounce a ball against them to find out where
+they are and get past them. Some balls need three bounces to
+break these walls and floors, some need only one, and some
+balls won't effect them at all.
+
+Throw balls against breakaway walls and floors to break
+through them.
+
+Scoreboard
+
+The Scoreboard appears at the end of every level. It shows your
+current total score for the entire game, a breakdown of your
+score for the level you just completed, which keycards you have,
+and a Password (see Password on page 5).
+
+NOTE: Passwords are only given after completing all levels
+within a location.
+
+The level scores are broken down in the following categories:
+
+Powerup Bonus: Determined by the number of powerups you
+collected.
+
+Secret Bonus: Each level within every location has a secret
+room; find it and receive the Secret Bonus.
+
+Speed Bonus: Determined by how long it took you to complete
+the level. The faster you are, the higher the Speed Bonus.
+
+15
+
+===== Page 17 =====
+
+16
+
+Enemy Bonus: This is based on the number of enemies you
+destroy.
+
+Captive Bonus: Awarded if you free a captive on the level you
+just finished. :
+
+CREDITS
+
+Programming: Dave O'Connor, Chuck Sommerville, Simon
+Freeman, and Lisa Ching
+
+Art & Animation: Lynne Gura, Leon Cannon, Muffy Vasale,
+Maurine Starkey, Paul Vernon Will Noble, Arthur Koch, and Amy
+Hennig
+
+Sound & Music: David Whittaker, Murray Allen, Marc Farly, and
+Don Veca : :
+Game Design: Amy Hennig
+
+Additional Design: Dave Ralston, Todd Gilliland
+
+Technical Director: John Brooks
+
+Testers: William Schmitt, Todd Gilliland, Rick Cobb, Heather
+Meigs, and Tony Diederich
+
+Executive Producer: Don Traeger
+
+Producer: Jim Rushing
+
+Associate Producer: Greg Suarez
+
+Assistant Producer: Todd Gilliland
+
+Product Manager: Lisa Higgins
+
+Documentation & Game Text: Michael Humes
+
+Package Direction: Nancy Fong
+
+Packaging Design: EJ Serrille
+
+OA: Dan Gossett
+
+Unless indicated otherwise, all software and documentation is
+© 1994 Electronic Arts. All Rights Reserved.
+
+Michael Jordan: Chaos in the Windy City is a trademark of
+Electronic Arts.
+
+WHEATIES, BREAKFAST OF CHAMPIONS, and the WHEATIES
+packages are trademarks of General Mills, Inc., Used with
+permission.
+
+===== Page 18 =====
+
+OCEAN EUROPE LTD.
+
+DISTRIBUTED BY:
+OCEAN EUROPE LIMITED
+2 CASTLE STREET
+CASTLEFIELD ~
+MANCHESTER
+M3 4LZ
+ENGLAND a
+
+CHAOS IN THE WINDY CITY IS A TRADEMARK OF ELECTRONIC ARTS.
+WHEATIES, BREAKFAST OF CHAMPIONS AND THE WHEATIES PACKAGES
+ARE TRADEMARKS OF GENERAL MILLS, INC., USED WITH PERMISSION.
+GATORADE IS A REGISTERED TRADEMARK OF STOKELY-VAN CAMP, INC
+USED WITH PERMISSION.
+© 1994 ELECTRONIG-ARTS. ALL RIGHTS RESERVED.
+
+PRINTED IN JAPAN
+
+a Pers Wee se ee ee eee oa ~ —o- ~

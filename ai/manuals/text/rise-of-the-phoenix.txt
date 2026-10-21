@@ -1,0 +1,2278 @@
+# Rise of the Phoenix
+source: https://archive.org/details/snes_manual_archive
+pdf: Rise of the Phoenix ( USA ).pdf
+region: USA
+pages: 34
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+i BRS
+INSTRUCTION BOOKLET
+
+SUPER NINTENL
+
+KOE!
+
+KOEI Corporation
+One Bay Plaza, Suite 540,
+1350 Bayshore Hwy., Burlingame, CA 94010
+
+ee
+
+—
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER INFORMATION AND
+PRECAUTIONS BOOKLET CAREFULLY BEFORE USING YOUR NINTENDO®
+HARDWARE SYSTEM OR GAME PAK.
+
+THIS PRODUCT HAS BEEN RATED BY THE ENTERTAINMENT SOFTWARE
+RATING BOARD. FOR INFORMATION ABOUT THE ESRB RATING, OR TO
+
+WELCOME TO THE KOEI WORLD!
+COMMENT ABOUT THE APPROPRIATENESS OF THE RATING, PLEASE
+
+CONTACT THE ESRB AT 1-800-771-3772. We are proud to introduce you to another
+dimension from the Koei world of quality games.
+Koei is committed to bringing you games filled
+with excitement, challenge and intrigue. Our goal
+is to create top quality products and provide
+excellent service for our customers.
+
+As a Koei gamer, you are important to us and we
+value your opinions. Please send us your comments
+and we will continue to bring you the best in
+interactive entertainment. Look for future releases
+from Koei to experience new realms of gaming!
+
+Thank you for exploring the Koei world.
+
+KOEI CORPORATION
+
+(© 1995 KOEI CORPORATION
+
+THIS OFFICIAL SEAL IS YOUR.
+LICENSED BY SSURANCE
+
+ek ih a
+(intends) eee
+Serene
+cera
+seer aren erT=00 recess
+ernie area MS te ee
+pie ge aaah
+Sore eas. eh
+See Soe edi
+
+‘©1991NINTENDO OF AMERICA INC.
+
+===== Page 3 =====
+
+RISE OF THE PHOENIX
+
+Main Display . .
+Military Data
+City Data
+General Data ..
+Ruler Data
+
+Map ..
+
+Commanding Your Army
+Main Commands.......
+Move Phase Commands
+Pian Phase Commands 775 55% psa vance sainalaen-caycivd
+
+The Art of War...
+The Flow of War .
+Battle Display
+Battle Commands
+
+The Story of Rise of the Phoenix
+
+Your Goal ..
+
+Scenarios ..
+
+Controling the Game 50. 2:c.2.s00500 se sieege cviesd ee senses 5
+
+Historical Events
+Seasonal Events .
+
+Starting a New Game H Scenario 1: 206 B.C. Xiang Yu's Glory . .
+
+The Options Menu .. i ke Scenario 2: 205 B.C. Liu Bang Declares War
+Resuming a Saved Game é ~y Scenario 3: 204 B.C. The Battle at Guang Wu .
+Game Flow : : Scenario 4: 203 B.C. Rise of the Phoenix .. .
+
+Winning the Game . .
+
+Your Resources .
+The Army ..
+CHES... ciao:
+
+===== Page 4 =====
+
+RISE OF THE PHOENIX
+
+INTRODUCTI
+
+THE STORY OF RISE
+OF THE PHOENIX
+
+In 210 B.C., China’s first Emperor, Shi Huangdi, died during an
+expedition across the country. For the people of China, his death
+meant the end of an era of oppression under the weight of the Qin
+Dynasty. As a new emperor took the throne, rebellions led by the
+people, rivalries between officials, and resurrections of former
+kingdoms ensued into a civil war.
+
+While warfare spread throughout the land, two warriors emerged
+as prominent leaders, Xiang Yu and Liu Bang. Xiang Yu possessed
+the power, and Liu Bang the generosity of a true leader of the
+people. Their struggle to rule all of China became a legacy for
+future generations,
+
+RISE OF THE PHOENIX will take you back deep into one of China's
+greatest civil wars and into the heart of the rivalry between Xiang
+Yu and Liu Bang. Conquer territory, attack your enemies, win the
+people's support, and rise with the Phoenix, the sign that your
+rule is mandated by heaven.
+
+YOUR GOAL
+
+Your goal is to destroy or suppress all other rulers and
+conquer China.
+
+SCENARIOS
+
+There are four scenarios based on the rivalry of Xiang Yu and Liu
+Bang in this game. Allies and territories in the game vary, depend-
+ing on the scenario.
+
+Scenario 1. Xiang Yu's Glory August 206 B.C.
+Scenario 2. Liu Bang Declares War March 205 B.C.
+Scenario 3. The Battle at Guang Wu November 204 B.C.
+Scenario 4. Rise of the Phoenix December 203 B.C.
+
+~aie
+
+INTRODUCTION
+
+CONTROLLING THE GAME
+THE CONTROLLER
+
+Use either controller to play.
+
+SELECT Button
+
+START Button
+* Skip through the introduction to game set-up.
+
+Button A
+
+* Select highlighted commands and items.
+* Answer YES to yes or no questions.
+
+* Speed through scenario introduction.
+
+Button B
+
+* Cancel selections.
+
+* Answer NO to yes or no questions.
+* End the command turn.
+
+* Cancel scenario introduction.
+
+Button X
+
+* View Military Data.
+* Switch between positioning and commanding units in a
+field battle.
+
+RIGHT Button
+
+* View the Main Map
+* Turn clockwise in a field battle.
+
+=i
+
+===== Page 5 =====
+
+RISE OF THE PHOENIX
+
+LEFT Button
+¢ Turn counterclockwise in a field battle.
+
+CONTROL Pad
+
+* Move the cursor across maps.
+* Move the cursor through command menus.
+* Scroll through lists or flip through pages of information.
+
+THE MOUSE
+
+When using the Mouse, connect the Mouse to your game system
+BEFORE the power is turned ON.
+
+LEFT Mouse Button
+
+RIGHT Mouse Button
+
+Left Mouse Button
+
+* Select highlighted commands and items.
+
+¢ Answer YES to yes or no questions.
+
+* Scroll through lists and flip through pages of information.
+* Speed through scenario introduction.
+
+Right Mouse Button
+
+* Cancel selections.
+¢ Answer NO to yes or no questions.
+© Cancel scenario introduction.
+
+Moving the Mouse
+Direct the cursor across the map and command menus.
+
+=e
+
+INTRODUCTION
+
+SELECTING MULTIPLE ITEMS IN A LIST
+
+Highlight an item and press Button A or the Left Mouse Button.
+The selected item will turn red. To cancel a selected item, press
+Button B or the Right Mouse Button. When you are finished
+selecting items, press Button B or the Right Mouse Button. If no
+items are selected, the command is canceled.
+
+ENTERING NUMBERS
+
+For commands that require specific amounts of Gold and Food,
+or a number of soldiers, use the Number Table or the Calculator.
+When using the Controller, use the Control Pad to select a num-
+ber and press Button A. When using the Mouse, move the
+Mouse to direct the cursor to a number and click on the Left
+Mouse Button.
+
+CS 02 OS 2 2
+0 1125 2250 3375 4500 2777
+
+How uch gold will you take?
+
+Smallest amount for the command.
+
+One fourth of the army or city’s supply.
+Half of the army or city’s supply.
+
+Three fourths of the army or city’s supply.
+All of the army or city’s supply.
+
+Use the calculator to enter numbers.
+
+=f
+
+===== Page 6 =====
+
+RISE OF THE PHOENIX
+
+The Calculator
+
+The Calculator will be displayed when you select INPUT from the
+Number Table.
+
+00 Enter two zeroes.
+
+- Backspace
+
+CANCEL _ Return to the Number Table.
+
+MAX Display the maximum value for the command.
+CLEAR Erase all numbers.
+
+ENTER Enter the displayed value.
+
+WAIT CURSOR
+
+PY oe ] Hit any key to proceed game play when this
+marker appears.
+
+KEY TO PLA
+
+1. Make sure the power is turned OFF.
+
+'2. Insert the RISE OF THE PHOENIX game pak. When using the
+Makes covineck ie Blass to the oumte spetena:
+
+3. Turn the game system ON.
+
+4. The introduction will begin. Push START to skip to the
+game set-up.
+
+STARTING A NEW GAME
+
+1, Select START A NEW GAME in game set-up.
+. Select a scenario.
+
+. Decide what game level to play, whether to watch battles
+between other rulers, and the number of players. Select Demo
+to watch a computer demonstration.
+
+. Select the ruler you wish to play. Verify your selection. Select
+NO, if you want to change your ruler.
+
+. Review your game set-up. If everything is OK, select YES and
+the game will begin. To change the setting, select NO, and
+return to the item you want to change.
+
+THE OPTIONS MENU
+
+Select OPTION from the Main Display to access the Options
+Menu.
+
+SAVE
+
+Save your game for future play. Only one game may be saved.
+Saving erases any previously saved game.
+
+LOAD
+
+Resume a saved game.
+
+~aier
+
+===== Page 7 =====
+
+RISE OF THE PHOENIX
+
+MESSAGE SPEED (MSG.)
+
+Set the speed for the message display from 0 (fastest) to 9
+(slowest). The initial setting is 5.
+
+VIEW
+
+Decide whether you want to watch battles that do not directly
+involve you.
+
+MUSIC
+
+Choose between Stereo and Mono for the background music.
+
+CONTROLLER (CTRL)
+
+The Controller option is displayed only when the Mouse is con-
+nected to the game system. This option will allow you to switch
+to the Controller or change the cursor speed of the Mouse.
+
+END
+
+Quit the game. Save your game before ending if you want to con-
+tinue later. You will be asked if you want the computer to take
+control of your ruler. Select YES to watch a demonstration of the
+game and NO to quit the game.
+
+RESUMING A SAVED GAME
+
+To resume a previously saved game at the game set-up, select
+LOAD SAVED DATA. You may also resume a saved game during
+game play by selecting LOAD from the Options menu.
+
+GAME FLOW
+
+In RISE OF THE PHOENIX, you command your army by repeating
+turns in two phases, a MOVE phase and a PLAN phase. Your turns
+to Steele commands fall on the first and third week of the
+months.
+
+1. MOVE PHASE: Commands to move your divisions.
+
+Direct the movement for each division in your army. When an
+enemy division is in a neighboring square, you may wage an
+attack against that division.
+
+2. PLAN PHASE: Commands to plan your war strategy.
+
+Direct the operations of your divisions. Commands vary between
+divisions residing at a city and divisions not at a city.
+
+ONE MONTH OF TURNS
+
+MOVE Phase
+(your army /other armies)
+
+PLAN Phase
+(your army /other armies)
+
+V
+
+MOVE Phase
+(your army /other armies)
+
+PLAN Phase
+(your army/other armies)
+
+NEW MONTH BEGINS
+
+===== Page 8 =====
+
+RISE OF THE PHOENIX
+
+WINNING THE GAME
+
+Win the game by fulfilling both of the following conditions:
+1. Defeat your rival (Xiang Yu or Liu Bang).
+2. Defeat or ally all other rulers.
+
+The game ends when your ruler is defeated.
+
+As the ruler of an army, you have many responsibilities. Expand
+your influence and secure supply routes for your army by
+attacking enemies, making alliances, and winning the loyalty
+
+of the people.
+
+DIPLOMACY
+Negotiate with Rulers
+
+Conquer China
+
+UR RESO
+THE ARMY
+
+An army is composed of rulers and their commanding divisions.
+Each ruler commands divisions composed of the ruler and/or
+the ruler’s generals and soldiers. The ability levels of the ruler
+
+or generals affect the Mobility and Battle Skills of their respective
+ania One division may have up to five generals, including
+the ruler.
+
+In each turn, Gold is automatically paid to your enlisted generals.
+For Xiang Yu's generals, the amount is based on the general's
+Battle Skills, and for Liu Bang’s generals, it is based on the Charm
+level. If you run out of Gold to pay your generals, your Respect
+will decrease.
+
+Aruler is also responsible for sust ing his soldiers. Each turn, a
+given amount of Provisions, reflective of the number of soldiers,
+is taken from each division's supply. If you run out of Provisions,
+the number of your soldiers will decrease.
+
+TYPES OF DIVISIONS
+
+Chu Army (Xiang Yu) Han Army (Liu Bang) Free Army
+
+===== Page 9 =====
+
+RISE OF THE PHOENIX
+
+Ared flag indicates a ruler’s division.
+
+Ruler's Division Other Division
+
+Note: The division number is displayed to the right of a division
+in the Main Display. When there is more than one division in the
+same place, a number is not displayed. An X over a number indi-
+cates that the division has completed its command.
+
+CITIES
+TYPES OF CITIES
+
+There are a total of 39 cities which fall into four different cate-
+gories: Commercial, Military, Barrier, and Capital. For Military
+and Commercial cities, the scale, type, and display of the city will
+differ, according to the Population. The Defense level also differs
+according to the scale of a city.
+
+Commercial Cities
+
+Generals with high Intelligence levels can be enlisted from
+Commercial cities. The effect of the FARM command in the PLAN
+Phase is greater in Commercial cities than in Military cities.
+
+Village => Town ™ City Metropolis
+
+YOUR RESOURCES
+
+Military Cities
+Generals with high Battle Skills can be enlisted from Military
+
+cities. The effect of the BUILD command in the PLAN Phase is
+greater in Military cities than in Commercial cities.
+
+ea
+Granary = Citadel = Fortress = Castle
+Barrier Cities
+Barrier cities have no data for Population, Loyalty,
+Support, and Health.
+
+Capital Cities
+
+ray You may establish a capital during events which occur
+
+in January and July. An eligible place for a capital is a
+City, Metropolis, or Castle which has not experienced
+any recent disasters and is not another ruler's capital.
+You must also have a Loyalty level above 80 in that city.
+When you establish a capital, your income of Gold and
+Food increases slightly.
+
+CLAIMING A CITY
+
+Place a city under your control by using the CLAIM command
+(see page 34, to CLAIM a city). The success of claiming a city
+depends on your Loyalty and Support among its residents. You
+may also CLAIM a city by destroying an enemy division residing
+inacity.
+
+GOLD AND FOOD
+
+Each city obtains Gold and Food every three months per year
+March, June, September, and December). Divisions can obtain
+old and Provisions from a city's supply with the STOCK or RAID.
+command.
+
+===== Page 10 =====
+
+RISE OF THE PHOENIX
+
+SUPPLY ROUTES
+
+All cities are connected by supply routes. During the first week of
+every month, Gold and Food are automatically transported
+between neighboring cities of the same army (except during the
+months of March, June, September, and December). Materials
+flow from cities with more supplies to cities with less supplies.
+The amount that can be transported at one time grows as
+Population, Loyalty, and Respect increases.
+
+SOURCES OF INFORMATION
+
+SOURCES OF
+
+2 Rest | info’) Option,
+
+@ Month, Year, Week @ Main Map
+@® Ruler Data @ Main Commands
+
+Provisions Gold Soldiers in
+Ruler's Division
+
+Divisions under Cities under Ruler’s Capital
+Ruler's Control Ruler’s Control
+
+Data indicates the ruler’s Provisions, Gold, number of soldiers in
+the ruler’s division, and the number of divisions and cities the
+ruler controls. Est. denotes that the ruler has established a capital.
+
+===== Page 11 =====
+
+RISE OF THE PHOENIX SOURCES OF INFORMATION
+
+Population Gold Provisions Number of Soldiers
+
+a a S
+
+Loyalty Defense Level Health Level Spirit Arms Level Act
+for Ruler
+
+You may quickly review the division data by selecting a division
+P on the map. Data on the Gold, Provisions, number of soldiers,
+| | Spirit, and Arms level will be displayed. You will also be able to
+
+tell if a division has completed its command, has delegated con-
+
+Crop Value Support for trol, or is under the SNEAK or HIDE command.
+
+your Ruler
+
+Data indicates the city’s Gold, Food, Population, Defense level,
+Health level, Crop Value, Loyalty to the city’s ruler, and your
+Support.
+
+===== Page 12 =====
+
+RISE OF THE PHOENIX
+
+MILITARY DATA
+
+Select MLTY under INFO from the Main Command Menu to view
+Military Data.
+
+To view data for a particular division, select a division from the
+Military Data screen.
+
+Prov. 2008 Aras
+Sldr 2500 Act
+. 1 Location ~==-
+
+Division Number (iv.)
+
+Number of the division.
+
+General (1st Gnrl)
+
+The division's commanding general. Obtain generals by selecting
+the ENLIST command when a division is at a city. Select the
+REORG (Reorganize) command from the PLAN phase to change
+First Generals or move generals between divisions.
+
+SOURCES OF INFORMATION
+
+Division Funds (Gold) (Max. 9999)
+
+The amount of Gold in the division's supply. It increases when
+you STOCK or RAID, and decreases when you pay your generals
+(every turn), host a FEAST, FARM, BUILD, or BUY arms.
+
+Provisions Prov.) (Max. 9999)
+
+The amount of Provisions in the division’s supply. It increases
+when you STOCK or RAID, and decreases when you provide your
+soldiers food (each turn), or GIVE to a city.
+
+Act
+
+Indicates whether a division has completed its command, is
+under delegated control, or is in hiding.
+
+Soldiers (Sldrs) (Max. 9999)
+
+Number of soldiers in a division. [t increases when you DRAFT
+and decreases when you engage in battle, encounter a disaster, or
+your Provisions are depleted.
+
+Spirit (Max. 1000)
+
+The morale of the division. Lift it with the REST or RAID com-
+mands. It decreases when a division encounters a disaster, or is
+ordered to SNEAK or RUSH. If the soldiers’ Spirit falls below 30,
+you are unable to wage an attack in battle.
+
+Arms (Max. 100)
+
+Indicates how well your soldiers are equipped with arms. Raise it
+by BUYING arms. Arms level affects the number of times your
+archers can attack in battle.
+
+Location
+The name ofa city will be displayed when a division is staying
+ina city.
+
+aie
+
+===== Page 13 =====
+
+RISE OF THE PHOENIX
+
+Hide
+
+Indicates if a division is under the SNEAK or HIDE command.
+
+Delegate @elg.)
+A division under delegated control displays the type of command-
+ed delegation (Domestic or Military).
+
+CITY DATA
+
+Select CITY under INFO from the Main Command Menu to view
+City Data.
+
+To view data for a particular city, select a city from the City
+Data screen.
+
+Gold 3850 Dfnse
+Food 4750 Hith
+Pop. 5900 Crops
+Loyal
+
+SOURCES OF INFORMATION
+
+City
+
+Name of the city.
+
+Ruled by
+
+Ruler that controls the city. The ruler may change depending on
+who succeeds to CLAIM the city.
+
+Gold (Max. 9999)
+
+City’s supply of Gold. It increases when tax on Gold is collected in
+March, June, September and December, and decreases in a RAID
+or when a division is commanded to STOCK materials. The
+amount of Gold changes in the first week of every month, when
+materials are transported between cities (except for in March,
+June, September, and December).
+
+Food (Max. 9999)
+
+City’s supply of Food. It increases when tax on Food is collected
+in March, June, September and December, and decreases when
+there is a RAID or when a division is commanded to STOCK mate-
+rials. The amount of Food changes in the first week of every
+month, when materials are transported between cities (except for
+in March, June, September, and December).
+
+Population @opl.) (Max. 9999)
+
+Total number of people living in the city. The number increases
+slightly each month and decreases when the city is struck by dis-
+asters and when you DRAFT soldiers.
+
+Crop Value (Crops)
+
+City’s rate of production. The maximum varies from city to city.
+The higher the Crop Value, the greater the income of Food. The
+Crop Value increases when you FARM the crops and decreases in
+a RAID or disaster.
+
+aie
+
+===== Page 14 =====
+
+RISE OF THE PHOENIX
+
+Defense (Dinse) (Max. 200)
+
+The strength of the city walls. It increases when you BUILD, and
+decreases when there is a disaster, war, or RAID.
+
+Health (Max. 100)
+
+Well-being of people in the city. A city with a low Health level will
+have less income than a healthy city. It increases by FARMING the
+city’s crops and decreases in a RAID or war.
+
+Loyalty (Loyal) (Max. 100)
+
+The people's sense of allegiance towards their ruler. It affects the
+city’s income of Gold and Food. When Loyalty is below 30, a city
+may defect and become unclaimed territory. Loyalty increases
+when you GIVE, FARM, or BUILD, and decreases when you RAID
+or wage a battle.
+
+Support (Supp.) (Max. 100)
+
+People’s support for you. When you control the city, Loyalty and
+Support levels will be the same. A high Support level increases
+your chances of success to CLAIM a city. If you refuse to CLAIM a
+city by force, your Support in that city will increase. Your
+Support decreases if you RAID a city.
+
+SOURCES OF INFORMATION
+
+GENERAL DATA
+
+Select GNRL under INFO from the Main Command Menu to view
+data on your generals.
+
+To view data for a particular general, select a general from the
+General Data Screen.
+
+Stasina 85/ 85
+rey Div i
+
+Name of the General.
+
+Age
+
+All characters will die of old age when they become 100 years old.
+
+===== Page 15 =====
+
+RISE OF THE PHOENIX
+
+Stamina (Max. 100)
+
+Current physical strength. The maximum Stamina possible is 100,
+but each general's upper limit varies according to their strengths
+and weaknesses. Stamina will decrease in a DUEL or RUSH com-
+mand, or when a division encounters a disaster.
+
+Experience (Exp.) (Max. 100)
+
+Experience increases with successful commands and victorious
+battles. When it reaches 100, a general's Battle Skill, Charm, or
+Intelligence will increase by 1.
+
+Division @iv.)
+Number of the division to which the general belongs.
+
+Battle Skill (Skill) (Max. 100)
+
+Offensive strength in battle. A general with high Battle Skills will
+have an advantage in DUELS and help the division in battles.
+
+Charm (Max. 100)
+
+Charisma to administer domestic affairs, such as suppressing
+riots. Affects the city’s Loyalty levels.
+
+Intelligence (ntel.) (Max. 100)
+
+Knowledge of war strategy and ability to implement it in battle.
+Affects the division's mobility and effectiveness of command,
+such as with MARCH and ATTACK.
+
+Negotiate (Nego.) (Levels A~D)
+
+Ability to strike deals for surrendering, making peace, or request-
+ing aid from other rulers or divisions.
+
+SOURCES OF INFORMATION
+
+RULER DATA
+
+Select RULER under INFO from the Main Command Menu to
+review Ruler Data.
+
+To view data on a particular ruler, select a ruler from the Ruler
+Data screen.
+
+Division
+
+City 11/39
+
+Friendship --
+50
+
+Name of ruler.
+
+Army
+
+Indicates whether the ruler is part of the Han (Liu Bang) or Chu
+(Xiang Yu) army, or a Free ruler. The Han rulers are displayed in
+red, the Chu rulers in white, and Free rulers in blue.
+
+===== Page 16 =====
+
+RISE OF THE PHOENIX
+
+Respect (Rspct) (Max. 100)
+
+People’s respect for the ruler. A ruler with Respect of 30 or below
+will find it difficult to CLAIM a city, and generals may betray him
+for another ruler. Respect increases when you GIVE, FARM,
+BUILD, or CLAIM, and decreases when you RAID, DRAFT, or
+CLAIM a city by force, ALLY other rulers by threatening them,
+FIRE generals, and ATTACK cities.
+
+Friendship (Friend) (Max. 100)
+
+Measure of rapport with your ruler. High Friendship levels will
+decrease the chances of betrayal and increase the chances of
+receiving aid from that ruler.
+
+Capital
+
+Name of the ruler’s capital city.
+
+MAP
+
+Select MAP under INFO from the Main Command Menu or press
+the Right Button to view the entire map. To view a specific area,
+move the cursor on the map and press Button A or click on the
+Left Mouse Button. Press Button B or the Right Mouse Button to
+return to the Main Display.
+
+COMMANDING YOUR ARMY
+
+COMMANDING
+YOUR ARMY
+
+MAIN COMMANDS
+
+The Main Command Menu is shown in the Main Display. Select
+MOVE or PLAN from the Main Commands to enter a phase and
+carry out further commands.
+
+Commands shared in the Main Command Menu of both the MOVE
+and PLAN phases are as follows:
+
+REST
+
+End the current phase. The Spirit of divisions which were not
+commanded will increase.
+
+INFORMATION (INFO)
+
+View Military, City, General, Ruler data screens, and the
+Main Map.
+
+OPTIONS
+View the Options Menu (See The Options Menu, page 9).
+
+MOVE PHASE COMMANDS
+
+The Move Phase Commands are displayed when you select MOVE
+from the Main Command Menu.
+
+MARCH
+
+Move a division within the mobility range, designated by the high-
+lighted areas. The mobility range is 4 squares for divisions with
+generals of Intelligence levels 80 and above, and 3 squares for
+other divisions. A division may join other divisions, when it
+moves to a square occupied by another division under the same
+
+=e
+
+===== Page 17 =====
+
+RISE OF THE PHOENIX
+
+ruler. When you combine divisions, you must fire generals if the
+total number of generals exceeds five.
+
+You can continue to wage an attack after you move, if you
+MARCH to a square that is next to an enemy division.
+
+SNEAK
+
+March with your division in hiding. The mobility range is 3
+squares for divisions with generals of Intelligence levels 80 and
+above, and 2 squares for all remaining divisions.
+
+If an enemy moves to a square occupied by a division under the
+SNEAK command, the hiding division may launch a surprise
+attack on the enemy. The division under the SNEAK command
+will incur almost no damages, while the division under attack will
+be hurt significantly.
+
+RUSH
+
+In one command, you can move up to 4 squares, or 5 squares for
+
+divisions with Intelligence levels 80 and above. The division's
+Spirit and Stamina, however, will decrease.
+
+ATTACK
+
+Wage an attack on an enemy division in a neighboring square.
+The screen will change to a battle screen.
+
+PLAN PHASE COMMANDS
+
+The PLAN Phase Commands are displayed when you select PLAN
+from the Main Command Menu.
+
+CITY
+
+The CITY Commands can only be executed when a division is at a
+city under your control. To place a city under your control, you
+must succeed in claiming that city (See page 34, CLAIM).
+
+COMMANDING YOUR ARMY
+
+Give
+GIVE to the city and/or the elders to increase your Loyalty and
+Respect levels.
+
+Feast
+
+Host a FEAST in the city and entertain the elders. A FEAST
+requires Gold, and the amount depends on the city’s Population,
+Loyalty, and Respect levels. This command is possible only from
+the ruler’s division and is more effective in raising Loyalty and
+Respect than the ALMS command.
+
+Alms
+
+Distribute food from the division's supply to the residents of
+the city.
+
+Enlist
+ENLIST soldiers and generals for your army.
+
+Dratt
+
+DRAFT soldiers from residents of a city. The number of your sok
+diers will increase, but your Loyalty and Respect levels in that
+city will decrease.
+
+Hire
+
+Appoint generals who are staying in a city. Each division may
+have up to five generals.
+
+Buy
+
+Purchase weapons to raise the Arms level of your division. The
+higher the Arms level, the more times your archers can attack in
+battle.
+
+===== Page 18 =====
+
+RISE OF THE PHOENIX
+
+Farm
+
+Develop the crops in a city. The amount of Gold necessary to
+FARM depends on the number of soldiers in the division. Farming
+increases the city’s Crop Value and the ruler’s Loyalty and
+Respect levels.
+
+Build
+Fortify your city by building up the city walls. The price to BUILD
+
+depends on the number of soldiers in the division. It increases
+the Defense level of the city, and Loyalty and Respect of the ruler.
+
+MILITARY (MLTY.)
+Materials (Mat'ls)
+
+Stock
+
+Supply your division with Gold and Food from a city. You can
+stock only in cities that are under your control, or an ally ruler.
+
+Raid
+
+Obtain Gold and Food by force. You can RAID all cities except for
+Barrier cities. You may discover hidden stashes of Gold and Food
+which will increase your soldiers’ Spirit, but decrease your ruler’s
+Loyalty, Respect, Popularity, and the city’s Defense, Crop Value,
+and Health.
+
+This command allows you to conceal your divisions from ene-
+mies, or cancel the HIDE command.
+
+Hide
+
+Your division's movements will be hidden from the enemy, but
+the stress of hiding will decrease your soldiers’ Spirit. The HIDE
+command allows you to wage surprise attacks on enemy divi-
+sions (See page 35).
+
+COMMANDING YOUR ARMY
+
+Show
+Cancel the HIDE command.
+
+Spy
+Spy
+
+Review the information of an enemy army. This command is possi-
+ble only for the ruler’s division and when there is an enemy divi-
+sion within the spying area. The scale of a spying area depends on
+the Intelligence level of the generals in that division. The amount
+of Gold necessary for spying depends on the distance the spy
+must travel.
+
+Seek
+
+Search your surroundings for enemies in hiding. If you discover a
+hiding division, the HIDE command will be canceled. You can only
+discover one hiding division per search.
+
+Delegate (elg.)
+
+Domestic Control
+
+Delegate a division to administer the domestic affairs of a city.
+MILITARY PRIORITY: Secure army supplies and soldiers.
+
+CITY PRIORITY: Improve the city by building up the defense
+and/or farming the land.
+
+BALANCED: Manage both military and city affairs depending on
+the situation.
+
+Military Control
+
+Delegate a division to move to a destination and act upon arrival.
+
+WAIT: Delegate the division to wait at the designated target.
+When the destination is a city, the division will begin conducting
+domestic affairs.
+
+JOIN: Join another division upon arrival at the designated target.
+
+===== Page 19 =====
+
+RISE OF THE PHOENIX
+
+ATTACK: Attack an enemy division upon arrival. The battle will
+take place automatically in this case.
+
+CHASE: Chase after a designated division.
+Organize (Org.)
+
+Reorganize (Reorg.)
+
+REORGANIZE the Gold, Provisions, Soldiers and generals of the
+division. Any items and soldiers left at the bottom of the screen
+will be thrown away or dismissed when you end the command.
+
+Fire
+
+FIRE generals from a division.
+
+CLAIM
+
+CLAIM a city which is unoccupied or under an enemy ruler's con-
+trol. The success rate in claiming a city depends on your rulers
+
+Support in that city. If you fail to enter the city peacefully, you
+have the option to enter by force. Entering by force, however, will
+lower your Loyalty, Support, and Respect.
+
+NEGOTIATE (NEGO.)
+
+Aid
+
+Request aid for Provisions from a friendly division within three
+squares of your division.
+
+Ally
+
+Convince other rulers to join your army by sending them Gold or
+threatening them. The amount of Gold necessary for the task will
+depend on your Friendship with the other ruler. This command
+can only be carried out by the ruler’s division.
+
+THE ART OF WAR
+
+THE FLOW OF WAR
+
+When you launch an attack or an enemy wages an attack against
+you, the screen will switch to a Field Battle or a City Battle dis-
+play. The defending side may choose between a Field or a City
+Battle, when an attack is launched against a division staying in a
+city under their own ruler.
+
+Each battle may last up to 15 days. If neither side meets the condi-
+tions for victory by the end of the fifteenth day, the battle ends in
+a draw.
+
+Requesting Reinforcements
+
+You can request up to 4 reinforcement divisions when divisions
+from your army or allied armies occupy squares next to the
+enemy. Choose which division(s) will participate in the battle
+before entering a battle screen.
+
+FIGHTING A BATTLE
+Surprise Attack
+
+When a division under the SNEAK command attacks the enemy,
+the division may wage a surprise attack, depending on the ability
+levels of its generals. If a surprise attack succeeds, the defense
+side will automatically be placed in the middle of the battle
+
+===== Page 20 =====
+
+RISE OF THE PHOENIX
+
+screen, and the attacking side may position their division(s) in
+any square around the enemy.
+
+Mobility Points
+
+Each division has a certain level of mobility expressed in points.
+The Mobility Points are based on the general with the highest
+Intelligence level, and are between 8 and 12. Each battle com-
+mand requires a given amount of Mobility Points to execute the
+command. Mobility Points are restored to their maximum by the
+next turn. When the soldiers’ Spirit is below 30, you are unable to
+attack regardless of your Mobility Points.
+
+Field Battle
+
+When an enemy is within attacking range, the division will be indi-
+cated by a yellow square. You can inflict more damage, if you
+attack an enemy from behind or the side.
+
+@ = Arrow Attack > = Your Division
+‘Ax Ground Attack or Dust 1 = Direction of Your Division
+
+City Battle
+
+When you are attacked while your division is in a city under your
+control, you may choose between a City Battle or Field Battle. If a
+Field Battle is selected, you may later retreat inside the city walls
+and continue a City Battle. The number of soldiers will decrease,
+however, when you flee inside the city.
+
+Terrain
+The terrain of the land affects the strength and damage of attacks
+
+] in battle. Use the terrain to your advantage and conquer the
+
+enemy.
+
+Strength of Attack Damage of Attack
+12 12
+1 1
+1 15
+
+Note: The above numbers indicate the strength and damage of attacks when a
+field attack is measured at 1
+
+CONDITIONS FOR VICTORY
+
+One of the following conditions must be met to win in battle:
+
+Field Battle
+1. Destroy the enemy division(s).
+2. The enemy flees.
+3. You have | or more Provisions and the enemy has none.
+
+City Battle
+1. Destroy the enemy division(s).
+2. The enemy flees.
+3. You have 1 or more Provisions and the enemy has none.
+4.
+
+For the attacking side, the Defense level of the city
+becomes 0.
+
+5. For the defending side, none of the above conditions 1 to 4
+are met by the end of the fifteenth day of battle.
+
+===== Page 21 =====
+
+RISE OF THE PHOENIX
+
+Post-war Settlements
+
+The victorious side determines the fate of captured generals from
+the enemy division(s).
+
+ENLIST Hire the general for your own army. You can only
+enlist generals when you have less than 5 generals
+in the division(s) that participated in the battle.
+
+EXECUTE Eliminate the captured general(s).
+RELEASE Set the captured general(s) free.
+
+BATTLE DISPLAY
+
+FIELD BATTLE SCREEN
+
+@ Map of Battle Site
+@® Mobility Points
+
+es Field Battle Unit. If the defending side flees to a city
+
+@ Field Battle Commands
+
+during a Field Battle, the battle will continue with a City
+
+Battle. The defending side will lose a number of soldiers
+at this time.
+
+CITY BATTLE SCREEN
+
+@® City Gate (Defense Level) @) Mobility Points
+@® City Battle Commands
+
+Archers Catapult Battering Ram
+
+BATTLE STATISTICS (STATS)
+
+© Provisions @ Division Number
+@ Number of Soldiers ® Remaining Days for Battle
+@® Spirit of Soldiers
+
+===== Page 22 =====
+
+RISE OF THE PHOENIX
+
+BATTLE COMMANDS
+FIELD BATTLE COMMANDS
+
+ATTACK
+Ground
+
+Directly attack an enemy division in a neighboring square. Your
+division will also incur some damages.
+
+Arrow
+
+Command your archers to attack an enemy unit from a distance.
+An arrow attack will allow you to inflict damages on the enemy
+without incurring any damages yourself. The possible number
+of arrow attacks depends on the division's Arms level (min. 2 -
+max. 12).
+
+Duel
+
+Challenge an enemy general to a duel. The challenged division
+has the choice to accept or refuse the challenge. If you refuse a
+challenge, the number of your soldiers and their Spirit will
+decrease. A defeated general will be taken as a prisoner of the
+enemy, and the soldiers and Spirit of the defeated division will
+decrease.
+
+Note: When using the Controller, you may switch between posi-
+tioning and commanding Field Battle units by pressing Button X.
+
+INFORMATION
+Statistics (Stats)
+
+View information on Soldiers, Spirit, and Provisions for the enemy
+and your own divisions, and the days remaining for battle.
+
+Ally
+
+View information on your own or ally divisions.
+
+THE ART OF WAR
+
+Enemy
+
+View information on enemy divisions.
+
+DELEGATE (DELG.)
+
+Delegate all control to the division. You may cancel delegated
+control by pressing Button B or the Right Mouse Button before it
+is your division’s turn to act.
+
+FLEE
+
+Retreat from the battle. The enemy on defense may choose which
+direction to flee. If you fail to flee, the division will be wiped out.
+When a division is at a friendly city, the division may choose to
+flee inside the city walls and the battle will continue into a
+
+City Battle.
+
+REST
+
+End commands for that division. The soldiers’ Spirit may increase
+depending on the remaining Mobility Points at this time.
+
+CITY BATTLE COMMANDS
+ATTACK
+Arrow
+
+Attack from a distance without incurring any damages by using
+your archers. This command may be carried out by either divi-
+sion on offense or defense, but is not possible during the night.
+
+Rock
+
+Inflict considerable damages on the enemy without harming your
+own division by catapulting rocks. This attack can only be execut-
+ed by the division on offense, and is not possible at night.
+
+=e
+
+===== Page 23 =====
+
+RISE OF THE PHOENIX
+
+Gate
+
+Batter the city gate and lower the Defense level of the city. This is
+only possible by the division on offense.
+
+Build
+Build up the defense of the city gate. This attack is only possible
+by the division on defense.
+
+Night
+
+Surprise the enemy by launching an attack at night. A successful
+attack at night will inflict heavier damages than attacks in day-
+light.
+
+Flood
+
+Lower the enemy’s spirit significantly by damming a river and
+flooding the city. This attack is possible only in cities where a
+river takes up two squares of eight surrounding positions, and is
+only possible as an offensive tactic.
+
+INFORMATION
+Statistics (Stats)
+
+View information on Soldiers, Spirit, and Provisions, for the
+enemy and your own divisions, and the days remaining in battle.
+
+Ally
+
+View information on your own or allied divi
+
+Enemy
+
+View information for enemy divisions.
+
+City
+
+View information on the city where the battle is being fought.
+
+DELEGATE (DELG.)
+
+Delegate all control to the division. You may cancel delegated
+control by pressing Button B or the Right Mouse Button before it
+is your division's turn to act.
+
+ORDER
+Flee
+
+Retreat from the battle to a neighboring square in the direction of
+your choice. Failure will result in capture of your generals, Gold,
+Provisions, and Soldiers by the enemy.
+
+Offer
+
+Send a messenger to the enemy and offer them a chance to sur-
+render.
+
+Peace
+
+Request a peace settlement with the enemy. A settlement will
+ensure a safe retreat.
+
+Stock
+
+Stock materials. Command is limited to the division(s) on
+defense.
+
+Draft
+
+Distribute drafted soldiers to each division. Command is limited
+to the division(s) on defense.
+
+REST
+
+End commands for that division. The soldiers’ Spirit may increase
+depending on the remaining Mobility Points at this time.
+
+===== Page 24 =====
+
+RISE OF THE PHOENIX
+
+HISTORICAL EVENTS
+
+Various events based on China’s history can occur throughout
+the game. Here are hints on how to view a couple of the numer-
+ous events:
+
+XIANG YU MEETS EMPRESS YU
+
+Select Xiang Yu and play either Scenario 1 or 2. CLAIM the city of
+Lin Zi sometime between May and December of 205 B.C. Witness
+Xiang Yu's first encounter with his destined love.
+
+FAN TSENG'S DEPARTURE
+
+Select Liu Bang in Scenario 1 or 2. Liu Bang must be at the city of
+Ying Yang, and Chen Ping must be in Liu Bang’s division. Xiang
+
+Yu must be neighboring Ying Yang, and Fan Tseng must be in
+Xiang Yu's division. It may be difficult to fulfill all these condi-
+tions, but this event marks an important turning point in Xiang
+Yu's fate.
+
+SEASONAL EVENTS
+
+Seasonal Events can occur randomly in the game. Each event is
+displayed by a marker. An up arrow indicates data that increases
+and a down arrow indicates data that decreases when an event
+occurs.
+
+BLIZZARD
+
+Heavy snowfall.
+December - March
+
+v: Spirit
+
+SAND STORM
+
+Harsh winds cause swirls of blinding sand in desert areas.
+| February - April
+J: Population, Spirit
+
+HEAVY RAINS
+
+Continuous heavy rain for several days or weeks.
+April - June
+b: Spirit
+
+FLOODS
+
+The water level in the rivers rise and flood over the banks.
+
+June - August
+
+: Health, Population, Crop Value, Defense Level, Number
+of Soldiers, Spirit
+
+| DROUGHT
+
+Days without rain endanger the city's crops.
+BA July-September
+b: Spirit
+
+HARVEST
+People in some areas will rejoice in a plentiful harvest.
+September
+*: Gold, Food
+
+THIEVES
+
+Cities are torn apart by mountain thieves.
+December - March
+J: Gold, Food, Population, Defense Level, Crop Value
+
+===== Page 25 =====
+
+RISE OF THE PHOENIX
+
+FOREIGN INVASION
+
+Foreign invaders wreak havoc in cities across the country.
+2 February, May, July, October
+: Health, Gold, Food, Population, Crop Value, Defense
+Level, Number of Soldiers
+
+RIOTS
+
+People rebel against the established rule and raise arms.
+February, May, August, November
+
+: Health, Gold, Population, Crop Value, Defense Level,
+Number of Soldiers, Spirit
+
+PLAGUE
+
+Diseases spread throughout the land.
+February - June, August - December
+: Health, Population, Number of Soldiers, Stamina
+
+EARTHQUAKE
+
+| An earthquake can cause damage to the land and the
+
+J: Health, Population, Crop Value, Defense Level, Number
+of Soldiers, Spirit
+
+CLOSED TO TRAFFIC
+
+Armies are unable to pass through areas marked by this
+symbol. When a division is at a position that becomes
+blocked, the division will automatically retreat to a nearby
+location. When a division is entrapped by blocked areas,
+that division will be destroyed.
+
+THE SPARK OF RIVALRY
+
+THE SPARK OF
+RIVALRY
+
+In the final years of the Qin empire, King Huai of Chu plotted his
+strategy against the Qin with the following proclamation to his
+generals: “Whosoever succeeds to enter and settle the Guan
+Zhong region, shall be crowned King of Guan Zhong.”
+
+Xiang Yu and Liu Bang set off with their ambitions to rule Guan
+Zhong (inside the Hangu Guan barrier) and eventually, all of
+China.
+
+THE RACE TO GUAN ZHONG
+
+Liu Bang and his army advanced westward towards Hangu Guan,
+occupying the cities of Wan and Wu Guan. In August of 207 B.C.,
+Liu Bang was the first to arrive in the Guan Zhong region. When
+he entered Xian Yang, the Qin capital, Emperor Tzu-ying surren-
+dered before him. Liu Bang was tempted to remain at the palace
+and enjoy his new found riches, but his clever generals Fan Kuai
+and Zhang Liang advised him to seal his treasures away and
+march back to his camp in Bashang.
+
+Xiang Yu traveled another path, marching north to support the
+Zhao army and defeating Qin General Zhang Han. When he contin-
+ued toward Guan Zhong, his way was barred by Liu Bang's army
+at the Hangu Guan border. Furious that Liu Bang had beat him to
+Guan Zhong, Xiang Yu stormed through Liu Bang’s guards and on
+to Hong Men. At the time, Liu Bang commanded only one fourth
+of the number of Xiang Yu's soldiers, and only a span of 12 short
+miles separated their camps. Liu Bang stood hopeless against
+Xiang Yu’s army, and his situation turned for the worse. The Left
+Marshal Cao Wu-shang spread rumors that Liu Bang was a man
+greedy for both the Qin treasures and the power of kingship.
+Xiang Yu’s trusted advisor, Fan Tseng, advised an all-out attack
+against Liu Bang at the break of dawn.
+
+===== Page 26 =====
+
+RISE OF THE PHOENIX
+
+That night, one man’s shadow stole into Liu Bang’s camp. It was
+Xiang Po, Xiang Yu’s uncle. Xiang Po went to warn Zhang Liang,
+Liu Bang’s advisor, because he was indebted to him for saving his
+life. Xiang Po explained the plan to attack Liu Bang, and advised
+his friend to flee. Instead, Zhang Liang informed Liu Bang at once
+and they asked Xiang Po to arrange and mediate a meeting with
+Xiang Yu. In return for this favor, Liu Bang promised to one day
+unite his family with Xiang Po’s family by marriage. Xiang Po
+returned to his camp and persuaded Xiang Yu to meet Liu Bang at
+Hong Men the next morning.
+
+Arriving at Hong Men with only one hundred soldiers on horse-
+back, Liu Bang began the talk with an apology: “Together we
+have fought against the Qin. I do not dare to think of becoming
+the King of Guan Zhong over you. Please, let us not fight over
+false rumors.”
+
+THE MEETING AT HONG MEN
+
+aang detained Liu Bang by hosting a banquet for him. To dis-
+play his superiority in strength, ma a seated his generals with
+him at the head of the table. During the banquet, Fan Tseng
+raised a jade chueh (an ornament in the shape of a broken ring)
+three times; a signal for Xiang Yu to break ties with Liu Bang and
+destroy him. Xiang Yu, however, failed to respond. Frustrated,
+Fan Tseng called Xiang Zhuang to his side and ordered him to
+attack Liu Bang under the guise of a sword dance. Catching on to
+this scheme, Xiang Po stood and drew his sword to protect Liu
+Bang while he took part in the dance. In the meantime, Zhang
+Liang rushed outside to speak with Fan Kuai, a guard.
+
+“General Zhang Liang, how are things inside?”
+
+“Very tense. Xiang cian is performing a sword dance, but it is
+te ki
+
+quite obvious that he is after Liu Bang.
+
+“Twill take care of this.”
+
+Fan Kuai pushed into the banquet hall with sword and shield in
+hand. He glared at Xiang Yu with eyes as sharp as knives and his
+hair standing on end.
+
+THE SPARK OF RIVALRY
+
+“Who do you think you are?”
+“lam Liu Bang’s bodyguard, Fan Kuai.”
+“Hm, a brave soul. Bring this man some wine!”
+
+Fan Kuai’s cup was filled and he proceeded to drink at once. Then
+Xiang Yu served him a leg of pork, which Fan Kuai laid on his
+shield, cut with his sword, and consumed.
+
+“You are a fine warrior. Can you still drink?”
+
+“This wine is nothing to a man who harbors no fears; not even of
+death. Liu Bang defeated the Qin and entered Xian Ying before
+you,” Fan Kuai continued, “but he touched nothing and waited for
+you to arrive. The soldiers he placed at the Hangu Guan border
+were to protect the region from thieves. After all this, you not
+only fail to reward him but you seek to destroy him. You are no
+different from the oppressive rulers of Qin. Such ruthlessness will
+not serve your cause!”
+
+Even Xiang Yu had no words to say in return.
+Shortly after, Liu Bang left the banquet with Fan Kuai.
+“I left without excusing myself,” said the worried Liu Bang.
+
+“You can not be concerned with such small matters when more
+important issues are at stake. Right now, the opponent is the knife
+and cutting board, and we are the fish. You need not be con-
+cerned about being polite.”
+
+So Liu Bang rode back to Bashang on horseback, while Fan Kuai,
+Xiahou Ying, Jin Jiang, and Ji Xin accompanied him on foot. When
+Zhang Liang figured that Liu Bang had reached Bashang, he went
+back to apologize for Liu Bang’s rudeness. He offered white jade
+discs to Xiang Yu and wine cups to Fan Tseng .
+
+Xiang Yu accepted the gift. Fan Tseng, however, drew his sword
+and smashed the cups into pieces.
+
+“Aagh! My advice is wasted on you, Xiang Yu! The only man who
+can keep you from ruling China is Liu Bang. You have let him
+escape, and now we are destined to become his prisoners.”
+
+===== Page 27 =====
+
+RISE OF THE PHOENIX
+
+XIANG YU
+“I SHALL REPLACE HIM”
+
+NAME:
+
+Xiang Yu, Commander of the
+Chu army
+
+DATE OF BIRTH:
+232 B.C.
+
+FAMILY HISTORY:
+Comes from an aristocratic
+family of Chu generals. He was
+__ reared by his uncle, General
+
+_ Xiang Liang, from a young age.
+CHARACTERISTICS:
+Stands 6 feet tall and has poly-
+coria, an eye disease that
+
+makes one eye appear as if it
+has double pupils.
+
+STRONG POINTS:
+
+Extremely intelligent and ambi-
+tious. He can cut things in half
+
+with a single stroke of the
+sword.
+
+WEAK POINTS:
+
+Tendency to be shrewd and
+reckless.
+
+THE SPARK OF RIVALRY
+
+LIU BANG
+“I SHALL BECOME LIKE HIM”
+
+NAME:
+Liu Bang, Commander of the
+
+| Hanarmy
+
+DATE OF BIRTH:
+Approximately 247 B.C.
+
+FAMILY HISTORY:
+
+He is the youngest child of
+father Tai Gong, a farmer, and
+mother Liu Ao.
+
+CHARACTERISTICS:
+
+He has a boyish face with a tall
+nose and 72 birthmarks on his
+
+left thigh.
+
+STRONG POINTS:
+Generous and open-minded.
+
+WEAK POINTS:
+Lack of social graces.
+
+===== Page 28 =====
+
+RISE OF THE PHOENIX
+
+SCENARIOS
+
+SCENARIO 1:
+206 B.C. XIANG YU'S GLORY
+
+King Huai of Chu had delivered his proclamation to his generals.
+“Whosoever succeeds to enter and settle the Guan Zhong region
+shall be crowned the King of Guan Zhong.” His orders were for
+Xiang Yu to head north and support the Zhao army and Liu Bang
+to head west towards Hangu Guan. After eliminating Song Yi, the
+Commanding General of the Chu army, Xiang Yu defeated a Qin
+army in Ju Lu, and advanced towards Hangu Guan. Liu Bang, on
+the other hand, avoided battles as he advanced to Hangu Guan. In
+the meantime, Tzu-ying, the past emperor’s nephew, undermined
+the second Qin emperor and assumed the throne. When Liu Bang
+entered Xian Yang, Tzu-ying surrendered before him, signifying
+the end of the Qin Dynasty. Liu Bang, thus occupied the Guan
+Zhong region before any other general.
+
+Xiang Yu could not hide his anger over his loss to Liu Bang and
+was determined to destroy him. Hearing this news, Liu Bang
+departed for Xiang Yu's camp, hoping to ease his rival’s temper.
+Their encounter became the famous meeting at Hong Men, in
+which Xiang Yu spared Liu Bang’s life, but clearly showed his
+superiority in brute strength.
+
+When Xiang Yu returned to the east, he exalted King Huai as the
+Righteous Emperor. After declaring himself the Overlord of West
+Chu, he rewarded the kings and generals who supported him in
+the struggle against the Qin. Using these powers, he made Liu
+Bang king of a hinterland of the Guan Zhong region. Thus, Xiang
+Yu successfully exiled Liu Bang far to the south.
+
+For six months, Liu Bang obediently followed Xiang Yu's orders
+while he waited for his hour of revenge. In that time, he obtained
+the talented General Han Xin. When he determined that his army
+was prepared, he set out for Guan Zhong. The battle of the Han
+against the Chu was about to take place.
+
+SCENARIO 2:
+205 B.C. LIU BANG DECLARES WAR
+
+One year had passed since Xiang Yu drove Liu Bang into Han
+Zhong. Since then, the Righteous Emperor had become an obsta-
+cle in Xiang Yu's path to rulership. In a plot to clear the way,
+Xiang Yu suggested that the Righteous Emperor move his capital
+to Zhang Sha, and had him assassinated enroute.
+
+Liu Bang, in the meantime, emerged from Han Zhong prepared to
+embark on his eastern offensive. Liu Bang presented another
+obstacle to Xiang Yu, but he was distracted with a more immedi-
+ate task.
+
+Xiang Yu had rewarded Qi General Tian Du the title, King of Qi.
+Dissatisfied with the rewards, Tian Rong assassinated Tian Du
+and assumed the throne himself. Xiang Yu, therefore, went to Qi
+and defeated Tian Rong. In a show of power, Xiang Yu set the Qi
+castle in flames, trapped the Qi soldiers in a hole, and took the
+elderly, weak, and women as his prisoners. Expectedly, Xiang Yu
+alienated himself from the Qi people, and was met with resistance
+by the Qi army led by Tian Rong’s brother, Tian Heng.
+
+During this time, Liu Bang crossed the Yellow River with the flags
+of Zhang Liang and Wei Bao, the King of Wei, at his side. After
+occupying He Nei, Liu Bang captured the King of Yin, and
+advanced south into Luo Yang.
+
+In Luo Yang, Liu Bang received news about the brutal end of the
+Righteous Emperor and grieved his loss by entering a period of
+mourning. He also sent a messenger to declare war on Xiang Yu.
+The two warriors were destined to meet on the battlefield.
+
+SCENARIO 3:
+204 B.C. THE BATTLE AT GUANG WU
+
+While Xiang Yu settled the riots in Qi, Liu Bang succeeded in tak-
+ing over the Peng Cheng castle. Liu Bang’s army was weakened,
+however, and could not stand against Xiang Yu's army when they
+returned to reclaim their castle. In his escape, Liu Bang stopped
+
+===== Page 29 =====
+
+RISE OF THE PHOENIX
+
+at his home in Pei, but Xiang Yu was one step ahead of him. Liu
+Bang’s parents and wife had been taken as prisoners. Liu Bang
+himself was surrounded by the Chu army, but with General
+Xiahou Ying’s help, he escaped safely with his two children.
+
+As Liu Bang was about to launch his counterattack, Wei Bao
+betrayed him for Xiang Yu. Liu Bang ordered Han Xin to destroy
+Wei Bao, and occupied the state of Wei. Han Xin further accompa-
+nied Zhang Er against the Zhao forces and displayed his brilliant
+tactics when he defeated Chen Yu's army in the Battle at Jingxing.
+
+Xiang Yu reclaimed the Peng Cheng castle and chased Liu Bang to
+Ying Yang. In these dire straits, Chen Ping, one of Liu Bang’s
+clever generals, suggested a plan that would separate Fan Tseng
+and Xiang Yu. The plan succeeded, but Xiang Yu and his forces
+continued to entrap Liu Bang. Liu Bang finally escaped to Wan by
+baiting General Ji Xin as his decoy.
+
+Xiang Yu, however, persisted in his pursuit. Liu Bang fled from
+Cheng Gao to Zhao, and had just reestablished his defenses when
+Han Xin and Zhang Er rejoined his forces.
+
+Both Liu Bang and Xiang Yu were well-prepared to battle each
+other at Guang Wu.
+
+SCENARIO 4:
+203 B.C. RISE OF THE PHOENIX
+
+The battle at Guang Wu lasted for over a year. Liu Bang received
+provisions from Hsiao Ho in Guan Zhong and his army remained
+strong. In another camp, Xiang Yu’s army consumed their provi-
+sions and showed signs of fatigue.
+
+Xiang Yu hoped to turn the situation around by threatening to kill
+Liu Bang’s father, Tai Gong, but Liu Bang did not flinch. When
+Xiang Yu challenged Liu Bang to a duel, Liu Bang coyly replied, “I
+will fight with wisdom, not brute strength.” Then as Liu Bang
+publicly criticized his rival’s faults, he was shot in the chest with
+an arrow from Xiang Yu's bow.
+
+When Liu Bang was nursed back to health, he approached Xiang
+Yu with a peace settlement. They agreed to divide the empire in
+
+ie
+
+half and release all prisoners. It seemed as if both sides would lay
+down their arms and return home in peace.
+
+Liu Bang, however, betrayed the agreement and launched a sur-
+prise attack on Xiang Yu's exhausted army. He had counted on
+reinforcements from the Han Xin and Peng Yue armies, but when
+they failed to appear, his army suffered considerable damages. At
+Zhang Liang’s advice, Liu Bang promised Generals Han Xin and
+Peng Yue generous rewards of land in exchange for their support.
+Shortly after, both generals and their armies arrived in Gai Xia to
+fight with Liu Bang.
+
+Xiang Yu was entrenched in the Gai Xia fortress, but he had few
+
+remaining soldiers, few provisions, and was surrounded on all
+four sides by Liu Bang’s forces. Fate was about to reveal itself to
+
+these heroes.
+
+===== Page 30 =====
+
+RISE OF THE PHOENIX
+
+XIANG YU
+GR. When Xiang Yu was born, Chu had been defeated by
+the Qin and members of the jana fanally fled to all
+areas of the country. Thus, Xiang Yu followed his
+
+uncle, Xiang Liang, from a very young age. He
+
+learned how to read, write, and use the sword, but
+
+excelled in none of these areas. “Writing can only
+e
+
+L teach to write your name,” Xiang Yu said, “and t!
+art of the sword can only teach combat with a single person. |
+want to learn how to fight ten thousand men at once.” From that
+day, his uncle gladly taught him the strategy of war.
+
+Xiang Yu quickly rose in rank to lead one of the most powerful
+armies of his time. His policies, if not sometimes cruel, instilled
+both reverence and fear in fellow warriors and people of his land.
+Eventually, his policy of brute force and reckless massacres
+caught up with him. Surrounded by the Han army with few
+remaining provisions or soldiers, Xiang Yu heard songs of Chu
+coming from the enemy camp. Dismayed at how many people
+had sided with Liu Bang, Xiang Yu expressed his grief in the fol-
+lowing song about his wife, Yu, and his prized horse, Chui.
+
+strength uprooted the mountains,
+spirit overtopped the world.
+
+But the times are against me;
+
+And Chui can gallop no more.
+
+When Chui can gallop no more,
+
+What can I do?
+
+And what is to become
+
+Of Lady Yu?
+
+(Translated poem taken from Records of the Historian. See
+Suggested Reading , page 61.)
+
+After facing defeat in the battle at Gai Xia, Xiang Yu took his own
+life in 202 B.C. at Wu Jiang.
+
+LIU BANG
+
+In 208 B.C., Liu Bang advanced towards the Guan
+Zhong region under the orders of the Righteous
+Emperor. A year later, Liu Bang arrived in Xian Yang
+before any other army. After Qin Emperor Tzu-ying
+surrendered, Liu Bang sealed the capital treasures
+and placed soldiers at the Hangu Guan barrier to
+guard the Guan Zhong region. Confronted by the
+powerful Chu army, Liu Bang retreated to Bashang, rather than
+make Xiang Yu his enemy. After a near escape at Hong Men, Liu
+Bang became the King of Han Zhong and was sent to Nan Zheng.
+For the next six months, he waited for his time to arrive. In the
+meantime, he obtained General Han Xin for his army and in 205
+B.C. declared, “The heavens are behind me to destroy the man
+who is responsible for the Righteous Emperor's brutal end.” Liu
+Bang proceeded to raise arms against Xiang Yu and advanced
+towards Guan Zhong.
+
+While Xiang Yu was away, Liu Bang occupied the Peng Cheng cas-
+tle. His army, however, could not stand up to the Chu army when
+they launched their counterattack. Liu Bang fled with only ten or
+so soldiers on horseback, but during his escape, his wife and par-
+ents were captured by Xiang Yu. At Ying Yang, the battle was in
+Liu Bang’s favor when his army received supplies and fresh so-
+diers from Hsiao Ho. When his supplies finally ran low, Liu Bang
+escaped the battlefield by setting up General Ji Xin as a decoy.
+
+After fighting the Chu army for over a year in the battle at Guang
+Wu, Liu Bang offered Xiang Yu a settlement that would divide the
+empire between the east (Han) and west (Chu). After a settlement
+was reached and the Chu army began to retreat, however, Liu
+Bang attacked Xiang Yu and his army from the rear. When the
+Chu army counterattacked at Gu Ling, Liu Bang received support
+from Han Xin and Peng Yue in exchange for promises of generous
+rewards. The Han army was victorious at Gai Xia and Liu Bang
+secured his position as the Han Emperor when Xiang Yu took his
+
+life in 202 B.C. Liu Bang passed away in 195 B.C. after sup-
+pressing Qing Bu’s revolt.
+
+===== Page 31 =====
+
+RISE OF THE PHOENIX
+
+XIANG PO
+
+Xiang Po was a former officer of the state of Chu
+and uncle of Xiang Yu. His most important role in
+the history of China were his actions in the Hong
+Men meeting. As a result, his family was united with
+Liu Bang's through marriage after Xiang Yu's defeat.
+
+Fan Tseng was from Ju Chao, and became Xiang
+Liang’s advisor at the age of seventy. When Xiang
+Liang passed away, he continued to serve as an
+advisor to Xiang Yu and participated in many great
+wars from the Zhong Yuan to Guan Zhong regions.
+Fan Tseng was Xiang Yu's most trusted advisor, but
+Chen Ping devised a plan in which Xiang Yu became
+suspicious of Fan Tseng's loyalty and alienated him. As a result,
+Fan Tseng resigned, but in the return home, he sadly fell ill from
+an abscess which developed on his back, and died.
+
+ZHANG LIANG
+
+Zhang Liang was born of a prestigious family, from
+which near relatives had served as the Grand
+Counselors of Hann for several generations. After
+the Qin destroyed the Hann, Zhang Liang vowed to
+seek revenge for the Hann state. During one of Shi
+Huangdi’s expeditions, Zhang Liang attempted an
+assault against the Emperor, but failed and became
+a fugitive. While he was in hiding, two significant events occurred
+in his life. Firstly, he met a shabby, old man who gave him a book
+titled, The Patriarch Lu Shang’s Art of War. Secondly, he befriend-
+ed Xiang Po, who was fleeing after committing a crime. Ten years
+later, Zhang Liang joined the fight against the Qin empire and met
+Liu Bang. Zhang Liang supported Liu Bang with his wits and brik
+liance for strategy, and became one of the three founders of the
+Han Dynasty.
+
+pinscsiose HO
+
+Hsiao Ho was from Pei and assisted Liu Bang since
+Liu Bang was a civil servant under the Qin. When
+Liu Bang entered the Qin capital, Hsiao Ho was the
+only soldier to secure the Qin documents of laws
+and maps, while other soldiers were preoccupied
+with the treasures and pela These important docu-
+ments later proved useful in establishing the Han
+Dynasty. Hsiao Ho was largely responsible for managing state
+affairs and securing provisions for Liu Bang’s army. His adminis-
+trative talents led him to become one of the three founders of the
+Han Dynasty.
+
+HAN XIN
+
+Han Xin was an excellent warrior from Huai Yin.
+When he was young, people called him “All Fours
+Han Xin” and labeled him a coward, since a vagrant
+intimidated him to crawl between his legs. He dis-
+played his true courage and talent after he betrayed
+Xiang Yu and joined Liu Bang's army. After much
+persuasion from Hsiao Ho, Liu Bang promoted Han
+
+Xin to Commanding General, and Han Xin secured victory in every
+
+battle he fought. He showed brilliant strategy when he fought and
+
+defeated Chen Yu’s army at Jingxing. His heroic achievements
+
+led him to be considered one of the three founders of the
+
+Han Dynasty.
+
+CHEN PING
+
+Chen Ping was from Shen Wu and originally served
+under the King of Wei. When the King refused to lis-
+ten to his strategy, however, Chen Ping betrayed
+him for Xiang Yu. Under Xiang Yu, he negotiated a
+settlement with Sima Quong, the King of Yin, but
+Sima Quong immediately betrayed the agreement.
+Fearing Xiang Yu's punishment, Chen Ping fled to
+Liu Bang’s side. Liu Bang recognized his abilities and immediately
+promoted him to the rank of officer. He was a brilliant planner of
+unusual schemes. Under Liu Bang, six of his plans succeeded,
+
+===== Page 32 =====
+
+RISE OF THE PHOENIX
+
+including separating Xiang Yu and his most trusted advisor,
+Fan Tseng.
+
+FAN KUAI
+
+Fan Kuai was from Pei and became the caretaker of
+Liu Bang’s carriage when Liu Bang was a civil ser-
+vant. He continued to follow Liu Bang throughout
+the struggle against the Qin and Xiang Yu. Fan Kuai
+was one of Liu Bang’s strongest and smartest men,
+as displayed in his actions at Hong Men. He contin-
+ued to be a great asset even after Liu Bang con-
+quered Xiang Yu by helping suppress his rivals throughout the
+country.
+
+QING BU
+
+Qing Bu was one of the bravest heroes of his time.
+His real name was Ying Bu, but from the time he was
+penalized with a tattoo (qing) on his face for a
+
+minor crime, people called him Qing Bu. He was a
+fugitive and lived as a thief along the Yangtze River
+until he decided to raise arms with Chen Sheng and
+join Xiang Liang’s army. He fought in the front lines
+with Xiang Yu and secured important victories for the Chu army.
+Later, however, he was persuaded by Sui Ho to side with Liu
+Bang. He was a great force in defeating Xiang Yu. But later, when
+Liu Bang began to purge many of his trusted generals, Qing Bu
+rebelled against Liu Bang and led a path towards his own demise.
+
+SUGGESTED
+READING
+
+The following books are useful sources for further information
+on China's history.
+
+Hook, Brian, ed. The Cambridge Encyclopedia of China,
+Cambridge, 1991.
+
+Hookman, Hilda. A Short History of China, New York, 1970.
+
+Szuma Chien, translation by Yang Hsien-yi and Gladys Yang.
+Records of the Historian, Hong Kong, 1975.
+
+===== Page 33 =====
+
+RISE OF THE PHOENIX
+
+WARRANTY
+
+90-Day Limited Warranty
+
+Koei Corporation warrants to the original consumer purchaser that this game pak shall be free
+from defects in material and workmanship for a period of 90 days from date of purchase. If a
+
+defect covered by this warranty occurs during this 90-day warranty period, Koei will repair or
+
+replace the game pak, at its option, free of charge.
+
+To receive this warranty service:
+
+1, Send in your Registration Card.
+
+2. Save your sales receipt, indicating date of purchase, and the UPC code found on the game
+packaging.
+
+3, It your game is covered under a store warranty, return the game pak to the store at which you
+purchased the game.
+
+4. If the game develops a problem requiring service during the 90-day warranty period, and is
+not covered by a store warranty, notify Koei Corp. by calling the Technical Support Dept. at
+(415)348-0500, between the hours of 9 a.m. to 4:45 p.m. Pacific Standard Time, Monday
+through Friday.
+
+5. If the Koei Service Representative is unable to solve the problem by phone, you will be provided
+with a Return Authorization number. Record this number prominently on the outside packaging
+of your defective game pak, enclose your name, address and phone number, and return the
+ame pak, FREIGHT PREPAID AND INSURED FOR LOSS OR DAMAGE, together with your sales
+and the UPC code within the 90-day warranty period to:
+
+KOEI Corporation
+1350 Bayshore Hwy. Ste. 540
+Burlingame, CA 94010.
+
+This warranty shall not apply if the game pak has been damaged by negligence, accident,
+
+unreasonable use, modification, tampering, or by other causes unrelated to defective
+
+materials or workmanship.
+
+Service After Expiration of Warranty
+
+If the game pak develops a problem requiring service after the 90-day warranty period, you may
+contact the Koei Technical Support Dept. at the phone number noted previously. If the Koei
+Service Representative is unable to solve the problem by phone, you may be provided with a
+Return Authorization number and asked to send the game pak to Koei for personal inspection.
+Record this number prominently on the outside packaging of the defective game pak and return
+the merchandise, FREIGHT PREPAID AND INSURED FOR LOSS OR DAMAGE, to Koei with a
+check or money order for $20 to cover repair or replacement, payable to Koei Corporation. Koei
+reserves the right to change the post-warranty service fee and/or policy.
+
+Online Support
+
+CompuServe: GO VIDPUB, Section 4. Send E-Mail to 1.0. #76711,1455. CompuServe can be
+obtained by calling 1-800-524-3388 and asking for Rep. 606 in order to receive a free introduc-
+tory membership, $15 usage credit, and one month of basic services free.
+
+© 1995 KOEI Corporation
+
+===== Page 34 =====
+
+y
+. mastered games like
+Breath of Fire™ and
+, Brain Lord,” we
+think you're ready
+for a role-playing
+game where the sun doesn’t
+shine and the monsters grow big, really big! In
+Brandish, you stand accused of murder, being pursued by a fearless
+bounty hunter looking to collect the reward. About to be captured,
+
+and deadly monsters including: giant crabs, headless fist pounding
+warriors and fire spitting gargoyles. With the bounty hunter still
+
+FANT hot on your trail, you must navigate your way out of the
+rey mazes and back to the surface ASAP. Our only advice: stay
+
+alert, well armed and always moving upwards!
+
+you fall into a deep underworld maze filled with dangerous traps |
+
+FEATURES: Navigate your way through 5 treacherous levels, defend yourself
+against 55 different underworld monsters, seek more than 50 different items that will
+help you in your quest, save up to two games at any one time!
+
+~ Set sail with
+your fleet on a journey to discov-
+er exciting ports and valuable
+treasures. Play either a youn;
+
+Portuguese sailor, S ak
+woman pirate, Bonet royal
+4 commander, Dutch geographer,
+Italian adventurer or Turks!
+
+trader! Build a strong fleet as
+you trade goods, purchase
+exotic items and combat pirates!
+
+FEATURES: One player RPG adventure, select from six characters each with a
+different scenario, 129 ports to discover, sea battles, battery back-up to save games.
+
+Cp
+. A and airline competition is
+fiercer than ever. As CEO of a
+global airline, it's your job to make f
+‘sure passengers can get from Dallas to .
+Denver as easily as from London to Tokyo. Purchase futuristic aircraft, including
+‘Supersonic jets, set up hubs on every continent with the goal of an impressive
+network and offer special services to distinguish yourself from the competition.
+FEATURES: 1 — 4 players, 4 scenarios, historical and futuristic aircraft, 88 cities, bat-
+tery back-up to save games.

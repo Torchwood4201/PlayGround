@@ -1,0 +1,690 @@
+# Wheel of Fortune
+source: https://archive.org/details/snes_manual_archive
+pdf: Wheel of Fortune (USA).pdf
+region: USA
+pages: 12
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNS-WL-USA
+
+‘WHEEL @E
+FORTUNE
+
+INSTRUCTION BOOKLET
+
+GAMETEK*
+
+2999 N.E. 191st Street
+_ Suite 800
+North Miami Beach, FL 33180
+
+Wheel of Fortune® is based upon the television program produced by Merv
+Griffin Enterprises, a Unit of Sony Pictures Entertainment Inc. Copyright
+© 1992 Califon Productions, Inc. Wheel of Fortune is a registered trademark
+of Califon Productions, Inc. All rights reserved. Packaging and computer
+Source codes ©1992 GameTek/IJE Inc. All rights reserved. Nintendo®, Super
+Nintendo Entertainment System® and the official seals are trademarks of
+Nintendo of America Inc, © 1992 Nintendo of America Inc.
+
+Printed in Japan.
+
+GAMETEK* SUPER NINTENDO.
+
+TERTAINMENT SYSTEM
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED
+CONSUMER INFORMATION AND PRECAU-
+TIONS BOOKLET CAREFULLY BEFORE USING
+YOUR NINTENDO® HARDWARE SYSTEM OR
+GAME PAK.
+
+PRESENTING WHEEL OF FORTUNE featuring
+VANNA WHITE for your SUPER NINTENDO ENTER-
+TAINMENT SYSTEM. With over 4,500 new puzzles,
+amazing new digitized graphics and sound effects,
+you'll feel as if you’re actually in the studio with
+Vanna White. Soon you'll experience the challenge
+and intrigue of America’s favorite TV game show.
+
+THANK YOU for purchasing the GameTek Wheel of Fortune featuring
+Vanna White Game Pak for your Super Nintendo Entertainment System.
+Before you get started, please read this instruction manual thoroughly to
+ensure maximum enjoyment of your new Game Pak. Please save your
+manual in a convenient place for future reference.
+
+Official
+
+\. Seal of Quality
+
+LICENSED By
+
+(Nintendo)
+
+NINTENDO, SUPER NINTENDO ENTER- THIS OFFICIAL SEAL IS YOUR ASSUR-
+TAINMENT SYSTEM AND THE OFFICIAL ANCE THAT NINTENDO HAS APPROVED.
+SEALS ARE REGISTERED TRADEMARKS — THE QUALITY OF THIS PRODUCT.
+
+OF NINTENDO OF AMERICA INC, ALWAYS LOOK FOR THIS SEAL WHEN
+BUYING GAMES AND ACCESSORIES TO.
+©1992 NINTENDO OF AMERICA INC. ENSURE COMPLETE COMPATIBILITY
+
+WITH YOUR SUPER NINTENDO ENTER.
+TAINMENT SYSTEM. ALL NINTENDO.
+PRODUCTS ARE LICENSED BY SALE FOR
+USE ONLY WITH OTHER AUTHORIZED
+PRODUCTS BEARING THE OFFICIAL
+SEAL OF QUALITY.
+
+CONTENTS
+How to Use Your C
+
+Hints on Game Play.
+
+controller.
+
+Other Exciting GameTek Products
+
+for Your Super NES.
+
+===== Page 3 =====
+
+A
+
+Controlle
+
+If 1 player plays alone or against the computer,
+only Controller 1 is used.
+
+If 2 human players are competing, either alone or
+against a computer player, Player #1 uses Controller
+1 and Player #2 uses Controller 2.
+
+If 3 human players are competing, Player #1 uses
+Controller 1. Player #2 and Player #3 share
+Controller 2 and take turns using it.
+
+NOTE: Player #1 must not use his/her Controller
+while the other players are entering in their choices.
+This will disrupt game play.
+
+Control Pad
+
+The Cursor: Use the Control Pad to position the cur-
+sor/arrow on either the selection wheels (SPIN,
+VOWEL, SOLVE) or the letter you wish to choose.
+This is done by pressing the pad in the direction
+you wish to go; up, down, left or right. When the
+cursor/arrow is over your selection, press Button X
+to lock in your choice.
+
+When selecting Spin, Vowel or Solve, you may enter
+your choice by either placing the cursor/arrow on
+the appropriate wheel or by using the following
+button commands:
+
+Button Y- Selects the Spin Option
+
+Button B - Selects the Vowel Option
+
+To PAUSE the game, press the START Button.
+
+To RESUME game play, press the START Button
+again.
+
+When the game is paused, you may RESET the
+game by pressing the SELECT Button.
+
+If you wish to skip the SPINNING WHEEL screen,
+you may do so after having entered the strength of
+the spin by pressing Button X, when the power bar
+is at the desired level.
+
+Control Pad
+* Moves Cursor
+
+SELECT Button
+¢ Selects New Puzzle at Start of Round
+e Resets Game When in Pause Mode
+
+START Button
+
+¢ Starts Game
+
+¢ Bypasses Introductory Sequence
+* Pauses Game
+
+¢ Resumes Game Play After Being Paused
+
+Button A- Selects the Solve Option
+1 a 2
+
+===== Page 4 =====
+
+Button X
+
+¢ Locks in Cursur Choice Throughout the Game
+¢ Skips Spinning Wheel Section
+
+¢ Selects Strength of Spin
+
+Button Y
+Selects Spin (Alternatively, you may place the cur-
+sor over the spin wheel and lock in your choice with
+Button X.)
+
+Button B
+
+* Buys a Vowel (Alternatively, you may plaee the
+cursor over the buy wheel and lock in your choice
+with Button X.)
+
+Button A
+
+¢ Solves Puzzle (Alternatively, you may place the
+cursor over the solve wheel and lock in your choice
+with Button X.)
+
+1. To begin the game, press the START Button when
+prompted.
+
+2. Select how many cont-
+estants will compete by
+moving the cursor over the
+desired number of players:
+1, 2 or 3. Press Button X
+to lock in your selection.
+If you wish to compete
+against a computer player
+or players, please count
+them in at this time. For example, if you wish to
+play alone against 2 computer players, enter 3
+contestants.
+
+3. Now, select the number
+of computer players you
+wish to compete against.
+Enter your selection by
+placing the cursor over
+your choice and pressing
+Button X.
+
+===== Page 5 =====
+
+4. At the prompt, enter the
+names of the human play-
+ers in the order in which
+you wish them to compete
+by moving the cursor over
+the desired letters and lock-
+ing them in by pressing
+Button X. The names being
+entered can be no more
+than 10 characters long. After you have entered each
+name, move the cursor over END and press Button X.
+If you make a mistake while entering a name, move
+the cursor over DEL and press Button X to delete each
+letter.
+
+5. To choose your charac-
+ter, place the cursor over
+your selection and press
+Button X. This should be
+done for each human
+player as prompted by the
+computer.
+
+6. If you are playing
+against a computer player
+or players, they will enter
+their own name(s) and
+contestant(s).
+
+1. The screen opens with the Wheel of Fortune
+board displaying the category and the puzzle. The
+category could be: PERSON, PEOPLE, PHRASE,
+PLACE, EVENT, TITLE, THING, THINGS, FICTIONAL
+CHARACTER, SAME NAME or BEFORE AND AFTER.
+
+a. The letters involved in the puzzle will be
+highlighted in gray.
+
+b. The players’ names appear in the order of
+play, going from left to right across the top of the
+screen,
+
+c. The round that you are in is displayed just
+above the game board.
+
+d. All of the player’s information is displayed as
+follows:
+
+Free Spins
+Accumulated
+
+Winnings
+
+===== Page 6 =====
+
+2. A message will appear
+on the bottom of the
+screen indicating that it is
+Player #1’s turn to play.
+Player #1 may choose
+to SPIN, buy a VOWEL
+or SOLVE the puzzle.
+(Players usually elect to
+SPIN for the first few times
+until several letters appear on the board.)
+
+3. In order to buy a vowel, the player must have at
+least $250 in winnings for the current round.
+
+4. A player must make the decision to SPIN, buy a
+VOWEL or SOLVE the puzzle quickly, as the timer
+located in his/her score box is counting down. (The
+timer is indicated by a white bar appearing under
+the contestant’s name and counts down from right to
+left.) If the decision is not made within the allotted
+time, a message will come up on the screen indicat-
+ing that the player has run out of time. If the player
+runs out of time, play passes to the next player.
+
+5. CHOOSING TO SPIN:
+
+a. If you, as Player #1, decide to SPIN, lock in
+your choice with Button X, or alternatively
+press Button Y.
+
+b. After selecting SPIN, you will go to the contest-
+ant screen.
+
+a
+
+c. The strength you
+exert to spin the Wheel is
+indicated by a white line
+appearing directly under
+your name. Press Button
+X to select the desired
+strength. (The longer the
+white line, the more
+power in the spin.)
+
+d. The Wheel now appears on the screen and
+spins. To skip this screen, press Button X.
+
+e. When the Wheel
+stops, the dollar amount
+which it lands on deter-
+mines the value of the
+consonant you will be
+selecting during your turn.
+
+f. After the Wheel stops spinning, you will be
+returned to the contestant screen where you will be
+applauded by the other contestants.
+
+g. In addition to landing on a dollar amount,
+the following may happen:
+
+1. If the Wheel stops on BANKRUPT, you will
+lose all of your winnings for the current round.
+
+===== Page 7 =====
+
+2. If the Wheel stops on MISS A TURN, you
+lose your next turn,
+
+3. If the Wheel
+stops on FREE SPIN, you
+will earn a FREE SPIN [f= =
+only if you choose a con-
+sonant correctly. You can
+use this FREE SPIN during
+any round, except the
+bonus round.
+
+6. ENTERING YOUR CONSONANTS:
+
+Once the value of your letter is determined, the
+game directs you to ENTER A CONSONANT. Scroll
+right or left with the cursor to the letter of your
+choice and lock it in with Button X.
+
+a. If the consonant is correct, its location lights
+up on the game board and Vanna turns over the let-
+ter. The value of the spin for that consonant is
+entered above your name. (If that consonant
+appears more than once, the value of your spin is
+multiplied by the number of times that particular
+consonant appears in the puzzle.) If your choice is
+correct, you will once again be prompted to SPIN,
+buy a VOWEL or SOLVE the puzzle. You may contin-
+ue playing until you either choose a consonant not
+in the puzzle, incorrectly try to solve the puzzle, spin
+the Wheel and land on MISS A TURN or BANKRUPT,
+or run out of time when selecting the letter.
+
+|
+|
+
+b. If your consonant is incorrect, the game
+informs you that that consonant is not in the puz-
+zle. Play then passes on to the next contestant.
+
+7. BUYING A VOWEL
+
+You may choose to buy a vowel as long as you have
+earned $250 in the current round of play.
+
+a. If you decide to buy a vowel, either place the
+cursor over the VOWEL wheel and press Button X,
+or simply press Button B.
+
+b. The $250 is deducted from your winnings
+whether or not that vowel is in the puzzle.
+
+c. The cost of a vowel is always $250, regardless
+of how many times that vowel appears in the puzzle.
+
+d. If you do not have $250, you will not be
+allowed to buy a vowel.
+
+e. If you choose a vowel that is not contained in
+the puzzle, play passes on to the next player.
+
+8. SOLVING THE PUZZLE
+
+During any of your turns, you may choose to solve
+the puzzle.
+
+a. Move the cursor to SOLVE and Jock in with
+Button X or press Button A.
+
+b. A flashing tile appears at the first missing let-
+ter. Move the cursor over the letter of your choice
+
+0 Se es a Ee ej ()
+
+===== Page 8 =====
+
+and lock in by pressing Button X. Continue to enter
+the missing letters until you have completed the
+puzzle or run out of time.
+
+c. When you have completed the puzzle, move
+the cursor to END and press Button X.
+
+d. If you make a mistake when entering the let-
+ters, move the cursor to DEL and press Button X to
+delete the last entry.
+
+e. If your solution is
+correct, a message will
+appear congratulating
+you on winning the round
+and your winnings for
+that particular round will
+be displayed.
+
+f. If you are incorrect,
+play passes to the next player.
+
+g. Press Button X to continue.
+
+NOTE: Speed is essential
+since the timer is count-
+ing down; ACCURATE
+SPELLING IS ALSO ESSEN-
+TIAL — even one incorrect
+letter will make the
+response incorrect.
+
+Rounds 2 ane! 3
+
+1. After Round 1, the [um
+
+game returns to the con- Tia,
+testant screen displaying
+the winner’s total. This
+will be done after every
+round showing each play-
+er’s accrued earnings for
+the entire game up to that
+particular point in play.
+
+2. Round 2 is played the same as Round 1, except
+that a $2,500 space is added to the Wheel. Round 3
+also follows the same rules as Round 1, however
+this time, a $5,000 space is added to the Wheel.
+
+3. Player #2 starts Round 2. Player #3 starts Round 3.
+(If only two players are competing, then player #1
+starts Round 3.)
+
+12
+
+===== Page 9 =====
+
+The Bonus Round
+
+1. If you are the winner,
+your name and winning
+score appear on the
+screen. Press Button X to
+continue.
+
+2. There is a different prize behind each letter of the
+word WHEEL. You must select one of these letters
+by moving the cursor over the star containing your
+choice. Lock in by pressing Button X. The prize will
+not be revealed unless you have solved the puzzle
+correctly.
+
+3. At this point, you will
+be shown the bonus puz- |
+zle. The consonants R, S,
+T, L, N and the vowel E
+will be revealed if they are
+in the puzzle.
+
+4. You may now choose three more consonants and
+one more vowel. Move the cursor to the letters of
+your choice and lock in by using Button X. Make
+your selections quickly because the timer will be
+
+counting down. If any of the letters you have cho-
+sen belong in the puzzle, they will be revealed on
+the game board.
+
+5. The timer will reset and you will be asked to solve
+the puzzle.
+
+6. To solve the puzzle:
+
+a. A flashing tile appears at the first missing let-
+ter. Move the cursor over the appropriate letter and
+press Button X to lock in your choice. Continue to
+enter the missing letters until you have completed
+the puzzle or run out of time.
+
+b. When you have completed the puzzle, move
+the cursor to END and press Button X.
+
+c. If you make a mistake when entering the let-
+ters, move the cursor to DEL and press Button X to
+delete the last entry.
+
+7. If you have solved the puzzle successfully, you
+win!
+
+8. The prize that you
+selected earlier will
+be revealed by pressing Giemint
+Button X.
+
+9. Press the START Button
+to begin a new game.
+
+===== Page 10 =====
+
+This Game Pak uses a program which randomly
+accesses the puzzles. When your Super Nintendo
+Entertainment System is turned off, the entire puz-
+zle file is cleared. Puzzles are selected at random
+by the computer, so although there are over 4,500
+puzzles, repetition may occur. If, during a round,
+you get a repeat puzzle and you wish to use a dif-
+ferent one, press the SELECT Button at the prompt.
+If you want a different puzzle, press SELECT now. If
+you wish to continue with the same puzzle, press
+Button X.
+
+This game has been programmed to utilize the full
+TV screen. Since some older model TV sets have
+rounded screens, a portion of the image may be
+blocked out.
+
+1. Correct spelling is ESSENTIAL when solving a
+puzzle. We recommend that you check all the let-
+ters you have entered before you select END.
+
+2. Each time a player guesses a letter correctly or
+incorrectly, that letter is eliminated from the alpha-
+bet on the screen.
+
+3. When all the consonants have been selected, the
+only options available are buy a VOWEL or SOLVE
+the puzzle.
+
+4. BANKRUPT only applies to the winnings of the
+current round. The player's accrued winnings from
+previous rounds are not lost.
+
+===== Page 11 =====
+
+Products for Your Super NES
+
+Look for these GameTek favorites for your Super
+Nintendo Entertainment System®!
+
+American Gladiators™
+
+They're Big! They’re Bad! They’re Back! — for your
+Super Nintendo Entertainment System. With digi-
+tized photography of the real GLADIATORS, life-size
+action and digitized sound effects, this game is as
+real as it gets. Go one-on-one with a friend against
+the Gladiators or suit up and get ready for the tour-
+nament of your life. Each round gets progressively
+harder and the Gladiators never forget a face. If
+you can survive events such as Powerball, Assault,
+The Wall, Joust, Atlasphere and the Eliminator, you
+can become an American Gladiator. With game
+play so real, we suggest that only those in perfect
+health dare try to compete against the AMERICAN
+GLADIATORS.
+
+Jeopardy!®
+
+GametTek’s latest version of Jeopardy!, one of
+America’s favorite TV game shows, will be hosted
+by one of America’s favorite TV hosts, Alex Tribek.
+Soon to be available for your Super Nintendo
+Entertainment System, this version utilizes the latest
+in digitized technology. Realistic graphics, digitized
+sound effects, and the voice of Alex Tribek will
+bring the set one step closer to your living room.
+Over 5,000 new answers will provide hours of fami-
+ly entertainment. So, Let’s Play Jeopardy!
+
+Kawasaki Caribbean Challenge
+
+You'll feel the cool island breezes accompanied by
+an authentic Reggae tune! You'll feel the Kawasaki
+Ninja ZX-11 hug the road as you round the turns
+on 4 different Caribbean courses. The graphics
+seem so real that you'll taste the salt water from the
+Kawasaki Jet Ski races. The Kawasaki Caribbean
+Challenge is unlike any racing game that you’ve
+ever played before. You can choose to race only
+bikes (of course, you'll have to qualify to ride the
+big bikes) or just take a chance in the Jet Ski races.
+Or you can go for it all and enter the Caribbean
+Rally: a four island endurance event that tests your
+skills on land and in the water. Come take the trip
+with us to the Bahamas; the challenge awaits you.
+
+SS |S
+
+===== Page 12 =====
+
+GAMETEK LIMITED WARRANTY
+
+GametTek, Inc. warrants to the original consumer purchaser of
+this GameTek Game Pak that the medium on which this com-
+puter program is recorded is free from defects in materials and
+workmanship for a period of 90 days from the date of pur-
+chase. This Game Pak is sold “as is,” without express or
+implied warranty of any kind, and GameTek is not liable for
+any losses or damages of any kind resulting from use of this
+Game Pak. GameTek agrees for a period of 90 days to either
+repair or replace, at its option, free of charge, any Game Pak,
+postage paid, with proof of date of purchase, at its Corporate
+Offices: 2999 NE 191st Street, North Miami Beach, FL 33180 «
+800/927-GAME.
+
+This warranty is not applicable to normal wear and tear. This
+warranty shall not be applicable and shall be void if the defect
+in the Game Pak has arisen through abuse, unreasonable use,
+mistreatment or neglect. THIS WARRANTY IS IN LIEU OF ALL
+OTHER WARRANTIES AND NO OTHER REPRESENTATIONS OR
+CLAIMS OF ANY NATURE SHALL BE BINDING ON OR OBLI-
+GATE GAMETEK. ANY IMPLIED WARRANTIES APPLICABLE TO
+THIS GAME PAK, INCLUDING WARRANTIES OF MER-
+CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE,
+ARE LIMITED TO THE 90 DAY PERIOD DESCRIBED ABOVE. IN
+NO EVENT WILL GAMETEK BE LIABLE FOR ANY SPECIAL INCI-
+DENTAL OR CONSEQUENTIAL DAMAGES RESULTING FROM
+THE POSSESSION, USE OR MALFUNCTION OF THIS GAME PAK.
+
+Some states do not allow limitations as to how long an implied
+warranty lasts and/or exclusions or limitations of incidental or
+consequential damages, so the above limitations and/or exclu-
+sions of liability may not apply to you. This warranty gives you
+specific rights, and you may also have other rights which vary
+from state to state.
+
+Gamelek would like to thank the following people
+for their time and effort in creating Wheel of
+Fortune featuring Vanna White for the Super
+Nintendo Entertainment System:
+
+¢ Developed by Imagitec Design, Inc.
+
+¢ Programmed by Axel Brown
+
+¢ Art by Peter Goldsmith
+
+¢ Music by Barry Leitch
+
+e Tested by John McKinnon
+
+¢ Produced by Rod Humble
+
+¢ Executive Producer Elizabeth Curran
+
+° Manual Written by Elizabeth Curran
+and Rod Humble
+
+* Package Design by Stephen Curran
+and John Tombley
+
+¢ Manual Design by Bracchi Design, Inc.

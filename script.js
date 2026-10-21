@@ -123,6 +123,7 @@
     stopExisting();
     powerNeedsReboot = false;
     currentUrl = url; currentName = name || currentName;
+    loadManualForGame(currentName);
     window.EJS_player = '#ejs-stage';
     window.EJS_gameName = currentName;
     window.EJS_core = 'snes';
@@ -393,6 +394,294 @@
       if(out.length) autoCycle = out;
     }catch(e){}
   }
+  /* ---------- manual association + manual-guided learning ----------------
+     The local manual corpus is matched to the ROM name, parsed for control
+     semantics, and used as a shared prior by both copilots. Each pilot still
+     learns from its own screen response, so the manual teaches what a button
+     means while P1/P2 learn when it works. */
+  var MANUAL_STATE = { index: null, indexJob: null, current: null, sig: '', gen: 0, loading: false, error: '' };
+  var MANUAL_TEXT = {};
+  var MANUAL_BTN = { a: 8, b: 0, x: 9, y: 1, l: 10, r: 11, start: 3, select: 2 };
+  function manualNorm(s){
+    s = String(s || '').toLowerCase().replace(/\.[a-z0-9]+$/, '');
+    s = s.replace(/\([^)]*\)|\[[^\]]*\]/g, ' ');
+    s = s.replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, ' ').trim();
+    return s.replace(/\s+/g, ' ');
+  }
+  function manualButtons(line){
+    var text = String(line || '').replace(/[¥]/g, 'Y');
+    var out = [], seen = {};
+    var add = function(b){ if(!seen[b]){ seen[b] = 1; out.push(b); } };
+    var re = /\b([abxy])\s*(?:button|btn)\b/ig, m;
+    while((m = re.exec(text))) add(MANUAL_BTN[m[1].toLowerCase()]);
+    re = /\b([lr])\s*(?:button|btn)\b/ig;
+    while((m = re.exec(text))) add(MANUAL_BTN[m[1].toLowerCase()]);
+    if(!out.length && /\b(press|hold|push|tap)\b/i.test(text)){
+      re = /\b([abxy])\b/ig;
+      while((m = re.exec(text))) add(MANUAL_BTN[m[1].toLowerCase()]);
+      re = /\b([lr])\b/ig;
+      while((m = re.exec(text))) add(MANUAL_BTN[m[1].toLowerCase()]);
+    }
+    return out.filter(function(b){ return b !== MANUAL_BTN.start && b !== MANUAL_BTN.select; });
+  }
+  function manualBest(lines, terms, prefs){
+    var votes = {}, bestLine = '';
+    for(var i = 0; i < lines.length; i++){
+      var raw = lines[i], low = raw.toLowerCase(), hit = 0;
+      terms.forEach(function(t){ if(low.indexOf(t) !== -1) hit += 2; });
+      if(!hit) continue;
+      var near = raw + ' ' + (lines[i + 1] || '');
+      var btns = manualButtons(near);
+      if(!btns.length) continue;
+      var same = manualButtons(raw).length ? 3 : 1;
+      btns.forEach(function(b){ votes[b] = (votes[b] || 0) + hit + same; });
+      if(!bestLine) bestLine = raw.trim();
+    }
+    var best = null, bestScore = -1;
+    prefs = prefs || [];
+    Object.keys(votes).forEach(function(k){
+      var b = parseInt(k, 10), pi = prefs.indexOf(b);
+      var score = votes[k] + (pi >= 0 ? (prefs.length - pi) * 3 : 0);
+      if(score > bestScore){ bestScore = score; best = b; }
+    });
+    return best == null ? null : { buttons: [best], line: bestLine };
+  }
+  function manualAttackButtons(lines){
+    var out = [], seen = {};
+    for(var i = 0; i < lines.length && out.length < 6; i++){
+      var low = lines[i].toLowerCase();
+      if(!/\b(attack|punch|kick|shoot|fire|sword|strike|special)\b/.test(low)) continue;
+      if(!/\b(press|hold|push|tap|button|btn)\b/.test(low)) continue;
+      manualButtons(lines[i] + ' ' + (lines[i + 1] || '')).forEach(function(b){
+        if(out.length < 6 && !seen[b]){ seen[b] = 1; out.push(b); }
+      });
+    }
+    return out;
+  }
+  function parseManual(meta, text){
+    var lines = String(text || '').split(/\r?\n/);
+    var run = manualBest(lines, ['run', 'dash', 'sprint'], [1, 11, 0, 8]);
+    var jump = manualBest(lines, ['jump', 'leap'], [0, 8, 9, 1]);
+    var block = manualBest(lines, ['block', 'guard', 'defend'], [10, 11, 1]);
+    var attack = manualAttackButtons(lines);
+    var actions = [];
+    var add = function(b){ if(b != null && actions.indexOf(b) === -1) actions.push(b); };
+    if(jump) jump.buttons.forEach(add);
+    if(attack.length) attack.forEach(add);
+    if(run) add(run.buttons[0]);
+    if(block) add(block.buttons[0]);
+    [8, 0, 9, 1].forEach(function(b){ if(actions.length < 4) add(b); });
+    if(!actions.length) actions = [8, 0, 9];
+    var kind = (attack.length >= 3 && (block || /\b(punch|kick)\b/i.test(text))) ? 'fighter' : 'platformer';
+    if(kind === 'platformer'){
+      attack = [];
+      block = null;
+      if(!jump) jump = { buttons: [0] };
+      if(!run) run = { buttons: [1] };
+    }
+    var hints = [];
+    lines.forEach(function(line){
+      if(hints.length < 4 && line.trim().length > 18 &&
+         /\b(button|control|press|hold|run|jump|block|punch|kick|attack)\b/i.test(line)){
+        hints.push(line.trim().replace(/\s+/g, ' ').slice(0, 180));
+      }
+    });
+    var weights = {};
+    if(jump) jump.buttons.forEach(function(b){ weights[b] = (weights[b] || 0) + 0.35; });
+    attack.forEach(function(b){ weights[b] = (weights[b] || 0) + 0.45; });
+    if(run) weights[run.buttons[0]] = (weights[run.buttons[0]] || 0) + 0.15;
+    if(block) weights[block.buttons[0]] = (weights[block.buttons[0]] || 0) + 0.05;
+    return {
+      id: meta.id, title: meta.title, pages: meta.pages, region: meta.region,
+      method: meta.method, chars: meta.chars, kind: kind, actions: actions,
+      run: run ? run.buttons[0] : null, jump: jump ? jump.buttons[0] : null,
+      block: block ? block.buttons[0] : null, strikes: attack, weights: weights,
+      shoulders: [10, 11], hints: hints, source: 'ai/manuals/' + meta.text
+    };
+  }
+  function ensureManualIndex(){
+    if(MANUAL_STATE.index) return Promise.resolve(MANUAL_STATE.index);
+    if(MANUAL_STATE.indexJob) return MANUAL_STATE.indexJob;
+    MANUAL_STATE.indexJob = fetch('ai/manuals/index.json').then(function(r){
+      if(!r.ok) throw new Error('manual index HTTP ' + r.status);
+      return r.json();
+    }).then(function(j){
+      MANUAL_STATE.index = j;
+      return j;
+    }).catch(function(e){
+      MANUAL_STATE.error = String(e && e.message || e);
+      MANUAL_STATE.indexJob = null;
+      throw e;
+    });
+    return MANUAL_STATE.indexJob;
+  }
+  function matchManual(name){
+    if(!MANUAL_STATE.index) return null;
+    var n = manualNorm(name), nt = n.split(' ').filter(Boolean);
+    if(!n) return null;
+    var best = null, bestScore = 0;
+    MANUAL_STATE.index.manuals.forEach(function(m){
+      var mt = manualNorm(m.title), score = 0;
+      if(mt === n) score = 100;
+      else if(n.indexOf(mt) === 0 || mt.indexOf(n) === 0) score = 60;
+      else{
+        var a = mt.split(' ').filter(Boolean), hit = 0;
+        a.forEach(function(t){ if(nt.indexOf(t) !== -1) hit++; });
+        score = 25 * hit / Math.max(1, Math.max(a.length, nt.length));
+      }
+      var reg = String(m.region || '').toLowerCase();
+      if(/\busa\b/.test(n) && /usa/.test(reg)) score += 12;
+      if(/\bpal\b/.test(reg) && !/\bpal\b/.test(n)) score -= 8;
+      if(/\bjapan\b/.test(n) && /japan/.test(reg)) score += 8;
+      if(score >= 20 && score > bestScore){ bestScore = score; best = m; }
+    });
+    return best;
+  }
+  function loadManualForGame(name){
+    var sig = manualNorm(name);
+    if(MANUAL_STATE.sig === sig && MANUAL_STATE.current) return Promise.resolve(MANUAL_STATE.current);
+    if(MANUAL_STATE.sig === sig && MANUAL_STATE.loading) return MANUAL_STATE.loading;
+    MANUAL_STATE.sig = sig;
+    MANUAL_STATE.current = null;
+    MANUAL_STATE.error = '';
+    MANUAL_STATE.loading = true;
+    var gen = ++MANUAL_STATE.gen;
+    updateManualHud();
+    var job = ensureManualIndex().then(function(){
+      if(gen !== MANUAL_STATE.gen) return null;
+      var meta = matchManual(name);
+      if(!meta) throw new Error('no manual match');
+      if(MANUAL_TEXT[meta.id]) return parseManual(meta, MANUAL_TEXT[meta.id]);
+      return fetch('ai/manuals/' + meta.text).then(function(r){
+        if(!r.ok) throw new Error('manual HTTP ' + r.status);
+        return r.text();
+      }).then(function(t){
+        MANUAL_TEXT[meta.id] = t;
+        return parseManual(meta, t);
+      });
+    }).then(function(profile){
+      if(gen !== MANUAL_STATE.gen || !profile) return null;
+      MANUAL_STATE.current = profile;
+      MANUAL_STATE.loading = false;
+      applyManualToPilots();
+      updateManualHud();
+      updateAiStatus();
+      return profile;
+    }).catch(function(e){
+      if(gen !== MANUAL_STATE.gen) return null;
+      MANUAL_STATE.loading = false;
+      MANUAL_STATE.error = String(e && e.message || e);
+      updateManualHud();
+      updateAiStatus();
+      return null;
+    });
+    MANUAL_STATE.loading = job;
+    return job;
+  }
+  function applyManualToPilot(pt){
+    var m = MANUAL_STATE.current;
+    pt.manual = m || null;
+    pt.order = (m && m.actions && m.actions.length) ? m.actions.slice() :
+      ((pt.slot % 2 === 0) ? AgentMap.actions.slice() : AgentMap.actions.slice().reverse());
+    pt.runBtn = (m && m.run != null) ? m.run : AgentMap.run;
+    pt.blockBtn = (m && m.block != null) ? m.block : 10;
+    pt.jumpBtn = (m && m.jump != null) ? m.jump : pt.order[0];
+    pt.strikes = (m && m.strikes && m.strikes.length) ? m.strikes.slice() : [1, 0, 8, 9];
+    [1, 0, 8, 9].forEach(function(b){ if(pt.strikes.indexOf(b) === -1) pt.strikes.push(b); });
+    pt.shoulders = (m && m.shoulders) ? m.shoulders.slice() : AgentMap.shoulders.slice();
+    if(!pt.learn) pt.learn = { score: {}, tries: {}, total: 0, pending: null, sig: '' };
+    if(m && pt.learn.sig !== m.id){
+      pt.learn.sig = m.id;
+      pt.learn.score = {};
+      pt.learn.tries = {};
+      pt.learn.total = 0;
+      pt.learn.pending = null;
+      m.actions.forEach(function(b, i){
+        pt.learn.score[b] = (m.weights[b] || 0.15) + (i === 0 ? 0.2 : 0);
+      });
+    }
+  }
+  function applyManualToPilots(){
+    autoPilots.forEach(applyManualToPilot);
+  }
+  function pickPlayAction(pt){
+    var pool = (pt.order && pt.order.length) ? pt.order : AgentMap.actions;
+    var l = pt.learn || { score: {}, tries: {}, total: 0 };
+    var n = l.total || 0, best = pool[0], bestScore = -1e9;
+    for(var i = 0; i < pool.length; i++){
+      var b = pool[i], tries = l.tries[b] || 0;
+      var avg = (l.score[b] || 0) / (tries + 1);
+      var prior = 0.15 + (pool.length - i) * 0.04;
+      var explore = 1.15 * Math.sqrt(Math.log(n + 2) / (tries + 1));
+      var s = avg + prior + explore + ((pt.hopN + i * 5) % 7) * 0.001;
+      if(s > bestScore){ bestScore = s; best = b; }
+    }
+    l.pending = { btn: best, t: Date.now() };
+    return best;
+  }
+  function rewardPlayAction(pt, d, sh, shy){
+    var l = pt.learn, p = l && l.pending;
+    if(!p) return;
+    var moved = d >= Math.max(1, AgentOpts.loThresh) ||
+      Math.abs(sh || 0) >= 2 || Math.abs(shy || 0) >= 2;
+    l.tries[p.btn] = (l.tries[p.btn] || 0) + 1;
+    l.score[p.btn] = (l.score[p.btn] || 0) + (moved ? 1 : -0.25);
+    l.total = (l.total || 0) + 1;
+    l.pending = null;
+  }
+  function updateManualLearn(){
+    var e = document.getElementById('manual-learn');
+    if(!e) return;
+    if(!MANUAL_STATE.current){ e.textContent = ''; return; }
+    var parts = autoPilots.map(function(pt){
+      var l = pt.learn || {}, arr = Object.keys(l.score || {});
+      arr.sort(function(a, b){
+        return ((l.score[b] || 0) / ((l.tries[b] || 0) + 1)) -
+               ((l.score[a] || 0) / ((l.tries[a] || 0) + 1));
+      });
+      var top = arr.slice(0, 3).map(function(b){
+        return (BTN_NAMES[b] || b) + ' ' + (l.score[b] || 0).toFixed(1);
+      }).join(' ');
+      return 'P' + (pt.pl + 1) + ' ' + (top || 'learning…');
+    });
+    e.textContent = 'MANUAL LEARN · ' + parts.join(' · ');
+  }
+  function updateManualHud(){
+    updateManualLearn();
+    var e = document.getElementById('manual-bind');
+    if(!e) return;
+    if(MANUAL_STATE.loading){
+      e.textContent = 'MANUAL · matching ' + currentName + '…';
+      return;
+    }
+    if(MANUAL_STATE.current){
+      var m = MANUAL_STATE.current;
+      var names = function(arr){ return arr.map(function(b){ return BTN_NAMES[b] || b; }).join('/'); };
+      var actLabel = (m.kind === 'fighter') ? 'attack' : 'actions';
+      var actList = (m.kind === 'fighter') ? m.strikes : m.actions;
+      e.textContent = 'MANUAL · ' + m.title + ' · ' + m.pages + 'p · ' +
+        m.kind + ' · jump ' + (m.jump != null ? (BTN_NAMES[m.jump] || m.jump) : '?') +
+        ' · run ' + (m.run != null ? (BTN_NAMES[m.run] || m.run) : '?') +
+        ' · ' + actLabel + ' ' + (actList.length ? names(actList) : '?') +
+        ' · P1+P2 learn';
+      return;
+    }
+    e.textContent = 'MANUAL · no match for ' + currentName +
+      (MANUAL_STATE.error ? ' (' + MANUAL_STATE.error + ')' : '') + ' · generic priors';
+  }
+  window.SNESBoyManual = {
+    current: function(){ return MANUAL_STATE.current; },
+    match: function(name){ return matchManual(name); },
+    reload: function(name){ return loadManualForGame(name || currentName); },
+    index: function(){ return MANUAL_STATE.index; },
+    pilots: function(){
+      return autoPilots.map(function(pt){
+        return { player: pt.pl + 1, mode: pt.mode, manual: pt.manual ? pt.manual.id : null,
+          order: pt.order, run: pt.runBtn, block: pt.blockBtn, strikes: pt.strikes,
+          learn: { tries: pt.learn.tries, score: pt.learn.score, total: pt.learn.total } };
+      });
+    }
+  };
   /* One independent copilot per driven player — same screen, own brain.
      Every pilot works the menus (grid moves + confirm + START), senses and
      plays with its own rhythm, so P2 never just parrots P1. */
@@ -401,13 +690,16 @@
      guard. There is no shared autoDir / autoDiff / screenWatch any more:
      P1 can seek, release and tap its menus while P2 keeps playing. */
   function makePilot(player, idx){
-    return { pl: player, active: true, menus: true, mode: 'seek', prev: null, hi: 0, lo: 0,
+    var pt = { pl: player, active: true, menus: true, mode: 'seek', prev: null, hi: 0, lo: 0,
       menuN: 0, hopN: idx * 2, tick: 0, shN: 0, fphase: -1, mixFight: false,
       slot: idx, startUsed: false, startReadyAt: idx > 0 ? 1 : 2, lastStart: 0,
       dir: AgentMap.dirR, dirY: null, dirYMiss: 0, diff: 0,
       watch: makeWatch(), menuGuardFrame: null,
       timers: { menu: null, sense: null, drive: null },
-      order: (idx % 2 === 0) ? AgentMap.actions.slice() : AgentMap.actions.slice().reverse() };
+      order: AgentMap.actions.slice(),
+      learn: { score: {}, tries: {}, total: 0, pending: null, sig: '' } };
+    applyManualToPilot(pt);
+    return pt;
   }
   /* Re-arm exactly one START for a fresh menu screen/episode. P2 may start
      immediately (join); P1 waits one grid pass so it never starts on the
@@ -479,13 +771,13 @@
     }
     if(phase === 0){
       driveIndex(fwd, true, 'auto', pt.pl);
-      driveIndex(11, true, 'auto', pt.pl); /* RUN + toward closes distance */
+      driveIndex(pt.runBtn, true, 'auto', pt.pl); /* RUN + toward closes distance */
     }else if(phase === 1){
-      var s = UMK3_STRIKES[(pt.tick + idx) % UMK3_STRIKES.length];
+      var s = pt.strikes[(pt.tick + idx) % pt.strikes.length];
       fightPulse(s, pt.pl, 140);
-      if(pt.tick % 2 === 0) fightPulse(UMK3_STRIKES[(pt.tick + idx + 1) % UMK3_STRIKES.length], pt.pl, 140);
+      if(pt.tick % 2 === 0) fightPulse(pt.strikes[(pt.tick + idx + 1) % pt.strikes.length], pt.pl, 140);
     }else if(phase === 2){
-      driveIndex(10, true, 'auto', pt.pl); /* BLOCK, feet planted */
+      driveIndex(pt.blockBtn, true, 'auto', pt.pl); /* BLOCK, feet planted */
     }else if(phase === 3){
       driveIndex(5, true, 'auto', pt.pl); /* crouch game */
       fightPulse((pt.tick % 2 === 0) ? 1 : 9, pt.pl, 150); /* uppercut / low kick */
@@ -494,7 +786,7 @@
       driveIndex(fwd, true, 'auto', pt.pl);
       setTimeout(function(){
         if(!autoOn) return;
-        fightPulse(UMK3_STRIKES[(pt.tick + idx) % UMK3_STRIKES.length], pt.pl, 140);
+        fightPulse(pt.strikes[(pt.tick + idx) % pt.strikes.length], pt.pl, 140);
         setTimeout(function(){ if(autoOn){ driveIndex(4, false, 'auto', pt.pl); } }, 200);
       }, 300);
     }else{
@@ -571,6 +863,7 @@
     var txt = (autoOn ? pilotModes() : 'OFF') + ' · d=' + maxD.toFixed(1) + dirs +
       (autoOn ? ' · ' + autoPilots.map(function(pt){ return 'P' + (pt.pl + 1); }).join('+') : '') +
       (autoOn && AgentOpts.autoTune ? ' · AT' : '') +
+      (autoOn && MANUAL_STATE.current ? ' · MANUAL' : '') +
       (autoOn && AgentOpts.profile === 'umk3' ? ' · UMK3' : '') +
       (autoOn && AgentOpts.profile === 'mix' ? ' · MIX' : '');
     $all('.agent-hud').forEach(function(e){
@@ -649,6 +942,7 @@
     else if(shy <= -2){ pt.dirY = 4; pt.dirYMiss = 0; }
     else if(pt.dirY !== null && ++pt.dirYMiss >= 2){ pt.dirY = null; pt.dirYMiss = 0; }
     pt.diff = d;
+    rewardPlayAction(pt, d, sh, shy);
     watchMetrics(pt, d, sh, shy);
     /* one shared tuner reads pilot 0; it never touches another pilot's
        steering or release path */
@@ -666,7 +960,7 @@
     var wantsRun = !pt.watch.haveData || pt.diff > AgentOpts.loThresh ||
       Math.abs(pt.watch.lastSh) >= 2 || Math.abs(pt.watch.lastShy) >= 2;
     pt.watch.runWanted = wantsRun;
-    driveIndex(AgentMap.run, wantsRun, 'auto', pt.pl);
+    driveIndex(pt.runBtn, wantsRun, 'auto', pt.pl);
     if(pt.dirY !== null){
       /* vertical scroll voted: hold the voted direction (Up/Down),
          releasing the opposite first — same anti-stuck rule as horizontal */
@@ -688,7 +982,7 @@
     if((pt.tick + idx) % AgentOpts.hopEvery === 0){
       /* own rhythm per pilot: phase-offset hops, own button order */
       pt.hopN++;
-      var btn = pt.order[pt.hopN % pt.order.length]; /* jump in one game is attack in another */
+      var btn = pickPlayAction(pt); /* manual prior + this pilot's own reward history */
       driveIndex(btn, true, 'auto', pt.pl);
       (function(b, pl){
         setTimeout(function(){ if(autoOn) driveIndex(b, false, 'auto', pl); }, AgentOpts.hopPulseMs);
@@ -697,7 +991,7 @@
         /* every other beat works a shoulder too — dash/strafe/special, per
            game. X is already in the action rotation, Y is the run hold. */
         pt.shN++;
-        var sh = AgentMap.shoulders[pt.shN % AgentMap.shoulders.length];
+        var sh = pt.shoulders[pt.shN % pt.shoulders.length];
         driveIndex(sh, true, 'auto', pt.pl);
         (function(s2, pl){
           setTimeout(function(){ if(autoOn) driveIndex(s2, false, 'auto', pl); }, AgentOpts.hopPulseMs);
@@ -841,6 +1135,7 @@
     return out || 'still';
   }
   function updateScreenWatch(){
+    updateManualLearn();
     var e = document.getElementById('anton-watch');
     if(!e) return;
     if(!AgentOpts.autoTune){ e.textContent = 'SON OF ANTON · screen watch off — manual tuning only'; return; }
@@ -1141,51 +1436,24 @@
   var recCanvas = null, recCtx = null;
   var REC_MAX_MS = 180000;
   var BTN_NAMES = { 0: 'B', 1: 'Y', 2: 'Select', 3: 'Start', 4: 'Up', 5: 'Down', 6: 'Left', 7: 'Right', 8: 'A', 9: 'X', 10: 'L', 11: 'R' };
-  /* ---------- iframe-safe screen source ----------
-     The emulator canvas normally sits in #ejs-stage, but hosts sometimes
-     mount the player (or this whole app) inside an iframe. Search the
-     document and any same-origin child frames for the REAL emulator
-     surface — never the CSS-art handheld/desktop screens — so the sense
-     loop keeps seeing pixels wherever the game is rendered. */
-  var EJS_CANVAS_SELECTOR = '#ejs-stage canvas, canvas.ejs_canvas, .ejs_parent canvas';
-  function visionCanvasIn(root, depth){
-    if(!root || depth < 0) return null;
-    var c = null;
-    try{ c = root.querySelector(EJS_CANVAS_SELECTOR); }catch(e){}
-    if(c && c.width && c.height) return c;
-    var frames = [];
-    try{ frames = root.querySelectorAll('iframe'); }catch(e2){}
-    for(var i = 0; i < frames.length; i++){
-      try{
-        var doc = frames[i].contentDocument;
-        if(!doc) continue;
-        c = visionCanvasIn(doc, depth - 1);
-        if(c) return c;
-      }catch(e3){} /* cross-origin frame: unreadable, keep looking */
-    }
-    return null;
-  }
+  /* ---------- emulator canvas source ----------
+     Read the real canvas object the player is drawing into, exactly like a
+     website would. No emulator clone, no iframe walking, no second player. */
   function gameCanvas(){
-    var c = null;
-    try{ c = stage.querySelector('canvas'); }catch(e){}
-    if(c && c.width && c.height) return c;
-    c = visionCanvasIn(document, 3);
-    if(c) return c;
-    /* if this app is the iframe, the player itself is still local, so this
-       parent probe is only a last resort for split host/player layouts */
     try{
-      if(window.parent && window.parent !== window) c = visionCanvasIn(window.parent.document, 1);
-    }catch(e4){}
-    return c;
+      var e = window.EJS_emulator;
+      if(e && e.canvas && e.canvas.width) return e.canvas;
+    }catch(err){}
+    try{
+      var c = stage.querySelector('canvas');
+      if(c && c.width && c.height) return c;
+    }catch(err2){}
+    return null;
   }
   function visionSource(){
     var c = gameCanvas();
     if(!c) return 'none';
-    var embedded = false;
-    try{ embedded = !!(window.parent && window.parent !== window); }catch(e){}
-    var where = 'page';
-    try{ if(!stage.contains(c)) where = 'iframe'; }catch(e2){}
-    return embedded ? where + ' (embedded)' : where;
+    return (c === (window.EJS_emulator && window.EJS_emulator.canvas)) ? 'ejs canvas' : 'stage canvas';
   }
   function bytesB64(a){
     if(!a) return null;
@@ -1227,19 +1495,22 @@
   function frameB64(){
     return grayB64(frameGray());
   }
-  /* ---------- live color vision loop (also across iframe) ------------
-     Samples NTSC-style 262-line fields at a 60Hz cadence, independent of
-     the game's 30fps frame pairs. Each field is half vertical resolution,
-     so two consecutive field packets make one 30fps display frame. The
-     32x32 color view stays alive even with the autopilot idle, mirrors
-     into the AI Lab preview, and — when this page is hosted in an iframe —
-     posts every field to the parent so a gameplay AI sees the same timing.
-     Packets carry rgb24 for color plus gray8 for fast motion maths. Any
-     frame can ask for one with {type:'snesboy:vision/request'}. */
+  /* ---------- live color vision loop ------------
+     Samples the real emulator canvas. The tap is idle by default, previews
+     at 10Hz when the AI Lab is open, and only reads at 60Hz when an
+     external agent asks for the field stream. Packets carry rgb24 for color
+     plus gray8 for fast motion maths. Any frame can ask for one with
+     {type:'snesboy:vision/request'}. */
   var VISION_FRAME = 'snesboy:vision/frame';
   var VISION_REQUEST = 'snesboy:vision/request';
-  var VISION_FIELD_HZ = 60;
-  var VISION_FIELD_MS = 1000 / VISION_FIELD_HZ;
+  /* The live field tap is deliberately idle-rate by default. The local
+     copilots sample on their own sense clock; the 60Hz stream is only for
+     an external agent that explicitly asks for it (or an embedded host). */
+  var VISION_IDLE_HZ = 10;
+  var VISION_LIVE_HZ = 60;
+  var visionHz = VISION_IDLE_HZ;
+  var visionFieldMs = 1000 / visionHz;
+  var visionDemandUntil = 0;
   var visionTimer = null, visionImg = null;
   var visionFrames = 0, visionFpsAt = 0, visionFps = 0, visionSeen = false;
   var visionField = 0, visionParity = 0, visionClock = 0, visionRaf = 0, visionStatusAt = 0;
@@ -1256,7 +1527,7 @@
       data: data, rgb: color, source: visionSource(),
       field: visionField, parity: visionParity & 1,
       frame: Math.ceil(visionField / 2), fieldsPerFrame: 2,
-      lines: 262, fieldHz: VISION_FIELD_HZ, halfResolution: true };
+      lines: 262, fieldHz: visionHz, halfResolution: true };
   }
   function postVision(target, g, rgb){
     var p = visionPacket(g, rgb);
@@ -1265,7 +1536,7 @@
   }
   function drawVisionPreview(g, rgb){
     var cv = document.getElementById('vision-preview');
-    if(!cv || !g) return;
+    if(!cv || !g || !cv.offsetParent) return;
     try{
       var ctx = cv.getContext('2d');
       if(!visionImg) visionImg = ctx.createImageData(32, 32);
@@ -1297,12 +1568,13 @@
   function updateAiStatus(){
     var e = document.getElementById('ai-loop-status');
     if(!e) return;
-    var parts = ['vision ' + (visionTimer ? '✓' : '—')];
+    var parts = ['vision ' + (visionTimer ? (visionNeeded() ? '✓' : 'idle') : '—')];
     if(autoOn){
       parts.push('sense ' + (anyAgentTimer('sense') ? '✓' : '—'));
       parts.push('drive ' + (anyAgentTimer('drive') ? '✓' : '—'));
       parts.push('menus ' + (anyAgentTimer('menu') ? '✓' : '—'));
       parts.push('auto-tune ' + (AgentOpts.autoTune ? '✓' : 'off'));
+      parts.push('manual ' + (MANUAL_STATE.current ? '✓' : (MANUAL_STATE.loading ? '…' : '—')));
       parts.push('record ' + (recOn ? '●' : 'off'));
     }else{
       parts.push('autopilot idle');
@@ -1330,15 +1602,62 @@
       updateVisionStatus(true, visionSource());
     }
   }
+  /* Frequency is demand-driven: idle preview stays cheap; an external
+     consumer asks for the full 60Hz field stream. */
+  function visionSetHz(hz){
+    hz = Math.max(1, Math.min(VISION_LIVE_HZ, +hz || VISION_IDLE_HZ));
+    if(hz === visionHz) return;
+    visionHz = hz;
+    visionFieldMs = 1000 / hz;
+    visionClock = 0;
+  }
+  function visionRefreshHz(){
+    if(visionHz !== VISION_IDLE_HZ && Date.now() >= visionDemandUntil){
+      visionSetHz(VISION_IDLE_HZ);
+    }
+  }
+  function visionRequest(ms){
+    visionDemandUntil = Math.max(visionDemandUntil, Date.now() + (ms || 5000));
+    visionSetHz(VISION_LIVE_HZ);
+  }
+  /* Only tap pixels when something is actually looking: the AI Lab preview
+     is open, a host frame is embedded, or an agent requested a burst. The
+     copilots grab their own frames on the sense beat, so a hidden preview
+     must not cost the emulator 60 canvas readbacks per second. */
+  function visionNeeded(){
+    if(Date.now() < visionDemandUntil) return true;
+    var cv = document.getElementById('vision-preview');
+    if(cv && cv.offsetParent) return true;
+    try{ if(window.parent && window.parent !== window) return true; }catch(e){}
+    return false;
+  }
+  function updateVisionIdle(){
+    var src = visionSource();
+    var s = document.getElementById('vision-status');
+    if(s){
+      s.textContent = src === 'none' ? 'VISION STANDBY — power on a game'
+                                     : 'VISION READY — open AI Lab or request 60Hz';
+      s.classList.toggle('vision-ok', src !== 'none');
+    }
+    var m = document.getElementById('vision-source');
+    if(m) m.textContent = 'source: ' + (src || 'none') + ' · loop: standby · preview closed';
+  }
   function visionLoop(ts){
     if(!visionTimer) return;
+    visionRefreshHz();
+    if(!visionNeeded()){
+      visionClock = ts;
+      if(Date.now() - visionStatusAt >= 1000){ visionStatusAt = Date.now(); updateVisionIdle(); }
+      visionRaf = requestAnimationFrame(visionLoop);
+      return;
+    }
     if(!visionClock) visionClock = ts;
-    /* Fixed 60Hz field clock, not the browser's paint rate. If rAF is late
+    /* Fixed field clock, not the browser's paint rate. If rAF is late
        (busy game frame) emit the due fields now so the stream stays locked
        to cadence instead of drifting to the display fps. */
-    var due = Math.floor((ts - visionClock) / VISION_FIELD_MS);
+    var due = Math.floor((ts - visionClock) / visionFieldMs);
     if(due > 0){
-      visionClock += due * VISION_FIELD_MS;
+      visionClock += due * visionFieldMs;
       if(due > 4){ visionClock = ts; due = 1; } /* long stall: resync */
       for(var i = 0; i < due; i++) visionTick();
     }
@@ -1348,12 +1667,14 @@
     if(visionTimer) return;
     visionTimer = 1;
     visionClock = 0;
+    visionSetHz(VISION_IDLE_HZ);
     visionRaf = requestAnimationFrame(visionLoop);
     visionTick();
   }
   window.addEventListener('message', function(e){
     var d = e.data;
     if(!d || d.type !== VISION_REQUEST) return;
+    visionRequest(d.ttl || 5000);
     postVision(e.source);
   });
   /* Same-document consumers (AI Lab / an agent embedded alongside). */
@@ -1361,6 +1682,8 @@
     frame: frameGray,
     color: frameRgb,
     packet: visionPacket,
+    request: visionRequest,
+    hz: function(){ return visionHz; },
     snapshot: function(){
       var src = gameCanvas();
       if(!src) return null;
@@ -1457,7 +1780,15 @@
     recInputs.forEach(function(ev){
       if(ev.d === 1) counts[ev.b] = (counts[ev.b] || 0) + 1;
     });
+    var m = MANUAL_STATE.current;
+    var policy = autoPilots.map(function(pt){
+      return { player: pt.pl + 1, manual: pt.manual ? pt.manual.id : null,
+        tries: pt.learn.tries, score: pt.learn.score, total: pt.learn.total };
+    });
     var ep = { game: currentName, date: new Date().toISOString(),
+      manual: m ? { id: m.id, title: m.title, kind: m.kind, jump: m.jump, run: m.run,
+        block: m.block, strikes: m.strikes, actions: m.actions } : null,
+      policy: policy,
       ms: dur, frames: recFrames, inputs: recInputs, audio: recAudio, counts: counts };
     epPut(ep).then(function(){
       learnStatus('Saved ' + recFrames.length + ' frames, ' + recInputs.length +

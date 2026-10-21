@@ -1,0 +1,1315 @@
+# Turn and Burn - No-Fly Zone
+source: https://archive.org/details/snes_manual_archive
+pdf: Turn and Burn - No-Fly Zone (USA).pdf
+region: USA
+pages: 20
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+33 "a SNS-ZN-USA
+
+\ceneemormenramancreaneTeeEr (ET OS ES
+pe } TURNAPBUR
+
+i
+CONCEPT AND DESIGN ORIGINAL MUSIC = FS
+Dan Kitchen Mark Van Hecke | N ° = F L y Z re) N E
+Alex DeMeo ralti i 2
+Gene Sewell AUDIO ENGINEER
+Ron Roberts Jim Wallace 5 AG
+Bruce Plotnick PRODUCED BY
+PROGRAMMING Dan Kitchen
+Gene Sewell Alex DeMeo
+Ron Roberts
+> ‘SPECIAL THANKS
+| Bruce Plotnick eee
+Alfred Freund Maks Meine
+Barry Marx
+; SPECIAL EFFECTS
+; VIDEO ENGINEERING
+Dan Kitchen a
+Alex DeMeo pss Sulla
+Gene Sewell MANUAL BY
+Ron Roberts ian Eneli
+Bruce Plotnick rian ole
+ADDITIONAL PROGRAMMING
+3 Mike Buchman
+Tak Lau
+PACKAGE DESIGN BY
+GRAPHICS
+ee kaah W.R, Wentworth
+ose fam Mike Buchman
+
+ADDITIONAL GRAPHICS
+Dan Peters
+Ray Bradley
+
+= { FLIGHT MANUAL
+
+ABSOLUTE...
+
+Publshal by ute trina, fe, Sue $00 South 1 Note Rea, Upper Sie Rie) O75 are ad Ba No Ply Zoe iva
+Inna hoi Entertainme, ie Wiis Reserved. Abone Enron segs tienk of Note Kern Ine Ns
+ern. Nite, Supe Nite Fert Sst an the Ofc Sess ae rete! aera Ned o Ani Ie. © 1990
+
+i oe ABSOLUTE. SUPER NINTENDO
+
+me ENTERTAINMENT SYSTEM
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED
+CONSUMER INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY
+BEFORE USING YOUR
+NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+0 AN ;
+ya ae ~
+PEAY ie Hele a aE
+ret wares han ear
+ewes aa NW)
+SING oramncane — SALE
+
+Classified Instructions
+
+F-14 Tomcat Specifications .....
+
+Flight Procedural Overview
+Preflight Checklist
+
+Game Options...
+
+Passwords ...
+
+The Cockpit Control Panel
+
+Onboard Computer Systems...
+
+The Navigational Computer
+Radar Systems
+
+Weapons Systems.
+
+Combat
+
+Landing Procedures.
+Adjusting Computer System:
+
+Tactical Recommendations .....
+
+===== Page 3 =====
+
+From the Desk of the Secretary
+Department of the Navy
+
+-po:Naval Aviators in the Mediterranean Area ‘of Operations
+RE: Presidential Order #67
+
+recent events in your carrier group's area of operaions have led to
+runaway political and military instability im the FeRI® inorder 10
+vem the ow of military supplies and oer stores info the area, the
+Present has declared the ar space surrounding ns 8% closed
+veal itary and civilian trafic This i an atempt 10 ensire that
+the current sitaton does not deteriorate ay further
+
+Naval aviators conducting operatio ly" Zone
+will be at a full state of combat ceadiness at all time air space
+ie in eect, a frec-fire zone, any aircraft entering it will be assumed
+to have hostile intent. Naval aviators are authorized to neutralize
+any such threats using al of the means at their disposal.
+Intelligence reports indicate that one of the nations in this region
+intends to test the President's resolve 0” this issue by conducting
+offensive air operations in spite ‘of the ban on air traffic ‘Naval avia-
+tors are advised that the bulk of said nation’s air power cor ists of
+aircraft produced in the former Soviet Union, chiefly top-of-the-line
+MiG-29s
+
+‘the President has expressed his confidence inthe Nayy's air arm 10
+vccexfully maintain the peace in this volatile region, AS for myself,
+T know that your training has prepared you for & mission such as
+this, and that you wil execute your orders superbly.
+
+F-14 TOMCAT SPECIFICATIONS
+
+PERFORMANCE
+beerreera Speed at Altitude: Mach 2.34
+Maximum Speed at Sea Level: Mach 1.2
+
+none Plant: Two 20,900 Ib, afterburnin;
+ratt and Whitney TF30-414 Turbofans .
+
+Cruising Speed: 400-500 knots (741-1019 km/h)
+Handing: Speed: 132 knots (204 km/h)
+
+Minimum Takeoff Distance: 1,400 ft
+
+Ceiling: 56,000 ft. ,
+
+Fuel Load: 3,080 gallons
+
+ARMAMENT
+
+© MOILAI “Vulcan” 20mm cannon
+
+© AIM-7 “Sparrow” i
+
+4 ca 7 “Sparrow” radar-guided air-to-air missiles
+
+Pe ae idewinder” infrared air-to-air missiles
+AIM-54 “Phoenix” lock and shoot air-to-air missiles
+
+ENEMY AIRCRAFT ADVISORY
+In cach mission, you will be pit
+meson pitted against aircra
+ets in the former Soviet Union, ah
+iG-29. The number of enemy aircraft you its will
+
+vary, based on the number issions
+successfully completed. NE AL,
+
+===== Page 4 =====
+
+FLIGHT PROCEDURAL
+
+OVERVIEW
+
+Experienced F-14 pilots familiar with this theater of operations’ systems and
+procedures may refer to the instructions below for an immediate start on Mission
+One. Novice pilots are ordered to study the Launch Procedures and Basic
+Flight Control sections below, as well as the entire text of this flight
+manual. Exceptions will not be granted or tolerated.
+
+LAUNCH PROCEDURES
+
+© Hold down UP and BUTTON B simultancously. Continue until the thrust level
+reaches 210%.
+
+© When you are saluted by the flight officer, the ship's catapult mechanism will be
+engaged, launching your F-14 from the flight deck.
+
+BASIC FLIGHT CONTROL
+
+To Bank Right or Left: Press RIGHT or LEFT on the
+Control Pad.
+
+To Climb: Press DOWN on the Control Pad.
+
+To Dive: Press UP on the Control Pad.
+
+To Select a
+
+Weapons System*: Press BUTTON X.
+
+To Fire a Selected
+
+Weapons System*: Press BUTTON A.
+
+To Increase Thrust: Press BUTTON B and UP on the
+Control Pad simultaneously.
+
+To Decrease Thrust: Press BUTTON B and DOWN on
+the Control Pad simultaneously.
+
+For a Rear Left View: Press the TOP LEFT BUTTON.
+
+For a Rear Right View: Press the TOP RIGHT BUTTON.
+
+‘To Pause and Unpause*: Press START.
+
+@
+
+—_——_.-
+
+ACCESSING COMPUTER AND RADAR SYSTEMS*:
+
+(See pages 13-15 for a complete description of onboard computer systems).
+Press SELECT to access the AWACS Operational Radar Grid.
+Press BUTTON Y to cycle through these computer system disp!
+
+© Threat Systems
+
+© Automatic Flight Control Systems
+
+© Pulse Doppler Search Radar Mode
+© Armament
+
+© Electronic Countermeasures (ECMs)
+BUTTON Y + DOWN:
+
+© Accesses long-, medium-, and short-range AWG-9 radar modes (shows an
+overhead view of oncoming bogeys)
+
+© Hold down BUTTON Y and continue to press DOWN to cycle through
+these modes.
+
+BUTTON Y + UP:
+© Accesses DDD Radar (shows head-on view of oncoming bogeys).
+
+BUTTON Y + LEFT:
+© Accesses STAT | (primary) flight information (altitude,compass heading,
+thrust, air speed).
+
+BUTTON Y + RIGHT:
+© Accesses STAT 2 (secondary) flight information (fuel, wing sweep angle,
+angle of attack).
+
+“Denotes systems available to second player in Co-Pilot Mode (see page 9).
+
+Oo
+
+===== Page 5 =====
+
+PREFLIGHT CHECKLI
+
+1. Make sure the power switch on the console of your SUPER NINTENDO
+ENTERTAINMENT SYSTEM® is OFF.
+
+2. Insert the TURN AND BURN: NO-FLY ZONE™ Game Pak as described in
+your Super NES manual.
+
+3. Turn the power switch ON.
+
+Up
+Left Right
+Controller
+oe Top Left Button ‘Top Right Button
+SUPER NT,
+Control Pad
+
+hd
+
+mar
+
+Select Button Button Y
+Start Button
+
+GAME OPTIONS
+
+On the Options Screen, pilots can customize the controller configuration, select
+either the Novice or Ace Modes for game play, or enter a password to restore a
+saved game,
+
+Customizing the Controller:
+This allows you to customize the flight controls. The different configurations can be
+cycled through with the Control Pad. Press BUTTON A to lock in your selection.
+
+Novice Mode:
+This mode will allow rookie pilots to familiarize themselves with the basic
+operations of the F-14,
+
+Ace Mode:
+For pilots who prefer a heightened and more challenging simulation.
+
+Co-Pilot Mode:
+
+A second player can take control of the F-14’s weapon and computer systems by using
+the second Controller of your Super Nintendo Entertainment System. This mode is
+immediately available when the second Controller is plugged in. In any mode, the
+first Controller will always operate the F-14’s functions throughout the game.
+
+===== Page 6 =====
+
+PASSWORDS
+
+Atthe end of each mission, you will receive a password. ‘This password should be
+written down; it will allow the pilot to restart the game at any time from that point at
+your current rank, Without the password, you will be required to start from the
+beginning of the game.
+
+To enter the password, select continue on the Options Screen (see page 9).
+
+The Password Entry Screen will then appear. Enter the combination of letters in
+your password by using the Control Pad to moye around the grid of letters, and
+BUTTON A to lock in your selection. After entering the entire password, press
+START and you will resume the game from the point at which you were assigned
+the password.
+
+HE COCKPIT CONTROL PANEL
+
+System Shut-Down Damage Indicator
+Indicators Enemy Lock-On
+F-14 Lock-On Indicator
+Indicator M61A1 Temperature
+Engine Thrust Gauge Indicator
+
+Horizontal Situation Weapons Status
+Display Display
+Fuel Gauge Cockpit Computer
+
+Display
+
+Damage Indicators
+
+‘These lights will illuminate as your F-14 sustains damage from enemy ordnance
+(see page 29).
+
+Enemy Lock-On Indicators
+
+‘These lights will flash, accompanied by a warning beeper, when an enemy targeting
+system is attempting to acquire your F-14. If these lights illuminate steadily, accom-
+panied by a steady beep tone, the enemy radar has “locked-on” to your F-14 and
+has launched its missile.
+
+F-14 Lock-On Indicator
+
+Similar to the Enemy Lock-On Indicators, this light will flash, accompanied by a
+pulsing beep tone, when your targeting system is attempting to acquire an enemy.
+When “lock-on” has been achieved, the light will glow steadily, accompanied by a
+steady beep.
+
+System Shut-Down Indicators
+Used in Ace Mode only (see page 9).
+
+MG61A1 Temperature Indicator
+Iluminates if the nose-mounted Vulcan machine gun overheats.
+
+Weapons Status Display
+Shows currently selected weapon system, and the number of rounds remaining.
+
+Cockpit Computer Display
+Displays all Onboard Computer Systems (see pages 13-15), TARPS video replays
+
+(see page 33).
+
+===== Page 7 =====
+
+THE COCKPIT CONTROL PANEL (CONTD.)
+
+Engine Thrust Gauge
+
+Displays the percentage of the engine’s thrust power currently being used. For nor-
+mal flight operations, this reading will range between 30% and 100%. Afterburners
+are engaged automatically when thrust is increased over 100%. The pilot can use
+afterburners for increased thrust and speed.
+
+Fuel Gauge
+
+Displays the F-14’s current fuel supply. This reading will vary from mission to mission.
+
+Horizontal Situation Display
+Shows your F-14’s position in relation to the horizon,
+
+ONBOARD COMPUTER SYSTEMS
+
+‘The F-14 Tomcat is equipped with state-of-the-art computer systems to monitor
+basic flight information, radar, and weapons systems.
+
+‘These computer displays will appear on the green phosphorous Cockpit Computer
+Display (CCD) screen in the center of the Cockpit Control Panel (see page 11).
+The pilot should use these ms to reference various critical and non-critical
+flight information, as well as warning messages regarding enemy activity and
+
+flight parameters,
+
+BASIC FLIGHT INFORMATION
+
+‘The Tomcat’s Automatic Flight Control System (AFCS) computer will carefully moni-
+tor and display basic flight information such as altitude, speed, amount of fuel
+remaining, direction, et al. This information is split up amongst two CCD screen
+
+displays—the STAT 1 Display, STAT 2 Display—both of which are readily
+available to the pilot at all times.
+
+STAT 1 DISPLAY
+
+Shows primary flight information.
+
+To Access STAT 1 Information:
+
+© Press BUTTON Y and LEFT simultaneously.
+
+Current Altitude Current Amount of
+Current Heading Engine Thrust
+Current Airspeed
+
+===== Page 8 =====
+
+ONBOARD COMPUTER SYSTEMS (CONTD.
+
+Altitude (ALT)
+s the F-14’s altitude above sea level in feet. The F-14’s operational
+ceiling is 56,000.
+
+Compass Heading (C-HDG)
+
+Displays the aircrafi’s direction as a compass reading. The pilot can use the Central
+
+Air Data Converter (see page 33) to customize this reading to be displayed as a com-
+pass direction (NORTH, NE, EAST, SE, SOUTH, SW, WEST, NW) or a three-digit
+numerical heading (000°= North, 180°= South, 090°= East, 270°= West).
+
+Thrust (ENG%)
+
+Displays the percentage of the engine's thrust power currently being used.
+
+Airspeed (SPEED)
+
+A three-digit reading displaying the F-14’s airspeed, measured in Machs. A Mach is equal
+to the ratio of an object's speed to the speed of sound in the surrounding medium. In this
+case, if your F-14 is traveling at Mach 2, it is moving at twice the speed of sound.
+
+Pilot’s Advisory:
+
+While speed will significantly increase when afterburners are engaged, it is important to remember
+that the F-14's rate of fuel consumption will also significantly increase.
+
+STAT 2 DISPLAY
+Shows secondary flight information.
+
+Gallons of Fuel Current Wing Sweep
+Remaining Angle
+
+Current Altitude Current Angle of Attack
+
+To access STAT 2 information:
+© Press BUTTON Y and RIGHT simultaneously.
+
+Oo
+
+Fuel (FUEL)
+Displays the F-14’s current fuel supply measured in gallons.
+
+Pilot’s Advisory:
+
+An aircraft's engine thrust percentage directly affects an aircraft's rate of fuel consumption,
+particularly when afterburners are engaged. Remember to continually monitor fuel consumption
+during the course of a mission and be prepared to rendezvous with your carrier or an AG when
+fuel needs to be replenished (see page 31).
+
+Wing (WING)
+
+Displays the degree of the F-14’s wing sweep angle. The angle of the wing is v.
+and will sweep automatically based on increases or decreases in engine thrust.
+‘The wing sweep will range between 20° and 68° depending on the flight mode.
+Low wing sweep angle will reduce the aircraft's top speed by increasing the wind
+drag and resistance over the surface of the plane, increasing maneuvering stability.
+Your computer system automatically adjusts for a higher degree of wing sweep at
+increased speeds.
+
+Angle of Attack (AOA)
+Reads the angle of the aircraft's pitch, from 0° to 15°. This display is useful for
+maneuvering your aircraft into the landing groove for final approach to your carrier.
+
+===== Page 9 =====
+
+HE NAVIGATIONAL COMPUTER
+
+‘The F-14 is equipped with a navigational computer that allows the pilot to “fly on a
+beam” by homing in on radio beacons and radar signatures. This equipment will
+help guide the pilot to the carrier, enemy MiGs, A-6 refueling aircraft, and enemy
+objectives.
+
+© Represented on the HUD by a diamond-shaped sight with a dot in the center.
+
+To turn on the Navigational Computer:
+
+© Press SELECT to call up the AWACS Operational Radar Grid (see page 17).
+
+© Select the target that you wish to fly towards by highlighting it on the AWACS
+Grid (see page 17).
+
+© A diamond-shaped sight will appear on the HUD. Maneuver the F-14’s flight
+path so that the diamond is ALWAYS in the center of the cockpit window. As
+long as the diamond is centered, the F-14 will fly toward the selected target.
+
+© To disengage the Navigational Computer, press BUTTON X.
+
+RADAR SYSTEMS
+
+‘The Tomcat's radar detection system is fully integrated into its weapon and threat
+evaluation systems. This allows the pilot virtually instant access to a vast array of
+information on any bogey entering the F-14’s quadrant. These systems are also
+connected via two-way data link to the ever-present AWACS (Airborne Warning And
+Control System) aircraft that monitor all air traffic in the area of operations.
+
+THE AWACS OPERATIONAL RADAR GRID
+
+Bogey (Higher Altitude) Targeted Bogey
+Bogey (Same Altitude) (ower Altitude)
+Rid Intercept Vector
+Targeted Bogey’s Flight
+Carrier Information
+
+The advantage of the AWACS Operational Radar Grid is the long- and short-range
+satellite (bird's-eye) views it provides, enabling the pilot to maneuver toward bogeys.
+Icons for bogeys flying above your current altitude appear light blue; those within
+1,000 feet appear green; those at lower altitudes appear dark blue. The carrier icon
+will always appear blue.
+
+Remember: Additional icons representing enemy submarines and A6 refueling air-
+craft may appear on the AWACS Grid as missions increase in difficulty.
+
+Pilot's Advisory:
+
+Viewing the AWACS Operational Radar Grid does not pause the mission; the F-14 will still be
+subject to enemy fire and all other flight conditions.
+
+To “target” an aircraft on the AWACS Operational Radar Grid:
+© Press SELECT to call up the AWACS Grid.
+
+© Press BUTTON Y to cycle between the long- and short-range AWACS
+Operational Radar Grid Modes.
+
+© Press BUTTON X to cycle through all the “blips” appearing on the Grid.
+© Threat Systems Display information (see page 26) on targeted aircraft will appear
+
+at the bottom of the Grid.
+
+===== Page 10 =====
+
+RADAR SYSTEMS (CONTD
+
+To engage an aircraft on the AWACS Operational Control Grid:
+
+© Use the Control Pad to steer the F-14 on the Grid.
+
+© Use BUTTON B and the Control Pad to increase or decrease the F-14’s speed
+(see page 6).
+
+To return to the Cockpit Screen:
+
+© Press SELECT.
+
+AIRBORNE WEAPONS GROUP NINE (AWG-9) RADAR SYSTEM
+
+A highly advanced detection system, the Airborne Weapons Group Nine (AWG-9)
+
+Radar System provides effective scanning for patrols, as well as a close-range and posi-
+
+tional analysis of any airborne threat. The AWG-9 is composed of four radar modes of
+
+varying range abilities and views: Detail Data Display Mode, Pulse Doppler
+Search Mode, Range While Search Mode, and Track While Search Mode.
+
+Detail Data Display (DDD) Mode
+Bogey
+
+Horizon Line
+
+‘The Detail Data Display (DDD) Mode will show the altitude, and horizontal posi-
+tioning of any enemy in front of the F-14, When a bogey appears on the DDD, it is
+shown in relation to the pilot's frontal cockpit view. Therefore, if a bogey is coming
+at the Tomcat head-on, and then passes over, under, or to the side of it (i.e., can no
+longer be viewed from the front), the DDD will be automatically replaced with one
+of the top-view radar screens.
+
+To Access the DDD:
+© Press BUTTON Y and UP simultaneously.
+
+O-
+
+Pulse Doppler Search (PDS) Mode
+
+Bogey
+Pid
+
+‘The Pulse Doppler Search (PDS) Mode displays a wide, long-range overhead view of
+the area in front of the F-14. This is the longest-range tactical radar available.
+To access the PDS Mode:
+© Press BUTTON Y and DOWN simultaneously.
+
+OR
+© Continue to press BUTTON Y repeatedly to cycle through the computer displays.
+Range While Search (RWS) Mode
+
+Bogey
+Pld
+
+‘The Range While Search (RWS) Mode operates in the same manner as the PDS Mode.
+The magnification of the RWS, however, is a closer top view, giving the pilot a mid-
+range scan of the area directly in front of the F-14.
+
+To access the RWS Mode:
+
+© Press BUTTON Y and DOWN simultaneously.
+
+© Continue to press BUTTON Y, and press DOWN repeatedly to cycle through
+these three computer displays.
+
+O-
+
+===== Page 11 =====
+
+RADAR SYSTEMS (CONTD.)
+
+Track While Search (TWS) Mode
+
+Bogey
+P14
+
+The Track While Search (TWS) Mode scans in the same manner as the PDS and
+
+RWS, but gives the pilot a close-up view of the immediate vicinity around the air-
+craft. This radar mode has the shortest range of any available to the F-14 pilot.
+
+This mode also allows the pilot to track an individual bogey's every move, making it
+particularly useful in dogfights.
+
+To access the TWS Mode:
+
+© Press BUTTON Y and DOWN simultaneously.
+
+© Continue to press BUTTON Y, and press DOWN repeatedly to cycle through
+these three computer displays.
+
+WEAPONS SYSTEMS
+
+‘The F-14 Tomcat is armed with four of the most lethal and sophisticated weapons
+systems in the world. These are the Tomcat’ \d an experienced pilot can
+use them to cut a fiery swath through any enemy’s air defense:
+
+© MOIAI “Vulcan” 20mm Cannon (close range only)
+
+© AIM-9 “Sidewinder” infrared missiles (close range only)
+
+© AIM-7 “Sparrow” radar-guided missiles (close to medium range)
+
+© AIM-54 “Phoenix” “fire and forget” missiles (close to extreme range)
+
+To select a Weapons System:
+
+© Press BUTTON X to cycle through weapons systems.
+
+© The weapons system you have selected will appear in the Weapons Status Display
+on the right-hand side of the cockpit (see page 11).
+
+To fire a selected Weapons System:
+
+© Press BUTTON A.
+
+AWG-15 LOAD DISPLAY
+
+Number of AIM-54
+‘“Phoeuts” Missiles ‘Number of AIM-9
+Remaining “Sidewinder” Missiles
+Number of AIM-7 Remaining
+‘erratic Number of M61A1
+Bi “Vulcan” 20mm Cannon
+Rounds Remaining
+
+This lists the possible weapons systems from which the pilot may choose, and
+
+displays the number of missiles or rounds remaining.
+
+To access the AWG-15 Load Display:
+
+© Press BUTTON Y¥ to cycle through the CCD displays until the AWG-15 Load
+display appears.
+
+-O
+
+===== Page 12 =====
+
+WEAPONS SYSTEMS (CONTD.)
+
+M61A1 “VULCAN” 20MM CANNON =——
+
+MOIAL Sight
+Enemy Aircraft
+
+Mounted on the left side of the Tomeat’s nose, the M61A1 Vulcan 20mm Cannon
+can be utilized by a good pilot with lethal results. While it can only be used
+effectively at close range, the Vulcan’s 6,000 rounds per minute rate of fire can
+bring a tremendous amount of ordnance to bear on a target very quickly. The
+ammunition load for this gun is M50 series 20mm shells.
+
+The MG1A1 “Vulcan” is effective only at close range.
+© Represented on the HUD by a cross-hair sight.
+To aim:
+
+© Maneuver the target aircraft into the center of the cross-hair by banking to port
+and starboard and raising and lowering the F-14’s nose angle.
+
+© Press BUTTON A to fire the cannon; the cannon will continue firing as long as
+BUTTON A remains pressed.
+
+© Sustained hits are required to destroy enemy aircraft with the Vulcan cannon.
+
+Pilot's Advisory:
+
+‘The M6IAI Vulcan cannon is best fired in short, concentrated bursts. The cannon expends
+ammunition very quickly and is prone to overheating if fired for long intervals; at extreme barrel
+temperatures, it will automatically shut down. In the event that your cannon overheats, the M61
+reading on the Weapons Status Monitor will flash, When the cannon has cooled, the MGtreading
+will stop flashing, and you can resume firing
+
+O
+
+AIM-9 “SIDEWINDER” MISSILES ~#—>—
+Sidewinder Sight
+Enemy Aircraft
+
+Fired alternately from the port and starboard wing mounts, these short-range,
+infrared (heat-seeking) missiles home in on both a target’s hot jet exhaust, and on
+the fuselage heat caused by air friction. Against the backdrop of the cold sky, these
+two signatures are easily tracked by the Sidewinder's guidance system, making this a
+most accurate and effective launch-and-leave weapons system.
+
+The AIM-9 “Sidewinder” is effective only at close range.
+
+© Represented on the HUD by a circle with a dot in the center.
+
+To aim:
+
+© Maneuver the dot in the center of the sight onto the target by banking to port
+and starboard and raising and lowering the F-14’s nose angle. Wait for a “lock-
+on” tone before launching.
+
+To launch:
+
+© Press BUTTON A.
+
+© Sidewinders are self-guided after launch.
+
+===== Page 13 =====
+
+WEAPONS SYSTEMS (CON'
+
+AIM-7 “SPARROW” MISSILES -—>—
+
+Sparrow Sight
+Destroyed
+Enemy Aircraft
+
+Compact and lethal, these mid-range, radar-guided missiles fit easily into the
+Tomcat’s sleek aerodynamic design. Unlike its bulky and more sophisticated big
+brother, the AIM-54 “Phoenix,” the Sparrow packs a punch without increasing
+drag and compromising the F-14’s performance.
+
+© Represented on the HUD by a square with a dot in the center.
+
+To aim:
+
+‘© Maneuver the dot in the center of the sight onto the target aircraft by banking to
+port and starboard and raising and lowering the F-14’s nose angle. Wait for a
+“lock-on” tone, and then maintain that tone before launching.
+
+To launch:
+
+© Press BUTTON A.
+
+© Guide the Sparrow to its mark by keeping the targeted aircraft close to the
+center of the HUD sighting circle until the missile detonates.
+
+AIM-54“PHORINDY MSL
+
+Destroyed
+rh Sight Enemy Aircraft
+
+These long-range, radar-guided, launch-and-leave missiles are deployed exclusively
+on F-14s. As big and heavy as they are sophisticated, they can lock on to a distant
+radar signature and practically guarantee destruction of an enemy aircraft, elimi-
+nating the necessity of establishing visual contact with the target. Cumbersome
+mounting pallets must be affixed to the Tomcat in order to mount these lethal
+hunter-killers and their monstrous 132 Ib. warheads.
+
+The AIM-54 “Phoenix” is effective from close to extreme ranges.
+© Represented on the HUD by a triangle with a dot in the center.
+
+To aim:
+
+© Target a bogey on the AWACS Grid (see page 17) .
+
+To launch:
+
+© Press BUTTON A.
+
+es are self-guided after launch.
+
+© Phoenix m
+
+Pilot's Advisory:
+
+Do not waste AIM-54s by launching them prior to locking them onto a target. Also note that while
+the Phoenix: bas a high success rate after target lock-on, incidents of misses resulting from enemy
+countermeasure interference and/or expertly executed flight techniques have been documented.
+
+OC
+
+===== Page 14 =====
+
+COMBAT
+
+Potential enemies can be targeted on the AWACS Operational Radar Grid (see page
+17 for details), which gives information on their location, altitude, heading, ete.
+Use the AWACS Grid to guide the F-14 close enough to an enemy to begin tactical
+operations on the Cockpit Control Screen.
+
+For rapid ascent to the bogey’s altitude, press DOWN to begin a steep climb. Then
+increase your speed by pressing BUTTON B and UP.
+
+THREAT SYSTEMS DISPLAY
+
+The Threat System gives vital flight information on any targeted bogey. In addition to
+the self-explanatory sti s of altitude, compass heading, and range (in nautical
+miles) from the F-14, it has the added ability to ID the bogey’s radar signature with
+the Interferometer as described below.
+
+Targeted Aircrafts Targeted Aircrafts
+Altitude IEF Reading
+
+Targeted Aircraft’s Targeted Aircraft's
+
+Compass Heading Distance from F-14
+
+Interferometer Friend/Foe Reading (IFF)
+
+The IFF will classify any radar signature it receives. When a blip is targeted on the
+AWACS Operational Radar Grid, the pilot may access its vital information by refer-
+ring to the Threat Systems Display on the CCD.
+
+To access the Threat Systems Display:
+
+© Press BUTTON Y to cycle through the CCD displays until the
+‘THREAT SYS display appears.
+
+When visual contact has been made with the enemy aircraft, begin engagement
+procedures by selecting a weapons system. ‘Then maneuver the F-14 until the
+HUD of the chosen weapons system locks onto the enemy. A series of short beeps
+
+will indicate that the computer is tracking the enemy. A steady beep tone signifies
+that the computer has locked onto the target and the weapon of choice is ready
+to be launched.
+
+ELECTRONIC COUNTERMEASURES (ECMs) DISPLAY
+
+An enemy may at any time fire his own air-to-air ordnance at your F-14, Immediately
+after this occurs, the CCD will display the ECM computer screen, and a warning
+buzzer will sound, indicating that an enemy missile has “locked on” to your F-14.
+
+Enemy Missile Fa
+
+‘The blip on the ECM display represents the oncoming missile and its distance in
+relation to your aircraft. The radar blip gets closer to the plane icon as the missile
+on you; when the blip is on top of the plane icon, it has impacted with your
+
+Pilot's Advisory:
+
+In the Ace Mode, the Airborne Missile Control System (AMCS) must be switched to the ON mode
+prior to engaging enemy aircraft in combat. It is this finction that arms all of the air-to-air
+missiles carried by the P-14, and you will be unable to fire weapons without activating it.
+See page 32 for information on how to access the AMCS.
+
+===== Page 15 =====
+
+} COMBAT (CONTD.)
+
+DISCHARGING ECMs
+
+‘The Tomcat is equipped with a supply of electronic countermeasures (ECMs) that
+can be used to confuse the tracking and guidance systems of enemy missiles. In the
+event that an enemy missile acquires your F-14, these devices can be used to aug-
+ment your evasive flight maneuvers.
+
+There are two basic types of ECMs: chaffs (electronic jamming devices), used to
+counter radar-guided missiles; and flares for use against heat-seekers,
+
+To discharge an ECM Device:
+© Press and hold either the TOP RIGHT or TOP LEFT BUTTON to bring up the
+Rear Right or Rear Left view.
+
+© Press BUTTON A to discharge an ECM (the AWG-9 System will classify the type
+
+of missile threatening your Tomcat, and will select the appropriate ECM for use
+in that situation).
+
+Pilot's Advisory:
+
+While ECMs are often belpful for avoiding enemy missiles, discharging an ECM device
+does not guarantee that the homing missile will be evaded. It is recommended that pilots
+continue evasive maneuvers after an EGM has been discharged.
+
+AVOIDING ENEMY ORDNANCE
+
+To avoid an enemy mis
+
+ile, you must fly a series of evasive flight maneuvers.
+
+Extreme banking and altitude changes will help to lose a missile tracking you from
+close behind. When your F-14 is out of danger, the warning buzzer will cease, and
+the ECM display will disappear from the CCD.
+
+During avoidance maneuvers, you may still perform offensive measures to destroy
+enemy aircraft,
+
+Pilot's Advisory:
+
+defensive maneuvers, the more likely itis you will
+uly evade an oncoming missile.
+
+‘The more extreme the F-
+
+O
+
+‘The missile will explode if it gets too close to the F-14, and you will sustain damage.
+If it explodes on-screen, your F-14 will sustain damage.
+
+Remember: Missiles fired at you from the front view close in on your aircraft very
+quickly, so you must act fast to outmaneuver them.
+
+SURFACE TO AIR MISSILES (SAMs)
+
+Even when there is no apparent threat from enemy aircraft, stay alert for SAMs fired
+from enemy submarines that may be tracking your aircraft (use the AWACS Grid to
+check for the presence of submarines in your area of operations). If this occurs,
+the Enemy Lock-On Indicators (see page 11) will flash and your computer's ECM.
+screen will appear. Use the same evasion techniques described for air-deployed
+enemy missiles.
+
+DAMAGE
+
+If your ECMs and evasive maneuvers fail, an enemy missile will impact and damage
+the F-14, In the Novice Mode, a fifth hit by enemy ordnance will destroy your air-
+craft; in the Ace Mode, a fourth hit will destroy the F-14.
+
+Systems Shut-Down
+
+In the Ace Mode, when the F- struck by enemy ordnance, some of the onboard
+computer system functions may be shut off. It is up to you to check which systems
+have been made non-operational, and to turn them back on. See Adjusting
+
+Computer Systems on pages 32-34 for details on switching computer functions on
+and off.
+
+Pilot's Advisory:
+
+Naval aviators are advised that some missions may require them to seek out and destroy an enemy
+objective. All intelligence regarding these targets and their defense systems is classified. Pilots are
+advised to approach these objectives in the same manner they would approach their carrier, and
+then to use any weaponry at their disposal to neutralize the objective's offensive weapons by aim-
+ing ordnance at the target's gun bursts
+
+Remember: You are allotted three F-14s per game. If all three are destroyed, the
+game is over.
+
++O
+
+===== Page 16 =====
+
+LANDING PROCEDURES
+
+You must land your E-14 on the flight deck of the carrier in order to successfully
+
+complete a mission. You may also land during the course of a
+replenish your fuel and weapons stocks (see page 31 for i
+dures). Adhere carefully to the following landing procedures:
+
+To position the F-14 for final approach:
+© Locate your carrier's position on the AWACS Operational Radar Grid, and direct
+your F-14 into its vicinity.
+
+© Descend to an altitude of 5,000 feet or less.
+
+When your F-14 is in the correct position for final approach, the Computer Landing
+Display (CLD) will appear on the CCD.
+
+COMPUTER LANDING DISPLAY (CLD)
+
+Landing Groove
+
+ion in order to
+ight refueling proce-
+
+Flight Deck Pik
+
+Positioning Grid
+
+This display will automatically appear on the CCD after you have successfully posi-
+tioned your aircraft for final approach. ‘The CLD shows your altitude and horizontal
+position in relation to the carrier.
+
+‘The Landing Groove Display
+
+The F-14 will be represented by the blip in the V-shaped wedge-or “landing groove"—
+extending from the carrier deck on the CLD. You must maneuver the F-14 in order to
+keep this blip inside this wedge and successfully bring the F-14 in for a landing.
+
+On
+
+‘The Positioning Grid
+
+Throughout the landing procedure, your F-14 will be subject to prevailing wind con-
+ditions, and may drift slightly. On final approach, your aircraft may be tossed about
+by crosswinds that will move it away from the center of the carrier, or too high or
+low in relation to the flight deck. This drift is reflected on the Positioning Grid.
+
+Like the Landing Groove Display, the blip on the Positioning Grid represents the F-14.
+The F-14 must be maneuvered so that the blip is kept in the center box of this
+
+grid at all times.
+
+Remember: Throughout the landing procedure, the F-14 will continuously burn
+fuel. As a result, the number of passes you can attempt over the carrier is limited,
+and dependent upon the amount of fuel you are carrying.
+
+Pilot’s Advisory:
+
+On either the Landing Groove or Positioning Grid dis} ‘be F-14 blip slips above the
+required parameters too close to the deck, you will oversboot the carrier and must reposition
+the F-14 for another landing attempt. If it dips below these parameters, forced impact
+into the flight deck will result.
+
+To abort a landing attempt at any time:
+
+© Increase engine thrust percentage
+
+© Increase altitude +
+
+© Bank away from the carrier to the left or right
+
+In-flight Refueling
+
+Pilots can either return to the carrier to refuel or find an A6 refueling aircraft in their
+area of operations. The AG will be able to replenish all of the F-14’s fuel, but will not
+be able to rearm spent weaponry.
+
+To rendezvous with an A6 for refueling:
+
+© Locate an A6 on the AWACS Grid and fly into its vicinity.
+
+© When you are near the AG, the CCD will display the parameters that your F-14
+must match in order to begin the refueling process. Parameter requirements that
+have been met will not blink; unmet parameters will blink until the F-14’s flight
+path has been adjusted to match them.
+
+© When all the parameters have been met, refueling will begin.
+
+O
+
+===== Page 17 =====
+
+STING COMPUTER SYSTEMS
+
+Advanced pilots may want to take more manual control of F-14 operations and
+access systems and information on their own. In order to do this, they need only
+access the appropriate system screen and change its mode. Regardless of whether
+the pilot is advanced or a novice, these systems do not require adjustment for
+regular operations.
+
+To change an onboard computer's mode setting (ON/OFE):
+
+© Press and hold BUTTON B to enter the selection mode (the line will highlight).
+
+© Continue pressing BUTTON B and press UP or DOWN to cycle through the
+available system selections.
+
+ing BUTTON B and press LEFT or RIGHT to toggle the high-
+
+itus to the ON or OFF mode.
+
+Remember: When adjusting computer systems, you will NOT be able to adjust your
+engine thrust.
+
+AUTOMATIC FLIGHT CONTROL SYSTEMS (AFCS)
+
+SYSTEM DISPLAY
+Computer Signal Data
+Converter
+
+Central Air Data
+Converter
+
+Tactical Airborne
+Reconnaissance Pod
+System
+
+The AFCS is composed of systems that monitor the radar displays, the compass
+reading, and the nose-mounted KS-87B frame camera, To adjust these sy
+access the AF€S SYS display on the CCD.
+
+‘Oe
+
+COMPUTER SIGNAL DATA CONVERTER (CSDC)
+
+Controls the display of AWG-9 radar modes (see pages 17-20 for more details).
+While in the ON mode, the most appropriate radar mode for your tactical situation
+will automatically be chosen and displayed by the computer. If the CSDC is in the
+OFF mode, however, it will be up to the pilot to control what radar mode is seen.
+
+CONTEAS AIR wae Oren a
+
+itched to the OFF mode, this reading will be displayed as a three-digit
+numerical heading (000°= North; 180°= South; 090°= East; 270°= West).
+
+TACTICAL AIRBORNE RECONNAISSANCE POD SYSTEM (TARPS)
+
+This function controls the nose-mounted KS-87B frame camera. Always set in the
+OFF mode, a pilot may toggle this function to ON after downing at least one enemy
+fighter. The TARPS will then replay a full-motion video of the last victory on the CCD.
+
+AIRBORNE WEAPONS GROUP (AWG) 15 SYSTEM DISPLAY
+
+Airborne Missile Control Interferometer
+System Identification—
+Pulse Repetition Friend/Foe
+
+Frequency
+
+Integrating weapons and radar systems, the AWG-15 System Display controls the
+F-14’s missile-arming mechanisms and its radar signature a computer,
+Itis displayed on the CCD as AWG-15 SYS.
+
+Airborne Missile Control System (AMCS)
+This function arms all of the air-to-air missiles carried by the F-14, and must be
+switched to the ON mode prior to engaging enemy aircraft in combat (see Combat
+
+on pages 26-29).
+
+===== Page 18 =====
+
+STING COMPUTER SYSTEMS (CON'
+
+Interferometer Identification—Friend/Foe (IFF)
+Controls the radar signature interpretation system, which appears as “hostile”
+or “carrier.”
+
+ELECTRONIC COUNTERMEASURES (ECM) SYSTEM DISPLAY
+
+If this is switched to the OFF Mode, the ECM Display (see page 27) will not automati-
+cally come up in the event that an enemy m as “locked on” to your F-14, and
+you will not be able to discharge ECMs. his screen also displays the current number
+of ECM devices that remain available to you.
+
+TACTICAL RECOMMENDATIONS FOR
+
+OPERATIONS IN THE “NO-FLY” ZONE
+
+© To avoid enemy missiles, adopt an eccentric flight pattern. Dive, bank,
+and climb as quickly and erratically as possible.
+
+© To reduce the amount of fuel used during flight, use afterburners only in
+an emergency, and keep engine thrust below 99% (near 40% during dogfights).
+
+© In combat situations, reduce engine thrust to 50% to increase the F-14’s
+maneuverability,
+
+© Fire the nose-mounted MO1AL Vulcan 20mm machine guns in short, concentrat-
+ed bursts to avoid overheating.
+
+© When landing, move the Control Pad slightly to avoid overshooting the
+carrier's parameters. Avoid rapid altitude fluctuations. Aim toward the front of
+the carrier runway with your HUD sight,
+
+===== Page 19 =====
+
+AWACS:
+Bank:
+CADC:
+
+csDC:
+ECM:
+
+HUD:
+
+IEF:
+
+Landing Groove:
+MiGs:
+
+Port:
+Starboard:
+TARPS:
+
+Vector:
+
+GLOSSARY
+
+Automatic Flight Control System. Monitors all flight systems
+(see page 32).
+
+Air Interception Missile.
+
+Airborne Mi
+(see page 33)
+
+ile Control System. Arms all weapons
+
+Airborne Warning And Control System (see page 17)
+
+Lateral incline of an aircraft.
+
+Central Air Data Converter. Controls radar mode displays (see
+page 33).
+
+Cockpit Computer Display. Displays computer system
+readouts and TARPS replays of your victories (see page 11).
+Computer Signal Data Converter. Controls compass heading
+display (see page 14).
+
+Electronic Countermeasures. Aids in avoidance of
+enemy ordnance (see page 27).
+
+Heads Up Display. A computer-projected image superimposed
+onto the cockpit window that displays the sighting tools for an
+F-14’s weapons system.
+
+Interferometer Identification—Friend/Foe. Identifies
+and interprets radar signatures (see page 26).
+
+The optimum approach pattern for a landing aircraft.
+
+Jet fighters produced in the former Soviet Union by the design
+bureau of Artem Mikoyan and Mikhail Guryevich.
+
+The left-hand side of the aircraft.
+The right-hand side of the aircraft.
+
+Tactical Airborne Reconnaissance Pod. Controls the nose-
+mounted KS-87B frame camera (see page 33)
+
+‘The heading you must fly in order to intercept an aircraft.
+
+7.7
+
+Absolute Entertainment, Inc.’s
+Limited 90-Day Warranty
+‘Absolute Entertainment, Ine, warrants tothe original retail purchaser of this video game computer program (“Progran") that the Game Pak
+
+(Game Pak”) on which the Program is embod wl be fr from dc in materials and workmanship fora pero of ninety (90) days
+from the day of purchase If your Game Pak becomes defective during that period, Absolute Entertainment, nc wll place it re of charg:
+
+To replace a defective Game Pak during the waranty perio, mail th entire Game Pak, poof of your purchase with the purchase date cit-
+cle, abril statement describing the defect, snd large self-addressed stares envelope to
+
+‘Warranty Office
+Absolute Entertainment, Ine
+Suite 300 South
+10 Mountainview Road
+Upper Sade River New esey 07458
+Yt eo ss Dy ee
+
+if your Game Pak fais afer the en ofthe 90-day warranty period, you may retum ito Absolute Entertainment, Inc. atthe adress above
+lng wth a check or money order for $2500, bri statement describing the defect, a argesel addres stamped envelope. This
+feo epair or replace defective Gane aks ter the en of the day warranty period may be within at anytime without notice:
+
+‘We recommend that eect Game Paks be packaged carefully and sent cet mail, tum rept requested. Absolute Entertainment,
+‘nc. wll not be responsible for replacing defective ame Paks until they have been received by usa the above addres.
+
+‘This warrants imited tothe Game Pak as onginall suplid by Absoute Entertainment, ne. and is rot applicable to the Program
+embodied onthe Game Pak. This warranty will nt be honored ifthe defect has arisen through abuse, mistreatment, improper care ofthe
+ame Pak, neglect, or normal wear an tar.
+
+‘THIS WARRANTY IS IN LIBU OF ALL OTHER WARRANTIES, WHETHER ORAL OR WRITTEN, EXPRESS OR IMPLIED, INCLUDING ANY WAR.
+RANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICLIAR PURPOSE, AND NO OTHER REPRESENTATIVES OR CLAIMS OF ANY
+[NATURE WILL BE BINDING ON OR OBLIGATE ABSOLUTE ENTERTAINMENT, INC, IN NO EVENT WILL ABSOLUTE ENTERTAINNENT, INC.
+‘BE LIABLE FOR SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM POSSESSION, USE OR MALFUNCTION OF THIS
+(GAME PAK OR PROGRAM, INCLUDING DAMAGE TO PROPERTY, AND TO THE EXTENT PERMITTED UNDER THE LAW, DAMAGES FOR PER.
+‘SONAL INJURY, EVEN IF ABSOLUTE ENTERTAINMENT, INC. HAS BEEN PREVIOUSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+‘THE PROGRAM IS SOLD "AS-1S” AND NO WARRANTIES EXPRESS OR IMPLIED, INCLUDING WARRANTIES FOR MERCHANTABILITY OR
+FITNESS OR PURPOSE, WILL BE APPLICABLE,
+
+‘SOME STATES 0 NOT ALLOW LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY LASTS AND/OR THE EXCLUSION OR LIMITATION
+(OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATIONS AND/OR EXCLUSION OR LIMITATION OF LIABILITY
+MAY NOT APPLY TO YOU. ‘THIS WARRANTY GIVES YOU SPECIAL LEGAL RIGHTS, AND YOU MAY HAVE OTHER RIGHTS WHICH VARY
+FROM STATE TO STATE
+
+e S$
+Lae oun
+reyes
+
+===== Page 20 =====

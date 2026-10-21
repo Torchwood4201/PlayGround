@@ -1,0 +1,979 @@
+# Super Conflict - The Mideast
+source: https://archive.org/details/snes_manual_archive
+pdf: Super Conflict - The Mideast (USA).pdf
+region: USA
+pages: 14
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNS-CN-USA
+
+INSTRUCTION BOOKLET
+
+wy
+
+vi KAI
+VIC TOKAI INC. " ae
+
+22904 Lockness Ave., Torrance, CA 90501 SUPER NINTE NOO
+PAINTED IN JAPAN :
+
+===== Page 2 =====
+
+UCENSED BY
+
+NINTENDO, SUPER NINTENDO
+
+SMgeTININTENDO OF AMERICA ING.
+
+THIS OFFICIAL SEAL 1S YOUR
+ASSURANCE THAT NINTENDO HAS
+APPROVED THE QUALITY:
+
+IZED
+BEARING THE OFFICIAL NINTENDO
+‘SEAL OF QUALITY,
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+===== Page 3 =====
+
+INTRODUCTION ......cccsccseccssccesceesceeeceeceeeeeee 3
+
+TAKING CONTROL.....
+BEGINNING/SELECTING A GAME.
+OPTIONS
+
+SCENARIO SELECT SCREEN
+
+GAME PLAY ..
+
+MOVEMENT...
+UNIT DATA SCREEN
+UNIT MOVEMENT
+OVERVIEW MODE
+PAUSE MENU
+
+ENGAGING THE ENEMY
+MODES
+RESUPPLYING & REPAIRING DAMAGE
+
+PRODUCTION ....ccccssscssseeesseeeeseseeesessenenees 17
+PRODUCTION POINTS
+
+MAPS & CHARACTERISTICS - 20
+
+INTRODUCTION TO MILITARY UNITS....... 22
+RELATIONS GUIDE
+SPECIAL UNITS
+
+90-DAY WARRANTY ............ccscceecceeceeeeeeeeeees 25
+
+i" “INTRODUCTION
+
+LR a aS ff ls
+Super Conflict is a war-simulation game for either one or
+two players. It requires the player to employ military
+strategy and make decisions based on variables that
+are constantly changing, such as terrain and enemy
+movement. In addition to this, the player maintains
+total control of his own military forces, including land,
+air, and sea units!!_ In one-player mode, the player
+assumes control of the Blue forces, battling the
+computer through 5 skill levels and 55 different
+scenarios, The two-player mode is played head-to-
+head, with each player assuming control of either
+the Blue or Red forces. There’s even a unique
+handicapping feature to better equalize players of
+various skill levels.
+
+The goal in either one or two-player mode is to destroy
+the opposing side’s Flag Unit. In Levels 1-4 the Flag Unit
+isa tank. At Level 5, however, there is also a Flag Ship.
+The Flag Unit itself is similar to the King in chess in that
+once it is destroyed, the scenario is over. (In Level 5, if
+either are destroyed, the scenario is over.) And, as in
+chess, the remainder of your
+forces all vary in regards to
+strength, movement and
+capabilities. The strategy you
+employ is up to you, but unlike
+chess, you may have to remind
+yourself, “It’s only a game”...
+
+===== Page 4 =====
+
+{ TAKING CONTROL }
+
+L Button R Button
+
+START
+SELECT
+Button Button = ¥
+
+CONTROL PAD ¢ Switches options
+* Moves cursor (Overview Mode)
+
+SELECT Button» Not used
+
+START Button = « Begins game
+* Pauses game
+
+A Button ¢ Selects options (Pause Menu)
+* Attacks (Battle Mode)
+B Button » Defends (Battle Mode)
+X Button * Displays Unit Status Screen (Normal Mode)
+Y Button * Overview Mode (Normal Mode)
+Switches weapon (Battie Mode)
+R Button ¢ Retreats (Battle Mode)
+L Button * Not used
+
+NOTE: Press any button to bypass/exit opening sequence.
+
+4 BEGINNING/SELECTING 4
+
+A GAME t
+
+1. After the opening sequence, use
+<— or —> on the CONTROL PAD to
+select the desired style of game (One-
+player, Two-Player, or Continue Game).
+
+2. Use up or down on the CONTROL PAD.
+to switch to the option to be changed.
+Use <— or —> to change option,
+
+3. Press START to begin.
+
+oleae OPTIONS >
+
+THE STYLES OF GAME AND THEIR OPTIONS ARE
+AS FOLLOWS:
+
+QNE-PLAYER
+Player assumes control of the Blue forces and plays against the
+computer.
+3 UNITS/ALL UNITS
+Determines how many units each side may utilize per turn.
+‘TWO-PLAYER
+Head-to-head competition between two players with Player 1
+assuming control of the Blue forces and Player 2 assuming control
+of the Red,
+3 UNITS/ALL UNITS
+Determines how many units each side may utilize per turn.
+PRODUCTION POINTS
+
+Determines which units may be produced for two-player
+scenarios in which factories are present (3-16). This can also be
+used as a handicapping feature, allowing a weaker player to
+begin a game with the capacity to produce stronger units.
+(Please see GAME PLAY/Production)
+
+NOTE: 3 unit mode is recommended for beginners.
+CONTINUE GAME
+Allows player to continue 1 of up to 5 campaigns already in
+
+progress. Use up or down on the CONTROL PAD to highlight
+desired game and press the A Button to select.
+
+If you accidently find yourself in the Continue Game option
+and wish to escape, reset the game entirely and begin again.
+
+===== Page 5 =====
+
+{SCENARIO SELECT aie tale ia
+
+SCENARIO SELECT SCREEN ¢
+fs = Sy ape a yi eee
+
+After adjusting the desired options,
+you will then be presented with
+one of the following Scenario
+Select Screens based on the style
+of game you selected.
+
+ONE-PLAYER (CONTINUED GAME)
+
+This game consists of 55 scenarios spanning 5 skill levels. As
+there are no passwords (the battery backup remembers all
+progress properly saved), this game is based on a
+“graduation” process; you must earn your way to a
+higher/harder level. Each level’s scenarios may be played in
+any order (with the exception of the final battle for that level),
+but you may not advance to a higher level or area (darkened
+sector) until all necessary scenarios have been completed.
+You may, however, return and play completed scenarios,
+including those of previous levels, as often as you'd like.
+Completed scenarios which are properly saved will be
+denoted with a star. For your reference, the levels break
+down as follows:
+
+Level —_Total # of Scenarios
+
+1 6 (+1 final)
+2 9 (8 +1 final)
+3 11. (10 +1 final)
+4 13 (12 +1 final)
+5 16 (15 +1 final)
+
+After successfully completing your first scenario, you will be
+asked if you wish to save your progress by entering your name.
+Use the CONTROL PAD to locate the desired characters and
+press the A Button to select. From that point forward, you will
+be given the opportunity to save each victory after it occurs.
+If you choose “Yes”, the game will automatically keep track of
+your game by Name, Level, and successfully completed
+scenarios. If you fail to save your completed scenarios when
+prompted and wish to continue later, you will have to repeat
+those scenarios in order to advance. Please note, however,
+that games in progress CANNOT be saved.
+
+TWO-PLAYER
+This game consists of 16 scenarios of various complexity and
+
+depth. They may be played in any order and as often as you
+wish, but cannot be saved
+
+Use the CONTROL PAD to “drive” to the desired scenario (the
+level, scenario name and number will be shown on the right),
+and press A to begin.
+
+===== Page 6 =====
+
+sa i ee ee el i a
+GAME PLAY 4
+
+i Re a i ll
+
+After selecting the style of game and scenario, you begin the
+actual game itself in Normal Mode, It is here that you will
+make your strategic decisions, selecting which units you wish
+to move, battle, etc. The Controller's functions in Normal
+Mode are as follows:
+
+CONTROL PAD * Moves cursor
+* Switches options (See also Pause Menu)
+
+SELECT Button =» NOT USED
+START Button —_» Pauses game (See Pause Menu)
+
+A Button * Makes selections (See also Pause Menu)
+B Button * Not Used
+
+X Button * Displays Unit Data Screen
+
+Y Button * Switches to Overview Mode
+
+L Button * Not Used
+
+R Button « Not Used
+
+oie MOVEMENT ==
+UNIT DATA SCREEN
+Use the CONTROL PAD to move the
+cursor to the desired unit. Regardless
+of its color, the unit’s name and
+current status will be displayed at the
+bottom of the screen. For an even
+more detailed look, press the X Button
+to view the Unit Data Screen in its
+entirety. In terms of determining
+movement, this is particularly helpful in showing the
+movement range of a given unit. Press any button to exit.
+
+UNIT MOVEMENT
+
+While you may check the status of any unit, you may only take
+action with a unit of corresponding color. Selecting any of the
+following actions constitutes a turn, burning one unit of fuel:
+
+Move only
+Battle only
+Move then battle
+Battle then move
+
+Using the CONTROL PAD, move the
+cursor to the desired unit and press
+the A Button. At this time. all
+Possible action will appear below. .
+
+Use the CONTROL PAD to highlight the desired action and
+press the A Button. If MOVE is selected, the entire movement
+range for the particular unit at that time will be highlighted. If
+it seems that you can’t quite move as far as you'd like ina
+specific direction, it probably has something to do with the
+terrain (see MAPS & CHARACTERISTICS). Move the cursor to
+the desired hexagon and press A to execute the move. To
+cancel without taking any action, press the B Button. If battle
+is possible after movement (or vice versa) but not desired,
+press B after the initial action. The unit will then darken and
+remain inoperable for the remainder of your half of that
+round. If an additional action is accidently chosen, press the B
+Button to escape.
+
+===== Page 7 =====
+
+To DEPLOY A UNIT FROM A FACTORY OR
+AIRPORT:
+
+Use the Control Pad to highlight the factory or airport
+you wish to deploy from and check the information
+window to see if there are any units contained within.
+If so, highlight the icon’s name (factory or airport) and
+press the A Button.
+
+Once inside, use up or down on the Control Pad to
+highlight the unit you wish to deploy. Check the
+information window below for its current status. To
+select the unit, press the A Button.
+
+Finally, in Normal Mode, use the Control Pad to highlight
+any unoccupied adjacent hex and press the A Button.
+
+NOTE: Deploying a unit does not constitute an action, Therefore, a
+player may deploy as many units as he‘d like (or can) during
+any given turn. Once a unit is deployed, however, it must be
+moved like any other unit (see page 9).
+
+OVERVIEW MODE
+
+This is a feature designed to allow
+the player to take a look at an
+entire scenario and better plan his
+strategy. It is also possible to cover
+large areas quickly.
+
+During the Normal Mode, press the
+Y Button. The entire scenario will
+then shrink down enough to allow
+you to view it in its entirety. The
+overall shape of the scenario, as
+well as the various terrain types (by
+color/texture) will all be visible. In
+addition, the Blue dots represent
+blue units or possessions (factories,
+cities or airports), the Red dots
+represent red units or possessions,
+
+and the Black dots represent neutral cities and/or airports. To
+quickly move from the current location to another area, use
+the CONTROL PAD to direct the cursor around the area you
+wish to close-up on and press the Y Button.
+
+PAUSE MENU
+
+You may pause the game at any
+time during the Normal Mode by
+pressing the START Button. At this
+time you will be presented with a
+menu consisting of the following
+choices:
+
+RESUME PLAY Returns to the
+game in progress
+
+GAME RULES = Allows you to access general helpful
+information screens concerning various topics
+
+PREFERENCES Allows you to modify certain aspects of the
+game
+
+END GAME Ends the game (scenario) at that point*
+
+*Note: Games in progress cannot be saved!
+
+Use the CONTROL PAD to highlight your selection and press
+the A Button. If GAME RULES is selected, use up or down on
+the CONTROL PAD to highlight the desired topic and press the
+A Button once to view and once again to return to the menu.
+If PREFERENCES is selected, you will have the opportunity to
+alter any of the following:
+
+MUSIC ON/OFF
+SOUND EFFECTS MONO/STEREO/OFF
+COMBAT MOD SHORT/LONG
+
+The game begins in each of the first settings above. To switch,
+use up or down on the CONTROL PAD to highlight selection
+and <—or—>tochange. Press the A Button to return to the
+PAUSE MENU and select RESUME GAME to continue.
+
+===== Page 8 =====
+
+seed BATTLE >
+
+ENGAGING THE ENEMY
+
+Units of opposing colors, regardless
+of type, may engage in battle from
+any two adjacent hexagons. While
+you may only initiate an attack
+during your turn, you will still retain
+total control of your unit when
+attacked (LONG mode only). The
+BATTLE option will appear at any
+time during your turn in which an
+attack is possible. Use the
+CONTROL PAD to highlight the
+BATTLE option, and press the A
+Button to select. Then use the
+CONTROL PAD to highlight the unit
+you wish to attack and press the A
+Button to engage. (See also Modes)
+
+MODES
+There are two basic modes of battle in Super Conflict:
+
+SHORT
+
+The SHORT mode is basically for the player who would rather
+concentrate strictly on the strategic elements of the game.
+When BATILE is selected, the game switches to the battle
+sequence and, based on the variables involved (types of
+units, terrain, etc.), automatically calculates and displays the
+outcome (or summary) of the battle only. The game will then
+continue as though an entire battle had just occurred.
+
+LONG
+
+Tne LONG mode of battle adds an entirely different dimension
+to Super Conflict. In addition to the strategic elements
+involved, the player must now take full control of his unit
+during battle, through up to 4 full rounds of action!! You
+decide when to attack, when to defend, and when to retreat.
+
+The buttons and their functions for both 1 and 2-player games
+are as follows:
+
+AButton Attacks 100% chance of firing but maximum
+
+damage is suffered if hit by return fire.
+
+BButton Switchesweapon Computer will have automatically
+selected the best possible weapon for
+the situation; Special weapon may
+have little or no effect. Example: Air to
+air unit vs, a ground unit.
+
+X Button Defends 50% chance of returning fire but only
+
+50% damage suffered if hit.
+
+0% chance of retuming fire and 75%
+damage is suffered if hit. While it may
+take more than one round to
+disengage, a retreat could save your
+unit from tofal destruction if selected
+early enough.
+
+RButton Retreats
+
+As was previously stated, a battle can last up to 4 rounds.
+Each action that you select applies for the entire round, with
+events proceeding as follows:
+
+Side 1 Side 2
+
+Action ———————_> Result
+
+Result <—————_ Reaction (if any)
+END ROUND 1
+
+===== Page 9 =====
+
+Each battle begins with the unit which has selected ATTACK
+on the attack. Conversely, the unit being attacked opens in
+DEFEND mode. The opening round of action cannot be
+altered. At the end of each round (see page 13), the
+computer will then check the parenthesis ( ) for additional
+orders to be instituted at the beginning of the next round. If
+there is nothing in the ( ), the current action would then be
+repeated, For example, let’s assume that the orders for Side 1
+above had read as follows: ATTACK (DEF). This would
+guarantee that Side 1 would fire at Side 2 and would suffer
+maximum possible damage if Side 2 was allowed to counter
+and hit. At the end of Side 2’s turn, which would also end the
+round, Side 1 would then switch to DEFEND mode to begin
+Round 2. Whether Side 1 was allowed to fire or not, he would
+immediately have the opportunity to continue selecting orders
+for the following round by pressing the appropriate buttons
+and filling the ( ). This could be done (and switched) as often
+as desired up until the end of Side 2’s next turn, at which time
+the computer would again check the ( ). If nothing was
+selected (or desired) and the ( ) was empty, Side 1 would
+begin the next round (Round 3) in DEFEND. The battle will then
+continue in this manner for up to 4 rounds or until one unit is
+destroyed or manages to disengage.
+
+RESUPPLYING & REPAIRING DAMAGE
+
+If a unit is destroyed in battle, the loser will lose both the unit
+and 300 Production Points. The victor will gain 300 Production
+Points. Therefore, it is imperative to keep alll of your units
+functioning at their maximum levels for as long as possible.
+Should a unit require refueling, repairs, etc., it can be taken to
+one of the following:
+
+CITIES (GROUND UNITS)
+
+A ground unit may move into any
+unoccupied city regardless of color. To
+resupply/repair a unit, simply move it
+onto a city and wait. Each round it rests
+on the city, it will regain strength, fuel,
+and (special) ammo, It may, however,
+require multiple rounds before reaching
+maximum levels. If a city is occupied
+(protected) by an enemy unit, you must battle and destroy
+the opposing unit before moving in. Remember: If the unit
+you are using moves before engaging in battle, you will
+have to wait until your next turn to move it again (provided
+there’s fuel remaining). Cities also increase your defense
+and are a great place to safeguard the ever-popular Flag
+Tank (see MAPS & CHARACTERISTICS).
+
+AIRPORTS (AiR UNITS)
+
+An air unit may resupply and/or repair in
+any airport of corresponding color. If
+there are no “friendly” airports in the
+vicinity, a ground unit from the same.
+side may “make” one by moving in and
+claiming it (be it neutral or enemy).
+Provided there is at least one “friendly”
+airport (or carrier), the player will be
+reminded to refuel on the unit's last turn. If none can be
+found, or if the player fails to accept, choosing instead to
+move and/or battle, the unit will be lost at the end of that
+turn. (You can, however, press B immediately to escape
+
+===== Page 10 =====
+
+and come back to the unit later without suffering a loss, at
+which time you will again be reminded to refuel.) When
+choosing to refuel, the unit will automatically go to the
+nearest “friendly” airport (or aircraft carrier when
+available). Up to six air units at a time may resupply in a
+single airport. Again, “the longer they're there, the more
+they'll repair”, but this may take multiple rounds, However,
+if that airport is claimed by an enemy unit at any time
+during the resupplying process, all opposing units
+contained within will be immediately destroyed and the
+appropriate number of Production Points subtracted.
+
+NOTE: In the scenarios where aircraft carriers are present, the carriers
+themselves will function much like a “floating airport”, with all
+conditions applying as above.
+
+SHIPYARD (NAVAL UNITS)
+
+Anaval unit may repair and resupply (special ammo, as
+they will never require fuel) at any city of corresponding
+color located along the water. If the city is neutral or
+enemy, it, too, must first be claimed by a ground unit.
+Once this is accomplished. a naval unit may “dock” from
+any water hex adjacent to the city. Shipyards are
+particularly valuable in that they may simultaneously supply
+multiple naval units (whenever possible) and a ground unit,
+as well.
+
+=e PRODUCTION =
+
+Beginning with Level 2 in one-player
+mode and on scenarios 3-16 in
+two-player mode, players will be
+
+given the opportunity to produce a
+
+SASH ican
+
+additional units based on their
+current Production Points. Each
+new level will introduce a new type
+of unit (air, naval, then special
+naval), and the following level will
+introduce the factory capable of producing these units. The
+types of units, factories and when they are introduced are as
+follows:
+
+LEVEL = UNITINTRODUCED FACTORY INTRODUCED
+
+2 Air Land
+
+3 Naval Air
+
+4 Aircraft Carriers Naval
+5 Flag Ships None
+
+So, by the time a player reaches Level 4, he will begin each
+scenario with all three types of units (ground, air, and naval)
+and have three separate factories, capable of producing
+various units of all types.
+
+In order to minimize confusion, the player will be presented
+with all possible production options at the end of each turn.
+For example, assuming no production is currently under way.
+the initial Production screen for Level 4 would appear as
+follows:
+
+CHOOSE A FACTORY:
+LAND FACTORY
+AIR FACTORY
+NAVAL FACTORY
+
+===== Page 11 =====
+
+Use up or down on the CONTROL PAD to highlight the desired
+factory and press the A Button to access it. Based on your
+current Production Points, you will then be shown all units (of a
+maximum of 6) that the selected factory is capable of pro-
+ducing at that time. Use up or down on the CONTROL PAD to
+move the cursor to the desired unit. The number of turns
+needed to produce the unit will be displayed at the bottom
+of the screen. Press A to initiate production or press B to
+return to the factory selection screen. When production Is
+completed, the unit will remain in the factory’s warehouse
+until removed by the player. If the factory is destroyed, all
+units in storage are destroyed, as well, and the appropriate
+number of Production Points will be subtracted. The factories
+themselves are protected by a unique “ultra” commando
+unit which will automatically repair/resupply itself whenever
+necessary. However, they are by no means indestructible, so
+be sure to select your defensive commands carefully.
+
+NOTE: If one of the factories is in use, you will be unable to produce
+anything else until the production in progress is completed.
+
+PRODUCTION POINTS
+
+Production Points are vital in all scenarios in which production
+takes place. It is the Production Points that determine which
+units may be produced and when. This means that if a tank is
+valued at 6,000 Production Points, you must have at least
+6,000 Production Points to produce it.
+
+NOTE: The units available for production are predetermined and
+cannot be altered. For example, there are approximately 10 types of
+units that fall into the category of “Air”. However, only a maximum of
+6 of these units will be available for production by the air factory, even
+with an extremely high amount of Production Points. There is also a
+direct and varying relationship between the Production Points and the
+actual production of the units. When the Production Point value is
+high, the player has a wider spectrum of units from which to choose.
+As the Production Points decrease, the player is left with a smaller
+(and weaker) spectrum of units from which to choose.
+
+INCREASING PRODUCTION POINTS
+
+1. Winning a battle is worth 300 Production Points. The
+effect of this is actually magnified in that it also reduces
+your opponent's Production Points by 300, as well.
+
+2. Each city or airport possessed is worth 100 Production
+Points per turn possessed. To claim a city or an airport,
+you must enter it with a Land unit only. If you wish to
+protect it, you may leave the unit “parked” there,
+However, once the icon has switched to your color (one
+turn later), you will continue to earn 100 Production Points
+per turn whether your unit remains there or not.
+
+===== Page 12 =====
+
+[po a ne ere ey
+RA CTERISTI 2S }
+
+, MAPS &
+
+HA
+a ie elie ils ea aia
+
+The various scenario maps are divided into hexagons. The
+different colors and textures of the hexagons represent
+different terrain. Different terrain affects both mobility and
+defense. The terrain breakdown is as follows:
+
+Plains
+
+Dessert
+
+Hills
+
+Woods
+
+Defense modifier:
+
+Mountains
+
+Defense modifier:
+
+Movement value:
+Defense modifier:
+
+Movement value:
+Defense modifier:
+
+Movement value:
+Defense modifier:
+
+Movement value:
+
+Movement value:
+
+1 unit
+
+1 unit
+-§
+
+2 units
++10
+
+2 units
++15
+
+3 units
++15
+
+Sea
+
+Movement value:
+
+Defense modifier:
+
+Defense modifier:
+
+City
+
+Special feature:
+
+Airport
+
+Special feature:
+
+Factory
+
+Special feature:
+
+Movement value:
+
+Movement value:
+Defense modifier:
+
+Movement value:
+Defense modifier:
+
+Movement value:
+Defense modifier:
+
+1 unit (Sea units only)
+to)
+
+1 unit
+-10
+
+1 unit
+
++10
+Land/Sea units
+may resupply &
+repair
+
+1 unit
+
++10
+Air units may
+resupply & repair
+
+N/A
+
+N/A (protected by
+Special Commando
+Unit)
+
+Produces various
+additional units;
+ineplaceable if lost
+
+As a land unit’s defensive capabilities can change from move
+to move, it’s a good idea to periodically check the Unit Data
+Screen. which will continuously update with the terrain. (See
+
+Unit Data Screen)
+
+===== Page 13 =====
+
+en oe
+
+a ES
+
+INTRODUCTION TO i
+MILITARY UNITS .
+
+i oll lees al
+
+RELATIONS GUIDE
+Both Blue and Red forces have 23 types of units. The basic
+unit breakdown is as follows:
+
+ee a aed
+
+Unit Category Blue Red
+Fighters (4) F-5SE Tiger Il MiG-21 Fishbed
+F-14 Tomcat MiG-23 Flogger
+F-15 C Eagle MiG-25 Foxbat
+F/A-18 Hornet MiG-29 Fulcrum
+Bombers (2) A-6E Intruder SU-20 Fitter
+A-10 Thunderbolt Il SU-25 Frogfoot
+Helicopters (2) AH-1 Cobra MI-24 Hind D
+AH-64 Apache MI-28
+Tanks (3) M551 Sheridan 7-55
+M60A3 1-62
+MIA1 Abrams 7-80
+Anti-Aircraft (2) M167 Vulcan (AAA) ZSU-23 (AAA)
+
+M48 Chaparral (SAM)
+
+SA-13 Gropher (SAM)
+
+Anti-Tank (1) M-901 ITV BRDM-2
+Soldiers (2) Infantry Infantry
+Commandos Commandos
+Naval (6) Destroyer Destroyer
+Submarine Submarine
+Cruiser Cruiser
+Battleship Battleship
+Aircraft Carrier Aircraft Carrier
+Flag Unit (2) Flag Tank Flag Tank
+Flag Ship Flag Ship
+
+Please note, however, that all of these units may not appear
+on every scenario. And, since each type of factory (Land, Air,
+and Seq) can only produce a maximum of 6 units, they may
+also be irreplaceable (for that scenario) if lost.
+
+The basic classification of each type of unit is as follows:
+Type Unit Category Classification
+
+Air Fighters Air-to-Air
+Bombers Air-to-Ground
+Helicopters Air-to-Ground
+
+Ground — Tanks Ground-to-Ground
+Anti-Aircraft Ground-to-Air
+Anti-Tank Ground-to-Ground
+Infantry Ground-to-Ground
+Commandos Ground-to-Ground/Air
+
+Naval Destroyer Sea-to-Sea
+Submarine Sea-to-Sea
+Cruiser Sea-to-Air
+Battleship Sea-to-Sea/Ground
+Aircraft Carrier = n/a
+
+Special Flag Tank Ground-to-Ground
+Flag Ship n/a
+
+Part of the strategy involved in Super Conflict is determining
+which units should battle and when. Therefore, please
+understand that the above classifications are for general
+purposes only. Also, while some units may be classified the
+same, they are not necessarily equals. For example, both an
+MIA1 and Infantry are considered ground-to-ground.
+However, the M1A1 has a much greater attack strength (See
+Unit Data Screen). For more detailed information, players
+should refer to the Unit Data Screen whenever necessary.
+
+SPECIAL UNITS”
+
+All units are special (in their own way). However, the following
+units are particularly important, mainly because their use (or
+misuse) can have a heavy impact on the course of the game.
+
+===== Page 14 =====
+
+FLAG TANK
+
+The Flag Tank is a modified version of the M1A1 or T-80
+(depending on the side), with a slightly higher defense.
+Because of its defensive capabilities, it is probably the
+strongest and most important unit in the entire game (with the
+exception of the Flag Ship, which isn’t introduced until Level
+5). However, even with an increased defense, it is by no
+means indestructible and once it is destroyed, the scenario is
+over, Therefore, one should be wary of getting careless with
+this unit. Also, always be conscious of the terrain!
+
+FLAG SHIP
+
+Although the Flag Ship, too, has increased defensive
+capabilities, it has no where near the offensive capabilities of
+the Flag Tank. It isjust as important, however, because in the
+scenarios in which it appears (Level 5), losing either the Flag
+Tank or the Flag Ship means defeat. When planning your
+naval strategies, keep in mind that because it is confined to
+the sea, the Flag Ship also lacks the ability to increase its
+defense through the use of varied terrain.
+
+AIRCRAFT CARRIERS
+
+As was previously mentioned (see Resupplying & Repairing
+Damage), these units function as mobile airports, which,
+depending on the particular scenario, can be a real plus.
+While their loss may not be quite as devastating as that of a
+Flag Unit, it can be quite costly. Remember, if you lose an
+Aircraft Carrier, you are penalized Production Points for both
+
+the Carrer itself and all cargo (at 300 Production Points each).
+
+To make matters worse, most scenarios will not allow you to
+manufacture additional Aircraft Carriers, so if you lose one (or
+more), you're out of luck!!
+
+90-DAY LIMITED WARRANTY
+
+VIC TOKAI, INC. warrants to the original purchaser only that the
+product provided with this manual will perform in accordance with
+the descriptions in this manual for a period of 90 days from the date of
+purchase. If the product is found defective within 90 days of
+purchase, it will be repaired or replaced, at our option. Simply return
+the product, postage paid, to VIC TOKAI, INC. along with dated
+proof-of-purchase. Repair/replacement of the product free of charge
+to the original purchaser (less the cost of returning the product) is the
+full extent of our liability. This warranty does not apply to damage due
+to normal wear and tear. This warranty shall be void if the defect to
+the product is determined to have arisen through abuse,
+unreasonable use, mistreatment or neglect at which time the product
+may be deemed irreparable, leaving the owner liable for
+repair/replacement costs.
+
+This warranty is in lieu of all other warranties, whether oral or written,
+express or implied. All implied warranties, including those of
+merchantability and fitness for a particular purpose, if applicable, are
+limited in duration to 90 days from the date of purchase of this
+product.
+
+VIC TOKAI INC. shall not be liable for the incidental and/or
+consequential damages for the breach of any express or implied
+warranty including damage to property and, to the extent permitted
+by law, damages for personal injury, even if VIC TOKAI INC. has been
+advised of the possibility of such damages. Some states do not allow
+the exclusion or limitation of incidental or consequential damages or
+limitations on how long an implied warranty lasts, so the above
+limitations or exclusions do not apply to you.
+
+This warranty shall not be applicable to the extent that any provision
+of this warranty is prohibited by any federal, state or municipal law
+which cannot be pre-empted. This warranty gives you specific legal
+rights and you may also have other rights which vary from state to
+state.
+
+VIC TOKAI INC.
+
+22904 LOCKNESS AVE.
+TORRANCE, CA 90501
+(310) 326-8880

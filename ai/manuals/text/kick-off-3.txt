@@ -1,0 +1,635 @@
+# Kick Off 3
+source: https://archive.org/details/snes_manual_archive
+pdf: Kick Off 3 ( PAL ).pdf
+region: PAL
+pages: 15
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-37-EUR
+
+===== Page 2 =====
+
+CONT EN Ts
+
+ENGLISH ge
+FH-RANCAIS ee ee
+DEUTSCH... .31
+ESPANOL eo Aa
+
+ITALIAN ©O i. ao ee
+
+===== Page 3 =====
+
+1.0 INTRODUCTION
+
+KICK OFF 3 - The European Challenge is unlike any other computer game. The
+teams use the whole of the pitch. The action on the pitch reflects the style of game
+that a team generally plays. Each team has a certain number of key players and
+the quality of these players is reflected in the strength of the teams. The key
+players include Wingers who can take the ball to the byline before crossing to the
+centre and Playmakers who can put the ball into space to break the defence.
+These features give a totally new dimension to the game. A choice of three
+settings each for Ball Control, Skill Level and Game Speed in the OPTIONS Menu
+ensure that the game is instantly playable and enjoyed by a novice or a master
+gamer alike.
+
+1.1 GENERAL
+
+1.1.1 MENUS : Press START button to go to the next menu. There is a provision
+on some menus to go back to the previous menu by pressing the SELECT button.
+
+1.1.2 JOYPADS : If you are using any joypad other than Nintendo, ensure that the
+joypad is working as normal. Set to NORMAL any TURBO, AUTO, QUICKFIRE,
+SLOWMO etc. switches as otherwise it may crash the game.
+
+2.0 OPTIONS
+
+OPTIONS set the game environment. The comfort level is also set so that a novice
+or a master gamer can enjoy the game equally against the computer or each other.
+The default settings for the options are printed in bold.
+
+2.1 FOULS - OFFSIDE - INJURIES : Yes or NO. The default option of NO gives
+you a knock-about game without any interruption from a referee. For a serious
+game with full soccer rules, set these options to Yes.
+
+2.2 EXTRA TIME : Yes or NO option for a friendly game only. If you select Yes,
+
+there is a sudden death penalty shoot out if there is no result at the end of Extra
+Time.
+
+2.3 DURATION : 2 x 3, 2 x 5, 2 x 10 and 2 x 15 minutes for a Friendly game only.
+Choice of 2 x 3 and 2 x 5 minutes for the competitions.
+
+2.4 PITCH : Normal, Wet, Muddy and Hard. The pitch selection affects the
+bounce and the skid of the ball. The Int. teams use a striped pitch.
+
+2.5 BALL CONTROL : Novice, Medium and Hard. At the Novice level, the ball is
+very easy to control. The Hard level is ONE TOUCH football.
+
+2.6 SKILL LEVEL : Novice, Medium and Int.. The skill level of both players is set
+independently. A novice playing at novice skill level setting can play well against
+an experienced player at Int. skill level setting.
+
+===== Page 4 =====
+
+2.7 GAME SPEED : Novice, Medium and Fast.
+2.8 REFEREE : Lenient, Fair, Hard and Random.
+
+3.0 CONTROLS
+
+The controls of KICK OFF 3 are instinctive and designed for easy use. Use
+PRACTICE mode to learn and perfect the controls.
+
+3.1 PLAYER CONTROL : The controlled player is indicated by a marker. All
+movements and actions detailed below refer to a controlled player.
+
+3.1.1 PLAYER MOVEMENT : Press D PAD in the direction you wish the player to
+run
+
+3.1.2 TRANSFER OF CONTROL : The control is transferred automatically to the
+player nearest to the ball when he touches the ball or he goes off the screen. To
+transfer the control manually to a player nearest to the ball, press button L or R.
+This is very useful if you wish to tackle an advancing opposition player. Press
+button L or R and the player nearest to the ball will become a controlled player.
+
+3.2 A BUTTON
+
+3.2.1 PASS : The player will pass the ball to another player if there is a player
+available to receive the pass. A player with high vision e.g. a Playmaker will pass
+the ball in space for another player to run onto the ball. Move the D PAD in the
+direction you wish to pass.
+
+3.2.2 OVERHEAD KICK : If the ball is in the air, the player will make an overhead
+kick.
+
+3.3 B BUTTON
+3.3.1 KICK : The player will kick the ball in the direction he is running.
+
+3.3.2 SHOOT : If the player is facing the opposition goal and is within 30 yards, the
+player will shoot the ball at the goal.
+
+3.3.3 HEADER : If the ball is in the air, the player will head it.
+
+3.3.4 SLIDING TACKLE : If the opposition has possession of the ball, the player
+will make a sliding tackle. Press D PAD for the direction of the slide.
+
+3.3.5 VOLLEY : If the player receives the ball between ankle and stomach height
+he will volley the ball. Press D PAD for the direction of the volley.
+
+3.4 X BUTTON
+3.4.1 PUSH : Short burst of acceleration for the player with the ball.
+
+3.4.2 DIVING HEADER : If the ball is between chest height and knee height, the
+player will make a diving header. :
+
+3.5 Y BUTTON
+
+===== Page 5 =====
+
+3.5.1 CHIP : The player will chip the ball in the direction the player is running.
+
+3.5.2 LONG BALL : If the ball is in the player's own 18 yards box, the ball is booted
+out.
+
+3.5.3 CROSS : If the ball is in the wing area near the opposition goal, the player
+will cross the ball. It will be crossed in the air or on the ground depending on the
+play style of the team. Press D PAD for the direction of the cross.
+
+3.6 B + Y BUTTONS
+
+3.6.1 HIGH KICK : If the player is running towards the opposition goal and is 25-
+30 yards out, the ball will be kicked high towards the goal. Use the After Touch to
+bend the ball.
+
+3.7 B + X BUTTONS
+
+3.7.1 HARD KICK : The ball is kicked hard and low.
+
+3.8 A + X BUTTONS
+
+3.8.1 FLICK : The ball is flicked chest high for a volley or diving header.
+
+3.9 AFTER TOUCH : Allows you to bend the ball for a short while after the ball
+has been kicked. Move the D PAD left or right to alter the direction of the ball.
+Remember, the After Touch is only active for a fraction of a second.
+
+3.10 THROW IN : Use the D PAD to select one of the five forward directions of
+throw and press button B.
+
+3.11 PENALTIES : TAKING A PENALTY : Move the D PAD in one of the five
+forward directions and press button A to place the ball in that direction or B to shoot
+in that direction.
+
+Shooting is not as accurate as placing the ball.
+
+DEFENDING A PENALTY : Move the D PAD in the direction you wish to dive and
+press button B.
+
+3.12 GOAL KEEPER : The goal keeper is computer controlled except for goal
+kicks or defending penalties. Press the B button to kick the ball or button A to
+throw the ball immediately.
+
+3.13 CORNERS : A marker will appear. Position the marker over the player you
+wish to control and press button B. The ball will be directed automatically in the
+vicinity of the controlled player. You may move the controlled player to confuse the
+opposition but only within reason. If you are defending a corner, the controlled
+player can head the ball away.
+
+3.14 SET PIECE FREE KICKS : Two players will be stationed near the ball. Press
+the B button to shoot the ball high towards the goal and use After Touch to bend
+the ball. Press the A button to pass the ball to the nearest player. The normal
+game resumes.
+
+===== Page 6 =====
+
+3.15 SET PLAYS : When a Corner or Set Piece Free Kick is awarded, you have a
+choice of Set Plays available. To select a Set Play, hold down button X, use D
+PAD to select one of the EIGHT Set Plays. Each direction of the
+
+D PAD corresponds to a different Set Play. The ensuing moves are automatic
+except for the last move which is controlled by you. The Set Plays have to be
+practised to be effective.
+
+3.16 KICK OFF : When you go onto the pitch, the teams are introduced. Starting
+from the goal keeper, the ball travels to each player who shows some of his skills.
+The player’s name appears at the bottom. The home team is introduced first.
+
+You can terminate this presentation at any time by pressing button B.
+3.17 TEAM MODE : Two players team up against the computer.
+
+3.17.1 Use L or R buttons to transfer control to the player nearest to the ball. The
+player will become a controlled player.
+
+3.17.2 If a controlled player is already nearest to the ball, you will control the
+second nearest player.
+
+3.17.3 Player 1 controls all the menus.
+3.17.4 CORNERS : Both players can select the players to control.
+
+3.17.5 SET PIECE FREE KICK : Player 1 takes the Free Kick. Player 2 controls
+the player standing next to the player taking the kick.
+
+3.17.6 Set Plays are not available.
+
+4.0 MAIN MENU
+
+4.1 FRIENDLY : EURO or INT. (INTERNATIONAL)
+
+All the options in OPTION Menu are available. You can play against the Computer
+or against a friend or team up with a friend against the Computer. Remember to
+set the ball control and skill level to suit you. As your skills and control improve
+with experience, change the settings to a higher level. The game, really comes
+into its own when both settings are at the highest level.
+
+4.2.1 EURO FRIENDLY : You can select any two teams from 96 teams.
+
+16 English teams are displayed. Two teams are pre-selected. To de-select or
+select any team, move the highlight on the team and press button B.
+
+To display other teams e.g. Italian team, move the highlight to Italian using D PAD
+and press button B . You can select a German team to play a French team.
+Remember to de-select the pre-selected teams first. :
+
+4.2.2 INTERNATIONAL FRIENDLY : 24 of the World’s best teams are available.
+The International teams are of much higher calibre than the European teams.
+
+===== Page 7 =====
+
+4.3 COMPETITIONS : -There is a choice of 5 League and 7 Cup competitions.
+Each competition has its own rules. 1 to 4 players can play.
+
+4.3.1 In all competitions, four options are available.
+4.3.2 PLAY : You can play the game on the pitch.
+4.3.3 PREDICT : The computer predicts the result.
+
+4.3.4 WATCH : You can watch the game. If your team is on the pitch, you can
+give your team a Team Talk, make substitutions etc.
+
+4.3.5 QUIT : You can quit the competition and return to the OPTIONS Menu.
+
+4.4 LEAGUES : There are five national league competitions. Each league consists
+of 16 teams. The teams in each league broadly follow the national pattern.
+
+4.5 CUP : There are five Cup competitions. Each National Cup competition has
+16 teams and is based on a knockout basis. The winners go to the next round.
+
+4.5.1 If the result is a draw, extra time is played. If after the extra time, the result
+is still a draw, a Sudden Death Penalty shoot out takes place.
+
+4.5.2 SUDDEN DEATH PENALTY : Each side takes five penalties in turn. If after
+five penalties each, there is no winner, each side takes a penalty in turn. The
+penalties continue until there is a winner after both penalties have been taken.
+
+4.5.3 EURO CUP has the top 32 European teams. It is a two leg competition with
+AWAY goal rules. If after the second leg the teams have the same aggregate, the
+away goals are counted as two goals. If the aggregate is still the same, then extra
+time and a penalty shoot out, detailed in 4.5.2, is used to decide the winner.
+
+4.5.4 WORLD CUP has 24 International teams. The first part of the competition is
+played on a League basis. The league is based on 6 groups of 4 countries each.
+The winner and runner up and best 4 losers go to the next round. The next round
+is on a knock out basis and the rules detailed in 4.5.2 apply.
+
+4.6 PRACTICE
+
+4.6.1 Practice has two purposes - to learn the ball and player controls and to
+improve skill and timing so that you can enjoy KICK OFF 3 to the maximum. The
+options available encourage you to improve particular aspects of the game. Set
+the Ball Control and skill level to your own comfort level and change it to higher
+levels when you feel confident.
+
+4.6.2 DRIBBLE & SHOOT : This practice is invaluable for learning ball control.
+Initially at level 1 the cones are well spaced. You have to dribble round each cone
+and shoot at an open goal. You have to score 3 goals at each level to proceed to
+the next level. If there are cones on the goal line, you will have to chip the ball to
+score a goal. The score line shows the success and number of tries in the allotted
+period of 3 minutes.
+
+4.6.3 TEAM PRACTICE : ONE PLAYER or TEAM MODE : You can practice
+
+7
+
+===== Page 8 =====
+
+passing; shooting, chips and all the moves at leisure without being harassed by the
+opposition. You can also practice corners. Most importantly you can practice SET
+PLAYS for both left and right corners (not in Team Mode). Remember that all the
+moves are automatic except for the last one which is under your control. Perfect
+the timing so that, if you get the opportunity, you can score.
+
+4.6.4 SET PIECE FREE KICKS : Three positions for Set Piece Free Kicks can be
+practised. A line of cones is positioned some distance from the ball to represent
+the opposition wall. You can take normal Free Kick or select one of the six Set
+Plays.
+
+4.6.5 CROSSING : Practising this will help you to score goals when you are up
+front. If the player is in or near the 6 yard box, the ball will be crossed at random
+either at head height for a header or chest height just in front for a diving header
+or behind for an overhead kick or at ankle height for a volley. If you move the
+player further out, the ball will be passed between the ground and stomach height.
+You will have to volley the ball or shoot.
+
+4.6.6 PENALTIES : Take and defend five penalties.
+
+4.6.7 ASSESSMENT : You can go for an overall assessment of your skills. You
+are tested for Dribble and Shoot, Penalties and Crossing and are given a score out
+of 100.
+
+4.6.8 QUIT : Press START button to quit the practice and return to the Practice
+Menu. To quit the Practice Menu, press the START button again.
+
+4.7. CHALLENGE : The challenge tests your playing skills to the limit. You can
+select any one of the 24 International Teams to challenge ANCO UNITED. There
+are two challenges of 25 rounds each. To proceed to the next round, you have to
+win the current round. There are four options.
+
+4.7.1 NEW CHALLENGE : Takes you to round 1 of the Challenge.
+
+4.7.2 CONTINUE CHALLENGE : After returning from a Challenge round a
+PASSWORD for the completed round is displayed. If you have won the option will
+take you to the next round otherwise to the round you have just played.
+
+4.7.3 ENTER PASSWORD : When you come from the Main Menu, you can enter
+the PASSWORD given to you previously and continue the Challenge.
+
+4.7.4 QUIT : Note down the PASSWORD before you quit this screen.
+
+4.7.5 ENTERING PASSWORD : Move the pointer to the character you wish to
+enter and press button B.
+
+RUB : Deletes the previous character.
+PREVIOUS : Moves the cursor left.
+NEXT : Moves the cursor right.
+
+END : Terminates the input.
+
+===== Page 9 =====
+
+5.0. IN GAME MENUS
+5.1 PAUSE MENU : Press the START button any time during the game to PAUSE
+the game and display the Pause Menu. Use D PAD to move the highlight to the
+
+required heading and press button B. The options are detailed below. Press
+START button to quit the PAUSE menu.
+
+5.2.1 SUBSTITUTION : Player numbers 2 to 11 and their names.will be displayed.
+Move the highlight available to the player you wish to substitute and press button
+B. A list of the substitute players will now be displayed. Select the substitute. The
+substitution will take place when the ball is out of play. Remember, you are only
+allowed two substitutes in a game. A red carded player cannot be substituted.
+
+5.2.2 TEAM TALK : See 5.3
+5.2.3 MATCH FACTS : See 5.4
+
+5.2.4 ACTION REPLAY : You can watch the last few seconds of play at any time.
+Four symbols are displayed at the bottom.
+
+The symbols from left to right are:-
+ll : (Pause): The replay is paused.
+
+| >: The replay is paused unless button B is pressed. This facility can be used for
+frame by frame display of the Replay.
+
+S : The replay takes place at slow speed.
+> : Normal Replay.
+Use the D PAD to move the highlight and press button B.
+
+5.2.5 CROWD Fx: This works on a toggle basis. The crowd sound and chants
+during the game are switched ON and OFF. The in-game sound effects like kicking
+the ball are not affected.
+
+5.2.6 QUIT GAME : Quits the game and returns to the Main Menu (Friendly
+matches only). You cannot quit competitions.
+
+5.2.7 Press the START button to return to the game.
+5.3 TEAM TALK MENU
+
+You can give your players instructions to alter the course of the Match. The
+instructions can be given during the game. The instructions already given are
+marked by a highlight.
+
+5.3.1 PUSH FORWARD : Attacking move. The players move to forward tactical
+positions.
+
+5.3.2 DROP BACK : Reverse of Push Forward.
+5.3.3 SIT ON IT : Don’t take any chances.
+5.3.4 GET STUCK IN : Get aggressive.
+
+===== Page 10 =====
+
+sera
+
+5.3.5 RELAX : Enjoy the game. The players play the game with more flair and less
+aggression.
+
+5.3.6 CLOSE MARKING : The opposition forwards are marked by your defenders
+in your half.
+
+5.3.7 MARK TIGHT : Your midfielders join the defenders in marking the opposition.
+5.3.8 STAND OFF : Removes Marking.
+
+5.4 MATCH FACTS : As the match is played, the possession, shots at the goal,
+shots on target etc. are displayed. It gives a very good indication of how you are
+playing. If your possession is very much lower than the opposition’s, then you
+should change to easier ball control. If only a few of your shots at goal are on
+target, you should practice more. Press the START button to quit this menu.
+
+6.0 SQUAD SELECT
+
+6.1 The squad screen shows the team name and the tactics selected for the team
+by the computer. Move D PAD left or right to move the highlight between the two
+headers.
+
+6.2 PLAYERS : When the team name is highlighted, move the joypad up or down
+to move the highlight to various players. There are 16 players in the squad. As
+the highlight moves to the bottom, the remaining player names will scroll on to the
+display.
+
+6.3 EXCHANGE PLAYERS : The computer has selected the best team available.
+If you wish to replace a player, move the highlight to the player to be replaced and
+press button B. Move the highlight to the player to be replaced and press button
+B. The players will exchange positions.
+
+6.4 CHANGING TACTICS : Press D PAD to the right to highlight the current
+tactics. Move D PAD up or down to change tactics. The display at the bottom will
+change as you cycle through each of the available 8 tactics. The pitch display
+shows the type of player you require to play that tactic. Basically, the defence is
+green, midfield is blue and forwards are red. The yellow stripes on the ball shows
+that the player needs to have pace to play in that position. A Full Back for example
+will be displayed as a green ball with yellow stripe.
+
+6.5 Against each player, the following information is displayed.
+Type of Player: Keeper (KPR)
+Defender (DEF)
+Midfield (MID)
+Forward (FWD)
+6.6 SKILLS AND ATTRIBUTES : Each player in the game has a unique
+
+10
+
+===== Page 11 =====
+
+combination of skills and attributes i.e. each player is different and quite unique.
+There are 1536 Euro players and 384 International players. An average is taken
+of each skill and attribute. If a player is above that average, that particular skill or
+attribute is displayed. The average for Int. players is a lot higher than the Euro
+players.
+
+The star rating of 1 to 5 is also displayed against each player. The star rating
+gives the indication of overall ability of the player.
+
+6.6.1 VISION (VSN) : A player with vision reads the game and makes long passes.
+
+FLAIR (FLR) : A high flair player will take the ball towards the opposition half
+instead of passing it. He will also tend to shoot at the goal from distance.
+
+PACE (PCE) : Player is capable of sudden bursts of speed.
+
+AGILITY (AGL) : High agility player is capable of flying headers, overhead kicks
+and quickly controlling the ball after chesting it down.
+
+6.6.2 The skills are Passing (PAS), Tackling (TKL), Heading (HDG) and Shooting
+(SHT). |
+6.6.3 KEY PLAYERS : Players with a particular combination of above average
+
+attributes and skills. These players are responsible for giving a team a special
+style. The quality of these key players varies for each team.
+
+PLAYMAKER (PMK) : A midfielder with vision, flair and passing skills.
+
+SWEEPER (SWP) : A defender with vision and passing skills. Plays behind the
+defence. Usually the best player in the side distributing the ball from the back.
+
+LIBERO (LIB) : As Sweeper but plays in front of the defence. Capable of taking
+the ball to the opposition. High Flair.
+
+STRIKER (STK) : A forward with agility and pace and shooting skills but low flair
+i.e. he is greedy.
+
+TARGET MAN (TMN) : A forward with heading and shooting skills.
+
+GOAL MAKER (GMK) : A forward player with passing and vision who services the
+striker but is quite capable of scoring himself as well.
+
+WINGER (WNG) : A player with pace, flair and passing skills.
+CENTRE BACK (CBK) : A defender with heading and tackling skills.
+FULL BACK (FBK) : A defender with pace and tackling skills.
+
+6.7 Though the computer has selected the best team, you can replace any player.
+Select the player to be replaced and then seiect the replacement. You have a
+squad of 11 and 2 substitutes.
+
+6.7.1 In two player mode, player 2 will select his squad after player 1 using joypad
+2
+
+6.7.2 In Team Mode, Player 1 will select the squad.
+
+11
+
+===== Page 12 =====
+
+7.0 RULES
+
+7.1 SUBSTITUTION : You can only use two substitutes. A player sent off after 2
+yellow cards or a red card cannot be substituted.
+
+7.2 PROFESSIONAL FOUL : A player fouling an opposition player with the ball
+when he is clearly in a scoring position, will be given a red card.
+
+7.3 BACK PASS : A player cannot pass the ball to the keeper. A free kick will be
+awarded.
+
+7.4 OFFSIDE : There must be an opposition player between the player receiving
+a pass and the goal keeper at the time the pass is made.
+
+7.5 FOUL : It is a foul to tackle an opposition player who has the ball, from behind.
+A Free Kick is awarded to the opposition.
+
+8.0 A WORD ABOUT STYLE
+AND TACTICS
+
+8.1 Kick Off 3 is unique because each International Team has its own style of play
+giving the game much more depth and superior gameplay. Kick Off 3 is a game
+which won’t be gathering dust in the back of a cupboard after two weeks. The
+infinite variations in playing styles and team tactics results in a game of lasting
+interest. It takes a long time to reach perfection! Below are some of the playing
+styles. :
+
+8.2 GERMANY 1-4-3-2
+
+Build team from the back with a Sweeper and two attacking Full Backs. The
+Keeper rarely kicks and usually throws the ball to the Sweeper who distributes the
+ball to a Full Back who runs forward with the ball. A Playmaker in Midfield services
+the two Strikers. The players are very disciplined. Their flair and agility, though, is
+average.
+
+8.3 HOLLAND 4-1-3-2
+
+Using much the same tactics as the Germans, the Dutch, however, play with a
+Libero who plays in front of the flat back four. He not only acts as a Sweeper but
+is quite capable of taking the ball to the opposition. The Midfield has two Wingers
+serving two Strikers. Dutch players, like the Brazilians, show great individual flair
+and agility. The Wingers are very comfortable on the ball and will usually pass it
+to the Strikers on the ground.
+
+8.4 ENGLAND 4-4-2
+
+The Keeper will invariably kick the ball. The Midfield has two Wingers crossing the
+ball in the air to seek out the Target Man and the Goal Maker behind the Strikers.
+
+12
+
+===== Page 13 =====
+
+The playing formation is really more 4-3-1-2 playing a diamond forward and
+midfield formation.
+
+8.5 BRAZIL 4-3-2-1
+
+Using 2 Liberos at the back, the ball moves forward swiftly on the ground. Two
+Goal Makers will service the Lone Striker. The Brazilians play with a high level of
+flair and agility and, in effect, any player is capable of scoring goals.
+
+8.6 These examples illustrate the various styles and tactics of International
+Nations. A team using the same formation as Brazil but another team with different
+composition and quality of Key Players will play in an entirely different way. The
+quality of the players, specially KEY PLAYERS makes all the difference. When you
+are controlling a quality Playmaker on the pitch and press button A to pass, he will
+look to pass into space for a Winger or Goal maker to run onto the ball and thus
+break the defence.
+
+13
+
+===== Page 14 =====
+
+© 1994 ANCO GAMES
+LICENSED TO: VIC TOKAI EUROPE LTD
+PUBLISHED BY : VIC TOKAI EUROPE LTD
+TOKAI HOUSE,
+9 DUNCAN CLOSE, MOULTON PARK,
+NORTHAMPTON. NN3 6WL
+Tel : 0604 671415 Fax 0604 670 864
+
+PROGRAM BY:
+Steve Screech
+
+ASSISTED BY:
+Jon Atkins
+Edward Boyling
+
+GRAPHICS BY
+Brian Van Der Peer
+Anthony Smith
+
+MUSIC &
+SOUND EFFECTS BY:
+Koji Hayashi
+
+PROGRAM TESTING BY:
+Wayne Meazza
+Paul Aldridge
+Anita Gupta
+
+14
+
+===== Page 15 =====
+
+_ VIC TOKAI
+ ANCO
+
+DISTRIBUTED BY
+
+_ VIC TOKAI EUROPE LTD.
+TOKAI HOUSE, 9 DUNCAN CLOSE
+MOULTON PARK, NORTHAMPTON NN3 6WL
+: TEL: (01604) 648326 FAX: (0604) 670864
+
+PRINTED IN JAPAN
+IMPRIME AU JAPON
+
+Pe a

@@ -1,0 +1,715 @@
+# Dragon Ball Z - La Legende Saien
+source: https://archive.org/details/snes_manual_archive
+pdf: Dragon Ball Z - La Legende Saien (FRA).pdf
+region: FRA
+pages: 14
+text_method: ocr
+ocr_language: fra+eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+\)
+4 =
+
+$ AD Ce
+LALégende SAIEN
+
+©BIRD STUDIO/SHUEISHA, TOE! ANIMATION
+©BANDAI 1993
+
+LICENSED BY NINTENDO
+
+PRINTED IN JAPAN
+
+IMPRIME AU JAPON
+
+iy DISTRIBUTED BY BANDAI
+DISTRIBUE PER BANDAI
+#12 s
+
+===== Page 2 =====
+
+NINTENDO @, SUPER NINTENDO
+ENTERTAINMENT SYSTEM™,
+
+‘THE NINTENDO PRODUCT
+SEALS AND OTHER MARKS
+DESIGNATED AS "TM" ARE
+TRADEMARKS OF NINTENDO.
+
+WORDT T GENOMEN
+
+DIT PRODUKT
+, DE SPELCASSET
+
+THE
+
+7 Original \
+
+Seal of
+Quality
+
+CE SCEAU EST VOTRE ASSURANCE QUE NINTENDO A
+APPROUVE CE PRODUIT ET QU'IL EST CONFORME AUX
+NORMES D'EXCELLENCE EN MATIERE DE FABRICATION,
+DE FIABILITE ET SURTOUT, DE QUALITÉ. RECHERCHEZ
+CE SCEAU LORSQUE VOUS ACHETEZ DES JEUX ET DES
+ACCESSOIRES POUR ASSURER UNE TOTALE
+COMPATIBILITE AVEC VOTRE SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT DOOR
+NINTENDO IS GECONTROLEERD EN DAT HET QUA
+CONSTRUCTIE, BETROUWBAARHEID EN
+ENTERTAINMENTWAARDE VOLLEDIG AAN ONZE HOGE
+KWALITEITSEISEN VOLDOET. LET BIJ HET KOPEN VAN
+SPELLEN EN ACCESSOIRES ALTIJD OP DIT ZEGEL,
+ZODAT U VERZEKERD BENT VAN EEN GOED WERKEND.
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+\
+~~ NE
+
+SOMMAIR
+
+he QMÉ JEUs,... pcm ek
+UTILISATION DES MANETTES
+
+PRESENTATION DES PERSONNAGES
+POUR DEMARRER LA PARTIE
+LES OPTIONS.
+CHAMPIONNATS
+
+E
+
+===== Page 3 =====
+
+= RESUME DU JEU
+
+Voici enfin Dragon Ball 2 tant attendu. Une version magique grace aux
+multiples innovations et ameliorations apportées. Avec le mode
+Légende mettant en scéne les combats des jeux de Cell contre les
+Pirates de l'Espace, le mode “combat” permettant de combattre en
+toute liberté, le mode championnat dont les cruelles batailles aug-
+mentent le pouvoir, te voila prét a plonger dans de nouvelles aven-
+tures. Bien sûr l'écran dual réapparaît et nous avons simplifié les
+commandes et développé les techniques pour ton plus grand plaisir!
+Allez, retrousse tes manches et découvre sans tarder les nouvelles
+aventures de Dragon Ball.
+
++ UTILISATION DES MANETTES
+
+BOUTON L / Déplacement rapide à gauche.
+BOUTON R / Déplacement rapide à droite.
+*Le déplacement se poursuit tant que tu maintiens la pression.
+BOUTON X / Voltige (Uniquement en écran dual)
+BOUTON Y / Punch (Coup de Poing)
+
+29 Nintendo
+æ SUPER Famicom
+
+LECT SJART
+
+BOUTON A / Coups
+Spéciaux (Prises choc,
+boules de Feu)
+BOUTON B / Kick (Coup de Pied)
+START / Début de jeu, pause.
+SELECT / Visualisation des options durant la pause.
++ Croix 4 / Saut <> / Avance - Recul Y / Position accroupie
++ Croix / En cas d’essouflement durant le combat, permet de
+reprendre des forces.
+@ Appuyer vers l'arrière pour se défendre contre adversaire au
+cours du combat.
+Si vers la droite: «4 Garde debout + Garde accroupie
+Si vers la gauche: ++» Garde debout +. Garde accroupie.
+@ Pression sur Y vers l’adversaire/Projection
+@ Une pression simultanée sur les boutons B et Y permet
+d’amasser vite de l’énergie.
+@ Pas de position accroupie dans l’air ou dans l’eau.
+
+===== Page 4 =====
+
+DD PRESENTATION DES PERSONNAGES
+
+SANGOHAN SUPERSAIEN
+
+Fils de Goku, Père dès son plus jeune
+âge. Il s'est entraîné avec Goku, Piccolo,
+Végéta. A l'issue de combats terrifiants
+contre des combattants redoutables,
+
+il s’est révèlé supersaien. Sa force est
+supérieure à celle de Goku.
+
+VEGETA SUPERSAIEN
+
+Prince Royal de la planète Végéta. Très
+orgueilleux, il est incapable d'accepter
+l’idée de quelqu'un plus fort que lui. Bien
+que très belliqueux, il a également des
+côtés très attachants. Vegeta aussi s’est
+révèlé supersaien.
+
+TRUNKS SUPERSAIEN
+
+Fils de Vegeta. || possède un sens remar-
+quable du combat. Il a une profonde
+aversion pour les androïdes du
+
+Dr. Guero. A l'issue d’un entraînement
+spartiate, il s'est révélé supersaien.
+
+PICCOLO à
+
+Venant de la planète Namek qui recèle
+des boules de Dragon, c’est le fils de
+Piccolo Grand Satan. Il était l'esprit
+incarné du mal. |l a évolué et a subi un
+entraînement intensif pour développer sa
+force pour sauver la terre.
+
+CELL (PCELL)
+
+Grâce aux rapides progrès de la bio-
+technologie, il est le fruit de l'assemblage
+de cellulles de différents guerriers. Il
+absorbe les Androïdes et a développé. en
+grandissant une force inimaginable.
+
+PETITS CELLS
+
+lls sont nés du dos de Cell et sont
+inombrables. Bien que petits, ils sont
+déjà le portrait craché de leur père
+pour leur cruauté et leur force
+incomparable:
+
+KUJILA
+
+Leader des Pirates de l'Espace qui
+autrefois voulaient détruire les 4 points
+cardinaux de la Voie Lactée. Il a été
+Scellé par la force des 4 gardiens mais
+lors de son combat avec Cell, les
+gardiens étant morts, il est ressuscité.
+
+AKI
+
+Son visage de poupée cache une cru-
+auté impitoyable. C'est un des plus.
+féroces Pirates de l'Espace. Elle idolâtre
+Kujila.
+
+===== Page 5 =====
+
+DEBUT DU JEU :
+
+Insérer la cassette de jeu dans la console et appuyer sur ON.
+A l'apparition de l’Ecran Titre, appuyer sur A pour voir l'écran de
+sélection MODE.
+
+te
+HISTOIRE j
+
+Sélectionner avec la croix et valider avec A.
+
+> OPTIONS
+
+Avant de choisir le mode de jeu, tu peux déterminer le volume sonore
+avec le mode Option, et entendre la musique et les effets spéciaux.
+
+© CHOIX DES TITRES AVEC LA CROIX DIRECTIONNELLE.
+
+.Permet d’opter pour le son stéréo ou mono.
+Modifier avec la croix <>
+
+rss Choisir un morceau avec la croix <> et appuyer sur
+A pour entendre le morceau choisi.
+
+ie Avec la croix <> choisir un morceau. En pressant le
+bouton A, tu entendras le son spécial ou la voix.
+
+===== Page 6 =====
+
+> CHAMPIONNATS
+
+Utiliser les manettes |, II.
+Permet la participation de 8 joueurs.
+
+NIVEAUX DE JEU DES CHAMPIONNATS
+
+1/4 de finale ........sc00+ 2 Normal
+Demi-finale….…................. 3 Dur
+PING : crue he eu 4 Super
+
+Sélectionner les joueurs de l’écran de selection Championnat avec la
+croix directionnelle et valider avec le bouton A. Procéder ainsi pour le
+choix des 8 joueurs. Les personnages s’afficheront par la suite selon
+l’ordre de leur sélection. (Si tu choisis moins de 8 joueurs, presse
+START et les joueurs restants seront définis par l'ordinateur). Une fois
+les joueurs choisis, le combat s'affiche automatiquement et
+
+le jeux commence.
+
+CHOI
+
+SAN
+VI
+
+or:
+
+a
+
+*Pour le choix des joueurs, utiliser uniquement la manette |
+
+a
+
+> comBar
+
+m
+
+Aprés avoir choisi ton personnage,
+tu peux combattre contre un ami ou
+contre l’ordinateur.
+
+OPTION COMBAT 1P ¥82P
+
+Sélectionne avec la croix directionnelle et
+valide avec A.
+
+“4P contre 2P”...
+
+..(Mode versus). Combats contre le
+personnage de ton ami.
+(Utilise les manettes | et II)
+
+“4P contre ORD” ...........:cce (1 joueur contre l'ordinateur). Combats
+contre le personnage de l’ordinateur
+(Utiliser la manette | uniquement).
+
+“MODE DEMONSTRATION”...Quelque soit la fonction de
+l’Ordinateur, c'est un mode qui permet
+un combat en automatique. Utiliser les
+commandes | et Il pour le choix des
+parametres.
+
+CHOIX DES PERSONNAGES
+
+Après avoir opté pour le mode combat,
+choisis le personnage qui va combattre
+pour toi. Sélectionne avec la croix de la
+commande | le personnage 1P, puis
+valide avec le bouton A.
+
+Puis choisis ton adversaire. Dans le cas
+d’un combat contre l'ordinateur, celui-ci
+est choisi au hasard.
+
+Dans le cas d’un combat à 2 joueurs (2P)
+utiliser la commande II.
+
+===== Page 7 =====
+
+DEFINIR LES HANDICAPS ET LES CONDITIONS DE COMBAT >» MODE LEGENDE
+
+Quand l’écran de définition des scènes de combat s’affiche, sélection- Dans ce mode, c’est un jeu d’action plein de suspens qui dépend
+
+ner les titres avec la croix directionnelle AY. entièrement de tes choix. Selon le personnage choisi, l’histoire varie et
+progresse entrecoupée de batailles cruelles. Basée sur l’histoire de
+Dragon Ball, englobant les “Jeux de Cell et la Légende des pirates de
+
++ l'Espace, elle se compose de 4 parties pour ton plus grand bonheur.
+
+HANDIGAP
+
+rey AG
+ATTAQUE
+
+AMB I ANGE
+
+Sélectionnner avec la croix direction-
+nelle AY le mode légende et appuyer
+surA pour commencer le jeu. Un mes-
+HANDICAPS: ‘ sage s’affiche.
+VIE Le nombre de vies peut être modifié. Tu en
+
+augmente le nombre en appuyant sur > de la
+
+croix, et tu en abaisse le nombre avec <
+
+(De 400 à 10).
+FORCE D’ATTAQUE .....La Force d’attaque peut passer de “normale”
+à “elevee”. Modifier avec la croix <>. Appuyer sur le bouton A pour passer
+à l’écran de selection des person-
+PARAMETRES: nages.Choisis ton personnage avec la
+NIVEAU DE JEU ...........Le degré de difficulté varie de 1 à 4. Modifier croix et valide avec A.
+
+avec la croix <>.
+
+Il est possible de déterminer le lieu du match.
+
+Se modifie avec la croix <>.
+
+MUSIQUE Tu peux également choisir la musique que tu
+souhaites pendant le jeu.Modifier avec la croix.
+
+SCENE.
+
+Passer ensuitc à l’écran de selection
+Appuies sur À pour commencer la bataille. id de niveau de jeu (Degré de difficulté).
+
+Avec la croix choisis un niveau de 1 à
+Une fois passé les écrans de 4 et vali de avec le bouton A.
+
+démonstration, le jeu commence.
+
+===== Page 8 =====
+
+L'histoire varie en fonction des techniques choisies ou des victoires.
+
+Cependant que ue tu gagn
+ne perds pas,tu paraître
+si tu veux voir |
+
+rogresse. Si tu
+s inédits. Mais
+
+lu mode combat.
+
+hd
+
+AIS AVOIR
+El!
+
+*Les fonctions de bi
+
+TERMINE LE JEU AVEC L
+PERS S. TU
+NNE
+
+nt les mêmes qq!
+
+OPTION BATAILLE
+
+Pour faire une pause, appuyer sur START. En appuyant ensuite sur
+SELECT, tu fais apparaître l’écran d'option de bataille (en réappuyant à
+nouveau, tu reviens a l’endroit d’origine).
+
+OPTION COMBAT COMMANDE AIDE --A DAUITE
+
+ip
+MANUEL PC
+
+oP TRE
+
+Choisis un titre avec la croix av. Avec la croix <>, l'affichage varie.
+
+COMMANDES .............. Normale: fonction normale des commandes
+Auto
+S Auto (Semi auto): Cette fonction te permet
+en appuyant uniquement sur le bouton A
+d'obtenir la prise adaptée a la situation.
+*Permet l'enregistrement des commandes
+privilégiées du joueur.
+
+DIRECTION Permet de définir le sens des coups
+spéciaux. Que tu sélectionnes la gauche ou
+la droite, tu peux utiliser la même commande
+indépendamment de la position de l'ennemi.
+(Les projections changent aussi).
+
+COMMANDE AIDE ....... Fait apparaître l’écran d’aide qui te permet de
+visualiser les commandes de chaque
+personnage. Choisis les personnages avec la
+Croix <>
+
+© NOM DU RERSONNAGE/Gh6isi sonna c la croix <>
+
+© COMMANDE/ÉéStcommandes des prises se mettent en gras.
+
+@ LISTE DES PRISES/Séléc y, et la commande
+de la prise s'affiche: 1 hat
+
+Chiffre blanc: Prises $|
+Chiffre rouge: Méga prises.
+
+i
+
+INFORMATION . ..Séléctionne:-la prise et en appuy: int sur A,
+tu peux t’exercer. Sty.
+*Appuyer sur START pour démarrer.
+Tant que tu n’as pas effectué la prise
+correctement, le personnage reste immobile.
+
+MODE SON ... ssibilité d’avoir un :
+
+RADAR..." Choisir OUI ou NON pour avoir le radar dans
+partie supérieure de l'écran.
+
+===== Page 9 =====
+
+D ECRAN DUAL p> Avantaces DE L'ECRAN DUAL
+
+Revoici l'écran dual. C’est un système inédit qui permet de réunir sur € Visualisation de la force (POWER) rendue possible même en cas
+un même écran partagé en 2 des personnages placés dans des lieux d'éloignement.
+très distants (la distance maximale étant de 6 écrans latéraux x 2 © Quand l'adversaire se rapproche et que par une avance rapide,
+écrans verticaux). il tente de réduire la distance, casse.son rythme.
+
+] © La ligne de partage se déroule de haut en bas, de gauche à droite et
+
+d peut également faire un tour complet. Cette mobilité permet
+
+] d'atteindre des effets garantis.
+
+® Quand tu es attaqué tu peux te
+
+mettre en garde, disparaître,
+ou rispoter.
+
+© De même combats sur ton terrain de
+prédilection air ou terre.
+
+VIE (NIVEAU) Tu as perdu quand le niveau atteint 0
+
+FORCE/Force nécessaire pour faire une prise
+> LE BOUQUET FINAL
+
+RADAR/Position actuelle du personnage.
+Pour utiliser les prises (méga prises), il faut de l’énergie. Les balles de
+
+feu n’en consomment pas.
+
+_—— os | |S ————
+eo ee) 2P
+ORD ,
+
+“ns
+
+Ton personnage Personnage ennemi
+
+Super prise. 5
+
+===== Page 10 =====
+
+& PRISES SANS LIMITE DE PORTEE
+Les méga prise n'ont pas de limite de
+portée. Toutefois plus la distance est
+grande, mieux elles permettent de se
+protéger de l'ennemi.
+
+pe FAIRE ECHEC AUX PRISES ENNEMIES
+
+Les méga prises ont un très fort pouvoir destructeur. Si tu peux les
+éviter, cela constitue un très bon moyen de défense.
+
+HE PRISES EFFECTUES AVEC DEFICIENCE D’ENERGIE
+
+Il est possible d’infliger des prises consommatrice d'énergie même
+sans énergie. Toutefois l'énergie consommée pour infliger la prise ne
+permet pas de combattre tant que tu n’as pas restauré ton énergie.
+Attention à ne pas être démuni dans les attaques ou dans ta défense.
+
+Prise Kamehameha avec
+énergie déficiente
+
+ESQUIVER
+La partie se joue au moment où ton personnage abaisse les hanche.
+Valide sans perdre de temps.
+
+M GARDE: «4 + © Dommage 50%
+
+lf CHIQUENAUDE: ee [a] Dommage 25%, En cas\q’ eaher,
+Siege de 100% \
+
+Personnage chancelant.
+Avec la croix et une pression
+continuelle sur les bouton
+rends-lui vite la vie.
+
+B DISPARITION: > <> + © Does 0 mai gonsominig de
+l'énergie
+
+M RIPOSTE: «+ he +O
+
+Toutes les fonctions des boutons sont prévues pour un adversaire à droi
+
+® En cas d'échange de coup spéciaux, appuyer au préalable 50 fois,
+pendant 8 secondes. Plus tu appules et gee tes chances de
+l'emporter sont grandes. :
+
+© Quand tu as perdu, il ne te reste plus qu'à te mettre en garde... ;
+
+® La validation du mode garde est fonction de la distance. Plus on est
+
+prés, et plus la validation est rapide.
+
+===== Page 11 =====
+
+> ABREGE DES FONCTIONS
+
+@SANGOHAN
+
+NOM DES PRISES
+
+@VEGETA
+NOM DES PRISES
+
+VOLEE BALLE
+
+COUP DE GRISOU
+
+DISQUE
+
+ECLAIR DEMON
+
+RAYON VEGETA
+
+SUPER KICK
+
+VOLEE BALLE
+
+POURSUI VANT ++0
+
+G PRESSION tb +0
+CHOC VAGUE +++0
+MASENCO “+ +0
+KAMEHAMEHA te +0
+
+MULTI POINGS a+ +e
+LEVITATION KICK (En saut) +-++®
+
+SUPER ATTAQUE nn +++
+
+“Toutes les fonctions des boutons sont prévues pour un adversaire à droite
+
+@ Une suite de prises trop rapides fatigue le personnage
+
+COUDE SAIEN > ++®
+
+© Une suite de prises trop rapides fatigue le personnage
+
+===== Page 12 =====
+
+NOM DES PRISES
+
+POURSUIVANT i)
+TRIBALLES \\ PEO
+ENERGIE LAME +O
+RAYON TRUNKS (+0
+RAYON FINAL w+>+o0
+TRUNKS KICK tt
+ATTAQUE ACCELERE b+@
+TRUNKS PRESSION oF +@
+
+*Toutes les fonctions des boutons sont prévues pour un adversaire a droite
+
+@ Une suite de prises trop rapides fatigue le personnage
+
+pee Sa
+
+NOM DES PRISES
+
+POURSUIVANT
+
+RAYON MIRACLE
+
+WATTS MIRACLE +06
+MAKANKO +06
+
+GEKI : + +0
+SONIC KICK = +-+4°4+0
+LEVITATION KICK +++e
+BRAS MIRAGLE c++ Fo
+
+“Toutes les fonctions des boutons sont prévues pour un adversaire à.droite
+
+Les méga prises utilisées quand la distance avec l'adversaire est
+proche se comportent comme des prises normales, et l’adversaire
+ne peut faire qu’une garde normale. La puissance est celle d’une
+
+| méga prise. Mais comme l'ennemi peut l’éviter très facilement par
+un saut ou autre chose, réfléchis bien avant d'utiliser ces prises.
+
+21
+
+===== Page 13 =====
+
+@CELL
+VOLEE BALLE +0
+TAIYOKEN +++0
+RAYON MIRACLE c++ +O
+KAMEHAMEHA +0
+MEGAHAMEHA ++ +0
+CHOC VAGUE + +++ 0
+CELL KICK ++®
+ATTAQUE ACCELERE ++0
+
+Toutes les fonctions des boutons sont prévues pour un adversaire à droite
+
+© Une suite de prises trop rapides fatigue le personnage
+
+HE
+
+ASTUCE 2
+
+Si ton adversaire est sur la droite
+2 x bouton R/Riposte.
+
+c'est sans effet.
+
+Quand tu es projeté, appuies immediatement 2
+fois sur le bouton L ou le bouton R.
+
+2 x bouton L/Reception
+* Mais, si tu appuies avant d’être balance,
+
+@KUJILA
+POURSUIVANT ++0
+RAYON MIRACLE ee
+ENERGIE LAME ++0
+METEORE +0
+MEGALAXIE +440
+KUJILA KICK +*¥+0
+SUPER ATTAQUE Pea
+PIRATE KICK +10
+
+*Toutes les fonctions des boutons sont prévues pour un adversaire a droite
+
+23
+
+===== Page 14 =====
+
+NOM DES PRISES
+
+NOM DES PRISES
+
+TRIBALLES ++0 VOLEE BALLE +0
+RAYON MIRACLE ott +0 RAYON MIRACLE ott +0
+ENERGIE LAME +0 DISQUE ++0
+FULGURATION +0 MAKANKO +0
+SHOOT BLASTER itt +O KAMEHAMEHA ++ +0
+COUDE PIRATE ++ +0 CELL ATTAQUE +++®
+LEVITATION ATTAQUE ++® LEVITATION KICK ++ +0
+SUPER ATTAQUE ++® KICK DOUBLE “+++
+
+“Toutes les fonctions des boutons sont prévues pour un adversaire à droite
+
+© Une suite de prises trop rapides fatigue le personnage
+
+“Toutes les fonctions des boutons sont prévues pour un adversaire à droite
+
+ASTUCE 3
+
+Quand tu es projeté très loin, et si
+l'adversaire est à droite
+
+BOUTON R x 2/Réception
+Selon le coup, il est possible de te
+réceptionner sans recevoir de dommages
+
+additionnels.
+
+25

@@ -1,0 +1,936 @@
+# Ultima VII - The Black Gate
+source: https://archive.org/details/snes_manual_archive
+pdf: Ultima VII - The Black Gate ( USA ).pdf
+region: USA
+pages: 21
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+/ The Black Gate’
+
+INSTRUCTION MANUAL
+
+FCI
+
+SUPER NINTENDO.
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED
+
+CONSUMER INFORMATION & PRECAUTIONS.
+
+BOOKLET CAREFULLY BEFORE USING YOUR
+IDO® HARDWARE SYSTEM OR GAME PAK,
+
+FCISS
+
+Fujisankei Communications auegzcenuece
+International ne. Sears ae
+150 East 52nd Street nao ora
+New York, NY 10022 al
+
+Getting Started
+Conversation Mode.
+
+Inventory Screen. .......
+Moving Around In The World .
+Game Control Screen
+Using Your Spellbook .....
+Fast Magic
+Spell Casting, ——
+Equipping Yourself For Adventure
+APMOE eee ecco
+Weaponry ......0.5
+Guidance From Batlin
+i Salutations to the traveler. ...
+ii, The story of Batlin — Part the first
+iii, The old man and the bandits.
+iv. The story of Batlin — Part the second
+v. The two brothers and the trickster
+
+vi. The creation of the fellowship.............00000005
+
+vil, "The ratification of wise Lord British
+viii, The value of virtues and the virtue of values. .
+ix, ‘The triad of inner strength
+
+x. The philosophy of the fellowship
+
+===== Page 3 =====
+
+Table
+
+Notes For The Traveler
+
+Warranty Information . ...
+
+Notes
+
+Insert your Ultima - The Black Gate Game Pak into your Super
+Nintendo Entertainment System® and turn on the power.
+
+You should see the opening
+production credits and hear
+music begin to play. Continue
+to watch the screen and you
+will see the introduction (pay
+close attention, you may find
+a few clues to help you
+complete the gam),
+
+After the introduction sequence, the title screen will appear.
+
+I you do not have a game currently in progress, you will be taken
+directly into the game. If you DO have a game saved, you will be
+given the options RESUME SAVED GAME or BEGIN NEW GAME.
+Select the option you want by pressing UP or DOWN on the direc-
+tional keypad. When the option you want is highlighted, press the
+B Button.
+
+If you are starting a new game, you will begin in the city of Trinsic.
+‘A Red Moongate will appear and you, the Avatar, will step out of it.
+‘You will immediately be in a conversation with your dear friend and
+companion, folo. This is where you take control of the game.
+
+===== Page 4 =====
+
+Press the Y button to start a
+conversation with the person
+
+in front of you. While in a con-
+versation you see the person
+you are talking to at the top of
+the screen along with what he
+or she is saying, On the bottom
+half of the screen is your
+portrait and available responses.
+
+To select a response (or keyword), you can press the any button to
+make the keyword selection window active. Use the Control Pad to
+highlight the keyword you wish to select and press the B Button to
+actually “say" it. The person's response will then be shown at the
+top of the screen and you start the process over. Always try to
+select all the appropriate keywords — people may give you clues or
+valuable information while talking about something rather trivia.
+
+If the person you are talking to has a LOT to say, you will see a
+small downward- pointing arrow in their conversation box
+
+If this arrow appears, simply press DOWN on the Control Pad
+and the rest of their response will appear.
+
+To end a conversation, select BYE.
+
+The keyword AGAIN starts the conversation over, in case you
+think you missed something!
+
+You can view your current
+inventory by pressing START.
+
+This brings up a picture of you
+and any items you are currently
+carrying, The items along the
+right half of the screen are your
+inventory items (or items in your
+backpack.) The items that may appear around your picture on the
+left are any items that you have equipped in your hands or on
+your body (in the case of armor or clothing)
+
+To equip an item, move the blue selection cursor over the item.
+Pressing either the A or B Button will attempt to ready that item
+in your left or right hand respectively (armor and other “wearable”
+items are automatically equipped to the right part of the body if
+readied). If the item is not equippable, you will hear a failure
+sound. Remember that some weapons take both hands to use
+effectively.
+
+To use an item, move the blue selection cursor over the item and
+press the Y Button, Ifthe item has some purpose, you will see a
+message at the bottom of the screen telling you what happened or
+
+===== Page 5 =====
+
+some other effect may happen (ie,, USING a book allows you to
+read it). You should try to use most items to see what they do—
+some items do nothing, while others have tremendous uses.
+
+The inventory screen also shows your currently selected FAST
+MAGIC spells (see below for FAST MAGIC) and your current level
+of hit points (hearts) and magic points (ankhs.) It also shows your
+current level, experience points, and gold.
+
+Control Pad
+A Button
+BButton
+
+Y Button
+
+START
+SELECT
+
+LBUTTON
+R BUTTON
+
+Moves the Avatar in the direction pushed
+Uses the item in the A-hand if any is readied
+Uses the item in the B-hand if any is readied
+
+Opens doors, looks into containers, gets items,
+‘or uses items, Also initiates conversation with
+the person in front of you.
+
+Goes to INVENTORY SCREEN
+Goes to GAME CONTROL SCREEN
+
+Casts the readied FAST magic spell
+Casts the readied FAST magic spell
+
+===== Page 6 =====
+
+By pressing SELECT, you can go to the GAME CONTROL SCREEN.
+Here you can:
+
+SAVE YOUR GAME
+You should save your game before attempting something
+dangerous or after successfully completing a task
+
+RESTORE SAVED GAME
+You can restore your saved game if you have made some mistakes
+or have been destroyed
+
+BEGIN NEW GAME,
+
+If you get totally lost and don’t know where to go or what to do
+and want to start over, you can begin a new game. Doing this will
+erase the current saved game.
+
+VIEW THE ACKNOWLEDGMENTS
+You can see who created the game by selecting this option.
+
+Select CANCEL to return’to the game.
+
+After leaving Trinsic (the town in which you begin your adventure),
+you should head northward along the road until you reach Lord
+British’s castle. Lord British is a good source of information and
+he also gives you a Spellbook. With the Spelllbook you can cast
+many wondrous spells.
+
+To.use the Spellbook, after Lord British gives it to you, go to your
+inventory screen. You should see a red book — this is your
+Spellbook. Move the blue selection cursor over the Spellbook and
+press the Y Button (this USES the Spellbook,) You will then see the
+‘opened Spellbook and a list of spells. You cannot cast the dimmed-
+out spells. You are not yet ata high enough experience level. You
+can select the spell you want to cast by moving the "feather-pointer"
+up and down with the Control Pad. When the pointer is on the spell
+you want to cast, press the ¥ Button to cast it
+
+===== Page 7 =====
+
+You can set up two spells as FAST MAGIC spells. Go into your
+Spellbook and move the pointer over one of the spells you want
+10 be FAST MAGIC. Press either the Top Left or Top Right Button
+on the controller. This places a small marker to the side of the
+spell name. You can set a different spell for Top Left and for
+Top Right.
+
+Now, exit your Spellbook and exit the Inventory screen. While
+adventuring, you can now press Top Left or Top Right to cast the
+spell associated with that Button WITHOUT having to go into your
+Inventory screen or your Spellbook screen.
+
+Below is a list of arcane magical spells once practiced by many
+inhabitants of Britannia, Because the use of magic is unreliable
+and unpredictable, one should use great caution when attempting
+10 use the forces of the magical ether.
+
+This spell allows the caster to create a large explosion directly in
+front of him. This spell is often useful in blasting through loose,
+crumbling walls.
+
+This spell calls upon the powers of the magical ether to heal
+wounds upon the caster's body. The spell may have to be cast sev-
+eral times for your character to become completely healed.
+
+Great Heal
+‘Similar to the HEAL spell, this spell heals wounds on the caster's
+body, but heals much more damage
+
+lumination
+
+By casting this spell, the spell-caster creates a source of light
+which moves with him, illuminating the surroundings. This spell
+is especially useful when exploring the deepest dungeons.
+
+===== Page 8 =====
+
+This spell renders the caster invisible AND immune to most types
+of damage. While this is a very powerful spell, it does not protect,
+the spelicaster from all dangers.
+
+This spell renders the caster invisible to most creatures.
+Beware — there are some creatures who can "sense" otherwise
+invisible beings!
+
+Kal Lor (Help)
+‘This spell restores the spellcaster and teleports him to Lord
+British’s castle, where he will be fully healed. This spell should
+only be cast as a last resort when you can find no other way out
+of a bad situation.
+
+Levitation
+
+By invoking this spell, the spell-caster is able to “float” through
+the air, moving over otherwise impassable terrain. Please note
+that the altitude gained by the caster is relatively low, so passage
+over mountains is not possible. Also note that the spell does NOT
+allow the caster to cross over waters of great depth.
+
+By calling upon the magic of the ether, the spellcaster can,
+with this spell, lift large objects for a short period of time.
+
+This spell may be useful in moving through blocked passage-ways.
+Be warned that all objects will eventually fall back to earth, and.
+
+that the spell-caster would be wise to avoid large falling objects!
+
+Locate
+
+This spell gives the caster the eye of the eagle and enables him to
+see the land of Britannia from above. The caster’s location is
+noted, as well as other landmarks,
+
+Ring of Fire
+
+This spell causes flames to be called forth from the earth,
+damaging all enemies within the circle of flames. The caster is
+magically protected from any camage from the flames.
+
+ion
+Casting this spell creates in your inventory a teleport token.
+
+This token, when used from your inventory, will magically return
+you to the spot in which the token was created. This is especially
+useful when wanting to travel great distances in a short time.
+
+===== Page 9 =====
+
+Casting this spell causes the earth to shake and a great chasm to
+form in the nearby vicinity. The chasms often engulf or damage
+any nearby enemies. The spellcaster is immune to the dangers
+of this spell!
+
+Unlock Door
+
+‘This spell allows the caster to unlock any mechanically locked
+door. This spell does NOT open magically locked doors or those
+doors that require special keys.
+
+‘Unlock Magic
+This spell allows the caster to unlock magically locked doors.
+It does NOT unlock normal mechanically locked doors.
+
+‘Water Welk
+
+This spell allows the caster to actually walk upon the surface of
+‘water. This spell is especially useful in crossing small rivers in
+dungeon corridors. As with the LEVITATION spell, WATER WALK
+does NOT allow the crossing of waters of great depth
+
+examine all of it in this short
+
+‘There are basically four types of armor: leather, scale, chainmail
+and plate, Leather provides the least protection, but itis exceed-
+ingly light and is relatively inexpensive. While scale and chain-
+‘mail provide roughly the same level of protection, scale is the
+heavier and the less expensive of the two. The heaviest type of
+armor is plate; since it provides great protection it is also the
+most expensive,
+
+Unless one is armed with a weapon that requires the use of two
+hands, a wise combatant, in addition to wearing armor, will also
+carry a shield.
+
+‘Weaponry
+
+There is such a great variety of
+weaponry available in Britannia
+that it is impossible to properly
+
+space. The wise traveler knows
+that itis important is to select
+for oneself the most fitting
+weapon, After all, the weapon
+itself is not nearly as important
+as the one who uses it.
+
+===== Page 10 =====
+
+The choice of a weapon should be tailored around the user and
+not vice versa, What are the factors one considers when choosing
+‘a weapon?
+
+Many weapons such as the large ax and the larger swords are
+heavy enough to require the use of both hands. If one is not of
+sufficient strength, attempting to wield a two-handed sword could
+be worse than fighting unarmed. Generally, the smaller and lighter
+‘a weapon is, the easier itis to conceal and quicker it fs with which
+to strike. Edged weapons such as a sword must be handled with
+precision —it is usually not enough to simply contact one’s opponent.
+The skilled combatant knows how to use the cutting edge of his
+weapon to its greatest advantage.
+
+Blunt weapons such as maces, clubs and hammers enable the
+combatant to concentrate raw strength in the delivery of crushing
+blows to one's opponent, Also, the strategic effectiveness of well
+placed missile fire cannot be over-emphasized. On many
+“occasions an over-powered adventurer has been able to repel
+
+an attack through the proper application of missile weaponry.
+
+1 Salutations to the Traveler
+
+Good morning to thee, gentle
+friend and traveler! No matter
+what time of day it might be,
+when thou art reading this,
+
+no matter what the hour of the
+clock, | say good morning to
+thee because this very moment
+brings to thee the coming of the
+dawn. The dawn, as everyone knows, is the moment when,
+illumination comes. The dawn marks the end of the long dark night,
+and a new beginning. Its my humble hope that these words may
+be for thee a dawning, or at least, a type of awakening.
+
+I call thee “traveler” no matter if thou hast never left thy home
+‘town, no matter if thou wilt never again leave thy room, because
+all of us are travelers. | call thee traveler for truly all of us travel
+a spiritual or philosophical path — even if itis simply by living the
+life that we choose to live, or by searching for a new life when
+‘our current one fails to satisfy our needs as thinking spiritual
+beings.
+
+===== Page 11 =====
+
+It is past time that | introduce myself to thee, gentle friend and
+traveler. My name Is Batlin, and indeed I have been following this
+quest all of my life, Ithas been a long road, but the rewards have
+been beyond measure. If thou wouldst permit me, I would very
+‘much wish appreciate sharing these rewards with you.
+
+iL The Story of Batlin - Part the First
+
+There is much that | have set out to tell thee in this book.
+Some small part of it involves my own personal story. As that is
+the least important part of this book, | shall quickly relate my tale
+first, gentle friend and traveler. In that way we shall soon have
+
+it over with and then be free to pass on to more important
+concerns!
+
+I was born in the forests surrounding the city of Yew and educated
+in the traditions of the Druids. Having been raised in the city of
+Justice, | was taught to always strive for fairness in dealing with
+others, and these teachings left a lasting impression upon me.
+But while | found trees, birds and moons to be very beautiful,
+
+I determined to dedicate my life to the service of people.
+
+So it was | left to seek my fortune in the world.
+
+‘This was a time when, over Lord British’s objections, unruly lords
+waged war against each other, so there was little else to do but
+become a fighter In the city of Jhelom. | regret fighting others,
+although much of what | did helped bring peace to our land once
+more. | learned well how to defend myself and to find the
+courage one must have to survive in battle. | also learned respect
+for those of valor who earn their wage by combat. Eventually
+those little wars ended, and I found myself penniless and without
+a trade in the capital city of Britain.
+
+| became a Bard simply because a Bard was needed at the Blue
+Boar. There were none about, and I had the loudest voice.
+
+Never had I considered myself to be musically inclined, but it
+‘was a fair alternative to starvation. After much heckling and many
+a thrown cup, my talents did slowly develop. As the years passed
+| began to feel the deep compassion that bards know when
+singing of heroic deeds. | discovered that sharing a rapport with
+my audience was very moving, Several of my ballads are still sung
+today (although by tradition, the player will no doubt take credit
+for composing them himselD.
+
+===== Page 12 =====
+
+While in Britain, | met two remarkable individuals. They were
+twins, Eliza and Abraham. They were also well versed students of
+philosophy, and many were the hours we spent in discussion and
+debate. We did raise our voices on occasion, gentle friend and
+traveler, but that did not prevent us from becoming fast friends.
+Although | would never presume to intrude upon their privacy by
+revealing the many fascinating details | learned about them and
+their lives, I will say that they play a truly significant role in the
+part of this book that is my story.
+
+A mage from Moonglow who had heard me perform came to offer
+me employment as his assistant. Magic has always. fascinated me,
+and so | became his apprentice. | will always remember his teach-
+ing that if | was to successfully commune with the invisible world
+‘without lapsing into madness, | must ever retain my honesty —
+
+if one is to live outside the laws of reality, one must first be honest.
+He taught me well, It was with great sadness that | ended my
+studies in the magical arts when my master, who was most
+elderly, passed away.
+
+While eating at the Blue Boar soon after his passing, Eliza,
+Abraham, and | each decided that we needed something to which
+to dedicate our lives. On a youthful whim, we made a pact that
+we would go our separate ways and spend the next decade
+
+traveling throughout the land to find adventure, and to find
+ourselves as well. We agreed to reunite at the Blue Boar in
+exactly ten years. Our departure was exciting yet melancholy,
+as my life began a new chapter.
+
+iil The Old Man and the Bandits
+
+On the road leading out of Britain, | met a man bent with age,
+but still possessed of keen wit. As we walked he shared with me
+his tale, and I in turn shall share it with thee.
+
+During a stroll through the woods one day, this man was kid-
+rapped by a group of vicious bandits. The poor man had just left
+his nephew's family and had no one else in the world. Woe to
+them who have been kidnapped when they have no one to pay
+their ransom! The bandits soon began to loathe their captive and
+did make plans to do away with him, So angry did they wax in
+their disagreement over what manner of violence to use, that
+they did break into an awful fight.
+
+And so it was that this old man did escape from the bandits,
+who were distracted with their brawling. Upon noticing their
+victim was gone, they continued to fight, this time over whose
+fault it had been, until all of them lay unconscious in the street.
+
+===== Page 13 =====
+
+This old man was later reunited with his nephew's family and all
+were joyous of it. For as he had learned, Unity is essential for
+survival, and unlike those reckless bandits, he still wished to
+live for a good many years yet.
+
+tv, The Story of Batlin - Part the Second
+
+My travels took me to Trinsic, and there | encountered a group of
+men at arms with whom I became most impressed. Many fighters
+
+| have known were men of valorous heart on the battlefield,
+
+but off it little more than thugs. These men were not mere fighters,
+but Paladins. They were all skilled swordsmen and expert horsemen,
+as well as learned scholars and perfectly mannered gentleman.
+Above all, they were devoted to the preservation of honor, It was
+with eager gratitude that I accepted their invitation to join them.
+The following years were filled with excitement, as we journeyed
+through the land, righting wrongs and helping those in need!
+During one of our adventures | was injured and forced to remain
+in Minoc while my companions rode on. A healer there told me
+that without the proper treatments (for which he charged
+outrageous prices) { would most probably die! 1 angrily sent him
+away. After a time I did mend. I had learned that the healing
+process takes place mostly in one’s mind and have since placed
+no trust in healers who greedily prey upon the afflicted.
+
+At that time, the town of Minoc was in need of a Tinker.
+
+As I healed, I supported myself by fixing, building and inventing
+things. | had never before realized how much a town is reliant upon
+its Tinker, nor how appreciative the local townspeople are
+
+to those who sacrifice themselves to continuously solving the
+problemis of others. So welcome did they make me feel that
+
+I stayed for several years.
+
+‘Then, filled with the urge to roam and longing for the outdoors once
+more, | joined a band of Rangers in Spiritwood. Rangers are a deeply
+spiritual people. Living with them reminded me very much of my
+druid childhood in Yew. Later I made a pilgrimage to the desolate
+ruins of Skara Brae and there | had a spiritual experience so
+profound that I have vowed never to relate it to anyone.
+
+Leaving their band, | gave away all of my possessions and for
+months | wandered aimlessly. Eventually, | arrived at New Magincia
+where | sought employment as a Shepherd, Most of the following
+two years was spent in perfect solitude, living in complete humility.
+It was an experience that left me significantly changed. When I
+noticed that ten years had almost passed, | began the journey back
+to Britain.
+
+===== Page 14 =====
+
+-v. The Two Brothers and the Trickster
+
+On the road back to Britain | noticed a small mine being worked by
+two brothers. They greeted me suspiciously but eventually shared
+with me their tale, and | shall share it with thee.
+
+Their father died and left them a map to some unclaimed land that
+contained valuable minerals, By law a claim can only be made in
+cone name, and this led the brothers into conflict. One brother was
+the eldest, the other was more worldly-both wanted the claim.
+They became so fearful that the other would make the claim that
+each spent all his time spying on the other. No work was done.
+
+One day, they met a stranger who said he was a mining engineer.
+They did not trust him at first, but he assured them that their claim
+‘was too small to be of interest, He was on the way to stake a much.
+Jarger claim, The stranger turned their heads with tales of the
+riches they could have, replacing their distrust with avarice.
+
+‘The brothers asked the stranger to make their claim for them, and
+went back to working their mine. They worked without stopping for
+months, and afterward traveled to the mint to sell their ore,
+
+At the mint they learned the stranger had staked their claim in his
+own name and then sold it outright for a fortune. As the brothers.
+
+had taken ore from land they did not own, they were sent to the
+prison in Yew for many years.
+
+‘Their sad fate taught them to be more trusting of each other,
+for a man who does not trust his brother is always vulnerable.
+After hearing their tale, | went to the mint, for I was curious
+which of the two brothers held the claim to their new mine.
+Thad tried to guess and was quite surprised when I saw the
+answer. It was in the name of their father
+
+‘vi. The Creation of The Fellowship
+
+| was overjoyed when Eliza and Abraham both arrived at the Blue
+Boar safe and sound. It was a splendid reunion. The tales they
+told me were truly astounding, gentle friend and traveler. But as |
+have mentioned, | do not wish this tome to be an intrusion upon
+their privacy,
+
+Not all of our memories were pleasant ones. Most of the people of
+Britannia, it seemed, were more interested in helping themselves
+than in helping their fellow person. As travelers — strangers wher-
+ever we went — we had become used to the cold eye of suspicion
+tupon us. Everywhere there were people who expected something
+for nothing, as if owed a debt by the world. Most of all, each of us
+had met many people who were fundamentally unhappy.
+
+===== Page 15 =====
+
+Everywhere there were people who knew that they needed some-
+thing in their lives, gentle friend and traveler, but that they had not
+a hope of finding it. a
+
+The three of us had learned much of history, There was once a
+time when life was infinitely more fragile, but was cherished
+much more dearly, We yearned to recapture that aspect of
+Britannia's former glory. After much discussion, we decided to
+found a society called The Fellowship. At this time | was also
+conceiving what would become its philosophy, but that will be
+discussed further in another chapter. It was Abraham who
+‘suggested that | propose The Fellowship to Lord British. | agreed,
+little realizing the task | was undertaking.
+
+It was with much anxiety that [
+stood before the throne of wise
+Lord British. | was in a long line
+of subjects as our Liege made
+‘numerous pronouncements.
+Although I had been waiting for
+hours when | at last had my
+audience, [still felt unprepared.
+His unwavering glance fell upon me.
+
+{ said that | had a modest proposal. My colleagues and I sought to
+establish a philosophical society known as The Fellowship, Lord
+British asked me who would see the benefits of this Fellowship,
+[replied that no one would benefit from it, for it would not be run
+for profit. With a word I was dismissed. | found myself leaving the
+throne room before it had even sunk in that | had been refused.
+
+By the look on my face Eliza and Abrahiam knew I was not the
+bearer of good news. In discussing the matter, Eliza suggested that
+Lord British had desired a tribute from us. If we could present an
+Impressive enough tribute, he would grant his favor. After a time
+‘we raised a thousand gold pieces by selling nearly every possession
+‘we owned. With renewed confidence | returned to the castle,
+
+===== Page 16 =====
+
+This time there were several workmen with me to carry the chests
+of gold that were our tribute. As I reached the front of the line
+
+I spoke boldly. | said that I wished to discuss The Fellowship,
+
+but first wished to present Lord British with suitable tribute.
+
+With consternation | realized that | had spoken before Lord British
+had finished reading an important looking scroll placed before him
+by one of his advisors. He signed it as he spoke, not even bothering
+to look up at me, First he ordered my workmen to remove the
+boxes. Then he ordered the workmen to remove me as welll
+Angrily | stormed from the throne room. Once more did I face my
+two friends, We were most disappointed. The dream we shared
+now seemed to have no hope of becoming reality. I spent days
+somberly brooding over my failure. One morning found me so
+completely lost in my thoughts that I did not hear the passing
+beggar approach. When at last | noticed him he spoke.
+
+—Acoin for one denied the rewards of worthiness.’ The illumina-
+tion was pure and instantaneous. He thought | had gone mad
+when | gave him my chest of gold. | ran back to the palace as fast
+as | could
+
+At first, Lord British would not see me, but ! implored him. He
+
+looked me over, and seemed to see something different about me.
+
+He listened as 1 spoke,
+
+— Our society, The Fellowship, will be a union of spiritual seekers
+that shall strive to bring Unity to our fractured society. We will
+promote trust and understanding among all the people of.
+Britannia. With your approval our society will teach one to seek
+Worthiness, rather than mere personal reward, To that end, | seek
+your recognition of The Fellowship,
+
+After a long moment, Lord British replied
+
+— Batlin, thou dost know the meaning of perseverance, | care not
+for what thy Fellowship dost wish of me and | care even less for
+what thy Fellowship would seek to do for me. But if thy Fellow-
+ship would seck to serve the subjects of my land then my support
+for thee is unequivocal.’
+
+Thus was born The Fellowship.
+
+‘viil. The Value of Virtues and the Virtue of Values
+
+In creating the Fellowship philosophy 1 had no intention of cobbling
+together a collection of platitudes that would be presumptuously
+intended as a replacement of the Eight Virtues of The Avatar. 1
+knew there would be those who would accuse me of doing just that,
+‘no matter what philosophy | developed! I hereby wish to state that,
+The Fellowship fully supports the Eight Virtues of the Avatar, and as
+one who has endeavored to follow their example I can personally
+assure thee of their immeasurable worth
+
+===== Page 17 =====
+
+But as one who has followed the Eight Virtues, | know whereof |
+speak when I say that itis impossible to perfectly live up to them,
+Even the Avatar was unable to do so continuously and consistently
+Can anyone say that they have been honest every moment of
+every day of their lives? Can anyone say that they are always
+compassionate, valorous, just, sacrificing, honorable, humble or
+spiritual at all times? The philosophy of the Eight Virtues does
+little more than emphasize our own personal deficiencies. { have
+met many adherents to the ways of the Virtues who are racked
+with guilt over what they perceive to be their spiritual failures,
+
+for that is what the Virtues are based upon. Having been shown our
+weaknesses, now is the time to strengthen them. The philosophy of
+‘The Fellowship has been created to eradicate the failures from
+one's life. It is a philosophy based upon success and it enhances
+everything that has come before it. The Fellowship philosophy can
+be expressed as three values derived from the personal experi-
+ences of my life. They are known as The Triad of Inner Strength
+
+ix, The Triad of Inner Strength
+
+‘The Triad of Inner Strength is a rigorous mental discipline. It takes
+concentrated effort to apply this triad of values to thy life. But in
+doing so thou will see a change in thy life so significant that thou
+shalt no longer be able to look at the world in the same way again,
+
+The first value of The Triad Of Inner Strength is expressed as —
+Strive For Unity.’ People apply this value to their lives by working
+together to achieve that which shall benefit everyone in a state of
+‘mutual cooperation. We have seen by the parable of — The Old
+Man and the Bandits’ how Unity is essential. If we are not working
+together then we are certainly working against each other.
+
+The second value of The Triad OF Inner Strength is expressed as —
+Trust Thy Brother.’ People apply this value to their lives by dealing
+with others without accusations or suspicions that limit others
+and themselves. We have seen by the parable of —The Two
+Brothers and the Trickster" just how vulnerable lack of Trust
+makes one, Without Trust we restrict ourselves from that which
+‘we wish to accomplish,
+
+The third value of The Triad Of Inner Strength is expressed as —
+Worthiness Precedes Reward.’ People apply this value to their lives
+by placing a greater emphasis on their accomplishments rather than
+on personal gain. We have seen by the parable of — The Ratification
+of Wise Lord British’ that one must not expect something for
+nothing. Blindly chasing reward is a path that leads nowhere.
+
+===== Page 18 =====
+
+x. The Philosophy of The Fellowship
+
+The scholarly name for the Fellowship philosophy which I did
+not personally coin, is — sanguine cognition.’ This is merely an
+important-sounding way of saying — cheerful knowledge,’ and
+that is as accurate a description of The Fellowship philosophy
+as any | can imagine.
+
+As long as one maintains his confidence and hopefulness one is
+continuously open to the opportunities that perpetually exist in
+life. | firmly believe that, gentle friend and traveler, and thou
+shouldst believe it as well.
+
+Without confidence, one does not perceive the world correctly and
+hence one misses opportunities. This sad state of — fevered! reason
+currently holds the majority of the population in its icy grip.
+
+Such — fevered’ persons begin to adapt illusory notions to their
+thinking and entangle themselves in twisted, conflicting emotions
+which reinforce their failures. These sad people become afraid of
+themselves. They begin to believe that they will fail, and this
+belief can become a self-fulfilling prophecy.
+
+Such a fevered person, whether he realizes it or not, desperately
+needs to recognize that the world is not a tangled knot of failure.
+‘The entire process of thought needs to be permanently fixed to a
+
+confident nature. Such a person needs to — find the best in
+himself,’ and accept his basic worth. This is rarely an easy task.
+It requires a reflection upon one's self that can be emotionally
+painful. But as we say in The Fellowship, — Sometimes one must
+face harm in order to find healing,’ Upon achieving Recognition
+‘one will follow his own inner voice of reason that will guide him
+through life and help him avoid failure.
+
+One of the most difficult things to accept is how reliant we are
+upon others. We fear the rejection, the real or imagined hidden
+motives, and the potential deceit of others. Accepting our
+inevitable reliance upon others as an integral part of our role in
+this world requires the courage to walk on fire.
+
+‘To achieve the recognition necessary to break free of the fever,
+one must dedicate every fiber of being to accomplishing that end
+We of The Fellowship travel that path, and | extend my invitation
+to thee, gentle friend and traveler, to join us. Together we shall
+reach our destination.
+
+===== Page 19 =====
+
+Asan aside, there was once a time when much consideration was
+given to the movements of the heavens. There was much concern,
+‘over an event, the reoccurrence of which is eminent, called the
+“astronomical alignment.” It was said that the astronomical align-
+ment would create a gateway between this world and another.
+
+In recent times the astronomical alignment has been all but forgotten.
+With the end of the time of magic, it is doubtful that such an event
+will have any significance to anyone but astronomers.
+
+During the time of magic in Britannia, a strange form of travel
+existed, through doorways of light that were often called
+"Moongates." There were at least two types of Moongates -
+blue and red. Blue Moongates sprang up wherever fragments
+of extraterrestrial rocks called "moonstones" were buried.
+‘These gates allowed magical travel from one gate to another.
+
+Red Moongates are generated by the powerful artifact known as
+the Orb of the Moons. There have only been two red Moongates
+in all of known existence-one used by Lord British, and the other
+by the Avatar
+
+Little is known about these gates, but like magic spells,
+Moongates no longer function as they once did. Use of
+Moongates today cannot be discouraged strongly enough.
+
+‘They are dangerous and their use in this less-than-reliable state
+has resulted in numerous fatalities
+
+rranty Information
+
+Limited Warranty
+
+FCt warrants to the original purchaser ofthis product that the recording medium on
+which the Game Pak is recorded wil be free from defects in material and workiar-
+slp for ninety (90) days from the date of purchase. Defective media returned by the
+purchaser during the nlnery (90) day period will be replaced without charge, provid-
+ed that the returned media have not been subjected to misuse, damage or excessive
+
+Return defeecive meta to point of purchase. You must include a dated proof of pur
+‘hse, a brief statement describing the defect, and your return address
+
+I does not warrant thatthe Game Pak will meet the purchaser's specific require-
+‘mens, ANY STATEMENTS MADE CONCERNING THE UTILITY OF THE GAME PAK ARE NOT
+10 BE CONSTRUCD AS EXPRESS OR IMPLIED WARRANTIES,
+
+"WMS WARKANTY 1 IN LIEU OF ALL OTHER WARRANTIES, WHETHER ORAL OR WRITTEN,
+NPRESSED OF IMPLIED, ANY IMPLIED WARRANTIES INCLUDING IMPLIED WARRANTIES
+‘OF NERCHANTABILTY AND FITNESS FOR A PARTICULAR PURPOSE, ARE EXCLUDED.
+
+|W NO EVENT WILL FCI RE LJABLE FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES OF
+ANY KIND IN CONNECTION WHITH THE GAME PAK,
+
+‘Some states do not allow the exclusion of Hitaton of incidental of consequential
+‘damages or limitations on how long an iniplied warranty lasts, so the above mita-
+
+tion or exclusion may not apply to you. This warranty sives you specific legal rights,
+‘and you may also have other rights which vary form state Co stte. Adress
+spondence to:
+
+FCI Fujfsankei Communicatons laternaiona, In,
+150 East sand Street
+New York, NY 10022-6017
+
+2x) 753-8100,
+
+===== Page 20 =====
+
+dPobios of Amatketuva 2 Heaugzen
+
+52 BlackRock taslsmans Vesper muvesy
+
+4 Bena back Gemevatoe TO women;
+
+nt Worth Enid OF Pedugian) been
+
+DF2VeAR ho Mons
+
+bp tnc Onl Pouce iy Ader On)
+
+Sorce ALD § Resa 2 Deck tes
+a 2.
+#50. AgMOUe 3 eae Pe oe RIIGIe
+ote ePprts YE OTe LORD Memorh
+= isles
+,
+
+===== Page 21 =====
+
+FCI.
+
+NotJust Kid Stuff
+
+Fujisankei Communications
+International, Inc.
+150 Eos! S2nd Sire
+
+Now York, New York 10022-8100
+
+(212) 753-8100
+
+4
+
+PRINTED IN JAPAN

@@ -1,0 +1,1053 @@
+# Operation Logic Bomb
+source: https://archive.org/details/snes_manual_archive
+pdf: Operation Logic Bomb ( USA ).pdf
+region: USA
+pages: 16
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+Watch for new Jaleco video games for the Super
+Nintendo Entertainment System® in coming
+months. And remember, Jaleco makes great video
+games for the Nintendo Entertainment System® and
+the Nintendo Game Boy® as well!
+
+JALECO USA Inc.
+685 Chaddick Drive
+Wheeling, IL 60090
+(708) 215-1811 (Main Office)
+(708) 215-2359 (Game Help)
+
+oe
+
+Jaleco®, the Jaleco logo, and Operation Logic Bomb™ are
+registered trademarks and trademarks, respectively, of Jaleco USA
+Inc. Nintendo®, Nintendo Entertainment System®, Super Nintendo
+Entertainment System®, Nintendo Game Boy®, Super NES, and
+
+\
+
+NES are registered trademarks and trademarks, respectively, . of
+
+Nintendo of America Inc. © 1993 Jaleco USA Ine. "D
+All rights reserved. Printed in Japan.
+
+Printet! in Japan
+
+ig Np Eo ESR
+
+y ¢ ;
+ee a ee Saeed,
+‘
+
+~ SNS-IY-USA
+
+ET
+
+THE ULTIMATE
+“SEARCH & DESTROY
+
+INSTRUCTION BOOKLET
+
+Pitted
+
+ees
+
++
+
+_ SUPER NINTENDO.
+
+ENTERTAINMENT SYSTEM
+
+===== Page 2 =====
+
+i}
+lean § i
+i HUT
+tte
+
+I i ui tt i
+
+| BiH) Hiei Hi
+
+4 yi H Rat
+inva ae aT HAHA Rea
+
+WARNING: PLEASE READ THE ENCLOSED
+
+WHY SHOULD YOU JOIN THE JALECO
+
+, ?
+CONSUMER INFORMATION AND PRECAUTIONS | AI ey aes
+BOOKLET CAREFULLY BEFORE USING YOUR Here’s what you get if you join:
+NINTENDO® HARDWARE SYSTEM OR GAME PAK. — | e WIN FREE GAMES
+
+: ~ You'll be eligible to win free Jaleco games
+from our once-a-month drawings!
+
+e FIND OUT ABOUT NEW GAMES
+
+Find out about new Jaleco games before
+they’re released! Get in on special Jaleco
+| promotions and contests! And more!
+
+e TEST GAMES BEFORE
+
+=
+
+JALECO USA INC.
+
+685 Chaddick Drive
+Wheeling, Illinois GOO090
+
+(708) 215-1811 : THEY’RE RELEASED
+JALECOS, THE JALECO LOGO AND | Hey, maybe we'll even ask a few of you if
+
+REGISTERED TRADEMARKS AND
+
+TRADEMARKS, RESPECTIVELY, OF | you'd like to test Jaleco games before
+they're released! You could be selected as
+a Jaleco Major Player!
+
+OPERATION LOGIC BOMB ™
+& © 1993 JALECO USA INC.
+ALL RIGHTS RESERVED.
+
+ay Official
+
+¥( Wintendo
+
+Here’s what you get if you don’t join:
+e YOU GET NUTTIN’ IF YOU DON’T JOIN!
+
+PAX Seal of Quality /4
+
+THIS OFFICIAL SEAL IS YOUR
+
+LICENSED BY
+
+(Nintendo)
+
+NINTENDO, SUPER NINTENDO
+ENTERTAINMENT SYSTEM
+
+AND THE OFFICIAL SEALS ARE
+REGISTERED TRADEMARKS OF
+NINTENDO OF AMERICA INC.
+
+© 1991 NINTENDO OF AMERICA INC,
+
+ASSURANCE THAT NINTENDO HAS
+APPROVED THE QUALITY OF THIS
+PRODUCT. ALWAYS LOOK FOR THIS
+SEAL WHEN BUYING GAMES AND
+ACCESSORIES TO ENSURE COMPLETE
+COMPATIBILITY WITH YOUR SUPER
+NINTENDO ENTERTAINMENT SYSTEM,
+ALL NINTENDO PRODUCTS ARE
+LICENSED BY SALE FOR USE ONLY
+WITH OTHER AUTHORIZED PRODUCTS
+BEARING THE OFFICIAL NINTENDO
+SEAL OF QUALITY.
+
+And there’s only one way you can get in on
+all this good stuff — and all it’s going to cost
+you is a few moments of your time and the
+price of a postage stamp!
+
+===== Page 3 =====
+
+Bites i Bie ptt catego eT eee
+
+rts Peden ESF dd Ea He
+
+sissy gata st Sev espe i a AERT tay Sees STs Ae ES ae Ee dpe ea pre a epee aed ede ad a eee
+i Soltis ea alain ie es ine ciel Sie ie SiG en linea een te ace Ur Sle esi ae His ai acne ae
+
+Here’s how to join:
+
+e Find the JalecoMajor Player’s
+Membership/Warranty card
+enclosed in this package.
+
+e Fill in the information
+requested on the card.
+
+e Put a stamp on the card.
+e Drop the card in the mail.
+
+That’s right, all you gotta do is fill out the
+
+card, mail it to us, and you’re in!
+
+Even if you’ve joined before, fill out the
+card and send it again. It will increase
+
+your chances of winning!
+
+Welcome to the club!
+
+TABLE OF CONTENTS
+
+INTRODUCTION ...........cccceecessssssnseeeeeeeeeeees G
+OBJECT OF THE GAME ...............2::00000000 13
+GETTING STARTED ..............ccccceeeeeeeeeeees 10
+CONTROLLER FUNCTIONS
+
+DURING A GAME ....... ce tceecsseeeseeeneseeeeeeeees a |
+ON-SCREEN DISPLAYS) ...........0:0000000 wld
+LEVELS _........... ote rp a ee an 19
+WEAPONS... eccceeetteeseeeeeeenensseeeesseeeneeeees 2(
+GAME OVER AND CONTINUE ................ 24
+GAME TIPS — THE JALECOMAJOR
+PLAYER’S HOTLINE. ........20:scccccseeseeeneneees 20
+TAKING CARE OF YOUR |
+JALECO GAME ...........ccccccssesssseeeeeceeneeeeees 26
+
+===== Page 4 =====
+
+INTRODUCTION .
+
+Attention, all Special Forces personnel: This is a
+classified briefing. The government has ordered a top
+secret mission to investigate the takeover of the
+Subspace Particle Transfer Project Facility. The code
+name for this mission is Operation Logic Bomb. We
+have selected our best operative — an agent known
+only as “Logan” — for this solo mission. With his
+bionic implants and bioelectronic brain, Logan has the
+best chance of successfully completing this difficult
+assignment. His destination is a research laboratory
+hidden in a secret mountain fortress.
+
+Background information: Teams of our best
+scientists have been working for years on the
+Subspace Particle Transfer project, and are close to
+perfecting the particle transfer technology. This
+process uses subspace transporters to dematerialize
+an object, then instantly rematerializes it at another
+location. Short distance transfers of individuals have
+also been successful, and the scientists were about to
+begin long-range transport experiments. Because of
+the sensitive nature of this research, security is very
+tight — only authorized personnel are allowed within a
+10-mile radius of the installation.
+
+6
+
+Personnel File — Agent
+Logan
+
+Age: 27
+
+Origin: Unknown
+Strength: Superhuman
+abilities
+
+After being injured during
+a previous assignment,
+Logan was fitted with
+bioelectronic implants that
+give him superior strength, reflexes, and analytical
+abilities. Using his built-in cybernetic interface device,
+Logan can communicate directly with the Lab
+computer. This will enable him to retrieve vital
+information about the Subspace Particle Transfer
+project, as well as search for clues to reveal the
+source of the attack.
+
+Current situation: We have lost contact with the
+research laboratory. Someone — or something —
+has taken over the facility and shut down all outside
+communications. We have no information about the
+
+===== Page 5 =====
+
+eect
+
+intruders, or their capabilities...no one has entered the
+facility and returned to tell about it. We are now
+preparing our final assault. If it fails, we will be forced
+to eliminate the danger by destroying the entire
+installation. Agent Logan has been briefed on all
+aspects of this mission — now it’s up to him to
+infiltrate the lab, neutralize the intruders, and rescue
+the scientists. All units prepare for action... Operation
+Logic Bomb is about to begin!
+
+OBJECT OF THE GAME
+
+So who are these intruders, anyway — and how did
+they get into the Lab? There’s a lot more to this
+situation than meets the eye...as you'll soon find out
+when you enter the exciting world of Operation Logic
+Bomb™. As the main character in this story, Logan,
+you explore a labyrinth of levels in your mission to
+neutralize the intruders and save the Lab. Complete
+with awesome 3-D graphics and great music and
+sound effects, Operation Logic Bomb™ combines
+mystery and mazes with the threat of alien invaders to
+create the ultimate action-adventure.
+
+Operation Logic Bomb™. consists of 10 different
+
+8
+
+~ —_—— —— -—
+
+ry Py Fat Faapeares proces ay
+
+critty seh tf 345; 3) mut Ee 7 23] Bit ft f24F. | kit | | 3] i 3]
+3 : it 2: S34 Ey pak f ig ifs, tates Hf mae Ets ft, 2 FFF, t Bik 123 ah 3 a 7 iets | 2,
+EG Cv aa ee eS er ele la a in ela SSeS Sle ce alors Sie ee tan oi a Sia a eA ISIE ENS
+
+levels full of sealed rooms and locked doors. You
+must complete certain tasks on each level before
+advancing to the next one. In some cases, you will
+need to go back and forth between levels in order to
+solve all of the puzzles. Of course, you’re not alone in
+there...in fact, the place is swarming with all kinds of
+enemy intruders who
+seem to appear out of
+nowhere. I’d advise you
+to shoot first and ask
+questions later!
+
+You begin the game with
+two weapons and a
+limited power supply.
+Once your power runs out,
+you can start over at the beginning of the current level.
+After three continues, your luck runs out for good and
+the game ends. You can collect up to five additional
+weapons during the game. Make sure you find all of
+them...certain enemies can be taken out only by using
+certain weapons. You can get useful information from
+data terminals scattered throughout the Lab — if
+they're working, that is. By accessing these data
+
+===== Page 6 =====
+
+REE TST a ey ae a oT :
+a a e z E He He i E a Hn eee cee ity B el oe
+le siSs}iri pal ishened acd ts Be te = & eat spo we sai
+a a 9 cae a
+States) raps es pea Ede pee alee psesbipsseciiss han 4
+satel ee jeamilaiene . He
+Hi eet
+Seaman |
+satay _ ‘4 Pa H piisinie eis Bi ¥ ale ts ae Heuer silt sy y 22 a
+BL Hot ee ee mraeeeiaie i f i i Be He H i Hate zi i ah
+spades. US pe BET: SH EE RH ead a Ley Beat pepe tree te a eee Teed Sith Bi 3185)
+Fee er eee Ge eee ee ee : af eee ne
+i i she Bf Binz
+eas i"
+t
+
+terminals, you can collect maps of the Lab and watch
+video sequences that show you who the intruders are
+and how they operate.
+
+Since I’ve already seen the videos, let me give you a
+little hint...as far as | can tell, the intruders are alien
+creatures who come from another dimension. They
+appeared suddenly when one of the particle
+transporters malfunctioned and created a subspace
+rift. Now the intruders are holding the scientists
+hostage, forcing them to build huge subspace
+generators that are gradually taking over the Lab.
+The subspace fields are everywhere, and they’re
+getting larger all the time. So if | were you, I'd quit
+wasting time and get in there...before it’s too late!
+
+GETTING STARTED
+4. Place the Operation Logic Bomb™ Game Pak into
+
+your Super NES _ and turn on the unit.
+After a few moments, the introduction appears.
+
+2. Press START at any time during the introduction to
+display the title screen. On the title screen, press
+START to begin the game.
+
+10
+
+CONTROLLER
+FUNCTIONS DURING A
+GAME
+
+Left Button
+
+Right Button
+
+X Button
+
+A Button
+B Button
+
+Control Pad
+
+Select Button
+Start Button
+
+Player Movement
+Press any of the eight directions on the Control Pad
+(Up, Down, Left, Right, and Diagonals) to move in
+the corresponding direction. Your character will face
+the direction he is moving.
+
+11
+
+===== Page 7 =====
+
+To fix your attack in a particular direction, press and
+hold either the Left Button or the Right Button while
+facing in that direction. As long as you are holding
+down the button, your character will remain in the
+direction he is facing (even if you move him in another
+
+direction).
+
+Try it! Press Up on the Control Pad, then press and
+hold either the Left Button or the Right Button. Now
+try moving your character. No matter what direction
+he moves, he remains facing up until you release the
+button. This move lets you fire at an enemy while
+you’re moving away from him, and is especially useful
+for holding and firing in a diagonal direction.
+
+12
+
+LL
+
+isin Ee
+: :
+Eos
+
+REGULAR ATTACK
+
+A Button
+B Button
+
+select Weapon
+Fire Weapon
+
+You begin the game with two weapons: the SSLG-R4
+and the TSLG-R2. Press the A Button to switch
+between the two weapons. You have an unlimited
+supply of ammunition. Press and hold the B Button
+to fire continuously. You will find more weapons as
+you explore the Lab. A description of each weapon is
+provided later in this manual.
+
+SPECIAL ATTACK
+
+X Button
+Y Button
+
+Select Special Weapon
+Fire Special Weapon
+
+several special weapons are hidden in the Lab. Once
+you have found them, use the X Button to select a
+special weapon and use the Y Button to fire (or place)
+the weapon. As with the regular weapons, you have
+an unlimited supply of each special weapon. A
+
+description of each special weapon is provided later in
+this manual.
+
+13
+
+===== Page 8 =====
+
+Pause/Display Information Screen |
+Press START to pause the game and display the
+Information Screen. This screen will be empty until
+you have accessed the
+correct data terminal and
+downloaded the map
+information. The map will
+show you the layout of
+the current Lab level. You
+must acquire a new map
+on each new level.
+
+ON-SCREEN DISPLAYS
+
+Power Meter
+
+Your power meter appears along the bottom of the
+screen. Each time you are hit, your power decreases.
+When your power runs out, your character is placed
+back at the beginning of the current level. You can
+restore your power during the game by accessing
+certain data terminals.
+
+14
+
+aN
+
+Weapon Display
+
+You begin the game with two regular weapons — the
+Single Shot Laser Gun and the Triple Shot Laser Gun.
+You collect other weapons during the game. The
+symbol for the current weapon appears in a box in the
+lower right corner of the screen. This box is marked
+“B”. Press the A Button to cycle through the
+available weapons. Press the B Button to fire the
+Current weapon.
+
+On the higher levels of
+the game, you also will be
+able to find and use two
+special weapons — the
+decoy and the mine.
+Once you have found a
+special weapon, the
+symbol for that weapon
+appears in a small box to the left of the regular
+weapon box. This box is marked “Y”. Press the X
+Button to select a special weapon. Press the Y
+Button to fire that weapon.
+
+15
+
+===== Page 9 =====
+
+er
+
+pene ares
+ie
+
+Data Terminals
+
+Data terminals appear at various locations throughout
+the Lab. Some have been deactivated by the
+intruders. If the data terminal is active, a flashing light
+appears above it and a flashing blue arrow points to
+the terminal doors. Inactive terminals may become
+active once you destroy nearby enemy forces or one
+of the intruders’ subspace generators.
+
+To access an active data terminal, position yourself
+over the blue arrow and walk up to the terminal. The
+doors will open and you automatically will download
+any information stored in that terminal. Some data
+terminals provide a map of the current level. Others
+provide a video record of the takeover of the Lab.
+Watch these sequences
+closely...they can provide
+valuable information
+about the enemy’s
+activities and
+weaknesses. The final
+type of data terminal
+restores your power.
+
+16
+
+Hip hte i
+EEE eg ses ayes eo ee TES ST ELT eg ee eee eee eT
+
+is
+=
+
+4
+ae
+BiH
+=H
+ese
+
+Bay =
+3:
+(Se Fil
+ae
+asi Ssyemease
+aad
+2
+Be
+e
+es
+Few
+es
+
+H He ¥ peste ie in 3 Hi
+frei re Ue a ea Ht Ue ea elt Ue te eee Te Te ee ae ei a el TES UI am een eT Toh lah ea denn ely
+
+Maps
+
+One of the data terminals on each level contains a
+map of that level. Once you have downloaded the
+map, you can view it at any time by pressing START.
+The map shows your current location as a flashing
+blue square. Flashing orange markers indicate active
+data terminals or transporters. Press START again to.
+hide the map.
+
+Transporters
+
+Transporters take you from one level to another. At
+least one transporter can be found on each level. A
+transporter cannot be used until you destroy the
+enemy controlling it. Flashing blue markers indicate
+when a transporter has become active. To use an
+active transporter, simply step onto it. You may go
+back and forth between levels, and indeed will need to
+do so to get the weapons you need to clear a level
+completely.
+
+Information Sequences
+
+Information sequences can appear when you access
+data terminals, destroy an enemy boss, or find a
+weapon. These sequences contain information about
+
+17
+
+===== Page 10 =====
+
+y i
+i i H 34 a rf Fyne ALES ul 2 Bi : : Ri 3 a 1; } i
+aa neane a ei eee ie aceasta pee eee eee eae ice tices ite Ta
+ie stage cae lteter detec eg edt elite dada etd da Being Ea Dee See ea
+
+ieee:
+hy
+
+SPT rer errs ARPT EARS
+
+th oes pes:
+
+3} feattctta lets i 4
+Eig Hehe an cle HEH
+
+what happened when the intruders took over the Lab.
+Watch closely and you may find helpful clues! When
+
+you find a weapon, a short video sequence shows the
+name of that weapon and how to use it.
+
+* q00091 @
+
+CONVERTING
+
+wea
+
+Subspace Connection Points
+
+As you explore the lab, you'll notice that you can't
+walk across certain areas. On the lower levels, these
+areas are covered by flashing blue coils. These areas
+are subspace connection points, created by the
+intruders’ subspace generators. They serve as a
+bridge between our world and the intruders’ subspace
+world. Although you can’t walk across the subspace
+areas, your enemies can! In fact, that’s how they got
+into the Lab in the first place, and more are arriving all
+
+18
+
+the time. In order to wipe out the subspace
+connection points, you must destroy the generators.
+
+LEVELS
+
+There are 10 levels in Operation Logic Bomb™ . In
+some instances, you will need to go back and forth
+between levels using the Particle Transporters.
+
+Levels 1-4
+
+The first four levels are different areas of the
+Subspace Particle Transfer Project Lab. Destroy the
+enemies that enter the Lab through the subspace
+fields, then take out the subspace generators
+themselves. Look for two additional weapons as you
+explore the area — you'll need them to destroy the
+four Bosses that are guarding the Lab.
+
+Level 5
+
+This level takes you outside of the Lab to the
+surrounding terrain, which the subspace intruders
+have already invaded. Destroy your enemies to
+eliminate the subspace fields that block your path.
+
+19
+
+===== Page 11 =====
+
+Sets
+
+et
+
+Levels 6-9
+
+These four levels somewhat resemble the Lab, but
+there’s something different about them...as a result of
+your exposure to the subspace particle waves, you've
+entered another dimension. Fortunately, your
+weapons still work! Collect three more on these
+levels, including the two special weapons. Watch out
+for the Bosses — you'll need to defeat more than one,
+and there’s no telling where they'll show up!
+
+Level 10
+
+In this level, you actually enter the subspace, so be
+prepared — anything can happen! Destroy the big
+Boss at the end of the level to free the Lab and rescue
+the scientists...then leave in triumph!
+
+WEAPONS
+
+You begin the game with two weapons. You may
+collect up to five additional weapons at various
+locations, for a total of seven. Each weapon is
+described below.
+
+20
+
+soa
+
+i
+a.
+oe
+
+Regular Weapons
+
+Use the A Button to cycle through the available
+weapons. The current weapon appears in a box in
+the lower right corner of the screen. Press the B
+Button to fire the current regular weapon.
+
+SSLG-R4 (Single Shot Laser Gun - Release 4)
+This weapon is provided at the beginning of the game.
+It provides a straight, rapid-fire shot.
+
+TSLG-R2 (Triple Shot Laser Gun - Release 2)
+
+This weapon is also provided at the beginning of the
+game. It has a slower rate of fire than the Single Shot
+Laser Gun, but covers a wider range by shooting in
+three directions at once.
+
+RPL-R3 (Reflecting Pulse
+Laser - Release 3)
+
+You will find this weapon
+somewhere in the Lab.
+The laser bounces off
+obstacles, and is useful
+for firing shots indirectly
+Into narrow spaces.
+
+21
+
+===== Page 12 =====
+
+Dorrmenatt:
+oe
+
+FPS-R2 (Ferro-Plasma | Special Weapons
+
+opray - Release 2) Use the X Button to select a special weapon. The
+
+This weapon can be - Current weapon appears in a small box in the lower right
+found in one of the Lab’s corner of the screen, next to the regular weapon box.
+hidden rooms. The Press the Y Button to fire the current special weapon.
+
+Ferro-Plasma Spray
+weapon is similar to a
+flamethower. It covers
+and destroys its target
+with a blast of
+supercharged plasma.
+
+eee a ee
+
+Co Copiacntecusoniveasapiune x
+
+asin PID-R1 (Personal Image
+Duplicator - Release 1)
+This weapon allows you
+to place a holographic
+decoy image of yourself,
+
+which attracts your
+
+Ls ae H
+
+af ae |
+i ba hth Bh ce MER altho Nc HON li Ne in hah ln ah th
+Me ee |
+
+fe et cere el a enn ee
+Reraiitacecdeenitinenssinca exceed
+
+Li
+i
+a
+al
+1
+it
+|
+
+{
+t
+t
+t
+1
+f
+a
+i
+
+ATMP-R5 (Automatic earns enemies and draws them
+Tracking Missile Pod - _. ~~ away from you. The
+Release 5) decoy remains visible for
+
+The ATMP-R5 also is a limited amount of time.
+
+hidden somewhere in the
+Lab, but you may have a
+hard time finding it. This
+weapon seeks out and
+
+destroys any nearby delay mine. A few
+enemy, even if that seconds after you place it,
+
+enemy is around a corner SS the mine explodes in the
+
+or out of the line of fire. direction you were facing
+
+| when you put it down.
+22 23
+
+TDB-Mine (Timed
+Directional Blast Mine)
+This weapon is a time-
+
+===== Page 13 =====
+
+ete Ba Se aie Hite H
+HeLa a Tacs eR eevee ea Te
+
+GAME OVER
+AND CONTINUE
+
+You have four chances to destroy the enemy intruders
+and save the Lab. You begin the game with a limited
+amount of power. When your power runs out, you are
+asked if you want to continue. Press SELECT to
+choose YES or NO. After selecting your answer,
+press START to continue the game. If you answered
+YES, you will keep any weapons or maps you have
+collected, and enemies which you have eliminated will
+not reappear.
+
+24
+
+GAME TIPS — THE JALECO
+MAJOR PLAYER’S HOTLINE
+
+lf there’s something you don't understand
+about your new Jaleco game, or if you’re
+having problems with your Game Pak, or if
+you're just plain stuck, you’re welcome to call
+the Jaleco Major Player’s Hotline between the
+hours of 8:30AM and 5:00PM Central time
+Monday through Friday (except holidays).
+
+One of our friendly game counselors will be
+
+happy to give you tips or help you out with any
+problems you’re having. Here’s the number to
+call:
+
+708-215-2359
+
+Note: Normal telephone charges apply when you call
+the hotline number. It is not a toll-free call. Kids: get
+your parent’s or guardian’s permission to call before
+dialing the Jaleco Major Player's Hotline!
+
+25
+
+===== Page 14 =====
+
+TAKING CARE OF YOUR
+
+JALECO GAME
+
+e This Jaleco Game Pak is a precision-
+crafted device with complex electronic
+
+circuitry. Avoid subjecting it to undue
+shock or extremes of temperature.
+Never attempt to open or dismantle
+the Game Pak. |
+
+e Do not touch the terminal leads or
+allow them to come into contact with
+water or the game circuitry will be
+damaged.
+
+e Always make sure your Super NES
+Control Deck is SWITCHED OFF
+when inserting the Game Pak or
+removing it from the Super NES
+Control Deck.
+
+26
+
+COMPLIANCE WITH FCC REGULATIONS
+
+This equipment generates and uses radio frequency energy and if
+not installed and used properly, that is, in strict accordance with
+the manufacturer’s instructions, may cause interference to radio
+and television reception. It has been type tested and found to
+comply with the limits for a Class B computing device in
+accordance with the specifications in Subpart J of Part 15 of FCC
+Rules, which are designed to provide reasonable protection
+against such interference in a residential installation. If this
+equipment does cause interference to radio or television reception,
+which can be determined by turning the equipment off and on, the
+user is encouraged to try to correct the interference by one or
+more of the following measures:
+
+—  Reorient the receiving antenna
+
+— Relocate the Super NES _ with respect to the receiver
+
+— Movethe SuperNES away from the receiver
+
+— Plug the Super NES _ into a different outlet so that computer
+and receiver are on different circuits.
+
+lf necessary, the user should consult the dealer or an experienced
+radio/television technician for additional suggestions. The user
+may find the following booklet prepared by the Federal
+Communications Commission helpful: How to Identify and
+Resolve Radio/TV Interference Problems. This booklet is
+available from the U. S. Government Printing Office, Washington,
+DC 20402. Stock No. 004-000-00345-4.
+
+27
+
+===== Page 15 =====
+
+28
+
+Se
+
+JALECO LTD. (Tokyo, Japan)
+Y. Kanazawa, President
+
+Product Management
+T. Kaneko,
+H. Nunokawa,
+and all at Jaleco Ltd.
+
+Planning
+T. Omotani,
+T. Kazaana,
+T. Sasahara
+
+Graphics
+G. Watanabe, T. Omotani,
+M. Shimura, G. Watanabe,
+M. Matsuda
+
+Hee i : Hee a
+
+1 ee Gla Si EU a elites
+SES IE sl eg ea
+
+Programming
+Y. Igakura,
+Y. Sakashita
+
+Music
+. Y¥. Suzuki
+
+JALECO USA (Wheeling, IL)
+Shinichi Ikawa, President
+
+Product Management
+Jeff Hill,
+Scott Lawrence
+
+International Coordination
+Masao Ohata,
+Oliver Tang
+
+29
+
+===== Page 16 =====
+
+30
+
+Package Design, Layout, & Copy
+DiDonato Associates Inc.
+(Chicago, IL)
+
+Instruction Manual Writer
+Kate Hunt
+
+Instruction Manual
+Design & Layout
+Jack Nichols
+
+(Jack Nichols Design)
+
+Game Testers (USA)
+Baki Allen,
+Mike Lee,
+Butch O’Malley,
+Joe Sislow
+
+Let’s sing Gather Lilacs While
+Ye May. Yeah, that’s out of copyright.
+
+JALECO® USA INC. LIMITED WARRANTY
+
+Jaleco USA Inc. warrants to the original purchaser of this Jaleco software
+product that the medium on which this computer program is recorded is free
+from defects in materials and workmanship for a period of ninety (90) days
+from the date of purchase. This Jaleco software program is sold “as is,”
+without express or implied warranty of any kind, and Jaleco is not liable for
+any losses or damages of any kind resulting from use of this program.
+Jaleco agrees for a period of ninety (90) days to either repair or replace, at
+its option, free of charge, any Jaleco software product, postage paid, with
+proof of date of purchase, at its Factory Service Center.
+
+This warranty is not applicable to normal wear and tear. This warranty shall
+not be applicable and shall be void if the defect in the Jaleco software
+product has arisen through abuse, unreasonable use, mistreatment, or
+neglect. THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES
+AND NO OTHER REPRESENTATIONS OR CLAIMS OF ANY NATURE
+SHALL BE BINDING ON OR OBLIGATE JALECO. ANY IMPLIED
+WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT,
+INCLUDING WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE, ARE LIMITED TO THE NINETY (90) DAY
+PERIOD DESCRIBED ABOVE. IN NO EVENT WILL JALECO BE LIABLE
+FOR ANY SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+RESULTING FROM POSSESSION, USE, OR MALFUNCTION OF THIS
+JALECO SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an implied warranty lasts
+and/or exclusions or limitations of incidental or consequential damages so
+the above limitations and/or exclusions of liability may not apply to you. This
+warranty gives you specific rights, and you may also have other rights which
+vary from state to state.
+
+JALECO USA INC.
+685 Chaddick Drive e Wheeling, IL 60090 ° 708-215-1811
+
+31

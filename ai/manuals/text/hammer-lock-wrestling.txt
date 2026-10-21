@@ -1,0 +1,902 @@
+# Hammer Lock Wrestling
+source: https://archive.org/details/snes_manual_archive
+pdf: Hammer Lock Wrestling ( USA ).pdf
+region: USA
+pages: 12
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNS-LJ-USA
+
+Watch for new Jaleco video games
+for the Super Nintendo Entertainment System®
+in coming months. And remember,
+Jaleco makes great video games for the
+Nintendo Entertainment System® and the
+Nintendo Game Boy” as well! :
+
+EI ATECO! jj
+
+JALECO USA,INC.
+685 Chaddick Drive
+Wheeling, IL 60090
+
+INSTRUCTION BOOKLET
+
+Jaleco®, the Jaleco Logo, and Hammerlock™ are registered
+trademarks and trademarks, respectively, of Jaleco USA, Inc.
+Nintendo®, Super Nintendo Entertainment System’,
+Nintendo Entertainment System® and Nintendo Game Boy® ‘
+are registered trademarks of Nintendo of America Inc. 1
+© 1994 Jaleco USA, Inc. All rights reserved. Printed in Japan.
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+JALECO™ USA,INC. LIMITED WARRANTY
+
+Jaleco USA, Inc. warrants to the original purchaser of this Jaleco software product that the
+medium on which this computer program is recorded is free from defects in materials and
+workmanship for a period of ninety (90) days from the date of purchase. This Jaleco
+software program is sold “as is” without express or implied warranty of any kind, and Jaleco
+is not liable for any losses or damages of any kind resulting from use of this program. Jaleco
+agrees for a period of ninety (90) days to either repair or replace, at its option, free of
+charge, any Jaleco software product, postage paid, with proof of date of purchase, at its
+Factory Service Center.
+
+This warranty is not applicable to normal wear and tear. This warranty shall not be
+applicable and shall be void if the defect in the Jaleco software product has arisen through
+abuse, unreasonable use, mistreatment, or neglect. THIS WARRANTY IS IN LIEU OF ALL
+OTHER WARRANTIES AND NO OTHER REPRESENTATIONS OR CLAIMS OF ANY
+NATURE SHALL BE BINDING ON OR OBLIGATE JALECO. ANY IMPLIED
+WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT, INCLUDING
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE, ARE LIMITED TO THE NINETY (90) DAY PERIOD DESCRIBED ABOVE.IN
+NO EVENT WILL JALECO BE LIABLE FOR ANY SPECIAL, INCIDENTAL, OR
+CONSEQUENTIAL DAMAGES RESULTING FROM POSSESSION, USE, OR
+MALFUNCTION OF THIS JALECO SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an implied warranty lasts and/or
+exclusions or limitations of incidental or consequential damages so the above limitations
+and/or exclusions of liability may not apply to you. This warranty gives you specific rights,
+and you may also have other rights which vary from state to state.
+
+Jaleco ™ is a trademark of Jaleco USA, Inc. Hammerlock ™ & © 1994 Jaleco USA.Inc, All rights reserved.
+
+"Official
+
+( Ginends))
+
+Seal of Quality
+
+JALECO
+
+HIS OFFICIAL SEAL IS YOUF
+LICENSED BY ASsunance THAT NIN NINTENDO HAS
+
+PRODUCT ALWAYS LOOK FOR THIS
+LAYS Hl
+Nint SEAL WHEN BUYING GAMES AND
+
+COMPATIBILITY WITH YOUR SUPE JALECO USA.INC.
+
+RUERARMEN SS oe MUTE ROOTS Wiese tinge 60090
+AND THE UCENS BY BALE POR Gee ONLY. linoi:
+REGISTERED TRADEMARKS OF WIHGTRER AUTHORIZED PRODUCTS Wheel ns ape ee
+
+10 OF AMER! BEARING THE OFFICIAL NINTENDO (708) 215-1811
+Ps ete TOVTENDO OFA AHICA’ INC. ‘SEAL OF QUALI
+
+TABLE OF CONTENTS
+
+Introduction
+
+Object of the Game
+
+Getting Started
+
+Options
+
+Passwords
+
+Controller Functions
+
+Specific Moves for Each Wrestler
+Game Tips
+
+Taking Care of Your Jaleco Game
+
+10
+
+12
+
+18
+
+===== Page 3 =====
+
+INTRODUCTION
+
+Most video game manuals have a wordy introduction
+that tries to psyche the player up for the game. Just
+between you and us, these introductions are actually
+written so that neat, slick sales points can be pulled
+out and used on brochures and boxes. But this is
+Hammerlock. We're not gonna try and polish up
+your ego to play our game. Heck, if you didn't
+wanna play this game, you wouldn't even be reading
+this at all. We know how few people actually read
+manuals anyway.
+
+This is a wrestling game, not a commercial. You don't
+wanna read, you wanna drive people's faces into the
+mat. You wanna pin their backs for a three count.
+You wanna fly off the top rope and knock people
+
+into next week. You wanna win the belt and call
+yourself champion.
+
+So enough words. This game isn't about words. It's
+about speed, power, and finesse. Oh, and it’s about
+showing off, too. So have fun, and don't take it too
+seriously; it's only a game.
+
+ZAZAAMENSSS:\
+
+OBJECT OF THE GAME
+
+The object of the game?!? What is this? The object of
+the game, any game, is to win. Sure, you can have fun
+trying, but winning is so much better.
+
+Ah, but how to win? That's the question. There are
+many modes in Hammerlock. You can win against your
+friends (up to 11 of them, four players at once!), you can
+win against the computer, you can win with a tag team
+partner, or you can win by yourself. There are many
+ways to win.
+
+There are also many ways to lose. Actually, there are
+three ways to lose. You can lose a wrestling match by
+pinfall, by submission, or by count out. A pinfall is when
+a wrestler's shoulders (both shoulders) are pressed to
+the mat for a count of three. A submission is when a
+wrestler gives up a match, usually during a painful move
+or hold. And a count out is when a wrestler (or both
+wrestlers) are outside the ring for a count of 20. A draw
+is called when neither player loses before the time
+expires. In matches with no time limit, the only way the
+match ends is with a winner, so you'd better be ready!
+
+If you are one of the honored who own a Multiplayer
+Adapter, you can wrestle with up to four of your friends.
+If you don't have one, go get one! They’re cool!
+
+Now you know the glories and the perils of the trials
+ahead. Let's hope you're ready.
+
+_ZALAMENSSS
+
+===== Page 4 =====
+
+GETTING STARTED
+
+We know you all know how to do this, but:
+
+1. Place the Hammerlock cartridge into your Super
+NES and turn on the unit
+
+2. The Jaleco screen will appear, followed by the
+title screen
+
+3. Press START to select to start a new game or
+continue with a password.
+
+SELECT MODE
+
+This section explains the options for a new game.
+If you have a password to enter, see the section
+on Passwords.
+
+There are four different modes that the player can
+choose from the options screen pictured below
+
+Use the control pad to
+move up and down through
+the mode options. To
+CHAMPION LE select a mode, press the
+
+TOURNAMENT HATCH A, B, or START button.
+If you made a mistake,
+press the ¥ button to
+back up a step.
+
++TGAME MODE SELEGT-—,
+
+EXHIBITION MATCH
+
+OP RANKING MATCH
+
+FAAMEWNSSS
+
+The four modes are as follows:
+
+Exhibition Match
+
+In this mode, you play one match with up to 4 human
+players. Any type of match can be played as an
+exhibition match. You can wrestle one on one, or as a
+tag team. If you are playing a tag team, you can play with
+one, two, or four human players.
+
+These matches are one fall only. After the match is
+over, you have the option to try again. If you choose
+‘yes’, you will play an identical match, but you will be
+able to choose new characters. If you choose ‘no’, you
+will return to the title screen. You can continue as many
+times as you like.
+
+Champion League Match
+
+In this mode, up to six players
+can compete in a league for the
+most overall points. The match
+table ensures that every player
+wrestles every other player and
+records who won the match and
+how.
+
+You will receive different scores
+depending on the outcome of
+your match. A pin ora
+submission earns 5 points, a ring
+out earns 3 points, a draw earns
+
+===== Page 5 =====
+
+/
+
+2 points and a loss earns 0 points. After the league
+has been played out, the final results are displayed on
+the League Match Result screen.
+
+Tournament Match
+
+TOURNAMENT HAT In Tournament Match Mode
+up to 8 players can compete
+to find out who is the best.
+The Tournament setup is
+displayed on the Tournament
+Match screen.
+
+The tournament is a single bout elimination, this means
+if you lose once, you are out of the tournament. If you
+are playing alone, the computer will give you the option
+to either watch the matches you aren't participating in
+or just to report the winner. There is no time limit in
+tournament matches. There MUST be a winner.
+
+After you fight your match, you may be given the
+option “Do you watch a game?” This question is
+asking if you would like to watch a match that is fought
+by computer wrestlers. If you answer yes, you must
+watch the entire match. If you answer no, the winner of
+the match will be displayed.
+
+ZAAMENSSS.
+
+Top Ranking Match
+
+In the Top Ranking Match mode you wrestle through
+all the characters in the game in an attempt to become
+champion. As you progress your opponents will get
+progressively harder.
+
+After Match Screen
+
+After you play a match, a
+screen is displayed showing
+the winner and loser of the
+match. In the middle of the
+screen is the time the match
+took (if it had a time limit), and
+the move that won the match.
+
+LALA MERNSSS
+
+===== Page 6 =====
+
+OPTIONS
+Options Screen
+
+Before each match, you are given options to select for
+the mode of game you want to play.
+
+Each mode has different
+options that you can select. To
+scroll through the options,
+press LEFT and RIGHT on
+the control pad. To select an
+option, press A, B, or
+START button. To go back
+a step (except the last option, once you choose that,
+you exit the screen), press the Y button.
+
+CHPMPION LERGUE SAICH
+
+Here is a list of the options and what they do.
+After each explanation is the list of modes that use
+the option:
+
+Number of Players - Select the number of human
+players in the game mode you selected (can be up to 8
+human players). This option is for Champion League
+and Tournament matches only.
+
+Single Tag - Selects whether the match is a one-on-
+one match, (single) or a tag team match (tag). All
+modes have this option.
+
+CAAMEWNSSS
+
+Human/Computer Match Up - Selects which
+players are human and which are computer (For
+example, if you play a tag match, and you have two
+human players, you can play 1p and com vs. 2p and
+com, or 1p and 2p vs. com and com, etc...you get the
+picture). All modes have this option.
+
+Time Limit - Selects the time limit for the match. This
+option is for exhibition and Champion League matches
+only. Tournament and Top Ranking matches have no
+time limit.
+
+Difficulty Level - Selects how hard the computer
+wrestlers will be. Level 1 is the easiest and level 4 is
+the hardest. All modes have this option.
+
+PASSWORDS
+
+After you lose a match in a Top
+Ranking match, a password is
+displayed on the screen. Use
+the control pad to select a
+letter, and press the A or B
+buttons to select a letter.
+
+ENTER PASSWORD
+
+The Y button will erase the last letter selected, or it
+will let you exit the password screen and go back to
+the game mode select screen.
+
+AACA MERNSSS
+
+===== Page 7 =====
+
+CONTROLLER FUNCTIONS
+
+Left Button | Right Button
+
+Select Button | ¥ Button
+Start Button
+
+Each wrestler has basically the same controls. Below
+is a list of the generic moves for a wrestler. The moves
+in italics are moves that each wrestler will have his
+own move for. After the generic controls is a listing of
+the specific moves for each wrestler.
+
+For example, every wrestler has a Special Attack by
+hitting the A button while standing. Baron Kaiser's
+Special Attack is a clothesline. To do Baron Kaiser's
+Special Attack the player would hit the A button
+while standing near his opponent. Now, on with the
+moves.
+
+Note: When the arrows are used, @, #, 3, or =), it
+means directions on the control pad. All button
+controls (A,B,X,Y,R,L,START, & SELECT) are in
+BOLD type.
+
+ZALAMERNSSS.
+
+While Standing
+
+A- Special Attack B & © or © (towards ropes)-
+B- Kick Climb on tu buckle
+
+X - Dash (Run) B & © or “> (towards ropes) -
+Y - Punch Enter / Exit Ring
+
+Y & “or © (towards Tag partner) - Tag in / out
+
+The control pad is used to move the wrestler around
+the ring. To grapple with a wrestler, you should move
+into the other wrestler.
+
+While Grappling
+A- Grapple Move 1
+
+B - Body Slam
+
+Y & Sor - Irish Whip
+B & ¢- Grapple Move 2
+
+A & or © Grapple Move 3
+B & “or © Grapple Move 4
+A& %- Grapple Move 5
+
+Note: Hitting any button rapidly will do one of two
+things: 1) Get your wrestler up off the mat more
+quickly, or 2) get your wrestler out of a submission
+hold.
+
+When Opponent is Down
+
+- Drop / Submission move
+- Pin (Body Lock)
+- Dash (Run)
+
+- Pick up wrestler (if standing near head of wrestler on mat)
+
+<x<Op
+
+While Running
+B - Dash Attack
+
+While On Top Rope
+B - Flying Attack
+
+AA MENSSS
+
+===== Page 8 =====
+
+§| Here are the specific moves for each wrestler.
+Oga Prime
+
+Punch Front slap
+
+Kick Low kick
+
+Special Attack — Cross Chop
+
+Grapple Move 1 Abdominal Stretch
+(Submission move)
+
+Grapple Move 2 |nverted Suplex
+
+Grapple Move 3 Power Bomb
+
+Grapple Move 4 DDT
+
+Grapple Move 5 Power Bomb Pin
+
+Drop/Submission moves-
+A button near feet of opponent-
+
+Double Underhook Lock (Submission move)
+
+A button near head of opponent:
+
+Boot to the Head (Submission move)
+
+Dash Attack Clothesline
+Flying Attack Flying Elbow Drop
+
+Other Moves
+While Standing: A & <- or -> - Jump Kick to Head
+
+> Baron Kaiser
+7
+> Punch Baron Blow
+| Kick Low kick
+
+Special Attack Drop Kick
+Grapple Move 1 — Short Clothesline
+Grapple Move 2 _ |nverted Suplex
+Grapple Move 3 Power Bomb
+Grapple Move 4 DDT
+
+Grapple Move 5 Not Used
+
+Drop/Submission moves-
+
+A button near feet of opponent- Elbow Drop
+
+A button near head of opponent-
+Sleeper Hold (Submission move)
+Dash Attack Clothesline
+Flying Attack Flying Elbow Drop
+
+ZZLAMENSSS.
+
+Grapple Move 1
+Grapple Move 2
+Grapple Move 3
+Grapple Move 4
+Grapple Move 5
+
+Dash Attack
+Flying Attack
+
+Punch
+
+Kick
+
+Special Attack
+Grapple Move 1
+Grapple Move 2
+Grapple Move 3
+Grapple Move 4
+Grapple Move 5
+
+Dash Attack
+Flying Attack
+
+A Sam Warhammer
+Punch Hammer Blow
+
+Kick Low kick
+
+Special Attack Warhammer Smash
+
+Bear Hug (Submission move)
+Inverted Suplex
+
+Back Breaker
+
+Suplex
+
+Pile Driver
+
+Drop/Submission moves-
+
+A button near feet of opponent-
+Elbow Drop
+
+A button near head of opponent
+Wrist Lock (Submission move)
+Forearm Smash
+
+Flying Leg Drop
+
+Selvis Takito
+
+Selvis Jab
+
+Low kick
+
+Wheel Kick
+
+Bear Hug (Submission move)
+Inverted Suplex
+
+Suplex
+
+DDT
+
+Power Bomb Pin
+
+Drop/Submission moves-
+While near opponent- Leg Drop
+
+Running Wheel Kick
+Flying Leg Drop
+
+AEAMENSSS
+
+===== Page 9 =====
+
+Ace Wagata
+
+Punch Ace “In Your Face”
+Kick Low kick
+Special Attack Drop Kick
+
+Grapple Move 1
+Grapple Move 2
+
+Viper Twist (Submission move)
+Chicken Wing Suplex
+
+Grapple Move 3 Suplex Pin
+Grapple Move 4 Double Underhook Suplex
+Grapple Move 5 —_Not Used
+
+Drop/Submission moves-
+
+While near opponent:
+
+Sleeper Hold (Submission move)
+Flying Knee
+
+Flying Elbow
+
+Dash Attack
+Flying Attack
+
+Spud Marmoset
+
+Punch Marmoset Smash
+Kick Middle Kick
+Special Attack Spinning Back Kick
+
+Grapple Move 1 Forearm Smash
+Grapple Move 2 _|nverted Suplex
+Grapple Move 3 Double Underhook Bomb
+Grapple Move 4 = Suplex
+
+Grapple Move 5 —_Not Used
+
+Drop/Submission moves-
+
+While near opponent - Elbow Drop
+Flying Clothesline
+
+Flying Elbow
+
+Dash Attack
+Flying Attack
+
+ZLAMEWNSSS:\
+
+| Sid Bieniek
+
+Punch Sid Special
+Kick Low Kick
+Special Attack Sid's Spinning Backfist
+
+Grapple Move 1
+Grapple Move 2
+
+Sid's Sleeper Hold (Submission move)
+Inverted Suplex
+
+Grapple Move 3 = Sid's Suplex
+Grapple Move 4 _— Sid's Head Smash
+Grapple Move 5 Not Used
+
+Drop/Submission moves-
+
+While near opponent - Elbow Drop
+Sid's Shoulder Block
+
+Sid's Flying Elbow Gift
+
+Dash Attack
+Flying Attack
+
+Great Max
+
+Punch Max Smash
+
+Kick Low Kick
+
+Special Attack ~ Jumping Roundhouse
+
+Grapple Move 1 Foreign Object (Submission move)
+Grapple Move 2 __Belly-to-Belly Suplex
+
+Grapple Move 3. German Suplex Pin
+Grapple Move 4 = Suplex
+Grapple Move 5 Not Used
+
+Drop/Submission moves-
+
+While near opponent- Wrist Lock
+Running Forearm
+
+Flying Knee Drop / Flying Elbow Drop
+
+Dash Attack
+Flying Attack
+
+ZEA MERARSSs
+
+===== Page 10 =====
+
+Alpha Bozak
+
+Punch “Alpha Beta Ooh Ahh” Punch
+Kick Low Kick
+Special Attack Drop Kick
+
+Grapple Move 1 Power Slam
+Grapple Move 2 __|nverted Suplex
+Grapple Move 3 — Suplex
+Grapple Move 4 ODT
+
+Grapple Move 5 Not Used
+
+Drop/Submission moves-
+
+While near opponent-
+
+Sleeper Hold (Submission move)
+Diving Clothesline
+
+Flying Knee Drop
+
+Dash Attack
+Flying Attack
+
+&
+
+Ivan Destra
+
+Punch “Ivan the Terrible” Blow
+Kick Low Kick
+Special Attack Head Butt
+
+Grapple Move 1
+Grapple Move 2
+
+Bear Hug (Submission Move)
+Inverted Suplex
+
+Grapple Move 3 Pile Driver
+Grapple Move 4 Power Bomb
+Grapple Move 5 Not Used
+
+Drop/Submission moves-
+
+A button near feet of opponent - Crush Elbow
+A button near head of opponent -
+
+Sleeper Hold (Submission Move)
+
+Clothesline
+
+Flying Hip Smash
+
+Dash Attack
+Flying Attack
+
+a Mondo Fundi
+= |
+Punch Socko Mondo
+Kick Low Kick
+Special Attack Sumo Smash
+
+Grapple Move 1 Sleeper Hold (Submission move)
+Grapple Move 2 _ ‘nverted Suplex
+
+Grapple Move 3 Suplex
+
+Grapple Move 4 Power Slam
+
+Grapple Move 5 Not Used
+
+Drop/Submission moves-
+
+A button while near opponent - Sumo Press
+Shoulder Block
+
+Flying Sumo Press
+
+Dash Attack
+Flying Attack
+
+Moe Fudo
+Punch Death Touch
+Kick Middle Kick
+Special Attack Head Boot
+
+Hammerlock (Submission move)
+Belly-to-Belly Suplex
+
+German Suplex Pin
+
+Back Breaker
+
+Not Used
+
+Drop/Submission moves-
+
+While near opponent
+
+Wrist Lock (Submission move)
+Shoulder Block
+
+Moon Assault Press
+
+Grapple Move 1
+Grapple Move 2
+Grapple Move 3
+Grapple Move 4
+Grapple Move 5
+
+Dash Attack
+Flying Attack
+
+ZAAMENSSS\
+
+AAAMENSSS
+
+===== Page 11 =====
+
+BASIC HINTS FOR SUCCESS
+
+¢ The moves that do more damage can't be done
+instantly. Start with punches and kicks before
+grappling. Then, soften an opponent up with Irish
+Whip moves off the ropes and / or body slams. The
+high damage moves are also high risk of failing, so
+be careful.
+
+¢ When playing a Tag match, be sure to tag in and out
+to control your opponents and keep him off balance.
+And a long rest can mean a fresh partner.
+
+e Even if a wrestler won't submit, submission moves
+are good to wear a wrestler down for more powerful
+moves. When trying to do a special move don't
+hammer on the buttons, timing is much more
+important. See if you can find out when is the best
+time to press a button to get a move. Practice
+makes perfect.
+
+* Most of all, keep trying! This game is not easy, so
+don't feel badly if you lose a few matches.
+You'll learn.
+
+ZALAMENSSS.\
+
+TAKING CARE OF YOUR
+JALECO GAME
+
+This Jaleco Game Pak is a precision-crafted device
+with complex electronic circuitry. Avoid subjecting it
+to undue shock or extremes of temperature. Never
+attempt to open or dismantle the Game Pak.
+
+Do not touch the terminal leads or allow them to
+come into contact with water or the game circuitry
+will be damaged.
+
+Always make sure your Super NES Control Deck is
+SWITCHED OFF when inserting the Game Pak or
+removing it from the Super NES Control Deck.
+
+_LAAMENSDSs
+
+===== Page 12 =====
+
+NOTES CREDITS
+
+Jaleco Ltd., Tokyo
+Game Design Mr. Arai
+Product Management Mr. Nunokawa
+
+Jaleco USA, Wheeling
+Vice President of Consumer Products Masao Ohata
+
+Product Management Michael Hardt
+
+Gus Peterson
+
+Joe Sislow
+International Coordination Oliver Tang
+Quality Assurance Gus Peterson
+
+Joe Sislow
+Manual, Wrestling Consulting,
+and Sartrian Effort Joe “Fnord” Sislow
+Rookie Logic Gus Peterson
+
+Package and Manual Design,
+Layout and Patience The Ad Agency
+
+Wardrobe The Alley
+
+"...if you drink much from a bottle marked ‘poison’, it is almost
+certain to disagree with you, sooner or later.”
+
+SAAMENDSS. “AAAMENSS

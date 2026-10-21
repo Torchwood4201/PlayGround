@@ -1,0 +1,403 @@
+# Sparkster
+source: https://archive.org/details/snes_manual_archive
+pdf: Sparkster ( PAL ).pdf
+region: PAL
+pages: 14
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-ASSP-EUR
+
+INSTRUCTION BOOKLET
+
+™
+
+===== Page 2 =====
+
+Sparkster Story
+
+Sparkster earned his reputation among the knights of the world as their most able fighter
+when he destroyed the spaceship “Pig Star’, the incarnation of evil. People have since
+passed down the story of the valiant Sparkster from generation to generation as the Legend
+of the Rocket Knights.
+
+A few years after that momentous battle, the Wolf Army, lead by Master Lyoness, carried out
+a coup d’etat in the mechanically advanced kingdom of Eginasem. King Eginasemu had a
+pendant which had been passed down through the generations and that was believed to
+possess the power to preserve peace. He entrusted this pendant to Princess Flora and sent
+her away from the embattled castle.
+
+As these events took place, Sparkster was training and studying day and night, developing
+new techniques, and growing into an even more powerful Rocket Knight.
+
+Sparkster has departed on his journey to prevent the Wolf Army from conquering the world
+and to rescue Princess Flora.
+
+Expansion. Gage... 5
+Stain se (a ns ss 6
+a SS ae ee 7
+Passwor, = sissies 8
+Butlon Operates... 2.2... tstsi‘“‘«‘C;CS 9
+SoarksterQperanoms ...............-.--...... 10
+ona See... tiztit«js“t=ttCtCw---s-----::- 12
+Stampey-Do and Powered Gear Operations ....... 13
+NOWIS 2. ae ee 14
+Cia ——“‘<i‘“‘CO™OC™OSCS™C™CSC*C*C*C*C*C#*C*C*C*CO#C(C(#C®C*#C*C*;C*#*C::-; 15
+
+===== Page 3 =====
+
+Explanation of Game
+
+This game pits the legendary Rocket Knight Sparkster against the Wolf Army that would
+conquer the world. Our hero’s mission is to save Princess Flora.
+
+* This is a single-player game. There are three Sparkster units at the start of the game.
+
+¢ Game Screens
+
+¢ There are a total of nine stages with a Boss at the end of every stage. Defeat the Boss to
+clear each stage.
+
+¢ The opposing army and diverse traps stand in Sparkster’s way. Use sword attacks (Y
+button), jumps (B button) and rocket attacks (Y button depressed) to stay out of their way.
+
+¢ Sparkster is damaged when he runs into Wolf soldiers, takes a bullet hit or is hit by a trap.
+The hearts of the Life gauge at the upper right of the screen decrease as Sparkster is
+damaged. When the Life gauge is completely empty, that Sparkster is out. The game ends
+when there are no remaining Sparksters.
+
+¢ When there are no remaining Sparksters, a password is displayed. Since you will need to
+input this password later to continue play, write it down so that you won't forget it.
+
+¢ Once the game has ended, the Continue screen appears. Select YES if you want to
+continue play from the beginning of the stage at which the game ended. The number of
+Continue screens available to you varies with the difficulty level of the game.
+
+EASY (DIGEST): 2
+NORMAL: ]
+HARD: 5
+
+e Each stage contains such items as jewels, apples and bananas. You can gain Sparksters
+and restore life by taking these items.
+
+===== Page 4 =====
+
+Starting the Game
+
+The Controller
+L button R button
+
+y button X button
+- A button
+
+B button
+
+Control Pad
+
+SELECT button START button
+
+Game Start
+
+To start the game, insert the Game Pak into your Super Nintendo Entertainment System and
+switch the power ON. The demo screen will appear followed by the Title screen.
+
+START: Starts the game.
+SET UP: Changes game and Controller settings.
+PASSWORD: Continues game play when input.
+
+1. In the Title screen, press the Control Pad up/down to move the cursor to START, then
+press the START button to launch the game.
+
+===== Page 5 =====
+
+SET UP
+
+In the Set Up screen, you can change game settings and the button configurations of the
+Controller.
+
+1. In the Title screen, press the Control Pad up/down to move the cursor to SET UP, then
+press the START button to go to the Set Up screen.
+
+2. Press the Control Pad up/down to select items and left/ right to change the content of the
+settings.
+
+- SET UP
+
+NORMAL.
+
+Track ¥ ir
+
+SUE - Bike ==
+ROLLING,
+ROWE EEG,
+
+* STEREO-
+
+Content of Set Up Screen
+Initial Settings
+
+LEVEL: NORMAL EASY, HARD
+
+ATTACK: Y button
+
+JUMP: B button
+
+ROLLING R: R button
+
+ROLLING L: L button
+
+SOUND: STEREO You can set the sound to stereo or monaural.
+
+3. When you’ve completed your settings, press the START button to return to the Title
+screen.
+
+===== Page 6 =====
+
+PASSWORD
+
+The password is displayed in the Items Panel. Inputting the password allows you to continue
+game play from the stage where you were last defeated.
+
+Password
+
+1. Password is displayed in the Continue screen.
+2. Write out the password on a piece of paper. Select YES when you want to continue as you
+are and NO when you want to stop and pick up play later.
+
+CONTINUE?
+
+Inputting a Password
+
+1. In the Title screen, press the Control Pad up/down to move the cursor to PASSWORD,
+then press the START button to go to the Password screen.
+
+2. Use the Control Pad to operate Sparkster and input your password. You can use sword
+attacks (Y button), rolling attacks (L, R buttons) or rocket attacks (Y button depressed) to
+go from panel to panel to input the password.
+
+3. When you finish inputting the password, go to the exit at the bottom right of the screen.
+
+4. If you have input the correct password, the game will pick up from where you previously
+ended play. If you have input the password incorrectly, a buzzer will sound and the Title
+screen will return to let you input the correct password.
+
+===== Page 7 =====
+
+BUTTON OPERATIONS |
+
+These are the basic button operations (initial settings) used during game play.
+
+Look up
+
+Left Right
+
+Y button: Normal attack
+
+Y button + Control Pad
+
+down: Squatting attack
+B button: Jump (dangling)
+
+Y button held down: Rocket
+
+attack B button + Control Pad
+
+down: Jump down (not
+dangling)
+
+L button: Left rolling attack (ie ey R button: Right rolling attack
+
+SELECT button: Not used } 1 START button: Pause (press
+: again to cancel pause)
+
+===== Page 8 =====
+
+Sparkster Operations
+
+These are Sparkster’s basic movements and attacks.
+
+Look up (down):
+Walk:
+
+Squat and walk:
+
+Sword attack:
+
+Jump (dangling):
+
+Rolling attack:
+
+When Sparkster jumps in places occupied by trees
+and other similar objects, he suspends himself by
+his tail. Even from this position, he can use sword
+attacks, jump and use rolling attacks.
+
+10
+
+Control Pad up/down from a stopped position
+
+Control Pad left/right
+
+Control Pad left and down or right and down
+simultaneously to walk diagonally in a squat
+position.
+
+Y button
+
+Since a shock wave emanates from the sword, you can
+attack enemies even from a distance.
+
+B button
+
+Sparkster uses his tail to suspend himself from trees and
+other objects when jumping.
+
+L button (left), R button (right)
+
+Cut with the sword while rolling forward. Although a very
+useful technique, if you overuse it, Sparkster loses his
+balance.
+
+===== Page 9 =====
+
+Sparkster Operations
+
+When you keep the Y button held down, the Energy gauge at the upper right of the screen
+will flicker, charging Sparkster’s energy. Release the Y button to launch the rocket attack.
+
+Rocket jump:
+
+Spinning slash:
+
+Rocket attack:
+
+When Sparkster jumps in places occupied by trees
+and other similar objects, he suspends himself by
+his tail. Even from this position, he can use rocket
+jumps, spinning slashes and rolling attacks.
+
+Hold down the Y button, press the Control Pad up,
+left and up, or right and up (for diagonal direc-
+tions), then release the Y button.
+
+Use the rocket jump to reach higher places you can’t reach
+by normal jumping. You can also jump into mid-air. If you
+lose your balance while in air, press the L or R button to
+regain your balance.
+
+Hold down the Y button, press the Control Pad
+down and release the Y button.
+
+You will rotate rapidly while swinging your sword.
+
+Hold down the Y button, press the Control Pad left
+and right and release the Y button.
+
+You will tackle the enemy at high speed. Press the Lor R
+button to put the emergency brake on your tackle.
+
+===== Page 10 =====
+
+UPRIGHT SHOOTING
+
+In the shooting stage, Sparkster shoots down his enemies.
+
+Sparkster _
+Movement: Control Pad up, down, left and right
+Vulcan Gun: B button
+Shooting: Y button
+Rolling: L and R buttons
+
+12
+
+===== Page 11 =====
+
+STAMPEDE and POWERED GEAK OPERATIONS
+
+These are used when riding Stampede or Powered Gear.
+
+Tip toe or squat:
+Left and right movement:
+
+Ring laser:
+
+Forward and backward fall:
+
+Control Pad up or down, respectively
+Control Pad left or right, respectively
+
+Y button
+
+L or R button, respectively
+
+Even when riding Stampey-Do, you can jump, rocket jump and spin slash just as with normal
+
+operations.
+
+Movement:
+Punch:
+Guard:
+Shoot:
+
+Powered Gear rocket attack:
+
+Control Pad up, down, eft and right
+L and R buttons
+
+L and R buttons at the same time
+
+Y button
+
+Hold down the Y button, press the Control Pad
+in the desired direction and release the Y
+button.
+
+13
+
+===== Page 12 =====
+
+Items
+
+Restores one half of a heart in the Life
+
+gauge.
+Restores a few hearts. Restores many hearts.
+Adds one Sparkster. Adds two Sparksters.
+Adds three Sparksters. Usually adds one Sparkster. When
+
+Sparkster is slashing with his sword, it
+becomes like a roulette wheel. You get the
+item it happens to stop on.
+
+14
+
+===== Page 13 =====
+
+CHARACTERS
+
+Princess Flora
+
+Colonel Wolfheim
+
+Axle Gear
+
+15
+
+===== Page 14 =====
+
+DISTRIBUTED BY KONAMI UK LTD.
+KONAMI HOUSE, 54a COWLEY MILL ROAD, UXBRIDGE, MIDDLESEX UB8 2QE
+DISTRIBUTED BY KONAMI (DEUTSCHLAND) GMBH
+POSTFACH 56 01 80, 60406 FRANKFURT
+SPARKSTER™ IS A TRADEMARK OF KONAMI CO.,LTD.
+KONAMI® IS A REGISTERED TRADEMARK OF KONAMI CO.,LTD.
+©1994 KONAMI ALL RIGHTS RESERVED.
+
+KONAMI.
+
+PRINTED IN JAPAN
+IMPRIME AU JAPON

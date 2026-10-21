@@ -1,0 +1,959 @@
+# Nolan Ryan Baseball
+source: https://archive.org/details/snes_manual_archive
+pdf: Nolan Ryan Baseball ( USA ).pdf
+region: USA
+pages: 18
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+comsuaas pronors Division
+22857 Lockness Avenue, Torrance, CA 90501
+(213) 930-5283 - Fax (213) 539-3626
+
+PRINTED IN JAPAN i = SUPER AiNTAAOO |
+
+===== Page 2 =====
+
+a ameeae™
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION & PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO” HARDWARE SYSTEM OR ¢ AME PAK.
+
+—
+
+ROMSTAR’
+
+ROMSTAR AND NOLAN RYAN BASEBALL ARE
+TRADEMARKS OF ROMSTAR, INCORPORATED
+(E1981 ROMSTAR, INCORPORATED.
+
+NINTENDO, SUPER NINTENDO.
+
+ENTERTAINMENT SYSTEM AND
+
+‘THE OFFICIAL SEALS ARE
+
+REGISTERED TRADEMARKS OF
+IINTENOO OF AMERICA ING.
+
+151901 NINTENDO OF AMERICA INC
+
+Thank you for purchasing Nolan Ryan's Baseball. Please read
+the instruction booklet before you begin to play. Keep this
+instruction booklet for future reference.
+
+TABLE OF CONTENTS
+
+10
+42
+13
+
+15
+18
+19
+
+24
+25
+26
+29
+31
+
+33
+
+Nolan Ryan’s Baseball
+the story behind our game
+
+Getting Started
+
+Game Modes
+Pennant Continue
+Pennant Setup
+
+Single Game
+
+Player Setup
+
+Create Players
+
+Power Setup
+
+Game Controls
+Special Modes
+Playing the Game
+The Play Screen
+
+The Game of Baseball
+Warranty Information
+Repair Information
+Player Support
+
+===== Page 3 =====
+
+NOLAN RYAN’S BASEBALL
+The Story Behind Our Game
+
+Nolan Ryan, the living legend of baseball, is bringing the
+All-Star Game to your own hometown! With Nolan Ryan's
+Baseball, you and your family can enjoy America’s favorite
+pastime... the game of baseball.
+
+There are many special features so that you can compete with
+the best. At the same time, the novice player can learn how to
+play better with the “ASSIST” mode.
+
+Nolan Ryan’s Baseball features true-to-life baseball action.
+
+So get your family and friends and... PLAY BALL!
+
+GETTING STARTED
+
+Always make sure the power is off on your Super Nintendo
+Entertainment System before you start. Insert the Nolan
+Ryan's Baseball cartridge into the Super NES. When you turn
+the power on, the name ROMSTAR should appear. The title
+screen will then appear followed by the theme music. If this
+sequence does not occur, check all connections and verify that
+everything works. If problems persist, contact the Romstar
+Consumer Hotline listed in the back of this manual.
+
+Press the START button on the Player 1 Controller to begin the
+game. The Main Menu will appear as follows:
+
+This game contains 2 different game modes, a SINGLE GAME
+and a PENNANT GAME SERIES.
+
+TO PLAY
+
+SINGLE GAME
+
+Select the SINGLE GAME option from the Main Menu. Choose
+IP VS. Computer for a single player game. For a two-player
+game, press IP VS. lIP. Use the JOYPAD to select your team
+and press the START button to lock in your choice. Select
+PLAY GAME to begin. The Game controls will be listed in the
+GAME CONTROLS section of this manual on page 19.
+
+PENNANT GAME
+
+Select the PENNANT CONTINUE option from the Main Menu.
+Choose a team and select the PLAY GAME option to begin.
+
+Note: SINGLE GAME and PENNANT GAME are explained in
+detail later in this manual.
+
+===== Page 4 =====
+
+GAME MODES
+
+PENNANT CONTINUE
+
+This option will begin or continue the PENNANT GAME series.
+Please refer to the PENNANT CONTINUE section of this
+manual on page 7.
+
+PENNANT SETUP
+
+This option will set up the PENNANT GAME series.
+
+Please refer to the PENNANT SETUP section of this manual on
+page 10.
+
+SINGLE GAME
+
+This option will go into the single game mode.
+
+Please refer to the SINGLE GAME section of this manual on
+page 12.
+
+CLEAR MEMORY
+
+This option will clear the battery memory. All players, stats, and
+games in progress will be cleared. Simply select this choice and
+press the Reset button on the Super Nintendo Entertainment
+System.
+
+PENNANT CONTINUE
+
+The PENNANT CONTINUE will display a list of games sched-
+uled for the present day of the Pennant Series and a WATCH
+PENNANT PROGRESS mode. There are 6 scheduled games
+to choose from. Use the JOYPAD to select which game of the
+Series to play and press the A button to lock in your choice.
+
+Selecting a game will go into the PLAY GAME/CHANGE
+LINEUP Menu. Select the PLAY GAME option to begin. Select
+the CHANGE LINEUP option to modify the lineup. If you choose
+to modify the lineup, use the JOYPAD to select the player to
+swap, then press the A button to lock in your choice. Use the
+JOYPAD again to select the second player. Press the A button
+to exchange the players. You may use the B button to stop an
+unwanted selection. Continue to change the lineup by repeating
+the steps above. Press the START button when completed. The
+game will then begin.
+
+The WATCH PENNANT PROGRESS will show the results of
+each of the six games for the day. A menu with the day's stats
+will appear. The menu options are:
+
+===== Page 5 =====
+
+NEXT DAY
+
+This option will advance pennant progress 14 day, and return to
+the Pennant Game menu.
+
+BAT AVG
+
+BAT AVG = Safe Hits / At Bat (based on a minimum of 3.1 plate
+appearances). The batting averages of the top 10 players of
+both leagues will be displayed.
+
+RBI
+
+The RBls (Runs Batted In) of the top 10 players of both leagues
+will be displayed.
+
+ERA
+
+ERA = Earned Runs X 9 / total innings pitched (based on a
+minimum of 1/3 innings). The ERAs (Earned Runs Average) of
+
+the top pitchers of both leagues will be displayed.
+
+so
+
+The SOs (Strike Outs) of the top 40 pitchers of both leagues will
+be displayed.
+
+PCT
+
+The GB column will have a bar displayed if the team is no
+games back. If a second team is no games back with the exact
+same win / loss / tie ratio, a "0.0" will be displayed in the
+column. This option shows league standings. The amount of
+wins, losses, ties, and GBs (Games Back) percentages will be
+displayed.
+
+HR
+The HRs (Home Runs) of the top 10 players will be displayed.
+
+WINS
+
+The WINS (Games Won) of the top 10 pitchers of both leagues
+will be displayed.
+
+STEALS
+The top 10 base stealers of both leagues are displayed.
+
+===== Page 6 =====
+
+PENNANT SETUP
+
+This option will allow the customizing of the Pennant Series.
+The following menu will appear:
+
+DONE
+
+This option will end the PENNANT SETUP menu, and go into
+the PENNANT CONTINUE menu.
+
+PENNANT LENGTH
+
+Use this option to choose the number of days to reach the All
+Star Final. Use the JOYPAD to select the amount desired, then
+press the A button to lock in your choice. Use the START button
+to return to the PENNANT SETUP.
+
+TRADE
+
+This option allows the teams to trade starting lineup players.
+Use the JOYPAD to select 2 Teams. Press the A button to lock
+
+10
+
+in the choices. Press the B button to stop an unwanted selec-
+tion. Use the JOYPAD to select the player to swap and press
+the A button to lock in your choice. Use the JOYPAD to select
+the second player. Press the A button to exchange the players,
+or press the B button to stop an unwanted selection. Atrade
+inside the same team is not allowed. To do so, use the
+CHANGE LINEUP option.
+
+FREE AGENT PICK
+
+Use the JOYPAD and the A button to select the team to trade
+the FREE AGENT into. With the JOYPAD, select the outgoing
+player and press the A button to lock in your choice. Use the B
+button to stop an unwanted selection. With the JOYPAD, select
+the FREE AGENT to trade. Press the A button to trade the
+players.
+
+PASSWORD
+
+This option will allow the use of a team password from previ-
+ously saved games. Please note that 96 characters must be
+used to complete the password. Use the JOYPAD to select the
+character desired for the password. Press the A button to enter
+the character. If you make a mistake, you can use the B button
+to backspace. Press the START button to lock the entire
+password. An invalid password will cause the word ERROR to
+appear near the bottom of the screen and the password
+entering process will begin once again. Press the X and Y
+buttons simultaneously to abort the PASSWORD enter routine.
+
+1
+
+===== Page 7 =====
+
+SINGLE GAME
+
+This selection is used to play a single game. The following
+menu will appear:
+
+IP. VS. COMPUTER
+
+This option will start a single player game versus the computer.
+
+Select the team desired by using the JOYPAD and press the A
+button to lock in your choice. Select PLAY GAME to begin.
+Game controls will be covered in detail in the GAME
+CONTROLS section of the manual.
+
+IP. VS. IIP.
+
+This option will start a1 player versus 2 player simultaneous
+game. Select the teams desired by using the JOYPAD and the
+A button to lock in your choice. Select PLAY GAME to begin.
+
+12
+
+PLAYER SETUP
+
+The IP Setup will customize Player 4's team. IIP Setup will
+customize Player 2's team. For either player setup, the follow-
+ing menu will appear:
+
+DONE
+This option will end the Setup menu and go into the SINGLE
+GAME menu.
+
+CREATE PLAYERS
+
+This option lets the player create a customized team. For more
+information on this option, please refer to the CREATE PLAY-
+ERS section of this manual on page 15.
+
+POWER SETUP
+
+This option lets the player customize the various skills and
+powers of the customized team. For more information on this
+option, please refer to the POWER SETUP section of this
+manual on page 17.
+
+13
+
+===== Page 8 =====
+
+SHiest A
+D) tose FRED
+
+SELECT MANAGER
+
+This option chooses the team’s manager. Use the JOYPAD to
+select the manager. Press the A button to lock in your choice.
+
+CHECK PASSWORD
+This option shows the team’s present password.
+
+ENTER PASSWORD
+
+This option will allow the use of a team password to recall
+previously saved games. Please note that 96 characters must
+be used to complete the password. Use the JOYPAD to select
+the character desired for the password. Press the A button to
+enter the character. Press the B button to backspace over the
+password. An invalid password will cause the word ERROR to
+appear near the bottom, and the password entering process will
+begin once again. Press the X and Y buttons simultaneously to
+abort the password entering routine.
+
+SELECT TEAM
+
+This option selects a starting team to customize or play. Use the
+JOYPAD to select the team desired, then press the A button to
+lock in your choice.
+
+14
+
+CREATE PLAYERS
+Players can be created for a customized team.
+
+Ascreen with the first 9 player names will be presented. (The
+team shown will be the default Team | or Il, unless a team was
+previously selected from the SELECT TEAM option. If this is
+the case, the team selected will be the appearing team). Use
+the L-R paddle controls to flip between the 9 primary and
+alternate players.
+
+The player's name is the first entry. 4 letters are allowed for the
+name. Use the JOYPAD to choose the letter desired, and use
+
+the A button to lock in your choice. Use the right arrow to keep
+the same character as before. To backspace, use the B button.
+
+Select each player's position next. The cursor will go to the bottom
+row of the screen. The letter codes stand for the following:
+
+P Pitcher Ss_ Shortstop
+Cc Catcher Lf Left Fielder
+ib 1st Base Cf Center Fielder
+
+2b 2nd Base Rf Right Fielder
+3b 3rd Base
+
+Use the JOYPAD to select the position desired. Lock in your
+choice using the A button. Please note that a DUPLICATE
+POSITION error will occur if duplicate positions are assigned to
+the primary players.
+
+15
+
+===== Page 9 =====
+
+To choose whether a player bats left or right-handed, look for
+the column with a picture of a baseball bat. Use the JOYPAD to
+select and press the A button to lock in your choice.
+
+To choose whether a player throws left or right-handed, look for
+the column with a picture of a ball. Use the JOYPAD to select,
+
+and the A button to lock in your choice.
+
+When the customizing is done, press the START button to
+return to the menu. Use the POWER SETUP mode to assign
+
+powers to the custom players.
+
+16
+
+POWER SETUP
+
+The custom players can have certain power and skill stats
+customized.
+
+The first 9 primary players will be shown along with 8 power stat
+settings. Use the JOYPAD to select the stat to be modified. Use
+the A button to increase the stat number, and use the B button
+to decrease the stat. Use the L-R paddle to change between the
+primary and secondary players.
+
+Please note that a total of 25 power points can be assigned to
+each player. Good playing or poor playing in the games can
+increase or decrease the power point total for the team player. If
+a team player's power point total is below 25 from poor playing,
+he can regain those power points up to 25 in the POWER
+SETUP mode. The POWER number excess, located below the
+9 players, can be re-assigned to any other team player.
+
+17
+
+===== Page 10 =====
+
+18
+
+The Shoe column stands for the
+RUNNING SPEED power stat. This
+stat can be set from O - 9.
+
+The Ball column stands for the
+THROWING POWER stat. This stat
+can be set from O - 9.
+
+The Bat column stands for the
+BATTING POWER stat. This stat can
+be set from O - 9.
+
+The Heart column stands for
+STAMINA POWER. This stat can be
+set from O - 9.
+
+The following columns apply for the
+pitcher only:
+
+The Arrow Up column stands for
+STRAIGHT FASTBALL POWER. This
+stat can be set from O - 3.
+
+The Left Arrow and Right Arrow
+columns stand for the CURVE BALL
+POWERS. These stats can be set
+from O - 3.
+
+The Fork column applies for the
+FORKED BALL POWER (trick throws
+
+or specialty throws.)
+
+Press the START button when
+completed.
+
+GAME CONTROLS
+
+L Paddle R Paddle
+
+JOYPAD CONTROL
+
+Defense Pitcher
+
+Use the JOYPAD to move the pitcher left and right on the
+mound. After the ball is pitched, control the speed of the
+pitched ball by moving the cursor up or down. To control the
+curve of the ball, move the cursor left or right.
+
+Slow Ball
+Left Curveball
+
+Right Curveball
+
+Fast Ball
+
+19
+
+===== Page 11 =====
+
+Fielders
+
+Use the JOYPAD to move the fielders to catch the ball and
+to select which base to throw the ball.
+
+2nd Base
+
+3rd Base 1st Base
+
+Home Plate
+
+Offense Batter
+Use the JOYPAD to move the batter in the batter's box.
+
+Runners
+Use the JOYPAD to select which direction to run to.
+
+A BUTTON
+
+Defense Pitcher
+Use the A button to pitch the ball.
+
+Fielder
+Use the A Button to throw the ball.
+
+Offense Batter
+
+Use the A button to swing the bat. (NOTE: Tap the A button
+lightly to bunt. Hold the A button for a full swing.)
+
+Runner
+Use the A button and the JOYPAD to direct the runner.
+B BUTTON
+
+Defense Pitcher
+Use the B button and the JOYPAD to get the base stealer.
+
+Fielder
+
+Use the B button and the JOYPAD to direct the fielder, or to
+catch the ball with a jumping catch.
+
+Offense Runner
+
+Use the B button and the JOYPAD to steal or run for an
+extra base. (Ex: If the runner is on 2nd base and you
+want him to steal to 3rd base, press the B button and the
+left cursor of the JOYPAD.)
+
+===== Page 12 =====
+
+SELECT BUTTON
+
+Press the SELECT button before the pitcher throws the pitch.
+The menu will appear as follows:
+
+ZOOM (OFF/ON)
+
+| TEAM (NORMAL / ASSIST / OVERRIDE / WATCH )
+| TEAM (NORMAL / ASSIST / OVERRIDE / WATCH )
+
+Use the JOYPAD to select the item to modify. Press the A
+button to change the setting. Press the START button to return
+to normal game mode.
+
+The zoom show close-up views of select plays. If the Zoom
+mode is not desired, set this option OFF.
+
+22
+
+Each team can play in any of the four modes shown previously.
+The modes are listed below:
+
+NORMAL MODE
+
+This mode is complete manual control. All player actions are
+controlled from the game controllers.
+
+ASSIST MODE
+
+This is an easier mode to help the novice players. This mode
+Plays like the NORMAL MODE, except the computer will assist
+outfielding.
+
+OVERRIDE MODE
+
+In this mode, the computer plays the game as in the WATCH
+MODE, except that the computer's moves can be overridden by
+the controller at any time.
+
+WATCH MODE
+
+This is a computer player. The WATCH MODE's team cannot
+be controlled from the controllers. Setting the opposite team to
+WATCH MODE will pit the player against the computer. Setting
+both teams to WATCH MODE will play the game computer Vs.
+computer.
+
+23
+
+===== Page 13 =====
+
+SPECIAL MODES
+
+TIME OUT
+
+Press the START button before the pitcher throws the next
+pitch. This will cause the umpire to call TIME, and the game is
+halted until the START button is pressed again.
+
+SELECT RELIEF PITCHER
+
+When TIME is called, the pitching team can press the A button
+to call for a relief pitcher. Use the JOYPAD to select the pitcher,
+and the A button to lock in your choice. Press the B button to
+abort the selection.
+
+SELECT PINCH HITTER
+
+When TIME is called, the batting team can press the A button to
+call for a pinch hitter. Use the JOYPAD to select the batter, and
+the A button to lock in your choice. Press the B button to abort
+the selection.
+
+24
+
+PLAYING THE GAME
+
+Refer to the section THE GAME OF BASEBALL for a short
+overview of the rules of baseball.
+
+When the game begins, the visiting team will be up to bat. The
+Player 1 controller will be the home team, and the Player 2
+controller will be the visiting team. If the players wish to
+customize the game modes, or select a pinch hitter or relief
+pitcher, please refer to the GAME CONTROLS section of this
+manual on page 19.
+
+The A button swings the bat for the batting team, and pitches
+the ball for the pitching team. For more information on the
+controls used during the game, please refer to the GAME
+CONTROLS section of this manual on page 19.
+
+An interesting feature of the game is that the size of the player's
+head will grow if his stats are high. For example, if a star player
+is an outfielder, the player's head will be a little larger than that
+of the regular players. This will be a signal that this player is the
+one to throw the ball to. During the LUCKY 7 (7th inning
+stretch), all of the team players will receive full powerup.
+
+===== Page 14 =====
+
+THE PLAY SCREEN
+
+On the play screen, the stats are divided into four areas.
+
+The upper left corner holds the game score and innings. On the
+first line, the first number is the number of the inning being
+played. The letter to the right of the “i” can be a T or B, for Top
+or Bottom of the inning. (The visiting team bats at the top of the
+inning and the home team bats at the bottom of the inning). On
+the second line, the red bar under the team letter signifies which
+team is up to bat. The score is in between the team names.
+
+The green box in the upper right hand corner is the pitcher's
+information. The large letter is the team’s name. The line below
+is the Er stat, which stands for the ERA (Earned Runs
+Average). When the pitcher is new, the ERA is a line of dashes,
+because there are no previous runs to calculate. Below the ERA
+is the pitcher's name.
+
+26
+
+Right below the pitcher's stats are the game stats. The B
+symbol counts the number of BALLS thrown. The next line is
+the S symbol, for STRIKES. The final line has an 0, for OUTS.
+Note the dot to the right of each letter. The dots are black at the
+beginning, and they will light up to the letter’s color as the game
+progresses. Ex: When two OUT dots are lit, that means that
+there are two outs.
+
+The green box below the game stats shows the Batter's stats.
+The top letter in this box is the team name. The next line is the
+Batter’s Lineup Position (Bt). Below is the Batting Average (Av)
+followed by the number of homeruns hit by the batter. The last
+line is the batter's name.
+
+The diamond in the lower left corner shows which bases are
+occupied. (NOTE: A flashing helmet indicates an intent to steal
+a base.)
+
+27
+
+===== Page 15 =====
+
+THE GAME OF BASEBALL
+
+The regulation baseball playing field is shown here.
+
+The main path of the field is a Square path which starts at
+
+HOME PLATE, towards the bottom of the field. This path area is
+
+known as the BASEBALL DIAMOND. The home plate is where
+
+Ee batter attempts to hit the baseball with a wooden or metal
+at.
+
+On both sides of home plate are two rectangular areas. These
+are known as the BATTER’S BOXES. The batter must stand in
+either box when he is up at bat.
+
+The ball is thrown by the pitcher, who is on the PITCHER'S
+MOUND at the center of the baseball diamond. The ball must
+cross home plate. If the ball does not cross home plate, it is
+called a BALL. Four balls entitles the batter to advance to 1st
+base. If the ball hits the batter and he does not swing at the ball,
+it is considered an immediate WALK, and the batter advances
+to 1st base.
+
+28
+
+If the ball crosses home plate, the ball must be hit by the batter,
+or it is considered a STRIKE. If the ball crosses the batter's box,
+and the batter swings at it, it is also considered a STRIKE.
+Three strikes will call the batter out.
+
+If the ball is hit by the batter, the ball must travel in the upper
+Part of the field. This upper area is comprised of the baseball
+diamond and the OUTFIELD areas. Please note the two FOUL
+LINES from home plate to 1st base, and from home plate to 3rd
+base. If the ball goes below the foul lines, it is called a FOUL.
+The first two fouls count as strikes. However, the third strike
+cannot be a foul ball.
+
+If the ball is hit in a fair area, the batter is entitled to become a
+RUNNER. The runner runs around the baseball diamond in a
+counter-clockwise direction. At each corner of the baseball
+diamond is a BASE, which is a ‘square bag usually filled with
+sand. The runner must step on each base, going from 1st base
+to 2nd base, 2nd base to 3rd base, and 3rd base to home plate.
+When the runner successfully completes the entire circuit back
+to home plate, his teams scores one (I) point. This is called a
+RUN. The team with the highest score at the end of the game is
+the winner.
+
+If the ball is caught by a player from the other team on the field,
+the runner is called OUT. If the ball hits the ground, the runner
+is entitled to run to the next base. The runner can be tagged out
+if he’s not on any of the bases by an opposing player who has
+the ball. Each base is considered safe territory.
+
+If a runner is safe on any base, the runner can run to the next
+base when a new batter has hit a fair ball. The same rules
+above to apply to the next batter who is at home plate. There
+can only be one runner to a base. This is called BASES
+LOADED.
+
+Any runner can attempt to run to the next base at any time.
+However, the pitcher can throw the ball to his teammate so that
+he can attempt to tag the runner out. If the runner successfully
+advances to the next base, this is called a STEAL.
+
+29
+
+===== Page 16 =====
+
+If the ball is hit past the outfield into the spectator stands, it is
+called a HOMERUN. All runners on the bases complete the
+path to home plate and a score. If the bases are loaded, four
+runs will be scored.
+
+If 3 outs are called, the teams will change sides. All runners will
+come back and take their positions in the field. No runs can he
+scored by the runners at this time.
+
+When both teams have completed a change, it is called an
+INNING. Nine innings usually comprise a game. However, if
+both teams have the same score at the end of the Sth inning, it
+is considered a TIE GAME. The game will continue. However, if
+the tie is not broken by the end of the 12th inning, the game will
+end in a tie game.
+
+30
+
+ROMSTAR 90-DAY LIMITED
+WARRANTY:
+
+Romstar, Incorporated warrants to the original consumer
+purchaser that this Romstar game pak shall be free from defect
+in material and workmanship for a period of 90 days from date
+of purchase. If a defect covered by this warranty occurs during
+this 90-day period, Romstar will repair or replace the pak, at its
+option, free of charge.
+
+TO RECEIVE THIS WARRANTY SERVICE:
+
+4 Do not return your defective game pak to the retailer.
+
+2 Notify the Romstar Consumer Products Service Department
+of the problem requiring warranty service by calling (213)
+539-5283. Our Consumer Products Service Division is in
+operation from 8:30 a.m. to 5:00 p.m. Pacific Time, Monday
+through Friday.
+
+3 Do not send your pak to Romstar before calling the Con-
+sumer Service Department. Any unauthorized pak returned
+to Romstar will not be accepted.
+
+4 If the Romstar Service Representative is unable to solve the
+problem by phone, you will be provided with a Return
+Merchandise Authorization Number (RMA#).
+
+5 When you are returning your pak to Romstar, please
+proceed as follows:
+
+= Obtain an RMA # from a Romstar Service
+Representative.
+
+= Reference this RMA # on all correspondence, shipping
+documents and it must be clearly visible on the outside
+of the package.
+
+= Be sure that your packaging is at least 4 inches by 6
+inches. Many shipping companies will not ship anything
+smaller.
+
+31
+
+===== Page 17 =====
+
+90-DAY LIMITED WARRANTY
+continued...
+
+= Return your pak FREIGHT PREPAID AND INSURED
+FOR LOSS OR DAMAGE. Use a shipping Company
+which will be able to provide a proof of delivery in the
+event your return is lost in transit. Include a brief letter
+(referencing your RMA#) explaining the defect. You
+must include the following with your return:
+
+Full Name
+
+Complete Mailing Address
+
+Shipping Address if different from mailing address
+
+Day Time Phone Number
+
+Dated Sales Receipt or Similar Proof of Purchase
+Name and Address of the store the pak was purchased
+
+Send your return to:
+
+ROMSTAR, INCORPORATED
+Consumer Products Service Department
+Dept. 112
+
+22857 Lockness Avenue
+
+Torrance, CA 90501
+
+THIS WARRANTY SHALL NOT APPLY IF THE PAK HAS BEEN DAMAGED BY NEGLI-
+GENCE, ACCIDENT, UNI "MODIFICATIONS, TAMPERING, OR BY
+
+SONABLE USE,
+OTHER CAUSES UNRELATED TO DEFECTIVE MATERIALS OR WORKMANSHIP.
+
+ROMSTAR REPAIR / SERVICE AFTER
+EXPIRATION OF WARRANTY
+
+If the pak develops a problem requiring service after the 90-day
+warranty period, you may contact the Romstar Consumer Products
+Service Department at (213)539-5283. If the Romstar Service
+ent Representative is unable to solve the problem by
+phone, you will be advised of the approximate cost for Romstar to
+repair or replace the pak and will be given a Return Merchandise
+Authorization Number (RMA#). Reference your RMA# on the
+outside packaging of the defective pak, on all correspondence, and
+‘on your shipping documents.
+Return the defective merchandise FREIGHT PREPAID AND
+INSURED FOR LOSS OR DAMAGE, to Romstar and enclose a
+money order payable to ROMSTAR, INC. for the cost quoted to
+you. Please include the following with your return:
+
+RMA Number
+Full Name
+Mailing Address
+Shipping Address (if different from mailing address)
+Day Time Phone Number
+If after personal inspection, the Romstar Service Representative
+
+determines the pak cannot be repaired, it will returned and your
+payment refunded.
+
+WARRANTY LIMITATIONS
+
+Any applicable implied warranties, including warranties of mer-
+chantability and fitness for a particular purpose, are hereby limited
+to ninety days from the date of purchase and are subject to the
+conditions set forth herein. In no event shall Romstar be liable for
+consequential or incidental damages resulting from the breach of
+any express or implied warranties.
+
+The provisions of the warranty are valid in the United States only.
+Some states do not allow limitations on how long an implied
+warranty lasts or exclusion may not apply to you. This warranty
+gives you the specific legal rights, and you may also have other
+rights which vary from state to state.
+
+33
+
+===== Page 18 =====
+
+ROMNSTAR
+
+PLAYER SUPPORT
+
+If you have any questions regarding your
+Nolan Ryan's Baseball Game Pak, please feel
+free to contact your Player Support Department at:
+
+(213) 539-5283
+
+Please return your Free Subscription Card to
+Romstar’s Newsletter. In the newsletter we will update you on
+new games from Romstar, give hints and tips on Romstar
+games and run contests.
+
+Look for other Romstar games
+coming soon from your local retailer.

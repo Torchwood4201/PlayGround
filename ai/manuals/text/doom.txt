@@ -1,0 +1,1066 @@
+# DOOM
+source: https://archive.org/details/snes_manual_archive
+pdf: DOOM (USA).pdf
+region: USA
+pages: 17
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+THE STORY
+SO FAR
+CONTROLLER 10
+
+ARTIFACTS 14
+
+| INSTRUCTION
+BOOKLET FIREPOWER 15
+
+01.0193
+
+Siceo |] ALINE
+verano mon |g
+
+TURE
+
+bos
+
+a
+
+D FROM THE
+
+POWER-UPS 21
+
+THEENEHY 23
+wk SUPER NINTENDO
+FENTERTAINMENT SYSTEMD
+
+NHCBCUER!
+i
+
+===== Page 2 =====
+
+WARNING &
+PRECAUTIONS
+
+\ommennbthetled
+
+WARNING: PLEASE READ THE ENCLOSED
+CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET CAREFULLY BEFORE USING YOUR
+NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+THIS PRODUCT HAS BEEN RATED BY THE
+ENTERTAINMENT SOFTWARE RATING BOARD. FOR
+INFORMATION ABOUT THE ESRB RATING, OR TO.
+COMMENT ABOUT THE APPROPRIATENESS OF THE
+RATING, PLEASE CONTACT THE ESRB AT
+1-800-771-3772
+
+For Williams Customer Support
+regarding DOOM™ for the Super
+Nintendo Entertainment System, please
+contact Williams Entertainment Inc., at:
+903 874-5092
+9:00am - 5:00pm
+Central Time
+
+Monday - Friday
+
+Getting Started
+
+Main Menu
+
+The Story So Far
+Object of The Game
+On-Screen Information
+Messages/Automap
+Controller Functions
+Doors, Switches, Etc.
+Completing an Area
+Artifacts
+
+Firepower
+
+Hazards
+
+Health
+
+Armor
+
+Power-Ups.
+
+Enemy Recognition
+Coming Attractions
+Credits
+
+Warranty
+
+03
+04
+05
+07
+08
+09
+10
+11
+13
+14
+15
+18
+
+20
+ai
+23
+28
+29
+30
+pg:02
+
+SLNSLNOD
+
+===== Page 3 =====
+
+N
+
+GETTING
+STARTED
+
+ee
+
+4
+
+IA MAL AA M Mh
+
+WARNING: Never Try to
+Insert or Remove a Game {|
+Pak When the Power is ON!
+
+GETTING STARTED
+
+@ Turn the power OFF on your
+Super NES®.
+
+@ Make sure a Controller is plugged into
+the #1 Port on the Super NES®
+System
+
+@ Insert the Game Pak into the slot on the |
+Super NES®. Press firmly to lock the |
+Game Pak in place.
+
+@ Tum the power switch ON.
+
+@ Aiter the Title Screen disappears you
+will be at the beginning of the first level.
+Press START to bring up the Main
+Menu.
+
+THIS PRODUCT IS NOT DESIGNED FOR USE WITH
+THE SUPER NES® MOUSE, SUPER NES®
+‘SUPER SCOPE OR SUPER NES®
+MULTIPLAYER ADAPTERS.
+
+USING THE MAIN MEI
+
+Ifyou hit START
+from game play. you
+will bring up the
+Main Menu. Press
+up/down on the
+Control Pad to
+
+move the skull icon
+next to your desired
+selection. Then
+press the A Button
+to activate the selec-
+tion. If you're in a game, you can bring up the main
+menu at any time by pressing START. To exit the
+menu press START again. The B Button will also
+exit the menu.
+
+RESTART LEVEL: Use this if things aren't
+going your way.
+
+NEW GAME: It you want to jump into the action
+select this. First, DOOM™ will ask you which
+Difficulty. Then DOOM™ will ask you which Level.
+To make the levels more challenging, you wil need
+to select a harder difficulty level Each difficulty level
+differs in the toughness of the enemies you'll face.
+
+OPTIONS:
+SOUND: ON or OFF.
+MUSIC: ON or OFF.
+Press the A Button to toggle between ON and
+OFF.
+When you're finished customizing, push START.
+
+pg:04
+
+NAW NIV
+
+===== Page 4 =====
+
+THE STORY
+
+SO FAR
+
+‘You're a Marine, one of Earth's
+toughest, hardened in combat and
+eeee) trained for action. Three years ago you
+assaulted a superior officer for ordering
+his soldiers to fire upon civilians. He and
+his body cast were shipped to Pearl Harbor, while
+you were transferred to Mars, home of the Union
+‘Aerospace Corporation. The UAC is a multi-plane-
+tary conglomerate with radioactive waste facilities
+on Mars and its two moons, Phobos and Deimos.
+With no action for 50 million miles, your day consists
+of suckin’ dust and watchin’ restricted flicks in the
+rec room.
+
+For the last four years the military, UAC’s
+biggest supplier, has used the remote facilities on
+Phobos and Deimos to conduct various secret
+projects, including research on inter-dimensional
+space travel. So far they have been able to open
+gateways between Phobos and Deimos, throwing a
+few gadgets into one and watching them come out
+the other. Recently however, the gateways have
+become dangerously unstable. Military “volunteers”
+entering them have either disappeared or been
+stricken with a strange form of insanity--babbling
+vulgarities, bludgeoning anything that breathes and
+finally suffering an untimely death of full body
+explosion. Matching heads with torsos to send
+home to the folks became a full-time job. Latest
+military reports state that the research is suffering a
+small set-back, but everything is under control.
+
+‘A few hours ago, Mars received a garbled mes-
+sage from Phobos. “We require immediate military
+
+pg:05
+
+support. Something evil is coming out of the
+gateways! Computer systems have gone berserk!”
+The rest was incoherent. Soon afterwards, Deimos
+simply vanished from the sky. Since then attempts
+to establish contact with either moon have been
+unsuccessful
+
+You and your buddies, the only combat troop
+for 50 million miles were sent up pronto to Phobos
+‘You were ordered to secure the perimeter of the
+base while the rest of the team went inside. For
+several hours, your radio picked up the sounds of
+‘combat: guns firing, men yelling orders, screams,
+bones cracking, then finally, silence. Seems your
+buddies are dead.
+
+IT'S UP TO YOU
+
+Things aren't looking too good. You'll never
+navigate off the planet on your own. Plus, all the
+heavy weapons were taken by the assault team
+leaving you with only a pistol. If only you could get
+your hands on a plasma rifle or even a shotgun you
+could take a few down on your way out. Whatever
+killed your buddies deserves a few pellets in the
+forehead. Securing your helmet, you exit the
+landing pod. Hopefully you can find more substan-
+tial firepower somewhere within the station.
+
+‘As you walk through the main entrance of
+the base, you hear animal-ke growis echoing
+throughout the distant corridors. They know you're
+here. There's no turning back now.
+
+pg:06
+
+===== Page 5 =====
+
+ON-SCREEN INFORMATION
+
+DOOM™ provides on-screen, up-to-the-minute
+information that you'll need to survive.
+
+OBJECT OF THE GAME ms
+
+Welcome to DOOM™, a lightning fast virtual
+reality adventure where you're the toughest Space
+Trooper ever to suck vacuum. Your mission is to
+shoot your way through a 22 Level monster-infested
+holocaust... Living to tell the tale if possible.
+
+The game play for DOOM™ is quite simple.
+
+This is not a cumbersome role-playing game, but an
+action-oriented slugathon! Also, you don't need
+super-human reflexes to win - using your wits is
+IMPORTANT. To escape DOOM™, you need both
+brains AND the killer instinct.
+
+2
+re
+66
+ax
+OF
+
+1
+co)
+
+1. MAIN AMMO: In big fat numbers,
+you see the number of shots you've got
+left in the weapon you're currently using.
+
+2. HEALTH: You start out at 100%,
+but you won't stay there long. At 0%, i's
+time to start over. Try alittle harder next
+time,
+
+3. YOUR MUG: This portrait isn't just
+se] for looks. As you take damage you'll
+
+begin to look like raw hamburger.
+
+4. KEY CARDS: You can see any
+cards you possess right here. There are
+three key colors: Red, Yellow and Blue.
+
+5. ARMS: This image shows which
+‘weapon you currently have readied
+
+6. ARMOR: Your armor helps you out
+as long as it lasts. Keep an eye on it,
+because when it goes, you might also.
+
+pg:08
+
+@
+
+pg:07
+
+uve snivis A
+
+NOILWWYHOANI
+N334OS-NO
+
+===== Page 6 =====
+
+MESSAGES
+
+Often you'll find
+yourself running over
+various bonus items
+
+and evil artifacts,
+DOOM™ tells you
+what you're picking
+up by printing a
+message at the top
+Of the game screen.
+
+AUTOMAP g
+
+To help you find your way around DOOM™,
+you're equipped with an Automap Device. By
+pressing SELECT, you replace your normal view
+with a top-down map of everything you've seen to
+date. The green arrow represents you AND points
+in the direction you're looking. Pay Attention!
+
+You can zoom in and out by pressing X or Y.
+
+MOVING IN THE AUTOMAP
+
+Using the control pad, you can move yourself
+while viewing the Automap. Keep your wits about
+you because this is dangerous - you can't see or
+shoot the enemy while viewing the Automap.
+
+209
+
+CONTROLLING THE ACTION
+
+ae ee
+(UU, ommare  STRAFE rogues
+co eae
+
+AuTOMAP RUN
+NOH! PAUSE GAME
+
+PBRING UP
+
+ieNUS
+
+WEAPONS CHANGE: (x Button) s stil
+active while in Pause mode so you can switch while
+under attack.
+STRAFE: (L&R Buttons) moves your firing
+pattern left or ight without turning,
+
+IP: Use Strafing to avoid incoming
+missiles!
+
+RUNNING: Hold down the B Button while
+pressing the control pad to run
+
+PICKING UP STUFF: To pick up an object, just
+
+walk overt, You're smart - you'll know if you need
+to take it.
+
+pg:10
+
+NOILOV SHL
+SNITIOULNOD
+
+===== Page 7 =====
+
+USING
+
+ORS, SWITCHES &
+ELEVATORS.
+
+To open most doors and operate switches, stand
+directly in front of them and press the A Button.
+When you successfully operate a switch, it will
+change in some way (lights up, flips a handle, etc.)
+Ifa switch does not change after a couple of tries, it
+is probably assigned to do a task that cannot yet be
+accomplished.
+
+SHaLYOdSTaLB
+SHOLVAR13
+
+‘open for you. There are clues that will reveal a
+secret door--a wall that's shifted down or a different
+color, a flashing light on the wall, etc.
+
+ELEVATORS: You'll see platforms that raise and
+lower. Some platforms operate continuously, while
+others must be activated. Some of them sense your J
+proximity and lower automatically. Others have a
+Nearby switch. Those without a switch can usually
+be operated by walking up to the platform and
+pressing the A Button.
+
+“2
+a6
+ge
+Ba
+
+# TELEPORTERS: Teleporters are identified by a
+gray or red square on the floor beneath them. To
+Use a teleporter, walk over the symbol.
+
+LOCKED DOORS: Some doors have security
+locks and require you to have a color coded (red,
+yellow, blue) security card or skull Key to open them.
+Other locked doors are operated by a switch on a
+nearby wall. Rather than walking up to the door,
+you'll need to operate the switch.
+
+HIDDEN DOORS: Some doors are hidden. Many
+of these can be opened by finding a switch. In some
+cases you just need to walk up to the walll and press.
+the A Button. If you've found a secret door, it will
+
+4
+
+===== Page 8 =====
+
+COMPLETING AN AREA :
+
+‘At the end of each area in DOOM™ there is an Exit
+‘Chamber, generally marked by a special door or an
+“EXIT” sign. Enter this chamber, press the switch
+inside to exit the area and head onward. When you
+finish an area, an ACHIEVEMENT SCREEN tallies
+your performance - hidden regions located, ratio
+
+of kills, percentage of treasure found and your
+completion time.
+
+ARTIFACTS
+
+A few artifacts from the other dimensions are now
+laying around. You may want them!
+
+Provides a small boost to your
+health - even past your normal
+100%!
+
+f* SPIRITUAL ARMOR |
+> Provides a litle extra protection
+above and beyond your normal
+
+Rarely encountered objects that
+provide a large boost to your health.
+‘A close encounter with one of these
+[and you'll feel healthier than ever!
+
+e
+2
+ir
+=
+5
+a
+=
+oS
+=<
+
+ETERNAL LIFE AFTER DEATH
+
+If you die (better luck next time), you restart the level
+at the beginning. The game remembers what
+
+you had when you started the level, so when you
+choose “restart level” you won't lose anything
+you've gathered from previous levels. You have
+
+no “lives” limit--you can keep restarting the level as.
+often as you're killed. The entire level is restarted
+from scratch, too. Monsters you killed before are
+back again, just like you. Whoa, deja vu.
+
+others to spot you. But, the Enemy
+can still see you if you're too close.
+Keep your distance and fire away.
+Duration: Time base
+
+RABILITY ARTI
+Products of the anomaly that ren-
+der you immune to all damage.
+Pretty cool, until the effect wears
+off. When you're invulnerable your
+screen will be white--your punish-
+ment for being tough. Duration:
+
+pg:i4 da
+
+>
+z
+a
+Ey
+:
+Strange orbs that make it difficult for a
+
+Time Based.
+
+pg:13
+
+===== Page 9 =====
+
+Pa
+5
+co)
+o
+my
+c
+ira
+
+V 4 S 2
+
+WEAPONS: At frst, you only have your pistol and
+your fists for protection. When you run over a new
+‘weapon, you'll automatically equip yourself with it.
+‘As the game progresses, you'll need to choose
+between firearms. The X Button selects the
+different weapons.
+
+"TEP: if things get tough, you can
+pause the game (START Button) and
+then use X Button to change weapons.
+
+1. FIST can be used to deliver a punch to the
+‘enemies. It will always be with you.
+
+2, PISTOL is your standard military-issue weapon.
+It will stay with you, so don't forget about it if things
+get tough,
+
+3. SHOTGUNS deliver a
+heavy punch at close
+range and a generous
+petting from a distance.
+
+4. CHAIN SAW cuts
+down the baddies like
+standing timber, but you
+have to get close.
+
+pg:i5
+
+—",
+
+5. CHAINGUNS direct heavy
+firepower into your opponent,
+making him do the chaingun
+cha-cha.
+
+6. ROCKET LAUNCHERS
+deliver an explosive
+
+rocket that can turn one
+bad dude inside-out.
+
+7. PLASMA RIFLES shoot
+multiple rounds of plasma
+energy - frying some demon
+butt!
+
+8. BFG 9000's are the
+prize of the military arsenal.
+Great for clearing the room
+of an unwelcome guest.
+Shoot it and see for
+yourself.
+
+FIRING: To use a weapon, point it at the enemy
+and press the Y Button. {f your shots hit a bad
+
+guy, he'll fall over dead, Don't worry if the enemy is
+higher or lower than you. If you can see a monster,
+you can shoot i.
+
+TEP: Create chaos among demons by
+maneuvering them into a crossfire. If a bad
+‘guy is hit by another demon, he'll damage
+him for you. It's always best to let the bad
+‘guys do the work.
+
+YSMOd3ui4d
+
+===== Page 10 =====
+
+N
+
+gives you Ammo.
+WEAPON:
+
+AMMO: Different weapons use different types of ILM A
+ammunition. Running over certain enemies also |
+ISTOL, CHAINGUN isi eniee es HAZARDS 0.
+
+= Ri , oa eee DANGEROUS DOOM™ ENVIRONMENT
+
+‘Some parts of the DOOM™ environment can be
+
+more dangerous than the monsters you'll face.
+‘Areas containing radioactive waste or crushing
+ceilings should be approached with caution.
+
+SGYVZVH
+
+AMMUNITION
+
+HOTGUN
+
+iae====na pane
+
+SLIME & OTHER RADIOACTIVE WASTE:
+Many of the areas in DOOM™ contain pools of
+dangerous liquids that will damage you if you
+
+{
+\
+|
+cise i : waste, each doing an increasing amount of
+damage. If it looks fluid, beware!
+ie _Ranae i :
+
+0 =a
+
+CRUSHING CEILINGS:
+
+‘Some of the ceilings in DOOM™ can smash you,
+
+making you cry blood. Often you'll be able to see
+the ceiling moving before you go under it, but not
+
+always. Be careful, this is no slide on ice!
+pg:i8 4
+
+i L a
+|
+You have a maximum limit on the amount of ammo
+<a ie
+7
+
+you can carry, too. But, when you find a weapon
+that you already possess, don't scorn it! Picking it
+up also gives you ammo,
+
+pg:17
+
+===== Page 11 =====
+
+HEALTH il ARMOR
+
+[Even fora tough hemore bkayou, DOOM can a_i ARMOR: Two types of body armor can be found
+be a deadly place. Whenever you are injured, laying around. Both reduce damage done to you. =
+the screen will flash red and your health will | Unfortunately, both deteriorate with use and i
+decrease. Keep an eye on your health or you'll { eventually are destroyed by enemy attacks, leaving
+end up face down. t you in need of replacement armor. Ed
+HEALING: When you're hurt, you'll want to get |
+healed as soon as possible. Fortunately, you'll | Security Armor is a light
+find an abundance of Medkits and Stimpacks | ‘weight kevlar vest that's
+littering the base. Grab them if possible. perfect for riot control.
+z Stimpacks give you a ‘Combat Armor is a
+= quick injection of heavy duty jacket
+a booster enzymes that composed of a titanium
+= make you feel like a derivative--useful for
+new person--at least to protection against real
+some degree. fire power, like the kind
+you're gonna face.
+If you're wearing armor, you only pick up a
+replacement sult iit provides more protection than
+Medkits are even what you're currently wearing,
+better and include |
+bandages, antitoxins and BARRELS
+‘other medical supplies
+ready to make you hit the
+‘ground running, Barrels should be fired
+and exploded near ene-
+mies. Be careful though,
+don't get to close to the a
+| blast because it will take |
+pa:t9 | you out also. pg:20
+
+===== Page 12 =====
+
+RADIATION SUITS a ff POWER-UPS. .
+
+BACKPACKS
+
+‘Other bits of “challenging electronics” may be
+found in DOOM™. Most of these are pretty darned
+handy, so grab them when you can. These special
+items either have a duration of the entire level, a
+specific amount of time or just provide an instant
+benefit. A few of them affect your game screen so
+‘you can tell when they're active. For example, when
+‘you pick up a radiation suit, the game screen turns
+green. It returns to normal once the effect wears off.
+This is a hint to get out of the radiation ooze now!
+
+Provide protection against
+radioactivity, heat, and
+‘other low-intensity forms of
+energy. Basically, these
+suits enable you to wade
+through radioactive ooze
+‘without taking damage.
+While a suit holds out, your
+screen will have a greenish
+tint. Duration: Time Based
+
+Increase the amount of
+ammo you can carry. In
+addition, whenever you find
+a backpack, you receive
+‘extra ammunition.
+
+Heals you, plus acts as a
+super adrenaline rush and
+enormously boosts your
+muscle power. Since you're
+already a pretty meaty dude,
+this mega strength lets you tear ordinary dolts limb
+from limb and you can even splatter those demons
+without too much trouble. However, you've got to
+use your Fist Attack to get the benefit of the Berserk
+Attack bonus. When you become Berserk, your
+‘screen will briefly turn red. Duration: One Level.
+
+‘A handy find. Will update
+your Automap with a
+‘complete map to the entire
+area, including all secret or
+hidden areas. Areas you
+haven't been to are
+‘mapped in grey.
+
+Duration: One Level.
+
+clearly even in pitch dark.
+Duration: Time Based
+
+SNOVd MHASH
+
+SdVW YALNdNOD
+
+Yaad NV
+4HON
+
+===== Page 13 =====
+
+ENEMY
+RECOGNITION
+
+When the Creatures first appeared at the Gateways,
+their images were captured by remote video
+cameras. The video data was computer analyzed
+by the UAC and the results are provided here, AND
+ONLY HERE, to help you determine what you're up
+against.
+
+‘Some call them Demons, some call them Monsters.
+Whatever they are, they/te not of this world and
+they're waiting for you.
+
+{| FORMER SOLDIERS:
+
+(Once a Marine,
+always a Marine--
+‘except in this case.
+‘These guys may
+Jook like your old,
+buddies, but now
+they're nothing more
+than pistol-toting,
+i-pedal maggots.
+Waste ‘em!
+
+VIDEO TIME
+U.A.C. DESIGNATION
+
+[121 | FORMER SERGEANTS:
+
+Ditto. Except these
+guys are meaner,
+and tougher. These
+walking shotguns wil
+provide you with a
+few extra holes if
+you're not careful
+
+‘You thought an imp
+le dude
+ina red suit with a
+pitchfork. Think
+again. This Imp
+heaves balls of fire
+down your throat and
+several bullets
+It's time to
+find a better weapon
+than a pistol, if
+you're going to face
+more than one of
+these mutants.
+
+pg:24
+
+NOILINDO9aY.
+
+AWANA
+
+===== Page 14 =====
+
+Sorta like shaved
+gorillas, except with
+homs, big heads and
+lots of teeth. They
+don't kill easy. Get
+00 close and they'll
+rip your sorry head
+off
+
+‘VIDEO TIME
+'U.A.C. DESIGNATION
+
+LOST SOULS
+
+Dumb.
+Tough.
+Flies.
+On Fire.
+‘Nuff said.
+
+2
+2
+EE
+a6
+ae
+ue
+iy
+«
+
+VIDEO TIME
+U.A.C. DESIGNATION
+
+CACODEMONS:
+
+They float in the air,
+belch ball-lightening,
+and have one
+horrendously big
+mouth. If you get
+too close to one of
+these monstrosities,
+You're Toast.
+
+VIDEO TIME
+
+U.A.C. DESIGNATION
+
+BARONS OF HELL:
+
+Tough as a dump
+truck and nearly as
+big, these goliaths
+are the worst thing
+‘on two legs since
+Tyrannosaurus Rex.
+
+VIDEO TIME
+
+NOILINDOO3Y
+AW3N3
+
+===== Page 15 =====
+
+ENEMY
+RECOGNITION
+
+CYBERDEMON:
+
+Half unfeeling
+machine, half
+raging horned devil
+This walking night-
+mare has a rocket
+launcher for an arm
+and will definitely
+reach out and touch
+you. Make sure
+you're loaded for
+bear before you get
+to this guy.
+
+U.A.C. DESIGNATION
+
+‘SPIDER
+DEMON:
+
+Think of the
+pain a Black
+idow
+causes when
+jou distur
+er nest.
+Then think
+what hap-
+pens when
+you stir up
+one the size
+of a of a M60
+tank. She
+shoots a
+chaingun. Could put a Big
+
+MKS uses 50% increased image
+memory for stunning graphic
+
+ferything you have
+
+fed with
+
+mgs of
+‘exciting game play -the most
+‘ever for & Mortal Kombat game!
+
+MORTAL EDIT
+
+SNOILOVHLLY
+
+SNINOD
+
+===== Page 16 =====
+
+| 7
+WILLIAMS ENTERTAINMENT INC. warrants to the original pur-
+chase f this Willams Entertainment ne, sofware product that
+| the medium on which his computer program i recorded i reo
+
+| Programmers ‘John Garmack, John Romero
+
+from defects in materials and workmanship for a period of ninety
+David Taylor, Michael Abrash (80) days from the date of purchase. This Wiliams Entertainment
+
+Artists ‘Adrian Carmack, Kevin Cloud In, software program sold as ie without expresso: pled
+Level Designers Riots Roniera any pelerden warranty damages of any kind, and Willams Entertainment Inc. is
+
+fot lable for any losses or damages of any kind resulting from the.
+
+mena Mesee, Sheva tee). se ofthis program, Wiliams Entertainment Inc. agrees fora per-
+
+Development Support Shawn Green Od of ninety (00) days to ether repair of replace, atts option, fee
+Jay Wilbur of charge, any Willams Entertainment In. sofware product,
+Assistant Donna Jackson - HEED) postage pi, wih roo of purchase, at ts Facory Serves
+Center
+
+This warranty is not applicable to normal wear and tear, This
+‘Original PC Music and Sound FX: Bobby Prince warranty shall not be applicable and shall be void if the defect in
+the Wiliams Entertainment Inc. sofware product has arisen
+
+through abuse, unveasonable use, mistreatment or neglect. THIS
+WARRANTY (S IN LIEU OF ALL OTHER WARRANTIES AND
+NO OTHER REPRESENTATIONS OR CLAIMS OF ANY.
+
+Programmer Randy Linden
+NATURE SHALL BE BINDING ON OR OBLIGATE WILLIAMS
+Ica SWNT Tatra eta NG en cinek ENTERTAINMENT INC, ANY IMPLIED WARRANTIES APPLI-
+Nines Bracken GABLE TO THIS SOFTWARE PRODUCT, INCLUDING WAR:
+Programmer Support Randy Linden, Ron Stagg RANTIES OF MERCHANTABILITY AND FITNESS FOR A PAR:
+Artists Michael Hunter, Bryan Jacobs, TICULAR PURPOSE, ARE LIMITED TO THE NINETY (90) DAY
+Virginia Sargent PERIOD DESCRIBED ABOVE. IN NO EVENT WILL WILLIAMS
+Sound, Paul Webb, Bob Dayley ENTERTAINMENT INC, BE LIABLE FOR ANY SPECIAL, INCI-
+Testing re Grecian Ga Bonbon DENTAL, OR CONSEQUENTIAL DAMAGES RESULTING
+
+FROM POSSESSION, USE OR MALFUNCTION OF THIS.
+
+ine em Seiden ‘WILLIAMS ENTERTAINMENT INC. SOFTWARE PRODUCT.
+
+Garon Galloway, Ben Nielson
+Doom is My Life John Goffey
+Special Thanks Jodi Harvey, George Metos
+
+‘Some states do not allow limitations as to how long an implied
+‘waranty lasts andlor exclusions or imitations of incidental or con
+‘sequential damages co the above limitations andlor exclusions of
+
+” Kevin Kalen, Jone Morgan
+iy mone ete amae ree
+: :
+
+5 ep ener eee ee
+Fa tans Enisranment in.
+
+Marval Design ebile usin, Stove High me ee
+
+Hee Shae Mp Eee
+
+Gialty Conel ——_‘illams Entement Tsing anes
+
+= pg:29 pg:30 d
+
+===== Page 17 =====
+
+Williams
+
+Williams Entertainment Ine.
+
+Williams Entertainment Inc
+1800 South Business 45
+Corsicana, Texas
+
+(903) 874-2683

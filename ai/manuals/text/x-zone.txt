@@ -1,0 +1,562 @@
+# X Zone
+source: https://archive.org/details/snes_manual_archive
+pdf: X Zone (Japan, USA).pdf
+region: Japan, USA
+pages: 14
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNS-XZ-USA
+
+INSTRUCTI2N
+BOOK LUST
+
+KEMCO
+
+KEMCO AMERICA, Inc.
+P.O. Box 110, Redmond, WA 98073-0110
+
+Printed in Japan
+
+KEMCO. SUPER NINTENDO
+
+===== Page 2 =====
+
+
+
+===== Page 3 =====
+
+Prologue if
+
+Security Clearance:
+
+Alpha Omega Neutron. Any
+personnel without this Security
+Classification Level apprehended
+viewing this classified document are
+Beginning Your Mission 8 ] subject to immediate prosecution.
+Unauthorized personnel must cease
+examination immediately.
+
+COoO>TENTS PR? UOGUE
+
+===== Page 4 =====
+
+Mis
+
+Unknown circumstances have
+caused The Nation’s automatic
+defense main-frame computer to
+malfunction. Infiltrate the “X-
+termination Zone” around the highly
+fortified “research center” and
+download systems shutdown
+sequence into central Bio-computer.
+
+Ss ITN
+
+Regain control of the defense system
+before computer controlled missile
+launch and satellite attacks can begin
+total global X-tinction
+
+===== Page 5 =====
+
+A joint development project by a top secret
+government agency and an un-named private
+sector corporation has successfully created a
+hyper-speed, ultra-high memory “bio-computer”
+that incorporates genetically engineered brain
+tissue as the main memory storage and central
+processing unit. This Bio-computer-based
+mainframe was specifically designed to control
+The Nation’s automated “External Threat
+Recognition Assault” system. The computer-
+controlled “X-TRA” counter-attack system was
+touted as the crowning achievement in military
+technology. The advanced Bio-computer would
+
+BeCK GR2UND
+INFORMATILN
+
+theoretically remove any chance of human error
+or frailty in the defense of The Nation, launching
+massive, strategic counter-attacks on hostile
+countries that dared to threaten their borders,
+“Compound X”, the main research and develop-
+ment facility that houses the renegade Bio-
+computer is strategically located in the middle of
+a vast, barren desert. The harsh environment acts
+as a natural barrier to any would-be invaders
+The heavily barricaded and fortified compound
+maintains a Bio-computer-controlled security
+system of relentless sentry robots that are
+equipped with heavy artillery, and linked to the
+first stage of X-TRA’s self-defense zone. Any
+unauthorized air or ground penetration of the
+“X-termination Zone” will be considered hostile,
+and dealt with accordingly.
+
+SHTEC
+
+===== Page 6 =====
+
+Due to the extreme environmental conditions around
+Compound X, and the hazardous nature of this mission,
+we will supply you with a Class A Exo-armor combat
+suit. This state-of-the-art combat suit is equipped with
+an on-board environmental stabilization system that will
+maintain habitable conditions within its confines. The
+environmental stabilization system is furnished with a
+recycling air supply, in case you are confronted with
+chemical or biological weapons. Also incorporated in the
+suit is a magnetic energy deflector that acts as a force-
+shield against any known weapons systems. This shield
+can withstand a limited quantity of direct hits before
+system overload occurs, leaving you at the mercy of
+enemy attack, The specially tinted visor of your suit
+
+eOQ2IPMeE"'T
+
+helmet will protect you from laser blast retina burn-out,
+allow you to see in the dark with infra-red vision, and
+present you with an on-visor information display. This
+“Heads Up Display” (HUD) technology informs you of
+the remaining strength of your energy shield and your
+“Enemies Hit” evaluation score.
+
+The suit is equipped with anti-gravity flotation boots
+that you can use to hover through the desert sky and
+into Compound X.
+
+Your final and most important piece of equipment is the
+prototype $S6 Plasma Energy Launcher. This potent
+weapon is lightweight, portable, and reliable. It is
+capable of rapid-firing destructive blasts of highly
+concentrated energy with pin-point accuracy, utilizing a
+newly developed laser aiming target sight. Display the
+crosshair on your intended target and fire for maximum
+hit ratio.
+
+If it moves (and even if it doesn’t), blow
+
+it away with your Plasma Launcher,
+
+This on-screen crosshair
+shows where your weapon is
+aimed.
+
+The red + indicates that your
+computer is tracking an enemy.
+Locked enemies may be destroyed
+with a homing missile. You may
+
+track up to 4 enemies at a time.
+|
+
+This bar represents how many
+hits your shield can take before
+collapsing. When all the colored
+bars are gone, one more hit from
+an enemy will destroy you.
+
+Represents your “Enemies
+Hit” effectiveness score used
+for post-mission evaluation.
+
+Shoot this to recover four power bars
+on your shield strength meter.
+
+?
+
+===== Page 7 =====
+
+Xz ONE
+
+PUSH FIRE BUTTON
+
+PTS
+|
+
+lon!
+
+===== Page 8 =====
+
+Press this to fire
+plasma energy beams. Set the
+power switch to TURBO and
+hold down this button for
+rapid-fire. If your cursor sight
+passes over an enemy, and
+you get a LOCK, release the
+fire button to fire a homing
+missile.
+
+This switch
+
+has 3 positions, OFF, ON,
+and TURBO. From the OFF
+position, slide the switch
+forward one notch to the ON
+position for semi-automatic,
+single shot play. Slide it one
+more notch to TURBO for
+awesome fully automatic
+rapid-fire.
+
+Press and HOLD
+this button to display a crosshair
+cursor on the screen. The cursor
+will follow weapon movement,
+
+allowing maximum hit ratio.
+
+This button must be held down
+for continuous on-screen cursor
+
+display.
+
+Press this
+
+once to pause the game.
+Press it again to resume
+game. You must release
+CURSOR for PAUSE
+button to function.
+
+11
+
+===== Page 9 =====
+
+ZONE ONE:
+
+Using your anti-gravity flotation boots, dive
+down through the clouds to the fortified
+Compound X. During your descent into the
+X-Zone you will encounter the first line of
+defense of X-TRA; automated reconnaissance
+pods detect your location and numerous
+flying attack drones attempt to blast you out
+
+After you have chosen the difficulty the as
+of the sky.
+
+level of your mission during the stealth
+aircraft flight, you will be dropped off
+at the perimeter of the Compound X
+defense X-termination Zone.
+
+Mis S I2N
+STAGSsS5
+
+At this point, radio silence will be in
+effect. You are now on your own, in
+the Zone...
+
+ZONE TWO:
+
+Using the awesome firepower of your Plasma
+Launcher, cut a path of destruction through
+the robotic ground forces on the barren desert
+floor. Beware of machine gun equipped
+subterranean Mole-drones that the malfunc-
+tioning Bio-computer has created to impede
+your progress.
+
+ZONE THREE:
+
+Stage a full frontal assault on the impreg-
+nable gates of the heavily fortified Compound
+X. The research center has been converted to a
+veritable fortress by the renegade Bio-
+computer. Blocking your access to the inner
+core of Compound X is a virtual wall of
+machine gun batteries and artillery cannons.
+The Bio-computer has also manufactured
+high-tech gate-guardians that are heavily
+armed and extremely fast, designed to X-
+terminate any threatening invaders.
+
+ZONE FOUR:
+
+High altitude satellite recon photographs could not penetrate the electronically
+protected scramble zone that the Bio-computer has instituted; no details of the
+internal defense systems are available. Wide band scanners have detected faint life
+signs emanating from somewhere inside of Compound X..
+
+12 bi}
+
+===== Page 10 =====
+
+‘ApNyY]e Jomo] v 0} amar pur ‘A[sNo10194
+ypene ‘Aqpider quip 0} sautsue yal uray
+sazign s0ydaozaquy eydyy ayy "ysvaaq Aqindas
+v jo Spape waysds Andes VYI-X ayy [HUN X
+punodwo5 Surpunouins 1o0y jrasap ayy Supe
+suis Jal STUOs-eAIN SULAY-MO] SL LAOUTA
+uorunuue Suryard zoue YIM
+
+sun8 ourypew uiny azy-pidey :|NAWVAQV
+yenury 10jdaiaquy sey eydyy
+
+“YIOMJON 9UET[IAAING
+
+VALL-X $,ayndwos-o1g 0} poyuty aJoutar
+st ouosp 3urAy o8urs-Buo] sy -LYOdaY
+azissnu paddy
+
+-peayzem uognou a[8ulg :|NAWVAV
+Pog uoday Sse]> UOTIS
+
+===== Page 11 =====
+
+Gamma Class Rocket Pod
+
+ARMAMENT: Four neutron warhead-
+tipped missiles
+
+REPORT: The Bio-computer launches these
+environmentally unfriendly robot pods from
+Compound X to fire four powerful neutron
+missiles at intruders.
+
+Alpha Class Rotary Pod
+ARMAMENT: Ultra-high speed quad-gun
+REPORT: The ultimate mop-up weapon,
+these flying drone pods are sent in to finish
+off air-borne intruders. A rotary cannon
+encased within its protective armor shell fires
+over 240 rounds of ammunition per second.
+
+Epsilon Class Patrol Tank
+ARMAMENT: 200 mm cannon mounted on
+a rotating turret
+
+REPORT: The classic defensive weapon,
+these remote controlled tanks patrol the outer
+perimeters of Compound X. These heavily
+armored machines require multiple hits of
+your plasma launcher to become disabled.
+
+16
+
+¢ ¢$
+¢ "e @
+
+}
+
+Omega Class Mole-drone
+
+ARMAMENT: Twin armor piercing
+machine guns
+
+Report: Created by the Bio-computer to
+detect small-scale ground attacks with
+vibration sensitive sensor-scanners, these
+subterranean robots jump out of the desert
+sand surrounding Compound X and attack
+with machine guns. Extremely fast and
+heavily armored.
+
+Alpha Class Patrol Tank
+
+ARMAMENT: High-mount double twin
+rocket launchers
+
+REPORT: The high sensor height and bipedal
+propulsion method makes this robot ideal for
+the sandy rolling hills of the desert environ-
+ment.
+
+Gamma Class Anti-personnel Sentry
+ARMAMENT: Twin rapid fire machine guns
+REPORT: Using a twin.rotor hovercraft
+propulsion system to skim along the desert
+floor outside the Compound, these automated
+sentries specialize in ground level skirmishes
+and perimeter protection.
+
+17
+
+===== Page 12 =====
+
+Beware! Each of the X-termination
+Zone’s military actions are co-
+ordinated by an Overseer. The
+
+central Bio-computer created
+Overseers with the same bio-
+technology CPU’s that are used in
+the main-frame. This gives the
+
+Overseers limited artificial intelli-
+
+gence capabilities and a direct link to
+the central Bio-computer. When all
+other defense systems in a Zone have
+failed, the Overseers receive
+instructions to individually seek and
+destroy intruders.
+
+OVZRSEETS
+
+ALPHA CLASS OVERSEER
+
+Tri-Link E-Omega Mole-drones
+
+ARMAMENT: Each drone is equipped with two armor piercing
+machine guns, and two tactical missile racks.
+
+REPORT: Basically three Omega Class Mole-drones that have been
+infrared modem linked to attack in unison, The same powerful
+offensive machine-guns as Omega Class Moles, two extra missile racks,
+and enhanced defensive armor make these drones much harder to
+bring down than their smaller cousins.
+
+BETA CLASS OVERSEER
+
+STALKER SENTRY
+
+ARMAMENT: Two upper appendage mounted 100 mm 6-barrel chain
+guns, eight tactical missile launchers.
+
+18
+
+REPORT: High speed hover fans in its feet allow this robot to move quickly
+over the desert landscape. His reaction speed is so fast, he can block shots
+from your plasma launcher with the backs of his heavily armored forearms.
+The protective armor requires multiple hits to incur damage.
+
+HOVER TANK
+ARMAMENT: Turret mounted 150 mm cannon with armor-piercing shells,
+rapid fire machine gun and a mortar launcher.
+
+REPORT: A high-speed armored artillery carrier that utilizes the same
+hover propulsion system as the Gamma Class Sentry, this mobile cannon
+requires multiple direct hits from your plasma launcher
+
+before it is destroyed.
+
+ARACHNIDEA X MECHANICUS
+
+ARMAMENT: Four High-Explosive grenade launchers and four tactical
+missile racks.
+
+REPORT: Spider-like construction affords this gate guardian excellent
+maneuverability and speed. The multiple limbs, used in unison, enable this
+robot to jump up to 25 meters in the air.
+
+ANTI-GRAVITY TACTICAL MISSILE PLATFORM
+
+ARMAMENT: 8 tactical missile launch platforms, and two plasma
+energy cannons.
+
+REPORT: This missile platform is extremely swift and agile despite it’s
+heavy armor and weaponry. Although it can fire eight missiles at once,
+reloading is slow. It will usually only fire four, leaving the other four
+missiles ready for immediate launch.
+
+Insufficient data available.
+
+19
+
+===== Page 13 =====
+
+CONTINUE SEQUENCE
+
+Your stealth troop transport will fly
+a holding pattern at high altitude to
+offer you some degree of support. If
+your magnetic energy force field is
+destroyed, and the suit’s built in
+threat sensor detects potentially
+lethal incoming fire, it will send out a
+laser-carried distress signal. You'll
+be automatically transported back to
+the jet at the last possible moment.
+
+AD?ITIONGEU
+INEFORMATISN
+
+When you are inside the jet, you'll
+be given the choice to continue your
+mission or return to base.
+
+If you choose to return to
+
+base after the loss of your first
+Exo-Armor suit, you may be able to
+enter your name in the TOP FIVE
+RANKINGS scoreboard. Should you
+choose to continue your mission,
+you forefeit your chance to be
+considered for the TOP FIVE.
+
+20
+
+Fire at the “YES” box to don
+anew Exo-Armor suit and
+return to the defense zone
+
+you just left, or fire at the
+“NO” box to abandon the
+mission and return to base.
+You have 10 seconds to make
+your choice.
+
+You only have 3 extra
+Exo-Armor battle suits, as
+
+into Doig,
+
+they are very X-pensive.
+Once all 3 extra suits are
+destroyed, the mission is
+considered a failure, and
+you'll be returned to base.
+
+HIGH SCORE
+REGISTRATION SEQUENCE
+Use the cursor to aim and
+shoot at the letters to enter
+your name into the hall of
+fame. 5 letters may be
+entered. If you need to erase
+a letter, shoot at “DEL” to
+back up | character. When
+your entry is complete, shoot
+
+cn icin ‘viyivin [walle
+
+“END” to preserve your
+score for all time (or until
+someone better shows up).
+
+21
+
+===== Page 14 =====
+
+This warranty shall not be applicable and shall be void if the defect in the
+KEMCO AMERICA, Ine. software product has arisen through abuse,
+unreasonable use, mistreatment, ne; fect or reasonable wear and tear. IN
+THIS WARRANTY IS OBLIGATIONS IN LIEU OF ALL OTHER WAR-
+RANTIES AND NO OTHER REPRESENTATIONS OR CLAIMS OF ANY
+NATURE SHALL BE BINDING ON OR OBLIGATE KEMCO AMERICA,
+INC. ANY IMPLIED WARRANTIES APPLICABLE TO THIS SOFTWARE
+PRODUCT, INCLUDING WARRANTIES OF AND FITNESS FOR A PAR-
+TICULAR PURPOSE, ARE LIMITED TO THE NINETY (90) DAY PERIO
+DESCRIBED ABOVE. IN NO EVENT WILL KEMCO AMERICA, INC. BE
+LIABLE FOR ANY DIRECT, SPECIAL, INCIDENTAL, OR CONSEQUEN-
+TIAL DAMAGES RESULTING FROM POSSESSION, USE OR MALFUNC-
+TION OF THE KEMCO AMERICA, INC. SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an implied warranty
+
+ists and/or exclusions or limitations of incidental or consequential dam-
+ages, so the above limitations and/or exclusions of liability may not apply
+to you. This limited warranty gives you specific legal rights, and you may
+also have other rights which vary from state to state.

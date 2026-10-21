@@ -1,0 +1,725 @@
+# SeaQuest DSV
+source: https://archive.org/details/snes_manual_archive
+pdf: SeaQuest DSV ( PAL ).pdf
+region: PAL
+pages: 29
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+
+
+===== Page 2 =====
+
+-
+
+contents
+
+Welcome Aboard:-+... 45.» _— ~-c
+
+Initiate Simulation--1.))2.... 8
+
+Controlling the Simulation .-..-5
+
+The S@aQuest-.-+eeeeeseeee eee e eck
+Captain on the Bridge oe see 8
+Main Control Screen ...«......... 2
+Information ‘Screen ..-.---2e+0.- Le
+Weapon Systems -- seen eens asccns 14
+Launch Bay ---- erences eenesvces Lb
+rr rmrrC— CrrC“‘“ECCOUCOUCOCO_COCM eee bf
+Stinger «+ -e- se eesressees tees 18
+Sea Speeder ---- essere sccsees Sle
+NS ee er rr rr—CSC—C*SCCR cU
+Hyper-Reality Probe..-....--. --cl
+ie see et rrrr—“( _OCOCOCOCOCS oc
+UEO Ranking -....-..--. ie eee 8
+Mmeeetons ..... ss I ey
+MGSSION LOG « «ss scsscvscssssscss eb
+Lagited Warranty -.--.-.s+sscccne 30
+
+===== Page 3 =====
+
+Pp welcome aboard
+
+ip
+boa
+T
+u
+ay
+&
+=o -
+®
+&
+@
+&
+Oo
+
+B SEER SoD ASS OAC SNEED EAE ODER SEDC N ANOS ORO BINS HOCUS ROEM ORO ROE MORO ROE ORO RENSD See
+SOO
+
+Cc
+D
+OQ
+a“)
+J
+2
+>.
+=
+(©
+()
+D
+2
+wn)
+D
+a
+ne
+O
+E
+a
+
+Biocon SiaanS Mena nna None emer ener erence TTS
+
+Congratulations. Due to your exceptional scores
+
+_ throughout Academy training, you have been invited to
+participate in a computer-simulated maneuver to evaluate
+your potential as captain of the seaQuest DSV. You will be
+expected to perform to the highest standards during this
+simulation, demonstrating your technical skills as an
+officer as well as diplomatic skills as a keeper of the
+
+peace. :
+
+ES
+xs
+
+SOROS OMD UOMO
+
+SSS Ss
+
+NOOSE SO LeRO ORO a MO aT MUR GRA
+
+As you know, the United Earth Oceans organization was
+formed in the hope of bringing together the various
+confederacies formed beneath the seas. Multinational
+corporations exploit the vast riches of this unexplored
+territory, guarding their mines, farms and factories while
+
+ols o cea oeomarania tun Cam aaaans on cise
+
+SU ARM UU ORNS SMO TICE
+
+ish
+
+===== Page 4 =====
+
+they prey on their competitors. Industrial sabotage and
+human error on land cost fortunes — undersea, they cost
+lives.
+
+The UEO is the law down there, and the seaQuest DSV is
+enforcer, protector, explorer, and symbol of what we hope
+the world will become. It is the largest, fastest, most
+powertul research vessel ever launched. The UEO is
+looking for the very finest officer to captain this vessel. It is
+our hope that you are that officer.
+
+Travel and schedule arrangements are attached. Good luck.
+
+Admiral Mori —
+VEO Central Command
+
+Heavy stuff.
+two more time
+catch the ne>
+
+===== Page 5 =====
+
+the enclosed training package contains S
+seaQuest DSV game pak. Deactivate all ‘on-board
+power to your Super NES and place the game pak
+in the Super NES's aft receptacle. This is a _
+one-trainee simulation - attach a game
+controller to Port One of your Super NES.
+Reactivate your Super NES. Introductory screens
+will be followed by technical descriptions of
+available mission vehicles- Press the Start
+Button to begin the Simulation.
+
+If you successfully —
+
+- complete the simulation |
+and achieve the rank of
+Petty Officer, you will
+be awarded active duty on
+the real seaduest-
+
+| If yeu table the
+Simulation will end.
+
+===== Page 6 =====
+
+A
+
+controlling The simulation
+
+This simulation has been designed as a replica
+of the bridge controls of the seaQuest-
+
+Further information regarding controlling the
+sea@uest and its vehicles will be detailed later
+in this manual. At this time. familiarize
+yourself with the general button or pobre ation
+of your Control Pad. ae
+
+L&R Buttons
+
+Use the L & KR Buttons to target
+the seaQuest's homing missiles.
+
+Press L. Ri and A Buttons
+Simultaneously to self-destruct
+mission vehicles - may be
+useful on some missions:
+
+X Button
+.- A Button
+Control —) "$ \\
+Pad Pl
+cA sun © BULtON
+Y Button
+Select Button
+Pr to t le f
+eet ans Eck Start Button
+to Main Control Screen Press to pause.
+
+or to return to the
+Main Control Screen
+from other screens.
+
+5 AA
+
+===== Page 7 =====
+
+The future's most
+- powerful submarine
+is at your command.
+The controls for
+- your Simulation
+are the same as
+“te controls of
+the real aa
+
+Control Pad? Pilot the
+
+rress t to rotate port.
+Press. Right to rotate starboard-
+
+selected et
+ippear above the sead@u
+Me information on
+
+to or fire upon
+federations don't
+
+===== Page 8 =====
+
+seaQuest DSV 4b00
+
+DATA: Commissioned by United Earth Oceans
+Organization in c01l4 as the largest, fastest, most
+powerful submersible in history. Contains both
+scientific and military personnel and is capable of
+accomplishing extensive research, defense. and
+peacekeeping missions. Equipped with a variety of
+sensory probes and multifunction utility vehicles.
+
+NOTE: Once you begin a mission. you must
+complete it- If you abort the mission by
+returning to the sea@uest Main Explore mode. the
+game will automatically end- On the Main Control
+screen, press L. R. and Select to exit to the
+Main Explore mode.
+
+"AA
+
+===== Page 9 =====
+
+Your simulation has begun, trainee. Vou. must
+quickly become familiar with the operation of
+the sea@uest if you are to advance in ra é
+pass this test of your abilities. The Main
+Control Screen shows the entire seaduest bridge.
+From here. you i
+have access to
+all ship's
+systems. Use your
+Control Pad to
+move the on-
+screen cursor to
+the different
+buttons. Use the
+ABXY Buttons to
+click an on-
+screen button.
+
+In general, your missions will consist of:
+
+1) Receiving an incoming transmission. alerting
+you to a situation in your quadrant,
+
+¢) Using the Information. Screen to read the
+transmission, SS
+
+J) Using the Navigation Display to locate the
+mission site with WHISKER probes;
+
+4) Piloting the seaQuest to ‘the mission site to
+correct the situation, or
+
+5) Launching the appropriate vehicle or vehicles
+to complete the mission.
+
+As
+
+===== Page 10 =====
+
+A
+
+main contcol screen
+The vehicle display LA] shows the number of each
+vehicle in the seaQuest's bay. and if Darwin and.
+
+the Hyper-Reality Probe are on-board: Vehicle
+descriptions are on pages 1?-cc.
+
+The weapons display [BI shows how many of ok
+torpedo. missile or mine remains in store and
+allows you to select which weapon to use- Weapons
+are assigned to the Y Button and the B Button- Move
+the on-screen cursor to the weapon you want to use
+(click on the MORE button to view additional
+weapons) and press the Y or B Button to assign the
+selected weapon to the button you press- The weapon
+assigned to the Y Button will be highlighted in
+green; the weapon assigned to the B Button will be
+highlighted yellow. If a weapon runs out. you will
+see an on-screen message stating OUT OF AMMO and
+you will have to switch to another weapon- Further
+information on using weapons can be found on pages
+4 2 15.
+
+The INFO button [CJ] will take you to the
+Information Screen (pages le & 13) which will show
+important messages: If the seaQuest has an incoming
+transmission. you will see an on-screen message and
+the INFO button will flash to alert you.
+
+===== Page 11 =====
+
+
+
+===== Page 12 =====
+
+ee
+
+A 5
+
+Main contcol screen
+Indicators at the bottom of the Main Control
+Screen display your current funds [G] and your
+total funds [LH]. Funds will be provided by the
+UEO or by grateful confederations. Current funds
+
+are used to purchase items- Total funds are used
+to indicate cumulative score-
+
+Your current Rank [I] is shown in the text
+display and rank insignia. You will need to
+advance your rank in order to complete certain
+missions- Promotions will be given if you
+complete missions successfully and demonstrate
+sound tactical skills. Rank and rank insignia
+are described on page 23:
+
+The Mission Summary Display [J] at the bottom of
+the Main Control Screen shows important messages
+or a brief reminder of your current mission
+based on your most recent transmission- Kefer to
+the Information Screen for more detail.
+
+From the Main Control Screen. press the Select
+Button to pilot the sea@uest to a new location.
+
+===== Page 13 =====
+
+Use tl
+move left anc
+
+===== Page 14 =====
+
+a, — )
+INEOCMATION SCTeEen
+__ | |
+
+See pages l4- 22 for a description of inventory
+items. :
+
+Use the rank status button [C1] to display the
+rank you will need to achieve to complete your
+current simulation — oe
+
+Press the Select Button bo go to ‘the Main
+Control Screen-
+
+===== Page 15 =====
+
+— au
+
+San vehicles and hit
+the ABXY Buttons to
+launch. If the counter
+for a vehicle reads zero.
+that vehicle is not in
+the bay and cannot be
+launched.
+
+Once a vehicle has been launched, it will appear
+outside the seaQuest near a pick-up buoy- If you
+return to this buoy, the vehicle will be taken
+aboard the sea@uest to be exchanged for a different
+vehicle or to move on- If a vehicle is damaged on
+mission. you will be shown a readout of remaining
+hull integrity. If a vehicle is destroyed. you wil.
+return to the launch bay to: select another vehicle
+Remember. once you start a mission. you must
+complete it successfully: Do not injure sea life
+during your mission - you're here to protect them-
+
+From the Launch Bay. hit the Select Button to
+return to the Main Control Screen.
+
+Ax
+
+===== Page 16 =====
+
+recovery vehic
+several manipu
+arms: :
+
+Propulsion: Attitude
+
+ee 6
+
+Special features: Equipped with thruster jets
+for upward thrust or for removing sediment for
+
+salvage operations.
+
+(Gontrol Pad: Move in any direction.
+¥ Button: Drill into certain materials.
+
+B Button: Fire thruster jets.
+
+===== Page 17 =====
+
+
+
+===== Page 18 =====
+
+sea speeder
+
+~~ 7 eee
+The Speeder is a fast,
+heavily armored —
+transport and
+vehicle. |
+Armament: Low- cha rge p : .
+energy-plasma torpedoes
+and sonar-directed
+mines-
+
+Arsor: Carbon- fiber
+plating: |
+Propulsion: Hydro- jet
+turbines-
+
+(rew: c-
+
+Special features: The Speeder serves as a fast,
+armored shuttle or attack sub-
+
+Gontrol Pad: Move in any direction-
+
+N Button: Turn Speeder about.
+
+¥ Button: Fires torpedo. —
+
+B Button: Fires Seeker Plasma Charge (SPC)x
+
+*#3PC is a homing Plasma Charge that will zero in
+om the closest enemy target.
+
+===== Page 19 =====
+
+sea Tcock
+
+===== Page 20 =====
+
+Probe is used
+exploration: ~
+reconnaissance,
+repair operations
+dangerous situations.
+The Probe is controller
+by a crew member aboard
+the sea@uest through a
+wirtual reality headset |
+and handpiece. ,
+Srmanent: Low-energy
+mydro-pulse laser.
+Semor: Carbon plating.
+Propulsion: Servo-controlled hydro-jets.
+
+(rew: None (remote-controlled)-
+Special features: Extension arm is equipped for
+
+umderwater welding and can be used to activate
+switches- H-R Probe is capable of diving to
+extreme depths- Used to repair broken pipes and
+cam withstand great temperatures.
+
+Gomtrol Pad: Move in any direction.
+& Button: Flip switches.
+
+3. Button: Turn probe about.
+
+Button: Fire low-intensity weapon.
+@ Button: Activate welding arm.
+
+21 fA
+
+===== Page 21 =====
+
+
+
+===== Page 22 =====
+
+A
+
+veo canking
+
+Enlisted:
+
+ed
+
+Seaman Second Class Seaman First Class
+
+@
+
+Petty Officer Chief Petty Officer
+
+* (Must achieve this rank
+Q @ =
+
+to receive active duty)
+Ensign Lieutenant J-G. Lieutenant
+* (Must achieve this
+oy ok rank to advance to
+next quadrant)
+
+Officers:
+
+* *
+
+x
+
+Q Q
+Lt- Commander Commander
+kkk * kkk
+=
+Captain Commodore Admiral
+
+* (Must achieve this
+rank to complete the
+final mission)
+
+23 fA
+
+===== Page 23 =====
+
+MISSIONS
+
+You will enc
+
+ollow: rescue mi
+
+aces your duty to
+uccessfully
+
+lete ous organizations
+pasos help will rae ntribute funds
+at will help keep the — t afloat!
+
+Some of your missions
+(for example rescues and
+repair of critically
+damaged equipment) will
+be timed, and a timer
+will appear in the upper
+right of your display to
+indicate time remaining:
+Unless you complete timed
+missions before the timer reaches zero. the
+mission will fail- If you leave a timed mission,
+the timer will keep running. To return to the
+seaduest's controls from a timed mission. press
+
+the L. R. and Select Buttons simultaneously while
+on the Main Control Screen.
+
+| Fen in mind that advances in rank are based upon
+completing your missions and that you will have to
+achieve certain rankings before you can proceed to
+different ocean quadrants:
+
+Ae
+
+===== Page 24 =====
+
+
+
+===== Page 25 =====
+
+essels have located —
+a WuIT plane. Records
+
+re bh Board: Pirate ships
+Spotted in the area and are
+he wreck. Recover the
+oe be
+
+} ‘RESUE TRAPPED SHUTTLE CREW
+
+|? An exploration vessel has been
+_ trapped in a cavern. Its two :
+_ passengers: are still alive but running —
+
+out of oxygen- Locate the vessel and ©
+rescue the crew- Only the Crab is
+
+equipped with a docking hatch and -
+¢ must be used to save the passengers. aS
+
+- Pearl Harbor. You will rendezvous with
+ithe seaduest and assume command. —
+
+coming transmissions indicate a
+ge faction of drug Smugglers in
+—_— area- Return fire if
+
+===== Page 26 =====
+
+SEAL LEAKS IN OIL TAMER HLL
+> An oil tanker has been sunk by S :
+_ ecological terrorists who are
+attempting to destroy it- Scan tie
+
+tire area and use t the ‘seaguest eee
+
+: Darwin IY the R Sorobe to ‘change the
+display in each of the power ‘Switches.
+There are & systems with 3 switches in
+each system - 24 switches ee ge
+Avoid ne ee devices-
+
+occur in 10 minute
+
+various ships to |
+
+gain access to the r
+Radiation shielding ‘must be
+used to shield your ship befo
+removing the ‘core:
+
+===== Page 27 =====
+
+‘GREAT BARRIER REEF
+_ 2 UEO has discovered that the Morey
+pirate organization intends to destroy
+the Great Barrier Reef. They have _
+planted an explosive device at a
+fragile spot in the reef. The
+
+SeaQuest must send Darwin to find and
+defuse the bomb.
+
+DISPOSE OF TOXIC WASTE
+
+> Morey pirates have been illegally
+dumping toxic waste in a deep-sea
+ravine- Current scans indicate Morey
+activity at the dump site. Eliminate
+or dispose of all waste canisters.
+All pirate ships must be destroyed
+before the seaQuest leaves the area.
+
+DESTROY DRUG WAREHOUSE
+
+2 UEO intelligence agents have located
+a Morey drug processing lab- You must |
+eliminate all of the pirates and
+
+their equipment. If the sea@uest
+leaves any Morey forces behind, they
+will relocate their lab to a new
+location.
+
+===== Page 28 =====
+
+aseaeities Seeennalinaeeiadadhteet nearer ae
+
+ATTACK ON ARC-CON PRISON
+
+> Inmates at a security facility have
+seized control of the security system
+and are escaping: Locate and destroy
+
+all of the power relays in order to
+reach and disable the main power relay-
+The sea@uest must restore order before
+Morey reinforcements arrive.
+
+RESTORE COLONY LIFE SUPPORT SYSTEM
+
+> Morey forces have endangered a colony —
+by removing six sections of the life
+support system- Locate each of the
+pieces inside the colony and return
+them to the colony's central power
+structure quickly, or the Moreys will
+take over the ey
+
+DISARM BOMB IN BATTLESHIP
+
+> The Morey organization has placed a
+hydrogen bomb inside a sunken
+battleship- They plan to detonate the
+bomb, causing a massive earthe *
+Since the battleship is located in
+deep ocean trench, you will ha e to us
+the H-R Probe to reach it.
+
+ENGAGE MOREY. PIRATE BASE.
+
+> Intelligence sources have ited the
+Morey base of operations- They inform
+
+us that the Morey leader i; ert +e
+$4444 ¢+ 2 +
+
+===== Page 29 =====

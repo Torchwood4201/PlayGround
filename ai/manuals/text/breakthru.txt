@@ -1,0 +1,969 @@
+# BreakThru!
+source: https://archive.org/details/snes_manual_archive
+pdf: BreakThru! ( USA ).pdf
+region: USA
+pages: 20
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+| Spectrum HoloByte
+
+|
+
+INSTRUCTION BOOKLET
+
+SV Spectrum T
+KIDS T0 ADULTS}
+2490 Mariner Square Loop 3
+Alameda, CA 94501
+
+Printed in Japan AGES 6+
+
+eee ee
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER INFORMA-
+TION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE USING
+YOUR NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+THIS PRODUCT HAS BEEN RATED BY THE ENTERTAINMENT
+SOFTWARE RATING BOARD. FOR INFORMATION ABOUT THE
+ESRB RATING, OR TO COMMENT ABOUT THE APPROPRIATENESS
+OF THE RATING, PLEASE CONTACT THE ESRB AT 1-800-771-3772.
+
+ama
+Official ~N
+\. Seal of Quality “
+
+Seni
+
+THIS OFFICIAL SEAL IS YOUR
+ASSURANCE THAT NINTENDO HAS
+LICENSED BY APPROVED THE QUALITY OF THIS
+PRODUCT. ALWAYS LOOK FOR THIS
+Nintendo SEAL WHEN BUYING GAMES AND
+
+ACCESSORIES TO ENSURE
+NINTENDO, SUPER NINTENDO COMPLETE COMPATIBILITY. ALL
+ENTERTAINMENT SYSTEM AND THE NINTENDO PRODUCTS ARE
+OFFICIAL SEALS ARE REGISTERED LICENSED BY SALE FOR USE ONLY
+TRADEMARKS OF NINTENDO OF WITH OTHER AUTHORIZED
+AMERICA INC. PRODUCTS BEARING THE OFFICIAL
+© 1991 NINTENDO OF AMERICA INC. NINTENDO SEAL OF QUALITY.
+
+eak Thiru
+
+TABLE OF CONTENTS
+Welcome to'BregkTnt 20 cissisiec sie e-oieic grass isis Fsinin oie i
+Loading BreaK inate on rota ae «.-oyo/oyn oe sieicsasess 6
+BreakThru Game Controls ........-.ssseeeeeeeeeed 8
+Playing Breakthru Jn erecarewmnay sh snes caesee 10
+StarEG)BregkT ii exec se wearin ota ee ciate eine ciate 12
+The BreakThru Wall Screen ..........seeeeeeeeeee 13
+Objects onithe: Walle: scr cuieent cel aeamae! 17
+SCOMAG ne. carsines te qatar easn lent he Seals some 21
+EAGING A.GAME ends semewetmniss Sac cee eee casinos 24
+Options Screenine. << 55.6 soteno O25 6s ua asistons 25
+MOUSE SUDDOFE Wi, fate ees Ls RN ole PAE 31
+SHAG MIDS ios cassie yes cee foes oe erator =i)
+
+===== Page 3 =====
+
+veak Tin!
+
+“In the early 1980s, | developed Tetris as a simple exer-
+cise in mathematics. | could not have dreamed the
+impact it would have in the world of games. BreakThru
+carries on the challenging and addicting tradition of
+Tetris, and | am proud to endorse the product. | hope
+you enjoy playing it as much as | do.”
+
+Mar
+
+Alexey Pajitnov
+Mathematician and Puzzle Game Designer
+
+CREDITS
+Artech Digital Entertainments
+Programming: Mike Harley, Michel deBreyne
+Artists: Cory Humes, Colleen Hollub
+Music Orchestration: Mark Mitchell, Darryl Currie,
+Realtime Associates
+Creative Consultants: Rick Banks, Paul Butler
+Spectrum HoloByte, Inc.
+Producer: Harvey Lee
+Music Composition: Paul Mogg, J. White, Andy Edlen
+QA Director: Marjorie DeWilde
+QA Lead: Glen Hendrickson
+Quality Assurance: Duc Le, Garth Gurley, James Green,
+Justin Van Den Berg, Randy Lee,
+Robert Wong, Sergio Vuskovic
+Manual Writing: Victor Cross, Robert Giedt
+Manual Design: Carrie Galbraith
+Manual Layout: Tom Barkett
+Product Marketing: Tom Byron
+Marketing Services: Kathryn Lynch
+
+Art Contribution by Presage Software
+
+Art Director: Steve Snyder
+
+Artists: Brad deCaussin, Nina Chen Gentile
+Additional Art: Karen Ffinch, Carrolly Hauksdottir
+
+ZOO Corporation
+
+Design and Programming
+
+(Original Version): Steve Fry
+
+Music Composition: Shuusuke Fujii
+
+Special Thanks: Pat Feely, Holly Hartz, Dan Irish, Gilman Louie,
+
+Daniel Lucas, Jinichi Miyajima, Alexey Pajitnov,
+Hiro Taguchi, David Warhol, Steve Weinstein
+
+Game © 1989, 1994 ZOO Corporation. All Rights Reserved, Created by ZOO
+Corporation. BreakThru is a trademark of Spectrum HoloByte, Inc. Spectrum HoloByte
+is a registered trademark of Spectrum HoloByte, Inc. Other trademarks are the prop-
+erty of their respective holders.
+
+===== Page 4 =====
+
+anh
+Bleak Thiru!
+ABOUT THE SPECTRUM HOLOBYTE
+PUZZLE LINE
+
+Alexey Pajitnov, creator of the world-famous Tetris, is
+lending his endorsement to and is helping in the
+design of a full line of action puzzle games from
+Spectrum HoloByte. The line includes the company’s
+existing Tetris games, as well as new and increasingly
+exciting and super-challenging puzzle products.
+
+Since its debut in 1988, Tetris has been on best-seller
+lists, and the famous game of falling blocks continues
+its phenomenal popularity to this day. Included in the
+Spectrum HoloByte puzzle line are products for per-
+sonal computers and videogame systems. For person-
+al computers, the line features Tetris, Welltris,
+Faces...Tris Ill, Wordtris, Super Tetris, Tetris Classic and
+now BreakThru. For videogame systems, the line
+includes Wordtris (SNES, Game Boy), WildSnake (SNES,
+Game Boy) and now BreakThru (SNES, Game Boy).
+Puzzle games within the line are fun, challenging, uni-
+versally nonviolent and are ideal for all ages and skill
+levels.
+
+All the titles listed above are available at your local
+software retailer or can be ordered directly from
+Spectrum HoloByte anytime by dialing 1-800-695-
+GAME.
+
+Break fir!
+
+WELCOME TO BREAKTHRU
+
+BreakThru is the one game where you're really up
+against the wall! Clearing bricks, lining up falling
+objects, blowing up soda cans, firing rockets, racing
+the clock... the action never stops in BreakThru. In this
+action puzzle game, you try to remove all the bricks
+from a wall before your time is up—a challenge which
+starts out easy at first, but becomes tougher as you
+get closer to your goal. And as you move through the
+different levels of BreakThru, you'll be taking down
+walls in different cities of the world, each with its own
+unique scenery and musical soundtrack! BreakThru is
+a fast-paced game for one or two players that’s a test
+of your hand-eye coordination as well as your color
+coordination. But beware! Once you start playing
+BreakThru, it’s hard to stop!
+
+===== Page 5 =====
+
+Break Thiru
+
+LOADING BREAKTHRU
+
+j
+
+Here's what you'll need to do before you can play:
+
+1,
+
+Set up your Super Nintendo Entertainment
+System (SNES) according to the instructions in
+your user’s guide.
+
+Plug a controller into Controller Slot 1 on your
+SNES. If you have a second controller and want to
+play a two-player game, plug the other controller
+into Controller Slot 2.
+
+Make sure the power switch is OFF.
+
+Plug the BreakThru game pak into the console and
+press it down firmly.
+
+Turn the power switch ON.
+
+After the introductory screens, you'll be at the Title
+screen.
+
+) “The! Ww
+
+Bleak tint
+
+\
+Important note: If you don’t see the introductory
+screens when you turn your SNES on, turn the power
+switch to OFF. Check all connections and make sure
+you've set up your SNES properly. Next, remove the
+BreakThru game pak and reinsert it with the label fac-
+ing the front. Finally, turn the power switch to ON.
+
+Always turn the power OFF before removing or insert-
+ing a SNES game pak.
+
+===== Page 6 =====
+
+Break Thiru
+
+BREAKTHRU GAME CONTROLS
+
+Control Pad Button Y
+
+Control Pad
+
+Moves cursor square around wall in any of four
+directions: up, down, left or right
+
+Button B
+
+Clicks on where cursor is positioned to remove
+bricks, fire rockets, explode dynamite sticks, and
+select super bricks
+
+Button X
+
+Changes Shifter direction so that brick columns
+slide left or right
+
+Button Y
+
+Turns Grid on and off
+
+Breakthru
+
+Press this and press left on the control pad to move
+objects at the top of screen to the left
+
+Press this and press right on the control pad to
+move objects at the top of screen to the right
+
+Press this and press down on the control pad to
+drop objects from the top of the screen
+
+START Button
+
+Pauses and unpauses game
+
+===== Page 7 =====
+
+Break hn
+
+Break hut
+
+PLAYING BREAKTHRU
+
+The object of BreakThru is to remove all bricks and for-
+eign objects (except for rocks and spiders) from a wall
+before time runs out.To do this, move the square cur-
+sor to a brick that is next to another brick of the same
+color (either horizontally or vertically), then press
+Button B on your controller.
+
+As you remove the lower-level bricks, gravity will pull
+the higher-level bricks into the gaps. When all the
+bricks in a column are removed, the remaining
+columns of bricks will slide over to fill up the empty
+space. You can change which direction these columns
+of bricks will slide by using the Shifter.
+
+To make the game even more challenging, bricks and
+foreign objects will fall randomly from the top of the
+screen. You'll also have to overcome a variety of obsta-
+cles, such as rocks, which can’t be destroyed or
+removed from the wall. There are pesky spiders which
+dangle from their webs and block the movement of
+bricks, plus stubborn soda cans, which must be
+destroyed.
+
+But certain foreign objects can help you clear the
+bricks in the wall and eliminate obstacles. Exploding
+dynamite sticks destroy bricks and obstacles (except
+rocks) in all directions. Rockets blast away all bricks
+
+and obstacles (except rocks) in their path. And the
+super brick clears away all bricks of the next selected
+color.
+
+Eventually, you'll only have a few bricks left to remove.
+Now, you can turn on the Grid and use its lines to help
+you drop bricks and objects into the best places in the
+remaining wall. You'll find that the Shifter is also help-
+ful for clearing spaces for bricks and objects to drop.
+
+When you remove the last brick or object (other than
+rocks and spiders), you've cleared the wall! Now, you'll
+move onto another wall—and another challenge.
+After you clear four walls in one city, you'll travel to a
+different city in the world. When you've cleared four
+walls in each of the six cities, you've completed a
+world tour. You'll then begin another world tour in the
+same six cities, but at a higher level of difficulty.
+
+===== Page 8 =====
+
+Break Thru
+
+STARTING BREAKTHRU
+
+After you've loaded BreakThru, the introductory
+screens will appear on your television screen, and
+you'll see the Title screen. It has a large “BreakThru”
+logo and the words START and OPTIONS at the bot-
+tom. Highlight either of these words by pressing left
+or right on the control pad, then press any button to
+select. If you choose START without selecting
+OPTIONS, you'll begin a game set to the default
+options: a SINGLE player game, an EASY level of play,
+and a5 MIN time limit. Selecting OPTIONS lets you set
+different configurations for BreakThru, including two-
+player games. (For more information on Options, see
+page 25.)
+
+Break liu
+
+Here’s what you'll see when you start to play
+BreakThru:
+
+Display / World
+} Map
+
+Timer i= x Tour
+, Display
+
+Sledge-
+Shifter : hammers
+
+The Wall
+
+This is where the action takes place! Each wall is 15
+bricks wide and 16 bricks high, and is located between
+two permanent walls that are covered with displays
+and icons. To remove bricks from the wall, press up,
+down, left and right on the control pad to move the
+square cursor all over the wall. Once the cursor is ona
+brick that is touching another brick of the same color
+horizontally or vertically, press Button B. These bricks
+will be removed instantly.
+
+===== Page 9 =====
+
+Breakthru
+
+Bricks and foreign objects will be moving constantly
+from right to left above the wall. If they’re left alone,
+they'll fall on top of the wall after a set amount of
+time. You can move these bricks and objects back and
+forth along the top by pressing and holding Button A,
+theo pressing left or right on the control pad. To drop
+these bricks and objects, press and hold Button A, and
+then press down on the control pad.
+
+Score Display
+
+Your current score can be found on the upper left-
+hand corner, below the word SCORE.
+
+Timer
+
+This is located below the score display. It will count
+down from either 2 MIN, 5 MIN or 10 MIN. (See page 29
+to choose a time limit.) When the timer counts down
+to 30 seconds, it will flash and you'll hear a loud warn-
+ing noise to let you know that you're running out of
+time. At 10 seconds and 5 seconds, the timer will flash
+again and you'll hear the same warning noise. If the
+timer reaches 0 seconds and you haven't finished
+clearing a wall, you'll lose one of your lives.
+
+Grid
+
+The circular object just below the timer is the Grid.
+When it's activated, vertical lines will appear in the
+background of the wall. These lines help you to drop
+falling bricks and other objects into the best positions
+on the wall. To turn on the Grid, press Button X. If the
+Grid lines are hard to see, turn the background off
+from the Options menu. (See “Background Off” on
+page 29.)
+
+Shifter
+
+Toward the bottom of both the left and right perma-
+nent walls, you'll find two Shifter arrows pointing left
+and right. One will always be lit up, indicating the
+direction that columns of bricks and other objects will
+shift at the base of the wall. To change this Shifter
+direction, press Button Y. The arrow on the opposite
+side of the screen will now be lit up.
+
+===== Page 10 =====
+
+World Map/Tour Display
+
+The world map is found in the upper right-hand cor-
+ner. The dot on the map is the geographical location
+of the city where you're clearing a
+wall. The tour display just below it
+shows the city name, world tour num-
+ber, and wall number you're currently
+working on.
+
+The picture at the left means you're in
+Berlin, on the first world tour, and
+you're working on the second wall of
+that city.
+
+Sledgehammers
+
+You'll see these just below the world map/tour dis-
+play. Each sledgehammer stands for one life you have
+left. You begin each game with three lives (the current
+one and two extras).You lose a life (and a sledgeham-
+mer) every time you fail to clear a wall before time is
+up. If you complete a world tour and have lost a life or
+two along the way, you'll receive an extra sledgeham-
+mer (a life) as a bonus. However, if you haven't lost a
+life while completing your world tour, you cannot earn
+an extra life since you can’t have any more than three
+lives at one time.
+
+BreakTlin!
+
+OBJECTS ON THE WALL
+
+Bricks
+
+These are the main components of the walls
+in BreakThru. Bricks come in a variety of col-
+ors, depending on the difficulty level you're
+playing at. CHILD-level walls start with three
+colors of bricks, EASY and MEDIUM-level walls start
+with four colors, and HARD-level walls start with five.
+
+Dynamite Sticks
+
+You may find dynamite sticks in the wall
+Fa when you begin a game, and they can also
+
+fall from the top of the screen. To explode a
+
+dynamite stick, click on it with Button B when
+it’s at the base of the wall. The blast from a single stick
+will destroy all bricks and objects (except rocks) with-
+in one square of the stick. If two dynamite sticks land
+next to or on top of one another anywhere in the wall,
+they'll both explode.
+
+===== Page 11 =====
+
+BreakT hvu
+
+Rockets
+
+These will shoot out in the direction they‘re
+pointed (either up, down, left or right) and
+remove everything in their path (except
+rocks). To fire a rocket, click on it with Button
+B. Unlike dynamite sticks, rockets can be fired from
+anywhere in the wall, not just at the bottom.
+
+Super Bricks
+
+One of these powerful, four-color bricks will
+
+appear after every 10,000 points you score,
+
+or after 5,000 points in the CHILD difficulty
+
+level. (If you go over the 10,000-point barrier
+from bonus points, you won't get a super brick.) When
+you click on one with Button B, the sides of the wall
+will flash. Next, select any color brick in the wall, and all
+bricks of that color will disappear from the wall. Be
+careful not to accidentally destroy a super brick with a
+dynamite stick or a rocket.
+
+Soda Cans
+
+These trashy obstacles are found in the wall
+i, at the higher difficulty levels, and must be
+removed. To get rid of a soda can, either fire a
+rocket at it or explode a dynamite stick near
+it. Soda cans never fall from the top of the screen.
+
+Spiders
+
+These annoying insects hang from a single
+
+thread at the top of the wall. Bricks and
+
+objects that fall and hit a spider are deflected
+
+to one side or the other. A spider can also
+block the left-right movement of stacks of bricks. You
+can kill a spider with a rocket or a dynamite stick
+explosion, but you don’t need to remove spiders in
+order to clear a wall.
+
+===== Page 12 =====
+
+Break Thiru!
+
+Break hvu!
+
+These are (literally) the hardest objects to
+handle. Rocks can’t be destroyed, and they
+prevent columns of bricks from being shift-
+ed. Dynamite sticks will not blow up or move
+rocks, but rockets will move a rock one space in the
+
+direction the rocket is pointed, if there’s nothing on
+the other side of the rock.
+
+SCORING
+
+Every time you remove bricks from the wall, you earn
+points. The more bricks you remove at one time, the
+more points you get. In addition, the higher the diffi-
+culty level you play at, the more points each brick is
+worth. CHILD-level bricks are worth 3 points, EASY-
+level bricks are worth 5 points, MEDIUM-level bricks
+are worth 7 points, and HARD-level bricks are worth
+12 points. The point value of the brick is multiplied by
+the difficulty level, and that value is multiplied by the
+number of bricks cleared to give a score.
+
+If more than 50 bricks are cleared at one time, the mul-
+tiplier for the number of bricks will remain at 50.
+
+When you remove a brick (or group of bricks) by using
+a super brick, each brick is worth 1 point. If you use a
+dynamite stick or a rocket to eliminate bricks, each
+brick is worth 10 points.
+
+===== Page 13 =====
+
+Points for Other Items
+
+Dynamite Sticks
+
+You earn 0 (zero) points for removing or detonating a
+dynamite stick.
+
+Rockets
+
+Rockets that are launched are worth 0 (zero) points. If
+a rocket is destroyed by another rocket or a dynamite
+stick, it’s worth 10 points.
+
+Super Bricks
+
+If you activate a super brick, it’s worth 0 (zero) points.
+If a super brick is destroyed by a dynamite stick or
+rocket, it’s worth 10 points.
+
+Spiders
+
+A spider is worth 500 points when destroyed by a
+dynamite stick or a rocket.
+
+Soda Cans
+
+Each soda can is worth 250 points when removed by
+a dynamite stick or a rocket.
+
+Rocks
+
+Since a rock can't be destroyed, you can’t get any
+points for them.
+
+Selection Penalty
+
+Think you can get a better score by randomly select-
+ing bricks all over the screen? Think again. If you select
+a brick that isn’t next to a brick of the same color and
+can't-be removed from the wall, you'll lose 25 points
+per each press of Button B.
+
+Time Bonus
+
+If you have any time left on the timer after you've
+removed a wall, you'll earn bonus points. In a 2 MIN
+game, you get 200 points for every second left on the
+timer. In a 5 MIN game, you get 20 points per second
+remaining. In a 10 MIN game, you get 2 points for each
+second left. Finally, in a NO LIMIT game, you (obvious-
+ly) don’t get any time bonus.
+
+===== Page 14 =====
+
+ENDING A GAME
+
+If your time runs out before you've removed all the
+bricks from a wall and you have no remaining lives left
+(shown as sledgehammers), the game is over. You'll
+then move to the High Score screen. There, you'll see
+the letters of the alphabet, along with three blank
+spaces at the top for you to put your initials. Press up,
+down, left and right on the control pad to move the
+cursor to the letters of your initials. Then press any
+button to select that letter and move to the second
+letter of your initials. Click on DELETE if you've entered
+a letter by mistake, and click on DONE when you've
+finished. Your initials and score will then be displayed.
+
+Since BreakThru does not have a battery backup, the
+scores you achieve will be deleted when you turn your
+SNES off.
+
+reak Thru!
+
+When you select OPTIONS from the Title screen, you'll
+move to the Options screen. There, under the heading
+OPTIONS, you'll see a menu of all the game play con-
+figuration choices available to you. Press up or down
+on the control pad to highlight an option, and press
+left or right on the control pad to cycle through the
+choices. When you've made your picks, highlight EXIT
+and press any button to return to the Title screen,
+where you can press START to play a game of
+BreakThru with the options you've selected.
+
+===== Page 15 =====
+
+edk Thiru
+
+MODE |
+‘DIFFICULTY|
+BACKGROUND |
+“MUSIC |
+"SouND Fx |
+CREDITS,
+
+EXIT
+
+Mode
+
+Select this to cycle through these four game play
+modes:
+
+Single
+Choose this to play a one-player game.
+
+(The following three games are for two players. You'll
+need to plug two controllers into your SNES so that
+you and your friend can play them.)
+
+Break Thiru!
+
+Cooperative
+
+Choose this to play a two-player game where both
+players cooperate with each other to clear the same
+wall. Each player controls his or her own cursor. The
+score displayed is the total of both player's scores.
+
+Competitive
+
+Choose this to play a two-player game where both
+players compete against each other to remove bricks
+from the same wall. Each player controls his or her
+own cursor. The player using a controller plugged into
+Controller Slot 1 will see his or her score on the lower
+left side of the game screen, while the player using a
+controller plugged into Controller Slot 2 will see his or
+her score on the lower right side. The player with the
+higher score at the end of the game is the winner.
+
+===== Page 16 =====
+
+Dual Wall
+
+Choose this to play a two-player, two-wall game
+where each player tries to clear his or her own wall
+ahead of the other player. (Player 1 is on the left and
+Player 2 is on the right.) The player using a controller
+plugged into Controller Slot 1 will see his or her score
+on the lower left side of the game screen, while the
+player using a controller plugged into Controller Slot
+2 will see his or her score on the lower right side. To
+spice up the competition, whenever a player clears
+
+seven or more bricks with one click, up to five bricks of
+random colors will be sent to the other player's wall
+where they'll fall from the top of the screen. (However,
+any bricks removed with a super brick will not be sent
+
+to the other player.) If one player clears the wall before
+the other player, he or she will be given time bonus
+points. The player with the higher score at the end of
+the game is the winner.
+
+Difficulty
+
+Select this to choose from BreakThru's four difficulty
+levels: EASY, MEDIUM, HARD and CHILD.
+
+Time Limit
+
+There are three time limits you can set for a game of
+BreakThru: 5 MIN, 2 MIN and 10 MIN. If you select the
+CHILD difficulty level first, you'll also have the choice
+of NO LIMIT. The time limit you choose is the amount
+
+of time you have to clear a wall. The clock resets after
+each wall is cleared.
+
+Background
+
+This turns the background scenery for BreakThru ON
+or OFF.
+
+Music
+
+This turns the background music for BreakThru ON or
+OFF.
+
+===== Page 17 =====
+
+Bleak llr
+
+Sound FX
+This turns the sound effects for BreakThru ON or OFF.
+Credits
+
+Select this to view the names of the people who
+brought you BreakThru.
+
+Exit
+Highlight this and press any button to return to the
+Title screen.
+
+Be sure to choose your options carefully, since once
+you leave the Options menu and are playing a game
+of BreakThru, you cannot go back and change the
+options without ending the game first.
+
+Breakthru
+
+MOUSE SUPPORT
+
+You can use the SNES Mouse instead of the controller
+to play BreakThru—in fact, we highly recommend it.
+
+Right Button
+
+Left Button
+
+Basically, moving the mouse moves the square cursor
+all around the wall. To remove bricks, shoot rockets or
+detonate dynamite sticks, move the cursor and click
+the left mouse button. To turn the Grid and the Shifter
+on and off, click on the Grid or arrow icons on the per-
+manent wall. To move the new bricks and objects left
+and right at the top of the wall, hold down the right
+mouse button and move the mouse left and right. To
+drop bricks and other objects from the top of the wall,
+hold the right mouse button and click the left mouse
+button.
+
+When you're at the Title screen, select either START or
+OPTIONS by clicking the left mouse button. When
+
+===== Page 18 =====
+
+BreakThrul
+
+you're at the Options screen, click on a word to high-
+light it. Then click on it again to cycle through the
+choices. BreakThru only supports playing with one
+mouse. If you're playing a two-player game, one play-
+er must use the controller.
+
+Mouse Controls
+
+Mouse Movement
+
+Moves cursor in all directions
+
+Left Mouse Button
+
+Clicks on where cursor is positioned
+
+Right Mouse Button
+
+When held down, moves objects at the top to the left
+and right when mouse is moved left and right
+
+Left and Right Mouse Buttons
+Drops objects from top of screen
+
+Note: To pause the game, you will need to press the
+START button on your controller.
+
+Break liu
+
+Everyone has his or her own ways of playing
+BreakThru, but here are a few tips we came up with to
+help you play better and get a higher score:
+
+Don't click on the wall unnecessarily. This wastes time
+and subtracts valuable points from your score.
+
+Clear all bricks of one color first. \f you do this, you'll
+have fewer colors and larger groups of bricks that
+will be easier to clear away. What's more, when you
+eliminate these large groups of bricks, you'll get
+more bonus points!
+
+Clear top bricks first. Removing lower bricks first will
+cause the upper bricks to fall and could ruin good
+chances for you to clear large numbers of bricks.
+
+Use your dynamite sticks wisely. The best use of a
+dynamite stick is to destroy the soda cans, so try to
+position your dynamite sticks so that they'll destroy
+the most cans. If you can’t explode a dynamite stick
+because it’s not on the lowest level, look for one to
+appear on the top of the screen. Then drop this
+dynamite stick on top of or next to the other, and
+both dynamite sticks will explode.
+
+Plan ahead. By removing certain bricks, you can
+often move dynamite sticks or rockets into strategic
+places.
+
+===== Page 19 =====
+
++ Use the Shifter often. The Shifter comes in handy
+when you want to create openings for new bricks to
+fall. It’s especially useful in higher level games where
+there are many cans, spiders and rocks that get in
+the way.
+
+Wait before you use your rockets. Rockets can destroy
+a large number of soda cans, so don't fire them off
+right away. Since soda cans tend to collect along the
+bottom of the wall, try to maneuver horizontal-
+firing rockets to the bottom of the wall by using the
+Grid and the Shifter. Then fire away and blast the
+cans! Also, since horizontal-firing rockets are so
+useful, keep your eye out for them when they show
+up at the top of the screen, then drop them where
+you need them. Vertical, downward-pointing
+rockets are also handy for destroying a large column
+of bricks.
+
+Exterminate those pesky spiders. A good way to do
+this is to leave a large stack of bricks untouched and
+wait until a horizontal-firing rocket appears. Drop
+the rocket on top of this stack of bricks. Then, reduce
+the size of the stack until the rocket is pointing
+directly at the spider. Fire the rocket and destroy the
+spider.
+
+War AP |
+Bleak tint
+JU
+* Don’t blow up super bricks! Super bricks are the most
+valuable object you can receive and should not be
+wasted. Remove as many bricks as possible first,
+
+then use the super brick to eliminate the brick color
+you have the most of.
+
+* Try to group same-colored bricks. Sometimes, by
+vaporizing certain bricks, you can bring larger
+groups of bricks of the same color together. Look for
+these color patterns in the wall and click wisely.
+
++ If you're playing the two-player dual wall game, send
+large numbers of bricks to your opponent. Try to clear
+seven or more bricks at a time as often as you can,
+and you'll overwhelm your opponent with
+unwanted bricks.
+
+===== Page 20 =====
+
+Breakthru
+
+SCORES
+
+90-DAY LIMITED WARRANTY:
+
+Spectrum HoloByte warrants to the original consumer purchaser that this Game Pak
+("Pak") (not including Game Pak Accessories or Robot Accessories) shall be free from
+defects in material and workmanship for a period of 90 days from date of purchase.
+If a defect covered by this warranty occurs during this 90-day warranty period,
+Spectrum HoloByte will repair or replace the Game Pak, at its option, free of charge.
+To receive this warranty service:
+
+1. Do not return your defective Game Pak to the retailer.
+
+2. Notify Spectrum HoloByte'’s Customer Support department of the problem requir-
+ing warranty service by calling (510)522-1164. Our Customer Support department
+is in operation from 9:00 am to 5:00 Pm Pacific Standard Time, Monday through
+Friday.
+
+3. If the Spectrum HoloByte Customer Support Representative is unable to solve the
+problem by phone, he or she will provide you with a Return Authorization num-
+ber. Simply record this number on the outside packaging of your defective Game
+Pak, and return your Game Pak postage paid, at your risk of damage, together with
+your dated sales slip or similar proof-of-purchase within the 90-day warranty peri-
+
+to:
+
+Attn: SNES BreakThru!
+2490 Mariner Square Loop
+Alameda, CA 94501
+
+This warranty shall not apply if the Game Pak has been damaged by negligence, acci-
+dent, unreasonable use, modification, tampering, or by other causes unrelated to the
+defective materials or workmanship.
+
+WARRANTY LIMITATIONS
+
+ANY APPLICABLE IMPLIED WARRANTIES, INCLUDING WARRANTIES OF MER-
+CHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE HEREBY LIMITED TO
+NINETY DAYS FROM THE DATE OF PURCHASE AND ARE SUBJECT TO THE CONDITIONS
+‘SET FORTH HEREIN. IN NO EVENT SHALL SPECTRUM HOLOBYTE BE LIABLE FOR CON-
+SEQUENTIAL OR INCIDENTAL DAMAGES RESULTING FROM THE BREACH OF ANY
+EXPRESS OR IMPLIED WARRANTIES.
+
+The provisions of this warranty are valid in the United States only. Some states do not
+allow limitations on how long an implied warranty lasts or exclusion of consequen-
+tial or incidental damages, so the above limitations and exclusion may not apply to
+you. This warranty gives you specific legal rights, and you may also have other rights
+which vary from state to state.

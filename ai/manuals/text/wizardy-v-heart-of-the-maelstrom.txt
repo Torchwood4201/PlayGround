@@ -1,0 +1,1850 @@
+# Wizardy V - Heart of the Maelstrom
+source: https://archive.org/details/snes_manual_archive
+pdf: Wizardy V - Heart of the Maelstrom ( USA ).pdf
+region: USA
+pages: 27
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+INSERACTION MANUAL
+
+SET MNTEND
+
+TENTS ATTA AOKI Nie SiASTIET,
+
+===== Page 2 =====
+
+‘A SPECIAL MESSAGE FROM CAPCOM
+‘Thank you for selecting Wizardry V, the latest addition to
+CAPCOM's library of titles.
+
+Wizarclry V features colorful state-of-the-art 3-dimensional graphics
+and stereo sound for your Super Nintendo Entertainment System.
+
+Weal CAPCOM are proud te bring you this exelng new
+‘xlition to your vdeo ame brary,
+
+Aoeph Mea
+
+Josop Mori!
+
+Senior Vice President
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION & PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO” HARDWARE SYSTEM OR GAME PAK. |
+
+Copyright @ Rober J. Woodhead and Sir-tech Software Inc.All Rights
+Reserved. Wizardry is a registered trademark of Sit-Tech Sotiware, ne.
+Wizardry Heart of the Maelstrom is a copyrighted program licensed to ASCII
+Corporation and CAPCOM CO. LTD. by Sir-Tech Software, Inc. CAPCOM
+USA Inc. isthe authorized distributor.
+
+CAPCOM
+
+ABCOMUNS Ay Iii, wamtep eames) iim meats
+arscukmendPatany HEH IRS Sleene
+‘Sunnyvale, California RAMA ‘LOOK FOR THS SEAL WHEN BUYIN
+nee Seer | seeceere
+
+af
+
+Pable Of Contents
+
+Heart of the Maelstrom,
+Journey to the Land of Wizardr
+Using the controlle
+
+‘The Castle...
+Creating a Character in Training Grounds ..
+Race, Alignment, Statistics and Class...
+
+Other Training Ground Option:
+Llylgamyn Locations .
+Gilgamesh’s Tavern...
+Tavern Functions,
+Inspecting a Character.
+
+Statistical Categori
+
+Casting Spells. 2
+Equipment Guidelines... ese BB
+Adventurer’s Inn. 26
+Staying at the Inn . 26
+Moving up a Level. . 26
+Boltac’s Trading Post . 7
+
+Pool Gold...
+Buying Items
+Selling Items, Removing Curses...
+Identify TtemsPool Gold
+
+‘Temple of Cant.
+
+===== Page 3 =====
+
+able Of Contents cont,
+
+Restarting an “Out” Party.
+Adventuring..
+
+Preparing a Party...
+‘Touring and Mapping the Maze
+
+Secret Doors ....00 » 32
+Hidden Items 33
+Deceased Bod seennnen 8B
+Picking Locks... . 8
+Camping Out . 34
+
+Saving. 34
+Swimming... 34
+Treasure chests... 35
+
+Combat...
+
+Fight, Parry, Dispel, Spells.
+Run, Hide, Ambush
+Non-Player Character Interaction.
+Talk, Barter, Give, Steal...
+pic.
+Using Spells... si
+
+Magic Resistance Spells
+
+Spell List.
+Grid Pages
+90 Day Limited Warranty
+Notes Page.
+
+43
+
+Keart Of Lhe Maelstrom
+
+Tou feel the effects of three days without food so you step
+
+into the dilapidated tavern for some refreshment. Before you
+
+even have a chance to take a bite the door swings open and
+
+a tall, thin man of indeterminable age steps in and glances,
+
+at the faces in the room (especially at your table, where
+
+several others sit).
+
+‘You do not know that this stranger is well-known here and
+
+comes to the tavern each night in a quest for strong people
+
+capable of teaming together to save the world. He asks to
+
+join you at your table, and you unknowingly invite him to
+
+spin a tale of wizardry.
+“Welcome to our beautiful land of Llylgamyn,” he begins.
+“[see you are all new here and have no idea how much the
+and, the people and the very air we breathe have changed
+for the worse. If you will allow me, I will entertain you with
+a tale of adventure, magic and bravery.” Everyone at the
+table allows him to sit especially since he sets down several
+large bags of gold coins.
+“Years ago, there was a hardy band of adventurers who
+began a quest to recover the magical orb of Llylgamyn from
+the awful dragon L’Kbreth. The Orb was needed for the
+health and prosperity of our land in ways we did not
+comprehend. Without it, earthquakes, plagues and chaos
+reigned. Fortunately the adventurers were victorious and
+returned the Orb to us. There was great rejoicing and once
+again peace and prosperity filled the land,
+“As time passed, though, terrible events returned. Was not
+the magical Orb in our land, safeguarded by the mystical
+group we call the Brotherhood? The people of Llylgamyn
+turned to the High Council of Sages to find the answers.
+
+— 5
+
+Ss
+
+===== Page 4 =====
+
+Heart Of Lhe Maelstrom cont.
+
+“An emergency meeting of the Council was held, and
+weeks passed as the Sages sat behind closed doors testing
+their knowledge and magical powers. They tried to find the
+solution to this new danger threatening Llylgamyn. When
+they emerged, pale and haggard, unfortunately they had
+terrible news.”
+
+The stranger pauses, looks each person in the eye and takes a
+
+quick drink of fruit juice to rest his voice. A service boy refills
+
+his cup as the stranger continues.
+“An unnatural, magical vortex, the cause of all these
+disasters, has formed deep within the caves below the
+resting place of the Orb,’ the Sages warned. ‘The balance
+of the Four Elemental Forces was undone and the nexus of
+the forces lies in the Heart of the Maelstrom. It will grow
+and engulf not only our city and our country, but our
+entire world may be swallowed.’
+“The Sages had only one recourse in this time of terrible
+danger. This was the Gatekeeper, an Arch-Mage whose
+responsibility is to watch and preserve the balance between
+the planes of magic and the natural world. This individual,
+once human and now much more, might help if he will
+listen to mortals at all. The Sages were confident that the
+grave danger would lead to an answer from the Gatekeeper
+but to their dismay he himself was held prisoner in the very
+vortex they wished him to destroy!”
+
+“Terrified, the Sages turned to the Brotherhood, whose
+knowledge of the mystical and magical exceeded their own.
+They learned of a renegade Brother, named Sorn, who
+sought to end all order in the universe. She had discovered
+a means to create the vortex that now threatens our land. It
+was she who trapped the Gatekeeper and made him
+
+—s-}--
+
+Reart Of Che Maelstrom cont.
+
+prisoner. She must be stopped, lest we all perish with
+the very world in which we live.”
+‘The stranger falls into a deep silence, then lifts his head and
+says, “I am Fontzian, one of the Twelve Sages of the Council.”
+The room darkens momentarily and the stranger disappears.
+Before anyone has time to react, a hooded figure unwraps
+itself in the far comer of the room. You instinctively reach for
+your weapon unsure what more to expect from this strange
+land. A voice which you cannot distinguish as male or female
+booms “Do not be afraid, 1am Yeldarb, the highest of the
+Council Sages of Llylgamyn.”
+“We need brave adventurers willing to descend into the
+deepest levels of the vortex. There you will face many
+dangers and your strength, courage and intellect will be
+tested. You must find the Gatekeeper and free him from
+the ever-growing vortex. However, you must first defeat
+the evil Sorn, a mighty magician in her own right.
+“To begin this journey, if you possess the courage to do so,
+seek out G’Bli Gedook, the Highest Brother, who guards
+the secrets of the magical Orb of Llylgamyn,” Yeldarb
+continued. “He can be found in the upper level of the Maze
+just outside our city. He will tell you what he knows, but
+you should question him carefully to get all the information
+you require. Please seek his advice because only there can
+your adventure truly begin. Defeat the hazards Som
+conjures up to stand in your way. Free the Arch-Mage from
+the vortex and you will free the land of its pending doom!”
+“Our wishes are with you. Go now and search for G’Bli
+Gedook, the Gatekeeper and inevitably the evil Sor. May
+luck be with you.” And with those final words, Yeldarb
+dissolves into darkness. Do you have the courage to
+challenge the Heart of the Maelstrom?
+
+—7-}—-
+
+===== Page 5 =====
+
+Tourney Lo
+Phe Land Of Wizardry
+
+‘Welcome to the land of Wizardry. Heart of the
+Maelstrom is the fifth scenario in the Wizardsy series,
+and carries on the exalted tradition of its predecessors.
+Wizardry is not just a game to play and put away; it
+illustrates fantasy role-playing at its finest with years of
+adventuring ahead of you. Journey now into the Heart
+of the Maelstrom and let your imagination flow into a
+world of magic and bravery.
+
+Using The Controller
+
+In the Castle
+AorX button Select item
+Bor Y button Cancel item
+
+—s—f--
+
+Tourney Lo
+The Land OF Wizardry cont.
+
+In the Maze
+Control pad up Step forward.
+Control pad down Turn back
+Control pad right Tum right
+Control pad left Turn left
+
+L button Step left
+
+Rbutton Step right
+
+A button Kick door and step forward
+
+B button Camp
+
+X button ‘Menu for Secret Doors
+
+Y bution ‘Menu of commands
+
+Select Same as Y button
+
+Start Configure Party and Help windows
+
+From the WIZARDRY V title screen, press any button to bring
+up the options “Start game” or “Select switch.” Open “Select
+switch” and follow the on-screen directions to change basic
+parts of your game. MAZE allows you choose from solid,
+colorful maze walls or bare walls with only lines. You can
+also turn the music and sound effects on or off.
+
+Once back at the title screen, select “Start game” and press
+the A, X or R button to enter the world of Wizardry. Press
+the B or Y button to automatically go the Edge of Town,
+
+oe
+
+===== Page 6 =====
+
+Tourney Lo
+Phe Land OF Wizardry cont.
+
+The Castle
+
+The Wizardry world is controlled through the many locations
+in the Castle of Llylgamyn. The castle is a safe place where
+your adventurers can train, rest, buy goods or even cure fatal
+‘wounds. Inside the castle there are five locations which offer
+‘special services to you and your adventurers. These are
+Gilgamesh’s Tavern, Boltac’s Training Post, the Temple of
+Cant, the Adventurer’s Inn and the Training Grounds, which
+is located at the Edge of Town,
+
+At the Edge of Town, which is just a short walk through the
+Castle doors, your characters may visit the Training Grounds,
+enter the Maze, restart an “out” party (see Edge of Town,
+
+Pg. 30) or return to the Castle.
+
+Here are the Edge of Town options:
+The Maze has been the inspiration and the end of many a
+character. Here, adventurers search for experience, loot and
+<lues to assist them in their missions. They'll meet other
+adventurers, monsters, tricks and traps.
+
+While novices, your characters can only spend short
+amounts of time in the Maze. One encounter could be their
+downfall! As they become more proficient and experienced,
+longer expeditions will occur.
+
+The Training Grounds are located right outside the Castle.
+It is here that you create new, apprentice characters, and
+can inspect veteran characters.
+
+—10—|—-
+
+Tourney Le
+The Land Of Wizardry cont.
+
+CREATING A CHARACTER IN TRAINING GROUNDS
+
+Here is how you commission characters to join your party:
+
+There are 6 options in the Training Grounds:
+CREATE a character
+INSPECT a character
+DELETE a character
+CHANGE a character's NAME
+CHANGE a character's CLASS
+REORDER your character lineup
+
+‘After you enter CREATE, name your character with the
+letters provided. Wizardry will ask if you want to create this
+character, s0 choose YES or NO depending on what you want
+todo. If you CREATE a character then change your mind you
+can always DELETE and re-enter it.
+
+Race, Alignment, Statistics and Class
+Now choose what type of character you want. You can
+choose from 5 different races, each with different strengths
+and weaknesses, most visibly reflected in the statistics for
+each race (see following page). The character's race also
+affects the ability to find secret doors and hidden items.
+
+—1i-f
+
+===== Page 7 =====
+
+Hourney Lo
+The Land OF Wizardry cont.
+
+Humans excel at nothing, yet have no particular
+weaknesses,
+
+Elves are intelligent but not very strong, They excel
+
+at intellectual pursuits and are excellent spell-casters.
+Dwarfs are strong and hardy. They love fine weapons
+and armors and are delighted to have a good fight.
+Gnomes are agile and due to their austerity they make
+excellent Clerics.
+
+Hobbits are agile and very, very lucky. They are
+happy-go-lucky and with the right training can
+become superb Thieves.
+
+Now it's time to choose the association or alignment of your
+character. Alignment describes your character's ethical
+outlook and has an impact on the classes the character
+
+may enter. Again, just choose between these three:
+
+Good characters are very good. They will go out of their
+way to help their mothers with the shopping.
+
+Neutral characters take life as it comes. They will
+
+help their mothers shop only when they were at the
+store anyway.
+
+Evil characters aren’t as evil as the monsters they will
+face in the Maze. Yet they are self-centered and always
+want to know “what's in it for them.” They will help
+their mothers shop only for a fee.
+
+—x-|-— ,
+
+Tourney Le
+Phe Land OF Wizardry cont.
+
+The next selection concerns statistics of your character.
+Statistics are basic measures of a character's abilities, The
+higher the statistic, the better the character performance.
+
+Strength affects skill in combat.
+
+1.Q. and Devotion influence ability to cast
+and resist spells.
+
+Vitality affects ability to withstand damage.
+Agility helps to avoid attacks and open treasure chests.
+Luck comes to aid in many mysterious ways.
+
+Your new character will qualify for admission into one or
+more of the eight classes (or professions) on the basis of the
+above statistics. Based upon your choice of race, a profile set
+of minimum statistic values will be displayed. You can
+influence the profession of your character by distributing
+bonus points among the categories. BONUS tells you how
+many points you have to work with. Put the arrow next to
+the category you would like to adjust, then press left or right
+on the control pad to increase or decrease the statistic score
+of that category.
+
+—s5—|—-
+
+===== Page 8 =====
+
+Tourney Do
+The Land OF Wizardry cont.
+
+You can change the statistics however you want, but you
+cannot go below a category's original value or above original
+value +10. As you make changes, class options will begin to
+show on the right side of the category. A character always
+belongs to one class, but under certain circumstances may
+change classes. In order to create and save a character, you
+need to have that character under a class.
+
+The minimum statistic scores required and a description of
+the classes are as follows:
+
+@ Fighters need 11 strength.
+© Mages need 111.0.
+
+© Clerics need 11 devotion and may not be of
+neutral alignment.
+
+© Thieves need 11 agility and may not be good.
+
+© Wizards need 12 LQ. and 12 devotion and may not be neutral.
+
+© Samurai need 15 strength, 111.Q,, 10 devotion, 14 vitality
+and 10 agility, but cannot be evil
+
+© Lords need 15 strength, 12 LQ, 12 devotion, 15 vitality,
+‘agility and 15 luck. They must be good.
+
+© Ninjas need 15 in strength, 17 in LQ, 15 in devotion, 16 in
+vitality, 15 in agility and 16 in luck and can only be evil.
+
+Four basic classes are:
+Fighter:
+Fighters have high hit points, can use almost any weapon
+or armor and relish their role as shock-troops. They may
+be of any alignment, but may not cast spells,
+
+—n«—|--
+
+Tourney Lo
+The Land OF Wizardry cont.
+
+Mage:
+‘The sorcerer. Mages have poor hit points, can only use
+a limited amount of weapons and can wear no armor
+except for robes! They can cast Mage spells, including
+the dreaded TILTOWAIT, the summoning SOCORDI
+and the unlocking DESTO.
+
+Cleric:
+
+Clerics have fairly high hit points, but cannot fight as well,
+as Fighters, must use special weapons, such as maces and
+flails, and can wear only light body armor. They can cast
+Clerie spells including the life-saving KADORTO, the
+wishful IHALON and the monster-banishing MOGATO.
+Cleries may not be neutral.
+
+Thief:
+
+The artful-dodger. Thieves have average hit-points and
+
+are limited to using daggers, short swords and bows. They
+can wear leather armor and a shield. Thieves are very good
+at circumventing the treasure chest traps, and have a knack
+for opening many locked doors found in the Maze.
+Additionally, thicves may hide during battle and once
+hidden may ambush an unsuspecting monster in the
+following round! Thieves are specialists at pick-pocketing,
+but the bad example they set keeps them from being
+
+of good alignment.
+
+===== Page 9 =====
+
+Tourney Le
+Dhe Land OF Wizardry cont.
+
+Four elite classes are:
+Wizards:
+‘A combination of Mage and Cleric. They have average hit
+points, can wear chain armor and use Cleric weapons.
+‘They can cast both Mage and Cleric spells, and are capable
+of identifying unknown items the party finds in the Maze.
+Like Clerics, Wizards cannot be neutral.
+
+Samurai:
+Fantastic warriors. Samurai can use most Fighter weapons
+and armor. They start out with more hit points than
+Fighters, though in the long run a fighter will usually
+
+end up with more. At the fourth level of ability, Samurai
+slowly begin to learn Mage spells. The strict code of
+BUSHIDO prevents Samurai from being evil.
+
+Lords:
+
+A combination of Fighter and Cleric. They have the hit
+points and abilities of Fighters but at the fourth level of
+ability they gain Cleric spells and the ability to dispel.
+Lords must be good.
+
+Ninja:
+
+‘A super-human fighting machine. Ninjas can use the same
+weapons and armor as Samurai but work best without
+any! As long as they disdain armor, their great training
+gives them lower and lower azmor class as they reach
+higher levels of ability. Ninjas earn hit points as does a
+‘Thief, and learn no spells. They may hide during combat,
+disarm traps and practice all other arts of a Thief. Also
+they must be evil.
+
+16] —»
+
+dourney Lo
+The Land Of Wizardry cont.
+
+Consider this: When you create your party increase your
+chances of avoiding disaster by having the full 6 members in
+your team. Any less can be dangerous. Also decide which
+alignment you prefer your party to have before you start
+generating characters. Evil cannot play with good, but
+neutrals can play with either. Some character types are
+
+only available to one alignment, so select the whole makeup
+of your team first to avoid disappointments such as finally
+building a fantastic Ninja, only to discover that he/she
+cannot join the rest of your good team!
+
+Other Training Ground Options:
+To INSPECT a character, press the A or X button to bring
+
+up the list of all characters. Then press the A or X button
+again to READ SPELLS. You have a choice of viewing
+
+cither Mage spells or Cleric spells, depending on the class
+
+of the character. You may also INSPECT your character at
+Gilgamesh’s Tavern.
+
+The list will show the character's name, its current.experience
+level, its alignment, class, race and status. If there is nothing
+listed for status, the character is O.K.
+
+DELETE a character to make more room to CREATE other
+characters. Remember, once you DELETE a character, that
+character is gone for good.
+
+‘To CHANGE NAME of a character select the character whose
+name you want to change, then press A or X to bring up the
+letter select screen. Spell the name of the character, then go
+
+to END to save the character.
+
+—1—|—
+
+===== Page 10 =====
+
+Tourney Lo
+Phe Land OF Wizardry cont.
+
+To CHANGE CLASS of a character, move the arrow to the
+character whose class you want to change. You may only
+change the class of a character who is above Level 1, When
+you change class, you are entering the new class as a Level 1
+character, which means:
+
+© Your characters statistics drop to the minimum
+for the race.
+
+® Your experience points drop to zero.
+
+@ Allyour items will become unequipped. Since you are
+changing class, some items may not be able to be used.
+
+© You lose extra spell points although you will retain
+knowledge of any spells from the previous class. You
+may learn new spells and get new bonuses for being a
+member of your new class, but itis likely that, at least
+at first, you will have fewer spell points to work with.
+
+REORDER allows you to change the order of your party for
+traveling and for strategy in battle,
+
+—n—|--
+
+Idulgamyn Locations
+
+‘Tere isa description of each location within the Castle, and
+how to perform the functions of each location:
+
+GILGAMESH’S TAVERN
+
+Tavern Functions
+The tavern is where you assemble your party. Gilgamesh’s
+menu provides you with several options. They are:
+
+Add
+Remove
+Inspect
+Divvy Gold
+
+ADD allows you to recruit characters from the tavern to join
+your traveling party.
+
+REMOVE lets you demote a character and send them from
+your traveling party back to the tavern.
+
+DIVVY GOLD will take all the gold in the party and evenly
+divide it among the members,
+
+a) —_|—
+
+===== Page 11 =====
+
+Idylgamyn Locations cont.
+
+Inspecting a Character
+
+INSPECT allows you to look at the
+qualifications of a character in your
+traveling party. Choose which
+character you would like to
+INSPECT, then there are 5
+fanetions you can perform.
+
+They are:
+Equip Read
+Trade Drop
+Pool Gold
+
+‘These functions refer to any items held by the character.
+EQUIP allows you to get a weapon, armor, shield, helmet,
+gauntlets or special items ready for use. TRADE lets you trade
+items between characters.
+
+POOL GOLD takes all the gold from each character and gives
+it to one character. READ allows you to view the character's
+spells. DROP will drop any items you no longer require.
+
+STATISTICAL CATEGORIES
+
+‘The profile of each character has several other statistical
+categories not previously mentioned. These are:
+
+Levels:
+
+‘This represents the total experiences within the Dungeons.
+When your character gathers enough experience points,
+they will gain a level. It's basically a growing process. The
+current level appears after the character's name.
+
+—20—|—+
+
+Idylgamyn Locations cont.
+
+Gold:
+
+‘As your character explores the Maze, great riches in gold
+can be found (or stolen).
+
+Swimming Ability (Swim):
+This represents your character's ability to swim. The
+higher the ability, the deeper your character can swim.
+With low ability, sometimes characters may drown if
+they dive too deeply.
+
+Experience Points (E.P.):
+
+‘The numerical expression of your character's past
+performance is noted here. When your characters
+defeat a troop of monsters in the Maze, they will be
+awarded experience points. As points build, your
+characters gain levels.
+
+Age:
+This tells how old your character is. As your characters
+become older, they grow feeble...this happens around 50.
+
+Marks:
+
+This represents the number of monsters your character
+has defeated.
+
+RIP:
+
+This stands for “Rest In Peace” and refers to the number
+of times your character's life has been taken by a monster
+in the Maze.
+
+—1A—|—-
+
+===== Page 12 =====
+
+i]
+I}
+
+Idylgamyn Locations cont.
+
+Armor Class (AC):
+‘This measures how well protected your character is.
+‘The lower your character's armor class, the better. For
+example, bare skin is AC 10. A Sherman tank is about
+AC -10 (minus 10). Eventually, as your character finds
+or buys better equipment, the armor class will decrease.
+
+Status:
+Status describes what physical state your character is in.
+Most of the time your characters will be O.K,, however,
+they may be Asleep, Afraid, Paralyzed, Poisoned, Petrified,
+Out, Doomed, Ashes or Lost forever, to name a few.
+Characters who are marked Out are lost somewhere in the
+Maze! Their status may become Out due to any of three
+causes: Obliteration (everyone's life taken), Starvation
+(Power failure or turning off the system) or Vacation
+(using the QUIT PARTY option while in the Maze).
+Characters who are “ont” may be retrieved through the
+“Restart an Out Party” option, explained on pg. 31, or
+you may send a rescue party to search for the character.
+
+Hit Points (HP):
+HP shows the amount of damage your character can
+endure before losing life.
+
+CASTING SPELLS
+‘Mage or Cleric Spells
+
+You'll see a series of seven zeros for both the Mage and Cleric
+spell categories on your screen. Your character may have
+
+—2—|-+
+
+Idyloamyn Locations cont.
+
+higher or lower numbers depending on his or her level and
+class. Spells are magical formulas that allow the caster to bend.
+the physical laws of the universe. Characters of the magical
+variety must learn these spells through constant study and
+experience, and will harvest spells as they gain levels.
+
+Within each spell category, there are 7 levels, from weak level
+1 to the powerful level 7. To cast a spell, you must have the
+spell in that character's spell book, plus a spell point with
+which to cast it, Each number represents the amount of spell
+points a character has in that level and the number of spells
+the character may cast,
+
+For example, to cast a HALITO, the spell must be in the spell
+book, and there must be a spell point available. Once the spell
+is cast, the character loses a spell point from the appropriate
+category and level. To regain the spell points, you must seek
+rest in the ADVENTURER’S INN or find a magical pool that
+can replenish some of the spell points with a quick swim.
+Each spell you know grants you one spell point with which to
+cast it. You may gain extra points based upon the experience
+level you have attained, but you may not exceed 9 points in
+any level or category. If you know 3 spells of a certai
+category and level, and have 3 points of that category and
+level, you could cast one spell three times, or each of the
+spells once, or any other combination.
+
+EQUIPMENT GUIDELINES
+
+Equipment, or items, refers to helms, armor, swords and the
+like owned by your characters. You start with petty weapons
+and armor provided by training but you will gather and
+
+Belo
+
+===== Page 13 =====
+
+Hylgamyn Locations cout,
+
+acquire better items along the way. The different equipment
+you can use may seem bewildering at first, but here are some
+basic guidelines:
+
+First, not all items may be used by every character. Some
+items may be used only by specific character classes. You
+will learn what works with practice and experience.
+
+Also, some items have alignment just as your characters do.
+Ifa character equips an item that has a different alignment,
+the item may seriously impair him or her. In addition it
+will become cursed.
+
+A cursed item is an item that cannot be voluntarily
+unequipped. If you equip such an item, you will be
+“cursed to wear it.”
+
+‘© Cursed items are not always bad. Some of the better
+items in the game like to “stick around.”
+
+© One safe way to rid a character of a cursed item is to
+pay to have it removed at BOLTAC'S TRADING POST.
+
+Some items may be used to cast spells, but they may break.
+Items may affect a character even though they are not
+equipped; for example, an item might offer a player spell resis-
+tance, or a clove of garlic may fend off vampires in the maze.
+
+—4—|—
+
+Tlylgamyn Locations cont.
+
+Lastly, certain magic items have special powers which you
+can invoke. Whenever you equip a player who is carrying an
+item of this type, you will be asked if you wish to invoke its
+power. You do not need to invoke the item to equip it.
+
+You will need to repeat the equipping process for each
+character. You may equip each individually while inspecting
+them, or equip the entire party when in Camp by selecting
+the Equip option. When you finish equipping an item, you
+will notice one of the following next to the item in the
+INSPECT list:
+
+No symbol (a blank space) means the item is
+not equipped.
+
+* indicates the item is equipped.
+
+# reminds you that the item cannot be equipped by
+that class of character.
+
+2 tells you that the item is not identified.
+
+~ warns you that the item is cursed.
+
+===== Page 14 =====
+
+Idylgampn Lovations cont.
+
+ADVENTURER’S INN
+
+Staying at the Inn
+‘The Inn is where characters recover lost hit points and lear
+whether they have made the next level of experience. Enter
+the Inn from the main Castle menu and then select a character
+who requires rest. Once you've checked a character into the
+Inn, you'll be able to look over the types of rooms available,
+‘The more expensive rooms allow faster, but less economical,
+healing of wounds.
+Note: Age is important in Wizardry V. Beyond the age of
+50, you will become more and more feeble until eventually
+you will not be of much good to the party. Therefore, you
+do not want to spend many weeks in bed.
+As you'll soon discover, certain spells can be thrown on your
+characters which will restore hit points without the trouble
+and expense of a visit to the Inn.
+Allroomsat the inn except the Stables restore hit points, for a
+weekly fee. Remember, if you need more funds you can also
+POOL GOLD from your party, which will give one character
+all the party’s gold. Once you have chosen a room, you will
+stay there until you are either fully healed or have run out of
+gold. A display will count up your hit points and count down
+your gold balance.
+
+Moving up a Level
+
+After any stay at the Inn, you'll see a declaration that you
+have attained the next level of experience should you qualify.
+Also, you will get the lowdown about any changes to your
+
+—x%—-|--
+
+Klyloamyn Lovations cont.
+
+character's statistics; spell-casting characters may learn
+new spells. At the end of this sequence, you'll learn how
+many experience points are needed to reach the next
+experience level.
+
+BOLTAC’S TRADING POST
+
+Boltac’s is the Castle shop. Once you enter the establishment,
+Boltac will ask which of your characters wishes to be served.
+Once you have selected a character, the shopping display will
+appear. You can:
+
+Buy Uneurse items
+
+Sell Identify items
+
+Pool Gold
+
+Your newly created characters do not have a single gold
+piece, so Boltac will only allow you to look at his wares, If
+you have enough gold to buy an item, Boltac has an enviable
+inventory yet he does occasionally run out of an item.
+
+Buying Items
+
+Once you choose one of the above options, a new menu will
+appear for each option. Once you start browsing and find
+the item you want to buy, you'll be told how much it costs
+and whether you can use it. Weapons have information
+concerning range just to the right of the item’s price. Close
+(©), Short ($), Medium (M) and Long (L) are the four ranges
+
+—2—}—
+
+===== Page 15 =====
+
+Tdylgamyn Locations cont.
+
+possible. Range weapons are described in more detail in the
+‘Combat section (pg. 37)
+
+Selling Items, Removing Curses
+
+Selling off excess equipment is a good way to raise gold
+
+for expeditions. Be aware, however, that all shopkeepers
+must make profit on every transaction to stay in business,
+
+0 Boltac won't buy items back at the same price you
+originally paid for it
+
+The price Boltac will pay for each item appears at the right
+
+of the item, but the equipment you start with is virtually
+worthless to Boltac. You cannot sell an item that is cursed
+
+or which needs to be identified. If you attempt to sell an item.
+that is equipped (refer to the icon at the left of the item) you
+will be asked if that’s what you really want to do.
+
+Removing curses is another function Boltac offers. Cursed
+items picked up in the Maze are very uncooperative and stick
+like glue to anyone who equips them. If you manage to return
+to the Trading Post in one piece carrying such an item, you
+will see a display similar to the one you used to sell an item.
+Select the cursed item, and if you have the gold Boltac will
+take it off your hands. Note: Boltac will feke away the item;
+you will not be left with an uncursed version of it.
+
+Identify Items
+
+Some items you find in the Maze will be unidentified, and its
+name only describes its appearance. Whenever possible, have
+such items identified before you equip yourself with it in case
+it turns out to be cursed.
+
+—2—|—
+
+Idglgamyn Lerations cont. |
+
+One of the special powers of the Wizard is the ability to
+identify items. However, if the Wizard is not very careful
+
+he or she may touch the item by accident. This will cause the
+item to be equipped, and if it’s cursed, the hapless Wizard,
+will be forced to use it. For this reason, Boltac has begun to
+perform such inspections himself.
+
+Pooling gold can also been done at Boltac’s, which gives all
+the party’s gold to one character so he or she can afford more
+expensive items.
+
+TEMPLE OF CANT
+
+‘Whenever a party brings back characters who have lost their
+lives, are paralyzed, afraid or similarly distressed, they can
+
+be carried to the Temple of Cant. If you're just beginning your
+adventure (no one has entered the Maze yet) you can view
+the establishment but no services will be offered since no
+
+character is “distressed.”
+Select the distraught character and the Temple Clerics will
+inform you of their required fee. Choose which character in
+the party will pay the fee, but should that character not have
+enough gold the party's gold will be kicked into the fund.
+Unfortunately, if the distraught character is blown to ashes
+or has lost his or her life, there is no guarantee the Temple
+practitioners will be successful. Characters who have lost
+their lives and cannot be resurrected will be reduced to ashes.
+However, there is still hope. For a larger fee, it is sometimes
+
+—29—|—»
+
+===== Page 16 =====
+
+Idylgamyn Locations cout.
+
+possible to resurrect a person even from an ashen mess—
+but if this attempt fails, the character is lost forever and
+cannot be restored by any means!
+
+A character with good vitality rating has a good chance of
+being helped, but old, infirm characters may be in trouble.
+Any character resurrected will have but a single hit point
+
+s0 quickly take that character to the ADVENTURER’S INN.
+
+Those resurrected from their ashes will have all their hit
+points restored, The Temple also provides resurrection
+services for Non-Player characters (creatures you meet in
+the Maze) that you have destroyed.
+
+EDGE OF TOWN
+
+Tdylgamyn Locations cont.
+
+Restarting an “Out” Party
+
+When a character or a party is “Out” on an expedition, you
+may join them in the Maze. You will see a list of characters
+who are currently waiting for you in the Maze. Select a
+character that is in the “Out” party, and this character will
+become your leader. Wizardry will then show you a list of
+characters at the same location as your leader. Select the other
+members in the order you wish them to appear. You will
+begin at the same spot where you left off. This option is usual-
+ly used when you quit a game while still in the Maze. Quit
+options are outlined in the next section.
+
+ADVENTURI IG
+
+‘The Edge of Town lets you perform functions outside the
+central Castle. These are:
+
+Maze
+
+Training Grounds
+Restart an “Out” party
+Leave Game
+
+Castle
+
+‘Once you enter the Maze, Wizardry will identify the stairs
+leading out of the Maze back to the Edge of Town. To
+continue in the Maze, select “No” when it asks if you want
+to enter the stairs.
+
+Options of the Training Grounds are outlined on page 11.
+
+—n—|—
+
+‘The essence of Wizardry is adventuring. It’s time to leave the
+safe confines of the Castle and venture out into the unsafe,
+but potentially lucrative, corridors of the Maze. It is possible
+to get lost in the maze so take your time, take notes on your
+location and do not get distressed.
+
+Successful adventures consist of seven stages:
+
+1. Preparing the party for adventure
+
+2. Touring and mapping the Maze
+
+3. Fighting the monsters
+
+4, Talking, bartering and giving to Non-Player Characters
+5. Taking good notes about all you see and hear
+
+6. Using all knowledge and skills to complete your quest.
+% Get back alivell!
+
+—si-
+
+===== Page 17 =====
+
+Idylgamyn Loeations cont.
+
+Preparing a Party
+
+You can have up to 6 characters in your party, and it is
+recommended that you use all 6, Balance your party so
+its chances of success will increase. When you first start
+out, you'll want some characters of the fighting variety
+(Gammurai, Fighter), some spell casters (Mage, Cleric)
+and a Thief. Of course this may change as your party
+becomes more experienced.
+
+Touring and Mapping the Maze
+‘The Maze window displays a 3-D
+view of the Maze passageways
+directly in front of you. Before you
+enter the Maze it is a good idea to
+check the vital statistics of each
+character in your party. Make sure
+you have equipped the items you
+‘want equipped before doing battle.
+‘Once inside the Maze, press the START button to configure
+your Party and Help windows so you can monitor progress.
+Press the X button to see the menui about Secret Doors or Y
+button to bring up the menu to:
+
+INSPECT FOR SECRET DOORS:
+When you search for a secret door, you have the option of
+doing a manual search where everyone searches the wall
+facing the party. Character class, level and race play an
+important part. You may also let someone cast the Mage
+spell CALIFIC, which will always reveal a secret door, if
+‘one is present.
+
+oo
+
+KAylgamyn Locations cont.
+
+INSPECT FOR HIDDEN ITEMS:
+Everyone will search for items on only the square the party
+occupies. The chances of finding something hidden are
+dependent upon class, race, level and abilities. This option
+is very important, as nothing may be particularly obvious
+to let you know a Magic Staff is buried beneath the ground
+you siand on.
+
+INSPECT FOR MEMBERS:
+
+‘This will inspect the current area for other adventurers. If
+a party of Adventurers gets left in the Maze or is stripped
+of life, Wizardry remembers where they are. Of course,
+monsters may drag them off into other areas, but usually
+they get tired from lugging their prey very far. If you start
+another expedition, go down to where they are and
+inspect the area.
+
+If you find the soul you're looking for, add him or her to
+the party. If you can’t find them, the Cleric spell KANDI
+may come in handy.
+
+PICK A LOCK:
+
+While anyone may attempt to pick the lock, usually a
+Thief or Ninja has a reliable chance of successfully doing
+80, dependent upon the character's level and abilities.
+‘Additionally, the Mage spell DESTO may provide some
+assistance with locked doors. Failure to pick a lock means
+that you may have to try again, But wait awhile before
+you do, This doesn’t apply to DESTO, which can be cast
+as many times as necessary until the door unlocks or you
+
+— 5 |
+
+===== Page 18 =====
+
+Kdylaamyn Locations cout.
+
+decide the lock is too difficult to Pick at this time. Some
+doors also are magically locked, and can only be opened
+with a special item. If this is the case, all attempts to Pick
+the lock or cast DESTO will fail.
+
+CAMPING OUT
+To guard against the constant altacks of monsters in the
+Maze, you may CAMP at any time by pressing the B
+button. While in CAMP, you may:
+
+Inspect a member ofthe party.
+Save an expedition so you may return later by Restarting an
+
+"Out" Party
+
+Reorder which characters travel where within the party.
+Remember: take into consideration the range of each
+
+character's weapons,
+
+‘MEMO will show you all the comments made by NPC's you have
+‘met, You can review these comments by using the MEMO option
+and pressing the control pad up or down.
+
+SWIMMING
+When you come across a magical pool, you must first
+choose a character. You will then be told how many depth
+levels the pool has. Select the level your character will
+swim to, and off he or she will go. inexperienced swimmers
+have an excellent chance of drowning, so do not throw
+a first level character to the bottom of the pool.
+
+a
+
+Idylgamyn Locations cont.
+
+Pools may contain many magical benefits that the party
+may have need for from time to time. All pools are
+different, and some will have effects that others do not.
+Whether the effects are good or bad is merely a matter of
+uck,..the first time you dive. Also many items you may
+find in pools are not of the floating kind.
+
+TREASURE CHESTS
+Chests usually have traps on them. When you are
+confronted with a chest, you have the following options:
+OPEN the chest, blindly hoping that there is no trap.
+INSPECT for a trap, praying you don’t set off the trap
+in the process.
+CALFO performs a magical Cleric spell which inspects
+the trap.
+DISARM the trap, assuming you think you know what itis.
+LEAVE the chest alone and give up on its goodies.
+
+For each option you must signify which character is to
+perform the operation, Normally this will be your Thief
+
+(or Cleric in case of CALFO). After identifying the trap, choose
+the trap from the list to DISARM. Your Thief or Ninja is much
+better at inspecting and disarming than anyone else. Even so,
+when just a novice, things may blow up in his or her face
+fairly often. Fortunately, most traps on the first level won't
+destroy characters outright unless they are already hurt.
+
+—s -|—
+
+===== Page 19 =====
+
+Idlylgamyn Locations cont.
+
+MAPPING
+In order to survive in the Maze, you must know with
+
+reasonable certainty where you are and how you got there,
+
+The only way to know these things is to make accurate
+maps and refine them every chance you get.
+
+Mapping is not all that difficult, but it does take patience.
+Use graph paper to chart your progress in the Maze. Be
+wary of nasty tricks designed to mislead you, and don’t
+expect the map to conform to any preconceived ideas
+about mazes in video games.
+
+‘The fundamental way to map is to stand on a square, look
+north, map what you see. Do the same for the south and
+‘west and east. Only after you have mapped these four
+directions should you move to another square. If you see a
+door, a dark area or stairs, be careful when going through,
+up or down them. Make sure you can return to your
+previous location before entering.
+
+Here are some mapping tips to help you out. Important
+items are the light spells MILWA and LOMILWA, which
+extend your vision several squares ahead. You may also
+purchase lanterns and torches from Boltac, which serve
+the same purpose.
+
+Should you become lost, which will occur frequently,
+help is available through your Mage. A Mage can cast
+the DUMAPIC spell, which will show you a map of the
+path your party has taken. Use DUMAPIC to help your
+party get your bearings.
+
+—— of
+
+Kelulgamyn Locations cont.
+
+COMBAT
+
+Without some sort of challenge, Wizardry V would be just a
+mapping game. Mastering the fighting techniques described
+here will make the quest into the Heart of the Maelstrom
+worthwhile,
+
+When you encounter hostile monsters, two windows will
+automatically appear. One shows you the names and number
+of the monsters you are facing, and the other will be used to
+gather instructions and report on the progress of combat. You
+will also see a picture of the monster you are trying to over-
+come. Once the battle is underway, only the narration
+window is shown. There you'll see a description of the
+combat, your character's actions and the monster's actions.
+Combat proceeds in rounds. Each round, both you and the
+monsters decide what actions to take, then Wizardry V
+mediates the combat. Combat is over when either side runs
+away or is totally defeated.
+
+Each active character in your party will be presented with a
+list of options each round, which are:
+
+Fight To Fight, the
+character must
+normally be in the
+first, second or #
+position in the party.
+‘However, certain
+weapons permit the
+party member
+
+—
+
+===== Page 20 =====
+
+Parry
+
+Dispel
+
+Spell
+
+Idylgamyn Locations cont,
+
+equipped with that weapon to fight
+
+farther back in the ranks.
+
+Close-range weapons allow party slots 1-3 to
+attack mohster groups 1
+Short-range weapons permit party slots 1-3 to
+attack monster groups 1-3, or party slots 4-6 to
+attack monster groups 1-2.
+
+Medium-range weapons permit party slots 1-3,
+to attack all monster groups, and party slot 4-6
+to attack monster groups 1-3.
+
+Long-range weapons permit all members of a
+party to attack all monster groups.
+
+Parry means to stand on guard. This reduces
+the chance that the monsters will be able to
+hit the character.
+
+Some monsters in the Maze are animated only
+through the power of great evil. If successful,
+dispel forces these monsters to return to the
+abyss from where they came. Clerics, high level
+Wizards and Lords have the ability to dispel
+monsters. You don’t get any experience points
+for monsters you dispel.
+
+You will be asked which spell you want to cast.
+Ifthe spell requires a target, a certain group
+
+of monsters or a character, you need to signify
+that as well.
+
+— |
+
+Ambush
+
+Kdulgamyn Trocations cont.
+
+A list of items you can use will appear; then
+choose which will be used. If no items appear,
+the character has no usable items.
+
+If you succeed, then the combat is over. IF you
+don’t, the monsters get a free round of attacks.
+
+‘Thieves and Ninjas may attempt to hide in the
+shadows, making them invisible to the monsters
+and not subject to attacks. Of course it is possible
+for a monster to spot a hidden character
+
+then attack.
+
+Ifa Thief or Ninja successfully hides, during
+the next combat round this option will appear.
+‘The character may launch a surprise attack on
+some monster, increasing the chances to hit and
+do up to two times the normal damage. Yet after
+an ambush the position of the Thief or Ninja is
+revealed, and they will be subject to further
+attack, regardless of their position in the party.
+The better the Thief or Ninja, the less chance of
+becoming exposed.
+
+Should a Thief or Ninja be Hidden and be in one
+of the first three player positions, the Ambush
+option will override the Fight option. If you
+prefer to have your character Fight normally,
+
+do not select the Hide option. Additionally, if
+you prefer your character to remain Hidden,
+select Parry.
+
+—s—|-
+
+===== Page 21 =====
+
+Idylganyn Geeations cont.
+
+Remember any magic spell cast by a monster
+that affects an entire party will affect a Hidden
+character as well.
+
+Take Back This allows you to
+return to the start of
+the Combat option
+selection in case you
+made an error.
+
+NON-PLAYER CHARACTER INTERACTION
+
+You will find that not all monsters attack immediately, and
+certain monsters can be very friendly. These monsters are
+called NPC, or Non-Player Characters. When encountering
+an NPC, the party has several options:
+
+Talk This option is incredibly useful for gathering
+information.
+Barter You may attempt to trade, or barter, with the
+
+NEC. Often creatures carry items they are
+willing to sell to the party, or they may buy
+something from you,
+
+Give Sometimes an NPC is not interested in trading,
+or has no gold with which to buy. In this case, it
+may be necessary to give it something, should
+you feel it wise to put the object in question in its
+
+—10—|—-
+
+Idglgamyn Lecations cont.
+
+hands. Of course, the creature will usually keep
+the object so don’t give it everything you own!
+
+Steal Here, we finally see our Thief or Ninja at his or
+her best, attempting to relieve a creature of any
+interesting items or gold. Of course, if your
+character gets caught, the monster will usually
+attack and will view the party in unfavorable
+light. It is best to be careful from just whom one
+steals. Then again, some monsters have been
+known to get caught dipping their fingers into
+a party member's purse as well.
+
+KATU KATU casts the Cleric spell of Charm.
+Depending on the level of the caster, KATU will
+atlempt to soothe the savage beast. If it works,
+the monster will at least regard the party ina
+neutral light, if not a favorable one.
+
+MAGIC
+
+Magic items range from potions and scrolls with limited
+effects to artifacts. Some can actually be purchased in the
+‘Trading Post, but most of the really important ones are found
+only after many hair-raising adventures in the depths of the
+‘Maze. Magic items may do one or more of the following:
+
+a}
+
+===== Page 22 =====
+
+Kdulgamyn Locations cout.
+
+°
+
+Cast a spell or have magical abilities you may invoke.
+
+@ Alter Armor Class.
+
+© Change fighting ability-Protect against certain monsters
+or be helpful in killing them.
+
+® Be usable only by certain character classes.
+
+© Increase the character's resistance to magic spells.
+
+‘When magical items are first discovered in the Maze, their
+true nature is not known. Only Wizards and Boltac’s Trading,
+Post can identify them. Even so, some items may have hidden
+qualities that you'll have to discover for yourself.
+
+Using Spells
+
+There are a total of 63 spells divided into Mage and Cleric
+categories. Each category is divided into seven levels, with
+the most potent spells at the higher levels.
+
+‘All monsters and players have a chance to dodge effects of a
+spell. If the spell is a damage spell, then the damage might be
+cut in half or quartered; if an “all-or-nothing” spell, then it
+may have no effect at all!
+
+‘Monsters may also be naturally resistant to a particular type
+of spell. For example, throwing balls of fire (MAHALITO, for
+example) at Fire Giants is not likely to impress them, and they
+may even laugh at you! A few monsters have the ability to
+occasionally avoid the effects of a spell completely.
+
+—#e—|—
+
+Ldylgamyn Locations cont.
+
+Magic Resistance Spells
+
+Magic Screens (CORTU) and Fizzle Fields (BACORTU) protect
+the party from spells and may reduce the monster’s defenses.
+Both Magic Screens and Fizzle Fields have a relative strength,
+based upon the level of the person casting it. They deteriorate
+with every round of combat as the opponents’ spells bash off
+of them. If you want to keep up your defenses, you will have
+to replenish the fields and screens by casting the spells again.
+Also, the Anti-Magie spell PALIOS can help the party should
+it find itself the victim of a Fizzle Field, or it can reduce magic
+screens erected by the monsters.
+
+— iad —e
+
+===== Page 23 =====
+
+10470 21089
+Te OL- Ov aquuarduat sayeary uoslag neque} = EYOASOTIVM = ERIDONVN “sTiads JOVW
+saroase mg wopues ase says dao 1 qed SAVUMOANIE —-IAYSVA
+Jared pow sp
+‘suaains afew, suaysuoW [TY eqD, SIDVINIINY soll¥d
+fused squang way ais
+erada.denonbyg dros) que) HMLaTZZ © AnNODva oft
+aeaep i
+“Aavous “3d p9-g sasne nosy | equi ONDIISOW = OLTYaYIN |
+Sued on p09 0 srt ag
+spsuowtjodnosi esamnfuoy noisy seqne onnininod —tayonos.-‘stmasaovw
+sangoaia} |
+sopsey je ONLLYX AF] nog 1 segue NOs oayou
+wo Sud 10
+sie prose oy zed sve Sueganug aun doy auvUAST — oUNEIOLN
+adeurp id 969 oon wo HOMOL OnE F189
+aSeurep “sid 09-02 FRISUOWN T Fequod, Asit MVZL ‘sTiads OVW
+nos suo
+ean damp eq) NOWAMSIa—SOLINYY
+sa00N—sayeouy —seD or UaU woqejuey aay
+supe dog Seg om yeqwey —- NERDSOIOVA ——_ALNOD
+oBeurep id FF dois | equa SYN — OWIVHVWY e197
+sso0p sae enn ai80> Waal HMI “Staasap¥w
+_aysuon avo avo
+wrdapyesorsduany seven L yequo ANOISJOINVIH LVI
+3 jou sagen fed
+(OU) Te95 SSISUOUE SeMTEPY, doug 1 yequioy wad ‘STON
+200p spoun 9} sduay BIRD Sunoydg YOoINA ‘olsaa i]
+aBewep sid goa | SPNgU nous | yequing, Svavds TLL Ouma x
+qv seoapar
+‘panos fad spene a eps
+adssasearic] WORDT aque asus Noa “sTisasa0vW
+Sued ang anv ouvwna
+diva 1 uivava ——ONILYY
+sad 2.Kq >y 0p, sep NouLxdoa —BUDOH p89
+sSueep sd gr soa aaORY TE BUTT —OMIVH—‘sTiaasap¥w
+Saoy — SIS0UWOUA sD UEyA —=—SONESUR, ‘auney
+
+IST] Meds obey
+
+===== Page 24 =====
+
+nest moo omrava
+fuegomea aan Say : SUENOa¥N
+wosod josnoyosonoumy = wosegy | uy SENVED —SHONAIYT
+afeuep ade spm —sIORET ———_REWOD xno = wiava od
+sdovzsiomy ——wosmgt aR uy 09 wa ‘stiaes ore i
+sues 90 ange Sronpas he
+‘Poryinyeamwow sued — som? ARO. NIVYASIYWOaINWIvH I
+Bunsse"yarunseous — Auegomug aur Koy NIVaGNNS —-YACIIOT 5
+se 90
+sont oy 8 ¢ hay seo rewg ove nine
+sadaopssuoyen ‘sired sam aun Soy seNLIOS © omTvId sist
+smsiow josouenann sere Sega Ky AJUNEGI OVAL ‘stigas oRa7>
+par@o]99 04
+osid jo woRSHP SAD 5 dwey — AGOeALWOOT «TaN
+dnoipt equ uIV'TIS _ ONLINOW
+isp wo
+den yoomeusoumuned sayy 001 AIX ovo
+soroN—soaujeouny 1903 UNH songs aie
+we aiesey
+apsesoye ‘nino sey) nosy 1/3aNt JANE rev nuyy ‘sriasoRaaT9
+sid fay sono equ rms utr
+ad hay snr que SONISSTIE Dmx
+seu 210m seu su Sy quo YA.
+a8ewep sd grog eed Weve sonave nasa
+sdgtssiosm ——vosngt a uy aH sold ‘Stasi f
+moor —uiown ego) OYNENIAT «TRY |
+auarsva paiep.ndns yeqoy ——SNOHGVIN’ZLMIKMVN 2
+sSeoey oatoL NL seqwo INVIE-VA— LIVMONIL ‘
+aera 0 HOHISIaNVAVHYW, |
+ps1
+suodsprequoo erway, Suzanna ou uy DOs «= MOT ‘ST HTas aDWHE
+a8ewep = goror
+‘orwavnrnnodiiy dain, equa weoiss1— orivav
+sad sjsuom autos
+smo ped vado im que suo TY equO] SYREN YEYHOT
+afew si ooo-tnssimM —smuO QUE Tassia—NVNTZ
+soy sayeousn ase vOUA, sonmsuesy, ui
+
+===== Page 25 =====
+
+Grii Page
+
+soyse 0} paonpas aso Suypaypus
+‘suopeseyp Spo DIOS,
+dno? em saysuo
+
+re sumo dois 0} duo
+
+aSeurep sd 6-2 see
+
+480 UL
+ssoeydns “sid 1 ma re SUI,
+soy 20 paunlur ous) uosiad se
+‘Suo] se "tpeoy Da}Ed saLOISoy,
+
+“apse 1 989 Aue suod>ye
+
+ants ae a day
+mogy peg ystureg 03 sic 7
+ane yy 04 sso jo
+dnoa ano uourums 03 sidurany
+paneer siden
+
+cad yz-¢ saroysay
+
+S2I0N
+
+wwostag 1
+
+dnoig
+wostag |
+
+sisUOHL TY
+a035 1
+saison
+wosina
+Auegomnug
+app
+sewn
+Simgomea
+
+vosIed T
+Wosiag T
+
+sisoyeous
+
+dum
+
+requao>
+due),
+
+quo
+quo
+ego)
+aun sy
+aun say
+eq93
+equ09
+seqta03
+dure
+
+aug uy
+
+889 01 Ua4a
+
+Brnicend
+
+NIM HLVEa
+YOAVE GaSSTTE
+
+SCINIM YORI
+
+ONIN
+
+asa
+
+ICIS
+
+nya
+
+BaI1YO $801
+
+ayo Ts
+
+DNINOWINS
+am
+
+snd 918
+vonejsuesy,
+
+onoavy
+
+lavyva
+NOTHI
+
+omnivavin
+
+NEN
+
+javavd
+
+lav
+
+US401N01
+
+lava
+
+onvoon
+
+IaYON¥A
+
+ia
+
+wwivia
+‘urey
+
+p89
+“sigs 2183719
+
+9181
+‘sriaas 2119
+
+sper
+‘sTaas oRim19
+
+===== Page 26 =====
+
+90 Day Limited Warranty
+
+CAPCOM USA. ne. Capcom") warrants tothe original consumer that his Capoor
+Game Pak (PAL) shaloa tee fam delecs in matofal ané workmanship oa pers ol
+2 day om dat purchase, a elec coved by fs vata acura fs 8D
+cay waranty peted, Capcom wil repair oroplaca tha PAI ats option, tae of charge,
+‘To recelve ths warranly sence:
+1.0 NOT retun your defective Game Pak to the retailer.
+2. Notiy the Gapcom Consumer Service Department of tne problem requiring watranly
+‘service by calng (408)774-0400, Gur Consumer Service Deparment sn operation fom
+8:30 AN, t0 5100 PM, Paciic Time. Monday traugh Fiday
+3. the Cancom servic technician is una to solve the problem by phone, he wil
+proud you wih artim Auhzatonnunbor. Spy record ths neon he oti
+fckagtg al your defcive PAX and relym your PAK fret prepa at ou ek of
+
+Ena, togolor ah your eas slp or smir pont puchse mine 2-y,
+waranty patos to
+GAPCOMUS.A,
+
+Gare Sans Dopaiont
+
+gad Pe
+
+50m
+Sunny Calon 086
+
+This warany shal a pf he Pacha eon damaged ngigance aon,
+
+unreasonable us, mouiicalon, tampering, or by olhar causes unrelated io the
+
+selecive materials or workmanship.
+
+REPAIRS AFTER EXPIRATION OF WARRANTY:
+
+lithe PAK Geveloos a problem ater the 90-day waranty period, you may contact the
+
+Capcom Consumer Service Departant tthe phone number noted proviousy. I the
+
+Capcom sevice tecnica is unblo soe heroin baton, he may pos you
+
+with a Return Authorization number. You may then record his eumer onthe outside
+
+packaging of fhe Detecive PAK ad eum he Gbecive PAK tre chet opal Capon,
+
+tnclasing a check or money order for $15.00 payable to CAPCO!
+
+Vilas op on subento he cng eater he PA rela wie new
+
+Or repaired PAK. replacement PAKS are nol avaliable, ine defective PAK wil be
+
+Toned and ihe 9150 payee,
+
+WARRANTY LIMITATIONS:
+
+ANY APPLICABLE MMPLIEO WAREANTIS,INLUDING WARRANTIES OF
+ICHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE HERESY
+
+tiated $0 NINETY Gav PRON THE DATE OF PURCHASE AND ARE SUBJECT
+
+QUE CONDITIONS SET FORTH HEREIN INNO EVENT SHALL CAPCOM 3E
+
+FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES RESULTING FROM
+
+|THE BREAGH OF ANY EXPRESS GF NPLICD WARAANTIES
+
+“The prouisions of this waranty ae vat inthe United Stats ony. Same states do nat
+
+allow limitations on hou ong an implied warranty lass or exclusions of consequential
+
+‘rinidenal damages, so Une abova imitans and exclusions may not apply 1 you.
+
+“This wareany gues you specic legal rights, and you may have other rights which vary
+
+vom sete ie
+—0—|—
+
+Thotes Page
+
+===== Page 27 =====
+
+CAPCOM ULS.A..Inc.
+Consumer Service Department
+475 Oakmead Parkway
+‘Sunnyvale. California 94086
+
+Game Counselors Available
+‘8:00AM to 5:00 PM (PST)
+
+408.774.0400 ea aan

@@ -1,0 +1,511 @@
+# Pop'n Twinbee
+source: https://archive.org/details/snes_manual_archive
+pdf: Pop'n Twinbee ( PAL ).pdf
+region: PAL
+pages: 23
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+
+
+===== Page 2 =====
+
+Table of contents
+
+® GAME OVER
+@ GAME START ®SCREEN EXPLANATION
+® CONTINUE ®@ OPTION SETTINGS
+
+Player Introduction
+
+@®PLAYERS’BASIC ATTACKS @ITEMS
+@®BELL POWER UPS ®2P PLAY ATTACKS
+
+& introduction to Characters that Appear -: 19
+
+C7 Stages
+
+===== Page 3 =====
+
+Storv
+well ¥
+
+Above Donguri Island one day, Twinbee
+and Winbee are happily buzzing about
+
+si
+
+suddenly...
+
+is Madoka.
+I’m being
+NY followed by
+
+ey \ponou soldiers.
+
+ined
+
+===== Page 4 =====
+
+)
+
+e t adonapo
+
+Alright!
+We're on
+
+===== Page 5 =====
+
+Basic Controls
+
+® Name of Control Pad Parts and their Main Functions
+
+This game can be played by one person or two people at
+the same time.
+
+L_ Button: not used. Y Button: R Button: not used.
+BOMB PUNCH (in 2P play, this is
++ Button: button | the THROW button.)
+
+player movement; |
+select categories |
+
+X Button: not used.
+po (In 2P play, this is the
+| ENERGY button.)
+
+A Button:
+CHIBI button
+
+B Button:
+SHOT button
+
+SELECT Button:category START Button:
+selection at the title. | game start; pause;
+mid-game join in
+
+These are the initial settings. You can change the settings
+of Buttons A-R in the OPTION mode. (See pp.12-13 about
+option settings.)
+
+===== Page 6 =====
+
+, How to Play
+
+_ You must destroy the Donguri soldiers that come at you and
+blast the headquarters of Dr. Mardock.
+
+@ How Many Stages Are There?
+Altogether there are seven stages, with one boss enemy that
+appears at the end of each stage. If you defeat the boss
+enemy, you clear the stage, and go on to the next stage.
+
+®@ Life System for Players
+When you lose all life, you reach PLAYER OUT. You can
+restore life by picking up the items that appear during a
+Stage. Also, when you clear a stage, all your life is restored.
+
+® Get Those Bell Power Ups!
+If you shoot a cloud, a bell appears! The bell changes color
+if you shoot it a certain number of times. Depending on the
+color bell you pick up, many kinds of POWER UP are
+possible.
+
+@ Super Fun 2P Simultaneous Play!
+Use a swing-your-partner attack to defeat an enemy, share
+life, or play together in the COUPLE mode for greater
+enjoyment. |
+
+@ It’s Okay to Join In Anytime in Mid-Game!
+Even if the game starts in 1P play
+
+~~
+mode, if you press the START
+button of the other controller EN
+and a second player can join in. —
+
+(Only when CONTINUE is being
+displayed.)
+
+===== Page 7 =====
+
+How to Start
+
+GAME START
+
+Insert the cartridge properly into the Super Nintendo
+Entertainment System main unit and turn on the power. After
+“PALCOM™” appears on the screen, the title screen will
+appear. (During the demo, you can press the START button to
+go immediately to the title screen.)
+
+Title
+
+Use the SELECT button or up/down keys to move the cursor
+to “1 PLAYER’or “2 PLAYERS” and press the START button.
+
+1 PLAYER: 1PLAY play
+2 PLAYERS: 2P play
+OPTION: option settings
+
+The name entry screen now appears.
+With the 2P controller, if you select “IPLAYER”, you can play
+with WINBEE.
+
+===== Page 8 =====
+
+Insert Name
+Use the +button to select a letter, and the B button to. enter
+
+it. When you want to move the letter entry cursor back to a
+previous letter, press the A button.
+
+The name you entered
+appears here in the
+HIGH SCORE display.
+
+Select END or press the START button to go to the
+TRANSFORMATION MODE screen.
+
+Transformation Mode
+Select TRANSFORMATION using the up/down keys and press
+the START button to fix.
+
+Refer to p.15 for transfor-
+mation types.
+
+When it is fixed, the game starts.
+
+===== Page 9 =====
+
+CONTINUE
+
+When you reach player out, you arrive at the CONTINUE
+screen.
+
+Within 10 seconds you must choose either, “KEEP IT UP!" or
+“GIVE IT UP!”,and press the START button to fix. if you select
+
+“KEEP IT UP!” you can continue playing from the beginning of
+that stage.
+
+When you have no more credits left, the game is over.
+
+High Score
+
+After the GAME OVER screen, the HIGH SCORE screen
+appears.
+
+The STAGE display shows
+(starting round no., stage
+no.)-(ending round no.,stage
+no.).
+
+You can record your score after each play.
+
+10
+
+===== Page 10 =====
+
+= SCREEN EXPLANATION
+
+1P Score
+
+(CONTINUE
+
+display)
+
+1P Transformation Stock
+2P Display
+
+1P Life Meter -
+
+Aiming for
+Ground Attack
+
+1P Mini-Transformation 1P Player: 2P Player:
+
+Attack Stock
+
+Twinbee Winbee
+
+11
+
+===== Page 11 =====
+
+OPTION SETTINGS
+
+When you want to change button controls, difficulty level and
+other settings, at the title screen select “OPTION” and press
+the START button. You will then go to the OPTION MODE
+
+screen.
+
+Select categories with the
+up/down keys and content
+within each category using
+the left/right keys.
+
+Button Control Settings
+
+The six button control settings below can be set for any of the
+following buttons: A,B,X,Y,L,and R. Press the button you want
+to make the setting for, and the control is set to that button.
+
+SHOT... Shot attack(flying)
+
+PUNCH...Punch attack(flying)
+BOMB...Bomb attack(ground)
+
+CHIBI... Mini-transformation attack(special)
+
+Only used for 2P play
+
+ENERGY... Passing life from one player to another
+THROW... Throw attack
+
+12
+
+===== Page 12 =====
+
+Game Level
+The level of difficulty for the game can be adjusted.
+
+YOUWOU@
+
+easy<-medium-hard
+
+Game Mode
+The game mode can be set.
+
+NORMAL...Normal game.
+
+COUPLE...The enemy’s attacks are concentrated on
+Twinbee. This lets a skilled player play to-
+gether with a not so skilled player.
+
+Sound Mode
+Sound can be set to stereo or mons.
+
+** When you press the START button, you return to the title
+screen.
+
+13
+
+===== Page 13 =====
+
+Player Introdu ction — |.
+
+" PLAYERS’ BASIC ATTACKS
+
+Shooting bells will lead to power
+ups. (See p.17) |
+
+Attack an enemy that is in the air!
+
+Hold down the button and you build ~
+up power. Release to punch, if you
+build up a lot of power, the punch
+
+becomes very strong.
+An ultra-powerful attack against
+flying enemies!
+
+Y button
+
+With both hands you hold a bomb
+that you throw at the enemy.
+AUTO aiming.
+
+Attack enemies that are on the ground!
+
+===== Page 14 =====
+
+ment depending on the
+u lose one piece of
+
+are three transformation
+B eS for each player to choose
+
+peration i is the same as 8 Twinboe type, but
+downwards at the edge of screen.
+
+===== Page 15 =====
+
+Shoot the clouds floating lazily at the top of the screen and
+
+a bell will appear. At first the bell is yellow, but for every four
+times you hit it, it changes color. You can get the following
+power ups by picking up the different bells.
+
+Yellow:
+G@
+/))
+
+Bonus Score...Picking these
+up consecutively adds more
+points.
+
+Blue:
+@
+»)
+
+16
+
+Speed change...If you speed
+up past the fourth level, you
+
+return to the first level.
+Ce ,rr—“‘—“‘i—OOststststsi“i‘“(‘(‘(‘(‘(‘(‘(‘(‘(‘(‘(‘(‘(‘(‘(‘(‘(‘(‘(‘(‘(‘(‘(‘(<(‘(‘(<‘(<‘(<‘<‘i‘ SQ
+
+Cannon...A powerful shot to
+penetrate the enemy. Use
+with the SHOT button (B
+
+button).
+
+3 WAY...Shot with a wide
+attacking range. Use with
+the SHOT button (B button).
+
+Barrier...Guards you from
+damage up to acertain limit.
+
+===== Page 16 =====
+
+ete,
+
+‘S
+1) )
+
+as
+
+Transformation...Add one
+piece of equipment from the
+transformation type you
+choose. (Maximum four
+pieces) If you get more than
+four of these bells, you can
+stock them. (Maximum:
+nine)
+
+Flashing: Mini-Transformation
+Attack...You can stock one
+
+attack that gives damage to
+all enemies on the screen.
+(Maximum: nine) During the
+attack, the player cannot
+suffer damage.
+Note: At game start, you are
+given three of these. Use by
+pressing the CHIBI button (A
+button).
+
+In powering up, some items can be held at the same time while
+others cannot. It also differs between 1P play and 2P play.
+
+C ‘i
+
+When you attack certain on-
+the-ground enemies, a “flash”
+(life-restoring heart) or “DUD”
+will appear. If you are able to
+pick up these items, you can get
+life restored.
+
+===== Page 17 =====
+
+® Throw Attack R button
+
+X button
+
+Some enemies can only be defeated with a punch
+attack, so try all kinds of attacks!
+
+===== Page 18 =====
+
+
+
+===== Page 19 =====
+
+a)
+im ee lly
+
+===== Page 20 =====
+
+Stage 1: Dandelion town
+
+You get a mellow mood from
+the growing’ vegetables.
+Don't let them get destroyed.
+
+/ ‘Stage 2: ‘Aqua Park
+Go after the cute little fish.
+
+Tonight there wil ae grilled
+: fish for dinner! |
+
+Stage 3: Oolong Ruins
+
+An Oriental mood. Break into
+the Great Wall of China in
+the sky that Mardock has
+
+a Stage 4: Battleship i in the Air
+
+Ma rdock’s pride-a huge
+battleship. Attack it at full
+strength!
+
+===== Page 21 =====
+
+Stage 6: Magma Base
+
+An underground maze-like
+base where the entire
+Donguri Army is operating.
+Watch out because you
+never know what will come
+flying at you! |
+
+Stage 5: Lake Dompura
+
+Is this heaven or hell!? Skim
+over the surface of the water
+and break out to the city in
+the sky.
+
+Stage 7: Mardock Lab
+
+Dr. Mardock’s headquarters.
+In the end, will the last
+soldier-Super Twinbee
+Devil-remove its veil?!
+
+===== Page 22 =====
+
+
+
+===== Page 23 =====
+
+m= eh
+
+" . eat orenemeesen hee ner meecrrent Sere as aa “
+adi haere alain Taint uewaneariged PF TOT ey ete Ee esl F
+sae , aa; 1 ut . tara pwee a ie ely an aa cnet iss
+
+PALCOM SOFTWARE™ IS A TRADEMARK OF PALCOM SOFTWARE LIMITED. E
+POP’N TWINBEE® IS A REGISTERED TRADEMAF \F KONAMI CO,, LTD.
+NINTENDO®, SUPER NINTENDO ENTERTAINMENT SYSTEM™,
+THE NINTENDO PRODUCT SEALS AND OTHER MARKS
+DESIGNATED AS “TM” ARE TRADEMARKS OF NINTENDO.
+© 1993 KONAMI ALL RIGHTS RESERVED.
+
+" SOFTWARE
+
+PRINTED IN JAPAN.

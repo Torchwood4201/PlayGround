@@ -1,0 +1,1727 @@
+# Magic Boy
+source: https://archive.org/details/snes_manual_archive
+pdf: Magic Boy ( EU ).pdf
+region: EU
+pages: 56
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-YG-EUR
+
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+LICENSED BY
+
+a this information / Gardez ces informations / Diese Information aufbewahren
+Conservare queste informazioni / Guarde estas informes / Bewaar daze informatie
+Behaill denna information / Behold denne information / Pida tama tieto
+
+C € Nintendo of Europe GmbH : 63760 GroBostheim, Deutschland
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, @ AND a9 ARE TRADEMARKS OF NINTENDO CO.,LTD.
+
+Original
+
+Seal of
+y\ Quality
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO
+ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU'IL
+EST CONFORME AUX NORMES D'EXCELLENCE
+EN MATIERE DE FABRICATION, DE FIABILITE ET
+SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIESES QUALITATSSIEGEL IST DIE GARANTIE
+DAFUR, DASS SIE NINTENDO-QUALITAT
+GEKAUFT HABEN. ACHTEN SIE DESHALB
+IMMER AUF DIESES SIEGEL, WENN SIE SPIELE
+ODER ZUBEHOR KAUFEN, DAMIT SIE SICHER
+SIND, DASS ALLES EINWANDFREI ZU IHREM
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+PASST.
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO
+QUESTO PRODOTTO. RICHIEDILO SEMPRE
+ALL'ACQUISTO DI GIOCHI ED ACCESSORI PER
+ASSICURARE LA COMPLETA COMPATIBILITA
+CON IL TUO SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA APROBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIEMPRE ESTE
+SELLO CUANDO COMPRES VIDEOJUEGOS Y
+ACCESORIOS PARA ASEGURARTE UNA
+COMPLETA COMPATIBILIDAD CON TU SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO IS GECONTROLEERD EN DAT
+HET QUA CONSTRUGTIE, BETROUWBAARHEID
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN.
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+BiJ HET KOPEN VAN SPELLEN EN
+ACCESSOIRES ALTIJD OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+DENNA ETIKETT GARANTERAR ATT NINTENDO
+STAR FOR PRODUKTENS KVALITET.
+KONTROLLERA ATT ETIKETTEN FINNS PA SPEL
+OCH TILLBEHOR DU KOPER FOR ATT
+FORSAKRA DIG OM ATT DE AR KOMPATIBLA
+MED SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+DETTE SEGL GARANTERER, AT NINTENDO HAR
+GODKENDT KVALITETEN AF DETTE PRODUKT.
+SE ALTID EFTER DETTE SEGL, NAR DU KOBER
+SPIL OG TIBEH@R, SA DU ER SIKKER PA FULD
+KOMPATIBILITET MED DIT SUPER NINTENDO.
+ENTERTAINMENT SYSTEM.
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO ON
+HYVAKSYNYT TAMAN TUOTTEEN LAADUN.
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+SAAT VARMASTI SUPER NINTENDO
+ENTERTAINMENT SYSTEM YHTEENSOPIVIA
+TUOTTEITA.
+
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEVILLEZ LIRE ATTENTIVEMENT LA NOTICE "INFORMATIONS ET PRECAUTIONS
+D'EMPLOI" QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER _
+NINTENDO HARDWARE WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+
+SYSTEM™ LE CASSETTE O GLI ACCESSORI.
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEOJUEGO O ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE BIJ DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO-
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR.
+
+ADVARSEL : L/2S FORBRUGERINFORMATIONEN OG H/EFTET MED SIKKERHEDSREGLER, DER
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM,
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISESTI LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAl MUUN VAURSTEEN KAYTTOA.
+
+===== Page 3 =====
+
+MAGIC BOY
+CONTENTS
+
+EPILEPSY WARTING
+InTRobUTTIOn
+GETTING STARTED
+THE GAME
+
+GAME CONTROLS
+THE PANEL
+
+THE MONSTERS
+THE WORLDS
+TORERS
+
+FRANCAIS:
+
+AVERTISSENENT SUR L’EPILEPSIE ____.
+
+Bowman onanwon —
+
+BeQeIAARG
+
+ESPAHOL:
+
+NINTENDO HOTLINE
+U.K. LIMITED WARRANTY
+
+BRHAERReERBSS Be
+
+S2iatbbaseeeey
+
+FRANCAIS - GARANTIE LITHTEE ......... 50
+ESPAfiOL - GARANTIA LIMITADA.......... 50
+NEDERLANDS - BEPERHTE GARANTIE 50
+
+MAGIC BOY
+
+===== Page 4 =====
+
+
+
+===== Page 5 =====
+
+EPILEPSY WARKING
+
+Please read before using this video game system or allowing your children to
+use it.
+
+Some people are susceptible to epileptic seizures or loss of consciousness when
+exposed to certain flashing lights or light patterns in everyday life. Such people
+may have a seizure while watching certain television images or playing certain
+video games. This may happen even if the person has no medical history of
+epilepsy or has never had any epileptic seizures.
+
+If you or anyone in your family has ever had symptoms related to epilepsy
+(seizures or loss of consciousness) when exposed to flashing lights, consult your
+doctor prior to playing.
+
+We advise that parents should monitor the use of video games by their children.
+If you or your child experience any of the following symptoms: dizziness, blurred
+vision, eye or muscle twitches, loss of consciousness, disorientation, any
+
+involuntary movement or convulsion, while playing a video game, IMMEDI-
+
+ATELY discontinue use and consult your doctor.
+
+PRECAUTIONS TO TAKE DURING USE
+
+* Do not stand too close to the screen. Sit a good distance away from the
+
+television screen, as far away as the length of the cable allows.
+* Preferably play the game on a small television screen.
+¢ Avoid playing if you are tired or have not had much sleep.
+¢ Make sure that the room in which you are playing is well lit.
+
+¢ Rest for at least 10 to 15 minutes per hour while playing a video game.
+
+macic cov
+
+===== Page 6 =====
+
+INTRODUCTION
+
+It’s hard work being a wizard’s apprentice, especially if you’re a
+bit clumsy, or a bit absent minded, or just a bit slow. Hewlett is
+all three. So one fine morning, when his master tells him to add
+parsley to the brew and he misunderstands and pours in mercury,
+
+its no surprise that things go wrong, terribly wrong!
+
+The botched spell has turned the wizard into a large and brightly
+coloured elephant, and all the animals within a hundred mile
+radius have been transformed from cute and cuddly to sharp and
+dangerous. The only way to fix things is to capture the altered
+animals, throw them in the jail cells, and then find the master
+and turn him back to his old self so that he can transform
+everything else back. Of course, the area within a hundred miles
+of the castle contains a desert, an ocean, a toy land and a super-
+modern metropolis, but that just makes things interesting. See
+
+what happens if you mess up when there’s magic in the air?
+
+:
++
+
+===== Page 7 =====
+
+GETTING STARTED
+
+1. Insert your MAGIC BOY cartridge into your Super NES and
+switch the machine on.
+
+2. When the music starts, the game is ready to play.
+
+3. At the title screen, press the start button on your controller to
+enter the options screen.
+
+4. Use the directional pad and the “A” button to select the
+
+number of players, insert a password, or start the game.
+
+THE GRIME
+
+You are Hewlett, the wizards apprentice. To reach the brightly
+coloured pachyderm who used to be your boss, you'll need to
+travel through four worlds (Sand Land, Wet World, Plastic Place
+and Future Zone) each of which is made up of eight levels. You
+will visit each world twice, and there will be a different set of
+levels to explore on the second visit. When you begin a world,
+you will only have access to four levels initially. Once you
+complete levels one through four, you will be allowed to enter
+
+five through eight. You can complete the available levels in any
+
+order you choose.
+
+© macit BovEER
+
+===== Page 8 =====
+
+Complete each level by finding all the creatures and stunning
+them with your wand. Pick up each monster as soon as you stun
+it and throw in down to the jail cells at the bottom of the screen
+so that the wizard can later return them to their cute and cuddly
+selves. If any creature touches you when it isn’t stunned, you will
+lose one life. Some of the creatures can also fire shots which will
+
+bring an untimely end to Hewlett’s quest.
+
+There are also various hazards such as poison pools, sticky
+platforms, conveyor belts and so on which may impede or
+eliminate you. To help you out a little bit though, each monster
+carries a token. These tokens are released when a monster is
+stunned, and if you’re quick, the gift will be yours. The tokens
+might be pieces of fruit for bonus points, extra weapons or other
+
+useful items.
+
+Hewlett starts out with four lives and three continues. When all
+the lives are gone the game is over, but you can start a new game
+at your current level as long as you have a continue. Be sure to
+
+look for extra lives and continues hidden throughout the levels.
+
+We macic gov
+
+===== Page 9 =====
+
+GAME CONTROLS
+
+Use the diagram below to familiarise yourself with the game
+controls. Press the directional pad on the left side of the control-
+ler to make Hewlett walk to the left or right. Pressing down on
+the directional pad will make him sit down. Use the “B” button
+to jump and either the “A” or “Y” button to fire. The “R” and
+“L” buttons on top of the controller reveal platforms which are
+currently off screen, and the “X” button throws any monsters
+Hewlett is holding down into the jail cells. Press start to pause
+the game. If you press select, you will exit the game screen and
+go to the compass screen which will allow you to restart a level
+
+that you’re having problems with without losing a life.
+
+L Paddle | | R Paddle
+
+te SUPER MINTENDD =~
+
+Papa
+
+oy A
+=A O OZ Q) |
+
+4
+10>
+
+SELECT — START ae
+
+===== Page 10 =====
+
+THE PANEL
+
+You can tell how many creatures there are on each level by
+looking at the panel at the bottom of the screen. When you start a
+level, some of the jail cells are empty and some are blanked out.
+The number of empty cells is the number of monsters you have to
+find on a level, up to a maximum of sixteen. As you throw the
+monsters into the cells, the cell image changes to show it filled
+with a monster. This way you can tell how many enemies have
+been caught and how many are still roaming the level. Unfortu-
+nately, if you spend too much time on a level, the monsters wake
+
+up and escape from their cells to further harass you.
+
+The panel also shows your score, how many EXTRA tokens
+you have collected (spelling out EXTRA will give you an extra
+life), how many star tokens you have collected (five of these give
+you an extra continue), how many lives you have left and how
+
+much power your extra weapon (if any) has remaining.
+
+Cl magic poy &
+
+===== Page 11 =====
+
+THE MONSTERS
+
+Each world has its own set of monsters. Some walk along plat-
+forms, others fly or swim. Some can fire shots, and of the ones
+which do, some fire shots only when they see Hewlett and others
+fire every so often just because. The monsters move at their own
+pace from painfully slow to dangerously fast. For you to succeed,
+
+all must be captured.
+
+CLARENCE THE CLAM TEDDY FREDA THE FISH
+MANFRED THE MOUSE WOOLY DOG
+
+MAGIC BOVE
+
+===== Page 12 =====
+
+THE WORLDS
+
+Hewlett has to visit, in order, Sand Land, Wet World, Plostic Place and
+Future Zone. Each of these worlds is eight levels long and he visits
+all four twice, with a different set of levels for him to explore on
+the second visit. So there are eight worlds in total and at the end
+
+of the eighth level Hewlett will find the Wizard.
+
+TOKENS
+
+Every monster carries a token which it releases when stunned.
+The tokens fly away from the stunned monsters so you’ll have to
+determine the best place to shoot them in order to grab the token.
+If you don’t grab the token within a few seconds, it flickers and
+vanishes. Most of the tokens are pieces of fruit which give bonus
+points, but some of them give you the power to shoot through
+walls, shoot up and down or shoot double and triple shots. There
+will be places where you’ll need a certain weapon in order to
+round up monsters later in the level, so try to plan ahead. Oh, by
+the way, there are extra lives and continues to be collected as
+
+well!
+
+Fe macic soy <
+
+===== Page 13 =====
+
+THE HAZARDS
+
+As you go through the levels, you’ll encounter various hazards
+
+which may be inconvenient or even fatal. They include:
+
+DISSOLUING SQUARES
+
+These are thin and blue, and when you walk on them they fade
+away. Once gone, these steps never come back, so plan your route
+
+with care.
+
+ICE SQUARES
+
+These cause you to slip uncontrollably in the direction you’re
+walking. Unfortunately, if you don’t pay attention, you could end
+up slipping right off the end of a platform or into a waiting
+monster. One cool thing about ice squares, though, is that you
+move a lot faster. Therefore, you can jump higher and/or further
+
+than normal.
+
+STICKY SQUARES
+
+These are green with a clear top. You can walk on and off these
+but they will slow you down. Even worse, you can’t jump from
+these, so you might be vulnerable to shots or monsters coming at
+
+you.
+
+magic BovEEy
+
+===== Page 14 =====
+
+CONVEVOR BELTS
+
+These carry you along with them which can be good if you need
+to get somewhere in a hurry, or bad if there’s a monster at the
+
+other end. Be prepared.
+
+A variety of springs allow you to bounce to higher platforms.
+Green springs bounce higher than blue ones. Horizontal springs
+push you from side to side and can be useful for getting a bounce
+
+over some other kind of hazard.
+
+PISTONS
+
+These work like springs except that you don’t have to jump on
+them to take flight. They activate automatically as soon as you
+walk on them and can send you places you definitely don’t want
+
+to be!
+
+FLASHING SQUARES
+
+These have a question mark inside them. Sometimes they’re
+
+there, and sometimes they’re not. You’ll have to time your jumps
+
+carefully to use them.
+
+===== Page 15 =====
+
+TRAP SQUARES
+
+These can be good or bad. The red ball traps go off a few seconds
+after you walk on them and will cost you a life. The big spike
+squares go off when you shoot them allowing you to zap mon-
+sters you can’t reach. The twin spike traps are safe to walk on,
+
+but don’t jump or fall onto them or else you'll lose another life.
+
+WATER
+
+Always avoid this liquid, Hewlett cannot swim!!
+
+Bonus squares light up red when you walk on them, then go back
+to blue if you walk on them again. If when you finish a level all
+the bonus squares are lit red, you will be rewarded with bonus
+
+points.
+
+The blocks with an exclamation mark on them hold bonus - a
+
+piece of fruit, an extra weapon or a trip to a secret bonus level.
+
+Shoot the blocks to release the bonuses.
+
+===== Page 16 =====
+
+HINTS AND TIPS
+
+There are extra hidden features throughout the game which you'll
+have to work to find. On most levels, some normal looking
+platforms have secret bonuses hidden in them which fly out if you
+shoot the platform. Breaking through a platform can open up a
+
+part of the screen that you weren’t able to reach before.
+
+One of the hidden blocks is the magic rainbow warp. Grab this
+
+and skip forward however many levels it has written on it.
+
+In every world there are hidden bonus rooms. You reach them by
+
+finding the magic book token and grabbing it.
+Don’t take too long to finish a level.
+
+Keep looking up and down to make sure you aren’t going to jump
+up into or fall down onto a monster. Don’t try to shoot each
+monster straight away. Watch it for a bit to work out how it
+
+moves and if it’s likely to fire at you first.
+Try and find all of the hidden bonuses.
+
+Be sure to make use of the compass screen if you think you’ve
+taken too long or if you can’t get back to a part of a level you
+need to get back to. Be sure to deposit any monsters you capture
+
+into the jail cells as soon as possible.
+
+a macic Boy =
+
+===== Page 17 =====
+
+AVERTISSEMENT SUR L’ EPILEPSIE
+
+A lire avant toute utilisation d’un jeu vidéo par vous-méme ou votre enfant.
+Certaines personnes sont susceptibles de faire des crises d’épilepsie ou d’avoir
+des pertes de conscience a la vue de certains types de lumiéres clignotantes ou
+d’eléments frequents dans notre environnement quotidien. Ces personnes s’expo-
+sent a des crises lorsqu’elles regardent certaines images télévisées ou lorsqu’elles
+jouent a certains jeux vidéo. Ces phénoménes peuvent apparaitre alors méme que
+le sujet n’a pas d’antécédent médical ou n’a jamais été confronté a une crise
+d’épilepsie.
+
+Si vous-méme ou un membre de votre famille avez déja présenté des symptOmes
+liés a l’épilepsie (crise ou perte de conscience) en présence de stimulations lumi-
+neuses, veuillez consulter votre médecin avant toute utilisation.
+
+Nous conseillons aux parents d’étre attentifs 4 leurs enfants lorsqu’ils jouent
+avec des jeux vidéo. Si vous-méme ou votre enfant présentez un des symptémes
+suivants: vertige, trouble de la vision, contraction des yeux ou des muscles, perte
+de conscience, trouble de l’orientation, mouvement involontaire ou convulsion,
+veuillez IMMEDIATEMENT cesser de jouer et consulter un médecin.
+
+PRECAUTIONS A PRENDRE DANS TOUS LES CAS POUR
+LUTILISATION DUN JEU VIDEO
+
+¢ Ne vous tenez pas trop prés de l’écran. Jouez a bonne distance de l’écran de
+télévision et aussi loin que le permet le cordon de raccordement.
+
+¢ Utilisez de préférence les jeux vidéo sur un écran de petite taille.
++ Evitez de jouer si vous étes fatigué ou si vous manquez de sommeil.
+¢ Assurez-vous que vous jouez dans une piéce bien éclairée.
+
+¢ Encours d’utilisation, faites des pauses de dix 4 quinze minutes toutes les
+
+heures.
+
+macic BOVE
+
+===== Page 18 =====
+
+InTRODUCTION
+
+C’est dur d’étre un apprenti sorcier, surtout si vous étes maladroit,
+ou étourdi, ou seulement lent. Hewlett est les trois a la fois. Alors,
+un beau matin, lorsque son maitre lui demande d’ajouter du persil a
+la mixture, et que par inadvertance il y verse du mercure, il n’est pas
+
+surprenant que tout aille mal, mais vraiment mal!
+
+Le sortilége saboté a transformé le sorcier en un énorme éléphant de
+couleur vive, et tous les animaux des alentours sont devenus mé-
+chants et dangereux. La seule fagon d’arranger les choses, consiste a
+capturer les animaux transformés, les mettre en prison, récupérer le
+maitre et lui rendre son apparence habituelle, de fagon a ce qu’il
+puisse tout retransformer comme avant. Bien sir, la zone qui en-
+toure le chateau contient un désert, un océan, un monde de jouets et
+une métropole hyper-moderne; mais cela ne fait que rendre les cho-
+ses plus intéressantes. Vous voyez ce qui se passe lorsque vous n’étes
+
+pas attentif et que la magie est en jeu!
+
+[a macic Boy
+
+===== Page 19 =====
+
+1. Insérez votre cartouche MAGIC BOY dans votre Super NES et allu-
+mez-la (On).
+
+2. Lorsque la musique commence, vous étes prét a jouer.
+
+3. A partir de l’écran titre, appuyez sur le bouton Start de votre con-
+tréleur pour accéder a l’écran d’options.
+
+4. Utilisez le pad directionnel et le bouton A pour sélectionner le
+
+nombre de joueurs, insérer un mot de passe ou commencer le jeu.
+
+LE JEU
+
+Vous étes Hewlett, l’apprenti sorcier. Pour atteindre le pachyderme
+coloré qui était autrefois votre patron, vous devez traverser quatre
+mondes (Sand Land (le désert), Wet World (l’océan), Plastic Place
+(le monde des jouets) et Future Zone (la métropole)) divisés en huit
+niveaux. Vous visiterez chaque monde deux fois, et il y aura des ni-
+veaux différents a explorer lors de la seconde visite. Lorsque vous
+commencez un monde, vous n’avez accés qu’a quatre niveaux. Lors-
+que vous aurez terminé les quatre premiers niveaux, vous pourrez
+passer aux niveaux cing a huit. Vous pouvez effectuer les niveaux
+
+dans l’ordre que vous désirez.
+
+===== Page 20 =====
+
+Pour terminer les niveaux, vous devez trouver toutes les créatures et
+leur jeter un sort paralysant avec votre baguette magique. Emparez-
+vous de chaque monstre dés que vous l’avez paralysé, et envoyez-le
+en prison au bas de I’écran, de facon a ce que le sorcier puisse lui
+redonner plus tard son apparence normale. Si une créature vous tou-
+che lorsqu’elle n’est pas paralysée, vous perdez une vie. Certaines
+créatures peuvent également tirer des projectiles qui mettront immé-
+
+diatement fin a la mission de Hewlett.
+
+Il y a également d’autres obstacles a franchir comme les flaques de
+poison, les plates-formes collantes, les tapis roulants, etc... ce qui
+pourrait vous retarder ou vous éliminer. Pour vous aider un peu
+plus, chaque monstre porte un symbole. Ces symboles apparaissent
+lorsqu’un personnage est paralysé, et si vous étes rapide, vous pour-
+rez vous en emparer. Les symboles peuvent étre des morceaux de
+fruits qui donnent des points, des armes supplémentaires ou autres
+
+objets utiles.
+
+Hewlett commence avec quatre vies et trois options ,,continue“.
+Lorsque toutes les vies sont épuisées, le jeu est terminé, mais vous
+pouvez commencer un nouveau jeu, au niveau actuel si vous avez un
+»continue“. Cherchez les vies supplémentaires et les ,,continues“ ca-
+
+chés dans les niveaux.
+
+pe
+4
+
+===== Page 21 =====
+
+CONTROLES DU JEU
+
+Utilisez le diagramme ci-dessous pour vous familiariser avec les con-
+tréles du jeu. Appuyez sur le pad directionnel, se trouvant sur la par-
+tie gauche du contréleur, pour que Hewlett se déplace vers la gauche
+ou la droite. Si vous appuyez sur le pad directionnel vers le bas, il
+s’assiéra. Utilisez le bouton ,,B“ pour sauter, et le bouton ,,A“ ou
+»Y“ pour tirer. Les boutons ,,R“ et ,,L“ de la partie supérieure du
+contréleur révélent des plates-formes qui sont en fait hors écran, et
+le bouton ,,X“ envoie les monstres, sous l’emprise de Hewlett, en
+prison. Appuyez sur Start pour mettre le jeu en pause. Si vous ap-
+puyez sur Select, vous quitterez l’écran de jeu, pour passer a l’écran
+boussole, ce qui vous permet de recommencer le niveau sans perdre
+
+une vie.
+
+Bouton L | | Bouton R
+
+'» SUPER NINTENDO aa
+
+cm ree
+
+Keke wet t macic Bova
+
+===== Page 22 =====
+
+A
+RIGHT: DROITE =| |<. © > DOWN: BAS
+V
+
+LEFT: GAUCHE
+
+LE TABLEAU
+
+Vous pouvez voir le nombre de créatures se trouvant 4 chaque niveau en
+regardant le tableau au bas de l’écran. Lorsque vous commencez un ni-
+veau, certaines cellules de la prison sont vides, et d’autres sont effacées.
+Le nombre de cellules vides correspond au nombre de monstres que vous
+devez trouver dans un niveau, avec un maximum de seize. Lorsque vous
+envoyez un monstre en prison, il apparaitra dans une des cellules. Vous
+pouvez ainsi savoir combien d’ennemis ont été capturés, et combien il
+vous en reste 4 capturer. Malheureusement, si vous passez trop de temps
+
+sur un niveau, les monstres se réveillent et s’échappent de leurs cellules.
+
+Le tableau montre votre score, le nombre de symboles E X T R A que vous
+avez ramassés (si vous arrivez a écrire le mot EXTRA, vous obtenez une
+vie supplémentaire), le nombre de symboles étoiles ramassés (cing de ces
+symboles vous donnent un ,,continue“ supplémentaire), le nombre de
+vies qu’il vous reste, et la puissance de votre arme supplémentaire (si vous
+
+en avez une).
+
+ye
+
+===== Page 23 =====
+
+LES MONSTRES
+
+Chaque monde a sa propre série de monstres. Certains se déplacent
+sur les plates-formes, d’autres volent ou nagent. Certains peuvent ti-
+rer des projectiles, et parmi ceux-ci, certains ne tirent que sur
+Hewlett, et d’autres tirent réguli¢rement. Les monstres se déplacent
+a des allures différentes, pouvant étre trés lentes ou extrémement ra-
+
+pides. Pour réussir, vous devez tous les capturer.
+
+BE &
+
+CLARENCE LE CLAM TEDDY FREDA LE POISSON
+MANFRED LA SOURIS WOOLY LE CHIEN
+
+===== Page 24 =====
+
+LES MONDES
+
+Hewlett doit visiter dans l’ordre, Sand Land, Wet World, Plastic Place, et
+Future Zone. Chacun de ces mondes est composé de huit niveaux, et
+Hewlett doit visiter ces quatre mondes deux fois, avec des niveaux
+différents 4 explorer la deuxiéme fois. Donc il y a huit mondes en
+
+tout, et a la fin du huitiéme niveau, Hewlett trouvera le sorcier.
+
+SVIMBOLES
+
+Chaque monstre porte un symbole qui apparait lorsqu’il est para-
+lysé. Les symboles s’échappent des monstres en volant; il vous fau-
+dra donc déterminer le meilleur endroit pour tirer sur les monstres,
+afin de pouvoir vous emparer des symboles. Si vous ne vous emparez
+pas du symbole en quelques secondes, il se met a clignoter et dispa-
+rait. La plupart des symboles sont des morceaux de fruits qui don-
+nent des points bonus, mais certains vous permettent de tirer a tra-
+vers les murs, de tirer vers le haut et le bas, d’avoir un tir double ou
+triple. Il y a des endroits ou vous aurez besoin d’une certaine arme
+pour vous attaquer aux monstres, plus tard dans le niveau, alors
+soyez prévoyant. Et en plus, vous pouvez ramasser des vies supplé-
+
+mentaires et des ,,continues“!
+
+MAGIC BOY
+
+===== Page 25 =====
+
+LES OBSTACLES
+
+Dans les niveaux, vous rencontrerez différents obstacles qui peuvent
+
+étre génants ou méme fatals. Ce sont:
+
+LES CARRES QUI SE DISSOLVENT
+
+Ils sont minces et bleus, et lorsque vous marchez dessus, ils s’effa-
+cent. Une fois qu’ils ont disparu, ils ne reviennent plus, alors prépa-
+
+rez votre route soigneusement.
+
+LES CUBES DE GLACE
+
+Ils vous font glisser de fagon incontrdlable, dans la direction ot vous
+marchez. Malheureusement, si vous n’étes pas assez prudent, vous
+pourriez glisser d’une plate-forme ou percuter un monstre. Mais une
+chose est stire, ils vous permettent de vous déplacer beaucoup plus
+vite. Vous pouvez donc sauter plus haut et/ou plus loin que normale-
+
+ment.
+
+LES CARRES COLLANTS
+
+Ils sont verts et transparents dans leur partie supérieure. Vous pou-
+vez marcher dessus, mais ils vous ralentiront. Et méme pire, vous ne
+
+pouvez pas sauter de ces carrés, ce qui vous rend vulnérable aux tirs
+
+ou aux monstres qui se dirigent vers vous.
+
+“*
+© MAGIC BOVE
+
+===== Page 26 =====
+
+LES TAPIS ROULANTS
+
+Ils vous permettent d’avancer plus vite, ce qui peut avoir des avanta-
+
+ges et des inconvénients, surtout s’il y a un monstre au bout. Soyez
+
+prét.
+
+LES RESSORTS
+
+Plusieurs ressorts vous permettent de rebondir pour atteindre des
+plates-formes plus élevées. Les ressorts verts vous feront sauter plus
+haut que les bleus. Les ressorts horizontaux vous poussent d’un cété
+
+a autre, et peuvent étre utiles pour franchir certains obstacles.
+
+LES PISTONS
+
+Ils fonctionnent comme des ressorts, mais vous n’avez pas besoin de
+sauter dessus pour décoller. Ils s’activent automatiquement lorsque
+vous marchez dessus, et peuvent vous envoyer dans des endroits ot
+
+vous ne voulez vraiment pas aller.
+
+LES CARRES CLIGHOTANTS
+
+Ils contiennent un point d’interrogation. Ils apparaissent parfois,
+mais pas toujours. Vous devez synchroniser soigneusement vos sauts
+
+pour les utiliser.
+
+Pramacic Boy
+
+===== Page 27 =====
+
+LES CARRES PIEGES
+
+Ils ont leurs avantages et leurs inconvénients. Les carrés rouges ex-
+plosent quelques secondes aprés votre passage, et vous coateront
+une vie. Les carrés comportant une pique explosent lorsque vous leur
+tirez dessus, vous permettant de vous débarrasser des monstres que
+vous n’atrivez pas a atteindre. Les piéges a deux piques ne sont pas
+dangereux si vous marchez dessus, mais ne vous amusez pas a sau-
+
+ter ou tomber dessus, car vous perdriez une autre vie.
+
+L’EAu
+
+Evitez toujours ce liquide, Hewlett ne sait pas nager!!!
+
+Les carrés bonus s’allument en rouge lorsque vous marchez dessus,
+et redeviennent bleus si vous y repassez. Si tous les carrés bonus
+sont rouges, lorsque vous terminez un niveau, vous obtiendrez des
+
+points bonus.
+
+Les blocs marqués d’un point d’exclamation, contiennent un bonus:
+un morceau de fruit, une arme supplémentaire ou un bon pour un
+
+niveau bonus secret. Tirez sur ces blocs pour faire apparaitre les
+
+bonus.
+
+===== Page 28 =====
+
+CONSEILS DE JEU
+
+Il y a certains objets cachés dans le jeu, et vous devrez travailler dur
+pour les trouver. Dans la plupart des niveaux, des plates-formes qui
+ont une apparence normale contiennent des bonus secrets, qui appa-
+raissent si vous tirez dessus. En passant au travers d’une plate-
+forme, vous risquez de découvrir une partie de Il’écran a laquelle
+vous ne pouviez pas accéder auparavant. Un de ces blocs cachés con-
+tient un arc-en-ciel magique. Emparez-vous de ce dernier, et avancez
+du nombre de niveaux indiqué. Dans chaque monde, vous trouverez
+des salles bonus cachées. Vous pourrez les atteindre, si vous trouvez
+le symbole livre magique et que vous vous en emparez. Ne prenez
+pas trop de temps pour terminer un niveau. Regardez vers le haut et
+le bas pour vérifier que vous n’allez pas sauter et percuter un mons-
+tre. N’essayez pas de tirer immédiatement sur tous les monstres. Ob-
+servez-les pendant quelques instants pour connaitre leurs mouve-
+ments et savoir s’ils vont vous tirer dessus en premier. Essayez de
+trouver tous les bonus cachés. Utilisez l’écran boussole si vous pen-
+sez que vous avez mis trop de temps, ou si vous n’arrivez pas a re-
+
+tourner dans une partie du niveau ou vous voulez vous rendre. En-
+
+voyez les monstres en prison dés que vous les avez capturés.
+
+===== Page 29 =====
+
+ADVERTENCIA ACERCA DE LA EPILEPSIA
+
+Lea esta advertencia antes de utilizar este sistema de juego de video o permitir que
+sus hijos lo utilicen.
+
+Algunas personas son susceptibles de padecer ataques epilépticos o pérdida del
+conocimiento cuando se exponen a ciertos patrones de luz o luces destellantes en su
+vida cotidiana. Tales personas pueden sufrir un ataque mientras ven ciertas
+imagenes de television o utilizan ciertos juegos de video. Esto puede suceder
+incluso si la persona no tiene un historial médico de epilepsia o nunca ha sufrido
+ataques epilépticos.
+
+Si usted o cualquier miembro de su familia ha tenido alguna vez sintomas
+relacionados con la epilepsia (ataques 0 pérdida de conocimiento) cuando se haya
+expuesto a luces destellantes, consulte a su médico antes de jugar.
+
+Nosotros recomendamos que los padres supervisen la utilizacion que sus hijos
+hacen de los juegos de video. Si usted o sus hijos experimentan alguno de los
+siguientes sintomas: mareos, vision borrosa, contracciones oculares o musculares,
+pérdida de conocimiento, desorientacion, cualquier movimiento involuntario 0
+convulsiones, mientras utiliza un juego de video, interrumpa INMEDIATAMENTE la
+utilizacion del sistema y consulte a su médico.
+
+PRECAUCIONES QUE DEBEN TOMARSE DURANTE LA UTILIZACION
+
+* No se ponga demasiado cerca de la pantalla. Siéntese bien separado de la
+pantalla del televisor, tan lejos como permita la longitud del cable.
+
+* Utilice el juego con una pantalla de television lo mas pequefia posible.
+
+¢ Evite jugar si se encuentra cansado o no ha dormido lo suficiente.
+
++ Asegurese de que la habitacion donde esté jugando esté bien iluminada.
+
+¢ Descanse un minimo de entre 10 y 15 minutos cada hora mientras utiliza un juego
+de video.
+
+* MAGIC BOVE Ty
+
+===== Page 30 =====
+
+InTRODUCCION
+
+Es dificil ser aprendiz de mago, sobre todo si eres un manazas, un
+poco despistado, o simplemente lento. Hewlett es todo eso y mas.
+Asi pues, un buen dia cuando su maestro le pide que afiada un poco
+de perejil a la pécima, se confunde y echa mercurio, jasi que no es
+
+de sorprender que las cosas salgan mal, muy mal!
+
+La mezcla ha convertido al mago en un elefante de llamativos
+colores, y todos los animalitos monos y carifiosos en un radio de 100
+millas han sido transformados en monstruos violentos y peligrosos.
+La unica posible solucion es capturar a los animales transformados,
+encerrarlos en la carcel y encontrar al maestro para devolverle a su
+aspecto original para que a la vez pueda restaurar todo lo demas.
+Claro que, la zona en un radio de 100 millas del castillo contiene un
+desierto, un océano, un pais de los juegos, y una metropolis
+supermoderna, lo cual pone un toque de emocion al juego. :Vemos
+
+qué pasa si metes la pata con tanta magia en el ambiente?
+
+Ecamacic Boy
+
+===== Page 31 =====
+
+is
+
+Asumes el papel de Hewlett, el aprendiz de mago. Si deseas alcanzar
+a tu ex-jefe, quien se ha convertido en un paquidermo de Ilamativos
+colores, deberas viajar por cuatro mundos (Mundo de Arena, Mundo
+Acuatico, Plastilandia y la Zona del Futuro), cada uno de ellos con
+ocho niveles. Deberas visitar cada uno de estos mundos dos veces, y
+durante la segunda visita exploraras distintos niveles. Inicialmente,
+al llegar a un mundo solo tendras acceso a cuatro niveles. Una vez
+hayas completado los niveles del 1 al 4, podras entrar en los niveles
+5 al 8. Podras completar los niveles siguiendo cualquier orden.
+Encuentra a todas las criaturas de cada nivel y atontalas con tu
+
+varita.
+
+Inserta tu cartucho MAGIC BOY en tu Super Nintendo y enciende
+la maquina.
+
+Podras iniciar una partida en cuanto suene la musica.
+
+Estando en la pantalla de titulo, pulsa el boton start de tu
+controlador para acceder a la pantalla de opciones.
+
+Usa el panel de control y el boton “A” para seleccionar el
+numero de jugadores, insertar una palabra clave, o empezar un
+
+juego.
+
+© MAGIC BOV Pia
+
+===== Page 32 =====
+
+En cuanto hayas atontado a los monstruos, cogelos y lanzalos a las
+celdas de la carcel en la parte inferior de la pantalla para que mas
+tarde el mago pueda devolverlos a su estado natural. Si te llegase a
+tocar una criatura antes de que le pudieses atontar, perderas una
+vida. Algunas criaturas lanzaran proyectiles, los cuales podrian
+acabar con la aventura de Hewlett antes de lo previsto. También
+encontraras varias zonas peligrosas tales como estanques venenosos,
+plataformas pegajosas, cintas transportadoras, etc. las cuales
+podrian impedirte el paso o incluso podrian eliminarte. Pero, por
+suerte, cada uno de los monstruos lleva una ficha. En cuanto atontes
+al monstruo, soltara la ficha y podras hacerte con el regalo si eres lo
+suficientemente rapido. Las fichas podrian ser trozos de fruta o
+puntos de bonificacion, armamento adicional u otros objetos de
+
+interés.
+
+Hewlett empezara la partida con cuatro vidas y tres continuaciones.
+Una vez acabadas las vidas, acabara el juego, pero podras iniciar un
+juego nuevo en el nivel actual si dispones de una continuacion.
+Asegurate de buscar las vidas adicionales y las continuaciones que
+
+encontraras escondidas en los niveles.
+
+Ec amacic Boy ©
+
+===== Page 33 =====
+
+CONTROLES DEL JUEGO
+
+Usa este dibujo para familiarizarte con los controles del juego.
+
+Pulsa el panel de control a mano izquierda del controlador para que
+Hewlett pueda andar hacia la izquierda o hacia la derecha. Al pulsar
+abajo en el panel de control, Hewlett se sentara. Usa el boton “B”
+para saltar y los botones “A” o “Y” para disparar. Los botones “R”
+y “L” en la parte superior del controlador mostraran plataformas
+ocultas, el boton “X” sirve para lanzar a los monstruos atontados
+por Hewlett en las celdas de la carcel. Pulsa start para poner el juego
+en pausa. Al pulsar select, abandonaras la pantalla del juego y
+accederas a la pantalla del recinto, la cual te permitira reiniciar un
+
+nivel donde tengas problemas sin perder una vida.
+
+Boton L | | Boton R
+
+2 SUPER NINTENDO
+
+Pools
+
+===== Page 34 =====
+
+Arriba
+
+Vii
+
+Izquierda { fa
+
+\
+exes
+Abajo
+
+\ Derecha
+
+10-0
+L¢
+
+EL PANEL
+
+Podras calcular el numero de criaturas en cada uno de los niveles
+mirando el panel en la parte inferior de la pantalla. Al iniciar un nivel,
+notaras que algunas celdas de la carcel estaran vacias y otras queda-
+ran en blanco. Podras calcular el numero de monstruos en un nivel
+por el numero de celdas vacias, habiendo un maximo de 16. Al
+encerrar a los monstruos, la imagen de la celda cambiara, indicando
+que ahora esta ocupada por un monstruo. Asi podras calcular los
+enemigos que hayas capturado y los enemigos que siguen vagando
+libremente por el nivel. Desafortunadamente, si pierdes demasiado
+tiempo en un nivel, los monstruos se despertaran y escaparan de sus
+
+celdas, complicando las cosas aun mas.
+
+EI panel indica tu puntuacion, las fichas E X T R A que hayas obtenido
+(obtendras una vida adicional al completar la palabra EXTRA), las
+fichas estrella que hayas recogido (obtendras una continuacion
+adicional al disponer de cinco de estas estrellas), las vidas restantes y
+
+la potencia que aun queda en tu arma (si es que tienes).
+
+Eq macic Boy ©
+
+===== Page 35 =====
+
+LOS MONSTRUOS
+
+Cada uno de los mundos tiene sus propios monstruos. Algunos
+caminan por plataformas, otros vuelan y otros nadan. Algunos
+pueden disparar. De los que disparan, algunos dispararan unica-
+mente al ver a Hewlett, y otros dispararan de vez en cuando porque
+si. Los monstruos se mueven a su propio paso, algunos son muy
+lentos y otros peligrosamente rapidos. Deberas capturar a todos los
+
+monstruos para salir airoso de tu mision.
+
+QE &
+
+CLARENCE LA ALMEJA TEDDY FREDA EL PEZ
+ey
+MANFRED EL RATON PERRO WOOLY
+
+===== Page 36 =====
+
+LOS MUNDOS
+
+Hewlett debera visitar, siguiendo este orden, e1 Mundo de Arena (Sand
+Tard) , elMandb An dtico (WetWorld) , Plastilandia (PlasticPlace) ylaZoadel
+Futuro (Future Zone) .Cadaunodeestos mundos dispone de8 nivelesy
+
+debera visitarlos dos veces. Durante su segunda visita se alteraran
+los niveles. Por lo tanto habra un total de 8 mundos, y Hewlett
+
+encontrara al Mago al final del octavo nivel.
+
+Cada uno de los monstruos lleva una ficha, la cual soltara al
+atontarlo. Las fichas se echaran a volar una vez hayas atontado a los
+monstruos, por lo que deberas determinar el lugar mas indicado
+para dispararles para hacerte con la ficha. Si no coges la ficha de
+inmediato, parpadeara y desaparecera. Casi todas las fichas son
+trozos de fruta ofreciendo puntos de bonificacion, aunque algunas te
+concederan el poder de disparar a través de muros, disparar hacia
+
+arriba o hacia abajo o lanzar rafagas dobles 0 triples.
+
+Hay lugares donde deberas disponer de un arma especifica para
+luego juntar a los monstruos en ese mismo nivel, por lo que tendras
+que hacer planes previos. ;Por cierto, también hay vidas adicionales
+
+y continuaciones escondidas por los mundos!
+
+Ey amacic Boy *
+
+===== Page 37 =====
+
+LOS PELIGROS
+
+Segun vayas avanzando por los niveles, encontraras varios peligros
+que podrian resultar inconvenientes o incluso fatales. Estos inclu-
+
+yen:
+
+CUADRICULAS DISOLVENTES
+
+Tienen una capa muy fina y son azules, y al caminar sobre ellas se
+desvaneceran. Una vez disueltas, estos escalones desapareceran para
+
+siempre, por lo que deberas planear tu ruta con sumo cuidado.
+
+Al pisar sobre estas cuadriculas perderas el control resbalando en la
+direccion en la que estés caminando. Desafortunadamente, si no
+prestas atencion podrias llegar a caer por la plataforma o directa-
+mente a las garras de un monstruo. Lo bueno de las cuadriculas de
+hielo es que podras moverte a mayor velocidad. Por lo tanto, podras
+
+saltar mas alto y/o mas lejos de lo normal.
+
+Estas cuadriculas son verdes y tienen una parte superior transparen-
+te. Podras caminar sobre todas ellas, aunque te moveras mas
+lentamente. Lo que es aun peor, no podras saltar desde ellas, por lo
+
+que seras vulnerable a los disparos 0 a los monstruos que te vayan a
+
+acosar.
+
+===== Page 38 =====
+
+CINTAS TRANSPORTADORAS
+
+Podras usar las cintas transportadoras como vehiculo, lo cual
+vendra muy bien cuando desees viajar rapidamente o a lo mejor no
+
+tanto si hay un monstruo al otro lado. Estate atento.
+
+MUELLES
+
+Los muelles te permitiran botar a plataformas mas altas. Los muelles
+verdes botan mas que los muelles azules. Los muelles horizontales te
+empujaran de un lado a otro, y vienen bien a la hora de tener que
+
+evitar otros tipos de peligro.
+
+PISTONES
+
+Funcionan como los muelles sélo que no hace falta saltar sobre ellos
+para lanzarte al vuelo. ;Al situarte sobre ellos se activaran
+
+automaticamente y podrian lanzarte a lugares indeseables!
+
+CURDRICULAS INTERMITENTES
+
+Veras una interrogacion dentro de estas cuadriculas. Algunas veces
+estaran ahi y otras no. Deberas calcular tus saltos con sumo cuidado
+
+para no fallar.
+
+===== Page 39 =====
+
+CUADRICULAS CON TRAMPA
+
+Estas pueden ser ventajosas o no. Las trampas con las bolas rojas se
+activaran pocos segundos después de haber caminado sobre ellas y
+te costaran una vida. Las cuadriculas con grandes puas se activaran
+al dispararlas, y atraparan a aquellos monstruos que no puedas
+alcanzar. Podras caminar sobre las trampas de doble pua, pero no
+
+podras saltar ni caer dentro de ellas ya que te costara una vida.
+
+AGUA
+
+Evita este liquido a todas horas. ;;Hewlett no sabe nadar!!
+
+Las cuadriculas de bonificacion se iluminaran pasando a un color
+rojo cuando camines sobre ellas, y volveran a su color azul original
+si vuelves a andar sobre ellas. Cuando hayas terminado un nivel, las
+cuadriculas de bonificaci6n se iluminaran de color rojo, y seras
+
+recompensado con puntos de bonificacion.
+
+Aquellos bloques con una interrogacion dispondran de una bonifica-
+cion: un trozo de fruta, un arma adicional o un viaje a un nivel de
+bonificacion secreto. Dispara los bloques para obtener las bonifica-
+
+ciones.
+
+===== Page 40 =====
+
+PISTAS ¥ CONSEJOS
+
+Encontraras muchas otras cosas ocultas en el juego, pero deberas
+trabajar para encontrarlas. En casi todos los niveles, algunas
+plataformas aparentemente normales disponen de bonificaciones
+secretas escondidas dentro de las mismas y se echaran a volar al
+disparar sobre la plataforma. Si rompes una plataforma, podrias
+descubrir parte de la pantalla a la que antes no tenias acceso.
+Encontraras un arco iris magico en uno de estos bloques ocultos.
+Cogelo y avanza los niveles indicados.
+
+Encontraras tres niveles ocultos de bonificacion en cada uno de los
+mundos. Los descubriras al localizar y coger la ficha del libro
+magico.
+
+No te entretengas mucho y acaba el nivel cuanto antes.
+
+Mira hacia arriba y hacia abajo para asegurarte de que no vayas a
+saltar o caer en las garras de un monstruo. Procura no disparar de
+inmediato a los monstruos. Observa su comportamiento y si tiene
+intencién de dispararte primero.
+
+Procura encontrar todas las honificaciones escondidas.
+
+Asegurate de usar la pantalla del recinto si crees haber tardado
+demasiado o si no puedes volver a la parte del nivel deseado.
+Asegurate de depositar todos los monstruos que hayas capturado en
+
+las celdas de la carcel cuanto antes.
+
+ELE MAGIC BOY =
+
+===== Page 41 =====
+
+WAARSCHUWING VOOR EPILEPSIE
+
+Doorlezen voordat u dit videogame-systeem in gebruik neemt of het door uw kin-
+
+deren laat gebruiken.
+
+Sommige mensen kunnen een epileptische aanval krijgen of bewusteloos raken
+wanneer zij in het dagelijkse leven worden blootgesteld aan bepaalde licht-
+patronen of knipperende lichten. Tijdens het kijken naar bepaalde TV-beelden of
+het spelen van bepaalde videospelletjes kunnen deze mensen een aanval krijgen.
+Dit kan gebeuren zonder dat men een medische historie van epilepsie heeft of
+zonder dat men ooit eerder een epileptische aanval heeft gehad.
+
+Indien u of iemand in uw familie bij blootstelling aan knipperende lichten ooit
+symptomen van epilepsie heeft gehad (een aanval of bewusteloosheid), raad-
+pleeg dan uw arts alvorens u gaat spelen.
+
+Wij raden ouders aan om toezicht te houden op het gebruik van videospelletjes
+door hun kinderen. Indien u bij uzelf of bij uw kind tijdens het spelen van een
+videospel één van de volgende symptomen constateert, moet u het gebruik ON-
+MIDDELLIJK staken en uw arts raadplegen. Het gaat hierbij om de volgende
+symptomen: duizeligheid, wisselend zicht, trekken van het oog of van de spieren,
+bewusteloosheid, desoriéntatie, onwillekeurige bewegingen of stuiptrekkingen.
+
+VOORZORGSMAATREGELEN BL) GEBRUIK
+
+° Ga niet te dicht bij het beeldscherm staan. Ga op ruime afstand van het
+TV-scherm zitten, zover de lengte van de kabel dit toelaat.
+
+* Gebruik het spel op een zo Klein mogelijk TV-scherm.
+* Ga niet spelen, indien u vermoeid bent of niet voldoende slaap hebt gehad.
+¢ Zorg ervoor dat de kamer waarin u speelt, goed verlicht is.
+
+¢ Tijdens het spelen van een videospelletje moet u elk uur tenminste 10 a 15 mi-
+nuten rusten.
+
+maGic BV ETA
+
+===== Page 42 =====
+
+INLEIDING
+
+Als tovenaarsleerling moet je hard werken, vooral als je een beetje
+onhandig, of een beetje afwezig, of gewoon een beetje langzaam
+bent. Dit geldt allemaal voor Hewlett. En zo gebeurt het op een
+kwade dag, dat zijn meester hem vraagt om peterselie bij het brouw-
+sel te doen en dat hij er per ongeluk kwikzilver bij doet. Het verbaast
+
+je zeker niet, dat het allemaal verkeerd gaat, helemaal verkeerd!
+
+Het mislukte tovermiddel heeft de tovenaar in een grote, felgekleurde
+olifant veranderd en alle lieve knuffeldieren binnen een straal van
+honderd kilometer zijn veranderd in lelijke en gevaarlijke beesten. Er
+zit maar één ding op: de getransformeerde dieren moeten worden ge-
+vangen en in cellen van de gevangenis gegooid worden. Dan moet de
+tovenaar gevonden worden en die moet weer in zichzelf veranderd
+worden, zodat hij alles weer kan omtoveren. Ik hoef je zeker niet te
+vertellen, dat er in het gebied binnen een straal van 100 kilometer
+van het kasteel een woestijn, een oceaan, een speelgoedland en een
+super-moderne wereldstad ligt, maar daar wordt het alleen maar
+nog interessanter van. Dus er zit magie in de lucht, maar stel je voor
+
+dat je iets verkeerd doet, wat gebeurt er dan?
+
+EL amAGiC BOY =
+
+===== Page 43 =====
+
+OPSTARTEN
+
+1. Plaats de spelcartridge van MAGIC BOY in de Super NES™ en zet
+deze aan.
+
+2. Wanneer de muziek begint, kun je beginnen te spelen.
+
+3. Bij het titelscherm, druk je op de START toets van de controller
+om het optiescherm op te roepen.
+
+4. Gebruik de richtingtoets en toets ,,A“ om het aantal spelers te se-
+
+lecteren, een paswoord in te voeren, of om het spel te starten.
+
+HET SPEL
+
+Jij bent Hewlett de tovenaarsleerling. Je moet door vier werelden rei-
+zen om de felgekleurde dikhuid, die vroeger je meester was, te kun-
+nen vinden. Deze werelden heten: Sand Land (Zandland), Wet
+World (Waterland), Plastic Place (Plasticwereld) en Future Zone
+(Toekomstige wereld). Elke wereld bestaat uit acht levels. Je bezoekt
+elke wereld twee keer, bij de tweede keer onderzoek je de nieuwe
+levels. Wanneer je voor de eerste keer aan een wereld begint, heb je
+toegang tot vier levels. Wanneer je de levels van 1 t/m 4 afgemaakt
+
+hebt, mag je aan de levels van 5 t/m 8 beginnen. Je mag zelf weten
+
+in welke volgorde je de levels speelt.
+
+MAGIC BOVET)
+
+===== Page 44 =====
+
+Om het level te kunnen voltooien, moet je alle beesten opsporen en
+ze met je toverstokje verdoven. Zodra je een monster verdoofd hebt,
+pik je het op en gooi je het in een cel van de gevangenis, onderaan
+het scherm. Zo kan de tovenaar als hij later weer terug is, de mon-
+sters weer in lieve knuffeldieren veranderen. Je verliest een leven, als
+je aangeraakt wordt door een beest dat niet verdoofd is. Ook kunnen
+sommige beesten schoten afvuren, die een voortijdig einde aan de
+
+zoektocht van Hewlett maken.
+
+Er zijn ook allerlei hindernissen, zoals vergiftigde waterplassen, kle-
+verige platformen, transportbanden enz., die kunnen je vertragen of
+uitschakelen. Om je toch een beetje te helpen, heeft elk monster een
+token bij zich. Wanneer een monster verdoofd wordt, komt er een
+token tevoorschijn en als je vlug genoeg bent, is het voor jou. Het
+kan een stuk fruit zijn om bonuspunten mee te halen, het kan een
+
+extra wapen zijn of iets anders dat goed van pas komt.
+
+Hewlett begint met vier levens en drie ‘continues’. Wanneer je al je
+levens kwijt bent is het spel afgelopen, maar als je een continue
+hebt, kun je een nieuw spel beginnen op het level waar je mee bezig
+bent. Vergeet vooral niet naar extra levens en continues uit te kijken,
+
+ze zitten overal in de levels verstopt.
+
+CU macic oy =
+
+===== Page 45 =====
+
+HET SPEL BESTUREN
+
+Kijk naar de afbeelding hieronder om vertrouwd te raken met de
+besturingstoetsen van het spel. Aan de linkerkant van de controller
+zie je de richtingtoets, druk deze naar links of naar rechts en Hewlett
+loopt naar links of rechts. Als je de richtingtoets naar beneden drukt,
+gaat hij zitten. Gebruik toets ,,B“ om hem te laten springen en toets
+»A“ of ,,¥“ om te vuren. De ,,R“ en ,,L“ toetsen bovenop de
+controller onthullen de platforms die momenteel niet op het scherm
+te zien zijn; als Hewlett een monster vast heeft, wordt dit met behulp
+van toets ,,X“ in een cel van de gevangenis gegooid. Druk op START
+om het spel tijdelijk stop te zetten. Als je op SELECT drukt, ga je van
+het spelscherm naar het kompasscherm, waar je opnieuw kunt begin-
+nen met een level waar je moeilijkheden mee hebt, zonder dat je een
+
+leven verliest.
+
+Toets L | | Toets R
+
+SELECT START
+
+===== Page 46 =====
+
+BOVEN (UP)
+
+(Sa
+LINKS (LEFT) { J iG) ae } RECHTS (RIGHT)
+s vii liv, f
+
+Ly
+
+ONDER (DOWN)
+
+DE STATUSREGEL
+
+Door naar de statusregel onderaan het scherm te kijken, kun je zien hoeveel
+beesten er in een level zijn. Wanneer je met een level begint, zijn sommige
+cellen van de gevangenis leeg en andere zijn bedekt. Aan het aantal lege cel-
+len kun je zien hoeveel monsters je in een level moet opsporen. Je hoeft er
+nooit meer dan 16 te vinden. Als je een monster in een cel gooit, gaat de cel
+er anders uitzien, om aan te tonen dat er een monster in opgesloten zit. Op
+deze manier kun je zien hoeveel vijanden er gevangen zijn en hoeveel er nog
+ergens in het level rondzwerven. Als je teveel tijd aan een level besteedt,
+worden de monsters jammer genoeg weer wakker en ontsnappen ze uit hun
+
+cellen om je weer lastig te vallen.
+
+meld hebt (als je genoeg tokens hebt verzameld voor het woord EXTRA,
+krijg je een extra leven), hoeveel sterre-tokens je verzameld hebt (als je er vijf
+hebt, krijg je een extra continue), hoeveel levens je nog over hebt en hoeveel
+
+vuurkracht er nog over is in je extra vuurwapen (als je er een hebt).
+
+Ey amacic eoy®
+
+===== Page 47 =====
+
+DE MONSTERS
+
+Bij elke wereld hoort een stel monsters. Sommige lopen langs de
+platformen, andere vliegen of zwemmen. Er zijn ook monsters die
+schoten kunnen afvuren en enkele daarvan gaan alleen schieten als
+ze Hewlett zien, andere schieten er af en toe zomaar wat op los. De
+monsters bewegen zich voort in hun eigen tempo, variérend van heel
+langzaam tot zeer snel. Als je het level met succes wilt afmaken,
+
+moet je ze allemaal vangen.
+
+BEY E
+
+CLARENCE DE OESTER TEDDY FRIEDA DE VIS
+MANFRED DE MUIS WOOLY DE HOND
+
+MAGIC BOVE;
+
+===== Page 48 =====
+
+DE WERELDEN
+
+Hewllet gaat in deze volgorde naar de werelden toe: Sand Land, Wet
+World, Plastic Place en Future Zone. Elke wereld bestaat uit acht
+levels en hij bezoekt alle vier de werelden twee keer, bij de tweede
+keer onderzoekt hij de vier moeilijkste levels. Dus je zou kunnen zeg-
+gen dat er totaal acht werelden zijn, aan het eind van het achtste
+
+level vindt Hewllett de tovenaar.
+
+TOKENS
+
+Elk monster heeft een token bij zich, dit token komt vrij wanneer het
+monster verdoofd wordt. De tokens vliegen van het verdoofde monster
+weg, hou daar rekening en probeer het te beschieten vanaf een plaats,
+waar je het token te pakken kunt krijgen. Als je het token niet binnen een
+paar seconden pakt, begint het te flitsen en verdwijnt het. De meeste
+tokens zijn stukjes fruit, waar je bonuspunten mee kan verdienen, maar
+sommige tokens maken het mogelijk om door muren te schieten, of om
+naar boven en naar beneden te schieten, of om twee of drie schoten ach-
+ter elkaar te lossen. Het is mogelijk dat je verderop in het level in een si-
+tuatie komt, waar je een bepaald wapen nodig hebt om een monster te
+pakken te krijgen, dus probeer vooruit te plannen. 0 ja, dat is waar ook,
+
+er zijn ook nog extra levens en continues die verzameld moeten worden.
+
+Cry macic soy 2)
+
+===== Page 49 =====
+
+Op weg door de levels kom je allerlei hindernissen tegen. Sommige
+zijn alleen maar lastig en andere kunnen je fataal worden. Hier vol-
+
+gen ze:
+
+OPLOSSENDE TEGELS
+
+Deze zijn blauw gekleurd en dun, wanneer je er overheen loopt, ver-
+dwijnen ze. Als ze eenmaal weg zijn komen deze stapstenen nooit te-
+
+rug, dus plan je route zorgvuldig.
+
+TEGELS VAN US
+
+Deze kunnen je laten uitglijden, je glijdt in de richting waarheen je
+loopt. Als je niet oplet kun je jammerlijk van het eind van een plat-
+form afglijden of je kunt regelrecht op een monster afglijden. Maar er
+is één voordeel aan deze ijzige stenen verbonden: je gaat veel snel-
+
+ler. Daardoor kun je hoger en/of verder springen dan anders.
+
+KLEVERIGE TEGELS
+
+Deze zijn groen met een doorzichtige bovenkant. Je kunt er opstap-
+pen en je kunt er ook weer afstappen, maar ze vertragen je wel. En
+wat nog erger is: je kunt er niet afspringen, dus je bent erg kwets-
+
+baar als er op je geschoten wordt, of als er monsters op je afkomen.
+
+macit sovEFy
+
+===== Page 50 =====
+
+TRANSPORTBANDEN
+
+Deze voeren je met zich mee, en dat is erg handig als je ergens vlug
+naar toe moet gaan, maar het is niet zo leuk als er aan het eind een
+
+monster op je staat te wachten. Wees dus op je hoede.
+
+Met behulp van verschillende soorten veren kun je naar hogere plat-
+formen springen. Met groene veren kun je hoger springen dan met
+blauwe. Horizontale veren brengen je van de ene kant naar de an-
+dere en ze komen goed van pas als je over een hindernis heen wilt
+
+springen.
+
+PISTONS
+
+Deze werken net als de veren, alleen hoef je er niet op te springen om
+de lucht in te gaan. Zodra je er overheen loopt, worden ze automa-
+tisch geactiveerd en ze kunnen je naar plekjes sturen waar je beslist
+
+niet heen wilt gaan!
+
+FLITSENDE TEGELS
+
+In deze tegels staat een vraagteken. Soms zijn ze er en dan zijn ze er
+
+weer niet. Je moet het juiste moment kiezen om te springen.
+
+Deze tegels kunnen je helpen of hinderen. De tegels met een rode bal,
+
+Cmacic gov 28
+
+===== Page 51 =====
+
+gaan binnen een paar seconden nadat je er opgestapt bent af, dat
+kost je een leven. De tegels met een grote piek gaan af als je erop
+schiet, zodat je monsters kan raken die je anders niet bereiken kunt.
+Op de vallen met twee pieken kun je lopen, maar spring of val er niet
+
+op, anders verlies je nog een leven.
+
+WATER
+
+Blijf vooral uit de buurt van deze vioeistof, Hewlett kan niet zwem-
+
+men!!
+
+Bonustegels lichten rood op wanneer je erop loopt, als je er nog een
+keer op loopt worden ze weer blauw. Je krijgt bonuspunten, als alle
+
+bonustegels rood verlicht zijn bij het voltooien van een level.
+
+In de blokken met een uitroepteken zit een bonus - een stuk fruit, een
+extra wapen of een trip naar een geheim bonus level. Schiet op de
+
+blokken, zodat de bonussen tevoorschijn komen.
+
+HINTS Ef TIPS
+
+Overal door het spel zitten geheime dingen verborgen, het is echt wel
+moeilijk om ze te vinden. In de meeste levels zijn een paar platfor-
+men die er normaal uitzien, maar er zitten geheime bonussen in ver-
+
+stopt, als je op het platform schiet, vliegen ze eruit. Als je een plat-
+
+mAGiC BOVETA
+
+===== Page 52 =====
+
+form doorbreekt, is het mogelijk dat je op een gedeelte van het
+
+scherm komt, dat je eerst niet kon bereiken.
+
+Een van de geheime blokken is een magische regenboog, die je ver
+over de levels heen werpt. Als je hem te pakken krijgt ga je zoveel
+levels vooruit, als door het nummer dat erop staat aangegeven
+
+wordt.
+
+In alle werelden zijn verborgen kamers met bonussen. Als je het ma-
+
+gisch boektoken vindt en het oppikt, ga je naar zo’n kamer toe.
+Doe er niet te lang over om een level af te maken.
+
+Kijk steeds naar boven of naar beneden, om te zien of je bij het naar
+boven- en naar beneden springen niet bij een monster terecht komt.
+Schiet niet meteen op een monster. Kijk eerst even om te zien hoe het
+
+beweegt en of er kans bestaat dat het eerst op jou schiet.
+Probeer alle verborgen bonussen te vinden.
+
+Wanneer je denkt dat je niet vlug genoeg bent geweest, of wanneer
+je terug moet keren naar een gedeelte van een level en je weet niet
+
+hoe dat gaat, vergeet dan niet het kompasscherm te gebruiken.
+
+Zorg er vooral voor dat je zo gauw mogelijk de gevangen monsters in
+
+de cellen van de gevangenis stopt!
+
+CEJ macic Boy =
+
+===== Page 53 =====
+
+NINTENDO HOTLINE
+
+Do you have a question about game play? Are you being stomped
+by Thwomp in Mario 3? Or do gargoyles gang up on your Game
+Boy? If your answer to these questions is yes, then why not call
+
+the NINTENDO HOTLINE.
+
+We are open from 12 p.m. to 8 p.m. on Mondays to Fridays and
+
+from 10 a.m. to 3 p.m. on Saturday and Sunday
+
+Why not telephone now and one of our expert counsellors will be
+
+more than happy to answer your call.
+
+The number to call is
+
+0703 652222
+
+(Remember to get permission from whoever pays the bill, before calling.)
+
+U.K. LIMITED WARRANTY
+
+JVC reserves the right to make improvisations in the product described
+in this manual at any time and without notice. JVC makes no warranties
+expressed or implied, with respect to this manual, its quality,
+merchantability or fitness for any particular purpose. If any defect arises
+during the ninety day limited warranty on the product itself (i.e. not the
+software program, which is provided ‘as is’) return it in its original
+condition to the point of purchase.
+
+SS  macic cove)
+
+===== Page 54 =====
+
+FRANCAIS - GARANTIE LIMITEE
+
+JVC se réserve le droit d’apporter des modifications au produit décrit
+dans ce manuel a tout moment et sans préavis. JVC ne fait aucune
+garantie explicite ou implicite, concernant ce manuel, sa qualité, sa
+qualité marchande ou son adaptation a un usage particulier. Si le
+produit (pas le logiciel qui est fourni “tel quel”) s’avérait défectueux
+dans la période de garantie limitée de quatre-vingt-dix jours, veuillez le
+retourner dans son emballage, au lieu d’achat.
+
+ESPANOL - GARANTIA LIMITADA
+
+JVC se reserva el derecho a realizar modificaciones en el producto que
+se describe en este manual, en cualquier momento y sin previo aviso.
+JVC no garantiza de forma implicita o explicita la calidad,
+comerciabilidad 0 idoneidad para un proposito determinado, de este
+manual. Si durante los noventa dias del periodo de la garantia surge
+algun problema con el producto en si (no con el programa de software,
+que se proporciona “tal cual”) devuélvalo en su estado original al
+centro de compra.
+
+NEDERLANDS - BEPERKTE GARANTIE
+
+JVC behoudt het recht voor te allen tijde en zonder hiervan vooraf kennis
+te geven, verbeteringen aan te brengen in het produkt, dat in deze
+handleiding beschreven wordt. JVC geeft geen garanties, uitdrukkelijk of
+impliciet, met betrekking tot deze handleiding, de kwaliteit ervan, de
+verkoopbaarheid of de geschiktheid voor een bepaald doel. Als er
+gedurende de tot negentig dagen beperkte garantie, enig defect aan het
+produkt zelf ontstaat (d.w.z. niet aan het software programma, dat
+geleverd wordt ‘zoals het is’), gelieve u het in z’n oorspronkelijk staat
+terug te brengen naar het verkooppunt.
+
+===== Page 55 =====
+
+magic Eov Ey
+
+===== Page 56 =====
+
+PRINTED IN JAPAN
+IMPRIME AU JAPON
+
+developed by
+
+JVC Musical Industries Europe Ltd.
+17/18 Henrietta St
+
+Covent Gard
+London. WC2E 8QX

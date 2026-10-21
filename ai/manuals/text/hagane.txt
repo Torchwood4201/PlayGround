@@ -1,0 +1,3498 @@
+# Hagane
+source: https://archive.org/details/snes_manual_archive
+pdf: Hagane ( EU ).pdf
+region: EU
+pages: 80
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+od
+
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+LICENSED BY
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, @ AND 6% ARE TRADEMARKS OF NINTENDO CO.LTD.
+
+Keep this information / Gardez ces informations / Diese Information aufbewahren
+Conservare queste informazioni / Guarde estas informes / Bewaar daze infot
+Behll denna information / Behold denne information / Pid& tama tieto
+
+C € Qlintenda) Nintendo of Europe GmbH : 63760 GroBostheim, Deutschland
+
+Original
+
+Seal of
+Quality
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT.ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO
+ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU'IL
+EST CONFORME AUX NORMES D'EXCELLENCE
+EN MATIERE DE FABRICATION. DE FIABILITE ET
+SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIESES QUALITATSSIEGEL IST DIE GARANTIE
+DAFUR, DASS SIE NINTENDO-QUALITAT
+GEKAUFT HABEN. ACHTEN SIE DESHALB
+IMMER AUF DIESES SIEGEL, WENN SIE SPIELE
+ODER ZUBEHOR KAUFEN, DAMIT SIE SICHER
+SIND, DASS ALLES EINWANDFRE! ZU IHREM
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+PASST.
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO
+QUESTO PRODOTTO. RICHIEDILO SEMPRE
+ALL'ACQUISTO DI GIOCHI ED ACCESSORI PER
+
+ASSICURARE LA COMPLETA COMPATIBILITA ENTERTAINMENT SYSTEM.
+CON IL TUO SUPER NINTENDO
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO ON
+Melb era ceili tte HYVAKSYNYT TAMAN TUOTTEEN LAADUN.
+
+ESTE SELLO BS TU SEGURO DE QUE
+NINTENDO HA APAOBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIFMPRE ESTE
+SELLO CUANDO COMPRES VIDEQJUEGOS Y
+ACCESORIOS PARA ASEGUBANTE UNA
+COMPLETA COMPATIBILIDAD GON TU SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO IS GECONTROLEERD EN DAT
+HET QUA CONSTRUCTIE, BETROUWBAARHEID
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+BIJ HET KOPEN VAN SPELLEN EN
+ACCESSOIRES ALTID OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+DENNA ETIKETT GARANTERAR ATT NINTENDO
+STAR FOR PRODUKTENS KVALITET.
+KONTROLLERA ATT ETIKETTEN FINNS PA SPEL
+OCH TILLBEHOR DU KOPER FOR ATT
+
+FORSAKRA DIG OM ATT DE AR KOMPATIBLA
+MED SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+DETTE SEGL GARANTERER, AT NINTENDO HAR
+GODKENDT KVALITETEN AF DETTE PRODUKT.
+SE ALTID EFTER DETTE SEGL, NAR DU KOBER
+SPIL OG TIBEHOR, SA DU ER SIKKER PA FULD
+KOMPATIBILITET MED DIT SUPER NINTENDO
+
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+SAAT VARMASTI SUPER NINTENDO:
+ENTERTAINMENT SYSTEM YHTEENSOPIVIA
+
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEVILLEZ LIRE ATTENTIVEMENT LA NOTICE "INFORMATIONS ET PRECAUTIONS
+D'EMPLO!" QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER
+NINTENDO HARDWARE WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+
+SYSTEM™ LE CASSETTE O GLI ACCESSORI.
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEOJUEGO O ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE Bld DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR.
+
+ADVARSEL : L42S FORBRUGERINFORMATIONEN OG H/EFTET MED SIKKERHEDSREGLER, DER
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM,
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISESTI LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA ee
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAl MUUN VAURSTEEN KAYTTOA.
+
+===== Page 3 =====
+
+»
+{e
+f
+ENGLISH
+
+PROLOGUE -
+USING THE CONTROLLER -
+THE CONFIG SCREEN ---
+STARTING THE GAME ---
+
+4 The Fuma clan possesses extreme strength and
+Spiritual power. They are Ninjas capable of using
+ninja arts.and black¢nagie Gt willeTheir quest is
+
+VIEWING THE GAME SCREEN --- 6 to protect the Holy Grail. It is said to possess power
+INTRODUCING HAGANE --------- z, that tan destroy the world.
+
+WEAPONS USED BY HAGANE -- 8 From longago, the Koma élan had plotted to dest¥oy
+HOW TO ATTACK --- -- 10 the, world using the destruttive power of Holy Grail.
+SPECIAL ATTACK --- - 11 Suddenly they attacked the Fuma clan and stole Holy,
+SPECIAL ATTACK LIST - 12 Grail. However, they failed to notice that among the
+ITEMS =e severely wounded, one man survived...
+
+On the verge of death, the barely living man named
+Hagane was brought back to life by highly advanced
+eyber-technology performed by a mysterious old man
+
+named Momochi. However none of Hagane’s body
+Survived except his brain....
+Already a powerful ninjayhe now had the incredible
+power and speed of a human cyborg. With this power, he
+vowed to take revenge uponithe Kokuro faction.
+
+5
+
+The Fuma and Koma Clans
+
+The Fuma and Koma clans who live mainly in darkness have
+
+mastered the secret arts of ninja and black magic. Although they
+look just like normal people, they have strength and spiritual power
+beyond normal human beings.
+
+Factions
+
+Each clan éonsists of several groups called "fattions".. The
+Fuma clan is split into factions Based on the Chinese zodiac.
+For example, the cow, the tiger and the dragon, The Koma
+
+) clan is split,into factions by color; consisting of the white, the
+| gold dnd the red dragon.
+
+In the case of the Fuma elan, memberseof.a given faction
+knownothing more about aty other factions except the fact
+that they exist. Their bloodlines are cut off frém thevoutside
+uidrld ands destined@oldecline.
+
+===== Page 4 =====
+
+HSITSNA
+
+<L and R Buttons>
+
+rP.
+<Controt Pad> Spétial attack, backflip
+
+Used to movelleft,
+right and to Squat
+
+<X Button>
+Selects weapon
+
+<A Button>
+Use Ninja arts
+
+<Select Button>
+Selects weapon
+
+<8 Button>
+Jump
+
+<Y Button>
+
+<Start Button>
+Attack
+
+Starts and pauses game
+
+* The function’of each button can be changed on the Config Screen.
+
+The Config Screen appears when you select CONFIG by
+moving the Control Pad up/down and left/right on the
+Title Screen, or by pressing the Select, L or R Button.
+This screen allows you to change the functions of buttons,
+and listen to game music and special sound effects. When
+you wish to return to the Title Screen, move the Control
+Pad up/down to select EXIT, and then press the A, B, x
+or Y button. You can also get back to the Title Screen at
+any time by pressing the Start Button.
+
+@ CHANGING BUTTON
+FUNCTIONS
+
+Select the function whose button you wish to
+change by moving the Control Pad up/down.
+Press the button which you wish to have take
+on that function, and that button will now
+
+perform that function.
+
+===== Page 5 =====
+
+a
+
+“Fr iw et
+
+a
+
+De game starts whensyou press the Start, A, B, XK onY
+Button while on the Title Screen. The game is divided into 5
+stages. You must destroy tHe boss at the endof each stage in
+Order tovadvaince to the next stage.
+
+@ CONTINUING A GAME
+
+You los@one Hagane when your life gauge reaches zero or
+time runsjut. After the game is over the Title Screen will
+appear again and "CONTINUE" will be displayed on the
+screen. You can continue your game from the stage where
+your game ended by pressing the Start, A, B, X or Y button.
+
+@ MUSIC AND SPECIAL SOUND
+EFFECTS
+
+On the Config Screen, you can align the cursor with
+the options "MUSIC" or "SOUND" using up/down
+on the Control Pad, and select numbers using
+left/right of the Control Pad or using the L or R
+Button. You can listen to the music or special sound
+effect which correspond to this number by pressing
+the A, B, X or Y Button. Similarly, selecting
+"MODE" allows you to select whether to listen to the
+music or sound effect in stereo or monaural sound.
+
+coms ret (In order from top)
+meracKk Attack
+sone ee
+SELEEEE Ninja art
+
+or
+He ApON
+
+HEHPONM SELEEES Weapon select
+- Weapon select
+Special attack, backflip
+must
+eae Special attack, backflip
+rune Music
+
+Special sound effects
+Stereo/mono switch
+Config Screen Return to Title Screen
+
+5
+
+ENGLISH
+
+===== Page 6 =====
+
+HSIT9N4
+
+Some obstacles contain items
+when destroyed.
+
+Score
+Increases as you destroy enemies.
+
+Remaining Time
+
+You lose one life if you do not
+clear the stage before this number
+reaches 0.
+
+Life Gauge
+
+This indicates Hagane's life
+energy. This decreases as he takes
+damage. You lose one life if all
+energy disappears. It is possible to
+
+restore energy and even to
+
+increase the maximum level of
+energy possible by picking up
+certain items.
+
+Weapon
+Shows the currently selected
+weapon and its name.
+
+Ninja Art
+
+Number of Lives
+
+Enemy Character
+
+Remaining Number of Weapons
+You can no longer use a weapon
+when this number reaches 0.
+However, it is possible to
+replenish weapon stores by
+picking up certain items. If "oo" is
+displayed for a weapon, it may be
+used indefinitely without
+diminishing.
+
+Number of Lives
+The game is over if you lose all
+lives.
+
+Ninja Art
+You can use ninja art the number
+of times displayed here.
+
+===== Page 7 =====
+
+HSITONA
+
+Height: 192 cm (182 cm before re-birth)
+Weight: 170 kg (80 kg before re-birth)
+
+Personality: Extremely combative
+
+===== Page 8 =====
+
+LIMITED USE
+
+ATTACK RANGE
+
+POWER
+
+The blade is wrapped ity
+a blue energy, plasma
+glow during attack.
+This gives it the power
+to easilyout through a
+50-em thick piece of
+steel.
+
+LIMITED USE
+ATTACK RANGE
+
+POWER
+Weak
+
+Using a special flight
+
+constructed alloypthese n
+weapons are capable of
+
+acciwately hitting
+
+targets aipdistances of
+
+over several/htndred
+
+they have the expldsive
+
+powerof a batooka /
+hecaus@they depead §
+directly On the@trength &~ Kh]
+
+of Hagane's arm.
+
+Meters. Thotgh small, Y/
+(/
+
+===== Page 9 =====
+
+*
+
+LIMITED USE
+
+ATTACK RANGE
+
+POWER
+
+ENGLISH
+
+Wsually hidden inside
+§- Fn Hagane'sarm, this weapon
+‘ is shot out by high-speed
+a jet rockets, Extending in a
+yy Straight lineforward or
+upward, this weapon has
+enough power to go right through an enemy's body.
+Hagane’can also use this weapon to
+_ D move by grabbing onto the ceiling or
+tree branches overhead,
+
+LIMITED USE
+
+Yes
+ATTACK RANGE
+
+POWER
+
+Similar to a small
+napalm bomb,.this
+‘ Weapon flies forwarttll
+anearc and generates ai
+(\ big ball of super hot
+plasma where. it lands}
+
+immediately burning
+€veby thing aroudd Tt,
+
+===== Page 10 =====
+
+HSIT9N4
+
+<L and R Buttons>
+
+<Controt Pad> = a :
+Used to move'left, eC / Spedial attack, backflip
+right and to Squat ee s | ;
+
+<X Button>
+Selects weapon
+
+<A Button>
+Use Ninja arts
+
+<Select Button>
+Selects weapon
+
+<8 Button>
+Jump
+
+<¥ Button>
+
+<Start,Button> -
+Attack
+
+Starts and pauses game
+
+* The function of each button can be changed on the Config Sereen.
+
+The Config Screen appears when you select CONFIG by
+moving the Control Pad up/down and left/right on the
+Title Screen, or by pressing the Select, L or R Button.
+This screen allows you to change the functions of buttons,
+and listen to game music and special sound effects. When
+you wish to return to the Title Screen, move the Control
+Pad up/down to select EXIT, and then press the A, B, X
+or Y button. You can also get back to the Title Screen at
+any time by pressing the Start Button.
+
+M@ CHANGING BUTTON
+FUNCTIONS
+
+Select the function whose button you wish to
+change by moving the Control Pad up/down.
+Press the button which you wish to have take
+on that function, and that button will now
+
+perform that function.
+
+===== Page 11 =====
+
+a
+
+“wr ie t
+
+1a |
+
+Dike game starts whenyou press the Start, A, B, X oY
+Button while on the Title Screen. The game is divided into 5
+Stages. You must destroy tle boss at the endef each stage in
+Order toadvaiice to the next stage.
+
+@ CONTINUING A GAME
+
+You los@ione Hagane when yout life gauge reaches zero or
+time runssout. After the game is over the Title Screen will
+appear again and "CONTINUE" will be displayed on the
+screen. You can continue your game from the stage where
+your game ended by pressing the Start, A, B, X or Y button.
+
+@ MUSIC AND SPECIAL SOUND
+EFFECTS
+
+On the Config Screen, you can align the cursor with
+the options "MUSIC" or "SOUND" using up/down
+on the Control Pad, and select numbers using
+left/right of the Control Pad or using the L or R
+Button. You can listen to the music or special sound
+effect which correspond to this number by pressing
+the A, B, X or Y Button. Similarly, selecting
+"MODE" allows you to select whether to listen to the
+music or sound effect in stereo or monaural sound.
+
+comr zee (In order from top)
+
+ae yee
+aed Jump
+Pee Ss. Ninja art
+
+HE ApON
+
+Weapon select
+Weapon select
+
+Special attack, backflip
+easied Special attack, backflip
+runt Music
+
+Special sound effects
+Stereo/mono switch
+
+Config Screen Return to Title Screen
+
+5
+
+ENGLISH
+
+===== Page 12 =====
+
+HSIT9NA
+
+Obstacles
+Some obstacles contain items
+when destroyed.
+
+Score
+Increases as you destroy enemies.
+
+Remaining Time
+
+You lose one life if you do not
+clear the stage before this number
+reaches 0,
+
+Life Gauge
+
+This indicates Hagane's life
+energy. This decreases as he takes
+damage. You lose one life if all
+energy disappears. It is possible to
+restore energy and even to
+increase the maximum level of
+energy possible by picking up
+certain items.
+
+Weapon
+Shows the currently selected
+weapon and its name.
+
+: \ IS) ¥
+
+Number of Lives
+
+Enemy Character
+
+Remaining Number of Weapons
+You can no longer use a weapon
+when this number reaches 0.
+However, it is possible to
+replenish weapon stores by
+picking up certain items. If "oo" is
+displayed for a weapon, it may be
+used indefinitely without
+diminishing.
+
+Number of Lives
+The game is over if you lose all
+lives.
+
+Ninja Art
+You can use ninja art the number
+of times displayed here.
+
+===== Page 13 =====
+
+HSITINA
+
+* Height: 192 cm (182 cm before re-birth)
+
+im
+=
+oOo
+°
+2
+5
+3
+o
+=
+°
+2
+oD
+2
+°
+R
+=
+3
+=
+2
+Ci)
+=
+°
+
+$
+8
+e
+8
+>
+z
+s
+Fa
+Fe
+2
+2
+
+* Age: 20
+* Sex: Male
+
+yd a ae oe
+
+:
+\
+€
+
+===== Page 14 =====
+
+Deets Fee.
+B Attack
+
+Press the Button te attaek with the catrently —
+Selected weapont Press the ¥ Button while tigt
+pressing down 6nithe Coéntrof Pad tojattatk icimisiniT.
+from a sgtattingposition. You Gan attack in the 1210
++ A A HE + sque
+upward direction when Genbu (Ghain) is — prtack
+seleeted\by pressing the ¥ Button while pressing, oe aaa
+. ee
+tpon the ControlPad. ae
+
+HSIT9NA
+
+upward
+attack
+
+a @ Jump
+
+Press the B Button to jump. Theédirection you jump is
+determined by pressing left or right on the Gontrol Pad. You
+€am even move left and right in the middle of a jamp.
+
+@ Spinning Jump
+Pressing the B Button while rising during your
+
+jump allows you te perform a spinning jump,
+However, you cannot attack while spinning.
+
+@ Wall Junip
+
+If you hit a wall while performing a spinning =,
+
+jumpyoucan jump offthé wall in théreverse i
+direction) You can climb by performing y
+continuous wall jumps in areas surrounded by y
+walls.
+
+™ Sliding
+
+Press the B Bitton while squatting to slide
+
+alongthe ground.
+
+@ Downward Kick
+
+Pressing down on thé Centro! Pad whil® jam ping
+allows ¥ou to attadk by Kicking straight down. If you
+Ketp pressing dow op@the Control Pady you ein
+Continuously kitk downward,
+
+10
+
+===== Page 15 =====
+
+; @ Grabbing the Ceiling@nd
++ Other Things
+
+In places where there is @ ceiling Obtree branches
+
+while holding up on the Coggrol Pad. It is possible to
+move while maintaining a Hold. Press the BeBiitton to
+return tothe gedund. It i¢also possible td grab ceilings by Shooting the
+
+Genbu (Chain) into them.
+
+W@W WNinja Art =
+
+Press the A Buttotpte use ninja art. All enemies on the sereen will take
+damage, and Hagane willbecome temporarily invincible.
+All@nemy shots willalse disappear. . «
+
+a
+x sea a
+
+Pressing the R Button while Hagane fs facing right will cause you to
+rotate forward. Pressing the L Button willi€ause you to de a backflip.
+Pressing the Y or B Button while rotating will release a.special attack
+depending on the situation: (See the SPECIAL ATTACK LIST on
+fiext page.) Although you cannot attack from a backflip, it is possible
+tmove lefta@ind right more quickly.
+
+* When Hagane iS facing left, the L Button eatises rotation, and the R
+
+yA Button causes a backflip.
+(“HOW TO PERFORM A SPECIAL
+af, ATTACK
+
+Daring rotatiod, Hagatejrotates a total of 3 times. The speeial attack
+refeased depends on you press the Y of B Button during rotation.
+Hagane"s body at this time Will appearahe same during the first
+
+fotation, Hluecititigebe@erond, and yellow during the dhind)
+
+cond nid
+Fxation Potation _Bre
+
+nantes a
+
+é ;
+
+, Overhead, you canigrab the object overhead by jumping ra qi sj 2
+1
+
+u
+
+ENGLISH
+
+===== Page 16 =====
+
+HSIT9NA
+
+Y Button
+
+Wolf Power
+
+a punch while
+moving forward
+
+Jumps while rotating
+and kicks up’
+
+s explosion by
+cking sword into the
+ground
+
+B Button
+
+Rapid Wind Kick
+
+Jumps forward, body
+wrapped in flames
+
+Death Kick
+
+===== Page 17 =====
+
+TEMS
+
+>
+
+7
+
+:
+
+= icms possessing various special effects appear when\certain enemies and Obstaeles are destroyéd.
+There are atotal of@items. Items hanging in mid-air\cambe pickedsup just by touching them, but
+
+) > you must Squat or Slide'to piek Up items on the ground.
+
+2
+} ITEM LIST
+Restore Life Pe
+
+Restores one life gauge to Increases top level of the life
+full energy. gauge and restores life gauge
+to full energy.
+
+ENGLISH
+
+Life Gauge Up
+
+Shuriken
+
+Increases number of "y Increases the number of
+remaining turns by one. Shuriken by 10.
+
+Ninja Art
+
+Increa: e 2 Increases the number of
+Byakko (Bombs) by 10. times you can use ninja art
+
+===== Page 18 =====
+
+LIMITED WARRANTY
+
+/ mae . Coy PANIC NAVE
+ar Nintendo Entertainment System GAME PAKS
+7 4
+
+This product is guaranteed for a period
+required by the law of your country. This
+does not affect your statutory rights.
+
+Virgin Interactive
+
+Entertainment
+
+(Europe) Ltd. f ;
+338a Ladbroke Grove Nit ;
+London W10 5AH
+
+ENGLAND
+
+===== Page 19 =====
+
+L'ECRAN DE CONFIGURATION
+COMMENCER LE JEU -
+L'ECRAN DE JEU --
+PRESENTATION D'HAGANE -
+LES ARMES D'HAGANE
+COMMENT ATTAQUER --------
+ATTAQUES SPECIALES ------
+LISTEDES
+
+ATTAQUES SPECIALES --- 24
+LES OBJETS ---------------- 25
+
+‘> oA
+
+PROLOG
+
+Les membres du clan Fuma ont une force physique
+
+et Spirituelle exceptionnelle. Ce sont des ninja
+capable3-d'utiliser G4 golontéiles arts ninja, mais
+aussi la magie noire, Leur quéte consiste & protéger
+le Saint Graal. On lui attribue des pouvoirs
+capables de détruire le monde.
+
+Depuis longtemps, le clan\Koma projetait de détruire
+le moride en utilisantles pouvoirs destructeurs du
+Saint Graal, Soudain, ils attaquérent le clan Fuma et
+volérent le Saint Graal. Cependant, ils ne
+
+Temarquérent pas qu'un homme avait survécu au
+
+FRANCAIS
+
+massacre...
+L’homme était & l'articlede la mort, il fut sauvé par un
+vieil homme énigmatique appelé Momochi grate a
+Vutilisation de la toute nouvelle cyber-technologie. Mais
+rien de son corps ne survéctit sauf son cerveau...
+Son nom était Hagane..C'était déja un puissant ninja,
+mais sa puissance et sa vitesse devinrent celles d'un
+éyborg hunidin. Armé de ces pouvoirs, il jura d’exercer sa
+vengeance sur la faction Kokuro.
+
+Les clans Fuma et Koma
+
+Les clans Fuma et Koma ont maitrisé les secrets des arts ninja et de la
+miagie noireet vivent dans les ténébres. Bien que leur apparence_soit
+tout a@fait normale; leur forcé/physique et spirituelle est bien au-
+dessus de celle des gens ordinaires.
+
+Les factions
+Chaque clan est composé de plusieurs groupes appelés
+“"factions’”. Lée.clan Puma est divisé en factions d'aprésles
+Signes du zodiaque chisiois et comprend les factions de la
+Vache, du Tigre et du Dragon ainsi que de$ factions pour les
+autres signes, alors que le clan Komaest divisé en factions
+d'apres les couleurs; il y ala faction du Dragon Blanéjidu
+Dragon Doré et celle du Dragon Rouge.
+Dams le cus du clan Busia, les membres d'une faction savent
+qué les Gutres factionsvexistent, mais c'est totit, Ils sont
+coupes'du reste du monde etne semarient gu’entre eux, le
+déclin‘de leaf lignéd est done, inéluctablelet leutpoprilation
+
+diminue.
+
+€ 45
+
+===== Page 20 =====
+
+SIVINWH4
+
+Boutons drait et gauche
+\ Pour les attaqués spéciales,
+Control pad flip artiére
+Pour se déplacer
+Vers la gauche,
+
+la droite et s'accroupir Bouton X
+
+Pour sélectionner
+uné arme
+
+Bouton A
+Poursitiliser
+les arts ‘ninja
+Bouton Select
+Pour sélectionner
+
+une arme
+
+nt OULOT
+Pour sauter
+
+Bouton ¥
+
+Bouton Start
+Pour attaquer
+
+Pour commencer et pauser le jeu
+
+Remarque: la fonction dé tous les boutons peut étre modifiée sut l"€éran de
+configuration:
+
+L'écran de configuration apparait lorsque vous
+sélectionnez CONFIG 8 I'aide du Control pad sur I'écran
+titre ou lorsque vous appuyez sur Select et le bouton droit
+ou le bouton gauche. Sur cet écran, vous pouvez changer
+les fonctions des boutons et écouter la musique et les
+bruitages du jeu. Pour retourner a I'écran titre,
+sélectionnez EXIT & l'aide du Control pad puis appuyez
+sur le bouton A,B,X ou Y. Vous pouvez aussi retourner 4
+l'écran titre 4 tout moment en appuyant sur le bouton
+Start.
+
+@ CHANGER LA FONCTION
+DES BOUTONS
+
+A l'aide du Control pad, sélectionnez la
+fonction du bouton que vous désirez modifier.
+Appuyez sur le bouton auquel vous voulez
+attribuer cette fonction et l'attribution se fait
+
+16
+
+===== Page 21 =====
+
+A, B, X oa Y lorsque vous étes sur l'écran titre. Leljen est
+divisé emS miveaux. Vous devez détruire le boss 2 fa fin.de
+
+.
+> Le jeu commence lorsque vous appuyez sur le bouton Start,
+: chaqué*iveaiipour passeriau niveau suivant.
+
+7 S CONTINUER UN JEU
+
+FRANCAIS
+
+Vous pérdez un Hagane lorsque votre jauge de vie tombe a
+zéro 4 caliSe des coups que yous aver pris, ou lorsque le
+chrono tombe a zéro. Lorsque le jeu estterminé, I'¢cran titre
+apparait et le mot "CONTINUE ' s'affiche. Vous pouvez
+réprendre le jeu A l'endroit ot vous l'avez laissé en appuyant
+sur le bouton Start, A, B, X, ou Y-
+
+@ MUSIQUE ET BRUITAGES
+
+Sur I'écran de configuration, vous pouvez placer le
+curseur sur !'option "MUSIC" ou "SOUND" (Son)
+en appuyant sur le Control pad vers le haut/bas et
+sélectionner les chiffres en appuyant sur le Control
+pad vers la gauche/droite ou en utilisant le bouton
+gauche ou droite. Vous pouvez écouter la musique ou
+les bruitages qui correspondent au numéro choisi en
+appuyant sur le bouton A, B, X ou Y. Si vous
+sélectionnez l'option "MODE", vous pouvez écouter
+la musique ou les bruitages en son mono ou stéréo.
+
+come ret (En partant du haut)
+
+ae Attaquer
+Bone Sauter
+weapon sereers Art ninja
+HEAPOM SELERES Sélectionner arme
+SOMEnSaUEY =
+a oa 3 Sélectionner arme
+Attaque spéciale, flip arriére
+si Attaque spéciale, flip arriére
+none Musique
+EXIT Bruitages
+eras da Bouton mono/stéréo
+bes ti Pour retourner 4 I'écran titre
+
+===== Page 22 =====
+
+SIVONWH4
+
+Arme
+
+Score f | X w arms restantes
+Temps restant — : \es Art ninja
+
+Jauge de vie Any
+@ Nombre de vies
+i ret)
+= *- ae fF FS
+Obstacle _~« —— Personnage ennemi
+HAGANE
+
+Les obstacles Nombre d'armes restantes
+Lorsque vous détruirez certains Vous ne pouvez plus utiliser
+obstacles, vous verrez qu'ils d'arme lorsque ce nombre tombe a
+contiennent des objets. zéro. Cependant, il est possible de
+réapprovisionner votre réserve en
+Le score ramassant certains objets. Si "oo"
+Il augmente au fur et 4 mesure est affiché pour une arme, elle
+que vous détruisez des ennemis. peut étre utilisée indéfiniment.
+
+Temps restant Nombre de vies
+Vous perdez une vie si vous ne Si vous perdez toutes vos vies, le
+tuez pas les ennemis avant que le jeu est terminé.
+temps ne tombe a zéro.
+L'art ninja
+
+Jauge de vie Le numéro affiché indique le
+Affiche le niveau d'énergie de nombre de fois que vous pouvez
+Hagane. Le niveau descend utiliser l'art ninja.
+lorsqu'Hagane est blessé et vous
+
+perdez une vie lorsqu'Hagane n'a
+
+plus d'énergie. Il est possible de
+
+faire monter le niveau d'énergie et
+
+méme d'augmenter le niveau
+
+d'énergie maximum en ramassant
+
+certains objets.
+
+Arme
+Affiche l'arme sélectionnée et son
+nom.
+
+18
+
+===== Page 23 =====
+
+“wr eignger
+
+eee
+
+FRANCAIS
+
++ Age: 20 ans
+
+* Sexe: masculin
+* Taille: 1,92 m (1,82 avant sa “renaissance")
+* Poids: 170 kg (80 avant sa “renaissance")
+* Personnalité: trés belliqueux
+
+===== Page 24 =====
+
+La lame de cetté arme
+est enduite d'un plasma
+bleu d'énergie qui luit
+pendant I'attaque. Ceci
+lui donne le pouvoir de
+couper facilement &
+travers un acier de 50
+em d'épaisseur.
+
+sivaNvud
+
+Puissance ~~
+Compactes et fabriquées .
+dans un alliage utilisé dans t f
+laGonstruction }
+aéronautique, cesarmes
+
+permettent de viser et
+
+Watteindre des tibles
+
+digtantes de plusieurs
+
+tentaines de metres. Bien ‘ y/
+gu'elles soient*petites, leur }
+pouvoirde frappe est t
+similaire & celui@'un <
+bazooka parce qu'elles
+
+dépendent directement dé
+la force da bras d'Hagane,
+
+===== Page 25 =====
+
+Hagane cache généralemént
+cette arme dans son bras,
+elle en sort grace 4 des
+fusées a réaction. Son
+apparence est similair
+une ligne droite verticale
+ou horizontale et son pouvoir est tel qu'elle peut traverser le
+corps d'un ennemi.
+< D, Cette arme peut aussi étre utilisée pour
+se déplacer en s‘accrochant au plafond
+ou a des branches d'arbres.
+
+FRANCAIS
+
+Cette arme est Similainea
+
+Uneypetite bombe au
+
+: napalm. Lorsif*etle est
+
+} 2 lancée, elle décrit un are
+\ dei@ercle et génére un€
+
+@rosse boule de plasma
+
+S \\(ehaud lagu elle attetrit:
+
+€e gui fait brailer put ee
+
+qu'il  aauitour delle:
+
+, 24
+
+===== Page 26 =====
+
+| La
+i 40
+
+Pete oS
+@ Attaque
+
+Appuyez'sur le bouton Y pourttaquerjavec
+Varme sélectionriée, Appuyez sur le bouton ¥
+tout en appuyafitivers le’bas sur le Control pad
+pour attaquer lorsque vous étes en position
+accroupie. Vous pouvez attaquer un ennemi qui
+se trouve au-dessus de yous lorsque la chaine est
+Sélectionnée en appuyant sur le bouton Y et vers
+le haut sur le control pad.
+
+SIVONWH4
+
+=
+
+@ Saut
+
+Appuyez sur le bouton B pour sauter. Appuyez vers la
+gauche/droite du.Control pad pour déterminer la direction du
+saut. Vous pouvez méme déterminer la direction d‘un saut
+lorsqu’ Hagane estén lair.
+
+@ Saut urillé
+
+Si vous appuyez sur le-bouton B lorsqu'Hagane
+s‘éléve pendant un saut, il exécutera uf saut
+yrillé. Hagane ne peut cependant pas attaquer
+pendant un saut yrillé.
+
+Bi Saut sur le mur pe
+
+tun saut vrillé, il peut rebondir dans la
+direction inverse. L'utilisation de sauts
+répétés sur les murs permet.de grimper au
+mur dans des zones efitourées de murs.
+
+Si Hagane'percute un‘inur lorsqu’il effectue y "
+
+i Glissade
+
+Appuyez sur le boutén B lorsqu"Hagiine est
+accr@upi pour lefaire gligser sur le Sol.
+
+Coup de pied’ versie bas
+
+Appuyez vers le bagigur le Control pad lorsqu'Hagane
+Saute, pour lui permettre de donner un coup de pied vers
+Te bas, Si vous maintefiez le Bouton appuyé, Magine
+continticradmdonnér des coups de pied.
+
+===== Page 27 =====
+
+M@ S'accrocher au plafond et a
+
+d'allfresiehieses
+Aux efidrofts oi il y a an plafond)ou des branches
+
+darbres au-dessus d'Hagane, il peut\s'y agripper si yous
+
+fui faites fairé un Saut tout en appityant vers le hane sur
+
+le Gontrol pad. Hagane peut aussi se déplacer en
+
+S'agrippant ainsi. Appuyezsur le bouton Bipour tedescendre au sol. 1hést
+aussi possible dés'accrocher au plafond én y lancantt la chaine Genba.
+
+oer
+
+B@ L'art ninja
+
+Appuyezisur le bouton A pourwutiliser l'art ninja. Tous les ennemis sur
+l'écran yorit subir des dégats et Hagane sera temporaitement invincible? - *
+Tous les ennemis abattus disparaitronte
+
+Appuyez sur le boutén droit lorsqu"Hagane se dirige vers la droite
+pour lui permettre de pivoter vers l'avant..Si vous appuyez sur le
+bouton gauche, il effectuera un flip arriére. Si vous appuyez sur le
+bouton Y ou B lorsqu'Hagane pivote, vous déclenchez une attaque
+spéciale qui sera différente selon les cireonstances (Voir-la LISTE
+DES ATTAQUES SPECIALES, page Suivante). Bien que vousme
+puissiez pas attaquer avec un flip arritre, ce dernier vous permet de
+vous déplacer vers la gauché ou la droite plus rapidement.
+a * Lorsqu'Hagane se dirige vers la gauche, le bouton gauche le fait
+yi pivoter et le bouton droit lui fait effectder un flip arriére.
+
+4
+
+@ COMMENT EFFECTUER UNE)ATTAQUE
+
+SPECIALE
+af
+
+Lorsqu'il pivotey Hagane.effectue trois fois cette action. L'attaque
+spéciale déclenchée dépenthde la rotation pendant laquelle yous
+appuyez sur le bouton!¥ 6u B. Le corps d"Hagane ne change pas
+pendant la premiére rotation. II devient bleu péndant la seconde et
+jaune pendant la troisiéme.
+
+jeme
+TeastION
+
+===== Page 28 =====
+
+Bouton ¥ Bouton B
+
+Coup de pied ultra rapide
+
+Coup de griffe
+
+sivaNvud
+
+Déclenche un coup de Déclenche un coup de pied
+poing lorsqu'Hagane vers l'avant lorsqu'Hagane
+€ avance. effectue un saut.
+
+Coup de pied Kami Oiseau de feu
+
+Effectue un saut lorsqu'il Hagane effectue un saut
+pivote et donne un coup de vers I'avant et son corps
+pied vers le haut. s'enflamme.
+
+Bombe dragon Coup de pied mortel
+
+Provoque une explosion Déclenche un coup de
+lorsqu'Hagane plante pied lorsqu'Hagane se
+dans le sol. reléve.
+
+===== Page 29 =====
+
+‘ .. e
+<
+>
+© Les objét/possédant des verttis Patticulieres apparaiisent lorsque certains ehnemis ou obstacle sont
+> détruits- 1 y.a 6 objets au total. Les objets qui sont en l'air peuyennétre ramassés n, les touchant,
+mais Magane doit s‘aceroupir ou glisser pour ramasser les objets qui sont au sol.
+
+:
+LISTE DES OBJETS
+Vie , Jauge de vie
+
+une jauge de vie revient 4 augmente le niveau maximum
+
+son niveau maximum. d'une jauge de vie et lui fait
+atteindre son niveau maximum.
+
+FRANCAIS
+
+Shuriken
+
+ajoute un tour ajoute 10 Shuriken
+supplémentaire au nombre de supplémentaires.
+tours restants.
+
+ajoute 10 bombes (Byakko)
+
+supplémentaires.
+
+===== Page 30 =====
+
+GARANTIE LIMITLE
+
+2 : , F; e AAMC NINVe
+Super Niniends Entertainment System GAME PAKS
+
+Ce produit est garanti pendant une
+période édictée par la loi de votre pays.
+Cela n'affecte en rien vos droits
+statutaires.
+
+Virgin Interactive
+Entertainment Sarl
+
+233 rue de la Croix Nivert “ail
+75015 Paris FRANCE if
+
+===== Page 31 =====
+
+ee
+VORWORT
+DER CONTROLLER
+DER KONFIGURATIONSBILDSCHIRM ---- 28
+SPIELBEGINN eee 29
+
+DER SPIELBILDSCHIRM 30
+WIR STELLEN VOR: HAGANE
+HAGANES WAFFEN
+DER EINFACHE ANGRIFF -
+DER SPEZIALANGRIFF ----
+LISTE DER SPEZIALANGRIFFE --- 36
+
+GEGENSTANDE -------------2--0=-- 37
+
+Der Fuma- und der Koma-Clan
+
+Die Clans der Fuma und der Komabeherrsehen die geheimen
+Kiinste der Ninja-Kampfkunst und der Schwarzén Magie und
+leben in der Dunkelheit. Obsthon sie wie gewohniliche
+Menschen aussehen, gehen thre Starke, Explosivittt and
+geistige Kraft weit itber das Normalmafs hinayg.
+
+Bruderschaften
+
+Seder Clambesteht ausimehrerén Gruppen, die
+"Bruderschaften" genannt werden. Die Bredersthapten des
+Fuma-Clans, die auf den Chinesischen Sternzeichen beruhen,
+sind u.d.: die Kuh, der Tiger und der Drache. Der Kietta-Clan
+ist@lagegen’in Farb-Brudersehaften aufgeteilt: der Weipe
+Drache, der Goldene Dyfithe und der Rote Drache.
+
+Beim Fuma-Clan hdber die Mitglieder einerdruderschuft
+keinerlei,Wissen iiber andete-Briderschaften -auper, dap sie
+Gxistiéven. Di sie von der AuPénwelt abgeschnittenssttind, ist ihr
+Clan zum Ufitergang vemurtellt, undahre ZahUninmt stetig ab.
+
+bets
+Der Fuma-Clan. Diese Ninjavereinigungzeichnet
+sich durch extreme Kraft, Bxplosivitat und geistige
+Macht @us und hat dié\Gabe, Ninja-Kampfkunst
+urid Schwarze Magié einzusetzen. Zwar hatten die
+Ninjus geschworen, den Heiligen Gral zu
+beschiitzen, der der Sage nach die Macht héity die
+Welt zu dernichten, doghdasSchicksal hatte.anderes
+
+‘it ihnen vor.
+
+Schon seit langem hatte der Koma-Clan den
+furchtbaren Plan, die Erde mittels der zerstorerischen
+Kraft des Heiligen Grals in Schutt und Asche zu legen.
+Eines Tages griffen sie plotzlich dew Fuma-Clan an und
+
+stahlen den Heiligen Gral. Doch inmitten des blutigen
+
+Chaosentging ihnen, dapein Mann iiberlebte...
+
+Ein geheimnisvoller Grets namens Momochi brachte
+diesen Mann, der sich bereits an der Schwelle zum Tod.
+befand, mit Hilfe fortschritelichster Cyber- Technologie
+
+wieder ins Leben zuriickeDoch nur das Gehirn des
+
+Mannes blieb am Leben...
+
+Sein Name.war Hagane. War er schon‘als Ninja médchtig
+gewesen, so erhiélt er nun die unglaubliche Kraft und
+Geschwindigkeit eines menschlichen
+
+Cyborgs. Voller Hass schwor er, an der
+Kokuro-Bruderschaft Rache mm
+
+nehmen.
+
+,
+
+27.
+
+DEUTSCH
+
+===== Page 32 =====
+
+Knépfe Lund
+Spezilangriff, Salto Packwéarts
+
+A-Knopt
+Nach links und rethts
+bewégen und in die
+
+Hocke gehen
+Knopf X
+Waffe auswihlen
+
+Select-Knopf
+Waffen auswahlen Knopf B
+Springen
+
+Start-Knopf ——
+Spiel starten und unterbrechen
+
+Knopf ¥
+Angreifen
+
+* Die Funktion der einzélnen Knopfe kann auf dem Konfigurationsbildschirm
+
+HOSLNId
+
+(Config Screen) verandert werden.
+OES 4
+J
+frit »
+
+Der Konfigurationsbildschirm (Config Screen) erscheint,
+wenn Du durch Betitigen des R-Knopfes oben/unten und
+
+| links/rechts auf dem Titelbildschirm die Option CONFIG
+
+| wahlst. Du kannst zu diesem Zweck auch die Knépfe Select,
+
+| L oder R verwenden. Auf diesem Bildschirm hast Du die
+
+| Méglichkeit, die Funktionen der Knépfe auszutauschen
+
+| und Dir die Spielmusik sowie die besonderen
+Soundeffekte anzuhéren. Méchtest Du zum
+Titelbildschirm zuriickkehren, driicke einfach den B-Kncgl
+oben/unten, um EXIT (Verlassen) auszuwahlen, und betitige
+anschlieBend Knopf A, B, X oder Y. Du kannst auch jederzeit zum
+Titelbildschirm gelangen, indem Du den Start-Knopf driickst.
+
+@ KNOPFFUNKTIONEN VERANDERN
+
+Wihle die Funktion, deren Knopf Du austauschen méchtest,
+indem Du den R-Knopf oben/unten driickst. Driicke dann den
+Knopf, der von nun an die Funktion iibernehmen soll - das
+
+war's schon!
+25
+
+===== Page 33 =====
+
+“wise
+
+Das Spiel beginnt, wenn Du auf dem Titelbildschirm einen
+der folgenden Knépfe drtckst: Start, A, B, X oder ¥. Das
+Spiel istih fiinf verschiedene Sttfen oder Lewels untérteilt.
+Am Ende jedén Levels wirst Du mit einem Endlevelgegner
+konfrontiert, den Du besiegen, muBt, um zum nichsten Level
+weiterzukommien.
+
+@ EIN SPIEL FORTSETZEN
+
+Du verliérst einen Hagane, wenn der Lebenszahiler aufgrund
+der Verletzungen Deines Helden bis auf Null absinkt oder
+wenn die Zeit ablauft. Das Spiel ist beendet, wenn Du all
+Deine Runden verloren hast. Danach erscheint der
+Titelbildschirm mit der Optiom "CONTINUE" (Weiter).
+Du kannst.das Spiel an der Stelle fortsetzenyan der Du es
+
+beendet hastyindem Du einemder folgenden Knépfe
+driickst: Start, A, B, X oder ¥.
+
+einzustellen.
+
+29
+
+Titelbildschirm
+
+@ MUSIK UND SOUNDEFFEKTE
+
+Auf dem Konfigurationsbildschirm kannst Du mit
+Hilfe des R-Knopfes oben/unten die Optionen
+"MUSIC" (Musik) oder "SOUND" (Soundeffekte)
+markieren. Driicke dann den R-Knopf rechts/links
+oder die Knépfe L oder R, um eine Zahl auszuwahlen.
+Betatigst Du dann Knopf A, B, X oder Y, dann
+erténen die entsprechenden Musikstiicke oder
+Soundeffekte. Durch die Option "MODE" (Modus)
+hast Du die Méglichkeit, Mono- oder Stereosound
+
+come ret (Yon oben nach unten)
+
+ee Angritt
+
+BaME Springen
+
+ucapax sereece | Ninja-Kampfkunst
+
+HEAPON SELEET2 — Waffe auswahlien
+
+SOMERSAULT -E. ms
+
+SOMERS @UET -E. Waffe auswahlen
+
+weed Spezialangriff, Salto riickwarts
+
+Saeed Spezialangriff, Salto riickwarts
+
+MODE Musik
+
+EXIT Soundeffekte
+
+Mono-/Stereo-Schalter
+
+Hontigura ildschirm Zum Titelbildschirm zuriickkehren
+
+DEUTSCH
+
+===== Page 34 =====
+
+HOSLNIAG
+
+Hindernisse
+
+Einige der Hindernisse bergen
+Gegenstiinde, die Du durch
+Zerstéren des Hindernisses
+erhaltst.
+
+Punktestand
+Der Punktestand wird mit jedem
+besiegten Gegner erhéht.
+
+Verbleibende Zeit
+Schlie8t Du einen Level nicht ab,
+
+bevor die Zeit ablauft, verlierst
+Du ein Leben.
+
+Lebenszahler
+
+Hier kannst Du Haganes
+Lebensenergie ablesen, die
+abnimmt, wenn er wahrend des
+Spiels Schaden nimmt. Sinkt die
+Lebensenergie auf Null, verlierst
+Du ein Leben. Die Energie kann
+wieder aufgebaut und das Energie-
+Maximum sogar gesteigert
+werden, indem Du bestimmte
+Gegenstinde aufsammelst.
+
+Waffe
+
+Hier siehst Du, welches Deine
+aktuelle Waffe ist (inkl. der
+Waffenbezeichnung).
+
+B30
+
+Verbieibende Watfen
+
+\ ~wS Ninja-Kampfkunst
+
+\—— Anzahl der Leben
+
+— > Gegnerische Figur
+
+Erreicht diese Anzeige Null,
+kannst Du keine Waffe mehr
+verwenden. Durch Aufnahme
+bestimmter Gegenstiinde kannst
+Du deinen Waltarivoriat jedoch
+wieder aufstocken. Erscheint "oo"
+als aktuelle Waffe, brauchst Du
+Dir tiberhaupt keine Sorgen mehr
+zu machen: Diese Waffe kann
+endlos eingesetzt werden, ohne an
+Power zu verlieren.
+
+Anzahl der Leben
+Das Spiel ist vorbei, wenn Du all
+Deine Leben verlierst.
+
+Ninja-Kampfkunst
+
+Diese Zahl gibt an, wie oft Du die
+Ninja-Kampfkunst einsetzen
+kannst.
+
+===== Page 35 =====
+
+tee fh ka ed
+
+—
+
+* Alter: 20
+
+* Geschiecht: Mannlich
+* GroBe: 192 cm (182 cm vor seiner Wiedergeburt)
+* Gewicht: 170 kg (80 kg vor seiner Wiedergeburt)
+* Pers6nlichkeit/Charakter: Extrem kampflustig
+
+===== Page 36 =====
+
+Angriffsreichweite
+
+Starke
+
+\Mittel
+Die Schneide ist E
+wahrend des Angriffs :
+von einer blauen
+Energie-Plasmaschicht
+umgeben. Dadurch
+kann sie ohne wéiteres
+50 cm dicken Stahl
+
+durchschneiden.
+
+Eine kompakte Waffe, die
+durch Verwendung 1
+bésonderen Stahis und eines
+
+Speziellen 7
+Herstelliingsverfabrens
+extrem wurffatiglich ist und,
+
+ih Ziel selbstiiber /
+
+i
+Hundett Metern genau
+
+tritfteDiese Waffeist zwar (
+Klein, hat aber die geballte “£~ Qi}
+‘Kraft einer Bazooka, da die
+
+KKratevon Haganes Arn
+
+direkt au die Waffe
+
+ibertragem witd.
+
+32
+
+f
+
+Distanzen von mehteren
+
+===== Page 37 =====
+
+Die, Kette ist normaletweise
+in Haganés Arm verborgen,
+wird jedoch im Bedarfsfall
+durch
+Hochgeschwindigkeits-
+Jetraketen abgeschossen.
+Sie bewegt sich in gerader Linie nach yorn oder nach oben
+
+und haf'geniigend Kraft, den Kérper
+se) \) des Gegners zu durchdringens
+
+¥ <i é
+>. Beene Die Kette kann auch eingesetzt werden,
+
+um sich an der Decke oder Asteti
+
+Diese Watfe entspritht in
+etwa ¢iner kleinen,
+Napalmbombe. Sie fliegt
+in.eiem Bogen und wid
+beim Aufprail in eine
+niesige Kugel’superheiBen
+Plasmas verwandeltsdie
+die gesamt® Umygdbung
+
+sofort verbrennt.
+33
+
+DEUTSCH
+
+===== Page 38 =====
+
+B Ansriff
+
+Driicke Knopf ¥, um mit der aktuellen/Waffe -
+anzugreifen, Betatige Knopf\YewahrendDuden |, ! f¢
+R-Knopf gedriitkt haltst, um aus dérHocke *
+
+anzugreifen. Wenn Genbu (Kette) Deine iH angriff aus
+aktuelle Waffe ist) kannst Dujvomunten nach [4 ar det Hock]
+obén angreifen, indem Du den R-Knopf oben ‘ie
+
+P= a. ees
+
+gedriickt hiltst und Knopf Y betitigst.
+angriff
+nach obe8
+eee es @ Springen
+
+Driicke den B-Knopf, um zu springen. Die Sprungrichtung hi
+davon ab, ob Du den ReKnopflinks oder rechts driickst. Du ba
+kannst Dich sogar wahrend des Sprungs noch nach links oder
+rechts bewegen.
+
+HOSLNAG
+
+@ Wirbelsprung
+
+Driickst Du Knopf B, wahrend Du hochspringst,
+kannst Du einen manera durchfihreny
+
+Allerdings kannst des Wirbels;
+nicht angreifen. ioe
+
+—@ Mauerspriing
+
+Triffst Du wihrend des Wirbelsprungs auf ee,
+eine Mauer, kannst Du in Gegenrichtung von “a
+der. Maueéfabspringen. Du kannst klettern,
+
+indem Du in Spielumgebungen, die von A }
+
+Matern umgeben sin erholt
+Materspriinge ausfiihrst, ia
+ep)
+oad
+* Wy
+Bi Gieiten
+
+Driicke Knopf B, wahrend Du Dich in‘der
+Hocke befindeSt, um iber den Boden zu
+
+pleiten,
+
+MKick nachiinten
+
+Dréiekst Du wahrend einesiSprangs den. R-Knopf
+untéf, Kannst Du direkt nach anten kicken. Haltst
+Dh den R-Knopf gedritckt, wird der Kiek\nach unten
+Wiederholt ausgefithrt.
+
+34
+
+===== Page 39 =====
+
+@ Anger Decke Gder af
+Gegenstanden entlanghangein
+
+Befindésith tiber Dir eine Deckésodereit Ast, kannst
+
+DayDich daran festhalten, indem Diispringst, wahrend
+
+Du den RKnopf oben gedriickt haltst. Du kaanst\Dich
+
+auch bewegen, wahrend Du Dich da oben festhaltst. Mit
+
+Hilfe von Knopf B gelangst Du wieder aufiden Boden zurtick. Du kaniist
+Dich auch an der Decke festhalten, indem Du die Genbu-Kette einsétzt.
+
+@ Ninja-Kampfkunst
+
+Driicke’Knopf A, um die Ninja-Kampfkunst @inzusetzens Alle Gegher auf
+dem Bilds¢hirm werden dadurch in Mitleidenschaft gezogen, und Hagarie
+wirdvortibergehend unbesiegbar.
+
+AuBerdem verschwinden simtliche Waffen des Gegners, die zuvor auf
+Dich zukamen.
+
+oder links wird beschleuni
+
+\ 4 AUSFUBRST
+
+Drehung erscheint
+
+in blauer Farbe und béi dé dritten in Gelb)
+
+@ WIE DU EINEN SPEZIALANGRIFF
+
+igt.
+* Blickt Hagane nach links, fiihrt das Betatigen von Knopfbzu
+obengenannter Drehbewegung, Knopf R lést einen Riickwartssalto
+
+Driickst, Du den een rend Hagane nach rechts schaut, dreht
+er sich mach yorn. Drii Du Knopf L, macht Hagane einen Salto
+
+riickwarts. Driickst Du. Knopf Y oder B; wahrend Hagane sich
+umdreht, fiihrt er einen situationsabhangigen An;
+auch LISTE DER SPEZIALANGRIFFE). Zwar
+Riickwiartssalto herausnicht angreifen, aber die Bewegung nach rechts
+
+iff durch. (Siehe
+nnst Du aus dem
+
+Ki i) Wahrend der Rotationsbewegung dreht sich Hagane dreimal um sich
+
+00% “selbst. Welcher Spezialangriff ausgelist'wird) hingt davon ab, bei
+
+welcher der Dréhungen!Du Knopf Y oder B driickst. Bei der ersten
+aS in seiner iiblichen Gestalt, bei der zweiten
+
+DEUTSCH
+
+===== Page 40 =====
+
+Knopf B
+
+Sturmwind-Kick
+
+Lést wahrend der Lést wahrend des
+Vorwartsbewegung Sprungs einen
+einen Schlag aus. Vorwartskick aus.
+
+Kami-Kick
+
+HOSLNId
+
+Sprung wihrend der Sprung nach vorn mit
+Drehbewegung und einer Kérperumhiillung
+Kick nach oben. aus Feuer.
+
+Drachenbombe Todeskick
+
+Eine Explosion wird
+
+ausgeldst, indem ein
+
+Schwert in den Boden yearend Hagaas Bich
+
+Lést einen Kick aus,
+
+gerammt wird.
+
+===== Page 41 =====
+
+ara Weng bestimmire Gegner und Hindetnisse
+
+— ty ZerstGrt werdengkommen Gezenstande zum
+Vorsthein, die Verschiedene besondere
+Wirkungen haben. Insgesamt gibt és 6.Gegenstande\Gegenstande, die sich mitten in der Luft
+befinden, kénnen@uitch bloBe Berdhtung emworben werden. Gegénistande, die auflem Bode
+liegen, kémnen nur aufgenommen werden, wenn Hagane in die Hocke geht oder gleitet.
+
+LISTE DER GEGENSTANDE
+Pay Bonusleben
+
+Ein Lebenszahler wird bis
+auf das Energiemaximum
+erhoht.
+
+gen Lebenszahler aufstocken
+
+Die Zahl der verbleibenden a Die Anzahl der Wurfsterne
+Runden wird um 1 erhéht. wird um 10 erhéht.
+
+_ sarah
+Zahl der Bomben : a 1. mlichen Ninj
+
+Kampfku
+
+===== Page 42 =====
+
+BEGRENZTE GAKANTIE
+
+eC : a A ee ee eC, We AYE
+Super Nintendo Entertainment System GAME PAKS
+
+Die Garantiezeit fiir dieses Produkt ist
+abhdngig von den Gesetzen Ihres Landes.
+
+Ihre gesetzlich vorgeschriebenen Rechte
+werden dadurch nicht beeinflupt.
+
+Virgin Interactive
+Entertainment
+(Deutschland) GmbH
+
+Borselstrasse 16/B if ;
+22765 Hamburg GERMANY
+
+===== Page 43 =====
+
+PROLOGO ----------------------------- 39
+COMO USAR EL CONTROLADOR -- 40 El clan Fuma esta dotado de una fuerza increible y
+LA PANTALLA de ‘wn poder espiritual y explosivo. Son ninjas que
+DE CONFIGURACION ---- -- 40 dominan las artes prépias de*estos guerreros y,
+COMIENZO DEL JUEGO --------- 41 adémas, pueden utilizar a voluntad la'magia negra.
+LA PANTALLA DEL JUEGO ----- 42 Su mision es proteger el Santo Grial;del que se-dice
+OS PRESENTAMOS gue titmediiler suficicrtihgra destruir cena
+Elclan Koma llevaba afios\planeando la destruccién
+del mundo por medio.de los poderes destructivos del
+Santo Griali, Un dia, atacaron por sorpresa al clan
+ATAQUES ESPECIALES --- 47 Fama y robaron el grial. Sin embargo, no advirtieron
+LISTA DE ATAQUES que entre las numerosas victimasytmna habia quedado
+ESPECIALES ---- 48 con vida...
+Un anciano misterioso Wamado Momochi recogié a este
+
+-- 49
+hombre moribundo y le devolvio la vida usando und
+avanzada tecnologia cibernética, Sin embargo, su cuerpo
+se perdié por.completo y solo su cerebro sobrevivid...
+Su nombre era HaganesEn su anterior vida fue un
+poderoso guerrero ninja, pero ahora tenia, también; la
+velocidad yy el poder de un organismo cibernético. Con
+sus nuevos poderes, jurd que se vengaria
+de la faccién Kokuro.
+
+ARTICULOS --
+
+Lés clanes Fuma y Koma,
+
+Estos dos clanes han llegado a dominar las artes secretas de los
+Rinja y lamagia negra, y viverben las tinieblas. Aunque parecen
+
+seres-humanos normales y corrientes, poseen und fuérza y un
+poder@spiritual y explosive sobrenaturales.
+
+hb Las facciones
+Cada clan $e divide varios grupos llamados "facciones”; las del
+
+clan Fuma se basan en el. zodiaco chino, yast esta la faccion
+de la Vaea, la del Tigre, la del Dragémete...El clan Koma
+utiliza los. colores para denominar a sus facciones: Dragon
+Bl@nco, Dragén Rojo y Dydgén Dorado.
+Eqvel cas0.del clan Gumia, los miembros de una fagcion
+detémminada sdlo sabetede las otras facciones el hecho de que
+existen."No tienen vineulos dé\sangre corel mundo exterior,
+Slindje est@ destinads @ désapiitecer yisu poblaciéh esta
+
+disminuyendo.
+
+===== Page 44 =====
+
+Mando direccional «
+Sirve para moyerse
+
+a izquierda, detecha
+
+y para agacharse
+
+Atague especial,
+voltéreta hacia atras
+
+Boton X
+Seleccionar
+
+Utilizar las
+Botén Select artes ninjas
+
+Seleccionar un arma
+
+Botén B
+Saltar
+
+Boton ¥
+Atacar
+
+Botén Start ——
+Comenzar y detener el juego
+
+* En la pantalla-de configuracién.se pueden cambiar las funcionés dé)los botones.
+
+TONWdS4
+
+La pantalla de configuracién aparece cuando seleccionas
+CONFIG, lo que hards pulsando la parte superior/inferior
+e izquierda/derecha del mando direccional en la pantalla del
+titulo, o utilizando el botén Select, el L o el R. Esta
+pantalla te permite cambiar las funciones de los botones y
+oir la musica del juego y los efectos de sonido especiales.
+Cuando quieras volver a la pantalla del titulo, utiliza la
+parte superior/inferior del mando direccional para
+seleccionar EXIT, y luego pulsa el botén A, B, X o Y.
+También puedes volver a la pantalla del titulo en cualquier
+momento, si pulsas el botén Start.
+
+i COMO CAMBIAR LAS FUNCIONES DE LOS BOTONES
+
+Con la parte superior/inferior del mando direccional, selecciona la
+funcién del botén que deseas cambiar. Pulsa el botén que quieras que
+realice esa funcién y el cambio quedara realizado.
+
+40
+
+===== Page 45 =====
+
+N ee 7
+
+El juego comienza cuando pulsas el botén Start, A, B, Xo ¥
+desde la pantalla del titulo. El juego esta dividido en 5
+@scenarivs. Para pasar al siguiente escenarioghay que‘destruir
+
+bs i jefazoque parece al fimal de cada nivel
+
+1. COMO:CONTINUAR UNA PARTIDA
+
+Cuand6 fi indicador de energia Iegue a cero, debido a los
+dafios recibidos, 6 cuando el tiempo se acabe, pierdes un
+personaje Hagane. Cuando esto sucede; aparece la pantalla
+del titulo y en ella las palabras "CONTINUE", Si pulsas el
+in Start, A, B, Xo Y, puedes continuar jugandodesdé el
+rio en el que se acabé tu ultima partida.
+
+La pantalla del titulo
+
+m@ MUSICA Y EFECTOS DE SONIDO
+
+En la pantalla de configuracién, puedes utilizar la
+parte superior/inferior del mando direccional para
+alinear el cursor con las opciones de miisica y sonido
+(MUSIC/SOUND) y seleccionar ntimeros con la
+parte izquierda/derecha del mando direccional o con el
+botén L o el R. Para oir la mtisica o el efecto de
+
+sonido correspondiente al ntimero elegido, pulsa el
+botén A, B, X o Y. Igualmente, si seleccionas MODE
+puedes elegir si quieres escuchar la musica 0 el efecto
+de sonido en estéreo o en monoaural.
+
+cour ree (En orden desde arriba)
+RETACE Atacar
+sump
+BOMB Saltar
+HEAPON SELEETE Artes ninjas
+HEAPOM SELEEE2 — Seleccionar arma
+SOMERSAUELT -& Seleccionar arma
+
+SOMERSSUET -t.
+Ataque especial, voltereta hacia atras
+
+nus Te
+
+sounn Ataque especial, voltereta hacia atras
+HOBE Musica
+Efectos de sonido
+Estéreo/Mono
+Pantalla de Volver a la pantalla del titulo
+configuracion
+
+AW
+
+ESPANOL
+
+===== Page 46 =====
+
+TONWdS4
+
+we Arma
+Mafcador ——— \
+
+NN Indicador del empleoide un arma
+
+Obstaculo _-
+
+Obstaculos
+
+Cuando destruyes algunos
+obstaculos, dejan cosas al
+descubierto.
+
+Marcador
+Aumenta a medida que destruyes
+enemigos.
+
+Tiempo restante
+
+Si no despejas el escenario antes
+de que este ntimero Ilegue a 0,
+pierdes una vida.
+
+Indicador de energia
+
+Indica cual es la energfa vital de
+Hagane. Disminuye cuando el
+personaje resulta herido. Si toda
+la energia desaparece, pierdes una
+vida. Es posible recuperar energia
+y, si recoges ciertos objetos,
+incluso puedes incrementar el
+nivel maximo de energia.
+
+Arma
+
+Muestra el arma que esta
+seleccionada en ese momento y su
+nombre.
+
+Numero de vidas
+
+Personaje enemigo
+
+Indicador del empleo de un
+arma
+
+Cuando este ntimero llega a 0, ya
+no puedes usar esa arma; pero, si
+recoges ciertos objetos, el
+cargador se llenard. Si aparece el
+mensaje de "co" para un arma
+determinada, ésta se podra usar de
+
+forma indefinida.
+
+Namero de vidas
+El juego se acaba si pierdes todas
+las vidas.
+
+Artes ninjas
+Puedes usarlas el ntimero de veces
+que indique este nimero.
+
+===== Page 47 =====
+
+Se TONWdSa
+
+e..
+29
+A
+ges
+£23
+Z2°9
+29
+3s
+3 a5
+£e
+3 B25
+~ Cok
+vEcs
+ere
+Lets
+$8253 :
+liv
+
+===== Page 48 =====
+
+LIMITE DE USO.
+
+ALCANCE DEL ATAQUE
+
+POTENCIA
+
+La hoja esta cubiértinde
+un halo azul de plasma
+energético que relute
+durante el ataque, Io
+que le permite cortat’
+con facilidad un trozo
+de acero de 50 cm de
+
+grosor.
+
+ALCANCE DEL ATAQUE
+
+POTENCIA
+
+Son armas compactas, j
+hechas de una aleatién, \ : f
+Special para facilitar el
+vuelo, que pueden ]
+aleanzaricon gran
+precision ux objetivo
+Situado a ciehtos dé
+metros, Aunque é y/
+i
+f
+
+pediiefias, tienen ef
+
+poderi@Xplosivo dean j
+bazuka medio porque a |
+dependen directamente
+
+de lafuerza con Hagane
+Jas lange
+
+An
+
+===== Page 49 =====
+
+VAImITE DE USO
+\ninguno
+
+ALCANCE DEL ATAQUE
+
+POTENCIA
+
+Esta arma, que Hagane
+suele llevar escondida én la
+manga, va propulsada por,
+unos cohetes. Se puede
+lanzar haciadelante o hacia
+arriba, en linea récta, y
+tiene potencia suficiente para atravesar el cuerpo de un
+enemigd:
+
+Esta arma se puede usartambién para
+desplazarse, si se engancha abitécho oa
+las tamas de los arboles.
+
+ESPANOL
+
+Es un arma parecida a
+las bombas de.napalmy
+tra%a una trayectoria
+angieada y provoca ula
+@ran bola de plasma
+ihcandescerite en el
+lugéPen el que cag,
+@brasahdo, todo 16 que
+
+haya a su alrededor.
+
+===== Page 50 =====
+
+@ Atacar
+
+Pulsa el botén Y pata atacar con el arma.queé —
+esté seleccionadd en ese momento#Pulsael tigi
+botén Y mientrasymantienes pulsada ila parte
+inferior del mando direccional paraatacar
+
+cuando estas agachado. Si pulsas el botén Y $ araaue, agacnado
+mientras mantiénes pulsada la parte de atriba eee! >a) estan
+del mando directionalyefectuaras un ataque Oem ee se —
+
+haeia arriba cuando la Genbu (cadena) esta tacve
+
+seleceionadas pre arribe
+
+@ Saltar
+
+Pulsa el botén B para saltar. La direccidn en la que saltes vendra
+determinada por la parte del mando direecional que pulses
+
+{izquierda o derecha). Incluso puedes moverte a izquierda y
+derecha en mitadde un salto.
+
+@ Salto con giro
+Pulsa el bot6n B cuand6 te estas elevando, y dards
+
+un salto con giro. Sin embargo, no puedes atacat
+mientras estas girando.
+
+@ Salto céntrala pared
+
+Si golpeas una pared cuando estas dando un os
+salto ton'giro, puedes Salir despedido en 1
+direccién contraria a la pared. Si saltas varias y
+veces contra la.pared én zonas que estan r
+
+rodeadas de muros, podras trepar. ar
+
+@ Deslizamiento
+
+Pulsa ef botén® cuando estas agachado para
+deslizarte por el suelé.
+
+Saye MPatada Hatia abajo
+
+tah Pulga la parte de abajo delimandd direcoi@nal cuando
+estd8 Saltando paragitacar eOnuina patida hacia abajo:
+
+i Si mantienes pulsada Ta parte dé abajo del mando
++ . diretcional, puedes da variaSwpatadas.
+
+86
+
+===== Page 51 =====
+
+Agarrarse altecho y.4 otras
+
+j
+i
+f:
+i
+
+ToSiugares que tienen techo o donde hay ramas de
+85 Sobre tu cabeza, puedes agartarte a lo que tengas pe
+fia sida un Salto a la vez que!mantienes\pulsada la achas
+Superior del mando difeccional. Mientras estas
+
+do a algo, puedes moverte. Pulsa el bot6n B,para volver al suclog
+
+nes posible agarrars@al techo lanzandole la\cadena 6 Genbué
+
+artes hinjas ne.
+sa élibotén A para usar un arte ninja. Todds los enemigos que Haya en
+
+pantalla resultarin heridos y Hagane sera invencible temporalmente. “a ~
+demas desapareceran todos los disparos enemigos.
+
+Si pulsas'el botén R (derecho) cuando Hagane esta mirando hacia la
+derecha, éste girara hacia delante. Si pulsas el botén L, dara una voltereta
+hacia atrds. Si pulsas el botén Yo B durante el giro, Hagane realizara un
+ataque especial que yariara dependiendo de la situacién. (Consulta la
+LISTA DE ATAQUES ESPECIALES situada en la pagina de la
+derecha). Aunque no puedes atacar cuando estas dando una voltereta
+hacia atrds, es posible moverse hacia el derecha y hacia la izquierda mas
+raépidamente.
+
+* Cuando Hagane esta mirando hacia la izquierda, el botén L hace que
+gire y el R, que dé una voltereta haciaateds.
+
+@ COMO REALIZAR UN ‘ATAQUE ESPECIAL
+
+Ls giros de Hagané constan de tres tiempos, pomasi decirlo. El ataque
+especial depende deen qué parte del giro te encuéntres cuando pulses el
+bot6n Y o B. Durante laprimera parte del gito el cuerpo de Hagane no se
+alterara, pero en la segunda se\pondra azul y en la.tercera, amarillo.
+
+tercet
+tiempo
+
+ESPANOL
+
+===== Page 52 =====
+
+ONVdS3
+
+Botén Y Boton B
+
+Garra de lobo Patada veloz como el viento
+
+Lanza un pufietazo Da un patada hacia
+mientras se mueve hacia delante mientras salta.
+delante.
+
+Patada fulminante Pajaro de fuego
+
+Salta mientras gira y da Salta hacia delante con
+una patada hacia arriba. el cuerpo enyuelto en
+llamas.
+
+Dragén bomba Patada de la muerte
+
+Provoca una explosién Da una patada que se
+al clavar una espa eleva h:
+el suelo. linea recta.
+
+===== Page 53 =====
+
+ciales. En totalihiay 6. Los que estin flotando.cn él aire se pueden recoger con slo tocarlés;
+ro para conseguir los que estan én él suelo hay que agacharse o deslizarse,
+
+Recuperar energia re yopercites ig de indicador
+
+Hace que el indicador de Aumenta el nivel maximo del
+energia se Ilene por indicador de energia y a continuacién
+completo. lo rellena completamente.
+
+Reforzador de vidas Shuriken
+
+Aumenta una vida. | =Aumenta en 10 el ntimero
+del Shuriken.
+
+Artes ninjas
+
+Aumenta en 10 el némero Aumenta en 1 el ntimero de
+
+del Byakko (bomba). veces que puedes usar esta
+técnica.
+
+===== Page 54 =====
+
+GARANTIALIMITADA
+
+e /; J. 7 . e p] A? NNLC
+Super Nintends Entertainment Sy tem GAME PAKS
+
+Este producto esta garantizado por un
+periodo requerido por la ley de su pais.
+Esto no afecta los derechos propios
+establecidos por la ley.
+
+Virgin Interactive
+
+Entertainment
+
+(Europe) Ltd.
+
+338 iY!
+a Ladbroke Grove |
+
+London W10 5AH
+
+ENGLAND
+
+===== Page 55 =====
+
+Th elan Fuma/ Esperti nelle arti ninja e nella
+LA PULSANTIERA ----------------- Magia Nera, sone Ninja che possiedono/una forza,
+VIDEATA CONFIGURAZIONE -- 52 una combattivita e déi poter?’spiritnali
+ae straordinari. La loré missione é di proteggere il
+Sacré Gradl. Si narra che quest abbieil potere di
+distruggereé il mondo.
+
+Tanto tempo fa, il clai Koma elaboré un piano per
+distruggere il mondo utilizzando il potere distruttivo
+del’'Sacro Graal. Attacearono dijsorpresa il clan Fuma
+¢ gli rubaronoiil'Sacro Graal. Tuttavia, non si
+
+accorsero che un uomo era sopravvissuto trai
+numertosi feriti a morte...
+Vennesalvato in fin di vitada un veechio misterioso
+chiamato Momochi grazie all’utilizzo di una tecnologia
+cibernetica avanzata. Ma nessuna parte del suo corpo
+sopravvisse, aiparte il cervéllo...
+Si chiamava Hagane. Adesso oltre ad essere un potente
+ninja, aveva anche sviluppato la forza e la velocité
+incredibili tipiche degli esseri cibernetici. Con questi
+poteri, giurd di vendicarsi contro il
+clan dei Kokuro.
+
+magia nera e vivono nel male. Nonostante abbiano
+pettd di\persone normali, hanno una forzas#elle abilita di
+e dei poteri spiritiiali sevrannaturali.
+
+ITALIANO
+
+hiiclan & composto da vari gruppi chiamati "fazioni’® Tl
+am Puma é diviso in faziont in base allo zodiace cinese: la
+Mauccd, ta Tigre, il Drago e.altri segni, mentre il claitmKoma é
+Dit fezioni in base ai colori: il Drago Bianéd, il Drago
+0 @ il Drago Rosso¢
+nm Puma i membridi una determinatagézione non
+Phiente sulle altre fazioni; a parté il fatto che esistono.
+stirp@e isolate dal resta.del mondé & destinata’ a
+
+= r
+
+===== Page 56 =====
+
+Pulsantil eR
+Artatehi speciali,
+¢apriola all'indietro
+
+Pulsante direzionale
+Andare a sinistra,
+destra @ accovacciarsi.
+
+—— Pulsante X
+Selezionare arma.
+
+Pulsante A
+Utilizzare le
+arti Ninjas
+Pulsante Select
+
+Lf B
+Selezionare armi. Pulsante
+
+Saltare.
+
+{_. pulsante ¥
+Attaceare.
+
+Pulsante Start
+Iniziare e mettere il gioco in pausa.
+
+* La funzione di-ogni pulsante pud essere cambiata sulla videata configurazione.
+
+La videata configurazione appare quando selezioni
+CONFIG premendo il pulsante direzionale in su/gii e a
+sinistra/destra sulla videata di testa oppure premendo il
+pulsante Select (Seleziona), L (in alto a sinistra) o R (in
+alto a destra). Questa videata ti permette di cambiare le
+funzioni dei pulsanti e ascoltare la musica e gli effetti
+sonori del gioco. Per ritornare sulla videata di testa premi  -
+il pulsante direzionale su/git: per selezionare EXIT (ESC)
+e quindi premi il pulsante A, B, X o Y. In qualsiasi
+momento potrai ritornare sulla videata di testa premendo il
+pulsante Start.
+
+ONVITVLI
+
+@ COME CAMBIARE LE FUNZIONI DEI PULSANTI i
+
+Seleziona le funzioni dei pulsanti che desideri cambiare premendo il
+pulsante direzionale in su/gii. Premi il pulsante a cui vuoi assegnare
+quella funzione e verra effettuato lo scambio.
+
+52
+
+===== Page 57 =====
+
+60 iniziera quando premerai il Pulsante A, B, X o Y
+Nyideata di testa. Il gioco @ diviso in 5 stadi. Per passare
+tadi successivo dovrai uccidere il nemigo.alla fine di
+
+% I livello.
+
+COME CONTINUARE UN GIOCO Press weaves 154%
+
+derai tin Hagane quando l'indicatore della vita arrivera Videata di testa
+
+a cauSa di danni subiti o perché é scaduto iltempo. I
+
+eo terminera quando finirai tutti i personaggi. Al termine
+Oco sulla videata apparira "CONTINUE"
+
+INUA), Puoi continuare il gioco dal punto in cui
+finito il gioco premendo il pulsante Start, A, B, X o Y.
+
+i MUSICA ED EFFETTI SONORI SPECIAL
+
+Sulla videata Configurazione puoi posizionare il
+cursore sulle opzioni "MUSIC" (MUSICA) o
+"SOUND" (SONORO) utilizzando su/git sul
+pulsante direzionale e selezionare i numeri utilizzando
+sinistra/destra sul pulsante direzionale, oppure
+utilizzando il pulsante L o R. Puoi ascoltare la musica
+e l'effetto sonoro che corrisponde a quel numero
+premendo il pulsante A, B, X o Y. Puoi selezionare
+"MODE" (MODALITA) nello stesso modo per
+selezionare se ascoltare la musica o gli effetti sonori in
+stereo o monoaural (monoaurale).
+
+cour ret — (In ordine dall'alto)
+pase Attaccare
+sone
+ae Saltare
+HEAPOM SELEErE Arte Ninja
+HEAPON SELECTS  Selezione arma
+
+SOMERSQUET -E& Sel
+SOMERSAUET -1_ zione arma
+
+Pe Attacco speciale, capriola all'indietro
+
+souNn Attacco speciale, capriola all'indietro
+
+HOBE Musica
+
+cope Effetti sonori speciali
+Interruttore Stereo/mono
+
+= bec Ritornare alla videata di testa
+
+53
+
+ITALIANO
+
+===== Page 58 =====
+
+ONVITVLI
+
+Ostaco
+Alcuni ostacoli rivelano degli
+oggetti quando vengono distrutti.
+
+Punteggio
+Aumenta quando distruggi i
+nemici.
+
+Tempo residuo
+
+Se non riuscirai a completare lo
+stadio prima che raggiunga lo zero
+perderai una vita.
+
+Indicatore vita
+
+Indica l'energia di Hagane.
+Diminuisce ogni volta che subisci
+dei danni. Se esaurirai tutta,
+l'energia perderai una vita. E
+possibile ripristinare l'energia e
+perfino aumentare il livello
+massimo raccogliendo determinati
+
+oggetti.
+Arma
+
+Mostra I'arma attualmente
+selezionata e come si chiama.
+
+Numero Armi residue
+
+Quando il numero arrivera a 0
+non potrai pitt usare un'arma.
+Tuttavia @ possibile ripristinare le
+
+riserve di armi raccogliendo
+determinati oggetti. Se un'arma
+visualizzata con "oo", questa potra
+essere usata infinitamente, senza
+che si esaurisca.
+
+Numero di vite
+Il gioco finira quando perderai
+tutte le vite.
+
+Arte Ninja
+Puoi utilizzare l'arte Ninja tutte le
+volte che verra visualizzata qui.
+
+===== Page 59 =====
+
+Bs0: 170 Kg (80 Kg prima della rinascita)
+
+sso: Maschile
+tezza: 192 cm (182 cm prima della rinascita)
+
+onalita: estremamente combattivo
+
+ITALIANO
+
+===== Page 60 =====
+
+UTILIZZO LIMITATO
+
+PORTATA
+
+Durante f'attaceo la
+lamanviene avyoltada
+un alone bla di energia
+al plasma. Questa le
+fornisce l'energia’per
+tagliare con facilité un
+pezzo d'acciaio spesso
+50 cm.
+
+UTILIZZO LIMITATO
+PORTATA
+
+POTENZA
+Compatte e fabbricate
+utilizzando una lega
+speciale per la castruzione
+deiiyelivolf; queste armi
+sono capaci di colpire con
+precisione betsapli che si
+thovano a parecchie
+Centinaia di metri. 4
+Nonostante di.piccola yy j
+dimensione, hanng la §
+potenza esplosiva di un J
+normale bazooka, pérché
+dipendono direttamenté
+dalla forza del braccio di
+Hagane,
+
+56
+
+ONVITVLI
+
+===== Page 61 =====
+
+0 LIMITATO
+
+PORTATA
+
+a 4 Generalmente nascésta
+
+Fs all'interno del braccio di
+Hagane, quest'arma viene
+tirata all'altissima velocita
+
+“4 ~ dei razzi a reazione. Si
+\) estende in linea retta in
+\e avanti in alto ed 2 abbastanza potente da trapassare il
+
+cotpo diun nemico.
+
+F_Y -—»,
+— err ZB Quest'arma pud essere utilizzata per
+
+attaccarsi al soffitto o ai ramidegli
+alberi.
+
+ITALIANO
+
+Simile auna piccola
+‘ bomba al napalm,
+| \ queést'arma vola a
+4 \ : forfare un arco e
+{ : \ Genera una grossa palla
+di plasma bollente che
+attertando incendia
+| © tutto quello chee sta
+~ attorno,
+
+5/7
+
+===== Page 62 =====
+
+ONVITVLI
+
+e
+ei if
+&
+@ Atfaccare i an on
+Premi if pulsanté, Y (per attaccaré con l'drma oe Attar
+attualmente selezionata. Premiil pulsanté ¥ ~ ttsttl —_
+mentre tieni prémiuto il pulsante ditezionale in nis
+gil per attaceareida accovaceiato. Puoi attaccare iM stacco da
+verso lalto quando é selezionata laGenbu i ae Mecovaccit>
+(Catena) premendo il pulsante Y mentre tieni S eaiiceud
+premuta la pulsantiéra in git. a
+Oo
+patorsyalto
+
+@ Saltare
+
+Per saltare premi il pulsante B. Potrai determinare la direzione
+del salto premendo sinistra o destra sul pulsante direzionale.
+Durante un salto puoi andare a sinistra e a destra.
+
+fi Salto con avvitamento
+
+Per eseguire un salto comavyitamento premiil
+pulsante B mentre sei nella fase ascendentedi tn
+salto. Tuttavia, non potrailattaceare nel corso
+dell'avvitamento.
+
+i Salto sul muro
+
+Se colpiseiun muro méfitfe stai eseguéndo un
+salto con ayyitamento, salterai git: dal muro
+invertendo la direzione. Puoi scalare
+eseguendo ripetuti salti suimuri in un'area
+eircondata da muri.
+
+i Scivolare
+
+Premigh-pulsante Bimentre sei aecdvactiato per
+stiyolare.
+
+Mi Calcio-verso iL.basso
+
+¥
+Pf-mendo in git sil pulsante direzionale méntre stai L
+Saltando, potrai atta¢caré €on.un calcio Verse M)basso/ Se &
+Continlui a tener prémuto in gitkil pulsante direzionale,
+
+pottai continuare/a dare\calci verso iBasso.
+
+58
+
+===== Page 63 =====
+
+Attacéarsi alsoffittoo
+affefrare altri eagettt *
+
+posti in cui c'® un Soffittd.o dei fami di un ‘
+
+potraiaffertaré Voggetto sopraldi te saltando (emsenae ay
+
+@ tieni premuto in su sul pulsante direzionalel B , =~
+
+bile mMuoversi continuando ad essere aggeappato.
+
+emi i'pulsante B per seéndere. E possibile aggrapparsi al\soffitto anche
+do la, Genbu (Catena).
+
+nar” )63F|l CO}. UP Oe UC
+
+mi il pulsante A» per utilizzare le arti Ninja. Tuttii nemici sulla videata
+ano dei danni e Hagane diventera temporaneamente invincibile.
+re tutti i tiri deimemici spariranno. . -
+
+fw
+
+2 *
+
+Preméndo il pulsanté R mentre Hagane é rivolto verso destra, ti
+ruoterai in avanti. Premendo il pulsante Leeseguirai una capriola
+indietro. Preméndo il pulsante Y o B mentre stai ruotando, eseguirai
+un attacco speciale a seconda della situazione. (Vedi la LISTA
+ATTACCHI SPECIALI nella pagina successiva), Sebbéne tu non
+possa attaccate durante una capriola all‘indietro, potrai muoverti a
+sinistra e a destra pit: velocemente.
+
+* Quando Hagané@rivolto verso destra, preméndo il pulsante L
+Tuoterai e il pulsante R eseguirai una capriola all'indietro.
+
+Mi COME ESEGUIRE UN ATTAGCO
+SPECIALE
+
+Durante una rotazione, Hagane ruota 3 yolte. L'attacco speciale che
+verra es¢guito dipende dallarotazione nella quale premerai il pulsante
+¥.o BU corpo di Hagane sara lo stesso durante la prima rotazione,
+sata blu la seeotidajegiallé Ta terza.
+
+ITALIANO
+
+===== Page 64 =====
+
+ONVITVLI
+
+Pulsante Y Pulsante B
+
+Attacco d'artiglio Calcio a ripetizione
+
+Dare un pugno mentre Dare un calcio in avanti
+stai avanzando. durante un salto.
+
+Calcio Kami Uccello di fuoco
+
+Saltare durante una Saltare in avanti con il
+rotazione e dare calci corpo ayvolto nelle
+alto. fiamme.
+
+Bomba del drago Calcio mortale
+
+Provocare un'esplosione Dare un calcio salendo
+impiantando la spada per in alto.
+terra.
+
+===== Page 65 =====
+
+getti che possiedono degli effetti speciali appaidno quando yengono distrutti certi nemici dd
+Tn totale <i8Gno 6 oggetti. Gli oggetti che Si trovano in aria/possono essere,raccolti
+andoli, ma dovrai accovacciarti o strisciare per Faccogliere quelli a terra.
+
+A OGGETTI
+
+Ripristinare vita
+
+Aumento indicatore energia
+
+Aumenta il livello massimo
+dell'indicatore della vita e lo
+ricarica completamente.
+
+Ricarica al massimo
+l'indicatore dell'energia.
+
+Shuriken
+
+Aumenta di uno i personaggi Aumenta il numero di
+residui. Shuriken di 10.
+
+Arti Ninja
+
+Anite ft aismmendaiie Aumenta il numero di volte
+
+bombe Byakko di 10. che puoi utilizzare le arti
+ninja di 1.
+
+===== Page 66 =====
+
+GARANZIALIMITATA
+
+e Ny f 7 De, 2 Sse NAVE
+Super Nintende Entertainment Sy lem GAME PAKS
+
+Il prodotto é garantito per il periodo
+richiesto nel paese. Questo non ha alcun
+valore rispetto al vostro statuto dei diritti.
+
+Virgin Interactive
+Entertainment
+(Europe) Ltd.
+
+338a Ladbroke Grove it -
+London W10 5AH
+ENGLAND
+
+===== Page 67 =====
+
+De Fiend clari. De leden van d? Pima clan zijn
+buttengewoon sterk, zeer agressief en béezitten
+Spirituel@krachten. Ze zip Rinjalsy beogfenaars
+varide Oosterse krijgskunst én z@. maken ndur eigen
+goeddunken gebruik vangwarte kunSte Ze zijn de
+gezworen beschermers vane Heilige Graal, dietimar
+qhaeneaetonnnennban wien zegt de kracht heeft ommdewereld te vernietigen,
+VAPENS DIE DOOR HAGANE op een Rtdeht gaun ze echter hun ondergang tegemoety
+RUIKT WORDEN -------- 68 Heel lang geleden hadden de leden van de Koma clan
+INVAL UITVOEREN -- 70 al Gen bodscardig plan gesmeedom de wereld te
+ALE AANVALLEN ---- 71 vernietigen met gebruik van de vernielende kracht van
+de Heilige Graal. Ze vielen de Fuma clan aan etistalen
+de Heilige Graal. Ze metktemechter niet dat één varide
+ten dode opgesehreven mannen de aanval overleefde...
+Met gebriik van geavanceerde cyber-téehnologie
+bracht een mysterieuze oudeiman, Momochi genaamd,
+hem van de rand yan de dood terug naar het leven. Zijn
+hersens waren echter alles wat er van zijn lichaam
+overblee}.ceZijmndam was Hagane. Hij had reeds de kracht
+van cen ninja en nu had hij ook nogde
+kracht en de snelheid van cen€yborg, een
+bionische mens. Hij zwoer om deze
+kracht te gebruiken om wraak te
+nemen,op de Kokuro factie.
+
+ze
+
+'Fuma en Konia clans
+
+ma en Komagélans zijinde geheime ninja krijgskunst machtig
+nen de xwarte kunst, zij leven in verdervenheid. Athoewel ze
+als Getuone mensen daitzienpzijn ze agressiever em hebben ze
+feer fysteke en spirituele krachten dan gewone mensen.
+
+es
+
+Clans bestaanewit verschillende groepen, de yogenaamde
+} De Pima clan i verdeeld in'facties die de namen
+bn tun de sterrebeelilen tn de Chinese dit?@titiemedle Koe,
+
+Hager, de Draak en négincer facties met dergeljk Namen,
+terwifl ee Koma clan in fatties verdeeld ts dit genoetindsaijn
+ebeelden met namin waarin een kleug@eorkomt,
+Witte Draak, defGouden Draak en dé Rode Draak.
+nige wat de leden Yan de Fume-clan weeen over de
+facties in hun Clas het Simpele fat dake bestuan.
+ten u@n de buitenwbere!d, zijn dezollimietot uifSterven
+nd, héb aantal familieledcn Peanindert gestadic.
+
+63
+
+NEDERLANDS
+
+===== Page 68 =====
+
+De L en Rtoétsen
+Wofden gebriikt voér spediale
+aanvallen én voor de ovérélag
+achterover.
+
+De X toets
+Wordt gébruikt om
+een wapen te selecteren.
+
+De controlepady»——
+Wordt gebruikt onmpmaar
+links of techts te béwegen
+én om*te hurken.
+
+De A toets
+Wordt gebriiikt
+YoorMninja krijgskunst.
+
+De selecteertoets
+Word gebruikt om
+
+wapens te selecteren,
+
+De B toets
+Wordt gebruikt
+De starttoets —' om te springen.
+Wordt gebruikt om het spel te De Y toets
+
+starten én om het op pauze te zetten. Wordt voor de aanval gebruikt.
+
+* De functies van de toetsen kunnen op het configuratiescherm gewijzigd worden.
+
+Het configuratiescherm verschijnt wanneer je op het
+titelscherm CONFIG selecteert, door de controlepad
+naar boven/onder en links/rechts te bewegen, of door op
+de selecttoets en de L of R toetsen te drukken. Op dit
+scherm kun je de functies van de toetsen wijzigen en je
+kunt luisteren naar de muziek en de speciale
+geluidseffecten van het spel. Om weer naar het
+titelscherm terug te keren, beweeg je de controlepad naar
+boven/onder om EXIT te selecteren, druk dan op de A,
+B, X of Y toets. Ook kun je op elk gewenst moment naar
+het titelscherm terugkeren door op de starttoets te
+
+drukken.
+
+@ DE FUNCTIES VAN DE TOETSEN WIJZIGEN —— a
+
+Selecteer de functie waarvan je de toets wilt wijzigen door de
+controlepad naar boven/onder te bewegen. Druk dan op de toets die
+je voor deze functie wilt gebruiken. Deze toets brengt dan de
+geselecteerde functie teweeg.
+
+64
+
+SONW1H303N
+
+===== Page 69 =====
+
+i begint, wannéer je op het titelscherm op de
+ots, A, B, X Of ¥ tocts drukt. Het spel is in 5 spelfasen ~ i ~
+ae moet de eindbdas van elke spelfase.versiaan om P
+
+Re ay 42)
+Ree Wiis spelfasegaiunnen gang AGA
+
+EN SPEL’VERDER SPELEN SPR wenszS
+
+Per veel schade toegebracht is, of de tijdklok bereikt Het titelscherm
+nulpuiht, raakt de levensmeter leeg en verlies je een
+
+figuur. Het spel is afgelopen wainneer jc al je figaren
+
+eraakt bent. Het titelscherni verschijnt weer en
+
+in het scherm zie je het woord "CONTINUE™. Jé
+
+lverder spelen vanaf de spelfase waarin het spel
+
+igdhwerd, door op de starttocts, de A, B, X of-Y toets
+
+kken.
+
+@ MUZIEK EN SPECIALE
+GELUIDSEFFECTEN
+
+Op het configuratiescherm, kun je met gebruik van
+boven/onder van de controlepad de cursor op één lijn
+brengen met de "MUSIC" of "SOUND" opties.
+Selecteer de nummers met gebruik van links/rechts
+van de controlepad of met de L of R toetsen. Door op
+de A, B, X, of Y toetsen te drukken, kun je luisteren
+naar de muziek of de geluidseffecten, die met deze
+nummers corresponderen. Door "MODE" te
+selecteren, kun je op dezelfde manier de muziek of de
+geluidseffecten op mono of op stereo instellen.
+
+comeret (Van boven naar beneden)
+RETACK Aanvallen
+
+sume
+
+Bone Springen
+HEAPON SELEELE Ninja krijgskunst
+
+WEAPON SELEGT2
+ef
+SOMERSA@UET -L japenselectie
+eed Speciale aanval, oversiag achterover
+sounD Speciale aanval, oversiag achterover
+MODE Muziek
+EXIT Speciale geluidseffecten
+Stereo/mono aan/uit schakelen
+Het configuratiescherm Naar het titelscherm terugkeren
+
+65
+
+NEDERLANDS
+
+===== Page 70 =====
+
+SGNW14304N
+
+De tijd die er ———
+nog over is
+
+Levensmeter
+
+Hindernis
+
+Hindernissen
+
+Wanneer sommige hindernissen
+vernietigd worden, komen er
+voorwerpen tevoorschijn.
+
+De score
+Je scoort door vijanden te
+vernietigen.
+
+De tijd die er nog over is
+Je verliest een leven als je je
+tegenstander niet verslaat, voordat
+
+de tijdklok het nulpunt bereikt.
+
+De levensmeter
+
+Deze geeft aan hoeveel
+levensenergie Hagane nog heeft.
+Telkens als er schade aan hem
+toegebracht wordt, neemt zijn
+energie af. Als alle energie
+verbruikt is, verlies je een leven.
+Door bepaalde voorwerpen op te
+pikken kan de energie weer
+aangevuld worden, het is zelfs
+mogelijk het hoogst mogelijke
+niveau aan energie omhoog te
+brengen.
+
+Wapen
+Hier staat de naam van het wapen
+je nu in gebruik hebt.
+
+Ninja krijgskunst
+
+Het aantal levens
+
+Vijandelijke figuur
+
+Het aantal wapens dat er nog
+over is
+
+Als het nummer een nul is, zijn er
+geen wapens meer over. Je kunt
+echter de voorraad wapens weer
+aanvullen door bepaalde
+voorwerpen op te pikken. Als er
+bij een wapen het woor ‘i
+staat, wil dat zeggen dat je er
+onbeperkt gebruikt van kunt
+maken, zonder dat het opraakt.
+
+Het aantal levens
+Het spel is afgelopen als je al je
+levens verliest.
+
+Ninja krijgskunst
+
+Het nummer geeft aan hoeveel
+keer je gebruik kunt maken van
+ninja krijgskunst.
+
+===== Page 71 =====
+
+eeftijd: 20 jaar
+rslacht: mannelijk
+
+engte: 192 cm (182 cm voordat hij herboren werd)
+icht: 170 kg (80 kg voordat hij herboren werd)
+oonlijkheid: Buitengewoon strijdiustig
+
+NEDERLANDS
+
+===== Page 72 =====
+
+GEBRUIK
+
+Tijdéns een aanyal
+wordt de kling van het
+zwaatd omgeven door
+een gloed van'blauwe
+energieplasma. Deze
+gloed geeft het zoveel
+kracht dathet met
+gemak cen stuk staal
+van50 cm dik kan
+doorklieven.
+
+Dit wapen, gemaaktwan
+een speciaal voor het
+Wliegen samengestelde
+legering kan eendoel, dat
+op afstand van meer dan
+honderden mete’ ligt, met
+grotélprecisie taker,
+Alhoewel het een Klein
+wapen is, bezit‘het de
+explosieve krachtyvan een
+gewone bazooka, want het
+is direct afhankelijkivan de
+krachijin Haganes arm,
+
+68
+
+=z
+o
+PY
+5
+=z
+a
+
+===== Page 73 =====
+
+eee
+
+Hagane heeft dit wapen
+meestal aan de binnen kant
+van z'n arm verborgen. De
+ketting wordt met grote
+snelheid met jet-raketten
+naar buiten geschoten. De
+ketting beweegt zich in een rechte lijn vooruit of naar boven
+emheeftgenoeg kracht om het lichaam
+=) ) ¥an cen tegenstander te doordtingen.
+a Met dit wapen kun je ook aan een
+plafond of aan oyerhangendestakken
+blijven hangen en je voorthe wegen.
+
+Dit wapen is
+Vergelijkbaar met ven
+napalm bom diezi¢hdn.
+
+een boog voorwaarts
+
+beweegt. Bij het landed
+
+Ontstaat een grote bal
+uldciendheet plasmag
+Waarddor alles in’de
+ompeying Gn middellijk
+verbrand wordt.
+
+69
+
+NEDERLANDS
+
+===== Page 74 =====
+
+I
+
+sh 7
+B@ Aanvalien
+
+Druk Spade Y toets/om met hetdhans
+geselecteerde wapet dan te yallém\Om Vanaitide
+
+hurkzit aam te yallén, drik jeop de ¥ toets, =
+terwijl je de eontrolepad onder ingedrukt houds, repre mn 3
+Wanneet de Genibu (keting) cescleetcerdiis, re gen BON urkzit
+
+= rde
+
+=m
+
+. yal in.
+en este ichting
+op’
+
+kun je cen aanval in opwaartse ri€hting
+uityeeren door ep de Y toets te drukken, terwijh
+je de contrblepad Béven ingedrukt houdt.
+
+iad, Sd Sad, Ba @Springen
+
+Druk op deB toets om fe springen. Bepaal de richting van'je
+sprong, door links of rechts op de controlepad te drukkeng
+Tijdens de sprong kun je ook nog naar links\of rechts
+bewegen.
+
+@ De Wervelsprons
+
+Druk op het moment dat je bijeen sprong omhoog
+gaat, op de B toets, omen wervelsprong uitite
+yoeren. Je kunt bij een wervelsprong cehtéP niet
+aanvallen.
+
+M@De sprong tegen de
+muur op
+
+Als je bij-het uitVoeren{¥an een wervélsprong A
+
+tegen eenimuur aankomt, kun je vanaf de
+
+muur in tegenovergestélde richting
+
+tefugspringen. In gebieden, die door’eén mailr ha
+
+4 } y,
+Gmeeven zijn, kun je met déze beweging naar 4 |
+boven klimmen. evel
+
+Bi Glijden
+
+Drak bij de hurkzig@p toets Bom ever de
+grond@ fe glijden.
+
+@ Een trap haan benedén
+
+Doae bijecen sprong onder op de contr@l@pad te
+deukKem, kun je adfivallen doérrecht naar Beneden té
+frappen. Als je heflidaldelijke Onder op Ge Gbntkolepad,
+drake, kun je onophetidehyk Raar benedcn trappene
+
+70
+
+SONV1H303N
+
+===== Page 75 =====
+
+efi die met ec plafond bedeke,cijh of waar
+
+sen overheenshangen,) kun je het Yoorwerp dat Ere
+
+oven je bevindt vastpakken door te springen) + i?
+jede controlepad bowen tngedrukt houdt. Metis
+
+ijk om je voort te bewegen, terwijl jetblijf{ hangen. Druk op dé Bi
+
+weer op de grond terecht te komen. Het isook mogelijk ont aan
+
+ad teblijven hangen door de Genbu (ketting) eropaf te schieten.
+
+nja krijgskunst ee
+
+uk opde A toets om gebruik te maken van ninja krijgskunst. Er wordt ‘a om
+lle vijanden op het scherm schadetoegebracht en Hagane wordt
+
+jk onoverwinnelijk. Alle vijandelijke schoten)verdwijnen gewoon = =
+
+tel”
+
+Door 6p de R toetstedrukken terwijl Hagane naar rechts gekeerd
+staat, duikelt hij yoorover. Door de L toets in te drukken maakt hij
+en overslag achterover. Door bij het diikelen op de Y of B toets te
+drukken, wordt er een speciale aanval teweeggebracht, wat voor aanval
+is afhankelijk van de situatie. (Zie de lijst van speciale aanvallen op de
+rechter bladzijde.) Je kunt yanuit een overslag achterover niet
+aanvallen, maar je kunt vlugger naar links ofrechts bewegen.
+
+* Door op de Bi toets te drukken terwijl Hagane naar links gekeerd
+staat, duikelt hij voofover, door de R toets in te drukken, maakt hij
+een overslag achterover.
+
+M EEN SPECIALE AANVAL UITVOEREN
+
+A \ Bij het duikelen, maakt/Hagane 3 buitelingen. Er is cen speciale aanival
+Ww “voor elk van de 3/buitelingen, deze kan(teweeggebracht worden door
+tijdens een bepaalde buitéling op de Y of de B toets te drukken. Bij de
+eerste buiteling ziet Haganéler normaal uit, bij de tweede buiteling is
+hij blatiw en bij de derde buiteling is hij geel’
+
+NEDERLANDS
+
+===== Page 76 =====
+
+SQGNW1Y303N
+
+De Y toets De B toets
+
+Wolvekracht Snelle-wind trap
+
+ye
+=
+—
+
+Brengt bij het naar Brengt al springend een
+voren bewegen een stoot voorwaartse trap teweeg.
+teweeg.
+
+Vuurvogel
+
+Kami trap
+
+Brengt al duikelend een Brengt een voorwaai
+sprong teweeg en brengt sprong teweeg, terwijl
+een trap naar boven het lichaam in vlammen
+teweeg. gehuld wordt.
+
+Draakbom
+
+Brengt een explosie Brengt bij het recht
+teweeg, door het zwaard omhoog springen een
+in de grond te steken. trap teweeg.
+
+===== Page 77 =====
+
+ér bepaalde vijanden.én hindetnissen yernietigd worden, komen er, voorwerpef met
+speciale effééten tevoorschijn»Er zijn totaal 6voorwerpen»WVoorwerpen die in de lucht
+
+, kunnen gewoon opgepikt worden door ze dan te raken. Maar voorwerpen die op de grond
+, Runnen alleen opgeraapt worden dootite-hurkény.of over dé grondste glijden.
+
+LUST VAN VOORWERPEN
+
+Levenskracht = =, «(Meer levenskracht
+
+Vult een levensmeter met de Brengt het hoogste niveau van de
+s ioaowallvetd levensmeter omhoog en vult de
+
+eeieie pp ipecctiamaiea levensmeter met de maximum
+
+energie. hoeveelheid energie.
+
+Shuriken
+
+Het aantal Hagane figuren | Het aantal Shuriken gaat met
+dat er nog over is, wordt met 10 omhoog. F
+één vermeerderd.
+
+Ninja krijgskunst
+
+Het aantal keren dat je ninja
+krijgskunst kunt gebruiken
+gaan met één omhoog.
+
+Het aantal Byakko bommen
+gaat met 10 omhoog.
+
+\
+<a \"
+
+===== Page 78 =====
+
+SONW1H304N
+
+Super Niven 4
+uper Nintend wu ysienm b
+
+Dit produkt wordt gegarandeerd voor de
+periode die in uw land wettig vereist is.
+Uw wettelijke rechten worden hierdoor
+niet aangetast.
+
+Virgin Interactive
+Entertainment Sarl
+
+233 rue de la Croix Nivert A
+75015 Paris FRANCE if
+
+PERKTE GAKANTIE
+
+===== Page 79 =====
+
+
+
+===== Page 80 =====
+
+aWelllO)
+
+coe elobs
+
+Imported to Eufope by Virgin Interactive Entertainment
+
+in Interactive Entertainment (Europe) Ltd.
+a Ladbroke Grove, London
+AH, ENGLAND
+
+Virgin Interactive Entertainment Sarl
+rue de la Croix Nivert
+5 Paris FRANCE
+
+NCE
+
+Virgin Interactive Entertainment (Deutschland) GmbH
+Borselstrasse 16/B
+
+22765 Hamburg GERMANY
+
+Germany, Distributed by Avalon Vertriebs GmbH
+Magnolienweg 12, D-63741 Aschaffenburg
+GERMANY
+
+PRINTED IN JARAN
+
+IMPRIME AU JAPON
