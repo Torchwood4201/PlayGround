@@ -21,12 +21,12 @@
   var playing = false;
   var powering = false;
   var powerTimer = null;
+  var powerNeedsReboot = false;
   var currentUrl = BUNDLED.url;
   var currentName = BUNDLED.name;
   var muted = false;
   var crtOn = false;
   var autoOn = false;
-  var autoTimer = null;
 
   function $(s, r){ return (r || document).querySelector(s); }
   function $all(s, r){ return Array.prototype.slice.call((r || document).querySelectorAll(s)); }
@@ -90,6 +90,7 @@
     if(powerTimer){ clearInterval(powerTimer); powerTimer = null; }
     replayTimers.forEach(clearTimeout);
     replayTimers = []; replayingId = null;
+    releaseReplayHeld();
     releaseAuto();
     try{
       if(window.EJS_emulator && typeof window.EJS_emulator.callEvent === 'function'){
@@ -120,6 +121,7 @@
 
   function boot(url, name){
     stopExisting();
+    powerNeedsReboot = false;
     currentUrl = url; currentName = name || currentName;
     window.EJS_player = '#ejs-stage';
     window.EJS_gameName = currentName;
@@ -163,8 +165,15 @@
 
   function powerOn(){
     if(powering) return; /* single flight: rapid POWER mashes, one attempt */
-    powering = true;
     showStandby(false);
+    /* EJS exit leaves a stopped core with no Start button: reload it so
+       POWER actually resumes the game (and the AI loops) after a shutdown. */
+    if(powerNeedsReboot){
+      powerNeedsReboot = false;
+      boot(currentUrl, currentName);
+      return;
+    }
+    powering = true;
     var tries = 0;
     powerTimer = setInterval(function(){
       tries++;
@@ -192,6 +201,7 @@
       if(b){ try{ b.click(); done = true; }catch(e){} }
     }
     if(!done) boot(currentUrl, currentName);
+    powerNeedsReboot = done;
     playing = false; showStandby(true); setLeds(false);
     setStatus('POWER IS OFF', 'PRESS POWER TO START');
   }
@@ -312,22 +322,25 @@
     if(idx !== undefined) driveIndex(idx, false, 'key');
   });
 
+  function releasePilot(pl){
+    /* release only one pilot's buttons: P1 seeking must not drop P2's hold */
+    for(var i = 0; i <= 11; i++) driveIndex(i, false, 'sys', pl);
+  }
   function releaseAuto(){
-    [AgentMap.dirR, AgentMap.dirL, AgentMap.run]
-      .concat(AgentMap.actions, AgentMap.shoulders, [4, 5])
-      .forEach(function(i){
-        for(var pl = 0; pl <= 3; pl++) driveIndex(i, false, 'sys', pl);
-      });
+    /* panic release: every button on every player, used on stop/rebuild */
+    for(var pl = 0; pl <= 3; pl++) releasePilot(pl);
   }
 
-  /* ---------- screen-reactive autopilot (AI Lab): cloned copilots ----------
-     One cloned brain per driven player — same screen, own rhythm. The first
-     enabled player works the menus; every pilot senses, modes and plays for
-     itself (phase-offset hops, own button order), so P2 never just parrots
-     P1's exact presses.
+  /* ---------- screen-reactive autopilot (AI Lab): independent copilots ---
+     One engine per driven player — same screen, own timers, motion history,
+     steering vote, menu guard and release path. Every pilot works the menus,
+     senses, modes and plays for itself (phase-offset beats, own button
+     order), so P2 never parrots P1 and one pilot's transition never drops
+     the other's holds.
      SEEK (still frames — any menu, pause, title, black transition screen):
-       tap rotation from settings, never holds directions so it can't fight
-       cursors on any system.
+       character-select grids are walked with short dpad steps before the
+       confirm, then START on every driven player; never holds directions so
+       it can't fight cursors on any system.
      PLAY (the picture moves — scrolling, pans, action): holds the forward
        button hard, holds run/dash only while the pixels demand it, and each
        pilot works the action buttons + shoulders on its own beat.
@@ -335,7 +348,7 @@
      to SEEK, taps its own way out of whatever menu maze comes next. */
   /* ---------- agent options + button map (persisted, tunable in AI Lab) --- */
   var AgentDefaults = {
-    senseMs: 2000, tapMs: 4000, tapPulseMs: 600, seekCycle: '2,2,3,8,5,4',
+    senseMs: 2000, tapMs: 4000, seekCycle: '2,2,3,8,5,4',
     driveMs: 300, hopEvery: 3, hopPulseMs: 260,
     hiThresh: 8, hiStreak: 3, loThresh: 4, loStreak: 3, blackMean: 10,
     players: [0, 1], hud: false, autoTune: true, profile: 'generic'
@@ -348,18 +361,27 @@
     /* players defaulted to P1-only before Both existed — migrate old saves */
     if(!rawOwn || !('players' in rawOwn)) AgentOpts.players = [0, 1];
     if(!rawOwn || !('autoTune' in rawOwn)) AgentOpts.autoTune = true;
-    if(!rawOwn || !('profile' in rawOwn) || (rawOwn.profile !== 'umk3' && rawOwn.profile !== 'generic')) AgentOpts.profile = 'generic';
+    if(!rawOwn || !('profile' in rawOwn) || ['generic', 'umk3', 'mix'].indexOf(rawOwn.profile) === -1) AgentOpts.profile = 'generic';
   }catch(e){ AgentOpts = Object.assign({}, AgentDefaults, { players: [0, 1], autoTune: true, profile: 'generic' }); }
   function saveAgentOpts(){
     try{ localStorage.setItem('snesboy-agent', JSON.stringify(AgentOpts)); }catch(e){}
   }
   /* Emulator button indices the brain uses (RetroArch SNES numbering).
      Human pads keep using PADINDEX; only the agent reads this. */
-  var AgentMap = { dirR: 7, dirL: 6, run: 1, actions: [8, 0], shoulders: [10, 11], select: 2, start: 3 };
-  /* SEEK tap rotation, parsed from AgentOpts.seekCycle ('2,2,3,8,5,4' =
-     SELECT, SELECT, START, A, DOWN, UP). Confirms plus dpad taps: many
-     menus need a cursor move before the confirm. Taps only, never holds. */
+  var AgentMap = { dirR: 7, dirL: 6, run: 1, actions: [8, 0, 9], shoulders: [10, 11], select: 2, start: 3 };
+  /* SEEK confirm fallback, parsed from AgentOpts.seekCycle ('2,2,3,8,5,4' =
+     SELECT, SELECT, START, A, DOWN, UP). The grid walker presses A and
+     START every cycle; this adds one extra menu button when it is neither,
+     so odd menus still get their key. Taps only, never holds. */
   var autoCycle = [2, 2, 3, 8];
+  /* Character-select grids are not single-button menus: the cursor starts
+     top-left, so confirm-only taps always take the first cell. Walk the
+     cursor with 1-3 dpad taps first (snake-like patterns), then confirm,
+     then START. Both driven pilots run this, so P2 actually joins/start. */
+  var MENU_GRID_MOVES = [
+    [7], [7, 7], [5], [5, 5], [7, 5], [5, 7],
+    [7, 7, 5], [5, 5, 7], [6], [4], [7, 5, 5], [5, 7, 7]
+  ];
   function parseSeekCycle(){
     try{
       var parts = String(AgentOpts.seekCycle).split(',');
@@ -371,16 +393,28 @@
       if(out.length) autoCycle = out;
     }catch(e){}
   }
-  /* One cloned copilot per driven player — same screen, own brain. The
-     first enabled player works the menus; every pilot senses, modes and
-     plays for itself with its own rhythm (phase-offset hops, own button
-     order), so P2 never just parrots P1. */
-  var autoMenuTimer = null, autoSenseTimer = null;
+  /* One independent copilot per driven player — same screen, own brain.
+     Every pilot works the menus (grid moves + confirm + START), senses and
+     plays with its own rhythm, so P2 never just parrots P1. */
   var autoPilots = [];
-  function makePilot(player, idx, menus){
-    return { pl: player, menus: menus, mode: 'seek', prev: null, hi: 0, lo: 0,
-      menuN: 0, hopN: idx * 2, tick: 0, shN: 0, fphase: -1,
+  /* Every pilot owns its timers, motion history, steering vote and menu
+     guard. There is no shared autoDir / autoDiff / screenWatch any more:
+     P1 can seek, release and tap its menus while P2 keeps playing. */
+  function makePilot(player, idx){
+    return { pl: player, active: true, menus: true, mode: 'seek', prev: null, hi: 0, lo: 0,
+      menuN: 0, hopN: idx * 2, tick: 0, shN: 0, fphase: -1, mixFight: false,
+      slot: idx, startUsed: false, startReadyAt: idx > 0 ? 1 : 2, lastStart: 0,
+      dir: AgentMap.dirR, dirY: null, dirYMiss: 0, diff: 0,
+      watch: makeWatch(), menuGuardFrame: null,
+      timers: { menu: null, sense: null, drive: null },
       order: (idx % 2 === 0) ? AgentMap.actions.slice() : AgentMap.actions.slice().reverse() };
+  }
+  /* Re-arm exactly one START for a fresh menu screen/episode. P2 may start
+     immediately (join); P1 waits one grid pass so it never starts on the
+     default top-left cell. */
+  function armStart(pt){
+    pt.startUsed = false;
+    pt.startReadyAt = pt.menuN + (pt.slot > 0 ? 1 : 2);
   }
   /* UMK3 fighter profile (built from the manual): RUN=R(11)+direction to
      close, BLOCK=L(10), crouch kick=DOWN+X/A, uppercut=DOWN+Y, spin moves=
@@ -423,7 +457,9 @@
   }
   function fightPulse(btn, pl, ms){
     driveIndex(btn, true, 'auto', pl);
-    setTimeout(function(){ if(autoOn) driveIndex(btn, false, 'auto', pl); }, ms || 140);
+    /* always release, even if the pilot was stopped mid-pulse: a skipped
+       release would leave strike buttons (Y/X) stuck down */
+    setTimeout(function(){ driveIndex(btn, false, 'auto', pl); }, ms || 140);
   }
   function fightTapSeq(steps, pl){
     var t = 0;
@@ -466,7 +502,6 @@
       fightTapSeq(resolveMove(mv.seq, fwd, back), pt.pl); /* real manual strings, e.g. spear/freeze */
     }
   }
-  var autoDiff = 0;
   function pilotModes(){
     return autoPilots.map(function(pt){ return 'P' + (pt.pl + 1) + ':' + pt.mode.toUpperCase(); }).join(' ');
   }
@@ -477,16 +512,67 @@
       b.classList.toggle('autopilot-on', autoOn);
     }
   }
-  function autoTap(idx, pl){
-    driveIndex(idx, true, 'auto', pl);
-    setTimeout(function(){ driveIndex(idx, false, 'auto', pl); }, AgentOpts.tapPulseMs);
+  /* Short, spaced menu pulse: long enough for the menu to see it, short
+     enough that consecutive dpad taps stay single steps (no diagonals). */
+  function menuTap(pt, btn, delay, base){
+    setTimeout(function(){
+      if(!autoOn || !playing || !pt.active || pt.mode !== 'seek') return;
+      /* If the screen has started scrolling since this burst began, the
+         menu is gone — drop the rest of the burst instead of firing A/START
+         into live gameplay (START would pause it). */
+      if(base){
+        var cur = frameGray();
+        if(cur && (Math.abs(colShift(base, cur)) >= 2 ||
+                   Math.abs(rowShift(base, cur)) >= 2)) return;
+      }
+      noteWatchTap(pt, btn);
+      driveIndex(btn, true, 'auto', pt.pl);
+      setTimeout(function(){ driveIndex(btn, false, 'auto', pt.pl); }, 140);
+    }, delay || 0);
+  }
+  function gridMenuStep(pt, idx){
+    var base = frameGray(); /* burst baseline: abort when the world moves */
+    var now = Date.now();
+    /* START is the pause button in live gameplay, so each pilot gets ONE
+       START per menu screen: P2 on its first tick (join), P1 on the second
+       tick (after its first grid/A pass, so it is not just taking top-left).
+       A new screen re-arms it; nothing here ever repeats START every tick. */
+    var canStart = !pt.startUsed && pt.menuN >= pt.startReadyAt;
+    if(canStart){
+      pt.startUsed = true;
+      pt.lastStart = now;
+      menuTap(pt, AgentMap.start, idx * 20, base);
+      return;
+    }
+    var pattern = MENU_GRID_MOVES[(pt.menuN + idx * 5) % MENU_GRID_MOVES.length];
+    var delay = idx * 160; /* stagger pilots so their taps do not collide */
+    pattern.forEach(function(btn){
+      menuTap(pt, btn, delay, base);
+      delay += 220;
+    });
+    /* A is the character-select confirm. The tunable seek tap is only an
+       extra fallback (Select/dpad) when it is neither A nor START. */
+    var extra = pickSeekTap(pt);
+    if(extra !== AgentMap.actions[0] && extra !== AgentMap.start){
+      menuTap(pt, extra, delay, base);
+      delay += 220;
+    }
+    menuTap(pt, AgentMap.actions[0], delay, base);
   }
   function updateAgentHud(){
-    var txt = (autoOn ? pilotModes() : 'OFF') + ' · d=' + autoDiff.toFixed(1) +
-      (autoOn && /play/.test(pilotModes()) ? (autoDir === AgentMap.dirL ? ' ◀' : ' ▶') + (autoDirY === 4 ? '▲' : (autoDirY === 5 ? '▼' : '')) : '') +
-      (autoOn ? ' · ' + autoPlayers().map(function(p){ return 'P' + (p + 1); }).join('+') : '') +
+    var maxD = 0, dirs = '';
+    autoPilots.forEach(function(pt){
+      if(pt.diff > maxD) maxD = pt.diff;
+      if(autoOn && pt.mode === 'play'){
+        dirs += ' P' + (pt.pl + 1) + (pt.dir === AgentMap.dirL ? '◀' : '▶') +
+          (pt.dirY === 4 ? '▲' : (pt.dirY === 5 ? '▼' : ''));
+      }
+    });
+    var txt = (autoOn ? pilotModes() : 'OFF') + ' · d=' + maxD.toFixed(1) + dirs +
+      (autoOn ? ' · ' + autoPilots.map(function(pt){ return 'P' + (pt.pl + 1); }).join('+') : '') +
       (autoOn && AgentOpts.autoTune ? ' · AT' : '') +
-      (autoOn && AgentOpts.profile === 'umk3' ? ' · UMK3' : '');
+      (autoOn && AgentOpts.profile === 'umk3' ? ' · UMK3' : '') +
+      (autoOn && AgentOpts.profile === 'mix' ? ' · MIX' : '');
     $all('.agent-hud').forEach(function(e){
       e.textContent = txt;
       e.classList.toggle('hidden', !AgentOpts.hud);
@@ -504,121 +590,321 @@
       if(pt.hi >= AgentOpts.hiStreak && pt.mode !== 'play'){ pt.mode = 'play'; updateAutoBtn(); }
     }else if(d < AgentOpts.loThresh){
       pt.lo++; pt.hi = 0;
-      if(pt.lo >= AgentOpts.loStreak && pt.mode !== 'seek'){ pt.mode = 'seek'; releaseAuto(); updateAutoBtn(); }
+      if(pt.lo >= AgentOpts.loStreak && pt.mode !== 'seek'){
+        pt.mode = 'seek';
+        armStart(pt); /* new episode: allow one START again */
+        releasePilot(pt.pl); updateAutoBtn();
+      }
     }else{ pt.hi = 0; pt.lo = 0; }
     return d;
   }
-  function startAgentEngine(){
-    parseSeekCycle();
-    if(autoMenuTimer) clearInterval(autoMenuTimer);
-    if(autoSenseTimer) clearInterval(autoSenseTimer);
-    if(autoTimer) clearInterval(autoTimer);
-    autoPilots = autoPlayers().map(function(pl, i){ return makePilot(pl, i, i === 0); });
-    autoMenuTimer = setInterval(function(){
-      if(!autoOn || !playing) return;
-      autoPilots.forEach(function(pt){
-        if(pt.mode !== 'seek' || !pt.menus) return;
-        pt.menuN++;
-        autoTap(autoCycle[pt.menuN % autoCycle.length], pt.pl);
-      });
-    }, AgentOpts.tapMs);
-    autoSenseTimer = setInterval(function(){
-      if(!autoOn || !playing){ autoPilots.forEach(function(pt){ pt.prev = null; }); return; }
-      var g = frameGray();
-      if(!g) return;
-      if(grayMean(g) < AgentOpts.blackMean){
-        /* black transition / fade-out: quiet — heal every pilot to SEEK */
-        autoDiff = 0;
-        autoPilots.forEach(function(pt){
-          pt.prev = g; pt.hi = 0; pt.lo = 0;
-          if(pt.mode !== 'seek') pt.mode = 'seek';
-        });
-        releaseAuto(); updateAutoBtn(); updateAgentHud();
+  function agentMenuTick(pt){
+    if(!autoOn || !playing || !pt.active) return;
+    var nowFrame = frameGray();
+    var newScreen = false;
+    if(pt.menuGuardFrame && nowFrame){
+      /* Between this pilot's menu ticks the world started scrolling →
+         gameplay is already running. Do not fire another A/START burst
+         into it. The other pilot has its own guard and keeps its rhythm. */
+      if(Math.abs(colShift(pt.menuGuardFrame, nowFrame)) >= 2 ||
+         Math.abs(rowShift(pt.menuGuardFrame, nowFrame)) >= 2){
+        pt.menuGuardFrame = nowFrame;
         return;
       }
-      var sh = null, shy = null, dMax = 0;
-      autoPilots.forEach(function(pt){
-        if(!pt.prev){ pt.prev = g; return; }
-        if(sh === null){
-          sh = colShift(pt.prev, g); /* one shared world, one steering vote per axis */
-          shy = rowShift(pt.prev, g);
-        }
-        dMax = Math.max(dMax, sensePilot(pt, g));
-      });
-      if(sh !== null){
-        if(sh >= 2) autoDir = AgentMap.dirR; else if(sh <= -2) autoDir = AgentMap.dirL;
-        if(shy >= 2) autoDirY = 5; else if(shy <= -2) autoDirY = 4;
+      /* A large static change means this is a different menu screen, so
+         re-arm exactly one START for this pilot. Cursor moves are tiny and
+         stay under this threshold. */
+      var dsum = 0, i;
+      for(i = 0; i < nowFrame.length; i++){
+        var dd = nowFrame[i] - pt.menuGuardFrame[i];
+        dsum += dd < 0 ? -dd : dd;
       }
-      autoDiff = dMax;
-      antonGovern(dMax);
-      updateAgentHud();
-    }, AgentOpts.senseMs);
-    autoTimer = setInterval(function(){
-      if(!autoOn) return;
-      if(!playing) return;
-      autoPilots.forEach(function(pt, idx){
-        if(pt.mode !== 'play') return; /* menus get taps only — held buttons would fight navigation */
-        if(AgentOpts.profile === 'umk3'){ fightTick(pt, idx); return; }
-        pt.tick++;
-        /* release the opposite direction first: if the scroll vote flipped,
-           the old hold would otherwise stay latched (L+R stuck) */
-        driveIndex(autoDir === AgentMap.dirL ? AgentMap.dirR : AgentMap.dirL, false, 'auto', pt.pl);
-        driveIndex(autoDir, true, 'auto', pt.pl);
-        driveIndex(AgentMap.run, true, 'auto', pt.pl); /* follow the scroll + run/dash */
-        if(autoDirY !== null){
-          /* vertical scroll voted: hold the voted direction (Up/Down),
-             releasing the opposite first — same anti-stuck rule as horizontal */
-          driveIndex(autoDirY === 4 ? 5 : 4, false, 'auto', pt.pl);
-          driveIndex(autoDirY, true, 'auto', pt.pl);
-        }else{
-          driveIndex(4, false, 'auto', pt.pl);
-          driveIndex(5, false, 'auto', pt.pl);
-          if(pt.tick % 8 === 7){
-            /* no vertical scroll: exploratory nudge, alternating DOWN/UP
-               (ladders, doors, ducking, swimming) */
-            var vn = ((pt.tick >> 3) % 2 === 0) ? 5 : 4;
-            driveIndex(vn, true, 'auto', pt.pl);
-            (function(v, pl){
-              setTimeout(function(){ if(autoOn) driveIndex(v, false, 'auto', pl); }, AgentOpts.hopPulseMs);
-            })(vn, pt.pl);
-          }
-        }
-        if((pt.tick + idx) % AgentOpts.hopEvery === 0){
-          /* own rhythm per pilot: phase-offset hops, own button order */
-          pt.hopN++;
-          var btn = pt.order[pt.hopN % pt.order.length]; /* jump in one game is attack in another */
-          driveIndex(btn, true, 'auto', pt.pl);
-          (function(b, pl){
-            setTimeout(function(){ if(autoOn) driveIndex(b, false, 'auto', pl); }, AgentOpts.hopPulseMs);
-          })(btn, pt.pl);
-          if(pt.hopN % 4 === 3){
-            /* every 4th beat works a shoulder too — dash/strafe/special, per game */
-            pt.shN++;
-            var sh = AgentMap.shoulders[pt.shN % AgentMap.shoulders.length];
-            driveIndex(sh, true, 'auto', pt.pl);
-            (function(s, pl){
-              setTimeout(function(){ if(autoOn) driveIndex(s, false, 'auto', pl); }, AgentOpts.hopPulseMs);
-            })(sh, pt.pl);
-          }
-        }
-      });
-    }, AgentOpts.driveMs);
+      newScreen = (dsum / nowFrame.length) > 10;
+    }
+    pt.menuGuardFrame = nowFrame;
+    if(newScreen) armStart(pt);
+    if(pt.mode !== 'seek' || !pt.menus) return;
+    pt.menuN++;
+    gridMenuStep(pt, pt.slot);
   }
-  /* Son of Anton live governor: adjusts the copilot on the fly, one small
-     step at a time, always inside the tune-grid clamps. Three rules:
-     flapping SEEK<->PLAY widens the deadband; menus-forever lowers the
-     motion bar; pushing-with-no-progress hops more often. Every adjustment
-     is announced in #anton-live and the tune inputs update live. Report
-     only — never touches files, never leaves safe ranges. */
+  function agentSenseTick(pt){
+    if(!autoOn || !playing || !pt.active){ pt.prev = null; return; }
+    var g = frameGray();
+    if(!g) return;
+    if(grayMean(g) < AgentOpts.blackMean){
+      /* black transition / fade-out: only this pilot heals and releases */
+      pt.prev = g; pt.hi = 0; pt.lo = 0; pt.diff = 0;
+      if(pt.mode !== 'seek'){ pt.mode = 'seek'; armStart(pt); }
+      releasePilot(pt.pl);
+      updateAutoBtn(); updateAgentHud(); updateScreenWatch();
+      return;
+    }
+    if(!pt.prev){ pt.prev = g; return; }
+    var sh = colShift(pt.prev, g);
+    var shy = rowShift(pt.prev, g);
+    var d = sensePilot(pt, g);
+    if(sh >= 2) pt.dir = AgentMap.dirR;
+    else if(sh <= -2) pt.dir = AgentMap.dirL;
+    if(shy >= 2){ pt.dirY = 5; pt.dirYMiss = 0; }
+    else if(shy <= -2){ pt.dirY = 4; pt.dirYMiss = 0; }
+    else if(pt.dirY !== null && ++pt.dirYMiss >= 2){ pt.dirY = null; pt.dirYMiss = 0; }
+    pt.diff = d;
+    watchMetrics(pt, d, sh, shy);
+    /* one shared tuner reads pilot 0; it never touches another pilot's
+       steering or release path */
+    if(pt.slot === 0) antonGovern(pt, d);
+    updateAgentHud();
+    updateScreenWatch();
+  }
+  function platformerTick(pt, idx){
+    pt.tick++;
+    /* release the opposite direction first: if the scroll vote flipped,
+       the old hold would otherwise stay latched (L+R stuck) */
+    driveIndex(pt.dir === AgentMap.dirL ? AgentMap.dirR : AgentMap.dirL, false, 'auto', pt.pl);
+    driveIndex(pt.dir, true, 'auto', pt.pl);
+    /* run/dash only while this pilot's pixels actually demand it */
+    var wantsRun = !pt.watch.haveData || pt.diff > AgentOpts.loThresh ||
+      Math.abs(pt.watch.lastSh) >= 2 || Math.abs(pt.watch.lastShy) >= 2;
+    pt.watch.runWanted = wantsRun;
+    driveIndex(AgentMap.run, wantsRun, 'auto', pt.pl);
+    if(pt.dirY !== null){
+      /* vertical scroll voted: hold the voted direction (Up/Down),
+         releasing the opposite first — same anti-stuck rule as horizontal */
+      driveIndex(pt.dirY === 4 ? 5 : 4, false, 'auto', pt.pl);
+      driveIndex(pt.dirY, true, 'auto', pt.pl);
+    }else{
+      driveIndex(4, false, 'auto', pt.pl);
+      driveIndex(5, false, 'auto', pt.pl);
+      if(pt.tick % 8 === 7){
+        /* no vertical scroll: exploratory nudge, alternating DOWN/UP
+           (ladders, doors, ducking, swimming) */
+        var vn = ((pt.tick >> 3) % 2 === 0) ? 5 : 4;
+        driveIndex(vn, true, 'auto', pt.pl);
+        (function(v, pl){
+          setTimeout(function(){ if(autoOn) driveIndex(v, false, 'auto', pl); }, AgentOpts.hopPulseMs);
+        })(vn, pt.pl);
+      }
+    }
+    if((pt.tick + idx) % AgentOpts.hopEvery === 0){
+      /* own rhythm per pilot: phase-offset hops, own button order */
+      pt.hopN++;
+      var btn = pt.order[pt.hopN % pt.order.length]; /* jump in one game is attack in another */
+      driveIndex(btn, true, 'auto', pt.pl);
+      (function(b, pl){
+        setTimeout(function(){ if(autoOn) driveIndex(b, false, 'auto', pl); }, AgentOpts.hopPulseMs);
+      })(btn, pt.pl);
+      if(pt.hopN % 2 === 0){
+        /* every other beat works a shoulder too — dash/strafe/special, per
+           game. X is already in the action rotation, Y is the run hold. */
+        pt.shN++;
+        var sh = AgentMap.shoulders[pt.shN % AgentMap.shoulders.length];
+        driveIndex(sh, true, 'auto', pt.pl);
+        (function(s2, pl){
+          setTimeout(function(){ if(autoOn) driveIndex(s2, false, 'auto', pl); }, AgentOpts.hopPulseMs);
+        })(sh, pt.pl);
+      }
+    }
+  }
+  /* Mix: alternate ~2.4s platformer blocks with ~2.4s UMK3 fighter blocks.
+     Each boundary releases the other profile's holds so run/dash, directions,
+     block and strike timers never stay latched across modes. Pilots are
+     phase-offset, so P2 is not always in the same block as P1. */
+  function mixTick(pt, idx){
+    var wantFight = Math.floor((pt.tick + idx * 3) / 8) % 2 === 1;
+    if(wantFight !== pt.mixFight){
+      if(wantFight){
+        driveIndex(AgentMap.run, false, 'auto', pt.pl);
+        [4, 5, 6, 7].forEach(function(i){ driveIndex(i, false, 'auto', pt.pl); });
+      }else{
+        fightRelease(pt.pl);
+        driveIndex(AgentMap.run, false, 'auto', pt.pl);
+      }
+      pt.mixFight = wantFight;
+    }
+    if(wantFight) fightTick(pt, idx);
+    else platformerTick(pt, idx);
+  }
+  function agentDriveTick(pt){
+    if(!autoOn || !playing || !pt.active) return;
+    if(pt.mode !== 'play') return; /* menus get taps only — held buttons would fight navigation */
+    if(AgentOpts.profile === 'umk3'){ fightTick(pt, pt.slot); return; }
+    if(AgentOpts.profile === 'mix'){ mixTick(pt, pt.slot); return; }
+    platformerTick(pt, pt.slot);
+  }
+  /* Each pilot gets its own three intervals. Stopping or retiming one has no
+     effect on the other; callbacks only ever drive pt.pl. */
+  function clearPilotTimer(pt, kind){
+    var id = pt.timers[kind];
+    if(id){ clearTimeout(id); clearInterval(id); pt.timers[kind] = null; }
+  }
+  function stopPilotTimers(pt, dead){
+    ['menu', 'sense', 'drive'].forEach(function(k){ clearPilotTimer(pt, k); });
+    if(dead) pt.active = false;
+  }
+  function armPilotTimer(pt, kind, ms, delay){
+    clearPilotTimer(pt, kind);
+    var fn = function(){
+      if(!pt.active || !autoOn) return;
+      if(kind === 'menu') agentMenuTick(pt);
+      else if(kind === 'sense') agentSenseTick(pt);
+      else agentDriveTick(pt);
+    };
+    pt.timers[kind] = setTimeout(function(){
+      pt.timers[kind] = null;
+      if(!pt.active || !autoOn) return;
+      fn();
+      if(pt.active && autoOn) pt.timers[kind] = setInterval(fn, ms);
+    }, delay || 0);
+  }
+  function pilotPhase(pt, kind){
+    /* stagger the pilots so their sense/menu/drive beats are not the same
+       event-loop turn. P1 and P2 then cross SEEK/PLAY and menus on their
+       own clocks instead of moving as one. */
+    var off = pt.slot * 240;
+    if(kind === 'sense') off += 90;
+    else if(kind === 'drive') off += 160;
+    return off;
+  }
+  function startPilotTimers(pt){
+    armPilotTimer(pt, 'menu', AgentOpts.tapMs, pilotPhase(pt, 'menu'));
+    armPilotTimer(pt, 'sense', AgentOpts.senseMs, pilotPhase(pt, 'sense'));
+    armPilotTimer(pt, 'drive', AgentOpts.driveMs, pilotPhase(pt, 'drive'));
+  }
+  function anyAgentTimer(kind){
+    for(var i = 0; i < autoPilots.length; i++){
+      if(autoPilots[i].timers && autoPilots[i].timers[kind]) return true;
+    }
+    return false;
+  }
+  function stopAgentTimers(){
+    autoPilots.forEach(function(pt){ stopPilotTimers(pt, true); });
+  }
+  function startAgentTimers(){
+    autoPilots.forEach(startPilotTimers);
+  }
+  /* Retime exactly one running loop on every pilot; no release, no pilot
+     reset, no pause. The next tick simply uses the new interval. */
+  function retimeAgentLoop(which){
+    if(!autoOn) return;
+    autoPilots.forEach(function(pt){
+      if(which === 'menu') armPilotTimer(pt, 'menu', AgentOpts.tapMs, pilotPhase(pt, 'menu'));
+      else if(which === 'sense') armPilotTimer(pt, 'sense', AgentOpts.senseMs, pilotPhase(pt, 'sense'));
+      else if(which === 'drive') armPilotTimer(pt, 'drive', AgentOpts.driveMs, pilotPhase(pt, 'drive'));
+    });
+    updateAiStatus();
+  }
+  function startAgentEngine(){
+    parseSeekCycle();
+    stopAgentTimers();
+    releaseAuto(); /* old roster's holds must not survive a rebuild */
+    autoPilots = autoPlayers().map(function(pl, i){ return makePilot(pl, i); });
+    startAgentTimers();
+    /* rebuilds happen from roster changes too: keep the button/HUD in sync
+       with the new pilot roster immediately, not on the next sense tick */
+    updateAutoBtn();
+    updateAgentHud();
+    updateScreenWatch();
+  }
+  /* Son of Anton screen watcher + live governor.
+     Every sense tick we measure what the picture is doing — motion, how
+     long it has been still, which way it scrolls, and whether the last
+     seek tap actually changed it — then adjust the controls that are
+     already running: steering, RUN, hop cadence, seek tap choice, and the
+     SEEK/PLAY thresholds. All changes stay inside the tune-grid clamps and
+     are reported in #anton-live / #anton-watch. */
   var antonHist = [], antonLastModes = '', antonCool = 0;
   var antonSeekStuck = 0, antonPlayStall = 0;
+  function makeWatch(){
+    return {
+      motionEma: 0, motionPeak: 0, lastMotionAt: Date.now(), stillMs: 0,
+      lastSh: 0, lastShy: 0, progressEma: 0, haveData: false,
+      lastTap: null, tapScore: {}, lastTapInfo: '', runWanted: true
+    };
+  }
   function antonSay(msg){
     var e = document.getElementById('anton-live');
     if(e) e.textContent = 'SON OF ANTON · ' + msg;
   }
-  function antonGovern(dMax){
-    if(!AgentOpts.autoTune || !autoOn || !playing) return;
-    var modes = pilotModes();
+  function watchReset(){
+    autoPilots.forEach(function(pt){
+      pt.watch = makeWatch();
+      pt.watch.lastMotionAt = Date.now();
+    });
+    updateScreenWatch();
+  }
+  function scrollLabel(sh, shy){
+    var out = '';
+    if(sh >= 2) out += 'R' + Math.abs(sh);
+    else if(sh <= -2) out += 'L' + Math.abs(sh);
+    if(shy >= 2) out += (out ? ' ' : '') + 'D' + Math.abs(shy);
+    else if(shy <= -2) out += (out ? ' ' : '') + 'U' + Math.abs(shy);
+    return out || 'still';
+  }
+  function updateScreenWatch(){
+    var e = document.getElementById('anton-watch');
+    if(!e) return;
+    if(!AgentOpts.autoTune){ e.textContent = 'SON OF ANTON · screen watch off — manual tuning only'; return; }
+    if(!autoOn){ e.textContent = 'SON OF ANTON · screen watch idle — autopilot off'; return; }
+    var parts = autoPilots.map(function(pt){
+      var w = pt.watch;
+      return 'P' + (pt.pl + 1) + ' ' + pt.mode.toUpperCase() +
+        ' m' + w.motionEma.toFixed(1) +
+        ' still ' + (w.stillMs / 1000).toFixed(1) + 's ' +
+        scrollLabel(w.lastSh, w.lastShy) +
+        (w.lastTapInfo ? ' ' + w.lastTapInfo : '');
+    });
+    parts.push('hop ' + AgentOpts.hopEvery);
+    parts.push('run ' + autoPilots.map(function(pt){
+      return 'P' + (pt.pl + 1) + (pt.watch.runWanted ? ':on' : ':off');
+    }).join(' '));
+    e.textContent = 'SON OF ANTON · watching: ' + parts.join(' · ');
+  }
+  function watchMetrics(pt, dMax, sh, shy){
+    var now = Date.now();
+    var w = pt.watch;
+    var motion = dMax || 0;
+    w.haveData = true;
+    w.motionEma = w.motionEma ? w.motionEma * 0.65 + motion * 0.35 : motion;
+    if(motion > w.motionPeak) w.motionPeak = motion;
+    if(motion >= AgentOpts.hiThresh) w.lastMotionAt = now;
+    w.stillMs = now - w.lastMotionAt;
+    w.lastSh = sh || 0;
+    w.lastShy = shy || 0;
+    var prog = Math.max(Math.abs(sh || 0), Math.abs(shy || 0));
+    w.progressEma = w.progressEma ? w.progressEma * 0.7 + prog * 0.3 : prog;
+    /* credit or blame this pilot's last seek tap only */
+    if(w.lastTap && now - w.lastTap.t >= AgentOpts.senseMs){
+      var tap = w.lastTap;
+      var changed = w.motionPeak >= Math.max(AgentOpts.loThresh, 1.5);
+      var score = w.tapScore[tap.btn] || 0;
+      w.tapScore[tap.btn] = Math.max(-5, Math.min(10, score + (changed ? 1.5 : -1)));
+      w.lastTapInfo = 'tap ' + (BTN_NAMES[tap.btn] || tap.btn) + (changed ? ' ✓' : ' ✗');
+      w.lastTap = null;
+    }
+  }
+  function noteWatchTap(pt, btn){
+    pt.watch.lastTap = { btn: btn, t: Date.now() };
+    pt.watch.motionPeak = 0;
+    pt.watch.lastTapInfo = 'tap ' + (BTN_NAMES[btn] || btn) + '…';
+  }
+  function pickSeekTap(pt){
+    var idx = pt.menuN % autoCycle.length;
+    var def = autoCycle[idx];
+    var w = pt.watch;
+    if(!AgentOpts.autoTune || w.stillMs < Math.max(3000, AgentOpts.tapMs)) return def;
+    var best = def, bestScore = -Infinity;
+    for(var i = 0; i < autoCycle.length; i++){
+      var cand = autoCycle[i];
+      var score = (w.tapScore[cand] || 0) - (i === idx ? 0.01 : 0);
+      if(score > bestScore){ bestScore = score; best = cand; }
+    }
+    /* everything failed so far: break the loop by advancing the rotation */
+    return bestScore < 0 ? autoCycle[(idx + 1) % autoCycle.length] : best;
+  }
+  function antonGovern(pt, dMax){
+    if(!AgentOpts.autoTune || !autoOn || !playing || !pt.active) return;
+    var w = pt.watch;
+    var modes = 'P' + (pt.pl + 1) + ':' + pt.mode;
     if(modes !== antonLastModes){ antonHist.push(1); antonLastModes = modes; }
     else antonHist.push(0);
     if(antonHist.length > 8) antonHist.shift();
@@ -633,36 +919,63 @@
       antonSay('flapping — widened deadband (motion>' + AgentOpts.hiThresh + ' still<' + AgentOpts.loThresh + ')');
       return;
     }
-    if(!/play/i.test(modes)){
+    if(pt.mode !== 'play'){
       antonSeekStuck++; antonPlayStall = 0;
+      /* picture has not moved through several tap cycles: rotate the tap
+         order and make the motion bar easier, because this is a dead end */
+      if(antonSeekStuck >= 8 && w.stillMs >= Math.max(4000, AgentOpts.tapMs)){
+        var before = AgentOpts.hiThresh;
+        AgentOpts.hiThresh = Math.max(3, Math.round((AgentOpts.hiThresh - 1) * 2) / 2);
+        if(autoCycle.length > 1){
+          autoCycle.push(autoCycle.shift());
+          AgentOpts.seekCycle = autoCycle.join(',');
+        }
+        antonSeekStuck = 0; antonCool = 4;
+        saveAgentOpts(); renderTuneInputs();
+        antonSay('P' + (pt.pl + 1) + ' screen still ' + (w.stillMs / 1000).toFixed(1) +
+          's — rotated seek taps, motion bar ' + before + '→' + AgentOpts.hiThresh);
+        return;
+      }
       if(antonSeekStuck >= 12){
         AgentOpts.hiThresh = Math.max(3, Math.round((AgentOpts.hiThresh - 1) * 2) / 2);
         antonSeekStuck = 0; antonCool = 4;
         saveAgentOpts(); renderTuneInputs();
-        antonSay('stuck in menus — lowered motion bar to ' + AgentOpts.hiThresh);
+        antonSay('P' + (pt.pl + 1) + ' stuck in menus — lowered motion bar to ' + AgentOpts.hiThresh);
       }
       return;
     }
     antonSeekStuck = 0;
-    if(dMax < AgentOpts.hiThresh){
+    var scrollMag = Math.max(Math.abs(w.lastSh), Math.abs(w.lastShy));
+    if(dMax < AgentOpts.hiThresh || scrollMag < 2){
+      /* screen animates or not, the world is not scrolling: hop more */
       antonPlayStall++;
       if(antonPlayStall >= 8){
         AgentOpts.hopEvery = Math.max(1, AgentOpts.hopEvery - 1);
         antonPlayStall = 0; antonCool = 4;
         saveAgentOpts(); renderTuneInputs();
-        antonSay('pushing, no progress — hopping every ' + AgentOpts.hopEvery + ' beats');
+        antonSay('no screen progress — hopping every ' + AgentOpts.hopEvery + ' beats');
       }
-    }else antonPlayStall = 0;
+    }else{
+      antonPlayStall = 0;
+      /* steady scroll means the hold is working: spend fewer beats hopping */
+      if(w.progressEma >= 3 && AgentOpts.hopEvery < 4){
+        AgentOpts.hopEvery = Math.min(4, AgentOpts.hopEvery + 1);
+        antonCool = 10;
+        saveAgentOpts(); renderTuneInputs();
+        antonSay('steady scroll ' + w.progressEma.toFixed(1) +
+          ' — hopping every ' + AgentOpts.hopEvery + ' beats');
+      }
+    }
   }
   function toggleAutotune(){
     AgentOpts.autoTune = !AgentOpts.autoTune;
     saveAgentOpts(); renderTuneInputs();
     antonSay(AgentOpts.autoTune ? 'watching the copilot…' : 'off — manual tuning only');
+    updateScreenWatch();
   }
   function startAutopilot(){
-    if(autoTimer || autoMenuTimer || autoSenseTimer) return;
+    if(autoOn) return;
     autoOn = true;
-    autoDiff = 0;
     antonHist = []; antonLastModes = ''; antonCool = 0;
     antonSeekStuck = 0; antonPlayStall = 0;
     if(AgentOpts.autoTune) antonSay('watching the copilot…');
@@ -672,12 +985,10 @@
   }
   function stopAutopilot(){
     autoOn = false;
-    if(autoTimer){ clearInterval(autoTimer); autoTimer = null; }
-    if(autoMenuTimer){ clearInterval(autoMenuTimer); autoMenuTimer = null; }
-    if(autoSenseTimer){ clearInterval(autoSenseTimer); autoSenseTimer = null; }
+    stopAgentTimers();
     autoPilots = [];
     releaseAuto();
-    updateAutoBtn(); updateAgentHud();
+    updateAutoBtn(); updateAgentHud(); updateScreenWatch();
   }
   function toggleAutopilot(){ if(autoOn) stopAutopilot(); else startAutopilot(); }
   function toggleHud(){ AgentOpts.hud = !AgentOpts.hud; saveAgentOpts(); updateAgentHud(); }
@@ -699,7 +1010,7 @@
     var at = document.getElementById('btn-autotune');
     if(at) at.textContent = 'AUTO-TUNE: ' + (AgentOpts.autoTune ? 'ON' : 'OFF');
     var pf = document.getElementById('opt-profile');
-    if(pf) pf.value = (AgentOpts.profile === 'umk3') ? 'umk3' : 'generic';
+    if(pf) pf.value = (AgentOpts.profile === 'umk3') ? 'umk3' : (AgentOpts.profile === 'mix' ? 'mix' : 'generic');
     var map = document.getElementById('agent-map-readout');
     if(map) map.textContent = 'map: dirR=' + AgentMap.dirR + ' dirL=' + AgentMap.dirL +
       ' run=' + AgentMap.run + ' actions=[' + AgentMap.actions.join(',') +
@@ -707,9 +1018,15 @@
       '] select=' + AgentMap.select + ' start=' + AgentMap.start;
   }
   function resetAgentOpts(){
+    var oldPlayers = (AgentOpts.players || []).join(',');
     AgentOpts = Object.assign({}, AgentDefaults);
     saveAgentOpts(); renderTuneInputs();
-    if(autoOn){ startAgentEngine(); }
+    watchReset();
+    if(autoOn){
+      /* only the roster needs a pilot rebuild; everything else is live */
+      if((AgentOpts.players || []).join(',') !== oldPlayers) startAgentEngine();
+      else { parseSeekCycle(); retimeAgentLoop('menu'); retimeAgentLoop('sense'); }
+    }
     updateAgentHud();
   }
 
@@ -824,9 +1141,63 @@
   var recCanvas = null, recCtx = null;
   var REC_MAX_MS = 180000;
   var BTN_NAMES = { 0: 'B', 1: 'Y', 2: 'Select', 3: 'Start', 4: 'Up', 5: 'Down', 6: 'Left', 7: 'Right', 8: 'A', 9: 'X', 10: 'L', 11: 'R' };
-  function frameGray(){
+  /* ---------- iframe-safe screen source ----------
+     The emulator canvas normally sits in #ejs-stage, but hosts sometimes
+     mount the player (or this whole app) inside an iframe. Search the
+     document and any same-origin child frames for the REAL emulator
+     surface — never the CSS-art handheld/desktop screens — so the sense
+     loop keeps seeing pixels wherever the game is rendered. */
+  var EJS_CANVAS_SELECTOR = '#ejs-stage canvas, canvas.ejs_canvas, .ejs_parent canvas';
+  function visionCanvasIn(root, depth){
+    if(!root || depth < 0) return null;
+    var c = null;
+    try{ c = root.querySelector(EJS_CANVAS_SELECTOR); }catch(e){}
+    if(c && c.width && c.height) return c;
+    var frames = [];
+    try{ frames = root.querySelectorAll('iframe'); }catch(e2){}
+    for(var i = 0; i < frames.length; i++){
+      try{
+        var doc = frames[i].contentDocument;
+        if(!doc) continue;
+        c = visionCanvasIn(doc, depth - 1);
+        if(c) return c;
+      }catch(e3){} /* cross-origin frame: unreadable, keep looking */
+    }
+    return null;
+  }
+  function gameCanvas(){
+    var c = null;
+    try{ c = stage.querySelector('canvas'); }catch(e){}
+    if(c && c.width && c.height) return c;
+    c = visionCanvasIn(document, 3);
+    if(c) return c;
+    /* if this app is the iframe, the player itself is still local, so this
+       parent probe is only a last resort for split host/player layouts */
     try{
-      var src = stage.querySelector('canvas');
+      if(window.parent && window.parent !== window) c = visionCanvasIn(window.parent.document, 1);
+    }catch(e4){}
+    return c;
+  }
+  function visionSource(){
+    var c = gameCanvas();
+    if(!c) return 'none';
+    var embedded = false;
+    try{ embedded = !!(window.parent && window.parent !== window); }catch(e){}
+    var where = 'page';
+    try{ if(!stage.contains(c)) where = 'iframe'; }catch(e2){}
+    return embedded ? where + ' (embedded)' : where;
+  }
+  function bytesB64(a){
+    if(!a) return null;
+    var s = '';
+    for(var i = 0; i < a.length; i++) s += String.fromCharCode(a[i]);
+    return btoa(s);
+  }
+  function grayB64(g){ return bytesB64(g); }
+  function rgbB64(rgb){ return bytesB64(rgb); }
+  function captureVision(){
+    try{
+      var src = gameCanvas();
       if(!src || !src.width) return null;
       if(!recCanvas){
         recCanvas = document.createElement('canvas');
@@ -836,19 +1207,172 @@
       recCtx.drawImage(src, 0, 0, 32, 32);
       var d = recCtx.getImageData(0, 0, 32, 32).data;
       var g = new Uint8Array(1024);
+      var rgb = new Uint8Array(3072);
       for(var i = 0, j = 0; i < d.length; i += 4, j++){
         g[j] = (d[i] * 299 + d[i + 1] * 587 + d[i + 2] * 114) / 1000 | 0;
+        var o = j * 3;
+        rgb[o] = d[i]; rgb[o + 1] = d[i + 1]; rgb[o + 2] = d[i + 2];
       }
-      return g;
+      return { gray: g, rgb: rgb };
     }catch(e){ return null; }
   }
-  function frameB64(){
-    var g = frameGray();
-    if(!g) return null;
-    var s = '';
-    for(var i = 0; i < g.length; i++) s += String.fromCharCode(g[i]);
-    return btoa(s);
+  function frameGray(){
+    var f = captureVision();
+    return f ? f.gray : null;
   }
+  function frameRgb(){
+    var f = captureVision();
+    return f ? f.rgb : null;
+  }
+  function frameB64(){
+    return grayB64(frameGray());
+  }
+  /* ---------- live color vision loop (also across iframe) ------------
+     Samples NTSC-style 262-line fields at a 60Hz cadence, independent of
+     the game's 30fps frame pairs. Each field is half vertical resolution,
+     so two consecutive field packets make one 30fps display frame. The
+     32x32 color view stays alive even with the autopilot idle, mirrors
+     into the AI Lab preview, and — when this page is hosted in an iframe —
+     posts every field to the parent so a gameplay AI sees the same timing.
+     Packets carry rgb24 for color plus gray8 for fast motion maths. Any
+     frame can ask for one with {type:'snesboy:vision/request'}. */
+  var VISION_FRAME = 'snesboy:vision/frame';
+  var VISION_REQUEST = 'snesboy:vision/request';
+  var VISION_FIELD_HZ = 60;
+  var VISION_FIELD_MS = 1000 / VISION_FIELD_HZ;
+  var visionTimer = null, visionImg = null;
+  var visionFrames = 0, visionFpsAt = 0, visionFps = 0, visionSeen = false;
+  var visionField = 0, visionParity = 0, visionClock = 0, visionRaf = 0, visionStatusAt = 0;
+  function visionPacket(g, rgb){
+    if(!g || !rgb){
+      var f = captureVision();
+      if(!f) return null;
+      g = f.gray; rgb = f.rgb;
+    }
+    var data = grayB64(g), color = rgbB64(rgb);
+    if(!data || !color) return null;
+    return { type: VISION_FRAME, version: 2, t: Date.now(),
+      width: 32, height: 32, format: 'gray8+rgb24/base64',
+      data: data, rgb: color, source: visionSource(),
+      field: visionField, parity: visionParity & 1,
+      frame: Math.ceil(visionField / 2), fieldsPerFrame: 2,
+      lines: 262, fieldHz: VISION_FIELD_HZ, halfResolution: true };
+  }
+  function postVision(target, g, rgb){
+    var p = visionPacket(g, rgb);
+    if(!p || !target) return false;
+    try{ target.postMessage(p, '*'); return true; }catch(e){ return false; }
+  }
+  function drawVisionPreview(g, rgb){
+    var cv = document.getElementById('vision-preview');
+    if(!cv || !g) return;
+    try{
+      var ctx = cv.getContext('2d');
+      if(!visionImg) visionImg = ctx.createImageData(32, 32);
+      var d = visionImg.data;
+      for(var i = 0; i < g.length; i++){
+        var o = i * 4, c = i * 3;
+        if(rgb){
+          d[o] = rgb[c]; d[o + 1] = rgb[c + 1]; d[o + 2] = rgb[c + 2];
+        }else{
+          d[o] = d[o + 1] = d[o + 2] = g[i];
+        }
+        d[o + 3] = 255;
+      }
+      ctx.putImageData(visionImg, 0, 0);
+    }catch(e){}
+  }
+  function updateVisionStatus(ok, src){
+    var s = document.getElementById('vision-status');
+    if(s){
+      s.textContent = ok ? ('VISION LIVE · ' + visionFps + ' Hz field · 262 lines · 32×32 color')
+                         : 'NO SIGNAL — power on a game';
+      s.classList.toggle('vision-ok', !!ok);
+    }
+    var m = document.getElementById('vision-source');
+    if(m) m.textContent = 'source: ' + (src || 'none') + ' · loop: ' + (ok ? 'running' : 'waiting') +
+      ' · field ' + visionField + ' ' + (visionParity & 1 ? 'odd' : 'even') + ' · 2 fields = 1×30fps frame';
+  }
+  var aiLoopText = '';
+  function updateAiStatus(){
+    var e = document.getElementById('ai-loop-status');
+    if(!e) return;
+    var parts = ['vision ' + (visionTimer ? '✓' : '—')];
+    if(autoOn){
+      parts.push('sense ' + (anyAgentTimer('sense') ? '✓' : '—'));
+      parts.push('drive ' + (anyAgentTimer('drive') ? '✓' : '—'));
+      parts.push('menus ' + (anyAgentTimer('menu') ? '✓' : '—'));
+      parts.push('auto-tune ' + (AgentOpts.autoTune ? '✓' : 'off'));
+      parts.push('record ' + (recOn ? '●' : 'off'));
+    }else{
+      parts.push('autopilot idle');
+    }
+    var txt = 'loops: ' + parts.join(' · ');
+    if(txt !== aiLoopText){ aiLoopText = txt; e.textContent = txt; }
+  }
+  function visionTick(){
+    var now = Date.now();
+    var f = captureVision();
+    updateAiStatus();
+    if(!f){ updateVisionStatus(false, 'none'); return; }
+    visionField++;
+    visionParity = visionField & 1;
+    if(!visionSeen){ visionSeen = true; visionFpsAt = now; visionFrames = 0; }
+    visionFrames++;
+    if(now - visionFpsAt >= 1000){
+      visionFps = Math.round(visionFrames * 1000 / (now - visionFpsAt));
+      visionFrames = 0; visionFpsAt = now;
+    }
+    drawVisionPreview(f.gray, f.rgb);
+    if(window.parent && window.parent !== window) postVision(window.parent, f.gray, f.rgb);
+    if(now - visionStatusAt >= 250){
+      visionStatusAt = now;
+      updateVisionStatus(true, visionSource());
+    }
+  }
+  function visionLoop(ts){
+    if(!visionTimer) return;
+    if(!visionClock) visionClock = ts;
+    /* Fixed 60Hz field clock, not the browser's paint rate. If rAF is late
+       (busy game frame) emit the due fields now so the stream stays locked
+       to cadence instead of drifting to the display fps. */
+    var due = Math.floor((ts - visionClock) / VISION_FIELD_MS);
+    if(due > 0){
+      visionClock += due * VISION_FIELD_MS;
+      if(due > 4){ visionClock = ts; due = 1; } /* long stall: resync */
+      for(var i = 0; i < due; i++) visionTick();
+    }
+    visionRaf = requestAnimationFrame(visionLoop);
+  }
+  function startVisionLoop(){
+    if(visionTimer) return;
+    visionTimer = 1;
+    visionClock = 0;
+    visionRaf = requestAnimationFrame(visionLoop);
+    visionTick();
+  }
+  window.addEventListener('message', function(e){
+    var d = e.data;
+    if(!d || d.type !== VISION_REQUEST) return;
+    postVision(e.source);
+  });
+  /* Same-document consumers (AI Lab / an agent embedded alongside). */
+  window.SNESBoyVision = {
+    frame: frameGray,
+    color: frameRgb,
+    packet: visionPacket,
+    snapshot: function(){
+      var src = gameCanvas();
+      if(!src) return null;
+      try{
+        var c = document.createElement('canvas');
+        c.width = 256; c.height = 240;
+        c.getContext('2d').drawImage(src, 0, 0, 256, 240);
+        return c.toDataURL('image/png');
+      }catch(e){ return null; }
+    },
+    source: visionSource
+  };
   function grayDiff(a, b){
     var s = 0, n = 0;
     for(var i = 0; i < a.length; i += 4){
@@ -866,8 +1390,6 @@
      frames over shifts of -8..+8px. Positive shift = pixels moved left =
      camera pushing right, so keep holding Right (and mirrored). Lets the
      agent follow side-scrollers in either direction instead of assuming. */
-  var autoDir = 7;
-  var autoDirY = null; /* vertical scroll vote: 4=Up, 5=Down, null=no vertical hold */
   function colShift(a, b){
     var pa = [], pb = [], x, y;
     for(x = 0; x < 32; x++){ pa.push(0); pb.push(0); }
@@ -981,13 +1503,26 @@
       }catch(e){ res(); }
     });
   }
-  function stopReplay(){
+  var replayHeld = {};
+  function releaseReplayHeld(){
+    if(!replayHeld) return;
+    Object.keys(replayHeld).forEach(function(k){
+      var parts = k.split(':');
+      driveIndex(parseInt(parts[1], 10), false, 'replay', parseInt(parts[0], 10));
+    });
+    replayHeld = {};
+  }
+  function stopReplay(msg){
     replayTimers.forEach(clearTimeout);
     replayTimers = [];
-    if(replayingId !== null){ replayingId = null; renderEpisodes(); }
+    releaseReplayHeld();
+    if(replayingId !== null){
+      replayingId = null; renderEpisodes();
+      if(msg) learnStatus(msg);
+    }
   }
   function replayEpisode(id){
-    if(replayingId === id){ stopReplay(); return; }
+    if(replayingId === id){ stopReplay('Replay stopped — buttons released.'); return; }
     stopReplay();
     epAll().then(function(eps){
       var ep = null;
@@ -1000,11 +1535,14 @@
       var t0 = Date.now();
       ep.inputs.forEach(function(ev){
         replayTimers.push(setTimeout(function(){
-          driveIndex(ev.b, ev.d === 1, 'replay');
+          var pl = ev.p || 0;
+          var key = pl + ':' + ev.b;
+          if(ev.d === 1) replayHeld[key] = true; else delete replayHeld[key];
+          driveIndex(ev.b, ev.d === 1, 'replay', pl);
         }, Math.max(0, ev.t - (Date.now() - t0))));
       });
       var last = ep.inputs[ep.inputs.length - 1].t;
-      replayTimers.push(setTimeout(stopReplay, last + 800));
+      replayTimers.push(setTimeout(function(){ stopReplay('Replay finished.'); }, last + 800));
     });
   }
   function exportEpisode(id){
@@ -1300,7 +1838,8 @@
     if(key === 'seekCycle'){
       AgentOpts.seekCycle = String(t.value || AgentDefaults.seekCycle).slice(0, 31);
       saveAgentOpts(); renderTuneInputs();
-      if(autoOn) startAgentEngine();
+      parseSeekCycle(); /* next menu tick uses the new order — no restart */
+      if(autoOn) antonSay('seek taps ' + AgentOpts.seekCycle + ' — live');
       return;
     }
     if(key === 'players'){
@@ -1316,8 +1855,17 @@
       return;
     }
     if(key === 'profile'){
-      AgentOpts.profile = (t.value === 'umk3') ? 'umk3' : 'generic';
+      AgentOpts.profile = (t.value === 'umk3') ? 'umk3' : (t.value === 'mix' ? 'mix' : 'generic');
       saveAgentOpts(); renderTuneInputs(); updateAgentHud();
+      if(autoOn){
+        /* release the old profile's holds before the next tick uses the new
+           one — no stuck L/R block or run from a mode switch */
+        autoPilots.forEach(function(pt){
+          fightRelease(pt.pl);
+          driveIndex(AgentMap.run, false, 'auto', pt.pl);
+        });
+        antonSay(AgentOpts.profile === 'mix' ? 'mix mode — platformer + UMK3 beats, live' : 'profile ' + AgentOpts.profile + ' — live');
+      }
       return; /* drive loop reads the profile every tick — no restart needed */
     }
     var spec = null;
@@ -1327,7 +1875,14 @@
     if(isNaN(v)) v = AgentDefaults[key];
     AgentOpts[key] = Math.min(spec[2], Math.max(spec[1], v));
     saveAgentOpts(); renderTuneInputs();
-    if(autoOn) startAgentEngine(); /* intervals restart with new timing; game untouched */
+    /* thresholds/hopEvery are read every tick. Only the two period values
+       need their timer retimed — and retiming keeps every hold and pilot
+       alive, so the game and the AI never pause. */
+    if(autoOn){
+      if(key === 'senseMs') retimeAgentLoop('sense');
+      else if(key === 'tapMs') retimeAgentLoop('menu');
+      antonSay('live tune — ' + key + ' ' + AgentOpts[key] + ' (no restart)');
+    }
   });
   on('btn-sound', toggleSound);
   on('dt-btn-sound', toggleSound);
@@ -1336,6 +1891,7 @@
 
   /* ---------- go ---------- */
   placeStage();
+  startVisionLoop();
   updateAgentHud();
   openDB().then(function(db){
     DB = db;
