@@ -1,0 +1,908 @@
+MORD DIS 
+Ed 
+
+
+і 
+
+
+2490 Mariner Square Loop 
+
+
+INSTRUCTION BOOKLET 
+‘Alameda, СА 94501 PAINTED mi e. "D A 
+
+
+WARN 
+PLEASE READ THE ENCLOSED CONSUMER INFORMATION & 
+PRECAUTIONS BOOKLET CAREFULLY BEFORE USING YOUR 
+NINTENDO® HARDWARE SYSTEM OR GAME PAK, 
+
+
+LICENSED By: 
+(м intend о) 
+
+
+NINTENDO, SUPER NINTENDO ENTERTAINMENT SYSTEM AND THE OFFICIA 
+SEALS ARE REGISTERED TRADEMARKS OF NINTENDO OF AMERICA, INC. 
+"Ф 1991 NINTENDO OF AMERICA, INC. 
+
+
+THIS OFFICIAL SEAL IS YOUR ASSURANCE THAT NINTENDO HAS APPROVED THE 
+QUALITY OF THIS PRODUCT, ALWAYS LOOK FOR THIS SEAL WHEN BUYING 
+GAMES AND ACCESSORIES TO ENSURE COMPLETE COMPATIBILITY WITH YOLA 
+SUPER NINTENDO ENTERTAINMENT SYSTEM. ALL NINTENDO PRODUCTS ARE 
+LICENSED BY SALE FOR USE ONLY WITH OTHER AUTHORIZED PRODUCTS 
+
+BEARING THE OFFICIAL NINTENDO SEAL OF QUALITY... 
+
+
+Original Game © 1990 Armenica. Original design and program by Sergi L. Ukin, 
+
+
+Yjachesiav A. Tsoy acd Armen V. Sarkissian, 
+
+SNES version © 1992 Spectrum HoloByte, Inc. Al Rights Reserved. 
+Word ist © 1991 Houghton Mittin Company. All Rights Reserved. 
+TETRIS" is a registered trademark of Elorg. WORDIRIS" is a trademark of Borg 
+WORDTRIS” trademark and TETRIS® registered trademark licensed to 
+Spectrum HoloByte, Inc. Spectrum HoloByte is a registered trademark of 
+"Spectrum Hole, Ic 
+
+
+| WORDTAIS. 
+
+
+Credits 
+
+
+Programming: 
+Deas Sharpe 
+Billy Satyoro. 
+
+
+Documentation: 
+Robert Giedt 
+Documentation Design: 
+Van Winkle Design Group 
+ме 
+Louis Sremac 
+Chuck Asten 
+Lynne Gara 
+Kathleen Mormon 
+‘Matt Caristrom 
+
+
+rt Direction: 
+‘Chuck Austen 
+Music: 
+
+Poul Мод 
+‘Sound Driver in Collaboration With: 
+Realtime Associates 
+Testing: 
+
+Russe! Reise 
+Sergio Vuskovie 
+Pater Winch 
+Eran Birkby 
+Stephen Blankenship 
+Jeffrey Love 
+Product Management: 
+Daniel Laces 
+
+
+m. WORDTSIS 
+
+
+Table of Contents 
+
+
+Welcome to Wordtris" . 
+Getting Started.. 
+Wordtris Setup Screen... 
+Starting the Gam 
+Playing Wordtris. 
+Moving Blocks 
+‘Special Pieces 
+Pausing the Game 
+Additional Options: 
+Scoring... 
+Letter Values . 
+Magic Words... 
+Advancing to the Next Level 
+Level Bonus Screen. 
+Ending Wordtris .... 
+Game Bonus Screen 
+Game Statistics Screen. 
+High Scores Screen. 
+Other Game Modes... 
+Comperitive Mode 
+Cooperative Mode 
+Tournament Mode 
+Wordtris Strategy .. 
+
+
+WORDTAIS | 
+
+
+Welcome to Wordtris" 
+
+
+ORDTRIS not only tests your skill and 
+W coordination. as any good arcade game should, but 
+also your ci 
+Wonltris cach falling tile is labeled with a letter. and the only 
+way io remove letter tiles from the well is to maneuver them 
+so they form words, Naturally it was love at first sight for us 
+here at Spectrum HoloByte. because Wonttris combines the 
+fun of a word game with the sd action of Terris". 
+You'll have to be quick. Wordtris leaves no time for 
+lethologica (the temporary inability to recall a word) and 
+legomachy (the dispute of words and their meanings). Are 
+you up to the challenge? Do you consider yoursell а 
+igrammatologist (one who worships words)? If so. then read on. 
+
+
+Getting Started 
+
+
+NSERT the Wordiris Game Pak into your Supe 
+Nintendo Entertainment System and then tum th 
+power ON, You will then be presented with th 
+
+
+copyright and credits screens 
+
+
+ht and credits screens is t 
+
+
+creen. Th n contains al 
+need to play W Make selections 
+a with the Control Pad. When the 
+
+
+ss A or B. 
+
+
+lighted, press A or B 10 
+hoose from a number of 
+
+
+u want with the Control Pad 
+
+
+WORDISIIS 
+
+
+ime Mode 
+
+When you fist get to the Setup screen, the Game Mode 
+category is highlighted. There are four options here, but we 
+recommend you become familiar with SiNGLE PLAYER mode 
+before trying any of the other modes, Many of the examples. 
+given on the following few pages are for SINGLE PLAYER 
+mode. The other game modes are covered later in their own 
+section of the manual. 
+
+
+Difficulty 
+Wordtris has four difficulty modes. ‘The modes and their 
+differences are listed in the following table: 
+
+
+порн (ore: Aw ken 
+
+
+ЗывивАЕ 4 
+t tor teves FJ 
+
+
+mE 
+
+
+Minimum eters tor a Magle Word | 5 
+
+
+es lia 
+
+
+Cini pars mode is the same as Novice mode except 
+the letters will drop slower. 
+
+
+Next Tile 
+
+Underneath the difficulty mode selections is the Next 
+“Tite option. This option gives you the ability to play without 
+the next tile displayed just below the Magic Word on the 
+game screen. In addition, turning Next Tile Orr will give you 
+more points per word. Push the Control Pad right and left to 
+change this option. 
+
+
+Level 
+There are 10 levels in Wordtris: A-J. At the higher le 
+the tiles fall faster and the game may require more letters 
+before it will accept a word. 
+
+
+Time Limit 
+In Wordiris, you can choose to play a regular game ог 
+‘one with a limited amount of time. Choosing anything other 
+than UNLMITED lets you play for that number of minutes, 
+The time appears on the game screen directly below the well. 
+When the timer reaches 00:00. the game is over. 
+
+
+NORDTSIIS | 
+
+
+Repeat Words 
+
+The Repeat Words option, when set to Yes, removes 
+duplicate words from the well. For instance, if you form the 
+word "DOG" at the beginning of the game and Repeat 
+Words is set to Yes, then "DOG" will be removed from the 
+well every subsequent time you form the word. You only earn 
+a score the first time you form the word. If Repeat Words is set 
+10 No, then repeated words are not removed from the well, 
+
+
+WORDTSIS. 
+
+
+Starting the Game 
+
+
+TART the game by pressing the START button. 
+8 You can end the game at any time by pressing 
+SELECT and selecting Авоят GANE with the A or 
+
+
+B buttons. 
+
+
+| WORDTAIS 
+
+
+Playing Wordtris 
+
+
+ORDTRIS starts on the level you selected on the 
+
+W setup screen, There are a total of 10 levels, A 
+
+through J, with each level becoming progressively 
+
+more difficult, The higher the level, the faster the blocks fall 
+
+into the well and the more words you'll have to form to 
+complete the level 
+
+
+VORDTAIS 
+
+
+The bottom half of the well is filled with water, Letter 
+tiles fall randomly from the top of the well and float on the 
+water. If a falling tile lands on top of a floating tile, the lower 
+tile is pushed beneath the water. When the tiles reach the 
+bottom of the well, they begin stacking above the water line 
+unless you create a word, at which time the word will 
+disappear from the well and you сат a score. 
+
+
+Moving Blocks 
+As letter tiles fall, use the Control Pad to move them left 
+and right. (You can also use the L and R buttons at the front 
+of the Controller to move a tile left and right.) Pushing the 
+Control Pad down makes a tile f 
+
+
+WORDTSIIS 
+
+
+PRO TIP: 
+At higher levels, tiles will fall considerably faster. You can 
+adjust to this by holding the L and R buttons while moving 
+the Control Pad lett or right respectively. This will make the 
+letter tile move twice as fast as normal from side to side. 
+
+
+g WORDTSS ра 
+
+
+Special Pieces 
+‘There are four special pieces that sometimes fall from the 
+top of the screen. These are the three erase pieces and the 
+wild card tile, 
+
+
+Erase Pieces 
+On occasion, you will get one of the three erase pieces, 
+One looks like a cherry bomb, another looks like a dynamite 
+stick and the third looks like а beaker of acid. The erase 
+pieces are really useful for fixing mistakes and are described 
+below: 
+
+
+Cherry Bomb — This piece will blow up any one tile it 
+lands on. It will randomly appear on all levels. 
+
+
+Dynamite Stick — When this piece lands on a tile. it 
+
+N will destroy that lle. the tile below it and one tile on 
+cach side of it. This piece will randomly appear on 
+levels F-J. 
+
+
+‘Acid Beaker — If you get this piece, it will melt the. 
+
+| emt 
+only after you create a six, seven, eight or nine letter. 
+word. 
+
+
+Wild Card Tile — Some pieces that drop into the well Additional Options 
+
+
+e e p ers sete ie youve in pe miit ofa 
+appear, you ean choose any letter you want by using Е 
+
+
+the А and В buttons as it falls into the well, The К 
+resulting letter is worth zero points. If you don ии STA ты B buttons: These 
+choose a letter by the time it reaches the water, the о 
+
+
+wild card tile will change to a random letter (which 
+will then be worth its normal points 
+
+
+Pausing the Game 
+You can pause the game at any time by pressing 
+START button. Press START again to return to t ame 
+TO LEVEL D 
+MUSIC ON 
+UND F 
+TILE 
+
+
+WORDTSIS Í 
+
+
+Resume Game 
+"This selection returns you to your game. 
+
+
+Word List 
+Selecting Word List brings up a screen with the last 
+several words you have formed during vour current gam 
+Use the Control Pad to move up and down the entire lis 
+Press A to exit this sereen. 
+
+
+Go to Level ‘x’ 
+
+‘This option brings you to the next level (as indicated by 
+the letter v'). Simply choosing this will not increase your 
+score and the background picture will not change. When you 
+change levels in this fashion, the number of words you need 
+10 achieve the next level will be reset. (See Advancing to the 
+Next Level following.) 
+
+
+Music On/Orr 
+
+
+Selecting Music allows you to turn the game's music Ох 
+or Ore. 
+
+
+Sound FXOwürr rf 
+Choosing Sound EX allows you to turn the game's sound 
+effects ON or OFF. 
+
+
+VORDTAIS = 
+
+
+Next Tile Он/ОЕЕ 
+This option is the same as the one on the Setup screen. It 
+will turn the next tile window (just under the Magic Word) 
+Ох or Orr. Remember, turning Next Tile Orr will give each 
+player more points per word. 
+
+
+Abort Game 
+This choice ends your game and returns you to the Title. 
+screen, Ц will not record your score on the High Scores 
+screen 
+
+
+Scoring 
+
+
+OU score in Wordtris by creating words with the 
+letters that fall into the well, Wordiris doesn't accept 
+abbreviated words, hyphenated words, fore 
+
+
+words and proper nouns, (Note: Some words were 
+
+
+intentionally omitted as inappropriate for young players.) 
+
+
+a word, You can form words horizontally or vertically, and 
+they can overlap each other 
+
+
+For example, if you spelled the word WEDGE, your 
+
+
+individual word score would be calculated as follows: 
+
+
+Letter values el letters Level Word score 
+We ole E x Weldlel x В = 100 
+
+
+ified in the following manner 
+
+to No, then the word score is 
+iddition, if you are playing with Next 
+additional 25% is added to the word 
+
+
+VORDTAIS пи WORDTSIS m 
+
+
+Letter Values Magic Words 
+Below is а list of the letter values for each tile in Monti. . Jf you form the Magic Word (displayed in the long 
+Note that unusual letters like “ " are worth more low above the well), then two things happen; 
+points than others, This is because it is more difficult to create. М 
+
+
+" total is increas у word score 
+Beeches MEE Your score total is increased by the word score for the 
+
+
+Magic Word, the word scores of any other words formed, 
+Letter Points Letter Points plus the letter value for every tile in the well, 
+
+
+А 1 в 2. The wellis cleared of all tiles. 
+
+
+Following our previous example, if our Magic Word was 
+“WEDGE,” then the value for all other words and letter tiles 
+in the well would be added to the 100 points we have already 
+received for “WEDGE,” That number would then be added 
+to your toil score. 
+
+However, longer words which contain the Magic Word 
+do not count. For example, GE" may be the Magic 
+Word, and you have the letters set up in the 
+well. Ifyou drop a S between the = and S. Wordiris will not 
+recognize the word “WEDGES” as the Magic Word of 
+“WEDGE.” 
+
+
+NOTE: The Magic Word is five letters long in Novice 
+mode, six letters long in ADVANCED mode and seven letters 
+long in Exvent mode. 
+
+
+4 
+1 
+4 
+1 
+1 
+3 
+
+
+0 
+1 
+
+
+энчхячено 
+
+
+Advancing to the Next Level 
+
+
+HERE are 10 difficulty levels in Wordtris: A-J. You 
+progress to the next h level after you have 
+formed a certain number of wo wn in the 
+
+
+following table 
+
+
+Level Words 
+
+
+25 
+
+
+25 
+
+
+No Limit 
+
+
+The word total above shows you how many words you 
+3 to form on each level to advance the the next level. So. 
+
+
+you create five words on level A, you'll progres 
+B. At level B you only need another five words to prog 
+
+
+level C and so on. 
+
+
+Level Bonus Screen 
+mplete a level, you will be pi 
+п that shows how many 5 
+and the bonus points for ea 
+h more points when you form 
+it 
+for long word 
+
+
+START 
+
+
+Ending Wordtris 
+
+
+ORDTRIS ends when one of three 
+
+
+The well fills to the top with tiles 
+
+Your game time limit, if any. expires: c 
+
+You press SELECT and then choose ABORT 
+GAME 
+
+
+If you reach level J, the game continues at that level until on 
+of the three conditions above is met, 
+
+
+Game Bonus Screen 
+
+
+When your game is over, the first screen you'll see will bx 
+
+
+the Game Bonus screen, This is exactly like the Level Bonus 
+
+
+screen described previously, However, it applies only to the 
+last level you were working on when the game ended, Press 
+START to go to the Game Statistics screen. 
+
+
+Game Statistics Screen 
+After the Game Bonus sereen, you will be shown the 
+Game Statistics screen. It shows the number of each length 
+word you made, the total number of words you made, the 
+highest level you reached and your final score, Press START 
+1o go to the High Scores screen, 
+
+
+ESI m 
+
+
+wore 
+
+
+High Scores Screen 
+Wordiris Keeps track of the top 10 high scores. If your 
+score is one of the top 10 scores, you will be asked to enter 
+your name. Use the Control Pad to change letters and the A 
+‘or B bution to go on to the next letter, When you are finished 
+entering your name, press START. This will bring you back 
+to the Title screen 
+
+
+NOTE: High Scores will not be saved when you turn off 
+your Super NES, 
+
+
+KATHLEEN) 
+Lourd 
+
+
+Other Game Modes 
+
+
+itio: SINGLE PLAYER mode, there are 
+ree other types of Wordiris games you can play 
+эт the Game Mode category 
+
+
+d. Compermve — You and another player play at the sam 
+ime, competing against each other for the best score 
+
+2. Coorerunve — You and another player play at the same 
+ime, working with each other to achieve a high score 
+
+3. Tournament — You and up to three other players play 
+identical single player games, competing for the best 
+
+
+Each of these Wordtris game modes are explained in the 
+
+
+sections. 
+
+
+Competitive Mode 
+
+If you want to compete against another Wordrris player 
+to see who can achieve the best score while fighting for words 
+in the same well, then you want COMPETITIVE Wordtris 
+Unlike the SINGLE PLAYER game, two letter tiles fall 
+simultaneously into the well. Player 1 (with Controller 1) will 
+control the red tiles, while Player 2 (with Controller 2) will 
+control the green tiles. In addition, a time limit can be set for 
+the game from the Time Limit category on the Setup screen 
+
+
+The C ame maintains separate scores and 
+word statistics for each player. The player whose tile lands 
+first and forms a word gets credit for that word. For example 
+if Player 1 has formed most of a word (such as ^ 
+and Player 2 uses an (€. tile to complete the word, then Player 
+
+ts the points for 
+
+
+nk. Each player is rushing around trying to 
+
+
+This is why we call this mod 
+
+
+lete words faster than the other player, In case both 
+cts land their tiles at the same time causing one ог more 
+words to form, the word score is split between the two 
+players. Odd numbered scores, such as 19, will be rounded up 
+1o an even numb 
+At the end of a Сомреттпує game, the player with the 
+
+
+fewer nuniber of letter tiles in the well will receive the point 
+
+
+values of the other player's letter tiles added to their final 
+score. This is to prevent one player from getting an early lead 
+and stacking tiles to the top of the well in an to keep 
+that lead and win the game 
+
+
+Cooperative Mode 
+
+If you want to work with a friend to achieve the best 
+score possible, then CooPERATIVE mode is for you 
+COOPERATIVE mode is similar to the COMPETITIVE mode 
+described previously, except instead of battling against each 
+other to get words, you need to work with the other player to 
+create words. As with Competitive mode, Player 1 (with 
+Controller 1) will control the red tiles, while Player 2 (with 
+Controller 2) will control the green tiles. You can also set 
+time limit for the game from the Time Limit category on the 
+Setup screen 
+
+
+ore and word count maintained in 
+Coon ne continues until one of the two 
+
+yers stacks letter tiles to the top of the well. If the two of 
+you have one of the top ten high scores, vou will be prompted 
+
+
+to enter your team name on the COOPERATIVE Scores screen. 
+
+
+Tournament Mode 
+If you want to compete with up to three of your friends 
+to see who can play the best game of Wordiris, choos 
+То гот the Game Mode category on the Setup 
+
+
+screen, Tc players play separate games; when one 
+
+
+player is finished, the next player steps up to bat. Each game 
+
+
+has the same sequence of falling tiles so that all players play 
+
+
+exactly the sam 
+When you select TOURNAMENT, the game will then ask 
+how many players want to play. Choose either two, three or 
+four and then press A or B. Each player will then be asked to 
+enter their name. Use the Control Pad to change letters and 
+the next letter. Press START when you are 
+finished e your name 
+Wordiris keeps а separate word count and score for each 
+player. Each player's word count and score is shown durin 
+their gam h ne modes. you can set a time 
+limit for rom the Time Limit category on the 
+
+
+WORDTAIS 
+
+
+Each player's turn continues until one of two things 
+occurs: 
+
+1. The player reaches a new level; or 
+
+2. The well stacks to the top with tiles. 
+
+
+NOTE: In non-timed TOURNAMENT games, the players 
+must pass Controller 1 to the next player at the end of a 
+LEVEL, while in timed games, Controller 1 is passed to the 
+next player when the TIME runs out, lf, at any time, a 
+player's well is stacked to the top with tiles, that players 
+game is over 
+
+
+At the end of the tournament, the TOURNAMENT Scores 
+screen lists the players, their scores, the last level they reached 
+when their game ended and which player won the game. 
+
+
+| WORDTAIS - 
+
+
+Wordtris Strategy 
+
+
+ELIEVE it or not, there are certain methods to the 
+В ноа madness. Most importantly, know the 
+difference between your consonants and your 
+vowels, Try to land them in a logical sequence. For 
+there aren’ too many words that have a "B" and a "C 
+next to each other, but you might get a word if y 
+space between the two letters. 
+
+Likewise, be careful about placing certain consonants on 
+the right side of the screen. You will have a hard time getting 
+Tid of a "I" that you land in the right-most column since there 
+arc almost no words in the English language that end in 
+
+Also try (o stay aware of common letter combinations 
+such as "ST." "LY." "QU." "CK." “CH” and so on. Grouping 
+such letters together can prove very useful in Молі. in 
+addition, planning letter combinations often lets you form 
+longer words. thus earning a higher score. 
+
+Wonliris even helps you out by dropping the two letters in 
+sequence, 
+
+Remember that you gain an additional bonus at the end 
+of a level for each five, six, seven, eight or nine letter word 
+you form. This makes forming long words twice as important! 
+
+Try to plan ahead. As you land the letters, try to 
+remember what letters you'll need to form certain words. This 
+is extremely helpful when you get the © tle. If you have а 
+letter in mind, then you can quickly select it and use the wild 
+
+
+WORDTAIS | 
+
+
+card tile to complete a word instead of letting it fall so it 
+changes to a random letter. 
+
+Don't forget to take advantage of the erase pieces. They 
+will help you eliminate any troublesome letters from the well 
+When trying to form a longer word. you may need to stack up 
+tiles on one side of the screen or the other. Once you form a 
+long word, though, you can use the subsequent acid beaker to 
+remove those annoying columns 
+
+Be careful about how you land your letters if you're 
+trying to build the Magic Word, For instance, suppose the 
+Magic Word is "PEACE." If you get a 7. an ©. and an = 
+and you land them in that order, then Wonders will recognize 
+the word “PEA” and you'll have to start all over aga 
+
+
+Likewise, the word "PEACE" also contains the word "ACE; 
+So the best strategy for a word like “PEACE” would be to 
+Jand the tiles in the followin НЕ. and then 
+wait for an 2 to fall into the well. 
+
+Last, but not least, as a tip for our younger players try the 
+CH pne s mode. The slower speed gives you a better chance to 
+make words from the falling letters. 
+
+
+WORD! 
+
+
+Scores 
+
+
+DIAS | 
+
+
+90-DAY LIMITED WARRANTY: 
+
+
+Byte аль to he ойра consumer раке ht ths Gane Pak 
+jag Game Pak Accessories of Robat Accesories) Ва] be free fnm 
+
+defects in mata and workmanship for a period of 90 days from dats of purchase. M a 
+
+fet covered by this warranty oscars during this 90-day waranty period, Spectrom 
+
+hlbye wil pair cere de PAK. at it option, fee of charge. 
+To recen Bis warty кті: 
+
+DO NOT sears your две Gane Pd tthe rei. 
+
+Noify Seis Holes Customer бадми departimen of the реет requiring 
+
+атату service by ое (S10) S226, Oor Customer Super depen hi 
+
+eniin Ges о unt 5:00 pm Pai Te, Monday due Pd). 
+
+Ife братот HoloByte Customer Support Representative Is unable to vov the 
+
+prole by phoe, he will proide you witha Reta Aveta number, Simply 
+
+с this namber oe бе onside packaging of your defective PAK. ant vetura yout 
+
+
+РАК poste pat you sink of damage, pee vj your date sales spo silt 
+oot poste wits te Oday wary per to: 
+‘Spectrum Hye: 
+
+
+Aga 
+
+
+Customer Support Department 
+Ain: SNES Wordtis 
+2499 Mariner Square Loop 
+‘Alameda, СА 94801 
+‘This waranty ha not apply if fe Game Pak has teen damaged by negligence, 
+
+
+400282 
+
+
+ident. мель are, modification, taper or by ether cause ulate W te 
+Горе 
+
+
+ANY AIFLICABLE IMPLIED WARRANTIES, INCLUDING WARRANTIES OF 
+ERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. ARE HEREBY 
+MITED TO NINETY DAYS FROM THE DATE OF PURCHASE AND ARE SUBJECT 
+
+1) THE CONDITIONS SET FORTH HEREIN. IN NO EVENT SHALL SPECTRUM 
+HOLOBYTE ВЕ LIABLE FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES 
+RESULTING FROM THE BREACH OF ANY EXPRESS OR IMPLIED WARRANTIES, 
+
+The provisions of hs waranty are vali inthe United States only. Some states 
+
+Чо not allow limitations on how long an implied warranty lasts ог exclusion of 
+‘consequential or incidental damages. so the above Limitations and exclusion may not 
+Apply to yon, Ts waranty gres yow psi eal igh, a03 you may do hne 
+
+

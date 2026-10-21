@@ -59,6 +59,23 @@
   crt.className = 'crt-overlay';
   crt.style.display = 'none';
 
+  var visionPanel = document.createElement('div');
+  visionPanel.className = 'vision-panel';
+  visionPanel.id = 'vision-panel';
+  visionPanel.innerHTML =
+    '<div class="vision-head"><span>AI VISION</span><span>32×32</span></div>' +
+    '<div class="vision-body">' +
+      '<canvas id="vision-preview" width="32" height="32"></canvas>' +
+      '<div class="vision-status">' +
+        '<div><span>SRC</span> <b id="vision-source">NONE</b></div>' +
+        '<div><span>MODE</span> <b id="vision-mode">IDLE</b></div>' +
+        '<div><span>FRAME</span> <b id="vision-frame">0</b></div>' +
+      '</div>' +
+    '</div>';
+  var visionPreviewCtx = visionPanel.querySelector('#vision-preview').getContext('2d');
+  var visionPreviewPixels = visionPreviewCtx.createImageData(32, 32);
+  var visionPreviewCount = 0;
+
   var mq = window.matchMedia('(min-width: 1024px)');
   function placeStage(){
     var host = mq.matches
@@ -67,7 +84,9 @@
     if(host){
       if(stage.parentNode !== host) host.insertBefore(stage, host.firstChild);
       if(crt.parentNode !== host) host.appendChild(crt);
+      if(visionPanel.parentNode !== host) host.appendChild(visionPanel);
     }
+    setVisionPanel('idle', visionSource());
     window.dispatchEvent(new Event('resize'));
   }
   if(mq.addEventListener) mq.addEventListener('change', placeStage);
@@ -150,6 +169,7 @@
       playing = true; showStandby(false); setLeds(true);
       enableKeyboard();
       setStatus(currentName.toUpperCase().slice(0, 32), 'NOW PLAYING');
+      setTimeout(captureVision, 300);
     };
     window.EJS_onExit = function(){
       playing = false; showStandby(true); setLeds(false);
@@ -981,14 +1001,16 @@
     if(AgentOpts.autoTune) antonSay('watching the copilot…');
     if(!playing) powerOn();
     startAgentEngine();
-    updateAutoBtn(); updateAgentHud();
+    setVisionPanel('autopilot', visionSource());
+    updateAutoBtn(); updateAgentHud(); updateAiStatus();
   }
   function stopAutopilot(){
     autoOn = false;
     stopAgentTimers();
     autoPilots = [];
     releaseAuto();
-    updateAutoBtn(); updateAgentHud(); updateScreenWatch();
+    setVisionPanel('idle', visionSource());
+    updateAutoBtn(); updateAgentHud(); updateScreenWatch(); updateAiStatus();
   }
   function toggleAutopilot(){ if(autoOn) stopAutopilot(); else startAutopilot(); }
   function toggleHud(){ AgentOpts.hud = !AgentOpts.hud; saveAgentOpts(); updateAgentHud(); }
@@ -1141,51 +1163,19 @@
   var recCanvas = null, recCtx = null;
   var REC_MAX_MS = 180000;
   var BTN_NAMES = { 0: 'B', 1: 'Y', 2: 'Select', 3: 'Start', 4: 'Up', 5: 'Down', 6: 'Left', 7: 'Right', 8: 'A', 9: 'X', 10: 'L', 11: 'R' };
-  /* ---------- iframe-safe screen source ----------
-     The emulator canvas normally sits in #ejs-stage, but hosts sometimes
-     mount the player (or this whole app) inside an iframe. Search the
-     document and any same-origin child frames for the REAL emulator
-     surface — never the CSS-art handheld/desktop screens — so the sense
-     loop keeps seeing pixels wherever the game is rendered. */
-  var EJS_CANVAS_SELECTOR = '#ejs-stage canvas, canvas.ejs_canvas, .ejs_parent canvas';
-  function visionCanvasIn(root, depth){
-    if(!root || depth < 0) return null;
-    var c = null;
-    try{ c = root.querySelector(EJS_CANVAS_SELECTOR); }catch(e){}
-    if(c && c.width && c.height) return c;
-    var frames = [];
-    try{ frames = root.querySelectorAll('iframe'); }catch(e2){}
-    for(var i = 0; i < frames.length; i++){
-      try{
-        var doc = frames[i].contentDocument;
-        if(!doc) continue;
-        c = visionCanvasIn(doc, depth - 1);
-        if(c) return c;
-      }catch(e3){} /* cross-origin frame: unreadable, keep looking */
-    }
+  /* ---------- main emulator screen source ----------
+     Vision reads only the emulator canvas mounted in #ejs-stage. It never
+     searches iframes or parent documents, so menus, chrome and other page
+     canvases cannot leak into the AI's field of view. */
+  function gameCanvas(){
+    try{
+      var c = stage.querySelector('canvas.ejs_canvas') || stage.querySelector('canvas');
+      if(c && c.width && c.height) return c;
+    }catch(e){}
     return null;
   }
-  function gameCanvas(){
-    var c = null;
-    try{ c = stage.querySelector('canvas'); }catch(e){}
-    if(c && c.width && c.height) return c;
-    c = visionCanvasIn(document, 3);
-    if(c) return c;
-    /* if this app is the iframe, the player itself is still local, so this
-       parent probe is only a last resort for split host/player layouts */
-    try{
-      if(window.parent && window.parent !== window) c = visionCanvasIn(window.parent.document, 1);
-    }catch(e4){}
-    return c;
-  }
   function visionSource(){
-    var c = gameCanvas();
-    if(!c) return 'none';
-    var embedded = false;
-    try{ embedded = !!(window.parent && window.parent !== window); }catch(e){}
-    var where = 'page';
-    try{ if(!stage.contains(c)) where = 'iframe'; }catch(e2){}
-    return embedded ? where + ' (embedded)' : where;
+    return gameCanvas() ? 'main emulator' : 'none';
   }
   function bytesB64(a){
     if(!a) return null;
@@ -1195,7 +1185,24 @@
   }
   function grayB64(g){ return bytesB64(g); }
   function rgbB64(rgb){ return bytesB64(rgb); }
-  function captureVision(){
+  function setVisionPanel(mode, src){
+    var s = document.getElementById('vision-source');
+    var m = document.getElementById('vision-mode');
+    if(s) s.textContent = src === 'main emulator' ? 'MAIN' : 'NONE';
+    if(m) m.textContent = mode === 'autopilot' ? 'AUTO' : mode.toUpperCase();
+  }
+  function drawVisionPreview(rgb){
+    if(!visionPreviewCtx || !rgb) return;
+    var px = visionPreviewPixels.data;
+    for(var i = 0, j = 0; i < px.length; i += 4, j += 3){
+      px[i] = rgb[j]; px[i + 1] = rgb[j + 1]; px[i + 2] = rgb[j + 2]; px[i + 3] = 255;
+    }
+    visionPreviewCtx.putImageData(visionPreviewPixels, 0, 0);
+    var f = document.getElementById('vision-frame');
+    if(f) f.textContent = ++visionPreviewCount;
+    setVisionPanel(autoOn ? 'autopilot' : 'preview', 'main emulator');
+  }
+  function captureVision(wantRgb){
     try{
       var src = gameCanvas();
       if(!src || !src.width) return null;
@@ -1207,13 +1214,17 @@
       recCtx.drawImage(src, 0, 0, 32, 32);
       var d = recCtx.getImageData(0, 0, 32, 32).data;
       var g = new Uint8Array(1024);
-      var rgb = new Uint8Array(3072);
+      var rgb = wantRgb === false ? null : new Uint8Array(3072);
       for(var i = 0, j = 0; i < d.length; i += 4, j++){
         g[j] = (d[i] * 299 + d[i + 1] * 587 + d[i + 2] * 114) / 1000 | 0;
-        var o = j * 3;
-        rgb[o] = d[i]; rgb[o + 1] = d[i + 1]; rgb[o + 2] = d[i + 2];
+        if(rgb){
+          var o = j * 3;
+          rgb[o] = d[i]; rgb[o + 1] = d[i + 1]; rgb[o + 2] = d[i + 2];
+        }
       }
-      return { gray: g, rgb: rgb };
+      var out = { gray: g, rgb: rgb };
+      if(rgb) drawVisionPreview(rgb);
+      return out;
     }catch(e){ return null; }
   }
   function frameGray(){
@@ -1227,22 +1238,12 @@
   function frameB64(){
     return grayB64(frameGray());
   }
-  /* ---------- live color vision loop (also across iframe) ------------
-     Samples NTSC-style 262-line fields at a 60Hz cadence, independent of
-     the game's 30fps frame pairs. Each field is half vertical resolution,
-     so two consecutive field packets make one 30fps display frame. The
-     32x32 color view stays alive even with the autopilot idle, mirrors
-     into the AI Lab preview, and — when this page is hosted in an iframe —
-     posts every field to the parent so a gameplay AI sees the same timing.
-     Packets carry rgb24 for color plus gray8 for fast motion maths. Any
-     frame can ask for one with {type:'snesboy:vision/request'}. */
+  /* ---------- on-demand vision ----------
+     Vision reads the main emulator screen only when the autopilot, recorder,
+     or SNESBoyVision asks for a frame. There is no background 60Hz capture
+     loop and no duplicated field/frame stream. */
   var VISION_FRAME = 'snesboy:vision/frame';
-  var VISION_REQUEST = 'snesboy:vision/request';
-  var VISION_FIELD_HZ = 60;
-  var VISION_FIELD_MS = 1000 / VISION_FIELD_HZ;
-  var visionTimer = null, visionImg = null;
-  var visionFrames = 0, visionFpsAt = 0, visionFps = 0, visionSeen = false;
-  var visionField = 0, visionParity = 0, visionClock = 0, visionRaf = 0, visionStatusAt = 0;
+  var visionSeq = 0;
   function visionPacket(g, rgb){
     if(!g || !rgb){
       var f = captureVision();
@@ -1251,53 +1252,16 @@
     }
     var data = grayB64(g), color = rgbB64(rgb);
     if(!data || !color) return null;
-    return { type: VISION_FRAME, version: 2, t: Date.now(),
+    return { type: VISION_FRAME, version: 3, t: Date.now(),
       width: 32, height: 32, format: 'gray8+rgb24/base64',
       data: data, rgb: color, source: visionSource(),
-      field: visionField, parity: visionParity & 1,
-      frame: Math.ceil(visionField / 2), fieldsPerFrame: 2,
-      lines: 262, fieldHz: VISION_FIELD_HZ, halfResolution: true };
-  }
-  function postVision(target, g, rgb){
-    var p = visionPacket(g, rgb);
-    if(!p || !target) return false;
-    try{ target.postMessage(p, '*'); return true; }catch(e){ return false; }
-  }
-  function drawVisionPreview(g, rgb){
-    var cv = document.getElementById('vision-preview');
-    if(!cv || !g) return;
-    try{
-      var ctx = cv.getContext('2d');
-      if(!visionImg) visionImg = ctx.createImageData(32, 32);
-      var d = visionImg.data;
-      for(var i = 0; i < g.length; i++){
-        var o = i * 4, c = i * 3;
-        if(rgb){
-          d[o] = rgb[c]; d[o + 1] = rgb[c + 1]; d[o + 2] = rgb[c + 2];
-        }else{
-          d[o] = d[o + 1] = d[o + 2] = g[i];
-        }
-        d[o + 3] = 255;
-      }
-      ctx.putImageData(visionImg, 0, 0);
-    }catch(e){}
-  }
-  function updateVisionStatus(ok, src){
-    var s = document.getElementById('vision-status');
-    if(s){
-      s.textContent = ok ? ('VISION LIVE · ' + visionFps + ' Hz field · 262 lines · 32×32 color')
-                         : 'NO SIGNAL — power on a game';
-      s.classList.toggle('vision-ok', !!ok);
-    }
-    var m = document.getElementById('vision-source');
-    if(m) m.textContent = 'source: ' + (src || 'none') + ' · loop: ' + (ok ? 'running' : 'waiting') +
-      ' · field ' + visionField + ' ' + (visionParity & 1 ? 'odd' : 'even') + ' · 2 fields = 1×30fps frame';
+      frame: ++visionSeq };
   }
   var aiLoopText = '';
   function updateAiStatus(){
     var e = document.getElementById('ai-loop-status');
     if(!e) return;
-    var parts = ['vision ' + (visionTimer ? '✓' : '—')];
+    var parts = ['vision on demand'];
     if(autoOn){
       parts.push('sense ' + (anyAgentTimer('sense') ? '✓' : '—'));
       parts.push('drive ' + (anyAgentTimer('drive') ? '✓' : '—'));
@@ -1310,52 +1274,6 @@
     var txt = 'loops: ' + parts.join(' · ');
     if(txt !== aiLoopText){ aiLoopText = txt; e.textContent = txt; }
   }
-  function visionTick(){
-    var now = Date.now();
-    var f = captureVision();
-    updateAiStatus();
-    if(!f){ updateVisionStatus(false, 'none'); return; }
-    visionField++;
-    visionParity = visionField & 1;
-    if(!visionSeen){ visionSeen = true; visionFpsAt = now; visionFrames = 0; }
-    visionFrames++;
-    if(now - visionFpsAt >= 1000){
-      visionFps = Math.round(visionFrames * 1000 / (now - visionFpsAt));
-      visionFrames = 0; visionFpsAt = now;
-    }
-    drawVisionPreview(f.gray, f.rgb);
-    if(window.parent && window.parent !== window) postVision(window.parent, f.gray, f.rgb);
-    if(now - visionStatusAt >= 250){
-      visionStatusAt = now;
-      updateVisionStatus(true, visionSource());
-    }
-  }
-  function visionLoop(ts){
-    if(!visionTimer) return;
-    if(!visionClock) visionClock = ts;
-    /* Fixed 60Hz field clock, not the browser's paint rate. If rAF is late
-       (busy game frame) emit the due fields now so the stream stays locked
-       to cadence instead of drifting to the display fps. */
-    var due = Math.floor((ts - visionClock) / VISION_FIELD_MS);
-    if(due > 0){
-      visionClock += due * VISION_FIELD_MS;
-      if(due > 4){ visionClock = ts; due = 1; } /* long stall: resync */
-      for(var i = 0; i < due; i++) visionTick();
-    }
-    visionRaf = requestAnimationFrame(visionLoop);
-  }
-  function startVisionLoop(){
-    if(visionTimer) return;
-    visionTimer = 1;
-    visionClock = 0;
-    visionRaf = requestAnimationFrame(visionLoop);
-    visionTick();
-  }
-  window.addEventListener('message', function(e){
-    var d = e.data;
-    if(!d || d.type !== VISION_REQUEST) return;
-    postVision(e.source);
-  });
   /* Same-document consumers (AI Lab / an agent embedded alongside). */
   window.SNESBoyVision = {
     frame: frameGray,
@@ -1891,7 +1809,6 @@
 
   /* ---------- go ---------- */
   placeStage();
-  startVisionLoop();
   updateAgentHud();
   openDB().then(function(db){
     DB = db;

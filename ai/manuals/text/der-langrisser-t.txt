@@ -1,0 +1,1586 @@
+Copyright © 1995 NCS/Masaya 
+Copyright © 2007 DL Team 
+
+
+This patch is an unlicensed, unsupported and un- 
+official fan work and is not licensed for sale or 
+rent by any party. 
+
+
+Prologue 
+Introduction to the Cast 
+Beginning a New Game 
+Game Controls 
+Preparing for Battle 
+Managing Equipment 
+Hiring Troops 
+Combat System 
+Magic List 
+Icons & Status Bars 
+Class Changing 
+Road to Victory 
+Ending a Scenario 
+About the Translation 
+Credits 
+
+
+04 
+06 
+12 
+13 
+14 
+15 
+16 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+27 
+
+
+C O N T E N T S 
+
+
+Der Langrisser® is © 1995 by NCS/Masaya. Translation is ©2007 by DL Team. 
+This patch is an unlicensed, unsupported and unofficial fan work and is not licensed for sale or rent by any party. 
+
+
+D E R L A N G R I S S E R. 
+
+
+Since the dawn of time, the men and women of El Sallia have grappled 
+with the ever-present threat of darkness ... 
+Long ago, in ancient times, there was a battle among several king- 
+doms in the land. It was a time when chaos and intrigue ruled human 
+hearts. In the flames of war, the Holy King Sieghart forged Langrisser, 
+a sword to vanquish evil, and banished the darkness to the desolate 
+land of Velzeria. 
+The descendants of Lewin, 
+first king of Baldea, were 
+charged with guarding the 
+sword for all time. 
+Hundreds of years later, 
+the greed of a would-be 
+Kaiser wrested the blade 
+from Baldea’s safe-keeping and unleashed darkness upon the land once 
+more. The surviving prince of the fallen kingdom and his comrades defeated 
+the darkness and put to rest an evil god. 
+Centuries of peace reigned in the land, and eventually, Baldea’s 
+role was forgotten. The castle fell into ruin and its heir escaped with 
+his swordsmanship instructor ... 
+Years passed, and a new nation has risen to power in El Sallia. The Ray- 
+guard Empire founded by Kaiser Bernhardt, a former mercenary bent on 
+uniting the lands no matter the means or the cost. To fulfil his ambition, he 
+has claimed Alhazard, Chaos’s Might, the sword of the demon tribe. 
+
+
+An unknown magician supports him and his Four Heavenly Dragons 
+from the shadows in their campaign. The quest has been long and bloody, 
+and few nations dare to stand against the imperial powers aside from 
+Kalxath, a kingdom only a few centuries old. 
+It was in these times that Erwin, a young swordsman, was roaming the 
+lands of El Sallia with his friend Hein, a young magician. The two friends 
+had travelled to many towns on their journeys and known the people’s bit- 
+terness. 
+The two journeyed to a 
+small village on the outskirts 
+of Salrath, a territory once al- 
+lied with Baldea. 
+One day, General Leon of 
+the Imperial Blue Dragon 
+Knights rode into town seeking Liana, a young village girl and shrine 
+maiden whom Hein had known since childhood. As the chaos of battle en- 
+gulfed the village, the two men set out to stop the Imperial forces. 
+Unfortunately, capturing Liana was only the beginning of the Em- 
+pire’s ambitions ... 
+Why were the most honourable knights in the land now petty kid- 
+nappers, and why was Liana a target at all? None could say for cer- 
+tain, and the quest for an answer would be more than Erwin could 
+ever have imagined. 
+And so, the two set off from the village inn ... 
+
+
+4 
+5 
+
+
+In ancient times, people had to battle in order to survive. 
+Their battle for an affluent kingdom became a legend. 
+That legend is known as ... Langrisser. 
+
+
+P R O L O G U E 
+
+
+D E R L A N G R I S S E R. 
+
+
+Rohga 
+A powerful mercenary willing to sell his blade 
+to the highest bidder. 
+
+
+Gladiator 
+
+
+Silver Knight 
+
+
+Assassin 
+
+
+Highlander 
+
+
+Swordsman 
+
+
+High Lord 
+
+
+Knight Master 
+
+
+Sword Master 
+
+
+General 
+
+
+Ranger 
+
+
+Hein 
+A young magician in training that Erwin met 
+on his journeys. 
+
+
+Warlock 
+
+
+Sorcerer 
+
+
+Paladin 
+
+
+Mage 
+
+
+Saint 
+
+
+Archmage 
+
+
+Sage 
+
+
+Sword Master 
+
+
+High Priest 
+
+
+Priest 
+
+
+Erwin 
+A wandering swordsman searching for his 
+instructor’s murderer. 
+
+
+??? 
+
+
+Lord 
+
+
+Silver Knight 
+
+
+High Lord 
+
+
+Swordsman 
+
+
+Highlander 
+
+
+Sage 
+
+
+General 
+
+
+Sword Master 
+
+
+Knight Master 
+
+
+D E R L A N G R I S S E R. 
+
+
+Lone Heroes 
+Introduction to the Cast 
+
+
+In Der Langrisser, you take the role of Erwin, a wandering swordsman 
+who is roaming the countryside on a quest to avenge his instructor who was 
+murdered several years prior. 
+Depending on how you play the game, there are 16 other heroes who can 
+join Erwin’s entourage. Each choice—even one as 
+simple as which enemies to defeat and which to 
+let live—will push Erwin’s fate in one direction 
+or another. 
+The only character guaranteed to 
+stand by his side, come what may, is 
+Hein, a young mage he befriended on 
+his journey. 
+Each character has his own motiva- 
+tions for fighting in the continental 
+war, and depending on whether 
+their ideals and Erwin’s align, they 
+may choose to fight beside him. 
+And his ideals are just as apt 
+to change. 
+During the war, he will continually 
+learn more about himself and why he 
+chooses to fight for the shattered lands. 
+These pages are intended to provide the 
+player with an introduction to each character, as well 
+as the character’s basic class change paths (see Page 21). Each branch 
+will present two new options. Some paths can lead to a secret “Fifth 
+Class,” but you will have to discover those on your own. 
+
+
+6 
+7 
+
+
+Lester 
+A former pirate who has devoted himself to 
+protecting a sorceress. 
+
+
+Pirate 
+
+
+Captain 
+
+
+Assassin 
+
+
+Dragon Knight 
+
+
+Serpent Knight 
+
+
+Swordsman 
+
+
+Dragon Lord 
+
+
+Serpent Lord 
+
+
+Knight Master 
+
+
+Sword Master 
+
+
+Keith 
+The retainer of Kalxath and commander of its 
+famous aerial knights. 
+
+
+Hawk Knight 
+
+
+Hawk Lord 
+
+
+Lord 
+
+
+Serpent Knight 
+
+
+Dragon Knight 
+
+
+High Lord 
+
+
+Serpent Lord 
+
+
+Dragon Lord 
+
+
+Knight Master 
+
+
+General 
+
+
+Cherie 
+The rebellious princess of Kalxath Kingdom 
+who wants to see the world. 
+
+
+Hawk Knight 
+
+
+Hawk Lord 
+
+
+Silver Knight 
+
+
+Swordsman 
+
+
+Dragon Knight 
+
+
+Unicorn Knight 
+
+
+Ranger 
+
+
+Sage 
+
+
+Dragon Lord 
+
+
+Knight Master 
+Lána 
+The long-lost twin of Liana who was mysteri- 
+ously kidnapped after birth. 
+
+
+Sister 
+
+
+Cleric 
+
+
+Sorcerer 
+
+
+Saint 
+
+
+Priest 
+
+
+Mage 
+
+
+Dragon Lord 
+
+
+Sage 
+
+
+High Priest 
+
+
+Archmage 
+
+
+8 
+9 
+
+
+Aaron 
+An old swordsman who has been watching 
+the world for too long ... 
+
+
+Fighter 
+
+
+Lord 
+
+
+Paladin 
+
+
+High Lord 
+
+
+Swordsman 
+
+
+Saint 
+
+
+Ranger 
+
+
+Sword Master 
+
+
+Sage 
+
+
+Dragon Lord 
+
+
+Army of Light 
+
+
+Scott 
+The adopted son, student and heir to the Lord 
+of Salrath Country. 
+
+
+Knight 
+
+
+Lord 
+
+
+Silver Knight 
+
+
+High Lord 
+
+
+Swordsman 
+
+
+Highlander 
+
+
+General 
+
+
+Sword Master 
+
+
+Knight Master 
+
+
+Dragon Lord 
+
+
+Liana 
+A maiden from the shrine of light who lost her 
+parents at birth. 
+
+
+Sister 
+
+
+Cleric 
+
+
+Paladin 
+
+
+Priest 
+
+
+Saint 
+
+
+Mage 
+
+
+High Priest 
+
+
+Sage 
+
+
+Archmage 
+
+
+Sword Master 
+
+
+D E R L A N G R I S S E R. 
+
+
+Lána (Dark Princess) 
+The long-lost twin of Liana who was mysteri- 
+ously kidnapped after birth. 
+
+
+Shaman 
+
+
+Necromancer 
+
+
+Sorcerer 
+
+
+Saint 
+
+
+Summoner 
+
+
+Mage 
+
+
+Dragon Lord 
+
+
+Sage 
+
+
+Zauberer 
+
+
+Archmage 
+
+
+Sonya 
+A half-human half-demon girl who has an axe 
+to grind with all humanity. 
+
+
+Knight 
+
+
+Assassin 
+
+
+Silver Knight 
+
+
+Swordsman 
+
+
+Mage 
+
+
+Highlander 
+
+
+General 
+
+
+Sword Master 
+
+
+Archmage 
+
+
+Knight Master 
+
+
+Osto 
+A minion of darkness with an insatiable urge 
+for human flesh. 
+
+
+Werewolf 
+
+
+Kerberos 
+
+
+Dullahan 
+
+
+Phoenix 
+
+
+Minotaur 
+
+
+Living Armour 
+
+
+Great Dragon 
+
+
+Master Dino 
+
+
+Stone Golem 
+
+
+Vampire Lord 
+
+
+Egbert 
+The General of the Dark Dragon Sorcerers 
+and Kaiser’s counsel. 
+
+
+Warlock 
+
+
+Sorcerer 
+
+
+Necromancer 
+
+
+Saint 
+
+
+Mage 
+
+
+Summoner 
+
+
+General 
+
+
+Sage 
+
+
+Archmage 
+
+
+Zauberer 
+
+
+Vargas 
+Strong as a bear and the General of the 
+Blazing Dragon Army. 
+
+
+Fighter 
+
+
+Lord 
+
+
+Assassin 
+
+
+High Lord 
+
+
+Swordsman 
+
+
+Serpent Knight 
+
+
+Archmage 
+
+
+General 
+
+
+Sword Master 
+
+
+Serpent Lord 
+
+
+Imelda 
+The cold, narcissistic lady commander of the 
+Water Dragon Navy. 
+
+
+Warlock 
+
+
+Sorcerer 
+
+
+Assassin 
+
+
+Mage 
+
+
+Saint 
+
+
+Swordsman 
+
+
+Zauberer 
+
+
+Archmage 
+
+
+Sage 
+
+
+Sword Master 
+
+
+10 
+11 
+
+
+Imperial Generals 
+
+
+Leon 
+A young idealistic knight who commands the 
+Blue Dragon Knights. 
+
+
+Knight 
+
+
+Lord 
+
+
+Silver Knight 
+
+
+High Lord 
+
+
+Swordsman 
+
+
+Highlander 
+
+
+General 
+
+
+Sword Master 
+
+
+Knight Master 
+
+
+Dragon Lotd 
+
+
+Esto 
+A parasitic monster loyal to the Prince of 
+Darkness, Böser. 
+
+
+Scylla 
+
+
+Serpent 
+
+
+Lich 
+
+
+Phoenix 
+
+
+Kraken 
+
+
+Succubus 
+
+
+Great Dragon 
+
+
+Jörmungandr 
+
+
+Vampire Lord 
+
+
+Stone Golem 
+
+
+Army of Darkness 
+
+
+D E R L A N G R I S S E R. 
+
+
+12 
+13 
+
+
+D E R L A N G R I S S E R. 
+
+
+Beginning a New Game 
+
+
+When you first load your Der Langrisser cartridge, you will be prompted 
+to press START at the title screen. After you have an existing game save, 
+you will be given options to START or 
+LOAD. Selecting START allows you to begin 
+a new game. 
+At the start of a new game, the player is 
+taken to the Holy Realm, where Lushiris, 
+the goddess of Light, will explain the hero’s 
+mission and ask a series of questions to de- 
+termine a player’s most appropriate type 
+and alignment. 
+You will be prompted to rename the 
+main character, Erwin. He is the only char- 
+acter in the game whose name you are al- 
+lowed to choose. 
+Following naming, the player will be 
+asked ethical questions with three possible 
+answers each. Each answer leads to new 
+questions which balance your character’s 
+class, statistics and number of hireable 
+troops, and which sometimes award items. 
+At the end of the quiz, you will be asked 
+to confirm your character choice. You may 
+repeat the quiz if you do not like the results. 
+Once a character has been accepted, Lushiris will explain the basics of 
+battle in El Sallia: unit affinities, healing, command range and other impor- 
+tant gameplay concepts. 
+
+
+Game Controls 
+
+
+Der Langrisser uses all of the buttons available on the Super Nintendo 
+Entertainment System control pad except for the L Trigger. 
+
+
+Table of Buttons 
+•Directional Pad – Moves the game’s cursor up, down, left or right. 
+•SELECT Button – Display unit’s move range 
+•START Button – Open scenario menus 
+•B Button – Cancel action / close menu 
+•A Button – Confirm action / open menu 
+•Y Button – Move cursor to next available commander 
+•X Button – Speed up scrolling of the screen 
+•L Trigger – Unused 
+•R Trigger – Toggle display of unit HP and attributes 
+
+
+14 
+15 
+
+
+D E R L A N G R I S S E R. 
+
+
+Preparing for Battle 
+
+
+At the beginning of a scenario, the prologue information is displayed on 
+the world map screen. Erwin’s stationary position indicates where on the El 
+Sallian map the battle is taking place. 
+Following the introduction, players will 
+be notified of the victory and failure condi- 
+tions for the battle. Be advised — there are 
+conditions for some battles which are not 
+revealed to you on this screen. 
+At the start of actual scenario play, 
+you will enter a menu system on the cur- 
+rent scenario map. Using this menu, you 
+can preview what type of terrain exists 
+in this scenario, who the enemy com- 
+manders are and which units they posess and make 
+your own preparations. 
+You will be shown a list of commanders currently in 
+your entourage. Commanders will have three actions 
+available: Hire Troops, Equipment and Placement. 
+Selecting the Hire Troops option allows you to pick 
+which subunits to assign a commander. It is covered in 
+depth on Pages 16 – 17. 
+The Equipment menu allows you to purchase and sell 
+equipment, and change the commander’s current equip- 
+ment. It is explained in detail on Page 15. 
+Selecting Position allows you to choose where to place 
+a commander and his troops. You may place any commander on 
+any flag marker on the map. 
+
+
+Managing Equipment 
+
+
+The second step of preparing for battle is to purchase and equip new 
+items. Selecting the Equipment option will bring you to this screen. 
+The menu presents the player with three options: Equip, Buy and Sell. 
+Selecting Equip allows a commander to equip new items from the main in- 
+ventory. If an item is incompatible with the commander’s class, it will be 
+darkened. Selecting No Change will allow the commander to keep one item 
+equipped while changing another. For example, if Erwin has the Long Bow 
+equipped, but you only want to change his armour, you would select No 
+Change for the first option, and the new armour for the second. 
+Selecting Buy allows characters to purchase items. Each scenario’s shop 
+has different items available, and some can only be purchased in certain sce- 
+narios. Equipment is impressively expen- 
+sive, so only shell out P to equip the 
+character most in need of a status boost. 
+Commanders who are unable to equip a 
+given item will be darkened when you move 
+the cursor over it. Characters who can 
+equip it will have the item’s potential bene- 
+fits reflected in their AT and DF properties. 
+Pressing SELECT while highlighting an 
+item will bring up a window explaining its 
+finer details. Some items offer more 
+bonuses to their wearer than the numbers alone can show ... 
+The last option is Sell, which allows you to sell your inventory for P. Since 
+you can only carry a limited number of items, it is a good idea to sell off any- 
+thing no one will ever use. The game will prevent you from selling certain 
+key items. 
+
+
+16 
+17 
+
+
+D E R L A N G R I S S E R. 
+
+
+Hiring Troops 
+
+
+The last step in preparing for battle is hiring troops. It is a good idea 
+to take advantage of the Position command to scroll the scenario map 
+and see what guns the enemies are bring- 
+ing to the fight. 
+If the scenario has a lot of water, con- 
+sider Sailor units. If the enemy is using 
+cavalry, then spearmen will be the choice 
+of the day. If you are fighting undead 
+monsters, then monk-type units will be 
+the most useful. 
+In the most basic sense, unit types op- 
+erate like rock, paper, scissors. 
+However, 
+it 
+does get more complicated when taking terrain 
+into account. For a full chart of unit affinities, 
+please refer to the next page. 
+Unlike Langrisser and Langrisser II, com- 
+manders can only hire one type of unit in this 
+game. There is no opportunity for your com- 
+manders to mix and match troops—even though 
+your opponents can. 
+After selecting a troop unit from you list, a 
+box will pop up allowing you to choose how 
+many units to hire. The high costs of stronger 
+troops may be a major factor in determining how 
+many you can hire. 
+Select Confirm to hire your troops and exit. 
+
+
+Defense 
+
+
+Attack 
+
+
+Soldier 
+
+
+Monk 
+
+
+Spearmen 
+
+
+Cavalry 
+
+
+Dragoon 
+
+
+Flier 
+
+
+Bandit 
+
+
+Sailor 
+
+
+Gel 
+
+
+Demon 
+
+
+Monster 
+
+
+Barbarian 
+
+
+Magician 
+
+
+Ghost 
+
+
+Undead 
+
+
+Bowman 
+
+
+Ballista 
+
+
+Dragon 
+
+
+Soldier 
+Ë Ò Ò ¿ 
+ä ä 
+
+
+Monk 
+Ë Ò Ò ¿ 
+Ë Ë 
+Ë Ë ä ä 
+
+
+Spearmen Ò Ò 
+Ë Ë ¿ 
+Ò 
+Ò 
+Ò 
+ä ä 
+
+
+Cavalry Ë Ë Ò 
+¿ Ë Ë 
+Ë Ë 
+ä ä 
+
+
+Dragoon Ë Ë 
+¿ Ë Ë 
+Ë Ë 
+ä ä 
+
+
+Flier ä ä ä ä ä 
+ä ä 
+ä ä 
+Ò 
+
+
+Bandit 
+Ë Ò Ò ¿ 
+ä ä 
+
+
+Sailor 
+Ë Ò Ò ¿ 
+ä ä 
+
+
+Gel 
+Ò 
+
+
+Demon 
+Ò 
+
+
+Monster 
+
+
+Barbarian 
+Ë Ò Ò ¿ 
+ä ä 
+
+
+Magician 
+Ë Ò Ò ¿ 
+ä ä 
+
+
+Ghost 
+Ò 
+
+
+Undead 
+Ò 
+
+
+Bowman ¿ ¿ ¿ ¿ ¿ Ë ¿ ¿ 
+¿ ¿ 
+
+
+Ballista ¿ ¿ ¿ ¿ ¿ 
+¿ ¿ 
+¿ ¿ 
+
+
+Dragon 
+
+
+ËAdvantage 
+äSlight Advantage 
+¿Slight Disadvantage 
+ÒDisadvantage 
+
+
+Chart of Troop Affinity 
+
+
+18 
+19 
+
+
+D E R L A N G R I S S E R. 
+
+
+Combat System 
+
+
+After starting the battle, you will have a movable cursor. Selecting 
+enemy units will display their information; selecting your own units will 
+allow you to assign them actions. 
+Most troops have only two options: 
+Move and Attack. A few troops have Magic. 
+Commanders have a few more: Rally 
+and Orders, which expands to show Battle, 
+Charge, Defend and Manual. Rally allows a 
+commander to sacrifice his turn and re- 
+cover 3HP and 2MP, and Orders control 
+how the commander’s unmoved units will 
+behave when you end your turn. 
+Some classes will also have options for 
+Magic and Summon. Magic allows you to 
+cast spells, and Summon will allow you to 
+bring in a monster that you control. Sum- 
+moned monsters behave like normal units 
+and also recieve a bonus for being within 
+its commander’s flashing command range. 
+After selecting an option, you will be 
+presented with a new animated cursor in- 
+dicating your action: Boots for move, a 
+Sword for attack, a Wand for magic. Move 
+the cursor to the target tile you want to act 
+on and press A Button to confirm the action. 
+A Move action will present an Attack cursor if there are targets to attack 
+near where the unit’s movement ended. 
+
+
+Spell Name 
+Targets 
+MP 
+Description 
+
+
+Magic Arrow 
+Single Enemy 
+1 
+A fireball aimed at the enemy 
+
+
+Blast 
+Single Enemy 
+10 A powerful ball of pure energy 
+
+
+Thunder 
+Enemy Group 
+4 
+Sends thunder crashing down 
+
+
+Fireball 
+Enemies in Range 
+2 
+A focused explosion 
+
+
+Meteo 
+Enemies in Range 
+8 
+Rains meteors from the heavens 
+
+
+Blizzard 
+Enemies in Range 
+3 
+A focused snowblast 
+
+
+Tornado 
+Enemies in Range 
+2 
+Calls forth intense winds 
+
+
+Turn Undead 
+Enemies in Range 
+5 
+Destroys all undead within range 
+
+
+Earthquake 
+Enemies in Range 
+12 Shakes the ground violently 
+
+
+Heal 1 
+Allies in Range 
+2 
+Recovers 3 HP 
+
+
+Heal 2 
+Allies in Range 
+4 
+Recovers all HP 
+
+
+Force Heal 1 
+Ally Group 
+3 
+Recovers 3 HP 
+
+
+Force Heal 2 
+Ally Group 
+6 
+Recovers all HP 
+
+
+Sleep 
+Enemies in Range 
+4 
+Puts enemies to sleep 
+
+
+Mute 
+Enemy Commander 
+3 
+Seals the enemy’s magic 
+
+
+Protection 1 
+Ally Group 
+2 
+Raises DF by 3 for one turn 
+
+
+Protection 2 
+Ally Group 
+4 
+Raises DF by 5 for one turn 
+
+
+Attack 1 
+Ally Group 
+2 
+Raises AT by 3 for one turn 
+
+
+Attack 2 
+Ally Group 
+4 
+Raises AT by 5 for one turn 
+
+
+Zone 
+Single Enemy 
+6 
+Prevents unit movement 
+
+
+Teleport 
+Ally Group 
+5 
+Teleports unit to destination 
+
+
+Resist 
+Ally Group 
+2 
+Raises MDF by 15 for one turn 
+
+
+Charm 
+Enemy Group 
+6 
+Causes enemy to attack its allies 
+
+
+Again 
+Single Ally 
+10 Restores a unit’s turn 
+
+
+Quick 
+Ally Group 
+5 
+Raises MV by 3 for one turn 
+
+
+Decline 
+Enemy Group 
+5 
+Lowers MDF by 15 for one turn 
+
+
+Magic List 
+
+
+20 
+21 
+
+
+D E R L A N G R I S S E R. 
+
+
+Icons & Status Bars 
+
+
+When battling in El Sallia, it’s especially important to pay attention to 
+the icons and prompts places on the screen. With a little practice, one glance 
+at a unit will be all you need to learn everything about it. 
+The first unit detail is the character’s icon itself. The icon can show you 
+what type of unit it is: commander or troop, 
+and possibly what kind of commander. 
+The four corners bordering the unit 
+are also key indicators of unit attributes. 
+The top-left icon shows what kind of com- 
+mand the unit is under. Units with the Bat- 
+tle icon will spread out. Units with the 
+Charge icon will be more likely to attack— 
+even to their own peril. Units with a Defend icon will not attack unless con- 
+ditions favour them. The Manual setting disables automatic movement 
+The bottom-right icon shows how many HP a unit has, with 10 being the 
+maximum for any unit. For troops, this is how many are still able to fight in 
+the unit. An enchanted commander and his troops will have a magic staff 
+appear at the top-right of the character block. 
+If you move the cursor over a commander or troop, the bottom window 
+will display all even more specific details about it as diagrammed below: 
+
+
+Battle Defend HP 
+
+
+Charge Manual 
+
+
+Terrain Bonus Unit Name Class 
+
+
+Combat Bonus Level Attack Defence HP MP 
+
+
+Class Changing 
+
+
+Commanders gain EXP by battling and de- 
+feating other units, or through casting spells. 
+As a commander levels, he will learn new magic 
+and gain status bonuses. 
+When a commander reaches Level 10, he will 
+have an opportunity to change his class to one of 
+two options. The class branches for each charac- 
+ter are explained on Pages 7 – 11 of this in- 
+struction manual. 
+Carefully review the benefits of each class 
+before confirming a change. The class win- 
+dow will in- 
+form you which 
+bonuses will be 
+gained during this 
+class. 
+After a class 
+change, the only immediately available 
+bonuses are increased command range, 
+troop count and available unit types. Any 
+spells listed will be gained during Level Ups 
+on this class. 
+Also, try to think about how enemy commanders of this class have 
+fought. Different classes have different types of attacks. For example, Sor- 
+cerers cannot strike until the end of combat, which leaves them open to at- 
+tack. Swordsmen, on the other hand, are guaranteed first strike. 
+The class system makes for an infinite number of play variations. 
+
+
+Road to Victory 
+
+
+At any point during gameplay, you can review the victory conditions 
+for the current scenario by pressing START, then selecting Objectives 
+from the menu. 
+The Objectives window explains the 
+conditions to ensure your victory, as well as 
+the ones that can spell doom for Erwin and 
+his entourage. 
+Pay special attention to scenarios 
+which have a turn limit. Some scenarios 
+must be completed within a specific num- 
+ber of turns; otherwise, you will automati- 
+cally 
+lose. 
+When 
+nearing the last 
+five turns, you will have to move fast—even if it 
+means sacrificing EXP. 
+Some scenarios have multiple endings which 
+can lead you in new directions in the game, de- 
+pending on how you complete them. Often you 
+will be faced with choosing to defeat one enemy 
+or another, or to defeat all enemies or trigger 
+an event with one opponent. 
+Never underestimate the small decisions 
+in El Sallia. Killing one extra commander could 
+close the door on one possible future. 
+After clearing a scenario, you will be as- 
+signed extra EXP before continuing to to the 
+Spoils of War assignments. 
+
+
+22 
+23 
+
+
+D E R L A N G R I S S E R. 
+
+
+Ending a Scenario 
+
+
+When a scenario is completed, the End Scenario sequence of 
+events begins. 
+The first part of a scenario end is the 
+Spoils of War calculation. Your present 
+commanders will be listed along with their 
+hired unit types. For each single unit which 
+survived combat, you will be awarded +1 to 
+a running total. Whenever you earn 15 
+points, the second value increases by one. 
+Try to preserve as many of your units 
+as possible. During this screen, your men 
+will pay you back. Each time the right value 
+increases, you will be awarded an extra 
+A+1 D+1 to your command bonus. 
+How is that for gratitude? 
+During the next phase, each enemy 
+commander and unit is displayed—even 
+ones which may have lain hidden due to un- 
+triggered events. 
+Defeated units will explode, awarding 
+you El Sallia’s favourite currency: P. 
+You will be prompted to press a button 
+and continue on to the Save screen. This 
+screen allows you to make a Scenario Save, 
+unlike the mid-scenario save which is only one temporary slot. It may be a 
+good idea to save in multiple slots when a key scenario comes up. 
+Select “Next scenario” to continue with the game. 
+
+
+glitch was one which prevented your selected name for Erwin from being 
+used during the ending dialogue. 
+But were that all the improvements, this wouldn’t be a Sobodash and 
+byuu translation project. 
+The number of colors used in the game fonts was tripled, and 
+Sobodash designed seven new typefaces for the game using a 
+SNES, an NTSC television and a Mario Paint mouse. The fonts look 
+perfect on an actual TV screen—something emulation technology 
+has only just this year begun to support. 
+byuu hacked, repositioned and scaled every single window in 
+the game to make the English version use less screen space than 
+even the Japanese original, making for a much cleaner game. 
+Sobodash also hacked new dialogue window colors based 
+on later Langrisser remakes, and byuu altered the Text Speed 
+game option to allow toggling the new and classic colors. Every 
+single window of dialogue in the game was manually formatted 
+using custom tools. The windows are formatted so that connecting 
+the line endings will form a smooth arc. 
+This translation has been seven years in the making, and for most of the 
+team, it is their magnum opus in the field. 
+
+
+24 
+25 
+
+
+D E R L A N G R I S S E R. 
+
+
+About the Translation 
+
+
+The Der Langrisser translation project was founded on the ruins of No- 
+Life Translations, a group formed in 2000 to carry on the work of Warui 
+Toransu from 1998. Despite this history, no work created by Warui Toransu 
+is contained in this translation. 
+Derrick Sobodash and John Grathwohl met in 2001 through 
+their work in the English-language Langrisser community. After 
+the former group fell apart, Sobodash carried on the translation 
+effort with the help of byuu, author of the bsnes Super Nintendo 
+Entertainment System (SNES) emulator and an expert in pro- 
+gramming for the system’s hardware. 
+With byuu’s help, the translation was able to achieve what 
+had been deemed impossible by other prominent translators: full 
+proportional fonts. 
+Der Langrisser is one of the more sloppily-programmed SNES 
+titles—frequent glitches that cause character graphics to corrupt 
+during gameplay are a testament to its multitude of problems. 
+However, the team has remedied many known glitches for the Eng- 
+lish translation. Several blocks of dialogue where the Japanese game showed 
+the wrong character portrait were corrected and the game’s math engine 
+was updated to show negative numbers in all menus. Perhaps the oddest 
+
+
+26 
+27 
+
+
+D E R L A N G R I S S E R. 
+
+
+Credits 
+
+
+Japanese Development Credits 
+Executive Producer ... Mitsuo Shibutani 
+Programmers ... Kazuhisa Mitani; Kouichi Fujiwara 
+Planning & Scenario ... Fuuma Yatou; Masayuki Suzuki; Hiroaki Hori; 
+Akira Hazuki 
+Graphics ... Masayuki Suzuki; Shuuichi Kono; Takeyoshi Akane; 
+Noriko Tasaki; Takahide Saitou 
+Sound Producer ... Isao Mizoguchi 
+Composition & Programming ... Noriyuki Iwadare 
+Sound Operator ... Kouji Yoshimura; Kouen Shibuya; Sanae Kasahara 
+Sound Programmer ... Dougen Shibuya 
+Character Design ... Satoshi Urushihara 
+Industry ... Toshiyuki Komori; Kouichirou Terada 
+Public Relations ... Hiroaki Satou 
+Technical Advisers ... Toshihiko Matsuda; Nobuya Takayoshi 
+Producer and Director ... Shinjiro Kouda 
+Assistant Director ... Hiroaki Hori 
+
+
+English Translation Credits 
+Programming ... byuu 
+Translation ... Derrick Sobodash; Eddie Stemkowski; Hsing Chen; 
+Benjamin Whitting; ElfShadow; Haruka 
+Editing ... John “MK” Grathwohl; Derrick Sobodash; Tyson Anderson; 
+Eric H. Krieger 
+Graphics & Typefaces ... Derrick Sobodash 
+Instruction Manual ... Derrick Sobodash 
+
+
+Das Ende 
+
+
+Designed in QuarkXpress 7.0. Set in the Bitstream Vera font family. 
+
+

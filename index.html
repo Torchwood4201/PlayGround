@@ -37,12 +37,21 @@
     .rom-btn-export { background: #1d4ed8; color: #fff; padding: .35rem .6rem; font-family: inherit; font-size: 8px; border-radius: 4px; border: none; cursor: pointer; font-weight: bold; }
     #btn-record.rec-on { background: #dc2626; }
     .agent-hud { position: absolute; top: 6px; left: 6px; z-index: 2; pointer-events: none; font-size: 8px; background: rgba(0,0,0,.65); color: #7CFC00; padding: 4px 6px; border-radius: 6px; white-space: nowrap; }
-    .vision-panel { display: flex; gap: .75rem; align-items: center; background: #111827; border: 1px solid #5b358c; border-radius: .5rem; padding: .6rem; margin: .5rem 0; }
-    #vision-preview { width: 128px; height: 128px; flex: 0 0 auto; image-rendering: pixelated; image-rendering: crisp-edges; border-radius: .35rem; background: #000; border: 1px solid #5b358c; }
-    .vision-text { display: flex; flex-direction: column; gap: .3rem; min-width: 0; }
-    #vision-status { font-size: 9px; color: #f87171; font-weight: bold; }
-    #vision-status.vision-ok { color: #4ade80; }
-    #vision-source { font-size: 8px; color: #9ca3af; word-break: break-word; }
+    .vision-panel { position: absolute; right: 8px; bottom: 8px; z-index: 2; width: 108px; padding: 5px 6px; border-radius: 7px; background: rgba(2,6,23,.88); border: 1px solid rgba(124,252,0,.5); box-shadow: 0 4px 12px rgba(0,0,0,.55); pointer-events: none; }
+    .vision-head { display: flex; justify-content: space-between; align-items: center; gap: 4px; margin-bottom: 4px; font-size: 6px; letter-spacing: .5px; color: #c084fc; font-weight: bold; }
+    .vision-head span:last-child { color: #7CFC00; font-weight: normal; }
+    .vision-body { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+    #vision-preview { width: 64px; height: 64px; flex: 0 0 auto; image-rendering: pixelated; image-rendering: crisp-edges; background: #020617; border: 1px solid #14532d; border-radius: 4px; }
+    .vision-status { width: 100%; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; font-size: 6px; line-height: 1.2; color: #6b7280; }
+    .vision-status div { display: flex; flex-direction: column; align-items: flex-start; gap: 1px; min-width: 0; }
+    .vision-status b { color: #86efac; font-weight: normal; font-size: 7px; letter-spacing: .2px; white-space: nowrap; }
+    @media (min-width: 1024px) {
+      .vision-panel { width: 156px; padding: 7px 8px; }
+      .vision-head { font-size: 8px; }
+      #vision-preview { width: 96px; height: 96px; }
+      .vision-status { font-size: 8px; }
+      .vision-status b { font-size: 9px; }
+    }
     .tune-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .4rem; margin: .5rem 0; }
     .tune-grid label { font-size: 8px; color: #9ca3af; display: flex; justify-content: space-between; align-items: center; gap: .4rem; }
     .tune-grid input { width: 72px; font-family: inherit; font-size: 9px; padding: .25rem; border-radius: 4px; border: 1px solid #5b358c; background: #111827; color: #fff; }
@@ -399,17 +408,9 @@
         <h3>TRY THE AUTOPILOT DEMO</h3>
         <p>No GPU needed: a screen-reactive bot that watches whatever you load, like the DQN does — it taps through menus while the picture is still, follows the scroll direction once the world moves — horizontal and vertical, so it climbs and descends with the camera instead of only pushing left/right — holds run while the pixels demand it, and alternates A/B/X on the beat — jump in one game is attack in another — holds Y for run/dash, and works the L/R shoulders every other beat. Pause, game over, or a black fade goes quiet and it finds its own way back. One brain, every game. It stays on until you toggle it off — your own button presses just join in alongside it. It drives players 1 and 2 out of the box as two independent copilot engines — same screen, but each with its own timers, motion history, steering vote, menu guard, and release path, so player 2 never just parrots player 1 and one pilot seeking or releasing never stops the other. On character-select grids it walks the cursor through different rows and columns before confirming (instead of always taking the top-left cell), and both players press START, so P2 joins instead of idling. MIX alternates ~2.4s of platformer movement/hops with ~2.4s of UMK3 strikes/block/specials, so a game that changes genre between screens gets both. Narrow it in TUNE below. The trained Torch model itself needs CUDA + lsnes — see the project README.</p>
         <p class="modal-desc">Tune it below (thresholds, tap rate, seek confirm fallback) or flip the HUD toggle in the footer to watch its mind work: <code>SEEK · d=2.1</code> vs <code>PLAY · d=23.4 ▶</code>. Button map: <code>dirR=7 dirL=6 run=1 actions=[8,0] shoulders=[10,11] select=2 start=3</code>.</p>
-        <h3>LIVE VISION LOOP</h3>
-        <p class="modal-desc">This is the AI's eye: a 60Hz stream of 262-line half-resolution fields (32×32 color, RGB plus grayscale for fast motion maths), locked to a fixed 60Hz field clock. The stream catches up missed field slots, so a busy paint frame cannot drag it down to the display rate. Two consecutive fields equal one standard 30fps frame. It keeps running with the autopilot off, finds the game through same-origin iframes, and when this app is embedded it posts the same color frames to the parent window as <code>snesboy:vision/frame</code> (ask for one with <code>snesboy:vision/request</code>).</p>
-        <div class="vision-panel">
-          <canvas id="vision-preview" width="32" height="32"></canvas>
-          <div class="vision-text">
-            <div id="vision-status">NO SIGNAL — power on a game</div>
-            <div id="vision-source">source: none · loop: waiting</div>
-            <div class="modal-desc">32×32 color · 60Hz 262-line fields · 2 fields = 1×30fps frame</div>
-          </div>
-        </div>
-        <p class="modal-desc" id="ai-loop-status">loops: vision — · autopilot idle</p>
+        <h3>VISION INPUT</h3>
+        <p class="modal-desc">This is the AI's eye: it reads only the main emulator screen, on demand, as 32×32 color with grayscale for motion maths. The live 32×32 panel sits on the main screen itself (bottom-right) and refreshes only when the AI or recorder asks for a frame — no background 60Hz capture loop and no duplicated field stream.</p>
+        <p class="modal-desc" id="ai-loop-status">loops: vision on demand · autopilot idle</p>
         <h3>LEARN FROM EVERYTHING</h3>
         <p>Record play sessions and the app captures all three streams together, timestamped: 32×32 grayscale frames (5fps, the DQN paper's input shape), every button press with its source (pad / keyboard / autopilot / replay), and sound energy from the game's audio. Episodes live in your browser — replay any run through the real controllers, or export the JSON dataset for offline training.</p>
         <p><button type="button" id="btn-record" class="modal-action-btn primary">● RECORD SESSION</button></p>
