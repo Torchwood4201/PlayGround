@@ -51,7 +51,8 @@ rg -i -n 'block|uppercut|special move' ai/manuals/text/ultimate-mortal-kombat-3.
 `script.js` loads `ai/manuals/index.json`, matches the current ROM filename to a manual, and parses control words into a shared prior for the autopilot:
 
 - `jump`, `run`, `block`, and action buttons feed both P1 and P2 copilots.
-- Each pilot keeps its own action-reward history, so manual guidance is a prior rather than a hard-coded script.
+- Each pilot keeps its own action order, hop cadence, exploration rate, and action-reward history, so manual guidance is a prior rather than a hard-coded script.
+- P1 is the menu lead (grid walk + confirm); P2 is the joiner (one START, one own-character confirm), so the controllers do not fight over the same cursor.
 - The AI Lab shows the matched manual and each pilot's learned button scores.
 - Recorded learning episodes include the manual id and both pilots' policy snapshots.
 - Vision is demand-driven: standby when the AI Lab is closed, 10Hz preview when open, and 60Hz only for an external `snesboy:vision/request`; forcing a 60Hz canvas readback every field made low-end gameplay crunchy.

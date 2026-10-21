@@ -581,8 +581,12 @@
   function applyManualToPilot(pt){
     var m = MANUAL_STATE.current;
     pt.manual = m || null;
-    pt.order = (m && m.actions && m.actions.length) ? m.actions.slice() :
+    var baseOrder = (m && m.actions && m.actions.length) ? m.actions.slice() :
       ((pt.slot % 2 === 0) ? AgentMap.actions.slice() : AgentMap.actions.slice().reverse());
+    /* Give each pilot a different first action: the same manual prior must
+       not make two brains pick the exact same button on every beat. */
+    pt.order = (pt.slot > 0 && baseOrder.length > 1)
+      ? baseOrder.slice(1).concat(baseOrder.slice(0, 1)) : baseOrder;
     pt.runBtn = (m && m.run != null) ? m.run : AgentMap.run;
     pt.blockBtn = (m && m.block != null) ? m.block : 10;
     pt.jumpBtn = (m && m.jump != null) ? m.jump : pt.order[0];
@@ -612,7 +616,7 @@
       var b = pool[i], tries = l.tries[b] || 0;
       var avg = (l.score[b] || 0) / (tries + 1);
       var prior = 0.15 + (pool.length - i) * 0.04;
-      var explore = 1.15 * Math.sqrt(Math.log(n + 2) / (tries + 1));
+      var explore = (pt.explore || 1.15) * Math.sqrt(Math.log(n + 2) / (tries + 1));
       var s = avg + prior + explore + ((pt.hopN + i * 5) % 7) * 0.001;
       if(s > bestScore){ bestScore = s; best = b; }
     }
@@ -676,7 +680,8 @@
     index: function(){ return MANUAL_STATE.index; },
     pilots: function(){
       return autoPilots.map(function(pt){
-        return { player: pt.pl + 1, mode: pt.mode, manual: pt.manual ? pt.manual.id : null,
+        return { player: pt.pl + 1, mode: pt.mode, role: pt.menuRole,
+          manual: pt.manual ? pt.manual.id : null,
           order: pt.order, run: pt.runBtn, block: pt.blockBtn, strikes: pt.strikes,
           learn: { tries: pt.learn.tries, score: pt.learn.score, total: pt.learn.total } };
       });
@@ -695,6 +700,8 @@
       slot: idx, startUsed: false, startReadyAt: idx > 0 ? 1 : 2, lastStart: 0,
       dir: AgentMap.dirR, dirY: null, dirYMiss: 0, diff: 0,
       watch: makeWatch(), menuGuardFrame: null,
+      menuRole: idx === 0 ? 'lead' : 'join', joinConfirm: false,
+      explore: idx === 0 ? 1.05 : 1.3,
       timers: { menu: null, sense: null, drive: null },
       order: AgentMap.actions.slice(),
       learn: { score: {}, tries: {}, total: 0, pending: null, sig: '' } };
@@ -706,6 +713,7 @@
      default top-left cell. */
   function armStart(pt){
     pt.startUsed = false;
+    pt.joinConfirm = false;
     pt.startReadyAt = pt.menuN + (pt.slot > 0 ? 1 : 2);
   }
   /* UMK3 fighter profile (built from the manual): RUN=R(11)+direction to
@@ -825,10 +833,27 @@
   function gridMenuStep(pt, idx){
     var base = frameGray(); /* burst baseline: abort when the world moves */
     var now = Date.now();
-    /* START is the pause button in live gameplay, so each pilot gets ONE
-       START per menu screen: P2 on its first tick (join), P1 on the second
-       tick (after its first grid/A pass, so it is not just taking top-left).
-       A new screen re-arms it; nothing here ever repeats START every tick. */
+    /* Two roles, not two copies of the same navigator. The lead pilot walks
+       grids and confirms; the join pilot only presses START once to enter,
+       then confirms its own character once. Otherwise both controllers
+       would fight over the same cursor and the same menu. */
+    if(pt.menuRole === 'join'){
+      var canJoin = !pt.startUsed && pt.menuN >= pt.startReadyAt;
+      if(canJoin){
+        pt.startUsed = true;
+        pt.lastStart = now;
+        menuTap(pt, AgentMap.start, idx * 20, base);
+        return;
+      }
+      if(!pt.joinConfirm && pt.menuN >= pt.startReadyAt){
+        pt.joinConfirm = true;
+        menuTap(pt, AgentMap.actions[0], idx * 20, base);
+      }
+      return;
+    }
+    /* START is the pause button in live gameplay, so the lead pilot gets
+       ONE START per menu screen, after its first grid/A pass. A new screen
+       re-arms it; nothing here ever repeats START every tick. */
     var canStart = !pt.startUsed && pt.menuN >= pt.startReadyAt;
     if(canStart){
       pt.startUsed = true;
@@ -837,7 +862,7 @@
       return;
     }
     var pattern = MENU_GRID_MOVES[(pt.menuN + idx * 5) % MENU_GRID_MOVES.length];
-    var delay = idx * 160; /* stagger pilots so their taps do not collide */
+    var delay = 0;
     pattern.forEach(function(btn){
       menuTap(pt, btn, delay, base);
       delay += 220;
@@ -979,7 +1004,8 @@
         })(vn, pt.pl);
       }
     }
-    if((pt.tick + idx) % AgentOpts.hopEvery === 0){
+    var hopEvery = Math.max(1, AgentOpts.hopEvery + (pt.slot > 0 ? 1 : 0));
+    if((pt.tick + idx) % hopEvery === 0){
       /* own rhythm per pilot: phase-offset hops, own button order */
       pt.hopN++;
       var btn = pickPlayAction(pt); /* manual prior + this pilot's own reward history */
@@ -1782,7 +1808,7 @@
     });
     var m = MANUAL_STATE.current;
     var policy = autoPilots.map(function(pt){
-      return { player: pt.pl + 1, manual: pt.manual ? pt.manual.id : null,
+      return { player: pt.pl + 1, role: pt.menuRole, manual: pt.manual ? pt.manual.id : null,
         tries: pt.learn.tries, score: pt.learn.score, total: pt.learn.total };
     });
     var ep = { game: currentName, date: new Date().toISOString(),
