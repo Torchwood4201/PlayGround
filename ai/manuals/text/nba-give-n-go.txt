@@ -1,0 +1,3810 @@
+# NBA Give N Go
+source: https://archive.org/details/snes_manual_archive
+pdf: NBA Give N Go ( EU ).pdf
+region: EU
+pages: 84
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+”
+
+KONAM!.
+
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+LICENSED BY
+
+Qiintendd) Nintendo of Europe GmbH : 63760 GroBostheim, Deutschland
+Keep this information / Gardez ces informations / Diese Information aufbewahren
+Conservare queste informazioni / Guarde estas informes / Bewaar daze informatie
+Behall denna information / Behold denne information / Pid tama tieto
+
+cE
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, @ AND 9 ARE TRADEMARKS OF NINTENDO CO.,LTD.
+
+\
+
+\
+
+Seal of
+
+Quality ~%
+
+Original »
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT.ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO
+ENSURE COMPLETE COMPATIBILITY WITH
+‘YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+‘CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU'IL
+EST CONFORME AUX NORMES D'EXCELLENCE
+EN MATIERE DE FABRICATION, DE FIABILITE ET
+SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIESES QUALITATSSIEGEL IST DIE GARANTIE
+DAFUR, DASS SIE NINTENDO-QUALITAT
+GEKAUFT HABEN. ACHTEN SIE DESHALB
+IMMER AUF DIESES SIEGEL, WENN SIE SPIELE
+ODER ZUBEHOR KAUFEN, DAMIT SIE SICHER
+SIND, DASS ALLES EINWANDFRE! ZU IHREM.
+‘SUPER NINTENDO ENTERTAINMENT SYSTEM
+PASST.
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO
+QUESTO PRODOTTO. RICHIEDILO SEMPRE
+ALL'ACQUISTO Di GIOCHI ED ACCESSORI PER
+ASSICURARE LA COMPLETA COMPATIBILITA
+CON IL TUO SUPER NINTENDO.
+ENTERTAINMENT SYSTEM.
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA APROBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIEMPRE ESTE
+SELLO CUANDO COMPRES VIDEOJUEGOS Y
+ACCESORIOS PARA ASEGURARTE UNA
+COMPLETA COMPATIBILIDAD CON TU SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO IS GECONTROLEERD EN DAT
+HET QUA CONSTRUCTIE, BETROUWBAARHEID
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+BlJ HET KOPEN VAN SPELLEN EN
+ACCESSOIRES ALTIJD OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+DENNA ETIKETT GARANTERAR ATT NINTENDO
+STAR FOR PRODUKTENS KVALITET.
+KONTROLLERA ATT ETIKETTEN FINNS PA SPEL
+OCH TILLBEHOR DU KOPER_FOR ATT
+FORSAKRA DIG OM ATT DE AR KOMPATIBLA
+MED SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+DETTE SEGL GARANTERER, AT NINTENDO HAR
+GODKENDT KVALITETEN AF DETTE PRODUKT.
+SE ALTID EFTER DETTE SEGL, NAR DU KOBER
+‘SPIL OG TIBEH@R, SA DU ER SIKKER PA FULD.
+KOMPATIBILITET MED DIT SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO ON
+HYVAKSYNYT TAMAN TUOTTEEN LAADUN.
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+SAAT VARMASTI SUPER NINTENDO
+ENTERTAINMENT SYSTEM YHTEENSOPIVIA
+TUOTTEITA.
+
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEUILLEZ LIRE ATTENTIVEMENT LA NOTICE "INFORMATIONS ET PRECAUTIONS
+D'EMPLO!" QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER
+NINTENDO HARDWARE WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+
+SYSTEM™ LE CASSETTE O GLI ACCESSORI.
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEOJUEGO © ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE BIJ DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO-
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR.
+
+ADVARSEL : LES FORBRUGERINFORMATIONEN OG H/EFTET MED SIKKERHEDSREGLER, DER
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM,
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISEST! LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAl MUUN VAURSTEEN KAYTTO6A_
+
+===== Page 3 =====
+
+
+
+===== Page 4 =====
+
+GIVE
+NGO
+
+NBA basketball - the most popular sport in the States! Choose your team
+from among 27 NBA teams and All-Star teams, and battle through a normal
+season, the playoffs, and the finals to come out on top!
+
+The game is based on real NBA rules, and uses match and player data from
+the 1995 season.
+
+SS
+Contentsie4ecee
+
+Rules ee cccccccccccce es cce eee e cece ccc ccecccedS
+Connecting the Controller eeeeeeeeereeecrececcrerecccesceeeS
+Player Controls eeecccccercccccoccccccs ccs cs cee§&
+Starting Up eeccccccccscceccccccsseseseesessee 8
+Game Screen eeceevecccccccccccscsecsccescccceeee eed
+Passwords eeceecece oc ce rere rc cesecccce reece reece eY9
+Arcade Mode eeceeccececresecceccevecveveccecccce 0
+Exhibition Mode eeeeeeeeeereecececececeeeeeseseseser iQ
+Playoff Mode eeecccseccccccccccecscccscecsccccece jf
+Season Mode eeeccceresceseecsecccescccccsccceee jz
+
+Team Editeececececeoe eee eseeeeseseseeesesreeosesceece {2
+
+Options ¢ eoeoececececece {3
+
+Fouls eeee eeoecccccccccen iy
+
+Game Data
+
+===== Page 5 =====
+
+i! Game Start Ill
+
+When the ball is tossed in the air, carefully co-ordinate your timing and
+press the A, B, X, or Y button to make your player jump and knock the ball
+towards your team members.
+
+ilGame length Ill
+
+The game is made up of four quarters of two minutes each. If there is no
+winner at the end of the game, overtime periods of two minutes each are
+played until one team wins. The overtime periods are not sudden death.
+(Game length can be changed in Option mode, see p.13)
+
+ii Court Ill
+
+The front end of the court is Player 1’s home end, and the back end is Player
+2’s home end. The teams change ends at half-time. However, when playing
+against the computer, your home end is normally the front end of the court.
+
+ilScoring ill
+
+Shots thrown from the inner side of the three-point line score 2 points, and
+shots thrown from the outer side score 3 points. Free throws (throws award-
+ed to you if the opposition fouls you) score 1 point.
+
+Ii Time out ill
+
+When playing offense, you can call time out seven times during the game.
+You also get a further two chances; once in the first half of the game, and
+once in the second half.
+
+iii Fouls Ill
+
+These are based on NBA rules. (If a player fouls six times, he has to leave the
+court. ( see p.14)
+
+i!iPlaying with 1-2 players Il
+Connect Controller 1 to Jack 1 and Controller 2 to Jack 2 of the SNES.
+
+ii3 or more player
+
+play using the Multi-Tap™ I
+
+Connect Controller 1 to Jack 1 and the special SNES Multi-Tap™ (sold sepa-
+rately) to Jack 2 of the SNES, then connect the other controllers to the Multi-
+Tap™ jacks.
+
+===== Page 6 =====
+
+L Button a ee] coe R Button
+X Button
+
+A Button
+
+Control Pad B Button
+Select Button Y Button
+
+Player operations for the offensive team change depending on whether you
+are controlling your team alone or with a second player. Defensive teams
+player operations are always the same.
+
+i! When controlling your team alone Ill
+
+Offensive team Defensive team
+Dribble Move
+
+Select player to receive ball Select player to control
+
+Pass/Throw in Rebound/Block shot
+
+Alley-oop
+Shoot Steal/Intercept pass
+
+lll When controlling your team with
+another player (when playing defense) Ill
+
+Player with ball Player without ball
+Dribble Move
+
+-]]
+
+Select player to control
+
+Pass/Throw in Rebound/Jump
+
+>| wo] >
+
+Alley-oop
+
+Shoot
+
+You normally pass to the other player controlling your team.
+
+All the button settings in this manual are Beginner’s Level (A type) settings.
+You can change these settings at the Option screen. (see p.13)
+
+G
+
+===== Page 7 =====
+
+BBS D BAB BS
+
+ill Free throws Ill
+If you’re fouled when you are shooting, you get a free throw.
+
+Keep your eye on the cursor position, and press the Shoot (Y) button to
+determine power and direction and make your shot.
+
+ill! Player Change Ill
+
+During a game, you can call time out to change players when playing
+offense by pressing the Start button. You can also change players when you
+get a free throw. (see Member Changes, p.10)
+
+lll Instant Replay Ill
+The best shots will be automatically replayed for you on screen. Press A, B,
+X, or Y to cancel.
+
+ill Shooting Technique Ill
+The height of your shots depends on how long you hold down the Shoot but-
+
+ton. The higher and closer to the basket you are when you press the Shoot
+button the more likely it is that you’ll sink a shot.
+
+Dunk shot : Get close to the basket, hold down the + Control Pad
+towards it and press the Shoot (Y) button. (This may
+change into a lay-up shot.)
+
+Fade away shot : Hold down the + Control Pad in the opposite direction
+to the basket and press the Shoot (Y) button.
+
+Double clutch =: Press the Shoot (Y) button once again when dunking.
+| Alley-oop : Press the Alley-oop (X) button when the player you are
+passing the ball to is under the goal.
+Rebound dunk : Carefully coordinate your timing when the ball bounces
+back from the backboard and press the Rebound (B)
+| button.
+Fake : Press the Shoot (Y) button lightly.
+
+===== Page 8 =====
+
+Correctly insert the game pak into your SNES and turn the power switch on.
+When using the Multi-Tap™, be sure to connect it to the SNES before turning
+the power on.
+
+Press the Start button at the Title screen to move to the Mode Select screen.
+Choose a mode with the + Control Pad and press the A button to continue.
+
+Arcade -secccccccccccccsccccccccoss See pO
+
+Based on the arcade game “Run & Gun”, this mode emphasizes speed and
+thrilling game-play.
+
+Exhibition eoscseccccccccsscseccocccs See lO
+
+A one-game mode.
+
+Playoffs eoecccccccccsocccccccocccccs Soe pl
+
+Experience all the thrills of the 1995 NBA season playoffs and finals yourself.
+You can choose the teams yourself or have them chosen randomly by the
+computer.
+
+Season eeoecccsccscoccscsccccccccc Spe Ble
+
+In this mode you play a regular season of eighty-two NBA games, playoffs
+and finals. You can change the number of regular season games if you
+wish.
+
+Team Edit «ccscscccssccccccccccccces spe pla
+
+Trade players amongst the twenty-seven NBA teams. You can also make your
+own all-star and original teams.
+
+Options eoecscecccceccvcesvcccocccoes SHE DIS
+Change the button settings of your controller, rules, difficulty level, and
+sound settings.
+
+===== Page 9 =====
+
+Shot clock: Shows the time limit for shooting. If you take too long to shoot it
+is counted as a foul (shot clock violation). (see Fouls, p.14)
+
+it! Player Cursor Display Ill
+Your player Player who can receive ball
+
+When controlling
+a team witha
+friend, you nor-
+mally pass the
+ball to him/her.
+
+In Playoff and Season modes, you can use passwords to reaccess game
+data. Input the password that appeared at the end of a game to continue
+playing from that point the next time you play.
+
+Position
+
+Player you are
+controlling
+
+lil Inputting a password Ill
+
+L/R buttons =: _Input letters
+& Control Pad : Select input location
+A button : Set password
+
+When you’ve set the password correctly and selected END, the game begins.
+
+9
+
+===== Page 10 =====
+
+i! Controls when at Select screen Iill
+
+* Control Pad : Select item
+A button : Set (Move to next screen)
+B button : Cancel (Return to previous screen)
+
+Arcade Mode
+
+An exciting, fast-paced game mode with no fouls, based on the arcade
+game “Run & Gun”.
+
+1) HOW MANY PLAYERS?: Select the type of play.
+VS COM (go to 2)
+Other types (go to 3)
+
+2) Select the team you will control. After selection, the game begins!
+
+3) SELECT TEAM/COURT: Select your team and court. After selection, the game
+begins!
+
+The game mode is set at Arcade settings; these settings cannot be
+changed.
+
+¢ There are no lay-up settings, so all dunk shots go in.
+
+e Time out cannot be called and no player changes can be made.
+e The only violations are shot clock violations and out-of-bounds.
+
+; Exhibition Mode
+In this mode you play only one game.
+
+1) HOW MANY PLAYERS?: Select the type of game play.
+2) SELECT TEAM/COURT: Select your team and court.
+
+After the Member Change screen, the game begins!
+
+ill Member Changes Ill
+You can select players before the start of the game. You can also change
+players during the game.
+
+10
+
+===== Page 11 =====
+
+DPOB BADBSS
+
+SELECT TEAM MEMBERS: Lets you change players in your team. Select OK to
+start the game.
+
+There is a star mark on each player which shows his condition. (No star:
+Bad condition, One star: Average condition, Two stars: Good condition,
+Three stars: Excellent condition.)
+
+If you put a player in a position different to the position he normally
+plays, his ability decreases. (C: Center, F: Forward, G: Guard)
+
+See page 15 for details on how to check player data.
+
+During the game, you can check how many more times you can call time
+out and the number of times each player has fouled by looking at the
+Member Change screen.
+
+In this mode you play the playoffs and finals that take place after the regu-
+jar season. In addition to the normal teams, you can also play an East-West
+All-Star team or an original team of your own.
+
+1)
+
+2)
+3)
+
+4)
+5)
+6)
+
+Select the game play method.
+
+GAME START: Play from the start. (go to 2)
+
+PASSWORD: Play from where you last left off. After you input the correct
+password, the game begins!
+
+HOW MANY PLAYERS?: Set the number of players in your team.
+TOURNAMENT STANDINGS: Select which teams will play and the number of
+games.
+
+1995 PLAYOFFS: The 1995 NBA playoff teams. (go to 5)
+
+RANDOM: The computer selects teams randomly. (go to 5)
+
+CUSTOM: You select the teams. (go to 4)
+
+SET TOURNAMENT PAIRINGS: Select 8 teams from each conference.
+
+Select your team.
+
+TONIGHT’S MATCH UP: Choose your game from the games scheduled for
+that day. After the Member Change screen, the game begins!
+
+See page 15 for details on how to check game data during and after
+games.
+
+A password is displayed at the end of each game. (see Passwords, p.9)
+
+LE
+
+===== Page 12 =====
+
+This mode recreates games of the NBA regular season, the playoffs, and the
+finals. If you are one of the top eight teams at the end of the season you go
+into the playoffs and finals.
+
+1) Select the game play method.
+GAME START: Play from the start. (go to 2)
+PASSWORD: Play from where you last left off. After you input the correct
+password, the game begins!
+
+2) HOW MANY PLAYERS?: Set the number of players in your team.
+
+3) SELECT NUMBER OF GAMES: Select the number of games.
+
+4) SELECT A TEAM: Select your team. (You can’t play an All-Star or original
+team in this mode.)
+
+5) TONIGHT’S MATCH UP: Choose your game from the games scheduled for
+that day. After the Member Change screen, the game begins!
+
+¢ See page 15 for details on how to check game data during and after games.
+¢ A password is displayed at the end of each game. (see Passwords, p.9)
+
+_ EEO" Raiermaiaaeamesinmmansnmesrinie tices,
+
+Trade players around between the twenty-seven teams to create an original
+team of your own. (This team data will be lost when you turn the power to
+your SNES off.)
+
+iil Controls Ill
+
+* Control Pad : Select item
+A button : Set (Move to next screen)
+B button : Cancel (Return to previous screen)
+
+e TRADE: Trade players amongst the 27 teams.
+
+e EDIT ALL STAR TEAM: Choose players from amongst all the conference teams
+to create an original team of your own. (You cannot use the same player
+twice in the same team.) |
+
+e EDIT ORIGINAL TEAM: Choose players from amongst the 27 teams to create
+an original team of your own. (You cannot use the same player twice in
+the same team.)
+
+¢ See page 15 for details on how to check player data.
+
+Lo?
+
+===== Page 13 =====
+
+Change the button settings of your controller and game settings.
+
+ill Controls Ill
+
+* Control Pad Jt : Select item
+
+* Control Pad <3: Change item
+
+A button : Set (Move to next screen)
+
+B button : Cancel (Return to previous screen)
+
+il CONFIGURATIONS iil
+Change the button settings of the controller(s).
+
+it! RULES/DIFFICULTY ill
+Change the rules and other game settings.
+
+e LEVEL: Change the difficulty level of the game when playing against the
+computer.
+¢ TIME: Set the length of each quarter.
+© GAME MODE: (ON: Settings on, OFF: Settings off)
+ARCADE: No fouls
+SIM.: Fouls
+CUSTOM: Set foul system yourself. (see Fouls, p.14)
+REPLAY: Instant replay settings.
+LAY-UP: Settings for basic running shots.
+HOME COURT ADVANTAGE: The home team is at a slight advantage.
+
+i! SOUND lll
+
+Change the game sound settings.
+(ON: Settings on, OFF: Settings off)
+
+e COMMENTATOR: Game commentary settings
+¢ STEREO/MONO: Choose stereo or mono sound
+
+bs har 4
+
+===== Page 14 =====
+
+You can change all settings except those for the shot clock violation and
+out-of-bounds in Option mode.
+
+ill Offensive team violations Ill
+
+If the offensive team breaks any of the following rules they lose possession
+of the ball to the defensive team. The defensive team is then granted a
+throw-in.
+
+° Back court violation: A ball that has been brought into the opposing
+team’s end of the court cannot be taken back to your end of the court.
+
+e 10 second violation: You must move into the opposing team’s end of the
+court within 10 seconds.
+
+e 5 second violation: You must throw-in within 5 seconds.
+
+° 3 second violation: You cannot remain in the opposing team’s goal zone
+for more than 3 seconds.
+
+e Shot clock violation: The offensive team must shoot within 24 seconds of
+receiving the ball.
+
+e Out of bounds: The ball must stay inside the court.
+
+ill Offensive foul Ill
+
+The offensive team must not intentionally have body contact with the
+defensive team when shooting. If there is body contact, the defensive team
+wins possession of the ball and is granted a throw-in.
+
+ill Defensive fout Ill
+
+The defensive team must not forcibly block the offensive team when it is
+shooting. If it does, the offensive team is granted from 1 to 3 free throws. If
+a fouled shot goes in, the offensive team both scores points and is granted
+a free throw. If the shot doesn’t go in, the offensive team is granted three
+free throws for a three point shot, and two free throws for other shots.
+
+ill Goal tending Ill
+
+If a shot is blocked above the basket after the ball has started to drop
+downwards, points will be scored even if the ball doesn’t go in the basket.
+
+1A
+
+===== Page 15 =====
+
+Game data is displayed at the end of a game, when you make player
+changes, and at various other times.
+
+ill Data screen controls Ill
+
+: Move to next screen (Set)
+: Return to previous screen (Cancel)
+
+A button
+B button
+
+ill Individual data Iill
+
+No.
+POS.
+NAME :
+F/G%
+3FG%
+P/G
+R/G
+S/G
+B/G
+
+Name
+
+: Player’s number
+: Position
+
+: Field goal percentage (not including free throws)
+: Three point shot percentage
+
+: Average score per game
+
+: Average no. of rebounds per game
+
+: Average no. of steals per game
+
+: Average no. of blocks per game
+
+ill Game data Ill
+
+Score
+Field goal percentage
+
+PTS.
+
+PCT.
+
+OFF.REB. No.
+BLK.SH. No.
+3PTS. No.
+DUNK SHOOT : No.
+JUMPER No.
+STEAL No.
+
+of rebounds
+
+of offensive rebounds
+of three point shots
+of dunk shots
+
+of jump shots
+
+of steals
+
+15
+
+===== Page 16 =====
+
+GIVE
+NGO
+
+NBA-Basketball - Die popularste Sportart in den Vereinigten Staaten! Wahle
+Deine Mannschaft aus den 27 NBA-Teams und ALL-Star-Teams aus, und
+kampfe Dich durch eine ganz normale Spiel-Saison, Ausscheidungsspiele
+und Endspiele, und versuche dabei, ganz an die Spitze zu kommen!
+
+Die Spielregeln dieses Spiels sind die echten, ganz normalen NBA-
+Spielregeln, und die Spiel- und Spielerdaten beruhen auf den Leistungen in
+
+der Spiel-Saison 1995.
+SIS
+as
+Ly
+
+SpielregelIn eeeeececccccceccccccccccccveoccceooscccoee {7
+
+AnschlieBen des Controllers eecececesececcccescccceccccce {7
+Steuerung der Spieler eeeeesccccsccccsscsccscsccccoscs 1§
+Spielvorbereitung eeeeeccececcoseosccccccccccccoccccce 2)
+Spiel-Screen eeeececccccccccccccccecvccccccccccccce 2
+Code-Worter eececescccecseccsesccsccesesesecsceccsess 2}
+Arcade-Modus eeeeeeeeeeeeeseeeeeseseeeseseseeeeeoee 27
+Exhibitions-Modus eeeeeeeccececcrcccceceeceseseeeeeees 22
+Playoffs-Modus eeeecececcscvccoccccoecccoecooeseese 23
+Season-Modus eeeeececeerecoecerecoererececerececoeeccee 24
+Mannschafts-Editierfunktion eeeeeeceeccscccccccsececceen 24
+Optionen eeeeccsccsesccsccsescesessessecscosescese 25
+Fouls eeeececeseeeeseceeeeeseseeseseseseseesesese 2
+
+Spieldaten eecceceecceccccccvrccccccccccsecvecescecece 27
+
+16
+
+===== Page 17 =====
+
+|
+
+iil Spielbeginn Ill
+Wenn der Ball in die Luft geworfen wird, muB®t Du ganz genau aufpassen und die
+Taste A-, B-, X- oder Y driicken, damit Dein Spieler springt und den Ball zu Deinen
+Mitspielern befordert.
+
+Ill Lange des Spiels Ill
+
+Das Spiel besteht aus vier Vierteln mit jeweils zwei Minuten Spielzeit. Wenn am Ende
+des Spiels kein Sieger feststeht, werden jeweils Verlangerungen mit zwei Minuten
+Lange gespielt, bis eine der Mannschaften gewinnt. In der Verlangerung gibt es kein
+“Sudden Death”, nur die Korbe am Ende entscheiden zwischen Sieg und Niederlage.
+
+(Die Lange des Spiels kann im Optionen-Modus verandert werden — Seite 25)
+
+il Spielfeld Ill
+
+Die Vorderseite des Spielfeldes ist die Grundlinie von Spieler 1 und die Ruckseite des
+Spielfeldes die Grundlinie von Spieler 2. Bei Halbzeit wechseln die Mannschaften die
+Spielfeldseite.
+
+Wenn Du jedoch gegen den Computer spielst, ist Deine Spielfeldseite normalerweise
+die Vorderseite des Spielfeldes.
+
+il Erzielen von Punkten ill
+
+Wirfe, die innerhalb des Kreises ausgefiihrt werden, zahlen 2 Punkte und Wurfe, die
+von auBerhalb geworfen werden, zahlen 3 Punkte. FreiwUrfe (Wirfe, die Du aufgrund
+eines gegnerischen Fouls erhaltst), zahlen 1 Punkt.
+
+i! Auszeit Ill
+
+Wenn Du im Angriff spielst, kannst Du wahrend des Spiels bis zu siebenmal Auszeit
+verlangen. AuBerdem erhaltst Du noch zwei weitere Chancen; einmal in der ersten
+Halfte und ein weiteres Mal in der zweiten Halfte des Spiels.
+
+i! Fouls ill
+
+Die Foul-Regeln sind die der NBA. (Wenn ein Spieler sechs Fouls begeht, muB er das
+Spielfeld verlassen. (»S. 26)
+
+| Anschliessen des Controllers
+
+ill Spielen mit 1-2 Spielern Ill
+
+SchlieBe Controller 1 an die Buchse 1 und Controller 2 an die Buchse 2 des SNES an.
+
+ill Spielen mit 3 oder mehr Spielern
+
+unter Einsatz des Multi-Tap™ Ill
+
+SchlieBe Controller 1 an die Buchse 1 und das spezielle SNES Multi-Tap™
+(Sonderausstattung) an Buchse 2 des SNES, und schlieBe dann die anderen Controller
+an die Buchsen des Multi-Tap™ an.
+
+Me
+
+===== Page 18 =====
+
+Richtungs-Taste
+Select-Taste
+
+L-Taste
+
+START
+
+Start-Taste
+R-Taste
+
+X-Taste
+A-Taste
+
+B-Taste
+Y-Taste
+
+Die Bedienung der Spieler der gegnerischen Mannschaft hangt davon ab, ob Du Deine
+Mannschaft alleine oder mit einem zweiten Spieler steuerst. Die Steuerung der Spieler
+der verteidigenden Mannschaft sind stets gleich.
+
+lil Wenn Du Deine Mannschaft alleine steuerst Ill
+
+Angreifende Mannschaft
+
+Verteidigende Mannschaft
+
+e
+
+Dribbeln
+
+VorstoB
+
+A Spielerwahl fir Ballannahme Spielerwahl zum Steuern
+B Pass/Einwurf Wurf abprallen/blocken
+x Alley-oop
+
+y, Wurf Pass stehlen/Abfangen
+
+ii Wenn Du Deine Mannschaft mit einem
+anderen Spieler steuerst (bei Abwehrspiel) Ill
+
+Spieler mit Ball Spieler ohne Ball
+be Dribbeln VorstoB
+A Spielerwahl zum Steuern
+B Pass/Einwurf Abprallen/Springen
+x Alley-oop
+Vv Wurf
+
+Normalerweise wirfst Du den Pass zu dem anderen Spieler, mit dem Du Deine
+Mannschaft steuerst.
+
+Alle in dieser Anleitung beschriebenen Tastenbelegungen sind fur Anfanger-Niveau
+(A-Typ) bestimmt. Du kannst diese Tastenbelegungen im Optionen-Screen verandern.
+(> $.25)
+
+18
+
+===== Page 19 =====
+
+iil Freiwiirfe Ill
+Wenn Du wahrend eines Wurfs gefoult wirst, erhalst Du einen Freiwurf.
+
+Behalte die Cursor-Position im Auge und driicke die Wurf-Taste (Y), um die Starke und
+Richtung zu bestimmen, in die Du Deinen Wurf ausfUhren mochtest.
+
+Spielerwechsel Ill
+
+Wahrend eines Spiels kannst Du eine Spielunterbrechung zum Spielerwechsel beantra-
+gen, wenn Du gerade im Angriff bist. Hierzu drickst Du die Start-Taste. Du kannst
+ebenfalls Spieler einwechseln, wenn Du einen Freiwurf hast. (Spielerwechsel » 5.22)
+
+ilSofortige Wiederholung Il
+
+Die besten Wirfe werden automatisch auf dem Screen fiir Dich wiederholt. Driicke A,
+B, X oder Y, um diese Funktion zu unterbrechen.
+
+il Wurftechnik Ill
+
+Die Hohe Deiner Wirfe hangt davon ab, wie lange Du die Wurf-Taste gedriickt haltst.
+Je héher und naher Du am Korb bist, wenn Du die Wurf-Taste drickst, desto gréBer ist
+die Wahrscheinlichkeit, daB Dein Wurf trifft.
+
+Dunk-Wurf : Gehe so dicht wie moglich an den Korb heran, halte das * Control
+Pad zum Korb hin gedritckt, und driicke die Wurf-Taste (Y).
+(Hierdurch kann auch ein Wechsel zu einem Lay-up-Wurf her-
+vorgerufen werden.)
+
+Fade-Away-Wurf : Halte das * Control Pad in die vom Korb abgewandte Richtung
+gedriickt und driicke die Wurf-Taste (Y).
+
+Double Clutch : Driicke die Wurf-Taste (Y) noch einmal, wenn Du einen Dunk-Wurf
+durchfihrst.
+
+Alley-Oop : Driicke die Alley-Oop-Taste (X), wenn sich der Spieler, zu dem Du
+einen Pass wirfst, unter dem Korb befindet.
+
+Abprall-Dunk : Koordiniere Dein Timing sorgfaltig, wenn der Ball von der
+Ruckwand abprallt und drucke die Abprall-Taste (B)
+
+Tauschen : Dricke die Wurf-Taste (Y) leicht.
+
+19
+
+===== Page 20 =====
+
+Setze die Spiel-Kassette richtig in Dein SNES ein und schalte die Stromversorgung an.
+Wenn Du Multi-Tap™ verwendest, schlieBe dieses unbedingt am SNES an, ehe Du die
+Stromversorgung einschaltest.
+
+Dricke die Start-Taste, wenn der Titel-Screen erscheint und schalte auf den
+Moduswahl-Screen um. Wahle einen Modus mit dem * Control Pad, und driicke die A-
+Taste, um weiterzumachen.
+
+Arcade eecocereseccesceovevecseesveesrss2s GOD
+
+Dieser Spielmodus hat seine Grundlage im Arcarde-Spiel “Run & Gun” und betont
+besonders Schnelligkeit und spannende SpielzUge.
+
+Exhibition eeoecccecccccccceseseosececsses FBP
+
+Ein Modus mit nur einem Spiel.
+
+Playoffs Cooeeseceseccvrevcecsseeceseses GPR
+
+Erlebe selbst die ganze Spannung der Ausscheidungsspiele in der NBA-Saison 1995 und
+die Endspiele. Du kannst Deine Mannschaften selbst auswahlen oder diese nach dem
+Zufallsverfahren vom Computer wahlen lassen.
+
+Season eee eee ee ee ee |
+
+In diesem Modus kannst Du eine regulare Spielsaison von 82 NBA-Spielen,
+Ausscheidungsspielen und Endspielen durchfuhren. Du kannst jedoch die Anzahl der
+reguldren Saisonspiele verandern, wenn Du dies wiinscht.
+
+Team Edit «cccccccccccccccccccccsccses GBA
+
+Tausche Spieler unter den 27 NBA-Mannschaften aus. Du kannst auch Deine eigene All-
+Star- und Original-Mannschaft zusammenstellen.
+
+Options eeovceccsesceccoseoseesecces cree s GOH
+
+In diesem Modus kannst Du die Tastenbelegung Deines Controllers, die Spielregeln,
+den Schwierigkeitsgrad und die Einstellungen der Spielgerausche verandern. -
+
+20
+
+===== Page 21 =====
+
+Time Wurf-Uhr
+
+3-Punkte-Linie
+
+Wurf-Zeitnehmer: Hier wird die Zeitgrenze fur Deinen Wurf angezeigt. Wenn Du zu
+lange brauchst, ehe Du wirfst, gilt dies als Foul (Uberschreitung der Wurf-
+Zeitbegrenzung). (Fouls » S.26)
+
+iil Spieler-Cursor Anzeige Ill
+Deim Spieler Spieler, der den Ball empfangen kann
+
+Wenn Du eine Mannschaft mit
+einem Freund oder einer
+Freundin steuerst, spielst Du
+den Ball normalerweise zu
+ihm/ihr ab.
+
+|
+
+In den Modi Ausscheidungsspiel (Playoff) und Saisonspiel (Season) kannst Du Code-
+Waorter verwenden, um auf die Spieldaten zuzugreifen. Wenn Du das Code-Wort ein-
+gibst, das am Ende eines Spiels erscheint, kannst Du das nachste Mal das Spiel an der
+Stelle fortsetzen, wo Du aufgehért hast.
+
+Position
+
+Spieler, den
+Du steuerst
+
+illEingabe eines Code-Worrts Ill
+
+L/R-Tasten : Eingeben von Buchstaben
+* Control Pad = Wahl einer Eingabe-Position
+A-Taste : Einstellen des Code-Worts
+
+Wenn Du das Code-Wort richtig eingestellt hast und END wahist, beginnt das Spiel.
+
+gs
+
+===== Page 22 =====
+
+PRBSRELS
+
+iti Funktion der Bedienelemente im
+
+Auswahl-Screen Ill
+
+* Control Pad =: Wahlen einer Position
+
+A-Taste : Einstellen (Weiterschalten zum nachsten Screen)
+B-Taste : Loschen (RUckkehr zum vorhergehenden Screen)
+
+Arcade-Modus
+
+Ein aufregender, schneller Spielmodus ohne Fouls, der auf dem Arcade-Spiel “Run &
+Gun” beruht.
+
+1) HOW MANY PLAYERS?: Auswahl des Spiel-Typs-
+VS COM — 2
+Andere Typen — 3
+2) Wahle die Mannschaft, die Du steuern mochtest. Nach der Wahl beginnt das Spiel!
+3) SELECT TEAM/COURT: Wahle Deine Mannschaft und das Spielfeld. Nach der Wahl
+beginnt das Spiel!
+
+Der Spielmodus ist auf die Arcade-Einstellungen festgelegt. Sie konnen nicht verandert
+werden.
+
+¢ Es gibt keine Korbleger-Einstellungen, so daB alle Dunk-Wiirfe in den Korb gehen.
+¢ Es konnen keine Spielunterbrechungen verlangt und keine Spieler ausgewechselt
+
+werden.
+* Die einzigen Verletzungen der Spielregeln sind Zeituberschreitung und Uberschre-
+
+itung der Linien.
+
+In diesem Modus kannst Du nur ein Spiel spielen.
+
+1) HOW MANY PLAYERS?: Wahle den Typ des Spiels.
+2) SELECT TEAM/COURT : Wahle Deine Mannschaft und das Spielfeld.
+
+Nach dem Member Change-Screen beginnt das Spiel!
+
+ill WwW echseln von Spielern Ill
+Du kannst vor Beginn des Spiels Deine Spieler auswahlen. Du kannst auch Spieler
+wahrend des Spiels wechseln.
+
+a>
+
+===== Page 23 =====
+
+POSER OLS2
+
+| SELECT TEAM MEMBERS: Mit dieser Position kannst Du Spieler in Deiner Mannschaft
+| wechseln. Wahle OK, um das Spiel zu beginnen.
+
+« Jeder Spieler ist méglicherweise mit Sternen markiert, die seinen Zustand anzeigen.
+| (Kein Stern: schlechter Zustand, ein Stern: normaler Zustand, zwei Sterne: guter
+Zustand, drei Sterne: hervorrangender Zustand.)
+
+Wenn Du einen Spieler an einer Position aufstellst, die sich von der Position unter-
+scheidet, an der er normalerweise spielt, ist er nicht so leistungsfahig wie gewohnt.
+(C: Mittelfeld, F: Stirmer, G: Abwehrspieler)
+
+Siehe Seite 27, wo Du weitere Einzelheiten dazu findest, wie man die Spielerdaten
+prift.
+
+Wahrend des Spiels kannst Du priifen, wie oft Du noch Auszeiten beantragen kannst,
+sowie die Anzahl der Fouls, die jeder einzelne Spieler begangen hat, indem Du den
+Member Change-Screen aufrufst.
+
+In diesem Modus kannst Du Ausscheidungsspiele (“Playoffs”) und Endspiele (“Finals”)
+spielen, die nach der normalen Saison stattfinden. Zusatzlich zu den normalen
+Mannschaft kannst Du auch eine East-West All-Star-Mannschaft oder eine vollstandig
+von Dir aufgestellt Original-Mannschaft zusammenstellen.
+
+1) Wahit das Spielverfahren.
+GAME START: Spielbeginn vom Start. » 2
+PASSWORD: Spielbeginn an der Position, wo Du das Spiel zuletzt beendet hast. Nach
+Eingabe des richtigen Code-Worts beginnt das Spiel!
+
+2) HOW MANY PLAYERS?: Stelle die Anzahl der Spieler in Deiner Mannschaft ein.
+
+3) TOURNAMENT STANDINGS: Wahle, welche Mannschaften spielen werden und die Anzahl
+der Spiele.
+1995 PLAYOFFS: Die Mannschaften, die an der NBA-Ausscheidung 1995 teilgenommen
+haben. » 5
+RANDOM: Der Computer wahit die Mannschaften nach dem Zufallsverfahren. » 5
+CUSTOM: Du wahist Deine eigenen Original-Mannschaften. » 4
+
+| 4) SET TOURNAMENT PAIRINGS: Wahle acht Mannschaften aus den einzelnen Gruppen.
+
+5) Wahle Deine Mannschaft.
+
+6) TONIGHT “S MATCH UP: Wahle Dein Spiel aus den Spielen, die fiir diesen Tag vorgese-
+hen sind. Nach dem Member Change-Screen beginnt das Spiel!
+
+¢ Weitere Einzelheiten dazu, wie man die Spieldaten wahrend und nach den Spielen
+pruft, findest Du auf den Seite 27.
+
+«Am Ende jedes einzelnen Spiels wird ein Code-Wort angezeigt. (PASSWORDS » S.21)
+
+===== Page 24 =====
+
+In diesem Modus werden die Spiele einer normalen NBA-Saison, ebenso wie die
+Entscheidungsspiele und Endspiele nachempfunden. Wenn Du am Ende der Saison zu
+einer der besten acht Mannschaften gehdorst, nimmst Du an den Ausscheidungsspielen
+bzw. Endspielen teil.
+
+1) Wahlt das Spielverfahren.
+GAME START: Spielbeginn vom Start. » 2
+PASSWORD: Spielbeginn an der Position, wo Du das Spiel zuletzt beendet hast. Nach
+Eingabe des richtigen Code-Worts beginnt das Spiel!
+
+2) HOW MANY PLAYERS?: Stelle die Anzahl der Spieler in Deiner Mannschaft ein.
+
+3) SELECT NUMBER OF GAMES: Wahle die Anzahl der Spiele.
+
+4) SELECT A TEAM: Wahle Deine Mannschaft aus. (In diesem Modus kannst Du keine All-
+Star- oder Original-Mannschaft wahlen.)
+
+5) TONIGHT ’S MATCH UP: Wahle Dein Spiel aus den Spielen, die fiir diesen Tag vorgese-
+hen sind. Nach dem Member Change-Screen beginnt das Spiel!
+
+¢ Weitere Einzelheiten dazu, wie man die Spieldaten wahrend und nach den Spielen
+pruft, findest Du auf der Seite 27.
+« Am Ende jedes einzelnen Spiels wird ein Code-Wort angezeigt. (PASSWORDS » S.21)
+
+Hier kannst Du die Spieler der 27 Mannschaft untereinander austauschen, um Deine
+eigene Original-Mannschaft zusammenzustellen. Diese Mannschaftsdaten gehen
+jedoch verloren, wenn Du die Stromversorgung Deines SNES ausschaltest).
+
+iilBedienelemente Il
+
+* Control Pad: Wahlen einer Position
+A-Taste: Einstellen (Weiterschalten zum n&chsten Screen)
+B-Taste: Léschen (RUckkehr zum vorhergehenden Screen)
+
+¢ TRADE: Tausche Spieler zwischen den 27 Mannschaften aus.
+
+¢ EDIT ALL STAR TEAM: Wahle Spieler unter den Mannschaften einer Gruppe aus, um
+Deine eigene Original-Mannschaft zusammenzustellen. (Du kannst denselben Spieler
+nicht zweimal in derselben Mannschaft verwenden.)
+
+¢ EDIT ORIGINAL TEAM: Wahle Spieler unter den 27 Mannschaften aus, um Deine eigene
+Original-Mannschaft zusammenzustellen. (Du kannst denselben Spieler nicht
+zweimal in derselben Mannschaft verwenden.)
+
+¢ Weitere Einzelheiten dazu, wie Du die Spielerdaten priifen kannst, findest Du auf
+Seite 27.
+
+===== Page 25 =====
+
+Hier kannst Du die Tastenbelegung Deines Controllers und die
+Spieleinstellungen verandern.
+
+ill Bedienelemente Illi
+
+* Control Pad Jt : Wahlen einer Position
+
+* Control Pad <-> : Verandern einer Position
+
+A-Taste Einstellen (Weiterschalten zum nachsten Screen)
+B-Taste Loschen (RUckkehr zum vorhergehenden Screen)
+
+ii CONFIGURATIONS ili
+Veranderung der Tastenbelegung des Controllers (bzw. der Controller).
+
+ii! RULES/DIFFICULTY ill
+
+Hier kannst Du die Spielregeln und andere Spieleinstellungen verandern.
+e LEVEL: Verandere den Schwierigkeitsgrad des Spiels, wenn Du gegen den
+Computer spielst.
+¢ TIME: Hier kannst Du die Lange der einzelnen Viertel einstellen.
+¢ GAME MODE: (ON: Einstellungen an, OFF: Einstellungen aus)
+ARCADE: Keine Fouls
+SIM.: Fouls
+CUSTOM: Hier kannst Du das System fiir die Fouls selbst einstellen. »
+Fouls $.26
+REPLAY: Einstellung der sofortigen Wiederholung.
+LAY-UP: Einstellungen fiir die grundlegenden Wurfe im Laufen.
+HOME COURT ADVANTAGE: Die Heim-Mannschaft hat einen kleinen
+Vorteil_
+
+iSOUND Ill
+
+Hier kannst Du die Spielgerausche verandern.
+(ON: Einstellungen an, OFF: Einstellungen aus).
+
+¢ COMMENTATOR: Einstellungen fiir Spiel-Kommentare
+¢ STEREO/MONO: Hier kannst Du Stereo- oder Mono-Klang wahlen.
+
+===== Page 26 =====
+
+Im Option-Modus kannst Du alle Einstellungen mit Ausnahme der Wurfzeitbegrenzung
+und der Linieniiberschreitung verandern.
+
+illVerletzungen der Spielregelin
+durch die angreifende Mannschatft Ill
+
+Wenn die angreifende Mannschaft eine der folgenden Spielregeln verletzt, verliert sie
+den Ball an die verteidigende Mannschaft. Die verteidigende Mannschaft erhalt dann
+einen Einwurf.
+
+¢ Back Court Violation (Rickgabe): Ein Ball, der in die Spielfeldhalfte der gegner-
+ischen Mannschaft gebracht wurde, kann nicht in Deine Spielfeldhalfte zuriick-
+gegeben werden.
+
+* 10 Second Violation (Uberschreitung von 10 Sekunden): Du mut innerhalb von 10
+Sekunden in die Spielfeldseite der gegnerischen Mannschaft eindringen.
+
+* 5 Second Violation (Uberschreitung von 5 Sekunden): Du muBt innerhalb von 5
+Sekunden einwerfen.
+
+* 3 Second Violation (Uberschreitung von 3 Sekunden): Du kannst Dich nicht langer als
+3 Sekunden in der Zielzone der gegnerischen Mannschaft aufhalten.
+
+* Shot Clock Violation (Wurfzeit-Uberschreitung): Die angreifende Mannschaft muB
+innerhalb von 24 Sekunden nach Empfang des Balls werfen.
+
+* Out of Bounds (Linien-Uberschreitung): Der Ball mu@ innerhalb der
+Spielfeldmarkierung bleiben.
+
+ill Offensive Foul (Fouls der
+
+angreifenden Mannschaft) Ill
+
+Die angreifende Mannschaft darf nicht mit Absicht gegnerische Spieler beim Werfen
+anrempeln. Wenn dennoch Korperkontakt erfolgt, kommt die verteidigende
+Mannschaft in Ballbesitz und erhalt einen Einwurf.
+
+ill Defensive Foul (Fouls der
+verteidigenden Mannschaft) Ill
+
+Die verteidigende Mannschaft darf die angreifende Mannschaft nicht mit Gewalt
+abblocken, wenn diese wirft. Wenn dies vorkommen sollte, erhalt die angreifende
+Mannschaft ein bis drei Freiwurfe. Wenn ein Wurf nach einem Foul in den Korb trifft,
+erhalt die angreifende Mannschaft sowohl Punkte als auch zusatzlich einen Freiwurf.
+Wenn der Wurf den Korb verfehlt, erhalt die angreifende Mannschaft drei Freiwiirfe
+fur einen 3-Punkte- Wurf und zwei FreiwUrfe fur andere Wirfe.
+
+iliGoal Tending (Blockieren des Korbs) Ill
+
+Wenn ein Wurf ber dem Korb abgeblockt wird, obwohl der Ball bereits zu fallen
+begonnen hat, erhalt die werfende Mannschaft selbst dann Punkte, wenn der Ball
+nicht in den Korb gelangt.
+
+oe
+
+===== Page 27 =====
+
+Am Ende eines Spiels, wenn Du Spieler wechselst und zu verschiedenen anderen
+Gelegenheiten werden Spieldaten angezeigt-
+
+illBedienelemente auf dem Daten-Screen Ill
+
++ Control Pad =: Durchrollen des Screens (L, R-Taste)
+ATaste : Weiter zum nachsten Screen (Einstellen)
+B-Taste : Zurack zum vorhergehenden Screen (Léschen)
+
+ilIndividuelle Daten Ill
+
+No : Nummer des Spielers
+POS. =: Position
+NAME : Name
+
+F/G% : Prozentsatz der Feld-Korbwurfe (ausschl. Freiwlirfen)
+3FG% : Prozentsatz der 3-Punkte-Wirfe
+P/G =: Durchschnittliche Punktzahl pro Spiel
+
+R/G =:  Durchschnittliche Anzahl von AbprallwUrfen pro Spiel
+$/G_ =:  Durchschnittliche Anzahl von Ballabnahmen pro Spiel
+B/G :  Durchschnittliche Anzahl von Blocks pro Spiel
+
+il! Spieldaten Ill
+
+PTS. : Spielergebnis
+
+PCT. : Prozentsatz der Feld-Korbwurfe
+OFF.REB. : Anzahl der Abprall-Wirfe
+
+BLK.SH. : Anzahl der offensiven Abprall-Wurfe
+3PTS. : Anzahl der 3-Punkte-Wurfe
+
+DUNK SHOOT : Anzahl der Dunk-Wirfe
+
+JUMPER : Anzahl der Sprung-Wurfe
+
+STEAL : Anzahl der Ballabnahmen
+
+27
+
+===== Page 28 =====
+
+aye
+
+Le basketball de la NBA — le sport le plus populaire des Etats-Unis!
+Choisissez votre €quipe parmi les 27 que comportent la NBA et les All-Star et
+franchissez toutes les épreuves de la saison, les belles et les finales pour
+atteindre le sommet!
+
+Les régles de ce jeu sont basées sur celles de la NBA; des données relatives
+aux matches et aux joueurs de la saison 1995 ont été utilisées lors de la
+création du jeu.
+
+GN
+Gummminm 2Geees
+
+Régles eoceescccesccccscoscsseosecsescosessesesees 29
+
+Raccordement de la boite de commande eeeeeceececcccccccccs 30
+cece 30
+ee 32
+
+Commande des joueurs eeeeeeeeecceccce eocce
+
+Lancement du jeu ee eevee eoce
+
+Page de jeu eeeece eooce eocce 0° 33
+
+Mots de passe eeerccceccccccccoccsrecccocsoocoeooeeoe 33
+Mode Salle de jeux eecccccccccccccccccccccccvcccccccs 34
+Mode Belles eeccccccccccccccccccecccccccccecccccce 35
+Mode Saison eeccecccccsccccccceccccecesesececcecece 36
+Modification des équipes eeeececccccccccccccccccccecece 36
+Options ececcccccccccccccccccccccccccccccccccsece 37
+Coups irréguliers eeeceseccssvccscvcccscsesceseccceees 38
+
+Données de jeu COKCCHHC OLE E HOHE OLEOHESELOROOEEOHEOEEEEe 39
+
+ZR
+
+===== Page 29 =====
+
+ili Début de la partie Ill
+
+Lorsque le ballon est mis en jeu, synchronisez avec soin vos mouvements et
+appuyez sur le bouton A, B, X ou Y pour que votre joueur saute et pousse le bal-
+lon vers les membres de votre équipe.
+
+ill Durée de la partie Ill
+
+Une partie comporte quatre périodes de deux minutes. Si la partie se termine
+sans vainqueur, des prolongations de deux minutes sont jouées jusqu’a ce
+qu’une des deux équipes gagnent. Les prolongations ne sont pas des verdicts
+instantanés. (La durée de la partie peut étre modifiée grace au mode Options »
+P.37)
+
+iil Terrain Ill
+
+Vavant du terrain est le camp du joueur 1, l’arriére le camp du joueur 2. Les
+é€quipes changent de camp a la mi-temps. Toutefois, si vous jouez contre l’ordi-
+nateur, votre camp est normalement l’avant du terrain.
+
+ill Marque ill
+
+Les buts marqués a l’intérieur de la ligne des trois-points donnent deux points,
+ceux marqués a l’extérieur donnent trois points. Un but marqué a la suite d’un
+coup irrégulier de l’adversaire, vous donne un point.
+
+itPause Ill
+
+Lorsque votre équipe défend, vous pouvez demander sept pauses au cours d’une
+partie. Deux chances supplémentaires vous sont offertes, l’une durant la pre-
+miére moitié de la partie, l’autre durant la seconde.
+
+illCoups irréguliers Ill
+
+lis sont basés sur les régles de la NBA. (Si un joueur se trouve six fois en situa-
+tion irréguliére, il doit quitter le terrain. » P. 38)
+
+iilPartie A 1 ou 2 joueurs Ill
+
+Reliez la boite de commande 1 4 la prise | et la boite de commande 2 4 la prise
+2 du SNES.
+
+illiPartie 4 3 joueurs, ou plus,
+
+en utilisant le Multi-Tap™ Ill
+
+Reliez la boite de commande 1 4 la prise 1 et le SNES Multi-Tap” (vendu séparé-
+ment) & la prise 2 du SNES; cela fait, reliez les autres boites de commande aux
+diverses prises du Multi-Tap”™.
+
+===== Page 30 =====
+
+Bouton L
+
+Bouton X
+
+Bouton A
+
+Bouton de direction Bouton B
+Bouton Select Bouton Y
+
+La maniére de commander un joueur d’une équipe attaquante dépend du
+fait que vous étes seul 4 commander votre équipe, ou au contraire, que
+vous partagez cette opération avec une autre personne. La maniére de
+commander les joueurs d’une équipe de défense ne varie pas.
+
+ill Si vous étes seul 4 commander votre équipe Ill
+
+L’équipe attaque L’équipe défend
++ Dribble Déplacement
+A Choix du joueur recevant le ballon Choix du joueur commandé
+B Passe/Remise en jeu Rebond/Blocage du ballon
+x Alley-oop
+Y Tir Prise du ballon/Passe interceptée
+
+lil Si vous tes deux &4 commander
+votre équipe (elle joue la défense) Ill
+
+Joueur avec le ballon Joueur sans le ballon
+
+Dribble Déplacement
+
+Choix du joueur 4 commander
+
+Passe/Remise en jeu Rebond/Saut
+
+Alley-oop
+
+Tir
+
+Normalement, vous faites des passes a la personne qui commande avec
+vous votre équipe.
+
+Tous les réglages décrits dans ce mode d’emploi correspondent au niveau
+Débutant (type A). Vous avez la faculté de modifier ces réglages grace a la
+
+page Options. (» P. 37)
+2n
+
+===== Page 31 =====
+
+PE SSB ILLS
+
+ill Tir de pénalitéd Ill
+Si vous étes l’objet d’un coup irrégulier, vous avez droit a un tir de pénalite.
+
+Observez la position du curseur et appuyez sur le bouton Shoot (Y) pour
+définir la puissance et la direction du tir.
+
+iiRemplacement de joueutr Ill
+
+Pendant une partie, vous pouvez demander une pause et remplacer un
+joueur si votre €quipe est dans une phase d’attaque; pour cela, appuyez sur
+le bouton Start (vous pouvez procéder ainsi sept fois au cours d’une partie).
+Vous pouvez également remplacer un joueur si vous avez obtenu un tir de
+pénalité. (Remplacement des joueurs » P. 34)
+
+iiRépétition de la derniére scéne Ill
+Les meilleurs tirs sont répétés sur 1’écran sans intervention de votre part.
+Appuyez sur le bouton A, B, X ou Y pour abandonner cette répétition.
+
+iil Technique de tir Ill
+
+La hauteur du tir dépend de la durée de la pression sur le bouton Shoot. Plus
+vous étes prés du panier et plus vous étes haut au moment ol vous appuyez
+sur le bouton Shoot, plus grandes sont vos chances de marquer un point.
+
+Lancer au panier : Approchez-vous du panier, maintenez la pression d’un
+doigt sur la croix * du pavé de commande et appuyez
+sur le bouton Shoot (Y). (I] peut en résulter un tir tendu.)
+
+Tir lointain : Maintenez la pression d’un doigt sur croix + du pavé de
+commande a l’opposé du panier et appuyez sur le bou-
+ton Shoot (Y).
+
+Double coup : Appuyez une nouvelle fois sur le bouton Shoot (Y) alors
+que vous effectuez un lancer au panier.
+
+Alley-oop : Appuyez sur le bouton Alley-oop (%) quand le joueur a
+qui vous passez le ballon est sous le panier.
+
+Rebond de : Synchronisez vos mouvements avec soin quand le ballon
+lancer au panier rebondit sur le panneau et appuyez sur le bouton
+Rebound (B).
+
+Coup pour rien =: Appuyez légérement sur le bouton Shoot (Y).
+
+3231
+
+===== Page 32 =====
+
+Introduisez la cartouche de jeu dans le SNES et mettez ce dernier sous ten-
+sion. Si vous utilisez le Multi-Tap”, veillez & ce qu’il soit correctement
+relié avant d’effectuer la mise sous tension.
+
+La page de titre étant affichée, appuyez sur le bouton Start pour afficher la
+page de sélection du mode. Choisissez le mode de fonctionnement grace a
+Ja croix + du pavé de commande puis appuyez sur le bouton A pour pour-
+suivre.
+
+Arcade (Salle de jeux) ->***sccsscscccceeee P 34
+Ce mode est basé sur le jeu “Run & Gun” et met l’accent sur la vitesse et
+les émotions.
+
+Exhibition (Demonstration) «+<°++cccccesscee P B34
+Ce mode ne permet qu’une partie.
+
+Playoffs (Belles) Coeececcerscccecceccsccos P BH
+Faites vous-méme l’expérience de toutes les belles et finales de la saison
+1995 de la NBA. Vous pouvez choisir votre équipe ou laisser ce soin a l’ordi-
+nateur.
+
+Season (Saison) eovccccveccccccccccecccoe P OG
+Ce mode vous donne la possibilité de jouer une saison normale de la NBA
+qui comporte quatre-vingt-deux rencontres, belles et finales. Vous avez la
+faculté, si vous le souhaitez, de changer le nombre d’épreuves prévues au
+cours d’une saison normale.
+
+Team Edit (Modification des equipe) -+++++-+++P, 36
+
+Vous pouvez échanger les joueurs entre les vingt-sept équipes de la NBA. I]
+est également prévu que vous puissiez composer une équipe originale ne
+comprenant, par exemple, que des vedettes.
+
+Options «+ orccscccecesccscccscceccocee P BF
+Ce mode vous donne le moyen de modifier le réle des boutons de la boite
+de commande, de changer les régles, le niveau de difficulté et les
+réglages sonores.
+
+32
+
+===== Page 33 =====
+
+Ligne des
+trois-points
+
+Zone du but
+
+Shot clock: Ce chronométre vous indique le temps encore disponible pour tirer.
+Si vous dépassez le temps alloué, vous étes pénalisé (dépassement du temps
+alloué). (Coups irréguliers » P. 38)
+
+it!i'Curseur du joueur Ill
+
+Votre joueur Joueur pouvant recevoir le ballon
+Normalement, vous
+Position faites des passes Ala
+Joueur que vous personne qui com-
+commandez mande conjointement
+
+votre équipe.
+
+Les modes Playoff et Season vous permettent d’enregistrer des mots de passe
+grace auxquels vous pouvez disposer ultérieurement des données de jeu. Tapez
+le mot de passe qui s’affiche a la fin de la partie pour étre en mesure de la
+reprendre 1a ol elle s’est terminée.
+
+iifFrappe du mot de passe ill
+
+Bouton L/R: Frappe des lettres
+Croix « du pavé de commande: Choix de l’emplacement de frappe
+Bouton A: Validation du mot de passe
+
+La partie commence aprés la frappe du mot de passe et le choix de l’option END.
+
+33
+
+===== Page 34 =====
+
+ill Commandes pour la page de sélection Ill
+
+Croix + du pavé de commande: Choix d’une option
+Bouton A: Validation (affichage de la page suivante)
+Bouton B: Annulation (retour 4 la page précédente)
+
+Arcade Mode (Mode Salle de jeux)
+
+Mode excitant, oli l’action se déroule avec rapidité et sans tirs de pénalité;
+il est basé sur le jeu “Run & Gun”.
+
+1) HOW MANY PLAYERS?: Pour choisir le type de partie
+(Contre l’ordinateur) VS COM » 2
+Autres cas » 3
+
+2) Pour choisir l’€quipe que vous commandez. La partie commence dés
+aprés la sélection.
+
+3) SELECT TEAM/COURT: Pour choisir votre équipe et votre camp. La partie
+commence dés aprés la sélection.
+
+La partie est définie comme dans une salle de jeux et les reglages ne peu-
+vent pas étre modifiés.
+
+° Il n’y a pas de reglages particuliers, donc tous les tirs au paniers sont
+bons.
+
+* ll n’y a pas de pause et aucun joueur ne peut étre remplacé.
+
+° Les seules infractions sont le dépassement du temps alloué et les sorties
+de ballon.
+
+Exhibition Mode (Mode Demonstration)
+
+Ce mode ne permet qu’une seule partie.
+
+1) HOW MANY PLAYERS?: Pour choisir le type de partie
+2) SELECT TEAM/COURT: Pour choisir votre équipe et votre camp
+
+ill Remplacement des joueurs Ill
+
+Vous pouvez choisir les joueurs avant que la partie ne commence. |1 est
+également possible de remplacer les joueurs au cours de la partie.
+
+Za
+
+===== Page 35 =====
+
+PES SH GRS SE
+
+SELECT TEAM MEMBERS: Pour remplacer les joueurs de votre équipe.
+Choisissez l’?option OK pour commencer la partie.
+
+e Une étoile peut figurer sur chaque joueur et indiquer sa condition
+physique. (Absence d’étoile: mauvaise condition; une étoile: condition
+normale; Deux étoiles: bonne condition trois étoiles: excellente condi-
+tion)
+
+¢ Si vous placez un joueur dans une position différente de celle qu’il
+occupe normalement quand il joue, ses possibilités diminuent. (C: cen-
+tre, F: avant, G: garde)
+
+¢ Reportez-vous a la page 39 pour connaitre la maniére de vérifier les don-
+nées des joueurs.
+
+¢ Pendant la partie, vous pouvez connaitre le nombre de pauses encore
+disponibles et le nombre de coups irréguliers causés par chaque joueur,
+en consultant pour cela la page de remplacement des joueurs.
+
+Vous jouez les belles et les finales qui ont lieu a la fin de la saison nor-
+male. Outre les équipes habituelles, vous disposez également d’une équipe
+East-West All-Star et vous avez la faculté de composer votre propre équipe.
+
+1) Pour choisir le méthode de jeu
+GAME START: Pour commencer au début. » 2
+PASSWORD: Pour commencer 1a oU vous vous étes arrété. La partie com-
+mence aussitét aprés la frappe du mot de passe.
+
+2) HOW MANY PLAYERS?: Pour définir le nombre de joueurs dans votre
+équipe.
+
+3) TOURNAMENT STANDINGS: Pour choisir les €quipes qui se rencontreront et
+le nombre de parties.
+1995 PLAYOFFS: Les équipes des belles de la saison NBA 1995. » 5
+RANDOM: L’ordinateur choisit les €quipes au hasard. » 5
+CUSTOM: Vous choisissez les équipes. » 4
+
+4) SET TOURNAMENT PAIRINGS: Pour choisir les 8 €quipes de chaque poule.
+
+5) Pour choisir votre €quipe.
+
+6) TONIGHT’S MATCH UP: Pour choisir la rencontre parmi celles qui sont
+prévues pour la soirée. La partie commence dés que le remplacement
+des joueurs est terminé.
+
+° Reportez-vous a la page 39 pour connaitre la maniére de vérifier les don-
+nées au cours ou a la fin des parties.
+
+¢ Un mot de passe s’affiche a la fin de chaque partie. (PASSWORDS » P. 33)
+B35
+
+===== Page 36 =====
+
+Ce mode permet de recréer les quatre-vingt-deux rencontres, belles et
+finales d’une saison normale de la NBA. Si, a la fin de la saison, votre
+équipe est une des huit meilleures, elle participe aux belles et aux finales.
+
+1) Pour choisir le méthode de jeu
+GAME START: Pour commencer au début. » 2
+PASSWORD: Pour commencer 1a oU vous vous étes arrété. La partie com-
+mence aussitét aprés la frappe du mot de passe.
+
+2) HOW MANY PLAYERS?: Pour définir le nombre de joueurs dans votre
+équipe.
+
+3) SELECT NUMBER OF GAMES: Pour choisir le nombre de parties.
+
+4) SELECT A TEAM: Pour choisir votre équipe. (Dans ce mode, vous ne pouvez
+pas jouer avec une équipe All-Star ou une équipe composée par vous.)
+
+5) TONIGHT’S MATCH UP: Pour choisir la rencontre parmi celles qui sont
+prévues pour la soirée. La partie commence dés que le remplacement
+des joueurs est terminé.
+
+* Reportez-vous a la page 39 pour connaitre la maniére de vérifier les don-
+nées au cours ou a la fin des parties.
+¢ Un mot de passe s’affiche a la fin de chaque partie. (PASSWORDS » P. 33)
+
+Team Edit (Modification des Equipes)
+
+Vous avez la possibilité d’échanger les joueurs entre les vingt-sept équipes
+de maniére a constituer une Equipe originale. (Les données de cette
+équipe sont effacées au moment ou vous mettez le SNES hors tension.)
+
+il! Commandes lll
+Croix « du pavé de commande: Pour choisir une option
+
+Bouton A: Validation (affichage de la page suivante)
+Bouton B: Annulation (retour 4 la page précédente)
+
+e TRADE: Pour échanger les joueurs entre les 27 équipes.
+
+e EDIT ALL STAR TEAM: Pour choisir les joueurs parmi tous ceux de la poule
+et constituer une équipe qui vous est propre. (Cette équipe ne peut pas
+comporter deux fois le méme joueur.)
+
+¢ EDIT ORIGINAL TEAM: Pour choisir les joueurs parmi les 27 équipes et com-
+poser ainsi une équipe originale. (Cette Equipe ne peut pas comporter
+deux fois le méme joueur.)
+
+¢ Reportez-vous a la page 39 pour connaitre la maniére de vérifier les don-
+nées des joueurs.
+
+36
+
+===== Page 37 =====
+
+Les options sont destinées 4 modifier le réle des boutons de la boite de
+commande et les conditions de jeux.
+
+ii Commandes Ill
+
+Croix + du pavé de commande yp: Pour choisir une option
+Croix * du pavé de commande <¢3: Pour modifier la valeur
+Bouton A: Validation (affichage de la page suivante)
+
+Bouton B: Annulation (retour a la page précédente)
+
+iii CONFIGURATIONS ili
+Pour modifier le réle des boutons de la boite de commande.
+
+iii RULES/DIFFICULTY Ill
+Pour modifier les régles et les conditions du jeu.
+e LEVEL: Pour changer le niveau de difficulté de la partie quand vous jouez
+contre l’ordinateur.
+¢ TIME: Pour définir la durée d’un quart-temps.
+e GAME MODE: (ON: les réglages sont en vigueur, OFF: les réglages ne sont
+pas en vigueur)
+ARCADE: Pas de coups irréguliers
+SIM.: Coups irréguliers
+CUSTOM: Vous définissez les coups irréguliers. » Coups irréguliers P. 38
+REPLAY: Conditions de visionnement de la derniére scéne.
+LAY-UP: Conditions des tirs en courant.
+HOME COURT ADVANTAGE: L’équipe du camp invitant dispose d’un
+léger avantage.
+
+ih SOUND Ill
+
+Pour changer les réglages sonores du jeu.
+(ON: les réglages sont en vigueur, OFF: les réglages ne sont pas en vigueur)
+
+e COMMENTATOR: Commentaires sur la partie
+© STEREO/MONO: Pour choisir la stéreophonie ou la monophonie.
+
+=
+
+===== Page 38 =====
+
+Le mode des options vous offre le moyen de modifier tous les reglages a
+V’exclusion du dépassement du temps alloué et des sorties de ballon.
+
+il Offensive team violations (Infractions
+commises par l'équipe qui attaque) Ill
+
+Si ’équipe attaquante commet l’une des infractions suivantes, elle perd le
+ballon au profit de l’équipe adversaire. L’equipe qui défend a alors droit a
+une remise en jeu.
+
+© Back court violation (Infraction de fond de terrain): Un ballon qui n’a pas
+atteint le fond du terrain de l’équipe adversaire ne peut pas étre amené
+jusqu’au fond du terrain de votre équipe.
+
+© 10 second violation (Infraction des dix secondes): Vous devez atteindre le
+fond du camp adverse en moins de dix secondes.
+
+e 5 second violation (Infraction des cing secondes): Vous devez tirer au but
+dans les cing secondes.
+
+© 3 second violation (Infraction des trois secondes): Vous ne pouvez pas
+demeurer dans la zone du but pendant plus de trois secondes.
+
+© Shot clock violation (Infraction de dépassement du temps alloué):
+V’équipe attaquante doit tirer dans les vingt-quatre secondes qui suivent
+la réception du ballon.
+
+¢ Out of bounds (Sorties de ballon): Le ballon doit demeurer sur le terrain.
+
+ill Offensive foul (Coups irréguliers
+
+dus 4 l'équipe attaquante) Ill
+
+Au moment d’un tir, les membres de 1’équipe qui attaque ne doivent pas
+volontairement entrer en contact avec ceux de l’équipe qui défend. En cas
+de contact, l’équipe qui défend prend possession du ballon et 4 droit a un
+tir au but.
+
+ill Defensive foul (Coups irréguliers
+
+dus a4 I'équipe défendante) Ill
+
+Au moment d’un tir, les membres de l’équipe qui défend ne doivent pas
+empécher volontairement le mouvement de ceux qui attaquent. Si cela se
+produit, l’equipe attaquante gagne un a trois lancers au panier. Si lors
+d’un de ces lancers le ballon traverse le panier, l’équipe attaquante mar-
+que et gagne en outre un tir de pénalité. Si le ballon ne traverse pas le
+panier, l’équipe attaquante regoit trois tirs de pénalité pour un tir a trois
+points et deux tirs de pénalité pour les autres tirs.
+
+ilGoal Tending (Gardiennage du but) Ill
+Si un tir est arrété au-dessus du panier alors que le ballon est déja en
+chute, des points sont marqués méme si le ballon ne traverse pas le panier.
+
+i -4
+
+===== Page 39 =====
+
+Les données de la partie sont affichées a la fin de la partie, quand vous
+effectuez un changement de joueur, et a d’autres occasions.
+
+iti Commande pour la page des données Ill
+
+Bouton A: Validation (affichage de la page suivante)
+Bouton B: Annulation (retour a 1a page précédente)
+
+ill Données individuelles Ill
+
+No.
+Pos.
+NAME
+F/G%
+3FG%
+P/G
+R/G
+$/G
+B/G
+
+PTS
+PCT
+
+OFF.REB.
+BLK.SH
+
+3PTS
+
+Numéro du joueur
+
+Position
+
+Nom
+
+Pourcentage de buts (non compris les tirs de pénalité)
+Pourcentage de tirs trois points
+
+Marque moyenne par partie
+
+Nombre moyen de rebonds par partie
+
+Nombre moyen de vols de ballon par partie
+
+Nombre moyen de blocages par partie
+
+iil Données de jeu ill
+
+Marque
+
+Pourcentage de buts
+
+Nombre de rebonds
+
+Nombre de rebonds offensifs.
+Nombre de tirs trois-points
+
+DUNK SHOOT : Nombre de lancers au panier
+JUMPER
+
+STEAL
+
+Nombre de tirs en sautant
+Nombre de vols de ballon
+
+329
+
+===== Page 40 =====
+
+AVERTISSEMENT SUR L'EPILEPSIE
+
+A lire avant toute utilisation d'un jeu vidéo
+par vous-méme ou votre enfant.
+
+Certaines personnes sont susceptibles de faire des crises
+d'épilepsie ou d'avoir des pertes de conscience a la vue de certains
+types de lumiéres clignotantes ou d'éléments fréquents dans notre
+environnement quotidien. Ces personnes s'exposent a des crises
+lorsqu'elles regardent certaines images télévisées ou lorsqu'elles
+jouent a certains jeux vidéo. Ces phénomeénes peuvent apparaitre
+alors méme que le sujet n'a pas d'antécédent médical ou n'a jamais
+été confronté a une crise d'épilepsie.
+
+Si vous-méme ou un membre de votre famille avez déja
+présenté des symptémes liés a I'épilepsie (crise ou perte de
+conscience) en présence de stimulations lumineuses, veuillez
+consulter votre médecin avant toute utilisation.
+
+Nous conseillons aux parents d'étre attentifs a leurs enfants
+lorsquiils jouent avec des jeux vidéo. Si vous-méme ou votre enfant
+présentez un des sympt6émes suivants: vertige, trouble de la vision,
+contraction des yeux ou des muscles, perte de conscience, trouble
+de l'orientation, mouvement involontaire ou convulsion, veuillez
+immédiatement cesser de jouer et consulter un médecin.
+
+PRECAUTIONS A PRENDRE DANS TOUS LES CAS
+POUR L'UTILISATION D'UN JEU VIDEO
+¢ Ne vous tenez pas trop prés de I'écran. Jouez a bonne distance
+de I'écran de télévision et aussi loin que le permet le cordon de
+raccordement.
+
+° Utilisez de préférence les jeux vidéo sur un écran de petite taille.
+
+* Evitez de jouer si vous étes fatigué ou si vous manquez de
+sommeil.
+
+¢ Assurez-vous que vous jouez dans une piéce bien éclairée.
+
+¢ En cours d'utilisation, faites des pauses de dix a quinze minutes
+toutes les heures.
+
+40
+
+===== Page 41 =====
+
+
+
+===== Page 42 =====
+
+
+
+===== Page 43 =====
+
+432
+
+===== Page 44 =====
+
+“Eres
+
+GIVE
+‘NGO
+
+NBA basketbal - de meest populaire sport in de Verenigde Staten! Kies je
+eigen team uit 27 NBA en All-Star teams, en werk je door het wedstrijd-
+seizoen, de beslissingsmatches en uiteindelijk de finale om te zegevieren
+over je tegenstanders.
+
+Dit spel is gebaseerd op echte NBA spelregels en gebruikt de wedstrijd- en
+spelergegevens van het 1995 seizoen.
+
+Inhoudsopgavelae==.
+
+SPOlVOQOIS: eis cei eee eee ee a ere eerete care Piote easel eel ol
+
+Aansluiten van het bedieningspaneel .........--.-------------- 46
+Pesturenvanide spelerssjere crete sete arate emis crete ale re ore cre ater e eeton 46
+Starter Van Hetspel: 72 oc1-toti ies fo) o sicys aera ete seers) ioe epee aioe 48
+SDBISCHONIN ate oe fave siayevetoreis ic senda reheat ct plea eyatafet a cy ofasetevacay seen 49
+BaSWOOTGON si-2jorcncis Soke Sieve tete Wids a larallavala- ee mibralctafatars mumratevererestuatcrae 49
+AT CACO: SPOllUniih Orem termrct a's ie ieee enero rnnce en ota ree cre es cue eee ere 50
+EXHIDIMON:SDGIUNKUG foie, occ cre eters eee ee ce we ee ei ae ae ee eee 50
+Plavoticspelfunktienicii [oo cco Sees rae te occ ci oe fanaa wm gcaiwuer vane 51
+SGASON SHOINUTICIO icc wie clase cco a tees dla thate state eee C eumlae wien ovsteae 52
+TOAINOGItSPOIBYSOIOKUIG! « o<'c.c oc sos se's vas bievet cree ara.cre syote ene waa ere 52
+ODULONS FUT Oe ee ere mate cbe actin tal ia ean eine oan 53
+Vert edinGeni ino c.f ecctence = ato atniate ceavere Sieseve h puseneim ee anere rer eueptats 54
+SPOIOSCOVONS 2 os oes oc hata esters wie web oie ciate Sate ce Sw ae ee 55
+
+===== Page 45 =====
+
+iiStart van de wedstrijd Ill
+
+Als de bal aan het begin van de wedstrijd in de lucht wordt geworpen moet je
+heel precies met de A, B, X of Y toets proberen je speler op het juiste moment
+te laten springen om de bal in de richting van je teamgenoten te tikken.
+
+iliSpeelduur van de wedstrijd. Ill
+
+Een wedstrijd bestaat uit vier kwarten van ieder 2 minuten. Als de wedstrijd
+eindigt met gelijk spel, zal steeds een verlenging van twee minuten worden
+ingesteld totdat een van de teams wint. (De speelduur van de wedstrijd kan
+worden gewijzigd met de Option funktie » Blz. 53)
+
+lili Speelveld iil
+
+Het voorste gedeelte van het speelveld is de helft van de Speler 1, en het
+achterste gedeelte van het veld is de helft van Speler 2. De teams wisselen veld
+als de helft van de wedstrijd is gespeeld. Als je tegen de computer speelt,
+wordt je het voorste gedeelte van het speelveld aangeboden als je eigen helft.
+
+iiScoren van punten Ii
+
+Schoten vanaf de binnenzijde van de drie-punts lijn scoren 2 punten, en
+schoten vanaf de buitenzijde van de lijn scoren 3 punten. Vrije worpen (die je
+krijgt toegewezen als de tegenpartij een overtreding maakt) scoren {1 punt.
+
+lil! Time-out onderbreking Ill
+
+Als je met het aanvallende team speelt, kan je tot zeven maal een “time-out”
+onderbreking in de wedstrijd inlassen. Daarbij krijg je not twee extra kansen;
+een in de eerste helft en de andere in de tweede helft van de wedstrijd.
+
+ilOvertredingen Iill
+
+De overtredingen zijn gebaseerd op de NBA spelregels. (Een speler die meer
+dan zes overtredingen begaat wordt van het veld gestuurd. » Blz. 54)
+
+Aansluiten van het bediening
+
+lll Met 1-2 personen spelen Ill
+
+Sluit Bedieningspaneel 1 aan op Aansluiting 1 en Bedieningspaneel 2 op
+Aansluiting 2 van de SNES.
+
+iliMet 3 of meer personen
+spelen met de Multi-Tap™ Il
+
+Sluit Bedieningspaneel 1 aan op Aansluiting 1 en het speciale SNES Multi-Tap™
+paneel (los verkrijgbaar) aan op Aansluiting 2 van de SNES. Sluit de overige
+bedieningspanelen vervolgens aan op de aansluitingen van de Multi-Tap™.
+
+45
+
+===== Page 46 =====
+
+Start toets
+
+L toets R toets
+TT a) ~ x
+j -~ Ay X toets
+tC AZ A toets
+‘Select = START a ; y/o
+Richtingstoets B toets
+Select toets Y toets
+
+De besturing van de spelers van het aanvallende team verande::
+
+afhankelijk of je het team alleen of met een tweede persoon bestuurt. De
+
+besturing van het verdedigende team is altijd hetzelfde.
+ii Alleen besturen van je team iil
+
+Aanvallende team Verdedigende team
+
+Dribbelen Verplaatsen
+
+Speler voor balontvangst kiezen Speler voor besturing kiezen
+
+Pass/Inworp Terugkaatsen/Schot blokkeren
+
+Alley-oop
+
+Schieten Bal afnemen/Pass opvangen
+
+ii Met een tweede persoon besturen
+van je team (tijdens verdedigend spel) ill
+
+Speler met bal Speler zonder bal
+
+Dribbelen Verplaatsen
+
+Speler voor besturing kiezen
+
+Pass/Inworp Terugkaatsen/Schot blokkeren
+
+Alley-oop
+
+Schieten
+
+¢ Normaal speel je de bal door aan je medespeler die je team bestuurt.
+
+46
+
+===== Page 47 =====
+
+lil Vrije worpen Ill
+Als je tijdens het schieten onterecht wordt gehinderd door je tegen-
+standers, krijg je een vrije worp toebedeeld.
+
+Let goed op de cursorpositie en druk op de Schiet (Y) toets om de kracht en
+richting van je schot te bepalen.
+
+ii Spelers wisselen Ill
+
+Tijdens een wedstrijd kan je als het aanvallende team een time-out onder-
+breking inlassen door op de Start-toets te drukken (tot 7 maal per wedstri-
+jd). Je kunt tevens spelers wisselen bij een vrije worp. (Spelers wisselen »
+Blz. 50)
+
+ii Direkte herhaling I
+De beste schoten worden automatisch direkt op het scherm herhaald. Druk
+op de A, B, X of Y toets om dit te annuleren.
+
+ii Schiettechniek Il
+
+De hoogte van je schoten is afhankelijk van hoe lang je de Schiet-toets
+ingedrukt houdt. Hoe hoger en dichter je bij de basket bent als je op de
+Schiet-toets drukt, hoe groter je kans dat de bal z’n doel raakt.
+
+Dunken : Kom zo dicht mogelijk bij de basket, druk het #
+Stuurkussen in de richting van de basket en druk op de
+Schiet (Y) toets. (Dit kan in een lay-up schot veran-
+deren.)
+
+Fade-away schot : Druk het * Stuurkussen in de tegenovergestelde richting
+van de basket en druk op de Schiet (Y) toets.
+
+Dubbelschot : Druk nogmaals op de Schiet (Y) toets tijdens het maken
+van een dunken.
+
+Alley-oop : Druk op de Alley-oop (X) toets als de speler naar wie je
+de bal doorspeelt zich onder de basket bevindt.
+
+Terugkaats-dunk : Druk precies op het juiste moment op de Terugkaats (B)
+toets als de bal van het bord terugkaatst om een
+
+tweede poging te maken.
+
+Schijnbeweging =: Druk licht op de Schiet (Y) toets.
+
+Ps te 2
+
+===== Page 48 =====
+
+Steek de spelcassette in je SNES en schakel het systeem in met de span-
+ningsschakelaar. Als je de Multi-tap™ gebruikt, sluit deze dan op de SNES
+aan alvorens je het systeem inschakelt.
+
+Druk op de Starttoets als het Titelscherm verschijnt om door te gaan naar
+het Spelfunktie-keuzescherm. Kies een spelfunktie met het * Stuurkussen en
+druk op de A toets om door te gaan.
+
+Arcade (Amusementshal) «+ >++s:cscsescecees Biz. 50
+
+Deze spelfunktie is gebaseerd op het amusementshalspel “Run & Gun”,
+waarin razendsnel een uitermate spannende wedstrijd wordt gespeeld.
+
+Exhibition (Eenmalig) -°+°++es+esssceseee Biz. 50
+
+In deze spelfunktie wordt een enkele wedstrijd gespeeld.
+
+Playoffs (Beslissingsmatch) -+++++ceeeeceee Biz. Sl
+
+Onderga de spanning en sensatie van de beslissingsmatch van het 1995 NBA
+seizoen. Je kunt zelf je teams kiezen of ze door de computer laten kiezen.
+
+Season (Seizoen) ecvecccccecescoscsccccce BIZ 52
+
+In deze spelfunktie speel je twee-en-tachtig NBA wedstrijden, beslissings-
+matches en finales. Als je wilt kan je het aantal wedstrijden in het seizoen
+zelf veranderen.
+
+Team edit (Spelerselektie) -++°+e+escceces Biz, 52
+Wissel spelers tussen de zeven-en-twintig NBA teams of selekteer zelf je
+eigen All-Star team.
+
+Options eooeececcecoovevrecvceccecosooocooe BIZ, 5B
+
+In deze funktie kan je de toetsverdeling van het bedieningspaneel, de spel-
+regels, het moeilijkheidsniveau en de spelgeluiden veranderen.
+
+===== Page 49 =====
+
+3-punts lijn
+
+Schietklok: Toont de tijdslimiet voor schieten. Het is een overtreding als je
+te veel tijd neemt om te schieten (schietklok overtreding). (Overtredingen »
+Biz. 54)
+
+ill Spelercursor-display Ill
+Jouw speler Speler die de bal kan ontvangen
+
+eee e Als je samen met een
+vriend een team bestu-
+urt, dan speel je nor-
+
+F} maal de bal door naar
+hem of haar.
+
+In de Playoffs en Season spelfunkties kan je middels een paswoord een in
+het geheugen bewaard spel oproepen. Voer het paswoord in dat verscheen
+aan het eind van het spel om door te spelen vanaf het punt waar je vorige
+keer bent gestopt.
+
+Position
+
+De speler die
+je bestuurt
+
+ill Invoeren van een paswoord iil
+
+L/R toetsen : Voer de letters in
+*Stuurkussen =: Kies de invoerpositie
+A toets : Bevestig het paswoord
+
+Het spel begint als je het juiste paswoord hebt ingevoerd en END hebt
+gekozen.
+
+Ao
+
+===== Page 50 =====
+
+ill Bediening in het ‘Select’ keuzescherm Illi
+
+* Stuurkussen =: Kiest het onderwerp
+A toets : Instellen (Door naar het volgende scherm)
+B toets : Annuleren (Terug naar het vorige scherm)
+
+Arcade Spelfunktie
+
+Een opwindende, razendsnelle wedstrijd zonder overtredingen gebaseerd
+op het bekende “Run & Gun” amusementshalspel.
+
+1) HOW MANY PLAYERS?: Kies het speltype.
+VS COM (tegen computer) » 2
+Andere types » 3
+
+2) Kies het team waarmee je wilt spelen. Het spel begint na het maken van
+je keuze!
+
+3) SELECT TEAM/COURT: Kies je team en de zaal. Het spel begint na het
+maken van je keuze!
+
+De spelfunktie is voor arcade instellingen ingesteld; deze instellingen kun-
+nen niet worden veranderd.
+
+° Er zijn geen lay-up instellingen, dus alle dunk-shots zijn raak.
+
+* Time-out onderbreking en wisselen van spelers is niet mogelijk.
+
+° De enige overtredingen zijn schietklok overtredingen en buiten het
+speelveld raken.
+
+Exhibition Spelfunktie
+
+In deze spelfunktie kan je maar één wedstrijd spelen. Beide partijen kun-
+nen hetzelfde team kiezen.
+
+1) HOW MANY PLAYERS?: Kies het speltype.
+2) SELECT TEAM/COURT: Kies je team en de zaal.
+
+Het spel begint na het Member Change scherm!
+
+iliSpelers wisselen (Member Change) Iill
+
+Je kunt voor de start van de wedstrijd spelers kiezen. Je kunt tevens spelers
+wisselen tijdens het spel.
+
+i+ @)
+
+===== Page 51 =====
+
+CPO SPIES
+
+SELECT TEAM MEMBERS: Hiermee kan je de samenstelling van je team veran-
+deren. Kies 0K om het spel te starten.
+
+¢ De conditie van de spelers wordt aangegeven door een stersymbool.
+(Geen ster: Slechte conditie, Eén ster: Normale conditie, Twee sterren:
+goede conditie, Drie sterren: Topconditie.)
+
+¢ Spelers spelen minder goed als je ze op een andere positie dan normaal
+in het spel plaatst. (C: Middenveld, F: Aanval, G: Verdediging)
+
+¢ Zie blz. 55 voor nadere bijzonderheden omtrent de spelergegevens.
+
+¢ Tijdens het spel kan je in het Members Change scherm kontroleren hoe
+vaak je nog een time-out onderbreking kunt aanvragen en hoe vaak de
+diverse spelers overtredingen hebben begaan.
+
+Playoff Spelfunktie
+
+In deze spelfunktie speel je de beslissingsmatches en finales die plaatsvin-
+den aan het eind van het normale seizoen. Behalve met de normale teams,
+kan je tevens met een East-West All-Star team of een zelf samengesteld
+team spelen.
+
+1) Kies de speelmethode.
+GAME START: Vanaf het begin spelen. » 2
+PASSWORD: Doorspelen vanaf het punt waar je vorige keer bent gestopt.
+Het spel begint nadat je het juiste paswoord hebt ingevoerd!
+
+2) HOW MANY PLAYERS?: Stel het aantal spelers in je team in.
+
+3) TOURNAMENT STANDINGS: Kies de teams die spelen en het aantal
+wedstrijden.
+1995 PLAYOFFS: De 1995 NBA beslissingsmatch teams.» 5
+RANDOM: De computer kiest willekeurige teams.» 5
+CUSTOM: Kies de teams zelf. » 4
+
+4) SET TOURNAMENT PAIRINGS: Kies 8 teams van iedere groep.
+
+5) Kies je team.
+
+6) TONIGHT’S MATCH UP: Kies je wedstrijd uit de voor die dag geplande wed-
+strijden. Het spel start na het Member Change scherm!
+
+° Zie bladzijde 55 voor nadere bijzonderheden omtrent het kontroleren van
+spelgegevens tijdens en na de wedstrijd.
+
+° Aan het eind van iedere wedstrijd wordt een paswoord getoond. (PASWO-
+ORDEN » Biz. 49)
+
+S51
+
+===== Page 52 =====
+
+Deze spelfunktie bevat alle wedstrijden van het normale NBA seizoen, en
+tevens de beslissingsmatches en finales. Als je team aan het eind van het
+seizoen tot de eerste acht teams in het klassement behoort, ga je door naar
+de ‘playoff’ beslissingsmatches en de finales.
+
+1) Kies de speelmethode.
+GAME START: Vanaf het begin spelen. » 2
+PASSWORD: Doorspelen vanaf het punt waar je vorige keer bent gestopt.
+Het spel begint nadat je het juiste paswoord hebt ingevoerd!
+
+2) HOW MANY PLAYERS?: Stel het aantal spelers in je team in.
+
+3) SELECT NUMBER OF GAMES: Kies het aantal wedstrijden.
+
+4) SELECT A TEAM: Kies je team. (In deze funktie kan je niet met een All-Star
+of zelf gekozen team spelen.)
+
+5) TONIGHT’S MATCH UP: Kies je wedstrijd uit de voor die dag geplande wed-
+strijden. Het spel start na het Member Change scherm!
+
+© Zie bladzijde 55voor nadere bijzonderheden omtrent het kontroleren van
+spelgegevens tijdens en na de wedstrijd.
+
+e Aan het eind van iedere wedstrijd wordt een paswoord getoond. (PASWO-
+ORDEN » Biz. 49)
+
+OS arr
+
+Wissel spelers tussen de zeven-en-twintig teams om je eigen team samen
+te stellen. Ue selektie gaat verloren als je je SNES uitschakelt.)
+
+illBediening Ill
+
+* Stuurkussen : Kiest het onderwerp
+
+A toets : Instellen (Door naar het volgende scherm)
+B toets : Annuleren (Terug naar het vorige scherm)
+
+¢ TRADE: Wissel spelers tussen de 27 teams.
+
+¢ EDIT ALL STAR TEAM: Stel je eigen team samen door spelers uit de
+finaleteams te kiezen. Ue kunt een bepaalde speler niet tweemaal voor
+hetzelfde team kiezen.)
+
+¢ EDIT ORIGINAL TEAM: Stel je eigen team samen door spelers uit de 27 teams
+te kiezen. Ue kunt een bepaalde speler niet tweemaal voor hetzelfde
+team kiezen.)
+
+e Zie blz. 55 voor nadere bijzonderheden omtrent de spelergegevens.
+
+Ss2
+
+===== Page 53 =====
+
+Met deze funktie kan je de spelinstellingen en de funktie van de toetsen
+van het bedieningspaneel veranderen.
+
+iti Bediening Ill
+
++ Stuurkussen Yt : Kiest het onderwerp
+
+* Stuurkussen <3: Verandert de keuze
+
+A toets : Instellen (Door naar het volgende scherm)
+B toets : Annuleren (Terug naar het vorige scherm)
+
+ii CONFIGURATIONS iil
+Verander de funktie van de toetsen van het bedieningspaneel.
+
+fii RULES/DIFFICULTY Ill
+Verander de spelregels en overige spelinstellingen.
+e LEVEL: Verander het moeilijkheidsniveau van het spel als je tegen de com-
+puter speelt.
+° TIME: Stel de lengte van elk spelkwartier in.
+° GAME MODE: (ON: Instellingen aan, OFF: Instellingen uit)
+ARCADE: Zonder overtredingen
+SIM.: Met overtredingen
+CUSTOM: Overtredingssysteem zelf instellen. » Overtredingen P.54
+REPLAY: Instelling van direkte herhaling
+LAY-UP: Instellingen voor gewone dribble-schoten.
+HOME COURT ADVANTAGE: Het thuisteam heeft een licht voordeel.
+
+ii SOUND ill
+
+Verander de spelgeluidinstelling.
+(ON: Instelling aan, OFF: Instelling uit)
+
+¢ COMMENTATOR: Instelling spelkommentaar
+° STEREO/MONO: Kies tussen stereo- of monogeluid
+
+53
+
+===== Page 54 =====
+
+In de Option funktie kan je alle instellingen veranderen behalve die voor de
+schietklok overtreding en de uit-het-veld fout.
+
+iil Offensive team violations
+
+(Overtredingen van het aanvallende team) Ill
+Als het aanvallende team een van de volgende spelregels overtreedt, wordt
+het balbezit overgedragen aan het verdedigende team. Het verdedigende
+team krijgt dan een inworp toegewezen.
+
+¢ Back court violation: Een bal die naar de helft van de tegenpartij is
+gebracht kan niet worden teruggebracht naar je eigen helft.
+
+¢ 10 second violation: Je moet binnen 10 sekonden naar de helft van de
+tegenpartij gaan.
+
+¢ 5 second violation: Je moet binnen 5 sekonden de bal inwerpen.
+
+¢ 3 second violation: Je kunt niet langer dan 3 sekonden in de goalzone van
+de tegenpartij blijven.
+
+e Shot clock violation: Het aanvallende team moet binnen 24 sekonden na
+ontvangst van de bal schieten.
+
+° Out of bounds: De bal moet in het veld blijven.
+
+lll Offensive foul (Aanvalsovertredingen.) Ill
+Opzettelijk lichaamscontact van het aanvallende team tijdens het schieten
+van de bal is een overtreding. In geval van lichaamscontact krijgt het
+verdedigende team balbezit via een inworp.
+
+lll Defensive foul
+
+(Verdedigingsovertredingen) Ill
+
+Het verdedigende team mag het aanvallende team niet met geweld
+blokkeren tijdens het schieten. Gebeurt dit wel, dan krijgen de aanvallers 1
+tot 3 vrije worpen toegewezen. Als een met een overtreding geblokkeerd
+schot toch door de basket gaat, zal dat punt meetellen en wordt tevens een
+vrije worp toegewezen. Als het schot mist, krijgt het aanvallende team drie
+vrije worpen voor een drie-punts schot en twee vrije worpen voor een
+twee-punts schot.
+
+lillGoal tending (Doelverdediging) Ill
+
+Als een schot wordt geblokkeerd boven de basket nadat de bal reeds
+omlaag aan het komen is, zullen de punten toch meetellen zelfs als bal
+niet door de basket gaat.
+
+54
+
+===== Page 55 =====
+
+De gegevens verschijnen aan het eind van een wedstrijd op het scherm,
+wanneer je spelers wisselt en op diverse andere momenten.
+
+iilBediening van het gegevensscherm Ill
+
+A toets
+B toets
+
+Door naar het volgende scherm (Instellen)
+: Terug naar het vorige scherm (Annuleren)
+
+ill Spelergegevens Iill
+
+No.
+POS.
+NAME
+F/G%
+3Fg%
+P/G
+R/G
+$/G
+B/G
+
+: Spelernummer
+
+: Positie
+
+: Naam
+
+: Veld-goal percentage (vrije worpen niet inbegrepen)
+: Drie-punts schot percentage
+
+: Gemiddelde score per game
+
+: Gemiddeld aantal terugkaatsingen per wedstrijd
+
+: Gemiddeld aantal balafnames per wedstrijd
+
+: Gemiddeld aantal blokkeringen per wedstrijd
+
+ili wWedstrijdgegevens Ill
+
+PTS
+PCT
+
+OFF.REB
+
+BLK.SH
+
+3PTS
+
+= Scole
+
+: Veld-goal percentage
+
+: Aantal terugkaatsingen
+
+: Aantal aanvallende terugkaatsingen
+: Aantal drie-punts schoten
+
+DUNK SHOOT : Aantal dunks
+JUMPER
+
+STEAL
+
+: Aantal jump-schoten
+: Aantal balafnames
+
+SS5
+
+===== Page 56 =====
+
+ara
+
+VRAGEN OVER NINTENDO - OF SUPER NINTENDO
+ENTERTAINMENT SYSTEM - SPELLEN?
+
+BEL DE NINTENDO
+SERVICELIJN!
+
+Hoe leuk videospellen ook zijn, als het niet lukt verder
+te komen, is de lol er snel af. Maar Nintendo- en
+Super Nintendo Entertainment System-bezitters zitten
+daar gelukkig niet mee!
+
+Die bellen gewoon de Nintendo Servicelijn:
+
+In Nederland 06 - 90490444
+Dfl. 1 per minuut
+
+Dat kan in Nederland van maandag t/m vrijdag
+tussen 11.00 en 19.00 uur.
+
+De speladviseurs van Club Nintendo - de grootste
+club van de Benelux - weten altijd raad.
+
+Even bellen dus...
+en gewoon weer lekker verder spelen!
+
+i —» —4
+
+===== Page 57 =====
+
+PF
+
+===== Page 58 =====
+
+GIVE)
+
+St:
+
+Basquetbol NBA - jel deporte mas popular en los Estados Unidos! Escoge tu
+equipo de entre los 27 equipos NBA, jy juega los partidos a lo largo de una
+temporada, los partidos para deshacer los empates y los partidos finales
+para salir vencedor!
+
+El juego se basa en los reglamentos reales de la NBA, y usa datos de par-
+
+tidos y jugadores de la temporada de 1995.
+
+eooccccce 59
+
+Reglamentos eecceecscrccccosccecscccoce
+
+Conexién del controlador eeecececcccccccccccccoscscccece 59
+Operaciones del jugador eeeeececcscescscescccesccsccce &)
+Comienzo del juego eeeeerccvcvscvccsccccvscvccscseces G2
+Pantalla del juego eeeecoeecccvccccceccccseccsecccvece G3
+Palabras de paso (Passwords) eeeeeeescesccccvccsevecveces G3
+Modo de arcada (Arcade) eeeeeesceseccscsccsccseccccscse G4
+Modo de exhibicién eeeceececcccccsccecscecceeseeeeeeene 64
+Modo de desempate (Playoff) eeeerssssccccccccccceccce secs 65
+Modo de temporada eeeeececcoccvecscvcoseoseseoeccee 66
+Modo de edicién de equipos eeeccccccccvscccccccccecccce 66
+Opciones eeecceccscsccscvcosecsecscseosesceoseeees G7
+Faltas (Fouls) eecececcscccccscccceccececeseccccccse 68
+
+Datos del juego seeeeccccsccccsscosessccceoscesesccecs 59
+
+S83
+
+===== Page 59 =====
+
+iiComienzo del juego ill
+
+Cuando la pelota es lanzada al aire, cuidadosamente espera el momento
+propicio y presiona el boton A, B, X o Y para que tu jugador salte y pase la
+pelota a un companero de tu equipo.
+
+ii Duracién del juego ill
+
+El juego comprende cuatro cuartos de dos minutos. Si no hay ganador al fin
+del juego, se juega un periodo de sobretiempo de dos minutos hasta que
+gane un equipo. El periodo de sobretiempo no se da por fin de repente. (La
+duracién del juego puede cambiarse en el modo de opcién » P.67)
+
+il Campo ill
+
+El extremo delantero del campo es del Jugador 1, y el extremo trasero es el
+campo del Jugador 2. Los equipos cambian su campo en medio tiempo. Sin
+embargo, cuando juegues con la computadora, tu campo sera normal-
+mente el extremo delantero-
+
+ii! Puntuacidn Ill
+
+Los lanzamientos desde el lado interior de la linea de tres puntos marcan 2
+puntos, y los del exterior marcan 3 puntos. Los lanzamientos libres (lanza-
+mientos ganados por una falta de tu adversario) marcan 1 punto cada uno.
+
+lil Tiempo de interrupcidén Ill
+
+Cuando estés jugando a la ofensiva, puedes pedir interrupcién por 7 veces
+durante el juego. Tienes también otros dos chances mas; uno en el primer
+tiempo y otro en segundo tiempo.
+
+lil Jugadas sucias Ill
+Se basan en los reglamentos de NBA. (Si un jugador comete cuatro faltas,
+tiene que abandonar el campo). (» P68)
+
+itPara jugar con 1-2 jugadores Ill
+Conecta el controlador 1 ala toma 1y el controlador 2 a la toma 2 de SNES.
+
+Para jugar con 3 o mas
+
+jugadores usando el Multi-Tap™
+
+Conecta el controlador 1 a la toma 1 el] Multi-Tap™ especial (en venta por
+separado) de SNES a la toma 2 de SNES, luego conecta los otros controladores
+alas tomas Multi-Tap™.
+
+59
+
+===== Page 60 =====
+
+Boton L
+
+SELECT START
+
+Boton Direccional Boton B
+Boton Select Boton Y
+
+Las operaciones del jugador para el equipo que esta a la ofensiva cambian
+segun si estas controlando tu equipo solo o con otro jugador. Las opera-
+ciones del jugador del equipo que esta a la defensiva son siempre iguales.
+
+ill Cuando estas controlando tu equipo solo Ill
+
+Equipo a la ofensiva Equipo a la defensiva
+
++ Driblar Mover
+
+A Seleccionar jugador Seleccionar jugador para
+para recibir la pelota controlar la pelota
+
+B Pase/Lanzamiento Rebote/bloqueo
+
+x ijUpa! (Alley-oop)
+
+Ni Tiro Pase de steal/interceptacion
+
+il! Cuando estas controlando tu equipo con
+otro jugador (cuando juegas a la defensiva) Ill
+
+Jugador con pelota Jugador sin pelota
+Driblar Mover
+
+Seleccionar jugador para controlar
+
+Pase/lanzamiento Rebote/salto
+
+jUpa! (Alley-oop)
+
+Tiro
+
+TG haces un pase normalmente al otro jugador, controlando tu equipo.
+
+Todas las fijaciones del boton contenidas en este manual son las del nivel
+de principiantes (Tipo A). Puedes cambiar estas fijaciones en la pantalla
+de opcion. (» P.67)
+
+oo
+
+===== Page 61 =====
+
+ilLanzamientos libres Ill
+
+Si tu adversario comete una falta, puedes hacer un lanzamiento libre.
+Mantiene tus ojos en la posicién del cursor y presiona el boton de tiro (Y)
+para determinar la fuerza y direccién, y luego dispara.
+
+iilCampbio del jugador il
+
+Durante un juego, puedes pedir tiempo de interrupcion para sustituir
+jugadores cuando estas a la ofensiva, presionando el botén de inicio (hasta
+7 veces por juego. Puedes sustituir también jugadores cuando cuando
+obtienes un lanzamiento libre. (Sustituto de jugadores » P.64)
+
+illReproduccidén instantanea Ill
+
+Los mejores tiros pueden reproducirse en la pantalla. Presiona el boton A,
+B, X o Y para cancelar.
+
+ill Técnica de tiros II
+
+La altura de tus tiros depende del tiempo que mantienes oprimido el boton
+de tiro. Cuanto mas alto y mas cerca del cesto estés cuando presionas el
+botén de tiro, habra mayor posibilidad que introduzcas la pelota en el cesto.
+
+Tiro a arremetida “Dunk” =: Acercate al cesto, mantén oprimido el
+mando de control * hacia el cesto y presiona
+el boton de tiro (Y). (Esto puede cambiar un
+tiro “lay-up”)
+
+Tiro esquivado “Fade away”: Mantén presionado el mando de control + en
+sentido opuesto al cesto y oprime el boton de
+
+tiro (Y).
+
+Doble agarre : Presiona el boton de tiro (Y) otra vez en la
+arremetida.
+
+IUpal (Alley-oop) : Presiona el boton Alley-oop (xX) cuando el
+
+jugador que estan pasando la pelota esta
+debajo del cesto.
+
+Arremetida al rebote : Cuidadosamente espera el tiempo propicio
+cuando la pelota rebota de la tabla de
+respaldo y presiona el botén de rebote (B).
+
+Finta (Fake) : Presiona ligeramente el botén de tiro [(Y).
+
+Ph |
+
+===== Page 62 =====
+
+Inserta correctamente el cartucho de juego en tu SNES y conecta el inter-
+ruptor de alimentacion. Cuando uses el] Multi-Tap™, asegurate de conectar-
+lo al SNEs antes de conectar el interruptor de alimentaciOn. Presiona el
+boton de inicio en la pantalla de titulos para mover a la pantalla de selec-
+cion de modos. Selecciona un modo con el mando de control * y presiona
+el boton A para continuar.
+
+Arcade (Modo arcada) «<ccccccceecccccce o PEG
+
+Basado en el juego de arcada “Correr y disparar”, este modo enfatiza
+velocidad y emocion del juego.
+
+Exhibition (Exhibicion) ++ +++++++seee++s+++ BEA
+
+Modo de un juego.
+
+Playoffs (Modo de desempate) +-+°+++es++seee>+ BES
+
+Experimenta todas las emociones de la temporada de 1995 NBA y las
+finales. Puedes seleccionar los equipos o hacerlos seleccionar aleatoria-
+mente mediante la computadora.
+
+Season (Modo de temporada) +++++cecceccee DEG
+
+En este modo puedes jugar ochenta y dos partidos NBA, desempates y
+finales. Puedes cambiar también el niimero de juegos de la temporada si
+asi lo deseas.
+
+Team Edit (Edicion de equipo) -+°++*++ss++++++ P66
+
+Intercambia jugadores de entre los veintisiete equipos de NBA. Puedes
+crear tu propia seleccién “All-star” y un equipo original.
+
+Options (Opcion) > -++scccccccrsvesccccceos PEF
+
+Cambia las fijaciones del botén de tu controlador, los reglamentos, el nivel
+de dificultad y el volumen de sonido.
+
+62
+
+===== Page 63 =====
+
+Linea de 3 puntos
+
+Tiempo de tiro: Muestra el limite de tiempo para el tiro. Si tardas mucho
+en lanzar la pelota, te cobra un castigo (foul) (Violacién del tiempo de
+tiro). Faltas » P.68)
+
+ill Visualizacién del cursor del jugador iil
+Tu jugador El jugador que recibe la pelota
+
+Cuando estés controlan-
+do un equipo con un
+amigo, puedes pasar la
+pelota normalmente al
+mismo.
+
+Position
+El jugador que
+estas controlando
+
+En los modos de desempate (Playoff) y temporada (Season), puedes usar las
+palabras de paso para tener acceso a los datos del juego. Registra la pal-
+abra de paso que aparecié al fin del juego para seguir jugando la proxima
+vez desde el mismo punto.
+
+7 Palabra de Paso (Passwords
+
+lilRegistro de una palabra de paso Ill
+
+Botones derecho/izquierdo (R/L): Registra las letras
+Mando de control *: Selecciona la posicion de registro
+Botén A: Fija la palabra de paso
+
+Una vez que hayas registrado correctamente la palabra de paso y selec-
+cionado END, comienza el juego.
+
+63
+
+===== Page 64 =====
+
+ili Controles en la pantalla de seleccién Il
+
+* Control Pad : Seleccién de item
+Botén.A : Fijacion (Se mueve a la siguiente pantalla)
+Botén B : Cancelacion (Regresa a la pantalla anterior)
+
+Un modo emocionante y ritmo rapido sin faltas, basado en el juego de
+arcada “Correr y disparar’’.
+
+1) HOW MANY PLAYERS (Preparacién de jugador): Selecciona el tipo del juego.
+VS COM » 2
+Otros tipos » 3
+
+2) Selecciona el equipo que vas a controlar. Después de la seleccion,
+jcomienza el] juego!
+
+3) SELECT TEAM/COURT (Equipo y campo): Selecciona tu equipo y campo.
+Después de la seleccién, jcomienza el juego!
+
+El juego esta ajustado al modo de Arcade; este modo no puedo cambiarse.
+
+* No hay fijaciones de lay-up, por lo que todos los disparos a arremetidas
+marcan puntos.
+
+* No puede pedirse tiempo de interrupcion y tampoco puede hacerse susti-
+tuto de jugadores.
+* Las Unicas faltas son demora del tiempo de tiro y fuera del campo.
+
+; Modo de Exhibicion
+En este modo juegas solo un juego.
+
+1) HOW MANY PLAYERS (Preparacién de jugador): Selecciona el tipo del juego.
+2) SELECT TEAM/COURT (Equipo y campo): Selecciona tu equipo y campo.
+
+Después de la pantalla de sustitucion de jugadores del equipo, jcomienza
+el] juego!
+
+iilCambios de jugadores Ill
+Puedes seleccionar jugadores antes de comenzar el juego.
+
+64
+
+===== Page 65 =====
+
+PPO DP BBPEE
+
+SELECT TEAM MEMBERS: Te permite cambiar jugadores de tu equipo. Selecciona
+OK para comenzar el juego.
+
+* Hay una marca de estrella en cada jugador que muestra esta condicién.
+(Sin estrella: Mala condicién, Una estrella: Condicion normal, Dos
+estrellas: Buena condicion, Tres estrellas: Excelente condicion)
+
+e Si pones un jugador en una posicién diferente de la habitual, disminuye su
+habilidad. (C: Centro, F: Delantera, G: Defensa)
+
+¢ Refiérete a la pagina 69 para los detalles del modo de comprobar los datos
+de los jugadores.
+
+° Durante el juego, puedes comprobar cuantas veces mas puedes pedir tiem-
+po de interrupcion y el numero de veces de falta que cada jugador ha
+cometido, viendo la pantalla de sustitucion de jugadores.
+
+En este modo puedes jugar playoffs y las finales que que tienen lugar en una
+temporada normal. Ademas de los equipos normales, puedes jugar también
+con un equipo “East-West All-Star” o un equipo integrado por ti.
+
+1) Selecciona el método de juego.
+GAME START: Para jugar desde el comienzo. » 2
+PASSWORD: Para jugar desde el punto donde dejaste el juego. Después de
+registrar la correcta palabra de paso, jcomienza el juego!
+
+2) HOW MANY PLAYERS?: Fija el numero de jugadores de tu equipo.
+
+3) TOURNAMENT STANDINGS: Selecciona los equipos que jugaran y el numero de
+partidos.
+1995 PLAYOFFS: Los equipos NBA que terminaron empatados en 1995. » 5
+RANDOM: La computadora selecciona aleatoriamente
+los equipos.» 5
+CUSTOM: TU seleccionas los equipos. » 4
+
+4) SET TOURNAMENT PAIRINGS: Selecciona 8 equipos de cada conferencia.
+
+5) Selecciona tu equipo.
+
+6) TONIGHT’S MATCH UP: Escoge tu juego de entre los programados para ese dia.
+Después de la pantalla de sustituciOn de jugadores, jcomienza el juego!
+
+* Refiérete a la pagina 69 para los detalles sobre e] modo de comprobar los
+datos del juego durante y después del juego.
+
+¢ Se visualiza una palabra de paso al final de cada juego. (Palabras de paso
+P.63)
+
+65
+
+===== Page 66 =====
+
+EOS
+
+Este modo se vuelve a crear los juegos de la temporada normal de NBA, los play-
+offs y las finales. Si te encuentras en uno de los 8 primeros equipos al término
+de la temporada, entraras en los playoffs y las finales.
+
+1) Selecciona el método de jugar.
+GAME START: Juega desde el comienzo. » 2
+PASSWORD: Juega del punto donde dejaste el juego. Después de registrar la
+correcta palabra de paso, jcomienza el juego!
+
+2) HOW MANY PLAYERS?: Fija el numero de jugadores de tu equipo.
+
+3) SELECT NUMBER OF GAMES: Selecciona e] n&imero de juegos.
+
+4) SELECT A TEAM: Selecciona tu equipo. (No puedes jugar con un equipo “All-
+Star” o equipo original integrado por ti en este modo).
+
+5) TONIGHT’S MATCH UP: Escoge tu juego de entre los programados para ese dia.
+Después de la pantalla de sustitucién de jugadores, jcomienza el juego!
+
+¢ Refiérete a la pagina 69 para los detalles sobre el modo de comprobar los
+datos del juego durante y después del juego.
+
+* Se visualiza una palabra de paso al final de cada juego. (Palabras de paso »
+P63)
+
+AI
+
+Intercambia jugadores de entre los veintisiete equipos de NBA para crear tu
+equipo original. (Los datos de equipos se borraran al desconectar la ali-
+» mentacion de tu SNES).
+
+ii Controles Ill
+
+Mando de control *: Seleccion de item
+
+Botén A: Fijacion (Mover a la siguiente pantalla)
+Botén B: Cancelacién (Regresar a la pantalla anterior)
+
+¢ TRADE: Intercambia jugadores de entre los 27 equipos.
+
+¢ EDIT ALL STAR TEAM: Selecciona jugadores de entre todos los equipos para crear
+un equipo original. (No puedes usar dos veces el mismo jugador en el mismo
+equipo).
+
+¢ EDIT ORIGINAL TEAM: Escoge jugadores de entre los 27 equipos para crear un
+equipo original. (No puedes usar dos veces el mismo jugador en el mismo
+equipo).
+
+* Refiérete a la pagina 69 para los detalles sobre la comprobacion de datos de
+los jugadores.
+66
+
+===== Page 67 =====
+
+Cambian las fijaciones de los botones de tu controlador y las del juego.
+
+iiControles Ill
+
+Mando de control « 4 : Seleccién de item
+
+Mando de control * € > : Cambio de item
+
+Botén A : Fijacion (Mover a la siguiente pantalla)
+Botén B : Cancelacion (Regreso a la pantalla anterior)
+
+ii CONFIGURATIONS iil
+Cambia las fijaciones de los botones del o de los controladores.
+
+i! RULES/DIFFICULT Yi
+Cambia los reglamentos y otras fijaciones del juego.
+
+¢ LEVEL: Cambia el nivel de dificultad del juego cuando jueques con la
+computadora.
+¢ TIME: Fija la duracién de cada cuarto de tiempo.
+¢ GAME MODE: (ON: Activacion, OFF: Desactivacion)
+ARCADE: Sin faltas
+SIM.: Faltas
+CUSTOM: Fija th mismo el sistema de faltas. » Faltas P.68
+REPLAY: Fijaciones de reproduccion al instante
+LAY-UP: Fijaciones para tiros basico a carrera.
+HOME COURT ADVANTAGE: £] equipo natal tiene una ligera ventaja.
+
+m@SOUND i
+
+Cambia las fijaciones del sonido del juego.
+(ON: Activacion, OFF: Desactivacion)
+
+© COMENTATOR : Fijaciones de comentarios del juego
+¢ STEREO/MONO : Escoge el sonido estereofonico o monaural
+
+i<wA
+
+===== Page 68 =====
+
+Puedes cambiar todas las fijaciones, excepto las de atraso de tiro y fuera
+del campo en el modo de opcion.
+
+lllFaltas cometidas por el equipo atacante Ill
+Si el equipo que esta a la ofensiva comete una falta, pierde la pelota y
+pasa a la posesién del equipo adversario. El] equipo que esta a la defensiva
+logra asi un lanzamiento.
+
+° Back court violation: La pelota que avanzo hasta el campo del adversario
+no puede ser vuelta a tu campo.
+
+¢ 10 second violation: Debes entrar en el campo del adversario dentro de 10
+segundos.
+
+¢ 5 second violation: Debes lanzar la pelota dentro de 5 segundos.
+
+¢ 3 second violation: No debes permanecer en la zona del gol del adversario
+por mas de 3 segundos.
+
+¢ Shot clock violation: El] equipo que esta atacando debe tirar la pelota den-
+tro de 24 segundos después de haberla recibido.
+
+¢ Out of bounds: La pelota debe permanecer dentro del campo.
+
+illOffensive foul (Faltas del
+equipo atacante) Ill
+
+El equipo que esta a la ofensiva no debe hacer contacto intencional con el
+adversario en el tiro. $i hay contacto del cuerpo, el equipo defensivo queda
+en posesion de la pelota para hacer un lanzamiento.
+
+illDefensive foul (Faltas
+
+del equipo defensivo) Ill
+
+El equipo que esta la defensiva no debe bloquear con fuerza al adversario
+en el momento del tiro. Si lo hace, el equipo atacante gana 1 a 3 lanza-
+mientos libres. Si el tiro estorbado entra en el cesto, el equipo atacante
+gana puntos y un lanzamiento libre adicional. En caso de no introducirse
+en el cesto, el equipo gana tres lanzamientos libres para un tiro de tres
+puntos, y dos lanzamientos libres para otros tiros.
+
+illGoal Tending (Gol considerado) Ill
+
+Si un tiro es bloqueado sobre el cesto cuando la pelota esta por penetrar el
+cesto, se marcan los puntos aunque no pase por el cesto.
+
+GOR
+
+===== Page 69 =====
+
+Los datos del juego se visualizan al fin del juego y cuando haces cambio de
+jugadores.
+
+iiiControles de pantalla de datos Ill
+
+Botén A
+Botén B
+
+: Movimiento a la siguiente pantalla (Fijacion)
+: Regreso a la pantalla anterior (Cancelacién)
+
+lil Datos individuales Ill
+
+No. =: Numero de jugadores
+
+POS. : Posicion
+
+NAME : Nombre
+
+F/G% : Porcentaje de goles en el campo (sin incluir tiros libres)
+3FG% : Porcentaje de tiros de tres puntos
+
+P/G_: PuntuaciOn promedio por juego
+
+R/G_ : Numero promedio de rebotes tomados de por juego
+S/G =: Numero promedio de “steals” por juego
+
+B/G =: Numero promedio de bloques por juego
+lilDatos del juego Ill
+
+PTS. : Puntuacion
+
+PCT. : Porcentaje de goles en el campo
+
+OFF.REB. : N&mero de rebotes tomados
+
+BLK.SH. : N&mero de rebotes ofensivos.
+
+3PTS. Namero de tiros de tres puntos
+
+DUNK SHOOT : Numero de tiros a arremetida
+
+JUMPER Numero de tiros por salto
+
+STEAL Numero de steals
+
+r<t2)
+
+===== Page 70 =====
+
+GIVE
+
+nt GO
+A
+
+Il pallacanestro della NBA (Associazione Nazionale di Basket) - lo sport pid
+
+popolare degli Stati Uniti! Scegli la tua squadra fra le 27 squadre della NBA
+e le squadre composte da campioni, e battiti attraverso un normale cam-
+
+pionato, un campionato a eliminazione e le finali per riuscire vincitore!
+
+™
+
+ll gioco é basato sulle vere regole reali della NBA, e utilizza i dati degli
+
+incontri e dei giocatori del campionato della stagione 1995.
+was
+
+Regole eeeeccccescccccceseccessceoscosesseosscccos 7
+
+Collegamento del dispositivo di controllo eecececeecccccccccce 7
+Operazioni dei giocatori eeeeeeceeecececece eooove
+
+Inizio del gioco eee eoccce eocce eevee
+
+Schermo di gioco ee
+
+Parole d’ordine eeeeeecececccccvccccccce eooov5e
+
+Modo versione da videogame center eeeeeeeeeceeeccecvvcscee 76
+Modo esibizione eee eeeeeececseesesececeseeseseeeeeees 76
+Modo campionato a eliminazione eseeeecceseoccescecccccce 77
+Modo campionato eeeesceccccosccseosscccosecsecsecsece 7§
+
+Formazione della squadra eeeeccceeccccoccccccccccocsccocce 78
+
+Opzioni eeeecececcececcverccvecccccecseooococecoeoeccsece 19
+
+Falli eeoecceccccccccceseceeceececoeeoseoeeoveceecceeoe Bf
+
+Dati di gioco eeeee
+
+FQ
+
+===== Page 71 =====
+
+ilInizio del gioco Ill
+
+Quando la palla viene lanciata in aria, coordina con attenzione i] tuo tempismo
+e premi i] pulsante A, B, X o Y per far saltare i] tuo giocatore e battere la palla
+verso gli altri membri della tua squadra.
+
+iil Durata della partita Ill
+
+Una partita é costituita da quattro quarti di due minuti ciascuno. Se non c’é un
+vincitore alla fine della partita, vengono giocati dei tempi supplementari di due
+minuti ciascuno fino a quando una delle due squadre vince. | tempi supplemen-
+tari non sono spareggi. (La durata della partita puo essere modificata nel modo
+opzioni. » P.79)
+
+iiCampo iil
+
+La parte anteriore del campo é il settore destinato al giocatore 1, mentre la
+parte posteriore del campo é il settore destinato al giocatore 2. Le squadre cam-
+biano settore durante l’intervallo.Tuttavia, quando giochi contro il computer, il
+settore a te destinato é normalmente la parte anteriore del campo.
+
+lll Punteggio Ill
+
+| tiri effettuati dall’interno della linea dei tre punti valgono 2 punti, e i tiri
+effettuati dall’esterno della linea dei tre punti valgono 3 punti. | tiri liberi (i tiri
+a te concessi se l’avversario commette un fallo ai tuoi danni) valgono 1 punto.
+
+lilSospensione del gioco Ill
+
+Quando giochi all’attacco, puoi richiedere una sospensione del gioco fino a sette
+volte massimo durante la partita. Puoi ottenere anche altre due possibilita, una
+durante la prima meta del gioco, e l’altra durante la seconda meta del gioco.
+
+Wi Falli Ml
+
+Questi sono basati sulle regole della NBA. (Se un giocatore commette un fallo sei
+volte, deve lasciare il campo. (» P.80)
+
+ilQuando si gioca con 1-2 giocatori Ill
+
+Collegare il dispositivo di controllo 1 alla presa 1 e il dispositivo di controllo 2
+alla presa 2 del SNES.
+
+ill Quando si gioca con 3 o pit
+
+giocatori usando il Multi-Tap™ Ii
+
+Collegare il dispositivo di controllo 1 alla presa 1 de] Multi-Tap™ SNES speciale (in
+vendita a parte) alla presa 2 del SNES, quindi collegare gli altri dispositivi di
+
+controllo alle prese del Multi-Tap™.
+be dias Wy
+
+===== Page 72 =====
+
+Tasto di direzione
+Tasto Select
+
+Tasto L
+
+Select START
+
+Tasto Start
+Tasto R
+
+Tasto X
+Tasto A
+
+Tasto B
+Tasto Y
+
+Le operazioni dei giocatori della squadra che gioca all’attacco cambiano di
+conseguenza di se stai controllando la tua squadra da solo 0 con un secondo
+giocatore. Le operazioni dei giocatori della squadra che gioca in difesa sono
+sempre le stesse.
+
+ilQuando controlli la tua squadra da solo Ill
+
+Squadra all’attacco
+
+Squadra in difesa
+
+Scarto
+
+Movimento
+
+Selezione del giocatore
+per ricevere la palla
+
+Selezione del giocatore
+per controllare
+
+Passaggio/rimessa in gioco
+
+Rimbalzo/tiro a blocco
+
+Alley-oop
+
+Tiro
+
+Presa/passaggio di intercettazione
+
+iilQuando controlli la tua squadra con un
+altro giocatore (quando giochi in difesa) Ill
+
+Giocatore con la palla
+
+Giocatore senza la palla
+
++ Scarto Movimento
+
+A Selezione del giocatore per controllare
+B Passaggio/rimessa in gioco Rimbalzo/salto
+
+x Alley-oop
+
+Y Tiro
+
+Normalmente tu passi la palla all’altro giocatore che controlla la tua squadra.
+
+Tutte le regolazioni dei pulsanti menzionate in questo manuale sono le rego-
+lazioni per il livello principianti (tipo A). Puoi cambiare queste regolazioni nello
+schermo delle opzioni. (> P.79)
+
+ber ae 3
+
+===== Page 73 =====
+
+ili Tiri liberi mM
+
+Se viene commesso un fallo ai tuoi danni mentre stai tirando, ottieni un
+tiro libero.
+
+Tieni d’occhio la posizione del cursore, e premi i] pulsante di tiro (Y) per
+determinare la potenza e la direzione ed effettuare il tiro.
+
+iiCambiamento dei giocatori Ill
+
+Durante una partita, puoi richiedere una sospensione del gioco per poter
+cambiare i giocatori quando giochi all’attacco premendo il pulsante di
+avvio (fino a 7 volte massimo per partita). Puoi anche cambiare giocatori
+quando ottieni un tiro libero. (Cambiamento dei membri » P.76)
+
+iliReplay istantaneo Ill
+
+| tiri migliori vengono automaticamente ripetuti per te sullo schermo.
+Premi A, B, X o Y per annullare.
+
+ii Tecnica di tiro Ill
+
+Valtezza dei tuoi tiri dipende dal lasso di tempo per il quale si tiene pre-
+muto i] pulsante di tiro. PiU sei alto e vicino al canestro quando premi il
+pulsante di tiro, maggiori possibilita avrai di mettere a segno un tiro.
+
+Tiro a schiacciata : Avvicinati al canestro, tieni premuto i] coman-
+do + verso di esso e premi il pulsante di tiro (Y).
+(Questo pud cambiare in un tiro ravvicinato.)
+
+Tiro a dissolvenza : Tieni premuto il comando * nella direzione
+opposta al canestro e premi i] pulsante di tiro
+(Y)-
+
+Doppia presa : Premi il pulsante di tiro (Y) ancora una volta
+
+durante una schiacciata.
+
+Alley-oop : Premi i] pulsante di alley-oop (X) quando il gio-
+catore al quale stai passando la palla é sotto il
+canestro.
+
+Schiacciata con rimbalzo : Coordina attentamente il tuo tempismo quando
+la palla rimbalza dal tabellone e premi il pul-
+sante di rimbalzo (B).
+
+Finta : Premi i] pulsante di tiro (Y) leggermente.
+lr AL 5
+
+===== Page 74 =====
+
+Inserisci correttamente la cassetta del gioco nel tuo SNES e attiva l’interrut-
+tore di alimentazione. Quando usi il Multi-Tap™, accertati di collegarlo al
+SNES prima di accendere.
+
+Premi il pulsante di avvio quando é visualizzato lo schermo del titolo per
+passare allo schermo di selezione del gioco. Scegli un modo con i] coman-
+do + e premi il pulsante A per continuare.
+
+Arcade (versione da videogame center) >> >>> +++ P.76
+
+Basato sulla versione da videogame center “Run & Gun”, questo modo
+mette in risalto un gioco veloce ed elettrizzante.
+
+Exhibition (esibizione) «++ -eseessssceccees DIG
+
+Modo ad una sola partita.
+
+Playoffs (campionato a eliminazione) ++++++++P.77
+
+Per provare personalmente tutto l’entusiasmo degli incontri a eliminazione
+e delle finali del campionato della NBA 1995. Puoi scegliere le squadre da
+solo o farle scegliere a caso al computer.
+
+Season (campionato) «+++scceesccceesceoe DIS
+
+In questo modo puoi giocare i] normale campionato di ottantadue partite
+della NBA, gli incontri a eliminazione e le finali. Puoi cambiare il numero
+delle partite del campionato normale se lo desideri.
+
+Team Edit (Formazione della squadra) ->++++*++P.78
+
+Per scambiare i giocatori fra le ventisette squadre della NBA. Puoi anche
+formare delle squadre composte da campioni e delle squadre originali.
+
+Options (Opzioni) eeccescecrcecccesccccccce PIG
+
+Per cambiare le regolazioni dei pulsanti del tuo dispositivo di controllo, le
+regole, il livello di difficolta e le regolazioni dei suoni-.
+
+74
+
+===== Page 75 =====
+
+Squadra Punteggio Tempo
+
+Linea dei 3 punti
+
+Orologio per il tiro: Indica il limite di tempo per il tiro. Se impieghi troppo
+tempo per tirare, questo viene considerato come un fallo (infrazione dell’orolo-
+gio per il tiro). (Falli » P.80)
+
+ill Visualizzazione del cursore per i giocatori Ill
+Tuo giocatore Giocatore che puo ricevere la palla
+
+ses) Quando controlli una
+squadra con un amico,
+passagli normalmente la
+palla.
+
+|
+
+Posizione
+
+Giocatore che
+stai controllando
+
+Nei modi di campionato a eliminazione e campionato normale, puoi usare le
+parole d’ordine per accedere nuovamente ai dati di gioco. Introduci la parola
+d’ordine apparsa alla fine di una partita per continuare a giocare da quel
+punto la volta successiva che intendi giocare.
+
+ilintroduzione di una parola d'ordine Ill
+
+Pulsanti L/R (sinistra/destra): Per introdurre le lettere
+Comando *: Per selezionare la posizione di introduzione
+Pulsante A: Per comporre la parola d’ordine
+
+Dopo che hai composto correttamente la parola d’ordine e hai selezionato END,
+il gioco comincia.
+
+wes
+
+===== Page 76 =====
+
+ii Comandi per lo schermo di selezione Ill
+Comando + : Per selezionare una voce
+Pulsante A : Per confermare la selezione (per spostarsi allo schermo suc-
+
+cessivo)
+Pulsante B=: Per annullare (per ritornare allo schermo precedente)
+
+Modo Versione da Videogame Center
+
+Un modo di gioco eccitante e veloce senza falli, basato sulla versione da
+videogame center “Run & Gun’.
+
+1) HOW MANY PLAYERS? (impostazione giocatori): Scegli i] tipo di gioco.
+VS COM (contro il computer) » 2
+Altri tipi » 3
+
+2) Scegli la squadra che vuoi controllare. Dopo che hai fatto la scelta, i]
+gioco comincia!
+
+3) SELECT TEAM/COURT (squadra e campo): Scegli la tua squadra e i] campo.
+Dopo che hai fatto la scelta, il gioco comincia!
+
+ll modo di gioco é impostato secondo le impostazioni della versione da
+videogame center; queste impostazioni non possono essere cambiate.
+
+¢ Non ci sono regolazioni di tiri ravvicinati, percid tutti i tiri a schiacciata
+finiscono nel canestro.
+* Non é possibile richiedere una sospensione del gioco e non é possibile
+
+cambiare i giocatori.
+«Le uniche infrazioni sono quella dell’orologio per il tiro e quella di fuo-
+riuscita dai limiti.
+
+In questo modo puoi giocare una sola partita.
+
+1) HOW MANY PLAYERS? (impostazione giocatori): Scegli il tipo di gioco per
+la partita.
+
+2) SELECT TEAM/COURT (squadra e campo): Scegli la tua squadra e il campo.
+
+Dopo lo schermo di cambiamento dei membri, il gioco comincia!
+
+li!Cambiamento dei membrii Ill
+Puoi scegliere i giocatori prima dell’inizio del gioco. Puoi anche cambiare
+i giocatori durante la partita.
+
+76
+
+===== Page 77 =====
+
+BBO HOES
+
+SELECT TEAM MEMBERS (cambiamento dei membri): Ti consente di cambiare i gioca-
+tori della tua squadra. Scegli OK per iniziare a giocare.
+
+* Sono presenti dei simboli di stelle su tutti i giocatori che indicano le condizioni
+di quel giocatore.(Nessuna stella: cattive condizioni; una stella: condizioni nor-
+mali; due stelle: condizione buone;tre stelle: condizioni eccellenti.)
+
+* Se poni un giocatore in una posizione diversa da quella in cui egli normalmente
+gioca, la sua abilita si riduce. (C: centro; F: ala; G: guardia)
+
+¢ Vedi pagina 81 per i dettagli su come controllare i dati dei giocatori.
+
+¢ Durante la partita, puoi controllare quante altre volte puoi richiedere una sospen-
+sione del gioco e il numero dei falli commessi da ciascun giocatore osservando lo
+schermo di cambiamento dei membri-.
+
+In questo modo puoi giocare gli incontri a eliminazione e le finali che hanno luogo
+dopo i] campionato normale. Oltre alle squadre normali, puoi anche far giocare
+una squadra composta da campioni orientale o occidentale o una squadra origi-
+nale da te creata.
+
+1) Scegli il metodo di gioco per la partita.
+GAME START (inizio del gioco): Per giocare dall’inizio. » 2
+PASSWORD (parola d’ordine): Per giocare dal punto in cui hai lasciato l’ultima
+volta. Dopo che hai introdotto la parola d’ordine corretta, il gioco comincia!
+2) HOW MANY PLAYERS? (impostazione giocatori): Stabilisci i] numero di giocatori
+per la tua squadra.
+3) TOURNAMENT STANDINGS: Scegli quali squadre giocheranno e i] numero di partite.
+PLAYOFFS 1995 (campionato a eliminazione 1995): Le squadre del campionato a
+eliminazione della NBA del 1995. » 5
+RANDOM (scelta a caso): 1] computer sceglie le squadre a caso. » 5
+CUSTOM (scelta personalizzata): Tu scegli le squadre. » 4
+SET TOURNAMENT PAIRINGS (squadre per campionato a eliminazione): Scegli 8
+squadre da ciascuna lega.
+5) Scegli la tua squadra.
+6) TONIGHT’S MATCH UP (partite odierne): Scegli la tua partita fra quelle program-
+mate per quel giorno. Dopo lo schermo di cambiamento dei membri, il gioco
+comincia!
+
+4
+
+¢ Vedi pagina 81 per i dettagli su come controllare i dati di gioco durante e dopo le
+partite.
+
+¢ Una parola d’ordine viene visualizzata alla fine di ciascuna partita. (PAROLE D’OR-
+DINE » P75)
+
+ae
+
+===== Page 78 =====
+
+Questo modo ricrea del campionato normale della NBA, gli incontri a elimi-
+nazione e le finali. Se sei una delle otto squadre in testa alla classifica alla fine
+del campionato, passi al campionato a eliminazione e alle finali.
+
+1) Scegli 11 metodo di gioco per la partita.
+GAME START (inizio del gioco): Per giocare dall’inizio. » 2
+PASSWORD (parola d’ordine): Per giocare dal punto in cui hai lasciato l’ultima
+volta. Dopo che hai introdotto la parola d’ordine corretta, il gioco comincia!
+
+2) HOW MANY PLAYERS? (impostazione giocatori): Stabilisci il numero di giocatori
+per la tua squadra.
+
+3) SELECT NUMBER OF GAMES {impostazione partite): Scegli i] numero di partite.
+
+4) SELECT A TEAM (scelta squadra): Scegli la tua squadra. (Non puoi far giocare
+una squadra composta da campioni 0 una squadra originale in questo modo.)
+
+5) TONIGHT’S MATCH UP (partite odieme): Scegli la tua partita fra quelle program-
+mate per quel giorno. Dopo lo schermo di cambiamento dei membri, il gioco
+comincia!
+
+° Vedi pagina 81 per i dettagli su come controllare i dati di gioco durante e dopo
+le partite.
+
+* Una parola d’ordine viene visualizzata alla fine di ciascuna partita. (PAROLE
+D’ORDINE » P.75)
+
+Scambia i giocatori fra quelli delle ventisette squadre per creare una tua
+squadra originale. (Questi dati di squadra andranno perduti quando si spegne il
+SNES.)
+
+ili Comandi iil
+Comando= : Per selezionare una voce
+
+Pulsante A Per confermare la selezione (per spostarsi allo schermo successi-
+vo)
+Pulsante B= Per annullare (per ritornare allo schermo precedente)
+
+¢ TRADE (scambio giocatori): Scambia i giocatori fra le 27 squadre.
+
+¢ EDIT ALL STAR TEAM(squadre composte da campioni): Scegli i giocatori fra quelli
+delle squadre di tutte le leghe per creare una tua squadra originale. (Non puoi
+usare lo stesso giocatore due volte nella stessa squadra.)
+
+¢ EDIT ORIGINAL TEAM (squadre personalizzate): Scegli i giocatori fra quelli delle 27
+squadre per creare una tua squadra originale. (Non puoi usare lo stesso gioca-
+tore due volte nella stessa squad -a.)
+
+¢ Vedi pagina 81 per i dettagli su come controllare i dati dei giocatori-.
+
+78
+
+===== Page 79 =====
+
+BSS OSH CA DEI
+
+Cambia le regolazioni dei pulsanti del tuo dispositivo di controllo e le rego-
+lazioni di gioco.
+
+iiComandi Ill
+
+Comando * WT : Per selezionare una voce
+
+Comando + © : Per cambiare voce
+
+Pulsante A: Per confermare la selezione (per spostarsi allo schermo successivo)
+Pulsante B: Per annullare (per ritornare allo schermo precedente)
+
+til Configurations (controllo) Ill
+Cambia le regolazioni dei pulsanti del(i) dispositivoli) di controllo.
+
+ill Rules/Difficulty
+
+(impostazione regole e livello) Ili
+Cambia le regole e le altre regolazioni di gioco.
+
++ LEVEL (LIVELLO DI DIFFICOLTA): Per cambiare il livello di difficolta del gioco
+quando si gioca contro il computer.
+¢ TIME: Per fissare la durata di ciascun quarto.
+° GAME MODE (MODO DI GIOCO): (ON: regolazioni attivate; OFF: regolazioni disatti-
+vate)
+ARCADE (VERSIONE DA VIDEOGAME CENTER): Nessun fallo.
+SIM. (REALE): Falli
+CUSTOM (PERSONALIZZATO): Stabilisci personalmente il sistema dei falli.
+Falli » P.80
+REPLAY (REPLAY): Regolazioni per replay istantaneo.
+LAY-UP (TIRO RAWICINATO): Regolazioni per tiri di base in corsa.
+HOME COURT ADVANTAGE (VANTAGGIO SQUADRA IN CASA): La squadra che
+gioca in casa ha un leggero vantaggio.
+
+lil SOUND (regolazioni dei suonipiill
+
+Per cambiare le regolazioni dei suoni del gioco.
+(ON: regolazioni attivate; OFF: regolazioni disattivate)
+
+COMMENTATOR (telecronaca): Regolazioni per la telecronaca del gioco.
+
+STEREO/MONO (stereo/monoaurale): Per scegliere il suono in stereo 0 monoau-
+rale.
+
+f 72
+
+===== Page 80 =====
+
+Puoi cambiare tutte le regolazioni tranne quelle per l’infrazione dell’orologio
+per il tiro e della fuoriuscita dai limiti nel modo opzioni.
+
+WIinfrazioni della squadra all'attaccollll
+Se la squadra che gioca all’attacco infrange una qualsiasi delle seqguenti regole,
+
+essa perde il possesso della palla a favore della squadra che gioca in difesa.
+Alla squadra che gioca in difesa viene quindi concessa una rimessa in gioco.
+
+¢ Back court violation: Una palla che é stata portata nel settore del campo della
+squadra avversaria non puo essere riportata nel tuo settore del campo.
+
+¢ 10 second violation: Devi spostarti nel settore del campo della squadra avver-
+saria entro 10 secondi.
+
+¢ 5 second violation: Devi rimettere in gioco la palla entro 5 secondi.
+
+* 3 second violation: Non puoi rimanere nella zona canestro della squadra
+avversaria per piu di 3 secondi.
+
+* Shot clock violation: La squadra che gioca all’attacco deve tirare entro 24 sec-
+ondi dal momento in cui riceve la palla-.
+
+¢ Out of bounds: La palla deve rimanere all’interno del campo.
+
+illOffensive foul (Falli dell'attacco) Ill
+
+La squadra che gioca all’attacco non deve avere contatti fisici intenzionali con
+la squadra che gioca in difesa quando effettua un tiro. Se c’é contatto fisico, la
+squadra che gioca in difesa entra in possesso della palla e ottiene una rimessa
+in gioco.
+
+ill befensive foul (Falli della difesa) Ill
+
+La squadra che gioca in difesa non deve forzatamente bloccare la squadra che
+gioca all’attacco quando essa effettua un tiro. Se lo fa, alla squadra che gioca
+all’attacco vengono concessi da 1 a 3 tiri liberi. Se un tiro libero di punizione va
+a segno, la squadra che gioca all’attacco guadagna punti e ottiene un tiro
+libero. Se i] tiro non va a segno, la squadra che gioca all’attacco ottiene tre tiri
+liberi per un tiro da tre punti, e due tiri liberi per gli altri tiri.
+
+lillGoal tending (Sorveglianza del canestro) Ill
+
+Se un tiro viene bloccato sopra il canestro dopo che la palla ha cominciato a
+cadere verso il basso, i punti saranno assegnati anche se la palla non entra nel
+canestro.
+
+80
+
+===== Page 81 =====
+
+| dati di gioco vengono visualizzati alla fine di una partita, quando cambi
+
+i giocat
+
+ori, e varie altre volte.
+
+ii!Comandi per lo schermo dei dati Ill
+Pulsante A_ : Per spostarsi allo schermo successivo (per confermare la
+
+selezione)
+
+Pulsante B_ : Per ritornare allo schermo precedente (per annullare)
+
+iil Dati individuali Ill
+
+No.
+POS. :
+NAME :
+F/G% :
+3FG% :
+P/G
+R/G
+S/G
+B/G
+
+Numero del giocatore
+
+Posizione
+
+Nome
+
+Percentuale canestri fatti su azione (non comprende i tiri liberi)
+Percentuale tiri da tre punti
+
+: Punteggio medio per partita
+
+: Numero medio di rimbalzi per partita
+: Numero medio di prese per partita
+
+: Numero medio di blocchi per partita
+
+ili Dati di gioco Ill
+
+PTS.
+PCT.
+OFF.REB.
+BLK.SH.
+3PTS.
+
+: Punteggio
+
+: Percentuale canestri fatti su azione
+Numero di rimbalzi
+Numero di rimbalzi di attacco.
+Numero di tiri da tre punti
+
+DUNK SHOOT : Numero di tiri a schiacciata
+
+JUMPER
+STEAL
+
+Numero di tiri in sospensione
+Numero di prese
+
+81
+
+===== Page 82 =====
+
+
+
+===== Page 83 =====
+
+= c}
+C € Nintendo Prodotto da: KONAMI CO.,LTD.
+D-8754 GroBostheim
+
+MADE IN JAPAN
+
+PRODOTTO CONFORME AL DECRETO LEGISLATIVO 27/9/1991, N’ 313 IN ATTUAZIONE
+DELLA DIRETTIVA 88/378/CEE. NON ADATTO A BAMBINI DI ETA'INFERIORE AI 36 MESI A
+CAUSA DELLE PARTI TROPPO PICCOLE E DEL CONSEGUENTE RISCHIO DI INGESTIONE.
+CONSERVARE LE ISTRUZIONI O LA SCATOLA PER FUTURA REFERENZA.
+
+===== Page 84 =====
+
+DISTRIBUTED BY KONAMI UK LTD.
+KONAMI HOUSE, 54a COWLEY MILL ROAD, UXBRIDGE, MIDDLESEX UB8 2QE
+DISTRIBUTED BY KONAMI (DEUTSCHLAND) GMBH
+POSTFACH 56 01 80, 60406 FRANKFURT
+DISTRIBUTED BY KONAMI (DEUTSCHLAND) GMBH, PARIS BRANCH
+23 RUE CAMBON, 75001 PARIS, FRANCE
+The NBA and individual NBA Team identifications used on or in this product are trademarks,
+copyrighted designs and other forms of intellectual property of NBA Properties, Inc. and
+the respective member Teams and may not be used, in whole or in part, without the prior
+written consent of NBA Properties, Inc. ©1995 NBA Properties, Inc. All rights reserved
+GIVE'N GO™ IS A TRADEMARK OF KONAMI CO.,LTD
+KONAMI® IS A REGISTERED TRADEMARK OF KONAMI CO.,LTD.
+©1995 KONAMI ALL RIGHTS RESERVED.
+
+KONAMI.
+
+PRINTED IN JAPAN
+IMPRIME AU JAPON

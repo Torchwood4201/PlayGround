@@ -1,0 +1,715 @@
+# GODS
+source: https://archive.org/details/snes_manual_archive
+pdf: GODS ( PAL ).pdf
+region: PAL
+pages: 21
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+bi Na
+oii fla se nee diniieite
+
+SNSP-GZ-UKV “SS
+
+Lm
+
+MEN. D2S € ACP E
+
+won
+
+Instruction
+z >,” Booklet
+
+4 BITMAP
+BROTHERS is
+
+===== Page 2 =====
+
+TABLE OF CONTENTS
+
+SIARTIING UP ac ae ]
+een Gliese a. 2
+SONOS oops Se AE ene ee 3
+PIO a ee 4
+FO PGs5 ON GUSGGE.. kw 3  e, 5
+eh Le, hy A ee ate ie ire ere ree gE Soe eee 2
+Tote Ine Gude welons 22.5 5
+Fee I a eee ee 6
+WAIVE es a ee 8
+EAI 5 ei pen iene 8
+CORO eee 9
+Sie, Oe Se, Rees tae ee Ae ee 9
+Lo eR ee eee gee een 1]
+PRODBRY Ghd SHORIMD oo. 2.5 5 ss deevcev a SS et pds t3
+SO ore incss ee. a ee ee 14
+PONGNS 6. Ce ee ee i sis 14
+tions GRE Fuse ee ee ee ee 15
+10GS Se... ne, eee 16
+Levers ond Guerdwine 5... ee... ces 16
+BOON i ao pee 17
+Losing Lives and Réstariiray....deo ee ee eee 17
+POW a sec 17
+
+===== Page 3 =====
+
+Gods Super NES Credits
+
+Written and Directed by: The Bitmap Brothers
+Programming Conversion: Robert Trevellyan
+Original Programming: Steve Tall
+Design: Eric Matthews, Steve Tall
+Graphics: Mark Coleman
+Music: John Foxx
+Additional Music: Jason Page
+Sound Effects: Richard Joseph
+Music and Sound Conversion: David Whittaker
+Producer: lan McGee
+Associate Producer: Linda C. Norton
+Business Group Senior Vice President: Mark Beaumont
+Product Marketing Assistant: Debra L. Milliken
+Quality Assurance Lead: Ken George
+Quality Assurance Director: Jim Molitor
+Quality Assurance Testers: Joel Brisgel, Wi Kian Tang, James Thornton,
+Robert Vance
+
+Technical Support: Larry Coffey, Kevin P. Costello, Stephen Feaster, Milton
+Hodges, Christopher R. Kosel, Dave Locke, Douglas J. Valente
+
+Technical Support Manager: Dave Buon Cristiani
+Senior Vice President/Chief Technical Officer: David P. Grenewetzki
+Marketing Project Manager: Julie A. Lippold
+Manual Adaptation: Anne Schwimer
+Graphic Design: Darilyn Kotzenberg, Myrna G. Peskin
+Cover Illustration: Mitchell Anthony Illustration
+Screen Photographer: Russ Lee Photography
+Copy Writer: Michael C. Miller
+Trafficking: Mary H. Eaves, Shannon Van Scotter
+Creative Director: Llyza Swearingen Latham
+Marketing Director: Craig Harper
+Public Relations: Tracy Egan, Doug Mealy
+Legal: Ted Grabowski, Paul Jakab
+Special thanks to: Andy Kerridge, Mindscape UK
+
+===== Page 4 =====
+
+STARTING UP
+
+To start the game:
+
+1. Put Gods in your Super Nintendo Entertainment System®
+(Super NES).
+
+2. Turn on the Super NES.
+
+3. At the title screen, press Start.
+
+Important: If the Super NES screen doesn’t appear, turn the
+power switch off. Make sure your system is set up correctly and
+the cartridge is properly inserted, with its label facing toward
+you. Then turn the power switch on again. Always make sure
+the power switch is turned off before inserting or removing the
+Super NES cartridge.
+
+PAGE 1
+
+===== Page 5 =====
+
+Game Controls
+
+Left Button gh Right Button
+
+X Button
+A Button
+
+Control Pad
+Select Button
+
+Start Button
+
+B Button
+
+Control Pad
+Use the arrow keys to make your hero walk and climb:
+
+ft Climb up ladder, or turn to wall (used with B to pull a lever).
+$ = Climb down or crouch.
+
+= Move to the right.
+
+@ Move to the left.
+
+Start Button
+e Start the game.
+e Pause a game in progress; press again to resume play.
+
+Button A
+e Jump (select the direction with ™ or #).
+
+Button B
+
+e Fire a weapon.
+
+e Pull a lever (first press # to face the wall).
+
+¢ Move highlight.
+
+@ Pick up or drop objects (first press ¥ to crouch).
+
+PAGE 2
+
+===== Page 6 =====
+
+Gameplay
+Press the arrows to walk and climb. Press f = or ™ and
+buttons to operate levers and jump.
+
+To use a lever or button
+
+1. Press f to face the wall lever, or button.
+2. Press B.
+
+To jump
+1. Press or ™ to select a direction.
+
+2. Press A.
+
+Note: When the hero walks off an edge, he jumps down. If the
+jump is too far down, uh oh!
+
+To get off a ladder
+
+1. Press or ™® to select a direction.
+
+PAGE 3
+
+===== Page 7 =====
+
+Inventory —
+You may only carry up to three objects in your inventory. If you
+try to get a fourth object, you will lose one of the others.
+
+To pick up an object
+
+1. Press arrows to stand on object.
+
+2. Hold $ to crouch.
+
+3. Press B once to pick up item.
+
+4. Press B again until you highlight a blank square or unwanted
+item in inventory. ,
+
+5. Release $ to stand up again.
+
+To drop an object
+
+1. Hold $ to crouch.
+
+2. Press B until you highlight the inventory item you want to
+drop.
+
+3. Release $ to stand up again.
+
+To open treasure with a key
+1. Pick up the key.
+2. Press arrows to walk over the treasure chest.
+
+To shop for weapons, health, and potions
+
+At the end of at least one world in each level, you must go
+shopping. You need food to increase your energy. You may
+have a total of three objects for your inventory.
+
+1. Walk over the shop token to call the shopkeeper and the
+shopkeeper will appear.
+
+. Use arrows to select a weapon, health, or potion.
+
+. Click B to view a description of your selection.
+
+. Click B again to buy it.
+
+. When you are done, use arrows to select Exit and press B.
+
+Om & W NY
+
+===== Page 8 =====
+
+To pass an obstacle
+
+1. Jump over it, if you can.
+
+2. If you can't jump an obstacle, press a lever to turn it off,
+remove it, or open it.
+
+Menu Options
+
+Starting from the main menu, you can choose Begin Quest or
+Enter Password.
+
+To select a level
+
+1. Press $ to Enter Password, then press B.
+
+2. At the Enter A Password screen, press arrows to select a
+letter, then press B.
+
+3. When you finish spelling the password, select the end icon
+and press B.
+
+Hint: Select the back arrow icon on the screen to correct spelling
+mistakes.
+
+===== Page 9 =====
+
+THE STORY
+
+A city lost in legend. An unconquered warrior
+seeking reward. A challenge laid down by the Gods.
+The greatest prize of all - immortality. 4 great events
+combine to bring forth a burning legend. Relive that
+legend...
+
+Who would have thought that a man would be so foolish or so
+daring as to accept a challenge set down by the Gods? And yet
+one came forward to claim the right to test his skills and
+strengths against a city so legendary its name alone struck fear
+in the hearts of all who heard it spoken.
+
+Firstly, let us talk of this city
+
+None can be sure that the city even exists for no one has ever
+seen it. It was built by the Gods, a plaything, great temples,
+hidden underworlds, fiendish labyrinths and soaring towers. It is
+a city stolen by the forces of darkness, the abode of nightmare
+hosts, the dwelling of fearsome monsters, the dominion of four
+great guardians.
+
+Secondly, who is the hero?
+Has anyone matched him in battle? No. Has he ever turned
+aside from his sole quest? Never. Is he not therefore a hero
+among heroes? Undoubtedly.
+
+In his travels our warrior has become skilled in all the weapons
+of war; he is strong and unflinching. What of all the prizes of
+the world does he seek? He wishes to join those fickle masters of
+the human race — the Gods themselves.
+
+Thirdly, | shall recount the challenge of the Gods
+Were the Gods only joking when they laid their challenge?
+Uncaring and unthinking on Mount Olympus, they thought that
+no one would hear their rash words.
+
+===== Page 10 =====
+
+Any man may earn through skill and courage a single favour of
+the Gods, if he will face the fear of the ancient city and slay the
+four great guardians who have stolen our citadel from us.
+
+Through their contempt for man did they not bring about their
+own undoing? For never before had such an untamed reward
+been offered to the mortals. But who from the ranks of man
+
+would face destruction at such odds? Surely none. Only One.
+
+Finally, what did the hero ask of the Gods
+
+Immortality breeds contempt and the Gods, so long uncaring for
+the events of man, know nothing of the exploits of our hero. He
+stands before them showing neither fear nor disdain and asks the
+Gods that should he return, fulfilling completely their quest, he
+will join them as an equal and a brother.
+
+The horror, the impertinence, the mistake realised too late, the
+gateway lies open to their domain where no mortal man has ever
+trod before.
+
+But the word of the Gods may not be broken and only the hope
+of the hero’s failure comforts them as the warrior departs for the
+City of Legends, preparing to carve one more story on its walls...
+
+===== Page 11 =====
+
+SUMMARY -
+
+Gods is a game of exploration, combat, and adventure. You
+assume the role of a classical hero who has taken up the
+challenge of the Gods. In order to gain the ultimate prize of
+immortality, you must slay the four guardians of the city and
+return to Mount Olympus.
+
+The four guardians rule over an ancient city full of chaotic
+beasts. The city was once the citadel of the Gods and consists of
+four levels, each protected by one of the guardians and their
+many minions. The levels are: the city, the temple, the labyrinth,
+and the underworld. Each level is split into three sections
+referred to as worlds. At the end of at least one world in each
+level, you must stop at a shop. At the end of the third world in
+each level, you meet the guardian. Avoid the guardian and his
+weapons. Press B to fire at him.
+
+Status
+
+To determine your play status, check these screen features:
+e Lives — See the upper left corner.
+
+e Energy — Yours is in the far lower left corner; the guardian's
+is in the far right corner.
+
+e Inventory — Up to three objects are shown in the four boxes
+in the lower left of the screen.
+
+e Score — See the lower right corner.
+
+¢ Bank account — Your account balance is listed below your
+score.
+
+e Message scroll — Appears with hints or clues when you
+solve puzzles, avoid traps, or collect bonus gems.
+
+PAGE 8
+
+===== Page 12 =====
+
+Combat
+
+In order to fulfil your quest, you must venture through the levels of
+the city, these are now the home of chaotic hordes of monsters
+which must be overcome. To do this, you must fight. Scattered
+throughout the city are many weapons, some of these will be
+powerful and others weak. These weapons are essential if you
+are to defeat the creatures you will face. As well as weapons that
+you may tind, it is possible to purchase others at shops located
+within each level.
+
+Different weapons have different strengths and qualities,
+discovering the nature of each weapon will help you succeed.
+
+Monsters
+
+Over the years since the Gods abandoned it, the city has
+become the home of many chaotic beasts. These are ruled by
+four gigantic guardians who use them to protect their fortunes.
+The monsters you will meet are by no means stupid; some will be
+stronger than others and some will be more deadly, but all are
+united in their cause to thwart your quest. Some of the inhabitants
+are able to avoid your attempts to destroy them.
+
+Collecting several of the same weapon will make your shots more
+effective. Several weapons may be used at the same time, find
+out which are compatible for ultimate fighting ability.
+
+Then strike with precision. Whatever monster you meet, it is wise
+to study its behaviour and from this knowledge learn the nature
+of all your adversaries.
+
+Within the first level the monsters you will meet will have only
+one aim — to destroy you. As you press into the temple and
+beyond, you will meet creatures who will try to steal the few
+precious items to be found.
+
+===== Page 13 =====
+
+The physical appearance of a monster
+indicates it nature and its objectives.
+
+DESTROYER
+
+These are very intelligent. Their objective is to
+destroy you, and they will pursue you
+throughout the level in order to do so.
+
+FLIER
+
+As well as trying to destroy you, these
+monsters are able to avoid your shots; the
+more intelligent ones will prove very elusive.
+
+THIEF
+
+These monsters try to steal objects from you.
+They will also try to grab and run away with
+any objects not yet acquired. Because of this
+tendency, it is possible to delay them by
+leaving treasure scattered throughout the
+world. If there is no treasure available, they
+will try to destroy you.
+
+Because of their varying objectives, monsters can be
+used to help you.
+
+===== Page 14 =====
+
+Keys
+
+In order to protect their city from unwelcome intruders, the Gods
+placed many doors to block their progress. These doors are
+extremely strong and can resist all attempts to demolish them. To
+open them, it is often necessary to have the correct key in your
+inventory.
+
+As well as doors, the inhabitants have entrusted their valuables
+to locked chests. These containers may only be opened using the
+correct key. These are smaller than keys used to open doors and
+are coloured to correspond with the chest they open. Like their
+larger relatives, these keys are not easy to obtain and are
+usually well protected by monsters, traps, or puzzles. The
+treasure within these chests may be used to purchase weapons
+or potions at the shops that are found throughout the city.
+
+When a key has been used, it will be discarded automatically.
+
+Doors can lead to rooms, teleport you to new locations, or let
+you progress along passages.
+
+Special gems are also able to teleport you.
+To open a chest, pick up the key and walk past the chest.
+
+To open a door, pick up the key and walk to the door. Press tf
+to face the wall and press B to pull the lever.
+
+PAGE 11
+
+===== Page 15 =====
+
+The colour and shape of a key indicates what type of door or
+entrance it will open:
+
+VERTICAL KEYS
+
+There are three vertical keys:
+Gold — teleport |
+Bronze — room
+
+lron — trapdoor/moving block
+
+- HORIZONTAL KEYS
+
+- There are three horizontal keys:
+~ Gold — end of level or world
+
+_ Bronze — treasure room
+
+lron — door
+
+The colour of a chest and its corresponding key are indicative of
+the value of its contents;
+
+Gold chests — greatest value
+Bronze chests — average value
+lron chest — lowest value
+
+===== Page 16 =====
+
+Money and Shopping
+
+The city is fabled to be rich in treasure and gold, though no one
+has ever returned to confirm it. For the best chance of success,
+you need to collect as much of this treasure as possible. The
+money can then be used to buy weapons, potions, and health in
+the shops dotted throughout the levels. These shops are reached
+by walking over a special token, which calls the shopkeeper to
+escort you to his store.
+
+The description of the item and price are displayed in a window
+below the arches. Your cash is displayed at the bottom of the
+screen. To leave the shop, press arrows to move to the arch
+labelled Exit, then press B. All the items you have purchased
+will be available as soon as you leave the shop.
+
+If you buy a weapon that replaces one you are already
+
+carrying, half the value of the lost weapon will be added to your
+cash.
+
+Treasure may be revealed by destroying monsters or solving
+puzzles.
+
+Shields and starbursts will be removed when you confront the
+guardian at the end of each level.
+
+Potions can be collected either by finding them in the city or
+buying them in a shop. If a potion is collected, it takes
+immediate effect. Certain-potions that are bought in the shop
+can be carried and only take effect if they are dropped from
+your inventory.
+
+PAGE 13
+
+===== Page 17 =====
+
+A guide to weapons and potions
+
+Weapons
+
+4) Dagger - one of the weakest weapons you may come
+| across.
+
+Shurikans — stronger than daggers, these travel
+through monsters.
+
+Fireballs — can be used at the same time as a
+conventional weapon, such as a dagger or shurikan.
+
+| Spears — pass through monsters and platforms to cause
+ge great damage.
+
+cy Wideshot — one of three shot-directing tokens, this
+
+| spreads the shot for maximum effect against fliers.
+
+Potions and Defences
+
+Freeze* — Puts monsters into suspended animation
+! temporarily, so you can destroy them.
+
++ Jump - Lets you jump higher. Found in certain places in
+a the game.
+
+Large Shield - can be bought or collected; it lasts for
+
+| the whole of the current world and reduces your damage
+
+by half.
+
+%; Small Shield® - can be bought or collected; it lasts 15
+waa seconds and protects you from damage and also
+~ destroys any monsters who run into it.
+
+™ Food — comes in several forms; it replaces lost energy
+=} but is not as powerful as the health potions.
+
+~4 Shop - step ona token to call the shopkeeper.
+
+*These potions can be bought and then dropped when needed.
+
+===== Page 18 =====
+
+Traps and Puzzles
+
+The most cunning methods employed by the dwellers of the city
+are puzzles and traps. Some of the puzzles are simple,
+requiring only the throwing of a switch to advance further;
+others are much more complex, involving collecting objects,
+tinding keys, and acquiring special weapons. Traps take several
+forms but most are lethal, their spiked flails causing you to lose a
+life unless you can escape them quickly.
+
+The puzzles that you will face are many and varied. All puzzles
+are one of two types, progression puzzles and reward puzzles.
+Progression puzzles need to be solved in order to complete the
+world or progress. Reward puzzles are not essential to the
+completion of the game; these puzzles provide rewards that can
+take the form of extra treasure, shortcuts, or other benefits.
+
+Hidden rooms are a typical example of a reward puzzle. The
+entrance to a hidden room may be found by examining the
+background- there may be a platform that cannot normally be
+reached or a passage blocked by a wall.
+
+As reward puzzles are not essential they may involve a
+considerable amount of danger. Particularly strong monsters
+may protect the route that leads to the reward.
+
+Progression Puzzles are usually simpler in nature than reward
+puzzles; however, these puzzles may often contain traps if they
+are not solved correctly. Progression puzzles often require that
+you recover an item, such as a key or teleport gem. These items
+will then let you into the next section of the world.
+
+Puzzles may be simple, requiring only one action to solve them;
+others require combinations of one or more events to trigger
+them. These actions include: throwing switches, completing
+
+PAGE 15
+
+===== Page 19 =====
+
+sections within a limited time, or finding and returning objects to
+a specific location.
+
+As well as puzzles, there are also many hidden bonuses. These
+provide rewards at certain points if you complete a section in a
+good time or lose minimal energy or lives. The bonuses take the
+form of treasure or potions that will make completing the next
+section easier.
+
+Once a puzzle is complete, the object used to solve it will be
+removed from your inventory.
+
+Clues
+
+To assist you, there are many clues that can be picked up. Clues
+take the form of special tokens. Collecting them causes a
+message or clue to appear in the Message Scroll. These clues
+may help define the quest for the level, provide a hint or a
+solution to a puzzle, or reveal the location of an object.
+
+All clue messages are displayed when you collect the token.
+They cannot be redisplayed, so take careful note of their
+contents.
+
+The Four Great Levels and Four Gigantic
+Guardians
+
+The city has four levels: the city, the temple, the labyrinth, and
+the underworld. Each level is split into three worlds. At the end
+of each level is an enormous guardian. These are the monsters
+you were sent to destroy. All the minions and treasure belong to
+these fearsome creatures and each is determined to retain its
+power.
+
+===== Page 20 =====
+
+Scoring
+
+As well as completing this great quest, there may also be some
+honour in having achieved a good score. You receive points for
+destroying monsters, collecting treasure, and solving puzzles.
+At the end of each world, a bonus is added to your score. This
+bonus is affected by the number of lives remaining and health
+as shown by the Energy meter.
+
+At the end of the game, your score will be placed into the hall
+of fame.
+
+To input your name, follow the same procedure as entering a
+password.
+
+Bonus lives will be awarded for ‘landmark’ scores.
+
+Losing Lives and Restarting
+
+You have three lives in which to complete the game. Each level
+consists of several worlds. You return to the world in which you
+lost a life with all your weapons.
+
+Password
+
+When you complete a level, you get a password that lets you
+reenter the game at the beginning of that level. You restart the
+game inside a shop, which lets you purchase health, weapons,
+and potions.
+
+PAGE 17
+
+===== Page 21 =====
+
+MINDSCAPE : ae
+
+\"
+
+¥ :
+MINDSCAPE INTERNATIONAL
+PRIORITY HOUSE _ |
+CHARLES AVENUE = <
+MALTINGS PARK | << a
+BURGESS HILL £
+
+WEST SUSSEX :
+
+RH15 9PQ = —

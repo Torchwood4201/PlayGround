@@ -1,0 +1,1233 @@
+# Brett Hull Hockey
+source: https://archive.org/details/snes_manual_archive
+pdf: Brett Hull Hockey ( USA ).pdf
+region: USA
+pages: 20
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+| AL MICHAELS CALLS THE SHOTS),
+
+\
+sNsiev-UsA I
+
+INSTRUCTION BOOKLET
+
+(GAMES WITH PERSONALITY.
+
+GAMES WITH PERSONALITY,
+5300 Stevens Creek Blvd., San Jose, CA 95129, (408) 985-1700
+
+PRINTED IN JAPAN
+
+===== Page 2 =====
+
+‘Thank you for purchasing this Brett Hull Hockey
+Super NES® Game Pak.
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER INFORMATION
+AND PRECAUTIONS BOOKLET CAREFULLY BEFORE USING YOUR,
+NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+eoey
+
+SEALS on
+Reastenr Fabetins OF
+esa
+
+AL
+
+LiceSO Br SALE FOR USE
+
+CREDITS
+
+Design
+Programmers:
+Artist
+
+Musician
+
+Producer
+
+Addl Programmers
+Adall Artists
+
+Ton oldata Entry
+Executive Producer
+Testers
+
+Product Manager
+Manual Writers
+Manual Design
+
+Radical Entertainment Ltd.
+Lennox Ong, David Roberts
+Arthur We
+
+Paul Wilkinson
+
+Dave Davis
+
+Jack Rebbetoy, Bob Emond
+Alan Blouin, lan Verchere,
+Emmanuel Soupidis
+
+Lisa Constantini
+
+Pamn Levins
+
+Scott Barnes, Tomi Quintana,
+Ken Kajikava, Don Felice,
+Mitch Lacy, Dexter Dorris,
+Daniel Jeung
+
+Jon Monge!
+
+1220
+
+Shirley Sellers
+
+Special thanks to the Radical staff who played, commented.
+on and sometimes criticized B.H.H.; you made the product
+
+supreme.
+
+comments taken from Brett Hull, Shootin’ and
+ett Hull and Kevin Allen, Prentice-Hall
+
+1991
+
+===== Page 3 =====
+
+TABLE OF CONTENTS
+
+Getting Started
+Loading Instructions.
+Quick Start
+Operating Your Contraller..
+
+Options Scr€eN sonssernssnn
+
+Edit Team Screen
+
+Playing the Game
+Team Summaty screen...
+Scoreboard.
+
+Face Offs i
+
+Possession of the Puck.
+Passing...
+Shooting
+
+Line Changes
+
+Penalties
+Checking
+Fight Screen
+
+Timeout Screen’
+
+Game Summary Menu...
+Brett Hull Comments...
+Password
+
+Shootout..
+
+===== Page 4 =====
+
+On the Ice With
+Brett Hull
+
+He wasn't born with ice
+skates on, but Brett Hull
+
+might as well have been. His
+father, Bobby, is in the NHL
+Hall of Fame, His mother,
+Joanne was a professional
+figure skater. The third of
+five children,"Hullie” was
+
+bor in B Ontario,
+Canada, in the summer of 1964,
+Under his mother’s watchful eye, Brett first learned to
+skate in Chicago's Oak Park Arena, He played in
+various junior leagues with the Elmhurst Huskies.
+Brett spent most of the 1970's practicing in the
+;nipeg Arena (Manitoba, Canada). At age 17, he
+‘was playing Midget hockey in North Vancouver.
+After playing for the Penticton Knights (1982-84), he
+was off to Minnesota-Duluth College and its Bulldogs
+team.
+Brett's NHL debut came in the Stanley Cup Finals in
+1986, when he was called up late in the season by:the
+Calgary Flames. Midway through the 1987-88 season,
+the was traded to the St. Louis Blues,
+
+It was in St, Louis that Brett became a star, He led
+the NHL in goal scoring in 1990 and 1991, with
+seasons of 72 and 86 goals. He captured the Lady
+Byng trophy in 1990, as the league's most gentle-
+manly, player, and the Hart Trophy, given to the
+Jeague’s MVP, in 1991.
+
+In the Booth With
+Al Michaels
+
+Accolade and Al Michaels first
+‘teamed up in 1992, with Al's
+lay-by-play announcing of
+
+‘Al Michaels Announces
+HardBall III". Alis the best in
+the booth when it comes to
+play-by-play announcing, with
+€ voice familiar to sports lovers
+everywhere.
+
+Best known as the voice of ABC’s "Monday Night
+Football’, Al is also an experienced hockey
+announcer, having called hockey for the U.S. Olympic
+hockey team in the 1980, 1984 and 1988 Olympiads
+and for the 1993 Stanley Cup.
+
+Al began his broadcasting career in 1968, calling
+baseball games for the Hawaii Islanders of the Pacific
+Coast League.
+
+In 1971 he was named the radio announcer for the
+Cincinnati Reds. Al joined NBC's broadcasting team
+for the 1972 World Series
+
+1974, Al signed on as the voice of the San Francisco
+Giants, @ position he held until 1977, when he took
+over as the #1 announcer for ABC Sports,
+
+incredible reign at ABC Sports includes seven
+World Series, five All-Star games, seven League
+‘Championship Series, as well as hosting "Wide World
+of Sports" events and tennis matches.
+
+He has been selected national Sportscaster of the Year
+three times and has garnered two Emmy's as the
+outstanding Sports Personality host
+
+===== Page 5 =====
+
+At the Office
+With the
+Developers
+
+Radical Entertainment
+Lid. a video game
+and educational
+software development
+company, is located in Vancouver, British Columbia,
+Canada, Meet the Brete Hull Hockey Super NES team:
+Dave Davis - Producer. It was clear he was destined
+to become a producer when, at the age of $, Da\
+organized, directed, and “schmoozed’
+classmates,
+
+Lennox Ong - Programmer. When Lennox's mind
+flowed as one with Pac Man and he meditated with
+Donkey Kong, he realized he had no choice but to
+become a programmer.
+
+David Roberts - Programmer. After exploring the
+‘world with only a backpack and pet moose, David
+retuned home to take up the challenging position of
+gravity tester.
+
+Arthur C. “Rocketboy” We - Artist. Born one year
+before his first birthday, Arthur became the youngest
+draft selection ever in pro sports. The “Rocket” refused
+the deal, and signed on with Radical instead,
+
+Alan Blouin - Artist. Alan has a wide skill set that
+includes cel animation, computer modeling, and, of
+course, a Ph.D in videogame art
+
+Paull Wilkinson - Musician, Paul's hardest challenge is,
+avoiding accidentally writing a piece of music that wi
+render the entire classic music genre obsolete.
+
+GETTING "It just so happens I
+STARTED eee pein
+
+Loading amount of fun when I
+
+Instructions play. Wayne Greteky is
+1 Make sure the power is “e onlv other Player 1
+‘lf on your Super watch who seems to
+Nintendo Entertain- have as much fun as 1
+
+ment System.
+
+do playing hockey.
+2 Insert the Bretf Hull Brett Hull
+Hockey Game Pak into
+your system by
+following the
+Instructions in your system manual.
+
+3 Plug a controller into port 1. For 2 players, plug a
+second controller into port 2
+
+4 Tum the power switch on. If nothing appears on
+screen, re-check your Game Pak to take sure itis,
+inserted properly.
+
+§ Press any button, after viewing the title sequence,
+to advance to the Main Menu,
+
+Quick Start
+
+1 When the Title Screen appears, press START on
+Control Pad 1 — the Main Menu will appear.
+
+2 Press START again and the Team Summary Screen
+will appear.
+
+ear pi
+
+===== Page 6 =====
+
+BRETT HULL
+
+Quick Start (continued)
+
+3 Press START a third time, and you're ready to play.
+the game with the following default settings:
+* 1 Player-Home (Home team vs. computer)
+
++ Exhibition Game: St, Louis (Home) vs,
+Vancouver (computer)
+
+: § minutes
+
++ Line Changes: Off (only one line used, players
+will not tire)
+
+* Penalties: Off (no penalties will be called by
+the referee)
+
++ Offsides: Off (offsides will not be c
+
++ Fighting: Off (fighting will not be
+
++ Announcer: On (Al Michaels will call play-
+by-play)
+
++ Sound: Stereo (sound effects, crowd noise
+‘and music)
+
+Operating Your Controller
+
+Before you begin playing Brett Hull Hockey, take a
+‘minute to familiarize yourself with the Jayout of the
+controller and what each button does.
+
+OFFENSE CONTROLS
+
+Snitch Lines Up
+
+at saater “WS
+‘or Shots
+
+ODEN CDK tty crs
+
+To aim, press and hold ¥,4,» or < on your Control
+Pad when you pass or shoot.
+
+cr pa
+
+===== Page 7 =====
+
+The Main Menu lets you set up your game the way
+you want. To change an option:
+
+1 Press 4/¥ on your Control Pad to move the
+flashing goal light next to the desired option.
+
+2 Press > to cycle through available settings
+(access Edit Team and Options by pressing the
+B Button).
+
+The options, in the order they appear ate:
+Player Option: Choose from:
++ 1 Player-Home (Home team vs. computer)
++ 1 Player-Away (Away team vs. computer)
++ 2 Players (player vs. player)
+
+NOTE FO ig 9
+
+Game Option: You
+can play Exhibition “My concern has always
+Game, Playoff or
+
+been not how fast my
+Season: is Me
+
+shots goin the net, but
+* Exhibition Game bs ane
+
+=Play one game at | how eften
+a time against the Brett Hull
+computer or a a
+
+human opponent to
+develop your skills,
+Playoffs 3, 5, or 7 - Go straight to the Playotts
+in a best of 3, 5, or 7 game format. A Playoff Tree
+Sereen will appear before and after each game to
+update your team’s progression toward the
+championship.
+
+\/_ Before your next Playoff or Season game,
+
+NOTE 1%, ain Menu witl be displayed showing
+
+‘your next opponent and allow you to select
+
+Edit Team, Period Length or Options. All
+other selections will be disabled.
+
+* Season Play 11, 42, or 84 Play an entire
+season of 11, 42, or 84 games and, if you qualify,
+{go through the Playoffs for the Stanley Cup.
+During the season, the computer will choose your
+opponent in a pre-set schedule. A League
+Standings Screen will appear before and after
+each game, updating your team’s wins, losses,
+and total points.
+
+ear f1
+
+===== Page 8 =====
+
+|
+|
+
+BRETT HULL
+Hocaey
+
+Main Menu (continued)
+
++ Shootout ~ A shootout consists of a player
+getting five penalty shots, one-on-one against the
+goalie (see Shootout, pg. 29). In two player
+mode, one player controls the goalie while the
+other controls the shooter (see The Goalie,
+
+9. 16 for Control Pad information)
+
+Home Team Option: Select your Home team from
+
+26 league teams and two all-star teams. You'll be the
+
+Home team for the Exhibition game and the start of
+
+the Playoff series. Use this option to select your
+
+team for Season play, but you won't necessarily
+begin as the Home team,
+
+he Yo t select Ec West All-Stars ir
+NOTE. ces otto as
+
+Away Team Option: Choose a Visiting team from
+26 league teams and two all-star teams. You'll be the
+Visiting team for the Exhibition game and the start of
+the Playoff series (The Away Team option is not
+available when Season play is selected)
+
+Edit Team: Press the B Button to display the Edit
+Team Menu (see Edit Team Menu, pg. 8). Press
+START to retum to the Main Menu,
+
+Period Length: Each
+
+game consisis of three “Getting in position for
+
+periods. Choose §, 10 or | 4 shot and quick
+
+20 minutes. #
+
+Options: Press B
+
+Button to access the
+
+following options: Brett Hull
+Line Changes:
+With this feature tumed On, you can choose
+between four available lines during a game
+and the lines will experience fatigue (see
+Line Changes, pg. 16.)
+
+The referee will call minor and
+
+swith this feature On.
+
+release are what is
+
+important to me.
+
+Penalties
+major pena
+Offsides: Turn this feature On if you want
+the referee to call offsides
+Fighting: With fighting On, fighting may
+occur during game play. Switch to Off if you
+don't want this feature. (To turn this feature
+On, the Penalty feature must first be On.)
+Announcer: Select On to have Al Michaels
+call the plays or Off if you don't want an
+announcer
+Sound: Turn sound effects, music and crowd
+noise to Stereo, Mono, or OFF.
+
+Press START to return to the Main Menu.
+
+2D |
+
+===== Page 9 =====
+
+BrerrHuu
+ocKEy
+
+EDIT TEAM MENU
+
+The Edit Team Menu allows you to View Team
+Roster, View Player Stats, Coach (modify team
+skills) or Edit Lines. To choose an option’
++ Press &/¥ on your Control Pad, then press
+the B Button
++ Press START to return to the Edit Tearn Menu
+
+View Team Roster
+This screen displays your players’ number, name,
+position and whether he's left or right-handed, It
+also ranks the following individual attributes fro
+1 (weakest) to 100 (strongest)
+
+* Skating + Stick Handling
+* Shooting * Defensive Play
++ Strength + Aggressiveness
+
+To scroll through the player attributes, press </>, To
+view the entire roster, press a/¥. To display goalies
+and their attributes, press the ¥ Button,
+
+View Player Stats:
+
+View the NHLPA statistics for the 1992-93 season, in-
+dluding games played, goals, assists, and total points.
+To display goalie statistics, press the ¥ Button.
+
+“aie erence
+lO \, i
+
+Coach
+
+The Coach Screen allows you to modify your team to
+suit your personal taste and displays your team’s
+uniform colors. For example, you can make a team
+that skates fast and handles the puck well, or an
+aggressive hard-checking team that plays great
+defense, Here's how to make yout edits:
+
+1 Press a/¥ on your Control Pad to select
+the skill you want to modify.
+
+2 Press ® to strengthen or 4 to weaken
+
+that s pa
+
+===== Page 10 =====
+
+| BRETT:
+focey
+
+Coach (continued) STEEN SEES
+ou want an extremely high-scorin
+3 When your coaching edits are complete, press Ngee Ne autatiies Pea
+START to return to the Edit Team Menu, HINT Pomating and aggressiveness settings to the
+maximum, and set the strength and
+AN defensive skill settings to the minimum.
+
+4.7 Team Power Resource meter atthe top
+center of your screen Mills up or empties as .
+NOTE 01 moaip:your team. When your Power Edit Lines
+Resource Meter is empty, the only way to |
+[@\eum increase a skill is by reducing another sk
+
+Here's a description of each skill at its maximum setting;
+
+SKILL MAX SETTING
+Skating Emphasizes speed, creating odd-
+‘man advantages and breakaways.
+Shooting Promotes higher-percentage shots.
+Strength ‘A tougher checking game, chasing
+after loose pucks. You can create your own skating lines (ie. Scoring,
+
+Stick Handling Emphasizes a passing and puck Penalty or Power Play). To edit any of the f
+
+control offense available lines (Line 1, 2, 3 or 4), or your goal
+Defensive Skill Fewer goals scored against; defense- 1 Press </> to select the line you want to edit,
+
+men stay in their zone more often, 2 Press A/¥ to select the player you want to replace
+Aggressiveness Defensemen rush net, creating on that line.
+
+excellent scoring opportunities, 3 Press the ¥ Button to move to the players list. (You
+
+Players chase puck into comers can toggle back to the current line by pressing the
+
+and play a very offensive-minded { eaten aan)
+
+game.
+
+4 Press a/Y to highlight a replacement player.
+
+5 Press the B Button to insert new player in line.
+To exit the Edit Lines Screen, press START.
+
+car fr
+
+===== Page 11 =====
+
+PLAYING THE GAME
+
+You've selected your teams and set your lines, now it's
+time to view tonight's match up. Press START to go to
+the Team Summary Screen.
+
+Team Summary Screen
+
+The Team Summary Screen appears before each game
+and shows how the teams match up. Al Michaels also
+gives a brief commentary about the Home team; press
+START to view his comments about the Away team,
+Press START again to hit the ice.
+
+Scoreboard
+Just before you begin
+
+examine the scoreboard at
+the top of the screen. It displays the Score, Period,
+Time remaining, and Power Play Timers, The Power
+Play Timers are located on both sides of the time clock.
+After a penalty Is called, the timers will light up
+indicating which team has the advantage and how
+much time is remaining on the Power Play.
+
+Face Offs
+
+In a face off, the referee drops the puck and two
+players attempt to gain control of the puck and pass it
+fo teammate. Press the Y Button when the referee
+ops the puck, and:
+* Press 4/b on the Control Pad to hook or push
+the puck to another player
++ Press a/¥ to lean into the opposing player to
+‘gain control of the puck
+
+Possession of the Puck
+
+A player will automatically gain possession of a loose
+puck when his stick makes contact with it. When a
+player on the Home team gains possess
+
+filled triangles, his number and position
+under him . The player in possession on
+team will have red filled triangles. When a player on
+either team loses possession, the
+change to unfilled triangles
+
+tan
+
+===== Page 12 =====
+
+BRETT HULL
+
+OND TE. etezzue to cont ome
+‘NOTE Skater closest to the puck.
+a
+
+Passing
+
+Passing the puck is the key to winning hockey games.
+‘A well-timed pass to a skater flying up the ice is one of
+hockey's most exciting plays. To pass the puck:
+
+‘ess and hold the Control Pad in the direction
+you want to pass, then press the B Button.
+
+Shooting
+The two basic shots in hockey are the wrist shot and
+the slap shot.
+Wrist Shot: Although it’s not as flashy and powerful
+as the slap shot, the wrist shot is often more effective
+far scoring. A wrist shot aimed on goal isa closer,
+more accurate shot, It often catches the goalie by
+surprise; maybe because he was screened out, oF
+maybe he never saw the puck being shot, To take a
+ters shot:
+
+* Press and hold the Control Pad to aim your shot,
+
+then press and quickly release the ¥ Button,
+
+ip
+
+Slap Shot: The slap <
+
+shot is a powerful but "1 ke to head toward
+less accurate shat
+usually taken from a
+greater distance from the breakout, then double
+nnet, The player takes —|_back to rejoin the play.
+big windup and blasts
+aviay. When a slap shot
+
+‘our zone during a
+
+'s like taking yourself
+
+blocked by a goalte; ‘out of the play, to get
+the rebounds are longer, | back init.”
+so be prepared to pick Brett Hult
+
+up the loose puck or
+play defense. To take a
+slap shot:
++ Press and hold the Control Pad to aitn your shot
+then press the ¥ Button. The longer the button is
+held down, the harder the slap shot will be.
+
+\ J Pressing the Control Pad a whtleyou shoot
+Wl atl the puck “upstairs”. Ityou press Y
+HINT rite shooting: ene puck wit stay ow. Ir
+Piemonte en tata
+AN betivcen the goaliestegs 7° P
+
+warp.
+
+===== Page 13 =====
+
+Line Changes
+
+The players on a line wi
+
+resses. To change these lines and get fresh pl
+
+the ice:
+
+1 Press the R Button to display the number of the
+Jine (L1 - L4) currently on the ice, (The number will
+appear in place of your score on the scoreboard.)
+
+2 Press the L Button to move through the lines, then
+press the R Button to choose.
+
+be represented as L1, L2, 13 or L4 and
+
+lor-coded to indicate their level of fatigue:
+
+strength; yellow ~ fatigued and red ~
+
+fatigue as the game prog:
+fers on
+
+exhausted,
+
+As
+NOTE. comeptoy continues during a tne change
+
+POS
+
+The Goalie
+
+‘The computer controls the goalie's movement until he
+gains possession of the puck, or you choose to take
+control when a shot ison the way to his net. To take
+control when a shot is on its way to the net
+
+«+ Press and hold X Button + > to slide right,
+« Press and hold X Button + 4 to slide left
+
++ Press and hold X Button + 4 to block high shot
++ Press and hold X Button + ¥ to block low shot
+
+a
+
+Once he has the puck,
+
+he may either pass to *Y’m not a flashy player
+teammate or hold it
+
+until the referee calls @
+face off in one of the two chances. I need some-
+
+who creates his own
+
+circles near the net, To one to get me the puck.
+have the goalie pass the incite tnull
+puck:
+
+ss the Control
+Pad in the direction you want
+to pass, then press the B Button
+
+Overtime
+
+{In Exhibition play and in the Playoffs, the length of
+overtime periods matches the current game period
+ength and continues until one team scores (sudden
+death). In Season play, overtime consists of one §
+minute period and the first team to scote wins. If
+neither team scores, the game results in a tie.
+
+INFRACTIONS
+
+The red center line divides the hockey rink into two
+equal halves. On each side of the red center line is a
+bblue line, which marks the Offensive and Defensiv
+Zones for each team, One team’s Defensive Zone is
+the other team’s Offensive Zone. The area between
+‘the two blue lines is the Neutral Zone.
+
+aap
+
+===== Page 14 =====
+
+Gorey
+
+Offsides
+
+offense
+
+Defensive
+Zone
+
+Ofsides is the most common reason for stoppage of
+play by the referee. No offensive player may cross
+the opposing team’s Defensive Zone until the puck
+crosses the blue line, Otherwise, the play is called
+Sides, and the referee calls for a face off just outside
+the blue line. Many scoring opportunities are lost due
+toa player being offsides.
+
+to
+
+goon hove a ployer heading tovard the
+Hiden ahead othe pc ty to pass
+nm beforehe cose eng Thi
+
+ent the tcftce hom whistling’ a
+
+A 4 Bisides call ‘The Options Menu gles you
+
+HINT ihe'nice of turning or the oiidet
+feavar® “Tanning off tis feature shu
+
+oN result in a higher scoring game, since
+
+"Ehatiy fein’ ox staying near your
+
+epponent's goal wil be legal.
+
+Icing
+
+Icing is another common reason for stoppage of play
+Icing may be called if the offensive team shoots the
+puck down the ice into the opposing team’s Defensive
+Zone without first crossing the red center line. How
+ever, ithe offensive team gets to the puck before
+
+the defense or the goalie touches the puck, icing
+
+‘will not be calted.
+
+When the referee calls icing, the face off occurs in
+the face off circle nearest the offending team's goal.
+
+AA team Is allowed to ce the puck while
+A ling a penal When your Spponent
+HINT on e'bowtr play, ice the puck soon as
+DIN, 04 96 posession. This Eats up valuable
+time'an Your opponent's powerplay
+
+Penalties
+
+Minor penalties will result in a player being sent to the
+penalty box for two minutes. This allows the other
+team to have a power play ~ a one or more skater
+advantage for two minutes. Multiple penalties may
+result in more than one player being sent to the
+penalty box,
+
+The two-minute minor penalties that the referee will
+call in Brett Hull Hockey are:
+
++ Roughing: Minor punching or shoving of an
+opposing player
+
+car fa
+
+===== Page 15 =====
+
+BRETT HULL
+Gocey
+
+Penalties (continued)
++ Holding: Illegally holding an opponent by using
+hands or stick
++ Instigating:
++ Fighting: Striking an opponent for the purpose
+of intimidation or retaliation
+Hooking: Using the blade of the stick to
+impede the motion of another player
+High sticking: Carrying the stick above
+shoulder level and striking an opponent
+
+Slashing: Swinging the stick at another player
+an effort to slow his progress
+
+tentionally provoking a fight
+
+Interference: A player tries to impede the
+progress of a player not in possession of the puck,
+or hits the goalie when he is in the crease
+
+* Cross-checking: Striking an opponent with
+both hands on the stick and no part of the stick
+on the ice
+
+\ J Busing a minor penaty, when the team
+‘hrs man advantage score a goal, the
+NOTE ployer nthe penal oss alone to
+Fallin to the kee, and the power plats
+a anathe pov ieia)
+
+,,a referee may call a five minute major
+penalty for intentionally trying to injure another
+player, however; the most common major penalty is
+
+20
+
+fighting. (A power
+play doesn’t always “offense is timing.
+result from fi
+
+Decmise both teumescse’ | ppeemen derunieg
+aplayer-leaving them timing. Ifa center gets
+equal strength) ‘you the puck a second
+Multiple penalties can early, or a second late,
+be called on one team, ‘it makes all the
+
+but a minimum of three
+players and a goalie
+remain on the ice at al
+times.
+
+difference In the world."
+Brett Hull
+
+\ 1) Major penalties must be served a
+MOTE egtarreseracr onary eoveratay
+
+IN, 5o7ing situation
+
+Delayed Penalties: When a penalty is called on the
+team that is not in control of the puck, the referee wi
+
+call @ Delayed Penalty. Play continues until the
+penalized team gains possession of the puck or is
+scored upon. If a goal is scored, the penalty will be
+waived.
+
+capi
+
+===== Page 16 =====
+
+CHECKING
+
+Checking is the only way to steal the puck from a
+player on the other team. There are two types of
+checking:
+Body check: This tactic is used to knock the
+‘opposing player off the puck by bashing into him.
+You may only body check a player with the puck, or
+else the referee may call a penalty, To execute a body
+check:
+
+* Press the A Button
+Poke check: A player uses the hockey stick to try to
+steal the puck from the opposing player. To execute a
+poke check:
+
++ Press the B Button
+
+FIGHT SCREEN
+Occasionally, after a severe body check, tempers flare
+and a fight occurs. To punch or block while on the
+Fight Screen:
+
+* Press the ¥ Button to punch
+
++ Press the B Button to block
+After the fight, penalties will be assessed and play will
+resume automatically. If neither of the buttons are
+pressed, the fight terminates, you are returned to the
+game and penalties are assessed,
+
+TIMEOUT SCREEN
+
+a timeout, press START anytime during
+play, then:
+
+1 Press &/¥ on your Control Pad to choose an option.
+2 Press START to return to the game,
+Here are the available options:
+
+Instant Replay: Press the B Button to select —
+replays the last 10 seconds of action in the game.
+
+Press the ¥ Button to rewind
++ Press the B Button to stop
+
+* Press the X Button to play
++ Press the A Button to fast-forward
+* Press START to return to the Timeout Screen
+
+capi
+
+===== Page 17 =====
+
+BRevr HULL
+
+Timeout Screen (continued)
+
+Game Stats: Press B Button to select — shows the
+number of goals scored, shots on goal, body checks,
+penalties, power plays, and passing. Press START to
+return to the Timeout Screen.
+
+Announcer: Press </> to toggle On or Off.
+
+Sound: Press </> to toggle between Stereo, Mono.
+and Off.
+
+Goalie: In Net/On Bench: Press </> to remove the
+goalie and gain an extra skater advantage.
+
+Edit Lines: Press the B Button to select — takes you
+to the Edit Lines Screen. Press START to return to the
+Timeout Screen
+
+Quit Game: Press the B Button to select and quit
+the game.
+
+Game Summary Menu
+The Game Summary Menu will automatically be
+displayed after each period and at the end of a game.
++ Press 4/¥ on your Control Pad to select an
+option, then press B Button to review
+Game Stats or Player Stats, or pies
+SELECT to Quit
++ Press START to continue the current
+game or begin a new one
+
+Here are the options available:
+
+ESS EASTON Gane Stats _
+Ts
+
+Goals
+Shots on Goal
+
++ Game stats: Shows the number of goals scored,
+shots on goal, body checks, penalties, power plays
+and passing
+
+A. |
+
+===== Page 18 =====
+
+BRETT HULL
+
+Game Summary Menu (continued)
+
+committed penalties in the current game, To
+display your opponent's (opp.) statistics, press
+the ¥ Button
+
+* Quit: Exits the game, Playoffs, or Season play
+
+At the completion of each Playoff or Season game, a
+password appears at the bottom of the Game
+Summary Menu Screen. Write it down so you'll be
+‘able to resume Playoffs or Seasonal games (see
+Password, pg. 28).
+
+Brett Hull Comments
+
+[At the end of each game, Brett Hull will comment on
+both team's performance. When you're finished
+
+reading Brett's comments, press START and you will
+
+the Title Sereen ((f you're in Exhibition game)
+layoffs)
+
+===== Page 19 =====
+
+BRerr HULL
+
+Password
+
+After each Season or Playott game a password is
+{generated by the computer. If you enter this password
+the next time you start up, the Season standings or
+Playoff record will carry over from the last game you
+played, To continue a Season or Playoff series, go to
+
+the Title Screen then:
+
++ Press ¥ on your Control Pad to move the
+flashing goal light to Password, then press
+START to display the Password Screen
+
++ Press A/¥/-4)m to move the circle to the
+esired letter or number and press the ~
+B Button to enter the letter or number
+
++ When you have entered the correct password,
+press START to continue your game
+
+Shootout
+
+The Shootout is a great place to practice shots on goal.
+
+After the referee's whistle, the shooter picks up the
+
+puck at the center circle and moves forward toward
+
+the net. You'll get five shots, but only one shot per
+puck, The goalie you face is determined by which
+opposing team you choose. To set up the shootout,
+go to the Main Menu, then:
+
+1 Press </> on your Control Pad to highlight
+1 Player or 2 Players, then press ¥
+
+2 Press 4/> to highlight Shootout, then press ¥.
+
+3 Press </> to highlight the team from which you
+‘want to choose your shooter.
+
+4 Press /® to choose the team whose goalie you
+want to face.
+
+5 Press START to view that team's roster.
+
+6 Press A/¥ to highlight a player and </> to
+his attributes, When the player you want,
+highlighted, press START to begin the shootout.
+
+7 Aiier you have taken five shots, press a/¥ to
+highlight Shoot Again or Main Menu, then
+press the B Button to select.
+
+In 2 Player mode, both players choose
+
+\.f__ teams and shooters then take turns
+
+NOTE “tating ter shecter or starting goalie
+
+against their opponent (ie. Player 1
+
+INS ia ns Sool whe Mier 2 coils
+his goalie :
+
+a2 |
+
+===== Page 20 =====
+
+License Agreement and
+Legal Mumbo Jumbo
+Gaine Pak and the user manual are provided tothe
+3 from Accolade, Ine, and are
+subject to the following items and conditions, to which
+the customer agrees by opening the package of the Game
+Paknd user manuel and/or using ihe Game Pak
+Granting of this license doesnot transfer any right, tle
+or interest in the Game Pak of the user manual tothe
+tustomer except as expressly st forth in ths License
+Agreement
+NHLPA is a trademark ofthe National Hockey League
+Players Association and is used, under license, by
+‘Accolade, Inc. Logo and name © NHLPA 1993, Brett
+Hockey isa trademark of Accolade, Ine. ad is
+icensed by Brett Hull and the National Hockey
+League Players Association, all other trademarks and
+registered trademarks are the properties of thelr respective
+wes, © 1993 Accolade, Ine. All rights reserved
+Nelther the Game Pak nor the user manual may be
+for any reason. ‘The customer may
+hot transferor resell the Game Pak or user manual
+
+The remedies provided above are the customer's sole and
+Inc, be
+
+consequential damages with respect to the Game Pakor
+the user manual, Except as provided in the warranty
+section, Accolade, Inc. makes no warranties, either
+express or implied, with respect to the Game Pak or the
+
+warranties, including, without limitation, the warranty of
+merchantability and of fitness for a particular purpose.
+
+90-DAY WARRANTY
+
+Accolade, Inc, warrants for a period of 90 days from the
+date of purchase by the original purchaser of this Game
+Pak that the Pak will be free from defects in materials and,
+workmanship. A defective Game Pak which has not been
+subjected to misuse, excessive wear or damage due to
+carelessness may be returned during the 90-day period
+without charge.
+To receive warranty service:
+1 DO NOT return your defective Game Pak to the retailer.
+2 Notify Accolade Customer Service of the problem by
+calling (408) 296-8400 between the hours of 8 am and
+‘S pm (Pacific Standard Time) Monday through Friday.
+Please Do Not send your Pak to Accolade before calling
+Customer Service,
+1¢ Customer Service Representative is unable to
+solve the problem by phone, you will be provided with
+Return Authorization number. Simply record this
+number on the outside packaging of your defective Pak
+e sure your packaging is at least 4" x
+shipping companies will not ship anything smaller),
+and return your Pak FREIGHT PREPAID AND INSURED
+FOR LOSS OR DAMAGE, together with your sales slip or
+similar proof-of purchase within the 90-day warranty
+period
+
+Accolade
+Customer Service
+5300 Stevens Creek Blvd. #500
+San Jose, CA. 95129
+After the 90-day period, a defective Pak may be replaced
+in the United States for $15 (U.S. dollars; plus 8.25% sales
+tax if the purchaser resides in California). Make checks
+payable to Accolade, Inc., and return to the address
+above (To speed up processing, return only the Game
+Pak, not other materials.)

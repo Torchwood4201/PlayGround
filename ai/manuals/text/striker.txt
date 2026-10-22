@@ -1,0 +1,759 @@
+# Striker
+source: https://archive.org/details/snes_manual_archive
+pdf: Striker ( PAL ).pdf
+region: PAL
+pages: 18
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+sar twar Xt
+
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+=
+
+WARNING: PLEASE READ THE ENCLOSED INSTRUCTIONS
+CAREFULLY BEFORE USING YOUR SUPER NINTENDO
+SYSTEM.
+
+PRECAUTIONS
+
+Please read this instruction manual to ensure proper handling of your new game,
+and then save the manual for future reference.
+
+1) Always turn the power off before inserting or removing the Game Pak from your
+Super Nintendo Entertainment System.
+
+2) This is a high precision game. It should not be stored in places that are very
+hot or cold.
+
+3) Avoid touching the connectors, do not get them wet or dirty. Doing so may
+damage the game.
+
+4) Do not clean with benzene, paint thinner, alcohol or other such solvents.
+
+.
+Py
+
+*
+a
+
+7
+
+»
+©
+*
+=
+o
+7
+
+===== Page 3 =====
+
+INTRODUCTION
+
+Prepare to come down from the crowd! !
+
+The roar of the crowd echoes around the stadium as you emerge
+from the tunnel and on to the pitch. This will be the moment you
+find out if your individually tailored team and your chosen tactics
+will be good enough to compete with the best.
+
+The sense of realism is outstanding. Pitch perspective and game
+play provide a ‘close to life’ football scenario never before
+experienced. Striker’s Action Replay, with video type control,
+will allow you to replay the action, again and again.
+
+Spoilt for choice... ? you will be; with international and friendly
+tournaments, international and indoor six a side league play or
+simple knockout, the type of game you can play is varied. If that
+isn’t enough, you may choose to play as one of the 64 international
+squads available or create your own squads and tailor their
+physical abilities, such as kicking power, stamina and aftertouch
+as well as other attributes such as player names and even the
+colour of the team’s kit!
+
+With a choice of manual or automatic goalkeepers, the control you
+have on the players can be partial or complete. You also have the
+option to play either the computer or another player. Whichever
+way you choose to play, be assured that only the best will win.
+
+===== Page 4 =====
+
+GETTING STARTED
+
+Ensure the power to your SNES unit is turned OFF. Insert the Game Pak into
+your SNES unit and turn the power ON. After the licensing screen has cleared,
+the Language Selection screen will be displayed. Select the appropriate language
+by pressing UP or DOWN on the control pad. Confirm your selection by pressing
+any other button.
+
+The Striker Title screen will then be displayed, followed by an introductory
+sequence. This may be skipped by pressing the START button. After the
+introduction sequence the Main Menu screen will be displayed. Start a game by
+selecting either a Friendly, Super Cup, World Knockout, World League or Indoor
+Football game via the control pad. Confirm your choice by pressing the B button.
+
+If you are new to Striker we suggest you begin by playing a Friendly game. After
+
+selecting the ‘FRIENDLY GAME’ option the Friendly Game Configuration screen
+is displayed, select a ‘SINGLE PLAYER’ game. You may now choose the team
+
+you wish to play by moving the flashing highlight with the control pad and pressing
+the B button. Once you have chosen your team you then choose your opponents in
+the same way.
+
+The VIEW SQUAD screen is now displayed, select the ‘PLAY’ option. The teams
+will now run onto the pitch and you begin play at the kick off.
+
+GAME CONTROLLER FUNCTIONS
+
+Striker is played using the following controller functions:
+
+Cs - L Button
+| | - R Button
+
+A “oN - X Button
+aie [EKe b> C2 Aor. A Button
+
+j
+/
+- B Button
+as - Y Button
+
+Select Start
+Button Button
+
+This manual refers to the
+following directions: Let, =
+
+——+ Right
+
+===== Page 5 =====
+
+Control Pad:
+
+Start Button:
+
+Select Button:
+
+Y Button:
+
+B Button:
+
+A Button:
+
+X Button:
+
+L Button:
+
+R Button:
+
+L & R Button
+Simultaneously:
+
+Up, Down, Left & Right will move the player currently under
+control (indicated by his number above his head) in the
+appropriate direction.
+
+This button will pause and unpause the game.
+
+This button allows you to exit from a game during play. You
+are then required to confirm your choice or you may return to
+the game.
+
+Press this button to perform a short kick to your selected team
+mate as well as overhead kicks and diving headers.
+
+This button performs power kicks, sliding tackles and takes goal
+kicks, free kicks, corners and throw-tns.
+
+Press this button to perform a pass to the nearest player whilst
+directing the kick with the control pad.
+
+This button will display your chosen team formation and
+strategy. During a goal kick, corner or free kick, this button
+will allow you to scan players at the spot the ball will land.
+
+Press this button to frame reverse the action in Action Replay
+mode or choose a player to be substituted in Substitution mode.
+
+Press this button to frame advance the action in Action Replay
+mode or choose a player to be substituted in Substitution mode.
+
+Pressed simultaneously will allow you to make substitutions
+during ‘dead ball situations.
+
+GAME PLAY
+Friendly Game
+
+You have the option to play a one player match against the computer or a two
+player match, where player one opposes player two. Choose your team from the
+line up of 64 international sides. Options are available for defining a whole host
+of aspects of the game including the abilities of each team. Useful for making each
+team equal in skill and ability.
+
+===== Page 6 =====
+
+Super Cup
+
+The ‘Super Cup’ is a one player, seven round knockout competition against
+increasingly tougher opponents. Choose your team from one of the 64 international
+squads available and then go forward in to the Striker Super Cup Challenge. Your
+opponents and those of the other teams within the challenge are computed
+randomly using data on each team’s skills and abilities. Passwords are given for
+successfully progressing into the next round.
+
+Special Cup
+
+If you are successful enough to win the Striker Super Cup, you will then be eligible
+to play in the Striker Special Cup. You are entered in a mini league opposing the
+teams from Elite & Rage. Each team plays each other twice.
+
+World Knockout
+
+A straightforward knockout competition. Players can choose 8, 16, 32 or 64 teams
+to take part and select relevant options. As many player or computer controlled
+teams can be selected as desired. From the SELECT TEAMS screen use the B
+button to select and cycle through the options of player control (‘P’), computer
+control (‘C’) or de-selection (‘’). Matches can be played as player against computer
+or computer against computer. All the teams entering the competition can be chosen
+by the player or as many as required selected by the computer using the
+‘RANDOMISE?’ option. Passwords are given for successfully progressing into the
+next round.
+
+World League
+
+Up to 16 teams can compete in a truly international league. Every team plays
+every other team twice, who plays who is up to you. Selection is made in the same
+way as the World Knockout. Password codes are available for league status
+allowing unplayed matches to be played at another time.
+
+Six A Side
+
+Leave the pitch and travel inside, as you take your team into a six a side league,
+knockout or Super Cup. However if you’re not in a fighting mood, you can play
+a simple friendly. The league, knockout and Super Cup are played in exactly the
+same way as the normal games described above. Password codes are available for
+every successfully completed round and all league information.
+
+===== Page 7 =====
+
+PLAYER CONTROLS
+Control Pad
+
+Player has possession:
+@ Player will dribble the ball in the appropriate direction.
+
+@ Influences the direction of the ball when kicked (Aftertouch) or the amount of
+backspin.
+
+Player does not have possession:
+@ Moves the player indicated by the number overhead.
+@ The player will slide tackle in the appropriate direction.
+
+Goal kick, corner or free kick:
+
+@ LEFT & RIGHT on the control pad will change the direction in which the
+kick will be taken.
+
+@ UP & DOWN on the control pad alter the height of the kick.
+
+Throw-in:
+
+@ LEFT, RIGHT, UP & DOWN on the control pad will change the direction in
+which the throw 1s taken.
+
+Y Button
+
+Player has possession:
+
+@ Player performs a short kick.
+Player does not have possession:
+
+@ When the ball is in the air, the player can perform an overhead kick or a diving
+header. The direction of either is controlled via the control pad.
+
+B Button
+
+Player has possession:
+
+@ Player performs a power kick. The power of the shot is determined by the length
+of time the button is pressed down (as well as the player’s individual attributes).
+After taking a kick, the control pad can be used to affect the direction of the shot.
+
+===== Page 8 =====
+
+Player does not have possession:
+
+@ When the ball is on the ground, the player will perform a sliding tackle. By
+using the control pad, you can direct the player as he makes a tackle.
+
+Goal kick, corner or free kick:
+@ Player takes the goal kick, corner or free kick.
+Throw-in:
+
+@ Player takes the throw-in.
+
+A Button
+
+Player has possession:
+
+@ Player performs a pass to the nearest player in the direction that the control
+pad 1s being pressed. If no player is available, then a long kick is performed in
+the specified direction (Note: auto passing is not guaranteed).
+
+X Button
+
+@ At any time during the game, the formation and strategy of the team can be
+displayed by holding this button down.
+
+@ While holding this button down, press the L button to alter the formation and
+the R button to alter the strategy.
+
+L & R Buttons
+During game play:
+
+@ Press the L & R buttons simultaneously at ‘dead ball’ situations to make
+substitutions.
+
+Taking a goal kick (Note: Only if the NEW FIFA RULES are being used):
+
+@ Press the L button to take the kick from the left hand side of the goal and the
+R button to take the kick from the right hand side.
+
+===== Page 9 =====
+
+OPTIONS
+
+Striker is equipped with comprehensive option lists enabling the player to alter
+many different aspects of the game. To select an option editor, use the control pad
+to highlight the ‘OPTIONS’ box and press the B button to select. Once in the option
+editor, use the control pad to highlight the desired option and the B button to alter
+its parameters. Option editors are accessed from the following menus:
+
+Main Menu
+@ In game MUSIC can be toggled ON or OFF.
+@ Re-define the CONTROL OPTIONS of the keypad.
+
+@ All the previous tournament winners may be reviewed from the VIEW CUP
+WINNERS option.
+
+‘Friendly Game Menu
+Options
+@ Change the MATCH LENGTH from 1 to 10 minutes.
+@ EXTRA TIME can be ignored or set from I to 8 minutes.
+@ A draw can be decided by a SHOOT OUT.
+@ The PITCH SURFACE has five grades, from Hard to Soggy.
+@ Game play can be influenced by a variable WIND STRENGTH.
+
+@ Striker includes the NEW FIFA RULES. You may choose to conform to these
+or not.
+The new FIFA rules are:
+1) The goalkeeper can choose which side to take a goal kick from (Selected
+using the L and R buttons).
+11) The goalkeeper cannot pick up a ball passed back to him by a member of
+his own team, and so must kick it back out.
+
+@ The goalkeeper can be controlled by the computer or you. Select the AUTO
+KEEPER option respectively.
+
+oP TIONS
+
+fATCH LENGTR 2 LORIN 2 RINS 1 SAIS Ss INS te AIS
+cHTAR TIME do 2 RGNE i? Saree S: res GRINS 2 So RIRS 3
+SHOOT OF OMS GFE 52
+
+PITCHISURFACE } WARG 2 ORG) Goon Wet 4 soncae
+SIND STRENGTH “% _ oFe SS EXGHY. 3 HEOTUA STRONG
+
+TER FIFA AULES.] on: OTE
+
+sUTO HEEPER =r pris a BOE
+
+IAGE
+
+IF TURRE : i
+
+ABILITIES) —
+
+===== Page 10 =====
+
+OPTIONS
+
+As well as general options for the game play, you may also change certain abilities
+of the individual players or the squad as a whole. This allows international squads
+with stronger playing abilities to be more evenly placed against weaker squads.
+Each option may be left to the individual player’s own ability or graded for the
+whole team in varying degrees:
+
+Abilities
+
+@ KICK POWER ~— Players with good kicking power may kick the ball
+further, however accuracy is not always guaranteed.
+
+@ AFTERTOUCH — This can be used with devastating effect. Control the
+direction of the ball with the Control Pad after it has
+been kicked.
+
+@ BALLCONTROL — Adjust players’ abilities to run and dribble with the
+ball.
+
+@ TACKLING SPEED - Fast tacklers are more adept at gaining possession of
+the ball.
+
+@ HEADINGPOWER - Good heading can often obliterate the best defences.
+
+@ STAMINA — Important for squads playing long matches and for
+player speed, when running with the ball.
+
+@ PLAYERSPEED ~ Fast players may be quick on the pitch, but they also
+
+tire easily.
+
+Super Cup/World Knockout/World League/
+Indoor Football Menus
+
+Many of the options available in the Friendly Game options menu are available
+in the Super Cup, World Knockout, World League and Indoor Football options
+menus. The Abilities menu is only available for friendly games.
+
+The World League options menu also has the following:
+@ POINTSFORWIN -Awin may carry 2 or 3 points.
+
+===== Page 11 =====
+
+SQUAD SELECTION
+Game Strategy
+
+Playing football is as much to do with =
+the skill of the players as it 1s to do
+with the strategy you employ on the
+pitch. Striker is well equipped to
+allow formation and game strategy to
+enhance the playing ability of any
+team.
+
+From the VIEW SQUAD screen,
+select the ‘STRATEGY menu. You
+
+may now select the type of strategy
+and formation you wish your team to use during the game. To change the formation
+
+and strategy, use the B button.
+
+= VIEH SQUAD _
+
+— E
+
+Formation
+
+The formation option allows you to disperse the team in one of eight ways:
+
+Defender — Midfield — Forward .........0cccccccceccccccescseseeees 7 options
+Sweeper — Defender — Midfield — Forward .............0ccesceeees 1 option
+Strategy
+
+Choose from one of the six different strategies:
+Normal, Open play, Defensive, Cautious, Breakaway or Attack.
+
+When your selection has been made, you may either return to the VIEW SQUAD
+screen by selecting ‘ABILITIES’, quit the game by selecting ‘QUIT GAME?’ or
+commence the game by selecting ‘PLAY’.
+
+10
+
+===== Page 12 =====
+
+Team Selection
+
+You may make your squad selection
+of 11 players from the line up of 16
+players displayed. Positions are
+allocated by the adopted formation,
+going down the selected squad. You
+may assign players to become
+defenders, mid-fielders, forwards,
+sweepers (if the sweeper formation is
+being used) or goalies indicated by D,
+M, F, S & G respectively.
+
+PLAY! SFHATEGY] HF
+
+Select the ‘CHANGE SQUAD?’ option. You can now move the flashing pointer
+with the control pad and select the player you wish to remove from the team by
+pressing the B button. As the pointer moves to a new player, that player’s attributes
+will be displayed on the right of the screen. Use this information in selecting the
+
+player you wish to add to the team, again by pressing the B button.
+
+SUBSTITUTION
+
+Pressing the L & R buttons simultaneously at any ‘dead ball’ situation (such as
+goal kicks, free kicks, corners, kick offs etc.) during the game will allow you to
+make substitutions. A player can be selected using the L or R buttons ( which cycle
+through the players on the pitch, each with an indication of their injury level) and
+pressing the B button when the correct player 1s shown. The L & R buttons then
+cycle through the players available for substitution (shown on the status panel).
+
+Pressing the B button swaps the appropriate players.
+
+STATISTICS
+
+The STATISTICS screen will display useful information about the game that has
+just been played. Information on the number of goals scored, the amount of shots
+on goal, corners taken, etc. Both teams’ statistics are displayed together. This menu
+
+will be shown after a match or after practice sessions.
+
+11
+
+===== Page 13 =====
+
+KEEPER CONTROL
+
+Auto Keeper — On
+
+With the AUTO KEEPER option ON, the computer will assume control of the
+goal keeper. You will assume control of the goalie for goal kicks and penalties.
+
+Auto Keeper — Off
+
+With the AUTO KEEPER option OFF, you now assume control of the goalkeeper
+
+as the ball gets nearer to your goal area. The manual goalkeeper has more range
+than the auto keeper but you will need to control his movements as well. He can
+be controlled as follows:
+
+Control Pad:
+
+This will determine the direction of the goalie for movement and diving saves.
+
+Y or B Button:
+Press this button to dive for the ball.
+
+Note: If the ball lands at the goalie’s feet, he will automatically pick the ball up
+and then kick it back out into play.
+
+PASSWORDS
+
+During a Super Cup, World Knockout, World League or Indoor Football
+challenge successful completion for each round of play will result in a new unique
+password. While playing long tournaments it may be wise to keep a note of
+passwords at frequent intervals.
+
+To re-enter any password, select the relevant tournament from the main menu and
+select the ‘ENTER PASSWORD’ option. The ENTER PASSWORD screen will
+now be displayed. Use the control pad to direct the highlight cursor and use the Y
+and B Buttons to cycle backwards and forwards through the alphabet. Once you
+have entered your password press the START button. If the password is valid you
+will return to the point where the game was saved. Invalid passwords will be
+rejected and must be re-entered.
+
+Note: In Knockout or Super Cup tournaments you may find yourself facing a
+different team after entering a successful password, since the matches are drawn
+from the available competitors.
+
+To quit the password screen, press the SELECT button and you will return to the
+main menu.
+
+12
+
+===== Page 14 =====
+
+PRACTICE
+
+Before you attempt to take on the rest of the world, it may be wise to practise those
+all important techniques necessary for becoming the best. Striker is equipped with
+a practise mode where you can practice penalty shoot outs (against the computer
+or player two) or ball control.
+
+Select the ‘PRACTICE’ option from the main menu. Now select either ‘SHOOT
+OUT’, ‘2 PLAYER SHOOT OUT or ‘BALL CONTROL’.
+
+Shoot Out:
+
+Select the team you wish to practise
+with. The computer will randomly
+select an opposing team. Confirm
+your selection with B button. You will
+now be placed in goal with a player
+from the opposing side waiting to take
+a penalty.
+
+Goalie Practice
+
+Before the ball is kicked the goalie
+
+may be moved left or right via the
+
+control pad. Once the ball has been kicked you can perform diving saves to the
+left or right as follows:
+
+Dive along the ground — press diagonally down (left or right) and the B button.
+
+Dive — press left or right and the B button.
+High dive — press diagonally up (left or right) and the B button.
+High save — press up and the B button.
+
+Penalty Taking Practice
+
+After goalie practice you can practise penalty taking. The directional cursor will
+continually move backwards and forwards across the screen. Use this as the target.
+The line of fire is from the player and passes through the cursor. When you have
+lined up a shot press the B button to take it. The control pad can be used to vary
+the height of the kick.
+
+Each team takes up to 5 penalties. If the scores remain level after all 5 have been
+taken, the penalties change to sudden death. At any time during practice ‘you may
+quit out by pressing the SELECT button and confirming your choice with the B
+button.
+
+===== Page 15 =====
+
+2 Player Shoot Out:
+
+Two player shoot out practice is operated in the same way as the single player
+practice described above. In 2 player practice however, player 2 will need to select
+the team he wishes to practise with.
+
+Ball Control:
+
+To enable you to practise dribbling, passing, running with the ball, goal scoring,
+corners etc. the ‘BALL CONTROL)’ option must be selected. You will be required
+to select the team you wish to practise with. Your team will now be able to practise
+all these moves on the pitch with no opposing side (apart from an auto-goalie).
+
+Play control is as it is for a normal match. Corners and throw-ins can be practised
+by kicking the ball past your own goals for a corner and off the side lines for a
+throw-in. The auto goalie will perform goal kicks tf he saves a shot or you kick
+the ball past his goals.
+
+You will be allowed to play for 2 minutes only. At any time during practice you
+may quit out by pressing the SELECT button and confirming your choice with the
+B button.
+
+The STATISTICS screen will be displayed after completion of practice analysing
+your play.
+
+ACTION REPLAY
+
+Was it or wasn’t it? The question usually asked when the angle looks right but the
+ball still doesn’t go in! There’s no need to worry, Striker allows you to review up
+to 7 seconds of play. Useful for those disputed goals!
+
+During the game pressing the START button will pause the game. Whilst the game
+is paused you can watch an Action Replay of the previous 7 seconds action. If a
+goal is scored by a player, the run up to the goal is automatically replayed. The
+controls for the Action Replay are described as follows:
+
+Control Pad: UP will rewind the action.
+DOWN will forward the action at normal play speed.
+LEFT will fast rewind the action.
+RIGHT will fast forward the action.
+
+X Button: Press to slow forward the action.
+A Button: Press to slow rewind the action.
+
+R Button: Press to frame advance the action.
+L Button: Press to frame reverse the action.
+
+B & Y Buttons: Press and hold to pause the replay.
+
+14
+
+===== Page 16 =====
+
+At any time, to unpause the action or stop the goal replay and thus stop the Action
+Replay and continue with the game, press the START button again. Replayed
+action is repeated continuously.
+
+In two player games, the player who scores the goal will control the Action Replay.
+
+EDITING SQUADS
+
+With 64 international squads from all over the world to choose from, there
+shouldn’t be a shortage of competition. If however you get bored with certain
+squads or would like to see more familiar, national squads on the list, then the
+Striker Squad Editor is definitely for you. Up to 28 of the existing 64 squads can
+be altered, from just their name to the colour of their kit.
+
+How To Edit Squads:
+
+From the main menu select ‘EDIT SQUADS’. You will now be allowed to choose
+
+the squad you wish to alter from the list of 64 international sides. Use the control
+pad to highlight your chosen squad and press the SELECT button.
+
+You are now at the ‘EDIT SQUAD’ main menu. Here, you can alter the squad
+name, the individual player names or re-design the team kit. Use the control pad
+to highlight the squad characteristic you wish to alter and press the B button.
+
+Edit Squad & Player Names
+
+If you selected ‘EDIT PLAYER NAME’, use the control pad to highlight the
+player's name you wish to edit and press the B button to select.
+
+Use the control pad to highlight the desired letters and press the B button to select
+the letter. To erase the original name or any mistakes made, use the ‘BACK
+SPACE’ or while you are highlighting letters in the alphabet display, use the A
+button. You may enter squad names up to 10 characters in length and player names
+up to 14 characters in length. When you have entered the new name you may either
+cancel it (and thus retain the name originally displayed) or you may save your
+changes and return to the ‘EDIT SQUAD?’ screen. All 16 players’ names may be
+changed in this way.
+
+15
+
+===== Page 17 =====
+
+Kit Designer
+
+Use the control pad to highlight the
+desired ‘HOME?’ or ‘AWAY’ kit
+
+characteristic. Pressing the B or Y : _EDIT seuap =>
+buttons will change the desired iam, ARTIBIT) HATA i= go
+attribute on the player to the left for SKIN-A} = = . ¢
+
+the ‘HOME?’ kit & on the player to the
+right for the ‘AWAY’ kit. The
+following attributes may be tailored
+to your individual taste:
+
+Player Skin colour — 8 shades.
+Player Hair colour — 4 shades.
+
+Shirt colour — 32 shades.
+Stripe colour — 32 shades.
+Shorts colour — 32 shades.
+Sock colour — 32 shades.
+
+Highlight the ‘OK’ when you are satisfied with your design and press the B button.
+
+Leaving The Squad Editor
+
+You may now retain your settings by selecting ‘FINISHED’ on the ‘EDIT
+SQUAD’ main menu or restore the original settings by selecting ‘RESTORE
+TEAM’.
+
+NOTE: All squad options may be restored at any time from the squad editor menu.
+
+16
+
+===== Page 18 =====
+
+we
+a
+-
+
+Elite Systems Limited,
+Anchor House, Anchor Road,
+Aldridge, Walsall, West Midlands, 3
+
+a WS9 8PW, England. - PRINTED IN JAPAN

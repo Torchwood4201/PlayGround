@@ -1,0 +1,2043 @@
+# Genghis Khan 2 - Clan of the Grey Wolf
+source: https://archive.org/details/snes_manual_archive
+pdf: Genghis Khan 2 - Clan of the Grey Wolf ( USA ).pdf
+region: USA
+pages: 34
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+. ——_= = ee Oe ee a C—O
+
+i :
+a >
+KOEI \ INSTRUGTION
+SS |
+KOEI CORPORATION SUPER | 6 4
+1350 Bayshore Highway, Suite 540, Burlingame, CA 94010 Printed in Japan eh Y / Z
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER INFORMA-
+TION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE USING
+YOUR NINTENDO®* HARDWARE SYSTEM OR GAME PAK.
+
+Welcome to the KOEI World!
+
+Weare proud to introduce you to another
+dimension from the Koei world of quality games.
+‘Tal Koei is committed to bringing you games filled with
+% excitement, challenge and intrigue. Our goal is to
+Rik. create top quality products and provide excellent
+ia service for our customers.
+
+As a Koei gamer, you are important to us and we
+ay value your opinions. Please send us your comments
+ii and we will continue to bring you the best in
+Baht interactive entertainment. Look for future releases
+from Koei to experience new realms of gaming!
+
+Thank you for exploring the Koei world.
+
+Official
+
+Seal of Quality
+
+Koei Corporation
+
+THIS OFFICIAL SEAL IS YOUR ASSUR-
+
+LICENSED BY ANCE THAT NINTENDO HAS APPROVED
+Nintend CE ee
+ir Fi EAL
+— eee Nes Mo Conese
+COMPLE A
+NINTENDO, SUPER NINTENDO WITH YOUR SUPER NINTENDO ENTER-
+ENTERTAINMENT SYSTEM AND TAINMENT SYSTEM. ALL NINTENDO
+THE OFFICIAL SEALS ARE REGIS- PRODUCTS ARE LICENSED BY SALE
+TERED TRADEMARKS OF NINTEN- FOR USE ONLY WITH OTHER AUTHO-
+DO OF AMERICA INC. RIZED PRODUCTS BEARING THE OFFI-
+
+©1991 NINTENDO OF AMERICA INC. CIAL NINTENDO SEAL OF QUALITY.
+
+===== Page 3 =====
+
+The Clan of the Gray Wolf ...........00000c ccc c eee eeeevnees 4
+
+Game FIOW..... 6. ect e cee een ee eeeeeeeeees 5
+Controlling Genghis Khan .............000ceeeeeeeeeeeeeees 6
+Key to Play
+Starting a New Game... 0.00.0 cee ccc ce eceee eee eeeeeeu ees 8
+SCOMATIOS . 6... eect eee eee e nee e nese eee e eee 9
+Resuming a Saved Game ....... 0.00 e cece cece cece en eeeeees 4
+The Options Menu ............s0cceeceseeeeeeeeeeeeeeees 10
+Game Characters... 0.0.0... ccc ecce cece een e eee e cece ees 11
+Army Structure... 0.0.0.0... eee ae vo vbeeveeeueeeueeens 13
+Ruling States
+The Main Display ........ 0000... cc cece e ence eeneeeeeaas 14
+
+State Data... 0... ccc cece cece eee eeeeesveeeeenaeavaes 15
+
+| The World of Genghis Khan
+oH Cultural RegiOnsisas oi. ss seis esaa ava S5e Peeaama re ae eee
+= Climatic Regions... 2.0.00... c cece cece eeeeeeeenaneeeees
+: i Regional Specialties ............ 0000s eee e cece cece cece sees
+Regional Unit Types:.....ssceccssseccwessseuewiiee estas cae
+Events & Disasters
+ty i Seasonal Phenomena...........0..00cc cece cece cence neues
+mi Disasters and Boons............ 0 see ee ee eee eee eeeeeeeeeeee
+The Art of War
+Marching to War... 0... 0.. ccc ccceceeeeseveeceeceveneeees
+RS.  —— Flowof War.......ceccccececuecccececueeecuceeeveuseers
+te The Battle Display. ....... 0.000. c cscs ee eeeeee eect eee reece
+Battle Command Menus .............. 000s e eee ee eee e eee
+res The Combat Display........... 000s cece eee e eee eeeeeeeee as
+: tei Combat Command Menus.........0...000ceeeeeeeeeee eee
+Pe After the Battle... 0.0... eee eee eee e cece tees ee eeeees
+_ The Struggle for World Dominion
+‘The Conquest of Mongolia.............0.0.cc cece ee eens
+Genghis Khan’s Grand Ambition..............00000eeeeee:
+The Yuan Dynasty of China ...........cce cece cence eeeeeeee
+i ,
+)
+Pe
+Late F Pit y i
+
+ni i if far LOY Ful
+ee! ff § Table c
+
+===== Page 4 =====
+
+The thirteenth century was marked by turmoil in Europe, Asia and north-
+ern Africa. The coming of the little ice age caused crops to fail in once fer-
+tile regions. The black plague began to cast its grim shadow upon densely
+populated cities. The people were hungry, superstitious and frightened.
+They began to look to their neighbors, hoping that the storehouses in the
+next kingdom were full.
+
+In Europe, crusades were announced, partly as a means of gaining both
+land and wealth. Various nomads and migratory tribes coveted the citified
+lifestyle of more civilized peoples. Various powerful leaders began conduct-
+ing raids, then wars on rival camps and villages. Smaller cultures did not
+survive, while others hung on tenaciously and grew strong.
+
+This is the world into which you are plunged in Genghis Khan II: Clan of
+the Gray Wolf. As the leader of a tribe or nation, you must struggle to
+weather the assaults of your opponents. Carve out a living for your people,
+and organize troops to defend their prosperity. Eventually your empire
+may come to span the world, and all will pay homage to your might!
+
+Your Goal
+
+In Scenario 1, your Goal is to conquer all the tribes of Mongolia. In the
+other three scenarios, you must conquer all of Eurasia. The game ends if
+your Ruler is defeated and has no Successor, or becomes the vassal of a
+rival Nation. If your Ruler has a son ten or more years old, you may con-
+tinue the game by designating him as your kingdom’s Successor.
+
+State Rule
+
+|
+
+| @ Manage Domestic Affairs
+__ w Increase Military Strength
+mw Recruit Talented Generals ~“€
+-__ Strengthen Relations
+mw Groom Successors
+wm Trade with Merchants
+
+| Battle Command
+
+| Combat Command |
+
+At the beginning of the game, expand your power and secure your Home
+Base. To expand your territory, implement the following strategies in your
+Home Base and Vassal States:
+
+@ Formulate effective policies and build up your military force.
+
+@ Enter diplomatic relationships with neighboring countries.
+
+@ Recruit talented Generals, arrange strategic marriages, and groom a
+Successor.
+
+™@ Trade goods with merchants.
+
+' You can give direct orders only to your Home Base. You may indirectly
+_ control your Vassal States by issuing policies and orders for their
+
+Governors to execute. You may also leave the strategic planning of your
+Home Base to your Advisor.
+
+===== Page 5 =====
+
+Display returns.
+
+ontroiined Genghis Kran
+
+SELECT START
+
+Control Pad Button B
+Use either controller to play.
+
+al
+~~ START Button
+@ Skips through the introduction to game set-up.
+
+SELECT Button
+__ _@ Accesses the Options Menu from the Main Display
+
+Button A
+_ @ Selects highlighted commands and items
+
+A a Zam
+at MOE AES
+
+When you have accumulated sufficient gold and food, and built up your
+military power, invade neighboring rival countries. After entering the
+Battle Display, give orders to each of your Legions. When your Legions are
+adjacent to the enemy, your Units may fight hand-to-hand on the Combat
+Display. When one side or the other wins, or a truce is arranged, the Main
+
+Repeat strategic orders and invasions as described above to expand your
+territory and unite the whole of Mongolia or all of Greater Eurasia.
+
+SELECT Button Button A
+LEFT Butt \ omar Baton RIGHT B
+‘utton tt
+™- \ | | a utton
+SUPE MINTENDI
+
+Button B
+
+H Cancels selections
+
+- @ Answers NO to yes Or no questions
+
+@ Ends the command turn
+
+LEFT/RIGHT Buttons
+
+H Switch between State Data windows on the Main Display
+HB When pushed twice, hide the windows to show the map
+H@ Display the terrain when held down on the battle map
+
+@ Display Unit’s strength during its turn in combat
+
+» Control Pad
+- M Moves the cursor across the map or through command menus
+
+‘ lf Scrolls through lists or flips through pages of information
+
+===== Page 6 =====
+
+There are four scenarios in the game, but only the first three can be selected
+_ in game set-up. Scenario 4 begins if the first scenario is successfully com-
+_ pleted before winter of 1214.
+
+1. Make sure the power is turned OFF. > = 1: Mongol Conquest Mongolia, 1184 AD
+2. Insert the GENGHIS KHAN II game pak. id fe) 2: Genghis Khan Greater Eurasia, 1206 AD
+| 3: Yuan Dynasty Greater Eurasia, 1271 AD
+
+3. Turn the game system ON.
+4: World Conquest Greater Eurasia, ??2? AD
+
+4, The introduction will begin. Push START to skip to game set-up. Md
+_ Selecting Followers for Scenario 4
+
+Starting a New Game , A . _ Ifyou successfully conquer Mongolia, completing Scenario 1, Scenario 4
+_ — ~ _will begin. You will be asked if you would like to select a list of followers to
+1. Select BEGIN NEW GAME at game set-up. Gi . ._ use in Scenario 4. If you answer YES, you may select one Advisor and eight
+
+Generals from among all the Governors, Advisors, and Generals in your
+territory. If you choose NO, only the Generals and Advisor from your
+3. Decide the number of players (one, two or COM). 3 Home Base will appear in Scenario 4.
+
+4. Select the Nation you wish to rule. The States you can select are indi-
+cated with a soldier icon. Move the cursor across the map and choose
+
+2. Select a scenario.
+
+fm Resuming a Saved Game
+
+a State. 1
+5, Decide whether to watch wars and whether you wish to watch Combat ; pie 4 Select LOAD SAVED GAME to start a previously saved game. The game
+between Units not under your direct control. ~~ swill start from where it was last saved.
+
+6. Check the set-up and verify your selections. If you select YES, the
+game will begin. NO will allow you to change the set-up.
+
+Demonstration Game
+
+You can watch a computer demonstration by selecting COM when select-
+ing the number of players. Press the RESET button to end the demonstra-
+tion at any time.
+
+===== Page 7 =====
+
+Once the game begins, push SELECT on the Main Display to access the
+Options Menu.
+
+SAVE bee
+
+Save your game for future play. Only one game may be saved.
+By saving, you erase any game previously saved.
+
+Battle Mode
+
+Decide whether you want to view Battles not under your
+control.
+
+we Combat Mode
+
+Decide whether you want to view Combat between individual
+Units not under your control.
+
+End
+
+Quit the game. Save your game before ending it if you want to
+continue later.
+
+(Pa Message Speed
+
+Set the speed at which messages will be displayed: Slow,
+Medium, Fast or Very Fast.
+
+You play the role of the Ruler of a Nation or tribe. Select a Ruler from
+several choices in each scenario. The Nation includes the Home Base where
+your Ruler resides and any Vassal States under your control. With your
+Advisor’s help, formulate strategies in your Home Base and issue policies
+and orders to Governors in Vassal States.
+
+Governor
+
+A Governor manages a Vassal State according to his Ruler’s orders and his
+own judgment. If you have assigned an Advisor to the State, the Governor
+may delegate his responsibilities to the Advisor. When you acquire new
+
+4 Vassal States, you must select a Governor from among your Nation’s
+
+Generals, Beware of disloyal Governors, they may proclaim their indepen-
+dence, becoming the Ruler of the State. But if the Governor is a member
+of your Ruler’s family, he will always remain loyal.
+
+===== Page 8 =====
+
+Advisor
+
+An Advisor implements domestic strategies based on your orders and his initia . If your Ruler passes on because of illness or death in battle, a Successor
+own judgment. You may seek his advice when a messenger comes from a - may be selected from his Princes who are ten or older. The game ends if
+rival Nation. Appoint Advisors from among your Generals in yourHome = there are no eligible Successors. If you select a son who is also a Governor
+Base or Vassal States. Sons of the Ruler cannot become Advisors. You do ¢ ‘ to be Successor, his Vassal State becomes the new Home Base. The new
+
+not have to appoint Advisors in every Vassal State. he Ruler will have no children at first.
+
+General Fe Naming Children
+You may have up to eight Generals under your command. A General may i _ When children are born, you must name them. Move the cursor to select
+be sent as a messenger in diplomacy or as the commander of the Army ins M#)_—_ letters. and hit DONE when everything is correct. Names can be up to ten
+war. You may appoint Generals to be Advisors or Governors. 2. letters long.
+Free General 7 as SOrmy Structure
+A Free General is a talented man who is not serving under any Ruler. You
+may recruit Free Generals in your territories or after you conquer new ete pu Soldier
+
+States. If you demote one of your Generals, he becomes a Free General. J
+eS. OU REM SORE O1 Youre se “se “ The smallest Unit of an Army. Soldiers form a Unit.
+
+i Empress ee Unit
+_ An Empress isa Ruler’s wife. If the Ruler and his Empress get along, she Mi _ . __ A group of Soldiers deployed in the Combat Mode. Units form a Legion.
+may bear children: Princes and Princesses. ers . ___ There are sixteen kinds of Units such as Pikemen and Artillery Units (see
+
+Regional Unit Types on page 37).
+
+Legion
+~ _ Alegion is a group of Units deployed in the Battle Mode and is composed
+~~ ofamaximum of four Units led by a General. Legions form an Army.
+
+Prince
+_ APrince is a Ruler’s son. After he reaches the age of ten, you may make
+him a General. He can be selected as Successor when a new Ruler is needed.
+B Princess ee
+Pel Army
+
+A Princess is a Ruler’s daughter. After she reaches the age of ten, you may "An Army refers to the entire body of Soldiers in a State. You must organize
+
+__ arrange her marriage to one of your Generals. Arranging marriages can be 5 __ your Army when you go to war. The commander of the Army (who is also
+
+an important tactic since sons-in-law cannot betray their Ruler. fA _ the commander of the first Legion) leads by issuing orders to each Legion.
+
+===== Page 9 =====
+
+Body Points
+
+~__, Every command you carry out consumes Body Points. When you highlight
+- acommand, the Body Point cost is indicated beside your remaining Body
+~~ Points for the turn. Maximum Body Points differ from character to charac-
+») ter. You will be unable to carry out a command if you do not have enough
+Body Points.
+
+Body Points necessary to carry out commands vary depending on the polit-
+ical ability of the character. A character with “A” political ability needs
+fewer Body Points than one with “E” ability for the same command (see
+Character Data on page 19). The Body Point costs in the command
+descriptions are based on Ability E characters.
+
+The following data is available for each Home Base and Vassal State. Select
+_ Info on the Main Display to view the data.
+
+*4:0:@n River
+
+ew ® Ruler’s Current Body Points 26. 1 a 33 os L ~ o>
+| ® Advisor (or other follower if there is no Advisor) 0: 9900 @ : 99° o.. i
+ro ® Year * Season * Rate
+vy © Main Command Menus @ State Number and Name ® Land Yield
+fe @ State Data ® Gold @ Popular Support
+©: _ Each year is divided into four game turns corresponding to seasons. When ® Food . ® Type of Culture
+you have a turn in your Home Base, first decide whether to issue orders @ Population © Climate
+~~ yourself or delegate your rule to your Advisor. You can continue to Issue © Economy
+
+* orders as long as you have enough Body Points. When you are finished giv- -
+ing orders for the season, press B, then select YES to end your turn. Gold (09-9999)
+
+The number on the left is the amount of gold you have, and the number on
+the right shows how the amount will increase or decrease for the next sea-
+son. Gold increases when you Sell goods or collect taxes in spring. It
+
+| decreases when you go to war, draft, give alms, buy goods, or pay salaries
+to your Soldiers.
+
+When your Home Base Advisor issues an order, he will ask for your
+approval. Select YES if you approve. If NO is selected, the command will not
+be executed, In a Vassal State, the Governor or Advisor there will issue com-
+
+mands based on domestic policies.
+
+I
+“ > tT 1‘ nf - , oe a u
+“4 i Hi) 9 a 4 i onl oie io =
+uv _— a ~*~ )aJE I, - 4 4
+
+Fa Ae eel eas
+| ee MU | tl be
+
+a i] an
+i » ae > Oy
+
+===== Page 10 =====
+
+Food (0-9999}
+
+The number on the left is the amount of food you have, and the number on
+the right shows how the amount will increase or decrease for the next season.
+Food is automatically collected every season. You may also Buy food from
+merchants. It is reduced by going to war, transporting to other States, giving
+alms to the people, selling to merchants, and feeding your Army.
+
+Population (0-9999)
+
+The total population of the State. It increases slightly every year. It decreas-
+es when troops are moved to other States and increases when Units are
+discharged. Disasters such as epidemics (see Disasters and Boons on page 41)
+also reduce the population. The population is assigned to work in the areas
+of agriculture, herding, production of specialty items, and construction.
+
+Economy (0-200)
+
+Economic development of the State. The greater this number is, the more
+gold you can collect every season. Natural disasters will damage the local
+economy.
+
+Land Yield (0-200)
+
+Agricultural development of the State. The greater this number is, the more
+food you can collect every season. Natural disasters will damage the local
+
+__ land yield.
+
+ee) Scene ath fon herb)
+ie CP EL et | LP Te PFT (t-2 yes)
+
+Popular support for the Ruler. It plummets when an epidemic or natural
+
+_ disaster occurs, or when a draft or special tax is executed. Raise and keep it
+
+high by giving alms to the people. High support helps the population grow
+
+and prevents declines in economy, land yield, and defense strength. It also
+helps prevent revolts.
+
+_ Domestic Affairs on the Main Display, if necessary. The higher this rate is,
+_ the higher agricultural production your State will have.
+
+| Heraing (0-100°
+
+: 4 production of meat and dairy products will be.
+
+_ The culture type of the State. The type of culture determines the types of
+
+Units available, and the growth of the economy and defense strength
+
+(see Cultural Regions on page 33).
+
+Climate
+
+_' The type of climate of the State. Land yield is dependent on the climate
+(see Climatic Regions on page 35).
+
+To display the rest of the State’s Data, press Right or Left Button on the
+controller.
+
+The Mongols
+
+0. 10 40:20 3@ 6G
+
+® 60 7@ 5 @: 30
+
+@ 10 ==06 <Q 91
+
+® Agriculture © Specialty Items
+®@ Herding @ Units
+
+® Production of Specialty Items © Arms Level
+
+® Construction ® Training Level
+© Defense Strength
+
+Agriculture (0-100%)
+
+Ratio of population engaged in agriculture. Change it with Labor under
+
+mos}
+
+Ratio of population engaged in herding, Change it with Labor under
+Domestic Affairs on the Main Display. The higher this rate is, the higher
+
+is — ee es gt 7 ii
+
+===== Page 11 =====
+
+Production of Specialty Items (0-100%)
+
+Ratio of population producing specialty items. Change it with Labor under
+Domestic Affairs on the Main Display. Raise this ratio to boost the produc-
+tion of specialty items.
+
+Construction (0-100%)
+
+Ratio of population engaged in construction. Change it with Labor under
+Domestic Affairs on the Main Display. Higher ratio will help enhance eco-
+nomic development and defense strength.
+
+Defense Strength (0-100)
+
+Defensive ability of your Home Base at war. Typhoon damage decreases
+this strength. With better defenses, you will seize the advantage in battle
+from your stronghold.
+
+Specialty Items
+
+Types of specialty items produced in the State. The value (based on supply-
+demand) of each specialty item varies depending on the area (see Regional
+Specialties on page 36).
+
+Units
+Number of troops. Each State may have a maximum of 20 Units.
+
+Arms Level (0-100)
+
+Indicates how well your troops are equipped with arms. Purchasing arms
+will increase this level, while drafting and recruiting will lower it. High
+arms levels will give you an advantage in war.
+
+Training Level (0-100)
+
+Level of battle skill. It will increase through training and decrease after
+| drafting or recruiting,
+
+a 1 he 41 ;
+PO ASL si Bb oae '14 | i
+
+7 Character Data
+
+~~ Every character in this game has the following data. To view this data,
+
+select Ruler, Advisor, or General under the Info command on the Main
+Menu. This data is also displayed for Free Generals when they are available
+
+for recruiting.
+
+@ Character Data
+@ Relationship to the Ruler
+
+Ruler’s Son —_—-Ruler's Relative
+
+* No icon is displyed for non-royal characters.
+
+Political Ability (A-E)
+
+_ Political ability of the character. Higher abilities decrease the number of
+_ Body Points used to execute strategic commands. This also reflects the
+
+_ judgment of an Advisor.
+
+fm War Ability (4-£)
+hi Ability to fight in war. The higher this ability is, the more damage a General
+~. can cause to his enemy.
+
+===== Page 12 =====
+
+Leadership (A-E)
+
+| Unit Data
+
+Command ability in war. The higher this ability is, the greater mobility the
+character has per turn and the quicker his Units will recover from confusion.
+
+_ Each Unit has the following data. To view Unit data, select Unit Data from
+» Info on the Main Display.
+
+Charm (A-E)
+
+aa can =@ 1
+‘i F i nF
+____ The charisma of the character. Rebellion and betrayal are less likely to ial Lisht
+
+~ _ break out against a Ruler with high charm. Diplomatic negotiations are Wee a ea #® z1 —
+-_ more likely to succeed if the messenger’s charm is high. a = =O
+i the Foritso - 70
+
+Body Points (0-15) i (Ohl G =e
+
+@ UnitName © Close Combat Strength
+
+® Unit Type © Charge Strength
+
+® Spirit @ Long-range Attack Strength
+@ Mobility @ Defensive Strength
+
+The number on the left is the current Body Point count and the number
+on the right is the maximum. The higher the Body Point count, the more
+commands can be issued. Illness and injury may temporarily lower this
+number. It may also decrease as the character ages.
+
+Age (0 and up)
+
+Unit Type
+
+Age of the character. As one gets older, Body Points may decline. , .
+This icon indicates whether the Unit is an infantry, cavalry or special Unit.
+
+; Fs
+es
+
+Infantry Cavalry Special Unit
+
+Rank
+
+Rank of the character. There are five ranks as shown below:
+
+The morale of the Unit. This number changes according to the organiza-
+_ tion of the Legion and the leadership of the Legion’s commander. It affects
+the Legion’s mobility and its speed in recovering from confusion.
+
+Advisor General Free General es
+
+Mobility
+
+The mobility of each Unit may be affected by supply and weather at war.
+
+===== Page 13 =====
+
+Close Combat Strenath
+
+Normal offensive ability.
+Charge Strength
+Charging strength.
+
+Long-range Attack Strength
+
+Strength of long range attack. A star means the Unit cannot attack from
+a distance.
+
+Defensive Strength
+
+Resistance against enemy attack.
+
+oer Pin: Se) lei
+
+Policy
+
+Use the policy commands to formulate domestic policies for
+your Home Base and Vassal States.
+
+Decree (8 Body Points)
+
+Issue a new domestic policy to your Home Base Advisor or
+Governor of a Vassal State. You cannot perform this command
+in your Home Base if there is no Advisor. This command
+allows you to give general directions for administrative and
+military activities in your Vassal States. Select a State to set a
+new policy in and current policies will be displayed.
+
+1:Onon River
+@ 10 @s 20
+
+“® 60 @: t2
+i®- 10 iO} =
+
+@ Agriculture © Domestic Policy: Selected Policy
+® Herding @ Investment: Selected Investment
+© Specialty Item @ Military Policy: Selected Military Policy
+® Construction © Diplomacy: Selected Diplomacy
+
+There are 5 fields to consider for your domestic policies. Dy ype)
+
+1. Allocation of Labor oe
+
+|
+Move the cursor to select items, then increase the ratio with Poe a
+Button A or decrease it with Button B. When you finish an a
+adjusting the ratios, select OK to go on to the next policy area. i
+
+===== Page 14 =====
+
+Agriculture Herding Specialty Item Construction Unassigned
+
+2. Domestic Policy
+
+Select one:
+He ea
+Domestic Military Economic Balanced
+
+3. Investment (only States with an Advisor)
+
+Select one:
+
+Ba 2 oe
+Economy Farming Defenses
+4. Military Focus
+
+Select one:
+
+og = ae
+
+Quantity Quality Arms Balanced
+5. Diplomatic Policy
+Select one:
+
+Extort Coexist Submit
+
+Invade
+
+| Change (5 Body Points)
+
+Use this order to revise domestic policies for your Home Base
+Advisor or the Governor of a Vassal State. Select a field to
+
+change.
+=
+
+Domestic Investment Military Diplomacy
+
+Labor
+
+Advisor (10 Body Points)
+
+Have your Home Base Advisor create domestic policies. The
+policies your Advisor creates depend on the status of the State
+and his political ability. If you do not agree with his policy
+draft, you may specify corrections.
+
+Delegate (5 Body Points)
+Delegate the rule of government and Army to your Home Base
+
+Advisor or Vassal State Governor. Vassal States may invade
+other countries according to the Governors’ judgment.
+
+Use these commands to give special orders to Governors of
+Vassal States adjacent to rival countries. Your orders will not
+necessarily be carried out.
+
+Attack (7 Body Points)
+
+Order to invade a rival State. You cannot invade your allies.
+
+Es Move (6 Body Points)
+
+Order to move troops to another State. There is a cost of 20
+gold per Unit.
+
+EP RS
+
+& tet
+
+===== Page 15 =====
+
+ea Send (6 Body Points)
+
+Order to send gold or food to another Vassal State. Select one:
+
+Appoint Dismiss
+
+s General (7 Body Points)
+
+" Recruit a Free General or dismiss a General. When the recruit
+command is selected, the candidate’s abilities are displayed. If
+you already have eight Generals, you cannot recruit another. A
+dismissed General will become a Free General. Select one:
+
+Diplomacy (8 Body Points)
+
+= Order to threaten or demand tribute from a rival State. Select a
+Vassal State adjacent to the rival State you want to threaten.
+You cannot threaten Nations with whom you are allied.
+
+Appoint Dismiss
+
+=" : . .
+ia Threaten Demand Tribute Prince (6 Body Points)
+4 Appoint a Prince as General. He must be at least ten years old.
+Ar Personnel He will never betray you as he is a member of the royal family.
+
+You cannot use this command if you already have eight
+
+These commands deal with individual characters belonging to Generals.
+
+your Nation.
+Marriage (6 Body Points)
+
+" Arrange a marriage between a Princess and a General. The
+Princess must be at least ten years old. As the General is the
+Ruler’s son-in-law he will always be faithful.
+
+= Governor (9 Body Points)
+
+Appoint or demote the Governor of a Vassal State. When a
+new Governor is appointed, the former Governor will be auto-
+matically demoted and become a General again. To appoint an
+Advisor as Governor, first change him into a General, then
+appoint him Governor.
+
+Family (7 Body Points)
+
+Spend time with the Family. Using this command, the Ruler
+
+can talk to members of the royal family, such as the Empress,
+Princes and Princesses. It is important to spend time with the
+family in order to groom a successor.
+
+| Advisor (9 Body Points)
+
+Appoint or dismiss the Advisor of your Home Base or a Vassal
+State. If there are eight Generals, you cannot dismiss an
+Advisor. If a new Advisor is appointed, the former Advisor will
+automatically become a General. Select One:
+
+===== Page 16 =====
+
+Bageg Dismiss (¢ Body Points)
+
+Use these commands to prepare your armies, move them to dif- ee Discharge Soldiers and return them home. Dismissing Soldiers
+ferent areas within your domain and, when you're ready, goto war!) increases population and lowers popular support in the State.
+
+Attack (8 Body Points) Do tic Affairs
+" Invade a neighboring rival State (see Marching to War on page fs " " .
+43). You cannot invade your allies. Lm ese commands will allow you to manage the concerns of the
+
+| Home Base.
+
+a Move (7 Body Points)
+
+Relocate your Home Base or move troops to a neighboring
+“ Vassal State. The Governor of the Vassal State becomes a
+| Governor of the former Home Base. If you take your Advisor
+2 with you, the Advisor in the Vassal State becomes the Advisor
+: of the former Home Base. Previously set policies remain for the
+new Home Base, yet special orders are canceled, Remember, a
+=) Vassal State cannot have more than 20 Units. Moving costs 20
+RY gold per Unit. Moving Units will change arms and training
+fi levels in the Vassal State.
+
+Labor (10 Body Points)
+
+\ Revise the allocation of laborers engaged in agriculture, herd-
+ing, production of specialty items, and construction.
+
+= Give (11 Body Points)
+=
+
+Give alms to your people to raise their support. Choose from
+gold, food, or specialty items.
+
+Special Tax (14 Body Points)
+
+Collect gold as an emergency tax from the people. This causes a
+drop in popular support. You cannot use this command if
+support is 0.
+
+Send (6 Body Points)
+
+Send gold and food to a neighboring Vassal State. A Vassal
+State may have up to 9999 each of gold and food.
+
+| Diplomacy
+
+Selecta messenger from among your Generals and send him to
+negotiate with another Nation.
+
+E Recruit (6 Body Points)
+
+Draft Soldiers. Specify what type and how many Units you are
+going to form. The available Unit types are set in each geographi-
+cal area. You cannot use this command if you already have 20
+Units, or do not have sufficient gold. The cost in gold depends on
+the Unit type. By drafting new Soldiers, the arms and training
+levels of the Army decrease, and popular support drops.
+
+ma Demand Surrender (10 Body Points)
+Demand that a State next to your Home Base submit to you.
+You cannot threaten allied countries.
+
+= Train (7 Body Points)
+Improve the battle skills of your Army.
+
+===== Page 17 =====
+
+z Demand Tribute (9 Body Points)
+
+hate
+
+Demand tribute from a State next to your Home Base. You
+cannot demand tribute from your allies. The response from the
+threatened State varies depending on the relative size of the
+State, number of Units, and the charm of your messenger.
+
+Use the Info commands to survey your territories, generals and
+other important data. You can also find out if a rival country is
+ripe for invasion!
+
+Home Base (0 Body Points)
+
+View the data of your Home Base.
+
+Alliance (8 Body Points)
+
+Ally with a rival Nation for one to eight years. Your Advisor may
+give you advice on the alliance. You can also use this command
+to extend an existing alliance; the maximum is still eight years.
+
+fe State Data: View State data (see State Data
+
+4 == on page 15). ie?
+b | Market Es Ruller: View the character data of the Ruler (see
+Trade food and specialty items with merchants, or hire merce- mee Character Data on page 19).
+i naries, You can use this command only when there are mer- Advisor: View the character data of your
+chants in your State. Advisor.
+ia iegE Troops: View the types and number of your
+= E= Units (see Regional Unit Types on page 37).
+
+Uighur Islamic Chinese Venetian
+
+& Alliances: View your alliance data. Your allies
+
+== will be shown bya flag with the remaining term on
+the map.
+
+Islamic and Venetian merchants are not available in Scenario 1.
+
+= Sell (6 Body Points)
+
+| =~
+
+s Generals: View the character data of your
+
+Sell food or specialty items. Price depends on the rate.
+E Generals.
+
+arg Buy (6 Body Points)
+
+Buy food, arms, or specialty items. Price depends on the rate.
+
+Children: View names and ages of children.
+
+Mercenary (6 Body Points)
+
+Hire mercenaries. Cost varies by type of Unit. The arms and
+training levels of new mercenary Units are 50 and 20 respective-
+ly, and they will affect the overall levels of the Army. You cannot
+use this command if your Home Base already has 20 Units.
+
+ta + : Specialties: View specialty items in stock in
+E == your territory (see Regional Specialties on page 36).
+
+===== Page 18 =====
+
+(Rival States — 1 Body Point)
+(Vassal States — 0 Body Points)
+
+State Data: View State data (see State Data on
+page 15).
+
+a: Ruler: View the character data of your Governors
+SESS and Rulers of other Nations (See Character Data on
+
+page 19).
+es Advisor: View the character data of the Advisor.
+
+Unit: View the types and number of troops (See
+Regional Unit Types on page 37).
+
+=e Alliances: View alliance data. Allies will be
+
+Territories (0 Body Points)
+
+View the data of all your territories. Data includes State number,
+gold, food, specialty items, total Units, relatives and heirs.
+
+; Generals (0 Body Points)
+
+View the data of all Generals in your Nation. Data includes
+relationship to the Ruler, name, political ability, war ability,
+leadership, charm, Body Points, and age.
+
+Merchants (0 Body Points)
+
+View location of merchants, indicated by the merchant icon on
+the map. The merchant’s base is indicated by the house icon.
+
+Unit Data (0 Body Points)
+View the capabilities of each Unit (See Unit Data on page 21).
+
+as
+So
+
+d shown bya flag with the remaining term on the map. ~
+
+_ There are 8 culture types in the game. The culture determines the types of
+‘aan Units available. It also affects economic development and defense strength.
+
+=
+- ongolia
+
+Many Turkish and Mongolian nomads lived in this area.
+Harsh conditions on the vast steppes of the Mongolian
+plateau gave rise to a warlike breed.
+
+Central Asia
+
+Many nomads congregate in the areas surrounding desert.
+= oases to gain whatever livelihood they could. Commerce
+thrived as many caravans traveled along the Silk Road.
+
+=f Agriculture as well as cattle-farming sprung up along the
+<= many rivers in this region. A high culture developed here
+between the Himalayas and the Indian Ocean.
+
+i Japan
+
+# Separated from continental Asia by the ocean that also protect-
+* ed it from invasion, this island country developed a unique aN
+culture. Warring between families ended under Minamoto. s
+
+===== Page 19 =====
+
+Biewel
+es see g | ,
+geese Many feudal kingdoms were growing in Europe, their
+
+. wealth increased by crusades to Islam. Chivalry was at its
+height, and knights and men-at arms rallied under the
+banners of their kings.
+
+| Eastern Europe
+
+survive,
+
+sophisticated arts and sciences.
+
+China
+Although divided into north and south after the T’ang
+
+Dynasty, the empires of China were truly dominant at this
+
+time. Many merchants plied their trade on the Silk Road,
+
+and large-scale coal and ore mining provided the resources
+
+for other goods.
+
+Perched between the East and the West, this area was pop-
+" ulated by various races with a complex mixture of cultures.
+Many rulers struggled for dominion—others struggled to
+
+sy In the regions inhabited by the Islamic people, there were
+nomads and people engaged in irrigated farming. Much of
+classic Western thought lived on here, and developed into
+
+Tropical climate. Near the equator, these areas have a high
+average temperature year-round. There is little change in the
+weather to mark seasons, except for a change in rainfall from
+the rainy summer to the dry winter.
+
+Arid or semi-arid climate. In these generally hot areas there is
+little average rainfall. The average precipitation also varies
+widely from year to year. There are often high winds.
+
+Humid subtropical climate. These areas have a relatively high
+average temperature and humidity. There is also a great deal of
+rainfall, especially in the summer months. Winters are mild
+and sunny.
+
+Marine coastal climate. Here precipitation is frequent and
+plentiful. There is little annual change in temperature and few
+storms. Fog is common in autumn.
+
+Modified humid subtropical climate. This climate exists pri-
+marily in eastern and southern Asia. It is similar to the humid
+subtropical climate described above, but has more clearly
+defined seasons. There is a wet summer and a dry winter.
+
+Mediterranean climate. In these areas, there is a dry, hot sum-
+mer and a cool wet winter. The temperature does not vary
+much throughout the year. Humidity and rainfall are
+
+moderate.
+
+Humid continental climate. Precipitation is ample throughout
+the year in these areas. Snow often accompanies the cold winter
+months. In some places there can be continuous snow cover
+for one to four months of the year.
+
+===== Page 20 =====
+
+Mi | Dwi: Modified humid continental climate. These regions are simi-
+lar to those described above, except for precipitation. The win-
+ter is usually cold and dry, while the summer is wet and hot.
+
+—*) There are 16 different types of Units. You can only recruit certain types of
+; “» Units in each State. To view data on Units, select Unit Types under Info on
+
+the Main Display.
+
+Light Infantry
+
+Men-at-arms equipped with light arms and armor. Mobile
+and good for light fighting. (aie,
+
+fae Heavy Infantry
+SS Heavily armed and armored footsoldiers. These troops are
+good skirmishers. ‘i
+
+yq Pikemen
+Footsoldiers armed with long wooden spears or other pole-
+
+arms.
+
+Artillery
+oe This gunpowder-using unit is unique to China. A crew uses
+
+large mounted firearms to cause disarray among enemy ranks.
+
+Climate Zones
+
+a Shortbowmen
+
+Light infantry with short bows as their main weapon. Troops
+are skilled archers, but weak in hand-to-hand combat.
+
+aa Longbowmen
+Lightly sipped footsoldiers with long, accurate bows.
+
+There are 10 different kinds of specialty items. Only certain
+items can be produced in each State.
+
+Es Ee
+
+Silk Gems Jewelry
+Pointed shafts pierce armor and weaken enemy forces.
+ca exe | ee) [tag Crossbowmen
+Medicine Woodwork — Ceramics Glass Footsoldiers armed with powerful mechanical bows.
+
+Crossbowmen launch volleys of quarrels and stones.
+
+Textiles Spices
+
+===== Page 21 =====
+
+Elephant
+BE Archers and spearmen perched on the backs of large elephants
+
+within heavily constructed towers.
+
+Catapult
+
+Siege force which hurls large projectiles at the enemy. These
+units are especially effective in attacking strongholds.
+
+«: Nomads
+
+~~ Lightly equipped cavalry composed of fierce horse-riding
+nomads. These troops strike swiftly and viciously.
+
+\ f= Lancers
+q = A unit comprised of skilled light cavalry armed with steel-
+tipped spears or halberds,
+
+The formidable armored cavalry of the steppe. The charge of
+these troops strikes fear into the hearts of foes.
+
+Horse Archers
+SSE Skilled bowmen that can attack on horseback as well as shoot-
+ing sharpened barbs deep into enemy ranks.
+
+Mamelukes
+
+! Specially trained raiding parties. These horsemen of the arid
+plains are expert at close-quarters combat.
+
+facy Knights
+as =: Heavily-equipped and mounted men-at-arms, These warriors
+are skilled in the use of several weapons.
+
+Samurai
+
+Multi-purpose mounted troops of the East, excelling in archery
+from horseback as well as swordsmanship.
+
+Unit Availability by Region
+
+===== Page 22 =====
+
+Every Season
+Collecting Food
+
+The amount of food collected is based on State conditions,
+season, and weather.
+
+Collecting Specialty Items
+
+Specialty items are collected based on the total amount of items |
+
+produced.
+Distribute Food to People
+
+Food is distributed according to the population.
+
+Allowance to Troops
+
+Gold must be paid to troops according to the total number of
+Units in the State.
+
+Spring
+Collect Tax
+
+The amount of tax that can be collected is based on the State’s
+economic condition.
+
+Random
+
+Demise of Characters
+
+Old characters may pass away. A character with a low Body
+Point count or serious illness is more likely to expire. When a
+
+Ruler (see Successor on page 13), Governor, or Advisor eae
+
+passes away, you must select a Successor.
+
+| ao)
+
+4A
++h
+
+The following events occur at random. Except for abundant harvests, these
+events will damage your States by lowering popular support and agricultur-
+al production. States where an event (except rebellion) has occurred are
+
+shown in a different color.
+
+Epidemic (Spring, Winter) ak
+Dread diseases that affect population, popular sup- .
+port, number of Units, Body Points of characters, etc.
+The chances of damage differ from climate to climate.
+An epidemic that broke out in the spring may spread
+
+to surrounding areas in summer and fall.
+
+Sand Storm (Spring)
+
+Whirling winds carrying stinging sand that occur only
+in desert areas. It affects land yield, economy, and
+support.
+
+Blizzard (Spring, Winter)
+
+Severe cold and snow that damages land yield, econo-
+
+my, and support. The chance for damage depends on
+- the climate. The following harvest will be reduced
+
+by half.
+
+Typhoon (Summer, Fall)
+
+A storm with fierce winds and heavy rain that dam-
+ages land yield, economy, defense strength, and loyal-
+ty. It occurs only in tropical (A), humid subtropical
+(Cfa) and modified humid subtropical (Cw) climate
+zones (see Climatic Regions on page 35).
+
+Drought (Summer)
+
+Severe dry weather that damages land yield and sup-
+port, and reduces the harvest in the following fall
+
+by half.
+
+a
+
+===== Page 23 =====
+
+Abundant Harvest (Summer, Fall)
+The rich harvest is the only lucky event and can occur
+in any State with the same probability. The exception
+is a state suffering from an epidemic; its chance is less.
+An abundant harvest doubles the regular harvest.
+
+A war takes place when you or the Governor of a Vassal State invades
+another State, when an internal rebellion breaks out, or when a rival power
+invades your State.
+
+Revolt (Summer, Winter)
+
+A revolt may break out in a State with low popular
+support. Upon its occurrence, the Battle Screen will
+appear. If the rebel Army wins, they become an
+independent Nation.
+
+Ces ett eo ae oe PP coe
+
+Lb |
+
+When a war breaks out, follow this procedure to organize your Legions:
+
+1. Decide whether you will command the Army (as well as the commander
+for the first Unit). If not, select a General to delegate command to. However,
+when you are invaded or have no Generals, you must take command.
+
+2. Decide whether to organize your Army yourself.
+
+If you wish to organize the Army, select the commander, type and num-
+ber of Units (up to four per Legion) for the first to the fifth Legion.
+Commanders are selected among your Generals, but if your Ruler par-
+ticipates in the war as the commander of the Army, he will command
+the first Legion as well. If you have no Generals, unknown figures
+become the commanders of the second to fifth Legions.
+
+Waging a war costs 50 gold per Unit. If you run out of gold while orga-
+"nizing your Army, you cannot take any more Units.
+
+Disaster Regiorts If you do not wish to organize your Army, decide how many Units you
+
+will form into Legions (If you are invaded or if there is a rebellion, you
+must use all your Units). Select YES if the Legions formed look okay to
+you or NO if you wish to reorganize them.
+
+© Blizzard _ Sandstorm {| Typhoon
+
+© Drought § Typhoon & Drought 3. Decide amount of gold (only when you are attacking) and food to take
+
+with your Army. The amount of food determines supply. Units with low
+
+supply are more liable to lose Soldiers. 7
+
+===== Page 24 =====
+
+Settiement
+
+4, When attacking another State, after all Legions are formed and provi- 5». Postwar
+sions allocated, select YES and the Battle Display will appear. NO will
+cancel the attack.
+
+“The Main Display returns and there are various postwar settlements
+including treatment of prisoners and recruiting talented men.
+
+« Aitions fi or Victory
+
+») To win at war, you must fulfill one of the following conditions:
+
+_@ Annihilate or repel the enemy’s first Legion.
+
+pning
+Enea - W@ Force surrender of the enemy Army’s commander.
+Position each Legion (Defense side positions first) by moving the sword
+
+cursor to the desired point and pressing Button A. You may also leave the
+positioning to the computer. The attacking side can position its Legions
+only in the 5 designated invading/withdrawing points (indicated with the
+flag icon). The defense side can position its Legions in any locations other
+than the 5 points reserved for the attacking side. pera
+
+H Defeat the enemy Army’s commander.
+H As the attacker, occupy all enemy strongholds and bases.
+
+H As the defender, successfully defend your base for 30 days.
+
+After positioning is done, the Battle Menu appears. Select commands to “iG ia
+order to each Legion, reorganize your Army, or negotiate with the enemy. Jee
+
+3. Combat
+
+When your Unit is placed next to an enemy Unit, the Combat Display
+appears. Issue commands such as Move and Attack to each Unit. Macecl
+
+4. Victory
+
+You will win if you destroy, repel, or force your enemy into submission, or a
+occupy all enemy bases and strongholds.
+
+aa
+
+===== Page 25 =====
+
+In battle, the attacking side has the first turn, then the defending side issues
+its commands. Each turn is one day in length. The battle automatically
+ends after 30 days. The number of commands you can issue in one day
+depends on the leadership of the Army’s commander.
+
+You can execute battle commands only when you are the commander of
+the Army. If you are not, your designated commander automatically issues
+battle commands.
+
+There are various weather conditions (Sunny, Cloudy, Rainy, Snow, Heat
+|, Wave, Sand Storm, Typhoon, Blizzard) during battle, depending on the
+season and type of climate. The weather may affect mobility and supply. It
+may also cause desertions from the Army.
+
+2
+
+TQ, in, your orders?
+
+@ BattleCommand Menus © Defending Legions «
+
+® Turns Remaining Stronghold * Town
+® Weather « Day of Battle @ Messages .
+@ Attacking Legions
+
+The Battle Menu includes Order, Reform, Talk, and Info selections.
+Legions take turns according to the Legion number. When you are finished
+
+issuing commands, press Button B to end your turn.
+
+Order
+
+- Give an order such as Move or Chase to each Legion. If no order is given, :
+_ the Legion command will be delegated (following the first Legion). ;
+
+Specify a destination with the cursor. Selecting the current location means
+wait. When a Legion reaches its destination, it stands by automatically.
+» Moving Legions reduces the food supply.
+
+Chase
+
+Target an enemy Legion to chase with the cursor. You cannot chase an
+ambushing enemy Legion. If you attack an enemy Legion, the Combat
+Screen will appear. When the target Legion is annihilated, the chasing
+Legion will stand by automatically.
+
+Attack
+Attack the closest enemy Legion.
+
+Ambush
+
+Specify a point (either mountains or forest) to set up an ambush with the
+
+cursor. You cannot ambush if your Legion is adjacent to the enemy or is
+
+not in mountains or forests. Leaving the mountains or forests means can-
+
+_ celing the ambush. Moving within mountains or forest may also cancel the
+ambush depending on the composition of the Legion.
+
+When an enemy Legion moves next to the ambushing Legion, it immedi-
+ately attacks the enemy. If the attack is successful, your Legion emerges
+from ambush and stands by. Ambush does not work against an enemy in
+
+ astronghold or town.
+
+===== Page 26 =====
+
+Supply
+
+Increase the food supply of your Army. Specify supply point (stronghold,
+town, or forest) with the cursor. If your stronghold or base is selected, the
+command means supply. If you select an enemy’s stronghold, it means
+plunder and hunt in forest. By plundering, you will get food and gold, and
+the gold will be stored in your Home Base. Plundering in a town lowers
+
+_ Support. You cannot hunt when you are next to the enemy, or when there
+are Snow, Blizzard, Heat Wave, Typhoon or Sand Storm conditions. A
+Legion with low food supply is liable to lose its Soldiers.
+
+Withdraw your Army from war. Specify a withdrawing point, one of the
+designated invading/withdrawing points. Withdrawing the commander of
+the Army means defeat and the end of battle.
+
+Delegate
+
+Delegate command to individual Generals.
+
+Reform
+
+Transfer Units between two adjacent Legions. After transferring, both
+Legions must still have one to four Units. Transferring Units will affect the
+Morale, Arms level, and Supply.
+
+Talk
+
+Negotiate with the enemy.
+Offer
+
+Convince an enemy Legion to surrender and join you. You cannot use this
+_ command when your first Legion is not adjacent to the enemy, or when
+you have five Legions.
+
+Submit
+
+Demand the surrender of the enemy Army’s commander. If he accepts, the
+
+-,» war ends. Your first Legion must be adjacent to enemy’s first Legion.
+
+Truce
+
+Propose a truce to the enemy Army’s commander. If he accepts, the war
+ends. Your first Legion must be adjacent to enemy’s first Legion.
+
+Info
+
+View Legion, character, or battlefield information.
+
+Legion
+Display a Legion commander’s name, the Legion’s level, total number of
+Soldiers, Unit type and number of Soldiers, Mobility, Arms level, Supply,
+
+Morale (based on Units’ spirit and food supply). Viewing your own Legion
+data does not count against your turn. You cannot view the data of the
+
+“i enemy’s ambushing Legions.
+
+us Person
+
+Display a Legion commander’s Legion number, name, Political ability,
+War ability, Leadership, Charm, Age, and Body Points. Viewing the data of
+your own commanders does not count against your turn.
+
+Field
+Display the State number and name of the battlefield, and the names of the
+commanders of both Armies. This command does not count against your
+
+' turn. Press any button while the battlefield data is displayed, to display
+
+invading/withdrawing points.
+
+Display current orders for your Legions. This command does not count
+
+"against your turn.
+
+===== Page 27 =====
+
+Units “In Confusion”
+
+After being attacked by the enemy, a Unit may fall into confusion and
+become unable to perform commands. Confused Units turn yellow and
+spin around three times while stars flash above them. Confused units
+remain yellow until revived. If confused Units do not recover quickly,
+select the Revive command to speed up their recovery.
+
+Goal of Combat
+
+The goal of combat is to achieve one of the following conditions:
+
+When your Legions get next to enemy Legions on the Battle Screen, the
+Combat Display appears. Each Unit is positioned, First the defender, then
+the attacker. You may delegate positioning. Areas you may position your
+Units in are highlighted. However, when your Legion is ambushed, its
+Units are automatically positioned and in confusion (displayed in yellow).
+
+You and the enemy alternate turns to issue commands. The number of
+turns in this mode depends on the weather. You may have fewer turns if
+the weather conditions are poor.
+
+kiggiai Khan MOA er | 4
+inte @ Mot ey? 2 @ (6) ms
+Aas toy
+
+® Annihilate all enemy Units.
+B Defeat the commander of the enemy army in combat.
+
+| M (For defending side) Defend until time runs out.
+
+ey :
+
+) Commands are executed by Units in the order of highest mobility. When
+all Units are finished with their commands, the turn ends.
+
+@ Name of Present Turn’s Commander
+® Unit Number
+
+® Combat Command Menus
+
+@ Mobility Points Remaining
+
+© Number of Projectile Attacks Remaining
+@® Turns Remaining in Combat
+
+@ Defending Units
+
+© Attacking Units
+
+© Messages
+
+When you select a command, the mobility necessary to execute it is dis-
+played to the right of the remaining mobility. You will not be able to select
+a command if there is not enough mobility. As long as you have mobility,
+you can continue to select commands, The mobility of each Unit is deter-
+mined by its basic mobility, Legion level, and leadership of its commander.
+The maximum mobility is 15. Press Button B to stand by.
+
+| Move (2 Mobility Points—3 if combat started
+in rough terrain)
+
+- Move a Unit. You cannot move a Unit over a wall, fence, tree, river, or
+where an enemy Unit is located. Range of movement is highlighted.
+
+===== Page 28 =====
+
+Revive a confused Unit of your Legion. This will not always work on the
+first try.
+) Delegate (0 Mobility Point)
+
+Let the Legion determine its own actions. Once this commanzd is selected,
+» you cannot regain your command until the combat is over.
+
+Attack an enemy Unit. When the number of Soldiers in the Unit reaches 0,
+the Unit is annihilated. Some Units are incapable of long-distance attack.
+The range of attack is highlighted. Target an enemy Unit using the box cur-
+sor. If there is only one enemy Unit within range, the cursor does not move.
+
+Near (3 Mobility Points)
+
+Attack an adjacent enemy Unit. This is particularly effective for Units with
+high Close Combat Strength.
+
+Info
+
+Get information about the combat and the units involved.
+
+Far (3 Mobility Points)
+
+Use projectile weapons to attack an enemy Unit. Arms level determines the
+number of ranged attacks allowed for one combat. This is effective for
+Units with high Long-range Attack Strength.
+
+Unit (2 Mobility Points — 0 Mobility Point to view your
+side)
+
+Display Unit number, type, number of Soldiers, Morale, Training level,
+Arms level, and Supply.
+
+Charge (5 Mobility Points)
+
+Attack an adjacent enemy Unit. This is effective for Units with high Charge
+Strength. If Charge is used against an unconfused enemy Unit, the attack-
+ing Unit also has a good chance to become confused.
+
+Person (2 Mobility Points — 0 Mobility Point to view
+your side)
+
+Display commander's Legion number, name, political ability, war ability,
+leadership, charm, age, and Body Points.
+
+Command
+
+_ Give special orders to combating Units.
+
+| Lead (4 Mobility Points)
+
+Let Legion commander lead the Unit directly. You may use this command
+only once during combat. You cannot use this command if the comman-
+der has already been cut down. A Unit led by its commander increases in
+war ability, but the commander may be wounded. He is defeated when his
+Body Points reach 0 from injuries.
+
+===== Page 29 =====
+
+After you have achieved victory in battle, you must decide what to do with
+prisoners. Characters who are not caught will withdraw to a nearby State.
+The following characters may become your prisoners.
+
+@ Commanders of annihilated Legions
+
+@ Commanders who had nowhere to withdraw to, or who failed to flee
+after being defeated.
+
+M@ Advisors (ifa Ruler or Governor becomes prisoner).
+
+You may choose to Execute, Release, or Recruit these characters. You can-
+not select Recruit when a Ruler is made prisoner, unless he has no other
+territories to flee to.
+
+Recruit Free Generals
+
+After you have defeated your enemy, you may recruit a Free General from
+your newly acquired State.
+
+Select Your Successor
+
+Select your Successor, if your ruler is defeated in battle (see Successor on
+page 13).
+
+Select a New Governor
+
+If your Governor is defeated in battle, you must select a new Governor
+from among your Generals. If you have no Generals, an unknown figure
+will assume the position.
+
+—a
+
+Be Sis
+
+“uTesuiimn™
+
+In the twelfth century, nomadic Mongol tribes vied for control of the iso-
+lated central Asian steppe. There were endless wars and plundering every-
+where on the plains. In 1162, a baby boy was born to Yesugei, the head of
+the Borjighin tribe, with a red gem in one of his hands. The gem was
+believed proof of his kingship. He was named Temujin after a Tartar whom
+
+Yesugei had defeated in a recent battle.
+
+_ When Temujin was nine, Yesugei took him to a village of the Ongirat tribe
+' to find a girl to choose for a bride. The leader of the Ongirats, Dai Sechen,
+
+was impressed with the young Temujin, saying of him, “He has a fire in his
+eyes and a radiance on his face.”
+
+Dai Sechen proposed that his own daughter Borte should be Temujin’s
+future wife. Yesugei agreed to their engagement and left Temujin to the
+
+ Ongirat. According to the Mongolian custom then, an engaged man
+
+===== Page 30 =====
+
+ee ey OO gr de
+
+Wigs leat rvs POs
+
+lived in his fiancée’s house, Only a few days later, Temujin was informed
+that his father had been poisoned by his Tartar rivals.
+
+: His father’s passing was only the first misfortune in store for Temujin. Many
+_.. members of the Borjighin tribe could not accept the inexperienced Temujin
+
+as their leader and left, taking their livestock and tents. Deserted by their own |
+people, Temujin’s family was suddenly plunged into abject poverty.
+
+By the time Temujin reached the age of seventeen, he had displayed his quick
+wit and adaptability, managing to increase his holdings until his family could
+lead a marginally comfortable life. Temujin decided to bring Borte from her
+village to marry her. As his family began to prosper, people came to join him
+
+_ one after another and his family grew to a small community. Later, Temujin
+was gaining influence as head of the Borjighin tribe.
+
+However, Temujin had to face yet another misfortune. A marauding band
+
+SE et an Ee ene eek se Ok Baer, Having united all the Mongolian-Turkish tribes, Genghis Khan shifted his
+
+Temujin and his family barely escaped by hiding out in the mountains. a: Fl ,
+After many painful days without her, Temujin resolved to battle the ew ' target to the wealthy kingdoms to the south. After a few forays and skir-
+Merkits and regain his bride. be é he mishes, an invasion of the Hsi-Hsia Kingdom, the gateway to China, was |
+
+_ launched in 1209. The Mongol army reduced the cities of Wu-la-hai and Yi- |
+Knowing he had little chance to defeat the Merkits by himself, Temujin |= men, then besieged the capital of Chung-hsing. After six months of stalemate,
+
+gained the support of Togorul Khan, powerful leader of the Keraits, and Hsi-Hsia’s King, Li An-Chuan, decided to negotiate, pledging one of his bt
+sworn brother of Yesugei. He also drew strength from his own sworn daughters to Genghis Khan. He also agreed to contribute important resources i %
+br other, Jamuga. Temujin’s force overwhelmed the Merkits, destroyed to future battles against the powerful Chin and the Khorezm empires. t
+
+_ their tents and captured their men. fi
+
+Tn 1208, Wei-shao ascended the throne as the seventh Emperor of the Chin
+Dynasty. Finding Wei-shao a mediocre Ruler, Genghis Khan dissolved his
+previous ties with China and seized the chance to attack the Chin.
+Declaring himself the avenger of the Mongols previously forced into sub-
+mission by the mighty empire, he broke through the Great Wall and invad-
+ed the Shansi and northern Hopei areas in 1211.
+
+In 1195 at a Khuriltai (conference of Mongol leaders), Temujin was named
+Khan (supreme leader of the united tribes) by the heads of the Mongolian
+tribes. Perhaps heeding some shaman prophesy, he chose the name
+Genghis. And so it was that Temujin of the Borjighin became Genghis
+Khan, ruler of the Mongols.
+
+PE:
+
+Now that he had managed to weld several tribes together under his rule,
+Genghis Khan became a threat to his former allies, Togorul Khan and
+Jamuga. Genghis Khan began carrying out battles in order to extend his
+rule over the whole of Mongolia. Following the elimination of the Naimans
+and the Keraits, the lesser tribes had no choice but to submit to the power
+of the young Khan.
+
+=
+i = = i & j idk "ap 77 Ty, nih A ent
+r J i \ 1 m ¥ Af ‘aa apr) Sy
+t : : : a 3 } 7 =" i - is i ; u ; - tt
+
+After three years of brutal fighting and the destruction of many small
+towns and villages, The armies of the Mongols attacked the Chin capital of
+Peking. Three vicious assaults on the walled city were followed by the
+threat of a prolonged siege. Wei-shao’s equally powerless successor,
+Hsuan-tsung began to consider conciliation. Seizing the upper hand in
+
+===== Page 31 =====
+
+ye Oe ED 4 pee
+, wil ie, VE = =I Pe we
+
+agWot (=
+negotiations, Genghis Khan gained control over the state of Liao, as well as
+many riches and princesses for his generals. In return, he promised not to
+
+raze the city.
+
+No sooner than the shaggy army, laden with booty left the capital, Hsuan-
+tsung decided to break his agreement with the Mongols, removing his
+court to the safer city of Nan-ching, to the south. The southern Sung
+empire saw this as a threat from their longtime rivals and appealed to
+Genghis Khan for help. Seeing that this rivalry could be used to his advan-
+tage, he did little to support the Sung. However, the situation in Peking was
+also to the Khan’s advantage: Seeing the weakened state of the old capital,
+he moved once more to invest it. Armies sent from the south to lend sup-
+port were turned aside by the Mongol army and the city was quickly
+demoralized, then defeated. Still the emperor refused to capitulate, so a
+tremendous sacking and razing of the proud city of Peking began, lasting
+several months.
+
+After the fall of Peking, Muhammad, Sultan of the Khorezm Empire sent
+an embassy to discover more about these fierce conquerors. Genghis Khan
+replied that he regarded the Sultan as the ruler of the West, just as he, him-
+self was the now the ruler of the East, and that there should be peace and
+commerce between the two great powers. An embassy from the Mongols
+was sent to Transoxania in 1218, and a fragile peace began. Both parties
+were in reality gathering information about the other and awaiting the
+moment to strike.
+
+When a Mongol caravan arrived in the Khorezmian frontier town of Otrar
+in 1218, the governor took the opportunity to seize the goods and make the
+merchants prisoner, declaring them spies. The prisoners, including an
+ambassador whom Genghis Khan regarded with the highest esteem, were
+executed with the Sultan’s permission. Although he was furious, the great
+Khan decided to negotiate justice. Another embassy was sent demanding
+that the Otrar governor be surrendered. The ambassador was executed and
+the beards of the Mongols allowed to return were shaved off. These acts
+demanded terrible vengeance.
+
+——_—
+
+First a force was sent to quell the rebellious forces in the Kara-Kitai king-
+dom, to the north of the Khorezm empire. Opposition from within was
+being eliminated so that the new foes could be engaged. During a skirmish
+with rebellious Merkits, near just north of the Khorezmian frontier, the
+Sultan ordered his men to attack the Mongol force. Although the battle was
+indecisive, the Mongol Horsemen acquitted themselves well, giving
+Muhammad a taste of what was to come. The traitorous Mongol vassals
+were pursued into the West and the dominions of Kashkar, Yarkand and
+Khotan also came under the rule of Genghis Khan. The small army led by
+Jebe quickly and easily conquered countries that had long been a thorn in
+the side of the Khorezms. And now the Mongols were the immediate
+northern neighbors of the great empire of Islam.
+
+* Although the Khorezm Empire was far more powerful than the Hsi-Hsia or
+
+Chin, they could not prevent revenge for the ambassadors from being car-
+ried out in Otrar; the town was completely obliterated. Little resistance was
+offered at first and the Mongols advanced virtually unhindered to the heav-
+ily fortified capital of Samarkand. The high taxes levied to complete defens-
+es brought many people to rebellion. Upon hearing that Samarkand had
+
+ris been reduced in a mere five days, the now terrified King Muhammad fled
+
+with his troops. The Mongol army pursued Muhammad’s troops to the
+Balkans in the West and to the Indus in the East. It took the following
+
+' seven years to finally wipe out the Khorezm empire.
+
+===== Page 32 =====
+
+Although China was secure, Kublai’s ambition did not end. Instead he
+sought to demand the submission of all those Asian kingdoms once under
+rule of the Chinese. The Koryo Kingdom was brought to heel, but the
+armies of the Yuan had yet to face the war-elephants of Southeast Asia, and
+the Kamikaze, a storm that demolished the fleet sent to conquer Japan.
+
+. Although in the end Kublai’s dreams of an empire that spanned the globe
+were not realized, his greatness as both a ruler and a warrior are legendary. £
+
+was finally reunited for the first time since the tenth century collapse of the
+
+Scenario State # Nation Ruler
+1 1 Mongols Temujin
+r 6 Jadarans Jamuga ms
+ay 7 Keraits Togorul Khan re
+et 4 14 Naimans Tayan Khan i
+\ After the demise of the fourth Mongol Khan, Monge, his younger brother ; r eck ee ae Shan
+Kublai called for a Khuriltai and named himself the fifth Khan in 1260. une ogunate hamoro
+Kublai emulated the imperial centralization of power in China. 20 Khorezm Empire Ala-al-Din
+21 Ghore Sultanate Ghuri
+There was, in fact some doubt as to succession among the Mongols, but 31 Angevin Kingdom John I
+Kublai pressed an assault across then Yangtze into Sung China to force the 50 Capetian Kined Philip II
+_ issue. In June 1260, after this victory, Kublai’s troops proclaimed him ruler petian Aungdom iP
+of the Mongols. His younger brother, Arik-boke also had himself pro- 2 > Suan Dynasty Kublai Khan
+claimed Khan, and fraternal warfare ensued. In 1264 Kublai’s brother sur- BI Kamakura Shogunate __ Hojo
+rendered. Kublai then had himself crowned ‘Son of Heaven,’ heir to all the 15 I-Khan Empire Abaga
+realms of China as well as Mongolia, thus beginning the Yuan Dynasty. 18 Mamaluke Sultanate Baybars
+Immediately Kublai resumed his attacks on the Sung. Progress was slow, B Bysmniine Bumpine Michael VIII
+and included a five year siege of Hsian-yang. Eventually, however, the 30 Sicilian Kingdom Charles I
+Sungs were conquered, their capital of Hangchow fell in 1276. The aged 4 1 Mongol Empire Scenario 1 Winner
+Sung emperor was gone and the widowed Empress Dowager handed over ll Kamakura Shogunate Minamoto
+the Sung imperial seal so an extended siege was not necessary. Kublai’s 16 AyyubidDominions  Salahal-Din
+army entered the city peacefully, but triumphantly. Attempts to continue : : - -
+resistance with the child emperor, Ti-ping, were quickly squashed. China 2 Byzantine Eaupire each ee
+29 Roman Empire Frederic [ % x
+
+T’ang Dynasty, a unity preserved to this day.
+
+31
+
+Angevin Kingdom
+
+Richard I
+
+Scenarios and Rulers
+
+===== Page 33 =====
+
+Warranty
+90-DAY LIMITED WARRANTY
+
+Koei Corporation warrants to the original consumer purchaser that this
+game pak shall be free from defects in material and workmanship for a
+period of 90 days from date of purchase. If a defect covered by this warran-
+ty occurs during this 90-day warranty period, Koei will repair or replace the
+game pak at its option, free of charge.
+
+To receive this warranty service:
+
+1. Send in your Registration Card.
+
+2. Save your sales receipt and the UPC code found on the game
+packaging.
+
+3. If your game is still covered under a store warranty, return the game
+pak to the store at which you purchased the game.
+
+_ 4, If the game develops a problem requiring service during the 90-day
+warranty period, and is not covered by a store warranty, notify Koei
+
+~ Corp. by calling the Technical Support Dept. at (415)348-0500,
+between the hours of 9 a.m. to 4:45 p.m. Pacific Standard Time,
+Monday through Friday.
+
+5. If the Koei Service Representative is unable to solve the problem by
+phone, you will be provided with a Return Authorization number.
+Simply record this number prominently on the outside packaging of
+your defective game pak, enclose your name, address and phone
+
+~ number, and return the game pak, FREIGHT PREPAID AND
+INSURED FOR LOSS OR DAMAGE, together with your sales receipt
+or similar proof-of-purchase (UPC code) within the 90-day warranty
+period to:
+
+Koei Corporation
+
+One Bay Plaza, Ste. 540
+1350 Bayshore Hwy.
+Burlingame, CA 94010.
+
+i. ao
+
+age,
+
+a
+
+This warranty shall not apply if the game pak has been damaged by negli-
+gence, accident, unreasonable use, modification, tampering, or by other
+causes unrelated to defective materials or workmanship.
+
+Service After Expiration of Warranty
+
+Ifthe game pak develops a problem requiring service after the 90-day war-
+ranty period, you may contact the Koei Technical Support Dept. at the
+
+_ phone number noted previously. If the Koei Service Representative is
+
+unable to solve the problem by phone, you may be provided with a Return
+Authorization number and asked to send the game pak to Koei for person-
+al inspection, Record this number prominently on the outside packaging of
+the defective game pak and return the merchandise, FREIGHT PREPAID
+AND INSURED FOR LOSS OR DAMAGE, to Koei with a check or money
+
+~~ order for $20, to cover repair or replacement, payable to Koei Corporation.
+
+Koei reserves the right to change the post-warranty service fee and/or
+policy.
+
+===== Page 34 =====
+
+He 6 back, badder than ever!
+
+Oda Nobunaga, the mighty leader who strove to unite
+war-torn Japan, has returned. Now, as Oda, it’s your
+turn to fight for control of Japan in this, the improved
+version of Koei’s popular NES game, Nobunaga’s
+Ambition. But, peace and order won't come easy!
+No one can be trusted in 16th centrury Japan.
+
+See
+
+q
+
+“ p.
+
+i Pacific Theater of Operations §
+
+SSS
+
+aa ania aay
+
+Oe ee ee ee eee ene
+
+IT’S 1941 and the US. And Japan are ready to clash.
+Your goal is to control the Pacific! The schedule is exhaust-
+ing: Pearl Harbor, Midway and the Philippines for starters.
+The Americans can depend on the Yorktown, Hornet and
+Nevada to run successful battle plays. But don’t count
+out the Japanese carrier force and their top-notch
+kamikazes. The campaign is about to
+begin — It's time to pick
+your team and hit
+the battlefield!
+
+Revenge is Sweet!
+
+You're a young ninja hungry for revenge
+
+against the ruthless ruler who destroyed your home village.
+Travel on foot or by boat to famous training grounds where you will leam |
+Ninjutsu, the art of stealth fighting! Use your trusty sword, throwing stars or |
+magic spells against vicious monsters inside Japan’s treacherous dungeons.
+Victory will raise your skill level and gold will be your reward!

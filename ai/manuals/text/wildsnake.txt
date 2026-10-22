@@ -1,0 +1,525 @@
+# Wildsnake
+source: https://archive.org/details/snes_manual_archive
+pdf: Wildsnake ( USA ).pdf
+region: USA
+pages: 14
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+fe ss
+
+INSTRUCTION MANUAL,
+SL seegen
+
+2490 Mariner Square Loop
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER INFORMATION
+AND PRECAUTIONS BOOKLET CAREFULLY BEFORE USING YOUR
+NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+LICENSED BY
+
+Nintendo, Super Nintendo Entertainment System and the official seals are
+
+registered trademarks of Nintendo of America Inc. ©1991 Nintendo of America Inc.
+
+Official
+
+Nintendo)
+
+Seal of Quality
+
+This official seal is your assurance that Nintendo has approved the quality of this
+product. Always look for this seal when buying games and accessories to ensure
+complete compatibility with your Super Nintendo Entertainment System. All
+Nintendo products are licensed by sale for use only with other authorized products
+bearing the official Nintendo seal of quality.
+
+JV esse
+
+nae ™
+
+INSTRUCTION MANUAL
+
+===== Page 3 =====
+
+WildSnake™ and ©1994 Bullet-Proof Software, Inc. Original game ©1993 J.S.C. Gamos.
+All rights reserved. Tetris® and ©1987 Elorg. Spectrum HoloByte is a registered trademark
+of Spectrum HoloByte, Inc.
+
+©
+
+Contents
+
+Tro OCOD sscscasn eeu 3
+
+Controls ..
+
+Game Play-s Si 0550: chan a ere ntetet ince 6
+CU CREE Le ne ae oS oer Or es Oey Rae 9
+Ome Player Gamelsaitn. cncsssccsnsssctctoncseaiysch Li
+King Cobra: Challenteimcnn natin i)
+Mimo Player GaMe oi sicscrenceentatsoraperncsronsedt sn 13
+Slithering Strategies ......c.cececeesesee reese eenes 14
+
+===== Page 4 =====
+
+“In the early 1980s, I developed Tetris as
+a simple exercise in mathematics. I could
+not have dreamed the impact it would
+have in the world of games. WildSnake
+carries on the challenging and addicting
+tradition of Tetris and I am proud to
+endorse the product. I hope you enjoy
+playing it as much as I do.”
+
+Mi Qa
+
+Alexey Pajitnov, Mathematician
+and Puzzle Game Designer
+
+ABOUT THE SPECTRUM HOLOBYTE PUZZLE LINE
+
+Alexey Pajitnov, creator of the world-famous Tetris, is lending his
+endorsement to and is helping in the design of a full line of action puzzle
+games from Spectrum HoloByte. The line includes the company's
+existing Tetris games, as well as new and increasingly exciting and
+super-challenging puzzle products.
+
+Since its debut in 1988, Tetris has been on perennial best-seller lists and
+the famous game of falling blocks continues its phenomenal popularity to
+this day. Included in the Spectrum HoloByte puzzle line are products for
+personal-computer and videogame systems. For personal computers,
+the line features Tetris (IBM, Macintosh), Welltris (IBM, Mac), Faces ...
+Tris III (IBM, Mac), Wordtris (IBM, Mac), Super Tetris (IBM, Windows,
+Mac), Tetris Classic (IBM, Windows) and the new BreakThru (Windows,
+Mac). For videogame systems, the line includes Wordtris (SNES, Game
+Boy), WildSnake (SNES, Game Boy) and the new BreakThru (SNES,
+Game Boy). Puzzle games within the line are fun, challenging, universally
+nonviolent and are ideal for all ages and skill levels.
+
+All the titles listed above are available at your local software retailer or
+can be ordered directly from Spectrum HoloByte anytime simply by
+dialing 1-800-695-GAME.
+
+2
+
+Introduction
+
+“Snakes! Why Did It
+Have to Be Snakes?”
+
+The nest of deadly snakes has been
+disturbed by seismic experiments in a
+remote location. Now the snakes are
+slithering to the surface, causing confused
+terror in attacks on everything that crosses
+their path.
+
+There is a way to control this madness,
+but it’s not going to be easy. The snakes
+from this nest tend to eat snakes of the
+same color and design. If you can guide
+the slithering masses so that snakes of the
+same type meet and eliminate each other,
+then the world could be saved from this
+snake infestation.
+
+It's all up to you! Guide the snakes, find
+matching pairs and keep the population
+under control!
+
+&,
+
+===== Page 5 =====
+
+Controls
+
+Super NES Controller
+
+Top L/R Buttons
+
+X Button
+A Button
+B Button
+Y Button
+
+Control
+Pad
+
+Select Button
+
+Start Button.
+
+Control Pad:
+Use the Control Pad to manipulate falling snakes.
+Pressing Left and Right will make the snake slither
+to the left and right as it falls. Pressing Down will
+make the snakes fall faster.
+
+The Control Pad is also used to highlight selections
+in the Options Menu.
+
+Start Button:
+You can start the game and pause the action during
+game play by pressing the Start Button. When the
+action is paused, the playing field and game
+information will disappear and the message “Game
+Paused” will appear.
+
+Select Button:
+Press the Select Button when the action has been
+paused to return to the Start Game/Options screen.
+
+A Button:
+Press the A Button to change the highlighted entry
+on the Options Menu.
+
+B Button:
+The B Button performs the same function as the A
+Button.
+
+X Button, Y Button, L/R Buttons
+Not used.
+
+===== Page 6 =====
+
+Object
+The object of WildSnake is to keep the snake
+population in the playing field under control by
+matching the colors and designs of the snakes and
+letting snakes of similar types eliminate each other.
+If the pile of snakes reaches the top of the screen,
+the game is over.
+
+Game Screen
+
+The basic game screen consists
+of three main elements:
+
+Playing Field
+This is where most of the action takes place. As
+snakes fall into this area, your mission is to ma-
+nipulate them so that they touch and eliminate
+snakes of their own kind. In a one-player game, the
+playing field can be in one of eight different shapes.
+The standard rectangle is best for novice players.
+The shapes with narrow sections and obstacles are
+more suited to players who are looking for a new
+challenge.
+
+In a two-player game, there are two playing fields,
+both of which are made up of the standard vertical
+rectangle shape.
+
+Preview Box
+This small area displays the color, design and
+length of the next snake to fall. The Preview Box for
+a two-player game shows the next snake to fall for
+both playing fields. Pressing the Y Button activates
+or deactivates the preview feature.
+
+Score and Game Information
+In one- and two-player games, the information on
+the screen shows the current score, the number of
+snakes that have been eliminated and the current
+game level. The game level relates to the number
+of different types of snakes that are appearing and
+the speed at which the snakes are falling. In the
+
+===== Page 7 =====
+
+King Cobra Challenge, the score, number of snakes
+yet to be eliminated and the time remaining are
+displayed.
+
+Snake Moves
+
+Snakes fall into the playing field one at a time. Your
+goal is to guide the creatures so that they eliminate
+as many snakes of the same color and design as
+possible. You control the head of the snake,
+moving it to the left and right as it slithers down-
+ward. When the snake reaches a dead end, it will
+stop slithering and freeze in place. If the creatures
+below a particular snake move or are eliminated,
+the snake will slither down naturally until it reaches
+another dead end, eliminating snakes of the same
+type as it goes. This remobilization of the snakes in
+a pile can cause the entire pile to shift and shrink,
+leaving space for more snakes to fall.
+
+Special Snakes
+
+There are two types of special snakes that fall into
+the playing field at random: the Wild Snake and the
+King Cobra. The Wild Snake is a flashing creature
+that eliminates all of the snakes in the pile that
+match the first snake that it touches. The King
+Cobra is a creature that falls straight into the field
+with no input from the player and eliminates all of
+the snakes in its path. Both of these creatures can
+cause a cascading chain reaction and drastically
+change the pile of accumulated snakes.
+
+Before you begin playing WildSnake, use the
+Options Menu to set the playing conditions. Press
+Up and Down on the Control Pad to highlight the
+
+aNE
+PLAYER
+
+STYLE
+
+Pee
+
+GRID
+SHAPE
+
+various types of options and press the A or B
+Button to cycle through the choices. When the
+options are set to your liking, highlight the message
+“Game Start” at the bottom of the screen and press
+the A or B Button to begin.
+
+Game Type
+
+There are three types of WildSnake games: a one-
+player game, the King Cobra Challenge and a two-
+player game where competitors race to eliminate
+
+===== Page 8 =====
+
+the most snakes in two separate playing fields. The (n é Player ( am é
+
+one-player game can be played at Easy, Normal or
+Hard difficulty settings. The settings determine the
+
+number of different types of snakes that appear at
+the beginning of the game and the speed at which
+they fall. In the No Preview difficulty settings, the
+Preview Window on the game screen is not used.
+
+Style
+The Style Option determines the background art
+and the music to be played during the game. You
+can choose from the Desert, Forest, Water and
+Grassland styles.
+
+Grid Shapes
+
+Grid Shapes come into play only in the One-Player
+game. This option determines the shape of the
+playing field. There are eight different grid shapes
+which range from a standard vertical rectangle to
+an hourglass pattern to a field that is littered with
+obstacle blocks.
+
+The object of the single player game is to eliminate
+as many snakes and accumulate as many points as
+possible. As time goes on, snakes of additional
+types appear and the creatures fall at a faster rate.
+
+The game levels range from the Nestling level
+which includes four types of snakes falling at a
+slow pace to the King Cobra level with 13 types of
+snakes falling at a considerably faster pace. If you
+choose the Normal difficulty setting, you'll begin in
+the Black Snake level where six types of snakes fall.
+The Hard difficulty setting places you in the Boa
+level with eight different types of snakes.
+
+You'll earn points for each match. The points per
+match increase as time and difficulty progresses.
+
+===== Page 9 =====
+
+The King Cobra Challenge is a test of speed and
+matchmaking accuracy for one player. There are
+nine challenge levels with a qualifying round before
+each level begins. The challenges range from
+eliminating a certain number of total snakes to
+eliminating eggs with snakes of matching colors to
+building up a pile of many snakes with Cobras
+dropping into the playing field. All of the challenges
+must be completed in a set time limit. If you
+complete a challenge, you'll be rewarded by the
+presentation of a short animation sequence of the
+King Cobra in action.
+
+Two players go head-to-head in this split-screen
+game. The object is to outscore and outlast your
+opponent in simultaneous snake-matching action.
+
+eet
+
+is
+
+The game is set in the Normal difficulty setting and
+the standard grid shape is used for both playing
+fields.
+
+Making two or more matches with one snake will
+make the same number of obstacle blocks appear
+on your opponent's screen.
+
+===== Page 10 =====
+
+Here are a few things to keep in mind while you try
+to control your snake population:
+
+é
+
+1. As you steer a slithering snake, you can touch
+and eliminate more than one snake of the same
+type. Look for multiple elimination opportunities
+and choose your route wisely.
+
+| aaa
+
+2. Arrange snakes in columns at the bottom of the
+screen so that as many snakes as possible are
+exposed. This will make for a lot of matches and
+an easy-to-manage group of snakes.
+
+RESTS UN GS
+
+aie ARTIS,
+
+===== Page 11 =====
+
+4. Snakes vary in length. Make sure to position
+long snakes so that horizontal sections won't cover
+other snakes.
+
+NESTLING
+
+Asi gst
+
+3. You can make the snakes fall into columns by
+dropping them straight down, one square to the left
+or right of a snake or wall, then turning them
+toward the barrier as they hit bottom.
+
+5. Think ahead! When a new snake drops, be
+aware of where snakes identical to it lie. If an
+identical snake is exposed, use the dropping snake
+to eliminate it. If an identical snake lies buried
+under a different snake, position the dropping
+snake so that it will automatically cascade into its
+mate if the snake lying between them is eliminated.
+
+=
+z
+
+fe
+
+===== Page 12 =====
+
+i a NR i i
+(redits Notes
+
+ORIGINAL GAME BY J. S. C. GAMOS
+Original Concept
+Alexey Lysogorov
+
+Original Game Design
+Eugene Sotnikov
+
+PRODUCED BY BULLET-PROOF SOFTWARE
+Product Managers
+John Knoll Kris Wakida
+
+Special Thanks
+Scott Tsumura Sheila Boughten
+Patricia Whisler Betsy Scougale
+Alexey Pajitnov
+
+DEVELOPED BY MANLEY & ASSOCIATES
+Programming
+Doug Deardorff Timothy C. Benham
+Art Work
+Dave Philips
+
+Design
+
+Mark Rose Jeff Blazier
+Music & Sound Effects
+
+Robert Ridihalgh
+
+Project Direction
+Ivan Manley
+
+S
+
+===== Page 13 =====
+
+
+
+===== Page 14 =====
+
+4 2
+90-day limited warranty:
+
+Spectrum HoloByte warrants to the original consumer purchaser that this
+
+Game Pak (“Pak”) (not including Game Pak Accessories) shall be free from
+
+defects in material and workmanship for a period of 90 days from date of
+
+purchase. If a defect covered by this warranty occurs during this 90-day war-
+ranty period, Spectrum HoloByte will repair or replace the cartridge, at its
+option, free of charge.
+
+To receive this warranty service:
+
+1. DO NOT return your defective cartridge to the retailer.
+
+2. Notify Spectrum HoloByte’s Customer Support department of the prob-
+lem requiring warranty service by calling (510)522-1164. Our Customer
+Support department is in operation from 9:00 AM to 5:00 PM Pacific
+Standard Time, Monday through Friday.
+
+3. If the Spectrum HoloByte Customer Support Representative is unable to
+solve the problem by phone, he will provide you with a Return Authori-
+zation number. Simply record this number on the outside packaging of
+your defective cartridge, and return your cartridge postage paid, at your
+tisk of damage, together with your dated sales slip or similar proof-of-
+purchase within the 90-day warranty period to:
+
+Spectrum HoloByte
+
+Customer Support Department
+Attn: WildSnake SNES
+
+2490 Mariner Square Loop
+Alameda, CA 94501
+
+This warranty shall not apply if the cartridge has been damaged by negli-
+
+gence, accident, unreasonable use, modification, tampering, or by other
+
+causes unrelated to the defective materials or workmanship.
+
+WARRANTY LIMITATIONS
+
+ANY APPLICABLE IMPLIED WARRANTIES, INCLUDING WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE
+HEREBY LIMITED TO NINETY DAYS FROM THE DATE OF PURCHASE AND.
+ARE SUBJECT TO THE CONDITIONS SET FORTH HEREIN. IN NO EVENT
+SHALL SPECTRUM HOLOBYTE BE LIABLE FOR CONSEQUENTIAL OR INCI-
+DENTAL DAMAGES RESULTING FROM THE BREACH OF ANY EXPRESS OR
+IMPLIED WARRANTIES.
+
+The provisions of this warranty are valid in the United States only. Some
+states do not allow limitations on how long an implied warranty lasts or ex-
+clusion of consequential or incidental damages, so the above limitations and
+exclusion may not apply to you. This warranty gives you specific legal rights,
+and you may also have other rights which vary from state to state.

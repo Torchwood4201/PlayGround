@@ -1,0 +1,2374 @@
+# Liberty or Death
+source: https://archive.org/details/snes_manual_archive
+pdf: Liberty or Death (USA).pdf
+region: USA
+pages: 39
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER INFORMATION
+AND PRECAUTIONS BOOKLET CAREFULLY BEFORE USING YOUR
+‘INTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+Se
+
+7,
+au
+
+WELCOME TO THE KOEI WoRLD!
+
+‘Weare proud to introduce you to another
+dimension from the Koei word of quality games
+oe is committed to bringing you games led
+with excitement, challenge and intrigue. Our goal
+isto create top qualty products and provide
+excellent service for our customers,
+
+‘Asa Koei gamer, you are important to us and we
+
+value your opinions. Pease send us your comments
+‘and we will continue to bring you the best in
+interactive entertainment. Look for future releases
+‘from Koei to experience new realms of gaming!
+Thank you for exploring the Koei world,
+
+KOEI CORPORATION
+
+===== Page 3 =====
+
+Introduction eee
+I. Game Synopsis
+
+Table of Contents
+
+The Main Seren...
+Rais...
+Distt Dato
+Waring Factions
+Ofices Information Screen
+Officer Data...
+Regiment Data.
+Office Traits.
+The Command Tuten
+Fife Menu
+Main Menu...
+* Domestic Mens...
+* Materials Men.
+Personnel Men.
+
+Info Ment nn
+Ending the Command Tum
+IIL The Government Phase.
+
+Commissary and Quartermaster.
+Marine Committee Chairman.
+Helping Your Districts...
+
+IV, The Battle Phase
+5 Terrain’
+
+‘VI. History of the Revolutionary War...
+
+‘VII. Personalities of the Revolutionary War.
+‘Maps...
+
+IX. Acknowledgments
+
+===== Page 4 =====
+
+Introduction
+
+‘Atthe conclusion of the French and Indian War, Mother England saw the
+{reat competing povrers of France and Spain subdued and her empire
+and poste ree to grow. The dawn ofthis golden age, however, never
+arrived, The upheaval that prevented itcame from the most unitely
+
+} quarter. Brian's own colonies in North America, These colonies were
+populated with good Englishmen, rade with whom was highly valuable
+tothe Crown, However, because oftheir character. these men would not
+‘bear the same excesses irom the head of theirempire as those in
+Englands more foreign’ colonies The taxation and exploitation, intrinsic
+to the mercantile economy they supported, ist troubled then enraged
+these citizens ofthe Crown,
+
+The Thirteen Colonies began to strike back at their motherland, with,
+protests and boycotls, which were countered by armed aggression,
+Finally war became inevitable. The colonies created the Continental
+Army out ofthe rabble of militia gathered outside the city of Boston, a
+hotbed of revolutionary thought. itis here the story of Liberty or Death
+
+D) begins, As the Commander-in-Chief of ether the forces loyal tothe
+‘Cron, or those opposed to the unchecked power of monarchy, you
+‘must struggle for control over the destiny of North America.
+
+GAME SYNOPSIS.
+
+ey) Game Synopsis
+
+Basic Play
+
+‘The thirteen original colonies of North America, plus the Brish cofonies
+of Florida and Canada, are divided into 58 Districts. tis within these 53
+Districts thatthe batle forthe North American continent will tae place
+‘Tobe victorious you must skilfully manage your men and resources,
+being careful not to spread your forces t00 thin. You must also win the
+favor ofboth the people and the government to remain in power.
+
+In Liberty or Death, each game turn represents approximately two
+\wees, There are 2¢ game tums per year. tthe beginning ofeach sea-
+
+son, you must answer to your government. Currying favor with the gov-
+‘emment is essential to success in the game.
+
+‘The ability o field an army is more important than acquiring territory in
+this game. Using flet support effective in bate is also strategically
+
+important, Keep your regiments intact and deliver decisive blows against [7
+the enemy.
+
+===== Page 5 =====
+
+Controller
+
+Control Pad
+
+* Scroll through commands, subcommands and selections.
+
++ Marl positions for movement and batieield targets,
+
+* Press left or right o highlight Aye or Nay to YIN questions.
+
++ Press up or down to scroll through Officer iss.
+
++ Move the cursor arrow to point to Districts onthe District map.
+
+‘+ Number Input: Press left to maximize the value, press right to set the
+‘value to 2ero, press up and down to set specific values.
+
+Button A
+
+« Input commands, subcommands and selections
+
+* Select Aye or Nay to YIN questions, once highlighted.
+
+«Select the District highlighted by the cursor arrow.
+
++ Enter numbers on number input screens.
+
+Button B
+
+* Cancel commands and selections.
+
++ Escape from maps and information screens.
+
+* Answer Nay to YIN questions,
+
+UR Buttons
+
+«Scroll through adtional screens of information
+
+SELECT Button
+
+« Access the Options Menu from te Main Screen Display.
+
+START Button
+
+* Skip to the Game Setup from the openingstory.
+
+Selecting One Officer
+
+‘When an Officer ist comes on screen with only one officer selectable, use
+the up and down arrows on the Control Pad to highlight the Officer. Hit
+
+the A button to select the Olficer and the B button to execute the com-
+mand.
+
+Selecting Multiple Officers
+
+Use the up andl down arrows on the Control Pad to highlight the fist
+(Officer you wish to select from a fist. Hit the A button to select that Oticer.
+Using this method, highlight and select all other Officers you wish, After
+all Officers have been selected, ht the B button to execute the command,
+
+Wait Cursors
+
+‘Throughout the game, you will see wait cursors. A wait cursor appears
+‘when a message i too long to print ina single tet bubble. Wait cursors
+‘generally appear inthe lower right hand comer of text bubbles. When
+‘you encounter a wait cursor, read the message then hit any button to
+‘bring up the next ines of text
+
+===== Page 6 =====
+
+» EE
+
+’
+3 Key to Quick Play
+
+) This key to quick play wil introduce you tothe game, step by step. from.
+
+set-up to battle.
+Y)) Set-Up
+* Insertthe game pak
++ Tum the Super Nintendo Entertainment System ON.
++ The Liberty or Death opening story will begin. Press Stat to skip to
+Game Setup.
++ Select New Game.
+« Select the Player vs. Compute setup. (The player game will run a demo}
+Game Setups: Payers. Computer
+Player ws Player
+Computer vs. Computer
++ Select to play either the Americans or the British
+* Commander-in-Chief information will appear. Review the Circ
+information, Select Aye to confirm your selection.
++ Set Game Options: When all options are se, select Done.
++ Final Confirmation of Setting: Select AVE if you are content with your
+‘Commande in-Chief selection and your Options selections. The game
+will begin
+
+¥) Enter the Game
+
+* Continental Congress: Review budgetary information forthe season,
+
++ Request Support: Ask the Boarc of War Chairman and the Marine
+Commitice Chairman (America, the Secretary of War andthe Lord of
+‘Admiralty England) for support (Hint: We recommend requesting ad-
+tional regiments and joint attack support inthe Northem region).
+
+1 + Determine Oitcer Salaries: When the salary screen comes up, the Officers
+
+J ormal salary appears. Hit to set Oficer salaries (nt We recommend
+
+a allocating the normal salar)
+
+if
+
+RE SE
+
+ji
+
+‘ Determine Fleet Support Budget: Select Aye to allocate money for fleet
+
+|) * Main Screen Display, Advice: Review your acviso’s suggestions. |
+
+By Game Svvonsis}
+
+support. Ifplaying the Americans, select Ave to contribute tothe Ist fleet
+I playing the British, select the fleet to which you wish toad ships Input
+the numberof ships to add to your flet. (Hint I playing the Americans,
+‘we recommend maximizing leet support. playing the British. add 20-40
+ships to your Srd feet)
+
+* Determine Mercenary Support Ifyou are playing the British, you willbe
+given the option of metoenary support. Select Age if you wish to receive
+‘mercenary support Input the number of regiments you wish to hire
+(int: We recommend hiring the maximum )
+
+‘Determine Regiment Support Input the amount o allocate to your regi-
+‘ments (Hint: Spend your remaining funds on thisitem)
+
+* Review and Finalize Budget forthe Season: I you wish to change your
+allocations, select Nay. Select the budget item you wish to change. Input
+the new amount. When you are satisfied with your allocations, select Age.
+
++ Sea Control Review which sce has contro of the seas in the Northern,
+Central and Southern regions.
+
+* Go to Battle: When you are in a district adjacent 0 an enemy district,
+select MILITARY-BATTLE from the Main Menu. Move the cursor arrow to
+point to the enemy District you wish o attack Hitthe A button to select
+that District. Select the Officers you wish to send to bale. Hitthe B button
+tocconfirm your intention to go to battle. Input the number of Rations,
+eqs of Powder and amount of Gold to cary into bate Fyou are sats. |) i.
+fd wih yout allan eet Ae in Werecrmend at you tae J
+‘your advisors suggestion regarding bate rations and that you take twice |)
+‘smany begs of powder es you have troops going to battle. Gold isnot
+‘essential on the battlefielc,
+
+‘You may be ashed whether you wish o request reinforcements from
+adjacent friendly gartisons. the friendly Districts blue or red, you will
+be asked to select Officers to command reinforcement units. Select these
+Officers and confirm your decision to send reinforcements. Yournay ask
+
+‘more than one adiacent friendly district for reinforcements. =
+
+===== Page 7 =====
+
+LIBERTY oR DEATH
+
++ Division Placement on the Batleield When the batle screen comes up,
+‘you will be allowed to place your divisions onthe field of combat. Move
+the highlighted cursor toa pink highlighted square where you wish to
+place your division. Hit Ato place the division. Ate all your atacking
+troops are in positon, the enemy units will pear on sceen. A Battle
+Data Screen will appear glving information about the atacking and
+defending sides.
+
+‘+ Moving Divisions: To select unit to move, place the highlighted cursor
+‘nto the unit you wish to move. Hit Ato seect the unit Next, move the
+highlighted cursor toa pink highlighted square where you wish to move
+‘your unit and hit A. Ifthe unit does not have enough mobility © move
+‘again, the word DONE will appear. I the unit has enough mobility, a
+new area wil be highlighted, To proceed with te batt, please review
+‘The Batle Phase section of this manual
+
+* You can save your game by selecting SAVE from the File Menu atthe
+‘Main Screen Display.
+
+* Now you know the basics, good luck!
+
+Starting the Game
+
+tthe beginning of the game you may choose to play ether the British
+side or the American side. you select the American side, your character
+will be George Washington, Commander-in-Chief of the Continental
+‘Army. Ifyou select the British side, your character willbe Thomas Gage.
+(Commander-in-Chief ofthe Royal Army in North America
+
+Each Commander.in-Chiet is equipped with a diferent set of character
+attributes. fe capabiliies and limitations of each Commander-in-Chief
+vwillfead to different challenges in the game.
+
+*
+
+| GAME SYNOPSIS
+
+First Time Players
+
+lyou are playing this game forthe frst time, we suggest that you
+play on the American side, withthe Game Level eto Pasy. Liberty
+‘or Death s much more challenging to win while playing on the
+British side
+
+Victory Goal
+
+‘Towin Liberty or Death, eliminate the entire enemy force or cause your
+‘opponent's government to admit defeat. If your opponents government
+‘oes io dismiss its Commander-in-Chief,orif the enemy Commander-
+{n-Chiefis eliminated or imprisoned in battle, the game will continue with
+a diferent enemy Commander in-Chiet. Ina two-player game, if the
+‘opposing player is eliminated, a computer controlled Commander-in-
+Chief wl ish the game fr the player.
+
+Defeat
+
+‘The game's lost when you ae dismissed, when your goverment capitu
+fates, when you are eliminated or imprisoned in battle, or when your
+
+entire army is defeated. If you wish, you may continue to watch the com-
+puter play after a new Commander in-Cief is installed I
+‘The game ends automatically with the passing of King George Ill on \
+January 1, 1820, with a default victory for the American side.
+
+===== Page 8 =====
+
+(The Main Screen
+
+.
+
+4, District Data
+2. Cin€
+
+'5 Map of North America
+44 Main Commands
+
+‘Te main screen display is composed of a District Map, which displays
+‘one ofthe three regions ofthe North American Colonies, the Command
+Menu, which contains the commands for game play, and the District
+Data. which displays information about the District whichis presently tab-
+ingits command tur,
+
+(On the District Map the coastal Districts ofthe New England Colonies are
+‘numbered in Light Blue, those of the Middle Colonies are numbered in
+Green, and those of the Southem colonies are numbered in Yellow.
+
+Officer Ranks
+
+Whenever an Officer list screen appears, the rank of the Officers in the
+Dari willbe dpayed to the eto the Oficersname, Here are the
+ranks rom forest highest
+
+[conan a
+
+| THE MAIN SCREEN |
+District Data
+
+‘The top half ofthe District Data gives the following information: the dat,
+the abbreviation ofthe state where the Districts located, the District num.
+ber, the District name, and finaly, the picture tle and name ofthe District
+commander.
+
+‘A second District Data Screen can be accessed by hitting the Lor R arrows
+6 the control pad. The numberof fleets available in the District will
+appear at the top of the second District Data Screen,
+
+First Screen
+
+(On the first screen of District Data, the District Data loon areas divided,
+into two sections. The lef section gives Human Resource information,
+
+‘The right section gives Material Resource information (See screen
+shown above),
+
+Human Resources
+
+Soldiers: The otal number of troops assigned to Officersin the District,
+Generals: The number on the right shows the total number of Oficers
+in the District.
+
+Ifyou are playing on the American side, the number on the let shows the
+‘numberof Continental Army Otticers inthe district. District Oftcers who
+are not in the Continental Army may be Offices of the Revolutionary
+Militia, or Officers ofthe French or Spanish Army. (See Warring Factions)
+1 you are playing on the English sie, the number on the let shows the
+number of Royal Army Officers in the district. District Officers who are
+notin the Royal Army may be Officers ofthe Loyalist Militia,
+
+‘Support: Describes the level of approval the citizens ofthe District
+have forthe side that contros their District. This is shown asa percentage
+(1-008)
+
+===== Page 9 =====
+
+eee
+
+LIBERTY OR DEATH
+
+"Material Resources
+
+I th FS Gold: The amount of gold available in the District. Gold can be
+Vai used to purchase Ratons, Powder, Arms, Cannons, and Boas.
+i ‘ Gold can also be used to print Gazettes, recruit Officers, bribe
+uy ‘enemy Ollicers, pay Officer bonuses, or send spies to gather
+Ta information about enemy Districts.
+
+ations: The amount of raons available in the Dic, I'you
+‘un out of rations during a battle before you defeat the enemy.
+‘you will lose the battle.
+
+Powder: The amount of powder available in the District,
+
+EE cers aninponan sup oa ey, Teves
+your army on the battlefield is greatly reduced without it
+
+Second Screen
+
+‘The bottom half ofthe second District Data screen is also divided into
+Human and Material Resource sections. You can return tothe first District
+Data screen by hiting the Lor Barrows on the control pad.
+
+Fig ne Pe eee otto eats msiein eis.
+
+[EB (2r2te Me eum of rot units erate inne isi
+
+Artillery: The number of Artillery units avilable in the Dstt.
+(Gee Unit Types for more information).
+
+Economy: Shows the overall economic growth ofthe District.
+Borrowings only allowed in Districts with strong economies.
+(Gee Domestic Menu).
+
+L THE MAIN SCREEN
+Prices: Shows the general trend of the cost of goods, suchas
+‘Cannons of Rations, This data i displayed as a range of 50% (hall
+the normal price) to 200% (twice the normal price)
+
+‘Cannons: Shows the number of cannons available in the
+District. One cannon unit represents enough cannons to supply
+an artillery unit of 250 troops, Arillery units are much more effec-
+tive in battle when supplied with cannon.
+
+Warring Factions
+
+tthe beginning ofthe game, you choose the side of the Americans, who [9
+control the Continental Amy, or the British, who control the Royal Army. [
+Your allied forces are controlled by the computer up until the time you
+
+recruit these forces. Allied forces can be recruited or can provide rein- |
+{orcements when you launch an attack on the enemy.
+
+| The alled forces ofthe Continental Army are the Revolutionary Milita,
+the French Army and the Spanish Army, The only allied forces ofthe
+Royal Army are the Loyalist Mila
+
+‘You may enter an allied district by and or by sea. When you enteran
+allied district, the highest ranking oficer in the district will automaticaly
+become the istrict commander. If you move fow ranking Continental
+Officer into a district with higher ranking allied Oficers, the top ranking
+allied Oficer wil remain in control of the district. If there are nm0 Oicers
+‘of equally high ran in a district, district command willbe given tothe
+Continental or Royaf Otficer over an allied Officer. IFthere are two allied
+Officers of equally high rank in a district, district command will be given
+to the allied Officer with the highest total abilities.
+
+===== Page 10 =====
+
+ra”
+
+| There are sx factions struggling for power in the colonies:
+
+Continental Army (Blue): Officers and troops enlisted and serving
+inthe American armed forces under General George Washington.
+Royal Army (Red): Officers and troops enlisted and servingin the
+British armed forces under General Thomas Gage.
+Revolutionary and Loyalist Miftas are Volunteer armies which emerge
+from different districts. Revolutionary and Loyalist regiments form when
+‘enemy forces threaten their home sate. When the enemy threats
+| removed, these regiments will disband and their district will become a
+neutral cstrict
+
+Militia (Green): Officers and troops which are allied
+‘withthe American Continental Army.
+Loyalist Militia (Pink): Officers and troops which are allied with the
+British Royal Army.
+French Army (Light Blue): Units of troops which are alied with the
+‘American Continental Army.
+‘The French forces allied with America will onty appear after the
+‘announcement of the French Alliance (See Historical Events). These regl-
+rents will appear with a fleet, by sea. The regiments will move into
+‘coastal Districts occupied by friendly forces. Ifsuch Districts are unavail-
+able, they will move into neutral Districts. If no neutral Districts are avail-
+able, they will atack a coastal District held by the enemy in an attempt to
+‘gain teritory the attack does not succeed. the French will withdraw.
+Districts commanded by the French will receive money from abroad
+‘each quarter.
+‘Spanish Army (Yellow): Troops which are alied with the American
+‘Continental Army.
+‘The Spanish forces allied with America will only appear after the
+‘announcement ofthe Spanish Alliance (See Historical Events). Spanish
+units will arrive inthe Southern Colonies either by land or by sea. To
+enter the conflict, Spanish units use the same strategies as French units,
+
+&
+he
+
+ELIOP
+
+NOTE; When the armed forces sted above occupy a District the
+District will change to the cofor of the occupying amy, During bate,
+the Continental Army and its allied forces will appear in Bue, and the
+Royal Army and is allied forces will appear in Red.
+
+‘When you view an Olficer (INFO-OFFICER). information is displayed on
+special Officer Information Screen, Officer attributes are displayed in
+fierent colors to indicate the Officer’ strength in that are:
+
+Green: Strong Yellow: Average Red: Weak
+
+Officer Information Screen '
+
+Inthe example showin above, the Olficer Aaron Burris strongin Body
+and Men average in Loyal Arms and Moral, and wean Training.
+Since trainings Aaron Burr's weakest area, the player should consider
+
+training Aaron Bur’ troops. y
+
+Officer Data
+‘Name: If the Officer is a District Commander, a “DC” will appear to the
+left of his name.
+
+Portrait, Rank, Regiment Name: To the right of the Otticer’s por-
+trait you wil find the Oficer’ rank andthe name ofthe regiment he
+
+===== Page 11 =====
+
+LIBERTY oR DEATH
+
+Unit Type: Specifies the type of troops serving under the Office. Unit
+‘Typesare showin graphically The four Unit Types include Infantry.
+Cavalry. Guerilla and Artilery units (See District Data Icons),
+
+Officer Health: Gives the piysical condition ofthe Otficer. Officer
+Health is shown graphically
+
+Boddy: Describes the Oicer' physical ability to perform tas and com
+‘mands, The frst number shows the Officers present Body status. The sec-
+‘ond number shows the Otficers maximum Body status, The Officers
+resent Body status changes as he receives orders ori affected by sick-
+ess.
+
+Loyalty: Shows the Otticer’s loyalty to his Commander-in-Chiet. No
+‘umber is displayed forthe Commander-in-Chief himself. This umber
+changes depending on the treatment the Officer recelves throughout the
+game.
+
+Regiment Data gies information specific to the Officers regiment With
+the exception of Men, Regiment Data ranges rom 1-100.
+
+9) Men: the number of men presently enlisted in the regiment compared
+{othe possible maximum. The maximum number depends on the unit
+‘ype: Infantry units may have up to 500 men. all others units may have no
+‘more than 950 men. The number of men in a unit may change if the reg-
+‘ment sufers casualties from war or dlsastrous events
+Training: Shows how well riled the officers regiments (See Miltary
+Menu). The training of a regiment determines how ready the regiment
+vill be to fightin bate.
+Armas: Describes what percentage ofthe regiments equipped to wage
+‘war against the enemy. This figure may be improved by buying arms and
+‘may decrease in war. (See Materials Meru)
+Morale: Describes the soldiers’ enthusiasm for fighting. morale drops
+{00 fow, you may have a mutiny on your hands! Morale can be raised by
+‘ving bonuses or furloughs. (See Personnel Menu),
+
+Officer Traits give values between 1-100 to the abilities of your officers
+‘These traits do not change throughout the course of he game.
+Leadership: Describes the Otficer’s ability to lead men and to acton his
+‘own initiative.
+
+‘Tactics: Shows the Otticer’s knowledge of war as well as his sheer cun-
+ning and abiliy to devise winning strategies on the battlefield,
+Discipline: Describes the Office’ ability to receive and carry out orders
+and to understand hs place in the military hierarchy,
+
+Reputation: Describes how the Olticers seen by others. This figure
+‘changes according tothe deeds an Officer perform,
+
+===== Page 12 =====
+
+The Command Turn
+
+‘The Command Tum rotates between Districts in each ofthe three regions
+‘on the main map: the Northern, Middle Colonies and Southern Colonies.
+‘At the beginning of the command turn, one of these regions will be
+selected at random. Once a region is selected, each District in the region
+és allowed to ssue commands for that tum, The total command turn rota
+tion covers two weeks of game time.
+; | File Menu
+‘The File Menu can be brought up from the main screen display by hitting
+the Select button The File Menu contains the following commands
+‘Options: By selecting OPTIONS, you can change the Message speed wait
+time, the game Level, whether the game Music will be played in mono or
+stereo, whether to view Battles you are not involved in, whether to view
+‘Animation, and whether to receive Advice from an Advisor at the begin-
+ning of each game tum.
+Hot Keys: Allows you to assign particular commands to the X button
+and the Vbutton. Ifyou use a command combination consistently
+throughout the game, you may want to define it as a Hot Key,
+1 Save: Record your current game for future play. Up to two games can be
+saved.
+‘Quit Player: You can exit the game with this commad. If you are play-
+“| inga two-player game, the 2nd player will be given the option of staying
+in the game when you quit. If you are playing a one-player game, you
+‘can choose to watch the computer finish the game for you,
+‘Quit Game: Exit from Liberty or Death,
+‘Restart: You can use this command to restart the game from the open-
+| ingset-up.
+
+Main Menu
+
+‘The Main Menu isthe command menu which appears on the Main
+Screen Display. There are five Main Menu categories: Domestic, Material,
+Personnel, Miltary, and Info Menus.
+
+‘Many commands can only be carried out by the Commander-in-Chie.
+Other commands can be carried out by any Officer with the required
+‘number of Body points. Commands will decrease the Body points of the
+officer executing the command. The Body point cost of a command will
+be shown on screen,
+
+* Domestic Menu
+‘The commands contained within the Domestic menu deal with the
+domestic duties ofrunning a District. These commands affect Popular
+‘Support inthe District. the balance of materials between Districts, and the
+debt incurred by the District,
+Parade: Any Regiment, Body Cost = 40
+‘Throw a parade to raise Popular Supportin a District. Send as many
+regiments as you lie to takepart in the parade. The more regiments
+‘you choose to parade, the more likely the spectacles to stir up sup-
+port for your side
+Gazette: Any Oricer, Body Cost =
+‘A propaganda broadside will be written to raise Popular Support in
+the District. Officers with high Tactics abilities are better able to
+ridicufe the enemy and gain the support of the local populace.
+‘Sends Any Officer, Body Cost =30
+Send Supplies Rations, Powder, Gold) to adjoining Districts by land,
+CF fo more distant Districts by sea the flet at port Keeping |
+Districts well supplied willbe a crucial strategicfactor in this game, NI
+Dont let District fallto the enemy merely because they are poorly fy
+supplied! :
+
+===== Page 13 =====
+
+LIBERTY on DEATH
+
+Borrow: Cin. Body Cost =20
+Borrow money from financiers in wealthy Districts. Borrowings
+only allowed in Districts with strong economies. Although you can
+pay off loans over a long period of time. this command should be
+used sparingly.
+* Materials Menu
+The commands listed under the Materials Menu deal with the purchase of
+Rations, Power ancl Arms, and the construction of Cannons and Boats.
+These commands are essential to keeping District troops well supplied,
+Buy Commands: Any Officer, Body Cost = 20
+‘When using Buy Commands, the cost of the materials you wish to
+buy depends on the Price rate inthe District. Quantities of goods may.
+be limited and the cost of goods may be high unless the Dutch
+‘Merchant i in the District. (See Tum Events)
+* Rations
+‘Send an Officer to market to purchase rations for the garrison.
+Strategically itis important to Reep at least as many units of rations
+fom hand as there are troops inthe District.
++ Powder
+Having a sufficient supply of gunpowede is essential toa Districts
+effectiveness in battle. tis wise to keep twice as many units of gun-
+‘powder on hand as there are troops in the District.
++ Arms
+‘Send an Officer to buy arms forthe garrison. After purchasing
+‘arms, you will distribute them among the regiments, WelF-armed
+‘troops will increase a District's effectiveness in bate
+Build Commands
+‘+ Cannon: Officer with Tactics > 70, Body Cost = 40
+Construct cannons and distribute them to your artillery
+
+regiments, These guns willbe ready for use in battle within
+‘one command tum,
+
+U THE MAIN SCREEN |
+
+* Boats: Oficer with Tactics > 50, Body Cost = 40
+Auunit equipped with boats will beable to cross deep water in
+‘order to engage and attack enemy units located across rivers and.
+other deep bodies of water
+
+* Personnel Menu
+‘The commands contained in the Personnel Menu deal with Recruling
+new Officers, Bribing enemy Officers, giving Bonuses and Furloughs to
+Officers and authorizing allied District commanders o tae command of
+bey Districts
+Recruit: C-in-C or DC, Body Cost =
+Aska miftia leader in an adjacent District to place his forces under
+‘your command, Not that the Continental sie can recruit ont from
+the Revolutionary side and the Royal se can recruit only from the.
+Loyalist side_Select the District to recruit rom and the amount of
+Gold to oer. fsuccessful all regiments in the District will become
+regular units (Continental or Roya) under your control
+Bribe: Any Otticer, Body Cost = 40
+‘Askan enemy Officer in an adjacent District to join your side. Select
+‘which Officer should offer the bribe, which District has an Officer you
+‘wish o bribe, which Oiticer you wish to bribe, and how much Gold
+to offer in the bribe. you are successful, the Officer and his regiment
+vwillfall under your control
+
+NOTE: You must use the SPY command o gather information about
+the Olicer ou wish to bribe before you wil be allowed to make a
+bribe offer.
+
+Bonus: C-in-C or DC, Body Cost = 90
+
+Give gold to increase Oificers Loyalty and regiments Morale, Choose
+the Regiment o receive the bonus and the amount of Gold to give,
+Furfough: C-in-C or DC, Boxy Cost=99
+
+Give troops a vacation of up to six weeks, or 3 turns. furlough
+increases Officers Loyalty and regiments Morale, Units will be
+
+===== Page 14 =====
+
+i
+j
+
+i
+
+unavailable forthe numberof tums you allow them leave Select the
+Regiment to Furlough and specify the number of tums allowed for
+Furlough,
+‘Authorize: C-in-C only, Body Cost=0
+Give control ofa Distict toa District Commancler. The District
+Commander will carryout all monthiy commands forthe District.
+The Authorize command can be used to cancel delegated authority
+and to regain direct contol ofthe District.
+© Military Menu
+‘The commands contained inthe Miltary Menu all directly affect the
+Regiments in a District. The Miltary commands allow you to Move
+‘troops, to Draft new troops to send a unit to itshome District to Re-form,
+to Dil iroops, to go to Batle, and to Organize troops under the Oticers
+ina District
+‘Move: Any Regiment, Body Cost = 50
+‘Send reyiments by land to adjoining Districts. the flet sn, ou can
+send regiments o adjoining or distant coastal Districts by sea, Select
+the Regiments to send, the District to move to, and the materials to
+bring: Rations, Gold, and Power.
+Draft: Any Otficer, Body Cost = 99
+{Ada troops to existing regiments. Choose an Oificer with high
+Leadership abilities to Draft the troops. The more money you spend,
+> the more likely youl be able o recruit the maximum number of
+‘men, tis possible to entirely rebuild a regiment with new recruits,
+but they will need traning. Ifyou wish to improve the regiment’ gen-
+eral condition, the Re-form command s more effective than Draft
+Re-form: Cin-C or DC, Body Cost =90
+Increase the number of men in a regiment to the maximum troop
+level. You can Re-form a regiment by sending the regiment othe
+‘War Office, Aftera certain number of game tums, the regiment wil
+return with alls soldiers ready for combat, Note that while a reg-
+‘ments being re-formed. twill be unavailable to perform commands
+‘or go to battle
+
+Drill: Any regiment, Body Cost =40
+‘Train your District's regiments. Driling regiments wil increase theit
+‘atl sil. Training may be increased up to 70 through repeated
+drill, The regiment must participate in battle to raise Training sil
+above 70
+Battle: Any Regiment, Body Cost = 40
+Send regiments to attack adjoining Districts by land. More distant
+Districts may be attached by ea fe fleets at por. Choose the
+District fitest Regiments, supply them with Rations, Powder. and
+Gold, then deliver a decisive blow o the enemy,
+Organize: Any Officer, Body Cost =0
+Recistribute cannon and boats among your regiments to make your
+fighting force more formidable.
+‘Commandeer: Any Regiment, Body Cost = 40
+Order a regiment to take rations from the ctzens of a District by
+force. Suppor in te District will decrease. District Rations will
+increase
+
+Info Menu
+Officer: C-n-€ or DC, Body Cost
+‘View information about the Oficersin the District, to examine thelr
+sirens and weaknesses
+District: C-in-C or DC, Body Cost =0
+‘View data conceming Districts under your controfas wel as neutral
+Districts you are considering acquiring You willbe allowed to choose
+subcommands which will allow you to view the Districts Officer
+information screen, or the District terrain map.
+Government: C-in-€ or DC. Body Cost
+Examine the Trust the members of your government have in your
+leadership.
+
+===== Page 15 =====
+
+LIBERTY on DEATH “y
+
+‘States: Cin-C or DC. Boxy Cost =0
+
+Review information about the different colonial states, sch as
+Popular Support, Income, and the number of Districts occupied in a
+particular state
+
+‘Spy: Any Officer, Body Cost =30
+
+Gather information about an opponent’ strength. Choose an Officer
+‘with high Tactics to be a Spy. You wl be given acces to the enemy's
+Officer Information, District Data, and Terrain Map. lithe Spy is
+caught, he will be removed from the game and his regiment wil dis-
+band.
+
+NOTE: You must use the SPY command to gather information about
+‘an Officer you wish to Bribe before you try o Bribe hi.
+
+a
+) Ending the Command Turn
+») After you have ordered your Officers to execute commands for the pre-
+‘sent command tum, you will be ready to end your command tum. When
+‘the Main Menu is on the Main Screen Display, hit the B button to Rest.
+
+: @ The Government
+
+a Phase
+
+A the beginning ofeach quarter (before January 1, April July andl
+October 1) there willbe a Government Phase. During the Government
+* Phase, ou must answer tothe politicians in your goverment and try to
+| gain their support.
+"Inthe Govemment Phase, any income from the previous quarter willbe
+totaled and displayed. The Navy Officer will report on any goods seized
+| atsea and the Foreign Officer will report on foreign aid, This income will
+| be added to your new budget
+(On the basis ofthe overall trust ofthe government, a certain number of
+| Promotions wil be awarded. The Commander-n-Chief may then distrib
+‘ute these to the Oficer he feels are most worthy, Note thatthe
+‘Commaner-in-Chif may choose not o award all promotions and that
+Officers may not be promoted more than once per quarter. Promotions
+
+Rank = Quarterly Salary Per Rank
+
+Capiain 150
+Major 210
+Colonel 370
+
+General 300
+
+===== Page 16 =====
+
+“i
+
+Vote of Confidence
+
+Ifsix or more poltcians agree that you are not doing well they may call
+for a Vote of Confidence. If two-thirds ofthe government votes for your
+dismissal. you will be removed from your past and another Commander-
+in-Chief will be selected Ifyou are removed from office you wil lose the
+‘game.
+
+Budget
+
+Each Site gives money to the Goverment which it suppor’, The
+amount each sate paysis pais base on the Economy, Popular
+Suppor, and potitcal Trust ofthe state
+
+‘Some States may pay the Government in Ratons instead of Gol. The
+ations are given tothe Commissary Generali te Allocation Phase
+‘The Royal Army wil receive adktionel funds from overseas,
+
+‘Once income from the sates s received, you can set new monthly
+salaries for your Oficers You can deci to hold the payment ofthe
+Officers’ salaries and use the money elsewhere in your budget, however
+Officer Loyalty will decrease
+
+Making Requests
+
+‘As Commander-in-Chief, you may make speciic requests to the
+Government if you are needy in some areas.
+
+you are playing on the American side, you may ask the Marine
+Committee Chaitman for fleet assistance, You may also ask the Board of
+‘War Chairman for new regiments and Otficers, you need them. Ifyou
+request new regiments, the Board of War Chmn will decide how many
+‘new regiments to mabe based on the average Trust of the Government.
+Regiments will be chosen from the reserve at random. The Board of War
+‘Chmn wil tll you where the new regiments will come from and how
+‘many there will be. You can ask the Marine Committee Chmn to attempt
+‘to gain sea control in one of the regions, perform a oint attack, or rans-
+
+port troops
+
+‘THE GOVERNMENT PHASE |
+
+IHyou are playing on the English side, the Secretary of War and the Lord
+‘of Admiralty will perform the same functions asthe American Board of
+War Chairman and Marine Committee Chairman, respectively
+
+Ifyou are playing on the American side and ithe French and Spanish
+‘Armies join the war. you may also make requests to their Marine
+Committee Chairmen.
+
+Allocation Phase
+
+‘The Allocation Phase isa part ofthe Govemment Phase. During
+Allocation, the amount of Gold, Powder, and Rations which each depart:
+‘ment receives from the Government will be displayed.
+
+In the Allocation Phase the player controling the British se will be able
+to.use Gold to buy Hessian Mercenary Regiments. Each Mercenary
+Regiment costs 100 Gold, Mercenary Regiments are formed throughout
+the game and wil be aveilabe for recruit only during the Government
+Phase.
+
+Military Department
+
+In Liberty or Death, there are Officers who are in charge of supplying
+the naval backup, ations and Gunpowder necessary for the
+‘Commande in-Chief’s efforts. During Allocation, these Officers ask for
+the adltional funds they may need to accomplish these tasks.
+
+In addition, you must allocate Budgetary Funds forthe season. You must
+decide how much to pay your Offices, how much to provide to the
+‘Commissary and Quartermaster, whether to increase the number of \
+ships in your fleet, whether you need mercenary suppor and how much |)
+to pay your regiments. See Making Requests) a]
+
+===== Page 17 =====
+
+ie ae
+
+LIBERTY oR DEATH
+
+Commissary and Quartermaster
+
+The Commissary General and Quartermaster General wil receive goods
+
+during the Gonemment Phase. Raions are given to the Commissary
+
+General Pomlris given othe Quartermaster General
+
+|The Commissary General and Quartermaster General decide whether to
+
+|) asbformore money or goods afer determining ial the regiments on
+‘Your side have sufiient Supplies
+
+Marine Committee Chairman
+|) The Marine Committee Chairman decides whether to as for funds for
+[Your lest based on acomparon of your eet strength ane enemys
+| fleet strength I your fleets at maximum strength, the Marine Committee
+1 ‘Chairman will not ask for your support.
+
+Helping Your Districts
+
+ter cstributing funds to your Otficers, you can distribute whatever
+Gold remains to your Districts. When al the Golds distributed, ou will
+bbe asked to confirm your choices ancl complete the Allocation Phase.
+‘The Rations and Power ar allocated to Districts on each side before the
+next Command Turn begins Rations and Powder are distributed evenly
+among all Districts eld bythe regular armies of your sid.
+
+@ The Battle Phase
+
+Battles take place during the Command Turn after a C-in-C or DC launch-
+‘san attack with the Battle command. A maximum of 52 Regiments andl 4
+fleets may attack an enemy District at one time, asdescribed below: |
+
+Attacking Regiments {4
+Attacking Units: 8 Regiments Max + 2 Fleets t
+Reinforcement Unit 1; ‘6 Regiments Max. i
+Reinforcement Unit 2: 6 Regiments Max
+
+Defending Units: 20 Regiments Max +2 Fleets
+Reinforcement Unit 1: 6 Regiments Max
+Reinforcement Unit 2 6 Regiments Max
+
+‘The maximum length of a battles 15 days. Each day is split up into si.
+tums for a maximum of 90 tums per bat. The Atacking Units or
+Defending Units may bring two fees to bait ether by going to battle by
+sea or by requesting Joint Attack Support during the Govement Phase
+‘The Defender must already have one or more flees inthe.
+
+District to battle by sea. Reinforcements may not arrive by sea, nor may.
+the District Commander pantcpate in the battle.
+
+During battle, the Continental Army and its allied forces will appear in
+Diu, and the Royal Army and its allied forces will appear in Red.
+
+===== Page 18 =====
+
+Terrain Types
+
+“Ferrain Bonus: The bonus points which willbe added or subtracted
+from your defensive ability on speciic Terrain,
+
+Clear: Mobilty Cost = 5, Terrain Bonus =0
+iain or fat land, Clear terrain isthe easiest to move through, but
+provides litle cover.
+
+Forest: Mobility Cost = 4, Terrain Bonus =-1
+
+Tree-covered land which only Guerilla and Cavalry units may
+center. Units which enter the Forest disappear from view and can
+‘ambush passing enemy unit.
+
+‘Hill: Mobility Cost = 5, Terrain Bonus =-1
+
+Land with raised ground that provides a tactical advantage for
+any unit. hill fairly dificult t climb.
+
+{Eq Mountain: Mobility Cost = 5, Terrain Bonus =
+Raised and rocky ground which only Guerrilla units may climb.
+‘Guerrilla units can ambush passing enemy units from Mountain.
+positions.
+
+ee
+
+Shallow: Mobily Cost ~4, Terain Bonus = 1
+{A Shallow water area which a unt may cross without building a
+Bridge or using a Boat. Shallows are dificult to enter, Boats may
+pass through Shallow; flets may not.
+
+Bae Bridge: Mobility Cost = 5, Terrain Bonus =1
+‘Ariver or lake area with abridge built across it. ridges can onty
+be builtby Arilery units. Bridges can be crossed by any land
+based unit, but not by Boats and Flees, Bridges can be destroyed
+by Antlery units, or by Fie Shins
+
+‘Sea: Mobility Cost =5, Terrain Bonus = 0
+‘An open sea area, Only Flets and Boats can cross the Sea.
+Bridges cannot be built across the Sea
+
+#5 Town: Mobility Cost = 4, Terrain Bonus =-2
+af An inhabited area, Towns provide some cover from attack. but
+Gitizens may be angered by the forces occupying the town,
+
+(eFsl
+
+Fort A: Mobility Cost = 4, Terrain Bonus = 4
+An area with a strong Fort. These Forts come wit reinforced walls
+and optimum Cannon positions.
+
+Fort B: Mobily Cost = 4, Terrain Bonus = 4
+‘An area with an average For. Type B Fors have fewer defensive
+advantages than type A Ports.
+
+Unit Types
+‘The Mobility Points of each Unit Type are renewed at the beginning of
+each battle turn.
+Infantry: Mobility Points =3
+Infantry units are foot soldiers. Infantry units were also known
+a5 "Guards or “Line Regiments” during the Revolution. An
+infantry unit can exceute a special Bayonet attack on any enemy is
+positioned outside Forts or Towns.
+‘Normal Attack: Musketry
+Special Atack Bayonet Charge
+
+‘Cavalry: Mobily Points =7
+‘Cavalry nits are soldiers on horseback. At the time of the
+Revolution, they were also known as "Dragoons’. I atackinga
+
+‘weal enemy unit, Cavalry units can do much damage by Changing and
+
+Ambushing the enemy. A cavalry unit can execute a special Charge attack
+
+Con any enemy units positioned outsice Forts or Towns. Cavalry units can
+
+launch special Ambush attacks from Forest pesitions.
+
+Normal Attacks Saber & Pistol
+
+===== Page 19 =====
+
+# pays
+
+‘LIBERTY OR DEATH
+
+‘Special Attack: Change
+Special Attack: Ambush (surprise attack)
+
+Guerrilla; Mobility Points = 5
+
+Guerrila units were known as “Rangers” in the New World and
+
+as “Jaegers” (German for hunters) in Europe. This versatile unit
+
+can execute special Ambush attacks from Forestand Mountain positions.
+‘Normal Atta Riflery
+Special Attack: Ambush
+
+Artillery: Mobility Points =
+Arillery units are tremendously skilled in the art of war, During
+the Revolution Artillery units were also known as “Engineers”
+due to their ability to build strategic structures on the battlefield, Arillery
+lnts have good firepower when equipped with Cannon and are indis-
+pensable for building bridges across rivers.
+‘Normal Attacks: Mushetry or Hand-to-Hand (i without cannon)
+Barrage: Cannon
+(Note: No damage is done to the attacking unit in Barrage attacks.)
+
+Fleet: Mobility Points =5
+Controlled by the computer, the let can deliver devastating
+Barrage atacks against enemy positions Flees utilize their own
+Pourdler supplies for attacks, and do not decrease land based Powder
+supplies.
+
+Normal Atack: Barrage.
+
+Auack Strengh: — 30'when atacking adjacent unis
+296 when attacking non-adjacent units
+
+Fire Ship: Mobility Poins = 5
+Flets or Boats may be turned into Fire Ships and launched in
+an attempt to sink or weaken enemy Fleets or Boats To launch a
+J Fire Ship, you must setitsdection towards an enemy Fleet or Boat
+
+|| Onse launched. the ship will coninue inthe same direction unl itruns
+Into something ors extinguished.
+
+‘Attack Strenggh 96
+
+cE
+
+| Battle Commands
+
+Inorder to issue orders to battlefield unit, you must first select a unit
+“Move the cusor with your control pad untilitis positioned on the unit
+‘you wish to sect. ithe A button to select the unit.
+
+‘The area around the unit you select will highlight Pink or Yellow, as
+described below. Once highlighted, you may issue the following com-
+mands
+
+Move
+
+Enteran adjacent area, Moving i limited by the units Mobily Points and
+the Terrain in the District. (See Terran Types)
+
+After selecting a unit. move the cursor with your control pad to select a
+Pink highlighted area where you wish to move. Hitthe A button to move
+‘When a unithas expended its Mobility Poins, the word “Done” wl
+‘appear on the unit
+
+Ifyou have selected a unit which is adjacent o a Bridge, but is not an
+
+© Arillery unit, Blue highlight will appear on the Bridge. IF you select the
+
+Bluehightighted area, the unit will move onto the Bridge.
+
+Attack
+
+Al Regiments can launch attacks on adjacent enemy unis, Once you
+have selected a unit, adjacent enemy units will be highlighted in Pink
+Move the cursor with your control pad to select the enemy unit you wish
+to attack and hit the A button to attack that unit. Regiments can attack
+adjacent enemy unis after moving ifthe regiment has enough mobi
+Artery units can atack enemy units which are two spaces away. This
+battle technique can be used to effectively attack enemy units using Forts
+for defense.
+
+Bayonet Charge
+Besides damaging the enemy. a bayonet charge can dislodge an enemy
+
+‘nit from its poston. The chance fora successul attacks based on the
+‘numberof mem inthe unit and the Training of the atacking unit.
+
+===== Page 20 =====
+
+Charge
+
+During a Charge, a Cavalry unit attempts to Torge through a defending
+uni If the Charges succesful, the Cavalry unit will move through the
+enemy unit The chances of an enemy unit being moved out of postion
+|) crofan Officer being eliminated increase during a Charge
+
+uy) Build Bridge
+| Only Anilery units can build Bridges. Officers with high Tactics abilities
+7 axe more likely to succeed in constructing abridge.
+1) In order to build a Bridge, you must first select an Artillery unit adjacent
+to Water. After selecting a unt. Yellow highlight will apear on the
+|) Water. fyou select the Yellow highlighted area, you will be given the
+‘opportunity to build a Bridge over the Water.
+
+4. Blow Up Bridge
+Cnty Arr units can bow up rls, ices with high Tactics bil
+| es are more likly to succeed in demotshing Bridges.
+Inorde to blow up a Brie, yourmust fist select an Ailes united
+centioa Bridge. Ate seletng the unit Blu highlight wil ppear on
+BP) the becige tt you selec te Ble ighlghed are, you wil be gen the
+‘options of moving onto the Brege or bowing up
+
+Battle Options
+
+|) baxte Opions can be accesetbyhightgtinga unitwith the cursor,
+
+1) selecting the unit by hitting the A button, then hitting the A button a sec-
+onde
+
+}) Entrench
+Ifthe unitis located on a Clear area or on a Hl, the unit can Entrench,
+J) When a unit Entrenches, the soldiers dig trenches and build temporary
+defensive reinforcements. Entrenching gives additional strength to the
+unis postion.
+
+| Tht BATTLE PHAst |
+
+Retreat
+
+‘Atay time during batle, unit from either sie may Retreat to fiend
+ajacent Dstrics. This command isnot always successful. Some units
+may be captured while trying o retreat.
+
+End Turn
+
+‘The End Turn command ends your battle tum after you ae finished issu-
+ing orders to regiments. Make sure that none of your units are selected
+‘and hit the B button, You wil be given the chance to end your bate turn
+Trallyour units have expended their Mobily points, your battle tun wil
+end automatically.
+
+Battles Events
+
+Officer Eliminated or Injured
+
+For Barrages, Ambushes and successful Charges, there isa chance the
+defending Officer wil be seriously injured.
+
+Unit in the Water
+
+Ifa unitis on a Bridge o n a Boat and the Bridge or Boat is destroyed, the
+‘nit will plunge nto the water and! wil lose troops. A Bridge or Boat can
+
+be destroyed by a Fite Ship, or through an arillry attack by a Fleet or by
+an Artillery unit,
+
+Commander Captured
+la unitis reduced to zero men in batle andi the unit Commander su-
+
+vives, the unit Commander will be captured by the enemy. Commanders
+‘an aso be captured while trying to reieat rom the batt,
+
+aki )|
+
+===== Page 21 =====
+
+LIBERTY OR DEATH
+
+ae (a
+e.
+
+>) The Event Phase
+
+|) Just before the command! tum begins each season, special events may
+
+Districts which were affected.
+
+Seasonal Events
+
+Attrition
+
+‘Atthe beginning of each season, some Distict data values wil drop due to
+attron and normal wear and tear
+
+Fever
+
+From time to time Fever may spread among the cizens ofa Distt. It
+reduces Oitcer Body points, unit Morale and the numberof roopsin the
+Distt This event may continue for several tums after the fist outbreak,
+J) No District may be affected by Smallpox and Fever atthe same time,
+
+Smallpox
+
+From time to time Smallpox may spread among the citizens of a District. It
+
+can seriously reduce Oller Body points, unit Moral, and the number of
+
+|) troops in the District. This event may continue for several tums after the
+frst outbreak, No District may be affected by Fever and Smallpox at the
+
+same time.
+
+Severe Winter
+
+‘Severe Winters occur in the North curing the winter season, The cold
+‘reduces Officer Body points, unit Morale, the numberof troops in a
+Disirict, and District Supplies. Severe Winter prevents lets from entering
+or leavinga District. Harsh winter weather can last for several game turns.
+Fleets may not enter or leave a District curing severe winter, No more than
+(one bad weather system can affect a District at any one time.
+
+‘occur. Some events will affect the player negatively, while others willbene- |
+fit the player. When special events occur,a map will come up showing the =
+
+a
+Heat Wave
+
+‘Heat waves occur randomly during the summer months, Heat waves
+reduce Officer Body points, unit Morale, the number of troops ina
+District, and District Supplies. Heat waves do not prevent Fleet move
+‘ment, but may continue for several game turns,
+
+Storm Mi
+{Storms occur at random times and locations. They reduce Officer Body {
+{
+
+points unit Morale, the number of troops in a District, and District
+Supplies. Storms prevent Fleet movement and may continue for several
+game tums,
+
+Command of the Seas i
+Each quarter, following the Government Phase the Bish and American J
+| naval forces struggle for control of three regions: the Norther, Central i
+__and Souther coastlines. Commend ofthe sea isdeterminedaiterFleess P=
+
+‘oring to new regions do battle with the Fleets controling those regions.
+
+Vote of Confidence
+
+Politicians with low trustin your political ability may callora Vote of
+‘Confidence. The Executive ffcer wil chair the woe, asking those sup-
+Porting'you to vote‘Aye'and those opposed to you to vote Nay.
+Dismissal requires a two-thirds majority vote against you.
+
+Seized Goods
+
+‘The Navy Officer will inform you of any goods seized by your Fleet on
+‘the high seas during the quarter. If your Fleet has control of the seas ina
+region, your Navy will capture goods from ships in that region. Captured
+‘goods will be added into your new budget.
+
+Foreign Aid
+Friendly foreign powers may occasionally send Supplies to the American
+forces. You will be informed by the Overseas Oificer of any aid received
+{rom foreign countries Foreign Aid willbe included in your budget. Itis
+
+possible that a foreign power will donate a small Fleet to the war effort.
+
+===== Page 22 =====
+
+LIBERTY OR DEATH
+
+After the French and Spanish join the war, they will contribute directly to
+the American cause rather than sending Foreign Aid
+
+Turn Events
+
+Attrition
+‘Atthe beginning ofeach tur, some District data values wil drop due to
+attrition and normal wear and tear.
+
+| Officer Resigns
+
+\hhen an Officer has low Loyalty, hei likely to tender his resignation.
+‘When an Oifcer Resigns, his regiment cisbands. You will be given a
+‘chance to prevent your Oificer from Resigning by refusing to accept the
+(Officer's resignation. Iso, your Advisor will decide whether an order ora
+bounty will convince the Officer to stay. IL bounty willbe offered, your
+‘Advisor will decide how much of a bounty must be oflered to keep the
+Officer,
+
+Mutiny
+
+An Officer with low Loyalty may lead his men into Mutiny, Before the
+‘mutiny occurs, you will be informed that the regiment is becoming rebel-
+fous You wl be given a chance to prevent the reyiment fom easing
+The regiment will decide whether your good faith or a bounty will be
+‘more likely to make them stay. If a bounty is requested, the regiment will
+decide how much ofa bounty must be paid
+
+Blockade
+Use your Command of the Seas to stop enemy ships and seize their
+
+‘Supplies. Fleets performing blockades police the region in which they
+gained command ofthe seas.
+
+| Privateering
+
+Ta successful Privateering maneuver. your warships will break through
+‘enemy blockades and seize ships and goods on the high seas.
+
+*
+
+"THE EVENT PHASE
+
+Foreign Aid
+Foreign aid may ative from friendly goverment. This willbe de
+ceed ty the Dutch, You wl ind out whet ald oreignnaons have sent
+
+‘during the Government Phase
+
+Volunteers
+
+‘Volunteers are soldiers from outside America with sympathy for the
+‘American side. They wil offer their services to the War Officer. If you
+‘make the Volunteer a commissioned Officer. the War Officer wil raise a
+regiment forthe new Officer to command.
+
+New Regiment
+
+‘New Continental regiments will appear a few months after the War Officer
+promises them. These regiments will appear in a District held by friendly
+forces, in the home State, in a neutral District in their home State, a neutral
+Distrctn the same reson, or placed in neutral Dsrit chosen at random.
+Royal Amy and Hessian regiments will arrive by Fleet from overseas.
+‘These units will appear a random in coastal Dstt
+
+Dutch Merchant
+
+Amerchant from the Netherlands, with goods to sell, will frequent coastal
+Districts under American contol, The Dutch Merchant will oly appearin
+‘one District at time. The merchant may stay in a District for many game
+tums or may eave abruptly.
+
+Fleet Movement
+
+Newly constructed Fleets will appear in your coastal Districts. Once the
+
+Fleet arrive, itcan be used for transport or for battle. Fleet willappear |
+inonly one District ata time, |
+[you give your Feet orders for Joint Attack suppor ina region, the Fleet_|
+‘will remain inthis region until given other orders. Ifthe enemy has }
+‘Command ofthe Sea the target District for lint Attack must be an adja-
+cent District. Ifthe enemy does not have Command ofthe Sea, the
+
+target District must be in your region or in an adjacent region,
+
+*
+
+===== Page 23 =====
+
+| against the Netherlands, fter declaring war, England will seize the port of
+
+LIBERTY OR DEATH.
+
+3 dit
+
+Ifyou give Transport orders to your Fleet, you must specify the District.
+fromwhich to Transport. The Fleet will stayin this District nil transport
+‘has been completed. Fleets which are not Privateering or Blockading will
+only appear in coastal Districts which are not held by the enemy.
+
+Prisoner Escape
+
+Prisoners can escape at anytime in the game. The greater the number of
+prisoners you hold and the more dificult the game levelis the more likely
+itis that your prisoners will escape.
+
+Historical Events
+
+Independence
+
+Morale of American troops as wel as Suppor for America wil ise
+throughout the colonies when the American Congress signs the
+Declatation of independence. The Declaration of Independence can oniy
+be signed afterall Brits forces have been removed from the 13 Colonies.
+
+Anglo-Dutch War
+Each time Foreign Aid or a Dutch Merchant arrives in America, the chance
+‘of open hostility between the British and the Dutch rises. ls the Dutch con-
+tinue to supply the colonies with raw materials, the British will declare war
+
+Si. Bustatias in the Caribbean. After the Anglo-Dutch War is declared, the
+‘American side will no longer receive Foreign Aid and the Dutch Merchant
+vill no fonger appear.
+
+French Alliance
+
+‘The French wil join the American cause only ifthey fel that the
+American forces have a chance of winning their revotutionary struggle.
+‘The Americans must deliver a decisive defeat tothe British Army in order
+toconvince the French that they can win the war, News ofa decisive
+American victory will take one month o reach France. Alter hearing of
+
+‘The 15 Colonies include al Districts onthe Main Screen Display except for
+5 Districts #7, 8,9, 51, 52 and 53, located in Canada and Florida. '
+
+sucha victory, the French wil obby and debate whether to become an
+‘American ally fora few months. fan alliance is forged. the French will
+conirbute Fleets, Regiments and Supplies to the American side, The
+French may only join the American cause once.
+
+Spanish Alliance
+
+IeFrance allies with America, Spain will ako eventually form an alliance
+‘with America. After the announcement ofthe French Alliance, several
+‘game turns may pass before the Spanish Alianceis forged, After Spain
+‘becomes an American ally the Spanish will contribute Fleets, Regiments
+and Supplies to the American cause
+
+“Common Sense” Published
+‘Thomas Paine may publish ths revolutionary pamphietin 176. uring
+this time, many political discussions center around the need for simplicity
+and responsiveness in government. ‘Common Sense” was a direct callfor ay
+American independence, writen in English simple enough forall
+‘Americans to understand, I published, 150.000 copies ofthis pamphlet will ||
+‘be read and dliscussed throughout the colonies. The publishing of
+
+“Common Sense” willed 0 arse in Support for America throughout the |
+colonies.
+
+British Force American Congress into Exile
+
+If given the opportunity, the British Army wil capture Philadelphio, forcing
+the American Congress into exile. If the British succeed, George \'9
+‘Washington's politica Trust evel will decrease. Ifthe American Army is
+able to recapture Philadelphia, George Washington poltical Trust will
+increase.
+
+Benedict Arnold Defects
+
+Benedict Amoldis an American Officer who has provided valuable service |
+to the American cause, However, his uarrelsome and vain character may
+lead to drop in Loyalty ifhe is not rewarded for his effors.IfBenedict
+Amolds Loyalty drops oo low, he may betray the American cause and |
+defect tothe British side,
+
+===== Page 24 =====
+
+Nathan Hale's Martyrdom
+‘Nathan Hale is a young Officer in the Continental Army. If Nathan Hale is
+‘captured in battle, the enemy may choose to eliminate him. Before being
+eliminated, Nathan Hale will give a speech to his fellow Americans. This
+‘speech will lead to Nathan Hale's fame as a martyr for the American:
+‘cause and will raise Support for America throughout the colonies,
+
+Conway's Cabal
+
+In Liberty or Death f George Washington is met by a series of batleeld
+defeats, Thomas Convray, Horatio Gates and a faction of Congressmen
+‘may band together to eck te removal of George Washington from the
+position of Commander-in-Chiel The effort ofthis group to mate
+Horatio Gates the new C-in-Cis known as Conviay’s Cabal Ifthe cabal
+succeeds, the American C-in-C willbe dismissed, Ifthe cabal als,
+‘Thomas Conway willbe clsmissed from duty and George Washingtons
+politcal Trust will decrease.
+
+Government Orders
+‘The following three events are special orders the Government can assign:
+
+toaplayer. Ifthe player completes the assignment, they will receive a
+special Bonus,
+
+Return to Philadelphia
+
+Ifthe Continental Congressis chased out of Philadefphia by Bish
+‘troops, Congress may order George Washington to drive the British out
+0 thatthe Continental Congress may return
+
+Occupy a Region
+Completion ofthis tas will give the player's army a great strategic advan-
+‘age. Occupying al ofthe Districts ina region wil give the player a large
+
+strategic base from which to launch attacks.
+
+Capture the Enemy Commander-in-Chief
+Alter the enemy Commander-in-Chief is captured, the player will be
+‘given the chance to exchange him with imprisoned American Officers.
+
+‘ @ 1: History of the
+Revolutionary War
+
+"The Battle of Breed’s Hill
+} EEE consis
+
+tee
+
+| Betis Capared
+
+09 American Toop
+
+2400 Brien Troops
+
+(On June 16,1775, on Bunker Fil, the Americans talked of war with the
+British. At the insistence of Brigadier General Putnam, they chose Breeds
+Hilla the site for the coming battle, and began building ther redoubt. The |
+‘very next day a British scout aboard the ship “Lively” spotted the
+Americans working on Breed’ Hil and a warning shot wes fired, Boston
+‘awoke to the resounding blast and the British held a council of war;
+Generals Gage, Home, Clinton and Burgoyne were in attendance.
+
+‘ith an army of 2,150 troops and 12 cannon, General Howe was sent to
+rout the American rebels. The American Colonel John Stare waited until
+the British were within 50 feet ofthe redoubs, then gave orders to fie. In
+the first round offire, three companies of Redcoats were felled. Howe
+‘Quickly ordered his troops to retaliate ancl was driven back by heavy
+‘gunfire a second time. Morale soared high for the American troops, Dut
+they were running out of ammunition quickly.
+
+‘After witnessing the Brishfaifures, General Clinton realized the British
+needed help. He sent over 400 fresh troops and moved onto the battle
+field himselt, Under the shower of gunfire, the British renewed third
+assault on the American redoubt. Suddenly the American sie fell silent,
+‘giving clue that the Americans had run out of un poveder, Seizing oppor-
+
+===== Page 25 =====
+
+LIBERTY OR DEATH
+
+‘unity, the Bish cleared the redoubt, but to their surprise they were met
+by the Americans, swinging their muskets lke clubs. However, bravery
+finally gave way o bullets and the Americans reteate, leaving Clinton
+victor over Breed’ Hl
+
+‘The Batle of Breed’ Hl dispelled the British mth that the Americans
+‘ould not stand up to England’ finest. According io Clinton, the Batle at
+Bred Hil was, ‘A dear bought vciory, another such would have ruined us."
+
+ba
+
+The Invasion of Canada
+
+Slege ofS Fohas
+meee
+Segnmemm
+
+Invasion of Montreat
+Hho American Troops
+
+(fo
+
+Bash Captured
+
+(Canada was an area ful of potential for both sides ofthe American
+Revolution. The Revolutionaries anticipated gaining the support oftheir
+French neighbors to push back the British In addition, there were reports
+that only 700 British were posted to guard English territory in Canada.
+From the cofonists' point of view, the waterways provided a perfect path
+to British outposts in Canada, They began a series of attacks across the
+‘waterways inthe fall of 1775,
+
+Lieutenant Colonel John Brown and Ethan Allen launched a surprise
+attack on Montreal. Though the raid was 300 troops strong, Ethan Allen
+‘was captured in the siege. The American Major Montgomery. wiho had
+besieged St. Johns for forty-five days, won British surrender on November [iy
+92,1775. Taking St. Johns opened the main gateway for the Americansinto |
+Canada.
+
+\
+
+Taking the matter into his own hands, Commander-in-Chief George
+Washington ordered an expedition to attack Quebec, without the
+approval of Congress. He appointed Benedict Amold in command of
+troops which were o sal from Newbury Por for Quebec on September
+19, 1775. Washington ordered boats built to navigate the 390 miles of
+rapids and shallows leading to Quebec. :
+
+===== Page 26 =====
+
+Benedict Amold’s expedition was one of the most extraordinary opera
+tions ofthe Revolution, His troops were forced to endure ireezing weath-
+exposure o harsh winter storms, and theic provisions spoiled during
+the joumey. Roughly 100 Americans died and one third ofthe troops
+tured back before reaching the shores ofthe St. Lasprence River on
+‘November 9,175. Ten days later, Major General Montgomery joined
+"Ammold with 30 more twoops an the forces besieged Quebec. England
+defended Quebec with a mixed force of | 200 oops.
+
+(On the moming on December 31 the Americans decided to advance.
+‘Montgomery and 50 other troops were fost during the attack, wile
+General Amiold tooka serious wound, Nevertheless, the Americans con
+tinued to besiege Quebec throughout the winter.
+
+HISTORY OF THE REVOLUTIONARY WAR
+
+By May 6, 1776, there were reports that the Britsh General John Burgoyne.
+‘would arrive by the spring thaw witha force of 10.000. By the time his
+acivance frigates dropped anchor, the Americans had already begun to
+withdraw. The end of the invasion saw the American troops beaten back
+up the St. Lawrence and forced out of Canada.
+
+Canada continued to be an important supply depot and refuge for
+Loyalists throughout the war. The British maintained contro! in Canada,
+virtually unchallenged. for the remainder ofthe Revolution.
+
+The Battle of Long Island
+
+—————— =
+La
+Bagh tertomen
+
+ssn Cape
+‘On March 4, 1776, Commander-in-Chief George Washington moved
+guns into Dorchester Heights which govethe Americans perc alm for
+Boston. The British were left with only two alternatives: to rush the
+‘American pestons under heey alr fe, or to evacuate Boson,
+Perhaps recalling the costly Battle of Breeds Hil, the British chose the lat
+ter By Nach 7 the Bish ad weighed anchor Halla
+Despite the humiliation of defeat at Boston, Major General William Howe
+dectored New Vora he net art forte Bish New Yoruheld many
+{ogistical advantages forthe British: the area was believed to be strongly
+Loyatist. and Howe anticipated that the New Yorkers could supply the
+Bris wh provsons they cou not ransport tom England By Aug.
+Home wasn Siaten land eh an ay 1 000srong and 8000 Hessian
+reinforcements had ave. Howe ordered i toope no acon on
+Aut 2
+
+===== Page 27 =====
+
+LIBERTY OR DEATH
+
+Followinga plan conceived by Major General Henry Cinton, Howe's
+army approached the Americans at their weakest point, at Jamaica Pass
+General James Grant marched toward Gravesend, tthe southmest end
+‘of Long stand to attack Lord Sting. A Loyalist ssmpahizer from
+Germany, General Philip von Heister, ed his men tothe east of Grant, t0
+attack the line held by Cofonel Edward Hand.
+
+LAUSICA PASS
+
+‘Once the Americans were involved in the skirmishes on either side of
+Jamaica Pass, they were too distracted to notice General Clinton move in
+{rom the lank and sweep past Major General Sullivan (who had taken
+‘command from Nathanael Green because of his illness). This crucial
+‘maneuver occurred on the night of August 6th, with the help of a Troy
+farmer guiding Clinton's regiment.
+
+HISTORY OF THE REVOLUTIONARY WAR
+
+‘The Americans retreated to Brooklyn, losing Jamaica Pass tothe British.
+By August 29th, however, Washington abandoned all hope of rescuing his
+positions and withdrew from Brooktyn. On a rainy night, a brigade of
+fishermen under Colonel John Glover ferried 10000 American troops and
+their equipment from Brooktyn to Manhattan. When Howe's troops finally
+arrived at Brookiyn, they encountered no resistance; nota single
+‘American had stayed behind to meet them.
+
+The New Jersey Invasion
+
+2! American Casualties
+[netsh casuaties
+| eAmertan Captered
+
+Battle of Princeton
+4000 American Troops
+
+200 rite Troops
+
+pts comate
+BED sncosuties
+
+nar
+EE sh capcarea
+Following the Brish suocess at Long Island, the Continental Army was
+
+hounded by the British, The approaching winter found the American
+forces weary and demoralized, yet Howe was unable to deliver a deci-
+
+sive defeat
+
+===== Page 28 =====
+
+‘LIBERTY OR DEATH
+
+‘Washington withdrew his forces across New Jersey toward Philadelphia
+and by December 7, 1776, his troops were safely positioned off the
+Delaware River. Inthe march over 100 miles, many of his men became
+illor deserted. The colonial army seemed to be unraveling before the
+Commander.in-Chiets eyes.
+
+‘The Bits forces, led by Lord Comal, followed Washington in his
+retreat They came close to intercepting the American forces at Newark
+New Brunsnich, Princeton, and Trenton, Washington burned bridges
+behind him ashe fled, however, and with no easy way to cross water-
+‘ways. a five day march actually took three weeks for Lord Cornwallis,
+
+\\ peas
+
+HISTORY OF THE REVOLUTIONARY WAR
+
+In September 1776, New York City bumed down and Howe and his
+‘troops were forced to find new cover forthe approaching winter. He set-
+lied on Trenton for from there he could amass supplies from the nearby
+farms of New Jersey. Meanvshile, Howe heard of Washington's losses and
+felt reassured that the Americans would try nothing drastic through the
+‘winter months.
+
+‘When Washington feamed that Howe was pesitioned a short march
+‘vray, he began to plan his boldest move ofthe war. His plan entailed an
+‘overnight expedition across the Delaware River to Trenton. Colonel John
+Cadwalader would distract the German garrison at Bordentown with
+1,800 troops,
+
+(On Christmas Eve, Washington and his men set out for Trenton. The
+Delaware was not a welcoming path that night. Thanbully Colonel John
+Glover again brought his regiment of Massachusetts fishermen to
+‘Washinglon’s aid. Glovers boas sailed Washington’ troops through ice,
+rain, andwind, safely to the other side ofthe Delaware
+
+Hal-way into the eight mile march to Trenton, Washington’ troops spit
+into to units. Major General ohn Sullivan would attack Trenton from
+the riverside and Nathanael Greene's unit would circle the town from the
+northeast
+
+‘The Hessian soldiers, meanvile, passed the time celebrating the holiday.
+‘When they were awakened by musket fie at 800 AM on Christmas Day,
+needless o say they were in no condition to retaliate, By 930 AM, the
+three Hessian regiments at Trenton had struck thelr colors
+
+‘The New Jersey Invasion was a much needed victory for Washington. It
+boosted the morale ofthe colonial forces immeasurably. The victory also
+‘aught the British a lesson about the American forces, Even when the
+‘odds were against the Americans, the British could not rule out the poss-
+bility ofa cofonial attack.
+
+===== Page 29 =====
+
+The Battles of Saratoga
+
+Battle of Freeman's Farm
+Sano Bh Troops
+2 EeEerican cas
+Fcc Bis con
+Battle of Bemis Heights
+
+$i rman
+
+“2s risk coat
+(Ee
+
+DLritish captured
+Inthe summer of 1777, British General Howe was fighting in
+ennsyivania, caught in a struggle with General Washington. Ashe had
+requested, General John Burgoyne was en route from Canada to provide
+backup support
+Burgoyne moved down Lake Champlain without event, and successfully
+drove the Americans out of Fort Ticonderoga along the way. However,
+
+aller this victory he held back instead of charging ahead, and from this
+time on his accomplishments were few.
+
+‘West ofthe Hudson, General Horatio Gates positioned his American
+‘troops in Bemis Heights, well fortified with an entrenchment and,
+redouibis by the Polish Engineer Colonel Thaddeus Kosciuszko. When
+Burgoyne finally crossed the Hudson, he met up with Gates troops ina
+battle to gain Freeman’s Farm,
+
+Burgoyne divided his army of 4600 into three attacking columns and
+attacked in fan-lke formation. Artillery batteries were ready to back up
+each column, On September 19,1777, Brigadier James Hamilton moved
+
+x
+
+HISTORY OF THE REVOLUTIONARY WAR.
+
+forward, When American Colonel Daniel Morgan saw Hamilton's
+‘advance, his men took aim at every advancing officer, Hamilton's troops,
+hheld Morgan to a standoff, and Major General Benedict Amold charged
+‘ahead to support Morgan. Simultaneously, Major General Riedesel
+charged in and the British won the day.
+
+Burgoyne was trapped after his minor victory. With Howe in
+Pennsyivania, General Henry Clinton was his only hope for reinforoe~
+‘ment, Clinton was in no hurry to rush to his aid, however, and left the
+‘majority of his troops in New Yorkas he set off at a moderate pace.
+
+By the end of September, Clinton hal seize two American forts in is
+path Having lost some troops inthe skirmishes, he refused to move on
+untae received reinforcement for his own army. Meanwhile Gates
+army was increasing in sae each day. By October Gates was in com
+
+*
+
+===== Page 30 =====
+
+aig 4
+
+9 Liseery or DeaTs ap j
+® mand of 11,000 men, as opposed tothe 5,000 troops under Burgoyne.
+(On October 7, 1777, Burgoyne launched his second attack, advancing
+his army ina ,100 yard ine. Gates fanned his troops out his time, with
+‘Morgan on the west. General Enoch Poor on the east, and Brigadier
+‘General Ebenezer Learned attacking the center ofthe British ine.
+
+‘The British fell back and the Americans captured Freeman's Farm with
+fevr casualties. On October 13, Burgoyne held a council of war andl itwas
+decided thatthe British would negotiate withthe Continental army for
+honorable terms. Gates, however wanted an unconditional surrender
+{rom the Brish. In the end Burgoyne proposed to surrender his arms to
+the Americans and retum his troops to England, under the condition they
+‘would not serve again in America, Gates agreed and the terms were
+signed on October 17,1777.
+
+Personalities of the
+Revolutionary War
+
+Leaders of the American Forces
+
+2 George Washington
+
+“4 ‘George Washington led a career which rocketed him from
+simplicity to greainess, Trustworthy and persistent he
+‘emerged asthe ideal leader forthe cause ofthe American
+Revolution.
+
+‘Asa volunteer in the Seven Year's War, his tour of duty brought his name
+to the attention of King George Il The King appointed him to the position
+‘of Commander ofthe Colonies Frontier Detenses. The dificulties arising
+from this assignment, as well as his experience as a member ofthe
+provincial legislature, prepared him to assume a crucial roe inthe War of
+Independence. t
+‘When Britain imposed its imperial policies onthe colonies in 1765,
+‘Washington advocated vigorous resistance in the Continental Congress.
+He was thereafter appointed as Commander in-Chief ofthe Continental
+Amny.
+
+During the early yeas of his command, Washingion's troops were gener-
+ally poorly supplied, yet they stood up to Britain's attacks. His troops
+Fought well and inficted heavy casualties on the English troops.
+‘Washington scored his first victories at Trenton and Princeton in the win-
+lerof 1776-1777. The victories boosted spits during atime when colonial
+‘morale wasat is lowest. After weathering a ong winter at Valle Forge,
+Weshingion emerged witha larger army exhibiting professional fighting
+techniques that fed to future victories,
+
+{In 1789, George Washington became te fist President ofthe United
+States, He served two terms in office then retired to his estate in Virginia,
+‘Mount Vernon.
+
+PERSONALITIES OF THE REVOLUTIONARY WAR fi
+
+===== Page 31 =====
+
+Sorry, this page Sorry, this page
+is not available is not available
+
+===== Page 32 =====
+
+ie
+
+Leaders of the British Forces
+
+sy, Thomas Gage
+‘Thomas Gage was born the second son ofa noble house
+in England, Afier eight years at Westminster School, he
+found thatthe amy was one ofthe few promising paths
+‘open to younger sons of nobility. Thus, he opted ora
+career inthe military
+Ins fis fifteen years of service, Gage’ career was not unusual in any
+sway. He rose in ank through te purchase of vacant commissions,
+T became Captain at wwent-thre, and was a Lieutenant Cofonel in his
+cary tires.
+|| 1n1755, Gage embarked for Alexandria, Virginia, under the command of
+| Major General Edward Braddock. By 1750, he had raised a regiment of
+light infantry and obtained a permanent postion as Brigadier General
+Ahough Gage rose through the ranks ina consistent manner, is shill
+seemed tobe in malinghis men lof like soldiers rather than taining
+them forbatle.
+Gage turned down the chance to campaign inthe West Indies and in
+116, chose 1o serve as Military Governor of Montreal. n this postion
+combat experience was ss important than quale such as intligence,
+patience, and tac. Under peacetime conditions, Gage was an asst.
+By the eve ofthe Revolution, Gage was promoted as Commander:
+Chief ofthe Brits Army in Non America, Homever, Gage’ troops su
+fered heavy casualties inthe bates of Lexington and Concord andin the
+J) Battle of Bunker Hil His army was eventually blockaded in Boston and.
+1 Gage was recalled from his postion,
+
+Sir William Howe
+
+William Howe was the Commander-in-Chief of the British
+‘Army in North America from 1775 to 1778. In hs three
+years as C-in-C, Howe was unable to end the rebellion in.
+‘America.
+
+In June 1776, Howe went to New York withthe intention of engaging in a
+decisive battle with the Continental Army. But after examining the rebel
+defenses, Howe searched fora different strategy. His brother, Admiral
+Richard Howe, offered the solution. Richard Howe believed that the best
+‘way to end the colonial rebelion was through a show of force rather than
+through all out war. Once the colonists saw the full extent of England's mi
+itary might, he reasoned, the rebellion would fiz ofits own accord.
+
+Adopting his brother’ strategy, Howe maneuvered the rebels out of Long
+Island, Manhattan, and New Jersey. For awhile, a simple show of force
+‘worked sucoessiylly fr the British, however Howe was surprised when it
+failed at Trenton and Princeton, Following these losses, Howe wavered
+bbenmeen attacks on the Continental Army and maneuvers to recover terr-
+‘ory. Inis final plan of atack, Howe attempted to tae New Jersey and.
+Pennsylvania, but failed
+
+In England, William Howe's actions came under attack, His leniency
+towards the rebels and his ack of support fr John Burgoyne in the battles
+at Saratoga ultimately ed oa forced resignation from his position.
+
+Sir Henry Clinton
+f Henry Clinton grew up in America and departed for
+i England in 1749, when he was nineteen years old. He was
+able to enter te army due to his connections, and proved
+himself gallant soldier in the Seven Years’ War, In 1775,
+‘Clinton was ordered to Boston with Wiliam Howe and John Burgoyne t0
+strengthen the command of General Gage. By this ime. Clinton was a
+‘Major General in charge of his own comment.
+Clinton's personality dif not eam him many acmiers among his col
+feagues. For the most part, he was sty and withdrawn Athough his career
+‘was marker by occasional successes, he was a fallure asa commander,
+Inthe Batl of Long Isiand, Clinton le his troops in an enveloping
+‘maneuver, going around the wing ofthe American army, then coming up
+behind the center ofthe American formation, This attack scored the most
+brillant tactical tiumph fr Bish during the war. However, Clinton lent
+litle support for the war effort after this point.
+
+===== Page 33 =====
+
+LIBERTY OR DEATH
+
+Clinton's career ended at the Batle of Yorktown, Even though Lord.
+Cornwallis was actually to blame forthe British loss, Clinton became the.
+scapegoat and was ultimately forced into retirement.
+
+John Burgoyne
+
+Jobn Burgoyne traveled back and forth between America
+and England during the early yeas of the war with the
+colonies. In1777, he traveled to Canada on a mission to
+{ing up with Sic Wiliam Howe in Albany, New York, When
+Burgoyne arived. however, Howe was in Pennsyivania, anche hadto
+contend with the American Army under Horatio Gates
+
+Inthe Battle at Saratoga Burgoyne was defeated and taken prisoner.
+Burgoyne was released in 1778, and returned to England under the con-
+dition that he never return to America. He assumed a seat in Pafiament
+upon his return.
+
+‘The main controversy surrounding John “Gentleman Johnny” Burgoyne
+concerns his role in the Battle of Saratoga in 1778. His defeat was viewed
+as the tuming point inthe War of Independence.
+
+(One schoo! of thought maintains that Burgoyne was responsible for his
+‘own failure. He pressed on with his campaign in Saratoga even after he
+realized that it was doomed. Another school of thought holds that
+General Howe failed him, as well as Henry Clinton, who refused to pro-
+‘ide backup ata crucial point Whatever the reason, Burgoyne’ failure
+‘was the final ‘all in the coffin fr the British mary inthe War of
+Independence.
+
+Foreign Participants
+
+ee Marquis de La Fayette
+ge Asayoung man the Marquis de La Payette was not
+attracted io cour lf. He was interested in pursuinga
+career in the French military. Once he was enlisted, he
+quickly realized thatthe French did not ofer batted
+adventure during peacetime. Instead, he set his sighs upon serving the
+
+*
+
+[PERSONALITIES OF THE REVOLUTIONARY WAR.
+
+‘American Revolutionary Army. across the Atlantic
+
+Atthe age of nineteen, La Fayette salled to America and made his plea to
+the American Congress to allow him into their army, Congress was suspi-
+‘ious of foreign adventurers and questioned whether La Fayette could be
+trusted in the heat of battle. Yet LaFayette was so enthusiastic about the
+Republican principles for which the rebels were fighting that he offered to
+serve without pay. On July 31,1777, Congress appointed La Fayerte a
+Major General, but without a command and without pay.
+
+Ina short ime, La Fayette gained the confidence and respect of
+Commander in-Chief George Washington. La Fayette displayed true
+courage and leadership. With Washingtons encouragement, Congress
+gave him a promotion and granted him his own command. His asign-
+‘ment was to invade and defeat British troops in Canada,
+
+InJanuary 1779, La Fayerte retumed to France as lobbyist forthe
+‘American Revolutionaries, One year later, he returned to America and
+took a postin Virginia, Soon ater his return, he fought in the Battle at
+‘Yorktown where he helped trap Lord Comwralls
+
+‘When La Fayette retumed to France he continued to lobby on behalf of
+the American cause. But the French Revolution brought about a change in
+his fortune: La Fayette was stripped of his wealth and his freedom. For sev-
+eral years La Fayette wasin exile. In 179, he retuned to Prance and set-
+ted in La Grange.
+
+Thaddeus Kosciuszko
+He Thaddeus Kosciuszko was born into a family of Polish
+nobility. He was well educated at the Royal Miltary School
+BF in Warsaw, Poland, and atthe School of Artillery and
+BEE Engineering in Mezieres, France.
+{Upon completion of his schooling, Kosciuszko joined the military. With no
+‘opportunites for advancement. however, he let Poland andl eventually
+landed in North America. On August 1776, he arrived in Philadelphia and
+«eamed a commission as Cofonel of Engineer forthe Continental Army.
+Kosciuszko was one ofthe most successful foreign officers who served
+Under Geonge Washington. He oversew the construction of numerous
+
+===== Page 34 =====
+
+(a iv
+
+ae
+
+LIBERTY OR DEATH 2 y
+
++ strategic river and land fortifications, Even West Point, the main defensive
+position along the Hudson River, was a product of Kosciuszbo's design.
+Kosciuszko provided valuable service in battle, as well for the American.
+army, In the Battle at Saratoga, he devised entrenchments and redoubts
+around Bemis Heights. and assisted in thoroughly routing the British
+forces led by Burgoyne.
+
+‘Afier the Americans won their war for independence, Thaddeus
+Kosciuseko retumed to Poland and led a shor-ived Polish uprising.
+
+Comte de Rochambeau
+
+Born lean-Baptiste-Donatien de Vimeur, Comte de
+
+Rochambeau served most of his life asa professional
+
+soldier. In 1749, he enlisted inthe French Army. Tle
+
+AAG served with distinction in the Seven Years War andin the
+
+‘War of Austrian Succession. At the height of his mitary career he served
+
+as the Commander ofthe French Expeditionary Force in the United
+
+States, 1780 — 1782
+
+|n 1780, Rochambeau was promoted to Lieutenant-General and received
+
+‘command of a corps of 5,000 soldiers. He was dispatched immectately 10
+
+Newpor, Rhode Island, arivng on fly 1, 1780. This was a particularly
+
+risky expedition, inown as the Yorktown Campaign. The Americans had
+
+rot yet asked for support from France and itwas feared that his ‘uninvit-
+
+ed troops might not be welcomed by the colonists.
+
+‘The expedition ultimately was a succes in both diplomatic and miliary
+
+terms. In many ways this was a result of Rochambeauis patience and his
+
+professional competence. The Yorktown Campaign became a landmare
+
+in foreign military cooperation during the American Revolution,
+
+' Later onin fife, Rochambeau played! a minor political roe inthe French
+Revolution and became a Marshal in 1791, He retired from the French
+
+‘Anmy in 1792.
+
+Maps |
+
+England's Colonies in
+lorth America
+
+===== Page 35 =====
+
+
+
+===== Page 36 =====
+
+ae
+eX. Cee
+The Southern Colonies
+
+esi
+
+ne
+
+@ Acknowledgments
+
+1 Koei would ike to acknowiedige the resources behind Liberty or Death.
+
+‘We recommend these fine books and maps to our game players who
+
+"would le to discover more about the history and personalities of the
+
+Revolutionary War.
+
+‘Battles and Leaders ofthe American Revolution, Eastem Acorn Press
+1985.
+
+Gonick, Lary. The Cartoon History ofthe Unite States, Hacpet
+Perennial, 1991.
+
+Greene, Jack P. and Pole, J.R., eds. The Blac
+
+American Revolution, Basil Blackwell, Inc., 1991.
+
+History of the American Revolution, Eastern Acom Press, 1981.
+
+| Marshall, Douglas W. and Peckham, Howard H. Campaigns of the
+
+‘American Revolution, Hammond, Inc., 1976.
+
+Mitchell, Broadus, The Price of Independence. Oxford University
+Press, 1974.
+
+“Morris, James M. History of the US Army, Exeter Books, 1986.
+‘The New World, Eastern Acorn Press, 1986.
+
+Palmer, Dave Richard and Stryker, James W. Early American Wars
+‘and Insitutions, Avery Publishing Group, Inc, 1986.
+
+‘Revolutionary Boston, Eastern Acom Press, 1984.
+“Tuchman, Barbara W. The First Salute, Ballantine Books, 1989
+‘The Uncommon Soldier of the Revolution, Eastern Acotn Press, 1986.
+
+===== Page 37 =====
+
+Warranty
+
+90-DAY LIMITED WARRANTY
+
+Koei Corporation warrants to the original consumer purchaser that
+this game pak shall be free from defects in material and workman-
+ship fora period of 90 days from date of purchase. Ifa defect cov-
+
+{ered by this warranty occurs during this 90-day warranty period,
+
+7:
+
+Koei will repair or replace the game pak, at its option, free of
+charge.
+To receive this warranty service:
+1. Send in your Registration Card,
+
+|. 2.Save your sales receipt and the UPC code found on the game
+
+packaging,
+
+3. your game is stil covered under a store warranty, return the
+game pak to the store at which you purchased the game.
+
+4. Ifthe game develops a problem requiting service during the 90-
+
+F day warranty period, and is not covered by a store warranty,
+
+‘notify Koei Corp, by calling the Technical Support Dept. at
+(415)348-0500, between the hours of 9 am. to 4:46 p.m.
+Pacific Standard Time, Monday through Friday.
+
+5. Ifthe Koel Service Representative is unable to solve the problem
+by phone. you will be provided with a Retum Authorization num.
+’ber. Simply record this number prominently on the outside pack-
+aging of your defective game pak, enclose your name, address
+and phone number, and return the game pak, FREIGHT PRE-
+PAID AND INSURED FOR LOSS OR DAMAGE, together with
+your sales receipt or similar proof-ot-purchase (UPC code)
+within the 90-day warranty period to:
+
+Koei Corporation
+
+One Bay Plaza, Ste, 540
+1350 Bayshore Huy.
+Burlingame, CA 94010,
+
+This warranty shall not apply if the game pak has been damaged by
+negligence, accident, unreasonable use, modification, tampering, oF
+by other causes unrelated to defective materials or workmanship.
+
+Service After Expiration of Warranty
+Ifthe game pak develops a problem requiring service after the 90-
+<day warranty period, you may contact the Kosi Technical Support
+Dept. at the phone number noted previously. If the Koei Service
+Representative is unable to solve the problem by phone, you may
+be provided with a Return Authorization number and asked to send
+the game pak to Koei for personal inspection. Record this number
+prominently on the outside packaging ofthe defective game pak
+and retum the merchandise, FREIGHT PREPAID AND INSURED
+FOR LOSS OR DAMAGE, to Koei with a check or money order for
+$20, to cover repair or replacement, payable to Koei Corporation.
+Koei reserves the right to change the post-warranty service fee
+andlor policy
+
+===== Page 38 =====
+
+Keser ny Gwe oe Be
+abs and here's your chance to make a mark. Gather
+your Mongol hordes and get them psyched for bate.
+But remember, you'e nat the only one looking to expand,
+Your enemies have the knights samurai and elephant units to un your dy.
+Give your aches straight arrows, your Mongol horsemen rig lessons and your
+infantry few good pairs of waking shoes. The fight ison and weld domination
+
+is at hand! Everyone may hate a bul, but it sure can be fun!
+
+FEATURES: 72 payers, nave Mongol othe nie world, play Genghis Khan f
+or eleven ter vont cas urs, try back-up o save games.
+
+ITS TIME TO PICK A
+WINNING TEAM!
+
+ITS 1941 and the US. and Japan are
+ready to clash. Your goa! is to contro
+the Pacific! The schedule is exheusting:
+earl Harbor, Midway and the Philippines for starirs
+The Americems con depend on the Yorktown, Homet ond Nevacka
+to run successful bate plays, But
+don’ count out the Japanese cart
+croton tek opts Pres
+xomikezes. The campaign is about is
+fo begin—Its time to pick your Pacific Theater of Operations
+team and hit the bateficla!
+
+Dracon of Destiny,
+
+DO YOU HAVE THE POWER?
+‘A dark cloud has descended over China and
+with it chaos, It has been said a dragon will
+
+arise to unite this fractured land. Here is your
+chance to bring peace to the people. Will
+you prove to be the destined one?
+
+| FEATURES: 1-2 players @ scanario, 250 historical ships, 10 colt eels,
+
+FEATURES: 1-8 payers, 6 scenarios, eld and naval bates, baler back-up
+tater back-up to save games.
+
+to save games.
+
+===== Page 39 =====
+
+KOE!
+
+KOEI CORPORATION
++250 Bayshore Heghway. Sule 540, Buringame, CA ex010 Parted in Japan

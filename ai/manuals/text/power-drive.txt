@@ -1,0 +1,3832 @@
+# Power Drive
+source: https://archive.org/details/snes_manual_archive
+pdf: Power Drive ( EU ).pdf
+region: EU
+pages: 60
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+|" -SNSP-APWP-EUR
+
+@®,,
+
+===== Page 2 =====
+
+LICENSED BY
+
+Glintendd) Nintendo of Europe GmbH : 63760 GroBostheim, Deutschland
+Keep this information / Gardez ces informations / Diese information aufbewahren
+Conservare queste informazioni / Guarde estas informes / Bewaar daze informatie
+Behall denna information / Behold denne information / Pida tama tieto
+
+<
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, ©. AND 9. ARE TRADEMARKS OF NINTENDO GO., LTD.
+
+Seal of
+Quality 7
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT. ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO
+ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU'IL
+EST CONFORME AUX NORMES D'EXCELLENCE
+EN MATIERE DE FABRICATION, DE FIABILITE
+ET SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+IMMER AUF DIESES SIEGEL, WENN SIE SPIELE
+ODER ZUBEHOR KAUFEN, DAMIT SIE SICHER
+SIND, DASS ALLES EINWANDFREI ZU IHREM
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+PASST.
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATA
+QUESTO PRODOTTO RICHIEDILO SEMPRE
+ALL'ACQUISTO DI GIOCHI ED ACCESSORI PER
+ASSICURARE LA COMPLETA COMPATIBILITA
+CON IL TUO SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA APROBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIEMPRE ESTE
+SELLO CUANDO COMPRES VIDEOJUEGOS Y
+ACCESORIOS PARA ASEGURARTE UNA.
+COMPLETA COMPATIBILIDAD CON TU SUPER,
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO IS GECONTROLEERD EN DAT
+HET QUA CONSTRUCTIE, BETROUWBAARHEID
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+BlJ HET KOPEN VAN SPELLEN EN.
+ACCESSOIRES ALTND OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+Original 7
+9 DIESES QUALITATSSIEGEL IST DIE GARANTIE DENNA ETIKKETT GARANTERAR ATT
+DAFUR, DASS SIE NINTENDO -QUALITAT NINTENDO STAR FOR PRODUKTENS KVALITET.
+GEKAUFT HABEN. ACHTEN SIE DESHALB KONTROLLERA ATT ETIKETTEN FINNS PA
+
+SPEL OCH TILLBEHOR DU KOPER FOR ATT
+FORSAKRA DIG OM ATT DE AR KOMPATIBLA
+MED SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+DETTE SEGL GARANTERER, AT NINTENDO
+HAR GODKENDT KVALITETEN AF DETTE
+PRODUKT. SE ALTID EFTER DETTE SEGL. NAR.
+DU K@BER SPIL OG TIBEHOR, SA DU ER
+SIKKER PA FULG. KOMPATIBILITET MED DIT
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO.
+ON HYVAKSYNYT TAMAN TUOTTEEN LAADUN
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+SAAT VARMASTI SUPEH NINTENDO.
+ENTERTAINMENT SYSTEM YHTEENSOPIVIA
+TUOTTEITA.
+
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEVILLEZ LIRE ATTENTIVEMENT LA NOTICE “INFORMATIONS ET PRECAUTIONS
+D'EMPLOI” QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER
+NINTENDO HARDWARE, WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+
+DURCH!
+
+ATTENZIONE : LEGGI ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+
+INCLUSE NELLA CONFEZIONE PRIMA DI! USARE IL TUO SUPER NINTENDO ENTERTAINMENT SYSTEM™
+LE CASSETTE O GL! ACCESSORI.
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMNTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEOJUEGO O ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSU-MENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE BlJ DIT PRODUKT IS MEERVERPAKT VOORDAT HET NINTENDO-
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN. x
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORRSIKTIGHETSATGARDERNA
+| BRUKSANVISNINGARNA SOM MEDFOLJERPRODUKTEN INNAN DU ANVANDER DEN MET ETT
+NINTENDO SYSTEM, SPELAKETET ELLER TILLBEHOR.
+
+ADVARSEL : LAS FORBRUGERINGFORMATIONEN OG H4EFTET MED SIKKERHEDREGLER, DER
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM.
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISEST! LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA |
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEN, PELIN (GAME PAK) TAI MUUN VASURSTEEN KAYTTOA.
+
+===== Page 3 =====
+
+English Instructions 1
+
+Instructions Francaises 11
+
+Handleiding in het Nederlands 20
+
+Deutsche Anleitung 28
+
+Instrucciones en Espanol 37
+
+Istruzioni in Italiano 46
+
+===== Page 4 =====
+
+Contents
+
+Starting Wp Your System: 2.22. eves. Se ee
+StantsYOur ENgIn@Ss. a8 bets ova Ser st es ©
+mhe; Challenge =. 34 er ea as ne
+Language Selections-<-42 Sienna ee he ate
+
+Met VSI se ee Baca eas
+
+CONTOIS sete ee ees ce ea nincea eee eae
+ODtHONS 3 i te ae ee.
+
+One-player Gamers s.2 5 ee bs LS es
+Multiplayer Games... ee hea
+
+MPIC ALSies see pe ra re eae ees
+
+WpgradingsVour Catt.) oe ae a eae ete
+
+LEQ CALION Gore cr Bee Be
+
+Weather & Visibility:<4.25. 2 Wiss ei ee
+Staqe:Resulisea.]) oe es es Bee
+
+iihne:;Chequered Elage ae sa a ee ee
+
+===== Page 5 =====
+
+Starting Up Your Round 2
+
+System Location: Kenya
+
+Climate: Hot/dry
+
+1. Make sure your Super NES™ is
+
+OFF. Track: Asphalt/sandy gravel
+2. Plug a Control Pad into the port
+labelled 1 on the Control Deck.
+
+3. Insert the Power Drive Game
+
+Terrain: Desert (occasional oasis)
+
+Pak into your Super NES™.,
+
+Press firmly to lock the Game Pak Round 3
+
+in place. Location: Sweden
+WARNING: Never try to insert or
+
+remove a Game Pak when the Climate: Ice/snow
+power is ON.
+
+4. Turn the power switch ON. Press Track: Gravel
+any button and the Language
+Selection screen will be displayed.
+
+Start Your Roand.4
+Engines Location: Corsica
+
+Terrain: Forest trail
+
+Climate: Wet
+
+The Power Drive World Championship i
+comprises 48 individual stages in eight Track: Asphalt
+
+countries. Each round is characterised Terrain: Mountainous, rocky road
+by varied racing canditions to test your ‘
+
+driving ability to the limit.
+
+Round 5
+Round | Location: Arizona
+Location: Monte Carlo Climate: Hovdry
+
+Climate: Mainly dry, some ice/snow Track: Asphalt/gravel
+
+Track: Asphalt Terrain: Rocky road/desert
+Terrain: Mountainous, rocky road
+
+Round 6
+
+Location: Finland
+
+===== Page 6 =====
+
+Climate: Cool/dry
+Track: Gravel
+
+Terrain: Forest/lake regions
+
+Round 7
+Location: Australia
+
+Climate: Hot/humid
+Track: Sand/gravel
+
+Terrain: Bush/forest trail
+
+Round &
+
+Location: Great Britain
+Climate: Cold/wet/ice/snow/tog
+Track: Gravel
+
+Terrain: Forest trail
+
+You will race in Special Stages (time
+trials), Rally Cross and Skill Tests
+
+around the world to measure your
+versatility behind the wheel.
+
+Special Stage
+
+Race against the clock along a
+predetermined route (from A to B).
+
+Rally Cross
+
+Hazardous circuits against obstructive
+computer-controlled opponents.
+
+Skill Test
+
+Specially designed courses to test your
+
+driving skills. Complete specified
+manoeuvres without incurring penalties.
+
+The Challenge
+
+Your ultimate objective is to complete
+the entire Championships driving the
+most powerful Group 1 car.
+
+Before starting out you will be given
+enough funds to buy a Group N car.
+
+By consistently finishing events to boost
+your funds, you can trade-in for an
+upgraded model, but you will need to
+save some for entry fees and vehicle
+maintenance.
+
+Language Selection
+
+Choose English, French, German,
+Spanish or Portuguese (Brazilian) in-
+game text and press any button to
+activate. If you make the wrong
+selection, turn off your Super NES™
+and start again.
+
+Main Menu
+
+Move UP/DOWN to select options and
+then press any button to activate.
+
+START Gane
+
+CONTROLS
+PA oRD
+oprrons
+PRACTICE
+
+===== Page 7 =====
+
+Controls
+
+Choose between Directional and
+Rotational control methods by pressing
+any button to toggle;
+
+Directional: the car moves in the
+direction pressed on the controller
+
+Rotational: use LEFT/RIGHT to
+steer the car
+
+Note: Only one control method can be
+registered so make sure everyone
+agrees with the selection in a multi-
+player game.
+
+You can also change the button
+configuration; select a function and
+press the button of your choice (A, B, X
+or Y) to assign its use.
+
+A Brake
+
+B Accelerate
+
+y Forward Gears
+
+X Reverse Gear
+
+(only available from low forward gear)
+START Pause
+
+(press again to continue)
+
+Your car is programmed to react to
+these controls with the characteristics
+of a real rally car.
+
+Once you have become familiar with
+
+these characteristics, a little practice
+will enable you to carry out the following
+manoeuvres;
+
+Pendulum Turn
+
+On a tight bend steer away from the
+corner and then turn back into it at the
+critical point.
+
+The back end of your car will swing out
+as the rear wheels lose grip, allowing
+you to keep up maximum revs.
+
+This method requires a lot of practice to
+perfect.
+
+Handbrake Turn
+
+At a hairpin corner, brake as you turn
+into the curve.
+
+All four wheels will lose grip and you
+should skid around the hairpin on the
+best possible line.
+
+Power Slide
+
+Skid around series of tight or fast
+corners by steering sharply into each
+bend (like a Pendulum Turn without
+steering out).
+
+Password
+
+In one-player mode you will be given a
+password at the end of the first stage in
+each round (except Round 1).
+
+By entering the appropriate password
+you can restart from any desired point
+of the game.
+
+Move UP/DOWN and press any button
+to select each letter, and then press
+START to enter the password.
+
+If your password is illegal you will return
+to the Main Menu.
+
+Note: If you make a mistake, move
+LEFT/RIGHT and overwrite the error.
+
+===== Page 8 =====
+
+Options
+Music ON/OFF
+Sound FX ON/OFF
+
+Guides ON/OFF
+(Advance warning directional arrows)
+Players 1-8
+
+Practice
+
+It is recommended that you fine tune
+your driving skills on the practice track
+before starting the first race.
+
+Move LEFT/RIGHT to pick a course
+(normal, night, rain or snow/ice), press
+any button to confirm and then take the
+Mini Cooper S for a spin.
+
+When you feel good enough to go on
+(there is no time limit) stop the car in
+the Exit box at the bottom right of the
+track.
+
+If you do not make a selection from the
+Main Menu the game will automatically
+run ademo. Press any button to return
+to the Main Menu.
+
+One-player Game
+
+During the standard one-player game, if
+you fail to make the set time limit for an
+event you will not proceed to the next
+stage.
+
+If you don’t qualify, keep trying until you
+either make the grade or run out of
+funds.
+
+Multi-player Game
+
+Compete against your friends for the
+Championship title.
+
+Unlike the one-player game, failure to
+qualify doesn't stop you racing in the
+next round, but you will not pick-up any
+points or prize money for that stage.
+
+A Player Ratings screen will be
+displayed at the end of each stage.
+
+Points are awarded as
+follows:
+
+1st 5
+2nd 4
+3rd 3
+4th 2
+5th 1
+6th/7th/8th 0
+Failure to qualify 0
+
+Note: The Password option is not
+active in multi-player mode.
+
+The Cars
+
+Six cars are available, from three
+competition classes.
+
+Each handles differently (cornering,
+road holding, etc) and higher class
+vehicles are more expensive to
+maintain.
+
+===== Page 9 =====
+
+Group N
+Mini Cooper S
+Fiat Cinquecento Turbo
+
+Group 2
+Vauxhall Astra 16V GTi
+
+Renault Clio Williams
+
+Group |
+Ford Escort Cosworth
+
+Toyota Celica
+
+Selecting Your
+First Car
+
+You start off with $28,000 - enough to
+buy a Group N car.
+
+Move LEFT/RIGHT to toggle between
+the Mini and the Fiat, and UP/DOWN to
+change the body colour.
+
+When you are satisfied, press SELECT
+(press it again if you change your mind)
+and then press START to continue.
+
+Damage
+
+Rally cars are tough but rally tracks are
+tougher.
+
+Damage is sustained when you crash
+or drive recklessly, causing the
+handling and overall condition of your
+car to deteriorate.
+
+You can make repairs at the end of
+each stage - if you have enough funds.
+
+Damage Repairs
+
+VEHICLE COMPONENT |
+
+The Damage Repairs screen will not be
+displayed if your car has survived a
+race damage-free.
+
+To maintain your car, move UP/DOWN
+to choose a component and press
+A/B/X/Y to partially repair, or SELECT
+to fully repair.
+
+When you are happy with the condition
+of your car (or you're out of funds)
+press START to continue.
+
+Note: The state of your vehicle will
+affect performance, so it is advisable
+to keep your car in prime condition
+(if funds are available).
+
+===== Page 10 =====
+
+Upgrading Your
+Car
+
+If you save enough funds you can
+upgrade your car;
+
+Group 2 cars can be bought from
+Round 3, Group1 cars from Round 6.
+When you have sufficient funds the Car
+Selection screen will appear (press
+START if you do not want to make a
+purchase).
+
+Choose your new car by the same
+procedure used to select your first (see
+Selecting Your First Car) and press
+START to continue.
+
+Location
+
+Before each race you are presented
+with a Location screen, displaying
+weather conditions, day/night and the
+entrance fee.
+
+If you don’t have enough funds to cover
+
+the fee, your game is over and you will
+return to the Main Menu.
+
+If you do have sufficient funds, press
+any button to start the race.
+
+Pick-ups
+
+Pick-ups are randomly placed around
+each course, to be collected by driving
+over them.
+
+Money Increase your funds by $250
+Nitrous Temporary speed boost
+
+Time Five-second clock freeze
+
+Penalties
+
+Hitting a cone incurs a 0.5 second
+penalty - you have been warned!
+
+Weather and
+Visibility
+
+Climatic conditions and the time of day
+vary dramatically from race to race,
+affecting car handling and response.
+You will need to take note of these
+conditions and adjust your driving
+accordingly.
+
+Stage Results
+
+GUAL TF I CAT TOM
+
+===== Page 11 =====
+
+At the end of each course the Stage
+Results screen will be displayed.
+
+Prize money is awarded when you
+qualify, plus bonuses if you break the
+course record or beat the computer-
+controlled car on Rally Cross sections.
+When you have revelled in the glory for
+a while press any button to move on.
+
+The Chequered Flag
+
+If you go all the way and win all 48
+stages you will be crowned Power Drive
+World Champion.
+
+===== Page 12 =====
+
+Limited Warranty
+
+U.S. Gold reserves the right to make
+improvements in the product described
+in this manual, at any time and without
+notice. U.S. Gold makes no warranties
+expressed or implied, with respect to
+this manufactured material, its quality,
+merchantability or fitness of any
+particular purpose. If any defect arises
+during the 90 day limited warranty on
+the product itself (i.e. not the software
+program, which is provided “as is”)
+return it in its original condition to the
+point of purchase. Proof of purchase
+required to effect the 90 day warranty.
+
+Credits
+
+Programming
+
+Tony Pomfret & Kent Murray
+Editors: Jim Bagley
+
+Graphics
+
+Paul Broadbent, Simon Street
+& Andy Dixon
+
+Music
+
+Kev Bruce
+Director
+
+Keith Robinson
+Quality Control
+
+Mark T. & Rich Holdsworth
+Gary, Paul, Pete, Nat,
+Jermaine, John, Patrick &
+Steve
+
+Associate Producer
+Rob Palfreman
+Producer
+Stuart Hibbert
+
+Special thanks to Tony Higgins of
+The Forest Experience.
+
+Cars used with the kind permission of
+the following;
+
+Brigden Coultes Motorsport Ltd
+Fiat Auto (UK) Ltd
+
+Ford Motor Company Ltd
+Renault UK Ltd
+
+Rover Cars plc
+
+Toyota Team Europe
+
+Vauxhall Motors Ltd
+
+©1994 Rage Software Ltd
+Developed by Rage Software Ltd
+©1994 U.S. Gold Ltd. All rights
+reserved. Published by U.S. Gold Ltd
+Units 2/3 Holford Way, Holford,
+Birmingham B6 7AX. Tel: 021 625
+3366. U.S. Gold is a registered
+trademark of U.S. Gold Ltd
+
+===== Page 13 =====
+
+U.S. GOLD HELPLINE
+
+U.S. Gold is dedicated to your enjoyment of this game.
+
+However if you need a helpful hint then we have a special telephone
+number for you available 24 hours a day, 7 days a week.
+
+This line also includes information on new releases,
+promotions and events!
+
+CALL NOW ON
+0839 654 250
+
+This service is provided by U.S. Gold Ltd,
+Cuckoo Wharf, Lichfield Road, Aston,
+Birmingham B6 7SS. Tel. 021 326 6418.
+
+Please obtain permission to call from the person who pays the bill.
+
+Calls cost 39p per minute cheap rate, 49p per minute all other times
+(maximum charge £2.45). Prices and games featured on this service
+correct at time of going to press (Sept. 1994). U.S. Gold reserve the
+right to change the games featured on the helpline without prior
+notice. If in any doubt contact U.S. Gold Customer Services for
+full details of current charges and contents.
+
+“Available in the UK only
+
+===== Page 14 =====
+
+
+
+===== Page 15 =====
+
+Table des Matieres
+
+Démarrem.:. 255. Sap en ei eee 12
+Faites vrombir les moteurs .....................00. 12
+esD 6 fie Rise se Ws de os Shea aa hee ia cs 13
+Sélection de lalangue ................ 0s eee eee eee 13
+Menuiprincipal). 2. ie ok. oo ee ee eee 14
+
+Gommandes 0 cue Are as ieee 14
+
+Options: saceiaei eh EMER ceo ee eniau cece 15
+Partle:avunjoueUun 28 9 ae. a Se es 15
+Partie a plusieurs joueurs .................-....-4- 15
+KeSwWoitures css WIP Aas 5 eg ct 16
+Sélectionner votre premiére voiture ................. 16
+DEQatS em oo noes eae ree ea cee 16
+Reprise de votre véhicule.......................... VPA
+PACU Hoe eaeriees cee coast catia age vis Gaeta esti Sake ree lus
+BONUS fb aie. cin Sao athe Ee Ge es 17
+Pénalisatlon' 26 as eee ee ee Ore ees 18
+TEMpPS:et VISIDING cs. 2 ae ee a ee ees 18
+Résultats delietape .... .... 0.0.50. 0...5. eae 18
+Le drapeau a'damler:s2.2:.05. Ae aa 18
+
+11
+
+===== Page 16 =====
+
+Démarrer
+
+1. Vérifiez que votre Super NES™
+est éteint.
+
+2. Branchez la manette
+multidirectonnelle dans le port n°1
+du Control Deck.
+
+3. Insérez la cartouche de jeu
+Power Drive dans votre Super
+NES™, Appuyez fermement pour
+maintenir la cartouche en place.
+AVERTISSEMENT: Ne tentez
+jamais d’introduire ou de retirer une
+cartouche de jeu lorsque votre
+Super NES™ est allumé.
+
+4. Allumez votre Super NES™,
+appuyez sur n’importe quelle
+touche pour que l’écran Language
+Selection s’affiche.
+
+Faite vrombir les
+moteurs...
+
+Le Championnat du Monde Power
+Drive comprend 48 étapes individuelles
+et se déroule dans huit pays. Sur
+chaque étapes vous sont imposées
+diverses conditions de course afin de
+mettre vos talents de coureur a rude
+épreuve.
+
+Epreuve |
+Lieu: Monté-Carlo
+
+Climat: Sec en général, verglas/
+chute de neige occasionnels
+
+Piste: Asphalte
+
+Terrain: Route de montagne/ rochers
+
+Epreuve Z
+
+Lieu: Kenya
+
+Climat: Chaud/sec
+Piste: Asphalte/gravier fin
+
+Terrain: Désert (oasis occasionnels)
+
+Epreuve 3
+
+Lieu: Suéde
+Climat: Verglas/neige
+Piste: Gravier
+
+Terrain: Chemin forestier
+
+_Epreuve 4
+
+Lieu: Corse
+Climat: Pluie
+Piste: Asphalte
+
+Terrain: Route de montagne/rochers
+
+Epreuve 5
+Lieu: Arizona
+
+Climat: Chaud/sec
+Piste: Asphalte/gravier
+
+Terrain: Route caillouteuse/désert
+
+===== Page 17 =====
+
+Epreuve 6
+Lieu: Finlande
+Climat: Frais/sec
+Piste: Gravier
+
+Terrain: Régions de foréts/lacs
+
+Epreuve 7
+Lieu: Australie
+
+Climat: Chaud/humide
+Piste: Sable/gravier
+
+Terrain: Chemin forestier/étendue
+semi-désertique
+
+Epreuve &
+Lieu: Grande Bretagne
+
+Climat: Froid/pluie/verglas/neige/
+brouillard
+
+Piste: Gravier
+Terrain: Chemin forestier
+
+Votre course autour du monde est
+composée de Etapes spéciales (tests
+de temps), de Rally Cross et de tests
+d’habileté qui ont pour but d’évaluer
+votre capacité d’adaptation au volant.
+
+Etape spéciale:
+Course contre la montre sur un
+
+parcours déterminé préalablement (du
+point A au point B).
+
+Rally Cross:
+
+Parcours dangereux semés
+d’embiiches contrélées par l’ordinateur.
+
+Test d’habileté:
+
+Parcours spécialement congus pour
+tester vos capacités de coureur. Vous
+devez exécuter des manceuvres
+spécifiques en évitant d’étre
+pénalisé(e).
+
+Le Défi
+
+Votre objectif final est d’achever le
+Championnat au volant d’une des
+voitures trés puissante du groupe 1.
+Avant le départ, il vous est versé assez
+de fonds pour l’achat d’une voiture du
+groupe N. C’est en remportant les
+étapes de facon réguliére que vous
+pouvez renflouer vos caisses et faire
+reprendre votre voiture pour un modéle
+plus puissant. Mais vous devez garder
+les fonds nécessaires a payer les frais
+de participation et d’entretien du
+véhicule.
+
+Sélection de la langue
+
+Choisissez votre texte de jeu en
+anglais, francais, allemand, espagnol
+ou portugais (brézilien) et appuyez sur
+n’importe quelle touche pour valider
+votre choix. Si vous faites une erreur de
+sélection, éteignez votre Super NES™
+et recommencez |’opération.
+
+===== Page 18 =====
+
+Menu principal
+
+Pour sélectionner une option, déplacez
+la manette multidirectonnelle en haut
+ou en bas sur le Menu principal, puis
+appuyer sur n’importe quelle touche
+pour valider votre choix.
+
+re
+iL
+
+START
+
+conTRoL
+
+Gane
+
+Commandes
+
+Faites votre choix entre la méthode de
+commande “directional” (directionnelle)
+et “rotational” (de rotation) en appuyant
+sur n’importe quelle touche pour passer
+de l'une a l'autre.
+
+Commande “directional”:
+
+La voiture se déplace dans la direction
+choisie sur la manette
+multidirectonnelle.
+
+Commande “rotational”:
+Déplacez la maneite multidirectonnelle
+a droite ou a gauche pour diriger la
+voiture.
+
+Nota Bene: Vous ne pouvez enregistrer
+qu'une seule méthode de commande.
+Vous devez donc vous mettre d’accord
+sur la méthode sélectionnée dans le
+cas d'une partie a plusieurs joueurs.
+
+Vous pouvez aussi modifier la
+configuration des boutons. Sélectionnez
+une fonction, puis appuyez sur le
+bouton de votre choix (A, B, X ou Y)
+pour lui attribuer son rdle.
+
+Freinage
+Accélération
+
+Vitesses
+
+— <>
+
+Marche arriére
+
+(Seulement disponible a partir de la
+premiere vitesse.)
+
+START Pause
+
+(Appuyez a nouveau pour reprendre le
+jeu.)
+
+Votre voiture est congue pour réagir de
+la méme facon qu'une vraie voiture de
+rallye. Une fois habitué(e) a ces
+réactions, un peu d’entrainement suffira
+a vous faire maitriser les manoeuvres
+suivantes:
+
+Virage-pendule
+
+Lorsque vous vous trouvez dans un
+virage trés serré, faites un écart par
+rapport au virage puis rabattez-vous au
+moment critique. L’arriére de la voiture
+dérape, les pneus n’adhérant plus a la
+route, ce qui vous permet d’emballer le
+moteur au maximum. Pour étre
+maitrisée a la perfection, cette méthode
+exige un grand entrainement.
+
+Virage-frein a main
+
+Dans un virage en épingle a cheveux,
+freinez au moment d’aborder le
+tournant. Les quatre pneus perdent
+ainsi leur adhérence a la route et la
+voiture dérape dans le virage, suivant la
+meilleure trajectoire possible.
+
+14
+
+===== Page 19 =====
+
+Dérapage
+
+Effectuez des dérapages en tournant
+brusquement dans une série de virages
+en épingle a cheveux (méthode
+identique a celle du virage-pendule
+sans écart par rapport au virage).
+
+Mot de passe
+
+Dans une partie a un joueur, un Mot de
+passe vous est donné a l'issue de
+chaque étape, pour chaque épreuve (a
+l'exception de l’épreuve 1). Tapez le
+Mot de passe qui convient pour
+reprendre le jeu a partir du niveau de
+votre choix. Sélectionnez chaque lettre
+en dirigeant la manette
+multidirectonnelle en haut ou en bas et
+appuyez sur n’importe quelle touche.
+Puis appuyez sur le bouton START
+pour valider le Mot de passe. S’il est est
+incorrect, le Menu principal s’affiche.
+
+Nota Bene: En cas d’erreur, déplacez la
+manette multidirectonnelle a droite ou a
+gauche, puis corrigez.
+
+Options
+
+Musique ON/OFF
+Son FX ON/OFF
+Indications ON/OFF
+
+Fléches directionnelles
+d’avertissement
+
+Joueurs 1-8
+
+Entrainement
+
+ll est recommandé de régler votre
+conduite avec minutie avant la premiere
+course. Déplacez la manette a droite ou
+a gauche pour sélectionner un parcours
+(normal, de nuit, sous la pluie, la neige
+ou avec verglas), appuyez sur
+n’importe quelle touche pour valider
+
+15
+
+votre choix, puis partez faire un tour en
+Mini Cooper S. Lorsque vous vous
+sentez prét(e) (le temps n'est pas
+limité), garez la voiture dans la boite
+SORTIE qui se trouve en bout de piste
+a droite.
+
+Si vous ne sélectionnez pas d’option du
+Menu principal, une partie de
+démonstration se déclenche
+automatiquement. Appuyer sur
+n’importe quelle touche pour revenir au
+Menu prinicpal.
+
+Partie a un joueur
+
+Lors d'une partie a un joueur normale,
+vous ne pouvez accéder a |’étape
+suivante si vous ne respectez pas le
+temps limite fixé pour la course. Dans
+ce cas, essayez a nouveau jusqu’a ce
+que vous soyiez qualifié(e) ou a cours
+de fonds.
+
+Partie a plusieurs
+joueurs
+
+Affrontez vos amis pour le titre de
+champion. A la différence d’une partie a
+un joueur, vous pouvez participer a une
+course méme si vous n’avez pas été
+qualifié(e) dans I’épreuve précédente.
+Mais vous ne pouvez remporter ni les
+points ni l'argent du prix de cette
+course.
+
+A la fin de chaque étape, s’affiche un
+écran de classement des joueurs.
+
+Les points sont attribués comme
+indiqué ci-dessous:
+
+===== Page 20 =====
+
+ter
+2eme
+3eme
+4eme
+5eme
+
+6éme/7éme/8eme
+
+oO Oo - NO WO DP Ww
+
+Non qualifié
+
+Nota Bene: Le Mot de passe n'est pas
+valable en mode plusieurs joueurs.
+
+Les voitures
+
+Six voitures correspondant a trois
+niveaux de compétition différents sont
+disponibles. Chacune se conduit de
+facon différente (virages, tenue de
+route etc.). L’entretien des véhicules les
+plus performants est plus colteux.
+
+Group N
+Mini Cooper S
+Fiat Cinquecento Turbo
+
+Group Z
+
+Vauxhall Astra 16V GTi
+Renault Clio Williams
+
+Group |
+
+Ford Escort Cosworth
+Toyota Celica
+
+Selectionner votre
+premiere voiture
+
+Au départ vous possédez $ 28 000 ce
+qui suffit a l'achat d'une voiture du
+groupe N. Déplacez la manette
+multidirectonnelle de gauche a droite
+pour passer de la Mini a la Fiat et de
+bas en haut pour changer la couleur de
+votre véhicule. Une fois satisfait(e) de
+votre choix, appuyez sur le bouton
+SELECT (appuyez a nouveau si vous
+changez d’avis). Puis appuyez sur le
+bouton START pour continuer.
+
+Dégats
+
+Les voitures de rallye sont solides,
+certes, mais les pistes le sont encore
+plus. Les dégats dis aux collisions et a
+une conduite imprudente entrainent
+une détérioration du maniement et de
+l'état général de votre véhicule. Vous
+pouvez le faire réparer a la fin de
+chaque étape (si vous en avez les
+moyens).
+
+===== Page 21 =====
+
+Réparation des dégats
+
+COMPONENT
+
+VEHICLE
+
+L’écran Réparation des dégats
+n’apparait que si votre voiture a subi un
+accident lors de la course. Pour la
+réparation du véhicule, déplacez la
+manette multidirectonnelle vers le haut
+ou le bas pour choisir une piéce.
+Appuyez sur A/B/X/Y pour une
+réparation partielle ou sur le bouton
+SELECT pour une réparation totale.
+Une fois la voiture remise en état de
+marche (ou vos fonds épuisés),
+appuyez sur le bouton START pour
+reprendre le jeu.
+
+Nota Bene: L’état de votre véhicule
+influe fortement sur vos preformances.
+Il est donc conseillé de le maintenir en
+parfaite condition (si vous possédez les
+fonds nécessaires).
+
+Reprise de votre
+véhicule
+
+VEHICLE
+eEnto
+4
+
+TYPE
+Tur
+
+Si vous économisez suffisamment,
+vous pouvez faire reprendre votre
+voiture. Les voitures du groupe 2
+peuvent étre achetées a partir de
+l'épreuve 3 et les voitures du groupe 1
+a partir de l’épreuve 6.
+
+Lorsque vos fonds sont assez élevés,
+l'6cran Sélectionner de Voiture apparait
+(Appuyez sur le bouton START si vous
+ne souhaitez pas faire d’achat).
+Choisissez votre nouvelle voiture
+suivant la méme méthode utilisée lors
+du choix du premier véhicule (voir
+“Sélectionner votre premiére
+voiture”) et appuyez sur le bouton
+START pour continuer le jeu.
+
+Lieu
+
+Avant chaque course s’affiche l’écran
+Lieu indiquant les conditions
+météorologiques, le moment de la
+course (nuit/jour) et les frais de
+participation. Si vous n’avez pas les
+fonds nécessaires a couvrir vos frais de
+participation, la partie est terminée et le
+Menu principal apparait. Si vous
+possédez les fonds requis, appuyez sur
+niimporte quelle touche pour démarrer
+la course.
+
+Bonus
+
+Des Pick-ups sont parsemés au hasard
+sur chaque parcours. Vous les obtenez
+en roulant dessus.
+
+Argent: ajoute $250 a vos fonds.
+
+Nitrate: augmente momentanément
+votre vitesse.
+
+Temps: arréte le chronométre
+pendant 5 secondes.
+
+===== Page 22 =====
+
+Pénalisation
+
+Heurter un cone de signalisation vous
+retarde de 1/2 seconde. Vous voila
+avertis!
+
+Temps et visibilité
+
+Les conditions climatiques et le
+moment de la journée varient
+énormément d’une course a l'autre et
+ont des répercussions sur le
+maniement et la réaction du véhicule.
+Vous devez prendre conscience de ces
+conditions et ajuster votre conduite en
+conséquence.
+
+Résultats de I’étape
+
+COURSE RECORD
+
+QUAL IF TCAyT
+
+A la fin de chaque parcours, l’écran
+Résultats de l’étape apparait. L’argent
+du prix vous est remis quand vous vous
+qualifiez et vous avez droit a un bonus
+si vous battez le records sur ce
+parcours ou la voiture contrélée par
+l'ordinateur dans les sections Rally
+Cross. Une fois que vous avez assez
+fété votre succés, appuyez sur
+nimporte quelle touche pour continuer.
+
+Le drapeau a damier
+
+Si vous allez jusqu’au bout et
+remportez les 48 étapes, vous étes
+sacré Champion du Monde du Power
+Drive.
+
+Limitation de
+Garantie
+
+U.S. GOLD se réserve le droit
+d’apporter des améliorations au produit
+décrit dans ce manuel, a tout moment
+et sans avertissement préalable.
+
+U.S. GOLD ne donne en aucun cas de
+garantie, explicite ou implicite, en ce
+qui concerne ce produit manufacturé,
+sa qualité et sa valeur commerciale.
+
+Si le produit lui-méme (non pas le
+programme software qui est fourni
+
+“tel quel”) s'avére défectueux pendant
+la période de 90 jours de la garantie,
+veuillez le retourner au lieu de vente
+dans ce méme état. Pour que cette
+garantie soit valide, veuillez joindre
+une preuve d’achat.
+
+Véhicules cités grace a l’aimable
+autorisation de:
+
+Bridgen Coultes Monosport Ltd
+Fiat Auto (UK) Ltd
+
+Ford Motor Company Ltd
+Renault UK Ltd
+
+Rover Cars ple
+
+Toyota Team Europe
+
+Vauxhall Motors Ltd
+
+===== Page 23 =====
+
+
+
+===== Page 24 =====
+
+Inhoud
+
+Het starten van uw systeem ...............0.2.0000- 20
+Startiuw motorenie.2 a. oe i ee ee a 20
+Desuitdacingh ss: ete. es oes copes ges 22
+We AlKCUZC a erdacerah en Pk es ee een ge 22
+OOTAMENU i: Genes. cae es ee oe 22
+
+BeStUning eters a rahe ee oa iE oprah scene 23
+
+KOUZO re ee i ee oi i) hice a ain fiadhdl tone ce 23
+Enkelspeli ce esc ese gia oierae esr encaniei ice ecat 24
+Groepspeliie: co ce tk. eis ei agi ee ens eee 24
+De Wagens ie tet a. a ies fae 24
+Keuze van uw eerste wagen ................-..-.4-. 25
+SCA Ce ea ee ee age s peqayes ae alias oes Gs 25
+Uw wagen vervangen .............. 0... cece eee 26
+HOCAtOg it ORO ee ERG int net ale gaa 26
+ASSIStentlecea setae tc A Ie Se ees 26
+Bestrattingen:cc10 0 ter ee ak i 26
+IWeGrenyZiChte ss irs te ee eeelar ee ek ay 26
+Etapperesultaten: oc ic ey ee 26
+DeveindStreep sient cdi re a Ce ane TE
+
+20
+
+===== Page 25 =====
+
+Het starten van uw
+systeem
+
+1. Uw Super NES™ moet
+uitgeschakeld zijn.
+
+2. Sluit de handbesturing aan op
+poort nr. 1 van het apparaat.
+
+3. Plaats de Power Drive cassette
+in uw Super NES™.
+
+Druk tot de cassette goed in zijn
+plaats zit.
+
+Waarschuwing: Nooit de cassette
+verwijderen of installeren als het
+apparaat aan staat.
+
+4. Zet nu het apparaat aan. Druk op
+een willekeurige toets en de
+Taalkeuze verschijnt.
+
+Start uw motoren...
+
+Het Power Drive
+Wereldkampioenschap bestaat uit 48
+etappes in 8 landen.
+
+ledere ronde heeft zijn eigen
+gevarieerde racecondities, om het
+uiterste van uw rijvaardigheid te vergen.
+
+le ronde
+Locatie: Monte Carlo
+
+Klimaat: Hoofdzakelijk droog, af en
+toe ijs/sneeuw
+
+Wegdek: Asfalt
+
+Terrein: Bergachtig, rotsachtige weg
+
+Ze ronde
+Locatie: Kenya
+
+21
+
+Klimaat: Heet/droog
+Wegdek: Asfalt/zandig grind
+
+Terrein: Woestijn (af en toe een
+oase)
+
+3e ronde
+Locatie: Zweden
+
+Klimaat: lJs/sneeuw
+Wegdek: Grind
+
+Terrein: Bosweg
+
+4e ronde
+Locatie: Corsica
+
+Klimaat: Nat
+Wegdek: Asfalt
+
+Terrein: Bergachtig, rotsachtige weg
+
+Se ronde
+Locatie: Arizona
+
+Klimaat: Heet/droog
+Wegdek: Asfalt/grind
+
+Terrein: Rotsachtige weg/woestijn
+
+6e ronde
+Locatie: Finland
+
+Klimaat: Koel/droog
+Wegdek: Grind
+
+===== Page 26 =====
+
+Terrein: Bos/meren gebied
+
+7e ronde
+
+Locatie: Australié
+Klimaat: Heet/benauwd
+Wegdek: Zand/grind
+
+Terrein: Struikachtige/bosweg
+
+Se ronde
+Locatie: Groot Brittannié
+
+Klimaat: Koud/nat/ijs/sneeuw/mist
+Wegdek: Grind
+
+Terrein: Bosweg
+
+U gaat in speciale etappes tijdritten,
+terreinritten en vaardigheids-tests over
+de wereld racen, om uw veelizijdigheid
+achter het stuur te meten.
+
+Speciale etappe
+
+Een strijd tegen de klok over een vooraf
+bepaalde route (van A naar B).
+
+Terreinrit
+
+Gevaarlijke circuits met hinderlijke
+computer gestuurde tegenstanders.
+
+Vaardigheidstest
+
+Speciaal ontworpen koersen voor het
+testen van uw rijvaardigheid. Voltooi de
+opgegeven manoeuvres, zonder
+penalties (bestraffingen) te krijgen.
+
+De uitdaging
+
+Uw belangrijkste doel is het voltooien
+van het hele kampioenschap in de
+snelste Groep 1 wagen.
+
+Voordat u begint, krijgt u genoeg
+kapitaal om een Groep N wagen te
+kopen.
+
+U vergroot het kapitaal, door het
+regelmatig voltooien van evenementen
+en hierdoor kunt u een snellere inruil
+wagen bemachtigen. Maar u moet wel
+wat bewaren voor entreegelden en
+onderhoud.
+
+Taalkeuze
+
+Kies Engels, Frans, Duits, Spaans, of
+Portugees (Braziliaans) als speltekst en
+druk een willekeurige toets om te
+beginnen. Als u een verkeerde keuze
+maakt, moet ude Super NES™
+uitschakelen en opnieuw beginnen.
+
+Hoofdmenu
+
+Beweeg UP/DOWN (OP/NEER), om
+een keuze te maken en druk dan een
+willekeurige toets om verder te gaan.
+
+eo
+
+===== Page 27 =====
+
+Besturing
+
+Kies tussen Directional en Rotational
+besturingsmethodes door een
+willekeurige toets te drukken en
+selecteer zodanig.
+
+Directional: De wagen beweegt in
+de richting van de gedrukte toets.
+Rotational: gebruik LINKS/RECHTS
+om de wagen te besturen.
+
+Opmerking: Er kan maar één
+bedieningsmethode geselecteerd
+worden, dus verzeker u zelf ervan dat
+iedereen het eens is, wanneer
+meerdere spelers deelnemen.
+
+U kunt ook de functie van een toets
+veranderen; kies een functie en druk de
+gekozen toets (A, B, X of Y).
+
+Rem
+Gas
+Vooruit versnelling
+
+Achteruit versnelling
+
+kan alleen vanuit de lage vooruit
+ersnelling geselecteerd worden)
+
+PETES eed,
+
+<
+
+Start Pauze
+
+(druk nogmaals om verder te gaan)
+
+Uw wagen is geprogrammeerd om net
+als een echte rallywagen op deze
+besturing te reageren.
+
+ZO gauw u aan deze reacties gewend
+bent, kunt u met een beetje oefenen de
+volgende manoeuvres te lijf gaan.
+
+Slingerdraai
+
+In een scherpe bocht, stuur tegen de
+bocht in en gooi dan op het juiste
+moment het stuur weer in de juiste
+richting, zodat de achterkant van de
+wagen naar buiten slingert doordat de
+
+23
+
+achterwielen het contact met de weg
+verliezen. Hierdoor kunt u de motor op
+de hoogste toeren laten draaien. Veel
+oefening wordt vereist om deze
+manoeuvre onder de knie te krijgen.
+
+Handremdraai
+
+In een haarspeldbocht, moet u hard
+remmen zo gauw u de bocht in stuurt.
+Alle wielen zullen hierdoor het contact
+met de weg verliezen, zodat u op de
+beste lijn om de bocht slipt.
+
+Snelle slip
+
+Slip door een reeks scherpe en snelle
+bochten, door hard op iedere bocht in
+te sturen (net als.een Slingerdraai
+zonder tegen de bocht in te sturen).
+
+Parool
+
+Gedurende enkelspel, krijgt u een
+parool aan het einde van de eerste
+etappe in iedere ronde, (behalve de 1e
+ronde).
+
+Door het intoetsen van het juiste parool,
+kunt u vanaf ieder gewenst punt in het
+spel opnieuw beginnen.
+
+Beweeg UP/DOWN (OP/NEER) en
+druk de gewenste letter, waarna u
+START drukt om het parool in te
+voegen. Als uw parool onjuist is belandt
+u terug bij het Hoofdmenu.
+
+Opmerking: Als u een fout maakt,
+beweeg dan LINKS/RECHTS om deze
+te corrigeren.
+
+Keuze
+
+Muziek AAN/UIT
+Geluidseffecten AAN/UIT
+Gids AAN/UIT
+waarschuwende richtinggevende
+pijlen
+
+Spelers 1-8
+
+===== Page 28 =====
+
+Oefenen
+
+Het is aanbevolen dat u zich
+voorbereidt op de oefenbaan, voordat u
+met de eerste race begint.
+
+Beweeg LINKS/RECHTS om een circuit
+te kiezen (normaal, regen of
+sneeuw/ijs), druk op een willekeurige
+toets voor bevestiging en maak dan
+een ritje in de Mini Cooper S.
+
+Wanneer u zich bekwaam genoeg voelt
+(er is geen tijd beperking), brengt u de
+wagen tot stilstand in het
+uitgangshokje, dat zich rechts onder het
+circuit bevindt. Als u geen keuze maakt
+van het Hoofd menu dan volgt het spel
+een automatische demonstratie.
+
+Druk op een willekeurige toets om naar
+het Hoofdmenu terug te keren.
+
+Enkelspel
+
+Tijdens het normale enkelspel, kunt u
+pas aan de volgende etappe beginnen
+wanneer u het vorige evenement
+binnen de bepaalde tijd beperking
+voltooid heeft.
+
+Als u zich niet kwalificeert, blijf het dan
+proberen tot dat u succes heeft of
+zonder kapitaal komt te zitten.
+
+Groepspel
+
+Race tegen uw vrienden voor het bezit
+van het kampioenschap.
+
+In tegenstelling met het Enkelspel, kunt
+u zonder kwalificatie toch in de
+volgende ronde meerijden maar u zult
+geen punten of prijsgeld voor die
+laatste ronde krijgen.
+
+Een scherm met de resultaten
+verschijnt aan het einde van iedere
+etappe.
+
+24
+
+De punten verdeling is als volgt:
+
+le 5
+
+2e 4
+
+3e 3
+
+4e 2
+
+e 1
+
+6e/7e/8e 0
+
+. Geen kwalificatie 0
+
+Opmerking: Er is geen parool tijdens
+een groepspel.
+
+De wagens
+
+Zes wagens zijn voorhanden, in drie
+groep classificaties.
+
+Het rijgedrag verschilt (wendbaarheid,
+stabiliteit, enz.) en wagens uit een
+hogere groep kosten meer in
+onderhoud.
+
+Groep N
+Mini Cooper S
+Fiat Cinquecento Turbo
+
+Groep Z
+
+Vauxhall Astra 16v GTi
+Renault Clio Williams
+
+Groep |
+Ford Escort Cosworth
+Toyota Celica
+
+===== Page 29 =====
+
+Keuze van uw eerste
+wagen
+
+U begint met $28.000 - genoeg om een
+Groep N wagen te kopen.
+
+Beweeg LINKS/RECHTS om van de
+Mini naar de Fiat te springen en
+OP/NEER om de kleur te veranderen.
+Als u tevreden bent, druk dan KEUZE
+(druk nogmaals als u zich bedenkt) en
+druk START om verder te gaan.
+
+Schade
+
+Rallywagens zijn degelijk gebouwd,
+maar de circuits zijn vaak genoeg toch
+de winnaar.
+
+Schade wordt opgelopen als u een
+ongeluk krijgt of roekeloos rijdt. Dit
+heeft tot gevolg dat de besturing en de
+conditie van de wagen geleidelijk
+slechter worden.
+
+U kunt reparaties verrichten aan het
+einde van iedere etappe - als u hiervoor
+genoeg kapitaal heeft.
+
+25
+
+Schade reparaties
+
+Het scherm met Schade reparaties
+verschijnt niet als uw wagen de race
+zonder schade heeft overleeft.
+
+Om uw wagen te onderhouden,
+beweeg OP/NEER om een onderdeel
+te kiezen en druk dan A/B/X/Y voor een
+gedeeltelijke reparatie, of KEUZE voor
+een complete reparatie.
+
+Zo gauw u tevreden bent met de
+reparatie van uw wagen (of zonder
+kapitaal zit), druk u START om verder
+te gaan.
+
+Opmerking: De conditie van uw
+wagen beinvloed de prestatie. Het is
+dus aanbevolen deze zo goed
+mogelijk te onderhouden.
+
+(als kapitaal voorhanden is)
+
+===== Page 30 =====
+
+Uw wagen vervangen
+
+Als u genoeg kapitaal vergaard, kunt u
+uw wagen vervangen;
+
+Groep 2 wagens kunnen vanaf de 3e
+ronde en Groep 1 wagens vanaf de 6e
+ronde vervangen worden.
+
+Zo gauw u voldoende kapitaal heeft,
+verschijnt het scherm met de
+wagenkeuze (druk op START als u
+geen aankoop wilt maken).
+
+Kies uw nieuwe wagen met dezelfde
+methode als uw eerste (zie Keuze van
+uw eerste wagen) en druk START.
+
+Locatie
+
+Voor iedere race ziet u het Locatie
+scherm. Daarop ziet u; weertype, dag /
+nacht en entreebedrag.
+
+Als u niet genoeg kapitaal heeft voor
+het entree, dan is het spel over voor u
+en moet u terug naar het Hoofdmenu.
+Als u wel genoeg heeft, druk dan op
+een willekeurige toets om de race te
+starten.
+
+Assistentie
+
+Assistentie Bevind zich op willekeurige
+afstanden op ieder circuit en worden
+verzameld door er overheen te rijden.
+
+26
+
+Geld Vergroot uw kapitaal met $250.
+Salpeter Kortstondige
+snelheidsverhoging.
+
+Tijd De klok staat vijf seconden stil.
+
+Bestraffingen
+
+Een kegel raken betekend een straf van
+0.5 seconde - u bent gewaarschuwd !
+
+Weer en zicht
+
+Klimatische omstandigheden en tijd van
+de dag verschillen drastisch van race
+tot race. Dit is van invloed op de
+besturing van de wagen en de
+reactiesnelheid.
+
+U moet daar rekening mee houden en
+uw rijstijl daar zo nodig bij aanpassen.
+
+Etapperesultaten
+
+Aan het einde van ieder circuit krijgt u
+het scherm met de Etapperesultaten
+te zien.
+
+Prijsgeld wordt uitgereikt als u zich
+kwalificeert en een bonus als u het
+circuitrecord breekt of de computer
+gestuurde wagen tijdens de terreinrit
+verslaat.
+
+Zo gauw u genoeg hulde en glorie
+
+===== Page 31 =====
+
+binnen heeft, kunt u een willekeurige
+toets drukken en verder gaan.
+
+De eindstreep
+
+Als u het zover brengt en alle 48
+etappes wint, wordt u tot Power Drive
+Wereldkampioen gekroond.
+
+Beperkt waarborg
+
+U.S. Gold behoudt het recht,
+veranderingen aan het in dit handboek
+omschreven produkt aan te brengen,
+zonder notificatie en op ieder moment.
+U.S.Gold geeft geen waarborg,
+uitdrukkelijk of insluitend, wat betreft dit
+geproduceerde materiaal, de kwaliteit,
+verkoopbaarheid of bruikbaarheid voor
+een bepaald doel. Als een gebrek zich
+openbaart tijdens de 90 dagen van dit
+beperkte waarborg in dit produkt zelf
+(niet het software programma, dat
+wordt geleverd “als het is”) retour dit
+dan, in de originele conditie, naar het
+punt van aankoop. Bewijs van aankoop
+moet voorhanden zijn, voor het van
+kracht worden van dit 90 daagse
+waarborg.
+
+Wagens zijn gebruikt met de
+vriendelijke toestemming van de
+volgenden;
+
+Brigden Coultes Motorsport Ltd
+Fiat Auto (UK) Ltd
+
+Ford Motor Company Ltd
+Renault UK Ltd
+
+Rover Cars plc
+
+Toyota Team Europe
+
+Vauxhall Motors Ltd
+
+27
+
+===== Page 32 =====
+
+Inhaltsverzeichnis
+
+SYSUEMStAMG Mee ees ae serie ae care eect 29
+Motorenistarten 28 2-2 5. es 29
+Die Herausforderung ..................00 eee e eee 30
+Sprache wahlen gave... 2 ASA eee eee 30
+Hauptmenui on 4. eerie es ey ae ies 31
+
+Steuerungsvorrichtungen ..............-.- eee eee eee 31
+
+ODTONGN ES seca: coos ay jap te SS eae Shing aay, dea neti 32
+Einespieler-opleln ta seae. 6. voce oe 32
+Multi-Spieler-Spiel’ i220... ee ee ee eee 32
+Die: Wagen:-) .. cec ec i 33
+Wahl Ihres ersten Wagens .......................-. 33
+Beschadigungem: i. cnt 2: bs spe ee ee ee 33
+Ihren Wagen aktualisieren .......................... 34
+Standort. oer eee Bee aad See eee eeteee 34
+LP fo] tI | 0 inj Sse ts Ae etn penne eietreren or i ip ec rane 35
+Stratpunkte 265. ake 2 eee ai Re 35
+Wetter und Sichtverhaltnisse ....................... 35
+Etappenergebnisse =.) oig ee ee 35
+Schwarz-weiBe Flagge .................-2. eee eee 35
+
+===== Page 33 =====
+
+So Starten Sie lhr
+System
+
+1. Vergewissern Sie sich, daB Ihr
+Super NES™ ausgeschaltet ist.
+
+2. SchlieBen Sie einen Steuerpad
+an Port 1 des Control-Decks an.
+3. Power Drive Game Pak in Ihr
+Super NES™ einsetzen. Fest
+drticken bis das Game Pak
+einrastet.
+
+VORSICHT: Niemals versuchen
+das Game Pak einzulegen wenn
+das Gerat EINGESCHALTET ist.
+4. Schalten Sie das Gerat EIN.
+Driicken Sie einen beliebigen Knopf
+und die Bildschirmseite zur Wahl
+der Sprache erscheint.
+
+Starten Sie lhre
+Motoren...
+
+Das Power Drive World Championship
+besteht aus 48 individuellen Etappen in
+acht Landern. Jede Runde hat ihre
+eigenen Merkmale mit
+unterschiedlichen Rennbedienungen,
+so daB Ihre Fahigkeiten als Rennfahrer
+bis zum AuBersten auf die Probe
+gestellt werden.
+
+1. Runde
+Standort: Monte Carlo
+
+Klima: Meistens trocken, vereinzelt
+Eis/Schnee
+
+Strecke: Asphalt
+
+29
+
+Gelande: Berglandschaft, unebene
+Strecke
+
+2. Runde
+Standort: Kenia
+
+Klima: HeiB/trocken
+Strecke: Asphalt/Sandkiesel
+
+Gelande: Wiiste (mit vereinzelten
+Oasen)
+
+3. Runde
+Standort: Schweden
+
+Klima: Eis/Schnee
+Strecke: Kiesel
+
+Gelande: Forstgelande
+
+4. Runde
+Standort: Korsika
+
+Klima: Nab
+Strecke: Asphalt
+
+Gelande: Berglandschaft, unebene
+Strecke
+
+5. Runde
+
+Standort: Arizona
+Klima: HeiB/trocken
+Strecke: Asphalt/Kiesel
+
+Gelande: Bergige Strecke/Wuste
+
+===== Page 34 =====
+
+6. Runde
+Standort: Finnland
+
+Klima: Kihl/trocken
+Strecke: Kiesel
+
+Gelande: Forstgelande/Seenregion
+
+7. Runde
+Standort: Australien
+
+Klima: Hei8/schwil
+Strecke: Sand/Kiesel
+
+Gelande: Busch/Forstgelande
+
+8. Runde
+
+Standort: GroBbritannien
+
+Klima: Kalt/naB/Eis/Schnee/Nebel
+Strecke: Kiesel
+Gelande: Forstgelande
+
+Sie fahren die Rennen in Sonderetappen
+Schnelligkeitswettbewerbe, Rallye
+Cross und Geschicklichkeitswettbewerbe
+an verschiedenen Standorten der Welt,
+um Ihre Vielseitigkeit am Steuer zu
+Uberprtfen.
+
+Sonderetappen
+
+Wettlauf gegen die Zeit auf einer
+festgelegten Strecke (von A nach B).
+
+Rallye Cross
+
+Gefahrliche Strecken, auf denen Sie
+sich an hinderlichen
+computergesteuerten Gegnern messen.
+
+30
+
+Geschicklichkeitswettbewerbe
+
+Speziell entwickelte Strecken zur
+Uberpriifung Ihrer Fahrfahigkeiten.
+Spezifische Aufgaben mlssen ohne
+Strafpunkte zu bekommen durchgefuhrt
+werden.
+
+Die Herausforderung
+
+Das ultimative Ziel ist, den gesamten
+Wettbewerb im schnellsten Wagen der
+Gruppe 1 zu fahren. Vor dem Start
+erhalten Sie genigend Geld um einen
+Gruppe-N-Wagen zu kaufen. Durch
+standige Siege bei den jeweiligen
+Wettbewerben bessern Sie Ihre
+Finanzen auf, so daB Sie Ihren Wagen
+gegen ein besseres Modell
+austauschen kénnen, aber Sie mussen
+etwas Geld fiir Teilnahmegebuhren und
+Wartung zuriickbehalten.
+
+Wahl der Sprache
+
+Wahlen Sie englischen, franzésischen,
+deutschen, spanischen oder
+portugiesischen (brasilianisch) Text im
+Spiel und betatigen Sie einen
+beliebigen Knopf zur Aktivierung. Wenn
+die falsche Wahl getroffen wurde, dann
+muB das Super NES™ ausgeschaltet
+und erneut gestartet werden.
+
+===== Page 35 =====
+
+Hauptmenu
+
+Um aus den Optionen zu wahlen
+AUFWARTS/ABWARTS bewegen und
+zur Aktivierung einen beliebigen Knopf
+driicken.
+
+Steuerungsvorrichtungen
+
+Betatigung eines beliebigen Knopfes
+ermdéglicht abwechselndes Schalten
+
+zwischen Richtungs- und rotierenden
+Steuermethoden:
+
+Richtungssteuermethode: Der
+Wagen bewegt sich in die Richtung, die
+auf dem Controllerpad betatigt wird.
+
+Rotational: LINKS/RECHTS
+verwenden um den Wagen zu steuern.
+
+Bitte beachten: Es kann nur jeweils
+eine Steuermethode aktiviert werden,
+daher muB in Multi-Player Games
+(Multi-Spieler-Spielen) ein
+Einverstandnis liber die Wahl getroffen
+werden.
+
+Sie konnen auBerdem die
+Konfigurierung der Knépfe andern;
+Wahlen sie eine Funktion und driicken
+Sie gewiinschten Knopf (A, B, X oder
+Y) um die Funktion auf diesen Knopf
+festzulegen.
+
+31
+
+A Bremse
+
+B Beschleunigung
+Y Vorwartsgange
+X
+
+Rickwartsgang
+
+(steht nur im langsamen Vorwartsgang
+zur Verflgung)
+
+START Pause
+
+(Zur Fortsetzung des Spiels, Knopf
+erneut betatigen)
+
+Ihr Wagen wurde programmiert, so daB
+er wie ein wirklicher Rallye Wagen auf
+die Steuerung reagiert.
+
+Wenn Sie mit diesen Merkmalen
+vertraut sind, werden Sie nach einiger
+Ubung in der Lage sein folgende
+Manéver durchzufihren;
+
+Pendeldrehung
+
+In einer scharfen Kurve steuern Sie den
+Wagen aus der Kurve und dann am
+steilsten Punkt der Kurve wieder in die
+Kurve hinein.
+
+Das hintere Ende des Wagen wird nach
+auBen drehen wenn die Rader Kontakt
+verlieren und dies erméglicht Ihnen die
+maximale Motorumdrehungszahl
+beizubehalten. Zur perfekten
+Durchfiihrung dieses Manéver ist viel
+Ubung erforderlich.
+
+Drehung mittels der
+Handbremse
+
+In einer Haarnadelkurve, bremsen Sie
+wenn Sie in die Kurve drehen. Alle vier
+Rader verlieren Kontakt mit der
+Fahrbahn und Sie schleudern auf der
+bestmdglichen Linie um die Kurve.
+
+===== Page 36 =====
+
+Powerschleudern
+
+Schleudern Sie um mehrere enge oder
+scharfe Kurven, indem Sie scharf in
+jede Kurve steuern (wie eine
+Pendeldrehung ohne aus der Kurve zu
+steuern)
+
+PaRwort
+
+Im Ein-Spieler-Modus wird Ihnen am
+Ende der ersten Etappe in jeder Runde
+ein PaBwort zugeteilt (ausschlieBlich
+Runde 1)
+
+Durch Eingabe des jeweiligen
+PaBwortes kénnen Sie an einer
+beliebigen Stelle im Spiel erneut
+starten.
+
+AUF/ABWARTS gehen und einen
+beliebigen Knopf zur Wahl der
+jeweiligen Buchstaben betatigen. Dann
+START drticken, um das PaBwort
+einzugeben.
+
+Wenn Ihr PaBwort illegal ist, kehren Sie
+zum Hauptmend zuriick.
+
+Bitte beachten: Wenn Sie einen Fehler
+machen, k6énnen Sie sich nach
+LINKS/RECHTS bewegen um Uber den
+Fehler zu schreiben.
+
+Optionen
+
+Musik ein/aus
+Sound FX ein/aus
+Hinweispfeile ein/aus
+
+Vorwarnungs-Richtungspfeile
+Spieler 1-8
+
+Ubung
+
+Es wird empfohlen Ihre Fahrfahigkeiten
+auf der Ubungsstrecke in allen
+Einzelheiten zu Uben und erproben,
+bevor Sie am ersten Rennen
+teilnehmen.
+
+Bewegen Sie sich nach
+
+32
+
+LINKS/RECHTS, um eine Strecke zu
+wahlen (Normal, Nacht, Regen oder
+Schnee/Eis). Betatigen Sie einen
+beliebigen Knopf, um Ihre Wahl zu
+bestatigen und drehen Sie eine Runde
+mit dem Mini Cooper S.
+
+Wenn Sie der Meinung sind, daB Ihre
+Fahigkeiten gut genug sind, dann
+halten Sie den Wagen in der Exit-Box
+unten rechts auf der Strecke an.
+Wenn Sie im Hauptment keine Wahl
+treffen, lauft automatisch ein Demo ab.
+Durch Betatigung eines beliebigen
+Knopfes kehren Sie zum Hauptmeni
+zuruck.
+
+Ein-Spieler-Spiel
+
+Wenn Sie wahrend einem Standard-
+Ein-Spieler-Spiel nicht die
+vorgeschriebene Zeit flr das Rennen
+erreichen, dann riicken Sie nicht zur
+nachsten Etappe vor.
+
+Wenn Sie nicht qualifizieren, dann
+versuchen Sie einfach weiter bis Sie
+zugelassen werden oder bis Ihre
+Finanzen erschépft sind.
+
+Multi-Spieler-Spiel
+
+Tragen Sie mit Ihren Freunden einen
+Wettkampf um die Weltmeisterschaft
+aus.
+
+Wenn Sie nicht qualifizieren, Kinnen
+Sie trotzdem am nachsten Rennen
+teilnehmen, aber Sie erhalten keine
+Punkte oder Preisgelder in dieser
+Etappe.
+
+Am Ende jeder Etappe erscheint eine
+Spielerplazierungstafel.
+
+Die Punkte werden wie folgt vergeben:
+
+===== Page 37 =====
+
+1. Platz
+2. Platz
+3. Platz
+4. Platz
+5. Platz
+6./7./8. Platz
+
+Nicht qualifiziert
+
+Bitte beachten: Die PaBwortfunktion ist
+
+bei Multi-Spieler-Spielen nicht aktiviert.
+
+Die Wagen
+
+Es stehen sechs Wagen aus drei
+Wettbewerbsklassen zur Verfligung.
+Jeder Wagen reagiert anders
+(Kurvenfahrverhalten, StraBenlage
+usw.) und die besseren Wagen sind in
+der Unterhaltung kostspieliger.
+
+Gruppe N
+Mini Cooper S
+Fiat Cinquecento Turbo
+
+Gruppe 2
+Vauxhall Astra 16V GTi
+Renault Clio Williams
+
+Gruppe I
+Ford Escort Cosworth
+Toyota Celica
+
+33
+
+Wahl lhres ersten
+Wagens
+
+Sie beginnen mit $ 28000 - das gentgt
+fur einen Wagen in der
+
+Gruppe N.
+
+Bewegen Sie sich nach
+LINKS/RECHTS, um zwischen dem
+Mini und Fiat hin und zuruck zu
+schalten und AUF/ABWARTS um die
+Farbe des Wagens zu andern.
+
+Wenn Sie mit Ihrer Wahl zufrieden sind,
+drucken Sie SELECT (nochmals
+drucken wenn Sie sich anders
+entscheiden)
+
+und drucken Sie dann START um
+weitere Optionen zu wahlen.
+
+Beschadigungen
+
+Rallye-Wagen sind sehr
+widerstandsfahig, aber Rallye-Strecken
+sind auBerst strapazierend.
+
+Durch Unfalle oder leichtsinniges
+Fahren entstehen Beschadigungen, die
+die Reaktion und den allgemeinen
+Zustand lhres Fahrzeuges
+beeintrachtigen.
+
+Am Ende jeder Etappe kénnen Sie
+Reparaturen durchfuhren - Wenn dazu
+das Geld zur Verfligung steht.
+
+===== Page 38 =====
+
+Schaden reparieren
+
+Der Schadenreparaturbildschirm
+erscheint nicht wenn Ihr Wagen ein
+Rennen ohne Schaden zurtlicklegte.
+Zur Reparatur Ihres Wagens bewegen
+Sie sich AUF/ABWARTS um ein Bauteil
+zu wahlen und betatigen dann A/B/X/Y
+um die Reparatur teilweise
+durchzufiihren oder driicken Sie
+SELECT um vollstandig zu reparieren.
+
+Wenn Sie mit dem Zustand lhres
+Wagen zufrieden sind (oder wenn Sie
+kein Geld mehr haben) driicken Sie
+START um weitere Optionen zu
+wahlen.
+
+Bitte beachten: Der Zustand lhres
+Wagens wirkt sich auf seine
+Leistungsfahigkeit aus. Es wird daher
+empfohlen Ihren Wagen im besten
+Zustand zu halten (Wenn dazu das
+Geld vorhanden ist).
+
+34
+
+Ihren Wagen
+aktualisieren
+
+Wenn Sie gentigend Geld gesammelt
+haben, kénnen Sie Ihren Wagen
+aktualisieren;
+
+Wagen der Gruppe 2 kénnen ab der 3.
+Runde gekauft werden und Wagen der
+Gruppe 1 ab der 6. Runde. Wenn Sie
+gentgend Geld haben erscheint der
+WagenwahlI-Bildschirm (START
+drlicken wenn Sie nichts kaufen
+méchten)
+
+Wahlen Sie Ihren Wagen nach der
+gleichen Methode wie bei der Wahl
+lhres ersten Wagens (siehe Wahl
+Ihres ersten Wagens) und driicken Sie
+dann START um weitere Optionen zu
+wahlen.
+
+Standort
+
+Vor jedem Rennen erscheint ein
+Standortbildschirm der
+Wetterbedingungen, Tag/Nacht und die
+Teilnahmegebuhr angibt.
+
+Wenn Sie nicht genigend Geld haben
+um die Gebuhr zu bezahlen, dann
+endet das Spiel und Sie kehren zum
+Hauptment zurtck.
+
+===== Page 39 =====
+
+Wenn Sie aber geniigend Geld haben,
+k6énnen Sie einen beliebigen Knopf
+betatigen um das Rennen zu starten.
+
+Pick-ups
+
+Pick-Ups befinden sich an belieben
+Stellen auf der jeweiligen Strecke und
+k6nnen gesammelt werden, indem Sie
+Uber sie hinweg fahren.
+
+Geld
+Bessert Ihre Finanzen um jeweils $250
+auf.
+
+Vortibergehende
+Geschwindigkeitserhéhung
+
+Zeit
+Uhr steht fir 5 Sekunden still
+
+Strafpunkte
+
+Wenn Sie gegen einen Kegel fahren
+verlieren Sie 0,5 Sekunden - Sie
+wurden also gewarnt!
+
+Wetter und
+Sichtverhaltnisse
+
+Das Klima und die Tageszeit sind in
+jedem Rennen sehr unterschiedlich und
+wirken sich darauf aus, wie Ihr Wagen
+reagiert und fahrt. Sie miissen diese
+Bedingungen berticksichtigen und dem
+entsprechend fahren.
+
+35
+
+Etappenergebnisse
+
+OUALIFIE
+
+Am Ende jeder Strecke erscheinen die
+Etappenergebnisse. Wenn Sie sich
+qualifiziert haben, werden Preisgelder
+verliehen und zusatzlich erhalten Sie
+einen Bonus wenn Sie den Rekord auf
+dieser Strecke brechen und den
+computergesteuerten Wagen im Rallye
+Cross-Teil schlagen.
+
+Nachdem Sie sich eine Weile im Glanz
+des Siegers gesonnt haben, k6énnen
+Sie einen beliebigen Knopf driicken um
+weiterzuspielen.
+
+Schwarz-weike Flagge
+
+Wenn Sie alles hergeben und alle 48
+Rennen gewinnen, dann werden Sie
+zum Power Drive Weltmeister
+ernannt.
+
+Beschrankte Haftung
+
+U.S. Gold behalt das Recht vor, das in
+diesem Handbuch beschriebene
+Produkt zu einer beliebigen Zeit und
+ohne vorherige Bekanntgabe zu
+verbessern. U.S. Gold ibernimmt
+weder eine ausdriickliche noch
+implizierte Sachmangelhaftung
+beztiglich auf das hergestellte Material
+und lehnt Garantien fur die Eignung fur
+
+===== Page 40 =====
+
+einen bestimmten Zweck, die
+Verkauflichkeit und fur handelsublichen
+Qualitat ausdriicklich ab. Sollte
+wahrend der 90tagigen Garantiefrist
+Mange! am Datentrager entstehen (d.h.
+nicht am Programm, das im
+“gesehenen Zustand” geboten wird)
+dann sollte das Produkt im
+urspriinglichen Zustand an die
+Verkaufsstelle zuriickgesandt werden.
+Zur Inanspruchnahme der Garantie ist
+ein Kaufbeleg erforderlich.
+
+Die Wagen wurden mit der freundlichen
+Genehmigung der folgenden
+Unternehmen verwendet:
+
+Brigden Coultes Motorsport Ltd
+Fiat Auto (UK) Ltd
+
+Ford Motor Company Ltd
+Renault UK Ltd
+
+Rover Cars ple
+
+Toyota Team Europe
+
+Vauxhall Motors Ltd
+
+36
+
+===== Page 41 =====
+
+Contenido
+
+Arranque del sistema ....................-..-0-008- 38
+Calienta,\motores)) 03% nt. dee th See ee 38
+Elireto 2 hr Soe ee ee. 2 aoe ore oe 39
+Seleccion de idioma ..4.) 0. 39
+Menuipringipalia co. ee 2 ia ee ee er 39
+
+Mandos er ioe fone o aig i. o: ium sani pee erty seme eee 40
+
+Opciones, ... i. .:: ziawins SET Ait ee eee ee 41
+WMJUG AOR ee NR oer a reat ae oe ea 41
+VarlosjugadOres: ha tee oR... eee A ee 41
+EOS'VEWDICULOS rete eae oe aces ee eye labs ce 42
+Seleccion de tu primer vehiculo..................4... 42
+DahOS 20 Sse bce aa. . S e erate se alee, Cl tome raeerals 42
+
+EUQ ari 2.8 Beer Pe ee Oo ee ee 43
+Recogidas::. 40 fe teas eee ee re ee ee 43
+Remalizacignes cd ooo nen ten, ek ce eee Re 43
+Condiciones meteoroldgicas y visibilidad ............. 44
+Resultados de laetapa ....................0 0000000: 44
+La-bandera de llegada....... 4. 2293 Se Se ee 44
+
+===== Page 42 =====
+
+Arranque del sistema
+
+1. Comprueba que el Super NES™
+esta apagado.
+
+2. Conecta un adaptador de control
+al puerto 1 de la mesa de control.
+3. Introduce el Game Pak “Power
+Drive” en el Super NES™.
+Presiona firmemente para que el
+Game Pak quede encajado en
+posicion.
+
+AVISO: No intentes nunca
+introducir o retirar un Game Pak
+mientras el equipo esté encendido.
+4. Enciende el equipo. Pulsa un
+botén cualquiera; aparecera la
+pantalla Seleccién de idioma.
+
+Calienta motores...
+
+El Campeonato del Mundo de
+Conduccion “Power Drive” consta de 48
+etapas distintas que se disputan en
+ocho paises. Cada etapa se caracteriza
+por diferentes condiciones de carrera,
+que pondran a prueba tu capacidad
+para pilotar el vehiculo hasta el limite
+de sus posibilidades.
+
+| aetapa
+Lugar: Montecarlo
+
+Clima: Principalmente seco, algo de
+hielo/nieve
+
+Pista: Asfalto
+
+Terreno: Carretera montafosa,
+rocosa
+
+Z aetapa
+
+Lugar: Kenia
+
+Clima: Caluroso/seco
+Pista: Asfalto/gravilla arenosa
+
+Terreno: Desértico (con oasis
+ocasionales)
+
+3 aetapa
+Lugar: Suecia
+
+Clima: Hielo/nieve
+Pista: Gravilla
+
+Terreno: Pista forestal
+
+4 aetapa
+Lugar: Corcega
+Clima: Humedo
+Pista: Asfalto
+
+Terreno: Carretera montafosa,
+rocosa
+
+5 aetapa
+Lugar: Arizona
+Clima: Caluroso/seco
+Pista: Asfalto/gravilla
+
+Terreno: Carretera rocosa/desierto
+
+6 aetapa
+Lugar: Finlandia
+
+38
+
+===== Page 43 =====
+
+Clima: Fresco/seco
+Pista: Gravilla
+
+Terreno: Bosques/lagos
+
+7 aetapa
+Lugar: Australia
+
+Clima: Caluroso/humedo
+Pista: Arena/gravilla
+
+Terreno: Monte/pista forestal
+
+8 aetapa
+Lugar: Gran Bretafa
+
+Clima:
+Frio/numedo/hielo/nieve/niebla
+
+Pista: Gravilla
+Terreno: Pista forestal
+
+Participaras en etapas especiales
+(pruebas cronometradas), rallyes y
+pruebas de pericia en todo el mundo
+para poner a prueba tu versatilidad al
+volante.
+
+Etapa especial
+
+Prueba cronometrada a lo largo de una
+ruta determinada previamente (del
+punto A al punto B).
+
+Rallye
+
+Peligrosos circuitos en los que te
+enfrentaras a oponentes controlados
+por ordenador que intentaran
+obstaculizarte.
+
+39
+
+Prueba de pericia
+
+Pistas disefadas especialmente para
+poner a prueba sus aptitudes como
+piloto. Debes realizar las maniobras
+especificadas sin incurrir en ninguna
+penalizacion.
+
+El reto
+
+Tu objetivo final es completar todo el
+Campeonato pilotando el vehiculo mas
+potente del Grupo 1.
+
+Antes de ponerte en marcha, se te hara
+entrega de suficientes fondos para
+adquirir un vehiculo del Grupo N.
+
+Si acabas todas las pruebas, iras
+incrementando tus fondos y podras
+entregar a cuenta tu vehiculo al adquirir
+un modelo de mayor potencia, pero
+deberas guardar algo de dinero para
+poder pagar las cuotas de inscripcién
+en las pruebas y los gastos de
+mantenimiento del vehiculo.
+
+Seleccion de idioma
+
+Elige el idioma en el que aparecera el
+texto durante el juego — inglés,
+francés, aleman, espafol o portugués
+(brasilero) — y pulsa un botén
+cualquiera para activarlo. Si te
+equivocas al seleccionar el idioma,
+apaga el Super NES™ y empieza de
+nuevo.
+
+Mend principal
+
+Mueve ARRIBA/ABAJO para
+seleccionar las opciones y a
+continuacion pulsa un boton cualquiera
+para activarlas.
+
+===== Page 44 =====
+
+Mandos
+
+Elige uno de los métodos de control,
+Direccional o Rotacional, pulsando un
+botén cualquiera para activar tu
+selecci6n.
+Direccional: el vehiculo se
+desplaza en la direccién pulsada en el
+controlador.
+Rotacional: utiliza IZQUIERDA/
+DERECHA para controlar la direccién
+del vehiculo.
+Nota: Sdlo se puede seleccionar al
+mismo tiempo un método de control.
+Por ello, cuando participen varios
+jugadores, asegurate de que todo el
+mundo esté de acuerdo con el método
+a utilizar.
+También puedes cambiar la
+configuracién de los botones:
+selecciona una funcidn y pulsa el botén
+. deseado (A, B, X 0 Y) para asignarle su
+funcion.
+
+A Frenar
+
+B Acelerar
+
+Y Marchas de avance
+X Marcha atras
+
+(sdlo esta disponible desde primera)
+
+START Pausa
+
+(pulsalo de nuevo para continuar)
+
+Tu automévil esta programado para
+reaccionar a estos mandos con las
+caracteristicas de un verdadero
+vehiculo de rallye. Una vez que te
+hayas familiarizado con estas
+caracteristicas, sdlo te hara falta algo
+de practica para realizar las siguientes
+maniobras:
+
+Giro pendular
+
+En una curva cerrada, gira la direccion
+en sentido contrario ala curvay a
+continuacion girala en direccion a la
+curva cuando Ilegue el momento critico.
+La parte posterior del vehiculo se
+balanceara hacia fuera ‘a medida que
+las ruedas traseras pierdan tracci6n,
+permitiéndote mantener el maximo
+nivel de revoluciones.
+
+Este método precisa mucha practica
+para realizarse de manera perfecta.
+
+Curva con accionamiento del
+freno de mano
+
+En una curva muy cerrada, acciona el
+freno mientras tomas la curva.
+
+Las cuatro ruedas perderan traccion y
+te deslizaras por la curva cerrada
+siguiendo la mejor linea posible.
+
+Deslizamiento con traccion
+
+Deslizate por una serie de curvas
+cerradas 0 rapidas, girando el volante
+enérgicamente en cada curva (es como
+un giro pendular, pero sin girar el
+volante en sentido contrario a la curva).
+
+Contrasena
+
+En la modalidad de un solo jugador, se
+te asignara una contrasefa al final de
+la primera etapa de cada ronda
+
+===== Page 45 =====
+
+(excepto la 1° ronda).
+Si introduces la contrasefia correcta,
+podras reanudar la carrera desde
+cualquier punto deseado del juego.
+Mueve ARRIBA/ABAJO y pulsa un
+boton cualquiera para seleccionar cada
+letra y a continuacion pulsa START
+para introducir la contrasefa. Sila
+contrasefia no es correcta, volvera a
+aparecer el menu principal.
+Nota: Si te equivocas al introducir la
+contrasena, mueve IZQUIERDA/
+DERECHA y escribe encima de la
+letra o las letras errdneas.
+
+Opciones
+
+Musica activada/desactivada
+Efectos
+sonoros activados/desactivados
+Guias activadas/desactivadas
+
+Flechas direccionales de preaviso
+Jugadores 1-8
+
+Practica
+
+’ Se recomienda que afines tus aptitudes
+como piloto en la pista de practicas
+antes de iniciar la primera carrera.
+Mueve IZQUIERDA/DERECHA para
+elegir un recorrido (normal, noche,
+lluvia o nieve/hielo), pulsa un bot6n
+cualquiera para confirmar la selecci6n y
+date una vuelta con el Mini Cooper S.
+Cuando se sientas lo suficientemente
+seguro como para seguir adelante (no
+hay ningun limite de tiempo), para el
+vehiculo en el cuadro Salida, situado
+en la parte inferior derecha de la pista.
+Si no realizas una seleccién en el menu
+principal, el juego ejecutara
+automaticamente una demostraci6n.
+Pulsa un boton cualquiera para volver a
+mostrar el menu principal.
+
+41
+
+Un jugador
+
+Durante el juego normal con un solo
+jugador, si superas el limite de tiempo
+establecido para una prueba, no podras
+pasar a la siguiente etapa.
+
+Si no te clasificas, sigue intentandolo
+hasta que lo consigas o hasta que te
+quedes sin fondos.
+
+Varios jugadores
+
+Compite con tus amigos por ganar el
+titulo de campeon.
+A diferencia del juego con un solo
+jugador, la no clasificaci6n no te impide
+participar en la siguiente ronda, pero no
+acumularas ningin punto o premio
+monetario en esa etapa.
+Al final de cada etapa aparecera la
+pantalla Clasificaciones de los
+jugadores.
+Los puntos se adjudican de la siguiente
+manera:
+Primer puesto
+Segundo puesto
+Tercer puesto
+Cuarto puesto
+Quinto puesto
+Sexto/séptimo/octavo puestos
+No clasificacion
+
+OoO-]-NWAYM
+
+Nota: La opcién Contrasena esta
+desactivada en la modalidad de
+varios jugadores.
+
+===== Page 46 =====
+
+Los vehiculog
+
+Hay disponibles seis vehiculos,
+pertenecientes a tres categorias de
+competicién.
+
+Cada uno muestra un comportamiento
+distinto (curvas, sujecién de los
+neumaticos, etc.) y el mantenimiento de
+los vehiculos de mayor categoria es
+mas caro.
+
+Grupo N
+Mini Cooper S
+Fiat Cinquecento Turbo
+
+Grupo 2
+Vauxhall Astra 16V GTi
+Renault Clio Williams
+
+Grupo l
+
+Ford Escort Cosworth
+Toyota Celica
+
+Seleccion de tu primer
+vehiculo
+
+4H
+
+PE:
+ECenTOo TURBO
+
+HICLE TYPE
+
+Empezaras con 28.000 ddlares, suma
+suficiente para comprar un vehiculo del
+Grupo N.
+
+42
+
+Mueve IZQUIERDA/DERECHA para
+pasar del Mini al Fiat, y ARRIBA/
+ABAJO para cambiar el color de la
+carroceria.
+
+Cuando estés satisfecho, pulsa
+SELECT (vuelve a pulsarlo si cambias
+de opinion), seguido de START para
+continuar.
+
+Daiios
+
+Los automéviles de rallye son duros,
+pero las pistas de rallye son todavia
+mas duras.
+
+Se sufren dafos cuando se colisiona
+contra un obstaculo 0 cuando se
+conduce de manera temeraria,
+provocando el deterioro del manejo y el
+estado general del vehiculo.
+
+Puedes realizar reparaciones al final de
+cada etapa, siempre que dispongas de
+suficientes fondos.
+
+Reparaciones de daiios
+
+eo
+
+y
+
+VEHICLE COMPONENT CHECK
+
+La pantalla Reparaciones de dafios no
+aparecera si tu vehiculo ha conseguido
+terminar una carrera sin experimentar
+ningun dafo.
+
+Para realizar el mantenimiento de tu
+vehiculo, mueve ARRIBA/ABAJO para
+elegir un componente y pulsa A/B/X/Y
+para realizar una reparacion parcial, o
+bien SELECT para realizar una
+
+===== Page 47 =====
+
+reparaci6én completa.
+
+Cuando estés contento con el estado
+de tu vehiculo (0 cuando te quedes sin
+fondos), pulsa START para continuar.
+
+Nota: El estado de tu vehiculo
+afectara a su rendimiento y por ello se
+aconseja que siempre mantengas tu
+automovil en perfecto estado de
+funcionamiento (siempre que cuentes
+con fondos para ello).
+
+Sustitucion de tu
+vehiculo por uno de
+mayor categoria
+
+Si ahorras suficientes fondos, podras
+cambiar tu vehiculo por otro de
+categoria superior.
+
+Los vehiculos del Grupo 2 se pueden
+adquirir a partir de la Ronda 3 y los
+vehiculos del Grupo 1 se pueden
+comprar a partir de la Ronda 6.
+Cuando tengas suficientes fondos
+aparecera la pantalla Seleccion del
+vehiculo. (Pulsa START si no deseas
+comprar un vehiculo.)
+
+Elige tu nuevo automédvil siguiendo el
+mismo procedimiento utilizado para
+Seleccionar tu primer vehiculo (consulta
+el apartado titulado “Seleccion de tu
+Primer vehiculo”) y pulsa START para
+Ccontinuar.
+
+43
+
+Lugar
+
+Antes de cada carrera aparecera la
+pantalla Lugar, en la que se muestran
+las condiciones meteoroldgicas, la
+conducci6n diurna/nocturna y la cuota
+de inscripcion.
+
+Si no tienes suficientes fondos para
+pagar la cuota, habra terminado el
+juego para ti y volvera a aparecer el
+mend principal.
+
+Si tienes suficientes fondos, pulsa un
+botén cualquiera para empezar la
+carrera.
+
+Recogidas
+
+Las recogidas se situan aleatoriamente
+a lo largo de cada recorrido, y para
+acumularlas debes pasar con el
+vehiculo por encima de ellas.
+Dinero
+
+Aumenta sus fondos en 250 dolares.
+Nitroso
+
+Aumento temporal de la velocidad.
+Tiempo
+
+El reloj se para durante cinco
+segundos.
+
+Penalizaciones
+
+Si golpeas un cono, incurriras en una
+penalizacién de medio segundo. Ya
+estas avisado.
+
+===== Page 48 =====
+
+Condiciones
+meteorologicas y
+visibilidad
+
+Las condiciones meteoroldgicas y la
+hora del dia varian considerablemente
+de una carrera a otra, afectando al
+manejo y la respuesta del vehiculo.
+Deberdas tomar nota de estas
+condiciones y adaptar tu manera de
+pilotar en consecuencia.
+
+Resultados de la etapa
+
+Al final de cada recorrido aparecera la
+pantalla Resultados de la etapa.
+
+Los premios monetarios se adjudican
+cuando te clasificas, y también se te
+entrega una bonificacion cuando bates
+el récord del recorrido o vences al
+vehiculo controlado por ordenador en
+los tramos Rallye.
+
+Después de disfrutar durante un rato de
+la gloria del vencedor, pulsa un botén
+cualquiera para continuar.
+
+44
+
+La bandera de llegada
+
+Si ganas las 48 etapas, seras
+proclamado Campeon del Mundo de
+Conducci6n.
+
+Garantia limitada
+
+U.S. Gold se reserva el derecho a
+introducir en cualquier momento y sin
+previo aviso mejoras en el producto
+descrito en este manual. U.S. Gold no
+ofrece garantia alguna, ya sea expresa
+0 tacita, con respecto a este material
+fabricado o su calidad, comerciabilidad
+o idoneidad para un fin determinado. Si
+durante el plazo de garantia limitada de
+90 dias surge cualquier defecto en el
+propio producto (es decir, no en el
+programa de software, que se
+suministra “tal cual”), podra devolverse
+en su estado original al establecimiento
+en el que se haya adquirido. Para
+poder optar a la garantia de 90 dias es
+necesario presentar un justificante de
+compra.
+
+Vehiculos utilizados con el permiso de
+las siguientes empresas:
+
+Brigden Coultes Motorsport Ltd
+Fiat Auto (UK) Ltd
+
+Ford Motor Company Ltd
+Renault UK Ltd
+
+Rover Cars plc
+
+Toyota Team Europe
+
+Vauxhall Motors Ltd
+
+===== Page 49 =====
+
+
+
+===== Page 50 =====
+
+Sommario
+
+Avvio delisistema: 2:8. F< ee ee a 47
+AVNIaG MOON 86 ee a a ok a ve et 47
+ER TCT ITs Ete Bat 97 a pe oes pear enee ee arin rere ean cares tp 48
+Selezione delle lingue .........................00-5 48
+Menucprincipale 3.025 204i 2. eee ER Se 48
+
+Comandly. 20.3.5 5 hace os ees oe Ea ee es 49
+
+OPZiOn iv ee oe ica 2 hate es ee ete ete a 49
+GioGo; aun glocatOre eee. e.g cnet dae 50
+Gioco.aidue'giocatori: 9... .. 3... eee eee 50
+Le vetttinene tren... Ae ad a 50
+Selezione della prima vettura ....................... 51
+Dannie cx tie ieee te. iar per senace arise ae es 51
+Potenziamento della vettura.....................-4. 51
+Ubicazlone cys seg a Go a ee es See 52
+Premupintenmed ee ericia ss. cn ivicts wands se 52
+Penalizzazionin i ase ee ee, 52
+Tempore visibilitars.0%. 0 Geet a ee 52
+Risultatidelle fasii sc. ee ee 52
+Eabandiera aiscacchi: ccs... ne ee. Sea ene 52
+
+46
+
+===== Page 51 =====
+
+Avvio del sistema
+
+1. Accertarsi che il Super NES™ sia
+SPENTO.
+
+2. Collegare una Unita di comando
+nella porta etichettata 1 sul
+Pannello di comando.
+
+3. Inserire il Power Drive Game Pak
+nel Super NES™
+
+Premere decisamente per bloccare
+il Game Pak in posizione.
+AVVERTENZA: non cercare mai di
+inserire o togliere un Game Pak
+quando il sistema é ACCESO.
+
+4. Accendere il sistema (interruttore
+su ON) e premere un tasto per
+visualizzare lo schermata
+Language Selection (selezione
+delle lingue).
+
+Avviare i motori...
+
+Il campionato mondiale Power Drive
+comprende 48 fasi individuali in otto
+paesi. Ciascun turno é caratterizzato da
+condizioni di gara variabili che mettono
+a dura prova le vostre abilita di guida.
+
+Turno |
+Luogo: Montecarlo
+
+Clima: per lo piti secco, presenza
+isolata di ghiaccio/neve
+
+Tracciato: asfalto
+
+Superficie: montagnosa, rocciosa
+
+Turno 2
+Luogo: Kenia
+
+Clima: caldo/secco
+47
+
+Tracciato: asfalto/sabbioso e
+ghiaioso
+
+Superficie: deserto (con oasi qua e
+la)
+
+Turno 3
+Luogo: Svezia
+Clima: ghiaccio/neve
+Tracciato: ghiaia
+
+Superficie: foresta
+
+Turno 4
+Luogo: Corsica
+Clima: umido
+Tracciato: asfalto
+
+Superficie: montagnosa, rocciosa
+
+Turno 5
+Luogo: Arizona
+
+Clima: caldo/secco
+Tracciato: asfalto/ghiaia
+
+Superficie: rocciosa, deserto
+
+Turno 6
+Luogo: Finlandia
+
+Clima: freddo/secco
+Tracciato: ghiaia
+Superficie: foresta/laghi
+
+===== Page 52 =====
+
+Turno 7
+Luogo: Australia
+
+Clima: caldo/umido
+Tracciato: sabbia/ghiaia
+
+Superficie: foresta/cespugli
+
+Turno 8
+
+Luogo: Gran Bretagna
+
+Clima: freddo/umido/ghiaccio/
+neve/nebbia
+
+Tracciato: ghiaia
+Superficie: foresta
+
+ll Campionato prevede delle Fasi
+speciali (prove a cronometro), Rally e
+Prove di abilita, ove potrete dimostrare
+la vostra versatilita al volante.
+
+fase speciale
+
+Vi misurerete contro il cronometro su
+un itinerario predeterminato (da A a B).
+
+percorso rally
+
+Gareggerete su circuiti pericolosi contro
+duri awversari, comandati da computer.
+
+prove di abilita
+
+Tracciati appositamente studiati per
+mettere alla prova le vosire capacita di
+guida. Dovrete eseguire manovre
+obbligatorie senza incorrere in
+penalizzazioni.
+
+48
+
+La Sfida
+
+L’obiettivo ultimo é quello di completare
+lintero Campionato alla guida della pil
+potente vettura del Gruppo 1.
+
+Prima di partire, riceverete fondi
+sufficienti per acquistare un’auto del
+Gruppo N.
+
+Completando regolarmente le gare
+aumenterete i vostri fondi e potrete
+scambiare la vostra vettura con un
+modello piu potente. Dovrete pero
+tenere da parte fondi sufficienti per
+pagare le quote d’iscrizione e la
+manutenzione della vettura.
+
+Selezione delle lingue
+
+Per il testo del gioco potete scegliere
+fra inglese, francese, tedesco, spagnolo
+0 portoghese (brasiliano). Per
+selezionare una lingua, premete il
+relativo pulsante. Se fate una selezione
+sbagliata, spegnete il Super NES™ e
+ricominciate daccapo.
+
+Menu principale
+
+Usate il tasto SU/GIU per selezionare le
+opzioni e poi premete un pulsante
+qualunque per attivarli.
+
+===== Page 53 =====
+
+Comandi
+
+Scegliete tra i metodi di controllo
+Direzionali e Rotatori; premete un
+pulsante qualunque per passare
+dall’uno all’altro;
+
+Direzionale: la vettura si muove
+nella direzione indicata con I'unita di
+comando.
+
+Rotatorio: usate il comando
+LEFT/RIGHT (SINISTRA/DESTRA) per
+sterzare la vettura.
+
+Nota: si pud registrare solo un metodo
+di controllo alla volta. Quando giocate
+con altri giocatori, quindi, mettetevi
+subito d’accordo sulla selezione da
+fare.
+
+Potete inoltre cambiare la
+configurazione dei pulsanti. Selezionate
+una funzione e premete il pulsante di
+vostra scelta (A, B, X o Y) per
+assegnarne l’uso.
+
+A Freno
+
+B Acceleratore
+
+¥ Marce avanti
+
+X Marce indietro
+
+(disponibile solo dalla marcia bassa in
+avanti)
+
+START
+
+(parti) Pause (ferma)
+(premere di nuovo per continuare)
+
+La vostra auto € programmata per
+rispondere a questi comandi in modo
+del tutto simile ad una vera auto da
+rally. Una volta che avete acquisito
+familiarita con queste caratteristiche,
+con un po’ di pratica sarete in grado di
+eseguire le sequenti manovre:
+
+49
+
+Svolta a pendolo
+
+In una curva stretta, allontanatevi dalla
+curva é€ poi rigiratevi verso di essa al
+punto critico. Le ruote posteriori
+perdono aderenza, facendovi fare un
+testacoda e consentendovi di
+mantenere i] massimo numero di giri.
+Per perfezionare questo metodo
+occorre molta pratica.
+
+Svolta con freno a mano
+
+In una curva a gomito, frenate al
+momento di svoltare. Tutte le quattro
+ruote perderanno aderenza facendo
+ruotare l'auto su se stessa di 180 gradi
+e facendovi terminare, idealmente,
+nella giusta direzione di marcia.
+
+Slalom di potenza
+
+Affrontate una serie di curve strette o
+rapide sterzando rapidamente in
+ciascuna curva (come nella svolta a
+pendolo ma senza la perdita di
+aderenza delle gomme).
+
+Parola d’ordine
+
+Nel funzionamento ad un giocatore, vi
+verra assegnata una parola d’ordine
+alla fine della prima fase di ciascun
+turno (tranne il Turno 1).
+
+Immettendo la parola d’ordine
+appropriata, si pud ripartire da un punto
+desiderato del gioco.
+
+Per selezionare ciascun lettera, usate
+UP/DOWN e premete un pulsante;
+quindi premete START per immettere la
+parola.
+
+Se la parola d’ordine é illegale, si
+ritorna al Menu Principale.
+
+Nota: se fate un errore, cancellatelo
+con il comando SINISTRA/DESTRA.
+
+Opzioni
+Music ON/OFF
+Sound FX ON/OFF
+
+===== Page 54 =====
+
+Guide ON/OFF
+(Frecce direzionali di preavviso)
+Giocatori 1-8
+
+Pratica
+
+Si consiglia di perfezionare le proprie
+abilita di guida sulla pista di prova
+prima di iniziare la prima gara.
+
+Per selezionare un percorso, usate il
+comando SINISTRA/DESTRA
+(normale, notte, pioggia o
+neve/ghiaccio). Premete un tasto
+qualunque per confermare e poi fate un
+giro di prova con la Mini Cooper S.
+Quando vi sentite pronti per andare
+avanti (non c’é limite di tempo), fermate
+la vettura nel box di Uscita, nella parte
+inferiore destra della pista.
+
+Se non fate una selezione dal Menu
+Principale, il gioco esegue-
+automaticamente una dimostrazione.
+Premete un tasto qualunque per
+tornare al Menu Principale.
+
+Gioco ad un giocatore
+
+In questa modalita, se non riuscite a
+completare un evento nel tempo limite
+stabilito non potrete procedere alla fase
+successiva.
+
+Se non vi qualificate, continuate a
+provare finché non ottenete i punti
+necessari o non esaurite i fondi.
+
+Gioco a piu giocatori
+
+Sfidate i vostri amici per vincere il
+Campionato.
+
+Diversamente dalla modalita a
+giocatore singolo, qui la mancata
+
+50
+
+qualificazione non impedisce di passare
+al secondo turno. In questo caso, perd,
+non vincerete né punti né premi in
+denaro.
+
+Alla fine di ciascuna fase, appare una
+schermata delle graduatorie dei
+
+giocatori.
+
+| punti vengono assegnati come segue:
+
+42.5
+
+2A
+
+ote)
+
+4 2
+
+Be ot
+
+62/72/80
+
+Mancata qualificazione 0
+
+Nota: nella modalita a piu giocatori,
+l'opzione Parola d’ordine non é&
+disponibile.
+
+Le vetture
+
+Sono disponibili sei vetture di tre classi
+di competizione.
+
+Ogni vettura presenta caratteristiche
+differenti per quel che riguarda
+l'esecuzione delle curve, la tenuta di
+strada, ecc. Le vetture di classe pil alta
+sono pill costose da mantenere.
+
+Gruppo N
+Mini Cooper S
+Fiat Cinquecento Turbo
+
+Gruppo Z
+Vauxhall Astra 16V GTi
+Renault Clio Williams
+
+===== Page 55 =====
+
+Gruppo |
+Ford Escort Cosworth
+Toyota Celica
+
+Selezione della prima
+vettura
+
+) TURBO
+
+SP OOG
+
+EHICLE TYPE
+
+Inizierete con $28.000 - sufficienti per
+acquistare una auto di Gruppo N.
+
+Usate il comando SINISTRA/DESTRA
+per passare tra Mini e Fiat ed il
+comando SU/GIU per cambiare il colore
+della carrozzeria.
+
+Quando siete soddisfatti della scelta,
+premete SELECT (SELEZIONA) (se
+cambiate idea, premete nuovamente
+questo pulsante); per proseguire,
+premete START (AVVIA).
+
+Danni
+
+Le auto da rally sono robuste e
+resistenti ma i percorsi da rally sono
+molto duri persino per queste vetture.
+
+| danni possono essere provocati da uno
+scontro o da una guida spericolata, che
+porta ad un deterioramento della tenuta
+€ delle condizioni generali della vettura.
+Potete fare riparazioni alla fine di
+Ciascuna fase (sempre che abbiate
+fondi sufficienti).
+
+51
+
+Riparazione dei danni
+
+CHECK
+
+VEHICLE COMPONENT
+
+Lo schermo Riparazione dei danni non
+viene visualizzato se l'auto é riuscita a
+completare il percorso senza subire
+alcun danno.
+
+Per la manutenzione della vostra
+vettura, usate il comando SU/GIU per
+scegliere un componente e premete
+A/B/X/Y per operare una riparazione
+parziale o SELECT per una riparazione
+totale.
+
+Quando siete soddisfatti delle
+condizioni della vettura (o esaurite i
+fondi), premete START per continuare.
+
+Nota: lo stato della vettura incide sul
+suo rendimento. Si consiglia pertanto di
+mantenere l'auto nelle migliori
+condizioni possibili (se i fondi lo
+permettono).
+
+Potenziamento della
+vettura
+
+===== Page 56 =====
+
+Se avete risparmiato fondi sufficienti,
+potete aggiornare la vostra auto.
+
+Le vetture del Gruppo 2 possono
+essere acquistate dal Turno 3; quelle
+del Gruppo 1 dal Turno 6.
+
+Se avete fondi sufficienti, compare lo
+schermo Selezione della prima
+vettura (se non volete fare nessun
+acquisto, premete START).
+
+Ubicazione
+
+Prima di ogni gara appare lo schermo
+Location, in cui sono indicate le
+condizioni meteorologiche, giorno/notte
+e la quota di partecipazione.
+
+Se non avete fondi sufficienti per la
+quota, il gioco termina e tornerete al
+Menu Principale.
+
+Se avete invece abbastanza denaro,
+premete un tasto qualunque per iniziare
+la gara.
+
+Premi intermedi
+
+Lungo ciascun tracciato sono sparsi
+qua e la dei premi intermedi, che potete
+collezionare passandovi sopra.
+Moneta:
+
+incrementate i vostri fondi di $250
+Nitroso:
+
+aumentate momentaneamente la
+velocita
+
+Tempo:
+
+il cronometro si ferma per cinque
+secondi
+
+Penalizzazioni
+
+Se colpite un cono verrete penalizzati di
+0,5 secondi: siete avvisati!
+
+52
+
+Tempo e visibilita
+
+Le condizioni del tempo e l’ora del
+giorno variano sensibilmente da una
+gara all'altra, incidendo sulla tenuta e le
+prestazioni della vettura.
+
+Tenete conto di queste condizioni e
+modificate opportunamente il modo
+guidare.
+
+Risultati delle fagi
+
+Alla fine di ciascun tracciato, compare
+lo schermo dei risultati delle varie fasi.
+Qualificandovi, vincerete un premio in
+denaro. Potete vincere ulteriori premi
+se battete il record del tracciato o la
+vettura comandata dal computer nelle
+sezioni Rally Cross.
+
+Dopo che vi siete beati nella gloria per
+un po’, premete un pulsante per
+proseguire.
+
+La bandiera a scacchi
+
+Se riuscite ad andare in fondo ea
+vincere tutte le fasi, diventerete
+Campioni de! mondo di Power Drive.
+
+===== Page 57 =====
+
+Garanzia limitata
+
+U.S. Gold si riserva il diritto di apportare
+miglioramenti al prodotto descritto nel -
+presente manuale in qualsiasi momento
+e senza preavviso. U.S. Gold non offre
+garanzie né esplicite né implicite in
+relazione al presente prodotto o alla
+sua qualita, commerciabilita o idoneita
+per un particolare scopo.
+
+In caso si riscontri un difetto durante la
+garanzia limitata di 90 giorni sul
+prodotto stesso (ossia non il
+programma software, che viene fornito
+“come 6”), restituirlo nelle sue
+condizioni originarie al punto di
+acquisto. Essere muniti, in questo caso,
+della relativa prova di acquisto.
+
+Vetture usate per gentile concessione
+delle seguenti case:
+
+Brigden Coultes Motorsport Ltd
+Fiat Auto (UK) Ltd
+
+Ford Motor Company Ltd
+Renault UK Ltd
+
+Rover Cars plc
+
+Toyota Team Europe
+
+Vauxhall Motors Ltd
+
+53
+
+===== Page 58 =====
+
+
+
+===== Page 59 =====
+
+
+
+===== Page 60 =====
+
+Distributed by U.S. Gold Ltd
+
+Distribué par U.S. Gold Ltd., Paris.
+Distributed by Konami (Deutschland) GmbH.
+Importato da: Leader Distribuzione.
+Distribruido pos Arcadia S.A.
+
+U.S. Gold Ltd., Units 2/3 Holford Way, Holford,
+
+Birmingham B6 7AX, England. Tel:.021 625 3366.
+
+A
+
+PRINTED IN JAPAN
+IMPRIME AU JAPON

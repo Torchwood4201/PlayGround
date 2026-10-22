@@ -1,0 +1,477 @@
+# Super Solitaire
+source: https://archive.org/details/snes_manual_archive
+pdf: Super Solitaire ( USA ).pdf
+region: USA
+pages: 20
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+PRINTED IN JAPAN
+
+™T
+ garene |
+|
+
+FY bw&*SUPER —
+
+, S@LITAIRE |
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+Gum) fee
+
+*
+a
+
+ihe he Came (i 3) art
+
+Names of Controller Parts ¥
+
+Game Control Summary ¥
+
+Main Game Menu ¥
+
+Elly Optionsswi oa 2, ea emeno
+
+Password Screen
+
+Game Selections y 4 4 # ¥ 12
+
+Game Menus ¥
+
+Game Rules, Variations and Scoring ¥
+
+The Games ¥ * ’ * ’ 2 18
+
+Tournament ¥
+
+Credits ¥
+
+===== Page 3 =====
+
+es
+EF Yourself a Winning Hand
+
+4 SUPER
+
+SOLITAIRE
+
+NE tarting the Game
+1
+
+===== Page 4 =====
+
+CT Button
+
+refers to the foll
+
+Control Pad DOWN
+
+Control Pad
+RIGHT
+
+TO BRING UP MENU:
+Press the A Button
+
+TO PICK UP/PUT DOWN A CARD:
+Press the B Button.
+
+TO DESELECT A CARD; CLOSE MENU:
+Press the Y Button,
+
+TO RETURN CURSOR TO STOCK PILE:
+Press the X Button,
+
+TO RE-DO A MOVE; “NO" ON MESSAGE SCREENS:
+Press the R Button,
+
+TO CALL UP THE HINT MENU IN GAME; “YES" ON
+MESSAGE SCREENS:
+Press the L Button.
+
+Controller Shortcuts
+
+‘To automatically move a card to the Foundation Piles, or to
+remove a card from the Tableau:
+Press the B Button on the controller.
+
+===== Page 5 =====
+
+Mouse Shortcuts
+
+Mouse
+
+. ‘TO MOYE A CARD TO THE FOUNDATION PILE OR
+Right Button ‘
+
+Left Button
+
+YZ
+
+1e features that the Controller can do are available in the
+game menus.
+
+TO PICK UP/PUT DOWN A CARD:
+
+cursor over the card and pre
+ck down, move the curs
+Mouse Button again.
+
+===== Page 6 =====
+
+
+
+===== Page 7 =====
+
+
+
+===== Page 8 =====
+
+Glame Selections
+
+===== Page 9 =====
+
+Help
+
+HINT — Displays the available moves. The HINT o
+not display: moves where multiple cards can be moved to the same
+
+ne, move the ¢
+
+To use the menus in the g
+MENU on the screen and press
+press the A Button and the menu will pop up autoi
+
+matter where the cursor is on the screen.
+
+place — for instance, when all available cards ean be moved to a
+blank column, Also,
+ay or may not be the “best
+
+uggest a move but this
+
+To deselect an
+
+outside the menu
+
+and press BB OBJECT ~ States the object of the game.
+
+MOVES — Describes how cards are moved in the game.
+
+TERMS — Explains the terms used in the game.
+
+REDEAL — Starts a new game with new cards
+
+Options
+
+START OVER — Starts the sat
+
+fame ag
+
+CARD BACKS ~ Changes the card backs used in the game.
+
+UNDO — Takes back the last move.
+
+AUTO MOVE ~Sets whether cards are moved automatically
+into po:
+
+ABANDON ~ Quits the game and returns to the Tislesereen
+
+ion or moved manual
+
+nt game.
+
+BACKGROUND MUSIC —Lets you select from a variety of
+musie tracks, Turns the music on and off,
+
+EW GAME — Returns you to the Game Selection screen
+
+SOUND EFFECTS — Sets the style of sound effects used in the
+
+game; they can also be turned of
+
+ly) — Starts next game in
+
+===== Page 10 =====
+
+Variations
+(Not available in all games)
+
+DRAW — Sets the number of times the Stock Pile can be
+turned over.
+
+‘The piles where th
+ascending order.
+
+FLIP — Sets the number of cards turned over from the Stock Pile.
+
+DEAD KING ~ Used in Golf only — sets whether cards can be
+played on the King.
+
+===== Page 11 =====
+
+Tihe Games
+
+the games listed below have game p Variations
+e way the game FLIP
+
+game. You cannot sel This sets the number of cards you turn over from the Stock Pile.
+le of a g
+
+a DRAW
+nda game di el This sets the number of times you can go through the Stock Pile.
+
+SCORING
+[At the start of each game, 52 points are deducted from your score,
+
+You earn 6 points for each card you put up to the Foun
+Piles. Ifyou move a card from @ Foundation Pile to the Tableau,
+
+a)
+
+ct of the game is to build up 4 Foundation
+from Ace to King in ascending ord
+
+8 points are
+
+1g order and alternat-
+
+les. ‘The top cards
+Foundation F noved back to the Tableau at any time.
+Play continues cards are moved to the Foundation
+Piles, or until no more cards in the Tableau can be mov
+
+os
+
+===== Page 12 =====
+
+v
+
+An empty column can be filled with any card or a series of cards.
+‘Aces are placed in the Foundation Piles as soon as they appear
+Once a card is moved to a Foundation Pile, it cannot be used again
+
+eau,
+Play continues re moved to the Foundation
+les or until no more cards can be moved in the Tableau.
+
+SCORING
+Ac the start of each game, 52 points are deducted from your
+You earn 5 points for each card you put in the Foundation Piles.
+
+)
+Golf
+
+‘The object of the game is to move all the cards from
+the Tableau to the Discard Pile.
+
+Cards are moved from the Tableau onto the Discard Pile-either in
+
+descending or ascending order regardless of suit. The exceptions
+
+are: no card can be played on a King, and only a 2 may be placed
+ce (this rule can be changed in the Variations menu),
+
+When no cards can be played from the Tableau, the next card is
+rin the Stock Pile. Play continues until all the cards in
+the Tableau are moved to the Discard Pile or when al
+the cards in the Stock Pile have been turned over.
+
+&
+
+Variations
+DEAD KING
+
+This option sets whether or not cards can be played on Kings. In
+the standard rules, no card can be played on Kings. When you
+turn this option “ofl”, cards can then be played on Kings,
+
+SCORING
+
+At the start of each game, 41 points are deducted from your score
+
+You earn 5 points for each card you remove from the Tableau,
+Cruel
+
+‘The object of the game is to build up 4 Foundation
+les by suit from Ace to King in ascending orde
+
+Cards are moved up from the card piles in the Tableau to the
+Foundation Piles by suit and in ascending order. Once a card is
+placed on a Foundation Pile, it eannot be moved again
+
+Cards can be moved within the Tableau by placing them on other
+cards of the same suit in descending order. As a card is moved
+from a pile, the card beneath it is revealed.
+
+===== Page 13 =====
+
+
+
+===== Page 14 =====
+
+4
+
+Dozen’t Matter
+of the game is to build up each of the 12,
+
+Stonewall
+
+Jes to the
+
+position in the row.
+
+is tuned
+
+1 to the Base Piles by suit and
+
+as complete sequences.
+number is reached,
+
+der. Once the
+turned over.
+
+the cards have been placed
+the Table:
+
+ues unt
+
+in the
+Foundation Piles or until no more cards ean be moved in the
+‘Tableau.
+
+Play continues until all the cards have been ple
+
+no more cards can be move:
+
+SCORING
+‘At the start of each game, 40 points are deducted from y
+
+SCORING
+At the start of each game, 52 points are deducted from yaurscore,
+‘You earn 5 points for each card you put up to the Foundation Piles.
+
+You earn 5
+
+===== Page 15 =====
+
+
+
+===== Page 16 =====
+
+SCORING
+he start of each gam:
+
+points ar
+
+You earn 5 points for each card you put
+
+Canfield
+
+‘The object of the gam
+
+ing with all Foundation
+
+s you can go through the Stock Pile
+
+deducted from your
+you put up to the Foundation Piles.
+
+At the start of each gam:
+You earn 5 poi
+
+s for each car
+
+===== Page 17 =====
+
+Scorpion
+‘The object of the game is
+
+eed on top of a
+get moved along x
+
+exposed 7 of cl
+column and there is a 6 of clubs in another ¢
+
+placed on top of the 7 with all cards on top of the 6 moving w
+
+[As face down cards are exposed, they're turned over automati
+lled with a King or a sequene
+
+5 Reserve cards can be dealt at anytime
+used when no other cards on the Tableau can be moved
+all stiteare completed or undl nd cards
+he Reserve has been deal
+
+s are deducted from your score,
+ou put in order
+
+te
+Poker
+
+he object of the game is to make up 5 Poker hands
+and to achieve the highest score possible with the
+cards provided.
+
+Cards are turned over from the Stock Pile and placed in the 5 rows
+provided. Each row is a separate hand, Once a
+row, it cannot be moved again,
+
+At the end of the game, the hands are scored indi y and the
+total is displayed.
+
+SCORING
+Each row is a Poker hand and is scored individually. The combina
+tions of cards are scored as below:
+
+Royal Flush. A,K, Q,J, 10 — all in the same suit
+
+ight Flush y 5 cards in sequence —
+in the same suit
+
+4ofakind 4 cards of the same value
+Pull House Pair +3 of'a kind
+
+Flush
+
+Straight 5 Any 5 cards in sequence
+3 ofa kind 3 cards of the same v.
+
+2 pair 2 sets of pairs
+
+1 pair 2 cards of the same ¥,
+
+===== Page 18 =====
+
+
+
+===== Page 19 =====
+
+90-DAY LIMITED WARRANTY
+
+Andrew
+
+Programmer:
+
+Artists:
+
+‘Music & Sound Effects:
+
+Producer: Ann Davie
+
+jing the Game Pak to our Service Department
+the purchaser.
+
+RE
+
+===== Page 20 =====
+
+WARRANTY LIMITATIONS

@@ -1,0 +1,489 @@
+# Firepower 2000
+source: https://archive.org/details/snes_manual_archive
+pdf: Firepower 2000 (USA).pdf
+region: USA
+pages: 8
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+‘SNS-FW-USA
+i
+
+SUNSOFT*
+
+11165 Knott Ave.
+Cypress, CA 90630
+(714) 891-4500
+
+INSTRUCTION BOOKLET
+
+SUNSOFT® is a registered trademark of Sun Corporation of
+America. Nintendo® and Super Nintendo Entertainment System® are
+registered trademarks of Nintendo of America Inc. ©1992 The Sales
+Curve Ltd.
+
+©1992 Sun Corporation of America
+
+SUPER NINTENDO.
+
+ENTERTAINMENT SYSTEME
+
+penne a
+
+PRINTED IN JAPAN
+
+===== Page 2 =====
+
+SUNSOFT Limited Warranty
+
+SUNSOFT« warrants to the original purchaser only that the Game Pak provided with this
+manual and the software program coded on it will perform in accordance with the
+descriptions in this manual when used with the specified equipment, for a period of 90
+days from the date of purchase. If the program is found defective within 90 days of
+purchase, it will be replaced. Simply return the Game Pak to SUNSOFTw or its authorized
+dealer along with a dated proof of purchase. Replacement of the Game Pak, free of
+charge to the original purchaser (except for the cost of returning the game pak) is the full
+extent of our liability.
+
+THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES, WHETHER ORAL OR
+WRITTEN, EXPRESS OR IMPLIED. ALL IMPLIED WARRANTIES, INCLUDING THOSE
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, IF APPLI-
+CABLE, ARE LIMITED IN DURATION TO 90 DAYS FROM THE DATE OF PURCHASE
+OF THIS PRODUCT.
+
+SUNSOFT shall not be liable for incidental and/or consequential damages for the breach
+of any express or implied warranty including damage to property and, to the extent
+permitted by law, damages for personal injury, even if SUNSOFT has been advised of the
+possibility of such damages. Some states do not allow the exclusion or limitation of
+incidental or consequential damages or limitations on how long an implied warranty lasts,
+so the above limitations or exclusions do not apply to you.
+
+This warranty shall not be applicable to the extent that any provision of this warranty is
+prohibited by any federal, state or municipal law which cannot be pre-empted. This
+warranty gives you specific legal rights and you may also have other rights which vary
+from state to state.
+
+Official
+
+Seal of Quality
+
+THIS OFFICIAL SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF THIS
+PRODUCT. ALWAYS LOOK FOR THIS SEAL WHEN
+BUYING GAMES AND ACCESSORIES TO ENSURE
+COMPLETE COMPATIBILITY WTH YOUR SUPER
+NINTENDO ENTERTANMENT SYSTEM. ALL
+NINTENDO PROOUCTS ARE LICENSED BY SALE
+FOR USE ONLY WITH OTHER AUTHORIZED
+PRODUCTS BEARING THE OFFICIAL NINTENDO
+‘SEAL OF QUALITY,
+
+NINTENDO, SUPER NINTENDO
+ENTERTAINMENT SYSTEM ANO THE
+OFFICIAL SEALS ARE REGISTERED
+TRADEMARKS OF NINTENDO OF
+AMERICA INC.
+
+1992 NINTENDO OF AMERICA INC
+
+\ Game Story -.
+‘\Loading Instructions ...
+_Control Screen...
+
+How to Use the Controller—Helicopter .
+|__\How to Use the Controller—Jeep:.
+‘Containers
+| Game Play Screen
+Pausing Game
+
+| Level of Game Pla) 211-12
+Entering High Scores . 42
+Scoring . 13
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER INFORMA-
+TION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE USING
+|_| YOUR NINTENDOe HARDWARE SYSTEM OR GAME PAK.
+
+| X
+
+===== Page 3 =====
+
+Date: 19.10.97
+
+Time: 13:24
+
+A prototype fighter aircraft is on a routine test flight. The pilot's-heart skips a beat as the
+radar beeps twice at him. The scanner shows a large blip heading on adirect collision
+course with his craft. He scans the radar display for further signs, speaking into his mike
+at-the Same time. “Control, | have contact on radar. Unidentified craft flying at 30,000 feet
+bearing .on.a collision course.-Our reports this: morning showed.no‘commercial or military
+flights in this sector today, please advise, Over.” “Roger Delta 9, change course to
+$8.....01.88SS.007 AN ....101.8P......YOUF CY....SS8S,.«:..peeled....,«...ver.” “Control, Please repeat,
+you're breaking up, Control, please respond, Over.” His craft shudders around him.
+
+The radar scanner at the flight control tower still shows only one dot moving steadily
+West. No other contact has been monitored during the course of this flight. The Flight
+Controller grips the mike receiver on his headset and pulls it closer to his mouth. “Delta 9
+you are breaking up! Respond Delta 9!”
+
+The pilot heaves on the joystick, trying in vain to regain control of his craft. His instru-
+ments are going haywire. His headphones are filled with the hiss of static. Occasionally
+he hears his Flight Commander's voice, but‘t's badly broken up and he can't make it out.
+“Control, my instruments are malfunctioning” he reports, hoping they can hear him. A
+blinding, bright light surrounds the craft, he shuts his eyes against the glare. The craft
+vanishes.
+
+Everyone inthe control tower stares at the radar screen in disbelief. The Radar Controller
+reports,“His signal's gone, we have no radar contact, Sir.” The Flight Controller shakes
+his head. “That craft was flying at 30,000 feet, there's no way, it could have dropped below
+radar range in that time.”
+
+The control room is silent, every head turned towards the blank radar screen.
+
+Date: 19.10.97
+Time: 14:05
+In the Middle East a unit of tanks race through the smoke and fire of a pitched battle. It is
+
+part/of a peace-keeping force sent to enforce a cease-fire by the United Nations. The
+2
+
+cease-fire has not held and the tank unit has been caught ina crossfire whilst passing
+\ through.a-small town. Rockets start to fall around the tanks’as they race to escape the
+| danger zone, Shrapnel and charred earth rains down. Huge chunks of stone are hurled
+skyward from the buildings around them.
+
+‘A’shadow passes overhead, keeping pace with the unit as it races through the war torn
+
+streets. A blinding light envelopes them. Wherit-dies away they have disappeared. The
+barrage falls on’an empty street:
+
+Date: 19.10.97
+
+Time: 13:52
+
+‘At the bottom of the.ocean the gigantic mobile missile platform “Sea-Base 2” travels along
+the seabed, seven kilometers off the coast of Central America. Sea-Base-2 is the latest in
+underwater technology. The United States has developed her from deep-sea oil-drilling
+plattorms. It is the only one of its kind in the world.
+
+Mini-submarines move around it like protective satellites. Despite the lights on board the
+platform and the spotlights mounted on the exterior, the visibility is almost non-existent at
+this depth, yet around the platform and its small fleet of submarines a strange glow:
+appears. The light becomes brighter than day -as it dies away again the platform is gone.
+
+Date: 19.10.97 to Present
+
+On a remote island in the mid-Atlantic an underground race is building up an unstoppable
+| military force. It has stolen prototypes of the very latest and most powerful military
+equipment from_all around the world, Every component is taken‘apart, studied and built.
+The latest robotics technology\has been used to build an army of computerized drones to
+drive and pilot the war machines. They are programmed to eliminate all opposition — and
+never fail
+
+This army has proved to be virtually impossible to track down. The craft used.to steal the
+|— equipment has.a-cloaking device and its base is well.hidden.
+
+This craft was tracked down for the first time after its radar jammer appeared to
+malfunction fot a few seconds. Using these readings to plot the army's course as
+
+===== Page 4 =====
+
+accurately as possible, the intelligence agencies have been able to follow ifs.path towards
+a volcanic island in the mid-Atlantic.
+
+MISSION BRIEF
+CODENAME: FIRE POWER 2000
+
+The underground race has had time to put together a military force-so large it could be
+considered a Super Power. It is estimated that by the time an armed force can be
+organized to face this threat it will be too late and we'll all be‘under attack. We must find
+them before they come looking for us.
+
+We need your help..You have control of the only military vehicles with enough power to
+take on this army. We've done our job, we've found the most likely location for their base.
+Now it's up to you. Find the enemy, penetrate its defenses and neutralize every
+stronghold.
+
+We're relying onyou!
+
+Turn off the SUPER NINTENDO ENTERTAINMENT SYSTEM and insert the Fire
+Power 2000 game pak into the slot. Switch the machine on/
+
+Once the title screen has appeared you may begin the game by pressing START;
+pressing SELECT will display the control screen. Buttons A, B, X and Y can be used to
+jump-through-the-demo.sections,
+
+To select the two player option press the-A or-B Buttons.
+To:select the jeep-or the helicopter press. UP. or DOWN. on the control pad.
+
+To change the Fire Button’settings, press LEFT or RIGHT on the control pad until your
+desired configuration appears. There.are four configurations to.choose from.
+
+Press SELECT again to return tothe
+presentation screens or press START
+to begin the'game:.
+
+The control screen gives you'a.choice
+of two vehicles, HELICOPTER or
+JEEP. Both-have their-advantages
+and disadvantages.
+HELICOPTER
+
++ Faster than\the Jeep
+
++ Able to reach any part ofthe
+
+gameplay screen without being
+obstructed by ground obstacles or enemies.
+
++ Can only. fire. ammunition forward
+JEEP
+
++ Can jump for short distances
+
++ Fires ammunition in all directions
+
+«Is not obstructed -by air enemies
+
+aS
+
++ Moves slowly and can be ‘obstructed by buildings and other ground obstacles
+
+*Note — The JEEP gun turret will point in the direction. you drive and by pressing the fire
+buttons you lock it in position. Thismeans you can drive\in one direction and keep the
+turret levelled in-any-direction you choose.-To.change-the'gun-turret direction-press the.
+control pad in the direction you want it aimed before pressing the fire button. You'will find
+this a major advantage over the HELICOPTER.
+
+“Note — Bullets and homing missiles are a threat to both the JEEP and HELICOPTER?
+
+===== Page 5 =====
+
+WOW TO G5 Tike
+
+COILED = LEU COLLEY
+
+SELECT START
+
+Contig. #1 (Note: Fire Settings can be changed on Control Screen)
+LEFT TOP or RIGHT TOP: Press to Select Permanent Weapons
+CONTROL PAD: Moves Vehicle in All Directions
+SELECT: Press to Display Control Screen
+START: Press to Start Game Play
+
+Press to Pause Game Play
+X-BUTTON: Press to Fire Special Weapons
+Y-BUTTON: Press to Fire Permanent Weapons (Hold down for turbo fire)
+A-BUTTON: Press to Fire Special Weapons
+B-BUTTON: Press to Fire Permanent Weapons (Hold down for turbo fire)
+
+_——————
+RIGHT TOP
+X-BUTTON
+A-BUTTON
+B-BUTTON
+Y-BUTTON
+
+OW TO OS Ti
+CONTRO EY =SE2)
+
+RIGHT TOP
+X-BUTTON
+A-BUTTON
+B-BUTTON
+Y-BUTTON
+
+SELECT START
+
+Config. #1 (Note: Fire Settings can be changed on the Control Screen)
+LEFT TOP or RIGHT TOP: Press to Select Permanent Weapons
+CONTROL PAD: Moves Vehicle in All Directions.
+
+Change Direction of Turret
+
+“Note: You must change the direction of the turret before firing weapons. If any of the
+firing buttons are depressed at the same time, and you wish. to change turret direction,
+the turret will not move.
+
+SELECT: Press to Display Control Screen
+START: Press to Start Game Play
+
+Press to Pause Game Play
+X-BUTTON; Press to Fire Special Weapons
+Y-BUTTON: Press to Fire Permanent Weapons (Hold down for turbo fire)
+A-BUTTON: Press to Fire Special Weapons
+B-BUTTON: Press to Jump.
+
+===== Page 6 =====
+
+Yellow rectangular containers are positioned.at-certain locations throughout the game.
+(some of them-may be hidden). When destroyed these will release power-up tokens.
+
+Should a container be in an open space an enemy’craft will come-on screen to‘pick them
+
+up. The craft will release more tokens. The power-up tokens are as follows:
+
+PERMANENT WEAPONS
+
+These are available on collecting the Silver tokens with iconson them. These are
+attached by flying through them. These last until you-are destroyed: To select a weapon
+
+press the ‘L’ and ‘R'buttons at the top of the controller: Permanent weapons have seven
+
+settings of ineréasingly destructive power. Included in this category are:
+
+BULLETS — Slow but powerful. The more tokens you collect, the/more
+bullets you will fire.
+
+FLAME — Very powerful at close range. With each token you pick up, the
+flame will increase in power and range.
+
+PLASMA — These are faster than bullets and the more tokens you collect,
+the wider the range.
+
+LASER - This instantly destroys everything in its path. Each token you
+collect will increase its pulse rates
+
+IONIC — This weapon splits into two when it hits something. On a screen
+overrun with enemies this‘can start a knock-on effect destroying
+almost anything.
+
+POWER-DOWNS
+
+Should you be destroyed you will lose some of your weapon power. On collecting more
+than seven tokens the surplus tokens will be stored. This means that should you lose a
+life you will be able to use the surplus tokens when you rejoin the game.
+
+ro)
+
+SPECIAL WEAPONS
+
+These are available-on collecting the red tokens with-letters-on-them: The appropriate
+letters will then appear Under your score. The flashing letter tells you which weapon will
+
+be used. when you press the ‘special’ weapon button. Save the weapons for difficult
+situations, because you-can only use them-once. The flashing letters represent the
+
+\ following weapons?
+
+» OR GET
+
+X MISSILES —‘These are very powerful and will destroy everything in their
+path.
+
+SCORCH — Thiswill explode.into an expanding ring of fire around the
+players’ vehicle. Some enemy missiles, however, can still penetrate this, so
+beware!
+
+HOMING MISSILES — Launches a number of small guided missiles which
+will “seek and destroy” on-screen.enemies. Very ~useful should the screen,
+be overrun by your foes.
+
+BUBBLES — Scattered throughout the levels are glowing mines. If you
+shoot these, they will release.a bubble. When picked up it willact’as a shield
+for 12 seconds. If the bubble is\shot you will wipe out every enemy omthe
+screen
+
+STARS — Certain enemies will release a star when destroyed. Each is
+worth 100 points. On completing a level,\you will be awarded. ,000 points
+multiplied by the level number for each star picked up.
+
+EXTRA LIVES — An extra life is awarded at 50,000 points, 100,000 points
+and every 100,000 points after that.
+9
+
+===== Page 7 =====
+
+UF PLAY SCs
+
+‘Weapon’s
+Strength
+
+To pause the game press the START Button. However, when any other of your or your
+partners'buttons are pressed, the game will automatically resume. Any controller
+movement will undo pause.
+
+10
+
+There are six levels in total, each with a different terrain as follows:
+
+1. THE DESERT
+
+You must start in a dusty Shanty town. Fight your way through the first fleet of enemy
+
+—attack choppers flanked by the first regiment of single-manned desert tanks. There are.
+
+many heavily armored installations along the way including field guns and missile
+launchers. Moving out of the shanty town you will be bombarded by reconnaissance jets
+
+\and rocket launchers: Invaluable power-ups can be found in-the pods. At the end of the
+
+desert you will come across the first of the six main strongholds of the enemy, be
+warned '— the fight isn't over when the lasers are destroyed! You must neutralize the
+fortress before continuing,
+
+2. THE JUNGLE
+
+This level guides you along a makeshift road through the jungle. Containers and-shields
+can be found in the dark undergrowth surrounding the road, however, this also provides
+the ideal hiding place for the enemy! There are several different tanks armed with heavy
+weaponry. Some launch remote drones which home in’on you and are armed with plasma
+cannons. The jungle is notorious for its fields of proximity mines and jungle walkers.
+
+3. THE RIVER-BED
+
+Your battle-ground is a dried-up river bed where you must reach the dam. Here the jeep
+will become a high-powered speed boat. Piloting this is very different from driving the jeep
+and you will have to get used to the movement of the boat in the water. The enemy
+underwater defenses are plentiful, as are the missile batteries on either side of the river,
+on the water surface and in the air. At the end of this level a heavily armed underwater
+battle station awaits you.
+
+4. THE MILITARY AIR BASE
+
+After negotiating your path to a runway you will take'to the skies in supersonic jets and
+continue the battle 30,000 feet high. This level reveals'the enemy's airborne base which
+you must attempt to bypass, avoiding its rocket engine and taking out its gun installations.
+as you go.
+
+1
+
+===== Page 8 =====
+
+GAME PLAY
+
+5. THE VOLCANOES
+
+The hazards.of molten lava make this assault particularly hazardous for the jeep.
+However, this level introduces the ionic weapon-to equalize the odds. To continue to the \
+y
+
+underground complex you must destroy the heavily armored blockade at-the end of this
+level.
+
+6. THE ENEMY COMPLEX \
+
+Here the final assault takes: place. The enemy army will @mploy the most fearsome and
+varied collection of military hardware ever assembled in one battle. The enemy's complex,
+is guarded by all of the previously encountered defensive installations. Should you
+manage to fight your way-through the defense network you will encounter the enemy's. ss
+military brain. Your final mission will be to detonate’ the entire complex and, once and for
+
+all, silence the enemy that threatens the world:
+
+—_
+
+ENTERING HIGH SCORES —
+
+To enter your high score simply scroll through the letters using the left or right buttons on
+
+the-control pad and pressvany of the fire buttons to enter the highlighted letter. Pressing
+‘START or SELECT wilabort the HIGH SCORE table.
+
+12
+
+13

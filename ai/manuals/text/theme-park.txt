@@ -1,0 +1,1500 @@
+# Theme Park
+source: https://archive.org/details/snes_manual_archive
+pdf: Theme Park ( PAL ).pdf
+region: PAL
+pages: 38
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+PRODUCTIONS LTD
+
+===== Page 2 =====
+
+Contents
+
+Getting Started
+Control Summary
+The Aim of the Game
+Setting Up the Game
+
+Setup New Theme Park
+
+Continue Game
+
+Language Select
+Enter Name Screen
+Enter Code screen
+Where in the World?
+The Park Screen
+Using the Icons Menu
+
+Laying Paths
+
+Forming Queues
+
+Selecting Rides
+
+Buying Shops
+
+Park Features
+
+Hiring Staff
+
+Main Menu
+
+Query Icon
+
+Park Status
+
+Bank Icon
+
+Open for Business
+
+oa °° © oN © on ME on Mg Do) Pe ee
+
+> phe MW oe. Oo 6
+
+nO
+
+People in the Park
+Staff
+Entertainers
+Handymen
+Mechanics
+
+Customers
+
+15
+16
+16
+16
+16
+17
+
+Advanced Theme Park 17
+
+Purchaser Screens
+Ride Purchaser
+Shop Purchaser
+
+Staff Purchaser
+
+Features Purchaser
+
+Tune-Up Bar
+
+User-Definable Rides
+
+Information Screens
+
+Selling Up
+
+The Bank Screen
+Research
+
+Year End Charts
+Ratings Chart
+Year End Details
+Bankruptcy
+
+Credits
+
+18
+18
+19
+20
+20
+21
+
+23
+i4
+30
+31
+
+51
+
+32
+32
+33
+a4
+35
+
+===== Page 3 =====
+
+GETTING STARTED
+
+1. Turn off the power on your Super NES™. Never insert or
+remove a Game Pak when the power is on.
+
+2. Insert the Game Pak into the slot on the Super NES.
+
+Press the Game Pak down firmly to lock it in place.
+
+Turn ON the power switch.
+
+4. The Theme Park title screen appears. Press any button to
+bypass the title screen for the Main Menu (see Setting Up
+the Game).
+
+w
+
+Control Summary
+
+control _ button button
+pad Y » 4
+
+select start button button
+B A
+
+Open Icons Menu: Press X
+
+Highlight icon: Control Pad up/down/left/right
+Open Purchaser Screen: Press Y
+
+Open Quick Menu: Press B
+
+Open Quick Menu from Park screen: Hold A and press:
+Up on Control Pad for Rides Quick Menu
+Down on Control Pad for Features Quick Menu
+Right on Control Pad for Shop Quick Menu
+Left on Control Pad for Staff Quick Menu
+L button for Bank screen
+R button for an instant query on ride, shop, etc.
+
+Find Staff: Hold Select and press:
+X: Finds Handyman
+A: Find Mechanic
+Y: Finds Entertainer
+B: Return to Park Entrance
+
+2
+
+===== Page 4 =====
+
+L: Finds Shops
+R: Finds Rides
+
+Move Cursor: Control Pad up/down/left/right
+Place Item: Press Y
+
+Remove Item: Press B
+
+Confirm Deletion: Press Y
+
+Open/Close Park: Hold Select and Press Y in the icons menu
+or Press Y when either the hand or question mark icon is on the
+main gates
+
+Change Game Speed: When in icons menu, hold down L and
+press Y to toggle between speed options (1-4)
+
+Music On/Off: When in icons menu, hold Down R and press Y
+to toggle between options
+
+Pause: Press Start
+
+The Aim of the Game
+
+As is usual with this kind of thing, the aim of Theme Park is
+global domination. You must open a park on every one of the
+available sites around the world, and in the process establish
+yourself as planet Earth’s premier Theme Park operator. Once a
+year you're given the option to sell your current park providing
+you will have enough capital to purchase another. You need to
+decide whether or not it’s worth accepting the money on offer,
+or continue to build on the park’s success and hopefully get an
+even higher asking price in twelve months time. There’s a
+maximum size to which you can grow your park, with no more
+than 200 visitors allowed in at any one time and a ceiling on
+the number of rides which the park can hold; once you’ve
+achieved this limit it’s well worth considering selling up
+
+(see Selling Up).
+
+Note: As the park fills up with people and facilities, the
+game slows down so that you can more easily keep an eye on
+all the activity.
+
+===== Page 5 =====
+
+The money made from the sale of each park is then used to
+finance the purchase of another site, with enough cash left over
+to develop the next park. Only when you've turned all the dots
+on the World Map to pink (see Where in the World?) have you
+succeeded in your aim.
+
+Now that might sound easy enough, but if you think it’s going
+to be a walk in the park you couldn’t be further from the truth.
+Success in the Theme Park business requires an awesome eye for
+detail. You need to fine tune every ride, shop and side-show for
+maximum profit margin. Don’t forget to check on your finances
+regularly at the Bank Screen and listen to the Park Advisor's
+advice throughout the game, giving you hints on how to make
+the most of Theme Park. It’s a roller-coaster ride of financial
+highs and lows, but whether you end up top of the heap or
+taking a leap, you can bank on having a whole lot of fun!
+
+SETTING UP THE GAME
+
+From the Title screen you arrive at the Main Menu. To select a
+Main Menu option, Control Pad up/down to move the arrow
+cursor and then press the Y, B, A or X button.
+
+The Main Menu options are:
+
+Return to Park — Pressing Y, B, A or X returns you to the
+Theme Park you just left (note: Return To Park is available only
+if a Park has previously been opened).
+
+Setup New Theme Park — Press Y, B, A or X for the Enter
+Name screen (see Enter Name Screen).
+
+===== Page 6 =====
+
+Language Select — Press Y, B, A or X to choose between
+English, French and German.
+
+See Credits — Find out the names of those responsible for
+Theme Park. Press Y, B, A or X to scroll through the pages.
+
+Enter Name Screen
+
+letters grid
+
+name bar
+
+You must enter your name before you can choose a location for
+your park.
+
+To enter your name, press X to enter the default name or use
+the Control Pad to move the cursor arrow around the letters
+srid and press Y to select a letter; this appears in the name bar
+below. You can now repeat the process until the entire name has
+been entered. Press B to delete incorrect letters, and press X to
+enter the moniker you’ve decided suits your character and
+mentality. You will now proceed to the code screen.
+
+Code Screen: This screen allows you to restore a previous game
+of Theme Park. Whenever you sell a park you are given a
+password. If you select Yes by using the Left and Right or L and
+R buttons and press Y, B, A or X at the Enter Code option, a
+screen similar to the Enter Name screen will appear. Input your
+code as you did with your name, and Hey Presto! You’re back
+where you left off.
+
+N.B. When putting in your password, make sure that you
+use the same name as you did in the previous game, otherwise
+your password will not work.
+
+===== Page 7 =====
+
+Difficulty Level: If you do not put in a code, the game will ask
+you which difficulty level you would like to play the game at.
+The options are Easy, Medium and Hard; Easy level starts you
+off in the game with 200,000, Medium with 150,000 and Hard
+with 100,000.
+
+At the World Map screen you decide where in the world to
+locate your Theme Park. All the available sites are marked in
+blue, red dots mark locations you currently can’t afford and
+pink dots show where you've already established a successful
+park. If this is your first game the only available location is the
+United Kingdom. Beneath the map your name is displayed,
+along with your bank balance, the name of the currently
+selected location and the cost of the country.
+
+Use either Left/Right or L/R to highlight a location with the
+cursor and then press Y to display the Site Details. The Site
+Details include:
+
+Cost — How big a bite of your bank balance is this location
+going to take?
+
+Difficulty — Easy, Medium, Hard, Very Hard or FIENDISH!, based
+on the size of the population able to access the park, the
+stability of the economy, and the climate. Sites close to large
+European or North American cities are an easier proposition
+than those in more remote locations, but they are also more
+expensive. So when choosing a location, make certain you’ve
+enough cash left to develop it and haven’t blown the lot
+
+===== Page 8 =====
+
+beforehand. The cheaper the site, the more you need to spend
+to make it a success.
+
+Local Population — The number of potential customers that
+your Theme Park has to draw from in the early stages.
+
+Medium Population — A medium-sized park attracts visitors
+from further afield.
+
+Long Population — When your park has grown in size and
+reputation, the number of potential customers grows to the
+figure found here.
+
+Inflation Rate (0- 100%) — The lower the better, because an
+inflation rate of 100% means that your overheads will double
+annually.
+
+Interest Rate (0- 100%) — The lower this rate, the less interest
+you pay on your bank loan.
+
+Economy — Rich, Poor or Medium. This indicates how much
+disposable income your customers have to spend in the park;
+the weaker the economy, the less cash there is.
+
+Tax Free Period Years — The length of time you can run your
+park without paying land tax.
+
+Land Tax — The amount you pay is calculated by applying this
+rate to the area of land your park occupies, so keep it compact
+and pay less tax.
+
+Weather — The more temperate the conditions, the easier it is
+to attract visitors.
+
+Terrain — The type of land you’re building on.
+
+Who -— The name of the park’s owner.
+
+===== Page 9 =====
+
+To remove the Site Details and look at another site, press Y
+again. When you find a site you’re happy with (and can afford),
+press X or Start to buy the land and you are instantly
+transported to the Park Screen.
+
+THE PARK SCREEN
+
+On the Park Screen your chosen site is an area of land with a
+wall around it and a main gate. You’ve a lot of work to do
+before it’s the world’s ultimate tourist attraction.
+
+Using the Icons Menu
+
+queues rides
+paths shops
+features query
+staff bank
+main menu tune-up bar
+status
+
+Press X to access the Icons Menu. This is the key to creating
+your Theme Park. The icons are for: paths, queues, rides, shops,
+park features, staff, main menu, query, park status and the bank
+screen.
+
+To select an icon, use the Control Pad up/down/left/right to
+highlight it and then press Y for the Purchaser screen
+
+(where applicable — see Purchaser Screens), bank screen or
+query icon. :
+
+Note: After selecting an icon you need to press X again
+to re-open the Icons Menu.
+
+===== Page 10 =====
+
+Laying Paths
+
+Before you can do anything else, you must lay paths around the
+park for visitors to walk along. This is the only way customers
+can access shops and rides. Like everything else in Theme Park
+paths cost money, so in the early stages when cash is tight you
+need to be sensible and place paths only where rides and shops
+are going.
+
+Note: You cannot lay a path where natural obstacles such
+as rocks or water block the way.
+
+To lay a path, use the Control Pad to select the Paths icon and
+press Y; the cursor becomes a trowel. Now hold down Y and
+scroll around the park using the Control Pad.
+
+To remove paths, select a section of path and press B.
+You cannot delete the original area of path from around the
+main gate.
+
+Note: Paths are the only item you pay for immediately.
+You won’t get the cost of any ride, or shop purchases deducted
+from your budget until a month has passed or you have had
+your first customer. There is, however, a hiring charge for
+purchasing staff based on a months wages.
+
+One-way Paths: You can lay down one-way signs on your paths,
+allowing you to channel your customers through your heaviest
+gauntlet of money-draining services. To do this, select path icon
+from the Icons menu. Use the L or R button to bring up a
+directional arrow and then place the piece of path you wish to
+be one-way in the normal manner. Repeated presses of the L or
+R button will change the direction of the arrow.
+
+===== Page 11 =====
+
+Note: Once you have selected a one-way piece, you will
+continue to place it down until you re-align the tile to normal
+using the L or R button.
+
+Forming Queues
+
+The thrill-hungry public are unable to sample the delights of a
+ride unless they can form an orderly queue for it.
+
+To form a queue, use the Control Pad to select the Queue icon
+and press Y. Now connect the entrance of your chosen ride to
+the path (see Selecting Rides). Queues can be placed or
+removed just as you would a path; hold down Y and Control
+Pad around the screen to place a queue, select and press B to
+remove a section of the queue.
+
+Note: A queue must always be placed between a path
+and the entrance to a ride. The entrance will automatically turn
+to face any adjacent piece of queue.
+
+Selecting Rides
+
+Only four of Theme Park’s rides are available at the start of the
+game. There are two ways to purchase rides; via the Rides
+Purchaser screen or from the Rides Menu.
+
+To purchase rides, use the Control Pad to select the Rides icon
+and press Y for the Rides Purchaser (see Purchaser Screens) and
+some in-depth information about the attractions currently
+available to you.
+
+10
+
+===== Page 12 =====
+
+Alternatively, press B to bring up the Quick Menu. Use the
+Control Pad to select an item from this menu and press Y to
+select a ride. Each one has a price tag; if you can’t afford a
+particular ride, the text will turn red to show you. Having made
+your decision, the Rides Menu disappears leaving the chosen
+attraction attached to the cursor. The Quick Menu can be
+accessed from the park screen by holding A and pressing up on
+the Control Pad.
+
+To place a ride, use the Control Pad to move to an area of the
+park large enough to accommodate it and then press Y. If there
+isn’t enough room in the area you've selected, an electronic
+burp lets you know. Now you have to place the ride’s Exit.
+
+To remove a ride, use the Control Pad to position the cursor
+over the ride and press B; a requester box appears asking you
+to confirm your decision. Select the tick icon and press Y¥ to
+remove the ride. If the ride is less than a month old, its
+purchase price isn’t deducted from your bank balance. To return
+to the park screen without deleting the ride, highlight the X
+icon and press Y.
+
+Placing the Entrance and Exit
+
+entrance icon
+exit icon
+
+Once a ride has been placed, the Entrance booth will appear,
+usually to the left of the ride. This is where the little people
+climb aboard for the feast of fun on offer, so you'll have to
+make sure that it’s connected by a queue to the nearest path
+(see Forming Queues).
+
+===== Page 13 =====
+
+The Exit icon is a short flight of steps. By moving the Control
+Pad you can move the Exit around the perimeter of the ride,
+
+allowing you to place it for maximum convenience (press Y).
+
+Remember to link every Exit to a path, or when your punters
+leave the ride they mill around on the grass.
+
+Buying Shops
+
+While it’s the thrill rides that draw in the crowds you need to
+keep your visitors happy (and earn extra bucks) by supplying
+refreshments, and entice them into going home with some
+Theme Park souvenirs into the bargain. There are also various
+side-shows available to you, which can be nice little earners if
+properly managed.
+
+Note: Food and drink stands are essential to the running
+of your park, as people head for home if they can’t get a drink
+and a bite to eat. However, souvenir shops and side-shows can
+turn you the healthiest profit. Visitors only buy souvenirs if
+they’re having a good time, so place souvenir shops near to
+your park’s best rides and watch the money roll in.
+
+To purchase a shop, use the Control Pad to select the Shop
+icon and press Y for the Shops Purchaser screen (see Purchaser
+Screens) and an in-depth look at the available shops.
+
+Alternatively, press B for the Shops Quick Menu. Use the
+Control Pad to select a shop from the menu and then press Y to
+select it. Having made your selection, the Shops Menu
+disappears leaving you to place the shop where it’s likely to
+attract the most custom. Use the Control Pad to position the
+shop, and then press Y. The Quick Menu can be accessed from
+the park screen by holding A and pressing right on the Control
+Pad. :
+
+12
+
+===== Page 14 =====
+
+Park Features
+
+What with Most Pleasant Park among the categories on which
+your Theme Park is judged, it’s a good idea to beautify the
+place with trees and fountains.
+
+To purchase park features, use the Control Pad to select the
+Park Features icon, and then press Y for the Features Purchaser
+screen (see Purchaser Screens).
+
+Alternatively, press B for the Features Menu. Select an item from
+this menu using the Control Pad, and then press Y. On the Park
+Screen use the Control Pad to choose a location and press Y
+once for every tree you want planting. If you’re putting up a
+fence, press and hold Y then use the Control Pad to scroll
+through the park. The Quick Menu can be accessed from the
+
+park screen by holding A and pressing down on the Control
+Pad.
+
+To remove any feature placed in error, select the offending item
+using the Control Pad and then press B.
+
+Hiring Staff
+
+There’s no way you can offer the levels of service and
+satisfaction that your paying customers expect without staff.
+You can hire entertainers, handymen and mechanics. Each have
+specific duties (see People in the Park), but they’re all there to
+help things run smoothly.
+
+To hire staff, use the Control Pad to select the Staff icon, and
+
+13
+
+===== Page 15 =====
+
+then press Y for the Staff Purchaser screen (see Purchaser
+Screens).
+
+Otherwise, press B for the Staff Menu. Select a staff category
+from this menu using the Control Pad and then press Y. On the
+Park Screen, use the Control Pad to choose a location and press
+Y once for every member of staff you want to hire. The Quick
+Menu can be accessed from the park screen by holding A and
+pressing left on the Control Pad.
+
+Note: Remember that staff are an ongoing expense; the
+figure next to each category represents their monthly wage.
+
+Main Menu
+| To return to the Main Menu at any time during the game,
+simply select this icon and press Y.
+
+Query Icon
+
+Access the Information screens by activating the Query Icon.
+Use the Control Pad to select the icon and press Y; the cursor
+becomes a question mark and the Icons Menu closes. Now
+Control Pad to any ride, shop, member of staff and press Y.
+An arrow appears by any staff member to indicate that they’re
+being queried. To read the thoughts of the customers simply
+place the question mark over them.
+
+Now press X to open the Icons Menu. The Tune-Up Bar is active
+and the name of the queried item appears below it. To open
+the Information screen, use the Control Pad to select the small
+Information icon in the Tune-Up Bar and press Y.
+
+Park Status Icon
+
+The Park Status icon’s smiley face reflects the mood of the park
+visitors. The bar next to the icon is divided into two portions.
+The upper thin purple line shows the amount of people on the
+
+16
+
+===== Page 16 =====
+
+incoming bus, while the fatter blue bar below displays the
+number of people in the park.
+
+Bank Icon
+
+This constantly displays your current bank balance, but if you’re
+short on cash and want to get a bank loan or you're interested
+in the current state of the Theme Park’s finances you can
+highlight this icon and then press Y to access the Bank Screen
+(see The Bank Screen). You can access the Bank Screen from the
+park screen by holding A and pressing L.
+
+Open for Business
+
+PEELE
+
+When your rides, shops and other amenities are ready and you
+want to start making some money, open the park and let the
+people flood in. Don’t just open as soon as you've laid the first
+path. It might seem an attractive proposition to start earning
+money immediately, but you only end up chasing after visitors
+and hurriedly providing facilities for them.
+
+To open and close your Theme Park, move the hand or
+question mark cursor over the park entrance and then either
+press Y or hold down Select and press Y whilst in the Icons
+menu.
+
+PEOPLE IN THE PARK
+
+The people that swarm around your Theme Park are divided
+into two basic groups: staff and customers. There’s one vital
+difference between the two — you pay the former, while the
+latter pay you.
+
+15
+
+===== Page 17 =====
+
+Staff handyman
+
+entertainer mechanic
+
+Staff are divided into three categories; entertainers, handymen
+and mechanics.
+
+To cycle through each member of staff, hold down Select and
+press:
+
+X to cycle through your Handymen
+A to cycle through your Mechanics
+Y to cycle through your Entertainers
+
+B to return to the park entrance
+
+Entertainers
+
+These clowns are paid to keep the customers smiling. The more
+entertainers you have, the more enjoyment customers get from
+their visit — kids especially love them.
+
+Handymen
+
+These are the guys who keep the park tidy. If you’re after the
+most attractive park award they mow the grass, and keep the
+place from being labelled a health hazard by picking up burger
+wrappers, cola cups and other assorted litter.
+
+Note: Handymen sometimes gather together on one side
+of the park for an impromptu chinwag. Use the pincer icon
+(see Tune-Up Bar) to relocate them anywhere in the park.
+
+Mechanics
+When a ride malfunctions it’s going to become a danger unless
+
+===== Page 18 =====
+
+there’s a mechanic to fix it. They are responsible for
+maintenance of all the rides, and close any sub-standard
+attraction before setting to work fixing it.
+
+Fail to have enough mechanics and your park soon gets a
+reputation for unreliability, damaging visitor numbers and gate
+receipts. Mechanics can be difficult to motivate into responding
+
+quickly, but they’re essential to the smooth running of your
+Theme Park.
+
+To repair a ride
+
+Query a mechanic and use the Control Pad to select the Repair
+icon from the Tune-Up Menu; press Y and the cursor becomes a
+spanner. Now Control Pad to the broken ride and press Y; watch
+as a highly-skilled mechanic rushes to repair it. You can also
+Query the ride itself, and then select the Spanner icon from the
+Tune-Up Menu.
+
+It’s extremely important to look after your rides. If the worst
+happens and one actually explodes, not only are the people
+using it sent into low orbit (and after that, they’re likely to sue)
+but land damaged by the exploding ride cannot be built on
+again.
+
+Customers
+
+The whole point of all this effort is to attract as many customers
+to your park as possible, and to make sure that they're having
+such a good time they don’t notice how much money they're
+spending on rides, refreshments and souvenirs.
+
+ADVANCED THEME PARK
+
+Once you’ve placed a few rides and mastered the basics, it’s
+time to start thinking a little more deeply about this cartridge
+classic. Use the Purchaser screens to choose which rides, shops
+and staff to cough up for with more consideration.
+
+17
+
+===== Page 19 =====
+
+Purchaser Screens
+
+There are Purchaser Screens for Rides, Shops, Staff and Park
+Features. Press X to bring up the Icon Menu and then use the
+Control Pad to select the relevant icon. Now press Y to bring up
+the Purchaser Screen.
+
+Ride Purchaser
+
+To scroll through the available rides, use either Left and Right
+or L and R buttons. Then press Y to select the icon.
+
+The Ride Purchaser tells you:
+Ride Name
+Ride Excitement
+
+Reliability — the less reliable the ride, the more often it’s going
+to be shut down for costly repairs.
+
+Maximum Capacity — the more potential users, the shorter the
+period spent queuing and the happier your customers are kept.
+
+Cost — anything from 2,000 to 200,000. The cost of a ride is
+deducted at the month end, so if you change your mind and
+remove a ride before a month is up, you don’t pay a penny.
+
+A, B or X button — return to Park Screen without picking the
+selected ride.
+
+Y button — returns you to the Park Screen with the chosen ride
+attached to the pointer.
+
+===== Page 20 =====
+
+Shop and Side-Show Purchaser
+
+YONI
+
+This contains much the same information as the Ride Purchaser
+and is operated in exactly the same way. However, it has
+different categories of information:
+
+Name of shop or side-show.
+
+Type of goods — burgers from the burger stand, fries from the
+fries stand, novelties from the novelty shop. Get the idea?
+
+Stock price — the cost to you of the stock held by the shop.
+
+Sale price — the price at which you sell stock to the public.
+The difference between these two is your profit margin.
+
+If the selected shop is a side-show, the Type of Goods category
+is supplemented by an Addictiveness rating, the Sale Price
+category shows the Price per Game and the Stock Price is
+replaced by Cost of Prize.
+
+Cost — what the shop or side-show will cost you to open in the
+first place.
+
+Side-Shows
+
+===== Page 21 =====
+
+If you’re not careful you could end up paying through the nose
+for your side-shows. But in the finest traditions of showmanship,
+you can also cheat and turn them into nice little earners.
+
+To do this, reduce the probability of a punter winning at the
+Information screen. This increases the amount of glue keeping
+the coconuts in their shy, and adds a few nails to the bottom of
+the ducks in the duck shoot (see Information Screens).
+
+Staff Purchaser
+
+PER sae AF AE S2)
+
+HORT HIy, His
+
+Along with a brief description, the cost to hire is displayed here.
+Seems cheap? Well, this is also his monthly wage!
+
+The Staff Purchaser screen gives you:
+Name of Staff Category
+
+Cost to Hire
+
+Monthly Wage
+
+Features Purchaser
+
+Only categorises Park Features according to the different costs
+involved.
+
+20
+
+===== Page 22 =====
+
+Tune-Up Bar
+
+timer on/off
+
+speed
+
+info spanner
+
+Query a ride, shop or member of staff to activate the Tune-Up
+Bar. This appears at the bottom of the Icons Menu, above the
+name of the queried object.
+
+The Ride Tune-Up Bar contains:
+
+Rider icon — adjust the number of punters you can cram onto
+a ride before it starts. Select the icon using the Control Pad and
+then press Y to increase the number of people on the ride, or
+press B to decrease numbers when safety levels are being
+exceeded. You can’t exceed the ride’s maximum capacity as set
+down on the Ride Purchaser screen.
+
+Timer — the egg timer icon is filled in yellow. Highlight the icon
+with the Control Pad and press B repeatedly to reduce the
+length of the ride; press Y to increase the length of the ride
+again.
+
+Information — this is the only Tune-Up icon for shops and the
+only one common to rides, shops and staff. Use the Control Pad
+to select this icon and press Y for the relevant Information
+screen (see Information Screens) and some vital facts about the
+status of any park utility.
+
+Spanner icon — indicates how safe the ride is. The higher the
+
+yellow bar, the more dangerous the ride. The state of repair of a
+ride is also affected by the numbers using it and the ride speed.
+To instruct a mechanic to repair the ride, use the Control Pad to
+
+21
+
+===== Page 23 =====
+
+select this icon and press Y.
+
+On/Off — turn a ride on or off by selecting this and pressing
+either Y or B. The light turns from yellow to black when a ride
+has been stopped.
+
+Ride Speed — pressing B increases the revolutions per minute
+of your rides. If things become a little too exciting for the ride
+users, retard the ride’s speed by pressing Y. Changes to ride
+speed take immediate effect on the Park Screen.
+
+The staff Tune-Up Bar has:
+
+Pincer icon — with this icon selected, press ¥Y and the cursor
+becomes a set of pincers with the queried staff member
+attached. You can now reposition them anywhere in the park by
+pressing Y.
+
+Information — Use the Control Pad to select this icon and press
+Y for the relevant Information screen (see Information Screens).
+
+Repair icon — FOR MECHANICS ONLY. Press Y on this icon
+and then Control Pad to select a ride in need of some attention.
+Press Y again to send the queried mechanic to work. A plume of
+smoke indicates when a ride is on its last legs. If you don’t
+respond quickly enough, you could send some innocent punters
+into orbit — there ain’t no smoke without fire!
+
+22
+
+===== Page 24 =====
+
+User-Definable Rides
+
+User-Definable rides are rides which you get to design for
+yourself, rather than just placing it in the Theme Park. They
+include the Roller-Coaster, Monorail, Rubber Tubing and Race
+Car rides. They are defined using slightly different methods:
+
+To create a Rubber Tubing or Race Car ride, use the Control
+Pad to select the ride icon from the Quick Menu and press Y;
+the menu/screen closes and the first section of the ride is
+attached to the cursor. Now scroll around the park and lay out
+the ride as if you were laying a path. Create hairpin bends or
+gentle curves as you see fit until you complete a circuit. Remove
+any rogue pieces of track that are heading in the wrong
+direction by pressing B.
+
+To create a Roller-Coaster or Monorail, access the ride icon
+as above. When placing the track, however, the Control Pad
+scrolls along by bigger increments. This is because the individual
+sections of track are much larger than those of the Rubber
+Tubing and Race Car rides. To lay a complete loop, hold down
+Y and scroll in the direction you require, dragging the track
+behind you. Press B to delete any offending pieces of track. To
+add humps, dips and loops to your circuit, press the L or R
+button to cycle through the menu of pieces available. Press ¥ to
+add the modification. The A button changes the direction of the
+piece being held.
+
+Note: The bigger the track and the more humps, loops
+and dips you have, the more it costs — but the more exciting it
+is for your Customers.
+
+23
+
+===== Page 25 =====
+
+The Ticket Booth
+
+The Entrance and Exit of User-Definable rides differs from
+conventional rides, resembling a ticket booth. To access the
+booth you must first complete a circuit of the ride. Now press X
+to re-open the Icons Menu and Control Pad to the Ride icon.
+Press Y and the Purchaser screen opens. Press Y again and
+instead of the ride’s icon, the ticket booth becomes attached to
+the cursor. Place this adjoining any horizontal length of
+tubing/track by pressing Y. If you attempt to put the booth in
+the wrong place, a message tells you to try again.
+
+Note: When connecting any User-Definable ride to the
+paths network, it’s important to remember that the entrance to
+the ride is on the right, and the exit is on the left — you don’t
+want people walking into one another as they try to get on and
+off your new star attraction!
+
+Ride Cost
+
+The cost of User-Definable rides is calculated according to the
+number of sections of track used to complete the circuit; make
+sure you have the budget to cover it. Only when you open the
+ride to the public is the final price fixed.
+
+Information Screens
+
+FTE EYE
+
+Select the Information icon from the Tune-Up Menu with the
+Control Pad and then press Y; the relevant Information Screen
+appears. There are Information Screens for all rides, shops and
+the various staff.
+
+24
+
+===== Page 26 =====
+
+Ride Information Screen
+The categories of information available are:
+
+Ride Cost — the amount you have to cough up to buy the ride.
+
+People Been On Ride — the total number of park visitors
+who’ve used the ride.
+
+Excitement — a thrill or a bore? Here’s where you find out the
+score.
+
+Strength — assess how much work you can get from a ride
+before it needs repair.
+
+Capacity — increase or decrease this by selecting the icon and
+pressing either the Left or Right or the L or R buttons on the
+Control Pad. Holding down both the Left and the L (or the
+
+Right and R) buttons will speed the process up.
+
+Exit /Move Exit message — Select this option and pressing
+either Left and Right or the L and R buttons to switch between
+options. Reposition the exit to a ride by selecting Move Exit and
+pressing Y. The view returns to the Park Screen, where you can
+more effectively place the ride’s exit. If you select Exit instead,
+it’s back to the Park Screen.
+
+Shop Information Screen
+
+C2 DF TT EE i>
+
+SUCH AP iat COS
+
+At the Shop Information screen you can find out:
+
+Type of goods sold — to be frank, it should be pretty obvious
+from the name of the shop.
+
+Customers so far — just how popular are those burgers, fries,
+novelties, etc.
+
+25
+
+===== Page 27 =====
+
+Stock price — this tells you just how much the stuff cost.
+
+Sale price — raise or lower the cost to the consumer by
+selecting the icon and pressing either the Left or Right or the L
+
+or R buttons on the Control Pad. Remember: holding down
+both the Left and the L (or the Right and R) buttons will speed
+the process up.
+
+Food shops also have a unique category which allows you to
+alter food quality in the quest for greater profits. Use Left and
+Right on the Control Pad or L and R buttons to adjust the
+following:
+
+Big Time Burger — increase the amount of fat in the burgers to
+reduce your costs. As the burgers are less filling, you might
+benefit from repeat purchases, or customers might find them so
+revolting they'll refuse to buy another on principle.
+
+Big Time Fries — pour extra salt onto fries and improve drinks
+sales.
+
+Pokey Cola — more ice means less cola in the carton, and lower
+overheads.
+
+Mr. Whuppy Ices — increase the amount of sugar in the ice
+cream to get the kids coming back for more.
+
+Coffee shop — hike up the amount of caffeine in your coffee to
+give drinkers energy and get them moving around your Theme
+
+Park more quickly.
+
+Saloon — water down the beer to make it go that little bit
+further.
+
+X button — exit to Park screen.
+
+===== Page 28 =====
+
+Side-show Information Screen
+
+Side-show have separate categories of information:
+
+Punters/wins - the ratio of prize winners from those who have
+played.
+
+Chance of win — pressing either the Left and Right or the L
+and R buttons to increase or decrease the chances of a win.
+
+Holding down both the Left and the L (or the Right and R)
+buttons will speed the process up.
+
+Addictiveness - will the punters keep coming back for more?
+Find out here.
+
+Cost of prize — combine with the chance factor, and decide
+between lots of little wins or a few big wins. To adjust this figure
+press the Left and Right or the L and R buttons.
+
+Remember: hold down those Left and L (or the Right and R)
+
+buttons to speed the whole process up.
+
+Price per game — a really addictive side-show can be a nice
+little earner, especially if you raise the price to an unacceptable
+level. Do the old Left and Right or the L and R business to
+
+adjust this figure. (Hold down the Left and L - or the Right and
+R - buttons to move the numbers faster).
+
+27
+
+===== Page 29 =====
+
+Staff Information Screen
+
+HAN TC
+
+1ghE2, 158 =
+
+Bed Dy Feg>
+
+The categories of information available here are:
+
+Months employed — how long has this dead-beat been on
+the payroll?
+
+Rides fixed (mechanic only)
+Performances (entertainer only)
+People made happy (entertainer only)
+Monthly Wage (everybody!)
+
+Sack staff icon — show ineffectual workers the door, and give
+them a helping boot through it, by selecting Exit icon and
+pressing either Left or Right or the L or R buttons to select the
+Fire Staff option. Press Y to kick his butt onto the dole queue.
+
+A, B, Y or X button - get back to game.
+
+Thought Bubbles
+
+A good Theme Park operator responds to his customers’ needs
+— it’s only good business. Visitors to your park give signals to
+show their level of satisfaction or frustration. If they're A-OK,
+you'll see it in a hand signal. One signal to pay close attention
+to is a tapping foot. This is a clear sign that they’re not being
+entertained — and after all, entertainment is what they’ ve come
+for. Build some new rides, beef up the ones you already have,
+
+28
+
+===== Page 30 =====
+
+but do something before bad word of mouth destroys
+attendance figures and your park’s reputation.
+
+Here’s a complete listing of all the thought bubbles and their
+meanings:
+
+Food thoughts
+
+(ee am hungry
+
+‘| I am thirsty
+
+Looking for
+
+Chit am looking for the exit
+
+Bad thoughts
+(8 You are making too much profit
+
+|e There is far too much litter around
+
+Feelings
+
+[3] I am happy
+
+(! am feeling okay
+Ch am unhappy
+
+ae]! am getting tired of walking
+
+aA
+
+Es
+
+I’m bored
+
+29
+
+===== Page 31 =====
+
+Selling Up
+
+At the end of each financial year you’re given the opportunity
+to sell your Theme Park so long as your park is worth at least
+10,000 and you will have sufficient funds to purchase the next
+site.
+
+If you’re so proud of your current enterprise that you don’t
+want to sell, or if you think that there’s more money to be
+milked from it, press X. The action returns to the park.
+
+If the price offered is adequate, press Y. The park is now
+auctioned. You have one final chance to withdraw this action by
+pressing X. No? Okay, press Start and there’s no turning back.
+The final sale price will (hopefully) increase drastically from the ©
+minimum asking price before the hammer falls.
+
+After a park is sold the date will always revert to the year 1996.
+For example, it is possible to sell a park in 2050 and then buy
+the next one in 1996!
+
+Note: After the auction you’re given a password; write
+this down and keep it safe, as it’s the only way of continuing
+your Theme Park building programme at a later date (see Enter
+Code.). Remember to record the name you are playing under as
+well; you'll need it to resume your game.
+
+30
+
+===== Page 32 =====
+
+THE BANK SCREEN
+
+Regular visits to the Bank screen, however daunting, are
+essential to the effective financial control of the Theme Park.
+
+Use the Control Pad to select the Bank icon from the Icon
+Menu and press Y for the Bank Requester screen.
+
+The graph shows your park’s bank balance, based on overheads
+against income. Listed on the left are the categories of financial
+
+performance. A coloured dot corresponding to the colour of the
+line on the graph is beside each category on display.
+
+Beneath the graph are listed:
+
+Balance — the money you have instantly available for new rides,
+shops and staff. The maximum amount of dosh you can possibly
+acquire is 200 million - not a measly amount to be limited to
+but a limit all the same.
+
+Park Value — the market worth of your Theme Park. When you
+begin Theme Park this figure is (not surprisingly) zero.
+
+Loan - You can increase or decrease the size of your loan by
+pressing the Left and Right or the L and R buttons. It is
+possible to hold down Left and L (or Right and R) buttons to
+speed the whole process up.
+
+Research — you are able to invest up to 2500 each month in
+researching new rides, shops and park features.
+
+31
+
+===== Page 33 =====
+
+When research on a new amenity has been completed, the
+adviser appears with a message to let you know. Increase and
+decrease this figure as you did the loan.
+
+Tickets — the mainstay of your park’s profitability. Adjust this
+up or down by pressing the Left and Right or the L and R
+buttons. It is possible to hold down Left and L (or Right and R)
+buttons to speed the whole process up.
+
+YEAR END CHARTS
+
+The Overall chart appears at the end of every financial year,
+allowing you to see how your park has done during the year.
+The top ten parks are ranked, but you must achieve the overall
+number 1 position to succeed in building the world’s ultimate
+tourist attraction.
+
+When you've seen enough, press X for the Individual Ratings
+charts. From there, another press of the X button takes you to
+the Year End Details screen.
+
+Ratings Chart
+
+On the Rating Chart your Theme Park is compared with every
+other in the following categories:
+
+32
+
+===== Page 34 =====
+
+Richest
+Exciting
+Amenities
+Satisfaction
+Biggest
+
+Pleasant
+
+Study the position of your park in all six to find out where its
+deficiencies lie and how you can improve your Overall position.
+
+Year End Details Screen
+
+The Year End screen informs you of your Theme Park’s results
+over the last two financial years in the following categories:
+
+Park Value
+Bank Balance
+Loan
+
+Maximum Loan
+Takings
+Expenses
+
+Land Tax
+
+If the park value is sufficient, you’re given the option of selling
+it off at Auction. Press Y to initiate this (see Auctions).
+
+When you've finished at the Year End Details screen, press X to
+return to the Park Screen.
+
+33
+
+===== Page 35 =====
+
+Bankruptcy
+
+If you maintain a negative balance for more than two years then
+you are legally declared bankrupt. The park has to close, your
+life’s work collapses around you, and there’s only one
+honourable way out. It’s a long way down.
+
+Note: You’re given a year’s notice before you go
+bankrupt, but from there it’s a very difficult job to turn your
+park’s fortune’s around.
+
+About Bullfrog
+
+In case you haven’t heard of Bullfrog Productions — where have
+you been for the last five years? Believe it or not, as recently as
+1989 the world hadn’t been exposed to Populous, the
+revolutionary software program that made Bullfrog’s name and
+single-handedly created the god sim genre overnight. Twenty
+different formats and world-wide sales in excess of three million
+later, Populous has become the stuff of industry legend. Yet it
+was only the first in a series of software smashes that has
+earned Bullfrog four consecutive number one hits.
+PowerMonger, Populous 2 and Syndicate followed, and all
+enjoyed immense critical acclaim and commercial success.
+
+In the same short time, Bullfrog Productions has expanded from
+the two-man operation founded by Peter Molyneux and Les
+Edgar to a thriving company with over 40 employees. Through
+this period of unprecedented growth, Bullfrog has continued to
+produce games which combine visual strength with technical
+complexity. But above all else, its originality that is the key to
+Bullfrog’s success. Theme Park, the first of Bullfrog’s Designer
+Series, is the latest example of the company’s commitment to
+Originality and innovation. It combines accurate simulation
+technology with easy playability and the instant gratification of
+superb graphics. And above all, like all their games, it’s FUN!
+Get ready for Bullfrog’s latest hit.
+
+34
+
+===== Page 36 =====
+
+Credits
+Designed by:
+
+SNES Programming:
+Producer:
+
+Graphics:
+
+Additional Graphics:
+
+Original Version:
+
+Original Version Programming:
+
+Sound & Music:
+
+Sound Implementation:
+
+Testing & QA:
+
+Special thanks to:
+
+For Electronic Arts
+Producer:
+
+Assistant Producer:
+Executive Producer:
+Product Managers:
+Documentation:
+
+Documentation Design:
+
+Test Group Supervisor:
+Lead Tester:
+
+Testers:
+
+Quality Assurance:
+
+For Ocean
+Additional Testing:
+
+Bullfrog Productions Ltd.
+Steve Metcalf
+
+Mark Webley
+
+Mark Healey and
+
+Jon Trenter Farmer
+
+Paul McLaughlin, Chris Hill,
+Fin McGechie
+
+Peter Molyneux, Demis Hassabis
+Mark Webley, Mark Lamport,
+James Robertson
+
+Russell Shaw
+
+Climax Software
+
+Andy Cakebread,
+
+Vince Farquharson,
+
+Jeffrey Brutus, Andy Robson
+Dazee Potter
+
+David Amor
+
+Alex Camilleri
+
+Joss Ellis
+
+Sean Ratcliffe, Ann Williams
+Neil Cook and
+
+Matthew Miles Griffiths
+Caroline Arthur
+
+Graham Harbour
+
+Julian Glover
+
+Darren Tuckey, Matt Price
+Giuseppe D’Amaro,
+
+Keith Bradley
+
+Ocean QA
+
+Software © 1994-95 Bullfrog Productions Ltd.
+
+All rights reserved.
+
+35
+
+===== Page 37 =====
+
+Documentation © 1994-95 Electronic Arts Ltd.
+
+All rights reserved.
+Theme Park, Designer Series are trademarks of Bullfrog
+
+Productions Ltd. Bullfrog and the Bullfrog logo are registered
+
+trademarks of Bullfrog Productions Ltd.
+Electronic Arts is a trademark of Electronic Arts Ltd.
+
+36
+
+===== Page 38 =====
+
+OCEAN EUROPE LTD.
+
+DISTRIBUTED BY:
+OCEAN EUROPE LIMITED
+2 CASTLE STREET
+CASTLEFIELD
+MANCHESTER
+M3 ALZ
+ENGLAND
+
+Software ©1994-95 Bullfrog Productions Ltd. All rights reserved.
+Documentation ©1994-95 Electronic Arts Ltd. All rights reserved. Theme Park,
+Designer Series are trademarks of Bullfrog Productions Ltd.
+Bullfrog and the Bullfrog logo are registered trademarks of
+Bullfrog Productions Ltd.Electronic Arts is a trademark of Electronic Arts Ltd.
+
+PRINTED IN JAPAN

@@ -1,0 +1,1870 @@
+# Bubsy 2
+source: https://archive.org/details/snes_manual_archive
+pdf: Bubsy 2 ( EU ).pdf
+region: EU
+pages: 40
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-ABBP-EUR
+
+\cco \Mnr”
+rFLAVILT WL
+
+===== Page 2 =====
+
+LICENSED BY
+
+Keep this information / Gardez ces informations / Diese Information aufbewahren
+Conservare queste informazioni / Guarde estas informes / Bewaar daze informatie
+
+C Nintendo of Europe GmbH : 63760 GroBostheim, Deutschland
+Behall denna information / Behold denne information / Pida tama tieto
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, @ AND a9 ARE TRADEMARKS OF NINTENDO CO.,LTD.
+
+Original
+{NI do
+
+Seal of
+Quality
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT.ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO
+ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU'IL
+EST CONFORME AUX NORMES D'EXCELLENCE
+EN MATIERE DE FABRICATION, DE FIABILITE ET
+SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIESES QUALITATSSIEGEL IST DIE GARANTIE
+DAFUR, DASS SIE NINTENDO-QUALITAT
+GEKAUFT HABEN. ACHTEN SIE DESHALB
+IMMER AUF DIESES SIEGEL, WENN SIE SPIELE
+ODER ZUBEHOR KAUFEN, DAMIT SIE SICHER
+SIND, DASS ALLES EINWANDFREI ZU IHREM
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA APROBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIEMPRE ESTE
+SELLO CUANDO COMPRES VIDEOJUEGOS Y
+ACCESORIOS PARA ASEGURARTE UNA
+COMPLETA COMPATIBILIDAD CON TU SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO IS GECONTROLEERD EN DAT
+HET QUA CONSTRUCTIE, BETROUWBAARHEID
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+BIJ HET KOPEN VAN SPELLEN EN
+ACCESSOIRES ALTIJD OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+DENNA ETIKETT GARANTERAR ATT NINTENDO
+STAR FOR PRODUKTENS KVALITET.
+KONTROLLERA ATT ETIKETTEN FINNS PA SPEL
+OCH TILLBEHOR DU KOPER FOR ATT
+FORSAKRA DIG OM ATT DE AR KOMPATIBLA
+MED SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+PASST.
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO.
+QUESTO PRODOTTO. RICHIEDILO SEMPRE
+ALL'ACQUISTO DI GIOCHI ED ACCESSORI PER
+ASSICURARE LA COMPLETA COMPATIBILITA
+CON IL TUO SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+DETTE SEGL GARANTERER, AT NINTENDO HAR
+GODKENDT KVALITETEN AF DETTE PRODUKT.
+SE ALTID EFTER DETTE SEGL, NAR DU KOBER
+SPIL OG TIBEHOR, SA DU ER SIKKER PA FULD
+KOMPATIBILITET MED DIT SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO ON
+HYVAKSYNYT TAMAN TUOTTEEN LAADUN.
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+SAAT VARMASTI SUPER NINTENDO
+ENTERTAINMENT SYSTEM YHTEENSOPIVIA
+TUOTTEITA.
+
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEVILLEZ LIRE ATTENTIVEMENT LA NOTICE "INFORMATIONS ET PRECAUTIONS
+D'EMPLOI" QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER |
+NINTENDO HARDWARE WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+SYSTEM™ LE CASSETTE O GLI ACCESSORI.
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEOJUEGO O ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE BlJ DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO-
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR.
+
+ADVARSEL : L/ES FORBRUGERINFORMATIONEN OG HA:FTET MED SIKKERHEDSREGLER, DER
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM,
+GAME PAK ELLER TILLBEH@RET.
+
+VAROITUS : LUE HUOLELLISESTI LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAI MUUN VAURSTEEN KAYTTOA.
+
+===== Page 3 =====
+
+The Absolute Definitive Object Of The Game
+
+To complete the game in a victorious manner, you must reach and then
+defeat Oinker P. Hamm. To locate Oinker, travel through all the levels of the
+selected tour in the Amazatorium, MAKING SURE TO TAG THE END OF LEVEL
+MARKERS (large, red marbles) in each world. When all levels are
+completed, the boss door will open that leads you to Oinker.
+
+These Items Are Important, Too!
+
+The Amazatorium has three floors and two wings — East and West.
+Choosing one wing or the other will affect which sections you will venture
+through. Each wing is entirely different, complete with its own challenges.
+To put it technically, “It’s like having two-two-Two Amazatoriums in One.”
+Before making that all-important wing choice, you must choose a tour.
+The number of levels seen in the Amazatorium will depend on the type of
+tour you choose. Each tour increases with difficulty, ranging from the First
+Floor Tour as the mildest, to the Grand Tour as the longest and
+
+most difficult.
+
+CONTROLS
+Bubsy Controls
+
+A L Button R Button
+
+I'll look up, Makes me look left and shows Makes me look
+
+activate a extended view of the world. right and shows
+
+transporter, enter extended view of
+
+a warp cave, or L Button R Button the world.
+
+throw a switch. é
+
+“fl. A Button
+
+rh PP Lets me use the
+
+I'll look down. SELECT. START selected item.
+
+<or> X Button
+
+I'll run on the ground or Will change the
+
+glide in the air in the selected item for
+
+direction you are me to use.
+
+pressing. The longer you
+
+press, the more I'll ¥ Button Ad Le
+
+speed up. : Makes me jump. The
+Makes me glide longer you press, the
+
+oy when I need to get higher I'll jump. Press
+down from ahigh — with </> to move me
+
+Pauses game. place SAFELY. while I’m in the air.
+
+===== Page 4 =====
+
+Hint: To open your “lion” share of doors in the Egypt World,
+look for hidden switches and press -. Switches in other worlds
+look like, well, SWITCHES. (Next stop, brain surgery, JEEZ!)
+
+Rocket and Bi-Plane Controls
+
+L or R Button
+Makes me turn around in the bi-
+
+plane.
+a A Button
+Makes me fly Pasion Lets me use
+higher. the selected
+item.
+29
+SELECT START
+v
+Makes me fly X Button
+lower. Changes the B Button
+selected item for Bee tou
+me to use. 0 arop
+tyres.
+<orp
+rilrunon the ground or —-¥ Button —
+glide in the air in the Press to fire
+direction you are the Neft® START
+pressing. The longer you Ballzooka™. Pauses game.
+press, the more I'll speed
+up.
+START
+
+Pauses game.
+
+Hint: In Two-Player Feisty games, beware of banana
+backlash. If you get bopped with one in Air Wars or Space
+Pirates, your bi-plane or rocket will temporarily go bonkers.
+
+===== Page 5 =====
+
+Additional Controls — All Worlds
+
+Friendly Two-Player Game — Press the B Button to have the Twin throw
+bananas at enemies.
+
+Feisty Two-Player Game — Press the B Button. The Twin will drop bananas on
+me, hoping I'll step and slide on them.
+
+Additional Controls — Mini Games
+
+Frogapult — Press a/v to move me to the top or bottom of the screen.
+Press any button to fire. Use the Control Pad to move the frog towards its
+target.
+
+Armadillo Drop — Use the fans (Control Pad) to steer Arnold to the safety of
+the bottom of the truck. Keep an eye out for these helpful gizmos; Half
+
+Bubbles open doors and Bouncers give an extra boost. If you beat the
+
+clock in this game, you’ll get mega bonus points.
+
+Hint: Watch out for tyres. One wrong turn and Arnold
+becomes a re-tread. And guaranteed, you will lose your
+time bonus for that.
+
+Liquid
+
+Lunacy — While in search of all kinds of wonderful items and power-ups.
+The most exciting of these is the Super Marble, which is worht a
+phenomenal TEN TRADING CARDS. Oh yes, make sure | avoid those
+small, barely-worth-mentioning, whirlpools.
+
+OPTIONS
+
+Awesome Amazatorium Tours
+
+Taking a good trip requires a little planning. So, I'll get
+started by introducing our incredible selection of fun and exciting tours ...
+
+First Floor Tour
+
+Take an “Easy” visit to the first levels of Egypt, Musie and
+Aerial worlds, then discuss the fate of the world with
+Oinker P. Hamm.
+
+Second Floor Tour
+This Tour covers a visit to each of the five worlds. Watch out, things get
+
+tougher on the second floor.
+
+===== Page 6 =====
+
+Third Floor Tour
+
+This tour takes me directly to the top floor of the Amazatorium. This floor
+is packed with tough henchmen and one furious boss. Is it too late to
+change my reservation?
+
+Remember, no matter which tour you choose, | must TAG
+
+THE END OF LEVEL MARKER (big red marble) in each world before the boss
+door leading to Oinker will open.
+
+After you’ve completed your tour in the East Wing, try the
+
+West Wing for a completely different experience.
+
+Grand Tour
+
+The Grand Tour is the most difficult. It covers all three floors of Egypt,
+Music, Space, Medieval and Aerial worlds, including an expanded
+version of the first and second floor levels. That’s 15 glorious levels!
+Before | can move from one floor to another, | must TAG THE END OF
+LEVEL MARKER located in each world and fight the interim boss.
+After I’ve completed all three floors, I'll face the ultimate challenge of
+battling Oinker.
+
+Hint: On all tours, except the First Floor Tour, some of Oinker’s
+henchmen will take multiple hits before they decide to go out for lunch.
+Also, watch for the boss door once all the tour levels have been
+completed. (The Grand Tour boss door will lead through all sections of
+the Amazatorium before you reach your FINAL destination.)
+
+Private Excursion or Companion Fare ... You Decide
+
+One-Player
+
+Totally alone, I'll brave the dangers of the Amazatorium. Totally alone, I'll
+set out to recover my errant niece and nephew. Totally alone, I'll face a
+crowd of frenzied,
+
+barnyard animals ...
+
+Two-Player Friendly
+
+Take turns working with me to defeat Oinker’s crazy critters. When your
+buddy is taking care of me, you take control of one of the Twins and help
+out by collecting treasure and throwing bananas on enemies. Look for
+switches that close pits or turn off hazards, so your friend has an easier
+time coming through (if a switch will affect the second player, you'll see a
+“2” when you turn it on). A level is counted as completed when either
+player has reached the end of level marker. The score at the end is a
+
+total of both players’ efforts.
+
+===== Page 7 =====
+
+Two-Player Feisty
+
+You still take turns working with me to defeat Oinker’s barnyard critters,
+but when the second player is taking care of me, you take control of one
+of the Twins and drop bananas on me to make me slide. But beware the
+Smart Bomb: if it hits the “Twin Player”, the effect is truly STUNNING.
+(Yes, we have no bananas ... at least for a little while!) Look for switches
+that open pits or turn on hazards, so the other player has a tougher time
+coming through. As a Feisty player, you work individually to complete all
+the levels and reach Oinker. Both scores are displayed at the end.
+
+Note: If everyone playing has lost all their lives, the tour is OVER.
+(No refunds. Each tour-ticket sale is final. Have a nice day.)
+
+One and Two-Player Mini-Games
+
+Alone, or with a buddy, you play only the Mini-Game Series: Frogapult,
+Armadillo Drop, and Liquid Lunacy.
+
+Travel Advisories For The Tour
+
+You'll notice, as we step into the Amazatorium, that in front of every wild
+and wonderful world there’s a transporter pad. To enter any of the worlds,
+press </> to put me on the transporter pad. Then, press a and it’s “Bon
+voyage, Bubsy.”
+
+The Amazatorium Gift Shop
+
+As a bonus for completing a level, use your Trading Cards to buy and sell
+any of the toys I’ve picked up in my travels. Press / to select the item you
+wish to buy or sell. Press < to buy. Press to sell.
+
+The current “rate of exchange” on the following items is:
+
+Nerf® Ballzooka™ = 1 card. Press the A Button to fire Nerf® Balls at
+Oinker’s henchmen. Anyone whose hit will turn into a trading card for me.
+Smart Bomb = 2 cards. Press the A Button to set off the bomb. Any
+
+of Oinker’s henchmen who are visible will be changed into
+
+collectable marbles.
+
+Diving Suit = 3 cards. Press the A Button once to put on the diving suit
+and a second time to take it off.
+
+Portable Hole = 5 cards. Press the A Button again and I'll dive through the
+hole and arrive back at the Amazatorium.
+
+T Shirt = 10 cards. This will buy you an extra life.
+
+When you're finished wheeling and dealing in the gift shop, press START
+to get back to the Amazatorium and the rest of the tour!
+
+Hint: Press START while you’re in the Amazatorium if you want to
+
+know your current score.
+
+===== Page 8 =====
+
+AVERTISSEMENT SUR L'EPILEPSIE
+
+A lire avant toute utilisation d’un jeu vidéo par vous-méme ou votre enfant.
+Certaines personnes sont susceptibles de faire des crises d’épilepsie ou
+d’avoir des pertes de conscience a la vue de certains types de lumiéres
+clignotantes ou d’éléments fréquents dans notre environnement quotidien.
+Ces personnes s’exposent a des crises lorsqu’elles regardent certaines
+images télévisées ou lorsqu’elles jouent a certains jeux vidéo. Ces
+phénoménes peuvent apparaitre alors méme que le sujet n’a pas
+d’antécédent médical ou n’a jamais été confronté a une crise d’épilepsie.
+Si vous-méme ou un membre de votre famille avez déja présenté des
+symptomes liés a l’épilepsie (crise ou perte de conscience) en présence de
+stimulations lumineuses, veuillez consulter votre médecin avant toute
+utilisation.
+
+Nous conseillons aux parents d’étre attentifs a leurs enfants lorsqu’ils jouent
+avec des jeux vidéo. Si vous-méme ou votre enfant présentez un des
+sympt6mes suivants: vertige, trouble de la vision, contraction des yeux ou
+des muscles, perte de conscience, trouble de l’orientation, mouvement
+involontaire ou convulsion, veuillez immédiatement cesser de jouer et
+consulter un médecin.
+
+PRECAUTIONS A PRENDRE DANS TOUS LES CAS
+POUR L'UTILISATION D'UN JEU VIDEO
+
++ Ne vous tenez pas trop prés de I’écran. Jouez a bonne distance de |’écran
+de télévision et aussi loin que le permet le cordon de raccordement.
+
+* Utilisez de préférence les jeux vidéo sur un écran de petite taille.
+
++ Evitez de jouer si vous étes fatigué ou si vous manquez de sommeil.
+
++ Assurez-vous que vous jouez dans une piéce bien éclairée.
+
+¢ Encours d'utilisation, faites des pauses de dix aquinze minutes
+toutes les heures.
+
+===== Page 9 =====
+
+Le Seul et Unique But du Jeu
+
+Pour gagner la partie, tu dois trouver et vaincre Oinker P. Hamm. Tu
+cherches Oinker dans tous les niveaux de la visite de ! Amazatorium que
+tu as sélectionnée. N'OUBLIE PAS DE MARQUER LES BORNES DE FIN DE
+NIVEAU (grosses billes rouges) dans chaque monde. Lorsque tu as
+terminé, la porte du boss s’ouvre et t’indique le chemin jusqu’a Oinker.
+
+Renseignements Utiles!
+
+L’Amazatorium comprend trois étages et deux ailes — Est et Ouest. Les
+sections de jeu ou tu t’aventures dépendent de l’aile que tu choisis. Les
+ailes sont complétement différentes et renferment leurs propres défis.
+Pour étre plus clair, c’est comme si tu avais “2-2-2 Amazatoriums en 1”.
+Mais, avant de faire ce choix crucial, tu dois choisir une visite. Le nombre
+de niveaux de l’'Amazatorium dépend de la visite que tu choisis. Les
+excursions sont de plus en plus difficiles: ‘First Floor Tour’ (Visite du
+Premier Etage) est la plus facile et ‘Grand Tour’ (Visite d’Ensemble) est
+la plus longue et la plus difficile.
+
+COMMANDES
+
+Les Commandes de Bubsy
+
+a Bouton L
+
+Je regarde enl’air, °°U"® . :
+
+ici wt Je regarde a gauche pour obtenir Beuten Roa
+
+transporteur. une vue plus étendue du monde. red ska a
+
+it ) u
+
+y pale Bene Was SeeEIEne vue
+
+grotte ou :
+
+jactionne un L Button R Button nea du
+
+interrupteur. — 3
+
+v (aby Bouton A
+
+Je regarde en bas. bseaialal J’utilise l'objet
+sélectionné.
+
+< our Bouton X
+
+Je cours ou je plane dans la Pour changer Bouton B
+
+direction indiquée par le l'objet que je vais Je Saute. Plus tu
+
+bouton sur lequel tu utiliser. appuies longtemps,
+
+appuies. Plus tu appuies plus je saute haut.
+
+longtemps, plus je vais vite. Bouton Y Appuie en méme
+
+; temps sur </> pour
+Pour que je plane —que je me déplace
+
+START jusqu’au solsans —_— dans les airs.
+Pour mettre le jeu en me faire mal.
+pause.
+
+===== Page 10 =====
+
+Conseil: pour obtenir la part du “lion” grace aux portes du
+‘Monde Egyptien’ (Egypt World), cherche les interrupteurs et
+appuie sur s. Les interrupteurs des autres mondes, ressemblent
+tout bonnement a des INTERRUPTEURS. (Pas besoin de réfléchir!)
+
+Les Commandes de la Fusée et du Biplan
+
+Bouton L ou R
+Pour faire tourner le biplan.
+
+A Bouton A
+Pour me faire J’utilise objet
+voler plus haut. sélectionné.
+v
+Pour me faire Bouton X
+voler plus bas. Pour changer Bouton B
+
+objet que je :
+
+vais utiliser. puto Sets
+<or> pour larguer
+Je cours ou je plane, B Y des pneus.
+dans la direction eaten
+indiquée par le bouton C’est ton bouton
+sur lequel tu appuies. de tir pour le START :
+Plus tu appuies Ne Pour mettre le jeu
+longtemps et plus Ballzooka™. en pause.
+je vais vite.
+START
+Pour mettre le jeu en
+pause.
+
+Conseil: dans les parties 4 deux joueurs, fais attention aux coups de
+bananes. Si tu en regois une dans les ‘Guerres Aériennes’ (Air Wars)
+ou dans les ‘Pirates de I'Espace’ (Space Pirates), tu perds le contrdle
+de ton biplan ou de ta fusée pendant quelques secondes.
+
+Commandes Supplémentaires — Tous les Mondes
+
+Partie ‘Friendly Two-Player’ (Deux Camarades) — Appuie sur le Bouton B pour
+que le Jumeau lance des bananes sur les ennemis.
+
+Partie ‘Feisty Two-Player’ (Deux Concurrents) — Appuie sur le Bouton B pour que
+le Jumeau me lance des bananes. Tu réussiras peut-étre a me faire
+
+tomber et perdre du temps.
+
+===== Page 11 =====
+
+Commandes Supplémentaires — Mini Parties
+
+‘Frogapult’ (Grenoupulte) — Appuie sur a/v pour me placer en haut ou en bas
+de l’écran. Appuie sur n’importe quel bouton pour tirer. Sers-toi du Bloc de
+Contréle pour déplacer la grenouille vers sa cible.
+
+‘Armadillo Drop’ (Chute du Tatou) — Sers-toi des ventilateurs (Bloc de Contréle)
+pour mettre Arnold a l’abri sur le camion. Tu peux en profiter pour
+chercher quelques petits objets utiles: les Demi-Bulles ouvrent des
+portes et les Rebondisseurs augmentent ta force. S’il te reste du temps a
+la fin de cette partie, tu gagnes plein de points bonus.
+
+Conseil: fais attention aux pneus. Une maladresse et c’est Arnold qui
+se dégonfle. Tu peux étre stir que tu perdras aussi ton temps bonus.
+
+‘Liquid Lunacy’ (Folie Liquide) — Dans ta quéte pour de merveilleux
+objets et bonus, tu trouveras la Super Bille. Elle te rapportera DIX
+CARTES D’ECHANGE. Au fait, nous te conseillons d’éviter les petits
+tourbillons.
+
+OPTIONS
+
+Visites Terrifiantes de |'Amazatorium
+Une bonne excursion nécessite un petit travail de préparation. Voici une
+
+bréve description de notre incroyable sélection de visites folles et
+amusantes...
+
+‘First Floor Tour’ (Visite du Premier Etage)
+C’est une visite “facile” des premiers niveaux du monde ‘Egyptien’ (Egypt
+
+world), ‘Musical’ (Music world) et ‘Aérien’ (Aerial world). Tu finis par affronter
+Oinker dans un combat décisif.
+
+‘Second Floor Tour’ (Visite du Deuxiéme Etage)
+
+Cette excursion te permet de visiter les cing mondes. Sois prudent, les
+choses se compliquent.
+
+‘Third Floor Tour’ (Visite du Troisiéme Etage)
+
+Cette excursion t’emméne directement au dernier étage de
+Amazatorium. Cet étage grouille de méchants et cache un boss plutét
+diabolique. Tu veux peut-étre changer ta réservation?
+
+N’oublie pas qu’au cours de chaque visite tu dois MARQUER LA BORNE DE
+FIN DE NIVEAU (grosse bille rouge) de chaque monde, pour ouvrir la porte
+te menant a Oinker.
+
+Une fois que tu as terminé ton excursion dans I'Aile Est, essaie l'autre
+cété, tu ne seras pas décu du voyage.
+
+===== Page 12 =====
+
+‘Grand Tour’ (Visite d'Ensemble)
+
+C’est la plus difficile. Elle traverse les trois étages du monde ‘Egyptien’
+(Egypt world), ‘Musical’ (Music world), ‘Spatial’ (Space world), ‘Médiéval’ (Medieval
+world) et ‘Aérien’ (Aerial world), ou les niveaux du premier et second étages
+ont été agrandis; en tout, 15 niveaux époustouflants! Pour passer d’un
+étage a l’autre, tu dois MARQUER LA BORNE DE FIN DE NIVEAU dans chaque
+monde, et combattre le boss qui s’y trouve. Quand tu auras traversé les
+trois étages, tu feras face a ton plus grand défi, le vilain Oinker.
+
+Conseil: au cours de toutes les excursions, a l'exception de celle du
+Premier Etage, il te faudra t’acharner sur certains des acolytes
+d’Oinker pour réussir a t’en débarrasser. N’oublie pas de chercher la
+porte du boss 4 la fin de tous les niveaux. (Celle de la ‘Visite
+d’Ensemble’ (Grand Tour) te fera traverser toutes les sections de
+’Amazatorium avant d’arriver a ta destination FINALE).
+
+Excursion en Solitaire ou Compagnon de Voyage...
+A toi de decider
+
+‘One Player’ (Un Joueur)
+
+C’est tout seul que tu affronteras les dangers de l’Amazatorium, que tu
+devras chercher ta niéce et ton neveu perdus, et que tu feras face a une
+foule d’animaux frénétiques...
+
+‘Two-Player Friendly’ (Deux Camarades)
+
+Chacun votre tour vous affrontez les monstres maniaques d’Oinker.
+Quand c’est ton ami qui joue, tu contrdles l'un des Jumeaux et tu
+l'assistes en ramassant des trésors et en langant des bananes sur les
+ennemis. Tu cherches les interrupteurs qui ferment les puits et qui font
+disparaitre les obstacles, pour faciliter la tache de ton camarade, (si
+l'interrupteur affecte le second joueur, tu verras un “2” au moment de
+l'actionner). Le niveau est terminé quand l’un des deux joueurs atteint la
+borne de fin de niveau. Le score est le total des efforts des deux joueurs.
+
+‘Two-Player Feisty’ (Deux Concurrents)
+
+Chacun votre tour vous affrontez les monstres maniaques d’Oinker.
+Cependant, quand c’est ton ami qui joue, tu contréles l'un des Jumeaux
+et lui lance des bananes pour le faire tomber. Fais attention a la Bombe
+Intelligente, quand elle frappe le “Joueur Jumeau”, elle a un effet
+ETOURDISSANT. (Vous ne verrez pas de bananes, au moins pendant
+quelques minutes!) Cherche les interrupteurs qui ouvrent les puits et qui
+font apparaitre des obstacles, afin de ralentir l'autre joueur. C’est chacun
+pour soi dans cette traversée des niveaux pour atteindre Oinker. Les
+deux scores sont affichés 4a la fin.
+
+===== Page 13 =====
+
+Remarque: si les deux joueurs ont perdu toutes leurs vies,
+excursion est TERMINEE. (Les tickets ne sont pas remboursés.
+Passez une bonne journée!)
+
+Mini Parties 4 Un et Deux Joueurs
+
+Tout seul ou avec un camarade, tu participes seulement aux Mini Parties:
+‘Frogapult’ (Grenoupulte), ‘Armadillo Drop’ (Chute du Tatou) et ‘Liquid
+Lunacy’ (Folie Liquide).
+
+Quelques Conseils Avant de Partir
+
+Dans |’Amazatorium, tu remarqueras qu’il y a un transporteur devant
+chaque monde merveilleux. Pour monter dans I’un d’eux et t'introduire
+dans l’un de ces mondes, appuie sur </>. Appuie ensuite sur a et te voila
+parti, Bubsy!
+
+Le Magasin de Souvenirs de |'Amazatorium
+
+A la fin de chaque niveau, tu peux te servir de tes Cartes d’Echange pour
+acheter et vendre les objets que j'ai accumulés au cours de mes
+voyages. Appuie sur / pour sélectionner l’objet que tu veux acheter ou
+vendre. Appuie ensuite sur < pour acheter ou sur » pour vendre.
+
+Le “taux d’échange” actuel est le suivant:
+
+Nerf® Ballzooka™ = 1 carte. Appuie sur le Bouton A pour tirer des Balles
+de Nerf® sur les acolytes d’Oinker. A chaque fois que tu touches
+quelqu’un tu gagnes une carte.
+
+Bombe Intelligente = 2 cartes. Appuie sur le Bouton A pour faire exploser
+la bombe. Tous les méchants que tu apercois se transforment en billes
+que tu peux ramasser.
+
+Combinaison de Plongée = 3 cartes. Appuie une fois sur le Bouton A pour
+mettre la combinaison et une seconde fois pour |’enlever.
+
+Trou Portatif = 5 cartes. Appuie a nouveau sur le Bouton A et je plonge
+dans le trou pour retourner a |l’Amazatorium.
+
+T Shirt = 10 cartes. Cela te vaudra une vie supplémentaire.
+
+Quand tu auras finis toutes tes manigances dans le magasin de
+souvenirs, appuie sur START pour retourner a |’Amazatorium et au reste
+de la visite!
+
+Conseil: lorsque tu es dans |'‘Amazatorium, appuie sur
+START pour connaitre ton score actuel.
+
+===== Page 14 =====
+
+Das Ziel des Spiels
+
+Mochtest du aus dem Spiel als Sieger hervorgehen, dann muBt du Zuerst
+Oinker P. Hamm finden und ihn dann besiegen. Reise dazu durch alle
+Levels deiner gewahiten Amazatorium-Tour und ACHTE DARAUF, DASS DU
+IN JEDER WELT DIE GROSSEN MURMELN BERUHRST, DIE DAS ENDE JEDES
+LEVELS MARKIEREN. Hast du einmal alle Levels hinter dich gebracht, dann
+wird sich eine BoB-Tir 6ffnen, die dich direkt zu Oinker fiihrt.
+
+Was du auBerdem wissen solltest!
+
+Das Amazatorium hat drei Stockwerke und zwei Fligel - einen Ost- und
+einen Westfliigel. In welchem Abschnitt du dich jeweils befindest ist
+natiirlich davon abhangig, welchen Fliigel du gewahlt hast. Jeder Flugel
+ist anders, in jedem muBt du dich anderen Herausforderungen stellen.
+Um es technisch auszudriicken, geht’s hier also um ein “2-2-2-
+Amazatorium in einem”! Bevor du dich jedoch fiir einen Fligel
+entscheidest, muB du eine Tour wahlen. Wie viele Levels das
+Amazatorium hat ist davon abhangig, welche Tour du gewahlt hast. Jede
+Tour ist schwieriger als die vorherige, wobei die ‘First Floor Tour’ (Tour
+der +. Etage) die einfachste und die ‘Grand Tour’ die langste und
+schwierigste ist.
+
+===== Page 15 =====
+
+STEVERUNGEN
+Bubsy-Steuerungen
+
+A
+Driickst du a, | L-Knopf
+malls pour ich | 4Bt mich nach links R-Knopf
+Le Ope I schauen und bietet mir CREE mich nach
+a WHE EIN he eine erweiterte Sichtder — rechts schauen
+inane Were ene Welt. und bietet mir
+Hohle oder vevie’ eine erweiterte
+aktiviere einen Ge Sicht der Welt.
+Schalter. 2 x A-Knopf
+v oo 628 Driickst du A, _
+Driickst du diesen SELECT START F) dann benuize ich
+
+Knopf, dann schaue den gewahlten
+
+ich nach unten. Gegenstand.
+X-Knopf
+
+< oder > Wahlt einen
+
+Hier laufe ich auf dem anderen B-Knopf
+
+Boden entlang oder gleite | Gegenstand fur LaBt mich
+
+durch die Luft, und zwar in Mich. springen. Je
+
+der Richtung, die du gerade langer du
+
+driickst. Je langer duden —_Y-Knopf driickst, desto
+
+Knopf driickst, desto LABt mich gleiten, hoher springe
+
+schneller werde ich. wenn ich von ich. Dricke “>,
+einem sehr hohen a met ue
+
+START Ort aus SICHER lug zu lenken.
+
+unten ankommen
+
+Unterbricht das Spiel.
+soll.
+
+Tip: Um in der ‘Egypt World’ (Agyptenwelt) einen “Léwenanteil”
+der Tiren 6ffnen zu kénnen, halte Ausschau nach versteckten
+Schaltern und driicke s. Die Schalter in anderen Welten sehen
+wie, nun, eben wie SCHALTER aus. (Wenn du das nicht
+kapierst, dann weiB ich auch nicht weiter!)
+
+===== Page 16 =====
+
+Steuerungen der Rakete und des Doppeldeckers
+
+L- oder R-Knopf
+LaBt meinen Doppeldecker
+
+abdrehen.
+A A-Knopf
+Ich fliege plipation Aibaion LaBt mich den
+hdher. gewahlten
+[a Gegenstand
+Sr PP benutzen.
+v
+Ich fliege X-Knopf B-Knopf
+niedriger. WahIt einen Driicke
+anderen diesen
+Gegenstand fiir Knopf, um
+mich. Reifen
+< oder > abzuwerfen.
+Ich laufe auf dem Boden
+entlang oder gleite durch Y-Knopf
+die Luft, und zwar inder — Dricke diesen START
+Richtung, die du gerade = Knopf, um die Unterbricht das
+driickst. Je anger duden Nerf® Spiel.
+Knopf driickst, desto Ballzooka™
+schneller werde ich. abzufeuern.
+
+START
+Unterbricht das Spiel.
+
+Tip: Bei ‘Two-Player Feisty’-Spielen (Spieler gegen Spieler)
+solltest du dich vor Bananen-Rickschlagen in acht nehmen.
+Wirst du in ‘Air Wars’ (Luftkriege) oder ‘Space Pirates’
+(Weltraumpiraten) getroffen, dann spielt dein Doppeldecker oder
+deine Rakete eine Weile verriickt.
+
+===== Page 17 =====
+
+Zusatzliche Steuerungen - Alle Welten
+
+‘Friendly Two-Player'-Spiel (Freundschaftsspiel) - Driickst du Knopf B, dann
+bombardiert der Zwilling unsere Gegner mit Bananen.
+
+‘Feisty Two-Player'-Spiel (Spieler gegen Spieler) - Driickst du Knopf B, dann
+wirft der Zwilling mit Bananen nach mir und hofft, daB ich ausrutsche und
+auf meinem Hintern lande.
+
+Zusatzliche Steuerungen - Minispiele
+
+Frogapult (Froschkatapult) - Driicke a/v, um mich zum oberen oder unteren
+Bildschirmabschnitt zu bewegen. Driicke einen beliebigen Knopf,
+
+um zu feuern, und benutze den Control Pad, um den Frosch auf sein Ziel
+zu lenken.
+
+Armadillo Drop (Giirteltier-Achterbahn) - Benutze den Control Pad, um Arnold
+sicher auf dem Boden des Lasters abzusetzen. Halt nach den folgenden
+nutzlichen Objekten Ausschau - Halbe Blasen 6ffnen Turen, und die
+Hopser geben dir einen zusatzlichen Powerboost. Schaffst du dieses
+Spiel, bevor die Zeit abgelaufen ist, dann erhaltst du Mega-Bonuspunkte!
+
+Tip: Halt nach Reifen Ausschau, denn wenn du unachtsam bist,
+dann wird Arnold zum platten Reifen und du biBt dafir garantiert
+deinen Zeitbonus ein!)
+
+Liquid Lunacy (Fliissiger Wahnsinn) - Auf deiner Suche nach all den
+wundervollen Gegenstanden und Power-Ups wirst du fruher oder spater
+hoffentlich auch auf die Super-Murmel stoBen, die ganze phanomenale
+zehn HANDELSKARTEN (Trade Cards) wert ist. Ach ja, achte darauf,
+daB du diese kleinen kaum erwahnenswerten Whirlpools vermeidest!
+
+OPTIONEN
+
+Aufregende Amazatorium-Touren
+
+Eine Reise sollte gut geplant sein. Ich werde dir also als erstes einmal
+unser unglaubliches Angebot spannender Vergnigungs- und
+Abenteuerreisen vorstellen...
+
+First Floor Tour (Tour der 1. Etage)
+
+Mach auf den ersten Levels der ‘Egypt World’ (Agyptenwelt), ‘Music World’
+(Musikwelt) und ‘Aerial World’ (Luftwelt) einen “gemiutlichen” Spaziergang,
+und diskutiere dann mit Oinker P. Hamm das Schicksal der Welt.
+
+15
+
+===== Page 18 =====
+
+Second Floor Tour (Tour der 2. Etage)
+
+Auf dieser Tour besuchst du alle fiinf Welten. PaB auf! Auf der zweiten
+Etage wird’s ganz schén schwierig werden!
+
+Third Floor Tour (Tour der 3. Etage)
+
+Diese Tour fiihrt mich direkt zur obersten Etage des Amazatoriums. Hier
+wimmelt’s nur so von Ublen Kreaturen. Dazu gibt’s noch einen
+knallharten Level-BoB! Kann ich meine Reservierung noch andern?
+Und denk dran! Egal, welche Tour du wahlst, ich muB IN JEDER WELT DIE
+GROSSEN ROTEN MURMELN BERUHREN, DIE DAS ENDE JEDES LEVELS
+MARKIEREN, bevor sich die BoB-Tur 6ffnet, die mich zu Oinker fuhrt.
+Hast du deine Tour im Ostfliigel einmal geschafft, dann versuche mal den
+Westfliigel - ein vollig neues Erlebnis!
+
+Grand Tour
+
+Die Grand Tour ist die schwierigste. Hier geht’s durch alle drei Etagen
+der ‘Egypt World’ (Agyptenwelt), ‘Music World’ (Musikwelt), ‘Space World’
+(Weltraumwelt), ‘Medieval World’ (Mittelalterwelt) und ‘Aerial World’ (Luftwelt).
+Dazu eine erweiterte Level-Version der 1. und 2. Etage! Das sind ganze
+15 Levels! Bevor ich jedoch von einer Etage zur nachsten weiter kann,
+muB ich in jeder Welt zuerst die LEVEL-ENDMARKIERUNGEN BERUHREN und
+den Level-Bo8 aus dem Weg raumen. Habe ich alle drei Etagen einmal
+hinter mich gebracht, dann muB ich mich der endgiltigen
+Herausforderung, dem Kampf mit Oinker stellen.
+
+Tip: Auf allen Touren auBer der ‘First Floor Tour’ (Tour der 1.
+Etage) muBt du Oinkers Uble Handlanger mehrmals treffen,
+bevor sie endlich zum Mittagessen gehen! Halte auch Ausschau
+nach der BoB-Tuir, nachdem du alle Tourlevels abgeschlossen
+hast. (Die BoB-Tiir der ‘Grand Tour’ gibt den Weg durch alle
+Abschnitte des Amazatoriums frei und fuhrt dich zu deinem
+ENDGULTIGEN Ziel.)
+
+Privater Ausflug oder Gemeinschaftstrip... du hast die Wahl.
+‘One-Player' (1 Spieler)
+
+Mutterseelenallein stelle ich mich den Gefahren des Amazatoriums.
+Mutterseelenallein mache ich mich auf den Weg und versuche meine
+umherziehende Nichte und meinen Neffen zu finden. Mutterseelenallein
+stelle ich mich einem Haufen verrlickter Bauernhoftiere...
+
+===== Page 19 =====
+
+‘Two-Player Friendly’ (Freundschaftsspiel)
+
+Hier wechselt ihr euch im Kampf gegen Oinkers verriickte Viecher
+gegenseitig ab. Hat dein Kumpel meine Steuerung Ubernommen, dann
+steuerst du einen der Zwillinge, hilfst mir beim Aufsammeln von
+Gegenstanden und bombardierst unsere Gegner mit Bananen. Halte
+nach Schaltern Ausschau, die Gruben schlieBen und Gefahren
+ausschalten, um deinem/er Freund/in die Durchreise zu vereinfachen
+(bezieht sich ein Schalter auf den zweiten Spieler, dann erscheint beim
+Einschalten eine “2”). Ein Level gilt als abgeschlossen, sobald einer der
+beiden Spieler die Level-Endmarkierung erreicht hat. Der Punktestand
+am Ende des Levels stellt die Bemthungen beider Spieler dar.
+
+‘Two-Player Feisty’ (Spieler gegen Spieler)
+
+Auch hier wechselt ihr euch im Kampf gegen Oinkers Bauernhoftierchen
+gegenseitig ab, doch hat der zweite Spieler meine Steuerung
+tibernommen, dann steuerst du einen der Zwillinge und bombardierst
+mich mit Bananen, damit ich ausrutsche. Doch nimm dich vor der Smart-
+Bombe in acht - trifft sie den “Zwillingsspieler’, dann ist die Wirkung
+wahrhaftig UMHAUEND. (Richtig, wir haben keine Bananen...
+wenigstens fir ein Weilchen!) Halt nach Schaltern Ausschau, die Gruben
+Offnen oder Gefahren einschalten, um dem anderen Spieler die
+Durchreise zu erschweren. Als Gegenspieler arbeitet ihr euch also
+einzeln durch die Levels und miBt Oinker allein besiegen. Am Ende wird
+der Spielstand beider Spieler gezeigt.
+
+Haben beide Spieler alle ihre Leben verloren, dann ist die Tour
+zu Ende - d.h. OVER! (Rickerstattungen gibt es nicht. Habt ihr
+euch einmal eine Fahrkarte gekauft, dann gibt’s kein Zurlick
+mehr. Schénen Tag noch!)
+
+‘One-Player'-/Two-Player'-Minispiele (1-Spieler/2-Spicler)
+Allein oder mit einem Kumpel spielst du hier nur die Minispielserie:
+
+‘Frogapult’ (Froschkatapult), ‘Armadillo Drop’ (Girteltier-Achterbahn) und
+‘Liquid Lunacy’ (Flussiger Wahnsinn).
+
+===== Page 20 =====
+
+Ein paar Reisetips fiir deine Tour
+
+Sobald wir in das Amazatorium treten wirst du bemerken, daB sich vor
+jeder wilden und wundervollen Welt ein Transporterkissen befindet.
+Um eine der Welten zu besuchen, drticke einfach </>, und ich springe
+auf das Transporterkissen. Drickst du dann B, dann heiBt es
+
+“Bon voyage, Bubsy.”
+
+Der Geschenkeladen des Amazatoriums
+
+Als Bonus fiir den AbschluB eines Levels kannst du mit deinen
+Handelskarten die Spielsachen, die ich auf meinen Reisen aufgesammelt
+habe, kaufen oder verkaufen. Driicke <, um zu kaufen. Driicke >», um
+zu verkaufen.
+
+Der gegenwartige “Devisenkurs’ fir die folgenden Gegenstande ist:
+Nerf® Ballzooka™ = 1 Karte. Driicke den A-Knopf, um Oinkers
+Handlanger mit Nerf®-Ballen zu bombardieren. Jeder Treffer wird mit
+einer Handelskarte belohnt.
+
+Smart-Bombe = 2 Karten. Driicke den A-Knopf, um die Bombe
+explodieren zu lassen. Alle zu dem Zeitpunkt sichtbaren Gegner
+verwandeln sich daraufhin in Murmeln, die du aufsammeln kannst.
+Taucheranzug = 3 Karten. Driicke den A-Knopf einmal, um den
+Taucheranzug anzuziehen, und ein zweites Mal, um ihn wieder
+auszuziehen.
+
+Tragbares Loch = 5 Karten. Driickst du erneut den A-Knopf, dann hechte
+ich durch das Loch und lande wieder im Amazatorium.
+
+T-Shirt = 10 Karten. Damit kannst du dir ein zusatzliches Leben kaufen.
+Hast du deine Geschafte im Geschenkeladen abgeschlossen, dann
+driicke START, um zum Amazatorium und deiner Reise zurlickzukehren!
+
+DreiBig Levels mit einer Bazillion tibler Baddies.
+
+Tip: Méchtest du deinen gegenwartigen Punktestand erfahren,
+dann driicke START, wahrend du dich im Amazatorium aufhaltst.
+
+===== Page 21 =====
+
+El Objetivo Final del Juego
+
+Para poder decir que has ganado tienes que llegar hasta donde esta
+Oinker P. Hamm, y derrotarle. ,Y qué tienes que hacer para localizar a
+Oinker? Pues viajar a través de todos los niveles del viaje que
+selecciones en el Amazatorium, SIN OLVIDARTE DE TOCAR LAS SENALES DE
+FIN DE NIVEL (grandes canicas de color rojo) en cada uno de los mundos
+recorridos. Después de completar todos los niveles, se abrira la puerta
+que te llevara hasta Oinker.
+
+jMas cosas importantes!
+
+El Amazatorium tiene tres pisos y dos alas: la del Este (East) y la del
+Oeste (West). Seguin la que elijas recorreras diferentes secciones, porque
+asi son las alas, cada una con sus propios peligros. Técnicamente
+hablando: ‘Es como tener dos Amazatoriums en uno’. Pero antes de
+elegir ala hay que decidir el viaje. El numero de niveles varia segun el
+tipo escogido y la dificultad va en aumento: el ‘First Floor Tour’ (Tour del
+Primer Piso) es el mas sencillo, luego la cosa se va complicando hasta
+llegar al Gran Tour, el mas largo y dificil de todos.
+
+CONTROLES
+
+Controles de Bubsy
+
+A Boton L Boton R
+
+Me hace mirar Miro a la izquierda y veo una Miro ala
+
+hacia arriba, vista general del mundo de turno. derecha y veo
+activar una vista general
+transportadores, del mundo de
+entrar en cuevas firsts v eatita turno.
+
+magicas, o oe Boton A
+
+accionar Me permite usar
+interruptores. Noo; el objeto
+
+v SELECT START seleccionado.
+
+Miro hacia abajo.
+
+Boton X
+<o> Selecciona un Boton B
+Corro sobre terreno objeto diferente, Me hace saltar.
+firme o planeo en el listo para ser Cuanto mas rato lo
+aire, enladireccién que __utilizado. pulses, mas alto el
+pulses. Cuanto mas Boton Y salto. Si ademas
+rato pulses, mas me Para descender pulsas </> me muevo
+acelero.. planeando SIN en el aire.
+START SUSTOS.
+
+Pausa el juego.
+
+===== Page 22 =====
+
+Consejo: Para obtener tu ‘parte del ledn’ en el Mundo Egipcio,
+busca los interruptores ocultos y pulsa s. Los interruptores de
+otros mundos tienen aspecto de... INTERRUPTORES, curiosamente
+(A que no os lo esperabais?).
+
+Controles de Biplano y Cohete
+
+Bottn LoR
+Me hace virar el biplano.
+
+Boton A
+
+Me permite
+usar el objeto
+seleccionado.
+
+A
+Me ayuda a poeaiog
+
+volar mas alto.
+PD
+
+‘SELECT START
+
+Vv
+
+Me ayuda a Boton X
+volar mas bajo. Selecciona un Boton B
+objeto diferente, :
+listo para ser fe Ueee para
+<orp uillAge neumaticos.
+Corro sobre terreno firme z
+oplaneo enelaire,enla Beton ¥
+direccién que pulses. Pulsalo para START
+Cuanto mas rato pulses, dispararelNeft® — Pausa el juego.
+mas me acelero. Ballzooka™.
+
+START
+Pausa el juego.
+
+Advertencia: En ‘Two-Player Feisty Games’ (Partidas Refiidas
+de Dos Jugadores), cuidado con los platanos agresivos. Si te
+sacuden con uno en ‘Air Wars’ (Guerras Aéreas) 0 ‘Space
+Pirates’ (Piratas del Espacio), tu biplano o cohete ira a la deriva
+durante un rato.
+
+===== Page 23 =====
+
+Otros Controles (para Todos los Mundos)
+
+‘Two-Player Friendly Game’
+(Partida Amistosa de Dos Jugadores)
+
+Pulsa el Botén B para que el Gemelo le tire platanos al enemigo.
+
+‘Two-Player Feisty Game’ (Partida Renida de Dos Jugadores)
+
+Pulsa el Botén B y el Gemelo dejara caer platanos para hacerme resbalar.
+
+Otros Controles — Mini Juegos
+
+‘Frogapult' (Ranapulta) — Pulsa </> para llevarme a las zonas inferior o
+superior de la pantalla. Dispara pulsando cualquier botén. Usa el Control
+Pad para mover a la rana hacia su blanco.
+
+‘Armadillo Drop’ (El Descenso del Armadillo) — Usa el Control Pad para poner a
+salvo a Arnold en la plataforma. Hay montones de chismes la mar de
+utiles, Medias Burbujas que abren puertas y ‘rebotadores’ que reparten
+‘reforzadores’. Si te sobra tiempo en este juego, consigues increibles
+super puntos.
+
+Consejo: Cuidado con los neumaticos. Un mal giro y Arnold
+quedara hecho un parche. Y tu te quedas sin el bonus de
+tiempo, claro esta.
+
+‘Liquid Lunacy’ (Locura Liquida) — Hay reforzadores varios y cosas
+maravillosas, pero ninguna tan maravillosa como la Super Canica,
+canjeable por nada mas y nada menos que DIEZ TRADING CARDS
+(VALES). Ah, por cierto, no me dejes caer en uno de esos pequefios
+remolinos.
+
+OPCIONES
+
+Magnificos Tours del Amazatorium
+
+Un viaje como es debido hay que prepararlo bien. Empezaré por
+informaros sobre nuestra gran seleccién de emocionantes y divertidos
+recorridos...
+
+‘First Floor Tour’ (Tour del Primer Piso)
+
+Date una vueltilla por los primeros niveles de los mundos de ‘Egypt’,
+‘Music’ y ‘Aerial’ (Egipcio, Musical y Aéreo), para acabar discutiendo el
+destino del planeta con Oinker.
+
+===== Page 24 =====
+
+‘Second Floor Tour’ (Tour del Segundo Piso)
+
+Viajaras por los cinco mundos. Atencién al segundo piso, ahi es donde
+las cosas se ponen feas.
+
+‘Third Floor Tour’ (Tour del Tercer Piso)
+
+Me voy derechito al ultimo piso del Amazatorium, que esta plagado de
+feroces matones al servicio de un ‘boss’ furibundo. ;Quiero cancelar el
+viaje gpuedo?!
+
+Recuerda, sea cual sea el tour, hazme TOCAR LA SENAL DE FIN DE NIVEL
+(gran canica roja) de cada mundo para poder llegar hasta Oinker.
+Cuando acabes el tour por el ala Este, prueba con la Oeste, a ver si
+notas la diferencia.
+
+"Grand Tour’ (Gran Tour)
+
+EI Gran Tour es el mas dificil. Pasa por los tres pisos de cada mundo:
+Egipcio, Musical, Espacial, Medieval y Aéreo, ademas de incluir una version
+ampliada de los niveles segundo y tercero, lo que suma un total de {15
+estupendos niveles! Para pasar de un piso a otro, debo TOCAR LA SENAL
+DE FIN DE NIVEL de cada mundo y enfrentarme al jefe de turno. Cuando
+haya completado los tres pisos, habra llegado el momento del reto
+supremo contra Oinker.
+
+Advertencia: En todos los tours, excepto en el del Primer Piso,
+algunos de los secuaces de Oinker aguantaran varios golpes
+antes de dedicarse a otra cosa. jAh! Y vigila la puerta del ‘boss’
+cuando hayas completado todos los niveles. (La puerta del
+‘poss’ del Gran Tour abre paso a todas las secciones del
+Amazatorium antes de llegar al destino FINAL).
+
+Excursion Individual o Tarifa de Grupo... a elegir
+
+‘One-Player’ (Un Jugador)
+
+Solo como la una, me enfrentaré a los peligros del Amazatorium. Solo
+como la una, emprenderé el viaje para encontrar a mis sobrinos
+perdidos. Solo como la una, me las veré con un corral de animales locos
+
+de atar...
+
+===== Page 25 =====
+
+Two-Player Friendly (Dos Jugadores, Juego Amistoso)
+
+Turnaros para ayudarme a derrotar a las desmadradas criaturas de
+Oinker. Cuando tu colega me esté controlando, tu controlas a uno de los
+gemelos y colaboras recogiendo cosas utiles y tirando platanos contra el
+enemigo. Busca los interruptores que cierran fosos o desactivan
+trampas, para ponérselo mas facil a tu amigo (aparece un ‘2’ al activar
+un interruptor si éste va a afectar al segundo jugador). Un nivel se da por
+hecho cuando uno de los jugadores alcanza la sefal de fin de nivel. La
+puntuacion final es la suma de los esfuerzos de ambos.
+
+‘Two-Player Feisty’ (Dos Jugadores, Juego Renido)
+
+También aqui os turnais para ayudarme a derrotar a las bestezuelas de
+corral de Oinker, pero en este caso cuando el segundo jugador me
+controla a mi, el primero controla a uno de los gemelos y le hace tirarme
+platanos para que dé patinazos. Cuidado con la Bomba Smart: si
+alcanza al ‘Jugador Gemelo’, el efecto sera APLASTANTE. (Lo
+adivinaste... jse acabaron los platanos por una temporada!) Busca los
+interruptores que abren fosos y accionan trampas, para hacerle el
+avance dificil al otro jugador. De jugador ‘refido’, vas en plan individual
+para completar niveles y llegar hasta Oinker. Las puntuaciones de
+ambos jugadores aparecen al final.
+
+Mini-Juegos para Uno y Dos Jugadores
+
+Para jugar sdlo la serie de Mini-Juegos, con o sin compahnia: ‘Frogapult’
+(Ranapulta ), ‘Armadillo Drop’ (El Descenso del Armadillo), y ‘Liquid
+Lunacy’ (Locura Liquida).
+
+Nota: cuando ambos jugadores se hayan quedado sin vidas, se
+acabé el tour. (No hay devoluciones, Santa Rita Rita Rita lo que
+se da no se quita.)
+
+Recomendaciones
+
+Al entrar en el Amazatorium veras que junto a las entradas de estos
+extraordinarios mundos hay un pad transportador. Colocame ahi
+pulsando </> para hacerme entrar. Luego pulsas B y ‘Bon voyage,
+Bubsy.’
+
+===== Page 26 =====
+
+La Tienda de Regalos del Amazatorium
+
+Al completar un nivel, puedes usar tus Trading Cards (Vales) para
+comprar y vender los juguetes adquiridos en el viaje. Pulsa / para
+seleccionar el objeto en cuestién. Pulsa < para comprar y » para vender.
+Estas son las ‘tarifas de cambio’ de los siguientes objetos:
+
+Nerf® Ballzooka™ = 1 vale. Pulsa el Boton A para disparar Bolas Nerf®
+contra los secuaces de Oinker. Los infortunados ‘heridos’ se convierten
+en un vale cada uno.
+
+Bomba ‘Smart’ = 2 vales. Pulsa el Botén A para detonarla. Todos los
+secuaces a la vista quedaran convertidos en canicas coleccionables.
+Traje de Buceo= 3 vales. Pulsa el Boton A una vez para ponérmelo y una
+segunda vez para quitarmelo.
+
+Agujero Portatil = 5 vales. Pulsa el Botén A otra vez y me zambullo en el
+agujero para regresar al Amazatorium.
+
+Camiseta = 10 vales. El precio de una vida extra.
+
+Cuando te canses de trapichear en la tienda, pulsa START para volver al
+Amazatorium y demas atracciones del tour.
+
+Consejo: Pulsa START estando en el Amazatorium si quieres ver
+la puntuacién del momento.
+
+===== Page 27 =====
+
+Scopo Assolutamente Definitivo del Gioco
+
+Per completare il gioco in modo vincente, devi raggiungere e poi
+sconfiggere Oinker P. Hamm. Per localizzare Oinker, devi viaggiare
+attraverso tutti i livelli del giro selezionato nell’Amazatorium,
+ACCERTANDOTI DI TOCCARE | SEGNALATORI DI FINE LIVELLO (grosse biglie
+rosse) in ognuno dei mondi. Quando hai completato tutti i livelli, si apre la
+porta che conduce ad Oinker.
+
+Anche questo é importante!
+
+L’Amazatorium é composto da tre piani e due ali - quella Est e quella
+Ovest. Scegliendo una delle ali, si determina la sezione in cui
+avventurarsi. Ogni ala é diversa e dotata delle sue proprie sfide. Per dirla
+in termine tecnico, “E’ come avere due-due-Due Amazatorium in Uno.”
+Prima di effettuare la crucialissima scelta dell’ala, pero, devi scegliere un
+giro. Il numero dei livelli dipende dal tipo di giro prescelto. Ogni giro
+aumenta di difficolta, da quella pil. benevola del Giro del Primo Piano, a
+quella pit: lunga e pit dura del cosiddetto Grand Tour.
+
+CONTROLLI
+Controlli di Bubsy
+- Pulsante L
+Guardo in su, peas an ;
+i Mi fa guardare a sinistra e illustra Pulsante R
+attivo un trasporto : Mif d
+0 entro in una una visuale allargata del mondo. d | ' cart ae a
+estra e illustra
+caverna :
+transdimensionale enlace
+0 aziono un _L Button R Button gata
+interruttore mondo.
+; Pulsante A
+v O°? Mi fa usare
+Guardo in git. Ley ony l'oggetto
+selezionato.
+<our Pulsante X
+Corro sul terreno o mi libro Cambia l’oggetto Bouton B e
+in aria nella direzione che _selezionato che Mi fa saltare. Piu
+premi. Pil premi a lungo, devo usare. premi, piu salto in alto.
+piu accelero. Premi con 6</> per
+Pulsante Y am a as anee
+START (AVVIO) ; Mi fa librare
+Sospende il gioco. quando devo
+scendere con
+SICUREZZA
+dall’alto.me faire
+mal.
+
+===== Page 28 =====
+
+Suggerimento: Per aprire le porte “leonine” nel Mondo Egizio,
+cerca gli interruttori nascosti e premi s. Gli interruttori negli altri
+mondi hanno I’aspetto di, beh, INTERRUTTORI. (Se continua cosi,
+dovremo operarci al cervello, GESU’!)
+
+Controlli del Razzo e del Biplano
+
+Pulsante Lo R
+Mi fa virare il biplano.
+
+Pulsante A
+
+A
+Mi fa volare piu een BIBston Mi consente di
+alto. x usare l’oggetto
+rs A selezionato.
+20\
+SELECT START B
+v
+Mi fa volare pit Pulsante X
+basso. Cambia l’oggetto Paleantaié
+selezionato che :
+devo usare. Premilo an
+sganciare le
+<erp Pulsante Y Sone:
+Corro sul terreno o mi Premilo per
+libro in aria nella sparare il Net
+direzione che premi. Pit, Ballzooka™. START
+premi a lungo, piu Sospende il
+accelero.up. gioco.
+
+START
+Sospende il gioco.
+
+Suggerimento: Nei giochi competitivi a due, stai attento ai colpi
+di banana. Se ne becchi uno mentre sei nelle Guerre Aeree o in
+Pirati dello Spazio, il tuo biplano o razzo impazzisce
+
+temporaneamente.
+
+===== Page 29 =====
+
+Altri Controlli - Tutti i Mondi
+
+Partita Amichevole a Due - Premi il Pulsante B per fare in modo che i Gemelli
+tirino banane ai nemici.
+
+Partita Competitiva a Due - Premi il Pulsante B. | Gemelli mi tirano le banane
+sperando che ci scivoli sopra.
+
+Altri Controlli - Mini Giochi
+
+Frogapult - Premi a/v per mandarmi in alto o in basso sullo schermo.
+Premi un pulsante qualunque per sparare. Usa il Tastierino di Controllo per
+mandare la rana verso il bersaglio.
+
+Armadillo Drop — Usa le ventole (Tastierino di Controllo) per guidare Arnold
+verso la sicurezza del fondo del camion. Vedi se riesci a scorgere
+aggeggi utili; le Mezze Bolle aprono le porte e i Bouncers (Rimbalzelli)
+danno una spinta extra. Se riesci a battere l’orologio in questo gioco,
+ottieni mega punti premio.
+
+Suggerimento: Stai attento alle gomme. Una mossa sbagliata e
+Arnold diventa una gomma ricoperta. Ed é garantita la perdita
+del tempo premio.
+
+Liquid Lunacy (Follia Liquida) —- Quando cerchi ogni sorta di oggetti ed
+energizzanti meravigliosi. Il piu emozionante di questi é la Super Biglia,
+che vale un colossale DIECI CARTE DI SCAMBIO. Ah si, assicurati di
+farmi evitare quei piccoli, insignificanti vortici.
+
+OPZIONI
+
+Gli Imponenti Giri dell'Amazatorium
+
+Per fare un buon viaggio, ci vuole un po’ di programmazione. Quindi,
+incomincio col presentare la nostra incredibile serie di giri divertenti ed
+emozionanti ...
+
+Giro del Primo Piano
+
+Fai una visitina “Easy” (Facile) ai primi livelli dei mondi dell'Egitto, della
+Musica e di quello Aereo, poi discuti i destini del mondo con Oinker.
+
+Giro del Secondo Piano
+
+Questo Giro comporta una visita a ciascuno dei tre mondi. Stai attento,
+perché le cose si fanno dure al secondo piano.
+
+27
+
+===== Page 30 =====
+
+Giro del Terzo Piano
+
+Questo giro mi porta direttamente all’ultimo piano dell’Amazatorium.
+Questo piano é zeppo di scagnozzi menacciuti e un caporione furibondo.
+Faccio ancora in tempo a cambiare prenotazione?
+
+Ricorda che qualunque giro scegli, io devo TOCCARE | SEGNALATORI DI
+FINE LIVELLO (grossa biglia rossa) in ognuno dei mondi prima che la porta
+che conduce ad Oinker si apra.
+
+Dopo aver completato il giro dell’Ala Est, prova I’Ala Ovest per fare una
+esperienza totalmente diversa.1I Grand Tour
+
+Il Grand Tour é il pit difficile. Esso comprende tutti i tre piani dei mondi
+dell’Egitto, della Musica e di quello Aereo, compresa una versione
+allargata dei livelli del primo e del secondo piano, vale a dire 15 favolosi
+livelli!. Prima di potermi spostare da un piano all’altro, devo TOCCARE IL
+SEGNALATORE DI FINE LIVELLO situato in ciascun mondo, e combattere con
+il caporione intermedio. Dopo aver completato tutti e tre i piani, affrontero
+la sfida finale battendomi con Oinker.
+
+Suggerimento: In tutti i giri, eccetto quello del Primo Piano, alcuni
+degli scagnozzi di Oinker devono essere colpiti diverse volte prima che
+decidano ad andarsene a pranzo. Inoltre, quando hai completato tutti i
+livelli del giro, stai attento a vedere la porta del capo. (Quella del Grand
+Tour ti porta attraverso tutte le sezioni dell’Amazatorium, prima di
+arrivare alla destinazione FINALE.)
+
+Escursioni Private o in Comitiva ... Decidi Tu
+
+Un Giocatore
+
+Solo soletto, affronterd i pericoli dell’Amazatorium. Solo soletto, andro a
+riprendere i miei nipoti erranti. Solo soletto, affrontero un’orda di animali
+da cortile indemoniati ...
+
+Amichevole a Due
+
+Fate a turno a lavorare con me per sconfiggere le pazze creature di
+Oinker. Quando il tuo amico si prende cura di me, tu prendi il controllo di
+uno dei Gemelli e aiuti raccogliendo tesori e tirando banane ai nemici.
+Cerca interruttori che chiudono fosse o spengono ostacoli, in modo da
+facilitare il passaggio al tuo amico (se un interruttore riguarda il secondo
+giocatore, vedrai un “2” quando lo accendi). Un livello si intende
+completato quando uno dei giocatori raggiunge il segnalatore di fine
+livello. Il punteggio al termine rappresenta il totale degli sforzi dei
+
+due giocatori.
+
+28
+
+===== Page 31 =====
+
+Competizione a Due
+
+Anche qui fate a turno a lavorare con me per sconfiggere le creature di
+Oinker, ma quando il secondo giocatore si prende cura di me, tu prendi il
+controllo di uno dei Gemelli e mi tiri le banane per farmi scivolare. Ma sta
+attento alla Bomba Intelligente: se questa colpisce il “Giocatore
+Gemello”, l’effetto € davvero PARALIZZANTE. (Si, non abbiamo piu
+banane ... almeno per un po’!) Cerca gli interruttori che aprono le fosse o
+accendono gli ostacoli, in modo che I’altro giocatore abbia un passaggio
+da incubo. Come giocatore Competitivo, operi individualmente per
+completare tutti i livelli e per arrivare ad Oinker. Al termine appaiono i
+punteggi di entrambi.
+
+Nota: Se tutti i partecipanti perdono le proprie vite, il giro
+TERMINA (OVER). (Niente rimborsi. Ogni biglietto venduto é
+irrevocabile. Buona giornata.)
+
+Mini Giochi a Uno o Due Giocatori
+
+Da solo, 0 con un amico, esegui soltanto la Serie di Mini Giochi:
+Frogapult, Armadillo Drop, e Liquid Lunacy.
+
+Consigli di Viaggio per il Giro
+
+Entrando nell’Amazatorium, noterai che davanti ad ogni mondo selvaggio
+e meraviglioso c’é una piattaforma da trasporto. Per entrare in ognuno
+dei mondi, premi </> per mettermi sulla piattaforma. Poi premi B e “Buon
+viaggio, Bubsy.”
+
+Il Negozio Regali dell'Amazatorium
+
+Come premio per il completamento di un livello, usa le tue Carte di
+Scambio per comprare e vendere gli aggeggi che ho raccolto nel
+percorso. Premi / per selezionare l’oggetto che vuoi comprare o vendere.
+Premi < per comprare. Premi » per vendere.
+
+ll ‘tasso di cambio” per gli oggetti seguenti é:
+
+Nerf® Ballzooka™ = 1 carta. Premi il Pulsante A per sparare Palle Nerf®
+agli scagnozzi di Oinker. Quelli che vengono colpiti diventano una carta
+di scambio per me.
+
+Bomba Intelligente = 2 carte. Premi il Pulsante A per far scoppiare la
+bomba. Ogni scagnozzo di Oinker visibile verra tramutato in biglie
+
+da raccogliere.
+
+===== Page 32 =====
+
+Muta da Sub = 3 carte. Premi il Pulsante A una volta per indossare la muta
+e una seconda volta per toglierla.
+
+Buca Portatile = 5 carte. Premi il Pulsante A di nuovo e mi tufferd nella
+buca ritornando all’Amazatorium.
+
+Maglietta = 10 carte. Con questa ottieni una vita supplementare.
+
+Quando hai finito di mercanteggiare nel negozio dei regali, premi START
+per tornare all’Amazatorium e al resto del giro!
+
+Suggerimento: Se vuoi sapere il tuo punteggio attuale, premi
+START mentre sei nell’Amazatorium .
+
+===== Page 33 =====
+
+Het absolute uiteindelijke doel van het spel
+
+Om het spel als winnaar te beéindigen moet je Oinker P. Hamm zien te
+bereiken en weten te verslaan. Om Oinker te vinden reis je door alle
+levels van de verkozen tocht in het Amazatorium; ZORG ERVOOR DAT JE DE
+TEKENS DIE HET EINDE VAN HET LEVEL AANGEVEN (grote rode knikkers) in
+elke wereld AANRAAKT. Als alle levels voltooid zijn, gaat de boss deur,
+die je naar Oinker leidt, voor je open.
+
+Dit is ook belangrijk!
+
+Het Amazatorium heeft drie verdiepingen en twee vieugels — oost en
+west. Welke vieugel je kiest zal bepalen door welke secties je je zult
+begeven. Elke vieugel is weer anders, met zijn eigen uitdagingen. Om
+het maar even technisch uit te drukken: “Het zijn 2-2-2 Amazatoriums in
+1.” Voordat je die belangrijke vieugelkeus maakt moet je eerst een tocht
+kiezen. Het aantal levels dat je in het Amazatorium te zien krijgt hangt af
+van welke tocht je kiest. De tochten worden steeds ingewikkelder, van de
+‘First Floor Tour’ (Tocht van de Eerste Verdieping), die het makkelijkst is,
+tot de ‘Grand Tour’ (Gigantische Tocht) die het langst en het moeilijkst is.
+
+CONTROLE-KNOPPEN
+Bubsy controle-knoppen
+
+A
+
+" L knop
+Ik kijk naar boven, ie :
+activent, can V2") Zo kijk ik naar links met een R knop
+
+/, uitgebreid uitzicht over de wereld. 2° kijk ik naar
+transportermachin U!'9 rechts met een
+
+e, ga een warp- uitgebreid
+
+ee eae eel uitzicht over de
+
+wereld.
+A knop
+v Hiermee kan ik
+Ik kijk naar het gekozen
+beneden. voorwerp
+gebruiken.
+< of > X knop
+Ik ren over de grond of Biedt de B knop
+
+zweef door de lucht in de mogelijkheid een Zo kan ik springen.
+richting van de pijl waar jij = ander voorwerp te Hoe langer je de knop
+
+op drukt. Hoe langer je de —_kiezen om te ingedrukt houdt, hoe
+pijl ingedrukt houdt, hoe gebruiken. hoger ik zal springen.
+sneller ik gaan zal. Y knop Houd deze samen met
+START Hienmnedikan 4k elt ee om ne
+
+hoge plek naar
+beneden zweven.
+
+===== Page 34 =====
+
+Hint: Om het “leeuwe”-deel van de deuren in ‘Egypt World’ (de
+wereld van Egypte) te kunnen openen moet je uitkijken naar
+verborgen schakelaars en op s drukken. Schakelaars in andere
+werelden zien er net zo uit als, nou eh, SCHAKELAARS natuurlijk.
+(Volgende fase is je hersens na laten kijken, niet te geloven, zeg!)
+
+Controle-knoppen voor de raket en de dubbeldekker
+
+L of R knop
+Hiermee kan ik naar links of naar
+rechts gaan in de dubbeldekker.
+
+A A knop
+
+Hiermee kan ik Lt Button Aibutton Hiermee kan ik
+
+hoger vliegen. het gekozen
+: voorwerp
+
+CO? gebruiken.
+SELECT START
+
+v
+
+Hiermee kan ik X knop B knop
+
+lager vliegen. Biedt de Druk hierop
+mogelijkheid een om banden
+ander voorwerp te laten
+te kiezen om te vallen.
+
+ae 3 t dof gebruiken.
+
+ren over de grond o Y knop
+
+zweef door de lucht in de ;
+
+richting van de pijl waar ji) Druk hierop om START
+
+op drukt. Hoe langer je de 4 Nerf s Stopt het spel.
+pijl ingedrukt houdt, hoe —-Ballzooka® af te
+
+sneller ik gaan zal. schieten.
+
+START
+Stopt het spel.
+
+Hint: In vijandige spelleties voor twee personen moet je
+oppassen voor de banana backlash. Als je er door één in ‘Air
+Wars’ (de luchtoorlogen) of bij ‘Space Pirates’ (de ruimtepiraten)
+geraakt wordt, zal je dubbeldekker of raket even helemaal uit z’n
+bol gaan.
+
+===== Page 35 =====
+
+Andere controle-knoppen - alle werelden
+
+"Friendly Two-Player Game’ (Vriendschappelijk spel voor twee) — Druk op de
+
+B knop om de tweeling bananen te laten gooien naar de vijanden.
+
+‘Feisty Two-Player Game’ (Vijandig spel voor twee) — Druk op de
+
+B knop. De tweeling gooit bananen naar mij in de hoop dat ik erop stap en
+uitglijd.
+
+Andere controle-knoppen - Mini Games
+
+‘Frogapult’ (Kikkerpult) — Druk op </> om me onder- of bovenaan het
+scherm te zetten. Druk op een knop om een stuntkikker af te schieten.
+Gebruik het controlepaneel om de kikker naar zijn doel te verplaatsen.
+‘Armadillo Drop’ (Armadillo kermisattractie) — Gebruik het controlepaneel om
+Arnold onderin de vrachtwagen in veiligheid te brengen. Houd je ogen
+open voor deze handige dingen; ‘Half Bubbles’ (de halve luchtbellen)
+kunnen deuren opendoen en ‘Bouncers’ (stuiteraars) geven je een extra
+zetje. Als je in dit spel de tijd weet te verslaan, krijg je superveel
+bonuspunten.
+
+Hint: Pas op voor banden. Eén verkeerde bocht en Arnold krijgt
+een nieuw bandloopvlak. En gegarandeerd dat je daar punten
+door verliest
+
+‘Liquid Lunacy’ (Vloeibare Waanzin) — Op zoek naar allerlei soorten prachtige
+voorwerpen en power-up bonuspunten. De allerspannendste is de ‘Super
+Marble’ (superknikker) die maar liefst TIEN ‘TRADING CARDS’
+(RUILKAARTEN) waard is. O ja, zorg er wel voor dat ik die kleine,
+nauwelijks noemenswaardige whirlpools vermijd.
+
+OPTIES
+
+Fantastische tochten door het Amazatorium
+
+Een mooie reis vergt een beetje planning. Dus ik stel je bij deze voor aan
+onze ongelofelijke selectie spannende amusante reizen ...
+
+First Floor Tour’ (Tocht van de Eerste Verdieping)
+
+Maak een “rustig” tochtje naar de eerste levels van ‘Egypt World’ (de wereld
+van Egypte), ‘Music World’ (de muziekwereld) en ‘Aerial World’ (de luchtwereld)
+en ga daarna met Oinker in discussie over het lot van de wereld.
+
+‘Second Floor Tour’ (Tocht van de Tweede Verdieping)
+
+Op deze tocht breng je een bezoek aan alle vijf de werelden. Pas op
+want het wordt moeilijker hier op de tweede verdieping.
+
+===== Page 36 =====
+
+‘Third Floor Tour’ (Tocht van de Derde Verdieping)
+
+Deze tocht brengt me gelijk naar de bovenste verdieping van het
+Amazatorium. De verdieping is vol met ruige kerels en een razende
+boss. Denk je dat ik mijn reservering nog kan veranderen?
+
+Vergeet niet dat ik, ongeacht welke tocht je kiest, in elke wereld HET
+TEKEN DAT HET EINDE VAN HET LEVEL (grote rode knikker) AANGEEFT moet
+AANRAKEN voordat de boss deur naar Oinker open gaat.
+
+Als je je tocht door de oostvieugel hebt voltooid, ga dan eens naar de
+westvleugel voor totaal andere belevenissen.
+
+‘Grand Tour’ (Gigantische Tocht)
+
+De ‘Grand Tour’ (gigantische tocht) is het moeilijkst. Deze beslaat alle
+drie de verdiepingen van ‘Egypt World’ (de wereld van Egypte), ‘Music World’ (de
+muziekwereld), ‘Space World’ (de ruimtewereld), ‘Medieval World’ (de wereld van
+de middeleeuwen) en ‘Aerial World’ (de luchtwereld), inclusief een
+uitgebreide versie van de levels van de eerste twee verdiepingen. Dat is
+niet minder dan 15 fantastische levels! Voordat ik van de ene verdieping
+naar de andere kan, moet ik HET EINDE-VAN-LEVEL TEKEN dat in elke wereld
+te vinden is AANRAKEN en het opnemen tegen de plaatselijke boss. Nadat
+ik alle drie de verdiepingen heb doorgewerkt, moet ik de uiteindelijke
+uitdaging onder ogen komen en de strijd aanbinden met Oinker.
+
+Hint: Tijdens alle tochten, behalve de ‘First Floor Tour’ (Tocht
+van de Eerste Verdieping) zullen een aantal van Oinker’s
+handlangers meer dan één mep kunnen incasseren voordat ze
+onderuit gaan. Als je eenmaal alle levels van de tocht hebt
+voltooid, let dan ook op de boss deur. (De boss deur van de
+‘Grand Tour’ (gigantische tocht) zal door alle delen van het
+Amazatorium leiden voordat je je eindbestemming bereikt).
+
+Privé excursie of groepsprijs ... je zegt het maar
+
+Eén speler
+
+Helemaal in m’n eentje zal ik de gevaren van het Amazatorium trotseren.
+Helemaal in m’n eentje zal ik op zoek gaan naar mijn verdwaalde neefje
+en nichtje. Helemaal in mijn eentje zal ik een kudde dolle boerderijdieren
+
+tegemoet gaan ...
+
+===== Page 37 =====
+
+‘Two-Player Friendly’ (veiendschappelijk spel voor twee)
+
+Probeer om de beurt met mij Oinker’s knettergekke beesten te verslaan.
+Als je maatje mij bestuurt, bestuur jij een van de tweelingen en help je
+mee door schatten te vinden en bananen naar de vijanden te gooien. Ga
+op zoek naar de schakelaars die valkuilen dichtmaken of gevaren
+uitschakelen, zodat het voor je maatje eenvoudiger wordt om er
+doorheen te komen (als een schakelaar voor de tweede speler bedoeld
+is, verschijnt er een “2” als je de schakelaar in werking stelt). Een level
+wordt als afgerond beschouwd als 6én van de twee spelers het teken
+voor einde van het level bereikt heeft. De score aan het einde van het
+spel is het totaal van beide spelers bij elkaar opgeteld.
+
+‘Two-Player Feisty (treiterspel voor twee)
+
+Je speelt nog steeds om de beurt met mij om de boerderijdieren van
+Oinker te verslaan, maar als de tweede speler mij bestuurt, neem jij een
+van de tweelingen onder je hoede en gooi je bananen naar mij om me uit
+te laten glijden. Let wel op de ‘Smart Bomb’ (slimme bom): als deze de
+“tweeling” raakt, dan is het effect werkelijk OVERWELDIGEND.
+(Inderdaad, de bananen zijn op ... voorlopig ten minste wel!) Ga op zoek
+naar de schakelaars die valkuilen openen of gevaren aanzetten, zodat
+het voor de andere speler moeilijker wordt zich er doorheen te werken.
+Als treiterende speler ga je als individu te werk om alle levels af te
+maken en Oinker te bereiken. Aan het eind worden de scores van beide
+partijen vertoond.
+
+Denk eraan: als iedereen die speelt al zijn of haar levens verloren
+heeft, is de tocht OVER. (Geen geld terug. Tickets voor de reis
+kunnen niet ingewisseld worden. Een prettige dag verder.)
+
+Mini Games voor één en twee spelers
+
+Alleen, of met een kameraad, speel je alleen de mini game serie:
+‘Frogapult’ (Kikkerpult), ‘Armadillo Drop’ (Armadillo kermisattractie), en
+‘Liquid Lunacy’ (Vloeibare Waanzin).
+
+Reisvoorschriften voor de tocht
+
+Je zult merken, als we het Amazatorium binnengaan, dat er voor iedere
+geweldige wilde wereld een transporterplatform te vinden is. Om één van
+de werelden binnen te treden, moet je op </> drukken om me op het
+transporterplatform te plaatsen. Druk daarna op a en dan is het “Goede
+reis, Bubsy.”
+
+35
+
+===== Page 38 =====
+
+De geschenkenwinkel van het Amazatorium
+
+Bij wijze van bonus voor het voltooien van een level kun je je ‘Trading
+Cards’ (ruilkaarten) gebruiken om speelgoed dat ik tijdens het reizen heb
+verzameld te kopen of verkopen. Druk op / om het voorwerp dat je wil
+kopen of verkopen uit te kiezen. Druk op < om het te kopen. Druk op >
+om het te verkopen.
+
+De huidige “wisselkoers” voor de volgende voorwerpen is:
+
+Nerf’ Ballzooka? = 1 kaart. Druk op de A knop om de Nerf” ballen naar
+Oinker’s handlangers te schieten. Als je er eentje raakt verandert deze in
+een ‘trading card’ (ruilkaart) voor mij.
+
+‘Smart Bomb’ (slimme bom) = 2 kaarten. Druk op de A knop om de bom te
+laten ontploffen. Alle handlangers van Oinker die op dat moment
+zichtbaar zijn worden dan in knikkers veranderd die je weer kunt
+verzamelen.
+
+Duikpak = 3 kaarten. Druk eenmaal op de A knop om het duikpak aan te
+doen en dan nog een keer om het weer uit te doen.
+
+‘Portable Hole’ (draagbare gat) = 5 kaarten. Druk weer op de A knop, dan
+duik ik door het gat en kom weer aan bij het Amazatorium.
+
+T-shirt = 10 kaarten. Dit zal je een extra leven opleveren.
+
+Als je je zaakjes in de geschenkenwinkel hebt afgehandeld, druk dan op
+START om naar het Amazatorium en de rest van de tocht terug te keren!
+
+Hint: Druk op START als je in het Amazatorium bent en je wilt je
+huidige score weten.
+
+===== Page 39 =====
+
+
+
+===== Page 40 =====
+
+WV
+
+Arco An
+reLUUT WD
+
+DISTRIBUTED BY TELSTAR FUN & GAMES LTD.
+
+PROSPECT STUDIOS, BARNES HIGH STREET,
+
+LONDON SW13 9LE, UK.
+
+PRINTED IN JAPAN
+IMPRIME AU JAPON

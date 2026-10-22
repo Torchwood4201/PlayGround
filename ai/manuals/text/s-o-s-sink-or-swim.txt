@@ -1,0 +1,1427 @@
+# S.O.S - Sink or Swim
+source: https://archive.org/details/snes_manual_archive
+pdf: S.O.S - Sink or Swim ( EU ).pdf
+region: EU
+pages: 40
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-9J-EUR |
+
+INSTRUCTION BOOKLET
+
+@,
+
+3
+
+===== Page 2 =====
+
+LICENSED BY
+
+Keep this information / Gardez ces informations / Diese Information aufbewahren
+Conservare queste informazioni / Guarde estas informes / Bewaar daze informatie
+Behall denna information / Behold denne information / Pida tama tieto
+
+C € (Nintendo) Nintendo of Europe GmbH : 63760 GroBostheim, Deutschland
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, AND et) ARE TRADEMARKS OF NINTENDO CO.,LTD.
+
+Original
+
+Seal of
+Quality
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT.ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO
+ENSURE COMPLETE COMPATIBILITY WITH.
+YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+(CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU'IL
+EST CONFORME AUX NORMES D’'EXCELLENCE
+EN MATIERE DE FABRICATION, DE FIABILITE ET
+‘SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIESES QUALITATSSIEGEL IST DIE GARANTIE
+DAFUR, DAB SIE NINTENDO-QUALITAT
+GEKAUFT HABEN. ACHTEN SIE DESHALB
+IMMER AUF DIESES SIEGEL, WENN SIE SPIELE
+ODER ZUBEHOR KAUFEN, DAMIT SIE SICHER.
+‘SIND, DAB ALLES EINWANDFRE! ZU IHREM
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+PAST.
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO.
+QUESTO PRODOTTO. RICHIEDILO SEMPRE
+ALL'ACQUISTO Di GIOCHI ED ACCESSORI PER
+ASSICURARE LA COMPLETA COMPATIBILITA
+CON IL TUO SUPER NINTENDO.
+ENTERTAINMENT SYSTEM.
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA APROBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIEMPRE ESTE
+SELLO CUANDO COMPRES VIDEQJUEGOS Y
+ACCESORIOS PARA ASEGURARTE UNA
+COMPLETA COMPATIBILIDAD CON TU SUPER.
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO IS GECONTROLEERD EN DAT
+HET QUA CONSTRUCTIE, BETROUWBAARHEID
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+BIJ HET KOPEN VAN SPELLEN EN
+ACCESSOIRES ALTID OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+DENNA ETIKETT GARANTERAR ATT NINTENDO
+STAR FOR PRODUKTENS KVALITET.
+KONTROLLERA ATT ETIKETTEN FINNS PA SPEL
+OCH TILLBEHOR DU KOPER FOR ATT
+FORSAKRA DIG OM ATT DE AR KOMPATIBLA
+MED SUPER NINTEND ENTERTAINMENT
+SYSTEM.
+
+DETTE SEGL GARANTERER, AT NINTENDO HAR
+GODKENDT KVALITETEN AF DETTE PRODUKT.
+SE ALTID EFTER DETTE SEGL, NAR DU KOBER:
+SPIL OG TIBEHOR, SA DU ER SIKKER PA FULD
+KOMPATIBILITET MED DIT SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO ON
+HYVAKSYNYT TAMAN TUOTTEEN LAADUN.
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+SAAT VARMASTI SUPER NINTENDO
+ENTERTAINMENT SYSTEM YHTEENSOPIVIA
+TUOTTEITA.
+
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEUILLEZ LIRE ATTENTIVEMENT LA NOTICE "INFORMATIONS ET PRECAUTIONS
+D'EMPLOI" QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER _
+NINTENDO HARDWARE, WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+
+DURCH!
+
+ATTENZIONE : LEGG] ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+
+SYSTEM™ LE CASSETTE O GLI ACCESSORI.
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEOJUEGO O ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE BIJ DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO-
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR.
+
+ADVARSEL : LES FORBRUGERINFORMATIONEN OG H/EFTET MED SIKKERHEDSREGLER, DER
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM,
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISESTI LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA ee
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAl MUUN VAURSTEEN KAYTTOA,
+
+===== Page 3 =====
+
+Table of contents
+
+NG SION HAS. Aion oc rursseeree ses 3
+Game object. tee oh aan: 4
+COonnolsks a. eet ee 4
+Passwordst.3i 432). Baines ues 5
+Gontrolipanelis:..00.. 6
+Rescuing passengerS............::. ee ih
+
+The story
+
+The SS Lucifer, complete with its crew of dim-witted
+passengers, has been badly damaged by an iceberg off
+the coast of Greenland. When he hears the news on his
+small isolated Sea Rescue Station, Kevin immediately
+springs into action, climbing aboard his tiny submarine,
+which is equipped for this type of mission.
+
+===== Page 4 =====
+
+The passengers have gathered in the engine rooms in
+an attempt to escape from the fires raging all over the
+ship. Pistons have gone haywire and pipes have burst,
+spouting scalding steam everywhere... and - oh yes -
+there's the small matter of 70,000 gallons of ice-cold
+sea-water pouring in through the hull faster than the
+pumps can handle. Of course, Kevin could save his own
+skin, but he's not that kind of hero...
+
+Game object
+
+Through the escape hatches, the stupid passengers
+have taken refuge in the SS Lucifer's sealed holds.
+Although they are in a blind panic, they still have a
+strong survival instinct, and at every possible
+opportunity, they climb the ladders to get away from the
+rapidly-rising water. AS Kevin, you must quickly assess
+the situation in this part of the hold, and use all of your
+considerable abilities to help the passengers reach the
+escape hatch.
+
+Controls
+
+JoyPad
+Right: Move right
+Left: Move left
+Up: Climb up ladders or crawl along pipes
+
+if you're close enough
+
+===== Page 5 =====
+
+Down:
+
+Start :
+
+Start + Select :
+
+Button A:
+Button B:
+Button X:
+Button Y:
+
+Climb down ladders or down the pipes
+you're crawling along
+
+Pause
+
+Start again at the beginning of the
+level. Be careful! You lose a life each
+time.
+
+Drop a bomb
+Jump
+Release the dinghy
+
+Operate switches, collect available
+objects such as oxygen bottles, or,
+when Kevin is crawling along a pipe,
+seal the leaks and prevent escaping
+steam from burning the passengers.
+
+Password
+
+At the completion of each of the five levels, you will be
+given a password. You can use it the next time you play
+in order to start the game from where you left off. To
+enter a password at the beginning of the game, select
+"ENTER PASSWORD". The last code of the last level will
+be displayed automatically - press B. If you want to go to
+another level, move the cursor with the control pad, using
+Button B to select the characters from the grid displayed.
+To erase, use the reverse arrow symbol. When you have
+
+===== Page 6 =====
+
+completed your password, select the "END" symbol and
+press Button B.
+
+Control panel
+
+“or Foe
+
+: Time left before the bomb
+explodes.
+
+: Kevin's air reserve. It begins to
+
+: Number of lives left.
+
+: Number of passengers still to be
+
+: Number of passengers left on
+
+: Number of passengers saved.
+
+diminish as soon as he's in the
+water.
+
+rescued.
+
+screen.
+
+===== Page 7 =====
+
+Rescuing passengers
+
+The passengers that fall from platforms into the freezing
+water filling the hold become "Drowners". It is essential
+that they be rescued before they become "Angels" and
+leave this earthly plane for ever. They are unable to save
+themselves, so Kevin has to use one of two alternatives.
+
+Oxygen bottles: Conveniently placed throughout the SS
+Lucifer for exactly this type of emergency, the bottles
+may be dropped into the water once Kevin has smashed
+the glass (Button Y). The "Drowners" can then pick them
+up, and by releasing the pressure in the bottles, blast off
+to safety on the next level.
+
+Rescue dinghy: The dinghy appears when you press
+Button X. The swimmers nearby can then climb aboard
+and paddle to a safe place. Unfortunately there is only
+one dinghy per level!
+
+Please note: The number of passengers to be saved
+may be inferior to the number of passengers on the
+screen. This means that you can sacrifice a few, or else
+win a bonus by saving some extra. However, if you lose
+more passengers than your mission allows, you will have
+to start again at the beginning of the level.
+
+In this case, the game screen goes dark to warn you of
+your failure.
+
+Once all the passengers have left the level and are
+saved, Kevin can leave by his own safety exit. Press
+Button Y to move on to the next level.
+
+===== Page 8 =====
+
+off
+
+= ae
+
+In Game Features
+
+Bombs: Bombs are ideal for blasting
+crates and blowing open blocked doors. In
+other words, very useful for getting rid of
+anything that gets in your way!
+
+Burst steam pipes: Be careful not to get
+in the way of a jet of steam, it can melt
+anything. To avoid accidents, Kevin will
+have to climb onto the pipe (multi-
+directional lever to Up), crawl along and
+seal the pipe with a joint (Button Y).
+
+Switches: There are a number of objects
+which are operated by switch - for example
+hydraulic bridges, electro-magnets, super-
+springs and conveyer belts. To use these
+objects, position Kevin in front of the switch
+and press Button Y.
+
+Electro-magnets: They can be used to lift
+objects and move them around. Position
+them above the object you want, press
+Button Y and move the lever upwards to
+pick up the object, and down to drop it. You
+may also move the magnet left and right
+with the joypad.
+
+===== Page 9 =====
+
+AVERTISSEMENT SUR L'EPILEPSIE
+
+A lire avant toute utilisation d'un jeu vidéo
+par vous-méme ou votre enfant.
+
+Certaines personnes sont susceptibles de faire des crises d'épilepsie
+ou d'avoir des pertes de conscience 4 la vue de certains types de
+lumiéres clignotantes ou d'éléments fréquents dans notre
+environnement quotidien. Ces personnes s'exposent a des crises
+lorsqu'elles regardent certaines images télévisées ou lorsqu'elles jouent
+A certains jeux vidéo. Ces phénoménes peuvent apparaitre alors méme
+que le sujet n'a pas d'antécédent médical ou n'a jamais été confronté a
+une crise d'épilepsie.
+
+Si vous-méme ou un membre de votre famille avez déja présenté
+des symptémes liés a l'épilepsie (crise ou perte de conscience) en
+présence de stimulations lumineuses, veuillez consulter votre médecin
+avant toute utilisation.
+
+Nous conseillons aux parents d'étre attentifs a leurs enfants
+lorsqu'ils joucnt avec des jeux vidéo. Si vous-méme ou votre enfant
+présentez un des sympt6mes suivants : vertige, trouble de la vision,
+contraction des yeux ou des muscles, perte de conscience, trouble de
+l'orientation, mouvement involontaire ou convulsion, veuillez
+immédiatement cesser de jouer et consulter un médecin.
+
+PRECAUTIONS A PRENDRE DANS TOUS LES CAS
+POUR L'UTILISATION D'UN JEU VIDEO
+« Ne vous tenez pas trop prés de l'écran. Jouez a bonne distance
+
+de I'écran de télévision et aussi loin que le permet le cordon de
+raccordement.
+
+* Utilisez de préférence les jeux vidéo sur un écran de petite taille.
+¢ Evitez de jouer si vous étes fatigué ou si vous manquez de sommeil.
+« Assurez-vous que vous jouez dans une piéce bien éclairée.
+
+¢ En cours d'utilisation, faites des pauses de dix 4 quinze minutes
+toutes les heures.
+
+===== Page 10 =====
+
+Table des matieéres
+
+[ENISIONG. tee eect e ts 10
+BUP CUCU ee tra ad eee 11
+GontrOle et Pe Bees ae 11
+Mot Ge passenne nee ee 12
+Wableaudelbordi:. 2-6 ee 13
+Secourir les passagers...........:::00 14
+Objcts See ee ee 15
+
+L’histoire
+
+Le SS Lucifer, rempli d’'un nombre non négligeable de
+passagers stupides, a été gravement endommagé par un
+iceberg au large des cétes du Groenland. Apprenant la
+nouvelle depuis sa petite station de secours en mer,
+Kevin décide de passer a I’action et se rend sur le lieu du
+naufrage, a bord de son sous-marin de poche. Celui-ci
+est équipé pour ce type de mission.
+
+===== Page 11 =====
+
+Les passagers ont envahi les salles des machines pour
+échapper a l’incendie qui fait rage sur le bateau. Les
+pistons sont devenus fous et la tuyauterie a éclaté,
+relachant des jets de vapeur brdlante... et, ah oui, un
+dernier petit détail, 70 000 litres d’eau glacée se
+déversent inexorablement dans les soutes, si vite
+qu’aucune pompe ne pourra jamais en venir a bout. Bien
+str, Kevin pourrait se contenter de fuir mais il n’est pas
+du genre poltron...
+
+But du Jeu
+
+Les passagers, passablement stupides, se sont réfugiés
+dans les soutes scellées du SS Lucifer via les écoutilles
+de secours. Quoique aveuglés par la panique, ils sont
+dotés d’un fort instinct de survie et des qu’ils le pourront,
+ils essaieront de grimper aux échelles pour échapper a
+l'eau qui ne cesse de monter. Vous jouez le réle de Kevin
+et devrez rapidement comprendre la situation afin
+d’adopter une tactique utilisant tous les moyens mis a
+votre disposition et diriger les passagers vers une
+écoutille de secours.
+
+Controle
+
+Manette multidirectionnelle :
+
+Droite : pour aller a droite.
+Gauche: pour aller a gauche.
+Haut : pour monter aux échelles ou ramper
+
+le long des tuyaux, si vous en étes suffi-
+samment proche.
+
+===== Page 12 =====
+
+Bas:
+
+Start :
+
+Start + Select :
+
+Bouton A:
+Bouton B:
+Bouton X :
+
+Bouton Y :
+
+pour descendre des échelles ou pour
+descendre du tuyau sur lequel vous
+rampez.
+
+pause.
+
+pour recommencer au début du
+niveau. Attention, a chaque fois vous
+perdez une vie...
+
+pour déposer une bombe.
+pour sauter.
+pour libérer le canoé de sauvetage.
+
+pour manipuler les interrupteurs,
+prendre les objets disponibles comme
+les bouteilles d’oxygéne, ou bien,
+lorsque Kevin rampe sur un tuyau, en
+boucher les fissures et empécher la
+vapeur qui s’en échappe de brdler les
+passagers.
+
+Mot de passe
+
+Au début de chacun des cing niveaux, vous verrez
+apparaitre le mot de passe sur la banderole de l’avion.
+Pour inscrire votre mot de passe, sélectionnez “ENTER
+PASSWORD?” au début de la partie.
+
+Le dernier code du dernier niveau passé s’inscrira
+automatiquement ; appuyez alors sur B. Si vous désirez
+
+===== Page 13 =====
+
+atteindre un autre niveau, déplacez le curseur a l’aide de
+la manette multidirectionnelle pour sélectionner les lettres
+a l'aide du bouton B. Pour effacer les lettres, sélectionnez
+la fleche vers la gauche. Quand vous avez terminé,
+sélectionnez “END”, puis appuyez sur le bouton B.
+
+Tableau de bord
+
+alisha es Reed
+
+1: Temps restant avant que la bombe
+n’explose.
+
+___2: Réserve d’air de Kevin. Elle se
+mettra en marche dés qu’il sera
+dans l'eau.
+
+——3: Nombre de vies restantes.
+
+4: Nombre de passagers a sauver. —
+
+5: Nombre de passagers restants.
+
+6: Nombre de passagers sauvés.
+
+===== Page 14 =====
+
+Secourir les Passagers
+
+Pour protéger les passagers des innombrables piéges ou
+leur 6épargner la noyade, notre sauveteur dispose de :
+
+1) Bouteilles d’oxygéne : lorsqu'elles sont placées dans
+les boites de secours, Kevin devra briser la glace
+(bouton Y) pour que les passagers puissent les
+récupérer. Ils seront expédiés jusqu’au niveau suivant
+s'ils relachent la pression contenue dans les bouteilles.
+
+2) Canoé de secours : appuyez sur le bouton X pour voir
+apparaitre le canoé. Le nageur le plus proche pourra
+alors y monter et atteindre tranquillement un endroit
+sec. Malheureusement, il n’y a qu’un canoé par niveau !
+
+Note : Le nombre de passagers a sauver peut étre
+inférieur au nombre de passagers a l’écran. Cela signifie
+que vous pourrez en sacrifier quelques-uns, ou gagner
+un petit bonus si vous en sauvez davantage. Cependant,
+si vous perdiez plus de passagers que votre mission
+vous le permet, vous n’auriez plus qu’a recommencer au
+début du niveau.
+
+Dans ce cas, l’écran du jeu s’assombrit pour vous avertir
+de votre échec.
+
+Lorsque tous les passagers auront quitté le niveau et
+seront sauvés, Kevin n’aura plus qu’a se déplacer vers
+sa propre issue de secours. Appuyez sur le bouton Y
+pour qu’il se dirige vers le niveau suivant.
+
+===== Page 15 =====
+
+Objets
+
+Bombes : trés utiles pour détruire des
+caisses et forcer des portes bloquées.
+Bref, trés utiles pour se débarrasser de
+tout ce qui peut faire obstacle au
+sauvetage.
+
+Tuyaux crevés : attention a ne pas
+passer sous un jet de vapeur. II peut
+faire fondre n’importe qui. Pour éviter
+tout accident, Kevin devra monter sur le
+tuyau (manette multidirectionnelle vers
+le haut), ramper et le reboucher avec un
+joint (Bouton Y).
+
+Interrupteurs : ils permettent de
+manipuler un certain nombre d’objets,
+tels que des ponts hydrauliques, des
+aimants, des super-ressorts ainsi que
+des tapis roulants. Pour les utiliser,
+placez Kevin devant les interrupteurs et
+appuyez sur le bouton Y.
+
+Aimants : ils permettent de prendre des
+objets et de les relacher. Placez-les au-
+dessus de l'objet voulu, appuyez sur Y,
+puis dirigez la manette vers le haut pour
+le prendre, vers le bas pour le relacher,
+vers la gauche ou vers la droite pour le
+déplacer.
+
+===== Page 16 =====
+
+Inhalt
+
+Die Geschichte... .c..tense)-2- 16
+Spielziclee fo a ee 17
+Kontroligha. Shelia Ae
+| KennWOmties: ssicie deever ceases 18
+Splelblette-ce ee eae 5 19
+Rettung der Passagiere ............. 20
+Objekte. 2. eee. 21
+
+Die Geschichte
+
+Die SS Luzifer, an deren Bord eine beachtliche Anzahl
+von dummen Passagieren reist, wurde vor den Kisten
+von Grénland durch einen Eisberg schwer beschadigt.
+Als Kevin diese Nachricht auf seiner kleinen
+Rettungsstation auf hoher See erhalt, beschlieBt er
+einzugreifen und fahrt mit seinem Kleinst-U-Boot, das fur
+derartige Aufgaben ausgeriistet ist, zur Unfallstelle.
+
+===== Page 17 =====
+
+Die Passagiere strémen in den Maschinenraum um dem
+Feuer zu entkommen, das bereits auf dem ganzen Schiff
+witet. Die Kolben gehen durch und die Rohre platzen
+unter dem Druck des heiBen Dampfes... und, nun ja, ein
+letztes Detail, 70 000 Liter eiskalten Wassers ergieBen
+sich unaufhaltbar in die Bunker, und zwar so rasch, dais
+keine Pumpe je diesen Strom bewaltigen kénnte.
+Selbstverstandlich kénnte Kevin fliehen, doch das ist
+ganz und gar nicht seine Art...
+
+Spielziel
+
+Die besonders dummen Passagiere sind durch die
+Notluken in die versiegelten Bunker des SS Lucifer
+gefllichtet. Trotz ihrer Panik besitzen sie einen soliden
+Selbsterhaltungstrieb. Sobald es ihnen nur gelingt
+versuchen sie auf die Leitern zu klettern um dem standig
+ansteigenden Wasser zu entkommen. Sie schlupfen in
+die Rolle Kevins und miissen rasch Uber die Situation
+Uberblick gewinnen und mit allen Ihnen zur Verfiigung
+stehenden Mitteln eine Taktik zu entwickeln um die
+Passagiere zu einer Notluke zu lenken.
+
+Kontrolle
+
+STEUERKREUZ:
+
+RECHTS: um sich nach rechts zu bewegen.
+
+LINKS: um sich nach links zu bewegen.
+
+OBEN: Um auf die Leitern zu klettern oder entlang
+der Rohre zu kriechen, wenn Sie nahe
+genug sind.
+
+===== Page 18 =====
+
+UNTEN:
+
+Start:
+
+Start + Select :
+
+Knopf A:
+Knopf B:
+Knopf X:
+Knopf Y:
+
+Um die Leitern hinunterzuklettern oder
+von den Rohren, auf denen Sie
+kriechen, hinunter zu springen.
+
+Pause
+
+Um auf diesem Level noch einmal zu
+beginnen. Achtung, dabei verlieren Sie
+jedes Mal ein Leben.
+
+Zum Ablegen einer Bombe.
+
+Springen.
+
+Freigeben des Rettungsbootes.
+
+Zur Betatigung der Schalter, zum
+Aufnehmen von verfigbaren Objekten,
+wie den Sauerstoffflaschen, oder wenn
+Kevin auf einem Rohr kriecht, zum
+Verstopfen von Rissen und um zu
+
+verhindern, daB der austretende
+Dampf die Passagiere verbrennt.
+
+Kennwort
+
+Alle fiinf Levels, zuerst erscheint das Kennwort auf dem
+Spruchband des Flugzeugs. Um bei Beginn des Spieles
+Ihr Kennwort einzugeben, wahlen Sie “ENTER
+PASSWORD”.
+
+Der letzte Code des letzten iberwundenen Levels
+erscheint automatisch, driicken Sie B. Wenn Sie auf ein
+
+===== Page 19 =====
+
+anderes Level gelangen wollen, bewegen Sie den Kursor
+(Positionieranzeige) mit Hilfe des Steuerkreuzes und
+wahlen Sie dann die Buchstaben mit Hilfe des Knopfes
+B. Zum Léschen der Buchstaben benutzen Sie den Pfeil
+nach links. Wenn Sie fertig sind, wahlen Sie “END”, dann
+driicken Sie den Knopf B.
+
+Spielbrett
+
+eee Zeit bevor die Bombe
+
+explodiert
+
+2:Kevins Luftreserve. Setzt sich in
+Betrieb sobald er im Wasser ist.
+
+-—. 3: Anzahl Ubriger Leben
+
+4: Anzahl zu rettender Passagiere
+
+5:Anzahl Ubriger Passagiere
+
+6: Anzahl geretteter Passagiere
+
+===== Page 20 =====
+
+Rettung der Passagiere
+
+Um sie vor den zahllosen Fallen zu schitzen oder um
+ihnen das Ertrinken zu ersparen, verfigt unser Retter
+Uber:
+
+1) Sauerstoffflasche: Da sie sich in Notkasten befinden,
+muB Kevin die Scheibe zerschlagen (Knopf Y), damit
+die Passagiere die Sauerstoffflaschen nehmen
+kénnen. Durch Freigabe des Druckes dieser
+Flaschen werden sie in das nachste Level beférdert.
+
+2) Rettungsboot: Durch Driicken des Knopfes X
+erscheint das Rettungsboot, der Schwimmer, der
+dem Boot am nahesten ist kann es benutzen um in
+Ruhe einen trockenen Ort zu_ erreichen.
+Unglucklicherweise gibt es je Level nur ein
+Rettungsboot!
+
+Anmerkung: Die Anzahl der zu rettenden Passagiere
+kann geringer sein als die auf dem Bildschirm
+sichtbaren. Das bedeutet, daB Sie einige Passagiere
+opfern oder einen kleinen Bonus gewinnen missen, um
+mehr von ihnen retten zu k6nnen. Wenn Sie jedoch
+mehr Passagiere verlieren als Ihnen Ihre Mission
+gestattet, mussen Sie erneut am Anfang des Levels
+beginnen. In diesem Fall wird der Spielbildschirm dunkel
+um Ihnen Ihr Scheitern anzuzeigen.
+
+Sobald alle Passagiere das Level verlassen haben und
+gerettet wurden, braucht sich Kevin nur mehr zu seinem
+eigenen Notausgang zu begeben. Driicken Sie den
+Knopf Y damit er zum nachsten Level geht.
+
+===== Page 21 =====
+
+Objekte
+
+Bomben: Sehr nitzlich um Kisten zu
+zerstoren und  versperrte Turen
+aufzubrechen. Kurz gesagt sehr nitzlich um
+alles aus dem Weg zu schaffen, was Sie bei
+den Rettungsaktionen hindern kénnte.
+
+Geplatzte Rohre: Achten Sie darauf nicht
+unter einem Dampfstrahl durchzugehen. Er
+kann alles zum Schmelzen bringen. Um
+Unfalle zu vermeiden muB Kevin auf das
+Rohr klettern (Steuerkreuz nach oben),
+darauf weiterkriechen und es mit einer
+Dichtung verstopfen (Knopf Y).
+
+Schalter: Sie erlauben die Betatigung einer
+bestimmten Anzahl von Objekten, wie
+Hebebriicken, Magneten, Superschrauben
+sowie Rollsteige. Um sie zu benutzen ,
+stellen Sie Kevin vor die Schalter und
+drticken Sie Knopf Y.
+
+Magneten: Sie erlauben es Gegenstande
+zu fassen und sie wieder loszulassen.
+Bringen Sie sie Uber den gewtinschten
+Gegenstand, driicken Sie Y, bewegen Sie
+das Steuerkreuz nach oben um einen
+Gegenstand zu fassen, nach unten um es
+loszulassen, nach links oder rechts um ihn
+zu weiterzubewegen.
+
+===== Page 22 =====
+
+eauMIStONIA senses oe Pe ie te ck =. 22
+
+Objeto del Juego ..........e cece: 23
+COnUO eee tt ee ene ras, 23
+Passwordiiein iy, Se ae 24
+Tablero de instrumentos.................. 25
+Socorrer a los pasajeros ..............04. 26
+@blet0st ee 27
+
+La historia
+
+EI SS Lucifer, lleno de un numero importante de
+pasajeros estupidos, ha sido seriamente dafado por un
+iceberg a lo largo de las costas de Groenlandia.
+Habiendose enterado de esta noticia desde su pequefia
+estaci6n de socorro en mar, Kevin decide pasar a la
+accion y se dirige al lugar del naufragio a bordo de su
+submarino de bolsillo, equipado para este tipo de mision.
+
+===== Page 23 =====
+
+Los pasajeros han invadido las salas de las maquinas
+para escapar al incendio que causa estragos en el barco.
+Los pistones se han vuelto locos y la caneria ha
+explotado liberando chorros de vapor abrasador....y, ah
+si , un Ultimo pequefo detalle, 70,000 litros de agua
+helada se desbordan inexorablemente en las bodegas,
+tan rapido que ninguna bomba podria solucionar esta
+situacién. Por supuesto Kevin podria contentarse de huir
+pero él no pertenece a esta clase de hombres...
+
+Objeto del Juego
+
+Los pasajeros, bastante estupidos se han refugiado en
+las bodegas cerradas del SS Lucifer a través de las
+escotillas de socorro. Aunque ciegos por el panico, estan
+dotados de un fuerte instinto de sobrevivencia. Asi,
+apenas podran, trataran de trepar a las escaleras para
+escapar al agua que no cesa de subir. Usted desempena
+el papel de Kevin y debera rapidamente comprender la
+situacién con el fin de adoptar una tactica, utilizando
+todos los medios puestos a su disposicion, para dirigir a
+los pasajeros hacia una escotilla de socorro.
+
+Control
+
+CONTROL DIRECCIONAL
+DERECHA: Para ir a la derecha.
+IZQUIERDA : Para ir a la izquierda.
+ARRIBA : Para subir a las escaleras o trepar a lo
+
+largo de los tubos, si usted esta
+
+suficientemente cerca.
+
+===== Page 24 =====
+
+ABAJO :
+
+Start :
+
+Start + Select :
+
+Boton A:
+Boton B:
+Boton X :
+Boton Y:
+
+Para descender las escaleras o para
+descender del tubo sobre el cual usted
+trepa.
+
+Pausa.
+
+Para volver a empezar al comienzo
+del nivel. Cuidado, cada vez pierde
+una vida.
+
+Para depositar una bomba.
+Saltar.
+Liberar el bote de salvamento.
+
+Para manipular los interruptores,
+tomar los objetos disponibles como las
+botellas de oxigeno, 0, cuando Kevin
+trepa sobre un tubo, para tapar las
+fisuras de ese tubo e impedir al vapor
+que se escapa de quemar los
+pasajeros.
+
+Password
+
+Todos los cinco niveles, al principio, usted va a ver
+aparecer la contrasefa sobre la banderola del avion.
+Para inscribir su contrasefia, al comienzo del juego
+seleccione “ENTER PASSWORD”.
+EI ultimo cédigo del ultimo nivel pasado se inscribira
+automaticamente, pulse el boton B.
+
+===== Page 25 =====
+
+Si usted desea alcanzar otro nivel, desplaze el cursor
+con la ayuda del control direccional y enseguida
+seleccione las letras con la ayuda del boton B. Para
+borrar las letras seleccione la flecha hacia la izquierda.
+Cuando usted haya terminado, seleccione “END”, luego
+pulse el botén B.
+
+Tablero de Instrumentos
+
+sets ae
+ME Fl
+1 Tiempo restante antes que la
+
+bomba explote.
+
+—2 Reserva de aire de Kevin. Se
+pondra en marcha apenas se
+encuentre en el agua.
+
+___ 3 Numero de vidas restantes.
+
+4 Numero de pasajeros por salvar.—
+
+5 Numero de pasajeros restantes.
+
+6 Numero de pasajeros salvados.
+
+===== Page 26 =====
+
+;
+
+Socorrer a los pasajeros
+
+Para protegerlos de las innumerables trampas o para
+evitarles el ahogamiento, nuestro salvador dispone de :
+
+1) Botella de oxigeno : Colocada en cajas de
+salvamiento, Kevin debera quebrar el hielo (Botén Y)
+para que los pasajeros puedan recuperarlas.
+Liberando la presién contenida en las botellas, los
+pasajeros seran expedidos al nivel siguiente.
+
+2) Bote de salvamiento : Pulsando el botén X, el bote
+aparecera, el nadador mas cercano podra subir y
+llegar tranquilamente a un lugar seco.
+Desgraciadamente hay sdlo un bote por nivel.
+
+Nota : El numero de pasajeros por salvar puede ser
+inferior al numero de pasajeros que estan en la pantalla.
+Eso significa que usted podra sacrificar algunos, o ganar
+un pequeno bonus si usted salva mas de aquellos. Sin
+embargo, si usted pierde mas pasajeros que su mision le
+autoriza, solo tendra que volver a empezar al principio
+del nivel.
+
+En este caso la pantalla del juego se obscurece para
+sefarle su fracaso.
+
+Cuando todos los pasajeros hayan dejado el nivel y
+seran salvados, Kevin tendra sdlo que dirigirse hacia su
+propia salida de socorro. Pulse el boton Y para que se
+dirija hacia el nivel siguiente.
+
+===== Page 27 =====
+
+OBJETOS
+
+Bombas : Muy Utiles para destruir los
+cofres y forzar las puertas bloqueadas.
+Es decir muy utiles para quitar de en
+medio todo lo que pueda hacer obstaculo
+al salvamiento.
+
+Tubos reventados : Cuidado de no
+pasar bajo un chorro de vapor. Eso
+puede derretir a cualquiera.Para evitar
+cualquier accidente, Kevin debera subir
+sobre el tubo (control direccional hacia
+arriba), trepar y volver a tapar con una
+junta (Botén Y).
+
+Interruptores : Permiten manipular un
+cierto numero de objetos, tales como los
+puentes hidratlicos, imanes, super-
+resortes asi como pasillos rodantes. Para
+utilizarlos, coloque Kevin delante los
+interruptores y pulse el botén Y.
+
+Imanes : Permiten tomar objetos y
+liberarlos. Coloque encima del objeto
+deseado, pulse Y, luego dirija el control
+direccional hacia arriba para tomar un
+objeto, hacia abajo para liberarlo, hacia
+la izquierda o hacia la derecha para
+desplazarlo.
+
+===== Page 28 =====
+
+Indice
+
+ba StOragsaevaie bused ae male. nyte, 28
+SCOpodelidiOcO 29
+Controllonen cee 29
+PasSWOrds eens On ies 8 30
+laVvolasdibOndOss sxiaias eee 31
+Soccorrere i passeggeri................... 32
+Oggetti Sere ee ee 33
+
+La storia
+
+La nave SS Lucifer, con un carico importante di
+passeggeri stupidi, € stata gravemente danneggiata da
+un iceberg al largo delle coste della Groenlandia. Kevin
+apprende la notizia nella sua piccola stazione di soccorso
+marittimo, e decide di passare all’azione. Si reca sul
+luogo del naufragio a bordo del suo sottomarino
+tascabile, equipaggiato per questo tipo di missione.
+
+===== Page 29 =====
+
+| passeggeri hanno invaso le sale delle macchine per
+scampare all’incendio che divampa sul battello. | pistoni
+sono impazziti, e le tubazioni sono scoppiate facendo
+fuoriuscire dei getti di vapore bollente...e, certo, un
+piccolo dettaglio, 70.000 litri d’acqua ghiacciata si stanno
+riversando inesorabilmente nelle stive, con tale rapidita
+che nessuna pompa riuscira mai a domarla.
+Evidentemente Kevin potrebbe decidere di darsela a
+gambe, ma non é questo tipo d’uomo...
+
+Scopo del gioco
+
+| passeggeri, piuttosto stupidi, si sono rifugiati nelle stive
+ermetiche della SS Lucifer attraverso i boccaporti di
+sicurezza. Anche se il panico li paralizza, sono dotati
+comunque di un forte istinto di sopravvivenza. Cosi, non
+appena possono, cercano di arrampicarsi per le scale
+per sfuggire all’acqua che sale inesorabilmente. Voi
+prenderete il ruolo di Kevin e dovrete comprendere
+rapidamente la situazione per poter adottare una
+strategia ed utilizzare tutti i mezzi che sono a vostra
+disposizione per dirigere i passeggeri verso un
+boccaporto di soccorso.
+
+Controllo
+
+MANOPOLA MULTIDIREZIONALE
+DESTRA: per andare a destra.
+SINISTRA: per andare a sinistra.
+IN ALTO: per salire sulle scale o per strisciare
+
+lungo le tubazioni, se siete abbastanza vicino.
+
+===== Page 30 =====
+
+IN BASSO:
+
+Start :
+Start + Select :
+
+Pulsante A:
+Pulsante B:
+Pulsante X:
+Pulsante Y:
+
+per scendere le scale o per scendere
+dalla tubazione lungo la quale state
+strisciando.
+
+Pausa.
+
+Per riprendere all’inizio del livello.
+Badate ad ogni vita che perdete.
+
+Per deporre una bomba.
+Saltare.
+Liberare la scialuppa di salvataggio.
+
+Per manipolare gli interruttori,
+prendere oggetti disponibili come le
+bombole d’ossigeno 0, mentre Kevin
+striscia su una tubatura, otturarne le
+fessure ed impedire al vapore che ne
+fuoriesce, di ustionare i passeggeri.
+
+Password
+
+Per tutti i cinque livelli, vedrete apparire all’inizio, sullo
+striscione dell’aereo, la parola d’ordine. Per scrivere la
+vostra parola d’ordine all’inizio del gioco, selezionate
+“ENTER PASSWORD’.
+
+L’ultimo codice dell’ultimo livello passato si iscrivera
+automaticamente, indi premete su B. Se desiderate
+raggiungere un altro livello, spostate il cursore
+servendovi della manopola multidirezionale, quindi
+
+===== Page 31 =====
+
+selezionate le lettere servendovi del pulsante B. Per
+cancellare le lettere, selezionate la freccia verso sinistra.
+Una volta terminata l’azione, selezionate “END”, quindi
+premete sul pulsante B.
+
+BY SS COOFE
+
+G AemenD fi 4
+1: Tempo rimanente sino
+
+all’esplosione della bomba.
+
+i 2: Riserva d’aria di Kevin. Entra in
+funzione non appena Kevin é in
+acqua.
+
+i—— 3: Numero di vite rimanenti.
+
+4: Numero di passeggeri da salvare.—
+
+5: Numero di passeggeri rimanenti.
+
+6: Numero di passeggeri salvati.
+
+===== Page 32 =====
+
+Soccorrere i passeggeri
+
+Per proteggerli da innumerevoli trappole o evitare che
+anneghino, il nostro eroe dispone di:
+
+1) Bombola d’ossigeno. Sistemata in kit di salvataggio,
+Kevin dovra frantumarne il vetro (pulsante Y) perché i
+passeggeri possano impossessarsene. Rilasciando la
+pressione contenuta nelle bombole, esse saranno
+diramate al livello successivo.
+
+2) Scialuppa di salvataggio: premendo sul pulsante X,
+appare la scialuppa ed il natante pit vicino pud salirvi
+e raggiungere tranquillamente un posto all’asciutto.
+Purtroppo c’é una sola scialuppa per livello!
+
+Avvertenza: || numero dei passeggeri da salvare pud
+essere inferiore al numero dei passeggeri sullo schermo.
+Cio significa che potete sacrificarne alcuni o meritarvi un
+bonus se ne salvate un numero superiore. Se, invece,
+perdete un numero maggiore di passeggeri di quello
+consentito dalla vostra missione, non vi resta che
+ricominciare dall’inizio del livello. In questo caso, lo
+schermo del gioco si oscura per segnalarvi la vostra
+sconfitta.
+
+Una volta che tutti i passeggeri avranno lasciato il livello
+e saranno salvi, Kevin si dirigera a sua volta verso la
+propria uscita di sicurezza. Premete sul pulsante Y per
+indirizzarlo al livello successivo.
+
+===== Page 33 =====
+
+Oggetti
+
+Bombe: Sono utilissime per distruggere
+casse e forzare porte bloccate. In breve,
+sono utilissime per sbarazzarvi di tutto
+quanto puo ostacolare l’operazione di
+salvataggio.
+
+Tubature bucate: badate a non passare
+sotto un getto di vapore. Pud dissolvere
+chiunque. Per evitare anche il minimo
+incidente, Kevin dovra salire sul tubo
+(manopola multidirezionale verso l’alto),
+avvicinarvisi strisciando e otturarlo
+mediante un giunto (Pulsante Y).
+
+Interruttori: Consentono di manipolare
+un certo numero di oggetti come ponti
+idraulici, calamite, supermolle e scale
+mobili. Per utilizzarli, posizionate Kevin
+davanti agli interruttori e premete sul
+pulsante Y.
+
+Calamite: Permettono di afferrare e
+rilasciare vari oggetti. Mettetele al di
+sopra dell’oggetto desiderato, premete su
+Y, quindi dirigete la manopola verso l’alto
+per afferrare un oggetto, verso il basso
+per rilasciarlo, a sinistra o a destra per
+spostarlo.
+
+===== Page 34 =====
+
+Inhoud
+
+De geschiedenis..............cccccceeee: 34
+Doel van het spel............:cccceseeeee 35
+Controleissaintn eee ola 35
+Wachtwoords]-4ts8 seine 36
+Dashboardetss su isa 37
+Passagiers Redden.............0cccee 38
+Oggettiteie ses tare yy eR oe 39
+
+De geschiedenis
+
+De SS Lucifer, met aan boord een niet te verwaarlozen
+aantal domme passagiers, is ernstig beschadigd door
+een ijsberg voor de kust van Groenland. Wanneer Kevin
+op zijn kleine reddingsstation op zee het nieuws
+verneemt, besluit hij tot actie over te gaan. Hij begeeft
+zich naar de plaats van onheil met zijn
+zakonderzeebootje dat speciaal is uitgerust voor dit soort
+doeleinden.
+
+===== Page 35 =====
+
+De passagiers zijn de machinekamer binnengedrongen
+om de brand te ontviluchten die op het schip is
+uitgebroken. De zuigers zijn dolgeslagen en het
+buizenstelsel is gesprongen waardoor gloeiend hete
+stoom de lucht in spuit...en, oh ja, nog een klein detail,
+70 000 liter ijskoud water stroomt meedogenloos het
+ruim binnen, zo snel dat geen pomp er tegenop zou
+kunnen. Kevin zou natuurlijk gewoon kunnen viuchten,
+maar daar is hij het type niet naar...
+
+Doel van het spel
+
+De nogal domme passagiers hebben hun toevlucht
+gezocht in het verzegelde ruim van de SS Lucifer, via de
+nooddoorgangen. Ondanks hun paniektoestand, hebben
+ze een sterke overlevingsdrang. Zodra ze er de
+gelegenheid toe hebben, proberen ze dan ook de ladders
+op te klimmen om aan het stijgende water te ontsnappen.
+Jij speelt de rol van Kevin en je moet de situatie snel door
+hebben om een tactiek te volgen, met gebruik van alle
+middelen die tot je beschikking staan, om de passagiers
+naar een nooduitgang te kunnen leiden.
+
+Controle
+
+VIERPUNTSDRUKTOETS
+RECHTS : om naar rechts te gaan
+LINKS : om naar links te gaan
+
+OMHOOG: om de ladders te bestijgen of over
+de buizen te klimmen, als je daar bij
+kunt.
+
+===== Page 36 =====
+
+OMLAAG :
+
+Start :
+
+Knop A:
+Knop B:
+Knop X:
+Knop Y:
+
+Start + Select :
+
+om ladders af te dalen of van de
+buizen, waarover je kruipt, af te
+stappen.
+
+Pauze
+
+Om weer aan het begin van het
+niveau te beginnen. Pas op : iedere
+keer raak je een leven kwijt !
+
+Om een bom te plaatsen.
+
+Springen
+
+De reddingskano vrijmaken
+
+Om de schakelaars te bedienen,
+voorwerpen te pakken, zoals de
+zuurstofflessen, of, wanneer Kevin op
+een buis kruipt, om er de barst mee te
+dichten en te voorkomen dat de
+
+ontsnappende stoom de passagiers
+verbrandt.
+
+Wachtwoord
+
+Om de 5 niveaus verschijnt aan het begin een
+wachtwoord op het spandoek van het vliegtuig. Om jouw
+wachtwoord te noteren, moet je aan het begin van het
+spel “ENTER PASSWORD?” kiezen.
+
+De laatste code van het laatste niveau dat je hebt
+voltooid zal automatisch worden genoteerd, druk op B.
+
+===== Page 37 =====
+
+Wanneer je naar een ander niveau wilt, moet je de cursor
+verplaatsen met behulp van de vierpuntsdruktoets en de
+letters kiezen met knop B. Om de letters uit te wissen
+moet je de pijl omhoog kiezen. Wanneer je klaar bent,
+kies dan “END” en druk op knop B.
+
+Dashboard
+
+J dj
+
+| Lu €
+Cy. Tijd die over is voordat de bom
+ontploft.
+
+Resterend aantal levens.
+
+3. Luchtreserve van Kevin. Deze
+begint te dalen zodra hij in het
+water is.
+
+4. Aantal passagiers dat gered
+moet worden.
+
+5. Resterend aantal passagiers.
+
+6. Aantal geredde pasagiers.
+
+===== Page 38 =====
+
+Passagiers Redden
+
+Om deze te beschermen tegen de ontelbare gevaren of
+ze van de verdrinkingsdood te redden, beschikt onze
+redder over :
+
+1) Zuurstoffles : Deze staan achter glas dat Kevin met
+knop Y moet breken, zodat de passagiers ze kunnen
+pakken. Door de druk in de flessen te doen afnemen,
+worden zij naar het volgend niveau gestuurd.
+
+2) Reddingskano : De kano verschijnt door op knop X te
+drukken. De dichtstbijzijnde zwemmer kan erin
+klimmen en rustig naar het droge varen. Helaas is er
+maar 6én kano per niveau !
+
+Let op : Het aantal te redden passagiers kan lager zijn
+dan het aantal passagiers op het scherm. Dat betekent
+dat je er een paar kunt opofferen, of een kleine bonus
+kunt behalen door er meer te redden.
+
+Als je echter meer passagiers verliest dan je opdracht
+toelaat, moet je weer aan het begin van het niveau
+beginnen. In dat geval wordt het beeldscherm donker als
+teken van je mislukking.
+
+Wanneer alle passagiers het niveau hebben verlaten en
+gered zijn, hoeft Kevin zich alleen nog maar naar zijn
+eigen nooduitgang te begeven. Druk op knop Y om hem
+naar het volgende niveau te sturen.
+
+===== Page 39 =====
+
+90-DAY LIMITED WARRANTY
+
+Super Nintendo Entertainment System GAME PAKS
+
+TITUS Ltd. warrants that this Super Nintendo Game Pak (‘pak’) shall be free from defects in
+material and workmanship for a period of 90 days from the date of purchase. If a defect covered
+by this warranty occurs during this 90-day limited warranty period, TITUS Ltd. will repair or
+replace the defective pak, at its option, free of charge.
+
+To receive this warranty service, return the product, postage prepaid and insured for loss or
+damage, together with your sales slip or similar proof of purchase to:
+
+TITUS Ltd.
+United House North Road. London N7 9DP.
+Phone:071 700 2119
+
+Be sure to include your name, address and phone number, plus a brief description of the fault.
+Game Paks returned without proof of the date of purchase or after the 90-day warranty period,
+will, at TITUS’s option, be repaired or replaced at the service charge then in effect for out-of-
+warranty repair. (Repair done after acceptance of the quotation.) Payments must be made by
+cheque or money order, payable to TITUS Ltd.
+
+This warranty shall not apply if the Game Boy Game Pak has been damaged by negligence,
+accident, unreasonable use, modification, tampering or by other causes unrelated to defective
+materials or workmanship. This warranty does not interfere with your statutory rights.
+
+For all information on this Game Pak
+or other Super NES Game Paks, call the Nintendo “Hotline”
+at: (0703) 652 222.
+
+GARANTIE LIMITEE A 90 JOURS
+
+Super Nintendo Entertainment System GAME PAKS (Cartouches)
+
+Titus garantit cette cartouche Super Nintendo contre tout défaut de fabrication pendant
+une période de 90 jours a compter de la date d'achat. Si un défaut de fabrication
+apparait durant cette période, Titus remplacera ou réparera gratuitement la cartouche
+défectueuse. Pour profiter de cette garantie, retournez la cartouche accompagnée d'une
+Preuve d'achat a l'adresse suivante :
+
+TITUS
+28 ter, avenue de Versailles
+93220 GAGNY
+FRANCE
+
+Toute cartouche retournée aprés expiration de la garantie ou sans preuve d'achat sera
+Soit réparée soit remplacée par Titus a la charge du client.
+
+Cette garantie ne s'applique pas si la cartouche a été endommagée par négligence,
+usage abusif, accident, ou si elle a été modifiée par l'utilisateur.
+
+Pour toute information concernant cette cartouche vous pouvez appeler le (16 1) 43 32
+10 92.
+
+===== Page 40 =====
+
+© 1994 Titus
+
+DISTRIBUTED BY :
+
+ENS
+4
+
+Titus
+28 ter Avenue de Versailles
+93220 GAGNY
+FRANCE
+
+Titus Ltd.
+United House North Road.
+London N7 9DP.
+U.K.
+
+PRINTED IN JAPAN
+IMPRIME AU JAPON

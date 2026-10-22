@@ -1,0 +1,1445 @@
+# Kevin Keegan's Player Manager
+source: https://archive.org/details/snes_manual_archive
+pdf: Kevin Keegan's Player Manager ( EU ).pdf
+region: EU
+pages: 40
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+INSTRUCTION
+BOOKLET
+
+LICENSED TO
+
+Imagineer
+
+a PAL VERSION
+
+===== Page 2 =====
+
+WARNING: PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND
+PRECAUTIONS BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING
+YOUR NINTENDO ® HARDWARE SYSTEM, GAME PAK OR ACCESSORY.
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE
+
+Original QUALITY OF THIS PRODUCT. ALWAYS
+(Nintendo) \p LOOK FOR THIS SEAL WHEN BUYING
+Seal at GAMES AND ACCESSORIES TO
+
+ENSURE COMPLETE COMPATIBILITY
+WITH YOUR SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+Quality
+
+™
+
+= N (EO) © 1993 ANCO GAMES
+
+LICENSED BY
+
+Hy . NINTENDO ® , SUPER NINTENDO ENTERTAINMENT SYSTEM™ , THE NINTENDO PRODUCT
+Nintendo SEALS AND OTHER MARKS DESIGNATED AS "TM" ARE TRADEMARKS OF NINTENDO.
+
+===== Page 3 =====
+
+1.0 INTRODUCTION:
+
+Mariage?
+
+Player Manager uses a specially modified version of KICK OFF to test
+Managerial decisions where it counts, on the pitch. End to end action
+tests your playing and Managerial skills to the limit. Playing on the
+pitch, as you control the nearest player to the ball, your skill and
+experience as a controller can be an immense advantage but not for
+long. A handicap system ensures that the long term rewards are not
+only based on your skill as a KICK OFF player but require managerial
+skills in equal measure.
+
+A manager must continually strengthen his squad. A lively transfer
+market ensures that you have ample opportunity to do so. You must
+keep a strict eye on your finances as failure to do so may mean
+dismissal. Success on the field is rewarded with an increase in gate
+revenue, perhaps sponsorship or T.V. coverage. This in turn raises
+team morale and generates funds for strengthening the squad.
+Prolonged failure on the pitch can result in transfer requests, falling
+gates etc. and eventually the sack.
+
+===== Page 4 =====
+
+2.0 SYNOPSIS:
+
+There are three divisions in the league with 16 teams in each
+division. Two teams are relegated and two teams are promoted.
+There are also 2 Cup Competitions. Player Manager is played in
+REAL TIME. The managers of the remaining 47 clubs are playing
+games, buying and selling players and seeking success. For
+instance a player on the transfer market may be snapped up by
+another Manager if you hesitate. If you bid for a player, you may face
+counter bidding from other managers.
+
+At the heart of the game is the squad and how you handle it. Some
+pointers for possible success are given below.
+
+2.1 Keep a keen eye on the attributes and skills of each player. As
+they gain experience, the skills change and it is worth while
+experimenting with the positions in which you play certain players.
+
+2.2 Study the tactics you adopt and see if you have suitable players.
+For example, if you use tactics depending on fast wing attack, have
+you a player with pace and good passing ability? If not, either
+change the tactics or buy a new player.
+
+2.3 Promising young players are on the market and they are
+relatively cheap. If you buy one, take care not to over use him as you
+may burn him out. Nurture a young player carefully to get the best
+out of him and keep his morale high.
+
+2.4 Keep a very close eye on the team morale. It can fluctuate quite
+a bit. A player’s morale can suffer considerably if he is not selected.
+He may request a transfer. Watch out for the expiry of contracts. A
+player nearing the end of his contract can cause problems.
+
+2.5 Watch out for the disciplinary points. A 4th yellow card is
+
+===== Page 5 =====
+
+penalised by an automatic 2 match suspension. A player receiving a
+red card gets a 3 match suspension. You must bear in mind the
+forthcoming fixtures i.e. a cup game before you use a player
+requiring only 1 or 2 yellow cards before a suspension.
+
+2.6 Injuries are a real headache for a Manager. A player recovering
+from injury should be treated with care. A full game may do long term
+injury toa player. However, if you are unable to field a team due to
+injury, suspensions etc., reserve players will be made available.
+
+2.7 Study the transfer market carefully with a view to strengthening
+your squad. Put unwanted players on the market at the earliest
+possible opportunity. Of course the best players are very seldom put
+on the transfer list. You can instruct your scout to seek out a
+particular type of player you need. He may also spot an exceptional
+talent or unsettled players in other clubs.
+
+2.9 The decision to play, watch or ask for a predicted result is
+difficult. If you are a good player of KICK OFF, it is worthwhile to play
+the game. The predicted result is based on the relative strengths of
+the squad and tactics used. If you watch, the game is actually played
+by the computer Vs computer and in a game of soccer, the
+unexpected can happen. e.g. your best player may get a red card or
+an injury.
+
+2.10 Player Manager can be a very deep game. Over many
+seasons, it will give you years of enjoyment. With 26 different set ups
+and 3 skill levels, you have totally different challenge facing you each
+time. Set up E is a good one giving you a nicely balanced team. On
+the other hand if you would like to experience sheer purgatory, you
+can try set up L.
+
+===== Page 6 =====
+
+2.11 Finally a tip on buying a player. Look at the attributes and skills
+equally. There is no point in buying a forward with high shooting skill
+but no pace or poor stamina. The skills and attributes should match.
+Furthermore the skills improve with experience but attributes do not
+improve a lot - only get worse with age.
+
+3.0 STARTING THE GAME :
+
+3.1 MANAGERIAL SECTION: Use Mouse or Joypad
+KICK OFF: Use Joypad only
+
+WARNING: IF YOU ARE USING A JOYPAD OTHER THAN
+NINTENDO, MAKE SURE THAT ALL SETTINGS ARE
+NORMAL. SWITCH OFF AUTO, TURBO AND SLOW
+SETTINGS.
+
+3.2 Joypad - Port 1 Mouse - Port 2
+
+3.3 SELECTING MENU ITEM:
+Move the cursor to the required item and press button B.
+
+3.4 QUITTING MENU: Press START button.
+
+3.5 JOYPAD MOUSE
+START Button = Left Button
+B Button = Right Button
+SELECT Button = MUSIC On/Off
+3.6 CURSOR:
+
+If the program requires an Input from you e.g. you wish to change the
+Team Name, the normal cursor will turn into a Pencil cursor. Use the
+pencil Cursor as the normal cursor to make your input. When the
+input is terminated, normal cursor will be restored.
+
+===== Page 7 =====
+
+YOU CANNOT QUIT A MENU IF THE CURSOR IS A PENCIL
+
+3.7 Press START button to display the opening menu.
+
+4.0 OPENING MENU:
+
+Four options are displayed.
+
+NEW CONTINUE PRACTICE KICK OFF
+GAME GAME
+4.1 NEW GAME
+
+4.1.1 This option launches your management career as a Player
+Manager. You are an International Capped player nearing the end of
+your playing career. You can play on the pitch if you wish and in the
+lower division, use your superior skills as player to win matches and
+thus promotion. Remember! your skills and physical attributes
+deteriorate with age.
+
+4.1.2 You can start in 2nd or 3rd division. You have a choice of
+management skill levels. The level determines the ease with which
+you get promotion to the next division. The climb up the next division
+remains tough. At easy level, fines for crowd trouble are relatively
+rare. You can change your Club Name, Manager Name and the
+Starting Date.
+
+Option to select a particular SET UP opens new horizons.
+
+===== Page 8 =====
+
+4.1.3 CHANGING NAMES AND DATE: SOA
+Select the icon to be edited. The cursor
+will change to a pencil. Use the
+keyboard to input the characters or
+numerals.
+
+CL: Deletes the current name or
+date.
+
+ENTER: Terminates the input and
+returns the pencil to the normal cursor.
+
+BES KE26Rn
+
+4.1.4 MANAGEMENT SKILL
+LEVEL: Choice of three skill
+levels - Easy, Medium or
+Hard.
+
+EASY MEDIUM HARD
+
+4.1.5 DIVISION: Choice of two. You can start in 2nd or
+3rd division. The player and ball controls get more difficult
+as you go up a division.
+
+4.1.6 SET UP: Every time you start a NEW GAME the
+computer allocates the available players in the League to
+different clubs. The players are given a unique
+combination of physical attributes and skills, thus each
+player in the League is different. The allocation of the
+players, their skills and attributes is determined by the
+SET UP.
+
+4.1.6.1 There are 26 Set Ups providing 26 different management
+scenarios. Each set up gives a different type of game, testing your
+ability in different ways. For a start you get totally different mix of
+players.
+
+If you enjoyed one Set Up and got so far before giving up, try again.
+You've got to know the players and the pitfalls, perhaps better luck
+next time.
+
+===== Page 9 =====
+
+4.2 CONTINUE GAME
+
+The game is automatically saved if you switch off. You can therefore
+switch off at any time with one exception to resume again.
+EXCEPTION: You cannot switch off once you have selected the
+Match Day Option in the Main Menu without severe penalties. You
+must return to the Main Menu after the Match Day before switching
+off.
+
+4.2.1 CAUTION: If you switch off before the match is completed, the
+match is automatically awarded to the opposition with a score of 3:0
+in their favour.
+
+4.3 PRACTICE
+
+The option allows you to learn ball controls and practice
+skills. You can practice as long as you like. There are
+three options.
+
+4.3.1 SKILLS: Practice dribbling, passing and shooting.
+You can also practice all the Set Pieces except the Set
+Piece Free Kick and Penalties.
+
+4.3.2 SET PIECE FREE KICK: This allows you to
+practice Set Piece Free Kicks from various positions on
+the pitch.
+
+4.3.3 PENALTIES: You take and save 5 penalties.
+
+4.3.4 QUITTING PRACTICE: Press START button to
+pause the game and then press SELECT button.
+
+4.3.5 CONTROLS: See 10.0 and 11.0 for the ball and player
+movement controls.
+
+===== Page 10 =====
+
+4.4 KICK OFF: You can play KICK OFF without entering the
+management part of the game. There are two options.
+
+KICK OFF
+
+ANCO CHALLENGE
+
+4.4.1 KICK OFF: You can play
+either against the computer or
+against another player. Each
+player selects one of the teams in
+the league. The game lasts 3
+minutes each half. There are three =
+options for the PLayer and the Ball control.
+Option 3 is the easier and is aimed at the
+beginner. You can also select to play at
+normal or fast speed.
+
+There are three divisions. Each team in the
+division plays slightly differently. If you are a
+novice player against another novice,
+select 1st div. team and option 3 for
+both of you. If he is very good, select
+3rd division and option 1 for the expert.
+As you get better you can mix the
+options and enjoy the game until you
+are ready for the ANCO CHALLENGE. OPTIONS
+
+===== Page 11 =====
+
+ANCO Challenge
+
+4.4.2 ANCO CHALLENGE:
+This is a test of your playing skills. You can select to
+represent any team in the League and play against
+ANCO UNITED. You must WIN each stage before you
+can proceed to the next tougher stage. The final of the
+Challenge is against ANCO UNITED ALL STARS.
+You can select CONTINUE option to carry on the
+challenge where you left off or start a new challenge, pings
+
+: CHALLENGE
+perhaps with a new team. The controls are as for level 2.
+
+Three options are available to the Manager.
+
+1 MANAGER'S OFFICE: This is the centre of the Managerial activity
+allowing you to control all aspects of your club activities. Pay full
+attention to the messages from the Directors of the Club and the
+Team Coach.
+
+2. LEAGUE STATISTICS: This contains information concerning the
+full League i.e. all the 48 clubs.
+3. MATCH DAY: At last on to the pitch [amit actif Sllting satin
+to put your Managerial skills to test. tia
+Going to MATCH DAY ON
+SATURDAY terminates the week. The
+Cup games and replays are mid-week.
+
+===== Page 12 =====
+
+~
+
+© WAGER
+
+Each icon in the office takes you to a different aspect of the
+management. The manager’s office is organised on the weekly
+basis. Normally you will come to the office on Saturday. If you have a
+mid week Cup game, you will come to the office in mid week and
+Saturday. If you are knocked out of the Cup i.e. do not have a mid
+week fixture, you will come to Office only in the mid week
+
+6.1 THE SQUAD: AT A GLANCE information on all the players in
+your squad, You are allowed a maximum
+of 24 players in the squad. Any attempt
+to buy a 25th player will be blocked by
+the directors. You can get more detailed
+information on any player by selecting his
+name. The following information is given
+against each player name on the Squad
+Screen.
+
+CES OE RE OCUECRE
+
+===== Page 13 =====
+
+6.1.1 SHIRT NO: Shows if the player is currently selected to play.
+
+6.1.2 TYPE OF PLAYER: There are seven types of players. Their
+Shirt Colour/Trim Colour are shown in the brackets. The letter
+defines the type i.e. K for Keeper.
+
+KEEPER (Green/Yellow - K) K yy : y .
+
+DEFENDER (DK. Blue/White - D): His main skill is
+tackling. His flair and aggression are low. . S
+SWEEPER (LT. Blue/DK. Blue) - S): Good tackling
+and passing skills. Pace and Flair are better than
+Defender but not as good as Midfield player. Low iy M
+aggression.
+
+MIDFIELD (Black/Yellow - M): Good passing and U
+tackling but average shooting skills. High aggression.
+
+UTILITY (White/Black - U): Can be played
+
+anywhere. Average skills except shooting which is low. F
+FORWARD (Red/White - F): Good shooting skill
+
+and pace. High aggression
+WINGER (Yellow/Black - W): Good pace and wT Ww
+shooting skill. High flair and excellent passing. High
+
+aggression.
+
+6.1.3 ABILITY: Based on players’ skills and physical attributes.
+There are five assessments. The attributes change with age.
+
+@eee~
+
+POOR BELOW AVERAGE ABOVE STAR
+AVERAGE AVERAGE PLAYER
+
+6.1.4 INJURY: Shows if a player is injured. You can get a
+detailed report of the injury by visiting the Physio.
+
+6.1.5 FITNESS: This shows the physical condition of the player.
+Players after a long season are tired if not rested from time to time. A
+
+===== Page 14 =====
+
+player returning after an injury will also take time to recover.
+Both will be reflected in fitness of the player.
+GREEN - Not quite fit: BLUE - Semi Unfit: RED - Unfit
+
+6.1.6 DISCIPLINARY POINTS: A player is suspended for
+two matches if he gets 4 yellow cards and for three
+matches if he gets a red card.
+
+6.1.7 INTERNATIONAL CAPS:
+
+BLUE: Past International Pay
+
+YELLOW: Current International
+
+RED: Unavailable. On International Call. If there is a
+Cup Match following mid-week, red capped player may not
+be available.
+
+6.1.8 TRANSFER:
+RED:Player is requesting a transfer.
+YELLOW: Player is transfer listed
+
+6.1.9 CONTRACT: A warning signal to the Manager that
+the player will be out of Contract at the end of the season.
+If the contract is not renewed or he is not sold by the end of
+the season, player will be transferred FREE.
+
+6.2 PLAYER INFORMATION: This gives a detailed information
+about a player. Select the required player name on the squad
+screen. The Player in his team SKIN AND
+colour is shown. The picture = HAIR COLOUR
+also shows the skin and the
+hair colour of the player to help
+you identify him better on the TRANSFER a) CLUB
+pitch. The following information oe
+is provided.
+
+NUMBER OF
+GOALS
+
+PRICE
+
+CONTRACT
+
+===== Page 15 =====
+
+6.2.1 AGE: Age is updated at the start of the Season.
+
+6.2.2 PHYSICAL ATTRIBUTES AND SKILLS:
+
+Physical attributes are Pace, Stamina, Aggression, Resilience and
+Flair.
+
+Skills are Shooting, Passing, Tackling and Keeping.
+
+Each player has a unique mixture of
+
+attributes and skills PACE SHOOTING
+thus ensuring that each
+
+player in the League is PTAMIND Sata
+an individual player. AGGRESSION TACKLING
+The individual attributes
+
+and skills of the player “RESILIENCE BEER
+are displayed. The FLAIR MORALE
+
+average for the division
+is also shown. This
+
+information is very useful when considering transfer.
+Ee Division Average of Skill/Attribute
+oo Player Skill/Attribute
+
+6.2.3 PACE: Speed of the player. Pace is effected by the stamina
+and fitness of the player. A player with low stamina loses pace as he
+gets tired.
+
+6.2.4 STAMINA: Determines how quickly a player gets tired.
+
+6.2.5 AGGRESSION: Determines if a player is likely to foul the
+opposition player when going for a tackle. A player with a low
+aggression is likely to hold back rather than go for a tackle. A tired
+player can get aggressive.
+
+6.2.6 RESILIENCE: Determines how prone a player is to injury.
+Resilience becomes poor as a player gets tired or is unfit.
+
+===== Page 16 =====
+
+6.2.7 FLAIR: A player with high flair will play an intelligent game and
+look for the opportunities to pass to a player in the best position to
+score or shoot from long distance.
+
+6.2.8 MORALE: The display is as for attributes and skills.
+
+6.2.9 GOALS SCORED: Shows number of goals scored so far in the
+season.
+
+6.2.10 APPEARANCES: A graph shows the percentage c
+appearance for the Club. If a player has played only 5 times | :
+
+out of 10 matches played by the Club, the graph will show
+50%.
+
+6.2.11 TRANSFERS: You can transfer list a player whether
+he is requesting a transfer or not. If you do transfer list a
+player, you cannot cancel the transfer in the same week.
+Also if you do cancel a transfer, the player may put in
+transfer request. If a player requests a transfer, the icon is
+Red. You can persuade him to change his mind by giving
+him a new Contract. A player requesting a transfer can be
+sold by the board without being transfer listed.
+
+6.2.12 TRANSFER LIST A PLAYER: Select the Transfer icon. The
+icon will turn Yellow. If you wish to cancel the transfer, select the icon
+again but not in the same week. Only one player/week can be
+transfer listed
+
+6.2.13 CONTRACT: The main icon shows the unexpired
+number of years of the current Contract. 0 signifies that the
+player will leave the Club at the end of the season. The
+maximum is a 3 year contract. Only one contract/week can
+be renewed
+
+===== Page 17 =====
+
+6.2.14 RENEW CONTRACT: Select the appropriate small icon. If
+the player accepts the new Contract, the number on the main icon
+will change. If the player refuses your offer, a cross will appear on
+the main Contract icon.
+
+6.2.15 CLUB VALUATION:
+
+This shows the book value of the player. It changes from time to time
+depending on the player’s performance, International Appearances
+etc. This is the book value of the player and tends to be high to keep
+the Bank happy.
+
+6.3 BANK
+
+Every club is allocated a certain amount of money at the start of a
+New Game. Club finances are your responsibility. You must keep a
+very close eye on it. If the board feels that your handling of the
+money will bankrupt the Club, you will get sacked and the GAME
+OVER message will appear. You will get messages from the
+Directors at the end of each match. Pay heed to these messages. If
+the finances are deteriorating, sell players to balance the books. You
+may have to accept a low price if you leave it to the last moment. It is
+therefore essential that you constantly look at your finances and trim
+the squad if you are getting near the danger zone. On the other hand
+if you are flush with money, the Directors will take a very dim view if
+you do not strengthen the squad to win promotion, championship or
+cups. Your ratings will go down and you will get the sack.
+
+6.3.1 REVENUE:
+
+6.3.1.1 GATE MONEY:
+The entrance fee is set by the Computer. It depends on the division
+and factors like:
+
+a. It is a local derby.
+
+b. Promotion or relegation struggle.
+
+===== Page 18 =====
+
+c. Cup Tie. If the visitors in a Cup Tie is a famous Club from the
+1st division, the entrance fee is increased even further.
+
+6.3.1.2 The gate money is divided as follows.
+LEAGUE: Home team receives all the gate money.
+CUP TIE: The gate money is divided equally, between the two
+clubs.
+
+6.3.1.3 T.V. RIGHTS: Top games of the day are televised.
+
+6.3.1.4 SPONSORSHIP: Generally, successful Clubs get sponsorship.
+6.3.1.5 PLAYER SALES: Your main source of revenue.
+
+6.3.2 EXPENDITURE:
+
+6.3.2.1 SALARIES: Depends on the division and the number of
+players in the squad.
+6.3.2.2 CONTRACT: Money paid to the player to sign a new contract.
+
+6.3.2.3 FINES: Fines imposed due to crowd trouble or general
+misbehaviour.
+
+6.3.2.4 BONUSES: Bonuses awarded to the players (see 6.4).
+6.3.2.5 BUY PLAYERS: Your main expenditure.
+
+6.4 TEAM MESSAGES UNCONDITIONAL CONDITIONAL
+The Manager can give the team a
+bonus. The bonus can be outright or
+conditional on winning the next match.
+Very useful for the Cup Tie or crucial
+promotion or relegation battle.
+
+===== Page 19 =====
+
+6.4.1 As soon as you select to give a bonus, the cursor will change
+to a pencil. Select the amount of bonus. The selected icon will
+change colour and the cursor will revert to normal. Once you have
+given a bonus you cannot cancel it. You can use the cancel icon
+before you select the amount and the pencil will change to a cursor.
+
+6.5 DESIGN KIT
+
+You can design HOME and AWAY kit. You can change the shirt and
+shorts colour. To change colour, point the cursor to the item and
+press button B to cycle through the colours.
+
+If your AWAY colours clash with the HOME side colours, your
+HOME kit will be used. If the two colours still clash, the offending
+colour of your kit will change to pink.
+
+6.6 TRANSFERS
+
+Transfer market is very lively. Young players and experienced
+players are coming on the market all the time due to strict financial
+controls imposed by the Bank. Keep your eyes open for a bargain.
+All 47 other Managers are also looking for bargains and will snap
+one up very quickly.
+
+6.6.1 RULE 1: You can only bid for 2 players in one week. Going to
+BID screen is considered as a bid.
+RULE 2: Once your bid has been rejected, you cannot bid for
+the same player again in that week.
+
+===== Page 20 =====
+
+6.6.2 TRANSFER LIST
+
+zeyesl
+
+NEXT PAST KEEPER DEFENDER MIDFIELD FORWARD
+PAGE TRANSFERS
+
+The list is divided into four main categories shown at the bottom of
+the list.
+
+KEEPERS
+
+DEFENDERS including SWEEPERS
+
+MIDFIELD including UTILITY PLAYERS
+
+FORWARDS including WINGERS
+The selected category is highlighted. If the page is full, the NEXT
+PAGE icon is highlighted to inform you that there are more players in
+that category on the next page.
+
+6.6.3 The list shows against each player name: AGE, TYPE,
+INJURY, INTERNATIONAL CAP and PRICE. The price shown is the
+top limit i.e. 250K means that the player can cost up to 250K. This is
+the computer assessment of the market value of the player and is not
+binding on the seller.
+
+6.6.4 BUYING A TRANSFER LISTED PLAYER:
+
+Select the player you wish to buy. BID SCREEN will be displayed.
+Enter your bid using the
+
+keyboard and terminate the PACE
+input with the Return key. You
+can quit the bidding any time.
+The target price of the player by
+the seller is also displayed. The © SHOOTING
+seller will alter his asking price
+
+after the bid. If he does not then TACKLING
+you can try a higher bid.
+
+STAMINA
+
+AGGRESSION RESILIENCE
+
+===== Page 21 =====
+
+6.6.5 If there are any other bidders, their names will appear before
+
+you make your bid. Once you have made your bid, their bid will be
+
+revealed. You can increase your bid and haggle with the seller until
+the player is sold or quit the BID screen.
+
+6.6.6 If your bid is ludicrously low, the seller will come back with NO.
+You can only quit at this stage.
+
+6.6.7 If your bid is so high that the board feels unable to authorise it,
+the word BLOCK will appear. You can only quit at this stage.
+Your bid can also be blocked by the directors if:
+a. You already have the maximum 24 players allowed.
+b. The money in the bank is insufficient to meet an
+emergency expenditure i.e. a fine by the league.
+
+6.6.8 BUYING A NON TRANSFER LISTED PLAYER. (See 6.7.4).
+TRANSFER LISTING A PLAYER (See 6.1.12).
+PLAYER REQUESTING A TRANSFER. (See 6.2.11)
+
+6.6.9 If the Past Transfers icon is highlighted, you can see the
+transfers that have taken place recently. Once you switch off the
+Console, the past transfers information is lost.
+
+6.7 SCOUT
+
+The Club has two scouts. Each Scout
+can be instructed to look for a different
+player. The Scout looks for a player
+who is not transfer listed but may be
+unsettled in his present Club. The
+scout tries to make his own
+assessment of the player’s value.
+
+===== Page 22 =====
+
+6.7.1 INSTRUCTING THE SCOUT: Select the Scout. The cursor will
+change to a pencil. Now select the type of player you are seeking
+and the price range.
+
+6.7.2 If you wish to cancel the instructions to the Scout, select the
+scout and then the CANCEL icon.
+
+6.7.3 Any messages from the Scouts will appear in the box at the
+bottom of the screen in the message box. Red question mark shows
+that the player is unsettled but not on the transfer list. Yellow
+question mark shows that the player is transfer listed.
+
+6.7.4 BUYING A SCOUTED PLAYER: You can bid for the scouted
+player by selecting the player’s name in the box. You will go straight
+to the BID SCREEN. Follow the procedure in 6.6.4. You can only bid
+under rule 1 (See 6.6.1). You may have to pay a higher price for a
+such a player.
+
+6.8 PHYSIO
+
+When a player is injured, he goes to the }-=
+PHYSIO. The Physio decides how long }—— =
+the player is going to take to recover : \
+from injury and number of weeks of light }-— i
+training required to get fit after the = 7
+injury. Against each -
+player, the number
+
+is going to take to bal hd ba ha ba ba bal BA
+
+OUT FOR THE SEASON
+recover from the
+
+injury and the Fl Ed Ed Eo ES EE Ed
+number of weeks to PLAYING CAREER OVER
+get fit after the
+
+recovery are displayed.
+Even a player who has been declared fit to return to team, will take
+awhile to get fully fit.
+
+===== Page 23 =====
+
+When the line is filled up with hearts, it signifies that the player is
+badly injured and he will be out for the season. If the line shows red
+crosses, the player is seriously injured and his playing career is over.
+
+6.9 COACH The Manager may
+instruct the Coach to give extra
+training to improve their skills which
+may affect their morale. He can also
+instruct him to SKIP training to lift the
+team morale before an important
+match.
+
+cor coachassessuenr: ro TT
+
+Coach gives the Manager his eae
+assessment of the team in four main departments of the game. The
+departments are Keepers, Defenders, Midfielders and Forwards. It
+compares the Club average against the average for the division. If
+you are below the division average in a department, you must look at
+the transfer market to strengthen your squad. Above average
+strength should be utilised by selecting the correct tactics.
+
+KEEPING TACKLING PASSING SHOOTING
+
+6.9.2 COACH MESSAGES: Appear after the MATCH DAY (See
+6.13). ;
+
+6.9.3 TACTICS
+The tactics adopted plays a very important part in the game. There
+are 8 tactics. The tactics are:-
+4-2-4: - An attacking tactic using 2 wingers, no sweepers.
+Always likely to score.
+4-3-3:- A well balanced tactic.
+4-4-2: - A defensive tactic with a 4 man midfield. The forwards
+are worked hard and need good stamina.
+5-3-2: - At first glance a very defensive formation using a
+sweeper. Depending on the quality of the sweeper, the defence
+can quickly turn into attack
+
+===== Page 24 =====
+
+5-4-1: - A strong defensive formation. The sweeper and strong
+midfield makes penetration by the opposition difficult.
+
+4-5-1: - The midfield controls the game providing the back up to
+1 man up front.
+
+5-2-3: - A sweeper system with 3 front men could well be the
+answer, provided the depleted midfield can hold the ground.
+The sweeper provides strong support in attack as well as
+defence.
+
+5-1-4:- Another sweeper line up but with strong attacking bias.
+Used when your back is against the wall and you must score to
+survive. The defence has to work hard to support the solitary
+midfielder.
+
+6.9.3.1 MATCH TACTICS: You can select any 4 of the 8 tactics
+provided for a match. You can select one of the 4 match tactics as
+START tactics. The tactics during the match can be changed.
+
+6.9.3.2 SELECTING MATCH
+TACTICS: Four match tactics are pre-
+selected. To replace a match tactic,
+select the tactics to be replaced and
+then the replacement tactics.
+
+The top tactics in the Match Tactics
+table is the START tactics. To replace :
+current start tactics, select any tactics in *
+
+the match tactics table. The match tactics are identified by the letters
+A, B, C and D. During the match these letters are used to identify the
+current tactics. It is best to make a note about the identification of
+these letters.
+
+6.9.3.3 VIEW TACTICS: You can view any of these 8 tactics. Two
+views are displayed - Attack on the left and Defence on the right. The
+highlighted area represents the position of the ball. Move the
+highlight by selecting at various positions on the pitch. You can follow
+
+===== Page 25 =====
+
+the movement of players as the ball moves from one area of the
+pitch to another.
+
+a. ATTACK shows you in possession of the ball attacking the goal
+at the top.
+
+b. DEFENCE shows your opponents in possession of the ball
+attacking goal at the bottom. Highlight any square to represent the
+ball position and press button B. The players indicated by their shirt
+numbers will take their positions.
+
+c. KICK OFF: Select the Kick Off spot on the pitch on the left.
+
+The Attack pitch will show the position of your players when
+
+you take a KICK OFF and Defence shows the opposition taking
+KICK OFF.
+
+d. CORNERS: Top corners show the position of your players
+when you take the corner and the bottom when you are defending
+the corner by the opposition.
+
+e. GOAL KICK: The top goals show the position of your players
+when the opposition keeper takes _ the goal kick and the bottom
+when your keeper takes the goal kick.
+
+6.10 PERSONAL
+Each option on this screen affects the Manager's career in a
+substantial way. The options are:
+
+a. Retire as a player.
+
+b. Apply for another job.
+
+c. Rejuvenate yourself as a young Manager to be able to play
+again on the pitch.
+
+6.10.1 RETIRE AS A PLAYER: As the Manager gets older, his
+attributes and skills as a player deteriorate and he can become a
+handicap on the pitch as a player. The time has come to hang up his
+boots.
+
+However, if you decide to retire while you are still young, the board
+
+===== Page 26 =====
+
+may refuse your request. Select the RETIRE icon to retire as a
+player but continue as a Manager. Your name will be removed from
+the squad list.
+
+6.10.2 APPLY FOR A NEW JOB: If
+you feel that you are under threat of the [iam
+
+sack or have been given notice of VACANCIES
+termination of contract at the end of the
+season, you may consider looking for
+another club as a Manager.
+
+From time to time, other Clubs are
+looking for anew Manager. These jobs
+appear in the VACANCIES.
+
+Before applying for the job, you may yee
+
+wish to see the details of the Club. Select DATA icon for the details.
+To apply for the job, select APPLY icon. Remember, your application
+may affect your team morale.
+
+6.10.3 REJUVENATION AS A YOUNG PLAYER: Once you have
+retired as a player, you cannot play on the pitch. After a few years
+you will see one of your family members playing overseas, making
+an appearance in the International squad. He will have the same
+name as yours. When he becomes available, his name and the price
+will be displayed. He will be very expensive to start with but his price
+will come down as he gets older.
+
+To buy him, use BUY option. He will immediately replace you and
+become PLAYER MANAGER of the Club.
+
+6.11 FIXTURES
+
+You can see the home and away fixtures in the league. The fixtures
+for the two Cups are shown at the appropriate times.
+
+The results of the matches played so far are also displayed. The
+draws for the Cup competitions and the results are displayed.
+
+===== Page 27 =====
+
+6.12 CLUB RECORDS nies ve
+
+This is the record of Club ocanemes
+
+achievements. It shows eee
+a. Highest Gate.
+b. Highest Transfer Fee Paid. ;
+Cc. Highest Transfer Fee g
+
+Received. h
+
+Top Scorer.
+
+League Championship Wins
+
+Misawa Cup Wins
+
+Premier Cup Wins
+
+Division and position in last
+
+10 seasons.
+
+1¢ SCORED 83 ? cLoven
+
+sa-oa
+
+6.13 IMPORTANT MESSAGES NEWS DIRECTORS COACH
+At the end of a match, important
+messages from the Directors and
+Coach can be displayed. The a .
+Directors inform you of their opinions R RATING Es
+
+and also you can see your ratings. Pe pees
+
+The rating is out of 100. If they fall ; SoC ie
+
+NES aT SHREH Se uns
+ALLS FOR
+
+below 40, your job is on the line. SS orsnrssat
+The Coach is your link to the players
+and also a source of invaluable advice on their strengths and
+weakness.
+
+The newspaper items are a source of interesting gossip about the
+affairs of the whole league. If you are looking for a job, the news of
+sacking of the Managers can give you a head start. To see the
+message, select the icon and the message will be displayed.
+
+6.14 PROMOTION AND RELEGATION:
+When the season is complete, the information about promotion,
+relegation and all the Cup Winners is displayed.
+
+===== Page 28 =====
+
+At this stage you can press the start
+button and quit the screen. You can
+go to League Statistics and see the
+League Tables, Results of the last
+week fixtures, Hot Shots etc.
+
+6.15 NEW SEASON: When you are
+ready, select NEW SEASON icon on
+the promotion and relegation display.
+
+7.0 MATCHDAY
+
+The most important task for the Manager on the Match Day is to pick
+the team for the match. He can look at the strength of the opposition
+and select the tactics to win and the team capable of putting the
+tactics into operation.
+
+7.1 SELECT SQUAD:
+
+Only the available Squad
+is displayed. Injured, red
+carded players or players a =
+on International duty are — TACTICS Position THE OPPOSITION TACTICS
+not displayed. If such a
+player is a currently f= _ 4] > ,
+selected player, a =
+
+RESERVE Player will WALSH
+appear in his usual shirt
+
+position drawing your attention to his absence. If for some reason
+there are not enough players to make up the match squad, Reserve
+players will be made available.Selecting a squad is very important.
+
+PREDICT PLAY
+
+===== Page 29 =====
+
+You should play your best players in the correct position. You should
+match the shirts as best you can with the tactics positions shown on
+the screen (See inside back cover).
+
+The shirts are displayed as balls. The main colour of the ball is the
+shirt colour and the remainder is the sleeve colour. Positions 7 and
+11 show 2 balls. You have a choice. In 5-3-2 tactics, use a winger
+for an attacking game.
+
+You should bear in mind 3 yellow carded players, whether to risk
+playing them or not. You must give the players a rest before they get
+match fatigue. Young players need to be brought into the game
+gradually.
+
+Against each name, the following information is displayed.
+
+7.1.1 SHIRT NO.: The shirt number determines the position in which
+a player plays according to START tactics.
+
+7.1.2 TYPE: There are seven types of players.
+
+Forward, Winger, Midfield, Defender, Sweeper, Utility and Keeper.
+The type of player is indicated by the shirt colour and trim (See
+6.12). The small pitch shows the player positions according to the
+START tactics. You can immediately see if you are playing a
+defender in the midfield or a sweeper on the wing. Look at the
+reference chart of each tactics. For best results, match the shirt
+colour on the pitch to the shirt colour in the chart of the selected
+Start tactics.
+
+7.1.3 FITNESS: Unfit player is available for selection but take care
+before selecting him.
+
+7.1.4 DISCIPLINARY STATUS: Shows the number of yellow cards.
+A player gets two match suspension if he gets 4 yellow cards. You
+have to decide if you can risk a 3 yellow carded player or save him
+for a really important match.
+
+===== Page 30 =====
+
+7.1.5 INTERNATIONAL STATUS: Shows if the player is past or
+current International player.
+
+There are two options which you can select to help you.
+
+7.1.6 OPPOSITION: You can see the opposition line up, the
+strength, weakness and their league record.
+
+7.1.7 TACTICS: You can select the match tactics after assessing the
+opposition.
+
+7.1.8 REPLACE PLAYER: To replace any player, select the player
+and then the replacement.
+
+7.1.9 MATCH OPTIONS: You have three options
+
+a. PREDICT: The computer predicts the result based on the
+relative strength of the two teams, type of tie, home or away,
+morale of the two teams etc.
+
+b. WATCH: The match is played in full by the computer
+controlling both sides. You can substitute players and change
+tactics.
+
+c. PLAY: You control the nearest player to the ball. You can also
+
+control the keeper for goal kick and do all set pieces.
+The Player Manager must be on the pitch to play the game. If he is
+injured or sent off, you lose control of the players. If you elect to play,
+
+there is a toss. If you win, you will be asked to select whether to play
+UP PITCH or DOWN PITCH.
+
+7.1.10 HALF TIME/FULL TIME: The scores, injuries, disciplinary
+cards for both teams are displayed.
+
+7.1.11 Once you have entered the Match Day option, you cannot
+quit. If you switch off the console during the game, the match is
+automatically awarded to the opposition with a score line 3:0 in their
+favour.
+
+===== Page 31 =====
+
+a. Fixtures, Results b. League Hot __c. League Records d. International
+and Tables Shots Squad
+
+8.1 FIXTURES - RESULTS - TABLES
+These are displayed for each division.
+The fixture list shows the fixtures for the
+current week. The results of the last
+week matches are displayed. The
+tables show the position of the Clubs at
+the end of last week.
+The draws and results of the last round FiytyReS RESULTS TABLES
+for the Cup Competitions are displayed.
+
+To view the data, select the division or the individual Cup under the
+required heading.
+
+8.2 LEAGUE RECORDS:
+
+The following records are kept
+Highest Gate.
+
+Lowest Gate.
+
+Highest Transfer fee paid.
+Top Goal scorer.
+
+League Champions.
+Misawa Cup Champions.
+Premier Cup Champions.
+
+e-epaogp
+
+===== Page 32 =====
+
+8.3 INTERNATIONAL SQUAD: You can see the list of players when
+the International Squad is selected. Current capped players are
+indicated by a Yellow Cap.
+
+8.4 HOT SHOT: The names of the top scorers in each division are
+displayed
+
+9.0 COMPETITIONS
+
+There are three Championships to be won:
+a. ANCO LEAGUE
+b. MISAWA CUP
+c. PREMIER CUP
+
+9.1 ANCO LEAGUE: There are 3 divisions consisting of 16 teams in
+each division. Each team plays the other teams twice, Home and
+Away. A win scores 3 points and a draw scores 1 point.
+Accumulative score of FOR and AGAINST goals is also kept. The
+table for each division is updated every week. If the points are equal,
+the league position is determined by goal difference. If the goal
+difference is the same, then “goals for’ decides the position. The two
+bottom teams of the 1st and 2nd Divisions are relegated. Two top
+teams in division 2 and 3 are promoted. The matches are held at the
+end of the week.
+
+9.2 MISAWA CUP: This is a knock out cup. The first round is played
+by 2nd and 3rd division clubs only. The winners proceed to the next
+round and are joined by the 1st division clubs. If there is a draw,
+EXTRA TIME is played. If there is a draw after Extra Time, the match
+will be REPLAYED. In Replay, if there is a draw at full time. Extra
+Time will be played. If the result is a draw after EXTRA TIME a
+penalty shoot out will take place.
+
+===== Page 33 =====
+
+9.3 PREMIER CUP: This is a two leg competition. After the 2nd leg
+the scores of each team for both legs is added up. If the score is
+equal, each away goal scores double. If the result is still a draw,
+there will be a penalty shoot out to decide the result. The competition
+is only open to the 1st and 2nd Division Clubs.
+
+10.0 KICK OFF CONTROLS
+
+The controls are designed to be instructive. They should be practiced
+thoroughly during practice. The shots for the set pieces can be
+selected from a box.
+
+10.1 NOTE: If you come to the pitch via MATCH DAY, you can only
+control the players on the pitch if you have selected yourself in the
+squad. If you get injured or get a red card, you can only watch the
+game even if you have selected the PLAY option. If you retire as a
+player or are retired by the board as a player, you cannot control the
+player on the pitch.
+
+10.2 PLAYER CONTROLS:
+10.2.1 MOVEMENT: The player moves in all 8 joypad directions.
+
+10.2.2 HEADERS: If the ball is in the air, pressing button B will make
+the controlled player jump. Move the joypad in the direction in which
+you wish to head the ball while the player is in the air.
+
+10.2.3 SLIDING TACKLE: The tackle
+can be done from any direction. A
+sliding tackle on an opponent without
+the ball is a FOUL. If the ball is on the
+ground, press button B or A to doa
+sliding tackle. You must touch the ball
+
+===== Page 34 =====
+
+before touching the opponent to avoid being penalised. A sliding
+tackle from behind is a foul.
+
+10.3 BALL CONTROLS:
+
+10.3.1 DRIBBLE BALL: The ball travels in front of the player. The
+distance it travels depends on the speed of the player at the time of
+contact.
+
+10.3.2. SHOOT BALL: Press button B to shoot the ball in the
+direction the player is facing.
+
+10.3.3 PASS BALL: You must trap the ball before you can pass the
+ball. Press button B BEFORE touching the ball to trap the ball. i.e.
+press button B before you get to the ball. Move the joypad in the
+direction you wish to pass and release the button.
+
+10.3.4 AUTOMATIC PASS: The ball will be passed automatically in
+the direction the player is facing if a player is in a suitable position to
+accept the pass: Press L or R button before you get to the ball for an
+automatic pass.
+
+10.3.5 CHIP BALL: To be able to chip the ball, you must be dribbling
+the ball. As you move, press X, Y or A to chip the ball.
+
+10.3.6 OVERHEAD KICK:An Overhead Kick can only be done if the
+ball is in the air. Press X, Y or A button.
+
+10.3.7 AFTER TOUCH After Touch allows the player to alter
+direction of the ball by a small amount after shooting the ball. The
+direction must be changed immediately after shooting the ball as the
+control is only effective for a very short time. The Left and Right
+movement of the joypad bends the ball. The forward movement will
+dip the ball and reverse will raise the ball.
+
+===== Page 35 =====
+
+10.4 KEEPER CONTROL: The keeper is computer controlled except
+in the following cases:-
+
+10.4.1 DEFENDING A PENALTY: The control is transferred to you.
+The keeper stands in the centre. Move the joypad left or right to dive.
+
+TAKING GOAL KICKS: The keeper automatically takes the goal
+kick unless the player wishes to do so. If the player does not exercise
+the option, the computer will take control.
+
+10.4.2 To take control of the goal kick, press button B when the
+players have stopped moving. A box will appear. Select the required
+icon, using button B or button A.
+
+TOP ROW: The ball is kicked high in the air in the direction of the
+arrow selected.
+
+MIDDLE ROW: As above but reduced strength.
+
+BOTTOM ROW: The ball is thrown to the nearest
+player in the direction of the arrows if you press button B. Using
+button A, the keeper rolls the ball to the nearest player
+
+11.0 SET PIECES:
+
+Set pieces are THROW IN, CORNER KICKS, FREE KICKS, SET
+PIECE FREE KICKS and PENALTIES. In all set pieces, the
+computer will take the action unless you press button B to indicate
+that you are going to take control. If you do so a box will appear in
+the top left corner. Select the sub box for the required action.
+
+===== Page 36 =====
+
+11.1 CORNER KICKS: Select the type you want
+
+Top Row: _ The ball is kicked above bar height.
+
+Middle Row: The ball is kicked bar height.
+
+Red column: The ball curls IN
+
+Blue column: The ball curls OUT
+
+Bottom Row: You can select to pass the ball to a specified player.
+
+Use left or right bottom boxes to go up or down the shirt number. If
+the player is in view on the screen, the player will be indicated by a
+marker. When you have selected the player to pass
+to, select the bottom middle box. Once the ball has
+been kicked, use the After Touch to vary the curl of
+the ball. When the ball reaches the goal area, you
+control the player nearest to the ball.
+
+11.2 SET PIECE FREE KICKS: If a foul is committed near 18 yds
+box, Set Piece Free Kick is taken. The defenders make a wall.
+
+11.2.1 Top Row: Ball travels above head height.
+
+Middle Row: Ball travels about waist height.
+The direction of the arrows shows the ball curling past the wall and
+travelling towards the goal.
+Once you have pressed button B to select the box, release cursor
+joypad immediately otherwise the After Touch will become
+operational and affect the curl of the wall. Once the ball has passed
+the wall, you can resume the control again and apply the After Touch
+to alter the ball travel.
+
+11.2.2: Bottom three boxes are for passing. You can
+pass to a player nearest to you on the left or right.
+Bottom Centre box chips the ball above the wall.
+
+===== Page 37 =====
+
+11.3 FREE KICK: As soon as the players stop moving, press button
+B. The controls are as for goal kick.
+
+11.4 THROW IN: The computer automatically throws the ball to the
+nearest player in position to receive the ball. To assume the control,
+move the joypad to any five froward positions and press button B. the
+longer the button is held down, bigger the throw.
+
+11.5 PENALTIES
+
+11.5.1 TAKING A PENALTY: The control of the keeper is
+
+transferred to the player. An arrow is moving to and fro. As you press
+the button the player starts his run for the penalty kick. The longer
+
+you press the button, higher the kick. A short tap on the B button will
+keep the ball on the ground.
+
+11.5.2 DEFENDING A PENALTY: The keeper control is passedto
+the player when defending a penalty. Move the joypad left or right for
+the Keeper to dive left or right.
+
+12.0 GAME RULES:
+
+12.1 SUBSTITUTIONS: You are allowed to make 2 substitutions
+during the match. You cannot substitute a player who has been given
+a RED card by the referee. Only ONE substitution at a time can be
+made. Press the SELECT button to indicate that you wish to make a
+substitution. The letter S will appear in the panel to indicate that your
+request has been noted.
+
+12.2 MAKING A SUBSTITUTION: When the ball goes out of play,
+you will be asked to make a substitution.
+
+The shirt No. of a player will appear on the screen. Move joypad
+up/down to select one of the substitutes and left/right to scan through
+the shirt numbers to be substituted. Press button B to make the
+substitution.
+
+You will also be asked to make a substitution if a player is injured.
+
+===== Page 38 =====
+
+12.3 SUDDEN DEATH PENALTY SHOOT OUT: Each side takes five
+penalties in turn. The winner is the team which scores most goals. If
+the number of goals remain equal, each side takes a penalty
+alternately. After both sides have taken their turn and there is a goal
+difference, the team with the most goals is declared the winner. The
+shoot out continues until there is a goal difference.
+
+12.4 CHANGING TACTICS DURING THE MATCH: You can change
+tactics anytime during the match. Press START button to pause the
+game. Current tactics number will be displayed. Press X,Y or A to cycle
+through the tactics.letters when satisfied press button B.
+
+12.5 PAUSE: Press START button. Press button B to restart the game.
+QUIT: You can quit Practice or Friendly match by pressing START
+button and SELECT button.
+
+BATTERY BACK UP This cartridge has a battery
+back up to enable you to save the game and
+continue later.The battery has a long life. However if
+you find that you are unable to CONTINUE a saved
+game, the battery will need replacing.
+
+Please contact the distributor.
+
+© 1993 Anco Games
+Program by : Steeve Screech
+Graphics by: Reiko Oshida
+: B. Van Der Peer
+Music by : Koji Hayashi
+
+Licensed to IMAGINEER CO. LTD.,
+2-7-1 Nishi-Shinjuku, 15th Floor, Shinjuku-Ku, TOKYO 163, Japan.
+
+DISTRIBUTED IN THE U.K. BY ANCO ENTERTAINMENT LTD.
+7 MILLSIDE IND. EST. LAWSON ROAD DARTFORD KENT DA1 5BH. Tel: 0322 287782
+
+THIS PRODUCT IS GUARANTEED BY THE PUBLISHER. IN CASE OF DIFFICULTY,
+PLEASE CONTACT THE DISTIBUTOR.
+
+===== Page 39 =====
+
+
+
+===== Page 40 =====
+
+Lg LICENSED TO
+
+Imagineer
+
+2-7-1 Nishi-Shinjuku, 15th Floor, Shinjuku-Ku, TOKYO 163, Japan Tel: 81-3-3342-9191 Fax: 81-3-3342-9194
+
+DISTRIBUTED IN THE U.K. BY ANCO ENTERTAINMENT LTD.
+7 MILLSIDE IND. EST. LAWSON ROAD DARTFORD KENT DA1 5BH. Tel: 0322 287782
+
+PRINTED IN JAPAN

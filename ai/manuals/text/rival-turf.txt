@@ -1,0 +1,1040 @@
+# Rival Turf!
+source: https://archive.org/details/snes_manual_archive
+pdf: Rival Turf! (USA).pdf
+region: USA
+pages: 12
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+Watch for new Jaleco video games for the
+Super Nintendo Entertainment System® in coming months.
+And, always remember to ask your favorite video game store
+for the latest Jaleco video games for
+the Nintendo Entertainment System®
+and the Nintendo® Game Boy®.
+
+Nintendo of America Inc. ¢ 1992 Jaleco USA Inc. Printed in Japan.
+
+JALECO USA Inc.
+310 Era Drive
+Northbrook, Illinois 60062
+(708) 480-1811
+
+Printed in Japan
+
+INSTRUCTION BOOKLET
+
+SUPER NINTENDO
+
+ENTERTAINMENT
+
+===== Page 2 =====
+
+AF ISAK ISAFISUF FS AF IS UF IS
+
+JALECO™ USA INC. LIMITED WARRANTY
+
+valeco USA Inc. warrants to the original purchaser of this Jaleco software product that
+the medium on which this computer program is recorded is free from defects in
+materials and workmanship for a period of ninety (90) days from the date of purchase.
+This Jaleco software program is sold “as is,” without express or implied warranty of any
+kind, and Jaleco is not liable for any losses or damages of any kind resulting from use
+of this program, Jaleco agrees for a period of ninety (90) days to either repair or
+teplace, at its option, free of charge, any Jaleco software product, postage paid, with
+proof of date of purchase, at its Factory Service Center.
+
+This warranty is not applicable to normal wear and tear. This warranty shall not be
+applicable and shall be void if the defect in the Jaleco software product has arisen
+through abuse, unreasonable use, mistreatment, or neglect. THIS WARRANTY IS IN
+LIEU OF ALL OTHER WARRANTIES AND NO OTHER REPRESENTATIONS OR
+CLAIMS OF ANY NATURE SHALL BE BINDING ON OR OBLIGATE JALECO. ANY
+IMPLIED WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT,
+INCLUDING WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE, ARE LIMITED TO THE NINETY (90) DAY PERIOD
+DESCRIBED ABOVE. IN NO EVENT WILL JALECO BE LIABLE FOR ANY SPECIAL,
+INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM POSSESSION,
+USE, OR MALFUNCTION OF THIS JALECO SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an implied warranty lasts and/or
+‘exclusions or limitations of incidental or consequential damages so the above limitations
+and/or exclusions of liability may not apply to you, This warranty gives you specific rights,
+and you may also have other rights which vary
+from state to state.
+
+Jaleco™ is a trademark of Jaleco USA Inc.
+Rival Turf ™ & © 1992 Jaleco USA Inc.
+All rights reserved.
+
+Official
+
+Seal of Quality
+
+LICENSED BY
+
+THIS OFFICIAL SEAL IS YOUR
+
+Nintendo® and Super Nintendo
+Entertainment System® are registered
+
+trademarks of Nintendo of America Inc.
+
+ASSURANCE THAT NINTENDO HAS
+APPROVED THE QUALITY OF THIS
+PRODUCT. ALWAYS LOOK FOR THIS
+‘SEAL WHEN BUYING GAMES AND
+ACCESSORIES TO ENSURE COMPLETE
+
+JALECO USA INC. COMPATIBILITY WITH YOUR SUPER
+310 Era Drive NINTENDO ENTERTAINMENT SYSTEM.
+ALL NINTENDO PRODUCTS ARE
+Northbrook, Illinois 60062 LICENSED BY SALE FOR USE ONLY
+(708) 480-1811 WITH OTHER AUTHORIZED PRODUCTS
+
+BEARING THE OFFICIAL NINTENDO
+‘SEAL OF QUALITY.
+
+WARNING: PLEASE READ THE CONSUMER INFORMATION
+AND PRECAUTIONS BOOKLET INCLUDED WITH THIS PRODUCT
+CAREFULLY BEFORE USING YOUR NINTENDO® HARDWARE
+SYSTEM OR GAME PAK.
+
+TABLE OF CONTENTS
+
+INTRODUCTION. 5
+OBJECT OF THE GAME. 6
+GETTING STARTED. 7
+OPTIONS. 7
+
+CONTROLLER FUNCTIONS.
+
+ON-SCREEN DISPLAYS...
+
+SPECIAL ITEMS.
+
+THE STAGES...
+
+THE STREET KINGS.
+
+GAME TIPS —
+
+THE JALECO MAJOR PLAYER'S HOTLINE..... wee
+
+TAKING CARE OF YOUR JALECO GAME.
+
+===== Page 3 =====
+
+AF SBAFIBAF ISU AS AF 241 F323
+
+WHY SHOULD YOU JOIN THE JALECO
+
+MAJOR PLAYER'S CLUB?
+
++ WIN FREE GAMES
+
+You'll be eligible to win free Jaleco games from our once-a-
+month drawings!
+
++ FIND OUT ABOUT NEW GAMES
+
+Find out about new Jaleco games before they're released!
+Get in on special Jaleco promotions and contests! And more!
+
++ TEST GAMES BEFORE THEY'RE RELEASED
+Hey, maybe we'll even ask a few of you if you'd like to test
+Jaleco games before they're released! You could be selected
+as a Jaleco Major Player!
+
+Here's what you get if you don't join:
++ YOU GET NUTTIN’ IF You DON'T JOIN!
+
+And there's only one way you can get in on alll this good stuff
+— and all it's going to cost you is a few moments of your time
+and the price of a postage stamp!
+
+Here's how to join:
+
++ Find the JalecoMajor Player's
+Membership/Warranty card enclosed in this
+package.
+
++ Fill in the information requested on the card.
+
++ Puta stamp on the card.
+
++ Drop the card in the mail.
+
+That's right, all you gotta do is fill out the card, mail it to us, and
+you're in! Even if you've joined before, fill out the card and send
+
+it again. It will increase your chances of winning!
+Welcome to the club!
+
+4
+
+INTRODUCTION
+
+Downtown at the police station, a telephone rings...
+
+“Hey, Oozie! It's Jack. Listen buddy, I'm in big trouble. We gotta
+do something fast. Heather's been missing for two whole days and |
+think Big Al's got her. Yeah, kidnapped. No, she's not at the mall —
+don't you think | checked there first? | know you're onto Big Al... we
+gotta find this guy before something happens to Heather. O.K..
+dude, I'm on my way.”
+
+You're probably wondering what's goin’ on, so I'll fill you in.
+Heather's my girlfriend, see, and she’s been kidnapped by Big Al
+and the Street Kings. Yeah, | know it kinda sounds like a 50's rock
+band, but trust me — these guys are major bad news, dude. They
+beat up on old ladies, steal lunch money from kids... my little sister
+can’t even ride the bus to school anymore. They're taking over the
+city, so Oozie and me are doin’ everything we can to stop ‘em.
+That's my buddy Oozie Nelson. Oozie's a cop. His real name's
+Oswald, but all the guys call him “Oozie” for short. Oh yeah, by the
+way, my name is Jack — Jack Flak.
+
+Anyway, like | was sayin’, Oozie and
+me have been tryin’ to run these scum ‘SELECT PLAYER
+out of town for good. Trouble is, we
+haven't been able to get to their boss,
+Big Al. Oozie’s been hangin’ out on the
+streets, and he's heard a rumor that
+Al's got a secret hideout south of the
+border. His thugs keep it under guard
+day and night, but that’s not gonna stop
+us — me ‘n Oozie are gonna find that slimeball and rescue Heather
+if it's the last thing we do.
+
+Well, | gotta get down to the police station — Oozie's waiting for me.
+We're heading over to the Sports Stadium first — that's where a lot
+of the Street Kings hang out. Oozie thinks we might be able to, uh,
+
+5
+
+===== Page 4 =====
+
+AF ISAK ISAF I SAF IS AF AS AF 23
+
+persuade a couple of ‘em to help us find Big Al. You wanna go?
+O.K., kid, c'mon... | got a feeling we're gonna need all the help we
+can get.
+
+OBJECT OF THE GAME
+
+Are you ready to rid the city of the evil influences of Big Al and his
+gang of menacing maniacs, the Street Kings? Looking for some
+body slammin’, gut wrenchin’ action? If so, you won't be
+disappointed when you hit the streets of Rival Turf — a fast-paced,
+fist-flying adventure starring two daring defenders and a horde of
+no-good, down ‘n dirty street scum. Rival Turf includes six
+demanding stages, each with two or more separate scenes for a
+total of 18 action-packed arenas. Fight Big Al's thugs on the streets,
+in buses, at the stadium, on rooftops, even in the jungle. These
+guys are everywhere, and they don't let up!
+
+The heros of Rival Turf are Jack Flak and his trusty friend, “Oozie"
+Nelson. Choose your character, then go it alone or play with a
+partner as you defy the forces of decadence and destruction — a
+second player can join in at any time. Punch, kick, and slam your
+opponents before they do the same to you — or worse. Scavenge
+for goodies like baked chicken and hot dogs to restore your
+‘strength. Pick up weapons along the way — knives, wrenches,
+baseball bats and hand grenades can give you a definite advantage
+over the competition. Each character has seven different, deadly
+moves, from body slams and uppercuts
+to leg sweeps and pile drivers. Take
+advantage of “Angry Mode” to do some
+serious damage — you're fighting mad
+to begin with, but when you really get
+angry nothing's gonna stop you!
+
+Each player begins the game with five
+lives. When you lose your last life, you
+can start over or continue the game up
+to eight times. Fight the Big Boss at
+
+the end of each stage to advance to the next location. If you make it
+to the end of Stage 6, get ready for the ultimate challenge — the
+showdown with Big Al himself. Tired of fighting the forces of evil?
+Then take a timeout and grapple with your partner in a no-holds-
+barred, head-to-head contest where skill and ruthlessness will
+decide the winner.
+
+Awesome 3-D graphics and brutal sound effects put you right into
+the action, from the first scene to the final furious confrontation. So
+roll up your sleeves and get ready for an all-out assault on the Street
+Kings and their belligerent boss. If you're looking for non-stop
+action and power-packed excitement, you've come to the right
+place... Rival Turf.
+
+GETTING STARTED
+
+1. Place the Rival Turf Game Pak into your Super NES®
+and turn on the unit.
+
+2. The title screen appears.
+
+3. Press START to begin the game.
+
+4. The menu screen appears. Use the Control Pad to select
+an option, then press any button to begin. Rival Turf
+includes three play modes: 1 Player, 2 Player, and Player
+versus Player (VS on the menu screen).
+
+OPTIONS
+
+One Player Game
+
+Choose 1 Player from the menu
+screen. When the “Select Player”
+screen appears, use the Control Pad
+on Controller 1 to choose either Jack
+Flak or Oozie Nelson. Press any
+button to begin the game. A second
+player may join a One Player game at
+
+===== Page 5 =====
+
+AF ISAF ISAK IS AF IS UF A SAF 235
+
+any time simply by pressing START on Controller 2. See the “ON-
+SCREEN DISPLAYS" section for more information about joining a
+One Player game.
+
+Two Player Game
+
+Choose 2 Players from the menu
+screen. When the “Select Player”
+screen appears, you will see a red
+
+icon for Controller 1 and ablue icon for
+Controller 2. Each player uses the
+Control Pad on his or her Controller to
+select a character. Once you have
+chosen a character, press any button to
+confirm your selection (the icon will
+start to flash). The game begins when both players have pressed a
+button to confirm their selection.
+
+If both players choose the same character, you will be able to tell
+them apart by the color of their jackets: red for Controller 1, blue for
+Controller 2. A second player may join a One Player game at any
+time simply by pressing START on Controller 2. See the “ON-
+SCREEN DISPLAYS" section for more information about joining a
+One Player game.
+
+Player Versus Player
+Choose VS from the menu screen. When the “Select Player” screen
+appears, choose your characters as instructed above for a Two
+Player Game. Confront your opponent in three rounds of head-to-
+head competition against a dazzling
+backdrop — Mt. Fuji erupting in all its
+fiery splendor. The first player to win
+two rounds is the champion.
+
+Player movement and screen displays
+are identical to those in a regular game,
+with one exception: although the
+character icons for both players display
+
+Angry Mode when they are under heavy attack, it does not affect
+their performance or protect them from their opponent's blows.
+
+The Config Mode Screen
+Choose OPTION on the menu screen
+to display the Config Mode screen.
+
+Press Up or Down on the Control Pad
+to select an option, then press Left or
+Right on the Control Pad (or use the A
+Button and the B Button) to change the
+selected option. When you have
+finished choosing your options, press
+START to return to the menu screen.
+
+Music On/Off Turns music on or off during the game
+(the default is ON)
+
+Music
+
+Sampler Plays 10 musical selections from the
+game. Choose an option from 0 to 9, then
+press the Y Button to play that musical
+selection. Press the X Button to turn off
+the music. NOTE: The Music option above
+must be ON in order to hear the music.
+
+Sound Mode Choose stereo or mono sound (the default
+is STEREO)
+
+Sound FX
+
+Sampler Plays 26 sound effects from the game.
+Choose a sound effect, then press the Y
+Button to play that effect. Press the X
+Button to turn off continuous sound
+effects.
+
+2Play Hit Turn this option off or on. When this
+option is on, you can attack or steal
+from your partner in a Two Player
+game. The default is ON. Now remember,
+play nice!
+
+===== Page 6 =====
+
+BEDS SERSESERSEGERSEERSLEENS
+
+Each character has his own distinct set of moves, described below.
+To pause the game during play, press START on Controller 1:
+
+Angry Mode
+
+Controls
+
+Turn this option off or on. When this
+option is on, your character will switch
+
+to Angry Mode when he has been under
+heavy attack from the enemy. You are
+more powerful in Angry Mode and cannot
+be attacked by an opponent. Turning this
+option OFF will make the game more
+challenging. The default is ON.
+
+You may change the controls for Run,
+Jump, Normal Attack and Special Attack.
+If you choose the same button for two
+controls you will not be able to exit the
+Config Mode screen. Controls for both
+players are chosen with Controller 1.
+The default controls are:
+
+RUN LR
+JUMP B
+
+CONTROLLER FUNCTIONS
+
+Control Pad
+
+10
+
+Left Button
+
+Select Button
+
+NORMAL ATTACK Y
+SPECIAL ATTACK A
+
+Right Button
+
+X Button
+
+A Button
+B Button
+
+Y Button
+
+Start Button
+
+Jack Flak
+Move Attack,
+PUNCH Y Button
+Left or Right on the ELYING KICK
+Control Pad Y Button while
+WALK UP OR DOWN jumping and flipping
+Up or Down on the SLIDING KICK
+Control Pad Y Button while
+JUMP B Button dashing left or right
+Left or Right on
+Control Pad
++B Button
+
+Left on Control Pad
++ Lor R Button
+
+DASH RIGHT
+
+Right on Control Pad
++ LorR Button
+
+Close Range Attack
+
+You can only perform certain
+moves when your character
+makes body contact with an
+enemy (which isn’t always
+easy!). To perform each of
+these moves, you must first grab
+your enemy by moving in very
+close.
+
+KNEE KICK Y Button
+GRAB AND FLIP
+Left or Right on
+Control Pad + Y Button
+
+BACK DROP Y Button while
+grabbing from behind
+
+1
+
+===== Page 7 =====
+
+AF ISAFISAF IS AF AIS AF IS AF 25
+
+Special Attack (Sweep Hurricane)
+Press the A Button to perform the Sweep Hurricane move.
+You may use this powerful move a limited number of times.
+Each time you use this move your score is decreased by 5
+enemies until you run out of defeated enemies that you've
+
+scored.
+Oozie Nelson
+Move Attack
+WALK LEFT OR RIGHT PUNCH Y Button
+Left or Right on the BODY SLAM
+Control Pad Y Button while
+WALK UP OR DOWN jumping and moving
+Up or Down on the AX BOMBER
+Control Pad Y Button while
+JUMP. B Button dashing left or right
+DASH LEFT
+
+Left on Control Pad
+
++ LorR Button
+DASH RIGHT
+
+Right on Control Pad
+
++ LorR Button
+
+Close Range Attack
+You can only perform certain
+moves when your character
+makes body contact with an
+enemy (which isn’t always
+easy!). To perform each of
+these moves, you must first grab
+your enemy by moving in very
+close.
+
+12
+
+KICK Y Button
+
+Left or Right on
+
+Control Pad + Y
+
+Button
+GRAB AND FLIP
+
+Y Button while
+
+grabbing from
+
+behind
+
+Special Attack (Storm Bomber)
+
+Press the A Button to perform the Storm Bomber move. You may
+use this powerful move a limited number of times. Each time you
+use this move your score is decreased by 5 enemies until you run
+out of defeated enemies that you've scored.
+
+ON-SCREEN DISPLAYS
+
+Select Player
+
+The Select Player screen appears after you make your selection on
+the menu screen. Use your Control Pad to choose either Jack Flak
+or Oozie Nelson, then press any button to begin the game. In a Two
+Player game, each player uses the
+Control Pad on his or her Controller to
+select a character. The red icon
+represents Controller 1 and the blue
+represents Controller 2. The game
+begins when both players have pressed
+a button to confirm their selection. If
+both players choose the same
+character, you will be able to tell them
+apart by the color of their jackets: red
+for Controller 1, blue for Controller 2.
+
+Maps
+
+Amap appears at the beginning of
+each stage — the name of your
+destination will be flashing. Press any
+button to continue.
+
+Energy Meter
+Player One's energy meter appears in
+the upper left corner of the screen. The name of your character
+(FLAK or NELSON) is displayed above the meter. You lose energy
+each time you are hit by one of your enemies. When your energy
+runs out, you lose a life. In Angry Mode your energy meter
+becomes a countdown timer — when the timer runs out, you return
+13
+
+===== Page 8 =====
+
+LERSEERSEERSEERSEERSEEY
+
+to normal mode. In a Two Player
+game, Player Two's energy meter and
+other information appear in the upper
+right corner of the screen.
+
+During active combat with an enemy,
+that enemy's name, energy meter and
+character icon appear beneath your
+own. The color of the enemy's meter
+indicates how powerful he is. The colors are listed below, from most
+powerful (Purple) to least powerful (Red). Your energy meter is
+always red. Most of your enemies fall into the lowest three
+categories — the higher levels are reserved for the Bosses!
+
+0 GS a
+NN ae Se ace ea
+LL | aaa a a ETE
+OC) rT
+LS |, aS a TT
+Dark Gree) a
+a
+
+Light range
+
+Bright Yellow
+
+Red beso
+
+Lower Categories
+
+As an enemy loses power, his energy meter changes color. When
+the meter turns red, it will gradually decrease as your blows find
+their mark. The enemy is defeated when his red energy meter runs
+out.
+
+Lives
+
+You begin each game with five lives. The number of lives remaining
+(in addition to the current life) is displayed above your character
+icon, next to the energy meter.
+
+14
+
+Character Icon
+
+The character icon next to your energy meter changes appearance
+to let you know when you're in Angry Mode — the character looks
+like he’s shouting. Your character switches into Angry Mode when
+he comes under heavy attack. In Angry Mode you are more
+powerful and cannot be hurt by your opponents. Angry Mode lasts
+for a limited amount of time. This time
+is indicated by the energy meter, which
+changes to a countdown timer. When
+the timer runs out, your character
+returns to normal mode. When you,
+your partner or one of your enemies is
+about to lose a life, the icon for that
+character starts flashing and an “X"
+appears across it.
+
+Scoring
+
+Each defeated enemy is represented by a small head that appears
+above your energy meter. Ten enemies are represented by a small
+“10"; 100 enemies are represented by a star. A high score screen
+appears at the end of the game. Use your Control Pad to move the
+cursor, then press the B Button to select a letter. If you make a
+mistake, press the A Button to erase the last letter. You may enter
+up to eight characters. When you have finished entering your name,
+select EX to exit the high score screen.
+
+Continue
+
+After losing your last life, you are given the option of continuing the
+game up to eight times. To continue the game, simply press
+START before the countdown timer at the end of the game reaches
+0. When you continue a game you may keep the same character or
+choose a different character. To change your character selection,
+press any direction on the Control Pad before the character
+reappears (this takes about ten seconds). The icon at the top of the
+screen shows which character you are choosing.
+
+15
+
+===== Page 9 =====
+
+AF ASAF IS AF ISAFISAF IS AF 33
+
+Joining the Action
+
+During a One Player game you will see the words “PUSH START”
+flashing in the upper right corner of the screen. This indicates that a
+second player can join the action simply by pressing START on
+Controller 2. Once a second player presses START, a character
+icon appears on the right side of the screen. To change Player
+Two's character selection, simply press any direction on the Control
+Pad before the character appears.
+
+SPECIAL ITEMS
+
+Weapons
+
+Find weapons on the ground, or steal them from the Street Kings.
+Pick up a weapon by standing next to it and pressing the Y Button.
+
+° Knife ° Wrench ° Baseball Bat ° Dynamite
+= __
+° Hand Grenade ° Rock ° Brick
+
+cae
+ve
+
+Knives, wrenches and baseball bats can be used for as long as you
+can hold onto them. If you're knocked down and drop your weapon,
+try to pick it up again before it disappears. Dynamite and hand
+grenades can be used only once — make sure you don't get blown
+up in the process! Rocks and bricks can be used a limited number
+of times.
+
+Food
+
+Smash garbage cans and wooden crates to find food to restore your
+strength. Pick up food by standing next to it and pressing the Y
+Button.
+
+16
+
+Baked Chicken Hot Dog
+Restores All 3 Restores 1/4
+ae of your strength | of your strength
+
+<_< Sushi i ~—- Soda Pop
+Restores 1/2. Restores 1/8
+= of your strength 4 of your strength
+
+THE STAGES
+
+Rival Turf includes six complete stages, each of which is divided into
+a number of separate scenes. Fight your way to the end of each
+stage, then defeat the big boss to advance to the next stage — if
+your luck holds out!
+
+Police Station
+
+You begin your mission at the 61st St. Police Station. After pouring
+over dozens of maps, Jack and Oozie have finally located Big Al's
+hideout. Getting there won't be easy, though — the Street Kings are
+waiting outside and they don't waste
+any time. Fight your way to the bus
+stop, then catch the express to the City
+Stadium. Those no-good street scum
+go along for the ride, so don’t expect an
+uneventful trip. The bus lets you off
+near the stadium... if you manage to
+survive. Get ready for more fast moves
+and hard-hitting action on your way to
+the stadium entrance.
+
+City Stadium
+
+Hmmm... looks like you're expected. The welcoming committee is
+ready and waiting, and | don't think they're planning a tea party. Put
+your best foot forward as you slug it out in front of stands — there's
+
+17
+
+===== Page 10 =====
+
+AF ADAF AS AF ADAF ASAF IS UF 3
+
+a full crowd today, and you're the main event! Inside the locker
+room, everything looks quiet... at first, that is. If! were you, I'd just
+keep moving — these guys are really starting to getting mad. Take
+the nearest exit and head for the
+parking garage — it's the quickest way
+out of here. By the way, watch out for
+passing cars. This IS a parking garage,
+remember?
+
+Skyscraper
+
+Boy, you've really ended up in a nasty
+part of town. | don't think the landlord
+in this neighborhood has heard of urban
+renewal — or screening his tenants. These thugs hit first and ask
+questions later. When you reach the main building, take the service
+elevator to the roof. But wait... this is
+no ordinary roof — it's also the landing
+pad for Big Al's helicopter! Looks like
+you're on the right track at last.
+Needless to say, the guards aren't too
+pleased to see you... especially the big
+guy in the mask. Stay on top of the
+situation and you may find yourself on
+the next flight out of there.
+
+Southern Mountain
+
+The helicopter takes you south of the border, far away from the
+dangerous city streets. Hey, who's flying this thing, anyway?
+Before you get a chance to find out, the
+chopper crashes into a jungle clearing.
+You hop out and walk away unscathed
+— right into the middle of an enemy
+search party. So what did you expect?
+The next stop is a deserted village.
+Well, maybe deserted isn’t exactly the
+right word... yep, you've stumbled
+
+18
+
+across another one of Big Al's outposts. There's a boat waiting
+down at the river, if you make it that far.
+Unfortunately, the Captain doesn't look
+too friendly. Maybe you should try to
+get the chopper fixed.
+
+Southern Port
+
+After decimating the Captain and his
+crew, you commandeer their boat and ‘
+navigate your way to the Southern Port.
+
+Good thing you brought those maps
+
+with you. The boat docks at a rundown pier, next to a seedy-looking
+warehouse. This must be the place — Big Al's Discount Arsenal
+and Smuggling Emporium. Slug it out with Al's aggressive
+underlings on the dock and in the warehouse, then smash your way
+through the office and back onto the pier. Uh oh... it's Big Al's first
+lieutenant and warehouse manager —
+the Ice Man. Someone should tell that
+dude to chill out.
+
+The Hideout
+
+At last — the Hideout! The heart of the
+Street Kings’ corrupt empire. This
+place is unbelievable... banks of
+computers, heavy machinery, even a
+couple of particle reactors — and
+there's no telling what's behind all those locked doors. You've gotta
+put this guy out of commission before he causes some serious
+trouble! Oh yeah, and don't forget about Heather — she's around
+here somewhere, too. As you might guess, the place is swarming
+with Big Al's bodyguards. Their orders are to stop you in your
+tracks, and they intend to do just that. Pull out all the stops to crush
+his finest forces, led by three of Al's bosses. Big Al himself is
+waiting to challenge you in a final rooftop confrontation. You've
+made it this far — give it everything you've got in this awesome fight
+to the finish!
+
+19
+
+===== Page 11 =====
+
+AF ISAF IS AF FSAF ASF ASF 25
+
+THE STREET KINGS
+
+Bullet
+
+Case
+
+Reggie
+
+Skinny
+
+Butch
+
+Louie
+
+Kato
+
+Goro
+
+Warrior
+
+Dingo
+
+An all-around hoodlum and muscle man. Don't
+worry about the name, though... his fists are his
+only weapon.
+
+A safety-conscious biker, this motorcycle maniac
+always wears his helmet. He takes up where
+Bullet leaves off.
+
+A tall rap dude with an attitude. Not much of a
+fighter, but he delivers a mean kick when he gets
+the chance.
+
+You'll know this guy when you see him — tall,
+skinny and bald, with a nasty temper and a power
+kick to match.
+
+Short, fat, bald,
+nearsighted... O.K.,
+so this slob’s meaner
+than he looks — and
+he uses his weight to
+his advantage.
+
+When Louie played
+football his nickname
+was “Slugger.” He may look out of shape, but he’s
+still got a mean uppercut.
+
+Kato has turned to a life of crime... and his judo
+throws are as lethal as ever.
+
+A black belt in the deadly martial arts. Get too
+close, and his karate kicks will find their mark and
+send you flying.
+
+Don't let the costume fool you — he may look like
+an extra in a Kabuki Shakespeare production, but
+this guy's tough.
+
+Another fierce ninja warrior masquerading as
+Henry Vill. This one’s a little faster and a lot more
+brutal than his pal.
+
+The Bosses
+
+Amold He likes to think he’s the star of the show... and he
+wants to write you out of the script.
+
+Gigante This dude used to be a professional wrestler, and
+he hasn't met his match yet.
+
+Genie This sabre-slashing adversary materializes at the
+end of Stage One. Don't expect him to grant you
+any wishes, though... he left his lamp at home.
+Look for him to make an encore appearance before
+the game is through.
+
+Sledge The breakdancin’
+dude on Stage Two is
+jammin’ to the tunes
+on his boom box ...
+but that won't keep
+you from getting
+hammered. When he
+signals for help, it
+means reinforcements
+are on the way — ina
+‘63 Cadillac.
+
+Slasher Watch out for this masked madman at the end of
+Stage Three. For Slasher, every day is Halloween
+— and he's not handing out treats. As you stop to
+admire the view from the roof, he swoops down
+and smashes into his prey... you.
+
+Captain Before you borrow the boat at the end of Stage
+Four, you'll have to convince the owner — that
+infamous pirate and outlaw of the high seas,
+Captain Crook. He's big... he’s ugly... and he’s
+headed your way. Maybe you should swim.
+
+===== Page 12 =====
+
+AF AISAFIBAF IS AF FSAF IS LF 2S
+
+Ice Man The Ice Man cometh
+at the end of Stage
+Five (sorry, folks — |
+couldn't resist that
+one). You may find it
+hard to keep your
+footing as he spins
+and whirls — just keep
+moving and try to
+catch him off guard. Funny, | don’t see any ice...
+
+Big Al What can | say? He's Big Al, and he’s like nothing
+else you've seen before. | guarantee it'll be an
+earth-shattering experience — if you live to tell
+about it. You're gonna need a little luck and a lot of
+skill to make it through this one!
+
+GAME TIPS —
+
+THE JALECO MAJOR PLAYER'S HOTLINE
+
+If there's something you don't understand about your new Jaleco
+game, or if you're having problems with your cartridge, or if you're
+just plain stuck, you're welcome to call the Jaleco Major Player's
+Hotline between the hours of 8:30AM and 5:00PM Central time
+Monday through Friday (except holidays). One of our friendly game
+counselors will be happy to give you tips or help you out with any
+problems you're having. Here's the number to call:
+
+708-480-7733
+
+Note: Normal telephone charges apply when you call the hotline
+number. It is not a toll-free call. Kids: get your parent's or
+guardian's permission to call before dialing the Jaleco Major Player's
+Hotline!
+
+22
+
+TAKING CARE OF YOUR
+
+JALECO GAME
+
+* This Jaleco Game Pak is a precision-crafted device with
+complex electronic circuitry. Avoid subjecting it to undue
+shock or extremes of temperature. Never attempt to open
+or dismantle the Game Pak.
+
++ Do not touch the terminal leads or allow them to come
+into contact with water or the game circuitry will be
+damaged.
+
++ Always make sure your Super NES Control Deck is
+SWITCHED OFF when inserting the Game Pak or
+removing it from the Super NES Control Deck.
+
+COMPLIANCE WITH FCC REGULATIONS
+
+This equipment generates and uses radio frequency energy and if not
+installed and used properly, that is, in strict accordance with the
+manufacturer's instructions, may cause interference to radio and television
+reception. It has been type tested and found to comply with the limits for a
+Class B computing device in accordance with the specifications in Subpart J
+of Part 15 of FCC Rules, which are designed to provide reasonable
+protection against such interference in a residential installation. If this
+equipment does cause interference to radio or television reception, which
+can be determined by turning the equipment off and on, the user is
+encouraged to try to correct the interference by one or more of the following
+measures:
+
+—Reorient the receiving antenna
+
+—Relocate the SUPER NES with respect to the receiver
+
+—WMove the SUPER NES away from the receiver
+
+—Plug the SUPER NES into a different outlet so that
+computer and receiver are on different circuits.
+
+If necessary, the user should consult the dealer or an experienced
+radio/television technician for additional suggestions. The user may find the
+following booklet prepared by the Federal Communications Commission
+helpful: How to Identify and Resolve Radio/TV Interference Problems. This
+booklet is available from the U. S. Govemment Printing Office, Washington,
+DC 20402. Stock No. 004-000-00345-4.
+
+23

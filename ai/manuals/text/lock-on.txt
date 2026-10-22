@@ -1,0 +1,506 @@
+# Lock On
+source: https://archive.org/details/snes_manual_archive
+pdf: Lock On (USA).pdf
+region: USA
+pages: 8
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+INSTRUCTION BOOKLET
+
+ay
+
+VIC TOKAI INC. VIC TOKAI
+
+20904 Lockness Ave., Torrance, CA90501— SUPER NINTENDO
+
+ENTERTAINMENT SYSTEM ie
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+W The Night Before the Mission ——————--___— 2
+lise of the/Gnmtrolle( 45
+
+WW. Heatlingethe Instrments i
+A Si ee ES a ened ]
+
+Continue
+Game Over
+
+We Uo gfight Techniques 8-9
+
+W Fighter Planes Explained —————__-___ 10-11
+
+THIS OFFICIAL SEAL IS YOUR
+
+PIGENSEDIBY: ASSURANCE THAT NINTENDO HAS.
+ee
+5 > PRODUCT. ALWAYS L S A
+Nintendo SEAL WHEN BUYING GAMES AND. A Look at the Weapons-——------____ IZ
+ACCESSORIES TO ENSURE COMPLETE
+COMPATIBILITY WITH YOUR SUPER,
+NINTENDO, SUPER NINTENDO NINTENDO ENTERTAINMENT SYSTEM
+ENTERTAINMENT SYSTEM ALL NINTENDO PRODUCTS ARE
+AND THE OFFICIAL SEALS ARE LICENSED BY SALE FOR USE ONLY
+REGISTERED TRADEMARKS OF WITH OTHER AUTHORIZED PRODUCTS
+
+NINTENDO OF AMERICA INC. BEARING THE OFFICIAL NINTENDO
+(©1993 NINTENDO OF AMERICA INC. SEAL OF QUALITY.
+
+===== Page 3 =====
+
+Early clst Century, Ihe Night
+Before the Misston
+
+The year is 1990. The world market has slid into
+recession, and the countries of the world, beginning with the
+more advanced nations, have slashed their military budgets.
+After the collapse of the Soviet Union, civil wars and
+disturbances break out everywhere. Guns and ammunition,
+instead of going through normal military channels, are being
+diverted to the black market. Among these weapons are some
+of the latest jet aircraft, planes that showed overwhelming
+power in the Gulf War.
+
+It looks as if the world is poised on the edge of the Third World
+War. Suddenly, fighter planes, country of origin unknown,
+violate the air space over an unknown country in the Middle
+East. Innumerable blips appear on radar screens. The head of
+the government of the unknown country asks for the
+intervention of UN Forces.
+
+Gentlemen, your mission is to defeat all of the planes you see
+on your on-board radar. So, show your true colors, prevent the
+spread of this war, and stop the outbreak of World War Three.
+
+===== Page 4 =====
+
+Use of the Controller
+
+This is a one-player game. Please connect the standard
+controller to Port 1.
+
+L Button R Button
+
+X Button
+
+Control Pad Select Start Y Button A Button
+B Button
+Start Buttomessssssssssssesssseesssn Starts the game at the Title Screen
+
+Skips over the mission instructions
+Pauses the game during play
+
+A Button ..Fires the A missile
+B Button Fires the B Missile
+Advances text during mission instructions
+NW BUtION <faasctmentnnese Fires the Vulcan gun
+(Not available on TORNADO)
+X Button... Fires a flare
+R Button... ..Press and hold to increase speed.
+In a dogfight, pressing and releasing quickly will
+activate the afterburner
+PBUONscatamercr tec Press and hold to decrease speed
+
+In a dogfight, pressing and releasing quickly will
+activate the air brake
+ontroliPad seyret Used to change direction of your fighter
+
+SPECIAL BUTTON TECHNIQUES
+
+LOOP (AIR-TO-AIR MISSIONS ONLY)
+ee To get behind an enemy
+
+pursuing you.
+
+While holding DOWN the Control Pad, push
+the R button rapidly.
+
+To rapidly rotate your fighter, to
+get behind an enemy to the side.
+
+Pushing left and right on the Control Pad
+while pressing the R button rapidly activates
+the roll.
+
++ Depending on where your fighter is hit by enemy fire, your fuel consumption and the
+operation of your Vulcan gun and afterburner may be affected.
+
+RAPID CLIMB (BOMBING MISSIONS ONLY)
+
+Climb quickly, to avoid a crash.
+While holding DOWN the Control Pad, push the R Button rapidly.
+
+* During a bombing mission hitting anti-aircraft guns will put them out of commission for 1
+hour, greatly increasing your chances at low altitudes.
+
+If you select OPTIONS at the title screen, you can change the controller button functions. You
+
+can also change the number of credits you start with.
+
+===== Page 5 =====
+
+Reading Instruments
+
+GAME START/CONTINUE/GAME OVER
+
+The on-board radar quickly detects approaching enemy fighters and missiles.
+
+GAME START
+
+This is the key to deciding what tactics will ensure victory.
+
+Oo
+
+@ Lock-on Alarm
+© Vulcan Gun Ammunitioi
+© Enemies shot dow
+
+_ @AMissiles remaining
+® B Missiles remaining.
+~ ® Flares.
+® Fuel gaug
+® Lock on...
+
+BOMBING MISSIONS ONLY
+® Ground Radar...
+
+© Bombing accuracy.....
+
+@ Digital Altitude Meter.........
+
+7) :
+Oo O98
+
+hows location of enemy planes and missiles.
+
+‘our plane is shown by the white triangle.
+
+hows the altitude of your fighter
+
+‘egisters when your fighter is hit. Damaged areas are shown
+in red. If your fighter is damaged in more than
+4 places, your fighter is destroyed.
+
+hows if your fighter is flying level, banking left or
+anking right.
+Shows the present rate of speed of your fighter.
+
+ngine thrust is displayed.
+
+larm sounds when your fighter has been locked on by
+an enemy missile.
+
+hows how much ammunition is left
+
+for the Vulcan gun.
+Displays how many enemy fighters
+have been shot down. ian
+
+hows the number of A Missiles left.
+
+hows the number of B Missiles left.
+
+hows the number of flares remaining.
+
+hows the amount of fuel remaining.
+When the square is displayed, your missile aiming system
+is locked on to an enemy.
+
+....Bomber radar. Shows the contour of the land, targets
+
+(in red) and your fighter (in white).
+Shows the target destruction level during bombing mission.
+(No damage is shown as 100%)
+
+al Digital display shows altitude. D
+
+At the Title screen, push the Start Button. Mission 1
+will start. There are air missions and ground
+missions. You can choose between 2 aircraft for
+each type of mission. You can also choose the kind
+of weapons appropriate to your mission.
+
+GAME OVER
+
+If your fighter suffers damage in four places, or if
+you are hit by an enemy air-to-air missile, you lose
+one fighter. If you run out of fuel, you lose one
+fighter. You will also lose a fighter if you exhaust
+your weapon and ammunition supply or if your
+altitude drops to 0.
+
+When you've lost all your fighters the game is over.
+
+CONT TNE:
+
+REPORT
+FIGHTER TORNADO
+TIME Cala
+HIT RATE Saliz.
+DAMAGE RATE Oz
+EVALUATION wa
+
+CONTINUE
+
+When you've lost all your fighters, the continue
+screen is displayed.
+
+If you want to continue, select YES within 10
+seconds.
+
+There is a limit on the number of continues.
+
+BATTLE RESULTS SCREEN
+
+After each Mission is cleared the screen shown at left
+will appear.
+> Mission Elapsed Time
+
+The elapsed time of this mission is displayed.
+> Hit Rate
+
+Shows the percentage of missiles player fired
+
+that hit their target
+» Damage Rate
+
+This is computed with one of the player's planes as 100%
+> Evaluation
+
+Player's performance is rated - one to five stars.
+
+===== Page 6 =====
+
+Basic Dogfight Techniques
+
+The techniques explained here are useful during dogfights. By
+combining these, you'll be able to maneuver your ship, wage war on
+the enemy, and trap your opponents.
+
+AFTERBURNER
+
+The afterburner is used to quickly raise the speed of your
+fighter. Burns fuel rapidly.
+
+An effective strategy for chasing and shooting down an escaping enemy.
+To evade an enemy approaching from behind.
+
+ROLL
+Makes it possible to rapidly change forward direction
+
+* Used to rapidly change direction to attack an enemy alongside .
+
+<—<_ = -
+
+| sat ee
+
+AIR BRAKE
+
+When flying high and fast, this will bring your speed down
+rapidly using air pressure.
+
+* To evade an enemy approaching from the rear and get behind him.
+
+oe
+ve
+
+.
+
+B Paces |
+A x\ Be
+
+LOOP
+Climb quickly, and loop
+
+You can use this technique to avoid an enemy you're running from, and get
+behind him.
+
+Sirah
+
+> Avoiding Enemy Missiles
+
+By using the button techniques (Roll, Loop, etc.) you can usually manage to avoid
+enemy missiles, but you can also, by carefully timing the release of flares, divert an
+enemy missile and increase your chances of success. 4
+
+===== Page 7 =====
+
+gee AREA nc ae
+
+The latest aircraft designed for dogfighting. Pick the aircraft most suited to your
+mission, taking into account their speed and maneuverability and your strategy.
+
+Fi4-0 Super Tomcat
+
+ROMS
+
+Used in Air-to-Ground missions. Select your bomber by carefully considering
+armament, speed, and turning ability.
+
+A-10A Thunderbolt I
+
+Its advantages are high speed and long range. Can carry a large missile load.
+Weapons payload limit is 9800 kg.
+
+F14-D (usa)
+
+DATA
+
+ENGINE F-110-6-400
+LENGTH 18.87m
+HEIGTH 4.68m
+
+WEIGTH 27.87t
+
+As an attack bomber, it has a tight turning radius. Equipped with powerful
+Gatling gun. Missile payload is small. Weapons payload 6800 Kg.
+
+A-10A (usa)
+
+DATA
+
+ENGINE TF34-6E-100
+LENGTH 16.26m
+HEIGTH 4.47m
+WEIGTH 20.91t
+
+American Navy variable wing fighter. Usually assigned to squadrons in charge
+of air defense of aircraft carriers. It can track 24 targets simultaneously at long
+range, and attack 6 aircraft at the same time with its APG-71 radar and AIM-54C.
+Equipped with the latest Phoenix air-to-air missile weapons system.
+
+F5-X[FIGSX-3]
+
+Excelling in maneuverability, demonstrates its power in standard combat but Its
+missile accuracy is very high. Weapons payload 5500 Kg.
+
+FS-X (Japan)
+
+DATA
+
+ENGINE F200-PW-100A
+LENGTH 14.52m
+HEIGTH 5.01
+
+WEIGTH 16.05t
+
+Replaces the F-1 as the Japanese Air Self-Defense Force's main support fighter.
+Based on the General Dynamics F-16, produced by a joint U.S.-Japan effort, it
+has special electronic radar, upgraded engine, and improved stealth
+capabilities. It also has the large size of its wings, the strength of its armaments,
+and improved maneuverability to recommend it .
+
+American Air Force bomber developed for the Vietnam War, it specializes in
+close support. With its heavy armaments it can remain over a battle zone long
+periods of time. It was developed for its maneuverability as well as its high
+survival rate in combat. Top speed of 722 km/hr. Unique appearance. Boasts a
+fixed large-bore 30mm Gatling Gun.
+
+TORNADO IDS
+
+Bomber specializing in high-speed low-level flight. Capable of carrying large
+TORNADO IDS (NATO)} missiles. Weapons payload 9900 kg.
+
+DATA
+
+ENGINE RB199-34-R4
+
+LENGTH 18.06m
+HEIGTH 5.73m
+
+WEIGTH 23.27t
+
+Standard bomber developed jointly by England, West Germany and Italy.
+Distinctive features are high-speed, low-level attack capabilities and deadly
+accuracy. It maintains its maneuverability during low-level flying and can follow
+the contours of the land at altitudes as low as 60 meters. Distinguished by
+accuracy at both high and low altitudes, and its sophisticated STOL capabilities.
+In addition, it is used by the English Air Force as an ambush bomber.
+
+11
+
+===== Page 8 =====
+
+| AT THE WEAPONS
+
+ACICUNSCRU LECT
+
+You can change the A Missile and B Missile
+to match your choice of battle tactics. By
+selecting CHANGE at the Missile select screen
+you can load to the payload limit of your
+aircraft.
+
+Air to Air Use
+FI4-D and FS-X
+
+> M61 Vulcan gun ... Controlled by the Y Button
+Short range air-to-air weapon. Six barrels fire 4,000-6,000 20 mm.
+rounds per minute. Number of rounds limited.
+>A Missile AIM-9 Sidewinder Controlled by the A Button
+Heat-seeking air-to-air missile. This missile can follow the exhaust trail
+of a jet engine. Useful when pursuing an enemy.
+>B Missile AIM-7 Sparrow Controlled by B Button
+Semi-active radar homing missile. This missile is guided by locking on
+to a radar signal from your fighter. Medium Range missile.
+> Flare shell Controlled by the X Button
+Flares can be used to divert an enemy missile. If timed well, an
+approaching enemy missile will lock on to flare, allowing you to escape.
+
+Air to Ground Use AlO-A Tornado-IDS
+
+> GAU-8/A Gatling Gun .......Controlled by the Y Button.
+Used only on the A10-A. Armor-piercing 30 mm gun. Number of rounds limited.
+>A Missile BLU-27 Napalm Gun..... Controlled with the A Button
+Burns everything over a wide target area using intense heat.
+> B Missile AGM-65 Maverick Air-to-ground Missile Controlled by the B Button
+Highly accurate, powerful Air-to-ground missile.
+
+90-DAY LIMITED WARRANTY
+
+VIC TOKAI, INC. warrants to the original purchaser only that the product
+provided with this manual will perform in accordance with the descriptions
+in this manual for a period of 90 days from the date of purchase. If the
+product is found defective within 90 days of purchase, it will be repaired or
+replaced, at our option. Simply return the product, postage paid, to VIC
+TOKAI, INC. along with dated proof-of-purchase. Repair/replacement of
+the product free of charge to the original purchaser (less the cost of
+returning the product) is the full extent of our liability. This warranty does
+not apply to damage due to normal wear and tear. This warranty shall be
+void if the defect to the product is determined to have arisen through
+abuse, unreasonable use, mistreatment or neglect at which time the
+product may be deemed irreparable, leaving the owner liable for
+tepair/replacement costs.
+
+This warranty is in lieu of all other warranties, whether oral or written,
+express or implied. All implied warranties, including those of
+merchantability and fitness for a particular purpose, if applicable, are
+limited in duration to 90 days from the date of purchase of this product.
+
+VIC TOKAI ING. shall not be liable for the incidental and/or consequential
+damages for the breach of any express or implied warranty including
+damage to property and, to the extent permitted by law, damages for
+personal injury, even if VIC TOKAI INC. has been advised of the
+possibility of such damages. Some states do not allow the exclusion or
+limitation of incidental or consequential damages or limitations on how
+long an implied warranty lasts, so the above limitations or exclusions do
+not apply to you.
+
+This warranty shall not be applicable to the extent that any provision of
+this warranty is prohibited by any federal, state or municipal law which
+cannot be pre-empted. This warranty gives you specific legal rights and
+you may also have other rights which vary from state to state.
+
+VIC TOKAI INC.
+22904 Lockness Ave.
+Torrance, CA 90501
+(310) 326-8880

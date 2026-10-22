@@ -1,0 +1,728 @@
+# Super Strike Eagle
+source: https://archive.org/details/snes_manual_archive
+pdf: Super Strike Eagle (USA).pdf
+region: USA
+pages: 12
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+—
+
+SNS-EG-USA
+
+Sy, avFeS
+“ £Le IRE: rane
+
+INSTRUCTION BOOKLET
+
+ENTERTAINMENT + SOFTWARE
+
+kefront Drive, Hunt Valley, Maryland 21030
+(410) 771 - 1151
+
+ae SUPER NINTENOD
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER INFORMATION &
+PRECAUTIONS BOOKLET CAREFULLY BEFORE USING YOUR NINTENDO’
+HARDWARE SYSTEM OR GAME PAK.
+
+Licensed by Nintendo
+for play on the THIS OFFICIAL SEAL IS YOUR AS-
+
+SURANCE. THAT NINTENDO. HAs
+SUPER NINTENDO APPROVED THE QUALITY OF THs
+
+| PRODUCT, "ALWAYS LOOK FOR
+CATERTATNMERT 37 37ER Tis SEAL WHEN BUWING CAMS
+fire coMPATIITY WIHH YOUR
+SUrra NINTENDO ENTERTAINMIN
+SYSTEM. AIL NINTTNDO PRODUCTS
+ARE LICENSED) SALEFORUSE ONY
+
+NINTENDO, SUPER NINTENDO EN-
+TERTAINMENT SYSTEM AND THE OFFI~
+CIAL SEALS ARE REGISTERED
+TRADEMARKS OF NINTENDO. OF WITH OTHER AUTHORIZED PROD-
+AMERICA INC. "1991 NINTENDO. UCTS BEARING THE OFFICIAL
+OF AMERICA INC. NINTENDO SEAL OF QUALITY.
+
+__ errr
+
+CONTENTS
+
+Getting Started
+Preflight Briefin
+Prepare for Takeoff ...
+Satellite Map Mode
+
+The WSO Screen .
+Air-to-Air Combat Mode
+Cockpit Diagram ....
+Ground Attack Combat Mode
+Landing Your F-15....
+Super Strike Eagle Weapons
+Enemy Weapons...
+Theaters and Combat Missions
+Winning the Game .
+Hints on Play ..
+Game Credits
+
+===== Page 3 =====
+
+GETTING STARTED
+
+GETTING STARTED
+
+The F-15 Strike Eagle got its first real baptism of fire in the
+Gulf War of 1991, where it came through with flying
+colors, and was responsible for the overwhelming majority
+of enemy aircraft which were downed in aerial combat. It
+was this success that proved without a doubt that there is
+no combat airplane in the world today which is superior to
+the F-15.
+
+Now, with the MicroProse Super Strike Eagle, you have
+the opportunity to demonstrate that you can be a real ace,
+too, as you face the challenge of a variety of tough
+resourceful foes in theaters across the globe. Before you
+strap yourself into your cockpit for your first mission, we
+suggest you take a few minutes to look through this Pilot’s
+Manual. Then take to the skies and match your skills
+against all comers.
+
+Good luck, Super Strike Eagle pilot!
+
+You are about to begin your first mission as the pilot of the
+world’s most feared and respected combat airplane, the F-15
+Strike Eagle. Prior to taking your SUPER STRIKE EAGLE up for
+a mission, be sure to follow these preflight guidelines:
+
+1. Make sure the power switch on your SNES game
+machine is OFF.
+
+2. Insert the SUPER STRIKE EAGLE Game Pak into the
+game machine, as described in your SUPER NINTENDO EN-
+TERTAINMENT SYSTEM manual.
+
+3. Turn the power switch to ON.
+
+4, Once the opening animation has ended, press START
+on your controller to begin a new game, or SELECT to
+restore asaved game. If you choose to play a saved game,
+you will then be asked to enter the correct Access Code.
+
+===== Page 4 =====
+
+——— REFLIGHT BRIEFIN
+
+The first screen you will see in the game is the Briefing
+Screen. Here you are given a summary of the strategic
+situation, and you can also view a map of the theater which
+highlights all strategic targets, enemy airbases and enemy
+air defense headquarters, as well as your own airbases and
+aircraft carriers. You will also see how many points are
+scored for each target, and what bonus, if any, you receive
+for destroying it. NOTE: For purposes of Briefings and
+Debriefings, enemy missile boats are identified as Air
+Defense HQs.
+
+Targets shown on the Briefing Screen are grouped by
+type. On the upper right-hand side of your screen you see
+an overhead photo reconnaissance view of the target as it
+will appear in the Ground Attack Combat Mode (see p. 14).
+The score you get for destroying one of these targets, along
+with any possible bonus in weapons or other ordnance, is
+listed below.
+
+To the left of your Briefing Screen you see a map of the
+entire theater of combat. All targets and friendly bases are
+shown on this map, with the currently highlighted target
+flashing. The game will automatically advance you through
+all of the targets in the theater. If you wish to see your
+assigned targets more quickly, press any button but START.
+If you wish to pause the Briefing at any point, press any
+button but start and hold it down.
+
+PREPARE FOR TAKEOFF
+
+Once you are ready to begin your mission, press START
+to exit the Briefing Screen and proceed to takeoff. Here
+you will see your F-15 ready to take to the skies, from either
+an airbase runway or a carrier deck.
+
+To get into the air, press X on your controller to throttle
+up, and keep pressing X until you are at maximum throttle.
+Pressing X when you are on the aircraft carrier automati-
+cally advances your throttle to afterburner. As soon as you
+are airborne, press the Down arrow on the left side of your
+controller to gain altitude.
+
+WARNING: If you do not gain sufficient altitude and
+speed, you can crash on takeoff! This is NOT a good way
+to begin your career as a hotshot combat pilot. In the real
+world, such an occurrence might have an adverse effect
+upon your membership in the base Officers’ Club.
+
+One or Two Players: The second player is the WSO
+(Weapons Systems Officer, or “Wizzo”). The WSO handles
+all weapons and defenses, while the first player flies the F-
+15. This is a good way to deal with the tougher opponents
+you will meet in the later theaters. The Wizzo player uses
+the second controller.
+
+===== Page 5 =====
+
+SATELLITE MAP MODE
+
+MISSILE __
+BOAT
+DAMAGE
+INDICATOR
+
+YOUR,
+
+Mets ARTIFICIAL
+
+HORIZON
+(Shows angle
+
+‘of roll of your
+15
+
+must be level
+for you to fly
+
+NAVIGATION
+ARROW
+(Points toward
+Target or
+
+Friendly Base)
+
+screen)
+
+Once you complete your takeoff, you will find your F-15 in
+the Satellite Map Mode. This is the screen you normally
+see as your F-15 flies across its theater of operations. On
+this map you will see not only your own aircraft, but others
+as well, along with ground targets, enemy airbases and Air
+Defense Headquarters, your home airbase or aircraft car-
+rier, and the terrain of the ground far below you. You will
+also see enemy SAMs in flight. You can evade these or
+release chaff and flares to decoy them.
+
+SATELLITE MAP MODE
+
+Whenever circumstances require it, or you choose to do
+so, you may exit this mode into either the Air-to-Air Combat
+Mode, the Ground Attack Mode, or the Landing Mode.
+
+You cannot engage in combat in this mode, but you can
+be tracked and locked onto by enemy SAM sites, which
+can then also launch missiles at you.
+
+Use your chaff or flares to decoy the enemy missiles
+(see page 18).
+
+CONTROLLER FUNCTIONS
+
+(TOP RIGHT BUTTON) 4X BUTTON)
+RELEASE FLARES THROTTLE UP
+(INCREASE SPEED)
+
+(TOP LEFT BUTTON)
+RELEASE CHAFF
+
+(A BUTTON) GO
+CONTROL PAD TO WSO SCREEN
+CHANGE
+
+HEADING (SELECT + A BUTTON)
+
+ENGAGE/DISENGAGE
+AUTOPILOT
+
+(B BUTTON) SHIFT TO.
+GROUND ATTACK
+MODE/LANDING.
+MODE WHEN TARGET
+APPEARS
+
+(Y BUTTON)
+THROTTLE DOWN
+(DECREASE SPEED)
+
+(START) GAME
+(SELECT+B BUTTON) PAUSE/
+SELECT MISSILE TYPE UNPAUSE
+
+===== Page 6 =====
+
+__ er
+
+AIR-TO-AIR COMBAT MO
+
+The WSO, or Weapons
+Systems Officer, is the un-
+official “backseat driver”
+of the F-15. It is he who
+normally keeps track of the
+position of all enemy
+threats to the aircraft,
+among other duties.
+
+Tere
+
+In Super Strike Eagle, the
+WSO Screen tells you where
+your F-15 is in the theater,
+which targets have been
+destroyed and which remain, and where you have placed
+your Navigation Arrow — which will also be the point to
+which your Autopilot, once engaged, will take the aircraft. By
+pressing SELECT on this screen, you can choose to have the
+Navigation Arrow guide you to either the nearest enemy
+target or the nearest friendly airbase or carrier. Ared dotin the
+box labeled either “TARGET” or “BASE” shows which you
+have chosen.
+
+The WSO Screen also tells you how many missiles, chaff,
+flares and rounds of 20mm ammo you have remaining, as
+well as indicating your current score and any damage to your
+F-15. Once damage reaches the critical level (exceeds 75%),
+you should consider heading home for repairs. When the
+damage level reaches 100%, your F-15 will explode.
+
+CONTROL
+
+Whenever your F-15 is near an enemy MiG on the
+Satellite Map, the game automatically shifts into the Air-to-
+Air Combat Mode. Here you can dogfight with enemy
+MiGs using your air-to-air missiles and Vulcan 20mm
+cannon. You are within cannon range when your boresight
+begins flashing. You are within missile range when the
+white aiming reticle appears. You remain in the Air-to-Air
+mode until all enemy aircraft are destroyed, until your
+own aircraft is shot down, or until there are no enemy
+planes or missiles remaining on your radar.
+
+CONTROLLER FUNCTIONS
+(TOP LEFT BUTTON) (TOP RIGHT BUTTON) (x BUTTON)
+RELEASECH ARE RELEASES FLARE THROTTLE UP.
+a -. (A BUTTON)
+FIRE VULCAN
+
+20MM CANNON,
+
+(B BUTTON)
+FIRE MISSILE
+
+PAIMMANEUVER F-15 (SELECT BUTTON +
+START (y BUTTON) B BUTTON)
+BUTTON)PAUSE/ THROTTLE ‘SELECT MISSILE
+UNPAUSE DOWN
+
+===== Page 7 =====
+
+SUPER STRIKE EAGLE COCKPIT
+
+Heading: Your current compass direction.
+Current Speed: Your airspeed in knots.
+
+Aiming Reticle: Follows your target. When it is white,
+you can fire, but will only hit targets which fly in a
+straight line. When itturns red, you have locked on, and
+any missile you fire will hit its target.
+
+Gun Boresight: Use this for aiming your Vulcan 20mm
+cannon. When it is flashing, you are within range.
+
+Tracking Box: Locates your target when it is not visible
+on your HUD.
+
+Altitude: Your current altitude in thousands of feet.
+Roll: Your degree of tilt to left or right.
+Pitch: Your degree of tilt up or down.
+
+Message Box: Informs you of remaining chaff, flares,
+ammo and missiles each time you use any weapons. Also
+informs you of enemy radar tracks and lock-ons.
+
+Radar Screen: Displays your F-15, and enemy aircraft
+and missiles in your vicinity. Planes and missiles which
+are green on radar are above your F-15; objects which
+are red are at a lower altitude than yourself.
+
+HL
+HEADING —_
+
+CURRENT —————}
+SPEED
+
+TRACKING BOX
+
+D (HEAD UP DISPLAY)
+
+SUPER STRIKE EAGLE COCKPIT
+
+GUN
+BORESIGHT
+
+ALTITUDE
+"OR “R’
+(INFRARED
+OR RADAR-
+GUIDED
+
+MISSILE
+WARNING.
+
+ARTIFICIAL
+HORIZON
+
+ROLL
+
+— PITCH
+
+\+|
+
+AIMING ———
+RETICLE
+ENEMY oO o
+FIGHTER }© |O\eNEMY TracKna]O]
+\__J 0" Jojoojayg
+your ris [Ry — 3
+ris oma lp >
+et {oO} o o
+far E472] fale TERREER [a [l :
+RADAR ee HS] o tertr0_ |B mm [8
+SCREEN ee Le
+- “asieiee|_ «| -OIOIGOIOTS | + ebb
+MESSAGE
+BOX
+
+FUEL
+REMAINING
+
+THROTTLE
+
+10
+
+===== Page 8 =====
+
+GROUND ATTACK COMBAT MODE may GROUND ATTACK COMBAT MODE
+
+YOUR F-15 ene Once you are in the Ground Attack Mode, your Navigation
+Arrow indicates the primary enemy target in that area. This is the
+target you must destroy to help you win the game.
+
+If you have chosen to fly to either an enemy target or
+your home base, you will be guided there by your Naviga-
+tion Arrow, until you enter either the Ground Attack Mode
+
+SAM. or the Landing Mode. Once your target is destroyed, the
+LAUNCHER Navigation Arrow points to either the nearest friendly
+airbase or carrier, or the nearest enemy target (depending
+upon which choice you have made on the WSO Screen).
+
+You can decoy enemy missiles in this mode by releasing
+
+EITHER chaff or flares as soon as you see a SAM heading
+Whenever you fly OVER a ground target in daytime, you toward you.
+have the option of entering the Air-to-Ground Combat .
+
+Mode. Press “B” and release to do this. At night and in the
+
+4 = P CONTROLLER FUNCTIONS
+first theater, you ALWAYS enter this mode when you fly over a
+
+target. You enter the Landing Mode in the same manner. OP LEETHOTION AGP RIGHT RETONN CRUTIONI
+
+It is here that you are able to attack and destroy enemy RUSE RELEASE CHAFF RELEASE FLARE THROTTLE UP
+targets with your weapons. Remember: Your mission THROTTLE DOWN —-
+orders require you to destroy only required targets — iGiKRRBUTION Oa at
+airbases, Air Defense Headquarters, SAM launchers and PAUSE/UNPAUSF CANNON
+
+AAA sites are NOT required targets! 8 BUTTON) FIRE
+MISSIL
+
+CONTROL PAD,
+MANUEVER F-15 (SELECT BUTTON
++ B BUTTON)
+
+SELECT MISSILE
+
+===== Page 9 =====
+
+Whenever you find your F-15 over a friendly airbase or
+aircraft carrier, you can land your aircraft by pressing and
+releasing the “B” button, just as if you were entering the
+Air-to-Ground Combat Mode. Once you have done so,
+you will find yourself in the approach pattern to your
+airbase or aircraft carrier.
+
+Descend slowly, so that your aircraft touches down just
+after you cross the end of the runway or carrier deck.
+Landing on the carrier is a bit tricky, as if you overshoot the
+arrestor cables (the yellow lines at the near end of the
+deck), you can crash. And don’t forget to throttle down to
+“QO” when you land at an airbase, or you'll overshoot the
+runway and explode!
+
+When you land your F-15, all damage to.your aircraft is
+repaired, and your fuel tanks are refilled. In addition, your
+Super Strike Eagle is rearmed with a full load of missiles,
+20mm ammo, chaff and flares. Since you can only land
+at each airbase or carrier twice to repair damage, it is a
+good idea to try to delay your return to a friendly base or
+carrier until you have heard your onboard computer's
+“DAMAGE CRITICAL” voice message. A number next to
+each location shows how many more landings you may
+make there.
+
+mae §=SUPER STRIKE EAGLE WEAPONS
+
+There are a variety of devastating weapons available to
+you for air-to-air and air-to-ground combat. You always
+begin the game with Sidewinder Air-to-Air missiles and
+Maverick missiles. As you improve your score, you are
+eligible to earn additional weapons for your aircraft.
+Newer air-to-air missiles permit you to lock on to your
+targets at greater ranges. Newer air-to-ground missiles are
+more effective at higher altitudes than the Maverick, but
+lock-on differently.
+
+You can switch to a different missile in either of the combat
+modes by pressing SELECT and “B” simultaneously.
+
+Air-to-Air les Your Defenses
+SIDEWINDER — Short-range AM (Air Enemy missiles are always either radar
+to-Air Missile). guided or infrared (he
+
+ing). Radar
+guided missiles are white and infrared
+heat-secking missiles are red on the
+Satellite Map.
+
+AMRAAM — Advanced Medium
+Range AAM
+
+SPARROW — Long-range AAM: Chaff — Release chaff in Air-to-Air and
+
+ROCKEYE — Standard unguided AGM tellite modes to decoy
+(Air-to-Ground Missile) Effective at enemy radar-guided missiles.
+high altitudes
+
+Flares — Release flares in Air-to-Air and
+
+MAVERICK — Radar-guided AGM. Satellite modes to decoy enemy heat
+Effective at low altitudes only secking missiles
+
+PAVEWAY — Laser-uided AGM, Either — Release either in Air-to-Ground
+Effective at middle altitudes. Mode to decoy all SAMs.
+
+===== Page 10 =====
+
+_ ee
+
+These are the threats your F-15 will face from the enemy:
+
+MiG-29 — One of the top fighter planes in the world, the
+MiG-29 is armed with its own gun and missiles. Enemy
+MiGs patrol vital areas of each theater, with more taking off
+constantly to aggressively seek out combat with your F-15.
+Once you destroy the last enemy airbase, no new MiG:
+will be created.
+
+SAM (Surface-to-Air Missile) — SAMs will fire at you in
+both the Satellite Map Mode and the Air-to-Ground Com-
+bat Mode. SAMs are only effective at higher altitudes. The
+best way to avoid being hit by a SAM is to release chaff (if
+the enemy missile is radar-guided; a white symbol on the
+Satellite Map) or a flare (in the enemy missile is heat-
+seeking; a red symbol on the Satellite Map) — or either one
+in the Air-to-Ground Mode), and then turn your F-15 —
+the SAM will continue to fly in a straight line. Once you
+destroy the last enemy Air Defense HQ (this includes Missile
+Boats), no more SAMs will appear on the Satellite Map.
+
+AAA (Antiaircraft artillery) — AAA is identified by its
+bursts of tracers coming up from the ground. AAA sites
+appear at many ground targets. AAA cannot fire if you are at
+the highest or lowest altitudes in the Air-to-Ground Mode.
+
+Flak — Flak, which fires only at the lower altitudes, is
+also present over many targets. To avoid damage, turn
+constantly, and don’t fly through flak bursts.
+
+THEATERS AND COMBAT MISSIONS
+
+There are five theaters of operations in SUPER STRIKE
+EAGLE in which you will fly combat missions, and you
+must be successful in each theater in order to advance to
+the next.
+
+The first theater is an introductory theater, with just 4
+targets for you to attack, and it is a bit different from the
+others — all missiles and ammo for you are unlimited, and
+every time you fly over an enemy ground target, you are
+automatically put into the Air-to-Ground Mode. But don’t
+be fooled — even though things may seem easy, you can
+still be shot down in this theater!
+
+The primary SUPER STRIKE EAGLE theaters are Libya,
+the Gulf War, Korea and Cuba. Each is a bit different from
+the others, and your opponents get tougher with each new
+theater. Your first mission takes place in Libya.
+
+There are approximately 20 or more strategic ground
+targets in each theater. Each target that you destroy will
+entitle you to additional fuel, weapons or decoys. Some
+targets may also cause you some problems.
+
+For daytime missions, you have a total of two sorties per
+airbase or carrier in each theater in which to accomplish your
+mission. Each takeoff and landing equals one sortie. When
+you land you are able to refuel your F-15 and repair all
+damage to your aircraft.
+
+Things are tougher at night— here you have to complete
+the entire theater without any landings at all!
+
+16
+
+===== Page 11 =====
+
+WINNING THE GAME
+
+Your ultimate goal in SUPER STRIKE EAGLE is to bring
+peace to the unruly regions of the world by defeating four
+tyrannical regimes and bringing them back into the fold of
+the United Nations. Once you have accomplished this
+goal, you have won the game.
+
+Once you have destroyed all 19 targets in Libya, during
+both daytime and night missions, (in other words, every
+major ground target, not including Air Defense Headquar-
+ters and airbases), you are eligible to move onto the next
+theater. You will be given an Access Code at the end of
+each successful mission. Write it down so you can begin
+the game from this point.
+
+__
+
+1. Watch out for nuclear plants — once you have destroyed an enemy nuke plant, you must
+
+quickly return to a friendly base or carrier, or you will perish from radiation poisoning!
+
+2. Mf you're out of chaff or flares, remember you can evade enemy SAMs on the Satellite
+Map, because your F-15 can turn in tighter circles than a SAM. Do this by turning tightly
+and pushing the Down button on your controller
+
+3. Don'twaste ammo or missiles attacking enemy AAA sites or SAM launchers —they give
+you limited points and unless you knock out every single one in the target area, the AAA
+and SAMswill keep coming.
+
+4, Remember that during night missions you are automatically bumped into the Air-to-Ground
+Modeover all targets, Air Defense HQs and airbases — so be careful where you fly!
+
+5. Ifyou knock out every airbase in a theater, no more MiGs will take off to oppose you
+sometimes doing this early in your mission is a good strategy
+
+6, Use your airbases and carriers to repair damage — you can lahd twice at each per
+theater, Don’t risk being shot down just because you're in a hurry. And remember there
+are NO repairs at night — so be careful!
+
+Throttle down (reduce your speed) in the Air-to-Ground Mode and climb to your highest
+altitude, to give yourself more time to turn your F-15 and execute your ground attacks.
+
+8. Try to get behind enemy MiGs on the Satellite Map before entering Air-to-Air Combat
+this wil put you on their tail when the battle begins.
+
+9. In Air-to-Air Combat, turn toward your target to fire first — and keep an eye on your radar
+to see where the enemy planes are. Once a MiG comes into view, slow down and start to
+roll to get a quick lock and shot
+
+10. In the tou;
+you fly along.
+
+ner theaters, drop chaff and flares occasionally, to attract enemy SAMS as
+
+18
+
+19
+
+===== Page 12 =====
+
+CREDITS
+
+Producer: Tony Parks
+
+Game Design: B.C. Milligan, Dave A. Wagner,
+Steve J. Pujia
+
+Game Programming: Dave A. Wagner, Steve J. Pujia
+
+Additional Programming: James G. Thomas,
+Chris Taormino
+
+Music: Scott Patterson, Jeffery Bri:
+Computer Graphics: Mitsu Tanaka
+
+CAD Art: Steve J. Pujia
+
+Director of Publication Design: Iris Idokogi
+
+Manual Graphics & Design: Cheri Glover-Phipps,
+Joe Morel, Judith Koelbl
+
+Quality Assurance: David K. Osborn, Brian Hellesen,
+Mike Rea
+Package & Poster Design: Moshe Milich
+
+MICROPROSE SOFTWARE LIMITED WARRANTY
+
+MicroProse Software Inc. warrants to the original purchaser of this MicroProse software product that
+
+the medium on which this computer program is recorded is free from defects in materials and
+
+workmanship fora period of ninety (90) days from the date of purchase. This MicroProse software program
+Js sold “as is”, without express or implied warranty of any kind, and MicroProse is not liable for any losses
+es of any kind resulting from the use of this program. MicroProse agrees for a period of ninety
+
+ice, atts option, free of charge, any MicroProse software product, postage
+
+hase, at its corporate facilitie
+
+0) days to either repair or rep
+paid, with proof af date of pu
+
+This warranty is not applicable to normal wear and tear, This warranty shall not be applicable and
+shall be void ifthe defect in the MictoProse software product has arisen through abuse, unreasonable use,
+‘mistreatment or neglect. THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES AND NO OTHER
+REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE BINDING ON OR OBLIGATE
+MICROPROSE. ANY IMPLIED WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT, INCLUD.
+ING WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE
+LIMITED TO THE NINETY (90) DAY PERIOD DESCRIBED ABOVE. IN NO EVENT WILL MICROPROSE
+BE LIABLE FOR ANY SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM
+POSSESSION, USE OR MALFUNCTION OF THIS MICROPROSE SOFTWARE PRODUCT
+
+Some states do not allow limitations as to how long an implied warranty lasts and/or exclusions or
+\d/or exclusions of lability
+ts which
+
+limitations of incidental or consequential damages so the above limitations a
+you. This watranty gives you specific rights, and you may also have other ri
+» slate
+
+may not apply
+vary from state
+
+Copyright © 1993 MicroProse Software Inc,
+180 Lakefront Drive, Hunt Valley, MD 21030 (410) 771-1151

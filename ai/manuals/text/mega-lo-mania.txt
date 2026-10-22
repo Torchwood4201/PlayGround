@@ -1,0 +1,735 @@
+# Mega-Lo-Mania
+source: https://archive.org/details/snes_manual_archive
+pdf: Mega-Lo-Mania ( PAL ).pdf
+region: PAL
+pages: 23
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+
+
+===== Page 2 =====
+
+CONTENTS
+
+Story :
+
+Controller Operation
+
+Game Stages
+
+Starting the Game
+
+The Game Screen
+Game Icons
+The Command Window
+Markings
+
+Game Play
+Before you Battle
+How fo Play Aloha
+Eras and Tech Levels
+Buildings and Damage
+Attaching
+Sector Defence
+
+The Mother of All Battles
+
+“sa oD ——_> —| GA Fo
+
+I0
+I
+I
+le
+I4
+I]
+18
+3
+cl
+
+===== Page 3 =====
+
+STORY
+
+There iS always a feeling of excitement any time that a
+new planet is born. This is because each time a new
+Civilisation arises, a new ruler is needed to watch over
+II; and for the one IWchy enough to become the ruler—
+(otal power and immortality.
+
+The fate of this new planet is determined by a game
+played by four Would-Be rulers. The game is called
+Mega-lo-Mania — The Game of the Power-Crazy’. The
+arena is the vast glass orb at the top of the universe in
+which all new planets are born, and the playing field is
+the new planet itself
+
+Each of the four contenders is given control of a race of
+people. Only the contestant whose race can win the final
+Dattle will be granted rulership over the world.
+
+YOU are one of the final four contestants. Can you make
+it to the final challenge, the Mother of All Battles,
+ensuring eternal power for yourself?
+
+===== Page 4 =====
+
+CONTROLLER OPERATION
+
+L Button
+
+es
+A. Button
+
+0 Button
+
+Move the cursor. Make selections in the command window.
+
+Set the im mode. Pause the game. {To continue, press
+the A button over the Continue command.}
+
+Set the game mode. Select commands.
+Increase the number of people to
+Participate in a battle or a task.
+
+B Button
+
+Show the help window.
+
+Y Button
+Open the command window.
+
+Set the ae mode. Select commands. Increase the number
+chen of people to participate in a task. (Same as the A button}
+
+>, Cancel commands. Decrease the number of people to
+\ barticipate in a task. (Same as the 8 button
+
+Sold separately MODEL No.SNS-016E
+
+3
+
+===== Page 5 =====
+
+Game Stages
+
+Mega-lo-Mania is divided into 10 Epochs. Epochs 1-9 each contain three
+islands (for a total of 27). The 10th Epoch is called the Mother of Battles,
+and takes place on the 28th island, which is called Mega-lo-Mania’. If is by
+Winning in this final battle that you will become the ruler of this new world.
+When the Ist battle of the Ist Epoch begins, you will have 100 people in your
+face. After completing all 3 islands of the Ist Epoch, you will advance fo
+the end Epoch and be given 100 more people. If you dont use all of the
+People given to you in an Epoch, then those you didn't use will be sent
+along with you to the next Epoch
+
+© MEGA loMANA RSME
+
+At the opening menu, select the game mode with the B button
+Of the D button. Start the game with the A button or the Start
+button.
+
+© New Game
+
+When New Game is Selected, the character Selection Screen will appear.
+(See po.ll “Game Play”)
+
+e Password
+
+se this selection to continue from the last screen you finished. Enter the
+13 character password that was given to you the last time you finished
+Playing by Moving the cursor with the 0 Button. Press the A button to select
+a letter, and the B button to erase the last letter you entered. If the
+Password is incorrect, the cursor will return to the first position.
+
+4
+
+===== Page 6 =====
+
+Note: Be sure to write down the password given to you after each island is
+taken!
+
+e (ptions
+
+AUTO SLOW ON/OFF
+When this option is ON, the game speed will automatically be set to SLOW any
+
+lime the enemy attacks one of your sectors.
+
+SPEECH ON/OFF
+When this option is ON, you will be notified when weapons are developed,
+elements have run out, and when other events occur.
+
+MUSIC ON/OFF
+When this option is ON, Background music will be played.
+
+SFX ON/OFF
+When this option is ON, Sound effects will be played.
+
+e Pausing the Game
+
+Pressing the Start Button (or both mouse buttons) will pause the game. To
+cancel pause, click the A button with the cursor over the CONTINUE icon.
+Clicking over the QUIT icon cancels the game and returns you to the opening
+screen.
+
+===== Page 7 =====
+
+. oe <7 pie
+
+THE GAME SCREEN
+
+ae
+
+Information wed
+
+Attack |
+Defense
+Repair |
+
+Mine i
+
+: Invent i ELE cm ” ‘ .
+
+Produce
+
+|. Reduced Map
+This shows the entire island. Sector selection for attacks and retreats are
+
+also performed on this screen.
+é. Island Name Era
+Under the Reduced Map the current island's name and the era (Tech Level]
+are displayed.
+3. Command Window
+Most commands such as building weapons, mining, efc., are given from this
+window.
+~— 4 Window Icon
+Opens and closes the Command Window.
+C Alliance Icons
+Used to make alliances with other players. If the alliance is successful, the
+shield will change colour.
+6. Speed Icon
+Sets the game speed.
+7. Game Screen
+Shows buildings, battles, etc.
+
+===== Page 8 =====
+
+The Reduced Map
+
+This map shows all of the sectors in the island you are currently battling
+in. The number of sectors ranges from two to sixteen. At the beginning of the
+game, there will be a maximum of three enemy castles which will show the
+colour of their owner. Enemy and friendly armies are shown as small
+coloured squares in these areas. Selecting a sector will cause the Game
+Screen to show that sector. The sector which is currently being displayed in
+the Game Screen will be highlighted within the Reduced Map.
+
+Game Icons
+
+e filliance Icons
+
+The shields of the other players are shown here. If a player loses all of
+his sectors, then his shield will disappear. The numbers next fo the
+shields show the number of that player's people which are in the current
+sector. Placing the cursor over a shield and pressing the A button
+fequests an alliance with that player. However, you cannot make
+alliances with all of the other players in the game. If another player
+requests an alliance with you, select YES to accept, NO to refuse. To
+break an alliance, select the darkened shield icon of the player.
+
+e Speed Icon
+Sets the game speed. Press the A button to speed the game up, or the
+B button to slow it down.
+
+The Command Window
+
+To open the Command Window, press the ¥ button to put the cursor over
+the Command Window Open/ Close Icon and press the A button. You can
+also open this window by pressing the A button. The Command Window is
+divided into eight sections, and those commands which you can give are
+highlighted. Place the cursor over the Command you wish to give and
+press the A button.
+
+To close this window, place the cursor over the Command Window
+Open/Close Icon and press the A or the B button. You can also close this
+Window by pressing the L button. s
+
+aU
+‘ a
+ps
+ee
+
+===== Page 9 =====
+
+e |nformation
+The numbers shown in this window show the number of people who are
+
+doing nothing in this castle. All of the items which you have invented in this
+sector are also displayed. If you choose one of these icons, the Elements
+which are required to create this item are displayed. You can also get rid of
+any items you don't want any More by selecting the icon for that item,
+placing the cursor over the trash can, and clicking the A button. When
+possible, you can then re-invent that item using a new combination of
+Elements. This is convenient when you have run out of an Element required
+(o make an item.
+
+oar ° fillach
+
+seem) This window shows the number of people available fo attack another
+
+meme! | Sector and the weapons which you have stockpiled. If you have enough
+
+P | elements to build a weapon ‘O' will be displayed underneath the icon. If
+
+| YOU have already built some of this weapon, the number of weapons built
+
+ee Will be displayed. When you select the person icon of a Weapon icon, the
+cursor changes to a sword and you may increase the number of people fo
+peer attack with the A button or decrease the number with the 8 button.
+ee) Yo afe not required to use only a single weapon, and can use any
+
+ec © Combination of Weapons you have stored. Cancel the attack by pressing
+the B button or pressing the A button with the cursor in the in the window
+litle area. All people will then be returned fo the Man Pool.
+
+Hee — While the cursor looks like a sword, placing it over a sector in the
+
+= feduced Map and pressing the A button will Begin the attack.
+
+; To move from one sector to another, press the B button with the cursor
+Zaee over the small square representing your army in the reduced map. The
+Baee CuSO! Will Become a sword, and you may then put the cursor over the
+
+commen SCCIO! YOU Wish to move to and press the A button.
+
+===== Page 10 =====
+
+e [efence
+
+This screen shows all of the Defensive Weapons you have built. If you
+have enough elements to build a weapon ‘OH’ will be displayed
+underneath the icon. If you-have already built some of this weapon, the
+number of weapons built will be displayed. Selecting one of the weapon
+icons changes the cursor to the Defence Cursor. Move this cursor over
+the towers of the buildings you want to defend and push the A button
+to place the selected defensive weapon. The B button cancels. To
+femove a defender from the tower, merely press the A button over
+
+him again.
+
+e fepaits
+
+This window shows the status of the buildings in your sector and the
+number of Repair Shields you have built. When you have built Repair
+Shields, select one of these icons and the cursor changes to a Shield.
+Move the cursor to the castle you wish to repair, and press the A button.
+The B button cancels.
+
+e Mining
+As your Tech Level increases, you will be able to gather a large variety
+of Elements. Some Elements are automatically gathered by hand by
+anyone who is in the castle. Other Elements (beginning in the 3000 BC
+Tech Level] may be dug from pits by your miners. The most advanced
+elements will require a Mine. To collect Elements, place the cursor over
+the person icon next to the element type and press the A button. Pressing
+the B button decreases the number of miners.
+
+efuild =
+
+This command allows you to build Factories, Laboratories, and Mines.
+The number underneath the person icon next to each building icon shows
+the number of people who are working on that building. Increase the
+number of people working on a building by putting the cursor over the
+person icon and pressing the A button. When a building is completed, it
+will show up in the Game Screen and all builders will automatically
+return to the castle. 9
+
+===== Page 11 =====
+
+me ° (Ven
+ewes) his command allows you fo invent new types of items. The numbers
+rsa) show the number of people who are working on inventing items vs. the
+waeeer | lilmber of people who are in the castle doing nothing. To invent a new
+mee | item, select the icon of the thing which you want to invent, and press the
+Zemeed fi button with the cursor over the person icon. When the invention is
+completed, all people automatically return to the castle.
+
+e Produce
+
+aeettnae | Higl-fech items need to be produced in a factory. The numbers show
+eee aa) the number of people who are working on producing items vs. the number
+
+<-% Of people who are in the castle doing nothing. To produce an item, select
+
+ee the icon of the item and press the A button with the cursor over the
+
+emis (elSON icon. The crate icon tells your people how many of that item to
+
+build. When the production run is completed, all people automatically
+
+return to the castle.
+
+Markings
+
+ee © Clock Mark
+peamenes Wien Your people start on a task, a Clock Mark shows how much time the
+eee (ask will require. The number below the clock shows the number of
+eee Minutes and the clock hand shows the number of seconds. The more
+People you assign to a task, the faster the tash will be completed.
+
+e Command Frame
+
+This shows the item which has been chosen. This pink frame shows
+which task will be affected by adding or removing workers fo it.
+
+10
+
+===== Page 12 =====
+
+GAME PLAY
+
+Here you will learn how to conquer the island Aloha in the first Epoch. First
+Of all, please follow along with the instructions on the following pages to
+learn how the game begins.
+
+Before you Battle
+Before you begin, you must first choose the character you will play, the
+island you will play on, and which sector you will begin from.
+
+e Choose a Character
+After choosing New Game, four characters are shown.
+
+Choose a character
+
+Red: Scarlet
+Green: Caesar
+Yellow: Oberon
+Blue: Madcap
+
+Place the cursor over one of the faces, and press the A button. Next, a
+screen showing 3 islands appears. In the upper left hand of the screen the
+name of the island (Aloha) and a Reduced Map are shown.
+
+e (Choose an Island
+
+You mal now select one of the three islands by pressing the A button with
+the cursor over the island name (but please leave it on Aloha for now}.
+
+After you have chosen an island, press the A button over the words Play
+Island’.
+
+At the bottom left of the screen is shown the number of people you have —
+available for use (your Man Pool). You begin the game with 100 people.
+These people must be used to conquer all three islands.
+
+e Choose the Number of People
+Press the A button with the cursor over the castle icon to increase the
+number of people to send. Pressing the B button reduces the number of
+
+11
+
+===== Page 13 =====
+
+people. To make this an easy victory, set this to 70 people.
+
+After you have set the number of people, press the Abutton with the
+cursor over one of the sectors in the Reduced Map.
+If your enemy has already chosen a sector you may not start from that
+
+How to Play Aloha
+
+In this Section you will learn how to create offensive and
+® defensive weapons, how to defend your sector, and how to
+attack your enemy.
+
+e (reating weapons
+me Bring up the Command Window (A button}, and select the
+seas (vent command.
+
+eee es
+
+ree |] Build Defensive Weapons
+a>) e Select the Stick icon with the A button.
+
+Sa eSet the number of people who will work on the
+invention (Set all of your people to work by
+holding down the A button over the person
+icon] When the clock on the right has stopped
+spinning, the weapon is complete.
+
+[2] Build Offensive Weapons
+
+ba e Sef the number of people fo work on this invention and wait until the
+Clock stops spinning.
+
+12
+
+===== Page 14 =====
+
+(3] Defend Your Sector
+
+e Return to the Command Window by pressing the A button over the
+word Invent’.
+
+e Choose Defence with the A button.
+
+e Select the Stick icon with the A button. The cursor will become a
+shield.
+
+e Move the cursor over each of the 4 towers and press the A button
+while over each one.
+
+e When you have finished, press the B button.
+
+[4] Attach the enemy sector Se ey
+e Choose Attack from the Command Window with the A button. ttack
+e Choose the Stone Icon with the A button. SB iS
+The cursor will Become a sword.
+e Set the number of people to attach with by pressing the A button
+with the cursor over the Stone Icon. Pressing the B button over this
+icon decreases the number of attachers.
+e Move the sword cursor to the enemy's sector in the Reduced Map and
+press the A button.
+After you have conquered Aloha, choose a new island and a new battle
+Will Begin.
+
+To cancel the game, pause it with the Start button and select QUIT.
+
+Once you have figured out the basics of game play, press the Reset button
+and start again from the beginning. You should do this because you
+probably won't have enough people left to conquer the other two islands.
+
+13
+
+===== Page 15 =====
+
+Eras and Tech Levels
+
+When you first begin a battle, the tech level in each sector is the same. By
+inventing and manufacturing new items your Tech Level will begin to
+increase. However, YOu can only go Up a maximum of three Tech Levels per
+island. The starting Tech Level goes up one for each Epoch. You can invent
+a maximum of four each of different Defence Shields, Offensive Weapons,
+and Defensive Weapons, for a total of a maximum Ie different items per
+island. Level | Defence Shields can be built from Epoch |, Level e Shields
+from Epoch 2, etc. All elements used to build items must be found within the
+sector the item is built in, and there will be times that you cannot build any
+items due to a lack of Elements.
+
+- The different Tech Levels and the items associated with those levels are
+Shown on the following page.
+
+14
+
+===== Page 16 =====
+
+Space Age SDI laser
+
+===== Page 17 =====
+
+e Building Weapons
+
+When you begin the game, you will first need to build some weapons.
+After choosing “Invent” from the Command Window, choose a weapon fo
+invent and set some people to this task. Weapons are shown in order of
+increasing Tech Level. High-tech weapons require more time to invent.
+
+e Factories
+
+For the first items you invent, just having the needed elements is enough
+to make them. However, more advanced items will require a Factory fo
+manufacture them. Items which have a building marked next to their icon
+will require a Factory to be Built.
+
+e The Speed Icon
+
+The Speed icon is very useful when inventing items which will require a
+lot of time. Increase the game speed until the item is invented, and then
+feturn it to normal.
+
+e Moving Weapons
+
+You may move offensive weapons by equipping your people with them
+and sending them to a new sector. You may not, however, move defensive
+weapons or building repair shields.
+
+e Building Advancement
+As you invent new weapons and other items, the Tech Level of the sector
+
+will increase (to a maximum of three times). As this happens, the level of
+your buildings will also increase, and they will take less damage from low-
+
+Jevel Weapons.
+
+16
+
+===== Page 18 =====
+
+e Weapon Elements
+
+By clicking on the Information Icon, you can examine the Elements eo an
+which are required to build the items you have invented. You can use this
+information to determine the best number of people to assign to mine
+each Element.
+
+BUILDINGS AND DAMAGE
+
+As sectors advance, up to three buildings may be built around the castle.
+You build one Mine, Factory, and Laboratory. Buildings are created by
+sending people out of the castle fo build them.
+
+e Mine
+You may Build this when you reach the $00 AD Tech Level.
+
+e Factory
+You may build this when you reach the 1400 AD Tech Level. Factories
+
+are required to build high-tech items.
+
+e Laboratory |
+You may build this when you reach the 1850 AD Tech Level. A Laboratory |g
+
+iS required to develop very high-tech items.
+
+e Repair Command
+
+This displays the damage taken by your castle and buildings. When (he jae cm
+bar to the right of the building disappears, the building is destroyed. When
+building is destroyed, all people and items which were in that building jie ola
+afe also destroyed. In other words, if you have oO people mining —
+Elements when your mine is destroyed, you will lose all of those people! —
+
+17
+
+===== Page 19 =====
+
+Attaching
+
+In order to attach enemy sectors, you should build some weapons and
+make an army. With the exception of Nukes, all weapons require one oF
+more people to operate them. You may send a maximum of c50 people into
+
+~ asingle sector.
+e Sector Types
+Friendly Sector A sector which contains one of your castles or an allied
+castle or army. No enemy buildings present.
+Enemy Sector A sector which contains no friendly castles or allied army.
+Neutral Sector A sector with no armies or buildings of any kind.
+
+© Multiply-Operated Weapons
+In the beginning, only one person will be required to operate any single
+weapon, but with the advance of technology, several people will be
+needed. The number of people required to operate each weapon (1-4) wil
+be shown in Roman numerals at the upper left of the weapon icon.
+
+e Aepair Shields
+You can build Repair Shields which repair damaged castles. The shields
+
+are ranked from 1-4, with higher values repairing more damage.
+
+meerremmmts) © teltet Ico
+
+Be) Beginning in 2001 AD, the Shelter Icon will appear in the Repair Window.
+== Clicking on this icon will close this sector off, and place its population in
+B deep freeze until the final Mother of Battles. Once you use this icon you
+= cannot undo its effects. Be sure that you can protect the sector from
+attack before you freeze its population!
+
+18
+
+===== Page 20 =====
+
+Sector DereNce
+
+To protect your sector, you Should place defensive weapons on top of
+each building you have created. Even using the same Tech Level of
+weapons, being in this high position gives your people a great advantage
+when fighting against intruders. The only drawback is that you are limited as
+fo the number of defenders you may place:
+
+Castle- Factory- Mine- Laboratory-
+4 people 3 people ¢ people ] person
+Most defensive weapons require one person to operate. Anti-
+Nukes and SDI Lasers, however, operate automatically.
+
+e Sending Out Troops
+
+When you Send your people into an enemy sector, they will
+immediately begin to do battle. Your people will fight against
+enemy troops, enemy buildings, and enemy defenses. All people
+in buildings which are destroyed are wiped out.
+
+19
+
+===== Page 21 =====
+
+Your people will not fight at all if you have an alliance with the enemy in
+the sector. If you are in a non-allied enemy sector and an allied enemy is in
+the sector with you, your ally will help you fight against any other enemies
+
+present.
+The battle will continue until one side is completely wiped out or retreats.
+
+e fetreating
+If you retreat during combat, there will be a great number of
+
+casualties to your army. However, if you retreat to your own
+castle, you will be able to escape this effect.
+
+e Jefeating the Enemy
+You will be notified when a sector has been taken. All of the people who
+were in buildings in the conquered sector will become non-equipped
+members of your army. In battle, non-equipped people cant do much more
+than pick up stones and throw them, so they are unable to do damage to
+
+enemy buildings and castles.
+
+e Building New Castles
+When you have destroyed an enemy castle or send your army
+2% into anevtral sector, your people will build a new castle. If you
+= = 7% have analliance with another contender, you cannot build new
+= _§ castles. in order to expand your boundaries, you will have to
+
+break the alliance.
+
+e Nuclear Weapons
+Beginning with the éth Epoch (1850 AD), you will be able fo
+make nuclear weapons. No soldiers are required to operate
+
+20
+
+===== Page 22 =====
+
+nukes; merely specify the sector which you wish to launch the nuke at.
+Sectors which have been hit by a nuke are completely destroyed, and all
+living things in that sector wiped out.
+
+HINT: Defence from Nukes
+SDI Lasers and Anti-Nuke Missiles provide defence from Nukes.
+
+However, Anti-Nuke Missiles only help by wiping out the sector
+which launched the incoming nuke.
+
+The Mother of All Battles
+
+After finishing the 27th island during the Sth Epoch, you will compete in
+fhe Mother of all Battles. In order to take place in this battle, however, you
+must begin freezing people when you reach the 2001 AD tech level. In order
+fo freeze people, you use the Shelter Icon (see pg. 18). Note that the
+population of a sector which has been frozen will decrease by about 907.
+Also, you cannot build Shelters until the 7th Epoch.
+
+e Lasers Only!
+No new Weapons can be developed during the Mother of All Battles, and
+lasers are the only Weapon which may be used.
+
+Be sure to consider how this will affect your strategy!
+
+21
+
+===== Page 23 =====

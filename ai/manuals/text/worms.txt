@@ -1,0 +1,734 @@
+# Worms
+source: https://archive.org/details/snes_manual_archive
+pdf: Worms ( PAL ).pdf
+region: PAL
+pages: 14
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+
+
+===== Page 2 =====
+
+1: INTRODUCTION
+
+Worms combines the best elements from the very best games ever created.
+It requires great thought, strategy and elements of sheer outrageous fortune.
+It provides the players with an almost infinite range of playing possibilities
+and we guarantee that no two games will ever be the same!
+
+It does take a little while to get into the swing of things however, and despite
+everyone’s insistence that you should not have to read a game manual to be
+able to play the game, we would recommend that you at least look over the
+worm control methods and how to work (and get the best out of) the
+weapons that are available.
+
+Worms can be played by 1-4 players at the same time. It’s a turn-based game
+so you'll only need one machine - but prepare to be at odds with loved ones,
+get ready to shout abuse at your best friend and be willing to exact
+unadulterated terror on those who plot to hurt your worms.
+
+Worms is the ideal way for a few friends to enjoy a few hours. Players can
+configure the game through a myriad of options and tailor the whole fashion
+of play. It’s a game you can pick up with a few spare minutes or play for an
+entire weekend! It’s Worms - you'll love it.
+
+2: THE CONCEPTS OF PLAY
+
+Think of a landscape, any landscape. Grab some platoons of little pink
+Worms and liberally scatter. Give them weaponry, tools and an eye for the
+enemy. The aim is to ensure that you are the last team standing. Take no
+prisoners!
+
+Teams take it in turns to bombard the enemy with whatever weapons they
+feel is likely to reap the best reward. Some weapons are limited in terms of
+Supplies and therefore strategy is required for the best results.
+
+Tools are available to move around the landscape and to hide away, but this
+Strategy is frowned upon in action-circles and likely to cause great offence!
+
+===== Page 3 =====
+
+Sas
+
+ey
+
+Each worm has an initial energy level which is depleted through the battle,
+and once this hits zero the worm is removed from play. Worms are also
+out of the game should they fall in the water or get thrown off the left
+and right edges of the play area. The last team remaining wins the game.
+
+Each battle has a time period, and once this is over a period of Extra Time
+will be played, where all remaining Worms are reduced to 1 unit of energy,
+and the slightest hit will render them out of the game - a time when heavy
+Strategy is called for!
+
+Often weapon supplies will drop in the shape of weapon-crates. These
+can be collected and used accordingly. If you’re really lucky, you'll find the
+ultimate weapon - an exploding sheep! Each Worm has a limited time in
+which to make its move (adjustable of course!) and can walk, jump and
+even teleport to pastures new. There are approximately 18 weapons and
+tools to use - most of them can be switched on or off, and even limited
+to the number given during the game via the weapons options screen.
+
+3: LOADING
+Insert the cartridge into your Super Nintendo Entertainment System™
+
+ensuring that the power is off.
+Switch on and hey presto, you are ready to play Worms.
+
+4: CONTROLS
+
+BUTTON L BUTTON R
+
+CONTROL PAD | | BUTTON Y
+BUTTON X
+
+: BUTTON A
+
+\ BUTTON B
+
+SELECT START
+
+in Game Controls
+
+Jump B
+
+Fire A
+
+Scroll Mode SELECT
+
+Weapon Panel SELECT (when in scroll mode)
+Weapon Select A
+
+Toggle Pause START
+
+Move Crosshair Control Pad
+
+===== Page 4 =====
+
+Menu Controls
+Move Highlight Control Pad Up and Down
+Select option SELECE
+
+5: GAMEPLAY DETAILS
+ENERGY PANEL :
+
+The energy panel is visible by scrolling the screen to the top. The bar gets
+depleted as worms take hits. When a team wins a round a small trophy
+appears next to their name. The totals shown are overall team totals and
+not individual worm ones.
+
+CLOCK
+
+The clock shows you how many seconds remain in the current turn.
+
+BOTTOM PANEL
+This displays the wind direction (left or right) and the approximate strength.
+
+This should be used when firing weapons that are affected by the wind.
+The wind changes often. The bar below is the power indicator and is used
+when gauging how much power to put into certain weapons.
+
+WEAPON CRATES
+
+These drop from time to time and contain a variety of goodies. They can only
+be collected by the current worm and can also be destroyed by blasting them,
+which is a tactic in itself.
+
+DIFFERENT LANDSCAPES
+
+A number of landscapes feature in the game and there is an endless stream
+
+of gameplay possibilities.
+
+ARCTIC - Slippery, snowbound levels with snowmen and all things icy.
+
+FOREST - Lots of woodland cover.
+
+MARS _ - Low gravity affects jumping and weapons in this weird
+landscape.
+
+DESERT - Strange stone pillars and gigantic stagecoaches dominate this
+barren land.
+
+SECRET - Can you find the hidden levels?
+
+6: MENU OPTIONS
+
+After the introduction screens have ended, the main menu will appear.
+Highlight an option using the Control Pad and press the SELECT Button to
+select. The layout of the main menu is as follows:
+
+A Game Start
+B Team entry
+C Options
+
+D Records
+
+E Credits
+
+s
+
+===== Page 5 =====
+
+A - GAME START
+
+Begin the game with the current settings. From this menu you will go to
+a menu asking you what type of game you want to play.
+
+These are:-
+
+LEAGUE - Updates WORMS STATS after the match where the aim of the
+game is to be the best, reach the top of the table and stay there.
+FRIENDLY - Allows a series of relatively friendly matches to be played.
+
+FF After choosing the game type you will go to the Team select options and
+then onto the game itself. You must select at least 2 teams with which
+to play (to a maximum of 4, each having 4 worms) and when these are
+highlighted and chosen (indicated by an asterisk next to the team name)
+you are ready for battle to commence!
+
+— B - TEAM ENTRY
+es When you first load Worms, a selection of default teams are already
+present and may be selected. Edit and customise the teams by entering
+
+your own Team names and Worm names via the TEAM ENTRY menu.
+Entering a new team will only delete the data for that team if the CLEAR
+option is first activated.
+
+To alter the number of worms in a team select the CLEAR option and enter
+one name per worm. For example: enter a name for the captain only and
+
+you will have a one worm team.
+
+Highlight the team name and press the SELECT button to change the 8
+character details or Worms. The first Worm is automatically made your
+© captain. To change the details press Left or Right on the Control Pad to
+cycle through the available letters and numbers. Press the A or X button
+to move onto the next character or press the Bor Y button to delete a
+= f character.
+
+Press Up or Down on the Control Pad to store the name.
+
+Press the L or R buttons to change between previous or next teams.
+The details and records of your teams will be stored in the WORMLIST.
+You can enter teams to be controlled by Human players (HUMAN) or
+alternatively you can select computer controlled (CPU) opponents by
+highlighting the label and pressing the SELECT button to toggle between
+
+the two.
+
+You can also edit the amount of energy the Worms have from as low as
+75 up to 150. To do this highlight NORMAL and press the SELECT Button
+to toggle between NORMAL, LOW and HIGH settings. The more energy
+they have the longer the game, and the more damage they can sustain.
+Select EXIT when you are finished. Name changes are automatically
+stored and updated into the Worm List.
+
+===== Page 6 =====
+
+C - OPTIONS
+
+This allows you to tailor the specific set-up of the game to your own
+requirements. Whenever you change the options they are automatically
+stored and used the next time you play.
+
+GAME OPTIONS
+
+WORM PLACING - (Entirely random or in groups of teams Default = random)
+This governs whether your Worms are placed at random across the landscape,
+or in groups of teams. The default is random placing.
+
+MOVE TIME - (10 seconds - Unlimited time. Default = 30 seconds)
+
+The shorter the move time, the tougher the game and the quicker you must
+think. When first playing the game and exploring the weapons, unlimited
+time is recommended. As soon as you become experienced, switch back to
+a timed game as it’s much more fun and the pressure really piles on. The
+default is 30 seconds per move as this reduces the wait in between turns,
+and is a tried and tested time period.
+
+ROUND TIME - (5 minutes - Unlimited time. Default = 15 minutes)
+Unlimited time means that it’s an all out fight to the finish with no extra time!
+If a round time expires extra time is activated.
+
+ROUNDS REQUIRED TO WIN - (1 or 2. Default = 2)
+
+Basically this is how many rounds you must win in order to win the match.
+If there are a lot of you, or you do not have much time to spare, setting the
+level to 1 is perhaps a good option. It also means serious business and the
+realisation that one mistake could cost you the whole match! Playing over 2
+rounds with 4 players could take upwards of an hour, depending on the
+strategy employed by the competitors. Please bear this in mind if you only
+have twenty minutes to spare. Also remember that this game is far too
+enjoyable and there is a distinct possibility that 3 or 4 hours later you will
+find yourselves uttering the immortal words, “just one more match, eh?”
+Take heed of this warning.
+
+WEAPON OPTIONS
+
+You can configure the availability and number of the available weapons in
+order to craft the style and content of the game.
+
+By changing the initial availability of weapons and restricting the use of
+certain tools, you can seriously affect the strategies that will be adopted
+during the game.
+
+If a weapon is OFF/-- then it is unusable.
+If a weapon is ON/(infinite sign) then it is infinitely usable.
+
+Extra weapons are also dropped in the weapon-crates during play.
+
+These are as follows:
+
+Airstrike, Teleport, Cluster Bomb, Dynamite, Minigun, Banana Bomb and
+Sheep.
+
+sso oS fiscinncnoan
+Seas
+sian
+z ne
+sea Sona
+enantio pot ratiatar
+ee Srna ss
+i po %
+Sse ‘ rain
+Soria seas ;
+ae ee
+sui
+at
+Saas ot
+ppoes :
+as ses
+ae
+sestiantenonnn
+Sree:
+Sa
+a
+ae
+3
+rane aaesis
+iss
+pen
+nena
+ss ‘s
+
+===== Page 7 =====
+
+_ Combating negative or “dark side” play
+_ = Some people, even some of our people, elect to play the game with what
+
+=
+
+: | has become known as “the dark side” methods. Usually this involves
+Se |= heavy digging and hiding away, teleporting to far reaches. If you find that
+ee this becomes too much for you, you can tailor the game to ensure that
+
+. = people cannot use such tactic. Therefore, as an antidote to tiresome
+tactics (as employed by dull people) you could set up the weapons as
+follows:
+
+SS Bazooka ON Dynamite XO1
+Grenade ON Airstrike x01
+Cluster bombs Infinite Teleport OFF
+Shotgun ON Blowtorch ON
+Uzi ON Drill ON
+Fire punch ON Kamikaze ON
+
+Out Dragon ball ON
+Of course, you will soon find what balance of weapons suits your groups
+
+play best. Do experiment and tinker with the balance of the game, but
+the defaults we set up are what we consider to be very reasonable for
+getting the best out of the game - as long as the spirit of action and
+
+derring-do remain!
+
+D - RECORDS
+View Wormlist Reviews the current Wormlist
+Clear Stats Clear current worm statistics
+
+The Game Stats appear at the end of a match. They are concerned with
+which team won, which Worm stood out against the rest, which Worm
+played embarrassingly badly - that kind of thing. Whilst most
+abbreviations are painfully obvious to anyone, here’s a few quick
+
+explanations just to make things clear.
+
+On the first Stat screen each Team’s success is measured in the following
+way:
+
+PD shows how many matches have been played; WN shows how many
+matches have been won; LT show how many matches have been lost; FOR
+
+show how many points the team has; AGN is how many points have been
+scored against the team and DIF shows the difference between FOR and
+AGN.
+
+One point is awarded for every Worm you eliminate whilst one point is
+deducted every time one of your Worms sadly expires.
+
+On the second Stat screen the following abbreviations are used:
+MV is how many moves each team has performed in the match; AVG is
+the percentage average of the total damage done when weighed against
+
+===== Page 8 =====
+
+é
+
+the total possible damage; PER shows how many Perfect hits have been
+inflicted on other Worms; FOR is again how many points the team has scored;
+AGN is how many points have been scored against the team and DIF is the
+difference between FOR and AGN.
+
+E - CREDITS
+
+This is a brief page crediting the people who had all sorts of “fun” bringing
+Worms to you. Without them, untold amounts of coffee, popular soft-drinks
+and pizza, Worms would not be here today. Thanks are also due to their
+families who didn’t see an awful lot of them for a number of months.
+
+7: CONTROLLING YOUR WORM
+BASIC MOVEMENT CONTROLS
+
+You move your worm around by using the Control Pad. Left makes your
+worm walk to the left, right makes your worm walk to the right. If he is
+blocked then he will stop. If he falls from a cliff, then he will most likely get
+hurt and your go will be over.
+
+You may make your worm jump by pressing button B on the control pad.
+Be careful when doing this as you can jump too far, and if you hurt yourself
+your turn will be over.
+
+AIMING YOUR WEAPON
+
+At the start of the game, a worm carries a bazooka. You will see a small
+cross hair when the worm is still. This is the basis for aiming shots. Move
+the cross hair up and down with the Control Pad. You must use your skill
+and judgment to predict the trajectory and fall of the weapon you are using.
+For details on all the weapons and the specifics about each one and any
+control implications, consult section 8, Weapons Available.
+
+SELECTING A WEAPON
+
+The weapon selection bar is brought up by pressing button SELECT on the
+control pad while you are in scroll mode, or by pressing button SELECT twice
+if you are not in scroll mode.
+
+THE ICONS
+
+The weapon Selection bar stays on screen until a weapon has been selected.
+The cursor can be moved over any of the icons by using the Control Pad.
+Pressing button SELECT will cycle between the two weapon panels and
+button A will select the weapon. While you are selecting a weapon the move
+timer and round timer halt.
+
+USING A WEAPON
+
+Weapons fall into several groups and share a common control method. For
+full details on the actual weapons themselves, the damage they can do and
+Strategies for their use see section 8.
+
+===== Page 9 =====
+
+See
+
+8: WEAPONS AVAILABLE
+
+BAZOOKA
+
+Affected by the wind and gravity. Can cause up to 5opts damage if a
+direct hit. Causes devastation to the landscape. Large blast wave.
+Inadvisable to use from close range. Standard weaponry that any self
+respecting Worms player should be able to use if they wish to be
+successful. A clever tactic is to use the wind and fire the missile
+backwards. By default the weapon is unlimited, and if you are in clear
+
+sight of the enemy worm then you are in danger of receiving attention
+from a bazooka missile. Useful for blowing worms clean off the edge of
+the screen.
+
+GRENADE
+
+Like the bazooka, this is standard issue. Grenades remain strangely
+unaffected by wind, but are harder to pinpoint the damage due to the
+nature of them bouncing and rolling around. Effective use of this weapon
+is extremely important in order for you to succeed. Similar in nature to
+both Cluster Bomb and the fabled Banana Bomb. Can cause a maximum
+of 50pt damage if the grenade explodes very near to the victim.
+
+CLUSTER BOMB
+
+Essentially this is very similar to a grenade but differs in that it shatters
+into 5 smaller warheads on explosion, with each smaller bomb being able
+to render 30pts damage. The default allocation is 5 of these bombs, and
+they are very useful if used strategically. Cluster bombs are available from
+weapon-crates, although it has to be said that they are not the most
+prized of finds in terms of weapon value. Unaffected by wind.
+
+SHOTGUN
+
+The only weapon that allows you to have two goes. In fact all that you
+have to do is use both barrels. The shotgun does not use a trajectory
+but fires in a straight line. Aim using Up and Down on the Control Pad.
+A direct hit from a shotgun can take 25pts damage, but more often than
+not it is used to “pick off” lame or precariously placed worms. In “Extra
+Time” this weapon can be the turning point of a whole match. Accuracy
+with the shotgun is a prerequisite of all good Worms players. The shotgun
+is also very popular in its use to finish off a particular round, the sound
+being rather satisfying. Unaffected by wind and gravity.
+
+By forfeiting one shot of the shotgun you can jump from any height and
+end your go by firing off the last remaining shot.
+
+UZI
+
+This high powered little beast is able to scatter a fine spread of bullets in
+the direction of your choice. Usually used in “punishment” and revenge
+attacks, Uzi is the ideal way to “pay back” the opposition. Not a widely
+
+===== Page 10 =====
+
+used weapon, but very effective rendering up to 5pts damage per hit.
+Unaffected by wind and gravity.
+
+FIRE PUNCH
+
+This move always knocks 30pts from the victim, but is more commonly used
+to “kick” (although it is a punch) worms off screen or into the water. Some
+cunning uses of the move are seen due to the “cutting power” it has - it will
+allow the worm to cut through the landscape and make contact with worms
+seemingly out of range. It can also be used to collect weapon-crates that the
+worm could not otherwise get hold of. The punch always knocks the worm
+up and away from the player so that it is possible to lift another worm up
+and over an object.
+
+DRAGON BALL
+
+This is a move very similar to the “Fire Punch” but without the cutting action.
+The worm throws out a small bolt of energy at the victim which causes 30pts
+damage and sends them reeling horizontally and slightly upwards. It’s a
+method of knocking worms off edges and either into water or off the screen
+entirely.
+
+DYNAMITE
+
+Dynamite can blow up to 75 pts damage from a worms tally and is very
+effective in throwing worms skyward and all over the level. It blows huge
+holes in the landscape and causes widespread calamity. On releasing the
+dynamite, you have 5 seconds to get far enough away to avoid the large
+blastwave. A wonderful warm feeling spreads over you when dropping a stick
+of dynamite over a group of hapless worms. Responsible for the very best
+“shot of the match” awards. Hugely satisfying, problem is that the default
+setting only gives you one... but dynamite can be found in the weapon-crates.
+Do not forget that dynamite will fall if dropped from a cliff. This is a very
+cool weapon with lots of sneaky uses. Watch out for worms digging with the
+drill, pop by and drop dynamite into their holes!
+
+AIRSTRIKE
+
+This very useful weapon calls in a five-bomb airstrike to an area that you
+request. This can be particularly effective on bridges and flat areas causing a
+maximum of 30pts damage per cluster. You do only get one, but this move
+can be devastating if a cluster of weak worms are congregated around a
+common area. Extra airstrikes can be gained from weapon-crates.
+
+TELEPORT
+
+Teleport is a useful move which, if played correctly, can massively effect the
+course of a match. Teleporting to a weapon-crate is a popular strategy and
+so is getting out of a potentially disastrous start position. Dark-side players
+favour using their teleports to transfer their favourite worms to a very safe
+
+ere
+atetetate
+
+===== Page 11 =====
+
+and boring position. The default number of teleports is two, but extra
+ones can be collected from weapon-crates.
+
+BLOWTORCH
+
+This weapon allows your worm to dig across the landscape in either
+direction. It permits you to get through otherwise impenetrable areas and
+objects, hide your worm away or do a sneaky hit move. Blowtorching an
+enemy always results in 15pts damage per hit. Being blowtorched for the
+final match winning move is the tactic of a twisted mind! Frowned upon
+in the action fraternity, blowtorch is an instrument of the dark-side’s
+nefarious toolbox, and one to be watched. See the section on combating
+dark-side tactics for further details. We trust you, we left it always
+available. Resist the lure and temptation of the dark-side.
+
+DRILL
+
+This tool allows you to dig vertically down and make your way to safer
+places. Simply digging out of the way may not be a smart move, as some
+wise character may just slip a stick of dynamite down your hole... be
+careful! Hitting anyone with your drill causes 15pts damage per hit, and
+if you can win the game by using the drill, you will cause much
+humiliation.
+
+KAMIKAZE
+
+Some may question the politics and motives of a move that ends the
+game for the worm carrying out the manoeuvre, but kamikaze comes into
+its own at late stages in the game where all is seemingly lost. Kamikaze
+sends the worm flying towards the enemy at great speed. He will cut
+through the landscape for half a second and then explode on the next
+thing he comes into contact with, or will simply fly off the edge of the
+screen to his doom. All worms encountered receive up to 30pts damage,
+and are flung into the air. The possibilities from kamikaze are numerous,
+and six and seven attack shots have been recorded. Always a popular
+move with watching crowds. It is the ultimate sacrifice, so please ensure
+that the end justifies the means.
+
+SKIP GO
+
+If you are in a tight corner and do not want to actually perform a move
+you can skip your turn.
+
+SURRENDER
+
+We are not sure what this one does, | mean, we never use it...
+
+SHEEP
+
+This legendary weapon is top secret and hence only available in limited
+quantities via a weapon-crate. Your furry friend runs unselfishly toward
+the stricken enemy worm and will detonate at your command causing up
+
+===== Page 12 =====
+
+to 75pts of woolly damage. Despite pleas from the Liberate Sheep
+committee, the weapon has remained a firm favourite amongst anti-dark-side
+players who enjoy sending a sheep down someone’s neatly blow-torched
+tunnel. With the effectiveness of dynamite and the dexterity that only a four
+legged fluffy white mammal can muster, the sheep is a priceless tool. Use it
+wisely.
+
+BANANA BOMB
+
+These lethal, devastating weapons are only found in weapon-crates. They are
+used like a cluster bomb and cause widespread destruction on impact. Each
+banana that is projected into the air can cause a massive 75pts damage
+(because the bananas are extremely tightly packed into the shell casing) and
+they can usually be relied upon to wipe out entire teams in one go.
+Impressive stuff! Unaffected by wind.
+
+MINJGUN
+
+This huge, massively powerful machine gun is only to be found in weapon-
+crates. It acts in a very similar way to the Uzi but is far more devastating with
+a respectable maximum of 1opts damage being the result. Unaffected by wind
+and gravity. Popular with Worms who manage to get their slippery hands on
+them. It remains infinite for the remainder of the round once collected.
+
+PROD
+
+The legendary prod is a hidden move that must be discovered. Prod does
+not actually harm the worms at all. The benefits are that you can just push
+a worm off a cliff to its early demise. The results from the prod can be
+devastating especially in terms of humiliation for the other player.
+
+9: ABOUT THE AUTHOR(S)
+
+Andy Davidson is a very mad young man. Worms represents more or less a
+culmination of four years design. His brief was to create a game that urged
+you to play it, one that you could keep playing and never tire of. Stories of
+his concrete donkey and the gifts laid upon it are almost
+
+legendary, and his infectious enthusiasm comes across very strongly in the
+game. Games should be fun and very playable, not to mention social.
+Worms achieves this and much more.
+
+All he wanted was to have a game published. He has achieved this - and how!
+
+Francis Lillie is a very tired young man. Many long months of coffee drinking
+helped create the Super Nintendo version of Worms, from the computer
+version by Andy Davidson. His bad language and attitude problem are almost
+as legendary as his ability to put away stacks of junk food. He believes that
+
+games should be fun for the programmer as well.
+All he wanted was an easy life. Worms ruined this - and how!
+
+ses
+
+sagmnnnnccnes
+
+===== Page 13 =====
+
+10: ABOUT TEAM 17
+
+Team 17 is a software development company that believes in gameplay.
+
+Great visuals are one thing, but the thing has to play well, feel right... you
+
+as a player know this. Worms is not our first game and certainly will not
+
+be our last. Look out for more exciting, playable Team 17 products in the
+
+near future.
+
+Worms. Copyright © 1996 Team 17 Software Ltd.
+Marketed and distributed by Ocean Software Ltd.
+
+11: CREDITS
+
+Design and original concept
+
+Graphics
+All Music and SFX
+
+Creative Director
+Team 17 Producers
+
+Production Assistance for
+Ocean Software
+Ocean Software Quality Assurance
+
+Andy Davidson
+
+: Programming Francis Lillie
+. Additional programming Gavin Harwood
+. Kevin Kirk
+
+Roy Stewart
+Alistair Brimble &
+Bjorn Lynne
+Martyn Brown
+Martin O’Donnell
+Paul Kilburn
+
+Lee Edmonson
+
+Ocean Q.A.
+
+Richard Brooks (lead tester),
+Ryan Wooldridge, Mike Taylor.
+
+===== Page 14 =====
+
+eee ks oy
+= ss
+Se = — =
+i =
+
+a OCEAN EUROPE LTD.
+
+DISTRIBUTED BY: “a —-
+OCEAN EUROPE LIMITED 8
+2 CASTLE STREET seer
+CASTLEFIELD a ee
+MANCHESTER on hee
+
+M3 4LZ | e
+ENGLAND i
+
+Worms © 1996 Team 17 Software Ltd.
+Marketed and Distributed by Ocean Europe Ltd.

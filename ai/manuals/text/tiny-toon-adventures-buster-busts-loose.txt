@@ -1,0 +1,602 @@
+# Tiny Toon Adventures - Buster Busts Loose!
+source: https://archive.org/details/snes_manual_archive
+pdf: Tiny Toon Adventures - Buster Busts Loose! (USA).pdf
+region: USA
+pages: 12
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+KONAMI’ SNS-TA-USA
+
+Konami (
+
+-901
+
+KONAMI
+
+Konami, Inc. |
+|
+|
+
+900 Deerfield Parkway
+Buffalo Grove, IL 60089-4510
+
+INSTRUCTION BOOKLET
+
+SUPER NINTENDO
+
+TINY TOON ADVENTURES, characters, names and all related indicia are
+trademarks of Warner Bros., a Time Warner Entertainment Company
+©1992. Konami® is a registered trademark of Konami Co., Ltd. ©1992 Konami.
+All rights reserved.
+
+PRINTED IN JAPAN
+
+===== Page 2 =====
+
+WARNING! PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY
+BEFORE USING YOUR NINTENDO* HARDWARE SYSTEM OR
+GAME PAK.
+
+Konami, Inc. Limited Warranty
+
+Konami, Inc. warrants to the original purchaser of this Konami software
+product that the medium on which this computer program is recorded is
+free from defects in materials and workmanship for a period of ninety (90)
+days from the date of purchase. This Konami software program is sold “as
+is,” without express or implied warranty of any kind, and Konami is not
+liable for any losses or damages of any kind resulting from use of this
+program. Konami agrees for a period of ninety (90) days to either repair or
+replace, at its option, free of charge, any Konami software product, postage
+paid, with proof of date of purchase, at its Factory Service Center. This
+warranty is not applicable to normal wear and tear. This warranty shall not
+be applicable and shall be void if the defect in the Konami software product
+has arisen through abuse, unreasonable use, mistreatment or neglect. THIS
+WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES AND NO.
+OTHER REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE
+BINDING ON OR OBLIGATE KONAMI. ANY IMPLIED WARRANTIES
+APPLICABLE TO THIS SOFTWARE PRODUCT, INCLUDING WARRAN-
+TIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE, ARE LIMITED TO THE NINETY (90) DAY PERIOD DESCRIBED
+ABOVE. IN NO EVENT WILL KONAMI BE LIABLE FOR ANY SPECIAL
+INCIDENTAL OR CONSEQUENTIAL DAMAGES
+
+RESULTING FROM POSSESSION, USE OR MAI
+FUNCTION OF THIS KONAMI SOFTWARE
+PRODUCT.
+
+Some states do not allow limitations as to how long an
+implied warranty lasts and/or exclusions or limitations
+of incidental or consequential damages so the above
+limitations and /or exclusions of liability may not apply
+to you. This warranty gives you specific rights, and you
+may also have other rights which vary from state to
+state.
+
+‘THIS OFFICIAL SEAL I$ YOUR
+ASSURANCE THAT NINTENDO
+HAS APPROVED THE QUALITY
+OF THIS PRODUCT, ALWAYS
+LOOK FOR THIS SEAL WHEN
+
+LICENSED BY BUYING GAMES AND
+
+ACCESSORIES TO ENSURE
+COMPLETE COMPATIBILITY
+WITH YOUR SUPER NINTENDO,
+ENTERTAINMENT SYSTEM,
+ALL NINTENDO PRODUCTS,
+NINTENDO, SUPER NINTENDO ENTERTAIN- ARE LICENSED BY SALE FOR
+MENT SYSTEM, SUPER NES AND THE USE ONLY WITH OTHER
+OFFICIAL SEALS ARE TRADEMARKS OF AUTHORIZED PRODUCTS
+NINTENDO OF AMERICA INC BEARING THE OFFICIAL
+
+(01991 NINTENDO OF AMERICA INC NINTENDO SEAL OF QUALITY
+
+Congratulations!
+
+You have in your little mitts a great new Tiny Toon
+Adventures™ game for the Super NES . Well, technically
+you have the instruction manual in your hands, but it comes
+with a game that you’re going to love. Okay, maybe the
+manual is lying open on the table and the game is nearby and
+what you really have in your hands is a large double-dip of
+cookie dough ice cream in a waffle cone, but that’s not the
+point. The important thing is that you have the game
+somewhere and you need to know how to play it and if you
+read the following instructions carefully before you begin,
+you'll get the most enjoyment from the game. Just don’t get
+ice cream in the Super NES®, please.
+
+Table of contents
+
+INTRODUCTION ..
+HOW TO PLAY ..
+BEGINNING THE GAME
+CONTINUING A GAME
+BUSTER’S MOVEMENT ..
+CONTROLLER (INITIAL SETTINGS)
+PLAY SCREEN ..
+ITEMS ....
+HOW TO PLAY FOOTBALL.
+Football rules
+Select a plays
+FOOTBALL SCREEN
+STAGES
+Stage 1: Big trouble at ACME Looniversity
+Stage 2: The Western Movie..
+Stage 3: Spook Mansion
+Stage 4: Looniversity footbal
+Stage 5: Buster sky jinks
+Stage 6: Space opera
+BONUS GAMES...
+CONSUMER SUPPORT
+WARRANTY INFORMATION
+
+===== Page 3 =====
+
+Introduction
+
+HI! Welcome to Tiny Toon Adventures™ for the Super
+NES™. I’m Buster Bunny, and I'll be your host through
+this tour.
+
+First, we'll go to ACME Looniversity, where my friends
+and I go to school. It’s a great place to learn from some
+of the best teachers around.
+
+go out to a to
+I'll be Sheriff
+the long
+arm of the law—and I'll
+have ti my gol'darnd
+to keep Montana Max
+ruining the town,
+
+There is also a picnic break to
+get some chow. I hope that
+doesn’t get rained out, but ’m
+sure we can find shelter if it does.
+
+The next stage takes us to Acme Acres Stadium. I,
+being a great athlete, will show off my amazing
+football taler
+
+The fifth stage takes us on a hunt for Calamity
+Coyote’s hidden tre will be a chance to get
+some fresh air.
+
+Finally, Princess Babs Bunny (no relation!) of the
+
+Kingdom of Acme is kidnapped by the Mil ry
+Imperial Army. But don’t wor 1 rescue her.
+Make way for Buster Bunny, Knight of Honor!
+
+This game is for one bunny.
+
+You control Buster Bunny through six hare-raising
+stages. When you successfully clear a stage, you earn
+a chance to tackle a really cool sub-game!
+
+Whenever Buster gets hit, he loses one of his health
+hearts. When all the health hearts are gone—or if he
+falls to a place where there is no floor—you lose one
+Buster Bunny. You start the game with 3 Busters
+(depending on the level you select, which is explained
+later in this manual), and you can earn 1 UP
+bonuses, which award extra Busters.
+
+===== Page 4 =====
+
+Beginning the game
+With the Super NES™ turned off, insert the game pak
+
+into the unit. Now turn the power on. You will see the
+game credits screen, followed by the introduction.
+
+When you are ready to begin the game, press the
+START button. This will advance you to the SELECT
+screen. Use the SELECT button—or press up/down
+on the control pad—to select the game mode, then
+press the START button.
+
+These are the available modes:
+
+1. Game Start—Begin a new game at Stage One. -
+2. Password—Go to the password screen.
+
+* Press the control pad left/right to move the
+character entry position.
+
+¢ Press the control pad up/down to select a character.
+¢ Press the START button to lock in your selection.
+
+3. Option—Use the option screen to change settings.
+* Press the control pad up/down to select a category.
+* Press the control pad left/right to make a change.
+
+Level—This setting determines how challenging
+the game is. Here is a guide to the settings:
+
+Number of | Life Hearts | Maximum | Number of
+Busters at Start Life Hearts Continues
+Level:
+Children 3 3 5 No Limit
+Normal 3 3 5 5
+Challenge 3 1 3 3
+
+Control—Set the controller buttons the way you
+want them.
+
+Sound Test—You can hear the sounds from the
+game by pressing the control pad left/right and
+pressing the B button.
+
+Sound Mode—The Super NES always uses
+stereo sound. If the TV you are using is
+monaural, the sound will come through on only
+one side when an AV cable is used. The
+background music is then spoiled. To remedy
+this situation, change the SOUND setting from
+Stereo to Mono. Then both the right- and left-
+side sound will come out of a single speaker.
+
+Exit—Press the B button to return to the title
+screen.
+
+Continuing a game
+* At game over, you can select CONTINUE or END.
+
+* In children’s mode you can select END to receive a
+password. Use that password here to begin playing at
+the start of the stage you were on when you received
+the password.
+
+* Select conTINUE to restart from the beginning of the
+same stage.
+
+To make selections from menus, use the control pad
+to get to the option you desire, then press the srarT
+button to enter your choice.
+
+===== Page 5 =====
+
+Buster busts a move
+
+Buster can dash across the screen really quick. He
+can also run up walls when he is dashing.
+
+There is a gauge on the screen that shows you
+Buster's dash ability. The length of the dash is
+determined by the gauge. If you dash when the gauge
+is more full, you can get a really long dash!
+
+If you are falling and approaching a wall, you can use
+the dash to climb the wall. Try using the wall dash in
+various situations and you might find items in
+unusual places (see page 11 for items).
+
+. Buster can attack unfriendly creatures and objects
+
+with a drop kick, a slide while dashing and a
+dashing kick.
+
+L Button R Button
+
+Control Pad
+Y Button X Button
+
+Select Start B Button A Button
+
+The Controller (Initial Settings)
+Change the settings in the Option screen (see page 6).
+
+Control pad ...Controls all directional
+movement — left, right, up and
+down
+
+START ... pause during the game; skip text
+at level intro
+
+SELECT ...not used during game
+A button ...not used during game
+X button ...drop kick
+B button ...jump
+Y button ...drop kick
+R/L button ...dash
+Hold control pad down ...slide
+Band X or Y button ...jump kick
+Press Y or X to do a drop kick while jumping. By
+
+jumping first you can get a greater range on your
+drop kick.
+
+Hold control pad
+left/right ... Allows you to drop kick farther
+
+Hold control pad down ... You can make a descending
+floor jump
+
+===== Page 6 =====
+
+The game screen These are hot collector's items!
+
+You can earn lots of cool items as you cruise through
+Health hearts Number of the stages. Here is a look at some of them:
+gauge stars won Remaining
+
+Dash gauge Busters * Star—when you hit an enemy a star
+
+appears. When you collect 100 stars you
+get a 1 UP (worth an extra Buster).
+
+* Carrot trophy:
+Silver—restores one health heart
+Gold—restores all health hearts
+
+Crystal—increases maximum
+number of health hearts by one
+
+* Gogo Dodo trophy:
+Silver—dash gauge becomes full
+
+Gold—you become invincible for a
+limited time
+
+Crystal—enemies on the screen
+turn into stars
+
+» Buster Bunny doll—gives you a 1 UP
+
+10 Tl
+
+===== Page 7 =====
+
+How to play football (stage 4)
+
+The game starts with the opponent’s kickoff. Catch
+the ball and head for the end zone while evading your
+opponents. If you reach the end zone, you score a
+touchdown and clear the game!
+
+Football rules
+
+You start with four tries, or downs. If you move the
+ball 10 yards or more downfield within the four
+downs, you earn a first down.
+
+Earning a first down gives you four more tries.
+
+For each down, when the player with the ball is
+tackled by an opponent, the ball stops at that spot.
+The next down begins from that position.
+
+Select a play
+
+At the start of each play, you select either a running
+play or a passing play. Each play begins with Hamton
+“hiking” the ball to Plucky, the quarterback.
+
+The playing field”
+
+Running plays
+
+After receiving the ball from Plucky, you must move
+forward and evade your opponents by jumping or
+sliding. If you get hit by an opponent the play ends
+there. If you slide too far, the play ends there, so be
+careful!
+
+Passing plays
+
+Catch the ball that Plucky throws. The pass flies
+about seven yards ahead, giving you the chance to
+gain a first down in one play.
+
+If an opponent knocks the ball down, or if you fail to
+catch the ball, then the pass is incomplete and you
+must start the next down from the same place as the
+previous down.
+
+Before the ball is thrown, you can’t bump into
+opponents. They will follow you and try to interfere
+with the pass, so you must try to fake them out and
+catch the ball.
+
+If you do catch the pass, the rest of the play is like a
+running play—you have to advance while evading the
+opposing team players.
+
+===== Page 8 =====
+
+The football screen Set the stages for excitement
+
+Current Number of Ball position Stage 1: Big trouble at ACME Looniversity
+
+ball Down yards to go for —_ on overall
+position number a Ist down field Clock
+
+Radar to detect Position Player
+location of ball in where ball
+pass play will come
+down
+Time limit
+
+There is a time limit shown on the clock. If you can’t
+score a touchdown within the limit, the game ends.
+
+» You receive 15 minutes in Children level, 7 minutes
+in Normal level and 4 minutes in Challenge level.
+
+* The clock will stop after an incomplete pass and
+start up again at the beginning of the next play.
+
+14
+
+===== Page 9 =====
+
+16
+
+Stage 3: Spook Mansion
+
+Stage 5: Buster's sky jinks
+
+OOD
+
+eceeeese x
+
+Stage 6: Space opera
+
+17
+
+===== Page 10 =====
+
+The bonus games begin!
+
+When you finish bustin’ your way through a stage,
+you can choose a bonus game to play. In the bonus
+games you can win more Busters. There are five types
+of bonus games. The game you will play is determined
+with a spin of the wheel.
+
+* When the wheel starts spinning, press the B button
+to stop the wheel.
+
+Mystery weight challenge
+
+In this game against Acmr’s WeicHt-A-Tronic 5000
+computer, you have to compare the weight of different
+characters. There are five rounds, and you earn a
+1UP for each round you win. The heaviest character
+is the winner.
+
+* You select your characters for each round by
+moving the control pad left/right.
+
+* Press the B button to select a character.
+* Press the Y button to cancel.
+
+* After you select all your characters, the WEIGHT-A-
+Tronic 5000 makes its selections, then the judging
+begins.
+
+Hungry boy Hamfon
+
+Hamton walks along the blue line. By controlling the
+panel, you can lead him to as many apples as he can
+eat. You also receive a 1UP for each apple he gets. If
+you get all the apples within the allotted time, the
+game is cleared.
+
+© Control pad—panel
+movement
+
+« A,B,X or Y buttons—
+speed up
+
+° If Hamton falls
+where there is no path
+or no panel, the game
+is over, So watch out!
+
+Plucky Duck’s go-go bingo
+
+In this bingo game you must line up five Tiny Toon
+Adventures characters vertically, horizontally or
+diagonally to earn a 1UP.
+
+* You get six chances
+
+* Press A, B, X or Y to
+start the ball. 2
+
+eIf you get all of the
+tiles you get an
+amazing 12 UP!
+
+19
+
+===== Page 11 =====
+
+Furrball’s championship squash Consumer Support
+
+Control Furrball and practice squash. Each time you If you feel lost, or just need a boost, don't worry—be
+hit the ball off the wall, the gauge on the right rises sappy! There is help available. You can try our Game
+one unit. When the gauge is full, you get a 1UP. Hint and Tip Line.
+
+* Control pad right/left—move Furrball right/left
+* B button—hit the ball
+
+» Even if you miss the
+ball, you can keep
+playing until the time
+is up.
+
+Konami Game Hint and Tip Line:
+1-900-896-HINT (4468)
+= 70¢ per minute charge
+
+° If you miss, the = Touch tone phone required
+
+gauge starts over at the
+beginning. Your goal is
+to hit 15 shots in a row.
+
+@ Minors must have parental
+permission before calling
+
+° Try to hit the other characters to receive special
+
+bonuses.
+
+‘ A farrant y ;
+Find your tencis| If you experience technical problems with your Tiny
+Control Babs as she runs and rescues her friends, Toon Adventures™ game pak, try our Warranty
+who are being held by Elmyra. Watch out for Dizzy Services number:
+
+Devil and Arnold the
+
+Pit Bull (708) 215-5111
+
+directions
+
+Rescue all your
+friends in the allotted
+time.
+
+20 21
+
+===== Page 12 =====
+
+Don’t go away, we're not done yet...
+If you enjoyed this Tiny Toon Adventures™ game for
+the Super NES, then you'll think these other Tiny
+Toon Adventures games are a real hoot!
+
+GAME BOY!
+
+Babs’ Big Break
+for the Game Boy
+
+Tiny Toon Adventures™
+for the NES
+
+Also available:
+
+Tiny Toon Adventures™ 2:
+Trouble in Wackyland
+for the NES
+
+Tiny Toon Adventures™:
+Cartoon Workshop
+for the NES
+
+NS
+Ss
+
+Tiny Toon Adventures™:

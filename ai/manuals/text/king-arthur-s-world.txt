@@ -1,0 +1,1778 @@
+# King Arthur's World
+source: https://archive.org/details/snes_manual_archive
+pdf: King Arthur's World (USA).pdf
+region: USA
+pages: 21
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+INSTRUCTION BO:
+
+===== Page 2 =====
+
+JALECO® USA INC. LIMITED WARRANTY
+
+ioc USA I. waa te nigral purchase his seco stare product hat he maim on
+‘alc is compo pogram is tear is Fee rom delet males and warmers for &
+eto of ney (80) days om he date of puso. This Jalen softwar program is sols i”
+stout expres ripe waranty of any Kd, an leo no abl ary esses or damages ot
+any tnd esting om use of ths prog, leo agrees for a prod lint (0) days to ther
+‘epaor replace, ls ep, te af rage, any ec oar red, ota ai, wth rat ot
+af purchase, ats Faciay Sonic Contr
+
+‘Ts waranty i ol agli oneal wear a eat This waranty shal nt be appa and
+ale edie btn te ata tere ot as at tah cise, wie
+
+‘or noglet THIS WARRANTY (SN LIEU OF ALL OTHER WARRANTIES AND NO,
+OTHER REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE BINDING ON OR
+OBLIGATE JALECO. ANY IMPLIED WARRANTIES APPLICABLE TO THIS SOFTWARE
+PRODUCT, INCLUDING WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE. ARE LIMITED TO THE NINETY (00) DAY PERIOD DESCRIBED ABOVE,
+IN NO EVENT WIL JALECO BE LABLE FOR ANY SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES RESULTING FROM POSSESSION, USE, OF MALFUNCTION OF THIS JALECO
+SOFTWARE PRODUCT,
+Some sats donot low iiaon a a ow ong an ile waranty fete andr exclion oF
+Imiaiens oii ot conequinal dag see above idatons ade exces of aby
+tay nel aply © you. Tas warary vs you spi hs, nd you may ao have oa gh
+i ary fom leo tao.
+
+steno and Super Nendo Enierainmest LICENSED BY
+‘System® are registered trademarks of
+
+Nintendo of America Ine. Jaleco® is @
+ragstee vadenark ol Jteco USA Ie. King
+
+femurs Word ™ 8 198 Agere Sotware
+
+ua Loans salon, A gis eed
+
+Designed and deveiopes y Agent
+State Lit. nLeo, Egan
+
+DIO [easy somo]
+
+‘This program as been produced wih he
+Doty Suround encoding stem, ad say
+compatible. with sterea or monaural
+reprocon
+
+Official
+
+Seal of Quality
+
+This oficial seal is your assurance that
+Niniondo® has approved the quay of his
+Poti Ana oko is eal when ung
+fumes and accessories fo ensue comet
+Eompatibity with your Super Nitendo
+EnlranmantSysiem. Al Nate pedis
+‘are eensd by sae lr uso only wit ther.
+Authorized products bearing the Otheal
+Nero Sal fay.
+
+Doty and DD are tacoma of
+Dolby Laboratories Licensing Corporation, JALECO USA INC. i
+310 Era Drive
+
+Northbrook, llinois 60062
+
+(708) 480-1811
+
+tatatatatard
+<S<S<S K
+WHY SHOULD YOU JOIN
+THE JALECO MAJOR PLAYER’S CLUB?
+
+Here’s what you get if you join:
++ WIN FREE GAMES
+‘You'll be eligible to win free Jaleco games from our
+fonce-a-month drawings!
+
+NEW GAMES
+
+wd out about new Jaleco games before they're released!
+
+Get in on special Jaleco promotions and contests! And more!
+
++ TEST GAMES BEFORE THEY'RE RELEAS!
+Hey, maybe we'll even ask 2 few of you if you'd like to test
+Jaleco games before they're released! You could be selected
+asa Jaleco Major Player!
+
+Here’s what you get if you don't joi
+
++ YOU GET NUTTIN’ IF YOU DON’T JOIN!
+‘And there's only one way you can get in on all this good
+‘tuff — and all it's going to cost you isa few moments of
+‘your time and the price of a postage stamp!
+
+“Here's how to join:
++ Bind the
+ee oe
+* Fill in the information requested on the card,
++ Puta stamp on the eard.
++ Drop the cardin dhe mal
+Ao cgial Loar fill out the card, mail ito us, and
+_you'te in! Even if you've joined before il out the eard and
+Helpers 1 te allman re
+
+===== Page 3 =====
+
+DOLBY SURROUND™ SOUND -
+JALECO MAKES
+
+VIDE@ 5
+
+HISTO!
+
+-aleco brings you the first videogame for the
+
+SNES ever to be encoded with Dolby Surround™
+
+audio. At Jaleco, we try to bring you every
+
+technical advancement possible to give you the
+most for your entertainment dollar, and we're
+extremely pleased to be the first to offer you the
+pleasure that Dolby Surround™ adds to your game-
+playing enjoyment.
+
+connected to your Super NES, you can hear all of
+the great stereo sound effects and music in King
+Arthur's World in fantastic Dolby Surround™.
+Don’t worry, if you don’t have the Dolby Surround
+system, you'll still get terrific stereo audio from
+King Arthur's World.
+
+I: you have a Dolby Surround™ music system
+
+TABLE OF CONTENTS
+
+INTRODUCTION...
+
+OBJECT OF THE GAM
+
+GETTING STARTEI
+
+OPTIONS SCRE
+
+CONTROLLER FUNCTIONS DURING A.
+
+MOUSE CONTROLS
+
+ON-SCREEN DISPLAY:
+
+SPECIAL
+
+EMS on
+
+"TRAINING LEVEL WALK-THROUGHS.
+
+[IPS — THE JALECO MAJOR PLAYER'S HOTLINE ooo. 38
+
+‘TAKING CARE OF YOUR JALECO GAME
+
+(CONTRIBUTING STARF.
+
+WARNING: PLEASE READ THE CONSUMER INFORMATION AND.
+PRECAUTIONS BOOKLET INCLUDED WITH THE PRODUCT
+CAREFULLY BEFORE USING YOUR NINTENDO” HARDWARE
+‘SYSTEM OR GAME PAK.
+
+===== Page 4 =====
+
+INTRODUCTION
+
+summons went out to the four corners of the realm: King Arthur needs
+
+loyal followers to join in his new crusade! Archers and swordsmen,
+engineers and ordinary footsoldiers answered the call to arms. ‘There were
+specialists in explosives and magicians versed in the casting of spells. King
+‘Arthur gathered these brave men together and trained them in the art of war
+They knew the dangers were great — returning scouts spoke in whispers of
+fierce goblins and demons, horible mutants, and worse.
+
+| alta
+attention to a more immediate
+threat, Ruthless tyrants in th
+neighboring kingdoms were enslaving
+the peasants and seizing thet lands
+Determined to end this assault on his
+people, the King assembled an army
+and set forth to conguer the enemies
+
+of the realm. His opponents stood
+
+hhideous traps for King Arthur's men,
+‘Spike-filled pits and cauldrons of boiling oil took their tll on the unwary
+‘Trap doors opened suddenly beneath their feet, and terrible Dark Knights
+charged with swords blazi
+
+rthur's troops were victorious in the end, but their triumph was. short
+Jived, New reports from the North spoke of a monstrous ogre that was
+
+terrorizing the countryside, devouring the
+
+‘the occasional peasant). The King dispatched his finest warriors, who made
+
+short work of MacOgre of the Highlands. Determined to secure his lands
+
+from further invasions, King Arhur led his army deep underground into the
+
+‘eavernous regions of the Goblin Underworld
+
+sasans’ sheep (not to mention
+
+‘a world of perpetual night, hordes of goblins mined for gold and other
+mictals to build their engines of war. Mutant frogs with magic powers
+
+6
+
+sirength, King Athur's men defeated four evil Goblin Demons and
+destroyed their ultimate war machine,
+
+Ham
+mission was not yet complet
+King discovered that the goblin w
+merely servants toa greater
+power...the Demon Overlord, ruler of
+the Cloud World. Undaunted, Arthur
+set off to meet his greatest chal
+
+TT kine and tis woe son
+discovered a world unlike
+imaginable, filled with many steange and terrible things. Each Cloud World
+was ruled by a dark Wizard who cast terrible spells of death and destruction,
+‘urning men into zombies and acid-spraying mutants, King Arthur led his
+Fearless troops into batle after battle until dhe last Wizatd was crushed.
+Summoning every ounce of strength, the King’s army faced their final
+adversary: the all-powerful Demon Overlord, Weary but joyful, King
+Arthur and his men retumed home in triumph from their noble quest. At
+last, peace and harmony were restored to King Arthur's World!
+
+OBJECT OF THE GAME
+
+'xperience for yourself the fantastic realms of King Arthur's World
+jwhere stategy and action combine with stunning 3-D graphics and
+available Dolby Surround™ sound (Dolby Surround™ system required) 10
+create a challenge of truly epic proportions. Put yourself in the role of King
+Arthur as he selects his troops and plans his campaigns. then leads his men
+ina crusade against the enemies of the crown, The heroie warrior of
+
+medieval legend lives on!
+
+Keith ert ek yu oe tre exis a 23 eel
+‘of increasingly complex mazes and puzzies. Your adventure starts in
+
+7
+
+===== Page 5 =====
+
+the Real World of knights and medieval castles. Sound a litle ame? Then
+Jnerous caverns ofthe
+
+wits against a whole new set of challenges, like the teleporting Tr
+
+Demons. Your final stop is the ominous Cloud World —a deadly domain
+
+‘where giant Cannon Snails leave a
+
+teal of destruction in their wake,
+
+Defeat your enemies on each level,
+
+then find their ruler and send in King
+
+‘Arthur to demand his surrender. Just,
+
+in case all this isn’t enough, you'll
+
+find a Boss guarding the exit to each
+
+Realm... MacOgre ofthe Highlands,
+
+the Goblin Steam Hammer, and the
+
+terrible Demon Overlord
+
+there’s no time limit in King Arthur's World...he game continues as long
+
+‘as King Arthur is live. Since he only has one life (magic
+notwithstanding), you'd be well advised to keep him out ofthe fray as much
+as possible, He may be powerful, but he’s not immortal — and he can fall
+into a pit of boiling lava or bubbling slime just as easy as the next guy. Only
+the King can collect certain impottan items. Keys, for instance. Special
+keys unlock hidden doors that may lead you closer to your goal ..oF just into
+‘more trouble, Gold is another restricted item. Only King Arthur is allowed
+to collect the piles of gold that appear along the way. ‘They may be hard 10
+reach, but don’t pass them by — you can use the gold to buy your freedom if
+you're captured by the enemy.
+
+the King’s army includes seven different troop types, each of which has a
+
+"unique set of skills and fighting abilities. Coordinate your troops to
+solve the problem at hand, whether it involves battering in a door, filing a
+pit, firing a volley of arrows, casting a spell, or joining the enemy in hand-t-
+hhand combat. Nine traning levels introduce the various woop types and
+allow you to experiment with each set of skills alone and in combination
+Passwords control the access to each new level, including the training levels
+‘You won't be able to advance to the next challenge until you have
+
+8
+
+successfully completed the current one. Alter all, we don’t want green recruits
+heading into any major confrontations!
+
+NY oie err inte ion ia
+easier to get started — justo make sure you don’t send your men back
+to the tent when you meant to build a catapult! Continue their training on your
+‘own as you gear up forthe real test of your skills as commander-in-chief
+Ready to meet the challenge? ‘Then dust off your crossbow, polish your armor,
+and prepare to defend the realm from the forces of evil..adventure awaits in
+King Arthur's World!
+
+GETTING STARTED
+
+1, Place the King Arthur's World™ Game Pak ito your Super
+Nintendo Entertainment System and turn on the unit,
+
+Ate te ttle sereen appears. you may watch a short animation
+sequence that describes your crusade, This is followed by a demo
+of the game, Press any Controller button to continue to the Options
+Screen, If you are using a mouse, press the Left Mouse Button
+
+OPTIONS SCREEN
+Yo os te eee
+Start Password Army Sounds
+
+‘ach option is deseribed below. To select an option, position the Hand over
+the button next to that option and press any Controller or mouse button
+
+Start
+
+[Batley el oN Eel eee alanis
+‘entered a Password to select a specific level, you will begin the game at
+Training Level |
+
+===== Page 6 =====
+
+Password
+Password Sereen shows 16 buttons in a4 x4 square grid, Passwords
+
+‘consist ofa specific combination of pressed and unpressed buttons. The
+‘appearance ofthe buttons on the sereen changes when they are pressed (try it!)
+To press a button, position the Hand over that button and press any Controller
+‘or mouse button,
+
+‘ach time you successfully complete level, you will be given the password.
+
+tothe next level. ‘To save this password, copy down the exact location of
+every pressed button, To return toa specifi level at a later time, go to the
+Password Sereen and enter the password by pressing the correct buttons. After
+entering a password, press “Done” to go to the selected level. A message on
+the sereen will let you know ifthe password is “Coreet” or “Incorrect.” Select
+the “Start” option to begin, Ifthe password is incorrect you willbe placed o
+Training Level
+
+Army
+St rere eon ere te Aim Se
+
+Dark Wizards.. sin
+
+1 characters are described later inthis manual. During the game, most
+
+Jnaracters can appear singley or in groups. The Army Sereen allows you
+to choose the number of men present in each group. You may have as few as
+‘one or as many as six individuals ina panticular group, When you select a
+character to perform a task, the designated number of men will appear and will
+act asa group, moving and working together (for the most pat!
+
+0
+
+NOTE: Unlike the six characters listed above, Soldiers cannot appear in
+‘groups. Therefore, they are not listed on the Aemy Sereen.
+
+he default group size for each characteris given above. To change a group
+
+size, positon the Hand over the UP ARROW or DOWN ARROW buttons
+next to the current value and press any Controller or mouse button. Press “Exit”
+to leave this screen and return to the Options Screen. Note that the total number
+‘of men available in each character type varies from level to level, and may be
+less than the designated group size
+
+Sounds
+Nhe Sounds Sereen allows you to turn the music ON or OFF, select Dolby
+Surround™ sound, and sample all ofthe music and sound effects heard in
+
+the game, Select “End” to exit this screen and return tothe Options Sercen.
+
+‘Game Musie On
+‘Select this button to turn the music ON or OFF, ‘The change wil ake
+effect when the game begins.
+
+Dolby OFF
+‘Select this button to tuen the Dolby Surround™ sound option ON or OFF.
+
+NOTE: Your sound system must be equipped with Dolby Surround™
+‘ound in order to take advantage ofthis option.
+Play Tune
+Use the UP ARROW and DOWN ARROW keys to select a tune, Select
+‘the button next to the arrow keys to play that tune.
+Play Effect
+Use the UP ARROW and DOWN ARROW keys to select a sound
+effect. Select the button next tothe arrow keys to play that sound effect,
+
+===== Page 7 =====
+
+CONTROLLER FUNCTIONS
+DURING A GAME
+
+Left Button Aight Button
+
+Control Pad
+
+Select Button YY Button
+‘Start Button
+Move Active Character New Press the X Button
+Character to display the
+‘Character Ieons. Press Left or
+
+Move Left Right on the Control Pad to
+Move Right highlight the character you wish
+Climb Up next to activate, then press the B
+
+ladder of platform
+Climb Down next
+Jadder or platform
+NOTE: Characters keep
+‘moving until you stop them by the opposi
+Pressing the Control Pad inthe | NOTE: Ifyou already have three
+Sppoaile dean characters or groups on the
+
+Button. Once you activate a
+
+character, he begins to move
+
+{mmediately. To stop him from
+
+moving, press the Conteol Pad in
+direction
+
+‘Togele Press the X Button | screen, you must send one of the
+Icon Bar to toga the Icon esting characters back tothe
+ar between Action Icons and tent before you can select a new
+‘Character Feons. Each is characte.
+explained below. Note that when | switch Hold down the ¥
+you display the character icons, | Characters Button and press
+the screen serlls automatically to | tere Right, Up or Dovey on the
+
+the location of the tent
+
+Controt Pad to switch to another | action, suchas place a barrel of
+‘haracter onthe sereen, dynamite (Barrelmen) or build
+
+Select Hold down the A ‘catapult Engineers).
+
+‘Action Button and press | Seroll Press the Left
+Left or Right on the Control Pad | Left/Right Button or the Right
+to select another action icon for Button to scroll the
+the active character. The white sereen horizontally in the
+highlight around the selected icon | corresponding direction. When
+‘changes to yellow during this ‘you release the button, the sereen
+process, and an arrow appears returns to the position of the
+‘over the head ofthe active ceursor. Press both the Left
+character. Action icons vary Button and the Right Button
+from character to character, together to hold the sereen steady
+depending on their skills at another location
+
+Carry Out Pressthe B Button | Pause the Press START or
+
+Action —tohavethe active | Game —_select the Paws
+‘character earry out the selected (Pause) icon on the Teon Bat.
+
+MOUSE CONTROLS
+
+The Mouse Pointer is displayed as a directional arow when it appears
+‘over the main game view, and as a"“+” when it appears over the Status
+
+Bar or Icon Bar. Move the Mouse Pointer around the sercen to see how it
+
+changes from location o location, Mouse controls are described below
+
+Move the Mouse
+Pointer until the
+‘row is pointing in
+the direction that you want the te
+active character to move. Press| jeon Bar
+the Left Mouse Button to move
+
+the character in that direction
+
+To stop the character, move the
+pointer until the arrow is
+
+pointing in the opposite direction
+(or straight up) and press the
+Left Mouse Button
+
+Postion the Mouse
+Pointer anywhere
+‘over the Ieon Bar and press the
+Right Mouse Button to toggle
+the leon Bar between Action
+eons and Character Ieons.
+
+===== Page 8 =====
+
+Each of these is explained below.
+
+Note that when you display the
+character icons, the screen scrolls
+automatically tothe location of
+the tent
+
+New Position the Mouse
+
+Character Pointer over the leon
+Bar and press the Right Mouse
+Button to display the Character
+Teons, Move the Mouse to
+highlight the desired icon, then
+press the Left Mouse Button to
+select that character and send him
+‘out of the ten.
+
+NOTE: Ifyou already have three
+
+characters or groups on the sereen,
+
+{you must send one of the existing
+
+‘characters back to the tent before
+
+you can select a new character.
+
+Switeh Position the Mouse
+Characters Pointer over the
+Status
+
+desired character on the
+Bar and press cither mouse
+button. You may alse scroll the
+tzame view until the character that
+you wish to select appears.
+Postion the scroll pointer over
+that character and press the Left
+Mouse Button while
+holding down the Right Mouse
+Button. See below for more
+aout scrolling
+
+Carry Position the Mouse
+
+Out Action Pointer over the
+‘Action Icon you wish to select
+
+and press the Left Mou
+to perform that action. Action
+icons vary from character to
+character, depending on their
+shill
+
+Serolt Position the Mi
+
+the Screen Pointer over the
+‘game view portion of the seen,
+then press and hold the Right
+‘Mouse Button, ‘The standard
+Mouse Pointer changes to a
+Fowr-direetional cursor. ‘To seroll
+the sereen ina particular
+direction, move the cursor to that
+edge of the game view and
+the sereen will begin to scroll
+‘automatically. Still holding down
+the Right Mouse Button, move
+the cursor away from the edge of
+the sereen to stop the scrolling
+If you wish, you may now press
+the Left Mouse Button 10
+perform the selected action for
+the active character, This
+Feature is especially useful for
+tracking arrows. Release the
+Right Mouse Button to return
+the game View to the position of
+
+the active character.
+
+Pause Position the Mouse
+
+the Game Pointer ov
+Paws (Pause) icon on the right
+side ofthe Leon Bar, then press
+the Left Mouse Button. Press it
+‘again to resume play,
+
+the
+
+4
+
+ON-SCREEN DISPLAYS
+Active Character
+
+_A sar sounds te ative carter, tna prop, the cursor
+surrounds the lead man in that group. Press Left or Right on the
+Control Pad 10 move the character (oF group) in the corresponding direction,
+ress the Control Pad in the opposite direction to stop him. When the lead
+‘character in a group is eliminated, the other characters in that group will turn
+‘around and head in the opposi
+
+direction unless you stop them,
+
+tatus Bar
+
+Status Baris located atthe
+bottom of the sereen, and (not
+surprisingly) shows the status ofall
+selected characters, The Status Bar
+hhas four windows, since you may have
+‘up to Four characters or groups of
+characters present on the sereen at any
+given time. The King appears on the
+fight side ofthe Status Bar and
+remains there at all times. ..unless he is defeated, in which case the game is
+
+Character Status
+
+Pree tiime zo cet actractthtcharserappeas noe of the
+maining three windows. When a characteris activated, his window
+‘expands and he begins pacing along. [Fall ofthe characters inthe active
+group are destroyed, control switches tothe next closest character. By the
+way, you don‘t need to have four different characters uetive at onetime, oF
+‘even four characters at all. You can have a group of Knights, a Wizard, and
+fr some Archers and an Engineer or so. It all
+‘and what's available...mmore on that later,
+
+a couple of Barrelme
+depends on what you
+
+18
+
+===== Page 9 =====
+
+Strength Indicator
+The red heart next to the active character indicates his strength,
+‘When a character is at full strength, the heat is full size. The
+
+character is bit, the heart wil shrink accordingly. In a group, the
+indicates the strength of the lead charac
+
+Group Size Indicator
+“The number in the active window tells you how many characte
+remain in the active group. You may change the default size of most
+character groups by displaying the Army Sereen and making your
+selections
+
+The group size will deerease as characters are killed in battle
+(or walk off a cliff, ete.)
+
+Battle
+When a character oF group of characters is engaged in battle. a set of
+crossed swords appears inthe corresponding window. The battle
+indicator changes to a skull and crossbones when one or more
+characters is defeated. ‘These indicators appear forall characters on
+the sereen, both active and non-active, Some non-active characters
+will fight fo the best of their ability when confronted by the enemy.
+‘This includes Knights, Soldiers, Archers, and Engineets. Barrelmen
+‘and Wizards don't put up much ofa struggle when caught
+off-guard...or on guard, for that matter.
+
+Icon Bar
+
+"Trion en jou pss tte X Btn. Ts ros me Aton ions
+soi Chaser eos
+
+Action Icons When you start the game, the Ieon Bar automatically
+
+displays the Action Tons. ‘The icons shown on the bar
+
+represent all possible actions for the current character.
+
+The active icon is surrounded by a white box. To select
+
+different icon, hold down the A Button and press
+
+16
+
+¢ leon Bar atthe very bottom of the sereen switches between twa types
+
+Left or Right on the Control Pad wntil the icon you
+‘wish to activate is highlighted. Different icons are
+available foreach character, depending on thei skills.
+Description of the icons associated with each character
+ane provided later in the manual, However, two icons
+‘are common to all characters:
+
+Return to Tent This icon appears at the left side ofthe leon Bar and
+shows a tent with an arrow pointing to it. When you
+choose this icon, the active character or group will
+immediately head toward the tent. Once this occurs,
+you may no longer selector control that character
+
+ceven if he runs into trouble, NOTE: When the Ki
+is selected, a Surrender icon (a white lag) appears in
+place of the Return to Tent icon.
+
+Pause This icon shows a set of paw prints (get it? paws"),
+and is displayed atthe right side of the Leon Bar for all
+characters. Select this icon and press any button 10
+pause the game, The sereen darkens when the game is
+paused. Press any button to resume play. You may
+also pause the game by pressing START.
+
+Character Character Ieons for every available character also
+
+eons appear on the Icon Bar. Ifthe Action leons are
+displayed, press the X Button to display the Character
+Icons. From left to right, the character icons are:
+
+Barrelmen Engineers Knights
+r
+
+===== Page 10 =====
+
+Archers Soldiers Wieards
+
+Yhe number beneath each character icon tells
+‘you how many of that character type are
+‘currently available. ‘This number varies from level
+iminated. Press
+
+Dark Wizards
+
+to level, and decreases as men are
+Left or Right on the Conttol Pad to highlight an
+icon, Press the B Button to select that character
+and set him in motion
+
+SPECIAL ITEMS
+
+To satoninese
+
+Keys
+
+items may be collected by the King
+
+Micki srs vrs oon sly anncoeie or
+‘out-of-the-way spot. I's vital that King Arthur collect every key he
+
+‘wondering, magic keys open the
+{doors to secret rooms — which may be the only way’ out of a particular level
+By the way, you'll have o look pretty closely to find the hidden
+ddoors...otherwise, they wouldn’t be hidden, would they?
+
+finds, so be creative. In case you we
+
+Gold
+
+es of gold appear at many locations inthe three realms of King Ardhur's
+World. Only the King is allowed to pick up these piles of gold. Any
+character can pick up the gold coins which some ofthe larger enemies drop
+
+18
+
+when they are defeated, Collect all the gold that you ean — once you have
+collected 100 gold pieces, King Amthur can buy his freedom if he is captured
+by the enemy, When this happens, you are allowed to continue the game on
+the current level. You are placed at the last tent encampment and retain any
+keys that you have found,
+
+TRAINING LEVEL WALK-THROUGHS
+
+Nhe following walk-throughs take you step-by-step theough Training
+Levels 1-4, ‘These walk-throughs will get you started quickly by
+allowing you to become familiar with the game controls and character
+setions. Detailed descriptions of both the characters and the levels follows
+‘the walk-throughs — you may want to read those sections before you begin,
+
+‘Training Level 1: Archers
+
+10 begin at Level 1, select “Stan” a
+
+from the Options Sereen without
+entering a password. In tis level you
+will use your Archers to destroy
+{enemies that are out of the reach of
+‘other troops. You will learn how to
+postion your Archers and adjust the
+angle of trajectory for their arrows,
+After a brief introductory text ser
+
+the game sereen appears.
+
+PBS
+
++ Notice the spike pt in the center ofthe sereen, over which a series of
+tuap doors opens and shuts. If you watch carefully, you'll also see
+projectiles landing just tothe lett ofthe pit. Your First task is to
+<’liminate the Slinger that is hurling the projectiles.
+
+es
+
+eee
+
+&
+
+Press the X Button to display the character icons
+level, the only icon available is the Archer icon. Notice the number
+20 under the icon, indicating that 20 Archers are available on this
+
+(his training
+
+9
+
+===== Page 11 =====
+
+level. Press Left or Right on the Control Pad o highlight the
+Archer, then press the B Button to bring the Archers out of the tent.
+
+Just before the lead Archer reaches the spike pit, press the B Button
+‘apain to stop the Archers and have them fire their arrows. Press the
+Left button to seroll the game sereen tothe left so that you can
+Watch as the aerows find their mark
+
+‘Once the Slinger has been eliminated, you're ready to rss the spike
+pit. Wait until the trap doors begin to close, then press Left on the
+‘Control Pad to set the Archers in motion. If you time it just right,
+they should all be able to make it across safely. I not...well there
+‘are plenty more where those came from!
+
+After the last Archer has cleared the pit, press the B Button to stop
+the group. Your next task is to take out the Enemy Knight who is
+tipping pots of boiling oil over the edge of the tower. To elin
+the Knight, you will need to adjust the trajectory angle ofthe arrows.
+Press and hold the A Button, then press Left on the Control Pad to
+highlight the fefimost Arrow icon (the one with the lowest angle of
+trajectory).
+
+Press the B Button to fire. Once the Enemy Knight is eliminated,
+press Lefton the Control Pad to set the Archers in motion once
+‘again, Press the B Button o stop the Archers when the frst 1wo
+have cleared the castle tower. There are more Slingers alvead, so stay
+‘out of range! Press the Left Button to scroll the sereen tothe left
+
+Next, you need to eliminate the S the highest level of the
+tower, Hold down the A Button, then press Right on the Control
+Pad to highlight the rightmost Arrow icon. Press the B Button to
+fire, Now select the middle Arrow icon and move the Archers ahead
+slightly, then press the B Button again to target the Enemy Knight
+
+In order to destroy the last pair of Slingers, you'll ned to move
+‘within striking distance of their projectiles — sometimes it can’t be
+
+20
+
+helped! Position the lead Archer mid-way between the two bell
+towers, then press the B Button to begin firing. Fire as quickly as
+‘you can... youre bound to lose few men in the process.
+
+‘You may now safely bring in King Arthur! Press and hold the ¥
+Button, then press Right on the Control Pad to select the King.
+Press Lefton the Control Pad to move the King tothe left
+‘When you reach the spike pt, press Right on the Control Pad to
+stop. Wait until it is safe to crass, then walk tothe last tower
+and collet the pot of god
+
+‘Training Level 2: Barrelmen
+
+fier successfully completing
+Level I, you are given the
+password to Level 2 — copy it down!
+To go immediately to this level, select
+“Done” and then “Start.” To begin
+this level at a later time, you will need
+
+to-enter the correct password, In Level
+2, you will use Barrelmen to destroy
+doors and machinery so thatthe King
+may pass.
+
+‘As the scene opens, King Arthur is under atack from the Slingers
+in the nearby castle Use the Control Pad to move the King just to
+the left ofthe tent, where he'll he out of danger. Don't get too close
+tothe castle — you don’t want tobe around when the explosives
+
+g0 off!
+
+‘You now need to call out a Barrelman to blow up the door to the
+
+castle, Press the X Button to display the character icons. As before,
+
+‘only one character is available — but this time it’s a Barrelman,
+
+Press Left or Right on the Control Pad to highlight the icon. Wait,
+
+until the Slingers ure firing inthe opposite direction, then press the B.
+
+Button to bring the Barrelman out of the tent, (NOTE: Unless you
+2
+
+===== Page 12 =====
+
+hhave changed the default seting on the Army Screen, only one
+Barrelman will appear.)
+
+‘When the Barrelman approaches the door, press the B Button to
+piace the barrel. The Barrelman returns automatically tothe tent, and
+‘alter afew seconds the door should go up in flames, Your next task
+is to destroy the Pulverizer visible on the seen tothe Fight ofthe
+ladder, Select another Barelman and have him place is barrel
+directly under the Pulverizer to destroy the machinery
+
+Move King Arthur forward and up the ladder t eliminate the
+Slingers. Next, call out another Barrelman to eliminate the wooden
+door on the far side of the castle, Once the door is gone, move the
+King tothe left until he reaches the place where the ground slopes
+down, Stop the King so that he is out of range ofthe
+
+enemy projectiles,
+
+Bring in a final Barrelman to blow up the door of the last castle. You
+may need to attempt this more than once, as Barselmen can be
+climinated by a single well-placed enemy shot. Once the door is
+destroyed, send King Arthur into collect the gold, He should be able
+to ake one of two enemy shots without serious damage, Watch out
+for the pot of boiling oil!
+
+‘Training Level 3: Knights and Soldiers
+
+Yalow
+
+completed Level 2. If you wish to
+Start this level ata later time you will
+
+coy
+BS
+ts
+
+ene eee meres
+
+De ra joes ell tow Koln
+
+and Solis respond nthe est of
+
+bate, There are no puzzles —just
+
+Pesky et abi! Keo sourtoons:
+
+eerie ©
+
+Level3
+
+PESRESSS
+
+‘Oh, and don’t worry about that white
+
+stuf
+
+i's just snow
+2
+
+‘Training Level 4: eeeaeenesees
+Engineers 7
+
+Yi
+
+Level 304
+the comet password, The fourth ‘
+teaming level is designed to show you
+the usefulness and versatility of
+
+Engineers. You wll have the
+Engineers fill a spike pit construct a catapult to destroy Si
+
+may begin Level 4 .
+imped wo comating
+
+Enemy Knights appear immediately on Level 3, so you will need 10
+act quickly before they approach the King. Press the X Button to
+display the character icons, then press Left or Right on the Control
+Pad o select the Knight icon (the third icon from the left), Press the
+B Button to bring the group of Knights out ofthe tent.
+
+When the Knights approach the Enemy Knights they will begin to
+
+fight automatically. Your men are basieslly on their own at this point
+{ust make sure they don’t go wandering off inthe wrong direction!
+
+You may now wish to place a
+
+instance o the left of the tent, oF atthe comer of the house
+
+oldie at a strategie location — for
+
+Press the X Button to display the character icons, thea select the
+Soldier icon (the third icon from the right) and press the B Button,
+‘When the Soldier reaches his location, pres the B Button to have
+him brandish his shield at the oncoming Enemy Knights. Sold
+not very Stone fighters, but they can hold off a troop of Enemy
+Knights fora surprisingly fong period of time.
+
+You should now bring out another group of Knights as
+reinforcements fr the first group, which by this time should be prety
+well decimated, Press the X Button, then repeat the provess
+
+described above. Continue monitoring their progress, bringi
+new groups asthe old groups are depleted. With alittle luck, you'll
+
+‘eliminate the enemy before they do the same to you!
+
+1mm 0 it later by entering
+
+23
+
+===== Page 13 =====
+
+down a door, build a platform to seale a cliff and use a bat
+ina second door. These guys do it all!
+
+‘+ When the sereen appears. notice the spike pit locate just to the left ofthe
+tent. Your first task i to have the Engineers fill this pt. Press the X Button
+to display the character icons, then use the Conteol Pad to select the
+Engineer icon and press the B Button to bring the Engineers out of the tent.
+Immediately press Right on the Control Pad to stop the Engineers before
+‘they fall into the pit,
+
++ Press and hold the A Button, then use the Control Pad to highlight the Fill
+Pits icon (the thied icon from the right). The number below each icon,
+indicates the number of Engineers required for that task. Press Lefton the
+‘Control Pad to move the Engineers in that direction. As the lead Engineer
+approaches the edge of the pit press the B Button. The fist wo Engineers
+‘each will drop a single barsel 1 Fill the pit. Stop the remaining Engineers,
+then turn them around and position them on the far sie ofthe King. Your
+next task i to build a eatapult and use it to eliminate the Slinger atthe top of
+the castle, Press and hold the A Button, then use the Control Pad t select
+the Catapult icon (second from the left). Now move the Engineers othe left
+‘As the frst Engineer approaches the filled pit, press the B Button to build a
+ccatapalt
+
++ The Engineer in charge of the catapult will begin firing immediately and
+the screen will scroll to show you the shots. You should be able to destroy
+the Slinger fairly easly. Press Up or Down on the Control Pad to adjust
+the trajectory of the shot. (MOUSE: To adjust up or down, place the eursor
+above or below the catapolt and press the left mouse button.) IF you aim the
+shot correctly, you should also be able to destroy the wooden door of the
+castle, Once this is done, you will want to remove the catapult by sending
+the Engineer hack to the tent. Catapults continue firing until you remove the
+Engineer controlling them, even i that characteris not selected,
+
++ Press and hold the A Button, then use the Control Pato select the Go To
+‘Tent icon (the leftmost icon). Press the B Button to vend the Engineer back
+
+24
+
+{othe tent. You will now need to build a platform to scale the smal iff
+a the lft side of the sereen, Call out another group of Engineers, and make
+‘ure the Build Platform icon is highlighted (the second icon from the righ)
+
++ As the lead Engineer approaches the cliff, press the B Button to build a
+platform. Now press and hold the ¥ Button, then use the Control Pad to
+select the King. Move the King tothe left pressing Up on the Control Pad
+when he reaches the platform to have him climb up. King Anhur should be
+able to defeat the Enemy Knight in afew strokes. Only a single door now
+stands between you and the gold!
+
+* As your final task, you will have the Engineers build a battering ram and
+breakin the door. Ic takes wo Engineers to build a batering ram, If 2 group
+‘of two oF more Engineers is already available on the sereen, you may use
+them. Otherwise, call outa new group. The Engineers may elimb the
+platform just as King Arhur did. Once ontop, have the Engineers stop
+that you can select the battering ram.
+
+Press and hold the A Button then use the Control Pad to select the
+Battering Ram icon (fourth from the left). Move the Engineers to the let.
+
+‘As the lead Engineer approaches the door. press the B Button. The entire
+_group of Engineers will construct a battering ram, pound inthe door, and
+
+return tthe tent. King Arthur may now collet his gold!
+
+CHARACTERS
+
+Nis section describes the characters you will be using, including the action
+
+icons associated with each character. The two common icons Return to
+‘Tent and Pause are described in an earlier section. Note that the icon bar does
+‘ot “remember” which action icon is selected for each character. Rather, the
+highlight forthe action icons retains its relative positon from character to
+character. This means that when you switch toa different character, you may
+iced to reseleot the desired icon,
+
+25
+
+===== Page 14 =====
+
+King Arthur
+
+Kitt Arie inti tant itn mete aig to ame
+
+remember, and the game ends i he is defeated. ‘The King is the only
+character that ean pick up piles of gold and keys for secret doors. When you.
+locate the Enemy King. King Adthur must approich him to secure his
+‘ultimate surrender, The icons associated with King Arthur are
+
+Surrender time. Select a Key icon, then
+(White Flag) postion the King infront of a
+Allows you to end the secret door und press the B Button
+game and return tothe to open that door. Just to make
+
+‘Options Seren. Select this icon things really tough, certain keys are
+and press the B Button rwice needed 10 open certain doors. So
+surrender how do you know a seeret
+nee door when you see one? If we told
+nen you that, it woulda’ be a
+
+Allows te Kine wo sectet...would it?
+fight, [this icon is
+
+selected the King will fight
+
+automatically when confronted by
+
+an enemy, You'll probably want to
+
+have this ion selected most of the
+
+time. Alter all, you never know
+
+when a pesky Trog Demon or
+
+‘Zombie is going to show up.
+
+Open Secret Door
+(Key) Allows the King
+= o.open secret doors
+\ thar transport him 10
+‘ther locations. These
+‘cons only appear after King Arthur
+picks up a key. The Ki
+‘may possess up 10 four key
+
+'s usually wise to keep him out of the action...there's only one of him,
+
+Barrelmen
+
+Boerne te gi ep ser tat cary a bare of gunpowder
+
+their backs. Place these barrels in strategic locations to Blow away
+doors und other obstructions, ‘They will also blow up ladders, drawbridges,
+roofs, and any other wooden structure in the area. The explosion will injure
+‘or destroy anyone in the immediate vicinity, so keep the rest of your tops
+well clear of the detonation site. Basrelmen have an unlimited supply of
+gunpowder, but they will not fight if attacked. Be sure you have secured the
+area before you send them in! The default group size for Barrelmen is one.
+You may change this option on the Army Sereen if you wish, The aetion
+icon associated with Barrelmen is
+
+Place Gunpowder
+(Barrel) Allows a Barrelman to place & barrel of gunpowder,
+Select this icon, then press the B Button to have the Barreiman
+place a barrel of gunpowder at his current location, Once he
+places the barrel, the Barrelman returns tothe tnt,
+
+Engineers
+
+ngineers work in groups to build structures and devices that help the
+{King’s oops advance. The number displayed below each Engineer
+
+-presents the number of Engineers needed to perform
+that particular task (fom 1 to 4}, Once they have completed their task, the
+Engineers will return to the tent automatically, ‘They will fight if confronted
+by the enemy, but are not very strong in battle, Better fo secure the area first
+fo provide them with adequate support troops. The default group size for
+Engineers is five. You may change this nuraber on the Army Sereen if you
+Wish. Note that if you have less than four ina group, you will not be able to
+perform all asks. ‘The aetion igons associated with Engineers ar:
+
+Build Catapult (Catapult) Requires 3 Engineers. A catapult is
+‘a wooxlen device that fobs flaming fireballs imo the air. This
+device is useful for desteoying enemies from a distance. Select
+
+27
+
+===== Page 15 =====
+
+this icon, then position the lead Engineer on a Mat stretch of fand just out of
+range of entemy fire and press the B Button, Make sure that all ofthe
+Engineers are walking toward the enemy when you build the catapul
+Otherwise, it may end up facing the wrong direction, with disastrous results!
+
+Cg caterer ote roel
+Joxher two who helped build the catapult return tothe tent. Ifthe group,
+contains more than three Engineers, the remaining men will continue
+‘walking forward — better turn them around efore they’ get into trouble!
+‘The Engineer in charge ofthe catapult has an unlimited supply of fireballs
+and will continue firing until he is destroyed. To aim the catapult, press Up.
+‘of Down on the Control Pad.
+
+en the Engineer controlling the catapult is selected, the sereen will
+
+‘scroll automatically to follow the path ofthe fireballs. If you select
+another character, the Engineer will continue to fire but you will not be able
+to aim the catapult or see the results, To deactivate the catapult, send the
+Engineer back to the tent by selecting the Go to Tent icon,
+
+Build Tent (Tent) Requires 4 Engineers. If you have
+
+‘conquered a significant stretch of enemy territory, you will
+
+probably want to build a tent closer tothe scene of the action so
+
+that your troops do not have to travel so far. Flagpoles topped
+
+bby waving green flags indicate the sites where you may build a
+new tent, Once the new tent is constructed, the old tents destroyed
+‘automatically. Select this icon, then position the lead Engineer directly in
+front of the lagpole and press the B Button to build a ten
+
+Battering Ram (Battering Ram) Requires 2 Engineers. Use
+buttering rams to break in the doors of an enemy stronghold.
+tion the lead Engineer directly in front
+fof the door you wish to break in and press the B Butto
+Although only two Engineers are needed, the entire group will
+pitch in to help...and then return to the tent.
+
+28
+
+Fill Pit (Arrow pointing to pit). Requires | or more Engineers,
+‘One ofthe Engineers’ task isto fil pits (or moats or other
+J) uncrossable areas) using barrels. Once the pit has been
+your characters may walk across. Select this icon, then press the
+B Button as the lead Engineer approaches the edge of the pit.
+Each Engineer, in tum, wil drop a single barrel and then retuen to the tent
+‘Once the pti filled, any remaining Engineers will cross over and continue
+walking. You may need to call ot a second group of Engineers to finish the
+{ob (depending on the size of the pit)
+
+Build Platform (Platform) Requires 1 Engineer. When your
+{toops encounter a steep cliff, you will need to eal out the
+Engineers to build a platform which they can use to climb over
+the top. Platforms can also be used as a means of crossing pits
+‘or other traps, and for reaching otherwise inaccessible areas
+‘You can even use them as shelter against enemy projectiles, although being
+‘made of wood they are vulnerable fo fie. Select this icon, then press the B
+Button to build a platform atthe location of the lead Engineer
+‘only build on level ground,
+
+‘You ms
+
+Knights
+
+nights are the King’s most powerful warriors. They are very strong and
+
+vil fight tothe Finish in hand-to-hand combat. The default group size
+for Knights is five. You may change this number on the Aemy Sereea if you
+
+wish. he action icon associated with Knights is
+
+(Sword) Allows the Knights to fight. This icon appears
+five times on the Icon Bar. Choose any sword icon you wish —
+I} at five icons actin the same way
+
+Archers
+
+rehers are useful when you want to strike the enemy from a distance,
+They fre their arrows with deadly accuracy, so keep your other troops.
+‘out ofthe way! ‘The default group size for Archers is five. You may change
+
+29
+
+===== Page 16 =====
+
+this number on the Army Sereen if you wish, The aetion icons associated
+
+with Archers are three arrows at various angles of trajectory.
+
+‘The three arrow icons represent the three possible firing angles:
+Low, Medium, and High, The lower the angle, the shorter
+distance the arrows will fy. Select an icon, then position the
+ead Archer atthe desired location and press the B Button to
+shoot
+
+Your Archers have an unlimited supply of arrows. Press the B
+Button to continue to fire. Each of them will fire in the
+direction he is Facing, so make sure that all ofthe Archers in the
+
+_Broup are facing toward the enemy when you press the B
+Button, Archers will fight if confronted by the
+they are not very strong in bate
+
+-my. but
+
+Soldiers
+
+are a defensive top type, They are not as strong as Knights in
+‘are most effective using ther large shields to block an enemy
+attack. Soldiers always appear singly. rather than in groups. The action icon
+associated with Soldiers is
+
+Use Shield (Soldier with Shield) Select this icon, then press the
+B Button to have the Soldier stand his ground and position his
+shield to block an enemy attack. When positioned in this
+‘manner, one Soldier can block several enemies fora period of
+time, The shield will also deflect fireballs and other enemy
+projectiles
+
+Wizard
+
+the White Wizard, also known as the Wizard of Positive Magic. casts
+spells of strength and healing. ‘The number under each spell icon
+indicates how many times you can use that particular spell. After casting a
+
+30
+
+spell the Wizard mysteriously transports himself back to the tent. Use
+Wizards sparingly, as you generally have only one or two available. Also,
+bre sure to provide them with adequate protection — they can’t defend
+themselves, The default group size for Wizards is one. You may change
+this option on the Army Sereen if you wish (though we don’t recommend it)
+The spell icons associated with White Wizards are
+
+Heal (Heart) Select this icon, then press the B Button to
+restore the strength of all of your troops that are visible on the
+
+Strength (Arm Lifting Weight) Select this icon, then press the
+1B Button to make all of your troops that are visible on the
+
+screen stronger fora limited period of time. While they have
+this extra strength the affected troops will flash,
+
+Shield (Shield) Select this icon, then press the B Button to
+make all of your troops that are visible on the screen immune to
+enemy attack for a limited period of time, While immune, the
+affected troops will fash
+
+Dark Wizard
+
+he Dark Wizard, also known as the Wizard of Negative Magic, eats
+destructive spells, ‘The number under each spell icon indicates how
+‘many times you can use that particular spell After easting a spell. the Dark
+Wizard transports himself ack to the tent automatically. As with White
+Wizards, you should use Dark Wizards spatingly — their only means of
+defense are their spells, ‘The default group size for Dark Wizards is o
+‘You may change this option on the Army Sereen if you wish ¢
+‘don’t recommend it). The spell icons associated with Dark Wizards ae:
+
+Meteor (Meteor) Select this icon, then press the B Butto
+{cause flaming fireballs to descend from the sky for a period of
+
+time. Do not use this spell if your King or any of your men
+
+31
+
+===== Page 17 =====
+
+are visible on the sreen... the fire
+anyone they hit!
+
+Stun (Soldier’s Head) Select this icon, then press the B Button
+to cause all of the enemies visible on the sereen to freeze fora
+limited period of time.
+
+Fireball (Fireball Select this icon, then press the B Button t0
+shoot a single Fireball in the direction the Dark Wizard is facing.
+The fireball is very powerful and will pas through a number of
+enemies and/or obstacles before stopping,
+
+torm (Storm Cloud) Select this igon, then press the B Button
+to.cause bolts of lightning to descend from the sky fora period
+‘of time, Do not use this spell if your King or any of your men
+are visible on the sereen. As with the Meteor spel, the lightning
+will destroy your men as well as the enemy troops.
+
+Apocalypse (Skull and Crossbones) Select this icon, then press
+the B Button to destroy all enemies currently visible on the
+sereen. What a concept!
+
+THE LEVELS
+
+Kea ee eile ones
+three very different realms. These realms are
+
+Real World 3 Levels,
+Goblin Underworld 4 Levels
+Cloud World T Levels
+
+Fe rat sin we ribs co
+
+2
+
+‘Training Levels
+
+YY eur sinintes place in the Re Word Realm, a place of cas
+oats. towers, and underground storerooms, As in the Real World
+ts, and Slingers, ‘The early
+levels allow you to experiment with one or two troop types. Later
+levels combine multiple troops to demonstrate how they may best be used
+togethes. To complete a training level, your troops must fight their way into
+enemy territory and secure a path so thatthe King ean collet the pot of gold
+ated there. If you fal to complete a taining level successfully (ie if the
+
+is defeated), you are placed at the beginning of that level again
+automatically. Once you complete a level, you are allowed to advance to the
+next level. The troop types available on the v
+
+jous training levels ae
+
+Archers
+raining Level 2 Barrelmen
+j ‘Training Level 3 Knights and Soldiers
+‘Training Level 4
+Training Level $ Wizards and Dark Wizards
+Training Level 6 Archers and Barrelmen
+
+Archers, Barrelmen, Knights, and Soldiers
+Archers, Barrelmen, Knights, Soldiers,
+and Engineers. This level also
+{demonstrates the use of secret doors
+
+‘Training Level 9
+Al troop types (Archers,
+Barrelmen, Knights, Soldiers,
+Engineers, Wirards, and
+Dark Wizards)
+
+===== Page 18 =====
+
+Real World Realm
+
+Réal World Realm consists of thee levels, Each level contains a
+large castle, which must be caprared so that King Arthur may reach the
+‘who then surrenders automatically. Your enemies inthis realm
+
+Knights Comparable to your Knights in size and strength
+Enemy Knights are strong in combat.
+
+Otherwise unarmed enemies who sling tones in your
+direction, Some troop types can withstand several
+hits; others are destroyed by single blow, Slingers
+‘are weak in hand-to-hand combat.
+
+Death Large enemy Knights who fire deadly blasts from their
+
+Knights magic swords — you'll know ‘em when you see ‘em!
+Death Knights are very strong in combat. Once
+destroyed, they drop gold coins, which any character
+‘may pick wp.
+
+a Bl Wor ahr Il a al ot ter telnet
+Sit ad dre free ncn Kris Slog po ev)
+Si ese st ee tng te ay Une sl fancy Us po
+Sei aie ey tice ounpepieyan bras
+we iciarueeicae, a NE
+Peon atcaee King toe SSONSURSSRERRIECI
+th cera he goth can i
+
+sos genes oe ons
+eg ere
+Spee ene
+MacOge ofthe Highlands a
+pee eee mee
+oe
+yeti carpet han =
+
+Goblin Underworld Realm
+
+he Goblin Underworld Realm consists of four levels. Locate the Goblin
+Demon on each level. then bring in King Arthur to demand bis
+surrender. Your enemies in this realm are
+
+Goblin Goblin soldiers armed with maces,
+Footsol Footsoldiers are strong in combat
+
+‘oblin Goblin soldiers armed with deadly
+Flamethrowers flamethrowers that shoot blasts of fire,
+
+incinerating anything they bit. Flamethrowers,
+are very strong in combat
+
+‘Teleporting
+‘Prog Dem
+
+Large mutant frogs that gobble up your troops
+With a flick of their long tongues, Keep a close
+‘watch on the King. these slimy creatures
+
+hhave the ability o transport themselves from
+‘one location to another. Trog Demons are weak
+in combat — if you can get that close.
+
+the Goblin Realm is strange, cavemous world filled with giant
+‘mushrooms and evil-looking machinery that drips with « hideous green
+slime. Come to think of it, just about everything drips with slime..but don’t
+worry, you'll get used to it. Bubbling
+Java pits, speeding mine carts, and
+suulen drops into nothingness should
+keep your troops on theie toes. By the
+‘way. if you plan to leave the King for
+any length of time, T suggest that you
+place him out of danger. Those
+feleporting Trog Demons can smell
+‘meal from miles away. .As in the Real
+World, King Anthur should collect
+both gold and special Keys 10 open
+
+===== Page 19 =====
+
+seeret doors... we have a feeling you're going to need them sooner or later.
+‘After completing Level 4, you must destroy the goblins’ secret war machine
+the massive fire-spewing Steam H.
+
+Cloud World Realm
+
+1e Cloud World consists of seven levels. Each level is ruled by an evil
+Wizard whom King Arthur must find and capture, Your enemies in this
+realm are:
+
+Mutants Acid-spraying ereatures with hammer-shaped heads.
+are strong in combat.
+
+Mut
+
+‘Zombies Slow-moving but deadly...you must destroy them with one
+blow, When a Zombie destroys one of your men, that man
+uns into a Zombie as well. Zombies are very strong in
+combat
+
+[Immense mutated snails that fire explosive cannonballs from
+their shells and try to squash your oops by crawling over
+them, Cannon Snails are very strong in combat.
+
+serie place of ominous clouds
+cfields and pools of poisonous
+fe visitors... just
+
+he inal realm in King Arthur's World is
+rl strange-looking flowers, electrified for
+slime, IFyou look closely, you may even spot a few unfort
+hanging around, Evil eyes keep a close watch on your movements as
+teleporters and snake-Like transport
+pipes take you from one cloud platform
+to the next — you never know what
+youl find waiting atthe other end.
+“There are more secret doors than ever
+before, so collect all the keys you
+cean...and get ready for some surprises!
+Your final challenge is the terrible
+Demon Overlord, ruler ofthe Seven
+Cloud Kingdoms. Defeat this master
+of destruction to achieve total victory!
+
+6
+
+When you bring anew character out of the tent, you may want to stop him
+before he does something stupid. fall int a pt filled with poisonous slime or
+‘sharp spikes. And ou thought you had a bad day
++ When nev level screen fis appears, you don't need to wat for the
+
+to g0 up select a charter. On most levels it's to your advantage to get
+soing as soon a posible,
++ You must build a catapult ea platform on fat ground — you will not
+beable to build on sloping ground, When yo leave the King unattended in the
+Goblin Underword place him on top ofa platform wo keep him away from the
+‘Tog Demons. it works
+
++ To tart the ame over immedi atthe same level, fist select the
+Surrender icon to ret «the Options Seren, Goto the Password Sereen and
+select “Done” the password fr the cuten level should stil be displayed, then
+select “Stan from the Options Sereen. One you tum off your Super NES, you
+will need to ener the ortect password fo atthe game ata particule,
+
++ The oninay Soldiers are more useful than you may think. they can use their
+
+shields io deflect enemy fre as wells block the path, Ty itn the Goblin
+Underworld?
+
++ When a sere door is present, you shoul be abe ose the fit outline of
+oor in one ofthe walls — or what pases fora wall, Doors appear in various
+shapes and izes. Sone doors ae color coded Wo indicate which col key to use
+you se a location that you cat get o by anyother means, chances are good
+that there's a secret door near that leas to that location.
+
+‘+ When you build anew tent, use the following shortcut to move your oops to
+the new location, Instead of moving each gro forward from the previous
+Postion, simply selet each one in turn and choose the Go to Tent con.
+Unfortunately this doeset work forthe King...he histo walk?
+
+‘+ Lookout for hidden taps when King Ashur approaches an Enemy King. His
+
+army is defeated, but he still may have afew tricks up his sleeve,
+
++ Ride on palleys to got
+Underwotd, Uf the gobs
+
+ome hard-to-reach keys inthe Gobin
+38 can doit, sean you!
+
+a”
+
+===== Page 20 =====
+
+AME TIPS — THE JALECO
+MAJOR PLAYER’S HOTLINE
+
+Fere's something you don't understand about your new Jaco game or if you
+having problems with your Game Pak, o if you'te just plain stuck, you're welcome
+{to call he Jaleo Major Payers Hotline between the hoars of §:30AM and SC0PM.
+Central ime Monday though Friday (excep holidays). One of our Friendly game
+‘sounslors wil be app to give you tips or help you out with any prblems you're
+having. Here's the umber t
+
+708-480-7733
+ie tains emaceeeen vier aey
+tela aor les Hadi
+
+\AKING CARE OF YOUR
+JALECO GAME
+
+* This Jaleco Game Pak is a precision-crafted device with
+complex electronic circuitry, Avoid subjecting it to undue
+shock or extremes of temperature. Never attempt to open or
+dismantle the Game Pak.
+
+*Do not touch the terminal leads or allow them to come into
+‘contact with water or the game circuitry will be damaged.
+
+‘+ Always make sure your Super NES Control Deck is
+SWITCHED OFF when inserting the Game Pak or removing it
+from the Control Deck.
+
+CONTRIBUTING STAFF
+
+NAUT SOFTWARE LTD,
+(Landon, Engen)
+
+Jez San, Managing Dircetor
+
+Producer
+
+Jon Dean
+
+Game Design
+
+NHilsead, N.Brownjob , Butler,
+Dean, D. Drabwel,D. Cuber,
+
+[ Crowther. S. Robertson
+
+Game Code
+IN. Hlstead, C. Reed 1. Crowther
+Game Arvwork
+
+N. Brownjohn, 8, Baler. M. Risley,
+S. Robertson
+
+Game Sound
+
+M. Simpson. 3. Scharvona
+
+Special Thanks
+
+41 San 8. San. B. Humble. R. Cues,
+Puree Tathy
+
+JALECO LTD,
+
+‘Tokyo, Japan)
+
+H.Saigusa, T, Kaneko, H, Nunokawa,
+. Razaana, 7. Sahara,
+
+and allt Jateco Lid,
+
+JALECO EUROPE
+
+‘London. England)
+
+Nonman Lefly. Mark Scriven,
+
+M. Watanabe
+
+JALECO USA
+
+{Nomrook, TL)
+
+Howard Rubin, President
+
+Product Management
+Jef Hill Seow Lawrence
+
+Advertising Marketing
+Bar Bless
+
+Inermatonat Coordination
+Masao Ohata, Oliver Tang
+Management & Supervision of
+Marketing Advertising, &
+Package Design
+
+isan Kaen
+
+(Presiden, Marketing Solutions)
+
+Package Design & Layout
+Munie White Drummond Lienhart
+Associates - Dan Carstns (Account
+Executive), Linda Voll (Designer)
+Package Copy Writer
+
+Mike Landers
+
+Insiruction Manual Writer
+
+Kate Hunt
+
+Instruction Manual Design & Layout
+Jack Nihols Jack Nichols Design)
+Game Testers (USA)
+
+De. Gloria Adams, Esc (the Red)
+Fensler Professor Miche Har,
+Mike (2) Lee, Butch "On Time’
+O'Malley, Erie (he Black) Rosenzweig
+"Hes" Je Sislow,
+
+Special Thanks
+
+Betty Rubin (forthe chicken soup)
+Move Special Thanks
+
+Ms. Jacqui Lyons of Marja Micro Lid
+(London, England), icensing agent.
+Best Fries Fast of Mao
+
+‘Cravings of Northbrook I
+
+Interplanetary Mix Phase 44,
+
+===== Page 21 =====
+
+Ask your favorite video game store for Super Bases Loaded”,
+Earth Defense Force™ Goal!®, Rival Turf™ and Utopiam
+for your Super Nintendo Entertainment System
+
+Jt Super Bases Lote, Ean One Foce™. Gat nt tal Tu a0
+
+Nang Arata ne 182 Joes USA, Prete aan
+
+YALECO USA Inc.
+310 Era Drive
+Northbrook, Illinois 60062
+(708) 480-1811
+
+Pete in separ

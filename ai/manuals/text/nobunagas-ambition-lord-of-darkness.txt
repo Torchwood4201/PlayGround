@@ -1,0 +1,2224 @@
+# Nobunagas Ambition - Lord of Darkness
+source: https://archive.org/details/snes_manual_archive
+pdf: Nobunagas Ambition - Lord of Darkness ( USA ).pdf
+region: USA
+pages: 35
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+KOE!
+
+KOEI CORPORATION
+1350 Bayshore Highway, Suite 540, Burlingame, CA 94010
+
+Printed in Japan
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET CAREFULLY BEFORE USING YOUR NINTENDO® HARDWARE SYSTEM OR
+GAME PAK.
+
+WELCOME TO THE KOEI WoRLD!
+
+We are proud to introduce you to another
+dimension from the Koei world of quality games.
+Koei is committed to bringing you games filled
+with excitement, challenge and intrigue. Our goal
+is to create top quality products and provide
+excellent service for our customers.
+
+As a Koei gamer, you are important to us and we
+
+value your opinions. Please send us your comments
+and we will continue to bring you the best in
+interactive entertainment. Look for future releases
+from Koei to experience new realms of gaming!
+
+Thank you for exploring the Koei world.
+KOEI CORPORATION
+
+Seal of Quality
+
+THIS OFFICIAL SEAL IS YOUR
+
+ASSURANCE THAT NINTENDO HAS
+
+VED THE QUALITY OF THIS
+
+LIGENSEULEY PRODUCT. ALWAYS LOOK FOR THIS.
+SEAL WHEN BUYING GAMES AND
+
+ORIES TO ENSURE COM
+OMPATIBILITY WITH YOUR,
+SUPER NINTENDO FLNINTENDO ENTERTAINMENT
+ENTERTARMENT SYSTEM STEM, ALL. NINTENDO PRODUCTS.
+ID THE OFFICIAL SEALS ARE iE LICENSED BY SALE FOR USE
+ALGISTERED TRADEMARKS OF ONLY WITH OTHER AUTHORIZED
+NINTENDO OF AMERIC/ PRODUCTS BEARING THE OFFICIAL
+1981 NINTENGO OF AMERICA INK NINTENDO SEAL OF QUALITY.
+
+FRMN-LDA1-400-00
+
+===== Page 3 =====
+
+TABLE OF CONTENTS
+
+INTRODUCTION
+Your Goal
+Scenarios .
+Game Mode ..
+The Controller
+
+KEY TO QUICK PLAY ..
+
+Starting a New Game .. .
+
+Continuing a Saved Game .
+Options Menu ....
+Victory Conditions .
+Common Functions
+
+THE PATH TO CONQUEST
+Main Display
+Rice and Troop Market
+State Data
+Country Map ...
+Executing Commands .
+General Data
+Game Events
+
+MAIN COMMANDS ..
+Develop ...
+Military ....
+
+Information . .
+Personnel
+Affairs ... .
+Manufacture
+
+4 ON TO WAR!
+
+Field Battle Display ...
+Castle Battle Display . .
+Battle Flow
+Battle Unit Types
+Weather and Time
+The Landscape
+BATTLE COMMANDS ...
+
+Attack ....
+Retreat .
+Order ..
+Other Battle
+
+STRATEGY HINTS ..
+Strengthening the State . . .
+Empower Your Military
+Use Politics To Your Advantage
+Sabotage Your Rivals
+
+GAME VOCABULARY .....
+
+SCENARIOS
+
+===== Page 4 =====
+
+LORD GE DARKNESS &
+
+INTRODUCTION
+
+Lord of Darkness is an in-depth strategy simulation based on the
+warring states period of feudal Japan. This period of civil war began with
+the fall of Shogun Ashikaga Yoshimasa in 1467, and continued until
+1600, when the country was finally united under one warlord’s control,
+Tokugawa leyasu.
+Your challenge begins in 1555 with Japan divided into feudal states
+controlled by a lord called a imyo.” Each Daimyo rules his land in
+independence as there is no central government to enforce regulation,
+Wars are common as each Daimyo attempts to expand his domain and
+gain power.
+
+You will role-play as a historical warlord with a long list of development,
+military, trade, information, personnel and diplomacy commands at your
+disposal. During this feudal period, your samurai need to be skilled both
+in the military and the arts. Train them in the tactics of war and educate
+them in the art of the tea ceremony.
+
+All Daimyos share the same ambition, to unify Japan under their control.
+Hostilities will be fierce. You must formulate the winning strategy.
+
+Your Goal
+
+Conquer all rival Daimyos and unify all feudal states under your control.
+
+.
+Scenarios
+Two scenarios present different balances of power between the warlords.
+The Warring States ...........-. 000 eee
+Nobunaga Surrounded by His Enemies .....
+
+INTRODUCTION
+
+Game Mode
+
+Play your game from one of three game modes.
+
+Multi-Play
+
+You set the difficulty level of your game and then the number of people
+who will play. Up to 8 people may play in alternating command tums.
+
+Historical
+
+This is a one player game. Historical events are well-integrated into the
+game. The game settings are set at a fairly difficult level, and there is no
+way to change the level of difficulty.
+
+Demonstration
+
+This is a demo mode in which the player merely watches a game played
+out by the computer. You set the difficulty level and whether or not you
+will view battles between other states.
+
+~s
+
+===== Page 5 =====
+
+The Controller
+
+You can use either the left or right controller when playing single or
+multi-player games.
+
+SELECT Button
+START Button
+
+Setting up the Game
+
+1, Make sure the power is turned OFF.
+
+2. Insert the LORD OF DARKNESS game pak.
+3. Tum the game system ON.
+
+4. The introduction will begin. Push START to skip to game set-up.
+
+Control Pad
+
+) START Button Starting A New Game
+© Skip through the introduction to game set-up 1. Select “1. New Game.”
+SELECT Button 2. Select a scenario from the two choices.
+* Access the Options Menu from the Main Display 3. Select a Game Mode (Multi-Play, Historical, or Demonstration).
+Button A 4. Select a color-coded region on the map. The area that you select will
+
+determine which Daimyo you will role-play.
+5. Decide whether or not to watch other states battles. By selecting
+
+either ‘Watch’ or ‘Choose’, the player may view other state battles.
+For a more detailed explanation, please see Options Menu.
+
+6. Verify your selections. Select YES to begin. Select NO to change the
+set-up.
+
+Continuing a Saved Game
+
+To play a saved game, choose “2. Saved Game” during set-up.
+
+¢ Select highlighted commands and items
+« Answer YES to (Y/N) questions
+Button B
+
+* Cancel selections
+
+* Answer NO to (Y/N) questions
+
+End the command turn
+LEFT/RIGHT Buttons
+* Switch the data category by which generals are listed
+
+* Access map with Daimyos’ spheres of power
+
+© View battle data while at war
+
+Control Pad
+
+* Move the cursor through command menus.
+
+© Scroll through lists or flip through pages of information
+
+* Move cursor across map
+
+2?
+
+===== Page 6 =====
+
+*
+Options Menu
+Ending and saving the game can be done from the Options Menu.
+The option commands can be displayed by pressing the SELECT button
+at the main display.
+
+counee.y
+
+Options Menu
+
+Save
+
+Up to two games can be saved. If you save in a slot where a game was
+previously saved, the previous game will be erased and replaced with
+the new game.
+
+Advice
+
+Decide whether or not to view advice from your military advisor. Advice
+will be given at the beginning of turns if a military advisor exists in a
+state.
+
+Display Time
+Set the length of time that messages will be displayed. Higher numbers
+indicate a longer message display time. The default setting is 5.
+
+Sound
+
+Select whether to listen to music and sound effects in Stereo, Mono,
+
+Battles
+
+Decide when to view battles between states over which you do not have
+direct control. These states will either be computer controlled or st
+which you have delegated control. You may select to watch all battle dis-
+plays, have this option displayed before battles begin, or ignore all
+battles.
+
+End
+
+Quit your game. Although you end a game, you may also start a new
+game from this option. If you don’t want to play another game, you can
+watch the computer take over your Daimyo and continue the game in
+demonstration mode.
+
+Victory Conditions
+Victory
+
+If you defeat all Daimyos and take control of all states in Japan,
+you win!
+
+Defeat
+
+If you fall in battle or die of old age without a successor, you lose! You
+need to have generals in your states to name a successor in case your
+Daimyo meets bad luck.
+
+Common Functions
+Number Input
+
+Move the cursor to the digit you want to change with the Control Pad,
+and change the value by pushing up or down on the Control Pad. To set
+the maximum value, press <— when the cursor is on the furthest digit to
+the left. Press A to input the value.
+
+or turn all sound OFF.
+
+@
+
+===== Page 7 =====
+
+govt § a
+Selecting Multiple Generals
+
+Some commands or activities allow you to select multiple gene:
+The names of the generals selected will be
+lection, position the cursor next to a d
+
+in green. To cane
+name and press A.
+down on the Control Pad to view other generals. Press B when you are
+done with selections.
+
+Select Multiple Generals:
+
+Arranging Generals By Data Categories
+Pressing the Left or Right Buttons will allow you to change the
+data category under which the generals are listed. Move the
+arrow to a category and press A. The generals will be re-listed
+from the highest to lowest value of that category, To end, press
+Left or Right again.
+
+Selecting a State
+Move the arrow across the map using the Control Pad. Press A to select
+and B to cancel.
+
+Moving and Attacking in Battle
+
+Move the cursor to select a direction in which to move, or a target to
+attack. Press A to execute the action.
+
+e only 8 generals can be shown at one time, press J
+
+End your command turn by pressing B at any time and then answering
+YES to ending your commands for the month
+
+>
+
+===== Page 8 =====
+
+if ih
+™
+
+THE PATH | 7] State Data
+TO CONQUEST oe @ © cold
+
+The amount of gold in a state. The gold supply increases in January from
+pt of tax revenues and deer hat same month when military
+re paid. The gold supply will change depending on the
+funds spent on executing commands.
+
+Rice
+the symbol for military provisions in a state. The rice supply
+
+increases in July when tributes are collected and decreases that same
+month when military salaries are paid.
+
+Tea Items
+The type of the highest class tea item (10 - 1) that a Daimyo or
+
+Governor holds.
+
+Tea Jar Tea Vessel TeaCup — Tea Kettle Vase
+
+Main Display
+
+@® Main Commands ® State Name/State Color
+
+® Date, Season ® Daimyo Soldiers
+® Rice and Gold @ State Data The number of soldier divisions in a state. You may recruit additional
+
+soldiers with MLTY-Recruit
+casualties, sickness, and old age.
+
+F&M Soldier Loyalty
+
+Level of devotion to the Daimyo. Loyalty increases with MLTY-Pay
+es when soldiers are recruited and when military salaries
+
+@® Rice/Troop Market Prices
+
+Rice and Troop Market
+
+This bar graph shows the fluctuation of monthly prices in gold for both
+‘one bale of rice ( [R] ) and one division of soldiers ( [M] ). Market pric
+can change dramatically at times, so it’s a good idea to keep an eye on
+these rates.
+
+Ei Training
+Skill level of the army. Training increases with MLTY-Train and
+es When new troops are recruited.
+
+— >
+
+===== Page 9 =====
+
+Generals
+
+Number of generals in a state. They command soldiers in battle.
+Recruiting ronin will increase the number of generals.
+
+Ed castle Defense
+Defensive capability of the castle. The DVLP-Castle command can
+increase this value, but earthquakes, Ikko sect riots, fire, and battles
+within the castle lower this value.
+
+EE Rifles
+
+Number of rifles a state holds, in hundreds. Rifles can be obtained
+through the TRDE-Rifle and MFTR-Rifle commands, or from a black
+marketer. When soldiers of a rifle division fall in battle, the number of
+rifles also decreases. There is one rifle per soldier in a rifle division.
+
+iculture
+
+The level of rice production. Agriculture can be increased with the
+DVLP-Fields command. Agriculture decreases when a state is hit by a
+typhoon or when there is a revolt. The higher the level of production, the
+more rice a Daimyo/Governor will receive at the tribute rate. The optimal
+value differs for every state.
+
+Water Safety
+
+Protection from Typhoons and the availability of water for agricultural
+needs. This protection can be improved with DVLP-Dams, but is
+
+decreased with typhoons and with the use of DVLP-Fields. High Water
+Safety levels will ensure that rice tributes will increase in July and that
+Typhoons will inflict less damage.
+
+Commerce
+
+Economic development of a state. Commerce is increased through the
+DVLP-Economy command, but decreases when riots or earthquakes
+occur. Higher Commerce results in greater tax revenues collected in
+January. The maximum Commerce value depends upon the Culture level
+
+1 Citizen Loyalty
+
+Citizen loyalty to the Daimyo. Loyalty increases when DVLP commands
+are executed and when the tax and tribute rates are set low. Plagues,
+natural disa and high tribute and tax rates will cause loyalty to
+drop. Loyal citizens are less likely to riot.
+
+Ed culture
+
+Culture level in a state. The state with the highest Culture in your
+domain will lead the way for increasing the other states’ Culture levels.
+Using expensive tea items, hosting tea ceremonies, and inviting artists
+paint murals will raise the Culture level in a state. A high Culture level
+will allow for an increase in tax revenues. The Culture level can be
+increased with the PSNL-Educate command.
+
+Technology level of state. Skill increases with the DVLP-Skill command.
+Skill also increases when a blacksmith visits and offers to teach you a
+new skill. However, ninja sometimes impersonate blacksmiths and steal
+your technology secrets. The state will be able to produce greater
+weapons as skill increases, see below.
+
+Skill Level Production Ability
+POO al eciscayseeptlaly salanstalaysrar ait Search and mine for gold
+250 Forge rifles
+
+Construct warships
+
+ofa state.
+
+===== Page 10 =====
+
+To view the map, press either the Left or Right Button at the Main
+Display. Pressing any button at the Map will return you to the Main
+Display.
+
+Event Display
+
+When an event occurs, the extent of the effects will be displayed by
+highlighting states on the map. The darker the color, the greater the
+hardship, or fortune.
+
+Relations with Neighboring Countries
+Neighboring states are those which are either connected by a road or
+have adjacent borders. States separated by mountains are not
+considered neighboring states. The MLTY commands Move, Send,
+Battle, and Joint may not be used in connection with non-neighboring
+states.
+
+Sep), and Winter (Oct-Dec). The map will change colors for each season.
+A fan will also display the season. Certain events are onal, see
+
+Seasonal Events.
+
+Spring Summer Fall Winter
+
+Executing Commands
+
+Every month, each state has one tum to execute commands. The
+Daimyo or his generals may execute commands. The effectiveness of a
+command depends on a general’s abilities and the amount of money
+expended. Each general may execute only one command per turn, with
+the exception of the Daimyo and state Governor.
+
+Governance Points — Maximum: 200
+
+Governance Points (GP) are required to execute commands and are
+expended when commands are executed. Required GP depends on the
+type of command and the person executing the command. The Daimyo
+and Governor require the most GP. The INFO-Other and PSNL-
+Control commands do not require any GP.
+
+The number of GP available depends on the Political power of the ruling
+Daimyo or Governor. When the game begins, the initial GP is equivalent
+to the Daimyo/Governor's political skill. Each month, the political skill
+value is added to the remaining GP.
+
+2
+
+===== Page 11 =====
+
+Your Daimyo Info
+
+Rank
+
+Power hierarchy of generals. There are three ranks: Daimyo, Governor,
+and General.
+
+Age
+A general ages one year every January. The older a general gets, the
+easier it is to succumb to illness and old age.
+
+Politics La Maximum: 100
+
+Ability in domestic affairs. Political know-how is also important for
+foreign affairs. Raise a general's Politics level with the Education
+command. However the maximum level is limited to 5 points lower than
+the highest Politics level of a general under your control.
+
+we
+Combat Ee Maximum: 100
+This military ability affects fighting power in battle and troop training. A
+general can raise his Combat level by capturing or eliminating a general
+with a higher Combat level during a blitz attack.
+
+Note: When a general possesses a warship, his Combat value will
+be displayed in green in the listing of generals.
+
+Charm Maximum: 100
+The ability to charm and persuade others. Extremely important for
+negotiations with other Daimyos and raising the loyalty of your army.
+
+eae a
+
+Ambition Maximum: 100
+
+The degree of sacrifice that a general is willing to make in order to
+conquer Japan. The higher this value, the more likely a general will rebel,
+and the more likely a Daimyo/Governor will go to battle.
+
+Loyalty Maximum: 100
+
+Loyalty toward the Daimyo. Increases if general is rewarded. Decreases
+if tea items are taken away, or if salaries cannot be met in January and
+July. Low loyalty will increase the chances that a general will rebel or
+turn against a Daimyo in battle.
+
+Education Maximum: 100
+
+Knowledge of the tea ceremony and other traditional art forms. The
+Education level can be increased by hosting a tea ceremony and inviting
+a general to attend. If the Education level is low, Imai, the merchant, will
+not trade for rifles or tea items. The higher the value, the greater the
+chances for success with foreign affairs.
+
+Note: The Education value for any general holding a tea item will
+be displayed in green in the listing of generals.
+
+Number of States Daimyos only
+
+Number of states under a Daimyo's rule.
+
+>
+
+p>
+
+===== Page 12 =====
+
+Princess Daimyos only
+
+For your daimyo, it indicates how many princesses you have and if any
+have been given to other daimyos in arranged marriages. For other
+
+y indicates whether you have sent, received or traded
+daughters with that daimyo.
+
+Alliance Daimyos of Other States only
+Indicates whether or not you have an alliance with the selected state.
+a
+| Tea Items Daimyos only
+
+The tea item type of the highest class tea item held by a Daimyo will be
+displayed to the right of his face. All tea items held can be viewed with
+INFO-Tea Item.
+
+Game Events
+
+There are several events that occur throughout the game. There are
+
+events that occur without warning.
+
+Seasonal Events
+Tax and Tribute Rates
+
+tribute rate, in July. There are three ways to set the rates:
+
+under a Daimyo's rule.
+Uniformly: Set the tax and tribute rates so that all states under
+your rule pay the same rate.
+By State: Set individual rates for each state.
+If the rates are set high, the people of a state will become angered and
+their loyalty will fall. If the rates are set low, the people will rejoice and
+| their loyalty will increase. The
+will give you advice on appropria
+
+events which are seasonal and can be planned for, and there are random
+
+As the Daimyo, you must decide and set the tax rate in January, and the
+
+By Governor: Delegate the decision to the Governor of each state
+
+andard is 45%, but your military advisor
+
+y om HE PATH
+
+Tax Collection (Jan)
+
+Every year in January, taxes are collected. The rate can be anywhere
+from 1 to 100%. Depending on the Tax rate, Economy, and Culture, the
+amount of taxes collected will vary. The higher the rate, the more gold
+received from taxes, but citizen loyalty will decrease.
+
+q Military Salary (Jan & July)
+
+j Generals are paid twice a year. In January they are paid in gold
+according to their abilities and in July, they are paid in rice according to
+
+their number of soldiers. If their salaries are not paid due to lack of
+
+money and rice, loyalties of both the generals and their soldiers will
+
+drop.
+
+Typhoon (Apr-Jun)
+
+Japan is buffeted by Typhoons every year. States suffer damage to their
+Agriculture, Economy, and Water Safety. A high Water Safety level can
+minimize the damage from typhoons.
+
+Tribute (Jul)
+
+Rice is collected according to the Tribute rate. The amount of rice
+collected increases when there is a good harvest and decreases when the
+harvest is poor or when the state has been hit by a typhoon.
+
+Harvest (Jul)
+
+Depending on the weather, states may experience good or bad harvests.
+Blizzards and other natural disasters will result in a poor harvest. High
+levels of Water Safety and Agriculture increase the chance for a good
+harvest.
+
+Blizzard (Oct-Dec)
+
+Snow storms which prevent all movement may occur in the northern
+mountainous areas, especially in the Tohoku area. The MLTY
+commands Move, Send, and Battle, the TRDE commands, and the
+AFRS commands cannot be executed during this time.
+
+<>
+
+2p
+
+===== Page 13 =====
+
+Tea Master Visit
+
+Tea Masters, such as Senno Rikyu and Tsuda Sokyu, travel around
+Japan and host tea ceremonies. If a tea ceremony is successful, the
+Loyalty and Education levels of all generals increase along with the
+state’s Culture level. If your tea items are not equal to or better than
+those of other generals attending a ceremony, the loyalty of your generals
+and your state’s Culture level will decrease.
+
+Random Events
+
+Ronin Visit
+
+These masterless samurai, having heard tales of your greatness, may visit
+you and ask to be hired. If you agree to hire ronin, they will become your
+generals.
+
+Riot
+
+Riots erupt when the citizens are displeased with your decisions or those
+made by your governors. If the Tax and Tribute rates are set high, and
+the loyalty of the populace is low, riots may occur frequently. When a
+riot occurs, you may select from four responses: Give Gold, Give Rice,
+Do Nothing, and Ready Army. If the Daimyo does nothing, Citizen
+Loyalty, Agriculture, and Water Safety levels will all decrease.
+
+Ikko Riot
+
+People of the Ikko sect are extremist followers of an authoritarian school
+of thought, led by Honganji. If western ideas are allowed into Japan and
+the Ikko followers in a state do not accept the teachings, a riot is likely.
+Citizen Loyalty, Agriculture, and Commerce decrease from the riot. Their
+riots may lead to fires, which will decrease castle defenses. If Honganji,
+the leader of the Ikko sect, is defeated, these riots will not occur.
+
+Rebellions
+
+The generals under a Daimyo or Governor may break away from a state.
+Generals may defect to neighboring states taking with them troops, rifles
+and tea items, or they may decide to become ronin and wander. If the
+loyalty of an ambitious general is low, a rebellion is highly likely.
+
+Louis Furois
+
+The western scholar Louis Furois may request your permission to teach
+western ideas in Japan. If the Daimyo allows the teachings, and the
+people accept the foreign ideas, the Skill level will increase. Sometimes,
+Louis Furois may present you with a tea item in gratitude for allowing
+him to continue his teachings. If you reject his teachings, citizen loyalty
+will decrease.
+
+Artist Visit
+
+Famous artists, such as Kano Eitoku or Hasegawa Tohaku, travel
+throughout Japan and paint folding screens for Daimyos. Depending on
+the value of a screen, your state’s Culture level will increase.
+
+Epidemic
+
+Epidemics spread quickly through states. If the people of a state are
+affected, then Soldier, Agriculture, Commerce, and Citizen Loyalty values
+fall.
+
+Earthquake
+
+Earthquakes can occur on land or off shore. In states which are
+damaged, Soldier, Commerce, and Castle Defense values all decrease.
+
+4 >-
+
+===== Page 14 =====
+
+yA
+1v a ;
+
+Any commands which require governance points (GP) will display the
+GP necessary if either the Daimyo/Governor or Retainer (General)
+executes the command.
+
+DVLP (Develop)
+
+Fields GP: Daimyo 50 __ Retainer 25
+Cultivate the earth to prepare it for a rice crop. High levels of Agriculture
+result in greater revenues of rice at tribute time. Developing fields lowers
+the Water Safety level.
+
+Dams GP: Daimyo 50 Retainer 25
+Build dams and reinforce river banks to raise the Water Safety level.
+
+Building dams will increase the amount of rice produced and protect the
+state from typhoon damage.
+
+Economy GP: Daimyo 50 Retainer 25
+
+Invest in town commerce and help the economy grow. The better the
+economy, the more gold which can be collected in taxes in January.
+
+Skill GP: Daimyo 50 Retainer 25
+
+Scholars of a state will spend time to improve production techniques.
+When Skill reaches 100, a state can begin to mine gold; at 250, rifle
+production becomes possible; and at 500, warship production is
+possible. Rifles and warships are exceptionally strong weapons in battle.
+
+Castle
+
+Defense GP: Daimyo 50 Retainer 25
+Fortify your castle defenses. A high Castle Defense level will increase
+protection against enemy assaults.
+
+MAIN COMMANDS
+
+Gold Mine ap: also
+
+Once your Skill level has reached 100, you can search and mine for gold.
+This command may be used only once per turn. A gold mine can be
+depleted of its gold from excessive mining. However, it is possible to
+search for another gold mine.
+
+MLTY (Military)
+
+Move GP: All 20
+
+Move a general to another state under your control. The general may
+take gold, rice, soldiers, and rifles.
+
+Send GP: Daimyo 20 _ Retainer 10
+
+Send goods to another state under your control. It is possible to send
+gold, rice, soldiers, and rifles.
+
+Battle GP: All 50
+
+Attack a neighboring state. The maximum number of generals that may
+join a battle is six. When you (the Daimyo) do not go to war, a Field
+Commander must be chosen to command the assault. This command
+can also be used to send reinforcements to battle sites for forces caught
+in extended wars.
+
+Joint GP: All 50
+
+Join forces with another Daimyo and attack a third state. Joint forces can
+be sent only from states neighboring the attacking states or the target
+state. After a messenger is sent to. a Daimyo to ask for joint forces, you
+may still cancel war preparations, but it will cost 10 GP.
+
+Recruit GP: Daimyo 40 __ Retainer 20
+
+Recruit soldiers to expand your army. Soldiers are recruited in divisions.
+The recruiting cost displayed is for one division, or 100 men. The cost
+changes according to market prices.
+
+>
+
+> ae
+
+===== Page 15 =====
+
+Train GP: Daimyo 40 _ Retainer 20
+
+Increase the combat readiness of your soldiers. The higher the Combat
+skill of the general chosen to train the soldiers, the more effective the
+training. High training levels of soldiers will result in a more powerful
+attacking ability, and a more accurate aim for rifle division soldiers.
+
+bi General GP: Allo
+
+Data on all the generals in a state.
+
+Land GP: Allo
+
+List of the states under your rule and the methods by which they are
+governed.
+
+Pay Men GP: Daimyo 20 _ Retainer 10
+
+Give gold to soldiers in order to raise their loyalty. High loyalty will
+ensure a soldier's effectiveness in battle. Low loyalty might cause soldiers
+to desert in the middle of a battle.
+
+| TRDE (Trade)
+
+Sell Rice GP: Daimyo 40 _ Retainer 20
+Sell extra military provisions for gold. The rate of exchange will vary.
+
+Buy Rice
+
+Other GP: Daimyo 30 Retainer 15
+
+Use this command to spy on states outside your control. You can send
+ninja, but they may be captured. It is also possible to view data on states
+under your own rule, but no GP is required at this time.
+
+Tea Item GP: Allo
+
+List of tea items held by generals in the state. See State Data-Tea Items
+for all tea item types.
+
+GP: Daimyo 40 Retainer 20
+
+GP: Daimyo 40 _ Retainer 20
+
+Buy rifles, in groups of 100, from the Sakai merchant Imai Sokyu. The
+ice is determined by your friendly relations with Imai and the
+
+Education level of the general selected to make the purchase.
+
+Tea Item GP: Daimyo 40 _ Retainer 20
+
+Buy a tea item from Imai Sokyu. The Culture level of the state, level of
+relations with Imai, and the Education level of the general making the
+purchase all influence the trade. If a general's Education level is too low,
+Imai will not trade. Tea items are classified in ranks from 10 to 1, 1
+representing the most valuable items. You may give a tea item to a
+general as a reward or host a tea ceremony with the item. A tea item also
+may be used to give tribute to another Daimyo.
+
+SP
+
+View Other Daimyo States
+
+=P
+
+===== Page 16 =====
+
+PSNL (Personnel)
+Control GP: AllO
+
+Give
+
+Delegate control of states into the hands of individual governors.
+Governors will rule by a domestic style of government.
+
+Direct
+
+Take direct control of all states under your control.
+
+Select
+
+Select a state, the general to take direct control, and the type of
+
+government by which the state will be governed.
+Domestic: Focus is on strengthening the state through
+production. This is usually the best choice for states with no
+neighboring enemies and a Governor with high Political skill.
+Military: Focus is on expansion through military force. This is
+usually the best choice for states with neighboring enemies
+and a Governor with high Combat skill and Ambition.
+
+Educate GP: Daimyo 80 Retainer 40
+
+Educate generals in politics and foreign affairs. This command will raise
+a general’s Political skill.
+
+Dismiss GP: All 10
+
+Dismiss generals with low abilities. As a result, other generals with low
+
+loyalty might rebel from your service. Generals who desert become ronin.
+
+f MAIN +
+
+Reward GP: All 20
+
+Raise a general's loyalty with a reward of gold or a tea item. A
+Daimyo/Governor's charm greatly affects the general's rise in loyalty.
+Gold
+
+The more gold given, the greater the increase in loyalty.
+
+Team Item
+Give a tea item from a Governor's or your collection. If the tea item is of
+a high class, the increase in loyalty will be greater than if gold was given.
+
+es GP: All 20
+
+‘a item from a general. The general's loyalty will decrease and
+ie may leave to become a ronin.
+
+Tea Ceremony cp: all 80
+
+Raise the Education levels of generals who participate in the ceremony.
+Depending on the number of participants, a certain price will have to be
+paid. The price varies according to the Education level of the participants
+and the class level of the tea items. When in Settsu and its neighboring
+states, you may invite the merchant Imai. If Imai does attend, relations
+with him will increase.
+
+Note: In order to hold a tea ceremony, there must be at least one
+general attending that has a tea item and an Education level > 60.
+
+===== Page 17 =====
+
+AFFR (Affairs)
+
+Sabotage GP: Daimyo 90 Retainer 45
+Bribe
+
+Send a messenger into another state to make a deal with a general to
+turn sides during battle. If this ploy is successful, the enemy general will
+change sides during battle and fight for you. But even if the general
+accepts your initial offer, he may not always change sides in the middle
+of a battle.
+
+Incite
+
+Send ninja into two different states in an attempt to instigate a fight
+between them. If this ploy succeeds, the two states will battle and even if
+it’s a stalemate, both states will be weaker and vulnerable to your attack.
+
+Agitate
+Send a ninja into another state to spread damaging rumors about the
+Daimyo and lower citizen loyalty. If this ploy succeeds, a riot may result.
+
+Politics GP: Daimyo 100. Retainer 50
+Tribute
+
+Improve relations with other states by sending gifts of gold or tea items
+to other Daimyos. The chances of success depend on the amount of gold
+sent and the class level of the tea item.
+
+Alliance
+
+Set up a non-aggression pact with another Daimyo. Once an alliance is
+set, relations with that Daimyo will improve. Alliances may prove helpful
+in keeping enemy neighbors in check, but some Daimyos ignore
+alliances and attack.
+
+Marriage
+‘| Ask another Daimyo for their daughter's hand in marriage. If successful,
+this will raise relations between the two countries. Daimyos associated
+
+by marriage are less likely to attack each other than with a regular
+alliance, yet there are no guarantees.
+
+Threat
+
+Convince another Daimyo to surrender and hand over his domain to
+you. A threat will rarely be successful unless your military strength is far
+superior to the other state. However, even if you fail, the other state may
+try to placate you if they fear military action from you.
+
+Cut Ties
+
+Break off an alliance with another state. If you attack a state with which
+you have an alliance, the alliance will be automatically broken and your
+generals’ loyalty will decrease. Therefore, if you plan to attack, it's always
+a good idea to break off the alliance first.
+
+MFTR (Manufacture)
+
+It takes three months to finish production of rifles and warships.
+Rifle
+
+Forge rifles in your own state. Your skill level must be at least 250. The
+amount of gold required to make 100 rifles depends on the Skill level of
+
+the state, and the Politics level of the general assigned to oversee
+production.
+
+Warship
+
+Manufacture warships in your own state. Your Skill level must be at least
+500. Warships are powerful in sea battles with their cannons. The
+amount of gold required to make one warship depends on the Skill level
+of the state and the Politics level of the general assigned to the project.
+However, only the coastal states and Oumi can use this command.
+
+o
+
+>
+
+===== Page 18 =====
+
+® State Name/Number @ Battlefield Map
+@ Date, Weather ® Battle Commands
+
+Castle
+® State and Castle ® Battle Map
+
+Battle Flow
+
+ke place whenever you attack a state, are attacked, join a
+
+end reinforcements. The Battle Display will be shown if one of
+your directly controlled gets involved in battle or if you have
+chosen to watch other states’ battles.
+
+Flow Chart
+
+The flow chart below shows the order of events in a battle.
+
+@ Date, Weather
+
+===== Page 19 =====
+
+Field Battle
+Takes place outside the castle. The time allotted for the battle is 7 days.
+There are 8 turns each day, or one turn every 3 hours.
+
+Castle Battle
+
+Takes place within the castle. The length of time allotted to the battle is 30
+days. There is only one move per day. If at the end of the month neither
+side has triumphed, then the battle will become an extended war and
+continue the following month. When the battle resumes, you can request
+reinforcements from neighboring states (no more than six units at once).
+
+Declare War
+
+Select the state to attack. If you are planning a joint attack, you must
+select the Daimyo whom you will ask for support.
+
+War Preparations
+
+Select up to six generals to join the battle. You must also choose a Field
+Commander to lead your troops when you do not join the invasion force.
+
+Assign soldiers to the generals (Max. 100) and name divisions: Infantry,
+Cavalry, or Rifle. See Battle Unit Types. The attacker must also decide
+how much rice to bring with the army. One unit of rice can feed one
+
+division of soldiers for one month.
+
+ees Reinforcements
+(Defender-Castle Battle)
+
+Once the defending side has declared that it will withdraw to the castle,
+it has the option of requesting reinforcements. The request can be made
+only to a neighboring state. The status of relations between the Daimyo
+requesting reinforcements and the Daimyo being asked will directly
+influence whether reinforcements will be sent or not.
+
+During the Castle Battle, the defender may also request reinforcements
+from available generals with the Order command.
+
+Victory Conditions
+
+Attacking Side:
+1. Total destruction of the defending units.
+
+Naming Division Types for Battle
+
+Position Troops
+
+You may select the individual positions for each unit or leave this
+responsibility to the computer. Once the troops have been placed, you'll
+be ready to fight.
+
+Field or Castle Battle
+(for Defender only)
+
+If attacked, you must decide whether to fight on the open plains or from
+the security of your castle walls. Once decided, the battle location cannot
+
+2. Capture, eliminate, or force the Field Commander to retreat.
+
+3. Take over the defending main camp (Field Battle) or castle (Castle
+Battle).
+
+4. Defender's provisions (rice supply) run out.
+5. Demand surrender and defender accepts (Castle Battle only).
+
+be changed mid-battle.
+
+===== Page 20 =====
+
+Defending Side:
+- Total destruction of the attacking units.
+. Capture, eliminate, or force the Field Commander to retreat.
+. The attacking side runs out of provisions (Provisions can be stolen by
+taking over the enemy's main camp).
+. The battle lasts more than a week (Field Battle only).
+
+After the Battle
+
+Once the smoke clears, the state in which the battle was fought becomes
+a state of the winning side’s Daimyo. The losing generals may escape to
+a neighboring state if there is a state under their Daimyo’s rule. If the
+generals are not able to flee, they will be captured by the winning side.
+The captured generals will be brought before the winning Daimyo, who
+will give judgment on their fate: Finish, Release, or Recruit. If the
+attackers win, the Field Commander of the attacking forces becomes the
+Governor of the state.
+
+Battle Unit Types
+
+The blue units are those of the attacker and the red ones are those of the
+defender. Yellow units represent reinforcements, while green units
+represent joint forces.
+
+Infantry (Basic Mobility 4)
+;
+
+Attacker
+
+al Defender
+
+Foot soldiers. Infantry unit size is limited only by the number of soldiers.
+During a siege on a castle, infantry units are capable of crossing moats
+and scaling walls.
+
+Cavalry — (Basic Mobility 6)
+
+Attacker
+
+Defender
+
+Horse riding warriors. A cavalry unit can be only as large as the amount
+of gold you hold. Cavalry units have the greatest mobility and execute
+strong blitz attacks.
+
+Rifle Unit (Basic Mobility 3)
+
+Attacker
+
+= Defender
+
+Soldiers armed with guns. A rifle division can be only as large as the
+number of rifles held by the state. Rifle units can attack targets from a
+distance. They may also cross moats and scale walls, like infantry.
+
+Assigning Soldiers to Division Types
+
+Example: A state with 23 Gold, 100 Men, and 25 Rifles could
+create a Rifle unit with up to 25 soldiers, a Cavalry unit with up to
+23 soldiers, and an Infantry unit with 52 soldiers.
+
+p>
+
+===== Page 21 =====
+
+LORD GE DARKNESS
+
+Ships
+ao B
+
+Normal Ship Warship.
+Normal Ship and Warship
+
+The warship is a superior version of a normal ship. The mobility for a
+normal ship is three while it is six for a warship. Normal ships must be
+close to their enemies in order to attack; however, the warship is similar
+toa rifle unit in its ability to fire from a distance. The firepower of
+warships is even stronger than that of rifle units.
+
+Weather and Time
+
+The conditions of the battlefield change depending on the season,
+er, and time of day. Rain and nightfall limit visibility to adjacent
+Be sure to remember this and plan your commands and
+moves accordingly.
+
+Rain: The defending unit can see only adjacent locations. Rifles and
+cannons cannot be used,
+
+Night: Units can see only adjacent locations. Depending on the season,
+the nights will vary in length.
+
+The Landscape
+
+Effective use of the landscape during battle can mean the difference
+between winning and losing. Protection indicates the level of protection
+against enemy attacks. Higher numbers represent terrain with a greater
+strategic importance. Required Mobility represents the mobility points
+needed to enter that type of terrain.
+
+ON TO WARE
+
+Field Landscape
+
+PROTECTION REQUIRED MOBILITY
+
+Impassable Impassable
+
+1
+
+1 (Lake Biwa is an exception.
+It is considered a sea)
+
+>
+
+===== Page 22 =====
+
+PROTECTION
+
+6 (Cavalry can't scale the wall)
+
+4 (If Open) 9 (Cavalry can't scale the gate)
+
+Impassable \mpassable
+
+5 (Depends on Castle Defense) 3
+
+Note: It takes 9 mobility points to penetrate both the walls of a castle
+and the moat surrounding a wall, but your success is not assured.
+
+When a unit passes a command tum, its mobility increases 1 point (Max. 10).
+
+Move
+
+The distance a unit can travel depends on the mobility of the unit as well
+as the landscape. If a unit moves next to an enemy unit and still has
+mobility points left, it can attack the enemy unit. When rifle uni
+
+attacked in this way, the rifle unit will automatically retaliate.
+
+Attack
+
+Normal
+
+Attack a unit in an adjacent location.
+
+Blitz
+
+Launch a constant, pressing attack with the aim to destroy the enemy
+unit. If the enemy unit is not completely wiped out, the attacking unit
+will either pass over the enemy unit or be pushed back to its original
+position. This attack cannot be used during sea battles.
+
+Rifles
+
+Rifle units can fire on enemy units within 2 spaces (3 spaces for Castle
+Battles), The attack is more powerful than that of a normal attack, but a
+rifle attack cannot be used in the rain or snow, nor can it be used when a
+unit is in a lake, river or sea. Furthermore, Rifle units cannot fire through
+the following terrain: mountains, hills, forests, castle gates, towers, or the
+inner keep of the castle.
+
+A high training level will increase the accuracy of the rifle shots. If two
+rifle units are adjacent, both units will fire when the command is given
+for either one to shoot.
+
+2
+
+===== Page 23 =====
+
+LORD GE DARKNESS ¥ i Y BATTLE COMMANDS
+
+Order
+Demand
+
+Ask for the surrender of defending enemy forces while in a Castle Battle.
+Only the Field Commander can use this command.
+
+Battle
+
+The defending side can call generals waiting in the castle to battle.
+However, there is a maximum of 10 generals who may be involved
+in a battle.
+
+Gate
+
+Open the castle gates. This command can only be used by units adjacent
+to the gates. The attacking force can only use this if they are on the
+inside of the gate.
+
+Control
+
+Give command control of a unit to the general leading the unit.
+
+Cannon
+
+Cannons can be used only during a sea battle, but have a range of up to
+3 spaces. Cannons are more powerful than rifle units. However, like the
+rifle units, cannons cannot be used in snow or rain, nor can they fire
+through terrain such as mountains and hills. In addition, adjacent
+cannons will both fire if the command is given for either unit to fire.
+
+Storm
+
+During a Castle Battle, this command is used to storm the castle gates
+and lower its defensive capabilities. Once the defense of the gate is 0, the
+gates are broken down and units can move into the castle grounds.
+
+Retreat
+
+Retreat is only possible to another state under the rule of the same
+Daimyo, or to a vacant state. If a unit tries to retreat while adjacent to an
+enemy unit, capture is highly likely.
+
+Castle
+
+Only generals of the defending side may retreat to the castle. Any
+general, including the Field Commander, who retreats to the castle may
+not retum to a Field Battle for the remainder of the month.
+
+Info
+Unit
+
+View unit data: learn whether a unit is an attacker or defender, if the unit
+is commanded by the Field Commander, the number of soldier divisions,
+their training, combat ability and loyalty to their Daimyo. Move the
+cursor over the unit you wish to view and press A. Viewing your own
+units does not count as a command turn.
+
+Advice
+
+Ask generals for an analysis of the battle situation. Only the Field
+Commander can use this command.
+
+p>
+
+===== Page 24 =====
+
+Other B
+Viewing Data
+
+To view the military make-up of both warring sides, press the Left
+Button. Data includes: the name of the home province and Daimyo, the
+face graphic and name of the Field Commander, whether the army is the
+attacker or defender, and data on the number of generals, soldier
+divisions, loyalty, and amount of rice. Pressing the Right button will
+show the number of troops remaining in each unit.
+
+Strengthening the State
+
+It is important to consider economics in state affairs. You cannot go
+around attacking other states without any money or rice. Raise the
+amount of gold and rice collected during tribute, tax and harvest times.
+by developing your Agriculture, Water Safety and Commerce levels with
+the DVLP commands. Also use smart trading practices (TRDE) to make
+a profit by buying low and selling high.
+
+Other factors important in building up a state are the Culture and Skill
+levels. Use DVLP-Skill to increase the technology skill of the state to
+produce items such as rifles and warships. Culture levels can be raised
+by using PSNL-Ceremony to host a tea ceremony. In order to host a tea
+ceremony, you must have a tea item, but it is also possible to purchase
+tea items from the Sakai merchant Imai Sokyu.
+
+Empower Your Military
+
+9 Strengthen your army by improving your generals. Use PSNL commands
+to educate your generals in Politics and invite them to tea ceremonies to
+raise their Education, and Loyalty levels. The higher the Education of a
+general, the more effective his actions will be on diplomatic missions and
+the easier it will be for him to purchase rifles and tea items from the
+merchant Imai.
+
+Battle Data
+Movement at Sea
+
+If a unit moves into a lake or the sea, its graphic will change to a normal
+ship unit. If the general has a warship, he will use the warship and gain
+greater mobility.
+
+Stealing Provisions
+If the defending side is able to take over the attacker's main camp, it can
+steal provisions and force the attacking side to retreat.
+
+| Ambush
+
+Move your unit next to an enemy unit during the night or in the rain to
+launch a surprise attack. Regardless of who attacked first, the result is
+decided by the combat skill and training of the general making the move.
+An ambush is more powerful than a normal attack.
+
+Always take care of your general
+abilities by rewarding them with gi
+no skills.
+
+Raise the loyalty on generals with high
+s and dismiss generals with little or
+
+Build-up your military strength by recruiting more soldiers through
+PSNL-Recruit. Carefully watch the soldier rate so that you hire at an
+advantageous rate. With MLTY commands, improve your army's
+performance on the battlefield through training and the raising of loyalty
+
+through salary payments.
+
+===== Page 25 =====
+
+LORD GF DARKNESS
+
+Use Politics to
+Your Advantage
+
+Once the state has been able to maintain steady growth, look to expand
+your power with the AFFR-Politics commands.
+
+Continuously waging war will weaken your domain. Take time to
+establish strategic alliances before forging into war. Set up peace pacts,
+join powerful families through marriage, and improve your relations with
+stronger states by offering tribute gifts of gold and tea items. Carefully
+select your messengers for diplomatic missions. A messenger’s Political
+skill, Education, and Charm will affect the outcome of negotiations.
+
+Keep track of your enemies and your allies. Remember, a friend today
+may be an enemy tomorrow. If you think that an alliance has outlived its
+usefulness, break it off with Cut Ties.
+
+*
+Sabotage Your Rivals
+
+Dirty, but effective AFFR-Sabotage commands are useful in swinging
+situations to your advantage.
+
+Weaken enemy states before you begin an attack or issue a threat. Incite
+enemy Daimyos to battle amongst themselves or decrease the citizens’
+faith in their Daimyo. If your sabotage activities are successful, the
+enemy states will weaken and become ripe for your attack.
+
+You may also bribe enemy generals to betray their Daimyos and change
+sides in battle. But be careful, your accomplices may not live up to their
+
+GAME VOCABUMARY
+
+Daimyo
+The lord of a domain. A Daimyo rules from the home state and
+commands generals beneath him.
+
+Domain
+
+All states under a Daimyo’s power. Some states may be directly
+controlled by the Daimyo while control of other states may be delegated
+to state Governors.
+
+Field Commander
+
+The general chosen by the Daimyo to command an invasion force when
+the Daimyo is not participating in a war.
+
+General
+
+An officer (retainer) serving a Daimyo. A general may become Daimyo by
+revolting and seizing power, or by being named successor to a fallen Daimyo.
+Governor
+
+A general put in charge of any state that is not the home state. The
+Governor can be given direct control over his state.
+
+Home State
+
+The state in which the Daimyo resides. There are some commands, such
+as AFFR, that can be used only in the home state.
+
+Military Advisor
+
+A general in the service of a Daimyo who has exceptional Combat and
+
+Political skills. The military advisor will offer advice unless you choose
+not to view it.
+
+>
+
+===== Page 26 =====
+
+A wandering warrior. Ronin serve no Daimyo. Occasionally they ask to CENARIOS
+
+be put into the service of a Daimyo, and may become generals. : A
+Two scenarios set the stage for your tale of conquest in
+
+Successor Lord of Darkness.
+
+A general chosen to become Daimyo or Governor when the current
+leader is destroyed in battle or falls victim to old age or an epidemic.
+
+j Vacant State
+
+A state not under the control of any Daimyo. There are no vacant states
+when the game begins, but as Daimyos fall, states become vacant. Move
+a general into a vacant state to add the state to your domain.
+
+Scenario 1:
+The Warring States
+
+Every state in Japan is locked into a struggle for power. Daimyos Date
+and Mogami occupy the northern Tohoku area. Daimyos Uesugi
+Takeda, and Hojo rule the Kanto area. Daimyos Asai and Asakura have
+exerted their power in the area surrounding the capital. Oda Nobunaga
+has not yet emerged as a great warlord and only rules the weak state of
+Owari. Nobunaga has his sights on recruiting powerful generals such as
+Shibata Katsuie and expanding his domain. Nobunaga must build up
+Owari and expand to other states.
+
+} Scenario 2:
+Nobunaga Surrounded
+by his Enemies
+
+Nobunaga has extended his influence to Owari, Mino, Ise, Iga, and
+Yamato. He demonstrates his support for Shogun Ashikaga Yoshiaki and
+returns from the capital with new authority. But Yoshiaki fears that he is 4
+being used and spreads rumors to other Daimyos that Nobunaga is a
+dangerous threat. Nobunaga instantly finds himself the enemy of the
+Daimyo forces of Asai, Asakura, Takeda, Honganji, and Mori. This is a
+life or death pinch for Nobunaga. Nobunaga must find a way to escape
+from this powerful opposition and pursue his ambition to conquer all
+of Japan.
+
+Pe
+
+p>
+
+===== Page 27 =====
+
+HISTORICAL
+BACKGROUND
+
+The Age of Civil
+Wars (1467-1573)
+
+When the political power of the Ashikaga shogun collapsed in the
+succession dispute of 1467, the islands of Japan erupted in a series of
+major wars and minor skirmishes. By the middle of the sixteenth
+century, two events happened that would bring order out of this chaos.
+The first was the emergence of Oda Nobunaga, the so-called “Useless
+Nobunaga,” as a strategist of unexpected genius. The second was the
+arrival of the first firearms on the small southern island of Tanegashima.
+Before long, the genius became acquainted with firearms and the rest, as
+they say, is history.
+
+Foreign Weapons Appear
+
+One day in 1543, a typhoon wrecked a ship off the little island of
+Tanegashima, just south of Kyushu. Curious about the foreigners, the
+
+from the ship carrying strange tools. These foreigners were actually
+Portuguese and the first Europeans to visit Japan. Everything about the
+Portuguese merchants fascinated the villagers, but among them, the
+“strange-looking tools” caused the greatest amazement.
+
+What did these tools look like? Each consisted of an iron tube about 2-3
+feet long mounted on a stock. The Portuguese stuffed a special powder
+
+pose. Gently, they brought a burning rope into contact with a hole at the
+base of the tube, causing fire to leap out of the other end with a
+deafening report. The little lead ball flew out of the tube and through a
+target. This tool was known as the arquebus.
+
+villagers gathered around just in time to see three pale-faced men emerge
+
+down the tube, loaded a small lead ball, then suddenly struck a dramatic
+
+1 Hst STORICAL BACKGR
+
+This so impressed the lord of the island that he paid an extraordinary
+price to obtain the foreign weapon and ordered his retainers to learn how
+to make gunpowder and manufacture the weapons themselves. About a
+year later, his men succeeded in producing a few dozen arquebuses of a
+slightly improved design.
+
+The foreign weapon remained a curiosity until two merchants visited
+Tanegashima and leamed the secrets of its manufacture. One brought his
+secrets to the armed monks of Negoro Temple while the other merchant
+went back to Sakai, the most important commercial center in Japan.
+Negoro and Sakai were soon supplying weapons to warlords throughout
+Japan.
+
+The first use of the arquebus in actual warfare came six years after the
+Portuguese had first landed, during Lord Shimazu's attack on Kajiki
+Castle in the island of Kyushu. Curiosity about the new weapon spread
+among the powerful warlords such as Mori, Otomo, Hojo, and Imagawa,
+and the smell of gunpowder became part of the tumult of battle.
+
+Drawbacks of the Arquebus
+
+Although the arquebus spread through Japan with amazing speed, some
+samurai treated it as a toy. Like many warlords, Shingen used the
+arquebus only for its psychological shock value, frightening horses and
+samurai, or to eliminate specific generals. Aside from their long-range
+capability and ear-piercing blasts, arquebuses had two serious
+weaknesses which prevented them from playing a major role on the
+battlefield.
+
+Firstly, the arquebus was completely useless when it rained or snowed.
+Secondly, loading the muzzle took a long time. Even a trained soldier
+needed at least twenty seconds. It took discipline to complete every step
+of the complex procedure correctly while under attack. Therefore, if the
+first bullet missed, the firing line would be destroyed by the enemy's
+counterattack. In fact, some soldiers threw aside their firearms after the
+first shot and in desperation threw stones at the enemy.
+
+Takeda Shingen refused to trust such a whimsical weapon. He decided
+that a well-trained cavalry was the best offensive weapon, and built a
+
+>
+
+>
+
+===== Page 28 =====
+
+force which had no equal in Japan. A string of victories proved his theory
+
+of the offensive superiority of massed cavalry over the arquebus, and
+soon every warlord began to dread the day when the Takeda cavalry
+would ride out of the Kai mountains.
+
+However, one man in Japan remained fascinated with the new weapon,
+took a keen interest in every advance which made them more practical,
+and kept secret their true terror. This man was Oda Nobunaga, and he
+
+would test his new theories on no else but Takeda Shingen.
+
+The Road to
+Modern Tactics
+
+Nobunaga was only nine when the arquebus first came ashore at
+Tanegashima. He practically grew up with the weapon. At the age of
+fifteen, he got his first taste of firearms and immediately became an avid
+student. Nobunaga's attachment to the arquebus only grew tah time.
+When he entered Kyoto in 1568 as a supporter of Ashikage
+Nobunaga made a point of visiting the nearby port of Sal
+the center for both importing and manufacturing arquebuses and
+gunpowder. Nobunaga boldly intimidated the city so that the citizens
+placed themselves under his direct control and guaranteed him a supply
+of weapons and gunpowder. With the defeat of Asai Nagamasa and the
+capture of his arquebus-making town of Kunitomo in Oumi, Nobunaga
+had more firearms than any of his rivals.
+
+During the years 1570-1580, Nobunaga's most threatening enemy was.
+the Ishiyama allied Hongan-ji temple in Osaka and its scores of Buddhist
+peasant militias scattered throughout the countryside. But through bitter
+battles, Nobunaga realized that a specialized arquebus corps, employing
+large numbers of firearms, could completely devastate the enemy. He
+kept his secret and waited.
+Nobunaga finally found the chance to implement his strategy when
+Matsudaira Motoyasu called on him for help. Takeda Shingen’s son,
+Katsuyori, had marched into Motoyasu’s state of Mikawa to avenge his
+father. With great relish, Nobunaga issued a call to arms to confront the
+Jarger Takeda army:
+
+“Hideyoshi! Muster 10,000 men and 3,000 guns at Gifu castle.
+
+Give the guns to the best marksmen.
+
+Every man is also to carry a stake and plenty of rope.”
+
+Two days later Nobunaga joined Motoyasu in Okazaki, and the following
+day they arrived at the high ground of Shidara-ga-Hara, just west of
+Nagashino. Stockades were built every 120 feet to block the advance of
+the vaunted Takeda cavalry. Nobunaga gave his orders, “The arquebus
+corps will fire from behind this stockade. No erratic firing. Form three
+
+>
+
+===== Page 29 =====
+
+ranks, with each rank firing volleys in turn.” While the first rank was
+shooting, the second would be reaching for their ammunition, and the
+third would be reloading.
+
+The battle began at 5:00 am. as Katsuyori launched wave after wave of
+horsemen at Nobunaga’s stockades, but even the best-trained cavalry in
+Japan was helpless against coordinated fire. By three o'clock, some ten
+thousand men of Kai, from renowned generals to nameless foot soldiers,
+had been relentlessly mowed down. The famous Kai cavalry was no
+more.
+
+Nobunaga's genius went beyond understanding the new technology. He
+also knew that the old era of individual combat with its rich traditions
+and formalities had ended, and that peasant conscripts armed with
+firearms could easily eliminate high-ranking samurai. As word of the
+battle spread throughout the islands of Japan, warlords began to
+embrace this firearm in battle. When we consider that European armies
+were using the caracole or “snail” method of firing, and that firing in
+ranks did not become common until the 1630s, we can see that
+Nobunaga's idea was far in advance of the rest of the world at this time.
+
+il
+
+HISTORICAL BACKGROQND
+
+P
+Tea Items
+
+Nobunaga Transforms
+the Tea Ceremony
+
+In the modern world, power brokers make deals on the golf course.
+traditional Japan, the tea house was one place where aristocrats,
+samurai, and merchants could all meet in an atmosphere of equality.
+The tranquility of the tea ceremony was seen as a way of dispelling the
+stress of battle.
+
+Items such as tea caddies (used to store the powdered tea), kettles, pots,
+bowls, incense burners, ladles, braziers (metal receptacles for holding live
+coals), and flower vases were expensive collector's items. The tea
+ceremonies were intimate occasions, allowing a few extremely powerful
+men to mix in a congenial atmosphere.
+
+Nobunaga was raised with respect for the traditions of the tea ceremony,
+even though as a boy he probably found it difficult to sit through the
+long meticulous ceremony. He never really got serious about the
+aesthetics of tea until his triumphant entry into Kyoto during the fall of
+1568.
+
+Soon after, as Nobunaga stayed in Akutagawa castle in Sesshu, two
+visitors came at different times to give presents of famous tea vessels.
+One was the notorious Matsunaga Hisahide, the former warlord of Kyoto
+and Yamato. He had been defeated during Nobunaga's recent campaign
+and now needed to prove his submission. In presenting the priceless
+‘Tsukumo Nasubi’ (Ninety-Nine Hairs) tea vessel, Nobunaga not only
+forgave him, but confirmed him in his feudal holdings. Nine years
+Matsunaga betrayed Nobunaga and was quickly driven into the
+mountain fortress of Shigi. With his castle in flames, he filled the kettle
+‘Hiragumo’ (Simple Spider) with gunpowder and tied it to a chain around
+his neck, thus destroying himself together with a vessel which Nobunaga
+had long coveted.
+
+The other visitor at Akutagawa was the Sakai arms merchant, Imai
+Sokyu. When Nobunaga had levied a special “arrow tax” of 20,000 silver
+
+>
+
+===== Page 30 =====
+
+“yy
+
+pieces on the city of Sakai, the powerful merchants had disagreed over
+whether to pay the tax or resist. As the leader of the peace faction, Imai
+visited Nobunaga and presented him with the ‘Matsushima’ (Island of
+Pines) jar and ‘Joou’ (White Sky) tea caddy. Sokyu immediately became
+Nobunaga's link to the merchant community and was appointed as
+magistrate of Sakai.
+
+As one man after another presented Nobunaga with priceless heirlooms,
+he began to sense his true power. Nobunaga knew that owning
+collector's items would enhance his prestige. He soon commanded his
+administrators, saying, “I have no lack of gold or silver or rice or cash.
+Go now and bring me famous artwork and the things of China.” Thus
+began the well-known ‘Tea Item Hunt.’ Over fifty famous tea items were
+collected such as: tea caddies bearing the names ‘Hatsuhana’ (First
+Flower), ‘Matsumoto’ (Blue Pine Tree), ‘Fuji’ (Rich Samurai), the
+‘Matsuhana’ (Flower of Formality) bowl, and other objects which would
+make a connoisseur’s heart leap to his throat.
+
+Nobunaga was doing more than just collecting art. In fact, his entire
+program of requisitioning valuables had a specific aim: to intimidate the
+citizens of Sakai and Kyoto. However, Nobunaga did not sit back and
+gloat over these treasures in the confines of his castle. He used them
+imaginatively, to tantalize the men he wished to rule. He created a new,
+grander form of tea ceremony, the so-called “warlord tea.”
+
+Tea and the Propaganda War
+
+The first of the new, grandiose tea parties was held in 1573 at Myokaku
+Temple in Kyoto. Prominent merchants were invited, and the famou:
+master. Senno Rikyu, prepared the tea. Naturally, only the best tea items
+were used as Nobunaga planned to impress the ‘important’ citizens of
+Kyoto and Sakai.
+
+Nobunaga continued to hold tea parties on a grand scale. It gave him an
+excellent opportunity to scrutinize his subjects, understand their
+
+| character, and use them to spread propaganda.
+
+The powerful merchants of the time had close relations with the great
+warlords. As they traveled about selling goods, the merchants also
+provided news about events in and around the capital. Nobunaga
+
+te i Y
+skillfully manipulated this information network, often forcing merchants
+to act as his doubl By planting information at the tea parties,
+Nobunaga knew it would be quickly passed on to every influential
+person in Japan. This strategy allowed Nobunaga to control the
+information given to warlords, whether friend or foe, and gradually
+placed them in his power. Thus Nobunaga's tea parties had a purpose
+deeper than just indulging in artistic pursuits.
+
+>
+
+===== Page 31 =====
+
+The Tea Ceremony Regime
+
+Nobunaga occasionally gave away tea items to motivate his samurai.
+“Valorous deeds will be rewarded with collectibles and by
+invitations to tea parties.”
+
+By establishing the tea party as a system for recognizing merit, Nobunaga
+reat his waniors. ay ae fot glory, and NSDL? gave itto
+
+5 keda clan was eyed He had hope to
+receive the miniature Azuchi tea caddy ‘Juko' (Burning Ball of Light), but
+Nobunaga appointed him Vice-Shogun for the Kanto area. To be Vice-
+Shogun of Kanto was almost as powerful as being Shogun, most warriors
+would have been proud to have been given such a post, but Kazumasa
+felt only disappointment.
+
+Obviously, not all samurai valued collectibles above land and territory.
+However, there was a practical limit to the amount of territory a warlord
+could distribute. Nobunaga's novel idea of granting a tea item as a
+substitute for a fief was another step away from feudalism towards
+centralized power.
+
+Note: The tea item names enclosed in parentheses are not direct
+translations of the Japanese names, but are names created
+specifically for Lord of Darkness to provide a more visual context
+for the tea items.
+
+country, the militia could hold out forever. Therefore, Nobunaga planned
+
+*) possible only by breaking the Hongan-ji-Mori link, but this was far
+
+7} ordered his commanders Kuki Yoshitaki and Takigawa Kazumasa to
+
+aa
+
+PISTORIAY: BACKGRi
+Iron-Clad Ships
+The Invincible Mori Navy
+
+In order to continue his work of “Unifying the Country by Military Might,”
+Oda Nobunaga had to reduce the castle-like Hongan-ji temple in Osaka,
+the headquarters of the peasant militia. Once inside the massive fortifi-
+cations and supplied by the sea from their numerous bases around the
+
+to set up a blockade to prevent supplies from reaching the temple.
+Allied with the Hongan-ji temple, the mighty Mori clan set to break the
+blockade. The Mori clan had developed the greatest navy in Japanese
+history. With a larger more powerful ships, and explosive charges
+called “flaming arrows,” the Mori navy inflicted a humiliating defeat
+upon Nobunaga.
+
+The Advent of the Iron-Clad Warship
+Stung by his bitter experience, Nobunaga spent two years carefully
+preparing for his next siege of Hongan-ji. He realized that victory was
+
+beyond the ability of his current navy. Then he had an idea. Nobunaga
+
+build six warships so large that they took two years to complete.
+Cannons were mounted on each iron-clad vessel.
+
+Giant warships covered with iron plates had never been seen before. The
+people of that day could only look and stare. A journal kept by the
+monks of the Kofukuji temple records the amazement upon seeing the
+ships: “Ships of iron carrying 5,000 men, 42 feet wide, 72 feet long, and
+18 feet high. Everything had been done to prevent firearms from
+penetrating the walls.”
+
+These warships completely broke with tradition, featuring unusually long
+and large guns, and protected by iron plates. It was not an exaggeration
+to call them “floating castles.” Just as Nobunaga had created new
+infantry tactics to destroy the best cavalry in Japan at Nagashino, he now
+adapted firearms to destroy the most powerful fleet afloat.
+
+2
+
+===== Page 32 =====
+
+The Cannons Roar!
+In July 1578, two years after his humiliating defeat, Nobunaga blockaded
+Hongan-ji for a second time, and the six giant ships sailed into Os:
+Bay with Kuki Yoshitaki as the admiral. On the way, Nobunaga’s navy
+easily crushed several hundred boats of the Saiga navy which had been
+sent out by Hongan-ji as scouts. After devastating the Saiga fleet, the
+great ships proceeded to the site of the previous battle at the mouth of
+the Kizu river and resumed the blockade of the Hongan-ji. In December,
+supplies were running low and the 600 ships of the undefeated Mori
+armada attempted to run the blockade. As the battle began, Nobunaga's
+ships began falling back against the onslaught of the numerically
+superior Mori navy. The retreat was only a ploy to draw the enemy into
+firing range.
+
+Certain of victory, the Mori navy sailed confidently towards the mouth
+
+of the river even as the Oda navy waited for the right moment to fire their
+secret weapon—cannons. These cannons fired shot that weighed about
+750 grams (one and a half pounds), which may seem light by modem
+standards, but was far superior to the 23-38 gram shot common at that
+time. Unable to withstand the barrage, the Mori advance began to
+collapse. The Oda navy pursued the enemy, firing coordinated barrages.
+Th arrows which had worked so well in the first battle now bounced
+off the sturdy armor and fell hissing into the sea. The Mori navy could do
+nothing. The battle ended with an overwhelming victory and allowed
+Nobunaga to finally overwhelm the proud fortress of Ishiyama Hongan-ji.
+
+Oda Nobunaga (1534-1582)
+
+Nicknamed “the Great Fool” at an early age for his eccentric
+
+way of dressing and outlandish behavior, Nobunaga
+
+successfully hid his ambition for years. Surrounded by
+
+powerful rivals such as Saito Dosan and Imagawa
+
+4 Yoshimoto, Nobunaga acted cautiously and solidified his
+
+power through a series of bitter local wars. Capture of strongholds in
+Kiyosu (1555) and Iwakura (1557) made him Daimyo of his home
+province of Owari, with the exception of the Chita peninsula, which
+swarmed with Imagawa loyalists. Receiving news that an Imagawa army
+of 30,000 was besieging an outlying castle, Nobunaga lead 3,000 men on
+a lightning quick attack on the enemy at Okehazama. The unexpected
+success of this daring move made Nobunaga a contender for the grand
+prize, unification of Japan.
+
+Matsudaira Motoyasu (1542-1616)
+
+castle in Mikawa to become a hostage of the Imagawa clan
+in Suruga. On the way, he was captured by Oda Nobuhide
+(Nobunaga's father) until Taigen Sessai negotiated a
+prisoner exchange. Then eight years old, Motoyasu was
+freed only to become a hostage of his father’s overlord. In spite of
+difficult circumstances, Motoyasu matured well. When Yoshimoto
+marched against Nobunaga in 1560, Motoyasu led an advance unit.
+During the battle of Okehazama, he supplied Otaka castle, an Imagawa
+advance base surrounded by Nobunaga’s men. When Yoshimoto was
+killed in Okehazama, Motoyasu returned to Okazaki and declared his
+independence from the Imagawa clan by changing his name to
+Tokugawa Ieyasu. leyasu quickly conquered Mikawa, took Totomi, and
+earned fame throughout the country. Jeyasu’s alliance with his former
+enemy Nobunaga in 1570 and their friendship thereafter greatly
+advanced the unification of Japan.
+
+2?
+
+===== Page 33 =====
+
+Saito Dosan (1494-1556)
+
+From his humble beginnings as a peddler of lamp oil.
+schemed his way up through the ranks to become maste!
+
+of Inaba Castle, allowing him to dominate the plains of
+Mino. Mere mention of “the Mino Viper” struck fear into
+the ears of seasoned samurai who knew this evil genius
+would stop at nothing to achieve his purpose. While everyone else was
+dismissing Nobunaga as a fool, Saito perceived the fierce ambition of the
+young man and made him his son-in-law. Since Saito doubted both the
+competence and paternity of his eldest son Yoshitatsu, he sought to
+hand power over to his second son. When Yoshitatsu learned of this, he
+attacked his father with a vengeance. On the banks of the scenic Nagara
+tiver, the Viper met his brood and fought valiantly until the bitter end.
+
+Uesugi Kenshin (1530-1578)
+
+Uesugi was an exception to the ruthless spirit of the
+times. He valued righteousness and honor and his
+compassionate nature often compelled him to offer
+assistance to other Daimyos.
+
+Uesugi’s career is marked by spectacular battles with Takeda
+The Zenko-ji highlands territory of the province Shinano v
+both Uesugi Kenshin and Takeda Shinget i
+ime location, they met at Kawanonaka-
+s of fierce, inconclusive battles.
+
+Takeda Shingen (1521-1573)
+
+wi Disgusted with the excesses of his father, the eighteen-year-
+@ old Shingen expelled his father from the province of Kai
+and quickly consolidated his power until he was strong
+enough to mount an invasion of Shinano. He captured
+castles belonging to Ogasawara Nagatoki and Murakami
+Yoshikiyo. In order to protect his southern and eastem flanks, he entered
+into a triple alliance with Hojo Ujiyasu of Sagami and Imagawa
+
+a, and fought famously in a
+
+Yoshimoto of Suruga. However, Nagatoki and Yoshikiyo fled to Uesugi
+Kenshin in Echigo, and requested help, thus provoking the first battle
+of Kawanonaka-jima. So evenly matched were the two opponents that
+they fought five times in this broad valley without decisive victory for
+either side.
+
+Mori Motonari (1497-1571)
+
+In western Honshu, the Ouchi clan with their home base in
+Yamaguchi fought cutthroat battles with the Aneko clan in
+Izumo. Wedged in between these furious giants, Motonari
+began his career as a minor lord of Aki and Bingo, adapting
+to the shifting power of these two families. Motonari first
+gave his loyalty to the Ouchi until Ouchi Yoshitaka committed suicide
+during the rebellion of Sue Harukata. At first Motonari allied himself with
+Harukata, then, in response to a plea from survivors of the Ouchi clan,
+he declared his independence. Sensing he would have the advantage in
+a constricted field, Motonari lured Harukata to Itsukushima island and
+destroyed him. As his strength mounted, Motonari overcame both the
+Ouchi and the Aneko clans, and became the undisputed leader of
+western Honshu and the Seto Inland Sea.
+
+Taigen Sessai (1496-1555)
+
+When Imagawa Yoshimoto became the leader of the
+Imagawa clan in 1536, his uncle Sessai built a Rinzai
+temple as a memorial to the previous lord and became its
+abbot. Sessai excelled both at leading troops in the field
+and in planning strategy. At the second battle of Azuchi-
+Saka, he defeated the Oda army, invaded Anjo in the following year
+(1549), and retumed to Suruga with Matsudaira Motoyasu, who had
+been a captive of the Odas. While negotiating a truce with the Odas, he
+argued each point skillfully for the benefit of his clan. If Sessai had lived
+five more years, perhaps his clan would never have been defeated at
+Okehazama.
+
+&>
+
+>
+
+===== Page 34 =====
+
+LORD GE DARKNESS
+
+WARRANTY
+
+90-Day Limited Warranty
+
+Koei Corporation warrants to the original consumer purchaser that this game pak shall be free
+from defects in material and workmanship for a period of 90 days from date of purchase. If a
+
+defect covered by this warranty occurs during this 90-day warranty period, Koei will repair or
+
+teplace the game pak, at its option, free of charge.
+
+To receive this warranty service:
+
+1, Send in your Registration Card.
+
+2. Save your sales receipt, indicating date of purchase, and the UPC code found on the game
+packaging.
+
+3. If the game is covered under a store warranty, return the game pak to the store at which
+you purchased the game.
+
+4, If the game develops a problem requiring service during the 90-day warranty period and is
+not covered by a store warranty, notify Koei Corp. by calling the Technical Support Dept. at
+(415)348-0500, between the hours of 9 a.m. to 4:45 p.m. Pacific Standard Time,
+Monday through Friday.
+
+5. If the Koei Service Representative is unable to solve the problem by phone, you will be pro-
+vided with a Return Authorization number. Record this number prominently on the outside
+
+packaging of the defective game pak, enclose your name, address and phone number, and
+return the game pak FREIGHT PREPAID AND INSURED FOR LOSS OR DAMAGE, together
+with your sales receipt and the UPC code within the 90-day warranty period to:
+
+Koei Corporation
+1350 Bayshore Hwy., Ste. 540
+Burlingame, CA 94010
+
+This warranty shall not apply if the game pak has been damaged by negligence, accident, unrea-
+sonable use, modification, tampering, or by other causes unrelated to defective materials or
+workmanship.
+
+Service After Expiration of Warranty
+
+It the game pak develops a problem requiring service after the 90-day warranty period, you may
+contact the Koei Technical Support Dept. at the phone number noted previously. If the Koei
+Service Representative is unable to solve the problem by phone, you may be provided with a
+Return Authorization number and asked to send the game pak to Koei for personal inspection.
+Record this number prominently on the outside packaging of the defective game pak and return
+the merchandise FREIGHT PREPAID AND INSURED FOR LOSS OR DAMAGE, to Koei with a
+check or money order for $20 to cover repair or replacement, payable to Koei Corporation. Koei I
+reserves the right to change the post-warranty service fee and/or policy
+
+WARRANTY
+
+p>
+
+===== Page 35 =====
+
+Get Ready for J
+Adventure!
+
+Set sail with
+your fleet on a journey
+to discover exciting ports and valuable treasures.
+Play either a young Portuguese sailor, Spanish
+woman pirate, British royal commander, Dutch
+geographer, Italian adventurer or Turkish trader!
+Build a strong fleet as you trade goods, purchase
+
+exotic items and combat pirates!
+
+Call now to order KOEI
+
+FEATURES: One player RPG adventure, select from six characters each with a
+different scenario, 129 ports to discover, sea battles, battery back-up to save games.
+
+games!
+
+415-348-0500
+
+THe 21" CENTURY
+=——~ 19S ARRIVED
+
+and airline competition is fiercer than
+
+ever. As CEO of a global airline, it's your job
+
+to make sure passengers can get from Dallas to Denver as
+
+easily as from London to Tokyo. Purchase futuristic aircraft, including
+Supersonic jets, set up hubs on every continent with the goal of an impressive
+network and offer special services to distinguish you from the competition.
+
+ROP
+
+FEATURES: 1 — 4 players, 4 scenarios, historical and futuristic aircraft, 88 cities,
+battery back-up to save games.
+
+THE WORLD IS
+ABOUT TO CHANGE!
+‘The year is 1939 and Hitler’s
+war machine is rumbling,
+across Europe. Here's your chance to plot
+your strategies that will either stop the Axis in
+its tracks or carry it to victory.
+
+‘Take part in the war in Africa, the famous tank
+battles at Kursk, Battle of the Bulge, Battle for
+Normandy and the fight of Berlin. Eliminate
+enemy commanders with special forces, order
+engineers to lay mines, and drop paratroop
+units into occupied cities.
+
+Leave diplomacy to the politicians. Now is
+time for military men to take actions into their own hands!
+
+FEATURES: 1-2 players, 6 famous baltle scenarios, command Allied or Axis forces,
+over 50 historical fighting men, battery back-up to save games.

@@ -1,0 +1,1357 @@
+# Asterix and Obelix
+source: https://archive.org/details/snes_manual_archive
+pdf: Asterix and Obelix ( EUR ).pdf
+region: EUR
+pages: 19
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-AXOP-EUR
+
+Win :.S
+
+INSTRUCTION
+BOOKLET
+
+TNFOGRAMES@NABn. I
+
+Saad “0 LY Ke
+
+===== Page 2 =====
+
+LICENSED BY
+
+(Nintendo)
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, & AN
+
+Original
+
+Nintendo
+
+Seal of
+Quality
+
+Keep this information / Gardez ces informations / Diese Information aufbewahren
+Conservare queste informazioni / Guarde estas informos / Bewaar daze informatie
+
+C E (Nintendo) Nintendo of Europe GmbH : 63760 Grofiosthelm, Deutschland
+
+Behall denna information / Behold denne information / Pidti tama tleto
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT.ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO
+ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU’IL
+EST CONFORME AUX NORMES D’EXCELLENCE
+EN MATIERE DE FABRICATION, DE FIABILITE ET
+SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIESES QUALITATSSIEGEL IST DIE GARANTIE
+DAFUR, DASS SIE NINTENDO-QUALITAT
+
+GEKAUFT HABEN. ACHTEN SIE DESHALB
+IMMER AUF DIESES SIEGEL, WENN SIE SPIELE
+ODER ZUBEHOR KAUFEN, DAMIT SIE SICHER
+SIND, DASS ALLES EINWANDFREI ZU IHREM
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+PASST.
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO
+QUESTO PRODOTTO. RICHIEDILO SEMPRE
+ALL'ACQUISTO DI GIOCHI ED ACCESSORI PER
+ASSICURARE LA COMPLETA COMPATIBILITA
+CON IL TUO SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+D 8 ARE TRADEMARKS OF NINTENDO CO.,LTD.
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA APROBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIEMPRE ESTE
+SELLO CUANDO COMPRES VIDEOQJUEGOS Y
+ACCESORIOS PARA ASEGURARTE UNA
+COMPLETA COMPATIBILIDAD CON TU SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO IS GECONTROLEERD EN DAT
+HET QUA CONSTRUCTIE, BETROUWBAARHEID
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+BIJ HET KOPEN VAN SPELLEN EN
+ACCESSOIRES ALTIJD OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+DENNA ETIKETT GARANTERAR ATT NINTENDO
+STAR FOR PRODUKTENS KVALITET.
+KONTROLLERA ATT ETIKETTEN FINNS PA SPEL
+OCH TILLBEHOR DU KOPER FOR ATT
+FORSAKRA DIG OM ATT DE AR KOMPATIBLA
+MED SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+DETTE SEGL GARANTERER, AT NINTENDO HAR
+QODKENDT KVALITETEN AF DETTE PRODUKT.
+SE ALTID EFTER DETTE SEGL, NAR DU K@BER
+SPIL OG TIBEH@RA, SA DU ER SIKKER PA FULD
+KOMPATIBILITET MED DIT SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO ON
+HYVAKSYNYT TAMAN TUOTTEEN LAADUN.
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+SAAT VARMASTI SUPER NINTENDO
+ENTERTAINMENT SYSTEM YHTEENSOPIVIA
+TUOTTEITA,
+
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY,
+
+ATTENTION : VEVILLEZ LIRE ATTENTIVEMENT LA NOTICE "INF
+
+ORMATIONS ET PRECAUTIONS
+
+D'EMPLOI" QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER
+NINTENDO HARDWARE WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+SYSTEM™ LE CASSETTE O GLI ACCESSORI.
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEQJUEGO O ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE BIJ DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO-
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR.
+
+ADVARSEL : LES FORBRUGERINFORMATIONEN OG HAEFTET MED SIKKERHEDSREGLER, DER
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM,
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISESTI LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA
+
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAl MUUN VAURSTEEN KAYTTOA.
+
+Kor: OBELX
+
+‘Tues STORY. wi
+
+e
+
+_ Commanns a ae
+
+i <a |
+é
+
+a) Tos TART THE ae,
+% f
+
+sens a ae ae:
+
+J
+
+Ce
+
+fr
+| Page SI BLE ACTIONS ..nnnne8
+" Bonusts | as a
+
+ENCES ..essssssnenelO
+
+ba
+
+Ps
+
+df
+
+: BAR > wine
+
+===== Page 3 =====
+
+Kor: OBELX | Wir. OBEL
+
+: i
+
+: :
+
+:
+
+:
+
+ee the idea that a Gaulish village |
+
+Sik E Contro
+
+z can resist him 1. To put an end to Pad A Button
+
+i er onan
+
+ll ind rnitabiey Gauls, he decides toe : ae
+
+ee a palisade built around
+
+a their village: so, they won’t be ae an.
+
+cle able to get out! At last peace | LEE a
+
+|. A ign Over his whole 4 Start Button Y Button
+
+all oe ‘i . a
+
+a But Caesar “has forgotten Control pad: .......... moves Obelix or Asterix
+
+a one minor detail : these. if moves the cursor through the menus
+Gauls are aly indomitable.
+
+a ~ Onc the yee als is a "i is agreed that Ast ey | B Buttons oe. jump
+
+Bl + A Button: .............. punch or super punch
+
+el 2 ' Y Button: ....:.........:. run
+
+ey) | START Button: ......to start the game
+
+a : ; : yp to pause
+
+in : at the Gauls are free’ to go 4 to confirm options
+
+a | ring back a souve-
+
+| : |
+
+os - : i
+
+= |
+
+@ 28
+
+===== Page 4 =====
+
+To travel the Roman Empire and bring back souvenirs to Caesar, insert
+the Obelix cartridge in the SUPER NINTENDO ENTERTAINMENT
+SYSTEM and set the switch to ON.
+
+The Copyright, language selection and game introduction screens will
+then be displayed in that order. To move to the next screen, press Start
+until you obtain the selection menu which offers three choices:
+
+° START 1 PLAYER
+© START 2 PLAYERS
+© OPTIONS
+
+Use the control pad to move through this menu and press the B Button
+to confirm your selection.
+
+PLAYER MODE
+If you confirm this option, you will play with either Obelix or Asterix.
+
+PLAYER MODE
+If this option is confirmed you will play with Asterix and Obelix.
+
+This menu allows you to change the following parameters:
+© Difficulty level: easy-medium-hard
+© Player 1: character selection
+
+© Player 2: character selection \
+© Music: Mono/Stereo Ss
+© Music: On/Off
+
+° Password: see next page
+® Return: to leave the option menu and return to the
+
+selection menu.
+
+PASSWORD
+
+Press the right or left direction on the control pad to move the cursor
+to the desired position.
+
+Press the up or down direction on the control pad to select one of the
+characters.
+
+Press START to confirm your selection.
+
+OBELIX’ HEAD:
+The figure below Obelix’
+head tells you how many
+lives you have left.
+
+ASTERIX’ HEAD:
+
+The figure below Asterix’
+head tells you how many
+lives you have left.
+
+LTA ALIS EI
+
+—a
+
+ENERGY BAR:
+
+This appears beneath
+the score. When it is
+empty, you lose a life.
+
+SCORE:
+
+This is next to Obelix or
+Asterix. It depends on the
+number of bonuses collec-
+ted, the number of ene-
+mies hit and the time
+spent in a scene.
+
+TIMEs
+
+As soon as Asterix or Obelix set
+out, a countdown starts. The time
+left when Asterix or Obelix reach
+the end of a level is multiplied by
+100 and added to the score.
+
+PAUSEs If you want to stop playing for a moment in the middle of a
+game, press the START Button. To go back to the game, press this
+
+Button once more.
+
+===== Page 5 =====
+
+WAILIK.
+
+IRON
+
+DOCK
+
+JUMP
+
+PUNCH
+
+SUPER
+PUNCH
+
+CLIMB UP
+OR DOWN
+A LADDER
+
+GET OFF
+A
+PLATFORM
+
+To walk, use the right and left
+directions on the control pad.
+
+To run, press the Y Button and
+the right and left directions on
+the control pad.
+
+To duck, press down on the
+control pad.
+
+To jump, press the B Button.
+
+To throw a punch, press the A
+Button.
+
+To throw a super punch, keep the
+A Button pressed then release at
+the moment you deliver the blow.
+
+To climb up or down a ladder, use
+the up or down directions on the
+control pad.
+
+To get down from a platform,
+duck and press the B Button.
+
+f\ 8 (\
+
+Throughout your travels you will be able to recharge your energy by
+collecting local food. But take care, some of these bonuses are hidden
+in blocks which you will have to break. 7
+
+Collecting one of the following bonuses:
+LEG OF BOAR, WATERMELON, FISH, FRUIT, CHEESE will
+
+give you additional energy.
+
+life.
+
+1 UP: this sign means you have won an extra life.
+
+GOURD OF MAGIC POTION: enables Asterix to hit his
+enemies automatically and makes you invincible for a few
+seconds.
+
+ROAST BOAR: enables Obelix to hit his enemies automati-
+cally and makes you invincible for a few seconds.
+
+STAIRS: You can collect stars throughout the game. There are
+10 per level. If you find all ten hidden in a level you access a
+BONUS stage.
+
+BONUS STAGES
+There are 16 bonus stages to be discovered in this game!
+
+oe
+
+===== Page 6 =====
+
+LN BRITAIN
+
+You will start your journey in Great
+> Britain where you must come to the v6
+| rescue of the rugby team imprisoned
+in the Tower of London. The doors
+are really solid and a hard punch will
+be needed to open them.
+
+Then, to make sure the team wins,
+you will take part in a rugby match!
+The Romans start with 4 points in easy mode, 6 points in normal mode
+and 9 points in difficult mode. The aim of the game is to score and
+convert 1 try in easy mode, 2 tries in normal mode and 3 tries in diffi-
+cult mode.
+
+Use the following commands for the match:
+
+Control pad. right or left to run to the right or left.
+
+Contre) pad downwards to avoid an opponent by ducking.
+
+5 Sutton to avoid an opponent by jumping.
+
+£. tton to pass the ball from Obelix to Asterix or vice-versa.
+
+LN SWITZERLAND
+
+Zurix, the banker, has disappeared, |¥.. szsecs
+Ro oT)
+
+so travel to Helvetia to find him. | &
+Zurix often talks about how secure
+his safes were which could be the
+ideal hiding place. So how can you
+open them? Perhaps a barrel of gun-
+powder could destroy these solid
+
+stone coffers? —
+f\ 10
+
+IN GREECE
+(AT THE OLYMPIC GAMES)
+
+Obelix and Asterix would really
+enjoy competing against athletes
+from all over the world, but they will
+have to prepare themselves quickly
+because the Roman athletes have |
+already started intensive training. There’s not a moment to lose ...
+
+You have to compete in three events and you can have three attempts
+at each of them. To be champion, you must win at least two out of
+three events.
+
+THUE RUNNING EVENT: To run, press the Y Button repeatedly.
+
+TUE OURUD LIES: Run by pressing the Y Button repeatedly and jump
+the hurdles by pressing the B Button.
+
+HUE J AV ISILON: To run with the javelin, press the Y Button repeated-
+ly. The faster you run the more powerful your throw will be. To stop,
+hold down the B Button until you stand still. The angle of your throw
+will then appear on the screen. Release the B Button when you have
+chosen your angle and the javelin will then be thrown.
+
+===== Page 7 =====
+
+Ken: OBELIX Kon: OBELX
+
+LN SPAIN
+
+Huevos y Bacon, the proud and terrible Spanish chief has been kid-
+napped in order to take part in a bullfight. But the Romans have made
+him drink a horrible potion and the fight seems lost from the start.
+There’s not a minute to lose, go to Spain and take his place in the
+arena.
+
+THE BULLFIGHT  =i—o oe
+You can use the directions on the ae =n ci a sab 3 Lo = :
+control pad to run. To accelerate A ER IG
+press the Y Button repeatedly. You ut Me eneeveee
+
+will see a gage on the screen indica- sy ai
+
+ting your speed. To keep away from
+the charging bull, press the B Button
+to jump. behind the refuge and pro-
+tect yourself from the bull.
+
+4 AGCION ES POSIBLES .........18
+
+© BONUS veomoninnnnnnnnneld
+
+S ECUENCIAS ESPECIALES......20
+
+===== Page 8 =====
+
+Iten: OBELEX
+
+Desde siempre, César ha ochal ado
+- idea que un pueblo galo se leh
+resistir. Para poner fin a
+
+. aide Becca construir una enorme
+: empalizada alrededor del pue-
+blo: jya no podran salir!. Por
+fin podra -teinar la paz en
+“ey su Imperio.
+
+say
+
+ety
+
+son eerie inreduc-
+tibles.
+
+bee | F ? os ;
+sy Obi te ; fi “f d
+
+“Unak vez construida 1a 2 empalizada, han acordado
+
+— que Astérix yO Obélix ré récorran todo el Imperio para
+-sembrar., el desorden. Fara demostrarle al César que
+
+ao galos son libres de i it - donde les aes le traeran -
+
+un recuerdo de cada uno de los paises que recorran.
+a Ade ae ae é s é
+
+Ee
+
+f\ 14 (
+
+Ake Se CET CoO a
+
+Wen: OBELX
+
+Vi 3 iN ‘ 4 es :
+
+Boton X
+
+Bloque de ;
+Control Boton A
+Boton Select Boton B
+Boton Start Boton Y
+Bloque de control: ........ desplazar Obélix o Astérix
+desplazar el cursor en los ments
+
+Botton Bee saltar
+Boton Ac aa. pufietazo 0 superpunetazo
+Boton Yiu. correr
+Boton START: .............. iniciar el juego
+
+hacer una pausa
+confirmar las opciones
+
+5 be
+
+===== Page 9 =====
+
+Para recorrer el Imperio romano y traerle los recuerdos al César, intro-
+duce el cartucho de Obélix en la consola SUPER NINTENDO ENTER-
+TAINMENT SYSTEM y pon el interruptor en la posicién ON.
+Veras aparecer sucesivamente las pantallas de Copyright, de eleccién del
+idioma y de presentacion del juego.
+Para pasar de una a otra, pulsa START hasta que aparezca el ment de
+selecci6n, que ofrece tres posibilidades:
+
+e START 1 PLAYER (INICIAR 1 JUGADOR)
+
+e START 2 PLAYERS (INICIAR 2 JUGADORES)
+
+e OPTIONS (OPCIONES)
+
+Desplazate por este ment con el bloque de control y pulsa el botén B
+para confirmar tu seleccion.
+
+MODO 1 JUGADOR
+Si confirmas esta opcidn, jugaras con Obélix o Astérix.
+
+MODO 2 JUGADORES
+Si confirmas esta opcidn, jugards con Obélix y Astérix.
+
+Este menu te permite modificar los pardmetros siguientes:
+© El nivel de dificultad: facil-medio-chungo
+e Jugador 1 : seleccion del personaje
+
+© Jugador 2 : seleccién del personaje \
+° Musica: mono-estéreo Sx
+© Musica: on/off (puedes oirla o suprimirla)
+° Contrasefia: ver mas adelante
+
+° Salir: para salir del ment de opciones y volver al ment
+
+de seleccion
+
+rg
+
+NT
+
+CONTRASENA
+
+Pulsa la direccién derecha o izquierda del bloque de control para des-
+plazar el cursor hasta la posicion deseada.
+
+Pulsa la direccion arriba o abajo del bloque de control para seleccionar
+uno de los personajes.
+
+Pulsa START para confirmar tu seleccion.
+
+LA CABEZA DE ASTERIX: LA CABEZA DE OBELIX:
+
+La cifra debajo de la cabeza de La cifra debajo de la cabeza de
+Astérix indica el ntiimero de Obélix indica el ntimero de
+vidas que te quedan. vidas que te quedan.
+
+LA BARRA DE ENERGIA: LA PUNTUACION:
+
+Aparece bajo la puntuacion. Esté al lado de Obélix o de
+Cuando se vacia pierdes una Astérix. Depende del ntimero
+vida. de bonus recogidos, del numero
+
+de enemigos eliminados y del
+tiempo pasado en un cuadro.
+
+EL TIEMPO:
+
+La cuenta atras empieza a partir
+del momento en que Astérix u
+Obélix sale. El tiempo que queda
+cuando Astérix u Obélix haya
+logrado su objetivo (fin de un
+nivel) se multiplica por 100 y se
+suma a la puntuacion.
+
+PUNCION DE PAUSA: Si deseas interrumpir momenténeamente el
+juego durante la partida, pulsa el Boton START. Para reanudar la par-
+tida, vuelve a pulsar este Boton.
+
+===== Page 10 =====
+
+ANDAR
+
+CORRER
+
+AGACHARSE
+
+SALTAR
+
+PUNETAZO
+
+DAR UN SUPER
+
+SUBIR
+O BAJAR LA
+ESCALERA
+
+BAJAR
+DE UNA
+of LATAFORMA
+
+PUNETAZO
+
+Para andar, utiliza las direcciones
+derecha o izquierda del bloque de
+control.
+
+Para correr, pulsa el Botén Y y las
+direcciones derecha o izquierda
+del bloque de control.
+
+Para agacharte, pulsa la parte
+inferior del bloque de control.
+
+Para saltar, pulsa el Boton B.
+
+Para dar un pufietazo, pulsa el
+Boton A.
+
+Para dar un superpufietazo, man-
+tén apretado el Botén A y suélta-
+lo en el momento de golpear.
+
+Para subir o bajar, utiliza las
+direcciones arriba y abajo del
+bloque de control.
+
+Para bajar de una plataforma,
+agachate y pulsa el Boton B.
+
+18 ('
+
+—_
+
+Durante todo el recorrido podras recuperar energia recogiendo alimen-
+tos locales. ; Atencidn!, algunos de estos bonus estan ocultos en wun
+que tendras que romper.
+
+Recoger uno de los bonus siguientes:
+PATA DE JABALI, SANDIA, PESCADO, FRUTA, "TROZO DE
+
+Gey es Us, te proporciona energia suplementaria.
+
+LAS MONEDAS DE ORO: 50 monedas de oro recogidas
+dan una vida suplementaria. :
+
+©: Esta indicacion significa que has ganado una vida suple-
+mentaria.
+
+LA CANTIMPLORA DE POCION MAGICA: permite a
+Astérix golpear automaticamente a los enemigos y te hace
+invencible durante unos segundos.
+
+UN JABAL ASADO: Le permite a Obélix golpear automa-
+ticamente a los enemigos y te hace invencible durante unos
+segundos.
+
+LA ESTRELLA: Durante el juego puedes recoger estrellas.
+Hay 10 estrellas ocultas en cada cuadro. Si encuentras todas
+las estrellas en cada uno de los cuadros accederas a un cuadro
+
+de BONUS.
+
+FASES DE BONUS
+En el juego hay 16 fases de bonus por descubrir.
+
+===== Page 11 =====
+
+EN BRETANA
+
+Comenzaras tu viaje por Gran
+Bretafia, donde tendras que ayudar
+al equipo de rugby, que esta prisione-
+- ro en la Torre de Londres. Las puer-
+tas son mas que robustas y sera nece-
+| sario un buen punetazo para abrir-
+las. Después, para asegurarte del
+triunfo del equipo, jtendras que par-
+ticipar en el partido de rugby!. Los Romanos disponen al principio de
+4 puntos en modo facil, 6 puntos en modo normal y 9 puntos en modo
+dificil. El objetivo del juego es marcar y transformar 1 ensayo en modo
+facil, 2 ensayos en modo normal y 3 ensayos en modo dificil.
+
+Para el partido de rugby tendrds que utilizar los siguientes comandos:
+
+El blogue de control a derecha o a izquierda (para correr hacia la
+derecha o hacia la izquierda)
+
+El bloque de control hacia abajo para evitar a un adversario aga-
+chandote.
+
+©) Botow B para esquivar a un adversario saltando.
+=) Beton A para pasar el balén de Obélix a Astérix y viceversa.
+
+EN HELVECIA
+
+El banquero Zurix ha desaparecido, | }_, exo
+a. . ° . e = ar
+asi que tienes que ir a Helvecia a bus- | ™
+carlo. Zurix habla mucho de la invio- |
+labilidad de sus cajas fuertes que |
+pueden ser un escondrijo seguro. |
+¢Cémo abrirlas? ¢Quiza un barril de |
+peo seeder acabar con estos |
+
+(EN LOS : JUEGOS OLIMPICOS) —
+
+A Obélix y Astérix les divertiria :
+mucho enfrentarse a atletas de todos -
+los paises; sin embargo, van a tener _
+que prepararse rapidamente, porque
+los atletas romanos ya han iniciado
+un entrenamiento intensivo. No hay que perder ni un minuto.
+Tendras que participar en tres pruebas, para cada una de las cuales dis-
+pones de tres ensayos. Para salir vencedor deberas vencer al menos en
+tres pruebas.
+
+LA CARRERA PEDESTRE: Para correr, tendrds que pulsar repeti-
+damente el Boton Y.
+
+LA CARRERA DE OBSTACULOS: Corre pulsando repetidamente
+el Botén Y y salta los obstaculos pulsando el Botén B.
+
+EL LANZAMIENTO DE JABALINA: Para correr con la jabalina
+pulsa repetidamente el Botén Y. Cuanto mas aprisa corras mas aumen-
+tards la potencia del “lanzador” de jabalina. Para frenar tendras que
+mantener apretado el Botén B hasta parar por completo.
+
+Entonces aparece en la pantalla el angulo del “lanzador”.
+
+Cuando hayas elegido un angulo, suelta el yt
+
+Botén B y entonces se lanzara la jabalina.
+
+===== Page 12 =====
+
+INC 2.
+
+EIN JH ISPANTA
+
+A Sopalojo de Arriérez y Torrezno, el fiero y terrible jefe espanol se lo
+han llevado para que toree en una corrida. Pero los Romanos le han
+hecho beber un terrible veneno y la batalla parece perdida. No hay
+tiempo que perder, vuelve a Espafia y ocupa su puesto en la arena.
+
+LA CORRIDA ea ReGen na eer eemnec
+Puedes correr .utilizando las direc- “2s
+C : meted | ee So Oe Kee aa
+ciones del bloque de control. Para ; Me itl BE Gana vanuea ne anaiauet
+
+acelerar, pulsa repetidamente el :
+Boton Y. Una barra de la pantalla te fs Sees ta haps
+indicara la velocidad que Ilevas. Para 1 tad
+protegerte de las embestidas del toro,
+pulsa el Boton B para saltar detras
+del burladero que te aleja del ruedo y te protege del toro.
+
+A 6
+
+J Barman
+
+FQU
+
+I COMAN og "on
+
+. ef
+La STORIA scene - 24
+
+111.26
+
+ae
+
+EI PUNT
+
+~ T BONUS...
+
+ENZ
+
+E SP
+
+ue ay
+
+_ AZIONI POSSIBILI ..--omee28
+
+“eect ce 39
+
+===== Page 13 =====
+
+Pn
+
+WC’ x.
+
+Belen (el
+
+ae
+
+Cesare va su tutte le furie all idea
+che un villaggio gallico possa
+vopporsli resistenza. Per porre ~
+— fine ai guai che gli procurano
+quegli irriducibili Galli, deci-
+de allora di fare costruire una
+gigantesca palizzata intorno
+al loro villaggio: cosi non
+- potranno. _piu uscirne e
+finalmente la pace regnera ©
+
+| nel SUO impero!
+
+Ma Cesare ha dimenti-
+cato un piccolo dettaglio:
+| 1 Galli sono veramente irriducibult.
+
+Non appena la palizzata @ costruita, Asterix e
+Obelix decidono di attraversare tutto l'impero
+per gettarvi lo scompiglio, E per dimostrare a
+Cesare che i Galli sono liberi di andare dove
+pare loro porteranno un ricordo da ogni paese
+attraversato. of
+
+ede fe
+
+aE eee eae eee eee eee ee eel ele eel ele eel elel ell ell
+
+[\ 24 (\
+
+Pulsante X
+
+Pulsantieria
+di Contro
+
+Pulsante A
+
+Pulsante Select Pulsante B
+
+Pulsante Start Pulsante Y
+
+Pulsantiera
+di controllo: ............ serve a spostare Obelix o Asterix
+
+per spostare il cursore lungo i ment
+Pulsante B: .............. per saltare
+Pulsante A: ............ per sferrare un pugno o un superpugno
+Pulsante Y: .............. per correre
+
+Pulsante START: ....per iniziare il gioco
+per fare una pausa
+per confermare le opzioni
+
+===== Page 14 =====
+
+7 Be
+
+COME
+
+Per attraversare l'Impero romano e portare ricordi a Cesare, devi inse-
+rire la cartuccia del gioco Obelix nell'apparecchio del SUPER NIN-
+TENDO ENTERTAINMENT SYSTEM e portare l'interruttore su ON.
+Vedrai allora comparire in successione le schermate del Copyright,
+della scelta della lingua e di presentazione del gioco.
+
+Per passare da una videata all'altra, devi premere su Start fino a quan-
+do compare il ment di selezione che ti offre tre possibilita:
+
+¢ START 1 PLAYER (MODO 1 GIOCATORE)
+° START 2 PLAYERS (MODO 2 GIOCATORI)
+
+° OPTIONS (OPZIONI)
+
+Per spostare il cursore in questo menu, devi utilizzare la pulsantiera di
+controllo e premere poi il Pulsante B per confermare la tua scelta.
+
+MODO 1 GIOCATORE
+Se scegli questa opzione puoi giocare con Obelix oppure Asterix.
+
+MODO 2 GIOCATORI
+Scegliendo questa opzione puoi giocare con Asterix e Obelix.
+
+F a ae a Z €) : .
+
+In questo meni puoi modificare i seguenti parametri:
+e Difficulty (livello di difficolta):
+easy (facile) -medium (medio) -hard (difficile)
+e Player 1 (Giocatore 1): scelta del personaggio
+e Player 2 (Giocatore 2): scelta del personaggio s
+e Musica: mono/stereo
+e Musica: on/off (puoi ascoltarla oppure disattivarla)
+e Parola d'ordine (password): vedi pitt avanti
+e Return (Ritorno): per uscire dal ment: delle opzioni e
+ritornare al menu di selezione
+
+f\ 26 6)
+
+re Obelix partono per il loro viag-
+
+ten. OBELX
+
+PAROLA D'ORDINE (PASSWORD)
+
+Utilizza le direzioni destra o sinistra della pulsantiera di controllo per
+portare il cursore nella posizione desiderata.
+
+Utilizza le direzioni alto o basso con la pulsantiera di controllo per sele-
+zionare uno dei personaggi.
+
+Utilizza START per confermare la tua scelta.
+
+7 . ba) y T .
+i RRA DEI PUNTEGGI |
+
+LA TESTA DI ASTERIX:
+
+Il numero che compare sotto la
+testa di Asterix ti indica il
+numero di vite che ti restano.
+
+LA TESTA DI OBELIX:
+
+Il numero che compare sotto la
+testa di Obelix ti segnala il
+numero di vite che ti restano.
+
+LA BARRA DELU'ENERGIA:
+
+E’ visualizzata sotto il punteg- E’ visualizzato a fianco di
+gio. Quando é vuota perdi una Obelix oppure Asterix. Dipen-
+vita. de sia dal numero di Bonus che
+avrai raccolto che dal numero
+di nemici che riesci ad elimina-
+re e dal tempo che impieghi in
+un livello del gioco.
+
+IL PONTEGGIO:
+
+IL TEMPO:
+Dal momento in cui Asterix oppu-
+
+g10 inizia un conto alla rovescia. I]
+tempo che rimane quando Asterix
+oppure Obelix hanno raggiunto la
+fine del livello viene moltiplicato
+per 100 e aggiunto al punteg¢io.
+
+PAUSA: Se vuoi interrompere per un po' il gioco devi premere il
+Pulsante START. Per riprendere il gioco devi premere nuovamente su
+
+hoy A
+
+===== Page 15 =====
+
+Wen. CO)
+
+CAMMINARE
+
+CORRERE
+
+CHINARSI
+
+SALTARE
+
+SFERRARE
+UN POGNO
+
+SFERRARE
+UN SUPERPUGNO
+
+SALIRE
+YO SCENDERE
+
+SCENDERE
+DA UNA
+PIATTAFORMA
+
+AZIONI POSSIBILI
+
+BEEK
+
+Per camminare utilizza le direzio-
+ni destra o sinistra della pulsan-
+tiera di controllo.
+
+Per correre, devi premere il
+Pulsante Y e utilizzare le direzio-
+ni destra o sinistra sulla pulsan-
+tiera di controllo.
+
+Per abbassarti, devi utilizzare la
+pulsantiera di controllo in basso.
+
+Per saltare, premi il Pulsante B.
+
+Per sferrare un pugno, premi il
+Pulsante A.
+
+Per sferrare un pugno micidiale,
+devi tenere premuto il Pulsante A
+e rilasciarlo al momento del colpo.
+
+Per muoverti su una scala devi
+utilizzare le direzioni alto e basso
+sulla pulsantiera di controllo.
+
+Per scendere da una piattaforma
+devi abbassarti e premere il
+Pulsante B.
+
+[28 6)
+
+Riad
+
+Lungo il tuo percorso potrai riprendere energia raccogliendo cibi e ali-
+menti del posto. Attenzione: alcuni di questi bonus sono nascosti in
+blocchi che devono prima essere rotti. .
+
+Cerca di raccogliere uno dei seguenti bonus:
+
+COSCIOTTO DI CINGHIALE, ANGURIA, PESCE, FRUTTA,
+PEZZO DI FORMAGGIO. Ti daranno energia supplementare.
+
+i
+
+ah
+a
+
+‘Z » LE MONETE D'ORO: se ne raccogli 50 ottieni una vita sup-
+
+plementare.
+
+1UP: questa segnalazione ti indica che hai vinto una vita sup-
+plementare.
+
+LA BORRACCIA DI POZIONE MAGICA: permette ad
+
+Asterix di battere automaticamente i nemici e ti rende invin-
+cibile per alcuni secondi.
+
+L'ARROSTO DI CINGHIALE: permette ad Obelix di batte-
+
+re automaticamente i nemici e ti rende invincibile per alcuni
+secondi.
+
+LA STELLA: durante l'intero gioco puoi anche raccogliere
+delle stelle. Ce ne sono 10 in ogni livello del gioco. Se riesci a tro-
+varle tutte e dieci in un livello, passerai ad un livello di BONUS.
+
+LIVELLI DI BONUS
+In questo gioco vi sono ben 16 livelli di bonus da scoprire!
+
+[ 29
+
+===== Page 16 =====
+
+Ken: OBELX
+
+_ SEQUENZE SPECIALI |
+
+S
+PRESSO I BRITANNI
+
+Inizierai il tuo viaggio nella Grande
+Bretagna dove ti tocchera aiutare una
+squadra di rugby che viene tenuta pri-
+
+| gioniera nella Torre di Londra. Le porte
+
+| sono molto massicce e per aprirle
+| dovrai sferrare un bel pugno. Per garan-
+
+3 tire il successo della squadra dovrai poi
+
+= partecipare alla partita di rugby!
+
+All'inizio 1 Romani dispongono di 4 punti nel modo facile, di 6 punti
+
+nel modo normale e di 9 punti nel livello difficile. Lo scopo del gioco é
+
+di segnare mete e precisamente devi marcare 1 meta nel livello facile, 2
+
+mete nel livello medio e 3 nel livello difficile.
+
+Durante l'incontro di rugby devi utilizzare i seguenti comandi:.
+
+La pulsantiera di controllo a destra o a sinistra (per correre a destra
+O sinistra).
+
+La pulsamtiera di controllo in basso per eludere un avversario abbassandoti.
+il Pulsante B per eludere un avversario saltando.
+Il Pulsamte A per passare la palla da Obelix ad Asterix e viceversa.
+
+PRESSO GLI ELV EZI
+
+XN
+
+Zurix, il banchiere, 6 scomparso.
+Devi quindi recarti in Elvezia per
+ritrovarlo. Zurix aveva spesso men-
+zionato l'inviolabilita delle sue casse-
+forti che possono essere un nascon-
+diglio molto sicuro. Come fare per
+aprirle? Forse un barilotto di polveri
+riuscira a scassinare quelle pesanti |
+
+casseforti in pietra? A
+
+Kor OBELX
+
+IN GRECIA p=,
+(AI GIOCHI OLIMPICI)
+
+isa nian
+w PRS REE eam ee cer
+
+‘ fy
+sy errs emma Pegg reg apr gay : I he (9 m3 ec
+
+Affrontare atleti da tutti i Paesi sara
+
+certamente un bel divertimento per }——-
+
+Obelix ed Asterix. Pero bisogna pre-
+
+pararsi in fretta, perché gli atleti
+
+romani hanno gia iniziato ad _ alle-
+
+narsi intensamente. Non devi perder tempo, allora...
+
+Devi partecipare a tre gare, durante ognuna hai tre tentativi. Per vin-
+
+cere devi superare almeno due delle tre gare.
+
+CORSA: per correre devi premere ripetutamente il Pulsante Y.
+
+CORSA AD OSTACOLI: per correre devi premere ripetutamente il
+-Pulsante Y e per saltare gli ostacoli utilizza il Pulsante B.
+
+LANCIO DEL GIAVELLOTTO: per correre con il giavellotto devi
+
+-premere il Pulsante Y ripetutamente. Pitt velocemente correrai e pit
+_ potente sara il lancio del tuo giavellotto. Per fermarti devi tenere pre-
+
+muto il Pulsante B fino all'arresto completo. Sullo schermo compare
+allora l'angolo di lancio che daresti al tuo giavellotto.
+
+Rilasciando il Pulsante B dopo che avrai scelto
+l'angolo, il giavellotto viene lanciato.
+
+31
+
+===== Page 17 =====
+
+IC 2
+
+IN IBERIA
+
+Salsadipeperon y Monton, il tremendo e fiero capo iberico, é stato rapi- |
+to e costretto a partecipare ad una corrida. Mai Romani gli hanno fatto
+bere una terribile pozione e la lotta sembra gia persa in partenza. Non
+perdere tempo, devi recarti subito in Spagna per prendere il suo posto
+nell'arena. 3
+
+LA CORRIDA / eee wa a
+Per correre utilizza le direzioni sulla Se Fy PNA
+pulsantiera di controllo. Per accele- cr Sy a a
+rare devi premere ripetutamente il |
+Pulsante Y. Sullo schermo viene
+visualizzata la tua velocita. Per cor-
+rere al riparo dagli attacchi del toro,
+premi il Pulsante B, lascerai cosi
+l'arena saltando dietro al rifugio che ti tiene al sicuro dal toro..
+
+——————
+
+INC 2
+
+CREDITS
+
+Programmed by:
+
+Graphics:
+
+Sound:
+Design:
+
+Additional work:
+
+Direction and realisation:
+Executive Producer:
+
+Production:
+
+Thanks to:
+
+Isidro Gilabert
+
+Nicolas Pothier, David Hamblin
+Jean-Marc Toroella, Barry Hutchinson
+
+Pascal Casolari,
+
+Sergio Palacios
+Alberto Jose Gonzalez
+Vincent Pelisson
+
+Philippe Agripnidis,
+Emmanuel Régis
+
+Stéphane Baudet
+Edith Protiére
+Bruno Bonnell
+
+Les Editions Albert René,
+all the testing department
+
+33
+
+===== Page 18 =====
+
+Kor: OBELX
+
+===== Page 19 =====
+
+=F”
+
+ry
+
+INFOGRAMES
+
+84, rue du ter Mars 1943
+69628 VILLEURBANNE CEDEX
+
+INFOGRAMES @ NIB.
+
+wane? PR LY
+
+“© 1995 LES EDITIONS ALBERT RENE/GOSCINNY.UDERZ0 ©1995 - INFOGRAMES MULTIMEDIA
+
+PRINTED IN JAPAN
+
+IMPRIME AU JAPON
+
+tee
+
+sb. Se aeemnialan seas
+
+ys
+
+Se ee ee
+
+ees
+
+el ope gE ear
+
+L.
+
+s oh ae
+
+Ss
+
+We
+
+=
+
+3
+
+oa)

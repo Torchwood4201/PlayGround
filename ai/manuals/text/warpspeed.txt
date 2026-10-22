@@ -1,0 +1,1049 @@
+# WarpSpeed
+source: https://archive.org/details/snes_manual_archive
+pdf: WarpSpeed ( PAL ).pdf
+region: PAL
+pages: 26
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-WP-UKV
+
+\COom An:
+rR ise
+
+The best in entertainment software ~
+
+===== Page 2 =====
+
+__ .. .£4%— 5
+
+TABLE OF CONTENTS
+The Journey Begins Be Ng ee sg a 6 ec a Sk ce ke a Cd kee ee 1
+Your Mission A Oe ere TEEPE Oe ee verre ee ee ee |
+The Enemy Fa Calne a a 4s ve CE eee Wis FOREN ES ce CoO a be 0a Awe ee ae eee 1
+Getting Started Civ uwee bas bak oa ds eu ves Seaa Ske ay Cees Gu k oe s ase es ace Wane 2
+Loading INStFUCTIONS coeeree rete ett tet t tte eee e ee eee eee eeeeaeees Py
+Operating Your Controller ccoccccccccceccc eee ees sees eeeeseeeseeees 9
+Outer Space Terminology Pa We ind com Cie bs ca sad pad eae 4
+Galaxy Se eR ee ae es rr re rr eC ee rr Core 4
+Quadrant Fart aye eee ee re) a orn OE ge pee eee ne ae 4
+Sector paneGhs 66 obvi ws as Cows 00 Ra RR wES OO 6S 65 0460 Oe Oe OA Oe Oo Bee 4
+The Main MAN ceccrccccccee setts tes ee seen eeeeeeseceeececeeeseeeeeennsans 4
+Game Options oh Kabhie de Ba 0 deeb i eat ee oe or ee a a ae ee =
+Game Scenarios SS ce bis GEKA Ss 4 4 IC a Ewes ok ee Cee =
+Campaign iis cas pba ke 0a a a 6 a sds a ohn os ek eke Cee 6
+Missions DEORE EPO PO FE Oe OEE IEE EE OE Oe EPC E LOCO Te OEE ET CPE PE TT Le y
+Launching Tal tei \eii (0) s eee eee 7
+Your Ship Be EEE NSS errr: eer, eee eee tere OO Pe Ty TC Le 8
+Weapons Cehb nie URS RMEMS bie ko noo 0s 8) CO DEES Ce 605 50 Rae Ok eee eee 9
+Radio FS ee Oe ee ge ee er EES Pre ee eee Or ee re eT re 10
+Instruments PGE Pt Pe PY ER CR ERCP ER CT EEC TS oe | |
+The Long-Range SCANNEr ceeecee cette eet e eee e eet eeseeeteee 14
+Mcving Your Ship in the Long-Range Scanner -::-:---- 14
+Damage Reports ps ey oe ar oe ware a Pee eee ye ey 15
+Ship Status TOrerrrerereereerreerreererrr rere eee eee eee ee eee eee 15
+Manoeuvring in Space Cae hhg Wa 6o ac kd 8 uk Co a an O6 ee oe 16
+Warp Bgl. Wee 16
+Bt a) 40 |) ee eee 17
+Enemy Ships SE a ee ee Ee EO re PETE COS TT eee ere 18
+Bases vier rrere eer Teer rere Teer Or ee ee ee 1 9
+Black Holes cccccec ctr c rect e crest crete e eee ecee cee ceeceeccesencceesenans 19
+Asteroid Belts ccccctrccc rec cee cree cree sees cee ceeccceceeecceeccrneceeees 20
+Mine Fields cccecrecret cece teste cee c cece eee e ees ceeeeeeeeeeeeeeeseneenes 20
+Scoring See ba ee de <5 S 504 65S ON s CoS £6 bENN SRS see eee ee receeeeeeeeessesacnces 20
+Bonus Points Poem eee cce cc ecc cece eee reece r eee sc cnn ececeeseeeccescoceoss 20
+After a Battle is Overcessscctrc cc tce ccc tte nce eeteecceeseecereeeeeeeneseres 1
+Medals So Oe CE EEN Od O0 6s CARA O OSES SLOA SS REARS Sw OO bee 80k 56a ebb eae eeeaeeee 1
+Ranks an be 6 © 6 6s 0 6 0 b'b-6 666 8 swe bis e'p.0s'6.6 0 obi wes opts 4 se b's cule sees a @eb nen dees oo
+CONTINUES cootre treet tte t tet e ete ete e eee eeeeet cee cee ces eeneennees ao
+
+Customer Service SW Ob 0 O00 006 00 66 bs 6660106 0b CSS Cees sees sN enter csteweesase ou 23
+
+===== Page 3 =====
+
+RS
+
+LICENSE AGREEMENT and LEGAL MUMBO JUMBO
+
+This Game Pak and the user manual are provided to the customer under
+license from Accolade, Inc. and are subject to the following terms and condi-
+tions, to which the customer agrees by opening the package of the Game Pak
+and user manual and/or using the Game Pak. Granting of this license does not
+transfer any right, title or interest in the Game Pak or the user manual to the
+customer except as expressly set forth in this license Agreement.
+
+WarpSpeed and Ballistlc are trademarks of Accolade, Inc. All rights reserved.
+
+All other trademarks and registered trademarks are properties of their respec-
+tive owners. Neither the Game Pak nor the user manual may be duplicated or
+copied for any reason. The customer may not transfer or resell the Game Pak or
+user manual.
+
+The remedies provided above are the customer's sole and exclusive remedies.
+In no event shall Accolade, Inc, be liable for any direct, indirect, special, inciden-
+tal or consequential damages with respect to the Game Pak or the user manual.
+Except as provided in the warranty section, Accolade, Inc, makes no warranties,
+either express or implied, with respect to the Game Pak or the user manual, and
+expressly disclaims all implled warranties, including, without limitation, the war-
+ranty of merchantability and of fitness for a particular purpose.
+
+CREDITS
+
+Design: Bob Smith, David Friedland
+
+Programing: Bob Smith
+
+Producer: Sam Nelson
+
+Associate Producer: David Friedland
+
+Art: Beckett Gladney, Jeff Rianda, Jeff Sturgeon,
+Jean Xiong, Roseann Mitchell
+
+Sounds/Music: Ken Allen, Russell Bornschlegel
+
+Testing: David Friedland, Joel Dinolt, Keith Orr,
+
+Dan Carter, Harry James
+Manual: Jeff Wagner
+
+===== Page 4 =====
+
+THE JOURNEY BEGINS...
+
+Earth has been at peace for over a thousand years. The technolo-
+gy for warfare has been replaced with the technology for space col-
+onization and exploration.
+
+Ten years ago, scientists sent unmanned space probes into the
+mysterious black holes scattered across the galaxy. No data was
+ever received, and the probes were assumed lost. If only they had
+been.... :
+
+The black holes, as it turned out, were portals to other quadrants of
+the galaxy. Portals used by alien beings. Soon after Earth lost it’s
+first outpost, mankind realized that it was not alone. As quadrant
+after quadrant fell to the invaders, Earth struggled to build a
+defense against the onslaught. The result was a single Star
+Fighter with enough firepower to tackle an armada of enemy ships.
+All that was left was to find a pilot with enough guts to fly it.
+
+Your Mission
+
+As a pilot for the Galactic Armed Services (G.A.S.), you have been
+assigned to protect G.A.S.’s Star Bases scattered throughout the
+eight explored quadrants of space using this one-of-a-kind Star
+Fighter. These bases are defenseless without your help. If even a
+single enemy ship gets within range of a base, it will destroy the
+outpost.
+
+The Enemy
+
+Known only as “the Horde," the alien invaders are made up of a
+number of different alien species allied together for the sake of con-
+quest. They are masters of space travel, and are totally ruthless.
+They never accept surrender, and are willing to sacrifice for their
+cause. Their spacecraft vary in shape, size, and power, but all are
+deadly if underestimated.
+
+===== Page 5 =====
+
+GETTING STARTED
+
+Loading Instructions
+
+1 Make sure the power is off on your Super Nintendo
+Entertainment System™
+
+2 Insert the WarpSpeed Game Pak into your system by following
+the instructions in your system manual.
+
+3 Plug a controller into port 1._
+
+4 Turn the power switch on. If nothing appears on screen, re-
+
+_ check your Game Pak to make sure it is inserted properly.
+
+5 Press any button, after viewing the title sequence, to advance to
+the Main Menu.
+
+Operating Your Controller
+Before you begin playing WarpSpeed, take a minute to familiarize
+yourself with the layout of the controller and what each button
+
+does.
+
+Control Pad
+
+Control Pad
+¢ Highlight items on the Main Menu and Game Options screens.
+e In cockpit: Control your ship by climbing, diving, and steering
+in eight directions.
+e In Long-Range Scanner: Turn your ship left or right.
+e In Long-Range Scanner: Press B Button to move warp
+destination cursor. ;
+
+===== Page 6 =====
+
+_ .. .§£4%S
+
+START Button
+
+e Select menu items
+¢ Toggle options in Game Options screen
+e Pause/unpause/quit game during a mission
+
+SELECT Button
+
+e Select which enemy ship to target for smart missiles
+
+L Button
+e Launch ship from base
+e Toggle options in Game Options screen
+e Fire smart missile
+¢ Confirm passcode in Resume Campaign screen
+
+R Button
+
+e Fire your Star Fighter’s energy weapons
+
+A Button
+
+e Decreases speed (thrust)
+e Cancel warp speed request
+
+B Button
+
+e Select smart missile rack
+e In Long-Range Scanner: Press and hold Control Pad to
+move warp destination cursor
+
+X Button
+
+e Increase speed (thrust) .
+e Request warp speed (after selecting a destination)
+
+Y Button
+
+e Activate Long-Range Scanner —
+
+e Activate Radio if a message is pending
+e Deactivate Long-Range Scanner
+
+e Deactivate Radio
+
+===== Page 7 =====
+
+——
+
+Outer Space Terminology
+Before starting, you'll need to get familiar with some of the termi-
+nology used in the game.
+
+Galaxy
+The galaxy in WarpSpeed is composed of eight quadrants.
+
+Quadrant
+
+An area of space divided into a grid of 8 x 8 (64) sectors. You can
+view the quadrant you are currently in by activating the Long-
+Range Scanner (see the Long-Range Scanner section) from your
+ship.
+
+Sector
+
+Each one of the 64 squares in a quadrant is a “sector.” Any of sev-
+eral objects can be found in a sector, including your ship, a friendly
+base, black holes, asteroids, mines, or enemy ships. All of these
+objects will be described later on.
+
+THE MAIN MENU
+
+Use the Control Pad to highlight one of seven scenarios, Game
+Options, Campaign, or Resume Campaign, and press START
+(see Fig. 1).
+
+Fig. 1 The Main Menu
+
+===== Page 8 =====
+
+——
+
+Game Options
+The following can be done from the Game Options screen (see
+Fig. 2):
+
+Fig. 2 The Game
+Options Screen
+
+Turn music ON/OFF: Use the Control Pad to highlight Music and
+press the L Button or START to toggle between ON and OFF.
+
+Determine ship control: Highlight Stick Down and press the L
+Button or START to toggle between Nose Up and Nose Down. If
+you choose Nose Up, then your ship will move upward when you
+press w on-the Control Pad while flying through space. Nose
+Down will do just the opposite.
+
+When you are done, highlight Main Menu and press START.
+
+Game Scenarios
+
+Choose from seven single game scenarios, ranging from a basic
+training mission to more complex adventures. Each scenario will
+have 1 to 8 quadrants chock full of aliens. The scenarios are
+arranged in order of difficulty:
+
+Training Clear a single quadrant of enemy ships.
+Enemies are slow in this scenario, so
+they are easy to destroy.
+
+Pirate Busting Destroy enemy pirate ships attacking
+convoys in two local quadrants; then
+destroy their leader.
+
+===== Page 9 =====
+
+ee
+
+Games Scenarios (continued)
+
+Carrier Wars Eliminate enemy carriers spread out in
+four quadrants before they release the
+swarm of enemy fighters they transport.
+
+No Haven Enemy ships have destroyed all but two
+bases. You must eliminate all enemies
+before they destroy Earth’s surviving
+outposts. 7
+
+Skirmish A strong solar storm has knocked out
+sensors in six quadrants. Your Long-
+Range Scanner will only detect enemy
+vessels in the eight sectors surrounding
+your ship. You must find and destroy all
+enemy vessels.
+
+Space Maze Find the hidden route to all eight quad-
+rants and destroy all enemy ships you
+confront along the way.
+
+Nexus Use the black holes found in Quadrant
+Alpha to hunt down enemy ships which
+have assembled for their final assault on
+humanity.
+
+Campaign
+
+Four linked scenarios from a pool of 10 are randomly drawn.
+These scenarios differ from the ones above, and must be complet-
+ed in order. They also get increasingly difficult.
+
+How to Resume a Campaign
+
+You don’t have to finish an entire campaign in one sitting. After
+each scenario, you'll be given a nine character password. Write it
+down. You never know what may happen before the next scenario
+is finished. To resume a campaign, do the following:
+
+===== Page 10 =====
+
+—— FF
+
+1 Select Resume Campaign from the Main Menu and press
+
+START.
+
+Press » on the Control Pad to highlight the first blank line.
+
+Press 4/¥ on the Control Pad until the first character of your
+
+password appears.
+
+4 Press >» onthe Control Pad to move to the next blank line.
+
+5 Press &/¥ on the Control Pad until the second character of
+your password appears.
+
+6 Repeat with the remaining seven characters.
+
+7 After entering the password, press the L Button to resume the
+campaign.
+
+After selecting a scenario or campaign, the Galactic Armed
+
+Services (G.A.S.) will brief you on your upcoming mission.
+
+Press any button during or after the briefing to view a blueprint of
+
+the ship you’ve been assigned. Press a button again and you'll
+
+appear in your ship at a base ready to launch.
+
+G@ NO
+
+Missions
+
+During a scenario, you may be called on your radio (see the Radio
+section) and be asked to carry out a mission. These missions usu-
+ally require you to travel to a different quadrant and sector. In addi-
+tion, you may be challenged to a duel by an alien pilot. If you
+ignore missions or challenges, your score and chance to receive a
+medal will suffer.
+
+Successfully completing a mission or duel will add to your score
+and can lead to a medal and a better ship (see Your Ship). Al!
+missions and duels have time limits, so you’ll have to work fast to
+complete them.
+
+LAUNCHING INTO ACTION
+
+You've chosen your game, been briefed by G.A.S., and are sitting
+in your ship ready to go. Press the L Button to launch into action.
+
+===== Page 11 =====
+
+——
+
+Your Ship
+
+There are four different ship classes in the G.A.S. fleet. Each suc-
+ceeding class carries better weapons, more artillery, and stronger
+armour then the previous class. You'll begin a scenario in the low-
+est class ship (a Stinger), but will be upgraded to a better craft as
+you accumulate points. You'll be informed at any base if you quali-
+fy for an upgrade.
+
+‘Note: In some of the —* scenarios, you’ i] start with a better
+
+The ships, available weapons, and points needed for an upgrade
+are:
+
+CLASS 1 - STINGER CLASS CLASS 2 - STRIKER CLASS
+
+Weight: 10,000 kg Weight: 15,000 kg
+Length: 25m Length: 30m
+Wingspan: 15m Wingspan: 20m
+Armour: Light Armour: Medium
+Weapons: Weapons:
+2 X photon 2 X Blaster
+Bonus pts. required: 4 X Wasp Missile
+Single scenario: 0 (basic ship) Bonus pts. required:
+Campaign: 0 (basic ship) Single scenario: 5,000
+Campaign: 7,500
+
+===== Page 12 =====
+
+——— FF
+
+CLASS 3 - STALKER CLASS
+
+Weight: 25,000 kg
+Length: 35m —
+Wingspan: 25m
+Armour: Heavy
+Weapons:
+
+2 X Neutron
+
+4 X Wasp Missile
+
+4 X Hawk Missile
+Bonus pts. required:
+
+Single scenario: 10,000
+
+Campaign: 15,000
+
+CLASS 4 - SLASHER CLASS
+
+Weight: 30,000 kg
+Length: 40m
+Wingspan: 35m
+Armour: Very heavy
+Weapons:
+
+2 X Shock Cannon
+
+4 X Wasp Missile
+
+4 X Hawk Missile
+
+4 X Nova Missile
+Bonus pts. required:
+
+Single scenario: 25,000
+
+Campaign: 30,000
+
+Weapons
+Each ship carries two weapons:
+
+e Energy Weapon: A dual, lightweight, short range armament
+which fires two bursts of energy at oncoming fighters. More
+than one direct hit is required to destroy an enemy vessel.
+Energy weapons use a low amount of energy, and require a
+short time to recharge after firing before another burst is avail-
+able. The type of energy weapon varies on each class of fight-
+er. The energy weapons for each ship class are:
+
+CLASS 1: Photon
+CLASS 2: Blaster
+CLASS 3: Neutron
+
+CLASS 4: Shock Cannon
+
+===== Page 13 =====
+
+——E
+
+To use an energy weapon in combat:
+
+1 Get as close to the enemy ship as possible.
+
+2 Press the R Button to fire while the enemy is in sight (see
+“Targeting Cross-Hairs” in the Instruments section for
+directions on how to zero in on an enemy ship).
+
+¢ Smart Missile: A single-shot “homing” missile capable of
+tracking enemy ships (but not asteroids). There are three levels
+
+(racks) of smart missiles:
+
+Rack 1: WASP missile. Twice as powerful as a photon.
+Rack 2: HAWK missile. Twice as powerful as a Rack 1.
+Rack 3: NOVA missile. Four times as powerful as a Rack 1.
+
+The Stinger craft is not capable of carrying smart missiles. The
+Striker ship can carry Rack 1, the Stalker Racks 1 and 2, and
+the Slasher all three. Each rack holds four smart missiles.
+When all Racks are empty, you must have them reloaded at a
+
+base.
+
+To use a smart missile in combat:
+
+1 Press Select to move the tracking sight over the enemy ship
+you want the missile to track (see “Targeting Cursor” in the
+Instruments section for directions). Up to four ships can
+appear on screen at once.
+
+2 Press the B Button to select which Rack to use (Rack 1,
+Rack 2, Rack 3). (Remember, not all Racks are available for
+
+all ships.)
+3 Press the L Button to fire the selected smart missile.
+
+Radio
+
+The radio is the method by which you receive missions and mes-
+sages from fellow G.A.Sians... or challenges from alien pilots.
+When a message is pending (you'll be notified on screen), press
+the Y Button to receive it. Press the Y Button again to return to
+
+the cockpit screen.
+
+10 2
+
+===== Page 14 =====
+
+_ ££
+
+Note: From time to time, you may receive a message warn-
+ing you that a base is about to be invaded. When you do,
+defeat all enemy. ships surrounding the base as quickly as
+possible. |
+
+instruments
+
+Fig. 3 The Cockpit
+
+The following instruments appear in the cockpit of each ship:
+
+Radar
+The radar display shows all objects within range of your ship. Each
+type of object is represented by a colour
+
+e White dot: Nearest enemy ship
+
+e Red dot: Enemy weapons fire, asteroids, mines
+
+e Blue dot: Other objects (bases, black holes, enemy ships)
+
+Energy
+
+This bar gradually descends as your ship uses energy (or check
+the Energy meter in the Long-Range Scanner to see exactly how
+much energy your ship has).
+
+11
+
+===== Page 15 =====
+
+Shields
+
+The right side of this meter displays the status of your right shield,
+the left side your left shield. If the meters are green, your shields
+are strong. If either begins to pulsate, they’re starting to weaken.
+The quicker they pulsate, the weaker they’re becoming. When
+
+either turns red, they’re about to go. If you take a direct hit on a
+shield that isn’t at full strength, your ship could be destroyed.
+
+Note: When your shields are severely damaged, the mes-
+sage ' ‘shields critical" will appear in the cockpit.
+Sis additional damage at this stage could esl destroy your
+
+Smart Missiles
+
+One to three racks appear (depending on what ship you have),
+each containing four smart missiles. Press the B Button while in
+combat to move between racks. The four weapon indicators in the
+activated rack will be yellow. Once a smart missile is used, one of
+the weapon indicators will turn grey.
+
+Targeting Sights
+
+Two targeting sights appear on screen (refer to Fig. 3). The
+weapon sight remains stationary in the center of the screen, while
+the smaller tracking sight automatically tracks enemy vessels. To
+zero in on a target, line up the tracking sight inside of the weapon
+sight, and then fire away.
+
+Note: Since enemy ships are constantly moving, you’ ‘ll need
+to aim ahead of their flight path when firing at them. Learning
+10 oes a speeding enemy ship is an essential eS of combat.
+
+12
+
+===== Page 16 =====
+
+__ [a
+
+The tracking sight will change colour, depending on how close you
+are to the target:
+
+TRACKING DISTANCE
+SIGHT COLOUR FROM TARGET
+White 0 - 500
+Yellow 500 - 1000
+Red 1000 - 1500
+Blue 1500+
+
+Navigation Panel
+A~_[sector course _|- ©
+
+7W 195
+B X-47 SPEED
+~ —KY-49 3264. ——+—
+
+The navigation panel (refer to Fig. 3) provides the following infor-
+mation:
+/\ The sector you’re currently in.
+8 Your location in the current sector (on a scale from 0-99):
+¢ x = 0 indicates your ship is on the left edge of the sector; 99
+the right edge.
+¢ y = 0 indicates your ship is on the top edge of the sector; 99
+the bottom edge.
+For example, if x = 47 and y = 49, this means you are approximate-
+ly in the middle of the sector.
+G The course you are traveling (in degrees):
+0 = Up 180° = Down
+90 Right 270 = Left
+
+0 changes into
+| your ship and
+
+') Ship’s speed in kilometers per hour.
+
+13
+
+===== Page 17 =====
+
+—————
+
+The Long-Range Scanner
+
+The Long-Range Scanner is a separate screen activated from with-
+in your ship (see Fig. 4). The Long-Range Scanner displays your
+ship’s status, current quadrant and any objects in the quadrant’s 64
+sectors. To activate it, press the Y Button while your ship is in
+space.
+
+Note: You cannot activate the Long-Range Scanner while your
+ship is in a base. ‘
+
+Fig. 4 The Long-Range
+Scanner
+
+Moving Your Ship in the Long-Range Scanner
+To select a new sector to travel to:
+
+1 Press and hold the Control Pad in the direction you want to
+travel.
+
+2 Press any button (except the Y Button) to move the warp
+destination cursor one sector at a time until it is on the
+desired sector.
+
+3 Press the Y Button to return to your cockpit, where you can
+then “warp” to that location (see Warp Drive).
+
+Note: In some scenarios, the Long-Range Scanner will only
+detect enemy ships in the eight sectors surrounding your ship.
+In these scenarios, it is up to you to locate the enemy ships'
+positions.
+
+SS TENT NS IT OTE IT I I TI TESTE SSE ESE SU
+
+14
+
+===== Page 18 =====
+
+__ [a
+
+Damage Reports
+
+The condition of five ship components are listed along the right
+side of the Long-Range Scanner. Damage is reflected by a num-
+ber from 0 (none) to 99 (extensive). The components are:
+
+COMP. (Computer): Damage to your computer affects all
+instruments in your cockpit.
+
+ENG. (Engine): Severe damage will affect warp and overall
+speed of your ship.
+
+SHLD. (Shields): The shields will begin to fluctuate if damage
+is high, thus exposing your ship to greater damage from
+enemy fire.
+
+WPNS. (Energy weapons): Only one energy weapon will fire
+with minimal damage; none with higher levels of damage.
+MSSL. (Smart missiles): The greater the damage, the fewer
+the selection. Rack 3 missiles will go out first, then Rack 2,
+and finally Rack 1.
+
+Note: The class of ship you’re currently using is listed under
+the damage reports.
+
+Ship Status
+
+The following information is listed at the bottom of the Long-Range
+Scanner:
+
+Rank: Current rank
+
+Score: Current score
+
+Bonus: Current Bonus points
+
+Energy: Your ship begins with 9999 cells of energy. The
+energy level descends as you use your engines and
+weapons. Once the number of cells reaches triple digits, you
+should think about heading to a base for a refill.
+
+Warp: Displays how much energy is required to warp to the
+sector highlighted by the warp destination cursor.
+
+Enemy: Number of hostile ships you’ve destroyed so far.
+
+15
+
+===== Page 19 =====
+
+— arti‘ CC;
+Manoeuvring In Space
+Here’s how to control your ship while in space:
+
+Climb/Dive
+
+A
+
+Left |< O BD] Right
+V
+
+Dive/Climb
+
+Steering: Press the Control Pad in any of eight directions to steer
+
+your ship (see diagram above).
+
+Increase speed: Press the X Button.
+
+| Decrease speed: Press the A Button.
+
+Climb: Press & or W on the Control Pad, depending on configu-
+
+ration (see Game Options).
+
+| Dive: Press & or W on the Control Pad, depending on configura-
+tion (see Game Options).
+
+Warp Drive
+
+Warp drive allows you to travel great distances in an instant. It is
+
+the fastest way to get from one sector to another in a quadrant.
+
+You can access it by doing the following:
+
+1 Press the Y Button while in space to activate the Long-Range
+Scanner.
+
+2 Select the sector you want to travel to (see Moving Your Ship
+
+on the Long-Range Scanner).
+
+Press the Y Button to return to your cockpit.
+
+Press the X Button to activate warp drive.
+
+When prompted, press the X Button again to confirm warp drive.
+
+Auto-pilot will take over and you’ll be warped to the desired
+
+sector.
+
+6 You'll regain control of your ship after arriving in the new sector.
+
+o1 & ©
+
+16
+
+===== Page 20 =====
+
+—___—_
+
+_ Note: ne rossing into a new sector before pressing the
+* Button 0 activate warp drive cancels a ‘sea biti
+In addition, you ¢ cannot use warp driv Je
+
+to quadrant. - | -
+
+Thrust
+
+The thrusters control your ship’s speed. You can travel anywhere
+in a quadrant using thrusters, but it is slower than warping. If your
+warp engines are damaged, however, your thrusters will be your
+only method for limping to a base for repairs.
+
+While in combat, you won't be able to thrust to another sector.
+Thus, if your warp engines go out during combat, you must fight to
+the death.
+
+Use the X Button to increase and A Button to decrease your
+ship’s thrust.
+
+17
+
+===== Page 21 =====
+
+————
+
+Enemy Ships
+
+There are four categories of enemy combat ships. Each category
+consists of four different ships with varying skill levels (16 ships
+total). All ships in a category look the same, but each is a different
+
+colour.
+
+The four categories (in order of strength) are:
+
+Wedge (weakest)
+
+Devastator (strongest)
+
+18
+
+===== Page 22 =====
+
+—— FF
+
+Carriers
+
+Carriers are ships travelling across the screen far in the distance.
+They never get closer to you, but it is vital they be destroyed as
+each one transports dozens of enemy fighters. A well-aimed smart
+weapon attack usually does the trick.
+
+Bases
+
+All ship damage is repaired and energy replenished at bases. In
+addition, all promotions, new ships, and medals are awarded at
+bases (see After a Battle is Over).
+
+Unprotected bases usually become targets of enemy ships, so
+always keep an eye on the Long-Range Scanner to make sure
+your bases aren't being threatened. If a base is in danger, you'll be
+informed by a dispatch from G.A.S. headquarters. When this hap-
+pens, defeat all enemy ships surrounding the base as quickly as
+possible. Once all bases are destroyed by the enemy, you'll have
+no place to refuel or repair your ship.
+
+Note: The “Base Under Attack” message will not come up if a
+mission or duel is underway.
+
+Black Holes
+
+These mysterious pools of concentrated gravity act as portals
+between quadrants. Some are two-way, others will return you to a
+different quadrant than the one from which you originally entered.
+Navigate to a black hole on the Long-Range Scanner. When you
+return to cockpit view, autopilot will kick in and take you into the
+black hole. You'll regain control upon entering the new quadrant.
+
+Note: Some scenarios have invisible black holes which lead to
+additional quadrants. A radio message will inform you when an
+invisible black hole is suspected in a quadrant.
+
+19
+
+===== Page 23 =====
+
+RR
+
+Asteroid Belts
+
+Your ship may encounter an asteroid belt in any sector at any time.
+Use your energy weapon to destroy asteroids before they hit your
+ship. They can do damage.
+
+Mine Fields
+
+Mines will cause twice the damage to your ship that asteroids will.
+Use your energy weapon to destroy mines before they hit your
+ship. When you enter a mine field, you won’t be able to thrust out
+until you clear a path with your weapons. Destroy eight mines and
+you'll be rewarded with bonus points.
+
+SCORING
+
+Accumulate points for destroying enemy ships. You gain 100
+points for each enemy ship destroyed. In addition, you are award-
+ed a substantial bonus for wiping out all ships in a sector. The
+bonus is dependent upon how many ships are destroyed, the type
+of ship destroyed, and how many shots it takes. Bonus points are
+tripled for every Carrier destroyed.
+
+Bonus Points
+You are awarded bonus points for the following:
+e Completing a mission: 1,000 - 4,000 pts.
+e Clearing a sector: Number of ships destroyed
++ shooting accuracy (the
+fewer the misses, the higher
+the bonus).
+e Clearing a mine field: 1,000 pts.
+Besides adding to your overall score, bonus points also indicate
+how close you are to earning a medal, promotion, or ship upgrade.
+The more bonus points you accumulate, the higher the medal, pro-
+motion or ship upgrade you'll receive (see Medals, Ranks, and
+Your Ship).
+
+20
+
+===== Page 24 =====
+
+__ £45
+
+Warning! Admiral Sharpe does not reward failure. If you fail
+in a mission or are caught fleeing from combat, he may con-
+fiscate some of your Bonus points. Your overall s score will
+remain the same, however. -
+
+AFTER A BATTLE IS OVER
+
+Once you complete an individual scenario, a victory screen
+appears listing your closing rank, any medals earned, and the num-
+ber of successful encounters.
+After completing a scenario in a campaign, you'll automatically be
+returned to a base where you'll receive a message listing the fol-
+lowing:
+
+e Any ship upgrades
+
+e Any promotions in rank
+
+e Any medals earned
+
+Medals
+
+The medals awarded are dependent upon the number of bonus
+
+points you accumulate (see Bonus Points). The bonus points
+needed for each medal are:
+
+BONUS PTS.
+
+MEDAL REQUIRED
+Blue Cygnus 3,000
+Gold Novae 5,000
+Rigel Cross 8,000
+Star Cluster 12,000
+
+Note: Each medal can be earned up to three times.
+
+When you have enough points to receive a medal, return to a base
+to claim your award. (Or continue to accumulate points for a higher
+medal.) The amount of the medal will be deducted from your
+bonus total. :
+
+21
+
+===== Page 25 =====
+
+—E—————
+
+Ranks
+
+You begin WarpSpeed as a rookie, but gain promotions by accu-
+mulating bonus points. After completing a scenario, you'll be
+informed of any promotions. The following bonus points are
+required for each rank:
+
+BONUS PTS.
+REQUIRED
+
+1 Rookie )
+
+2 Scout 1,000
+
+3 Pilot 5,000
+
+4 Ace 10,000
+
+5 Warrior 20,000
+
+6 Captain 30,000
+
+7 Admiral 40,000
+
+Note: Bonus points for promotions are not deducted from your
+bonus total.
+
+Continues
+
+If you should lose a ship while in battle, don’t panic. Three
+continues are available, each allowing you to resume play where
+you left off. When you lose a ship, simply press any button and
+you will begin the action from where you lost your last ship.
+
+22
+
+===== Page 26 =====
+
+\COO \nr”
+rLUIU
+
+The best in entertainment software”
+
+BY ACCOLADE
+
+Accolade Europe Ltd
+Bowling House, Point Pleasant
+Wandsworth, London SW18 1PE PRINTED IN JAPAN

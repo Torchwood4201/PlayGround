@@ -1,0 +1,688 @@
+# Lester the Unlikeley
+source: https://archive.org/details/snes_manual_archive
+pdf: Lester the Unlikeley ( USA ).pdf
+region: USA
+pages: 14
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+DTMC Inc:
+370 Convention Way, Suite 202
+Redwood City, CA 94063
+
+a
+
+PRINTED IN JAPAN =)
+
+ES Lee A di
+
+INSTRUCTION BOOKLET
+
+|
+|
+
+SUPER NIN PN
+
+ENTERTAINMENT § STEM
+
+===== Page 2 =====
+
+CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET CAREFULLY BEFORE USING YOUR
+NINTENDO® HARDWARE SYSTEM OR GAME PAK. Our: Stoty So: For i::..c.5:611 Mtecessstionss 1
+
+Lester's Personality .............. Labuan tees 5
+Getting Started .............. Aocecascuexth 7
+
+Designed & Developed for DTMC by Visual Concepts SOME SCIOOMN .fi.e..c.0cceccescteeevecceess 8
+Manual Design by Andrew Bradley
+Manual Text by Matthew Householder Controller ci: fats. Ne Basizasins 9
+
+Package Cover Illustration by Michel Bohbot
+Poster Illustrations by:
+Joel Adams & Jeff Wells - Continuity Studios
+
+Lester the Unlikely is a trademark of DTMC Inc.
+Weapon........... Sestastcsseseh tem oncpiss cy 17
+
+Bosses..........
+> Characte's.............. apctsee altars: “20
+
+Sas
+tus ODStACHES .....escsssesccssseesesseeee Ce OT
+
+THIS OFFICIAL SEAL IS YOUR:
+ASSURANCE THAT NINTENDO HAS
+APPROVED THE QUALITY OF THIS. .
+PRODUCT. ALWAYS LOOK FOR THIS Enemies....... Pes ae 23
+SEAL WHEN BUYING GAMES AND
+
+ACCESSORIES TO ENSURE COMPLETE
+
+COMPATIBILITY WITH YOUR SUPER
+NEED ee Ineo NINTENDO ENTERTAINMENT SYSTEM Hazards ........ ee banat so... 25
+ENTERTAINMENT SYSTEM ALL NINTENDO PRODUCTS ARE
+AND THE OFFICIAL SEALS ARE LICENSED BY SALE FOR USE ONLY Y " -
+REGISTERED TRADEMARKS OF WITH OTHER AUTHORIZED PRODUCTS Hints N Tips Pereee errr tt teeeee errr Tie o.2/.
+NINTENDO OF AMERICA INC BEARING THE OFFICIAL NINTENDO s
+
+1991 NINTENDO OF AMERICA INC. SEAL OF QUALITY.
+
+===== Page 3 =====
+
+One day Lester was walking through Seaport
+City’s loading docks reading the new issue of
+his favorite comic, “Super Duper Hero Squad.”
+Feeling a little tired from playing video games
+late the night before, he looked around for a
+comfortable place to finish his comic.
+
+Without thinking, Lester stretched out on a
+pallet that was ready for loading onto a
+nearby freighter. And fell asleep.
+
+Boy, did he pick a bad place to take a nap.
+
+Vt
+
+Several hours out of port he woke up and
+found himself in deep trouble (and more than
+a little seasick). The ship’s captain believed his
+story about being an accidental stowaway.
+But... only in cases of extreme medical
+emergency could the ship return to port. And
+Lester wasn’t that seasick. Yet...
+
+So, he was along for the ride... Until the first
+port of call. But as chance would have it,
+pirates hijacked and scuttled the freighter.
+Luckily enough, Lester found a life vest before
+the ship sank and swam for the nearest
+tropical island.
+
+Just before reaching the beach Lester passed
+out from sheer exhaustion. Now, his real
+adventure begins...
+
+Its up to you to help Lester get back home.
+
+aby
+
+===== Page 4 =====
+
+Ensure the power to your SNES unit is turned
+OFF. Insert the Game Pak into your SNES unit
+and turn the power ON. After the DIMC logo
+and licensing screens have cleared, the Title
+screen will appear. To begin the game press
+START. This will bring up the Lester introduction
+story. To skip a screen press the X, Y, A or B
+buttons. To skip the entire introduction and
+begin playing press START.
+
+Once you have started the game you can
+hold the X, Y, A, or B buttons to speed up text
+printing. Advance to the next text window by
+pressing START. This skips the current text
+window sequence.
+
+WEAPON HEALTH LIFE ITEM
+
+rc
+
+Weapon: Lester's current weapon is shown
+here.
+
+Health: Lester starts out with 3 canteens of
+health. Each time he takes a hit of damage,
+he loses one health canteen. When he loses
+all 3 canteens, he loses one life. Beware.
+Some enemies or dangers will inflict 3 hits of
+damage, forcing Lester to lose a life. Lester
+may find and drink additional canteens along
+the way to restore his health.
+
+Life: Lester starts out with 3 lives.
+
+Item: Lester’s current item is shown here.
+
+iy
+
+===== Page 5 =====
+
+L BUTTON R BUTTON
+1 vad
+
+SUPER NINTENDO
+
+ae +
+
+SELECT START
+
+CONTROL PAD
+
+Left or Right = Walk left or right.
+Up —_Enter doorway.
+Down — Crouch or climb down from a ledge.
+Y + Leftor Right — Run left or right.
+
+X Pick up, place, or use an item.
+Swing sword.
+
+A __ Use the weapon (If weaponless, kick.)
+Throw rock or boomerang.
+Sheathe or unsheathe sword.
+
+B Jump in the direction of the control.
+pad: up, left, right, or while running.
+
+LorR Look up or down from Lester's position.
+Start Start or Pause the game.
+
+Kicking
+When weaponless,
+
+Turning
+Press Left or Right to turn in that direction.
+
+Walking
+Press Left or Right to walk in that direction.
+
+Running
+
+Hold Y and press Left
+or Right to run in that
+direction.
+
+===== Page 6 =====
+
+Jumping
+Press B and Up to
+jump up. Press B
+alone to jump in the
+direction Lester is
+facing, Press B and
+Left or Right to jump O gears
+little farther in that i=
+direction. =
+
+Climbing up onto
+waist-high obstacles
+Position Lester [f
+against the obstacle.
+Press B to climb up
+onto it.
+
+Climbing up onto a
+higher platform
+Position Lester |
+underneath an |
+overhang or ledge. }
+Jump up to grab it.
+Press Up to climb up
+onto the platform.
+
+Running leap
+
+Press B while running
+to make a running
+leap. Lester can
+clear bigger gaps
+with this move.
+
+;
+;
+'
+|
+,
+7
+;
+1
+;
+|
+
+Climbing down to a lower platform
+
+Walk to the edge of the platform. Lester will
+start teetering. Turn around to make him stop
+teetering. Press Down to climb down. (You
+may press Up to climb back up.) Press Down
+
+again to let go and drop down.
+12 oe,
+
+===== Page 7 =====
+
+You'll find items in Lester's world that you can
+pick up. You'll know that it is an item, because
+it appears in the ITEM window. Use items to
+solve the game puzzles.
+
+Picking up health
+canteens
+
+Stand next to the
+canteen, facing it.
+Press X to pick if up
+and drink.
+
+i Picking up items or
+weapons
+
+Stand next to the
+item or weapon,
+
+py facing it. Press X to
+
+pick it up.
+
+Using or placing items
+Stand facing in the proper direction. Press X to
+use or place the item.
+
+\ Ps
+
+Pushing a movable
+object
+Walk up next to the
+
+BE walking in the
+
+3 direction you want to
+push the object.
+Press X to push it.
+
+You'll find that some of the objects in Lester's
+world (like the large boulders) can be moved.
+Unlike items, you can't pick them up, but you
+can push them. You'll need to use some of
+these movable objects to solve some of the
+game puzzles.
+
+Entering a doorway
+Position Lester in front
+of the doorway.
+Press Up to enter the
+doorway.
+
+===== Page 8 =====
+
+Grabbing a vine
+Jump in the direction
+of the vine. Lester
+will grab onto the
+vine, if it passes
+within his reach.
+
+Sa Swinging on a vine
+While hanging onto a
+vine, rhythmically
+press Left and Right to
+make the vine swing
+farther.
+
+Letting go of a vine
+Press B to jump off a
+
+vine.
+ee 15
+
+Climbing up and
+down a ladder:
+Position Lester in
+front of a ladder.
+Press Up or Down to
+climb up or down
+the ladder.
+
+Looking up and
+down from Lester’s
+current position
+Press L to look up.
+Press R to look down.
+You must hold LorR |
+for a second to
+make it scroll.
+
+| 2a.
+
+===== Page 9 =====
+
+Lester can use these weapons: kicking, a rock,
+a boomerang and a sword.
+
+i Kicking
+
+When weaponless,
+press A to kick in the
+direction Lester
+faces.
+
+Throwing a rock
+First, pick up a rock.
+Press A to throw it in
+
+the direction he’s
+facing.
+
+Noe
+
+Sword fighting
+
+First, acquire a sword.
+Press A to sheathe or
+unsheathe Lester's
+sword. Press X, Y, or
+B to swing the sword.
+Lester can duck
+while his sword is
+drawn, but you'll
+need to sheathe it to
+jump, climb, or run.
+
+Throwing a
+boomerang
+
+First, find one. Press
+A to throw it in the
+
+Ba direction he’s facing.
+
+Lester must wait until
+the boomerang
+
+gy returns to him before
+
+moving again.
+
+===== Page 10 =====
+
+i Ghost: One third of a
+ghostly trio, he’s
+jealous of the other
+two. Help him out
+and he'll let you
+} pass. Make a
+mistake and you're
+2) toast.
+
+Big ape: Don’t let him
+make a monkey out of §
+
+you. After all, Tikka’s §
+rooting for you. §
+
+Giant spider: She
+doesn't like
+boomerangs or
+Lester.
+
+Villagers: They
+aren't really bad
+guys. Its just that
+contact with the
+
+pirates has made
+them hostile to all
+strangers.
+
+Hector: He’s the
+island's leader. The
+
+i] pirates are holding him
+i] hostage while they use
+Ay the island as their
+
+4 NMeadaquarters.
+
+Tikka: She’s Hector’s
+beautiful daughter
+and Lester's only
+friend on the island.
+
+===== Page 11 =====
+
+Lester has to overcome some obstacles
+along the way.
+
+Rock formations: Lester
+must climb and jump his
+way over the rocks. Make
+the most of your hang time. §
+
+Collapsing earth: Lester must jump off (or over)
+sections of collapsing earth. Don’t get a hot
+foot!
+
+some of the boulders.
+J Rock and roll!
+
+Huts: Lester must run over
+the rooftops or search
+inside the huts. Look out!
+Where there’s smoke
+
+there’s fire!
+we a
+
+#] Bamboo cage: If Lester is
+captured, he'll have to
+escape this puzzling prison.
+
+Trees: Lester must climb some trees. Lester see,
+Lester do.
+
+Vines: Lester must swing fi
+like a jungle king. It takes
+practice, though. Watch
+
+out for that tree!
+
+Pressure plates and doors: Lester must open
+some doors using hidden pressure plates.
+Some plates open doors, some close them,
+and some do both. Don’t let the pressure get
+to you.
+
+Spider Web: Lester must
+pass through the spider's
+lair. "Help me!"
+
+2S
+
+===== Page 12 =====
+
+These are out to damage Lester's health.
+
+Turtles: Don’t turn your back
+on these 2-faced turtles.
+
+awe
+
+Crabs: Sandy claws, all right, but nowhere near
+the North Pole.
+
+Seagull: A giant mutant gull.
+Look out below!
+
+Ghostly hands: Those
+grabbing hands grab all they
+can. In this case a full life!
+
+Bats: They may be blind as
+bats, but they can see you.
+
+Piranhas: They sure do grow big in these parts.
+
+Snakes: Sometimes a snake
+is just a snake.
+
+Leopard: Run for your life or lose it.
+
+Little spiders: Eensie weensie only when
+compared to momma.
+
+Albino cave monster: Don't
+worry, it’s just happy to see
+f you...not!
+
+Pirates: What grungy guys: sportin’ earrings
+and tattoos!
+24
+
+===== Page 13 =====
+
+These hazards also damage Lester’s health.
+
+Falling too far: If Lester falls (or jumps) from too
+high, he'll lose one health canteen.
+
+Sharp rocks: If Lester falls (or jumps) onto the
+sharp rocks, he'll lose one life.
+
+Poison darts: If Lester gets hit by a poison dart,
+he'll lose one life.
+
+Subterranean fire: If Lester falls (or jumps) into a
+fire pit, he'll lose one life.
+
+Falling stalactites: If Lester gets hit by a falling
+stalactite, he'll lose one health canteen.
+Dripping acid: If Lester gets hit by dripping
+acid, he'll lose one health canteen.
+
+Spears: If Lester gets hit by a spear, he'll lose
+one life.
+
+Bonfire: If Lester gets singed by the fire, he'll
+lose one life.
+
+Giant flower’s pollen: If Lester innales a lungful
+of pollen, he'll lose one health canteen.
+Pendulum: If Lester gets hit by the swinging
+weight, he'll lose one life.
+
+Water: If Lester falls (or jumps) into water, he'll
+lose one life.
+
+\ Pas
+
+Boulder avalanche: If Lester gets hit by the
+boulder avalanche, he'll lose one life.
+
+Lava: If Lester gets caught by flowing lava or
+lands in a lava pool, he'll lose one life.
+Descending ceiling: If Lester gets squashed by
+
+the descending cave ceiling, he'll lose one life.
+
+Spikes: If Lester gets spiked in the cave, he'll
+lose one life.
+
+Rolling barrel: If Lester gets hit by the rolling
+barrel, he'll lose one health canteen.
+Dynamite: If Lester gets too near an exploding
+stick of dynamite, he'll lose one life.
+
+CONTINUE
+
+If you lose all 3 Lester’s,
+you get three more
+chances to continue
+your game, restarting at
+the beginning of the
+level with fully restored
+health and weapons.
+
+To continue a game: use the control pad to
+select “YES” or “NO”, then press START before
+time runs out.
+
+26 Oy
+
+===== Page 14 =====
+
+1)
+
+3)
+
+4)
+
+| 5)
+
+{ 6)
+
+7)
+
+8)
+9)
+
+Use the L and R buttons to look before you
+leap.
+
+Important items could be hidden
+anywhere, be sure you look in every nook
+and cranny.
+
+You'll need to swing between 2 vines to
+safely finish the Jungle level. Read about
+vine swinging (pg. 15), if you are having
+trouble.
+
+Wait until snakes start to fall, then move out
+from under them.
+
+When it comes to giant spiders, discretion is
+the better part of valor.
+
+Develop your skills in running and jumping.
+You'll need it for the leopard.
+
+If you think you’ve reached a dead end,
+there may be a puzzle to solve using items
+and movable objects found on the island.
+
+Treat the caverns like a maze.
+
+Some pressure plates open more than one
+door.
+
+oF
+
+LIMITED 90 DAY WARRANTY
+
+DIMC Inc. warrants to the original purchaser of this DIMC product that this
+cartridge is free from defects in materials and workmanship for a period of
+ninety (90) days from the date of purchase. The DIMC product is sold ‘as is’
+without expressed or implied warranty of any kind, and DTMC is not liable for
+any losses or damages of any kind resulting from the use of this product.
+DIMC agrees for a period of ninety (90) days to either repair or replace, at its
+option, free of charge, the DIMC product
+
+Send product postage paid and dated proof of purchase to:
+
+DTMC Inc
+
+370 Convention Way, Suite 202
+Redwood City, CA 94063 U.S.A.
+(415) 367-9891
+
+This warranty shall not be applicable and shall be void if the defect in the
+DIMC product has arisen through abuse, unreasonable use, mistreatment .
+neglect or rental use. THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES
+AND NO OTHER REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE
+BINDING ON OR OBLIGATE DTMC. ANY IMPLIED WARRANTIES APPLICABLE TO
+THIS SOFTWARE PRODUCT, INCLUDING WARRANTIES OF MERCHANTABILITY
+AND FITNESS FOR A PARTICULAR PURPOSE, ARE LIMITED TO THE NINETY (90)
+DAY PERIOD DESCRIBED ABOVE. IN NO EVENT WILL DTMC BY LIABLE FOR ANY
+SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES RESULTING FROM
+POSSESSION, USE OR MALFUNCTION OF THIS DIMC PRODUCT. Some states do
+Not allow limitations as to how long an implied warranty lasts and/or
+exclusions or limitations of incidental or consequential damages, so the
+above limitations and/or exclusions of liability may not apply to you. This
+warranty gives you specific rights, and you may also have other rights which
+vary from state to state

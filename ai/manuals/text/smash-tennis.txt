@@ -1,0 +1,2399 @@
+# Smash Tennis
+source: https://archive.org/details/snes_manual_archive
+pdf: Smash Tennis (Europe).pdf
+region: Europe
+pages: 32
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SMASH TENNIS TM & © 1993 Namco Ltd
+All nghts reserved.
+in Interactive Entertainment (Europe) Lt.
+
+ses Ltd.
+
+Arwiork & Design by Mick Lowe Design,
+
+SNSP-JA-EUR
+
+INSTRUCTION BOOKLET.
+
+9
+
+Virgin Interactive Entertainment (Europe) Ltd,
+
+338a Ladbroke Grove, London W10 SAH
+
+PRINTED INJAPAN
+IMPRIME AU JAPON
+=
+
+===== Page 2 =====
+
+Keep nis intormation/ Gardez es formations / Diese Infomation aufbewahre
+
+C (GHetendD) 63760 GroBostheim, Deutschland
+
+jdenne information / Pida tama tieto
+
+Gongervare quest infomazionl / Guarde estas informes / Bewaar daze iformata
+‘genna information / Behold.
+
+NINTENDO @, SUPER NINTENOO ENTERTAINMENT SYSTEM™, @) ANO @&Q_ARE TRADEMARKS OF NINTENDO CO..LTD.
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA,
+
+WARNING : PLEASE CAREFULLY,
+BOOKLET INCLUDED WITH THIS.
+SYSTEM, GAME PAK OR
+
+ATTENTION : VEUILLEZ LIRE A\
+D'EMPLO!" QUI ACCOMPAGNE LA CONSOLE:
+ACCESSOIRES AVANT DE LES UTILISER,
+
+HINWEIS : BITTE LIES DIE VERSCHIEOENEN BEDI
+NINTENDO HARDWARE, WIE AUCH JEDER
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZION! PEA LUTENTE f clin Lstase eae
+INCLUSE NELLA CONFEZIONE PRIMA 01 USARE IL TUO SUPER NINTENDO:
+
+SYSTEM™ LE CASSETTE O GLI ACCESSORI.
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA (CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS GON ESTE PROOUOTO. } DE UTILIZAR TU CONSOLA,
+VIDEQJUEGO © ACCESORIO NINTENDO,
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE INFORMATIE EN
+
+WAARSCHUWINGEN DOOR DIE Bld DIT PRODUKT 1§ MEGVEAPAKT \T HET NINTENDO-
+
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIME IN GEBRUIK WORDT GENOMVEN.
+
+‘OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+
+I BRUKSANVISNINGARNA SOM MEOFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR,
+
+ADVARSEL : L/ES FORBRUGERINFORMATIONEN OG HAEFTET MED SIKKERHEDSAEGLER, DER.
+
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM,
+
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISESTI LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEOOT JA,
+
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAI MUUN VAURS TIEN KAYTTOA.
+sy
+
+oo
+
+CONTENTS
+
+STARTING THE GAME
+
+DECIDE ON A GAME FORMAT & START
+BASIC OPERATIONS & SCREEN DISPLAYS
+LEARN THE BASIC CONTROLS
+
+HOW TO PLAY
+
+STARTING THE GAME
+
+SUMMARY OF OPERATIONS
+
+English
+
+Francais
+
+POUR COMMENCER LE JEU.
+
+CHOISISSEZ VOTRE TYPE DE JEU ET COMMENCEZ
+COMMANDES DE BASE ET ECRANS
+
+APPRENEZ LES COMMANDES DE BASE!
+(COMMENT JOUER,
+
+COMMENCER A JOUER
+
+RESUME DES COMMANDES
+
+Deutsch
+
+BEGINN DES SPIELS
+
+WAHLE DEIN SPIELFORMAT UND MACH DICH BEREIT
+GRUNDBEDIENUNG UND ANZEIGEN IM SPIEL
+
+LERNE DIE GRUNDSTEUERUNG
+
+AUFSCHLAG
+
+DAS MATCH BEGINNT.
+
+UBERBLICK DER STEUERUNGSARTEN,
+
+Nederlands
+
+HET SPEL STARTEN
+
+BESLUIT IN WELKE VORMJE HET SPEL GAAT SPELEN EN START
+DE VOORNAAMSTE HAN DELINGEN EN DE BEELD-SCHERMWEERGAVE
+LEER DE BELANGRIJKSTE BES-TURINGSTOETSEN
+
+HET SPELEN
+
+TOERNOOIEN
+
+EEN OVERZICHT VAN DE HANDELINGEN
+
+Espanol
+
+COMIENZO DEL JUEGO
+
+ELECCION DE LA FORMA DEL PARTIDO Y COMIENZO-
+VISUALIZACION DE LA PANTALLA Y ACCIONES BASICAS
+APRENDE LOS CONTROLES BASICOS
+
+COMO JUGAR
+
+COMIENZO DEL JUEGO
+
+RESUMEN DE LAS ACCIONES
+
+po aaaee
+
+15
+16
+7
+18
+18
+
+7
+28
+29
+
+35
+37
+
+41
+42
+42
+
+49
+
+2See
+
+===== Page 3 =====
+
+EPILEPSY WARNING
+
+PLEASE READ BEFORE USING YOUR
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+A very small portion of the population may experience epileptic seizures
+when viewing certain kinds of flashing lights or patterns that are commonly
+present in our daily enviroment. These persons may experience seizures
+while watching some kinds of television pictures or playing certain video
+games. Players who have not had any previous seizures may nonetheless
+have an undetected epileptic condition. Consult your physician if you expe-
+rience any of the following symptons while playing video games: altered
+vision, muscle twitching, other involuntary movements, loss of awareness of
+your surroundings, mental confusion and/or convulsions.
+
+GAME PAK
+PRECAUTIONS/MAINTENANCE
+
+1. If you are playing for a long time, take a 10-15 minute break every hour.
+2. The Game Pak is a high precision piece of electronics. Do not store in
+places that are very hot or cold. Do not hit, drop or otherwise abuse it. Do
+not take it apart.
+
+3. Avoid touching the connectors with your fingers. Do not blow on them or allow
+them to get wet or dirty. Doing so may damage the Game Pak and/or the Control
+Deck
+
+4, Do not clean with benzene, paint thinner or alcohol or any other solvent.
+
+5. Always store the Game Pak in its protective case cover when not in use.
+
+6, Always check the Game Pak edge conector for foreign material before
+inserting the Game Pak in the Control Deck.
+
+hy
+
+| Sea Boss
+
+Not only real grass, hard and clay courts but special fun-to-play courts are
+waiting for you. As many as 4 people can play at one time. It’s so easy to
+operate that your own playing skill is reflected directly in the game. Revel in
+the atmosphere of a resort or go for the Grand Slam in tournament play.
+
+Choose Your Favourite
+Game Mode!
+There are two modes. First there is the Exhibition mode, with real and
+special courts that let you enjoy the feeling of playing tennis all around
+the world. You can compete against a friend or against the computer.
+Secondly, there is the Tournament Mode where you can try to win a
+major tennis event, and go on to win the Grand Slam.
+
+MULTI-PLAYER OPTION
+
+Playing against the computer is great but it’s most fun to play with a lot of
+people. Play against another person or play doubles with four people.
+
+STARTING THE GAME
+
+Push the START button on the title screen and the MODE SELECTION
+screen will appear. Select the mode and then set the match format, to
+begin the game. Use the Direction Pad to select, and the (A) button to
+make a decision or the B button to cancel (except mode selection).
+Starting the game is a little different in the TOURNAMENT MODE so
+be sure to read pages 10 and 11 carefully.
+
+Exhibition
+This mode lets you choose the players and the court for your match. 1
+to 4 people can play.
+
+Tournament
+In this mode, you advance by winning games to win the tournament.
+Use the “Password” for continuous play.
+
+===== Page 4 =====
+
+DECIDE ON A GAME FORMAT
+AND START
+Options
+
+In the option menu you can select the following:
+
+Ball Marker
+
+Choose whether you want the ball to leave a mark where it strikes. To
+make a mark select ON. Otherwise use the OFF setting.
+
+Sound
+
+You can choose to have the game sounds in Stereo or Mono.
+
+1 GAME SELECT
+
+Any number of people, from 1 to 4, can play in any combination you
+want. For multiple players you need up to 4 controllers. For details
+please read “To Play With Multiple Players” (on page 5).
+
+2 PLAYER SELECT
+
+Select the player you want out of 20 different players. When playing
+with multiple players each one picks using his/her controller in order,
+starting with P1. If you pair up with the computer pick a player for
+your team mate.
+
+The male players are displayed in white and the female players are dis-
+played in red.
+
+3 COURT SELECT
+
+There are nine different kinds of courts, each with its own different
+backdrops and other characteristics.
+
+4 SET SELECT
+
+Select the number of sets. In a 3-set match, the game is over when the
+first person takes two sets. In a 5-set match, the match is over when the
+first person takes 3 sets. The game begins when you select the number
+of sets.
+
+To Play With Multiple Players
+
+When playing with three or more people, you will need the “Super
+Multi-Tap” or “Multi-Adapter” for use with the Super Nintendo
+Entertainment System. Always be sure to use Connector 2 when mak-
+ing connections. For other information, please read the Instruction
+Manual that comes with each of these units.
+
+BASIC OPERATIONS
+AND SCREEN DISPLAYS
+
+The operations on this page describe the most basic type of play. Other
+techniques such as the timing of when you press the buttons and differ-
+ent combinations can be used and the types of strokes will vary
+depending on the player you have selected.
+
+DIRECTION PAD (X) BUTTON (A) BUTTON
+Controls the movement of Lob, toss up Hits a powerful
+the player'and the course ball; toss up
+
+of the ball
+
+START BUTTON (Y) BUTTON (B) BUTTON
+Starts the game and displays |Functions the same | Hits a weaker
+score at time of service as the (A) button ball; toss up
+
+===== Page 5 =====
+
+LEARN THE BASIC CONTROLS!
+
+Every time you score a point during the game the number of points is
+displayed on the screen. When the START Button is Pt at the time
+of service the score will also be displayed.
+
+Score Table Server's Point / Receiver’s Point
+
+Clock Game Time
+Time since start of game.
+It does not include time
+when score is being displayed.
+
+Point’s Scored/ Games Won Sets Won
+
+HOW TO PLAY
+
+SERVICE
+
+A tennis match begins with “service.” Once you learn how to serve powerfully
+and in the direction you want, you will have the initiative and will always be able
+to control the course of the game to your advantage.
+
+Varying the direction and the power of your serve is the key
+1 Determine the position
+
+Move the Direction Pad left or right to move the player to the serving
+position. Then push the Direction Pad down and the player will bounce
+the ball.
+
+2 Toss-up
+Push any of the (A) / (B) / (X) / (¥) Buttons to toss up.
+3 Determine the course
+
+Move the Direction Pad left or right during the toss-up and the ball will
+go in that direction. The targeted direction will change little by little
+depending on how long the a d lepressed.
+
+Use the Direction Pad | to move'the pila
+
+different speeds. There are variqus't .
+back and forth quickly and volley: -
+
+right to recover the ball, and so on.
+
+===== Page 6 =====
+
+BUTTONS CHANGE THE POWER OF
+THE BALL x
+HITTING POWER
+
+Use the (A) button (or the (Y) button) for a strong ball or the (B) button for a soft
+
+ball the same as when serving. The (X) button will lob the ball high in the air.
+Learn to use the buttons depending on the circumstances.
+
+SOME OF THE PLAYERS WILL EVEN
+
+DIVE FOR THE BALL!
+
+Some players will dive to hit the ball, depending on the timing and the
+distance. Be careful though: it takes some time for them to get up again
+after hitting the ball.
+
+HOW TO PLAY STROKES (2)
+PICKING THE DIRECTION YOU WANT TO HIT
+
+You can control the ball by a combination of Direction Pad operation
+and timing in hitting the ball.
+
+(1) Using the Direction Pad
+
+You can hit the ball in various directions depending on the direction in
+which the Direction Pad is depressed at the moment the ball is hit.
+
+FOREHAND AND BACKHAND
+
+A “forehand” stroke is one hit on the side of your stronger arm and a
+“backhand” stroke is one hit on the opposite side. The player's position
+with respect to the ball is determined automatically.
+
+The important thing is that the kind of stroke for the same player
+depends on whether it is forehand or backhand. You will need different
+techniques depending on the player, such as turning into a return for a
+forehand etc., to have the player hit the shot he or she is best at.
+
+TYPES OF STROKES
+
+Page 8 explained that there were three different strokes - a strong
+stroke, a softer stroke, and a lob - depending on the type of button
+depressed. The types of balls that can be hit can be further varied
+depending on whether they are hit forehand or backhand.
+
+The combinations also vary depending on the player. Find the best
+strokes by trying the various players.
+
+(1) TOP SPIN
+
+There is a spin on the ball when it is hit.
+There is nothing out of the ordinary so
+it flies straight ahead and drops naturally.
+
+@) FLAT
+
+No spin is put on the ball that makes it
+drop more quickly and bounce higher.
+
+===== Page 7 =====
+
+SMASH :
+
+When a high ball comes at you, get right underneath to hit it; this is a
+“smash.” You can hit with a great deal of power. When you hit right —
+under the path of the ball and hit it in the best position, this is a “strobo
+smash.”
+
+G) SLICE
+
+The ball has a reverse spin. It is slower and bounces lower.
+
+(4) LOB
+
+This is a ball that is hit high. It will bounce very high.
+
+TOURNAMENTS
+
+The Tournament Mode allows you
+advance by winning 5 major events.
+You can play singles or doubles.
+All the events are made up of I-
+set matches and the courts are
+determined in advance. Your
+aim is to achieve the Grand
+Slam (win all major events).
+
+1 STARTING THE GAME
+
+Select TOURNAMENT on the MODE SELECTION screen. You will
+then go to the START screen. Use the Direction Pad to select and the
+(A) button to confirm.
+
+Begin :
+
+You can make choices from the time you start playing. You may play
+Singles or Doubles. Playing Doubles, you may choose 1P&COM (team-
+ing up with the computer) or 1P&2P (teaming up with other players).
+
+Password :
+Allows you to enter a password, to continue a tournament at a later
+date.
+
+GO FOR THE GRAND SLAM!
+
+2 STARTING THE EVENT
+
+Just as with the EXHIBITION mode, you can choose from among 20
+players. The event begins after you determine the player you will use.
+The combinations are displayed. The player at the top will be the player
+you have chosen. Press the (A) button and the match will begin imme-
+diately.
+
+3 AFTER THE MATCH
+
+When the match is over, you will be able to see the results of the other
+contests on the match-up board and you can skip over this with the
+START button.
+
+You can win the event by winning three matches. If you drop one along
+the way, you have to start the event over again from the beginning.
+
+If you achieve the Grand Slam the game will be cleared.
+
+1
+
+===== Page 8 =====
+
+12
+
+FIRST TRY YOUR HAND ON
+NAMCO COURT
+
+NAMCO GRASS COURT
+
+An outdoor court completely covered with grass. The ball will bounce
+low. When it is neatly trimmed the lawn gives the court a very elegant
+image.
+
+NAMCO HARD COURT
+
+The hard court is hardened with cement, polyurethane, etc. It is a stan-
+dard court with few peculiari-
+
+ties, so how about starting
+with this one?
+
+NAMCO CLAY
+COURT
+
+The speed of the ball when
+it bounces is reduced so it is
+important to get used to the
+special feel of this court
+early on. This
+effect is more
+pronounced @
+when the ball is
+
+hit gently.
+
+SUMMARY OF OPERATIONS
+
+SERVICE POSITION <—(+)—> MOVE (+) HIT BALL
+TOSS UP” (x) / (A) / (B) BUTTON
+SIDE OF COURT <—(+)—>
+HIT BALL STRONG SERVE (A) BUTTON
+WEAK SERVE (B) / (X) BUTTON
+STROKES FOOTWORK DIRECTION PAD
+HARDBALL (A) BUTTON (SMASH WHEN HIT
+STRAIGHT DOWN)
+SOFT BALL (B) BUTTON (SMASH WHEN HIT
+STRAIGHT DOWN)
+LOB (X) BUTTON
+
+Note: (Y) button functions the same as the (A) button
+
+K
+
+CREDITS
+
+DESIGNER
+H. Yoshizawa
+
+PROGRAMMER
+T. Nakamura
+
+GRAPHICS
+S. Kanai and Y. Wagatsuma
+
+SOUND
+Y. Kawamoto
+
+EUROPEAN PRODUCT CO-ORDINATOR
+Mike Merren
+
+DESIGN & ARTWORK CO-ORDINATOR
+Matthew Walker
+
+EUROPEAN PRODUCTION
+Catherine Spratt & Rizwan Khan
+
+DESIGN HOUSE
+Mick Lowe Design
+
+13
+
+===== Page 9 =====
+
+14
+
+SUR L’EPILEPSIE
+VEUILLEZ LIRE LES RECOMMANDATIONS SUI-
+VANTES AVANT TOUTE UTILISATION D’UN JEU
+VIDEO SUPER NINTENDO ENTERTAINMENT SYSTEM
+PAR VOUS-MEME OU VOTRE ENFANT.
+
+Un trés faible pourcentage de personnes sont plus parti-
+culitrement sensibles au phénomene épileptique (crise
+et/ou perte de conscience) lorsqu’elles sont exposées a cer-
+tains effets stroboscopiques, notamment ceux pouvant
+apparaitre sur les écrans de télévision lors de l'utilisation
+de jeux vidéo. Ces phénoménes peuvent apparaitre alors
+méme que le sujet n’a pas d’antécédent médical ou n’a
+jamais été confronté a une crise d’épilepsie. Veuillez pren-
+dre les précautions suivantes afin de minimiser un quel-
+conque risque:
+
+AVANT TOUTE UTILISATION
+
+*Si vous-méme ou un membre de votre famille avez déja
+présenté des symptémes liés a I’épilepsie (crise ou perte de
+conscience) en présence de stimulations lumineuses, con-
+sultez votre médecin avant toute utilisation.
+
+*Tenez-vous a une distance d’au moins 2.5 métres de
+Yécran de télévision.
+
+Si vous étes fatigué(e) ou si vous manquez de sommeil, ne
+jouez qu’apreés vous étre reposé.
+
+* Jouez dans une piéce suffisamment éclairée.
+
+Utilisez un écran le plus petit possible (36 cm ou moins)
+
+PENDANT L’UTILISATION
+*Reposez-vous au moins 10 minutes par heure.
+
+Parents: nous vous conseillons de surveiller vos enfants
+lorsqu’ils jouent a des jeux video. Si vous-méme ou votre
+enfant constatez l’un des sympt6émes suivants: vertiges,
+troubles de la vision, contractions, perte d’orientation,
+mouvements involontaires ou convulsions, IMMEDIATE-
+MENT de jouer et consulter votre médecin.
+
+™
+
+Des courts de toutes sortes vous attendent: gazon, béton, terre battue,
+mais également des courts spéciaux sur lesquels vous aurez un trés grand
+plaisir a jouer. C’est tellement facile 4 manier que votre propre niveau de
+tennis se reflétera directement dans le jeu. Amusez-vous dans une
+ambiance décontractée ou prenez part a un tournoi du Grand Chelem.
+
+* Choisissez votre mode de jeu favori!
+
+Il y a deux modes. D’abord, le mode Exhibition (Démonstration), avec
+des courts réalistes et spéciaux qui vous permettent de jouer dans le
+monde entier. Vous pouvez jouer contre un ami ou contre l‘ordinateur.
+Deuxiémement, le mode Tournament (Tournoi); dans lequel vous pou-
+vez essayer de gagner I’un des grands tournois de tennis, et méme rem-
+porter le Grand Chelem.
+
+* Vous avez le choix: jouer tout seul ou a plusieurs: jusqu’a quatre
+joueurs en méme temps!
+
+Jouer contre l’ordinateur, cest trés bien, mais c’est encore plus amusant
+de jouer avec d’autres personnes. Jouez contre quelqu’un d’autre, ou
+jouez en double a quatre joueurs.
+
+POUR COMMENCER LE JEU
+
+Appuyez sur le bouton START a partir de I’écran titre, et l'écran MODE
+SELECTION (SELECTION DU MODE) apparaitra. Sélectionnez le
+mode et le type de match pour commencer le jeu. Utilisez le bouton
+directionnel pour sélectionner, et le bouton A pour prendre une déci-
+sion ou le bouton B pour annuler. En MODE TOURNOI, démarrer le
+jeu est un peu différent, alors lisez les pages 22 et 23 attentivement.
+
+Exhibition (Démonstration)
+Ce mode vous permet de choisir les joueurs et le type de court pour
+votre match. De 1 a 4 joueurs.
+
+Tournament (Tournoi)
+
+Dans ce mode, vous devez gagner des matchs pour remporter le
+tournoi.Utilisez le “Mot de passe” (“Password”) pour reprendre plus
+tard la partie en cours. 15
+
+===== Page 10 =====
+
+CHOISISSEZ VOTRE TYPE DE
+JEU ET COMMENCEZ
+
+Options
+Dans le menu options, vous pouvez sélectionner:
+
+Ball Marker (Marque de la balle)
+
+Choisissez si vous voulez que la balle laisse une marque. Si oui, sélec-
+tionnez ON. Sinon, sélectionnez OFF.
+
+Sound (Son)
+
+Vous pouvez entendre les sons du jeu en Stéréo ou en Mono.
+
+1. SELECTION DU JEU
+
+Vous pouvez sélectionner de 1 a 4 joueurs, dans n’importe quelle com-
+binaison. Pour plusieurs joueurs, vous aurez besoin de plusieurs con-
+tréleurs (jusqu’a 4). Pour plus de détails, consultez le paragraphe “Jouer
+a plusieurs” (a la page 17).
+
+2. SELECTION DU JOUEUR
+
+Sélectionnez le joueur que vous voulez parmi 20 joueurs différents.
+Lorsque vous jouez a plusieurs, chacun choisit son joueur I’un apres
+Yautre en utilisant son contréleur, en commencant par le joueur 1 (P1).
+Si vous formez une équipe avec l’ordinateur, choisissez un joueur
+comme partenaire.
+
+3. SELECTION DU COURT
+
+Il y a9 types de courts différents, chacun ayant ses propres décors et
+caractéristiques.
+
+16
+
+A
+
+4. SELECTION DES SETS
+
+Sélectionnez le nombre de sets. Dans un match a 3 sets, le match est ter-
+miné dés que quelqu’un a gagné deux sets. Dans un match a 5 sets, le
+match est terminé dés que quelqu’un a gagné 3 sets. Le jeu commence
+lorsque vous sélectionnez le nombre de sets.
+
+* Jouer a plusieurs
+
+Lorsque vous jouez a trois ou plus, il vous faut le “Super Multi-Tap” ou
+le “Multi-Adapter” pour jouer avec la Super Nintendo. Vérifiez tou-
+jours que vous utilisez la manette 2 lorsque vous faites vos connexions.
+Pour plus de détails, consultez le manuel d’instructions.
+
+COMMANDES DE BASE
+ET ECRANS
+
+Les commandes ci-dessous décrivent le type de jeu le plus simple.
+D/autres techniques, telles que la synchronisation des boutons, et dif-
+férentes combinaisons, peuvent étre utilisées, et les types de coups
+seront différents selon le joueur que vous aurez choisi.
+
+BOUTON DIRECTIONNEL
+Contréle les mouvements
+du joueur et la trajectoire de
+laballe
+
+BOUTON (x)
+Lober, lancer
+la balle en I'air
+
+BOUTON (A)
+Envoyer une balle
+puissante, lancer
+Ia balle en V'air
+
+BOUTON START
+Démarre le jeu et affiche
+le score au moment des
+services
+
+BOUTON (Y)
+Le bouton (Y) |
+
+BOUTON (B)
+Envoyer une balle
+faible; lancer la
+
+fonctionne comme le;
+balle en V'air
+
+Je bouton (A)
+
+|
+
+A?
+
+===== Page 11 =====
+
+APPRENEZ LES COMMANDES
+DE BASE!
+
+A chaque fois que vous marquez un point pendant le jeu, le nombre de
+points est affiché sur I’écran. Lorsque vous appuyez sur le bouton
+START au moment du service, le score est également affiché.
+
+Score Score du serveur / Score du receveur
+Horloge Durée du match
+Depuis combien de temps
+Je match a commencé.
+Le temps n’est pas indiqué
+lorsque le score est affiché.
+
+Points marqués / Jeux gagnés Sets gagnés
+
+COMMENT JOUER -
+LE SERVICE
+
+Un match de tennis commence par un service. Une fois que vous aurez
+appris a servir de facon puissante et dans la direction que vous voulez,
+vous aurez alors I’initiative et vous serez capable de contrdler le jeu a
+votre avantage.
+
+Vous devez faire varier la direction et la puissance de votre service
+
+1. Prenez votre position
+Appuyez sur le bouton directionnel vers la gauche ou la droite pour
+
+placer le joueur en position de service. Puis appuyez sur le bouton
+directionnel vers le bas, et le joueur fera rebondir la balle.
+
+2. Lancez la balle en l’air
+
+Appuyez sur n‘importe lequel des boutons A/B/X/Y pour lancer I
+balle en Vair.
+
+18
+
+3. Choisissez la direction
+
+Appuyez sur le bouton directionnel vers la gauche ou vers la droite
+pendant que la balle est en I’air, et la balle ira dans la direction choisie.
+La direction prise par la balle dépendra du temps d’appui sur le bouton
+du pavé de direction.”
+
+4. Frappez la balle
+
+Pendant que la balle est en I
+la gauche ou la droite p
+
+yr le bouton directionnel vers
+6té vous voulez servir.
+
+vec le bouton B,
+
+ous la frappez,
+
+" plus elle
+
+Utilisez le bouton:
+
+joueur se déplacé
+
+le joueur agressif qui sé-dép!
+fait des volées, le joueur défe
+récupérer la balle, ete... *
+
+===== Page 12 =====
+
+LES BOUTONS QUI CHANGENT LA
+PUISSANCE DE LA BALLE
+
+* PUISSANCE DE FRAPPE (B)
+
+De la méme fagon que pour le service, utilisez le bouton A (ou le bouton
+Y) pour obtenir une balle puissante, et le bouton B pour obtenir une
+balle plus faible. Le bouton X permet d’effectuer des lobs trés hauts.
+Apprenez a utiliser les boutons selon les circonstances.
+
+* CERTAINS JOUEURS IRONT MEME
+JUSQU’A PLONGER POUR ALLER
+CHERCHER LA BALLE!
+
+Certains joueurs plongeront pour frapper la balle, selon le temps et la
+
+distance. Mais soyez prudent: il leur faut ensuite un certain temps pour —
+
+se relever aprés avoir frappé la balle.
+
+COMMENT FAIRE LES COUPS (2)
+* CHOISIR LA DIRECTION QUE VOUS
+VOULEZ DONNER A LA BALLE
+Vous pouvez contréler la balle en combinant le bouton directionnel et le
+bouton de frappe.
+
+(1) Utilisez le bouton directionnel
+
+Si vous voulez par exemple que la balle se dirige vers le coin 9, appuyez en bas et
+a droite du pavé de direction lorsque vous la frappez
+
+EN PEL RON
+
+* COUP DROIT ET REVERS
+
+Un coup droit est un coup du cété de votre bras le plus fort et un revers
+est un coup du coté de votre autre bras. La position du joueur par rap-
+port a la balle est déterminée de facon automatique.
+
+Un méme joueur frappe différemment la balle pour un coup droit ou un
+revers. Vous aurez besoin de techniques différentes selon le joueur,
+comme se mettre en position pour renvoyer en coup droit, etc., pour
+que le joueur frappe la balle de la meilleure maniére possible.
+
+TYPES DE COUPS
+
+A la page 20, on vous explique qu’il y a trois différents types de coups:
+un coup puissant, un coup plus faible, et le lob. Ces coups sont obtenus
+par différents boutons. Ces types de coups peuvent également étre dif-
+férents selon qu’ils sont frappés en coup droit ou en revers.
+
+De plus, ces coups varient selon les joueurs. Trouvez les meilleurs
+coups en essayant les différents joueurs.
+
+(1) BALLE AVEC DE L’EFFET
+
+On donne de l’effet a la balle, ce qui fait qu’elle
+tombe plus rapidement et rebondit plus haut.
+
+(2) BALLE aura
+
+Aucun effet n’est donné a la balle au
+moment de la frappe. Elle est ordinaire,
+elle part donc tout droit et tombe naturellement.
+
+21
+
+===== Page 13 =====
+
+* Smash
+
+Lorsqu’une balle haute arrive vers vous, placez-vous juste en dessous
+pour la frapper; vous ferez un smash. Vous pouvez frapper de facon
+trés puissante, Lorsque vous frappez en vous trouvant juste en dessous
+de la balle et dans la meilleure position possible, vous faites un “smash
+strobo”.
+
+(3) SLICE
+
+La balle a un effet inversé. Elle est plus lente et rebondit trés haut.
+
+(4) LOB
+
+Crest une balle qui est frappée trés haut. Elle rebondira plus bas.
+
+TOURNOIS
+
+Le Mode Tournament (tournoi) vous permet de progresser en gagnant 5
+
+tournois majeurs. Vous pouvez jouer en simple ou en double. Tous les
+
+tournois se composent de matchs en 1 set et le type de court est déter-
+
+miné a l’avance. Votre but est de rem-
+
+porter le Grand Chelem (c’est-a-dire
+
+de gagner tous les tournois
+majeurs).
+
+1. COMMENCER A JOUER
+
+Sélectionnez TOURNAMENT dans I’écran SELECTION DU MODE
+(MODE SELECTION). Vous irez ensuite a l’écran START (COM-
+MENCER). Utilisez le bouton directionnel et le bouton A pour con-
+firmer votre choix.
+
+Commencer:
+
+Vous pouvez faire des choix a partir du moment ot vous commencez a
+jouer. Vous pouvez jouer en simple (Singles) ou en double (Doubles). Si
+vous jouez en double, vous pouvez choisir 1P&COM (vous faites
+équipe avec l’ordinateur) ou 1P&2P (vous faites équipe avec d'autres
+joueurs).
+
+Mot de passe:
+Vous pouvez entrer un mot de passe (password) et reprendre un
+tournoi a une date ultérieure.
+
+LANCEZ-VOUS DANS LE
+GRAND CHELEM!
+
+2. COMMENCER LE TOURNOI
+
+Comme dans le mode EXHIBITION (DEMONSTRATION), vous pou-
+vez choisir parmi 20 joueurs. Le tournoi commence une fois que vous
+avez choisi votre joueur. Les matchs sont affichés. Le joueur en haut
+sera le joueur que vous aurez choisi. Appuyez sur le bouton A pour
+commencer le match immédiatement.
+
+3. APRES LE MATCH
+
+Lorsque le match est terminé, vous pouvez voir les résultats des autres
+matchs sur le panneau des résultats, et vous pouvez passer ce tableau
+en appuyant sur le bouton START.
+
+Vous pouvez remporter le tournoi en gagnant trois matchs. Si vous en
+perdez un, vous devez recommencer le tournoi depuis le début. Si vous
+remportez le Grand Chelem, le jeu est fini.
+
+23
+
+===== Page 14 =====
+
+COMMENCEZ PAR VOUS EXERCER RESUME DES COMMANDES
+SUR LE COURT NAMCO SERVICE SE POSITIONNER <(+)—> BOUGER
+
+(+) FRAPPER
+LANCER LA BALLE BOUTONS X/A/B
+COURT EN GAZON NAMCO LANG
+Un court extérieur entigrement en gazon. La balle rebondira de fagon COTE DU COURT <4)
+basse. Lorsque le gazon est bien entretenu, cela donne une apparence
+trés élégante au court. FRAPPER LA BALLE SERVICE PUISSANT:
+BOUTONS A
+COURT EN BETON NAMCO Cee ane
+BOUTONS B/X
+Le court en béton est composé de ciment, de polyuréthane, etc. C’est un
+court standard avec peu de caractéristiques spéciales; alors, pourquoi COUPS JEU DE JAMBES BOUTON DIRECTIONNEL
+he pas commencer sur ce court-la? ;
+BALLE PUISSANTE BOUTON A (SMASH
+LORSQU' ELLE EST FRAPPEE
+COURT EN USTE EN-DESSOUS)
+TERRE BATTUE BALLE PLUS FAIBLE BOUTON B (SMASH
+NAMCO LORSQU'ELLE EST FRAPPEE
+
+JUSTE EN DESSOUS)
+La vitesse de la balle au
+
+rebond est réduite, il est LOB pee BOUTON
+donc important de Remarque: Le bouton (Y) fonctionne comme le bouton (A).
+s‘habituer assez t6t aux sen- 44:
+sations particuliéres de ce Crédits
+court. L’effet est encore plus Designer
+H. Yoshizawa
+
+prononcé lorsque la balle
+est frappée doucement.
+
+Programmeur
+T. Nakamura
+
+Graphismes
+S. Kanai and Y. Wagatsuma
+
+Son
+Y. Kawamoto
+
+Coordinateur du produit sur l'Europe
+ike Merren
+
+Coordination du design et des illustrations
+Matthew Walker
+
+Production Européene
+Catherine Spratt & Rizwan Khan
+
+Manuel, conception de I’emballage et exécution
+ick Lowe Design
+
+===== Page 15 =====
+
+a
+
+EPILEPSIE-WARNUNG
+
+BITTE LESEN SIE DIESE HINWEISE, BEVOR SIE IHR SUPER NIN-
+TENDO ENTERTAINMENT SYSTEM BENUTZEN ODER IHRE
+KINDER DAMIT SPIELEN LASSEN.
+
+Bei einem sehr kleinen Prozentsatz von Personen besteht die
+Moglichkeit eines epileptischen Anfalls oder einer Bewu8tseinsstérung,
+wenn sie bestimmten Lichteffekten oder Blitzlichtern ausgesetzt sind,
+wie sie u.a. auf Fernsehbildschirmen oder bei der Wiedergabe von
+Videospielen auf Fernsehgeraten auftreten kénnen. Hiervon kénnen
+auch Personen betroffen sein, die zuvor keine epileptischen Anfalle
+gehabt haben. Bitte treffen Sie die folgenden Vorsichtsma8nahmen, um
+jegliches Risiko minimal zu halten:
+
+VOR DEM SPIELEN
+
+Falls Sie oder eines Ihrer Familienmitglieder an Epilepsie leiden oder
+durch die Einwirkung von flimmerndem Licht Bewu8tseinsst6rungen
+gehabt haben, wenden Sie sich an ihren Arzt, bevor Sie ein Videospiel
+benutzen.
+
+*Sitzen Sie méglichst mindestens 2,5 m vom Fernsehbildschirm ent-
+fernt.
+
+Falls Sie miide sind oder nicht genug Schlaf gehabt haben, ruhen Sie
+sich aus, und beginnen Sie erst mit dem Spiel, wenn Sie vollkommen
+ausgeruht sind.
+
+*Achten Sie darauf, da der Raum, in dem Sie spielen, gut beleuchlet
+ist.
+
+*Verwenden Sie fiir die Wiedergabe des Spiels einen Fernseher mit
+méglichst kleiner Bildschimdiagonale (vorzugsweise 36 cm oder Kleiner).
+
+WAHREND DES SPIELENS
+
+*Ruhen Sie sich wahrend der Benutzung eines Videospielen min-
+deslens 10 Minuten pro Stunde aus. 2
+¢Eltern sollten ihre Kinder bei Benutzung von Videospielen beaufsichti-
+gen. Sollten bei Ihnen oder Ihnen Kind wahrend des Spielens
+Symptome wie Schwindelgefithl, Sehstérungen, Augen-oder
+Muskelzucken, BuewuBtseinsverlust, Desorientierung oder jegliche Art
+von unfreiwilligen Bewegungen oder Krampfen auftreten, so beenden
+Sie SOFORT das Spiel, und konsultieren Sie Ihren Arzt.
+
+Du kannst Dein Kénnen nicht nur auf realistischen Gras-, Hart und Sandplatzen
+beweisen. Es warten sogar spezielle Gag-Platze auf Dich. Bis zu 4 Spieler konnen
+gleichzeitig miteinander spielen. Die Steuerung ist so einfach, da Deine eigene
+Spielstarke unmittelbar in das Spiel iibertragen wird. Amiisiere Dich in der lockeren
+Atmosphare eines Feriendomizils oder wage Dich an den Grand Slam im Turniermodus.
+
+* Wahle Deinen Spielmodus!
+Es gibt zwei Spielmodi. Der eine ist ein Modus fiir den einfachen Spielspag, mit nor-
+malen und kuriosen Plitzen, auf denen Du den Spa8 am Tennis an Schauplatzen auf
+der ganzen Welt auskosten kannst. Du hast die Wahl, gegen einen Freund oder den
+Computer anzutreten. Der andere ist der Turniermodus, in welchem Du Dein Kénnen
+in den wichtigsten Turnieren der Welt beweisen und den Grand Slam gewinnen muBt.
+
+* Du hast die Wahl: Spiele allein oder mit
+bis zu vier Mitspielern gleichzeitig!
+
+Das Spiel gegen den Computer ist eine gro8e Herausforderung, aber der meiste Spa
+
+kommt im Spiel mit Deinen Freunden auf. Messe Dich mit ihnen im Einzel oder Doppel,
+
+wobei bis zu vier Mitspieler zum Einsatz kommen kénnen.
+
+BEGINN DES SPIELS
+
+Driicke in der Titelgrafik die Taste START, um die MODUSAUSWAHL (Mode
+Selection) aufzurufen. Wahle Deinen Modus und stelle anschlieend das Matchformat
+ein, um das Spiel zu beginnen, Benutze das Steuerkreuz fiir Deine Auswahl und
+bestitige Deine Entscheidung mit der Taste (A). Du kannst Deine Wahl mit der Taste
+(B) widerrufen. Im TURNIERMODUS wird das Spiel etwas anders gestartet. Aus
+diesem Grund solltest Du die Seiten (35) und (36) vorher sorgfaltig lesen.
+
+Exhibition
+In diesem Modus kannst Du die Anzahl der Spieler und die Platzart fiir Dein
+Match selbst wahlen. 1 bis 4 Spieler méglich.
+
+Tournament
+In diesem Modus mut Du Dich von Match zu Match bis zum Turniersieg
+durchkampfen. Benutze das “Password”, um spater weiterzuspielen.
+
+27
+
+===== Page 16 =====
+
+WAHLE DEIN SPIELFORMAT ' 4 ANZAHL DER SATZE
+
+UND MACH DICH BEREIT Entscheide Dich fiir die Anzahl der Sitze in Deinem Match. Ein 3-Satz-
+
+Match ist beendet, sobald einer der Spieler zwei Satze fiir sich entschei-
+
+Options den konnte. In einem 5-Satz-Match steht als Sieger derjenige fest, welch-
+
+Das Optionsmenii bietet folgende Auswahl: er als erstes 3 Satze gewonnen hat. Nach der Wahl iiber die Anzahl der
+Satze beginnt das Spiel.
+
+Ball Marker = 4 r
+
+Entscheide Dich, ob Du einen Ball méchtest, der nach dern Aufprall *Das Spiel mit mehr als 2 Spielern
+
+eine Markierung auf dem Platz hinterla&t. Bei der Einstellung ON,
+
+spielst Du mit dieser optischen Hilfe. Wenn Du mit Deinen Freunden zu dritt oder viert spielen méchtest,
+
+Méchtest Du das nicht, wahle die Einstellung OFF. brauchst Du das “Super Multi-Tap” oder den “Multi-Adapter” fiir Dein
+
+Super Nintendo Entertainment System. SchlieSe den Adapter immer an
+den Kontrolleranschlu8 Nr. 2 an. Weitere Informationen kannst Du der
+
+Sound Bedienungsanleitung Deines Adapters entnehmen.
+
+Du kannst zwischen der Einstellung Stereo oder Mono wahlen.
+
+1 SPIELWAHL GRUNDBEDIENUNG UND
+ANZEIGEN IM SPIEL
+
+Bis zu vier Spieler konnen in jeder denkbaren Kombination miteinander
+
+spielen. Fir mehr als 2 Spieler bendtigst Du ein Multi-Tap und bis zu Steuerung
+vier Kontroller. Weitere Details unter “Das Spiel mit mehr als 2 2 |
+Spielern” (auf Seite 29). Die auf dieser Seite beschriebenen Steuerungsarten umfassen die
+Grundtechniken des Spiels. Fortgeschrittene Techniken, wie richtiges
+2 SPIELERAUSWAHL iming beim Ballspiel und unterschiedliche Grundschlage, variieren je
+
+nach dem gewahlten Spielertyp.
+
+Wahle Dir einen der 20 verschiedenen Tennisspieler als Spielfigur. In
+einem Spiel mit mehreren Mitspielern sucht sich jeder seine Spielfigur
+mit seinem eigenen Kontroller aus. Spieler 1 beginnt die Auswahl.
+Wenn Du zusammen mit dem Computer im Doppel antrittst, mugt Du
+auch fiir Deinen Computerkameraden eine Spielfigur auswahlen.
+
+Die mannlichen Tennisspieler werden in weif, die weiblichen STEUERKREUZ
+
+Tennisspieler in rot d stellt. Cette are)
+PClerin Tt dargestent Steuert die Bewegungen Lob; Ball hochwerfen _| Starker Schlag; Ball
+der Spielfigur und die hochwerfen |
+3 PLATZWAHL Richtung des Balles
+Es gibt neun unterschiedliche Platzarten. Jeder Platz besitzt seine beson- aes oiie a TASTE (Y) TASTE (B)
+deca Hiceaea ee ar ; ifft. startet das Spiel und zeigt Der (Y)-Knopf erfiillt Schwacher Schlag;
+leren Eigenschaften, was die Spielbarkeit betri Punktzahl beim Aufschlag dieselbe Funktion wie Ball hochwerfen
+an. der (A)-Knopf.
+
+| 28 29
+
+===== Page 17 =====
+
+LERNE DIE GRUND- /
+STEUERUNG!
+
+Jedes mal, wenn Du einen Punkt erzielst, wird der Spielstand auf dem
+Bildschirm angezeigt. Der Spielstand wird ebenfalls angezeigt, wenn
+beim Aufschlag die Taste START gedriickt wird.
+
+Punktetabelle Aufschlagers Punkte / Riickschlagers Punkte
+
+Uhr Spielzeit
+
+Reine Spielzeit, die seit
+Beginn des Spieles
+vergangen ist.
+
+Erzielte Punkte / Gewonnene Spiele Gewonnene Sitze
+
+AUFSCHLAG -
+SO WIRD’S GEMACHT
+
+Ein Tennismatch beginnt mit dem Aufschlag. Wenn Du erst einmal gel-
+ernt hast, hart und in die gewiinschte Richtung aufzuschlagen, dann
+bist Du in der Lage das Spiel zu Deinem Vorteil zu kontrollieren.
+
+Kontrolle tiber die Richtung und Stirke des Aufschlags ist der Schliissel zum
+Erfolg
+
+1 Wahle Deine Aufschlagposition
+Driicke das Steuerkreuz nach links oder rechts, um Deine Spielfigur in
+die richtige Aufschlagposition zu bringen. Driicke anschlie8end das
+
+Steuerkreuz nach unten, und die Spielfigur wird den Ball aufspringen
+lassen.
+
+2 Hochwerfen
+Driicke eine der Tasten (A) / (B) / (X) / (Y), um den Ball hochzuwerfen.
+
+3 Bestimme die Richtung
+
+Driicke das Steuerkreuz nach links oder rechts, wahrend Deine
+Spielfigur den Ball hochwirft, und der Ball wird in die entsprechende
+Richtung geschlagen. Die Zielrichtung variiert ein wenig durch den
+Umstand, wie lange das Steuerkreuz gedriickt wurde.
+
+4 Treffe der
+
+t; mut Du das
+
+“Im Tennis ‘gtb:
+,,@u schlagen. D
+“Schlag wird der |
+
+Bei einem “Volley”
+
+Bewege Deine Spielfigur mit
+
+| einzelnen Spielertypen bews;
+
+Geschwindigkeit. Es gibt. m
+| Beispielsweise aggressive Spieler,
+
+31
+
+===== Page 18 =====
+
+AUF DEN TASTEN LIEGT UNTER-
+SCHIEDLICHE SCHLAGKRAFT
+
+*SCHLAGKRAFT (B)
+
+Benutze die Taste (A) oder (Y) fiir einen harten und die Taste (B) fiir
+einen weichen Ball beim Aufschlag. Mit der Taste (X) spielst Du den
+Ball wie bei einem richtigen Lob hoch durch die Luft. Lerne die richti-
+gen Tasten in den entsprechenden Situationen zu benutzen.
+
+* MANCHE WERDEN SOGAR NACH
+DEM BALL HECHTEN!
+
+Einige Spieler werden - je nach Timing und Abstand zum Ball - sich
+sogar auf den Boden werfen, um den Ball noch spielen zu kénnen. Sei
+vorsichtig: Es braucht seine Zeit, bis Deine Spielfigur wieder auf den
+Beinen ist.
+
+GRUNDSCHLAGE -
+
+SO WIRD’S GEMACHT (2)
+* WIE DU DIE SCHLAGRICHTUNG
+
+BESTIMMEN KANNST
+
+Die Schlagrichtung wird durch die Richtungsangabe auf dem
+Steuerkreuz und das Timing beim Schlagen bestimmt.
+
+(1) Das Steuerkreuz einsetzen
+
+Du kannst den Ball in verschiedene Richtungen spielen, abhangig von
+der Richtung, in welche Du das Steuerkreuz driickst wenn Du den Ball
+spielst. Méchtest Du den Ball in die rechte Ecke spielen, dann driicke
+das Steuerkreuz nach rechtsoben, wahrend Du den Ball spielst.
+
+* VORHAND UND RUCKHAND
+
+Bei der “Vorhand” wird der Ball von der Seite Deines Schlagarmes
+gespielt. Bei der “Riickhand” von der gegeniiberliegenden Seite. Die
+Position des Spielers zum Ball entscheidet automatisch dariiber, ob eine
+Vor- oder Riickhand gespielt wird.
+
+Das Wichtige daran ist, dag die Art des Schlages fiir einen Spieler
+davon abhangt, ob er eine Vor- oder Riickhand spielen mu8. Du solltest
+Dir verschiedene Techniken aneignen, um die volle Spielstarke aus
+einem Spielertyp herauszuholen. Beispielsweise kannst Du eine
+Riickhand umlaufen, um den Ball mit der Vorhand zu spielen.
+
+GRUNDSCHLAGARTEN
+
+Auf Seite 32 werden drei verschiedene Schlage erlautert: der harte und
+weiche Schlag, sowie der Lob - abhangig von dem Knopf, der gedriickt
+wird. Die Art, wie der Ball vom Schlager getroffen wird, kann deswei-
+teren davon abhangen, ob der Ball mit der Vor- oder der Riickhand
+gespielt wird.
+
+Das Resultat aus dieser Kombination unterscheidet sich allerdings von
+
+Spieler zu Spieler. Finde die besten Schlagarten der einzelnen
+Spielertypen heraus.
+
+(1) TOP SPIN
+
+Der Ball hat viel Spin. Dadurch
+sinkt er friiher und springt héher ab.
+
+(2) FLACH
+
+Der Ball besitzt keinen Drall.
+Er wind also ganz gewohnlich iiber das
+Netz fliegen und normal aufkommen.
+
+33
+
+===== Page 19 =====
+
+* SCHMETTERN
+
+Wenn Dein Gegner einen Lob spielt, dann gehe direkt unter den
+Ball,um ihn iiber dem Kopf zu treffen: Das ist ein “Schmetterball”. Bei
+diesem Schlag kannst Du den Ball sehr hart spielen. Triffst Du den Ball
+direkt tiber Dir und stehst in guter Position, dann kann der Ball fiir
+
+den Gegner unerreichbar werden.
+
+(3) SLICE
+
+Der Ball besitzt Riickwartsdrall. Er
+ist langsamer und springt héher ab.
+
+(4) LOB
+
+Dies ist ein sehr hoch
+gespielter Ball. Er springt
+sehr hoch ab.
+
+TURNIERE
+
+Der Turniermodus birgt in 5
+wichtigen Turnieren die wahre
+Herausforderung. Du kannst
+im Einzel oder Doppel antreten.
+Alle Matches werden in einem
+Satz entschieden, und die Art
+des Platzes ist von Deiner
+Spielstarke abhangig. Dein Ziel
+ist der Grand Slam: Der Sieg bei
+allen fiinf wichtigen Turnieren.
+
+1 DAS MATCH BEGINNT
+
+Wahle in der Modusauswahl TOURNAMENT. Verwende das
+Steuerkreuz, um die Auswahl zu treffen und bestatige mit der Taste
+(A).
+
+Begin:
+
+Vor dem Spiel sind einige Einstellungen festzulegen. Du kannst Einzel
+oder Doppel spielen. Im Doppel kannst Du zusammen mit einem
+Computerspieler (1P&COM) oder einem Freund (1P&2P) antreten.
+
+Password :
+Erlaubt Dir, ein PaBwort einzugeben, mit dem Du ein friiheres Turnier
+fortsetzen kannst.
+
+AUF DER JAGD NACH DEM
+GRAND SLAM!
+
+2 DAS TURNIER BEGINNT
+
+Genau wie im EXHIBITION-Modus kannst Du Dir einen von 20
+Tennisspielern aussuchen. Das Turnier startet, sobald Du Dich ent-
+schieden hast. Der oberste Spieler ist Deine Wahl. Driicke die Taste (A),
+und das Match kann beginnen.
+
+3 NACH DEM MATCH
+
+Nach dem Match kannst Du die Ergebnisse aus den anderen Spielen auf
+dem “Match-Up Board” einsehen. Driicke die Taste START, wenn Du
+Dich satt gesehen hast.
+
+Du gewinnst das Turnier, wenn Du in allen drei Austragungen erfolg-
+reich warst. Verlierst Du auch nur ein Match, mut Du das Turnier von
+vorne beginnen. Gewinnst Du den Grand Slam, dann hast Du die
+Herausforderung geschafft.
+
+35
+
+===== Page 20 =====
+
+UBE DICH ZUERST AUF DEM
+NAMCO COURT
+
+NAMCO GRASPLATZ
+
+Ein Platz unter freiem Himmel, vollstandig bedeckt mit Gras. Der Ball
+springt flach weg. Wenn er gut gepflegt ist, dann gibt der Rasen diesem
+Platz etwas sehr Elegantes.
+
+NAMCO HARTPLATZ
+
+Der Belag des Hartplatzes besteht aus Zement, Polyurethan, etc. Es ist
+ein Standardplatz mit einigen Eigenheiten. Warum nicht mit diesem
+anfangen?
+
+NAMCO SAND-
+PLATZ
+
+Nach dem Aufprall nimmt
+die Geschwindigkeit des
+Balles am starksten ab.
+Dieser Effekt tritt verstarkt
+zutage, wenn der Ball nur
+sanft gespielt wird. Man
+sollte sich friih an das
+spezielle Feeling auf diesem
+Platz gewohnen.
+
+36
+
+UBERBLICK DER
+STEUERUNGSARTEN
+AUFSCHLAG POSITION <—(+)—> BEWEGEN (+) BALL SCHLAGEN
+HOCHWERFEN
+SEITENLINIE
+BALL SCHLAGEN STARKER AUFSCHLAG _TASTE (A)
+SCHWACHER AUFSCHLAG TASTE (B) / (X)
+GRUNDSCHLAGE — LAUFEN STEUERKREUZ
+HARTER BALL TASTE (A) (SCHMETTERN BEIM
+
+UBERKOPDSCHLAG)
+
+WEICHER BALL TASTE (B) (SCHMETTERN BEIM
+
+UBERKOPFSCHLAG)
+LOB TASTE (X)
+
+Hinweis: Der (Y)-Knopf erfiillt dieselbe
+Funktion wie der (A)-Knopf.
+
+CREDITS
+
+Entwicklung
+H. Yoshizawa
+
+Programmierung,
+‘Nakamura
+
+Grafik
+S. Kanai and Y. Wagatsuma
+
+Sound
+Y. Kawamoto
+
+Europaische Produktkoordination
+Mike Merren
+
+Entwicklungs-und Artworkkoordination
+latthew Walker
+
+Europiische Produktion
+Catherine Spratt & Rizwan Khan
+
+Design House
+Mick Lowe Design
+
+37
+
+===== Page 21 =====
+
+38
+
+WAARSCHUWING
+VOOR EPILEPSIE
+
+DOORLEZEN VOORDAT U UW SUPER NINTENDO ENTERTAIN-
+MENT SYSTEM IN GERBRUIK NEEMT OF HET DOOR UW
+KINDEREN LAAT GEBRUIKEN
+
+Sommige mensen kunnen een epileptische aanval krijgen of een veran-
+dering in het bewustzijn ondergaan wanneer zij worden blootgesteld
+aan bepaalde lichtpatronen of knipperende lichten, waaronder die van
+tv-beelden en videospelletjes. Dit kan gebeuren zonder dat men ooit
+eerder plotselinge aanvallen of epilepsie heeft gehad. Neem de vol-
+gende voorzorgsmaatregelen in acht, teneinde elk risico zoveel mogelijk
+te beperken:
+
+VOOR GEBRUIK
+
+Indien u of iemand in uw familie ooit een aanval van epilepsie heeft
+gehad of een verandering in het bewustzijn heeft ondergaan tengevolge
+van blootstelling aan knipperendo lichten, raadpleeg dan uw arts
+alvorens u gaat spelen.
+
+Ga op een afstand van minstens 2,5 m van het TV scherm zillen.
+Indien u vermoeid bent of nict voldoende slaap hebt gehad, rust dan
+eerst goed uit alvorens u begint te spelen.
+
+Zorg crvoor dat de kamer waarin u speelt, goed verlicht is.
+
+*Gebruik het spel op een zo klein mogelijk TV Scherm (bij voorkeur 14
+inch of Kleiner).
+
+TIJDENS HET SPEL
+
+Tijdens het spelen van een videospelletje moet u clk tenminste 10
+minuten rusten.
+
+*Ouders moeten toezicht houden als hun kinderen videospelletjes spe-
+len. Indien u bij u zelf of bij uw kind tijdens het spelen van videospel-
+letjes een van de volgende symptomen constatert, moet het spelen
+ONMIDDELIK gestaakt worden en moet en arts geraadpleegd wor-
+den. Het gaat hierbij om de volgende symptomen: duizeligheid, wisse-
+lend zicht, trekken van het oog of van de spieren, bewusteloosheid,
+desoriéntatie, reflexbewegingen of stuiptrekkingen.
+
+Er wachten je niet alleen echte grasbanen, harde - en gravelbanen, maar ook spe-
+ciale banen waar je gewoon plezierig kunt spelen. Er kunnen 4 personen tegelijk
+spelen. Het spel is zo gemakkelijk te spelen, dat je eigen tennistalent meteen tot
+uitdrukking komt. Geniet van de sfeer van een vakantiecentrum, of probeer een
+Grand Slam in een toernooi te maken.
+
+* Kies je favoriete manier van spelen!
+
+Er zijn twee spelmodes. Ten eerste is er de Exhibition Mode (demon-
+stratiemodus), met echte bestaande, speciale banen waar je zelf kunt meemaken
+hoe leuk het is om overal in de wereld te tennissen. Je kunt het tegen een vriend
+of vriendin, of tegen de computer opnemen. Ten tweede is er de Tournament
+Mode (toernooimodus), waar je kunt proberen een belangrijk tennistoernooi te
+winnen. Ga dan verder om een Grand Slam te maken.
+
+* Je kunt kiezen om alleen, of om met z’n tweeén, drieén of vieren te spelen.
+
+Het is fantastisch om tegen de computer te spelen, maar het is toch het leukst om
+met een heel stel te spelen. Speel één tegen één, of speel met z’n vieren een
+dubbelspel .
+
+HET SPEL STARTEN
+
+Druk bij het titelscherm op de START toets, dan verschijnt het MODE SELEC-
+TION scherm. Om te beginnen te spelen, selecteer je eerst de modus en dan
+wordt de vorm van de match ingesteld. Gebruik de richtingtoets om te selecteren
+en toets (A) om je keuze te bevestigen, of je gebruikt toets B om te cancelen. In de
+TOURNAMENT MODE gaat het starten van het spel een beetje anders, dus lees
+eerst pagina’s (46) en (47) zorgvuldig door.
+
+Exhibition Mode
+
+In deze modus kun je de spelers en de baan voor de match kiezen. Er kunnen 1
+t/m 4 personen spelen.
+
+Tournament Mode
+In deze modus ga je vooruit door de matches te winnen, totdat je het toemooi gewonnen
+hebt. Gebruik het paswoord om onafgebroken verder te kunnen spelen.
+
+39
+
+===== Page 22 =====
+
+40
+
+BESLUIT IN WELKE VORM JE
+HET SPEL GAAT SPELEN
+EN START
+
+Opties
+
+In het optiemenu kun je het volgende selecteren:
+
+Ball Marker
+
+Je kunt kiezen of je wilt dat de bal een teken achterlaat op de plaats
+waar hij terecht komt. Als je dat wilt selecteer je ON. Anders kies je
+OFF.
+
+Sound
+Je kunt kiezen of je in Stereo of in Mono naar het geluid wilt luisteren.
+
+1 HET SOORT SPEL SELECTEREN
+
+Elk aantal personen van 1 t/m 4 kunnen in elke gewenste combinatie
+spelen. Voor meerdere spelers heb je t/m 4 controllers nodig. Lees voor
+meer bijzonderheden “Met meerdere spelers spelen” op (pagina (41).
+
+2 EEN SPELER SELECTEREN
+
+Je kunt je speler uit 20 tennisspelers selecteren. Wanneer er met
+meerdere spelers gespeeld wordt, maakt elke speler in volgorde
+zijn/haar keuze met gebruik van zijn/haar controller, te beginnen met
+P1. Als je samen met de computer een team vormt, kies je een speler
+voor je teamgenoot.
+
+De mannelijke spelers zijn wit afgebeeld en de vrouwelijke spelers zijn
+rood afgebeeld.
+
+3 EEN BAAN SELECTEREN
+
+Er zijn negen verschillende soorten banen, elke baan heeft een verschil-
+Iende achtergrond en andere karakteristieken.
+
+4 HET AANTAL SETS
+SELECTEREN
+
+Selecteer het aantal sets. Als een match uit 3 sets bestaat, is de wedstrijd
+afgelopen wanneer een speler 2 sets gewonnen heeft. Als de match uit 5
+sets bestaat, is de wedstrijd afgelopen wanneer een spelen 3 sets gewon-
+nen heeft. De match begint wanneer je het aantal sets geselecteerd hebt.
+
+* Met meerdere spelers spelen.
+
+Wanneer je met drie of meer personen speelt, is het noodzakelijk dat de
+“Super Multi-Tap” of de “Multi Adapter” voor het Super Nintendo
+Entertainment System gebruikt wordt. Zorg er altijd voor dat
+Connector 2 gebruikt wordt om de connecties tot stand te brengen. Lees
+voor meer informatie de handleiding die bij deze beide onderdelen
+geleverd wordt.
+
+DE VOORNAAMSTE
+HANDELINGEN EN DE BEELD-
+SCHERMWEERGAVE
+
+De handelingen op deze bladzijde beschrijven de eenvoudigste manier
+van spelen. De andere technieken, zoals de timing voor het indrukken
+van de toetsen, de verschillende combinaties die gebruikt kunnen wor-
+den en de soorten slagen zijn afhankelijk van de tennisspeler die je ge-
+selecteerd hebt.
+
+RICHTINGTOETS TOETS (X) TOETS (A)
+Regelt de beweging vande | Lobben, opgooien. | Een bal hard
+speler en de baan die de slaan; opgooien.
+bal beschrijft.
+
+START TOETS TOETS (Y) TOETS B
+
+Start het spel en geeft de score| Toets (Y) function- | De bal zachter
+bij de opslag. carl beuelige als | slaan; opgooien.
+
+4
+
+===== Page 23 =====
+
+LEER DE BELANGRIJKSTE
+BESTURINGSTOETSEN!
+
+Telkens als je tijdens de match een punt scoort, wordt het aantal punten
+op het scherm weergegeven. Wanneer de START toets bij het serveren
+ingedrukt wordt, wordt de score ook weergegeven.
+
+Scoretabel Punt voor de serveerder/ Punt voor de tegenstander.
+
+Tijdklok Speeltijd
+
+De tijd die sinds het begin van het
+spel verstreken is. De tijd die ver
+strijkt tijdens de scoreweergave, telt
+niet mee.
+
+Aantal gescoorde punten/Aantal gewonnen matches.
+
+HET SPELEN -
+DE OPSLAG
+
+Een tennismatch begint met de opslag. Als je eenmaal geleerd hebt hoe
+je de bal krachtig in de gewenste richting kunt serveren, heb je het
+initiatief genomen en ben je altijd in staat om het verloop van het spel in
+je voordeel te beinvloeden.
+
+Aantal gewonnen sets.
+
+Alles hangt af van de richting en de kracht van je opslag.
+
+1 Bepaal de plaats waar je gaat serveren.
+
+Beweeg de richtingtoets naar links of rechts om de speler naar de
+serveerplaats te bewegen. Druk dan de richtingtoets omlaag, de speler
+laat de bal stuiten.
+
+2 Gooi de bal op.
+Druk op de (A)/(B)/(X)/(Y) toetsen op de bal op te gooien.
+
+42
+
+3 Bepaal de baan van de bal.
+
+Beweeg de richtingtoets onder het opgooien naar links of rechts en de
+bal gaat in de desbetreffende richting. Hoeveel de bal in de gewenste
+richting gaat, hangt samen met hoe lang de richtingtoets ingedrukt
+gehouden wordt.
+
+4 Sla de bal.
+
+Druk onder het opgooien de richti
+
+ts naar links of rechts om te
+tegenstander je de bal
+
+met toets (B) sla je
+
+te verder hij
+
+bepalen naar welke kan'
+
+Gebruik de richtingtoets ont
+verschillende spelers loopt ti
+agressief type beweegt snel na
+leys, een verdedigend type rent"
+
+enz.
+
+43
+
+===== Page 24 =====
+
+DE TOETSEN REGELEN DE
+KRACHT VAN DE BAL
+
+* SLAGKRACHT (B)
+
+Gebruik toets A (of de (Y) toets) voor een harde bal, of toets (B) voor
+een zachte bal, net als bij het serveren.
+
+Toets (X) lobt de bal hoog de lucht in, Leer het gebruik van de toetsen
+aan te passen bij de omstandigheden.
+
+* SOMMIGE SPELERS DUIKEN ZELFS
+NAAR DE BAL!
+
+Sommige spelers maken zelfs een duik om de bal terug te kunnen slaan,
+dit hangt af van de timing en de afstand. Maar wees voorzichtig: Het
+duurt even voordat ze weer opstaan nadat ze de bal geslagen hebben.
+
+HET SPELEN -
+
+DE SLAGEN ()
+KIES DE RICHTING WAARIN JE WILT SLAAN
+
+Je kunt de bal onder controle houden door bij het slaan van de bal de
+beweging van de richtingtoets te combineren met de timing.
+
+(1) De richtingtoets gebruiken.
+
+Je kunt de bal in verschillende richtingen slaan, de richting van de bal
+wordt bepaald door de richting waarin de richtingtoets gedrukt wordt,
+op het moment dat de bal geslagen wordt. Als je de bal naar de rechter-
+benedenhoek wilt slaan, sla je de bal en druk je de richtingtoets
+diagonaal rechtsonder omlaag.
+
+| EceicHitin ETRE AEHLER tHE
+(SHS
+44 is
+
+* FOREHAND EN BACKHAND
+
+Een forehandslag neem je aan de kant van je sterkste arm, een back-
+handslag neem je aan de tegenovergestelde kant. Zo wordt automatisch
+de positie van de speler ten opzichte van de bal bepaald.
+
+Het is belangrijk te weten dat het soort slag dat je voor een bepaalde
+speler gebruikt, afhangt van het feit of de slag een forehandslag of een
+backhandslag is. Het hangt van de tennisspeler af welke techniek je
+moet gebruiken, zoals het omdraaien voor een terugslag met een fore-
+hand enz., om de speler de slag te laten uitvoeren waarin hij of zij het
+beste is.
+
+SOORTEN SLAGEN
+
+Op bladzijde 41 werd uitgelegd dat er drie verschillende slagen waren -
+een harde slag, een zachtere slag en een lob -afhankelijk van welke toets
+er ingedrukt wordt. Het soort ballen dat er geslagen kan worden kan
+verder uitgebreid worden door een forehand of een backhand te slaan.
+
+De combinaties die er gebruikt moeten worden zijn ook van de tennis-
+speler afhankelijk. Probeer de beste slagen voor de verschillende spelers
+te vinden.
+
+(1) TOPSPIN
+
+Er wordt bij het slaan een spineffect aan de
+bal gegeven, waardoor hij sneller valt en
+hoger stuit.
+
+(2) EEN VLAKKE BAL
+
+Er wordt bij het slaan geen spineffect aan de bal
+gegeven Er is niets ongewoons, dus gaat de
+bal horizontaal en valt gewoon.
+
+45
+
+===== Page 25 =====
+
+* SMASH
+
+Wanneer er een hoge bal op je afkomt, ga er dan onder staan om hem te
+slaan; dit is een “smash”. De bal wordt met grote kracht geslagen.
+Wanneer je de bal slaat als je recht onder de baan van de bal staat en
+hem vanuit de beste positie raakt, wordt dit een “strobo smash”
+genoemd,
+
+(3) SLICE
+
+De bal wordt met een terugdraaiend effect gespeeld. Daardoor is het
+een langzame bal en stuit hij niet zo hoog.
+
+(4) LOB
+
+Een bal die hoog geslagen wordt. Deze stuit heel hog.
+
+TOERNOOIEN
+
+In de TOURNAMENT MODE boek
+je vooruitgang door 5 belangrijke
+evenementen te winnen. Je kunt
+enkel- of dubbelspel spelen.
+Alle evenementen bestaan uit
+matches van 1 set en de banen
+zijn vooraf bepaald. Het is de
+
+bedoeling dat je een Grand Slam maakt (je moet alle evenementen win-
+nen).
+
+1 HET SPEL STARTEN
+
+Selecteer TOURNAMENT op het MODE SELECTION scherm. Dan ga
+je naar het START scherm. Gebruik de richtingtoets om te selecteren en
+toets (A) om je keuze te bevestigen.
+
+Beginnen:
+
+Vana het moment dat je begint te spelen, kun je keuzes maken. Je kunt
+enkel- of dubbelspel spelen. Bij het dubbelspel mag je 1P&COM kiezen
+(samen met de computer een team vormen) of 1P&2P (samen met
+andere spelers een team vormen).
+
+Paswoord:
+
+Met deze optie kun je een paswoord invoeren, zodat je een toernooi
+later kan uitspelen.
+
+PROBEER EEN GRAND SLAM TE MAKEN!
+2 HET EVENEMENT BEGINNEN
+
+Net als in de EXHIBITION MODE, kun je uit 20 tennisspelers kiezen.
+Het evenement begint nadat je bepaald hebt welke speler je wilt zijn. De
+combinaties worden getoond, De speler die bovenaan staat, is de speler
+die je gekozen hebt. Druk op toets (A) en de match begint onmiddellijk.
+
+3 NA DE MATCH
+
+Wanneer de match afgelopen is, kun je het resultaat van de andere wed-
+strijden op het bord met het wedstrijdbeeld bekijken, als je dit wilt over-
+slaan gebruik je de START toets.
+
+Je wint het evenement door drie matches te winnen. Als je een match
+niet wint, moet je helemaal van voren af aan beginnen. Als je een Grand
+Slam gemaakt hebt, wordt het spel gewist.
+
+47
+
+===== Page 26 =====
+
+48
+
+PROBEER EERST EENS OP DE
+BAAN VAN NAMCO TE SPELEN
+
+DE GRASBAAN VAN NAMCO
+
+Een openluchtbaan die helemaal met gras bedekt is. De bal stuit laag op
+gras. Wanneer het gras netjes gemaaid is, ziet deze baan er heel chic uit.
+
+DE HARDE BAAN VAN NAMCO
+
+De harde baan is met cement, polyurethaan enz. verhard. Het is een
+standaard-baan, met weinig bijzonderheden, probeer het hier maar
+eens!
+
+DE GRAVELBAAN VAN NAMCO
+
+Als de bal stuit wordt de snelheid van de bal op deze baan minder, dus
+is het belangrijk om al vroeg
+
+aan het speciale gevoel van
+deze baan te wennen. Dit
+effect wordt nog meer
+geprononceerd wanneer de
+bal zacht geslagen wordt.
+
+EEN OVERZICHT VAN DEHANDELINGEN
+
+OPSLAG BEPAALPLAATS <—(+)—> BEWEGING (+) SLA BAL
+OPGOOI (X) / (A) / (B)) TOETS
+KANT VAN BAAN <—(+)—>
+SLA BAL KRACHTIGE OPSLAG (A) TOETS
+ZACHTE OPSLAG (B) / (X) TOETS
+
+SLAGEN VOETENWERK RICHTINGTOETS
+
+HARDE BAL (A) TOETS (SMASH WANNEER HIJ RECHT
+NAAR BENEDEN GESLAGEN WORDT)
+ZACHTE BAL (B) TOETS (SMASH WANNEER HIJ RECHT
+NAAR BENEDEN GESLAGEN WORDT)
+LOB (X) TOETS
+
+Noot: Toets (Y) functioneert hetzelfde als toets (A).
+
+5d
+CREDIT
+
+DESIGNER
+H. Yoshizawa
+
+PROGRAMMEUR
+T. Nakamura
+
+GRAPHICS
+S. Kanai and Y. Wagatsuma
+
+GELUID
+Y. Kawamoto
+
+PRODUKTCOORDINATOR EUROPA
+Mike Merren
+
+DESIGN & ARTWORK COORDINATOR
+Matthew Walker
+
+PRODUKTIE EUROPA
+Catherine Spratt & Rizwan Khan
+
+DESIGN HOUSE
+Mick Lowe Design
+
+49
+
+===== Page 27 =====
+
+ADVERTENCIA A EPILEPTICOS
+
+LEA ESTA ADVERTENCIA ANTES DE UTILIZAR SU SUPER NIN-
+TENDO ENTERTAINMENT SYSTEM O PERMITIR QUE SUS HIJOS
+LO UTILICEN.
+
+Un porcentaje muy pequeiio de personas sufre ataques epilépticos o su
+conocimiento se altera cuando se exponen a ciertos patrones de luz 0
+luces destellantes, incluyendo aquellos que aparecen en pantallas de
+television y en juegos de video. Es posible que estas personas no tengan
+un historial médico de ataques 0 epilepsia. Tome las precauciones si-
+guientes para reducir al minimo cualquier riesgo.
+
+ANTES DE UTILIZAR EL JUEGO
+
+* Si usted o cualquier miembro de su familia padecé de epilepsia o ha
+sufrido alteraciones en su conocimiento al exponerse a luces
+parpadeantes, consulte a su médico antes de jugar.
+
+Siéntese a 2,5 metros o mas de la pantalla del televisor.
+
+Si usted esta cansado o no ha dormido lo necesario, descanse y
+empiece a jugar solamente después de restablecerse completamente.
+
+* Asegtirese de que la sala donde juegue esta bien iluminada.
+
+*Utilice el juego con una pantalla de televisién lo mas pequefia posible
+(preferentemente de 14” 0 menos).
+
+DURANTE LA UTILIZACION DEL JUEGO
+
+*Descanse un minimo de 10 minutos cada hora mientras utiliza un
+video juego.
+
+*Los padres deben supervisar el uso que sus hijos hacen de los video
+juegos. Si al jugar un video juego usted a sus hijos presentan alguno de
+los siguientes sintomas: mareos, alteracién de la vision, contracciones
+oculares o musculares. pérdida de consciencia, desorientacién,
+cualquier movimiento involuntario o contusiones, interrumpa
+INMEDIATAMENTE la utilizacion del sistema y consulte a un medico.
+
+™
+
+Te esperan pistas rapidas, de hierba, tierra batida... jy otras de diver-
+sion muy especial! Pueden jugar 4 personas al mismo tiempo y el mane-
+jo es tan sencillo que tu habilidad para el tenis se refleja de forma direc-
+ta en el juego. Disfruta del partido en un ambiente relajado o ve a por el
+Grand Slam de la modalidad de torneo,
+
+* jElige tu modalidad de juego preferida!
+
+Hay dos modalidades para elegir: la primera es la modalidad de exhibi-
+ci6n, con pistas auténticas y especiales que te haran vivir la fantastica
+sensaci6n de jugar al tenis por el todo el mundo. Puedes competir con-
+tra un amigo 0 contra el ordenador. La segunda es la modalidad de tor-
+neo, donde puedes participar en un gran acontecimiento deportivo e ir
+a por el Grand Slam.
+
+* Tu eliges: jcuatro jugadores a la vez o tt solo!
+Jugar contra el ordenador es divertido, pero si quieres algo genial,
+retine a unos cuantos amigos. Juega contra otra persona 0 en parejas, si
+sois cuatro.
+
+COMIENZO DEL JUEGO
+
+Pulsa el bot6n START en la pantalla del titulo y aparecera la pantalla de
+SELECCION DE MODALIDAD. Haz tu eleccién y, a continuacién, escoge
+la forma del partido para poder empezar el juego. Utiliza el mando direc-
+cional para seleccionar, el botén (A) para confirmar tu decision, y el B
+para cancelar. El comienzo del juego en la modalidad de torneo es un
+tanto diferente, de modo que debes consultar las paginas 58 y 59.
+
+Exhibici6n
+Esta modalidad te permite elegir los tenistas y la pista para tu partido.
+Pueden jugar hasta 4 jugadores.
+
+Torneo
+En esta modalidad se avanza a medida que se ganan partidos. Con la
+“contrasefia” puedes continuar el juego en cualquier momento.
+
+51
+
+===== Page 28 =====
+
+52
+
+ELECCION DE LA FORMA DEL
+PARTIDO Y COMIENZO
+
+Opciones
+En el ment de opciones puedes seleccionar:
+
+Bola con rastro
+Elige si quieres que la bola deje una marca en el lugar que cae activando
+esta opcién (ON). De lo contrario, desactivala (OFF).
+
+Sonido
+Puedes elegir entre estéreo 0 mono.
+
+1 SELECCION DE PARTIDO
+
+Pueden participar de 1 a 4 jugadores, combinandose de la forma que
+desees. Cada jugador necesita su propio controlador. Para mas detalles,
+consulta el apartado “Para varios jugadores” (pagina 53).
+
+2 SELECCION DE TENISTA.
+
+Selecciona el tenista que quieras entre las 20 opciones posibles. Cuando
+juegan varias personas, cada una elige su tenista por orden y emplean-
+do su propio controlador; comienza el jugador 1. Si formas equipo con
+el ordenador, debes elegir un tenista para él.
+
+Los tenistas aparecen en blanco y las tenistas, en rojo.
+
+3 SELECCION DE PISTA
+
+Hay nuevo tipos distintos de pistas, cada una con sus caracteristicas y
+entomo propios.
+
+4 SELECCION DE SETS
+
+Selecciona el ntimero de sets. En un partido de 3 sets, el juego termina
+cuando un jugador o pareja ha ganado 2 sets. Si el partido es de 5 sets,
+hay que ganar 3. Cuando se haya seleccionado el ntimero de sets,
+empieza el juego.
+
+* Para varios jugadores
+
+Cuando se juega con tres o mds personas en el Super Nintendo
+Entertainment System, hay que utilizar el “Super Multi-Tap” o el
+“Multi-Adapter”. Asegtirate de que realizas las conexiones con el conec-
+tor 2. Para mas informaci6n, consulta el manual de instrucciones de los
+adaptadores anteriormente citados.
+
+VISUALIZACION DE LA PAN-
+TALLA Y ACCIONES BASICAS
+
+Las acciones de esta pagina describen el tipo de juego basico. Se pueden
+utilizar otras técnicas, como la sincronizacién al pulsar los botones y
+diferentes combinaciones, y los tipos de golpe varian dependiendo del
+jugador seleccionado.
+
+BOTON DIRECCIONAL BOTON (X) | BOTON (a)
+Controla el movimiento del Globo, lanzar al Bola fuerte; lanzar
+jugador y el curso de la aire. al aire.
+bola.
+BOTON START BOTON (Y) BOTON (8)
+Comienza el juego y aparece Elbot6n (Y) sirve para _| Bola floja; lanzar al
+el marcador al ira servir. lo mismo que el aire.
+
+botén (A)
+
+53
+
+===== Page 29 =====
+
+54
+
+j;APRENDE LOS CONTROLES BASICOS!
+
+Cada vez que consigues un tanto durante el partido, el marcador
+aparece en la pantalla. Cuando se pulsa el botén START en el momento
+del servicio, también aparece el marcador.
+
+Marcador
+
+Punto para el que sirve/Punto para el que recibe
+Reloj
+
+Tiempo del partido
+El tiempo desde el comienzo del partido.
+No incluye los momentos en que
+aparece el marcador.
+
+Puntos conseguidos/Juegos ganados Sets ganados
+
+COMO JUGAR -
+EL SERVICIO
+
+Un partido de tenis comienza con el “servicio”. Una vez que hayas
+aprendido a servir de forma potente en la direccion deseada, llevaras la
+voz cantante y podras controlar el curso del partido.
+
+La clave esta en cambiar la direccién y potencia de tu servicio
+1 Determina la posici6on.
+Mueve el mando direccional a izquierda o derecha para colocar al
+
+jugador en la posicién de servicio. Luego dale a la parte inferior del
+mando direccional y el jugador botaré la pelota.
+
+2 Lanza la pelota al aire
+Pulsa cualquier botén: (A)/ (B) / (X)/ (Y) para lanzar la bola al aire.
+
+ja bola hacia uno u otro lado.
+
+3 Determina la trayectoria
+
+eve el mando direccional a izquierda o derecha durante el lanza-
+ento al aire y la bola iré en una u otra direccién. Cuanto mas tiempo
+antengas pulsado el mando direccional, mayor seré la inclinacién de
+
+4 Golpea la bola
+
+aire, pulsa el mando direccional
+lado de la pista hacia
+
+un lanzamiento
+
+pelota cuando la
+
+55
+
+===== Page 30 =====
+
+56
+
+BOTONES QUE CAMBIAN LA
+POTENCIA DE LA BOLA
+
+*POTENCIA DE GOLPE (B)
+
+Al servir, utiliza el botn (A), 0 el (Y), si quieres una bola potente y el
+botén (B) para una floja. Con el bot6n (X) conseguiras una volea alta o
+globo. Aprende a usar los botones de acuerdo con las circunstancias.
+
+* jHAY JUGADORES QUE INCLUSO
+SE TIRAN AL SUELO A POR LA BOLA!
+
+Algunos jugadores se tiraran al suelo para devolver una bola, pero
+dependera de la sincronizacién y la distancia. Sin embargo debes tener
+cuidado porque les cuesta un poco volver a levantarse.
+
+COMO REALIZAR LOS GOLPES (2)
+* PARA ELEGIR LA DIRECCION DE LA BOLA
+
+Puedes controlar la bola combinando movimientos del mando
+direccional y con sincronizacién para golpear la pelota.
+
+(1)EI empleo del mando direccional
+
+La parte del mando direccional que utilices en el momento de golpear la
+pelota determinara su direccion. Si quieres que la bola vaya hacia la
+esquina, golpea la pelota con la diagonal inferior derecha del mando
+direccional pulsada.
+
+*DIRECTOS Y REVESES
+
+Un “directo” es un golpe dado con la palma de la mano encarando la
+direccién del golpe y un “revés” es un golpe horizontal que se inicia
+desde el lado opuesto al brazo con que se realiza y el dorso de la mano
+encara la trayectoria de la pelota. La posicién del jugador con respecto a
+la bola se determina de forma automatica.
+
+Lo importante es que un mismo golpe variaré dependiendo de si es un
+directo o un revés, Cada jugador necesita técnicas distintas para efec-
+tuar el golpe que se le da mejor, como puede ser devolver la pelota con
+un directo, etc...
+
+TIPOS DE GOLPES
+
+A continuacién se mencionan tres tipos de golpes: potentes, flojos y glo-
+bos, que se consiguen pulsando distintos botones. También influye el
+que sea un directo 0 un revés.
+
+Las combinaciones también varian dependiendo del jugador. Prueba los
+distintos jugadores para encontrar cuales son sus mejores golpes.
+
+(1)EFECTO
+
+La bola lleva un efecto que le hace caer
+més deprisa y cae normalmente.
+
+(QINORMAL
+
+La bola no lleva efecto y_por tanto
+se eleva recta y botar mas alto.
+
+57
+
+===== Page 31 =====
+
+*MATE
+
+Cuando la bola viene hacia ti, te colocas justo debajo para golpearla y a
+esto se le llama “mate” o “smash”. Son golpes de gran potencia.
+Cuando golpeas justo bajo la pelota, en la mejor posicién, consigues un
+“strobo smash”.
+
+(3)EFECTO OBLICUO
+Se golpea la bola cuando va alta, y el bote es elevado.
+
+(4)GLOBO
+
+La bola lleva efecto hacia atras. Es ms lenta y el bote es bajo.
+
+TORNEOS
+
+En la modalidad de torneo avanzas al ir ganando 5 acontecimientos
+deportivos importantes. Se puede jugar en la modalidad de indivi-
+duales o dobles. Todos los acontecimientos deportivos son partidos de 1
+set y las pistas se deciden de ante-
+mano. Tu objetivo es el Grand Slam
+(ganar todos los grandes aconte-
+cimientos deportivos).
+
+1 COMIENZO DEL JUEGO
+
+Selecciona TORNEO en la pantalla de SELECCION DE MODALIDAD.
+Entonces pasards a la pantalla de COMIENZO. Utiliza el mando direc-
+cional para hacer las selecciones y el botn (A) para confirmarlas
+
+Principio:
+
+Puedes elegir las opciones que quieras desde el momento que empiezas
+a jugar. Puedes participar en partidos individuales o dobles. En la
+modalidad de dobles es posible formar equipo con el ordenador 0 con
+otra persona.
+
+Contrasena:
+Te permite introducir una contrasefia para continuar el torneo en otro
+momento.
+
+jA POR EL GRAND SLAM!
+
+2 COMIENZO DEL ACONTECIMIEN-
+TO DEPORTIVO
+
+Al igual que en la modalidad de EXHIBICION, puedes elegir entre 20
+jugadores. El acontecimiento deportivo comienza una vez que has selec-
+cionado a tu tenista. Apareceran las combinaciones posibles, y el tenista
+que has elegido estard en la parte superior. Pulsa el bot6n (A) y dara
+comienzo el partido.
+
+3 AL FINAL DEL PARTIDO
+
+Cuando el partido se ha acabado, podras ver en un tablero los resulta-
+dos de los otros participantes. Si quieres saltarte estas imagenes, pulsa
+el botén START.
+
+Consigues un acontecimiento deportivo cuando ganas tres partidos. Si
+fallas en uno, tienes que volver a empezar el acontecimiento deportivo
+desde el principio. Si consigues el Grand Slam, las victorias conseguidas
+no se acumulan, sino que en caso de querer seguir jugando, lo harias de
+nuevo desde cero.
+
+59
+
+===== Page 32 =====
+
+PRUEBA EN LAS PISTAS NAMCO
+PISTA NAMCO SOBRE HIERBA
+
+Una pista al aire libre completamente cubierta de hierba. El bote de la
+bola sera menor. Cuando el césped de la cancha esta en buenas condi-
+ciones, ésta tiene un aspecto magnifico.
+
+PISTA RAPIDA NAMCO
+
+La pista rapida puede estar construida con cemento, poliuretano, etc...
+Es una pista normal con ciertas peculiaridades, asi que qué tal si
+empiezas por aqui?
+
+PISTA NAMCO SOBRE
+
+TIERRA BATIDA
+
+El bote de la pelota es mucho
+mas lento, asi que es impor-
+tante acostumbrarse pronto a
+la sensaci6n que produce
+jugar en esta pista. La pelota
+adquiere mas efecto si es
+golpeada suavemente.
+
+60
+
+RESUMEN DE LAS ACCIONES
+
+POSICION <—(+)—> MOVERSE (+) GOLPEAR BOLA
+LANZAR AL AIRE BOTON (X)/(A)/(B)
+
+LADODELAPISTA <—(+)—>
+
+GOLPEARBOLA — SERVICIO POTENTE BOTON (A)
+SERVICIOFLOJO  — BOTON—_(B)/(X)
+
+SERVICIO
+
+GOLPES JUEGO DE PIERNAS MANDO DIRECCIONAL
+POTENTE BOTON (A) (MATE CUANDO SE
+DA HACIA ABAJO)
+FLOJO BOTON (B) (MATE CUANDO SE
+DA HACIA ABAJO)
+GLOBO BOTON (X)
+
+Nota: El boton (Y) sirve para lo
+mismo que el boton (A).
+
+a?
+
+Créditos
+
+Disenador
+H. Yoshizawa
+
+Programador
+T. Nakamura
+
+Graficos
+S. Kanai and Y. Wagatsuma
+
+Sonido
+Y. Kawamoto
+
+Coordinador del Producto en Europa
+Mike Merren
+
+Coordinador del Disefio e ilustraci6n
+Matthew Walker
+
+Produccién en Europa
+Catherine Spratt & Rizwan Khan
+
+Disenado
+Mick Lowe Design
+
+61

@@ -1,0 +1,626 @@
+# Mega Man X
+source: https://archive.org/details/snes_manual_archive
+pdf: Mega Man X (USA) (Rev 1).pdf
+region: USA, Rev 1
+pages: 13
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+WAN 2X
+
+A SPECIAL MESSAGE FROM CAPCOM
+
+“Thank you for selecting MEGA MAN X, the newest addition to
+the Mega Man saga. Following the success of the original Mega
+Man series, MEGA MAN X introduces an all new Mega Man for
+the Super Nintendo Entertainment System.
+
+Using the latest in 16-Bit technology, MEGA MAN X features
+colorful state-of-the-art high resolution graphics and stereo sound.
+‘We at CAPCOM are proud to bring you this newest addition to
+the Mega Man universe.
+
+Yours Truly,
+
+ep Mie
+
+Joe Moric
+Senior Vice President
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION & PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO” HARDWARE SYSTEM OR GAME PAK.
+
+‘CAPCOM US A Gintenstd) Rgroneeammenuce cme
+ott Soulevrd Segre attoscrs een extn aes
+SintaGhr.en soos tas Rata anal Set dao
+
+TABLE OF CONTENTS
+=e == <8 ==
+
+- © =e =.
+
+‘TABLE OF CONTENTS ..
+
+A SPECIAL MESSAGE FROM CAPCOM......
+
+SAFETY PRECAUTION:
+
+GETTING STARTED...
+
+DR. CAI
+
+JOURNAL...
+
+BASIC CONTROL FUNCTIONS ..
+
+POWER SYSTEMS
+
+WEAPON SYSTEMS ..
+
+SYSTEM STATUS SCREENS.
+
+DR. LIGHT’S DESIGN NOTES ..
+
+OPTION MODE,
+
+PASSWORD SCREEN
+
+‘THE MAVERICKS.
+
+WARRANTY INFORMATION...
+
+MEGA MAN STRATEGY NOTES...
+
+eo
+
+soo D1-23,
+
+===== Page 3 =====
+
+a
+
+Follow these suggestions to keep your MEGA MAN X Game Pak in
+perfect operation condition,
+
+DO NOT subject your Game Pak to extreme temperatures, either
+hot or cold. Always store it at room temperature.
+
+DO NOT touch the terminal connectors on your Game Pak.
+Keep it clean and dust-free by always storing it in its protective
+plastic sleeve.
+
+DO NOT try to disassemble your Game Pak.
+
+DO NOT let your Game Pak come into contact with thinners,
+solvents, benzene, alcohol, oF any other strong cleaning agents,
+that can damage it.
+
+GETTING STARTED
+
+=e =© =s =<© =© = =© =<
+
+Insert your MEGA MAN X Game Pak into your Super
+Nintendo Entertainment System and turn the power ON.
+‘Watch the screen closely as Dr. Cain examines X's design
+specifications or press the START button to skip to the
+tile sereen.
+
+|. When the title sereen appears, you will see the following choices:
+
+GAME START, PASSWORD and OPTION MODE. Use the
+control pad to move X next to the GAME START and press the
+START button,
+
+(For an explanation of the PASSWORD and OPTION modes
+please refer to the Password and Option Mode sections which
+appear later in this manual.)
+
+When the next screen appears, X will teleport into the city and
+attempt to track down the location of the mavericks.
+
+‘To end X’s quest at any time, simply turn the power on your
+‘Super Nintendo Entertainment System OFF and eject your
+Game Pak.
+
+===== Page 4 =====
+
+THE JOURNAL OF DR. CAIN
+
+=© 2 -2 == =e =© =e =e -<
+
+THE JOURNAL OF DR. CAIN conr.
+<. <9 =e =e =© =6 =e ==
+
+Aprit 80h
+Still nothing. For the last month, I have been sifting through
+the dirt trying to find a fossil record which would verify my
+findings on Mesozoic plant life, but so far Ihave come up
+empty. Tomorrow, I'll move my archaeological dig to a
+new site. Maybe I'll have better luck.
+
+April 9th
+Set up camp atthe new site and laid out a preliminary gridwork
+forthe dig I got some odd readings at location E-46. It ]ooks
+like something metallic is buried several meters below the
+surface. I think I'l begin there tomorrow.
+
+Apri 10th
+
+| can’t believe what | found! Several meters below the
+surface was the remains of @ lab, Although most ofthe lab
+was damaged, I did manage to find papers that indicate that it
+belonged to the famous robot designer, Dr. Thomas Light,
+I've begun to review what is left of Dr. Light’s notes and it
+Jooks like he was onto a major breakthrough. The notes
+
+keep referring to “the capsule”...
+
+April 13th
+I found it. Standing 14 meters high and 8 meters wide, the
+capsule was hidden underneath a collapsed ceiling. Even
+‘underneath all the rubble, the capsule has remained intact
+and was still running some sort of diagnostic when I found it.
+‘There is a waning on the capsule, but all the indicators on
+
+the capsule show green. It should be safe to open it.
+
+April 4th
+‘Today I met “X". Not simply a robot, X is something totally
+different. Light has give him the ability to think and make
+his own decisions. At times, X seems more like a man than
+like a machine,
+
+Apri 15th
+Light was a genius! I've been going over his design notes and
+they are a quantum leap beyond anything the world has ever
+seen. Using them as a guide, I may be able to replicate his
+design and integrate them into a new generation of robots.
+
+’il begin transporting X and the rest of Dr, Light’s things
+
+eo
+
+===== Page 5 =====
+
+THE JOURNAL OF DR. CAIN cov.
+=e = == <0 <0 =0 Se -e -«
+
+JOURNAL OF DR. CAIN conr.
+=e =© =0 =© =8 =© =0 «© =<
+
+November 22nd
+
+With X’s help I have completed my first “Reploid.” Although
+don't completely understand how all of Dr. Light's systems
+‘works, [ was able to make some minor modifications and the
+reploid seems to be functioning perfectly. His strength and
+intelligence seem limitless and he is fully able to make his
+‘own decisions. Infact, we got into our first argument
+
+SS
+
+January 3rd
+
+‘The new reploids have been running off the assembly line for
+several weeks. It’s amazing how easily they have been able to
+adapt to even the most difficult jobs. It till is a bit odd to see
+them working side by side with humans, but everyone seems
+to be happy to accept them.
+
+February 16th
+
+‘Three reploids went “maverick” today and injured two people
+before they were stopped. This is the third instance of this type
+of behavior and I still have no idea of what is causing it! There
+is some talk about stopping the assembly of any more reploids,
+but I don’t think it will happen. Maybe we've become t00
+‘dependent on them...
+
+‘The council has now decided to set up a group of “Hunters”
+to destroy any maverick before it can cause injury. The reploid
+named Sigma has assigned to lead the Hunters. Sigma is one
+Of the most intelligent reploids I’ve created and contains my
+latest circuit His systems should be immune 10
+any problems.
+
+May 16th
+
+It’s been two months since Sigma took control of the Maverick
+Hunters and he and his hunters have been able to prevent any
+further injury to the population. Everyone is starting to breath
+a little bit easier...
+
+Lam alittle worried about X. He seems unsure of his place in
+
+life and wi Light had planned for him. But given time,
+Se
+
+ov
+
+===== Page 6 =====
+
+THE JOURNAL OF DR. CAIN cowr.
+2 =e =© =e == -© <0 == -«
+
+June sh
+
+‘My worst nightmare has just come true. Sigma went maverick
+today and took most of the other hunters with him, His motives
+are unclear, but it seems that he “decided” that humans are
+inferior and limiting the growth of the Reploids. For that
+reason, he decided that all humans should be eradicated,
+
+‘Most of the population i in hiding or trying to fle the city.
+Pm not sure how long we can hold out against Sigma’s forces.
+| fear I've built the reploids too well
+
+X is taking the news of the war very personally. He wants to
+join ZERO, the new leader of the Maverick Hunters, when he
+‘goes afier Sigma. I’m doubtful oftheir chances, but I won't
+stop him. Something has to be done...
+
+BASIC CONTROL FUNCTIONS
+
+2 40 <2 =e == =0 =e =< <<
+
+TO MOVE LEFT OR RIGHT: Press the control pod LEFT
+or RIGHT.
+
+TO JUMP: Press the B button
+
+TO RUN or DASH: Press the A button oF press,
+forward twice.
+DESIGN NOTE: Running is
+only possible if equipped with
+Emergency Acceleration System.
+(Optional)
+
+TO FIRE THE X-BUSTER: Press and hold the Y button.
+Weapon charge increases until
+Y button is released,
+
+TO SWITCH WEAPONS: Press the L button or R button
+to cycle through available
+weapon systems.
+
+TO CLIMB A WALL: Jump against the wall and press,
+the B button repeatedly.
+
+TO VIEW SYSTEM STATUS: Press the START button.
+
+===== Page 7 =====
+
+?OWER SYSTEMS
+
+2 == =© =e =2 =<
+
+X is powered by a micro-fusion fuel tank. His current energy
+level is indicated by an energy meter in the upper left comer of
+
+the screen, Each time X is damaged his energy meter will decrease.
+[fall his energy is lost, X’s fusion generator will go critical and
+explode. However, energy depletion can be avoided by collecting
+standard energy capsules. Using the capsules to increase the energy
+‘meter, X should be able to function indefinitely
+
+ENERGY METER
+
+& POWER CAPUSLE
+
+X also has the ability fo carry up to four sub-tanks which will store
+‘an emergency energy supply. Once equipped with a sub-tank, any
+energy capsule which is collected while X’s energy My
+meter is full will automatically be transfered to a
+
+sub-tank. Energy can be transfered from the
+sub-tank to X’s main energy meter by using
+the system status sereen. Press the START
+button o activate the system status sereen
+and then highlight a sub-tank.Once it
+highlighted, press the ¥ button
+
+to drain the tank.
+
+eo
+
+‘The X-Buster and its integrated Variable Weapon
+System are a major step forward from earlier
+
+‘Mega Buster designs. Shot power has Nes
+been increased and X is now able to 4
+switch 10 other weapon systems us
+the L and R buttons.
+
+1g
+
+Weapons from deactivated robots,
+‘can be adapted for use with the
+X-Buster, The weapon power level
+for the active special weapon is shown
+to the right of Xs main energy meter. Each time
+the special weapon is fired, the weapon's power level will
+
+decrease, By collecting weapon capsules, X can recharge the current
+special weapon and avoid a total loss of special weapon power. If X
+is not currently using a special weapon when he collects a weapon
+‘capsule, the energy will automatically be allocated to the weapon
+with the lowest energy level
+
+WEAPON POWER LE’
+
+Ww
+
+===== Page 8 =====
+
+‘ATUS SCREE)
+
+X's internal system status screen can be viewed by the START
+button. Using this screen, X can monitor his various power levels.
+‘The screen shows all special weapons available and their power lev-
+cls, It also indicates X"s main energy meter, sub-tank energy level
+and lives remaining,
+
+SPECIAL WEAPONS — ENERGY LEVELS
+
+SUB-TANKS
+
+ENERGY LEVELS. LIVES REMAINING
+
+MAIN ENERGY METER
+
+Once the system status screen appears, use the control pad 10
+highlight any of the weapons and press the START button,
+‘When X returns to the main screen, he will be armed with
+that weapon,
+
+DESIGN NOTE:
+X is also equipped with an escape unit
+which can only be activated if X has
+already cleared an area. If the area
+hhas not been cleared, the unit will
+
+not function.
+
+DR. LIGHT’S DESIGN NOTES
+
+= 2 =e =e == =-© =e =© ==
+
+I've just come up with a new design that will increase X’s
+energy capacity. By collecting heart tanks, X’s energy meter
+ill instantly increase in size. This will allow him to take
+‘more damage than before
+
+T. Light
+
+X's escape unit will allow him to teleport out of any area in
+‘which he has already cleared of robots. This will alow him to
+explore some areas more fully without the need to travel to the
+end of the area.
+
+T. Light
+
+‘As most everyone know, most robots have a weakness 10 4
+certain types of weapon. X can now switch special weapons
+rapidly during battle using the L and R button. This will
+simplify the process of finding which weapon will do
+
+the most damage,
+
+1. Light
+
+===== Page 9 =====
+
+DR. LIGHT’S DES
+
+- =e =e == =
+
+Using the Emergency Acceleration System to reach top speed,
+X should be able to leap more than twice as far as normal.
+This should allow him to get past many obstacles.
+
+7. Light
+
+Similar to the Mega Buster, the X-Buster allows the user to
+take an existing weapon system and use it with the X-Buster.
+However, unlike the original Mega-Buster there isthe
+possibilty of charging these other weapon system to increase
+their range and power. This capability does not yet exist,
+
+but [will add the modification later.
+
+ENE AUP a
+
+PASSWORD MODE
+
+<0 © == =e <0 <0 ==s =« =«
+
+‘The password mode allows player to enter a password they have
+received and continue playing from that point in the game.
+
+When X defeats one of Sigma’s maverick reploids, a grid with 12
+‘numbers will appear. Copy down the numbers as they appear on
+the grid and then store the password in a safe place.
+
+‘The next time you play the game you can enter in the password.
+and return to that point in the game, Here’s how:
+
+|. On the title sereen, select PASSWORD and press the
+START button.
+
+2. When the grid appears, use the ¥ and B buttons to enter in the
+first number from your password. Once you have the correct
+number in the box, use the control pad to move to the next box.
+
+3, After you have entered in all the numbers, press the START
+button. If you have entered in a correct password, the game will
+return to the point at which you received the password
+
+oe
+
+===== Page 10 =====
+
+When the titles
+
+THE OPTION MODE
+
+"en appears, push
+
+the control pad up or down to move
+the marker next to OPTION MODE.
+and press the START button, When
+the next sereen appears, push the
+‘control pad up or down to highlight
+the option you wish to change.
+
+KEY CONFIG.
+
+SOUND MODE
+
+BGM:
+
+EXIT
+
+This option allows you to change the settings for
+the different buttons used in the game.
+
+Highlight the action you wish to change and
+then press the button you wish to use. It will
+change automatically
+
+‘This option allows you to select either STEREO.
+or MONAURAL sound,
+
+Push the control pad left or right to highlight
+the option you wish to use
+
+This option allows you to hear the various
+Background Music used in MEGA MAN X.
+Press the control pad left or right fo change
+
+the number and then press the ¥ button to hear
+the music,
+
+This option allows you to hear the sound effects
+used in MEGA MAN X,
+
+Press the control pad left or right to change the
+number and then press the Y button to hear the
+sound effect.
+
+Highlight this option and press the START
+button to exit the OPTION MODE.
+
+ov
+
+= =
+can rani (oa | Caeser]
+
+ak
+
+Svc cmoreceon|[ stom naan
+
+RAG
+
+iawemaunorn | [Rooweenewaveen|[ sows
+
+ov
+
+| [eons
+
+===== Page 11 =====
+
+WARRANTY INFORMATION
+
+== =e =© =e =e =© =© =0 =<
+
+CAPCOM US A. re: (Capcom warrants othe orginal consumer that tis Capoom
+Game Pak (PAK) shal'be Wee fom deters material and wrkmanshi or a petod of
+Saye om cl purchase le cv gw ext ig he 0
+‘ay warranty pard, Capcom wi repair oreplace the P
+
+‘To recove this waranty service:
+
+1, DONNOT retum your defective Game Pak to the retalr
+2. Notily the Capcom Consumer Serie Department ofthe pcb requting warranty
+Eerie by caling (408)727-1685. Out Consumer Service Deparment in operation om
+‘B00 AM 10500 PM. Paci Time, Mocday trough Fay
+
+2. the Capcom servos technician i unable to solve the problem by one he wil
+‘rovde you wit elu Authetaton number Spy record ts Rober on he outside
+ackaging of your defectve PAK, and rtum your PAK froight propa at your rsk ot
+‘amageogethor wth your sles sip o ssa root purchase win the 90-day
+waranty peed
+
+CAPCOM USA. tne
+
+‘his warany sao ap ft Pa has ben canons yrelgencs, ssn,
+ronson ry oer causes unrelated io the detective
+maneorecreiane
+[REPAIRS AFTER EXPIRATION OF WARRANTY:
+ite PAK develops aprblem ater the 90-day warranty period, you may contact he
+‘Capcom Consumer Saves Department at the phone number ned previously I the
+Py
+
+‘nil te option, subject othe conditens above, ropa the PAK or tplace wth anew oF
+
+‘epaied PAK. eplaement PAKS are nt avaiable the deloive PAK wil bo rturied
+
+‘ad the $15.00 payment relunded
+
+WARRANTY LIMITATIONS:
+
+[ANY APPLICABLE IMPLIED WARRANTIES, INCLUDING WARRANTIES OF
+
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE HEREBY
+
+LuITED TO NNETY DRS FROM THE DATE OF PURCHASE AND ARE SUBIECT 0
+‘THE CONDITIONS SET FORTH HEREIN. IN NO EVENT SHALL CAPCOM BE LIABLE
+
+FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES RESULTING FROM THE
+
+[BREACH OF ANY EXPRESS OR IMPLIED WARRANTIES.
+
+The provost waranty ae vain he Une Sates, See tates ak
+
+‘loa lmsators on how ong an imped warany lass oF exclusions ot
+‘tinal arage, oe dow entatone and reson ray Nt op Yu. TS
+‘waranty gives you space legal ight, and you may have eter ras wich ary om
+
+eo
+
+-
+
+MEGA MAN STRATEGY NOTES
+
+- <2 =e =<© =e =2 == <=
+
+===== Page 12 =====
+
+MEGA MAN STRATEGY NOTES MEGA MAN STRATEGY NOTES
+
+= =0 =e =© =© =e =e =e =< =e =8 20 © <0 <2 ==s <« ==
+
+===== Page 13 =====
+
+POM USA. Ine.
+amer Service Departinent
+343 Scott Boulevard
+ma Clara, C9808
+
+Game Counselors Avitabile
+8:00 10 5:00 PM (PST)
+408.727.1665
+
+CAPCOM PASSWORD & CODE LINE.
+1900-680-2583
+
+95e for the fest minute.

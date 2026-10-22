@@ -1,0 +1,688 @@
+# The Incredible Hulk
+source: https://archive.org/details/snes_manual_archive
+pdf: The Incredible Hulk ( PAL ).pdf
+region: PAL
+pages: 13
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+_ INSTRUCTION
+BOOKLET
+
+===== Page 2 =====
+
+Windia saa batt
+
+introduction
+
+oP ee ee 2
+ee RR ae 2
+Options Screen ........ eer 3
+UOCTE LAYOUT ..........-..2.cccseccctecnenesncgtetertsce00t ooo =r 3
+OO EL ees: Neier ie acs ee 3
+0 SS ee ee. 3
+le ee eee ee ee 3
+Ce 2 ee ee 4
+LEE CSET IDULONS soos oe eee Pr ee cere vecas de vege eedgesetea+-a2eeenwceeceseemeonnes 4
+ESS ee 7
+Be a eee 7
+Fn ee eee ee kas -eeee 11
+SO ne ooh es 12
+Ne READ BEFORE USING YOUR NES, SUPER NES OR GAME BOY SYSTEM
+
+4 wery sme) proportion of the population may experience epileptic seizures when viewing certain kinds oF
+*z2smme@ ights and patterns commonly present in our daily environment. These persons may experience
+s@mures while watching some kinds of television pictures or playing certain video games, including games
+played on the > NES, Super NES and Game Boy systems. Players who have not had any previous siezures may
+mome the less, have an undetected epilectic condition. Consult your physician before playing video games if
+yOu, OF @myone in your family, has an epileptic condition. IMMEDIATELY discontinue use and consult your
+Dhywsc en | you experience any of the following symptoms while playing video games: altered vision, eye
+or muscle twitching, other involuntary movements, disorientation, loss of awareness of your surroundings
+
+ment comfusion, dizziness, sickness, and/or convulsions.
+
+WARNING: DO NOT USE WITH FRONT OR REAR PROJECTION TV
+
+Dio mot use 2 front or rear projection television with your Super Nintendo Entertainment System (“SNES”) and
+
+SWES games. Your projection television screen may be permanently damaged if video games with stationary
+mes Of Detternms are played on your projection television. Similar damage may occur if you place a video
+
+om Soc or pause. If you use your projection television with SNES games, neither Nintendo nor U.S.
+
+able for any damage. This situation is not caused by a defect in the SNES or SNES games;
+
+etitive images may cause similar damage to a projection television. Please contact your TV
+
+further information.
+
+ia)
+
+u
+4
+m mb
+'
+1
+(7
+Oo wm
+
+4
+
+moO @
+
+1 9 Gi
+7 @
+0
+al
+‘ ‘
+0
+
+i
+i
+ny
+; ce
+f | m
+t
+5
+m Oo
+5
+‘
+
+===== Page 3 =====
+
+Introduction
+
+Dr. Robert Bruce Banner™, a top nuclear physicist, was caught in the blast
+from an atomic explosion while trying to save his close friend Rick Jones™.
+Having been exposed to a massive dose of gamma radiation, Dr. Banner’s body
+chemistry was inextricably altered. Now, a mutated, huge green monster with
+super-human strength, he is — ‘The Incredible Hulk™’...
+
+Scenario
+
+One of Hulk’s greatest foes, The Leader™, has decided that Earth should be
+conquered and ruled only by someone of his superior intellect.
+
+He has constructed a huge fortress deep within a savage forest and from this
+base he is building a vast army to march against the nations. This army,
+however, is not made up from humans, as he distrusts their loyalty. Instead he
+has manufactured a battalion of robots, which shoot first and don’t bother to
+ask questions. Even more fearsome are the genetically engineered mutants
+assigned to patrol and protect the nerve centre of his fortress.
+
+With such a formidable taskforce, The Leader knows that only the sheer power
+of The Hulk can stop him. Even with his great intellect, he cannot ignore The
+Hulk’s brute strength, quile and determination, as previous encounters have
+seen The Leader running for his | ite.
+
+With this in mind, The Leader has enlisted the help of four of Hulk’s arch rivals
+- Rhino™, Absorbing Man™, Abomination™ anc Tyrannus™ - With their
+help, The Leader is confident that he will finally be rid of his enemy and free to
+conquer the world...
+
+Starting up your System
+i. Make sure your Super NES is OFF
+2. Plug a Control Pad into the port labelled 1 on the Control Deck.
+
+3. Insert The Incredible Hulk Game Pak into your Super NES. Press firmly to
+lock the Game Pak in place.
+
+WARNING: Never try to insert or remove a Game Pak when the
+
+power is ON.
+4. Turn the power switch ON. Press any button and the Main Menu will
+appear. You are reacy to Degin the fight against The Leader as The
+
+Incredible Hulk.
+
+===== Page 4 =====
+
+Options Screen
+To access this menu, highlight ‘Options’ and press Start. You can change the
+
+difficulty setting (Easy, Normal, Arcade) and listen to Music and Sound FX. To -
+return to the Main Menu highlight exit and press Start.
+
+Screen Layout
+
+1 2 3 4
+
+core
+
+ae 4
+
+amma Level
+
+~
+G
+
+*
+
+to. of Lives
+
+_ No. of Transformations
+Energy States
+
+The D ayer exists in one of 4 energy states; Dr. Banner, Hulk, Super-Hulk or
+Hulk-Out.
+
+Super-Hulk - You start the game in Super-Hulk mode. Getting hit reduces your
+
+samme evel and when it drops below 40% you are reduced to requiar Hulk
+mode.
+
+Hulk - in this energy state you only have a basic set of moves. When your
+Gamma ‘evel rises above 40% you are transformed into Super-Hulk mode. /* =
+“2 S De ow 5% you turn back into Dr. Banner.
+
+Dr. Banner - In this state you cannot fight, although you can enter areas of the
+map mot accessible to The Hulk. To turn back into Hulk you must collect
+™owgn Gamma capsules to restore your Gamma level above 5%.
+
+Hullk-Out - If you pick up a Mega Gamma as The Hulk, your Gamma leve!
+=eceecs 70% and you transform into Hulk-Out mode, becoming even more
+SeSuctwe and powerful and acquiring special abilities.
+
+fs
+
+mt
+
+Garnmma
+
+72 me ntein Hulk status you need energy surges from Gamma capsules, found
+™ comteinmers scattered around each level. You must destroy these containers to
+"ewe the capsules and walk over them, using the pick-up button (button A) to
+comect the Gamma energy.
+
+=r are 2 types of Gamma - Normal and Mega. Normal Gammas will increase
+your energy level to a maximum of 70% (or restore Hulk status if you have
+22m transformed into Dr. Banner). Picking up a Mega Gamma is the only way
+to tee the Hulk into Hulk-Out mode.
+
+Transformation
+YOu c2n 2'So pick up Transformation Capsules, hidden throughout each lewe
+These eneD =< you to transform at will from Hulk to Dr. Banner without lose 5
+
+=né"oy. SO that you can explore areas not accessible to Hulk.
+
+===== Page 5 =====
+
+Hulk's Moves
+
+Og Res ee eee Sn ee EN Left/Right on D-Pad
+
+FING ..2 ae a le Eee Rate ees Meter Button B
+
+Crouch Sa Down on D-Pad
+
+| Ss a Pe eee Button Y
+
+SID... cxca--smcstaiineap epee eee —— Up + Button Y
+
+UDDCTOU st seveans oe Down + Button Y
+
+Rep Ob ject.......2.:.-- eee _.....Button A
+
+Pick-up Object + Throw Close Proximity + Direction
+(Left or Right) + Button A
+
+Greeciemy .........--.-----——_ — Glose Proximity
+
+Grab Enemy + Drop__— ee Close Proximity + Button X
+
+Grab Enemy + Throw Close Proximity + Direction
+(Left or Right) + Button A
+
+Headbut Close Proximity + Button Y
+
+Co a Button X
+
+Transform .cacemee a — ___ ___—_Sefect Button
+
+Super-Hulk Moves
+
+Ceiling Smash..............-. Close Proximity to Grab + Up
++ Button A
+
+Sonic dap. Buttons X+A together
+
+Foot Mash -_......._.__. — Down/Up/Down + Button X
+
+Hulk-Out Moves
+
+When the Hulk is transformed into Hulk-Out mode he becomes a savage,
+uncontrollable beast with immense power. No man has witnessed The Hulk in
+this awesome form and lived to tell the tale, so you will have to figure out how
+to control him for yourself. ..........-----.1--+++-
+
+Dr. Banner’s Moves
+
+WH ics ee Left/Right on D-pad
+SUING 3. Sac so eh ts Button B
+
+GaSe ets ee Down + Left/Right on D-pad
+Pick-up Object..............:cuece ee eee Button A
+a ee er hit se Button Y
+
+Re-start Level
+Pause Game (press START), then press X+Y together (you will lose one life)
+
+Level Descriptions
+En route to The Leader’s lair you wil! encounter five different sections, each
+
+===== Page 6 =====
+
+with its own distinguishing characteristics and cast of villains. Abomination
+will challenge you at key points in every section. This formidable foe matches
+The Hulk in strength and durability and may only be defeated by using
+advanced moves or going Hulk-Out.
+
+Extra lives and extra credits are well hidden throughout the game, usually in
+bonus rooms or places only accessible in Hulk-Out mode.
+
+Level 1 City & Construction Site
+
+At the start of the Hulk’s adventure you find yourself in the middle of a city
+overrun by The Leader's troops.
+
+Robots armed with guns and bazookas.
+
+Cement-m xer man - a construction worker.
+
+Abomination
+
+The Boss: Rhino
+
+Rihimo ss weiting for you at the end of the Construction level. He will charg
+you fiercely but the right blows should easily defeat him.
+
+Gamme Containers: Wooden crates
+Other objects: Phone booths and Jeeps, to be picked up and thrown. ("Vote
+
+m
+Oo
+
+Jeens cen only be picked up in Hulk-Out mode.)
+
+Lewel 2 Tyrannus’ Labyrinth
+
+L=2pung out of the city, Hulk lands in a deserted forest glade. Suddenly the
+ground oives way and you tumble into the mystical labyrinth of Tyrannus
+Sac Guys
+
+Deadly Fomens wielding tridents and swords. These guys have been magical!
+=wolwec from stone statues to blast you with powerful bolts of energy.
+Abomination
+
+~© 50ss) Tyrannus
+
+2 wethin the labyrinth, Tyrannus waits to enchant and destroy you with his
+powers. When Tyrannus disappears, the whole lair shakes violently anc you
+cam use falling marble blocks to create platforms and throw at the villain when
+opears.
+
+ao
+()
+i
+
+Samme Containers: Mystical Grecian urns. When a wave of electric force crawls
+over the urns, smash them to reveal Gamma capsules.
+
+Other obsects: Broken pieces of pillar can be picked up and thrown.
+
+3 The Leader’s Fortress
+Deteet Tyrammus and you reach The Leader’s Fortress to fight the ew) ger us
+
+m person. The hi-tech hideaway lies deep within a sinuous cave atop 2 snowy
+peck, protected by a radical defence system that would deter any intruder. But
+
+===== Page 7 =====
+
+The Incredible Hulk is not just any intruder.
+Bad Guys:
+
+Robots - but this time they are deadlier.
+Hover Guns - float around the fortress firing laser bolts.
+
+Abomination
+The Boss: Absorbing Man
+
+Absorbing Man guards a long passageway leading to The Leader’s interior.
+Beware of his ball and chain. It will take a sharp mind, not brute strength, to
+defeat this villain.
+
+Gamme Containers: Metal crates
+
+Level 4 The Leader’s Interior
+
+Destroy Absorbing Man and you finally face The Leader. But as you stride
+towards him he reaches to the wall and throws an ominous-looking switch. Blue
+rays leap from the floor and freeze Hulk as the screen turns black. The scene
+gradually fades back into view to reveal that you have been teleported deep
+into the heart of the villain’s lair, where his evil robots are assembled.
+
+You must battle through this bizarre bio-mechanical factory against a troop of
+strange assailants and then navigate the tortuous maze to find the maniac at
+the heart of the complex. However, before you can get at the fiendish genius
+behind this devilish plot, Hulk must first destroy the chemical brain controlling
+the horrific production-line of death.
+
+Bad Guys:
+
+Lizards - vicious, prowling reptiles of all sizes with lethal slashing claws and a
+spit of deadly acid.
+
+Slugs - ugly beasts that slither along the ground and bite at your legs, sapping
+your energy level.
+
+Abomination
+The Boss: The Brain
+
+A chemical brain that acts as a biological computer for the entire fortress. As
+you approach The Brain it releases an onslaught of smaller brains that attack
+you. The main brain sparks with electricity and the scourge of Abomination
+appears to age enge you again - Crush these adversaries and then demolish The
+Brain with a killer blow to its “achilles hee!’ (of course we're not going to tell
+you where it ts!).
+
+Gamma Containers: Kadmeys - bouncing humanoid organs - very difficult to hit
+because they re so smaill, they meed 2 g00d tThurmoung before the contents are
+relinquished.
+
+Other objects: Spiky tusks spning trom the ground to impale you.
+
+Level 5 Final Confromtation :
+
+This is it - The Leader awaits. But first wou must break down his last line of
+defence. Sounds easy? Think again!
+
+aed
+
+===== Page 8 =====
+
+Make it to the inner sanctum for the ultimate showdown with The Leader. Will
+you finally get your hands on the wicked fiend or has he got more tricks up his
+sleeve?
+
+There's only one way to find out - take control of The Incredible Hulk and
+begin your quest...
+
+Collectables
+
+GAMMA MEGA TRANSFORMATION
+
+CAPSULES GAMMA CAPSULES
+
+—
+
+EXTRA LIFE EXTRA CREDIT EXTRA TIME
+Character Profiles
+
+The incredible Hulk
+
+ee eee Dr. Robert Bruce Banner
+I nc a Bene vinnie snssnnavichpnen 7 feet 6 inches
+ee ee 1,150 Ibs
+[yes =. Se ee Green
+au C—O Green
+
+WMNCPOTIC a... see sececcsseessscoencesssceees Genius
+a. ae ...... 5uper-human
+Speed ——— ee Enhanced human
+Starmuna ee Meta-human
+Oe a Super-human
+A DiT a aie Normal
+gS ee Athlete
+ee Good hand-to-hand
+
+combatant.
+
+Super-ummam Powers:....................--.......20++: Super-human strength, staminz
+
+and durability.
+
+===== Page 9 =====
+
+0 SS a ee ee ee er Reverts to Dr. Banner persona
+at intervals.
+
+Source of Powe. Exposure to gamma radiation.
+
+Dr. Robert Bruce Banner
+
+Other identity: ....ccaeettes...-.........-...22---ocsesens- The Incredible Hulk
+Gt) es 5 feet 9+ inches
+VT eee a 128 Ibs
+Se Brown
+
+al ee Err Brown
+
+a a ee eae Cerri Genius
+(re Normal
+
+a Norma
+
+Nee Norma
+
+Agility: ........... ee. Norma
+
+Reflexes: ........:.-ccssu-+:qgsce=-c! boeing Norma
+
+Fighting Skil -:. ...........2- None
+
+ter ORTUS? ........ 5c. ...1<..- mele Extensive knowledge of physics.
+
+The Leader
+
+ROmMEFAC. ........ .csczcemttinns oa ee Samuel Sterns
+
+OS 5 feet 10 inches
+
+ti a 140 Ibs
+
+- ee ee Green
+
+Maile co See... Black
+
+Sp as. Se Green skin, misshapen head with an
+enlarged brain.
+
+intelligence: sen. Extraordinary genius
+
+0 SS ee aera Normal
+
+EE eee Normal
+
+Fighting Skills: A little knowledge of hand-to-hand
+combat.
+
+Special Skills: _ i= _.........Knowledge of genetics, physics and
+robotics
+
+===== Page 10 =====
+
+Seite of Power. —..........:..-........ sane Caught in explosion of gamma-
+
+irradiated waste; self-exposure to
+gamma rays.
+
+0 SS oa Tyrannus
+
+ae SS eee ee 6 feet 2 inches
+
+SSS Sr eee 225 Ibs
+
+EES SRSA ERE, na Se <r errr re Light Brown
+
+ge eee Blond
+
+So eS Genius
+
+Seat. ee Athlete
+
+— —— ...Athlete
+
+Aart ... Athlete
+
+a i Athlete
+
+PGR _....:........ cre eden Excellent hand-to-hand combatant,
+trained in swordsmanship and
+combat skills.
+
+et EES eee: = - Knowledge of sorcery, mind contro!
+of others and telepathy, the power
+of flight, the ability to emi eneray
+blasts, super-human longevity anc
+youth.
+
+Special Limnitations.. ..2.:.......c...0c0....cecceeeeeee eee Dependent on ‘Fountain of Youth’ in
+Subterranea to maintain his youth
+and immortality.
+
+Somme OF POWENS: ...................iccccccccccssssveeene Cobalt ‘Flame of Life’ in E! Dorado,
+
+— ‘Fountain of Youth’ in
+sS Subterranea.
+
+ES irs Unknown
+
+I ae ss... 6 feet 5 inches
+
+ti ae <a 710 Ibs
+
+ae ...Brown
+
+rial Se ee ...Brown
+
+Seen Super-human
+
+Sot _...Super-human
+
+ie
+
+===== Page 11 =====
+
+Ss ae Oe ea Sees se Normal
+
+S.C Ske ee Normal
+
+pages Skills. ee Good hand-to-hand combatant.
+
+SOUICE OF POINT seetac ieee teense. ves Mutagenic chemical and radiation
+treatment, including Gamma-ray
+bombardment.
+
+Costume Specifications: .......ccceeeeeeceeeeeeeeeeee Thick polymer mat, similar to
+
+rhinoceros hide, which is highly
+resistant to damage and temperature
+extremes. Two horns made of the
+same material project from the head
+of the costume.
+
+aici [(e(-j(¢ ae em Normal
+
+Strengins..............-.... = — Variable
+
+Sn a eo = _......Wariable
+
+ACHy: =. :-.....l ee Variable
+
+RGHOXCS: geste. -.<..senseeccteateeecesece ale aaeaeees Variable
+
+MEMEPS Skills: ll Excellent hand-to-hand combatant.
+Super-human POWERS: ....-..---------sceseeeeneeseness Ability to assume the physical
+
+properties of anything he touches,
+while retaining his human sentience,
+mobility and power of speech. This
+meta-morphic duplication extends to
+both animate and inanimate objects
+and to various forms of energy. He
+can also absorb specific properties of
+objects (e.g. the spikes of a mace). If
+his body is damaged in a non-human
+state he can re-assemble himself over
+a period of time and return to
+human form.
+
+Special Limitations: ....................................... There are undefined limits to the
+amount of power that he can absorb.
+
+===== Page 12 =====
+
+re 450 POWIN: a...nc,-. casio Magic
+
+Personal Weaponry: «2. scctec iscsi cesses A prison ball and chain he was
+wearing at the time of his original
+mutation, which magically
+transforms with his body.
+
+Emil Blonsky
+6 feet 8 inches
+
+980 Ibs
+j Green
+Hae ae None
+ei 8) ree eer Green skin, two toes on each foot,
+
+webbed ears, rigged brow, me tec-
+looking skin.
+
+0 a ee Normal
+
+en ee ee Super-human
+
+eee er oo oie ier SE ee Normal
+
+EN OS a ee ee eieeiaianaas Super-human
+
+es rer ree Normal
+
+a ner ee are Super-human
+
+Fimepietinrncy SUR nce e cee eete neers Basic hand-to-hand combat
+techniques.
+
+Saqper—tamman POWETS: .............000c:c:sccccceseeees Super-human strength, stamine enc
+durability.
+
+Soumce Of POWET: .............-....cc:cssecssceteeeeeeees Exposure to gamma radiation.
+
+Lomwted Warranty
+
+Gold reserwes the right to make improvements in the product described in
+manual, et any time and without notice. U.S. Gold makes no warranties
+sessed or implied, with respect to this manufactured material, its quality,
+merci Tabi! a or fitness of any particular purpose. If any defect arises Curing
+“= mimetw day limited warranty on the product itself (i.e. not the software
+=ragram. wich is provided “as is”) return it in its original condition to the
+pout of purchase.
+
+© 92S Merve! Entertainment Group, Inc. All rights reserved.
+
+THE (NCREDIGLE HULK. DR. ROBERT BRUCE BANNER, THE LEADER, RICK
+JONES. R=NWO. ABSORBING MAN, ABOMINATION and TYRANNUS 2>c “=
+distinct Tkemesses thereof are trademarks of Marvel Entertainment Grouc
+
+as
+
+imc. anc are used weth permission.
+
+= ti
+
+hf
+iA
+
+i i
+
+vg
+
+ti
+
+===== Page 13 =====

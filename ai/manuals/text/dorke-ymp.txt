@@ -1,0 +1,241 @@
+# Dorke & Ymp
+source: https://archive.org/details/snes_manual_archive
+pdf: Dorke & Ymp ( World ) ( Unl ).pdf
+region: World, Unl
+pages: 10
+text_method: text
+ocr_language: n/a
+ocr_dpi: 0
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+
+
+===== Page 2 =====
+
+                                                                    Super Nintendo games are now being developed in Sweden/
+ Please read this instruction booklet thoroughly to ensure proper   We are used to thinking that Nintendo games are being developed in Japan, VSA or England. ~~ii~
+ handling of your new games. Then save this booklet for future      Maybe sometimes a stumbler from Franre or (iermany, but the fact that siita bror (=kind brother,
+ reference.                                                         Norwegian nickname for Sweden) would make a game for Nintendo is something few would dream
+                                                                    of. But right now, the first Swedish SNES game is being developed in this basement location in
+                                                                    Stockholm.
+
+
+                                                           -
+                                                           :::::J
+                                                           C..,D
+                                                                    Dorque & Imp will be an elegant platformer with 4 worlds, a plethora of items and countless enemies. The
+                                                                    clever Dorque is an apparentice of a rather sketchy wizard, and a showdown between the two is inevitable.
+                                                                    -The end will be fair, says Peter Wahler, who is responsible for the programming .
+
+
+
+
+                                                •
+                                                           -
+                                                           0
+                                                           ()
+
+                                                           <
+                                                           CD
+                                                                    -To begin with we just thought we should get used to the computer and the technique that goes into making
+                                                                    video games, but we caught on so quickly that we decided we dared start making our own game, says Jim
+                                                                    Studt, the person responsible for the graphics.
+                                                                    Together with the Tv-Spill Borsen (=Video Qame Stockmarket), who today funds their project, they are in the
+                                                                    midst of founding their own company, Norse, which marks the beginning of a new softwarehouse. They
+                                                                    contacted overseas companies for production and marketing of the game at this spring's convention in
+Thank you for selecting the Darke and Ymp game pak.                 England
+                                                                    Cheated by Pc Qames
+                                                                    -It's gonna be different now, compared to the PC games i have worked on. We who were involved with
+                                                                    legend of Myra were fooled completely. The publisher "(irand Slam· has yet to pay us a single dime, Jim says.
+                        This official seal is your assurance        Dorque and Imp consists of 4 worlds, where Dorque sets out to find as many items as the wizard needs to
+                        that we here at Piko Interactive have       become allmighly. 2 of the worlds are completed. When Power Player catches up with the team of
+                        reviewed this product and it meets          programmers, they are already hard at work to finish up the demo that will be shown in England. Peter shows
+                                                                    us how far they are come. He has 100,000 command lines which helps him to quickly change the envoirment
+                        our high standards for excellence in        on the screen. He is programming in assembler, and can in principal cut and paste artifacts and backgrounds
+                        quality, reliability and entertainment      from the pictures that Jim has created in a image software program.
+                        value. Always look for this seal to         Two other guys are part of the team, one of them for the music. It looks so simple and fun to make a video
+                        ensure a great gaming experience!           game. -The truth is that most of the work up till now has been hard. And also you can't see it - only if it's not
+                                                                    working, Peter explains. - The hardest part is making colored pictures that can be used in as many plares as
+                                                                    possible. We always have to remember that the game can't take up too much memory, memory is expensive,
+                                                                    Jim explains. Not that many colors afterall.
+                                                                     Why are you making a game for Nintendo and not Segal
+                                                                    -Nintendo's 256 colors versus Sega 's 64, Jim answers quickly, but he does admit he is dissapointed he has to
+                                                                    settle with less colors because of memory and time issues.
+                                                                    - There is 2 high thresholds you have to overcome before you start creating games. First you have to obtain
+                                                                    Nintendo's programming manuals, which explains how you get started. These manuals are only available at
+                                                                    "rertified" game developers, and you have to know one of these.
+                                                                    Just as big of a problem is the software that automates the coding. This is business secrets on the highest level,
+                                                                    and it's there Peter with his math and info education has done everything from bottom up. These tools can be
+                                                                    used over again for future games ...
+                                                                    Stockholm-game/
+                                                                    The advantage of starting out on your own is that you learn from your mistakes, find your own and maybe
+                                                                    groundbreaking solutions and most of all get new ideas from the development. For Dorque & Imp's graphical
+                                                                    world Jim has been inspired by Tolkien 's fantasy world, and spired it with a few nordic elements.
+                                                                    -It may have gotten some viking inspiration. We had the idea of including Odin to one of the worlds, even
+                                                                    though Nintendo only allows the use of Qreek gods to be used in games on their systems. But we can
+                                                                    always rename him.
+                                                                    -We have begun thinking about doing a sequel. It would be fun to make something that has it's
+                                                                    story lifted from Stockholm, where you could go our shop here and say hello to us, Peter laughs.
+
+===== Page 3 =====
+
+        5tory . •. . . . . . PA9£ 3
+   CkrACtus . . . . . . . . PA9£ 1f
+ Titl£ 5cr£rn •. . . . . . PAg£ :>
+ ~m£ 5cr£rn ........ PA9£ 6
+      Controls . . . . . . . . PA9£ 7
+      Actiam ........ PA9£ &-12
+         5110p . ...... 9£ 13
+         )-f£~1tb .....•.. p  111
+~~~~tMj£s · · ·· · · · · PA9£ 1:J-16
+       L£gAqj .•...... PA9£ 17-18
+
+===== Page 4 =====
+
+ In the mountains of old ,Sweden, there
+   lived a powerful sorcerer. Under his
+  tutelage was a goblin named :Oorke.
+  :Oorke eventually grew weary of the
+menial tasks assigned to him. he longed
+ to acquire the hidden knowledge of _h is
+  master. Rfter growing jealous of the
+adorable rabbits, :Oorke approached his
+       superior to learn the trade.
+    The sorcerer, tiring of his goblin
+  apprentice, sends him off to do some
+            dangerous tasks.
+
+===== Page 5 =====
+
+                                                        ll creature summoned by the great sorcerer
+                                                        who will protect and guide his goblin friend .
+
+
+
+
+.-,. ~-                   1!19"·      -lill!" ....
+    ..; ~    ;.-..rJ. .     ~: ~       ;.-,: .. ..: ~
+.. ~,._~.,.. ~
+•   I.
+
+
+    .    ... . ~- . ... . ~- .
+         _   L     -        ...   _    L   -    ..
+
+                                                          ll goblin with a hatred for bunnies that
+                                                        simply wants to learn magic and have fun.
+
+===== Page 6 =====
+
+    rt tj.m£ 'This starts the game.
+          here you can enter a password that
+PASSU1ord was obtained from completing a stage.
+
+                  You can ad just the controller
+Co rol P          button functions with this option.
+
+   'The music and sound effects can also be toggled
+   ofT and on from this screen. You can also switch
+        between stereo and mono sound modes.
+
+===== Page 7 =====
+
+                                                                 Dork£ And Ymp This is you and Ymp!
+                                                                                You can sdcct between chest krys, door krys
+  The shop is a magical place where you can spend the gold      • Inventory and bombs with the I.JR buttons.~ number
+coins you locate. Each item is priced differently. To make a                    indicates how many arc remaining to use.
+purchase, stand under the item and press the B button
+(Jump). You can purchase the same item multiple times. Be       . Corns ~coins you collect will be shown here.
+careful though because death will cause you to lose any items              Your remaining lives arc indicated here. You will
+except gold.                                                    . Lives start with 50 and can buy more at the shop.
+                                                                            :Dork.e's face will change in accordance to his
+                                                                            current health. :Damage occurs from enemies and
+                                                                            environmental hazards such as rocks and lava.
+
+===== Page 8 =====
+
+       uttons        utton       utton
+-Toggle         -£'pit        -Rush
+Inventory
+
+
+
+
+                                                                      You may come across
+                                                                    some blocks like yo see
+                                                                    on the le~. To get by
+    tJtd                        utton                               these, you can lJ ow them
+-Moves          -JJause      -Jump                                  up with a bomb.
+:Oorke
+
+
+                -Utilize     -Grab       damage enemies. Dorke
+                Inventory                is not very bomb-pr of
+                                         either, so some distance
+                                         is recommendea .
+
+===== Page 9 =====
+
+                  tlcti~mi-i                                       --=4-
+
+
+
+                                                                              T£~ming up mitb Ymp, Dork£ bAS num£rous
+                                                                              tLIA-g5 of compkting tk tASks k         mAS givrn.
+
+   You can grapple onto the
+ edge of a ledge. Press UP to
+ pull yourself up.
+                                                                             Jumping will allow you to
+                                                                           reach new heights. You can
+                                                                           also leap across gaps. While.
+                                                                           rushing, you can jump
+                                                                           farther than normal. Dont
+                                        By pressing DOWN you               forget that you can hop out
+                                      can duck. This may help at           of the way of an attack!
+                                      times to dodge attacks.
+
+
+
+
+                                                                                                             By holding Y and pressing
+                     f.:.~:~
+                         ......:.
+                                  0   rrl:I   0   " O'   Ci> 0 4                                           left or right, Dorke can run!
+                                                                                                           You will move faster and can
+  Use the Lor R button to choose which item you would like                                                 jump farther. Do not worry
+to use and press Select to activate it. The cursor shows you                                               about Ymp, his tiny wings
+which item is selected.                                                                                    will keep up.
+
+===== Page 10 =====
+
+                    t'lctiQ~imltrd                      ---   -~    --~   --- -     -   ---   -   -   ---
+
+
+
+
+  Ymp will grab Dorke's                                                                                         Dorke does not have much
+hood and hold him aloft for                                                                                   attack power himself. But
+a period of time, slowly                                                                                      Ymp can churn up some
+floating back to the ground.                                                                                  acidic loogies that damage
+You can use this to cross                                                                                     enemies and bounce like
+long deadly gaps.                                                                                             stone off a troll's belly.
+
+ TIP: If pressing jump and grab at the same time, Ymp will grab
+ you mid air, allowing you to be a little bit higher up than a            TIP: Ymp will fire in whichever direction he is facing, so make
+ regular jump. You might be able to try floating if you can work          sure he's looking the right way. You can also take advantage of
+ out a rhythm ...                                                         the fact that they can bounce, but only one spit ball can be on the
+                                                                          screen at a time.
+
+
+
+
+                        For a lowly creature like Dorke, death is
+                      inevitable. Sometimes, you may get stuck
+                      in a level. Or maybe you're feeling
+                      particularly sadistic.      Whatever the
+                      reason, you can kill Dorke at your whim
+                      by pressing select while the game is
+                      paused. This will use a life.

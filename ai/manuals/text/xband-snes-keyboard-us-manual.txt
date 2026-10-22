@@ -1,0 +1,261 @@
+# XBand SNES Keyboard US Manual
+source: https://archive.org/details/snes_manual_archive
+pdf: XBand SNES Keyboard US Manual.pdf
+region: Unknown
+pages: 5
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SUPER NES’°*
+KEYBOARD
+
+INSTRUCTION
+MANUAL
+
+===== Page 2 =====
+
+Congratulations on your purchase of an XBAND™ keyboard! Now you can access many
+XBAND features easier and have a better gaming experience on XBAND!
+
+Installation
+
+Socket #1
+
+You may
+havea
+controller
+
+and the XBAND
+
+keyboard
+plugged in
+at the same
+time.
+
+Your keyboard can only be used with the XBAND Video Game Modem for Super NES?
+It is NOT compatible with other game platforms.
+
+To install the XBAND keyboard, turn your Super NES Control Deck OFF. Plug the
+XBAND keyboard into Socket #2 of your Control Deck (see figure above).
+
+You may plug in or unplug the keyboard while you are on any XBAND screen. You may
+also plug in or unplug the keyboard before entering Chat mode and during game play.
+Note: The keyboard will not function while plugged into Socket #1. The keyboard will
+
+not function when a Super Multitap™ or Super Link™ adapter is plugged into Socket #1
+or Socket #2.
+
+Basic Operation
+
+Your keyboard can be used in place of your Super NES controller for navigating
+through any of the XBAND screens. Currently the keyboard cannot be used for
+any of the game playing functions.
+
+Note: Future games may support the XBAND keyboard. Look for future keyboard
+updates in XBAND News.
+
+P4 ==
+
+tom fee Fe
+BYND oo £68
+
+Arrow Keys
+
+The Arrow keys perform the same functions as the Arrow buttons on
+your Super NES controller.
+
+L, R, X, Y, A, B, Start and Select Keys
+
+The L, R, X, Y, A, B, Start and Select keys on your keyboard perform the same
+functions as the corresponding buttons on your Super NES controller.
+
+Enter Key
+
+When you are in Chat mode, hit the Enter key to proceed to the next line.
+
+Note: When you are writing X-Mail™ or Personal Info, nothing will happen when
+you hit the Enter key.
+
+Cancel Key
+
+Use the Cancel key to exit any XBAND screen that displays a keyboard.
+
+Switch Key
+
+Use the Switch key to move from one box to the next on the X-Mail write screen.
+
+“X” and Control Keys
+
+The >< , >< and Control (Ctrl) keys that appear on either side of the space bar are
+reserved for future use with XBAND-compatible games. These keys are currently unused.
+
+Other Keys
+
+Use the remaining letter and number keys for typing as you would on any other keyboard
+
+===== Page 3 =====
+
+Troubleshooting
+
+. If you experience problems using your keyboard, try this test first: Press the Caps
+Lock key while you are on one of the XBAND screens. If the Caps Lock light on the
+top right-side of your keyboard turns on, your keyboard is functioning and
+something else is wrong. Reset your Control Deck.
+
+2. If prablems persist, turn your Control Deck off, remove your XBAND Modem and
+keyboard, plug them-back in and start again.
+
+3. If you notice erratic game play, unplug the keyboard and continue to play.
+
+On-line Conduct
+
+Wulgarity/Profanity: Using vulgar or profane language in X-Mail or Chat mode is
+prohibited. If you use vulgar or profane language on the XBAND Network, you will
+receive a warning from XBAND.
+
+Harassment: When one Member targets another Member specifically to cause
+him/her distress, embarrassment or other discomfort, this is harassment. Personal
+attacks against XBAND Members are prohibited. If you target and attack another
+XBAND Member, you will receive a warning from XBAND.
+
+Lack of compliance with these policies may lead to termination of your XBAND
+account.
+
+Frequently asked questions
+about XBAND
+
+This section answers the most frequently asked questions about XBAND. Please refer
+to this section before calling or sending X-Mail ta XBAND. We receive hundreds of
+mail messages each day, and would like to address your questions and concerns as
+efficiently as possible. We hope you will find this information helpful.
+
+Sometimes | get a message that says “There’s not enough space to write
+more mail...” or something to that effect. What does that mean?
+
+Your XBAND Video Game Modem has a limited amount of memory available for its
+various features. Player List entries, X-Mail, the daily newspapers, stats, and system
+upgrades all share this limited memory. If you use all four Player IDs, or keep a lot
+
+of Player List entries and a lot of X-Mail, you may run out of memory.
+
+The best solution is to delete old Player List entries and old mail messages, and
+then reset your Control Deck. This gives the XBAND Modem a chance to make
+room for new data.
+
+Sometimes my modem loses some or all of my mail or Player List
+information. What is going on?
+
+The XBAND Modem contains very complex electronics. Just like with any complex
+computing machine, occasionally data might be lost. Fortunately, the XBAND Network
+automatically backs up all of your data, and if you happen to lose some data it will be
+restored the next time you connect. Z
+
+If this happens every time you turn your Control Deck off, contact XBAND Customer
+Service through X-Mail, and we will investigate the problem.
+
+What is my Internet address on XBAND? How can | send messages to
+people on the Internet?
+
+An XBAND player's Internet address is their code name followed by @xband.com. For
+example, if your code name is “Thrasher”, then your Internet address is
+Thrasher@xband.com. The colon “:” and “@" characters are illegal in an Internet
+address (other than after the player name). If your code name contains either of those
+symbols, you will not be able to receive Internet mail.
+
+Can | send the same X-Mail to more than one player at a time?
+
+X-Mail instructions can be found in the manual for the XBAND Modem. At this time
+you cannot send the same message to more than one player automatically.
+
+Why didn’t XBAND answer my mail?
+
+When you send mail to XBAND, the “XBAND got your mail” response is an automatic
+message to let you know that your X-Mail was received. Unfortunately, there are only
+certain times of the day when people read and answer mail, and because we receive
+thousands of mail messages, it can take some time to get a response.
+
+We try to answer every reasonable question that is sent in. The backlog of X-Mail is
+growing, so you may have to wait a few days. Suggestions are forwarded to the various
+departments. Other X-Mail may or may not be answered, depending on the contents.
+
+XBAND is here to help, but excessive mail makes it much harder for us to have time
+to plan events such as tournaments. Please check your manual before sending mail
+to XBAND.
+
+Pve fallen and | can’t get up. What should | do?
+
+First, X-Mail all your friends in your local area asking them for help. If you are new to
+XBAND, try Challenge to see if you can get matched to someone in your local area,
+and explain what's wrong during chat.
+
+Remember... use your XBAND connections wisely. You can do this by waiting to send
+your mail until you.connect to the Network for a match.
+
+===== Page 4 =====
+
+30-day Limited Warranty
+
+Catapult Entertainment, Inc. warrants to the original. consumer purchaser that the
+XBAND keyboard will be free from defects in material and workmanship for a period of
+30 days fromthe date of purchase. To receive this warranty service, you must:
+
+1. Call XBAND Customer Service at 716-871-HELP. Customer Service hours of
+operation are 12:00 pm to 9:00 pm Pacific Standard Time, Monday through
+Friday, and 9:00 am to 5:00 pm Pacific Standard Time, Saturday and Sunday.
+
+2. Obtain a Return Authorization number from the Customer Service Representative
+if the problem cannot be solved over the phone. You MUST record this number on
+the outside package of the defective keyboard and return it FREIGHT PREPAID AND
+INSURED FOR LOSS OR DAMAGE to the following address:
+
+Catapult Entertainment, Inc.
+2855 Volpey Way
+Union City, CA 94587
+
+The warranty shall not apply if the XBAND keyboard has been damaged by negligence,
+accident, unreasonable use, commercial use, modification, tampering or by other
+causes unrelated to defective materials or workmanship.
+
+WARRANTIES LIMITATIONS
+
+ANY APPLICABLE IMPLIED WARRANTIES, INCLUDING WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE HEREBY
+LIMITED TO. THIRTY DAYS FROM THE DATE OF PURCHASE AND ARE SUBJECT TO
+THE CONDITIONS SET FORTH HEREIN. IN NO EVENT SHALL CATAPULT
+ENTERTAINMENT, INC. BE LIABLE FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES
+RESULTING FROM THE BREACH OF ANY EXPRESS OR IMPLIED WARRANTIES.
+
+FCC Information
+Class B Approval
+
+This equipment has been tested and found to comply with the limits for a Class B digital
+device, pursuant to part 15 of the FCC Rules. These limits are designed to provide
+reasonable protection against harmful interference in a residential installation. This
+equipment generates, uses and can radiate radio frequency and if not installed and used in
+accordance with the instructions may cause harmful interferences to radio
+communications. However, there is no guarantee that interferences will not occur in a
+particular installation. If this equipment does cause harmful interference to radio or
+television reception, which can be determined by turning the equipment off and on, you are
+encouraged to try to correct the interference by one or more of the following measures:
+
+Reorient or relocate the receiving antenna.
+Increase the separations between equipment and receiver.
+
+Connéct' the equipment into an outlet on a circuit different from that
+to which the receiver is connected.
+
+Consult the dealer or an experienced radio/TV technician for help.
+
+NOTES
+
+XBAND, X-Mail and Catapult are trademarks of Catapult Entertainment, Inc. Super Nintendo and Super NES are registered
+tredemerks of Nintendo of America Inc. Product names and company nemes used herein are trademarks of their
+respective companies.
+
+===== Page 5 =====
+
+Catapult Entertainment, Inc.

@@ -1,0 +1,1133 @@
+# Super Bases Loaded 2
+source: https://archive.org/details/snes_manual_archive
+pdf: Super Bases Loaded 2 ( USA ).pdf
+region: USA
+pages: 18
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNS-3D-USA
+
+INSTRUCTION BOOKLET
+
+© JALECo.
+
+Jaleco USA, Inc.
+
+685 Chaddick Drive
+Wheeling, Illinois 60090
+
+PRINTED IN JAPAN
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY
+BEFORE USING YOUR SUPER NINTENDO? HARDWARE
+SYSTEM OR GAME PAK.
+
+Limited Warranty
+
+Jaleco USA, Inc. warrants to the original purchaser of this Jaleco
+software product that the medium on which this computer program is
+recorded is free from defects in materials and workmanship for a
+period of ninety (90) days from the date of purchase. This Jaleco
+
+ire program is sold “as is,” without express or implied warranty
+of any kind, and Jaleco is not liable for any losses or damages of an
+kind resulting from use of this program, Tasso agrees for a period of
+ninety (90) days to either repair or replace, at its option, free of
+charge, any Jaleco sofware product, postage paid, with proof of date
+of purchase, at its Factory Service Center.
+
+Table of Contents
+
+Introduction .
+
+This warranty is not applicable to normal wear and tear. This
+warranty shall not be applicable and shall be void if the defect in the
+Jaleco software product has arisen through abuse, unreasonable use,
+mistreatment, or neglect. THIS WARRANTY IS IN LIEU OF ALL OTHER
+WARRANTIES AND NO OTHER REPRESENTATIONS OR CLAIMS OF
+ANY NATURE SHALL BE BINDING ON OR OBLIGATE JALECO. ANY
+IMPLIED WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT,
+
+Information During Play. INCLUDING WARRANTIES OF MERCHANTABILITY AND FITNESS
+
+ings
+Playing an All-Star Game .....
+Records During a Regular Seaso
+Selecting a Stadium...
+The Match Announcement Scre
+
+Limited Warranty...
+
+THIS OFFICIAL SEAL IS YOUR,
+
+Information After a Game
+Abbreviations in the Gam
+Game Tips — The Jaleco Hotline
+
+ee Fe ASSURANCE Tea NNTENDD HAS
+AronOveD THEOUAITTY OF tas
+BAODUGT, ALWATSLOOK Fon Ts
+SEAL WHEN BUYING GAMES IND
+ROCESgORIES TO ENSURE COMPLETE
+Couariaury win voun sueen
+NINTENDO ENTERTANMENT SYSTEM
+!YNTENDO, SUPER NNTENOO AILNINTENDO PRODUCTS ARE
+TY ioe CceNszo SY SAE POR USE OMLY WITH ©1909ALECOUSA, NC
+AeaTenea NSS OHER AUTHORIZED PRODUCTS TALEO MNO SOBER BSE
+INTEND OF AMER SEARING THE CEFIGAL NNTENEO SEAL LOADEDE We TRAGENAES
+
+(©1991 NINTENDO OF AMERICA
+
+OF QUALITY.
+
+(OF JALECO USA, INC
+
+FOR A PARTICULAR PURPOSE, ARE LIMITED TO THE NINETY (90)
+DAY PERIOD DESCRIBED ABOVE. IN NO EVENT WILL JALECO BE
+LIABLE FOR ANY SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES RESULTING FROM POSSESSION, USE, OR
+MALFUNCTION OF THIS JALECO SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an implied
+warranty lasts and/or exclusions or limitations of incidental or
+consequetial damages so the above limitations and/or exclusions of
+liability may not apply to you. This warranty gives you specific rights,
+and you may also have other rights which vary from state to state.
+
+JALECO USA, INC. 685 Chaddick Drive, Wheeling, IL 60090.
+(708) 215-2359.
+
+===== Page 3 =====
+
+Game Tips - The Jaleco Hotline
+
+Introduction
+
+If there’s something you don’t understand about your new Jaleco
+game, or if you're having problems with your game pak, or if
+
+/ou're just plain stuck, you’re welcome to call the Jaleco Hotline
+eal the hours of 9:00 AM and 5:00 PM (Central Standard
+Time, Monday through Friday). One of our pensive and mildly
+melancholic game counselors will be happy to give you tips or
+help you out with any problems you're having. Here's the
+
+number to call:
+
+708-215-2359
+
+Note: Normal telephone charges apply when you call the hotline
+number. It’s not a toll-free number, so you kids should get your
+parent's or guardian’s permission before you call.
+
+Credits
+
+Game Design
+
+Product Management
+Manual
+
+International Coordination
+
+Quality Assurance, Technical
+Consulting, and Pull Hitter
+
+Package Design and Stuff
+
+Fusato Hosaka
+H. Nunokawa
+Michael Hardt
+Oliver Tang & Masao Ohata
+
+Joe Sislow
+Beeline Group, Inc.
+
+The taste of dirt in your teeth as you slide into second. The satisfying
+smack of a lightning throw as it hits your glove while your toe is still on
+the bag. The blur of your swing as you transform a fast ball into a
+perfect line drive through the hole. The ecstatic roar of the crowd as a
+strong breeze carries a high fly ball just inside of the foul pole for a
+home run.
+
+All these are in Jaleco’s Super Bases Loaded 2. What else would you
+expect from the company that’s sold over 5 million baseball games for
+the NES and Super NES? A lot more. And Super Bases Loaded 2
+delivers by going beyond reality. Because in reality, even when you hit
+that line drive through the hole, you don’t get to fly out over the grass
+with it, soaring just inches past the shortstop’s oiled glove. This game,
+however, features the DSP chip, a new technology that allows 3-D
+movement like you've never seen before. After every crack of the bat,
+you actually follow the ball with an amazing 3-D “camera” perspective.
+
+IFit’s statistics you're after, you'll find complete seasons, backed up
+with a battery that also saves all the statistics you could ever want
+about your team, your league, and the top pitchers and hitters.
+
+Want to change things around a bit? Try the “Design Your Own
+Team" feature that will let you customize players to your tastes.
+
+And if you're interested in playing the coach, you'll find realistic
+fatigue factors that influence your pitching rosters and lineups —
+both adjustable.
+
+But most of all, Super Bases Loaded 2 is fun. And if you just want to
+take your swings and throw your pitches, the automatic lineups and
+computerized fielding won't slow you down.
+
+So get out there and take a crack at it. We can’t promise that you'll
+guide your team to the playoffs, but we guarantee you'll have fun trying.
+
+===== Page 4 =====
+
+Getting Started
+
+1. Place the Super Bases Loaded 2 game pak into your Super
+Nintendo Entertainment System and turn on the unit. After some
+introductory graphics, the title screen appears.
+
+2. Press START.
+
+Controller Layout
+
+Button
+Control A
+Pad Button
+
+Select Start Y B
+Button Button Button Button
+
+© Pitcher Information Window
+
+ST stamina
+ERA earned run average
+K strikeouts
+
+© Batter Information Window (prior plate appearances)
+
+H singles
+
+2B doubles
+
+3B triples
+
+HR — homeruns
+FO fly outs
+
+GO ground outs
+K strikeouts
+
+SAC sacrifices
+HBP hit by pitch
+BB base on balls
+E error
+
+===== Page 5 =====
+
+© Batter Records
+
+AVG
+HR
+RBI
+SB
+OB%
+AB
+
+H
+
+2B
+3B
+1B
+BB
+
+K
+SAC
+SL%
+
+batting average
+home runs
+
+runs batted in
+pa bases
+
+on base percentage
+at bats
+
+hits
+
+doubles
+
+triples
+
+total bases
+
+base on balls
+strikeouts
+
+sacrifices
+
+slugging percentage
+
+© Pitcher Records
+
+ERA
+
+earned run average
+strikeouts
+percentage
+
+wins
+
+losses
+
+saves
+
+innings pitched
+
+hits given up
+homeruns given up
+walks (base on balls) given up
+earned runs
+
+Using the Menus
+
+In general, you can highlight an item in a menu by pressing on the
+control pad. Pressing A will select the item. Pressing B will cancel
+the selection, or take you back to a preceding menu,
+
+Select Mode
+
+Press UP and DOWN on the
+control pad to highlight the
+mode of your choice, then
+press A to select it.
+
+@ Regular Season
+
+Select this mode if you
+want to play a full season,
+including a playoffs
+between the two leagues
+(there are seven teams in each league).
+
+The Regular Season Menu will appear. Here you can either
+continue playing a saved season or begin a new season.
+Choose either CONTINUE or NEW GAME. If you highlight
+NEW GAME, you can press LEFT or RIGHT on the control pad
+to choose the number of games in the season: 13, 45, 84,
+123, or 162. Press A to make your selection.
+
+===== Page 6 =====
+
+@ Exhibition
+
+Choose this option if you want to play any two teams against
+each other in just one game.
+
+The Exhibition Menu will appear. Here you can decide
+whether you want to play alone (1 PLAYER), with a friend
+{2 PLAYERS), or just watch the computer play (WATCH).
+
+© All Star
+
+This option lets you play with the cream of the crop — the
+best clara in both divisions.
+
+The All Star Menu will appear. Here you can decide whether
+you want to play alone (1 PLAYER), with a friend (2 PLAYERS),
+or just watch the computer (WATCH).
+
+© Design a Team
+With this option you can design a team of your own: name
+the players and decide how skillful they are in several
+different areas. Then you can put that team through a single
+game or a whole season. For details, check out the section
+Designing Your Own Teams.
+
+@ Records
+
+Here you can check out your schedule, team standings, player
+records, and the leading batters in both leagues. For more
+information, see the section on Records During a Regular
+Season. Note: This option will only work after you begin a
+Regular Season.
+
+© Options
+Use the Options screen to customize Super Bases Loaded 2.
+For details, see The Options Screen.
+
+Abbreviations in the Game
+
+@ Team Standings
+G games played
+W wins
+L losses
+PCT. percentage of games won
+GB games back from first place
+AVG combined batting average
+ERA combined earned run average
+HR homeruns
+SB stolen bases
+R runs
+© Player Positions
+Pp pitcher
+C catcher
+1B first base
+2B second base
+3B third base
+SS __ shorts!
+RF right field
+CF center field
+LF left field
+
+===== Page 7 =====
+
+Information After a Game The Options Screen
+
+Press UP and DOWN to move
+Box Score the highlight bar over the
+ighlig)
+
+option you want to change,
+pee pokey then press LEFT and RIGHT to
+appear showing the box adjust the options. When
+score. The top of the box you're finished customizing
+
+your game, highlight EXIT and
+press A. The options you can
+change are:
+
+© Innings
+
+How many innings are ina game. (Regular Season games
+will always be nine innings.)
+
+score shows the MING
+number — how many
+wie Vat team has
+
+layed this opponent,
+Including the most recent
+game. On the top right
+part of the screen, it shows your team’s Win-Loss record
+against this opponent.
+
+Just beneath the MING is the box score, similar to the box ® Errors
+scores shown after each inning.
+
+Adjust to OFF if you don’t want your fielders to make any
+
+Next is information about the winning pitcher (WP), any errors. The normal position is ON.
+
+saving pitcher (Sv), and the losing pitcher (LP). The display
+lists the names and complete Win/Lose/Save records for
+
+those pitchers. @ 4 ceting if te
+weal If the fielding is set to MANUAL, you will haye to move the
+elle stl anil ica ee oh correct fielder into position whenever the ball is hit. If the
+
+fielding is set to AUTO, the computer will field the ball, but
+you take over when it’s time to make the throw. Controlling
+a fielder in Super Bases Loaded 2 isn’t difficult, but if you'd
+rather let the computer control the fielding for player one,
+leave this option set to AUTO.
+
+@ 2? Fielding
+
+This option sets fielding control for player two.
+
+they scored (HR).
+
+So
+
+===== Page 8 =====
+
+© Slaughter Rule
+
+Ever play a game where you're losing 20-0 in the first inning,
+and feeling so low that you don’t even want to finish? Here
+you can set a slaughter rule, so that the game will end after
+one team pulls ahead by a certain number of runs. For
+example, if the slaughter rule is 10 (the normal setting), the
+game will end when one team gets to be 10 points ahead.
+You can also turn the slaughter rule OFF.
+
+@ Extra Innings
+
+IF you don’t want a tie game to drag on forever, you can turn
+OFF extra innings, so that the game will end as a tie. The
+normal setting is ON.
+
+@ DH
+
+If you want to play with designated hitters, turn this option to
+ON. The normal setting is OFF.
+
+@ Wind
+
+If you want wind to affect the path of your fly balls, turn this
+ON. At the start of the match you'll see a wind meter that will
+let you know how strong the wind is and which way it’s
+blowing. The normal setting is ON.
+
+® Music
+
+Leave this option set to STEREO if your television has stereo
+speakers. Choose MONAURAL if your television doesn’t have
+stereo speakers. Choose OFF if you prefer to play without
+background music.
+
+Next to the number is an arrow pointing up or down to signal
+whether it is the top (first half) or bottom (second half) of the
+inning. For example, a 3{} means “top of the third.”
+
+Just beneath the inning number is the score, labelled with team
+abbreviations. The team on the left is the away team, batting in
+the top of the inning.
+
+In the lower left hand corner of the screen is the count. It shows
+how many .. .
+
+B balls,
+Ss strikes, and
+O outs
+
+... there are at that time.
+
+In the bottom right corner is a small diagram of the field. This
+“radar” feature shows where any base runners are. The base
+runners appear as miniature batting helmets on the radar. It’s
+
+very important for pitchers to keep an eye on the radar in order to
+pick off runners who are attempting to steal. It’s also very
+important for fielders to keep an eye on the radar so that they
+know where to make the play.
+
+After each pitch, the screen will display the speed of the pitch in
+miles per hour. It’s helpful to keep an eye on the pitcher's speed in
+order to know when he’s slowing down, and how much difference
+there is between his fastest and slowest pitches.
+
+At the end of each inning, a box score will appear on a gray
+scoreboard. The box score shows how many points each time
+has scored in each inning. At the right edge of the box score you
+can see the total number of runs (R), hits (H), and errors (E) for
+each team.
+
+===== Page 9 =====
+
+© To Dive
+
+If you press the A button
+while you are pressing the
+control pad, the running
+fielder will dive whichever
+way he was running.
+
+(Use the dive to snag a
+ball that’s just out of reach
+
+Selecting Your Teams
+
+On the Select Team screen
+you can set up the leagues
+and pick the team you want fo
+play. The Alpha League
+teams are listed on top, the
+Omega League teams are
+
+listed in the middle, and the
+on the ground.) four Custom Teams (for the
+Design-Your-Own-Team
+ie) To Make a Throw option) are listed on bottom.
+Press the control pad in the direction of the base you want to
+throw to, and press A. © For an Exhibition Game
+: You can select your own team and your opponent's team by
+@ To Tag a Base highlighting the teams and pressing A. If you're in 2-player
+Press the control pad in the direction of the base you want to mode, then player two can select his or her team with the
+tag, and press B. second controller. After selecting both teams, press LEFT or
+RIGHT on the control pad to decide whether you want to bat
+in the top or the bottom of the inning. The arrow next iS your
+Pits t al
+Information During Play team logo will point up or down, depending on your selection.
+
+At the top left of the battery
+(pitching) screen, a yellow
+number displays the inning.
+
+© For a Regular Season
+
+You must first decide whether or not you want to replace any
+of the Alpha or Omega teams with a Custom team.
+
+Ifyou don’t want any Custom teams in either league, press
+START. The Custom teams will disappear and you can pick
+your team from either league by highlighting it with the
+control pad and pressing A.
+
+»
+
+===== Page 10 =====
+
+If you want to include Custom teams in either league, first
+select one of the four Custom teams and press A. Another set
+of highlighting brackets will appear on the top portion of the
+screen. Select the team you want to swap with the Custom
+team and press A again. The computer will move the Custom
+team into the regular. league and move the regular team
+down into the box at the bottom of the screen. Do this as
+many times as you want, until all the teams that you want to
+use are in the regular leagues. When you're finished
+adjusting the leagues, press START. The four teams at the
+bottom will disappear. Highlight the team you want to
+control, and press A.
+
+Note: If you want to design your own team, you must select
+DESIGN A TEAM from the Select Mode screen before you
+select REGULAR SEASON.
+
+Designing Your Own Team
+
+If you select DESIGN A TEAM
+from the select mode screen,
+you will be able to customize
+your own team.
+
+First the Select Team screen
+will appear. You can choose
+any of the four Custom teams
+by pressing LEFT and RIGHT
+on the control pad, then
+pressing A.
+
+O
+
+Shifting the Defense
+
+To shift your defense, pause
+the game (press START), and
+press B.
+
+You will be able to shift your
+fielders to play deep, shallow,
+left, or right by pressing the
+control pad in the directions
+indicated on screen. Press
+START to continue the game.
+
+Fielding
+
+Ifyou are playing MANUAL fielding, the computer will let you
+control the fielders as soon as the batter makes contact with the
+ball. You will control whichever fielder is best able to make the
+play. Move the fielder by pressing the control pad.
+
+Even if you are playing AUTO fielding, you will gain control of a
+fielder as soon as he has the ball.
+
+© To Jump
+
+IF you press A without pressing the control pad, the fielder will
+jump. (Use the jump to catch a high ball that might go over
+the fielder’s head.)
+
+===== Page 11 =====
+
+© Replacing the Pitcher
+If your pitcher isn’t doing well, or if he’s just getting tired, you
+might want to replace him with another pitcher.
+To see if your pitcher is tired, press START to call up the
+pitcher information window. The letters “ST” show your
+pitcher's stamina rating. The higher the rating, the more
+energy the pitcher has.
+
+Pitchers lose energy as they throw pitches — fastballs are
+especially rough on a pitcher's stamina.
+
+To replace your pitcher, pause the game (press START), and
+press A. Replace your pitcher’as described in the section
+Batting Order/Member Change.
+
+© Picking Off Base Runners
+
+To pick off a base runner,
+press the control pad in
+the direction of the base
+the runner is on (see the
+chart in Base Running),
+and press B. The pitcher
+will throw to that base.
+
+Then the Custom team roster will appear. By pressing UP and
+DOWN on the control pad you can highlight the part of the team
+you want to adjust: the STARTERS, the BENCH, or the PITCHERs.
+Selecting RESET will restore the team’s original players, and
+selecting EXIT will take you back to the Select Mode screen.
+
+© Starters
+displays the names of your eight starting fielders (not the pitcher).
+
+© Bench
+
+displays the names of players not in the starting lineup.
+
+© Pitcher
+
+displays the names of your pitching staff.
+
+What the Ratings Mean
+
+All the numerical ratings go from a scale of 1 to 8. A rating
+of 1 means that a player will do very poorly in that category. A
+rating of 8 means that a player will be outstanding in that category.
+
+© Starters and Bench
+BAT
+Player's batting style:
+Ris right-handed Lis left-handed  $ is switch-hitter
+H
+
+Player’s hitting ability. A high rating means that a player will
+be more likely to make contact with the ball.
+
+===== Page 12 =====
+
+PW
+
+Player's hitting power. A player with a high rating will be
+more likely to hit home runs.
+
+SP
+
+Player's speed. A high speed rating is the sign of a great base-
+stealer.
+
+TH
+
+Player's throwing power. A player with a high rating will
+have a better chance of making the play at third-base after he
+picks up a ball in deep right field.
+
+FD
+Player's fielding ability. A high rating means that a player is
+more likely to make a catch and less likely to make errors.
+
+© Pitchers
+
+STL
+Pitcher’s style.
+
+Ror L signals whether the pitcher is right-handed or left-
+handed.
+
+OV is an overhand style. 3/4 is a three-quarter arm style.
+SD is a sidearm style. SU is a submarine style.
+
+EN
+Pitcher’s long-term endurance. A high rating means that a
+pitcher will tire slowly and recover quickly.
+
+SK
+Sinker. A pitcher with a high rating throws sinking pitches well.
+
+oO
+
+This chart shows all the possible pitches.
+
+First select the aim:
+
+Left high Center high Right high
+Left middle Center Right middle
+Left low Center low Right low
+Start the windup:
+
+Press A
+
+Then select the type of pitch:
+
+Slow left curve Fork ball Slow right curve
+Left curve Straight Right curve
+
+Fast left curve Fast ball Fast right curve
+
+Holding down any of the directions during the windup will
+increase the amount of curve or variation in speed of the
+pitch. In other words, for a pitch just a hair faster than
+normal, just tap DOWN during the windup. For your top-
+speed fast ball, hold DOWN during the windup.
+
+© Information Window
+
+To pause the game and call up the window of information
+about your pitcher, press START.
+
+===== Page 13 =====
+
+Pitching
+
+Pitching control is divided into two parts: before-the-windup and
+during-the-windup.
+Before-the-windup you can select the pitcher’s position on the
+
+pitching rubber. Press the L and R buttons on top of the controller
+to move the pitcher left and right.
+
+Before-the-windup you also select the general aim of the pitch
+with the control pad. For example, pressing UP on the control
+pad will deliver a high pitch. Pressing simultaneously DOWN
+and LEFT will deliver a low pitch on the left edge of the plate
+(looking at the plate from the catcher’s perspective).
+
+Start the windup by pressing the A button.
+
+During-the-windup you select the kind of pitch. The kinds of
+pitches you can select are:
+
+Fast ball: DOWN
+
+Fork ball (slow): UP
+
+Left curve: LEFT on control pad
+Right curve: RIGHT on control pad
+
+The longer you hold down any of these directions during the
+windup, the more the ball will accelerate, slow down, or curve.
+
+RC
+Right curve ball. A pitcher with a high rating can accurately
+throw curves to the right.
+
+LC
+Left curve ball. A pitcher with a high rating can accurately
+throw curves to the left.
+
+SP
+Speed. A high rating means a lightning fast ball.
+
+FC
+Force. A high rating means that a batter won't be able to hit
+the ball as far.
+
+How to Change the Ratings and Names
+
+Highlight the group of players you want to adjust (STARTERS,
+BENCH, or PITCHER) and press A.
+
+Press UP or DOWN to choose the player you want to adjust.
+Press LEFT or RIGHT to choose the category you want to adjust:
+STL, BAT, H, etc. Then press A repeatedly until the rating has
+been adjusted as you want.
+
+===== Page 14 =====
+
+To adjust a player name,
+highlight the name and press
+A. Then select the letters you
+want to use for the name.
+When you're finished selecting
+the letters, highlight EXIT and
+press A.
+
+Press B to return to the groups
+of players. Highlight EXIT and
+press A to return to the Select Mode screen.
+
+Playing an All-Star Game
+
+You can play an all-star game at any time by selecting ALL STAR
+from the Select Mode screen. Then a screen will appear asking you
+
+to select your league. Press LEFT or RIGHT to high ight either league,
+
+and press A. Then press LEFT or RIGHT to decide
+bat in the top or bottom half of the inning.
+
+Now the computer will
+generate your all-star roster.
+For each position on the team,
+the computer will scroll very
+
+quickly through the top players
+in the league. Press A to select
+cone of these players. Proceed
+through the whole team until
+you have a complete roster.
+
+er you will
+
+Base Running
+
+The control pad on the Super NES controller corresponds to the
+four bases:
+
+Second Base
+UP
+Third Base First Base
+LEFT RIGHT
+Home Plate
+DOWN
+
+To advance a runner, hold down the direction of the next base
+you want the runner to go to, and press B. For example, if your
+batter comes to first base, and you want him to go on to second
+base, hold down UP while you press B.
+
+To send back a runner, hold down the direction of the base you
+want the runner to go back to, and press A. For example, if you
+decide that your runner cannot make it all the way to second base,
+hold down RIGHT on the control pad and press A.
+
+To steal a base, just advance
+whichever runner you want to
+steal. For example, if you
+have a runner on second, and
+you want him to steal third,
+press B while holding LEFT on
+the control pad. The runner
+will take off as soon as the
+pitcher goes into his windup.
+
+===== Page 15 =====
+
+© Bunting
+To bunt (tap the ball with
+the bat), press the X
+button. Pressing UP or
+DOWN at the same time
+
+will cause your batter to
+hold his bat high or low.
+
+@ Information Window
+
+To call up the window
+showing information about your batter, press START before
+the pitcher goes into his windup.
+
+© Switch-Hitting
+If your batter is a switch hitter, you can switch him to the
+opposite side of the plate by pausing the game (press START),
+then pressing SELECT.
+
+© Substituting Batters
+
+To substitute in another batter, pause the game (press START),
+then change your lineup as described in the section on the
+Batting Order/Member Change screen. Note that while you
+are at bat, you can only substitute in a player for the batter —
+you cannot make other changes to the lineup.
+
+Records During a Regular Season
+
+Ifyou are playing a regular
+season, you can access records
+from the SELECT MODE screen.
+
+The records you can look at are:
+
+Your SCHEDULE — You can
+scroll through the schedule for
+the entire season by pressing
+UP and DOWN on the control
+id. Your team’s next game is
+Fighlighted in yellow brackets.
+
+The STANDINGS of both
+leagues. These are statistics
+for entire teams. The left edge
+of the game lists each team’s
+rank next to its abbreviation.
+To the right of the abbreviation
+are several statistics including:
+
+G -Total number of games
+
+pl
+W -Wins.
+L  -Losses.
+
+PCT—Percentage of games that the team won.
+GB —Number of games back from first place,
+
+===== Page 16 =====
+
+More data for individual teams are available when you highlight
+a team with the blue bar by pressing UP and DOWN on the
+control pad. At the bottom left of the screen are:
+
+AVG - Combined batting average for all the players on a team.
+
+ERA - Combined earned run average for all the pitchers on
+a team.
+
+HR — Number of home runs a team has scored.
+SB — Number of bases a team has stolen.
+R — — Number of runs a team has scored.
+
+In the bottom right corner of the standings screen is the win-loss
+performance of the highlighted team against all the other teams in
+the league.
+
+To see the standings for the other league, press A. Press B to
+return to the Records menu.
+
+The RECORDS for all the players on any team. After you select
+Records, the Select Team screen will appear, so that you can pick
+which team’s records you want to see. Then the team’s batting
+record will appear. To see statistics for different batters or for
+your pitchers, press UP and DOWN on the control pad. To see
+the complete statistics for any single group of players, press LEFT
+or RIGHT on the control pad. If you're curious about what a
+specific statistic is, check Abbreviations in Super Bases Loaded 2,
+on page 29. Press B to return to the Records menu.
+
+Finally, the batting LEADERS are the top ten batters in the league.
+Press RIGHT and LEFT on the control pad to see their statistics.
+Press B to return to the menu.
+
+oo»
+
+Changing Your Pitcher
+
+Replacing your pitcher works just like changing your lineup. On
+the Batting Order/Member Change screen, press UP or DOWN
+on the control pad to highlight the pitcher. Then press A. In the
+bottom-right box, your pitching staff will appear. Select the
+pitcher you want, and press A to bring him into the game. If you
+don’t want to replace your pitcher, press B.
+
+Batting
+
+@ Moving the Batter
+
+You can move your batter while he’s in the batter’s box in
+order to get a better swing. Just press UP, DOWN, LEFT,
+and RIGHT on the control pad.
+
+® Swinging
+To swing, press the A button. If you press DOWN at the
+same time, your batter will swing low (increasing the chance
+of fly balls or pop ups). If you press UP at the same time,
+your batter will swing high (increasing the chance of line
+drives or ground balls). If you tap the A button very briefly,
+you can check your swing.
+
+After your batter makes contact with the ball, he drops his bat
+and runs to first base automatically.
+
+o»
+
+===== Page 17 =====
+
+The box in the top right corner shows detailed information about
+the highlighted player.
+
+The middle box on the right, labeled “P.” shows your pitcher.
+The box in the bottom right corner shows players on the bench.
+
+To see more detailed information about any of your players, press
+UP or DOWN on the control pad to highlight the player. The box
+in the top right corner will list statistics for that player. When you
+are ready to play the game, highlight OK! and press A.
+
+Changing Your Lineup
+
+To make a change in your lineup, go to the Batting Order/
+Member Change screen and highlight the player you want to
+remove from the lineup. Then press A. The highlighted player
+will begin to flash, and a new highlight bar will appear. You
+now have two choices:
+
+If you just want to change the batting order, you can swap the
+highlighted player with another player in the lineup by pressing
+UP or DOWN to highlight the second player. Press A to complete
+o swap. The names will reappear in their new places in the
+ineup.
+
+IF you want to remove the highlighted player from the lineup, press
+LEFT or RIGHT to move the highlight bar to the list of players on the
+bench. Highlight the player you want to use, and press A. The
+first player will appear on the bench, and the new player will
+appear in the lineup. If you don’t want to substitute a player, press
+B. Note: During game play you can substitute players, but cannot
+make changes to the batting order.
+
+»
+
+Selecting a Stadium
+
+There are three different
+stadiums in Super Bases
+Loaded 2. At the start of an
+exhibition game or a season,
+you can select your stadium.
+The stadiums all have different
+dimensions and different
+patterns of dirt and grass.
+
+To highlight your stadium,
+press LEFT or RIGHT on the
+control pad, then press A to select it.
+
+The Match Announcement Screen
+
+The match announcement
+screen appears briefly before
+the start of each game. For
+an exhibition game, it
+displays the logos of the two
+teams scheduled to play and
+awind meter. The wind
+meter contains an arrow
+showing the direction of the
+wind in relation to home
+plate, and a speedometer
+showing the wind speed.
+
+===== Page 18 =====
+
+For a regular season game, the match announcement screen The box on the left side of the screen lists your batting order. For
+displays additional information: each batter it displays a:
+
+The name of the city where the game is being played.
+
+The meeting number. For example, if the teams have met five €© Name
+times before, the screen will display MING 6. The batter's name.
+
+The number of times the player has defeated this team (W).
+
+. ® Swing
+The number of times the player has lost to this team (U). L, R, or S for left-handed, right-handed, or switch-hitting. A
+The percentage against this team. For example, if you switch-hitter will automatically stand opposite of the pitcher: if
+defeated this team twice and lost to them once, the percentage the pitcher is left-handed, the switch-hitter will automatically
+would be .667. : bat right-handed. To control the switch-hitter manually, see
+the section on Batting.
+
+Batting Order /Member Change Screens @ Status Icon
+
+For batters, this symbol shows whether a player is hot, just
+warm, or off-his-mark. A hot player will have a green status
+box that flexes when you highlight it. A player who's just
+warm will have no icon. A player who's afthismatk will
+
+Just before the start of each
+match and whenever you
+press A during a PAUSE in
+the game, the Batting Order/
+
+Member Change screen will have an orange icon that pants when you highlight it.
+appear. This screen gives For pitchers, this symbol shows whether a player is hot,
+you a chance to see who's rested, or exhausted. The green dot means a pitcher is hot,
+scheduled to play, who’s on no dot means a pitcher is rested, and an orange dot shows
+the bench, and to make any that a pitcher is exhausted. Resting a pitcher be a game or
+adjustments to your players two will usually restore him to at least “rested” condition.
+or batting order.
+
+»

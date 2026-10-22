@@ -1,0 +1,508 @@
+# Midway Arcade's Greatest Hits
+source: https://archive.org/details/snes_manual_archive
+pdf: Midway Arcade's Greatest Hits ( USA ).pdf
+region: USA
+pages: 12
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+© DMIDWAY
+
+Midway Home Entertainment Inc.
+1800 South Business Hwy 45
+Corsicana, Texas 75110
+
+Asteroids®, Battle Zone™, Centipede®, Missile Command™, Super Breakout® and Tempest™ are trademarks of
+Atari Corporation. Asteroids©1979, Battle Zone©1980, CentipedeO1981, Missile Command©1981, Super
+Breakout©1982, Tempest©1981 Atari Corporation. All Rights Reserved. Used under license. Compilation ©1997
+Atari Game Corporation. Midway® is a trademark of Midway Games Inc. Developed by Digital Eclipse.
+
+PRINTED IN USA
+
+SNS-AW7E-USA |
+
+MIDWAY
+
+PRESENTS
+
+INSTRUCTION BOOKLET
+
+eth \| <> MIDWAY
+
+CONTENT RATEO BY
+ESRB
+
+SUPER NINTENDO
+
+ENTERTAINMENT SYSTEM
+
+===== Page 2 =====
+
+NINTENDO, SUPER NINTENDO ENTER-
+TAINMENT SYSTEM AND THE OFFICIAL
+OF AMERICA INC, ©1991 NINTENDO OF
+AMERICA INC.
+
+IMPORTANT ---
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY
+BEFORE USING YOUR NINTENDO ® HARDWARE SYSTEM,
+
+GAME PAK OR ACCESSORY. THIS BOOKLET CONTAINS
+IMPORTANT SAFETY INFORMATION.
+
+e
+e
+e
+e
+e
+e
+e
+THIS PRODUCT HAS BEEN RATED BY THE V
+ENTERTAINMENT SOFTWARE RATING BOARD. FOR
+INFORMATION ABOUT THE ESRB RATING, OR TO
+COMMENT ABOUT THE APPROPRIATENESS OF THE RATING,
+
+PLEASE CONTACT THE ESRB AT 1-800-771-3772.
+
+Mipway Customer Support
+
+903 874-5092
+
+10:00am - 6:30pm / Central Time
+Monday - Friday
+
+Oia
+Sell Out
+fe
+
+THIS OFFICIAL SEAL IS YOUR
+ASSURANCE THAT NINTENDO HAS
+APPROVED THE QUALITY OF THIS
+PRODUCT. ALWAYS LOOK FOR THIS
+‘SEAL WHEN BUYING GAMES AND
+ACCESSORIES TO ENSURE
+COMPLETE COMPATIBILITY.
+
+ALL NINTENDO PRODUCTS ARE
+LICENSED BY SALE FOR USE
+
+ONLY WITH OTHER AUTHORIZED
+PRODUCTS BEARING THE OFFICIAL
+NINTENDO SEAL OF QUALITY.
+
+eocececcccc o>
+
+LICENSED BY
+
+ARE TRADEMARKS OF NINTENDO
+
+@eeee
+e
+e
+\/
+GETTING STARTED 6 2.iae cs oes ebm 1
+CONTROLER Sats Hasleeoes & Soro ]
+GAME SELECTION .......--- aE acs usueRnee
+IN-GAME OPTIONS ..........---2-06 3-6
+CONTROLLING THE GAMES .......----+ + 7
+ASTEROIDS? «firs fi Fs ell F Seto 8
+BATTIEZONER I ng tte choices ob es 9-10
+MISSILE COMMAND 220. Joi cee ces 11
+CENTIPEDE 1.2.0... ce eee eee eres 12
+Supee BREAKOUT sac <5 Foce ce oe ces 13
+TEMPEST “igo She ec eicre ee 14
+CREDITS Pees ss ea tieee ces eee . 15-16
+High SCORES: 22.253 .c 0s see ee 17-19
+WARRANTY .....- Weeelene hens Hawes 20
+
+Wife cccccccccccccce
+
+===== Page 3 =====
+
+is
+
+<
+
+WARNING: Never Try to Insert or Remove a
+Game Pak When the Power is ON!
+
+@ Turn the power OFF on your Super NES’.
+
+e Make sure a Controller is plugged into the #1 Port
+of the Super NES® System.
+
+e Insert the Game Pak into the slot on the Super
+NES*. Press firmly to lock the Game Pak in Place.
+
+e Turn the power switch ON.
+
+e@ When you see the Title Screen, Press the
+Start Button.
+
+CONTROLLER
+
+Before you begin your game, familiarize yourself with the
+Super Nintendo controller.
+a. R Button
+
+X Button
+
+e
+e
+e
+e
+e
+Vv
+SELECT
+Button
+
+START
+Button
+
+L Button
+
+Control Pad
+
+Y Button
+
+Wife cccccccccccccccccce
+
+Following the title
+screen, the Game
+
+Selection Screen will
+appear. Select the
+
+classic game you wish to play, then
+
+use the controls indicated below to start a game. If
+you wait a few seconds before selecting a game, a
+demo of the highlighted game will run. Press the
+START Button to play the game displayed in the
+demo, or press any other button to end the demo.
+
+Select
+Game
+
+Highlight Game
+
+===== Page 4 =====
+
+e
+e
+e
+e
+e
+
+] Paver Start - Play a 1 player game.
+
+2 Player Start - Play a game with friend. Players
+alternate turns against the computer (not available
+in Battlezone).
+
+GAME Options - The Game Options Screen for
+each of the games varies slightly. They are specific
+to the game you're accessing the menu from. You
+can make simple adjustments to settings such as
+Highlight Options Select Option the amount of Lives to start the game, the amount
+Se ee ee of points needed to achieve a Bonus Life, the
+Game Difficulty level and Player Speed.
+
+e
+
+(eee eee eee
+
+=
+
+— \
+
+d
+@ @
+To access In-Game Options for a particular
+game, select the game from the Game Selection
+Screen, then select Game Options (see Game
+Options, next page).
+
+& Wife cc cccccccccccccccce veveMeceesseeceeeepe @
+
+===== Page 5 =====
+
+v
+
+PLAYER SPEED (Not available in BATTLEZONE Or
+Asteroips) - This options speeds up or slows down e
+the paddle, shooter or crosshair used during the \@
+game.
+
+Missites AFTER (BaATTLEZONE only) - You can select
+the amount of points (5,000 - 30,000) to be
+achieved before those loud, evasive missiles start to
+make things difficult for you. The higher the setting,
+the longer it will be before you see them.
+
+& SS CR
+
+V
+
+Minimum RATING (Tempest only) - When set to 9,
+new players will always be able to skip ahead to at
+least level 9 on the start screen. If set fo Variable,
+new players may be able to skip ahead further if
+the high score is sufficiently high.
+
+DEMO Mobe (Tempest only) - Turn this option ON to
+allow access to all levels on the Start Screen. You
+will also be able to skip ahead levels during game-
+play by pressing the SELECT Button.
+
+Nogte: With this option set to ON, you will not be
+able to enter new high scores.
+
+sessseveescesttcred GM
+
+===== Page 6 =====
+
+The following diagrams (next page) display the
+controls for each game. Have Fun! All games may
+be played wih ¢ as el as 2 players with the
+
+exception of Bat
+
+NOTE: To abort a game and return to the Game
+Menu, press Select, Start, L and R simultaneously.
+
+(eee
+
+Mfc ccceccccccccccccccs
+
+| THRUST
+
+PAUSE
+HyYPERSPACE
+
+RotATe RIGHT
+
+OBJECT OF THE GAME
+Destroy the floating Asteroids and
+any hostile space ships you encounter
+for points. The large space ships don’t aim and fire
+too well, but look out for the smaller ships. Use
+Hyperspace to escape serious trouble.
+
+eeeeeeeeeneaeoeeoeeede@
+
+===== Page 7 =====
+
+eiel ee. 6 8:2 © ARCADE CONTROLS —~<@feceeccecccce
+
+e
+ns e
+e Pe Switcu to Fire Ricut Ti j
+ATIVE READ
+
+Me Conrrois Forwarp e
+° «
+
+A LEFT TREAD
+| Forwarp tn
+e
+e
+LEFT TrEaD 2
+
+REVERSE
+
+Game
+
+Rotate RIGHT
+
+we wea
+
+Fire
+
+W@[c cc cccccce
+
+OBJECT OF THE GAME :
+Eliminate all enemy Tanks, Missiles and Super Tanks.
+
+REVERSE ‘Switch TO The Radar at the top of the screen will track your
+Turn RIGHT CONTROLS ;
+Wuite Movine ARCADE enemy. Look for a red dot flashing on the
+Radar screen, then seek and destroy!
+Wfocccccccccccccccccce eeeeeenenee2e02e2e0e202028080808080
+
+===== Page 8 =====
+
+/ Move
+cove Crossy, AIR
+OSSHAIR —-Rignr
+
+Down
+
+MrY\ea rear Ae True ff aaaer
+
+===== Page 9 =====
+
+love Lert AND Move RIGHT
+
+SLOW
+
+serve BAU
+
+Move RiGHT
+FAST
+OBJECT OF THE GAME
+Keep the ball between your paddle and the bricks,
+Attempt to break through the bricks, and clear
+them out completely. Complete various levels
+and accumulate points.
+
+Wife cc cccccccccccccccce
+
+SUPERZAPPER
+
+Go To NEXT LEVEL
+(DEMO MODE
+ust BE ON)
+
+Pause
+
+ROTATE
+CLOCKWISE
+
+ROTATE
+COuNTER-
+CLOCKWISE
+
+OBJECT OF THE GAME
+Move quickly around the perimeter of the hole. Fire
+at your enemies as they attack and try not to let
+them reach the top. Of course, the intensity
+
+increases as you reach the higher, more
+difficult levels!
+
+eeeeoe oe eee
+
+===== Page 10 =====
+
+eeoecee eeoce0e eeeoe e@ooe
+e e ® e
+e e e e
+e e e e
+a Dieitat Ecupse SOFTWARE TEAM e e 0
+V.P. of Product Development e
+
+e e e Bi
+ill Hindorff e
+
+ANDREW Ayre e e
+
+Andrew served as Executive Producer of Arcade’s Greatest Hits™, e Producer ©
+The Atari Collection 1 and is President of Digital Eclipse Software. e Wallace Poulter i
+JOHN KOWALSKI : Testing Manager e
+John co-authored Atari Collection 1 with Matt Schneider. Mike Kruse e
+John was responsible for Asteroids, Battlezone, Super Breakout and v ©
+game sounds. In his spare time, John enjoys working with his Lead Testers e
+obsolete color computers. Jesse Meza Il , Jose Amparan & Randy Slafsky e
+e
+Matt SCHNEIDER Testers e
+
+Matt co-authored Atari Collection 1 with John Kowalski.
+Matt was responsible for Centipede, Missile Command
+and Tempest. Playing these games in the arcade
+17 years ago, Matt never would have guessed he’d be
+translating them to a home system.
+
+Todd Papy, David Ortiz, Alex Beran, Matt Gilbert, Pablo Buitrago, C.J.
+Perez, Donald Gavino, Kevin Dines & Rob Reininger
+
+e
+
+e
+
+e
+
+e
+
+e
+
+e Special Thanks
+
+e Howard Lehr, Debra Heinz, Greg Allen, Brian Fritts
+
+V and Finn Jensen - Manager of the Scandia Family
+
+JEFF VAVASOUR Center in Suisun, Ca.
+Jeff served as Producer and Technical Consultant.
+
+Special Thanks to the Original Atari Team Members
+
+Douc Jerrerys & DAvE LARSON Ed Rotberg, Ed Logg & Dave Theurer
+Doug and Dave provided additional sounds for Battlezone
+and Asteroids, respectively. i
+Mipnicut DesiGn & IMAGE IMPRESSIONS Print Design and Production
+Midnight Design and Image Impressions provided additional artwork. Debra Austin, Jon Mongelluzzo, Shawn Murphy,
+Robert Shepherd, Erin Shems & Dave Young
+DAN FitNER
+Dan provided additional technical support. Special Thanks
+
+Deborah Fulton, Don Knapp & Bruce Adams
+Wifccccccccccccccccccce eocccceccccccccccccc o>
+
+===== Page 11 =====
+
+
+
+===== Page 12 =====
+
+Wife ccccccccccce
+
+Wife ccccccccccccce
+
+MIDWAY HOME ENTERTAINMENT INC. warrants to the original purchaser of this Midway
+Home Entertainment Inc. software product that the medium on which this computer program
+is recorded is free from defects in materials and workmanship for a period of ninety (90) days
+from the date of purchase. This Midway Home Entertainment Inc. software program is sold
+“as is,” without express or implied warranty damages of any kind, and Midway Home Enter-
+tainment Inc. is not liable for any losses or damages of any kind resulting from the use of this
+program. Midway Home Entertainment Inc. agrees for a period of ninety (90) days to either
+repair or replace, at its option, free of charge, any Midway Home Entertainment Inc. software
+product, postage paid, with proof of purchase, at its Factory Service Center.
+
+This warranty is not applicable to normal wear and tear. This warranty shall not be applic-
+able and shall be void if the defect in the Midway Home Entertainment Inc. software prod-
+uct has arisen through abuse, unreasonable use, mistreatment or neglect. THIS WAR-
+RANTY IS IN LIEU OF ALL OTHER WARRANTIES AND NO OTHER REPRESENTA-
+TIONS OR CLAIMS OF ANY NATURE SHALL BE BINDING ON OR OBLIGATE MIDWAY
+HOME ENTERTAINMENT INC. ANY IMPLIED WARRANTIES APPLICABLE TO THIS
+SOFTWARE PRODUCT, INCLUDING WARRANTIES OF MERCHANTABILITY AND FIT-
+NESS FOR A PARTICULAR PURPOSE, ARE LIMITED TO THE NINETY (90) DAY PERI-
+OD DESCRIBED ABOVE. IN NO EVENT WILL MIDWAY HOME ENTERTAINMENT INC.
+BE LIABLE FOR ANY SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+RESULTING FROM POSSESSION, USE OR MALFUNCTION OF THIS MIDWAY HOME
+ENTERTAINMENT INC. SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an implied warranty lasts and/or exclu-
+sions or limitations of incidental or consequential damages so the above limitations and/or
+exclusions of liability may not apply to you. This warranty gives you specific rights, and you
+may also have other rights which vary from state to state.
+
+Mipway Customer Support
+903-874-2683
+10:00am -6:300Pm CENTRAL TIME
+Monpay - FRIDAY
+
+Mipway Home ENTERTAINMENT INC.
+1800 S. Business Hwy 45
+Corsicana, TX 75110
+
+Patent Numbers: U.S. Nos. 4,442,486/4,454,594/4,462,076/5,371,792; Europe Nos. 80244;
+Canada No. 1,183,276; Hong Kong No. 88-4302; Singapore No. 88-155; U.K. No. 1,535,999
+
+eoeccccccccccccccc co o>

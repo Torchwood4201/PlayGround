@@ -1,0 +1,589 @@
+# Chessmaster, The
+source: https://archive.org/details/snes_manual_archive
+pdf: Chessmaster, The (USA).pdf
+region: USA
+pages: 13
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+“THE
+
+(CHESSMASTER:
+
+Instruction Booklet
+
+SUPER NNTENDD
+
+===== Page 2 =====
+
+‘WARNING: PLEASE READ THE ENCLOSED CONSUMER
+
+INFORMATION & PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO® HARDWARE SYSTEM OR GAME PAK,
+
+‘The Chesmastr, Copytight® 1989-1991 The Software Toolworks, Inc
+Portions Copyright 1986, 1988 IHP. All rights reserved.
+
+The Chesmaser® is a rgistered tademark of The Software Tookworks, Inc.
+
+Mindscape@ isa rostered trademark of Mindscape Inc.
+
+Published by:
+Mindscape Ine
+
+A Sofewate Toolworks Company
+60 Leveroni Court
+
+Novato, CA 94949
+
+(415) 883-5157
+
+‘This Game is Licensed by Nintendo® for play on the
+
+ENT ST STE
+
+icenseo By
+eee ee
+See Serene
+
+Bimsintinooorawencane. GHA MNTENDOSEALOY ALT
+
+Table of Contents
+
+Ralls of Chess 1
+‘Tie Vices istinncdect aici a
+Special Moves. =
+‘Checkmate, Stalemate, and Draw eumosnsmnunsnnnenonen
+Game Controls. =
+Starting the Game... 10
+Playing with The Chessmaster it
+Menu 12
+‘War Room ..
+
+===== Page 3 =====
+
+Rules of Chess
+
+‘Chess is a two player game: Player 1 is White and Player 2 is Black
+(Cegardless ofthe actual colors on a given chess set). In The Chessmaster
+you can play the computer or another player. When you play the
+‘computer, normally you are White.
+
+Setting Up the Board
+Ac the beginning of a new game, The Chessmaster automatically ses up
+the pieces on the Chessoard, according to the offical rules of Chess. For
+yout information, the pieces ae setup as shown below. Here are some
+‘general rues to help you learn the proper setup:
+
+The sua ise lome phe ope « Wlete @lee Ob),
+
++ Kings and Queens are directly opposite each other.
+
++ The White Queen goes on a white square and the Black Queen.
+
+goes on a black square (Queen on color)
+
+Objective
+‘The goal of chess is to checkmate your opponent’s King. Unlike other
+pieces, The King isnot captured and removed; instead, he is trapped so
+that he cannot move. When a King is atacked, he is checked and must
+get out of check om the next move. If there is no escape the position isa
+‘checkmate and the checkmated sie loses.
+
+===== Page 4 =====
+
+The Pieces
+
+‘White always moves first, then the players take turns. You can move one
+piece during each turn, except in casing, where you can move your King
+and a Rook (see SrEctat Moves). ‘The Knight is the only piece that can
+jump over other pices. All other pieces must move long unblocked
+horizontal, vertical, or diagonal lines. You cannot have two of your own,
+pieces on a square, but you can capture an enemy piece by landing on the
+the square where it is standing, When you capture an enemy, you remove
+icand put your own piece there. In The Chessmaster, captured pieces
+automatically disappear from the board.
+
+The King
+
+‘The King is the most important piece in the game, When your King is
+checkmated (trapped), you lose. Except for cating, che King can only
+‘move one square in any direction, as shown by the dotted squares in the
+diagram above. ‘The King may not move into check, that is, onto a
+square under atack by an enemy piece.
+
+‘The Queen is the most powerful piece in the game. The Queen can
+move any numbers of squares in any direction that isnot blocked, as
+shown by the dotted square in the diagram above.
+
+The Bishop
+
+‘The Bishop can move any numbers of squares in a diagonal direction that
+is not blocked, as shown by the dotted squares in the diagram above
+
+Each side has one Bishop on a white square and another on a black
+square. Each Bishop is restricted to diagonal moves along its colored
+squares
+
+===== Page 5 =====
+
+The Rook
+
+‘The Rook can move any numbers of squares in horizontal or vertical
+directions that is not blocked, as shown by the dotted squares in the
+diagram above. Each side has wo Rooks. They are not restricted by
+colored squares.
+
+The Knight
+
+‘The Knight move isa special L-shaped jump and its the only piece that
+can jump other pieces. The Knight’ jump is 2 squares horizontally or
+vertically, then I more square at right angle, as shown by the dotted
+squares in the diagram above. ‘The Knight always lands on a square that
+is the opposite color from where ic stars. ‘The Knight does not capeure
+pieces it jumps; it only capcures an enemy when i lands on its square.
+Each side has two Knights.
+
+4
+
+‘The Pawn moves straight ahead, bur ic caprures diagonally. On the fist
+rove, the Pawn has the option of moving 1 or 2 squares, after that ie may
+move I square. In the diagram above, the dotted squares show possible
+forward moves, and the astrisked squares show possible capeures. Note
+that che White Pawn has 2 possible forward moves (Fst move), but the
+Black Pawn has 1 possible forward move, because it is not on its first
+move, Ifa Pawn gets tothe other side ofthe board (row 8) its
+promoted to another pice (other than a Pawn or King). So you can end
+up with more than 1 Queen and more than 2 Bishops,
+Rooks. See PLAYING WITH THE CHESSMASTER,
+
+===== Page 6 =====
+
+Special Moves
+
+‘There ae two special moves that are important in Chess: En pasant and
+castling, The Chesmastercan execute both of them.
+
+En Passant
+
+‘This French phrase means ‘in passing’ and is a special Pawn capture. ‘The
+capeure is made when a player moves a Pawn 2 squares to avoid capture;
+however, the capture is made exactly as ifthe player had only moved the
+Pawn I square,
+
+In the diagram above, che Black Pawn moves up 2 dotted squares. On its
+next turn, the White Pawn may capcure the Black one. If the White
+player does not execute this move on its next turn, that Black Pavin is safe
+from en pasant capcue for the rest ofthe game, Note that each Pawn
+‘can be threatened in this way.
+
+Castling
+
+Each player may ale once during a game, if certain conditions are met.
+astling ets you move 2 pieces at once: your King and a Rook. The
+King moves 2 squares left or right coward one of his Rooks. At the same,
+time, the Rook goes to the square beside his King chat is toward the
+center of the board, as shown in the diagrams below.
+
+“To castle, neither piece may have moved before. Also, the King may not
+castle out of into, or through check, Finally, there may not be any pieces
+of either color between the King and the casting Rook.
+
+Caslingis an important move, because it lets you move your King to
+safety, while letting the Rook become more strategically active. When the
+‘move is legal, you can cae co either side or noc ata
+
+===== Page 7 =====
+
+Checkmate, Stalemate and Draw
+
+Now that you understand how the pieces move, you need to know how
+to keep your opponent from checkmating your King.
+
+‘You may not move into check. For example, you may not move ontoa
+diagonal with your opponents Bishop if there are no other pieces
+berween che Bishop and your King. Ifyou are in check, you have three
+options
+
+1, Capture the attacking piece.
+
+2, Put one of your other pieces beoween the attacker and your King.
+
+3. Move the King avay'from the attack:
+
+Ifyou cannot do any ofthese things, you are checkmated and you lose!
+
+Ifyour King is notin check, but you can make no legal move, then you
+have a stalemateand the game isa draw or tie, There are two other ways
+you can have a draw:
+1. 3 Repetition Draw If the same board position occurs 3 times
+during the game, you have a draw.
+2, 50 Moves without progress: IF 50 moves occur without progress,
+you have a draw.
+
+‘The Chessmaster keeps track of both postion repetitions and number
+of moves.
+
+X Button
+—ABotton
+
+Control Pad
+Select Button
+Start Button
+
+Control Pad: Moves the hand around and the selection line up and
+down.
+
+Select: Switches back an forth between the Chesboard and the Menu
+Also confirms a setting change.
+
+Start: Starts the game and continues after a message.
+
+A,B, X ¥: Press any button to selec an action, to change a setting, and
+to pick up pieces. In this guide, A stands for any ofthese buttons.
+
+L: Take back a move
+R: Replay a move that you'e taken back.
+
+===== Page 8 =====
+
+1, Put The Chessmaste® in your Super Nintendo Entertainment
+System® (NES).
+
+2. Turn on the Super NES.
+
+3. At The Chesmaster tte screen, press Start.
+
+‘When the Chesboard appears, youre ready to play ch
+
+Playing with The Chessmaster
+
+‘To move one of your pieces:
+
+1, Use the Control Pad to position the hand over the piece you want
+to move,
+
+2. Press A to pick up the piece.
+
+3. Use the Control Pad to move the piece to the desired destination
+
+square
+4, Press A to release the piece
+Note: The Chesomaster tells you if you attempt to make an illegal move.
+
+“To Castle, move your King 2 squares towards the Rook. ‘The Rook then
+‘moves into place automaticaly
+
+‘To capture a pawn En Passant, move yout pawn to the appropriate
+destination square. (Right behind the enemy pawn.)
+
+Ifone of your pawns reaches row 8, The Chessmaster asks you to promote
+the pawn. ‘To promote the pawn, press on of these buttons to select the
+piece:
+
+A Queen —_X Rook
+B Bishop Y Knight
+
+===== Page 9 =====
+
+Menu
+
+Use the Menu to select actions and change settings. To go to the Menu,
+press Select.
+
+‘Note: When Menu options are blue (instead of white), it means they ate
+not available due to playing circumstances.
+
+‘The frst 10 Menu options are actions; the last 10 are settings. See Action
+Options and Setting Options.
+
+To select an action:
+1. Use the Control Pad to move the arrow to your selection
+2. Press A to start the action.
+
+‘The Chesboard appears
+To change a setting:
+1. Use the Control Pad to move the arrow to your selection,
+
+2. Press A until the serting you want appears.
+3. Press Select to confirm the sting
+
+‘The Cheuboard appears
+Action options
+
+‘The action options include:
+
+Begin New Game: Stop any game in progress and stare a new game.
+
+Change Sides: When it’s your turn, you may ask The Chessmaster to play
+yout pieces while you ply its pieces. Use this ar the beginning of the
+‘game to make The Chessmaster play the
+
+Play Against Chessmaster: Play a game of Chess against The Chessmaster,
+
+Autoplay: Watch The Chessmaster play agains itself, Press Select to
+interrupt and go to the Menu.
+2
+
+Play Against Another Human: Play a game of Chess against another
+player with The Chessmaster acting as referee. When it’s Black’s turn, the
+second game controller controls the hand.
+
+Force Chessmaster to Move: When The Chesmasteris thinking about is
+move, selecting this forces an immediate move. Also used in Infinite level
+of play to make The Chessmaster move.
+
+Get Advice From Chessmaster: The Chessmaster demonstrates the move
+ic recommends for you.
+
+‘Take Back/Replay Mode: Enter a mode where you can take back some
+oral moves made so far during che game, In this mode, the hand
+changes to © and you can do the following:
+
+1. Press Lo take back a move.
+2. Press Rto replay a move.
+3. Press Select to resume normal play.
+
+‘Note: You can press L to take back a move directly from the Chessboatd.
+
+Set Up The Board: Arrange the pieces on the board. The Chesboard is
+displayed along with the Grab Bag, which holds pieces.
+
+‘To remove a piece from the Chesboand:
+
+1. Use the Conteol Pad to position the hand over the piece you wane
+to remove.
+
+2, Press A to pick up the piece.
+
+3. Use the Control Pad to move the pice off the board.
+
+4, Press A to drop che piece.
+
+te: You cannot remove the Kings.
+
+===== Page 10 =====
+
+‘To add a piece wo the board:
+1, Use the Control Pad to positon the hand over the Grab Bag.
+2. Press Ato pick up the piece.
+3. Use the Control Pad to move the piece over the destination square
+on the board.
+4, Press A to drop the piece.
+
+You may set up the board with the following restrictions:
++ You may not put pawns on rows I or 8
+‘+ The number of Queens, Rooks, Knights, o Bishops that you may
+place depends on the number of missing pawns.
+
+While in Serup Made, press Select to go to the Setup menu. To select one
+oft allowing oon, prs the Cool Pad to highlight is then
+press
+
+‘Car the Board, Clas bond of ll pieces except the Kings.
+Set Up Initial Position: Places pieces in positon for a new game.
+Side to Move Firs is White: Indicates whose turn ic wil be when
+you rerurn to the game. Use this selection to toggle berween White
+and Black.
+
+Setup Complete: Reeurns to game.
+
+Leave and Abandon Changes: Returns to game and ignores
+anything you did during setup.
+
+Solve For Mate: You must be plying against The Chessmaster to use this
+‘option. Ask The Chessmasterto examine the current position and tell you
+whether a forced mate exists ina given number of moves. If The
+Chessmaster finds a solution, those moves are added the move list and you
+‘are put into Take Back/Replay Mode,
+
+To view the solution, pres Start
+If there is no solution, press Start to continue.
+“To interrupt The Chessmaster while iis solving fora forced mate, press
+
+Select.
+
+14
+
+Setting options
+‘The setting options are:
+
+Level of Play is Newcomer 1: Set che level of play. You can select ftom
+16 levels of play:
+
+* Newcomer 1: Easiest level.
+
++ Newcomer 2: Very easy level
+Levels 1-13: Increasingly challenging games. ‘The numbers after
+the level number tell you the number of moves and amount of time
+‘The Chessmaster will take at this level. For example, Level 1 is 60/5,
+which means 60 moves in 5 minutes; Level 7 is 30/45, which
+means 30 moves in 45 minutes.
+Infinite: The Chessmaster thinks about its move until you select
+Force Chessmaster to Move.
+
+Deep Thinking Is On/Of Set the thinking ability of The Chessmaster:
++ On: The Chessmaster chinks ahead while you think about your
+* Of The Chessmaster only thinks about its current move and only
+during its turn
+
+Opening Book Is On/OME Set the ability of The Chessmaster co consult
+its library of over 150,000 positions during the early part of the game:
+* On: The Chessmaster consalts it library.
++ Off. The Chessmaster doesnt consul its library.
+
+‘Teaching Mode Is On/OF: This feature is helpflifyou ae jus earning
+the game. Set ability of The Chessmaster shows you all the egal moves
+fora particular piece when you pick up that piece:
+
+* On: The Chesmastershows you moves
+
+* Of: The Chessmaster docsnit show you moves.
+
+Note: Teaching Mode is not available in 3D mode.
+
+===== Page 11 =====
+
+Board Coordinates On/Off: Set the rank and file display for the
+Chesboard
+* On: You se the rank and file coordinates (1-8 and A-H) along the
+edge of the board.
++ Off: You dont see the rank and file coordinates along the edge of
+the board
+
+White Pieces on Bottom: Set the rotation of the Chesboard so the
+White pieces ae in one of these positions:
+Bottom
+
+Top
+
+Left side
+
+Right side
+
+‘Note: When you rotate the board, the rank ara fle coordinates (set with
+Board Coordinates On/Of) also rotate.
+
+Board View Is 2D: Sethe Chshoard pay:
+Board View Is 2D: You see the normal full screen display of the
+Chessboard.
+* Board View Is 3D: You see a three dimensional view of the
+Chesboard.
+Board View Is War Room: You go to che War Room, which
+includes several informational features. See War Room.
+
+Chess Set is Staunton/Fantasy: Used to set the type of chess set.
+* Staunton: Standard chess set.
+© Fantasy: Fantastical chess set
+
+Note: ‘The Fantasy chess set is not available in che War Room.
+Background Masi Is On/OME, Used to set background music.
+01
+
+ickground music is on
++ Of: Background music is oft
+
+‘Mate in 1 Move(s): Used with Solve for Mate. Set a number from 1 t0
+5.10 tell The Chesmaster the number of moves to use to solve fora forced
+mate.
+
+16
+
+‘War Room
+
+Inthe War Room, a smaller version of the Chesboardis displayed along
+swith several informational features:
+‘+ Move List: Shows the lat 4 moves made by each player in rank
+and file coordinate notation.
+
+Example: White
+‘AS-h6
+
+Bs
+di-d2+
+d2-d4
+
++ indicates a Check; ++ indicates a Checkmate.
+
+‘+ Best: The best line of moves The Chessmaster has found so far.
+
+Hint: The move that The Chesmaster considers your best bet given
+your position,
+
+Captured Pieces: Shows all ofthe pieces that have been removed
+fiom the board
+
+PL: The ph, which is the number of moves ahead that The
+Chesimasters thinking about.
+
++ MV: The number of egal moves in the current ply
+
+===== Page 12 =====
+
+Limited Warranty
+
+“Mindscape In. warrants to the original purchaser ofthis product thatthe recording
+‘medium on which the Game Paks recorded willbe re from defect in material and
+‘workmanship fr nine (00) days fom the dat of purchase, Defective media tured by
+the purchaser during the nner (90) day pti wil be replaced without charge, provided.
+thatthe restned media have no been subjected ko misuse, damage or excessive wear
+
+Retun defective media to point of purchase. You must include a dated proof of purchase,
+bre statement describing the deft, and your reuen ade.
+
+Mindscape In. docs not warrant that the Game Pak will met the purchase’ specific
+requirements, ANY STATEMENTS MADE CONCERNING THE UTILITY OF
+"THE GAME PAK ARE NOT TO BE CONSTRUED AS EXPRESS OR IMPLIED
+WARRANTIES,
+
+"THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES, WHETHER
+‘ORAL OR WRITTEN, EXPRESS OR IMPLIED. ANY IMPLIED WARRANTIES
+INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE, ARE EXCLUDED.
+
+INNO EVENT WILL MINDSCAPE INC. BE LIABLE FOR INCIDENTAL OR.
+CONSEQUENTIAL DAMAGES OF ANY KIND IN CONNECTION WITH THE
+GAME PAK.
+
+‘Some sate donot allow the exclusion or limitation of incidental or consequential
+_damages or limitations on how long an implied warranty lasts, so che above limitation or
+csclusion may no apply to you. This warranty gives you specific legal ight, and you may
+also have othe ights which vary fiom sate a state. Ades all corespondence to:
+“Mindscape Inc, 60 Leveroni Court, Novato, CA 94949, or el:
+
+UsA (415) 883
+UK (0464) 831-761,
+
+Aseria (02) 899-2277
+Japan (0473) 63.9111
+18
+
+Technical Support
+
+For technical support in the USA, please contact:
+Mindscape Ine.
+A Software Toolworks Company
+60 Leveroni Court
+Novato, CA.94949
+‘Telephone: (415) 883-5157
+For technical support in Europe, please contact:
+Mindscape International
+‘The Coach House, Hooklands Estate
+Scaynes Hill
+‘West Sussex
+England, United Kingdom
+RHI7 7NG
+‘Telephone: (0444) 831-761
+
+For technical support in Australia and New Zealand, please contact
+Mindscape International
+516 Gladstone Road
+Castle Hill, New South Wales
+Australia 2154
+‘Telephone: (02) 899-2277
+
+===== Page 13 =====

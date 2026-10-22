@@ -1,0 +1,534 @@
+# Michael Andretti's Indy Car Challenge
+source: https://archive.org/details/snes_manual_archive
+pdf: Michael Andretti's Indy Car Challenge ( USA ).pdf
+region: USA
+pages: 16
+text_method: text
+ocr_language: n/a
+ocr_dpi: 0
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+
+
+===== Page 2 =====
+
+                                                                                      Limited WBJTanly
+WARNING: PLEASE READ THE ENCLOSED CONSUMER                                              Bullet-Proof Software, Inc. warrants to the original purchaser of
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY                                           this Bullet-Proof Software product that the medium on which this
+BEFORE USING YOUR NINTENDO®HARDWARE SYSTEM                                              computer program is recorded is free from defects in materials
+                                                                                        and workmanship for a period of ninety (90) days from the date
+OR GAME PAK.                                                                            of purchase. This Bullet-Proof Software program is sold "as is"
+                                                                                        without express or implied warranty of any kind, and Bullet-Proof
+                                                                                        Software is not liable for any losses or damages of any kind
+                                                                                        resulting from use of this program. Bullet-Proof Software agrees
+                                                                                        for a period of ninety (90) days to either repair or replace, at its
+                                                                                        option, free of charge, any Bullet-Proof Software product, with
+                                                                                        proof of date of purchase, at its factory.
+                                                                                        This warranty is not applicable to normal wear and tear. This
+                                                                                        warranty shall not be applicable and shall be void if the defect in
+                                                                                        the Bullet-Proof Software product has arisen through abuse,
+                                                                                        unreasonable use, mistreatment or neglect. This warranty is in
+                                                                                        lieu of all other warranties and no other representations or claims
+                                                                                        of any nature shall be binding on or obligate Bullet-Proof
+                                                                                        Software. Any implied warranties applicable to this software
+                                                                                        product, including warranties of merchantability and fitness for a
+                                                                                        particular purpose, are limited to the ninety (90) day period
+                                                                                        described above. In no event will Bullet-Proof Software be liable
+                                                                                        for any special, incidental, or consequential damages resulting
+     LICENSED BY                                                                        from possession, use or malfunction of this Bullet-Proof Software
+                                                                                        product.
+(Nintendo®)                                                                             The provisions of this warranty are valid in the United States only.
+                                                                                        Some states do not allow limitations on how long an implied
+Nintendo, Super Nintendo Entertainment System and the official seals are registered     warranty lasts or exclusions of consequential, or incidental
+trademarks of Nintendo of America Inc. ©1991 Nintendo of America Inc.                   damages, so the above limitations may not apply to you. This
+                                                                                        warranty gives you specific rights, and you may also have other
+                                                                                        rights which vary from state to state.
+
+
+
+
+                                                                                        Bullet-Proof Software, Inc.
+This official seal is your assurance that Nintendo has approved the quality of this     8337 154th Ave. N.E.
+product. Always look for this seal when buying games and accessories to ensure          Redmond, Washington 98052
+complete compatibility with your Super Nintendo Entertainment System. All               (206) 861-9200
+Nintendo products are licensed by sale for use only with other authorized
+products bearing the official Nintendo seal of quality.
+
+===== Page 3 =====
+
+/ r;r.-1:·ii~·1:····A·Nifii"i:T~1;5   I
+li~W1~~~1E~~ CBRLLEllftfj
+INSTRUCTION MANUAL
+
+            Special thanks to
+          Michael Andretti for
+             his professional
+     racing advice and cooperation
+        in producing this game.
+
+
+
+
+            Bullet-Proof Software®
+
+===== Page 4 =====
+
+                                                                                        CREDITS
+    THE CHALLENG E
+    Speed and glory. That's the goal in Michael
+                                                                               ·.
+                                                                                                     RACING ADVISOR
+    Andretti's Indy Car Challenge-to travel faster and
+                                                                                                         Michael Andretti
+    with more control than the competition, to win
+    more races and to outrun Michael Andretti at his
+    own game. The championship circuit is a whirl-                                         BULLET-PROOF SOFTWARE STAFF
+    wind tour through 15 North American courses and
+    a series opener in Australia. The courses range
+                                                                                                    Pradw:t Manaprs:
+    from the classic oval tracks to the winding street                                                     Kris Wakida
+    circuits and road courses. Some tracks are flat                                                         John Knoll
+    while others feature hills.                                                                          Spacial Thanks:
+    If you finish in the top 6, you can review your                                                       Scott Tsumura
+    achievements at the end of every race with an
+                                                                                                         Sheila Boughten
+    instant replay that shows the race from your
+                                                                                                          Patricia Whisler
+    choice of 3 view modes. If you win, and keep
+    winning throughout the entire circuit you'll finish                                                   Betsy Scougale
+    the series with a showdown against the champ:
+    Michael Andretti.                                                                        DEVELOPED BY GENKI CO., LTD.
+
+                                                                               ,-
+
+
+C1994 Bullet-Proof Software, Inc. All rights reserved. Indy Car™ used under
+license from IMS Properties, Inc. "Michael Andretti" used under license from
+Andretti International, Inc. Bullet-Proof Software and BPS are registered
+trademarks of Bullet-Proof Software, Inc.
+
+
+
+INDY CAR CHALLENGE                    2                                        ,    INDY CAR CHALLENGE          27
+
+===== Page 5 =====
+
+-Noles                             ConI enls
+                                          The Challenge ........ ,_ ..... ,_,_ ............. ,_ .......... ,_ 2
+                                          Introduction ................................................. 4
+                                          Racers, Start Your Game! ............................. 6
+                                               Selection Screen ..................................... 6
+                                               Password ................................................ 7
+                                               Name Entry ............................................ 8
+                                               Options ................................................... 9
+                                          Controls ...................................................... 10
+                                          Modes of Play ............................................. 12
+                                               Championship Mode ............................ 12
+                                               Practice Mode ...................................... 17
+                                               Versus Mode ........................................ 18
+                                          Car Adjustments ......................................... 20
+                                          Pit ............................................................... 21
+                                          Instant Replay ............................................ 22
+                                          Hints & Strategies ....................................... 24
+
+
+
+
+I N D Y CAR CHA L L E N 6 E   26   INDY CAR CHALLENGE                 3
+
+===== Page 6 =====
+
+lnlraductian                                                      Nates
+       Hailing from the first family of American racing,
+       Michael Andretti is the most successful Indy Car
+       driver of the decade. From the 1990 through 1993
+       racing seasons, Michael has amassed more Indy Car
+       victories and pole positions, and has led more laps
+       than any other driver in the sport - even though he
+       raced in Formula One in 1993, missing that year's
+       Indy Car series altogether.
+       Born on October 5, 1962, Michael Andretti began
+       his amazing career racing go-karts at the age of
+       nine. Since then, he has won championships in
+       Formula Ford, Super Vee, Formula Atlantic and Indy
+       Car, including the 1991 PPG lndyCar World Series
+       Championship. Since his Indy Car debut in 1983,
+       Michael has gone on to become one of racing's
+       brightest stars and is widely regarded as the most
+       skilled driver on the circuit.
+
+
+
+
+                                                             )·
+
+
+
+
+INDY CAR CHALLENGE         4                                      I N D Y C A R CH A L L E N GE   25
+
+===== Page 7 =====
+
+Hints & Strategies                                                             As a professional race
+                                                                               car ctr·iver, you can't
+                                                                              think of racing as a . b
+Vehide Sebap: When first playing this game, it is                             w·     .    .                 JO .
+        important that you set up your Indy Car for                              l11ning Is Your job ..
+        maximum balance and acceleration on all street
+        circuits and road courses. Until your skill level
+                                                                 ..            racing is Your lif,e.
+                                                                               During the season
+        increases, control and quick acceleration are more                    :You're constantly ~hink­
+        important than high top speed.                                       mg about the next race
+        As your skill level improves, trade off some of the                  as Well as evaluating
+        balance for more speed . The "default" setting for                   every
+        each track is programmed for drivers with average                          . detail of the one                                     ~
+                                                                            you Just ran. On the off s
+        experience.
+                                                                            ready for the series a.he eason, You 're getting
+Pit Strategies: If a pit stop is inevitable during the race,               racing to be successful a;~t· You have to live
+                                                                           Wh                                 I .
+        plan to make your stop as early as possible. It's                        en I'm competin I             ,
+        much easier to make up lost "pit" time in four laps                of anything els           g, ~on t have time to th;~•-
+        than it is in two. Be careful that you don't pit too                   .                e. What It b ·                    U.UJ.l\.
+                                                                          to IS finn;,-,,... the P ~           asically comes down
+        early, however, or you may not be able to finish the                         "'-U."'6      en ect balan
+                                                                          and restramt ..,. ,                      ce between guts
+        race without refueling again.                                                         · iou ve got to h
+                                                                          courage to go for the a                 . ave the Skill and
+Steering: Keep a light touch while steering . Quick, light               you've also got to kn ggressive moves, but
+        reflexes w ill result in success, while too much heavy           Car racing isn't .           ow When to back off. Indy
+                                                                                                Just about sp d . ,
+        handling w ill result in crashes.                                knowmg that Your fI.                   ee , It s also about
+                                                                                                     ercest co         .
+                                                                        there With You .                         mpetitor is right
+Practice: Spend time in the practice mode developing                                           m your skin d .
+                                                                        stretch the limit .                  ' armg You to
+        your driving skills and learning the 16 tracks. The                                    s Just a little bit m
+        more familiar you are with each of the tracks, the              Welcome to my                                 ore.
+        better you will do in competition.                             I hope YOU like it.     WOrld. ..~..
+
+
+                                                                                                      Michael Andretti
+
+INDY CAR CHALLENGE          24                                        INDY CAR CHALLENGE                5
+
+===== Page 8 =====
+
+Racers, Simi                                                       Manual
+                                                                          In the "Manual" view mode, you control and adjust
+
+Yaur Game!                                                                the viewpoint from which you see the replay. For a
+                                                                          wide view that encompasses more of the field,
+                                                                          press the R Button. Press the L Button to zoom in
+       Michael Andretti's Indy Car Challenge is a racing
+       game for one or two players. Insert the Game Pak
+                                                              ..
+                                                              ,           for a tighter look at the action. In this mode, you
+                                                                          can rotate the camera view 360' around your Indy
+       into your Super NES and turn on the power. The                     Car by pressing Right and Left on the Control Pad.
+       title screen will appear. When you're ready to play,
+       press the Start Button to move on to the selection
+       screen.                                                     Auto
+                                                                          In the "Auto" view mode, you view the replay in a
+                                                                          combination of viewpoints which are controlled by
+Selection Screen                                                          the game.
+       There are a few decisions to make before you can
+       start racing. The selection screen allows you to                   Nata:
+       choose from three modes of play, enter a password                  During the replay, press Up and Down on the
+                                                                          Control Pad to select your view. You can change
+                                                                          your viewing mode at any time dur_ing the replay.
+                                                                          To exit the replay mode at any time, press the Start
+                                                                          Button to pause the game, then press the L & R
+                                                                          Buttons simultaneously .
+
+
+
+
+                                                              ..
+
+INDY CAR CHALLENGE          6                                      INDY CAR CHALLENGE         23
+
+===== Page 9 =====
+
+Instant Replay                                                              to continue in the championship circuit, enter your
+                                                                            name and access other playing options. The modes
+                                                                            of play are explained beginning on page 12.
+          After every practice race, and if you finish in the               Explanations of the other selections are as follows:
+          Top 6 of a championship race, you'll be given the
+          option of viewing a real-time replay of the entire
+          run . To view the replay, select "Yes" at the         ..   Passward
+                                                                            --eLEASE~EO.T.ER-f!ASStllORD-­
+
+                                                                                           R?OQOl        4Gf---
+
+                                                                                        n l ? ~ 4 S fi 7 R ~
+                                                                                        8 G 0 F G H J H l rn
+                                                                                        n P Q R ~ T UWX V
+                                                                                        z.
+                                                                                        PRESS     STftRT    TO    EXIT
+           prompt, and press the Start Button . There are
+           three replay viewing modes for you to choose
+           from: Camera, Manual and Auto.                                   If you've earned a password from a previous cham-
+                                                                            pionship circuit session, you can access the password
+                                                                            entry screen with this option. Move the cursor using
+Camera                                                                      the Control Pad. Press the A Button to enter each
+           In the "Camera" view mode, you review the race                   letter of the password (press the B Button to back
+           from the perspective of a multitude of track-level
+           camera angle views.                                  ..          up). Then press the Start Button when the password
+                                                                            is entered correctly to return to the selection screen.
+                                                                            Choose "Championship" to rejoin the circuit where
+                                                                            you left off.
+
+
+
+
+I N DY CAR CH A L L E N 6 E    22                                    INDY CAR CHALLEN&E           7
+
+===== Page 10 =====
+
+Name Entry                                                            Downforce
+                                                                              High downforce increases your grip on the track,
+                                                                              but decreases your top speed and acceleration rate.
+       -- P.LEASE = EO.TER~V.OUR...            nmnf.__                        Low downforce is good for speed and acceleration,
+                                                                              but offers less control.
+                           K. GtLLlflffit
+                           r: .F!LORI/                           ..   &ear Ratio
+                                                                              A high gear ratio offers a high top speed at a
+                                                                              slower acceleration rate. A low gear ratio decreases
+                                                                              the top speed and increases the acceleration rate.
+                   AB®POEFGH f',J
+                   H L mn n r o R ~ T
+                   UU KYZ 0 1 ? 3
+                   4 5 fi 7 8 9 .                                     Pit
+                                                                              If you are running low on fuel, it's time to make a
+                   PRESS        START   TO   EXIT                             pit stop. To enter the pit area, follow the yellow
+                                                                              arrows pointing to the side of the track. Once you
+                                                                              enter the pit area, your crew takes control of your
+       This selection allows you to enter your name so that                   Indy Car. You regain control once the adjustments
+       it will appear in the list of drivers during the                       have been made and you exit the pit area.
+       announcements of qualifying positions and race
+       results. Move the cursor using the Control Pad.
+       Press the A Button to select each letter and press
+       the B Button to back up'. If you want your name to
+       appear in the same way as the other drivers' names,
+       ent er your first initial and your last name. Press the
+       Start Button to go back to the selection screen
+       when the task is complete.
+                                                                 ..
+                                                                 ,
+
+
+
+
+IND\' CAR CHALLENGE         8                                         IND\' CAR CH ALLEN GE       21
+
+===== Page 11 =====
+
+Car Adjushnents                                                          Options
+                                                                                The game options screen allows you to customize
+                                                                                the assigned controls, to choose an automatic or
+          Before all practice, qualifying and championship
+          races, you are allowed to make adjustments to                         manual transmission for your vehicle (automatic
+          three characteristics of your vehicle. They are as                    transmission is the default), to select the level of
+          follows:                                                              difficulty and to listen to the sounds of the game
+                                                                l   •
+                                                                                before you play.
+
+
+
+
+Tire Pressure
+          High tire pressure gives you less grip on the road,
+                                                                                Once you've mastered the "Normal" difficulty level,
+          but increases your top speed and acceleration rate.
+          Low pressure gives you more balance and control,          .
+                                                                    \.          try competing in the "Pro" level where you race
+                                                                                without the benefit of Michael's full coaching, turn
+          but less overall speed .
+                                                                                indicator arrows and automatic braking around
+                                                                •·              curves.
+
+
+
+
+I N DY CA R CHA L L E N GE    20                                         INDY CAR CHALLENGE          9
+
+===== Page 12 =====
+
+Canlrals
+           This game features a realistic Indy Car "rolling
+           start." As soon as the lead car crosses the starting
+           line, you'll have control over your vehicle.
+                                                                          . I•;
+Tap L/ R Buttans -------,---!-+--~
+
+
+                                               -->+---+-1~ X Buttan
+Cantral
+Pad - - - - - - 1 - -1-L-                                    AButtan
+                                               .......,~--+-;~ B Buttan
+
+Salact Buttan -~:::------::;:=:::'._-+--~'' ~----'--+-- Y Buttan
+Start Buttan - --      - -- - - - - '
+
+                                                                                         The split-screen view displays the action from
+Cantral Pad Left                                                                         behind both Indy Cars, along with the relative
+           Press Left on the Control Pad to steer your car to                            positions of the cars in the middle of the screen.
+           the left.                                                                     The first car to complete the race wins.
+           Move cursor to the left in selection screens.
+Cantral Pad Righi
+           Press Right on the Control Pad to steer your car to
+           the right.
+           Move cursor to the right in selection screens.
+XBuHan
+           Press the X Button to accelerate.
+
+
+
+
+INDY CAR CHALLENGE               10                                               INDY CAR CHALLENGE         19
+
+===== Page 13 =====
+
+Versus Made                                                       A Button
+                                                                         Press the A Button to brake.
+                                                                         Press to select a highlighted menu option.
+                                                                  Y Button
+                                                                         Press the Y Button to shift into reverse.
+                                                                  B Button
+                                                                         Press the B Button to cancel a selection.
+                                                                  R Button
+                                                                         If you've selected a manual transmission in the
+                                                                         options screen, press the R Button to upshift.
+                                                                         In the "Manual" replay mode view, press the R
+                                                                         Button to see a wider camera view.
+                                                                  L Button
+                                                                         If you've selected a manual transmission in the
+       The two-play,er simultaneous Versus Mode is a split               options screen, press the L Button to downshift.
+       screen race on any of the 16 championship circuit                 In the "Manual" replay mode view, press the L
+       courses. Select a course using the Control Pad to                 Button to zoom in for a closer view.
+       move the cursor, then press the Start Button to
+                                                                  Start Button
+       move on.                                                          Starts the game. Pauses and unpauses the game
+       Each player can choose from five different vehicle                during races and replays.
+       setups in the Versus Mode. Some settings are                      If you wish to exit a race or replay, press the Start
+       geared for higher speeds and acceleration, while                  Button to pause the action, then press the Land R
+       others emphasize better control and handling                      Buttons simultaneously to exit.
+       through the curves. Make your decision based on
+       the layout of the selected course. You can scroll
+       through the various setups by pressing Left and
+                                                             ..
+       Right on the Control Pad. Press the Start Button
+       when you're ready to race.
+
+
+
+INDY CAR CHALLENGE        18                                      INDY CAR CHALLENGE          11
+
+===== Page 14 =====
+
+Modes of Play                                                         You'll also receive a point if you earned pole
+                                                                      position and another point if you were the top lap
+                                                                      leader. If you have the highest point total among
+      There are three ways to play Michael Andretti's                 the racers on the circuit after the 16th race in
+      Indy Car Challenge. You can join the championship               M~mterey, you'll be able to challenge Michael
+      circuit, practice on any of the 16 circuit courses or           Andretti to a final race.
+      challenge a friend to a two-player simultaneous
+      race on any of the circuit courses.
+      Note: Before attempting to compete in the champi-
+                                                               Practice Mode
+      onship circuit, be sure to develop your driving skills          In Practice Mode, you can choose to speed through
+      in the practice mode.                                           any of the 16 courses on the championship circuit.
+                                                                      When the map appears, press left and right on the
+                                                                      Control Pad to move the cursor to various races on
+Championship Mode                                                     the circuit. Then press the Start Button to begin a
+      The one-player championship circuit follows a 16                practice run on the selected course. Practice will
+      race season which leads to the ultimate racing                  ready you for your attempt to earn the champion-
+      challenge. If you accumulate more points than your              ship circuit title.
+      computer-controlled opponents over the season,
+
+
+
+
+NOY CAR CHALLENGE          12                                  INDY CAR CHALLENGE         17
+
+===== Page 15 =====
+
+                                                                                                               you'll earn t he chance to test your racing abilities in
+                                                                                                               an all-out competition with M ichael Andretti . The
+                                                                                                               circuit begins in Australia then moves to North
+                                                                                                    I
+                                                                                                               America and concludes in Monterey. After every
+                                                                                                '
+
+
+
+
+       When the race is over, you'll see the race results
+       and series rankings. You'll earn circuit points
+       depending on your achievements in the race. The
+       point breakdown is as follows:
+       Position                   Points           Position                    Points
+                                                                                                               race, you'll earn a password. Jot the password
+       1st .. .. . .. ... .. .. . .. . . .. . 20   7th .. ....... .... ... ...... . 6
+                                                                                                               down and use it to re-enter the circuit at that point
+       2nd ... ........ ... .... .. 16             8th .... .. .. ... ... ...... ... 5                         during another playing session.
+       3rd ..................... 14                9th ......... ............. . 4
+                                                                                                               Michael Andretti offers advice about every course
+       4th . . .. .. .. ... . . .. . .. .. . 12    10th .. .......... .. .. .. .. . 3
+                                                                                                               before the racing begins. Make sure to take note of
+       Sth ............. .. ... .. . 10            11th ....... ... .... ..... .. 2
+                                                                                                               his advice and to look over the course map before
+       6th ............. .......... 8              12th .. . .. . .. .. .. . . . .. . . . . 1
+                                                                                                               you start. When you move on to the next screen,
+                                                                                                               you'll have the option to adjust the tire pressure,
+                                                                                                               downforce and gear ratio of your vehicle. These
+                                                                                                               factors are explained on page 20.
+
+
+
+
+INDY CAR CHALLENGE                           I6                                                         INDY CAR CHALLENGE           13
+
+===== Page 16 =====
+
+       Every championship race begins with a two lap
+       qualification round. This allows you to get ac-
+       quainted with the course and to earn a good
+       starting position. At the end of the round, your
+       time will be compared to the qual ification times of
+       the computer-controlled cars. A good time will get
+       you closer to the front of the pack for the main
+       event. The best time will earn you the pole posi-
+       tion. If you exit out of the qualification round, you
+       will be assigned the last starting position.
+
+
+                                                                             C'lll"l'llnl Lap   YOW' Car   Fual&a111a   Shifli1111 PHilian   ~   1
+
+
+
+
+                                                                          During the race you'll be able to keep track of your
+                                                                          position, the current lap, the speed of your vehicle,
+                                                                          the tachometer (useful if you're using a manual
+                                                                          transmission), the remaining fuel and the current
+                                                                          shifting position. The main section of the screen
+                                                                          shows the track, your Indy Car and, in most cases, a
+                                                                          marker that displays the position of the vehicle
+                                                                          immediately in front of you .
+                                                                          The display in the upper left corner of the screen
+                                                                          displays all the vehicles' positions on the track.
+                                                                          "1 P" indicates your position, and the large yellow
+                                                                          dot indicates the position of the vehicle leading the
+                                                                          race . The small yellow dots represent all of the
+                                                                          other drivers ahead of you, and the small gray dots
+                                                                          indicate the positions of the vehicles behind you .
+
+
+
+
+INDY CAR CHALLENGE         14                                  '   INDY CAR CHALLENGE                15

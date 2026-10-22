@@ -1,0 +1,2641 @@
+# MLBPA Baseball
+source: https://archive.org/details/snes_manual_archive
+pdf: MLBPA Baseball (USA).pdf
+region: USA
+pages: 19
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+Asta
+"Es"
+
+INSTRUCTION BOOKLET
+
+———s
+
+ELECTRONIC ARTS”
+
+"
+P.O. Box 7578, San Mateo, CA 94403-7578 = ——%
+PRINTED IN JAPAN ‘ELECTRONIC ARTS"
+
+===== Page 2 =====
+
+About the Artists
+
+Founded in Hy, 1988, Visual Concepts wos creoted wih the goal of bringing video gome development o new
+heights. Costing of flnted st of wenysx employees, Visual Conceps strives to eae grat video
+games through innovative design and technica excellence.
+
+Tim Metkns, the leod programmer fr MLBPA Bosebll iso 26-yeor-old native of Columbus, Oia, who
+grodvoted from Ohio Stoe University wih «degree in computer science. He hasbeen wih Vsul Concepts for 1
+year, MLBPA Bseboll isthe fist game Tim has worked on, He characterizes his 8 months onthe projet a ©
+time of no sleep" ond lst of long nights. Hs favre basbal eam Cncinati Reds.
+
+LICENSED BY
+‘SYSTEM AND THE OFFICIL SEALS ARE REGISTERED POSTE eS
+oe
+=
+ee
+ane
+
+TABLE OF SOMENTS
+
+Starting The Game
+Commond Summary.
+Teams.
+Game Modes.......
+One Gome
+League Playoff
+The Seri
+full Season.
+Restore Season
+Teammotes/Head-to-Head
+The Field Of Pay.
+The Count........
+Pousing The Gome
+The Options Screen
+
+Sending In Players from the
+Double Switch...
+Instont Replay.
+Defensive Positioning .
+Other Scores Today...
+League Standings...
+Season Schedule
+User Control Roster
+
+‘Automatic Controls.
+
+Fickoft Pays.
+Hitting
+
+Bose Running.
+Fielding...
+
+Ctching A Bll
+
+Diving And Jeimping Caiches,
+
+Throwing.
+
+Ga To Bose/Run Down Plays.
+
+Credits ..
+
+===== Page 3 =====
+
+STARTING THE GAME
+
+1. Flip OFF the power switch on your Super Nintendo Entertainment
+System®.
+
+WARNING: Never try to insert or remove a Game Pak when
+the power is ON.
+
+2. Make sure a controller is plugged into Controller Socket 1 on the Super
+NES®.
+
+If you're playing against a friend, plug the other controller into
+Controller Socket 2.
+
+3. Insert the Game Pak into the slot on the Super NES. Press firmly to lock |
+the Game Pak in place.
+|
+
+4. Turn ON the power switch.
+
+The EA Sports and High Score logos appear. If you don’t see them, begin
+again at step 1.
+
+COMMAND SUMMARY
+
+Pitching
+
+Throw Pitch A (also see Pitch Types below)
+Position pitcher on mound Control Pad LEFT/RIGHT
+PITCH TYPES
+
+Fast ball A+ Control Pad DOWN
+Sinker A+ Control Pad UP
+Curve to left A+ Control Pad LEFT
+Curve to right A+ Control Pad RIGHT
+PICK OFF PLAY
+
+Pick off throw to first B + Control Pad RIGHT
+Pick off throw to second B + Control Pad UP
+
+Pick off throw to third B + Control Pad LEFT
+Fielding
+
+THROWING TO A BASE
+
+Throw to first A+ Control Pad RIGHT
+Throw to second A+ Control Pad UP
+Throw to third A+ Control Pad LEFT
+Throw to home A+ Control Pad DOWN
+Throw to a cutoff man A
+
+DIVING CATCH
+
+A + Control Pad in the direction you want to dive.
+
+JUMPING CATCH
+Press A without using Control Pad.
+
+===== Page 4 =====
+
+RUNNING TO A BASE (RUN DOWN)
+
+Run toward first B + Control Pad RIGHT
+Run toward third B + Control Pad LEFT
+Run toward second B + Control Pad UP
+Run toward home B + Control Pad DOWN
+CHANGING FIELDER CONTROL
+
+Switch control to fielder
+
+nearest a ball B
+
+Batting
+
+Full swing A (press and hold)
+Checked Swing A (tap)
+
+Bunt X (press ond hold)
+Base Running
+
+Run toward first B + Control Pad RIGHT
+Run toward third B + Control Pad LEFT
+Run toward second B + Control Pad UP
+
+Run toward home B + Control Pad DOWN
+
+NOTE: Runners automatically circle the bases after a home run, but
+don’t run for extra bases.
+
+RUN BACK (RETURN TO PREVIOUS BASE)
+
+Run toward first A+ Control Pad RIGHT
+Run toward third ‘A+ Control Pad LEFT
+Run toward second ‘A+ Control Pad UP
+
+TEAMS
+
+MLBPA™ Baseball consists of two leagues, each of which are divided into East
+
+and West divisions:
+
+A League
+East
+Baltimore
+Boston
+Cleveland
+Detroit
+Milwaukee
+New York
+Toronto
+
+N League
+East
+
+Chicago
+
+Miomi
+Montreal
+
+New York
+Philadelphia
+Pittsburgh
+
+St. Louis
+
+West
+Anaheim
+Arlington
+Chicago
+Kansas City
+Minneapolis
+Oakland
+Seattle
+
+West
+Atlanta
+Cincinnati
+Denver
+Houston
+
+Los Angeles
+San Diego
+Son Francisco
+
+===== Page 5 =====
+
+GAME MODES
+
+IGAHETSELECT:
+
+Press START to
+
+There are four Game Modes: One Game, League Playoff, The Series, and Full
+Season.
+
+© To select a Game Mode, press the Control Pad UP/DOWN and press
+START.
+
+One Game
+
+One Game is a single game between two teams. It is not part of a regular
+season or playoff series. One Game play can be between any two teams,
+regardless of what league or division they are in. A team can even play
+against itself.
+
+One Game Options
+© Home Team: Press the Control Pad LEFT/RIGHT to scroll through teams.
+
+© Visiting Team: Press the Control Pad LEFT/RIGHT to scroll through teams.
+
+© Designated Hitter: Replaces your pitcher in the batting order with
+another batter. Press the Control Pad LEFT/RIGHT to turn Designated
+Hitter on/off.
+
+© Field Type: Press the Control Pad LEFT/RIGHT to select Grass or Turf field
+surface.
+
+© Press START to Exit the One Game Option Screen and play ball.
+
+© Press X to cancel and return to the Game Mode screen.
+
+League Playoff
+
+League Playoffs are a best-of-7-games series between the divisional
+champions in both leagues. The winner of a League Playoffs series goes on to
+the League Championship.
+
+Play To Date
+You can play one or more days of the League Playoffs, or through the entire
+League Playoff to The Series, with the Play To Date option.
+
+1. Press the Left or Right button to highlight the date at the top of the
+screen. A selector box appears around the current date on the season
+calendar in the upper section of the screen.
+
+2. Press the Control Pad UP/DOWN/LEFT/RIGHT to change the date. (If
+you advance the date far enough, team names will be replaced by A
+Champs and N Champs, which means you will played through the
+League Playoffs.)
+
+3. To play the season through to the new date, press Y. This will change the
+playoff standings.
+
+4, Press the Left or Right Button to move the selector box around the
+games for that day. Highlight the game(s) you want to play and press B.
+
+===== Page 6 =====
+
+Playoff Team Selection
+
+There are four teams in League Playoffs: The A League Eastern and Western
+Division champions (shown on your screen as A East and A West), and the N
+League Eastern and Western Division champions (N East and N West). When
+you choose League Playoff, four teams are chosen at random as divisional
+champions.
+
+1. If you want to proceed into the playoffs with the randomly chosen
+teams, press START.
+
+2. If you want to select different teams for the playoffs, press the Control
+Pad UP/DOWN to highlight a division.
+
+3. Press the Control Pad LEFT/RIGHT to scroll through the other teams in
+the division. Change any other divisional champions in this same
+manner.
+
+4. When you have chosen the divisional champions you want, press
+START.
+
+5. To leave the team selection screen without starting a playoff series,
+press X.
+
+Starting A Playoff Game
+1. Press the Control Pad LEFT/RIGHT to highlight the playoff game you
+want to play.
+
+2. Press B to mark (or select) that game. If you want to play the other
+playoff game that day as well, highlight it and press B again to mark it.
+
+3. Press START to start playing the playoff games you have marked.
+
+The Series
+
+The Series is the best-of-seven-game championship playoffs between the A
+and N league champions in MLBPA Baseball. When you choose The Series, one
+team from each league is chosen at random as league champion.
+
+© To leave The Series screen without playing a Series game, press X.
+
+Series Team Selection
+© Follow the team selection procedures for Playoff Team selection.
+
+Full Season
+
+Full Season sets up a complete MLBPA Baseball season. You can either play
+out the full season game by game or in sections (a day at a time, a week at a
+time, etc.). League Playoffs follow the conclusion of a Full Season, and the
+Series follows the League Playoffs.
+
+© To leave the Full Season screen without playing a full season, press X.
+
+===== Page 7 =====
+
+Play A Single Game In A Full Season
+1. Press the Control Pad UP/DOWN/LEFT/RIGHT to highlight the game you
+want fo play.
+
+2. Press B to mark (or select) the game. A baseball appears in the box by
+the marked game.
+
+3. Press START to begin playing the marked game
+
+Play Multiple Games In A Full Season
+© Follow the instructions for Playing A Single Game In A Full Season above,
+but mark all the games you want to play on a particular game day.
+
+Play To Date
+1. Press the Left or Right Button, to highlight the date at the top of the
+screen. A selector box appears around the current date on the season
+calendar in the upper section of the screen.
+
+2. Press the Control Pad UP/DOWN/LEFT/RIGHT to change the date.
+3. To play the season to the new date, press Y. To see the new league
+standings, press A. To leave the calendar and return to the game
+
+selection portion of the screen, press the Left or Right Button.
+4. To play selected game(s), press START. If you want to return to the
+
+Game Select screen, press X. (Note: If you press X, you must retstart the
+season or use a password to restore a season.)
+
+League Standings
+© At the Play To Date screen, press A to see the current League Standings.
+
+© Press B or press the Control Pad UP/DOWN to see standings for the
+other league.
+
+© To leave the League Standings screen, press START.
+
+Getting A Password
+1. At the Play To Date screen, press A to bring up the League Standings.
+
+2. Press A to get a Password. Copy down passwords carefully. You cannot
+restore a season without a correct password. (See the Restore Season
+section immediately following.)
+
+If a team wins its division at the end of a Full Season, it advances to the
+League Playoffs.
+
+Restore Season
+Restore Season resumes a partially completed season or playoff at any point.
+To resume a season to a certain date, you must have a password you received
+during previous play.
+
+1. Press the Control Pad UP/DOWN/LEFT/RIGHT to highlight a letter.
+
+2. Press B to select a letter; press A to erase a letter. To erase more than
+one letter, press A repeatedly.
+
+3. Press START to enter a password. If the password is valid, the season is.
+restored. If the password is invalid, you return to the Game Options screen.
+
+4. To leave the Restore Season screen without entering a password, press
+START.
+
+===== Page 8 =====
+
+TEAMMATES /HEAD-TO-HEAD
+
+After you have chosen a Game Mode, Game Mode Options, and Teams, the
+Side Selection screen appears. You choose which team each Player controls
+from this screen. The home team appears on the right side of the selection
+screen and the visitors are on the left side,
+
+A numbered controller icon appears in the middle of the screen for each
+controller you have plugged in. If a corresponding numbered controller icon
+does not appear for one of your controllers, check to see if the controller is
+plugged in securely.
+
+© Press each control pad LEFT/RIGHT to put its corresponding numbered
+icon under either the home or away team.
+
+‘© When you have chosen which team each player controls, press START.
+Make sure you have assigned each numbered controller icon to one of
+the teams; if an icon remains in the middle of the screen when you press
+START, the corresponding controller will not function during the
+subsequent game.
+
+© You can also “lock” a controller onto a team when the controller icon is
+
+under a team name by pressing B. Once all controllers are locked to a
+team, press B again to advance to the Roster screen.
+
+12
+
+THE FIELD OF PLAY
+
+‘Man on bose
+
+Feld Diora
+
+When a batter is up and the ball is not in play, a diagram of the
+infield appears in the lower corner of the screen opposite the batter. If the
+batter is left handed, the diagram is in the left corner; if he is right handed,
+the diagram is in the right corner.
+
+When the ball is in play, a diagram of the entire field appears in the lower
+corner of the screen opposite the batter (left corner if he is a lefty, right corner
+if he is a righty).
+
+Batters, baserunners, and fielders are marked by dots on the field diagram,
+except for fielders under the direct control of a player while the ball is in play,
+who are marked by crosses. Batters, baserunners, and fielders under
+
+13
+
+===== Page 9 =====
+
+Automatic Control are marked by blue diamonds. (See Automatic Control
+section on page 21.)
+
+Players on the field are color coded according to who controls them:
+
+Player 1 - Yellow
+Player 2 - Light Blue
+
+Players on the field under the control of the Super NES appear as dark blue dots.
+
+THE COUNT
+
+While a pitcher is pitching to a batter, the count appears in the corner of the
+screen (in the left corner if a right handed batter is up, in the right corner if
+the batter is left handed).
+
+S stands for strikes, B for balls, and O for outs. The count in each category is
+represented by baseball icons. (For example, S followed by two icons means
+two strikes.)
+
+PAUSING THE GAME
+
+Between pitches, you can pause the game and view the Options Screen and
+current line score.
+
+© Press START to pause the game. Press START again to resume
+gameplay.
+
+14
+
+OPTIONS SCREEN
+
+OPTIONS:
+
+nutoGane
+
+1. Press START to call up the Options Screen.
+
+2. To select an Option, press the Control Pad UP/DOWN to move the
+highlight bar. When the Option you want is highlighted, press A.
+
+Return to Game
+Leave the Options Screen and return to the game.
+
+Batting Order
+
+The Roster screen shows you the names of players on the field at each
+position; your batting order; and the names, positions, batting averages, and
+ERAs, Home Runs (HR), and Stolen Bases (SB) of your players on the bench.
+
+15
+
+===== Page 10 =====
+
+From the Roster screen, you can look at the stats of your starting players,
+rearrange your batting order before a game starts, reassign players on the
+field, and send players on the bench into the game.
+
+Starting Player Stats
+1. To see a players stats, press the Control Pad UP/DOWN to highlight his
+name.
+
+2. Look at the Stats Bar at the top of the screen. The highlighted player’s
+name appears, along with his handedness and stats.
+
+3. A player's handedness appears in the column marked either B or T; B
+stands for bats and T stands for throws. L for left or R for right appears
+beneath them.
+
+4. If a player is a pitcher, his Earned Run Average (ERA) appears. If the
+player is not a pitcher, his stats are Batting Average (Avg), HR, and SB.
+
+Rearranging The Batting Order
+1. Press the Control Pad LEFT/RIGHT, or press the Left or Right button,
+until the selection box is around the batting order in the lower left of
+the screen.
+
+2. Press the Control Pad UP/DOWN to move the highlight bar to the name
+of one of the players you want to reposition in the batting order.
+
+3. Press B to select the highlighted player; a baseball appears by his name
+when he has been selected. To cancel a player selection, press B again
+while the player is highlighted.
+
+4. Press the Control Pad UP/DOWN to highlight the place in the batting
+order where you want to reposition the selected player.
+
+16
+
+5. Press B; the selected player changes places with the player already in
+that position.
+
+Note: You can only change the batting order at the start of a game.
+
+Reassigning Fielders
+1. Press the Control Pad UP/DOWN to move the highlight bar around the
+field diagram.
+
+2. When the highlight bar is on a player you want to assign to a different
+position on the field (for instance, moving him from shortstop to third
+base), press B to select him. A spinning baseball appears beside his name.
+
+3. Press the Control Pad UP/DOWN until the highlight bar is over the name
+of the other player you want to trade positions with. Press B and the
+selected player trades fielding assignments with the highlighted player.
+
+Sending In Players From The Bench
+1. Press the Control Pad LEFT/RIGHT, or press the Left or Right Button,
+until the selection box is around the roster of players on the bench in the
+lower right corner of the screen.
+
+2. Press the Control Pad UP/DOWN to move the highlight bar to the name
+of the player you want to send into the lineup.
+
+3. Press B to select that player; a spinning baseball appears by his name
+when he has been selected. (Press B again to deselect a player.)
+
+4. Press the Control Pad LEFT, or press the Left Button, to move the
+
+selection box to the batting order. Press the Control pad UP/DOWN to
+move the highlight bar to the player you want to replace.
+
+17
+
+===== Page 11 =====
+
+5. Press B to replace the player in the batting order with the selected
+player from the bench.
+
+© To leave the Roster screen, press START.
+
+Double Switch
+
+To perform a double switch, substitute the new pitcher and another player
+from the bench into the batting order. Then, go to the field diagram and make
+the appropriate position switch.
+
+Instant Replay
+
+View the most recent play. When Instant Replay is active, the game “rewinds”
+to the beginning of the last play and pauses. A diagram of the controller
+buttons and a timer appear in the lower left of the screen. While an instant
+replay is in progress, the timer displays the passage of time.
+
+Instant Replay controls are:
+Fast Forward A
+Forward at normal speed B
+Forward a single frame x
+Rewind ”
+
+© To leave Instant Replay mode and return to the Options Screen,
+press START.
+
+Defensive Positioning
+
+From the Defensive Positioning screen, you can reposition your fielders to
+Tespond to specific game situations. There are six Defensive Positioning
+options, all of which are displayed on this screen.
+
+Normal: Standard defensive positioning.
+
+Double Play Depth: Set the second baseman and shortstop for a double play.
+18
+
+Bunt Defense: First and third basemen play close in to charge the ball in
+case there's a bunt attempt.
+
+Guard The Lines: First and third basemen play near the lines to protect
+against hits for extra bases.
+
+All In: All fielders play in to protect a slim lead if there’s a runner on third base.
+
+Infield In: Bring infield in when there is runner at first, fewer than two outs,
+and you are trailing by less than three runs.
+
+To select a Defensive Position:
+
+1. Press the Control Pad UP/DOWN/LEFT/RIGHT to highlight the Defensive
+Position you want.
+
+2. Press A to select the highlighted position.
+
+Other Scores Today
+
+Check scores in other games around the league. In League Playoff and Series
+modes, this option updates you on the won-loss records in the best-of-seven
+game series. This option is not available in One Game mode.
+
+League Standings
+Check current league standings and get passwords. (See the League Standings
+section on page 12 for more information.) Not available in One Game, League
+Playoff, or Series modes.
+
+Season Schedule
+Check upcoming game days in the schedule and other scores on the same
+game day.
+
+19
+
+===== Page 12 =====
+
+To see the upcoming schedule:
+
+1. Press the Left or Right Button to highlight the date at the top of
+the screen,
+
+2. Press the Control Pad RIGHT to advance through the schedule day by day.
+
+Press the Control Pad LEFT to go back through the schedule.
+
+3. Press START leave the Season Schedule screen and return to the
+Options Screen
+
+This option is not available in Single Game mode.
+
+User Control Roster
+Switch between player and automatic control. (See Automatic Controls section
+below for more information.)
+
+AUTOMATIC CONTROLS
+
+Defensive control, offensive control, or both, over any or all players on the
+field can be held by players or turned over to your Super NES.
+
+20
+
+When you first begin a game of MLBPA Baseball, offensive and defensive play
+is player controlled. Control can be shifted back and forth on the User Control
+
+Roster screen, which appears at the beginning of a game and can be accessed
+
+during a game from the Options screen.
+
+When the User Control Options screen appears:
+
+1. Press the Control Pad UP/DOWN to highlight a player. The “F” in the
+column to the right of player stands for Fielding; the “B” in this column
+stands for batting. When F and B are both in the columns marked 1P or
+2P, fielding and batting are both under player control.
+
+2. Press B to put the highlighted player’s batting under computer control.
+Batting control is transferred to the Super NES, indicated by a “B”
+moving from the player column to the column marked CM. To shift an
+entire team’s batting control, press the Left or Right Button,
+
+3. Press B twice to put the highlighted players’s fielding and batting under
+Super NES's control. Fielding and batting control is transferred to the
+Super NES, indicated by the “F” and “B” moving from the player's
+column to the column marked CM. When a fielder is under a player's
+control, a star appears by his name on the field diagram. When a fielder
+is under Super NES control, there is no star by his name.
+
+4. To transfer batting or fielding control from the Super NES back to a
+
+player, press B until the “B” and “F” move from column marked CM
+back to the player's column.
+
+21
+
+===== Page 13 =====
+
+PITCHING
+To position your pitcher, press the Control Pad LEFT/RIGHT. You can position a
+pitcher only before he goes into his windup.
+
+© To throw a pitch, press A.
+
+After each strike that is not hit, the umpire’s call and the speed of the pitch
+appear in the middle of the screen.
+
+Pitch Types
+There are three types of pitches in MLBPA Baseball: Fast balls, sinkers, and
+curve balls. You pick the type of pitch you throw as you throw it.
+
+© To throw a fast ball, press A + Control Pad DOWN.
+
+© To throw a sinker, press A + Control Pad UP.
+
+© To throw a curve ball left, press A + Control Pad LEFT.
+
+© To throw a curve ball right, press A + Control Pad RIGHT.
+
+No matter what type of pitch you throw, its effectiveness is affected by a
+number of factors, such as the pitcher's position on the mound, how hard the
+pitcher can throw, the pitcher's control, and the pitcher's fatigue. (A pitcher
+often shows signs of fatigue after 4 innings on the mound.)
+
+Pickoff Plays
+
+Keep an eye on the diagram of the infield to look for baserunners taking
+big leads. If they look like they are getting too far off base, you can try a
+pickoff play.
+
+© To throw a pick off to first, press B + Control Pad RIGHT.
+© To throw a pick off to second, press B + Control Pad UP.
+© To throw a pick off to third, press B + Control Pad LEFT.
+
+22
+
+HITTING
+
+When a batter comes to the plate for the first time in a game, his name,
+batting average (AVG), home runs (HR), and runs batted in (RBI) appear near
+the bottom of screen. Each subsequent at bat will show the results from the
+player's previous at bat. When the batter’s name is gone, the pitcher will
+begin to throw to the batter.
+
+© Press the Control Pad UP/DOWN/LEFT/RIGHT to position the batter at
+the plate.
+
+© To take a full swing at a pitch, press and hold A.
+
+© To check swing, tap A.
+
+© To Bunt, press and hold X.
+
+BASE RUNNING
+
+Batters who make contact with the ball automatically run toward first base,
+But baserunners won't try for extra bases unless you direct them to. Men on
+base try to advance on line drives and high pop flies, but they won't return to
+base until you direct them to.
+
+To run forward on the base paths:
+© Torun to second pase, press B + Control Pad UP.
+© Torun to the third base, press B + Control Pad LEFT to run to third base.
+© Torun to home plate, press B + Control Pad DOWN to run to home plate.
+To run back on the base paths:
+© Torun back to first base, press A + Control Pad RIGHT.
+
+© To run back to second base, press A + Control Pad UP.
+© Torun back to third base, press A + Control Pad LEFT.
+
+23
+
+===== Page 14 =====
+
+FIELDING
+
+When fielding is in automatic mode, fielders automatically track and attempt to
+catch, but throwing the ball is under player control. When fielding is under
+player control, fielders must be directed to catch and where to throw. If you are
+controlling the fielder, use the diagram to direct your fielder towards the ball.
+
+Catching A Ball In Play
+
+When the ball is in play, but before it has been caught, yellow crosshairs
+appear on the field where the ball will come down; on the diagram of the
+field, a yellow X appears in this spot.
+
+Diving and Jumping Catches
+
+Some hits, such as line drives and hard grounders, are not as easy to catch as
+fly balls. You can also catch a ball in the air or on the ground by making a
+diving or jumping catch.
+
+© To make a diving catch, press A + Control Pad in the direction you want
+the fielder to dive.
+
+© To make a jumping catch, press A when the ball is passing directly over
+the fielder.
+
+Throwing
+
+To throw, press the Control Pad in the direction of the target base and press A.
+Remember, even when your team’s defensive play is controlled by the Super
+NES, you must direct fielders’ throws.
+
+© To throw to first, press A + Control Pad RIGHT.
+© To throw to second, press A + Control Pad UP.
+
+© To throw to third, press A + Control Pad LEFT.
+
+© To throw to home, press A + Control Pad DOWN.
+© To throw to a cutoff man, press A.
+
+24
+
+Running To A Base /Run Down Plays
+
+Ifa base is not being covered by another fielder, or if « base runner is caught
+ina run down, the fielder who catches the ball may need to run to that base
+rather than throw to it, or run down the base runner and tag him.
+
+© Torun toward first base, press B + Control Pad RIGHT.
+
+© Torun toward second base, press B + Control Pad UP.
+
+© Torun toward third base, press B + Control Pad LEFT.
+
+© Torun toward home plate, press B + Control Pad DOWN.
+
+© Torun in any direction, press the Control Pad in the direction you
+wont to run
+
+Switching to the Fielder Nearest the Ball
+Sometimes, you may want to select a specific fielder to make a play. This
+situation may arise when you want a fielder to make a jumping or diving catch.
+
+© To select the fielder nearest the ball, press B.
+
+NOTE: If you do not move your player with the Control Pad once
+he is selected, he won’t move towards the ball.
+
+25
+
+===== Page 15 =====
+
+Credits
+
+Game Design: Michael Kosaka, Happy Keller, and Scott Orr
+Lead Programmer: Tim Meekins
+
+Additional Programming: Scott Patterson
+
+Executive Producers: Scott Orr
+
+Director: Happy Keller
+
+Associate Producers: Mike Rubinelli, Randy Delucchi
+
+Graphics: Dean Lee, Ray Wong, Heather Snitzer
+
+Sound and Music: Brian Schmitt
+
+Technical Director: Rob Harris
+
+Product Manager: Chip Lange
+
+Package Design: EJ. Sarraille
+
+Package Photo: Steve Babineau
+
+Package Art Direction: Nancy Waisanen
+
+Documentation: Michael “Three Finger” Humes
+Documentation Layout: Jennie Maruyama
+
+Product Testing: William Schmitt, Steve Imes, John Vilandre,
+Greg Kawamura, Mike Caldwell
+
+Quality Assurance: Erik Whiteford
+
+Special Thanks: Greg Thomas, Kyra Woody Pehrson
+
+26
+
+ELECTRONIC ARTS LIMITED WARRANTY
+
+Electronic Arts warrants to the original purchaser of this Electronic Arts software product that the
+medium on which this computer program is recorded is free from defects in materials and workmanship
+for o period of ninety (90) days from the date of purchase. Ths Electronic Arts software program is
+sold “as i,” without express or implied warranty of any kind, and Electronic Arts is not liable for any
+losses or damages of any kind resulting from use ofthis program. Electronic Arts agrees for a period of
+ninety (90) days to either repair or replace, at its option, free of charge, ony Electronic Arts software
+product, postage paid, with proof of purchase, at the Electronic Arts Warranty Department. This
+warranty is not applicable to normal wear and tear. This warranty shall not be applicable and shall be
+void if the defect in the Electronic Arts software product has arisen through abuse, unreasonable use,
+mistreatment or neglect.
+
+LIMITATIONS — THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES AND NO OTHER
+REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE BINDING ON OR OBLIGATE ELECTRONIC ARTS.
+ANY IMPLIED WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT, INCLUDING WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE LIMITED TO THE NINETY (90) DAY
+PERIOD DESCRIBED ABOVE. IN NO EVENT WILL ELECTRONIC ARTS BE LIABLE FOR ANY SPECIAL,
+INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM POSSESSION, USE OR MALFUNCTION OF
+THIS ELECTRONIC ARTS SOFTWARE PRODUCT.
+
+‘Some states do not allow limitations as to how long an implied warranty lasts and/or exclusions or
+limitations of incidental or consequential damages so the above limitations and/or exclusions of lability
+‘may not apply to you. This warranty gives you specific rights, and you may also have other rights which
+‘vary from state to state.
+
+RETURNS AFTER WARRANTY — To replace defective medio after the ninety (90) day warranty
+period hs expired, send the original Game Pok to Electronic rs’ adress below. Enclose a statement of
+the defe, your name, your return adres, and «check or money order for $30.00,
+
+Electronic Arts
+
+Customer Warranty
+
+P.O. Box 7578
+
+San Mateo, California 94403-7578
+
+If you need to talk to someone about this produc, call us at (415) 578-0316 Monday through Friday
+between 8:30 om and 4:30 pm, Pacific Time,
+
+Unless indicated otherwise, all software and documentation is © 1994 Electronic Arts.
+Al RightsReserved.
+
+EA Sports and the EA Sports logo are trademarks of Electronic Arts. Electronic Arts isan official licensee
+
+ofthe MLBPA. MLBPA, Mojo Lengue Boseball Players Associaton and the MLBPA logo are trademarks of
+the MLBPA and used under lense by Electronic Arts. O©MLBPA 1994.
+
+27
+
+===== Page 16 =====
+
+NEW YORK ne
+
+zy
+: Vince Coleman
+: Ryan Thompson
+= Eddie Murray
+
+Starting Pitcher E L 'Z C T fe oO N | C A he T S ae Bobby Bonilla
+
+; Dwight Gooden
+Reliever Bret Saberhagen Jeff Kent
+Todd Hundley
+
+Pete Schourek
+Joe Orsulak
+
+Sid Fernandez
+Anthony Young Dave Gallagher
+Howard Johnson
+
+John Franco
+Mike Maddux Charlie O’Brien
+Chico Walker
+
+Bobby Jones
+Tim Bogar
+
+MLBPA PLAYER RATINGS — N EAST
+
+om
+
+— AN KH KH WON ONIN SZ
+o
+
+Number
+
+Throws (L=Left, R=Right)
+Bats (L=Left, R=Right, S=Switch)
+Position
+
+Earned Run Average
+Control of Pitches
+Velocity of Pitches
+Endurance
+
+Speed (Running)
+
+Power (Hitting)
+
+Range (Fielding)
+
+Errors
+
+Catcher
+
+Pray ‘WASERALL|
+
+L RS LICENSED BY a
+
+5 : |
+First Base : a =
+Second Bos ea STATS.
+Seal of Quality ‘SYSTEMS, INC.
+
+Third Base 2
+
+Shortstop
+
+Left Field : Nintendo, Super Nintendo Entertainment System, and the official seals are registered
+Center Field ; trademarks of Nintendo of America Inc. ©1991 Nintendo, Nintendo of America, Inc. The cell
+stats are copyright 1992 STATS, Inc. All Rights Reserved. EA SPORTS and the EA Eric Hillman
+Right Field : SPORTS logo are trademarks of Electronic Arts. MLBPA, Major League Baseball Jeff Inni Jeff McKnight
+Designated Hitt Players Association and the MLBPA logo are trademarks of the MLBPA and used er Innis ; .
+9 er under license by Electronic Arts. OMLBPA 1994. All Rights Reserved. This product is seromy Burnitz
+not endorsed or sponsored by Major League Baseball. MSA. i Darrin Jackson
+
+©MLBPA.MSA
+
+a
+I li SU a od oe - Sa
+=
+=o
+rPrmrrmDPrmDDNNNNUNS
+A
+WNwWUuUHnkUwW kU
+m
+
+Srmannunewn wu
+aoamnmzo=a4 =— 0
+POU Rue ROH
+
+=
+OBO Un fF Hon KH wHeenoese
+i—e]
+
+<—me DW eZ—- s SP DW
+eoeto-" 3-68 ©o U7
+ee ee ee ee ee ee  -  )
+ee ee —  —  —  : -  T
+SPOOF Mw W UWF Se — wom
+Sow WwW SPM Swe eC COOH OS ww
+
+CHICAGO Une PHILADELPHIA he
+
+Dwight Smith
+Jose Vizcaino
+Ryne Sandberg
+Mark Grace
+Steve Buechele
+Derrick May
+Sammy Sosa
+Rick Wilkins
+Glenallen Hill
+Steve Lake
+
+Eric Yelding
+Rey Sanchez
+Karl Rhodes
+Willie Wilson
+Kevin Roberson
+
+Lenny Dykstra
+
+Mickey Morandini
+John Kruk
+
+Dave Hollins 15
+Darren Daulton 10
+Pete Incaviglia 22
+Jim Eisenreich 8
+Kevin Stocker 19
+Mariano Duncan = 7
+Todd Pratt 23
+Ricky Jordan 7
+Kim Batiste 5
+Milt Thompson 25
+Ruben Amaro 33
+Wes Chamberlain 44
+
+NAME #
+Curt Schilling 38
+Tommy Greene 49
+Terry Mulholland = 45
+Danny Jackson 27
+Ben Rivera 34
+Mitch Williams = 99
+David West 40
+Larry Andersen 47
+Donn Pall 39
+Roger Mason 48
+
+=
+=
+
+NAME
+
+Greg Hibbard
+Mike Morgan
+Jose Guzman
+Frank Castillo
+Mike Harkey
+Randy Myers
+Jose Bautista
+Shawn Boskie
+Bob Scanlan
+Dan Plesac
+
+9
+—|
+<=
+S
+faa}
+I
+
+I ee el ol a ee
+
+amwmwmit oo = —- U7
+SeEuUNeRUReR EO
+Om & WON BH w PD
+HSS VynHnUunTKTanaanle
+=~
+woman ERnronrmonnwt ras
+vo
+Bwunwen yee unrwrnne
+amma o=4 —- 9
+a a ee el
+UnNAn—wrhorna
+umwomn ow™m nce SS wm wo
+
+OWN wa awa ae eo eT eee
+SPO nUnFt UF UWWUTEH
+wun www wnRK wer Vee
+COOmMNWNY SHON NY Vw ECO
+=]
+BRO ENE WWNOEHHWUS
+WED wf KH NY WN DO — DUES
+
+PITTSBURGH an
+
+Carlos Garcia
+
+Jay Bell
+
+Orlando Merced
+
+Andy Van Slyke
+
+Jeff King
+
+Don Slaught 1
+Al Martin 28
+Kevin Young 36
+Dave Clark 35
+Jerry Goff 57
+Tom Prince 14
+Tom Foley 16
+Midre Cummings 30
+Andy Tomberlin 59
+Lloyd McClendon 23
+
+NAME #
+Chuck Carr 21
+Henry Cotto 29
+Jeff Conine 19
+Gary Sheffield 10
+Orestes Destrade 39
+Benito Santiago = 9
+Bret Barberie 8
+Walt Weiss
+
+Rich Renteria 6
+Mitch Lyden
+
+Bob Natal
+
+Alex Arias
+
+Nigel Wilson
+
+Matias Carrillo
+
+Darrell Whitmore
+
+NAME
+
+Steve Cooke
+Zane Smith
+Randy Tomlin
+Bob Walk
+
+Tim Wakefield
+Mark Dewey
+Joel Johnston
+Blas Minor
+
+Paul Wagner
+Jeff Ballard
+
+=
+mi
+Ba)
+o
+
+NAME
+
+Charlie Hough
+Luis Aquino
+Chris Hammond
+Jack Armstrong
+Ryan Bowen
+Bryan Harvey
+Matt Turner
+Richie Lewis
+Rich Rodriguez
+Pat Rapp
+
+gS
+—
+=
+mi
+ea
+faa]
+Ss
+
+i Oe ee ae
+FwownenwtnreUuUUU
+Fe wow oO oO HS HS WH ww
+le — ee 2 — el |  ~ —
+=
+r= so 7 Oo se ee eS eS S| EL
+=
+aaa mm NNN NN NN
+DRuneun foOna
+—umwM Se Sew nyenyenhy >
+Nw MH UuURUANSZ
+
+ary nmzos3- J
+no
+ee SES A oo a
+
+wo ON SNH SB HW SD Ww UI ~ © ©
+mWOwwvwounetrwo—u POA
+wm Zz
+ww 7 —~—~N PO KH SEY YP SS
+Qa
+mre rer wer wee wee ee oz
+OoN™NN END HV WOwWn™4NI UNDO KH
+nw
+SPwoh woop © Pwo fF SEDO U HU
+—]
+
+MONTREAL WANE ST LOUIS |. NAME
+
+n
+o
+
+Bernard Gilkey
+Ozzie Smith
+Gregg Jefferies
+Todd Zeile
+
+Ray Lankford
+Mark Whiten
+Luis Alicea
+Tom Pagnozzi
+Brian Jordan
+Erik Pappas
+Gerald Perry
+Geronimo Pena
+Tracy Woodson
+Jose Oquendo
+Rod Brewer
+
+Delino DeShields
+John VanderWal
+Marquis Grissom
+Lorry Walker
+Darrin Fletcher
+Moises Alou
+Mike Lansing
+Wil Cordero
+Sean Berry
+
+Joe Siddall
+
+Tim Spehr
+Oreste Marrero
+Randy Ready
+Lou Frazier
+Rondell White
+
+NAME
+
+Bob Tewksbury
+Rene Arocha
+Donovan Osborne
+Rheal Cormier
+Allen Watson
+Mike Perez
+Les Lancaster
+Omar Olivares
+Tom Urbani
+Rob Murphy
+
+=
+=
+i]
+
+NAME
+
+Dennis Martinez
+Ken Hill
+
+Jeff Fassero
+Kirk Rueter
+Chris Nabholz
+John Wetteland
+Denis Boucher
+Mel Rojas
+
+Jeff Shaw
+Brian Barnes
+
+pz |
+=
+mn
+mo
+i]
+
+(el ee
+mK wWNNY KS SB
+
+=
+ll ee 4
+
+=
+wUOUOntnwo ff OH
+SBwohwowo knoe fF
+ee a ot —
+anmnmtou=-, U7
+Oe ee eo
+Bw BW & & ww —
+SKS wn —S—Uu bt oannZe
+
+a amarmrmmaurnnnn
+
+=
+
+WFP Pwo H— BUN wSeUUNsA S
+_
+
+=
+oem SF WMY DOH SO DN wT ™~ OS
+nA
+
+a
+MN PONY YU DNs CO Cw
+Fon SwUtOwW— NOUN
+Srmew fe fer Bro KO Bw BE BS PD
+mrmnweYNPr www TDs
+OPEN wWUN SONU WA DO DD
+Www —~ SHY TWwW LP SPH UN
+
+ELA-SNS-XH-US(A)
+PRINTED IN JAPAN
+
+===== Page 17 =====
+
+MLBPA PLAYER RATINGS — N WEST HOUSTON NAME
+
+Pa
+Craig Biggio
+ZSASPURITS rf
+bs Jeff Bagwell
+
+Starting Pitcher E L E c T R oO N i c A R T S NAME
+
+Mark Portugal
+Reliever
+
+Gah Darryl Kile
+atcher oR TRE Pete Harnisch
+First Base IPLAYER 3 LICENSED BY oficial
+
+i Doug Drabek
+Second Base Gintendo) Greg Swindell
+Third Base ;
+
+Doug Jones
+Shortstop
+
+Xavier Hernandez
+Left Field Nintendo, Super Nintendo Entertainment System, and the official seals are registered Tom Edens
+Center Field trademarks of Nintendo of America Inc. ©1991 Nintendo, Nintendo of America, Inc. The
+stats are copyright 1992 STATS, Inc. All Rights Reserved. EA SPORTS and the EA Todd Jones
+Right Field SPORTS logo are trademarks of Electronic Arts. MLBPA, Major League Baseball Brian Williams
+Designated Hitt Players Association and the MLBPA logo are trademarks of the MLBPA and used 4
+esignated Hitter under license by Electronic Arts. OMLBPA 1994. All Rights Reserved. This product is Jose Uribe
+not endorsed or sponsored by Major League Baseball. MSA. Rick Parker
+
+=
+=
+=)
+=
+faa]
+
+ee
+=]
+
+# Number
+
+THR — Throws (L=Left, R=Right)
+BAT Bats (L=Left, R=Right, S=Switch)
+POS Position
+
+ERA Earned Run Average
+
+(CTL Control of Pitches
+
+VEL — Velocity of Pitches
+
+END Endurance
+
+SPD Speed (Running)
+
+PWR Power (Hitting)
+
+RNG Range (Fielding)
+
+ERR Errors
+
+Ken Caminiti
+Eric Anthony
+Luis Gonzalez
+Andujar Cedeno
+Eddie Taubensee
+Kevin Bass
+
+Scott Servais
+Scooter Tucker
+Casey Candaele
+Chris Donnels
+
+©MLBPA.MSA,
+
+<_mz ODP et —- sa > DB
+AOetor-xrt4- 6% ©& UT
+oC COM OU HS WON ON
+anmmit o=a4—- 7
+mama ama wwe aeaewee eo ST
+wor fb UNA nN NS DS DS DP
+Pron neeaonn
+faa}
+Pune nwwmruner were nwe wz
+CORUENYDNDY ODN HAND U woe
+SUPE EWR ERUHHHR OH &
+Rwwwre ee eUBR EDO RU
+
+ATLANTA LOS ANGELES NAME
+
+NAME
+Otis Nixon Brett Butler 22
+Jeff Blauser Jose Offerman 30
+Ron Gant Mike Piazza 3]
+Fred McGriff Eric Karros 23
+Terry Pendleton Cory Snyder 28
+Dave Justice Henry Rodriguez 26
+Damon Berryhill Tim Wallach 25
+Mark Lemke Jody Reed 3
+Sid Bream D. Strawberry 44
+Greg Olson Carlos Hernandez 41
+F. Cabrera Lenny Harris 29
+Brian Hunter Mike Sharperson 27
+Rafael Belliard Dave Hansen 15
+Mitch Webster 20
+
+Bill Pecota
+Deion Sanders Raul Mondesi 43
+
+NAME
+
+Tom Candiotti
+Ramon Martinez
+Orel Hershiser
+Pedro Astacio
+Kevin Gross
+Jim Gott
+
+Roger McDowell
+Pedro Martinez
+Ricky Trlicek
+Todd Worrell
+
+p= on
+J
+fam
+a
+=
+=
+o
+
+NAME #
+Greg Maddux 3]
+Tom Glavine 47
+Steve Avery 33
+John Smoltz 29
+Pete Smith 25
+Greg McMichael 38
+Steve Bedrosian 36
+Jay Howell 52
+Kent Mercker 50
+Mike Stanton 30
+
+=
+gy
+fom
+m
+
+i oe i BE — i i
+iJ
+
+a]
+
+aoaxrmwmio = —- U
+mm sw se ser rT eo
+Wn nnuU Ss & wo
+Sc ee Od
+faa]
+J
+DARO Rw UUuU—fFuUsnea ne B
+a
+amwmwmito=sa —
+ee ee a a)
+Auntrwone BU ww
+Dent wonusn eeu
+SHS rn HaannaS
+-]
+on™ PS Sere wo heme Uns ownr er co CO
+wn
+=]
+Wwrerneuneueuan-—=z
+
+el el gg ol og
+COW & & W PD & S&P OM & YS & CO
+Oe BU ew NYP SS Sw YU ~
+BRwnr An w ww SN wo YUL
+mur weer wer wwe ws e
+
+CINCINNATI Me | SAN DIEGO NAME
+
+Jarvis Brown
+Ricky Gutierrez
+Tony Gwynn
+Phil Plantier
+Derek Bell
+Archi Cianfrocco
+Tim Teufel
+Brad Ausmus
+Phil Clark
+Kevin Higgins
+G. Velasquez
+Jeff Gardner
+Craig Shipley
+Billy Bean
+Melvin Nieves
+
+RNG
+
+~
+A
+
+Bip Roberts
+
+Bobby Kelly
+
+Hal Morris
+
+Kevin Mitchell
+
+Barry Larkin
+
+Chris Sabo
+
+Reggie Sanders
+
+Joe Oliver
+
+Juan Samuel
+
+Dan Wilson
+
+Jeff Branson 29
+Thomas Howard 22
+Gary Varsho 42
+Jacob Brumfield 46
+Tim Costo 18
+
+NAME
+
+Andy Benes
+Andy Ashby
+Doug Brocail
+Wally Whitehurst
+Tim Worrell
+Gene Harris
+Trevor Hoffman
+Tim Mauser
+Mark Davis
+Kerry Taylor
+
+9
+=
+<=
+fal
+
+NAME
+
+Jose Rijo
+
+Tom Browning
+Tim Pugh
+John Smiley
+John Roper
+Rob Dibble
+Jerry Spradlin
+Jeff Reardon
+Scott Service
+Bobby Ayala
+
+foo
+=
+©
+—|
+=
+fa]
+[=]
+
+wor womnrw rum ~
+> “4 w wso Sw ww OH
+Deny H—H— HSH UuUKTuUuune
+amnmtzo=s— 7
+=
+ee
+=
+~~
+wrPrrrmrDNUuNnnnunsd
+aA
+— YrOwWwwWwhr Sw MN WH Ww
+POP OC Uw HS SS
+
+~a>amamamanwmwmwwrereae ez
+=]
+a a
+
+ie DNs Pata th Gy Ss we =
+
+Coon OTH SYP COUN es woe So
+wo DO FW WH PD SU OO CO DH
+SPF Ww Bw eS BU w Swe
+Baer tMOBnsHUuUNnernrvoen
+
+DENVER NAME SAN FRANCISCO NAME
+
+Eric Young
+
+Alex Cole
+Andres Galarraga
+Dante Bichette
+Charlie Hayes
+Jerald Clark
+Joe Girardi
+
+F. Benavides
+Daryl Boston
+Danny Sheaffer
+Jimmy Tatum
+Roberto Mejia
+Vinny Castilla
+Nelson Liriano
+Chris Jones
+
+Darren Lewis
+Robby Thompson
+Will Clark
+
+Matt Williams
+Barry Bonds
+Willie McGee
+Royce Clayton
+Kirt Manwaring
+Mark Carreon
+Jeff Reed
+
+Todd Benzinger
+Mike Benjamin
+Steve Scarsone
+Dave Martinez
+Luis Mercedes
+
+NAME #
+John Burkett 33
+Bill Swift 26
+Scott Sanderson 29
+Salomon Torres 35
+Trevor Wilson 32
+Rod Beck 47
+Kevin Rogers 28
+Mike Jackson 42
+Dave Burba 34
+Bryan Hickerson 4]
+
+=
+9
+=
+—
+a
+ma
+o
+
+NAME #
+Armando Reynoso 42
+Greg Harris 27
+Kent Bottenfield 46
+Dave Nied 7
+Willie Blair 19
+Darren Holmes 40
+Bruce Ruffin 18
+Steve Reed 39
+Gary Wayne 53
+Jeff Parrett 38
+
+4
+=
+2)
+=
+faa]
+o
+
+aomwmtzt ou U0
+
+mareweere ee wesw ewe ST
+
+mamma mmNuUuNnNnNY
+
+OF UwW An Se SU
+
+NOP BOO BY we
+
+Me— S| PH wut KOH SZ
+muwmrwrwwrwreaawrwrwrwTee zs
+ORR SWI HMI OW CO >
+mF PSP eeenrwohr fwune
+HF EUOWW HR WWW DOD DY /
+
+amwmio =a —
+
+| el
+
+neo WM so & RD SN CO
+
+SON N www fe &
+
+wre SHH UB onnrna
+mew eH wo) ewe eo. ll
+Oo OS Bw DON BD ON Uw &
+POON wWUN—~UuUKBNS BUD
+> PP SUNNY | wD SO oO UM & PD
+Bwnn & — & — Ym BD oO ow UNA
+
+o-oo r-oonn
+
+ELA-SNS-XH-US(A)
+PRINTED IN JAPAN
+
+===== Page 18 =====
+
+-MLBPA PLAYER RATINGS — A WEST KANSAS CITY NAME
+
+— Felix Jose 34
+Brian McRae 56
+= George Brett 5
+
+Starting Pitcher ELECT RONIC ART S NAME
+
+9
+=
+=
+fan
+jen}
+—j
+
+Number
+Throws (L=Left, R=Right)
+Bats (L=Left, R=Right, S=Switch)
+Position
+
+ERA Earned Run Average
+
+CIL Control of Pitches
+
+VEL — Velocity of Pitches
+
+END Endurance
+
+SPD Speed (Running)
+
+PWR Power (Hitting)
+
+RNG Range (Fielding)
+
+ERR Errors
+
+Wally Joyner 12
+Mike Macfarlane = 15
+Gary Gaetti 4
+Chris Gwynn 14
+Greg Gagne v4
+Jose Lind 13
+Brent Mayne 24
+Rico Rossy 32
+
+Kevin Appier
+Reliever David Cone
+Catcher
+
+Tom Gordon
+First Base LICENSED BY Official a
+
+H. Pichardo
+— F
+
+ri (Mintendo) Te
+
+Second Base : | Nintendo, sition STAT aa
+
+OCA O Pcs. Chris Honey
+Third Base Jeff Montgomery
+Shortstop
+
+: Stan Belinda
+
+Left Field : Nintendo, Super Nintendo Entertainment System, and the official seals are registered John Habyan
+
+Center Field trademarks of Nintendo of America Inc. ©1991 Nintendo, Nintendo of America, Inc. The . Phil Hiatt 5
+stats are copyright 1992 STATS, Inc. All Rights Reserved. EA SPORTS and the EA Mark Gubicza
+
+Right Field SPORTS logo are trademarks of Electronic Arts. MLBPA, Major League Baseball Mark Gardner Keith Miller 16
+
+Designated Hitt Players Association and the MLBPA logo are trademarks of the MLBPA and used Kevin McR Ids 22
+
+esignated Hitter under license by Electronic Arts. OMLBPA 1994. All Rights Reserved. This product is SVU ERE N0NCS
+not endorsed or sponsored by Major League Baseball. MSA. Hubie Brooks 30
+
+SNOB — De SO H— BO HNO
+
+OMLBPA MSA
+
+=
+ee Se ee ee
+
+=]
+amma wrmununNnnna
+nA
+mn m HSH KH ON BDoOnnra
+
+ow;wo COoO™NM OU HS HOO TN
+ammz eos —- 7
+re SOO LS HH oO
+> neu Nw HNN OO WN
+
+NVOw—~BYAKOUKR—-Hren ZB
+QoQ
+
+<mszez moeZ—-=s > FB
+aozZze-=-4—-§MO 7
+
+wor OWS SPOON NP UH BK KH
+worn SS Sw — Sw ™4 NO BS SB w
+
+ANAHEIM MINNEAPOLIS ”
+
+NAME
+Luis Polonia Chuck Knoblauch
+Shane Mack
+
+Chad Curti
+ad Curtis Kirby Puckeit
+
+J.T. Snow “
+
+chili Davis Kent Hrk ek
+
+Tim Salmon Dave Winfield
+Brian Harper
+
+Greg Myers
+Rene Gonzales Pedro Munoz
+Pat Meares
+
+Damion Easle
+Cary Dserin Terry Jorgensen
+Chip Hale
+
+Lovull
+ek Be Scott Stahoviak
+Jeff Reboulet
+
+Rod Correia Gene Larkin
+
+Kurt Stillwell Dave McCart
+ave McCarty
+
+Stan Javier
+Chris Turner Lenny Webster
+
+oo
+z=
+=
+
+wo ~~
+
+NAME
+
+Kevin Tapani
+Scott Erickson
+Willie Banks
+Eddie Guardado
+Greg Brummett
+Rick Aguilera
+Carl Willis
+Mike Hartley
+Mike Trombley
+George Tsamis
+
+=
+Pal
+i—]
+
+NAME
+
+Chuck Finley
+Mark Langston
+Joe Magrane
+John Farrell
+Phil Leftwich
+Joe Grahe
+Mike Butcher
+Steve Frey
+Ken Patterson
+Hilly Hathaway
+
+—¥
+=
+&
+=
+
+s
+
+=
+le a el oe ee
+
+le el el el ed =I
+wmrwrmrmmDNnUNNNYN
+WMH Www Hw eu Ss
+NEY HRW wWwWUuUU Ss
+m
+Se a oo
+aoammao 7$- 7
+SF SON SN BS PSP wo ™~ S
+MIO F eB NR wo Hw
+Ln ll — ie oe el — a — ee —
+
+aonmnmit os =— TU
+2
+wrmonar Ki es eee eS
+
+moO ORUNNUB~A NY © wo co Se
+ew & & BB & BS © BS © & BAD UH WA
+z=
+KH wr fF wwnw tf — nwa y_uu =e
+Qo
+
+Rw wonrwwwindssene
+Wr wr WOH WNT BAH GQ 5 PAD
+
+m~uunzmawmrunm zmamr-naNnYNas
+ae =
+
+SWS PWN KOKO Be — NPY Mn S
+a
+
+INA OU SO HLUY oO
+
+~
+a
+
+ARLINGTON NAME OAKLAND NAME
+
+David Hulse Jerry Browne
+: Brent Gates
+Julio Franco ;
+: Ruben Sierra
+Rafael Palmeiro
+
+Juan Gonzalez Troy Neel
+Dean Palmer Craig Paquette
+
+Jose Canseco hs Steinbach
+Ivan Rodriguez ae a
+Mario Diaz cott Brosius
+
+Doug Strange Mike Bordick
+
+Billy Ripken ot oe
+Manvel Lee ike Aldrete
+
+Butch Davis Kurt Abbott
+Doug Dascenzo Scott Lydy
+Dan Peltier L. Blankenship
+Gary Redus Dave Henderson
+
+NAME #
+Ron Darling 7
+Bobby Witt 32
+Bob Welch 35
+Todd Van Poppel 59
+Steve Karsay 50
+Dennis Eckersley 43
+Edwin Nunez 52
+Goose Gossage 54
+Mike Mohler 58
+Kelly Downs 3]
+
+=|
+=
+=
+mi
+fan]
+foal
+o
+
+NAME
+
+Kevin Brown
+Roger Pavlik
+Kenny Rogers
+Nolan Ryan
+
+C. Leibrandt
+Tom Henke
+Cris Carpenter
+Matt Whiteside
+Brian Bohanon
+Craig Lefferts
+
+axwmtos— 7
+os
+mmr rT we NNNNNS
+aA
+awn & HY Uw Uw
+Sf wowWuUN EP OU Ss
+YNmunawma awww eK oe
+SOS SP ONY OU~
+Anrmama os -—- UG
+=x
+Zz rHaaw nwa aww eS
+~
+rPamrmamawmawmaunuNnNnnunaed
+aA
+we MP SoU wo Uw
+we mM so B&O RN Sw
+wn HHH nH anannse
+
+vn
+J
+UwerNwowernle.cenen=
+
+Ee]
+An FfrwrTrNwee pow eB eB — US
+qQ
+i)
+wararnar- ann wnwrawrnnnsS
+PONY WNHN BROWN UW RNO
+OORR RUNS WwW USN we
+BHreoeea nnn & oo BU &% UT wns
+z=
+FPOUuUnR UVP fFeUuUweUeNr ae S
+f<y)
+
+so 1 oO
+
+CHICAGO NAME SEATTLE mE
+
+ike Felder
+Bret Boone
+Ken Griffey Jr.
+Jay Buhner
+Edgar Martinez
+Tino Martinez
+Mike Blowers
+Dave Valle
+Omar Vizquel
+Bill Haselman
+Rich Amaral
+Dave Magadan
+Greg Litton
+Mackey Sasser
+Brian Turang
+
+=
+aA
+
+NN NU SHRM THM UV WN DO CO Hs CO
+faa]
+Zz
+eo)
+
+Tim Raines
+Joey Cora
+Frank Thomas
+Robin Ventura
+George Bell
+Ellis Burks
+Lance Johnson
+Ron Karkovice
+Ozzie Guillen
+Mike LaVallier
+Craig Grebeck
+Bo Jackson
+Steve Sax
+Ivan Calderon
+Dan Pasqua
+
+NAME
+
+Randy Johnson
+Erik Hanson
+Tim Leary
+Chris Bosio
+Dave Fleming
+Norm Charlton
+Steve Ontiveros
+Brad Holman
+Jeff Nelson
+Ted Power
+
+NAME
+
+Jack McDowell
+Alex Fernandez
+Wilson Alvarez
+Tim Belcher
+Jason Bere
+
+R. Hernandez
+Jose DeLeon
+Jeff Schwarz
+Scott Radinsky
+Kirk McCaskill
+
+=
+=
+=
+fan]
+fa
+
+mom
+—]
+nw Sens
+
+o
+
+nanmmtzto=2u=—- 7
+
+i ~  -  d
+
+a reo are a aT OS OOOO
+
+fe fP— WOM SHO oO
+
+wor nrunnern ow SS >
+
+mee KS NOK oO OON SN OS
+
+aoammito==-
+
+~amam mer oOmeOmmo r  L
+
+Se oO ww SS OM LS NON Oo
+mem reweweHN we wo Re OOO ho lOO
+
+MeerneH-wawuneusnane
+OP Pnruf fFwoh Pe hw Kr EP DW
+
+ll el el oa!
+wo Bre — BU KN OUP
+z=
+SPwofrprer—nNse— ween fF en =
+lp)
+— WwW OO OD NR TU UN & PDD & WL Ww PD
+
+eo ON NON OY CO ro
+
+ELA-SNS-XH-US(B)
+PRINTED IN JAPAN
+
+===== Page 19 =====
+
+MLBPA PLAYER RATINGS — A EAST DETROIT NAME
+
+= :
+: Tony Phillips
+
+: Lou Whitaker
+: ™ Travis Fryman
+
+Starting Pitcher E L E C T he oO N | C A sy T S ee Cecil Fielder
+
+=)
+=
+bn
+=
+=
+faa]
+mH
+faa]
+=)
+
+Number
+
+Throws (L=Left, R=Right)
+Bats (L=Left, R=Right, S=Switch)
+Position
+
+Earned Run Average
+Control of Pitches
+
+Velocity of Pitches
+Endurance
+
+Speed (Running)
+
+Power (Hitting)
+
+Range (Fielding)
+
+Errors
+
+David Wells
+
+cari John Doherty Kirk sid
+atcher nee Mike Moore Dan Gladden
+
+First Base LICENSED BY Mickey Tettleton
+
+Bill Gullickson
+Second Base i | S. Livingstone
+
+Mark Leiter
+Third Base Mike Henneman Chad Kreuter
+Shortstop Skeeter Barnes
+
+Bill Krueger
+
+Left Field : Nintendo, Super Nintendo Entertainment System, and the official seals are registered Joe Boever Chris Gomez
+Center Field trademarks of Nintendo of America Inc. ©1991 Nintendo, Nintendo of America, Inc. The Alan T I
+stats are copyright 1992 STATS, Inc. All Rights Reserved. EA SPORTS and the EA Tom Bolton an tramme'
+Right Field SPORTS logo are trademarks of Electronic Arts. MLBPA, Major League Baseball Storm Davi Eric Davis
+Designated Hitt Players Association and the MLBPA logo are trademarks of the MLBPA and used OrMZ ONES a
+
+esignated nitter : under license by Electronic Arts. OMLBPA 1994. All Rights Reserved. This product is : Milt Cuyler
+
+; not endorsed or sponsored by Major League Baseball. MSA. : Gary Thurman
+
+©MLBPA.MSA
+
+SWO ON DU BP wD wMN
+awmwmio=a = U
+Sl se I
+zawrwrwmwrmrmnrnnnn
+wwwortrpeen enn
+a a
+MNINYw— FADO KH HD =
+
+aoewtor-=-" 8” © TU
+
+<mem = De - = SS
+mum rmrrmrrmrurunwrer zawen
+COND KBDWNYUYNOwWOH & NY
+DRAnenwuet DS YOUR HUY
+we win Gi AN Sen ee oS
+
+BALTIMORE MILWAUKEE Ane
+
+NAME
+Brady Anderson Pat Listach
+Bill Spiers
+
+Mark McLemore
+
+Mike Devereaux Darryl Hamilton
+
+Harold Baines Greg Vaughn
+
+Cal Ripken Kevin Reimer
+
+Mike Pagliarulo Robin Yount
+
+Chris Hoiles B.J. Surhoff
+John Jaha
+
+David Segui
+Harold Reynolds teeta
+om Lampkin
+
+Leo Gomez
+
+Tim Hulett Kevin Seitzer
+
+Jeffrey Hammonds Juan Bell
+Dickie Thon
+
+Lonnie Smith
+Jack Voigt he digit
+
+Sherman Obando
+
+om
+m
+Zz
+=
+
+NAME
+
+Cal Eldred
+Ricky Bones
+Jaime Navarro
+Bill Wegman
+Angel Miranda
+Doug Henry
+Graeme Lloyd
+Jesse Orosco
+Mike Fetters
+Rafael Novoa
+
+an)
+—
+=
+mo
+no
+mo
+o
+
+See KS KH KH nnnnnse
+
+NAME
+
+Mike Mussina
+Ben McDonald
+Jamie Moyer
+F. Valenzuela
+Rick Sutcliffe
+Gregg Olson
+Jim Poole
+Alan Mills
+Todd Frohwirth
+Arthur Rhodes
+
+=
+=
+&
+=
+fan]
+
+CO el a i —  —  —  —t
+—]
+
+oo
+
+a — ee  — —  o —— r  e y
+
+| ecle e  )
+oO
+~mammrmrmnunnnnunsd
+mn
+Pwowrhrwononehtuse Ss
+faa]
+ammrzAos=— 7%
+FRA RDWwWYHUY
+SKS wwmrwnunnnw—u
+
+amma oa = 6
+Nw & SS wou PY
+va)
+WORE WW RDN WW WU BS
+i—]
+se on Wn (oH sw ol ce oo en CH dea kh
+Zz
+MnreuUwortr BMY — SPnwro ewer =
+a
+nwmwmnwmwrer wee weree ee
+SS — ~~ i al
+Feu CTO HS Sh PU VV TDS Dw
+wimw we Soe wo Pp S&S ~ WHO WN
+
+zmamrmarmrwmwmunvnwzwecrl weer wae
+
+ONT NUOO SP WNUS
+
+BOSTON NAME NEW YORK He
+Scott Fletcher Bernie Williams
+
+Billy Hatcher Wade Boggs
+
+Mike Greenwell Dion James
+Andre Dawson Don Mattingly
+Mo Vaughn Danny Tartabull
+
+Rob Deer Paul O'Neill
+
+Scott Cooper Matt Nokes
+John Valentin Mike Gallego
+
+Tony Pena Pat Kelly
+Bob Melvin Mike Stanley
+
+Tim Naehring Jim Leyritz
+Ernest Riles Kevin Maas
+
+Luis Rivera Spike Owen
+
+Carlos Quintana Randy Velarde
+Bob Zupcic Gerald Williams
+
+za
+QoQ
+
+NAME
+
+Jimmy Key
+Jim Abbott
+
+S. Kamieniecki
+Melido Perez
+Frank Tanana
+Lee Smith
+
+P. Assenmacher
+Bob Wickman
+Rich Monteleon
+Steve Howe
+
+=
+mi
+ar]
+mo
+—]
+
+NAME
+
+Frank Viola
+Danny Darwin
+Roger Clemens
+Aaron Sele
+John Dopson
+Jeff Russell
+Scott Bankhead
+Ken Ryan
+Greg Harris
+Paul Quantrill
+
+a)
+=
+faa]
+Ss
+
+ay nmrzos4—- 9
+=
+a ee a I ee
+=
+mJ
+ee Oe Oe Oe Oe
+&
+or ow SS SS MN CO
+wor won ns O™M WH LS
+—" Now — — AO ™~ ON ™ SS
+
+o >
+
+mee PMY we HW PNY LY w
+
+Axnmzont$- Fs
+=
+
+Baw www wee Ss
+
+amram mnrnnnn
+
+Awnrnwuftwnmn >
+
+woe SHS NOOK TBNIN DOS
+mmu nr we wwe were oe ee
+CoN HD & & NR BR DH PD NO TO wD NW oC
+Seu oleate ace aun awa Ss
+Horns nwn—Tnwononuse
+
+CLEVELAND ih TORONTO | NAME
+
+Rickey Henderson 24
+Devon White 25
+Roberto Alomar ‘12
+Joe Carter 29
+John Olerud 9
+Paul Molitor 19
+Tony Fernandez
+Ed Sprague 33
+Pat Borders 10
+Randy Knorr 27
+Alfredo Griffin 4
+Dick Schofield 22
+Rob Butler 2
+Darnell Coles i
+Turner Ward
+
+Kenny Lofton
+
+Wayne Kirby
+
+Carlos Baerga
+
+Albert Belle
+
+Paul Sorrento im
+Reggie Jefferson 44
+Alvaro Espinoza ‘10
+Felix Fermin 16
+Sandy Alomar Jr = 15
+Jesse Levis 12
+Junior Ortiz 0
+Randy Milligan 40
+Jim Thome 25
+Jeff Treadway 27
+Candy Maldonado 22
+
+NAME
+
+Juan Guzman
+Pat Hentgen
+Todd Stottlemyre
+Dave Stewart
+Jack Morris
+Duane Ward
+Mark Eichhorn
+Danny Cox
+
+Al Leiter
+
+Mike Timlin
+
+=
+=
+2
+od
+=
+mm
+m=
+i=)
+
+NAME
+
+Jose Mesa
+Mark Clark
+Charles Nagy
+Jeff Mutis
+Bobby Ojeda
+Eric Plunk
+Derek Lilliquist
+Jerry DiPoto
+Jeremy Hernandez
+Bill Wertz
+
+2
+=
+=
+foal
+taal
+
+aowrwmito = -—- 0
+=
+a ee ea
+wnw BD fw fh DOD Uw
+nf SN Sw S w&
+el el el og ge
+Cm WRN NY HR UH &w w NW &S © CO
+WM OW BM & ]H PR & BH CO WU & w
+RPWIBRBDWUN HH] BOD WwW KOU YU wo
+amma o= = U
+~mreapawaawaae ee Te
+mmr wmrmrNnNnnnn
+ww eA KD Sw & Sw
+ee — oc
+KS wn HH nnnnn=a
+nmr wane www RK wT w
+SONNE DD PD ND OD & WD LO BS CON
+Mw PU & & | MN BD DY & © oC oC
+SPP NrwUw FF wWUNDUUS
+=
+CONN N BH KH Be RRO BHD ON S
+a
+
+ELA-SNS-XH-US(B)
+PRINTED IN JAPAN

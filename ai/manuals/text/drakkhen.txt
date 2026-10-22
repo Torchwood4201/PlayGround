@@ -1,0 +1,1207 @@
+# Drakkhen
+source: https://archive.org/details/snes_manual_archive
+pdf: Drakkhen (USA).pdf
+region: USA
+pages: 20
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+Exclusively Distributed by
+Seika Corporation U.S.A
+20,000 Mariner Avenue
+
+Torrance, CA 90503
+Customer Support:
+(2B) 373-8127
+
+KEMCO4 SEIKA
+
+PRINTED IN JAPAN
+
+===== Page 2 =====
+
+NINTENDO, SUPER NINTENDO
+ENTERTANVENT SYSTEM AND THE
+OFFICIAL SEALS ARE REGISTERED
+TRADEMARKS OF NINTENDO OF
+AMERICA ING,
+
+1991 NINTENDO OF AMERICA INC.
+
+THIS OFFICIAL SEAL IS YOUR ASSURANCE
+THAT NINTENDO HAS APPROVED THE
+‘QUALITY OF THIS PRODUCT. ALWAYS
+LOOK FOR THIS SEAL WHEN BUYING
+GAMES ANO ACCESSORIES TO ENSURE
+‘COMPLETE COMPATIBILITY WITH YOUR
+SUPER NINTENOO ENTERTAINMENT
+SYSTEM, ALL NINTENDO PROOUCTS ARE
+BBY SALE FOR USE ONLY WITH OTHER
+‘AUTHORIZED PRODUCTS BEARING THE
+(OFFICIAL NINTENDO SEAL OF QUALITY
+
+Drakkhen
+
+===== Page 3 =====
+
+8. Introduction
+
+10. Starting the Game
+
+12. Screen Layout
+
+14. Moving
+16. Viewing the Map
+17. Doing Battle
+
+18. Giving Commands
+
+sland
+
+28. Exploring the
+30. Advice for the Adventurer
+31. Weapons and Armor
+
+*»
+din! 32. tems
+
+consumer 34. Spells
+precaution booklet
+
+“| Please read the
+infor mation and
+
+» carefully b&fore using your Ninténdo
+Nardware system « or'Game Pak
+
+ating Your Own Characters
+
+===== Page 4 =====
+
+he universe as we, the
+Drakkonian people know it, is
+threatened by the four
+dragon kings who control the
+forces of nature; Earth,
+Water, Air, and Fire. These
+dragons have stolen the
+Drakkhen’s eight tears; gems that
+represent all the forces of magic. Each
+dragon has one son and one daughter
+for a total of four princes and four
+princesses. Each prince and princess
+was bequeathed one of the eight tears
+
+Your quest is to recover the eight
+gems. Having done so, the control of
+the dragons will be broken and control
+of the universe will be restored to the
+benevolent and magical Drakkhen
+
+Your task is complicated by the
+existence of two distinctly different
+political parties of the princes and
+princesses. The League of the Ninth
+Tear is sympathetic to the Drakkonian
+cause and its members will assist you in
+your quest. The Alliance of Fire
+however, would like to see the evil reign
+of the dragons continue. As a result,
+you may need to slay some of the
+princes and princesses to complete your
+quest
+
+But you must be careful not to attack
+too hastily! The success of your
+adventure depends upon the
+cooperation of those princes and
+
+princesses who sympathize with your
+cause, Sympathetic princes and
+princesses are of little help if they are
+dead!
+
+You must approach your quest ina step-
+by-step manner. {tis important that you
+complete the tasks in the order you are
+told. The renegade warrior is doomed to
+failure.
+
+You must exercise great caution! Many
+of the inhabitants are very strong and do
+Not appreciate your intervention
+
+Beware of entering castles unprepared
+Heed the hints that point the way to your
+destiny.
+
+During your quest, you will encounter
+inns, shrines, and other ordinary places.
+You may enter these at any time and
+they can be valuable sources of
+information and supplies.
+
+===== Page 5 =====
+
+nroduion
+
+Enter the 3D scrolline world of Drakkhen, a real-time
+world of fantasy! You control the destiny of four brave
+adventurers as you explore the treacherous Drakkhen
+Island. Feel free to wander where you wish, but try not
+to stray too far from your quest. The fate of the human
+
+world rests in your capable hands !
+
+8
+
+===== Page 6 =====
+
+Star ing he Game
+
+Only the left controller is used for this
+game.
+
+L& R Buttons
+Make characters visible
+or not. Attempt to
+escape from enemies
+
+Control Pad
+Move through the world
+when characters are not
+visible, Move the leader
+or selected character
+when visible, Choose SELECT
+Command Icon or other Display Map.
+selections
+
+START
+
+Start Game. Display Map.
+
+Insert the cartridge into your Super NES
+and turn on the power. The license
+screen will appear followed by the
+Drakkhen title screen,
+
+10}
+
+X Button
+Toggle between Leader &
+Selected character
+
+A Button
+Activate Icon Command Aves
+Make selections. Read nex
+part of text message
+
+B Button
+Cancel last selection. Make
+selections,
+
+$e leader or selectes!
+character.
+
+A stone tablet will appear in the lower
+left corner of the screen containing
+some messages. After displaying these
+messages, you will see the following
+screen
+
+Drakkhen allows you to save your game
+to one of two files; FILE! and FILE2.
+Saving your game will permit you to
+resume your quest at another time from
+where you left off. When you play
+Drakkhen for the first time, both FILEL
+and FILE2 will show -NEW-, indicating
+that nothing has been saved to the files.
+If you had saved a game previously, you
+could choose to resume it or begin a
+new game.
+
+The diamond cursor will appear next to
+FILEL. Since this is your first time
+playing the game, press the A Button to
+choose FILEI
+
+Once you have chosen FILEI, you can
+choose to START a game with the default
+set of four characters or to CREATE a
+custom set of adventurers. Initially, you
+may find it easier to explore the game
+using the default set of characters. As
+you become more experienced, you can
+experiment with custom characters to
+find the best combination of adventur-
+ers
+
+Once again, since this is your first time
+playing the game, choose START by
+pressing the A Button to begin the game
+with the default set of characters,
+
+===== Page 7 =====
+
+There are three areas of the screen,
+
+The Action Area shows your current
+view of the world. The four adventur-
+ers are visible in the foreground of the
+Action Area. The Icon Area in the lower
+right contains the nine pictures that
+correspond to the available commands,
+The Message Area provides you with
+valuable information about your
+surroundings. The blinking triangle in
+the lower right corner of the Message
+Area indicates that there is additional
+text for you to read. Press the A Button
+to read the next part of the text
+
+‘After reading the introductory text, you
+will be given the opportunity to read an
+explanation of the game. Press the A
+Button to view the game explanation,
+Press the B Button to skip the
+explanation and begin the game. The
+game explanation provides information
+‘on the use of the controller, the
+Command Icons, and other basic
+information. You can also view this
+information at any time during the
+game. Press the B Button to begin
+
+the game.
+
+Message Area
+
+—— Action Area
+
+Icon Area —__
+
+When you begin the game, the four
+adventurers will gather together into a
+group and disappear from the screen,
+leaving you with a clear view of the
+Action Area. The Message Area is
+replaced with two new areas; the
+Weapon Area and the Character Area
+
+The four rows of the Weapon Area
+correspond to the four adventurers. A
+sword indicates that the character is
+armed with a weapon. A Scepter
+indicates that the character is armed
+with magic. The MP number indicates
+the current Magic Points possessed by
+the character. When you cast a spell,
+your Magic Points will decrease.
+Fortunately, your magic points are
+replenished as time passes and by
+acquiring special items or spells
+
+The Character Area gives you summary
+information for each of the adventurers.
+The picture of each character lets you
+quickly see what armor and weapon is
+being used. The HP number indicates
+the Health Points for the character.
+
+Each character can sustain only so
+much damage in battle. The greater the
+number of Health Points, the more
+damage the character can sustain. The
+character dies when the number of
+Health Points reaches zero. Health
+points are replenished while the
+character is visable and by acquiring
+special items or spells.
+
+| |
+|
+| Character Area
+— Weapon Area
+Icon Area ——
+
+The oval lamp below the picture of each
+character is used to indicate the
+currently selected character. A red lamp.
+indicates that the character is the leader
+of the party. All other characters will
+follow the leader. A blue lamp indicates
+that the character has been selected to
+move alone.
+
+===== Page 8 =====
+
+Moving
+
+There are two modes of movement
+when the characters are visible in the
+Action Area and when they are not
+When the characters are not visible
+you can use the Control Pad to look or
+move in any direction to explore the
+outside world
+
+There are four circumstances under
+which the characters are visible:
+
+1. You can press the L or R Button to
+make the characters visible or not
+
+2, The characters are automatically
+made visible when you encounter an
+enemy
+
+3, The characters are automatically
+made visible when you come upon a
+building or castle.
+
+4. The characters are automatically
+made visible when you use the Icon
+Area to give commands,
+
+When the characters are visible, you can
+choose to move the entire group or an
+individual character. To move the
+entire group you must first choose a
+leader. The leader of the group is
+indicated by a red lamp below the
+character's picture in the Character
+Area. You can choose the leader of the
+group by pressing the Y Button until the
+.d lamp appears under the desired
+character.
+
+With a selected leader, the Control Pad
+will move the leader of the group. The
+other members of the group will follow
+the movements of the leader.
+
+You can also choose 10 move just one
+selected character. By pressing the X
+Button, the lamp below the character
+will change from red to blue. The blue
+lamp indicates that the character has
+been chosen to move alone. Now, when
+you use the Control Pad you will be
+moving only the selected character
+
+===== Page 9 =====
+
+Viewing the Map
+
+You can view a map of Drakkhen Island
+by pressing either the SELECT or START
+Buttons.
+
+The map shows your current location as
+well as the location of the eight castles
+and other buildings. The compass in the
+upper right of the sereen indicates the
+direction you are currently headed.
+
+You will find the map a necessary tool
+in your quest. When you are done
+viewing the map, press the A Button to
+return to the game.
+
+Doing Battle
+
+Drakkhen Island is inhabited by a large Your chances for success in battle can
+number of rather unfriendly creatures, be greatly improved by properly arming
+When you encounter one of these your characters and providing them
+creatures, the battle will be waged with the best possible protective armor
+automatically. However, you may This can be accomplished by giving
+choose to try to avoid battle by commands
+
+repeatedly pressing the L and R Buttons
+This will not always work, but it is
+sometimes wiser to avoid a confronta-
+tion. If you are inside a castle, the only
+way 10 avoid battle is to exit to another
+room.
+
+During battle, if your characters inflict
+damage upon the enemy, a yellow
+arrow beneath the character's picture in
+the Character Area will light up. The
+number that is shown is the amount of
+damage inflicted upon the enemy. If the
+number appears without the yellow
+arrow, your character has suffered that
+amount of damage.
+
+===== Page 10 =====
+
+Giving Commands
+
+|
+
+The icons contained in the Icon Area let
+you give commands to your characters
+and let you save your game. You can
+activate the Icon Area by pressing the A
+Button. A dagger cursor will appear,
+pointing to one of the command icons.
+The icon will also have a frame around
+it. You can choose a command using
+the Control Pad and pressing the A
+Button. To cancel, press the B Button.
+
+The Character icon gives you detailed
+information about each of your
+adventurers and allows you to control
+the allocation of weapons and items.
+Choosing the Character icon will bring
+up the first screen of character
+information and pause the game.
+
+This screen shows you the Level (LV),
+Health Points (HP), and Magic Points
+(MP) for each character. As characters
+gain more experience, their Level will
+increase. The Health Points measure
+the life of the character. When the
+Health Points decline to zero, the
+character dies. The Magic Points
+indicate the ability of the character to
+use spells.
+
+In addition, a compass in the upper right
+corner shows your current direction
+Below the compass, your heading is
+shown in degrees. The eight blinking
+dots at the bottom of the character
+screen will be replaced by blue dots as
+you acquire each of the eight tears.
+
+You can choose to view detailed
+information on each character by moving
+the triangle cursor to the desired
+character and pressing the A Button.
+
+You can choose EXIT to return to the
+game.
+
+By choosing to view detailed information
+ona character, you will be see a screen
+similar to the following
+
+This screen shows the Level and
+Experience for the selected character and
+the amount of Jade Coins carried by the
+group of characters. You can choose
+from the menu using the Control Pad to
+move the triangle cursor to the desired
+item and pressing the A Button
+
+===== Page 11 =====
+
+WEAPON-ARMOR
+
+Choosing WEAPON-ARMOR will allow
+you to change the weapons and
+protective clothing worn by the
+character.
+
+The middle of the screen shows an
+inventory of all of the equipment
+carried by the character. Items with an
+asterisk next to them are currently
+being used
+
+GIVE
+
+Choose this to give a piece of equipment
+to another character. You will then be
+allowed to choose the piece of
+equipment you wish to give and who
+should receive it
+
+EQUIPMENT
+
+Choose this to change the currently
+used items for the character. This is the
+means of using a newly acquired
+weapon or piece of protective clothing
+You will be presented with a list of
+available equipment in each of the
+categories. The triangle cursor will
+appear next to the currently selected
+item. To change the:currently selected
+item, move the cursor with the Control
+Pad and press the A Button.
+
+DROP
+
+Choose this to drop a piece of
+equipment. You can then choose
+which item you wish to get rid of
+You may find that it is not possible
+to drop all items.
+
+EXIT
+Choose this to return to the previous
+sereen
+
+ITEM
+
+Choosing ITEM will let you GIVE, USE, or
+DROP an item like a ring or phial
+(bottle),
+
+GIVE
+
+Choose this to give an item to another
+character. You will then be allowed to
+choose the item you wish to give and
+who should receive it
+
+USE
+Choose this to make use of an item.
+You can then choose the item you wish
+to use from the list of available items.
+
+DROP
+
+Choose this to get rid of an item. You
+can then choose the item you wish to
+drop.
+
+EXIT
+Choose this to return to the previous
+screen
+
+MAGIC
+
+Choosing MAGIC will give you access to
+any spells that the character has
+learned
+
+To use a spell, move the cursor to the
+selected spell and press the A Button.
+
+===== Page 12 =====
+
+INFORMATION
+
+Choosing INFORMATION will display
+detailed information about the
+character.
+
+MAXIMUM HEALTH POINTS:
+
+The maximum health points that the
+character can have will increase as the
+level of the character increases.
+
+MAXIMUM MAGIC POINTS:
+The maximum magic points that the
+character can have will increase as the
+level of the character increases
+
+POWER:
+
+The greater the power value, the more
+damage the character can inflict on
+enemies
+
+DEFENSE:
+
+The greater the defense value, the less
+damage the character will suffer in
+battle.
+
+W
+W
+
+PHYSIQUE:
+The greater the physique value, the
+more effective a given weapon will be
+
+INTELLIGENCE:
+The greater the intelligence value, the
+more precision in fights
+
+KNOWLEDGE:
+
+The greater the knowledge value, the
+more ability to understand and use
+spells and potions.
+
+AGILITY:
+The greater the agility value, the more
+effective the character will be in battle.
+
+FORTUNE:
+
+The greater the fortune value, the more
+likely that the character can escape an
+attack,
+
+The Mouth icon let's you listen to other
+characters you encounter. Sometimes
+characters will give you additional
+information if you listen to them more
+than once. It is wise to talk to many of
+the characters. The information offered
+by strangers is often valuable.
+
+The Controller icon gives you access to a
+series of help screens about the use of
+the controller and the principles of the
+game. If you forget which key to use,
+choose the Controller icon. Press the A
+Button to go from one help screen to
+another. Press the B Button to return
+to the game.
+
+The Take icon lets you pick up an item
+that isin front of the character
+
+The Sword icon lets you arm a character
+with either a weapon or magic. When
+you first select the Sword icon, you will
+be given a list of the characters.
+
+===== Page 13 =====
+
+For each character, this screen shows
+how they are currently armed. Choose a
+character by moving the triangle cursor
+and pressing the A Button
+
+From this screen you can choose how
+the character should be armed for
+battle
+
+READY THE WEAPON:
+Choose this to select the active weapon
+
+ATTACK - MAGIC;
+Choose this to. arm the character with
+Attack Magic
+
+DEFENSE - MAGIC:
+Choose this to arm the character with
+Defense Magic
+
+DEFENSE:
+
+Choose this to have the character
+defend itself and not aggressively attack.
+This is useful if the character is low on
+Health Points.
+
+EXIT:
+Choose this to return to the previous
+screen
+
+The Activate icon is used to activate any
+devices that are within reach of the
+character. For example, you can use
+this icon to touch an element symbol
+
+The Look icon is used to investigate
+your surroundings. This command will
+give a more detailed description, if
+available, of objects that are in front of
+the character.
+
+The Exit icon is used to quickly exit from
+a dungeon
+
+The Cartridge icon is used to save your
+game. After choosing the Cartridge icon,
+press the A Button to save the game or
+the B Button to cancel,
+
+W
+wl
+
+===== Page 14 =====
+
+
+
+===== Page 15 =====
+
+Exploring the land
+
+As you continue your quest, you will
+come upon a number of additional
+sights
+
+The Flickering Lights is a small strip of
+enchantment in the center of the island.
+Itis unclear whether any creature can
+
+cross its boundaries.
+The priests of the Anak Shrines are
+
+accomplished in the healing arts. To
+resurrect and heal the members of your
+party, visit one of the shrines
+
+These are just a few of the places that
+await you. The rest you must discover
+for yourself!
+
+You may also encounter additional
+characters during your travels. An old
+man may appear from time to time. He
+is a valuable source of information. You
+will also meet travelling merchants from
+whom you may buy weapons, armor or
+other items or sell things that are no
+longer of use to you.
+
+The Inn is a good place to get important
+information from the local inhabitants.
+
+There are magical places on the island,
+called Warp Zones. When you enter a
+Warp Zone, you are teleported to
+another part of the island. These Warp.
+Zones can be used to quickly travel
+from one place to another. Each Warp
+Zone is connected to a specific
+destination.
+
+===== Page 16 =====
+
+“Advice for the Adventure
+
+When you start your quest, the
+members of your party will be
+inexperienced. Try to gain some battle
+experience as soon as possible. The
+castle that first appears before you is
+that of Prince Hordkhen. Begin your
+quest by first visiting his castle.
+
+Check the map frequently to verify your
+location and heading. You should also
+make sure that the members of your
+party are appropriately armed and
+clothed.
+
+Lastly, save your game frequently so
+that you can resume it at a later time.
+
+(s0)
+
+SOUSEREEEERAERREEOEGI
+
+In Order by Increasing Power
+
+Armor/Cuirass
+Leather
+
+Leather Plate
+Light Cuirass
+Medium Cuirass
+Heavy Cuirass.
+Power Cuirass
+Hyper Cuirass
+Dragon Cuirass
+
+Greave
+Light
+Medium
+Heavy
+Power
+Hyper
+Dragon
+
+Weapons
+Dagger
+Bludgeon
+Bow & Arrow
+Rod
+
+Short Sword
+Long Sword
+Saber
+
+Dragon Sword
+
+Weapons and Armor
+
+Protective Clothing
+Shirt
+Helmet Jacket
+Light Chain Mail
+Heavy
+Power Other Clothing
+Hyper Light Robe
+Dragon Medium Robe
+Heavy Robe
+| Light Coat
+
+Medium Coat
+
+Heavy Coat
+
+Buckler
+Light
+Medium
+Heavy
+
+Shield
+Light
+Medium
+Heavy
+Power
+Hyper
+Dragon
+
+Shoes
+Shoes
+Boots
+
+===== Page 17 =====
+
+There are many items that you can
+acquire from travelling merchants,
+overcoming enemies, and diligent
+investigation of the castles.
+
+TORCH
+
+KEY
+
+PHIAL (HP)
+PHIAL (MP)
+EMPTY PHIAL
+
+HEART
+
+Purpose
+
+Useful for exploring dark parts of the
+dungeon.
+
+Can be used to open some locked doors.
+Restore health points, Contains 7 doses.
+Restore magic points. Contains 7 doses.
+Someone beat you to the contents!
+
+Grants new life,
+
+There are also staffs that carry magical
+powers
+
+Staff
+GHOST
+EARTH
+
+AIR
+UFE
+MAGIC
+THIEF'S
+LUCKY
+
+‘The rings grant the owner greater
+powers
+
+Ring
+WAR
+WIND
+FLASH
+SAGE'S
+FORCE
+STAR
+
+DEFENSE
+
+Purpose
+
+Makes your character invisible
+
+Cuts your battle damage by half.
+
+Cuts the affect of magic on you by half.
+| Your Health Points recover faster.
+Your Magic Points recover faster.
+| Enables you to get past locked doors
+
+Can enable you to avoid traps
+
+Purpose
+
+Increases strength,
+Increases agility.
+Increases intelligence.
+Increases knowledge.
+Increases physique.
+Increases fortune.
+
+Increases defense.
+
+===== Page 18 =====
+
+There are many powerful spells which
+you may learn
+
+HEAL MINOR
+
+This spell only demands a small amount
+of energy and will be enough to heal a
+small wound
+
+FIREBALL
+
+A spell of great force which throws fear
+into the hearts of those who set eyes
+upon you. The spell of lightning is
+quick, terrible, tremendous, and fatal
+The chosen enemy will find himself in
+distress and confusion. The spell is
+terrifying, but a little tiring.
+
+INVISIBLE
+
+If you succeed with this spell, you will
+disappear from the eyes of the enemy.
+A costly spell that will help your
+progress.
+
+CURE
+
+This spell is the only one which can heal
+infections, illness and poisons. The
+spell is not very expensive and can be
+extremely useful
+
+“Gels.
+
+LIGHT
+
+Brings light to darkness. As it is easy to
+handle, this impressive spell will not
+cost a lot
+
+STRENGTH
+Your force will be multiplied and your
+enemy surprised, The spell is little
+straining
+
+SHIELD
+
+This spell is of particular use when your
+protective clothing is weak. The spell
+costs little and you will find yourself
+protected from enemy blows.
+
+HEAL MAJOR
+This spell is good for healing wounds.
+In the case of serious wounds it will be
+necessary to apply it several times.
+
+UNLOCK
+
+Use this spell to unlock doors that
+cannot be opened with keys. This spell
+costs little and can reap great rewards.
+
+ANTI-MATTER
+
+Use this spell to eliminate the undead.
+This spell is of average cost but
+essential.
+
+PARALYSIS
+
+Immobilize your enemy. The effect is
+immediate, but the duration of this spell
+will depend on your strength. It is only
+effective against a creature.
+
+DISPEL
+Aspell of extreme power! It is
+expensive, but extremely effective.
+
+CONFUSION
+Engulf your enemy in chaos. This spell
+isa little expensive in points.
+
+SPEED
+You will now have lightning speed. This
+spell isa little tiring.
+
+ANTI-MAGIC
+
+For a brief time, this spell will negate
+the magic of your enemy. This spell is
+expensive and tiring.
+
+RESURRECTION
+
+This is perhaps the most fascinating of
+all the spells. With it, you can bring a
+character back to life. This spell is very
+expensive
+
+TELEPORTATION
+This spell will transport you to another
+location.
+
+DRAGON POWER
+
+This will increase the level of your
+character for a short time. But do not
+make use of this spell too often, for it is
+very expensive.
+
+===== Page 19 =====
+
+Creating Your Own Characters
+
+The more advanced adventurers may
+wish to customize the characters. When
+you start a new game and have chosen
+FILEI or FILE2, you will be given the
+option to START a new game with the
+default characters or to CREATE a
+custom set of characters
+
+Choosing CREATE will bring up the
+following screen
+
+First you must choose the gender of the
+character. Use the Control Pad to make
+your selection and press the A Button
+
+Next you must choose the class of
+character you want, You may choose
+only one character from each of the
+four classes. The Fighter/Amazon is
+physically strong and very effective in
+battle. The Scout is agile and skilled in
+magic. The Magician is very accom
+plished in attack magic, but is physically
+weak. The Priest/Priestess is particu
+larly skilled in healing magic, but is
+physically weak
+
+—_
+|
+
+36
+
+Enter the name of the character using
+the Control Pad and pressing the A
+Button. Move the cursor to END and
+press the A Button when you are done.
+
+You can now choose to assign the five
+values in the lower left corner of the
+screen to the POWER, AGILITY,
+INTELLIGENCE, KNOWLEDGE, and
+PHYSIQUE attributes. Only one of the
+values will be bright green, To assign
+the highlighted value, move the cursor
+to the selected attribute and press the A
+
+Button. To cancel an assigned value,
+press the B Button, The HP (Health
+Points), FORTUNE, and COIN attributes
+are set automatically
+
+You should carefully math the
+attributes to the class of character to
+ensure their effectiveness,
+
+Repeat these steps for the other three
+members of your party. When you are
+done, you can choose to create the
+party over again (B Button) or to begin
+the game with your custom characters
+(A Button),
+
+===== Page 20 =====
+
+OteS
+
+90-DAY LIMITED WARRANTY
+KEMCO/SEIKA GAME PAKS
+
+SEIKA Corporation warrants to the original
+consumer purchaser that this Nintendo/Super-NES
+PAK” Inot including Game P
+Accessories or Robot Accessories shall be free
+rom defects in material and workmanship for a
+period of go days from date of purchase. Ifa
+defect covered by this warranty occurs dur
+go-day warranty period, SEIKA will repair or
+replace the PAK, at its options, free of charge.
+
+To receive this warranty service:
+1. DO NOT return your defective Game Pak to the
+retailer
+
+2. Notify the SEIKA Consumer Service Department
+of the problem requiring warranty sen
+
+Our Consumer Se
+Department isin operation from 9:00 am. to
+5,00 p.m. Pacific Time, Monday through Fri
+Holidays excepted)
+
+3. If the Seika Service Representative is unable to
+solve the problem by phone, he will provide you
+ithorization number. Simply
+
+rd this number on the outside packaging of
+your defective PAK, and return your PAK
+FREIGHT PREPAID AND INSURED FOR
+LOSS OR DAMAGE together with your sales sip
+or similar proof of purchase within the 90-day
+warranty period to
+
+Selka Corporation
+
+20,000 Mariner Avenue, Suite 100
+Torrance,
+
+Attn’ Consumer S
+
+This warranty shall not apply ifthe PAK has been
+damaged by negligence, accident, unreasonable
+use, modification. tampering. or by other causes,
+unrelated to defective materials or workmanship
+
+WARRANTY LIMITATION!
+
+ANY APPLICABLE IMPLIED WARRANTIES,
+INCLUDING WARRANTIES OF MERCHANTABILITY
+AND FITNESS FOR A PARTICULAR PURPOSE, ARE
+HEREBY LIMITED TO 90 DAYS FROM THE DATE OF
+PURCHASE ANI) ARE SUBJECT TO THE CONDITIONS
+SET FORTH THEREIN IN NO EVENT SHALL SEIKA BE
+LIABLE FOR CONSEQUENTIAL OR INCIDENTAL
+DAMAGES RESULTING FROM THE BREACH OF
+EXPRESS OR IMPLIED WARRANTIES.
+
+The provisions of this warranty are valid in the
+United States only. Some states do not allow
+limitations of how long an implied warranty lasts
+‘or exclusion of consequential or incidental
+damages so the above limitations and exclusion
+may not apply to you. This warranty gives you
+specific legal rights, and you may also have other
+which vary from state to state
+
+DRAKKHEN™ is published under license from
+Infogrames. ©1989,1990. Infogrames™ is
+trademark of Infogrames. Used with permission
+All rights reserved, Licensed in conjunction with
+JP International. ©1ggt Kemco

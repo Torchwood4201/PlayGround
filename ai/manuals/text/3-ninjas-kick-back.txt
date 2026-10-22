@@ -1,0 +1,594 @@
+# 3 Ninjas Kick Back
+source: https://archive.org/details/snes_manual_archive
+pdf: 3 Ninjas Kick Back ( USA ).pdf
+region: USA
+pages: 10
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+IMAGESOFT,
+
+Sony Imagesoft, 2400 Broadway, Suite 550, Santa Monica, CA 90404
+PRINTED IN JAPAN
+
+ee ee
+
+IMAGESOFT.
+
+INSTRUCTION BOOKLET
+
+SNS-A3NE-USA
+
+===== Page 2 =====
+
+INTRODUCTION
+
+Welcome, humble players to the realm of
+the ninja. | Mori, will train you in the
+arts of Ninjitsu. You must be prepared for
+the amazing journey you are about to
+take. Never forget . . . a ninja is heart,
+body, mind and spirit. When the four
+work together as one . . . a ninja cannot
+be beaten!
+
+As Rocky, you must be the strength of the team. Use your gifts well
+to overcome great adversity. As Colt, you must be the speed of the
+team. Control your temper and use the inner energy as a powerful
+weapon. As Tum Tum, you are the stealth of the team. Use your
+small size as an advantage against those who do not know your
+fury. (Oh, Tum Tum, cut down on the snacks!)
+
+Work well together young ones. Count on each other's strength to
+help you conquer all of your goals. Learn well and never fear the
+shadows, for they are like your brothers.
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+SONY
+
+SOFT
+3 Ninjas Kickback” is distributed by Sony Imagesot,
+
+2400 Broadway Avenue, Suite 550, Santa Monica, CA 9040s.
+Sony is a registered trademark of Sony Corporation. Imagesot is
+8 trademark of Sony Electronic Publishing Company © 1994 Sony
+Electronic Publishing Company. All rights reserved. 3 Ninjas Kick
+Back is a trademark owned by 3 Ninjas Japan, Inc. and used by
+Sony Electronic Publishing Company under authorization
+
+THIS OFFICIAL SEAL IS YOUR
+LICENSED BY ASSURANCE THAT NINTENDO HAS:
+DD THE OF THIS
+PRODUCT. ALWAYS LOOK FOR THIS
+‘SEAL WHEN BUYING GAMES AND
+sS TO ENSURE
+COMPATIBILITY WITH YOUR SUPER
+NINTENDO, SUPER NINTENDO NINTENDO ENTERTAINMENT SYSTEM
+ENTERTAINMENT SYSTEM ALL NINTENDO PRODUCTS
+THE OFFICIAL SEALS ARE LICENSED BY SALE FOR USE ONLY
+REGISTERED TRADEMARKS OF WITH OTHER. =D PRODUCTS
+NINTENDO OF AMERICA INC. BEARING THE OFFICIAL NINTENDO
+(©1991 NINTENDO OF AMERICA INC. ‘SEAL OF QUALITY.
+
+WARRANTY INFORMATION
+
+LIMITED WARRANTY
+SONY IMAGESOFT WARRANTY
+
+Sony Imagesoft warrants to the original purchaser of this Sony
+Imagesoft product that this Game Cartridge is free from defects in
+material and workmanship for a period of ninety (go) days from the
+date of purchase. This Sony Imagesoft product is sold “as is,” without
+expressed or implied warranty of any kind, and Sony Imagesoft is not
+liable for any losses or damages of any kind resulting from the use of
+this product. Sony Imagesoft agrees for a period of ninety (90) days
+to either repair or replace, at its option, free of charge, the Sony
+Imagesoft product. Send product postage paid, along with dated proof
+of purchase, to the address shown below.
+
+This warranty shall not be applicable and shall be void if the defect
+in the Sony Imagesoft product has arisen through abuse, unreason-
+able use, mistreatment or neglect. THIS WARRANTY IS IN LIEU OF ALL
+OTHER WARRANTIES AND NO OTHER REPRESENTATIONS OR CLAIMS OF
+ANY NATURE SHALL BE BINDING ON OR OBLIGATE SONY IMAGESOFT.
+ANY IMPLIED WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT,
+INCLUDING WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE, ARE LIMITED TO THE NINETY (go) DAY PERIOD
+DESCRIBED ABOVE. IN NO EVENT WILL SONY IMAGESOFT BE LIABLE
+FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES RESULTING FROM
+POSSESSION, USE OR MALFUNCTION OF THE SONY IMAGESOFT
+SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an implied war-
+ranty lasts and/or exclusions of liability may not apply to you. This
+warranty gives you specific legal rights, and you may also have other
+rights which vary from state to state.
+
+Customer Service (310) 449-2393
+
+===== Page 3 =====
+
+NINJA CREDITS TABLE OF CONTENTS
+
+Executive Producer Sony Imagesoft
+Rich Robinson
+
+Producer Sony Imagesoft
+Nathan Rose
+
+Assistant Producer Sony Imagesoft
+Mark Smith, David Jaffe
+
+A Tale of Ancient Gold...) . . .. 355-300:
+
+Game Testers Sony Imagesoft i :
+Bruce CochranipJose Cruz, Jody Kelsey, Andre Leighton, Seth Luisi, Tobin Russell Controlling the Characters#vss...-.-.-.-+- +45
+
+Programmer Combined Actions .........- ‘a seus 21520
+le
+ay Spo Bring On the Guys!’... .°.... SaeM i. «ss. 7
+pts Game Design . “
+Terry Lloyd The Game Screen ...)... +258 8
+Based on an Original Idea by Character Profile .......... ee 9
+)Mike Giam, Nathan Rose, David Jaffe 2 7 ce
+é " Special Moves and Objects ..........0....... 10
+“Background Art and Map Design .
+Terry Lloyd (Se Items and Colléctibles............0HMy... 1-12
+__ Sprite and Art Animation ; The Bad Guys «igi *. << 2 ee ess 13-14
+"Dean Betton, Terry Lloyd, Lee Pullen Pr
+: S Battle Sites . ..... jo'ere 0°91 EMMI 50 eens 15
+
+Music and Sound Effects oe
+Richard Joseph ¥ Survival Skills ...... :
+Storyline Art d Ninja Credits'. se’. ais: o's _ BRB S see
+
+Dean Betton
+
+Warranty Information. ..... \ 3 aoe
+
+Manager Malibu Interactive UK :
+lan McGee
+
+Game Testers Malibu Interactive UK
+Tony McColgan, MicksThompson
+
+Game Testers Malibu Interactive US
+Jun Caliva, Bill McDonald, Kevin Molhall, Jason Uyeda
+
+Compression Software
+Rob Northern
+
+===== Page 4 =====
+
+The story unfolds as Grandpa Mori leads
+the 3 Ninjas (Rocky, the eldest brother,
+Colt, the middle brother, and Tum Tum,
+the youngest brother) in the final stages
+of his Ninjitsu training program. Old
+Mori may look like an old man, but he
+sure doesn’t move like one as he eludes
+the young warriors time after time. No
+one is hurt as they scuffle and toss each
+other across the forest in the session.
+
+Once the training is complete, Mori tells the youngsters that he
+must return to his village in Japan to present a
+ceremonial dagger to the winner of a martial
+arts tournament. Legend has it
+
+that the dagger makes up part of
+
+the necessary “key” to unlock a
+
+mystical cave of gold. Mori
+
+never fell for the legend, but
+
+his rival of long ago does.
+
+Word has spread of Mori's
+
+return to his native land and
+
+evil plots have begun to rid
+
+Mori of his coveted dagger.
+
+Can the 3 ninjas save their
+grandfather and deliver
+the dagger to the
+
+rightful owner?
+
+Practice, practice, practice! Work on your jump and attack skills
+to perfect your timing. Mastering each character's moves will
+enable you to win!
+
+Learn to maneuver behind your enemies. Do not let them get a
+free shot at your back! That will always prove fatal!
+
+Watch your life meter and special weapons counter to make sure
+you know the risks before
+diving into a new attack!
+
+Fighting while hand-over-
+hand is tricky. Limit these
+encounters as best as
+you can.
+
+There are several hidden
+areas that can only be
+opened by a bomb blast.
+They hide valuable
+treasures...
+
+Passwords are awarded after succeeding most rounds. Write
+these down so you don’t have to replay the entire level. You can
+choose a new player when you begin with a password to explore
+the area with a new set of talents!
+
+===== Page 5 =====
+
+BATTLE SITES
+
+Stage 1: The Woods
+Mori completes your training in the peaceful surroundings of a
+heavily trapped area in the woods. (This guy is on your side?)
+
+Stage 2A: The Cabin
+
+Slap around a bunch of grundgers
+and let them know who is the boss
+around here!
+
+Stage 2B: The Cave
+Subterranean location filled with
+treasures and danger!
+
+Stage 3: The Hospital
+Mori is in here trying to recuperate from an accident.
+
+Stage 4: Japanese Garden
+Serene beauty hides many deadly
+traps!
+
+Stage 4: The Dojo
+This is where the conflict began
+
+fifty years ago...
+
+Stage 5: Castle Osaka
+
+Legend has it there is a cave of gold located here. If you only
+had the keys. . .
+
+CONTROLLING THE CHARACTERS
+
+Y Button
+L Button X Button
+-R Button
+CaN
+Ce) > 62 \
+(fe Pp) |
+|
+Start
+Control Pad Select mt va bei
+
+Throughout the booklet, the buttons on the Super NES Controller
+will be referred to as follows:
+
+Control Pad, Start Button, Select Button, A Button, B Button, X
+Button, Y Button, L Button, and R Button.
+** [Have arrows in manual point to each one.]
+
+Unless you configure the controls differently (in the sub-menu
+under Control), the button commands will be as follows:
+
+CONTROL PAD
+
+* Press Up or Down to move the marker on the Options and
+Sub-menu screens.
+
++ Press Left or Right to walk left
+or right.
+
++ Press Up to climb up ropes/
+ladders and hide in
+recessed areas.
+
++ Press Down to climb down
+or crouch.
+
+A Button - Attack button
+* Press this button to Attack/Kick/Use Weapon/Trigger Traps.
+Triggers traps if you are over one. Uses best attack
+
+(attack, kick, or weapon) depending on proximity to foe.
+
+===== Page 6 =====
+
+CONTROLLING THE CHARACTERS
+
+B Button - Jump button
+
+* Character jumps variable height and distance (depending on
+how long you press the button, how much room there is on
+screen.)
+
+X Button - Bomb button
+
+* Press to launch secondary weapons that character has collected.
+
+Start Button
++ Press to make selections and to pause the game.
+
+COMBINED ACTIONS
+
+* Down + B Button: Drop through a platform.
+
+If you are on a jump-through
+platform and you press Down
+and the jump button, you can
+drop down through and also
+
+grab on to a hang-on if there
+is a hang-on below.
+
+On ‘Jump-through’ platform:
+
+Defensive Move. If you are
+blocking and press the attack
+button, then you do an over
+head defensive slashing move.
+
+* Up + A Button:
+
+* Down + Left or Right: Crawl on hands and knees.
+
+THE BAD GUYS
+
+Samurai: Not merely guys in sharp suits, but mean,
+organized guys in sharp suits. Do not treat lightly—they always
+mean business.
+
+Sumo Wrestlers: Tum Tum’s idols, these guys can put a dent in a
+concrete bench. Maybe not as fast as the 3 Ninjas, but they pack
+a terrific punch!
+
+Nurse Shibuyu: Mori wanted her listed here. I guess good
+
+, hospital help is hard to find. . .
+
+14
+
+===== Page 7 =====
+
+THE BAD GUYS
+
+So what kind of fun would a heroic game
+be without some tough bad guys to kick
+around? In view of this we have
+assembled some of the
+meanest baddies from here
+to Yokohama Bay for your
+heroic assaults. We
+hope you enjoy!
+
+hae
+
+q + B Button + A Button:
+
+. —in/’
+* Up - B Button:
+
+The “Other” Ninjas: They come in all shapes
+and sizes, but mostly they are either wearing
+
+Black, Red or Gold outfits. The Gold ones are really tough! ~ A Button + B Button:
+
+The Grundgers: Glam, Slam, and Vinnie always turn up when
+you least expect them. The least they could do is turn into a
+wisp of smoke and blow away, but no, they just keep coming
+back for more.
+
+COMBINED ACTIONS
+
+Flying Kick.
+
+Grab Hang-ons. Hold Up when
+jumping to catch on to over
+hangs. Push Up and the jump
+button again to pull yourself
+up.
+
+Special Move. Like Tum Tum's
+roll attack or Colt's somersault,
+these moves take away
+
+energy from the players.
+
+Use these moves wisely in
+panic situations.
+
+===== Page 8 =====
+
+BRING ON THE GUYS! ITEMS
+
+After obtaining 100 Yen worth of
+tokens, your pockets split open and
+the change comes bouncing out.
+
+Extra lives are awarded at 10,000 -
+25,000 - 50,000 - and 100,000 points
+and then every 100,000 additional
+
+points thereafter.
+
+3 Ninjas Kick Back is a 1 or 2 player game. The first screen that
+
+offers you options allows you to choose either 1 or 2 player There are sub-games along
+mode as well as entering your own options for the game. The ° the way for you to earn
+options include: more points and boost your
+A characters abilities. Move
+Difficulty level: Easy, Normal, or Hard. - i wary
+E & , quickly to gain valuable points!
+
+Background Music
+Sound Effects
+
+Control: This takes you to a
+submenu where you (and
+another player if in 2
+player mode), decide
+which buttons are for
+attack, jump, and
+secondary weapon.
+
+Exit: Press the Start Button here to exit options and go back .
+to the main screen to begin the game.
+
+===== Page 9 =====
+
+ITEMS AND COLLECTIBLES THE GAME SCREEN
+
+Listed below are descriptions of the items that are obtained
+throughout the game and their respective values:
+
+The top of the game screen shows character
+
+Tokens: For points and extra lives (per 100 gained). information. Since this is a 2 player game,
+
+F Ai , the Time Clock separates the two players
+
+Food Items: Replenish lost energy. (Tum Tum’s favorite!) a P ; ee! ;
+information bars. The information shown is:
+
+Yin Yang Symbol: __ Refill energy to maximum.
+
+Hourglass: Extra time on the play clock.
+
+Glass Orb: Gain 250 points.
+
+Gemstone: Gain 500 points.
+
+Gold Star: Gain 1000 points.
+
+Yellow Mask: Extra life for Tum Tum or 5,000 points Energy Bar
+
+Pe
+for collector. Points
+
+Blue Mask: Extra life for Colt or 5,000 points for Lives
+
+collector.
+* of Tokens
+
+Green Mask:
+Extra life for Rocky or 5,000
+
+* of Secondary
+points for collector.
+
+Weapons
+Blue Crystal Ball:
+
+Gain limited amount of
+special shots.
+
+Red Crystal Ball:
+Destroys all enemies on screen.
+
+Yellow Crystal Ball:
+Gain strength boost for
+limited time.
+
+===== Page 10 =====
+
+The 3 Ninjas have definite
+strengths, abilities and moves
+that are unique to each other.
+Listed below are the specifics
+regarding them:
+
+Rocky - Eldest brother
+
+Weapon of choice: Staff
+
+Special Move: Spinning Kick
+
+Secondary Weapon: Shurikens (Throwing Stars). Rocky
+launches out 3 shurikens at any one
+time and they fan out as they travel
+away from him. The pattern of flight
+is 1 upwards, 1 straight ahead, and
+1 downwards.
+
+Colt - Middle brother
+
+Weapon of choice: Sword
+
+Special Move: Spinning Blade
+
+Secondary Weapon: Daggers. He can fire up to three
+daggers at any time.
+
+Tum Tum - Youngest brother
+
+Weapon of choice: Sai (Lunging, jabbing weapon)
+
+Special Move: Rolling Attack
+
+Secondary Weapon: Miniature Sais. He can fire up to four
+sais at any time.
+
+SPECIAL MOVES AND OBJECTS
+
+Each of the players interact with items,
+objects and the scenery in a special
+manner. They can literally grab on to
+various portions of the background to
+enable them to advance in a level.
+Listed below are some of these features:
+
+Trampolines: Not only can you jump on
+
+these items to gain higher ground, but
+
+you can move them to the best position for your character as well.
+Discover the proper button combination to master the trampoline
+technique and launch yourself to new heights.
+
+Recessed Areas: Alcoves in shadow conceal small ninjas well. Locate
+these precious areas and use them to your advantage to time an attack
+or temporarily retreat from a powerful foe!
+
+Deadly Objects: Discover which background items can be used against
+your foes and time the attack.
+
+Special Hand Holds: Grab on to a rope, a vine, a tree branch and
+propel yourself higher than a regular
+
+jump. Chain a series of these moves to
+
+cover near impossible grounds!
+
+Crawling: Not a cowardly move, but a
+manner in which a ninja moves with
+caution and stealth. Discover secret
+bonus areas and hidden rooms by mov-
+ing close to the ground! Remember, you
+must first crouch before you can crawl.
+
+Using Secondary Weapon: Press the Secondary Weapon Button to acti-
+vate the special ‘bombs’ that you recover throughout the levels. These
+items pack a wallop and come in handy when facing a difficult foe!
+
+Going Hand-Over-Hand: Sometimes you will need to suspend yourself
+over deadly ground. Hint: Move quickly!

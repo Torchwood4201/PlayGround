@@ -1,0 +1,590 @@
+# Super Battleship
+source: https://archive.org/details/snes_manual_archive
+pdf: Super Battleship ( USA ) ( Color ).pdf
+region: USA, Color
+pages: 12
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+The SorTware
+TooLworKs
+
+60 Leveroni Court, Novato, California 94949
+
+PRINTED IN JAPAN
+
+wt
+we
+
+FROM
+THE SOFTWARE
+TOOLWORKS
+
+SNS-8B-USA
+
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+INFORIATION AND PRECAUTIONS SOOKLET CAMEFULLY BEFORE SUPER BATTLESHIP™
+
+USING YOUR NINTENDO" HARDWARE SYSTEM OR GAME PAK.
+
+Licensed by Mindscape Inc.
+
+From The Software Toolworks, Inc. ry
+
+60 Leveroni Court, Novato, CA 94949 Instruction Booklet
+Battleship and Super Battleship are trademarks of Milton Bradley Company
+
+A Division of Hasbro, Inc.
+
+Licensed to:
+
+Mindscape Inc.
+
+From The Software Toolworks, Inc.
+
+60 Leveroni Court, Novato, CA 94949
+
+Ln]
+Cm
+eth Bema
+
+MINDSCAPED
+
+THE SOFTWARE
+TooLworks
+
+LICENSED BY
+THIS OFFICIAL SEAL IS YOUR
+ASSURANCE THAT NINTENDO HAS
+APPROVED THE QUALITY OF THIS
+PRODUCT. ALWAYS LOOK FOR THIS
+
+iD
+ACCESSORIES TO ENSURE COMPLETE
+SUPER
+
+NINTENDO, SUPER NINTENDO COWPATIRLITY WITH YOUR SUPER
+ENTERTAINMENT SYSTEM, SUPER NES ‘NIN Ni MENT SYSTEM
+AND THE OFFICIAL SEALS AE ALL NINTENDO PRODUCTS ARE
+SESRIED TRADES Coe LICENSED BY SALE FOR USE ONLY
+WITH OTHER AUTHORIZED PRODUCTS
+NINTENDO OF AMERICA INC. BEARING THE OFFICIAL NINTENDO’
+
+© 1993 NINTENDO OF AMERICA INC. ‘SEAL OF QUALITY,
+
+===== Page 3 =====
+
+Table of Contents
+
+Starting the Game ....
+Game Controls ..
+The Command Post
+Damage Control.......
+Man Your Battle Stations
+Battle Craft...............
+Levels and Missions
+Secret Codes .
+
+Technical Support
+
+Starting the Game
+
+To start the game:
+
+1. Make sure your Super Nintendo Entertainment System®
+(Super NES) is turned off.
+
+2. Put the Super Battleship” Game Pak in your Super NES.
+
+3. Turn on the Super NES.
+
+4. At the title screen, press Start.
+
+5. Use the Control Pad to select an option, then press A:
+Super Battleship—Play with overhead and closeup battle
+views. Select a mission, then press A.
+
+Classic Battleship—Play on a screen similar to the board
+jame.
+
+Enter secret code—lf you know a secret code, use it to choose
+
+a Level and Mission. See Secret Codes.
+
+oe al
+BrTMLESHIP}
+
+===== Page 4 =====
+
+Buttons
+
+Game Controls Start Pause and unpause.
+
+Left Button. Right Button Select Begin the game, cancel the current operation, choose
+a menu option, or provide more options. See
+Command Post.
+~X Button | A The action button that confirms a secret code, placement
+AButton of ships in the water, and use of tactical options, such as
+
+Target Weapons. Usually, you use the Control Pad to
+make a selection, then press A.
+
+Control Pad
+
+‘ —B Button B During the enemy’s turn you can press B to turn off
+Select Button \yB visuals of enemy ship movements.
+utton
+Start Button ~ xX The toggle weapon button that cycles through the
+
+current weapons. Use the Control Pad to select the
+
+Target cy ony option, press X to choose a weapon,
+Control Pad then press A to fire.
+
+Y The toggle radar button that cycles through Radar,
+
+Sonar, and Off in the green circle on the right side of
+; vs ; 2 the Command Post view.
+
+Select an option, position the current ship, and aim weapons. Right View an overhead satellite image of the entire playing
+
+field. During your turn, press Right then A to see all
+
+A Up land, water, and vessels.
+
+o Down Left — Find out what your mission objective is.
+< Left
+
+> Right
+
+===== Page 5 =====
+
+The Command Post
+
+The Battleship Command Post gives an overview of your battle
+field, offers tactical options, and can show radar or sonar as
+needed. From here you give commands to your fleet during a
+mission. You also use the Command Post to assess ship damage
+and undertake repairs after an enemy encounter.
+
+To become a successful Naval commanding officer, you need to
+know how to maneuver your fleet on a mission, and how to use
+weapons and strategy to destroy the enemy. The best officers
+also know how to assess and repair damage to their ships.
+Tactical Options
+
+From the Command Post, press Y to toggle between Radar and
+Sonar in the green circle on the right of the screen.
+
+Use the Control Pad to highlight one of the tactical options
+on the lower left of the screen, then press A to use the options
+as shown.
+
+|,4&,| Move Ship -Position your fleet. A grid of squares
+
+Tad appears showing where the current ship may move. Use
+
+——| the Control Pad to place the cursor where you want the
+ship, then press A. You can reposition nets ship or
+
+choose Prior Orders to let a ship continue its course.
+
+Target Weapons — Aim your current weapon. Press X to
+cycle through available weapons, which may include
+the main gun, torpedoes, depth charges, and/or
+missiles. Use the Control Pad to move the cursor onto
+an enemy target, then press A. See Man Your Battle
+Stations.
+
+Prior Orders — Lets a ship continue on its current course.
+You can also pass a turn for a beached ship.
+
+4+
+
+iC)
+
+KS)
+
+Status Display — Switches to the Status Display for the
+current vessel. See Damage Control.
+
+I
+
+x
+
+u can press Select to see two more options:
+G-Go back to the game screen and start a mission.
+
+Fleet Display — Switches to the Status Display for the
+entire current fleet. See Damage Control.
+
+t@
+
+Press Select again to return to the normal Command Post view.
+
+===== Page 6 =====
+
+Damage Control
+The Fleet Display and Status Paley options let you monitor the
+s a
+
+condition of one ship or all ves:
+Fleet Display
+
+fter an engagement.
+
+CAMA
+
+Dow Aguirre
+
+Note: From the Fleet Display screen, use the Control Pad to
+highlight a ship, then press A. The Status Display screen
+appears for that ship.
+
+Status Display
+
+The full screen status display is a schematic side view of the ship,
+its ammunition, and any damage. From here, you can give
+
+6
+
+Damage Control teams their repair assignments. Use the Control
+Pad to highlight a damaged area for repair, then press A. If
+your Damage Control teams are hot, you may have a chance to
+make these repairs:
+
+Fire Control Hit
+
+Steering Hit
+
+Engine Hit
+
+Gunnery Hit—both Stern Guns and Bow Guns
+
+Sonar Hit
+
+Radar Hit
+When damage repair is done, press Select to return to the
+Command Post.
+
+===== Page 7 =====
+
+Man Your Battle Stations
+The main menu offers two play options, Super Battleship and
+Classic Battleship, with diferent vail ee! z
+Super Battleship Views
+
+If you choose Super Battleship on the main menu, you arrive at
+the Command Post, an overhead view of the naval battle.
+
+After you are in a position to successfully hit your enemy, choose
+Target Weapons. Press X to toggle between the main guns,
+torpedoes, missiles, or depth charges. Press A to activate that
+weapon. If your chances of a hit are good, a side view of the
+enemy appears.
+
+In the side view, press A to fire a weapon. You can also use the
+Control Pad in the side view as follows:
+
+Main Guns: Your crosshairs are centered on the horizon.
+Press the Control Pad to aim your guns.
+
+Torpedoes: Press ® and <4; to move the torpedo rack;
+press A and W to change the spread of
+torpedoes.
+
+Missiles: Press ® and 4; to control the flight path and
+lock onto an enemy ship.
+
+Depth Charges: You see an underwater view. Press ® and 4;
+to control the speed of your boat on the
+surface; press A and W to set the depth at
+which the charges detonate.
+
+With luck you'll hit your target without getting hit. Sometimes,
+even in range, you miss, based on the Good, of the other ship
+
+and your aim. Watch for the reload message. You are clear to
+fire away again!
+Classic View
+
+If you choose Classic Battleship on the main menu, you get a
+view that is similar to the board game.
+
+Use your game controls to position your ships on the grid, aim
+your weapons, and fire.
+
+===== Page 8 =====
+
+Battle Craft
+
+The te includes three categories of vessels, friendly naval
+vessels, enemy vessels, and neutral ships.
+
+Friendly Naval Vessels
+Depending on the Level and Mission, you command these types
+
+of ships:
+Patrol Boat — A small, usually fast ship with few weapons.
+These are your most expendable ships.
+Destroyer Escort - An expendable warship that accompanies
+and protects other ships.
+Destroyer — A real warship. This is a non-expendable scout
+and outrider for your fleet.
+Light Cruiser — A big destroyer. Good for hunting enemy
+destroyers.
+Heavy Cruiser — A ship big enough to have real armor and
+ae that do real damage. Use them as substitutes for
+ttleships when you don’t have enough of them.
+Battle Cruiser — A ie armored battleship. These can run
+down most smaller ships and carry enough firepower to do
+real damage to a battleship.
+Battleship — A massive warship with the biggest guns and
+heaviest armor. A battleship can destroy any ship it
+encounters!
+The speed of a ship is based on the amount of weapons and
+armor carried aboard. A loaded ship goes slower than one with
+little on board. So, a fastest ships are the patrol boats, and
+
+the slowest are the battleships.
+
+10
+
+Enemy Vessels
+
+Your enemies have all of the above naval vessels with some
+
+special additions.
+Submarine — An underwater hunter that specializes in sneak
+attacks. Beware of your enemy’s subs — they are dangerous
+and hard to find. Use your sonar to find these and depth
+charges to destroy them!
+Shore Batteries — Land soe ae that can fire on passing
+ships. Keep a weather eye to the shore!
+Mines - a that can sink your ships. Use your
+sonar to detect them!
+
+Neutral Ships
+
+You are occasionally asked to escort harmless merchant vessels.
+The enemy loves to sink these innocent victims!
+
+a4
+
+===== Page 9 =====
+
+Levels and Missions
+
+The game Super Battleship has seven Levels with a total of
+16 Missions.
+
++
+
+12
+
+Sink the Excalibur - The enemy battleship, Excalibur, is
+preying on merchant vessels in the open ocean. Your orders
+are to take a small fleet and stop the Excalibur before more
+innocent lives are lost.
+
+Mosquito Boat Attack — With five new model PT boats at
+your command, you must pursue and attach enemy vessels.
+
+Battle for Quemoy Island — The long harsh war years are
+about to culminate in a ferocious battle. Engage your
+mighty fleet against the enemy’s in what may be your last
+chance.
+
+Convoy Escort— Enemy vessels prowl the shipping lanes.
+You must escort a merchant ship with a new secret weapon
+through hostile waters.
+
+Convoy KL 17- Lead your fleet of light ships on a raid
+against enemy merchant shipping. Beware the enemy escort
+convoy coming around the cape.
+
+Raid on Mindino Airfield - The fighting in the straits
+continues to rage. Your orders are to send a raiding force
+e the channel to shell the vital enemy airfield on Mindino
+Island. Your force must move quickly or risk destruction at
+daylight from enemy air power.
+
+Destroyer Action — Just another humdrum patrol of island
+chains? Not. Today the enemy makes contact.
+
+Power S A force of cruisers replaces the destroyers
+on this patrol. Try to ambush the light forces that are
+harassing your destroyers.
+
+Ambush - A routine patrol turns into a nightmare—you are
+
+suddenly attacked by a horde of small enemy craft. Try to
+sail free and make it back to base.
+
+10.
+
+Ii
+
+ls
+
+13.
+
+14.
+
+15.
+
+16.
+
+Mayhem at Midnight — Just past midnight the lookouts
+sound the alert! An enemy flotilla is shelling a logistically
+important complex on Kinkaid City.
+
+Bee Swarm - Lead a group of fast attack craft up the straits.
+
+Coming the other way is a swarm of enemy boats intent on
+
+getting the right of way.
+
+Bodyguard — The badly damaged battleship, Warrior, limps
+
+home under your escort. Blocking the way Beck to base is
+
+a force of enemy subs tipped off by their nefarious spies.
+
+Try to get the crippled ship past this ambush and safely on
+
+its way.
+
+Rescue Mission - On one of many small islands dotting the
+
+Great Sea, a valiant soldier has been watching the coast for
+
+over six months. Now the enemy is closing in on him. Take
+
+ay destroyer up the straits and rescue the watcher before
+is time runs out.
+
+Jolly Roger - Command a battle cruiser operatin
+ecperctecly of the main fleet. Hunt down and Sasiey the
+enemy’s supply ships before it’s too late.
+
+Pitbulls and Sluggers — Two ie meet head-on. Only
+one force can survive. Will yours make it or sink?
+
+Total War — You must destroy the entire enemy fleet and
+capture/overtake all enemy land bases.
+
+Use the Control Pad to select a mission, then press A.
+
+Once you begin a mission, onscreen orders tell you how many
+rounds you have to complete the mission. You can press Left at
+any time, to review the number of rounds.
+
+13
+
+===== Page 10 =====
+
+Secret Codes
+
+As you win each level, you get a secret code that lets you go
+directly to the next level from the start-up menu. It’s a good idea
+to write down the codes as you master each stage, because they
+are hard to remember.
+
+To begin play at an advanced level, choose Enter secret code on
+the Super Battleship main menu, then press Start. Use the
+Control Pad to move the cursor and press A after you select
+each character in the code. When the code is correct, a Level
+message appears. Press Select to see a list of missions. Choose
+
+a mission and begin the battle!
+
+14
+
+Tips
+
+Don’t run aground.
+
+Use your sonar.
+
+Monitor and fix fleet damage routinely.
+
+Deploy high powered weapons strategically.
+
+Don't be fooled by enemy decoys — stick to your mission.
+
+Hull damage repair and weapons restocking can only take
+
+place in a Triendly harbor.
+
+SUS aE
+
+ae
+
+15
+
+===== Page 11 =====
+
+Technical Support
+
+For technical support in the USA:
+Mindscape Inc.
+
+From The Software Toolworks, Inc.
+60 Leveroni Court
+
+Novato, CA 94949
+
+Telephone: (415) 883-5157
+
+Fax: (415) 883-0367
+
+4S
+
+Limited Warranty
+
+The Software Toolworks, Inc. warrants to the original purchaser of this
+product that the recording medium on which the Game Pak is recorded
+will be free from defects in material and workmanship for ninety (90)
+days from the date of purchase. Defective media returned by the
+purchaser during the ninety (90) day period will be replaced without
+charge, provided that the returned media have not been subjected to
+misuse, damage or excessive wear.
+
+Return defective media to point of purchase. You must include a dated
+proof of purchase, a brief statement describing the defect, and your
+return address.
+
+The Software Toolworks, Inc. does not warrant that the Game Pak will
+meet the purchaser's specific requirements. ANY STATEMENTS MADE
+CONCERNING THE UTILITY OF THE GAME PAK ARE NOT TO BE
+CONSTRUED AS EXPRESS OR IMPLIED WARRANTIES.
+
+THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES, WHETHER
+ORAL OR WRITTEN, EXPRESS OR IMPLIED. ANY IMPLIED
+WARRANTIES INCLUDING IMPLIED WARRANTIES OF »
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE
+EXCLUDED.
+
+IN NO EVENT WILL THE SOFTWARE TOOLWORKS, INC. BE LIABLE
+FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES OF ANY KIND IN
+CONNECTION WITH THE GAME PAK.
+
+Some states do not allow the exclusion or limitation of incidental or
+consequential damages or limitations on how long an implied warranty
+lasts, so the above limitation or exclusion may not apply to you. This
+warranty gives you specific legal rights, and you may also have other
+rights which vary from state to state. Address all correspondence to:
+Mindscape Inc., The Software Toolworks, Inc., 60 Leveroni Court,
+Novato, CA 94949, or call (415) 883-5157.
+
+7
+
+===== Page 12 =====

@@ -1,0 +1,533 @@
+# Top Gear
+source: https://archive.org/details/snes_manual_archive
+pdf: Top Gear (USA).pdf
+region: USA
+pages: 12
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+‘KEMCcO
+
+KEMCO AMERICA, INC.
+8415 154th Ave. N.E.
+Redmond, WA 98052
+
+PRINTED IN JAPAN
+
+“TOPGEAR
+
+INSTRUCTION BOOKLET
+
+SNS-TR-USA
+
+SUPER NINTENDO
+
+ENTERTAINMENT
+
+SYSTEM
+
+===== Page 2 =====
+
+Table of contents page
+
+How to get into Top Gear 3
+How to set up the race conditions ps
+Selecting the right car 8
+How to pick the right course 9
+How to check your instruments 11
+Racing strategies 7 12
+You're racing around the world 7 13
+Choose the right racing machine 17
+When to hitthe pits . 19
+Tips for driving to win 20
+
+THIS OFFICIAL
+NINTENDO HAS
+PRODUCT. ALY
+
+SAME
+
+ICIALSEALS ARE REGISTER
+
+2 ARE LICENSED BY SALE FOR USE ONLY
+ENDO OF AMERICAINC. 61991
+
+HER AUTHORIZED PRODUCTS BEARING THE
+}FFICIAL NINTENDO SEAL OF QUALITY
+
+GEAR UP AND GO FORIT!
+
+Thisisit. The race of your life. Head to head forthe championship
+of the world. And only the hottest driver is going to come out a
+winner. So read this Driver's Manual carefully. Keep it around for
+future reference. Because when you're racing for your life, the last
+thing you want to do is get rusty.
+
+===== Page 3 =====
+
+HOW TO GET INTO TOP GEAR
+
+Driver’s pre-race meeting
+
+Congratulations. You just qualified to drive for the Championship of the World on
+32 of the trickiest racetracks on the planet. There's only one small problem: That
+demon in the other car is trying to beat you to it. And if you let that happen, you'll
+never hear the end of it. So fasten your seat belt and Get your motor running!
+
+About the game .
+
+After selecting the racing conditions, take up the challenge presented by four
+courses in the first country. In order to qualify for the next competition, you must
+be among the top five finishers each race. Once you clear this point, you are
+given a password and an opportunity to proceed to the next country. In the two-
+player mode, once one of the racers clears a race, both racers can proceed to the
+next country.
+
+Getting started
+
+First, insert the Super NES Game Pak
+
+into the Super Nintendo Entertainment
+System, then turn the power on. After
+the title screen appears, push the start
+button to begin the game.
+
+Basic functions of the controller
+
+START BUTTON Starts the game
+
+SELECT BUTTON Pauses the game
+
++ BUTTON Selects a command
+
+ABUTTON Executes the selected command
+B BUTTON See page 7
+
+X, Y BUTTON See page 7
+
+L, R BUTTON See page 7
+
+The operating methods of the controller changes while you are in the race.
+Read page 7 for details.
+
+L Button R Button
+
++ Control Pad SELECT Button Y Button A Button
+
+START Button B Button
+
+===== Page 4 =====
+
+HOW TO SET UP THE RACE CONDITIONS
+
+Name registration
+
+Using A - Z, you can register names up
+to eight (8) letters. Move the cursor
+with the control pad and select with “A
+button”.
+
+«— Deletes a letter
+
+—> Makes a space
+
+END Ends the name registration
+
+How to set up
+
+The initial set-up will determine the race result, victory or defeat. Choose a
+machine and gear mode which suit you. If you want to improve your skill,
+challenging a higher level would be a good idea. To set up, follow the Option
+Screen.
+
+1 PLAYER / 2 PLAYER Select 1 player or 2 player, register name(s), and
+choose the gear mode, controller, machine, etc.
+
+SKILL LEVEL Determines the difficulty level of the game
+
+COUNTRY Selects a course G lectic
+
+SPEED KPH/MPH Selects the mode of the speedometer, km or miles Select the type of gear either for
+PLAY GAME Starts the game MANUAL or AUTO transmission
+
+In the MANUAL mode, you have
+control over gear shifts. You can fully
+utilize the power your machine
+possesses for a dynamic race. The
+AUTO mode gives you easy operation,
+as the gear is shifted automatically,
+
+Sri gee xcs SS Playing the game by yourself
+
+i “p J While “1 PLAYER” is selected,
+execute the selection by pressing
+the “A button”, The computer is
+your opponent.
+
+Select “2 PLAYER” by pressing the
+right or left side of the control pad
+and execute the selection with “A
+button”. When the screen changes, q .
+determine the PLAYER 1 set up and
+the PLAYER 2 set up. Use “EXIT” to
+return to the initial screen.
+
+===== Page 5 =====
+
+How to use the controller
+
+For controller operation during the race, select from four control layouts, A,B,C
+or D. Find the type which suits you.
+
+ACCEL Accelerator
+BRAKE Brakes
+NITRO Nitro (It prompts rapid acceleration of the engine)
+LEFT RIGHT Moves the wheel to the left or right
+UP GEAR* Shifts the gear up
+DOWN GEAR* Shifts the gear down .
+GEARS* R BUTTON shifts up
+L.BUTTON shifts down
+
+*Manual Transmission only
+
+op arcu’,
+
+3
+
+The four cars are different in design and performance. Once you select a car, you
+can not make any change in the middle of the race. Evaluate the data thoroughly
+and select the car which suits you the best.
+
+MAX SPEED
+
+The maximum speed of the vehicle.
+
+O to 60 MPH
+
+The lower the time, the more advantageous it is to the racer.
+
+TIRE GRIP %
+
+Traction performance of the tires
+
+FUEL CONSUMPTION
+
+The consumption of fuel
+
+See page 17 and 18 for the comparison of each machine's performance capability.
+
+When playing the game with two people, the above gear and machine selections
+have to be done for each player, Player 1 and Player 2.
+
+8
+
+===== Page 6 =====
+
+HOW TO PICK THE RIGHT COURSE
+
+Difficulty levels
+
+You can select one of three levels of difficulty. In the higher level, you will
+encounter more obstacles in the course and blocking by other machines. If you
+do not select a difficulty level, it defaults to the amateur level.
+
+AMATEUR For beginners
+PROFESSIONAL For intermediate players
+CHAMPIONSHIP For advanced players
+Course selection
+TEL s .
+ta Hfyou are playing the game for the
+Lost Ae first time, select USA. Eight
+rt 4 countries have four courses each,
+
+for a total of thirty-two courses.
+(South America and Scandinavia are
+regarded as two independent
+groups. There are four courses
+through three countries in South
+America and four courses through
+four countries in Scandinavia.)
+
+Select a course by entering a password
+
+You will be given a password when you maintain your ranking status within the
+top five racers in all four courses in each country. When you wish to continue the
+game, enter this password. On the course selection screen, if you select the
+country which you have already cleared, the password screen will appear.
+
+Select eight (8) letters from A - Z, and enter a password.
+
++ Deletes aletter © —» Makesaspace END Ends the name registration
+
+Password
+
+When you enter the password, a flag
+appears next to a country name. Then,
+you are allowed to select any of them.
+Write down your passwords so that you
+won't forget them.
+
+Speed indicator
+
+Select a speedometer in km or miles for
+the race. Press “A button” to select.
+Each time you press it, one of the two
+modes, kph or mph, is selected
+alternately.
+
+Starting the race
+
+Now, you are ready’to start the race.
+Move the cursor to PLAY GAME, and
+press “A button”. Are you satisfied with
+your racing conditions? If you wish to
+make any change, this is the time to
+re-select the racing conditions.
+
+===== Page 7 =====
+
+About the screen
+
+A 1 player screen
+B 2 player screen
+
+When you are alone, the computer
+will compete against you
+
+€ Tachometer
+
+Indicates engine rpm's
+
+D Speedometer
+
+Indicates either in kph or mph
+
+E Racing time
+
+The actual racing time elapsed
+
+F Fuel Gauge
+
+Indicates the remaining fuel level
+
+G Rank indicator
+
+Indicates your current ranking status
+
+You're racing around the world
+
+Now that you understand the basic mechanics, let's take a look at where you're
+driving. And what you'll be driving in. The courses and the cars that can take
+you into the winner's circle.
+
+Check the course data
+
+Before each race starts, the course descriptions appear. Pay close attention to
+the number of laps and memorize it.
+
+H Gear position
+
+Indicates auto or manual transmission and gear position
+
+I Nitro
+
+The remaining number of Nitro boosts
+
+J Course layout
+
+Indicates the current location of the cars
+
+11
+
+moo
+
+LOCATION City and country
+TRACK Course layout
+STATISTICS Course information
+DISTANCE The distance of one lap
+LAP RECORD The quickest lap record
+LAPS Number of laps
+
+===== Page 8 =====
+
+Noto) ee ;
+GEAR. D) ba Alias S
+
+13 14
+
+===== Page 9 =====
+
+7
+
++ tmp
+oo-44a ee
+e
+
+&
+'
+Moves)
+=
+sean)
+
+15 16
+
+===== Page 10 =====
+
+CHOOSE THE RIGHT RACING MACHINE
+
+Each of these incredible racing machines is precision tuned to fit a different
+driving style. Choose carefully. The whole race is riding on it!
+
+The CANNIBAL The SIDEWINDER
+Geared to go like greased lightning, Snake around your competition with
+this awesome fuel injected machine the superior handling of the S/DE-
+gives you the highest maximum WINDER. \t has the maneuverability
+a speed on the track. Of course, that of a jet fighter, and all the speed and
+MAX. SPEED 147 MPH also means you need maximum MAX. SPEED 131 MPH acceleration you could ask for. In fact,
+Oto 60 5.9 Sec. cornering ability. And the high fuel Oto 60 3.5 Sec. the only thing holding this missile back
+TIRE GRIP consumption means more pit stops =pERRID Ei is how much courage you have.
+a SON ee on long courses. Good luck! And eat TIREGRIP __High__
+=—a ON High __ the competition for breakfast! FUELCONSUMPTION Low
+The RAZOR The WEASEL
+
+Designed to cut through the air with
+maximum aerodynamics, the RAZOR
+is a hand-built work of art. It's loose in
+the corners, with a lower top speed
+
+Okay. So it doesn’t have the blinding
+speed of the CANNIBAL. So what?
+The WEASEL is still sleek, fast and
+mean as they come. It's perfectly
+
+MAX. SPEED 137 MPH and acceleration — making it a real MAX. SPEED 137 MPH balanced for vicious cornering. And
+Oto 60 5.0 Sec. challenge to drive for the amateur, and Oto 60 4.3 Sec. the moderate fuel consumption
+
+TIRE GRIP Low a true joy for the professional. TIREGRIP~=~S*«wMid’s«<C*«<CS*<C*«@NS YU don't Waste time in the
+FUEL CONSUMPTION Mid FUELCONSUMPTION Mid pits. If there’s a favorite in the race,
+
+17
+
+this is it. Pop goes the WEASEL!
+
+18
+
+===== Page 11 =====
+
+WHEN TO HIT THE PITS
+
+TIPS FOR DRIVING TO WIN
+
+Pit stop
+
+When fuel supply gets low during the
+race, the warning sign, “FUEL LOW”,
+will be lit. As you near a pit stop, an
+arrow sign appears. Slow down your
+car in order to refuel in the pit stop.
+
+At the pit stop, watch your fuel level
+indicator. When you have refueled your
+car just enough for the remaining laps,
+step on the accelerator to leave the pit
+stop. Nitro cannot be supplied here.
+
+19
+
+Dash start
+
+The position of the machines at the start line is determined by the order in which
+they finished the previous race. The earlier a car finished the previous race, the
+farther back it is positioned. The primary racing technique is to swiftly race
+through the machines in front of you to get ahead and be in the top group of
+cars.
+
+Power of Nitro
+
+Asingle boost of Nitro powers up your machine's acceleration capability for a
+short period of time. Only three (3) portions of Nitro are available in one course.
+Save it until an absolutely critical moment on a straight stretch of the course.
+
+Obstades
+
+Public roads around the world are the only real race course for the Top Gear
+racer. Roads challenge you with a variety of conditions. Especially, watch out for
+obstacles. A hefty time loss results from a collision with an obstacle.
+Consequently, you will lag behind other machines.
+
+Racing at night
+
+After the blazing sunset, you will race into the night. The battle of Top Gear
+continues around the clock. Although headlights are lit during the night race, the
+racing conditions, such as visibility ahead of you and distance between your
+machine and others, are far more challenging than they are during the day.
+
+More hints:
+
+@ Revwving high at the start line is a taboo: you will be penalized with one (1)
+wheel spin and lag behind.
+
+@ The hard and fast rule of cornering is a tight maneuver arqund a curve.
+
+@ Running out of gas will put you out of the race. Refuel your machine before
+it happens.
+
+20
+
+===== Page 12 =====
+
+KEMCO AMERICA, INC. LIMITED WARRANTY
+
+KEMCO AMERICA, Inc. warrants to the original purchaser of this KEMCO
+AMERICA, Inc. software product that the medium on which this computer
+program is recordedis free from defects in material and workmanship for a period
+of ninety (90) days from the date of purchase. The KEMCO AMERICA, Inc.
+software program is sold “AS IS" and without any expressed or implied warranty
+of any kind, and KEMCO AMERICA, Inc. is not liable for any losses or damages
+of any kind resulting from use of this program
+
+If the KEMCO AMERICA, Inc. software product fails to comply with this limited
+warranty, KEMCO AMERICA, Inc. agrees to either repair or replace, at its option,
+free of charge, the noncomplying KEMCO AMERICA, Inc. software products
+provided it is returned by the original purchaser, postage paid, with proof of
+purchase, to KEMCO AMERICA, Inc.'s Factory Service Center.
+
+TO RECEIVE THIS REMEDY:
+
+1. DO NOT retum your defective KEMCO AMERICA, INC.
+KEMCO AMERICA, Inc. software Warranty Return Center
+product to the retailer. P.O. Box 110
+
+Redmond, WA 98073-0110
+2. Send the defective product to (206) 556-9000
+
+KEMCO AMERICA, Inc. Factory
+Service Center at:
+
+When you write to us, please provide us with your phone number and a brief
+explanation of what appears to be wrong with the product. The remedy provided
+above is your exclusive remedy if the KEMCO AMERICA, Inc. software product
+does not comply with this Limited Warranty.
+
+This warranty shall not be applicable and shall be void if the defect in the KEMCO.
+AMERICA, Inc. software product has arisen through abuse, unreasonable use,
+mistreatment, neglect or reasonable wear and tear. IN THIS WARRANTY IS.
+OBLIGATIONS IN LIEU OF ALL OTHER WARRANTIES AND NO OTHER
+REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE BINDING ON
+OR OBLIGATE KEMCO AMERICA, INC. ANY IMPLIED WARRANTIES
+APPLICABLE TO THIS SOFTWARE PRODUCT, INCLUDING WARRANTIES
+OF AND FITNESS FOR A PARTICULAR PURPOSE, ARE LIMITED TO THE
+NINETY (90) DAY PERIOD DESCRIBED ABOVE. IN NO EVENT WILLKEMCO.
+AMERICA, INC. BE LIABLE FOR ANY DIRECT, SPECIAL, INCIDENTAL, OR
+CONSEQUENTIAL DAMAGES RESULTING FROM POSSESSION, USE OR
+MALFUNCTION OF THE KEMCO AMERICA, INC. SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long animplied warranty lasts and/
+or exclusions or limitations of incidental or consequential damages, so the above
+limitations and/or exclusions of liability may not apply to you. This limited
+warranty gives you specific legal rights, and you hay also have other rights which
+vary from state to state.

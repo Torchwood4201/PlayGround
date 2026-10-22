@@ -1,0 +1,649 @@
+# Jurassic Park II - The Chaos Continues
+source: https://archive.org/details/snes_manual_archive
+pdf: Jurassic Park II - The Chaos Continues (USA).pdf
+region: USA
+pages: 14
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+Ocean of Am , Inc
+1870 Little Orchard Street
+San Jose, CA 95125
+(408) 289-1411
+
+Jurassic Park™ © 1994 Universal City Studios, Inc, & Amblin Entertainment,
+Inc. All rights reserved, Licensed by MCA/Universal Merchandising, Inc
+Game Program © 1994 Ocean af America.
+
+Ocean is a registered trademark of Ocean Software Ltd,
+
+Printed in Japan
+
+SNS-A2JE-USA
+
+THE CHAOS
+CONTINUES
+
+Instruction Manual
+
+SUPER NINTENDO
+
+ENTERTAINMENT SYSTEM
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION & PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+110 [pousy surrouno |,
+
+This program has been produced with the
+Dolby Surround encoding system, and is
+fully compatible with stereo or monaural
+reproduction,
+
+Dolby and the [IC] are trademarks of Official
+‘Dolby Laboratories Licensing Corporation. ( )
+
+Seal of Quality
+
+THIS OFFICIAL SEAL IS YOUR
+ASSURANCE THAT NINTENDO® HAS
+
+LICENSED BY APPROVED THE QUALITY OF THIS
+
+NINTENDO, SUPER NINTENDO.
+ENTERTAINMENT SYSTEM AND
+THE OFFICIAL SEALS ARE
+REGISTERED TRADEMARKS OF
+NINTENDO OF AMERICA INC.
+
+© 1991 NINTENDO OF AMERICA INC.
+
+PRODUCT. ALWAYS LOOK FOR THIS
+‘SEAL WHEN BUYING GAMES AND
+ACCESSORIES TO ENSURE COMPLETE
+COMPATIBILITY WITH YOUR SUPER
+NINTENDO ENTERTAINMENT SYSTEM®.
+ALL NINTENDO PRODUCTS ARE
+LICENSED BY SALE FOR USE ONLY
+WITH OTHER AUTHORIZED PRODUCTS:
+BEARING THE OFFICIAL NINTENDO
+‘SEAL OF QUALITY.
+
+From the Desk of Jahn Hammond
+Getting Started
+Options Screen.
+Controls ..
+Doors/Exits
+Screen Layout
+Kenner Products
+Weapons
+Pick-Ups
+
+The Missions.
+Dinosaurs ..
+
+Hints & Tips
+Special Offer .
+Credits
+
+Limited Warranty
+
+===== Page 3 =====
+
+From the Desk of
+cen John Hammond
+
+...fool dictating machines...
+
+My Dear Alan,
+
+Without your help, my restructuring work over
+the last year would have been impossible — simply
+impossible, I say! Your paleontological consultancy,
+along with Doctor Sattler’s, has been invaluable.
+We've re-analyzed all of the flora and fauna
+selections, (some of which were clearly
+incompatible) and I believe we’re ready to get
+Jurassic Park back on line!
+
+Now, unfortunately, we've run into a bit of a snag.
+You see, I’ve sent over a team of experts (heavily
+armed, of course) to asses the situation and to sort
+out the mess with the peasts running loose and
+all.. and, well, things have gotten chaotic, rm
+afraid. Seems that insufferable Malcom was right.
+The computers were down, dinosaurs running
+loose — reproducing — nearly populated the entire
+island. My people had their hands quite full, I can
+tell you. But that’s not all...
+
+Well, Alan, you remember BioSyn, don’t you? That
+plasted competing corporation that tried to steal
+dinosaur embryos a year ago? They’re back — must
+have gotten wind that I was trying to start up the
+park again. This time they’ve decided to take over
+Jurassic Park themselves. They’ve got armed
+forces on Isla Nublar, along with their geneticists
+
+and engineers, trying to download the park’s
+
+mainframe and ste i
+research. al all of my dinosaur cloning
+
+pry wey oe help. You’re familiar with the
+ca ae 4 ow the dinosaurs. Most importantly
+et sl aj eaplian this information could
+E wrong hands. I need you
+Erie ai animals and the secrets of Surasso °
+wae ne authorized Tactical Sergeant Michael
+a fight, andI know you'll have a fight ahead of
+ah ave a fight ahead of
+you — but please be careful. Those
+extremely expensive — possib ir aca
+you must keep them safe. oon Scocrmmaae 7
+pobementare and the Tyrannosaur — those two
+ae proven themselves to be unsafe as well a:
+inancially unfeasible to keep on the island. ‘
+Eliminate them if necessary, but take car ; if
+others — and yourselves, of course a
+
+Good luck. My regards to Ellie.
+
+Sincerely,
+
+===== Page 4 =====
+
+Turn off power to your Super NES. Insert the Jurassic Park:
+The Chaos Continues Game Pak and plug a Controller into port
+one (for a one-player game) or plug both Controllers in (for a
+two-player game). Turn on the power to your Super NES and
+the Ocean logo will appear, followed by a brief story detailing
+Lewis Dodgson’s plot to take control of Jurassic Park.
+
+Press the Start Button at any time to go to the Title Screen,
+where you can start a one-player game, a two-player game,
+or go to the Options Screen.
+
+If you select a two-player game, the player using Controller
+One will control Alan Grant, and the player using Controller
+Two will control Sergeant Wolfskin. Both characters have
+identical weapons and movements.
+
+Use the Control Pad to move up, down and to
+select the options — use the Start Button to return
+to the main menu
+
+Difficulty Settings: There is a
+different ending for each game
+setting — Easy, Normal, & Hard.
+To maximize gameplay, be sure
+to check them all out. Playing in
+the Normal game mode has one
+additional mission; playing in the
+Hard game mode has two additional missions
+
+Define Keys: If you don't like the controls, you can
+change them to suit your preferences.
+
+Energy Equalling: (For two-player games only) If
+this is turned on, the player with the most energy
+has the option of giving some of their energy to
+their partner. See Controls on page 6.
+
+Sound: Select Mono, Stereo, or Surround. This
+game features Dolby Surround™ Sound. To use
+this feature, you will have to connect your Super
+NES to a receiver equipped with Dolby Surround.
+Refer to your Super NES manual. When in use, the
+system places sound effects in the room to match
+the position of objects on screen. The sound field
+extends beyond the screen so you can hear objects
+before they are visible. Don't worry if you don’t
+have a Dolby Surround system — you can still enjoy
+the game in Stereo or Mono sound.
+
+===== Page 5 =====
+
+CONTROLS
+
+L Button: Select _A Button: Select
+Lethal Weapon Non-Lethal Weapon
+
+Control Pad: X Button: Dodge
+Maes B Button: Jump
+Select Button: Y Button: Fire
+Equalize
+MeN tart Button:
+Start/Pause
+
+Use the Control Pad to move in different directions. When
+you press the Y Button, you will fire your weapon in the
+direction you are facing, so you can press up to fire up, etc.
+Press down to fire low or avoid attacks. Press up when in
+front of a door or when above a flashing red arrow to enter
+another area of the park.
+
+Use the Select Button to equalize energy (in two-player
+games only). The player with the most energy can press the
+Select Button at any time to give energy to their partner.
+Use this in a pinch when your partner is in trouble and their
+energy is getting low.
+
+Use the Start Button to pause and unpause the game.
+
+Use the Y Button to fire your selected weapon.
+
+Use the B Button to jump. If you're below a hanging
+vine or pipe, you can grab on to climb over
+dangerous areas. Press the B Button and Down on
+the Control Pad to drop to the ground.
+
+Use the X Button to dodge an attack. This allows
+you to step back momentarily to avoid an attacking
+human or dino. Dodging only lasts for a second —
+hopefully you'll have thought of something clever to
+do by then!
+
+Use the L Button to select from your three lethal
+weapons — use these to stop the BioSyn task force
+or dangerous dinos like the raptors and T-Rex
+
+(see Weapons, page 10).
+
+Use the R Button to select from your three non-
+lethal weapons — These have no effect on humans,
+but will slow or stop dinosaurs without destroying
+them (see Weapons, page 10).
+
+Doors/Exits
+
+Jurassic Park: The Chaos Continues is a non-linear
+game. You can move your character in and out of
+the screen as well as left and right. To exit the
+screen to the left or right, simply run off the edge
+of the screen. To move in and out of the screen,
+position your character in front of a door or exit
+and push up.
+
+===== Page 6 =====
+
+ee
+
+ios
+
+Selected Weapon: Use the L and R Buttons to
+select a weapon (see Weapons, page 10).
+
+Ammunition: How many shots you have left in
+your selected weapon
+
+Health Bar: The amount of health you have
+remaining. If it drops to zero, you will have to
+begin the current mission from the beginning
+
+Stock Level: How many dinosaurs are left
+on Isla Nublar. Over time, the number of
+dinosaurs will slowly increase due to
+natural reproduction. Destroying Raptors
+or the Tyrannosaur will not effect your
+Stock Level. Remember, destroy dinos
+only when you have to — if you destroy
+too many, there won't be enough to
+survive and the game will end.
+
+Time: Time remaining to finish the current
+mission. If you do not complete a timed
+mission by the time this counter hits
+zero, the current mission will end.
+
+>
+
+===== Page 7 =====
+
+20
+
+~- aheweg ouig ‘Uys ja94-jeay ‘sean anjde) |
+
+===== Page 8 =====
+
+WEAPONS
+Lethal Weapons: Use these to incapacitate members of the Non-Lethal Weapons: Use these to subdue
+BioSyn task force. You can also use them on Raptors or dinosaurs without permanently injuring them.
+8 the Tyrannosaur, but don’t use Lethal Weapons on other Those big lizards are expensive — if you bump
+dinosaurs or your Stock Level will go down and the park will them off, it's coming out of your paycheck!
+close forever. These weapons have no effect on humans.
+
+Rifle: Your standard weapon. It does the least
+damage but works well enough against smaller
+enemies.
+
+Cattle Prod: A high-voltage electric
+weapon. Hold down the Y Button to
+charge the cattle prod, then release to
+fire a stun bolt. The longer you charge,
+
+Machine Gun: A rapid-fire weapon that is more the greater the bolt’s range. The cattle
+effective than the rifle, but uses ammunition much prod will never run out of ammunition —
+more quickly. Remember, ammo doesn't grow on just keep charging it.
+
+trees — if you run out, you'll have to look around
+for some more.
+
+Shotgun: Your most effective weapon, it fires a
+wide spread that will stop some enemies with a
+
+Tranquilizer Gun: A rapid-fire tranquilizer
+weapon best used for smaller dinosaurs.
+
+Tranquilizer Missile Launcher: Your most
+powerful non-lethal weapon. Shoots a
+stun gas missile which releases a cloud
+of gas that can affect more than one dino
+in an area. Hit a dinosaur with one of
+
+| these and they'll sleep until the next era.
+
+single hit. Bad news: if it doesn’t stop them, it
+might just make them angrier.
+
+aH:
+
+| Keep in mind that all weapons have a range —
+the farther you are from your target, the less
+damage a hit will do. Each weapon has separate
+ammo clips — if one of them runs out, switch to
+another one... fast!
+
+===== Page 9 =====
+
+Health: Pick up to refill your health bar.
+
+Ammunition: Select the weapon you want to add
+ammunition to before picking up the ammo clip.
+Picking up an ammo clip will fully load the
+selected weapon.
+
+Power Supply: These will come in handy to power
+the incubators — obviously batteries were not
+included.
+
+Key Card: Use this to open locked doors. Which
+door? Sorry, you'll have to figure that one out.
+
+Once you begin a game, you have the option of
+completing your missions in any order. When the
+Mission Screen appears, use the Control Pad to
+move up and down the missions, then use the
+Start Button to begin a mission. At the start of
+each mission, you will receive a mission briefing
+outlining your objectives. Press any button to
+continue the message. Use the Control Pad to
+accept or abort the mission. After selecting, press
+any button to continue. Six missions are shown at # |
+the start of the game.
+
+Raptor Attack: Deal with
+dangerous Velociraptors in the
+underground power complex.
+The only way out is to find the
+building's security system, gas
+the entire complex, and get out
+as fast as you can!
+
+T-Rex Carnage: BioSyn engineers
+have let the Tyrannosaur loose
+from its paddock. You don't think
+it's still mad about you getting
+away last time, do you Dr. Grant?
+Make your way carefully through
+the dense jungle — Raptors are
+everywhere!
+
+===== Page 10 =====
+
+(cai ttm sn sian)
+
+Blockade: The BioSyn task
+force has taken over the
+park's Control Room and
+they're attempting to
+download all the cloning
+data from the main
+computer. You must find a
+way around the guards at
+the main entrance, then stop BioSyn from erasing
+Hammond's most dangerous discoveries!
+
+High Ptera:
+Communications with the
+mainland have been cut off.
+You must climb to the top
+of Nublar Mont to repair
+the damaged radio
+antenna. Unfortunately,
+the BioSyn guards know 5
+you're coming and the Pterodactyls think you're after their
+eggs. Digging up fossils was a lot easier than this!
+
+Seek and Destroy: Where are all
+these Raptors coming from?
+They must be breeding
+somewhere, and the warmest,
+most out-of-the-way areas are in
+volcanic caverns deep below the
+jungle. Find the Raptor nest,
+plant the explosives, and get out
+before the blast destroys you. Watch out for flying
+Dimorphodons, collapsing bridges, and falling lava
+
+Protect the Gallimimus: BioSyn's
+genetic engineers are capturing
+and performing experiments on
+the ostrich-like Gallimimus. You
+must stop their commandos and
+free these gentle creatures
+before BioSyn destroys or airlifts
+Gut every one! Two other bits of
+advice: don’t step on the land mines and keep an
+eye out for bomb-dropping choppers
+
+As you complete each mission, you will be able to
+select from the remaining missions. Throughout
+the game, additional emergency missions will
+come up randomly — these must be dealt with
+immediately. To successfully complete the game
+and save Jurassic Park, you must complete all the
+normal and emergency missions.
+
+17
+
+===== Page 11 =====
+
+DINOSAURS
+
+Gallimimus
+
+These mild herbivores will not attack you,
+but are very easily disturbed and are
+quick to stampede. They run extremely
+fast, and will run into and injure you
+unless you get out of the way.
+
+Tyrannosaurus Rex (T-Rex)
+
+The most famous predator in history, the
+T-Rex is the classic blood-thirsty
+carnivore. Standing eighteen feet tall
+with a head five feet long, the
+Tyrannosaur has huge and powerful jaws
+which can swallow a man whole. They are
+capable of eating a ton of food at one
+time. Be on the lookout for this hunter,
+or you will be snapped up before you
+know what's happening!
+
+Velociraptor (Raptor)
+
+The Raptor stands six feet tall and is
+pound-for-pound the most vicious
+dinosaur that ever lived. As intelligent as
+chimpanzees, they are the most cunning
+creature in Jurassic Park. They hunt in
+packs and will attack just for the sport of
+it. They run at speeds of up to 60 miles
+per hour, and with a 6-inch retractable,
+razor-sharp claw at the end of each limb,
+can fell a man in one swipe.
+
+Pteranodon
+
+The Pteranodon has a wing spon of 7.6
+meters (that of a small airplane). It is
+one of the largest dinosaurs in the park.
+With its sharp beak and razor talons the
+Pteranodon is a dangerous hazard.
+Luckily it only has a small brain and will
+only attack if you get in its way.
+
+SRR
+
+===== Page 12 =====
+
+HINTS & TIPS
+
+a) Learn the attack pattern of the dinosaurs.
+
+Check your targets before you shoot —
+©) you might destroy a dinosaur accidentally.
+at Don't waste your ammunition.
+Learn the quickest route to your mission
+goal.
+
+6 ) In two-player games, don't get too far
+Se away from your partner.
+
+oe Stay cool.
+
+===== Page 13 =====
+
+FREE‘ Jurassic Park”
+Die Cast Metal Dinosaurs
+Plus Two Movie Collector
+Cards From Kenner Toys!
+
+When you buy Ocean’s Jurassic Park”: The Chaos Continues
+for the Super Nintendo Entertainment System’.
+
+DIMETRODON
+
+Die-Cast Metal
+
+Dinosaurs
+
+*Plus $3.95 shipping and handling. Good while supplies last.
+
+When you buy Ocean of America's Jurassic Park™: The Chaos Continues
+for the Super Nintendo Entertainment System® you can receive
+Two Official Jurassic Park™ Die Cast Metal Dinosaur Collectibles and
+
+2 Two Movie Collector Cards FREE!
+
+To receive your FREE Dinosaur Collector Set you must fill out the order
+form and send it along with your check or money order for $3.95 shipping
+and handling, (hey, it’s the U.S. Postal Service needing to get paid)
+payable to Ocean of America, your original dated sales receipt with
+purchase circled, and the original order form to:
+
+Ocean of America, Inc.
+Dinosaur Offer
+
+P.O. Box 7235
+
+San Francisco, CA 94120-7235
+
+Order Form
+
+Wow, sounds totally cool! Please send right away my FREE Jurassic Park
+die cast dinos and collector cards. It’s a real bummer but | have enclosed the
+Money to pay the U.S. Post Office to have thern delivered to me ASAP!
+
+Please make sure you expedite my delivery to:
+
+Name: Phone:
+Address:
+City: State: Zip Code:
+
+Ctfer good ony inthe U.S.A. end Canada. Proofs of purchase subritted with tis request cannot be used with any other
+Ocean of America offer. Pease allow 6-8 weeks for delivery, Jurassic Park TM 8 © 1994 Universal City Studios, Inc. &
+‘Ambiin Entertainment, Inc, Oceanis a registered trademark of Ocean Sofware Ltd. Nintendo, Super Nintendo
+Ertertainment System, and the Official Seals ae registered trademarks of Nintendo of America, Inc. © 1981 Nintendo of
+‘America Inc. Al rights reserved,
+
+===== Page 14 =====
+
+Jack Wikeley
+Dean Evans
+
+Bobby Earl
+
+Bobby Earl
+David Chiles
+
+Jack Wikeley
+John Lomax
+Craig Whittle
+llyas Kaduji
+Richand Heasman
+Roy Fielding
+
+Ged Casserley
+
+Dean Evans
+
+Gary Bracey
+fan Turnbull
+
+LIMITED WARRANTY
+
+Ocean of America, Inc. warrants to the original purchaser only that
+‘the game pak provided with this manual and the software program
+coded on it will perform in accordance with the descriptions in this
+manual when used with the specified equipment, for a period of 90
+days from the date of purchase. If this program is found to be
+defective within 90 days of purchase, it will be replaced. Simply
+return the game pak to Ocean of America, Inc. or its authorized
+dealer along with a dated proof of purchase. Replacement of the
+game pak, free of charge to the original purchaser {except for the
+cost of returning the game pak) is the full extent of our liability.
+
+THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES, WHERE
+ORAL OR WRITTEN, EXPRESS OR IMPLIED. ALL IMPLIED
+WARRANTIES, INCLUDING THOSE OF MERCHANTABILITY AND.
+FITNESS FOR A PARTICULAR PURPOSE, IF APPLICABLE, ARE
+LIMITED IN DURATION TO 90 DAYS FROM THE DATE OF PURCHASE
+OF THIS PRODUCT.
+
+Ocean of America, Inc. shall not be liable for incidental and/or
+consequential damages for the breach of any express or implied
+warranty including damage to property and, to the extent permitted
+by law, damages for personal injury, even if Ocean of America, Inc,
+has been advised of the possibility of such damages. Some states do
+not allow the exclusion or limitation of any incidental or consequential
+damages or limitations on how long an implied warranty lasts, so the
+above limitations or exclusions may not apply to you.
+
+This warranty shall not be applicable to the extent that any provision
+of this warranty is prohibited by any federal, state or municipal law
+which cannot be pre-empted, This warranty gives you specific legal
+rights and you may also have other rights which vary from state to
+state.
+
+Ocean of America, Inc. 1870 Little Orchard Street, San Jose,
+CA 95125 (408) 289-1411

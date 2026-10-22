@@ -1,0 +1,623 @@
+# Jack Nicklaus Golf
+source: https://archive.org/details/snes_manual_archive
+pdf: Jack Nicklaus Golf (USA).pdf
+region: USA
+pages: 12
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+Z
+
+-- TRADEWEST
+
+Tradewest, Inc.
+2400 South Highway 75, Corsicana, Texas 75110
+
+Produced in association with Jack Nicklaus Productions, Inc.
+The Golden Bear Symbol and Jack Nicklaus Golf are trademarks of Golden Bear International, Inc
+Licensed from Accolade, Inc.© 1991 Accolade, Inc. All Rights Reserved,
+
+©1981 Tradewest, Inc.
+Printed in Japan
+
+===== Page 2 =====
+
+Thank you for purchasing JACK NICKLAUS GOLF
+from Tradewest for your Super Nintendo Entertain-
+ment System. For maximum enjoyment, please read
+this instruction manual thoroughly before playing.
+
+WARNING:
+
+PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION & PRECAUTIONS BOOKLET
+CAREFULLY BEFORE USING YOUR NINTENDO”
+HARDWARE SYSTEM OR GAME PAK.
+
+‘THIS OFFICIAL SEAL IS YOUR.
+LICENSED BY ir
+
+INTENOO HAS.
+‘OF THI
+PRODUCT. ALWAYS LOOK FOR THIS
+0 SEALWHENBUYINGGAMES AND
+
+PATIBILITY WITH
+
+NINTENDO, SUPER NINTENDO. NINTENDO ENTERTAINMENT
+
+ENTERTAINMENT SYSTEM AND ALLNINTENDO PI
+
+THE OFFICIAL SEALS ARE CICENSED BY SALE FOR USE Ont
+
+[REGISTERED TRADEMARKS OF WITH OTHER AUTHORIZED PHODUC Hs
+
+NINTENDO OF AMERICA ING. BEARING THE OFFICIAL NINTT DC)
+SEAL OF QUALITY.
+
+1001 NINTENDO OF AMERICA INC.
+
+Tee lt Up With the Bear! 2. ...........0005
+Controller Operation
+Getting Started ........
+New or Old Game Screen ......
+Restore Game Screen .. 0... 62 cee eee
+Course SelectionScreen .............05
+Design a Course Screen ......
+Game Select Screen .........
+Introducing the Computer Players
+Player Selection Screen
+Hole Prizes Screen
+Main Options Screen
+Practice Screens .....
+Gameplay Screens .....
+Quote Screen ......
+Overhead Screen
+Score Card Screen .
+Statistics Screen ....
+Play Control Screen ....
+Control Option Window . .
+Drop BallScreen ...... vee
+Limited: Warranty sis x 6a 2 meen w ace no soma
+
+===== Page 3 =====
+
+TEE IT UP WITH THE BEAR!
+
+CONTROLLER OPERATION
+
+The biggest name in golf brings you the most realistic
+and feature-packed golf simulation ever! Play eighteen
+holes on two of Jack Nicklaus’ favorite courses, or
+design your own unlimited number of courses to play.
+One to four players can compete on beginner and ex-
+pert levels, choosing between Skins Play and the very
+competitive Stroke Play. You control every detail of the
+action: read the break of the green for your approach
+shots; play a long iron out of the fairway bunkers; chip
+or putt it in from the fringe; practice your short game
+on the green — or just hit a bucket of balls out on the
+driving range. The password feature even lets you take
+a break at the turn. If you're ready to play against the
+best, Jack Nicklaus is your man — and JACK
+NICKLAUS GOLF is your game!
+
+Select Start Y: B
+Button Button Button Button
+
+The controls for the Play Control screen work as
+follows:
+
+Control Pad UP and DOWN: Changes the current club
+being used.
+
+Control Pad LEFT and RIGHT: Adjusts the aimer ball
+at the top of the screen. If the ball tries to go past one
+of its boundary marks, anew screen will be generated,
+and the aimer will be forced back to the center of
+the screen.
+
+START Button: Allows you to quit the game where you
+are and go back to the Main Option Screen. After the
+button is pushed, a window will pop up and ask “Head
+Back to the Clubhouse?” If you choose “No,” the
+window disappears and you are back where you
+started. If you choose “Yes,” you will go back to the
+Main Option screen. If you are playing a one-player
+game and you are playing a round, the window will dis-
+play arestart password. This is the password that you
+would enter on the Restore Game screen to pick up
+
+===== Page 4 =====
+
+GETTING STARTED
+
+where you left off. This quit option also works on the
+Quote screen, Overhead screen, Score Card screen,
+and Statistics screen.
+
+SELECT Button: Causes the Control Option window
+to appear.
+
+B Button: Used to actually swing the club and take a
+shot. Taking a shot requires hitting “B” three times:
+once to start, once to set the strength, and once to
+set the contact. Once a shot has been started, if the
+final two hits are not completed, the swing will be
+counted as a stroke, but the ball will not move.
+
+After the copyright notice
+has been up for 3 seconds,
+pushing any button will bring
+you to the New or Old Game
+Screen.
+
+New or Old Game Screen
+
+This allows you to select
+whether to start a brand
+new game or restore an old
+one. Use the Control Pad to
+move the selection ball. Push
+- any other button to select
+ZZ the option that the ball is
+currently next ta. The game will then go to either the
+Restore Game Screen or the Choose Course Screen.
+
+Restore Game Screen
+
+If you choose to restore a
+saved game, you will be
+asked to enter a password.
+Move the yellow square
+Rat around using the Control
+
+oe Pad. Choose a letter by mov-
+CZ. ing the yellow box over the
+desired letter (or symbol) and pushing one of the other
+buttons. The left arrow on the top row, second from
+the right, is the backspace. Choose this when you wish
+to delete individual letters. The curved arrow on the far
+right of the top rowis the carriage return. Choose this
+when you are done.
+
+===== Page 5 =====
+
+If the password entered is an invalid password, a
+message saying so will be displayed, and after pushing
+any button, you will be returned to the New or Old
+Game Screen.
+
+If the passwordis valid, you will then be asked to enter
+your name. Use the same technique as entering the
+password.
+
+After the name is entered, the game will go directly to
+the play screen, resuming the game at the hole where
+the password was given.
+
+Course Selection Screen
+
+On this screen, you choose
+the golf course you want to
+play. You have 4 choices: 1)
+Muirfield Village, 2) The
+Bear's Track, 3) Computer's
+Choice, or 4) User's Choice.
+Use the select ball to choose
+one. Muirfield and Bear's Track are pre-set courses
+that are always the same. Computer's Choice is a
+random course, in which the computer chooses 18
+holes at random from the Muirfield and Bear's Track
+courses. It will make sure that the total par is 72.
+
+'f you choose “User's Choice,” you will then go to the
+Design a Course Screen; otherwise, you will go to the
+Game Select Screen.
+
+i
+
+Design a Course Screen
+
+This screen allows you to
+designate which holes you
+wish to play. You choose
+holes from Muirfield and
+Bear's Track. Any hole can
+be used more than once, and
+the computer doesn't im-
+pose any par limitations.
+
+To change the selection for a given hole, use the Con-
+trol Pad to move the ball next to the hole you wish to
+change. Select it using one of the other buttons, then
+decide which hole from Muirfield or Bear's Track you
+would like to go into that slot. Use the Control Pad to
+change the hole to be chosen. Up and down will change
+the hole number; left and right will change the course.
+When the desired hole is shown, select it by pushing
+any of the other buttons. You can then choose another
+hole to change, or end the screen by choosing “Done”
+with the selection ball. When you are done with this
+screen, you will go to the Game Select Screen.
+
+===== Page 6 =====
+
+Game Select Screen
+
+On this screen, you deter-
+mine what type of scoring
+will be used in the golf game,
+and how many players will be
+playing. Do this by moving
+the selection ball with the
+Control Pad, and pushing
+another button when the ball is by the desired selec-
+tion. After one of the options is chosen, you will move
+to the Player Selection Screen.
+
+Introducing the Computer Players
+
+Jack N. The Golden Bear himself. Naturally, the Player
+of the Century plays at the expert level and hits from
+the pro tees. His shots are carefully planned and
+well-executed, and he hits the ball further than the
+posted distance for each club. Nicklaus is one of those
+rare golfers who almost always does exactly what he
+sets out to do.
+
+Lars X. Calls himself Mr. X and likes to think of himself
+as an expert — which is why he drives from the pro
+tees, Has a tendency to hook drives and pull putts to
+the left.
+
+Art M. Art's a weekend golfer who could use a little
+practice. His shots tend to be short but straight. And
+his putts tend to be long and off-line.
+
+Eddie C. He’sno Jack Nicklaus, but this guy's good. So
+good, in fact, he makes aliving suckering players into a
+friendly game of Skins. Naturally, he plays at the expert
+level and drives from the pro tees.
+
+Curly O. Curly just took up golfing this year and loves
+it. Problem is, he doesn't really play that well. He
+shoots from the men's tees and plays at the beginner's
+level. His slices and his putts could end up just about
+anywhere.
+
+Player Selection Screen
+
+This is the screen where you
+choose the attributes of
+each of the players. The
+attributes that a player has
+are: 1) his name, 2) his skill
+level, 3) the tee he tees off
+from, and 4) whether this
+player is a human or computer player. The attributes of
+the computer players cannot be changed. If a player is
+designated as a computer player, pushing the Control
+Pad will cause different computer players and their
+attributes to appear. When the desired computer
+player is visible, push a button.
+
+When the attributes have been set, choose the DONE
+box. If the chosen game is a stroke game, you will next
+go to the Main Options screen. If the game is a skins
+game, the next screen is the Hole Prizes screen.
+
+===== Page 7 =====
+
+MAIN OPTIONS SCREEN
+
+Hole Prizes Screen
+
+This screen allows you to set
+the amount of money that
+each hole is worth in the
+skins game. By default, the
+total amount of money for
+the entire course is
+$36,000. Choosing “Cham-
+pionship Skins” will reset the total money to this
+amount. The "Change Total” option will allow you to set
+the amount of money the entire course is worth. The
+total amount will automatically be distributed over the
+18 holes. If you wish to change the amount on a single
+hole, select the “Change Hole” option. The computer
+will then ask which hole you wish to change. When the
+desired number is showing, select it by pushing a but-
+ton with “t+” highlighted. You then enter the desired
+amount for that hole. When everything is set as you
+like, choose DONE, and the game will go to the Main
+Options Screen.
+
+This is the "home base"
+screen of the game. From it
+you can choose to do dif-
+ferent things, or change
+some of the parameters you
+have set up
+
+There are 6 options on this screen.
+
+1) Play A Round
+
+This option will send you off to play the 18 holes you
+have chosen. You will first get a message about the
+course conditions. After the 18 holes have been
+played, you will return to this screen.
+
+2) Practice A Hole
+
+This option will allow you to go practice a single hole.
+You will be asked which hole you want to play, The Con-
+trol Pad will change the number displayed, and pushing
+a button will select the number displayed. After the
+hole has been played, you will return to this screen.
+
+3) Driving Range
+
+This option will allow you to practice your swing with
+different clubs. When you are done with the driving
+range, you will return to this screen.
+
+4) Practice Green
+
+This option will allow you to practice putting. When you
+are done practicing, you will return to this screen,
+
+===== Page 8 =====
+
+PRACTICE SCREENS
+
+5) Change Course
+
+This option will send you to the Change Course screen.
+When you are done with that screen, you will return
+to this screen instead of going to the Change Players
+screen.
+
+6) Change Players
+
+This option will send you to the Game Select screen
+and the Player Select screen. If you choose a skins
+game, you will also go through the Hole Prize screen.
+When those screens are done, you will return to
+this screen.
+
+The driving range and practice green allow you to
+practice your swinging and your putting. Computer
+players are not allowed in either practice mode. On the
+driving range, 3 lines will be drawn at distances of
+100, 150, and 250 yards to help gauge the distance
+the ball travels.
+
+On the putting green, you
+will be placed at a random
+spot and allowed to putt
+until you putt the ball into the
+hale. On both the driving
+range and practice green,
+when there is more than one
+human player, the player practicing can be changed by
+pressing the X button before the shot.
+
+===== Page 9 =====
+
+GAMEPLAY SCREENS
+
+When going to play a hole, the sequence of screens is
+as follows:
+
+1) The Quote Screen
+
+2) The Overhead Screen
+3) The Play Control Screen
+4) The Score Card Screen
+5) The Statistics Screen
+
+Quote Screen
+
+This screen has a picture of
+Jack Nicklaus, and some
+text that tells something
+about the hole you are about
+to play. After the text has
+finished writing, pushing any
+
+: button will end the screen.
+When this screen is finished, you will go to the Over-
+head screen.
+
+Overhead Screen
+
+This screen shows a bird’s-
+eye view of the current hole.
+It is useful to understand
+the overall layout of the
+entire hole. It will also show
+where trees and other ob-
+jects are located. On par 4
+holes, there will be 3 marks appearing in the fairway to
+help judge the distance to the pin. There will be ared
+one at 100 yards, a white one at 150 yards, and a blue
+one at 200 yards. Par 5 holes will also have a yellow
+mark at 250 yards. The information on the bottom part
+
+of the sign tells which hole you are on, its par, and the
+distance to the pin from each of the trees. Pushing any
+button will end this screen, and you will go on to the
+Play Control screen.
+
+Score Card Screen
+
+his screen shows the re-
+bcbetet tote it sults of all the holes played
+PY so far. The score card for a
+F skins game looks different
+emai an from that of a stroke game.
+Pushing any button will exit
+this screen and go to the
+Statistics screen.
+
+Statistics Screen
+
+This screen shows various
+statistics accumulated by
+the players so far, Pushing
+any button will exit this
+screen. If you are practicing
+ahole, the game will go back
+to the Main Option screen. If.
+you have played a round and just finished hole 18, the
+game will then go to a final score card. Otherwise the
+game will go into the play sequence for the next hole.
+
+===== Page 10 =====
+
+PLAY CONTROL SCREEN
+
+This screen is the guts of the
+game. This is where the ac-
+tual gameplay takes place.
+Along the left edge of the
+screen is the power bar.
+Across the bottom is the
+information window.
+
+The leftmost part of the information window is the
+wind/break indicator. If you are currently on the green,
+the meter will show the direction and severity of
+
+the break.
+
+The center part of the information window shows the
+Player's name, the current hole number, the current
+stroke number, par for the current hole, and the dis-
+tance from the current location to the hole. In addition,
+the window will also display your current score in rela-
+tion to par if the game is a stroke game, or it will display
+the value of the current hole if the game is a skins game.
+
+The right side of the information window shows the
+current club and the distance it can normally hit. If the
+player is an Expert (as chosen on the player select
+screen) the club distance will not be shown. It will be
+replaced with the word “Expert.”
+
+CONTROL OPTION WINDOW
+
+This screen is reached by
+pressing SELECT on the
+Play Control screen. It al-
+lows you to take some
+specialized action. When any
+of these options are
+finished, the game will return
+to the Play Control screen. The options are:
+
+1) Overhead View — View the Overhead screen as
+described above. In addition the player's current posi-
+tion will be marked by a blinking ball
+
+2) Score Card — View the Score Card screen as de-
+scribed above
+
+3) Game Statistics — View the Statistics screen as
+described above
+
+4) Course Conditions — Change the current wind
+speed and ground conditions, Rotate between wet,
+normal, and dry ground conditions by pressing the
+Control Pad left and right. Set the wind strength, as
+indicated by the meter, by pressing the Control Pad up
+and down. End this screen by pushing any other button.
+
+5) Set Break Grid — You have three choices about
+when the break grid will be drawn. They are 1) Never
+visible, 2)Visible on the green, or 3) Always visible.
+Each player can set the Break Grid to his own
+preference.
+
+6) Club List — Displays a list of all the clubs and how
+far they hit under normal conditions. Push any button
+to finish this window.
+
+===== Page 11 =====
+
+DROP BALL SCREEN
+
+7) Replay Last Shot — After a shot has been taken,
+
+choosing this option will cause that shot to be shown
+again. When it is done, you are at the same point as you
+were after the original shot.
+
+8) Reverse Angle Replay — After a shot has been
+taken, you can watch the balls flight from the point of
+view of the ball's landing place.
+
+9) Take Mulligan — You can discount one shot per
+round. This option can only be taken immediately after
+a tee shot.
+
+10) Exit — End this window with no action.
+
+After you have hit the ballin the water, you are given
+the choice of replaying the shot or dropping the ball. If
+you choose to replay the shot, you merely take the next
+shot from the same spot as the last one. If, however,
+you choose to drop the ball, you are taken to the Over-
+head screen and a blinking ball is shown. You can move
+the ball back and forth with the Control Pad. When the
+ball is in the place that you think is best, push the but-
+ton and the ball will be placed at that location for your
+next shot,
+
+===== Page 12 =====
+
+LIMITED WARRANTY
+
+Tradewest, Inc. warrants to the original purchaser of this
+Tradewest software product that the medium on which this
+computer program is recorded is free from defects in materials
+and workmanship for a period of ninety (90) days from the date
+of purchase. This Tradewest software program is sold “as is,"
+without express or implied warranty of any kind, and Tradewest
+is not liable for any losses or damages of any kind resulting from
+use of this program. Tradewest agrees for a period of ninety
+(90) days to either repair or replace, at its option, free of
+charge, any Tradewest software product, postage paid, with
+proof of purchase, at its Factory Service Center.
+
+This warranty is not applicable to normal wear and tear. This
+warranty shall not be applicable and shall be void if the defect.
+in the Tradewest software product has arisen through
+abuse, unreasonable use, mistreatment or neglect. THIS
+WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES
+AND NO OTHER REPRESENTATIONS OR CLAIMS OF
+ANY NATURE SHALL BE BINDING ON OR OBLIGATE
+TRADEWEST. ANY IMPLIED WARRANTIES APPLICABLE
+TO THIS SOFTWARE PRODUCT, INCLUDING WARRAN-
+TIES OF MERCHANTIBILITY AND FITNESS FOR A PAR-
+TICULAR PURPOSE, ARE LIMITED TO THE NINETY (90)
+DAY PERIOD DESCRIBED ABOVE. IN NO EVENT WILL
+TRADEWEST BE LIABLE FOR ANY SPECIAL, INCIDEN-
+TAL, OR CONSEQUENTIAL DAMAGES RESULTING
+FROM POSSESSION, USE OR MALFUNCTION OF THIS
+TRADEWEST SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an im-
+plied warranty lasts and/or exclusions or limitations of inci-
+dental or consequential damages so the above limitations
+and/or exclusions of liability may not apply to you. This war-
+ranty gives you specific rights, and you may also have other
+rights which vary from state to state.
+
+‘Tradewest, Inc. 2400 South Highway 75, Corsicana, TX 75110. (903) 874-2683

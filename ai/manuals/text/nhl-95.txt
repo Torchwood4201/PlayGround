@@ -1,0 +1,1009 @@
+# NHL '95
+source: https://archive.org/details/snes_manual_archive
+pdf: NHL '95 (USA).pdf
+region: USA
+pages: 16
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+INSTRUCTION BOOKLET
+
+ee 4
+
+|
+))
+
+I
+
+ELECTRONIC ARTS f SS —
+P.O. Box 7578, San Mateo, CA 94403-7578 PRINTED IN JAPAN ff ——— SUPER NINTENDO
+
+ENTERTAINMENT SYST
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED
+CONSUMER INFORMATION AND PRECAUTIONS
+
+BOOKLET CAREFULLY BEFORE USING YOUR
+NINTENDO® HARDWARE SYSTEM OR GAME PAK
+
+LIceNsEO By ==)
+
+Nintendo, Super Nintendo This official seal is your assurance that Nintendo
+Entertainment System and the has approved the quality of this product. Always
+
+official seals are registered look for this seal when buying games and acces-
+
+trademarks of Nintendo of sories to ensure complete compatibility with
+‘America Inc. ©1991 Nintendo Your Super Nintendo Entertainment System. All
+‘ot Anverica lie Nintendo products are licensed by sale for use
+
+only with other authorized products bearing the
+Official Nintendo Seal of Quality.
+
+NEW FEATURES
+
+The features below are new in NHL ‘95.
+
+* 1993-94 NHL rosters and player ratings
+* — Season Play
+
++ Practice Mode
+
++ Player Creation
+
+* — League Leaders
+
+* — Player Trades
+
+* — Accumulated Team and Player Stats
+
++ — Battery Backup
+
+NOTE! DO NOT PRESS RESET ON THE SUPER NES* WHILE THE
+GAME IS SAVING, OR WHILE AUTOPLAYING GAMES, EDITING
+LINES, TRADING, CREATING, SIGNING, OR RELEASING PLAYERS.
+IT MAY CAUSE ALL YOUR DATA TO BE ERASED.
+
+CONTROLS
+
+Left Button Up Right Right Button
+= |
+
+eK
+
+trol Pod
+Control Po -_
+Left A
+B
+Down Select Stort ‘
+Super NES Controller
+
+You control the player standing on the five-pointed star. Use the
+Control Pad to move your player.
+
+1
+
+===== Page 3 =====
+
+FACE OFF
+
+B-controls/passes puck
+
+A-speed burst (body check)
+
+Control Pad-controls direction of pass
+
+OFFENSE
+
+Y- clear puck/flip pass
+
+B-passes puck/switches players
+
+A-wrist shot (hold for slap shot) or surge without puck
+Control Pad-controls direction of pass/shot and puck handler
+SELECT - Change lines
+
+MANUAL GOALIE CONTROL
+
+Press X to get oalie control. Goalie Control is explained in detail on
+page12..
+
+WITH PUCK
+
+Y-clear puck up ice
+
+B-passes
+
+Control Pal controls direction of pass and moves goalie
+
+WITHOUT PucK im
+Y+Control Pad-dives K
+A-attempt save
+
+Control Pad controls movement veal
+
+DEFENSE
+
+Y-holds/hooks aa
+
+B-poke check/trip/switch to closest player (hold B to switch to
+goalie during manual goalie control)
+
+A+Control Pad-speed burst (body check)
+
+Control Pad-controls skating direction
+
+INSTANT REPLAY
+
+Y-rewinds
+X-(tap) freeze frame/(hold) slow motion
+B-play/stop
+
+LINE CHANGES
+
+SELECT-line change/select line Y
+B-select line B
+A-select line A
+
+ONE-TIMERS
+
+B - pass to a teammate
+A-activate receiving teammate and attempt a goal
+
+SCOREBOARD MENU
+
++ Press START to pause the game and bring up the Scoreboard
+menu.
+
+* Control Pad up/down to scroll through options and data.
++ — Control Pad left/right to select categories.
+* Press B to select items from the Scoreboard menu.
+
++ Press START to return to the Scoreboard menu, press START
+again to return to the game.
+
+DEMO MODE
+
+Press Control Pad or any button (except START) to exit demo
+game.Press START to pause the game and bring up Scoreboard
+menu options.
+
+===== Page 4 =====
+
+CONTENTS
+
+NEW FEATURES .
+CONTROLS. .
+
+PLAYING NHL ‘95
+
+STARTING THE GAME
+
+1. Turn OFF the power switch on your Super Nintendo Entertainment
+System®.
+WARNING: Never try to insert or remove a Game Pak when the
+power is ON.
+
+2. Make sure a Controller is plugged into Controller Socket 1 on the
+Super NES®.
+
+If you're playing against a friend, plug the other Controller into
+Controller Socket 2
+
+3. _ Insert the NHL ‘95 Game Pak into the slot on the Super NES. Press
+firmly to lock the Game Pak in place.
+
+4. Turn ON the power switch.
+The EA SPORTS” logo appears. If you don't see it, begin again at step 1.
+
+===== Page 5 =====
+
+Game Setup Screen
+
+Vailsobls ORK
+
+‘PLAY MODE EXHIBITION
+
+Square Garden in an
+iods, no penalties, no
+, and Goalie Control
+
+in except START.
+
+PLAYING FOR REAL
+Options and Settings
+
+Play Mode
+
+Exhibition: Play a single game using the teams as they were at the
+end of the 1994 season. When you have chosen an Exhibition
+With Trades, you can play a single game using the teams
+altered by trades you have made.
+
+Practice: Set up a practice session with up to two skaters (plus
+goalie) per side.
+
+Season: Begin a new season. NOTE: This erases your previously
+saved season. Also, continue your saved season at the point
+you left off. NOTE: Only one season can be saved at a time.
+
+Trades: Trade players between the two selected teams.
+Free Agents: Assign currently available players to a team.
+Release: Move players from rosters to the Free
+Agents list.
+Make Player: Create a new player that is saved on the Free
+Agents list.
+
+The Home team is on the right side at the top of the Game Setup
+screen, and the Visitor is on the left.
+
+The Home team always wears the light-colored jerseys, and the
+Visitor wears dark colors.
+
+The Home team faces up-screen in the first period and third
+periods, down-screen in the second period.
+
+Period Length
+
+Each game consists of three periods, and one or more overtime
+periods if necessary.
+Set the period length at 5, 10, or 20 minutes.
+
+===== Page 6 =====
+
+q
+
+By.
+
+An Exhibition game allows only one overtime period. The overtime
+period lasts for ten minutes, or until one team scores (“sudden
+death”). If neither team scores, the game ends ina tie.
+
+Playoff games c: end ina tie. Players will play as many sudden
+death overtims as necessary to establish a winner. The
+overtime perio as long as the period length selected for that
+
+h
+
+_ User Reco
+on: Saves yout
+Off: Doesni ds.
+NOTE: You N to log records. Only results
+
+“of winning g
+
+i
+
+Line C a
+
+On: The player/ NS their ta ne changes (see Line
+Changes).
+
+Automatic: Comps ages lines for bot! eas. Players do not
+tire.
+
+Off: The players de
+
+Rosters
+
+Default: Computer-chosen teams.
+With Trades: User-updated teams (with created players, released
+player, signed players and trades).
+
+TEAM AND PLAYER STRENGTHS
+All the NHL teams are represented in NHL ‘95.
+
+Every player in the game has certain strengths and weaknesses,
+based on their real performance in the 1993/1994 season.
+
+TEAM MATCHUPS SCREEN
+
+Before the game begins, the Matchups screen appears. On this
+screen, opposing teams and starting players are compared. Team
+and player ratings range from 25 (bad) to 100 (excellent).
+
+Player Ratings
+
+At the Matchups screen, press A or Y to see player ratings of the
+two teams currently competing. Press START to go to the next
+screen.
+
+===== Page 7 =====
+
+The Scoreboard
+
+The scoreboard lists all your game options. See page 18 for full
+descriptions of these options. Press START to begin playing.
+
+THE FACE OFF
+ie Ne ui
+
+cartier skates on a soli blue outline. The
+computer's puck
+
+If you're using ct
+
+Ps puck): If 1 eas controller 1,
+
+DEFENSE (Other tear onc
+r outlined ro if you' re using
+
+your a player
+controller 2, your if
+
++ Press B to activate player nearest to the puck.
+
+10
+
+jlue star with no outline.
+
++ Control the direction of your player with the Control Pad.
+
+PASSING
+* Hold Control Pad in the direction you want to pass, press B.
+
+If you do not hold the Control Pad, the player passes the puck in the
+direction he is facing. The best passing method is to press the B
+button, then press down on the Control Pad, then release the B
+button. The pass is launched when the Control Pad is pressed while
+the B button is down.
+
+If the player you control is off-screen, an arrow points to the
+location of that player.
+
+When playing in Two Player modes, the blue arrow indicates the
+Controller 1 player, the red arrow the Controller 2 player.
+
+On medium to long range passes, press B immediately after you
+pass the puck to control the target player before the puck arrives to
+evade defenders and pick up the puck in the clear.
+
+SCORING
+
+One point is awarded per goal.
+
+* — To take a shot on goal, press A when you have the puck.
+* — Use the Control Pad to aim puck left/right/up/down.
+There are two different shots: wrist shots and slapshots.
+
+* — Wrist Shot: Press and release A quickly.
+
+Awrist shot is slower but more accurate than a slap shot.
+Wrist shots are most effective when close to the goal.
+
+* — Slap Shot: Hold down A.
+Aslap shot is harder, faster, but less accurate than a wrist
+shot.
+
+The longer you hold down the A button, the harder the slap shot.
+* — Control Pad up to give shot height.
+
+"1
+
+===== Page 8 =====
+
+* Control Pad down to keep shot low.
++ Control Pad left or right to shoot into the corner of the net.
+
+GOALIE CONTROL
+
+Goalie Control gives you control of the goalie even when he doesn’t
+have control of the puck.
+
+To activate Goalie Control:
+
+1. Atthe Game Setup screen, Control Pad down to Goalies.
+
+2. Control Pad right or left to set both Goalies on Manual
+Control. -
+
+To control a Goalie, hold the X button down until he has the control
+star under him, then:
+
+* — Control Pad any direction to move him and to aim a pass.
+*  Ydives
+
+o "XB. passes,
+*  Asaves
+ABOUT ONE-TIMERS
+
+A One-Timer is a maneuver between two teammates: Player A has
+the puck, passes to player B, who lets the puck ricochet off his
+stick in an attempt to score without taking control of the puck.
+
+To attempt a one timer, press B to pass to a teammate, then as
+soon as the puck is free from the passer, press A. Again, the action
+is very quick.
+
+When there are two users on one team, the pass receiver can press
+Ato perform a one-timer.
+
+12
+
+MAKE PLAYERS
+To create a player:
+
+1. At the Game Setup screen, Control Pad up/down to highlight
+PLAY mode.
+
+2. Control Pad right/left to select MAKE PLAYER and press
+START.
+
+3. Choose a name for your player and press START. The Modify
+Ratings screen appears.
+
+4. Select your player's attributes, then press START.
+
+5. If you like, assign ratings from 25 (poor) to 100 (excellent) to
+your player.
+
+FREE AGENTS
+
+To sign a player:
+
+1. At the Game Setup screen, Control Pad up/down to highlight
+PLAY mode.
+
+2. Control Pad right/left to select FREE AGENT, choose the team,
+and press START.
+
+3. Control Pad to highlight the player you want to sign and press
+B to select or deselect.
+
+4, Press START to hire player.
+
+RELEASE PLAYERS
+To release a player:
+
+1. At the Game Setup screen, Control Pad up/down to highlight
+PLAY mode.
+
+2. Control Pad right/left to select RELEASE. Choose a team, and
+press START.
+
+3. Control Pad to highlight the player you want to release and
+press B to select or deselect.
+
+4. Press START to release player.
+
+13
+
+===== Page 9 =====
+
+TRADE PLAYERS
+To trade players:
+
+1. At the Game Setup screen, Control! Pad up/down to highlight
+PLAY mode. —
+
+t it will be trading and press START. The
+Trade Players screen appears.
+
+own and press B to select the player(s) from
+wish to trade.
+
+ss B to select or deselect the
+| press START. The players
+
+in be REJECTED if the
+
+call all the penalties
+
+s committed on the
+breakaway). There is
+
+One player is rel
+
+hen the opposing
+team scores on.
+
+»
+
+14
+
+INFRACTIONS
+
+4p
+
+Player Off Sides
+Puck Carrier x, —
+
+Number 09 has skated across the blue line with the puck when his
+
+15
+
+===== Page 10 =====
+
+teammate was already in the attack zone.The puck must enter the
+attack zone before any player on the offensive team enters the
+attack zone, or off-sides will be called.
+
+A referee window Oy Pop up to warn you that you are about to
+have a man oft-si
+Goal N
+The referees always ch the off-sides infraction (when you have it
+ON) and stop the. action. The puck is faced off behind the blue line.
+
+Scoring Line 2
+Fatigued
+
+If you want to Ped hanges, set Line eupanges to ON on the
+Game Setup screen.
+
+16
+
+Fatigue bars on the right side of the line-name show how fresh (or
+tired) that line is. The longer the bar, the fresher the line.
+
+You can make line changes whenever action is stopped (end of
+period, penalty, goal, face off, etc) or whenever you control the
+puck.
+
+Before each face off, the Line Change window will appear on the
+screen for a few seconds. Press the letter corresponding to the line
+you want on the ice.
+
+If you don’t press a button, the line next to the letter ‘Y” will take (or
+remain on) the ice.
+
+Unless a Power Play is beginning or ending, the line currently on
+the ice is listed next to the letter ‘Y’
+
+(See Power Play Lines and Penalty Killing Lines for more
+information.)
+
+To change lines during play:
+* — Press and hold Select to bring up a window of the currently
+available lines and their fatigue bars.
+
++ Inthe window, press Y to select line ‘Y’, B for ‘B’ and A for ‘A’.
+
+Scoring Lines and Checking Line
+
+Sci starts every game. You can change to Sc2 or to the Chk line as
+soon as you have the puck or when a face off occurs.
+
+The Chk line is your “big” line, generally slower but harder hitting
+and better on defense.
+
+17
+
+===== Page 11 =====
+
+Power Play Lines
+
+Whenever one team has at least one more player on the ice than the
+other team, that team has a Power Play. The Power Play Line (PP1,
+PP2) is the group of players that specialize in putting the puck in
+the net. .
+
+Penalty Killing Lines
+
+The Penalty Killing Lines are made up of the best defensive players
+on the team,
+
+SCOREBOARD MENU
+
+The Scoreboard menu provides a wide range of choices available
+during play or between periods.
+
+* Press START during play to bring up the Scoreboard menu.
+
+18
+
+INSTANT REPLAY
+
+To see an instant replay:
+
++ Press START to pause the game. The Options menu appears.
+* — Control Pad down to Instant Replay.
+
+* Press B.
+
+The replay is automatically rewound as far as possible. A box
+appears showing VCR-style control instructions.
+
+* Press B to roll replay (normal speed).
+
+* — Press B to stop replay.
+
++ Press and hold X to play replay (slow motion); release to stop.
+* — Press A for fast foward
+
+* — Use Control Pad to move the view around the ice.
+
+* Press Y to rewind to the replay; release to stop. You will see
+the action in reverse at high speed.
+
+* — Control Pad any direction until the cursor is over a player and
+his number and position are displayed to activate “Iso mode”.
+In Iso mode, you can have the replay follow his actions
+throughout the replay, or move the cursor around the ice to
+see the positions of other players at the time of the replay.
+
+* Press START again to return to the Game.
+
+EDIT LINES
+
+In NHL ‘95, you can edit a team’s lineup. When line changes are
+off, you can edit only Scoring Line 1 (this is the only line that’s on
+the ice).
+
+1. Press START before or during play to bring up the Scoreboard
+Menu.
+2. Highlight Edit Lines and press B.
+
+3. Use the Control Pad to highlight the player on the line you
+wish to remove.
+
+4. To select a highlighted player, press B. A list of substitutes
+eligible to play that position appears.
+
+19
+
+===== Page 12 =====
+
+BEST LINE
+
+PLAYER
+
+le substitutes list.
+rough the various ratings
+
+ions of that player.
+ou wish to substitute,
+
+* Press STAI i
+If you remove your goali leaving the net undefended) a forward is
+yt
+
+extra player a for a better
+, ty
+
+a
+
+20
+
+Manual/Auto Goalie Control
+
+Pressing B while this option is highlighted, will switch between
+Manual and Auto Goalie Control.
+
+Auto Goalie
+Auto goalie control lets you concentrate more on strategic checking
+and defense—good for beginners.
+
+Manual Goalie
+
+Manual goalie control is for more advanced players who are very
+skilled with defense and are ready for full control. To get control of
+the goalie, hold X until an outlined star appears under him. You
+have control once the star appears.
+
+* — Control Pad left/right to choose direction.
+* Press Y to dive
+
+* Press B to poke check
+
+* Press A to attempt a save
+
+Time Out
+
+Highlight TIME OUT and press B. Call a time out when you have the
+puck and want to rest your best line during a break in play. You are
+allowed only one time-out per game.
+
+QUIT Game
+
+Highlight QUIT GAME and press B. Quit Game ends your current
+game and returns you to the Game Setup screen. NOTE: This option
+cancels all results, which means they go uncounted for season or
+for playoffs.
+
+21
+
+===== Page 13 =====
+
+Game Statistics
+
+inp m
+
+a | "+ Press STARI up the Scoreboard men,
+
+9
+Control ais et ts menu.
+Re
+
+attempted.
+
+Penalty Shots: P; Shots crs
+Faceoffs: Number of face offs won.
+
+Body Checks: Number a checks cana even after the
+
+whistle blows.
+
+Attack Zone: Amount of ae in the Attack Z . (see p.15 for
+more on the At ARH
+
+Passing: Numb jccesstully received/number of
+
+passes attempted.
+
+Passing Pet: Percentage of passes successfully completed.
+
+* Press START to exit the Game Stats screen.
++ Press START again to return to the ice.
+
+Period Statistics
+
+You can check period statistics for either team at any time during play.
+Press START to bring up the Scoreboard menu.
+
+* — Control Pad left to display the Stats menu.
+
+* — Highlight Period Stats and press B'to bring up the Period Statistics
+screen with Goal stats displayed.
+
+* Press B to see the Shots stats for the period.
+
+* Press START to return to the Scoreboard menu. Press START again
+to return to the ice.
+
+Player Statistics
+
+You can check individual players’ game statistics for either team at any
+time during play.
+
+* Press START to bring up the Scoreboard menu.
+* — Control Pad left to display the Stats menu.
+
+* Highlight Player Stats and press B to bring up the Player Statistics
+screen.
+
+* Press Y to bring up the stats for the opposing team.
+
+There are two ways to look at the statistics—by player or by statistic.
+
+You may want to look at how well a particular player is doing in general.
+
+* — Control Pad up/down to find the player whose stats you wish to see
+(if that players is not among the first eleven shown)
+
+G—Goals scored
+
+A—Assists made
+
+PT—Points earned (Goals + Assists)
+SH—Shots on goal
+
+PM—Penalties in minutes
+
+===== Page 14 =====
+
+Or you can rank the players in order of their performance in the
+various categories. For example, if you want to see which players
+have taken the most shots on the goal, select Shots. The player with
+the most shots on goal will appear at the top of the list, followed by
+the player with the second most shots on goal, and so on.
+
+hich Scoring Power
+r who is listed on
+
+View a list of
+
+Penalties
+View a list of the gami
+
+24
+
+Records
+
+Up to seven player names (you and your friends) can be saved as Record
+Holders. Be sure you have the User Records option in the Main menu
+set to ON if you want to save user records.
+
+User Records
+This displays the standings of up to seven users. With three or more
+users, only this record is saved.
+
+Record Goals
+This lists the highest number of goals scored for up to seven users.
+NOTE: YOU MUST WIN TO QUALIFY.
+
+Record Saves
+This lists the highest number of goalie saves for up to seven users.
+NOTE: YOU MUST WIN TO QUALIFY.
+
+SEASON PLAY
+
+NOTE! DO NOT PRESS RESET ON THE SUPER NES WHILE THE GAME
+IS SAVING, OR WHILE AUTOPLAYING GAMES, EDITING LINES,
+TRADING, CREATING, SIGNING, OR RELEASING PLAYERS. IT MAY
+CAUSE ALL YOUR DATA TO BE ERASED.
+
+Play any game on any schedule throughout the season, check out league
+leaders in all major categories, see team and player stats throughout the
+season, end the season at any point, or have the game auto-play games
+
+up until a given day.
+
+* — Atthe Game Setup screen, Control Pad left or right to SEASON, set
+up your options, and press START to take you to the league menu.
+
+===== Page 15 =====
+
+League Menu
+To select an option from the League menu, Control Pad up/down to
+highlight item and press B.
+
+Games Today
+
+To jump into the season, select one of the games before continuing to
+the Season Options screen. This will let you select Play Games and
+immediately begin the season.
+
+Play Games
+
+Choose this option to begin playing the games you have indicated on
+the Games Today screen. You will play through each game in order,
+
+will have an opportunity to return to the Season Optians screen
+
+Nii
+_ NHL Standings
+I “Check out your team's poston in be standings.
+
+League Leaders
+Find whet )and players |
+the best teams overall, the best playel
+goals all average. Players mus
+
+qualify bint ‘
+
+wince
+NOTE: A STATISTICS GENERATED BY SIMULATING GAMES
+ARE pi AS GAME PLAY ELEMENTS AND ARE NOT
+INTENDED TO sists ITE OR REPRESENT ACTUAL NHL PLAYER
+STATISTICS OR
+
+Team Stats
+View a team by br li
+
+ig the NHL's best. Find
+| the goalies with the best
+fe played enough games to
+ron the charts.
+
+Player Stats
+View a team by team listing of key stats for each player.
+
+CREDITS
+
+Design : Kevin Hogan and Michael Brook
+
+Programmer: Jason Anderson and Jonah Stich
+
+Graphics: Doug Wike, Lori Champney, Cynthia Hamilton, lan House,
+Kendra Lammas, Alyson Markell, Terry Falls, Sophia Green,
+Mathew Crysdale
+
+Sound Design: Rob Hubbard
+
+Music by: Russell Lieblich
+
+Organ Music: Dieter Ruehle
+
+Executive Producer: Scott Orr
+
+Producer: Rob Martyn
+
+Associate Producer: Kevin Hogan
+
+Assistant Producer: Ken Rogers
+
+Technical Directors: Evan Robinson and Dave Walker
+
+Testing: Mike Hensley, Matt Eastling, Mike Karzuba
+
+Player Ratings: John Rosasko and Neil Smith of the New York Rangers
+
+Product Manager: Chip Lange
+
+Art Director: Nancy Waisanen
+
+Package Design: E.J. Saraille Design Group
+
+Package Photos: Cowley Sports Illustrated
+
+Quality Assurance: Dan Gossett, Stewart Putney
+
+Documentation: T. S. Flanagan, ‘95 adaptation by A. C. Smith
+
+Documentation Layout: Brian Conery
+
+Special Thanks to John “The Judge” Williams and Jeff Buttell
+
+===== Page 16 =====
+
+‘| lip luct that mun
+rom defects in
+
+Software and Documentation ©1994 Electronic Arts, all rights reserved
+
+NHLPA, National Hockey League Players’ Association and the logo of the NHLPA
+are trademarks of NHLPA and are used under license, by Electronic Arts Inc.
+National Hockey League, NHL, the logo of the NHL and the Stanley Cup are
+registered trademarks of the National Hockey League and are used under license
+by Electronic Arts,
+
+Team Names and logos depicted are Officially Licensed Trademarks of the
+National Hockey League © NHL 1994.
+
+Officially Licensed Product of the National Hockey League Players’ Association
+
+EA SPORTS, the EA SPORTS logo and "If it's in the game, it’s in the game” are
+
+trademarks of ao Arts.
+
+i i
+er LoTR oe UTED WARRANTY
+Hectee Arts inal purchaser of this Electronic Arts software
+hich this computer program is recorded is free
+rkmanship for a period of ninety (90) days from
+
+“| i late of purchase. This t
+aut express or implied warranty of any kit
+
+‘ (aeahy losses —— ane
+Electronic Arts agre jerio of i ely 2
+any Electronic Arts ioe a age pi
+the Electronic Arts’ in rent. Thi
+normal wear and te fei sal ty
+the defect in the El tea software prodi ue
+unreasonable 4 3 mine negle¢ Hi
+
+i Electronic Arts is not liable
+m use of this program.
+
+LIMITATIONS — fe Is Nt OF ALL OTHER
+WARRANTIES A ooTHeR REPRES| INS OR CLAIMS OF
+ANY NATURE SHALL BE BINDING ON OR OBLIGATE ELECTRONIC
+ARTS. ANY IM ‘ANTIES APPLICABLE TO THIS SOFTWARE
+
+PRODUCT, fri ING WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE, ARE LIMITED TO THE
+
+NINETY (90) DAY PERIOD DESCRIBED ABOVE. IN NO EVENT WILL
+ELECTRONIC ARTS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, OR
+CONSEQUENTIAL DAMAGES RESULTING FROM | OSSESSION, USE
+OR MALFUNCTION OF THIS ELECTRONIC ARTS SOFTWAR'
+PRODUCT. a ci i es nail il
+
+Some states do not allow limitations as to how long an implied warranty lasts
+and/or exclusions or limitations of incidental or consequential damages so the
+above limitations and/or exclusions of liability may not apply to you. This
+warranty gives you specific rights, and you may also have other rights which vary
+from state to state.
+
+RETURNS AFTER WARRANTY—To replace defective media after the ninety (90)
+day warranty period has expired, send the original Game Pak to Electronic Arts’
+address below. Enclose a statement of the defect, your name, your return
+address, and a check or money order for $30.00:
+
+Electronic Arts
+
+Customer Warranty
+
+P.O. Box 7578
+
+San Mateo, California 94403-7578
+
+If you need to talk to someone about this product, call us at (415) 578-0316
+Monday through Friday between 8:30 am and 4:30 pm, Pacific Time.

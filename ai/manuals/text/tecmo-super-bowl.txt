@@ -1,0 +1,1652 @@
+# Tecmo Super Bowl
+source: https://archive.org/details/snes_manual_archive
+pdf: Tecmo Super Bowl (USA).pdf
+region: USA
+pages: 20
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+i,
+
+| “© TECMO, LTD. 1993
+
+| Tecmo, Inc. Contoned Division:
+
+| 19260:South Van Ness Ave.,
+Torrance; CA 90501
+
+:
+
+©1993 NFLP 1993 NFLPA
+
+SUPER BOWL and NFL Shield Officially: Licefised Product of
+Desiga"ate tradainarks of the the National Football League
+National Football League. =. Players Association.
+
+# pet * ek
+
+===== Page 2 =====
+
+Thank you for choosing the fun-filled TECMO SUPER BOWL
+
+game pak by TECMO ,LTD.
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET
+CAREFULLY BEFORE USING YOUR NINTENDO®
+HARDWARE SYSTEM OR GAME PAK.
+
+LICENSED BY
+
+NINTENDO, SUPER
+NINTENDO ENTERTAINMENT
+SYSTEM AND THE OFFICIAL
+SEALS ARE REGISTERED
+TRADEMARKS OF NINTENDO
+OF AMERICA INC. © 1991
+
+NINTENDO OF AMERICA INC.
+
+‘cial
+
+‘Seal of Quality
+
+THIS OFFICIAL SEAL IS YOUR ASSURANCE
+‘THAT NINTENDO HAS APPROVED THE
+QUALITY OF THIS PRODUCT. ALWAYS LOOK
+FOR THIS SEAL WHEN BUYING GAMES AND.
+ACCESSORIES TO ENSURE COMPLETE
+COMPATIBILITY WITH YOUR SUPER
+NINTENDO ENTERTAINMENT SYSTEM. ALL
+NINTENDO PRODUCTS ARE LICENSED BY
+SALE FOR USE ONLY WITH OTHER,
+AUTHORIZED PRODUCTS BEARING THE
+OFFICIAL NINTENDO SEAL OF QUALITY.
+
+TECMO®* SUPER BOWL™
+--- PLAY INSTRUCTIONS ---
+
+Table of Contents
+
+1. Tecmo Super Bowl
+* Convenient Power-off Memory Function
+2. Operation of the Controls
+Making menu and data choices
+Window controls
+3. Tecmo Super Bowl - Three Game Modes
+#1 Preseason Game
+#2 Regular Season Game
+#3 Pro Bowl Game
+* Team Data
+* Team Data Screen
+* Pro Bowl Game
+* Team Control
+* Quarter Length
+* Regular Season Game
+* Reset Command
+4. Game Start
+* List of Control Techniques
+* Kick off
+* Touchback
+* Controlling the Offense
+* Controlling the Defense
+* Making Substitutions
+* Game Composition
+5. The Road to the Super Bow!
+TECHNIQUE SECTION
+* Running Plays
+* Pass Plays
+* Defense
+STRATEGY SECTION
+WEATHER SECTION
+AUTO SKIP SECTION
+
+===== Page 3 =====
+
+1. TECMO SUPER BOWL
+
+Tecmo Super Bowl is a football game which simulates real NFL
+action. Players can experience the entire season - from the
+summer preseason games to the final Pro Bowl game. You can
+choose from 3 cifferent NFL season schedules -1991, 1992 or
+1993. Or you can play an entire 3 year season from 1991 through
+4993. All 28 official NFL teams are included. Each team is made
+up of 32 players and each player's statistics are based upon data
+taken from the actual 92/93 NFL season. We invite you to enjoy
+the excitement of playing Tecmo Super Bowl to your heart's
+content.
+
+*THE PLAYERS AND STATISTICS IN TECMO SUPER BOWL HAVE
+BEEN PICKED FROM ACTUAL NFC AND AFC TEAM ROSTERS.
+UNFORTUNATELY DUE TO PROGRAMMING AND OTHER
+LIMITATIONS WE COULD NOT INCLUDE ALL PLAYERS FROM ALL
+TEAMS. WE HAVE ENDEAVORED, HOWEVER, TO CREATE THE
+MOST AUTHENTIC FOOTBALL GAME POSSIBLE. IF PER CHANCE
+WE HAVE MISSED ONE OF YOUR FAVORITE PLAYERS PLEASE
+ACCEPT OUR APOLOGY.
+
+©Convenient Power-off Memory Function
+
+This game cartridge is equipped with a back-up battery that
+enables you to save the results of games played. In order to make
+sure that the data you have saved isn't lost, always press the reset
+button while turning the power off. Be careful not to remove the
+cartridge while the power is on and do not turn the power switch
+on and off in rapid succession. Doing either of these things may
+cause damage to the data and scores saved by the back-up
+battery. (To reset the Memory - see page 21)
+
+2. Operation of the Controls
+
+Pressing the ©) button during the demo screen action will cause
+the title screen to appear. Pressing the ® button will cause the
+Main Menu screen to appear. Move the # Control Pad up and
+down to make your choices from among the four main menus:
+preseason game, regular season game, pro bowl and team data.
+For details concerning the menus, refer to the corresponding
+sections which follow.
+
+©Making menu and data choices
+
+Controller © + Main Menu Screen
+®
+®
++ Control Pad. A
+EP oe ®
+®
+—®@
+Select Start
+* Control Pad Used to move the "[>" mark when choosing items.
+@) button Used to make your choices.
+® button Used to cancel your choices.
+
+© Window Controls
+
+Choosing items + Control Pad
+Entering your choice ® button
+Canceling a selection or returning to the previous screen © button
+Looking at the player's data for the starters @ button
+Opening the Schedule Window in the Schedule Screen ® button
+Opening the Play Strategy Window in the Play Select Screen ® button
+
+5
+
+===== Page 4 =====
+
+3. Tecmo Super Bowl - Three Game Modes
+
+#1 - Preseason Game
+
+To play a preseason game, begin by choosing “Preseason game"
+then choose two teams from among the 28 NFL teams listed.
+* Data from preseason games is not saved
+
+If you choose "Preseason" from the main 4 Team Control Window
+
+menu, the Team Control Window will appear.
+
+SUPER. BOWL
+
+yx Use this window to determine
+the mode for your game. (see the
+Team Control page for more
+details - Page 15)
+
+yx Once you have selected your
+game mode, the Team Select
+screen will appear.
+
+yx Choose your team and your
+opponent's team.
+
++x Once you have chosen the two
+teams and the weather condition,
+the game will begin.
+(see the weather page for
+more details - Page 36)
+
+* You can change a team's starting roster before the game begins.
+(see the Team Data page for more details - Page 8)
+
+For “Preseason " games, you can adjust the time in the quarter for
+each quarter. You can choose from 3 to 15 minutes, by 1 minute
+increments. (See Quarter Length for more details - Page 16)
+
+#2 - Regular Season Game
+
+Each team plays one regular season game every week during the
+18 week season. (91/92 and 90/91 NFL schedule, there are 17
+week seasons) The teams with the best season records then
+compete in the playoffs to decide the two Super Bow! contestants.
+These two teams then play in the Super Bowl to decide which is
+the world champion. Records for each team and player are kept in
+the cartridge's memory throughout the entire season.
+
+vx Choose "Season Game" from the
+main menu and the options window
+will appear. While this screen appears,
+you can confirm the game data and
+change the game settings. Then
+choose “Game Start" to begin the
+game. (See the Regular Season
+Game Data section for more details -
+page 17)
+
++ Options Window
+
+#3 - Pro Bowl Game
+
+The Pro Bowl game is an all-star
+match-up between the best players in
+the AFC and NFC. The starting line-ups
+of the two all-star teams can be
+changed by using the Team Data
+mode. (see page 8~15)
+
+yx Choose "Pro Bowl" from the main menu and the Team Control
+Window will appear. After setting the game mode, choose either
+the AFC or NFC and the weather condition, and the game will
+begin. (Team Control - see page 15. Weather - see page 36)
+
+For “Pro Bowl" games, you can adjust the time in the quarter for
+each quarter. You can choose from 3 to 15 minutes, by 1 minute
+increments. (See Quarter Length for more details - Page 16)
+
+7
+
+===== Page 5 =====
+
+©Team Data
+
+When you want to look up team
+or players data, or when you
+want to change the starting line
+up, choose the team from the list
+and then press the ® button.
+Data for the team that you have
+chosen will then appear on the
+screen. (Refer to page 14 for
+information concerning the All-
+Star Team Data Screen.)
+
+{ Team List Screen
+
+% TEAM DATA *
+PAFC ALL STARS SELECT TEAM
+SFC ALL STARS
+
+©Team Data Screen
+
+Team Name a Conference and division
+
+BUFFALO BILLS
+
+(see page 8)
+
+(see page 12)
+(see page 12)
+4) (see page 13)
+
+RESULTS
+
+Roster
+
+Slide to the right or left —*
+
+@ Select "Players Data" to look at data for an individual player.
+
+Use the # Control Pad to select "Players Data" and press the ®
+button and the "p>" mark will be displayed in the roster column.
+Use the # Control Pad to select the player whose condition and
+
+data you want to see. The # Control Pad can be used to move
+right or left in the roster column. Press the @) button to review
+Players Data.
+
+yx Looking at the Players Data
+
+Position
+
+a2 SIM RELLY @) PHYSICAL
+ESRBE Ea. E CONDITION
+
+© RECORD
+
+© ABILITY
+
+@ A player's condition is described in five levels.
+
+Excellent : top condition.
+
+Good : good condition.
+Average : average condition.
+
+Bad : ina slump.
+
+Injured : sidelined with an injury.
+
+===== Page 6 =====
+
+© Record
+
+Passing
+
+ATT. _ : pass attempts.
+
+YDS. : passing yards gained.
+
+COMP. : pass completions.
+
+AVG. average yards gained per pass.
+TO. : pass touchdowns.
+
+COMP. %: pass completion percentage.
+INT. : interceptions.
+
+RATING: rating points.
+
+Receiving
+
+NO number of pass receptions.
+YDS. —_ : yards gained on pass receptions,
+AVG. : average yards gained per reception.
+
+1D. + pass reception touchdowns.
+Interceptions
+NO. : number of interceptions.
+
+YDS. —_: yards gained on interception returns.
+
+AVG. average yards gained per interception.
+TD. _ interceptions retumed for touchdowns.
+
+QB Sacks
+SACKS. : number of quarterback sacks.
+
+10
+
+Rushing
+
+ATT. : number of runs.
+
+YDS. : rushing yards gained.
+
+AVG. : average yards gained per run.
+TD. _ : rushing touchdowns.
+
+Punt Returns
+
+NO. — : number of punt returns.
+
+YDS. _: yards gained on punt returns.
+
+‘AVG. ; average yards gained per punt return.
+TD. — : punt return touchdowns.
+
+Kick Returns
+
+NO. — : number of kick off returns.
+YDS. _: yards gained on kick off returns.
+
+AVG. : average yards gained per kick off return
+TO. _ : kick off retum touchdowns.
+
+© Ability
+
+This area displays the abilities of the various players.
+The items change depending on the player's field position.
+
+O Ability indicators for all players. © ability indicators for a QB.
+
+Running Speed : a player's rushing speed Passing Speed
+Rushing Power : a player's rushing strength Pass Control
+Maximum Speed: a player's maximum speed Passing Accuracy
+Hitting Power: _: a player's strength when Avoid Rush
+
+blocking or hitting his opponent.
+© Ability indicators for defensive
+O Abilities of running backs, wide
+
+it n players.
+
+receivers and tight ends. Interceptions
+Ball control —_: Ability to Avoid Fumbles Quietness:
+Receptions _: Ability to Catch Passes,
+
+O Ability indicators for punters and
+kickers.
+
+Accuracy
+
+Avoid Block.
+
+W
+
+===== Page 7 =====
+
+® Offensive Starters
+
+* Use the + Control Pad to select "OF Starters" and press the ®
+button to check and make changes to the offensive starting line
+up.
+OF STARTERS
+aa PSB S Sa
+Use the + Control Pad and the Si caer
+® button to move the players brig
+to and from the "Starter"
+column. “= REEB We BBS
+See the section on line up ze nexenuer | [re werzetan
+
+3ETORNERS RETURN TEAM
+re details. KR DAVIS 1 a
+changes for more detai ssl BAEK
+
+(page 31)
+
+ao
+
+oP KELLY lop REICH
+
+RE BUSES
+
+™® SOEDER®
+
+Move the "[> " mark to the "starter" position, press the (@) button
+
+and the reset window will appear. Choose "Yes" to return to the
+
+original starting line up.
+
+* You can check a player's data by choosing the player's name
+and then pressing the (Y) button. (see page 8)
+
+@ Defensive Starters
+
++ Use the + Control Pad to
+select "DF Starters" and
+press the @ button to check
+the defensive starting line up ce ere
+or change returners. RAs
+(see page 31)
+
+* The defensive starting line
+up cannot be changed.
+
+@ Play Book
+
+Use the + Control Pad to select " Play Book" and press the (A)
+button to check and make substitutions for the eight plays that a
+team can use during a game. Each team can choose its plays
+from among eight play patterns which include four running plays
+and four pass plays. With this command the offensive team can
+choose the eight plays for your play book.
+
+Changes can be made to the
+ae play pattern that is flashing. Use
+the * Control Pad to choose the
+play pattern that you do not want
+to use and then press the @
+button.
+
+Choose “Data Reset" to return to the
+original play patterns.
+
+Substitute play patterns will
+appear in the pass play area when
+switching from a running play, and
+in the running play area when
+switching from a pass play. Move
+the + Control Pad to the right or
+left to choose the play pattern that
+you want to use.
+
+WIE OFFTACKLE R
+
+The substitute play patterns will
+move to the right and left. Bring
+the play pattern that you want to
+use to the center of the screen.
+
+13
+
+===== Page 8 =====
+
+©Pro Bowl game
+
+* When you choose an All-star team from the Team List screen and
+then press the @ button. All-star team data screen will appear.
+
+4 All-star Team Data Screen
+
+AFC ALL STARS xH0%
+
+Beas ge A es
+
+ALL STARS:
+
+i a
+
+“He ie
+
+Suis, § ea
+ie | is
+
+@, ©, ©, @... See the previous page.
+
+© Move the ">" mark to © and press the @) button, and the "[>"
+mark will be displayed in the "Pro Bowl " Player ("All Stars")
+column.
+
+Use the + Control Pad to move the "[>" mark to the name of the
+player that you want to replace.
+
+Choose the name of the player that you want to replace , press the
+® button and the names of the Pro Bowl candidates for each team
+in the league will be displayed at the top of the screen.
+
+List of "All Stars" candidates.
+
+Players Home Team. _~ Players Position
+
+*Even an injured player can participate
+in the Pro Bowl.
+
+@® Choose " Reset Players"
+to return to the original Pro
+Bowl rosters.
+
+—
+3
+-
+
+14
+
+Move the # Control Pad up or down to choose a player,
+then press the (A) button to enter your selection.
+
+To choose a substitute
+
+To choose the substitute
+player's team.
+
+Moving the 4 Control Pad to the right or left will cause
+the team display section to slide to the side and be
+replaced by a different team.
+
+Enjoy the Pro Bowl game by choosing your own all-star team.
+©Team Control
+
+* Use the following four modes to control your team.
+
+(1)MAN: — used to control an individual team. (Manual Player)
+
+(2) COA: —_ used to enjoy the experience of being the head coach. Use this mode to
+select the plays, call time outs, and for making substitutions to the line up.
+During the game the players will automatically move according to the coach's
+instructions. (Coach Player)
+
+(3) COM: _ used to leave all the controls to the computer. (Computer Player)
+
+(4) SKP: used during a regular season game. This mode functions in the same way as
+the COM mode, but when both teams in a game are in the SKP control mode,
+the game will automatically be skipped and only the result of the game will be
+shown. (Same as COM except when SKP vs SKP - see page 16)
+
+&
+a
+2
+2
+
+g
+&
+
+* In a regular season game, move the "[> " mark to your team's
+name and press the @) button to change your team’s control
+mode.
+
+Pressing the @) button repeatedly will switch the control from MAN
+to COA to COM to SKP.
+
+15
+
+===== Page 9 =====
+
+MAN vs COM - One player game.
+
+- Controller 1 PLAYER against COMPUTER.
+
+MAN vs MAN - Two player game.
+
+- Controller 1 PLAYER against Controller 2 PLAYER.
+MAN vs COA - Two player game.
+
+- Controller 1 PLAYER against Controller 2 COACH.
+COA vs COM - One player game.
+
+- Controller 1 COACH against COMPUTER.
+COA vs COA - Two player game.
+
+- Controller 1 COACH against Controller 2 COACH
+COM vs COM - COMPUTER against COMPUTER.
+
+- Computer plays both teams!
+SKP vs SKP - SKIP to the results of the game.
+
+(in regular season games only.)
+
+* "Auto Skip" - can be used to automatically skip past the display screens of SKP-vs-SKP
+games on a weekly basis. This feature will allow you to skip to the next game which is
+set to MAN, COA or COM. (for details - see (2) schedule" of page 17.)
+
+©Quarter Length
+
+When "Preseason" or "Pro Bow!" games are selected from the
+Team Control Window, the Quarter Length Window appears.
+Press the + Control Pad right or left to set the time in each quarter
+of play. You can choose from 3 to 15 minutes, by 1 minute
+increments. After you have selected a time in each quarter, press
+the @) button.
+
+When you reset the regular season schedule, the time in each
+quarter is reset to its original setting. (See page 21)
+
+4
+
+©Regular Season Game
+
+7 @® see page 17
+@® see page 18
+@ see page 18
+5) see page 19
+® see page 19
+——~@ see page 20
+
+@ Team Control: Use this option to choose the play mode for
+games between the various teams. (see the Team Control page
+for details - Page 15)
+
+@® Schedule: Use this option to see the 18 (or 17) week schedule
+of games. You can view up to a week ahead or behind by moving
+the + Control Pad up or down. You can also choose the schedule
+options 92/93, 91/92, 90/91 or 90/93.
+
+Colors of games listed in the Schedule.
+Three different colors are used depending upon the team control
+mode setting.
+
+red -MAN,COA
+
+white -COM
+
+blue -SKP
+
+* You can also check the playoff Schedule.
+
+The Command Screen is displayed by pressing the () button at
+the Schedule Screen. You can return to the Schedule Screen
+by pressing the ©) button. To display the Playoff Schedule, use
+the + Control Pad to select "Playoffs" and press the ® button.
+To see the entire playoff schedule, press
+the + Control Pad left and right. (See
+page 21 for more details concerning the
+reset command and schedule options)
+
+17
+
+===== Page 10 =====
+
+Playoff schedule
+
+ELLERY *pLLPSEA
+
+| tsa,
+
+organo
+
+ALE So So
+
+RADE ie
+
++-Slide to the right or left >
+
+**Auto Skip" - To automatically skip past the display screens of SKP - vs - SKP games,
+select "Auto Skip" from the schedule window. Use the # Control Pad to select "Auto Skip"
+then press the (A) button. "To week 0" window will appear. Use the + Control Pad up or
+down to select the number of weeks you would like to skip. (NOTE: only SKP - vs - SKP
+games in the weeks chosen will be skipped from the schedule.) Pressing the (8) button
+continuously will cancel "Auto Skip".
+
+@ Game Start: Use this mode to start the games in the scheduled
+order. The flashing match-up on the schedule list highlights the
+next game to be played. The results of the games will be recorded
+in the game's memory.
+
+@ NFL Standings: Each team's win/loss record is displayed
+according to the conference it is in. During the regular season
+games or after their completion, a + mark will appear next to the
+name of the division winner and a © mark next to the name of
+any team that has won a wild card berth. (according to the team's
+win/loss record)
+
+PCT - winning percentage
+PTS - total points scored
+OP - total points given up (opponents points)
+
+: % Team Ranking: Use this mode to see the offensive and
+
+defensive rankings of all the teams in the league, or in one
+conference, for the following three categories: Rushing, Passing
+and Total Yardage. Use the # Control Pad to select the category
+that you want to see and press the @) button to enter your
+
+selection.
+
+[To see the teams ranked below 11th place
+
+Press the # Control Pad down
+
+\To return to the higher rankings
+
+Press the # Control Pad up
+
+|To see the rankings in another category
+
+Move the 4 Control Pad to the left or right to
+
+move the "D> * mark and then press the @)
+button to enter your selection.
+
+© NFL Leaders: Use this mode to see the records and rankings of
+the top players in each category. Choose the category and the
+league or conference that you want to see and then press the @)
+button.
+
+“Changing items - Moving the + Control Pad to the right causes
+the screen to slide and the item window to
+appear. Move the * Control Pad up or down
+to move the > cursor in the window and select
+an item, then press the @ button to enter your
+selection.
+
+To see the lower rankings
+
+Press the + Control Pad down.
+
+To return to the higher rankings
+
+Press the + Control Pad up.
+
+===== Page 11 =====
+
+* Looking at the categories
+Play Items
+
+- PASSING
+RATING : Rating points
+COMP. % Completion percentage
+ATTEMPTS
+COMP. : Completions
+YARDS
+YARDSIATT. _ : Yards per attempt
+TD PASSES —_: Touchdown passes
+LST.INT.% — : Lowest interception percentage
+- RUSHING
+YARDS
+ATTEMPTS
+YARDSIATT. _: Yards per attempt
+TOUCHDOWNS
++ PUNTING
+AVERAGE
+PUNTS
++ SACKS
+
+Select "Sacks " to see the number of quarterback
+sacks,
+
++ KICKOFF RETURNS
+
+AVERAGE
+YARDS
+RETURNS
+
+TOUCHDOWNS
+
+@ Team Data: See the section concerning Team Data. (page 8)
+
+20
+
+- RECEIVING
+
+RECEPTIONS.
+YARDS:
+YARDSI/RCT.
+
+TOUCHDOWNS
+- SCORING
+POINTS
+
+TOUCHDOWNS
+EXTRA PTS.
+
+FG : Field goals
+
++ INTERCEPTIONS
+
+INT. : Interceptions
+YARDS
+
+TOUCHDOWNS,
+
+Yards per reception
+
+Extra points
+
++ PUNT RETURNS
+
+AVERAGE
+YARDS
+RETURNS
+
+TOUCHDOWNS,
+
+© Reset command and Schedule options
+
+w can you start a regular season all
+over again?
+Press the © button at the NFL Schedule
+Soreen and a window will appear with
+SELECT SCHEDULE, AUTO SKIP,
+PLAYOFFS and RESET.
+(To cancel, press the ® button)
+
+» To choose a new schedule year:
+
+©hoose SELECT SCHEDULE and press the @ button. The Select
+Schedule Window will appear. (To cancel, press the 8) button)
+Use the # Control Pad to choose one of the four Schedule options
+and press the @ button. A Question Window will appear. If you
+choose "YES", all of the data saved in the cartridge memory will
+be erased and the Regular Season Schedule will be "reset". You
+can then start a Regular Season Game from the season you have
+selected.
+
+« To reset the Regular Season Schedule:
+
+©@hoose RESET, and press the @ button. A question window will
+appear. If you choose "YES", the Regular Season Schedule will be
+reset. (NOTE: You don't need to use "Select Schedule" in order to
+“Reset” the Regular Season Schedule.)
+
+g Ciestion Window If you continue your Regular Season
+Game(s) to the Playoff level, the Playoff
+Schedule and graph will appear.
+Pressing the ©) button at this point will
+return the schedule to the screen, then
+you can call up the reset command to
+clear the memory.
+
+21
+
+===== Page 12 =====
+
+4. GAME START
+
+It's time to start the action!
+
+When you have finished checking all of the data and making your
+team settings, select your Team Control mode.
+
+NOTE:
+
+When you are getting ready to play a regular season
+
+game by yourself, be sure to start the game after
+checking the schedule and the Team Control mode,
+because the schedule may be set to a two player game
+
+of MAN vs MAN
+won't be able to
+
+Controller
+
+‘= Control Pad
+
+Select
+
+EB pe Q2
+
+or COA vs COA, in which case you
+play a one player game.
+
+@o
+
+288
+
+Start
+
+©List of Control Techniques
+
+Kick off & Half time
+
+Play Selections
+
+Selecting a RUNNING play The + Control Pad and the ) button simultaneously
+Selecting a PASS play The + Control Pad and the (8) button simultaneously
+Selecting a DIVE play ® button
+
+For a field goal,punt, time out,
+player substitution, or to change
+
+Press the Y) button to open the window, use the
++ Control Pad to make your selection, and press
+
+a player's position the @) button to enter your choice or the ©) button
+to cancel your choice
+
+Entering your choice @® or © button
+
+Canceling your choice ® button
+
+Looking at the player's data ® button
+
+Offense
+
+Choosing a control mode ® button
+
+Snap ® button
+
+Kick ® button
+
+Knocking down a player onthe —_| Come into contact with the player and then press the
+
+other team ® or®) button repeatedly
+
+Selecting a receiver @® or ® button
+
+Throwing a pass ® button
+
+Defense
+
+Choosing the controllable player
+
+The A) or ©) button when both teams are ready for play’
+
+Diving tackle
+
+Get near the player carrying the ball and press the
+button
+
+8 Knocking down a player onthe — | Come into contact with the player and then press the
+Kick off Use the 4 Control Pad to make your choice and other team ® or ® button repeatedly
+Choose whether you are going press the A) button to enter your choice
+to make the kick off or return it. List of Main Window Control
+
+Choosing items + Control Pad
+When you want to skip a screen button
+x ° ® Entering your choice ® button
+Canceling a selection and ® button
+Kick return in the end zone returning to the previous screen
+- Looking at the player's data for —_| (Y) button
+Making a Touchback when Press the (©) button while your returner is in the the starters
+catching a ball in the endzone —_| end zone Choosing a control mode ® button
+
+22
+
+23
+
+===== Page 13 =====
+
+Before the game begins, the referee performs the coin toss to
+determine which team has the right to choose the first kick off or
+return. The team that wins the coin toss can choose to either make
+the first half kick off or return it.
+
+To skip the coin toss screen -
+Press the (6) button
+
+Tos
+
+BUFFALO NEH VORK
+BILLS GIANTS
+HEADS
+
+© Kick off
+- To kick off - press either the ® button.
+
+A kick off meter will be displayed at the top of the screen. This
+meter will grow longer and then restart. The longer the meter is the
+farther the kick will go. Watch the meter carefully and kick the ball
+by pressing the @ button when the meter is at its longest point.
+
++ To make an onside kick -
+kick the ball when the meter is in the blue.
+
+You can control the player
+carrying the ball when the kick is
+being returned or when the ball
+has been recovered by the
+kicking team on an onside kick.
+
+24
+
+© Touchback
+
++ To make a touchback inside your end zone - press the ®)
+button, when your returner catches the ball in your end zone.
+
+When your returner catches the ball in your end zone, you can
+choose to control him and keep running or you can make a
+touchback by pressing the ®) button.
+
+Press the (8) button
+
+© Controlling the Offense
+
+Once the play has been whistled dead, the play select screen will
+appear.
+
+| The Play Select Screen
+
+Name of the player
+carrying the ball
+
+25
+
+===== Page 14 =====
+
+The Play Select Screen |
+Press the controller buttons in
+
+accordance with the diagrams
+displayed on the screen to run the
+play that you have chosen. ( For a
+running play - Use the * Control
+Pad and the @ button; For a pass
+play - Use the # Control Pad and
+the ©) button; For a dive play -
+Press the ®) button.)
+
++ To display the Play Strategy Window - press the ©) button.
+(press the ® button to close the window)
+
++ "Play Strategy Window "
+
+i aBhante
+
+Use the # Control Pad to select a
+play category and press the ® or
+© button to enter your choice.
+
+© Use this mode to call a time-
+out and stop the clock. (you can
+take three timeouts each half)
+
+@® Use this mode to kick a punt (and give the ball to the other
+team) by pressing thé @ button. Once your center snaps the ball
+the kick meter will begin. The longer the meter is the farther the
+kick will go. Watch the meter and make your kick by pressing the
+® button at just the right time.
+
+@ Use this mode to try a field coal
+
+- To make a kick -
+press the @ button.
+
+26 The ">" mark moves up and down.
+
+After your center has snapped the ball, instead of the kick meter, a
+">" mark, which determines the direction of the kick, will move up
+and down in front of the kicker.
+
+The ball will fly in the direction of the "p>" mark, so time the mark
+carefully and then press the A) button to make your kick.
+
+@ Use this mode to call up the offensive substitution screen. The
+offensive substitution screen will also appear when a player is
+injured.
+
+orang @ The players' positions are
+om eaice displayed according to
+
+[ea Gr their jersey numbers and
+position indicators.
+
+® The names of players who
+are currently in the game
+are displayed.
+
+(© The names of kick off and punt returners are displayed.
+
+() The names of players on the bench. An < mark appears next
+to the names of injured players, indicating that they cannot play
+in the game.
+
+(©) The names of players who can be substiyuted for kick off and
+punt returner are displayed.
+
+ee | ae |
+
+(5) Use this mode to substitute the play patterns in your play book.
+(See page 13 for details of making substitutions in your play book.)
+(® Use this mode to close the Play Strategy Window. (same
+function as the (8) button)
+
+27
+
+===== Page 15 =====
+
+* After, you have chosen your play from the play select screen,
+you are ready to begin the action.
+
+* To make the snap - press the ® button
+“Running plays
+
+To control the player carrying the ball Control Pad
+
+To knock away the defensive players
+trying to make a tackle
+
+Press the ) or & button repeatedly.
+
+First down chains
+
+*Pass Plays
+
+Pass plays can only be made by first choosing a pass play from
+the play select screen.
+
+To choose apass | Press the ) | After making the snap (by pressing
+
+receiver after the or® button | the @ button), get ready to make
+
+epee the pass. AW mark will be
+
+To pass the ball to | Pressthe ®) | displayed above your eligible
+
+the receiver with the | button receiver. Press the @ or ® button
+
+Y mark displayed to move the indicator to the
+
+above him receiver that you want to throw the
+ball to.
+
+* If your quarterback does not have a very high passing ability
+(pass control) , your pass may not go where you intend it to go.
+Whether or not a pass is completed depends upon the ability of
+your quarterback and your receiver. It's a good idea to avoid trying
+to make passes that you don't have a good chance of completing.
+Use passes wisely to get past the defense and into the end zone
+for a touchdown.
+
+28
+
+* Dive play
+* To select a dive play - Press the ® button during the play select
+screen.
+
+During the play select screen while on
+offense, press the © button. When you &
+are ready to begin the action, press the
+® button to snap the ball. Then your
+offensive team will make the dive play
+automatically. Making a dive play is a
+convenient way to gain a few yards.
+
+©Controlling the Defense
+
+a) When the play select screen has appeared, try to guess what
+type of play the offense is going to run and then use the controller
+to choose your defense.
+
+To defend against running plays Press the + Control Pad together with
+
+the ) button.
+
+To defend against pass plays Press the # Control Pad together with
+the ® button
+
+To defend against a dive play Press the ©) button
+
+Press the (Y) button. ( press the
+‘B) button to close the window)
+
+Use the + Control Pad.
+
+To look at the commands in
+the Defense Window
+
+To choose a command
+
+To enter a command choice Press the (A) or (Y) button
+
+~~ Defense Window $
+
+@ Use this mode to call a timeout
+and stop the clock. (you can
+take three timeouts each half)
+
+@ Use this mode to call up the
+defensive substitution screen.
+You can check the defensive
+line up and change the returners.
+
+@ Use this mode to close the window. (same function as the ®)
+
+button)
+29
+
+===== Page 16 =====
+
+b) When both you and your opponent have chosen your plays, you
+are both ready to begin play.
+
+Select the player that you want to control -
+
+While you are both
+lined up for the play
+press the ® or ©
+button. Each time you
+press the button the
+player you can control
+will change.
+
+=
+
+S
+ws
+
+To control your player Use the + Control Pad
+
+Get near the other player and press the ©) button.
+
+To make a diving tackle
+(this can knock down any player)
+
+To shake off a player who | Pregs the @ or ® button repeatedly
+
+has grabbed onto you
+
+30
+
+* Making substitutions
+1 Offensive Substitution Screen
+
+4 Defensive Substitution Screen
+
+® offensive line up
+
+® bench
+
+© defensive line up
+
+© bench only for substituting an injured returner
+(in the All star team, this is not displayed)
+
+© kick off and punt returners who are currently in the game
+
+© bench for returners
+
+* To move the "fp " mark for selecting players - use the + Control
+
+Pad.
+
+The ">" mark can be moved in the "Players" and "Returners"
+columns.
+
+* To look at the data for the sciaaia aaa:
+player that you have selected - os
+press the (Y) button. sult aes i
+
+* When you move the "p>" mark "
+within the "Players" column,
+the position of the player being
+chosen will be highlighted.
+
+= TEAM AREA
+xe B98" > SORPEE
+om BEEBE = BBSTEE.
+ee | en
+
+si nites || Bltbe-
+
+31
+
+===== Page 17 =====
+
+1) Making offensive player substitutions:
+
+Choose the offensive player that
+you want to replace, press the (A)
+button and the "p>" mark will
+appear in the "team area" column.
+Move this marker to the name of
+the player that you want to put in
+
+MEMBER CHANCE
+e SFsSr ew
+
+TEAM AREA:
+
+om REICH
+
+*™ SOEPER®
+
+om BEEBE
+the game and press the @) button [EeMsxesaaias
+
+again. The substitution is then be
+
+RE TORWERS:
+
+l= Davis
+
+PR_EDJARDS
+made. .
+
+2) Making defensive player substitutions:
+
+The defensive line up cannot be changed. However when a
+defensive player with a returner qualification gets injured a
+substitution can be made.
+
+* When a defensive player is injured while returning, the defensive
+substitution screen will be displayed.
+Move the “p> " mark to the defensive player that you want to put
+in the defensive line up and press the ® button. You must also
+change the injured player in the returner column.
+
+3) Making returner substitutions:
+
+* Choose the returner that you want to replace, press the @
+button, and the "[>“ mark will appear in the return team column.
+Move the "[>" mark to the player that you want to put in the line
+up and press the @ button to make the substitution.
+
+MEMBER CHANGE HAMMER CHANGE bins
+
+00!) -Saecamime a) saga 2
+
+BABA
+oe
+
+=” BASiA* =” SORPER
+ee BEEBE w™ BBA
+
+EE
+
+Es |e asi
+
+Player Substitutions
+* There are certain limitations on substitutions due to the
+positions of the player.
+
+Positions Positions available for making substitution |
+QB = QBonly
+
+RB,WR,TE — RB, WR, TE
+
+KR, PR — Limited players (names at the return team column )
+
+* QB = quarterback, RB = running back, WR = wide receiver,
+
+TE = tight end, KR = kick off returner, PR = punt returner, T = tackle,
+G = guard, C = center, DL = defensive lineman, LB = linebacker,
+
+DB = defensive back
+
+* When a play has been whistled dead, players on the offensive team may be injured.
+Injured players cannot return to the game until they have recovered from their injuries.
+Make substitutions to replace the injured players. ( see page 31 for details on player
+substitutions) Some players will need as many as three games to recover from their
+injuries.
+
+INJURED
+
+BUFFALO BILLS
+
+JIM KELLY JIM KELLY
+
+"If your player gets injured, he won't be
+able to play in the game."
+
+“I'm finally getting out of the hospital! Now
+I'm really going to go wild!"
+
+© Game Composition
+
+A game is made up of the first and second quarters, followed by
+half time (which can be skipped by pressing the © button) and
+then by the third and fourth quarters.
+
+33
+
+===== Page 18 =====
+
+5. The Road to the Super Bowl
+
+The road to Super Bowl is long and rigorous. Without outstanding
+technique and play strategy the Super Bow] is an unattainable
+goal. Keep polishing your skills and use your best play strategy to
+achieve victory.
+
+TECHNIQUE SECTION
+
+%& Running Plays
+
+CL Avoiding a diving tackle
+
+When the COM is about to make a diving tackle, the defensive
+player will get ready to dive, then he will attempt to tackle your
+player. To avoid being tackled get out of the way just as he is
+getting ready to dive.
+
+* If the defensive player gets ready to dive, —— get out of the way.
+
+CF Make the most of your running back's talents
+
+Some running backs like to use their strength to bowl over the
+defense and plow straight ahead, while others like to use special
+techniques and speed to avoid tackles. When you are controlling a
+powerful runner (a runner with great hitting power) , have
+confidence in his strength and run him straight at the defense.
+When you are controlling a skillful running back (a runner with
+running speed and rushing ability), head upfield by eluding the
+defense's tackle attempts.
+
+34
+
+* Pass plays
+
+{_) Look for an open receiver
+
+Don't throw a pass to a receiver who is well covered by the
+defense or the pass may be knocked down or intercepted. Look for
+4n open receiver and then pass the ball to him.
+
+pee +— Well covered receiver
+~, + Well covered receiver
+
+( The success of your passes depends on the ability of your
+quarterback and receiver
+
+The greater the ability of your quarterback and receiver the easier
+it will be for you to complete passes. With talented players it is
+possible to make passes even when your players are covered.
+However, if your receiver is not talented, he might drop the ball
+even though he's wide open. Likewise, if your quarterback isn't
+talented, he might throw the ball so badly that your receiver can't
+catch it.
+
++ Open receiver
+
+(C] Use your ace receiver when it really counts
+
+If you have an ace receiver on your team who is extremely
+talented, try throwing the ball to him in situations where it really
+counts.
+
+Defense
+
+(J Intercepting the other team's passes
+
+Move your defenders into the area that the offensive team's pass is
+heading. Then, if your defenders are talented enough, they might
+be able to make an interception.
+
+35
+
+===== Page 19 =====
+
+STRATEGY SECTION
+
+C] Make the most of your team's talents
+
+There are many different types of teams ----- good passing teams,
+good running teams, strong defensive teams, etc. Find out what
+your team's strengths are and then make your play choices based
+on those strengths.
+
+C) Take away your opponents strong points
+
+Study your opponent to discover his strengths and weaknesses.
+During the game concentrate on shutting down your opponent's
+favorite plays and upsetting his game plan.
+
+WEATHER SECTION
+
+LJ The weather condition is an important factor of the game. The
+weather will be determined as follows.
+@ In preseason and pro bowl games:
+You are able to choose the weather conditions. You can simulate
+your team-ability under snow and rain conditions, and develop a
+plan of tactics under any weather.
+
++ To choose a weather condition-
+After you had chosen the two teams, a weather screen will appear.
+Press the * Control Pad right or left to choose a weather condition
+and press the @) button, the game will begin.
+If you press the ®) button, the weather condition will be chosen by
+the computer.
+@ In the regular season game:
+The weather conditions are determined by the season, by the
+region where the game is being held and by the probability of rain
+or snow. For example, a winter game, played in a wet northern
+area will have a high probability of snow. On the contrary a game
+played in a dry southern area is likely to have nice weather.
+To win the game under bad weather conditions, you must consider
+a plan of tactics for your team by playing preseason games under
+bad weather conditions.
+
+* When playing in rain or snow, the player you are controlling
+may slip and fall.
+
+36
+
+AUTO SKIP SECTION
+L] SEASON GAMES
+
+For Season Games, if you have not set "Auto Skip",the computer
+can automatically skip thru the various display screens for games
+which are set to SKP-vs-SKP in the Team Control screen.
+
+4 Options Window 7 .
+Select "Game Start" from the
+
+options window. By pressing the
+START BUTTON and the i)
+button simultaneously, the
+display screens of SKP-vs-SKP
+games will sequence
+automatically.
+
+ULAR SEASON
+EASON GAME:
+SCHEDULE
+TRAM RANIIN
+
+NFL LEADERS
+
+Pressing the START BUTTON and the
+® button simultaneously.
+
+You may cancel this choice by
+pressing the ©) button
+continuously during the "Tecmo
+Sports News".
+
+When the game pauses, press
+the ©) button once again to
+return to the Options Window.
+
+4 TECMO SPORTS NEWS
+
+TRCMO SPORTS WEHS
+
+wen PHBLENB BAétkiors 18
+
+37
+
+===== Page 20 =====
+
+90-DAY LIMITED WARRANTY TECMO GAME PAKS
+
+90-DAY LIMITED WARRANTY:
+
+Tecmo, Inc. (TECMO) warrants tothe original consumer that this Tecmo Game Pak (‘PAK’) shall be free from
+
+defects in material and workmanship for a period of 90 days from date of purchase. Ita defect covered by this
+
+warranty occurs during the 90-day warranty period, Tecmo will repair or replace the PAK, at is option, free of
+charge.
+
+To receive this warranty service:
+
+1.00 NOT return you defective Game Pak tothe retailer.
+
+2. Notify the Tecmo Consumer Division of the problem requiring warranty service by calling; 1-310-787-2900.
+‘Our Consumer Service Department isin operation from 8:00 A.M. to 5:00 P.M. Pacific Time, Monday through
+Friday.
+
+4. lf the Tecmo service technician is unable to solve the problem by phone, he will provide you with a Return
+‘Authorization number. Simply record this number on the outside packaging of your defective PAK, and retum
+you PAK freight prepaid, at your risk of loss or damage, together with your sales slip or similar proot-o-purchase
+within the 90-day warranty period to:
+
+Tecmo, Inc. Consumer/ Service Department:
+Sequoia Commerce Center
+19260 S. Van Ness Avenue
+Torrance, CA 90501
+
+This warranty shall not apply if the PAK had been damaged by negligence, accident, unreasonable use,
+
+modification, tampering, or by other causes unrelated to defective materials or workmanship,
+
+REPAIRS AFTER EXPIRATION OF WARRANTY:
+
+If the PAK develops problems after the 90-day warranty period, you may contact the Tecmo Consumer Service
+Department at the phone number noted above. If the Tecmo service technician is unable to solve the problem by
+phone, he may provide you with a quote for the repair cost and a Return Authorization number. You may then
+record this number on the outside packaging of the Defective PAK and retum the defective PAK ‘freight prepaid”
+and insured against loss or damage to Tecmo, enclosing a check or money order for the amount quoted payable
+to Tecmo, Inc. Tecmo wil at its option, subject to the conditions above repair the PAK or replace it with a new or
+repaired PAK. If replacement PAKS are not available, the defective PAK will be returned and your payment
+refunded.
+
+WARRANTY LIMITATIONS
+
+ANY APPLICABLE IMPLIED WARRANTIES, INCLUDING WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE, ARE HEREBY LIMITED TO NINETY DAYS FROM THE DATE OF
+PURCHASE AND ARE SUBJECT TO THE CONDITIONS SET FORTH HEREIN. IN NO EVENT SHALL TECMO
+BE LIABLE FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES RESULTING FROM THE BREACH OF ANY
+EXPRESS OR IMPLIED WARRANTIES.
+
+The provision of this warranty are valid in the United States only. Some states do not allow limitations on how long
+‘an implied warranty lasts or exclusions of consequential or incidental damages, so the above limitations and
+exclusion may not apply to you. This warranty gives you specific legal rights, and you may also have other nights
+Which vary from state to state.
+
+MEMO

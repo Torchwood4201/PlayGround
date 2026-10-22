@@ -1,0 +1,2467 @@
+# Might and Magic II
+source: https://archive.org/details/snes_manual_archive
+pdf: Might and Magic II ( PAL ).pdf
+region: PAL
+pages: 32
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+ined
+
+===== Page 2 =====
+
+WARNING: PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND
+PRECAUTIONS BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR
+NINTENDO® HARDWARE SYSTEM, GAME PAK OR ACCESSORY.
+
+© 1993, New World Computing Inc.
+
+LICENSED BY
+
+NINTENDO®, SUPER NINTENDO
+ENTERTAINMENT SYSTEM™.
+THE NINTENDO PRODUCT
+SEALS AND OTHER MARKS
+DESIGNATED AS “TM” ARE
+TRADEMARKS OF NINTENDO.
+
+ELITE® IS A REGISTERED
+TRADEMARK OF ELITE SYSTEMS
+LTD.
+
+-
+
+(Nintendo)
+
+Can
+Sea! 0
+
+~ :
+wild
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY
+OF THIS PRODUCT. ALWAYS LOOK FOR
+THIS SEAL WHEN BUYING GAMES AND
+ACCESSORIES TO ENSURE COMPLETE
+COMPATIBILITY WITH YOUR SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+===== Page 3 =====
+
+WARNING: PLEASE READ THE ENCLOSED INSTRUCTIONS CAREFULLY
+‘BEFORE USING YOUR SUPER NINTENDO SYSTEM.
+
+PRECAUTIONS
+
+Please read this instruction manual to ensure proper handling of your new game,
+and then save the manual for future reference.
+
+1) Always turn the power off before inserting or removing the Game Pak from your
+Super Nintendo Entertainment System.
+
+2) This is a high precision game. It should not be stored in places that are very
+hot or cold.
+
+3) Avoid touching the connectors, do not get them wet or dirty. Doing so may
+damage the game.
+
+4) Do not clean with benzene, paint thinner, alcohol or other such solvents.
+
+Cantrois
+
+enone
+
+Wait ares fax 7
+
+TABLE OF CONTENTS ~\
+
+How To Start Might & Magicl1 ....... 2 SCONGIONS sii a meee 11
+
+Controller Operations & Commands ...2  Hitrelings ......ccccsccecccceccecceveeeeeees 12
+
+FRUFOOMCOION csc en oes sh ens ies esas es 3 Non-CombatCommands ............:. 12
+
+Beginning Might & Magicl] ........... 4 Combat Commands .............:.e000+ 14
+
+CROPECIIE: oo aisidecticse ees Ges DS PNCGUnT CTS sists si 15
+LU Te a ee aes ee pe er SE oo i eee eee 16
+REE aes ei ngs a 6 AUtO-MAPPING .......ccccccceccsccescecees 17
+ira asa oes Cassese Gas DS PERCE os cexcidi cicamomeseysctsa- eee 17
+nS RSM pep ne en Sree Tea 9 BCH ksi sence 19
+OI obs os veces si teaess xs saniocasns 10 SO CHAN 5 iss cikicce eG weasmeansas 20
+PEE oo irestiec rte 10 CleriC SDCUS 50s das cd cs ake Vacsisseeees 22
+Experience & Levels .........ssseeeee 10 Sorcerer SPU «055 isiecce sae ceveveees 25
+PAE oo cas carinii meds 10 Middlegate Map .........cccscccecceveees 29
+Secondary SRUUS vcs c0csceas ccct¥eines 10
+
+===== Page 4 =====
+
+HOW TO START MIGHT & MAGIC II:
+GATES TO ANOTHER WORLD
+
+1: Insert the Might & Magic II Game Pak into your Super Nintendo
+
+Entertainment System.
+2: Turn the power switch to “ON”.
+
+_ . 3: Press the start button on your control pad.
+
+CONTROLLER OPERATIONS &
+
+eeecisaiu tae
+ae IN COMBAT MODE:
+
+Rapidly BYPASS the
+combat round.
+
+Control Pad moves
+Player's Party, and
+controls menu
+
+cursors.
+
+Allows you to SKIP
+the current message
+
+displayed.
+
+SELECT and START
+buttons are not used. Displays OPTIONS menu
+CANCELS Any selected command or menu. and selects commands.
+Moves party one space
+FORWARD
+
+got
+Rotates party 90° /—“'.\ Rotates party 90°
+
+i< >
+
+to the LEFT 2 tothe RIGHT
+
+})
+
+eee
+Moves party one space
+BACKWARDS
+
+In Auto-Mapping Mode:
+
+ROTATE map clockwise / counterclockwise
+
+Toggles between
+charted areas
+
+and known maps
+of Cron
+
+Exit Auto-Map
+
+2
+
+===== Page 5 =====
+
+INTRODUCTION
+
+“Sirrahs, hold there!
+Oh, pardon me m’lady! I thought ... your garb ...”’
+
+Forgive an old peasant his manners. I am Durak. ‘Twill soon be dark and ’tis not
+safe for man nor beast alike to be about after the light ’o day hath passed. My
+village lies but a few paces south of here, if we hurry, we can all warm ourselves
+by the hearth at the inn ’ere darkness sets in.
+
+“Dark times indeed have fallen upon fair Cron. Ah, but ’twas not always so.
+What's that? Ye’ve not heard the tales? Well, we’ve a ways to go and ’twill help
+to pass the time.
+
+“°Tis told that there was once four Lords. One who commanded the waters,
+
+another air, yet another the sun and fire, and one the very earth itself. They often
+fought amongst themselves for control over Cron, until finally, one Lord emerged
+triumphant. It was Gralkor The Cruel, Lord Emperor of the earth. But his conquest
+
+of the other Lords had not slaked the thirst for power and he demanded their
+complete submission.
+
+Not long after that, man-like beings appeared in Cron — Humans, Dwarves, Elves
+and the like. They carried with them the knowledge of Spell Weaving — magic,
+aye — which they used to defend against the Elemental Lords. Eventually, they
+formed an Orb containing great power, which when nested amidst four talons — one
+for each element — became a mighty weapon that could subdue or slay the Lords.
+
+Kahlon, a conjurer, stole the Orb and battled with the Elemental Lords in what
+
+was once the Savannah of Plenty, but hence has been known as the Quagmire of
+Doom. With the aid of the Orb’s power, he imprisoned 3 of the Lords, sealing them
+at each corner of the earth. One talon each was placed before each cell to ensure
+none escaped.
+
+Only Gralkor remained, and he was wounded. But he too, had learned the arts of
+weaving spells and summoned forth a beast of such girth and height, it near hid
+the sun! Using the creature, Gralkor fought. The beast breathed fire which
+consumed all in its path. Kahlon, foolishly, came forth to do battle, but was unable
+to call upon the waters in time. The ashes which remained and the Orb were swept
+away, when the waters finally fell. Gralkor and his creature were both drowned.
+
+Upon his death, Kahlon’s daughter took the throne, but she was not a strong leader.
+Now, our fields lay burning, my people starving and in fear for their very lives.
+If only the Orb could be recovered ...
+
+Ah, well, we’ve reached the village inn. Let us enter.”
+
+VIDEO erristy
+
+= we.
+
+===== Page 6 =====
+
+BEGINNING MIGHT & MAGIC II?™
+Main Menu
+
+When the main menu appears, you will be given five options:
+
+WMWasatame for
+rove .-
+
+1. Go To Towns
+
+This option allows you to hire characters for your party.
+Character Selection Options:
+
+Choose Party: Up to six characters will establish your party of explorers. To select
+members, move the cursor to the character you wish to choose and press the “B”
+Button. A (V) will highlight the selected character. To de-select a character, press
+
+the “B” Button again.
+
+Show Next Town: View all five towns in the world of Cron: Atlantium, Middlegate,
+Sandsobar, Vulcania and Tundra. The names of any available characters in these
+towns will appear. Only Middlegate will contain characters at the beginning.
+
+Show Hirelings/Characters: This option displays any characters or hirelings in
+each town that may be added to your party.
+
+Main Menu: Toggle back to main menu.
+
+Leave The Inn: Begin or continue your adventure.
+
+2. Create Character
+
+Before beginning your adventure, you may choose to create a customized party.
+This option allows you to begin that character creation process. However, if you
+prefer to start an adventure immediately, Might & Magic II™ is also equipped
+with six ready-made characters.
+
+3. Delete Character
+
+This option will remove any characters that you feel have carried out their duties
+and are ready to rest forever. Once characters are deleted, they cannot be revived.
+
+4
+
+===== Page 7 =====
+
+4. Initialize Game
+
+WARNING: Initializing the game will reset your Game Pak to its original
+packaged form completely ERASING any saved information. Only use this option
+if you wish to restart MIGHT & MAGIC II™ from the very beginning.
+
+ONCE YOU HAVE SELECTED THIS OPTION, ALL SAVED
+INFORMATION WILL BE GONE FOREVER!
+
+5. Sound Mode
+
+Choose ‘“‘Stereo”’ or “Mode’’.
+
+CHARACTERS
+
+Creating Characters
+
+In the town of Middlegate, you will find six ready-to-go characters, should you
+choose not to create your own customized party. (Although the Cronian Wizards
+hint that creating your own characters might be better.) By choosing your
+character’s name, race, gender, class, and attributes you can assemble a band of
+travellers to meet all your adventuring needs.
+
+$F
+
+STATISTICS
+
+All characters you create are built upon physical, intellectual and moral qualites.
+These qualities are measured in statistics. There are seven types of statistics, or
+attributes, which will help you to decide the profession of your character.
+
+Generating Statistics
+
+When creating characters, a row of numbers will appear next to each of the seven
+attributes. Each number is equivalent to the rolling of three dice numbered 1-7.
+Therefore, a character's attributes can never begin lower than 3 or higher than 21.
+During your quest, however, you may find certain items which may raise or lower
+these numbers.
+
+===== Page 8 =====
+
+Statistics Explanations
+
+MIGHT Measures your character’s strength. The stronger your character,
+the more damage he can inflict during hand to hand combat.
+
+INTELLECT Measures a character’s general knowledge. Sorcerers with
+higher Intellect will have more spell points.
+
+PERSONALITY = A combination of mental strength and personal appeal, it 1s
+a measure of your character’s charisma. Clerics possessing
+high Personality have higher spell points.
+
+ENDURANCE Your character’s stamina in battle. Affects the amount of Hit
+Points (HP) gained.
+
+SPEED A character’s agility and quickness. A higher Speed statistic
+will increase a character’s armour class. Speed also
+determines the order of combat during battle. The quickest
+character will always rush to the front of the fighting lines.
+
+ACCURACY A character’s ability to strike an enemy during combat. Spell
+attacks do not apply.
+LUCK A character’s chance of success. Often risky and
+
+unpredictable, it may be your character’s last hope.
+
+CLASS
+
+Character attributes help to determine in which of the eight classes your character
+belongs. Certain classes require a mandatory score in one or more of the seven
+attributes. The available class choices are highlighted.
+
+| Es-<change
+
+Monst ees
+| Cantrois
+
+Knight
+
+Prime Statistic: Might, 13 or higher.
+
+Hit Points gained per experience level: 1-12.
+Special Skills: None.
+
+Trained for combat, Knights are the most skilled fighters of any class. They can
+use any weapons or items of armour, unless of opposite alignment or designed for
+another class of character. Knights gain a considerable number of Hit Points with
+each experience level they attain.
+
+6
+
+===== Page 9 =====
+
+Paladin
+
+Prime Statistics: Might, Personality, and Endurance. All 13 or higher.
+
+Hit Points gained per experience level: 1-10.
+Special Skills: Clerical Spells (at higher levels).
+
+Paladins, after acquiring crusading skills, are natural questors. At high levels of
+experience they learn the arcane magic of Clerics. A Paladin may use any weapon
+or item of armour, unless created for another class or alignment. General fighting
+skills rival those of an Archer, but Paladins are not as adept with missile weapons.
+
+Cleric
+
+Prime Statistic: Personality, 13 or higher.
+
+Hit Points gained per experience level: 1-8.
+Special Skills: Clerical Spells.
+
+Clerics are well-versed in the arts of healing magic. Their spells utilize the forces
+of nature to guide your party’s defence through to a victorious battle. Because they
+are limited in the amount of armour and weapons they may possess, Clerics have
+become resourceful fighters.
+
+Archer
+
+Prime Statistics: Intellect and Accuracy, both 13 or higher.
+Hit Points gained per experience level: 1-10.
+Special Skills: Sorcerer spells (at higher levels).
+
+Archers are unique. They are highly trained in the usage of missile weapons. At
+higher levels, their mastery of Sorcerer spells increases along with their power.
+Although missile weapons are an Archer’s primary defence, they may use other
+weapons unless designed for a special class.
+
+Tt ey eae 28
+3 so =t oF
+asks mages i
+Wow Avs?
+
+aister. are
+
+Sorcerer
+
+Prime Statistic: Intellect, 13 or higher.
+Hit Points gained per experience level: 1-6.
+Special Skills: Sorcerer Spells.
+
+Sorcerers wield the most powerful magic. Not only can they utilize natural forces,
+but they can cast spells to send the enemy running as well! A Sorcerer's main power
+lies in his spell casting abilities. As for fighting, he is restricted to light weapons
+
+and armour. AE om ¥2 7
+i f ry* “7
+VIDEO crisTf
+
+===== Page 10 =====
+
+Robber
+
+Prime Statistic: Luck, 13 or higher.
+Hit Points gained per experience level: 1-8.
+Special Skills: Lockpicking, Uncovering Traps.
+
+Robbers hold a dark and dismal reputation in the world of Cron. They are not very
+sociable and would rather pillage and loot than carry on a conversation. Your
+party, however, cannot survive without their cunning skills. This character will
+disarm traps, unlock doors, and find treasure that can benefit your party. A
+Robber’s fighting skills are decent enough to defend the central fighting lines.
+
+Ninja
+Prime Statistics: All statistics MUST be 13 or higher.
+
+Hit Points gained per experience level: 1-8.
+Special Skills: Backstabbing, Lockpicking, Finding Traps.
+
+This character has the worst reputation in the land of Cron. Not only will a Ninja
+take your gold, but stab you in the back as well! Ninjas invariably try to down
+their opponents in the first attack, however, they do not always succeed.
+
+Ninjas require speed and accuracy, therefore they are restricted to light weapons
+and armour.
+
+Barbarian
+
+Prime Statistic: Endurance, 15 or higher.
+
+Hit Points gained per experience level: 1-12.
+Special Skills: None.
+
+Barbarians can gain Hit Points faster than any other character. Their high
+endurance allows them to take multiple blows in battle, then repay their aggressor
+with an equally brutal attack. They can wield most two-handed weapons, but are
+limited to light armour.
+
+8
+
+===== Page 11 =====
+
+RACE
+
+After you select your characters’ class you must choose their race. There are five
+races from which to choose. Your character statistics will be altered by all races,
+except Human.
+
+Elves:
+
+Intelligent, forest dwelling creatures, their experience in the woods has given them
+sharp reflexes which aid their accuracy. They make very proficient Sorcerers and
+Archers. Elves also have some resistance to Sleep spells.
+
+Dwarves:
+
+Prefer to dwell in underground caves. This harsh existence has helped to build
+their Endurance. Their speed, on the other hand, has been severly limited by their
+shortened stature.
+
+Gnomes:
+
+Although, physically resembling their Dwarven cousins, Gnomes are more jovial.
+Luck seems to favour their every step and they are quite adept as Robbers.
+
+Half-Orcs:
+
+Spawned by Human and Orcs, these creatures are brutal and savage. Although
+they appear Human-like, brutish Orc blood still rages through their veins. Might
+and Endurance have been increased, but their personalities have been dulled.
+
+ELF GNOME DWARF HALF-ORC
++1 Int +2 Luck +1 End I Mgt
+I Acc —I Spd +I Luck I End
+—I Mgt —I Acc —I Int —] Int
+—I End —I Spd =F Per
+—I Luck
+ALIGNMENT
+
+Alignment measures the character's moral inclinations when confronted by the
+unknown. A character can be Good, Neutral, or Evil. Alignments are not absolute
+and may change depending on a character’s decisions.
+
+On occasion, Alignment can restrict a character from performing a certain task or
+engaging in an activity. Certain items and places are exclusive to a specified class.
+Neutral characters can usually enter any area, but are not always considered to
+have the advantage over Good or Evil characters.
+
+===== Page 12 =====
+
+GENDER
+
+Gender does not affect a character's vital statistics, or restrict any physical
+activities performed throughout Might & Magic II™. A character can be either
+male or female, and most parties will perform best with a mixture of both. You
+may discover that certain items or places may be restricted to members of one
+gender or another.
+
+NAME
+
+The most important aspect in creating your character. A character’s name can be
+up to twelve characters long. Use the A button to select between upper and lower
+case. Press the B button to enter the character’s name.
+
+EXPERIENCE & LEVELS
+
+All characters begin at the first Level. As a character gains Experience Points in
+combat and training, Levels will increase.
+
+Experience Points represent a character's current score, or amount of knowledge
+learned during an adventure. As Experience Points are accumulated, you may seek
+out training to gain more Experience Levels. Each city has a training ground where
+levels can be earned. If a character has not acquired the necessary amount of
+Experience to attain the next level, he or she must continue adventuring until that
+minimum 1s met.
+
+When a Level has been gained, characters, depending on their profession, will earn
+Hit Points, Spell Points, and increase in attributes.
+
+AGING
+
+Adventuring begins at age 18. As a character ages, skills may deteriorate. Aging
+may cause vital statistics to drop, and by age 80 a character may expire. There
+are ways to reverse the effects of aging, however, be careful, some ointments or
+spells may have disastrous results.
+
+SECONDARY SKILLS
+
+Characters can learn up to two skills which will increase their adventuring
+abilities. Once a skill has been learned, your entire party will reap the benefits.
+Secondary skills are not etched in stone once learned. If needed, there are ways to
+“Forget” them.
+
+10
+
+===== Page 13 =====
+
+SKILL
+Arms Master
+Athlete
+Cartographer
+
+Crusader
+Diplomat
+Gambler
+Gladiator
+Hero/Heroine
+Linguist
+Merchant
+
+Mountaineer
+
+Navigator
+Pathfinder
+
+Pickpocket
+Soldier
+
+EFFECT
+Increases Accuracy.
+Increases Speed.
+
+Enables one to make maps of where the party has travelled. You
+will be able to use Auto-mapping only if at least one member of
+your party has the skill of Cartography.
+
+Qualifies the recipient to accept quests.
+
+Increases Personality +5.
+
+Increases Luck +5.
+
+Increases Might +5.
+
+Increases all statistics +1.
+
+Increases Intellect +5.
+
+Ensures getting the most favourable price when buying or selling.
+
+Ensures the party can pass over any mountain range when two
+or more of its members have this skill.
+
+Prevents the party from becoming lost in large, open areas.
+
+The party can pass through any forest when two or more of its
+members have this skill.
+
+Increases Thievery ability for Robbers and Ninjas.
+
+Increases Endurance.
+
+CONDITIONS
+
+A character’s condition in full health is always “GOOD”. However, during the
+course of your travels, these conditions may change for the worse. Most undesirable
+conditions can be cured by visiting the House Clerics. Should a Cleric of higher
+levels be travelling with you, he/she may be able to heal fallen characters.
+
+The possible conditions are:
+
+Unconscious:
+
+Should a character's HP reach zero (0), he/she will become
+Unconscious. At this point any further damage will result in the
+demise of that character. If your party is fortunate enough to set
+up camp and rest before further damage can be inflicted, an
+Unconscious character will be restored.
+
+11
+
+===== Page 14 =====
+
+be
+
+~
+
+Asleep:
+
+Poisoned:
+
+Diseased:
+Stone:
+Paralyzed:
+
+Cursed:
+
+Dead:
+
+Eradicated:
+
+A character may encounter the Sleep condition as the result of
+either a Sleep spell or an attack while resting. The Awaken spell
+is the only way to quickly counteract this condition, otherwise he/
+she will eventually awaken naturally.
+
+A character can be Poisoned as a result of a monster bite, Poison
+items, or traps. A Poisoned character will gradually lose HP even
+while resting. Unconsciousness eventually follows, if not
+counteracted immediately.
+
+Like poison, a Diseased character will lose HP until death
+occurs. Disease may sometimes be difficult to cure, often requiring
+the expertise of House Clerics.
+
+When turned to Stone, or petrified, a character will not function
+until this condition has been lifted. Although Petrification is not
+fatal, healing is more difficult if the condition is prolonged.
+
+Paralysis may be the result of enemy attacks or triggered traps.
+Resting usually cures this condition.
+
+A character can become Cursed as the result of an attack,
+possession of a Cursed item, or triggering a trap. A Remove
+Condition spell, Uncurse Item spell, or a trip to the House Clerics
+may counteract the effects.
+
+This condition may only be cured by a Raise Dead spell,
+Resurrection spell, or a trip to the House Clerics.
+
+The most devastating of all conditions. The only cure is an
+expensive trip to the House Clerics.
+
+HIRELINGS
+
+During your adventure, you may enlist the services of characters who will aid your
+party. These characters are called “Hirelings’’. For a set price, hirelings will join
+your party, act like any other character, and assist you throughout your adventure.
+You may employ up to two hirelings at any time, bringing your total party up to
+
+eight characters.
+
+NON-COMBAT COMMANDS
+
+Non-combat commands are selected from the Options screen. Press the B button
+on your controller to display the Options Screen menu. Use the control pad to move
+the cursor, and the B button to select an option. If you want to cancel a selected
+option, press the Y button.
+
+12
+
+===== Page 15 =====
+
+REST: The party will spend a night of deep sleep restoring some conditions and
+all Hit Points and Spell Points. Resting costs a character one unit of food.
+
+SEARCH: After a battle, search the immediate area for treasure. When a treasure
+chest is found you will be given the following options:
+
+Open it: Opens the container regardless of any traps. If a trap is
+triggered, the entire party will suffer the consequences.
+
+Find/Remove Trap: When carried out by a character with Thieving skills, this
+command attempts to disarm any unseen traps.
+
+Detect Magic/Trap: Clerics usually perform this action with the most success.
+They search the treasure for any magical elements
+contained within, in addition to any traps which could
+endanger your party.
+
+UNLOCK: Attempts to pick the lock on any door. Robbers or Ninjas usually have
+the best results. If a lock is trapped and triggered, the entire party may suffer the
+consequences.
+
+View Char: Displays a character’s current profile. This personal status screen
+presents a character’s attributes in the following fashion:
+
+LVL: Indicates the current level of a character.
+
+HP: (Hit Points) Acts as the life meter of your character. When your HP
+reaches zero, your character will need to be revived!
+
+SP: (Spell Points) The remaining number of Spell Points a character has.
+
+SL: (Spell Level) The current level of spells a character may cast.
+
+AC: (Armour Class) Measures a character's damage durability. The higher
+
+the AC, the less damage a character will take.
+EXP: Current total of Experience Points.
+
+THVY: Current percentage chance a character has for successfully disarming
+treasure chests or locked doors.
+
+While viewing a character, pressing the B button will display the Character
+Options menu. These options may only be used while adventuring:
+
+Delay: Sets the speed of screen messages, ranging from I to 6. The shortest
+delay is I and the longest, 6.
+
+Disposition: Sets the temperament of your party: Cautious, Average,
+Aggressive, or Thrill Seeker. A party’s disposition also affects the
+number of random encounters chanced upon while travelling.
+
+Auto Map: This consists of 2 types of maps; a map of all territories explored,
+and an empty map of Cron. The first map displays all places you
+have visited. However, this option is only available to a character
+who has learned Cartography skills. Otherwise, your map will be
+blank.
+
+13
+
+===== Page 16 =====
+
+Sound: Toggles music, walking, and other sound effects.
+
+Bash: When all other attempts to unlock a door fail, this command should
+be tried. However, bashing through a door may also trigger any
+traps, affecting the entire party.
+
+Dismiss: Dismisses a hireling from his/her current position. The hireling is
+now available for future hire in the city where he/she was
+dismissed.
+
+Exchange: Change a character’s position.
+
+Protect: Displays any active spells currently shielding the entire party.
+
+Levitation, Guard Dog or Floating spells will also be displayed.
+
+Cancel: Cancels Options screen and resumes the game.
+
+COMBAT COMMANDS
+
+Defeating enemies in battle is a key aspect to completing quests and gaining
+experience levels. Remember to search the area after an encounter has taken place.
+When confronted, you may choose whether or not to fight:
+
+1. Attack: Attack the enemy immediately.
+
+2. Mide: Attempt to hide from the attacking monsters.
+3. Run: Attempt to flee and avoid contact with enemy. This is not always
+successful.
+
+4. Bribe: Try to bribe monsters with gold, gems, or food. If successful, the
+monsters will flee and combat will not take place.
+
+Monsterc«
+Controis
+
+Monst: GS
+
+ras
+A Knight
+
+SS LE
+
+14
+
+===== Page 17 =====
+
+There are three possible ways to confront the enemy:
+
+1. Monsters are surprised:
+Your party stumbles on a group of monsters. If you choose to run, you are
+guaranteed escape.
+
+2. Party 1s surprised:
+You are unable to avoid attack, however, you may try to run later.
+
+3. No surprise:
+A normal encounter where neither side has an advantage.
+
+When the Attack option is selected, the Combat Command screen will
+automatically appear.
+
+Combat Options are:
+
+Attack: Your character automatically chooses the best possible Attack
+against the first enemy he/she sees.
+
+Fight: Allows you to choose which monster to attack using whichever
+weapon 1s currently equipped.
+
+Shoot: Any character with the ability to fire a missile weapon, can shoot at
+the attacking enemy.
+
+Cast: Allows any character with spell casting abilities to choose and cast
+a spell.
+
+Block: Try to block an attack and shield the character for the entire round
+of combat.
+
+Use: Allows you to use any combat items in your possession.
+
+Run: An attempt to escape attack. If all characters in the party
+
+successfully run, the entire party will escape combat.
+Exchange: Exchange position between two characters.
+Monsters: A present list of attacking monsters.
+
+Controls: Display your Character Profile screen, sets delays and sound options.
+
+ENCOUNTERS
+
+While adventuring through Cron, you will meet several unusual creatures.
+Encounters, though filled with danger, are the key to gaining Experience needed
+for your party's growth. Encounters can make or break your party; as your
+characters weaken, it may be wiser to avoid combat situations.
+
+15
+
+===== Page 18 =====
+
+Quests were designed to determine the worthiness of the adventurers who set out
+
+to save Cron. Your first series of quests begins with a visit to the Furors of Mount
+Farview.
+
+The Jurors’ Quests:
+
+Each member of your party is expected to complete one task.
+
+e Knights must engage in a deadly joust with the Dread Knight.
+
+e The Frost Dragon General must be defeated by a Paladin.
+
+@ Only your Archers can bring down the detestable Baron Wilfrey.
+© Corak’s Spirit and Body must be reunited with the aid of Clerics.
+
+e The Good Wizard Yekop and the Evil Wizard Ybmug can only be freed by a
+Sorcerer.
+
+e A Barbarian must fight a bloody duel to defeat the Barbarian Chieftain.
+e Use a Ninja’s stealth to enter the Mist Cavern and triumph over Dawn.
+
+e Robbers need only accompany another adventurer to be rewarded.
+
+The Triple Crown:
+
+You must see the Queen Lamanda at Luxus Palace Royale. However, each
+member of your party must first complete all Jurors’ Quests as well as retrieve the
+fabled Triple Crown. The Triple Crown can be recovered by purchasing three Black
+Tickets. They should then be taken to the Arena, Monster Bowl, and the
+Colosseum.
+
+The Lords’ Quests:
+
+There are three Lords in Cron, who seek Crusaders that will go in pursuit of their
+requests. Each one involves unknown dangers and can only be completed by one
+with tremendous skill and strength.
+
+The Lord Slayer has combed the countryside in search of the heads of three beasts
+to crown his “trophy collection’.
+
+The Lord Hoardall needs only the three Ultimate Swords to complete his arms
+display.
+
+The Lord Haart wishes to recover two ancient family relics.
+
+16
+
+===== Page 19 =====
+
+AUTO-MAPPING
+
+Once the Cartography skill has been acquired by one of your party members, that
+character will begin to chart the travels of your party. To view the Auto-Map, enter
+the Option Menu screen and select the ““Auto-Map” option. Note that you may only
+view a map of your immediate surroundings. For example, if you are in a city,
+you may not view the map of the outer region until you leave the city limits.
+
+PLACES
+The Cities
+
+Possibilities and perils abound in the cities of Cron. Nevertheless, they are the
+central core of your travels. Most problems can be solved by travelling into cities.
+You may purchase food, heal characters, acquire weaponry, learn new spells, and
+save your adventure. 2
+
+Magic Guilds
+
+Learning new spells is essential to the growth of Spellcasters. Most Clerical and
+Sorcerer spells can be learned from the Wizards in the Magic Guilds. Once a spell
+has been learned (for a price, of course) you keep that spell forever.
+
+Blacksmiths =
+
+At the city Blacksmiths you can purchase a variety of weapons, armour, and items.
+Be forewarned — Blacksmiths cannot always be trusted. It would be wise to be
+wary of items marked “Special Deal’! Blacksmiths can also identify unknown
+magical items found while adventuring.
+
+Tavern
+
+You'll find an assortment of appetizing edibles in the town Tavern. Make sure to
+leave a tip and listen to the rumours; Tavern-goers are known for spreading gossip.
+
+Inn
+
+Each city has an Inn where you may rest and save your adventure. You may also
+add or delete characters and hirelings. If you choose to leave your adventure, you
+will always restart from the last Inn visited.
+
+i vas
+
+===== Page 20 =====
+
+Cleric’s House
+
+If your party has sustained any damage, and your Clerics are low in Spell Points,
+the House Clerics can heal your wounds for a fair price. The House Clerics are
+always open to donations and will sometimes reward you with magical powers in
+return.
+
+Training Grounds
+
+When a character has collected a certain number of Experience Points, travel to
+the Training Grounds to build his/her level. If your character 1s not quite ready to
+gain the next level, you will find out exactly how many EP you need before you
+can return. Magic users can also gain spell levels here.
+
+The Castles
+
+Breathtakingly beautiful and intricate, the Castles of Cron are wonders to behold.
+Beneath each one lies a series of tunnels and dungeons which zig-zag their way in
+underground mazes. Explore every inch, for the solution to your quest may lie
+within its walls.
+
+The Caverns
+
+Below the city streets, in almost every region, lie the forbidding entrances of
+underground Caverns. Treasures untold await the mortal brave enough to
+challenge its depths. For the darkest secrets can only be found within the murktiest
+chambers.
+
+The Dungeons
+
+Dungeons were built centuries ago below the castles of Cron. Their entryways have
+long since been hidden by time. Many strongholds were also classified as dungeons
+because of their complexity. It would be unwise to venture in, unless your party 1s
+of higher levels. Among other hideous creatures are angry skeleton-like beings that
+still seek revenge on their captors.
+
+18
+
+===== Page 21 =====
+
+SPELLS
+
+Nine different levels divide the 48 Clerical and 48 Sorcerer Spells. A Spellcaster
+may cast any level Spell, so long as it 1s registered in his/her Spell book. For
+example, if you wish to cast a Level 6 Spell, and your character has only learned
+Level 4 Spells, he/she cannot cast the Level 6 Spell until it has been learned.
+
+Spell Books:
+
+All Spell casting characters have a Spell Book which can be viewed while in the
+Character Profile Screen. Highlighted Spells indicate which ones have been
+learned and can be cast.
+
+Spell Points (SP):
+
+Each Spellcaster has Spell Points based on his/her Experience Level. The more
+Spells you cast, the more your Spell Points decrease. SP can be replenished by
+resting.
+
+Gems
+
+The more elaborate conjurations require, not only Spell Points, but Magical Gems
+before they can be cast. Gems can be found while exploring the world of Cron,
+usually in treasure chests. Your Character Profile screen will display your
+remaining number of Gems.
+
+Spell Resistance and Overcoming Spells
+
+Not all Spells work on all monsters. A Spell that destroys one monster may leave
+another unscathed. Keep in mind that some enemies are immune to certain Spells.
+Trial and error is the only sure way to judge which Spells will work on which
+monsters.
+
+Casting Spells
+Spells can be cast while exploring or during combat.
+
+In battle, if a Spellcaster has the option of casting Spells, it will be highlighted
+in the Combat Options menu. Choosing this will cause your Spell Book to appear.
+The Spell of your choice can now be cast. Any Spell may be cast as long as it is
+registered in your Spell Book and you have the necessary SP or Gems.
+
+While adventuring, Spells can be cast by entering the Character Profile Screen.
+These Spells are cast in the same manner as in combat.
+
+> ae
+
+===== Page 22 =====
+
+SPELL CHART
+
+Clerical Spells — Cost in Spell Points and Gems
+
+LEVEL I
+
+EPA DDGTUION icsicds ns ssicetcccen sede I
+2s PURE iss han 38 Facies eee ee I
+SP PRIIES 6 vocvhs cakes csi sdokea ceqevtai caret I
+We PF APSS TING owas 5 cébscincnevenssocnhatanwdon I
+i I A es ii swine devia 1
+6. PowerCure ............ I/level + 1 gem
+De CMO GEG ovis bujescsecicdvoneaes I
+LEVEL 2
+
+F. CUP WOUREKS 5.065 osnceeteccecccveiiossess 2
+Fe PARTONSIEG so vig vovccdasnesssevee 2+I1 gem
+PAN GIUTS SAGAIE 6.5 Coss is ve deseo ensnsitesss 2
+ON ig Ao aia bn kg cass in tk 2
+5. Prot. from Elements ......... 2+I1 gem
+ND ook esis a awie bean ds eee Z
+PE OOROIE 6 oo i evan ods cenetss 2+1 gem
+LEVEL 3
+
+PMO GY tosis ioe 3+2 gems
+or ORI FOE hs os oh cc ce. 3+2 gems
+eee ne epee pn pene 3
+ODE oo oss oss vee vescescccwssasene 3
+oI Bs RR POE ee Oe 3
+6. Walk On Water ............+. 3+2 gems
+LEVEL 4
+
+DPRCIG IGA ooo viv ccnnsnscns ss 4+ 3 gems
+2. Air Transmutation ......... 4+ 3 gems
+FUME PI TSCUSE. 255 ins vos cs ckeus tes vasexe 4
+4. Restore Alignment.......... 4+ 3 gems
+TE | EE DE ROPE SOCLE SI ODE ee 4
+6. Cleric’s Boost ............000: 4+ 3 gems
+
+20
+
+LEVEL 5
+
+1. Air Encasement
+2. Deadly Swarm
+3. Frenzy
+4. Paralyze
+5. Remove Condition
+
+LEVEL 6
+
+1. Earth Transmutation
+2. Rejuvenate
+3. Stone to Flesh
+4. Water Encasement
+5. Water Transmutation ...
+
+eco
+@eeeeeceeoecesvescoce
+eoeeceoeeeseesn
+
+LEVEL 7
+
+1. Earth Encasement .......
+2. Fiery Flail
+3. Moon Ray
+4. Raise Dead ..........e0000:
+
+LEVEL 8
+1. Fire Encasement .........
+2. Fire Transmutation
+3. Mass Distortion
+4. Town Portal
+
+eooee
+eoeeeeceoce
+
+eeoeeseeseoeece
+
+LEVEL 9
+1. Divine Intervention .....
+2. Undead Chant ............
+3. Resurrection
+4. Uncurse Items
+
+@eeesee
+
+===== Page 23 =====
+
+Sorcerer Spells — Cost in Spell Points and Gems
+
+LEVEL I
+
+TP PPOGRON 226 a ee ess 1
+Bi PCCCCE MG BIO i. onc coinces vesivesccuesceas I
+3. Energy Blast ........... I/level + 1 gem
+DP IGING APTOO os vs oc i cos ags vnpven incites 1
+SI AGNE Gs BR CER 1
+OP OCOMON oo osi os hs csisinpasbeeGeee I
+FE os sa Sic ds woes beck cies ot Sin |
+LEVEL 2
+
+FBC TING 56 ovo xs aia deals snnnnes 2/level
+ZT ACCIICAIIOO 6.656560 Rn 2
+3. Identify Monster ............. 2+1 gem
+Pe PID oo is kg nhs veda vec sd dank ee 2
+OR Baile 0 ieee fy Onl See ane aT 2+1 gem
+6. Lloyd’s Beacon ...........+00. 2+1 gem
+7. Prot. from Magic ..... I/level + 1 gem
+LEVEL 3
+
+1. Acid Stream .......... I/level + 2 gems
+Da 8 RAS ere peer pennies ASE ene 3
+Si ncisiBiliny oso na cn EN: 3
+4. Lightning Bolt........ I/level + 2 gems
+DW Or rr isc 3+2 gems
+6.WizardE ye ........... 3/level + 2 gems
+LEVEL 4
+
+1. Cold Beam ............ I/level + 3 gems
+2. Feeble Mind ................. 4+ 3 gems
+3. Forepal \cccadecces, ios I/level + 3 gems
+© Csr DG. 2, ou i.e cgnine if cacdiadinishess 4
+Be ORG ay, os ci Fase os co eee ss sa 4
+6. Time Distortion ............. 4+ 3 gems
+
+LEVEL 5
+SPUD occas skate § +5 gems
+2. Fingers of Doom ............ §$ +S gems
+3. Sand Storm ........... 2/level + 5 gems
+OE SILO os cen. coves <s sadgerehesenene 5
+5 Fle prt visi assis cass sass ogden oaertts 5
+LEVEL 6
+1. Disintegration ............... 6 + 6 gems
+2. Entrapment ............2..++: 6 + 6 gems
+3. Fantasy Freeze ....... 2/level + 6 gems
+4. Recharge Item ............... 6 + 6 gems
+5. Super Shock .......... 2/level + 6 gems
+LEVEL 7
+1. Dancing Sword ...... 3/level + 7 gems
+2. Duplication ............... 7+ 100 gems
+3s Bineeeai ze «kaise. sees 7 +7 gems
+4. Prismatic Light ............. 7 +7 gems
+LEVEL 8
+1. Incinerate ............. 3/level + 8 gems
+2. Mega Volts ............ 3/level + 8 gems
+3. Meteor Shower ... 8 + (1 per monster)
++ 8 gems
+4. Power Shield ................ 8 + 8 gems
+LEVEL 9
+1. Implosion ............0005 10 + 10 gems
+2 ABPOING Sas des asc 3/level + 10 gems
+3. Star Burst ........ 10 + (1 per monster)
++ 20 gems
+
+4. Enchant Item .... 50 (per +) + 20 gems
+
+zt
+
+===== Page 24 =====
+
+Se
+
+ee eee
+
+CLERIC SPELLS
+
+LEVEL 1
+
+1. NAME: Apparition
+
+Cost: 1 SP
+
+Type: Combat
+
+Object: 10 Monsters
+
+Description: Creates a fighting apparition in the
+monsters’ mind causing them to be afraid, reducing
+their chances to hit.
+
+2. NAME: Awaken
+
+Cost: 1 SP
+
+Type: Anytime
+
+Object: All sleeping party members
+
+Description: Awakens all sleeping members of the
+party, instantaneously cancelling the sleep
+condition. May be critical if party is attacked
+during rest.
+
+3. NAME: Bless
+
+Cost: | SP
+
+Type: Combat
+
+Object: Entire party
+
+Description: Increases the accuracy with which all
+characters fight, for the duration of combat.
+
+4. NAME: First Aid
+
+Cost: 1 SP
+
+Type: Anytime
+
+Object: I Character
+
+Description: Heals minor battle wounds, restoring
+8 hit points to that character.
+
+5. NAME: Light
+
+Cost: 1 SP
+
+Type: Non-combat
+
+Object: Entire Party
+
+Description: Gives the party I light factor, which
+is sufficient to light up I dark area. Multiple light
+spells can be cast to accumulate light factors.
+
+6. NAME: Power Cure
+
+Cost: 1/L + 1 Gem
+
+Type: Anytime
+
+Object: 1 Character
+
+Description: Restores a character's health and 1-10
+Hit Points per experience level of caster.
+
+7. NAME: Turn Undead
+
+Cost: 1 SP
+
+Type: Combat
+
+Object: Destroys some or all undead monsters,
+depending on caster’s experience level and
+monster’s power level.
+
+ze
+
+LEVEL 2
+
+1. NAME: Cure Wounds
+
+Cost: 2 SP
+
+Type: Anytime
+
+Object: I Character
+
+Description: Cures more serious wounds, restoring
+15 Hit Points to the character.
+
+2. NAME: Heroism
+
+Cost:2 SP + 1Gem
+
+Type: Combat
+
+Object: 1 Character
+
+Description: Temporarily elevates a character 6
+levels of experience. Spell lasts for the duration of
+combat.
+
+3. NAME: Nature’s Gate
+
+Cost: 2 SP
+
+Type: Non-combat, Outside
+
+Object: Entire party
+
+Description: Uses the forces of nature, opening a
+portal between two locations in the land of Cron.
+These locations vary with time (days/years).
+
+4. NAME: Pain
+
+Cost: 2 SP
+
+Type: Combat
+
+Object: 1 Monster, not undead
+
+Description: Cripples monster with pain: inflicting
+2-16 damage points, unless the monster is immune
+to pain.
+
+5. NAME: Protection from Elements
+Cost: 2 SP + 1 Gem
+
+Type: Anytime
+
+Object: Entire Party
+
+Description: Increases all characters’ resistance to
+fear, cold, fire, poison, acid and electricity. Amount
+of the increase depends on the caster’s experience
+level. Spell lasts 1 day.
+
+6. NAME: Silence
+
+Cost: 2 SP
+
+Type: Combat
+
+Object: 4 Monsters + 1 per level
+
+Description: Prevents the monsters from casting
+spells for the duration of the combat, or until they
+overcome the spell.
+
+7. NAME: Weaken
+
+Cost: 2 SP + 1 Gem
+
+Type: Combat
+
+Object: 10 Monsters
+
+Description: Weakens all monsters affected,
+reducing their physical damage by half until the
+spell is overcome.
+
+===== Page 25 =====
+
+LEVEL 3
+
+1. NAME: Cold Ray
+
+Cost: 3 SP + 2 Gems
+
+Type: Combat, not in hand to hand
+
+Object: 5 Monsters
+
+Description: Attacks with a ray of intensive cold
+that penetrates the monster’s heart and inflicts 25
+points of damage to each monster affected.
+
+2. NAME: Create Food
+
+Cost: 5 SP + 2 Gems
+
+Type: Non-combat
+
+Object: Spell Caster
+
+Description: Adds 8 food units to the caster’s food
+supply. Caster may then distribute food among
+other party members, if he/she desires.
+
+3. NAME: Cure Poison
+
+Cost: 3 SP
+
+Type: Anytime
+
+Object: 1 Character
+
+Description: Flushes poison out of a character's
+system, instantaneously removing the poisoned
+condition.
+
+4. NAME: Immobilize
+
+Cost: 3 SP
+
+Type: Combat
+
+Object: 5 Monsters
+
+Description: Immobilizes any monster affected.
+
+5. NAME: Lasting Light
+
+Cost: 3 SP
+
+Type: Non-combat
+
+Object: Entire Party
+
+Description: Bestows 20 light factors on the party,
+for use in dispelling darkness.
+
+6. NAME: Walk On Water
+
+Cost: 3 SP + 2 Gems
+
+Type: Non-combat, Outdoor
+
+Object: Entire Party
+
+Description: Creates a floating sand dune upon
+which the party may walk. Lasts 1 day.
+
+LEVEL 4
+
+1. NAME: Acid Spray
+
+Cost: 4 SP + 3 Gems
+
+Type: Combat, not in hand to hand
+
+Object: 3 Monsters
+
+Description: Sprays a corrosive stream of acid
+inflicting 6-60 points of damage, unless the
+monsters are immune to acid.
+
+2. NAME: Air Transmutation
+
+Cost: 4 SP + 3 Gems
+
+Type: Non-combat, Outdoor
+
+Object: Entire Party
+
+Description: Transforms the party into air allowing
+the exploration of that elemental plane.
+
+3. NAME: Cure Disease
+
+Cost: 4 SP
+
+Type: Anytime
+
+Object: 1 Character
+
+Description: Restores full health to a sick
+character, instantaneously removing the diseased
+condition.
+
+4. NAME: Restore Alignment
+
+Cost: 4 SP + 3 Gems
+
+Type: Non-combat
+
+Object: 1 Character
+
+Description: Restores a character's original
+alignment after actions and responses have caused
+it to shift.
+
+5. NAME: Surface
+
+Cost: 4 SP
+
+Type: Non-combat
+
+Object: Entire Party
+
+Description: Instantly transports all party members
+from an underground location to the surface.
+
+6. NAME: Holy Bonus
+
+Cost: 4 SP + 3 Gems
+
+Type: Combat
+
+Object: Entire Party
+
+Description: Intensify the amount of damage done
+in combat by your party members, 1 point for every
+2 experience levels of the caster.
+
+LEVEL 5
+
+1. NAME: Air Encasement
+
+Cost: 5 SP + 5 Gems
+
+Type: Combat
+
+Object: I Monster
+
+Description: Encases the target in a field of air,
+inflicting 10 points of damage per combat round
+and separates it from the battle until the spell is
+overcome or the monster is attacked.
+
+2. NAME: Deadly Swarm
+
+Cost: 5 SP + 5 Gems
+
+Type: Combat
+
+Object: 10 Monsters
+
+Description: Sends a swarm of killer insects against
+the monsters, inflicting 4-40 damage points against
+each one.
+
+pe
+
+===== Page 26 =====
+
+3. NAME: Frenzy
+
+Cost: 5 SP + 5 Gems
+
+Type: Combat
+
+Object: I Character, once per character
+Description: Sends one party member into a frenzy,
+allowing him/her to attack all the monsters on the
+screen. Drained from the experience, the character
+loses I point of endurance and is then rendered
+unconscious.
+
+4. NAME: Paralyze
+
+Cost: 5 SP + 5 Gems
+
+Type: Combat
+
+Object: 10 Monsters
+
+Description: Attempts to immobilize all monsters
+and prevent them from fighting. May be partially
+or completely effective on some or all monsters.
+
+5. NAME: Remove Condition
+Cost: 5 SP + 5 Gems
+
+Type: Anytime
+
+Object: 1 Character
+
+Description: Releases character from all
+undesirable conditions except dead, stoned or
+eradicated.
+
+LEVEL 6
+
+1. NAME: Earth Transmutation
+
+Cost: 6 SP + 6 Gems
+
+Type: Non-combat, Outdoor
+
+Object: Entire Party
+
+Description: Transforms the entire party into earth,
+- allowing the exploration of the elemental plane of
+earth.
+
+2. NAME: Rejuvenate
+
+Cost: 6 SP + 6 Gems
+
+Type: Non-combat
+
+Object: 1 Character
+
+Description: A fountain of youth that trims 1-10
+years off a character’s age, restoring his/her abilities
+to the younger level. Spell carries some risk of
+producing the opposite effect.
+
+3. NAME: Stone to Flesh
+
+Cost: 6 SP + 6 Gems
+
+Type: Anytime
+
+Object: 1 Character
+
+Description: Re-animates a character who has been
+turned to stone, removing the stoned condition.
+
+4. NAME: Water Encasement
+
+Cost: 6 SP + 6 Gems
+
+Type: Combat
+
+Object: 1 Monster
+
+Description: Encases the target in a field of water,
+inflicting 20 points of damage per combat round
+and separating it from the battle until the spell is
+overcome or the monster is attacked.
+
+24
+
+5. NAME: Water Transmutation
+
+Cost: 6 SP + 6 Gems
+
+Type: Non-combat, Outdoor
+
+Object: Entire Party
+
+Description: Transforms the party into water,
+allowing the exploration of the elemental plane of
+water.
+
+LEVEL 7
+
+1. NAME: Earth Encasement
+
+Cost: 7 SP + 7 Gems
+
+Type: Combat
+
+Object: 1 Monster
+
+Description: Encases the target in a field of earth,
+inflicting 40 points of damage per combat round
+and separating it from the battle until the spell is
+overcome or the monster is attacked.
+
+2. NAME: Fiery Flail
+
+Cost: 7 SP + 7 Gems
+
+Type: Combat
+
+Object: 1 Monster
+
+Description: Creates a huge flail of fire, striking a
+single opponent, inflicting 100-400 points of damage.
+
+3. NAME: Moon Ray
+
+Cost: 7 SP + 7 Gems
+
+Type: Combat, Outdoors
+
+Object: 10 Monsters
+
+Description: Bathes all combatants in a beneficent
+ray that bestows 10-100 Hit Points on each character
+and removes 10-100 Hit Points from each monster.
+
+4. NAME: Raise Dead
+
+Cost: 7 SP + 7 Gems
+
+Type: Anytime
+
+Object: I Character
+
+Description: Brings the character back to life,
+removing the dead condition. Spell carries a
+moderate chance of failure and remote chance of
+eradicating the character. (Note: Spell-caster and
+recipient age by 1 year.)
+
+LEVEL 8
+
+1. NAME: Fire Encasement
+
+Cost: 8 SP + 8 Gems
+
+Type: Combat
+
+Object: 1 Monster
+
+Description: Encases the target in a field of fire,
+inflicting 80 points of damage per combat round,
+separating it from the battle until the spell is
+overcome or the monster is attacked.
+
+2. NAME: Fire Transmutation
+
+Cost: 8 SP + 8 Gems
+
+Type: Non-combat, Outdoors
+
+Object: Entire Party
+
+Description: Transforms the party into fire, allowing
+the exploration of the elemental plane of fire.
+
+===== Page 27 =====
+
+3. NAME: Mass Distortion
+
+Cost: 8 SP + 8 Gems
+
+Type: Combat
+
+Object: 2 Monsters
+
+Description: Increase the weight of monsters
+causing them to fall and subsequently lose half their
+hit points.
+
+4. NAME: Town Portal
+
+Cost: 8 SP + 8 Gems
+
+Type: Non-combat
+
+Object: Entire Party
+
+Description: Opens a temporary portal to any town
+and moves the party through the portal to that
+town.
+
+LEVEL 9
+
+I. NAME: Divine Intervention
+
+Cost: 10 SP + 20 Gems
+
+Type: Combat
+
+Object: Entire Party
+
+Description: Intercedes with supernatural forces to
+restore all characters’ Hit Points and remove all
+undesirable conditions, except Eradicated. (Note:
+Spellcaster ages 5 years every time this spell is
+cast.)
+
+SORCERER SPELLS
+
+LEVEL 1
+
+I. NAME; Awaken
+
+Cost: I SP
+
+Type: Anytime
+
+Object: Sleeping party members
+
+Description: Awakens all sleeping members of the
+party, instantaneously cancelling the Sleep
+condition. May be critical if party is attacked
+during rest.
+
+2. NAME: Detect Magic
+
+Cost: 1 SP
+
+Type: Non-combat
+
+Object: Items in spellcaster’s backpack
+Description: Reveals any magical items in caster’s
+backpack, and notes the number of magical charges
+remaining in any item which must be charged for
+use. Also detects any magic surrounding or inside a
+
+chest.
+
+3. NAME: Energy Blast
+
+Cost: 1/L + 1 Gem
+
+Type: Combat
+
+Object: 1 Monster
+
+Description: Zaps the monster with a blast of pure
+energy, inflicting 1-6 damage points per Experience
+Level of caster.
+
+2. NAME: Enchanted Word
+
+Cost: 10 SP + 10 Gems
+
+Type: Combat
+
+Object: All
+
+Description: Utters a single word of devastating
+power, that destroys all undead monsters. (Note:
+Ages caster I year.)
+
+3. NAME: Resurrection
+
+Cost: 10 SP + 10 Gems
+
+Type: Non-combat
+
+Object: 1 Character
+
+Description: Removes the Eradicated Condition
+from the character, adding 5 years to his/her vital
+statistics. There is a chance that the spell will fail.
+(Note: Ages caster I year.)
+
+4. NAME: Uncurse Item
+
+Cost: 10 SP + 50 Gems
+
+Type: Non-combat
+
+Object: Spellcaster
+
+Description: Attempts to remove the curse from an
+item in the caster’s backpack.
+
+4. NAME: Flame Arrow
+
+Cost: 1 SP
+
+Type: Combat
+
+Object: 1 Monster
+
+Description: Sends a burning shaft into the
+monster, inflicting 2-8 points of fire damage, unless
+the monster is immune to fire.
+
+5. NAME: Light
+
+Cost: 1 SP
+
+Type: Non-combat
+
+Object: Entire Party
+
+Description: Gives the party I light factor,
+sufficient to light a single darkened square.
+Multiple light spells can be cast to accumulate light
+factors.
+
+6. NAME: Location
+
+Cost: 1 SP
+
+Type: Non-combat
+
+Object: Entire Party
+
+Description: Gives precise information on party’s
+
+‘location. Shows a map of the current 16x16 area
+
+that the party has mapped and shows your present
+location on the map. May be critical when party is
+lost or magically transported. In general, this spell
+is the key to successful mapping.
+
+aes ee 25
+
+===== Page 28 =====
+
+7. NAME: Sleep
+
+Cost: 1 SP
+
+Type: Combat
+
+Object: 4 Monsters + 1 Monster per level of the caster
+Description: Sends monsters into a deep sleep,
+preventing them from attacking. Effective until
+monster is damaged or overcomes the spell.
+
+LEVEL 2
+
+I. NAME: Eagle Eye
+
+Cost: 2/L
+
+Type: Non-combat, Outdoors
+
+Object: 5 steps per level of caster
+
+Description: An eagle-eyed view of the outdoor
+terrain appears on the screen, providing a 5x5
+overhead view of the area and your party’s location.
+
+2. NAME: Electric Arrow
+
+Cost: 2 SP
+
+Type: Combat
+
+Object: 1 Monster
+
+Description: Electrocutes a monster, inflicting 4-16
+damage points, unless monster is immune to
+electrical attack.
+
+3. NAME: Identify Monster
+
+Cost: 2 SP + 1Gem
+
+Type: Combat
+
+Object: 1 Monster
+
+Description: Informs caster of the current condition
+of any one monster during combat.
+
+4. NAME: Fump
+
+Cost: 2 SP
+
+Type: Non-combat
+
+Object: Entire Party
+
+Description: Moves the party 2 squares forward,
+providing there are no magical obstructions (force
+fields, etc.) in the way.
+
+5. NAME: Levitate
+
+Cost: 2 SP
+
+Type: Non-combat
+
+Object: Entire Party
+
+Description: Raise all characters above ground
+level, protecting them from various dangers for 1
+day.
+
+6. NAME: Lloyd’s Beacon
+
+Cost: 2 SP + 1 Gem
+
+Type: Non-combat
+
+Object: Entire Party
+
+Description: Leaves a beacon at your current
+location so that you may instantaneously return to
+that location the next time you cast this spell.
+
+26
+
+7. NAME: Protection from Magic
+Cost: 1/L + 1 Gem
+
+Type: Anytime
+
+Object: Entire Party
+
+Description: Increases all characters’ resistance to
+magic. Amount of the increase depends on
+experience level of caster. Spell lasts 1 day.
+
+LEVEL 3
+
+I. NAME: Acid Stream
+
+Cost: 1/L + 2 Gems
+
+Type: Combat
+
+Object: 1 Monster
+
+Description: Sprays a burning stream of acid
+inflicting 2-8 points of damage per level of caster,
+unless immune to acid.
+
+2. NAME: Fly
+
+Cost: 3 SP
+
+Type: Non-combat, Outdoors
+
+Object: Entire Party
+
+Description: Grants magical flight to all
+characters, allowing the party as a whole to move
+to any other outdoor area. The party will land in
+the safest square in that area.
+
+3. NAME: Invisibility
+
+Cost: 3 SP
+
+Type: Combat
+
+Object: Entire Party
+
+Description: Drops a cloak of invisibility over all
+characters, greatly decreasing the monster's chance
+of hitting them.
+
+4. NAME: Lightning Bolt
+
+Cost: 1/L + 2 Gems
+
+Type: Combat
+
+Object: 4 Monsters
+
+Description: Blasts monsters with a gigantic
+lightning bolt that inflicts 1-6 damage points per
+level of caster.
+
+5. NAME: Web
+
+Cost: 3 SP + 2 Gems
+
+Type: Combat
+
+Object: 4 Monsters + 1 Monster per level of caster
+Description: Wraps monsters in a supernatural
+web, preventing them from fighting for the duration
+of the combat or until they escape.
+
+6. NAME: Wizard Eye
+
+Cost: 3/L + 2 Gems
+
+Type: Non-combat
+
+Object: 5 steps per level of caster
+
+Description: Uses the magical eye of a powerful
+wizard to show a 5x5 overhead view of your party’s
+location in any indoor maze.
+
+===== Page 29 =====
+
+LEVEL 4
+
+1. NAME: Cold Beam
+
+Cost: 1/L + 3 Gems
+
+Type: Combat
+
+Object: I Monster
+
+Description: Attacks with a beam of intense cold
+that penetrates the monster’s heart and inflicts 6
+damage points per level of caster, unless the
+monster is immune to cold.
+
+2. NAME: Feeble Mind
+
+Cost: 4 SP + 3 Gems
+
+Type: Combat
+
+Object: 5 Monsters
+
+Description: Erases the monsters’ brain, removing
+all its abilities for the duration of combat or until
+the monsters overcome the spell.
+
+3. NAME: Fire Ball
+
+Cost: 1/L + 3 Gems
+
+Type: Combat, not in hand to hand
+
+Object: 6 Monsters
+
+Description: Rolls a deadly ball of fire into the
+monsters’ midst, inflicting 1-6 damage points per
+level of caster.
+
+4. NAME: Guard Dog
+
+Cost: 4 SP
+
+Type: Non-combat
+
+Object: Entire Party
+
+Description: Places a supernatural guard over
+party, preventing surprise attacks for I day.
+
+5. NAME: Shield
+
+Cost: 4 SP
+
+Type: Combat
+
+Object: Entire Party
+
+Description: Creates an invisible shield which
+surrounds the party and protects all characters from
+missile weapons for the duration of combat.
+
+6. NAME: Time Distortion
+
+Cost: 4 SP + 3 Gems
+
+Type: Combat
+
+Object: Entire Party
+
+Description: Creates a warp in time that enables the
+party to retreat safely from most battles.
+
+LEVEL 5
+
+1. NAME: Disrupt
+
+Cost: 5 SP + 5 Gems
+
+Type: Combat, not in hand to hand
+
+Object: 1 Monster
+
+Description: Creates a powerful energy field that
+disrupts the molecular bonds of the target, inflicting
+100 points of damage.
+
+2. NAME: Fingers of Death
+
+Cost: 5 SP + 5 Gems
+
+Type: Combat
+
+Object: 3 Monsters, not undead
+
+Description: Channels the ancient power of all dead
+sorcerers through the caster, resulting in death to the
+monsters at whom the caster points a finger.
+
+3. NAME: Sand Storm
+
+Cost: 2/L + 5 Gems
+
+Type: Combat, Outdoors
+
+Object: 10 Monsters
+
+Description: Calls upon the forces of nature to
+create a violent sand storm inflicting 1-8 points of
+damage per level of caster.
+
+4. NAME: Shelter
+
+Cost: 5 SP
+
+Type: Non-combat
+
+Object: Entire Party
+
+Description: Provides 1 day’s rest, free of the
+danger of encounter.
+
+5. NAME: Teleport
+
+Cost: 5 SP
+
+Type: Non-combat
+
+Object: Entire Party
+
+Description: Instantly moves the party from its
+present position up to 9 squares in any direction.
+
+LEVEL 6
+
+1. NAME: Disintegration
+
+Cost: 6 SP + 6 Gems
+
+Type: Combat
+
+Object: 3 Monsters
+
+Description: Inflicts 50 damage points while
+disintegrating parts or all of the target.
+
+2. NAME: Entrapment
+
+Cost: 6 SP + 6 Gems
+
+Type: Combat
+
+Object: All
+
+Description: Surrounds the battle with a magical
+energy field preventing all from escaping.
+
+3. NAME: Fantastic Freeze
+
+Cost: 2/L + 6 Gems
+
+Type: Combat, not in hand to hand
+
+Object: 3 Monsters
+
+Description: Shoots a fantastic beam of cold at 3
+monsters, crystallizing them and inflicting 10
+damage points per level of caster.
+
+57
+
+===== Page 30 =====
+
+4. NAME: Recharge Item
+
+Cost: 6 SP + 6 Gems
+
+Type: Non-combat
+
+Object: Spellcaster
+
+Description: Restores 1-6 charges to any item in a
+caster’s backpack that still has 1 magical charge
+
+remaining. Some risk that the spell will fail and
+
+destroy the item.
+
+5. NAME: Super Shock
+
+Cost: 2/L + 6 Gems
+
+Type: Combat
+
+Object: I Monster ©
+
+Description: Shoots an intense beam of electricity,
+shocking a monster with 20 damage points per level
+of caster.
+
+LEVEL 7
+
+1. NAME: Dancing Sword
+
+Cost: 3/L + 7 Gems
+
+Type: Combat
+
+Object: 10 Monsters
+
+Description: A magical sword that moves with
+lightning speed and inflicts 1-12 damage points per
+level of caster.
+
+2. NAME: Duplication
+
+Cost: 7 SP + 100 Gems
+
+Type: Non-combat
+
+Object: Spellcaster
+
+Description: Allows the caster to exactly duplicate
+any 1 item in his/her backpack, provided that there
+is room in the caster’s pack for the new item. Small
+chance that the spell will fail and destroy the
+original item.
+
+3. NAME: Etherealize
+
+Cost: 7 SP + 7 Gems
+
+Type: Non-combat
+
+Object: Entire Party
+
+Description: Alters all characters’ molecular
+structure long enough to allow them to move I
+square forward through any barrier (force field,
+wall, mountain, etc.).
+
+4. NAME: Prismatic Light
+
+Cost: 7 SP + 7 Gems
+
+Type: Combat
+
+Object: 10 Monsters
+
+Description: A powerful, but erratic spell that has
+completely unpredictable effects.
+
+LEVEL 8
+
+1. NAME: Incinerate
+
+Cost: 3/L + 8 Gems
+
+Type: Combat
+
+Object: 1 Monster
+
+Description: Engulfs a monster with the heat of a
+thousand fires doing 20-40 damage points per level
+of caster.
+
+28
+
+2. NAME: Mega Volts
+
+Cost: 3/L + 8 Gems
+
+Type: Combat
+
+Object: 10 Monsters
+
+Description: Creates a chain of electricity
+connecting all opponents with the deadly voltage
+doing 4-16 damage points per level of caster.
+
+3. NAME: Meteor Shower
+
+Cost: 8 + 1 per Monster + 8 Gems
+
+Type: Combat, Outdoors
+
+Object: All (limited by Spell Points)
+Description: Buries all monsters under a hail of
+meteors, inflicting 5-50 damage points on each
+monster.
+
+4. NAME: Power Shield
+
+Cost: 8 SP + 8 Gems
+
+Type: Combat
+
+Object: Entire Party
+
+Description: Reduces the damage inflicted on all
+characters by any attack, by 1/2. Lasts for the
+duration of combat.
+
+LEVEL 9
+
+1. NAME: Implosion
+
+Cost: 10 SP + 10 Gems
+
+Type: Combat
+
+Object: 1 Monster
+
+Description: Creates a hole in space, at the centre
+of the target creature, sucking it into nothingness.
+
+2. NAME: Inferno
+
+Cost: 3/L + 10 Gems
+
+Type: Combat
+
+Object: 10 Monsters
+
+Description: Unleashes the heat of the sun on all
+monsters shown, doing 1-20 points damage per level
+of caster.
+
+3. NAME: Star Burst
+
+Cost: 10 + 1 per Monster + 20 Gems
+
+Type: Combat, Outdoors
+
+Object: All (limited by Spell Points)
+
+Description: Showers all monsters with pieces of an
+exploding star, doing 20-200 points of damage.
+
+4. NAME: Enchant Item
+
+Cost: 50 per plus of item + 50 Gems
+
+Type: Non-combat
+
+Object: 1 Spellcaster
+
+Description: Attempts to raise the magic ability of
+an item by increasing its ‘+’ by 1.
+
+===== Page 31 =====
+
+ee
+
+EXAMPLE OF TOWN 1 —- MIDDLEGATE
+
+mean 0 1-2 3 A 5 67 8 O10 1) 12.118 44a
+
+KEY: — Wall + Door Solid
+
+AREA:
+Town No. 1 — Middlegate Map Sector C-2
+Surface X=7, Y=3
+
+NOTES:
+
+A. Middlegate Inn — sign in to save characters/game
+B. S. F. Blacksmith — buy/sell items
+
+C. Bleating Lamb Tavern — buy food/hear rumours
+D. Gateway House - clerical help p
+E. Turkov’s Training Grounds - increase skills «_—
+F. Passage to natural caverns “:
+
+G. Town Exit 3g
+
+===== Page 32 =====
+
+suse
+
+< \
+i
+
+3
+
+Elite Systems Limited, Pe
+Anchor House, Anchor Road, 6 4
+Aldridge,.Walsall, West Midlands, — | ig
+WS9 8PW, England. | PRINTED IN JAPAN
+
+~=h
+“~~

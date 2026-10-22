@@ -1,0 +1,1285 @@
+# Big Sky Trooper
+source: https://archive.org/details/snes_manual_archive
+pdf: Big Sky Trooper ( PAL ).pdf
+region: PAL
+pages: 40
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+Published under license. Big Sky Trooper” ©1995
+LucasArts Entertainment Company. All Rights Reserved.
+Used Under Authorisation. The LucasArts logo fs @
+registered trademark of LucasArts Entertainment
+Company. © 3VC Musical Industries Europe Ltd.
+
+Developed by
+Licensed to 3VC MUSICAL INDUSTRIES, INC ‘ik
+
+IVC Musical Industries Europe Limited
+
+17/18 Henrietta Street PRINTED IN JAPAN
+
+Covent Garden, London WCZE 80x IMPRIME AU JAPON
+
+===== Page 2 =====
+
+SNSP- AB9P -EUR
+
+INSTRUCTION BOOKLET
+
+===== Page 3 =====
+
+en GEntengd) Nintendo of Europe GmbH : 63760 GroBostheim, 0 utchland
+Gena ner ates coe cea
+Seat oor eras
+peter teller
+NINTENDO @, SUPER NINTENDO ENTERTAINMENT SYSTEM™, GJ AND <RY ARE TRADEMAFIKS OF FINTENOO C0 1D
+
+oe ee cee ee
+sienna Sa ‘ oie oe
+WARNING, PLEASE CAREFULLY READ THE GONGUNER INFORMATION AND PE CAu on
+
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HAROWA't
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEUILLEZ LIRE ATTENTIVEMENT LA NOTICE “INFORMATIONS ET PRECAU TIO
+DEEMPLO QUI ACGOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER,
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DEN
+NINTENDO HARDWARE WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIC
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER LUTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+SYSTEM™ LE CASSETTE O GLI ACCESSORI
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR ¥ EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA.
+VIDEOJUEGO © ACCESORIO NINTENDO,
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE Bl DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO.
+SYSTEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBAUIK WORDT GENOMEN
+
+(OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+I BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR,
+
+ADVARSEL : L/ES FORBRUGERINFORMATIONEN OG I/EFTET MED SIKKERHEOSREGLER, DER.
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BAUGE NINTENDO HARDWARE SYSTEM,
+GAME PAK ELLER TILLBEHORET,
+
+\VAROITUS : LUE HUOLELLISESTI LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAI MUUN VAURSTEEN KAYTTOA,
+
+===== Page 4 =====
+
+CONTENTS
+INHALTSVERZEICHNIS
+TABLE DES MATIERES
+
+English
+2 Background Briefing
+
+2 Starting the game
+
+2 Button Controls
+
+3. Ship operations
+
+4 Beaming down
+
+5 Saving Games
+
+5 Strategy tips
+
+6 Combat suit/Module power ups
+8 Launch briefing
+
+0 Skyway map
+
+2 Slug Flagship The final battle
+
+Deutsch
+
+14 _Einsatzbesprechung
+14 Spielbeginn
+
+14 Steurung
+
+15 Schiffssteuerung
+
+16 Herunterbeamen
+
+17 Spiele Sichern
+
+17 _ Strategietips
+
+18 Anzugmodul-Kombos
+20 Anfangsdurchgang
+
+22 Himmels StraBenkarte
+24 Labyrinth des Schnecken-Flaggschiffs
+
+Francais
+26 Briefing
+
+26 Pour Commencer
+
+26 Touches De Commande
+
+27. Fonctionnement Du Vaisseau
+
+28 Télétransfert
+
+29 Pour Sauvegarder Des Parties
+
+29 Conseils Stratégiques
+
+30 Combinaison De Combat-Poweups De Module
+
+32 Briefing De Lancement
+
+34 Carte Du Ciel
+
+36 Vaisseau-amiral des Limaces- La demniare bataille
+
+===== Page 5 =====
+
+TROOPER ALERT... BACKGROUND BRIEFING...
+You are an ordinary human who has been drafted into the Sidereal
+Shock Troops to help defend the Big Sky Galaxy against invasion of
+slithery Slugs from another dimension. Only later do you discover
+that there’s more to this job than big guns and exotic
+locales...those gummy globs have sabotaged the secret machines
+that hold reality together! It’s up to you, with help from a mysteri-
+ous secret agent and FIDO, your canine computer, to defeat the
+slugs, repair the machines, and save the universe as we know it
+from eternal slime. You can do it! You're a Big Sky Trooper!
+STARTING THE GAME
+
+1. Turn off your Super Nintendo Entertainment System by sliding the
+power bar away from the Game Pak slot. Plug a game controller into
+your system
+
+2. Insert the Big Sky Trooper Game Pak, label facing front, in the
+system slot.
+
+3. turn on the system by sliding the POWER bar toward the Game
+Pak slot.
+
+4. Choose your character (male or female) with the A or START button.
+5. If you have previously saved a game, you may restore this game
+by choosing the BST Combat Suit icon in the middle, then selecting
+the saved game you wish to play.
+
+BUTTON CONTROLS
+
+Button A pick up items, activate switches, talk to
+
+characters, arrange suit modules, fire rocket thrusters (in space bat-
+tle)- it’s an all purpose “DO” command
+
+Button B fire standard weapons, speed through most text and ani-
+mation displays, back out of display modes
+
+Button X use combat suit module powerups (after
+
+configuring them in the inventory screen
+
+Button Y Use selected inventory item
+
+===== Page 6 =====
+
+Control Pad
+
+Control, Pad Up
+
+Control Pad Left Control Pad Right START
+
+Control Pad Down
+
+SHIP OPERATIONS
+
+CB)
+
+USING THE VIEWSCREEN
+
+Walk up to your ship’s viewscreen and press the A
+button. FIDO will appear. Select the display mode
+you want with your control pad, then press A again.
+TALK TO FIDO
+
+You can ask FIDO about items in your inventory.
+FIDO has lots of useful hints and information.
+It’s IMPORTANT to ask him about any new item
+you collect.
+
+GO TO SKYWAY MAP
+
+Use this map to travel around the Big Sky Galaxy.
+Move the cursor to a destination planet. If the
+cursor flashes GREEN, you can go there by press-
+ing the A button. If the cursor flashes RED, the
+planet is out of range, and you need to install a
+Cosmic Transport Relay.
+
+* You can travel to ANY planet that already has a relay. Double
+green cursors reveal their presence on the map.
+
+* If the planet you're on has a Relay, you can travel to any ADJA-
+CENT planet, whether it has a Relay or not. But you can’t reach
+distant planets that don’t have them. The RED cursor shows which
+planets are off limits.
+
+===== Page 7 =====
+
+GO TO VIEWPORT
+.*) The Viewport shows the planet or space station
+
+that the Dire Wolf (your spaceship) is currently
+orbiting. You can deploy or retrieve Cosmic
+Transport Relays by pressing the A button.
+
+BATTLE SCREEN
+
+When you arrive at a planet occupied by Slugs, you must defeat
+
+their space patrols, or be forced to retreat to your previous location.
+
+Use the A button to fire rocket thrusters and the B button to fire
+
+torpedoes. As you progress through the game you will receive space-
+
+ship powerups. Give them to FIDO to install. Two of the powerups
+
+are special weapons. Launch and explode SPACE MINES by pressing
+
+and releasing the Y button. Launch and explode TACTICAL NUKES by
+
+pressing and releasing the X button.
+
+MISSION ORDERS
+
+FIDO hands out new mission orders (and a promotion!) every time
+
+you complete a mission. Keep focused on your next objective and
+
+you can’t go wrong!
+
+BEAMING DOWN
+
+During the game you will need to beam down to
+planets and space stations to pick up items or
+defeat occupying slugs. To do this, stand in the
+middle of the AIRLOCK and press the A button.
+
+ITEMS Here are a few basic items that you will encounter during
+
+your adventure.
+
+HEALTH FRUITS (Neenapods)- Use with the rejuvenator onboard
+
+the Dire Wolf to restore your health.
+
+FIDO UPLINK- Use this to have FIDO beam you back to the Dire
+
+Wolf from planets and dungeons.
+
+NEON SIGN-Slugs hate advertising! They lose two eyes when they
+
+touch these signs.
+
+LUCKY CHARM-Use these to trade for other goods.
+
+===== Page 8 =====
+
+ANCIENT ARTIFACT- Use these to trade for other goods.
+
+SLUG TRADING CARDS- Use these to trade for other goods. These
+are especially valuable on the Slug Flagship.
+
+STATUS STAR- This tells your rank.
+
+SAVING GAMES
+To save your game, move your character to one of
+the four SLEEP CHAMBERS on your ship and press
+the A button. The numbers on the sleep chambers
+correspond to the save game numbers at the be-
+ginning of the game.
+
+TROOPER ALERT... STRATEGY TIPS.
+
+1, Sergeant Slack hangs out at the space station in the center of
+the Galaxy where you start the game. Once you make friends with
+him, go to see him as soon as you get a promotion, and he'll up-
+grade the armor on your Combat Suit.
+
+2. Cosmic Transport Relays are your key to fast travel around the
+Galaxy. Place them on or near key planets and you'll navigate the
+spaceway with ease.
+
+3, Slugs hate Fast Food. Slugs often reconquer a planet once you've
+left it, but once you establish a Fast Food Franchise on a planet
+(look for the double-F marks!), they'll never go near it again.
+
+4, Remember that FIDO always has useful information. Ask him
+about any item for valuable info.
+
+===== Page 9 =====
+
+QoL)
+i 1 st oO Z|
+axiavnasanvianown= [ROTA] O[X] — rocben e- [OIC
+
+* ATSWASSY JINGOW JO WYHOVIG JILVISHOS
+
+‘pF olnpOW INS = T°) ‘EF aInpOW ung = @
+‘ap aInpow ins = 6) 1 oynpow ung = @
+
+aeeon= (queen won)
+
+(sees pajqesip pue pajqeua Wl UMoys) ITN COW FHL
+
+~anBiyuoo 0},
+
+1ipjs saunbas yey
+yequioo ey, 3L0N
+
+MODULE POWER UPS
+
+| COMBAT SUIT
+
+===== Page 10 =====
+
+(jwioog-e4
+‘ph + CH + 2H + LH + 18M00)
+(Q3TVNE BYAN WOLLOYL =
+
+{uodeem vented a10w
+y+ OH + 2H + s0m0d)
+(G3 1EYN3 LOHS d33MS =
+
+(smoig Auieue iy
+‘pa + 4 + samod)
+a3 1a¥Na CAIs ¥adns =
+
+(eey 01 mod Kuayeq yenuco
+“p+ 1+ s0n0d)
+(O3T8¥Na YiVdSH 3738 =
+
+{uodean jryemod e10us
+‘GH + 2H + [4 + s9Mod)
+Ga7ayNa TIva H3MOd =
+
+othe
+
+{uodeam jnjamod asows
+2H + 1# + s2mod)
+(G3 7aVN3 LOHS SONNO8 =
+
+(s1o0d ene} 104 yo 1000
+saluiaue 2700),
+‘rt + Janod)
+
+(3 TEYNS AVE 3O1=
+
+(Awsaua 24) &!| 400]
+‘4 +seMod)
+OF1YN3 JOVISNOWV =
+
+(eoeds yBnowy Ay
+aa + s0mod)
+aa TavNa yOvd 13¢=
+
+Gayemepun wins
+l# + Jemod)
+GaTg¥Na T2HONS =
+
+(oTz]
+
+===== Page 11 =====
+
+“OL
+oe
+
+e ve
+oo
+
+qjuusag poy 1se4
+Jey noge Jey “yseO pjoo yuOM
+
+‘ale sways ausos ‘ajqenjen aue puy nod
+
+LAUNCH
+BRIEFING
+
+suey owos sueyo siapen aypyisia
+
+dtalg mnoge yey
+uy yms yo x0] & smouy
+8y-—Buyypdsona jnoge wy
+
+sy ipueuysnok si ogi >
+
+===== Page 12 =====
+
+mo JnoA UO 81,NOA MoU—diyg deWy puz PUL “OL
+auiyoeyy aulysung ayy a10\say
+
+L# 8[Npoyy yng 86—uleBe xeyy ym apes]
+
+uoods Janis 3a5—qog ulebueg yim apedy
+
+Gury puoweig ai—xey yoyeyy 492] g YM aped|
+dwe7 sseig 1@6—Jauejq ayp jo yids eu o} ye]
+92|S 404 Jepayy 186—Jaue|d ayy jo yids ayy O} ye
+spuedxa pLiom snoA—a Jo} diyg deyy si pug
+Agyo.498)3 326—quaby yas9ag ayy andsay
+
+WIy puaujag 01 An—yoeIg ysl}etgadg Ajddng yeayy
+
+Le 06
+aoueysisse weyoduy wos
+40} uonouosd yore saye y9R|S USI. oe
+
+===== Page 13 =====
+
+Zuonzes
+
+/ fy
+Wal ay (6)
+98 \ ge
+ea —*
+Ludhoes Marry
+EUOHES] —uonoes
+Buyuedo 42°
+
+\l2 02 GL] —«L uonnes
+
+aey wa
+£69 eK
+9% sz
+‘« ?
+ett
+WoL
+oo
+$
+‘
+Z uopoes
+
+wen foungpooges= A. sondgjosony= @ ronsivetig= ()
+
+===== Page 14 =====
+
+euoynes
+7 uoTaeS 80L LOL 7 ORDES
+lke Oa * 90L's
+zoL LoL /
+‘POL
+sor hs ® hi
+66 \ 16 6 £6 26
+on. 9 Ag 8 ar e-4
+Chaar 98
+Als os% 8 ge 1h °
+2 ,® fn 08 6L
+wy A puonses 28. ®% | yuonses *  *
+Y 7 wORDeS Ff SL Nica
+A
+Fa Th ATP vt at Jet uA
+oc 68 = a9 o\_” |
+e ° ~ ° ‘99 e g.uonsas . e 1
+85
+89¢-zg¢ A 00 one
+Ke | 8 28
+ish aazt oA ao) ose
+
+===== Page 15 =====
+
+SLUG FLAGSHIP
+The Final Battle
+
+===== Page 16 =====
+
+subs ery yy so} 9 sau ssoq ig eee
+
+ubis jee} 186 pue yoqo Bnjg Aed
+
+‘fay, aniq ys qe] yoseased suodeam 04 eoue.tue Yoolun
+s00p des 880)9 0110901 Brig Aed—soop payaoqun niin ssed
+1200p ¥90)un—ss0q-qns OU 10904 128)9p
+
+‘qm ump yoeas 0} Joop paysoqun nun ssed
+
+00p xooun—ssog-qns saones GuiAy eajep
+
+80/98 yJom asinueylo—yBnostn ie) ‘uado si oop deny! “g
+‘wa1p 126 noA uayy subs je} @ suodeam auo|o—quaBe reJ09s pameuy wou, Aay anjq yep
+"abe 2108s melp pue Aoy po ys oop payD9] uado “¢
+
+z
+
+i
+
+‘ay pai a6 pue jogo. Bnig Aed
+4300p 1814, uato 0} 30904 Gig Aed—omy alg wou} e104 JeWUe
+
+sop oy sun 30
+
+(__ }aienbs ssyodsuen Ave wos; woo! Anus ei o1 yoeg Ao@utp weag 80] 788 NOA
+
+spies Bupen way an nok suarsew Big ei feneg ne ogo eG © 812108 +
+‘Ajoun Bupjoeipyoeq ayeu! ey) sioyenaja Aem-auo ave seqn} J@amUON uae ACIS «
+
+diys sau 210jdxo 0 ajnpow Abeynowed snoA asn os ‘Seq ein Swoo1 UBeAag [anes OF ay! SBNIS »
+
+su
+
+===== Page 17 =====
+
+ALARM, TROOPER... EINSATZBESPRECHUNG...
+
+Du bist ein normal Sterblicher, der zu den Sternen-Sto®truppen einge-
+zogen wurde, um bei der Verteidigung der Big Sky-Galaxis gegen eine
+Invasion schleimiger Schnecken zu helfen. Erst viel spater entdeckst
+Du, dafé es bei dieser Aufgabe um mehr geht als grofe Kanonen und ex-
+otische Schauplatze... Diese Schleimmonster haben die geheimnisvollen
+Maschinen sabotiert, die die Realitét zusammenhalten! Es liegt in
+Deiner Hand - mit Unterstiitzung durch einen mysteriésen
+Geheimagenten und FIDO, Deinen Computerhund -, die Schnecken zu
+besiegen, die Maschinen zu reparieren und das Universum, wie wir es
+kennen, davor zu bewahren, fiir alle Ewigkeit im Schleim zu versinken.
+Du kannst es schaffen! SchlieBlich bist Du ein Big Sky-Trooper!
+
+SPIELBEGINN
+
+1. Schalte Dein Super Nintendo Entertainment System aus, indem
+Du die POWER-Leiste von der Game Pak-Offnung wegschiebst.
+SchlieRe nun einen Steurblock an Dein System an.
+
+2. Lege das Big Sky Trooper - Game Pak mit dem Etikett nach vorne
+in die System-Offnung ein.
+
+3. Schalte Dein Gerdit ein, indem Du die POWER-Leiste auf die Game
+Pak-Offnung zuschiebst.
+
+4. Mit Knopf A oder START kannst Du Deine Spielfigur wahlen
+(mannlich oder weiblich).
+
+5. Falls Du schon ein Spiel gesichert hast, kannst Du es wieder
+aufnehmen, indem Du zunachst das Icon des BST-Gefechtsanzugs in
+der Mitte wahlst und danach das gewiinschte gesicherte Spiel.
+
+STEUERUNG
+
+Knopf A Hebt Gegenstande auf, betiitigt Schalter, redet mit
+Spielfiguren, arrangiert Anzugmodule, ziindet Raketen (bei
+Weltraumgefechten) - ein echter Allzweckknopf.
+
+Knopf B Feuert die Standardwaffen, scrollt rasch durch die meisten
+Text- und Animationsbildschirme, schaltet aus den Ansichtsmodi
+zum Hauptbildschirm zurtick.
+
+Knopf X Aktiviert die Power-Ups bei den Gefechtsanziigen (nach
+Konfiguration auf dem Inventarbildschirm).
+
+Knopf ¥ Verwendet den gewahtten Inventargegenstand.
+
+===== Page 18 =====
+
+Steuerblock
+
+R-Knopf Oben
+
+R-knopf Links R-Knopf Rechts START
+R-Knopf Unten
+
+SCHIFFSSTEUERUNG
+
+BENUTZUNG DES ANSICHTSBILDSCHIRMS
+
+Stell Dich vor den Ansichtsbildschirm Deines
+
+Schiffes, und driicke Knopf A. Daraufhin erscheint
+
+FIDO. Mit dem R-Knopf (Richtungs-Knopf) wahlst
+Du nun den Ansichtsmodus und driickst anschlieBend erneut Knopf A.
+
+MIT FIDO REDEN
+Von FIDO kannst Du Informationen iiber die
+(=) ) Gegenstande in Deinem Inventar erhalten. FIDO
+kennt eine Menge niitzlicher Hinweise und
+
+Nachrichten. Es ist WICHTIG, da Du ihn zu jedem neuen
+
+Gegenstand, den Du sammelst, befragst.
+
+ZUR HIMMELSSTRASSENKARTE
+
+Mit Hilfe dieser Karte kannst Du Deinen Weg
+
+durch die Big Sky-Galaxis finden. Ziehe den Cursor
+
+auf einen Zielplaneten. Wenn der Cursor GRUN
+blinkt, kannst Du Knopf A driicken und zu diesem Planeten fliegen. Falls
+der Cursor ROT blinkt, dann befindet sich der Planet auBerhalb Deiner
+
+Reichweite, und Du mut erst ein kosmisches Transportrelais einrichten.
+
+* Du kannst zu JEDEM Planeten reisen, der bereits ein Relais be-
+sitzt. Ein doppelter griiner Cursor zeigt die Relais auf der Karte.
+
+'* Wenn der Planet, auf dem Du Dich befindest, iiber ein Relais ver-
+fiigt, dann kannst Du von dort auf jeden NACHBARplaneten
+fliegen, gleichgiiltig ob dieser selbst eins besitzt oder nicht. Doch
+Du kannst keinen weit entfernten Planeten erreichen, der kein
+Relais hat. Der ROTE Cursor zeigt Dir, welche Planeten nicht in
+Deiner Reichweite sind. wl
+
+===== Page 19 =====
+
+DAS ANSICHTSFENSTER
+
+Das Ansichtsfenster zeigt Dir den Planeten oder
+die Raumstation, in dessen Orbit sich die Dire
+
+Wolf (Dein Schiff) im Moment befindet. Du kannst
+kosmische Transportrelais durch das Driicken von Knopf A absetzen
+oder wieder entfernen.
+GEFECHTSBILDSCHIRM
+Wenn Du auf einem Planeten eintriffst, der von Schnecken besetzt
+ist, muBt Du deren Raumpatrouillen auer Gefecht setzen, oder Du
+wirst gezwungen, an Deinen letzten. Aufenthaltsort zuriickzukehren.
+Mit Knopf A feuerst Du Deine Raketen ab und mit Knopf B die
+Torpedos. Wahrend des Spiels erhailtst Du Power-Ups fiir Dein
+Raumschiff. Gib sie FIDO, und er wird sie installieren. Bei zweien
+dieser Power-Ups handelt es sich um Spezialwaffen. Die RAUMMINEN
+kannst Du mit Knopf Y abfeuern und ziinden. Wenn Du Knopf X
+betiitigst, feuerst und ziindest Du Deine TAKTISCHEN ATOMBOMBEN.
+EINSATZBEFEHLE
+Jedesmal, wenn Du einen Einsatz erfolgreich abgeschlossen hast,
+bekommst Du von FIDO neue Einsatzbefehle (und eine
+Beférderung!). Konzentriere Dich auf Deinen nachsten Auftrag, dann
+kann gar nichts schief gehen!
+
+HERUNTERBEAMEN
+Im Verlauf des Spiels mut Du auf Planeten und
+Raumstationen herunterbeamen, um Gegenstande
+aufzuheben oder die Schneckenbesatzer zu
+besiegen. Stelle Dich dazu in die Mitte der
+LUFTSCHLEUSE, und driicke Knopf A.
+GEGENSTANDE Im folgenden findest Du eine Liste der iiblichsten
+Gegenstiinde, auf die Du wahrend Deines Abenteuers stoBen wirst.
+GESUNDHEITSFRUCHTE (Neenapods) - Wenn Du sie mit dem
+Verjiingungsgerat an Bord der Dire Wolf anwendest, kannst Du Deine
+Gesundheit wiederherstellen.
+FIDO-ANSCHLUSS (Fido Uplink) - Mit diesem Gegenstand kannst
+Du dafiir sorgen, daf& FIDO Dich von Planeten und aus Verliesen
+wieder auf die Dire Wolf zuriickbeamen kann.
+
+===== Page 20 =====
+
+NEONSCHILD (Neon Sign) - Schnecken hassen Werbung! Wenn sie mit
+einem dieser Schilder in Beriihrung kommen, vertieren sie zwei Augen.
+TALISMAN (Lucky Charm) - Diesen kannst Du gegen einen an-
+deren Gegenstand eintauschen.
+
+ANTIKES ARTEFAKT (Ancient Artifact) - Diesen Gegenstand
+kannst Du gegen andere Giiter eintauschen.
+SCHNECKENHANDELSKARTEN (Slug Trading Cards) - Du kannst
+sie gegen andere Giiter eintauschen. Besonders wertvoll sind sie auf
+dem Flaggschiff der Schnecken.
+
+RANGSTERN (Status Star) - Dies ist ein Abzeichen fiir Deinen Rang.
+
+SPIELE SICHERN
+Um Dein aktuelles Spiel zu sichern, bewege Deine
+Spielfigur zu einer der vier SCHLAFKAMMERN (Sleep
+Chambers) Deines Schiffes, und driicke Knopf A.
+Die Zahlen an den Schlafkammern entsprechen den
+Zahlen der gesicherten Spiele bei Spielbeginn.
+
+ALARM, SOLDATEN... STRATEGIETIPS...
+
+1. Auf der Raumstation in der Mitte der Galaxis, wo Du das Spiel be-
+ginnst, triffst Du auf Sergeant Slack. Freunde Dich mit ihm an, denn
+wenn Du eine Beférderung ergattert hast, kannst Du zu ihm gehen,
+und er wird die Panzerung Deines Gefechtsanzugs verstirken.
+
+2. Kosmische Transportrelais bilden die Schliissel zu schnellen Reisen
+durch die Galaxis. Du solltest sie auf oder in der Nahe von wichtigen
+Planeten einrichten - und Weltraumreisen werden zum Kinderspiel.
+
+3. Schnecken hassen Fast Food. Sie versuchen oft, einen Planeten
+zuriickerobern, sobald Du ihn verlassen hast. Solltest Du allerdings
+ein Fast Food-Restaurant dort eingerichtet haben (halte die Augen
+offen nach den “FF”-Zeichen!), werden die Schnecken einen weiten
+Bogen um diesen Planeten machen.
+
+4. Denk immer daran, daB FIDO niitzliche Informationen hat. Frag
+ihn bei jedem Gegenstand um wertvollen Rat.
+
+===== Page 21 =====
+
+(uo
+
+opugis +2+ 1003)
+ANGIALLYW JONYHLANOWN = (Q@1z]
+
+ANZUGMODUL
+-KOMBOS
+
+()foyimal
+
+ssjaids sop uuGoq nzuonesnéyuoy= [|_|]
+
+SNAZLASNAWWYSNZ-INGOW YId ONNTIFLSHVG SHISILVINSHOS
+
+sseduouuesne ayomssBunpuiqe,
+ujropustan uonysog) 426¢-19M0g
+
+seis uassqu
+
+ropeataey= [5] erroutuwy= [OR
+¥
+aineutney= RS] uipoutmey= [9
+
+nan onsognougsstmsy = (F]
+
+(puersnz ususianjeap pun uawaiamye wi) JTNGOW 31d
+
+“~“yapope aqefisiunpuysg azued aueg pun
+y91y9saQ sabjusa uoneanGiyuoy uassap ‘pueysuafabshunjsqusny
+499 J-4Bip J8y81Z1dwoy uje ys! Gnzuesyy99499 49q :S1]aMNIH
+
+===== Page 22 =====
+
+seni savmeromsosim= [O]
+
+(ooyous
+
+===== Page 23 =====
+
+| START-EINSATZBESPRECHUNG
+
+{queseysoy-pooy
+ysej wieg any GunGiuyaueg sap
+‘ua 40}8 24M pup) ‘wom jag
+soeq wnsepeim puss exepus
+{yonyam 1yas puss suey uapuyy
+nq op ‘spugysuabeg sop afiuiy
+“Bigewja6al sojpugy aip oyonseg
+
+“ly yoou yane ef
+
+ep js! uuep pun ‘playosag
+‘sayguew os sgn sam 49 -
+waGely ojain jsyotjBow wyr
+
+AIS jpunaiy uyaq 3S! COI *
+
+===== Page 24 =====
+
+“Ue WY! yw Y9IG ApUNayy UNEP ‘Sy Y9eIS UA
+
+Jaysa6 uiajje yoig jne ng ysiq ial - diyg-uayey Ueyemz Uap apt
+“aulyaSewUlayasuauUos aip aauedey
+
+InpowBnzuy sep sip joy - qe xeyy Ww yeyosag ule Yoou agaliyos
+yOLEqIIS Uap 41g [oy - qog weBueg
+-Buysuaquewelg Uap JIC JOY - XeW JOEY) YORI MW japueH aqienag
+-adwejBulssay aip 41g [oy - uayaue|g Sap ysieg wap yw YyoLds
+"YO IS JNy UPN AU!
+“so y9U6 pulna Ja aulag pun - QQIY 4} diyg-uavey Uarsia Uap Apu
+Ja8Sn|yosou4a/9 Uap JIq [oY - UayUeBeuMlayag Uap eney
+wadssBunBsossa, Uap ng UUa;\,
+
+le 6
+
+‘waBunysiajayiiy aBnyoim 41g 103819 48 uuap
+“Sunsepsoyeg sepal yoru yo8]s ayonsag
+
+===== Page 25 =====
+
+6 oe ge ee
+te A ee As
+A Pee Laquypsqy ve y
+6 e MUMpSGY | uonenys 9 se Ma
+ica %e e ch -sbueuy 7z@ 4 (ood
+2 i202 6
+° ae oct
+Fa Ho
+ai” *eL :;
+6
+a Ay °
+z Hiuypsay 4” enmussay © zHuussay
+
+quranejey poog sed uo sn} wopuns yenueiog= JQ. sunenjom sepusrueip p= @ eis weetias = ()
+
+| HIMMELS
+STRARENKARTE
+
+===== Page 26 =====
+
+evluypsqy
+
+Pasay 80L LOL PRMSGY
+Ile Oa ° 90L 9
+zoL LoL
+cor ov0L e .
+66 +6 £6 26
+col ot ans se ee o-
+68 98
+Ais os © ag wh .
+s8 £8 = 08
+Aw fh ypsqy ze © |yamuyssqy *
+Y Z BUISGy Ai SL a i Hpsgy a
+ame Tad AT ve a* et be
+0 69 a9 19 ey
+ATs A 749° euonses pm
+09 6S 8S
+£90290 ho oe
+2 i9
+zs
+ish * Igy oge 06
+fy |
+8
+reer O-aer wi hy
+
+a
+
+===== Page 27 =====
+
+DAS FLAGGSCHIFF DER SCHNECKEN
+- DER ENTSCHEIDUNGSKAMPF
+
+===== Page 28 =====
+
+{Jewaje any ua seme pun - ssoquayoauyg vep ues}02sep0 Jop oynH yw absiseg ZL
+uoyoie2sepo] sepig joy pun ‘eroqo1veyseUYOS Uap <I4~Z “LL
+
+yessqjyag vane |g wap yu Joge|sBunyasi04-ueyeyA wn2 sn) ap eUND “OL
+
+‘yel|yosien sNye4 sip 48 WEP ‘JeyOqosUeYOaUYDg WAP alyeZ - IN4 arauyoe6 aIp YON ayag °~B
+se sn] lp ogy49s- o1-1aogoy Sep aBaisog
+
+syne ny aip asjayyos - assevatun Uepuebell J0p ssog uarieme Uap abaisog
+‘Bam saqqup yoejure nq ising uaysuosue - ua}je}younp Yoig se] UUep ‘ueyo sNAe4 e1P 18]
+18619 1s ng wuam ‘veyoiezsapoy ap pun
+
+‘UayJeN olp euoHY - jassni4ag ane|q uap uawuaby Uadnerabyne Wap UOA JIG 80H “p
+{ye uatuaBewlaysg Uap ane pun ‘assniyas Usios WP YIN] BUasso|YoSIEA aIp aU “E
+J@SSn|49g wavo! Uap 1g 181918 uuep ‘pjaBsGunyaarsag Ula JetOgolUayDeUYDS Wap BYEZ Z
+
+‘eed Yoiq 18 wep veroqoy-se\ersin| Usp elyezeg ISeY UOSSELION YONA
+211g ap ‘yluag wag ng wepyoeu ‘ueyseuyDs Jap yiYosBBely sep ng IsIeq 21H
+0q puolyeM ng 1p ‘uaqeByny sop est] aule Y9OU J61H
+
+‘uasse| uaweaqyanine syiyos6Bej, Sap YoleseqsbueBul3
+
+lune sne wespenp-sevodsue1] wapel wor yoig ng ysuueX UUep ‘uayneyen Yoig ng AseHOS *
+18918 uevieysjepueyuayoauyos Uauy ng
+
+uom ‘uapuan Siuunnige wrslewueyseuyog wey Ip ‘sajoqoy ajeAo} yas 34olu aB)u@ 1916 $3 «
+pam wemyosia Bannany s9p
+
+Yyasnpons ‘uayo6 Sumyory aure ul nu oip ‘aBnziny purs uaLyoy uajexsien aig BnyoIS40N 18g «
+uayssop9 m2 og JY! win npowuse, weg apuamen,
+
+‘Jal PUN Uy wewney Wauepel4osien Uap UayasiNZ UalYY J0qN YoIS UaBamag UoxDeUYDS 81Q
+
+‘SalL
+
+===== Page 29 =====
+
+ALERTE AUX SOLDATS... BRIEFING...
+
+Vous étes un simple mortel, recruté au sein des Troupes de choc
+sidérales pour défendre la Galaxie Big Sky de la menace d'une inva-
+sion de Limaces visqueuses venues d'une autre dimension. Vous
+venez de réaliser que derriére les armes de gros calibre et les affec-
+tations dans des endroits exotiques, votre travail est loin d’étre une
+partie de plaisir... ces créatures gluantes ont saboté les machines
+secrétes qui maintenaient la réalité! La responsabilité vous in-
+combe, avec aide d'un mystérieux agent secret et de FIDO, votre
+chien-ordinateur, de vaincre les limaces, réparer les machines et
+sauver le monde que nous connaissons, de la bave éternelle. Vous
+pouvez y arriver! Vous étes un soldat Big Sky!
+
+POUR COMMENCER
+
+1. Eteignez votre Super Nintendo Entertainment System en
+éloignant l'interrupteur barre de la fente de la cartouche. Branchez
+un contrdleur dans le systéme.
+
+2, Insérez la cartouche Big Sky Trooper, étiquette face a vous,
+dans la console.
+
+3. Allumez la console en rapporchant Uinterrupteur barre de la fente
+de la cartouche.
+
+4, Choisissez votre personnage (homme ou femme) avec le bouton
+A ou START.
+
+5. Si vous avez déja sauvegardé une partie, vous pouvez recharger
+cette partie en choisissant l'icéne de la Combinaison de combat BST
+(Big Sky Trooper) au milieu, puis en sélectionnant la partie sauveg-
+ardée que vous souhaitez jouer.
+
+TOUCHES DE COMMANDE
+
+Le bouton A permet de ramasser des objets, d’activer des interrup-
+teurs, de parler a des personages, d’organiser des modules de com-
+binaison, de lancer des micropropulseurs (lors de combats spatiaux).
+Cette touche de commande permet de tout faire.
+
+Le bouton B permet d'activer les armes standard, passer en accéléré la
+plupart des textes et des animations et de sortir des différents modes.
+Le bouton X permet d'utiliser les power-ups des modules de combi-
+naison (aprés les avoir configuré dans ('écran inventaire).
+
+Le bouton Y permet d'utiliser un objet sélectionné dans Uinventaire.
+
+===== Page 30 =====
+
+Control Pad
+
+Control Pad Haut
+
+SELECT
+Control Pad Gauche Control Pad Droite START
+
+Control Pad Bas
+
+FONCTIONNEMENT DU VAISSEAU
+
+UTILISATION DE L’ECRAN DE VUE
+
+Allez jusqu’a écran de vue du vaisseau et ap-
+puyez sur le bouton A. FIDO apparaitra.
+Sélectionnez le mode d’affichage désiré a aide du
+Control pad puis appuyez 4 nouveau sur A.
+
+PARLER A FIDO
+Vous pouvez interroger FIDO sur des objets de votre
+inventaire. FIDO a beaucoup de conseils et d'infor-
+
+mations pratiques. Il est IMPORTANT de Uinterroger
+
+sur tous les nouveaux objets que vous ramassez.
+
+LA CARTE DU CIEL
+
+Utilisez cette carte pour voyager dans la galaxie
+
+Big Sky. Placez votre curseur sur une planéte de
+
+destination. Si le curseur fait apparaitre un
+clignotement de couleur VERTE, vous pouvez y aller en appuyant sur
+le bouton A. Si le clignotement du curseur est ROUGE, cela signifie
+que la planéte est hors de portée. Vous devez donc installer un
+Relais de Transport Cosmique (RTC).
+
+* Vous pouvez vous rendre sur n'importe quelle planéte possédant déja
+un relais. Les double curseurs verts révélent leur présence sur la carte.
+
+* Si la planéte sur laquelle vous vous retrouvez posséde déja un re-
+lais, vous pouvez vous rendre sur n’importe quelle planéte ADJA-
+CENTE, qu‘elle posséde un relais ou pas. Cependant, vous ne pouvez
+pas vous rendre sur des planates lointaines qui n‘en possédent pas.
+
+Le curseur ROUGE affiche les planétes qui sont hors de portée.
+
+===== Page 31 =====
+
+LA FENETRE DE VUE
+
+Le port de vue fait apparaitre la planéte ou la sta-
+tion spatiale autour de laquelle le Dire Wolf (votre
+vaisseau) est en orbite. Vous pouvez déployer ou
+récupérer des Relais de Transport Cosmiques en
+appuyant sur le bouton A.
+
+LECRAN DE COMBAT
+
+Lorsque vous arrivez sur une planéte occupée par des Limaces, vous
+devez neutraliser leurs patrouilles spatiales ou serez forcé de vous
+replier et de regagner Vendroit d’ou vous venez. Appuyez sur le bou-
+ton A pour déclencher les micropropulseurs et sur le bouton B pour
+lancer des torpilles. Tandis que vous progressez dans le jeu, vous re-
+cevrez des power-ups de vaisseau spatial. Donnez-les 4 FIDO qui les
+installera. Deux des power-ups sont des armes spéciales. Lancez et
+faites exploser des MINES SPATIALES en appuyant sur le bouton Y et
+en le relachant. Lancez et faites exploser des BOMBES ATOMIQUES
+TACTIQUES en appuyant sur le bouton X et en le relachant.
+ORDRES DE MISSION
+
+FIDO distribue de nouveaux ordres de mission (et une promotioi
+chaque fois que vous terminez une mission. Concentrez-vous sur
+votre prochain objectif et tout ira bien!
+
+TELETRANSFERT
+Pendant le jeu, vous devrez vous téléporter sur
+des planétes et des stations spatiales pour ra-
+masser des objets ou vaincre les Limaces. Pour
+vous télétransférer, placez-vous au milieu du SAS
+et appuyez sur le bouton A.
+OBJETS - Voici quelques uns des objets que vous rencontrerez au
+cours de vos aventures.
+HEALTH FRUITS (Les fruits de santé) (Neenapods) - Utilisez-
+les avec ‘Vappareil 8 rajeunir’ se trouvant 4 bord du Dire Wolf pour
+retrouver votre santé.
+FIDO UPLINK - Utilisez-le pour que FIDO vous téléporte jusqu’au
+Dire Wolf lorsque pour revenir de planétes et de donjons.
+NEON SIGN (Néon) - Les Limaces détestent la publicité! Elles perdent
+deux yeux si elles ont le matheur de toucher ces enseignes lumineuses.
+
+===== Page 32 =====
+
+LUCKY CHARM (Porte-bonheur) - Echangez-les contre d’autres
+marchandises.
+
+ANCIENT ARTIFACT (Objet ancien) - Echangez ces objets contre
+d'autres marchandises.
+
+SLUG TRADING CARDS (Cartes de commerce des timaces) -
+Echangez-les contre d’autres marchandises. Elles sont particuliére-
+ment appréciées sur le vaisseau-amiral des Limaces.
+
+STATUS STAR (Etoile de statut) - Elle indique votre rang.
+
+POUR SAUVEGARDER DES PARTIES
+
+Pour sauvegarder une partie, placez votre person-
+nage dans une des chambres de SOMMEIL de votre
+vaisseau et appuyez sur le bouton A. Les chiffres
+
+apparaissant dans les chambres de sommeil corre-
+spondent aux chiffres de la partie sauvegardée au
+début du jeu.
+
+ALERTE AUX SOLDATS...
+CONSEILS STRATEGIQUES...
+
+1. Le sergent Slack se trouve 4 la station spatiale au centre de la
+Galaxie ot vous commencez le jeu. Une fois que vous avez fait con-
+naissance, allez le voir dés que vous obtenez votre premiére promo-
+tion et il améliorera le blindage de votre Combinaison de combat.
+2. Les Relais de Transport Cosmiques vous permettent de vous dé-
+placer rapidement dans la Galaxie. Placez-les sur vos planétes-clé et
+vous naviguerez dans ‘espace sans probleme.
+
+3. Les Limaces détestent les fast-foods. Elles reconquiérent souvent
+des planétes que vous avez désertées, mais lorsque vous établissez
+une franchise de fast-food sur une planéte (cherchez les deux-F!),
+vous pouvez étre sir qu’elles ne s’en approcheront plus.
+
+4, Souvenez-vous que FIDO a toujours des informations utiles. Interrogez-
+le sur n'importe quel objet pour obtenir ces informations utiles.
+
+===== Page 33 =====
+
+{stalqo s9j a1n ye essnodas io Os Z|
+nnaaind. (na Six gaz
+
+‘STINGOW S30 JOVISWASSV.0 VINJHOS
+
+Z|
+seusmuqusoromron= [Oy] srtoneuqus ores [O
+Q]
+oma: [i]
+
+‘Sapoul sa] SUep Sa49IHE) STINCOW S31
+
+24 wosteutquico op a}
+
+{2ovenbgsuos
+
+(saanoesep 39 sony
+
+a ¥9 assaupe 9y1sse99u uoeAnByUoD e| UO YoB)-YBIy
+quawadinba,p ajgpow un yse equios ap uos!eUIquiOS ey :;3NDYVINIY
+
+COMBINAISON DE COMBAT
+POWERUPS DE MODULE
+
+===== Page 34 =====
+
+(iwinog ‘pa + 8# + Ze + Lé + @1610U3)
+JAILOV 3NDILOV 3NDINOLY 3sWOR =
+
+"ye + La + o1610ug)
+RAILOV NOLLWuWdaH-OLNY =
+
+(ansooe aouessind aun snod
+e#+ Ze + Le + 161003)
+BANLOv 3IDUIN.G 3TIVe =
+
+ote
+
+(eniooe souessind aun anod
+
+‘t+ 6109)
+BALLOV 3919 NOAWY =
+
+anuLoy 39VTENOWVD =
+
+(eaedso,| suep 19BeA0n snod
+wat
+ALLOY NOV Lar =
+
+(1aws 2} snos se6eu nod
+aves
+ALLOY 13HOWONHOS =
+
+===== Page 35 =====
+
+“OL
+oe
+
+e ve
+oe
+
+époo}-}sej snod asjyauey ap sjuuad a9 33
+
+BRIEFING
+DE LANCEMENT
+
+-wo6ite p dnoaneag sayodde snon
+juaanad sujeysad ‘xnajogid juos
+zennon snon anb syalqo sep
+Sujeyad ‘sjuessauuoa xne
+ausin juawalenjnGes zapuay *
+
+dial 17 woes un
+yeuuoa ua jy sno} sas
+ssuonsenb sap inj-2asog
+ine 2xjon 3s9 Qa
+
+My
+
+===== Page 36 =====
+
+queuaqurew jnas J
+
+}0149P SNOA Zanap Snon - ae Bong Awaz e| ZaANOI
+“yejos e aulyoew e| za1eday
+
+| # uos|eulquioo ap ajnpow 9| snon-zeungoud - xe dane neaanou e zao/aWWOD
+‘uaBue,p aigjino e| snon-zasngoud - gog uleGieg dane zeozauwo)
+
+‘yuewelp ne anBeq e| snon-zainooad - xey JeYeW Y9eIg Dane Zao.aWWOD
+‘@JNInO Ua adwie] e| SNOA-Zasndoud - a}Queld e| ap Juds3,| e Zaye
+
+“yoejg snod ajjtepaw aun snoa-zaunooad - ay@uelg e| ap uds3,| e zayeg
+“euaddojanap as apuowi aijonya Qgi4 snod ayey aang 219} e| zannouy
+*g]9-04399]9,| SNOA-zaundoud - ya49as yuabe,| Zeaneg
+
+UN Jley UB SNA 9p ZaAessa - JuaWauLOIsiAosdde
+ua ajsiieioads al ‘y9eI5 ap aouessieuucd e] saney
+
+‘ony opueb oun p Le 06
+bias sion j} ‘uonowold
+anbeya sesde yaeis s10n zay)y ee
+
+===== Page 37 =====
+
+ty 7
+
+8y
+or
+ak oy Sy 7 zp Ww
+fy e aa O-«¢ ve
+68 9 se ze
+ue ee
+Poe A Ludhoos | pe 2 A
+ee EUONDES | yedap op 9 sei ve |
+a D
+le oe 82" uonsag wz? 4 24
+zz 12 oz Gl] __Lwonses
+° a a) Bt a—|-eft
+re za HL oooL
+a *e , Mine
+6
+a Ay )
+uoyoes Bog
+@ won i S woRneS juste gone \/Ae ni ane anole MONEE
+poorrteyned onurodouss sede =@ ns umebig = C)
+a
+we
+BYU
+22
+va
+
+===== Page 38 =====
+
+g uoyses
+
+TORTS
+9019 ie
+lo
+e
+ve] 8 26
+coasts = o-
+98
+wh °
+08 6L
+Be yucnsce | Sars
+T uonoes
+rN rN a
+wae fee a
+o\ 2
+g.uonaes Sioms8.
+85
+e e
+zs
+os a) oge 06
+
+===== Page 39 =====
+
+VAISSEAU-AMIRAL DES LIMACES
+LA DERNIERE BATAILLE
+
+===== Page 40 =====
+
+[uebuep ap seus sap apre|e e2ewiy ssoq np uog ap snad snon-zassesseq99 ZL
+JeBuep ap aubis un auergo snd 1ogo4 | zadopnog “1,
+
+‘anajq ao ©] oane juawaue ue ayoieyges ap age] np aod e|z2uAN9 “OL
+
+‘adden e} eu 1,nb snod adewy-r0qo1 a|zakopnos - auianno auiod 8 zassiyouely
+aod e|zaunno- si0go! s804-sn0s sion Sap snon-zesse11898q
+
+‘9qni np uy e| sspurane snod ayanno aod e|zessiyouey
+
+‘und e|zaunno - aquejon adnoanos us ss0q-Sn0s np snon-zesseseqaq
+
+snssap Zassed ‘uouls -saquioy snon-zassiey ‘ayenno se adden e|$
+ze1gdno91 se snon anbs.o} soBuep ap
+
+soubis sa} sowue sa} zauojo- 181088 uabe,| ap anajq 2 | zesadno9y
+
+E
+g
+
+‘ud asgquie 2 unno snod
+jnqos a} zekopnos - jon 2110 np snsed
+anap snon anb 29 9p 0
+
+1Wejsuesgj9) ap gna janb syodw.u ap sed @
+
+‘29.19 :p aes e|suep 1uewe9eu1p snon-7a19\suesIg{01'zapsad STOA SMO IS
+‘aJauwo9 ap sa1iea sap zauuop sna sNOA
+
+\enbs9| nod sooew saj yen e sigid wosas sjoqos suleweg
+le sayoiew sa uapued mb
+anbjun suas e sunasuease sep wos xneoien saqm sa :sapie6 son ins 261804
+‘neassien sna] s8s0|4x9 snod aBeynowea ap ajnpou aston zasian suoje
+
+‘seqmi sep suep wessed ue asine, @ eaeid aun,p sa9ejdap as wawie saaeUr $8]
+ssyesuog

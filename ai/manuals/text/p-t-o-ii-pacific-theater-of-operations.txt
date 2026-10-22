@@ -1,0 +1,2217 @@
+# P.T.O. II - Pacific Theater of Operations
+source: https://archive.org/details/snes_manual_archive
+pdf: P.T.O. II - Pacific Theater of Operations (USA).pdf
+region: USA
+pages: 33
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+j) INSTRUCTION BOOKLET :
+SUPER NINTENDO |
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER INFORMATION AND
+PRECAUTIONS BOOKLET CAREFULLY BEFORE USING YOUR NINTENDO®
+HARDWARE SYSTEM OR GAME PAK.
+
+THIS PRODUCT HAS BEEN RATED BY THE ENTERTAINMENT SOFTWARE
+[RATING BOARD. FOR INFORMATION ABOUT THE ESRB RATING, OR TO
+‘COMMENT ABOUT THE APPROPRIATENESS OF THE RATING, PLEASE
+(CONTACT THE ESRB AT 1-800-771-3772.
+
+‘SPECIAL THANKS TO FOG STUDIOS, ESPECIALLY ED DILLE, FOR HIS
+HELP WITH MILITARY NAMES AND DEFINITIONS. KOEI CORPORATION
+TAKES FULL RESPONSIBILITY FOR ANY TEXT MISTAKES MADE WITHIN
+‘THE GAME AND DOCUMENTATION MATERIAL.
+
+o.
+
+‘8s 11 ConPRATION id
+LICENSED BY TISScTOA seas voun
+
+WELCOME TO THE KOEI WoRLD!
+
+‘We are proud to introduce you to another
+dimension from the Koei world of quality games.
+Koel is committed to bringing you games filed
+with excitement, challenge and intrigue, Our goal
+{to create top quality products and provide
+excellent service for our customers,
+
+‘As.a Koei gamer, you are important to us and we
+value your opinions. Pease send us your comments
+and we will continue to bring you the best in
+interactive entertainment. Look for future releases
+from Koei to experience new realms of gaming!
+
+Thank you for exploring the Koe world
+KOEI CORPORATION
+
+===== Page 3 =====
+
+TABLE OF CONTENTS
+
+Tur Pactric TaxareR
+Scenarios
+
+Victory Conditions
+
+‘erro Lar
+Starting 2 New Game
+Options
+The Controller
+
+Wavar Wanranr
+Game Flow
+Armed Forces
+Bases and Posts
+Your Resources
+‘Marw Scaexs
+Main Map
+Grid Map
+
+Commeamnera rour Wavy
+Main Commands
+Fleet Commands
+Base Commands
+Land Force Commands
+Submarine Commands
+
+BATTLE IN THE PACIFIC ..
+
+Naval Battles
+
+Air Battles
+
+Land Battles
+‘Barrie Commas
+Naval Battle Commands
+Air Battle Commands
+‘Mowrmzy Comrenrwce
+Your Attendance
+Conference Screen
+
+Progress of Conference .
+
+Player's Cards
+Player's Options.
+Drafting Your Proposal
+Weapon Production
+Espionage
+
+‘Dara ara QLaxce
+
+Wannasrr
+
+===== Page 4 =====
+
+THE PACIFIC THEATER
+
+The PACIFIC THEATER OF OPERATIONS II is a war simulation game based on the
+Pacific naval battles fought between the Allies and Japan in World War I. As the
+Chief of Naval Operations (S.A. or the Chief of Naval Staff (Japan) you have full.
+contrl of the Navy.
+
+The PACIFIC THEATER OF OPERATIONS I has three campaign scenarios and seven
+short scenarios
+
+The Day of Infamy Dec. 8, 1941 Short Scenario
+The Brink of War Nov, 26, 1941 Campaign Scenario
+Counter Offensive May 27, 1962 Campaign Scenario
+Approaching V-Day March 31, 1944 Campaign Scenario
+Southern Operation Dec. 9, 1961 Short Scenario
+Battle of Midway Sune 4, 1942 Short Scenario.
+US.-Australia Plan ‘Aug. 7,1962 Short Scenario.
+Operation A-60 May 3, 1964 Short Scenario.
+Battle at Leyte Oct, 18, 1964 Short Scenario
+
+The Final Days Feb. 19, 1945
+Scenario Selection For scenarios inthe first half of the game, the Japanese have the
+advantage, and for scenarios in the second half, the Americans have the ava
+
+VICTORY COWDITIONS
+
+Victory conditions vary, according to each scenario, The game is ove when either
+side scores a victory.
+
+Short Seenaro.
+
+atelier
+
+HE PACIFIC THEATER
+
+(One of the folowing three conditions must be met to win a Campaign Scenario.
+
+SHORT SCENARIOS
+
+Victory is won by achieving the final objective chosen in the beginning of the game
+within the time limit. Also, if you meet the campaign scenario conditions for victory
+‘in any scenario, the game is won,
+
+i
+
+===== Page 5 =====
+
+‘KEY 70 PLA’
+
+—
+
+KEY TO PLAY Land Battles Decide whether you will view land battles that do not invalve your
+
+Navy. ON/OFF
+‘Animation Decide whether you will view animation for events and commands
+
+STARTING A NEW GAME Advice Decide whether you will receive advice inthe command phases and
+2. Insert the PACIFIC THEATER OF OPERATIONS IT game pak. ‘Stereo Sound Listen to the music and sound effects in stereo or mono sound.
+4. The opening will begin. Push any button to skip to the game set-up. :
+5. Select NEW GAME. : THE CONTROLLER
+7. Select winich side (U.S.A. or Japan) you will play. Select BOTH SIDES to play a 2 Suh Sethe, x
+ship, the espionage lve, and the Conference difficulty level for the US.A. and ot)
+10. Review your game set-up. If everything is OK, select YES to begin the game; 1 =
+
+otherwise select CANCEL to See
+
+OPTIONS
+
+Select OPTION (see page 22, Option) rom the Main Commands to save a game, load a
+
+saved game, end the game, and change your game settings.
+
+GAME SETTINGS
+
+Messages Adjust the speed of the message display. Fast/Average/Slow
+
+Naval Battles Decide whether you will view naval battles that do not involve your
+Navy. The SELECT option allows you to decide each time a naval bat-
+tle is fought. ON/SEL/OFF
+
+‘Nir Battles Decide whether you will view ar battles that do not involve your
+Navy. The SELECT option allows you to decide each time an air battle
+s fought. ON/SEL/OFF
+
+tlle ati
+
+tur to the scenario selection,
+
+===== Page 6 =====
+
+NAVAL WARFARE
+
+NAVAL WARFARE
+
+Pana Powers
+Stat Bion + Switch rom the Grid Map to the Main Map.
+Select Button * Display the date and weather at the Grit Map. GAME FLOW
+
+* Display help messages for certain data screens. The game progresses by repeating a series of tums. A tun is comprised ofa Move
+ttn & aS gli ted onwl  Ha Phase and a Plan Phase, and one turn equals one day. Game play progresses through
+
+Japan Move Phase, US Mave Phase, Japan Plan Phase, and US Plan Phase, in which
+
+Answer YES to yes oF no questions
+
+tohietenue ach sdealtemates commands in each Phase and competes one ful turn.
+futon 8 * Gace elections. the Army and delegated units wil execute ors during this time, Press Button B
+4 Aner NO toys oF mo questions between phases to cancel resting
+= | MOVE PHASE o:ders elated to the Naw’ moverent
+Button x ‘© ‘Switch cursors at the maps, PLAN PHASE Orders related to the Navy's strategy.
+Left/Right Buttons |» Flip through pages of information | BATTLE PHASE Combat begins. You atack the enemy, of are attacked by the
+enemy (Se page 38, Battle in the Paci)
+Control Pad .* Move the map cursors. : CONFERENCE There is a meeting on the first day of each month (See page 47,
+Sera Brag ts Soe ‘Monthly Conference). When the player attends the conference, the game will switch
+tothe Conference Screen, and each topic wil be discussed, After the conference, the
+ame progresses to the next tur,
+ENTERING NUMBERS
+
+‘A Number Window wil be displayed when a command requires you to enter specific
+amounts With the cursor at te far left, press the lft arrow key on the Control Pad
+to display the maximum amount. Press it again to display the minimum. To manually
+enter numbers, use the let and rightarrow keys on the Control Pad to select the
+Unit, and the up and down arrows to increase or decease the number. To enter the
+Aspiayed sure, press Button A.
+
+SCROLLING DATA
+
+‘re Bl symbot indicates you may sco data to view aditional information within
+the same category by pressing on the left and right arrows ofthe Control Poe.
+
+alley aster
+
+===== Page 7 =====
+
+‘MOBILITY LEVELS irrs)
+Each unit has a mobility level which enables the unit to cary out orders, Depending
+‘on the orders, the cansumption of mobility wil vary. When a unit has 0 mobility, the
+unit cannot execute orders until the next turn, Some ordets will not be executed
+
+until the next Phase, regardless ofthe remaining mobility. Each units’ mobility will
+be restored by the next tun,
+
+ARMED FORCES
+
+You command all units ofthe Navy, and cannot issue orders to the Army. The Army
+‘moves individually, according tothe decisions made at the monthly conference.
+
+COMMANDERS
+
+‘commander isthe leader of a unit of the Navy or Army. As Chef of the Navy, you
+may appoint or dismiss commanders of the Navy (See page 19, Personnel
+Appointing a commander will increase @ unit's combat ability, The higher the rank
+ofthe commander, the more effective the results of attack and defense operation,
+‘As a commande’ Batle Experience levels increase, he wil advance in rank.
+
+UMIT TYPES
+FLEETS & fleet is comprise of several warships. ets playa major role in P.0, I
+and ae the main players in combat Plot your strategy by moving the Rts nto
+poston.
+
+AIR FORCES thee ace tee types ofa force unis leet ir Forces, Naw Base ir
+Fores, and Amy Air Fotes. lee Air Forces escorts Ret, search for enemy unt
+ard attack enemy bases and lets, Base hit Frces attack the enemy, patil areas
+around the base, and deer the base against an attack. Army Ai Forces sit the
+Army in aning operations and protecting bases.
+
+LAND FORCES There ae two tyes of and forces the Marines and the Amy. Land
+fores attack enemy ond Fores, occupy enemy Bases and poss, and defend bases,
+They cn be transported by fleet and land at enemy base for combat.
+‘SUBMARINES Submarines dstoy enemy transport ships, attack the enemy Ret,
+ad patol the ses.
+
+aster
+
+or Feat i Foes
+Ssbmasne, | RrFowes, | Sie Ai Foes
+etouse | and Forces
+
+moe toute tees [Capture vemy_ | defend Be
+
+BASES AND POSTS
+
+Occupying bases and posts connected with the home por, will expand your supply
+routes (See page 12, Supply Routes).
+
+BASES Repair and e-supply your fleets, assign your air forces to an airfield, and sta
+tion your land forces at your bases
+
+POSTS station your land forces at your posts.
+CAPITALS AND HOME PORTS
+
+The U.S. and Japan each have one home port and one capital,
+HOME PORT The center of action for the Navy from which naval units are deployed.
+If t becomes occupied by the enemy, you cannot deploy your naval forces.
+CAPITAL The center of action forthe Army, fom which the Army deploys its forces.
+IF it becomes occupied by the enemy, you lose the game,
+
+YOUR RESOURCES
+
+NATIONAL BUDGET
+
+‘A nation’s budget is detexmined by the sum of its GNP and the productivity of ts
+bases, Allocate your budget forthe Navy, Army, Foreign Afaits, Base Upkeep,
+Technology, and the Government in the monthly conference. The Naw’s budget is
+used to produce weapons and construct bases.
+
+‘MATERIALS
+
+Materials include fue, food, and ammunition, The amount of a nation’s materials are
+determined by income from the bases it contals. Allocate materials for the Nawy,
+‘Ami and nation in the monthly conference. Materials earmarked for the Navy are
+used to move naval units, resupply and forces, repair, supply, and construct feet,
+and construct base facilites (See page 21, Assets-Materal)
+
+aller
+
+===== Page 8 =====
+
+WATURAL RESOURCES
+
+Some bases produce ol and ore, which ae valuable resources in a war. Te yield of
+these natural resources differ according to the base, and affects the base's income
+(See page 21, Asets-Ore and Oi)
+
+SUPPLY ROUTES
+
+Supply routes allow you to transport materials and deploy land forces to your bases
+Connect your bases to your home port via supply routes, and money and supplies will
+be automatically transported from your bases to your home port and capital
+
+Seveneo SuPpty ROUTES Bases where supply routes have been severed wil flash inthe
+Network screen under the ASSETS-NETWORK command (See page 21),
+
+MAL SCREEWS
+
+D Main Commands
+® Map Cursor
+
+& Main Map
+
+© Unit Search
+
+Press Button X to switch cursors inthe following order:
+Main Map —> Unit Search —> Main Commands —> Main Map
+
+‘MOVE THE MAIN MAP CURSOR
+
+Use the Control Pad to move the Main Map cursor, To slow the speed ofthe cursor,
+press the Let Button and the Control Pa simultaneously. To move the cursor from
+base to base, press the Right Button and the Control Pad simultaneously
+
+UNIT SEARCH
+
+Selecta unit from the Unit Search to display the units’ numbers. Units with delegat-
+ed orders wil be displayed in light blue forthe U.S. and in orange for Japan. Units
+‘experiencing problems with delegated orders wil be displayed in yellow. All other
+units wil be displayed in blue for the U.S. and in red for Japan. Select @ number to
+view the unit's data, Press Button Ato command that unit. Press Button B to select a
+different uit
+
+SWITCH TO THE GRID MAP
+
+Press Button A when the map cursor i displayed on the Main Map to switch to the
+
+Gri Map.
+
+===== Page 9 =====
+
+‘.MAIW SCREEWS
+
+® Main Commands
+® Grid Map
+& Grid Map Cursor
+
+Press Button X to switch cursors in the following order:
+Grid Map —> Main Commands —> Grid Map —> Main Commands,
+
+MOVE THE GRID MAP CURSOR
+
+Use the Control Pad to move the Grid Map cursor. To order ets at sea, move the
+
+map cursor to a fleet and press Button A, To order fleets at por, land forces, and
+bases, move the map cursor to a base or past and press Button A.
+
+Press Button Y and the Control Pad simultaneously to scroll the Grid Map in the
+selected direction
+
+GRID MAP MARKERS
+
+BASE/POST MARKERS
+‘The base and post markers displayed onthe Grid Map indicate the following:
+
+Japanese Base US, Base [ Neutral Base
+
+Japanese Post) us.Post ©) —_neutat ast Q
+
+4
+
+The fleet markers displayed on the Grd Map indicate the following
+
+veins [vata
+«| 8 | @ |
+
+Jara
+
+The color of the fleet marker indicates which nation it sides with, and its remaining
+mobiity, The number below the fleet marker isthe number of that fleet.
+
+eet with mebity
+
+WEATHER CONDITIONS
+
+Press the Select Button to display the date and weather conditions atthe Grid Map.
+The weather affets the movements of your fieets and ar Forces. Its dificult to
+search for enemy units in harsh weather conditions
+
+Suny Cou Fain
+Good eeonrfistnce Par rcammdssance Ar foes cannot
+condos. ‘nails. ‘ake of
+
+Snow
+i foros cannot
+Take of
+
+st wth no mobilty
+
+fog Storm
+Aicforeteganot Ai forces comma takeoff
+‘the of ‘nd fests cannot ove
+
+SWITCH TO THE MAIN MAP
+Press the Start Button, or select MAP from the Main Commands to switch to the
+ain Map.
+
+atid
+
+===== Page 10 =====
+
+eee
+COMMANDING YOUR NAVY
+The 1.0.11 gae commands aise as flows,
+
+COMMAND (AnsnzviaTion) (Puasz] REQUIRED MOBILITY
+
+MAIN COMMANDS
+
+The following commands are available at the Main Map and Grd Map. You may issue
+ain Commands in the Move and Plan Phases, except for the ASSIGN command,
+
+OnvER
+
+Delegate orders to your fleets, submarines, base air forces, and Marines. Units wil
+
+attend to their orders until they are accomplished, new order are given, or the
+
+‘orders are canceled, Pres the Select Button when an order is highlighted to view an
+
+explanation of that order.
+
+© Selecta unit to order. Units with delegated orders wil be displayed in light blue
+for the U.S., and in ofange fr the Japanese, Units experiencing problems with an
+‘order will be displayed in yellow.
+
+® A ist of orders willbe displayed according to the typeof unt. Solect an order for
+‘the unit, Press the Select Button to view an explanation ofthe order.
+
+3 Verify your orders on the document. Select SEND to execute your ordes
+‘The following is @ summary of the orders available foreach unit,
+
+bead td a ata ub
+Svamanixs Fa Sage Ft Ata
+‘aseAm Forces | Patol, tack, defend
+
+Tawo Foncss | ocipy one
+
+astilltcy
+
+COMMANDING YouR WAVY
+
+AssIaw
+
+The ASSIGN command is available only inthe Move Phase. Assign ships, aircraft, and
+Marines to your existing units, or create new units. You wil not be abe to give
+orders to anew unit until your next tun
+
+FLEET
+
+You may assign upto 8 ships (excluding transport ships) pe let.
+
+© Selecta flet atthe home port or anew flet to which you will assign ships,
+
+| From thelist of reserve ships, select the type of ship you will assign to the flet.
+If you select a ship from the fleet, that ship will become a reserve ship.
+
+& Select VES to execute your orders,
+BASE AIR FORCES (BASE A.F.)
+
+You may assign up to 4 ait force units per Navy base airfield. You cannot assign air
+force units to bases that are not linked to the home port
+
+Select a base to which you wil assign an airforce unit,
+2 A list ofthe base's ar forces wil be displayed. Select a unit to which you will
+assign mare aircraft, or select an open space to assign a new air force unit. IF you
+‘choose to assign a new air force unit, a list of reserve aircraft willbe displayed,
+Select which aircraft you wil assign to the new unit
+
+Enter the number of aircraft you wil assign.
+
+Select YES to execute your orders.
+(MARINES
+
+Assign Marines to your home port Marines wil be automatically deployed from the
+Navy reserves. You may assign up to 4 Marine divisions to your home pot.
+
+Lisr
+
+FLeeT
+
+View information on your fleets. Flets with delegated orders wil be displayed in ight
+blue for the American side and in orange for the Japanese. Fleets experiencing prob
+iems with orders will be displayed in yellow. To order a feet, select one fom the lis.
+
+itty
+
+===== Page 11 =====
+
+NAVY AIR FORCES (Navy A.F.)
+
+View information on the Nav’ base ait forces. To order an airforce unit, select one
+from the list
+
+MARINES
+
+View information on the Naw land forces. To order a division, select one from the
+ist
+
+‘SUBMARINE
+
+View information on your submarines. To order a submarine, select one from the list.
+
+BASE
+‘View information on all bases. Bases engaged in hatle will be displayed in red
+Select a base fom the list to view detailed information at the rid Map. To order
+a base, select one from the list.
+Post
+View information on all pasts. Posts engaged in battle wil be displayed in red.
+Selecta post from thelist to view detailed information at the Grid Map.
+ARMY
+
+Division
+
+View information on the Arms land forces.
+
+Air Force
+
+View information on the Army’ air forces.
+MruraRY OPERATIONS (Mz. OPS)
+
+Goats
+
+You victory conditions, missions, and the enemy’s goals wil be displayed. To
+kno the enemy's goals, you must develop a cyptograph which will decipher the
+enemys code.
+
+antler
+
+COMMANDING YOUR NAVY
+
+INTELLIGENCE (INTEL)
+
+Enemy Fleet
+The number of enemy carers, battleships, destroyers, and cruisers will be
+Aisplayed, If your spy technology level i iow, the numbers may be incorrect,
+or nat displayed.
+
+Spy Report .
+‘The port log of an enemy base wil be displayed. A spy must have successfully
+infiltrated the base to obtain the information.
+
+Sightings
+
+When abase or fleet detects an enemy let, a sighting number, Reet number,
+date, and composition ofthe fleet wil be recorded. The SIGHTING command dis-
+plays this information. Detected fleets wil iash onthe Nain Map when you select
+the sighting number fiom the Unit Search Press the Select Button to mark that
+{ocation (See below, Mart.
+
+Mark
+
+Mark important locations on the Main Map. You may markup to 3 locations. Press
+‘the left and rightarrow keys on the Control Pad to switch from displaying the
+marked location by name, to longitude and latitude coordinates. The map cusor
+wil jump to marke locations when delegating orders to your units.
+
+PERSONNEL
+
+Navy
+
+View alist of your Navy officers. Select an officer fom thelist to appoint as 2
+commander ofa unit. Select a commander ofa unit to dismiss the officer of his
+command. The ranks of Navy officers from lower to higher are: Rear Admiral.
+(BAdm) —> Vice Admiral (VAdr)) —> Admiral (Adm) —> Fleet Admiral (FAdm).
+‘An offices Sea Battle Experience (Sea) is determined by the amount of exper
+fence in naval battles and Air Battle Experience (Air) by air battles
+
+asta
+
+===== Page 12 =====
+
+COMMANDING YOUR WAVY
+
+Army
+View alist of Army officers. The ranks of Aimy officers from lower to higher are:
+Major General (MGen) —> Lieutenant General (LT6) —> Genera (Gen) —>
+General af the Army (GenA). An officer's Land Battle Experience (Land) is
+determined by the amount of experience inland battles
+
+INFORREATION (rxro)
+WARSHIPS
+In Service
+View information on your warships curently inservice.
+Being Built
+View information on your ships or submarines curently in production.
+
+Sunk
+View information on ships that sunk within the curent month,
+
+In Reserve
+View information on your unassigned ships,
+
+ARMAMENTS:
+
+Ship Class/Aircraft/Tank/Submarine
+View information on the ship classes, aircraft tanks, and submarines fom the
+US., Japan, and other countries.
+
+New Arms
+‘View information on your newly developed weapons.
+NATION
+
+Data
+
+View information on the national GNP, technology levels, base maintenance costs,
+and foreign budgets of the U.S. and Japan, Select the GNP or one of the technalo-
+{gy eves to view a bar graph representing the changes overtime
+
+atthe
+
+Navy/Army
+View infomation on the Navy or Amy reserves.
+
+Politics
+View information on other nations relations withthe U.S. and Japan, Suppor ev
+cls, and foreign policies.
+
+ASSETS
+
+This command can only be accessed from the Main Map.
+
+NETWORK (Ne)
+View the network of supply routes connecting bases and poss
+
+US base Japan base Neutral base
+
+Frashing squates indicate thatthe supply routes connecting those bases to the home
+pott have been severed
+
+ORE
+
+View the yield for ore at the bases
+
+Small Medium Large
+
+on
+
+‘View the yield for ol atthe bases
+
+Small Medium Large
+
+MATERIALS (MATL)
+View the amount ofthe Navy/s materials at each base.
+
+4-2,000 2,001-20,000
+
+atl
+
+20,001~60,000
+
+===== Page 13 =====
+
+Navy/ARMY
+
+View the Power level of Navy/Army land forces stationed at the bases. The maximum
+Power level of 1 land force division is 100, and up to 4 divisions may be stationed
+per base.
+
+1100 101-200 201-400
+Mar
+
+This command is available only at the Grid Map, and wil switch the sceen to the
+Main Map.
+
+Orrrow
+
+SAVE
+
+Save your curtent game. Saving a game will erase any previously saved game.
+Loa
+
+Load a saved game.
+
+Quit
+
+(Quit playing the game. You have the option to watch asthe computer controls the
+rest ofthe game, orto start fom the beginning
+
+SET-UP
+
+Adjust your game settings (See page 6, Game Settings
+
+COMMawDING YOUR WAVY
+
+The following explains how to select a fleet to command,
+
+® Fleet Commands
+® Meet Nae
+
+® Current Mobility/
+Maximum Mobility
+
+© Fleet Commander
+© Fleet Data
+
+Fuel Land Force Units
+
+FLEET ATSEA
+
+The following commands are available to your fleets at sea,
+
+‘SAIL intovz Puase] 1 OR MORE
+
+Move your flet. For every 100 km at sea, the feet consumes 1 Mobility point. To
+
+return to port, select a base as your target.
+
+© The Ret’ sailing range will be displayed atthe Grid Map, according to the
+Mobiity level. Select a target to which th fleet will move. You may nat move
+‘through lan.
+
+® Depending on the remaining Mobility, you may select another target. As Mobility
+allows, you may repeat these steps upto 5 times. To stop sailing with Mobility
+remaining, press Button X and select COURSE,
+
+aster
+
+===== Page 14 =====
+
+3 When you have sailed to the maximum af your Mobility, or you have mapped a
+course 5 times, select YES to set sal,
+
+‘The following attacking ranges differ according to the maximum cruising range ofthe
+fleet air forces. Consider these ranges when moving your flet, To view the ranges,
+press Button X and select one ofthe following:
+
+GUN RANGE (GUN Rc)
+Th let’ range fran attack with ts guns
+
+‘AIR RANGE (AIR RNG)
+The fleets range for an air stk.
+
+ORGANIZE (ona) (Movs Puast! 4*
+
+‘This command normally requires 4 Mobility points, but fora fleet whose maximum
+Mobility i less than 4, the command may be carried out ifthe fleet has not con-
+sumed any Mobility points.
+
+FORMATION
+
+Change the formation and/or the postions ofthe feet’ ships. The following is alist
+of the different types of formations:
+
+ating
+
+Commamprva our WAVY
+
+Double Ships form two vertical tines with the flagship in the lead of
+one line,
+
+Horizontal Ships form a horizontal line with the flagship at the center,
+
+Diagonal Ships form two left t right diagonal {ines starting from the
+flagship.
+
+Follow the steps below to change the formation of your feet and the positions of
+
+the ships
+
+@ Use the L/R Button and select a formation
+
+® To change the positions ofthe flets ships, select a warship. The ships name wil
+be displayed in yellow. Select another ship and the two ships will exchange post
+tions, or select an open space and the ship will ove to that postion.
+
+® Repeat steps and, until you are satisfied with the formation of your fleet,
+and select YES.
+
+SCUTTLE
+
+Scuttle ships that are outdated or damaged beyond repair. You may not scuttle @
+flagship when the fleet is at sea
+
+FLEET
+
+Eichange ships amang your lets,
+
+Selecta fleet with which you will exchange ships ftom the Grid Map. IF you select
+your own flet, you may divide it to make two flets,
+
+Select which ships you will exchange, Select an open space to move a ship to
+that space
+
+Repeat steps © and @ until you are satisfied withthe organization of your Reet,
+then select YES.
+
+Decide the number of transport ships for Group 1 and Group 2 of each feet
+Alot fuel for each feet, then select YES to execute your order.
+
+a
+
+===== Page 15 =====
+
+FLEET AIR FORCES (FLEET A.F.)
+
+Exchange ai forces among your ees
+
+© Selecta cater whose ar forces you wil exchange
+
+2 Select another care rom the same fet, or se the Canto Pd to sl data
+and select a care from a diferent et
+
+8 Theat force us ofeach carrer wil be displayed, Select which units willbe
+echange with one another, When the unis consist ofthe same typeof aca
+
+must choose wheter to exchange the entire unt ora sect numberof air
+
+Graft. When exchanging a select number of atta, you may not exceed the max
+‘rum capacity ofthe caer
+
+Select YES when you ae finished exchanging ai forces, and retur to the screen
+in step, You may select other cares to exchange ait forces, of sleet YES to
+vette your orders.
+
+rf
+
+6 the type of aircraft.
+
+Fleet Bomber (FB) Fleet Attack (FA)
+
+Land Attack (LA) Strategic Bomber ($8)
+
+The following matkers indie
+
+Fleet Fighter (FF)
+
+a
+
+Land Fighter (LF)
+
+ESCORT (rove Puast!2@
+Cider your aircraft to escort its fet. At the end of 1 turn the escorts wil return to
+the earir. Escorts will defend the fleet against an enemy airstrike or gun attack.
+
+® Select the cater from which you will deploy escorts.
+
+® A list of air forces aboard the carrie wll be displayed. Select an air force, The
+selected airforce wil be displayed in red, You may select an unlimited number
+of air forces.
+
+© Select ENTER to send cut the escorts
+
+4 You wll etum tothe list of carters. You may deploy more escorts from other carers
+by repeating steps (1, When you are finshed, select YES to execute your orders.
+
+tlle
+
+Comacamprwa vouR NAVY
+
+SEARCH (Praw Puast)1
+Send out the patrol craft aboard your carers to search the surrounding seas for
+enemy fleets.
+
+SHELL (Paw Puase! 1
+Attack an enemy fleet with your guns, After the Plan Phase, you will enter a naval
+battle,
+
+Day
+
+Wage a gun attack in dayight. You may stil attack at night after you launch an
+
+attack in daylight.
+
+NIGHT
+
+Wage @ gun attack at night. Your rate of successful hits will decrease, compared
+
+to an attack in daylight. The success rte of torpedoes, however, does nat change
+
+wether you attack at night or during the day.
+
+Fleer
+
+Attack an enemy fleet at sea
+
+‘The range of your gun attack wil be displayed. Select an eneny flet within
+your range.
+
+® After the Plan Phase, you wil enter a naval battle (See page 38, Naval Battles).
+
+BASE
+‘Attack an enemy base or enemy land force.
+
+D Your gun attack range will be displayed. Select an enemy base or post where
+enemy land forces are stationed. Bases that are located inland and have no
+
+harbors may not be attacked, even if they are within your range.
+
+You may attack the base facilities, or an enemy fleet atthe base. A docked flet
+
+wil not beable to counterattack.
+
+Select ENTER to execute your orders, After the Plan Phase, you wil enter a naval
+
+battle (See page 38, Naval Battles),
+
+ality
+
+===== Page 16 =====
+
+(STRIKE (Paw Puass! 1*
+Launch an air strike against the enemy. You cannot launch an air strike without fleet
+air forces, Your airstrike range depends onthe cruising range of you air forces. IF an
+enemy fleet is escorted by its aic Forces, an air battle will begin IF the numberof
+your air forces exceed the enemy’ escorts, you may strike the enemy flet after the
+air battle,
+
+FLEET
+1 Your airstrike range willbe displayed. Select an enemy fleet within your range.
+
+@ Ais of your fee's carters wil be displayed. Select the carrier from which you
+will aunch the airstrike, Select ALL to send out all availabe ar forces (Go to
+step 8)
+
+‘The caries air forces willbe displayed. Ai forces displayed in red are your
+escorts. Select which ar Forces will attack the enemy flet. Your selections will be
+displayed in yellow.
+
+Select ENTER,
+Follow steps 2) to select mare ar forces from other carirs.
+
+Select ENTER to execute your orders After the Plan Phase, you wil enter an air
+battle (See page 41, Air Battles).
+
+e
+
+BASE
+
+® Your air strike range wil be displayed. Select an enemy base from within the
+range. If there are enemy land forces stationed ata post within range, you may
+also select that post.
+
+® Follow steps @® in the Fleet at Sea, STRIKE-FLEET command.
+
+& You may target the base faites, or the enemy Reet at the hase. A docked fleet
+will not be able to counterattack
+
+‘RE-ARM (Borni1
+
+Re-arm your aircraft's weapons.
+
+@ A ist of your flets carers wil be displayed. Select the carer whose air forces
+you will e-ar,
+
+@ The carer’ air forces wil be displayed. Select which air force you will re-am,
+
+itil
+
+Commawpiwa vouR WAVY
+
+‘The aims ofthe airforce unit wil change in the order of Guns (G), Bombs (8),
+and Torpedoes (1), each time you press Button A
+
+Select ENTER when you are satisfied with the arms of your aircraft
+Repeat steps (i to re-atm other airforce units
+
+Select YES to execute your orders.
+OnDER/CAMNCEL (Born!
+Delegate orders to your fleets (See page 16, Oder), or cancel previous orders.
+
+Inro worm!
+Information on your fleet wil be displayed.
+
+Fleet Info Screen Warship Info Screen
+
+Press the Select Button atthe Fleet Info Screen to change the name ofthe fleet. You
+‘may select a name from the provided list, or enter an original name by selecting
+CANCEL, or pressing Button B.
+
+Selec a ship from the Warship Info Screen to view information on the ships in your
+Feet. Tf you select a carrer press the L/R Buttons to view the airforce units aboard
+the carrie,
+
+FLEET AT PORT
+
+The following commands are available to your fleets at pot.
+
+‘Fix (Move Puasei MAXIMUM
+
+Dry dack your ship to repair damages or equip weapons.
+
+===== Page 17 =====
+
+Commamprwa Your NAVY
+
+Quick
+
+Repair one damaged area ofthe ship ina short period of time.
+
+ToTAL
+
+Repair all damages toa ship.
+
+Follow these steps to execute @ QUICK or TOTAL fx to your ship:
+
+|AWst of your ships at port will be displayed. Select which ship you will epair,
+
+Select QUICK or TOTAL, Ifyou select QUICK, you must select which damaged area
+you will epar.
+
+The number of days it wil take to repatrthe ship wil be displayed. Select ENTER,
+
+Repeat steps (O~ to repair other ships at pot, Select YES to execute your
+orders.
+
+Equip
+You may equip yout ships with new weapons when they have been developed (See
+page 20, New Arms).
+
+@® A list of your ships at port wil be displayed. Setect which ship you will equip with
+new weapons.
+
+® Select the EQUIP command.
+
+Select which weapons you wil add to your ship, You may select as many weapons
+as you wish, Once a ship is equipped with the weapon, however, it cannot be
+removed. When you equip ship with rockets, it will not be able to attack with
+torpedoes.
+
+‘The number of days it wil take to equip the weapons will be displayed
+
+Select ENTER.
+
+| Repeat steps (D~9 to equip other ships. Select YES to execute your orders
+
+ORGANIZE (ona) (Move Puass] MAXIMUM
+‘Organize your fleets at port You may exchange ships and aircraft with those
+stationed at the base, or ther flets at port
+
+tity
+
+FORMATION/FLEET/FLEET A.F,
+
+“These commands are the same a the Fleet at Sea ORGANIZEFORMATION FLEET/FLEET
+AF. commands (Seepage 26, ORGANIZE. For fleets at pot, you may aso exchange
+aircraft among you base ar forces and et ai forces.
+
+SCUTTLE
+
+For fleets at port, you may scuttle all ships in your fet, including the lagship. IF you
+scuttle your flagship when there ae land forces on board, the land forces wil auto
+matically debark at the base. When the base has the maximum é land force units, you
+‘may not scuttle your Flagship. Scutting al ships inthe Ret terminates its existence.
+
+BASE AIR FORCES (Base A.F.)
+
+Exchange ait force units withthe base
+
+© Ais of your ees carriers willbe displayed, Select the carer whose air forces
+you wil exchange
+
+Your leet air forces and base air forces wl be displayed. Select which units you
+
+vl exchange. The selected uit wil be displayed in yeliow
+
+The airforce units wil witch positions when you selet the second uit. When
+
+the uits consist of the same type of aircraft, you must ener the number of ai
+
+Craft you wl exchange. The number of aera may notexced the maximum
+
+capacty of the cae,
+
+SUPPLY (movz Puass! MAXIMUM
+Supply your fees at port with fuel or aircraft.
+
+FUEL
+Select FUEL to supply fuel to your fleet, or TRANSPORT 1/2 to add transport ships to
+the respective group, There is @ maximum oF 4 transport ships per group.
+
+AIRCRAFT
+Supply your fleet with aircraft, Follow steps @~2 in the Main Command, ASSIGN-
+BASE AF. on page 17
+
+sillier
+
+===== Page 18 =====
+
+DEBARK (Movs Puasr]) MAXIMUM
+
+Order the land forces aboard your ships to debark. A maximum of 4 land force units
+
+‘may be stationed at a base. The land forces may not debark, ifthe maximum has
+been reached.
+
+DEPART (Move Puaszi 1*
+
+Order your fleet to shore off and set sal, Follow the steps inthe Fleet at Sea, SAIL
+command (See page 23)
+
+OnDER/CAWCEE (Born O
+
+Delegate orders to your Fleets (See page 16, Order), or cancel previous orders
+Ino cworn
+
+Information on your fleet will be displayed (See page 29, Info).
+
+BASE
+
+The following explains how to select a base to command,
+
+Base Commands
+@ Base Data
+
+® Harbors and Docks
+© Wilds
+
+CommawDING YOUR WAVY
+
+‘Yield for it and ore:
+
+oa w@
+
+None Small Medium Large
+STATUS OF HARBORS
+No Full Open Under, Destroy
+Harbor Harbor Harbor Constuetion He
+Open full Under Destroyed
+Dock Dock Construction s
+No Normal Under Destroyed
+Airfields Airfield Construction
+BASE SCREEN COMMANDS
+‘FLEET
+‘Access the Fleet at Prt Commands (See page 29, Fleet at Port).
+AIR FORCES (a7)
+‘Access the Base Air Force Commands (See page 34, Base Air Force Commands).
+Lawy FORCES (LF)
+
+Access the Land Force Commands (See page 36, Land Force Commands).
+
+asthe
+
+===== Page 19 =====
+
+Base
+
+The following commands help maintain the operation of your bases.
+
+‘TRANSPORT [Move PHASE]
+
+Transport materials from the Navy's reserve to the base. Enter the numberof trans
+port ships andthe amount of materials forthe base. The number of days it wil take
+to send the materials wll be displayed. You may not transport more materials until
+the current shipment is completed, Press the Select Button to view information on
+the use of base transports.
+
+HARBOR [Move PHase]
+
+Build harbors at your base as the base's budget, supplies, and occupancy allows. You
+‘may build a maximum of 5 harbors per base. The combined total of your harbors and
+docks at one base may not exceed 8, It will take 1 month to build a harbor. You ca
+nat build 2 harbor inthe same month that you have built a dock
+
+DOCK [Move PHASE]
+
+Moity your harbors to build docks as the base's budget, supplies, and occupancy
+allows. Repair your damaged warships atthe docks You may build a maximum of 4
+docks per base. I wl take 1 month to build a dock You may not build a dock inthe
+same month that you have uit a harbor.
+
+AIRFIELD [Move PHASE]
+
+Build airfields at your base as the base's budget, supplies, and occupancy allows. You
+may build p to 2 airfields per base. You cannot build more than 1 airfield inthe
+same month
+
+LAY MINES/MINE SWEEP [Move Puase]
+
+Lay mines a your base to protec your transport ships against a submarine attack.
+Keep in mind that your own submarines wil not be able to enter the base's harbor
+after you lay mines. You may remove mines with the MINE SWEEP command,
+BASE AIR FORCE |
+
+The following commands are available to your Navy base air forces. You cannot isue
+
+‘orders to the Army’ ar Forces.
+
+Commawpiwa vour WAVY
+
+ESCORT (move Puaszi2
+Order your base air forces to take off and prepare for an enemy attack on the base
+
+Follow the steps in the Feet at Sea, ESCORT command (See page 2, ESCORT}.
+
+‘RE-ARM (Bornit
+Re-aim your aircrafts’ weapons.
+
+ Alistof your base air Forces willbe displayed. Select which air force you
+wll re-arm,
+
+@ The arms of the air force unit will change inthe order of Guns (6), Bombs (8),
+and Torpedoes (T), each time you press Button A
+
+Select YES when you are satisfied withthe aterafts’ arms.
+
+ASSIGN tors Pxaszi @*
+
+Assign aircraft to your base ar forces, Follow the steps forthe ASSIGN-BASE AF
+‘command (See page 17, Assign).
+
+Onaaw1zE (ono) tmovz Pxaszi #*
+
+Exchange airforce units among your bases.
+
+@ A list ofthe bases available to exchange air forces willbe displayed. Selecta base
+from the ls.
+
+The air Force units of each base will be displayed. Select which units you will,
+‘exchange. Your selections wil be displayed in yellow. When you select the second
+uni, the two airforce units will automatically exchange postions
+
+@ Select YES to execute your commands
+
+SEARCH (Prax Puaszi1
+(Order your base air forces to search for enemy fleets inthe surounding seas.
+
+STRIKE (Paw Puast){*
+
+Wage an air strike with your base air forces. Follow the steps forthe Fleet at Sea,
+STRIKE command (See page 28, Strike)
+
+ORDER/CANCEL ori O
+Delegate orders to your base air forces (See page 16, Orde), or cancel previous orders.
+
+aailllicy
+
+===== Page 20 =====
+
+Inro worn!O
+
+Display information on your base alr forces. Use the left and rightarrow keys on the
+Control Pad to scroll data
+
+LAND FORCE COMMANDS
+ze
+
+3) Land Force Commands
+EME! 2 Land force Name
+
+® Commander
+@ and Force Data
+
+The following commands are available to your land forces. Aland force unit may exe
+cute 1 command per turn.
+
+Move ove Puast)1
+
+Move you land forces to another base or post,
+
+@ The bases and posts to which you may move wll be displayed. Select a base
+or post
+
+@ Select YES to move or CANCEL to choose anather location.
+
+BoAn (Move Puaszii
+
+Order your land forces to board a fleet at port
+
+® Aist of availabe lets willbe displayed. Select which fleet you wil boar
+
+Select VES to board the Meet. A unit with a Power level of 25 requires 1 transport
+Your land forces may nat board the feet, if there are not enough transport ships
+
+ATTACK (Pray Puasti1
+
+Attack an enemy land force unit ata base or post (See page 42, Land Battles)
+
+Onpen/Cawcrt Born! O
+
+Delegate orders toa land forces (See page 16, Orde), or cancel previous orders,
+
+atelier
+
+COMMANDING YOUR WAVY
+
+ORDER/CANCEL (Born) 0
+Delegate orders to your submarines (See page 16, Order), or cancel previous orders.
+
+===== Page 21 =====
+
+BATTLE IN THE PACIFIC
+
+BATTLE IM THE PACIFIC
+
+‘battle occurs when you wage an attack on the enemy, or an enemy unit attacks
+you. Battles begin aftr the Plan Phases for both the US. and Japanese sides are
+Completed. InP.1.0. II there are three different battle modes: naval battles, air
+battles, and land battles
+
+WAVAL BATTLES
+Naval battles occur in the following situations:
+YourFleet vs Flet at sea/Submarine
+Your Fleet vs Enemy base/leet at port
+Your Fleet vs Land forces at @ base or post
+Your fleet willbe automatically positioned atthe start ofa naval battle.
+
+END OF ABATTLE
+
+‘naval battle ends when one ofthe folowing conditions are met
+
+® Fleet
+
+® Fleot/Marship Commands
+(See page 23)
+
+ZOOM FEATURE
+
+When selecting a warship to command, press the L/R Buttons to get a broader view
+ofthe surounding area, Press the L/R Buttons again to zoom in and return to the
+previous view.
+
+WAVAL BATTLE MARKERS
+
+Wansxirs
+
+Warships wil have the fllowing codes to represent the types of ships. Ships that are
+aweiting orders are displayed in white, and ships that have completed their orders
+are displayed in gray,
+
+DBE Dreadnought Batteship [BB Batleship [eV _Avcaft arte
+CL Light Carer lca Heavy criser [eu Light curser
+
+DD Destoyer JAP Transport [SS Submarine
+
+atillliay
+
+===== Page 22 =====
+
+BATTLE IN THE PACIFIC
+
+‘Base FACILITIES
+
+‘Move the cursor toa base fac
+
+ity to view the name of the facility or land farce,
+
+land Forces Navy Storage Army Storage Factory Airfield
+WARSHIP DAMAGE
+The following describes the type of damage your warships may incr in battle,
+Tocaron | Riva Basar
+Dek X | The damage maybe minal, sgh, or seo When the
+svength of any prt the del becomes the si wil ik,
+Bdge x _ | The commandermy di, or ar weapons may
+(ie be desuoes
+ader © | The ship wi nly be capable of moving forward
+ine 1 | These ofthe tip wl ete, When the macnum capable
+speed becomes 0th sip wl sik
+emo, X | Te stip be ncaa of anacking with saan gus ad
+(Poede) ns
+Tope Tae |x | The ship wl be ncaate of toed tack
+ain Ge | Teattackig suet ofthe sips min gos wil decease
+Titbecooes the ship wl sink
+‘etcaien |x | Theatckng strength ofthe sip artarea gre
+snl decease, ems 0, te ship wl sink
+fie © | thesvength ofthe tps amor wil comin a Gece uti
+‘he fire iestgite The net engi fre cepende
+on the water andthe experience len of the ship's ren
+anger X__| Toe under of the caries aa wl decease,
+fates Tonks 0 | Theaubnaine wile uate to strane.
+Gack in 0 | Thesvsne il be nable to submet spening
+he Amar eo the station it may ik
+
+atilliar
+
+© = Copabie of aly repairing damage at sea
+
+Capable of repairing damage so that ship may recover up to hal ofits
+maximum speed.
+
+X = Damages cant be pied a sea, You mst return to port ad dry
+dc the ship.
+
+AIR BATTLES
+
+Air battles occur inthe following situations:
+
+YourAF. vs. Fleet t sea
+Your Af. vs. Enemy base/fleet at port
+Your AF. vs. Land forces at a base or post
+
+Data on your air forces willbe displayed when the battle begins.
+END OF THE BATTLE
+
+‘an air batle ends when one of the following conditions are met:
+
+(AIR BATTLE SCREEN
+
+(arcis Base
+
+Targets
+@ Air Force Data
+
+@ Air Battle Commands
+(ee page 46)
+
+===== Page 23 =====
+
+AIR BATTLE MARKERS
+The following markers are displayed in an air battle
+
+Dreadnought Battleship Battleship __Carrier/Light Carer
+
+Cruiser Destroy Transport Ship
+
+LAND BATTLES
+
+A land battle occurs when two opposing land force units or air force units battle
+against each other. Land battles are controlled by the computer, and you cannot
+‘ssue commands for that battle. Aland battle ends when each side has completed
+a series of bale turns.
+
+OCCUPYING BASES/FOSTS
+Cnty and forces are capable of occupying a base or pot. A base or pst will be
+‘occupied when it fs attacked and both ofthe following conditions are met
+
+When you occupy a base linked to your home port, you will obtain money and materi
+als from that base, Bases occupied by the Marines wil become a Navy base, and
+bases occupied by the Army wil become an Army base.
+
+BATTLE COMMANDS
+
+BATTLE COMMANDS
+
+NAVAL BATTLE COMMANDS
+
+Press Button X to switch modes from commanding your entre fleet to commanding
+each warship within the let. When commanding each warship, move the cursor to
+warship to view its information and press Button A to select it,
+
+FLEET BATTLE COMMANDS
+
+The following commands are availabe to direct your entire fleet in battle
+
+Delegate orders to your let.
+
+‘ORDER
+Delegate control of your entire fleet. The actions of the fleet will vary depending on
+the situation.
+
+TARGET
+Select a target fo
+or land forces.
+
+RETREAT
+
+Retreat from the battle
+
+Lanp
+‘Order your Marines to land at the base. This command will not be displayed, if you
+dont have any landing forces aboard your est
+
+Inro
+
+View information on your warships in battle
+
+orriow
+
+Review or change your options for the message display speed and animation
+
+your fleet’ attack. Choose from enemy warships, base facil
+
+===== Page 24 =====
+
+WARSHIP BATTLE COMMANDS
+Te following commands are available to direct each of your warships in battle,
+Move
+
+Move your warships. Select 2 position within the displayed sailing range of the
+warship. After moving the ship, decide whether or not to attack.
+
+STEER
+
+Change the ditection of the warship. After changing directions, decide whether ar
+not to attack
+
+ATTACK
+Attack an eneriy warship, land
+
+oF base facility
+IF your cruisers or destroyers are equipped with torpedoes, you may attack with guns
+or torpedoes. Only the port or starboard sides ofa ship may be attacked by torpe
+does. When a warship equipped with torpedoes attacks an enemy submarine, dept
+charges wil be dropped,
+
+If your ship is equipped with rackets and you are attacking a base facility or land
+force unit, you may attack with guns or rockets,
+
+The number of your remaining torpedoes or rockets will be displayed inthe Warship
+Info Screen (See page 29, Info). You may r-supply your torpedoes and rockets ata
+base with the SUPPLY command.
+
+The following table lists the shooting ranges of your armaments
+
+a Tah Guero
+ght Care 3 | eon Guiser 6 | Uahe Cuser
+De ee
+
+antl
+
+BATTLE COMMANDS
+
+View information on your warships in battle
+
+E
+
+Delegate orders to your warships to attack a selected TARGET, MOVE toa specified
+position, RETREAT from battle, or LAND the landing forces.
+
+Lax
+
+You may order a landing operation when you are attacking a base or post and have
+land forces aboard your transport ships. If there are no enemy land forces at the base
+‘or post, you wil successfully occupy the area. If enemy land forces ae stationed at
+the base or post, you may attack with your land forces the day after the naval battle
+is over by selecting ATTACK from your Land Force Commands (See page 36, Land
+Force Commands-Atack)
+
+DD Move your tansport ships close.to shore.
+|® Select LAND from the Battle Commands!
+RETREAT
+
+Retreat your warships fom the battle by maving opposite of where you were pos
+tioned at the start of the battle and selecting RETREAT from the Baitle Commands,
+
+MARINE BATTLE COMMANDS
+When an enemy fleet attacks a base where your Marines are stationed, you may give
+orders to your Marines,
+
+ORDER
+
+Delegate contol to your Marines forthe entire bate
+
+TARGET
+Selecta target for your Marines to attack
+
+astillleay
+
+===== Page 25 =====
+
+AIR BATTLE COMMANDS
+The following commands are available in an air battle
+
+ORDER
+
+Delegate contol to your air forces for the entire battle
+
+Tanorr
+
+Choose whether to target an enemy warship or base facility. Your ar forces will
+decide which specific warship or base facility it wil attack,
+
+Eacz
+
+Give orders to each airforce unit separately. Attack an enemy warship, base facility,
+or land force, Press button B to command a unit to rest
+
+© Select a target fom the Air Battle Screen, Press Button X to resume commanding
+all air forces,
+
+® Data on the enemy’ warship, base facility, or land force will be splayed when
+you select a target, The method of attack will depend on the arms of the aircraft.
+You cannot attack with torpedoes when another warship is infront of your target
+
+© Select ENTER to commence the attack
+
+Warr
+Cancel the attack and wait for a bette opportunity
+
+Inro
+
+View information on your airforces in battle.
+
+‘MONTHLY CONFERENCE
+
+MONTHLY CONFERENCE
+The conference begins on the ist day ofeach anh, You attend conferences a the
+
+representative of the Navy.
+
+The conference proceed inthe style of a card game. Each player interacts with the
+other members ofthe conference to discus the topic. Fifteen minutes are allotted
+to discuss each topic. The game advances one minute for each card used by the
+‘members, Some cards may lengthen or shorten the time ofthe conference.
+
+YOUR ATTEWDANCE
+
+n the first day ofeach month, you wil be summoned to attend the conference.
+Select YES to attend the conference, and CANCEL to be counted absent. If you are
+absent from a Conference, all topics, except fox Weapon Production and Espionage,
+wil be decided without your vote.
+
+CONFERENCE SCREEW
+
+© Leader
+® Secretary
+© exit
+© Cards
+
+Use the Control Pad to move the cursor, and press Button A to select a card. Press
+Button X during the meeting to view other members’ suggestions, decisions made on
+Aiscussed topics, or temporarily exit the meeting,
+
+attilllay
+
+===== Page 26 =====
+
+PROGRESS OF CONFERENCE
+Dealing the Cards Before the meeting, 2-7 cards are dealt to each member. The
+numberof cards is determined by the results of the previous month's objectives,
+and the state of afars inthe members’ country
+
+‘MONTHLY CONFERENCE
+
+BB errr nc
+
+Ask all members to agree with your proposal. To refuse the UNIFY card, members
+must use a REFUSE card.
+
+Proposals After the meeting begins, members state ther proposals onthe topics.
+You submit the Naw proposal afterall other members.
+
+Discussion Using cards, the proposals are discussed.
+
+Decisions At the end ofthe discussion period, if only one proposal remains, that
+proposal will be adopted. If thee is more than one propasa,the leader of the
+‘meeting wil take a vote, You must select a proposal to enter your vate, When you
+are voting on your own proposal, a proposal that is identical to yous, or when
+you have agreed with someone else's proposal, you will automatically vote for
+that proposal.
+
+Ifa decision cannot be made after taking a vote, or if no proposals are submit
+ted, the decision wil be made ata later conference. (You will not participate in
+this conference.)
+
+AGREEMENT AND APPROVAL
+
+When a member submits a proposal that is identical toa previously submitted pro
+posal, that member agrees with the other membe’s proposal. If member does not
+REFUSE another members UNIFY or DIRECT card, that member approves the other
+members proposal. You cannot play the UNIFY, DIRECT, or PLEAD card on a member
+who agrees with or approves another member’ proposal.
+
+PLAYER'S CARDS
+‘There are & types of cards used during meetings.
+
+‘The numbers in parentheses show the amount of time used by playing each card
+Cards that can be used are displayed in bright colors,
+
+PLAw (1 scm)
+
+Submit your proposal forthe tapc of discussion Each member can make one propos-
+al for each topic.
+
+aitlliey
+
+(DIRECT ua)
+Persuade another member to agree with your proposal. To refuse the DIRECT card,
+members must use a REFUSE card,
+
+en
+
+Persuade another member to withdraw his proposal. To refuse the PLEAD card, mem
+bers must use a REFUSE card,
+
+BB sree
+
+Use this card to refuse a UNIFY, DIRECT, or PLEAD card
+
+_ ee
+
+ass your turn to anather member of your choice.
+
+‘BIDE tnaxpom)
+Bide for time to shorten the discussion. The clock advances at random, between 2
+and 6 minutes.
+
+a EXTEND (+ naxvou)
+Ask to extend the discussion. The time will be extended at random from 3, 6, or 10
+minutes
+
+atalllay
+
+===== Page 27 =====
+
+PLAYER'S OPTIONS
+
+‘You have the following options when itis your turn to state your proposal, or the
+PLEAD o- UNIFY card has been presented to you by another member.
+
+USE A CARD Selecta car to play. Cards that can be used are displayed in bright
+colors.
+
+DISCARD A CARD 1f you have no cards that can be used, or if you don't want to
+use a card, you may discard a card. Press Button B and choose the card to be discard
+ed. Each time you use or discard a card, it wil be replaced by another card.
+
+HOLD When a UNIFY, DIRECT, OR PLEAD card is played, you may use a REFUSE card,
+‘oF not use any card. If you don’t want to use a card, press Button B,
+
+VIEW A PROPOSAL Press Button X and select a member's proposal.
+
+‘VIEW DIRECTIONS Press Button X and select the Secretary to view the decisions
+that have been made.
+
+EXIT TEMPORARILY Press Button x and select the ext to pas on atopic. The
+topic wil be decided automatically, according to the discussion ofthe remaining
+member,
+
+DRAFTING YOUR PROPOSAL
+
+5 topics are discussed at the meetings - Foreign Affairs, Operation Goals, Budget,
+Supplies, and the Draft.
+
+FOREIGN AFFAIRS
+
+Draft your nation’s policy on alliances, pacts, and declarations of war. Select a nation
+and your policy, Policies displayed in red may not be selected. To declare war or
+
+betray a pact, you must also enter a date, Select INFO to view information on each
+nation (See page 57, Nations).
+
+DECLARE WAR Declare war agains a nation on the specified date.
+REQUEST WAR PARTICIPATION Ask a neutral nation to join your side in the war.
+
+MILITARY PACT sign 2 military pact with nation, and gain free acess to its
+bases, The nation with wham you sign a pact cannot participate in battle,
+
+‘AID PACT sign an aid pact with a nation to draw a monthly income from its bases.
+The nation with whom you signa pact cannot participate in battle
+
+actor
+
+MONTHLY CONFERENCE
+
+PEACE TREATY signa peace treaty wth a nation to occupy is bases and dsmantie
+its mtay forces, Aer apace treaty concluded, the natin cannot participate in
+the game, Peace treaties cannot be broken
+
+NEGOTIATIONS Incase yu vl of Suppor vith notes cour by faldng
+friendly meetings. You must have adequate funds in your Foreign Budget
+
+BREAK MILITARY PACT/AID PACT Break a military pact or an aid pact, Your
+Suppor ovl with that country wil decease.
+
+OPERATION GOALS
+
+Define your mission and the forces (Navy, Army, or bth) to lead the operation,
+You may have up to 3 operation goals. Ifthe previous month's goals have not been
+accomplished, you may continue pursuing those goals, or establish new ones by
+selecting CANCEL,
+
+To set up a target, select a base from the Map. At the Map, press Button X to select
+the Main Command, ASSETS (See page 24, Assets) or one ofthe following commands.
+
+FLEETS the locations of your lets are displayed onthe Nain Map,
+SUBMARINES The locations of your submarines are displayed on the Main Map.
+
+BASES The same list of bases is displayed as when you select the LIST-BASE con
+mand (See page 17, List). Select a base from this list to establish your gol
+
+GOALS view the goals that have been chosen.
+Musstow
+
+Select one of the following strategies for your objective
+OCCUPY Occupy the base or post with your land forces.
+
+DESTROY oestoy the bse factory and reduce its production capacity to 0. (Even it
+the base is occupied, it will be destroyed.)
+
+DEFEND This missions automaticaly selected when yous
+your conto,
+
+base or post under
+
+===== Page 28 =====
+
+‘MONTHLY CONFERENCE
+
+BUDGET
+
+Select a budget and enter the amount of money you wil allocate. Press the Select
+Button to view a summary of expenditures. Allot your Budget for the following items:
+NAVY BUDGET Money used to Finance the Naw.
+
+ARMY BUDGET Noney use to fin
+FOREIGN BUDGET Money set aside for negotiations with foreign nations.
+
+BASE BUDGET Money used to maintain the operation of your bases.
+TECHNOLOGY BUDGET Money used to develop your nation’s technology. After
+allocating your entire budget, decide whether or not you wil allocate funds for spe
+cific eategores in the Technology Budget. The Technology Budget is divided into S
+parts Espionage, Naval Technology, Aeronautics, Weapomy, and Industry. If you
+allocate less than 500, the technology in that category wil fall behind. Amounts
+exceeding 2500 do not have a greater affect on developing your technology.
+
+GOVERNMENT BUDGET Honey used for domestic needs. This affects your
+rational GNP.
+
+SUPPLIES
+
+Distribute supplies to the Navy, Army, and nation. Choose one and enter the amount
+of supplies you will allocate. Press the Select Button to view a summary of the
+‘expenditures for Navy supplies.
+
+NAVY Distribute the Navy’s supplies tothe bases with the Base Command, TRANS.
+PORT (See page 34)
+
+ARMY The Army supalies willbe automatically divided among the Army bases.
+NATIONAL The amount of national supplies affects the national GNP.
+
+DRAFT
+
+Draft people for the Navy and Army. (The U.S. has a fourth category: European
+Personnel.) Ifyou draft many solders for the Army ox Naw, your national GNP will
+fall. When your national GNP decreases your next month’ income wil also decrease.
+Press the Select Button to view information on the dat
+
+nce the Army.
+
+actly
+
+0
+
+0/28
+wn.
+
+(ON HAND the curent number ofthe Navy suply af the arsenal
+BUILDING (BLONG) The number curently in prodution
+BOMBED (Bowe’D) The nunber of damaged arsenal
+
+MAX BUILD The maximum aunber you may build for that arsenal
+
+Decide how many warships, submarines, transport ships, aircraft, and new warships
+the Navy wil build. You must have an adequate amount of money and materials to
+build new weapons
+
+Press the Select Button to view the names of ships scheduled for production.
+
+Sars
+® Select the type of ship you will build.
+@ Ais of ship classes wil be displayed. Selecta ship class.
+
+Decide a name for the ship. Select YES to choose a name from the lst, or
+CANCEL to create an original name.
+
+@ Confirm that you want to build the ship. Select YES to execute your orders
+SUBMARINES
+
+@ Ast of submarine classes wil be displayed
+
+@ Select a submarine. Your choice wil be displayed.
+
+Follow step & from Ships above.
+
+aati
+
+===== Page 29 =====
+
+TRANSPORT SHIPS (TRAWS)
+1 Enter the number of ships you wish to build
+® Verify your number. Select YES to execute your orders,
+
+PLANES
+
+There are many types of aircraft you can build (See page 56, Air Forces), You may
+‘pen up to 2 production Lines for every aircraft type. Active production tines will
+display the name ofthe aircraft in white, Inactive production lines wil display the
+name of the aircraft in gray
+
+‘AIRCRAFT-ACTIVE PRODUCTION LINES
+
+® Select which aircraft you will build from the lst of area
+
+| Confirm that you want to build the aircraft. Select YES, and input the number of
+aircraft to be built. Ifyou select CANCEL, you wil be asked to verify whether or
+not to stop the production line. To stop building, elect YES, Stopping a produc-
+tion line ofan aircraft wil reduce the number of reserve aircraft for that type to
+0, and increase the Naw’ supplies.
+
+‘AIRCRAFT-INACTIVE PRODUCTION LINES
+@ Select which aircraft you wil build from the ist of airrat
+
+@ Confirm that you want to activate the production line. Input the number of ar:
+to be bul.
+
+AIRCRAFT - NO AVAILABLE PRODUCTION LINES
+® Select which aircraft you wil build from the lst of aiteraf
+
+® You must stop a curently ative production line to open another one, Select YES
+to stop a production tne,
+
+Select which production fine you wl stop.
+
+© Confirm that you want to stop the production tne, Select YES, and input the
+numberof airraft to be built.
+
+e
+
+ms
+
+‘MONTHLY CONFERENCE
+
+Ontcmar Wansurr
+Design a new type of ship. Your nation’s technology needs ta reach a certain level to
+design new ships. You may build new ships in the following month by selecting the
+
+SHIPS or SUBMARINE command under Building Weapons in the conference.
+
+‘© A list of new warships wil be displayed. Ifa ship can be designed, the ship's data
+wil be displayed; other ships will be displayed as “Incomplete (INC),
+
+@ Selecta warship to design,
+
+The screen wil switch to the New Warships Screen, Enter the data forthe new
+ship's capabilites
+
+@ Enter a name for your ship,
+
+ESPIONAGE
+
+After the meeting, select three enemy bases tobe infiltrated by your spies. You may
+view the data collected by spies withthe OPS-INTELLIGENCE-SPY REPORT command
+(See page 19, Spy Report). You may also view the collected base data with the LIST-
+BASE command (See page 17, List).
+
+===== Page 30 =====
+
+DATA AT A GLANCE
+
+AIR FORCES
+
+FLEET Fighter ara capable of taking off and nding
+Framrmm ir) | ona care
+LamD
+
+ary | ghersrrat designated toa hase srt
+FLEET Bomber aircraft capable of taking of and landing
+‘BOMBER (FB) | on 3.carie.
+FLEET tack aircraft capable f taking off and landing
+arraceiay | onacaie.
+‘LAND 5
+Feorne ozay | Mtackaicoat designated toa base ail
+‘STRATEGIC
+Fomcuim aay | amber arf designated toa bas aii
+
+Designed to search fo enemy uit. The sucess
+
+wavy
+a tate of etecting an enemy unit difers according
+
+to the crisng range, experience level, and number
+of airrat
+
+EXPERIENCE (EXP) The experience level ofthe air forces. High experience levels
+are an advantage in battle
+
+POWER The attacking power ofthe aircraft It affects attack and defense operations.
+
+RANGE (RNG) The cruising range ofthe aircraft affects the search and striking
+ranges
+
+catia
+
+DATA ATA GLANCE
+
+BUDGET The amount ofthe Amy/s budget.
+INFANTRY The number of reserve infantry units.
+
+TANKS The number of tanks in the Army/ reserve
+
+SUPPLIES The amount ofthe Army's supplies.
+
+TRUCKS The number of truck in the Arm/s reser,
+
+AIRCRAFT The numberof aircraft (fighters, bombers, scouts, and tactical bombers)
+in the Army reserve.
+
+Warroxs
+
+NAT. The name of the nation, AUS = Australia, CHN = China, ENG = England,
+JPN = Japan, SOV = Soviet Union, THA = Thailand, USA = United States
+
+RELATION WITH JAPAN/USA The nation's relationship wth Japan or the US.
+SUPPORT (SuPP) The nation’s suppor level with you country.
+
+LEADER The name ofthe nations politica leader.
+
+(rece POLICY Your foreign poticy for that nation. This is decided at the
+Wavy
+
+BUDGET The amount ofthe Naw budget.
+
+MARINES The number of reserve Marne divisions
+
+SUPPLIES The amount ofthe Naw supplies.
+
+TRANSPORT The sume of tansport ships in the Naw reserve.
+
+AIRCRAFT The numberof aircraft (Reet fighter fleet bomber, fleet attack,
+scouts) in the Navy's reserve
+
+===== Page 31 =====
+
+TERRAIN The terrain of the post. The higher the natural defense barriers of the
+terrain, theless damage land forces will incur in an attack The types of tern from
+lower to higher defense barter are:
+
+a = Ld
+Pains Forest Mountains Towns
+Tawxs
+BARREL The caliber ofthe main guns Displayed on aleve of 1-4
+ARMOR The strength of the tank’s armor. Displayed on a level of 1~4,
+
+WanrsHirs
+[ARMOR (ARH) The strength of he si’ armor. Ifitbecome o the ship wil sink
+
+DUTY the delegated odes ofthe submarine or warships let. MOVEsKove,
+SPLY-Suppy, ENGE-Engage, STRKSrie, SHEL-Shel,PTRL=Patrol, OCPY=Occupy,
+DFND=Defend, ATIKeAttack, LANDaLan, ASUBHAnt-submarie.
+
+EXPERIENCE (EXP) The experience level ofthe crew. High experience levels are
+an advantage in battle
+
+FLT.# Number of the fleet to which the ship belongs.
+
+MATERIALS (MATL) The amount of materials loaded on the ship.
+POSITION (Pos.) the position af the submarine or warship’ feet
+‘SPEED The maximum sling peed ofthe ship in calm wats.
+TRANS1/TRANS2 The sunber of transport in transport group 1 or 2,
+
+TORPEDO (ToRP) The number of posible torpedo attacks. Resupply you
+torpedoes with the SUPPLY command
+
+USFLT the destructive power ofthe ship's gus. I affects the strength of attacks
+against lets.
+
+VSAIR the destructive power of the ships anti-aircraft guns. It affects the strength
+of attacks against air forces.
+
+HPL The number of planes that may be loaded on to the ship.
+
+asl
+
+WARRANTY
+
+90-Day Limited Warranty
+Caparatin warrant nga consumer purchaser hat hs gare pak sabe rm
+tance hao ad wokvosty Urs pros ts em oe pratt ete coed
+by this waranty acu dng tis Oy waranty eid, Ks wil par oxepace he gare sk. at
+1S opin, reo kage
+Toecave this waranty serie:
+1. Send inyour epstation Ca
+2 Save our sls revi. ndatn dal of purchase, nthe UPC code found on he game pecan
+ing
+5. your game covered unde a store waranty, tun the game ako he store at wich you pu
+casa pane
+4.1 te game develo problem requng serie during the 9-day waranty peso, and is ot cor
+‘ey store waranty, ety Kei Gory cling the Techical Support Dept. at (158-0500,
+butween he hours of 9 a.m, to 4:6 p.m, Pasi Standard Tne, Monday though Fay
+Senge Rapes unable sl the rol by phone you wl prosde wha
+fet hittin rue es is mbt anne on eo paar
+ese your name adress and pre ures an ey he qa ak FREIGHT PRE
+Frid i SURED LOSS UR OME oe wm ours nde UC cae n e
+‘hay waranty rid to
+EH Coarton
+
+roa ae Uae os we corey da
+Unreasonable use, modification, tampering, or by other causes unrelate to deecve materials or
+Workmanship.
+
+Service After Expiration of Warranty
+
+ithe game pk eweleps a prablem equing sence ater the 0-6 waranty peta, yuna conte
+tne Kai Techical Support Oe the pone nutes notes presto Kai Sruce
+apres uaa to soe the rele y pone you may be prove wa Return
+Auo‘zaon mar and ase to std th game pk fo Koel persona inspection Record this num
+ber prone on the ous packaging of te detective game pk and return
+
+FREIGHT PREPAID AND INSURED FOR LOSS OR DAMAGE to Koo wth a ek or mney ere fr
+$2010 com pao plactnent,pajale to Kol Corporation. Koel reserves he ight 0 change the
+ast waranty sane fe alr pot
+
+asillhiey
+
+===== Page 32 =====
+
+Call now to order KOEI
+
+games direct! 415-348-0500
+
+ROMANCED!
+
+’s the Second Han
+Dynasty and China is
+on the verge of collapse,
+Infighting among the
+‘court families and the
+
+emergence of powerful
+
+warlords dominates the
+
+landscape. The struggle
+for power has brought an era known
+as the Three Kingdoms, complete with constant
+warfare among China’s most courageous and skillful heroes,
+
+As a ruler during these difficult time:
+country torn apart by rebellion. Expand your kingdom by building a
+strong military or try outsmarting your rivals during negotiations.
+With exciting new weapons including automatic firing crossbows
+and catapults you can engage your opponents out in the open or
+from behind castle walls, But don’t forget, a ruler’s strength is also
+‘measured by the economic power of his kingdom and the happiness
+of its people!
+
+it’s up to you to unify a
+
+BUILD AN EMPIRE
+TO STAND THE TEST,
+OF TIME
+
+N° the most celebrated
+strategy game of alltime,
+Sid Meier's Civilizations
+is available for the Super
+Nintendo Entertainment
+System, Stating at the
+dawn of recorded history
+4000 B.C, you must
+build a society and
+hurture it towards the
+Space Age. Inthe
+beginning you'l labor to
+simply survive while
+building your
+settlements,
+discovering new
+technologies and
+fending off barbarians,
+As your empire prosper, you'll face competing civilizations guided by
+history's most legendary figures: Alexander the Great, Napoleon, Genghis Khan
+and more. Now you'll est your capacity for expansion and domination, your
+ability o outwit and outmaneuver those cunning and briliant leaders,
+
+erg sa sar ih ap St i od et why
+7 eons aif es
+
+Sey comnts eH
+
+iad ew ospoe eceaek
+
+Fea your aan gow by soning be eco aecaam
+ante mone st she yan ad te Great Wal. Mak exes pleal rd
+tay ese en pen od See erebane te ry pee
+
+ey
+
+booed
+
+===== Page 33 =====
+
+KOE]
+
+KOEI Ce
+‘One Bay Plaza, Suto 540
+{1350 Bayshore Hwy, Buringame, CA 94010

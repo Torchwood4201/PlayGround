@@ -1,0 +1,1853 @@
+# SimCity 2000
+source: https://archive.org/details/snes_manual_archive
+pdf: SimCity 2000 (PAL).pdf
+region: PAL
+pages: 20
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+_~s
+q ——
+} < | SLACK PEARL SOFTWARE
+c/o THO International Lid
+
+“Gs ‘HH aera fe
+
+Epsom
+
+f * Surrey KT18 SDH
+© 1996 Maxis, tnc. SimCity 2000 and Maxis are registered trademarks of Maxis, tne,
+
+All rights reserved worldwide.
+
+9. © 1996 imagineer Co, Lid MAL Laboratory, Inc,
+~ Brack Pearl Software is a trademarkeol TeHO, Inc,
+
+=
+
+PRINTED IN JAPAN
+IMPRIME AU JAPON
+
+===== Page 2 =====
+
+LICENSED BY
+
+NINTENDO @, SUPER NINTENDO ENTERTAINMENT SYSTEM™,
+
+AND ip AnE TRADEMARKS OF NINTENDO CO-LTD
+
+Original
+
+Seal of
+Quality
+
+oun assunavece Tsks
+1AS APPROVED Th m
+THiS PRODUCT ALWAYS LOOK FOR THES SEAL
+WHEN BUYING GAMES AND ACCESSORIES 70
+ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENOO ENTERTAINMENT
+SYSTEM.
+
+CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO & APPROUVE Ck PRODUIT ET QUIL
+
+EST CONFORME AUX NORMES D EXCELLENCE
+EN MATIERE DE FABRICATION. DE FABILTE ET
+
+E ESSOIRES POU é
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTERE
+
+DIESES QUALJTATSSIEGEL IST DIE GARANTIE
+
+SIND, DASS ALES EINWANDPREI ZU HREM
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+
+LOE LA TUAGARANZIA CHE
+1A VALUTATO ED APPROVATO
+QUESTO PRODOTTO. RICHIEDILO SEMPaE:
+ALLAGQUISTO DI GIOCHI ED ACCESSOI PER,
+AASSICURARE LA COMPLETA COMPATIBILTA,
+CON ILTUo SUPER NIvTENDO
+ENTERTAINMENT SYSTEM
+
+Ty SEGURO DE OLE
+{ALIOADOE
+Este Paooutta, Buccs SieMene ESTE
+SELLO CUANDO COMPRES VIDEQIUEGOS Y
+ACCESOMIOS Pafa ASEGURARTE UNA
+COMPLETA COMPATTEN DAD CON TU SUPER
+NINTENDO ENTERTAINMENT SST
+Of ZEGEL WaaRBONGT u.bAT Or PRODUCT
+DOOR NINTENDO IS GECONTAOLEERD EN DAT
+METQUA CONSTEUCTIE. BETROUWBAARHEID
+EN ENTERTAINMENTAAROE VOLLEDG AAN
+HOGE KWALITENTSEISEN VOLDOET
+ve
+
+ci DOP OT ZEGEL. ZODAT
+YERZEXERD GENT VAN EEN GOED WERKEND
+SUPER NINTENDO ENTERTANMENT SYSTEM
+DENA ETIKETT GARANTERAR ATT NINTENDO
+STAR FOR PFODUKTENS KVALITET
+RONTROLERR ATT ETKEITEN RNS PASPEL
+QRILTLLBEHOR DU KOREN FOR ATT
+
+FISAKRA DG OM ATT DE AR KOMPATIOLA
+Ineo sure MNTEMDO ENTERTAMMENT
+TEM
+
+DETTE SEGL GARANTERER AT NTENDO HAR
+
+TR
+SPiLOG ‘SA OU ER SKERPAFULD
+KOMPAMIBILITET MED DIT SUPER NINTENCO
+ENTERTAINMENT SYSTEM
+
+TAMA TARRA VAKUUTTAN ETTA NINTENDO ON
+VARS TAWAN TUGTTEEN LMABUN.
+
+TARKISTA AINA TAMA TARRA ERNEN Ki
+
+STAY PELEIAJA MOITA TARVKKEITAJOTTA
+‘SAAT VARMAST! SUPER NAVTENDO.
+
+ENTERTAINMENT SYSTEM YHTEENSOPWIA
+
+TUOTTENTA
+
+WARNING ° PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION © VEUILLEZ LIRE ATTENTIVEMENT LA NOTICE "INFORMATIONS ET PRECAUTIONS
+D'EMPLOI’ QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS - BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER.
+NINTENDO HARDWARE WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIC.
+DURCH!
+
+ATTENZIONE | LEGG! ATTENTAMENTE LE INFORMAZIONI PER LUTENTE E LE PRECAUZION!
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE iL TUO SUPER NINTENDO ENTERTAINMENT
+SYSTEM™ LE CASSETTE O GLI ACCESSORI
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA
+VIDEOJUEGO 0 ACCESORIO NINTENDO,
+
+WAARSCHUWING - LES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EX
+WAARSCHUWINGEN DOOR DIE BL DIT PRODUKT IS MEEVERPAKT VOORDAT HET NIN’
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+OBS LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDE
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR
+
+ADVARSEL : LES FORBRUGERINFORMATIONEN OG H/EFTET MED SIKKERHEDSREGLER, DER.
+FOLGER, MED DETTE PRODUKT, FOR OU BEGYNDER AT BRUGE NINTENDO HARDWARE SYS
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS © LUE HUOLELLISESTI LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA,
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAI MUUN VAURSTEEN KAYTTOA
+
+CONTENTS
+
+Welcome to SimCity 2000°.
+Basic Controls . . .
+Getting Started. .
+Entry Level Urban Planning Gus
+
+Tutorial Map
+A Practice City.
+
+Newspaper
+
+Development Screen
+
+Power
+
+Roads
+
+Toning wee
+
+Power Lines
+
+The Arrival of the Sims
+
+Rewards, eee
+
+Save
+
+Bulldozers.
+
+landscape
+
+Bridge Construction
+
+Display Mode
+
+Demand Indicator
+
+Police and Fire Departments
+
+The Survey lean
+
+The Maps
+
+Graph Screen
+
+Population Screen
+
+The Industries Screen
+
+Neighbors Screen
+
+The Budget Screen
+
+Fire!
+
+Graduation
+
+Icons Reference: City Icons. . ..
+Bulldozer
+Power... .
+Roads
+Residential Zone
+Commercial Zone
+Industrial Zone
+
+Ports. .
+
+landscape :
+Water System .. 22-23
+Rails... 23-24
+Education 4-15
+Public Service 2
+Recreation 25
+Rewards . (asez aehee
+Arcologies Paltieiees
+Military. . 26
+Display 2
+Information 2
+Budget Screen Te ace)
+Map Screen 32
+
+More About City Ordinances 33
+Dealing With Disasters
+Data Icon
+Options lean
+
+limited Warranty 2.2...
+
+===== Page 3 =====
+
+M\ CY 2000
+
+THE ULTIMATE GITY SIMULATOR
+
+Ready or not, you are about to be elected
+the mayor of a city, whether it be a small
+country village or a very large
+megalopolis. Once you begin to build your
+city, Sims (simulated peaple) will move in
+according to the number of homes, shops,
+and work opportunities which you provide
+for them. If your city is a nice place to live
+the population will continue to grow. If you
+plan out the city carelessly and the Sims
+can't get all that they need, they will move
+out in search of greener pastures...
+
+The challenge of this game is to maintain a
+
+balance which satisfies the needs of the Sims, and is within
+the capacities of the environment and your city's revenue,
+You will have to figure out how to keep generating enough
+funds to keep up with the financial needs of the city while
+keeping taxes low enough that your Sims.can also be active
+in the economy.
+
+SimCity 2000° is primarily a "building" game where the
+abject is to create and expand your city. Of course, there are
+also plenty of opportunities to destroy, fram bulldozers to
+earthquakes. But you will soon learn that it is much harder
+to create than destroy... Millions of Sims will put their hopes,
+dreams, and lives in your hands!
+
+BASIC CONTROLS
+
+L Button R Button
+cancels construction while you are toggles between population
+sil holding down the & Button and city funds information
+X Button
+centers the sereen
+on the cursor
+A Button
+selects the item indicated
+by the icon and begins
+building i appropriate
+
+Control Pad
+allows you to
+
+es 0
+move around the
+
+development screen
+
+withaut moving the
+cursor all the way to
+
+the edge
+
+===== Page 4 =====
+
+GETTING STARTED
+
+Insert the Simbity 2000 Game Pak into your
+Super NES and then turn the power on. Once the
+Title Screen appears, press any button to get ta
+the Mode screen. Here you may select your
+mode by using the Control Pad and then
+pressing the A Button:
+
+Saved Map continue a previously saved game
+Tutorial Map ideal for teaching yourself how to build cities
+
+Free Map choose one of six different maps. Your account and location are
+determined by each map. but you select the Date of Construction
+
+Relieving Scenery - $20,000
+Sound of Stream - $20,000
+Hilly Terrain - - $20,000
+large Lake - - - $20,000
+Scent of Sea - - - - - - - $20,000
+
+Land of Freedom - - - $1,000,000
+
+Scenario salve the problems caused by either sudden disasters ar social
+problems which are incurred by an already established city.
+
+Scenario Difficulty # years Reg. to clear Date
+Megalopolis a 8 40,000 people 1850
+Mayor's training a 10 68% of votes (950
+Global Warming a 10 40.000 people 2000
+Entertainment City ** 1 {0.000 retired (950
+
+Going to the Space *** n/a launch rocket 2000
+
+NOTE: mare *'s = more difficult
+
+ENTRY LEVEL
+URBAN PLANNING
+
+We'll explain the progress of basic game play using the
+Free Map made.
+
+What Makes a SimCity?
+
+There are many layers of complexity which you can put
+into your city, but for simplicity's sake, let's start small.
+
+What you need
+a place for Sims to live: Residential Zone
+a place for Sims to work: Industrial Zone
+a place for the Sims to shop and conduct business: Commercial Zone
+a source of power: Power Plant
+a method to send the power from the plant to the zones: Power Lines
+a way for the Sims to travel between home, work, and shops: Roads
+
+Once you zone out the different areas, the Sims will come in and build their houses,
+factories, and businesses. As the city graws, you must keep up with the demands of
+the Sims. such as praviding sufficient transportation routes. providing power to
+each zone, and keeping up the balance between the industrial, commercial, and
+residential areas. Once you get a handle on these basic needs you may go on to
+provide more amenities as your population increases and prospers. These include:
+
+More zones with different density levels
+
+Multiple above- and below-ground means of transportation
+
+A complete water supply system
+
+Airports and seaports
+
+Palice and fire stations
+
+Educational and recreational facilities
+
+-and a whole lot more
+
+TUTORIAL MAP
+
+At the Title screen, you can select Tutorial Map to
+give you a brief mayoral training. The tutorial will
+walk you through the basics of starting your first
+city. You wont be able to build the Tutorial or
+watch it graw beyond it's single street. but it will
+show you basic skills you will need to create a
+megalopolis!
+
+hore) Pipceacges
+
+===== Page 5 =====
+
+A PRACTICE CITY...
+
+Let's begin to play now.
+
+First, select Free Map fram the mode screen and choose the scene with which you
+feel most comfortable. Next choose the year you want to build in. Again, for
+simplicity’s sake, choose I900. Now you may name your city, and enter your name
+as the Mayor, on the typewriter.
+
+NEWSPAPER
+
+A newspaper article will appear. The newspaper is a
+very important source for keeping up to date on the
+problems of your city and the opinions of your Sims
+
+Gy:
+
+Ed
+
+Lizards Aarne
+justice!
+
+To read an article from the newspaper use the Control
+Pad to move the cursor to the desired article, then
+press the A Button. To exit the article, use the B
+Button. Press the B Button again to exit the
+newspaper
+
+DEVELOPMENT SCREEN
+
+Now you have come to the Development Screen, where you will plan, build, and try
+to keep Sims satisfied.
+
+At the top of the screen you will find the
+
+Title Bar. It should indicate the date, name,
+weather conditions, and account information of
+the current city. You can find the city's current
+population by using the R Button to toggle
+between population and city funds. You have not
+begun your city yet. so the population should be
+O and the city funds should be $20,000 (except
+in the case of Land of Freedom). This is the money you have to spend in order to
+get the Sims to move in and stay happy...
+
+At the bottom of the screen there are several icons. These are the icons which will
+help you build your city.
+
+NOTE: For now, push the B Button to exit the budget screen, which will be explained
+in detail later on, The newspaper screen will also appear. Exit by pressing B.
+
+On your Development Screen you will see @ rough area which consists
+of graded fields, forests, and rivers. Take @ close look because the
+fields are not all flat. Some are hills and valleys. The terrain is divided
+into small squares which we call Tiles. Each tile is approximately one
+acre, or 200x200 squere feet
+
+First, select the Options Icon, which appears in the bottom right hand
+corner of your screen, and choose "No Disaster”. Now you will not have
+to worry about disasters like earthquakes or plane crashes as you
+practice building cities.
+
+The land area you have to work with is tao large to see all at once. By
+holding down the Y Button and then using the Contral Pad, scroll
+through the screen to view total area
+
+Next select the View Icon to reveal its sub-menu and choose “clockwise
+rotation”. This allows you to view your city from many different angles,
+and will prove very useful as you begin to design your city.
+
+To take a closer look at your city, select "zoom in” from the sub-menu
+of the View Icon. You can "zoom in" on a specific area or “zoom aut"
+for a bird's eye view.
+
+Now try out the Centring Icon. tt looks like @ target in the upper left
+hand corner of the icon bar. Press the A Button while the cursor is on
+a specific location on the development map. The landscape will redraw
+on the development screen, centered on the spot which you clicked. You
+can always scrall to get around the landscape, but the Centring Button
+gives you more precise control.
+
+===== Page 6 =====
+
+Let's start building. Scroll through the screen so that you may see all
+of the land which is available for your use. Look for a nice, flat spat.
+A nearby water source is desirable, but not necessary
+
+POWER
+
+Once you have chosen your location, build a Power Plant on it- a Sim
+would not live in a place without a power source. Go to the Power icon,
+which is denoted by a lightning bolt. Several different types of plants,
+with different attributes, will be offered to you, depending on the time
+period in which you are building,
+
+For now, select the “Coal Power Plant’
+with the A Button. Now you should be
+
+gray 4x4 tile flashing in the place of your
+cursor, This denotes the general size of
+
+the Power Plant. Move the cursor to the
+
+location which you have chosen and press the A Button to place the
+plant. Power plants can only be built on flat fields
+
+ROADS
+
+Now you must build some roads so that your Sims can get around
+Select the Road icon with the A Button and then use your cursor and
+the A Button to build a road in the desired location. If you wish ta draw
+roads continuously use the Control Pad while holding the A Button
+
+down. The tiles will change colar ta show you where the roads will
+appear. It is recommended that you keep your roads fairly straight.
+Also, please note that the Sims cannot build their homes more than
+three tiles from the road
+
+ZONING
+
+As we explained earlier there are three basic zoning units; Residential
+Commercial, and Industrial. If you choose “high density" for each of
+these units, each will grow to a maximum of 3x3 tiles. It is
+recommended that you begin zoning at “high density”
+
+Select a location for a Residential Zone on your development map. It
+could be by water, on a hill, or in the forest, but do not place it too
+clase to the power plant. Remember that it must be within 3 tiles from
+the road in order ta have Sims build there. It is possible ta make more
+roads after you set up the Residential Zones
+
+Select the Residential Zone icon and choose "high density’. Use the
+Control Pad ta mave the cursor to the location, and then set the zone
+by pressing the A Button. It is possible to set the tiles one at a time,
+and you may make your zone linear ar rectangular.
+
+Next let's make an Industrial Zone. For the Sims’ sake, da not place it
+too close to the Residential Zones, as it will produce pollution
+
+Select the Industrial Zone icon and choose "high density’. Then follow
+the same procedure as the Residential Zone to lay it on your map.
+
+Now for a Commercial Zone. This should be clase to the Residential
+Zone.
+
+Select the Commercial Zone icon and setup the same way as you did
+the other zones
+
+POWER LINES
+
+We must use power lines to connect each zone with the power plant
+You can only send power through a tile containing a power line and the
+one next to it. The tiles immediately adjacent ta a powered zone will
+also have power.
+
+Select the Power icon and choose “Power Line”. Make the power lines
+the same way you made the roads. If the power line flashes it means
+that it is somehow not connected to the plant. Check your map from
+different angles to make sure everything is connected properly.
+
+HINT: It is not easy to lay down power lines in hilly areas. You must
+rotate the map and even enlarge certain areas in order to check the
+connections. Also if you draw too many lines at once it will take longer
+for the energy to get through ta all the areas.
+
+===== Page 7 =====
+
+THE ARRIVAL OF THE SIMS
+By the time you finish laying down power lines, the
+Sims may begin to move in and build in the
+appropriate zones. Isn't this exciting?
+
+lf the Sims do not appear to be moving in, keep
+checking the power lines to make sure all of the
+zones have power. It alsa may be that your zones are
+too far apart. Sims don't like a lang hike to work!
+
+As the city graws you may want ta add some mare roads or zones.
+Eventually, the newspaper will appear to announce that your city has
+reached a population of 2000. As a reward you will be able to build a
+Mayor's Compound
+
+NOTE: If you do not get this annquncement after 5 to 7 minutes your
+city may be too small.
+
+REWARDS
+
+The Mayor's Compound is the first reward that you will get as a
+successful mayor. Depending on your population, rewards may include
+the compound, a City Hall, even Statue of You! All of these will appear
+under the Reward Icon, but you will not be able to select them until the
+Newspaper announces that you have earned each one.
+
+Select the Reward Icon and choose the "Mayor's Compound"
+The Compound should be in a prime location with an excellent view.
+Once you have set it, be sure to connect it to roads and power lines
+
+SAVE
+
+Congratulations! You have just built a small city! But this is just the
+beginning... Let's save this city and then continue
+
+Select the Data Icon. The screen will show the question
+“Do you want to save?" Choose yes.
+
+WARNING: This game is only able to save one map at a time. If you
+choose to save again the previous data will be erased.
+
+BULLDOZERS
+There are many uses for the Bulldozer Icon, but first we will use it to
+demolish. Select the Bulldozer Icon and choose “clear” from the sub-
+menu, You may now demolish excess roads, empty factories, etc. by
+moving the cursor over the item and pressing the A Button
+
+When you use the bulldozer, the area will be turned into rubble with a
+loud explosion. IF you use the bulldozer on that location again, it will
+clean up the rubble. You can then move the pile of rubble with the
+Contral Pad while holding down the A Button
+
+LANDSCAPE
+
+With the Landscape Icon you may beautify your city by adding trees and
+water to your map. Select the landscape icon and choose “trees”. Pick
+
+a tile where you would like a tree and place it there with the A Button.
+
+HINT: Trees increase real estate value.
+
+Next go back to the Landscape leon and choose "water". Push the A
+Button where you would like to begin @ pond or lake. Keep placing the
+water on a few adjoining tiles until you get the size of lake or pond you
+want. Try to keep it fairly small, or it could turn aut to be very costly.
+
+HINT: Water not only increases the real estate value but adds to the
+entertainment value as well,
+
+BRIDGE CONSTRUCTION
+
+Now we must figure out @ way for Sims to get over the water. Find the
+running stream in the midst of your map. Select the Road Icon and
+then make @ road which actually crosses over the river. The Sim
+construction workers are smart enough to realize that they must build
+a bridge. A dialogue box will appear and ask what kind of bridge you
+would like. Depending on the year and the width of the water, you may
+choose from these three bridges; a causeway (8125), a raising bridge
+(8250), and suspension bridge ($975)
+
+NOTE: The cost of the bridge will depend an its length.
+
+Let's start with @ causeway, Select the Causeway icon and press the
+A Button. Tadaal!
+
+===== Page 8 =====
+
+DISPLAY MODE
+
+Next, choose the Display Mode Icon and pick "Underground" so you may
+see underneath your city. Here you may build subways and connect
+water lines ta the buildings. Choose “underground” again and it will
+return you to the surface.
+
+There are four different display modes:
+show buildings
+show zones
+show infrastructure (roads, rails, subway lines, etc.)
+show underground
+
+Fach of these simply displays a different aspect of your city. Don't
+worry, the hidden parts aren't destrayed, they just turn invisible until
+you want to see them again. Check the contents of your city in each of
+the four display modes.
+
+DEMAND INDICATOR
+
+{n the lower right-hand corner of the screen you will find Demand
+Indicator. Here you can find out what type of zone is in demand and
+what you may have too much af; Residential, Commercial, and
+Industrial. If the bar extends up, the Sims have a demand for that zone
+If it extends down there is an excess. If there is no bar at all, then
+everything is just right
+
+POLICE AND FIRE DEPARTMENTS
+
+Like mast cities, yours will eventually have some problems with
+crime. Let's plan ahead and make a police department
+
+Select the Public Service Icon and choose “Police Department’
+
+Place it wherever you like, but make sure it is close to the
+
+part of your city that may need the most help. We also need to provide
+a fire department, so select the Public Service Icon again and choose
+"fire Department”. Place it somewhere near the police department
+Qon't forget power lines and roads!
+
+ee
+
+THE SURVEY ICON
+
+When you want to find out about the important issues concerning your
+citizens, select the Survey Icon. The cursor should then be on the
+development screen. Now choose a house in one of the Residential
+Zones by pressing the A Button. An information box will then open and
+present data on that particular home. Press any Button to continue.
+
+Now let's check the Police Department with the Survey icon. We will get
+information which will help you decide how effective your law
+enforcement is. If the number of arrests increases over time you must
+take some sort of action
+
+/ So far we have focused on using the development screen,
+| since development is the primary feature of SimCity 2000. |
+
+Now we will introduce yeu to same other screens and their |
+\._ unique features. j
+
+THE MAPS
+
+Select the Maps Screen Icon. This will show you your complete city
+limits, with important information in @ number of different displays.
+Here you can find out different sorts of information on certain features
+of your city. The white rectangle frames the area which you are
+focusing on
+
+Click on the different icons here to
+see what information you can get
+and how it helps you plan the future
+of your city. Some of the icons have
+sub-menus, so check those out too
+
+NOTE: In map displays that show
+density or coverage, the darker the
+greyscale, the higher the density.
+
+===== Page 9 =====
+
+GRAPH SCREEN
+
+Select the “graph screen" from the Information Icon. This screen
+displays statistical graphs about many elements of your city over time;
+
+pollution, real estate costs, health, and level of education.
+
+You can choose to display graphs of information over a few different
+time spans. You can also toggle the display of each graph on and off by
+choosing the name of the graph in the “Graph Selections” and pressing
+the A Button. To close the Graph Screen press the B Button.
+
+POPULATION SCREEN
+This can also be selected through the Information Icon. It can display
+three different graphs.
+
+= Population shows the age distribution of the city's residents, and
+displays the percentage of citizens that comprise your
+potential work force
+
+Health shows the life expectancy of population, by age, and displays
+the life expectancy of the current work force.
+
+Education shows the education quotient (EQ) of the population, by age,
+and of the current work force.
+
+HINT: a high EQ attracts high-tech industry to your city. EQ is affected
+by the presence of schools, colleges, libraries, and museums.
+
+THE INDUSTRIES SCREEN
+
+Choose "Industry" from the Information Icon. |t gives you valuable
+information on the industrial base of your city. There are three graphs
+
+Ratio is the blue bar graph. It indicates how much of each type of
+
+industry is in your city
+
+Demand is the red bar graph. It shows which industries’ products
+are in demand from the Sims.
+
+Tax Rates indicate the property tax rate that each industry pays
+
+HINT: Here you can independently adjust taxes on each industry to
+encourage some industries to move into your city and others to move
+aut. Pushing right on the Control Pad reduces the rate and pushing left
+increases it
+
+NEIGHBOURS SCREEN
+The Neighbours Screen, which is also under the Information leon,
+displays your city's population along with the population of its
+neighbouring cities.
+
+THE BUDGET SCREEN
+
+| You can control your city's expenses and revenue from this screen. It
+
+can be quite complicated, so take a moment to figure it out.
+
+Choose “Budget from the Information Icon. On the left side of the
+screen you will see the list of your city's revenues and expenses. For
+each revenue or expense, there is
+
+Year-to-Date Column a number that shows the actual cash amount
+you have made or spent so far.
+
+End-of-Yeer Prospect @ number that shows what the end of year
+expense or revenue will be at the current
+Budget window settings
+
+Percentages most of the revenues and expenses have a
+percentage setting so that you may set the
+amounts of funding or taxation.
+
+If you turn the “auto-budget” Button off. every January the budget
+screen will automatically appear to remind you that you may want to
+adjust it. It is recommended ta keep this function on until your city's
+finances are out of the red. That is, let the computer do it for you until
+you are ready,
+
+Property Taxes are your main source of income. To the right is the
+current tax rate (7%). You can adjust this percentage from 0 to 20%
+by pressing to the right and left on the Contral Pad. Try it now... When
+you reduce the tax rate you can hear your Sim-citizens cheer! But if
+you increase the percentage you will hear them grumble...
+
+Skip down to Bond Payment. This is the amount of interest you pay on
+bond issues. Part of financing your city is issuing bonds, which is
+basically borrowing money from your citizens. The interest rate the city
+pays is affected by the basic rate of interest. Select the Bond Payment
+Button. This screen shows you the interest rate, your city's credit rating
+and value, the loan rate, and the total amount of bonds issued.
+
+===== Page 10 =====
+
+At the bottom of the screen is a Bond Issuing Button. Select it by
+pressing the A Button ta issue a bond. Later, when there is enough
+revenue, you can come back to this screen and refund the bond. For
+now, press the B Button to close the Bond Payment screen
+
+Next is the financial information for your Police Departments. To the
+right is a percentage number set to 100. Using the Control Pad,
+decrease the number to OO and later we will see how this affects your
+
+city.
+
+Open the Tax Rate Adjustment Screen. Here you will see that you can
+also adjust the budget for transportation, which includes bridges and
+tunnels, as well as adjust the education budget. You can imagine what
+your actions may do to your city...
+
+When you change the settings in the Tax Rate Adjustment Screen it will
+be reflected on the Budget Screen.
+
+Lastly. lets introduce you to City Ordinances. These are various
+'| programs, bills and ordinances that you can enact as mayor. Each
+program contributes in some way to the quality of life in your city, but
+
+4} each also has a drawback, usually its cost. Politics is a rough business,
+
+filled with difficult decisions
+
+That's it for the Budget Screen - let's see how the funding change
+affected the police department. Use the Survey ican on the Police
+Department. When you compare it ta your last survey, you should have
+about half as many officers. Depending on the size of your city, crime
+may be running rampant, or it may still be under control. In a very
+small town, you don't necessarily need full police or fire department
+funding
+
+FIRE!
+
+Speaking of fires... The better fire coverage you have. the less often
+fires will occur. But sometimes, no matter how prepared you are,
+disaster strikes. Especially when you choose it from a menu.
+
+Open the Disasters menu and select “fire.” Now twa things should
+happen: a fire will break out samewhere in the city limits and the
+emergency button will become available. The Emergency icon lets you
+dispatch your police and fire departments to the scene of the
+emergency.
+
+You cannot place your fire fighters directly on the fires, but you can
+use them ta block the path of the fire, and even chase it down. You can
+place one police or fire icon for every station you have. If you have
+three or four stations, it makes it easier ta surround a fire and block
+its path
+
+GRADUATION
+
+You have now completed an extensive tutorial in city design and
+management. You are now educated on everything fram planning to
+landscaping to politics.
+
+When you are ready for even more advanced features, check out the
+reference section for tips on adding @ water system, improving
+transportation, and making your city fun and educational. Have fun!
+
+===== Page 11 =====
+
+ICONS REFERENCE:
+CITY ICONS
+
+AA dk
+
+BULLDOZER
+You can use this icon to edit the land formation. If you place the cursor
+on the bulldozer icon and then press the A Button, you will open the sub-
+menu. To close the sub-menu simply press the B Button
+
+Clear destroys and removes trees, rubble, and Sim-made objects without
+affecting the terrain or zoning status, To use, move the cursor over the
+area which you would like to demolish/clear, and press the A Button. Cost
+$1 per tile.
+
+Level Land lets you level the terrain to the altitude level you choose.
+It also allows you to clear trees, roads, power lines, and buildings.
+Cost: $25 per tile per altitude change
+
+Raise Land lets you raise the terrain to the desired altitude.
+Cost: $25 per tile per altitude change.
+
+Lower Land lets you lower the terrain. If the altitude of the land goes
+below sea level it will fill with water. Cost: $25 per tile per altitude change
+
+De-zone lets you change residential, commercial or industrial zones to
+unzoned land. There cannot be any development on that land.
+Cost: $1 per tile
+
+WARNING: Raising, lowering and leveling terrain can be very expensive, so
+do it sparingly.
+
+POWER
+
+Power lets you place power lines and power plants. You must have it,
+because your Sims are electronic life-forms and cannot exist without it
+
+Power Line. Press the A Button where you would like the power line to
+begin and continue pressing it while you move the cursor to lay
+continuous power line from tile to tile, zone to zone.
+
+Power lines can only be run in straight lines and 90-degree angles. They
+can cross roads and rails, but not curved sections or straight sections
+that run at 45 degrees. If you try to lay power lines across water
+dialogue box will open and tell you how much it will cost. If you would like
+to go ahead, press A. or press 8 to cancel.
+
+Remember that power does not travel through adjacent zones in SimCity 2000
+without power lines. Cost: $2 per tile across land, $10 per tile across water,
+
+Power plant lets you choose power sources for your city. Depending on the year and
+the technology level of your city, there may be from three to nine types of power
+plants available. Choose the power plant you want with the A Button and then scroll
+to where you want it to go and press the A Button again to set it
+
+Information on the advantages and disadvantages for each type of power plant can
+be found by clicking on the Info (Survey?) Button
+
+Don't worry. When power plants reach their lifespan, they do not burst into flames or
+cause radio-activity... They just shut down! All power plants have @ 50-year life span.
+
+You'll receive warnings about aging power plants in the newspapers, and the Survey
+
+icon will give your plants’ exact ages
+
+HINT: If you set the 'No Disaster” mode, the power plant will automatically be rebuilt
+at the end of its lifespan and the expenses will be deducted fram your budget unless
+you do nat have enough money available.
+
+Power is measured by megawatts (Mw). You need about one Mw per three tiles. Exact
+consumption will vary from year to year according to population density and city
+ordinance. Connecting too many buildings to ane plant results in brawnouts
+
+Here is a table comparing the different power plants
+
+Type Year Avail. Mw Cost Cost per Mw
+Coal 1900 200 $4000 920
+Hydroelectric 1900 20 $400 820
+Oil (900 220 $6600 $30
+Gas (950 oo $2000 $40
+Nuclear 1955 500 $1000 $30
+Wind 1980 4 $100 $25
+Solar (990 40 $1300 $26
+Microwave 2020 1600 828000 $17.5
+Fusion: 2050 2500 S40000 $6
+
+Coal power is always available, even in (900, and is fairly efficient, but is
+Sid the worst polluter.
+
+af Hydroelectric power is always available, even in I900, is fairly efficient, and
+doesn't pollute. Hydroelectric dams can only be placed an falling water.
+
+===== Page 12 =====
+
+Oil power is always available, even in 1900, and pollutes about half as
+much as coal.
+
+Gas power pollutes even less than oil, but is very inefficient.
+
+Nuclear power is expensive to build and not too efficient, but it puts out a
+lot of power. There is also risk of a meltdown disaster. Nuclear pawer
+plants are unavailable if you declare your city a nuclear-free zone.
+
+Wind power is fairly efficient and very clean, but puts out very little power.
+You will need a lot of wind generators to produce serious wattage. Wind
+power is alsa subject to the whims of the weather. There is more wind at
+higher altitudes
+
+Solar power is non-polluting and fairly efficient, but has a low output and
+is unreliable - very little power is produced when it is cloudy or foggy. A
+combination of solar and wind power plants can produce a stable energy
+flow since one generally thrives as the other snoozes
+
+Microwave power is actually solar power collected by an orbiting satellite
+and beamed down to a microwave collector disk. It is very efficient and
+produces a massive amount of power, but is very expensive to “get aff the
+ground,” and once in a while the energy beam from the satellite misses
+the dish. ops!
+
+Fusion power is very clean and reliable. It is the most efficient power
+source, and produces enough power to run a city half the size of your city
+limits. It is very safe, but it costs a bundle...
+
+ROADS
+
+The Road icon has multiple uses. Select it with the A Button and then press
+the A Button when you are over the desired start point. Hold the A Button
+down and move your cursor ta where you want that road section to end
+and release.
+
+Roads can run in straight lines, 90-degree angles and 45-degree angles.
+When roads crass they form intersections. If you lay a road across water
+and it is possible to build a bridge, you will be told how much it will cost.
+If a bridge cannot be built, you will be notified
+
+Cost: S10 per road tile
+
+Highways are high-capacity roads that are raised above the ground on
+pylons. They can handle approximately twice as many cars as regular
+roads, and because the Sims can travel at a higher speed, they will
+commute up to three times as far on a highway than on the roads. They
+are placed the same way as roads. You will need to place on-ramps to
+allow cars to get on and off highways. When highways cross, they form
+cloverleaves. Cost: SID per highway section (4 tiles)
+
+Tunnels let you run road pathways through hills and mountains. Tunnels
+cannot curve, and you cannot cross tunnels, even at different altitudes. To
+place @ tunnel, choose a tile where you want the entrance to be and press
+the A Button. The entrance point must be a sloped tile. Your highway
+engineers will not try to build a tunnel where it is impossible to build, or
+where it is unsafe, due to unstable terrain. Once you choose the place for
+your tunnel, the cost will be presented to you on the screen. If you would
+like to go ahead and build, choose "yes" with the A Button. Cost: $150 per
+tile of the tunnel.
+
+On-ramps allow cars and buses to travel back and forth between roads
+
+4 and highways. They are a bit tricky to place - you can only put them at
+
+intersections between roads and highways. Highways cannot function
+effectively without on-ramps. For best results, put on-ramps on both sides
+of a highway. Cost: $25 per tile.
+
+Bus Depots allow commuters ta take the bus to work. and they help
+alleviate traffic. This cuts down on pollution. You must have at least two
+Bus Depots that are placed right next to a road. Passengers can get on
+and off between depots. Cost; $200 each
+
+RESIDENTIAL ZONE
+
+You, the mayor, can designate the areas for the Sims to live, When you
+select the Residential Zone Icon it allows you to decide whether the area
+will be "low density" op “high density," When this icon is active, the cursor
+will appear as a little house
+
+Cost: Light Residential is $5 per tile. Dense Residential is $10 per tile
+
+Low density (Light) cost of unit setting is cheap, but the price of land is
+expensive. There is less capacity for hames resulting in fewer Sims living in
+that area.
+
+High density (Dense) cost of unit setting is high but the price of land is
+cheap. Sims can build more homes here, resulting in @ higher population
+for that area
+
+===== Page 13 =====
+
+COMMERCIAL ZONE
+
+These are the areas of your city where Sims build stores, offices, and
+ather places of commerce. Zones can be single tiles, lines, or rectangles
+You can also have either “low density’ or “high density” commercial zones
+The cursor will appear as a litle office building. Gast: Light Commercial is
+85 per tile, Dense Commercial is SID per tle
+
+INDUSTRIAL ZONE
+
+These are designated areas of your city for Sims to build factories. When
+this icon is active, the cursor will appear as a little factory. Cost: Light
+Industrial is $5 per tile, Dense Industrial is $10 per tile
+
+PORTS
+
+This is a dual-purpose icon that allows you to place both airports and
+seaports. Select the Port Icon and choose the type you want. An airport
+will make your commercial areas prosper, while a seaport will boost your
+industry. A small city will not need them, but a large city will need both.
+
+It is best to start with small ports and add on as your city grows. The
+smallest functional airport is 2x6 tiles. Both types will cause pollution. but
+the airport causes a little more. A seaport must be placed on a shoreline
+to be of any use. Cost: $150 per seaport tile, $250 per airport tile
+
+LANDSCAPE
+
+This icon lets you add trees and water to your city. The Tree icon lets you
+place trees on your landscape. Trees and forests add beauty to your city
+and its surroundings, and imprave property values. However, they are
+flammable and can help fires spread. Each click of the A Button will place
+one or two trees. You can click repeatedly on a single tile to create dense
+thickets and across many tiles to create a forest. Use the A Button with
+the Contral Pad for forests. Cost: $3 per click
+
+The Water icon lets you create lakes and streams by clicking where you
+want your water to appear. Cost: SI00 per tile.
+
+WATER SYSTEM
+
+This is a multi-use icon. Selecting it opens up a sub-menu that allows you
+to choose between five different water-related functions: laying water
+pipes, installing water pumps, buying storage tanks. and building treatment
+a desalinization plants. When this icon is active it appears as a water
+aucet,
+
+Oepending on the year and technology level in your city, you may only
+have access to pumps and water towers. As time passes and inventions
+occur, the other options become available. A city may exist without a
+water system, but the population density will be limited. When the Sims
+build, they install the underground water pipes for their buildings. Your
+only responsibility is ta hook the buildings up to the water system
+
+Pipes let you lay dawn water lines under your city. Turn on the
+underground mode and place your pipe lines as you do your power lines.
+Cost: $3 per tile
+
+Water Pumps, when placed on land, act as wells and are an excellent
+water source. You must hook them up with power lines in order for
+them to function. If you place the pump next to a lake or river you will
+double the amount of water available. However, a pump next to @
+shoreline will only supply the same amount of water as a well
+
+Cost: SIOD per pump
+
+Water Towers let you stare precious water so you won't have summer
+shortages in arid climates. Cost: $250 per tower.
+
+NOTE: As in the real world. water supply will vary fram season to season.
+
+Treatment cleans and recycles your city's water, lessening seasonal
+shortages. Cost: $500 per treatment plant.
+
+Desalinate removes the salt from sea water. It is expensive, but
+sometimes necessary in beach communities with little ar no other source
+of water. Desalinization plants, which need power to function, have
+internal pumps, and do not require extra water pumps. They produce
+approximately twice as much water as a water pump next to a river.
+Cost: S000 per desalinization plant
+
+RAILS
+
+This is @ multi-use icon. Selecting this icon will reveal a
+sub-menu that allows you to choose from four rail-related
+functions: placing rails, placing subways (underground
+rails), building rail depots and building subway stations.
+
+===== Page 14 =====
+
+Depending on the year and the technology, you may only have access to the
+rails and rail depots. Trains can transport many more people than the
+highways or buses. A rail system alsa enhances the development of industry
+because of a train's capacity for transporting goods and raw materials
+around the city. The Sims can also travel much farther on a train, and it
+causes very minimal pollution. Rails are useless without rail depots
+
+The subway is a railway system that is underground. It is mainly used to
+transport people; not materials or products. It does not take up any
+Valuable real estate since it is underground. You will not have to worry
+about buildings being in the way, and its exits and entrances only take up
+one tile. Its disadvantages are its high cost and maintenance. Subways can
+connect with railways for a continuous flow.
+
+NOTE: To encourage the people to use public transportation, place depots
+near the crassing of crawded intersections and have the lines go through
+all types of zones.
+
+Rails
+Cost: $25 per tile.
+
+Subways
+Cost: SID per tile
+
+Rail Depots must be placed on level ground and adjacent to tracks
+Cost: $500 per depot
+
+Sub Stations must also be placed on level ground and adjacent ta the
+subway line. It is best to build the station in the underground mode
+Cost: $250 per station.
+
+Sub-Rail allows you to form a continuous transportation system
+They must be adjacent to a rail tile. Cost: $250 per tile
+
+EDUCATION
+This is a multi-function icon that lets you provide your citizens with
+everything they need to improve their minds. Selecting the Education Icon
+will reveal four items: School, College, Library, and Museum. Educational
+facilities increase the real estate value and the Sims’ EQ (educational
+quality). Es range from O (brain dead) to 150. Funds for these facilities
+must be raised on the Budget Screen. When this icon is active the cursor
+will appear as a martarboard
+
+A School will educate a population of 15,000, and raise the city's EQ to 90
+over a ten year period. A College serves 50,000 Sims and raises the EQ to
+140. Once people graduate, their EQ declines gradually. Libraries and
+Museums prevent this fram occurring. Cost: $250 per school,
+
+SI000 per college, $500 per library, and $1000 per museum
+
+PUBLIC SERVICE
+
+This is a multi-function icon that lets you provide your city with those
+necessities of life that we all wish were not necessary. These are
+presented in the sub-menu: Police, Fire Station, Hospital, and Prison.
+
+A Police Station will decrease the crime rate within its jurisdiction and also
+raise real estate value. It affects the areas closest to it. and is less
+effective in areas far away from it. Each Station has its own small jail. If
+the city graws you may need more stations or jails for the increasing
+number of criminals, Cost:$500 per police station,
+
+A Fire Station can put aut fires and help prevent fires fram occurring, It
+also increases real estate value. Cost: $500 per fire station
+
+A Hospital maintains the health of the Sims, takes care of their injuries,
+and increases their longevity (LE). Well-funded hospitals can cover about
+25,000 Sims. You can check the effectiveness an the population graph
+under LE. If there are no hospitals, the LE slowly declines to 35 years
+Well-funded hospitals increase the LE to 85 years. The City ordinances will
+also have an effect on LE. Cost: $500 per hospital
+
+dails will increase the efficiency of the police department, but this only
+applies to areas with high crime rates and high population. When a jail fills
+up, a newspaper will report it. Cost: $3000 per jail
+
+RECREATION
+
+Recreation will offer entertainment facilities for the Sims. As the population
+grows. the Sims will start requesting entertainment venues. SimCity 2000
+offers small parks, big parks, zoos, stadiums, and marinas. These raise the
+real estate value and promote residential areas surrounding them. They
+also encourage tourism in your city.
+
+Small Park adds the same real estate value as trees, Cost: $20 per small
+park,
+
+Big Park will raise real estate values twice as much as a small park Cost
+$150 per big park
+
+===== Page 15 =====
+
+Zoos, Stadiums, and Marinas affect the grawth of surrounding residential
+areas and promote tourism. Cost: $3000 per zoo, SS000 per stadium,
+S000 per marina.
+
+REWARDS
+
+The Reward Button will be ghasted and unavailable until you deserve
+reward. Rewards are based on your city's population, and consist of
+special buildings and monuments to your mayoral prowess.
+
+ARCOLOGIES
+
+Arcologies are like futuristic mini-cities which you may produce inside your
+own city. They are a residential, commercial, and industrial zone meshed
+into one building area. Arcologies will stimulate the grawth of nearby
+areas. However, they also have the problems that any city has. such as
+crime, pollution, and traffic congestion. Although it has its own public
+service and transportation systems, you will want to make sure to equip
+the surrounding areas with some extra reinforcement. There are four
+different arcologies which will appear for you to use when you reach the
+appropriate time periods: 2000, 2050, 2100. and 2160.
+
+MILITARY
+
+Military Bases can be a good thing or @ bad thing, depending on the base
+and your plans for your city. This option will be presented to you when
+your population reaches 60,000 and the government asks if you will grant
+land for a military base.
+
+When you grant land to the military, you do not get to choose what type
+you get or where it goes - the government does. The types of bases are:
+army. navy, airforce, and missile silas. If your city is on the coast, chances
+are that you will receive a naval base. If your city is quite flat, you will
+probably get an air force. If it is hilly, it will most likely be an army base
+IF it is very hilly, you will get missile silos
+
+A military base's positive attributes are that it gives a boost to local
+commerce both by bringing in extra customers for the stores and services
+in your city, and by supplying civilian jobs. The presence of a military base
+(ather than missile silos) also has a deterrent affect on monsters, and may
+encourage them ta leave sooner. During an emergency, you may also be
+able to deploy military troops to aid your fire and police departments with
+the Emergency Button.
+
+On the other hand, a military base may result in an increase in crime (wild
+times on shore leaves and civilian crooks preying on soldiers) and traffic
+congestion.
+
+Missile Silos are the least desirable base, since they do nat have a large
+enough staff to have an effect on your economy and they are useless
+against monsters (the missiles will do more damage ta your city than to
+the monster). Even if your city is a nuclear-free zone, you risk getting
+missile silos if you agree to a military base
+
+DISPLAY
+
+Display Mode is an icon which allows you view your city from different
+perspectives.
+
+Show Underground lets you see below the city so you can check and wark
+on water pipes and subways.
+
+Show Zones turns on and off the display of all Sim-made buildings in
+zones.
+
+Show Infrastructure toggles on and off the display of all roads, rails, and
+power lines.
+
+Show Buildings turns on and off the display of all city-owned buildings
+
+INFORMATION
+
+The Information leon is a multi-function icon which has several informative
+features in its sub-menu. Please read the explanation of each so that you
+may run your city in the mast efficient manner possible.
+
+The Graphs Screen displays statistical graphs about different elements of
+your city. You can choose to display graphs of information for the last |,
+10, or (00 years with the A Button. You can also toggle the display of each
+graph on and off by choosing the name of the graph in the graph
+selections with the A Button.
+
+===== Page 16 =====
+
+Each graph
+
+= has a “mark,” a letter or symbol at its right end to help identify it
+® which is followed by @ number which gives its current value.
+
+Here is a chart of all the graphs:
+
+Name
+
+City Size
+Residents
+Commerce
+Industry
+Traffic
+
+Pollution
+Value
+
+Crime
+Power %
+Water %
+Health
+Education
+Unemployed
+GNP
+
+Nat'l Pop
+Fed Rate
+
+Mark
+
+Hy
+
+R
+C
+|
+T
+
+cm > eu
+
+Description
+
+the total city population
+
+the population that is not part of the jab market
+number of people emplayed in commercial jabs
+number of people employed in industrial jabs
+
+the average density af your road network including buses,
+but net trains or subways
+
+growth or decline in the general level of pollution in the city
+
+the fluctuations of the average land value in the city
+(median home price)
+
+the changing crime rate
+
+the remaining capacity of your power plants
+
+the remaining capacity of your water systems
+
+the growth or decline of the overall health level of the Sims
+the average level of education in your city
+
+the number of Sims who are unemployed
+
+the Gross National Product, or total value of goods and
+services produced by the residents of Sim-Nation. This
+affects the market for industrial goods produced in your city
+the changes in Sim-Nations total national population
+
+the prime interest rate as set by Sim-Nation’s federal
+reserve board
+
+The Population Screen gives you graphical information about the resident population of
+your city. It displays three different graphs:
+
+Population. which shows the age distribution of the city's residents, and displays the
+percentage of citizens that comprise your potential work force. The lighter colored
+bars are your city's work force population.
+
+Health shows the life expectancy(LE) of the population, by age, and displays
+the LE of the current work force
+
+Education shows the educational quotient(EQ) of the population, by age, and
+displays the EQ of the current work force. A high EQ attracts high-tech
+industry to your city.
+
+EQ is affected by the presence of schools, colleges, libraries and museums.
+
+The Industries Screen gives you valuable information
+on the industrial base of your city. It displays
+information on three areas:
+
+Ratios shows the current ratio of each different type
+of industry. The longer the blue bar next to an
+industry name, the more of that industry there is in
+your city
+
+Tax Rates shows the property tax rate that each industry pays. The initial tax
+rate is 7%. The overall tax rate for all industry can be set in the Property
+Tax falder of the Budget Screen. Here you can independently adjust taxes on
+each industry to encourage some industries ta move into your city and
+athers to move out
+
+Demand shows a graph of which industries’ products are in demand
+nationally,
+
+The Neighbors Screen displays your city's population alang with the
+population of its neighboring cities and the total population of SimNation
+Press the 8 Button to exit this screen
+
+BUDGET SCREEN
+
+The Budget Screen is an advanced feature of SimCity 2000
+which gives you complete contral of your city's finances. You
+can look at the Budget Screen whenever you want, but having
+it pop up every year by choosing Automatic Display is a handy
+reminder.
+
+Here is a description of each of the eight budget areas
+
+Property Taxes are your main source of funds for maintaining and expanding
+your city. The default property tax rate is 7%. The minimum tax is 0%, the
+maximum is 20%. Any taxes you set here will be equally applied to all zones.
+
+You can individually adjust the tax rate for each type of zone on the Inspect
+Books screen.
+
+===== Page 17 =====
+
+City Ordinances will have a variety of effects on your income and on city growth
+Usually, you, as mayor, must approve and establish these programs. But if your city
+is doing very well, the City Council may take it upon itself to enact some programs
+that benefit the city. Find out mare about city ordinances on page 3B.
+
+Bond Payments allow you, as mayor, to issue bonds in case you need to borrow
+money to improve and grow your city. This is actually a loan from your citizens
+Each bond brings you $10,000. Interest on the bonds is deducted from your city
+funds automatically each year. and you'll keep paying that interest until you pay
+back the bond. The interest rate you pay on outstanding bonds is based on your
+city's current value and loan rating
+
+Loan ratings range from AAA (best) to F (worst). Your rating is based on your city
+value. The higher the rating, the more bonds you can issue and the lower the
+interest rate you pay on them
+
+When you select the Issue Bond Button it will give you the current interest rate.
+If the city's current value, or the loan rating is too low, you will not be allowed to
+issue bonds. You may be able to issue up to 0 bonds
+
+When you select Refund, you will begin to refund outstanding bonds beginning with
+the oldest ones. Until the bonds are refunded, the interest you owe for each will be
+deducted from the year-end city revenue, so when you have the cash it is better to
+pay off the bonds
+
+Police Department displays the funding level for police departments in your city. You
+can set the percentage of funding from 0 to 100%. Generally, it is better to keep
+funding as high as possible to prevent rampant crime, Complete funding for one
+police station is SIO per year.
+
+Fire Department shows the cost and funding level for fire departments in your city
+You can set the percentage of funding fram 0 to 100%. In general, try to keep fire
+department funding as high as possible to prevent fires and ta more quickly put out
+the ones that do occur. Complete funding for one fire department is S!00 per year
+
+Health and Welfare shows the cost and funding level for medical services in your
+city, You can set the level form O to 100%. Generally, try to keep funding as high as
+possible to keep your Sims healthy. If you keep your funding at 100% for several
+decades, the average life expectancy in your city will increase. Complete funding for
+each hospital is $50 per year.
+
+Education shows the cost and funding level for education in your city. This funding
+supports both schools for the children and colleges for higher learning. Without
+schools, education in your city will be very limited, and you will be unable ta
+support high-technology industries. You can set the overall funding for education
+between o and (00%. Complete funding for a school costs $25 per year, and a
+college costs SIO0 per year.
+
+You may also adjust the funding level individually for schools and colleges on the
+Inspect Books screen
+
+Transit Authority shows the cast and funding level for maintaining the
+transportation system in your city. This funding maintains roads, rails, highways,
+subways, bridges, and tunnels. Without proper funding, your transit systems will
+deteriorate, and cammuting and commerce in your city will fall to pieces.
+
+You can set the overall percentage of funding for your transportation systems fram
+0 to 100%. Complete transit authority funding per year is: S1/(0 tiles for roads,
+$2/5 tiles for rails, $475 sections (20 tiles) for highways, $2/5 tiles for subways,
+$16 tiles for bridges, and $1/I0 tiles for tunnels.
+
+You can independently set the funding rates for roads, rails. highways, subways,
+bridges, and tunnels on the Tax Adjustment screen.
+
+The Emergency toal is only available for your use when a disaster occurs.
+if {t allows you to dispatch police and/or fire departments to the scene of
+
+a disaster.
+
+Select Dispatch Police, Dispatch Firefighters, or Dispatch Military with the A Button,
+then use the Control Pad to move the cursor to the area of the city where you
+want your city's finest to go. An icon representing your dispatched group will be
+placed in the city. In general, you can place one icon for each station you have. The
+number of military troops you can deploy depends on the size of the military base
+(If you do not have a military base, you cannot dispatch military troops.) Try to
+place them so that they block, surround, and contain a fire or riot. There is no cost
+for dispatching police or firefighters
+
+The Gentring tool allows you to pick @ place in your city to be centered in
+the Development screen. Select the tool and then place the cursor
+anywhere in the city. You can also center by using the X Button
+
+===== Page 18 =====
+
+Viewing
+
+Zoom In gives you an enlarged, closer look of the city
+
+Zoom Qut gives you a smaller, more removed view of the city
+Rotate Counter-Clockwise rotates the entire city limits 90 degrees
+counter-clackwise
+
+Rotate Clockwise rotates the city 90 degrees clockwise
+
+MAP SCREEN
+city limits at once, with vital information in
+
+@
+7:
+ES a number of displays
+
+Select the Map screen with the A Button. The Map
+screen will then appear with all of the various map
+functions. Most of these functions contain sub-menus.
+
+The Map screen shows you your complete
+
+City Form shows maps of your city's overall shape and zoning.
+
+Transportation shows transportation-related maps:
+
+Roads shows the roads in your city
+
+Rails shows the railways in your city
+
+Traffic Density shows the relative amount of traffic in different parts of the city in
+shades of gray. The darker the gray, the heavier the traffic.
+
+Power helps you track power in your city, Powered zones are shown in yellow, zones
+that have lost power are shown in red, power lines are shown in white.
+
+Water System helps you track the water supply in your city.
+Zones that are hooked to the water supply are in yellow, zones that have no water
+are shown in red, and water pipes are shown in white
+
+Crime shows maps that have ta do with crime and police.
+
+High Grime Area shows the relative amounts of crime in each area of your city in
+shades af gray. The darker the gray, the higher the crime rate.
+
+Valid Range shows the relative amount of police coverage in different areas of the
+city, also in shades of gray.
+
+Location shows each of your stations as different colored squares.
+
+Population shows maps that tell about your Sims.
+
+Pop. Density shows the relative number of Sims in each part of your city in shades
+of gray. The darker the gray, the denser the population
+
+Pop. Growth shows, in shades of green, where in the city the population is
+increasing, and in shades of red where it is decreasing
+
+Fire Protection
+
+Valid Range shows the relative fire coverage of different parts of your city in shades
+of gray. The darker the gray, the more the coverage.
+
+Location shows the location of these buildings as white squares
+
+Pallution shows you the relative amounts of pollution in your city. This is @ reading of
+all types of pollution combined, and is shown in shades of gray. The darker the gray.
+the worse the pollution
+
+Education
+Location displays the location of schools with a white square
+Universities displays the location of colleges with @ white square.
+
+MORE ABOUT CITY ORDINANCES
+
+The Ordinance Screen is a new feature of SimCity
+2000. This allows you to establish and inspect city
+ordinances and community programs.
+
+There are five categories of programs and ordinances:
+finance, health and safety, education, promotional, and ather. Select the names of
+each pragram or ordinance for an explanation of what they do, as well as a list of
+their pros and cans.
+
+Jo enact a program, click in the checkbox to the right of the program's name. The
+cost or projected revenue will appear to the right side of the check. These amounts
+will vary with the size and develapment of your city. The Estimated Annual Costs far
+all programs is provided in the lower-right corner of the window.
+
+FINANCE
+
+1% Consumption Tax will provide some funds for you
+but may alsa inhibit local commerce.
+
+1% Income Tax is a source of city revenue, but may
+discourage residential grawth, and even cause some
+tax-haters to move away,
+
+Legal Gambling can also provide extra money that can
+be put to good use. but brings with it an increase in crime.
+
+Illegal Parking is @ small, steedy source of money, but tends to hinder commercial
+growth a little
+
+===== Page 19 =====
+
+34 nl
+
+SAFETY AND HEALTH
+
+A Firefighter can be an economical way ta fight fires in small communities, but
+cannot replace the professionals in a big city or during a forest fire
+
+A Non-Smoking City can increase the overall health level in your city and eventually
+increase the average life expectancy. but will cost a small fee to administer.
+
+Free Clinics increase the overall health level in the city, but aren't free - at least not
+to you!
+
+Little League increases the overall health level of the youth of your city
+EDUCATION
+
+A Pro-Reading Campaign will increase the overall education level in your city,
+preparing it for an influx of new, high-tech industries.
+
+An Anti-Drug Campaign can help reduce crime
+
+Providing Lifesaving as a service to your Sims increases the overall health level of
+your city.
+
+Public Security helps reduce crime in residential areas, but at a price
+
+PROMOTIONAL
+
+Tourism may or may not pay off in bringing visitors with their extra dollars to your
+city. If you do advertise for tourists, make sure you have the right attractions, like
+marinas, stadiums, parks, zoos, rivers, etc.
+
+Business can bring new industry into town, but make sure you can support the
+businesses with ample water, power, transportation, and enough residential and
+commercial space to hold the influx of new citizens.
+
+City Clean-up increases residential desirability and land value.
+An Annual Carnival can increase tourist trade and local commerce, and also
+
+entertain your Sims. The size, cost. and benefit of the carnival varies with your city
+size.
+
+OTHER
+
+Energy Savings establishes an educational drive to conserve energy by, among other
+things, adding insulation to homes and water heaters, This program takes a few
+years to gain its full effect, but will eventually allow your power plants to power up
+to 15% more buildings.
+
+CITY ICONS e
+
+Declaring your city Anti-Nuclear costs nothing, but can make some of your citizens
+feel safer, and may even attract new citizens. It's a small plus for residential
+desirability and a small minus for industry.
+
+Homeless shelters are expensive, but decrease the number of homeless people and
+increase the number of residents, increasing the labor pool for commerce and
+industry and marginally increasing land value
+
+Anti-Pallution slightly lowers the amount of industrial pollution in your city, but also
+makes it less desirable for industry.
+
+DEALING WITH DISASTERS
+
+Unless you have No Disasters set in the Options menu, Disasters just happen. The
+disasters that are connected with a scenario happen even when you have disasters
+turned Off
+
+Certain conditions in your city attract or discourage disasters, and certain city
+events can even cause them. So, to some extent, you can prepare for and even
+lessen the likelihood of disasters
+
+In the event of a disaster, the first thing to do is stop any fires that you can. Next,
+rebuild the utilities, then the transportation system. Remember to use your
+emergency button to deploy your fire, police, and sometimes the military ta areas of
+need, but be careful of where you put them. In general, firemen are good at fighting
+fires. but can be wiped out by rioters; police are good at controlling riots, but can
+get burnt up in a fire. Both firefighters and police can build dams to help fight
+floods. Military troops are capable of anything that firemen or police can do; they
+are just not as specialized or effective
+
+You may also set off your awn disasters from the Disasters menu to test your
+preparedness, your quick thinking, and the quality af your city's design.
+
+Fires are most likely to occur when the weather is hot and you do not have good
+fire department coverage. Fires are also the by-product of other disasters.
+
+Floods occur in the wet season, and can be the by-product of other disasters
+including hurricanes, tidal waves, or tornadoes. Floods only destroy things at sea
+level: Sea Ports are prime targets for flood damage. (Try building your sea ports up
+river, away from the coast) You can use the Raise Terrain mode of the Bulldozer
+tool to build protective dikes in areas that you think might flood
+
+===== Page 20 =====
+
+Tornadoes and Hurricanes occur because of climatic conditions, and cannot be
+prevented. Keep an eye on the weather reports in the newspaper for high winds and
+you might receive enough warning to reinforce your police and fire departments
+
+Earthquakes cannot be prevented. All you can do is repair the damage
+
+The Monster may be an intelligent creature from outerspace. But then again, it might
+just be @ Hollywood movie special effect run amok. The presence of certain military
+bases may deter the monster or rush it an its way.
+
+There are a number of other disasters that will pop up fram time to time in Simbity
+2000 but we'll let you find them out on your own...
+
+DATA ICON
+
+The Data Icon contains in its sub-menu the options to save, load, or start
+a new city,
+
+Save saves the current city so that you may return to it You may save
+only one city at a time.
+
+Load allows you to call up a saved city.
+
+New City lets you start fresh with a new city. Unless you save the city
+which you were working on, it will be erased as soon as you select “yes”
+fram the dialogue box.
+
+OPTIONS ICON
+The Options Icon contains six different options in its sub-menu.
+
+Read Newspaper allows you to read the current news and find out what
+the citizens are saying about you and your city.
+
+Subscription delivers @ newspaper to you twice a year.
+
+No Disaster prevents disasters from occurring. No Disasters will not
+prevent the “official” scenario disasters, or stop disasters already in
+progress. This option automatically rebuilds your power plants after their
+Ol-year life-spans, unless you do not have the funds to pay for it.
+
+LIMITED WARRANTY w
+
+Black Pearl Software warrants to the original purchaser of this Black Pearl Software
+product that the medium on which the computer program is recorded is free from
+defects in materials and workmanship for a period of ninety (90) days from the date of
+purchase. This Black Pear! software is sold "as is", without express or implied
+warranty of any kind, and Black Pearl Software is not liable for any losses or damage
+of any kind resulting from use of this program. Black Pearl Software agrees for a
+periad of ninety (90) days to either repair or replace, at its option, free of charge, any
+Black Pearl Software product, postage paid, with proof of purchase, at its Customer
+Service Centre. Replacement of the Game Pak, free of charge to the original
+purchaser is the full extent of our liability. Please mail to Black Pearl Software, 4 The
+Parade, Epsom, Surrey, KT18 5DH, Please allow 28 days from dispatch for return of
+your Game Pak
+
+This warranty is not applicable to normal wear and tear. This warranty shall not be
+applicable and shall be void if the defect in the Black Pearl Software product has
+arisen through abuse, unreasonable use, mistreatment or neglect.
+
+THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES AND NO OTHER
+REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE BINDING OR OBLIGATE
+BLACK PEARL SOFTWARE. ANY IMPLIED WARRANTIES OF APPLICABILITY TO THIS
+SOFTWARE PRODUCT, INCLUDING WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE, ARE LIMITED TO THE NINETY (90) DAY
+PERIOD DESCRIBED ABOVE. IN NO EVENT WILL BLACK PEARL SOFTWARE BE
+LIABLE FOR ANY SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES RESULTING
+FROM POSSESSION, USE OR MALFUNCTION OF THIS BLACK PEARL SOFTWARE
+PRODUCT. THIS IN NO WAY AFFECTS YOUR STATUTORY RIGHTS.
+
+This computer program and its associated documentation and materials are
+protected by both National and International copyright law. Storage in a retrieval
+system, reproduction, translation, hiring, lending, broadcasting and public
+performances are prohibited without express written permission of Black Pearl
+Software
+
+BLACK PEARL SOFTWARE
+¢/o TeHQ International Ltd
+4 The Parade
+
+Sound Effects toggles the sound effects an and off on
+a S
+Music toggles the musical soundtrack on and off Erie ATSB
+Time Stop stops time in the simulation. You can still develop and build
+during this time, so it cames in very handy after a disaster or for a large-
+scale plan
+ei op

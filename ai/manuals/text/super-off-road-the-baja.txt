@@ -1,0 +1,643 @@
+# Super Off Road The Baja
+source: https://archive.org/details/snes_manual_archive
+pdf: Super Off Road The Baja ( USA ).pdf
+region: USA
+pages: 14
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED
+CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET CAREFULLY BEFORE USING YOUR
+
+NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+Thank you for purchasing Super OFF ROAD, The
+BAJA™ from Tradewest for your Super Nintendo
+Entertainment System. For maximum enjoyment,
+please read this Instruction Manual thoroughly
+before playing.
+
+LUcENSEO BY
+
+4
+
+Ivan Stewart Cai
+
+Game Select /Ma
+
+Password Screen
+
+Game Set-Up 1
+Pre-Run 12
+
+Leg Selection 13
+
+Map of Baja 14
+Vehicle Controls 15
+he Race Vehicle 17
+Pit Stop Screen 19
+Start T
+
+e Race/Penalties 21
+
+Scoring & Statistics 22
+
+Tow Truck Screen/Best Times 23
+
+Trophy Screen 24
+
+rd Your Passwords 25
+
+Limited Warranty 26
+
+===== Page 3 =====
+
+ACKNOWLEDGMENTS
+
+Tradewest gratefully acknowledges
+the enthusiastic cooperation of
+the following individuals and
+corporations for their generous
+contribution of time
+and resources in the development
+of
+Super OFF ROAD, The BAJA
+Mr. Ivan Stewart
+Toyota Motor Corporation
+Cal Wells, Julie Bentley and the
+entire staff of
+Precision Preparation Inc.
+Mr. Sal Fish and the entire staff of
+SCORE International
+
+herein without other reference,
+
+Producer: Michael Abbot / Art Director: Kevin Lydy /
+Packaging & Print Director: Debbie Austin / Game Designers:
+John Morgan, Kevin Lydy, Michael Platteter, Steve High /
+Game Programmer: John Morgan / Game Artists: Francisco
+Gracia, David Ellingson, Michael Platteter, Steve High / Music
+& Sound Effects: Chip Burwell / Package Concept &
+
+teve High, Debbie Austin / Manual Design:
+Steve High, Shawn Murphy, Debbie Austin / Poster
+Design & Illustration: Steve High, Shawn Murphy,
+Debbie Austin / Quality Control: Donna Jorgensen,
+Ken Welk, Brian Johnson, Josh Greeson.
+
+3
+
+USING THE SYSTEM
+
+1. Turn OFF the power on your Super NES.
+
+WARNING: Never try to insert or remove a Game Pak
+when the power is ON.
+
+2. Make sure a controller is plugged into the #1 port on
+the Super NES.
+
+3, Insert the Game Pak into the slot on the Super NES and
+press firmly to lock the Game Pak in place.
+
+4, Turn ON the power switch. The Trademark /Developer
+Jogos will be displayed and then the game title screen
+will appear.
+
+5, When you see the Super OFF ROAD, The BAJA™
+logo screen, press START to activate the Game Select
+Screen.
+
+===== Page 4 =====
+
+Apparently, as far back as the 1940's and 50's there were
+some American lunatics who liked to drive the length of
+the Baja Peninsula before there was any organized race,
+
+Baja racing has grown into a
+manufacturers of off-road vel
+vying for the prestige of
+
+|. The highway
+distance from
+Ensenada to La Paz is
+tually been only about 700
+race's 25th anniversary, sponsored
+by SCORE/HDRA, in November 1992, the course was
+marked out for a torturous 1,000+ mi
+
+have names like Be
+Seco and Martir. About every four
+is La Paz, where drivers from all
+hey can
+
+a different kind of motor race,
+probably because for the 500 or
+—-, 0 participants, The Bs
+\ 1000 is a personal event to
+zl) each of them, For
+instance, one year a
+Frenchman named
+
+vehicles that had been trapped in t
+idious powder. There wasn
+human to be seen on the hi
+
+Ashe and his co-driver
+
+dig the car out, a
+
+eight years ol
+out of nowhere, He ¢ ‘onto the roof of the car to
+watch the di y finished, the boy jumped
+
+There are so many bizarre stories abou
+over the years, it has become epic.
+
+===== Page 5 =====
+
+IVAN STEWART BIOGRAPHY
+
+Since entering the world of off-road in 1971, Ivan Stewart
+has earned unparalleled honors, including winning 11
+Baja 500's; 7 Mint 400's; 5 SCORE World Championships;
+5 SCORE Driver of the Year awards; and 3 driver's titles
+and a record 14 main event victories in stadium off-road
+racing. In total the California veteran has posted 68
+
+racing victories in his 21
+year career! Ivan's passion
+for desert racing is evident
+through his list of
+accomplishments. Since
+his debut with Team
+Toyota in 1983, Stewart has}
+been unstoppable in the
+desert, winning 6 Baja
+500's, 5 Mint 400's, 2
+Nevada 500's, 3 Gold Coast}
+30's and 4 SCORE World
+Championshi)
+Stewart put his name in the|
+record books when he piloted his V-6 powered Toyota
+truck to 6 victories, becoming the first truck driver in the
+history of the SCORE and HDRA series to earn both the
+"Overall" title and the "Unlimited Class” championship:
+In addition to all of his record-breaking titles, [van has
+also become legendary because of his penchant for
+running The BAJA 1000, 15 hours of non-stop, dirt-
+churning, gravel grinding driving without a co-driver or
+a windshield! "Til tell ya," quipped Stewart,
+“when you go down to Baja, it's not really a race,
+and this may sound comy, but it's an adventure.
+I've loved it for more than twenty years!
+
+rE
+
+IVAN STEWART'S BAJA HIGHLIGHTS
+
+1992 Ist Baja 500--Class 1, Overall SCORE
+1991 Ist Baja 500--Class 1, Overall SCORE
+“1990 1st Baja 500--Class 1, SCORE
+4 2nd Overall
+1989 Ist Baja 500-Class 1, SCORE
+2nd Overall
+
+2nd Baja 1000--Classt HDRA
+1986 Ist Baja 500--Class 1 SCORE
+1985 2nd Baja 500--Class 1 SCORE
+1984 Ist Baja 500-Class 7 SCORE
+1980 Ist Baja 500-Class 8 SCORE
+1976 Ist Baja 500--Class 1, Overall SCORE
+
+Ist Baja 1000--Class 1 SCORE
+1975 Ist Baja 300--Class 1, Overall SCORE
+
+Ist Baja 500-Class 1, Overall SCORE
+
+2nd Baja 1000-- Class 1 SCORE
+1974 Ist Baja 300-Class 2 BSC
+
+Ist Baja 500--Class 2, Overall SCORE
+
+Ast Baja 500--Class 1 BSC
+1973 Ist Baja 300--Class 2 BSC
+
+Event Sponsors
+‘SCORE; SCORE International
+HRA: High Desert Racing,
+SC: Ba Sports Committee
+
+8
+
+===== Page 6 =====
+
+GAME SELECT i] ‘Game'Seiect
+
+From the Game Select screen, PaSsKonD)
+
+choose the race you wish to run belbe
+PRE-RU
+
+in, Ifyou hit START without ica iee
+selecting a race, you'll find ENSENADR 0
+yourself running The Baja 1000. ‘enon 1000
+
+You also have the option to
+enter your password from a former race, pre-run any of
+the first 4 legs or go to Set-Up to modify the number of
+players, vehicle colors, etc. (Life is full of choices!)
+Using the control pad, scroll through the options and
+select your categories by pushing START,
+
+TOGGLE CHOICES:
+LEFTOR RIGHT. —
+
+PASSWORD
+If you select PASSWORD from Password
+
+the game select menu, you will
+
+be presented with 2 lines of 14
+
+zeros on the screen. Use the Bier
+control pad to move and the
+
+select buttons (A,BX or Y) to
+
+change the zeros to your
+
+previously recorded 28 digit password. After entering
+your password, push START. You will then return to the
+point in the game where you left-off.
+
+The PASSWORD will automatically be presented on the
+screen at the following points
+
+1, At the end of The Mexico 250 (CAMALU)
+
+2. Halfway through The Ensenada 500 (CAMALU)
+
+3. At the end of The 500 (GUERRERO NEGRO)
+
+4, One quarter through The Baja 1000 (CAMALU)
+
+5, Halfway through The 1000 (GUERRERO NEGRO)
+
+Hey, we even gave you a place at the back of this book to
+write down your passwords. Do it,
+
+===== Page 7 =====
+
+GAME SET-UP
+The Game Set-Up Screen will
+
+DIFF eULTY: INTERNEDIATE,
+
+appear every time you choose |uPAAH MMIC
+SET-UP from the main menu #UGGuarets re
+(Game Select). Use it to Eas Te
+customize game play. Scroll |p RHa
+
+up or down through the
+selections with the control pad.
+‘Toggle the choices on each line with the A,B,X or Y
+buttons. The choices that are left on screen when you
+push START will be the parameters with which the game
+is played. Did you get that?
+
+DIFFICULTY: (Beginner, intermediate or Expert)
+Choose from 3 levels of difficulty by using the control
+pad to illuminate "Difficulty" and the A,B,X or Y buttons
+to cycle through the levels.
+
+MUSIC: On or Off. If you're playing this game when
+you're supposed to be doing something else, "Music Off"
+might be the smart move..
+
+aut
+
+PLAYER: Select 1 or 2. Both players in 2-Player mode
+must play at the same difficulty level.
+
+‘One Player - against Ivan Stewart
+
+Two Player - against another person
+Either option will include the complete field of drivers.
+‘When you are driving in the 2-Player mode, Player 1 will
+rum each leg alone. During Player 2's run, the "ghost
+image’ of Player 1's vehicle will appear on the course. It
+will perform the same way it did during Player 1's run,
+including picking up bonus objects, when the "ghost
+vehicle" is visible on the screen.
+
+Vehicle Color: Cycle through the 6 vehicle colors and
+select one. Player 2 may select one of the remaining 5
+colors. Don't fight about it. All vehicles are equal at the
+start - bragging rights come later, after you prove
+yourself!
+
+Player Initials: Cycle through the alphabet and select
+3 initials. (Move sideways from first to third initial with
+the control pad left-right lever)
+
+PRE-RUN
+The Pre-Run option will allow you to check-out any of
+the first 4 legs of the race. Scroll through the legs using
+the Control Pad. When you find a leg you want to
+challenge, press START. Your vehicle will then appear
+on the starting line of the selected leg. When you've
+finished your pre-run, the stats will come up. Push
+START and the Game Select screen will appear. You can.
+then choose to start a race or pre-run another leg. This
+option is also useful for those of you who are afraid of the
+“real thing” and want to avoid the race
+
+altogether - you can pre-run all day long...
+
+===== Page 8 =====
+
+LEG SELECTION
+
+to The BAJA 1000! 8 segments of the most in-your-face
+
+terrain on the planet! You can choose any of the fi
+to pre-run and you may pre-run as many times
+the 2-Player mode, both players must
+
+\e leg sequentially. Once you feel
+your pre-run, you may want to go
+way from Ensenada to La Paz. This is the real
+BAJA...1,000 miles of bone-jarring rocks, dust and heat!
+
+RACES LEGS
+MEXICO. 1, Ensenada to San Felipe
+250 2, San Felipe to Camalu
+3. Camalu to El Arco
+ENSENADA 4, El Arco to Guerrero Negro
+
+5. Guerrero Negro to San Juanico
+
+6, San Juanico to San Ja
+
+BAJA 1000 7. San Javier to Santa
+8. Santa Rita to La Paz
+
+No matter which race you pick, you will be shown the
+LEG SELECTION screen where youll see a map of Baja,
+the title of the next leg and Ivan’s racing tip for the
+segment. If you've already run ~
+the entire race, you can toggle
+through the legs to re-run any
+one of them out of order.
+Check out Ivan’s hints - the Woh 15 TH
+guy knows what he's talking gestive
+about! Hit START and H
+get ready to bounce =
+your teeth loose!
+
+13
+
+===== Page 9 =====
+
+VEHICLE CONTROLS
+
+Check it out - there are several contr
+ing easier. The START button w:
+time clock i
+
+Dashboard: The di the bottom of the
+ing screen gives information about the condit
+your vehicle and how well you're doing. The long bar
+
+vs your distance. The long bar
+
+rocks, animals) and from
+ng the road too hard. Drive|
+fast, but don't act the fool and
+
+STEERING
+
+ACCELERATOR
+BRAKE
+
+Additionally, small warning lights on the left will advise
+you of the specific type of damage you are incurring
+(tires , brakes, etc.) The RPM/MPH gauge s!
+
+position is determined by who's in front of you and who.
+‘back of you, ‘The dashboard clock actually begins
+to run the moment you are in the Pit Stop so decide
+quickly and get outta there!
+
+===== Page 10 =====
+
+Ivan Stewart's
+Special Unlimited
+TOYOTA Desert Race Vehicle
+
+ENGINE: TOYOTA 6 CYL, 12 VALVE V6
+300 HP OVERHEAD CAM, FUEL
+
+FUEL TANK: a5 GAL CAPACITY, INJECTED, MID-CHASSIS MOUNTED.
+
+ALUMINUM WITH 4O/AMETER
+
+FILL TUBE
+
+108 OCTANE
+
+TRICK GASOLINE
+
+TERE ROLL CAGE: 2° diam, 4130 CHROME
+MOLY AIRCRAFT STEEL
+
+BRAKES: AP 11.5"
+
+dam. DISC TYPE INDEPENDENT
+
+TORSION BAR
+
+CHASSIS: TOYOTA SINGLE SEAT te
+
+UNUMITED CLASS WITH
+
+(QUICK-RELEASE FIBERGLASS
+
+BODY PANELS.
+WHEELBASE: 120" SEAT: SINGLE BUCKET,
+WEIGHT: 4200 Las. CENTER MOUNTED
+(CLEARANCE: 17°
+
+SKIOPLATE: AIRCRAFT
+[ALUMINUM ALLOY.
+
+‘SHOCKS: BILSTEIN NITROGEN. Sac en arcoNe
+BF GOODRICH STEEL BELTEO RADI
+
+TIRES (9"VERTICAL TRAVEL ‘ALUMINUM KNOCK OFF HUBS
+
+17 18
+
+===== Page 11 =====
+
+THE PIT STOP.
+
+Before each leg of a race, you
+will hit the PIT STOP. Here
+you will be able to outfit your
+vehicle for the particular
+hazards ahead. Word up: pay
+attention to Ivan’s advice. He's
+been there and he knows what |
+you'll need. Just like on "Ivan Stewart's Super Unlimited
+Toyota Desert Truck”, you can acquire features like:
+Nitros, spare Tires, better Brakes, improved Shocks,
+Lights ora larger Engine.
+
+PIT STOP ACCESSORIES
+
+ITEM cost
+Nitros $1,000 ($1K)
+Brakes $4,000 ($4K)
+Tires $5,000 ($5)
+Shocks $6,000 ($6K)
+Lights $7,000 ($7K)
+Engine $9,000 (S9K)
+
+Don't rush it, the Pit Stop will not appear until after the
+first leg has been run by both players. Thereafter, you'll
+pull in before each leg so you can get the equipment
+you'll need for the coming race segment. Don't mess
+around - get outta there quickly because the clock is
+running and it adds unwanted seconds to your time,
+(What?! You spent all your time shopping?!) When you're
+finished wandering around in the Pit Stop, hit
+START and get ready to leave your buddies in
+the dust!
+
+19
+
+‘SCROLL THROUGH ACCESSORIES
+
+ee
+
+PURCHASE
+
+SELL BACK
+TE YOU MAKE
+MISTAKE.
+OR CHANGE
+Your MND)
+
+Besicles earning Bonus Money at the end of a leg, you can
+also grab big bucks to use in the Pit Stop by nailing the
+money bags you will see along the racecourse. As you
+collect more bags, the amount of money in each will
+progressively increase, Also, you can avoid spending all
+your hard-earned dollars on Nitros if you're good and
+fast enough to collect them along the racecourse!
+Coordination counts on these moves.
+
+20
+
+===== Page 12 =====
+
+START THE RACE
+
+Once you burn rubber out of
+the Pit Stop, each leg will start
+automatically. You will see
+your vehicle at the start line, the|
+flagman will wave the green
+flag and there will be 3. beeps.
+(HINT: Press” B" and hold
+between the 2nd and 3rd beep
+and you can leave the others in the dust!) Stay on the
+road //path to keep your speed up and make the best time.
+(Gee DASHBOARD on page 15.) At the beginning of the
+first leg, you'll find yourself near the back of the pack,
+Don't pitch a fit ‘cos after that your starting position is,
+determined by your overall standing, Each vehicle starts
+the race a couple of seconds apart, so watch out - even
+though you may cross the finish line first, some of your
+‘opponents can still have quicker leg times!
+
+PENALTIES
+
+Even though you're drivin’ to win, you would be wise to
+check-out what's in front of you! Avoid hitting Quad
+Riders, Spectators and Animals. Not only do they
+damage your vehicle, they also cause big penalty fines.
+Besides that, it's not very sporting of you... Look otf for
+these Penalties =
+OBJECT — YOULOSE
+Quad Rider $3,000 ($3K)
+‘Animals $5,000 ($5)
+People $10,000 (S10K)
+
+STATISTICS / SCORING
+
+At the end of each leg (both players are finished) the stats
+screen will appear to show you
+how well you did time wise and
+how much bonus money you
+picked up. What a concept!
+You will also see a cumulative
+lapsed time for the race you are|
+running. These times will be
+
+as the power is ON.
+
+BONUS MONEY
+
+OVERALL NUS MONEY
+Ist Place $100,000 ($100K)
+2nd Place $95,000 ($95K)
+3rd Place $92,000 ($92K)
+4th Place $90,000 ($90K),
+5th Place $89,000 ($89K),
+
+NOTE: Bonus Money decreases in $1,000 increments
+for each position after 5th Place, i.e, 6th Place is
+awarded $88,000 and so on - get the picture?
+
+===== Page 13 =====
+
+TOW TRUCK SCREEN
+
+(The Best Times screen
+ys the times for the race
+
+KRABAAAAAABAAS)
+
+TROPHY SCREEN
+
+whole 8 legs without breaking down. It's tough, but it's
+worth it! Good luck and go for the gusto!
+
+rare S
+"BS ava 1000
+
+===== Page 14 =====
+
+[SAS AS A AS AAA ATTA)
+RECORD YOUR PASSWORDS
+
+(OTHER WARRANTIES AND NO OTHER REPRESENTATIONS OR
+CLAIMS OF ANY NATURE SHALL BE BINDING ON OR OBLIGATE
+
+RESULTING FROM POSSESSION, USE OR MALFUNCTION OF THIS
+‘TRADEWEST SOFTWARE PRODUCT,
+
+‘Tradewest, Inc. 2400 South Highway 75, Corsicana, TX75110,
+(003) 874-2683.

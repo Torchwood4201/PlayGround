@@ -1,0 +1,1919 @@
+# Sporting News Baseball
+source: https://archive.org/details/snes_manual_archive
+pdf: Sporting News Baseball ( USA ).pdf
+region: USA
+pages: 24
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+Hudson Soft USA, Inc.
+
+400 Oyster Point Blvd. Suite 515
+So. San Francisco, CA 94080
+(415) 871 - 8895
+
+PRINTED IN USA
+
+U/SNS-AWBE-USA
+
+INSTRUCTION BOOKLET
+
+SUPER NINTENDO.
+
+ENTERTAINMENT SYSTEM
+
+===== Page 2 =====
+
+WARRANTY
+
+Hudson Soft USA, Inc. ("Hudson") Warrants to the original purchaser of this Hudson
+Software product that the medium on which this computer program is recorded is free
+from defects in materials and workmanship for a period of (90) days from the date of
+purchase. This Hudson software program is sold ;
+
+as is’, without express or implied
+warranty of any kind, and Hudson is not liable for any losses or damages of any kind
+resulting from use of this product.
+
+Hudson agrees for a period of (90) days to either replace, at its option, free of charge,
+any Hudson software product, postage paid, with proof of date of purchase, at its
+Factory Service Center.
+This warranty is not applicable to normal wear and tear. This warranty shall be void if
+the defect in the Hudson software product has arisen through abuse, unreasonable
+use, mistreatment or neglect. THIS WARRANTY IN LIEU OF ALL OTHER WARRANTIES
+AND NO OTHER PRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE BINDING
+
+Thank you for adding THE SPORTING NEWS™ BASEBALL to your library
+
+of Super NES games. You have just made the perfect choice by
+selecting this quality Hudson Soft title.
+
+In order to insure your complete enjoyment of this game, we recommend
+
+that you read the manual carefully and follow its instructions and
+suggestions.
+
+WARNING: PLEASE READ THE CONSUMER INFORMATION
+AND PRECAUTIONS BOOKLET CAREFULLY BEFORE USING
+YOUR NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+THIS PRODUCT HAS BEEN RATED BY THE ENTERTAINMENT SOFTWARE
+RATING BOARD. FOR INFORMATION ABOUT THE ESRB RATING, OR TO
+COMMENT ABOUT THE APPROPRIATENESS OF THE RATING, PLEASE
+CONTACT THE ESRB AT 1-800-771-3772.
+
+ON OR OBLIGATE HU
+
+DSON ANY IMPLIED WARRANTIES APPLICABLE TO THIS
+
+/
+
+HUDSON GROUP EE
+
+HUDSON SOFT"
+
+For questions, call
+(415) 495 - HINT
+
+Hudson Soft USA, Inc.
+
+400 Oyster Point Blvd. Suite 515
+So. San Francisco, CA 94080
+(415) 871 - 8895
+
+NINTENDO, SUPER NINTENDO
+ENTERTAINMENT SYSTEM AND THE
+OFFICIAL SEALS ARE REGISTERED
+TRADEMARKS OF NINTENDO OF
+AMERICA INC.
+
+©1991 NINTENDO OF AMERICA INC.
+
+The Sporting News™ is a Registered
+Trademark of The Sporting News
+Publishing Company, used under license
+by Hudson Soft USA, INC.
+
+Officially Licensed by The Major League
+Baseball Players Association.
+
+©1995 Hudson Soft Co., Ltd.
+
+All Rights Reserved.
+
+THIS OFFICIAL SEAL IS YOUR
+ASSURANCE THAT NINTENDO HAS
+APPROVED THE QUALITY OF THIS
+PRODUCT. ALWAYS LOOK FOR THIS
+SEAL WHEN BUYING GAMES AND
+ACCESSORIES TO ENSURE COMPLETE
+COMPATIBILITY.
+
+ALL NINTENDO PRODUCTS ARE
+LICENSED BY SALE FOR USE ONLY
+WITH OTHER AUTHORIZED PRODUCTS
+BEARING THE OFFICIAL NINTENDO
+SEAL OF QUALITY.
+
+LICENSED BY
+
+MLBPA
+
+© MLBPA MSA
+
+SOFTWARE PRODUCT, INCLUDING WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE, ARE LIMITED TO THE (90) DAY PERIOD
+DESCRIBED ABOVE. IN NO EVENT WILL HUDSON BE LIABLE FOR ANY SPECIAL,
+INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM POSSESSION, USE
+OR MALFUNCTION OF THIS HUDSON SOFTWARE PRODUCT. Some states do not
+allow limitation as to how long an implied warranty lasts and/or exclusions or
+limiations of incidental or consequential damages so the above limitations and/or
+exclusions of liability may not apply to you. This warranty does give you specific rights,
+and you may also have other rigths which vary from state to state.
+
+For questions, call
+(415) 495 - HINT
+
+Hudson Soft USA, Inc.
+400 Oyster Point Blvd. Suite 515
+So. San Francisco, CA 94080
+(415) 871 - 8895
+
+TOY
+
+HUDSON GROUP ie
+
+HUDSON SOFT
+
+===== Page 3 =====
+
+ERA Calculation
+
+ERA is calculated using the formula: ERA =
+(earned runs X 9)/number of innings pitched. Only
+pitchers who have pitched at least a certain number
+of times (at least as many innings as games played
+by that team) are listed in the ERA rankings.
+“Innings are counted by 1/3 inning (1 out).
+“Although earned runs are a score given to a pitch-
+er based on walks, hits and homeruns allowed, }
+The Sporting News™ Baseball an ERA can be hurt
+by errors as well.
+
+Batting Average Calculation
+
+Batting average is calculated using the formula:
+batting average = safe hits/total at bats. Only play-
+ers who have gone to bat at least a certain number
+of times (at least 3.1 times as many at bats as
+games played by that team) are listed in the batting
+average and homerun rankings.
+
+“Walks, sacrifice hits and sacrifice flies are not
+counted as at bats when calculating batting averag-
+es.
+
+Strikeouts
+This statistic represents the total number of strike-
+outs a pitcher has thrown against opposing teams.
+
+Magic Numbers
+A magic number is the number of victories required
+to qualify for the playoffs.
+
+STARTING THE GAME IN PENNANT
+
+M IDE
+
+===== Page 4 =====
+
+STARTING THE GAME
+IN PENNANT MODE
+
+Insert the cassette into the SNES and turn the power switch ON.
+After a logo screen, the title screen will appear. Press the start
+button and a mode select screen will appear.
+
+"The Sporting News™ Baseball" includes 5 modes
+for playing games, such as the EXHIBITION mode.
+The modes EDIT and OPTIONS are also available
+
+for editing and setting up team and player data.
+
+Basic Controls
+
+(1) Control Pad: Move cursor
+(2) A Button: Select
+
+(3) B Button: Cancel
+
+(4) X Button: Change defense
+(5) Y Button: Change offense
+
+is On 00 00 8 0 6 00-0 0
+EVE ROE 06 080260 020-0 ae
+
+oeoee eee ee 000002008860 @
+7888080808808 0808088088 Oe
+eee ee eee e eee 0008808080
+ore eee eee eee e008 880880 e
+ese eeeeeee 0000008608808
+eee eee e0eee eee eee 8 e088
+eeoere eee ee 000000888
+eee 0000000008880 O8 OOOO
+e+ wo 7770 eee 08888088 OOe
+eee 000000 00000080 OOO OS
+soe 7 #7070000 00 8008888088 Oe
+0000000000800 08008 OOO Oe
+ore eee eee 8 8 e888 0 OOO Oe eee
+eee eee e000 ee 0808 O OOOO Oe
+“eee ee eee ee ee eee OO OOO OSES
+
+Wj 6 = 0S 8 08 = 0 026000
+C500 S088 6 00-00 0
+OO 02 e 36.650 6-0 Ste ®
+
+PENNANT—Pennant Race Mode
+
+In this mode, you can select your favorite team and
+play pennant games against the computer by fol-
+lowing a given schedule. You must fight to win the
+league championship. If you win, your team goes
+to The Series to play against the other league
+champion, winner takes all! The battery backup
+feature can be used to store individual statistics re-
+garding pitchers and fielders.
+
+Selecting this mode
+Press the Control Pad up/down to align the cursor
+with PENNANT and select using the A Button.
+
+Opening the pennant race
+
+When starting a new game, first select START and
+choose your favorite baseball field using the A but-
+ton.
+
+BASEBALL FIELDS
+
+There are a total of 3 baseball fields which you can play on. Night
+games are possible in all fields.
+
+The Dome Stadium has all the amenities of a modern baseball
+structure, similar to those of Houston, Montreal, and Minneapolis.
+The Ballpark resembles the more traditional arenas of New York,
+Boston and Detroit. The Dream Field represents a by-gone era
+when baseball was played in the cornfields of the Midwest for
+simple pleasure and a love of the sport.
+
+NOTE: A Ball hit into the cornfield on a bounce will result in a
+ground-rule double.
+
+One of the fun aspects of this game is deciding how to best
+change your strategy, such as changing your lineup, depending
+on the different field sizes and fence heights found in the different
+ballparks.
+
+NOTE: Never discount the enduring presence of Baseball's leg-
+ends. The mystique of the game was born with them and on any
+given day... a Shoeless Joe could take you the plate.
+
+eee
+
+$360 tte
+
+see eee ee eee
+cee eee ew eee
+se eee eee eee
+ss eee eee eee
+ss eee eee eee
+se eee eee eee
+
+eS
+
+ee a
+ee
+ee
+i a
+see ee eee ee eee
+
+SHH Mu a HH AU Bie Iw se ee ees eee
+
+ee eee w eee eee
+ss eee eee eeeee
+"eee eee eee eee
+
+===== Page 5 =====
+
+@eeeoeeveoeesneaeeese
+
+eeereeeeseeeeeeeeses
+
+eeeeseeoereeeoeeeeeees
+eeeeeeeeeeeeeeeese
+
+‘peAejd si yoyewas © puke ai} B Ul S}INS
+
+-9) 9100S al} © JUIOd yeU} }y “BHuluU! UG} ay) 0} dn peed
+Ajuo ase sHuluul e4jxQ :seyoyewey pue sHuluu| e1}xZQ
+‘sue}s ugamjoq SAep ¢€ }Se9] Je Ge JOY} SSajUN e}s ©
+Joye oweb }xeu oy} ul Aejd youued seyoyid vy :ajny uol}e}OY
+
+S31NY AGOW LNVNNAd 1VlIO0AdS
+
+"9.1574 Bunoajes Aq payajap 10 AdOO
+
+Bunoejas Aq peidoo eq Aew saji4 “Aejd 0} ysim noA
+908) JUeUUSd 9U} BuNUdsaJdd, 9]I} OU} JOoJeS UBUL
+“LUVLS JO9/8S pue BpOW JNVYNNAd esooyp }sJI4
+aopy JUDUUag D Buinuyuo>
+
+‘U99JOS dU} UO peAeid
+-SIp suaAeid O| au} Wood ’aYyoid Hulels e joajeSs
+194d Hurpeys ay} Huijoajas
+
+‘uoyng Y 9u} Buisn
+
+Wuuiuod pue Huluuns JO} UO]WNG A 9y} pue Huipjey
+JO} uoyNG x 9y} Buisn Aejd yenuew 40 OjNe 19a]9aS
+BSUdJJO Pue BSUdjJ9q 9y} HuUI}eS
+
+‘uoyNng Vv 24)
+
+Buisseid Aq pebueyo oq ued Huljjas 1019 98y} pue
+Jepso eweb ‘peAejdsip si ajnpsyos eweb au} ayiuAA
+$101J9 pue JOPJO 3y} Huljjes
+
+‘ped |O1]UOD 9} Hulsn ajnpeyos
+
+94} YBnou} |JoIOS UBD NOA ‘peAeydsip aq ||IM pe
+-Joajas aAeY NOA saweb Jo JaquINU 9} JO} BjNpayoS
+JEJBAO UY “UO}NG VY Buy} pue PeY JOu}UOD 9} Buisn
+Aejd 0} soweb jo soquinu ey} pue wee} e asooUyD
+SOW JO JOqUINN 9y} pue Wes] e Hulj}oD9/aS
+
+aopy juDUUdg D Buiuuibag
+
+jo
+-Beuew J9}30q e NOA syew JIM 3} “ewWeH ay} BulNp
+uoH}eUUOJU! Siu} Huisn Al| “}Sl] PASOJOUS Oy} UI PUNO}
+eq ued sonsieys soAe|q ‘“Ayyiqe Buimosy} sJepjal
+e pue Ayjiqe Buluuns suouums e jo syuyHualj}s SAI}
+-B|981 94} JapIsuOD ysnwW NOA ‘saseq BHuluuNs USsU/A
+
+“SIIAPV JO PAOM V
+
+‘SJQUUNI 9/dI}|NW SAOW
+
+AjJuepusdepul 0} 9jqQe 9q O} BOIOeId JO jo] © SOye}
+}| “UO}NG g 40 Y 9} UDU} PUe ‘O} UIN}e/ JO BOUeAPe
+0} USIM NOA aseq ay} JOaj9S O} Ped JOJJUOD 9} BS/
+JOUUNY 9UC UBYL DOW S| BOUL UBUM
+
+‘uoying Y au} Buissaid Aq
+eseq 0} UJN}e1 SJQUUNI |Je yew UBD NOA ‘uO}NG VY
+aU} SSeid pue O} WINJ91 0} YSIM NOA aseq 9} J99|8S
+
+eseg 0} Bulusnjay
+
+‘uo}]INgG 7 8u} Huisseid Aq eoueApe sisuUNI |\e
+eye ued NOA ‘Uo WN g eu} Sseid puke ped |OJJUOD
+9u} Buisn Aq eoueApe 0} YSIM NOA eseq dU} 199|9S
+
+siouuny BulsueApy
+
+ONINNNY
+
+===== Page 6 =====
+
+a a A Te
+
+1 aa 20 | a tb! a TF | a RE SR tt a | tet fn ss nm it
+
+e
+e
+eeeeeveee
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+
+sa) | ||| 08148 | | | fo tl ait
+
+eeeseee
+eeeeee
+eoeeee
+.
+.
+.
+.
+
+eeeee
+
+(0 ar | | emo fs | ol tt | nh py mm ob a
+
+@eeeevoeoeeeeeeeeeeeeeee
+@eeoeevoeeveeveoeeeeeveeeee
+eeeeeeoevoeevoeveeeeeeeee eee
+
+e
+
+eo a a Ta
+
+Peeee eee eo te we we ome we hes
+
+fap yf es, ise! Lt | 0 fh ||
+is Whee Sia, St Sl Sa A Se SHE SUS
+
+Se nr aS
+
+ST a Se ST SMM Sani ST TMT aR
+
+‘YANNNY ADNVHO
+
+SHIIDIT11 yoejes ‘sueuuns eBueyo 0} ysim noA jy] “YALL
+iii WE BODNVHO Wales sone eBueYO Oo} YsIM NOA JI
+
+‘uoyng Y au} Bulsseid pue uoyNG LHVLS 24} YM
+
+IEE eu} Buiyjeo Aq apew oq ued SUOIININSQns JaAeiq
+
+SIOUUNY YOUId PUB SJB}IH YOUId
+
+‘ped |O1JUOD ay} JO SuO}Ng }Yybu
+JO 49] 94} Buisseid Aq pabueyo aq ued YyBnosy}-mo}
+-(0o4 ‘Buims dn ue ul s}ijnsed UoYNG JAMO] BU} aIUM
+‘BulimMS UMOP & UI! Ss}jNnses UuoWNG yweddn sy, ‘|eq
+9u} sJaowW eq ey} UBYM Ped |O1}UOD By} UMOP
+Buipjoy Aq shem jussayip Ul HY aq ued [eq UL
+sonbiuyoe| BHbuljyjeg jeisads
+
+12Q 94}
+sjunq sa}eq au} se ysnf ureHbe uoyNG Vy Ou} Sssaid
+noA ji yNses IM yung ,Yysnd, y ‘“UuoLING g eu} Bul
+-seajai Aq pajjaoued eq ued jung VY ‘juNq e dn jes
+0] UOVING Y 9} SSeid pue UOWNG g au} UMOP POH
+yung
+
+‘Bulwl} |NJased Bsn oO} suns
+eq ‘Hbulms wiy eyew O} UO}NG Y OU} SSAqg ‘ped
+|O4JUOD Oy} Hulsn sayeq ay} JO UOl}ISsOd aU} ysNipy
+
+Buin
+
+ONILLVE
+
+9)
+
+‘Jeuod Hues e joajas NOA se UCOS
+
+Se URIS |JIM QWeH oy, ‘owe jYUbiU e 10 OWeb Aep
+e Aejd 0} 8ujaUM JOJeS 0} UOWNG X 9U} BSA “Ped
+|O4JUOD OY} YM Aeld 0} YOIYM U! Play OU} 99S
+sayoyd Hulpeys pue pjaly ay} Huljoajas
+
+‘JO9HJO Ul SI BjNJ BUY} ‘UOISIAIG UBOWAWIY Ou}
+
+OJ} SI PUODES Hul}}eq WE} OU} 4} “sHuOjaq puodes
+Bunyeq wee} ay} YyoluM 0} anes] oy} UO spuedep
+}O@Ja Ul SI Bins JayIY payeUuBisap ay} JOU JO JOYJOUA
+‘Suo}Ing A pue x ey} Buisn Buluuns pue BHuipyeyy au}
+Jo} Aejd yenuew JO one JOsjaSs UBUL “Ped JO1]UOD
+94} BuIsSn PUOdDAS JO jSUIJ JE O} JOYJOUM JOIOS ‘]XON
+‘wee} Buisoddo ey} uey} pue wes} inoA jD9|8S
+asudjjo puke asuajap ‘suies} Hulj99/aS
+
+‘\xoeu peAejdsip MopulM 9} UO ysSUIeBe HulAe|d aq
+IM NOA sjusuoddo jo seaquuinu ey} jOsjes US} pue
+UB9BIOS UONOBJ9S 9pOW 9} UO NOILIGIHKA eles
+
+apow siy} HuijsajaS
+
+‘apowW si} ul peAejd si aue6 auO
+AjuQ. ‘suaAejd Jnoj 0} dn ysurebe Aejd 40 19jynNdWod
+eu) jsureHbe Aejd ued NOA ‘“Wed} UMO JNOA 0} UOITIP
+-pe ul Juauoddo JnoA joajas Aew nod ‘apouw siy} ul
+
+2POW NOILIGIHX4 — NOILIGIHX4
+
+“OPOW HOLVM PUB NNYAWOH epnjou! sapow
+‘gouo ye Aejd 0} ssahejd p 0} dn moje YyoiuMm ‘apow YV1S-T1V
+
+pue apow NOILIGIHX] 0} UONIppe u| “J/eqaseg ,,sMmaN Bulods
+aL, UM ajqejleae sapow BHulAejd 1ayjo ay} SaquoSap UOIJIaS SIU]
+
+SIGOW asHLO
+NI ANVS JH1 DNILAVIS
+
+===== Page 7 =====
+
+‘BulAejd awinsel 0} YSIM NOA UdyM
+
+AV 1d O9]eS pue sweb ay} asneg ‘Ajjeonewojne
+Aejd jim wea, INOA ped |01JU0D 9y} Buisn HOLVM
+Bunosjeas uey} puke ‘uoyNG VY 9U} Buisseid Ag “aul
+29 0} UOLING JLHVWLS 9uU} Sseid ‘aweb ou} esned O|
+ewer) oy} buisned
+
+os
+ee
+.
+
+eeereseeeeeesn
+eeeteeeesee
+
+ibs ASE nemlpe pena ONramr eal iets Wh "WaSAS AU} 0} P9}I9UUOD de $J9}|01]U0D
+Peiseseses cscs. 0 02° JO JaquINU JUaIOIINS B SSajUN pajoajas aq JoUUkD apOW SIY| :a}0N
+
+SES Smet enee ea ‘sJapjalj pue
+
+Dliiiiiiiiissssssssssss: sayoyid usamyeg Jayjo yoes ym ajyeusaye suakejg “jWYHu/Aje| ped
+eeeeseesee ciel lll cl 2. josjyuog ay} Bulssaid pue uoying [HVS ay} Bulssaid Aq suapjay
+SIDIEIIIiiiiiiiisiic oss 5 2: pue suayoud aynyysqns ued saAejd yoey ‘yeq ye Sun} aye} S1aAe|q
+PIII iiiiisisss ssc: asuajap ay} JO} Suapjaly pue Jayoyid ay} useMjeq puUe ~sSUdalJO
+Piiiiiisiisssc 2: BY} JO} SUBUUN pUk sJd} IY UBEMjaq PapIAIp s! (papuaWWOda, de}}
+
+Ditiiiiiiiiiicccccco::: -|Nw sadns s,yos uospny) sajdepy s9Aejg-ijnjy e& Huisn Aejdninyy
+Ce Sc wisely Neen C naar Aejdnjnw jinogqy
+
+.
+eee
+‘
+
+seeeeseeeee
+ene
+
+‘uoyng LOATAS eu; Bu!
+-ssoid Aq urebe dn payjeo oq ued UOI}eWWOJUI OWES
+
+OU] ‘U98JOS aU} JO WOOG au} Je peAejdsip Ajjauq
+aJe SoljsIe]S UOSeES Se jam Se alWeH aU} JO} SOSH
+-e]S siy ‘xOoqg $Jjayeq 8y} 0} dn sawod Jeyeq e UBU\
+
+SOHSHEIS 1eg y 10l1g BuiysayD
+
+(aS SS = 2
+
+SCC HHH ETEEEE SHEE HE EEE OEE
+jer ee eeene
+
+CCH HHHEOCHEHEEEHEHEEE EE HE OEE
+jee CeCe ee eeoeeeeseeseeeeesene
+jee Cee eeeeseeeeseseseeeeeseee
+eee eee eee eeeeeeeseeseseeeeese
+
+jee eee eeeeseee
+jee eee eee evees
+
+(‘Z| pue 91 seabed
+gas ‘sjlejap 104) ‘ayediolued usAe pue aweb 9uy} Bul
+-IND ssayIy peyeubisap yasul Aew nod jing ‘sapouw
+NOILIGIHXS Pue INVNNad U! Se owes 9}
+
+S| aweb ay) BuielS ‘yesy! ysurebe sAejd sejndwoo ) ‘Aiqeabueyoseyu! pasn aq Aew suoyng x pue g pue suoyng , pur y aul,
+eu} yey} SeweH YoyeM 0} NOA smoj|e BPOW HOLWM ‘SJQUUNL |Je UIN}OJ 0} pasp :uo}WNG Y (z)
+spow YIDM — HOIVM ‘SJQUUNL |e BOUBAPE O} Pesf :uo}WNg 7 (9)
+
+‘aseq 0} UIN}aJ JaUUNJ Bseg & JO HuIMs Ja}eq BU} By¥eW O} pesN :uo}yNg® vy (s)
+‘Seseq BOURApPR JOUUN BSeq & JO JUNG J9}eq BU} ByeW O} pesf :uo0}WNG gq (p)
+
+“UOINJBAWOD Buy} UI ASN |JIM NOA Jaye aU} 199] ‘QUII} [JO 0] pasN :uoNNG LYVWLS (¢)
+“9S NOA Jeye LEIS |IIM OWED BY] “P|eY Oq O} S! UO ‘piooes Bunyeq Aeidsip 0) pesp :u0y3nq 1937138 (z)
+-}8dWOD 984} BJ9YM Pal} 84} pue Wes} INOA jOalaS “S|/eq IY JO UONOSJIP BY} PUL UONISOd SJeyeq SUILA}JAP 0} POSf :pe_ JO1}UOD (1)
+
+Ud} PUR ‘OO 10 OS ‘OZ? ‘OL ‘Bury aq |IIM NoA sijeq
+Auew Moy alas ‘syaAeid jo saquinu dau} ees
+pue u9a0S UO!}DBjaS epOW By} WOJJ NOHAWOH
+JO9JaS Ae] JOUIO QUO YIM JO JJasuNOA Aq UONNed
+-WOO9 UMWOY & JONPUOD 0} NOA sMmojje BpOW SIU,
+
+apow uoyyedwio> unsaWO}Y —
+NNdjswouH
+
+‘uonoajes enbes Aq
+
+peoer|dai si uonoejes Wes} ng ‘epoW NOILIGIHXA ’
+se owes oy} si owe oy} Bulels “Jejndwod 9u}
+ysurebe 30 sidAejd uno} 0} dn ym Aejd Aew nok
+‘OpOW NOILIGIHX] U! Se ISN “SUOISIAIP UBDLOWY
+pue |euoNeN ey} Wold} sudAejd Jels-|ye Oni} Jo dn |
+epew swe} weep Aejd 0} NOA smo|je epowl SIU ‘sjunq a|dWIs 0} SuNJ aWOY SNOpUawad} WO} UO!
+
+spow ADIS-||V — AVIS-TIV | -oe Hulyyeg JO Spuly |e 10} pasn aq Ue Ja}jO1]U09 BU, ‘“aWeH |jeqaseg ke Jo JUaIpesHu! UIeW au} SI Bujeg
+
+(4SN4440) JWVD JHL ONITIOULNOD
+
+===== Page 8 =====
+
+"yeq ye }X9OU OU} Je SUOIISOd pjal
+fewWUOU JIBU} euuNsel SAemje SudAe|q ‘“UO}}NG g eu}
+ssoeid udu} pue uoyng 1{D4719S eu} ssed ‘asuej
+-ap jeUUOU & O} UIN}a1 OL ‘aSUajep ay} eHueYo
+O} ped |OJJUOD 94} BSN UsyY} pUue “UO}WNG 1077
+-JS 9u} ssoid ‘sasuajap ylus O| “YH ey} 0} 10 Yo]
+9U} 0} ‘We} ‘asojo Aejd 0} payius aq ued BSUajJep Oy L
+
+sosugjeg Hbulyius
+
+“aaoqge
+
+oun6iy ay} ul UMOYS Se SUOd}NG Ped |O1JUOD 9}
+JO 9UO O} SpucdsaiJ0D Bseq yoeRy ‘Huluuns oseq
+Buunp pue seseq Bulbbe} ‘sijeq papjey Buimoiu)
+UsuUM 9Seq & D9]9S 0} pasn SI ped JOJJUOD SUL
+9}e|q SWOH ‘Pp
+
+eseq PJIUL -€
+
+aseg PUuOdaS :Z
+
+eseg }SJI4 :|
+
+soseg buljda|aS
+
+‘uoying VY 9u} Buisseid Udy} pue Pe |O1}UOD Oy} Bul
+-Sn ‘aseq au} Huisooyo Aq sauUNJ & YOOYD O} UMOIU}
+eq ued |jeq BU, ‘apoW pPjai4 0} aBHueyo jim ajb
+-Ue HUIMAIA 9} ‘PeydeYOd SI JouUUNI Be UBU/AA “UO!}OW
+Buiyoud siy sudjue ay asOJeq UOCWNG (x JO) g ey} Bul
+-ssoid Aq suguuns yOOYUo JaYyoIId ay} ayewW UBD NOA
+
+ssouuny Buryoaug
+
+©
+
+‘JapsO Bul}
+
+-yeq ou) Huibueyo uaym se Aem owes du} ul JeAe|d
+Jeujoue yim suoiisod dems ued noA uayL ‘pel
+UN} |JIM SNye}s UOIISOd aAisuajap S,eARid ey “Ped
+|O1JUOD 94} JO Opis }YyBHU au} UO SSeid Us} ‘ebUeYD
+0} ysim noA uollisod aAisuajap asoyum seed
+9U} YIM JOSIND OU} UBlIe 0} Ped |OJJUOD By} BSN
+suoljisod anisuajap Huibueyyo
+
+‘apewW aq ued UOIIN}
+
+-ISQNs OU JNq ‘UEed\jng au} Ae|dsIp ||IM eyo", Bul
+-]09]8S ‘“PpeyoUMsS aq |jIM SieAejd oy} Pue UONG V
+9U] SSQl1d ‘peajsul asn oO} YysIM NOA JeAejd au} UM
+Josuno ay} uBIe ‘IXON “MO|@A UN} |IM eyep SeAejd
+yeu} pue uojing yy ay} SSelg “e0e|ddJ 0} ysIM NOA Ja
+-Aejd © yim JOSIND OU} UBIe 0} Ped |O1JUOD BU} BS/
+Japio Huiyjeq ay} Huibueuy
+
+“S10|00 ;eulBUO UMO JNOA JapUN SWUed} Pjelj
+osje ued no, ‘jueM NOA Aem Aue ul Japio aHueyo
+ued no,’ ‘suolisod sAisuaejep pue Jepso Hurjyeq ‘yeq
+ye \Suly Se YONS eyep jIpe 0} NOA smoyje spoW WVWIAL
+
+{pq woe] — WAL
+
+‘Sayoud pue
+Slapjealy Aq peyeuedas si yore 10} Huljipy ‘suonoun}
+ype sels-ye pue ‘aweu ‘wes} pul |jIM NOA epow
+LIGA ul 80UQ “ped JOsJUOD 94} Hulsn L1G ~pe|eg
+
+“ajqeilene
+SUOIJOUN} BPOW ||GJ INO} ay} SequOSap UO!}OeS Siu, ‘suaAe|d pue
+swea} UMO JNOA Huljeasd JO} BpOW {jG ue Sepnjoul osye ,||eq
+-aseg .,SMaN Hulods ayy, ‘Sapow HulAejd aAlj ay} 0} UOIIPpe UI
+
+IGOW Lids
+
+===== Page 9 =====
+
+FIELDING
+
+Fielding
+
+Field balls by moving fielders to where the ball is
+heading using the Control Pad. In the case of fly
+balls, the fielder will automatically assume a fielding
+posture and catch the ball once he is in proper
+fielding position.
+
+Throwing
+
+After a ball is fielded, select the base to throw to
+using the up/down/left/right buttons of the Control
+Pad. Then press the A button to throw the ball.
+The ball will be thrown to first base if no other base
+has been specifically chosen.
+
+Tagging Bases
+
+You may tag a base by using the up/down/left/right
+buttons of the Control Pad. Then press the B button
+to select the bag. This causes the fielder who field-
+ed the ball to run to the specified base and tag.
+
+Diving Catches
+
+A diving catch may be made by pressing the A or B
+button with careful timing, just as the ball is about
+to arrive. The fielder will make a diving catch if
+your timing is correct.
+
+APPR ES
+
+: 7
+
+ah
+
+¢ |
+
+NAME — Name Edit
+
+TEAM mode allows you to create and save original
+players. You can select the player's name, batting
+technique, style and other attributes to create an
+entirely original player. The new player can be
+used to replace players already registered. The
+number of original players which may be created
+and saved is limited to 18 fielders and 10 pitchers.
+
+Selecting a storage bank
+Select the bank where you wish to store a new
+player using the Control Pad. Selecting "Pitcher"
+and pressing the A button will cause the pitcher
+name edit screen to appear.
+
+Name Edit
+
+Move to the line you want using the Control Pad
+and select letters for the name using the A _ but-
+ton. Use the B button to make corrections.
+
+Selecting and saving player number, batting
+technique, throwing style and type
+
+Move the cursor using the Control Pad and change
+each attribute using the A and/or B buttons. Next,
+place the cursor on "Enter", choose the player's
+team using the L and R buttons, and press A to
+save. Finally, place the cursor on the player you
+want to replace and press the A button to make
+the replacement. Pitchers may be similarly creat-
+ed and saved by selecting "Pitcher Name Edit"
+when selecting a storage bank.
+
+Selecting bench or farm
+
+Registered players are displayed in either the
+"pitcher" or "batter" bank. They may be selected as
+“pench" or "farm" players using the A button. If
+"bench" is selected, a player can be fielded from
+the next game.
+
+===== Page 10 =====
+
+ALL-STAR — All-star Edit
+
+All-star edit allows you to change the players to be
+fielded and the batting order using already regis-
+tered players. This allows you to create your own Determining pitch location
+
+all-star teams! Team order can be changed for both Use the left and right buttons of the Control Pad to
+
+the National and American divisions by selecting position the pitcher and use the A button to begin
+"All-star" from the edit mode list. The order of each 4 the pitching motion.
+
+team can be called up by pressing the L or R but-
+ton. Put the cursor on the player you wish to use
+and press the A button. Next, put the cursor on a
+
+player you wish to replace in the current order and The speed of a pitch is determined by pressing the
+
+press the A button. If you wish to replace a pitcher, upper or lower button of the Control Pad during the
+align the cursor with "Pitcher" and press the A but- pitching motion. (Up = slow, down = fast)
+
+ton to call up the pitcher order list. After this, re-
+placing pitchers is the same as replacing fielders.
+
+PITCHING
+
+‘ Determining speed
+
+Determining the course of the pitch
+The left and right buttons of the Control Pad can be
+
+If you want to delete data... used during the flight of the ball to adjust its course.
+
+If you wish to delete the data you have created us-
+ing the EDIT mode, choose "RESET" on the edit
+screen and press the A button. All data will be re-
+set to its original condition at this point.
+
+Changeup pitches
+After throwing a pitch, a changeup can be thrown
+using the Control Pad.
+
+eee eee ereerarrrereee
+jeeeeeeoeo er eerr reese
+eeereeev ere rere 4ere4eee
+eC SHES EHH EE
+eee eee HHEHEHE
+CCHF HHTEHHEHHHE
+CPST HHHEHHHHHHHHEEEH
+CPCS EHHEHHHHHHOEEE
+CPPS EHHTHHEHHHHEEH
+SPST HHHTHHHEHHEHHEEH
+CCST EHHEHHEHEHHEE
+COSHH HEHEEHHHEEH
+SCCCCEEEHEHEEEHEHEEEE
+SPSS EEEHHHEEBEE
+SCCSSEHHHHEHEHHHOHE
+
+* Note that changeups may be weak depending on
+the ability of the pitcher. For more information on
+the abilities of pitchers, see enclosed list.
+
+ee eeerrererree
+
+*eeevrerenrerrrree
+
+Throwing a forkball PO vices eines
+
+You can throw a forkball by holding down the upper button of the --. >: : 22:22:22
+Control Pad throughout the pitching motion. Note that the fork- -..... «© .-::s:ssss::
+ball is only available to pitchers capable of throwing this pitch. UC RN ieee Mathes Giernie
+
+Se ae
+| et ll ie ese
+
+WSU 9 <0 0-0-7 0-0-9 - 0.
+eeeveveevevrveeee
+e@eevreeeeeorverere
+eevee eeereereee
+eevee evoevevvvene
+e@evoevevveeeveveere
+eeeeeeeeeeeeee
+eevee eeeeoeeeve
+eeeeeeeeeeeeee
+
+-
+
+===== Page 11 =====
+
+(9, a6ed 9as)
+
+‘aul siyj ye (Aejd yenuew) apow YAAV 1d pue (Al
+-jeoiyewojne sAejd wes} NoA aiayM) BPOW HOLVM
+U98MIEq UOIUMS O} VIGISSOd osje SI }{| ‘“uUO}}NG
+YY eu} Buisn spew ale suoloejas yIog “YAqCTIA
+FONVHD Bulisooyo Aq ‘iapjay e soejdes use
+Jo ‘suonisod eaisuajap eaBueyo Aew noA 40 ‘yy
+-HOLId JONVHO Bulsooys Aq Jayoyd joljas eB 09|
+-as Aew no, ‘siapjaly pue suayoyid aGueyo oO} a|qISs
+-Sod SI}! ‘UOyING JHV1LS eu} Hulsn ew Huljjeo Jay
+sapow
+
+BHuiyouMs pure ‘suapjaly pue ssayoyid HuibueyD
+
+Aiqeabueyosaqul pasn aq Aew suojjng A pue g pue suojng x puke y aul,
+‘PlayINo ay} Woy [eq ay} Humosy} pue seyoyd Hulmody} 10} peasy :uoyNq vy (¢)
+“SMOJU}] YO@UD pue Seseg HulYyoNo} JO} pes) :uoWNG g (pr)
+
+‘seueb Buunp
+
+oisnus punosbyoeq Aejd 0} JOU JO JOYJOYM $}D9|9S “euUl [120 0} peasy) :uOHNG LYVLS (€)
+oIsnW | "UB9JNS YIYS Oy} dn |/e0 0} pas/y :uoyNg 1934S (2)
+
+‘O}9 ‘Weq ‘YIUS ‘asunood ‘UOITed0| YoyId BHueY 0} pesy-) :ped [O4}UOD (1)
+
+‘PEPJONGJ BIE SJOIIA JOU JO JOYJOUM SJD9|9S
+
+JOM
+
+Yedxe, JO ,puey,, 0} pebueyo eq Aew ynq , ‘yew
+-J0U, SI Bulljes jeu! PY, “|AAB] 4a}NdWOD au} S}ES
+J9A07
+
+‘6 O} | Wo) oweb 19d sHuluuU! Jo JequuNnuU ay} S}D98|8S
+sBHuluu] ;
+
+("sa0es JueUUAaC JO} *
+epew eq jouued sHulyjas |aA9] pue Huluul) ‘uoyNg
+yy oul ssoid pue ,t|xXy, eSooyud ‘peysiuly UBU\A
+‘uojing g Jo Y 9u} Buisseid Aq ebueyd pue jes 0}
+YSIM NOA WA}! BU} }9B/9S “A}NOIYWyIP JO [@A9| OU pue
+
+eweb ay} JO Sains au} JOaj9S NOA sje] epowW UOl}dO | ‘9SU9JAP BU} |O1JUOI 0} MOY $,9J9}H “paljoujUO S| awe ay} MOY Wee 0} BWI} a4} aye} NOA J! swe
+spow uoldo — SNOILdO | oijsijead pue Huljioxe aOW e aAey ||,NOA ‘pajoajas useq Sey spow Aejd e Jaye UOOS LWe}sS |IIM awe oy)
+
+| (JSN4440) SNWS JHL ONITIOALNOD
+
+===== Page 12 =====
+
+‘peAedsip jou ae saseq BHulaAOd a1e OUM
+SJOp|al4 ‘“9}IUM Se |jeq ay} pue anjiq se SuduUNJ aU} ‘pal Se SYapjal} ay} SMOYUS
+weibelp pjai4
+
+‘|yeQ Ou} pue “UUNI BU} ‘SYBPjaly BU} JO SUONISOd BU} YOOYO
+0} Aejdaweb Buunp pesn oq ued MBIA SIU] “U@8JOS BU} JO JOUIOD YH JAMO] BU}
+Ul UMOUS SI pjelj HulAejd ou} Jo Wesbeip e ‘awul} Owes OU} YW “YUUNJ © INO MOJU} O}
+s}dwa}ye JeYyoud au} JI JO WY SI |JeEqeseq au} jl BpOW pjai4 0} SeHueyo Ajyeonewo}
+-Ne MIIA GUL “|JEG BY} JO UONOW BU} MOJO} O} S|jOIOS UBBI0S BU} ‘@pOW pal) U|
+
+4JGOW 14
+
+“aweb Siu} UMOJU} SAYOd JO Jequuinu puke WHF ‘eweuU SJayoyId au] SMOUS
+Byep J9Yd}d (9)
+
+‘S]no pue sjjeg ‘SOHLIS 94} SMOUS
+junod (g)
+
+‘youd ey} Jo peeds au} smous
+peeds Buryord (r)
+
+“Sun
+-awoY JO Jequinu pue ebesene Bueg ‘sweu ‘sapio Huljjyeq syeayeq ay) smOoYS
+eyep 192g (¢€)
+
+“SUOI}ISOd JaUUNI SMOUS
+Aejdsip sauuny (Zz)
+
+‘Buluul puke 9J00S JUa1INO BY} SMOUS
+Ae\dsip 3109S (1)
+
+‘AL uo aie Adu} oy! ISN{ paAejdsip osyje ase sols}
+-eis aweh snouep ‘saweb |jeqaseg jo s}seopeoiq UOISIAS|E} Ul UBS AjUOWWLUOD
+se Jayeq ay} pue Jeyoyid 9y} UO Sesndo} YOIUM MAIA OdA} G-€ & SI BpOW AUaVeg
+
+JGOW AdsLLVd
+
+“QAOGE WO} UBS aq UD ||/eqG 94} HuIseYyd Suapjaly a1ayM SI
+9POW pjdi4 puke ‘a}ej|dawoy pulysq WO} UdaS SB PaMaIA aJe J9}eq PUL JAYD}Ig 94} BaYM SI spowW AyayyeEg
+‘SUOIIPUOD alUeH UO HUlpuadep Sapo OM] JO aU UBEMJeq SabuUeYO AjjeoeWOINe ajHue BuIMaIA aul
+
+SAV1dSIG GNV SFIONV ONIMGIA
+
+===== Page 13 =====
+
+‘peAedsip jou ae saseq BHulaAOd a1e OUM
+SJOp|al4 ‘“9}IUM Se |jeq ay} pue anjiq se SuduUNJ aU} ‘pal Se SYapjal} ay} SMOYUS
+weibelp pjai4
+
+‘|yeQ Ou} pue “UUNI BU} ‘SYBPjaly BU} JO SUONISOd BU} YOOYO
+0} Aejdaweb Buunp pesn oq ued MBIA SIU] “U@8JOS BU} JO JOUIOD YH JAMO] BU}
+Ul UMOUS SI pjelj HulAejd ou} Jo Wesbeip e ‘awul} Owes OU} YW “YUUNJ © INO MOJU} O}
+s}dwa}ye JeYyoud au} JI JO WY SI |JeEqeseq au} jl BpOW pjai4 0} SeHueyo Ajyeonewo}
+-Ne MIIA GUL “|JEG BY} JO UONOW BU} MOJO} O} S|jOIOS UBBI0S BU} ‘@pOW pal) U|
+
+4JGOW 14
+
+“aweb Siu} UMOJU} SAYOd JO Jequuinu puke WHF ‘eweuU SJayoyId au] SMOUS
+Byep J9Yd}d (9)
+
+‘S]no pue sjjeg ‘SOHLIS 94} SMOUS
+junod (g)
+
+‘youd ey} Jo peeds au} smous
+peeds Buryord (r)
+
+“Sun
+-awoY JO Jequinu pue ebesene Bueg ‘sweu ‘sapio Huljjyeq syeayeq ay) smOoYS
+eyep 192g (¢€)
+
+“SUOI}ISOd JaUUNI SMOUS
+Aejdsip sauuny (Zz)
+
+‘Buluul puke 9J00S JUa1INO BY} SMOUS
+Ae\dsip 3109S (1)
+
+‘AL uo aie Adu} oy! ISN{ paAejdsip osyje ase sols}
+-eis aweh snouep ‘saweb |jeqaseg jo s}seopeoiq UOISIAS|E} Ul UBS AjUOWWLUOD
+se Jayeq ay} pue Jeyoyid 9y} UO Sesndo} YOIUM MAIA OdA} G-€ & SI BpOW AUaVeg
+
+JGOW AdsLLVd
+
+“QAOGE WO} UBS aq UD ||/eqG 94} HuIseYyd Suapjaly a1ayM SI
+9POW pjdi4 puke ‘a}ej|dawoy pulysq WO} UdaS SB PaMaIA aJe J9}eq PUL JAYD}Ig 94} BaYM SI spowW AyayyeEg
+‘SUOIIPUOD alUeH UO HUlpuadep Sapo OM] JO aU UBEMJeq SabuUeYO AjjeoeWOINe ajHue BuIMaIA aul
+
+SAV1dSIG GNV SFIONV ONIMGIA
+
+===== Page 14 =====
+
+(9, a6ed 9as)
+
+‘aul siyj ye (Aejd yenuew) apow YAAV 1d pue (Al
+-jeoiyewojne sAejd wes} NoA aiayM) BPOW HOLVM
+U98MIEq UOIUMS O} VIGISSOd osje SI }{| ‘“uUO}}NG
+YY eu} Buisn spew ale suoloejas yIog “YAqCTIA
+FONVHD Bulisooyo Aq ‘iapjay e soejdes use
+Jo ‘suonisod eaisuajap eaBueyo Aew noA 40 ‘yy
+-HOLId JONVHO Bulsooys Aq Jayoyd joljas eB 09|
+-as Aew no, ‘siapjaly pue suayoyid aGueyo oO} a|qISs
+-Sod SI}! ‘UOyING JHV1LS eu} Hulsn ew Huljjeo Jay
+sapow
+
+BHuiyouMs pure ‘suapjaly pue ssayoyid HuibueyD
+
+Aiqeabueyosaqul pasn aq Aew suojjng A pue g pue suojng x puke y aul,
+‘PlayINo ay} Woy [eq ay} Humosy} pue seyoyd Hulmody} 10} peasy :uoyNq vy (¢)
+“SMOJU}] YO@UD pue Seseg HulYyoNo} JO} pes) :uoWNG g (pr)
+
+‘seueb Buunp
+
+oisnus punosbyoeq Aejd 0} JOU JO JOYJOYM $}D9|9S “euUl [120 0} peasy) :uOHNG LYVLS (€)
+oIsnW | "UB9JNS YIYS Oy} dn |/e0 0} pas/y :uoyNg 1934S (2)
+
+‘O}9 ‘Weq ‘YIUS ‘asunood ‘UOITed0| YoyId BHueY 0} pesy-) :ped [O4}UOD (1)
+
+‘PEPJONGJ BIE SJOIIA JOU JO JOYJOUM SJD9|9S
+
+JOM
+
+Yedxe, JO ,puey,, 0} pebueyo eq Aew ynq , ‘yew
+-J0U, SI Bulljes jeu! PY, “|AAB] 4a}NdWOD au} S}ES
+J9A07
+
+‘6 O} | Wo) oweb 19d sHuluuU! Jo JequuNnuU ay} S}D98|8S
+sBHuluu] ;
+
+("sa0es JueUUAaC JO} *
+epew eq jouued sHulyjas |aA9] pue Huluul) ‘uoyNg
+yy oul ssoid pue ,t|xXy, eSooyud ‘peysiuly UBU\A
+‘uojing g Jo Y 9u} Buisseid Aq ebueyd pue jes 0}
+YSIM NOA WA}! BU} }9B/9S “A}NOIYWyIP JO [@A9| OU pue
+
+eweb ay} JO Sains au} JOaj9S NOA sje] epowW UOl}dO | ‘9SU9JAP BU} |O1JUOI 0} MOY $,9J9}H “paljoujUO S| awe ay} MOY Wee 0} BWI} a4} aye} NOA J! swe
+spow uoldo — SNOILdO | oijsijead pue Huljioxe aOW e aAey ||,NOA ‘pajoajas useq Sey spow Aejd e Jaye UOOS LWe}sS |IIM awe oy)
+
+| (JSN4440) SNWS JHL ONITIOALNOD
+
+===== Page 15 =====
+
+ALL-STAR — All-star Edit
+
+All-star edit allows you to change the players to be
+fielded and the batting order using already regis-
+tered players. This allows you to create your own Determining pitch location
+
+all-star teams! Team order can be changed for both Use the left and right buttons of the Control Pad to
+
+the National and American divisions by selecting position the pitcher and use the A button to begin
+"All-star" from the edit mode list. The order of each 4 the pitching motion.
+
+team can be called up by pressing the L or R but-
+ton. Put the cursor on the player you wish to use
+and press the A button. Next, put the cursor on a
+
+player you wish to replace in the current order and The speed of a pitch is determined by pressing the
+
+press the A button. If you wish to replace a pitcher, upper or lower button of the Control Pad during the
+align the cursor with "Pitcher" and press the A but- pitching motion. (Up = slow, down = fast)
+
+ton to call up the pitcher order list. After this, re-
+placing pitchers is the same as replacing fielders.
+
+PITCHING
+
+‘ Determining speed
+
+Determining the course of the pitch
+The left and right buttons of the Control Pad can be
+
+If you want to delete data... used during the flight of the ball to adjust its course.
+
+If you wish to delete the data you have created us-
+ing the EDIT mode, choose "RESET" on the edit
+screen and press the A button. All data will be re-
+set to its original condition at this point.
+
+Changeup pitches
+After throwing a pitch, a changeup can be thrown
+using the Control Pad.
+
+eee eee ereerarrrereee
+jeeeeeeoeo er eerr reese
+eeereeev ere rere 4ere4eee
+eC SHES EHH EE
+eee eee HHEHEHE
+CCHF HHTEHHEHHHE
+CPST HHHEHHHHHHHHEEEH
+CPCS EHHEHHHHHHOEEE
+CPPS EHHTHHEHHHHEEH
+SPST HHHTHHHEHHEHHEEH
+CCST EHHEHHEHEHHEE
+COSHH HEHEEHHHEEH
+SCCCCEEEHEHEEEHEHEEEE
+SPSS EEEHHHEEBEE
+SCCSSEHHHHEHEHHHOHE
+
+* Note that changeups may be weak depending on
+the ability of the pitcher. For more information on
+the abilities of pitchers, see enclosed list.
+
+ee eeerrererree
+
+*eeevrerenrerrrree
+
+Throwing a forkball PO vices eines
+
+You can throw a forkball by holding down the upper button of the --. >: : 22:22:22
+Control Pad throughout the pitching motion. Note that the fork- -..... «© .-::s:ssss::
+ball is only available to pitchers capable of throwing this pitch. UC RN ieee Mathes Giernie
+
+Se ae
+| et ll ie ese
+
+WSU 9 <0 0-0-7 0-0-9 - 0.
+eeeveveevevrveeee
+e@eevreeeeeorverere
+eevee eeereereee
+eevee evoevevvvene
+e@evoevevveeeveveere
+eeeeeeeeeeeeee
+eevee eeeeoeeeve
+eeeeeeeeeeeeee
+
+-
+
+===== Page 16 =====
+
+FIELDING
+
+Fielding
+
+Field balls by moving fielders to where the ball is
+heading using the Control Pad. In the case of fly
+balls, the fielder will automatically assume a fielding
+posture and catch the ball once he is in proper
+fielding position.
+
+Throwing
+
+After a ball is fielded, select the base to throw to
+using the up/down/left/right buttons of the Control
+Pad. Then press the A button to throw the ball.
+The ball will be thrown to first base if no other base
+has been specifically chosen.
+
+Tagging Bases
+
+You may tag a base by using the up/down/left/right
+buttons of the Control Pad. Then press the B button
+to select the bag. This causes the fielder who field-
+ed the ball to run to the specified base and tag.
+
+Diving Catches
+
+A diving catch may be made by pressing the A or B
+button with careful timing, just as the ball is about
+to arrive. The fielder will make a diving catch if
+your timing is correct.
+
+APPR ES
+
+: 7
+
+ah
+
+¢ |
+
+NAME — Name Edit
+
+TEAM mode allows you to create and save original
+players. You can select the player's name, batting
+technique, style and other attributes to create an
+entirely original player. The new player can be
+used to replace players already registered. The
+number of original players which may be created
+and saved is limited to 18 fielders and 10 pitchers.
+
+Selecting a storage bank
+Select the bank where you wish to store a new
+player using the Control Pad. Selecting "Pitcher"
+and pressing the A button will cause the pitcher
+name edit screen to appear.
+
+Name Edit
+
+Move to the line you want using the Control Pad
+and select letters for the name using the A _ but-
+ton. Use the B button to make corrections.
+
+Selecting and saving player number, batting
+technique, throwing style and type
+
+Move the cursor using the Control Pad and change
+each attribute using the A and/or B buttons. Next,
+place the cursor on "Enter", choose the player's
+team using the L and R buttons, and press A to
+save. Finally, place the cursor on the player you
+want to replace and press the A button to make
+the replacement. Pitchers may be similarly creat-
+ed and saved by selecting "Pitcher Name Edit"
+when selecting a storage bank.
+
+Selecting bench or farm
+
+Registered players are displayed in either the
+"pitcher" or "batter" bank. They may be selected as
+“pench" or "farm" players using the A button. If
+"bench" is selected, a player can be fielded from
+the next game.
+
+===== Page 17 =====
+
+"yeq ye }X9OU OU} Je SUOIISOd pjal
+fewWUOU JIBU} euuNsel SAemje SudAe|q ‘“UO}}NG g eu}
+ssoeid udu} pue uoyng 1{D4719S eu} ssed ‘asuej
+-ap jeUUOU & O} UIN}a1 OL ‘aSUajep ay} eHueYo
+O} ped |OJJUOD 94} BSN UsyY} pUue “UO}WNG 1077
+-JS 9u} ssoid ‘sasuajap ylus O| “YH ey} 0} 10 Yo]
+9U} 0} ‘We} ‘asojo Aejd 0} payius aq ued BSUajJep Oy L
+
+sosugjeg Hbulyius
+
+“aaoqge
+
+oun6iy ay} ul UMOYS Se SUOd}NG Ped |O1JUOD 9}
+JO 9UO O} SpucdsaiJ0D Bseq yoeRy ‘Huluuns oseq
+Buunp pue seseq Bulbbe} ‘sijeq papjey Buimoiu)
+UsuUM 9Seq & D9]9S 0} pasn SI ped JOJJUOD SUL
+9}e|q SWOH ‘Pp
+
+eseq PJIUL -€
+
+aseg PUuOdaS :Z
+
+eseg }SJI4 :|
+
+soseg buljda|aS
+
+‘uoying VY 9u} Buisseid Udy} pue Pe |O1}UOD Oy} Bul
+-Sn ‘aseq au} Huisooyo Aq sauUNJ & YOOYD O} UMOIU}
+eq ued |jeq BU, ‘apoW pPjai4 0} aBHueyo jim ajb
+-Ue HUIMAIA 9} ‘PeydeYOd SI JouUUNI Be UBU/AA “UO!}OW
+Buiyoud siy sudjue ay asOJeq UOCWNG (x JO) g ey} Bul
+-ssoid Aq suguuns yOOYUo JaYyoIId ay} ayewW UBD NOA
+
+ssouuny Buryoaug
+
+©
+
+‘JapsO Bul}
+
+-yeq ou) Huibueyo uaym se Aem owes du} ul JeAe|d
+Jeujoue yim suoiisod dems ued noA uayL ‘pel
+UN} |JIM SNye}s UOIISOd aAisuajap S,eARid ey “Ped
+|O1JUOD 94} JO Opis }YyBHU au} UO SSeid Us} ‘ebUeYD
+0} ysim noA uollisod aAisuajap asoyum seed
+9U} YIM JOSIND OU} UBlIe 0} Ped |OJJUOD By} BSN
+suoljisod anisuajap Huibueyyo
+
+‘apewW aq ued UOIIN}
+
+-ISQNs OU JNq ‘UEed\jng au} Ae|dsIp ||IM eyo", Bul
+-]09]8S ‘“PpeyoUMsS aq |jIM SieAejd oy} Pue UONG V
+9U] SSQl1d ‘peajsul asn oO} YysIM NOA JeAejd au} UM
+Josuno ay} uBIe ‘IXON “MO|@A UN} |IM eyep SeAejd
+yeu} pue uojing yy ay} SSelg “e0e|ddJ 0} ysIM NOA Ja
+-Aejd © yim JOSIND OU} UBIe 0} Ped |O1JUOD BU} BS/
+Japio Huiyjeq ay} Huibueuy
+
+“S10|00 ;eulBUO UMO JNOA JapUN SWUed} Pjelj
+osje ued no, ‘jueM NOA Aem Aue ul Japio aHueyo
+ued no,’ ‘suolisod sAisuaejep pue Jepso Hurjyeq ‘yeq
+ye \Suly Se YONS eyep jIpe 0} NOA smoyje spoW WVWIAL
+
+{pq woe] — WAL
+
+‘Sayoud pue
+Slapjealy Aq peyeuedas si yore 10} Huljipy ‘suonoun}
+ype sels-ye pue ‘aweu ‘wes} pul |jIM NOA epow
+LIGA ul 80UQ “ped JOsJUOD 94} Hulsn L1G ~pe|eg
+
+“ajqeilene
+SUOIJOUN} BPOW ||GJ INO} ay} SequOSap UO!}OeS Siu, ‘suaAe|d pue
+swea} UMO JNOA Huljeasd JO} BpOW {jG ue Sepnjoul osye ,||eq
+-aseg .,SMaN Hulods ayy, ‘Sapow HulAejd aAlj ay} 0} UOIIPpe UI
+
+IGOW Lids
+
+===== Page 18 =====
+
+‘BulAejd awinsel 0} YSIM NOA UdyM
+
+AV 1d O9]eS pue sweb ay} asneg ‘Ajjeonewojne
+Aejd jim wea, INOA ped |01JU0D 9y} Buisn HOLVM
+Bunosjeas uey} puke ‘uoyNG VY 9U} Buisseid Ag “aul
+29 0} UOLING JLHVWLS 9uU} Sseid ‘aweb ou} esned O|
+ewer) oy} buisned
+
+os
+ee
+.
+
+eeereseeeeeesn
+eeeteeeesee
+
+ibs ASE nemlpe pena ONramr eal iets Wh "WaSAS AU} 0} P9}I9UUOD de $J9}|01]U0D
+Peiseseses cscs. 0 02° JO JaquINU JUaIOIINS B SSajUN pajoajas aq JoUUkD apOW SIY| :a}0N
+
+SES Smet enee ea ‘sJapjalj pue
+
+Dliiiiiiiiissssssssssss: sayoyid usamyeg Jayjo yoes ym ajyeusaye suakejg “jWYHu/Aje| ped
+eeeeseesee ciel lll cl 2. josjyuog ay} Bulssaid pue uoying [HVS ay} Bulssaid Aq suapjay
+SIDIEIIIiiiiiiiisiic oss 5 2: pue suayoud aynyysqns ued saAejd yoey ‘yeq ye Sun} aye} S1aAe|q
+PIII iiiiisisss ssc: asuajap ay} JO} Suapjaly pue Jayoyid ay} useMjeq puUe ~sSUdalJO
+Piiiiiisiisssc 2: BY} JO} SUBUUN pUk sJd} IY UBEMjaq PapIAIp s! (papuaWWOda, de}}
+
+Ditiiiiiiiiiicccccco::: -|Nw sadns s,yos uospny) sajdepy s9Aejg-ijnjy e& Huisn Aejdninyy
+Ce Sc wisely Neen C naar Aejdnjnw jinogqy
+
+.
+eee
+‘
+
+seeeeseeeee
+ene
+
+‘uoyng LOATAS eu; Bu!
+-ssoid Aq urebe dn payjeo oq ued UOI}eWWOJUI OWES
+
+OU] ‘U98JOS aU} JO WOOG au} Je peAejdsip Ajjauq
+aJe SoljsIe]S UOSeES Se jam Se alWeH aU} JO} SOSH
+-e]S siy ‘xOoqg $Jjayeq 8y} 0} dn sawod Jeyeq e UBU\
+
+SOHSHEIS 1eg y 10l1g BuiysayD
+
+(aS SS = 2
+
+SCC HHH ETEEEE SHEE HE EEE OEE
+jer ee eeene
+
+CCH HHHEOCHEHEEEHEHEEE EE HE OEE
+jee CeCe ee eeoeeeeseeseeeeesene
+jee Cee eeeeseeeeseseseeeeeseee
+eee eee eee eeeeeeeseeseseeeeese
+
+jee eee eeeeseee
+jee eee eee evees
+
+(‘Z| pue 91 seabed
+gas ‘sjlejap 104) ‘ayediolued usAe pue aweb 9uy} Bul
+-IND ssayIy peyeubisap yasul Aew nod jing ‘sapouw
+NOILIGIHXS Pue INVNNad U! Se owes 9}
+
+S| aweb ay) BuielS ‘yesy! ysurebe sAejd sejndwoo ) ‘Aiqeabueyoseyu! pasn aq Aew suoyng x pue g pue suoyng , pur y aul,
+eu} yey} SeweH YoyeM 0} NOA smoj|e BPOW HOLWM ‘SJQUUNL |Je UIN}OJ 0} pasp :uo}WNG Y (z)
+spow YIDM — HOIVM ‘SJQUUNL |e BOUBAPE O} Pesf :uo}WNg 7 (9)
+
+‘aseq 0} UIN}aJ JaUUNJ Bseg & JO HuIMs Ja}eq BU} By¥eW O} pesN :uo}yNg® vy (s)
+‘Seseq BOURApPR JOUUN BSeq & JO JUNG J9}eq BU} ByeW O} pesf :uo0}WNG gq (p)
+
+“UOINJBAWOD Buy} UI ASN |JIM NOA Jaye aU} 199] ‘QUII} [JO 0] pasN :uoNNG LYVWLS (¢)
+“9S NOA Jeye LEIS |IIM OWED BY] “P|eY Oq O} S! UO ‘piooes Bunyeq Aeidsip 0) pesp :u0y3nq 1937138 (z)
+-}8dWOD 984} BJ9YM Pal} 84} pue Wes} INOA jOalaS “S|/eq IY JO UONOSJIP BY} PUL UONISOd SJeyeq SUILA}JAP 0} POSf :pe_ JO1}UOD (1)
+
+Ud} PUR ‘OO 10 OS ‘OZ? ‘OL ‘Bury aq |IIM NoA sijeq
+Auew Moy alas ‘syaAeid jo saquinu dau} ees
+pue u9a0S UO!}DBjaS epOW By} WOJJ NOHAWOH
+JO9JaS Ae] JOUIO QUO YIM JO JJasuNOA Aq UONNed
+-WOO9 UMWOY & JONPUOD 0} NOA sMmojje BpOW SIU,
+
+apow uoyyedwio> unsaWO}Y —
+NNdjswouH
+
+‘uonoajes enbes Aq
+
+peoer|dai si uonoejes Wes} ng ‘epoW NOILIGIHXA ’
+se owes oy} si owe oy} Bulels “Jejndwod 9u}
+ysurebe 30 sidAejd uno} 0} dn ym Aejd Aew nok
+‘OpOW NOILIGIHX] U! Se ISN “SUOISIAIP UBDLOWY
+pue |euoNeN ey} Wold} sudAejd Jels-|ye Oni} Jo dn |
+epew swe} weep Aejd 0} NOA smo|je epowl SIU ‘sjunq a|dWIs 0} SuNJ aWOY SNOpUawad} WO} UO!
+
+spow ADIS-||V — AVIS-TIV | -oe Hulyyeg JO Spuly |e 10} pasn aq Ue Ja}jO1]U09 BU, ‘“aWeH |jeqaseg ke Jo JUaIpesHu! UIeW au} SI Bujeg
+
+(4SN4440) JWVD JHL ONITIOULNOD
+
+===== Page 19 =====
+
+a a A Te
+
+1 aa 20 | a tb! a TF | a RE SR tt a | tet fn ss nm it
+
+e
+e
+eeeeeveee
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+
+sa) | ||| 08148 | | | fo tl ait
+
+eeeseee
+eeeeee
+eoeeee
+.
+.
+.
+.
+
+eeeee
+
+(0 ar | | emo fs | ol tt | nh py mm ob a
+
+@eeeevoeoeeeeeeeeeeeeeee
+@eeoeevoeeveeveoeeeeeveeeee
+eeeeeeoevoeevoeveeeeeeeee eee
+
+e
+
+eo a a Ta
+
+Peeee eee eo te we we ome we hes
+
+fap yf es, ise! Lt | 0 fh ||
+is Whee Sia, St Sl Sa A Se SHE SUS
+
+Se nr aS
+
+ST a Se ST SMM Sani ST TMT aR
+
+‘YANNNY ADNVHO
+
+SHIIDIT11 yoejes ‘sueuuns eBueyo 0} ysim noA jy] “YALL
+iii WE BODNVHO Wales sone eBueYO Oo} YsIM NOA JI
+
+‘uoyng Y au} Bulsseid pue uoyNG LHVLS 24} YM
+
+IEE eu} Buiyjeo Aq apew oq ued SUOIININSQns JaAeiq
+
+SIOUUNY YOUId PUB SJB}IH YOUId
+
+‘ped |O1JUOD ay} JO SuO}Ng }Yybu
+JO 49] 94} Buisseid Aq pabueyo aq ued YyBnosy}-mo}
+-(0o4 ‘Buims dn ue ul s}ijnsed UoYNG JAMO] BU} aIUM
+‘BulimMS UMOP & UI! Ss}jNnses UuoWNG yweddn sy, ‘|eq
+9u} sJaowW eq ey} UBYM Ped |O1}UOD By} UMOP
+Buipjoy Aq shem jussayip Ul HY aq ued [eq UL
+sonbiuyoe| BHbuljyjeg jeisads
+
+12Q 94}
+sjunq sa}eq au} se ysnf ureHbe uoyNG Vy Ou} Sssaid
+noA ji yNses IM yung ,Yysnd, y ‘“UuoLING g eu} Bul
+-seajai Aq pajjaoued eq ued jung VY ‘juNq e dn jes
+0] UOVING Y 9} SSeid pue UOWNG g au} UMOP POH
+yung
+
+‘Bulwl} |NJased Bsn oO} suns
+eq ‘Hbulms wiy eyew O} UO}NG Y OU} SSAqg ‘ped
+|O4JUOD Oy} Hulsn sayeq ay} JO UOl}ISsOd aU} ysNipy
+
+Buin
+
+ONILLVE
+
+9)
+
+‘Jeuod Hues e joajas NOA se UCOS
+
+Se URIS |JIM QWeH oy, ‘owe jYUbiU e 10 OWeb Aep
+e Aejd 0} 8ujaUM JOJeS 0} UOWNG X 9U} BSA “Ped
+|O4JUOD OY} YM Aeld 0} YOIYM U! Play OU} 99S
+sayoyd Hulpeys pue pjaly ay} Huljoajas
+
+‘JO9HJO Ul SI BjNJ BUY} ‘UOISIAIG UBOWAWIY Ou}
+
+OJ} SI PUODES Hul}}eq WE} OU} 4} “sHuOjaq puodes
+Bunyeq wee} ay} YyoluM 0} anes] oy} UO spuedep
+}O@Ja Ul SI Bins JayIY payeUuBisap ay} JOU JO JOYJOUA
+‘Suo}Ing A pue x ey} Buisn Buluuns pue BHuipyeyy au}
+Jo} Aejd yenuew JO one JOsjaSs UBUL “Ped JO1]UOD
+94} BuIsSn PUOdDAS JO jSUIJ JE O} JOYJOUM JOIOS ‘]XON
+‘wee} Buisoddo ey} uey} pue wes} inoA jD9|8S
+asudjjo puke asuajap ‘suies} Hulj99/aS
+
+‘\xoeu peAejdsip MopulM 9} UO ysSUIeBe HulAe|d aq
+IM NOA sjusuoddo jo seaquuinu ey} jOsjes US} pue
+UB9BIOS UONOBJ9S 9pOW 9} UO NOILIGIHKA eles
+
+apow siy} HuijsajaS
+
+‘apowW si} ul peAejd si aue6 auO
+AjuQ. ‘suaAejd Jnoj 0} dn ysurebe Aejd 40 19jynNdWod
+eu) jsureHbe Aejd ued NOA ‘“Wed} UMO JNOA 0} UOITIP
+-pe ul Juauoddo JnoA joajas Aew nod ‘apouw siy} ul
+
+2POW NOILIGIHX4 — NOILIGIHX4
+
+“OPOW HOLVM PUB NNYAWOH epnjou! sapow
+‘gouo ye Aejd 0} ssahejd p 0} dn moje YyoiuMm ‘apow YV1S-T1V
+
+pue apow NOILIGIHX] 0} UONIppe u| “J/eqaseg ,,sMmaN Bulods
+aL, UM ajqejleae sapow BHulAejd 1ayjo ay} SaquoSap UOIJIaS SIU]
+
+SIGOW asHLO
+NI ANVS JH1 DNILAVIS
+
+===== Page 20 =====
+
+@eeeoeeveoeesneaeeese
+
+eeereeeeseeeeeeeeses
+
+eeeeseeoereeeoeeeeeees
+eeeeeeeeeeeeeeeese
+
+‘peAejd si yoyewas © puke ai} B Ul S}INS
+
+-9) 9100S al} © JUIOd yeU} }y “BHuluU! UG} ay) 0} dn peed
+Ajuo ase sHuluul e4jxQ :seyoyewey pue sHuluu| e1}xZQ
+‘sue}s ugamjoq SAep ¢€ }Se9] Je Ge JOY} SSajUN e}s ©
+Joye oweb }xeu oy} ul Aejd youued seyoyid vy :ajny uol}e}OY
+
+S31NY AGOW LNVNNAd 1VlIO0AdS
+
+"9.1574 Bunoajes Aq payajap 10 AdOO
+
+Bunoejas Aq peidoo eq Aew saji4 “Aejd 0} ysim noA
+908) JUeUUSd 9U} BuNUdsaJdd, 9]I} OU} JOoJeS UBUL
+“LUVLS JO9/8S pue BpOW JNVYNNAd esooyp }sJI4
+aopy JUDUUag D Buinuyuo>
+
+‘U99JOS dU} UO peAeid
+-SIp suaAeid O| au} Wood ’aYyoid Hulels e joajeSs
+194d Hurpeys ay} Huijoajas
+
+‘uoyng Y 9u} Buisn
+
+Wuuiuod pue Huluuns JO} UO]WNG A 9y} pue Huipjey
+JO} uoyNG x 9y} Buisn Aejd yenuew 40 OjNe 19a]9aS
+BSUdJJO Pue BSUdjJ9q 9y} HuUI}eS
+
+‘uoyNng Vv 24)
+
+Buisseid Aq pebueyo oq ued Huljjas 1019 98y} pue
+Jepso eweb ‘peAejdsip si ajnpsyos eweb au} ayiuAA
+$101J9 pue JOPJO 3y} Huljjes
+
+‘ped |O1]UOD 9} Hulsn ajnpeyos
+
+94} YBnou} |JoIOS UBD NOA ‘peAeydsip aq ||IM pe
+-Joajas aAeY NOA saweb Jo JaquINU 9} JO} BjNpayoS
+JEJBAO UY “UO}NG VY Buy} pue PeY JOu}UOD 9} Buisn
+Aejd 0} soweb jo soquinu ey} pue wee} e asooUyD
+SOW JO JOqUINN 9y} pue Wes] e Hulj}oD9/aS
+
+aopy juDUUdg D Buiuuibag
+
+jo
+-Beuew J9}30q e NOA syew JIM 3} “ewWeH ay} BulNp
+uoH}eUUOJU! Siu} Huisn Al| “}Sl] PASOJOUS Oy} UI PUNO}
+eq ued sonsieys soAe|q ‘“Ayyiqe Buimosy} sJepjal
+e pue Ayjiqe Buluuns suouums e jo syuyHualj}s SAI}
+-B|981 94} JapIsuOD ysnwW NOA ‘saseq BHuluuNs USsU/A
+
+“SIIAPV JO PAOM V
+
+‘SJQUUNI 9/dI}|NW SAOW
+
+AjJuepusdepul 0} 9jqQe 9q O} BOIOeId JO jo] © SOye}
+}| “UO}NG g 40 Y 9} UDU} PUe ‘O} UIN}e/ JO BOUeAPe
+0} USIM NOA aseq ay} JOaj9S O} Ped JOJJUOD 9} BS/
+JOUUNY 9UC UBYL DOW S| BOUL UBUM
+
+‘uoying Y au} Buissaid Aq
+eseq 0} UJN}e1 SJQUUNI |Je yew UBD NOA ‘uO}NG VY
+aU} SSeid pue O} WINJ91 0} YSIM NOA aseq 9} J99|8S
+
+eseg 0} Bulusnjay
+
+‘uo}]INgG 7 8u} Huisseid Aq eoueApe sisuUNI |\e
+eye ued NOA ‘Uo WN g eu} Sseid puke ped |OJJUOD
+9u} Buisn Aq eoueApe 0} YSIM NOA eseq dU} 199|9S
+
+siouuny BulsueApy
+
+ONINNNY
+
+===== Page 21 =====
+
+STARTING THE GAME
+IN PENNANT MODE
+
+Insert the cassette into the SNES and turn the power switch ON.
+After a logo screen, the title screen will appear. Press the start
+button and a mode select screen will appear.
+
+"The Sporting News™ Baseball" includes 5 modes
+for playing games, such as the EXHIBITION mode.
+The modes EDIT and OPTIONS are also available
+
+for editing and setting up team and player data.
+
+Basic Controls
+
+(1) Control Pad: Move cursor
+(2) A Button: Select
+
+(3) B Button: Cancel
+
+(4) X Button: Change defense
+(5) Y Button: Change offense
+
+is On 00 00 8 0 6 00-0 0
+EVE ROE 06 080260 020-0 ae
+
+oeoee eee ee 000002008860 @
+7888080808808 0808088088 Oe
+eee ee eee e eee 0008808080
+ore eee eee eee e008 880880 e
+ese eeeeeee 0000008608808
+eee eee e0eee eee eee 8 e088
+eeoere eee ee 000000888
+eee 0000000008880 O8 OOOO
+e+ wo 7770 eee 08888088 OOe
+eee 000000 00000080 OOO OS
+soe 7 #7070000 00 8008888088 Oe
+0000000000800 08008 OOO Oe
+ore eee eee 8 8 e888 0 OOO Oe eee
+eee eee e000 ee 0808 O OOOO Oe
+“eee ee eee ee ee eee OO OOO OSES
+
+Wj 6 = 0S 8 08 = 0 026000
+C500 S088 6 00-00 0
+OO 02 e 36.650 6-0 Ste ®
+
+PENNANT—Pennant Race Mode
+
+In this mode, you can select your favorite team and
+play pennant games against the computer by fol-
+lowing a given schedule. You must fight to win the
+league championship. If you win, your team goes
+to The Series to play against the other league
+champion, winner takes all! The battery backup
+feature can be used to store individual statistics re-
+garding pitchers and fielders.
+
+Selecting this mode
+Press the Control Pad up/down to align the cursor
+with PENNANT and select using the A Button.
+
+Opening the pennant race
+
+When starting a new game, first select START and
+choose your favorite baseball field using the A but-
+ton.
+
+BASEBALL FIELDS
+
+There are a total of 3 baseball fields which you can play on. Night
+games are possible in all fields.
+
+The Dome Stadium has all the amenities of a modern baseball
+structure, similar to those of Houston, Montreal, and Minneapolis.
+The Ballpark resembles the more traditional arenas of New York,
+Boston and Detroit. The Dream Field represents a by-gone era
+when baseball was played in the cornfields of the Midwest for
+simple pleasure and a love of the sport.
+
+NOTE: A Ball hit into the cornfield on a bounce will result in a
+ground-rule double.
+
+One of the fun aspects of this game is deciding how to best
+change your strategy, such as changing your lineup, depending
+on the different field sizes and fence heights found in the different
+ballparks.
+
+NOTE: Never discount the enduring presence of Baseball's leg-
+ends. The mystique of the game was born with them and on any
+given day... a Shoeless Joe could take you the plate.
+
+eee
+
+$360 tte
+
+see eee ee eee
+cee eee ew eee
+se eee eee eee
+ss eee eee eee
+ss eee eee eee
+se eee eee eee
+
+eS
+
+ee a
+ee
+ee
+i a
+see ee eee ee eee
+
+SHH Mu a HH AU Bie Iw se ee ees eee
+
+ee eee w eee eee
+ss eee eee eeeee
+"eee eee eee eee
+
+===== Page 22 =====
+
+ERA Calculation
+
+ERA is calculated using the formula: ERA =
+(earned runs X 9)/number of innings pitched. Only
+pitchers who have pitched at least a certain number
+of times (at least as many innings as games played
+by that team) are listed in the ERA rankings.
+“Innings are counted by 1/3 inning (1 out).
+“Although earned runs are a score given to a pitch-
+er based on walks, hits and homeruns allowed, }
+The Sporting News™ Baseball an ERA can be hurt
+by errors as well.
+
+Batting Average Calculation
+
+Batting average is calculated using the formula:
+batting average = safe hits/total at bats. Only play-
+ers who have gone to bat at least a certain number
+of times (at least 3.1 times as many at bats as
+games played by that team) are listed in the batting
+average and homerun rankings.
+
+“Walks, sacrifice hits and sacrifice flies are not
+counted as at bats when calculating batting averag-
+es.
+
+Strikeouts
+This statistic represents the total number of strike-
+outs a pitcher has thrown against opposing teams.
+
+Magic Numbers
+A magic number is the number of victories required
+to qualify for the playoffs.
+
+STARTING THE GAME IN PENNANT
+
+M IDE
+
+===== Page 23 =====
+
+WARRANTY
+
+Hudson Soft USA, Inc. ("Hudson") Warrants to the original purchaser of this Hudson
+Software product that the medium on which this computer program is recorded is free
+from defects in materials and workmanship for a period of (90) days from the date of
+purchase. This Hudson software program is sold ;
+
+as is’, without express or implied
+warranty of any kind, and Hudson is not liable for any losses or damages of any kind
+resulting from use of this product.
+
+Hudson agrees for a period of (90) days to either replace, at its option, free of charge,
+any Hudson software product, postage paid, with proof of date of purchase, at its
+Factory Service Center.
+This warranty is not applicable to normal wear and tear. This warranty shall be void if
+the defect in the Hudson software product has arisen through abuse, unreasonable
+use, mistreatment or neglect. THIS WARRANTY IN LIEU OF ALL OTHER WARRANTIES
+AND NO OTHER PRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE BINDING
+
+Thank you for adding THE SPORTING NEWS™ BASEBALL to your library
+
+of Super NES games. You have just made the perfect choice by
+selecting this quality Hudson Soft title.
+
+In order to insure your complete enjoyment of this game, we recommend
+
+that you read the manual carefully and follow its instructions and
+suggestions.
+
+WARNING: PLEASE READ THE CONSUMER INFORMATION
+AND PRECAUTIONS BOOKLET CAREFULLY BEFORE USING
+YOUR NINTENDO® HARDWARE SYSTEM OR GAME PAK.
+
+THIS PRODUCT HAS BEEN RATED BY THE ENTERTAINMENT SOFTWARE
+RATING BOARD. FOR INFORMATION ABOUT THE ESRB RATING, OR TO
+COMMENT ABOUT THE APPROPRIATENESS OF THE RATING, PLEASE
+CONTACT THE ESRB AT 1-800-771-3772.
+
+ON OR OBLIGATE HU
+
+DSON ANY IMPLIED WARRANTIES APPLICABLE TO THIS
+
+/
+
+HUDSON GROUP EE
+
+HUDSON SOFT"
+
+For questions, call
+(415) 495 - HINT
+
+Hudson Soft USA, Inc.
+
+400 Oyster Point Blvd. Suite 515
+So. San Francisco, CA 94080
+(415) 871 - 8895
+
+NINTENDO, SUPER NINTENDO
+ENTERTAINMENT SYSTEM AND THE
+OFFICIAL SEALS ARE REGISTERED
+TRADEMARKS OF NINTENDO OF
+AMERICA INC.
+
+©1991 NINTENDO OF AMERICA INC.
+
+The Sporting News™ is a Registered
+Trademark of The Sporting News
+Publishing Company, used under license
+by Hudson Soft USA, INC.
+
+Officially Licensed by The Major League
+Baseball Players Association.
+
+©1995 Hudson Soft Co., Ltd.
+
+All Rights Reserved.
+
+THIS OFFICIAL SEAL IS YOUR
+ASSURANCE THAT NINTENDO HAS
+APPROVED THE QUALITY OF THIS
+PRODUCT. ALWAYS LOOK FOR THIS
+SEAL WHEN BUYING GAMES AND
+ACCESSORIES TO ENSURE COMPLETE
+COMPATIBILITY.
+
+ALL NINTENDO PRODUCTS ARE
+LICENSED BY SALE FOR USE ONLY
+WITH OTHER AUTHORIZED PRODUCTS
+BEARING THE OFFICIAL NINTENDO
+SEAL OF QUALITY.
+
+LICENSED BY
+
+MLBPA
+
+© MLBPA MSA
+
+SOFTWARE PRODUCT, INCLUDING WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE, ARE LIMITED TO THE (90) DAY PERIOD
+DESCRIBED ABOVE. IN NO EVENT WILL HUDSON BE LIABLE FOR ANY SPECIAL,
+INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM POSSESSION, USE
+OR MALFUNCTION OF THIS HUDSON SOFTWARE PRODUCT. Some states do not
+allow limitation as to how long an implied warranty lasts and/or exclusions or
+limiations of incidental or consequential damages so the above limitations and/or
+exclusions of liability may not apply to you. This warranty does give you specific rights,
+and you may also have other rigths which vary from state to state.
+
+For questions, call
+(415) 495 - HINT
+
+Hudson Soft USA, Inc.
+400 Oyster Point Blvd. Suite 515
+So. San Francisco, CA 94080
+(415) 871 - 8895
+
+TOY
+
+HUDSON GROUP ie
+
+HUDSON SOFT
+
+===== Page 24 =====
+
+Hudson Soft USA, Inc.
+
+400 Oyster Point Blvd. Suite 515
+So. San Francisco, CA 94080
+(415) 871 - 8895
+
+PRINTED IN USA
+
+U/SNS-AWBE-USA
+
+INSTRUCTION BOOKLET
+
+SUPER NINTENDO.
+
+ENTERTAINMENT SYSTEM

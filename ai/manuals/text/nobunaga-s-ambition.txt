@@ -1,0 +1,1874 @@
+# Nobunaga's Ambition
+source: https://archive.org/details/snes_manual_archive
+pdf: Nobunaga's Ambition (USA).pdf
+region: USA
+pages: 32
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+KOE!
+
+KOEI CORPORATION
+1280 Bayshore Highway, Stite $40, Burlingame, CA 94010
+
+===== Page 2 =====
+
+‘Battlefield Commands.
+Unit Markers..
+‘Topographical Map.
+
+REFERENCE GUIDE
+Great Daimyos of the Warring States Period.
+
+Glossary of Game Terms...
+Solutions to Common Problems...
+
+Warranty . auth
+
+===== Page 3 =====
+
+WARRING STATES OF JAPAN
+
+THE TIME
+
+Nobunaga's Ambition takes place during Japan's civil war period,
+from 1467 to 1600. The wars began with the fall of Shogun Ashikaga
+Yoshimasa in 1467. Without a leader, the government fell apart and
+daimyos fought amongst themselves for the right o be the new:
+‘Shogun of lapsan, This continued for aver 100 years.
+
+THE SETTING
+The situation in lapan was similar to America during her Civil War,
+‘but instead of being divided into only North and South, Japan was
+divided into hundreds of feudal states. Each state, or “fel,” was nuked.
+by a powerful Jord called a “dalmyo.” Every daimyo ruled his fet tke
+alittle country, and every daimyo believed he was the most qualified
+to be Shogun
+
+Without any central goverment, chaos nuled the land. Daimyos con-
+stantly waged war on each other, always trying to gin) more power,
+Daimyos that were victorfouis became power-crazed tyrants. Revolts
+nd uprisings among peasants, soldiers, and even monks became
+
+¢. Daimyos that were not victorious were destroyed. The
+country was thrown into violent confusion.
+
+Your TASK
+‘As a daimyo int the dangerous Warring States Petiod of Japan,
+
+your goat is to unify all the fiefs into one powerful nation. In the fist
+Scenario, you have 17 fiefs to conquer, unifying central Japan. In the
+other scenarios, the entire Japanese nation, divided into 50 flefs, must
+be conquered,
+
+===== Page 4 =====
+
+iA
+Read
+
+CONTROLLING THE GAME
+HOW TO USE THE CONTROLLER
+
+START Button,
+
+Skip through the introduction to game set-up,
+Button A
+
+@ Select highlighted commands and items,
+
+‘# Answer YES to yes or no questions.
+
+Button 8
+
+‘© Cancel selections.
+
+Answer NO to yes o no questions.
+@ End the command turn.
+
+LEFTRIGHT Buttons
+Switch between Main Command Window and Full Map Display.
+¢ Access the War Command Menu duting a battle.
+
+CONTROL PAD,
+‘@ Direct the cursor across the map and through command menus.
++ Scroll through lists or flip through pages of information.
+
+How To USE THE MOUSE
+
+LEFT Mouse tata
+
+WIGHT Mowe ton
+
+Left Mouse Button
+
+‘ Select highlighted commands and items.
+
+@ Answer YES to yes or no questions.
+
++ Performs same functions as Button A.on controller
+Right Mouse Button
+
+‘@ Cancel selections.
+
+@ Answer NO to yes or no questions,
+
+End the command tum.
+
+Performs same functions as [sutton B on gonteoller.
+@ Access the War Command Menu during a battle.
+
+Moving the mouse
+Direct the cursor across the map and to command menus.
+
+===== Page 5 =====
+
+. :
+ENTERING NAMES.
+BA chart will be displayed from which you can create @ name for your
+
+dalmyo. Move the cursor to access each character. Erase a character
+by moving the cursor to ‘Delete’. After you've created your name,
+
+move the cursor to ‘Done’ and then press A.to finalize. A name may
+have a maximum of 10 characters,
+
+INPUTTING NUMBERS:
+
+CONTROLLER Press left and right on the Control Pad to select the
+digit and up and down to increase or decrease the amount.
+
+MOUSE Move the mouse to select the digit, nd use the eft and right
+‘buttons to increase or decrease the amount
+
+1, Make sure the power fs tured OFF,
+2. Insert the NOBUNAGA'S AMBITION game pak:
+3. Tum the game system ON,
+
+4. The introduction will begin. Push
+game set-up,
+
+(RT to skip to
+
+STARTING A NEW GAME
+
+1. Select your method of control by pressing any button on either the
+mouse of the controller to select that method.
+
+2. Answer YES when asked, “Will you play a new game?”
+
+3. Select the scenario you would like to play.
+
+4. Ansiver NO when asked, "Would you like to watch battles you are
+‘not directly involved in?* to avoid viewing conflicts between other
+warring states.
+
+5. Decide the number of players, ftom 1 to 8
+
+6, Move the cursor across the map and choose a fief to nule. Each fief
+
+hits specific nuler associated with lt, Confirm the ruler and fief
+
+you have chosen,
+
+===== Page 6 =====
+
+7. Blect whether to keep the historical name of your ruler, or create
+anew name.
+
+88. Set your ability levels as they are randomly generated,
+
+9. Select a Skill Level to determine game difficulty. | 1s the easiest
+Is the most dlfficult.
+
+10. Verify your selectlons. If you select YES, the game will begin. NO
+‘will allow you to change the set-up.
+
+DEMONSTRATION
+
+You can watch a computer-run demo by selecting 0 players. Press the
+RESET button to end the demonstration at any time.
+
+SCENARIOS
+
+“There are 4 scenarios. You can choose your hme base from 17 or 50
+different fiefs. The amount of territories you start wth and the cond-
+tion ofthe flels varies according to the home base, the scenario and.
+
+the game level.
+
+1. Battle for the East (1560) 17 fiels
+2. Daimyo Power Struggles (1560) 50 fiels
+3. Ambition Untamed (1571) 50 fiels
+
+4, Road Towards Unification (1582) 50 fiels
+
+J) bur be sure to give rice or gold tothe people to keep their loyally |
+
+EXAMPLE PLAY
+
+GAME START
+To get started quickly, choose the first scenario. Play the role of.
+‘Oda Nobunaga by choosing Owari, flef no. 17. Set your taxes at 45%,
+
+===== Page 7 =====
+
+——
+
+ie J ot ee GA
+
+_
+
+:
+| ‘Aoyal population will work harder, produce more rice and pay thelr
+
+INCREASE RICE AND GOLD
+efore you statt gaining additional territories, you want to give your
+home territories a strong economic base from which to expand, You
+need to Increase the amount of rice and gold coming into your
+province. Cultivate your land to increase productivity and raise the
+‘Amount of rice you produce. Increase your flood protection so that
+typhoon damage vill be minimized. Invest in your town to increase
+‘wealth.
+
+INCREASE POPULAR SUPPORT
+
+taxes more willingly. Therefore, itis very important to give your peo-
+ple and troops reason to support you ts much sts possible. You can
+increase support by giving rice or gold to either group, When loyalty
+is above 250, the amount of rice and gold you collect in the fall will
+increase substantially,
+
+SELL RICE
+
+When your lane! productivity ts high, your fief will enjoy bountiful
+harvests of rice. I's helpful (o trade surplus rice with the merchant to
+gain the capital required to maintain your province, Keep an eye on
+the market rates, When you have at lot of rice and the selling rate bs
+high, sell some of that extra rice to raise your poll supply.
+
+EXPAND ARMY
+
+You won't get very far in your attempt to unify Japan if you don't
+have a strong army to back you up. Hire solders to increase the size
+of your army. Don't forget to train them and maintain their morale
+with rewards of rice and gold.
+
+WAR
+
+[As your home province grows, you will want to expand your sphere
+Of power. Spy On your neighboring fiefs, and attack one of your weak
+cr foes, Bring enough men and rice to the battle, and position your
+strongest unit as close to the enemy command unit as possible. Be
+sure to protect your command unit from potential attacks, ass destruc-
+tion of the commuind unit means defeat,
+
+AFTER WAR
+
+“The spoils of war are rewarding, but you can lose newly acquired
+Jand quickly if you don't act wisely. Choose to rule the conquered ter-
+ritory yourself, or delegate the responsibilty by giving the fet a gener-
+Al policy by which it will be governed. Hire new soldiers to replace
+those lost in battle, and maintain the loyalty of your new subjects!
+
+DIPLOMACY
+By the time you gain vassal territories, your rival caimyos are likely to
+hhave expanded thelr territories as well. If your neighboring daimyo is
+powerful, a non-aggression pact or strategic marriage Is one way 10
+protect your country. AL the same time, you can weaken a rival
+daimyo by sending a ninja spy to persuade the people of a rival
+daimyo to betray their lord, or to destroy river banks of the rival fief to
+ower its flood control.
+
+UNIFY JAPAN
+Glory will be yours when you conquer all the lands on the map - 17
+fiefs in Scenario t sand 50 fiefs in Scenarios 2.3, and 4.
+
+===== Page 8 =====
+
+MAIN SCREEN DISPLAYS
+
+MAIN DISPLAY
+
+This Is the view of the screen as you are accessing commands
+© Current year and season
+® Command Menu
+© Daimyo Graphic
+© Province and Territory Color
+© Ficl statistics
+© Type of control the province Is governed under
+@ Market Rates
+
+GAME Map
+
+Press the Lor R button to view the game map of Japan.
+
+RESUMING A SAVED GAME
+
+Answer no when asked, “Will you play a now game?*, then select
+‘which game you wish to continue (1 or 2). The game will start from
+Where it was last saved.
+
+THE OPTIONS MENU
+
+OPTN aacoess the options menus {rom the OPTIONS
+Ny ma
+
+command menu,
+Quir
+SAVE
+
+Atany time in the main command mode you can save up to 2 games.
+The Saved clita fora game is erased if you save a new game in the
+same location,
+
+Loan Game
+Restart and play a saved game.
+END
+
+Use this command to end the game y
+hhave the option of watching the computer
+for you.
+
+===== Page 9 =====
+
+SETTINGS
+ANIMATION
+Switch the an
+
+uttion graphics on or off.
+
+MessaGe
+Choose the time length at which the messages will be displayed. 1 ts
+the shortest, 10 the longest
+
+BAaTTLe DIsPLAy
+
+Decide whether you wish to watch battles you are not directly
+involved in by selecting [View] or [Don't View!
+
+Music
+Switch the background music on or off
+
+crn
+Switch berween using the mouse or the controller pa.
+
+DAIMYO ABILITIES
+
+Every spring each daimyo grows one year older. An elderly daimyo,
+whose health is weak may die at this time. 4 high health value can
+lengthen your daimyo's life.
+
+HEALTH
+
+The healihier your daimyo is the fess likely he Is to become Ill Since
+there are some commands a sick daimyo cannot give, its important
+for your dainiyo to be as healthy as possible. Health values will
+decrease every spring and snytime there is an epidemic. If your
+health reaches zero, your daimyo will diet
+
+Drive
+
+‘This value represents how ambitious your daimyo is in his pursuit of
+uniting fapan, Your drive will increase every time you win a battle.
+
+===== Page 10 =====
+
+1 Luck will decrease whenever marriage hegotlations fall.
+‘There are no commands you can give 1
+
+Luck
+As inal games, the luckier you are, the better your chances are of
+
+increase this value.
+
+This value represents your dtimyo's popularity. The greater this
+value, the more loyalty your daimyo can expect from his peasants
+and soldiers. This value will increase when you give tice or gokd to
+‘your peasants or when you win a battle. Itwill decrease when
+
+arriage negotiations fal.
+
+INTELLIGENCE
+
+Your daimyo’s intelligence influences the effectiveness of many com-
+mands. Intelligence will increase when you win'a battle and decrease
+when you lose.
+
+Fier CONDITIONS
+
+ray GOLD
+Most of your gold comes from yearly taxes collected In
+the fall The amount of gold you collect usually,
+uy depends on the value of the town and the degree of
+
+i peasant loyalty. You can also acquite gold by borrow
+ing from merchants or by selling rice
+
+DEBT
+
+Debt is the toxal amount of gold you owe the merchant.
+Payment of loans will be automatically taken out of
+your gold supply In the fal
+
+TOWN VALUE
+
+The value of the tower represents the prosperity of your
+fief. Town value influences the amount of taxes you
+collect In fall, and your ability to borrow gold.
+
+RICE
+Rice is collected along with gokl each fall as part of
+‘Your taxes, To maximize this amount, keep your pro
+ductivity, peasant loyalty and tax rate high. You can
+also buy rie from or sel rice to the merchants. Rice is
+necessay to feed your army during both peace and
+‘wat, If you nin out of rice during a battle, you automat-
+ically loset
+
+PRODUCTIVITY
+
+‘This value reflects the amount of rice you can procluce.
+‘The DEVELOP-Produce command, will increase your
+fiet’s output, but it will also lower your peasant loyalty
+and dams value. Sickness and typhoons will decrease
+your productivity.
+
+DAMS
+
+The Dams value represents how effective your flood
+‘control is from 0-100%. If your Dams value is high,
+there is Jess of a chance that your land will be flooded
+by typhoons in summer.
+
+LOYALTY
+Loyalty represents how loyal your peasants are t0 you.
+their lord. 4 high vatlue means they will give you more
+riceind gold In fall, but a low value means that they
+might be plotting to rise against you. You can raise loy-
+alty with the command GIVE, but loyalty will fall i
+‘you increase taxes or productivity.
+
+===== Page 11 =====
+
+WEALTH
+Wealth represents the prosperity of your peasants. It
+affects the amount of taxes you collect and your peas-
+ant loyalty. You can increase wealth by using the
+GIVE command.
+
+MEN
+
+‘Men shows the number of soldier units in your amy.
+Each soldier unit represents 1000 men. You may
+increase the size of your army with the RECRUIT
+‘command, Your army's morale, skill evel and arms
+Jevel will go down every time you take in fresh recruits.
+
+MORALE
+
+Morale shows the layalty level of your soldiers. high
+morale means your soldiers will giadly fight to the
+death for you. However, low monile may cause
+Soldiers to defect to your enemy during war or rebel
+against you during peace. You may increase soldier
+morale with the command GIVE,
+
+SKILL
+
+Skull reflects the training level of your soldiers. If your
+skill value is high you might be able to defeat a langer
+army during batle, Use the TRAIN command to raise
+‘your soldiers’ skill level,
+
+ARMS
+‘Awell-equipped small army can often defeat a larger,
+poorly equipped one. Therefore, you should keep your
+army both well equipped and well trained. Buy arms
+from the merchant when he is in town.
+
+MAIN DispLay COMMANDS
+
+MLTY Perera alee reer ol =
+
+War
+
+Use this commutnd to attack a neighboring fief: See WAR page 32 for
+detalls: You may not be able to attack if your daimyo is sick.
+
+MOVE
+Use this command to move your soldiers or your daimyo to one of
+
+your neighboring fiefs. Your daimyo must be moved with at least one
+Unit of men, and cannot move when he Is lil
+
+RecRuIT
+
+Use this command to recrult solders. Soldiers are recruited in groups
+‘of 1000 mien. When you recruit, your morale, skill, and ams values
+‘vill go down. You must pay and feed your soldiers each fall and you
+‘cannot release them from the army once you have hired them.
+
+NINIA
+Use this command fo recruit ninja. Unlike saldiers, the skilled ninja
+are hired for one specific mission and must be sent out immediately.
+
+Urrish Your ninja will spread nasty rumors in
+ainather fief to lower peasant loyalty and try
+to start an uprising,
+
+Revoir Your ninja will impart damaging reports
+among the soldiers in another fief to lower
+morale and try to start a military revolt.
+
+Destroy Your ninja will try to blow up dams in a
+fel
+
+===== Page 12 =====
+
+oer
+Attack Your ninja will try to assassinate one of your
+rivals. Dalmyos with a lange army ora high
+1Qare difficult to assassinate, but even |
+they can withstand your attack. it’s likely
+that their health will decrease,
+ARSON Your ninja will try 10 set fite to a rival's town.
+TRAIN
+
+Use this command to drill your men into shape and raise
+their skill evel. Training your soldiers doesn't cost any
+gold, nor does it reduce any other values.
+
+ARRANGE
+
+Each daimyo’s army is made up of three infantry units, one cavalry
+uni, and a rifles unit, Use this commana to re-dlisperse your men.
+among these units. The command infantry unit cannot be decreased
+to zero, and the rifles unit can't be greater than twenty percent of
+your army if your ARMS unit is law. A/higher ARMS value will allow
+You to assign more than 20% to the rifle unit. To reassign men, use
+the LEFT and RIGHT arrows on the control pad to choose the unit
+{you want fo change, then use the LIP arrow lo Increatse the men in
+that unit and the DOWN arrow to decrease. Remember you must
+‘decrease at least one unit's size before you can increase the size of
+any other unit. Press Button A when you are finished.
+
+[Tips i's helpful to concentrate your forces by assigning all
+soldiers to the Command Unit (1), the Cavalry Unit (2), and the
+‘Rifles Unit (3). Set your Rifles unit to the maximum amount.
+
+Use this command to set pa bere Beene 0 i Lod pacers
+But remember if you ask for too much, your peasant loyalty will go.
+down and they may actually give you less.
+
+Tip: Most provinces will remain loyal if you place the taxes be:
+hacen 35 and 55 percent. 4594 is usually a sate bet
+
+SEND
+
+Use this command to send rice andor gold to one of your other fefs.
+There isa limit to how many of each a fief can hold which varies
+according to several fief conditions.
+
+DEVELOP
+Choose an area of the economy to develop.
+
+Towns
+
+Use this command to ntise your town’s value. A high
+town value means you will collect more gold in the fall.
+Dams
+
+Use this command to build dams in your flef to avoid the
+damage caused by typhoons. The maximum value ts 100.
+Propucr
+
+Use this command to increase yout fiel's output by culti-
+vating new rice fields. Growing rice decreases your dams
+value and your peasant loyalty.
+
+===== Page 13 =====
+
+Tip: Developing your fief isa delicate balancing act. When you
+lear the land 10 increstse your production, your flood contol will
+Udceredse. The tiniing of your development can be crucial, there:
+fore itis a good idea ta develop your dams in the spring, right
+before the typhoon sp your productivity in the
+sunnier, right before the fall harvest and annual rice collection
+
+on, and dk
+
+TRADE
+
+Since merchants are always traveling, they are not always in every
+fief. The only ficis where you can always find merchants are
+Yamashiro and Settsu.
+
+LOAN The merchant lends you gold depending on
+your town value. A higher town value will
+ceive a larger loan. You may
+give another com
+Toans will automatically be paid off in the
+fall, you have enough money. See “The
+Basics of Borrowing Money” page 25.
+
+REPAY Pay off a debt partially or in full.
+Seu Rice Sell rice to the merchant.
+
+Buy Ric, Buy rice from the merchant,
+
+Buy ARMs — Buy weapons from the merchant to Increase
+
+your soldier's arms value.
+
+alter receiving a loan.
+
+THE BASICS OF BORROWING MONEY
+‘The maximum amount you can ever borrow is equal to the
+town value. Remember though that this includes interest on
+the loan! The actual amount that you'll receive in your
+account Is only a part
+‘TOTAL LOAN = AMOUNT BORROWED + INTEREST
+‘TOTAL LOAN MAXIMUM <= TOWN VALUE
+{Be wary of the interest rate - when its very high, the benefits
+of gaining some extra gold may not be worth the potentially
+Jange debt!
+
+BREAKDOWN OF DEBT
+Rate 1.5 1 5
+
+[BB = Amount Paid as interest
+=} = Amount Actually Borrowed
+
+===== Page 14 =====
+
+a e el
+
+aati
+
+GIVE
+
+Giving gold or rice to the peasants or men will Increase their loyalty
+
+and wealth and will also increase your charm,
+
+Give Rice to the Pe
+
+Give Rice to the Soldiers
+
+Give Gold to the People ma
+Give Gold to the Soldiers
+
+{your reations with other fiefs be
+
+Pacr
+
+Ask another daimyo to ally with you, When you ask, your rival wil
+tlther ask you to pay a certain amount of gold or refuse your request.
+fyou pay the gold, you will have a pact: However this pact doesn't
+‘completely guarantee that you won't be attacked by your ally. Every
+year your treaty will become weaker, until it reaches a point when
+‘either you or your rivall may break jt,
+
+MARRY
+
+‘Ask another dalmyo if you may marry iis daughter If he kets you
+‘marry her, you will have a stronger alliance than with a pact because
+he will be part of your family, This alliance. like a pact, may also be
+broken overtime.
+
+BRIBE
+Hire a spy for ten units of gold. This spy sill use some of your gold to
+
+lure peasants from a rival fief into your own fie. If your spy succeeds.
+
+the peasant loyalty in that rival fief will decrease and some ofits
+peasants will move into your fet
+
+When you make an alliance with a rival territory, the alliance does:
+
+hot extend to the home base or other territories held by the same
+rival ruler.
+
+ALLIANCE BY MARRIAGE
+your territories other territories
+
+x
+
+mame
+= non-aguression pact
+
+When your daimyo’s home base makes an alliance by mumriage with
+a rival daimyo's home base, the alliance extends to all the territories
+in both daimyas’ realms of power.
+
+Note: This limits the amount of territories you can invade!
+
+===== Page 15 =====
+
+Look at data for other fiefs.
+
+TERRITORIES. View all the fiefs that you control.
+
+Home View your home base data,
+
+omer Send out spy for ten units of gold to
+look at information about any one
+fief in Japan.
+
+DELEGATE
+‘Transfer command of as many vassal fiefs as you like to the
+‘computer:
+
+AU ContROL —_Delegatte command of all your vassal
+
+ficis to the computer.
+
+Cancer Cancel all delegations, and take cor
+trol for yourself
+
+Mixep CONTROL Change the type of control given to
+cach of your vassal states,
+
+‘There are five options for the types of delegation a vassal state could
+have.
+Trave
+The computer will develop your town value and peasant
+wealth,
+
+MILITARY
+‘The computer will increase army's siz, soldiers’ morale,
+sand arms level
+
+BALANCED.
+‘The computer will develop industry, farming, and military
+power equally.
+PRODUCTION
+
+The computer will increase land cultivation and develop
+peasant loyalty.
+
+Direcr
+a YOU will control the fief,
+
+HoME Base
+
+‘You can not delegate control ofthe flef where your daimyo
+
+is located.
+
+Rest
+
+Allow 1-10 seasons to pass. Rest will improve your daimyo's health
+
+SETTINGS
+) These commands are described in full on pages 15 - 16.
+
+===== Page 16 =====
+
+GAME EVENTS
+SEASONAL EVENTS
+
+Every year certain events occur with regularity.
+AGING
+
+Every spring each daimyo grows one year older and all health values
+decrease by one point.
+
+} COLLECTING TAXES
+
+{Every fall you collect taxes from your people as the price for your pro-
+
+tection: The amount of rice and gold collected will depend on your
+fiel's level of procictivity, town Value, wealth and peasant loyalty.
+
+Disreisute To TROOPS
+
+Every fall you must distribute food snd gold to your troops. If your
+fief can not support these men, they will desert.
+
+NATURAL DISASTERS
+These events occur randomly.
+
+TYPHOONS
+
+Typhoons arrive only in summer. Your ourput will decrease after a
+typhoon. Keep your dams value high to avai some of the damage
+caused by typhoons,
+
+Phacur
+
+terrible disease could strike your population at any time of the
+twill reduce the health value of your daimyo, and death ts possible
+
+this condition was already weak. A plague will also cause the num-
+ber of your soldiers 1 fal
+
+REBELLIONS
+Mitrrary REVotTs
+
+These will usually occur when your army morale is low and your
+daimyo has a low charm level. Ifa military revolt occurs in your
+home fief, the screen will change to the batile display and your
+daimyo will ead the defending men. However, if it occurs ina vassal
+fief, the baitle wll be fought by the general in command.
+
+PEASANT UPRISING
+
+Liisi ecu your peatant lovato and your se
+has a low charm level [fan uprising occurs in your home bef,
+
+cam eiher pve the rebels gold or goto battle with thems Ir Kapa
+4 in scenario | and fief 21 in scenarios 2, 3, and 4, peasant uprisings
+never occur.
+
+BIDDING
+
+Téa daimyo ts mortally wounded in a peasant uprising or dies from
+
+sickness, his land Is auctioned off to his neighbors. You may mutke a
+
+be {0 gain control over his teritory. This gold inust come from your
+me fie,
+
+===== Page 17 =====
+
+——
+5
+
+)
+
+‘To unify Japan, you must engage in military campaigns to conquer
+other fiefs
+
+BATTLE DISPLAY
+
+© Day of the batle
+© Daimyo names
+@ Battlefield terrain
+
+© Name and number of the fief where the battle is occurring,
+© Rice and gold held by the armies at war
+
+PHASES OF WAR
+BEFORE WAR
+
+‘There are four circumstances that can bring about any batt!
+1- You invade a neighboring fief with the WAR command.
+2 - Aneighboring fief invades your land.
+
+3 The peasants in your land revolt against you.
+
+4 Your soldiers rebel against your rule,
+
+‘When you choose to attack you must decide how many men to bring
+to a baile, and how much rice to take. When you launch an attack
+from your home base, you can choose whether to bring your Daimyo.
+to battle or not.
+
+Troop DEPLOYMENT
+
+Positioning units isthe first stage of war. Since the defending army
+places its men first, it can put them anywhere on the map, The
+attacking amy, however, can only place its men in the area near the
+fief rom which it began the attack. These areas are highlighted. The
+attacking army may not place men in the defenders castle or town.
+‘When placing your men, use the Control Pad to move the cursor and
+press Button A when you decide where to put the unit
+
+COMBAT
+
+Alter both sides have placed their units, the battle begins. The
+defending amy issues one command to each ofits units und then the
+attacking army has its tum, A day passes alter both sides have issued
+one set of anders,
+
+===== Page 18 =====
+
+re,
+
+a
+
+BATTLEFIELD COMMANDS
+These commands can be performed simply by moving the cursor.
+Move
+
+‘Move the cursor onto the terrain where you wish to move, and press
+Button A to select
+ATTACK
+
+Move the cursor onto the terrain with the enemy thst you wish to
+attack, and press Button A to select,
+
+PAs
+
+Press Button A when the cursor is flashing on your unit to fet nit
+rest forthe day.
+
+‘These commands can be accessed from the war command menu,
+
+VIE VIEW
+
+Display a chart showing the warring daimyo's abilities
+You may give another onder alter using this command
+
+@ Attacking Daimyo
+© Delending Daimyo,
+© Troop Breakdown
+© buatle Statistics
+
+| DEL DELEGATE
+Let the computer take over, and just watch the rest of
+
+BRID BRIBE
+Bribe enemy soldiers to switch to your army. Only the
+command unit can issue this command. You must also
+have more units of gold than soldiers on the fiekl. The
+loyalty of your own men and your army strength will
+decide whether you are successful.
+
+Pass
+PISS se xc stn tty
+
+HEE
+Retreat to one of your bordering fiefs leaving all your
+
+gold, tice, and soldiers behind. This command can
+only be issued by the command unit
+
+the battle. This command can only be Issued by the
+
+‘command unit
+
+UNIT MARKERS «
+x
+
+COMMAND
+
+The command unit, which is led by the dalmyo or one of
+his generals. If this unit is destroyed, the battle is lost! This
+isan infantry unit of foot soldiers,
+
+CAVALRY
+Each army may Have only one of these units. which are be
+
+fhwice as powerful as any infantry unit
+
+===== Page 19 =====
+
+Riis
+Each amy may have only one of these units, and its size
+
+depends on the arms value This unit is twice as powerful
+‘as a cavalry unit.
+
+INFANTRY
+These are made up of ordinary foot soldiers, and are not as
+
+powerful as the cavalry or rifle group.
+
+ele
+*
+3
+
+) Side DisptayeD By COLOR
+
+‘The attacking side ts signified by the color red, and the defending side
+Bie is shown in blue,
+
+UNIT STRENGTH
+
+This shows the number of men in thousands. When this number
+drops to zero duiring baile, the unit will be destroyed.
+
+TOPOGRAPHICAL MAP
+
+Plains
+©) Flat land. Plains are not a very good place for battle because
+they offer no offensive or defensive advantage.
+
+HuLLs
+Hilis are better for both offensive and defensive purposes.
+
+MOUNTAINS
+Completely impassable.
+
+WATER
+‘This includes fakes, rivers, and oceans. This terrain is also
+impassable.
+
+TOWN
+
+Although the town is not as good as the hills for battle, it
+
+Cffers more of sn advantage than the plains. However, when
+SH used as a batleground, the town will be damaged and its
+
+value will decrease,
+
+gy CASTLE
+‘This is the best position for both offense and defense. Ifthe
+castle is taken by attacking men, the morale of the defending
+army will decrease.
+
+===== Page 20 =====
+
+Rin
+
+Ke
+h
+
+WHEN THE BATTLE ENDS
+
+CONDITIONS FOR VICTORY
+Awarends when:
+
+a) One side nuns out of rice.
+b) One side's command unit is destroyed.
+c) One side retreats.
+
+d) Ifthe battle doesn’t end within one month, the defending side
+wins,
+
+€) I both sites are destroyed at the same time, the defending side
+wins.
+
+OUTCOMES OF WAR
+
+WHEN THE ATTACKER WINS
+
+Ifthe attacking side wins, it will take over the losing fief. Ifthe
+daimyo himself was in the losing fief. the winner will also take over
+all his vassal fiefs.
+
+WHEN THE DEFENDER Wins
+
+I the defending side wins the war, any soldiers, rice, or gold left
+behind by the loser become his property. Ifthe attacking daimyo was
+killed in the battle, the defending side takes over all of his vassal fiefs.
+AFTER HAVING SUPPRESSED A REVOLT OR AN UPRISING.
+
+‘Your army or peasant loyalty, depending on the case, will po down
+after fighting your own sokllers or pesssnts
+
+j
+
+GREAT DAIMYOS OF THE WARRING
+STATES PERIOD
+
+ODA NOBUNAGA OF OWARI
+(1534-1582)
+
+Nobunaga was a rebel almost from the ime of
+his bih. He disobeyed his nurses and parents
+and was distiked by most people who knew him.
+He soon gained a reputation for being an arro-
+
+. sgint young man. But, as he got older, he began
+to show the makings of a great daimyo, As soon as he came of age,
+hie convinced the other daimyos to accept him as leader of the Oda
+Clan. He then wiped out the rival Imagawa Clin in an ambush to
+become the undisputed ruler of the province of Owant.
+
+Nobunaga realized that i he befriended the Shogun he could do as
+the pleased. So, in the year 1568, he nuarched into the capital cty of
+Kyoto and declared Ashikaga Yoshiaki the new Shogun. So great
+\was Nobunaga’s reputation that no one challenged him. However,
+thele friendship was short-iwed. Nobunaga rarely listened (0 the
+‘Shogun's commands sind instead always did as he pleased
+Ashikaga was insulted, and secretly formed an army to attack
+Nobunaga at the Anepawa River. But, the hardy Nobunaga sur=
+Vived and! took revenge by crushing the two clans which had paartic-
+ipated In the attack: the Asakura Clan and the Asai Clan.
+
+===== Page 21 =====
+
+By this time, Nobunaga's rival, Takeda Shingen, had died of old
+age, and Nobunaga allied himself with the monks of the powerful
+tkko Sect. Nobunaga's dream of unifying Japan was taking form
+‘and growing more and more likely every day,
+
+Unfortunately, while preparing for battle in the Chugoku Region,
+Nobunaga wats betrayed by one of his own generals. The villainous
+Akechi Mitsuhide attacked him in the Honno-}! Temple with his own
+troops. | Japanese warrior to the end, Nobunaga died honorably by
+committing hara-kiti atthe age of 49, in the Summer of 1582.
+
+TOKUGAWA IEYASU OF MIKAWA
+(1542 - 1616)
+
+Tokugawa Teyasu was the founder of a 250 year
+period in Japanese history called the Tokugawa
+Era, Strangely enough, this great leader spent
+his childhood as a hostage of the Imagawa Clan
+Ashe grew older and saw the Imaysnva Clan
+starting to ose power, he allied himself with Oda Nobunaga.
+Ieyasu was very wise and patient, and always knew the benefits of
+matking friends with up-and-coming rulers. This ability to be in the
+right place at the right time helped Tokugawa to become such a
+powerful man,
+
+Alter Nobunaga died, leyasu faithfully served Nobunaga's successor,
+Toyotom| Hideyoshi, despite his growing personal ambitions. When,
+Hideyoshi died in 1598, leyasu went to war against the Toyotomi fl |
+Clan and defeated them, fulfilling Nobunaga's ambition of a united |
+Japan. leyasu lived to be 75 years old, anu is sil well remembered in
+Tapan for his cleverness and ruthlessness in negotiations.
+
+TAKEDA SHINGEN OF KAI AND
+SHINANO (1521-1583)
+
+{nthe Léth century, the name of Takeda
+‘Shingen struck such terror into the hearts of the
+‘other daimyos that he was given the nickname
+B “ihe Tiger of Kai They say that the first time
+
+- - young Tokugawa Ieyasu saw Takeda Shingen,
+the ran away, shaking with fear. Even as a young daimyo, Shingen's
+ruthlessness was infamous. Under his leadership, the Takeda Cla
+conquered neatly every fief In the area, Shingen's reputation grew
+as quickly as his power. Not to be outdone, Uesugi Kenshin tried to
+‘block the advance of Shingen’s army. They fought five times on
+Kawanatka Island, but neither could claim a decisive victory.
+
+{In the course of the prolonged warfare, Shingen succeeded in con:
+‘quering a lange part of Shinano, His troops moved westward like
+{reat tidal wave, forcefully taking over the fcis of Surugat and
+Mikanwa.
+
+AL Mitaka, Shingen battled against the combined armies of
+Tokugtwa Ieyasu and Oda Nobunaga and easily defeated them
+Yet, despite his great strength, Shingen could not overcome old age
+and died ar the age of $3.
+
+UESUGI KENSHIN OF ECHIGO
+AND KOZUKE (1530 - 1576)
+The third son of a high-ranking official and fero-
+
+cious warrior, Nagao Tamekage, Kenshin began
+his career when he inherited leadership of the
+
+‘Nagao Clan. He was subsequently adopted into
+the family of First Minister Uesug) of Kamakura
+
+Later, when unclergoing Buddhist studies, he took the given name
+of Kenshin (‘Faith in Humility), which he used therealer.
+
+a
+
+:
+:
+;
+
+===== Page 22 =====
+
+r
+>
+
+ow J vou
+me
+
+Kenshin won military fame at the age of 14 by subduing a rebellion
+Ii Echigo Province, Envious of Kenshin’s sudden fame, his elder
+brother Hanukaige ordered his followers to attack Kenshin, only to
+bbe defeated by Kenshin’s faction. With his elder brotiier out of the
+ier the entire territory of Echige. His
+ngen's on the Island of Kawanaka,
+‘This famous buttie actually consisted of five separate, major
+engagements
+
+{n the fourth engagement, Kenshin successfully ounwitted a poy of
+‘Shingen’s and zeroed in an him. He engaged the ferocious Shingen
+ivan historic mutn-to:tman duel, which ended in « stalemate,
+Afterwards, Kenshin opposed! Oda Nobunaga in an alliance with
+Mori Terumoto, but died in the attempt, with his life-long aspiration
+to unite the nation barely half-realized.
+
+Kenshin was a warrior of great caliber, a valiant leader indifiérent 10
+personal gairt. He was widely admired as “a man and leader too
+good for the times,"
+
+Mor! MOTONARI OF AKI AND
+NAGATO (1497 - 1571)
+
+Mori Motonari was a brilliant man, maybe the
+greatest strategist ofthe Hoth century. He was
+also very cruel, jealous and greedy, While still a
+youth, he assassinated all of his brothers to
+make sure that he would inherit his father’s
+
+lands. His father died and Motonati quickly rose to power.
+
+When he went to battle, Motoniart was very good at gathering infor-
+‘mation on the enemy daimyos while never letting others know how
+strong his own armies were, He was a good strategist, and tried to.
+defeat his enemies with trickery, rather than by wasting the lives of
+his well-trained soldiers in butle.
+
+‘Motonor carried the guilt of assassinating his brothers all his fe.
+Wheit he was dying, he called his thee sons to tis bedside. He
+asked a servant to bring him some arrows and picking one up, east-
+ly snapped it in qwo. He then asked each of his sons to try to break:
+three arrows together and none of them were able to, Motonai then
+explained to them that they were like the thnee arrows andl that if
+they worked together they would be Invincible. But, i they did't
+cooperate with each other, their enemies would snap them in two
+as easily asthe single arrow.
+
+Hojo Uyryasu OF Musasut,
+Izu, SAGAMI, AND SHIMOUSA,
+(1538-1590)
+
+During Nobunaga's time, not many daimyos
+lived fong enough to see their sons inherit the
+throne. The Hojo family however, niled over the
+Kanto district of central fapan for more than 100
+years. When Ujiyasu took over as daimyo, the Hojo Clan was very
+powerful. They ruled from the impregnable Odawara Castle:
+
+Unfortunately, Ujiyasu was a very poor judge of men. At his best,
+hhe was an average leader, but as his worst, he could not tel the dif-
+ference between a loys! servant and an enemy assassin. Ujiyasu’s
+{oial lack of good sense led the once powerful Hojo Clan go destruc
+lion, In 1575, after repeated official wamings, Odawara Castle was
+destroyed by the army of Toyotom! Hideyoshi,
+
+===== Page 23 =====
+
+IMAGAWA YOSHIMOTO OF
+TOTOUMI AND SURUGA (1519-
+1560)
+
+imoto was born a member of the Imperial
+Family. He was trained In the ways of a noble-
+man and warrior, Isolated from the real world
+within his parents’ castle. Unfortunately when
+his parents died, Yoshimoto wasn't ready to become the clan
+Jeader. While trying 10 make peace with an enemy clan, Yoshimoto
+took their young master hostage. Litle did he know that this
+
+\would later take the name of Tokugawa leyasu, sand yo on to rule
+Japan,
+
+However, it wats not feyasu wha would bring about Yoshimoto's
+death. Yoshimoto made his last mistake by publicly insulting Oda
+Nobunaga, who took revenge by ambushing and ending the life of
+Yoshimoto at the Baitle of Okehazama
+
+SAITO YOSHITATSU OF MINO.
+(1527-1561)
+
+‘Yoshitatsu was the son of Saito Dosan, a com
+monet who managed to raise himself from 2
+amp oil peddler to Assistant Governor of Mino
+Province. Yoshitatsu’s mother was a concubine
+‘ofthe Toki Clan and Yoshitaisu was illegitimate.
+Dosan strongly suspected Yoshitatsu was his own son and fre
+quently mace this known in his dealings with him. Nevertheless, he
+stubbomly relused to acknowledge Yoshitatsu’s true birthright.
+
+Resentful of these repeated slightings, Yoshitatsu put his two
+‘younger brothers (Dosan’s acknowledged children) to sleath, He
+then defeated and destroyed his father in the Bate of Nagara River
+
+before Oda Nobunaga, Dosan’s son-in-law, was able to come to the
+rescue. Nobunaga sent an expeditionary force to Mino to avenge
+Dosan‘s death, but Yoshitatst successfully held out against this
+attack. However, despite this victory. Mino fell into Nobunaga's
+hands after Yoshitatsu’s son, Tatswoki, came into power.
+
+ROKKAKU YOSHIKATA OF IGA
+(1521-1598)
+
+The Rokkaku Clan is generally believed to have
+descended from the Sasaki Clan, descendents of
+Uda Tenno (the 59th Emperor of lapan, 889
+£897) who originally took up the management of
+the Sasakl Estate in Omi
+
+‘Yoshikata Inherited the family estate at the age of 31 upon the
+death of his father Sadayor. As evidenced by an autographed scroll |p
+presented to him by the Shogun Ashikaggt Yoshiteru, Yoshikata was
+noted (or his unswerving loyalty to the Ashikaga Shogunate. To
+
+protect Shogun Yoshiteru while escorting him back to the court in
+Kyoto, he fought and beat Miyoshi Chokel at Shirakawa. However,
+Yeshikata was defeated by Oda Nobunaga, who had, likewise,
+accompanied the other pretender to the Shogunate, Ashikaga Pi,
+‘Yoshiaki, to Kyoto. Although he united with Miyoshi and Asai to e
+attack Shibata Katsule, & military commander of the Oda camp, In
+‘southem Omi, Yoshikatia was defeated again and finally submitted,
+to Oda Nobunaga,
+
+===== Page 24 =====
+
+MIyoSH! CHOKE! OF SETTSU
+AND IZUMI (1522-1564)
+
+‘Along with his vassal Matsunaga Hishide,
+Miyoshi Chokei personified the treachery and
+manipullative politics so rampant during the
+Warring States Period.
+
+Bom to the Miyoshi House (a branch of the Hosokawa Clan) of the
+Awa Province, Choke] witnessed firsthand fratricidal feuding among.
+his kinsmen over the inheritance of the family estate, and in fact
+Jost his father during such a struggle. Choke personally puit to
+death relatives who opposed him. He installed Ashikaga Yoshitera
+asthe 13th Ashikaga Shogun, but took the reins of govemment
+himself by assigning subordinates loyal to him to provincial gover-
+‘norship. Given the violent and disorderly political climate of the
+times, the numbers of contenders making attempts on Chokes life
+isnot surprising. However, Chokei died of illness at the age of 43,
+though rumor has it that he was actually assassinated by
+‘Matsunaga Hishide,
+
+ASAKURA YOSHIKAGA
+OF ECHIZEN (1533-1573)
+
+‘Asakura Yoshikaga was a son of Asakura
+Norikage, Master of Ichijo-ga-tani, a castle in
+Echizen Province.
+
+During Ashikaaga Yoshiaki's march on Kyoto,
+Yoshikaga was asked for assistance, but his
+
+troops were alteady tied up fighting Ikko Sect rebels in the Kaga
+and Noto provinces. Later, however, Yoshikaga had another
+‘hance to prove his friendship to Ashikaga, Although Ashikaga was
+Shogun, his power was weakened by the fact that Nobunaga had
+proclaimed him such, Ashikaga gravely doubted Nobunaga's
+
+rhe.
+
+Wes, T,
+
+motives and secretly called on other daimyos to rally around him in
+his campaign against Nobunaga. Asakura Yoshikaga was the first
+to rally to Yoshiaki's skle, Enraged by the news, Nobunaga ordered
+his troops to attack Iehijo-ga-tant Castle.
+
+A first the castle escaped seizure thanis to the leection of Asal
+‘Nagamasa from Nobunaga's forces. However. Yoshikaiga suffered a
+cmishing defeat tthe Bante of Anegawa and, ina third encounter, he
+and his ally Asai Naysumasa fell to the swords of Nobunaga's warriors
+
+ASAI NAGAMASA OF OMI
+(1545 - 1573)
+
+Arthe age of 15, Asal Nagamasa came into his
+
+Inheritance. Even at an early age Nagamasat had
+
+the marks of an extraordinary leader. The vas-
+
+sails of Omi had high hopes that Asal's talent
+
+‘would make up for the poor leadership of his
+father, Hisamasa.
+
+Asai married Princess Ichi, one of Nobunaga's sisters. who had
+‘agreed to the mariage so Nobunaga coulkl forge am alliance. Later,
+Asal terminated the alliance when Nobunagat tried to overrun is
+wom friend Asakisra Yoshikaaga, and rushed his army to the side of
+Asakura. Enraged by the defection, Nobunaga attacked both Asai
+‘and Asakura, engaging their armies in the Battle of Anegawa, Three
+‘years later, the Odani castle of Omi fell and Asal commited hara-kin
+
+twas Nobunaga's subordinate Toyotomi Hideyosh (then called
+Kinoshita Tokichiro) who rescued his sister Ichi and her three
+daughters, including ChaCha, later maried to Hideyoshi; Ohatst,
+rive ‘who later became the wife of Lord Kyogoku Takatsugu; and Op,
+who was later marred to Tokugawat Hidetada, the second Shogun
+of the Tokuysiwa Shogunate.
+
+===== Page 25 =====
+
+ASHIKAGA YOSHIAKI OF
+YAMASHIRO (1537-1597)
+
+Ashikaga Yoshiaki of Yamashiro was the 15th
+and last Shogun of the Ashikaga Shogunate,
+Following the assassination of his brother
+Yoshiter by Matsunaga Hisateru and Miyoshi,
+Yoshiaki switched his allegiance from one
+daimyo to another to escape the assassin’s dagger, finally taking
+refuge in the house of Asakura in Echizen, When Asakura
+Yoshikaags failed to take up arms in his defense against revolting vas
+sal, he grew impatient and sought the help of Oda Nobunaga,
+Nobunaga readily complied with his request nd escorted Ashikaga
+‘Yoshiaki to the capital, Kyoto, snd installed him as the 15th Shogun.
+
+However, Nobunaga secretly sought to undermine the authority of
+Ashilayga and began to usurp power from the Shogunate. Aware of
+Nobunaga's dark designs for the Shogunate, Ashikaga sent word out
+{0 provincial governors in an attempt to form an antieNoburaga
+alliance. Although some of the governors raised arms to rally around
+Ashilzaga, they iwere no match for Nobunaga and Yoshlaki's reign
+finally ended. Thus, the Ashikaga Shogunate was brought to an end,
+
+{5th and 16th Century Japan experienced widespread civil unrest.
+Tiiis period of Japanese history, which lasted from 1467 10 1000, 1s.
+called “Sengoku-jidai,” or the Warring Stites Period.
+
+The first revolt against the central ruling power of The Shogun start~
+ed in Kyoto in connection with succession conflicts within the
+Ashikaga Shogunate: As the Shogun’s authority and power were
+‘weakened, the country became divided into provinces or flefs ruled
+bby military fords referred to as Daimyo.
+
+‘Takeda Shingen, Ueseg! Kenshin, Imagawa Yoshimoto, andl Mori
+Motonati were famous Daimyo who survived the succession of
+wars during this time. These daimyos succeeded because they were
+highly capable warriors and administrators. To increase their influ
+cence, they would take land that had formerly belonged to other
+powerful warlords and give it to their own vassals anc! local gover-
+hors. These men alse fostered the development of the local
+‘economies by helping to bulld castle towns and then protecting
+them with their military strength
+
+===== Page 26 =====
+
+‘Oda Nobunaga was the first military lord able to quell most of the
+Incessant warring. Bom to Oda Nobuhide, a Daimyo in Qwan, the
+northwestern pur of present-day Aichi Prefecture, he succeeded his
+father in the nule of the domain and became an independent mill-
+tary lord ab the age of 17,
+
+Nobunaga's military strategy was unique to the time, based on high
+troop mobility andl the use of firearms. After he unified Ow, he
+defeated rival Imagawa Yoshimoto of Suruga, in the central part of
+modlem Shizuoka Prefecture. Nobunaga was ruthless both In and
+cut of battle, showing no hestattion to kill any ancl all thatt stood in
+his way.
+
+In 1573, Nobunaga ousted Ashikags Yoshiaki from the highest
+office in the land, the Shogunate. Nobunaga chose not fo become
+Shogun himself, but, in the name of the emperor, tried Wo unify the
+whole country. Nobunaga built a castle near Lake Bivit and used it
+asa base from which 10 conquer the nation.
+
+Nobunaga was eccentric, aggressive and a ruthless fighter. Despite
+his mercilessness in war, Nobunaga nevertheless was a considerate
+civilian leader, encouraging local economic growth by permitting
+free trade in his territory. He came very close to unifying lapan
+under his rule.
+
+However, in 1582, on his way to reinforcing alles lead by Toyotoml
+Hideyoshi, Oda Nobunaga was attacked by his subordinate Akechi
+Mitsuhide and, with no recourse left, committed hara-kir,
+Nobunaga's ambition was left unfulfilled witen death turned him
+into yet another tragic hero of Japartese history.
+
+‘After Nobunaga's death Hashiba Hideyoshi, one of his most tust-
+ted vassals, took revenge on Mitsuhide and continued to built on
+Nobunaga's domain, He won overall the southern islands of
+Kyushu and Shikoku, and outlasted his remaining enemies in the
+north. He became the greatest military power in Japan, and
+changed his name to Teyotomi Hideyoshi.
+
+‘But, millary strength was not enough. Although nione of the other
+daimyos were powerful enough to challenge him, they did not
+respect his name, His low social status, stemming from his common-
+cr foots, made it impossible for him to become Shogun. tn 1598, the
+‘country was Jeaderless again when Hideyoshi died of old age.
+
+Tokugawa leyasu had refused to accept Hideyoshi as his master
+when Noburiaga died. He knew however, that.a war wats not the
+answer, and decided to be patient. When Hideyoshi passed away,
+leyasu seized his chance.
+
+After Hideyoshi's death, Japan was split into two opposing sides:
+the East, under Tokugawa leyasu, and the West, under Ishida
+Mitsunari. In the year 1600, the two armies met in the Battle of
+Sckigahara. Tokugawa leyasu emerged the victor, and, after nearly
+twenty years of patient service under both Nobunaga and
+Hideyoshi, he became the supreme ruler of Japan. The goverment
+he built was so stable that It lasted for over 250 years. These 250
+‘years of peace are called the Tokugawa or Edo Period.
+
+===== Page 27 =====
+
+a J i oats Af
+—
+
+IMPORTANT BATTLES
+
+A SURPRISE ATTACK ON IMAGAWA AT.
+OKEHAZAMA.
+
+The Imagawa Clan was a distinguished family related to the
+Ashikoga Shogunate. Imagawa Yoshimoto also bumed with the
+desire 10 march on Kyoto, then the capital of Japan, and thuss hold
+power over the entire country. Standing in his way was Od
+Nobutiaga, On a rainy day in May of 1560, Imagawa Yoshimoto
+ordered his army, some 25,000 strong, to march through Owath
+Province and crush the troops of Oxia Nobunaga if they resisted.
+
+Oda Nobunaga was too proud to let the army of Imagawa pass
+through hs domain unchallenged, bul iagrwats army had already
+entered Owari on its way to Kyoto. Despite the urgency of the situa
+tion, Oda managed to recruit only 2,000 men. His chances of block-
+ing Imagawa’ army in a frontal attack were close te nil. Thus, he
+‘Was faced! with the dificult choice of fighting an impossible batle or
+surrendering to his enemy. His vassals gathered in a council of war
+and recommended a do-or-die resistance by holding out in the
+Kiyosu castle, but Nobunaga hid alreacly made up his mind: A sur-
+prise attack!
+
+‘That night, he ordered his men fo “Mount!” and he rode from his
+castle with only a small force. Stopping by Atsuta Shrine,
+Nobunaga took a few moments alone to think about the impor:
+tance of te momen By then the rest of hs force hal caught up
+with him,
+
+At that moment, Imagawa Yoshimoto was camped at Dengakus-
+Hazama, along a narrow stip of ravine, Famished and utterly
+‘exhausted after their long march, Imagawa's men began to yora-
+ioutsly devour their meals, oblivious to everything around them, As
+‘Nobunaga's men drew near the hill behind Yoshimoto's eamp, the
+sky suddenly became dark and cloudy and let forth a violent
+
+downpour that sent Imagmwa's men huddling together for shelter.
+‘The dark and ominous clouds screened the movements of
+Nobunaga's men closing in on them. When the storm abated,
+Nobunaga yelled out, “Attack!” At that moment, his men rushed
+down the slope in a headlong charge into Imagawa's camp. The
+sudden charge caught them totally unprepared, and threw them
+into complete confusion. In the melee that ensued. one of
+Nobunaga's men, Hattori Koheita, stormed into Imagaya’s head-
+{quarters and, spotting tmaggnwa, hurled his spear at him. At the eu:
+ial moment, Imagawa drew his sword and cut through the shalt of
+the spear with an answering blow, But before he coukl do more,
+another one of Nobunaga's men, Mori Shinsuke, ran up and cut off
+Huis head. Thus the mighty Imagawa met his end.
+
+With the loss of their leader, Imagawa's army fell apart, and more
+than 3,000 ofits men were left dead. The defeat was so crushing
+that the name of the Imagawa clan never resurfaced on the stage of
+apanese history
+
+THE ERA OF FIREARMS
+
+Although Japan has a strong history of isolationism, influences from
+the West still played a role in shaping the fate of the nation. In par
+ticular, the use of freamts played a key role during the Rattle of
+Nagashino, when Nobunaga ovenwheimed his enemy by deftly
+using firearms.
+
+Takeda Katsuyori, who had been in hiding since the death of his
+father, Takeda Shingen, was marching into Mikava in the spring of
+1575. On his way to Mikawa, he attacked Naygashino Castle in an
+attempt to neutralize resistance to Okudalra Sadaamasat In respect
+for his alliance with Tokugawa Teyasu, Oda Nobunaga joined wit
+Tokugawa leyasu on the battlefield of Nagashino against Katsuyor.
+
+‘On May 3, 1575, Tokugawa and Oda’s forces (30,000 men)
+Jaunched an attack on Takeda Katsuyor''s 14,000 men across.
+‘Tsureko River. The allied forces had 3,000 niles, which they.
+
+a Se.
+
+===== Page 28 =====
+
+deployed in three formations. While the front formation fited their
+suns, the second formation reloaded their guns, and the third for-
+mation prepared to shoot. Nobunaga had invented this three stage
+firing strategy which enabled his forces to fre without a break. In
+‘each stage the guriners were protected by heavy shields, Despite
+the fighting skill and bravery of Takeda's calvary, they coukd not
+Penetrate Nobunaga and Tokugawa’ defense line and ad to
+retreat. With 10,000 of his men dead, Takeda Katsuyori narrowly
+escaped to Kat with only six of his vassals. Takeda didnot chal-
+Jenge Nobunaga again.
+
+FALL OF NOBUNAGA
+
+In the spring of 1882, it seemed asif nothing could stop Oda
+Nobunaga from reaching his goal of uniting Japan. He had already
+‘conquered all of central Japan, and maintained a strong alliance
+with the east, He began to prepare for an attack against his
+western rivals.
+
+Nobunaga left Azuchi Castle to travel to Chugoku on June |, 1582.
+He planned to supervise the batle being waged there by his general
+Hashiba Hideyoshi against the Mort clan, From there he intended.
+to march on to Shikoku to overcome the Chosokube clan's resis-
+tance, Atthe start of their long journey, Nobunaga and a few of his
+Joyal men rested at Honno-ji Temple in Kyoto to partake in tea
+ceremony.
+
+Nobunaga's commander Akechi Mitsuhide was supposed to have
+leftto join Hideyosht’s forces in attacking the Mori clan in
+Chugoku. Bur when his army was just outside of Kyoto, he assem.
+bled his men around him and shouted, “Men, the real enemy Is
+inside Honno-|i Temple!” He commanded his men to attack his
+lon, Oda Nobunaga.
+
+On the moming of June 2, 1582, Akechi ‘Mitsuhide’s oops stormed
+Honno-|i Temple. Annoyed by the commotion, Nobunaga asked
+his page, “What's going on outside?” Leaning that Akechi
+Mitsuhidle was leading a revolt on the Temple, Nobunaga yelled,
+*Whatt am outrage!” Unable to acknowledge defeat when so close 10
+obtaining his goal, Nobunaga fought valiantly with his spear. When
+the situation proved hopeless, the exhausted Nobunaags moved into a
+room where he, along with his 19 year-old page, committed hara-ki.
+
+‘Many theories have been proposed as to the motives of Akechi
+Mitsuhide, Possibly he was avenging the murder of his mother.
+few moms carlier, Nobunaga had ordered his vassal Mitsuhide to
+attack the fel of Tamba, Mitsuhide led an expeditionary force to
+‘tack Hatano Hidehagu and his brother, local barons who ruled
+Tamba. The Hatano brothers entrenched themselves in Yakamt
+Castle and Mitsuhide laid siege. Mitsubide tried to starve their gatt-
+fison into a surrender, but in the end proposed a peace treaty with
+the Hatanos by offering them his own mother as a hostage. The
+Hatano brothers aecepted, but when they emerged from their eas-
+tle, Oda Nobunaga ambushed them and pat them to death,
+Incensed by Nobunaga's treachery, Hatano's men took the life of
+‘Mitsubhide’s mother tnd launched an attack on Nobunaga. This
+utter disregard for the life of Mitsuhide’s mother might have been 3
+fatal mistake. Other theones for Mitsubide's motives are: his anger
+over his dismissal as Nobunaga's representative 10 Tokugawa
+Jeyasu, and his belief in rumors that Nobunaga was planning to
+take Omi and Tamba from him. Who knows, Mitsuhide may have
+even harbored secret desires to rule the country himself.
+
+EE
+
+===== Page 29 =====
+
+GLOSSARY OF GAME TERMS
+
+CASTLE
+
+Huge fortress built by Daimyos both as a symbol of their strength and
+for protection.
+
+COMMAND UNIT
+
+The unit that is ke by the commander of the battle foree. The only
+times the commander will be the daimyo are when the fighting occurs
+{nthe home base or when the daimyo lends an attck Persona.
+the daimyo dies ducing battle then all his land sill al
+
+hands of the opposing fet
+
+Daimyo
+
+Japanese feudal Jord, Usually controls several fiefs under his com:
+mand, Often has a castle for his defense. Daimyos were warlords who
+strove to increase thelr dominance during this Warring States period.
+
+FIFE
+
+Sell-governing feudal state. Holds its own army and js responsible to
+iis own citizens. During the Warring States period of Japan, the many
+fiefs of the nation were disconnected from each other. Daimyos
+strove to unify the land by conquering fle(S and then ruling them with
+theirown policies.
+
+HARA-KIRI
+The honorable way fora Japsinese warrior to die, when faced with cer-
+tain defeat. The warrior wouk! take a short sword and plunge it into
+fn stomach until death overcame him. The ritual included having a
+page to assist the warrio. Ifthe warrior was unable to complete the
+Sct, the page would behead him, ensuring an honorable death:
+
+Into the
+
+NINJA
+
+Specialized soldiers employed by Dalmyos for secret acts of terror-
+oe Nini ‘were schookkd in the arts of espionage and hanil-to-hand,
+combat
+
+SHOGUN:
+
+‘The ttle of the military ruler of Japan. Originally, the Shogun’s duty
+was to enforce the Emperor's rule and protect lapan from outside
+invaders. Declining power and influence in the Ashikaga Shogunate
+fed to the decentralization of government and the ent of the Warring
+‘States.
+
+VASSAL STATE
+A state or flef controlled by a daimyo that lives in another fel. A
+‘Vassal State Is much the same as a Sell-Governing Fief, but often will
+be used to produce soldiers, tice. or gold for the controlling Daimyo's,
+army,
+
+===== Page 30 =====
+
+SOLUTIONS To COMMON PROBLEMS
+
+ARE YOU CONSIDERING THE SEASON
+
+BEFORE ACTING?
+
+Think about the time of year before you choose a command. You
+might not ywant 1o DEVELOP-Produce in the spring. since it will
+lover flood control just as the summet typhoon season approaches.
+But performing that sume command in the summer will Increase the
+amount of tice you collect in the fall
+
+ARE YOU MAKING TOO MANY ENEMIES?
+
+A Daimyo, no matter how strong, cannot expand his territory if he is
+encircled by enemies, To avoid being squeezed on all sides by ene:
+‘mies, maintain friendships with some of your neighbors.
+
+ARE YOU MAKING TOO MANY ALLIES?
+
+Aithough marriages and non-aggression pacts with neighboring fiefs
+‘will allow you to build up your army without interference, be very
+wary of surrounding yourself completely with allies. When the time
+comes to expand your realm: of power, you may find your antempts 10
+attack thwarted by non-aggression pacts.
+
+ARE YOU OVERLY DARING IN WAR?
+
+‘At war, do you attack opponents who are clearly too strong for you?
+
+Sometimes you must wait patiently for the right opportunity, or
+
+retreat while you are still able. Use your spies to find opponents that
+‘4 . concentrate on attacking the
+
+‘chemy's command unit - don’t waste your soldier’s lives needlessly in
+
+stacks against other units ifthe command unit is nearby.
+
+ARE YOU SPREADING YOUR FORCES
+
+TOO THIN?
+
+Bringing many soldiers to bautle can help you gain territories, but be
+
+careful not to leave too few men behind. Alert rival daimyos will be
+pounce on a flef with a tiny army, Make
+
+===== Page 31 =====
+
+WARRANTY
+
+90-DaY LIMITED WARRANTY
+
+Koei Corporation warrants to the original consumer purchaser that
+this game pak shall be free from lefects in material and workmanship
+fora period of 90 days from date of purchase. Ifa defect covered by
+this waranty occurs daring this 90-day warranty period, Koet will
+Tepairor replace the game pak at its option, free of charge,
+
+‘To receive this warranty service:
+1. Send in your Registration Card.
+
+2.Save your sales receipt and the UPC code found on the game
+packaging.
+
+3.1 your game is still covered under a store warranty, return the
+‘game pak to the store at which you purchased the game,
+
+4.1fthe gime develops a problem requiring service during the 90-
+day warranty period, and is not covered by a store waranty,
+notify Koel Corp. by calling the Technical Support Dept. at
+(415)348-0500, the hours of 9 a.m. to 4:45 p.m,
+Pacific Standard Time, Monday through Friday.
+
+5.{fthe Koel Service Representative ts unable to solve the problem
+bby phone, you will be provided with a Return Authorization
+umber, Simply tecord this number prominently on the outside
+packaging of your defective game pak; enclose your name,
+atdklress and phone number, and retum the game pak,
+FREIGHT PREPAID AND INSURED FOR LOSS OR DAMAGE,
+together with your sales receipt or similar proofof-purchase
+(UPC code) within the 90-day warranty perio! to:
+
+Koel Corporation
+One Bay Plaza, Ste. 340
+1350 Bayshore Hiwy.
+Burlingame, CA 94010,
+
+This warranty shall not apply f the game pak has been chamagedl by
+negligence, accident, unreasonable use, modification, tampering, or
+by other causes unrelated to defective materials or workmanship.
+
+Service After Expiration of Warranty
+
+Ii the game pak develops a problem requiring service after the 90-day
+bs cthon eon dates the Koei Technical Support Dept.
+fat the phone number noted previously, Ifthe Koel Service
+Representative is unable to solve the problem by phone, you may be
+provided with a Return Authorization number and asked to send the
+Jaime pak io Koel for personal Inspection. Record this number prom!
+nently on the outside packaging of the defective game pak and return
+the merchandise, FREIGHT PREPAID AND [INSURED FOR LOSS
+OR DAMAGE, to Koel wwith a check or money order for $20, to cover
+‘ejutr or eplacement, payable to Koel Corporation, Koel reserves the
+right to change the post-warranty service fee andor policy.
+
+===== Page 32 =====
+
+Call now to order KOE!) games! 415-348-0500
+There's a New Bully on the Block!
+
+‘You're out to take more from your enemies than ther lunch money! You're one
+‘awesome Mongol by the name of Genghis Khan and you're hungry for conquest.
+‘Asia's up for grabs and here's your chance to make a mark. Gather your Mongol
+hordes and get them psyched for bale. But remember, you're nt te only one
+
+‘ooking to expand. Your enemies have the knights, samurai and elephant units to
+tin your day. Give your archers straight artowes your Mongol horsemen riding
+lessons and your infantry a few good pairs of walking shoes. The fight is on and.
+world domination i at hand! Everyone may hate a bully, butt sure canbe fun
+
+FEATURES: |-2 players, conquer Mongolia or the entire world, play Genghis
+Kahn Spr ruses athena
+
+|
+
+AS CEO, YOU CALL THE SHOTS!
+
+re ambitious and you strive
+excellence. Your goal is to create a
+lob airline network
+
+Gompelitve fares, ad campaigns
+and special services will distin
+uish you from the rest. Be aggres~
+
+sive and maintain superiority in the
+
+skies, Airlines are your business
+
+| FEATURES: 1-4 players, 2 scenarios, historical airrafi realistic
+bosness strategy, battery back-up to save games.
+
+ITS TIME TO PICK A
+WINNING TEAM!
+
+ATS 1941 cand the US, And Japan are
+ready to clash. Your goal is to control the
+Pacific The schedule exhausting: Poor!
+Harber, Midway and the Philippines for starters. The
+‘Americans can depend on the Yotkiown, Homet and Nevado run
+
+sucossstul battie plays. But dont
+
+‘count out the Jopemese coniet
+ater af Operations
+
+teres and the top notch p
+Kemmis Th compan i
+
+‘about lo begin — It's ime to pick
+‘your team crx! hit the batiletieict
+
+Pacific Tha:
+
+FEATURES: [2 players, 9 wenarios, 250 historical ships,
+ty levels, battery back-up to save yames.
+
+1 difficul |

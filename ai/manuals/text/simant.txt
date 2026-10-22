@@ -1,0 +1,1488 @@
+# SimAnt
+source: https://archive.org/details/snes_manual_archive
+pdf: SimAnt ( USA ).pdf
+region: USA
+pages: 21
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNS-AN-USS
+
+ANT
+
+THE ELECTRONIC ANT COLONY
+
+Instruction
+Booklet
+
+===== Page 2 =====
+
+CONTENTS SIMANT”
+
+It's a Bug’s Life 2
+The Object(s) of the Game 3
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER Playing SimAnt 4
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE Getting Started A
+USING YOUR NINTENDO® HARDWARE SYSTEM OR GAME PAK. iol A
+Full and Scenario Games 4
+
+Saved Games 5
+
+Ant Information 5
+
+Controlling SimAnt 6
+
+The Controller 6
+
+‘The Super NES Mouse 7
+
+Close-up View and Overview 8
+
+The Cursor 8
+
+Scrolling the Screen 9
+
+Icons 9
+
+Menus and Submenus 9
+
+The Yellow Ant 10
+
+The Control Panels 4
+
+Playing the Full Game 18
+
+Playing the Scenario Game 2
+
+Reference 24
+
+The Icon Menu 4
+
+Views 5
+
+Scents 26
+
+Control Panels 27
+
+Loading and Saving Games 28
+
+Evaluation Screens 29
+
+WL OAL EEAT Giga nee resin House/Population Graph Screen 29
+= ©1963 magineer CO. Lt. of Japan, History Graph 31
+Ppirbi pesca ore Status Screen 32
+poi Bespaliheinysshedeitveny Setting Game Options 33
+Cast of Characters 34
+
+UcENsED By Dangers s
+
+NINTENDO, SUPER NINTENDO
+
+NINTENDO OF AMERICA INC. ‘BEARING THE OFFICIAL NINTENDO
+{E°1981 NINTENDO OF AMERICAINC. SEAL OF QUALITY.
+
+===== Page 3 =====
+
+IT'S A BUG'S LIFE
+
+Ants are everywhere: in the yard, in the kitchen—maybe
+even in your pants. Everywhere you go, you'll find ants: in
+the desert, on the tops of mountains, underground, even
+inside trees.
+
+You've lived with ants all your life. You've shared your
+food, your home and your planet with them. You've
+stepped on them, sprayed them, cursed them, and
+bombed them. Now you can be them!
+
+Individually, ants aren't very smart. But a colony of
+ants working together for a common goal has amazing
+survival skills, and even a level of intelligence.
+
+In SimAnt, YOU are the intelligence of an ant colony.
+YOU are the leader of the black ants (the good guys).
+Your duty is to help the colony survive and then take
+over the yard, bit by bit, then take over the house, room
+by room, and drive out those yucky humans!
+
+It won't be easy. Those nasty red ants (the bad guys)
+will stop you every chance they get. They'll steal your
+food and try to take over your territory—and that means
+war! But that’s not all—you’ll have to deal with
+bloodthirsty spiders, treacherous ant lions, careless
+human feet, murderous lawn mowers and other dangers
+too horrible to mention!
+
+Of course, there are the joys of ant life ... slimy green
+food, digging in the dirt, the danger of battle, the thrill of
+conquest, a busy social life, and fresh, yummy
+caterpillars.
+
+An ant’s work is never done...
+
+THE OBJECT(S) OF THE GAME
+
+SimAnt is actually three games.
+
+In the Full Game, your goal is to conquer the whole
+yard and house and drive out the humans.
+
+In the Scenario Game, your goal is to defeat the red
+ants (the bad guys) on eight levels, with each level
+getting harder to master.
+
+There is also a Tutorial Game. It walks you through
+all the basics of life as an ant and prepares you for the
+Scenario and Full Games.
+
+ANTFACTS
+
+© The combined weight of all the ants on earth is greater than the combined weight
+of ail the humans on earth. Considering that it takes approximately 500,000 ants
+to add up to one pound, that's a lot of ants.
+
+* Ants move more dirt and aerate more soil than earthworms. They carry plant
+material deep into the earth and enrich the soil.
+
+© The biggest ant colony found so far has 306,000,000 ants, with 1,080,000
+queens in 45,000 interconnected nests covering an area of 2.7 square
+kilometers.
+
+* Ants are humorless, merciless, fearless warriors that will attack in groups and
+
+{all insects and other animals many times their size. They'll eat anything they can
+
+catch. Why haven't ants taken over the world? Because they eat each other.
+
+‘Ants have been around for 60 million years; humans for only one million.
+
+Ants regulate the temperature, humidity and airflow within their nests.
+
+Ants capture their enemies and practice slavery and child labor.
+
+Ants are the world's strongest creatures in relation
+
+to their size.
+
+Ants use propaganda to confuse and alarm their
+
+enemies.
+
+‘Ants go to war against other ants.
+
+Ants are the longest-tiving insect.
+
+Ants practice chemical warfare.
+
+Ants raise aphids as livestock.
+
+Ants farm fungus for food.
+
+Next thing you know, ants will be playing
+video games.
+
+===== Page 4 =====
+
+PLAYING SIMANT
+GETTING STARTED
+
+To start SimAnt:
+1. Make sure that a Controller or a Super NES
+Mouse is plugged into the Super NES Port 1.
+
+2. Insert the SimAnt Game Pak.
+
+3. Turn on the power switch.
+
+‘The first thing you'll see is an animated introduction to
+SimAnt that sets the stage for the action to come. Press
+the Start button, the A button, or left mouse button when
+you are ready to end the introduction and play the game.
+
+When the introduction ends, the Main
+Menu appears. Use the Control Pad or
+mouse to highlight the game you want to
+play and press the A button or left
+mouse button to begin your life as a bug.
+
+TUTORIAL
+
+SimAnt has a built-in on-screen tutorial that walks you
+through the basics of being an ant. It provides a series of
+messages that explain how to play, and gives instructions
+for you to follow to experience life as an ant.
+
+Just select Tutorial from the Main Menu and read the
+messages as they appear. Press the A or left mouse
+button to clear the message, then follow the instructions.
+
+FULL AND SCENARIO GAMES
+
+Beyond the Tutorial, there are two types of games you
+can play: Full Games and Scenario Games.
+
+The goal of the Full Game is to eliminate the red ants
+from every section of the yard, take over the house and
+drive out the humans.
+
+The goal of the Scenario Game is to defeat the red
+ants in each of the eight levels. The level is considered
+won when you destroy the Queen of the red ant
+colony.
+
+SAVED GAMES
+
+The SimAnt Super NES Game Pak
+includes battery-backed memory so you
+can save games and return to them
+later. You can store one Full Game and
+up to four Scenario Games at a time.
+
+ANT INFORMATION
+
+Selecting Ant Information from the Main Menu opens
+the Ant Encyclopedia—a source of information on real
+ants and SimAnt game-playing strategies.
+Since SimAnt is based on real ant behavior
+and biology, the more you know about real
+ants, the better you'll do in SimAnt.
+
+When you first open the Ant Encyclo-
+pedia, the top window shows a list of
+topics, and the bottom window is empty.
+Point to a topic with the cursor and press
+the A button or left mouse button. The list
+of topics will be replaced by a picture and
+the bottom window will fill with
+fascinating, informative text. EnErauetiORy,
+
+There are a number of different pictures fms tite
+and text explanations for each topic. To fnezeReratte
+move to the next picture, activate the Next zisoee Beene
+icon. To scroll the text in the lower
+window, activate the Scroll icon.
+
+===== Page 5 =====
+
+CONTROLLING SIMANT
+
+SimAnt can be played with either the Controller or the
+Super NES Mouse.
+
+THE CONTROLLER
+
+Control Pad
+
+Control Pad—moves the cursor.
+
+L and R Buttons—change the Control Pad to leave the
+cursor where it is, but make the screen scroll.
+
+X Button—centers the Yellow Ant on the screen and
+moves the cursor to point to the Yellow Ant (in Close-up
+view only).
+
+Y Button—moves the cursor to the View icon.
+
+Start Button—ends introduction and opens Main Menu
+so you can start a game. Once play begins, the Start
+button pauses and unpauses the game.
+
+Select Button—switches between Close-up and Overview
+screens (but doesn’t change between surface and under-
+ground views).
+
+A Button—moves the Yellow Ant, makes the Yellow Ant
+dig tunnels, selects icons and commands, and selects
+menu items.
+
+B Button—makes the Yellow Ant pick up and put down
+food, eggs and rocks, cancels commands, and closes
+menus.
+
+THE SUPER NES MOUSE
+
+If you have a Super NES Mouse, plug it into
+the Super NES Port 1 before you turn the
+power on.
+
+Moving the mouse moves the cursor.
+
+The left mouse button corresponds with
+the A button on the Controller.
+
+The right mouse button corresponds
+with the B button on the Controller.
+
+In the rest of this manual, instructions for mouse
+buttons will be shown in parentheses. For example, if
+you see: Press the A(left) button, it means press the A
+button on the Controller or the left mouse button.
+
+AntFacts: ARMY ANTS
+
+Army ants are vicious, nomaiic predators that live in Africa and South
+America. Army ants don't make nests. They travel all day, attacking and eating
+anything in their way, then at night,
+they group together into a big ball
+and make a living nest out of their
+bodies. The queen, eggs, larvae and pupae
+are kept in the middle of the nest where
+‘they can be protected,
+
+‘Army ants hunt in large groups
+and can kill animals many times their own size. While Army ants have been
+known to catch and eat animals as big as monkeys or pigs, it rarely happens.
+They only eat people in the movies.
+
+===== Page 6 =====
+
+CLOSE-UP VIEW AND OVERVIEW
+
+In SimAnt, you must play the game both on the surface
+and underground. Whether above or below the ground,
+you can view the game close-up or see an overview.
+
+On the Surface Underground
+You can change views by moving the cursor to the 1
+Views icon, pressing the A(left) button to open the Views
+menu, then selecting the view you want.
+Pressing the Select button is a
+
+shortcut to switch between Close-
+up and Overview.
+
+THE CURSOR
+
+A big part of controlling SimAnt is moving a cursor,
+which looks like a pointing hand, around the screen and
+using it to:
+
+* scroll the screen
+
+* activate icons
+
+* open menus and select menu items, and
+
+* control the Yellow Ant.
+
+To move the cursor, use the Control Pad or move the
+mouse.
+
+SCROLLING THE SCREEN
+
+Moving the cursor to any edge or corner of the screen
+(with either the Control Pad or the mouse) causes the
+screen to scroll. If you hold down either the L or R
+buttons on the Controller while using the Control Pad,
+the cursor will stay where it is and the screen will
+scroll. You can scroll left-and-right, up-and-down, and
+diagonally.
+
+ICONS
+Icons act like buttons in SimAnt. To activate an icon,
+move the cursor directly over it and press either the A
+button on the Controller or the left button on the
+mouse.
+
+Most icons, when activated, open pop-up menus.
+
+MENUS AND SUBMENUS
+When menus open, the cursor will
+appear to the menu’s right. Move
+the cursor up or down to highlight
+the menu item you want, then press
+the A button on the Controller or
+the left mouse button to select it.
+
+Press the B button or the right
+mouse button to close the menu without selecting
+anything.
+
+AnTFacts: ANT BOMBS.
+
+All ants produce various chemicals, some of which are poisonous to other ants.
+Many ants spray this poison at each other in battles. cies of ant,
+Camponotus saundersi, stores up its poison in a big sac on its abdomen. In a battle,
+‘it can explode the sac and spray its enemies.
+
+===== Page 7 =====
+
+THE YELLOW ANT
+
+A big part of controlling SimAnt is controlling the Yellow
+Ant. The Yellow Ant is a very special ant ... it's YOU! The
+Yellow Ant can:
+
+* dig tunnels
+
+* find food and bring it back to the nest
+
+* leave trails that other ants can follow to food
+
+* recruit ants to help carry food, and
+
+* lead ants to battle.
+
+You control the Yellow Ant with the cursor and
+the buttons on the Controller or mouse.
+
+MOVING THE YELLOW ANT
+
+To make the Yellow Ant go somewhere, move the cursor
+where you want the ant to go and press the A(left)
+button.
+
+To make the Yellow Ant leave the nest and go to the
+surface, move the cursor to the nest exit and press the
+A(eft) button.
+
+To make the Yellow Ant enter the nest from the
+surface, move the cursor to the hole in the ground (nest
+entrance) and press the A(left) button.
+
+DIGGING TUNNELS
+While in the Nest Close-up view, if you move the cursor
+over some dirt and press the A(left) button, the Yellow
+Ant will dig its way to the cursor.
+
+PICKING THINGS UP AND PUTTING THEM DOWN
+
+If the Yellow Ant is a worker, it can pick up and carry
+food, eggs, larvae and small rocks. If it’s a soldier, it can
+pick up food and rocks. Move the cursor to the object
+you want to move and press the B(right) button and the
+Yellow Ant will pick it up. To drop the object, move the
+cursor where you want to drop it and press the B(right)
+button again.
+
+EATING
+
+If the Yellow Ant is hungry and you tell it to pick up
+food, it will eat the food. The Yellow Ant cannot eat
+food that it is carrying. It must put it down first.
+
+The Yellow Ant can also be fed by other ants in its
+colony. When it is hungry and comes into contact with
+a black ant, the black ant will feed it. If you point the
+cursor to a black ant and click the B(right) button, it
+will feed the Yellow Ant.
+
+The yellow bar at the bottom of the screen shows
+the Yellow Ant’s energy (hunger) level.
+
+ANTFACTS: TROPHALLAXIS
+
+‘Ants share food with each other—even after they've eaten it.
+
+Ants have two stomachs: one that digests their food, and one, called the crop,
+that stores extra food. When ants meet, they face each other and touch antennae. If
+one of the ants has food in its crop, it will spit up a drop of food, and pass it mouth-
+to-mouth to the other ant. This method of sharing food is called trophallaxis.
+
+Generous humans may give you the shirt off their back ... but when was the last
+‘time someone offered you the lunch from their stomach?
+
+Trophallaxis is more than just a way to share food. It is
+‘communication. As food is transferred from ant to ant, it is tainted with that ant’s
+‘odor. By the odor of the shared food, ants can tell things about the condition of the
+Colony, like the ratio of soldiers to workers. If the queen dies, all the ants in the
+Colony will know it very quickly because her “flavor” will be missing from the food.
+
+===== Page 8 =====
+
+ATTACKING RED ANTS
+To make the Yellow Ant attack a red ant, point to it with
+the cursor and press the B (right) button.
+
+LEAVING FOOD SCENT TRAILS.
+Any time the Yellow Ant (or any ant, for that matter)
+carries food, it leaves a food scent trail behind it. Other
+ants can follow the trail to food.
+
+RECRUITING AND RELEASING
+
+The Yellow Ant is a leader. When it
+needs a lot of ant power to bring
+home food or attack an enemy, it
+can “recruit” the help of the workers
+and soldiers of the black nest. When
+ants are recruited, they rush to the Yellow Ant and
+surround it. While recruited, they won't pick up food, but
+they will attack any enemy (red ants, spiders, etc.) that
+‘comes near.
+
+To recruit help, move the cursor over the Yellow Ant
+and press the B(right) button. A menu will open. Move
+the cursor to highlight the menu choice, then press the
+A(left) button. Pressing the B(right) button while the
+menu is open will cancel and close the menu.
+
+By selecting the various menu items, you can recruit 5,
+10, or all the black ants. You can also release either 1/2 of
+the recruited ants, or all of them.
+
+A good foraging technique is to,recruit some ants and
+lead them to food, then release them. They will pick up
+food and carry it back to the nest.
+
+ANTFacTs: COMMUNICATION
+
+Ants communicate with each other all the time. The main way they send
+information is by releasing chemical scents. Some ants also communicate with
+‘sounds and by touching, but by far most communication is chemical. The way they
+receive information from chemicals is by smelling with their antennae.
+
+Ants send out and receive many chemical messages, including:
+
+This way home. °° This way to food.
+© Alarmit ¢ Fma friend.
+© Come with me. * Fma worker (or soldier, or queen, etc.).
+
+They don’t send and receive the actual words in the messages above, but the
+‘meaning is the same.
+
+A big difference between humans and ants is that when we receive a message
+from someone, we can think about it and ignore it—ants can't. When they smell a
+Chemical message they instinctively obey right away.
+
+DEATH AND REBIRTH
+When the Yellow Ant dies, it is reborn as the next egg
+laid by the black queen. Once the egg hatches, a menu
+will open and let you choose whether the Yellow Ant
+becomes a worker, a soldier or a breeder.
+
+In a Full Game, the Yellow Ant has unlimited lives. In
+a Scenario Game it only has three lives for each level.
+Use them wisely.
+
+THE YELLOW ANT AS A QUEEN
+In a Full Game, there are times when the Yellow Ant is
+a new queen that has just landed after the mating
+flight. A new queen has a special duties to perform:
+she must dig a new nest, then start to lay eggs.
+If you move the cursor to the Yellow Queen
+and press the B(right) button, a special menu
+will open that will let you dig a new nest and
+begin to lay eggs.
+
+===== Page 9 =====
+
+THE CONTROL PANELS
+
+In addition to using the Yellow Ant, there are two control
+panels that let you control the ants in your colony. They
+can be opened by activating the Control Panel icon.
+
+THE BEHAVIOR CONTROL PANEL
+
+This control panel lets you divide | Behavior Conwral
+
+up your colony’s workforce
+
+between three jobs:
+Foraging—finding food and
+bringing it back to the nest,
+and defending the home turf.
+Digging—increasing the size of
+the underground nest.
+Nursing—caring for the eggs,
+larvae and pupae, and feeding
+the queen.
+
+This control panel has three icon buttons and a
+triangle-shaped “joystick”.
+
+Activate the Auto icon, and the black ants’ behavior
+will automatically be adjusted according to the colony's
+needs.
+
+Activate the Manu (manual) icon and you can fine-tune
+the colony's behavior yourself.
+
+Once in manual mode, you can adjust the black ants’
+behavior by moving the cross that is somewhere in the
+triangle. To move the cross, place the cursor where you
+want the cross to move to, and press the A(left) button.
+You can also drag the cross around by putting the cursor
+over the cross, pressing and holding the A(left) button,
+then moving the cursor while the button is still down.
+
+The numbers next to Dig, Forage and Nurse show the
+percentage of your colony that is busy with each job. If
+you point to any of the numbers and press the A(left)
+button, they will change to the actual number of ants
+busy with each job. Press the A(left) button again to
+return to the percentage display.
+
+Activating the Exit icon closes the control panel and
+returns you to the game. You can also close the
+Behavior Control Panel and return to the game by
+pressing the B(right) button.
+
+ANTFACTS: FORAGING AND NURSING
+
+Foraging is finding food—and bringing it hack safely. When ants look for food,
+‘they follow different patterns to cover the territory. When they find something, and
+they can carry it home, they do. If it is too big, or if there is too much to carry,
+they take back as much as they can, and get help. Whenever an ant heads for home
+‘while carrying food, it will instinctively bump its rear end on the ground and leave a
+chemical trail. Other ants can follow the scent of the trail to food.
+
+‘Nursing is a very important ant job. Nurses feed, clean and care for the queen.
+They take the eggs she lays and move them to nursery chambers. Nurses clean and
+protect the eggs. They lick them and cover them with saliva, which kills harmful
+fungus.
+
+When eggs hatch into larvae, the nurses have to work even harder, trying to
+feed the larvae enough food so they will be able to store up enough energy to
+Complete their pupa stage. Once the larvae pupate (turn into pupae) the nurses
+don't have to feed them any more, but they do have to protect them and move them
+around.
+
+Eggs, larvae and pupae will die if they get too hot or too cold, so nurses carry
+‘them around the nest all day, trom chamber to chamber, to keep them at the right
+
+===== Page 10 =====
+
+THE CASTE CONTROL PANEL
+
+This control panel lets you decide what types, or
+
+“castes,” of ants will be born in the black ant colony. It is
+
+controlled in the same way as the Behavior Control
+
+Panel. The three castes are:
+Workers—small but hard-
+working ants that forage, dig,
+nurse—and fight.
+Soldiers—larger than workers,
+they use more energy and
+require more food than
+workers. They do all the same [TRRCRREESY Esc dtere
+jobs as workers (except nurse),
+but are better fighters.
+Breeders—large but lazy,
+breeders have wings. They
+don’t do any work—they exist only to reproduce
+and create new colonies. Breeders are necessary in
+Full Games to expand into new territory and make
+new nests, but are a total waste of energy in
+Scenario Games.
+
+The numbers next to the Workers, Breeders and
+Soldiers show the percentage of your colony that is a
+member of each caste. If you point to any of the numbers
+and press A(left) button, they will change to the actual
+number of ants in each caste. Press the A(left) button
+again to return to the percentage display.
+
+37%
+
+ANTFACTS: THE INDIVIDUAL ANT
+
+Other than the queen, an individual ant is not very important. Losing a single ant
+(or two) is no big deal to a colony, and hurts about as much as trimming a fingernail
+hurts you. All ant behavior is geared to ensure the survival of the colony. Since
+ants have no fear, they don’t hesitate sacrificing their lives if it helps the colony.
+
+‘Some people think of an entire ant colony as one living organism, with each ant
+‘the equivalent of a single cell.
+
+AnTFAcTs: CASTES
+
+Not only do ants have different jobs, they have different body shapes and sizes.
+‘These different types of ants within a single species are called castes. The main ant
+castes are: Queen, Male, Worker and Soldier.
+
+Queens are fertile females that, once a colony is begun, do very little but lay
+eggs. There is usually only one queen per colony, but there can be more in some
+species. New Queens have wings that they use once, on their mating flight. After
+the one flight, the wings fall off.
+
+Males are the shortest-lived caste, sometimes only living a few weeks. Males do
+‘no work. They live for one reason: to go on a mating flight and fertilize queens.
+
+Workers are sterile females and are the most common ants in any colony. They
+perform all jobs in the colony including nursing, digging, fighting and foraging, but
+‘they don't go on mating flights or lay eggs.
+
+Soldiers are the same as Workers only larger. They have big heads and strong
+Jaws and are good fighters.
+
+===== Page 11 =====
+
+PLAYING THE FULL GAME
+
+The Full Game involves not only battles with red ants and
+attacks from spiders, lawn mowers and human feet, but
+also strategic placement and nurturing of new black ant
+colonies.
+
+THE GOAL
+
+The goal of the Full Game is to eliminate the red ants
+from every section of the yard, take over the house and
+drive out the humans.
+
+THE SETTING
+The house and yard are divided into 49 areas. You must
+take over and colonize all of the areas to win.
+
+BEGINNING THE FULL GAME
+Select Full Game from the Main Menu.
+
+‘The game begins with a Yellow Queen that has just
+landed after her mating flight. Her first duty is to dig a
+new nest for the colony. After that, she must begin to lay
+eggs.
+
+Move the Yellow Queen to a clear spot on
+the ground, point to her with the cursor, and
+press the B(right) button. When the menu
+opens, select Dig New Nest. Next, dig out a
+small nest, open the menu again, and select Lay
+Eggs.
+
+The first egg that hatches will become the Yellow
+Ant as a worker. The Yellow Ant must now forage and
+bring as much food as possible back to the nest. As
+soon as other ants hatch, recruit them to help.
+
+EXPANDING YOUR TERRITORY
+
+To win the Full Game, you must take over all 49
+sections of the yard. There are two ways to expand
+into new territory: mating flights and mass exodus.
+
+‘A Mating Flight occurs when a colony's population
+reaches 100 with 20 breeders (winged ants). The
+breeders fly off to mate, and the new queens land in
+nearby sections of the yard or house and begin new
+nests.
+
+A Mass Exodus occurs when the colony’s total
+population reaches 250. Because of overcrowding, the
+Queen will move to a new section of the yard and start
+anew nest.
+
+MOVING FROM SECTION
+
+TO SECTION
+
+During the Full Game, you can move to any section of
+the yard or house where there is a black ant colony.
+You will need to help each colony find food, lead them
+into battle, and adjust the control panels.
+
+Activate the Evaluation icon, and select House.
+Sections of the yard that are black have
+black ant colonies in them. Sections of the
+yard that are red have red ant colonies in
+them. Sections of the yard that have both
+red and black colonies in them are striped.
+‘The section that you are currently in will be
+flashing.
+
+Click on the section you want to move to.
+Remember: you can only move to sections
+that already have a black colony.
+
+===== Page 12 =====
+
+FULL GAME STRATEGIES
+The best strategy is to gather as much food as possible,
+increase your population as quickly as possible, and
+expand to new territory as soon as you can.
+Always keep an eye on the
+information at the bottom of the Black Population Red Population
+screen. You'll see a running tally
+of the populations of both col-
+lonlegy Hneshealth/enersyiiocd Yellow Ant Lives IRed Colony
+level of both colonies, and the Beng Lee!
+Yellow Ant’s hunger/energy level.
+The Full Game can be saved at
+any time. It is a good idea to save
+the game before trying a daring tactic or risky attack, so
+you can go back and try something else if it doesn’t work.
+See Loading and Saving Games in the Reference
+section below.
+Make use of the screens that are opened by activating
+the Evaluation icon:
+
+Yellow Ant Energy Level
+Black Colony Energy Level
+
+The House Screen, especially the Population
+Graphs, gives you a good report of the black
+colony's success in a Full Game.
+
+The History Screen displays graphs of vital
+information that could help you make better
+strategic decisions.
+
+The Status Screen gives you information on the
+
+black ants and how well they are doing against the
+red ants.
+
+Even though the Yellow Ant has unlimited lives in a
+Full Game, don't be careless. If the Yellow Ant dies during
+an attack, all the recruited black ants will disperse and
+the battle will be lost.
+
+PLAYING THE SCENARIO GAME
+
+The Scenario Game is a series of eight levels, each of
+which is a battle with the red ants, You must complete
+a level before you can play the next one. Each level
+gets more difficult.
+
+THE GOAL
+
+The goal of the Scenario Game is to defeat the red ants
+in each of the eight levels. The level is considered won
+when you destroy the Queen of the red ant colony.
+
+THE SETTING
+
+Scenario Games have eight levels, each with a different
+setting. Each setting provides new scenery, new
+challenges and new difficulty.
+
+BEGINNING THE SCENARIO GAME
+Select Scenario Game from the Main Menu. In a
+Scenario Game, the Yellow Ant only has three lives for
+each level. Use them wisely—when they are gone, the
+game is lost.
+
+AnTFacts: ANTS AS RANCHERS
+
+Aphids are insects that attach themselves to plants and suck sap. They suck
+more than they need, and the extra sap, called “honeydew,” is squirted out their
+Pears. Ants gather the sap for food. Some ants even “milk” aphids to get the
+honeydew. In return for the food, the ants protect the aphids from other insects,
+especially ladybugs and spiders. They will also remove and eat caterpillars that
+compete with the aphids for food.
+
+===== Page 13 =====
+
+LEVEL 1: SPRING—IN THE PARK
+This is the easi level. Use it to practice collecting
+food, and recruiting and releasing ants.
+
+LEVEL 2: SPRING—IN THE GARDEN
+This level is also fairly easy, but there are flower pots
+that will block your ants’ paths and confuse them.
+Show your leadership abilities.
+
+LEVEL 3: RAINY SEASON—IN THE YARD.
+
+There's a lot of rain in this level, and it will wash away
+scent trails, making it hard to collect food. You will
+also face the possibility of drowning if you dig your
+nest too deep.
+
+LEVEL 4: SUMMER—IN THE HOUSE
+Be careful of spiders and the cat. Watch out for the
+electric outlet, and don't get lost.
+
+LEVEL 5: SUMMER—ON THE ROAD
+Watch for bicycle traffic when you cross the road.
+Because of the heat, you will lose energy quickly, so
+carry food with you wherever you go.
+
+LEVEL 6: SUMMER—BY THE RIVER
+
+Your ants will have difficulty bringing home food
+because of deep crevices. Try building bridges with
+pebbles over them. Food will be scarce, so don’t miss
+your chances to catch and eat spiders and caterpillars.
+
+LEVEL 7: END OF SUMMER—UNDER THE PORCH
+
+All the food is over near the red ant nest, so you will
+have to move quickly and quietly. Watch for falling
+objects.
+
+aaa ae
+LEVEL 8: AUTUMN—IN THE WOODS
+Food is everywhere, so you should concentrate more
+on obstructing the red ants than hoarding grub. Try
+blocking the entrances to the red ant nest with stones.
+
+ee
+
+AntFacts: THE Lire Cycle OF THE ANT
+
+Ants go through four stages of life: egg, larva, pupa and adult.
+
+All eggs in the colony are laid by the queen. She may lay from ten to
+hundreds of eggs every day. Eggs are cleaned and protected by nurse ants.
+
+‘After a few weeks, the eggs hatch into larvae. The larvae do nothing but eat,
+storing up energy for the next stage of lite.
+
+After a few more weeks, the larvae spin silk cocoons around themselves and
+become pupae. Inside the cocoon, the larvae change into adult ants. When you
+disturb an ant’s nest you will see many ants carrying white things to safety. These
+aren't eggs—they're pupae. Ant eggs are so small that you can barely see them
+without a magnifying glass.
+
+After a few more weeks, the cocoon breaks open from the inside and a full-
+‘grown adult ant emerges.
+
+===== Page 14 =====
+
+REFERENCE
+
+This section of the manual explains everything about
+SimAnt that isn’t already covered in Controlling SimAnt
+above.
+
+At most times while playing SimAnt, the Icon Menu will
+be visible. To activate the icons, point to them with the
+cursor and press the A(left) button.
+
+View icon—lets you change your view of the game
+between Overviews and Close-ups both above and
+below the ground.
+
+Scent Display icon—lets you see the chemical
+scents that ants use to communicate.
+
+Control Panel icon—lets you access the Behavior
+and Caste Control Panels.
+
+Save/Exit icon—lets you Save Full Games and Exit
+the current game and return to the Main Menu.
+Evaluation Screen icon—lets you access the House
+Screen and Population Graph, the History Graph and
+the Status screen in Full and Tutorial games only.
+
+Options icon—lets you set some gameplay options,
+including sounds and speed.
+
+Once an icon has been activated, a submenu will open.
+Point to the menu item you want and press the A(left)
+button to choose it.
+
+Press the B(right) button to close a submenu without
+choosing anything.
+
+VIEWS gq
+The Views icon lets you choose
+
+how you want to view the ant world.
+
+Surface Overview—the whole Surface Close-up—a zoomed-in
+section of the yard. view of a part of the yard section.
+
+Somewhere in each Overview is a red
+rectangle that outlines the area that will show in
+the Close-up view.
+
+In the upper-right corner of each Close-up 5
+view is a mini-map of the Overview. It Seriya
+consists of two rectangles and a yellow dot.
+
+The outer rectangle represents the whole TA eaneetn a
+yard section. The inner rectangle shows ‘iew of both nests.
+where the current area in the Close-up view
+
+is located in the yard section. The yellow
+
+dot shows the location of the Yellow Ant.
+At the bottom of each Close-up view is
+information on the population and health
+levels of both the red and black colonies, as.
+well as the Yellow Ant’s energy/hunger level
+a
+
+and remaining lives.
+At the bottom of each Overview is a Bi Nest Cheap
+R. Nest Close-up—
+census report showing how many pupae R-Nest\Coveups
+and how many of each ant caste the two either the black or red
+
+colonies have. colonies’ nests.
+
+===== Page 15 =====
+
+SCENTS
+
+The Scent Display icon lets you turn on and off the
+display of the chemical scents that ants use to
+communicate. When scents are turned off, only the visual
+display is turned off—the scents are still there for the
+ants. Only one scent can be displayed at a time.
+
+The scents you can view are:
+Black Nest—the scent that lets black ants find their
+home.
+
+Red Nest—the scent that lets red ants find their
+home.
+
+Black Trail—the scent that black ants can follow to
+food.
+
+Red Trail—the scent that red ants can follow to
+food.
+
+Hide Scent—removes the scent displays from the
+screen, but leaves them in the game for the ants.
+
+In the Overviews, when scents are activated, the
+census information at the bottom of the screen is
+replaced by a color key to help you interpret the strength
+of the scent.
+
+CONTROL PANELS
+
+The Control Panel icon lets you open
+the Behavior Control Panel and the
+Caste Control Panel. For details, see
+Playing SimAnt above.
+
+Z)
+© Ocelli (small eyes) for seeing light and dark, and Mandibles
+© Abrain, which is quite big (for an insect). ‘Antenna
+
+The thorax is the middle of the ant. 5
+All six legs attach here. Each leg S25 pi
+‘has a hook on it that ants use like
+
+a comb to clean their antennae and legs.
+
+‘The rear of the ant is the abdomen. It contains the
+ant's digestive system, and the crop (shared food
+stomach). The abdomen also contains glands that
+
+===== Page 16 =====
+
+LOADING AND SAVING GAMES
+
+The SimAnt Game Pak has battery-backed memory that
+will let you save your place in one Full Game and four
+Scenario Games even if you turn off your Super NES and
+remove the Game Pak.
+
+LOADING SAVED GAMES
+
+Pun Gane
+To load a previously saved game, select Saved
+Game from the Main Menu, then select the game
+
+you want to play.
+
+SAVING GAMES
+You can save a Full Game at any time by activating the
+Save/Exit icon, selecting Save, then selecting Yes.
+Only one Full Game can be stored in memory at a time.
+You can only save Scenario Games immediately after
+you complete a level. When you complete a level, you will
+be asked if you want to save the game. If you do, select
+one of the four memory locations reserved for Scenario
+Games, then press the A(left) button. If you don’t want to
+save, press the B(right) button.
+
+AnTFacts: ANTS AS FooD
+
+The three Evaluation Screens are available through the
+Evaluation icon.
+
+HOUSE/POPULATION GRAPH
+SCREEN
+
+The House Screen shows the whole yard and house—
+the entire playing field of the Full Game. It consists of
+49 sections, each of which must be colonized to win
+the game. The House Screen isn’t available in a
+Scenario Game.
+
+The areas of the house and yard that are shown as
+black contain a black ant colony. Red areas contain a
+red ant colony. The red and black striped areas
+contain both a red and black colony. Green areas have
+no ant colonies.
+
+The area that is flashing is the one that is
+currently being played. To change areas, click on
+the one where you want to go. You can only
+change to an area that already has a black colony
+or a recently landed black New Queen.
+
+In the upper-right corner of the House Screen is a
+tally of the number of yard sections that are occupied
+by the red and black ants.
+
+At the bottom of the screen is a message box. Keep
+an eye on it for hints and warnings.
+
+Some humans eat ants. Some South American natives like to eat winged fungus-
+‘growing ants, raw or toasted. In Africa, the queens of a species called Carebara
+are eaten raw or cooked. California Indians have been known to eat the larvae and
+adult carpenter ants; they bite off and throw away the heads and swallow the
+bodies. Honey ants are considered a delicacy in parts of Australia, North America
+and Mexico. Some people in Mexico have fermented honey ants to make an alcoholic
+drink,
+
+===== Page 17 =====
+
+In the upper-left corner of the screen are three icons:
+House icon—shows the inside of the house and
+returns you to the House Screen from the
+Population Graph Screen.
+
+Population Graph icon—changes the House Screen
+into the Population Graph screen. Repeatedly
+activating this icon steps you through the yard,
+displaying one row of graphs at a time. (So you can
+see graphs that may be hidden behind others.)
+
+Exit icon—closes the House Screen and returns you
+to the game. You can also press the B(right) button
+to leave the House Screen.
+
+ANTFAcTS: WEAVER ANTS
+
+HISTORY GRAPH
+
+The History Graph shows how different
+factors in the game change over time. The
+graphs only apply to the colony that is
+currently being played (where the Yellow
+Ant is). Checking this graph every so often
+and watching the trends in food and
+population can help you make long-range
+strategic plans.
+
+To display a graph, point to the graph’s name at the
+bottom of the screen and press the A(left) button.
+Repeat the process to turn a graph off. Only four
+graphs can be displayed at a time.
+
+The different items that can be shown in the History
+Graph are:
+
+B. Pop: black ant total population
+
+R. Pop: red ant total population
+
+B. Hith: the health of the black colony
+R. Hith: the health of the red colony
+
+B, Food: the amount of food stored by the
+black colony
+
+R. Food: the amount of food stored by the
+
+Weaver ants live in Africa, india and Australia. They make their nests in trees by
+‘sewing together leaves. Hundreds of Weavers make chains of their bodies that
+stretch from leaf to leaf, and then they pull the leaves together until they touch. To
+hold the leaves together, they use the silk that larvae produce to weave their
+
+red colony
+
+Food: _ the total amount of food available in
+the yard section
+
+cocoons. The workers sew the leaves together by holding the larvae in their Eaten: the number of black ants eaten by
+‘mandibles and moving them hack and forth,
+
+spiders and ant lions
+Starve: the number of black ants that starved
+to death
+Killed: the number of black ants that died in
+battles with the red ants
+Select EXIT, or press the B(right) button to
+leave the History Graph and return to the game.
+
+addition to this use of child labor, Weaver
+ants are very vicious. If you even bump a
+‘tree where they live, hundreds of workers
+and soldiers will attack and bite you.
+
+===== Page 18 =====
+
+STATUS SCREEN
+‘The Status Screen is opened by activiating
+the Evaluation icon and selecting Status. It
+gives vital statistics about the colony Eaetisehed
+containing the Yellow Ant. Bericheier
+Colony Health—the health rating for
+the black ant colony that is currently
+being played (the one containing the Sia
+Yellow Ant).
+Foraging—the amount of food brought home by the
+black ants as a percentage of all the food brought
+home by both red and black ants.
+Eggs Hatched—the percentage of eggs that
+successfully hatched in the current black colony.
+(Eggs only hatch if the colony has enough food.)
+Fights Won—the percentage of fights won by the
+black ants.
+B.Ant’s Occupation—the percentage of the yard
+that is occupied by the black ants.
+R.Ant’s Occupation—the percentage of the yard
+that is occupied by the red ants.
+Press the B(right) button to leave the Status Screen
+and return to the game.
+
+Colony Health =
+Foraging
+
+B:Ane’s occupation
+
+R.flnt’s occupation
+
+ANTFABLES: AMERICAN ANT FOLKLORE
+
+Here are some things people used to believe about ants:
+
+ants are seen in your house on Christmas, it is a sign that bad luck will come.
+To step on an ant is bad luck. (Well, it is for the ant!)
+
+if you see a red ant and a black ant fighting, and the red ant wins, then you will win
+any challenge you attempt. (But not in SimAnt.)
+
+Mt you step on an ant, it will rain within the next day.
+‘you kill seven ants in a row, there is sure to be rain,
+
+To cure warts, rub a piece of fatty meat on it, and throw the meat to the ants.
+‘I you find ants in your house, it is a sign you will move.
+Mf you have ants in your kitchen, put coffee grounds outside the kitchen steps to
+{cll them.
+‘you draw a chalk line, ants won't cross It.
+
+SETTING GAME OPTIONS
+
+‘There are three gameplay options that you can set in
+SimAnt: Sound, Mouse and Speed.
+
+SOUND
+
+When you select Sound from the Options Menu, you
+get two choices: Music (background music) and SFX
+(sound effects), Select either of these, and you will see
+yet another menu, Select Off to turn the sound off.
+Select On to turn it on.
+
+MOUSE
+
+If you have a Super NES Mouse, you can adjust the way
+the cursor moves when you move the mouse. There
+are three settings: Slow, Normal, and Fast. The faster
+the setting, the more the cursor moves for a given
+amount of mouse movement.
+
+SPEED
+
+This option lets you adjust the speed of the SimAnt
+simulation. There are three speeds: Fast, Normal and
+Slow, plus Pause, which stops time completely. You
+may want pause the game for a good think every so
+often, and beginners may want to run the game slowly
+until they get the hang of being an ant.
+
+===== Page 19 =====
+
+CAST OF CHARACTERS
+
+These are most of the characters that you will meet while
+playing SimAnt. There are others—if you don't find them,
+they'll find you.
+
+The Yellow Ant is you. It is your main tool to control
+and lead the black ant colony.
+
+The Queen Ant is the only ant that lays eggs. There is
+one Queen per colony. When the Queen dies, the colony
+dies.
+
+Worker Ants gather food, dig tunnels and nurse the
+young. They are not as good in a fight as a Soldier, but
+they need less energy to survive.
+
+Soldier Ants do the same jobs as Workers-except
+nursing-they're better in a fight. They eat more than
+Workers.
+
+Breeders (Winged Ants) do no work, but when the
+population reaches 100 with 20 breeders, they will go on
+a mating flight and expand the colony to a new area.
+
+The Spider wanders around and eats ants. There is
+one Spider in each section of the house and yard. If you
+recruit enough help, you can capture and eat the Spider.
+
+Ant Lions are the sneaky larvae of an insect that is
+related to the dragonfly. They hide underground at the
+bottom of small pits. If an ant wanders into the pit it will
+be eaten. If you lose too many ants to an ant lion, try
+building a wall around it with rocks.
+
+Caterpillars are harmless, but delicious. If you recruit
+about 15 ants you can capture them and have a delicious,
+nutritious meal.
+
+Yellow Ant
+
+Soldier Ants
+
+=.
+
+= ut
+Zi
+
+Breeders
+
+Spider
+
+AntQuores: WHAT PEOPLE SAY ABOUT ANTS
+
+‘As a thinker and a planner the ant is the equal of any savage race of men; as a self-
+educated specialist in several arts she is the superior of any savage race of men;
+‘and in one or two high mental qualities she is above the reach of any man, savage
+or civilized.
+— Mark Twain, What ts Man?
+‘None preaches better than the ant, and she says nothing.
+— Benjamin Franklin, Poor Richard's Almanac
+We'll set thee to school to an ant, to teach thee there's no labouring i’ the winter.
+— Shakespeare, King Lear act 2, scene 4
+Go to the ant, thou sluggard, consider her ways and be wise;
+‘Which having no guide, overseer, or ruler,
+Provideth her meat in the summer and gathereth her food in the harvest.
+— Proverhs 6:6-8
+The age of great men is going; the epoch of the ant-hill, of lite in multiplicity, is
+beginning.
+— Amiel, Journal, 6 Sept. 1851
+‘An ant is a wise creature for itself but it is a shrewd thing in an orchard or
+garden.
+
+— Francis Bacon, Of Wisdom for a Man's Self
+
+They taste salty.
+— Cassidy Wright
+
+ANTFACTS: GUS FARMERS—LEAFCUTTER
+
+Leafcutter ants are the farmers of the ant world.
+They hollow out huge underground nests and grow
+their own food beneath the surface.
+
+Leafcutters go on raids and cut up and bring back
+all the green plant matter they can find. Once in
+the nest, they chew up the leaves, but don’t eat
+them. They use them as fertilizer to grow a
+‘special kind of fungus that is the only food they can eat.
+
+===== Page 20 =====
+
+Besides red ants and spiders, here are a few dangers
+to watch for.
+
+Rain washes away nest scents and food trails. It will
+also drown ants that are deep underground.
+
+Human Feet squash any ants they happen to land on.
+
+Lawn Mowers are very nasty from an ant’s point of
+view. They grind up and blow away 1/4 of all the ants
+they contact.
+
+Snails don’t attack anything, but their slime will wash
+away nest and food trail scents.
+
+Cat's Paws are smaller than human feet, but they're
+big enough to squash an ant. Watch out.
+
+Bicycle Tires will occasionally run over a few ants.
+
+Hands of cruel, careless children may squash ants.
+
+Original Concept and Design: Will Wright and Justin McCormick
+Japan
+
+Conversion by: TOMCAT SYSTEMS
+
+Programming: Ryouichi Ookubo, Taku Yoshida
+
+Graphics: Yuichiro Komoriya, Kotomi Nakamaru
+
+Sound Programming: Kazunari Mimura
+
+Music Composition: Takamine Ookubo
+
+USA.
+Producer: Don “Antennas” Walters
+Screen Text and Manual: Michael “Myrmechophile” Bremer
+
+Manual Design and Layout: Vera “The Queen” Jaye, Kristine “The
+Worker” Brogno
+QA: Allan “Brood” Barton and the Soldiers of Testing—Roger
+“Replete” Johnsen (lead tester), Manny “Mandibles” Granillo, Chris
+“The Crop” Weiss, Don “Honeydew” Horat
+Marketing: Beckie “Ocelli” O'Brien
+Package Design: Davison Design
+Contributions by: “Trophallaxis” Tom Bentley, Debra “Larva” Larson
+Special Thanks to: Jeff Braun, Joe Scirica, Akifumi Kodama, Joe
+Hyunil Shim, Tony Mizukami, Michael Perry, Rusel deMaria, Ocean
+yy Quigley
+
+The Maxis Guarantee
+We want you to be happy. We do our best to make software that is both fun and trouble-
+free, but if there is a problem, let us know.
+
+90-Day Limited Warranty
+
+Maxis (Sim-Business) warrants to the original purchaser that this product shall be free
+from defects in material and workmanship for a period of 90 days from the date of
+purchase. If a defect covered by this warranty occurs during this 90-day period, Maxis
+will repair or replace the game pak, at its option, free of charge.
+
+To receive this warranty service, return the defective game pak, along with a dated
+proof of purchase, and your name and address to:
+
+Maxis Customer Service
+
+2 Theatre Square, Suite 230, Orinda, CA 94563-3346
+
+Telephone 1-800-336-2947 (1-800-33-MAXIS) (M-F 6:00 a.m. - 6:00 pm PST)
+Fax 510-253-3736
+
+Warranty Limitations
+ANY APPLICABLE IMPLIED WARRANTIES, INCLUDING WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE HEREBY
+LIMITED TO NINETY DAYS FROM THE DATE OF PURCHASE AND ARE SUBJECT
+TO THE CONDITIONS SET FORTH HEREIN. IN NO EVENT SHALL MAXIS BE
+LIABLE FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES RESULTING FROM
+THE BREACH OF ANY EXPRESS OR IMPLIED WARRANTIES.
+
+The provisions of this warranty are valid in the United States and Canada only.
+Some states / provinces do not allow limitations on how long an implied warranty lasts or
+‘exclusion of consequential or incidental damages so the above limitations and exclusions
+may not apply to you. This warranty gives you specific legal rights, and you may also
+have other rights which vary between states/provinces.
+
+===== Page 21 =====
+
+MIAX!IS
+
+Maxis
+2 Theatre Square
+
+Suite 230 Orinda, CA
+
+94563-3346
+
+Main 510-254-9700
+
+Fax 510-253-3736 PRINTED INAPAN

@@ -1,0 +1,865 @@
+# Brawl Brothers
+source: https://archive.org/details/snes_manual_archive
+pdf: Brawl Brothers (USA).pdf
+region: USA
+pages: 12
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+‘SNS-RE-USA
+
+™
+
+Watch for new Jaleco video games for the Super Nintendo |
+Entertainment System ® in coming months. And
+remember, Jaleco makes great video games for the
+Nintendo Entertainment System © and the
+Nintendo Game Boy © as well!
+
+JALECO USA INC.
+
+685 Chaddick Drive
+Wheeling, IL 60090
+
+(708) 215-1811 (Main Office)
+(708) 215-2359 (Game Help)
+
+Jaleco ®, the Jaleco logo, and Brawl Brothers ™ are -
+registered trademarks and trademarks, respectively, of 7
+Jaleco USA Inc. Nintendo ®, Super Nintendo Entertainment INSTRUCTION BOOKLET
+System ®, Nintendo Entertainment System ® and Nintendo
+Game Boy © are registered trademarks of Nintendo of
+America Inc. © 1993 Jaleco USA Inc. All rights reserved.
+
+Printed in Japan.
+
+|
+
+===== Page 2 =====
+
+JALECO® USA INC. LIMITED WARRANTY
+
+Jaleco USA Inc. warrants to the original purchaser of this Jaleco software product that the
+medium on which this computer program is recorded is free from defects in materials and
+workmanship for a period of ninety (90) days from the date of purchase. This Jaleco
+software program is sold “as is,” without express or implied warranty of any kind, and
+Jaleco is not liable for any losses or damages of any kind resulting from use of this
+program. Jaleco agrees for a period of ninety (90) days to either repair or replace, at its
+option, free of charge, any Jaleco software product, postage paid, with proof of date of
+purchase, at its Factory Service Center.
+
+This warranty is not applicable to normal wear and tear. This warranty shall not be
+applicable and shall be void if the defect in the Jaleco software product has arisen through
+abuse, unreasonable use, mistreatment, or neglect. THIS WARRANTY IS IN LIEU OF ALL
+OTHER WARRANTIES AND NO OTHER REPRESENTATIONS OR CLAIMS OF ANY
+NATURE SHALL BE BINDING ON OR OBLIGATE JALECO. ANY IMPLIED
+WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT, INCLUDING
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE LIMITED TO THE NINETY (90) DAY PERIOD DESCRIBED ABOVE. IN NO EVENT
+WILL JALECO BE LIABLE FOR ANY SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES RESULTING FROM POSSESSION, USE, OR MALFUNCTION OF THIS.
+JALECO SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an implied warranty lasts and/or
+exclusions or limitations of incidental or consequential damages so the above limitations
+and/or exclusions of liability may not apply to you. This warranty gives you specific rights.
+and you may also have other rights which vary from state to state.
+
+Nintendo®, Super Nintendo
+Entertainment System, Super NES,
+and SNES are registered trademarks
+and trademarks, respectively, of
+Nintendo of America Inc. Jaleco) and
+the Jaleco logo are registered
+trademarks of Jaleco USA Inc
+
+Brawl Brothers ™ & © 1993 Jaleco.
+Alll rights reserved.
+
+LICENSED BY
+
+Seal of Qual
+
+This official seal is your assurance that
+Nintendo® has approved the quality of this
+product. Always look for this seal when
+buying games and accessories to ensure
+complete compatibility with your Super
+Nintendo Entertainment System. All
+Nintendo products are licensed by sale for
+use only with other authorized products
+bearing the Official Nintendo Seal of Quali
+
+JALECO USA INC.
+685 Chaddick Drive
+Wheeling, Illinois 60090
+(708) 215-1811
+
+WHY SHOULD YOU JOIN THE
+JALECO MAJOR PLAYER’S CLUB?
+
+Here's
+
+Here's
+
+what you get if you join
+
+WIN FREE GAMES
+
+You'll be eligible to win free Jaleco games from our
+once-a-month drawings!
+
+FIND OUT ABOUT NEW GAMES.
+
+Find out about new Jaleco games before they're
+released! Get in on special Jaleco promotions and
+contests! And more!
+
+TEST GAMES BEFORE THEY’RE RELEASED
+Hey, maybe we'll even ask a few of you if you'd
+like to test Jaleco games before they're released!
+You could be selected as a Jaleco Major Player!
+
+what you get if you don’t join
+
+YOU GET NUTTIN’ IF YOU DON’T JOIN!
+
+And there's only one way you can get in on all this
+good stuff — and all it's going to cost you is a few
+moments of your time and the price of a postage
+stamp!
+
+Here’s how to join
+
+.
+
+That's right, all you gotta do is fill out the card, mail it to us, and
+you're in! Even if you’ve joined before, fill out the card and
+
+Find the JalecoMajor Player's Membership/
+
+Warranty card
+
+enclosed in this package.
+
+Fill in the information requested on the card.
+Put a stamp on the card.
+
+Drop the card in the mail.
+
+send it again. It will increase your chances of winning!
+Welcome to the club!
+
+===== Page 3 =====
+
+TABLE OF CONTENTS
+INTRODUCTION Se
+QBUECTIOF THE GAME isic..cscsssiessscaeectncosmamensin 6
+GETTING STARTED 7
+OPTIONS 9
+CONTROLLER FUNCTIONS 1
+ON-SCREEN DISPLAYS eeapeerarmcmscre
+SCORING scestscsccaivasssssve a 16
+SPECIAL ITEMS....... ee |
+THE STAGES.......... 17
+
+GAME TIPS — THE JALECO
+MAJOR PLAYER'S HOTLINE. >>>>>>>>>>>>>>>>>>>> 19
+
+TAKING CARE OF YOUR JALECO GAME>>>>>>>>>>> 20
+
+WARNING: PLEASE READ THE CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET
+INCLUDED WITH THE PRODUCT CAREFULLY
+BEFORE USING YOUR NINTENDO® HARDWARE
+SYSTEM OR GAME PAK.
+
+INTRODUCTION
+
+Well, it looks like just another quiet afternoon down at the local gym.
+Our two friends, Rick (better known as Hack) and Doug (a.k.a. Slash)
+are busy coaching their trainees in the finer points of self-
+
+defense. ..’cause it’s a tough world out there in the streets of Bayside
+City. These guys know all the moves, from martial arts to pro
+wrestling throws — and they don't hesitate to use ‘em. Hey, they're
+not called the Braw/ Brothers for nothing!
+
+But wait a minute, maybe things aren't so quiet after all...we’ve got
+some serious trouble on our hands. The gym’s three best fighters
+have just been kidnapped! You know who | mean — Lord J., Kazan,
+and Wendy. Lord J.’s the really big guy with a black belt in karate.
+Kazan is the ninja master. He's fast on his feet, but carries a sword
+with him at all times...just in case. And Wendy, well, she's a lot
+tougher than she looks — no doubt about it, this girl can hold her own
+with the best of them.
+
+Uh oh, more bad news, dudes — the kidnappers belong to a gang of
+thugs run by this psycho called Dieter. Believe me when | say the
+guy is way, way out there. He's got all these scientists working for
+him, creating hundreds of clones from the people he kidnaps. Dieter
+uses the clones as his own personal army, so naturally they're really
+strong...and really nasty. Who knows what evil plans lurk in that
+demented mind of his? So far nobody's been able to stop him, but |
+get the feeling he's messing with the wrong crowd this time!
+
+Back in Bayside City, Hack and Slash are making their plans.
+They've got what it takes, and they're ready for the fight of their life.
+With a little luck they can rescue their friends, then put an end to
+Dieter and his gang once and for all. Yeah, those scum thugs better
+look out...there won't be much left of them when the Braw/ Brothers
+get through!
+
+===== Page 4 =====
+
+OBJECT OF THE GAME
+
+If you're looking for non-stop action, you've come to the right place!
+The Brawl Brothers delivers a real knockout punch, with enough
+moves and mayhem to challenge the best you've got to offer. Make
+the game as easy or as difficult as you like when you choose your
+options. You can limit the number of lives and continues, even
+control the number of enemies! Play solo, join forces with a friend, or
+go head-to-head with your partner in a one-on-one competition. Stick
+with one character, or take turns with all five...the Braw/ Brothers lets
+you do it your way!
+
+You come face-to-face with Dieter's evil forces right from the start —
+villains with names like Heckler, Phantom, Led Hed, Fnord (huh?)
+and, of course, Butch. Your adventures take you through four stages,
+from the Bayside City streets to a labyrinth of underground storm
+drains, then into the jungle and across the rooftops to the Command
+Center, where Dieter keeps his secret Air Fortress...a flying battleship
+worthy of the name. Be prepared to find your way out of a couple of
+mazes along the way — you'll have to use your brains and your fists if
+you want to survive this one!
+
+Not to worry, though — you've got plenty of talent to choose from.
+The Brawl Brothers are actually five guys...or four guys and a girl, to
+be exact. Each character has their own distinct personality and
+moves, from jabs and body slams to flying kicks and pile drivers.
+
+Hack is the mastermind of the operation — but he still throws a mean
+punch! Slash, his best buddy, is the enforcer of the group — a real
+heavy-hitter. Kazan is a ninja fighter with special powers. Lord J. is a
+world-class judo master and black belt in karate. And last but not
+least, there’s Wendy — a pro-wrestler with awesome power...for a
+girl, that is!
+
+You choose two characters at the beginning of the game — your main
+character and a backup. The other three are kidnapped by Dieter and
+his gang of thugs, who use them to create clones — evil twins with
+super-human strength. Your final confrontation on each stage is a
+fight to the finish with one of these clones — and believe me, they
+only look like your friends! Once you defeat the clone, your friend is
+set free and can be chosen for the next round. Dieter himself
+appears at the end of the final stage as he tries to make his escape in
+the Air Fortress.
+
+You arrive just in time, crawling over the wing and into the hatch as
+the massive flying fortress gets airborne. Your mission is clear —
+you've gotta find Dieter, then survive the final battle and escape
+before he blows the whole thing sky high...hey, if he’s going down,
+he’s gonna take you with him! With all this to look forward to, we
+think you'll agree that the Braw/ Brothers clobbers the
+competition...and keeps you coming back for more. So what are you
+waiting for? Pick a player and get into the action!
+
+GETTING STARTED
+
+1. Place the Braw/ Brothers Game Pak into your Super NES™
+and turn on the unit.
+. The title screen appears.
+3. Press START to begin the game.
+4. The Brawl Brothers includes three play modes: 1 Player, 2
+Player, and Player versus Player (VS MODE on the
+menu screen).
+
+np
+
+Select OPTION MODE to choose your options before
+beginning the game, including the number of Lives, number of
+Continues, and Difficulty Level. Use the Control Pad to select
+an option, then press any button.
+
+===== Page 5 =====
+
+One-Player Game
+
+Choose 1 Player Game from the
+menu screen. When the SELECT
+PLAYER screen appears, use the
+Control Pad to position the cursor
+over a character and press the Y
+Button. Next, you must select a
+second, “backup” character. If you
+lose all of your lives and choose to
+continue the game, you will have the o
+
+pressing START on Controller 2), they
+After you choose a second
+character, the map screen appears.
+Press any button to begin.
+
+Two-Player Game
+
+Choose 2 Player Game from the
+menu screen. The SELECT
+PLAYER screen appears. Player 1
+uses the red icon. Player 2 uses the
+
+ption of switching to the backup | Press Up or Down on the Control
+character at that time. Also, if a second player joins the game (by
+will control this character.
+
+| PLAYER screen appears, each player chooses a different character.
+Confront your opponent in three rounds of head-to-head competition.
+The first player to win two rounds is the champion.
+
+The OPTIONS Screen
+Choose OPTION MODE on the
+menu screen to display the
+OPTIONS screen.
+
+| Pad to select an option, then press
+Left or Right on the Control Pad to
+change that option. When you have
+finished choosing your options, select EXIT and press any button to
+return to the title screen. Option changes are not saved, so you will
+need to set the options each time you turn on your Super NES.
+
+Lives Select the number of extra lives, from 0
+to 5. The default is 3.
+
+Continues Select the number of continues, from 0
+
+blue icon. Press Left or Right on
+
+your Control Pad to select a character, then press the Y Button to
+confirm your selection (the icon will start to flash). Each player must
+choose a different character. Note that a second player may join a
+
+One-Player game at any time by
+
+to 5. The default is 3.
+
+Difficulty Select the difficulty level. Your choices
+Level are EASY, NORMAL, and HARD. The
+
+pressing START on Controller 2.
+When both players have selected a
+character, the map screen appears.
+Press any button to begin.
+
+Player Versus Player
+Choose VS MODE from the menu
+
+default is HARD. As the difficulty level
+increases, you'll find more enemies and
+fewer recovery items, and will have a
+harder time defeating the bosses.
+
+$ 2 Play Hit Choose ON or OFF. When this
+option is ON, you can attack or steal
+from your partner in a Two-Player
+
+screen. When the SELECT
+
+game. The default is ON.
+
+===== Page 6 =====
+
+Sound Mode
+
+Music Test
+
+Sound FX
+Test
+
+Music
+
+Angry Mode
+
+Control
+
+Choose STEREO or MONAURAL sound. The
+
+default is STEREO.
+
+Plays 10 musical selections from the
+game. Choose an option from 0 to 9, then
+press the Y Button or the B Button to
+play that musical selection. Press the X
+Button to turn off the music.
+
+Plays all of the sound effects from the
+game. Choose a sound effect, then press
+the Y Button or the B Button to play
+
+that effect. Press the X Button to turn
+
+off continuous sound effects.
+
+Turns the music ON or OFF. The default is
+ON. Sound effects are always on.
+
+Turn this option ON or OFF. When this
+option is ON, your player will go into
+Angry Mode after he takes a couple of
+hits. When a player is in Angry Mode, he
+is more powerful and cannot be attacked.
+Angry Mode lasts for a limited amount of
+time — as long as your player is flashing.
+The default is OFF.
+
+You may change the controls for Attack,
+Pose, Special Attack, Jump, and Dash
+Type. Press Up or Down on the Control
+Pad to choose a control, then press Left
+or Right to change it. Press START to
+return to the OPTIONS screen. NOTE: If
+you choose the same button for two
+
+controls, you will not be able to exit the
+KEY CONFIG screen. Default controls are:
+
+ATTACK Y
+POSE x
+SPECIAL ATTACK A
+JUMP B
+DASH TYPE TYPEA
+
+DASH TYPE affects the way your
+
+character runs. If you choose DASH TYPE A,
+your character will continue to run after you
+release the Control Pad. If you choose DASH
+TYPE B, the player will stop running when you
+release the Control Pad.
+
+CONTROLLER FUNCTIONS
+
+Left Button Right Button
+
+X Button
+
+Select Button Y Button *
+Start Button
+
+===== Page 7 =====
+
+Moves
+All characters share the following moves:
+
+Walk ..Control Pad Up, Down,
+Left, or Right
+Jump ia
+Pose ..
+Dash Left Press Left
+on Control Pad twice
+Dash Right... ..Press Right
+
+on Control Pad twice
+Y Button
+
+Y Button
+
+L Button or R Button
+
+Pick Up/Use Weapon.
+Pick Up/Eat Recovery Item
+Throw Weapon ....
+
+Attack Moves
+
+Each character has his or her own distinct set of attack moves, as
+described below. To perform certain moves, you must grab your
+enemy by moving in very close.
+
+Lord J.
+
+Punch ..Y Button
+
+Spinning Kick B Button + Y Button
+
+Running Punch Y Button while dashing left or right
+Body Slam . Grab + Y Button
+
+Back Drop Grab from behind + Y Button
+Kazan
+
+Punch Y Button
+
+Slash B Button + Y Button
+
+Sliding Kick ...¥ Button while dashing left or right
+Flip Throw... Grab + Y Button
+
+Grab from behind + Y Button
+Press the B Button three times
+
+Back Drop...
+Triple Jump
+
+Hack
+
+Punch .¥ Button
+
+High Kick ... .B Button + Y Button
+
+Flying Kick Button + Y Button while moving
+
+Button while dashing left or right
+rab + Y Button
+rab from behind + Y Button
+
+Button
+
+Double Kick Button + Y Button
+
+Spinning Kic! Button + Y Button while moving
+Sliding Double Kick .. Button while dashing left or right
+Body Slam rab + Y Button
+
+Back Drop Grab from behind + Y Button
+
+Slash
+
+Punch Button
+
+Flying Kicl Button + Y Button
+
+Flying Punch. Button + Y Button while moving
+
+Head Kick Button while dashing left or right
+
+Flaming Lighter. Y Button + X Button
+
+Pile Driver. rab + Y Button
+
+Body Slam rab from behind + Y Button
+Special Attack
+
+Each character has his or her own deadly special attack move. Press
+the A Button to perform the special attack. After using the special
+attack, your character's energy will decrease temporarily. You will
+regain your energy after a period of time, unless you are attacked (or
+use the special attack move again) during this time. The special
+attack moves are:
+
+Wendy . Somersault Kick
+Slash. Fire Punch
+
+===== Page 8 =====
+
+Other Moves
+
+Breaking a Hold
+
+If one of your opponents manages to grab and hold you, press
+the ¥ Button quickly to break his hold and grab him back —
+then throw him before he has a chance to throw you!
+
+Counter Attack
+If you are grabbed from behind, quickly press the Y Button to
+make a counter move against your attacker.
+
+Follow Up Attack
+Once you knock an enemy down, get close to him and press
+the Y Button to hit him again while he’s down.
+
+ON-SCREEN DISPLAYS
+
+Energy Meter
+
+Player One's energy meter appears in the upper left corner of the
+screen, beneath the name of the character. You lose energy each
+time you are hit. When your energy runs out, you lose a life. Ina
+Two Player game, Player Two's energy meter and other information
+appear in the upper right corner of the screen. During combat with an
+enemy, that enemy’s name, energy meter, and character icon appear
+beneath your own.
+
+Lives
+The number of lives remaining (in addition to the current life) is
+displayed above the Energy Meter, next to the character’s name.
+When your Energy Meter runs out, you lose a life. Normally, you
+begin each game with three extra lives. You may change this number
+on the OPTIONS screen if you wish. When you lose a life, a
+
+character icon drops down automatically. Use the Control Pad to
+position this icon, then press START to begin.
+
+Angry Mode
+
+Your character switches into Angry Mode when he comes under
+heavy attack. You'll know when it happens — he starts flashing. In
+Angry Mode, you are more powerful and cannot be hurt by your
+opponents. Unfortunately, Angry Mode only lasts for a limited amount
+of time. You can turn this option on or off on the OPTIONS screen.
+
+Continues
+
+In a One-Player game, the number of Continues appears on the top
+of the screen, across from your character's Energy Meter. Normally,
+you begin the game with three Continues. You may change this
+number on the OPTIONS screen if you wish. After losing your last
+life, simply press START before the countdown timer reaches “0” to
+continue the game.
+
+When you continue a game, you may keep the same character or
+switch to your “backup” character. Once you rescue one of your
+friends (by defeating the clone at the end of a stage), you may select
+that character as well. To change characters, press Left or Right on
+the Control Pad. The picture at the top of the screen changes to
+show which character you are choosing. When you press START, a
+character icon drops down automatically. Use the Control Pad to
+position this icon, then press START again to begin.
+
+Joining the Action
+
+During a One-Player game, you will see the words “PRESS START”
+flashing in the upper right corner of the screen. This indicates that a
+second player can join the action simply by pressing START on
+Controller 2. Once a second player presses START, a picture of the
+“backup” character appears on the right side of the screen. If other
+characters are available, you may change characters by pressing Left
+
+===== Page 9 =====
+
+or Right on the Control Pad. When you press START, a character
+icon drops down automatically. Use the Control Pad to position this
+icon, then press START again to begin.
+
+SCORING
+
+You get one point for each enemy you defeat. Your Stage Score and
+Total Score appear at the end of every stage.
+
+SPECIAL ITEMS
+
+Pick up a special item by standing next to it and pressing the Y
+Button. Press the Y Button again to use a weapon or consume a
+
+recovery item.
+
+Weapons
+Sledge Steel Spiked Shotgun Knife
+Hammer Pipe Bat
+Rock Dumbell Bomb
+
+Throwing weapons (Knives, Rocks, Dumbells, and Bombs) can only
+
+be used once. Other weapons can be used as long as you can hold
+on to them. If you're knocked down and drop your weapon, try to pick
+it up again before you move out of range.
+
+Recovery Items
+
+First Aid Kit
+
+Chicken Leg
+
+Can of Juice
+
+strength
+
+5
+
+THE STAGES
+
+Restores all of your
+
+AO ve | °
+
+Restores 1/2 of your
+
+Slo
+
+Piece of Cheese
+
+odie
+50°
+
+Chocolate Bar
+Restores 1/4 of your
+strength
+
+Pancakes
+
+The Brawl Brothers includes four multi-level stages and a non-stop
+supply of no-good, vicious villains. These stages are:
+
+Stage 1
+Your friends have been kidnapped by that wacko dude Dieter...and
+you're not gonna take it! Your search begins on the streets of
+Bayside City, but Dieter's thugs are there before you. Trash the
+slimeballs, then move on to the Bayside Bridge. They keep comin’ at
+you, on foot and even in a helicopter! Dodge the machine gun fire (at
+
+===== Page 10 =====
+
+least his guys get it too), then drop to the storm drains as the bridge
+collapses. More enemies are lurking down below in the maze of
+
+tunnels....if you're not careful, you could be stuck down here for hours.
+
+Find the exit ladder, then climb up and face your first big showdown
+with one of Dieter's evil clones.
+
+Stage 2
+
+Well, you survived the first challenge and rescued one of your
+friends... now it’s time to continue your search for the others. You
+head into the jungle — but the path is full of land mines! Explode the
+mines by throwing your enemies on top of them...if you don’t land on
+them first, that is. At the end of the path, a moving platform takes you
+up, up, up — all the way to the top of Dieter's training complex. He's
+using the place as a staging area for his attack helicopters and rocket
+launchers...and the guards aren't exactly happy to see you! Fight
+your way to the end of the complex, then destroy the Super ‘Copter
+before your next “friend” shows up.
+
+Stage 3
+
+Another victory! No doubt about it, you've got what it takes. With just
+one friend left to rescue, you head across the rooftops in search of
+Dieter's Command Center. Better watch your footing as you move
+from building to building...it's a long way down. At last you find it —
+the main headquarters! Dieter didn't provide a floor plan, so you'll
+have to find your way around the building yourself. Move from one
+elevator to another as you travel from floor to floor in search of your
+kidnapped friend. Unfortunately, their clone appears first. Crush the
+scum bag before they do the same to you. Now all your friends are
+safe...but where is Dieter?
+
+Stage 4
+
+It looks like Dieter heard you coming and decided to make his escape
+in the Air Fortress — a huge flying battleship. You jump onto the tail
+as the airship takes off, then fight your way across the wing to the
+
+entry hatch. Inside, more enemies come at you in a final, furious
+defense of their evil boss. At last...the moment you've been waiting
+for...it's Dieter himself! Hey, wait a minute — this guy doesn't look so
+tough. Of course, looks can be deceiving...as you soon find out.
+Dieter eventually goes down in defeat, but he’s got one last trick up
+his sleeve — the auto-destruct sequence! Don't worry, I'm sure you'll
+find a way out of this one...
+
+GAME TIPS — THE JALECO
+MAJOR PLAYER’S HOTLINE
+
+If there's something you don’t understand about your new
+Jaleco game, or if you're having problems with your cartridge,
+or if you're just plain stuck, you’re welcome to call the Jaleco
+Major Player's Hotline between the hours of 8:30AM and
+5:00PM Central time Monday through Friday (except holidays).
+One of our friendly game counselors will be happy to give you
+tips or help you out with any problems you're having. Here’s
+the number to call:
+
+708-215-2359
+
+Note: Normal telephone charges apply when you call the
+hotline number. It is not a toll-free call. Kids: get your
+parent's or guardian's permission to call before dialing the
+Jaleco Major Player's Hotline!
+
+===== Page 11 =====
+
+TAKING CARE OF YOUR
+JALECO GAME
+
+e This Jaleco Game Pak is a precision-crafted
+device with complex electronic circuitry. Avoid
+subjecting it to undue shock or extremes of
+temperature. Never attempt to open or
+dismantle the Game Pak.
+
+* Do not touch the terminal leads or allow them to
+come into contact with water or the game
+circuitry will be damaged.
+
+e Always make sure your Super NES Control
+Deck is SWITCHED OFF when inserting the
+Game Pak or removing it from the Super NES
+Control Deck.
+
+COMPLIANCE WITH FCC
+REGULATIONS
+
+This equipment generates and uses radio frequency energy
+and if not installed and used properly, that is, in strict
+accordance with the manufacturer’s instructions, may cause
+interference to radio and television reception. It has been type
+tested and found to comply with the limits for a Class B
+computing device in accordance with the specifications in
+Subpart J of Part 15 of FCC Rules, which are designed to
+provide reasonable protection against such interference in a
+residential installation. If this equipment does cause
+interference to radio or television reception, which can be
+determined by turning the equipment off and on, the user is
+encouraged to try to correct the interference by one or more of
+the following measures:
+
+—  Reorient the receiving antenna
+
+— Relocate the SNES with respect to the receiver
+
+— Move the SNES away from the receiver
+
+— Plug the SNES into a different outlet so that computer
+and receiver are on different circuits.
+
+If necessary, the user should consult the dealer or an
+experienced radio/television technician for additional
+suggestions. The user may find the following booklet prepared
+by the Federal Communications Commission helpful: How to
+Identify and Resolve Radio/TV Interference Problems. This
+booklet is available from the U. S. Government Printing Office,
+Washington, DC 20402. Stock No. 004-000-00345-4.
+
+===== Page 12 =====
+
+CONTRIBUTING STAFF
+
+JALECO LTD. (Tokyo, Japan)
+Y. Kanazawa, President
+
+Product Management
+T. Kaneko, H. Nunokawa, R. Kuramochi,
+and all at Jaleco Ltd.
+
+JALECO USA (Wheeling, IL)
+Howard Rubin, President
+
+Product Management
+Jeff Hill, Scott Lawrence
+
+International Coordination
+Masao Ohata, Oliver Tang
+
+Package Design & Layout
+MarketForce, Inc. - Tim Hill (Account Executive),
+Mike Reisel (Designer)
+
+Package Copy Writer
+Tim Hill
+
+Instruction Manual Writer
+Kate Hunt
+
+Instruction Manual Design & Layout
+Jack Nichols (Jack Nichols Design)
+
+Game Testers (USA)
+Baki Allen, Mike Lee, Butch O'Malley, Joe Sislow.
+Say goodnight, Gracie.
+
+The weather's quite fine here in London.
+Oh, we've had a bit of rain and all that.

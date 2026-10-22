@@ -1,0 +1,1096 @@
+# Justice League Task Force
+source: https://archive.org/details/snes_manual_archive
+pdf: Justice League Task Force ( EU ).pdf
+region: EU
+pages: 40
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-AJLP-EUR
+
+INSTRUCTION
+BOOKLET
+
+===== Page 2 =====
+
+LICENSED BY
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, (©) AND
+
+Keep this information / Gardez ces informations / Diese Information aufbewahren
+Conservare queste informazioni / Guarde estas informes / Bewaar daze informatie
+
+C € Qiintends) Nintendo of Europe GmbH : 63760 GroBostheim, Deutschland
+
+Behall denna information / Behold denne information / Pida tama tieto
+
+ARE TRADEMARKS OF NINTENDO CO.,LTD.
+
+’ Original ~
+Seal of
+\. Quality 4
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT.ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO
+ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM
+
+CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU'IL
+EST CONFORME AUX NORMES D’EXCELLENCE
+EN MATIERE DE FABRICATION, DE FIABILITE ET
+SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIESES QUALITATSSIEGEL IST DIE GARANTIE
+DAFUR, DASS SIE NINTENDO-QUALITAT
+GEKAUFT HABEN. ACHTEN SIE DESHALB
+IMMER AUF DIESES SIEGEL, WENN SIE SPIELE
+ODER ZUBEHOR KAUFEN, DAMIT SIE SIGHER
+SIND, DASS ALLES EINWANDFREI ZU IHREM
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+PASST.
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO
+QUESTO PRODOTTO. RICHIEDILO SEMPRE
+ALL'ACQUISTO DI GIOCHI ED ACCESSORI PER
+ASSICURARE LA COMPLETA COMPATIBILITA
+CON IL TUO SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA APROBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIEMPRE ESTE
+SELLO CUANDO COMPRES VIDEOJUEGOS Y
+ACCESORIOS PARA ASEGURARTE UNA
+COMPLETA COMPATIBILIDAD CON TU SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO IS GECONTROLEERD EN DAT
+HET QUA CONSTRUCTIE, BETROUWBAARHEID
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+BIJ HET KOPEN VAN SPELLEN EN
+ACCESSOIRES ALTIJD OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND.
+SUPER NINTENDO ENTERTAINMENT SYSTEM.
+
+DENNA ETIKETT GARANTERAR ATT NINTENDO
+STAR FOR PRODUKTENS KVALITET.
+KONTROLLERA ATT ETIKETTEN FINNS PA SPEL
+OCH TILLBEHOR DU KOPER FOR ATT
+FORSAKRA DIG OM ATT DE AR KOMPATIBLA
+MED SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+DETTE SEGL GARANTERER, AT NINTENDO HAR
+GODKENDT KVALITETEN AF DETTE PRODUKT.
+SE ALTID EFTER DETTE SEGL, NAR DU KOBER
+SPIL OG TIBEHOR, SA DU ER SIKKER PA FULD.
+KOMPATIBILITET MED DIT SUPER NINTENDO.
+ENTERTAINMENT SYSTEM.
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO ON
+HYVAKSYNYT TAMAN TUOTTEEN LAADUN.
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+SAAT VARMASTI SUPER NINTENDO
+ENTERTAINMENT SYSTEM YHTEENSOPIVIA
+TUOTTEITA.
+
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEUILLEZ LIRE ATTENTIVEMENT LA NOTICE "INFORMATIONS ET PRECAUTIONS
+D'EMPLOI" QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER
+NINTENDO HARDWARE WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+
+SYSTEM™ LE CASSETTE O GLI ACCESSORI
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEQJUEGO O ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE BIJ DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO-
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR.
+
+ADVARSEL : LES FORBRUGERINFORMATIONEN OG H/EFTET MED SIKKERHEDSREGLER, DER
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM,
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISESTI LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TA MUUN VAURSTEEN KAYTTOA,
+
+===== Page 3 =====
+
+90-DAY LIMITED WARRANTY
+
+‘Super Nintendo Entertainment System GAME PAKS
+
+ACCLAIM ENTERTAINMENT LTD, ("ACCLAIM") warrants to the original
+consumer purchaser that the Super Nintendo Game Pak ("PAK") shall be
+free from defects in material and workmanship for a period of 90 days from
+the date of purchase.
+
+Ifa defect covered by this warranty occurs during this 90-day limited
+warranty period, ACCLAIM will repair or replace the defective Pak, at its
+option, free of charge.
+
+To receive this warranty service, return the Pak postage prepaid, insured,
+and with proof of the date of purchase to:
+
+ACCLAIM ENTERTAINMENT LTD.
+
+Moreau House, 112-120 Brompton Rd., Knightsbridge,
+
+London SW3 1JJ, England
+
+Paks returned without proof of the date of purchase or after the 90-day
+limited warranty period will, at the option of ACCLAIM, be repaired at the
+service charge then in effect for out-of-warranty repair. Call (071) 3445000
+for the amount of this charge. (Repair done after acceptance of the
+quotation.) Payments must be made by cheque or postal order, payable to
+ACCLAIM ENTERTAINMENT LTD.
+
+This warranty shall not apply if the Pak has been damaged by negligence,
+accident, abuse or modification subsequent to purchase. This warranty does
+not affect your statutory rights.
+
+For all information on this Game Pak or other Acclaim Game Paks, call
+‘the Acclaim "Hotline" at (071) 2251166.
+
+*DC Bullet Logo, Justice League and all related characters and
+elements are the property of DC COMIC® TM & © 1995. All Rights
+Reserved, Developed by Blizzard. Acclaim is a division of Acclaim
+Entertainment. © 1995 Acclaim Entertainment. All Rights Reserved.
+GEWAHRLEISTUNG
+
+Acclaim Entertainment GmbH gewahrt fir die Dauer von sechs
+
+Monaten ab Kauf eine Qualitatsgarantie fiir in Deutschland von Acclaim
+Entertainment GmbH gekauften Produkte. Die Gewahrieistung ist nach Wahl
+von Acclaim auf eine Mangelbeseitigung oder auf eine Ersatzlieferung eines
+mangelfreien Produktes heschrankt, weitergehnde Anspriiche sind
+ausgeschloosen.
+
+Die Gewahrleistung erlischt, wenn die Mangel auf einer
+
+unsachgemafen Behandlung und/oder nicht autorisierte Reparaturversuche
+und/oder sonstige Beschadigungen nach dem Kauf beruhen.
+
+Zur Wahmehmung der Garantie wenden Sie sich bitte an der Handler, bei dem
+Sie das Spiel erworben haben.
+
+Vertrieb durch: Acclaim Entertainment GmbH,
+
+Mohistrasse 10, 81675 Miinchen, Deutschland.
+
+FRANCE SEULEMENT
+
+GARANTIE LIMITEE A 90 JOURS
+
+‘Super Nintendo Entertainment System GAME PAKS (Cartouches)
+ACCLAIM ENTERTAINMENT SA garantit la présente cartouche NINTENDO:
+contre tout défaut durant une période de 90 jours a compter de la date
+d'achat.
+
+Si un défaut de fabrication apparait pendant la période de garantie,
+ACCLAIM ENTERTAINMENT SA réparera ou remplacera gratuitement la
+cartouche défectueuse.
+
+Pour faire jouer cette garantie, veuillez retourner la cartouche a votre
+revendeur NINTENDO avec un justiticatit d’achat a:
+
+GAUMONT COLUMBIA TRISTAR HOME VIDEO
+
+Division ACCLAIM
+
+31 Rue Louis Pateur, Boulogne-Billancourt, France
+
+Pour plus d’informations sur les jeux Acclaim, vous pouvez consulter:
+
+© Le minitel au 36-15 ACCLAIM
+
+Le vocal ACCLAIM au 36. 68. 10. 25
+
+Les cartouches retournées sans facture ou aprés |'expiration de la durée
+de la garantie seront au choix de ACCLAIM ENTERTAINMENT SA, soit
+réparées soit remplacées a la charge du client.
+
+Cette garantie ne jouera pas si la cartouche a été endommageée par
+négligence, accident, usage abusif, ou si elle a été modifiée aprés son
+acquisition.
+
+BELGIQUE ET LUXEMBOURG SEULEMENT
+
+GARANTIE LIMITEE A 90 JOURS
+
+Super Nintendo Entertainment System GAME PAKS (Cartouches)
+
+ACCLAIM ENTERTAINMENT SA garantit a |’acheteur, premier utilisateur, que
+fa SUPER NINTENDO ENTERTAINMENT SYSTEM GAME PAK («Cartouche»)
+ne comporte aucun défaut de matériau ou d’exécution durant une période
+de 90 jours a compter de la date d'achat. Si un défaut couvert par cette
+garantie apparait durant cette période, ACCLAIM ENTERTAINMENT SA soit
+réparera soit remplacera gratuitement, a son choix, la cartouche
+défectueuse.
+
+Pour faire jouer cette garantie, retournez la cartouche a votre revendeur
+NINTENDO ou expediez-la en recommandé et port payé accompagnée d'un
+double de votre facture d’achat :
+
+Columbia TriStar Home Video
+
+38 Rue Souveraine, 1050 Brussels, Belgium
+
+Les cartouches retournées sans le double de la facture d’achat ou apres
+expiration de la durée de la garantie seront, au choix de ACCLAIM
+ENTERTAINMENT SA ou réparées ou remplacées a la charge du client,
+‘suivant le tarif prévu pour les reparations non couvertes par la garantie.
+Cette garantie ne jouera pas si la cartouche a été endommagée par
+négligence, accident, usage abusif, ou si elle a été modifiée aprés
+acquisition.
+
+90 DAGEN GARANTIE
+
+‘Super Nintendo Entertainment System SPELKASSETTE (PAL versie)
+Acclaim garandeert de eerste konsument - koper/gebruiker, dat deze
+‘Super Nintendo Entertainment System Spelkassette (=spelkassette)
+gedurende 90 dagen na aankoop geen materiaal- of konstruktietouten zal
+vertonen.
+
+Indien onverhoopt toch een defekt optreed! dat gedekt wordt door
+onderhavige garantie, zal de distributeur, Columbia TriStar Home Video, de
+spelkassette kosteloos repareren of vervangen, zulks te harer keuze.
+
+Om van deze service gebruik te maken, retourneert u de kassette aan uw
+Nintendo dealer, dan wel, voldoende gefrankeerd an met volledig
+aankoopbewijs (voorzien van officiéle aankoopdatum), aan :
+
+Columbia TriStar Home Video, :
+
+Postbus 685, 1200 AR Hilversum, Nederland
+
+Columbia TriStar Home Video
+
+Opperstraat 38, 38 Rue Souveraine, 1050 Brussels, Belgium
+‘Spelkassettes welke zonder geldig aankoopbewijs of na het verstrijken van
+de 90 dagen termijn worden aangeboden, zullen gerepareerd of vervangen
+worden, en dit naar keuze van Columbia TriStar Home Video, tegen de
+buiten de garantie vallende kosten.
+
+De hiervoor beschreven garantie geldt niet als de spelkassette beschadigd is
+door onachtzaamheid, ongeluk, abnormaal gebruik of indien veranderingen aan
+de spelkassette zijn aangebracht na de aanschaf.
+
+GARANZIA
+
+Il perfetto funzionamento di questogioco é stato controllato prima della
+spedizione. Per questo motivo i! Acclaim Entertainment,Ltd. di garantisce
+il prodotto acquistatoper un periodo di 3 (tre) mesi dalla data di acquisto.
+Per i successivi 9 (nove) mesi prov-vedera alla riparazione o sostituzione
+dei prodotti che risulteranno non fun-zionanti. Il costo della riparazione
+portra variare, in base all'intervento da eseguire, da un minimo di L.
+20.000 ad un massimo di L. 120.000 da pagarsi in contrassegno. La
+presente garanzia copre i difetti di produzioneo di materiale, ma non
+quelli dovuti ad un uso non proprio del prodotto o a manutenzioni e
+riparazioni da parte di personale non autorizzato.Se il prodotto risultasse
+difettoso durante il periodo di garanzia, la preghiamo di spedirlo per la
+sostituzione, porto franco, perfettamente imballato ed accompagnato da
+questa garanzia (compilare in ogni sua parte e con lo scontrino fiscale
+allegato) a:
+
+ACCLAIM ENTERTAINMENT LTD.
+
+Moreau House, 112-120
+0.8754 (Hintende) Brompton Rd., Knightsbridge,
+MADE IN JAPAN
+
+London SW3 14, England
+
+PRODOTTO CONFORME AL DECRETO LEGISLATIVO 27/9/1991, N 313 IN ATTUAZIONE
+DELLA DIRETTIVA 88/378/CEE. NON ADATTO A BAMBINI DI ETA INFERIORE Al 36
+‘MESI A CAUSA DELLE PARTI TROPPO PICCOLEE DEL CONSEGUENTE RISCHIO DI
+INGESTIONE. CONSERVARE LE ISTRUZIONI O LA SCATOLA PER FUTURA REFERENZA.
+
+This product is exempt from classification under U.K. Law.
+In accordance with The Video Standards Council Code of Practice
+
+itis considered suitable for viewing by the age range(s) indicated.
+
+===== Page 4 =====
+
+Tk & F<
+
+FOrmae
+story me
+BATTLE
+VERSUS
+
+STRONG KICK
+
+MEDIUM
+PUNCH
+
+_ MEDIUM
+KICK
+
+===== Page 5 =====
+
+screen and begii
+
+Difficulty: The level of play
+
+representing the easiest oI
+
+the desired difficulty level.
+
+Time Limit: Freoo LEFT or RIGHT on
+playing a timed round, you have ot
+allotted time, the victory goes to the
+round continues indefinitely until one
+Button Configuration: You may change’
+
+highlighting this option and pressing UP o
+desired move. Then press the button Mat wi
+configured to your liking.
+
+CONTINUING
+
+e been defeated, a screen app
+decide. To Continue, press the STA\
+
+===== Page 6 =====
+
+perman is facing and
+26 any PUNGH button.
+
+thumb in the direction Batman is
+facing and press any PUNCH
+button. [
+Glide Kick — Press Down on the
+CONTROL PAD, then roll your thumb
+in the opposite direction Batman is
+facing and press any KICK button.
+Spinning Slide Kick — Press the
+INTROL PAD in the opposite
+tion Batman is facing, then
+ur thumb down and towards
+‘ection Batman is facing
+any KICK button.
+
+===== Page 7 =====
+
+Bio: Born Wally West,
+
+teenager THE FLASH
+
+gained super opeed in a
+
+freak accident while visiti
+
+hig idol, the original Flash.
+
+He took over ao The Flash when his
+died. He uses his power to run circles
+around some ot the world’s most
+notorious criminals.
+
+===== Page 8 =====
+
+Jumping Claw Uppercut — Press
+
+the CONTROL PAD in the direction
+heetah is facing, then press down
+ind roll your thumb in the direction
+
+===== Page 9 =====
+
+Height: — 7 6”
+Weight: — 515 lbs,
+
+Powers: Super strength, 4
+burning stare and the ability
+to teleport,
+
+Bio: This deadly character
+betrayed his uncle, banished
+
+his own wife and son and
+murdered his mother in order
+to rule his home planet of APOK\
+and cunning villain, DARKSEID
+spare vanquished foes who
+don't count on it!
+
+ees
+
+===== Page 10 =====
+
+TA8 & F<
+
+FOr e
+Xe yar
+
+S2STORY
+BATTLE
+VERSUS
+
+| OPTIONS
+
+it ein, wie in
+
+int, driicket Du START. Nun kannst Du
+tle” (Kampf), “Vs.” (Zweikampf) und
+) OBEN oder UNTEN, um den Cursor auf den
+Dann drlickst Du START, um ein Ein-
+pt), um zusammen mit jemand anderem
+“nachsten Seite erklart.
+
+en oder starken
+
+===== Page 11 =====
+
+vorzunehmen.
+
+Zwischen den Runden kannst Di
+Select” markierst und dann det
+scrollen. Mit START beginnst Di
+
+Nachdem ein Spieler seinen Gegner
+
+Kampfresultate jedes Spieler in der Roll
+
+die Anzahl der gewonnenen (“Wins”), ve
+
+OPTIONEN
+
+Hier kannst Du drei Spieloptionen best
+R-KNOPF OBEN oder UNTEN. Wenn Du.
+Titelbilaschirm zuriickzukehren und
+
+Schwierigkeitagrad (“Difficulty”
+angezeigt, wobei einer fiir det
+den R-KNOPF LINKS ode
+Zeitlimit (“Time Li
+
+(ON) oder auszu
+
+===== Page 12 =====
+
+Driicke den R-KNOPF
+|, bewege ihn entgegen
+ermans Blickrichtung, und
+etatige dann einen KICK-KNOFF.
+Wenn Du einen beliebigen SCHLAG-
+KNOPF driickst, so lange Superman
+ schwebt, fiuhrst Du einen
+
+~ Hechtangriff aus.
+
+Stoschlag im Vorwartsflug -
+Driicke den R-KNOPF entgegen der
+Blickrichtung Supermans. Dann
+bewegst Du Deinen Daumen nach
+unten und in seine Blickrichtung,
+und driickst einen beliebigen KICK-
+
+===== Page 13 =====
+
+Schnelligkeit, Flug
+Nahkampf-Ausbildu
+“magisches” Lasso.
+
+Biographie: WONDER WOMEN,
+eine amazonische Kampfer-Frit
+Amazonen-Botschafterin
+predigt die Macht des Friedens é
+olympischer Tugenden und kampft
+provoziert wird,
+
+WONDER WOMANS SPEZIALB
+
+Biirgerlicher Nam
+
+===== Page 14 =====
+
+bewege Deinen Daumen
+in und in die Blickrichtung
+\quamans, und driicke einen KICK-
+
+ROWS SPEZIALBEWEGUNGEN
+_ Flammenpfeil - Driicke den R-KNOPF
+‘nach unten, rolle Deinen Daumen in die
+Blickrichtung von Green Arrow, und
+
+driicke einen beliebigen SCHLAG-
+KNOPF.
+‘Springender Pfeil - Driicke den R-
+KNOPF nach unten, bewege Deinen
+Daumen ertgegen Green Arrows
+
+i ‘htbung, und driicke einen
+
+ail - Driicke den R-KNOPF nach
+ bewege Deinen Daumen in die
+
+===== Page 15 =====
+
+Biographie: DESPERO ai i
+Eroberer ist der Letzte eines
+telepathischen Volkes und ein haufiger
+JUSTICE LEAGUE. Einst war er der ei
+Herrscher von KALANOR, einem Plan
+Atomkriegen $0 gut wie zerstort wui
+
+erbarmungsloser Gegner!
+
+* DARKSEID x
+
+Biirgerlicher Name: - keiner _
+GroRe: - 2,29 m
+Gewicht: - 234 kg
+
+Starken/Fahigkeiten:
+Superstarke, breni
+Starrblick un
+
+===== Page 16 =====
+
+(Histoire), Battle (Combat),
+
+ippuyez VERS LE HAUT ou VERS LE BAS, pour
+uyez our le BOUTON START pour commencer
+RE) pour une partie 4 2 joueurs. Les différents
+
+COUP DE PIED
+PUISSANT
+
+COUP DE POING
+
+===== Page 17 =====
+
+Entre chaque tour, vous
+
+sélection du niveau et en appuyant’
+
+désiré. Appuyez sur le BOUTON START}
+Lorequlun joueur a vaincu son adversaire
+de chaque joueur, Les résultats font appa
+
+OPTIONS
+
+Yous pouvez choisir entre trois options.
+HAUT ou VERS LE BAS pour la mettre
+appuyez sur le BOUTON START pour reto
+Difficulté: Le niveau de difficulté est pri
+de difficulté le plus bas et cing boutone
+DROITE sur le CONTROL FAD pour
+Temps: Appuyez VERS LA GAUL
+minuteur pendant les différe
+
+période de temps, aucun jou
+
+dénergie. Loraque |
+
+juequla ce quilly ai
+
+===== Page 18 =====
+
+ee Deere
+eS ONDER ORAS ag
+
+Bee
+
+iShaissLchacormemawtien. ale ine ice
+
+ez our 11 importe
+de COUP DE POING pour
+rune attaque en pique.
+
+p de Poing en vol, Bras Joints -
+Appuyez sur le CONTROL PAD dans
+la direction opposée a lorientation
+de Superman. Puis, faites glisser
+votre pouce vers le bas et dans la
+direction correspondant a
+orientation de Superman et-
+
+_ appuyez sur nimporte quel bouton
+de COUP DE PIED.
+Souffie Paralysant - Appuyez sur
+CONTROL PAD vers la direction
+‘orrespondant A lorientation de
+
+uperman, puis faites glisser votre
+bas dans |a direction
+rientation de
+p sur le bouton
+
+===== Page 19 =====
+
+lasso “magique”.
+
+Bio: Wonder Woman es'
+
+princesse guerriére amaz
+l'ambassadrice des femmes
+dhommes”. Wonder Woman préche la
+vertus olympiennes. Elle refuse de se be
+loreque cela est juatifié,
+
+LES COUPS SPECIAUX DE WONDE
+
+Voler - Appuyez sur le
+wy vers le bas, puis faites gli
+
+pouce dans la direction o|
+
+lorientation de Wonder We
+
+appuyez sur rlimporte,
+COUP DE FIED. Lorequi
+
+* THE FLASH
+
+Véritable Identité: - W,
+Taille: - 1,3 m
+
+===== Page 20 =====
+
+appuyez sur nimporte quel
+de COUP DE POING.
+Aérien - ~ Appuyez sur le CONTROL
+PAD vers |e bas, puis faites glisser
+£ votre pouce dans la direction opposée
+
+__ alorientation de Green Arrow et
+
+- sur nimporte quel bouton de
+COUP DE FOING.
+_ Fiéche Glacée - Apouyez our le
+CONTROL AD vers le bas, puis faites
+_ glisser votre pouce dans la direction
+comespondant a lorientation de Green
+et appuyez sur nimporte quel
+de COUP DE FIED.
+Aérien en oe Appuyez sur le
+"AD vers le bas, puis faites
+dans |a direction
+ion de Green Arrow
+
+===== Page 21 =====
+
+Leeil Explosif
+sur le CONTROL |
+
+* DARKSEID *
+
+Véritable identité: - aucune
+Taille: - 2,29 m ‘i
+Poids: - 234 kg x
+Pouvoirs/Qualités: Extrémement
+puissant, ila un regard de feu —
+et ale don de télékinésie,
+
+===== Page 22 =====
+
+TA s&s
+FOOTE
+
+*
+
+IK 0 INFERIOR del MANDO DIRECCIONAL
+0, pulsa el BOTON START pata empezar
+
+===== Page 23 =====
+
+destaca la opcion
+
+DIRECCIONAL para pa:
+
+Una vez que el jugador hayz
+mostrara un registro de la a
+ndmero de victorias (Wins), derrata:
+
+OPCIONES
+
+Puedes escoger entre tres opciones,
+SUPERIOR 0 INFERIOR dei MANDO DIRE
+pulsa el BOTON START para volver a
+DIFICULTAD: El nivel de dificultad del j
+indica el nivel mas facil y cinco indican el
+DIRECCIONAL para eatablecer el iv
+LIMITE DE TIEMPO: Pulsa la parte
+cronémetro esté en marcha (0!
+
+tendras 99 segundos pare
+
+espacio de tiempo, la vict
+
+desactivado, él asal
+
+===== Page 24 =====
+
+——— a _s
+Se” HDHDER_ ORAL a
+S 4
+
+la eee del MANDO
+IRECCIONAL opuesta al sentido
+que esté mirando Superman.
+Luego, desliza el dedo hacia la parte
+inferior y, a continuacion, hacia la
+que corresponda al sentido en el
+lue esté mirando Superman. For
+Ultimo, pulea cualquiera de los
+_ botones para dar PATADAS.
+Stiper Soplido-Pulsa |a parte del
+MANDO DIRECCIONAL
+Gorrespondiente al sentido en el
+
+ue eoté mirando Superman, luego
+iza el dedo hacia |a parte
+ferior del mando y, a continuacién,
+é rte opuesta al sentido
+é mirando Superman.
+pulsa cualquiera de los
+| dar PUNETAZOS..
+
+===== Page 25 =====
+
+- 9us iguales en “el m
+Wonder Woman predic.
+otras virtudes olimpicas como
+pelees nunca si no te han prov
+
+MOVIMIENTOS ESPEC!
+
+WONDER WOMAN
+Vuelo estaciona
+inferior del MANDO DI
+luego desliza el dede
+del mando opuesta
+que esté mirando la We
+y pulsa cualquiera a
+
+* THE FLASH
+
+Verdadera Identidad: WALI
+Estatura: 1,05 m
+
+===== Page 26 =====
+
+correspondiente al
+| gu ie Aquaman esté
+lo. Por Ultimo, pulsa cualquiera
+le 105 botones para dar FATADAS.
+
+pulsa cualquiera de los botones
+para dar PUNETAZOS.
+Salto Con Lanzamiento De
+
+| Flecha-pulsa la pate inferior del
+
+MANDO ‘bieecc ONAL lueg:
+degliza el dedo hacia la pa
+Opuesta al sentido en el que Green
+Arrow esté mirando y pulsa
+cualquiera de los botones para dar
+PUNETAZOS..
+lecha de Hielo—Pulsa la parte
+del MANDO DIRECCIONAL,
+el dedo hacia la parte
+te al sentido en el
+rrow egté mirando y
+| de los botones
+
+===== Page 27 =====
+
+Conquistador
+
+la liga Se enfrenta
+representante de
+
+estricto dirigente del pl
+practicamente destruido por
+
+un oponente temible!
+MOVIMIENTOS ESPECIAL!
+
+Rayo éptico: Puls:
+ys) del MANDO DIRECC|
+
+* DARKSEID *
+
+Verdadera Identidad: NINGUNA
+Estatura: 2,29 m
+
+Peso: 254 Kg
+
+Poderes y Habilidade:
+
+fuerza, mirada abras:
+habilidad de telet:
+
+===== Page 28 =====
+
+ra
+Fore. &
+*
+story
+)"BATILE
+VERSUS
+OPTIONS
+
+premi il PULSANTE
+ittaglia), Versus (Incontro a due giocatori)
+per muovere il curgore sulla scelta preferita.
+
+===== Page 29 =====
+
+Fra un round é
+DIREZIONALE per
+
+Quando un awersa
+
+con il nome dei loro personag:
+
+OPZIONI
+
+Puol scegliere tra 3 opzioni
+scelto premi il PULGANTE STAR
+Livelli di Difficolta - | livelli di diffi
+rappresenta Il livello pili facile
+DIREZIONALE per scegliere il |i
+Limite di Tempo - Durante i ro!
+(ON) 0 disattivare (OFF) il time
+tempo stabilito neseun giocatore
+energia rimasta. Quando i
+
+un giocatore sconfigge
+Configurazione dei Pt
+PULSANTE DIREZIC
+
+===== Page 30 =====
+
+~ 32 Sis =
+Van z <
+* ft
+
+Il per esequire un
+pees
+Volo - Premi il PULGANTE
+INALE nella direzione opposta
+| jella in cui é rivolto Superman.
+indi premi in gil e nella direzione in
+li € Fivolto Superman e premi uno dei
+PULSANTI DEI CALCI.
+joffio Congelante - Prem il
+SANTE DIREZIONALE nella
+lone ih cui é rivolto Superman,
+premi in gill e nella direzione
+ta a quella in cui é rivolto
+
+in @ premi uno dei PULSANTI
+GNI.
+
+===== Page 31 =====
+
+Volare-Premi Gill ou
+DIREZIONALE e quine
+
+Vera Identita: WALLY WEST
+Altezza: 1,03 m i
+
+===== Page 32 =====
+
+‘eccia Incendiaria - Premi in gi gill oul
+ANTE DIREZIONALE € quindi nella
+lirezione opposta a quella in cui é
+rivolto Green Arrow poi premi uno dei
+PULSANTI DEI PUGNI.
+Salto con Freccia - Premi in gil: sul
+FULSANTE DIREZIONALE € quindi nella
+
+direzione opposta a quella in cui é
+rivolto Green Arrow é poi premi uno dei
+ pulganti dei PUGNI.
+
+Freecia di Ghiaccio - Premi Gili sul
+ULSANTE DIREZIONALE e quindi nella
+lirezione in cui & rivolto Green Arrow é
+
+ino dei PULSANT! DEI CALCI.
+
+Diagonale Verso || Basso Con
+Gili sul PULGANTE
+la direzione opposta
+
+===== Page 33 =====
+
+LEAGUE, DESPE|
+Conquistatore, &
+esemplare di una razza
+telepatici. Fu un tempo il
+KALANOR, distrutto poi da
+awersario selvaggiol
+
+* DARKSEID.
+
+Vera Identita: Nesouna
+Altezza: 2,50 m
+
+Peso: 210 kg
+
+Poteri: Forza sovrumana, un
+squardo fisso intengo, abilita
+di teleportarsi.
+
+===== Page 34 =====
+
+druk je op de START KNOP. Dan zul je de
+Options (Opties). Druk de RICHTINGTOE
+
+linatelling/optie. Druk op de START KNOP
+istelling voor een twee spelers spel. De
+jenover uitgelegd.
+
+===== Page 35 =====
+
+en door LINKS of
+
+plaats. Druk de ST.
+
+Als een opeler zijn teg ot.
+waarop je kunt zien hoe ell
+Losses (Verloren) gevechten en
+
+OPTIES
+
+Je kunt uit drie spel opties kieze
+RICHTINGTOETS in om de optie op 1
+de START KNOP om terug te ker
+Moeilijkheidsgraad: De moeilijkh
+staat voor de laagste en vijf vc
+RICHTINGTOETS om de ge
+Tijdelimiet: Druk LINKS OF
+
+===== Page 36 =====
+
+wil hij aan
+kun je een STOOT knop
+‘oor het uitvoeren van een
+
+tegenovergestelde richting dan waar
+Superman naar kijkt, rol je duim
+haar beneden in de richting waar
+
+_ Superman met zijn gezicht naar toe
+staat en druk een TRAP knop in.
+
+Vries adem - Druk de
+RICHTINGTOETS in de richting
+waar Superman met zijn gezicht
+jaar toe staat, rol je duim naar
+neden in de tegenovergestelde
+ng waar Superman met zijn
+iar toe staat en druk een
+
+===== Page 37 =====
+
+staat voor de kracht van de
+Olympische waarden en ze ve
+ze geprovoceerd wordt.
+
+DE SPECIALE BEWEGINGEN
+
+VAN WONDER WOMAN
+
+Zweven - Druk Neer o}
+vs RICHTINGTOETS,, rol
+tegenovergestelde richt
+
+===== Page 38 =====
+
+iaar beneden in de
+uaman met zijn gezicht
+
+_BEWEGINGEN
+ARROW
+jur Pijl - Druk Neer op de
+RICHTINGTOETS, rol je duim in de
+richting waar Green Arrow met zijn
+
+“gezicht naar toe staat en druk op een
+
+ST00T knop.
+Springende Pijl - Druk Neer op de
+RICHTINGTOETS, rol je duim in de
+tegenovergestelde richting, dan die waar
+Arrow met zijn gezicht naar toe
+druk op een STOOT knop.
+
+rol je duim in de richting
+met zijn gezicht naar
+
+===== Page 39 =====
+
+is van de JUSTICE LEAG|
+
+de wrede heerser van de plan
+een planeet die nu bijna volledi
+door kernoorlogen. Hij is een’
+e tegenstander!
+
+Werkelijke Naam: - Geen
+Lengte: - 2.40 m
+
+Gewicht: - 235 kg
+Krachten/Vaardigheden:
+Bovenmenselijke sterkte, ee!
+brandende blik en de
+mogelijkheid om
+
+Biografie:
+ve
+
+===== Page 40 =====
+
+A«liaim
+
+DISTRIBUTED BY ACCLAIM ENTERTAINMENT LTD.,
+Moreau House, 112-120 Brompton Rd, Knightsbridge, London SW3 1JJ, England
+
+DISTRIBUTED BY ACCLAIM ENTERTAINMENT, GmbH, MohistraBe 10, 81675 Munchen, Deutschland.
+DISTRIBUE PAR ACCLAIM ENTERTAINMENT SA, 12/14 Rond Point des Champs Elysees, 75008 Paris, France
+DISTRIBUIDO POR ARCADIA SOFTWARE S.A.. Paseo de la Castellana, 52-6 Planta, 28046 Madrid, Spaina
+
+DISTRIBUTED BY Metro Games, P.O. Box 255, North Melbourne, VIC 3051, Australia
+PRINTED IN JAPAN IMPRIME AU JAPON

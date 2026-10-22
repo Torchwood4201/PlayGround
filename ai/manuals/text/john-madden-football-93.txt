@@ -1,0 +1,1392 @@
+# John Madden Football '93
+source: https://archive.org/details/snes_manual_archive
+pdf: John Madden Football '93 (USA) (Rev 1).pdf
+region: USA, Rev 1
+pages: 21
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+ae
+SNS-MF-USA-1
+
+INSTRUCTION BOOKLET
+
+ELECTRONIC ARTS" 4
+P.O. Box 7578, San Mateo, CA 94403-7578 — Printed in Japan |
+
+===== Page 2 =====
+
+LICENSED BY
+
+NINTENDO, SUPER NINTENDO ENTERTAINMENT SYSTEM, AND THE
+OFFICIAL SEALS ARE REGISTERED TRADEMARKS OF NINTENDO OF
+AMERICA INC. ©1992 NINTENDO OF AMERICA INC.
+
+Seal of Quality
+
+THIS OFFICIAL SEAL IS YOUR ASSURANCE THAT NINTENDO HAS
+APPROVED THE QUALITY OF THIS PRODUCT. ALWAYS LOOK FOR THIS
+SEAL WHEN BUYING GAMES AND ACCESSORIES TO ENSURE COM
+PLETE COMPATIBILITY WITH YOUR SUPER NINTENDO ENTERTAIN.
+MENT SYSTEM. ALL NINTENDO PRODUCTS ARE LICENSED BY SALE
+FOR USE ONLY WITH OTHER AUTHORIZED PRODUCTS BEARING THE
+OFFICIAL NINTENDO SEAL OF QUALITY.
+
+CONTENTS
+
+CONTROLLING THE GAME ..
+STARTING THE GAME
+SETTING UP THE GAME.
+GETTING ON THE BALL
+Team Comparison Screen
+Coin Toss/Wind «sess
+Receiving the Kick/Player
+Kicking .
+Onside Kic!
+OFFENSIVE COORDINATION
+Offensive Sets ....
+Offensive Formations
+Offensive Plays ..
+Offensive Audibles/Fake Snap
+Running ..
+Passing .
+Broken P: Play:
+Hurry-Up Offense .
+DEFENSIVE COORDINATION
+Defensive Formations
+
+‘ontrol
+
+Defensive Sets ..
+
+Defensive Plays
+GAME STATS ......000
+PENALTY OVERTURN ..
+PAUSE/TIMEOUTS
+INSTANT REPLAY
+SAVING/RESTORING PLAYOFFS
+PLAYER RATINGS...
+
+===== Page 3 =====
+
+CONTROLLING THE GAME
+
+TRIGGER TRIGGER
+SELECT
+
+Control
+Pad
+
+Summary of Commands
+
+KICK-OFF
+x y B A Trigger
+w/Audible calls Kickoff and Call Audible.
+‘normal kick activate defender w/Audible calls
+formation nearest to bal onside kick
+formation,
+
+OFFENSE—BEFORE THE SNAP (For Hurry-Offense, press X after whistle blows.)
+
+x y B A Trigger
+Fake snap. Hike ball Call Audible.
+
+Changes active
+
+player in Teammates
+
+mode w/ Control 2.
+OFFENSIVE AUDIBLES
+x Y 8 A Trigger
+Cancel Audible. ning play Tick play Antcbit play
+OFFENSE—AFTER THE SNAP
+RUNNING
+x B A Trigger
+Hurdle Dive “Umph’ break tackle. Spin
+
+MEENSPORTS 2
+
+PASSING
+x Y B A Trigger
+Pass to receiver Pass toreceiver Show passing Pass to receiver
+in window B. in window Y. windows, Pass to in window A,
+‘receiver in window B.
+RECEIVING/RUNNING
+x Y B A Trigger
+Reach for catch Dive “Umph break Spin
+tackle.
+
+DEFENSE—BEFORE THE SNAP
+
+x Y B A Trigger
+Activate defender Activate defender Call Audible Line
+fight left/right Surg.
+DEFENSIVE AUDIBLES
+x Y B A Trigger
+Cancel audble. Stunt Bitz Defend against
+
+the run,
+
+DEFENSE—AFTER THE SNAP
+
+x y B A Trigger
+Reach Dve. Activate defender Power tackle.
+
+nearest to ball
+Start—Pause game
+
+Select—Instant Replay
+
+Player Identification Marker
+
+ONE PLAYER — Red before snap on offense, Yellow for ball-carrier, Red on defense.
+
+TWO PLAYERS — Player One: Red before the snap on offense, Yellow for ballcarrier, Red on defense
+Player Two: Blue before the snap on offense, Yellow for bal. camer, Blue on defense
+
+TEAMMATES — Player One: Red. Player Two: Blue. Ballcarrier: Yellow.
+
+===== Page 4 =====
+
+STARTING THE GAME
+
+1. Flip OFF the power switch on your Super NE!
+
+WARNING: Never try to insert or remove a Game
+Pak when the power is ON.
+
+2. Make sure a Controller is plugged into the port
+labeled 1 on the Control Deck.
+
+If you’re playing against a friend, plug the other Con-
+troller into the port labeled 2.
+
+3. Insert the Game Pak into the slot on the Super NES”.
+Press firmly to lock the Game Pak in place.
+
+4, Turn ON the power switch.
+
+The Electronic Arts® Sports intro will
+begin. If you don’t see it, begin again at step 1.
+
+5. When Coach Madden’s picture appears, press START to
+
+see the credits and START again to bring up the Game
+Set-Up screen.
+
+SETTING UP THE GAME
+
+You need to use the Game Set-Up screen every time you
+play. First select the kind of contest you wish to have.
+
+Press the Control Pad up/down to select options and
+left/right to change the options.
+
+EEENSPORTS 4
+
+GAME MODES
+
+Regular Season Play Clock enforced
+
+Pre-Season Play Clock not enforced
+
+New Playoffs Tournament ys. computer
+Cont Playoffs Tournament/p: ord required
+
+Sudden Death First score wins game
+New All-Time Greats Tournament vs. computer
+Cont All-time Greats ~Tournament/password required
+
+PLAYER MODES
+
+1P (Home or Visitor) One player vs. the computer
+2P (Head-to-Head) — Two players head-to-head
+
+2P Teammates Two players vs. the computer
+
+(see page 2 for control instructions)
+Demo The computer vs. itself
+TEAMS
+
+Team One is the Home Team and Team Two is the Visiting
+team. If you’re playing in One-Player Mode, in Regular
+Season, Pre-Season, and Sudden Death modes, you can
+control either the Home or Visiting team. In Two-Player
+Head to Head Mode, the player with Controller 1 is the
+Home Team.
+
+QUARTER LENGTH
+The game clock runs about twice as fast as a normal clock.
+FIELD TYPE
+
+The weather can come into play on an open stadium, but
+not in a domed stadium. The players tend to have better
+traction on artificial turf than on natural grass.
+
+° >\ SE
+
+===== Page 5 =====
+
+| Open/Turf Open stadium with artificial turf When you exit the Game Set-Up screen, the Team Compari-
+! Dome/Turf Domed stadium with artificial turf son screen comes up. Here both teams are compared in nine
+Open /Grass Open stadium with natural grass major areas. One of the teams will have at least one, and no
+more than two, check marks at every position. Below are
+WEATHER three ways teams can compare to each other.
+The weather is always listed as fair in a domed stadium. Team A Tia
+Fair Chance of light to moderate wind V
+Wind Strong winds Team A is somewhat stronger than team B is this area.
+Rain Less traction on grass than on turf
+Snow Affects both surfaces equally Team A Team B
+Vv Vv
+Press Start to begin play. If you don’t press Start, the demo Both teams are relatively equal in this area.
+will begin automatically. Press Start to end the demo.
+Team A Team B
+VW
+
+Team A is much stronger than Team B in this area.
+
+GETTING ON THE BALL
+
+Team Comparison Screen
+
+| Use this screen to determine just how easy or difficult your
+game will be. If you want the maximum challenge, choose
+one of the poorer teams and go up against one of the All
+Star, or Legendary teams. If you want an easy contest, play
+a strong team against an easy team.
+
+Coin Toss/Wind
+
+Before the referee can start the game, the coin must be
+tossed and the loser must choose which goal his team will
+defend in the first half. The direction of the wind usually
+has a bearing on which goal is chosen. As prompted by the
+screen, Press Y for heads or A for tails.
+
+Dor:
+m Q==mAx
+
+2
+
+If you win the toss, you must choose whether to kickoff or
+to receive the kickoff. Press Y to kick or A to receive. If you
+lose the coin toss, the computer’s team captain decides who
+
+WEENSPORTS «6 ’ >i
+7
+
+===== Page 6 =====
+
+will kickoff, and then you decide which goal your team will
+defend in the first half.
+
+Look at the wind indicator to see which direction (if any)
+| the wind is blowing. One arrow means a light wind, two
+arrows a moderate wind, and three arrows a strong wind.
+Make sure to note which goal the wind is blowing toward,
+and remember that the wind blows with the same force and
+in the same direction for the entire game. Press Y to defend
+the home team’s goal or A to defend the visiting team’s
+goal.
+
+The kickoff play begins automatically.
+
+Receiving the Kick/Player Control
+
+If you’re receiving the kick, your return man automatically
+catches the ball. If the return man catches the ball in the end
+zone he will remain in place until you run him out. If you
+do not run him out, the referee will signal a touchback. If
+
+EENsPoRTS 8
+
+the return man catches the ball in front of the endzone he
+will automatically move up-field. You can take over any
+time you wish by pressing on the control pad.
+
+Press the Control Pad in the direction you want the player
+with the star to move on the screen.
+
+Kicking
+
+The following kicking instructions apply to kickoffs, punts,
+and field goals.
+
+Press B to snap the ball and start the diamond on the
+strength meter moving upward. Press B again to stop the
+diamond and strike the ball. The closer to the top of the
+meter the diamond is when you stop it, the farther the ball
+will travel.
+
+Press Control Pad left/right to aim the kick after you press
+B the first time, but before you strike the ball.
+9° =\ES
+
+===== Page 7 =====
+
+Onside Kick
+
+Press A twice to set up the onside kick formation.
+
+Press B to start the kick meter arrow.
+
+Press B again immediately while pressing the Control Pad to
+the right.
+
+There is a slim chance that your team will recover the ball.
+
+OFFENSIVE COORDINATION
+
+Jobn Madden Football '93 allows you the choice to control
+a play from the moment the ball is snapped till the referees
+blow it dead, or to simply call a play and watch it unfold.
+But before you can call a play, you have to select a set and
+a formation. The selection in the B window is Madden’s
+choice.
+
+Press control pad left/right to toggle through sets, forma-
+tions, and plays. Press Y, B, or A to choose the set, forma-
+tion, or play in the corresponding box.
+
+Offensive Sets
+
+Besides the two special teams sets, there are four offensive
+sets: normal, hands, fast, and big.
+
+Normal Two wide outs, a tight end, a half back and
+a fullback—the standard package.
+
+Hands Your best receivers, including two running
+backs.
+
+Fast Your four fastest wide outs, and your
+
+fastest running, back.
+
+Big Your biggest, toughest guys.
+
+Offensive Formations
+
+A ‘Formation’ is a particular arrangement of the players on
+the field. There is a limited number of plays any given
+formation can run.
+
+Pro-Form The halfback and fullback line up next to
+each other behind the quarterback.
+
+Shotgun A good passing formation. The quarter-
+back doesn’t have to drop back to pass
+because he takes the snap five yards behind
+the line.
+
+Run & Shoot — Most often a passing formation, since the
+quarterback receives the ball five yards
+behind the line of scrimmage.
+
+Goal Line Use this when you need only a few yards.
+
+Far/ Near This indicates where the halfback lines
+up—far from the strong side of the line, or
+near it. The strong side is the side with the
+Tight End.
+
+1.
+
+===== Page 8 =====
+
+Offensive Plays
+
+Beneath the name of each play is the diagram for that play.
+Running and passing routes appear in bold white, while
+blocking and decoy assignments appear in gray.
+
+Offensive Audibles/Fake Snap
+A fake snap might draw the defense offsides. Press X
+
+The snap starts the play. Press B
+An audible changes the play at the line. Press A
+(See the poster for diagrams of audibles.)
+Cancel Audible Press X
+Running Play Press Y
+Anti-Blitz Play Press B
+Trick Play Press A
+Running
+
+The handoff on a running play is automatic. You take
+control after the handoff. The star symbol marks the ball
+carrier, and his jersey number appears so you know who he
+is. Use the Control Pad and the action buttons to move the
+ball carrier through the defense, or watch the computer
+execute the play you just called.
+
+Hurdle Press X
+Dive Press Y
+Break tackle Press B
+Spin Press A
+
+WEENISPORTS 2
+
+Passing
+
+There are three receivers for every passing play, correspond-
+ing to the Y, B, and A buttons. (The X button will throw to
+the B receiver.)
+
+After you snap the ball, wait for the passing windows to
+pop up before you press any buttons or the Control Pad.
+You can let the computer execute the play, or you can
+press the button that matches the window of the intended
+receiver. If you move the quarterback out of the pocket or
+off his designed roll-out by pressing the Control Pad in
+
+any direction, the computer will no longer execute the play.
+Then it’s up to you to choose a receiver and pass the ball.
+
+Once the ball is in the air, the passing windows‘ disappear.
+The target spot where the ball is headed appears on the field
+as a yellow, circled cross. Use your Control Pad to guide the
+intended receiver to the spot if he’s not already there. Also,
+you can press X to raise the receivers hands. This increases
+the chance of catching the ball.
+
+2 >\ EE
+
+===== Page 9 =====
+
+Reach for the ball Press X
+(This increases the odds of catching the ball.)
+
+Broken Passing Plays
+
+If you press the Control Pad (i.e., take control of the
+quarterback) before the passing windows pop up, the
+passing windows will not pop up automatically.
+
+Show passing windows Press B
+
+Hurry-Up Offense
+
+At the end of a play you can go straight to the line with the
+same set and formation.
+
+Hurry-Up offense Press X
+
+DEFENSIVE COORDINATION
+
+As with the offense, the computer will control the defense
+if you wish. If fact, you don’t even have to call your own
+formations, sets and plays. The option in the B window is
+“Madden’s choice” and the computer will select it auto-
+matically if you don’t press any buttons.
+
+After calling a defensive play, you can select the man you
+want to control by pressing the B or X button until the star
+appears under that player.
+
+The most important command to know on defense is the B
+button, which switches your control to the defensive player
+closest to the ball carrier. Move your defender with the
+Control Pad.
+
+MEENISPORTS 4
+
+Defensive Formations
+
+Goal line
+
+43
+
+3-4
+
+Nickel
+
+Dime
+
+Good for shutting down short running
+plays.
+
+Four down linemen with three linebackers.
+Good for short and medium zone pass
+coverage and a basic run defense.
+
+Three down linemen and four linebackers.
+Now the most popular defensive formation
+in the pros, it shuts down the short to
+medium pass and contains the run.
+
+Employs a fifth (nickel) defensive back for
+passing situations.
+
+Employs a sixth defensive back when the
+defensive is willing to gamble everything
+that the offense will pass the pigskin.
+
+Special teams — Used against punts and field goals.
+
+Defensive Sets
+
+Attack
+
+Read
+
+Cover
+
+Best used against the run, this set emphasizes
+containment. While it allows the short run up the
+middle, it tries to keep the back from turning the
+corner.
+
+This set provides balanced coverage against both
+the run and the pass, though it excels at neither.
+
+This set is best used against the pass, with either
+man-to-man or zone coverage.
+
+s \ Tae
+
+===== Page 10 =====
+
+Defensive Plays
+
+Beneath the name of each play appears a diagram of that
+
+| play. The pass rushing assignments appear as yellow
+
+| arrows, while the pass defense assignments appear as white
+j lines.
+
+GAME STATS
+
+At half time and the end of the game the Scoring Summary
+appears. Press the Control Pad up/down to scroll through
+the Scoring Summary. For game statistics, Press B. For
+player statistics, Press Y for visitor and X for home.
+
+PENALTY OVERTURN
+
+| Available only in Head-To-Head mode.
+
+Penalties are called at the discretion of the officials. If a
+penalty goes against you, you may review it and overturn it
+by pressing Select to go to Instant Replay. Use the Instant
+Replay Controls to review the play, then press Select again.
+You are offered the chance to overturn the call, or you may
+let the play stand. You can overturn only one call per game.
+
+PAUSE/TIMEOQUTS
+
+Press Start to pause the game. With the game paused, you
+can call a timeout by pressing A, as long as you have at least
+one timeout remaining. Each team is allowed 3 per half. If
+you do not wish to call a timeout, press Start again to
+resume play.
+
+WEEASPORTS 6
+
+INSTANT REPLAY
+
+Press Select to replay the last down. Follow the VCR-like
+control instructions in the left corner of the screen to
+operate the replay camera.
+
+Press X: Slow Motion
+
+Press Y: Rewind
+
+Press B: Replay at Normal Speed
+Press A: Fast Forward
+
+If you wish to isolate a particular player, use the Control
+Pad to position the white highlight box on that player. That
+player’s number will appear beneath him, and he will be
+centered on the screen.
+
+SAVING/RESTORING PLAYOFFS
+
+At the end of your playoff game, you'll see a screen showing
+an updated playoff tree. An eight digit number appears in
+the middle of the screen. Copy this number down on a piece
+of paper. It will be your password.
+
+To return to those playoffs, choose Cont Playoffs or Cont
+All-Time Greats from the Game Set-Up screen. The Pass-
+word Screen will appear. Use the Control Pad to select the
+appropriate characters and the A button to enter them.
+
+After you enter the password correctly, press Start and the
+playoffs will resume where you left off.
+
+===== Page 11 =====
+
+alalslele
+
+22 ie
+
+inter.
+
+1"
+
+14
+
+8
+
+0. sod. th
+TE] 96 0
+wT st 3
+RE) 78 8
+
+Linebackers
+
+no. $pd_te
+ios [er] s [1
+ue [se] 4 [9
+rus [sa] 4 | 7
+OLB $6] 8 | 12
+ris [sala [4
+Defensive Backs
+no spd_ tk
+[ase] 7
+fs1_|se(nr] 8
+Reet | a7 [15 | 7
+ween [a7 [12] 7
+nose | 27] 6 | 6
+wos [sn 7 | 7
+rz [ole [7
+‘Special eams
+no. ange accut
+[so [2]
+(eisTs Te]
+
+bik
+500, cateh_ te.
+7 6
+6 7
+7 7
+6 4
+7 5
+3 3
+‘un
+Ios. Biok_ Blok
+Ea 3
+2385 é
+285; 8
+20 a
+300[ 13 [10
+
+si
+so ot oh at ps
+: were:
+: tet petets
+; sir te tere
+cans
+ws i o_o
+; Ed
+: ie ttatetetets
+: a motets rete
+2 : matste rete
+7 7 Z é me [sla 13 rm
+iia
+i ws -
+cco ae i A ia we
+3 8 10 5 ss [alot 7 [9
+4 ats iW $ fs1_jaojele | 6
+pete a : santetete tats
+3 1) 3 fon 1 uce | 5] 7) 6 | 6] 7
+thts : 3 mactetet tet
+pete : ; telelste fete
+: mietetehts
+. 2 tts
+i[ mo [ee G metry]
+eta fae $ flaps te
+qe ;
+wat rt 3 ons
+war] Te [ee A (alele Ts Ts
+
+Paps) is | 5 | o
+
+===== Page 12 =====
+
+VS ze
+
+CLEVELAND Detensie Line DALLAS Deters ine
+PLAYER RATINGS: no. _$pd._tckl__ agit pursu. ‘PLAYER RATINGS: no. spd. tek, _agél_pursu,
+Elle [+]sfe wel [sleds
+‘ne ae ie ir} 9% 16 | 3)6) 6 a al trjmi6e | 7isi6
+vo ie BES. spa. sip arfeefe [eels 1a, B65, Ei sah, arte [7 ts trs
+[opel ute [ays | rete]? [alr]? Te [e [373 re[7{7{7t7ts
+aez[7to [4 fel 3 se tetas
+Lintcters tinebaces
+0. sth. 0. sod tA ag awa
+=. bet Taps [a[r es a mss p7[e]s
+ae wes [se[s[ vole [a are me [s[se [ss
+oe ue fel wf 7 Pel va2|aes Tse 8 meted stot
+we apne fea we lets [5 [5 |i
+omsiebese eters acs
+= pass
+— bk no. spd. teh. cov. inter. bik no spd. tok cov intore
+no. soca gu Sz] pel aso each (gu S[aleteTsts
+wpa s |e fs] 7 ei falel tele wales[ 1] fe] ra tetrte att
+wee] os] a] s [as reat] 26] 7 | 6 | 7 wale its [3] wrap ests
+wr3ti to ts [2] 4 eet | 36] 10] 11] 9] 10 wes] 93] 10] 5 | 3 | 5 tear | 30] tof @ | 1] 10
+wie}? «fetes acre} ests n | «ts was fete] s sor} eats 7 fs bs
+mi fe]e {sats tose [se] 4] 0] a] TH [ee le [se toe atst at sts
+we fools tat+fs rsa tortal vol ala refesla te [ets re twlsle[sts
+en oes Line
+gid pass run pass run
+ots Blok bok ots, ok bi
+Te [eal 7 [3 apn [ele ys
+isfm pent rps tele [ae] ips
+clepest7 ys cisfentels
+RG] 68 [3m] 10] 6 AG] 69 | 203] 8 |S (epey is [yo |
+ar[ 69 | 264] 7 | 3 ar] et | aa] | 8 (retet ol ele |
+ee 7
+Detensive Line DETROIT ‘Delensive Une
+no. sod wat pr Puen aATINGS nee
+ufatsfetst s ow wlw[s[olris
+ne 5
+os pe mats [7[rts
+refoote [7 [7] 6 no. range accur. spd. scrmbig. Rel aie | 9/6) 6
+wiles 313
+nocers fosete a To TAT § tects
+i ea a no. Sd, ait
+Tow a[ 6 [4] is unig Backs so ows] 10-9 [0] 1
+tae [sel to] 919 | 9 so. aed at ta ine [sal7 Lote |e
+fue [rf] @ [| 1 mo ss] 8] 7 me fests ts Tet 6
+wows] if ww] 7 Lal ie malate ts le [7 mowelss'e 7 te 7
+me [sal io) sb #lelets tate ae laletstets
+Deters Backs cers
+rk. ‘pass rk, See pass:
+po. sot ath Et ro. soit St ine no. sda, (a po. soit yer
+wile] se] 7 [ay 7 Ss] ele ws wipes] s [2] 3 =] s[op tps] 0
+wee] wo| a] [4] 6 er [ar ws] wa] 5] 18 wee] ils ta a [4 felts trps
+weal ets [s [el « rosie a] va | a] te wales 7p etapa wcarfzet7 [be | 7
+wea es|-s [ste] 4 tear] se 5 | 14] ta wale) feo] 4 vooi [oo va] | ra] 12
+ta [lets tots ncaa] [| Ta] 9 we tststefol2 eeo|25[5 9 [5 [5
+re foal eta tit a EO reel stetole tow fels bots Ts
+rm laletutrte ree Tvlate tale
+Offensive Line a Oreeaie ne pass:
+ass aust na Speci was
+ros Bik Hot me on ‘nee ote. o_o Pe. gts
+et [sq « 7 0] Lt 3 {mel 318 fe[aT? [4]
+tele [ao] 7 Te ta} [aw] 2 [5
+clear fe fete Pas) | ae eters feiss te)
+rel rar rte 1 = aG[ er [as] 9s oo. sted apa
+melee Le (late tel atl welewl sts @lalw spn
+mate fs fa Crates De [is [|
+
+===== Page 13 =====
+
+zz —
+
+Coren at Deters Line HOUSTON Det ie
+eee 0. sod._tcki agi pursu. PLAYER RATINGS: 0. spd._tckl_agil__pursu.
+Tels] sels o Tels [wy] wo] 13] te
+atest? stete fete [aes
+relmtelslel7 no Farge Jett spe_ semp ate ts tele]
+fe Tstntse~s | rel oe [0] i] 10] 1
+enacts ow) wo Tubs
+$06 tah Lintactere
+Toe Joo] | 10] 13] 14 Purnia Backs be i i a
+ro. so a_i tas wus {aif 10] 0] 2 [sf] np] 1
+mT matete tee eS ae metas Pata
+melee ts [ale wos] 95] 9] 4 [| 14 ee mis fora s [8] e
+a [le [7 [7 17 ms [slo Te tole % lotsa ta 3 17 re [ss] | 5 [9] 8
+pecans ich oni Bucs
+ik pass Receivers pass
+sod atoh teu no. sod tok. “ovine bre no. sp6__te_cow intr
+war] ea] 6 |e | a] 7 ss [ss[olo [ols 00. Spd. catch. teh quik. $S_| 25] 13] 9 | 12] 13
+wre) eile | 6] 2] 5 rst |26] 10] @ | 10] 10 waiey ¢ Trt 7 [in rsi_[ 26] 12] 3 | 2) 12
+was eels Tats matter ata [asst weal sols [7 [46 wear | a6 [el 10a] 2
+weeles sat carte epee was] a1] @ 10] 6 | 10 tear [28 [3-9 al
+ta folat als 3 ncar|zets etal s weal esa ts [ela acez|2a[ se [s[s
+we fos) 3a pole wes arr fe | | 7 Ter [a7 1s [2/5 os2 [20/6] 101s 6
+@ lates Le wie] 7 [stele re [else [ets
+siete
+aes partes oe
+10 i
+ie[ sr [aw] 7 [4 epee ts Tre [ae tT 8
+cfeestr ta = wre faults
+aa] @ [ae[ 7 [a fe. sind t_tet cm [oar as | 18
+Ar | 77 | 206i 7 | 4 [eaTesT 3 Tu Te] AG] 70 | 26] 1] 8
+Cea[es Tn To Te] ar| 73 [en[ nfs
+*
+‘Bats Une eave ine
+soos pu 0. sod lap pow
+tpspeTztels Efepwl uel s
+wt] ez} 6 | 6] el] 9 nti o7] 5 | i]s] 5
+relat? telat? eletrtetrt?
+Letters Liebe
+no. spd._teK. agil. awar. 0. 1c. agil awa.
+wel lelele unig Bcks se tomsrpn ts [a] 10
+tus [sel ater no sot opt 1_ hs ue feels ste [7
+motetcta ete many te [7 wus tssle tt? 7
+wat8]s0[ 10-10] 9 [a0 weiss [9 Te 1 e nou sel st] € || 2
+ie tssl7 16 Le T7 6 [as] ws] w]e) 9 me tsole tale 17
+ats Bats ecaves ee acts
+we om ork
+fo. sch, ait oo. se “ir so. sod eth Koi oso “ane
+wales [71a] 7 SJels[elele wate>? [el sys Srlr[wlets
+mele eet ate miele Le wel si|-a[s [2] rei [anf ota
+wetetee tele renee tet Te wes] ea| 6 [sa] 3 meat ep nf ets
+aelet eae cert ete weil asl to] ae test f@at nts Deh
+ver [asp st alo} a Aee2| 2513 | 14 | 3 | 3 er fos] 3 | afi 3 pcb2 | 38 | 4 | | a 4
+rea [ai] ¢] a] of 2 teez}as[3 | is [3] 3 ez |} § | 4) 2) 3 ioez | 24/7) 9 | 617
+sz Jazt2} st2i2 fez |ujeio | 4) 6
+este sous demon Soot nan
+Serer Tl ange aut Tipe Tas] ey coe se
+a T 2]
+EEE PRY ie] [are] 1] 7 FREY
+ct [s/s] 6] 4 3 fer | ae] wf 7 break
+RG] 66 | 281] 6 | 4 no. speed ap. _ tack nol 72 [sos | nf 7 ‘no. speed agi tact
+ar[ 4 [06] 6 [4 [elet7 [eta | Caz [mayo Tots
+mete tet (elste Pe Tr]
+
+===== Page 14 =====
+
+%@ SLYOdS|
+
+ESEES =
+
+LOS ANGELES Detersive Lite MIAMI eters ine
+PUYER RATINGS nos. ti aol. pursu PLAYER RATINGS 0. sed. tel. api oursu
+E[rye [a ]eleo uartrbacks tefs[7 Taqr[?
+(iaretacks ulats|3i[sl/e pase puma wool? [«l7ie
+ee St sot ron mols [stele 20__ range SO sod. scrmbig, welts [7fele
+ostti | 1 | 9 refofe [s [7,6 CID Ree eee
+fomtieto—ts tat (owls es Tats) petces
+Lneacters 10. Spd tA ag rr
+— no. spd_tll_aiavat ning Backs ™ tow |ee[ es To] 9
+pag! bi ue [s[6[s [7 [7 to toss tus [se] 55 [6 | 6
+50, sec sot_ ets ms [se] 9 [io foe [rer a[3 wus fosl's [7 [s | s
+retfefete Tr fu we slots [ee 2 we woslsits | 319]
+ret ms tals ta |7té a 316 mrintetetite
+Dense Backs ecoers eens Backs
+Receners fas oe ass
+ie no sd. tek ‘Cv ner 0. $d. cateh te quk o_o tt ‘or ier
+0. spd catch tek quik [el]? [s [el wail asf oT [7] S [eletafele
+waifeo[ [10 [7 [wo ist [zsts|s|s wee] eal to [| 7 | tt rst_[s[9 10 | v0] 9
+wrefes| 7 [al 7 noarate 7 tre wes[ [a fe [4] 6 rosifa|s |v] s | 5
+wrleale [sa] « wcer[zols [7 [a] s wale e [7s] 7 cor fze[e[u]s| a
+weil aole | « [2] 4 newzl arts to [3] 3 wei fools |s|2| 6 cea] as [a [ref a]
+te forte {7 ]als wee ferts [7 tals wfelelelals tore [efoto [et 2
+we fas)'s |e fala 12 [arly [7 tr tr re [ststolals
+terse Line he
+OMEENE Le ag nots Bot bok TO ie
+ois Blok bok Tr] 7s [ose | 14 [2 mee]
+Tye Joos [10 @ we] 69 [905 | | tebe]
+we] 71 |276 | 10] 8 ¢ [es fas[ ule break
+c | 6t [300] 10] 8 RG) 61 | 908] 1] 9 ‘po. speed agit tac
+as] «6 [206 [ 10 | 6 ar] [ase [8 [elut; [es]
+at] 72 [204 | 10 | 8 prise | 8 s 4
+‘MINNESOTA Detensive Line NEW ENGLAND Defensive Line
+PLAYER RATINGS no. spd_tll_ api. pur PLAYER paTiNGS coy. le bik ap
+tefoys [eee Ouarterbacks tefs[e [e]7]s
+= i[ ssf [o fe] s ne wfes[7 | 3{s16
+no. fge Est sp6_ som arta two fete] 9 Fige SES. so6. sent me[ol7 | sl716
+feel? [nfs] s | relse[7 [tele fate leat
+[osetnte te ts] 3] 2
+_ a res
+no. sod. tok ogi svar unig Tou
+fe oe we [ss Ts [ele 1. 8 spl tse us [sia] s[s] 3
+10, tpd. gf teil. hnds MuB | 50) 7 i 6 wertaet [i [97 + PUB | sa] 7 | 12 | 6 | 6
+ete tuty dete aa [ele [fe]? welt [sta] 7 ros] 5] ss Ts [6
+Bat ve [7 t+ lel? [als tells me [eistelels
+Deters Backs ects Onesie Backs
+Receivers we br, pass
+ork 0_ sd. tk ov inte o_o. atch tek quik, ro spd. toe ov ie
+0, Spd catch chau aps[n [a] ss wilele Te Tels Slalitslel7
+wales Ts [2] 4 fasta abs wel ele [7 [4] s rst fwlelelele
+wea] eo] 6 [9 [4] 6 nor aef2[n [| 2 waste] ts als nooitaeta ts [elo
+wrsfeels [411] 2 CET RH wells [« [i]s wos [7 [ro] [10 10
+welerls ts tots ncaa] 26/9 [10 [10] 9 te [els [i]s] e nowe[z ts [eal 4
+mer [es] 46 [3] 4 cee [356 [0 [6 | 6 we tetstetrs woe tr t7 te |e] 7
+ve fests ts Pots ra Tetetutzte 12 [wltstelsls
+Eatelnnl pass run Special teams
+Oeste a o._t8, Bok Bok ig si
+no__1bs_Bok_ Dok [prs TT oT
+ween ees nore
+wee fort | «| ae [eaters Ta
+¢ [es [263 [10] 7 a. ses age. al 7s [ou 6] 4 no. speed ap tas
+ng] 69 [266 [10 | 7 (alate pryr | atl fool e ys [mato tute |
+AT] 76 [295 | 10 | 7 9 (ealete Te Ta |
+
+===== Page 15 =====
+
+9% SLAOdS|
+
+NEW JERSEY eteshe Le NEW ORLEANS tree
+PLAYER RATINGS: NO spd. tek agil_pursu, Senne 0, sod tckl, ca pursu.
+teler{ai7 isl sé Quarteracks vel este Tats eé
+tones ipl? fe ists fase pass: wistel site?
+ro. fige 22% spd. serbig artols te |7|7 meee relat «tele
+wail? [1 [0 a refs [ele] e [sf 4
+lowirfo Ts | a eaRED Liens
+Lotito ood ag
+no__sod._tckl_agil_awar. Running Backs vous [s7[sa | 7 [is] as.
+nag ae vs
+nm ee? [ays sot nt es we [sift bee
+ae ee a mie fsa De | 8 miles Teles] mie ole eet
+myefete tats ae [ales [7s v@zinle tr tats] wolesel | 7 ae
+mash 5 7 a lalelelels me elves ols
+Fe_fsof [i [ro] 3 = Em} J =
+eta fa fine tas
+Gates oes va a
+oe osu SS te o_o ene oo on ot oe
+no. spd. catch. toki_quik ss [als[7 Ts [5 wry ele [els] 6 ss_[oo]r2] 13 [2] 12 |
+was ToT ST felt test well ef esa rar fetul ete
+wales [ots bo weit ates Tes wala fetes reaifar tee pa
+weslata te Tota vale 7 walle Pets tar aes [ws
+wraleils | 5 | 2) 5 ncee| 21}2 16 | 2} 2 yer {ee} 4 fa fel s | nea | 27/8] 13 | 0] 8
+mer foots Ta ita weet fasty [7 [2 yt re [os]s [a Tila) veer fas [7 [as [6] 7
+tuts tetra a alte lets @ leleln tele
+hee o
+te Scat tas mes Sins
+outs an ere eee —
+2a fesTote | a ren
+Te Ter] Ts PEE] tel [ae 10s _s
+16 | 66 [aes | 7 [3 la] break ¢ | 6 | ase] 10] Ss lets break
+estas r Ta no. ota Se wal ofa wos ott agi Sat
+wal ar [seas (yy ops Te] ar] 67 [ere | 10] & [mela [rts]
+arr [er [7a (rafepe [7 ts] (eat Da Ds Ty
+AKU ne
+seh You oni bean i ar
+PLAYER RATINGS. se a pu eleclie le Tee
+ants mini tatel =e — | wets te tata
+ous t .
+eee oo Be BS wos umoy. = [em Tate
+ositis] ¢ Tete] 6 | omlisy 8 | 8 re] sa [v2 [8 [i] 10
+6 rtsrs
+s ene C 0. $od._tek. api avat
+Fur i Tub ysefa [8 [13] 13 uring wt Tee eee
+om stat tis is tele ls Tels sos has Bo
+warjertw [eT] 7 is [se] ef [as | 16 wifey s Tio [7] 6 meats te tet 7
+vaeiso7 Dees rouse vee pe veale TT Te eee
+me [alr Te pels na [sets ters Watts tele
+Fe Defensive Backs me
+he acs os
+ch ok en Sin lal wk no s26_ tx. “ov nwe
+ost en Ht sot , te “e
+wertutet7 Tet s epee a waste TLS war [asliofn fio
+eee Ba eet welesls [6 [3]¢ noer] 48 [13 [10 [13 13
+wral oo) 9 [3 [1] 3 goat | 25 [11] 12 | 13] mmol ei |e fs. 213 Losi f3p}e | s fal s
+Wee? BAS wae as's Te Tots nee @[s [3 [478
+vez [#] 4 [3 [ol 3 uefa ts ls ae (sls 7 ets wefele [ss] 6
+eet nefata Ta tela wo talele Tse
+ori . su
+tots Bok_tiok a eee eae menses nun
+(Pps pop epn no. 10s. Dok lok
+ater eaKe asta aTt
+cleats te = col [ows Le a
+release [8 set ag celal Le ve spi
+ar] 72 [asl ole [xrfooT i To Ts] RG] 65 [200 | 13 | 11 [raTes[ 6 Te [2
+[ertsotw te} s | atlas [oe bio D8 [eater [et 7
+
+===== Page 16 =====
+
+sz SLYOdS|
+
+PHILADELPHIA Deters Line PHOENIX Detesve ie
+PLAYER RATINGS no, so0. Xap pure PLAYER RATINGS i a cs
+[et Te [ala 3 male iiele
+PEE oe ne utmte ets te ous po mbes] s | 2)s|s
+oo. fage det. sod. scrmb mrtotes tole a. foe Stu spe sembly. refee]7 [2[ele
+ooif2tin [wo [aT 1 nel 6 fio fs [re [2 fosts To Ts Tet s |
+foeefs [7 [ww [els oeprtot7tsts teas
+Linebackers 0. sod_tel_agh aa
+‘Running Backs 0. sod tell agil_awar ‘Runoing Backs ie Toe ysof4 [7 [13] 13
+wi ua [sofia [6 [is Tis 0. spd. agi tck_nnds ie [ses [9 [a | 9
+10. 500. api. oH nog
+mister mus [56] 10 [6 fe [i werfots [a [ey 3 mussels [a [ele
+weelae [7 [7 [6 | 7 LE Ea weiss |stats nous |s6) 13 | 8 [ia]
+ets ath ft
+we atel7 tel s Pe [st @ [uls tr i7[7 m8 [als | 4 [3 | wo
+Detonsive Backs Receivers ete Backs
+Recovers ass tr sas
+we a. sod. tex. ‘Cov. itr. 590 catch tol_guk 0. spd_ te. coer
+0. spd_catch Ick auk [alu fu [npr wala] ele [a] 6 3 [uw letu [ny 2
+wafos[s [7 [aT s rst [aelis 4 (15 | 15 wea] sels fe [a | 7 ws1[38 [6 [15] 6] 8
+wee} aol | «tit 2 repr an fas [15 [ve] 15 wafer ts [2] « roet [ao 9 [ts] 9] @
+waleits|« [ita ost fas [n as [ea wrel sols [3 | 0] 3 west [5 fro va [or [v0
+weifets [4 [ols nose] 30[8 | fo | 6 me [asl a fs ote ncezfeets Tats s
+wei fale] s [fs ose | 8 [10 [15 [10 | 10 ve fools [3 tol 3 wosefaote tet? | s
+vez [esfe [2 lol ese [el7 [5 [a [7 rs [e(s]s [als
+nensv Line on
+10. ID6. Dok. Diok hr Tey.) [oro Taos] 8 [7 (Te
+[
+tr] 7s [wT 6 [3 is] 68 [as [8 [7 :
+EEE Gite climes Glslstr}
+c [estes oa aha. CHET ae 0. speet ogc
+wG| 67 [2s] 6 [3 mlz[ nos ar [es [02] 8 [7 mfr[u [nu Ts
+at[ 7 [ss] 6] 3 rfl 7 [a | 3 (ral [s [es Ta ]
+SAN DIEBO Detesive Line
+no. sod. tela puro. PLAYER RATINGS Tite ese
+$ret co utsols [islets
+TELE ro. Fange dE s00. seb. wlste {7 |e] s
+forts Te Taps | refeele [lel s
+osfeto 13s fal 3
+Linebackers
+0. $06. te ag avat
+Panning Backs ie welsfe fs [7] 6 unning Backs oi
+20. S90. aM ds tus {se [ots] no. 550 ap_tck_hnds a atste
+wet [aoy to] 8 [8] 3 Rus [so}4 | 66] 4 wilelelninits ns 13416
+wez[se]4[a[ate nol esir] sf] 9 7 Ee We
+woz (sao ff [tt we Tete te tet t
+ [slwlolels mis [srfwo] 6 [101 10 a Ea EP
+Recovers Deter Backs mae ass
+be = ae no. spd_tok. ‘Covi
+0 pd. catch Fea ro sod tht‘ inte tk
+ToC eee AES Sisislt lets 0. 500. catch ct aul s [alste tele
+wr] aoa fa] 8 rer_fafalets| s weifea[7 [s [até ri_{ulets [ats
+el noerfastepe tele wells 5 |e] 3 nesr{asié [9 [6] 6
+wulere ts Tis terlaty tr tele wrsfsits fst] wos fete] @ [wo [1
+tlelete tats ace[a[ale [als wes] eofs [so] 3 ncezfaris ts [a] s
+retels [ets te woe [ats [7 [sts ter feof ta lots usaf asfa ts [ala
+2 [wtate tals vez [oss [3 [ols rz [esis [8 [als
+‘nensne Line
+un ‘Speci ane Specal teams
+posts y no. range _accur time pass tun 0. range actu.
+ur] 6s [288] 7 ferried ro. ts Biok_Dok aTuls |
+(el er [as[ 7 [a wpe [emt 73
+z ce |
+ula feel ate iste Te) ape feet rT sn
+we 77 [ast 7 [a no. soeed ag tack © [ss ae [io] 6 0. speed aga.
+ar] 72 [oss] 7 | @ [tess Tio Ts | RG] 65 [si0 | 7 [3 weer] 4 [4 | 9
+palate | 6 ar[ 76 [oe [ 7 [3 paler] 2 [3
+
+===== Page 17 =====
+
+o€ S1NOdS|
+
+‘SEATTLE Detensive Line ‘SAN FRANCISCO Detensve Line
+PLAYER RATINGS 0. spd tok al pur PLAYER RATINGS 0. spd te. ap pusu
+ese ufs[e [6 Te] 9 watchs elle T7715
+ala = ulzts ts [sts ass ass mesa tz tats.
+so. Fine Zt spd sembig ars 1s [sf] 7 0 fange stu s6d_ seig relelelels|s
+fosfel2 Ts [aT 3 nels [5 [6] 6 otetva Tu Ts Ts
+owinfo [3s tala oele te Te tet a Linebackers
+Linebackers 10, $60, tea ava.
+elias na sod_ tes api awa. ring Backs & Tele als [as] a
+rence us [eofs Tro Te Tro 0. Sod. ag KM hos tis [sols [8 | wo
+weil ae lie ie ms [oo[7 fe [3 [3 wr ]ao] fs Ta] 7 Rus fs) 6 [8] 5] 5
+Ce wee] 35| 9 7s Rows) 83) 10 [7 | 10) 10
+wezjz0} 51s 131 8 vis {sole ts lets [alsi7tsls me tests tel
+we [x[w [0 [wo] 2
+a Defensive Backs Receivers ca Detesive Backs
+vers P
+i no. sp6_ tes ‘Cov. ie. a. S96 cath. th. au n0_ spd teh “ov ite
+Po. socal. to qu ss_[zisTafats waifeofio [x [8 [2 38 [oo] 10] 13 J 19] 10
+wares] s [10 [6 | rst_faifia fe [aa | 9 walelotely is mar eraciieLat
+welele [7 [al 7 nos] eta [13] 9 | 9 welet7 Te Tate aoe gots ts bir
+wasl ul ats tet s oa [asia [2 [a2 | 12 waletr lets le iofaletan els
+wealeal a [a [ifs oso 6[4 [re ['s [a wer feelo fs [els noset ase ii 7] 8
+se [ole [a [ets wose say [oe ['s 7 va lets [5 )3ls ues2 [ase [ir] s | 6
+vez [sss [asf rz [osls[atels fe lalelwlele
+tense tne
+Special teams passin Special teams
+Otensne tt cass vin 10. 0. s_Biok_ blk Sor ane tee
+0. ts biok_ bok eee Tle ptels ETE
+Trp ss [os [8 [6 a ie] e2 [2s [12 | 8
+is [os [aes [3 [6 rea c [6 |a0| 9s Giatets)
+c [ss [zs [a [6 0. speed api tac ac] 79 [zo | 9 | s speed api_uosd
+RG| 71 [ee] 8 | 6 fate. [3s Ts | ar| 74 [27 | 9 | 5 (isla el
+ar] 63 [ae [a [6 (eat a ts Ta] pafeel 9 | 9 | a
+TAMPA BAY Delete ine WASHINGTON Deters Line
+PLAYER RATINGS ro. spd. tsi ag usu PLAYER RATINGS 0. spd__tki_agil_pusu
+e[m[7 [see [To Ts Te] wo
+Bares trfe[e [+ [els i sos pane ufm[s [alot
+co, Paige sR. spa. seb. alos[s[el7[e no, Fange dBEt op6._sermbig Cd a
+pear Te Tas ] wef sot7 te tet? (out To Ta] refeots fa l7[7
+osz]te| 6 [7 4 zfolo fs tals
+Lineochars Linebackers
+inch inks no. spo. tok ap anar. apiece 90. sod. tell apl_ ava
+= on ue [sles [s[e we be te [sep [7 [1s [1
+0. sp6_ ag tek mags meter 00. gpa. api_ tl nnd ma ahaa tar
+EE a ris [51] 19| 19 [v2 | 12 SH mis [ss] 14 8 [13 14
+neato} s{e ts fs ra [se]e ts [7]s bee tae | tn Tt I ms [sili | 6 1158] 15
+ lolels tel? etal? tel?
+Detensve Backs 7 etesive Backs sass
+we
+heer: be 0. sed. tek ‘cov. intr Lil z 0. spd tt ‘Cow_ ine
+a. spd catch. tll uk [asf [is Ts [10 0. sod_catch tek ui 3S_[26]i2 [13 [wo] v2
+waifeols [6 [3] 6 si fale tels wafers [2 [a 1 est_[a7fre [aa [oa] 4
+weefea[e [a [2] 3 Coe es rest | 26 [15 [13115 | 15
+waster 13 lol 1 toe [20 to [12 [9 | 10 weslselo [9 [s|7 oar [as fre [x2 [oa Ta
+wale] s 13 Lott nose] ats [is 3 | 4 welea[7 [5 [als nosz| 45 [10.12 | 8 | 10
+wer [eels [a lote tose [arta Pre [7 [7 te [ela [7 fal? wose [aoe [|e] 8
+vez fools [2 Lol? we Toole te tele re fes]s Ts [ale rsa [ule [eo t7 ls
+‘rensivetine Onensie tne la
+pass run pass un 10. range accu
+cots. bok_ bok 0. oé. Biok_DOk
+Tp r few] oT 5 uve [en [5 [2
+we] 73 [ares [2 6 | 66 [308 11 [7
+¢ [er faa[s |e ¢ [3 [29 Pn [7
+ag] 66 [sor | 5 [2 | 69 [205 [ve [11
+ar] 72 [ass] 5 | 2 ar] 76 [900 [7
+
+===== Page 18 =====
+
+ze SINOdS
+
+ESTEE)
+
+MADDEN GREATS Defensive Line MIAMI 72 Defensive Line
+PLAYER RATINGS: no__spd._tckt_agil, pursu. PLAYER RATINGS: NO. Spd. tek! agil_pursu.
+Efe lela] i [1 [oils
+aaa ule[t fs [ele ee ss atete terete
+to. Pe JS ip mi ass [ess om. BS. mats tetsts
+[ele [set«ls | Rel 95 112 141 [13 | a [myel2 [31 Rees] [sls] 8
+amlepe [ets eels 3 Le La
+tenet tints
+iene wl cs nee i Sp
+i i us [se] 15 [12 [14] 15 br. - us [595] 6 [15] 15
+Dood apie s ‘mis | 58] 15 | 12 | 15 | 15. Pat Se fat, mats mus | 05] 42 [12 [12 | 14
+cE a La aie [se) 1s De [ie meta betel aa fee pape
+as i
+FB jaa] 15: | 15 [13] 6 sire |i [ve] 8 fe [ao] 15 [15 [a] 6 LEH ECT San oT
+eee eters cts
+rita oss sj
+bet no. $96. tekl_ cov. intere s Se no. spd. tek! ‘cov. inte
+1, oon: oa Seis] s]e] e oa soa Bi Salis [s [a]
+wall [2 [6 [1 wr [woh pw pw D8 wifelie]« [eps wr [whale [is
+wef [tLe |e meat arpa fe [a3 wo] tio [12 rosso is [is 12
+wa eel 7 Depa 7 toni [aaa pT pa [3 wel s [3 Tole cast oe se
+wat] eel 7s ace] zee LL 8 weap [2 fe] eso oso 1s [1010
+males [sts coae Pert bs [10 [a refute te tots to [see fie[ se
+relate ele  LaslieleLel ree]? [2 ols fz Leleletele
+Offensive Line sdsaairc Ottensve Line Special teams
+pass on hae Bi — 0am se
+= TT J aT eS itr Ts]
+. hon i a
+1G | 63 [255 | 14 | 12 IED AG | 67 | 248 | 14 | 12 lela]
+c [serfs pe —- 0 ged iat
+na] 73 [29 | 12 peysoT is Ts Tt | Wiz] 2pu ys
+are [ass [to malaipn [ws PIES
+‘OAKLAND 76 ‘Delerahe Line.
+agit pursu. TUNER ATINNS. no. spd tek agit. pursu.
+aT urs Enle [stots]
+7/8 pass pass: wivl7 [sis ie}
+v2] 12 oe releols [a lela)
+fwelw TN Ts[ a |
+faetsri Ts Ts | cece
+ee sap apne
+4119 ‘luniog Backs we toefapn] s [1] 0
+[9 ost age ue [ase tet ste
+als wer [28 [ro Tix To] 5 wie [sofas an Pan]
+m) wezlaol ote lel 6 Rows] @3] 9 | 7 [10] 10
+ois (FB_{30] 15 | 15 | a] 5 PB fazis | a is tS
+pes eto ts
+- v4 ons
+fa, is we sop at 1 soto es
+wife ne [3] S]alo[s Tn] willis [n [ela Sets [wn
+welts [ae arate at welost 7 nts faint tn [hn
+wera] eo] | 4 | 2) 3 rcet| 23 [12] 6 | 12] 12 wr3! gal ro | 6 | 2] 6 ‘cat | 24 }1a | x [43 | 13
+wre] 6) 10 [4 [1] 3 war} 29) 7 io) 9 wera] ais | 5 | 2) 5 | teat | 26 |11 | 12 | 12]
+ma [ets [ sep noe] 7 [6 [7 afelels lst] wesdlseete 7 te
+tz [atstsTtL4 wee [7 tes 17 elatetatete) tora te Te 7
+ve [lta ett fe Tolaln tele
+toate onecietie
+” Sono an eum
+nos. blok_biok. ai — no. Ibs. bok. Diok. eo
+ape lrTye Rhee: amas] |e ee
+telerfeo [7s Ae topes fase 12 =.
+c [elas Te ort clots lets iat
+eter feet 7 Le in Sia ah ele [am os no. sod_igh_ th
+ato foe]? 6 (yoy s Tw Ts | at] 75 | 260] 10] 8 (mray e[nys
+pr[ao]s | 9 | 3 pa 20 2] 0 | 6)
+
+===== Page 19 =====
+
+: DALLAS 77 ese ie PITTSBURGH 78 Deters ine
+$
+
+PLAYER RATINGS no. spé_ tek al. pus PLAYER RATINGS 0. spd. tht api pursu
+wep Tin [10 Jo] 1 aus teTete [olay e
+ome ins irfs(7 [stro ee urfas{a[s [a2] a2
+no ngo aetst_spd_ smtp apsts[alel @ no. fie Seat sod_ seb arfets [7 sl 6
+foyzpo [wls]s | RE| 79 [11 | 12 |u| 2 fosfet os Ts Tay a | rel ele [rele
+omfirto fe tals osefisfo ts tal 3
+Linebackers: ‘Unebackers
+‘Running Backs o__spd._tckL_agil_awar. Running Backs o_ spd. teki_agil_awar.
+i ork Te [se fs [15] 8 wi oa eas Ts [so]1s [12 [14] 15
+no. spd. agil_ tll nds ae fasta star a 10. sp4._sa me [selfs [12 [15 | 15.
+Hei 133 | 15 | 15 [13] 3 ais sos} a Tie] ts wei {zo 12 | 10] to} 9 CER EE ee a
+we2|26] 9 | 9 | 8] 9 vis Ts8}10 1 4 1101 10 we2| 36] 8 | 6] 6] 4 pia [56/10 | 4 [11] 10
+fe faa] 3 [an [rz] 6 Fe _| 32] 14 | 4] 4] 6
+weave acts etre Backs “i
+pass peceivrs
+ties Wie no. sp6_ tit Con ine me o_ sod tht Cov, te.
+10. sp. catch. 168 qu S [a]u lu Tala no. spd_cteh ek_quk SS [ales [a] 2
+wri/ 83] 6 | 3] 1] 2 51_| 43s | ra [1a] 15 wei} 2] 12] 7 | 3 | 7 fs1_[aa fia] 5 [12
+weales 7 [4] 7 reer | 25 [10 | 15 [90 | weefas| 7 [te] 7 near [a7 [13] 15 [va] 19
+wasesfa ts [ola [CT CT wiles] 6 [3 | o| 2 oar [20 va a5 [oe] 49
+wre} 80] 3 | 3 | 0] 3 rop2| 42} | 15 | 9 | 8 wr} 3] 3 | 2 | o | 3 Rop2| 3017 | 15 | 8 | 7
+ver fools tai] a owe [ooo 3s |e [0 meted sis lols ose [ay [va as [on | 4
+mez terts Ts tots 2 [als [stele ve [wo] 7 3 lf rz [efslslel@
+Ottensive Line Sables Ottensive Line
+sok Bok Ca Te tos Bok_ bik
+‘0 0
+eee Beer ETE E
+tele [oo [6 tae is) 57 fase [ | 6
+¢ [ae fess [| 10 0, sees apie ¢ [er [a0 | is [2
+AG] 6 [29 [12 [1 (mela Tepe] no] 2 [eu] e
+ar] 7 [ae] 9 |e (pafeste [7 | « ar] 4 [et] at] 6
+WASHINGTON 82 Dotnsve une ‘SAN FRANCISCO 84 Deterane tine
+PLAYER RATINGS no__spd_ tek! apit purse PLAYER RATINGS 0. S00 teh!_apl puree
+onan tells elul 1 uarwraces tles[7[elr]s
+ass pass hes i 2 title fas puss wets [ute] 7
+no Farge Sut spd scrmbig alal7[slels * ee ee elms tel71 3]
+fe tepete—s | re] 2]2] lel foorfueTe Tos ToT a
+omfeto feta] 3 (ole Ts Tro Tats | sitachers
+Lineacters
+power a. spd tll agi awa unning Backs on Tater
+—s ta [ssfis[s [us] a fo. sod. ap th_made tne feo] s Te fets
+Mellel ms [slots fen (oifos [is Tas Tuas mu [ede] 6] 6] 5]
+See mus [or[3 fs fie] [wwele 7 Te Tels now] ssf ofa fe 9
+mB [si] r i
+aa faba betetce 0 9 [10 ve [fat ToT) rs Tool sts Tats |
+Detersive Backs ~ eceners 7 Deters Bas
+Receivers pass
+tek o__$00_tekl_cov. intro ‘0. $04. catch. tek gui. no. spd. teal cov_incere
+0. Sod eaten 06 uk S [aloe [uf] wo lela Tels Sella
+wii 7 To TsTs sr [aofal ws [2 12 wmletetetete fectelee rete
+wrelerf ist felis moor] 32 [15 | v2 [15 | 15 waafeli ts [als neat nye baat
+wes] go] 15 | 5 | 3 | 5 cer | 45 [15] 12 [14] 15 wrales}9 [6 [3] 5 Leet | 42/13] 7 | 13) 13
+wel go] 3 [sf] s acazfar [7 [un f7 | 7 ierfole fe als ncez| 28; 7] 7] 8
+te [as] 6] 7]ats coer [oo [72 Te | 7 we[al7 te [sts wee [atel eels
+rez [eels t stots ro [z[elstels re Lol? ty trl?
+emi ‘Speci teams i aC ‘Speci rams
+pass ron orange occur nas. ok Dok orange acu
+fos Bk bk ffs Ts Ts J ita fas La Tor few st |
+Tye [os] a] 7 wel e8 [2es [| o
+@ fem Ge ee ERTS
+¢[ss[eul e|7 10, speed agit na] st [ae [an | 8 no. somes ag tc
+y Re] 63 [25s 8 [7 [eptu [3 ye ] CoE (Ie. sTut7]
+at] 74 [260] 8 [7 (ealate te [a] ree] 7
+
+===== Page 20 =====
+
+:
+
+= CHICAGO 85 Detensve Line “ALL MADDEN.92: Detesive Une
+PLAYER RATINGS 0. St. tek_aph. puts Leciaalnad no. spd. tht api. usu
+8 tf os [w To [|e Quarterbacks teTe[n] s [1s] 13
+Gy, ‘Gemeente ulwlo felts to mpete [7 3
+no. finge Sst spd sorb. arfet7 [ole [7 reps [wo |e |e]
+ceje [7 [2 6 re] os [ve J [as [ie
+(osefa [2 [7 Tata) Lineackers
+Linebackers 0. sod tcl agh avr.
+by beet: 0. S66. oka aay. Funnig Backs we Toes] 7 [15] 15
+bi te [slats Ts] 3 no spd. api tk tnd wus [so] te] 6 [5 | 15
+a mes [so] 15 [a1 [5 | 15 war]20] 15 [15 [15] 7 mus fsa? [26 | 6
+eee ris [58 15| 7 | 14 | 14 e2]3e [15 | 15 [ts | 9 OLB |s6/14| 7/15 | 15
+5
+aw ielelelete ve [sso] s [| 1 [fn [nlol 6 as felelute ls
+Detesive Backs ose Receives m Deters Backs us
+“a rk 0. sod. chev. intro no sod catch teh gue no. sod te. “ovr.
+0. spd_catch To aul 3 [afis[ 2 [is] 1s wai eo wT zt s] 2 S Jetetelul 2
+wafss[u [sey 7 es1_[a5 [a5 [v2 [14 | 15 wea] eal x0 fo [7 9 rst_{asfelo[7| 6
+wael estate| [4 nowt 21 [5] 13 | 16 | 15 waa) salt [ia] 9 | 16 cet] 26 fas] 13 | | 18
+wrafee[s [alr [a vest [27 [5 [13 [14 [15 weal sal te [12] 8 | 12 tos [at fre] 8 [5 | 18
+weal sels [a [1] 5 noez fas [7 fas [7 | 7 er [88 afs noez|26i8 [8 | ol 8
+wer [ofr [etal s a EE 12 | 85 58 vowe [ae Tis] -8 [1313
+vez [eolro fs [313 ‘se [ele[lels sz [251101 9 110] 10
+(tense Line
+Oneness 8 aoe soos Eat Sot Ta wa
+rots. Bok_ bok feelers tr] 76 [aa 12 ariel
+Ulafent ata Pelee bac] ig] 6 [ast] s rete Le]
+us| e2 |e] 9 |e = ¢ [es [oer | 4 [vo a
+[es [ae ea to. soeed agit. RG] 66 [20 [12 [1 10. speed agit
+wal sr Tarts To (apes Ts Tis Tn] ail 7s [ais | 8 mate Ts Tn
+ar] 76 [200] 9 | 8 GalsTe Tr Ts] Cerfer[e Pw Ta]
+
+EREG\= «<
+
+===== Page 21 =====
+
+CREDITS
+
+Design adapted from John Madden Football *92 by
+Scott Orr, Michael Brook, Richard Hilleman
+
+Strategy by John Madden
+Developed by Electronic Arts Canada
+
+Programming: Erik T. Kiss, Esq., Rick Friesen,
+Bill Fowler, Ben Cho, Amory Wong
+
+Graphics: David Adams, Tony Lee
+Development Producers: Don Mattrick, George
+Kawaguchi
+Music & Sound Effects: Alistair Hirst, Traz Damji,
+Kris Hatlelid
+Development Testing: Mark Lange, Alex ‘Doogie’
+Garden
+
+Producer: Scott Orr
+
+Associate Producer: Michael Brook
+
+Assistant Producer: Jeff Haas
+
+Technical Director: Scott Cronce
+
+Scouting Reports and Player Ratings: Mike Madden,
+Joe Madden, Dan Brook
+
+Product Testing: Scott Gilliland, Michael Rubinelli
+
+EAS opening sequence: Electronic Arts Ltd and Gary
+Roberts, Kevin Shrapnell, Jason Whitely, Carl Cropley
+
+Product Management: Sue Goerss, Bill Romer
+Package Design: E.J. Sarraille Design Group
+. Flanagan
+
+Documentation: T. ‘
+Documentation Layout: Evelyn Spire
+Quality Assurance: David Costa, Kevin Hogan
+
+o7 o\
+
+ELECTRONIC ARTS LIMITED WARRANTY
+
+Electronic Arts warrants to the original purchaser of this Electronic Arts software product that the medium
+con which this computer programis recordedis free from defectsin materials and workmanship fora period
+ofninety(90) days from the date ofpurchase. ThisElectronic Arts software programis sold “asis,” without
+express or implied warranty of any kind, and Electronic Arts is not able for any losses or damages of any
+kind resulting from use of this program. Electronic Arts agrees for a period of ninety (90) days to either
+repair or replace, atits option, free of charge, any Electronic Arts software product, postage paid, with proof
+of purchase, atthe Electronic Arts Warranty Department. This warranty is not applicable to normal wear
+and tear. This warranty shall not be applicable and shall be void ifthe defect in the Electronic Arts software
+product has arisen through abuse, unreasonable use, mistreatment or neglect.
+
+LIMITATIONS — THIS WARRANTY IS INLIEU OF ALL OTHER WARRANTIES AND NO OTHER REPRESENTATIONS.
+OR CLAIMS OF ANY NATURE SHALL BE BINDING ON OR OBLIGATE ELECTRONIC ARTS. ANY IMPLIED
+WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT, INCLUDING WARRANTIES OF MERCHANTABILITY
+‘AND FITNESS FOR A PARTICULAR PURPOSE, ARE LIMITED TO THE NINETY (90) DAY PERIOD DESCRIBED.
+ABOVE. INNO EVENT WILL ELECTRONIC ARTS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, OR CONSEQUEN-
+TIAL DAMAGES RESULTING FROM POSSESSION, USE OR MALFUNCTION OF THIS ELECTRONIC ARTS
+‘SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an implied warranty lasts and/or exclusions or
+limitations ofincidental orconsequentil damages sothe above limitations and/or exclusions ofliability may
+riot apply to you. This warranty gives you specific rights, and you may also have other rights which vary
+from state to state.
+
+RETURNS AFTER WARRANTY — To replace defective media after the ninety (90) day warranty period has
+expired, send the original cartridge to Electronic Arts’ address below. Enclose a statement of the defect,
+your name, your retum address, and a check or money order for $30.00.
+
+Electronic Arts
+Customer Warranty
+P.O, Box 7578
+San Mateo, CA 94403-7578
+If you need to talk to someone about this product, cal us at (415) 578-0316 Monday through Friday
+between 8:30 am and 4:30 pm, Pacific Time.
+
+Unless indicated otherwise, all software and documentationis ©1992 Electronic Arts. All Rights Reserved.
+John Madden Football '93 is a trademark of Electronic Arts.

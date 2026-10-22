@@ -1,0 +1,4446 @@
+# Demolition Man
+source: https://archive.org/details/snes_manual_archive
+pdf: Demolition Man ( EU ).pdf
+region: EU
+pages: 40
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNSP-AD6P-EUR
+
+INSTRUCTION BOOKLET
+
+===== Page 2 =====
+
+LICENSED BY
+
+Keep this information / Gardez ces informations / Diese Information aufbewahren
+Conservare queste informazioni / Guarde estas informes / Bewaar daze informatie
+
+C Qlintendo) Nintendo of Europe GmbH : 63760 GroBostheim, Deutschland
+Behll denna information / Behold denne information / Pida tama tieto
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, AND 9 ARE TRADEMARKS OF NINTENDO CO.,LTD.
+
+“Original
+
+Seal of
+Quality
+
+THIS SEAL IS YOUR ASSURANCE THAT.
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT.ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO.
+ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU'IL
+EST CONFORME AUX NORMES D'EXCELLENCE
+EN MATIERE DE FABRICATION, DE FIABILITE ET
+SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIESES QUALITATSSIEGEL IST DIE GARANTIE
+DAFUR, DASS SIE NINTENDO-QUALITAT
+GEKAUFT HABEN. ACHTEN SIE DESHALB
+IMMER AUF DIESES SIEGEL, WENN SIE SPIELE
+ODER ZUBEHOR KAUFEN, DAMIT SIE SICHER:
+SIND, DASS ALLES EINWANDFREI ZU IHREM.
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+PASST.
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO.
+QUESTO PRODOTTO. RICHIEDILO SEMPRE
+ALL'ACQUISTO DI GIOCHI ED ACCESSORI PER
+ASSICURARE LA COMPLETA COMPATIBILITA,
+CON IL TUO SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA APROBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIEMPRE ESTE
+SELLO CUANDO COMPRES VIDEOJUEGOS Y
+ACCESORIOS PARA ASEGURARTE UNA
+COMPLETA COMPATIBILIDAD GON TU SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO |S GECONTROLEERD EN DAT
+HET QUA CONSTRUCTIE, BETROUWBAARHEID
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+Bid HET KOPEN VAN SPELLEN EN
+ACCESSOIRES ALTIJD OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+
+DENNA ETIKETT GARANTERAR ATT NINTENDO.
+STAR FOR PRODUKTENS KVALITET.
+KONTROLLERA ATT ETIKETTEN FINNS PA SPEL
+OCH TILLBEHOR DU KOPER FOR ATT
+FORSAKRA DIG OM ATT DE AR KOMPATIBLA
+MED SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+DETTE SEGL GARANTERER, AT NINTENDO HAR
+GODKENDT KVALITETEN AF DETTE PRODUKT.
+SE ALTID EFTER DETTE SEGL, NAR DU KOBER
+SPIL OG TIBEHOR, SA DU ER SIKKER PA FULD
+KOMPATIBILITET MED DIT SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO ON
+HYVAKSYNYT TAMAN TUOTTEEN LAADUN.
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+‘SAAT VARMASTI SUPER NINTENDO
+ENTERTAINMENT SYSTEM YHTEENSOPIVIA
+TUOTTEITA.
+
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEUILLEZ LIRE ATTENTIVEMENT LA NOTICE "INFORMATIONS ET PRECAUTIONS
+D'EMPLOI" QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER _
+NINTENDO HARDWARE WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER L'UTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+SYSTEM™ LE CASSETTE O GLI ACCESSORI
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+VIDEOJUEGO O ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+WAARSCHUWINGEN DOOR DIE BlJ DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO-
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR.
+
+ADVARSEL : LES FORBRUGERINFORMATIONEN OG H/EFTET MED SIKKERHEDSREGLER, DER
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM,
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISESTI LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAl MUUN VAURSTEEN KAyTT OA
+
+===== Page 3 =====
+
+90-DAY LIMITED WARRANTY
+
+‘Super Nintendo Entertainment System GAME PAKS
+
+ACCLAIM ENTERTAINMENT LTD. ("ACCLAIM") warrants to the original
+consumer purchaser that the Super Nintendo Game Pak ("PAK") shall be
+free from defects in material and workmanship for a period of 90 days from
+the date of purchase.
+
+If a defect covered by this warranty occurs during this 90-day limited
+warranty period, ACCLAIM will repair or replace the defective Pak, at its
+option, free of charge.
+
+To receive this warranty service, return the Pak postage prepaid, insured,
+and with proof of the date of purchase to:
+
+ACCLAIM ENTERTAINMENT LTD.
+
+Moreau House, 112-120 Brompton Rd., Knightsbridge,
+
+London SW3 1JJ, England
+
+Paks returned without proof of the date of purchase or after the 90-day
+limited warranty period will, at the option of ACCLAIM, be repaired at the
+service charge then in effect for out-of-warranty repair. Call (071) 3445000
+for the amount of this charge. (Repair done after acceptance of the
+quotation.) Payments must be made by cheque or postal order, payable to
+ACCLAIM ENTERTAINMENT LTD.
+
+This warranty shall not apply if the Pak has been damaged by negligence,
+accident, abuse or modification subsequent to purchase. This warranty does
+not affect your statutory rights.
+
+For all information on this Game Pak or other Acclaim Game Paks, call
+the Acclaim "Hotline" at (071) 2251166.
+
+DEMOLITION MAN, characters, names and all related indicia are
+trademarks of Warner Bros. © 1995 Virgin Interactive Entertainment,
+Inc. All rights reserved. Virgin is a registered trademark of Virgin
+Enterprises, Ltd. Developed by Alexandria Incorporated. The NFL
+Quarterback Club is a trademark of the National Football League. All
+Rights Reserved. Developed by Iguana. Acclaim is a division of Acclaim
+Entertainment ® & © 1995 Acclaim Entertainment. All Rights Reserved.
+
+GEWAHRLEISTUNG
+
+Acclaim Entertainment GmbH gewahrt fur die Dauer von sechs
+
+Monaten ab Kauf eine Qualitatsgarantie fur in Deutschland von Acclaim
+Entertainment GmbH gekauften Produkte. Die Gewahrieistung ist nach Wahl
+von Acclaim auf eine Mangelbeseitigung oder auf eine Ersatzlieferung eines
+méangelfreien Produktes beschrankt, weitergehnde Anspriiche sind
+ausgeschloosen.
+
+Die Gewahrleistung erlischt, wenn die Mangel auf einer
+
+unsachgemaBen Behandlung und/oder nicht autorisierte Reparaturversuche
+und/oder sonstige Beschadigungen nach dem Kauf beruhen.
+
+Zur Wahrnehmung der Garantie wenden Sie sich bitte an der Handler, bei dem
+Sie das Spiel erworben haben.
+
+Vertrieb durch: Acclaim Entertainment GmbH,
+
+Mohistrasse 10, 81675 Miinchen, Deutschland.
+
+FRANCE SEULEMENT
+GARANTIE LIMITEE A 90 JOURS
+Super Nintendo Entertainment System GAME PAKS (Cartouches)
+ACCLAIM ENTERTAINMENT S.A. garantit la présente cartouche NINTENDO
+contre tout défaut durant une période de 90 jours a compter de la date
+d'achat.
+Si un défaut de fabrication apparait pendant la période de garantie,
+ACCLAIM ENTERTAINMENT S.A. réparera ou remplacera gratuitement la
+cartouche défectueuse.
+Pour faire jouer cette garantie, veuillez retourner la cartouche a votre
+revendeur NINTENDO avec un justificatif d'achat.
+Pour plus d'information sur les jeux Acclaim, vous pouvez consulter :
+
+¢ Le minitel au 36-15 ACCLAIM
+
+* Le vocal Acclaim au 36.68.10.25
+
+Les cartouches retournées sans facture ou aprés I'expiration de la durée
+de garantie seront au choix de ACCLAIM ENTERTAINMENT S.A., soit
+réparées, soit remplacées a la charge du client.
+
+Cette garantie ne jouera pas si la cartouche a éta endommagée par
+négligence, accident, usage abusif, ou si elle a été modifiée apres son
+acquisition.
+
+BELGIQUE ET LUXEMBOURG SEULEMENT
+
+GARANTIE LIMITEE A 90 JOURS.
+
+‘Super Nintendo Entertainment System GAME PAKS (Cartouches)
+
+ACCLAIM ENTERTAINMENT SA garantit  l'acheteur, premier utilisateur, que
+la SUPER NINTENDO ENTERTAINMENT SYSTEM GAME PAK («Cartouche»)
+ne comporte aucun défaut de matériau ou d’exécution durant une période
+de 90 jours a compter de la date d’achat. Si un défaut couvert par cette
+garantie apparait durant cette période, ACCLAIM ENTERTAINMENT SA soit
+réparera soit remplacera gratuitement, a son choix, la cartouche
+défectueuse.
+
+Pour faire jouer cette garantie, retournez la cartouche a votre revendeur
+NINTENDO ou expédiez-la en recommande et port payé accompagnée d'un
+double de votre facture d’achat a:
+
+Columbia TriStar Home Video
+
+38 Rue Souveraine, 1050 Brussels, Belgium
+
+Les cartouches retournées sans le double de la facture d’achat ou aprés
+expiration de la durée de la garantie seront, au choix de ACCLAIM
+ENTERTAINMENT SA ou réparées ou remplaceées a la charge du client,
+suivant |e tarif prévu pour les reparations non couvertes par la garantie.
+Cette garantie ne jouera pas si la cartouche a été endommageée par
+négligence, accident, usage abusif, ou si elle a été modifiée aprés
+acquisition.
+
+90 DAGEN GARANTIE
+
+‘Super Nintendo Entertainment System SPELKASSETTE (PAL versie)
+Acclaim garandeert de eerste konsument - koper/gebruiker, dat deze
+Super Nintendo Entertainment System Spelkassette (=spelkassette)
+gedurende 90 dagen na aankoop geen materiaal- of konstruktietouten zal
+vertonen.
+
+Indien onverhoopt toch een defekt optreedi dat gedekt wordt door
+onderhavige garantie, zal de distributeur, Columbia TriStar Home Video, de
+spelkassette kosteloos repareren of vervangen, zulks te harer keuze.
+
+Om van deze service gebruik te maken, retourneert u de kassette aan uw
+Nintendo dealer, dan wel, voldoende gefrankeerd an met volledig
+aankoopbewijs (voorzien van officiéle aankoopdatum), aan :
+
+Columbia TriStar Home Video,
+
+postbus 685, 1200 AR Hilversum, Nederland
+
+Columbia TriStar Home Video
+
+Opperstraat 38, 38 Rue Souveraine, 1050 Brussels, Belgium
+Spelkassettes welke zonder geldig aankoopbewijs of na het verstrijken van
+de 90 dagen termijn worden aangeboden, zullen gerepareerd of vervangen
+worden, en dit naar kKeuze van Columbia TriStar Home Video, tegen de
+buiten de garantie vallende kosten.
+
+De hiervoor beschreven garantie geldt niet als de spelkassette beschadigd is
+door onachtzaamheid, ongeluk, abnormaal gebruik of indien veranderingen aan
+de spelkassette ziin aangebracht na de aanschaf.
+
+GARANZIA
+
+Il perfetto funzionamento di questogioco é stato controllato prima della
+spedizione. Per questo motivo il Acclaim Entertainment,Ltd. di garantisce
+il prodotto acquistatoper un periodo di 3 (tre) mesi dalla data di acquisto.
+Per i successivi 9 (nove) mesi prov-vedera alla riparazione o sostituzione
+dej prodotti che risulteranno non fun-zionanti. |I costo della riparazione
+portra variare, in base all'intervento da esequire, da un minimo di L.
+20.000 ad un massimo di L. 120.000 da pagarsi in contrassegno. La
+presente garanzia copre i difetti di produzioneo di materiale, ma non
+quelli dovuti ad un uso non proprio del prodotto o a manutenzioni e
+riparazioni da parte di personale non autorizzato.Se il prodotto risultasse
+difettoso durante il periodo di garanzia, la preghiamo di spedirlo per la
+sostituzione, porto franco, perfettamente imballato ed accompagnato da
+questa garanzia (compilare in ogni sua parte e con lo scontrino fiscale
+
+allegato) a:
+C reread 0-8754 Groflostheim Brompton Rd., Knightsbridge,
+
+MADE IN JAPAN London SW3 14J, England
+PRODOTTO CONFORME AL DECRETO LEGISLATIVO 27/9/1991, N313 IN ATTUAZIONE
+DELLA DIRETTIVA 88/378/CEE. NON ADATTO A BAMBINI DI ETA INFERIORE Al 36
+MESI A CAUSA DELLE PARTI TROPPO PICCOLEE DEL CONSEGUENTE RISCHIO DI
+INGESTIONE. CONSERVARE LE ISTRUZIONI 0 LA SCATOLA PER FUTURA REFERENZA.
+
+ACCLAIM ENTERTAINMENT LTD.
+Moreau House, 112-120
+
+This product is exempt from classification under U.K. Law.
+In accordance with The Video Standards Council Code of Practice
+itis considered suitable for viewing by the age range(s) indicated.
+
+===== Page 4 =====
+
+GETTING STARTED
+
+1, Set up your Super Nintendo
+Entertainment System™ following the
+instructions in the manual that came with
+your system.
+
+2. Make sure the power switch is OFF
+before inserting the Game Pak. Insert the
+DEMOLITION MAN™ game cartridge.
+
+3. Turn the Super Nintendo Entertainment
+System™ on.
+
+4. You will see a series of credit screens.
+
+Press the start button at any time to skip
+to the next screen.
+
+5. After the title screen you will have three
+options START, OPTIONS, and ACTIONS.
+Choosing START will take you directly
+to the rooftops to begin your mission.
+Choosing OPTIONS will take you to the
+options screen. Selecting ACTIONS will
+allow you to see a tutorial mode of
+the game.
+
+THE OPTIONS SCREEN
+
+DIFFICULTY:
+SOUND
+
+MUSIC
+
+SOUND TEST
+
+THE OPTIONS SCREEN
+Use the Control-Pad to move the icon in front
+of the option you wish to change.
+CONTROLLER CONFIGURATION
+Use the control pad to move the cursor to
+the move you wish to assign a button to, then
+press the button (A, B, X, or Y) you want to
+execute that move.
+DIFFICULTY
+Your choices are: Calm, Crazed or Total
+Demolition.
+
+SOUND FX
+3 On or Off (select with any button).
+
+MUSIC
+On or Off (select with any button)
+
+SOUND TEST
+
+Press any button for sound test screen and
+choose from options (Press A to play sound
+Press B to stop sound. Press START to retun
+to options screen.)
+
+EXIT
+
+Pressing start takes you back to the main
+options screen. There, you can choose from:
+START GAME and go to your first mission,
+reset OPTIONS or sample ACTIONS (a tutorial
+mode, press start to begin then, press L or
+R on the Control-PAD to scroll through to the
+next lesson in movement).
+
+CONTROL INFORMATION
+
+SIDEVIEWLEVEIS =, gk
+
+BUTTONS ee
+X—-Fires gun. contrat
+Y -Fires gun oe arene
+
+A - Throws grenades.
+
+B - Jump. To roll,
+press down on
+the direction pad while holding.
+
+L - Not used.
+
+R - Not used.
+
+DIRECTION PAD
+
+UP - Climb.
+
+DOWN - Crouch or descend ladders.
+RIGHT - Aim or run to the right.
+LEFT - Aim or run to the left.
+
+START
+
+Press START button to pause the action
+during the game.
+
+When on a zip line, pressing the Throw
+Button (A) will slow your speed
+
+TOP VIEW LEVELS
+BUTTONS
+& - Plant and shoot
+
+Y - Run and shoot
+
+A - Throw grenade
+
+B - Lock direction and shoot while moving
+L — Not used
+
+R - Shoot backwards while running
+DIRECTION PAD
+
+RIGHT - Runs or fires weapons to the right.
+LEFT - Runs or fires weapons to the left.
+
+DOWN - Runs or fires weapons to the
+bottom of the screen.
+
+UP - Runs or fires weapons to the top of
+the screen.
+
+Y
+Select Start Button
+Button Button
+
+===== Page 5 =====
+
+USING YOUR WEAPONS:
+GUNS:
+
+You will be automatically armed with a hand
+gun. If you pick up any other weapon, your
+handgun will be holstered and that new
+weapon will be your mode of attack until it
+runs gut of ammunition. At that time you will
+revert back to your handgun
+
+HAND GRENADES:
+
+There are two types of Grenade icons, Hand
+Grenades and Flame Grenades. Picking up a
+Hand Grenade icon will give you five
+grenades. Picking up a Flame Grenade icon
+gives you three grenades. You can use them
+at your discretion but they cannot be
+stockpiled together. If you have one type of
+grenade in your posession and pick up
+another, all of your grenades become that
+type. Your hand grenades are displayed in
+the lower left corner of the screen above the
+health meter.
+
+WEAPONS AT YOUR DISPOSAL
+
+These weapons may be available during your missions. Note that the handgun
+
+is always available.
+
+HANDGUN - Ammunition is
+plentiful. Use as needed
+
+SHOTGUN - Ammunition is limited.
+When using the shotgun, you will
+have a greater firing range.
+
+MAGNUM - A more powerful
+handgun eliminating enemies with
+less ammunition. Ammunition is
+limited.
+
+HAND GRENADE - 20th century
+explosive which eliminates
+opponents in path of its flying
+debris
+
+FLAME GRENADE - Eliminates
+opponents and leaves flame in its
+wake.
+
+MINI PACK - Partially restores life
+power.
+
+MEDI PACK - Restores life power.
+
+EXTRA LIFE - Gives you another
+life.
+
+INFRARED GOGGLES - Use these
+special glasses to aid in your night
+vision.
+
+BODY ARMOR - This protective
+armor is virtually bullet proof.
+
+FREEZE VIALS - Contains the
+chemical agent that begins the
+Cryo-suspension process. Use this
+on cons and Phoenix to freeze
+them
+
+LOS ANGELES POLICE DEPARTMENT
+CASE FILE #425
+JOHN SPARTAN
+
+SIMON PHOENIX
+WARNING?
+ALL MATERIAL CONTAINED HEREIN
+IS DEEMED CONFIDENTIAL.
+
+===== Page 6 =====
+
+LOS ANGELES
+POLICE DEPARTMENT
+
+PRE MISSION BRIEFING REPORT
+
+DATE: 8-21-96
+
+TO: OFFICER JOHN SPARTAN
+
+RE: THE APPREHENSION OF SIMON PHOENIX
+MISSION NAME: THE ROOFTOPS
+
+SUMMARY:
+
+Simon Phoenix is wanted by the Los Angeles
+Police Department for charges connecting
+him to several felonies throughout the city
+and surrounding areas. The charges include
+aggravated murder, murder, attempted
+murder, assault, assault with a deadly
+weapon, grand theft, theft and kidnapping.
+
+It is well known, and all Los Angeles Police
+Department Personnel have been advised,
+that Phoenix is currently armed and
+considered extremely dangerous. He is
+heavily supported by a vast underground of
+weapons and stolen equipment suppliers.
+
+Through working alone or with other law
+enforcement agencies, previous attempts to
+apprehend Phoenix have not been successful
+These attempts have resulted in the loss of
+civilian and departmental property. Many
+officers and civilians have suffered great
+bodily harm or loss of life as a result of
+Phoenix's resistence to arrest. For this
+reason alone, the department is especially
+interested in bringing Phoenix to justice.
+
+MISSION OBJECTIVE:
+
+You will be
+transported via
+helicopter to the
+rooftop of an
+abandoned
+warehouse where
+Simon Phoenix
+and his
+supporters are
+believed to be
+headquartered. It is believed that Phoenix, as
+in previous encounters, is heavily armed and
+
+supported by personnel and equiptment,
+5 including weapons.
+
+Once you disembark from the helicopter,
+you will be on your own. Due to the surface
+to air firepower directed at the copter, we
+can offer no firepower support during
+your mission.
+
+It is your mission to get across the rooftops
+and into the building. Once inside, find
+Phoenix and bring him out alive. We believe
+that the thirty innocent civilian hostages
+whom Phoenix captured earlier today are still
+alive somewhere in the building. Take
+extreme caution when confronting Phoenix so
+as not to jeopardize the civilian hostages
+
+DISCIPLINARY WARNING:
+
+Even though you are considered the most
+qualified officer for this position, consider this
+official and fair warning. You are officially on
+departmental probation for previous
+recklessness resulting in damage to civilian
+property and personal health. While your
+passion to bring offenders to justice is
+admirable, and we wish to see Phoenix
+captured and brought to justice, it can not be
+at the expense of taxpayer property or well
+being. Although we wish to see Phoenix
+Captured and brought to justice, use only
+appropriate force to avoid further disiplinary
+action.
+
+SAN ANGELES
+POLICE DEPARTMENT
+
+PRE MISSION BRIEFING REPORT
+
+DATE: 8-03-2032
+
+TO: JOHN SPARTAN
+
+FROM: PROTECT AND SERVE HEADQUARTERS
+RE: THE APPREHENSION OF SIMON PHOENIX
+MISSION NAME: THE MUSEUM
+
+SUMMARY:
+
+Ex-Officer John Spartan, you have been
+released from your  cryo-synthesis
+incarceration unit after serving only thirty
+years of your seventy year sentence for
+reckless endangerment of human life. You
+have been released for departmental
+business only. This is not a parole or
+termination of sentence release.
+
+===== Page 7 =====
+
+Thirty six year ago you were involved in the
+apprehension of one Simon Phoenix from a
+warehouse in the municipality that was then
+named Los Angeles.
+
+Earlier this morning, during a routine parole
+hearing, Simon Phoenix escaped the
+California Cryo-Prison facility. In the process
+he performed four code 187's-MDK-Murder
+Death Kills. You have been brought out of
+your cryo state to assist and advise the San
+Angeles Police Department on methods of
+capturing Simon Phoenix.
+
+MISSION OBJECTIVE:
+
+It is believed that Phoenix will be heading to
+the COUNTY MUSEUM OF HUMAN HISTORY
+Currently the museum has an exhibit titled
+THE HALL OF VIOLENCE. This exhibit contains
+a vast array of weapons from three different
+centuries. We believe Phoenix's main
+objective will be to obtain as many weapons
+as possible.
+
+Stop Phoenix from robbing the museum and
+bring him back in for incarceration
+
+SAN ANGELES
+POLICE DEPARTMENT
+
+ADDENDUM TO PRE-MISSION
+
+BRIEFING REPORT
+
+DATE: 8-03-2032
+
+TO: JOHN SPARTAN
+
+RE: THE APPREHENSION OF SIMON PHOENIX
+MISSION MAME: THE S' EUM
+
+SUMMARY:
+
+The pursuit of Simon Phoenix is no longer
+confined to the HALL OF VIOLENCE in the
+County Museum of Human History. During
+the Confrontation, the glass flooring was
+demolished dropping Spartan and Phoenix
+below into the SUB-MUSEUM excavation
+exhibit. For purposes of clarity in tracking
+Spartan and Phoenix, this portion of the
+mission is now named THE SUB- MUSEUM.
+
+The objective of the mission has not
+changed. Capture Simon Phoenix and and
+return him to the cryo prison.
+
+SAN ANGELES
+POLICE DEPARTMENT
+
+PRE-MISSION BRIEFING REPORT
+DATE: 8-03-2032
+TO: JOHN SPARTAN
+FROM: PROTECT AND SERVE HEADQUARTERS
+RE: THE APPREHENSION OF CRYO
+PRISONER SIMON PHOENIX.
+MISSION NAME: THE PARKING STRUCTURE
+
+SUMMARY:
+
+Several convicts have escaped from the
+California Cryo-penetentiary and Rehabilitation
+facility. They are currently at large within the
+city limits. San Angeles City surveillance
+system reports that several escaped cryo-
+cons have invaded city owned parking facility
+#425 East Summit Street. Massive
+destruction to city and civilian property has
+been reported.
+
+MISSION OBJECTIVE:
+
+Enter the parking structure at the ground
+level and eliminate the cryo cons damaging
+cars and the structure. Make your way to
+the top level of the structure and stop the
+crane which is picking up cars and dropping
+them on Spartan.
+
+SAN ANGELES
+POLICE DEPARTMENT
+
+PRE-MISSION BRIEFING REPORT
+
+DATE: 8-03-2032
+
+TO: JOHN SPARTAN
+
+FROM: PROTECT AND SERVE HEADQUARTERS
+RE: THE APPREHENSION OF CRYO PRISONER
+SIMON PHOENIX.
+
+MISSION NAHE: THE MONORAIL
+
+===== Page 8 =====
+
+SUMMARY:
+
+San Angeles Public Monorail Transport Train
+#425 has been taken over by Cryo-cons. The
+train operator is missing and presumed
+dead. The train is being operated by one of
+the cryo-cons.
+
+MISSION OBJECTIVE:
+
+You will begin your mission at the rear of
+the moving train. You must battle your way to
+the front car of the train and bring it to a
+halt. Eliminate all cryo-cons in the train. Make
+your way to the front and destroy the Mono
+Rail's engine.
+
+SAN ANGELES
+POLICE DEPARTMENT
+
+PRE-MISSION BRIEFING REPORT
+DATE: 8-03-2032
+TO: JOHN SPARTAN
+FROM: PROTECT AND SERVE HEADQUARTERS
+RE: THE APPREHENSION OF CRYO
+PRISONER SIMON PHOENIX.
+MISSION WAME: THE LIBRARY
+
+SUMMARY:
+
+Many of the cons have been sighted at the
+San Angeles County Library. Reports of
+violence, destruction to city and personal
+property, assault and bodily harm to civilian
+and police department personnel have been
+reported
+
+MISSION OBJECTIVE:
+
+You must enter the library and stop the cryo
+cons from doing further destruction.
+
+Do not let harm come to any civilian
+7 inside the building.
+
+Make your way through all the rooms of the
+library and eliminate all of the escaped cryo-
+cons inside the building
+
+SAN ANGELES
+POLICE DEPARTMENT
+
+PRE-MISSION BRIEFING REPORT
+
+DATE: 8-03-2032
+
+TO: JOHN SPARTAN
+
+FROM: PROTECT AND SERVE HEADQUARTERS
+
+RE: THE APPREHENSION OF CRYO
+PRISONER SIMON PHOENIX.
+
+MISSION NAME: ZIP LINE
+
+SUMMARY:
+
+The city’s Resident Observation and
+Surveillance System has detected an opening
+in one of the access ports to the abandoned
+maintenance and utility tunnels. This access
+way leads to the under city commonly known
+as The Wasteland. This is the last recorded
+sighting of Simon Phoenix.
+
+MISSION OBJECTIVE:
+
+It is your mission to ride zip lines, traverse
+catwalks, and bungee jump your way
+downward to the floor of The Wasteland. It is
+known that several escaped cryo cons, loyal
+to Phoenix, are posted in the zip line level to
+stand guard. Make your way to the bottom of
+the zip line level, eliminating as many cryo
+cons as possible.
+
+SAN ANGELES
+POLICE DEPARTMENT
+
+ADDENDUM TO PRE-MISSION
+
+BRIEFING REPORT
+
+DATE: 8-03-2032
+
+TO: JOHN SPARTAN
+
+RE: THE APPREHENSION OF CRYO
+PRISONER SIMON PHOENIX.
+
+MISSION NAME: THE WASTELAND
+
+===== Page 9 =====
+
+SUMMARY:
+
+San Angeles Police Department officer John
+Spartan has successfully completed Mission
+Zip Line. This addendum has been added as
+a matter of record keeping by the San
+Angeles Police and Personnel Computerized
+Records and Observation System.
+
+The pursuit of Phoenix has extended from the
+
+previous mission sight onto the catwalks
+above the Wasteland.
+
+MISSION OBJECTIVE:
+
+The Catwalks are walkways suspended above
+the Wasteland. They are very old and
+treacherous to walk on. They form a maze
+like grid over the entire Wasteland. It is
+believed that there are many Cryo-Cons
+stationed on the catwalks to guard Phoenix.
+Traverse the catwalks and eliminate the Cryo-
+Cons to track Phoenix.
+
+Although it is considered highly dangerous,
+due to the maze like structure of the
+catwalks, you may find your mission objective
+quicker if you jump from catwalk to catwalk.
+But be forewarned, take extreme caution
+when exercising this maneuver!
+
+SAN ANGELES
+POLICE DEPARTMENT
+
+ADDENDUM TO PREMISSION
+BRIEFING REPORT
+DATE: 8-03-2032
+TO: JOHN SPARTAN
+FROM: PROTECT AND SERVE HEADQUARTERS
+RE: THE APPREHENSION OF CRYO
+PRISONER SIMON PHOENIX.
+MISSION AME: THE PIPE MAZE
+
+SUMMARY:
+
+This addendum has been added to the
+Spartan/Phoenix file as a matter of record.
+The City's Personnel Observation and Control
+System has detected that Spartan’s pursuit
+for Cryo-Prisoner Simon Phoenix has left the
+previous mission area of the catwalks.
+
+MISSION OBJECTIVE:
+
+Pursue Simon Phoenix through the
+abandoned maintenance tunnels of San
+Angeles. There are several Cryo-Prisoners
+stationed in the tunnels to protect Phoenix.
+
+Work your way through the maze of tunnels
+beneath the city and apprehend Phoenix.
+
+SAN ANGELES
+POLICE DEPARTMENT
+
+PRE-MISSION BRIEFING REPORT
+
+DATE: 8-3-2032
+
+TO: JOHN SPARTAN
+
+FROM: PROTECT AND SERVE HEADQUARTERS
+
+RE: THE APPREHENSION OF CRYO
+PRISONER SIMON PHOENIX.
+
+MISSION NAME: THE GRYO-PRISON
+
+Hl
+I
+]
+
+SUMMARY:
+
+The city's Observe and Control Surveillance
+System has detected a forceful entry into the
+California Cryo Incarceration Facility. Visual
+surveillance indicated that Simon Phoenix has
+entered the facility and is releasing other
+Cryo-Cons from their state of suspended
+animation
+
+MISSION OBJECTIVE:
+
+The cryo facility is made up of several
+chambers and hallways. Probability is high
+that you will come head to head with many of
+the cryo cons that Phoenix has released.
+Fight your way through the halls of the cryo-
+prison and find Phoenix. Due to the
+tremendous amount of damage and loss of
+life in previous missions, this is a fight to the
+death. You are to stop Phoenix at all costs.
+
+===== Page 10 =====
+
+LADEANLEITUNG
+
+1. Stelle das SNES™ so ein, wie in der mit
+dem Gerat gelieferten Anleitung
+beschrieben.
+
+2. Vergewissere Dich, daB Dein Gerat
+AUSGESCHALTET ist, bevor Du das
+Spielmodul einsteckst. Stecke das
+Spielmodul von DEMOLITION MAN™
+in das Gerat ein.
+
+3. Schalte das Super Nintendo
+Entertainment System™ EIN.
+
+4. Es folgen mehrere Mitarbeiter-
+Bildschirme. Drucke START, um zum
+nachsten Bildschirm zu gehen.
+
+5. Nach dem Anfangsbildschirm hast Du die
+drei Optionen START, OPTIONS und
+ACTIONS zur Auswahl. START fuhrt Dich
+direkt zu den Dachern, um Deine Mission
+zu beginnen. OPTIONS zeigt Dir den
+OPTIONEN-BILDSCHIRM an. ACTIONS
+zeigt Dir eine Anleitung zum Spiel.
+
+DER OPTIONSBILDSCHIRM
+
+SCHWIERIG-
+KEITSGRAD
+
+DER OPTIONSBILDSCHIRM — Mit, dem R-KNOPF
+(Richtungsknopf) kannst Du das Icon zu der
+Option bewegen, die Du &ndern willst.
+KONFIGURATION DER STEUERUNG — Benttze
+Dein Joypad, um den Cursor auf den Move zu
+bewegen, dem ein Knopf zugewiesen werden
+soll. Dann dricke den KNOPF (A, B, X oder
+Y), der den Move ausfthren soll.
+SCHWIERIGKEITSGRAD — Du hast folgende
+Optionen: "Calm" (Ruhig), "Crazed" (Manisch)
+oder "Total Demolition" (Totale Zerstérung).
+SOUNDEFFEKTE — Soundeffekte ein oder aus
+(Auswahl mit jedem Knopf)
+
+MUSIK - Musik ein oder aus (Auswahl
+
+mit jedem Knopf)
+
+SOUND TEST — Dricke START, um zum
+Soundtest-Bildschirm zu gehen, wo Du
+zwischen verschiedenen Startoptionen wahlen
+kannst: Dricke Knopf A, um den Sound zu
+héren, Knopf B, um den Sound abzustellen.
+Drucke START, um zum Optionsbildschirm
+zuruckzugehen.
+
+BEENDEN -\Nenn Du START drickst, kehrst
+Du zum Bildschirm mit den Hauptoptionen
+zuruck. Dort hast Du folgende
+AuswahlImoglichkeiten: Mit START GAME
+(Spiel starten) beginnst Du mit dem ersten
+Einsatz, mit OPTIONS kannst Du die Optionen
+einstellen, mit ACTIONS kannst Du eine
+Spielanleitung aufrufen. (Drucke START, um
+die Anleitung zu starten. AnschlieBend kannst
+Du mit Knopf L oder R bzw. dem R-KNOPF
+zur naéchsten Lektion Uber die Spielaktionen
+wechseln).
+
+STEUERUNG
+
+fi
+LEVEL IN DER ce ea
+SEITENANSICHT
+
+KNOPFE onrad
+X - SchieBen
+
+Y - SchieBen Select Start
+A-Granaten werfen 7" Meet Kovot
+B- ne Knopf B gedrtickt halten und
+
+X Knopf
+A Knopf
+
+B Knopf
+
+R-KNOPF - Rollen.
+L- Wird nicht benotigt
+R - Wird nicht benotigt
+R-KNOPF
+
+OBEN - Klettern
+
+UNTEN - Ducken oder Leitern
+heruntersteigen.
+
+RECHTS - Nach rechts laufen bzw. zielen
+LINKS - Nach links laufen bzw. zielen
+
+START
+
+Dricke wahrend des Spiels START, um das
+Spiel anzuhalten.
+
+Wenn Du Dich auf einer Zip Line (einer Art
+Forderband) befindest und Knopf A drickst,
+wird Deine Geschwindigkeit verringert.
+
+LEVEL IN DER ANSICHT VON OBEN
+
+KNOPFE
+
+X - Stehen und schieBen
+
+Y - Laufen und SchieBen
+
+A - Granaten werfen
+
+B - In eine Richtung feuern, wahrend Du Dich
+bewegst.
+
+L - Wird nicht benotigt
+
+R - Im Lauf ruckwarts schieBen
+
+R-KNOPF
+
+RECHTS - Nach rechts feuern oder laufen
+LINKS - Nach links feuern oder laufen.
+UNTEN - In Richtung unterer Bildschirmrand
+schieBen oder laufen
+
+OBEN - In Richtung oberer Bildschirmrand
+schieBen oder laufen
+
+===== Page 11 =====
+
+VERWENDUNG DER WAFFEN
+SCHUSSWAFFEN:
+
+Du bist automatisch mit einer
+Handfeuerwaffe ausgerUstet. Wenn Du
+irgendeine andere Waffe aufnimmst, kommt
+die Handfeuerwaffe automatisch in den
+Halfter, und Du greifst mit der neuen Waffe
+an. Wenn Dir die Munition fiir die neue
+Waffe ausgeht, wird zur Handfeuerwaffe
+zurUickgeschaltet.
+
+HANDGRANATEN:
+
+Es gibt ein Icon fur Handgranaten und ein
+anderes Icon fur Flammengranaten. Mit
+einem Handgranate-lcon erhaltst Du ftinf
+neue Granaten
+
+Wenn Du eine Flammengranate aufhebst,
+wirst Du mit drei Granaten bewaffnet. Du
+kannst die Granaten beliebig benutzen, sie
+kénnen jedoch nicht gesammelt werden
+Wenn Du Uber einen bestimmten
+Granatentyp verfugst und einen anderen
+aufhebst, werden alle Granaten zu dem Typ,
+den Du gerade aufgenommen hast. Deine
+Handgranaten werden oberhalb der
+Gesundheitsanzeige in der unteren linken
+Bildschirmecke angezeigt.
+
+2U DEINER VERFUGUNG STEHENDE WAFFEN
+
+Die folgenden Waffen stehen wahrend der Einsatze zur VerfUgung. Die Pistole ist
+
+immer verfugbar.
+
+PISTOLE - Munition ist im Uberflu8
+vorhanden. Du kannst sie jederzeit
+einsetzen
+
+GEWERR - Die Munition ist
+begrenzt. Mit dem Gewehr hast Du
+eine gréBere Reichweite.
+
+MAGNUM - Eine Pistole mit
+gréBerer Durchschlagskraft. Die
+Munition ist zwar begrenzt, die
+Waffe zeitigt allerdings mehr
+Wirkung.
+
+HANDGRANATE - Ein Sprengkorper
+aus dem 20. Jahrhundert, der alle
+Gegner erledigt, die sich in der
+Flugrichtung der Splitter aufhalten.
+
+FLAMMENGRANATE - Raumt
+Gegner beiseite und hinterlaBt eine
+Flammenspur.
+
+MINI KIT - Frischt Deine Energie
+zum Teil auf.
+
+MEDIKIT - Frischt Deine Energie
+wieder auf.
+
+EXTRA-LEBEN - Verschafft Dir ein
+zusatzliches Leben.
+
+INFRAROT-BRILLE - Spezialbrille fur
+Nacht-und-Nebel-Aktionen.
+
+SCHUTZPANZER - Dieser Harnisch
+ist kugelsicher.
+
+GEFRIERLADUNG - Enthalt einen
+chemischen Wirkstoff, der den
+Kryosuspensions-ProzeB (eine Art
+Gefrierschlaf) auslast. Mit dieser
+Waffe kannst Du die Knackis und
+Phoenix einfrieren
+
+LOS ANGELES POLICE DEPARTMENT
+AKTE: 425
+JOHN SPARTAN
+
+SIMON PHOENIX
+WARNUNGYS
+DIE HIER ENTHALTENEN
+INFORMATIONEN SIND VERTRAULICH.
+
+===== Page 12 =====
+
+SAN ANGELES POLICE DEPARTMENT
+EINSATZINFOS
+
+DATUM:21.08.96
+
+AN: OFFICER JOHN SPARTAN
+
+BETR.: FESTHAHME VON SIMON PHOENIX
+EINSATZBEZEICHNUNG: DACHGESCHOSSE
+
+ZUSAMMENFASSUNG:
+
+Simon Phoenix wird vom Los Angeles Police
+Department wegen verschiedener schwerer
+Verbrechen, die in Los Angeles und
+Umgebung begangen wurden, gesucht. Zu
+den Verbrechen zahlen mehrfacher Mord,
+Mord, versuchter Mord, Uberfall,
+bewaffneter Uberfall, schwerer Diebstahl,
+Diebstahl und Entfiihrung.
+
+Die Bediensteten des Los Angeles Police
+Department wurden davon in Kenntnis
+gesetzt, daB Simon Phoenix bewaffnet ist und
+fiir extrem gefahrlich gehalten wird. Er wird
+von einem ganzen Heer von Waffenschiebern
+und Hehlern gestohlener Ausrustung
+unterstutzt. Fruhere Versuche, Phoenix
+festzunehmen, scheiterten. All diese
+versuchten  Festnahmen haben = zu
+erheblichen Zerstérungen von zivilem und
+polizeilichem Eigentum gefuhrt.
+
+Auch mit Hilfe von speziellen Gesetzeshitern
+und anderen Geheimdiensten ist es
+niemandem zuvor gelungen, Phoenix
+festzunehmen. Die Versuche fuhrten nur zur
+Zerstorung von Zivil- und Staatseigentum.
+Viele Offiziere und Zivilisten muBten schwere
+Verletzungen ertragen oder starben, wegen
+Phoenixs brutalem Widerstand. Schon aus
+diesem Grund ist der Staat besonders an der
+Verhaftung von Phoenix interessiert
+
+EINSATZZIEL:
+
+Du wirst mit
+einem
+Hubschrauber auf
+dem Dach eines
+verlassenen
+Warenlagers
+abgesetzt, in dem
+Simon Phoenix
+und seine Bande wahrscheinlich ihr.
+Hauptquartier eingerichtet haben. Sobald Du
+aus dem Helikopter ausgestiegen bist,
+| bist Du auf Dich allein gestellt. Es ist
+anzunehmen, daB Phoenix wie in
+vorherigen Begegnungen,
+
+auBerordentlich stark bewaffnet ist und von
+Kriminellen mit Ausriistung unterstutzt wird.
+Da der Helikopter vom Boden aus
+beschossen wird, kann wahrend des
+Einsatzes kein Feuerschutz gegeben werden.
+
+Ziel Deiner Mission ist es, Uber das Dach in
+das Gebaude einzudringen. Wenn Dir das
+gelungen ist, mu8 Du Phoenix finden und
+lebend herausbringen. Es wird angenommen,
+daB die 30 unschuldigen Geiseln, die Phoenix
+heute genommen hat, noch leben und sich
+irgendwo in dem Gebdude aufhalten, Um
+diese Geiseln nicht zu gefahrden, solltest Du
+bei einem Aufeinandertreffen mit Phoenix
+extreme Vorsicht walten lassen.
+
+DISZIPLINARHINWEIS:
+
+Obwohl Du als einer der kompetentesten
+Beamten in Deiner Position giltst, solltest Du
+Dir die folgenden Hinweise zu Herzen
+nehmen. Wegen  vorangegangener
+Unbesonnenheit im Dienst, die zu Verlust von
+Leben und zu Sachschaden gefuhrt hat, hast
+Du noch eine Bewahrungszeit vor Dir. Dein
+Eifer, Straftater vor Gericht zu bringen, ist
+zwar bewundernswert, und alle hoffen
+darauf, daB Phoenix seine gerechte Strafe
+findet, aber Dein Draufgangertum sollte nicht
+auf Kosten des Steuerzahlers gehen oder gar
+mit Leben bezahlt werden mUssen. Obwohl
+wir Phoenix so schnell wie mdglich
+eingesperrt sehen mochten, solltest Du nur
+die notwendigste Kraft anwenden, um
+weitere Ausschreitungen zu vermeiden.
+
+SAN ANGELES POLICE DEPARTMENT
+
+EINSATZINFOS
+
+DATUM: 03.08.2032
+
+AN: JOHN SPARTAN
+
+VON: UBERWACHUNG UND ABWEHR -
+HAUPTOUARTIER
+
+BETR.: FESTHAHME VON SIMON PHOENIX
+
+EINSATZBEZEICHHUNG: MUSEUMSREIF
+
+Nachdem Du
+Gefahrdung menschlichen Lebens vom Dienst
+suspendiert und zu 70 Jahren Kryosynthese-
+Haft verurteilt wurdest, hat man Dich jetzt
+nach nur 30 Jahren freigelassen. Du
+wurdest aus rein dienstlichen Grunden
+fruhzeitig aus der Haft entlassen. Es handelt
+
+wegen leichtsinniger
+
+===== Page 13 =====
+
+sich nicht um eine Bewahrung oder einen
+vorzeitigen StraferlaB.
+
+Vor 36 Jahren warst Du an der Verhaftung
+von Simon Phoenix in einem Warenlager im
+damaligen Los Angeles beteiligt.
+
+Am diesem Morgen gelang es Simon
+Phoenix, wahrend einer Routineanhorung
+aus der Kryo-Haftanstalt Kalifornien
+auszubrechen. Dabei beging er vier Morde
+(Code 187 MDK). Du wurdest aus der
+Kryohaft entlassen, um dem San Angeles
+Police Department bei der erneuten
+Festnahme von Simon Phoenix mit Rat und
+Tat zur Seite zu stehen.
+
+EINSATZZIEL:
+
+Es wird angenommen, daB~ sich
+Simon Phoenix auf dem Weg
+zum REGIONALMUSEUM FUR
+
+MENSCHHEITSGESCHICHTE befindet. Das
+Museum zeigt gegenwértig eine Ausstellung
+unter dem Namen HALLE DER GEWALT. Der
+Ausstellungsraum beherbergt ein riesiges
+Waffenarsenal aus drei Jahrhunderten. Es
+ist anzunehmen, daB Phoenix vorhat, von
+diesen Waffen so viele wie méglich zu
+erbeuten.
+
+Verhindere, daB Phoenix das Museum
+beraubt, und bringe ihn zur Haftanstalt
+zurtck.
+
+SAN ANGELES POLICE DEPARTMENT
+ZUSATZLICHE EINSATZINFOS
+
+DATUM: 03.08.2032
+
+AN: JOHN SPARTAN
+
+BETR.: FESTHAHME VON SIMON PHOENIX
+EINSATZBEZEICHNUNG: DAS SUB-HUSEUH
+
+ZUSAMMENFASSUNG:
+
+Die Verfolgung von Simon Phoenix
+beschrankt sich nicht laénger nur auf die
+HALLE DER GEWALT im Regionalmuseum fiir
+Menschheitsgeschichte. Wahrend einer
+Auseinandersetzung mit Phoenix wurde der
+Glasboden des Museums zerstért, und
+Spartan und Phoenix gelangten in den
+Ausgrabungsbereich des Submuseums. Aus
+fahndungstechnischen Grunden hinsichtlich
+der Verfolgung von Phoenix durch Spartan
+wird dieser Teil des Einsatzes in DAS
+SUBMUSEUM umbenannt.
+
+EINSATZZIEL:
+
+Das Einsatzziel ist gleichgeblieben. Du muBt
+Simon Phoenix und die Mitglieder seiner
+Gang gefangennehmen und zur Kryo-
+Haftanstalt zuruckbringen.
+
+SAN ANGELES POLICE DEPARTMENT
+
+EINSATZINFOS
+
+DATUM: 03.08.2032
+
+AN: JOHN SPARTAN
+
+VON: UBERWACHUNG UND ABWEHR -
+HAUPTOUARTIER i
+
+BETR.: FESTHAHME DES KRYOHAFTLINGS
+
+SIMON PHOENIX
+EINSATZBEZEICHNUNG: DAS PARKHAUS
+
+ZUSAMMENFASSUNG:
+
+Mehrere Strafgefangene sind aus der Kryo-
+Haftanstalt Kalifornien ausgebrochen. Sie
+halten sich zum Uberwiegenden Teil innerhalb
+der Stadtgrenzen auf. Das San Angeles
+Uberwachungssystem hat registriert, da®
+mehrere ausgebrochene Kryohaftlinge in das
+staédtische Parkhaus 425 in der East Summit
+Street eingedrungen sind. Weiterhin wurden
+umfangreiche Zerstérungen von zivilen und
+stadtischen Einrichtungen gemeldet.
+
+EINSATZZIEL:
+
+Dringe auf der ersten Ebene in das Parkhaus
+ein, und schalte die Kryohaftlinge aus, die die
+Parkhauseinrichtungen und Autos zerstéren.
+Kampfe Dich bis zur obersten Ebene vor, und
+halte den Kran auf, bevor er Autos auf
+Spartan fallen lassen kann.
+
+SAN ANGELES POLICE DEPARTMENT
+EINSATZINFOS
+DATUM: 03.08.2032
+AN: JOHN SPARTAN
+VON: UBERWACHUNG UND ABWEHR -
+HAUPTOUARTIER :
+BETR.: FESTHAHME DES KRYOHAFTLINGS
+SIMON PHOENIX
+EINSATZBEZEICHNUNG:
+DIE EINSGHIENENBAHN
+
+===== Page 14 =====
+
+ZUSAMMENFASSUNG:
+
+Der Zug 425 der  offentlichen
+Einschienenbahn-Verkehrsbetriebe von San
+Angeles wurde von Kryoknackis gekapert.
+Der Zugfuhrer ist vermiBt und wahrscheinlich
+tot. Der Zug wird von einem der
+Kryohaftlinge gesteuert
+
+EINSATZZIEL:
+
+Dein Einsatz beginnt am Ende des fahrenden
+Zuges. Du mu&t Dich bis zum ersten Wagen
+durchkaémpfen und den Zug zum Stehen
+bringen. Schalte alle Kryostraflinge aus
+Verletze keinen der Zivilisten im Gebaude
+
+Steuere Deinen Weg durch die vielen Raume
+und vernichte alle entflohenen Cryo-Cons im
+Gebaude.
+
+SAN ANGELES POLICE DEPARTMENT
+
+EINSATZINFOS
+
+DATUM: 03.08.2032
+
+AN: JOHN SPARTAN
+
+VON: UBERWACHUNG UND ABWERR -
+HAUPTOUARTIER 2
+
+BETR.: FESTNAHME DES KRYONAFTLINGS
+
+SIMON PHOENIX =
+EINSATZBEZEICHNUNG: DIE BUCHERE!
+
+ZUSAMMENFASSUNG:
+
+Viele der Haftlinge wurden in der San
+Angeles Stadtbicherei gesichtet. Es wurden
+Gewalttaten, Beschddigung stadtischen
+und privaten Eigentums, Uberfalle auf
+Zivilisten und Polizeibedienstete und
+Kérperverletzungen gemeldet
+
+EINSATZZIEL:
+
+Du muBt in die Bibliothek eindringen und den
+Amoklauf der Kryohaftlinge stoppen
+
+SAN ANGELES POLICE DEPARTMENT
+
+EINSATZINFOS
+
+DATUM: 03.08.2032
+
+AN: JOHN SPARTAN
+
+VOH: UBERWACHUNG UND ABWEHR -
+HAUPTOUARTIER
+
+BETR.: FESTNAHME DES KRYOHAFTLINGS
+
+SIMON PHOENIX
+EINSATZBEZEICHNUNG: FLIESSBANDJOB
+
+ZUSAMMENFASSUNG:
+
+Das System zur Birger- und
+SicherheitsUberwachung hat eine Offnung in
+einem der Zugange zu den verlassenen
+Wartungs- und Funktionstunneln registriert.
+Die Zugange fuhren zu einem Bereich unter
+der Stadt, der gemeinhin als Deponie
+bezeichnet wird. Hier wurde Simon Phoenix
+zum letzten Mal gesehen
+
+EINSATZZIEL:
+
+Du muBt versuchen, uber die Zip Lines und
+Laufstege und durch Bungee-Jumping bis auf
+die Ebene der Deponie zu gelangen. Es wurde
+berichtet, daB mehrere Kryohaftlinge, die
+Phoenix unterstitzen, auf der Ebene der Zip
+Lines Wache schieben.
+
+Kampfe Dich bis zur unteren Zip-Line-Ebene
+durch, und erledige dabei so viele
+Kryohaftlinge wie moglich.
+
+SAN ANGELES POLICE DEPARTMENT
+
+ZUSATZLICHE EINSATZINFOS
+
+DATUM: 03.08.2032
+
+AN: JOHN SPARTAN i
+
+BETR.: FESTHAHME DES KRYOHAFTLINGS
+SIMON PHOENIX
+
+EINSATZBEZEICHNUNG: DIE DEPONIE
+
+===== Page 15 =====
+
+ZUSAMMENFASSUNG:
+
+Officer John Spartan des San Angeles Police
+Department hat den Einsatz unter der
+Bezeichnung "Zip Line" erfolgreich
+abgeschlossen. Diese Informationen wurden
+der Akte vom Online-Personalarchiv- und
+Uberwachungssystem der San Angeles Police
+zu Archivierungszwecken hinzugeftigt
+
+Die Verfolgung von Phoenix erstreckt sich
+jetzt Uber den Bereich des vorangegangenen
+Einsatzes hinaus auch auf die Laufstege
+oberhalb der Deponie.
+
+EINSATZZIEL:
+
+Die Laufstege befinden sich Uber der
+Deponie. Sie sind veraltet, und es ist
+gefahrlich, sie zu begehen. Sie bilden ein
+labyrinthartiges Netz, das sich uber die
+gesamte Deponie ausdehnt. Es wird
+angenommen, daB zahlreiche Kryohaftlinge
+zum Schutz von Phoenix auf den Laufstegen
+postiert sind. Uberquere die Laufstege und
+erledige die Kryoknackis, um Phoenix auf der
+Spur zu bleiben.
+
+Obwohl es wegen der labyrinthartigen
+Beschaffenheit der Laufstege extrem
+gefahrlich ist, kannst Du das Einsatzziel
+mdglicherweise schneller erreichen, wenn Du
+von einem Laufweg auf den anderen springst
+Sei jedoch gewarnt, dieses Man6ver
+erfordert auBerste Vorsicht!
+
+SAN ANGELES POLICE DEPARTMENT
+2USATZLICHE EINSATZINFOS
+DATUM: 03.08.2032
+AN: JOHN SPARTAN
+VOH: UBERWAGHUNG UND ABWEBR -
+HAUPTOUARTIER
+BETR.: FESTHAHME DES KRYOHAFTLINGS
+SIMON PHOENIX
+EINSATZBEZEICHNUNG:
+DAS TUNNELLABYRINTH
+
+ZUSAMMENFASSUNG:
+
+Diese Informationen wurden der Akte
+Spartan/Phoenix zu Archivierungszwecken
+hinzugefugt. Das stadtische System zur
+Personaliberwachung und -kontrolle hat
+
+gemeldet, da John Spartan den
+Einsatzbereich Deponie bei seiner Verfolgung
+von Simon Phoenix verlassen hat.
+
+EINSATZZIEL:
+
+Verfolge Simon Phoenix durch die
+verlassenen Wartungstunnel von San
+Angeles. In den Tunneln sind zahlireiche
+Kryohaftlinge postiert, die Phoenix schtitzen
+sollen. Kampfe Dich durch das Labyrinth der
+Tunnel unter der Stadt, und nimm Phoenix
+fest.
+
+SAN ANGELES POLICE DEPARTMENT
+
+EINSATZINFOS
+
+DATUM: 03.08.2032
+
+AN: JOHN SPARTAN
+
+VON: UBERWACHUNG UND ABWEHR -
+HAUPTQUARTIER g
+
+BETR.: FESTNAHME DES KRYOHAFTLINGS
+
+SIMON PHOENIX
+EINSAT2BEZEICHNUNG: DER KRYOKNAST
+
+ZUSAMMENFASSUNG:
+
+Das stadtische Uberwachungs- und
+Kontrollsystem hat ein gewaltsames
+Eindringen in die Kryo-Haftanstalt Kalifornien
+registriert. Uberwachungskameras haben
+registriert, das Simon Phoenix in die Anstalt
+eingebrochen ist und Kryohaftlinge aus ihrer
+Gefrierhaft befreit.
+
+EINSATZZIEL:
+
+Die Kryo-Haftanstalt besteht aus
+verschiedenen Raumen und Gangen. Die
+Wahrscheinlichkeit ist sehr groB, da Du in
+der Anstalt auf viele von Phoenix befreite
+Haftlinge triffst. Kampfe Dir Deinen Weg
+durch die Gange der Haftanstalt frei, und
+finde Phoenix. Aufgrund der unglaublichen
+Zerstérungen und der Opfer der
+vorangegangenen Einsatze ist dies ein Kampf
+bis aufs Messer. Du mut Phoenix um jeden
+Preis stoppen .
+
+14
+
+===== Page 16 =====
+
+1. Installez votre Super Nintendo
+Entertainment System™ en suivant les
+instructions fournies avec l'appareil.
+
+2. Verifiez que l'appareil soit bien ETEINT
+et insérez la cartouche de jeu
+DEMOLITION MAN".
+
+3. Allumez votre Super Nintendo
+Entertainment System™.
+
+4. Vous verrez alors apparaitre une série
+d'écrans génériques. Appuyez sur le
+bouton Start a n'importe que! moment
+pour passer a l'écran suivant.
+
+5. Apres l'écran de présentation vous
+pourrez choisir parmi trois options :
+START, OPTIONS et ACTIONS.
+Choississez START pour commencer une
+nouvelle mission. Choississez OPTIONS
+pour configurer le jeu. Sélectionner
+ACTIONS pour voir une démonstration
+du jeu.
+
+L'ECRAN D'OPTIONS
+
+DIFFICULTE
+
+L'ECRAN D'OPTIONS - Servez-vous du Pavé
+directionnel pour placer I'ic6ne devant |'option
+que vous souhaitez modifier.
+CONFIGURATION DU CONTROLEUR - Utilisez
+votre control pad pour déplacer le curseur
+sur le mouvement auquel vous souhaitez
+assigner un bouton particulier, puis appuyez
+sur les boutons A, B, X ou Y pour confirmer
+votre choix.
+
+DIFFICULTE - Les choix sont: Calm (Calme),
+Crazed (Déchainé) ou Total Demolition
+(Démalition Totale)
+
+EFFETS SONORES
+
+On (Marche)/Off (Arrét) (sélectionnez au
+moyen de la bouton).
+
+| MUSIQUE - On (Marche) /Off (Arrét)
+(sélectionnez au moyen de la bouton).
+
+TEST SONORE - Appuyez sur Start pour faire
+apparaitre I'écran de test sonore et
+choisissez a partir des options de départ
+(Appuyez sur A pour écouter le son et sur B
+pour l'arréter. Appuyez sur START pour
+revenir a |'écran d'options)
+
+SORTIR - Appuyez sur Start pour revenir a
+l'écran d'options. Vous avez alors le choix
+entre START GAME (LANCEMENT DU JEU),
+qui vous envoie effectuer votre premiére
+mission, réinitialisation des OPTIONS ou une
+démonstration des ACTIONS (un mode
+d'apprentissage du jeu, appuyez sur Start
+pour commencer, puis utilisez les boutons L
+ou R ou le Pave directionnel pour faire défiler
+les différentes lecons de mouvements)
+
+INFORMATIONS SUR LES
+COMMANDES “, ‘
+
+NIVEAUX DE...
+WUE LATERALE = ™*
+
+LES BOUTONS Select Stat
+X - Tirer avec le révatver tm" Basten Bowton
+Y - Tirer avec le revolver
+
+A- Lancer des grenades
+
+B - Sauter. Pour rouler, maintenez B
+enfoncé tout en appuyant vers le bas
+sur le pave.
+
+L- Pas utilisé
+
+R - Pas utilisé
+
+PAVE DIRECTIONNWEL
+
+HAUT - Grimper
+
+BAS - S'accroupir ou descendre des échelles
+DROITE - Viser ou courir vers la droite
+
+GAUCHE - Viser ou courir vers la gauche
+BOUTON START - Pour mettre le jeu en pause.
+
+Lorsque vous vous trouvez sur une ligne de
+descente, appuyez sur le bouton Saut (A)
+pour ralentir.
+
+NIVEAUX DE WUE SUPERIEURE
+
+LES BOUTONS
+
+X - Slarréter et tirer
+
+Y - Courir et tirer
+
+A - Lancer les grenades
+
+B - Bloquer direction et tirer en courant
+L - Pas utilisé
+
+R - Tirer en arriére en courant
+
+PAVE DIRECTIONNEL
+
+DROITE - Courir ou tirer vers la droite
+GAUCHE - Courir ou tirer vers la gauche
+BAS - Courir ou tirer vers le bas de l'écran
+HAUT- Courir ou tirer vers le haut de |'écran
+
+===== Page 17 =====
+
+UTILISATION DES ARMES
+LES REVOLVERS:
+
+Vous 6tes automatiquement armeé d'un
+révolver. Si vous prenez une autre arme,
+votre révolver sera automatiquement remis
+dans son étui et cette nouvelle arme
+deviendra votre mode d'attaque jusqu'a ce
+qu'elle soit a court de munitions. A ce
+moment-la, vous reprendrez votre révolver.
+
+LES GRENADES:
+
+ll existe deux types d'icénes de grenades: les
+grenades a main et les grenades
+incendiaires. Chaque icGne Grenade contient
+5 grenades.
+
+L'icGne des grenades incendiaires donne
+trois grenades a chaque fois. Vous pouvez
+les utiliser comme bon vous semble, mais il
+est impossible de combiner les deux types. Si
+vous avez un type de grenade en votre
+possession, et si vous en prenez un autre,
+toutes vos grenades deviendront du méme
+type. Le nombre de vos grenades @ main est
+affiché dans le coin inférieur gauche de
+l'@cran au-dessus du compteur de santé.
+
+LES ARMES A VOTRE DISPOSITION
+
+Il s'agit des armes qui peuvent étre disponibles au cours de vos missions. Notez que le
+
+révolver est toujours disponible
+
+REVOLVER - Munitions a volonte.
+Utilisez-le 4 votre guise
+
+FUSIL - La quantité de munitions est
+limitée. Un fusil vous donne une plus
+grande portée de tir.
+
+MAGNUM - Un révolver plus
+puissant qui a besoin de moins de
+munitions pour éliminer vos
+ennemis. La quantite de munitions
+est limitée.
+
+GRENADE A MAIN - Type d'explosif
+du 20eme siécle qui élimine vos
+ennemis et vous permet de vous
+frayer un chemin parmi les debris.
+
+GRENADE INCENDIAIRE - Elimine
+vos adversaires et laisse une trainée
+de feu sur son passage.
+
+MINI PACK - Restaure partiellement
+votre barre de vie
+
+ae MEDI PACK - Restaure la
+| puissance de vie.
+
+VIE SUPPLEMENTAIRE - Vous
+donne une nouvelle vie.
+
+LUNETTES A INFRA-ROUGE -
+5 Lunettes spéciales qui vous
+permettent d'y voir la nuit.
+
+ARMURE CORPORELLE - Cette
+cuirasse de protection résiste
+pratiquement a toutes les balles.
+
+FIOLES DE CONGELATION -
+Contiennent I'agent chimique qui
+déclenche le processus de cryo-
+suspension. A utiliser sur les
+prisonniers et Phoenix pour
+
+les congeler.
+
+SERVICE DE POLICE DE LOS ANGELES
+FICHIER DE POLICE N°425
+JOHN SPARTAN
+
+SIMON PHOENIX
+AVERTISSEMENT!
+TOUTES LES INFORMATIONS CONTENUES
+DANS CE DOSSIER ONT UN
+CARACTERE CONFIDENTIEL
+
+===== Page 18 =====
+
+SERVICE DE POLICE
+
+DE LOS ANGELES
+
+INFORMATIONS AVANT MISSION
+
+DATE: 21/08/36
+
+AL'ATTENTION DE: OFFICIER JOHN SPARTAN
+OBJET: ARRESTATION DE SIMON PHOENIX
+HOM DE LA MISSION: SUR LES TOITS
+
+Simon Phoenix est recherche par le Service
+de Police de Los Angeles en raison
+d'accusations qui |'impliquent dans plusieurs
+délits perpéetrés dans la ville et les secteurs
+environnants. ll est accusé de meurtre avec
+circonstances aggravantes, meurtre,
+tentative de meurtre, attaque, attaque a
+main armeée, vol, larcins divers et kidnapping.
+
+On sait, et tout le personnel du Service de
+Police de Los Angeles en a été informé, que
+Phoenix est actuellement armé et consideré
+comme extrémement dangereux. Il bénéficie
+de la complicite d'un trés vaste réseau
+souterrain de fournisseurs d'armes et
+d'équipements volés. Toutes les tentatives
+d'arrestation ont, jusqu'ici, echoué. Ces
+tentatives ont, par ailleurs, entrainé la perte
+de biens appartenant au service de police,
+ainsi qu'a la population civile.Les derniéres
+tentatives menées en solitaire ou par les
+agences gouvernementales pour arréter
+Phoenix ont toutes échouées.
+
+Plusieurs officiers de police et de nombreux
+civils sont morts ou ont été griévement
+bléssés au cours des affrontements. C'est
+pour cette raison que le Département
+souhaite @ tout prix trainer Phoenix en
+justice.
+
+OBJECTIF DE LA MISSION:
+
+Vous serez
+transporte par .
+hélicoptére jusque =
+sur les toits d'un
+entrepdt
+désaffecté qui,
+nous pensons,
+sert de quartier
+general a Phoenix
+et ses sbires. Phoenix, comme les fois
+précédentes, serait puissament armé et
+I disposerait de beaucoup d'hommes et de
+matériels, dont de nombreuses armes
+
+Une fois que vous serez descendu de
+I'hélicoptére, vous serez seul. En raison des
+tirs de missiles sol-air dirigés contre
+I'hélicoptére, nous ne serons pas en mesure
+de vous fournir un soutien armé au cours de
+votre mission.
+
+Votre mission consiste a vous rendre d'un
+bout a l'autre des toits et de pénétrer dans le
+batiment. Une fois a |'intérieur, trouvez
+Phoenix et ramenez-le vivant. Nous pensons
+que les trente otages civils capturés
+aujourd'hui par Phoenix sont toujours en vie
+et sont retenus quelque part dans le
+batiment. Prenez toutes les précautions
+possibles lors de votre confrontation avec
+Phoenix afin de ne pas mettre en danger la
+vie des otages.
+
+AVERTISSEMENT DISCIPLINAIRE:
+
+Bien que vous soyez considéré comme
+lofficier le mieux qualifieé pour exécuter cette
+mission, veuillez tenir compte de cet
+avertissement solennel. Vous 6étes
+actuellement officiellement mis a l'épreuve
+par le Service en raison de précédentes
+imprudences de conduite ayant réesulté dans
+l'endommagement de biens privés et
+l'atteinte a la santé de particuliers. Toute
+louable que soit votre passion d'amener les
+criminels devant la justice, et tout désireux
+que nous soyons de voir Phoenix capturé et
+traduit en justice, ceci ne peut et ne dcait
+s‘effectuer aux dépens de la propriété ou de
+la sante physique des contribuables. Bien
+que nous souhaitions voir Phoenix capture et
+jugé, utilisez toute la force nécéssaire pour
+que nous n’‘ayons plus a mener des
+opérations disciplinaires de ce genre
+
+SERVICE DE POLICE
+DE SAN ANGELES
+
+INFORMATIONS AVANT MISSION
+
+DATE: 03/08/2032
+
+A L'ATTENTION DE: JOHN SPARTAN
+
+DE LA PART DE: QUARTIER GENERAL SERVICE
+ET PROTECTION
+
+OBJET: ARRESTATION DE SIMON PHOENIX
+NOM DE LA MISSION: LE MUSEE
+
+Ex officier John Spartan, vous avez été liberé
+de votre unité d'incarcération cryo-
+
+===== Page 19 =====
+
+synthétique apres avoir purgé trente ans
+seulement de votre peine de soixante-dix ans
+pour conduite imprudente ayant entrainé
+mort d'homme. Vous ne devez votre
+libération qu'aé une mission spéciale du
+service de police. Il ne s’agit pas d'une
+libration sur parole, ni d'une libération de fin
+de peine.
+
+ll y a trente-six ans, vous avez été impliqué
+dans l'arrestation d'un certain Simon Phoenix
+dans un entrepét de la municipalite alors
+connue sous le nom de Los Angeles.
+
+T6t ce matin, au cours d'une audition de
+routine, Simon Phoenix s'est échappé de la
+Cryo-Prison de Californie. Il s'est, a
+l'occasion, rendu coupable de quatre HPM
+(Homicides par meurtre) code 187. Vous
+avez été libéré de votre état de congélation
+dans le but d'assister et de conseiller le
+Service de Police de San Angeles quant aux
+méthodes de capture de Simon Phoenix
+
+OBJECTIF DE LA MISSION:
+
+Nous pensons que Phoenix se dirige vers le
+MUSEE D'HISTOIRE HUMAINE. Le musée
+propose actuellement une exposition intitulee
+le HALL DE LA VIOLENCE. Cette exposition
+présente une trés large gamme d'armes
+datant de trois siécles différents. Nous
+pensons que Phoenix s'est donné pour
+objectif l'obtention un plus grand nombre
+d'armes possible
+
+Votre mission consiste € empécher Phoenix
+de piller le musée et @ nous le ramener pour
+incarceration.
+
+SERVICE DE POLICE
+DE SAN ANGELES
+
+INFORMATIONS AVANT MISSION
+
+DATE: 03/08/2032
+
+A L'ATTENTION DE: JOHN SPARTAN
+
+OBJET: ARRESTATION DE SIMON PHOENIX
+NOM DE LA MISSION: LE MUSEE SOUTERRAIN
+
+RESUME:
+
+La poursuite de Simon Phoenix n'est plus
+limitée au HALL DE LA VIOLENCE du Musée
+d'Histoire Humaine. Au cours de la
+confrontation, le sol en verre du Musée a ete
+détruit et Spartan et Phoenix sont tombeés
+dans |'exposition de fouilles souterraines. Afin
+de faciliter la localisation de Spartan et
+
+de Phoenix, cette partie de la mission
+sera maintenant appelée: LE MUSEE
+SOUTERRAIN.
+
+OBJECTIF DE LA MISSION:
+
+L'objectif de la mission n'a pas change:
+capturez Simon Phoenix et ramenezte a la
+Cryo-Prison.
+
+SERVICE DE POLICE
+DE SAN ANGELES
+
+INFORMATIONS AVANT MISSION
+
+DATE: 03/08/2032
+
+A L'ATTENTION DE: JOHN SPARTAN
+
+DE LA PART DE: QUARTIER GENERAL SERVICE
+
+ET PROTECTION
+
+OBJET: ARRESTATION DU CRYO-PRISONHIER
+SIMON PHOENIX
+
+NOM DE LA MISSION: LE PARKING
+
+Plusieurs condamnés se sont échappés du
+Cryo-Centre pénitentiaire et de Réhabilitation
+de Californie. Ils rodent actuellement dans les
+limites de la ville. Les systémes de
+surveillance de San Angeles City signalent
+que plusieurs cryo-prisonniers ont envahi le
+parking de la ville au N°425 d'East Summit
+Street. On signale la destruction en masse
+de biens municipaux et privés
+
+OBJECTIF DE LA MISSION:
+
+Pénétrer dans le parking au niveau rez-de-
+chaussée et éliminer les cryo-prisonniers qui
+endommagent les voitures et le parking
+Puis, monter jusqu’au niveau supérieur du
+parking pour arréter la grue qui souléve les
+voitures et les lance sur Spartan.
+
+SERVICE DE POLICE
+DE SAN ANGELES
+
+INFORMATIONS AVANT MISSION
+
+DATE: 03/08/2032
+
+A U'ATTENTION DE: JOHN SPARTAN
+
+DE LA PART DE: QUARTIER GENERAL SERVICE
+
+ET PROTECTION
+
+OBJET: ARRESTATION DU CRYO-PRISONNIER
+SIMON PHOENIX
+
+NOM DE LA MISSION: LE MONORAIL 18
+
+===== Page 20 =====
+
+La rame de transport public monorail de San
+Angeles N°425 a été prise par les cryo-
+prisonniers. On est sans nouvelle du
+conducteur du train dont on pense qu'il aurait
+ete tué. La rame est actuellement conduite
+par l'un des cryo-prisonniers.
+
+OBJECTIF DE LA MISSION:
+
+Vous commencerez votre mission a 'arriére
+de la rame en déplacement. Vous devrez
+vous frayer un chemin jusqu’a l'avant du train
+et l'immobiliser. Eliminez tous les cryo-
+prisonniers du train. Une fois a |'avant,
+détruisez le moteur du monorail.
+
+SERVICE DE POLICE
+DE SAN ANGELES
+
+INFORMATIONS AVANT MISSION
+
+DATE: 03/08/2032
+
+A L'ATTENTION DE: JOHN SPARTAN
+
+OE LA PART DE: QUARTIER GENERAL SERVICE
+
+ET PROTECTION
+
+OBJET: ARRESTATION DU CRYO-PRISONNIER
+SIMON PHOENIX
+
+NOM DE LA MISSION: LA BIBLIOTHEQUE
+
+De nombreux prisonniers auraient été vus
+dans la Bibliotheque du Conté de San
+Angeles. On signale des actes de violence, de
+destruction de biens municipaux et privés,
+des coups et blessures contre des civils et le
+personnel du service de police.
+
+OBJECTIF DE LA MISSION:
+
+Pénétrer dans la bibliotheque et mettre fin
+aux exactions des cryo-prisonniers. Faites en
+sorte qu'aucun civil ne soit blessé a
+19 lintérieur du building. Frayez vous un
+chemin a travers les différentes salles
+
+et la bilbliothéque et éliminez tous les évadés
+de la cryo prison qui se trouvent dans le
+building.
+
+SERVICE DE POLICE
+DE SAN ANGELES
+
+INFORMATIONS AVANT MISSION
+
+DATE: 03/08/2032
+
+A L'ATTENTION DE: JOHN SPARTAN
+
+DE LA PART DE: QUARTIER GENERAL SERVICE
+
+ET PROTECTION
+
+OBJET: ARRESTATION DU CRYO-PRISONNIER
+SIMON PHOENIX
+
+NOM DE LA MISSION: LIGNE DE DESCENTE
+
+RESUME:
+
+Le Systéme de Surveillance et d'Observation
+des Résidents de la ville a déetecte l'ouverture
+de l'un des accés aux anciens tunnels de
+maintenance et de service. Ge passage méne
+€@ une zone communement appelée Les
+Terrains Vagues. Il s'agit du dernier point of
+Simon Phoenix aurait eté apercu.
+
+OBJECTIF DE LA MISSION:
+
+Votre mission consiste a passer sur des
+lignes de descente, a traverser des coursives
+et a sauter a |'élastique pour atteindre le
+niveau inférieur des Terrains Vagues. On sait
+que plusieurs cryo-prisonniers évades, fidéles
+a Phoenix, montent la garde au niveau de la
+ligne de descente. Descendez jusqu'au bas
+de la ligne, en éliminant autant de cryo-
+prisonniers que possible.
+
+SERVICE DE POLICE
+DE SAN ANGELES
+
+SUPPLEMENT D'INFORMATIONS AVANT
+
+MISSION
+
+DATE: 03/08/2032
+
+A L'ATTENTION DE: JOHN SPARTAN
+
+OBJET: ARRESTATION DU CRYO-PRISONNIER
+SIMON PHOENIX
+
+NOM DE LA MISSION: LES TERRAINS VAGUES
+
+===== Page 21 =====
+
+L'officier John Spartan du Service de Police
+de San Angeles a effectué avec succés sa
+mission Ligne de descente. Ce supplément
+d'information constitue une mise a jour du
+dossier du Systéme d'observation et de
+registre informatisé de la police et du
+personnel de San Angeles.
+
+La poursuite de Phoenix s'est déplacée du
+lieu de la mission précédente jusqu'aux
+coursives situées au-dessus des terrains
+vagues
+
+OBJECTIF DE LA MISSION:
+
+Les coursives sont des passerelles
+suspendues au-dessus des terrains vagues.
+Elles sont trés anciennes et trés usées et
+forment une veritable labyrinthe au-dessus
+des terrains vagues. On pense que de
+nombreux cryo-prisonniers montent la garde
+dans les coursives pour protéger Phoenix.
+Traversez les coursives et éliminez les cryo-
+prisonniers afin de localiser Phoenix.
+
+Bien que ceci soit considéré comme
+extrémement dangereux, étant donné la
+structure en labyrinthe des coursives, vous
+parviendrez a atteindre plus rapidement
+l'‘objectif de votre mission en sautant de
+coursive en coursive. Mais soyez prévenu:
+n'exécutez cette manoeuvre qu'avec la plus
+grande prudence!
+
+SERVICE DE POLICE
+DE SAN ANGELES
+
+SUPPLEMENT D'INFORMATIONS AVANT MISSION
+DATE: 03/08/2032
+A L'ATTENTION DE: JOHN SPARTAN
+DE LA PART DE: QUARTIER GENERAL SERVICE
+ET PROTECTION
+OBJET: ARRESTATION DU CRYO-PRISONNIER
+SIMON PHOENIX
+NOM DE LA MISSION:
+LE LABYRINTHE DE TUNNELS
+
+Ce supplement d'informations a été rajoute
+au dossier Spartan/Phoenix pour mise a
+jour. Le Systéme de Contréle et
+d'Observation du Personne! de la ville a
+détecté que la poursuite entre Spartan et le
+cryo-prisonnier Simon Phoenix s'était
+déplacée du lieu de la mission précédente,
+dans les terrains vagues.
+
+OBJECTIF DE LA MISSION:
+
+Poursuivre Simon Phoenix dans les tunnels
+de maintenance abandannés de San Angeles.
+Plusieurs cryo-prisonniers montent la garde
+dans les tunnels afin de protéger Phoenix.
+Frayez-vous un passage dans le labyrinthe de
+tunnels qui s'étend sous la ville et arrétez
+Phoenix.
+
+SERVICE DE POLICE
+DE SAN ANGELES
+
+INFORMATIONS AVANT MISSION
+
+DATE: 03/08/2032
+
+A L'ATTENTION DE: JOHN SPARTAN
+
+DE LA PART DE: QUARTIER GENERAL SERVICE
+
+ET PROTECTION
+
+OBJET: ARRESTATION DU CRYO-PRISONNIER
+SIMON PHOENIX
+
+NOM DE LA MISSION: LA CRYO-PRISON
+
+Le Systéme de Surveillance d'Observation et
+de Contréle de la ville a détecté une entrée
+par effraction dans les installations cryo-
+carcérales de Californie. Le service de
+surveillance visuelle indique que Simon
+Phoenix a pénétré dans les installations et
+libére les autres cryo-prisonniers de leur état
+de suspension d'animation.
+
+OBJECTIF DE LA MISSION:
+
+Les installations cryo-carcérales comportent
+plusieurs chambres et plusieurs halls. Il est
+fort probable que vous aurez a affronter de
+nombreux cryo-prisonniers libérés par
+Phoenix. Frayez-vous un chemin a travers les
+salles de la cryo-prison pour trouver Phoenix.
+En raison des terribles dommages et pertes
+de vies humaines occasionnés lors des
+autres missions, il s'agit la d'un
+combat a mort. Vous devez mettre 20
+Phoenix hors d'état de nuire.
+
+===== Page 22 =====
+
+1. Configura tu Super Nintendo
+Entertainment System™ segun las
+instrucciones de! manual que lo
+acompana.
+
+2. Asegurate de desactivar el conmutador
+de encendido/apagado (colécalo en
+posicién OFF) antes de insertar el
+cartucho del juego. Inserta el cartucho
+DEMOLITION MAN”.
+
+3. Arranca tu Super Nintendo Entertainment
+System” (colocando el conmutador en
+posicion ON).
+
+4. A continuacién apareceran varias
+pantallas de la ficha técnica. Pulsa el
+Start para pasar a la siguiente pantalla.
+
+5. Después de la pantalla del titulo, veras
+tres opciones: INICIO (START), OPCIONES
+(OPTIONS) y ACCIONES (ACTIONS). Si
+escoges START pasaras directamente a
+los tejados para empezar tu mision. Si
+seleccionas OPTIONS, aparecera la
+pantalla de opciones. Y si escoges
+ACTIONS, podras ver una seccion
+instructiva del juego.
+
+LA PANTALLA DE OPCIONES
+
+LA PANTALLA DE OPCIONES - Usa el mando
+direccional para colocar el icono sobre la
+opcidn que desees cambiar.
+
+CONFIGURACION DEL CONTROLADOR - Utiliza el
+mando direccional para poner el cursor
+sobre el movimiento que quieras asignarle a
+cada boton; luego pulsa ese boton (A, B, X o
+Y) para ejecutar el movimiento que le hayas
+asignado.
+
+DIFICULTAD - Podras seleccionar entre:
+Tranquilo (Calm), Alocado (Crazed) o
+Demolicion Total (Total Demolition).
+
+FFECTOS DE SONIDO - Activado o desactivado
+(selecciénalo usando cualquier boton)
+
+71 MUSICA - Activada (On) o desactivada
+
+(Off), (selecciona lo que quieras usando
+cualquier bot6n).
+
+PRUEBAS DE SONIDO - Pulsa el boton Start
+para activar la pantalla de pruebas de sonido
+y selecciona una de las opciones de inicio
+(pulsa A para reproducir un sonido, B para
+detener un sonido y Start para volver a la
+pantalla de opciones).
+
+SALIR - Pulsa Start para volver a la pantalla
+principal de opciones. Desde ahi podras
+seleccionar entre: INICIAR JUEGO (Start
+game) para pasar a tu primera misi6on,
+reinicializar Opciones o probar acciones
+(ACTIONS) (siendo ésta una modalidad
+tutorial, pulsa Start y a continuacion pulsa los
+botones L o R, 0 usa el mando direccional
+para desplazarte a la siguiente leccién
+de movimientos).
+
+INFORMACION SOBRE EL
+CONTROL =,
+
+RIVELES DE
+VISTA LATERAL ‘“*
+
+BOTONES
+
+X - Disparar el arma
+
+Y - Disparar el arma
+
+A - Lanzar granadas
+
+B - Saltar. Pulsa la parte inferior del mando
+direccional al mismo tiempo que el botan
+B para rodar.
+
+L- No se utiliza
+
+R - No se utiliza
+
+MANDO DIRECCIONAL
+
+PARTE SUPERIOR - Subir.
+
+PARTE INFERIOR - Agacharse o bajar por
+escaleras de mano.
+
+DERECHA - Apuntar o correr hacia la
+derecha.
+
+IZQUIERDA - Apuntar 0 correr hacia la
+izquierda.
+
+INICIO - Pulsa el boton START para detener la
+accion durante el juego.
+
+Al estar en un tendido, podras disminuir tu
+velocidad pulsando el boton para saltar (A).
+
+NIVELES DE VISTA SUPERIOR
+BOTONES
+
+X - Mantener posicion y disparar el arma.
+Y - Correr y disparar el arma
+
+A - Lanzar granadas.
+
+B - Fijar la direccion y disparar en
+movimiento
+
+L-No se utiliza.
+
+R - Disparar hacia atras mientras estas
+corriendo.
+
+MANDO DIRECCIONAL
+
+PARTE DERECHA - Correr o disparar hacia
+la derecha.
+
+PARTE IZQUIERDA - Correr o disparar hacia
+la isola
+
+INFERIOR - Correr o disparar hacia la parte
+inferior de la pantalla
+
+SUPERIOR - Correr o disparar hacia la parte
+superior de la pantalla.
+
+Stat oY
+
+Select
+Botone Botone Botone
+
+===== Page 23 =====
+
+COMO USAR TU ARMAMENTO
+
+ARMAS DE MANO:
+
+Tu personaje siempre dispondra de un arma
+de mano. Al coger cualquier otra arma,
+enfundaras el arma de mano y atacaras con
+el arma recién recogida hasta que se agote
+toda su municion. Una vez acabada la
+municion, se volvera a activar el arma de
+mano.
+
+ARMAMENTO DISPONIBLE
+
+GRANADAS:
+
+Existen dos tipos de iconos para las
+granadas: granadas y granadas incendiarias.
+Si coges el icono de la granada de mano,
+recibiras cinco granadas. Al seleccionar un
+icono de granadas incendiarias, se te
+entregaran tres granadas. Podras utilizarlas
+segun te convenga, pero no podras
+amontonarlas. Si dispones de un tipo de
+granada y recoges granadas de otro tipo,
+todas tus granadas pasaran a ser del tipo
+recién recogido. Tus granadas aparecen en
+la parte inferior izquierda de la pantalla,
+encima del indicador de salud.
+
+Este armamento podria estar disponible durante tus misiones. Recuerda que el arma de mano
+
+siempre estara disponible
+
+ARMA DE MANO - Mucha
+municion. Usala segtin te convenga.
+
+ESCOPETA - La municion es
+limitada. Al usar la escopeta,
+obtendras mayor alcance de tiro.
+
+MAGNUNM - Se trata de un arma de
+mano mas potente, con la que
+podras eliminar a los enemigos con
+menos munici6n. La municién es
+
+limitada
+
+GRANADAS - Un explosivo del siglo
+veinte que elimina a los oponentes
+que se hallen dentro del radio de
+alcance de su metralla
+
+GRANADAS INCENDIARIAS -
+Elimina a los oponentes dejando una
+llamarada de fuego tras su
+explosion
+
+MINI BOTIQUIN - Restaura
+parcialmente tu fuerza vital.
+
+BOTIQUIN - Restaura la fuerza vital.
+
+VIDA ADICIONAL - Te ofrece una
+vida adicional.
+
+GAFAS DE INFRARROUJOS - Usa
+estas gafas especiales para
+mejorar tu vision nocturna.
+
+BLINDAJE - Este blindaje corporal
+es practicamente antibalas.
+
+FRASCOS DE CONGELACION -
+Contiene el agente quimico que
+inicia el proceso de congelacion
+Usalos contra los convictos y
+Phoenix para congelarlos
+
+DEPARTAMENTO DE POLICIA DE LOS ANGELES
+CARPETA N° 425
+JOHN SPARTAN
+
+SIMON PHOENIX
+iAVISO!
+
+LA INFORMACION AQUI CONTENIDA
+ES CONFIDENCIAL.
+
+22
+
+===== Page 24 =====
+
+DEPARTAMENTO DE POLICIA
+DE LOS ANGELES
+
+RESUMEN PRELIMINAR DE LA MISION
+FECHA: 8-21-96
+
+PARA: EL OFICIAL JOHN SPARTAN
+
+REF: LA DETENCION DE SIMON PHOENIX
+
+NOMBRE DE LA MISION: EL TEJADO
+
+El Departamento de Policia de Los Angeles
+solicita de detencién de Simon Phoenix,
+acusado por estar relacionado con varios
+delitos mayores en distintos puntos de la
+ciudad y las zonas circundantes. Los delitos
+incluyen asesinato en primer grado,
+asesinato, intento de asesinato, asalto,
+asalto a mano armada, robo en primer
+grado, robo y secuestro.
+Bien es sabido que Phoenix esta armado y es
+considerado como un _ delincuente
+extremadamente peligroso, y asi se ha dado
+parte al personal del Departamento de
+olicia de Los Angeles. Le apoya una
+importante red de contrabandistas de armas
+objetos robados. Hasta la fecha, todos los
+intentos por detener a Phoenix han
+fracasado y han resultado en pérdidas
+materiales tanto para el publico como para el
+Departamento de Policia.
+Hasta la fecha, los esfuerzos por detener a
+Phoenix, ya sea en solitario o con la ayuda de
+otras agencias encargadas del cumplimiento
+de la ley, han sido un fracaso, y han
+resultado en pérdidas materiales del
+departamento Wek los civiles. Muchos
+oficiales y civiles han sufrido heridas graves,
+o incluso han perdido la vida, debido a la
+resistencia de Phoenix a ser arrestado.
+Debido a ello, el departamento tiene especial
+interés en llevar a Phoenix inmediatamente
+ante las autoridades.
+
+OBJETIVO DE LA MISION:
+
+Se te transportara por medio de un
+fey ontarS al tejado de un almacén
+abandonado,
+
+supuesta guarida
+y central de
+operaciones de
+Simon Phoenix y
+su banda. Se
+cree que
+Phoenix, al igual
+
+que en
+23
+
+encuentros
+anteriores, esta armado hasta los
+
+dientes y tiene el apoyo de hombres y equipo,
+incluidas armas.
+
+En cuanto abandones el helicéptero, tendras
+que apafiartelas por tu cuenta. Debido al
+armamento superficie-aire que apunta al
+helicoptero, nos sera imposible ofrecerte
+apoyo tactico durante tu mision. Esta
+consiste en atravesar la zona de los tejados y
+acceder al edificio. Una vez dentro del
+almacén, tendraés que encontrar a Phoenix y
+apenas vivo. Creemos que los treinta
+rehenes capturados esta manana por
+Phoenix siguen con vida en algun lugar del
+edificio. ge extremadamente cauto al
+enfrentarte con Phoenix para no exponer a
+los rehenes civiles.
+
+AVISO DISCIPLINARIO:
+
+Aun siendo el oficial mejor cualificado para
+realizar esta mision, sugerimos que tengas
+este aviso oficial bien en cuenta. Oficialmente
+sigues estando en periodo de prueba debido
+a tus anteriores actos imprudentes, que
+ocasionaron dafos a la propiedad y salud
+personal de los civiles. Bien es sabido que
+admiramos tu pasion por entregar a los
+delincuentes a la justicia, y bien es cierto que
+deseamos ver a Phoenix entre rejas, pero
+creemos conveniente resaltar que no ha de
+hacerse a costa de la generosidad del
+contribuyente ni de su buen estar. Aunque
+deseamos que Phoenix sea capturado y
+traido ante la justicia, utiliza sdlo métodos
+apropiados para evitar que se tomen
+medidas disciplinarias contra ti
+
+DEPARTAMENTO DE POLICIA
+DE SAN ANGELES
+
+RESUMEN PRELIMINAR DE LA MISION
+
+FECHA: 8-03-2032
+
+PARA: EL OFICIAL JOHN SPARTAN
+
+DE: CENTRAL DE PROTECCION Y
+SERVICIO CIVIL
+
+REF: LA DETENCION DE SIMON PHOENIX
+
+NOMBRE DE LA MISION: EL MUSEO
+
+Ex-oficial John Spartan, se te ha permitido
+salir de tu unidad de encarcelamiento por
+congelacion tras haber servido tan solo
+treinta afos de tu sentencia de setenta por
+imprudencia y riesgo a vidas ajenas. Has sido
+liberado exclusivamente para llevar a cabo
+una mision para el Departamento de Policia.
+
+===== Page 25 =====
+
+No se trata de una libertad condicional ni de
+un indulto de la sentencia original.
+
+Hace treinta y seis anos, estuviste
+involucrado en la detencién de Simon Phoenix
+en un almacén del municipio conocido
+entonces como Los Angeles.
+
+Esta mafiana, durante una audiencia
+rutinaria de libertad condicional, Simon
+Phoenix se fugo de las instalaciones de la
+prision criogénica de California. Durante el
+proceso, fue responsable de cuatro
+asesinatos del tipo correspondiente al cédiga
+187-MDK. Has sido liberado de tu estado de
+congelaciOn para ayudar y aconsejar al
+Departamento de Policia de San Angeles en
+lo referente a métodos para capturar a
+Simon Phoenix.
+
+OBJETIVO DE LA MISION:
+
+Creemos que Phoenix se dirigira al MUSEO
+DEL DISTRITO DE HISTORIA DE LA
+HUMANIDAD. En la actualidad, el museo
+expone la CAMARA DE LA VIOLENCIA. En ella
+se exhibe una amplio abanico de armas,
+cortesia de tres paises. Creemos que el
+objetivo principal de Phoenix se centrara en
+hacerse con todo el armamento que le sea
+posible.
+
+Evita que Phoenix robe objetos del museo y
+traelo para que vuelva a ser sometido a un
+encarcelamiento por congelacion.
+
+DEPARTAMENTO DE POLICIA
+DE SAN ANGELES
+
+ADDENDA AL RESUMEN PRELIMINAR DE LA
+MISION
+
+FECHA: 8-03-2032
+
+PARA: JOHN SPARTAN
+
+REF: LA DETENCION DE SIMON PHOENIX
+NOMBRE DE LA MISION: EL SUB MUSEO
+
+RESUMEN:
+
+La persecucién y captura de Simon Phoenix
+ha dejado de estar confinada a la CAMARA
+DE LA VIOLENCIA del Museo del Distrito de
+Historia de la Humanidad. El suelo de cristal
+cedié durante el enfrentamiento, y tanto
+Spartan como Phoenix cayeron a la exhibicion
+de excavaciones del sub-museo. Para aclarar
+el proceso de seguimiento de Spartan y
+Phoenix, a esta mision se le ha otorgado otro
+nombre: EL SUB MUSEO
+
+OBJETIVO DE LA MISION:
+
+El objetivo de la mision sigue siendo el
+mismo. Captura a Simon Phoenix y
+encarcélale en la prisi6n criogénica.
+
+DEPARTAMENTO DE POLICIA
+DE SAN ANGELES
+
+RESUMEN PRELIMINAR DE LA MISION
+FECHA: 8-03-2032
+
+PARA: JOHN SPARTAN _
+
+DE: CENTRAL DE PROTECCION Y SERVICIO CIVIL
+REF: LA DETENCION DEL PRISIONERO
+SOMETIDO A CONGELACION SIMON PHOENIX
+HOMBRE DE LA MISION: EL APARCAMIENTO
+
+Varios convictos han logrado escapar del
+Centro Criogénico Penitenciario y de
+Rehabilitacion de California. Nos han
+informado que se han agrupado en los
+alrededores de la ciudad. EI sistema de
+vigilancia de la ciudad de San Angeles ha
+detectado que varios convictos sometidos a
+congelacion, gues. se escaparon
+recientemente de la prision criogénica, se
+han apoderado del aparcamiento situado en
+East Summit Street N° 425. Nos informan
+que estan causando importantes dafos a la
+propiedad civil y del ayuntamiento.
+
+OBJETIVO DE LA MISION:
+
+Accede a la estructura del aparcamiento
+desde la pane baja y elimina a los convictos
+responsables de la destruccion de los coches
+
+y de la estructura. Abrete paso hasta la
+planta superior de la estructura y detén la
+rda que recoge y tira coches sobre
+partan
+
+DEPARTAMENTO DE POLICIA
+DE SAN ANGELES
+
+RESUMEN PRELIMINAR DE LA MISION
+FECHA: 8-03-2032
+PARA: JOHN SPARTAN
+DE: CENTRAL DE PROTECCION Y
+
+SERVICIO CIVIL
+REF: LA DETENCION DEL PRISIONERO
+SOMETIDO A CONGELACION SIMON PHOENIX
+NOMBRE DE LA MISION: EL MONORRAIL
+
+===== Page 26 =====
+
+Los convictos han secuestrado el tren
+numero 425 de Transportes Publicos por
+Monorrail de San Angeles. El conductor ha
+desaparecido y se le da por muerto. Uno de
+los convictos sometidos a congelacion se ha
+hecho con los mandos del tren.
+
+OBJETIVO DE LA MISION:
+
+Tu mision empezara en la parte trasera del
+tren en plena marcha. Deberas abrirte
+camino hasta alcanzar el primer vagén del
+tren y detener su marcha. Elimina a todos
+los convictos que encuentres en el tren.
+Abrete paso hasta el primer vagon y destruye
+el motor del monorrail.
+
+DEPARTAMENTO DE POLICIA
+DE SAN ANGELES
+
+RESUMEN PRELIMINAR DE LA MISIGN
+FECHA: 8-03-2032
+PARA: JOHN SPARTAN
+DE: CENTRAL DE PROTECCION Y
+
+SERVICIO CIVIL
+REF: LA DETENCION DEL PRISIONERO
+SOMETIDO A CONGELACION SIMON PHOENIX
+NOMBRE DE LA MISION: LA BIBLIOTECA
+
+Se ha detectado una alta concentracion de
+convictos en la Biblioteca del Distrito de San
+Angeles. Hemos detectado indicios de
+violencia, destruccion de la propiedad privada
+y del ayuntamiento, asalto y danos fisicos a
+los civiles y a integrantes del Departamento
+de Policia.
+
+OBJETO DE LA MISION:
+
+Entra en la biblioteca y detén a los convictos
+antes de que causen mas destruccion. No
+permitas que ninguno de los civiles que
+2 hay en el edificio resulte herido. Abrete
+camino por las habitaciones de la
+
+biblioteca y elimina a todos los convictos
+fugados que hay dentro.
+
+DEPARTAMENTO DE POLICIA
+DE SAN ANGELES
+
+RESUMEN PRELIMIMAR DE LA MISION
+FECHA: 8-03-2032
+PARA: JOHN SPARTAN
+DE: CENTRAL DE PROTECCION Y
+
+SERVICIO CIVIL
+REF: LA DETENCION DEL PRISIONERO
+SOMETIDO A COHGELACION SIMON PHOENIX
+NOMBRE DE LA MISION: EL TENDIDO
+
+El Sistema de Observacion y Vigilancia de los
+Residentes de la ciudad ha detectado una
+abertura en una de las compuertas de los
+tuneles abandonados de mantenimiento y
+servicio publico. Dicho acceso da paso una
+parte subterranea de la ciudad, conocida
+como El Yermo. Este es el ultimo lugar donde
+se ha visto a Simon Phoenix.
+
+OBJETIVO DE LA MISION:
+
+Durante tu mision tendras que montarte en
+tendidos, atravesar andamios, y practicar
+puenting para descender a la superficie del
+Yermo. Nos han informado que varios
+convictos leales a Phoenix le han
+acompanado durante su huida, y estan
+montando guardia en la planta del tendido
+Abrete paso hasta la parte inferior del nivel
+del tendido y elimina al mayor numero de
+convictos posible
+
+DEPARTAMENTO DE POLICIA
+DE SAN ANGELES
+
+ADDENDA AL RESUMEN PRELIMINAR DE LA
+MISION
+
+FECHA: 8-03-2032
+
+PARA: JOHN SPARTAN
+
+DE: CENTRAL DE PROTECCION Y SERVICIO CIVIL
+REF: LA DETENCION DEL PRISIONERO
+SOMETIDO A CONGELACION SIMON PHOENIX
+NOMBRE DE LA MISION: EL YERMO
+
+===== Page 27 =====
+
+El oficial Jahn Spartan del Departamento de
+Policia de San Angeles ha completado con
+éxito la mision Tendido, Estas addenda han
+sido incluidas como registro por el Sistema
+de Observacion y Expedientes
+Computerizados del Personal y por el
+Departamento de Policia de San Angeles.
+
+La persecucion de Phoenix ha transcurrido
+
+desde la Ultima mision hasta las pasarelas
+ubicadas sobre El Yermo
+
+OBJETIVO DE LA MISION:
+
+Las pasarelas se podrian describir como
+pasadizos suspendidos sobre El Yermo.
+Estan muy deteriorados y = son
+extremadamente peligrosos. Forman un
+laberinto cuadriculado sobre El Yermo. Se
+cree que muchos convictos han sido
+destinados a las pasarelas para proteger a
+Phoenix. Atraviesa las pasarelass y elimina a
+los convictos para localizar a Phoenix.
+
+A pesar de ser muy peligroso, debido a la
+estructura en forma de laberinto de las
+pasarelas, podras optar por saltar de
+pasarela en pasarela para cumplir el objetivo
+de tu misién con mayor rapidez. jEI que avisa
+no es traidor, ten mucho cuidado al realizar
+esta maniobra!
+
+DEPARTAMENTO DE POLICIA
+DE SAN ANGELES
+
+ADDENDA RESUMEN PRELIMINAR DE LA
+MISION
+FECHA: 8-03-2032
+PARA: JOHN SPARTAN =
+DE: CENTRAL DE PROTECCION Y
+
+SERVICIO CIVIL
+REF: LA DETENCION DEL PRISIONERO
+SOMETIDO A CONGELACION SIMON PHOENIX
+NOMBRE DE LA MISION: .
+
+EL LABERINTO DE LA RED DE TUBERIAS
+
+Estas addenda se incluyen en la carpeta
+Spartan/Phoenix como archivo. El Sistema
+de Observacion y Control del Personal del
+que dispone la ciudad ha detectado que la
+persecucion del prisionero sometido a
+congelacién Simon Phoenix ha transcurrido a
+otra zona, abandonando El Yermo, zona de la
+musion previa
+
+OBJETIVO DE LA MISION:
+
+Persigue a Simon Phoenix a través de los
+tuneles de mantenimiento abandonados de
+San Angeles. Varios prisioneros montan
+guardia en distintos puntos de los tuneles
+para proteger a Phoenix. Abrete camino por
+el.laberinto de tuneles que hay bajo la ciudad
+y detén a Phoenix.
+
+DEPARTAMENTO DE POLICIA
+DE SAN ANGELES
+
+ADDENDA RESUMEN PRELIMINAR DE LA
+MISION
+FECHA: 8-03-2032
+PARA: JOHN SPARTAN :
+DE: CENTRAL DE PROTECCION Y
+
+SERVICIO CIVIL
+REF: LA DETENCION DEL PRISIONERO
+SOMETIDO A CONGELACION SIMON PHOENIX
+NOMBRE DELAMISION: _
+
+LA PRISION CRIOGENICA
+
+El Sistema de Observacion y Control del que
+dispone la ciudad ha detectado una intrusion
+forzada en las Instalaciones de Encarcelacion
+por Congelacion de California. Los sistemas
+de vigilancia visuales captaron imagenes de
+Simon Phoenix liberando a otros convictos de
+su estado de animacion suspendida.
+
+OBJETIVO DE LA HISION:
+
+Las instalaciones de encarcelamiento por
+congelacion constan de varias camaras y
+pasillos. Es mas que probable que te
+encuentres cara a cara con los convictos
+liberados por Phoenix. Abrete camino por los
+feels de la prisién criogénica y localiza a
+
+hoenix. Debido a los muchos dafios y
+pérdida de vidas humanas ocurridos durante
+la ultima mision, este cara_a cara
+tendraé que ser a muerte. Detén a 26
+Phoenix a toda costa.
+
+===== Page 28 =====
+
+1. Allestisci i| Super Nintendo Entertainment
+System™ seguendo le istruzioni del
+manuale d'istruzioni del sistema.
+
+2. Prima di inserire la cartuccia del gioco
+accertati che I'interruttore sia SPENTO.
+Inserisci la cartuccia di DEMOLITION MAN”.
+
+3. Accendi il Super Nintendo Entertainment
+System”.
+
+4. Vedrai delle videate dei titoli. Premi il
+pulsante start per passare alla videata
+successiva.
+
+5. Dopo |a videata di testa ti verranno
+presentare tre opzioni START (INIZIARE),
+OPTIONS (OPZIONI) e ACTIONS (AZIONI.
+Scegliendo START andrai direttamente sui
+tetti per cominciare la missione. Scegliendo
+OPTIONS verrai portato sulla videata delle
+opzioni. Selezionando ACTIONS vedrai una
+dimostrazione del gioco.
+
+LA VIDEATA DELLE cab
+
+LIVELLO DI
+DIFFICOLTA
+
+MUSICA
+
+COLLAUDO
+SONORO
+
+LA VIDEATA DELLE OPZIONI
+Utilizza i] PULSANTE DIREZIONALE per
+spostare l'icona davanti all'opzione che
+desideri cambiare.
+CONFIGURAZIONE DELLA PULSANTIERA
+Utilizza | Pulsante direzionale per spostare il
+cursore sulla funzione che vuoi assegnare ad
+un pulsante, quindi premi il pulsante (A, B, X
+o Y) per eseguire quell'azione.
+DIFFICOLTA
+Puoi scegliere tra: Calm (Tranquillo), Crazed
+(Folle) o Total Demolition (Distruzione totale).
+EFFETT! SONORI
+On (Accesi) o Off (Spenti) (seleziona con un
+pulsante qualsiasi).
+
+MUSICA
+
+On (Accesa) o Off (Spenta) (seleziona
+con un pulsante qualsiasi)
+
+COLLAUDO SONORO
+
+Premi un pulsante qualsiasi per accedere alla
+videata di collaudo del sonoro e scegliere tra
+le opzioni (premi A per ascoltare il sonoro, B
+per fermare il sonoro e START per ritornare
+sulla videata delle opzioni.
+
+USCITA
+
+Premendo start (awio) verrai riportato sulla
+videata delle opzioni principali. Qui potrai
+scegliere tra START GAME [INIZIA GIOCO) e
+andare sulla prima missione, resettare
+OPTIONS (OPZION!) o scegliere ACTIONS
+(AZIONI) (una modalita di addestramento, per
+cominciare premi START quindi premi Lo Ro
+utilizza il PULGANTE DIREZIONALE per
+passare alla prossima lezione di movimenti).
+
+INFORMAZIONI SUI
+COMANDI
+
+LIVELLI
+ORIZZONTALI
+
+PULSANTI
+X - Sparare con il fucile.
+Y - Sparare con il fucile
+A - Lanciare bombe
+
+B - Saltare. Per rotolare, premi in git sul
+pulsante direzionale mentre lo tieni premuto.
+SINISTRO - Non viene utilizzato.
+
+DESTRO - Non viene utilizzato
+
+PULSANTE DIREZIONALE
+
+SU - Salire.
+
+GIU - Rannicchiarsi 0 scendere le scale
+DESTRA - Mirare o correre a destra.
+SINISTRA - Mirare o correre a sinistra.
+
+START
+Premi il pulsante START per mettere il gioco
+in pausa.
+
+Quando sei sulla zip line, premendo il
+pulsante per Saltare (A) diminuirai la velacita.
+
+LIVELLI VERTICALI
+PULSANTI
+
+X - Sparare da fermo
+
+Y - Correre e sparare
+
+A- Lanciare bombe.
+
+B - Bloccarsi una direzione e sparare mentre
+in movimento.
+
+SINISTRO - Non viene utilizzato
+
+DESTRO - Per sparare indietro mentre stai
+correndo.
+
+PULSANTE DIREZIONALE
+
+DESTRA - Correre 0 mirare le armi a destra.
+SINISTRA - Correre o mirare le armi a
+sinistra.
+
+GIU - Correre o mirare le armi in fondo
+alla videata.
+
+SU - Correre o sparare le armi in cima
+alla videata.
+
+Pulsante
+DESTRO
+
+Pulsante
+SINISTRO
+
+Pulsante ¥
+
+Pulsante X
+
+Pulsante A
+
+Pulsante B
+Pulsante Start
+
+Pulsante Select
+(Seleziona) (Avvio)
+
+===== Page 29 =====
+
+COME UTILIZZARE LE ARMI
+
+FUCILI:
+
+Verrai armato automaticamente con una
+pistola. Se raccoglierai un’altra arma, la
+pistola verra messa nella fondina e utilizzerai
+la nuova arma fino a quando non finirai
+le munizioni. In quest'ultimo caso ritornerai
+alla pistola
+
+ARMI DISPONIBILI
+
+BOMBE A MANO:
+
+Esistono due tipi di bombe: le bombe a mano
+e le bombe incendiarie. Raccogliendo una
+Bomba a mano otterrai cinque bombe
+Raccogliendo una bomba incendiaria otterrai
+tre granate. Potrai utilizzarle come preferisci,
+ma non potrai accumularle insieme, infatti se
+possiedi un tipo di bomba e ne raccogli un
+altro tipo, tutte le tue bombe diventeranno
+dell'ultimo tipo. Le bombe a mano sono
+visualizzate nell'angolo in basso a sinistra
+della videata, sopra all'indicatore della salute.
+
+Qui di seguito troverai le armi disponibili nelle missioni. Ricorda che la pistola sara
+
+sempre disponibile
+
+PISTOLA - Con munizioni a volonta.
+Usala quando ne hai bisogno
+
+FUCILE - Con munizioni limitate. |I
+fucile ha una maggiore portata
+
+MAGNUM - Una pistola pitt potente
+che consente di eliminare i nemici
+con meno munizioni. Le munizioni
+sono limitate.
+
+BOMBA A MANO - L'esplosivo del
+20esimo secolo che elimina tutti i
+nemici che si trovano sulla
+traiettoria.
+
+BOMBA INCENDIARIA - Elimina gli
+awersari e lascia una scia di
+fiamme.
+
+MINI PACK - Partially restores life
+power.
+
+CASSETTA DEL PRONTO
+SOCCORSO - Ripristina
+l'energia vitale
+
+VITA EXTRA - Ti fornisce
+un‘altra vita
+
+OCCHIALI A INFRAROSSI - Usa
+questi occhiali speciali per poter
+vedere nel buio.
+
+CORAZZA - Questa corazza @
+praticamente a prova di proiettile.
+
+FIALA CONGELANTE - Contiene
+agente chimico che attiva il
+processo di sospensione criogena.
+Utilizzala sui detenuti e Phoenix
+per congelarli.
+
+POLIZIA DI LOS ANGELES
+ARCHIVIO N°425
+JOHN SPARTAN
+CONTRO
+
+SIMON PHOENIX
+ATTENZIONE!?!
+QUESTE INFORMAZIONI SONO
+
+ESTREMAMENTE RISERVATE.
+
+28
+
+===== Page 30 =====
+
+POLIZIA DI LOS ANGELES
+RAPPORTO INFORMAZIONI SULLA MISSIONE
+DATA: 21/08/96
+
+A: AGENTE JOHN SPARTAN
+
+OGGETTO: CATTURA DI SIMON PHOENIX
+NOME DELLA MISSIONE: | TETTI
+
+RIASSUNTO:
+
+Simon Phoenix é ricercato dalla Polizia di Los
+Angeles perché accusato di diversi crimini in
+citta e nelle aree limitrofe. Precedenti
+tentativi di catturare Phoenix, anche con la
+collaborazione di altri servizi d'ordine, sono
+falliti e hanno causato la distruzione di edifici
+privati e pubblici. Molti agenti e molti
+civili hanno subito ferite molto gravi e
+altri sono morti a causa della resistenza
+opposta all'arresto da Phoenix. Questo spiega
+come mai la polizia vuole assolutamente
+catturare Phoenix.
+
+E molto conosciuto e tutto il personale della
+Polizia di Los Angeles é stato informato che
+Phoenix @ in possesso di armi ed é
+considerato molto pericoloso. Phoenix
+possiede un vasto arsenale di armi e altro
+materiale di scorta rubato. Precedenti
+tentativi di catturare Phoenix sono falliti e
+hanno provocato la distruzione di edifici
+privati e pubblici.
+
+OBIETTIVO DI MISSIONE
+
+Verrai trasportato con un elicottero sui tetti di
+un =magazzino
+abbandonato che
+si presume sia il
+quartiere
+generale di Simon
+Phoenix e dei suoi
+scagnozzi Si
+crede che come 5
+in precedenti occasioni,
+pesantemente armato e disponga di personale
+e armi di complemento. Appena scenderai
+dall'elicottero sarai completamento solo. A
+causa del fuoco superficie terra contro
+l'elicottero, durante la missione non potremo
+guardarti alle spalle
+
+Dovrai attraversare i tetti e penetrare
+29 nell'edificio. Appena sarai dentro dovrai
+cercare Phoenix e portarlo fuori vivo.
+
+Phoenix sia
+
+Siamo convinti che i trenta ostaggi civili
+catturati oggi da Phoenix siano ancora vivi e si
+trovino nell'edificio. Stai molto attento quando ti
+troverai ad affrontare Phoenix per non mettere
+in repentaglio la vita degli ostaggi
+
+AVVERTIMENTO DISCIPLINARE
+
+Anche se sei considerato |'agente piu
+qualificato per questo compito, tieni presente
+questo awertimento. Sei in periodo di prova
+per essere stato incauto e aver causato
+danni a edifici civill e messo a repentaglio
+delle vite. Anche se la passione che metti nel
+catturare delinquenti @ senza dubbio
+ammirevole, non per questo puoi permetterti
+di compromettere edifici pubblici o la salute
+dei cittadini. Certo che vagliamo che Phoenix
+venga catturato e saldi i suoi conti con la
+giustizia, ma per evitare ulteriori
+provvedimenti disciplinari dovrai utilizzare
+solamente i mezzi consentiti!
+
+POLIZIA Di SAN ANGELES
+RAPPORTO INFORMAZIONI SULLA MISSIONE
+DATA: 03/08/2032
+A: JOHN SPARTAN
+DA: QUARTIER! GENERALI DI
+
+PROTEZIONE E SERVIZIO D'ORDINE
+OGGETTO: CATTURA DI SIMON PHOENIX.
+NOME DELLA MISSIONE: IL MUSEO
+
+RIASSUNTO:
+
+Sei l'ex-agente John Spartan, sei uscito
+dall'unita criogena dopo aver scontato
+trent’anni della sentenza di settanta anni per
+essere stato incauto ed aver messo in
+pericolo delle vite umane. Sei stato rilasciato
+solamente per questioni relative ai servizi
+dordine. Non si tratta di liberta prowisoria o
+di termine della pena.
+
+Trenta sei anni fa partecipasti alla cattura di
+un certo Simon Phoenix in un magazzino della
+provincia di una citta chiamata Los Angeles.
+
+Proprio questa mattina, durante un'ora
+d'aria, Simon Phoenix é fuggito dalla Prigione
+Criogena della California provocando quattro
+amicidi codice 187 assassino MDK. Sei stato
+riportato dallo stato criogeno per aiutare e
+consigliare la Polizia di San Angeles sui
+metodi per catturare Simon Phoenix.
+
+===== Page 31 =====
+
+OBIETTIVO DELLA MISSIONE
+
+Si ritiene che Phoenix si stia dirigendo verso il
+MUSEO CIVICO DI STORIA NATURALE. Al
+museo é in corso una mostra sulla
+VIOLENZA. Questa mostra contiene una
+vasta gamma di armi di tre secoli diversi.
+Pensiamo che I'obiettivo principale di Phoenix
+sia quello di ottenere il maggior numero
+possibile di armi.
+
+Devi impedire a Phoenix di rubare nel museo
+e riportarlo in carcere.
+
+POLIZIA DI SAN ANGELES
+SUPPLEMENTO AL RAPPORTO INFORMAZIONI
+SULLA MISSIONE
+
+DATA: 02/08/2032
+
+A: JOHN SPARTAN
+
+OGGETTO: CATTURA DI SIMON PHOENIX.
+NOME DELLA MISSIONE: SOTTO IL MUSEO
+
+RIASSUNTO:
+
+La caccia a Simon Phoenix non si svolge pit
+nella SALA DELLA VIOLENZA del Museo
+Civico di Storia Naturale. Durante il
+confronto, il pavimento di vetro e crollato e
+Spartan e Phoenix sono caduti SOTTO IL
+MUSEO. Questa parte della missione assume
+adesso il nome di SOTTO IL MUSEO.
+
+OBIETTIVO DELLA MISSIONE
+
+U'obiettiva della missione non @ cambiato.
+Cattura Simon Phoenix e la sua gang e
+riportalo alla prigione criogenica.
+
+POLIZIA DI SAN ANGELES
+
+RAPPORTO INFORMAZIONI SULLA MISSIONE
+
+DATA: 02/08/2032
+
+A: JOWH SPARTAN
+
+DA: QUARTIERI GENERAL! DI PROTEZIONE E
+SERVIZIO D'ORDINE
+
+OGGETTO: CATTURA DEL PRIGIONIERO
+
+CRIOGENO SIMON PHOENIX.
+NOME DELLA MISSIONE: IL PARCHEGGIO
+
+RIASSUNTO:
+
+Molti detenuti sono riusciti a fuggire dal
+Penitenziario Criogeno della California e
+dall'Unita di riabilitazione e si trovano in citta.
+Secondo i servizi di sorveglianza di San
+Angeles molti detenuti criogeni hanno invaso
+l'unita del parcheggio n°425 di East Summit
+Street e sono stati riportati ingenti danni alla
+proprieta pubblica e privata.
+
+OBIETTIVO DELLA MISSIONE
+
+Entra nel piano terra del parcheggio al
+terreno e elimina gli detenuti criogeni che
+danneggiano le auto e I'edificio. Arriva al
+piano pit alto dell'edificio e sottrai il controllo
+della gru ai detenuti criogeni con la quale
+afferrano auto che poi scagliano addosso ai
+civili.
+
+POLIZIA DI SAN ANGELES
+
+RAPPORTO INFORMAZIONI SULLA MISSIONE
+
+DATA: 02/08/2032
+
+A: JOHN SPARTAN
+
+DA: QUARTIER! GENERAL! BI PROTEZIONE E
+
+SERVIZIO D'ORDINE
+
+OGGETTO: CATTURA DEL PRIGIONIERO
+CRIOGEHO SIMON PHOENIX.
+
+NOME DELLA MISSIONE: LA FERROVIA
+
+RIASSUNTO:
+
+| detenuti criogeni hanno preso il controllo del
+treno di San Angeles n°425. Il conduttore del
+treno € scomparso e si pensa sia morto. Il
+treno @ guidato da uno degli detenuti
+
+criogeni
+30
+
+===== Page 32 =====
+
+OBIETTIVO DELLA MISSIONE
+
+Comincerai la tua missione in coda al treno in
+corsa e devi riuscire a raggiungere la
+carrozza in testa e a fermare il treno. Elimina
+tutti i detenuti criogeni sul treno. Cerca di
+arrivare in testa al treno e distruggi il motore
+del treno.
+
+POLIZIA DI SAN ANGELES
+
+RAPPORTO INFORMAZIONI SULLA MISSIONE
+
+DATA: 02/08/2032
+
+A: JOHN SPARTAN
+
+DA: QUARTIER! GENERAL! DI PROTEZIONE E
+SERVIZIO D'ORDINE
+
+OGGETTO: CATTURA DEL PRIGIONIERO
+
+CRIOGENO SIMON PHOENIX.
+HOME DELLA MISSIONE: LA BIBLIOTECA .
+
+RIASSUNTO:
+
+Malti detenuti sono stati visti nella Biblioteca
+comunale di San Angeles. Sono stati riportati
+danni alla proprieta pubblica e privata,
+aggressioni e attacchi a civili e poliziotti.
+
+OBIETTIVO DELLA MISSIONE
+
+Devi entrare nella biblioteca e impedire ai
+detenuti di provocare ulteriori distruzioni
+Evita di fare del male ai civili dentro |'edificio.
+
+Esplora le stanze della biblioteca e elimina
+tutti i detenuti criogeni dentro I'edificio.
+
+POLIZIA DI SAN ANGELES
+
+RAPPORTO INFORMAZIONI SULLA MISSIONE
+
+DATA: 03/08/2032
+
+A: AGENTE JOHN SPARTAN
+
+DA: QUARTIER! GENERAL! DI PROTEZIONE E
+SERVIZIO D'ORDINE
+
+OGGETTO: CATTURA DEL PRIGIONIERO
+
+CRIOGENO SIMON PHOENIX.
+HOME DELLA MISSIONE: ZIP LINE
+
+RIASSUNTO:
+
+\l computer di controllo e di vigilanza della
+citté ha rilevato un passaggio nelle porte di
+accesso ai tunnel di servizio abbandonati
+Questo passaggio potrebbe condurre alla
+citta sotterranea conosciuta con il nome Il
+Deserto. E qui che Simon Phoenix é stato
+visto |'ultima volta.
+
+OBIETTIVO DELLA MISSIONE
+
+Dovrai percorrere la zip line, attraversare
+passerelle e salti con l'elastico per poter
+arrivare a ll Deserto. Si ritiene che molti
+detenuti criogeni, fedeli seguaci di Phoenix,
+siano appostati sulla zip line a fare la guardia.
+
+Cerca di arrivare in fondo alla zip line,
+eliminando il maggior numero possibile di
+detenuti criogeni.
+
+POLIZIA DI SAN ANGELES
+
+SUPPLEMENTO AL RAPPORTO INFORMAZIONI
+
+SULLA MISSIONE
+
+DATA: 03/08/2032
+
+A: JOHN SPARTAN
+
+OGGETTO: GATTURA DEL PRIGIONIERO
+GRIOGENO SIMON PHOENIX.
+
+NOME DELLA MISSIONE: IL DESERTO
+
+RIASSUNTO:
+
+John Spartan é l'agente della Polizia di San
+Angeles, ha completato con successo la
+missione Zip Line. Le seguenti informazioni
+sono state aggiunte dal computer di controllo
+e di vigilanza della Polizia di San Angeles.
+
+L'inseguimento di Phoenix passa dalla
+missione precedente alle passerelle sospese
+su Il Deserto.
+
+===== Page 33 =====
+
+OBIETTIVO DI MISSIONE
+
+Le passerelle non sono altro che dei
+Passaggi sospesi sul deserto. Sono molto
+vecchie ed @ pericoloso camminarci sopra.
+Formano una sorta di labirinto a forma di
+griglia sopra il Deserto. Si presume che sulle
+passerelle si trovino molti detenuti criogeni a
+difesa di Phoenix. Attraversa le passerelle e
+elimina i detenuti criogeni per inseguire
+Phoenix
+
+Anche se la missione é alquanto pericolosa a
+causa del labirinto di passerelle, riuscirai a
+travare il tuo obiettivo di missione pitt
+facilmente se salterai di passerella in
+passerella. Ma sei stato awertito, stai molto
+attento quando ti eserciti in questa manovra!
+
+POLIZIA DI SAN ANGELES
+SUPPLEMENTO AL RAPPORTO INFORMAZIONI
+SULLA MISSIONE
+DATA: 03/08/2032
+A: JOHN SPARTAN
+DA: QUARTIER! GENERAL! DI
+
+PROTEZIONE E SERVIZIO D'ORDINE
+OGGETTO: CATTURA DEL PRIGIONIERO
+
+CRIOGENO SIMON PHOENIX.
+NOME DELLA MISSIONE:
+IL LABIRINTO DI TUBI
+
+RIASSUNTO:
+
+Le seguenti informazioni sono state aggiunte
+al file Spartan/Phoenix a scopo informativo. ||
+computer di controllo e di vigilanza della
+Polizia di San Angeles ha individuato che
+l'inseguimento del prigioniero criageno Simon
+Phoenix da parte di Spartan ha abbandonato
+la precedente area di missione nel Deserto.
+
+OBIETTIVO DI MISSIONE
+
+Insegui Simon Phoenix nei tunnel di servizio
+abbandonati di San Angeles. Nei tunnel si
+trovano molti detenuti criogeni allo scopo di
+proteggere Phoenix. Fatti strada nel labirinto
+di tunnel della citta e cattura Phoenix.
+
+POLIZIA DI SAN ANGELES
+RAPPORTO INFORMAZIONI SULLA MISSIONE
+DATA: 03/08/2032 i
+A: JOHN SPARTAN
+DA: QUARTIER! GENERAL! DI PROTEZIONE E
+SERVIZIO D'ORDINE
+OGGETTO: CATTURA DEL PRIGIONIERO
+CRIOGENO SIMON PHOENI
+NOME DELLA MISSIONE:
+LA PRIGIONE GRIOGENA
+
+Il computer di controllo e di vigilanza ha
+individuato un varco creato con la forza nella
+Prigione criogena della California. Dal
+controllo visivo risulta che Simon Phoenix @
+riuscito ad entrare nella prigione e a liberare
+degli altri detenuti criogeni dal loro stato di
+animazione sospesa.
+
+OBIETTIVO DI MISSIONE
+
+La prigione criogena @ composta da molte
+stanze e corridoi. Probabilmente dovrai
+affrontare molti dei detenuti criogeni che
+sono stati liberati da Phoenix. A causa dei
+danni e delle vite perdute nelle precedenti
+missioni questa volta dovrai combattere fino
+alla fine. Devi prendere Phoenix vivo 0 morto
+costi quel che costi.
+
+32
+
+===== Page 34 =====
+
+1. Installeer je Super Nintendo
+Entertainment™ machine volgens de
+aanwijzingen die in de handleiding van je
+SNES worden gegeven.
+
+2. Zorg er voor dat de machine UIT staat
+voordat je de spelcassette erin stopt.
+Stop de DEMOLITION MAN™ spelcassette
+in de machine.
+
+3. Zet je Super Nintendo Entertainment
+System™ (SNES) aan.
+
+4. Je zult een aantal credits schermen te
+zien krijgen. Je kunt op elk moment op de
+start knop drukken om door te gaan naar
+het volgende scherm.
+
+5. Na het titelscherm kun je kiezen uit drie
+opties: START, OPTIONS en ACTIONS. Als je
+START kiest, word je direct naar de daken
+gebracht waar je met je opdracht kunt
+beginnen. Door het kiezen van OPTIONS
+kom je in het opties scherm terecht.
+Wanneer je ACTIONS selecteert kom je in
+de lesinstelling van het spel terecht.
+
+HET OPTIES SCHERM
+
+MOEILIJK-
+HEIDSGRAAD
+
+GELUID
+
+HET OPTIES SCHERM
+Gebruik de Richtingtoets voor het verplaatsen
+
+van het icoontje naar de optie die je wilt
+veranderen
+
+BESTURINGS CONFIGURATIE
+
+Gebruik de richtingtoets voor het verplaatsen
+van de cursor naar de beweging waar je een
+knop aan toe wilt wijzen, daarna druk je de
+knop (A, B, X, of Y) in waarmee je die
+beweging uit wilt gaan voeren
+
+MOEILISKHEIDSGRAAD
+
+Je kunt kiezen uit: Calm (Rustig), Crazed
+(Maniakaal), of Total Demolition (Volledige
+Verwoesting).
+
+GELUIDSEFFECTEN
+
+On (Aan) of Off (Uit) [selecteer met een
+knoppen).
+
+MUZIEK
+
+On (Aan) of Off (Uit) (selecteer met een
+willekeurige knop).
+
+GELUIDSTEST
+
+Druk op start voor het geluidstest scherm en
+kies uit de start opties (Druk op A om het
+geluid te laten beginnen. Druk op B om het
+geluid te laten stoppen. Druk op START om
+terug te keren naar het opties scherm.)
+
+EXIT
+
+Door op start te drukken, word je
+teruggebracht naar het algemene opties
+scherm. Daar kun je kiezen uit: START GAME
+(BEGINNEN MET HET SPEL) en beginnen met
+je eerste opdracht, reset OPTIONS (OPTIES)
+of sample ACTIONS (ACTIES) (een
+lesinstelling: druk op start om te beginnen,
+daarna druk je L of R in of gebruik je de
+RICHTINGTOETS om door te scrollen naar de
+volgende les aver bewegingen).
+
+BESTURINGS .
+INFORMATIE
+
+ZIJAANZICHT «es:
+LEVELS
+
+KNOPPEN oes (a Kopoar
+
+X - Schieten met geweer.
+
+Y - Schieten met geweer.
+
+A - Granaten gooien.
+
+B - Springen. Om te rollen druk je neer op de
+richtingtoets terwijl je die ingedrukt houdt.
+L - Wordt niet gebruikt.
+
+R - Wordt niet gebruikt.
+
+RICHTINGTOETS
+
+OP - Klimmen
+
+NEER - Hurken of ladders afdalen
+RECHTS - Richten of rennen naar rechts
+LINKS - Richten of rennen naar links
+
+START - Druk op de START knop om te
+pauzeren tijdens het spel.
+
+Als je op een “zip" lijn staat, ga je langzamer
+wanneer je de Spring Knop (A) indrukt.
+
+BOVENAANZICHT LEVELS
+KNOPPEN
+
+X - Planten en schieten
+
+Y - Rennen en schieten
+
+A - Gooi granaat
+
+B - Zet richting vast en schiet terwijl je
+beweegt
+
+L- Wordt niet gebruikt
+
+R - Achterwaarts schieten terwijl je rent
+RICHTINGTOETS
+
+RECHTS - Rennen of met wapens schieten
+naar rechts.
+
+LINKS - Rennen of met wapens schieten
+naar links.
+
+===== Page 35 =====
+
+NEER - Rennen of met wapens schieten naar
+de onderkant van het scherm.
+
+OP - Rennen of met wapens schieten naar de
+bovenkant van het scherm
+
+HET GEBRUIK WAN JE WAPENS
+
+LUURWAPENS:
+
+Je krijgt automatisch een pistool. Wanneer je
+een ander wapen oppikt, verdwijnt je pistool
+in de holster en kun je schieten met het
+nieuwe wapen totdat de munitie daarvoor op
+is. Vanaf dat moment kun je je pistool weer
+gaan gebruiken.
+
+HANDGRANATEN:
+
+Er zijn twee soorten Granaat icoontjes,
+Handgranaten en Viammengranaten. Een
+Handgranaat icoontje levert vijf handgranaten
+op. Door het oppakken van een
+Vilammengranaat icoontje krijg je drie
+granaten. Je kunt ze gebruiken wanneer je
+maar wilt, maar je kunt geen voorraadje
+opbouwen. Wanneer je €én soort granaat in
+je bezit hebt en je een andere soort oppakt,
+worden al je granaten van dat type. Links
+onderaan op het scherm boven de
+gezondheidsmeter kun je zien hoeveel
+handgranaten je hebt.
+
+WAPENS DIE TOT JE BESCHIKKING STAAN
+
+Deze wapens kunnen beschikbaar zijn tijdens je missies. Het is belangrijk om te weten dat het
+
+pistool altijd tot je beschikking staat.
+
+PISTOOL - Heel veel munitie.
+Gebruik het wanneer dat nodig is.
+
+GEWEER - Munitie is beperkt.
+Wanneer je het geweer gebruikt heb
+je een groter vuurbereik.
+
+MAGNUM - Een krachtiger pistool
+waarmee je vijanden met minder
+munitie uit de weg kunt ruimen. De
+munitie is beperkt.
+
+HANDGRANAAST - Een explosief uit
+de twintigste eeuw dat vijanden
+uitschakelt die getroffen worden
+door in het rond vliegende
+brokstukken.
+
+VLAMMENGRANAAT - Schakelt
+tegenstanders uit en laat een spoor
+van vlammen achter.
+
+MINI PACK - Gedeeltelijk herstel
+van levenskracht.
+
+LOS ANGELES PO
+
+MEDI PACK - Herstelt
+levenskracht.
+
+EXTRA LEVEN - Bezorgt je een
+extra leven.
+
+INFRAROOD BRIL - Gebruik deze
+speciale bril om 's nachts beter te
+kunnen zien.
+
+LICHAAMSWAPENRUSTING -
+Deze beschermende wapenrusting
+is bijna volledig kogelbestendig.
+
+BEVRIEZINGS FLESJES - Bevat de
+chemische stof die het Cryo-
+suspensie proces op gang brengt.
+Gebruik dit om de cons en Phoenix
+te bevriezen
+
+RAPPORT #425
+JOHN SPARTAN
+
+SIMON PHOENIX
+WAARSCHUWING
+ALLE INFORMATIE IN DIT RAPPORT
+IS VERTROUWELIJK.
+
+34
+
+===== Page 36 =====
+
+LOS ANGELES POLITIE BUREAU
+PRE MISSIE INSTRUCTIES RAPPORT
+DATUM: 21 - 8 - 96
+
+AAN: POLITIEMAN JOHN SPARTAN
+
+RE: DE ARRESTATIE VAN SIMON PHOENIX
+MISSIE NAAM: DE DAKEH
+
+SAMENVATTING:
+
+Simon Phoenix wordt gezocht door de politie
+van Los Angeles in verband met aanklachten
+die te maken hebben met verschillende
+misdaden in de stad en in de omgeving. Hij
+wordt onder andere beschuldigd van moord
+onder verzwarende omstandigheden, moord,
+poging tot moord, bedreiging, bedreiging met
+een dodelijk wapen, kapitale diefstal, diefstal
+en ontvoering.
+
+Het is algemeen bekend, en alle
+politiemannen van Los Angeles weten het
+ook, dat Phoenix bewapend en uiterst
+gevaarlijk is. Hij wordt zwaar gesteund door
+een uitgebreide ondergrondse van dealers die
+hem wapens en andere gestolen werktuigen
+leveren. Eerdere pogingen om Phoenix te
+arresteren zijn mislukt terwijl ze wel verlies
+van bezit van burgers en politie opleverden.
+Dit is de enige reden waarom de politie er
+erg op gebrand is om Phoenix voor het
+gerecht te slepen
+
+MISSIE DOEL:
+
+Met een
+helicopter word je
+naar het dak van
+een verlaten
+pakhuis gebracht
+waar Simon
+Phoenix en zijn handlangers hun
+hoofdkwartier zouden hebben. Men gaat
+ervan uit dat Phoenix, net als bij de vorige
+keren, zwaar bewapend is en gebruik kan
+maken van personeel en apparatuur,
+waaronder wapens. Wanneer je uit de
+helicopter bent gestapt, sta je er alleen voor
+Door het luchtafweergeschut dat gericht is
+op de helicopter kunnen we je niet
+ondersteunen tijdens je missie.
+
+3 Jij moet over de daken gaan en daarna
+het gebouw ingaan.
+
+Als je €énmaal binnen bent, moet je Phoenix
+vinden en hem levend naar buiten brengen
+We denken dat de dertig onschuldige burger
+gijzelaars die Phoenix eerder op de dag heeft
+gevangen genomen nog steeds leven en
+ergens in het gebouw zitten. Je moet echt
+heel erg voorzichtig zijn wanneer je tegenover
+Phoenix komt te staan om zo de levens van
+de gijzelaars niet in gevaar te brengen.
+
+DISCIPLINAIRE WAARSCHUWING:
+
+Hoewel iedereen je ziet als de meest
+geschikste politieman voor deze opdracht,
+moet je rekening houden met deze officiéle
+en terechte waarschuwing. Officieel ben je
+voorwaardelijk vrij nadat je eerder ontzettend
+roekeloos bent geweest wat geleid heeft
+tot beschadiging van bezit van burgers
+en je eigen gezondheid. Het is
+bewonderenswaardig dat je zo fanatiek bent
+in het opbrengen van overtreders en we
+willen graag dat Phoenix gevangen wordt
+genomen zodat hij voor het gerecht gesleept
+kan worden, maar dit mag niet ten koste
+gaan van het bezit of het welzijn van de
+belastingbetaler. Haewel we graag willen dat
+Phoenix gepakt wordt, moet je niet al teveel
+onnodig geweld gebruiken om verdere
+disciplinaire acties te voorkomen
+
+SAN ANGELES POLITIE BUREAU
+PRE MISSIE INSTRUGTIES RAPPORT
+
+DATUM: 03 - 8 -2032
+
+AAN: JOHN SPARTAN
+
+VAN: PROTECT AND SERVE HOOFDKWARTIER
+RE: DE ARRESTATIE VAN SIMON PHOENIX
+MISSIE MAM: HET MUSEUM
+
+| ated Re
+SAMENVATTING:
+
+Ex-politieman John Spartan, je bent
+vrijgelaten uit je cryo-synthesis opsluitingscel
+nadat je dertig jaar van je straf van zeventig
+jaar voor het roekeloos in gevaar brengen
+van mensenlevens daar hebt doorgebracht.
+Je bent er alleen maar uitgehaald omdat je
+een klus moet klaren voor de politie. Dit is
+geen voorwaardelijke vrijlating of
+kwijtschelding van je straf
+
+Zes-en-dertig jaar geleden was je betrokken
+bij de arrestatie van iemand met de naam
+
+===== Page 37 =====
+
+Simon Phoenix in een pakhuis in de stad die
+toen Los Angeles heette.
+
+Eerder deze ochtend, tijdens een routine
+verhoor in verband met voorwaardelijke
+vrijlating, is Simon Phoenix ontsnapt uit de
+California Cryo Gevangenis Inrichting. Tijdens
+zijn Ontsnapping heeft hij vier code 187
+MDK's (Murder Death Kills) gepleegd. Je
+bent uit je cryo toestand gehaald om de
+politie van San Angeles te assisteren en te
+adviseren over methoden om Simon Phoenix
+te arresteren.
+
+Men gaat er van uit dat Phoenix op weg is
+naar het COUNTY MUSEUM OF HUMAN
+HISTORY. Op dit moment is er een
+tentoonstelling die als titel THE HALL OF
+VIOLENCE heeft meegekregen. Deze
+tentoonstelling laat een omvangrijke collectie
+wapens uit drie verschillende eeuwen zien.
+Volgens ons is Phoenix van plan om zoveel
+mogelijk wapens te verzamelen. Zorg er voor
+dat Phoenix het museum niet berooft en
+breng hem terug zodat hij weer opgesloten
+kan worden.
+
+SAN ANGELES POLITIE BUREAU
+AANVULLING OP PRE MISSIE INSTRUCTIES
+RAPPORT
+
+DATUM: 03 - 8 - 2032
+
+AAN: JOHN SPARTAN
+
+RE: DE ARRESTATIE VAN SIMON PHOENIX
+MISSIE WAAM: HET SUB MUSEUM
+
+MENVATTING:
+
+De achtervolging van Simon Phoenix is niet
+langer beperkt tot de HALL OF VIOLENCE in
+het County Museum of Human History. Toen
+Spartan en Phoenix tegen over elkaar
+kwamen te staan, werd de glazen vioer
+vernietigd waardoor de twee naar beneden
+vielen in de Sub Museum opgravings
+tentoonstelling. Om Spartan en Phoenix goed
+te kunnen volgen wordt dit stuk van de missie
+nu HET SUB MUSEUM genoemd.
+
+DOEL MISSIE:
+
+Het doel van de missie is niet veranderd.
+Vang Simon Phoenix en breng hem terug
+naar de cryo gevangenis.
+
+SAN ANGELES POLITIE BUREAU
+
+PRE MISSIE INSTRUCTIES RAPPORT
+
+DATUM: 03 - 8 - 2632
+
+AAR: JOHN SPARTAN
+
+VAN: PROTECT AND SERVE HOOFBKWARTIER
+
+RE: DE ARRESTATIE VAN CRYO GEVANGENE
+SIMON PHOENIX
+
+MISSIE MAM: DE PARKEERGARAGE
+
+SAMENVATTING:
+
+Meerdere veroordeelden zijn ontsnapt uit de
+California Cryo Penitentiaire en Rehabilitatie
+inrichting. Op dit moment lopen ze vrij rond in
+de stad. Het bewakingssysteem van
+San Angeles meldt dat meerdere ontsnapte
+cryo-cons (cryo veroordeelden) de
+stadsparkeergarage #425 East Summit
+Street zijn binnengedrongen. Vernielingen op
+grote schaal van gemeentelijk en privé bezit
+worden gemeld.
+
+DOEL MISSIE:
+
+Ga naar binnen in de parkeergarage op de
+begane grond en schakel de cryo cons uit die
+auto's en de garage beschadigen. Ga naar de
+bovenste verdieping van de garage en stop
+de kraan die auto's oppakt en ze daarna op
+Spartan laat vallen.
+
+SAN ANGELES POLITIE BUREAU
+
+PRE MISSIE INSTRUCTIES RAPPORT
+
+DATUM: 03 - 8 - 2032
+
+ARM: JOHN SPARTAN
+
+VAN: PROTECT AND SERVE HOOFDKWARTIER
+
+RE: DE ARRESTATIE VAN GRYO GEVANGENE
+SIMON PHOENIX
+
+MISSIE HAAM: DE MONORAIL
+
+===== Page 38 =====
+
+SAMENVATTING:
+
+San Angeles Openbaar Vervoer Monorail
+Transport Trein #425 is door Cryo cons
+overgenomen. De bestuurder van de trein
+wordt vermist en is waarschijnlijk dood. De
+trein wordt nu bestuurd door één van de cryo
+cons.
+
+DOEL MISSIE:
+
+Je begint aan de achterkant van de rijdende
+trein. Je moet je een weg vechten naar de
+voorste wagon van de trein en de trein stil
+zetten. Schakel alle cryo-cons in de trein uit.
+Ga helemaal naar voren en vernietig de
+moter van de Monorail.
+
+SAK ANGELES POLITIE BUREAU
+
+PRE MISSIE INSTRUCTIES RAPPORT
+
+DATUM: 03 - 8 - 2032
+
+AAN: JOHN SPARTAN
+
+VAN: PROTECT AND SERVE HOOFDKWARTIER
+
+RE: DE ARRESTATIE VAN CRYO GEVANGENE
+SIMON PHOENIX
+
+MISSIE NAAM: DE BIBLIOTHEEK
+
+SAMENVATTING:
+
+Veel veroordeelden zijn gesignaleerd bij de
+San Angeles County Bibliotheek. Er zijn
+meldingen binnengekomen over geweld,
+vernieling van gemeentelijk en privé bezit,
+bedreiging en lichamelijk letsel toegebracht
+aan burger en politie personeel.
+
+DOEL MISSIE:
+
+Je moet de bibliotheek binnengaan en er voor
+zorgen dat de cryo cons niet meer
+vernielingen kunnen aanrichten. Zorg ervoor
+dat de burgers in het gebouw geen haar
+wordt gekrenkt.
+
+Zoek een weg door alle kamers van de
+bibliotheek en schakel alle ontsnapte cryo-
+cons binnenin het gebouw uit.
+
+37
+
+SAN ANGELES POLITIE BUREAU
+
+PRE MISSIE INSTRUGTIES RAPPORT
+
+DATUM: 03 - 8 - 2032
+
+AAN: JOHN SPARTAN
+
+VAN: PROTECT AND SERVE HOOFDKWARTIER
+
+RE: DE ARRESTATIE VAN CRYO GEVANGENE
+SIMON PHOENIX
+
+MISSIE NAAM: ZIP LIJN
+
+SAMENVATTING:
+
+Het Bewoner Observatie en Bewakings
+systeem van de stad heeft een opening
+ontdekt in @én van de toegangspoorten naar
+de verlaten onderhouds en openbare
+voorzieningen tunnels. Deze toegangsweg
+leidt naar de ondergrondse stad die
+algemeen bekend staat als The Wasteland.
+Hier is Simon Phoenix voor het laatst gezien
+
+DOEL MISSIE:
+
+Je moet via de zip lijnen, loopbruggen en
+bungee sprongen naar beneden naar de vioer
+van The Wasteland gaan. Het is bekend dat
+meerdere ontsnapte cryo cons die trouw zijn
+aan Phoenix als bewakers in het zip lijn level
+rondlopen. Ga naar de onderkant van het zip
+lijn level terwijl je zo veel mogelijk cryo cons
+uitschakelt.
+
+SAN ANGELES POLITIE BUREAU
+
+AANVULLING OP PRE MISSIE
+
+INSTRUCTIES RAPPORT
+
+DATUM: 03 - 8 - 2032
+
+AAN: JOHN SPARTAN
+
+RE: DE ARRESTATIE VAN GRYO GEUANGENE
+SIMON PHOENIX
+
+MISSIE NAAM: THE WASTELAND
+
+===== Page 39 =====
+
+SAMENVATTING:
+
+San Angeles politieman John Spartan heeft
+met goed gevolg missie Zip lijn afgesloten.
+Deze aanvulling is toegevoegd aan het archief
+door het San Angeles Politie en Personeel
+Geautomatiseerde Archief en Observatie
+Systeem.
+
+De achtervolging van Phoenix gaat door vanaf
+de plek van de vorige missie naar de
+loopbruggen boven The Wasteland.
+
+DOEL MISSIE:
+
+De Loopbruggen zijn verbindingswegen boven
+The Wasteland. Ze zijn erg oud en
+onbetrouwbaar. Ze vormen een doolhofachtig
+stelsel dat zich uitstrekt over het complete
+Wasteland. Men denkt dat er veel Cryo-Cons
+op de loopbruggen zijn gestationeerd om
+Phoenix te beschermen. Steek de
+loopbruggen over en schakel de Cryo-Cons uit
+zodat je Phoenix op kunt sporen
+
+Hoewel dit als zeer gevaarlijk wordt
+beschouwd, is het mogelijk dat je je doel
+sneller kunt bereiken wanneer je van
+loopbrug naar loopbrug springt ; dit heeft te
+maken met de doolhofachtige structuur van
+de loopbruggen. Maar we willen je wel van
+tevoren waarschuwen: pas ontzettend goed
+op wanneer je dit gaat doen!
+
+SAN ANGELES POLITIE BUREAU
+
+AANVULLING OP PRE MISSIE
+
+INSTRUCTIES RAPPORT
+
+DATUM: 03 - 8 - 2032
+
+AAN: JOWM SPARTAN
+
+VAN: PROTECT AND SERVE HOOFDKWARTIER
+
+RE: DE ARRESTATIE VAN CRYO GEVANGENE
+SIMON PHOENIX
+
+MISSIE NAAM: DE DOOLHOF TUNNELS
+
+SAMENVATTING:
+
+Dit is een aanvulling op het Spartan/Phoenix
+bestand. Het Bewoner Observatie en
+Bewakings systeem van de stad heeft
+ontdekt dat Spartan's achtervolging van Cryo-
+Gevangene Phoenix zich niet meer afspeelt in
+the Wasteland.
+
+DOEL MISSIE:
+
+Achtervolg Simon Phoenix in de verlaten
+onderhoudstunnels van San Angeles. In de
+tunnels zul je te maken krijgen met
+verschillende Cryo-Gevangenen die Phoenix
+beschermen. Zoek een weg door het doolhof
+van tunnels onder de stad en neem Phoenix
+gevangen.
+
+SAN ANGELES POLITIE BUREAU
+
+PRE MISSIE INSTRUGTIES RAPPORT
+
+DATUM: 03 - 8 - 2032
+
+AAN: JOHN SPARTAN
+
+VAN: PROTECT AND SERVE HOOFDKWARTIER
+
+RE: DE ARRESTATIE VAN GRYO GEVANGENE
+SIMON PHOENIX
+
+MISSIE NAAM: DE CRYO GEVANGENIS
+
+SAMENVATTING:
+
+Het Bewoner Observatie en Bewakings
+systeem van de stad heeft ontdekt dat
+iemand de California Cryo Gevangenis
+Inrichting is binnengedrongen
+Bewakingscamera's geven aan dat Simon
+Phoenix de gevangenis is binnen gegaan en
+dat hij nu andere Cryo-Cons uit hun
+verdovingstoestand haalt.
+
+DOEL MISSIE:
+
+De cryo inrichting bestaat uit verschillende
+kamers en gangen. Het is zeer waarschijnlijk
+dat je te maken zult krijgen met veel cryo-
+cons die door Phoenix zijn bevrijd. Vecht je
+een weg door de gangen van de cryo-
+gevangenis en probeer Phoenix te vinden. Als
+gevolg van de ontzettend grote hoeveelheid
+schade en het verlies van levens tijdens
+eerdere missies wordt dit een gevecht op
+leven en dood. Je moet Phoenix, ten koste
+van alles tegenhouden.
+
+===== Page 40 =====
+
+Sa eg Rp ;. — ae
+
+LOOK FOR
+
+oe QUARTERBACK
+Ba | A\aim
+iG ‘
+INF! 3 Tt = Ti. i
+
+DISTRIBUTED BY ACCLAIM ENTERTAINMENT LTD.
+Moreau House, 112-120 Brompton Rd, Knightsbridge, London SW3 1JJ, England
+
+DISTRIBUTED BY ACCLAIM ENTERTAINMENT, GmbH, MohistraBe 10, 81675 Munchen, Deutschland
+DISTRIBUE PAR ACCLAIM ENTERTAINMENT SA, 12A 4 Rond Point des Champs Elysees, 75008 Paris, France
+DISTRIBUIDO POR ARCADIA SOFTWARE S.A., Paseo de la Castellana,.52-6a Planta, 28046, Madrid, Espa,
+
+DISTRIBUTED BY: Metro Games, P.O. Box 255, North Melbourne, VIC-3051, Australia
+PRINTED IN JAPAN IMPRIME AU JAPON

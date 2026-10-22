@@ -1,0 +1,2980 @@
+# Wolverine - Adamantium Rage
+source: https://archive.org/details/snes_manual_archive
+pdf: Wolverine - Adamantium Rage ( EU ).pdf
+region: EU
+pages: 40
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+
+
+===== Page 2 =====
+
+LICENSED BY
+
+Qlintendd) \intendo of Europe GmbH : 63760 GroBostheim, Deutschland
+
+cE
+
+Behall denna information / Behold denne information / Pida tama tie to
+
+Keep this information / Gardez ces informations / Diese Information aufbewahrer
+Conservare queste informazioni / Guarde estas informes / Bewaar daze informatie
+
+NINTENDO ®, SUPER NINTENDO ENTERTAINMENT SYSTEM™, @ AND 89 ARE TRADEMARKS OF NINTENDO CO., LTD.
+
+Original
+
+\ Seal of
+. Quality /
+
+THIS SEAL IS YOUR ASSURANCE THAT
+NINTENDO HAS APPROVED THE QUALITY OF
+THIS PRODUCT. ALWAYS LOOK FOR THIS SEAL
+WHEN BUYING GAMES AND ACCESSORIES TO.
+ENSURE COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO ENTERTAINMENT
+SYSTEM.
+
+CE SCEAU EST VOTRE ASSURANCE QUE
+NINTENDO A APPROUVE CE PRODUIT ET QU’IL
+EST CONFORME AUX NORMES D'EXCELLENCE
+EN MATIERE DE FABRICATION, DE FIABILITE ET
+SURTOUT, DE QUALITE. RECHERCHEZ CE
+SCEAU LORSQUE VOUS ACHETEZ DES JEUX
+ET DES ACCESSOIRES POUR ASSURER UNE
+TOTALE COMPATIBILITE AVEC VOTRE SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIESES QUALITATSSIEGEL IST DIE GARANTIE
+DAFUR, DASS SIE NINTENDO-QUALITAT
+GEKAUFT HABEN. ACHTEN SIE DESHALB
+IMMER AUF DIESES SIEGEL, WENN SIE SPIELE
+ODER ZUBEHOR KAUFEN, DAMIT SIE SICHER
+SIND, DASS ALLES EINWANDFREI ZU IHREM
+SUPER NINTENDO ENTERTAINMENT SYSTEM
+PASST.
+
+QUESTO SIGILLO E LA TUA GARANZIA CHE
+NINTENDO HA VALUTATO ED APPROVATO.
+QUESTO PRODOTTO. RICHIEDILO SEMPRE
+ALL'ACQUISTO DI GIOCHI ED ACCESSORI PER
+ASSICURARE LA COMPLETA COMPATIBILITA
+CON IL TUO SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+ESTE SELLO ES TU SEGURO DE QUE
+NINTENDO HA APROBADO LA CALIDAD DE
+ESTE PRODUCTO. BUSCA SIEMPRE ESTE
+SELLO CUANDO COMPRES VIDEOJUEGOS Y
+ACCESORIOS PARA ASEGURARTE UNA
+COMPLETA COMPATIBILIDAD CON TU SUPER
+NINTENDO ENTERTAINMENT SYSTEM.
+
+DIT ZEGEL WAARBORGT U, DAT DIT PRODUKT
+DOOR NINTENDO IS GECONTROLEERD EN DAT
+HET QUA CONSTRUCTIE, BETROUWBAARHEID
+EN ENTERTAINMENTWAARDE VOLLEDIG AAN
+ONZE HOGE KWALITEITSEISEN VOLDOET. LET
+BlJ HET KOPEN VAN SPELLEN EN.
+ACCESSOIRES ALTIJD OP DIT ZEGEL, ZODAT U
+VERZEKERD BENT VAN EEN GOED WERKEND
+SUPER NINTENDO ENTERTAINMENT SYSTEM,
+
+DENNA ETIKETT GARANTERAR ATT NINTENDO:
+STAR FOR PRODUKTENS KVALITET.
+KONTROLLERA ATT ETIKETTEN FINNS PA SPEL
+OCH TILLBEHOR DU KOPER FOR ATT
+FORSAKRA DIG OM ATT DE AR KOMPATIBILA.
+phere NINTENDO ENTERTAINMENT
+
+DETTE SEGL GARANTERER, AT NINTENDO HAR
+GODKENDT KVALITETEN AF DETTE PRODUKT,
+SE ALTID EFTER DETTE SEGL, NAR DU KOBER
+SPIL OG TIBEHOR, SA DU ER SIKKER PA FULD
+KOMPATIBILITET MED DIT SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+TAMA TARRA VAKUUTTAA, ETTA NINTENDO ON
+HYVAKSYNYT TAMAN TOUTTEEN LAADUN.
+TARKISTA AINA TAMA TARRA ENNEN KUIN
+OSTAT PELEJA JA MUITA TARVIKKEITA, JOTTA
+SAAT VARMASTI SUPER NINTENDO
+ENTERTAINMENT SYSTEM YHTEENSOPIVIA
+TUOTTEITA.
+
+WARNING : PLEASE CAREFULLY READ THE CONSUMER INFORMATION AND PRECAUTIONS.
+BOOKLET INCLUDED WITH THIS PRODUCT BEFORE USING YOUR NINTENDO HARDWARE
+SYSTEM, GAME PAK OR ACCESSORY.
+
+ATTENTION : VEUILLEZ LIRE ATTENTIVEMENT LA NOTICE “INFORMATIONS ET PRECAUTIONS
+D'EMPLO!” QUI ACCOMPAGNE LA CONSOLE NINTENDO, LA CARTOUCHE DE JEU OU LES
+ACCESSOIRES AVANT DE LES UTILISER.
+
+HINWEIS : BITTE LIES DIE VERSCHIEDENEN BEDIENUNGSANLEITUNGEN, DIE SOWOHL DER
+NINTENDO HARDWARE WIE AUCH JEDER SPIELKASSETTE BEIGELEGT SIND, SEHR SORGFALTIG
+
+DURCH!
+
+ATTENZIONE : LEGG! ATTENTAMENTE LE INFORMAZIONI PER L’UTENTE E LE PRECAUZIONI
+INCLUSE NELLA CONFEZIONE PRIMA DI USARE IL TUO SUPER NINTENDO ENTERTAINMENT
+SYSTEM™ LE CASSETTE O GLI ACCESSORI NINTENDO.
+
+ADVERTENCIA : POR FAVOR, LEE ATENTAMENTE LA INFORMACION AL CONSUMIDOR Y EL FOLLETO
+
+DE INSTRUCCIONES QUE ADJUNTAMOS CON ESTE PRODUCTO ANTES DE UTILIZAR TU CONSOLA,
+
+VIDEQJUEGO O ACCESORIO NINTENDO.
+
+WAARSCHUWING : LEES EERST ZORGVULDIG DE BROCHURE MET CONSUMENTENINFORMATIE EN
+
+WAARSCHUWINGEN DOOR DIE Bld DIT PRODUKT IS MEEVERPAKT VOORDAT HET NINTENDO-
+SYSTEEM, DE SPELCASSETTE OF HET ACCESSOIRE IN GEBRUIK WORDT GENOMEN.
+
+OBS : LAS NOGGRANT IGENOM KONSUMENTUPPLYSNINGARNA OCH FORSIKTIGHETSATGARDERNA
+| BRUKSANVISNINGARNA SOM MEDFOLJER PRODUKTEN INNAN DU ANVANDER DEN MED ETT
+NINTENDO SYSTEM, SPELPAKETET ELLER TILLBEHOR.
+
+ADVARSEL : L4S FORBRUGERINFORMATIONEN OG H/EFTET MED SIKKERHEDSREGLER, DER
+FOLGER, MED DETTE PRODUKT, FOR DU BEGYNDER AT BRUGE NINTENDO HARDWARE SYSTEM,
+GAME PAK ELLER TILLBEHORET.
+
+VAROITUS : LUE HUOLELLISESTI LAITTEEN VARUSTEISIIN KUULUVAT KULUTTAJATIEDOT JA
+
+HUOMAUTUKSET ENNEN NINTENDO-LAITTEEN, PELIN (GAME PAK) TAI MUUN VAURSTEEN KAYTTOA,
+
+===== Page 3 =====
+
+90-DAY LIMITED WARRANTY
+
+Super Nintendo Entertainment System GAME PAKS
+
+ACCLAIM ENTERTAINMENT LTD. ("ACCLAIM") warrants to the original
+consumer purchaser that the Super Nintendo Game Pak ("PAK") shall be
+free from defects in material and workmanship for a period of 90 days from
+the date of purchase.
+
+If a defect covered by this warranty occurs during this 90-day limited
+warranty period, ACCLAIM will repair or replace the defective Pak, at its
+option, free of charge.
+
+To receive this warranty service, return the Pak postage prepaid, insured,
+and with proof of the date of purchase to:
+
+ACCLAIM ENTERTAINMENT LTD.
+
+Moreau House, 112-120 Brompton Rd., Knightsbridge,
+
+London SW3 1JJ, England
+
+Paks returned without proof of the date of purchase or after the 90-day
+limited warranty period will, at the option of ACCLAIM, be repaired at the
+service charge then in effect for out-of-warranty repair. Call (071) 3445000
+‘tor the amount of this charge. (Repair done after acceptance of the
+quotation.) Payments must be made by cheque or postal order, payable to
+ACCLAIM ENTERTAINMENT LTD.
+
+This warranty shall not apply if the Pak has been damaged by negligence,
+accident, abuse or modification subsequent to purchase. This warranty does
+not affect your statutory rights,
+
+For all information on this Game Pak or other Acclaim Game Paks, call
+the Acclaim "Hotline" at (071) 2251166.
+
+MARVEL COMICS®, MARVEL SOFTWARE”, WOLVERINE® and the
+distinctive likenesses thereof TM & © 1994 Marvel Entertainment
+Group, Inc. All rights reserved. Acclaim is a registered trademark of
+Acclaim Entertainment, Inc. © 1994 Acclaim Entertainment, Inc.
+
+All rights reserved.
+
+GEWAHRLEISTUNG
+
+Acclaim Entertainment GmbH gewahrt fiir die Dauer von sechs
+
+Monaten ab Kauf eine Qualitatsgarantie fiir in Deutschland von Acclaim
+Entertainment GmbH gekauften Produkte. Dic Gewihrleistung ist nach Wahl
+von Acclaim auf eine Mangelbeseitigung oder auf eine Ersatzlieferung eines
+mangelfreien Produktes beschrankt, weitergehnde Anspriiche sind
+ausgeschloosen.
+
+Die Gewahrleistung erlischt, wenn die Mangel auf einer
+
+unsachgemaBen Behandlung und/oder nicht autorisierte Reparaturversuche
+und/oder sonstige Beschadigungen nach dem Kauf beruhen.
+
+Zur Wahmehmung der Garantie wenden Sie sich bitte an der Handler, bei dem
+Sie das Spiel erworben haben.
+
+Vertrieb durch: Acclaim Entertainment GmbH,
+
+Mohistrasse 10, 81675 Miinchen, Deutschland.
+
+FRANCE SEULEMENT
+
+GARANTIE LIMITEE A 90 JOURS
+
+‘Super Nintendo Entertainment System GAME PAKS (Cartouches)
+ACCLAIM ENTERTAINMENT SA garantit la présente cartouche NINTENDO
+contre tout défaut durant une période de 90 jours 4 compter de la date
+d'achat.
+
+Si un défaut de fabrication apparait pendant la période de garantie,
+ACCLAIM ENTERTAINMENT SA réparera ou remplacera gratuitement la
+cartouche défectueuse.
+
+Pour faire jouer cette garantie, veuillez retourner la cartouche a votre
+revendeur NINTENDO avec un justificatif d'achat a:
+
+GAUMONT COLUMBIA TRISTAR HOME VIDEO
+
+Division ACCLAIM
+
+31 Rue Lois Pateur, 92200 Boulogne-Billancourt, France
+
+Pour plus d’informations sur les jeux Acclaim, vous pouvez consulter:
+
+© Le minitel au 36-15 ACCLAIM
+
+© Le vocal ACCLAIM au 36. 68. 10. 25
+
+Les cartouches retournées sans facture ou aprés |'expiration de la durée
+de la garantie seront au choix de ACCLAIM ENTERTAINMENT SA, soit
+réparées soit remplacées a la charge du client.
+
+Cette garantie ne jouera pas si la cartouche a été endommagée par
+négligence, accident, usage abusif, ou si elle a été modifiée aprés son
+acquisition.
+
+BELGIQUE ET LUXEMBOURG SEULEMENT
+
+GARANTIE LIMITE A 90 JOURS
+
+Super Nintendo Entertainment System GAME PAKS (Cartouches)
+
+ACCLAIM ENTERTAINMENT SA garantit @ l'acheteur, premier utilisateur, que
+la SUPER NINTENDO ENTERTAINMENT SYSTEM GAME PAK («Cartouche»)
+ne comporte aucun défaut de matériau ou d’exécution durant une période
+de 90 jours a compter de la date d’achat. Si un défaut couvert par cette
+garantie apparait durant cette période, ACCLAIM ENTERTAINMENT SA soit
+réparera soit remplacera gratuitement, a son choix, la cartouche
+défectueuse.
+
+Pour faire jouer cette garantie, retournez la cartouche a votre revendeur
+NINTENDO ou expédiez-la en recommande et port payé accompagnée d'un
+double de votre facture d’achat a:
+
+Columbia TriStar Home Video
+
+38 Rue Souveraine, 1050 Brussels, Belgium
+
+Les cartouches retournées sans le double de la facture d’achat ou aprés
+expiration de la durée de la garantie seront, au choix de ACCLAIM
+ENTERTAINMENT SA ou réparées ou remplacées a la charge du client,
+suivant le tarif prévu pour les réparations non couvertes par la garantie.
+Cette garantie ne jouera pas si la cartouche a été endommagée par
+négligence, accident, usage abusif, ou si elle a été modifiée aprés
+acquisition.
+
+‘90 DAGEN GARANTIE
+
+Super Nintendo Entertainment System SPELKASSETTE (PAL versie)
+Acclaim garandeert de eerste konsument - koper/gebruiker, dat deze
+‘Super Nintendo Entertainment System Spelkassette (=spelkassette)
+gedurende 90 dagen na aankoop geen materiaal- of konstruktietouten zal
+vertonen.
+
+Indien onverhoopt toch een defekt optreedl dat gedekt wordt door
+onderhavige garantie, zal de distributeur, Columbia TriStar Home Video, de
+spelkassette kosteloos repareren of vervangen, zulks te harer keuze.
+
+Om van deze service gebruik te maken, retourneert u de kassette aan uw
+Nintendo dealer, dan wel, voldoende gefrankeerd an met volledig
+aankoopbewijs (voorzien van officiéle aankoopdatum), aan :
+
+Columbia TriStar Home Video,
+
+Postbus 685, 1200 AR Hilversum, Nederland
+
+Columbia TriStar Home Video
+
+Opperstraat 38, 38 Rue Souveraine, 1050 Brussels, Belgium
+Spelkassettes welke zonder geldig aankoopbewijs of na het verstrijken van
+de 90 dagen termijn worden aangeboden, zullen gerepareerd of vervangen
+worden, en dit naar Keuze van Columbia TriStar Home Video, tegen de
+buiten de garantie vallende kosten.
+
+De hiervoor beschreven garantie geldt niet als de spelkassette beschadigd is
+door onachtzaambheid, ongeluk, abnormaal gebruik of indien veranderingen aan
+de spelkassette zijn aangebracht na de aanschaf.
+
+GARANZIA
+
+Il perfetto funzionamento di questogioco é stato controllato prima della
+spedizione. Per questo motivo il Acclaim Entertainment,Ltd. di garantisce
+il prodotto acquistatoper un periodo di 3 (tre) mesi dalla data di acquisto.
+Per i successivi 9 (nove) mesi prov-vedera alla riparazione o sostituzione
+dei prodotti che risulteranno non fun-zionanti. |! costo della riparazione
+portra variare, in base all’intervento da eseguire, da un minimo di L.
+20.000 ad un massimo di L. 120.000 da pagarsi in contrassegno. La
+presente garanzia copre i difetti di produzioneo di materiale, ma non
+quelli dovuti ad un uso non proprio del prodotto o a manutenzioni e
+riparazioni da parte di personale non autorizzato.Se i! prodotto risultasse
+difettoso durante il periodo di garanzia, la preghiamo di spedirlo per la
+Sostituzione, porto franco, perfettamente imballato ed accompagnato da
+questa garanzia (compilare in ogni sua parte e con lo scontrino fiscale
+
+allegato) a:
+0.8754 GroBostheim Brompton Rd., Knightsbridge,
+
+C MADEN JAPAN Landon 3 UW, talon Ms
+
+PRODOTTO CONFORME AL DECRETO LEGISLATIVO 27/9/1991, N 313 IN ATIUAZIONE
+
+DELLA DIRETTIVA 88/378/CEE. NON ADATTO A BAMBINI DI ETA INFERIORE Al 36
+
+MESI A CAUSA DELLE PARTI TROPPO PICCOLEE DEL CONSEGUENTE RISCHIO DI
+
+INGESTIONE. CONSERVARE LE ISTRUZIONI 0 LA SCATOLA PER FUTURA REFERENZA.
+
+This product is exempt from classification under U.K. Law.
+|n accordance with The Video Stondards Council Code of Practice
+itis considered suitable for viewing by the age range(s) indicated.
+
+ACCLAIM ENTERTAINMENT LTD.
+Moreau House, 112-120
+
+===== Page 4 =====
+
+CLAWING AWAY AT A UNKNOWN PAST
+
+My name is Logan. Friends call me Wolverine®. Enemies, too. I've got plenty of both.
+
+What | don't have, though, is a clear understanding of my past. Yeah, | haye memories,
+but | also have pretty good reason to believe that some of those memories are artificial i
+mplants. What's real? What's imagined? What's been implanted in my brain...and by who?
+And for what purpose?
+
+I'll never be able to rest until | get to the truth.
+
+An anonymous message on my computer terminal has directed me to the Weapon X™
+laboratory. Perhaps some of the answers | am seeking lie there.
+
+I’ve got to find the peace of mind I’ve sought all my life. I’ll answer the message. Follow the
+trail. Uncover the answers...if they're there.
+
+BEFORE YOU START SLASHING...
+LOADING:
+1. Make sure the power switch is OFF.
+2. Insert the WOLVERINE® ADAMANTIUM RAGE™ Game Pak as described in
+your SUPER NINTENDO ENTERTAINMENT SYSTEM” instruction booklet.
+3. Turn the power switch ON. In a few moments, the WOLVERINE® ADAMANTIUM RAGE™
+title screen will appear.
+4. If the title screen doesn't appear, turn the power switch OFF. Make sure your system is
+set up correctly and the Game Pak is properly inserted. Then turn the power switch ON again.
+[IMPORTANT: Always make sure the power switch is turned OFF before inserting or removing the
+Game Pak.]
+Once you've seen the title screen, you have the choice of starting the game, switching to the
+options menu, or scanning a library of facts about your enemies.
+
+OPTIONS ee 5
+The The OPTIONS menu provides you with the following choices: 22 Gc9
+
+¢Monaural or stereo sound
+
+¢To alter the button configuration differently from the settings deseribed in the quick reference
+chart on page 5.¢To select from among three difficulty levels: mean, dangerous, and fury.
+
+Use the CONTROL PAD to highlight an option. Press the A, B, X or Y BUTTONS to select one
+of the choices within that option. Press any button to return to the selection screen.
+
+Sound - Choose between Monaural or Stereo sound
+
+Reconfigure button - Allows you to alter the controller button configuration
+from the default settings described in the quick reference chart on page 5.
+
+4" Difficulty levels - Choose from Normal, Dangerous, and Furious.
+
+Password -After successfully completing a level, you will be given a
+
+Aust password. Use this password to resume play at the beginning of the next level.
+Y ’ ( In Wolverine®, passwords consist of sequences of 4 X-Men” portraits arranged
+
+& L ‘SA in a particular order for each level’s password. You mustrecreate the proper
+
+ot ©" sequence of portraits associated with a particular level. To enter a password,
+
+= “ use the UP or DOWN CONTROL PAD buttons to scroll through the X-Men"
+
+Portraits in the first box until you reach the desired match. Use the LEFT ot RIGHT CONTROL PAD
+buttons to move on to the next portrait box (or to go back to any box), where you will repeat your
+3 scrolling search procedure, until you have arranged all 4 boxes in the desired order.
+
+===== Page 5 =====
+
+THE WOLVERINE® SCREEN
+
+HEALTH METER S719 ol
+i @ < ELSIE DEE™ METER
+
+FOES REMAINING
+METER
+
+PICK-UPS
+
+~sremmy HEALTH PICK UP - Pick up these black spheres with the electrical charge to
+| partially restore Wolverine's® health.
+
+100% HEALTH PICK UP - Picking up this Wolverine® head icon will restore
+eS Wolverine's® health to maximum level. Get these whenever you can!
+
+INVINCIBILITY PICK UP - Picking up this black sphere icon grants you immediate .
+. temporary invincibility for varying periods, depending on game level. Wolverine's®
+Health Meter will flash to indicate invincibility is in effect.
+
+METERS.
+
+HEALTH METER - Wolverine’s° health is displayed as a percentage in the upper left corner of
+the screen next to the Wolverine® head icon. He begins with 100 percent health, which
+diminishes as-he sustains injuries.
+
+ENEMY HEALTH METER - This pulsating indigo heart with a percentage displayed next to it
+
+appears in the upper right corner of the screen, and shows the amount of damage your main
+enemy in a given level has sustained.
+
+FOES REMAINING- At the bottom left or your screen a number will appear below the word
+"LEFT", indicating the number of enemies Wolverine® must defeat before going on. After you
+have defeated a minimum number of foes, the word "GO" will flash in the right corner of the
+screen indicating you now can advance to the next level.
+
+NOTE: Regenerating enemies do not appear in this meter.
+
+ELSIE DEE METER - Elsie Dee™ is a deadly android who is in constant pursuit of Wolverine®.
+This meter will appear at the top center of your screen when Elsie Dee™ is less than 30 seconds
+away. You can escape her if you can reach the next check point before she catches up to you.
+
+UTILIZING WOLVERINE’S° POWERS
+
+Wolverine's® fighting style is as unorthodox as it gets. He blends street fighting with martial
+arts, and seasons it all with the rigorous combat training of Professor X™.
+
+The quick-reference Chart you see here provides you with a handy directory of
+Wolverine's® abilities:
+
+===== Page 6 =====
+
+WOLVERINE® ACTION CONTROLS
+WALK LEFT OR RIGHT CONTROL PAD LEFT OR
+RIGHT
+SPRINT LEFT OR RIGHT DOUBLE-TAP CONTROL
+PAD LEFT OR RIGHT
+CROUCH CONTROL PAD DOWN
+CROUCH AND SLASH CONTROL PAD DOWN +
+RIGHT TRIGGER
+PUNCH BUTTON A
+THROW A BACKHAND LEFT TRIGGER
+THROW A RUNNING PUNCH DOUBLE-TAP CONTROL
+PAD THEN BUTTON A
+JUMP BUTTON B
+DELIVER A SIDE KICK BUTTON Y
+THROW A FRONT KICK BUTTON Y, THEN
+CONTROL PAD UP
+ATTACH TO A WALL USE CONTROL PAD+
+BUTTON B TO SPRINT
+AND JUMP TOWARD WALL,
+THEN PRESS BUTTON X
+FORWARD DIVE CONTROL PAD UP
+SUPERJUMP--AND CONTROL PAD DOWN +
+ATTACH TO CEILING BUTTON B, THEN X
+PUNCH WITH CLAWS BUTTON X
+SLASH WITH CLAWS RIGHT TRIGGER
+SLASH AT THE FLOOR CONTROL PAD DOWN,
+THEN BUTTON X
+THROW A CLAW UPPERCUT CONTROL PAD DOWN,
+THEN BUTTON A
+
+[NOTE: THESE ARE DEFAULT SETTINGS. BUTTON CONFIGURATIONS MAY BE
+ALTERED VIA THE OPTIONS MENU, DESCRIBED ON PAGE 3.]
+
+Are these the only moves and maneuvers available to Wolverine®? Not on your life! These are
+just the basics! Experiment with combining one move with another to see how far you can
+
+expand your battle repertoire!
+
+THE SECRET LABORATORY
+
+Wolverine® follows a mysterious computer message to a secret ray,
+laboratory deep in the forest on the northwestern reaches of the Rockies. oe
+He's been told that this lab holds secrets about his past, answers to his
+most burning questions, As he breaches the security system and faces
+heavily armed guards, he dares to hope those answers lie ahead!
+
+"nae
+
+Your goal: Negotiate your way through a complex network of corridors,
+
+tunnels, and doorways and get to the laboratory's central computer, which contains information
+
+about Weapon X™.
+
+The dangers: Armed security guards, floating security droids, and ceiling-mounted guns
+
+which fire laser, machine gun, and deadly gas bursts.
+
+5 Your strategies: Sink your claws into the ceiling to avoid danger. Find and disable
+
+the main power generator to render laser weapons inoperative.
+
+===== Page 7 =====
+
+BEWARE THE NINJA TRAINING CAMP
+
+Just outside Tokyo, Wolverine® learns that one of his most evil enemies, Lady
+Deathstrike™, has formed an unholy alliance with a clan of mystical Ninja warriors known as
+The Hand™, Wolverine® has heard a rumor about The Hand's” giant and awesome leader, but
+doesn't have time to think about that now, as his immediate concern is survival!
+
+Your goal: Battle your way through the Ninja training camp and cyborg workshop to reach
+Lady Deathstrike and get her to reveal to you what she knows of your past.
+The dangers: Spike pits, poison blowpipes, crushing devices, and
+more--including an army of Ninja warriors, both mystical and cybernetic, ;
+that includes TriFusion! ay = a
+
+Your strategies: With such a variety of hazards, you must be quick on |\....:9
+your feet. Brutal hand-to-hand combat coupled with precise timing is the ae Fi
+best way to handle these Ninjas-and Lady Deathstrike™! se
+
+HALF A WORLD AWAY: TOKYO
+
+Wolverine® has learned that Shinobi Shaw™ has put a contract out on
+his life, and that the information he received about his past was all fake.
+He is determined to make sure that this contract will not be fulfilled, and
+to make Shaw pay for his game. It doesn't matter how many high-tech ,
+soldiers Shaw and his henchman Geist™ throw in Wolverine's® path, he's a ~~ i
+not about to give up. Not now. Not when he's so close... —
+
+Your goal: Track down Shinobi Shaw™ to The Inner Circle” to get some answers.
+
+The dangers: Armed soldiers, helicopters, electrified neon signs, high powered limpet
+mines, deadly Geist™, and bloodthirsty Bloodscream™.
+
+Your strategies: Use the electrified neon signs to pass impenetrable walls, take out the
+guards, avoid the helicopters, and use every move in the book to accomplish this.
+
+VICIOUS VISIONS!
+
+The battle with Geist™ and his minions has taken its toll. Wolverine® is exhausted. His
+mind is on Shinebi Shaw™. Which is why he doesn't see Cyber™, who charges at him from
+out of nowhere and slashes his back. Cyber’s™ veins run with poisons, and his swipe at
+Wolverine® has enabled him to inject the mutant with hallucinogenic poison. Wolverine®
+is about to
+
+Your goal: Keep focused and escape trom the hallucinogenic world of nightmarish horror
+you've plunged into. :
+
+The dangers: €old fires, a living floor of bound spirits, crimson rivers,
+Cyber" trolls, acid-spitting Harpies, psychic winds, crystal sentinels --
+and much, much more, including The Crysial Dragon!
+
+Your strategies: Avoid crimson rivers, they'll suck your life away.
+Crouch under or jump over cold fires.
+
+pay
+
+===== Page 8 =====
+
+Lt FINALLY: THE INNER CIRCLE”
+
+if Wolverine® makes it to the headquarters of The Inner Circle”! His
+" heightened senses can almost smell Shinobi Shaw's” fear in the air as he
+= closes in on him! As Wolverine® prepares to tighten the noose around his
+aa a a
+= ( neck, Shaw wimps out and disappears. In Shaw's place, Fugue™, a
+"\ heliion who causes illusions through deadly screams fights Wolverine®.
+
+Your goal: Negotiate your way through a vast labyrinth of rooms,
+hallways, tubes, and platforms and to find Shinobi Shaw”, the upstart mutant who has put
+a contract on Wolverine's® life.
+
+The dangers: Armed guards, floating androids, and the psychic vampire known
+as The Black Queen”.
+
+Your strategies: Negotiate you way through the advanced security system of The Inner
+Circle”, locate teleport stations, and find secret switches to activate hidden doorways.
+
+INTO THE MYSTERIOUS UNDERWORLD
+
+Just as Wolverine® is about to defeat Fugue™, the entire Inner Circle
+crashes down underneath him, plunging both of them into a mysterious
+underworld, He again encounters the mystical Ninja's known as The
+Hand™ and subsequently their ominous leader.
+
+Your goal: Track and defeat Fugue”. And get out alive.
+
+The dangers: Look out for Ninja's, hounds of the underworld, sulfur
+rivers, and falling stalactites.
+
+Your strategies: Use all of your mastered skills, track down all the pickups (as you will
+need them), and move quickly to avoid falling stalactites. And as for the leader of The Hand”,
+sorry, Logan, you're on your own.
+
+TIPS FOR A MUTANT
+
+Know your capabilities: Martial arts, gymnastics skills, and Claws are your primary
+weapons. Use them! Be careful to control your rage and use your intelligence to find the
+answers to your past.
+
+Work quickly: Understand the challenges you face in the amount of time you have, keep
+moving, stay healthy, collect important objects such as extra lives (pass them by at your own
+risk), and solve problems quickly, for if you take too much time, Elsie Dee” will catch up to
+you, hug your leg -- and destroy you!
+
+Where now you must go, you must travel alone, Good luck, Logan. May your mutant
+abilities and the skills you've acquired aid you on your mission.
+
+===== Page 9 =====
+
+atti’ jie)
+
+A DIRECTORY OF DECIDEDLY
+DEADL Y SUPER VILLAINS
+goes by the name Selene, is a
+psychic vampire with the power to
+She has psionic control over fire and inanimate
+objects, extensive knowledge of many forms of
+
+THE BLACK QUEEN”, who also
+4
+: drain the life force from humans.
+magic, and an exceptionally fast healing ability.
+
+rm BLOODSCREAM™ is a
+
+sid wa vampire who feeds off the
+
+% psychic energy of others. His
+1 long arms are punctuated by
+Sharp talons at the ends of his fingers, and
+his teeth are razor-sharp. He is fast, agile,
+and extremely dangerous!
+
+at THE CRYSTAL DRAGON is
+2 roughly twice the size of
+_ Wolverine®. Made of crystal, it has
+® the ability to breathe nova flames
+and propel astral projections of its head. Its life
+sustenance comes from a red diamond lodged
+between its forehead and its brain.
+
+CYBER” is, with the exception
+of his face, completely covered by
+an adamantium skin. This makes
+
+= him extremely difficult to injure--
+and extremely dangerous to Wolverine®!
+TF DESTROYER PROGRAM, a
+computer program occupying an
+{| unknown number of robot
+enforcement modules which has
+the ability to trigger a “memory backlash" in its
+targets -- causing them to relive their worst
+moments of physical pain and menial distress.
+ELSIE DEE™, may look like a
+little girl, but she is actually an
+q android, a deadly combination of
+= 3 electronics and plastic explosives
+specifically designed to destroy Wolverine®!
+FUGUE™ - A member of The
+4 y Inner Circle”, Fugue™ possesses
+powers that tax even Wolverine's
+z battle-honed mutant abilities. She
+can create sound waves that resonate on the
+human brain in such a way as to cause
+hallucinations, delirium, madness... and death.
+
+GEIST” - A twisted scientist
+without a conscience, the cyborg
+known as Geist™ lives for
+experimentation, regardless of
+consequence. With his army of soldier robots,
+Geist™ looks upon Wolverine® as his newest,
+greatest experiment -- an experiment which
+most assuredly spells death for the mutant.
+
+LADY DEATHSTRIKE™ is a
+pose” psychologically unstable cyborg
+g who excels in the samurai battle
+x method known as Kenjutsu. Like
+Wolverine®, her bones are laced with
+adamantium; she possesses foot-long
+adamantium claws in place of her fingers.
+
+SHINOBI SHAW ™ is a mutant
+Ane 4 whose unique power is the ability
+Sl to make all or part of his body
+3 ‘intangible, during which time he
+cannot be injured! He can throw a punch while
+intangible, then make his fist tangible again--
+inside his enemy's chest! He also has the
+
+ability to pass through walls and floors
+while intangible.
+
+TRIFUSION is a combination of
+three Ninja assassins--Marble,
+2 Shiken, and Shard--and has the
+NALA power to split into any combination
+of the three at any time!
+
+a3
+
+Password Characters
+There are eight (8) X-Men™ used to construct passwords. They are:
+eS weg
+{ oe oe RD
+
+!
+BISHOP” COLOSSUS “ CYCLOPS” ICEMAN™
+>
+
+we
+Gi PROFESSOR X” PSYLOCKE” STORM™
+
+===== Page 10 =====
+
+KRATZEN AN EINER UNBEKANNTEN VERGANGENHEIT.
+
+Mein Name ist Logan. Meine Freunde nennen mich Wolverine®, VielfraB. Meine Feinde tibrigens
+auch. Und von beiden habe ich reichlich.
+
+Was ich allerdings nicht habe, ist ein genaues Wissen iiber meine Vergangenheit. Klar habe ich
+Erinnerungen, doch ich bin ganz sicher, daGB mir einige dieser Erinnerungen kiinstlich eingepflanzt
+worden sind. Was ist echt? Was ist Einbildung? Was ist kiinstlich in mein Gehirn eingepflanzt worden...
+und von wem? Und warum?
+
+Ich werde keine Ruhe finden, bis ich die Wahrheit herausgefunden habe.
+
+Eine anonyme Nachricht auf meinem Computer-Terminal hat mich zum Weapon X-Labor gefiihrt.
+Vielleicht finde ich hier einige der Antworten, die ich suche.
+
+Ich muB einfach meinen Seelenfrieden finden, nach dem ich mein ganzes Leben lang gesucht habe!
+Ich werde die Nachricht beantworten! Der Spur folgen. Die Antworten finden...wenn es sie gibt.
+
+VOR DEM START
+
+LADEN:
+
+1. Vergewissern Sie sich, daB lhr Gerat AUSGESCHALTET ist.
+
+2. Legen Sie das WOLVERINE® -Game Pak ein, wie in Ihrem SUPER NINTENDO
+
+ENTERTAINMENT SYSTEM™-Handbuch beschrieben.
+
+3. Schalten Sie Ihr Gerat EIN. Nach einigen Augenblicken erscheint der WOLVERINE® -Titelbildschirm.
+4, Falls der Titelbildschirm nicht erscheint, schalten Sie Ihr Gerat wieder AUS. Stellen Sie
+
+fest, ob Ihr System korrekt eingestellt und das Game Pak richtig eingelegt ist. Danach schalten
+
+Sie wieder EIN.
+
+[WICHTIG: Vergewissern Sie sich immer, daB das Gerat AUSGESCHALTET ist, bevor Sie das Game Pak
+einlegen oder herausnehmen.]
+
+Sobald Sie den Titelbildschirm sehen, kénnen Sie das Spiel beginnen, zum Optionsmenii schalten
+oder eine ganze Bibliothek an Informationen iiber Ihre Gegner einsehen.
+
+OPTIONS (Optionen)
+
+Das OPTIONS-Menii gibt Ihnen folgende Wahiméglichkeiten:
+
+¢ Mono- oder Stereosound
+
+* Einstellung einer anderen Knoptbelegung als in der Ubersichtskarte auf S. 11 beschrieben
+
+© Wahl zwischen drei Schwierigkeitsgraden: Mean (Fies), Dangerous (Getahrlich) und Fury (Raserei).
+
+Benutzen Sie den R-KNOPF, um eine Option zu markieren. Zur Wahl einer der
+
+Méglichkeiten innerhalb einer Option driicken Sie KNOPF A, B, X oder Y. Durch
+
+Betdatigen eines beliebigen Knopfes kehren Sie zum Auswahibildschirm zuriick.
+
+¢ Sound - Wahlen Sie zwischen Mono oder Stereo
+
+¢ Kndépfe neu konfigurieren - Sie konnen die Standardeinstellungen, die auf der
+
+Ubersichtskarte auf S. 11 beschrieben sind, verandern.
+
+¢ Schwierigkeitsgrade - Wahlen Sie zwischen Normal, Dangerous (Gefahrlich) und
+
+Furious (Rasend).
+
+¢ Password (Kennwort) - Nach dem erfolgreichen AbschiuB eines Levels erhalten
+
+Sie ein Kennwort. Mit diesem Kennwort kénnen Sie das Spiel am Anfang des
+
+folgenden Levels wiederaufnehmen. Bei Wolverine® bestehen Kennworter aus 4
+
+Bildern von X- Men” in einer bestimmten Reihenfolge, die fiir jeden Level versehieden ist. Sie miissen
+
+immer die korrekte Reihenfolge der Bilder angeben. Um ein Kennwort einzugeben, benutzen Sie den R-
+
+KNOPF OBEN oder UNTEN und scrollen durch die Bilder der X-Men™ im ersten Kasichen, bis Sie das
+
+richtige gefunden haben. Mit dem R-KNOPF LINKS oder RECHTS gehen Sie zum nachsten Bild-Kastchen
+liber (oder zuriick zu einem vorherigen), wo Sie dann den Scroll-Vorgang wiederholen, bis Sie
+
+C2) schlieBlich alle 4 Kastchen in der gewiinschten Reihentolge arrangiert haben.
+
+eH Fs
+
+===== Page 11 =====
+
+DER WOLVERINE°-BILDSCHIRM
+
+——
+
+VERBLEIBENDE
+GEGNER-ANZEIGE
+
+ELSIE DEE“-ANZEIGE
+
+PICK-UPS
+— GESUNDHEITS-ICON (Health Pick Up) - Sammein Sie diese schwarzen, elektrisch
+4 geladenen Kugeln auf, um Wolverines® Gesundheit teilweise wiederherzustellen.
+
+100% GESUNDHEITS-ICON (100% Health Pick Up) - Mit diesem Icon, das
+Wolverines® Kopf darstellt, wird seine Gesundheit véllig wiederhergestellt.
+bd Besorgen Sie sich moglichst viele davon!
+
+UNVERWUNDBARKEITS-ICON (invincibility Pick Up) - Diese schwarze Kugel verleiht
+
+. lhnen voriibergehend Unverwundbarkeit, deren Dauer vom jeweiligen Level
+abhangt. Wenn diese Unverwundbarkeit aktiviert ist, blinkt Wolverines®
+Gesundheitsanzeige.
+
+ANZEIGEN
+
+GESUNDHEITSANZEIGE (Health Meter) - Wolverines® Gesundheitszustand wird als Prozentsatz
+neben dem icon von Wolverines® Kopf links oben auf dem Bildschirm angezeigt. Er beginnt das
+Spiel mit 100%, die sich verringern, sobald er verletzt wird.
+
+GESUNDHEITSANZEIGE DES GEGNERS (Enemy Health Meter) - Sie finden dieses blaue
+pulsierende Herz mit einer daneben angezeigten Prozentangabe in der oberen rechten Ecke
+des Bildschirms. Die Prozenizahl gibt an, wieviel Schaden Ihr Hauptgegner auf einem
+bestimmien Level erlitten hat.
+
+VERBLEIBENDE GEGNER (Foes Remaining) - Unten links auf Ihrem Bildschirm erscheint eine
+Zahl unter dem Wort "LEFT" (Ubrig). Diese stellt die Anzahl von Gegnern dar, die Wolverine®
+noch besiegen muB, bevor er weitergehen kann. Nachdem Du eine geringer Anzahl an Gegnern
+ausgeschaltet hast, wird des Wort “GO” der rechten Ecker des Bildschirms aufgeleuchten und
+Dir anzeigen, des Du nun in den ndchsten Level aufsteigen kannst. Beachten Sie: Sich
+erholende Gegner erscheinen nicht auf dieser Anzeige.
+
+ELSIE DEE™-ANZEIGE - Elsie Dee™ ist-eine lebensgefahrliche Androidin, die Wolverine® standig
+aut den Fersen ist. lhre Anzeige befindet sich oben in der Mitte des Bildschirm, wenn Elsie
+weniger als 30 Sekunden entfernt ist. Sie konnen ihr entkommen, wenn Sie den nachsten
+Checkpoint erreichen, bevor sie Sie einholt.
+
+EINSATZ VON WOLVERINES® KRAFTEN
+
+Wolverines® Kampfstil ist auBerst unorthodox. Er vermischt klassische Kampfsporttechniken
+mit StraBenkamptmethoden und wiirzt das Ganze mit dem harten Kampftraining
+von Professor X". — ~
+
+Die folgende Ubersichtskarte bietet Ihnen eine niitzliche Liste von Wolverines® 4 oO
+Fahigkeiten:
+
+===== Page 12 =====
+
+WOLVERINES® AKTION STEUVERUNG
+NACH RECHTS/LINKS GEHEN R-KNOPF LINKS/RECHTS
+NACH LINKS/RECHTS RENNEN R-KNOPF LINKS/RECHTS
+= ZWEIMAL ANTIPPEN
+DUCKEN R-KNOPF UNTEN
+DUCKEN UND SCHLITZEN R-KNOPF UNTEN + KNOPF RECHTS
+PUNCH KNOPF A
+RUCKHAND KNOPF LINKS
+PUNCH IM LAUFEN R-KNOPF ZWEIMAL ANTIPPEN,
+DANN KNOPF A a
+SPRUNG KNOPF B
+SEITLICHER KICK KNOPF Y
+FRONTAL-KICK KNOPF Y, DANN
+R-KNOPF OBEN
+SICH AN MAUER KLAMMERN MIT R-KNOPF + KNOPF B
+LAUFEN UND AN DIE MAUER
+: SPRINGEN, DANN KNOPF X
+HECHTSPRUNG NACH VORN R-KNOPF OBEN
+SUPERSPRUNG -AN DER DECKE R-KNOPF UNTEN + KNOPF B,
+KLEBEN BLEIBEN DANN KNOPF X a
+KLAUEN-PUNCH KNOPF X
+KLAUEN-SCHLITZEN KNOPF RECHTS
+BODEN SCHLITZEN R-KNOPF UNTEN, DANN
+KNOPF X
+KLAUEN-UPPERCUT R-KNOPF UNTEN, DANN
+
+[BEACHTEN SIE: DIES SIND STANDARDEINSTELLUNGEN. SIE KONNEN UBER DAS OPTIONSMENU DIE
+KNOPFKONFIGURATION VERANDERN, WIE AUF S. 9 BESCHRIEBEN.]
+
+Sollten das alle Bewegungen und Manéver gewesen sein, die Wolverine® zur Verfiigung
+stehen? Bei weitem nicht! Dies sind nur die einfachsten! Versuchen Sie doch, eine Bewegung
+mit einer anderen zu kombinieren, und finden Sie heraus, wie weit Sie thr Kampfrepertoire
+
+erweitern kénnen!
+
+DAS GEHEIMLABOR
+
+Wolverine® folgt einer geheimnisvollen Computernachricht zu einem versteckten Labor in den
+
+Waldern der Nordwest-Hange der Rockies. Dort soll er Aufklarung tiber as 100
+seine geheimnisvolle Vergangenheit und Antworten auf seine brennenden ==
+Fragen erhalten. Wahrend er das Sicherheitssystem durchbricht und sich a | P
+schwer Dewaffneten Wachen gegeniiberfindet, hofft er, daB dies auch der ik
+
+Wahrheit entspricht!
+
+thr Ziel: Manévrieren Sie sich durch das komplizierte Netz von Tunnein
+
+aie
+
+und Tiiren, und finden Sie den Zentralcomputer, der Informationen tiber
+
+Weapon X” enthdit.
+
+Die Gefahren: Bewaffnete Wachen, schwebende Sicherheitsandroiden, deckenmontierte
+Lasergeschiitze, Maschinengewehre und tédliches Gas.
+
+Ein strategischer Tip: Schlagen Sie Ihre Klauen in die Decke, um sich in Sicherheit zu bringen.
+Finden Sie die Energieversorgung fiir die Laserwaffen, und zerstoren Sie sie.
+
+117
+
+===== Page 13 =====
+
+VORSICHT - NINJA-TRAININGSCAMP!
+
+Kurz vor Tokio erfahrt Wolverine®, daB einer seiner schlimmsten Feinde, Lady
+Deathstrike™ sich mit einer Truppe der gemeinsten, geheimnisvollen Ninjakrieger
+Zzusammengetan hat, die sich die 'Hand' nennt. Wolverine® hatte bereits Gertichte iiber den
+gigantischen und fiirchterlichen Anfiihrer der Hand gehért. Doch nun hat er gar keine Zeit,
+dartiber nachzudenken, da er genug damit zu tun hat, am Leben zu bleiben!
+
+lhr Ziel: Kampfen Sie sich durch das Ninja-Trainingscamp und die Cyborg-Werkstatt,
+um Lady Deathstrike zu erwischen und herauszubekommen, was sie tiber Ihre
+Vergangenheit weiB.
+
+Die Gefahren: Speergespickte Fallgruben, vergiftete Blasrohrpfeile, .
+Quetschvorrichtungen und vieles mehr - darunter auch eine ganze Armee ey ey
+von geheimnisvollen Cyber-Ninjas und TriFusion! a
+
+in strategischer Tip: Mit so vielen Gefahren vor Ihnen miissen Sie ee mn
+einfach schnell sein! Harter Nahkampf mit prazisem Timing ist der einzige Tila F
+Weg, mit diesen Ninjas - und Lady Deathstrike - fertigzuwerden!!
+
+EINE ANDERE WELT: TOKIO
+
+Nun weiB Wolverine®, daB Shinobi Shaw derjenige war, der ein BP es a
+Kopfgeld auf ihn ausgeseizt hat und daB die Informationen tiber seine SS WP
+TT
+
+poly
+
+‘iin
+
+Vergangenheit, die er bisher hatte, véllig falsch waren. Er ist wild
+entschlossen, datiir zu sorgen, daB niemand dieses Kopfgeld einfordern
+kann_und daB Shinobi ftir diese Gemeinheiten zahit! Er wird nicht ae e
+aufgeben, gleichgiiltig, wie viele High-Tech-Soldaten Shaw und sein ibis
+Kumpan Geist ihm auf den Hals hetzen! Jetzt gibt er nicht auf, nicht so kurz vor seinem Ziel...
+thr Ziel: Verfolgen Sie Shinobi Shaw”™ bis in den Inner Circle, und fordern Sie Antworten.
+‘ Die Gefahren: Bewaftnete Soldaten, Hubschrauber, unter Strom stehende Neon-Zeichen,
+Schwere Haftminen, der getahrliche Geist und der blutdiirstige Bloodscream.
+Ein strategischer Tip: Benutzen Sie die unter Strom stehenden Neon-Zeichen, um durch
+undurehdringliche Mauern hindurchzugehen, eliminieren Sie die Wachen, gehen Sie den
+Hubschraubern aus dem Weg, und nutzen Sie dazu all Ihre Tricks!
+
+HEIMTUCKISCHE HALLUZINATIONEN
+
+Der Kampf mit Geist und seinen Gefolgsieuten hat seinen Tribut gefordert! Wolverine® ist
+total erschopft. Seine Gedanken kreisen nur um Shinobi Shaw. Das sind die Griinde, warum er
+Cyber™ nicht bemerkt, der ihn plotzlich aus dem Nichts heraus angreift und seinen Riicken mit
+tiefen blutigen Kratzspuren versieht. Da in Cybers™ Venen Gift flieBt, konnte er durch seinen
+Angriff dem Mutanten Halluzinogene einspritzen.
+
+lhr Ziel: Versuchen Sie, thre Konzentration zu behalten und aus der
+Welt der Halluzinationen zu entkommen, in deren Alptraum-Horror Sie
+katapultiert wurden.
+
+Die Gefahren: Kalte Feuer, ein lebender FuBboden aus gebannten
+Geistern, blutrote Fliisse, Cyber-Trolle, saurespuckende Harpyien,
+Psycho-Winde, Wachter aus Kristall - und vieles, vieles mehr, u.a. der
+Kristalldrache!
+
+Ein strategischer Tip: Halten Sie sich von den blutroten Fliissen fern, denn die saugen
+Ihnen thr Leben aus. Ducken Sie sich unter kalten Feuern, oder springen Sie tiber sie hinweg.
+
+IZ
+
+===== Page 14 =====
+
+ENDLICH: DER INNER CIRCLE™
+
+Endlich erreicht Wolverine® das Hauptquartier des Inner Circle! Seine
+
+" geschdarften Sinne kénnen Shinobi Shaws™ Furcht fast schon riechen,
+
+= wahrend er ihm immer naher kommt! Als Wolverine® sich bereit macht,
+die Schlinge um Shaws Hals zuzuziehen, bekommt dieser kalte FiBe und
+verschwindet. An seiner Stelle steht nun Fugue Wolverine® gegeniiber, ein
+Héllengeschopf, das durch tédliche Schreie bei seinen Opfern Illusionen
+hervorrufen kann!
+
+Ihr Ziel: Suchen Sie sich Ihren Weg durch ein Labyrinth von Raumen, Korridoren, Rohren
+und Plattformen, und finden Sie Shinobi Shaw™, diesen Emporkémmiing, der einen Killer auf
+Wolverine® angesetzt hat.
+
+Die Gefahren: Bewaffnete Wachen, Schwebe-Androiden und der Psycho-Vampir namens
+The Black Queen..
+
+Ein strategischer Tip: Finden Sie durch das ausgekligelte Sicherheitssystem des Inner
+Circle hindurch, orten Sie Teleport-Siationen, und suchen Sie nach versteckten Schaltern, die
+Geheimtiiren aktivieren.
+
+HINAB IN EINE GEHEIMNISVOLLE UNTERWELT
+
+Wolverine® steht kurz vor dem Sieg tiber Fugue - da bricht der gesamte Inner Circle unter
+ihm zusammen, und beide stiirzen hinab in eine geheimnisvolle
+Unterwelt. Wieder begegnet er den Ninjas der 'Hand', und endlich trifft er
+auf ihren mysteridsen Anfiihrer.
+
+Ihr Ziel: Spiiren Sie Fugue auf, und besiegen Sie sie. Und entkommen
+Sie all dem lebend.
+
+Die Gefahren: Halten Sie die Augen offen nach Ninjas, den Hunden der ¥
+Unterwelt, Schwefelfliissen und herabstiirzenden Stalaktiten.
+
+Ein strategischer Tip: Nutzen Sie alle erlernten Tricks, sammeln Sie alle Pick-Ups (Sie
+werden sie brauchen), und bewegen Sie sich schnell, um den herabstiirzenden Stalaktiten zu
+entgehen. Was den Anfiihrer der 'Hand' angeht - sorry, da sind Sie auf sich gestellt, Logan.
+
+TIPS FUR MUTANTEN
+
+Erkennen Sie Ihre Fahigkeiten: Ihre Hauptwattfen sind die Kampfsportarten, Ihre
+akrobatische Beweglichkeit und Ihre Klauen. Nutzen Sie sie! Halten Sie thre Wut gut unter
+Kontrolle, und benutzen
+Sie Ihren Verstand, um die Antworten auf Fragen zu Ihrer Vergangenheit zu finden.
+
+Arbeiten Sie schnell: Begreiten Sie die Herausforderungen und ihr Zeitlimit, bleiben Sie in
+Bewegung, bleiben Sie gesund, sammein Sie wichtige Gegenstande wie Zusatzleben (Sie
+dbersehen sie auf eigene Gefahr), losen Sie Probleme schnell - denn wenn Sie zu lange
+brauchen, wird Elsie Dee™ Sie einholen, sich an lhr Bein klammern
+und Sie vernichten!
+
+Zu lhrem Ziel miissen Sie allein reisen. Viel Gitick, Logan. Magen lhre Mutantenfahigkeiten
+und Ihr erworbenes Geschick Ihnen auf Ihrer Suche helfen.
+
+13
+
+===== Page 15 =====
+
+EIN VERZEICHNIS
+ENTSCHIEDEN TODLICHER
+SUPERSCHURKEN
+
+THE BLACK QUEEN”, die sich
+auch Selene nennt, ist ein Psycho-
+Vampir, der Menschen ihre
+Lebenskraft entziehen kann. Sie
+besitzt psionische Macht tiber Feuer
+und unbelebte Gegenstande, eingehende
+Kenntnisse der Magie und eine auBerordentlich
+schnelle Heilungsfahigkeit.
+
+. BLOODSCREAM ™ ist ein Vampir,
+g der sich von der psychischen Energie
+3 é anderer erndhrt. Seine langen Arme
+AM y) \ enden in langen Krallen an den
+
+Fingern, und seine Zahne sind
+rasiermesserscharf. Er ist schnell, beweglich und
+extrem gefahrlich!
+
+THE CRYSTAL DRAGON (Der
+Kristalldrache) ist ungefahr doppelt
+
+$0 groB wie Wolverine®. Er besteht
+|. aus Kristal! und besitzt die Fahigkeit,
+Nova-Flammen zu spucken und
+Astral-Projektionen seines Kopfes zu schaffen.
+Er erhait seine Lebenskraft von einem roten
+Diamanten, der sich zwischen seinem Gehirn und
+seiner Stirn befindet.
+
+CYBER™- ist, bis auf sein
+Gesicht, komplett von einer
+gehdarteten Haut umhiillt. Das macht
+|, @S sehr schwierig, ihn zu verwunden,
+
+und es macht ihn sehr gefahrlich
+fiir Wolverine®!
+5 DESTROYER PROGRAM
+q (VERNICHTUNGSPROGRAMM) -
+| Hierbei handelt es sich um ein
+; Computerprogramm in einer
+unbekannten Zahl von Roboter-
+Einheiten, das bei seinen Optern eine
+“Riickerinnerung" verursachen kann - es bringt
+sie dazu, Momente ihrer schlimmsten physischen
+und mentalen Schmerzen erneut zu durchleben.
+
+ELSIE DEE, mag ja wie ein
+kleines Madchen aussehen, doch
+eigentlich ist sie ein Androide, eine
+tédliche Kombination von Elektronik
+und Sprengstoff und speziell
+entworfen, um Wolverine® den Garaus zu machen!
+
+FUGUE™ - Mitglied des Inner
+Circle; Fugue besitzt Krafte, die sogar
+Wolverines kampferprobter
+Mutantenfahigkeit gleichkommen.
+Sie kann Klangwellen erzeugen, die
+auf das menschliche Gehirn einwirken und
+Halluzinationen, Delirien, Wahnsinn...
+und Tod hervorrufen.
+
+GEIST™ - Ein abgedrehter,
+gewissenloser Wissenschaftler. Der
+bi Cyborg, der als "Geist" bekannt ist,
+lebt fiir Experimente, ohne sich um
+die Konsequenzen zu scheren. Fiir
+ihn, im Kreise seiner Armee Robotersoidaten, ist
+Wolverine sein neuestes, gréBtes Experiment - ein
+Experiment, das fiir den Mutanten mit Sicherheit
+lebensgefahrlich ist.
+
+A 5 LADY DEATHSTRIKE™ ist eine
+4 g psychologisch labile Cyborg-Frau,
+4 deren Spezialitat in der von den
+a Samurai betriebenen Kampfsportart
+Kenjutsu liegt. Wie Wolverine® besitzt sie
+diamantverstarkte Knochen, und statt Fingern
+vertiigt sie tiber 30 cm lange Diamant-Klauen.
+SHINOBI SHAW™ ist ein Mutant
+mit der einzigartigen Macht, seinen
+K6rper ganz oder teilweise
+_ entmaterialisieren zu kénnen,
+wodurch er zeitweise unverwundbar
+wird! Er selbst kann wahrend dieser Zeit durchaus
+angreifen und /aBt seine Faust sich dann wieder
+materialisieren - in der Brust seines Gegners!
+AuBerdem besitzt er in diesem Zustand die
+Fahigkeit, durch Wande und Béden zu gehen.
+TRIFUSION ist eine Kombination
+aus drei Ninja-Attentatern - Marble,
+a = Shiken und Shard - und kann sich
+~~ jederzeit in jede mogliche
+Kombination der drei aufteilen!
+
+Kennwortfiguren
+
+£s stehen acht (8) X-Men™ zur Verfiigung, um ein Kennwort zu
+
+bilden. Dies sind:
+prs i + 3 c
+ee Ex
+
+consis * €YCL eck a
+
+fe
+eS
+
+Ao
+nies
+
+BISHOP 3
+
+| aE
+ey . q ee
+
+rea moar PROFESSOR X™ PS' YLOCK ic
+
+===== Page 16 =====
+
+S'ACCROCHANT DESESPEREMENT A UN PASSE INCONNU
+
+Je m'appelle Logan. Mes amis m'appellent Wolverine®. Mes ennemis aussi. J'ai beaucoup des deux.
+
+Ce que je n'ai pas cependant, c'est une bonne compréhension de mon passé. Oui, j'ai des souvenirs,
+mais j'ai aussi d'assez bonnes raisons pour penser que quelques-uns de ces souvenirs sont des
+implants. Qu'est-ce qui est réel, qu'est-ce qui est imaginaire? Qu'est-ce qui a été implanté dans mon
+cerveau et par qui? Et dans quel but?
+
+Je ne prendrai jamais de repos jusqu'a ce que je sache la vérité.
+
+Un message anonyme sur mon ordinateur m‘a amené au laboratoire de I'Arme X. Peut-étre que
+quelques-unes des réponses que je cherche s‘y trouvent.
+
+Je dois trouver la tranquillité d'esprit que j'ai recherchée toute ma vie. Je répondrai au message.
+Je suivrai la piste. Je découvrirai les réponses.... si elles sont la.
+
+AVANT DE COMMENCER A COGNER
+
+CHARGEMENT:
+
+1. Vérifiez que la console est éteinte (OFF).
+
+2. Introduisez la cartouche de jeu WOLVERINE® comme décrit dans le
+livret d'instructions de votre SUPER NINTENDO ENTERTAINMENT SYSTEM”.
+3. Allumez la console (ON). Dans quelques instants, |'écran-titre WOLVERINE® va apparaitre.
+
+4, Si l'écran-titre n'apparait pas, éteignez la console (OFF). Vérifiez que le systéeme est
+correctement installé et que la cartouche est bien placée. Allumez 4 nouveau la console (ON).
+[IMPORTANT: vérifiez toujours que /a console est éteinte (OFF) avant d'introduire ou de
+
+retirer la cartouche.]
+
+Apres |'écran-titre, vous aurez le choix de commencer le jeu, de passer au menu options, ou encore
+de parcourir une bibliothéque de renseignements sur vos.
+
+OPTIONS
+
+Le menu OPTIONS offre les choix suivants:
+
+¢ Son mono ou stéréo (Monaural or stereo sound)
+
+* Possibilité de modifier la configuration des boutons par rapport a celle qui est
+
+décrite parle diagramme de référence, page 17.
+
+¢ Sélection d'un niveau de difficulté entre: Mean (méchant), Dangerous
+
+(dangereux), Fury (furieux). Utilisez le CONTROL PAD pour mettre une option en
+
+surbrillance. Appuyez sur les boutons A, B, X ou ¥ pour sélectionnez les sous-
+
+options. Appuyez sur n'importe quel bouton pour retourner a l'écran de sélection.
+
+Son (Sound) choisissez entre Mono ou Stéréo.
+
+¢ Configuration des boutons (Reconfigure button) - ceci vous permet de modifier
+
+la configuration des boutons du contréleur par rapport a celle décrite par le
+
+diagramme de référence de la page 17.
+
+¢ Niveau de difficulté (Difficulty levels) - Choisissez entre Normal, Dangereux
+
+(Dangerous) et Furieux (Furious).
+
+* Mot de Passe (Password) - Aprés avoir réussi un niveau, on obtient un mot de passe. I! faut utiliser
+
+ce mot de passe pour commencer a jouer au niveau suivant.
+
+Dans Wolverine®, les mots de passe sont composés de 4 portraits de X-Men”, classés dans un ordre
+
+different 4 chaque fois. Vous devez reproduire l'ordre exact des portraits correspondant a chaque niveau.
+
+Pour entrer un mot de passe, appuyez sur le CONTROL PAD vers le HAUT ou le BAS afin de faire défiler les
+
+portraits des X-Men” de la premiere case, jusqu'a ce que vous obteniez le portait désiré. Appuyez
+
+ensuite sur le CONTROL PAD vers la GAUCHE ou la DROITE pour passer a la case de portrait suivante (ou
+pour retourner a n'importe quelle case) pour laquelle vous reprendrez votre procédure de
+
+| 5 scrolling, jusqu'a ce que les quatre cases affichent les portraits dans l'ordre désiré.
+
+===== Page 17 =====
+
+L'ECRAN WOLVERINE®
+
+COMPTEUR SANTE — eo
+
+i COMPTEUR ELSEE DEE™
+
+COMPTEUR ENNEMIS
+RESTANTS
+
+OBJETS A RAMASSER
+
+4 POUR LA SANTE - Ramassez ces sphéres noires marquées d'un éclair pour
+| restaurer partiellement la santé de Wolverine®.
+
+POUR ETRE EN SUPER FORME - Wolverine® peut se refaire une santé toute neuve en
+bd tamassant ces icénes Super forme chaque fois que possible.
+
+POUR L'INVINCIBILITE - Lorsque Wolverine® ramasse cette sphére noire, il devient
+invincible pendant un certain temps, selon le niveau du jeu. Le compteur de vie de
+Wolverine® se mettra a clignoter pour indiquer qu'il est invincible.
+
+COMPTEURS
+COMPTEUR DE SANTE - L'état de santé de Wolverine® est affiché sous forme d'un pourcentage
+dans I'angle en haut a gauche de |'écran pres de Wolverine® . Il commence avec une santé de
+100 pour cent, qui diminue au fur et a mesure
+
+- de ses blessures.
+
+COMPTEUR SANTE DES ENNEMIS - Ce coeur indigo avec un pourcentage affiché a cété apparait
+dans I’angle supérieur droit de I'écran pour indiquer le montant de dommages que votre
+principal ennemi a subi dans un niveau donné.
+
+ENNEMIS RESTANTS - En bas a gauche de |'écran, un nombre apparait au-dessous du mot
+"LEFT" (Restant), indiquant le nombre d‘ennemis que Wolverine® doit affronter avant de
+pouvoir continuer. Lorsque vous avez vaincu un nombre minimal d‘ennemis, le mot "GO"
+clignote dans le coin supérieur droit de !'écran, indiquant que vous pouvez passer au niveau
+suivant. REMARQUE; Les ennemis qui se régénérent automatiquement ne sont pas pris en
+compte par ce compteur.
+
+COMPTEUR ELSIE DEE”: Elsie Dee est une androide.meurtriére continuellement
+
+4 la poursuite de Wolverine®. Ce compteur apparait en haut au centre de I'écran, lorsqu’Elsie
+Dee se trouve a moins de 30 secondes de Wolverine. Vous pouvez
+
+lui échapper si vous atteignez le prochain point de contrédle avant qu'elle
+
+ne vous rattrape,
+
+UTILISATION DES POUVOIRS DE WOLVERINE?
+
+Le style de combat de Wolverine® est aussi peu orthodoxe que possible. II associe le
+combat de rue avec les arts martiaux, et reléve le tout avec I'entrainement rigoureux du
+Professeur X".
+
+Cette liste de référence rapide vous donne un apercu pratique des capacités
+
+de Wolverine®. 4 &
+
+===== Page 18 =====
+
+ACTIONS DE WOLVERINE® COMMANDES
+MARCHE A GAUCHE OU A DROITE BOUTON D GAUCHE OU DROITE
+COURIR A GAUCHE OU A DROITE APPUYEZ DEUX FOIS SUR LE CONTROL
+PAD VERS LA GAUCHE OU LA DROITE
+S'ACCROUPIR CONTROL PAD VERS LE BAS
+S'ACCROUPIR PLUS COUP CONTROL PAD VERS LE BAS + FEU DROIT
+DONNER UN COUP DE POINT BOUTON A
+DONNER UN COUP EN REVERS FEU GAUCHE
+COUP DE POING AVEC ELAN APPUYEZ DEUX FOIS SUR LE CONTROL PAD
+PUIS SUR LE BOUTON A
+SAUTER BOUTON B
+DONNER UN COUP DE PIED DE COTE BOUTON Y
+DONNER UN COUP DE PIED VERS L'AVANT BOUTON Y PUIS CONTROL PAD
+VERS LE HAUT
+S'ATTACHER A UN MUR CONTROL PAD + BOUTON B
+POUR COURIR ET SAUTER VERS UN MUR,
+ps Fea oe sani PUIS APPUYEZ SUR LE BOUTON X
+GRIMPER EN HAUT D'UN MUR LORSQUE VOUS ETES SUR LE MUR
+‘ PRES DU HAUT, APPUYEZ SUR LE
+CONTROL PAD VERS LE HAUT + BOUTON B
+PLONGER VERS L'AVANT CONTROL PAD VERS LE HAUT
+SUPER SAUT PLUS S'ACCROCHER AU PLAFOND CONTROL PAD VERS LE BAS +
+BOUTON B, PUIS X
+DONNER UN COUP DE POING AVEC GRIFFES BOUTON X
+DONNER UN COUP DE GRIFFE FEU DROIT
+DONNER UN COUP AU SOL CONTROL PAD VERS LE BAS, PUIS BOUTON X
+DONNER UN UPPERCUT CONTROL PAD VERS LE BAS, PUIS BOUTON A
+
+[REMARQUE: CECI EST LA CONFIGURATION PAR DEFAUT. VOUS POUVEZ MODIFIER LA CONFIGURATION DES
+BOUTONS PAR L'INTERMEDIAIRE DU MENU OPTIONS, DECRIT A LA PAGE 15].
+
+Est-ce que ce sont la les seuls coups et manceuvres possibles pour Wolverine®? Jamais de
+/a vie! Il ne s‘agit la que des coups de base! Faites des essais en combinant les coups entre eux
+pour voir jusqu'ou vous pouvez étendre votre répertoire!
+
+LE LABORATOIRE SECRET
+
+Wolverine® suit les instruction d'un message informatique qui devraient le mener a un
+laboratoire secret, au coeur de la forét dans Ja région nord-ouest des montagnes rocheuses. On lui
+a dit que-ce laboratoire contient des secrets sur son passé, et des réponses aux questions qui le
+torturent en permanence. Bien qu'il arrive a déjouer le systéme de sécurité,
+
+il doit faire face a des gardes puissamment armés. fl ne peut qu'espérer pe GN see
+
+couloirs, tunnels et passages afin d'accéder a l'ordinateur central du
+laboratoire, qui contient des informations sur l'arme X.
+
+Les dangers: des gardes armés, des androides flottants pour la
+sécurité, des canons qui tirent des rayons laser du plafond, des mitraillettes et des explosions de
+gaz fatales.
+
+trouver bient6t la réponse a ses questions!
+Votre but: Vous frayer un chemin a travers un réseau complexe de co E
+ik
+
+Truc stratégique: accrochez-vous au platond a l'aide de vos griffes afin d'‘éviter
+7 | rd le danger. Trouvez et mettez hors service le générateur principal pour annihiler les
+armes laser.
+
+===== Page 19 =====
+
+ATTENTION! CAMP D'ENTRAINEMENT NINJA
+
+Dans les environs de Tokyo, Wolverine® découvre que I'un de ses pires ennemis, Lady
+Deathstrike™, s'est alliée avec un clan de guerriers Ninja connu sous le nom de The Hand.
+Wolverine® a entendu parler du grand leader de The Hand, mais il n'a pas le temps de s'en
+préoccuper beaucoup; pour le moment, son seul souci est sa survie!
+
+Votre but: frayez-vous un chemin dans le camp d'entrainement Ninja et l'atelier Cyborg
+atin d’atteindre Lady Deathstrike™ et d'obtenir d'elle les secrets de votre passé.
+
+Les dangers: des trous pleins de piques, des sarbacanes empoisonnées, des dispositifs
+écraseurs et bien d'autres choses encore, y compris une armée de
+guerriers Ninja, mystiques et cybernétiques, dont TriFusion!
+
+Truc stratégique: avec une telle variété d'obstacles, vous devez
+tre tres rapide. La synchronisation et les combats brutaux au corps
+4 corps sont la seule facon de se débarrasser des Ninjas et de
+Lady Deathstrike”™.
+
+A L'AUTRE BOUT DE LA PLANETE, TOKYO
+
+Wolverine® a appris que Shinobi Shaw a mis sa vie a prix, et que les renseignements
+qu'il a regus sur son passé sont tous faux. Il est déterminé a ne pas se
+laisser exterminer et a faire payer Shaw trés cher pour son petit jeu. Peu
+importe le nombre de soldats high-tech que Shaw et son acolyte Geist
+mettent sur le chemin de Wolverine®, rien ne l'arréte! Pas maintenant,
+si prés du but!
+
+“Votre but: retrouvez Shinobi | Shaw™ au cercle intérieur afin
+d'obtenir des réponses. F
+; Les dangers: des soldats armés, des hélicoptéres, des insignes de néons électrifiées, des
+mines-ventouses trés puissantes, des Geist dangereux, et un Bloodscream assoiffé de sang.
+
+Truc strategique: utilisez les enseignes de néon électrifiées pour traverser des murs
+
+impénétrables, affrontez les gardes, évitez les hélicoptéres et utilisez tous les coups possibles.
+
+VISIONS MALEFIQUES!
+
+Le combat contre Geist et ses serviteurs vous a affecté. Wolverine® est exténué. Mais il fait
+une fixation sur Shinobi Shaw, et c'est pour cela qu'il ne voit pas Cyber™, qui le charge
+soudainement et griffe son dos. Les veines de Cyber™ sont pleines de poisons, et il a réussi
+a injecter une substance hallucinogéne dans le sang de Wolverine®. Wolverine® est sur
+le point de.....
+
+Votre but: restez concentré et essayez de vous échapper du monde hallucinant rempli
+d'horreur ou vous avez été plongé.
+
+Les dangers: gel brilant, un étage hanté d'esprits bizarres, des riviéres rouges, des lutins
+Cyber, des harpies qui crachent de I'acide, des vents psychiques, des
+sentinelles de cristal, et bien d'autres choses encore, dont le Dragon
+de cristal!
+
+Truc stratégique: évitez les riviéres rouges car elles absorbent
+votre vie. Essayez de passer au-dessous ou de sauter par dessus
+les gels brilants.
+
+pez
+
+x
+
+===== Page 20 =====
+
+ENFIN: LE CERCLE INTERIEUR™
+
+Wolverine® parvient enfin au quartier général du Cercle intérieur.
+* Ses sens trés éveillés lui permettent presque de sentir la peur de Shinobi
+: Shaw alors qu'il se rapproche de lui! Alors que Wolverine® se prépare a
+passer la corde au cou de son ennemi, Shaw arrive a s‘esquiver et
+disparait. II laisse derriére lui Fugue, un vrai démon qui pousse des eris
+effrayants et s'attaque a Wolverine® .
+Votre but: vous battre pour traverser un vaste labyrinthe de piéces, de couloirs, de
+tubes et de plates-formes pour enfin trouver Shinobi Shaw™, le mutant qui a mis a prix
+la vie de Wolverine®.
+Les dangers: gardes armés, androides flottants et le vampire psychique connu sous le
+nom de Black Queen.
+Truc stratégique: déjouez le systeme de sécurité sophistiqué de I'Inner Circle, localisez
+les stations de téléport et trouvez les interrupteurs secrets qui vous permettront d'ouvrir les
+portes cachées.
+
+DANS LE MYSTERIEUX MONDE SOUTERRAIN
+
+Lorsque Wolverine® est sur le point de vaincre Fugue, tout I'Inner Circle s'écrase au-
+dessous de lui, les plongeant tous les deux dans les profondeurs d'un mystérieux monde
+Souterrain. Il rencontre 4 nouveau les mystiques Ninja, (connus sous le
+nom de The Hand) et plus tard leur vénéré leader.
+
+Votre but: trouver et détruire Fugue, et sortir vivant.
+
+Les dangers: attention aux Ninja, aux chiens du monde souterrain,
+aux riviéres de souffre et aux stalactites qui se détachent,
+
+Truc stratégique: utilisez toutes vos compétences! ramassez autant
+d'objets utiles que vous pouvez (car vous en aurez besoin) et déplacez-vous rapidement pour
+éviter les stalactites qui tombent. En ce qui concerne le leader de The Hand, désolé Logan,
+mais vous devez I'affronter seul.
+
+CONSEILS POUR UN MUTANT
+
+Connaissez vos moyens: les arts martiaux, votre compétence en gymnastique, et vos
+griffes sont vos principales armes. Utilisez-les! Attention! contrélez
+votre rage et utilisez votre intelligenge pour trouver les réponses
+sur votre passé. ~
+
+Opérez rapidement: comprenez les défis qui vous sont poses dans le temps qui vous est
+imparti, déplacez-vous sans cesse, protégez votre santé, ramassez les objets importants tels
+que vies supplémentaires, trouvez Ja solution aux problémes rapidement, car si vous prenez
+trop de temps, Elsie Dee” vous rattrapera et vous anéantira.
+
+La ow vous devez vous rendre maintenant vous devez aller seul. Bonne chance, Logan.
+Puissent vos capacités de mutant et les compétences que vous avez acquises vous aider
+dans votre mission.
+
+19
+
+===== Page 21 =====
+
+UNE COLLECTION DE SUPER
+VAURIENS ABSOLUMENT
+REDOUTABLES
+
+THE BLACK QUEEN™- Elle
+‘s‘appelle également Selene, et
+appartient a la race des vampires
+psychiques qui sont capables de
+s‘approprier la force de vie des
+humains. Elle a un contréle psionique sur le feu et
+les objets inanimés, de vastes connaissances en
+matiére de magie et une capacité de guérison
+extrémement rapide.
+
+BLOODSCREAM™ est un vampire
+
+ARES. : ; a sicks
+} qui se nourrit de I'énergie psychique
+
+place des ongles il a des griffes
+aceérées; ses dents sont aiguisées
+comme des rasoirs. II est rapide, agile et
+extrémement dangereux!
+
+THE CRYSTAL DRAGON - est deux
++ fois plus grand que Wolverine®. Fait
+
+‘+ nova et sa téte peut émettre des
+projections astrales. Il survit grace a un losange
+rouge situé entre son font et son cerveau.
+
+CYBER™- est, al'exception de
+son visage, complétement recouvert
+* d'une peau en Adamantium.
+
+* Ceci le rend trés difficile 4 blesser,
+et extrémement dangereux
+pour Wolverine”!
+
+y* DESTROYER PROGRAM
+( (PROGRAMME DE DESTRUCTION) -
+
+_ c'est un logiciel installé sur un
+
+nombre indéterminé de robots et qui a
+
+/a capacité d'activer la mémoire de
+ses cibles, leur faisant ainsi revivre leurs plis
+mauvais moments de douleur physique ou mentale.
+
+|. ELSIE DEE” - a peut-étre lair
+‘d'une petite fille, mais elle est en fait
+un androide, une combinaison
+«=| Meurtriére de composants
+électroniques et d'explosifs
+spécialement congue pour détruire Wolverine®!
+
+si) 5 des autres. Ses bras sont longs et ala
+
+de cristal, il peut cracher des flammes
+
+FUGUE™ - C'est un membre de
+lf IInner Circle, qui dispose de pouvoirs
+si puissants qu'ils affectent méme les
+capacités de mutation de Wolverine®
+Elle peut émettre des ondes sonores qui se
+répercutent sur le cerveau humain et peuvent
+
+méme engendrer des hallucinations, un état de
+deélire ou de folie... et méme la mort.
+
+GEIST” - C'est un scientifique qui
+n’a aucune ame ni conscience; ce
+cyborg ne vit que pour les expériences,
+Sans se soucier des conséquences.
+Avec son armée de robots, Geist
+considére Wolverine® comme I'objet de sa
+prochaine experience, une série de tests qui
+pourraient entrainer la mort du mutant.
+
+wa LADY DEATHSTRIKE™- est un
+y~ | cyborg psychologiquement instable qui
+
+excelle dans la méthode de combat des
+7] Samourais connue sous le nom de
+
+Kenjutsu. Comme Wolverine’, ses os
+sont doublés d'Adamantium; elle posséde, a la
+place des doigts, des griffes en Adamantium d'une
+longueur de trente centimétres.
+
+SHINOBI SHAW “- est un mutant
+
+Fi
+aA 4 dont le pouvoir unique est la possibilité
+
+3 qu'il a de rendre tout ou partie de son
+
+y ‘5 corps invisible, ce qui le rend
+invulnérable! I! peut administrer un coup de poing
+tant qu'il est invisible, puis il peut rendre son poing
+4 nouveau visible... dans la poitrine de son ennemi!
+I a aussi la possibilité de passer a travers les murs
+et les planchers tant qu'il est invisible.
+
+TRIFUSION - est une combinaison
+de trois assassins Ninja: Marble,
+7 Shiken et Shard, qui peuvent s‘associer
+= #4 4 volonté et 4 tout moment!
+
+Personnages des
+mots de passe
+
+Vous avez besoin de (8) X-Men’ pour construire vos mots de
+
+passe. Ils sont cites ci-dessous:
+¥
+‘eo i
+
+BISHOP™ chiles “ CYCLOPS™ ICEMAN™
+via t we
+es _ PROFESSOR X™ PS! YLOCK E" sToRm™
+CRAWLER’
+
+===== Page 22 =====
+
+DE VUELTA A UN PASADO DESCONOCIDO
+
+Mi nombre es Logan, pero mis amigos me Ilaman Wolverine®. Mis enemigos también, y tengo un
+monton, tanto de amigos, como de enemigos.
+
+Lo qué no tengo, sin embargo, es un claro recuerdo de mi pasado. Si, tengo algunos recuerdos,
+pero también tengo buenas razones para creer que algunos de ellos son implantes artificiales. ¢Cudles
+son auténticos? ;Cudles falsos? ;Cudles han sido implantados en mi cerebro y por quién? ¢Con qué
+fin? No podré descansar tranquilo hasta que no averigiie la verdad.
+
+Un mensaje anonimo en mi ordenador me ha conducido al laboratorio de armas Weapon X.
+
+Puede que aqui encuentre algunas de las respuestas que ando buscando.
+
+Tengo que encontrar la paz de espiritu que he estado buscando durante toda mi vida. Responderé
+
+al mensaje. Seguiré la pista y encontraré las respuestas...si es que las hay.
+
+ANTES DE QUE EMPIECES A DAR TAJOS
+
+COMO CARGAR:
+
+1. Asegurate de que el interruptor esta apagado (OFF).
+2. Inserta el cartucho de WOLVERINE® segun se explica en el manual de instrucciones
+
+de tu SUPER NINTENDO ENTERTAINMENT SYSTEM™.
+
+3. Enciende el interruptor (ON). En unos instantes, aparecerd la pantalla del titulo de WOLVERINE®.
+4. Si no aparece la pantalla del titulo, apaga el interruptor. Asegurate de que el sistema esta
+correctamente instalado y el cartucho bien insertado, y luego vuelve a encender el interruptor.
+IMPORTANTE: asegurate siempre de que el interruptor esta apagado antes de insertar 0 retirar un
+cartucho de juego.
+
+Una vez que hayas visto la pantalla del titulo, podras elegir entre empezar el juego, activar el
+ment de opciones o echar un vistazo a una serie de datos sobre tus enemigos.
+
+OPCIONES
+
+Ei menu de opciones te presenta las siguientes posibilidades:
+Sonido estéreo 0 monofénico.
+
+Para establecer una configuracion de botones diferente a la que se describe
+
+en la tarjeta de referencia de la pagina 23.
+
+Para seleccionar entre tres niveles de dificultad: malo, peligroso y furor (mean,
+dangerous, fury). Utiliza el mando direccional para destacar una opcion. Pulsa los
+botones A, B, X 0 Y para seleccionar una opcion. Pulsa cualquier boton para volver
+a la pantalla de seleccion.
+
+Sonido {Sound): elegir entre sonido estéreo 0 monofonico.
+
+eCambiar la configuracion de los botones (Reconfigure button): te permite
+establecer una configuracion de botones diferente ala que se describe en la
+tarjeta de referencia de la pagina 23,
+
+Niveles de dificultad: elegir entre normal, peligroso y furioso.
+
+¢Contrasena (Password): después de completar un nivel, se te dara una contrasefa que podras utilizar
+para reanudar el juego al principio del siguiente nivel. En Wolverine®, la contrasena consiste en una
+secuencia de cuatro fotos de los X-Men", colocadas en un orden determinado, que variara en cada
+nivel. Tienes que colocar las fotos correspondientes a cada nivel en el orden adecuado. Para introducir
+una contrasena, utiliza la parte superior o inferior del mando direccional para ir pasando por las
+distintas fotos de los X-Men™ en el primer recuadro, hasta que legues al que corresponde. Luego utiliza
+Ja parte izquierda o derecha del mando direccional para pasar al segundo recuadro (0 para volver a
+cualquier recuadro), y repite la misma operacién. Vuelve a hacer lo mismo hasta que hayas colocado
+2 ¥ Jos cuatro recuadros en el orden apropiado.
+
+===== Page 23 =====
+
+LA PANTALLA DE WOLVERINE®
+
+INDICADOR DE 255 7
+ENERGIA
+
+INDICADOR DE
+
+ELSEE DEE™
+ENEMIGOS
+
+RESTANTES
+
+COLECCIONABLES
+
+COLECCIONABLE DE ENERGIA PARCIAL - Recoge estas esferas negras cargadas de
+x electricidad para reponer parte de las energias de Wolverine®.
+
+COLECCIONABLE DE ENERGIA TOTAL - Si recoges este icono con la cabeza de
+C3 Wolverine®, su energia se repondra del todo. jNo los dejes pasar!
+
+| COLECCIONABLE DE INVENCIBILIDAD - Si recoges estas.esferas negras, seras
+invencible durante un periodo de tiempo que variara dependiendo del nivel del
+id juego en el que te encuentres. Cuando la invencibilidad esta activada, el indicador
+“| de energia de Wolverine® lanzara destellos..
+
+INDICADORES
+
+INDICADOR DE ENERGIA - La energia de Wolverine® aparece indicada por un porcentaje situado
+en.Ja esquina superior izquierda de la pantalla, junto al icono con la cabeza de Wolverine?.
+Empieza con Ja energia al 100%, y disminuye cada vez que resulta herido.
+
+INDICADOR DE LA ENERGIA DEL ENEMIGO - En la parte superior derecha de la pantalla, late un
+corazon de color anil y junto a é! hay un porcentaje que indica el dano recibido por tu principal
+enemigo en un nivel determinado.
+
+ENEMIGOS RESTANTES - En Ja parte inferior izquierda de Ia pantalla hay un numero con la
+palabra LEFT (quedan) encima: indica cudntos enemigos debe derrotar Wolverine antes de
+continuar. Después de haber derrotado a un minimo de enemigos, la palabra "GO" (;Adelante!)
+lanzard destellos en la esquina superior derecha de la pantalla para indicarte que puedes
+avanzar al siguiente nivel. NOTA: los enemigos que se regeneran no aparecen en este
+marcador.
+
+INDICADOR DE ELSIE DEE™ - Elsie Dee™ es una androide mortifera que se dedica a perseguir sin
+tregua a Wolverine®. Este indicador aparece en la parte superior central de la pantalla cuando
+Elsie Dee esta a menos de 30 segundos, Puedes escaparte de ella si llegas al siguiente punto
+de control antes de que te alcance.
+
+COMO UTILIZAR LOS PODERES DE WOLVERINE®
+
+El estilo de lucha dé Wolverine® no es nada ortodoxo. Combina los movimientos de Ia pelea
+callejera con los de las artes marciales, y los adereza con el riguroso entrenamiento para
+combate del Professor X™.
+
+Esta tabla de reterencia te servira como guia practica de las habilidades de Wolverine®
+
+4
+
+===== Page 24 =====
+
+ACCION DE WOLVERINE® CONTROLES
+CAMINAR HACIA LA IZQUIERDA 0 DERECHA PARTE IZQUIERDA 0 DERECHA DEL
+MANDO DIRECCIONAL
+CORRER HACIA LA IZQUIERDA 0 DERECHA PULSAR DOS VECES LA PARTE IZQUIERDA 0
+DERECHA DEL MANDODIRECCIONAL
+AGACHARSE PARTE INFERIOR DEL MANDO DIRECCIONAL
+AGACHARSE Y LANZAR UN TAJO PARTE INFERIOR DEL MANDO DIRECCIONAL
++ BOTON DE DISPARO R
+DAR UN PUNETAZO BOTON A
+a LANZAR UN REVES BOTON DE DISPARO L
+DAR UN PUNETAZO A LA CARRERA PULSAR DOS VECES EL MANDO
+DIRECCIONAL Y LUEGO EL BOTON A
+SALTAR BOTON B
+feds PATADA DE LADO BOTON Y
+PATADA FRONTAL BOTON Y, LUEGO PARTE SUPERIOR
+DEL MANDO DIRECCIONAL
+PEGARSE A LA PARED MANDO DIRECCIONAL + BOTON B PARA
+TOMAR CARRERILLA Y SALTAR HACIA LA
+PARED, LUEGO PULSAR BOTON X
+TREPAR A LO ALTO DE UNA PARED CUANDO ESTA EN UNA PARED, CERCA
+DEL FINAL, PULSAR LA PARTE DE ARRIBA
+DEL MANDO DIRECCIONAL + BOTON B
+LANZARSE EN PICADO HACIA DELANTE PARTE DE ARRIBA DEL MANDO DIRECCIONAL
+DAR UN SUPERSALTO Y PEGARSE AL TECHO PARTE DE ABAJO DEL MANDO
+DIRECCIONAL + BOTON B, LUEGO X
+DAR UN PUNETAZO CON LAS GARRAS BOTON X
+RASGAR CON LAS GARRAS BOTON DE DISPARO R
+RASGAR EL SUELO PARTE DE ABAJO DEL MANDO
+Ps DIRECCIONAL, LUEGO BOTON X
+LANZAR UN GANCHO CON LAS GARRAS PARTE DE ABAJO DEL MANDO DIRECCIONAL,
+LUEGO BOTON A
+
+INOTA: ESTOS SON LOS AJUSTES POR DEFECTO. EN EL MENU DE OPCIONES SE PUEDE CAMBIAR LA
+CONFIGURACION DE LOS BOTONES, VER LA PAGINA 21]
+
+_ éS0n éstos todos los movimientos que puede hacer Wolverine®? {De ninguna manera!
+
+iEstos son solo los mas basicos! jPrueba diferentes combinaciones ¥ descubre lo mucho que
+puedes ampliar tu repertorio de movimientos de pelea!
+
+EL LABORATORIO SECRETO
+
+Wolverine® se deja guiar por el misterioso mensaje dejado en su Bee
+ordenador, que le conduce hasta un laboratorio secreto escondido en las
+profundidades de! bosque de la parte norte de las Montanas Rocosas. Ha = i
+sido informado de que este laboratorio esconde secretos sobre su pasado, f
+respuestas a sus preguntas mas acuciantes. Atraviesa el sistema de
+seguridad, enfrentandose a guardias fuertemente armados, y su tinica
+
+ated
+
+esperanza es que alli dentro le estén esperando las respuestas que tanto anhela.
+Tu objetivo: abrirte camino a través de una compleja red de corredores, tiineles y puertas
+para llegar al ordenador central del laboratorio, que contiene informacion sobre Weapon X™.
+Los peligros: guardias armados, androides de seguridad flotantes, armas de rayos laser
+instaladas en el techo, ametralladoras y rafagas de gas letal,
+
+23
+
+Estrategia: clava tus garras en el techo para esquivar los peligros. Encuentra e
+inutiliza el generador principal de energia para desactivar las armas laser.
+
+===== Page 25 =====
+
+CUIDADO CON EL CAMPO DE ENTRENAMIENTO NINJA
+
+En las afueras de Tokio, Wolverine® se entera de que una de sus peores enemigos, Lady
+Deathstrike™, se ha aliado con un clan de guerreros ninja conocido con el nombre de La Mano.
+Wolverine® ha oido rumores sobre el gigantesco e impresionante lider de La Mano, pero ahora
+ng tiene tiempo de pensar en esas cosas, jsu preocupacion en estos
+
+Momentos es seguir con vida! (es
+Tu objetivo: abrirte camino a través del campo de entrenamiento “ag Soe
+
+ninja y los talleres de cyborg para alcanzar a Lady Deathstrike™ y i 4
+
+obligarle a revelar todo lo que sabe sobre el pasado de Wolverine®. erm
+Los peligros: entre otros, fosos con pinchos, cerbatanas ne
+
+envenenadas y mecanismos aplastantes, ademas de un ejército de
+Querreros ninja, misticos y cibernéticos, entre los que se encuentra TriFusion.
+
+Estrategia: con tantos obstaculos, debes correr como el rayo. Los brutales combates
+Cuerpo a cuerpo requieren buena coordinacion; es la mejor forma de enfrentarse a esta
+dama y a sus ninjas.
+
+EN LA OTRA PUNTA DEL GLOBO: TOKIO
+
+Wolverine® se ha enterado de que Shinobi Shaw” ha contratado a
+alguien pata matarle y que la informacion sobre su pasado es falsa; asi
+que ha decidido frustrar los planes de Shinobi y hacerle pagar por la
+afrenta. No importa cudntos soldados de alta tecnologia Shaw ysu
+compinche Geist™ manden contra Wolverine®, él no va a rendirse. Y
+menos ahora, que esta tan cerca...
+
+Tu objetivo: averigua el paradero de Shinobi Shaw™ dentro del
+Circulo interior para conseguir algunas respuestas.
+
+Los peligros: saldados armados, helicépteros, letreros luminosos electrificados, minas
+ventosas de gran potencia, el mortal Geist” y el sediento de sangre Bloodscream”™.
+
+Estrategia: utiliza los letreros luminosos para pasar a través de Paredes que, de lo
+contrario, serian impenetrables; deshazte de los guardias; evita los helicopteros y utiliza todos
+los movimientos descritos en este manual para conseguir lo anteriormente citado.
+
+jVISIONES DE PESADILLA!
+
+La batalla contra Geist y sus secuaces se ha cobrado un precio: Wolverine® esta exhausto.
+Mientras piensa en Shinobi Shaw™ , descuida a Cyber™, quien, surgiendo de la nada, salta
+sobre él y le da un tajo en la espalda. El veneno corre por las venas de Cyber™, y con su ataque
+a Wolverine® ha inyectado una droga alucinégena en el cuerpo del mutante. Wolverine® esta a
+punto de...
+
+Tu objetivo; entocar y escapar.del alucinégeno mundo en el que transcurre
+esta pesadilla que estas viviendo.
+
+Los peligros: llamas de hielo, un suelo bullente de espiritus del mas
+alla, rios carmesi, Cyber-trolls, arpias que escupen acido, vientos
+psiquicos, centinelas de cristal, y mucho, mucho mas, incluyendo el
+Dragon de Cristal.
+
+Estrategias: mantente alejado de los rios carmesi, te chuparan la
+vida. Salta 0 pasa por debajo de las llamas de hielo.
+
+===== Page 26 =====
+
+Y POR ULTIMO: EL CIRCULO INTERIOR™
+
+. Wolverine® consigue llegar al cuartel general del Circulo Interior. Sus
+desarrollados sentidos hacen que casi pueda oler el miedo que desprende
+= el cuerpo de Shinobi Shaw™ a medida que se va acercando a él. Mientras
+<2 Wolverine® se prepara para apretar la soga en torno a su cuello, Shaw se
+4 = “ _ | escabulle y desaparece. En su lugar aparece Fugue", un camorrista que
+provoca alucinaciones con sus gritos de gran potencia, y comienza a
+luchar contra Wolverine®.
+Tu objetivo: abrirte camino por el inmenso laberinto de habitaciones, vestibulos, tuberias
+y platatormas, para encontrar a Shinobi Shaw™, el advenedizo mutante que ha puesto precio a
+la cabeza de Wolverine®.
+Los peligros: guardias armados, androides flotantes y la vampiro psiquica conocida con
+el nombre de Black Queen”.
+Estrategia: abrete paso por el moderno sistema de seguridad del Circulo Interior,
+localiza las estaciones de teletransporte y busca los interruptores secretos que activan
+las puertas ocultas.
+
+EL MISTERIOSO MUNDO SUBTERRANEO
+
+Cuando Wolverine® esta a punto de vencer a Fugue™, el Circulo Interior en pleno se
+desploma bajo sus pies, arrastrandolo hacia un misterioso mundo
+subterraneo. De nuevo se encuentra con el clan mistico de ninjas,
+La Mano, y con su malvado cabecilla.
+
+Tu objetivo: encontrar y derrotar a Fugue’ Salir con vida.
+
+Los peligros: cuidado con los ninjas, los canallas del mundo
+subterraneo, los rios de sulfuro y las estalactitas que caen.
+
+Estrategia: utiliza las habilidades que se te den mejor, localiza los coleccionables (los
+necesitards todos) y muévete con rapidez para esquivar las estalactitas que caen. Y por lo que
+respecta al jefe del clan La Mano, lo sentimos Logan, pero no podemos ayudarte.
+
+CONSEJOS PARA UN MUTANTE
+
+Descubre cudles son tus armas: las artes marciales, las habilidades gimnasticas, las
+garras y tus armas primarias. jUtilizalas! Ten cuidado de controlar tu furia y utiliza tu
+inteligencia para encontrar las respuestas a tu pasado.
+
+Actua deprisa: ten en cuenta que te enfrentas a una Serie de desafios en un tiempo
+limitado; no te pares; mantente en buena forma; recoge objetos importantes, tales como vidas
+extra (si los dejas atras, tendras que sutrir las consecuencias); resuelve los problemas con
+rapidez, porque si te tomas demasiado tiempo, Elsie Dee™ te alcanzara, te agarrara por las
+piernas y te destruira.
+
+Ahora debes partir, pero este viaje debes realizarlo en solitario. Buena suerte, Logan.
+
+Que las habilidades mutantes que has aprendido te sirvan de ayuda en tu mision!
+
+25
+
+===== Page 27 =====
+
+UNA LISTA DE SUPER
+VILLANOS DECIDIDAMENTE
+MORTIFEROS
+
+THE BLACK QUEEN”, también se
+la conoce con el nombre de Selene.
+Es una vampiro psiquica que tiene el
+poder de extraer la fuerza vital de los
+humanos. Posee un control psiénico
+Sobre el fuego y los objetos inanimados, asi como
+un vasto conocimiento de diversas formas de
+magia y una excepcional capacidad de
+Curacion rapida.
+
+BLOODSCREAM™, es un vampiro
+que se alimenta de la energia fisica
+'¥ de los demas. Su largos brazos
+pers 94 terminan en dedos con garras
+€afiladas, y sus dientes son tan
+cortantes como una cuchilla de afeitar. Es muy
+rapido, agil y extremadamente peligroso.
+
+etme:
+
+\)
+
+THE CRYSTAL DRAGON, es unas
+dos veces el tamanio de Wolverine®.
+Esta hecho de cristal, escupe llamas
+~» de estrellas novas y de su cabeza
+salen propulsadas proyecciones astrales. Entre la
+frente y el cerebro tiene colgado un diamante rojo
+que le da la vida.
+
+CYBER™ esta cubierto, con
+excepcion de su cara, por una
+piel adamantina. Esto hace
+|, extremadamente dificil poder
+herirle y le convierte en un enemigo
+muy peligroso.
+
+DESTROYER PROGRAM
+
+(PROGRAMA DESTRUCTOR) - Es un
+{| programa de ordenador que ocupa un
+
+numero indeterminado de médulos
+
+roboticos, y tiene la habilidad de
+
+activar "memorias dolorasas” en sus objetivos; de
+
+esta manera, sus victimas reviven Jos momentos
+
+mas dolorosos, tanto fisicos como mentales,
+
+de sus vidas. ~
+
+ELSIE DEE™, a pesar de su
+inocente aspecto de nina pequena, es
+en realidad un androide: una mortal
+
+3 = combinaci6n de electronica y
+explosivos plasticos, especialmente creada para
+destruir a Wolverine®.
+
+FUGUE™ - Miembro del Circulo
+Interior, Fugue™ posee poderes que
+Superan incluso las pulidas habilidades
+mutantes de Wolverine. Puede crear
+ondas sonoras que afectan el cerebro humano,
+provocando alucinaciones, delirio, locura e,
+incluso, la muerte.
+
+GEIST“ - Un retorcido cientifico sin
+
+i moral, conocido entre los cyborg como
+
+Geist”, vive para sus experimentos, sin
+
+importarte las consecuencias. Con su
+ejército de robots, Geist™ considera a Wolverine®
+como su mayor y mas reciente experimento, un
+experimento que, sin duda, supondrd la muerte
+para el mutante.
+
+pt
+
+¢ LADY DEATHSTRIKE™- es un
+Y cyborg psicologicamente inestable
+4 que domina a Ja perfeccion el método
+7 pelea de los samurais llamado
+Kenjutsu. Al igual que Wolverine®,
+tiene huesos adamantinos y, ademas, posee
+largas garras adamantinas en vez de dedos.
+
+A SHINOBI SHAW™, es un mutante
+A 4 cuyo unico poder es su habilidad para
+3 hacer que su cuerpo, de forma total o
+
+: parcial, sea-intangible. jEn esos
+momentos es invulnerable y puede dar punetazos,
+haciendo que su puno vuelva a ser tangible dentro
+del pecho de su enemigo! También tiene la
+habilidad de atravesar las paredes y los suelos
+cuando su cuerpo es intangible.
+
+TRIFUSION, es una combinacion de
+tres asesinos ninja : Marble, Shiken y
+Shard. Puede materializarse en
+» #4 cualquiera de estos tres, siempre
+que quiera.
+
+Personajes de
+las contrasefias
+
+Para formar las contraseitas se pueden utilizar ocho (8) X-Men”:
+
+jae
+
+n
+BISHOP™ COLOSSUS”
+
+ea ER
+
+CYCLOPS” = ICEMAN™
+
+aps
+4 . ee
+
+moter PROFESSOR x” PS YLOCK” STORM™
+
+===== Page 28 =====
+
+SCAVANDO IN UN PASSATO IGNOTO
+
+Mi chiamo Logan. Gli amici mi chiamano Wolverine®. Anche i nemici. Ne ho tanti di tutti e due.
+
+Quello che non ho, per6, é una chiara visione del mio passato. Eh si, ho dei ricordi, ma ho anche
+buone ragioni per credere che alcuni di questi ricordi siano dei trapianti artificiali. Che cos'é vero?
+Che cos'é immaginato? Che cosa mi é stato trapiantato in testa... e da chi? E a quale scopo?
+
+Non avro pace fino a quando non scopriré la verita.
+
+Un messaggio anonimo sul mio terminale e una foto che mi turba arrivata per corriere, mi hanno
+indirizzato al laboratorio dell'Arma X. Forse li posso trovare alcune delle risposte che cerco.
+
+Devo trovare la serenita che ho cercato per tutta la vita. Risponderé al messaggio. Seguiro la pista.
+Scopriré le risposte...se sono li.
+
+PRIMA DI COMINCIARE A TRINCIARE
+
+CARICAMENTO:
+
+1. Accertati che l'interruttore sia SPENTO (OFF).
+2. Inserisci la cartuccia di WOLVERINE® come descritto nel manuale istruzioni SUPER
+NINTENDO ENTERTAINMENT SYSTEM™.
+
+3. ACCEND! I'interruttore. Dopo alcuni istanti, apparira la videata di testa di WOLVERINE®
+
+4. Se la videata di testa non appare, SPEGNI I'interruttore. Accertati che il sistema sia stato allestito
+correttamente e che la cartuccia sia inserita bene. Poi ACCEND! di nuovo.
+
+[AVVERTENZA: Accertati sempre di SPEGNERE prima di inserire o togliere la cartuccia].
+
+Quando vedi la videata di testa, puoi scegliere di iniziare il gioco passando al menu delle opzioni o di
+scorrere una biblioteca di notizie sui tuoi nemici.
+
+OPZIONI
+
+Ell menu delle OPZIONI presenta le seguenti scelte:
+¢ Sonoro mono o stereo
+
+¢ Possibilita di modificare la configurazione dei pulsanti predefinita descritta
+
+nella tabella di consultazione a pagina 29.
+
+¢ Possibilita di scegliere tre livelli di difficolta: mean (cattivo), dangerous
+(pericoloso) e fury (furioso). Utilizza il PULSANTE DIREZIONALE per evidenziare
+un‘opzione. Premi i PULSANTI A, B, X o Y per selezionare una delle selezioni in
+quella opzione. Premi un pulsante qualsiasi per ritornare sulla videata selezione.
+
+¢ Sonoro (Sound): Scegli tra sonoro Monofonico (Monaural) o Stereo.
+
+¢ Riconfigurazione pulsanti (Reconfigure button): Ti permette di modificare i
+pulsanti della pulsantiera secondo le regolazioni descritte nella tabella di
+consultazione rapida a pagina 29.
+
+¢ Difficulty levels (Livelli di difficolta): Scegli tra Normal (Normale), Dangerous
+(Pericoloso) e Furious (Furioso).
+
+Parola d'ordine (Password): Dopo aver completato un livello, ti verra data una parola d'ordine. Utilizza
+questa parola d'ordine per riprendere il gioco all'inizio del livello successivo. In Wolverine® ogni parola
+d'ordine é formata da 4 immagini di X-Men” disposte in un ordine particolare. Devi mettere le immagini
+nell'esatto ordine associato a quel particolare livello. Per inviare una parola d'ordine utilizza i! pulsante
+direzionale in SU 0 in GIU per scorrere le immagini degli X-Men™ neila prima casella finché non
+raggiungerai la combinazione desiderata. Utilizza il PULSANTE DIREZIONALE a SINISTRA 0 a DESTRA
+per spostarti sull'immagine successiva (0 per tornare su qualsiasi altra casella), dove dovrai ripetere la
+stessa procedura, finché avrai sistemato le 4 caselle nell'ordine desiderato.
+
+27
+
+===== Page 29 =====
+
+LA VIDEATA Di Wolverine®
+
+INDICATORE
+SALUTE
+INDICATORE
+ELSEE DEE™
+NEMICI
+RIMASTI
+
+OGGETTI DA RACCOGLIERE
+- ICONA SALUTE - Raccogli queste sfere nere che possiedono Ia ricarica elettrica per
+> 4 ripristinare parzialmente la salute di Wolverine®.
+
+ICONA SALUTE 100% - Raccogliendo queste icone testa di Wolverine® ripristinerai
+®@ fa salute di Wolverine® al suo livello massimo. Raccoglile quando le trovi!
+
+: ICONA INVINCIBILITA - Raccogliendo queste icone sfere nere diventerai
+
+; ° immediatamente invincibile per un determinato periodo di tempo pit o meno lungo
+
+$ a seconda dei livelli. L'indicatore della salute di Wolverine® lampeggera per
+indicare che I'invincibilita é attivata.
+
+INDICATORI
+
+INDICATORE SALUTE - La salute di Wolverine® appare in percentuale nell'angolo alto a sinistra
+dello schermo accanto all'icona testa di Wolverine®. Inizia con il 100% di salute, la quale
+diminuisce mano a mano che subisce ferite.
+
+INDICATORE SALUTE NEMICI - Questo cuore blu, che batte con una percentuale accanto ad
+esso, appare nell’angolo in alto a destra della videata e mostra la quantita dei danni subiti dal
+tuo principale nemico in un determinato livello.
+
+NEMICI RIMASTI - In fondo a sinistra della videata sotto alla parola "LEFT" (Rimasti) apparira il
+numero dei nemici che Wolverine® deve sconfiggere prima di poter andare avanti. Dopo che
+avrai sconfitto i! numero minimo di nemici, la parola "GO" (VAl) apparira nell'angolo a destra
+della videata per informarti che puoi proseguire al
+
+livello successivo. IMPORTANTE: | nemici che si rigenerano non appariranno
+
+in questo indicatore.
+
+INDICATORE ELSIE DEE™ - Elsie Dee™ é un androide micidiale in perenne inseguimento
+Wolverine®. Questo indicatore apparira in alto a sinistra della videata quando Elsie Dee™ sara a
+meno di 30 secondi di distanza. Puoi sfuggirla se riesci ad arrivare al posto di controllo
+successivo prima che ti raggiunga.
+
+USO DEI POTERI DI WOLVERINE®’
+
+Lo stile di combattimento di Wolverine® é quanto di meno ortodosso ci sia. Mescola le risse
+da strada con le arti marziali e condisce il tutto con il rigoroso addestramento del Professor X™.
+
+La scheda di riferimento rapido, che vedi qui di seguito, costituisce un comodo prontuario
+delle abilita di Wolverine®: 2 2
+
+===== Page 30 =====
+
+AZIONI DI WOLVERINE®’
+
+COMANDI
+
+CORRERE A SINISTRA 0 A DESTRA
+
+PULSANTE DIREZIONALE A SINISTRA 0 A DESTRA
+
+SCATTO A SINISTRA 0 A DESTRA BATTERE DUE VOLTE IL PULSANTE DIREZIONALE A
+me DESTRA 0 A SINISTRA
+ABBASSARSI PULSANTE DIREZIONALE IN GIU
+ABBASSARSI E TRINCIARE PULSANTE DIREZIONALE IN Gil) + FUOCO DESTRO
+DARE PUGNI PULSANTE A
+TIRARE UN ROVESCIO FUOCO SINISTRO
+TIRARE UN PUGNO IN CORSA BATTERE DUE VOLTE IL PULSANTE
+DIREZIONALE E QUINDI IL PULSANTE A
+SALTARE PULSANTE B
+DARE UN CALCIO LATERALE PULSANTE Y
+TIRARE IN CALCIO FRONTALE PULSANTE Y E QUINDI PULSANTE
+Ee DIREZIONALE IN SU
+AGGRAPPARSI A UN MURO UTIUIZZARE IL PULSANTE DIREZIONALE +
+PULSANTE B PER FARE UNO SCATTO E SALTARE
+: VERSO IL MURO, QUINDI PREMERE IL PULSANTE X.
+SALIRE IN CIMA A UN MURO QUANDO AGGRAPPATO AL MURO E QUASI IN
+CIMA, PREMERE IL PULSANTE DIREZIONALE
+Dine IN SU + PULSANTE B
+TUFFO IN AVANTI PULSANTE DIREZIONALE IN SU
+SUPER SALTO E AGGRAPPARS! AL SOFFITTO PULSANTE DIREZIONALE IN GIU +
+PULSANTE B, QUINDI X
+__PUGNO CON ARTIGU PULSANTE X |
+___TRINCIATA CON GU ARTIGLI FUOCO DESTRO
+TRINCIATA AL PAVIMENTO PULSANTE DIREZIONALE IN GIU,
+QUINDI PULSANTE X
+TIRARE UN MONTANTE CON ARTIGLI PULSANTE DIREZIONALE IN GIU,
+QUINDI PULSANTE A
+
+[NOTE: QUESTE SONO REGOLAZIONI PREDEFINITE. LE CONFIGURAZIONI DEl PULSANTI POSSONO ESSERE
+MODIFICATE SUL MENU OPZIONI DESCRITTO A PAGINA 27]
+
+Sono tutte qui le mosse e le manovre disponibili a Wolverine®? Neanche per sogno!
+Queste sono solo quelle elementari! Prova a combinare una mossa con un‘altra e vedrai fino a
+
+che punto puoi ampliare il repertorio di lotta!
+
+IL LABORATORIO SEGRETO
+
+Wolverine® segue le istruzioni di un misterioso messaggio di un 1g 100
+computer che lo porta in un laboratorio segreto nascosto nella cuore della
+foresta nella parte nord-occidentale delle Montagne Rocciose. Gli é stato
+detto che nel laboratorio sono nascosti i segreti sul suo passato, le risposte mm
+alle sue domande pit scottanti. Mentre distrugge il sistema di sicurezza e
+affronta le guardie pesantemente armate, spera ardentemente che |i possa
+
+trovare una risposta alle sue domande!
+
+Be
+
+1! tuo compito: Destreggiarti in un complesso labirinto di corridoi, tunnel e ingressi e
+raggiungi il computer centrale del laboratorio che contiene le informazioni sulla Weapon X™.
+| pericoli: Guardie della sicurezza armate, fluttuanti droidi della sicurezza, cannoni laser
+montati sul soffitto, mitragliatrici e micidiali vampate di gas.
+La tua strategia: Aggrappati al soffitto con gli artigli per evitare il pericolo.
+4 9 Trova e disattiva il generatore di corrente per rendere le armi laser innocue.
+
+===== Page 31 =====
+
+STALATTENTO AL CAMPO DI ADDESTRAMENTO NINJA
+
+Proprio alla periferia di Tokio, Wolverine® viene a sapere che uno dei suoi nemici pitt
+malvagi, Lady Deathstrike™ ha stretto una malefica alleanza con un clan di guerrieri mistici
+Ninja, conosciuto come The Hand. Wolverine® ha sentito parlare del gigante e terribile capo del
+clan The Hand, ma non c'é tempo per pensarci adesso, perché la cosa pitt
+
+, importante é sopravvivere! Pry
+
+negozio cyborg, trovare Lady Deathstrike™ e farti rivelare quello che sa
+sul tuo passato.
+
+| pericoli: fosse piene di spine, cerbottane avvelenate, marchingegni ia =a
+stritolanti e altro ancora, compreso un esercito di guerrieri Ninja, sia —
+mistici che cibernetici, tra cui TriFusion!
+
+La tua strategia: Con una tale varieta di pericoli, devi essere molto veloce. Un brutale
+combattimento testa a testa combinato con un perfetto tempismo é il miglior modo di
+affrontare questi Ninja e...Lady Deathstrike™!
+
+DALL'ALTRA PARTE DEL MONDO: TOKIO
+
+Wolverine® ha saputo che Shinobi Shaw™ ha messo una taglia sulla
+sua testa e che le informazioni che aveva ricevuto sul suo passato erano
+false. E deciso a far mandare all'aria i piani di Shaw e a fargliela pagare
+cara. Non importa quanti soldati tecnologicamente avanzati Shaw e il
+braccio destro Geist™ gli metteranno sul cammino, Wolverine® non si
+arrendera. Non ora...Proprio adesso che é cosi vicino...
+
+i! tuo compito: Trovare Shinobi Shaw™ nell‘Inner Circle e strappargli
+un po' di risposte.
+
+1 pericoli: Soldati armati, elicotteri, insegne al neon elettrificate, mignatte ad alta tensione,
+il micidiale Geist™ e l'assetato di sangue Bloodscream™.
+
+La tua strategia: utilizza le insegne al neon elettrificate per superare muri impenetrabili,
+togliere di mezzo le guardie, evitare gli elicotteri e utilizzare tutte le mosse nel libro per
+
+raggiungere il tuo scopo.
+VISION! MALIGNE!
+
+La battaglia con Geist™ @ i suoi scagnozzi é stata molto dura. Wolverine® é esausto. Sta
+pensando a Shinobi Shaw™ ed é per questo che non riesce a vedere Cyber™ che sbuca dal
+nulla ferendolo alla schiena. Cyber” ha iniettato a Wolverine® il veleno allucinogeno che scorre
+nelle sue vene.
+
+|! tuo compito: Cercare di rimanere lucido e scappare da questo mondo allucinageno pieno
+di orribili incubi in cui sei imprigionato.
+
+| pericoli: Fuochi treddi, un pavimento animato pieno di spiriti, fiumi rossi, troll cibernetici,
+arpie sputafuoco, venti psichici, sentinelle cristalline e altro ancora, altro
+ancora, compreso Crystal Dragon!
+
+La tua strategia: Evitare i fiumi rossi, perché ti toglieranno I'anima.
+Passa sotto o salta i fuochi freddi.
+
+I tuo compito: Farti strada nel campo di addestramento Ninja e nel a ¥ es
+
+===== Page 32 =====
+
+E PER FINIRE: THE INNER CIRCLE™
+
+ar Wolverine® riesce a raggiungere i quartieri generali dell'Inner Circle!
+* Nell'aria pud quasi sentire la paura di Shinobi Shaw™ mentre gli sta
+
+: avvicinando! Quando Wolverine® lo sta quasi per raggiungere, Shaw
+
+> sparisce. Al posto di Shaw appare Fugue, un farabutto che provoca delle
+ad We - | illusioni tramite urla micidiali.
+
+1! tuo compito: Destreggiati in un vasto labirinto di stanze, ingressi,
+tunnel e piattaforme e trova Shinobi Shaw™, quello sfacciato mutante che ha messo una taglia
+sulla testa di Wolverine®.
+
+| pericoli: Guardie armate, androidi fluttuanti e il vampiro psichico conosciuto con il nome
+The Black Queen”.
+
+La tua strategia: Fatti strada tra gli avanzati sistemi di sicurezza dell'Inner Circle, trova le
+stazioni teleportanti e trova gli interruttori segreti per attivare le porte nascoste.
+
+NEL MISTERIOSO MONDO SOTTERRANEO
+
+Quando Wolverine® sta per scontiggere Fugue”, |'intero Inner Circle crolla sotto di lui,
+facendolo sprotondare in un misterioso mondo sotterraneo. Si imbatte di nuovo nel clan
+mistico Ninja, Hand, ed inevitabilmente il suo sinistro capo.
+
+1! tuo compito: Scova e scontiggi Fugue™...ed escine vivo.
+
+| pericoli: Stai attento ai Ninja, vermi del mondo sotterraneo, fiumi
+sulfurei e stalattiti cadenti.
+
+La tua strategia: Utilizza tutte le tue abilita, individua tutti gli oggetti
+da raccogliere (perché ne avrai proprio bisogno) e muoviti velocemente
+per evitare di essere colpito dalle stalattiti. Ah, e con il capo dell'Hand, mi
+dispiace ma dovrai vedertela da solo.
+
+SUGGERIMENTI PER UN MUTANTE
+
+Impara a conoscere le tue capacita: le arti marziali, le abilita ginniche e gli artigli
+sono le tue armi principali. Usale! Controlla la tua rabbia e usa il cervello per trovare le
+risposte al tuo passato.
+
+Lavora svelto: cerca di capire le sfide che affronti nello spazio di tempo disponibile,
+muoviti continuamente, conserva la salute, raccogli oggetti importanti, come vite extra (se ti
+dimentichi di raccoglierle sara peggio per te), risolvi tapidamente i problemi, perché se ci
+metterai troppo, Elsie Dee™ ti raggiungera, ti abbranchera una gamba...
+
+e tidistruggera!
+
+Adesso vai, devi andarci da solo. Buona fortuna Logan. Che Je tue capacita di mutante e le
+
+abilita acquisite possano assisterti nella missione.
+
+i
+
+my |
+
+===== Page 33 =====
+
+ELENCO DEI
+SUPERMALVIVENTI
+_ DECISAMEN TE MICIDIALI
+
+THE BLACK QUEEN”, conosciuta
+anche con il nome di Selene, éun
+vampiro psichico con il potere di
+succhiare la vita agli umani. Ha un
+controllo psionico sul fuoco e sugli
+( oggetti inanimati, una vasta conoscenza di molte
+
+forme di magia e un'eccezionale capacita di
+_ guarigione.
+
+BLOODSCREAM™ é un vampiro
+che si nutre dell'energia psichica
+degli altri. Le sue lunghe braccia
+) sono dotate di unghioni acuminati
+
+all'estremita delle dita e i suoi
+denti sono come rasoi. E rapido, agile ed
+estremamente pericoloso!
+
+THE CRYSTAL DRAGON (IL
+DRAGONE DI CRISTALLO) é quasi due
+volte pit grande di Wolverine®. Fatto
+©). dicristallo sputa fiamme e proietta
+
+__ delle immagini della sua testa. La sua
+energia proviene da un diamante rosso incastonato
+tra /a fronte e i! cervello.
+
+CYBER™ é, a parte Ia faccia,
+eh, completamente ricoperto da una pelle
+di Adamantium. Questo lo rende
+aa] difficilissimo da colpire e
+~_ pericolosissimo!
+
+F 7 DESTROYER PROGRAM
+(PROGRAMMA DISTRUTTIVO) - Un
+{| programma di computer presente in
+un vasto numero di moduli
+potenziatori robot, che ha la capacita
+
+di far rivivere brutti ricordi, e quindi momenti di
+dolore fisico e stress mentale.
+
+Ange
+(ar
+
+SS
+
+ELSIE DEE™ puo sembrare una
+ragazzina, ma é un androide: Una
+“| micidiale combinazione di elettronica
+=a__ ed esplosivi fatta apposta per
+distruggere Wolverine®!
+
+FUGUE™ - Un membro dell'inner
+4 a Circle, Fugue™ possiede dei poteri che
+riescono ad affaticare anche quelli
+mutanti di Wolverine®. Pud emettere
+delle onde sonore che rimbombano nel cervello
+umano in modo tale da creare allucinazioni, delirio,
+pazzia e...morte,
+
+} GEIST“ - E uno scienziato pazzo
+\ senza coscienza, un cybor conosciuto
+rN ci come Geist”, che ama fare
+a esperimenti, senza curarsi delle
+conseguenze. Con il sua esercito di soldati robot,
+Geist vuole utilizzare Wolverine® per il suo piu
+
+nuovo e grandioso esperimento...un esperimento
+che potra essere letale per i! mutante.
+
+LADY DEATHSTRIKE™ é una cyborg
+psicologicamente disadattata che
+eccelle nel metodo di lotta samurai
+Z detto Kenjutsu. Come Wolverine®, le
+
+sue ossa sono rinforzate di
+Adamantium e al posto delle dita ha degli artigli di
+Adamantium lunghi trenta centimetri.
+
+v 9 SHINOBI SHAW” é un mutante che
+
+A a ha lo straordinario potere di rendere
+una parte o tutto il suo corpo
+
+‘_immateriale, e in quei momenti non
+
+puo essere colpito! Mentre é smaterializzato pud
+tirare pugni per poi materializzarli nel petto dei
+nemici! Quando é immateriale pud superare muri e
+pavimenti.
+
+TRIFUSION é una combinazione di
+tre assassini Ninja: Marble, Shiken e
+Shard, e ha il potere di scindersi in tre
+4 in qualsiasi momento!
+
+Personnages des
+mots de passe
+
+Vaus avez besoin de (8) X-Men™ pour construire vas mats de
+passe. lis sont cités ci-dessous:
+
+i.
+
+BISHOP “ COLOSSUS“ CYCLOPS“ ICEMAN™
+
+A
+
+NIGHT-__ PROFESSOR X“ PSYLOCKE“ STORM™
+CRAWLER”
+
+===== Page 34 =====
+
+EEN ONBEKENDE TOEKOMST TEGEMOET
+
+Mijn naam is Logan. Mijn vrienden noemen me Wolverine®. Mijn vijanden ook trouwens, Ik heb
+er van beide een hoop.
+
+Maar wat ik niet heb is een duidelijk beeld van mijn verleden. Ja, ik heb wel herinneringen, maar
+ik heb ook een goede reden te geloven dat een groot aantal van die herinneringen van buitenaf is
+ingeplant. Wat is echt? Wat is verzonnen? Wat is er ingebouwd in mijn hersenen... en door wie?
+
+En met welke bedoelingen?
+
+1k zal nooit kunnen rusten totdat ik een antwoord heb op die vragen.
+
+Een anoniem bericht op mijn computer en een verontrustende foto die door een nachtelijke koerier
+gebracht werd hebben me naar het Weapon X laboratorium geleid. Misschien kan ik daar de
+antwoorden op mijn brandende vragen vinden.
+
+1k moet mijn geest tot rust brengen, iets waar ik al mijn hele leven naar op zoek
+ben. Ik zal het bericht beantwoorden en het spoor volgen. Zoeken naar antwoorden
+op de vragen... als die er zijn.
+
+VOORDAT JE GAAT HAKKEN
+
+OPSTARTEN:
+
+1. Zorg dat de spelcomputer UIT staat.
+2. Steek de WOLVERINE®: ADAMANTIUM ™ RAGE spelcartridge in de console zoals
+dat in de SUPER NINTENDO ENTERTAINMENT SYSTEM™ handleiding beschreven staat.
+
+3. Zet de spelcomputer AAN. Binnen korte tijd verschijnt dan het WOLVERINE®: ADAMANTIUM
+
+RAGE titelscherm op het beeldscherm.
+
+4. Als het titelscherm niet in beeld verschijnt, zet dan de spelcomputer weer UIT en kijk goed of
+
+alles goed is aangesloten. Zet dan de spelcomputer weer AAN.
+
+[BELANGRIJK: Zorg altijd dat de spelcomputer UIT staat voordat je er een cartridge instopt of uithaalt.]
+Als het introscherm in beeld verschijnt krijg je de optie om met het spel te beginnen, naar het
+optiescherm te gaan of om in een bibliotheek met informatie over de vijanden te kijken.
+
+OPTIES
+
+Het OPTIONS menu geeft je de volgende keuzes:
+¢ Mono.of stereo geluid
+
+¢ Het veranderen van de standaardinstelling van de knoppen (deze staat
+beschreven in het overzicht op pagina 35).
+
+¢ Drie instellingen in difficulty levels (moeilijkheidsgraden): Mean (Makkelijk),
+Dangerous (Gemiddeld) of Fury (Moeilijk). Druk op de A-, B-, X- of Y-KNOP om één
+van de opties uit dat menu te selecteren en druk op een willekeurig knop om weer
+naar het selectiescherm terug te gaan.
+
+Sound - Kies tussen Mono of Stereo geluid.
+
+Reconfigure button - Herconfigureer de bedieningsknoppen. De meg iciaareinrstetinig
+staat weergeven op pagina 35.
+
+Password - Na elke suksesvol beéindigd level krijg je een password te zien.
+Gebruik dit password om verder te spelen aan het begin van het volgende level.
+Een password in Wolverine® bestaat uit vier X-Men™ portretten in een bepaalde volgorde. Je moet
+dezelfde portretten in dezelfde volgorde zetten voor elk level. Gebruik de OMHOOG en OMLAAG knoppen
+op de CONTROLPAD om de X-Men” portretten te kiezen die je wilt gebruiken voor het password.
+Gebruik de LINKS en RECHTS knoppen op de CONTROLPAD om naar het volgende portret te gaan (of om
+terug te gaan naar een bepaald portret). Ga door tot alle X-Men portretten in de juiste volgorde staan.
+
+33
+
+===== Page 35 =====
+
+LA PANTALLA DE WOLVERINE®
+
+4
+
+h AANTAL
+
+n VIJANDEN OVER
+
+) \pick-uPs
+pee GEZONDHEIDS PICKUP - Raap deze zwarte bollen met electrische lading op om
+% | Wolverine® gedeeltelijk zijn gezondheid terug te geven.
+
+~~~ 100% GEZONDHEIDS PICKUP - Wolverine® kan een extra leven erbij krijgen door
+4 deze pickups mee te nemen, zodat hij een grotere kans heeft om te overleven.
+
+ONVERSLAANBAARHEIDS PICKUP - Door deze op te rapen krijgt Wolverine® zijn
+° complete gezondheid terug. Zorg dat je deze altijd opraapt!
+
+METERS
+
+GEZONDHEIDSMETER - De gezondheid van Wolverine® wordt als een percentage in de linker
+bovenhoek van het scherm naast het Wolverine® embleem weergegeven. Hij begint met een
+gezondheid van 100%, en dat percentage zakt naarmate hij meer verwondingen oploopt.
+
+VIJANDEN GEZONDHEIDSMETER - Een pulserend hart met daarnaast een percentage geett zijn
+of haar gezondheid aan. Het percentage zie je in de rechter bovenhoek van het scherm en het
+geeft aan hoeveel verwondingen de vijand heeft opgelopen.
+
+AANTAL VIJANDEN OVER - Links onderaan het scherm verschijnt een nummer onder het woord
+“LEFT”. Dit nummer geeft aan hoeveel vijanden Wolverine® nog moet verslaan voordat hij door
+kan gaan. N.B.: uit de dood herrijzende vijanden worden niet meegeteld in dit getal.
+
+ELSIE DEE’ METER - Elsie Dee™ is een dodelijke android die altijd op jacht is naar Wolverine®.
+Deze meter verschijnt in de rechter benedenhoek van het scherm als Elsie Dee™ minder dan 30
+seconden van je verwijderd is. Je kunt haar ontwijken als je het volgende checkpunt bereikt
+voordat ze jou heeft ingehaald.
+
+_ MAAK GEBRUIK VAN WOLVERINE®’S KRACHTEN
+
+Cl De vechtstijl van Wolverine® is zo onorthodox als het maar kan. Hij mengt straatvechten
+met martial arts, en maakt daarbij gebruik van de dodelijke training die hij kreeg van
+Professor X™.
+
+Het korte overzicht dat je hier ziet geeft een duidelijk beeld van de kunsten
+van Wolverine®:
+
+34
+
+===== Page 36 =====
+
+WOLVERINE®’S BEWEGINGEN CONTROLS
+
+CLOPEN NAAR LINKS OF RECHTS CONTROLPAD NAAR LINKS OF RECHTS
+RENNEN NAAR LINKS OF RECHTS CONTROLPAD NAAR LINKS OF RECHTS
+TWEE KEER AANTIKKEN
+KRUIPEN CONTROLPAD NAAR BENEDEN
+KRUIPEN EN HOUWEN CONTROLPAD NAAR BENEDEN +
+R-KNOP
+MEPPEN A-KNOP
+BACKHAND R-KNOP
+MEPPEN MET AANLOOP CONTROLPAD TWEE KEER AANTIKKEN,
+DAN A-KNOP
+SPRINGEN B-KNOP
+SIDE KICK Y-KNOP
+FRONT KICK Y-KNOP, DAN CONTROLPAD
+OMHOOG
+AANVALLEN + SLAAN CONTROLPAD NAAR BENEDEN /
+IN DE RICHTING VAN DE VIJAND + A-KNOP
+GRIJP MUUR VAST GEBRUIK CONTROLPAD + B-KNOP OM TE
+RENNEN EN NAAR DE MUUR TE SPRINGEN,
+DAN X-KNOP
+VOORWAARTSE DUIK CONTROLPAD OMHOOG
+SUPERSPRONG, DAN HANGEN AAN PLAFOND CONTROLPAD OMLAAG +B-KNOP,
+DAN X-KNOP
+SLAAN MET KLAUWEN X-KNOP
+HOUWEN MET KLAUWEN R-KNOP
+HOUWEN NAAR BENEDEN CONTROLPAD OMLAAG, DAN X-KNOP
+KLAUW UPPERCUT CONTROLPAD OMLAAG, DAN A-KNOP
+
+Zijn dit de enige bewegingen die Wolverine® kan maken? Zeker niet! Dit zijn slechts de
+basisbewegingen! Experimenteer met deze bewegingen door ze te combineren om uit te vinden
+hoe ver je kan gaan met je vechters-repertoire!
+
+HET GEHEIME LABORATORIUM
+
+Wolverine® vertrekt na een mysterieus computerbericht naar een geheim laboratorium diep in
+de wouden van de noordwest-kant van de Rocky Mountains. Hem werd
+verteld dat in het laboratorium de geheimen van zijn verleden ontrafeld
+Zouden worden en hij zou daar de antwoorden op zijn brandende vragen
+krijgen. Terwijl hij het beveiligingssysteem omzeilt en 00g in oog staat met
+Zwaar bewapende bewakers kan hij maar beter hopen dat hij die 7
+antwoorden vindt!
+
+Jouw doel: Manoeuvreer door een gecompliceerd netwerk van hallen,
+platformen en deuren in het Weapon X™ laboratorium.
+
+De gevaren: Gewapende bewakers, electrische deuren, zwevende beveiligings-androids,
+krachtvelden, gerobotiseerde kanonnen en dodelijke gasexplosies.
+
+Strategische tip: Zet je klauwen in het plafond om gevaren te ontwijken. Zoek en vernietig de
+belangrijke stroomgenerator zodat de laserwapens worden uitgeschakeld.
+
+35
+
+===== Page 37 =====
+
+PAS OP VOOR HET NINJA TRAININGKAMP
+
+| Net buiten Tokyo vernam Wolverine® dat Lady Deathstrike™, één van zijn grootste vijanden,
+
+‘een bondgenootschap heeft gevormd met gevaarlijke Ninja strijders die in een bende genaamd
+
+» The Hand™ zitten. Wolverine® hoorde ook een gerucht dat The Hand™ een machtige en
+
+‘bloeddorstige leider heeft, maar hij heeft geen tijd om hierbij stil te staan.
+
+#t enige dat hij nu aan zijn hoofd heeft is... overleven! ano
+
+| Jouw doel: Vecht door het ninja kamp en door de cyborg fabriek a
+
+0m Lady Deathstrike” te dwingen antwoord te geven op de Re, rf fy
+
+" brandende vragen. ue an
+t De gevaren: Spijkervalkuilen, giftige blaaspijpen, pletmachines, een Siar -
+
+Jeger van ninja strijders die zowel magisch als cybernetisch zijn, ——e—
+
+nook TriFusion!
+
+Strategische tip: Met zo’n grote variéteit aan gevaren moet je snel zijn. Vecht één-tegen-
+
+én met ninja’s. Een goede timing is van levensbelang, vooral als je het opneemt tegen de
+
+gevaarlijke Lady Deathstrike™!
+
+DE HALVE WERELD OVER: TOKYO,
+
+P Wolverine® kwam erachter dat Shinobi Shaw™ geld op zijn hoofd
+_ heeft gezet, en dat de informatie die hij kreeg over zijn verleden allemaal
+hl nep blijkt te zijn. Welverine® zal zorgen dat niemand geld gaat verdienen
+i _ aan zijn dood, en dat Shaw zal boeten voor zijn smakeloze grappen. Het
+Xi maakt niet uit hoeveel high-tech soldaten Shaw en zijn strijdmakker
+Geist™ op Wolverine® afsturen, hij zal nooit opgeven. Niet als hij zo
+dichtbij is...
+» Jouw doel: Volg Shinobi Shaw™ naar The Inner Circle” om een paar antwoorden
+it hem te slaan.
+De gevaren: Gewapende soldaten, helikopters, electrische neon-uithangborden, krachtige
+mijnen, de dodelijke Geist™ en de bloeddorstige Bloodscream”.
+Startegische tip: Gebruik de neon-uithangborden om door muren te breken, versla de
+wachten, ontwijk de helikopters en gebruik elke move die je kent om je doel te bereiken.
+
+HEFTIGE HALLUCINATIES
+
+Het gevecht met Geist™ en zijn bende heeft Wolverine® uitgeput. Hij kan alleen maar aan
+Shinobi Shaw™ denken. Daarom ziet hij Cyber™ niet aankomen, die van achteren uit het niets
+komt en zijn klauwen in de rug van Wolverine® plant. Het bloed van Cyber™ zit vol gif, en door
+de wond in Wolverine®’s rug komt dat hallucinerende gif in Wolverine®.
+
+Jouw doel: Ontsnap uit de bizarre wereld van hallucinaties waarin je bent beland als
+resultaat van een verwonding van Cyber” ’s giftige klauwen!
+
+De gevaren: Koude vuren, een levende vioer van gestorven geesten,
+
+p&p giftige rivieren, Cybertrollen, gifspugende Harpijen, gestoorde stormen,
+kristallen wachters en nog veel en veel meer, inclusief de Crystal Dragon! ©
+
+Strategische tip: Blijf uit de buurt van de giftige rivieren, want deze
+Zuigen het leven uit je lichaam. Kruip onder koude vuren door of
+Spring er overheen.
+
+%
+
+ae
+
+===== Page 38 =====
+
+EINDELIJK: THE INNER CIRCLE™
+Wolverine® bereikt eindelijk The Inner Circle™, waar Shinobi Shaw ™
+hem opwacht. Dit is de ontmoeting waar Wolverine® naar heeft
+= uitgekeken. Maar net als Wolverine® hem te grazen wil nemen, viuctrt
+Shaw in het niets en verdwijnt. In plaats van Shaw moet Wolverine® het
+opnemen tegen Fugue™, een helbewoner die illusies veroorzaakt met
+ijselijke schreeuwen.
+Jouw doel: Vecht je door de doolhoven van The Inner Circle™ en zorg dat je Shinobi Shaw
+in je klauwen krijgt.
+De gevaren: Gewapende wachten, zwevende androids en de psychisch gestoorde
+vampier genaamd The Black Queen.
+Strategische tip: Zorg dat je door het geavanceerde beveiligingssysteem van The
+Inner Circle” komt, zoek de teleportstations en de verborgen schakelaars om geheime deuren
+te openen..
+
+DE MYSTERIEUZE ONDERWERELD
+
+Net als Wolverine® er in slaagt Fugue™ te verslaan, zakt de hele Inner Circle™ onder hem
+weg, zodat ze beiden in een mysterieuze onderwereld terecht komen. Weer komt hij de
+machtige ninja’s van The Hand™ tegen en eindelijk ook hun befaamde leider.
+
+Jouw doel: Zoek Fugue™, versa hem en zorg dat je levend weg komt.
+
+De gevaren: Kijk uit voor de ninja’s, wezens uit de onderwereld,
+zwavelrivieren en vallende stalactieten.
+
+Strategische tip: Gebruik alle moves die je kent, zoek alle pickups
+(want je zult ze nodig hebben) en beweeg snel om stalactieten te
+ontwijken. En wat de leider van The Hand™ betreft... sorry, daar sta je
+alleen voor.
+
+TIPS VOOR EEN MUTANT
+
+Ken je krachten: Martial Arts, atletiek en je klauwen zijn je primaire wapens. Gebruik ze!
+Zorg ervoor dat je rustig blijft en je temperament onder controle houdt. Gebruik je inteligentie
+om de antwoorden te vinden op je vragen.
+
+Werk snel: Begrijp de gevaren die er zijn en de beperkte tijd die je hebt om daar levend =|
+vanaf te komen. Blijf vooruitgaan, blijf gezond, verzamel belangrijke objecten zoals extra
+levens, laat ze liggen op eigen risico en los problemen Snel op, want als je er té lang over doet
+haalt Elsie-Dee™
+je in en zal je vernietigen.!
+
+Waar je nu heen moet zul je alleen moeten gaan. Veel geluk, Logan. |k hoop dat je
+mutanten-eigenschappen je bij zullen staan in je missie.
+
+37
+
+===== Page 39 =====
+
+WEEN LIJSTJE MET NOGAL
+DODELIJKE SUPER
+VIJANDEN
+
+THE BLACK QUEEN", beter
+bekend als Selene, is een gestoorde
+( vampier die het leven uit haar
+vijanden zuigt. Ze heeft een
+psionische controle over vuur en
+“evenloze voorwerpen, heeft een grote kennis
+op het gebied van magie en herstelt
+verbazingwekkend snel van verwondingen.
+
+BLOODSCREAM™ is een vampier
+die zich voedt aan de psychische
+energie van anderen. Zijn vingers
+
+) hebben lange scherpe punten en zijn
+~ \tanden zijn viiimscherp. Hij is snel,
+Jenig en ontzettend gevaarlijk.
+
+THE CRYSTAL DRAGON is
+ongeveer twee keer zo groot als
+| Wolverine®. Hij is gemaakt van kristal
+» en heeft de mogelijkheid vuur te
+spugen ‘en kristallen kopieén van zijn hootd af te
+vuren, Zijn levenskracht zitin een rode diamant die
+tussen zijn voorhoofd en zijn hersenen geplaatst is.
+
+oS
+is hij erg gevaarlijk voor Wolverine”!
+DESTROYER PROGRAM is een
+
+Le | computerprogramma dat zich bevindt
+
+Hf
+fh
+
+ror
+i
+
+zijn gezicht, geheel bedekt met
+Adamantium. Dit zorgt ervoor dat hij
+moeilijk te verwonden is en daardoor
+
+; in een onbekend aantal robot-
+
+uitbeidingsmodules, Het heeft de
+mogelijkheid om een geheugentlits te
+genereren bij zijn vijanden, waardoor ze hun
+vreselijkste momenten van lichamelijke pijn en
+mentale verwarring opnieuw beleven.
+
+ELSIE DEE™ mag er dan wel uit
+zien als een klein meisje, maar ze is
+
+‘|_23 & een dodelijke combinatie aan
+electronica en explosieven specifiek
+ontworpen om Wolverine® te vernietigen!
+
+CYBER™ eis, met uitzondering van
+
++ eigenlijk een android; een android met
+
+y a FUGUE™ is een lid van The Inner
+§ . 4 Circle”. Ze heeft verborgen krachten
+
+& die zelfs Wolverine® met zijn
+
+{ mutantenkracht te veel zijn.
+
+Ze kan geluidsgolven voortbrengen die resoneren
+in het menselijk brein zodat ze hallucinaties,
+waanzin, krankzinnigheid en zelf de dood
+kunnen veroorzaken.
+
+r GEIST” is een geflipte
+‘™ wetenschapper zonder enige vorm van
+AD \ geweten. Als cyborg is zijn enige
+ee Pee levensdoel om te experimenteren,
+zonder na te denken over de gevolgen
+van zijn experimenten. Samen met zijn leger van
+robots ziet Geist’ Wolverine® als zijn nieuwste
+
+experiment - een experiment dat een zekere dood
+zal betekenen voor de mutant.
+
+Te LADY DEATHSTRIKE™ is een
+
+psychologisch onstabiele cyborg die
+
+van de samurai techniek Kenjutsu
+
+~ gebruik maakt. Net als Wolverine® zijn
+haar botten bedekt met Adamantium
+
+en heeft ze Adamantium klauwen van wel een
+
+halve meter lang op de plaats waar anderen
+
+vingers hebben.
+w
+
+A m de unieke mogelijkheid om delen van
+
+of ? of zelfs zijn gehele lichaam immaterieel
+‘ en daardoor ontkwetsbaar te maken!
+
+Hij kan iemand slaan terwij! hij
+immaterieel is, en dan weer normaal worden terwijl
+zijn vuist in het lichaam van de tegenstander zit!
+Ook kan hij door muren en vioeren gaan als hij
+immateriee! is.
+
+SHINOBI SHAW” is een mutant met
+
+TRIFUSION is een combinatie van
+drie ninja-moordenaars: Marble,
+>, Shiken en Shard. Hij heeft de macht om
+4 zich te veranderen in een combinatie
+van deze drie ninja’s.
+
+Password Karakters
+
+Er zijn acht (8) X-Men™ die gebruikt kunnen worden om
+passwords samen te stellen, Deze zijn:
+
+Fagen’
+
+S| ee ae) BF
+
+BISHOP” COLDSSIE- CYCLOPS™
+
+usd WBS) IS
+
+NIGHT-__ PROFESSOR X" PSYLOCKE™”
+CRAWLER™
+
+STORM™
+
+===== Page 40 =====
+
+DISTRIBUTED BY ACCLAIM ENTERTAINMENT LTD.
+Moreau House, 112-120 Brompton Rd., Knightsbridge, London SW3 1Ju, England
+
+DISTRIBUTED BY ACCLAIM ENTERTAINMENT, GmbH. Mohlstrasse 10, 81675 Miinchen, Deutschland
+DISTRIBUE PAR ACCLAIM ENTERTAINMENT SA, 12/14 Rond Point des Champs Elysees, 75008 Paris, France
+
+DISTRIBUTED BY: Metro Games, PO Box 255, No. Melboure, VC 3051, Australia
+
+DISTRIBIDO POR BUENA VISTA HOME VIDEO, SA, Edificio Gorbea, 3 c/Jose Bardasano Baos, 9-Planta 11, Madrid, 28016 Espafia
+PRINTED IN JAPAN IMPRIME AU JAPON ~~~

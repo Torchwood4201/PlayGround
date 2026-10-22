@@ -1,0 +1,1804 @@
+# Pro Sport Hockey
+source: https://archive.org/details/snes_manual_archive
+pdf: Pro Sport Hockey (USA).pdf
+region: USA
+pages: 41
+text_method: ocr
+ocr_language: eng
+ocr_dpi: 150
+note: OCR text is machine-derived; verify controls against the original scan.
+
+===== Page 1 =====
+
+SNS-UI-USA
+
+€ JALECO.
+
+'NHLPA' INSTRUCTION BOOKLET
+
+Licensed by
+the NHLPA
+
+===== Page 2 =====
+
+WARNING: PLEASE READ THE ENCLOSED CONSUMER
+INFORMATION AND PRECAUTIONS BOOKLET CAREFULLY BEFORE
+USING YOUR NINTENDO*® HARDWARE SYSTEM OR GAME PAK.
+
+TABLE OF CONTENTS
+
+INTRODUCTION
+
+GETTING STARTED... wd
+MENUS ..... 3
+PRACTICE AND SEASON iad
+SETUP ..... ico
+OPTIONS... oi
+TEAM SELECT. a |
+SEASON MENU .. =)
+MATCH ANNOUNCEMENT ... mlz
+LINE EDIT....... 13
+LINE SELECT... 16
+PLAYING PRO SPORT HOCKEY... 20
+Active Players and Pass Receivers...
+MOVING. ......ssesssssssseee .20
+Offensive Controls .. .20
+Defensive Controls. 22
+Pausing the Game .. 23
+
+FATIGUE INFORMATION...
+PENALTY INFORMATION
+MESSAGES...
+SHOOTINGS...
+PENALTIES
+
+PENALTY SHOTS.. 229
+
+OTHER FOULS..... . 30
+
+TEAM ROSTERS... 31
+BOSTON cack Sesesleasbesd)ssaces gestessioteehSasaets 31
+LICENSED BY
+
+Buffalo
+
+Calgary..... 31
+Chicago 31
+Detroit..... 32
+Edmonton. 32
+Hartford... 32
+Los Angeles... 32
+Minnesota 33
+Montreal... 33
+New Jersey 33
+New York 1... 33
+New York 2... 34
+Ottawa..... 34
+Philadelphia .. 34
+Pittsburgh 34
+Quebec... 35
+San Jose... 35
+St. Louis... 35
+Tompa Bay 35
+Toronto... 36
+Vancouver
+
+Washington...
+Winnipeg..
+GAME TIPS...........
+LIMITED WARRANTY
+
+THIS OFFICIAL SEAL IS YOUR
+
+ASSURANCE THAT NINTENDO HAS
+
+APPROVED THE QUALITY OF THIS
+
+NINTENDO, SUPER NINTENDO
+ENTERTAINMENT SYSTEM
+
+AND THE OFFICIAL SEALS ARE
+REGISTERED TRADEMARKS OF
+NINTENDO OF AMERICA INC.
+©1991 NINTENDO OF AMERICA INC.
+
+PRODUCT. ALWAYS LOOK FOR THIS
+SEAL WHEN BUYING GAMES AND
+ACCESSORIES TO ENSURE
+COMPLETE COMPATIBILITY WITH
+YOUR SUPER NINTENDO
+ENTERTAINMENT SYSTEM.
+
+ALL NINTENDO PRODUCTS
+
+ARE LICENSED BY SALE FOR USE
+ONLY WITH OTHER AUTHORIZED
+PRODUCTS BEARING THE OFFICIAL
+NINTENDO SEAL OF QUALITY.
+
+© 1993 JALECO USA, INC.
+JALECO AND PRO SPORT
+
+HOCKEY ARE TRADEMARKS OF
+JALECO USA, INC. NHLPA
+LICENSED FROM THE NATIONAL
+HOCKEY LEAGUE PLAYERS
+ASSOCIATION. USED WITH
+PERMISSION
+
+===== Page 3 =====
+
+INTRODUCTION
+
+Ice hockey — the fastest and roughest team sport ever played.
+
+The NHLPA — the most talented and powerful collection of hockey
+stars in the world.
+
+Doing justice to these two forces is no easy task, but Jaleco’s Pro
+Sport Hockey will amaze you with its realism.
+
+First you'll notice the size and speed of the characters. Big,
+powerful athletes shown in so much detail that you can see every
+wrinkle on their jerseys. Fast, skillful skaters who move so swiftly
+across the screen you might have trouble following them. Players
+who mimic their NHLPA counterparts so closely it’s scary. Every
+nuance of a real hockey player’s skill is here. Some have
+thunderous, air-borne slap shots from behind the blue line. Some
+have devastating wrist shots from within the crease. Some can
+skate the length of the rink like lightning, and some can turn at high
+speeds on a dime. And a few can send even the biggest opponents
+crashing into the boards with a well-placed shoulder check. You'll
+recognize the names and skills of all your favorite players here —
+over 600 athletes are built into this game!
+
+And most importantly, Pro Sport Hockey is designed for you, the
+player. With an options menu of 10 adjustable features, you can
+customize the game fo your tastes. All the real rules and calls are
+here, but if you're just out to knock around some rubber, you can
+turn off icing or any other calls that get in your way. If you're a fan
+of the stats, you can play an entire 82-week season, tracking all
+your favorite teams and players as you go. Want to know how
+many goals a star player has scored after 40 games? All you have
+to do is check.
+
+So go ahead. Plunge right in and start carving up the ice. Play fast
+and play tough. You’re working with the NHLPA, the best.
+
+Do them justice.
+
+===== Page 4 =====
+
+GETTING STARTED
+
+1) Place the Pro Sport Hockey game pak into your Super Nintendo
+Entertainment System and turn on the unit. After some introductory
+
+graphics, the title screen appears.
+2) Press START.
+
+CONTROLLER LAYOUT
+L R
+Button Button
+
+Select Start Y B
+Button Button Button Button
+
+===== Page 5 =====
+
+MENUS
+
+As the most complete hockey game ever created, Pro Sport
+Hockey has plenty of ie Those mean plenty of menus, so
+just check this section if you get confused.
+
+Exhibition
+Practice ———
+ae Os, Shootout
+Title screen
+
+a COM vs. COM
+
+Regular season
+
+—— Super cup
+
+Season
+
+USING THE MENUS
+
+In general, pressing A will select an item from a menu. Pressing B
+will cancel the selection, or take you back to a preceding menu.
+
+PRACTICE AND SEASON
+
+Choose Practice if you want to play just one game or to have a
+shootout. Choose Season if you want to play or manage a
+complete, 82-week season. Press LEFT or RIGHT on the control
+pad to highlight your selection, then press the A button to
+confirm it.
+
+===== Page 6 =====
+
+SETUP
+
+The Setup screen allows you to choose how many people will play
+the game. Press UP or DOWN on the control pad to highlight the
+kind of game you want to play. Press A to make your choice.
+Depending on what mode you selected, some of these choices will
+appear:
+
+1P VS COM
+
+One player competes against the computer.
+
+1P VS 2P
+Two players compete against each other. (Available only in
+exhibition mode and shootout mode.)
+
+1P AND 2P VS COM
+Two players on the same team compete against the computer.
+(Available only in exhibition mode.)
+
+COM VS COM
+
+Two computer-controlled teams compete against each other —
+choose this if you want to study the strategy of a particular team.
+(Available only in com vs com mode.)
+
+OPTIONS
+The options menu appears. See Options, below.
+
+RECORD
+
+The Record screen contains information about a complete season
+after a team has won the Super Cup. You cannot select the
+Record screen until after you win a Super Cup.
+
+===== Page 7 =====
+
+OPTIONS
+
+If you call up the options menu,
+you will be able to customize
+your game. You can adjust any
+of the options by pressing UP or
+DOWN on the control pad to
+highlight the option with the
+hockey stick. Then press LEFT or
+RIGHT on the control pad to
+adjust the option by highlighting
+your choice in yellow.
+
+PERIOD TIME
+
+How many minutes are in a period? A hockey game contains
+three periods. Real hockey periods are twenty minutes long. The
+regular setting in Pro Sport Hockey is 5 minutes.
+
+MUSIC
+
+Determines whether or not there is background music during play.
+Sound effects are still audible if the music is turned off. The
+regular setting is ON.
+
+STEREO
+
+Determines whether the music will be stereo or mono. If your TV
+has stereo speakers, select STEREO. The regular setting is
+STEREO.
+
+PENALTY
+
+Will the ref see it when players commit penalties? If you choose
+ON, he will call penalties and sentence players to time in the box.
+The regular setting is ON.
+
+FATIGUE
+
+Will your players stay fresh for a whole game (fatigue is OFF), or
+will they get tired if they play really hard (fatigue is ON)? The
+regular setting is ON.
+
+===== Page 8 =====
+
+OFFSIDES
+
+Will the ref see it when a player is offsides? To learn more about
+offsides, check the section on Other Fouls in the back of this
+manual. The regular setting is ON.
+
+ICING
+
+Will the ref call icing? To learn more about icing, check the section
+on Other Fouls in the back of this manual. The regular setting is ON.
+
+GK AUTO
+
+If you select ON, then the computer will control your goalie. If
+you select OFF, you can control your own goalie during play.
+Warning! Controlling your own goalie is very challenging. The
+regular setting is ON.
+
+HOME LUCK
+
+If you choose ON, then you will have slightly better luck when you
+play in a home stadium, where you have a friendly crowd. Your
+goalie will block more shots, and the enemy goalie will block
+fewer. Of course if you play in an away stadium, luck will turn
+against you. If you turn this option OFF, your luck will be the
+same whether you are playing at home or away.
+
+TIE GAME
+
+How should the computer decide tie games?
+
+If you choose OVERTIME and your game finishes in a tie, then a
+fourth period will begin. This fourth period is “sudden death,”
+that is, the first player to score a point wins.
+
+If you choose SHOOTOUT and your game finishes in a tie, then
+the winner will be determined by a shootout.
+
+Note: During the regular season, tie games are simply recorded as
+ties — no one wins so there is no overtime or shootout.
+
+EXIT
+
+When you are finished adjusting your options, press START or
+highlight the word EXIT and press A. You will return to the Setup
+menu.
+
+6
+
+===== Page 9 =====
+
+TEAM SELECT
+
+(Note: Team Select screens are
+not available in shootout mode.)
+
+The team select screen consists
+of a grid showing the team
+logos for 24 different teams.
+You can highlight a team by
+using the control pad to move
+the flashing yellow box on top
+of the team logo. When you
+highlight a team, the team’s logo will appear on the top of the
+screen, next to a series of red bars. The red bars show how
+strong the team is in five different categories. The more red bars
+there are, the more skillful the team is. Just glance at the red bars
+on both sides of the screen to see how your team stacks up to an
+opponent. The categories are:
+
+SHT
+The skillfulness of the team’s shooting. A team with many red
+bars in the shooting category will have fast, accurate shooters.
+
+POW
+The size, weight, and power of the team. A team with good
+power will inflict awesome checks without falling down.
+
+alc
+The quickness of the team. A high quickness rating means many
+players who can skate fast and execute sharp turns.
+
+DEF
+The team’s ability on defense. A team with many red bars on
+defense will be able to stop many shots and intercept passes easily.
+
+GOL
+
+The goalie. The lifeblood of a team, a great goalie can block
+dozens of shots while a poor one can drag even the best team to
+defeat. 7
+
+===== Page 10 =====
+
+After highlighting a team, press A to select it. (If you are playing
+a 1P vs COM exhibition game, you can choose the computer's
+team as well.)
+
+Changing Teams during a Regular Season
+
+The first time you play a regular season game, you will select your
+team from a Team Select screen. After you play one game, the
+battery will automatically preserve all the information about your
+team. Every time you choose Season, 1P vs COM, the game will
+automatically use your saved team.
+
+If you want to change teams, just go to the Schedule screen and
+use the Reset feature (described under Schedule). Warning! If
+you reset the season, all data from your old season will be
+destroyed.
+
+===== Page 11 =====
+
+SEASON MENU (for regular season games only)
+
+If you are playing a regular season game, after you select your
+team the Season menu will appear. The Season menu calls up
+several screens of information about how your team and other
+teams are performing during the season. Use the control pad to
+highlight the screen you want, then press A. When you are
+finished looking at the data on one of the other screens, press B to
+return to the Season menu.
+
+GAME START
+
+Use this when you're ready to play your next game on the schedule.
+
+STANDINGS
+
+Shows information about each
+of the four divisions. Press UP
+or DOWN on the control pad to
+see a different division. The
+teams in each division are listed
+with the best record on top and
+the worst record on bottom.
+
+The screen lists the three letter
+abbreviation for each team in
+that league, along with the total number of wins (W), losses (L),
+ties (T), and goals scored (GF) by each team during the season.
+Press B to return to the Season menu.
+
+RANKINGS
+
+Shows information about all 24 teams in the league. Press UP or
+DOWN on the control pad to see the entire list. The teams are
+listed in order of their rank (the first place team is listed first, the
+second place team is listed second, and so on). The screen lists
+the three letter abbreviation of each team along with its rank, total
+number of wins, the total number of goals it scored (GF) and the
+total number of goals that have been scored against it (GA).
+
+SEASON
+SMILE DIVISION
+
+GF
+
+10
+
+mn a olgir
+hf
+
+i)
+4]
+0
+0
+8
+0
+
+Ocul Whe
+oO FM & é
+
+===== Page 12 =====
+
+For example, the line:
+
+Rank Team W GF GA
+9 MTL 16 57 50
+
+means that Montreal is in 9th
+place. Montreal has won 16
+games and scored 57 goals.
+50 goals have been scored
+against Montreal by opponents.
+
+(Note: Since this screen ranks all 24 teams over the whole season,
+it won't make a lot of sense during the first few games. Just like in
+real hockey, you won't be able to tell which teams are the best after
+just one or two weeks. But over the course of many games, the best
+teams will rise to the top.) Press B to return to the Season menu.
+
+SEASON SCHEDULE SCHEDULE
+
+sare etiam Gives the complete schedule for
+an 82-week season. Only four
+weeks fit on one screen, so
+press UP or DOWN on the
+control pad to scroll through the
+whole season. Each section lists
+all of the matches that take
+place during one week. You
+can check the schedule to see
+who your team is playing next, or when your team is playing a
+particular opponent. Your team’s next game flashes on and off.
+
+(Note: The information on the Rankings, Standings, and Leaders
+screens comes from all the games up to and including the last
+game your team played. For example, if your last game was in
+week 4, but your next game is in week 6, the computer will use
+only information from games in the first four weeks when it is
+deciding the rankings for teams and the top players.)
+
+Press B to return to the Season menu.
+
+10
+
+===== Page 13 =====
+
+RESET
+
+The 82-week season is long,
+and you may change your mind
+about what team to play after
+you begin. Pro Sport Hockey
+includes a “Reset” feature that
+will let you start the whole season
+fresh, with any team you like.
+
+If you want to reset the season,
+just press the X button while you are on the Schedule screen.
+
+Then select YES with the control pad, and press A. A second box
+will appear, asking you to confirm your decision. If you are sure
+you want to reset the season, select YES again and press A. (Of
+course, if you don’t want to reset the season, you should select NO.)
+Now you will be able to start week 1 with any team.
+
+Warning! If you reset the season, all data from your old season
+will be destroyed.
+
+LEADERS A LL EGE LD
+Lists the top ten scorers in the ACE RANKING season none
+. . . SILLINGER MIKE DET
+entire league. This screen gives ey oe =
+the ranking, name, team ee ge te ne
+ze NICHOLLS BERN N.
+abbreviation, and number of eee ae ee cs
+goals scored for the top ten a uEeen eee soe
+; souske PETER =sH
+scoring players in the league. If [iuewemmmenmar car
+
+FEDOROV SERGEI BET
+
+two players scored the same
+number of goals, they will have
+the same ranking. Press B to
+return to the Season menu.
+
+2
+2
+
+S MODANG MIKE MIN
+
+(Note: The Leaders screen may take several seconds to load as the
+computer examines all the players in the league.)
+
+START OVER
+Press A on this option if you don’t want to play a season game.
+The title screen will reappear.
+
+===== Page 14 =====
+
+MATCH ANNOUNCEMENT
+
+After you finish selecting your
+teams (or after you finish the
+Season screen in Regular
+
+HOHE || A Season mode), you will come to
+
+REGULOR s
+
+the match announcement
+screen. This screen displays
+the team names, the red power
+bars for each team, and lists
+which team is playing at home
+and which team is playing
+away. At the bottom of the screen are two options, SETUP and
+GAME START. SETUP allows you to customize your team by
+calling up the LINE EDIT screen. GAME START goes directly to
+choosing your starting lines by calling up the LINE SELECT screen.
+Press RIGHT or LEFT on the control pad to highlight either option.
+
+12
+
+===== Page 15 =====
+
+LINE EDIT
+
+BNW ayQUS
+TATA
+QAI)
+VATIONS
+
+-
+Ey
+2
+=
+2
+3
+4
+
+BRING ONE,
+& LARNER
+
+A hockey team is divided into several groups of players called
+lines. Only one line is on the ice ata time. The basic lines are:
+
+Scoring |
+The combination of players that scores the most points.
+
+Scoring 2
+
+A different combination of players who score points well.
+
+Checking
+
+A defensive combination of players who check well.
+
+Power Play 1
+
+The combination of players that works best during a power play.
+(Note: A Power Play occurs when you outnumber the other team
+on the ice because they have more players in the penalty box
+than you do.)
+
+Power Play 2
+Another combination of players that works well during a power play.
+
+The LINE EDIT screen gives all the information about all of the
+lines for a particular team. Press UP and DOWN on the
+directional pad to scroll through all the players on all your
+different lines. Press LEFT and RIGHT on the control pad to see all
+
+13
+
+===== Page 16 =====
+
+of the information about a particular player. The information you
+see as you look from left to right over a player is that player's:
+
+Position
+The player's position in this line.
+RW is the abbreviation for right wing
+LW is left wing RD is right defenseman
+
+C is center LD is left defenseman
+
+Number
+The player’s number.
+
+Name
+The player’s name.
+
+Skill Ratings
+
+The skills of all your players except goalies are rated in four
+categories: shot, power, quickness, and defense. Each category
+has a number from 1 to 9. A 1 is very poor, and a 9 is excellent.
+
+Shot (S) The speed and accuracy of a player's
+shooting.
+
+Power (P) The size and power of a player — his ability
+to check opponents and take hits without
+falling down.
+
+Quickness (Q) The speed of a player's skating and his
+ability to execute quick turns.
+
+Defense (D) The player’s ability to block shots and
+intercept passes.
+
+Goals The total number of goals the player has
+scored this season. (This number appears in
+season mode only.)
+
+Assists The total number of assists the player has
+made this season. (This number appears in
+
+i season mode only.)
+
+===== Page 17 =====
+
+Percentage (PCT) The percentage of a player’s shots that have
+resulted in goals. For example, a player with
+a PCT of .050 scores on 5% of his shots, that
+is, scores 1 goal for about every 20 shots he
+makes. (This number appears in season
+mode only.)
+
+Penalties (PNM) The total amount of time a player has been
+penalized in one season. (This number
+appears in season mode only.)
+
+Changing Your Lines on the Line Edit Screen
+
+Every team in Pro Sport Hockey is already divided into five lines
+approved by the NHLPA. But you might want to change these
+lines — for example, put a player who is in Scoring 1 into your
+Scoring 2 line as well. The LINE EDIT screen is the place to do it.
+
+To change the lines of a hockey team, scroll down to the player
+you want to change by pressing DOWN on the control pad.
+When you highlight the player you want to change, press A. All
+the other players who might replace this player appear at the top
+of the screen. Highlight the one you want to put into the line, and
+press A again. The new player will appear in the line in place of
+the old one.
+
+For example, if you are playing the St. Louis team, and you don’t
+want Rich Sutter to play right wing on your checking line, just
+scroll down to the checking line, highlight Rich Sutter, and press
+A. At the top of the screen you will see a list of all the wings who
+might be able to replace Rich Sutter. Highlight the one you want
+(say, Kelly Chase, for instance) and press A. Kelly Chase will
+appear as the right wing in the checking line.
+
+When you are finished revising your lines, press START. The LINE
+SELECT screen will appear.
+
+15
+
+===== Page 18 =====
+
+LINE SELECT
+
+The LINE SELECT screen looks similar to the LINE EDIT screen,
+but don’t confuse them — they're not the same. The LINE
+SELECT screen allows you to look at all kinds of information
+about your team as a whole and about your goalies. Then you
+can select your starting line, select you goalie, choose your
+offensive formation, and choose your defensive formation.
+
+Looking at Team Information:
+Press UP, DOWN, LEFT, and RIGHT on the control pad to see all
+of the information about your team.
+
+TEAM NAME
+
+Player Positions and Numbers in Selected Line (When this screen
+first appears, the selected line will always be Scoring 1.) The
+items followed by an asterisk (*) are for Regular Season Mode
+only. In an exhibition game, they will all be set to zero.
+
+Team Percentage (PCT)*
+The percentage of the team’s shots which resulted in goals (Total
+number of goals divided by total number of shots). Ifa team has
+
+made 100 shots and scored 10 goals, it will have a percentage
+of .010.
+
+Goals Fielded (GF)*
+
+The number of goals the team has scored.
+16
+
+===== Page 19 =====
+
+Power Plays Fielded (PPF)*
+
+The number of goals the team has scored during a power play.
+
+Goals Allowed (GA)*
+
+The number of goals that have been scored against the team.
+
+Power Plays Allowed (PPA)*
+The number of goals that have been scored against the team
+during power plays.
+
+Points (PNT)*
+
+The difference between the number of goals the team has scored
+and the number of goals that have been scored against it, not
+counting goals scored during power plays. For example, if the
+team scored 6 goals (1 on a power play) and had three goals
+scored against it (2 on power plays), then the PNT would be +4
+
+because [(6-1)-(3-2)] = 4.
+
+Games Played (GP)*
+The total number of games played by the team.
+
+Wins (W)*
+
+The total number of games the team has won.
+
+Losses (L)*
+The total number of games the team has lost.
+
+Home Wins (HW)*
+
+The number of games the team has won at home.
+
+Away Wins (AW)*
+
+The number of games the team has won away.
+
+Ties (T)*
+The total number of games that ended in a tie for the team.
+
+Minor Penalties (MNP)*
+The total number of minor penalties the team has incurred.
+
+Major Penalties (MJP)*
+
+The total number of major penalties the team has incurred.
+
+17
+
+===== Page 20 =====
+
+Misconduct Penalties (MCP)*
+
+The total number of misconduct penalties the team has incurred.
+
+If a player earns two major penalties in one game, that constitutes
+a misconduct penalty.
+
+Offense Type
+
+The type of offensive formation the team is using. (See “Selecting
+an Offense Type.”)
+
+Defense Type
+The type of defensive formation the team is using. (See “Selecting
+a Defense Type.”)
+
+SELECTING YOUR LINES
+
+The LINE SELECT screen also lists the five lines that make up your
+team. To select your team’s line, highlight the line you want by
+pressing UP or DOWN on the control pad. Then press A. The
+numbers of the players you selected will appear in the upper left
+hand corner of the screen along with their positions.
+
+SELECTING YOUR GOALIE
+
+Press DOWN on the control pad to scroll to the bottom of the
+screen. You will see your team’s goalies. Goalies are not part of
+any line, and they have different statistics from the other players.
+Goalies statistics, like the other players’ statistics, are rated from
+1 (poor) to 9 (excellent). These statistics are:
+
+Reaction (R)
+How quickly the goalie responds to an approaching shot.
+
+Mobility (M)
+How quickly the goalie can move from one side of the goal to the
+other.
+
+Stick (S)
+The goalie’s stick-handling ability. If he is good at stopping a
+puck with his stick, this figure will be high.
+
+18
+
+===== Page 21 =====
+
+Glove (G)
+The goalie’s ability to catch a flying puck.
+
+To select a goalkeeper, highlight the goalie you want and press A.
+The number of the goalkeeper you selected will appear in the
+upper left hand corner of the screen next to the letters GK.
+
+SELECTING AN OFFENSE TYPE
+
+In offense type A, both of the In offense type B, the center
+wings move in front to scoring moves in front and the wings
+
+positions,and the center stays _stay back to pass or try a
+back. long shot.
+OFFENSE TYPE A OFFENSE TYPE B
+Opponent’s Goal Opponent’s Goal
+LW RW c
+Cc LW RW
+LD RD LD RD
+
+To select an offensive formation, press the L button on the top of
+your controller.
+
+SELECTING A DEFENSE TYPE
+
+In defense type A, the players attempt to steal the puck when the
+opponents pass. In defense type B, the players attempt to check
+the opponents fo steal the puck. A is a careful defense, but B is a
+more aggressive, hard-hitting defense.
+
+To select a defensive formation, press the R button on the top of
+your controller.
+
+EXITING THE LINE SELECT SCREEN
+When you are ready to begin the game, press START.
+
+19
+
+===== Page 22 =====
+
+PLAYING PRO SPORT HOCKEY
+
+ACTIVE PLAYERS AND PASS RECEIVERS
+
+In Pro Sport Hockey, the player you are controlling has an arrow
+over his head with letters in it. The arrow shows which direction
+he is heading (i.e., it points up if he is shooting toward the top
+goal), and the letters tell his position. (L is for left wing, R is for
+right wing, C is for Center, LD is for Left Defenseman, and RD is
+for Right Defenseman).
+
+When you are on defense (do not have the puck), you can choose
+which player is active. To change your active player, press the R
+button on top of your controller until the arrow appears over the
+player you want.
+
+When you are on offense, the player controlling the puck is
+automatically the active player. Another arrow appears over
+the pass receiver. This is the player you will pass to if you press
+the Y button. To change your pass receiver, press the R button
+on top of your controller until the arrow appears over the player
+you want.
+
+MOVING
+
+Press the Control Pad in the direction you want to move (including
+diagonals), and your active player will move in that direction.
+Since hockey players wear ice skates, it’s difficult to turn or stop
+after building up a burst of speed — you'll learn to anticipate
+your turns and stops in advance so that you can control your
+players smoothly.
+
+OFFENSIVE CONTROLS
+
+Passing
+
+Press button Y to pass the puck from one of your players to
+another. The pass will automatically move toward the selected
+
+20
+
+===== Page 23 =====
+
+pass receiver (see Active Players and Pass Receivers above). You
+should pass only when your receiver is clear — otherwise your
+opponent will have a good chance of intercepting the pass.
+
+It is also possible to pass using A (the airborne button), but these
+passes are risky. To make an airborne pass, press toward any of
+your players (it does not have to be the pass receiver), and press
+A. The longer you hold down A, the higher the pass will fly. IF
+you make an airborne pass, however, there’s always a chance
+that your puck will fly clear over the receiver's head.
+
+Shooting
+Wrist shot: If you just tap button B, you will make a wrist shot —
+
+quick and sneaky, but weak. Your shot will head toward the
+opponent's goal automatically. Pressing LEFT or RIGHT on the
+control pad as you release the button will aim the puck slightly to
+the left or right.
+
+Slap shot: If you hold down
+button B, your player will pull
+back his stick to make a slap
+shot. The longer you hold it
+down (up to about two
+seconds), the stronger the shot
+will be. Your shot will head
+toward the opponent's goal
+automatically. Pressing LEFT or
+RIGHT on the control pad as
+you release the button will aim the puck slightly to the left or right.
+Slap shots are somewhat risky, however, because the shooting
+player is an easy target for opponent's defensemen while he’s
+pulling back his stick to get ready for the shot. (Also, slap shots
+have been known to knock out teammates who are in the way by
+hitting them in the head...)
+
+Airborne shot: To make an airborne shot, point toward the goal,
+and press button A. The longer you hold down A (up to about
+
+21
+
+===== Page 24 =====
+
+two seconds), the higher your
+shot will go. If you hold down
+A too long, your shot will fly
+
+_ Clear over the opponent's goal.
+Since airborne shots do not aim
+towards the goal automatically
+~ they require a lot of practice.
+
+DEFENSIVE CONTROLS
+
+Intercepting a Pass
+
+To intercept an opponent's pass, just move your active player into
+the path of the puck. If your player is in the right position, he will
+automatically grab hold of the puck.
+
+Checking
+
+Pro Sport Hockey features a full array of checks and charges. On
+defense, the Y button, the B button, and the A button all check.
+Checks with the Y button are the most powerful and the most likely
+to incur a penalty. Checks with the B button are swifter, and
+checks with the A button are the quickest, but the least powerful.
+The kind of check depends on the direction your player is moving,
+and which button you press. Here is a complete list of the checks
+available in Pro Sport Hockey. For descriptions of these moves,
+look under “penalties.”
+
+Quick Charge
+Press the A button while you are travelling in any direction into
+another player.
+
+Powerful Charge
+Press the B button while you are moving straight up or straight
+down into another player.
+
+22
+
+===== Page 25 =====
+
+Hooking
+Press the B button while you are moving straight right or straight
+left towards another player.
+
+Tripping
+Press the B button while you are moving on a diagonal in any
+direction towards another player.
+
+Cross Checking
+Press the Y button while you are moving straight up or straight
+down towards another player.
+
+Elbowing
+Press the Y button while you are moving on a diagonal down —
+either right and down or left and down into another player.
+
+Manval Goalie
+
+If you selected the OFF option for “GK AUTO,” you will have to
+control your own goalie. Whenever you press the directional
+pad, your goalie moves the same direction as the active player.
+When an opposing player shoots, move quickly to get into
+position so you can block the shot.
+
+PAUSING THE GAME
+
+Press the START button to pause the game during play.
+
+While the game is paused, you can adjust the view of the playing
+screen to include more information during play.
+
+Press the START button again to return to the game.
+
+23
+
+===== Page 26 =====
+
+FATIGUE INFORMATION
+
+Press the A button once during
+pause to call up Fatigue
+Information. The bottom
+portion of your screen will show
+the following information:
+
+The Score
+The Clock
+
+In the center of the Fatigue
+Information screen, the clock
+displays the amount of time remaining in this period.
+
+The Period
+One of the three dots above the clock show which period you are in.
+
+The Abbreviations for the Players of Both Teams
+For example, LW stands for left wing. The color of the letters
+shows how tired a player is. If the color is:
+
+Blue —Player is fresh
+Green — Player is okay
+
+Yellow — Player is tired
+Red —Player is exhausted
+
+If you press START while the Fatigue Information screen is visible,
+the Fatigue Information will remain on the bottom of the screen
+during play.
+
+24
+
+===== Page 27 =====
+
+PENALTY INFORMATION
+
+Press the A button a second
+
+time to call up Penalty ane
+Information. Like Fatigue K =! =
+
+Information, Penalty Information =
+displays the score, the clock, —
+
+and the period. But penalty =p yp
+
+information also shows which of :<
+
+your players are in the penalty s
+
+box (the abbreviation for their fs:e2]e]2[oi sa] “olz:23]
+positions appears), and how much longer they have to stay in the
+box (a time appears next to the position).
+
+If you press START while the Penalty Information screen is visible,
+the Penalty Information will remain on the bottom of the screen
+
+during play.
+Press the A button a third time to restore the screen to its normal
+view.
+
+Press START to resume play.
+
+25
+
+===== Page 28 =====
+
+MESSAGES DURING GAME PLAY
+
+PERIOD OVER SCREEN
+The Period Over screen
+
+= appears at the end of each
+period. It contains information
+about how each team has
+performed so far (the
+information consists of totals
+from all the preceding periods).
+
+Attack Zone
+
+The amount of time that a team controlled the puck beyond the
+opponent's blue line.
+
+Penalties
+The total amount of time that a team’s players spent in the
+
+penalty box.
+
+.., GAME OVER SCREEN
+
+This screen announces the
+B following information after a
+match:
+
+& The winner
+
+Mi The final score (large numbers
+on the bottom corners)
+
+Score for each period
+
+26
+
+===== Page 29 =====
+
+SHOOTOUTS
+
+During a shootout, both teams take turns shooting against the
+other team’s goalie. The team that scores the most goals out of
+five wins the shootout. If the shootout is a tie, then it goes into
+“sudden death.” In sudden death, both teams take turns shooting
+until one team misses a shot and the other team makes it, winning
+the shootout.
+
+During a shootout, your player moves forward automatically. You
+can press only LEFT and RIGHT to steer your player, press B to
+shoot, and press LEFT or RIGHT to guide your shot.
+
+In a shootout, you always control your own goalie. When you
+are defending during a shootout, maneuver your goalie forward,
+backward, left and right in the box in order to block the shot.
+
+27
+
+===== Page 30 =====
+
+PENALTIES
+
+The different kinds of penalties
+in Pro Sport Hockey are:
+
+a re
+
+Slamming an opponent.
+
+ara
+
+« Hooking
+: Catching an opponent's upper
+
+— body with his stick.
+KNEE ING
+
+Tripping
+Tripping an opponent with your stick.
+
+Cross Checking
+Holding your stick in front of you and charging an opponent.
+
+Elbowing
+Striking an opponent's face with
+= your elbow.
+
+If the referee sees you commit
+any penalty, he will call it and
+assign you time in the box. The
+referee will decide whether your
+penalty was a major penalty or
+a minor penalty. The time your player spends in the penalty box
+depends on how long a period you selected:
+
+Period length: 20 10 5 2
+Major penalties: 5:00 2:30 1:15 0:30
+Minor penalties: 2:00 1:00 0:30 0:12
+
+28
+
+===== Page 31 =====
+
+When a player is in the penalty box, you cannot replace him. If a
+player gets two major penalties in one game, the referee will eject
+him. You can replace the ejected player, but the replacement will
+have to wait until the time of the second penalty expires before
+coming into the game.
+
+While your team has a player in the penalty box, the other team
+is engaging in a Power Play (it means they have you
+outnumbered). As soon as the team with a power play scores a
+goal, all your players in the penalty box will be allowed back
+onto the ice.
+
+PENALTY SHOTS
+
+If a defensive player commits a penalty while the offensive player
+is in the crease, the offensive player is awarded a penalty shot.
+The control of penalty shots works like shootouts. Press the control
+pad RIGHT and LEFT to guide your player, and press B to shoot.
+
+29
+
+===== Page 32 =====
+
+OTHER FOULS
+
+There are two fouls in Pro Sport Hockey that do not merit
+penalties: Icing and Offsides. After a foul, the referee sets up a
+face off nearby.
+
+THIS IS AN ICING CALL
+
+MN ey, AX —Opponent'’s Goal Line
+—Opponent’s Blue Line
+x >
+AK x 9 X,
+° fe \—~_L
+{e} 7 Center Line
+k © 0 Your
+() o(*) Defensive
+a Zone
+CI
+= Puck Your Goal
+
+O= Offensive Player
+
+X= Defensive Player
+Icing
+A player commits icing when he shoots the puck, the puck crosses
+the center line, the opposing team’s blue line, and the goal line,
+and an opposing player touches the puck before a friendly player.
+Icing is not called if the team that commits the foul has a player in
+the penalty box or if the puck crosses over the crease (the space in
+front of the goal), or if the opposing goalie touches the puck before
+another opposing player. If you want to avoid Icing, don’t try
+shooting the puck more than half the length of the rink.
+
+Offsides
+
+Offsides is called when a player on the offensive team enters the
+attack zone (the space beyond his opponent's blue line) before the
+player with the puck.
+
+30
+
+===== Page 33 =====
+
+TEAM ROSTERS
+
+BOSTON BUFFALO
+Num Name Pwr Sd SS Def Num Name Pow Spd SS Def
+CENTERS CENTERS
+12 Oates, Adam 8 8 9 8 10 Hawerchuk, Dale 7 7 9 F
+13 Pantaleyev, G. 6 6 6 6 14 — Hannan, Dave 5 6 7 8
+19 Poulin, Dave r 6 6 9 16 Lafontaine, Pat 9 9 9 9
+38 — Ruzicka, Vladimir 7 7 8 L 29 Corkum, Bob 5 7 6 6
+49 ~— Juneau, Joe 8 9 8 9 20 Sweeney, Bob 6 7 9 9
+RIGHT WINGS RIGHT WINGS
+8 Neely, Cam 9 7 9 8 17 Patterson, Colin 5 § 5 6
+18 Young, C.J. 6 8 6 6 18 Presley, Wayne 6 6 7 6
+23 Heinze, Steve 6 6 6 6 28 — Audette, Donald 6 8 7 6
+27 Leach, Steve 6 6 6 6 89 — Mogilny, A. # © 98
+29 Kimble, Darin 5 5 5 5 LEFT WINGS
+LEFT WINGS 12 — Errey, Bob 6 5 6 17
+17 __ Reid, Dave 5 6 6 6 13. Khmylev, Yuri 6 6 6 5)
+21 Donato, Ted 6 6 6 7 19 Wood, Randy 6 6 th 9
+42 — Hughes, Brent 5 5 6 5 27 May, Brad 7 6 6 6
+10 Kvartalnov, D. 6 6 6 7 32 Ray, Rob 5 5 5 5
+DEFENSEMEN DEFENSEMEN
+7 Featherstone, G. 6 5 6 5 3 Ledyard, Grant 5 5 7 5
+14 Roberts, Gordie 5 5 6 7 4 — Boucher, P. 5 6 6 J
+26 Wesley, Glen 7 7 9 7 6 Carney, Keith 5 5 5 5
+28 Murphy, Gord 6 6 7 6 7 Svoboda, Petr 7 8 7 7
+32 Sweeney, Don 6 9 6 6 8 Bodger, Dou i FF Ost
+34 Shaw, David 5 6 6 6 24 Moller, Randy 6 5 6 ©}
+36 = Weimer, Jim 5 5 6 6 34 Donnelly, Gord 7 5 6 8
+25 — Richer, S. 5 6 9 6 41 Sutton, Ken 5 6 6 6
+77 Bourque, Ray 9 9 9 8 42 Smeblik, Richard 7 oP qovalg
+GOALTENDERS Mob Reac Glv Stk GOALTENDERS Mob Reac Glv Stk
+35 Moog, Andy 9 9 9 9 31 Fuhr, Grant 8 8 B58
+39 — Blue, John 6 7 7 7 39 Hasek, Dominik 9 9 7 7
+CALGARY CHICAGO
+Num Name Pow Spd SS Def Num Name Pow Sd SS Def
+CENTERS CENTERS
+25 — Nieuwendyk, Joe 8 7 9 8 12 Sutter, Brent 7 fF 79
+26 Reichel, Robert 8 7 8 7 19 Murray, Troy 8 7 7 8
+29 — Otto, Joel 9 7 7 9 22 ~—-Ruuttu, C. 6 7 6 6
+33 Wilson, Carey 6 6 6 6 27 Roenick, Jeremy 8 9 9 8
+39 — Skrudland, B. 6 6 6 7 RIGHT WING
+RIGHT WINGS 10 — Noonan, Brian 6 6 8 6
+14 Fleury, Theoren 8 9 u 7 25 — Christian, Dave 6 6 6 7
+22 ~— Stern, Ronnie 6 5 | 5 28 ~~ Larmer, Steve 9 7 8 9
+23 Paslawski, Greg 5 5 5 5 33 Graham, Dirk 7 6 6 8
+42 Makarov, Sergei 8 8 8 7 17 Murphy, Joe 7 8 2 6
+LEFT WINGS LEFT WING
+10 Roberts, Gary 8 8 8 9 14 Gilbert, Greg 6 6 6 7
+11 Lindberg, Chris 6 8 6 7 16 — Goulet, Michel 7 7 7 7
+15 Ashton, Brent 7 7 7 f 23 — Grimson, Stu 7 5 9 6
+16 Berube, Craig 5 5 5 5 26 — Lemieux, Jocelyn 6 6 6 6
+28 Ranheim, Paul ro % F 32 Matteau, S. 6 5 6 6
+DEFENSEMEN 44 Brown, Rob 5 5 6 5
+2 Maclnnis, Al 8 8 9 8 DEFENSEMEN
+3 Musil, Frantisek 6 7 7 ts 2 — Marchment, Bryan 7 6 7 rf
+4 Dahl, Kevin 5 5 6 7 3 Muni, Craig 7 5 6 8
+5 Dahlquist, Chris 5 5 6 7 4 Brown, Keith 7 8 7 8
+7 Petit, Michel 6 5 7 6 5 Smith, Steve @ «8 8" 8
+18 — Yawney, Trent 6 6 6 8 6 Kucera, F. 6 6 6 7
+20 — Suter, Gary 7 7 7 7 7 Chelios, Chris 9 9 8 8
+21 Godynyuk, A. 6 5 6 5 8 — Russell, Cam 6 7 6 5
+34 — Johansson, Roger 5 6 5 5 45 Dykhuis, Karl 6 7 7 7
+GOALTENDERS Mob Reac Glv Stk GOALTENDERS Mob Reac Glv Stk
+30 Vernon, Mike 8 8 8 8 29 = Waite, Jim 8 9 8 8
+35 Reese, Jeff 6 6 6 6 30 Belfour, Ed 7 9 9 9 31
+
+===== Page 34 =====
+
+DETROIT EDMONTON
+Num — Name Pow 5S Def Num Name Pow SS Def
+CENTERS CENTERS
+19 Yzerman, Steve 7 9 8 8 14 MacTavish, Craig 7 6 7 8
+91 Fedorov, Sergei 8 s 8 8 15 Todd, Kevin 6 6 6 6
+23 Sillinger, Mike 6 6 6 6 23 Vujtek, Vladimir 6 6 6 6
+55 Primeau, Keith 6 6 7 6 34 Elik, Todd 6 7 7 6
+RIGHT WINGS 39 ~~ Weight, Doug 6 6 6 6
+14 Hiller, Jim 6 6 6 7 RIGHT WINGS
+15 Kennedy, Sheldon 6 8 6 6 7 Gelinas, Martin 6 6 7 6
+22 ~~ Gccarelli, Dino 6 6 67 5 12 Rice, Steven 6 7 6 Z
+26 — Sheppard, Ray 7 5 7 6 27 Mellanby, Scott 8 7 6 6
+LEFT WINGS 85 Klima, Petr rf 9 8 7
+11 Burr, Shawn 7 6 6 8 LEFT WINGS
+17 Gallant, Gerard 7 6 6 8 8 — Ciger, Zdeno 6 6 7 6
+21 Ysebaert, Paul 7 7 7 7 9 — Corson, Shayne ET deed
+25 — Ogrodnick, John 6 7 7 6 16 — Buchberger, K. 8 5 5 6
+24 — Probert, Bob 9 6 7 7 18 Simpson, Craig i & 859
+28 — Drake, Dallas 6 6 6 6 29 — Debrusk, Lovie 6 5 5 5
+DEFENSEMEN DEFENSEMEN
+2 McCrimmon, Brad 7 6 6 9 2 — Joseph, Chris § § 15.5
+3 Chiasson, Steve 8 7 8 8 6 = Glynn, Brian 6 6 7 6
+4 Howe, Marke 6 6 8 7 3 Bloemberg, Jeff 6 6 7 7
+5 Lidstrom, N. 6 6 7 7 19 Benning, Brian 6 Dod 7
+8 — Konroyd, Steve 6 6 6 7 - 21 Kravchuk, Igor 5 6 7 8
+16 — Konstantinov, V. 7 6 6 7 22 — Richardson, Luke 8 8 6 6
+29 ~~ ‘Vial, Dennis 4 5 5 5 24 ~~ ‘Manson, Dave 8 rg 9 if
+7 Racine, Yves 7 6 7 6 25 Smith, Geoff 6 7 6 6
+Coffey, Paul 8 9 9 7 36 Werenka, Brad 7 & 8.7%
+GOALTENDERS Mob Reac Glv Stk GOALTENDERS Mob Reac Gly Stk
+32 Cheveldae, Tim 7 7 7 7 30 — Ranford, Bill & .& $5.6
+37 Riendeau, V. 7 7 7 7 32 Tugnutt, Ron 7 7 8 6
+HARTFORD LOS ANGELES
+Num — Name Pow Sd SS Def Num Name Pow SS Def
+CENTERS CENTERS
+8 — Sanderson, Geoff 7 8 8 7 12 Carson, Jim 7 7 8 7
+39 — Petrovicky, R. 6 6 6 6 14 Shuchuk, Gary 6 7 6 5
+22 ~— Janssens, Mark 6 5 6 7 23 Millen, Corey 7 8 ie 6
+36 Nylander, Mikael 6 6 6 5 26 Fortier, Marc 5 5 5 6
+38 Kron, Robert 6 6 ii 6 99 Gretzky, Wayne 9 9 9 8
+RIGHT WINGS RIGHT WINGS
+11 Corriveau, Yvon 7 6 6 7 7 Sandstrom, Tomas 7 8 9 7
+16 Verbeek, Pat 7 7 7 7 11 Donnelly, Mike 6 8 6 7
+17 Greig, Mark 6 7 7 6 17 Korri, Jari 1 sf 89
+23 Gillis, Paul 5 6 6 6 18 Taylor, Dave 6 6 6 8
+25 Yake, Terry 6 7 7 6 19 Thomson, Jim 6 5 5 5
+LEFT WINGS LEFT WINGS
+7 Cunneyworth, R. 6 6 6 6 10 — Rychel, Warren 6 5 § 'S
+15 Day, Joe 6 5 6 7 15 Conacher, Pat 5 S Sve
+20 Kypreos, Nick 6 6 6 6 20 — Robitaille, Luc 8 7 8 7
+24 ~~ Poulin, Patrick 7 7 8 6 21° Granato, Tony 7 9 7 7
+33 McKenzie, Jim 5 5 5 5 29 Loach, Lonnie 6 6 6 6
+48 Daniels, Scott 6 5 5 5 DEFENSEMEN
+heirs 2 ~~ Thitnik, Alexei 6 6 6 6
+Zalapski, Zarley 8 9 9 8 3 Thompson, Brent 5 5 > 7
+i Weinrich, Eric 7 6 6 8 4 Blake, Rob 7 7 8 7
+6 Burt, Adam 6 6 7 6 5 Watters, Tim 5 Erte omar 4
+27 ~— Houda, Doug 5 6 6 6 22 ~~ Huddy, Charlie 6 6 6 7
+29 ~~ Ladouceur, Randy ih 6 6 8 24 ~— ‘Hardy, Mark 6 5 5: 6
+2 Shaw, Brad 6 7 6 6 25 Sydor, Darryl Cre Ob
+Pedersen, Allen 6 5 5 6 33. McSorley, Marty 7 6 6 6
+GOALTENDERS Mob Reac Glv Stk GOALTENDERS Mob Reac Gly Stk
+1 Burke, Sean > & 8&8 32 Hrudey, Kelly Cee aes er 4
+40 Pietrangelo, F. 7 6 6 6 35 Stauber, Robb 7 6 7 6
+
+32
+
+===== Page 35 =====
+
+MINNESOTA MONTREAL
+Num Name Pow Sd SS Def Num Pow Spd SS Def
+CENTERS CENTERS
+7 Broten, Neal 6 7 7 7 11 Muller, Kirk 8 z 8 8
+9 Modano, Mike 7 9 7 7 15 Dipietro, Paul 7 7 6 7
+15 Gagner, Dave 7 7 7 8 18 Savard, Denis 7 9 7 7
+18 — Smith, Bobby 5 Ss 5 & 21 Carbonneau, Guy 7 7 7 9
+38 Black, James 5 S$ S§ S§ 47 Lebeau, Stephan & 9 FZ. 7
+41 Gilchrist, Brent 6 6 6 7 RIGHT WINGS
+RIGHT WINGS 6 Petrov, Oleg 6 6 6 5
+20 = Craig, Mike 6 8 6 6 12 Keane, Mike 7 7 6 6
+22 Dahlen, UIf 7 6 7 6 26 — Leeman, 5 § 5 §&
+26 — Courtnall, Russ 7 9 7 6 31° Ronan, Ed 5 5 5 5
+27° ~— Churla, Shane 6 5 5 5: 36 Ewen, Todd 7 5 5 5
+29 — Klatt, Trent 6 6 7 6 LEFT WINGS
+LEFT WINGS 17 LeClair, John 7 7 6 6
+10 Duchesne, Gaetan 6 6 6 8 22 ~— Brunet, Benoit 6 6 6 6
+12 Gavin, Stewart 5 5 5 8 23 Bellows, Brian 8 7 7 6
+16 Propp, Brian 6 5 5 6 25 — Damphousse, V. 8 7 7 7
+7 MaPhee, Mike 7 6 6 8 45 Dionne, Gilbert 6 6 6 8
+DEFENSEMEN DEFENSEMEN
+2 Hatcher, Derian 7 7 8 7 5 Ramage, Rob 7 5 7 7
+3 Ludwig, Craig 6 6 6 7 27 ~~ Schneider, M. 7 7 7 7
+4 Matvichuk, R. 6 6 6 6 14 Haller, Kevin 7 6 7 7
+5 Berry, Brad 5 6 6 6 24 ~~ Odelein, Lyle 5 5 3 6
+6 — Johnson, Jim 6 5 6 7 28 — Desjardins, Eric 7 7 7 8
+24 Tinordi, Mark 7 6 7 8 34 Dufresne, Donald 5 5 5 6
+33 Sjodin, Tommy 5 6 7 6 43 Brisebois, P. 7 7 7 8
+39 — Ciccone, Enrico > 5 5 5 48 — Daigneault, J.J. 5 6 6 6
+GOALTENDERS Mob Reac Gly Stk GOALTENDERS Mob Reac Glv Stk
+30 Casey, Jon 7 7 8&8 8B 33 Roy, Patrick 9 9 9 9
+35 Wakaluk, Darcy 6 6 6 6 37 Racicot, Andre 5 ee 6
+NEW JERSEY NEW YORK 1
+Num Name Pow Sd SS Def Num Name Pow Sd SS Def
+CENTERS CENTERS
+11 Barr, Dave 5 5 5 6 10 Loiselle, Claude & Ses 6
+19 Nicholls, Bernie 7 7 8 7 18 — Mclnnis, Marty 6 6 6 6
+20 Semak, Alexander 7 8 7 7 20 ‘Ferraro, Ray 6 7 8 6
+26 — Stastny, Peter 7 7 7 7 33 Hogue, Benoit 6 9 6 7
+RIGHT WINGS 77 Turgeon, Pierre 8 8 8 7
+12 — Guerin, Bill 6 7 8 6 39 Green, Travis 5 5 b 5
+15 MacLean, John 7 7 Z 7 RIGHT WINGS
+21 McKay, Randy 5 x 65 6 12 Vukota, Mick 5 5 5 5
+22 Lemieux, Claude 7 7 8 T 14 Fitzgerald, Tom 5 5 5 5
+24 =~ Brown, Do 5 5 5 6 15 , Brad 6 6 6 6
+44 Richer, Stephane 7 8 8 7 16 Brian 6 6 7 6
+LEFT WINGS 26 Flatley, Patrick 6 5 6 6
+8 Mallette, Troy 6 6 6 § LEFT WINGS
+9 — Chorske, Tom 5 8 6 6 25 Volek, David 6 7 6 6
+16 Holik, Bobby TT ee F 27 King, Derek 7 7 8 6
+18 Pellerin, Scott 6 6 7 8 32 Thomas, Steve 7 7 8 7
+25 —_Zelepukin, V. 7 8 6 7 DEFENSEMEN
+DEFENSEMEN 4 Krupp, Uwe 6 6 FT 7
+2 Fetisov, V. 7 6 8 8 7 e, Scott 6 7 r 7
+3 Daneyko, Ken 7 6 6 6 8 — Norton, Jeff 6 6 6 7
+4 Stevens, Scott 9 £ 7 9 11 Kasparaitis, D. 7 7 7 7
+5 0’Connor, Myles 5 6 7 6 23 Malakhov, V. 7 8 8 8
+6 = Albelin, Tommy 6 6 6 7 28 ~~ Kurvers, Tom 5 6 rd 5
+7 Kasatonov, A. 7 7 8 8 36 = Nylund, Gary 5 5 5 7
+23 Driver, Bruce 6 6 6 7 37 Vaske, Dennis 6 5 6 7
+27 Niedermayer, S. 6 7 7 6 47 Pilon, Rich 6 6 6 6
+GOALTENDERS Mob Reac Glv Stk GOALTENDERS Mob Reac Glv Stk
+1 Billington, C. 7 Perry 30 Fitzpatrick, M. Fo FF §
+31 Terreri, Chris 8 9 6 6 35 , Glenn 7 6 i 6
+
+33
+
+===== Page 36 =====
+
+NEW YORK 2 OTTAWA
+Num Name Pow Spd SS Def Num Name Pow Sod SS Def
+CENTERS CENTERS
+8 Turcotte, Darren 7 8 9 7 7 Lamb, Mark 6 - 6 6
+11 Messier, Mark 9 9 2 ¥ 11 Freer, Mark 3 8 Sa 6
+13 Nemchinov, S. 7 7 tL Ps 12 Brady, Neil 5 5 5 5
+14 Mdntyre, John 7 6 iT: F 13 Baker, Jamie 6 6 6 6
+RIGHT WINGS 16 — Boschman, Lourie 6 5 5 8
+22 Gartner, Mike 8 9 9 8 RIGHT WINGS
+25 King, Steven 5 5 5 5 15 Archibald, Dave 6 6 6 6
+27 Kovalev, Alexei 7 9 9 7 17 — Hull, Jody 5 6 6 6
+33 Amonte, Tony 7 8 7 T 20 McBain, Andrew 5) 5 5 5
+37 —_Broten, Paul 6 6 6 6 25 — Jelinek, Tomas 5 6 6 5
+LEFT WINGS 26 — Kudelski, Bob 7 6 6 6
+9 Graves, Adam 8 9 8 8 LEFT WINGS
+10 Tikkanen, Esa 7 8 8 9 9 6 9 6 7
+12 Olezyk, Ed 6 6 6 6 10 Loewen, Darcy 5 5 5 6
+20 — Erixon, Jan 6 7 6 9 18 — Murphy, Rob 5 5 > 5
+26 — Kocur, Joe 7 5 5 5 44 Peluso, Mike 7 5 5 6
+29 — Bourque, Phil 6 6 6 6 61 — Turgeon, Sylvain 7 7 8 6
+DEFENSEMEN DEFENSEMEN
+2 Leetch, Brian 8 i 9 8 2 ~~ Hamr, Radek 6 5 6 7
+3 Patrick, James 7 9 Z, 9 4 Shaw, Brad 6 6 6 7
+5 Andersson, Peter 5 5 5 5 5 Hammond, Ken 5 5 5 5
+4 Lowe, Kevin 6 6 6 6 6 Dineen, Gord § 5 5 5
+6 — Girella, Joe 6 6 6 6 14 Marsh, Brad 6 5 5 7
+21 — Zubov, Sergei 7 7 7 7 23 Luongo, Chris 5 5 dia BS
+23 Beukeboom, Jeff 7 7 Z 7 22 ~~“ Maclver, Norm 7 4 7 6
+24 Wells, Jay 6 5 5 6 34 Rumble, Darren 5 5 5 5
+GOALTENDERS Mob Reac Glv Stk GOALTENDERS Mob Reac Glv Stk
+34 — Vanbiesbrouck, J. 8 8 8 8 31 Sidorkiewicz, P. 6 6 7 6
+35 — Richter, Mike 8 8 7FJ 7 32 Berthiaume, D. 7 i: 28a 6
+PHILADELPHIA PITTSBURGH
+Num Name Pow Spd SS Def Num Name Pow Spd SS Def
+CENTERS CENTERS
+17 _ Brind’Amour, Rod 8 7 8 8 10 — Francis, Ron 7 7 8 7
+22 ~—_Butsayev, V. 7 7 7 8 15 Mckachern, Shawn 6 7 7 7
+25 Acton, Keith 6 6 6 7 26 Stapleton, Mike 5 6 6 6
+42 — Beranek, Josef 6 6 6 6 66 = Lemieux, Mario 9 9 9 7
+88 Lindros, Eric 9 9 9 8 82 Straka, Martin ne Me eo)
+RIGHT WINGS RIGHT WINGS
+8 — Recchi, Mark 7 8 8 8 7 Mullen, Joe 6 6 7 7
+11 Dineen, Kevin v6 8 7 8 16 Caufield, Jo 6 5 5 5
+21 Brown, Dave re 5 5 5 22 — Tocchet, Rick 8 6 7 7
+46 Conroy, Al be 6 6 6 39 Needham, Mike 5 6 6 3
+LEFT WINGS 68 ;, Jaromir 8 9 8 8
+9 — Eklund, Per-Erik 6 8 7 6 LEFT WINGS
+10 Boivin, Claude 5 5 5 5 14 Tippett, Dave 6 6 6 8
+14 — Snuggerud, Dave 6 6 6 7 20 Daniels, Jeff 5 5 5 6
+15 Evans, Doug 5 5 5 7 24 ~~ Loney, Troy 6 6 + 5
+18 Fedyk, Brent 6 6 6 6 25 Stevens, Kevin 9 & B8..%
+23 ~~ Lomakin, Andrei 6 6 6 6 DEFENSEMEN
+DEFENSEMEN 2 Paek, Jim 5 5 5 6
+2 — Yushkevich, D. 6 6 6 7 3 Jennings, Grant 6 5 5 6
+3 Galley, Garry 6 6 6 6 5 Simadteg, Ulf 8 7 7 8
+5 Nattress, Ric 5 5 6 7 6 Ramsey, Mike r 6 62 8
+20 — Hawgood, Greg 5 6 6 6 23 — Stanton, Paul 6 eb bein 6
+26 Hynes, Gord 5 4 6 7 28 — Samuelsson, K. 8 6 6 7
+27 ~~ McGill, Ryan 6 5 6 6 32 Taglianetti, P. 6 5 6 6
+29 Carkner, Terry 7 66 J 33 Fogarty, Brian ee ae
+44 — Cronin, Shawn iy So h- § 55 Murphy, Lorry 7 Oa 8
+GOALTENDERS Mob Reac Gly Stk GOALTENDERS Mob Reac Glv Stk
+30 Soderstrom, T. 7 7 7 7 31 Wregget, Ken 7 OS i 7
+33 Roussel, Dominic 6 6 6 6 35 ~~ Barrasso, Tom 8 9 9 8
+
+34
+
+===== Page 37 =====
+
+QUEBEC SAN JOSE
+Nom Pow Sd SS Def Num Pow Si SS Def
+CENTERS CENTERS
+9 Ricci, Mike 7 7 7 8 11 Kisio, Kelly 6 6 5 7
+13 Sundin, Mats 8 9 9 7 12 Evason, Dean 5 6 6 6
+19 Sakic, Joe 7 8 8 7 14 itney, Ray 5 6 6 6
+37 Rucinsky, Martin 6 6 6 7 47 Sullivan, Mike 5 5 5 5
+47 Lapointe, Claude 5 5 5 7 RIGHT WINGS
+RIGHT WINGS 17 Falloon, Pat 7 9 7 7
+11 Nolan, Owen 8 7 9 L 36 Odgers, Jeff 5 5 5 5
+18 Hough, Mike 5 5 5 5 37 Gaudreau, Robert 7 7 7 6
+44 — Cavallini, Gino 5 5 5 6 39 — Courtenay, Ed 5 5 5 5
+48 — Young, Scott 6 7 9 6 LEFT WINGS
+51 Kovalenko, A. 6 6 6 7 8 ey 5 5 5 5
+LEFT WINGS 10 — Garpeniov, 6 7 7 6
+Vu Simon, Chris 5 5 6 5 15 Bruce, David 5 et 7 6
+Twist, Tom 5 5 5 5 18 Pederson, Mark 5 5 6 5
+0 Lindsay, Bil 5 5 5 5 20 = Carter, John 5 6 6 5
+22 — Pearson, Scott 5 5 5 5 25 Y, 5 5 5 6
+31 Kamensky, Valeri 8 8 9 7 DEFENSERE
+DEFENSEMEN Tettler, Rob 5 5 5 7
+2 — Huffman, Kerry 6 6 7 6 3 Williams, David 5 5 5 5
+4 Tatarinov, M. 7 8 8 6 4 More, Jayson 5 5 6 5
+5  Gusarov, Alexei 8 7 8 7 5 Wilkinson, Neil 6 6 6 7
+6 = Wolanin, Craig 5 5 5 6 6 — Ozolinsh, Sandis 7 7 7 7
+7 Leschyshyn, C. 5 6 6 5 19 Zmolek, Doug 6 6 6 6
+28 Duchesne, Steve 7 8 8 6 24 ~— Wilson, Doug 7 6 9 8
+29 ~~ Finn, Steve 6 6 5 6 38 MacLeod, Pat 5 5 5 5
+52 — Foote, Adam 6 7 6 6 41 Pederson, Tom 6 6 6 7
+GOALTENDERS Mob Reac Gly Stk GOALTENDERS Mob Reac Glv Stk
+27 ~~ Hextall, Ron 8 9 8 9 30 Hackett, Jeff 5 6 5 5
+35 Fiset, Stephane 7 8 8 7 32 Irbe, Arturs 7 8 6 6
+ST. LOUIS TAMPA BAY
+Num Name Pow Sd SS Def Num Name Pow Sd SS Def
+CENTERS CENTERS
+7 Emerson, Nelson 6 9 FT 7 10 — Creighton, Adam 5 5 5 5
+15 Janney, Craig 6 6 7 7 11 Kasper, Steve 6 6 6 8
+18 — Wilson, Ron 6 7 6 7 14 Tucker, John 5 4 5 4
+22 ~~ Sutter, Ron 6 6 5 8 18 — DiMaio, Rob 6 6 6 7
+28 —Bassen, Bob 5 7 6 7 19 Bradley, Brian 6 7 8 6
+RIGHT WINGS 20 — Gilhen, Randy 5 5 5 6
+14 Miller, Kevin 5 7 6 7 RIGHT WINGS
+16 — Hull, Brett 8 8 9 5 7 Zoumner, Rob 5 5 5 5
+23 — Sutter, Rich 5 5 5 6 21 Bergland, Tim 5 5 5 5
+38 ~— Korolev, I 5 6 6 5 24 =~ Cole, Danton 6 6 6 6
+39 — Chase, Kelly 5 5 5 5 27 ~~ Drulia, Stan 5 5 5 5
+LEFT WINGS 28 Bureau, Marc 6 6 5 5
+9 Felsner, D. 7 7 7 6 LEFT WINGS
+10 — Lowry, Dave 6 6 5 6 16 Kontos, Chris 6 5 6 4
+17 McRae, Basil 5 5 5 6 17 Latreniere, J. 5 5 6 5
+19 Shanahan, B. 8 7 , 7 34 Andersson, M. 6 7 6 7
+25 Prokhorov, V. 5 6 6 6 37 Maltais, Steve 5 6 6 6
+DEFENSEMEN DEFENSEMEN
+2 Giles, Curt 5 5 5 8 2 ~~ Beers, Bob 5 6 6 7
+4 — Lombo, Rick 6 5 6 8 3 Rivers, Shawn 6 5 5 6
+5 Butcher, Garth 8 6 5 7 22 ~~ Chambers, Shawn 6 5. 75 7
+6 Crossman, Doug 6 6 6 6 25 —_-Bergevin, Marc 5 6 5 6
+20 Norwood, Lee 5 5 8 7 26 Hervey, Matt 6 7 7 6
+21 Brown, Jeff 7 7 9 8 29 — Reekie, Joe 5 5 6 7
+33 Quintal, S. 6 6 6 6 40 — Lipuma, Chris 5 eee} 5
+34 Baron, Murray 6 6 7 6 44 ~~ Hamrlik, Roman 7 7 7 7
+GOALTENDERS Mob Reac Glv Stk GOALTENDERS Mob Reac Gly Stk
+29 — Herbert, Guy 7 8 7 7 1 Young, Wendell 6 6 6 6
+31 Joseph, Curtis 8 8 8 8 35 — Jablonski, Pat 6 $ 6 6
+
+35
+
+===== Page 38 =====
+
+TORONTO VANCOUVER
+Num Name Pow Spd SS Def Num Name Pow SS Def
+CENTERS CENTERS
+7 McLiwain, Dave 5 2 5 7 7 — Ronning, Cliff 5 9 7 6
+19 Cullen, John 5 5 7 7 9 Walter, Ryan 5 6 6 6
+25 — Zezel, Peter 6 5 6 7 10 eh Pavel 9 9 9 7
+26 Krushelnyski, M. 6 6 6 6 15 s, Tom 5 5 5 5
+93 Gilmour, Doug 8 8 8 7 19 Had a Petr 6 6 7 6
+RIGHT WINGS 20 Semenov, Anatoli 6 8 8 8
+9 Anderson, Glenn 7. 9 8 6 RIGHT WINGS
+12 Pearson, Rob 5 5 7 6 16 Linden, Trevor 7 7 8 6
+16 — Borschevsky, N. 6 8 8 7 17 Ward, Dixon 5 5 5 5
+21 ~— Osborne, Mark 5 5 5 7 23 Valk, Garry 5 5 5 6
+71 Foligno, Mike 6 6 6 6 25 Sandlak, Jim 6 6 6 6
+a WING LEFT WING
+Larose, Gu 5 5 5 6 8 Adams, Greg 7 6 6 6
+4 Andreychuk, Dave 7 6 7 6 14 Courtnall, Geoff 6 9 7 6
+17 Clark, Wendel 7 6 9 6 27 ~~ Momesso, Sergio 7 6 6 6
+18 — Manderville, K. 6 6 6 6 29 Odjick, Gino 6 5 5 5
+24 = Sacco, Joe 6 8 6 6 32 Craven, Murray 7 if 7 7
+DEFENSEMEN DEFENSEMEN
+2 Lefebvre, S. 5 6 5 7 3 Lidster, nse 7 6 6 8
+3 Rouse, Bob 6 5 5 7 4 Diduck, Ger 7 6 8 6
+4 Ellett, Dave 6 7 9 6 5 Murzyn, Dana 7 6 6 6
+8 — McGill, Bob 5 5 5 5 6 — Plavsic, Adrien 6 7 7 6
+15 Mironov, Dmitri 6 7 8 6 21 ~— Lumme, Jyrki 5 6 7 6
+23 Gill, Todd 7 6 7 7 22 Dirk, Robert 6 5 5 6
+28 — Shannon, Darryl 5 6 6 6 a Slegr, Jiri 6 7 6 5
+34 = Macoun, Jamie 6 6 6 7 Babych, David 5 5 6 6
+GOALTENDERS Mob Reac Gly Stk CONLTENDERS Mob Reac Glv Stk
+1 Puppa, Daren 8 8 7 7 1 McLean, Kirk 8 8 8 8
+29 — Potvin, Felix 8 9 8 8 35 Whitmore, Kay 7 8 7 7
+WASHINGTON WINNIPEG
+Num Name Pow Sd SS Def Num — Name Pow Sd SS Defi’
+CENTERS CENTERS
+8 — Khristich, D. 8 8 8 7 10 Zhamnov, Alexei 7 8 8 7
+17 Ridley, Mike 6 7 8 7 14 Barnes, Stu 6 7 6 6
+20 — Pivonka, Michal 6 7 7 7 24 — Levins, Scott 6 5 5 5
+22 ~~ Konowalchuk, S. 5 5 5 5 25 Steen, Thomas 6 6 7 8
+RIGHT WINGS 38 — Borsato, Luciano 5 6 6 6
+12 — Bondra, Peter 6 8 7 Z RIGHT WINGS
+15 Savage, Reggie 5 5 5 5 11 Davydov, Evgeny 7 8 7 6
+19 Elynuik, Pat 6 6 6 6 13 », Temmu 9 9 9 7
+23° MacDermid, Paul 6 6 6 6 15 Druce, John 6 5 6 5
+26 — Jones, Keith 5 5 5 5 18 — Erickson, Brian 6 5 6 7
+27 ~~ Hunter, Mark 5 5 5 6 20 Domi, Tie r 6 6 6
+LEFT WINGS LEFT WINGS
+10 Miller, Kelly 6 7 6 8 7 Tkachuk, Keith 7 6 7 6
+11 Carpenter, Bob 5 6 6 6 17 King, Kris 5 5 5° 6
+16 May, Alan 6 5 6 5 21 Romaniuk, Russ 6 6 6 5
+18 — Burridge, Randy 5 6 6 6 34 Shannon, Darrin 6 5 6 6
+21 Krygier, Todd 5 8 6 6 36 Eagles, Mike & § od
+Lei DEFENSEMEN
+Cote, Sylvain 7 vs 7 7 3 Bautin, Sergei 7 6 5 7
+; Hatcher, Kevin 9 7 9 8 4 Olausson, F. 7 7 8 7
+5 Langway, Rod 6 6 7 8 5 Ulanov, Igor 5 5 5
+6 — Johansson, Calle 6 7 8 6 6 — Housley, Phil 7 9 8 7
+14 — Cavallini, Paul 6 7 6 7 8 Carlyle, Randy 6 5 5 6
+28 — Schlegel, Brad 5 6 5 7 22 — Lalor, Mike 5 5 5 7
+34 Iafrate, Al 8 8 8 6 26 Kennedy, Dean 5 5 5 5
+36 Anderson, Shawn 7 7 6 7 27 Numminen, Teppo 7 7 8 9
+GOALTENDERS Mob Reac Glv Stk GOALTENDERS Mob Reac Glv Stk
+31 Tabaracci, Rick 8 9 8 8 35 Essensa, Bob 8 9 8 8
+33 Beaupre, Don 7 8 7 7 30 Hrivnak, Jim 7 6 6 6
+
+36
+
+===== Page 39 =====
+
+GAME TIPS — THE JALECO MAJOR PLAYER’S HOTLINE
+
+If there’s something you don’t understand about your new Jaleco
+game, or if you’re having problems with your cartridge, or if
+you're just plain stuck, you’re welcome to call the Jaleco Major
+Player’s Hotline between the hours of 9:00AM and 5:00PM
+Central time Monday through Friday (except holidays). One of
+our friendly game counselors will be happy to give you tips or
+help you out with any problems you’re having. Here’s the number
+
+to ca
+708-215-2359
+
+Note: Normal telephone charges apply when you call the hotline
+number. It is not a toll-free call Kids: get your parent's or
+guardian's permission to call before dealing the Jaleco Major
+Player’s Hotline!
+
+Special thanks to:
+
+Brian Balistreri of Beeline Group, Inc.
+Doug Reid and Chris Malone of the NHLPA, whose patience, advice and
+understanding have been invaluable.
+
+JALECO USA, INC. LIMITED WARRANTY
+
+Jaleco USA, Inc. warrants to the original purchaser of this Jaleco software product that the medium
+on which this computer program is recorded is free from defects in materials and workmanship for
+a period of ninety (90) days from the date of purchase. This Jaleco software program is sold “as
+is,” without express or implied warranty of any kind, and Jaleco is not liable for any losses or
+damages of any kind resulting from use of this program. Jaleco agrees for a period of ninety (90)
+days to either repair or replace, at its option, free of charge, any Jaleco software product, postage
+paid, with proof of date of purchase, at its Factory Service Center.
+
+This warranty is not applicable to normal wear and tear. This warranty shall not be applicable and
+shall be void if the defect in the Jaleco software product has arisen through abuse, unreasonable
+use, mistreatment, or neglect. THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES AND
+NO OTHER REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE BINDING ON OR
+OBLIGATE JALECO. ANY IMPLIED WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT,
+INCLUDING WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE,
+ARE LIMITED TO THE NINETY (90) DAY PERIOD DESCRIBED ABOVE. IN NO EVENT WILL JALECO
+BE LIABLE FOR ANY SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM
+POSSESSION, USE, OR MALFUNCTION OF THIS JALECO SOFTWARE PRODUCT.
+
+Some states do not allow limitations as to how long an implied warranty lasts and/or exclusions or
+limitations of incidental or consequetial damages so the above limitations and/or exclusions of
+liability may not apply to you. This warranty gives you specific rights, and you may also have other
+rights which vary from state to state.
+
+JALECO USA, INC. 685 Chaddick Drive, Wheeling, IL 60090. (708) 215-2359 37
+
+===== Page 40 =====
+
+€3 JALECO.
+
+Jaleco USA, Inc.
+
+685 Chaddick Drive
+Wheeling, Illinois 60090
+
+PRINTED IN JAPAN
+
+===== Page 41 =====
+
+SNS-UI-USA
+
+€ JALECO.
+
+'NHLPA' INSTRUCTION BOOKLET
+
+Licensed by
+the NHLPA
