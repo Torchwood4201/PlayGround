@@ -7,7 +7,44 @@
 (function(){
   'use strict';
 
-  var BUNDLED = { name: 'Super Mario All-Stars (USA).sfc', url: 'super-mario-all-stars-usa.sfc', builtin: true };
+  /* Games shipped with the playground. They are seeded into the browser
+     library on first load, so MY GAMES shows the whole set immediately. */
+  var BUILTIN_ROMS = [
+    { name: 'Donkey Kong Country (USA) (Rev 2).sfc', label: 'Donkey Kong Country (Rev 2)' },
+    { name: 'Doom (USA).sfc', label: 'Doom' },
+    { name: 'Killer Instinct (USA) (Rev 1).sfc', label: 'Killer Instinct (Rev 1)' },
+    { name: 'Legend of Zelda, The - A Link to the Past (USA).sfc', label: 'Zelda: A Link to the Past' },
+    { name: 'Street Fighter II Turbo (USA).sfc', label: 'Street Fighter II Turbo' },
+    { name: 'Super Mario World (USA).sfc', label: 'Super Mario World' },
+    { name: 'Super Punch-Out!! (USA).sfc', label: 'Super Punch-Out!!' },
+    { name: 'Ultimate Mortal Kombat 3 (USA).sfc', label: 'Ultimate Mortal Kombat 3' },
+    { name: 'WWF Raw (USA).sfc', label: 'WWF Raw' },
+    { name: 'WWF Royal Rumble (USA).sfc', label: 'WWF Royal Rumble' },
+    { name: 'WWF WrestleMania - The Arcade Game (USA).sfc', label: 'WWF WrestleMania: The Arcade Game' },
+    { name: 'Super Mario All-Stars (USA).sfc', label: 'Super Mario All-Stars', file: 'super-mario-all-stars-usa.sfc' }
+  ].map(function(r){
+    return { name: r.name, label: r.label, url: encodeURI(r.file || r.name), builtin: true };
+  });
+  var BUILTIN_BY_NAME = {};
+  BUILTIN_ROMS.forEach(function(r){ BUILTIN_BY_NAME[r.name] = r; });
+  function romLabel(entry){
+    if(!entry) return '';
+    if(entry.label) return entry.label;
+    var b = BUILTIN_BY_NAME[entry.name];
+    if(b && b.label) return b.label;
+    return String(entry.name || '').replace(/\.[^.]+$/, '');
+  }
+  function sortLibrary(entries){
+    var order = {};
+    BUILTIN_ROMS.forEach(function(r, i){ order[r.name] = i; });
+    return entries.slice().sort(function(a, b){
+      var ai = order[a.name], bi = order[b.name];
+      var ab = ai == null ? 9999 : ai, bb = bi == null ? 9999 : bi;
+      if(ab !== bb) return ab - bb;
+      return String(romLabel(a)).localeCompare(String(romLabel(b)));
+    });
+  }
+  var BUNDLED = BUILTIN_ROMS[BUILTIN_ROMS.length - 1];
 
   /* data-button (template scheme) -> emulator keyboard key.
      Matches EJS_defaultControls below and the on-page key charts. */
@@ -370,6 +407,7 @@
   /* Emulator button indices the brain uses (RetroArch SNES numbering).
      Human pads keep using PADINDEX; only the agent reads this. */
   var AgentMap = { dirR: 7, dirL: 6, run: 1, actions: [8, 0, 9], shoulders: [10, 11], select: 2, start: 3 };
+  var MENU_CONFIRM_OVERRIDE = { 'super-mario-all-stars-2': 0 };
   /* SEEK confirm fallback, parsed from AgentOpts.seekCycle ('2,2,3,8,5,4' =
      SELECT, SELECT, START, A, DOWN, UP). The grid walker presses A and
      START every cycle; this adds one extra menu button when it is neither,
@@ -408,6 +446,12 @@
     s = s.replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, ' ').trim();
     return s.replace(/\s+/g, ' ');
   }
+  /* Filename form keeps region/rev/color tokens so duplicate manuals for the
+     same game can be told apart. */
+  function manualFileNorm(s){
+    return String(s || '').toLowerCase().replace(/\.[a-z0-9]+$/, '')
+      .replace(/[^a-z0-9]+/g, ' ').trim();
+  }
   function manualButtons(line){
     var text = String(line || '').replace(/[¥]/g, 'Y');
     var out = [], seen = {};
@@ -417,9 +461,12 @@
     re = /\b([lr])\s*(?:button|btn)\b/ig;
     while((m = re.exec(text))) add(MANUAL_BTN[m[1].toLowerCase()]);
     if(!out.length && /\b(press|hold|push|tap)\b/i.test(text)){
-      re = /\b([abxy])\b/ig;
+      /* Bare letters are buttons only when the manual prints them as such
+         ("Press A"). Case-insensitive matching turns prose "push a block"
+         into a phantom A press. */
+      re = /\b([ABXY])\b/g;
       while((m = re.exec(text))) add(MANUAL_BTN[m[1].toLowerCase()]);
-      re = /\b([lr])\b/ig;
+      re = /\b([LR])\b/g;
       while((m = re.exec(text))) add(MANUAL_BTN[m[1].toLowerCase()]);
     }
     return out.filter(function(b){ return b !== MANUAL_BTN.start && b !== MANUAL_BTN.select; });
@@ -428,12 +475,18 @@
     var votes = {}, bestLine = '';
     for(var i = 0; i < lines.length; i++){
       var raw = lines[i], low = raw.toLowerCase(), hit = 0;
-      terms.forEach(function(t){ if(low.indexOf(t) !== -1) hit += 2; });
+      terms.forEach(function(t){
+        if(new RegExp('\\b' + t + '\\b', 'i').test(low)) hit += 2;
+      });
       if(!hit) continue;
-      var near = raw + ' ' + (lines[i + 1] || '');
-      var btns = manualButtons(near);
+      /* Keep the button on the same line as the action word. Falling back
+         to the next line turns prose like "these blocks rise" into a false
+         BLOCK binding; allow it only for short control-table labels. */
+      var sameBtns = manualButtons(raw);
+      var btns = sameBtns.length ? sameBtns :
+        (raw.trim().length <= 28 ? manualButtons(lines[i + 1] || '') : []);
       if(!btns.length) continue;
-      var same = manualButtons(raw).length ? 3 : 1;
+      var same = sameBtns.length ? 3 : 1;
       btns.forEach(function(b){ votes[b] = (votes[b] || 0) + hit + same; });
       if(!bestLine) bestLine = raw.trim();
     }
@@ -458,12 +511,204 @@
     }
     return out;
   }
+  var MOVE_BTN = { LP: 0, HP: 1, LK: 9, HK: 8, RN: 11, RUN: 11, BLOCK: 10, BL: 10 };
+  var MOVE_PUNCH = [1, 9, 10], MOVE_KICK = [0, 8, 11];
+  function moveStrike(attack, text, fallback){
+    var low = String(text || '').toLowerCase();
+    var pool = /kick/.test(low) ? MOVE_KICK : (/punch/.test(low) ? MOVE_PUNCH : null);
+    if(pool){
+      for(var i = 0; i < pool.length; i++){
+        if(attack.indexOf(pool[i]) !== -1) return pool[i];
+      }
+      return pool[0];
+    }
+    var bs = manualButtons(text);
+    if(bs.length) return bs[0];
+    return attack.length ? attack[0] : fallback;
+  }
+  function moveSeqNotation(rhs, attack){
+    var text = String(rhs || '').toUpperCase()
+      .replace(/\bHOLD\b/g, ' ')
+      .replace(/\bIN\s+AIR\b/g, ' ')
+      .replace(/\bAIR\b/g, ' ')
+      /* OCR often prints E for BACK after a separator, and a stray E before
+         other tokens. */
+      .replace(/(^|[,\s])E(?=(?:LP|HP|LK|HK|RUN|RN|BLOCK|BL))/g, '$1B,')
+      .replace(/E(?=(?:LP|HP|LK|HK|RUN|RN|BLOCK|BL|[FBUD]\b))/g, '')
+      .replace(/\+/g, ' ')
+      .replace(/[.;]/g, ' ');
+    var chunks = text.split(/[,\s]+/).filter(Boolean);
+    if(chunks.length < 2) return [];
+    var seq = [];
+    var combined = /^(?:(?:LP|HP|LK|HK|RUN|RN|BLOCK|BL|[FBUD]))+$/;
+    var tokenRe = /(LP|HP|LK|HK|RUN|RN|BLOCK|BL|[FBUD])/g;
+    for(var i = 0; i < chunks.length; i++){
+      var c = chunks[i];
+      if(c === 'E') continue;
+      if(MOVE_BTN[c] != null){ seq.push(MOVE_BTN[c]); continue; }
+      if(/^[FBUD]+$/.test(c)){
+        for(var k = 0; k < c.length; k++) seq.push(c.charAt(k));
+        continue;
+      }
+      if(combined.test(c)){
+        var m;
+        tokenRe.lastIndex = 0;
+        while((m = tokenRe.exec(c))) seq.push(MOVE_BTN[m[1]] != null ? MOVE_BTN[m[1]] : m[1]);
+        continue;
+      }
+      return []; /* prose leaked into a move table */
+    }
+    if(seq.length < 2 || !seq.some(function(x){ return typeof x === 'number'; })) return [];
+    return seq;
+  }
+  function moveSeqWords(rhs, attack){
+    var seq = [];
+    var re = /\b(low punch|high punch|low kick|high kick|punch|kick|block|away|back(?:ward)?|towards?|forward|down(?:ward)?|crouch(?:ing)?|up(?:ward)?)\b/gi, m;
+    while((m = re.exec(String(rhs || '')))){
+      var t = m[1].toLowerCase();
+      if(t === 'low punch') seq.push(MOVE_BTN.LP);
+      else if(t === 'high punch') seq.push(MOVE_BTN.HP);
+      else if(t === 'low kick') seq.push(MOVE_BTN.LK);
+      else if(t === 'high kick') seq.push(MOVE_BTN.HK);
+      else if(/punch|kick/.test(t)) seq.push(moveStrike(attack, t, null));
+      else if(/block/.test(t)) seq.push(MOVE_BTN.BLOCK);
+      else if(/away|back/.test(t)) seq.push('B');
+      else if(/toward|forward/.test(t)) seq.push('F');
+      else if(/down|crouch/.test(t)) seq.push('D');
+      else if(/up/.test(t)) seq.push('U');
+    }
+    if(seq.length < 2 || !seq.some(function(x){ return typeof x === 'number'; })) return [];
+    return seq;
+  }
+  function moveCompress(seq){
+    var out = [];
+    seq.forEach(function(x){ if(out[out.length - 1] !== x) out.push(x); });
+    return out;
+  }
+  function moveSeqProse(ctx, attack){
+    var low = ctx.toLowerCase(), seq = [];
+    var dre = /\b(defensive crouch|offensive crouch|crouch(?:ing)?|down(?:ward)?|back(?:ward)?|away|left|forward|toward|right|up(?:ward)?)\b/g, m;
+    while((m = dre.exec(low))){
+      var t = m[1];
+      seq.push(/down|crouch/.test(t) ? 'D' : (/back|away|left/.test(t) ? 'B' :
+        (/forward|toward|right/.test(t) ? 'F' : 'U')));
+    }
+    /* Common OCR arrow glyphs. Only runs of two or more are trusted, so
+       prose numbers ("2 seconds") do not become DOWN presses. */
+    var runRe = /[«»<>¥4v_+=1]{2,}/g, run;
+    while((run = runRe.exec(ctx))){
+      for(var i = 0; i < run[0].length; i++){
+        var c = run[0].charAt(i);
+        if(c === '«' || c === '<' || c === '=') seq.push('B');
+        else if(c === '»' || c === '>') seq.push('F');
+        else if(c === '¥' || c === '4' || c === '1' || c === 'v') seq.push('D');
+      }
+    }
+    if(/\bhold\b/i.test(low)){
+      if(/\b(back|away|left)\b|«|=/.test(low)) seq.unshift('B');
+      if(/\b(forward|toward|right)\b|»/.test(low)) seq.push('F');
+    }
+    seq = moveCompress(seq);
+    var b = moveStrike(attack, ctx, null);
+    if(b != null) seq.push(b);
+    return moveCompress(seq);
+  }
+  function moveNameOk(name){
+    name = String(name || '').trim();
+    if(name.length < 3 || name.length > 40) return false;
+    if(/[.:;]$/.test(name)) return false;
+    if(/^(special|basic|controls?|using|press|note|the|this|charge|tap|hold|moves?)\b/i.test(name)) return false;
+    if(/\b(moves?|controls?|warriors|fighters|special|likes?|dislikes?|height|weight|age|limited|warranty|rights|reserved|period|warning|liability|page|note|read|event|described|button|entertainment|software|acclaim|ltd|inc|corp|corporation|studios?|games?|interactive|licensed|trademark)\b/i.test(name)) return false;
+    if(/^(punch|kick|block|run|jump|left|right|up|down|forward|back|backward|away|toward|move|punt|pass|shoot|tackle|slide)$/i.test(name)) return false;
+    if(/\b(and|or|the|of|to|in|from|with|for)$/i.test(name)) return false;
+    if(/^[A-Z]{11,}$/.test(name)) return false;
+    if(/^[A-Z]{1,4}$/.test(name)) return false;
+    var words = name.split(/\s+/);
+    if(words.length > 4) return false;
+    var titleWords = 0;
+    for(var i = 0; i < words.length; i++){
+      var w = words[i];
+      if(w === '&' || /^(of|the|and|in|from|a|to|de|la|vs)$/i.test(w)) continue;
+      if(/^[A-Z][a-z0-9'!.]*$/.test(w) || /^[A-Z]{2,}$/.test(w)){ titleWords++; continue; }
+      return false;
+    }
+    return titleWords > 0;
+  }
+  function moveNameBefore(lines, i){
+    for(var j = i - 1; j >= 0 && j >= i - 12; j--){
+      var raw = String(lines[j] || '').trim().replace(/^[‘’'“”"\-–—\s]+/, '');
+      if(!raw) continue;
+      var m = raw.match(/^([A-Za-z0-9'&.! ]{2,40}?)\s*[~—–-]\s+[A-Z]/);
+      if(m && moveNameOk(m[1].trim())) return m[1].trim();
+      m = raw.match(/^([A-Z][A-Za-z0-9'&!-]{1,24}?)\s+(?:By|Using|Similar|This)\b/);
+      if(m && moveNameOk(m[1].trim())) return m[1].trim();
+      if(moveNameOk(raw.replace(/[.:]+$/, ''))) return raw.replace(/[.:]+$/, '');
+    }
+    return '';
+  }
+  function parseManualMoves(lines, attack){
+    var moves = [], byName = {}, byKey = {};
+    function add(name, seq, source){
+      name = String(name || '').replace(/\s+/g, ' ').trim().replace(/[.:,;]+$/, '');
+      if(source === 'prose' && name.length > 4 && /^[A-Z0-9 '&.-]+$/.test(name)) return;
+      if(name.length > 6) name = name.replace(/([a-z])\1{2,}$/i, '$1$1');
+      seq = (seq || []).slice(0, 7);
+      if(!moveNameOk(name) || seq.length < 2) return;
+      if(!seq.some(function(x){ return typeof x === 'number'; })) return;
+      var key = manualNorm(name) + '|' + seq.join('');
+      if(byKey[key] || byName[manualNorm(name)]) return;
+      byKey[key] = byName[manualNorm(name)] = 1;
+      moves.push({ name: name, seq: seq, source: source || 'manual' });
+    }
+    lines.forEach(function(raw, i){
+      var line = String(raw || '').trim();
+      if(!line) return;
+      /* Explicit move tables, e.g. "Spear - B,B,LP" or "Fireball - F,F,HP". */
+      var m = line.match(/^([A-Za-z0-9'&.! ]{2,40}?)\s*[-–—:]\s*(.{2,90})$/);
+      if(m){
+        var name = m[1].trim(), rhs = m[2].trim();
+        if(!/^(LP|HP|LK|HK|RN|BL|IP)\b/i.test(name) &&
+           !/\b(limited|warranty|period|rights|reserved|liability|warning|page|note|default|button|control)\b/i.test(name) &&
+           !/\b(limited|warranty|rights|reserved|liability|www|http)\b/i.test(rhs)){
+          var seq = moveSeqNotation(rhs, attack);
+          if(!seq.length && String(rhs || '').length <= 55) seq = moveSeqWords(rhs, attack);
+          add(name, seq, seq.length ? 'notation' : 'words');
+        }
+      }
+      /* Prose move instructions: "Using the control pad, press ... and press
+         any punch button", plus charge/tap phrasings used by KI. */
+      if(/\b(using the control pad|in one continuous motion|then simultaneously|charge\b.*\bthen|tap\b.*\bthen)\b/i.test(line) &&
+         /\b(punch|kick|button|attack|motion|charge|tap|hold)\b/i.test(line)){
+        var nm = moveNameBefore(lines, i);
+        if(nm){
+          var ctx = line + ' ' + (lines[i + 1] || '') + ' ' + (lines[i + 2] || '');
+          add(nm, moveSeqProse(ctx, attack), 'prose');
+        }
+      }
+    });
+    return moves.slice(0, 48);
+  }
+  /* Coarse, title-driven style prior. This is deliberately not a
+     per-game script: it chooses one of a handful of input policies. */
+  function manualStyle(title, kind){
+    var t = String(title || '');
+    if(/\b(soccer|football|basketball|baseball|hockey|golf|tennis|volleyball|rugby|cricket|bowling|olympic|world cup|fifa|madden|nba|nhl|ncaa|kick off|sports)\b/i.test(t)) return 'sports';
+    if(/\b(race|racing|kart|grand prix|f-zero|fzero|top gear|rock n roll racing|super off road|micro machines|street racer)\b/i.test(t)) return 'racing';
+    if(/\b(tetris|puzzle|columns|puyo|dr mario|lemmings|bust a move|bust-a-move|kirby avalanche|wario's woods|wordtris|zoop|pac-attack|magical drop)\b/i.test(t)) return 'puzzle';
+    if(/\b(doom|wolfenstein|shooter|contra|gradius|r-type|turrican|axelay|star fox|starfox|after burner|lethal enforcers|phalanx|sonic blastman|super scope|bazooka|blazing skies|earth defense|firepower|operation logic bomb|zombies ate)\b/i.test(t)) return 'shooter';
+    if(/\b(tournament fighters|fighting edition)\b/i.test(t)) return 'fighter';
+    if(/\b(final fight|brawl brothers|beat.?em|ninja warriors|tmnt|turtles|power rangers|spawn|cliffhanger|batman|maximum carnage|separation anxiety|king of dragons|knights of the round|aliens vs predator|double dragon)\b/i.test(t)) return 'beat-em-up';
+    if(kind === 'fighter' || /\b(fighter|fighting|mortal kombat|street fighter|killer instinct|fatal fury|samurai shodown|art of fighting|world heroes|clay fighter|shaq fu|power instinct|tuff e nuff|ultimate fighter|pit fighter|ballz|doomsday warrior|fighter's history|brutal|boxing|punch-out|wwf|wrestl)\b/i.test(t)) return 'fighter';
+    if(/\b(final fantasy|chrono|secret of mana|breath of fire|lufia|dragon quest|earthbound|illusion of gaia|soul blazer|terranigma|rpg|zelda|adventure)\b/i.test(t)) return 'adventure';
+    return 'platformer';
+  }
   function parseManual(meta, text){
     var lines = String(text || '').split(/\r?\n/);
     var run = manualBest(lines, ['run', 'dash', 'sprint'], [1, 11, 0, 8]);
     var jump = manualBest(lines, ['jump', 'leap'], [0, 8, 9, 1]);
     var block = manualBest(lines, ['block', 'guard', 'defend'], [10, 11, 1]);
     var attack = manualAttackButtons(lines);
+    var moves = parseManualMoves(lines, attack);
     var actions = [];
     var add = function(b){ if(b != null && actions.indexOf(b) === -1) actions.push(b); };
     if(jump) jump.buttons.forEach(add);
@@ -472,7 +717,12 @@
     if(block) add(block.buttons[0]);
     [8, 0, 9, 1].forEach(function(b){ if(actions.length < 4) add(b); });
     if(!actions.length) actions = [8, 0, 9];
-    var kind = (attack.length >= 3 && (block || /\b(punch|kick)\b/i.test(text))) ? 'fighter' : 'platformer';
+    /* Generic genre read: strong title words or a manual that repeatedly
+       talks about punches, kicks, rounds, combos and opponents. */
+    var fightTitle = /\b(street fighter|mortal kombat|killer instinct|fatal fury|art of fighting|samurai shodown|wwf|wrestl|boxing|punch-out|fighter|fighting)\b/i.test(meta.title);
+    var fightHits = (String(text).match(/\b(punch(?:es|ed|ing)?|kick(?:s|ed|ing)?|combo|opponent|knockout|versus|round)\b/gi) || []).length;
+    var kind = (fightTitle || (attack.length >= 3 && (block || fightHits >= 12))) ? 'fighter' : 'platformer';
+    var style = manualStyle(meta.title, kind);
     if(kind === 'platformer'){
       attack = [];
       block = null;
@@ -493,10 +743,10 @@
     if(block) weights[block.buttons[0]] = (weights[block.buttons[0]] || 0) + 0.05;
     return {
       id: meta.id, title: meta.title, pages: meta.pages, region: meta.region,
-      method: meta.method, chars: meta.chars, kind: kind, actions: actions,
+      method: meta.method, chars: meta.chars, kind: kind, style: style, actions: actions,
       run: run ? run.buttons[0] : null, jump: jump ? jump.buttons[0] : null,
       block: block ? block.buttons[0] : null, strikes: attack, weights: weights,
-      shoulders: [10, 11], hints: hints, source: 'ai/manuals/' + meta.text
+      moves: moves, shoulders: [10, 11], hints: hints, source: 'ai/manuals/' + meta.text
     };
   }
   function ensureManualIndex(){
@@ -520,6 +770,7 @@
     var n = manualNorm(name), nt = n.split(' ').filter(Boolean);
     if(!n) return null;
     var best = null, bestScore = 0;
+    var nf = manualFileNorm(name);
     MANUAL_STATE.index.manuals.forEach(function(m){
       var mt = manualNorm(m.title), score = 0;
       if(mt === n) score = 100;
@@ -529,6 +780,9 @@
         a.forEach(function(t){ if(nt.indexOf(t) !== -1) hit++; });
         score = 25 * hit / Math.max(1, Math.max(a.length, nt.length));
       }
+      var mf = manualFileNorm(m.file);
+      if(mf && mf === nf) score += 45;
+      else if(mf && (mf.indexOf(nf) === 0 || nf.indexOf(mf) === 0)) score += 15;
       var reg = String(m.region || '').toLowerCase();
       if(/\busa\b/.test(n) && /usa/.test(reg)) score += 12;
       if(/\bpal\b/.test(reg) && !/\bpal\b/.test(n)) score -= 8;
@@ -538,7 +792,9 @@
     return best;
   }
   function loadManualForGame(name){
-    var sig = manualNorm(name);
+    /* Keep region/rev tokens in the cache key. Two regional manuals for the
+       same title must not reuse each other's parsed controls. */
+    var sig = manualFileNorm(name);
     if(MANUAL_STATE.sig === sig && MANUAL_STATE.current) return Promise.resolve(MANUAL_STATE.current);
     if(MANUAL_STATE.sig === sig && MANUAL_STATE.loading) return MANUAL_STATE.loading;
     MANUAL_STATE.sig = sig;
@@ -565,6 +821,7 @@
       MANUAL_STATE.loading = false;
       applyManualToPilots();
       updateManualHud();
+      updateAgentHud();
       updateAiStatus();
       return profile;
     }).catch(function(e){
@@ -581,15 +838,15 @@
   function applyManualToPilot(pt){
     var m = MANUAL_STATE.current;
     pt.manual = m || null;
-    var baseOrder = (m && m.actions && m.actions.length) ? m.actions.slice() :
-      ((pt.slot % 2 === 0) ? AgentMap.actions.slice() : AgentMap.actions.slice().reverse());
-    /* Give each pilot a different first action: the same manual prior must
-       not make two brains pick the exact same button on every beat. */
-    pt.order = (pt.slot > 0 && baseOrder.length > 1)
-      ? baseOrder.slice(1).concat(baseOrder.slice(0, 1)) : baseOrder;
+    /* Identical controller layout on both ports: the manual order is the
+       same for P1 and P2. The brains are independent; the button map is not. */
+    pt.order = (m && m.actions && m.actions.length) ? m.actions.slice() : AgentMap.actions.slice();
     pt.runBtn = (m && m.run != null) ? m.run : AgentMap.run;
     pt.blockBtn = (m && m.block != null) ? m.block : 10;
     pt.jumpBtn = (m && m.jump != null) ? m.jump : pt.order[0];
+    pt.kind = (m && m.kind) ? m.kind : 'platformer';
+    pt.style = (m && m.style) ? m.style : (pt.kind === 'fighter' ? 'fighter' : 'platformer');
+    pt.movebook = (m && m.moves && m.moves.length) ? m.moves.slice() : [];
     pt.strikes = (m && m.strikes && m.strikes.length) ? m.strikes.slice() : [1, 0, 8, 9];
     [1, 0, 8, 9].forEach(function(b){ if(pt.strikes.indexOf(b) === -1) pt.strikes.push(b); });
     pt.shoulders = (m && m.shoulders) ? m.shoulders.slice() : AgentMap.shoulders.slice();
@@ -606,6 +863,7 @@
     }
   }
   function applyManualToPilots(){
+    if(autoOn) releaseAuto(); /* don't carry a throttle/run hold into a new style */
     autoPilots.forEach(applyManualToPilot);
   }
   function pickPlayAction(pt){
@@ -616,7 +874,7 @@
       var b = pool[i], tries = l.tries[b] || 0;
       var avg = (l.score[b] || 0) / (tries + 1);
       var prior = 0.15 + (pool.length - i) * 0.04;
-      var explore = (pt.explore || 1.15) * Math.sqrt(Math.log(n + 2) / (tries + 1));
+      var explore = (pt.brain.explore || 1.15) * Math.sqrt(Math.log(n + 2) / (tries + 1));
       var s = avg + prior + explore + ((pt.hopN + i * 5) % 7) * 0.001;
       if(s > bestScore){ bestScore = s; best = b; }
     }
@@ -626,7 +884,7 @@
   function rewardPlayAction(pt, d, sh, shy){
     var l = pt.learn, p = l && l.pending;
     if(!p) return;
-    var moved = d >= Math.max(1, AgentOpts.loThresh) ||
+    var moved = d >= Math.max(1, pt.brain.loThresh) ||
       Math.abs(sh || 0) >= 2 || Math.abs(shy || 0) >= 2;
     l.tries[p.btn] = (l.tries[p.btn] || 0) + 1;
     l.score[p.btn] = (l.score[p.btn] || 0) + (moved ? 1 : -0.25);
@@ -664,7 +922,7 @@
       var actLabel = (m.kind === 'fighter') ? 'attack' : 'actions';
       var actList = (m.kind === 'fighter') ? m.strikes : m.actions;
       e.textContent = 'MANUAL · ' + m.title + ' · ' + m.pages + 'p · ' +
-        m.kind + ' · jump ' + (m.jump != null ? (BTN_NAMES[m.jump] || m.jump) : '?') +
+        m.style + ' · jump ' + (m.jump != null ? (BTN_NAMES[m.jump] || m.jump) : '?') +
         ' · run ' + (m.run != null ? (BTN_NAMES[m.run] || m.run) : '?') +
         ' · ' + actLabel + ' ' + (actList.length ? names(actList) : '?') +
         ' · P1+P2 learn';
@@ -681,27 +939,125 @@
     pilots: function(){
       return autoPilots.map(function(pt){
         return { player: pt.pl + 1, mode: pt.mode, role: pt.menuRole,
-          manual: pt.manual ? pt.manual.id : null,
+          manual: pt.manual ? pt.manual.id : null, kind: pt.kind, style: pt.style,
           order: pt.order, run: pt.runBtn, block: pt.blockBtn, strikes: pt.strikes,
           learn: { tries: pt.learn.tries, score: pt.learn.score, total: pt.learn.total } };
       });
     }
   };
   /* One independent copilot per driven player — same screen, own brain.
-     Every pilot works the menus (grid moves + confirm + START), senses and
-     plays with its own rhythm, so P2 never just parrots P1. */
+     Every pilot senses and plays with its own rhythm, so P2 never just
+     parrots P1. P1 leads the menus; P2 joins with one START. */
   var autoPilots = [];
   /* Every pilot owns its timers, motion history, steering vote and menu
      guard. There is no shared autoDir / autoDiff / screenWatch any more:
      P1 can seek, release and tap its menus while P2 keeps playing. */
+  function makeWatch(){
+    return {
+      motionEma: 0, motionPeak: 0, lastMotionAt: Date.now(), stillMs: 0,
+      lastSh: 0, lastShy: 0, progressEma: 0, haveData: false,
+      lastTap: null, tapScore: {}, lastTapInfo: '', runWanted: true
+    };
+  }
+  function watchReset(){
+    autoPilots.forEach(function(pt){
+      pt.watch = makeWatch();
+      pt.watch.lastMotionAt = Date.now();
+    });
+    updateScreenWatch();
+  }
+  function scrollLabel(sh, shy){
+    var out = '';
+    if(sh >= 2) out += 'R' + Math.abs(sh);
+    else if(sh <= -2) out += 'L' + Math.abs(sh);
+    if(shy >= 2) out += (out ? ' ' : '') + 'D' + Math.abs(shy);
+    else if(shy <= -2) out += (out ? ' ' : '') + 'U' + Math.abs(shy);
+    return out || 'still';
+  }
+  function updateScreenWatch(){
+    updateManualLearn();
+    var e = document.getElementById('anton-watch');
+    if(!e) return;
+    if(!AgentOpts.autoTune){ e.textContent = 'SON OF ANTON · screen watch off — manual tuning only'; return; }
+    if(!autoOn){ e.textContent = 'SON OF ANTON · screen watch idle — autopilot off'; return; }
+    var parts = autoPilots.map(function(pt){
+      var w = pt.watch;
+      return 'P' + (pt.pl + 1) + ' ' + pt.mode.toUpperCase() +
+        ' m' + w.motionEma.toFixed(1) +
+        ' still ' + (w.stillMs / 1000).toFixed(1) + 's ' +
+        scrollLabel(w.lastSh, w.lastShy) +
+        (w.lastTapInfo ? ' ' + w.lastTapInfo : '');
+    });
+    parts.push('hop ' + autoPilots.map(function(pt){
+      return 'P' + (pt.pl + 1) + ':' + pt.brain.hopEvery;
+    }).join(' '));
+    parts.push('run ' + autoPilots.map(function(pt){
+      return 'P' + (pt.pl + 1) + (pt.watch.runWanted ? ':on' : ':off');
+    }).join(' '));
+    e.textContent = 'SON OF ANTON · watching: ' + parts.join(' · ');
+  }
+  function watchMetrics(pt, dMax, sh, shy){
+    var now = Date.now();
+    var w = pt.watch;
+    var motion = dMax || 0;
+    w.haveData = true;
+    w.motionEma = w.motionEma ? w.motionEma * 0.65 + motion * 0.35 : motion;
+    if(motion > w.motionPeak) w.motionPeak = motion;
+    if(motion >= pt.brain.hiThresh) w.lastMotionAt = now;
+    w.stillMs = now - w.lastMotionAt;
+    w.lastSh = sh || 0;
+    w.lastShy = shy || 0;
+    var prog = Math.max(Math.abs(sh || 0), Math.abs(shy || 0));
+    w.progressEma = w.progressEma ? w.progressEma * 0.7 + prog * 0.3 : prog;
+    /* credit or blame this pilot's last seek tap only */
+    if(w.lastTap && now - w.lastTap.t >= pt.brain.senseMs){
+      var tap = w.lastTap;
+      var changed = w.motionPeak >= Math.max(pt.brain.loThresh, 1.5);
+      var score = w.tapScore[tap.btn] || 0;
+      w.tapScore[tap.btn] = Math.max(-5, Math.min(10, score + (changed ? 1.5 : -1)));
+      w.lastTapInfo = 'tap ' + (BTN_NAMES[tap.btn] || tap.btn) + (changed ? ' ✓' : ' ✗');
+      w.lastTap = null;
+    }
+  }
+  function noteWatchTap(pt, btn){
+    pt.watch.lastTap = { btn: btn, t: Date.now() };
+    pt.watch.motionPeak = 0;
+    pt.watch.lastTapInfo = 'tap ' + (BTN_NAMES[btn] || btn) + '…';
+  }
+  function pickSeekTap(pt){
+    var cycle = (pt.cycle && pt.cycle.length) ? pt.cycle : autoCycle;
+    var idx = pt.menuN % cycle.length;
+    var def = cycle[idx];
+    var w = pt.watch;
+    if(!AgentOpts.autoTune || w.stillMs < Math.max(3000, pt.brain.tapMs)) return def;
+    var best = def, bestScore = -Infinity;
+    for(var i = 0; i < cycle.length; i++){
+      var cand = cycle[i];
+      var score = (w.tapScore[cand] || 0) - (i === idx ? 0.01 : 0);
+      if(score > bestScore){ bestScore = score; best = cand; }
+    }
+    /* everything failed so far: break the loop by advancing the rotation */
+    return bestScore < 0 ? cycle[(idx + 1) % cycle.length] : best;
+  }
   function makePilot(player, idx){
     var pt = { pl: player, active: true, menus: true, mode: 'seek', prev: null, hi: 0, lo: 0,
       menuN: 0, hopN: idx * 2, tick: 0, shN: 0, fphase: -1, mixFight: false,
-      slot: idx, startUsed: false, startReadyAt: idx > 0 ? 1 : 2, lastStart: 0,
+      slot: idx, startUsed: false, startReadyAt: idx > 0 ? 1 : 2, lastStart: 0, lastConfirmAt: 0,
+      everPlayed: false, menuGen: 0,
       dir: AgentMap.dirR, dirY: null, dirYMiss: 0, diff: 0,
       watch: makeWatch(), menuGuardFrame: null,
       menuRole: idx === 0 ? 'lead' : 'join', joinConfirm: false,
-      explore: idx === 0 ? 1.05 : 1.3,
+      /* Per-port brain settings. Both controllers use the same layout;
+         these values are copied once and then tuned by this pilot alone. */
+      brain: {
+        hiThresh: AgentOpts.hiThresh, loThresh: AgentOpts.loThresh,
+        hiStreak: AgentOpts.hiStreak, loStreak: AgentOpts.loStreak,
+        blackMean: AgentOpts.blackMean, hopEvery: AgentOpts.hopEvery,
+        hopPulseMs: AgentOpts.hopPulseMs, senseMs: AgentOpts.senseMs,
+        tapMs: AgentOpts.tapMs, explore: 1.15
+      },
+      anton: { hist: [], lastModes: '', cool: 0, seekStuck: 0, playStall: 0 },
+      cycle: autoCycle.slice(),
       timers: { menu: null, sense: null, drive: null },
       order: AgentMap.actions.slice(),
       learn: { score: {}, tries: {}, total: 0, pending: null, sig: '' } };
@@ -712,6 +1068,10 @@
      immediately (join); P1 waits one grid pass so it never starts on the
      default top-left cell. */
   function armStart(pt){
+    /* START is a pause toggle in live gameplay. Once this pilot has seen
+       actual play, never re-arm it automatically for a menu-looking frame;
+       otherwise an animated/static gameplay scene gets START and pauses. */
+    if(pt.everPlayed) return;
     pt.startUsed = false;
     pt.joinConfirm = false;
     pt.startReadyAt = pt.menuN + (pt.slot > 0 ? 1 : 2);
@@ -798,8 +1158,15 @@
         setTimeout(function(){ if(autoOn){ driveIndex(4, false, 'auto', pt.pl); } }, 200);
       }, 300);
     }else{
-      var mv = UMK3_MOVEBOOK[(pt.tick + idx) % UMK3_MOVEBOOK.length];
-      fightTapSeq(resolveMove(mv.seq, fwd, back), pt.pl); /* real manual strings, e.g. spear/freeze */
+      /* Use parsed manual moves when available; otherwise keep striking. */
+      var book = (pt.movebook && pt.movebook.length) ? pt.movebook :
+        ((AgentOpts.profile === 'umk3' || AgentOpts.profile === 'mix') ? UMK3_MOVEBOOK : []);
+      if(book.length){
+        var mv = book[(pt.tick + idx) % book.length];
+        fightTapSeq(resolveMove(mv.seq, fwd, back), pt.pl);
+      }else{
+        fightPulse(pt.strikes[(pt.tick + idx) % pt.strikes.length], pt.pl, 140);
+      }
     }
   }
   function pilotModes(){
@@ -814,16 +1181,22 @@
   }
   /* Short, spaced menu pulse: long enough for the menu to see it, short
      enough that consecutive dpad taps stay single steps (no diagonals). */
-  function menuTap(pt, btn, delay, base){
+  function menuTap(pt, btn, delay, base, force){
+    var gen = pt.menuGen;
     setTimeout(function(){
-      if(!autoOn || !playing || !pt.active || pt.mode !== 'seek') return;
+      if(!autoOn || !playing || !pt.active || pt.mode !== 'seek' || gen !== pt.menuGen) return;
+      /* START is the pause key. After this pilot has seen gameplay, never
+         send START again from an ambient menu-looking frame. */
+      if(pt.everPlayed && btn === AgentMap.start) return;
       /* If the screen has started scrolling since this burst began, the
          menu is gone — drop the rest of the burst instead of firing A/START
          into live gameplay (START would pause it). */
-      if(base){
+      if(!force && base){
         var cur = frameGray();
-        if(cur && (Math.abs(colShift(base, cur)) >= 2 ||
-                   Math.abs(rowShift(base, cur)) >= 2)) return;
+        /* Only drop the burst when the whole picture changed (menu left for
+           gameplay). Animated title logos and sprites must not cancel the
+           START/A tap, or the pilot sits on a title screen forever. */
+        if(cur && grayDiff(base, cur) > 18) return;
       }
       noteWatchTap(pt, btn);
       driveIndex(btn, true, 'auto', pt.pl);
@@ -834,31 +1207,33 @@
     var base = frameGray(); /* burst baseline: abort when the world moves */
     var now = Date.now();
     /* Two roles, not two copies of the same navigator. The lead pilot walks
-       grids and confirms; the join pilot only presses START once to enter,
-       then confirms its own character once. Otherwise both controllers
-       would fight over the same cursor and the same menu. */
+       grids and confirms; the join pilot only presses START once to enter.
+       Otherwise both controllers would fight over the same cursor and the
+       same menu. */
     if(pt.menuRole === 'join'){
-      var canJoin = !pt.startUsed && pt.menuN >= pt.startReadyAt;
+      var canJoin = !pt.everPlayed && !pt.startUsed && pt.menuN >= pt.startReadyAt;
       if(canJoin){
         pt.startUsed = true;
         pt.lastStart = now;
-        menuTap(pt, AgentMap.start, idx * 20, base);
+        menuTap(pt, AgentMap.start, idx * 20, base, true);
+        pt.lastConfirmAt = now;
         return;
-      }
-      if(!pt.joinConfirm && pt.menuN >= pt.startReadyAt){
-        pt.joinConfirm = true;
-        menuTap(pt, AgentMap.actions[0], idx * 20, base);
       }
       return;
     }
     /* START is the pause button in live gameplay, so the lead pilot gets
        ONE START per menu screen, after its first grid/A pass. A new screen
        re-arms it; nothing here ever repeats START every tick. */
-    var canStart = !pt.startUsed && pt.menuN >= pt.startReadyAt;
+    /* In two-player mode P2 is the joiner and owns START. P1 must not
+       also press it: the second START lands after the game begins and
+       toggles pause. Solo P1 keeps its one START. */
+    var canStart = !pt.everPlayed && !pt.startUsed && pt.menuN >= pt.startReadyAt &&
+      autoPilots.length === 1;
     if(canStart){
       pt.startUsed = true;
       pt.lastStart = now;
-      menuTap(pt, AgentMap.start, idx * 20, base);
+      menuTap(pt, AgentMap.start, idx * 20, base, true);
+      pt.lastConfirmAt = now;
       return;
     }
     var pattern = MENU_GRID_MOVES[(pt.menuN + idx * 5) % MENU_GRID_MOVES.length];
@@ -867,14 +1242,29 @@
       menuTap(pt, btn, delay, base);
       delay += 220;
     });
-    /* A is the character-select confirm. The tunable seek tap is only an
-       extra fallback (Select/dpad) when it is neither A nor START. */
+    /* Confirm with the game's menu button, not its primary gameplay
+       action. SMAS SELECT GAME uses B; Super Mario World and most other
+       games use A. The tunable seek tap is only a fallback when it is
+       neither the menu confirm nor START. */
+    var confirmBtn = AgentMap.actions[0];
+    if(pt.manual && MENU_CONFIRM_OVERRIDE[pt.manual.id] != null){
+      confirmBtn = MENU_CONFIRM_OVERRIDE[pt.manual.id];
+    }
     var extra = pickSeekTap(pt);
-    if(extra !== AgentMap.actions[0] && extra !== AgentMap.start){
+    if(extra !== confirmBtn && extra !== AgentMap.start){
       menuTap(pt, extra, delay, base);
       delay += 220;
     }
-    menuTap(pt, AgentMap.actions[0], delay, base);
+    menuTap(pt, confirmBtn, delay, base, true);
+    pt.lastConfirmAt = now;
+  }
+  function styleStatusText(){
+    var m = MANUAL_STATE.current;
+    var style = autoPilots.length ? (autoPilots[0].style || 'platformer') :
+      ((m && m.style) || 'platformer');
+    var title = m ? m.title : (currentName || 'no ROM');
+    var moves = (m && m.moves) ? m.moves.length : 0;
+    return { style: style, title: title, moves: moves };
   }
   function updateAgentHud(){
     var maxD = 0, dirs = '';
@@ -895,23 +1285,54 @@
       e.textContent = txt;
       e.classList.toggle('hidden', !AgentOpts.hud);
     });
+    var st = styleStatusText();
+    var showStyle = autoOn || playing;
+    $all('.auto-style').forEach(function(e){
+      e.textContent = (autoOn ? 'AI · ' : 'AI OFF · ') + st.style.toUpperCase() + ' · ' + st.title +
+        (st.moves ? ' · ' + st.moves + ' moves' : ' · strikes');
+      e.classList.toggle('hidden', !showStyle);
+    });
+    var ss = document.getElementById('ai-style-summary');
+    if(ss) ss.textContent = (autoOn ? 'AUTOPILOT ON' : 'AUTOPILOT OFF') + ' · ' +
+      st.style.toUpperCase() + ' · ' + st.title + ' · ' +
+      (st.moves ? st.moves + ' parsed moves' : 'no parsed moves') +
+      (autoOn ? ' · ' + pilotModes() : '');
     var hb = document.getElementById('btn-hud');
     if(hb) hb.textContent = AgentOpts.hud ? 'HUD: ON' : 'HUD: OFF';
+  }
+  function enterPlay(pt){
+    if(pt.mode === 'play') return;
+    pt.mode = 'play';
+    pt.everPlayed = true;
+    autoPilots.forEach(function(o){ o.menuGen++; }); /* cancel queued menu bursts */
+    updateAutoBtn();
   }
   function sensePilot(pt, g){
     if(!g || !pt.prev){ pt.prev = g; return 0; }
     var d = grayDiff(g, pt.prev);
     pt.prev = g;
     pt.lastD = d;
-    if(d > AgentOpts.hiThresh){
+    if(d > pt.brain.hiThresh){
       pt.hi++; pt.lo = 0;
-      if(pt.hi >= AgentOpts.hiStreak && pt.mode !== 'play'){ pt.mode = 'play'; updateAutoBtn(); }
-    }else if(d < AgentOpts.loThresh){
+      if(pt.hi >= pt.brain.hiStreak) enterPlay(pt);
+    }else if(d < pt.brain.loThresh){
       pt.lo++; pt.hi = 0;
-      if(pt.lo >= AgentOpts.loStreak && pt.mode !== 'seek'){
-        pt.mode = 'seek';
-        armStart(pt); /* new episode: allow one START again */
-        releasePilot(pt.pl); updateAutoBtn();
+      if(pt.lo >= pt.brain.loStreak && pt.mode !== 'seek'){
+        /* Static gameplay is normal (standing Mario, text box); only fall
+           back to SEEK while still navigating pre-game menus. Once a pilot
+           has played, START stays locked out anyway. */
+        if(!pt.everPlayed){
+          pt.mode = 'seek';
+          armStart(pt); /* new episode: allow one START again */
+          releasePilot(pt.pl); updateAutoBtn();
+        }
+      }else if(pt.mode === 'seek' && pt.lastConfirmAt &&
+               Date.now() - pt.lastConfirmAt >= Math.max(1800, pt.brain.senseMs) &&
+               grayMean(g) >= pt.brain.blackMean){
+        /* A confirm was sent a while ago and the screen has settled. Static
+           gameplay (a standing Mario, a text box) never scrolls, so pixel
+           motion alone would leave the pilot in SEEK forever. */
+        enterPlay(pt);
       }
     }else{ pt.hi = 0; pt.lo = 0; }
     return d;
@@ -929,17 +1350,16 @@
         pt.menuGuardFrame = nowFrame;
         return;
       }
-      /* A large static change means this is a different menu screen, so
-         re-arm exactly one START for this pilot. Cursor moves are tiny and
-         stay under this threshold. */
-      var dsum = 0, i;
-      for(i = 0; i < nowFrame.length; i++){
-        var dd = nowFrame[i] - pt.menuGuardFrame[i];
-        dsum += dd < 0 ? -dd : dd;
-      }
-      newScreen = (dsum / nowFrame.length) > 10;
+      /* A large whole-picture change means this is a different menu
+         screen, so re-arm exactly one START for this pilot. Animated title
+         logos/sprites are small local changes and must not keep re-arming
+         START forever (that leaves the pilot stuck on the title). */
+      newScreen = grayDiff(pt.menuGuardFrame, nowFrame) > 18;
     }
     pt.menuGuardFrame = nowFrame;
+    /* Before gameplay, a genuinely new menu screen may need its own START
+       (title -> select -> 2P join). Once everPlayed is true, armStart is a
+       no-op, so this cannot toggle pause in a live game. */
     if(newScreen) armStart(pt);
     if(pt.mode !== 'seek' || !pt.menus) return;
     pt.menuN++;
@@ -949,7 +1369,7 @@
     if(!autoOn || !playing || !pt.active){ pt.prev = null; return; }
     var g = frameGray();
     if(!g) return;
-    if(grayMean(g) < AgentOpts.blackMean){
+    if(grayMean(g) < pt.brain.blackMean){
       /* black transition / fade-out: only this pilot heals and releases */
       pt.prev = g; pt.hi = 0; pt.lo = 0; pt.diff = 0;
       if(pt.mode !== 'seek'){ pt.mode = 'seek'; armStart(pt); }
@@ -969,9 +1389,9 @@
     pt.diff = d;
     rewardPlayAction(pt, d, sh, shy);
     watchMetrics(pt, d, sh, shy);
-    /* one shared tuner reads pilot 0; it never touches another pilot's
-       steering or release path */
-    if(pt.slot === 0) antonGovern(pt, d);
+    /* each pilot runs its own tuner against its own brain copy; no
+       thresholds, hop cadence or seek cycle are shared */
+    antonGovern(pt, d);
     updateAgentHud();
     updateScreenWatch();
   }
@@ -982,7 +1402,7 @@
     driveIndex(pt.dir === AgentMap.dirL ? AgentMap.dirR : AgentMap.dirL, false, 'auto', pt.pl);
     driveIndex(pt.dir, true, 'auto', pt.pl);
     /* run/dash only while this pilot's pixels actually demand it */
-    var wantsRun = !pt.watch.haveData || pt.diff > AgentOpts.loThresh ||
+    var wantsRun = !pt.watch.haveData || pt.diff > pt.brain.loThresh ||
       Math.abs(pt.watch.lastSh) >= 2 || Math.abs(pt.watch.lastShy) >= 2;
     pt.watch.runWanted = wantsRun;
     driveIndex(pt.runBtn, wantsRun, 'auto', pt.pl);
@@ -1000,18 +1420,18 @@
         var vn = ((pt.tick >> 3) % 2 === 0) ? 5 : 4;
         driveIndex(vn, true, 'auto', pt.pl);
         (function(v, pl){
-          setTimeout(function(){ if(autoOn) driveIndex(v, false, 'auto', pl); }, AgentOpts.hopPulseMs);
+          setTimeout(function(){ if(autoOn) driveIndex(v, false, 'auto', pl); }, pt.brain.hopPulseMs);
         })(vn, pt.pl);
       }
     }
-    var hopEvery = Math.max(1, AgentOpts.hopEvery + (pt.slot > 0 ? 1 : 0));
+    var hopEvery = Math.max(1, pt.brain.hopEvery);
     if((pt.tick + idx) % hopEvery === 0){
       /* own rhythm per pilot: phase-offset hops, own button order */
       pt.hopN++;
       var btn = pickPlayAction(pt); /* manual prior + this pilot's own reward history */
       driveIndex(btn, true, 'auto', pt.pl);
       (function(b, pl){
-        setTimeout(function(){ if(autoOn) driveIndex(b, false, 'auto', pl); }, AgentOpts.hopPulseMs);
+        setTimeout(function(){ if(autoOn) driveIndex(b, false, 'auto', pl); }, pt.brain.hopPulseMs);
       })(btn, pt.pl);
       if(pt.hopN % 2 === 0){
         /* every other beat works a shoulder too — dash/strafe/special, per
@@ -1020,10 +1440,95 @@
         var sh = pt.shoulders[pt.shN % pt.shoulders.length];
         driveIndex(sh, true, 'auto', pt.pl);
         (function(s2, pl){
-          setTimeout(function(){ if(autoOn) driveIndex(s2, false, 'auto', pl); }, AgentOpts.hopPulseMs);
+          setTimeout(function(){ if(autoOn) driveIndex(s2, false, 'auto', pl); }, pt.brain.hopPulseMs);
         })(sh, pt.pl);
       }
     }
+  }
+  function styleRelease(pt, keep){
+    [4, 5, 6, 7].forEach(function(i){
+      if(i !== keep) driveIndex(i, false, 'auto', pt.pl);
+    });
+  }
+  function styleTap(pt, btn, ms){
+    if(btn != null) fightPulse(btn, pt.pl, ms || 130);
+  }
+  /* Shooter: strafe, fire continuously, dodge vertically, use a bomb. */
+  function shooterTick(pt, idx){
+    pt.tick++;
+    var dir = ((Math.floor(pt.tick / 7) + idx) % 2 === 0) ? AgentMap.dirR : AgentMap.dirL;
+    styleRelease(pt, dir);
+    driveIndex(dir, true, 'auto', pt.pl);
+    if(pt.tick % 2 === 0) styleTap(pt, pt.strikes[(pt.tick + idx) % pt.strikes.length], 120);
+    if(pt.tick % 5 === 0){
+      var vy = ((pt.tick >> 3) % 2 === 0) ? 5 : 4;
+      styleTap(pt, vy, pt.brain.hopPulseMs);
+    }
+    if(pt.tick % 9 === 0) styleTap(pt, pt.shoulders[(pt.tick + idx) % pt.shoulders.length], 150);
+  }
+  /* Sports: chase the play direction, sprint, pass/shoot on a beat. */
+  function sportsTick(pt, idx){
+    pt.tick++;
+    var sh = pt.watch.lastSh || 0;
+    var dir = sh > 1 ? AgentMap.dirR : (sh < -1 ? AgentMap.dirL :
+      (((Math.floor(pt.tick / 8) + idx) % 2 === 0) ? AgentMap.dirR : AgentMap.dirL));
+    styleRelease(pt, dir);
+    driveIndex(dir, true, 'auto', pt.pl);
+    driveIndex(pt.runBtn, true, 'auto', pt.pl);
+    if(pt.tick % 2 === 0) styleTap(pt, pt.strikes[(pt.tick + idx) % pt.strikes.length], 140);
+    if(pt.tick % 7 === 0) styleTap(pt, pt.shoulders[(pt.tick + idx) % pt.shoulders.length], 150);
+    if(pt.tick % 23 === 0) styleTap(pt, 5, 180);
+  }
+  /* Racing: hold throttle, steer from the road's horizontal motion, drift. */
+  function racingTick(pt, idx){
+    pt.tick++;
+    var sh = pt.watch.lastSh || 0;
+    var dir = sh > 1 ? AgentMap.dirR : (sh < -1 ? AgentMap.dirL :
+      (((Math.floor(pt.tick / 11) + idx) % 2 === 0) ? AgentMap.dirR : AgentMap.dirL));
+    styleRelease(pt, dir);
+    driveIndex(dir, true, 'auto', pt.pl);
+    driveIndex(pt.order[0], true, 'auto', pt.pl); /* throttle */
+    if(pt.tick % 9 === 0) styleTap(pt, pt.shoulders[(pt.tick + idx) % pt.shoulders.length], 160);
+    if(pt.tick % 17 === 0) styleTap(pt, 5, 220); /* brake / reverse */
+  }
+  /* Puzzle: slow cursor movement and rotate/confirm taps, no run holds. */
+  function puzzleTick(pt, idx){
+    pt.tick++;
+    styleRelease(pt, null);
+    var dirs = [AgentMap.dirL, AgentMap.dirR, 4, 5];
+    if(pt.tick % 4 === 0) styleTap(pt, dirs[(Math.floor(pt.tick / 4) + idx) % dirs.length], 150);
+    if(pt.tick % 3 === 0) styleTap(pt, pt.strikes[(pt.tick + idx) % pt.strikes.length], 120);
+    if(pt.tick % 13 === 0) styleTap(pt, 4, 180); /* hard drop / rotate */
+  }
+  /* Beat-’em-up: close distance, punch/kick, jump in, occasional guard. */
+  function beatEmUpTick(pt, idx){
+    pt.tick++;
+    var sh = pt.watch.lastSh || 0;
+    var dir = sh > 1 ? AgentMap.dirR : (sh < -1 ? AgentMap.dirL :
+      (((Math.floor(pt.tick / 6) + idx) % 2 === 0) ? AgentMap.dirR : AgentMap.dirL));
+    styleRelease(pt, dir);
+    driveIndex(dir, true, 'auto', pt.pl);
+    driveIndex(pt.runBtn, pt.tick % 3 !== 0, 'auto', pt.pl);
+    styleTap(pt, pt.strikes[(pt.tick + idx) % pt.strikes.length], 140);
+    if(pt.tick % 8 === 0) styleTap(pt, 4, 180);
+    if(pt.tick % 11 === 0) styleTap(pt, pt.blockBtn, 260);
+    if(pt.tick % 13 === 0) styleTap(pt, pt.shoulders[(pt.tick + idx) % pt.shoulders.length], 160);
+  }
+  /* Adventure: explore like a platformer, but work the sword/action and
+     shield more deliberately than the generic hop bot. */
+  function adventureTick(pt, idx){
+    pt.tick++;
+    var sh = pt.watch.lastSh || 0;
+    var dir = sh > 1 ? AgentMap.dirR : (sh < -1 ? AgentMap.dirL :
+      (((Math.floor(pt.tick / 9) + idx) % 2 === 0) ? AgentMap.dirR : AgentMap.dirL));
+    styleRelease(pt, dir);
+    driveIndex(dir, true, 'auto', pt.pl);
+    driveIndex(pt.runBtn, pt.watch.haveData && pt.diff > pt.brain.loThresh, 'auto', pt.pl);
+    if(pt.tick % 4 === 0) styleTap(pt, pt.strikes[(pt.tick + idx) % pt.strikes.length], 150);
+    if(pt.tick % 11 === 0) styleTap(pt, 4, pt.brain.hopPulseMs);
+    if(pt.tick % 13 === 0) styleTap(pt, pt.blockBtn, 220);
+    if(pt.tick % 17 === 0) styleTap(pt, 5, 180);
+    if(pt.tick % 19 === 0) styleTap(pt, pt.shoulders[(pt.tick + idx) % pt.shoulders.length], 150);
   }
   /* Mix: alternate ~2.4s platformer blocks with ~2.4s UMK3 fighter blocks.
      Each boundary releases the other profile's holds so run/dash, directions,
@@ -1049,7 +1554,16 @@
     if(pt.mode !== 'play') return; /* menus get taps only — held buttons would fight navigation */
     if(AgentOpts.profile === 'umk3'){ fightTick(pt, pt.slot); return; }
     if(AgentOpts.profile === 'mix'){ mixTick(pt, pt.slot); return; }
-    platformerTick(pt, pt.slot);
+    /* The manual's style selects one of several input policies. */
+    var style = pt.style || (pt.kind === 'fighter' ? 'fighter' : 'platformer');
+    if(style === 'fighter') fightTick(pt, pt.slot);
+    else if(style === 'shooter') shooterTick(pt, pt.slot);
+    else if(style === 'sports') sportsTick(pt, pt.slot);
+    else if(style === 'racing') racingTick(pt, pt.slot);
+    else if(style === 'puzzle') puzzleTick(pt, pt.slot);
+    else if(style === 'beat-em-up') beatEmUpTick(pt, pt.slot);
+    else if(style === 'adventure') adventureTick(pt, pt.slot);
+    else platformerTick(pt, pt.slot);
   }
   /* Each pilot gets its own three intervals. Stopping or retiming one has no
      effect on the other; callbacks only ever drive pt.pl. */
@@ -1132,159 +1646,65 @@
      already running: steering, RUN, hop cadence, seek tap choice, and the
      SEEK/PLAY thresholds. All changes stay inside the tune-grid clamps and
      are reported in #anton-live / #anton-watch. */
-  var antonHist = [], antonLastModes = '', antonCool = 0;
-  var antonSeekStuck = 0, antonPlayStall = 0;
-  function makeWatch(){
-    return {
-      motionEma: 0, motionPeak: 0, lastMotionAt: Date.now(), stillMs: 0,
-      lastSh: 0, lastShy: 0, progressEma: 0, haveData: false,
-      lastTap: null, tapScore: {}, lastTapInfo: '', runWanted: true
-    };
-  }
-  function antonSay(msg){
-    var e = document.getElementById('anton-live');
-    if(e) e.textContent = 'SON OF ANTON · ' + msg;
-  }
-  function watchReset(){
-    autoPilots.forEach(function(pt){
-      pt.watch = makeWatch();
-      pt.watch.lastMotionAt = Date.now();
-    });
-    updateScreenWatch();
-  }
-  function scrollLabel(sh, shy){
-    var out = '';
-    if(sh >= 2) out += 'R' + Math.abs(sh);
-    else if(sh <= -2) out += 'L' + Math.abs(sh);
-    if(shy >= 2) out += (out ? ' ' : '') + 'D' + Math.abs(shy);
-    else if(shy <= -2) out += (out ? ' ' : '') + 'U' + Math.abs(shy);
-    return out || 'still';
-  }
-  function updateScreenWatch(){
-    updateManualLearn();
-    var e = document.getElementById('anton-watch');
-    if(!e) return;
-    if(!AgentOpts.autoTune){ e.textContent = 'SON OF ANTON · screen watch off — manual tuning only'; return; }
-    if(!autoOn){ e.textContent = 'SON OF ANTON · screen watch idle — autopilot off'; return; }
-    var parts = autoPilots.map(function(pt){
-      var w = pt.watch;
-      return 'P' + (pt.pl + 1) + ' ' + pt.mode.toUpperCase() +
-        ' m' + w.motionEma.toFixed(1) +
-        ' still ' + (w.stillMs / 1000).toFixed(1) + 's ' +
-        scrollLabel(w.lastSh, w.lastShy) +
-        (w.lastTapInfo ? ' ' + w.lastTapInfo : '');
-    });
-    parts.push('hop ' + AgentOpts.hopEvery);
-    parts.push('run ' + autoPilots.map(function(pt){
-      return 'P' + (pt.pl + 1) + (pt.watch.runWanted ? ':on' : ':off');
-    }).join(' '));
-    e.textContent = 'SON OF ANTON · watching: ' + parts.join(' · ');
-  }
-  function watchMetrics(pt, dMax, sh, shy){
-    var now = Date.now();
-    var w = pt.watch;
-    var motion = dMax || 0;
-    w.haveData = true;
-    w.motionEma = w.motionEma ? w.motionEma * 0.65 + motion * 0.35 : motion;
-    if(motion > w.motionPeak) w.motionPeak = motion;
-    if(motion >= AgentOpts.hiThresh) w.lastMotionAt = now;
-    w.stillMs = now - w.lastMotionAt;
-    w.lastSh = sh || 0;
-    w.lastShy = shy || 0;
-    var prog = Math.max(Math.abs(sh || 0), Math.abs(shy || 0));
-    w.progressEma = w.progressEma ? w.progressEma * 0.7 + prog * 0.3 : prog;
-    /* credit or blame this pilot's last seek tap only */
-    if(w.lastTap && now - w.lastTap.t >= AgentOpts.senseMs){
-      var tap = w.lastTap;
-      var changed = w.motionPeak >= Math.max(AgentOpts.loThresh, 1.5);
-      var score = w.tapScore[tap.btn] || 0;
-      w.tapScore[tap.btn] = Math.max(-5, Math.min(10, score + (changed ? 1.5 : -1)));
-      w.lastTapInfo = 'tap ' + (BTN_NAMES[tap.btn] || tap.btn) + (changed ? ' ✓' : ' ✗');
-      w.lastTap = null;
-    }
-  }
-  function noteWatchTap(pt, btn){
-    pt.watch.lastTap = { btn: btn, t: Date.now() };
-    pt.watch.motionPeak = 0;
-    pt.watch.lastTapInfo = 'tap ' + (BTN_NAMES[btn] || btn) + '…';
-  }
-  function pickSeekTap(pt){
-    var idx = pt.menuN % autoCycle.length;
-    var def = autoCycle[idx];
-    var w = pt.watch;
-    if(!AgentOpts.autoTune || w.stillMs < Math.max(3000, AgentOpts.tapMs)) return def;
-    var best = def, bestScore = -Infinity;
-    for(var i = 0; i < autoCycle.length; i++){
-      var cand = autoCycle[i];
-      var score = (w.tapScore[cand] || 0) - (i === idx ? 0.01 : 0);
-      if(score > bestScore){ bestScore = score; best = cand; }
-    }
-    /* everything failed so far: break the loop by advancing the rotation */
-    return bestScore < 0 ? autoCycle[(idx + 1) % autoCycle.length] : best;
+  function antonSay(txt){
+    var el = document.getElementById('anton-live');
+    if(el) el.textContent = 'SON OF ANTON · ' + txt;
   }
   function antonGovern(pt, dMax){
     if(!AgentOpts.autoTune || !autoOn || !playing || !pt.active) return;
-    var w = pt.watch;
+    var w = pt.watch, a = pt.anton, b = pt.brain;
     var modes = 'P' + (pt.pl + 1) + ':' + pt.mode;
-    if(modes !== antonLastModes){ antonHist.push(1); antonLastModes = modes; }
-    else antonHist.push(0);
-    if(antonHist.length > 8) antonHist.shift();
-    if(antonCool > 0){ antonCool--; return; }
+    if(modes !== a.lastModes){ a.hist.push(1); a.lastModes = modes; }
+    else a.hist.push(0);
+    if(a.hist.length > 8) a.hist.shift();
+    if(a.cool > 0){ a.cool--; return; }
     var flips = 0, i;
-    for(i = 0; i < antonHist.length; i++) flips += antonHist[i];
-    if(flips >= 3 && antonHist.length >= 6){
-      AgentOpts.hiThresh = Math.min(40, Math.round((AgentOpts.hiThresh + 1) * 2) / 2);
-      AgentOpts.loThresh = Math.max(0.5, Math.round((AgentOpts.loThresh - 0.5) * 2) / 2);
-      antonHist = []; antonCool = 4;
-      saveAgentOpts(); renderTuneInputs();
-      antonSay('flapping — widened deadband (motion>' + AgentOpts.hiThresh + ' still<' + AgentOpts.loThresh + ')');
+    for(i = 0; i < a.hist.length; i++) flips += a.hist[i];
+    if(flips >= 3 && a.hist.length >= 6){
+      b.hiThresh = Math.min(40, Math.round((b.hiThresh + 1) * 2) / 2);
+      b.loThresh = Math.max(0.5, Math.round((b.loThresh - 0.5) * 2) / 2);
+      a.hist = []; a.cool = 4;
+      antonSay('P' + (pt.pl + 1) + ' flapping — widened deadband (motion>' + b.hiThresh + ' still<' + b.loThresh + ')');
       return;
     }
     if(pt.mode !== 'play'){
-      antonSeekStuck++; antonPlayStall = 0;
-      /* picture has not moved through several tap cycles: rotate the tap
-         order and make the motion bar easier, because this is a dead end */
-      if(antonSeekStuck >= 8 && w.stillMs >= Math.max(4000, AgentOpts.tapMs)){
-        var before = AgentOpts.hiThresh;
-        AgentOpts.hiThresh = Math.max(3, Math.round((AgentOpts.hiThresh - 1) * 2) / 2);
-        if(autoCycle.length > 1){
-          autoCycle.push(autoCycle.shift());
-          AgentOpts.seekCycle = autoCycle.join(',');
-        }
-        antonSeekStuck = 0; antonCool = 4;
-        saveAgentOpts(); renderTuneInputs();
+      a.seekStuck++; a.playStall = 0;
+      /* picture has not moved through several tap cycles: rotate this
+         pilot's tap order and make its motion bar easier */
+      if(a.seekStuck >= 8 && w.stillMs >= Math.max(4000, b.tapMs)){
+        var before = b.hiThresh;
+        b.hiThresh = Math.max(3, Math.round((b.hiThresh - 1) * 2) / 2);
+        if(pt.cycle && pt.cycle.length > 1) pt.cycle.push(pt.cycle.shift());
+        a.seekStuck = 0; a.cool = 4;
         antonSay('P' + (pt.pl + 1) + ' screen still ' + (w.stillMs / 1000).toFixed(1) +
-          's — rotated seek taps, motion bar ' + before + '→' + AgentOpts.hiThresh);
+          's — rotated seek taps, motion bar ' + before + '→' + b.hiThresh);
         return;
       }
-      if(antonSeekStuck >= 12){
-        AgentOpts.hiThresh = Math.max(3, Math.round((AgentOpts.hiThresh - 1) * 2) / 2);
-        antonSeekStuck = 0; antonCool = 4;
-        saveAgentOpts(); renderTuneInputs();
-        antonSay('P' + (pt.pl + 1) + ' stuck in menus — lowered motion bar to ' + AgentOpts.hiThresh);
+      if(a.seekStuck >= 12){
+        b.hiThresh = Math.max(3, Math.round((b.hiThresh - 1) * 2) / 2);
+        a.seekStuck = 0; a.cool = 4;
+        antonSay('P' + (pt.pl + 1) + ' stuck in menus — lowered motion bar to ' + b.hiThresh);
       }
       return;
     }
-    antonSeekStuck = 0;
+    a.seekStuck = 0;
     var scrollMag = Math.max(Math.abs(w.lastSh), Math.abs(w.lastShy));
-    if(dMax < AgentOpts.hiThresh || scrollMag < 2){
+    if(dMax < b.hiThresh || scrollMag < 2){
       /* screen animates or not, the world is not scrolling: hop more */
-      antonPlayStall++;
-      if(antonPlayStall >= 8){
-        AgentOpts.hopEvery = Math.max(1, AgentOpts.hopEvery - 1);
-        antonPlayStall = 0; antonCool = 4;
-        saveAgentOpts(); renderTuneInputs();
-        antonSay('no screen progress — hopping every ' + AgentOpts.hopEvery + ' beats');
+      a.playStall++;
+      if(a.playStall >= 8){
+        b.hopEvery = Math.max(1, b.hopEvery - 1);
+        a.playStall = 0; a.cool = 4;
+        antonSay('P' + (pt.pl + 1) + ' no screen progress — hopping every ' + b.hopEvery + ' beats');
       }
     }else{
-      antonPlayStall = 0;
+      a.playStall = 0;
       /* steady scroll means the hold is working: spend fewer beats hopping */
-      if(w.progressEma >= 3 && AgentOpts.hopEvery < 4){
-        AgentOpts.hopEvery = Math.min(4, AgentOpts.hopEvery + 1);
-        antonCool = 10;
-        saveAgentOpts(); renderTuneInputs();
-        antonSay('steady scroll ' + w.progressEma.toFixed(1) +
-          ' — hopping every ' + AgentOpts.hopEvery + ' beats');
+      if(w.progressEma >= 3 && b.hopEvery < 4){
+        b.hopEvery = Math.min(4, b.hopEvery + 1);
+        a.cool = 10;
+        antonSay('P' + (pt.pl + 1) + ' steady scroll ' + w.progressEma.toFixed(1) +
+          ' — hopping every ' + b.hopEvery + ' beats');
       }
     }
   }
@@ -1297,8 +1717,6 @@
   function startAutopilot(){
     if(autoOn) return;
     autoOn = true;
-    antonHist = []; antonLastModes = ''; antonCool = 0;
-    antonSeekStuck = 0; antonPlayStall = 0;
     if(AgentOpts.autoTune) antonSay('watching the copilot…');
     if(!playing) powerOn();
     startAgentEngine();
@@ -1812,7 +2230,7 @@
         tries: pt.learn.tries, score: pt.learn.score, total: pt.learn.total };
     });
     var ep = { game: currentName, date: new Date().toISOString(),
-      manual: m ? { id: m.id, title: m.title, kind: m.kind, jump: m.jump, run: m.run,
+      manual: m ? { id: m.id, title: m.title, kind: m.kind, style: m.style, jump: m.jump, run: m.run,
         block: m.block, strikes: m.strikes, actions: m.actions } : null,
       policy: policy,
       ms: dur, frames: recFrames, inputs: recInputs, audio: recAudio, counts: counts };
@@ -1962,7 +2380,7 @@
 
   /* ---------- IndexedDB: ROM library + learning episodes ---------- */
   var DB = null;
-  var MEM = [{ name: BUNDLED.name, url: BUNDLED.url, builtin: true }];
+  var MEM = BUILTIN_ROMS.map(function(r){ return { name: r.name, label: r.label, url: r.url, builtin: true }; });
   function openDB(){
     return new Promise(function(res, rej){
       try{
@@ -2019,6 +2437,7 @@
     var list = document.getElementById('library-rom-list');
     list.innerHTML = '';
     currentEntries().then(function(entries){
+      entries = sortLibrary(entries);
       if(!entries.length){
         var p = document.createElement('p');
         p.className = 'modal-desc'; p.textContent = 'No ROMs yet — add one below.';
@@ -2027,13 +2446,13 @@
       entries.forEach(function(en){
         var item = document.createElement('div'); item.className = 'rom-list-item';
         var nm = document.createElement('div'); nm.className = 'rom-name';
-        nm.textContent = (en.name === currentName ? '▶ ' : '') + en.name;
+        nm.textContent = (en.name === currentName ? '▶ ' : '') + romLabel(en);
         var act = document.createElement('div'); act.className = 'rom-actions';
         var play = document.createElement('button'); play.className = 'rom-btn-play'; play.textContent = 'PLAY';
         play.addEventListener('click', function(){
           closeModals();
           playing = false; showStandby(true); setLeds(false);
-          setStatus('LOADING…', en.name.toUpperCase().slice(0, 40));
+          setStatus('LOADING…', romLabel(en).toUpperCase().slice(0, 40));
           boot(entryUrl(en), en.name); powerOn();
         });
         act.appendChild(play);
@@ -2254,14 +2673,20 @@
     DB = db;
     return idbAll();
   }).then(function(entries){
-    if(DB && !entries.length){
-      return fetch(BUNDLED.url).then(function(r){
-        if(!r.ok) throw new Error('rom fetch failed');
-        return r.blob();
+    if(!DB) return entries;
+    var have = {};
+    entries.forEach(function(en){ have[en.name] = true; });
+    var jobs = BUILTIN_ROMS.filter(function(r){ return !have[r.name]; }).map(function(r){
+      return fetch(r.url).then(function(res){
+        if(!res.ok) throw new Error('rom fetch failed: ' + r.name);
+        return res.blob();
       }).then(function(blob){
-        return idbPut({ name: BUNDLED.name, blob: blob, builtin: true });
+        return idbPut({ name: r.name, label: r.label, blob: blob, builtin: true });
+      }).catch(function(e){
+        console.warn('Could not seed ROM', r.name, e);
       });
-    }
+    });
+    return Promise.all(jobs).then(function(){ return idbAll(); });
   }).catch(function(){
     DB = null; /* IndexedDB unavailable: memory-only library */
   }).then(function(){
