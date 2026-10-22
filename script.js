@@ -326,6 +326,9 @@
   function releasePilot(pl){
     /* release only one pilot's buttons: P1 seeking must not drop P2's hold */
     for(var i = 0; i <= 11; i++) driveIndex(i, false, 'sys', pl);
+    try{
+      autoPilots.forEach(function(pt){ if(pt.pl === pl) pt.holdBtns = []; });
+    }catch(e){}
   }
   function releaseAuto(){
     /* panic release: every button on every player, used on stop/rebuild */
@@ -608,29 +611,41 @@
   function applyManualToPilots(){
     autoPilots.forEach(applyManualToPilot);
   }
-  function pickPlayAction(pt){
+  function choosePlayButtons(pt, count, skip){
     var pool = (pt.order && pt.order.length) ? pt.order : AgentMap.actions;
     var l = pt.learn || { score: {}, tries: {}, total: 0 };
-    var n = l.total || 0, best = pool[0], bestScore = -1e9;
-    for(var i = 0; i < pool.length; i++){
-      var b = pool[i], tries = l.tries[b] || 0;
-      var avg = (l.score[b] || 0) / (tries + 1);
-      var prior = 0.15 + (pool.length - i) * 0.04;
-      var explore = (pt.explore || 1.15) * Math.sqrt(Math.log(n + 2) / (tries + 1));
-      var s = avg + prior + explore + ((pt.hopN + i * 5) % 7) * 0.001;
-      if(s > bestScore){ bestScore = s; best = b; }
+    var n = l.total || 0, picked = [], used = {};
+    count = Math.max(1, Math.min(count || 2, pool.length));
+    while(picked.length < count){
+      var best = null, bestScore = -1e9;
+      for(var i = 0; i < pool.length; i++){
+        var b = pool[i];
+        if(used[b] || (skip && skip[b])) continue;
+        var tries = l.tries[b] || 0;
+        var avg = (l.score[b] || 0) / (tries + 1);
+        var prior = 0.15 + (pool.length - i) * 0.04;
+        var explore = (pt.explore || 1.15) * Math.sqrt(Math.log(n + 2) / (tries + 1));
+        var s = avg + prior + explore + ((pt.hopN + i * 5) % 7) * 0.001;
+        if(s > bestScore){ bestScore = s; best = b; }
+      }
+      if(best === null) break;
+      used[best] = 1;
+      picked.push(best);
     }
-    l.pending = { btn: best, t: Date.now() };
-    return best;
+    l.pending = picked.length ? { btns: picked, t: Date.now() } : null;
+    return picked;
   }
   function rewardPlayAction(pt, d, sh, shy){
     var l = pt.learn, p = l && l.pending;
     if(!p) return;
     var moved = d >= Math.max(1, AgentOpts.loThresh) ||
       Math.abs(sh || 0) >= 2 || Math.abs(shy || 0) >= 2;
-    l.tries[p.btn] = (l.tries[p.btn] || 0) + 1;
-    l.score[p.btn] = (l.score[p.btn] || 0) + (moved ? 1 : -0.25);
-    l.total = (l.total || 0) + 1;
+    var btns = p.btns || (p.btn != null ? [p.btn] : []);
+    btns.forEach(function(b){
+      l.tries[b] = (l.tries[b] || 0) + 1;
+      l.score[b] = (l.score[b] || 0) + (moved ? 1 : -0.25);
+    });
+    l.total = (l.total || 0) + (btns.length || 1);
     l.pending = null;
   }
   function updateManualLearn(){
@@ -701,7 +716,7 @@
       dir: AgentMap.dirR, dirY: null, dirYMiss: 0, diff: 0,
       watch: makeWatch(), menuGuardFrame: null,
       menuRole: idx === 0 ? 'lead' : 'join', joinConfirm: false,
-      explore: idx === 0 ? 1.05 : 1.3,
+      explore: idx === 0 ? 1.05 : 1.3, holdBtns: [],
       timers: { menu: null, sense: null, drive: null },
       order: AgentMap.actions.slice(),
       learn: { score: {}, tries: {}, total: 0, pending: null, sig: '' } };
@@ -768,6 +783,15 @@
       t += 150;
     });
   }
+  function strikeCombo(pt, count){
+    var out = [], len = pt.strikes.length;
+    if(!len) return out;
+    for(var i = 0; i < len && out.length < count; i++){
+      var b = pt.strikes[(pt.tick + pt.slot * 3 + i) % len];
+      if(out.indexOf(b) === -1) out.push(b);
+    }
+    return out;
+  }
   function fightTick(pt, idx){
     pt.tick++;
     var phase = Math.floor(pt.tick / 4 + idx * 3) % 6;
@@ -781,14 +805,13 @@
       driveIndex(fwd, true, 'auto', pt.pl);
       driveIndex(pt.runBtn, true, 'auto', pt.pl); /* RUN + toward closes distance */
     }else if(phase === 1){
-      var s = pt.strikes[(pt.tick + idx) % pt.strikes.length];
-      fightPulse(s, pt.pl, 140);
-      if(pt.tick % 2 === 0) fightPulse(pt.strikes[(pt.tick + idx + 1) % pt.strikes.length], pt.pl, 140);
+      /* Two strikes on the same frame: jab+strong, punch+kick, etc. */
+      strikeCombo(pt, 2).forEach(function(s){ fightPulse(s, pt.pl, 240); });
     }else if(phase === 2){
       driveIndex(pt.blockBtn, true, 'auto', pt.pl); /* BLOCK, feet planted */
     }else if(phase === 3){
       driveIndex(5, true, 'auto', pt.pl); /* crouch game */
-      fightPulse((pt.tick % 2 === 0) ? 1 : 9, pt.pl, 150); /* uppercut / low kick */
+      strikeCombo(pt, 2).forEach(function(s){ fightPulse(s, pt.pl, 260); }); /* crouch + two held attacks */
     }else if(phase === 4){
       driveIndex(4, true, 'auto', pt.pl);
       driveIndex(fwd, true, 'auto', pt.pl);
@@ -975,6 +998,10 @@
     updateAgentHud();
     updateScreenWatch();
   }
+  function releaseCombo(pt){
+    (pt.holdBtns || []).forEach(function(b){ driveIndex(b, false, 'auto', pt.pl); });
+    pt.holdBtns = [];
+  }
   function platformerTick(pt, idx){
     pt.tick++;
     /* release the opposite direction first: if the scroll vote flipped,
@@ -1008,20 +1035,27 @@
     if((pt.tick + idx) % hopEvery === 0){
       /* own rhythm per pilot: phase-offset hops, own button order */
       pt.hopN++;
-      var btn = pickPlayAction(pt); /* manual prior + this pilot's own reward history */
-      driveIndex(btn, true, 'auto', pt.pl);
-      (function(b, pl){
-        setTimeout(function(){ if(autoOn) driveIndex(b, false, 'auto', pl); }, AgentOpts.hopPulseMs);
-      })(btn, pt.pl);
+      /* Press a real combo, not one button at a time. The primary action
+         plus a second manual button land on the same frame, while the
+         direction and run holds are already down. P2 occasionally adds a
+         third face button so its brain does not mirror P1. */
+      var comboN = 2 + ((pt.slot > 0 && pt.hopN % 3 === 0) ? 1 : 0);
+      /* RUN is already held continuously; do not spend a combo slot on it
+         and then release it at the next hop. */
+      var skip = {}; skip[pt.runBtn] = 1;
+      var combo = choosePlayButtons(pt, comboN, skip); /* manual prior + this pilot's history */
+      releaseCombo(pt); /* drop last beat's held buttons before pressing new ones */
+      combo.forEach(function(b){ driveIndex(b, true, 'auto', pt.pl); });
+      pt.holdBtns = combo.slice();
       if(pt.hopN % 2 === 0){
         /* every other beat works a shoulder too — dash/strafe/special, per
-           game. X is already in the action rotation, Y is the run hold. */
+           game. It overlaps the face-button combo instead of replacing it. */
         pt.shN++;
         var sh = pt.shoulders[pt.shN % pt.shoulders.length];
-        driveIndex(sh, true, 'auto', pt.pl);
-        (function(s2, pl){
-          setTimeout(function(){ if(autoOn) driveIndex(s2, false, 'auto', pl); }, AgentOpts.hopPulseMs);
-        })(sh, pt.pl);
+        if(sh !== pt.runBtn && combo.indexOf(sh) === -1){
+          driveIndex(sh, true, 'auto', pt.pl);
+          pt.holdBtns.push(sh);
+        }
       }
     }
   }
@@ -1032,6 +1066,7 @@
   function mixTick(pt, idx){
     var wantFight = Math.floor((pt.tick + idx * 3) / 8) % 2 === 1;
     if(wantFight !== pt.mixFight){
+      releaseCombo(pt);
       if(wantFight){
         driveIndex(AgentMap.run, false, 'auto', pt.pl);
         [4, 5, 6, 7].forEach(function(i){ driveIndex(i, false, 'auto', pt.pl); });
@@ -2218,6 +2253,7 @@
         /* release the old profile's holds before the next tick uses the new
            one — no stuck L/R block or run from a mode switch */
         autoPilots.forEach(function(pt){
+          releaseCombo(pt);
           fightRelease(pt.pl);
           driveIndex(AgentMap.run, false, 'auto', pt.pl);
         });
