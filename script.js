@@ -389,7 +389,7 @@
     senseMs: 2000, tapMs: 4000, seekCycle: '2,2,3,8,5,4',
     driveMs: 300, hopEvery: 3, hopPulseMs: 260,
     hiThresh: 8, hiStreak: 3, loThresh: 4, loStreak: 3, blackMean: 10,
-    players: [0, 1], hud: false, autoTune: true, profile: 'generic'
+    players: [0, 1], hud: false, autoTune: true, profile: 'generic', world: true
   };
   var AgentOpts = {};
   try{
@@ -399,6 +399,7 @@
     /* players defaulted to P1-only before Both existed — migrate old saves */
     if(!rawOwn || !('players' in rawOwn)) AgentOpts.players = [0, 1];
     if(!rawOwn || !('autoTune' in rawOwn)) AgentOpts.autoTune = true;
+    if(!rawOwn || !('world' in rawOwn)) AgentOpts.world = true;
     if(!rawOwn || !('profile' in rawOwn) || ['generic', 'umk3', 'mix'].indexOf(rawOwn.profile) === -1) AgentOpts.profile = 'generic';
   }catch(e){ AgentOpts = Object.assign({}, AgentDefaults, { players: [0, 1], autoTune: true, profile: 'generic' }); }
   function saveAgentOpts(){
@@ -407,7 +408,7 @@
   /* Emulator button indices the brain uses (RetroArch SNES numbering).
      Human pads keep using PADINDEX; only the agent reads this. */
   var AgentMap = { dirR: 7, dirL: 6, run: 1, actions: [8, 0, 9], shoulders: [10, 11], select: 2, start: 3 };
-  var MENU_CONFIRM_OVERRIDE = { 'super-mario-all-stars-2': 0 };
+  var MENU_CONFIRM_OVERRIDE = { 'super-mario-all-stars-2': 3 };
   /* SEEK confirm fallback, parsed from AgentOpts.seekCycle ('2,2,3,8,5,4' =
      SELECT, SELECT, START, A, DOWN, UP). The grid walker presses A and
      START every cycle; this adds one extra menu button when it is neither,
@@ -729,6 +730,16 @@
       if(!jump) jump = { buttons: [0] };
       if(!run) run = { buttons: [1] };
     }
+    /* Menu START plan: the opening pages of a booklet spell out how many
+       START presses separate title, select and file screens. Capture that
+       as a plan instead of letting the pixel loop mistake an animated title
+       or scrolling select screen for gameplay. */
+    var menuPlan = [];
+    lines.slice(0, 60).forEach(function(line){
+      var low = line.toLowerCase();
+      if(/\bstart\b/.test(low) && /button/.test(low)) menuPlan.push(MANUAL_BTN.start);
+    });
+    menuPlan = menuPlan.slice(0, 3);
     var hints = [];
     lines.forEach(function(line){
       if(hints.length < 4 && line.trim().length > 18 &&
@@ -746,7 +757,8 @@
       method: meta.method, chars: meta.chars, kind: kind, style: style, actions: actions,
       run: run ? run.buttons[0] : null, jump: jump ? jump.buttons[0] : null,
       block: block ? block.buttons[0] : null, strikes: attack, weights: weights,
-      moves: moves, shoulders: [10, 11], hints: hints, source: 'ai/manuals/' + meta.text
+      moves: moves, shoulders: [10, 11], hints: hints, menuPlan: menuPlan,
+      source: 'ai/manuals/' + meta.text
     };
   }
   function ensureManualIndex(){
@@ -857,8 +869,14 @@
       pt.learn.tries = {};
       pt.learn.total = 0;
       pt.learn.pending = null;
+      if(pt.agent) pt.agent.clearReplay();
+      pt.bootPlan = (m.menuPlan && m.menuPlan.length) ? m.menuPlan.slice(0, 4) : [AgentMap.start];
+      pt.bootStep = 0; pt.bootNext = 0; pt.bootDone = false;
       m.actions.forEach(function(b, i){
-        pt.learn.score[b] = (m.weights[b] || 0.15) + (i === 0 ? 0.2 : 0);
+        /* RUN is held by the drive loop, not chosen as a hop action; seeding
+           it here would make the policy report walking as its best move. */
+        if(b === pt.runBtn) return;
+        pt.learn.score[b] = (m.weights[b] || 0.15) + (i === 0 && b !== pt.jumpBtn ? 0.2 : 0);
       });
     }
   }
@@ -867,7 +885,16 @@
     autoPilots.forEach(applyManualToPilot);
   }
   function pickPlayAction(pt){
-    var pool = (pt.order && pt.order.length) ? pt.order : AgentMap.actions;
+    var pool = ((pt.order && pt.order.length) ? pt.order : AgentMap.actions).filter(function(b){
+      /* The run/dash button is already held by the drive loop; pressing it
+         again as a "hop action" teaches the policy that walking is a jump. */
+      return b !== pt.runBtn;
+    });
+    if(!pool.length) pool = [pt.jumpBtn != null ? pt.jumpBtn : AgentMap.actions[0]];
+    if(pt.agent){
+      return pt.agent.pick(pool, { explore: pt.brain.explore, hopN: pt.hopN,
+        prefer: pt.jumpBtn, avoid: pt.blockBtn });
+    }
     var l = pt.learn || { score: {}, tries: {}, total: 0 };
     var n = l.total || 0, best = pool[0], bestScore = -1e9;
     for(var i = 0; i < pool.length; i++){
@@ -881,13 +908,26 @@
     l.pending = { btn: best, t: Date.now() };
     return best;
   }
-  function rewardPlayAction(pt, d, sh, shy){
+  function rewardPlayAction(pt, d, sh, shy, explored){
+    if(pt.agent){
+      /* A hop/action button must not take credit for walking. Horizontal
+         scrolling is produced by the held direction, so the action loop is
+         judged on vertical response, new frontier cells, and manual
+         compliance — the three signals it can actually influence. */
+      var pending = pt.learn && pt.learn.pending;
+      var manualAction = !!(pending && pt.jumpBtn != null && pending.btn === pt.jumpBtn);
+      pt.agent.reward({ motion: 0, scroll: 0, scrollY: shy,
+        loThresh: pt.brain.loThresh, explored: explored, manual: manualAction });
+      return;
+    }
     var l = pt.learn, p = l && l.pending;
     if(!p) return;
     var moved = d >= Math.max(1, pt.brain.loThresh) ||
       Math.abs(sh || 0) >= 2 || Math.abs(shy || 0) >= 2;
     l.tries[p.btn] = (l.tries[p.btn] || 0) + 1;
-    l.score[p.btn] = (l.score[p.btn] || 0) + (moved ? 1 : -0.25);
+    /* Frontier cells count as progress: the map gives the same button
+       credit the DQN-style pixel reward already gives for moving right. */
+    l.score[p.btn] = (l.score[p.btn] || 0) + (moved ? 1 : -0.25) + (explored ? 0.3 : 0);
     l.total = (l.total || 0) + 1;
     l.pending = null;
   }
@@ -978,8 +1018,8 @@
     updateManualLearn();
     var e = document.getElementById('anton-watch');
     if(!e) return;
-    if(!AgentOpts.autoTune){ e.textContent = 'SON OF ANTON · screen watch off — manual tuning only'; return; }
-    if(!autoOn){ e.textContent = 'SON OF ANTON · screen watch idle — autopilot off'; return; }
+    if(!AgentOpts.autoTune){ e.textContent = 'UNIFIED · screen watch off — manual tuning only'; return; }
+    if(!autoOn){ e.textContent = 'UNIFIED · screen watch idle — autopilot off'; return; }
     var parts = autoPilots.map(function(pt){
       var w = pt.watch;
       return 'P' + (pt.pl + 1) + ' ' + pt.mode.toUpperCase() +
@@ -994,8 +1034,234 @@
     parts.push('run ' + autoPilots.map(function(pt){
       return 'P' + (pt.pl + 1) + (pt.watch.runWanted ? ':on' : ':off');
     }).join(' '));
-    e.textContent = 'SON OF ANTON · watching: ' + parts.join(' · ');
+    if(AgentOpts.world !== false){
+      parts.push('map ' + autoPilots.map(function(pt){
+        var st = pt.world ? pt.world.stats() : null;
+        return 'P' + (pt.pl + 1) + ':' + (st ? st.cells + 'c/' + st.landmarks + 'L' : 'off') +
+          (st && st.exploring ? ' EXP' : '');
+      }).join(' '));
+    }
+    e.textContent = 'UNIFIED · watching: ' + parts.join(' · ');
   }
+  /* ---------- poke.AI-style world map panel ----------
+     Draws each pilot's independently learned map on one canvas: visited
+     cells, camera trail, stable landmarks, the 32x32 viewport and the
+     frontier heading. Read-only; the panel never drives the game. */
+  var WORLD_KIND_COLORS = {
+    center: '#f87171', mart: '#60a5fa', gym: '#4ade80',
+    gate: '#fbbf24', npc: '#e879f9', house: '#a78bfa'
+  };
+  var WORLD_PILOT_COLORS = ['#4ade80', '#22d3ee', '#f472b6', '#facc15'];
+  var ANTON_SCAN = null;
+  function worldStatsText(){
+    return autoPilots.map(function(pt, i){
+      var st = pt.world ? pt.world.stats() : null;
+      if(!st) return 'P' + (i + 1) + ' off';
+      return 'P' + (i + 1) + ' ' + st.cells + ' cells · ' + st.landmarks + ' marks · ' +
+        st.closures + ' loop' + (st.closures === 1 ? '' : 's') +
+        (st.exploring ? ' · explore ' + (st.forcedDir > 0 ? '>' : '<') : '');
+    }).join('   ');
+  }
+  function updateWorldPanel(){
+    updateUnifiedPanel();
+    var cv = document.getElementById('world-map');
+    if(!cv) return;
+    var status = document.getElementById('world-status');
+    if(!autoOn || !autoPilots.length){
+      if(status) status.textContent = 'WORLD MEMORY · idle — engage autopilot to map';
+      if(cv.offsetParent){
+        var c0 = cv.getContext('2d');
+        if(c0){ c0.fillStyle = '#0b0614'; c0.fillRect(0, 0, cv.width, cv.height); }
+      }
+      return;
+    }
+    if(AgentOpts.world === false){
+      if(status) status.textContent = 'WORLD MEMORY · off — reactive copilot only';
+      if(cv.offsetParent){
+        var c1 = cv.getContext('2d');
+        if(c1){ c1.fillStyle = '#0b0614'; c1.fillRect(0, 0, cv.width, cv.height); }
+      }
+      return;
+    }
+    if(status) status.textContent = 'WORLD MEMORY · ' + worldStatsText();
+    if(!cv.offsetParent) return;
+    var ctx = cv.getContext('2d');
+    if(!ctx) return;
+
+    var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity, any = false;
+    autoPilots.forEach(function(pt){
+      if(!pt.world) return;
+      Object.keys(pt.world.cells).forEach(function(k){
+        var c = pt.world.cells[k];
+        any = true;
+        if(c.x < minX) minX = c.x; if(c.x > maxX) maxX = c.x;
+        if(c.y < minY) minY = c.y; if(c.y > maxY) maxY = c.y;
+      });
+      var px = pt.world.pos.x / pt.world.cell, py = pt.world.pos.y / pt.world.cell;
+      any = true;
+      if(px < minX) minX = px; if(px > maxX) maxX = px;
+      if(py < minY) minY = py; if(py > maxY) maxY = py;
+    });
+    if(!any){ minX = -10; maxX = 10; minY = -6; maxY = 6; }
+    var spanX = Math.max(20, maxX - minX + 6), spanY = Math.max(12, maxY - minY + 6);
+    var midX = (minX + maxX) / 2, midY = (minY + maxY) / 2;
+    minX = midX - spanX / 2; minY = midY - spanY / 2;
+
+    var pad = 8, scale = Math.min((cv.width - pad * 2) / spanX, (cv.height - pad * 2) / spanY);
+    var ox = pad + ((cv.width - pad * 2) - spanX * scale) / 2;
+    var oy = pad + ((cv.height - pad * 2) - spanY * scale) / 2;
+    function X(cx){ return ox + (cx - minX) * scale; }
+    function Y(cy){ return oy + (cy - minY) * scale; }
+
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.fillStyle = '#0b0614'; ctx.fillRect(0, 0, cv.width, cv.height);
+    ctx.strokeStyle = 'rgba(124,58,237,.18)'; ctx.lineWidth = 1;
+    var gx = Math.ceil(minX / 4) * 4, gy = Math.ceil(minY / 4) * 4;
+    for(var x = gx; x < minX + spanX; x += 4){
+      ctx.beginPath(); ctx.moveTo(X(x), 0); ctx.lineTo(X(x), cv.height); ctx.stroke();
+    }
+    for(var y = gy; y < minY + spanY; y += 4){
+      ctx.beginPath(); ctx.moveTo(0, Y(y)); ctx.lineTo(cv.width, Y(y)); ctx.stroke();
+    }
+
+    autoPilots.forEach(function(pt, i){
+      if(!pt.world) return;
+      var col = WORLD_PILOT_COLORS[i % WORLD_PILOT_COLORS.length];
+      var w = pt.world, size = Math.max(1, scale * 0.92);
+      Object.keys(w.cells).forEach(function(k){
+        var c = w.cells[k];
+        ctx.globalAlpha = c.last === w.tick ? 0.5 : 0.2;
+        ctx.fillStyle = col;
+        ctx.fillRect(X(c.x) - size / 2, Y(c.y) - size / 2, size, size);
+      });
+      ctx.globalAlpha = 0.7;
+      ctx.strokeStyle = col; ctx.lineWidth = 1;
+      ctx.beginPath();
+      w.trail.forEach(function(p, j){
+        var tx = X(p.x / w.cell), ty = Y(p.y / w.cell);
+        if(j === 0) ctx.moveTo(tx, ty); else ctx.lineTo(tx, ty);
+      });
+      ctx.stroke();
+      ctx.globalAlpha = 1;
+
+      w.stableLandmarks().forEach(function(lm){
+        var lx = X(lm.x / w.cell), ly = Y(lm.y / w.cell);
+        var r = Math.max(2, Math.min(5, scale * (lm.seen >= 4 ? 0.34 : 0.26)));
+        ctx.beginPath(); ctx.arc(lx, ly, r, 0, Math.PI * 2);
+        ctx.fillStyle = WORLD_KIND_COLORS[lm.kind] || '#a78bfa';
+        ctx.fill();
+        ctx.strokeStyle = 'rgba(255,255,255,.65)'; ctx.lineWidth = 1; ctx.stroke();
+      });
+
+      var px = X(w.pos.x / w.cell), py = Y(w.pos.y / w.cell);
+      ctx.strokeStyle = 'rgba(255,255,255,.32)';
+      ctx.setLineDash([3, 3]);
+      var half = 16 / w.cell;
+      ctx.strokeRect(X(w.pos.x / w.cell - half), Y(w.pos.y / w.cell - half),
+        half * 2 * scale, half * 2 * scale);
+      ctx.setLineDash([]);
+
+      var d = w.lastDir || 1;
+      ctx.beginPath();
+      ctx.moveTo(px + d * 7, py);
+      ctx.lineTo(px - d * 4, py - 5);
+      ctx.lineTo(px - d * 4, py + 5);
+      ctx.closePath();
+      ctx.fillStyle = col; ctx.fill();
+      ctx.strokeStyle = '#fff'; ctx.stroke();
+    });
+  }
+  window.SNESBoyWorld = {
+    enabled: function(){ return AgentOpts.world !== false; },
+    stats: function(){
+      return autoPilots.map(function(pt){
+        return { player: pt.pl + 1, world: pt.world ? pt.world.stats() : null };
+      });
+    },
+    snapshot: function(){
+      return autoPilots.map(function(pt){
+        return { player: pt.pl + 1, map: pt.world ? pt.world.export() : null };
+      });
+    },
+    reset: function(){
+      autoPilots.forEach(function(pt){ if(pt.world) pt.world.reset(); });
+      updateWorldPanel();
+    }
+  };
+  /* One status surface for the unified loop: SEE/REMEMBER (world),
+     ACT/JUDGE (policy + replay), HEAL (governor). */
+  function topActionLabel(policy){
+    if(!policy || !policy.top || !policy.top.length) return 'learning';
+    var t = policy.top[0];
+    return (BTN_NAMES[t.btn] || t.btn) + ' ' + (t.avg || 0).toFixed(2);
+  }
+  function updateUnifiedPanel(){
+    var st = document.getElementById('unified-status');
+    var wl = document.getElementById('lane-world');
+    var pl = document.getElementById('lane-policy');
+    var hl = document.getElementById('lane-health');
+    if(!st && !wl && !pl && !hl) return;
+    if(!autoOn || !autoPilots.length){
+      if(st) st.textContent = 'UNIFIED AGENT · idle — engage autopilot to run the loop';
+      if(wl) wl.textContent = 'P1 off · P2 off';
+      if(pl) pl.textContent = 'P1 off · P2 off';
+      if(hl) hl.textContent = 'P1 idle · P2 idle';
+      return;
+    }
+    var modes = autoPilots.map(function(pt){
+      return 'P' + (pt.pl + 1) + ':' + pt.mode.toUpperCase();
+    }).join(' ');
+    if(st){
+      st.textContent = 'UNIFIED AGENT · ON · ' + modes + ' · ' +
+        (AgentOpts.autoTune ? 'self-tuning' : 'manual tune') +
+        (AgentOpts.world !== false ? ' · mapping' : ' · map off') +
+        (ANTON_SCAN ? ' · self-audit ' + ANTON_SCAN.avg + ' ' + ANTON_SCAN.verdict : '');
+    }
+    var ws = [], ps = [], hs = [];
+    autoPilots.forEach(function(pt){
+      var n = 'P' + (pt.pl + 1);
+      var s = pt.agent ? pt.agent.status() : null;
+      if(!s){
+        ws.push(n + ' off'); ps.push(n + ' off'); hs.push(n + ' off');
+        return;
+      }
+      var w = s.world;
+      ws.push(w ? n + ' ' + w.cells + 'c/' + w.landmarks + 'L/' + w.closures + '↺' +
+        (w.exploring ? ' explore' : '') : n + ' off');
+      ps.push(n + ' ' + topActionLabel(s.policy) + ' · ' + s.policy.total +
+        ' updates · replay ' + s.policy.replay);
+      var adj = s.health.lastAdjust;
+      if(adj && adj.length > 64) adj = adj.slice(0, 61) + '…';
+      hs.push(n + ' ' + s.health.verdict + ' · ' + s.health.adjustments + ' adj' +
+        (adj ? ' · ' + adj : ''));
+    });
+    if(wl) wl.textContent = ws.join('  ·  ');
+    if(pl) pl.textContent = ps.join('  ·  ');
+    if(hl) hl.textContent = hs.join('  ·  ');
+  }
+  window.SNESBoyAgent = {
+    status: function(){
+      return autoPilots.map(function(pt){
+        return { player: pt.pl + 1, mode: pt.mode,
+          evidence: !!pt.playEvidence, startUsed: !!pt.startUsed,
+          menuN: pt.menuN, startReadyAt: pt.startReadyAt,
+          lastStart: pt.lastStart, lastConfirmAt: pt.lastConfirmAt,
+          role: pt.menuRole, scrollRun: pt.scrollRun || 0, quietTicks: pt.quietTicks || 0,
+          agent: pt.agent ? pt.agent.status() : null };
+      });
+    },
+    snapshot: function(options){
+      options = options || {};
+      return autoPilots.map(function(pt){
+        return { player: pt.pl + 1, mode: pt.mode,
+          agent: pt.agent ? pt.agent.snapshot(options.maxReplay) : null };
+      });
+    },
+    reset: function(){
+      autoPilots.forEach(function(pt){ if(pt.agent) pt.agent.reset(); });
+      updateWorldPanel(); updateUnifiedPanel();
+    }
+  };
   function watchMetrics(pt, dMax, sh, shy){
     var now = Date.now();
     var w = pt.watch;
@@ -1040,10 +1306,16 @@
     return bestScore < 0 ? cycle[(idx + 1) % cycle.length] : best;
   }
   function makePilot(player, idx){
+    /* One agent per pilot: AntonCore owns the world map (poke.AI), the
+       action score + replay memory (mario-ai) and the live governor
+       (Son of Anton). The aliases below keep the existing drive policies
+       reading the same objects, so there is still only one brain. */
+    var core = (typeof window.AntonCore === 'function') ? new window.AntonCore({}) : null;
     var pt = { pl: player, active: true, menus: true, mode: 'seek', prev: null, hi: 0, lo: 0,
       menuN: 0, hopN: idx * 2, tick: 0, shN: 0, fphase: -1, mixFight: false,
       slot: idx, startUsed: false, startReadyAt: idx > 0 ? 1 : 2, lastStart: 0, lastConfirmAt: 0,
       everPlayed: false, menuGen: 0,
+      bootDone: false, bootStep: 0, bootNext: 0, bootPlan: [AgentMap.start],
       dir: AgentMap.dirR, dirY: null, dirYMiss: 0, diff: 0,
       watch: makeWatch(), menuGuardFrame: null,
       menuRole: idx === 0 ? 'lead' : 'join', joinConfirm: false,
@@ -1056,11 +1328,17 @@
         hopPulseMs: AgentOpts.hopPulseMs, senseMs: AgentOpts.senseMs,
         tapMs: AgentOpts.tapMs, explore: 1.15
       },
-      anton: { hist: [], lastModes: '', cool: 0, seekStuck: 0, playStall: 0 },
+      anton: core ? core.health : { hist: [], lastModes: '', cool: 0, seekStuck: 0, playStall: 0 },
       cycle: autoCycle.slice(),
+      /* Unified agent: world map + policy/replay + governor in one object.
+         Each pilot still owns one core, so P1 and P2 remain independent. */
+      agent: core,
+      world: core ? core.world :
+        ((typeof window.WorldMemory === 'function') ? new window.WorldMemory({}) : null),
+      mapDir: 0,
       timers: { menu: null, sense: null, drive: null },
       order: AgentMap.actions.slice(),
-      learn: { score: {}, tries: {}, total: 0, pending: null, sig: '' } };
+      learn: core ? core.policy : { score: {}, tries: {}, total: 0, pending: null, sig: '' } };
     applyManualToPilot(pt);
     return pt;
   }
@@ -1068,10 +1346,11 @@
      immediately (join); P1 waits one grid pass so it never starts on the
      default top-left cell. */
   function armStart(pt){
-    /* START is a pause toggle in live gameplay. Once this pilot has seen
-       actual play, never re-arm it automatically for a menu-looking frame;
-       otherwise an animated/static gameplay scene gets START and pauses. */
-    if(pt.everPlayed) return;
+    /* START is a pause toggle in live gameplay. The guard is real camera
+       movement (playEvidence), not the first false-positive "play" guess:
+       otherwise the second menu screen (Select Game -> File Select) never
+       gets its START and the pilot cycles the menu forever. */
+    if(pt.playEvidence) return;
     pt.startUsed = false;
     pt.joinConfirm = false;
     pt.startReadyAt = pt.menuN + (pt.slot > 0 ? 1 : 2);
@@ -1187,7 +1466,7 @@
       if(!autoOn || !playing || !pt.active || pt.mode !== 'seek' || gen !== pt.menuGen) return;
       /* START is the pause key. After this pilot has seen gameplay, never
          send START again from an ambient menu-looking frame. */
-      if(pt.everPlayed && btn === AgentMap.start) return;
+      if(pt.playEvidence && btn === AgentMap.start) return;
       /* If the screen has started scrolling since this burst began, the
          menu is gone — drop the rest of the burst instead of firing A/START
          into live gameplay (START would pause it). */
@@ -1227,8 +1506,11 @@
     /* In two-player mode P2 is the joiner and owns START. P1 must not
        also press it: the second START lands after the game begins and
        toggles pause. Solo P1 keeps its one START. */
-    var canStart = !pt.everPlayed && !pt.startUsed && pt.menuN >= pt.startReadyAt &&
-      autoPilots.length === 1;
+    /* Before the first real scroll, P1 must be allowed to press START even
+       in two-player mode: many titles only listen to controller 1 on the
+       title/select/file screens. Once playEvidence is true this lockout
+       prevents START from pausing a live game. */
+    var canStart = !pt.playEvidence && !pt.startUsed && pt.menuN >= pt.startReadyAt;
     if(canStart){
       pt.startUsed = true;
       pt.lastStart = now;
@@ -1251,7 +1533,9 @@
       confirmBtn = MENU_CONFIRM_OVERRIDE[pt.manual.id];
     }
     var extra = pickSeekTap(pt);
-    if(extra !== confirmBtn && extra !== AgentMap.start){
+    /* When the manual says START is the confirm (SMAS), do not inject an
+       unrelated A/B tap first: on File Select that can erase a save. */
+    if(confirmBtn !== AgentMap.start && extra !== confirmBtn && extra !== AgentMap.start){
       menuTap(pt, extra, delay, base);
       delay += 220;
     }
@@ -1275,12 +1559,18 @@
           (pt.dirY === 4 ? '▲' : (pt.dirY === 5 ? '▼' : ''));
       }
     });
+    var mapInfo = '';
+    if(autoOn && AgentOpts.world !== false && autoPilots.length && autoPilots[0].world){
+      var ws = autoPilots[0].world.stats();
+      mapInfo = ' · map ' + ws.cells + 'c/' + ws.landmarks + 'L' + (ws.exploring ? ' EXP' : '');
+    }
     var txt = (autoOn ? pilotModes() : 'OFF') + ' · d=' + maxD.toFixed(1) + dirs +
       (autoOn ? ' · ' + autoPilots.map(function(pt){ return 'P' + (pt.pl + 1); }).join('+') : '') +
       (autoOn && AgentOpts.autoTune ? ' · AT' : '') +
       (autoOn && MANUAL_STATE.current ? ' · MANUAL' : '') +
       (autoOn && AgentOpts.profile === 'umk3' ? ' · UMK3' : '') +
-      (autoOn && AgentOpts.profile === 'mix' ? ' · MIX' : '');
+      (autoOn && AgentOpts.profile === 'mix' ? ' · MIX' : '') +
+      (autoOn && autoPilots.some(function(pt){ return pt.agent; }) ? ' · UNIFIED' : '') + mapInfo;
     $all('.agent-hud').forEach(function(e){
       e.textContent = txt;
       e.classList.toggle('hidden', !AgentOpts.hud);
@@ -1302,6 +1592,10 @@
   }
   function enterPlay(pt){
     if(pt.mode === 'play') return;
+    /* A platformer is not "playing" until the manual's menu plan has been
+       executed. This is what stops an animated title logo from parking the
+       brain in ACT while the game is still at START. */
+    if(pt.style === 'platformer' && !pt.bootDone) return;
     pt.mode = 'play';
     pt.everPlayed = true;
     autoPilots.forEach(function(o){ o.menuGen++; }); /* cancel queued menu bursts */
@@ -1321,7 +1615,7 @@
         /* Static gameplay is normal (standing Mario, text box); only fall
            back to SEEK while still navigating pre-game menus. Once a pilot
            has played, START stays locked out anyway. */
-        if(!pt.everPlayed){
+        if(!pt.playEvidence){
           pt.mode = 'seek';
           armStart(pt); /* new episode: allow one START again */
           releasePilot(pt.pl); updateAutoBtn();
@@ -1361,13 +1655,55 @@
        (title -> select -> 2P join). Once everPlayed is true, armStart is a
        no-op, so this cannot toggle pause in a live game. */
     if(newScreen) armStart(pt);
+    /* Manual boot plan beats pixel guessing before the first level. */
+    if(pt.style === 'platformer' && !pt.bootDone){
+      var bn = Date.now();
+      if(!pt.bootStartAt) pt.bootStartAt = bn;
+      /* Let the boot/title animation finish before the first START. The
+         silhouette-to-logo fade looks like movement to a pixel diff, so a
+         fixed delay either fires into the fade (ignored) or waits too
+         long. Screen stability is the honest signal. */
+      var bf = frameGray();
+      if(bf && pt.bootFrame){
+        if(grayDiff(pt.bootFrame, bf) < 10) pt.bootStable = (pt.bootStable || 0) + 1;
+        else pt.bootStable = 0;
+      }
+      pt.bootFrame = bf;
+      if(!pt.bootNext && (pt.bootStable || 0) >= 2 && bn - pt.bootStartAt >= 3000){
+        pt.bootNext = bn;
+      }
+      if(pt.bootNext && bn >= pt.bootNext){
+        var step = Math.min(pt.bootStep, pt.bootPlan.length - 1);
+        pt.bootStep++;
+        pt.lastStart = bn;
+        pt.lastConfirmAt = bn;
+        pt.startUsed = true;
+        /* force: the screen is deliberately changing between menus */
+        menuTap(pt, pt.bootPlan[step], 0, null, true);
+        if(pt.bootStep >= pt.bootPlan.length){
+          pt.bootDone = true;
+          pt.bootNext = 0;
+          pt.bootEnterAt = bn + 2000;
+        }else{
+          pt.bootNext = bn + 2600;
+        }
+      }
+      if(pt.bootDone && pt.bootEnterAt && Date.now() >= pt.bootEnterAt){
+        pt.bootEnterAt = 0;
+        enterPlay(pt);
+      }
+      return;
+    }
     if(pt.mode !== 'seek' || !pt.menus) return;
     pt.menuN++;
     gridMenuStep(pt, pt.slot);
   }
   function agentSenseTick(pt){
     if(!autoOn || !playing || !pt.active){ pt.prev = null; return; }
-    var g = frameGray();
+    /* One RGB+gray tap feeds both the reactive copilot and the world
+       model; no second canvas readback for poke.AI-style mapping. */
+    var vf = captureVision();
+    var g = vf && vf.gray;
     if(!g) return;
     if(grayMean(g) < pt.brain.blackMean){
       /* black transition / fade-out: only this pilot heals and releases */
@@ -1381,22 +1717,80 @@
     var sh = colShift(pt.prev, g);
     var shy = rowShift(pt.prev, g);
     var d = sensePilot(pt, g);
+    /* Real play evidence is sustained camera movement, not a diff spike:
+       animated title logos can fool a single-frame pixel test. Until this
+       fires, a platformer may still be sitting on a title/menu screen even
+       though SEEK has already handed over to ACT. */
+    if(Math.abs(sh) >= 2 || Math.abs(shy) >= 2){
+      pt.scrollRun = (pt.scrollRun || 0) + 1;
+    }else{
+      pt.scrollRun = 0;
+    }
+    if(pt.scrollRun >= 2) pt.playEvidence = true;
     if(sh >= 2) pt.dir = AgentMap.dirR;
     else if(sh <= -2) pt.dir = AgentMap.dirL;
     if(shy >= 2){ pt.dirY = 5; pt.dirYMiss = 0; }
     else if(shy <= -2){ pt.dirY = 4; pt.dirYMiss = 0; }
     else if(pt.dirY !== null && ++pt.dirYMiss >= 2){ pt.dirY = null; pt.dirYMiss = 0; }
     pt.diff = d;
-    rewardPlayAction(pt, d, sh, shy);
+    /* World memory: integrate scroll as odometry, match salient blobs to
+       the pilot's landmark list, and ask the frontier planner for a
+       direction when the current screen is already mapped. */
+    var explored = 0;
+    if(pt.agent) pt.agent.noteLoop(pt.mode);
+    if(AgentOpts.world !== false && pt.agent){
+      /* The unified core owns the world layer, so its world tick and the
+         agent's loop phase advance together. */
+      var wr = pt.agent.perceive({ sh: sh, shy: shy, rgb: vf.rgb, mode: pt.mode });
+      explored = wr.newCells;
+      pt.mapDir = wr.suggested;
+    }else if(AgentOpts.world !== false && pt.world){
+      var wr2 = pt.world.observe({ sh: sh, shy: shy, rgb: vf.rgb, mode: pt.mode });
+      explored = wr2.newCells;
+      pt.mapDir = wr2.suggested;
+    }else{
+      pt.mapDir = 0;
+    }
+    /* Menu watchdog: platformers scroll once a level is live. If the
+       unified brain thinks it is playing but nothing has ever scrolled,
+       it is almost certainly parked on a title/select/file screen. Go
+       back to SEEK so the manual's START/confirm knowledge is used again.
+       This can never fire after the first real scroll, so it cannot pause
+       a running game. */
+    if(!pt.playEvidence && pt.style === 'platformer' && pt.mode === 'play'){
+      pt.quietTicks = (Math.abs(sh) < 2 && Math.abs(shy) < 2) ? (pt.quietTicks || 0) + 1 : 0;
+      if(pt.quietTicks >= 2){
+        pt.mode = 'seek';
+        pt.quietTicks = 0;
+        pt.everPlayed = false;
+        pt.startUsed = false;
+        armStart(pt);
+        releasePilot(pt.pl);
+      }
+    }else{
+      pt.quietTicks = 0;
+    }
+    rewardPlayAction(pt, d, sh, shy, explored);
     watchMetrics(pt, d, sh, shy);
     /* each pilot runs its own tuner against its own brain copy; no
        thresholds, hop cadence or seek cycle are shared */
     antonGovern(pt, d);
     updateAgentHud();
     updateScreenWatch();
+    updateWorldPanel();
+  }
+  /* Frontier override: only when the world is not already scrolling. A
+     mapped screen plus a stalled camera means the reactive vote has run
+     out of new ground, so the map picks the side with unvisited cells. */
+  function frontierDir(pt){
+    if(AgentOpts.world === false || !pt.world || !pt.mapDir) return 0;
+    if(Math.abs(pt.watch.lastSh) >= 2 || pt.watch.progressEma >= 3) return 0;
+    return pt.mapDir;
   }
   function platformerTick(pt, idx){
     pt.tick++;
+    var fd = frontierDir(pt);
+    if(fd) pt.dir = fd > 0 ? AgentMap.dirR : AgentMap.dirL;
     /* release the opposite direction first: if the scroll vote flipped,
        the old hold would otherwise stay latched (L+R stuck) */
     driveIndex(pt.dir === AgentMap.dirL ? AgentMap.dirR : AgentMap.dirL, false, 'auto', pt.pl);
@@ -1521,6 +1915,8 @@
     var sh = pt.watch.lastSh || 0;
     var dir = sh > 1 ? AgentMap.dirR : (sh < -1 ? AgentMap.dirL :
       (((Math.floor(pt.tick / 9) + idx) % 2 === 0) ? AgentMap.dirR : AgentMap.dirL));
+    var fd = frontierDir(pt);
+    if(fd) dir = fd > 0 ? AgentMap.dirR : AgentMap.dirL;
     styleRelease(pt, dir);
     driveIndex(dir, true, 'auto', pt.pl);
     driveIndex(pt.runBtn, pt.watch.haveData && pt.diff > pt.brain.loThresh, 'auto', pt.pl);
@@ -1638,6 +2034,7 @@
     updateAutoBtn();
     updateAgentHud();
     updateScreenWatch();
+    updateWorldPanel();
   }
   /* Son of Anton screen watcher + live governor.
      Every sense tick we measure what the picture is doing — motion, how
@@ -1648,71 +2045,28 @@
      are reported in #anton-live / #anton-watch. */
   function antonSay(txt){
     var el = document.getElementById('anton-live');
-    if(el) el.textContent = 'SON OF ANTON · ' + txt;
+    if(el) el.textContent = 'UNIFIED · ' + txt;
   }
   function antonGovern(pt, dMax){
     if(!AgentOpts.autoTune || !autoOn || !playing || !pt.active) return;
-    var w = pt.watch, a = pt.anton, b = pt.brain;
-    var modes = 'P' + (pt.pl + 1) + ':' + pt.mode;
-    if(modes !== a.lastModes){ a.hist.push(1); a.lastModes = modes; }
-    else a.hist.push(0);
-    if(a.hist.length > 8) a.hist.shift();
-    if(a.cool > 0){ a.cool--; return; }
-    var flips = 0, i;
-    for(i = 0; i < a.hist.length; i++) flips += a.hist[i];
-    if(flips >= 3 && a.hist.length >= 6){
-      b.hiThresh = Math.min(40, Math.round((b.hiThresh + 1) * 2) / 2);
-      b.loThresh = Math.max(0.5, Math.round((b.loThresh - 0.5) * 2) / 2);
-      a.hist = []; a.cool = 4;
-      antonSay('P' + (pt.pl + 1) + ' flapping — widened deadband (motion>' + b.hiThresh + ' still<' + b.loThresh + ')');
-      return;
-    }
-    if(pt.mode !== 'play'){
-      a.seekStuck++; a.playStall = 0;
-      /* picture has not moved through several tap cycles: rotate this
-         pilot's tap order and make its motion bar easier */
-      if(a.seekStuck >= 8 && w.stillMs >= Math.max(4000, b.tapMs)){
-        var before = b.hiThresh;
-        b.hiThresh = Math.max(3, Math.round((b.hiThresh - 1) * 2) / 2);
-        if(pt.cycle && pt.cycle.length > 1) pt.cycle.push(pt.cycle.shift());
-        a.seekStuck = 0; a.cool = 4;
-        antonSay('P' + (pt.pl + 1) + ' screen still ' + (w.stillMs / 1000).toFixed(1) +
-          's — rotated seek taps, motion bar ' + before + '→' + b.hiThresh);
-        return;
-      }
-      if(a.seekStuck >= 12){
-        b.hiThresh = Math.max(3, Math.round((b.hiThresh - 1) * 2) / 2);
-        a.seekStuck = 0; a.cool = 4;
-        antonSay('P' + (pt.pl + 1) + ' stuck in menus — lowered motion bar to ' + b.hiThresh);
-      }
-      return;
-    }
-    a.seekStuck = 0;
-    var scrollMag = Math.max(Math.abs(w.lastSh), Math.abs(w.lastShy));
-    if(dMax < b.hiThresh || scrollMag < 2){
-      /* screen animates or not, the world is not scrolling: hop more */
-      a.playStall++;
-      if(a.playStall >= 8){
-        b.hopEvery = Math.max(1, b.hopEvery - 1);
-        a.playStall = 0; a.cool = 4;
-        antonSay('P' + (pt.pl + 1) + ' no screen progress — hopping every ' + b.hopEvery + ' beats');
-      }
-    }else{
-      a.playStall = 0;
-      /* steady scroll means the hold is working: spend fewer beats hopping */
-      if(w.progressEma >= 3 && b.hopEvery < 4){
-        b.hopEvery = Math.min(4, b.hopEvery + 1);
-        a.cool = 10;
-        antonSay('P' + (pt.pl + 1) + ' steady scroll ' + w.progressEma.toFixed(1) +
-          ' — hopping every ' + b.hopEvery + ' beats');
-      }
-    }
+    if(!pt.agent) return;
+    /* Son of Anton is no longer a parallel monitor: the governor lives in
+       the same AntonCore as the world map and policy, and mutates this
+       pilot's brain/cycle directly. */
+    var msg = pt.agent.govern({
+      label: 'P' + (pt.pl + 1), mode: pt.mode, diff: dMax,
+      stillMs: pt.watch.stillMs, progressEma: pt.watch.progressEma,
+      lastSh: pt.watch.lastSh, lastShy: pt.watch.lastShy,
+      brain: pt.brain, cycle: pt.cycle
+    });
+    if(msg) antonSay('P' + (pt.pl + 1) + ' ' + msg);
   }
   function toggleAutotune(){
     AgentOpts.autoTune = !AgentOpts.autoTune;
     saveAgentOpts(); renderTuneInputs();
     antonSay(AgentOpts.autoTune ? 'watching the copilot…' : 'off — manual tuning only');
     updateScreenWatch();
+    updateWorldPanel();
   }
   function startAutopilot(){
     if(autoOn) return;
@@ -1727,7 +2081,7 @@
     stopAgentTimers();
     autoPilots = [];
     releaseAuto();
-    updateAutoBtn(); updateAgentHud(); updateScreenWatch();
+    updateAutoBtn(); updateAgentHud(); updateScreenWatch(); updateWorldPanel();
   }
   function toggleAutopilot(){ if(autoOn) stopAutopilot(); else startAutopilot(); }
   function toggleHud(){ AgentOpts.hud = !AgentOpts.hud; saveAgentOpts(); updateAgentHud(); }
@@ -1750,6 +2104,8 @@
     if(at) at.textContent = 'AUTO-TUNE: ' + (AgentOpts.autoTune ? 'ON' : 'OFF');
     var pf = document.getElementById('opt-profile');
     if(pf) pf.value = (AgentOpts.profile === 'umk3') ? 'umk3' : (AgentOpts.profile === 'mix' ? 'mix' : 'generic');
+    var wl = document.getElementById('opt-world');
+    if(wl) wl.checked = AgentOpts.world !== false;
     var map = document.getElementById('agent-map-readout');
     if(map) map.textContent = 'map: dirR=' + AgentMap.dirR + ' dirL=' + AgentMap.dirL +
       ' run=' + AgentMap.run + ' actions=[' + AgentMap.actions.join(',') +
@@ -1767,10 +2123,11 @@
       else { parseSeekCycle(); retimeAgentLoop('menu'); retimeAgentLoop('sense'); }
     }
     updateAgentHud();
+    updateWorldPanel();
   }
 
   /* ---------- Son of Anton: report-only code health (never modifies files) ---------- */
-  var ANTON_SOURCES = ['index.html', 'style.css', 'script.js', 'ai/son-of-anton.js'];
+  var ANTON_SOURCES = ['index.html', 'style.css', 'script.js', 'ai/son-of-anton.js', 'ai/world-memory.js', 'ai/anton-core.js'];
   function runAntonScan(){
     var box = document.getElementById('anton-results');
     if(box) box.innerHTML = '<p class="modal-desc">Scanning…</p>';
@@ -1790,13 +2147,22 @@
       if(!box) return;
       box.innerHTML = '';
       if(!rows.length){ box.innerHTML = '<p class="modal-desc">No sources readable.</p>'; return; }
+      var sum = 0, worst = rows[0];
       rows.forEach(function(r){
+        sum += r.score;
+        if(r.score > worst.score) worst = r;
         var item = document.createElement('div'); item.className = 'rom-list-item';
         var nm = document.createElement('div'); nm.className = 'rom-name';
         nm.textContent = r.name + ' — ' + r.score.toFixed(2) + ' ' + r.verdict +
           ' (' + r.lines + ' lines, ' + r.commentLines + ' comments, ' + r.logStatements + ' logs)';
         item.appendChild(nm); box.appendChild(item);
       });
+      /* The analyzer feeds the same unified status line as the live
+         governor, so Son of Anton is one layer of the agent, not a
+         detached report. */
+      ANTON_SCAN = { at: Date.now(), avg: Math.round(sum / rows.length * 100) / 100,
+        verdict: worst.verdict, worst: worst.name };
+      updateUnifiedPanel();
     });
   }
 
@@ -2019,6 +2385,7 @@
       parts.push('menus ' + (anyAgentTimer('menu') ? '✓' : '—'));
       parts.push('auto-tune ' + (AgentOpts.autoTune ? '✓' : 'off'));
       parts.push('manual ' + (MANUAL_STATE.current ? '✓' : (MANUAL_STATE.loading ? '…' : '—')));
+      parts.push('world ' + (AgentOpts.world !== false && autoPilots.some(function(pt){ return pt.world; }) ? '✓' : 'off'));
       parts.push('record ' + (recOn ? '●' : 'off'));
     }else{
       parts.push('autopilot idle');
@@ -2233,6 +2600,12 @@
       manual: m ? { id: m.id, title: m.title, kind: m.kind, style: m.style, jump: m.jump, run: m.run,
         block: m.block, strikes: m.strikes, actions: m.actions } : null,
       policy: policy,
+      world: (AgentOpts.world !== false) ? autoPilots.map(function(pt){
+        return pt.world ? { player: pt.pl + 1, map: pt.world.export({ maxCells: 1500 }) } : null;
+      }).filter(Boolean) : [],
+      agents: autoPilots.map(function(pt){
+        return pt.agent ? { player: pt.pl + 1, snapshot: pt.agent.snapshot(48) } : null;
+      }).filter(Boolean),
       ms: dur, frames: recFrames, inputs: recInputs, audio: recAudio, counts: counts };
     epPut(ep).then(function(){
       learnStatus('Saved ' + recFrames.length + ' frames, ' + recInputs.length +
@@ -2599,8 +2972,8 @@
   on('btn-info', function(){ updatePadStatus(); openModal('info-modal'); });
   on('dt-btn-info', function(){ updatePadStatus(); openModal('info-modal'); });
   on('btn-pad', function(){ assignUsbPad(); updatePadStatus(); });
-  on('btn-ai', function(){ renderEpisodes(); renderTuneInputs(); updateAgentHud(); openModal('ai-modal'); });
-  on('dt-btn-ai', function(){ renderEpisodes(); renderTuneInputs(); updateAgentHud(); openModal('ai-modal'); });
+  on('btn-ai', function(){ renderEpisodes(); renderTuneInputs(); updateAgentHud(); openModal('ai-modal'); updateWorldPanel(); });
+  on('dt-btn-ai', function(){ renderEpisodes(); renderTuneInputs(); updateAgentHud(); openModal('ai-modal'); updateWorldPanel(); });
   on('btn-autopilot', toggleAutopilot);
   on('btn-autotune', toggleAutotune);
   on('btn-hud', toggleHud);
@@ -2611,6 +2984,13 @@
     var t = e.target;
     if(!t || !t.id || t.id.indexOf('opt-') !== 0) return;
     var key = t.id.slice(4);
+    if(key === 'world'){
+      AgentOpts.world = !!t.checked;
+      saveAgentOpts(); renderTuneInputs();
+      updateAgentHud(); updateWorldPanel();
+      if(autoOn) antonSay(AgentOpts.world ? 'world memory on — mapping + frontier exploration live' : 'world memory off — reactive copilot only');
+      return;
+    }
     if(key === 'seekCycle'){
       AgentOpts.seekCycle = String(t.value || AgentDefaults.seekCycle).slice(0, 31);
       saveAgentOpts(); renderTuneInputs();

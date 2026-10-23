@@ -59,6 +59,21 @@
     .ai-lab-body code { color: #fbbf24; font-size: 8px; }
     .ai-lab-body a { color: #c084fc; }
     #btn-autopilot.autopilot-on { background: #16a34a; border-color: #15803d; }
+    .world-panel { display: flex; flex-direction: column; gap: .6rem; background: #111827; border: 1px solid #5b358c; border-radius: .5rem; padding: .6rem; margin: .5rem 0; }
+    #world-map { width: 100%; height: auto; image-rendering: pixelated; image-rendering: crisp-edges; border-radius: .35rem; background: #0b0614; border: 1px solid #5b358c; }
+    .world-panel .vision-text { flex: 1 1 auto; }
+    #world-status { font-size: 9px; color: #4ade80; font-weight: bold; }
+    #world-legend { font-size: 8px; color: #9ca3af; line-height: 1.5; }
+    .world-toggle { font-size: 8px; color: #d1d5db; display: flex; align-items: center; gap: .4rem; margin-top: .35rem; cursor: pointer; }
+    .unified-panel { background: linear-gradient(135deg, rgba(91,53,140,.35), rgba(17,24,39,.9)); border: 1px solid #7c3aed; border-radius: .5rem; padding: .65rem; margin: .75rem 0; }
+    #unified-status { font-size: 9px; color: #4ade80; font-weight: bold; margin-bottom: .35rem; }
+    .unified-lanes { display: flex; flex-direction: column; gap: .35rem; }
+    .unified-lane { display: grid; grid-template-columns: 76px 1fr; gap: .5rem; font-size: 8px; color: #9ca3af; line-height: 1.45; }
+    .lane-tag { color: #c084fc; font-weight: bold; white-space: nowrap; }
+    #lane-world { color: #4ade80; }
+    #lane-policy { color: #fbbf24; }
+    #lane-health { color: #f87171; }
+    .unified-loop { font-size: 8px; color: #fbbf24; letter-spacing: .04em; border-top: 1px solid rgba(192,132,252,.3); padding-top: .4rem; margin-top: .5rem; }
   </style>
 </head>
 <body class="theme-snes">
@@ -152,7 +167,7 @@
         <button type="button" id="btn-info" class="tool-icon-btn" title="Controls & Info">ℹ️</button>
         <button type="button" id="btn-sound" class="tool-icon-btn" title="Toggle Mute">🔊</button>
         <button type="button" id="btn-crt" class="tool-icon-btn" title="Toggle CRT Shaders">📺</button>
-        <button type="button" id="btn-ai" class="tool-icon-btn" title="Mario AI Lab">🤖</button>
+        <button type="button" id="btn-ai" class="tool-icon-btn" title="Unified AI Lab">🤖</button>
         <button type="button" id="btn-reset" class="tool-icon-btn" title="Reset Game">🔄</button>
         <button type="button" id="btn-eject" class="tool-icon-btn tool-eject" title="Eject ROM">⏏️</button>
       </div>
@@ -196,7 +211,7 @@
         <button type="button" id="dt-btn-library" class="tv-side-btn purple" title="My Games Library">📁</button>
         <button type="button" id="dt-btn-info" class="tv-side-btn gray" title="Controls & Info">ℹ️</button>
         <button type="button" id="dt-btn-crt" class="tv-side-btn gray" title="Toggle CRT Shaders">📺</button>
-        <button type="button" id="dt-btn-ai" class="tv-side-btn gray" title="Mario AI Lab">🤖</button>
+        <button type="button" id="dt-btn-ai" class="tv-side-btn gray" title="Unified AI Lab">🤖</button>
         <button type="button" id="dt-btn-sound" class="tv-side-btn gray" title="Toggle Sound">🔊</button>
         <button type="button" id="dt-btn-theme" class="tv-side-btn gray" title="Switch Theme">🎨</button>
         <button type="button" id="dt-btn-eject" class="tv-side-btn red" title="Eject ROM">⏏️</button>
@@ -358,7 +373,7 @@
         <p>Save states and in-game saves persist in this browser. Only play ROMs of games you own.</p>
         <p id="gamepad-status" class="modal-desc">USB pad: checking…</p>
         <p><button type="button" id="btn-pad" class="modal-action-btn primary">🎮 REASSIGN USB PAD TO P1</button></p>
-        <p>Curious how a machine learns Mario? Open the 🤖 Mario AI Lab from the toolbar.</p>
+        <p>Curious how a machine learns Mario? Open the 🤖 Unified AI Lab from the toolbar to see the poke.AI world map, mario-ai policy and Son of Anton governor working as one agent.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="modal-action-btn secondary" data-close="info-modal">CLOSE</button>
@@ -373,14 +388,23 @@
   <div id="ai-modal" class="modal-overlay hidden">
     <div class="modal-card">
       <div class="modal-header">
-        <h2>🤖 MARIO AI LAB</h2>
+        <h2>🤖 UNIFIED AI LAB</h2>
         <button type="button" class="modal-close-btn" data-close="ai-modal">&times;</button>
       </div>
       <div class="modal-body ai-lab-body">
         <p class="modal-desc" id="ai-style-summary">AUTOPILOT OFF · no ROM</p>
-        <p class="modal-desc">The autopilot above is the live screen-reactive copilot. The rest of this panel documents the separate deep Q-learning experiment.</p>
-        <p class="modal-desc">A deep Q-learning agent that learned to play the first level of Super Mario World from raw pixels — bundled into this app from the <code>mario-ai</code> research project (see <code>ai/LICENSE</code>).</p>
-        <h3>HOW IT LEARNS</h3>
+        <p class="modal-desc">The autopilot above is one agent per pilot: poke.AI's world memory, mario-ai's pixel policy with replay memory, and Son of Anton's live governor share one loop and one state object (<code>AntonCore</code>). Manual priors still feed the same brain — nothing is a separate bot any more.</p>
+        <div class="unified-panel">
+          <div id="unified-status">UNIFIED AGENT · idle — engage autopilot to run the loop</div>
+          <div class="unified-lanes">
+            <div class="unified-lane"><span class="lane-tag">POKE.AI</span><span id="lane-world">P1 off · P2 off</span></div>
+            <div class="unified-lane"><span class="lane-tag">MARIO.AI</span><span id="lane-policy">P1 off · P2 off</span></div>
+            <div class="unified-lane"><span class="lane-tag">SON OF ANTON</span><span id="lane-health">P1 idle · P2 idle</span></div>
+          </div>
+          <div class="unified-loop">SENSE → REMEMBER → ACT → JUDGE → HEAL</div>
+        </div>
+        <p class="modal-desc">A deep Q-learning agent that learned to play the first level of Super Mario World from raw pixels — bundled into this app from the <code>mario-ai</code> research project (see <code>ai/LICENSE</code>). Its action-scoring and replay-memory shape now lives inside the same core as the other two layers.</p>
+        <h3>PIXEL POLICY LAYER · MARIO.AI</h3>
         <ul>
           <li>Watches the game as 32×32 + 64×64 grayscale screenshots, 4 frames of history, every 5th frame.</li>
           <li>Stores what it sees in a 250k-entry replay memory, then trains on random batches.</li>
@@ -415,6 +439,23 @@
           </div>
         </div>
         <p class="modal-desc" id="ai-loop-status">loops: vision — · autopilot idle</p>
+        <h3>WORLD MAP LAYER · POKE.AI</h3>
+        <p class="modal-desc">The <code>poke.AI</code> project plays Pokemon Emerald with three ideas: detect objects in every frame, localize them on a global map, and explore the frontier of what it has not seen. This app now runs a browser-sized version alongside the reactive copilot, the manual priors, and the DQN dataset — nothing is replaced.</p>
+        <ul>
+          <li><strong>Vision</strong> — no trained RetinaNet ships here, so a generic salient-blob detector reads the same 32×32 RGB tap. Colour and shape assign coarse kinds: <code>center</code>, <code>mart</code>, <code>gym</code>, <code>gate</code>, <code>npc</code>, <code>house</code>. These are colour labels, not guaranteed Pokemon classes.</li>
+          <li><strong>Localization</strong> — the existing <code>colShift</code>/<code>rowShift</code> readings become odometry. Each pilot integrates camera movement into its own world grid and converts screen detections to global coordinates.</li>
+          <li><strong>Mapping</strong> — a new detection within 7 world px of a remembered object with a similar colour merges into that landmark instead of duplicating it. Returning to a cell first seen long ago is recorded as a loop closure.</li>
+          <li><strong>Frontier exploration</strong> — when the camera stalls inside mapped ground, the planner counts unvisited cells on each side and hands the drive loop a heading. Frontier cells also earn the action policy a small reward bonus.</li>
+        </ul>
+        <div class="world-panel">
+          <canvas id="world-map" width="320" height="180"></canvas>
+          <div class="vision-text">
+            <div id="world-status">WORLD MEMORY · idle — engage autopilot to map</div>
+            <div id="world-legend">P1 green · P2 cyan · dashed box = 32×32 viewport<br>arrows = frontier heading · marks = remembered objects<br>cell grid = 4 world px · trail = camera path</div>
+            <label class="world-toggle"><input type="checkbox" id="opt-world" checked> Learn a world map + explore</label>
+          </div>
+        </div>
+        <p class="modal-desc">Both pilots map independently, so P1 and P2 can split up while sharing one screen. Export a recording and the episode JSON now carries each pilot's cells, landmarks and closures (<code>SNESBoyWorld.snapshot()</code> returns the same live data).</p>
         <h3>LEARN FROM EVERYTHING</h3>
         <p>Record play sessions and the app captures all three streams together, timestamped: 32×32 grayscale frames (5fps, the DQN paper's input shape), every button press with its source (pad / keyboard / autopilot / replay), and sound energy from the game's audio. Episodes live in your browser — replay any run through the real controllers, or export the JSON dataset for offline training.</p>
         <p><button type="button" id="btn-record" class="modal-action-btn primary">● RECORD SESSION</button></p>
@@ -448,11 +489,11 @@
         <p class="modal-desc">The copilots match the loaded ROM to its manual, parse the manual’s control words into a shared prior, then keep separate reward histories while they play.</p>
         <p><button type="button" id="btn-tune-reset" class="modal-action-btn secondary">RESET TUNING</button>
         <button type="button" id="btn-autotune" class="modal-action-btn secondary">AUTO-TUNE: ON</button></p>
-        <p class="modal-desc" id="anton-live">SON OF ANTON · idle — flip AUTO-TUNE and engage the autopilot.</p>
-        <p class="modal-desc" id="anton-watch">SON OF ANTON · screen watch idle — autopilot off.</p>
+        <p class="modal-desc" id="anton-live">UNIFIED · governor idle — flip AUTO-TUNE and engage the autopilot.</p>
+        <p class="modal-desc" id="anton-watch">UNIFIED · screen watch idle — autopilot off.</p>
         <h3>FIGHTER PROFILE: UMK3</h3>
         <p class="modal-desc">From the manual: RUN = hold R + Forward to close distance. BLOCK = hold L. Crouch kick = DOWN + X/A, uppercut = DOWN + Y, spin moves = hold AWAY + kick, jump-ins = UP(+toward) + punch timed on the way down. Fighter select takes any button except START; START picks menus. The UMK3 profile plays exactly this way — approach with RUN, strike flurries (button sequences land kombos), BLOCK phases, crouch uppercuts, jump-ins, and rotating special-motion strings — real ones from the booklet (Kano's knife, Liu Kang's fireball, Scorpion's spear, Sub-Zero's freeze…) — that trigger genuine specials across the roster. Sides alternate since facing is unknown.</p>
-        <h3>CODE HEALTH (SON OF ANTON)</h3>
+        <h3>LIVE GOVERNOR + CODE HEALTH · SON OF ANTON</h3>
         <p class="modal-desc">Report-only analyzer: scores this app's own sources for comment/log/dead-code bloat. It never modifies or deletes anything — scores only.</p>
         <p><button type="button" id="btn-anton-analyze" class="modal-action-btn secondary">RUN CODE HEALTH SCAN</button></p>
         <div id="anton-results" class="rom-list-container"></div>
@@ -468,6 +509,8 @@
 
   <!-- Standalone Script -->
   <script src="ai/son-of-anton.js"></script>
+  <script src="ai/world-memory.js"></script>
+  <script src="ai/anton-core.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
