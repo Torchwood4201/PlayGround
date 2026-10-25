@@ -1,1029 +1,1242 @@
-/* ==========================================================================
-   SNESBOY 1:1 STANDALONE STYLESHEET (`style.css`)
-   Built using your OG template with Pluggable Top-Loading Cartridge Art
-   ========================================================================== */
+:root {
+  --acid: #00ff41;
+  --danger: #ff2a2a;
+  --cyan: #00f0ff;
+  --magenta: #ff00d4;
+  --ink: #050505;
+  --panel: rgba(7, 12, 9, 0.94);
+}
 
-
-/* Reset & Box Sizing */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-
-html, body {
-  width: 100%;
-  min-height: 100vh;
-  font-family: 'Press Start 2P', monospace;
-  background-color: #3b284f;
-  color: #fff;
-  overflow-x: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-/* Hidden elements */
-.hidden { display: none !important; }
-.hidden-input { display: none; }
-
-
-/* Themes */
-body.theme-snes { background-color: #3b284f; }
-body.theme-famicom { background-color: #800000; }
-
-
-/* Responsive Layout Switching */
-.handheld-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 1rem;
-}
-
-
-.desktop-container {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-}
-
-
-@media (min-width: 1024px) {
-  .handheld-container { display: none; }
-  .desktop-container { display: flex; }
-}
-
-
-/* ==========================================================================
-   1. HANDHELD / GAME BOY STYLES
-   ========================================================================== */
-.handheld-casing {
-  width: 100%;
-  max-width: 380px;
-  background: #d1d5db;
-  border: 4px solid #9ca3af;
-  border-radius: 1.5rem;
-  padding: 1.25rem;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  color: #374151;
-}
-
-
-.screen-section {
-  background: #1f2937;
-  border: 2px solid #000;
-  border-radius: 0.75rem;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-
-.screen-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-
-.screen-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #ef4444;
-  border: 2px solid #000;
-}
-
-
-.screen-title {
-  color: #9ca3af;
-  font-size: 7px;
-  letter-spacing: 1px;
-}
-
-
-.screen-bezel {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 10 / 9;
-  background: #6b7280;
-  border-top: 4px solid #111827;
-  border-left: 4px solid #111827;
-  border-radius: 0.375rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   overflow: hidden;
+  background: var(--ink);
+  color: #fff;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  cursor: crosshair;
 }
 
-
-#handheld-screen, #desktop-screen {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-}
-
-
-.screen-off-display {
-  position: absolute;
-  inset: 0;
-  background: #14532d;
-  color: #86efac;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 1rem;
-  gap: 0.5rem;
-}
-
-
-.status-main { font-size: 11px; font-weight: bold; }
-.status-sub { font-size: 8px; opacity: 0.8; }
-
-
-.handheld-brand {
-  font-size: 1.25rem;
-  font-style: italic;
-  font-weight: bold;
-  color: #1e40af;
-  letter-spacing: -1px;
-}
-
-
-.controls-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 0.5rem;
-}
-
-
-.dpad-container {
+body {
   position: relative;
-  width: 110px;
-  height: 110px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overscroll-behavior: none;
 }
 
+button {
+  font: inherit;
+}
 
-.dpad-cross-h {
-  position: absolute;
+#matrix {
+  position: fixed;
+  inset: 0;
   width: 100%;
-  height: 33.33%;
-  background: #111827;
-  border-radius: 6px;
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
-}
-
-
-.dpad-cross-v {
-  position: absolute;
-  width: 33.33%;
   height: 100%;
-  background: #111827;
-  border-radius: 6px;
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
-}
-
-
-.dpad-center {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: #1f2937;
+  z-index: 0;
+  opacity: 0.55;
   pointer-events: none;
 }
 
-
-.dpad-btn {
-  position: absolute;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  z-index: 10;
-  touch-action: none;
-}
-
-
-.dpad-up { top: 0; left: 33.33%; width: 33.33%; height: 33.33%; }
-.dpad-down { bottom: 0; left: 33.33%; width: 33.33%; height: 33.33%; }
-.dpad-left { left: 0; top: 33.33%; width: 33.33%; height: 33.33%; }
-.dpad-right { right: 0; top: 33.33%; width: 33.33%; height: 33.33%; }
-
-
-.snes-handheld-buttons {
-  position: relative;
-  width: 110px;
-  height: 110px;
-}
-
-
-.bottom-controls-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 0.5rem;
-}
-
-
-.select-start-buttons {
-  display: flex;
-  gap: 1rem;
-}
-
-
-.pill-btn {
-  background: #1f2937;
-  color: #f3f4f6;
-  border: 1px solid #374151;
-  border-radius: 9999px;
-  padding: 0.35rem 0.8rem;
-  font-family: inherit;
-  font-size: 7px;
-  letter-spacing: 1px;
-  cursor: pointer;
-  transform: rotate(-30deg);
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.4);
-  touch-action: none;
-}
-
-
-.speaker-grille {
+#init-trigger {
+  position: fixed;
+  inset: 0;
+  z-index: 5000000;
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  transform: rotate(-30deg);
-}
-
-
-.speaker-line {
-  width: 45px;
-  height: 4px;
-  background: #1f2937;
-  border-radius: 2px;
-  opacity: 0.4;
-}
-
-
-.system-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  justify-content: center;
-  padding-top: 0.75rem;
-  border-top: 2px solid #9ca3af;
-}
-
-
-.sys-btn {
-  background: #374151;
-  border: 2px solid #4b5563;
-  color: #f3f4f6;
-  border-radius: 6px;
-  padding: 0.4rem 0.75rem;
-  font-family: inherit;
-  font-size: 8px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-
-
-.sys-btn-power.power-on { background: #16a34a; border-color: #15803d; }
-.sys-btn-purple { background: #7e22ce; border-color: #6b21a8; }
-.sys-btn-blue { background: #1d4ed8; border-color: #1e40af; }
-.file-label { display: inline-flex; align-items: center; justify-content: center; }
-
-
-.toolbar-bar {
-  display: flex;
-  gap: 0.5rem;
-  justify-content: center;
-}
-
-
-.tool-icon-btn {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: #374151;
-  border: none;
-  cursor: pointer;
-  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
-}
-.tool-eject { background: #991b1b; }
-
-
-.key-help {
-  text-align: center;
-  font-size: 6px;
-  color: #6b7280;
-  line-height: 1.4;
+  gap: 18px;
+  padding: 24px;
+  cursor: pointer;
+  background:
+    radial-gradient(circle at 50% 45%, rgba(0, 255, 65, 0.13) 0%, rgba(0, 0, 0, 0.98) 68%),
+    #000;
 }
 
-
-/* ==========================================================================
-   2. DESKTOP TV & 3D TOP-LOAD CONSOLE STYLES (OG Base + Pluggable Cartridge)
-   ========================================================================== */
-.tv-frame {
-  position: relative;
-  width: 100%;
-  max-width: 800px;
-  border: 18px solid #27272a;
-  background: #18181b;
-  border-radius: 1.5rem;
-  padding: 0.5rem;
-  box-shadow: 0 25px 50px rgba(0,0,0,0.8);
-  margin-bottom: 2rem;
-}
-
-
-.tv-screen-bezel {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  background: #000;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  position: relative;
-}
-
-
-.tv-screen-glass {
+#init-trigger::before {
+  content: "";
   position: absolute;
   inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #4b5563;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(0deg, rgba(0, 255, 65, 0.06) 0 1px, transparent 1px 4px),
+    repeating-linear-gradient(90deg, rgba(0, 255, 65, 0.04) 0 1px, transparent 1px 80px);
+  opacity: 0.8;
 }
 
+.init-text {
+  position: relative;
+  color: var(--acid);
+  font: 700 clamp(22px, 4.2vw, 46px) / 1.25 "Courier New", monospace;
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-shadow: 0 0 18px rgba(0, 255, 65, 0.8);
+  animation: init-pulse 2.4s ease-in-out infinite;
+}
 
-.tv-power-indicator {
+.init-text span {
+  display: inline-block;
+  margin-top: 10px;
+  color: #d7ffe2;
+  font-size: 0.58em;
+  letter-spacing: 0.18em;
+}
+
+.init-warning {
+  position: relative;
+  color: var(--danger);
+  font: 700 13px / 1.4 "Courier New", monospace;
+  letter-spacing: 0.38em;
+  text-align: center;
+  animation: blink 1.5s steps(1, end) infinite;
+}
+
+.init-small {
   position: absolute;
-  bottom: 0.5rem;
-  right: 1.25rem;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #450a0a;
-  border: 1px solid #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.led-light {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: #ef4444;
-  opacity: 0.2;
-  transition: opacity 0.3s;
-}
-
-
-.led-light.active { opacity: 1; box-shadow: 0 0 8px #ef4444; }
-
-
-.tv-brand {
-  position: absolute;
-  bottom: -2.2rem;
+  bottom: 22px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 1.25rem;
-  font-weight: bold;
-  font-style: italic;
-  letter-spacing: 2px;
-  color: #9ca3af;
+  color: #6f8a77;
+  font: 11px / 1.4 "Courier New", monospace;
+  letter-spacing: 0.24em;
+  text-align: center;
+  white-space: nowrap;
 }
 
+@keyframes init-pulse {
+  50% {
+    opacity: 0.75;
+    text-shadow: 0 0 38px rgba(0, 255, 65, 1);
+  }
+}
 
-.tv-sidebar-controls {
+@keyframes blink {
+  50% {
+    opacity: 0.2;
+  }
+}
+
+#host-content {
   position: absolute;
-  right: -5rem;
-  top: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
+  inset: 0;
+  z-index: 2;
+  padding: 62px 20px 20px;
+  overflow: hidden;
 }
 
+#v-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 15px 18px;
+  background: linear-gradient(90deg, #191d1b, #2a302d);
+  border: 1px solid #3a423e;
+  border-radius: 6px;
+  color: #fff;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.45);
+}
 
-.tv-side-btn {
-  width: 44px;
-  height: 44px;
+#v-nav .logo {
+  font: 700 15px / 1 "Courier New", monospace;
+  letter-spacing: 0.12em;
+  color: #c9ffda;
+}
+
+#v-nav .links {
+  display: flex;
+  gap: 18px;
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.main-ui {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 16px;
+  margin-top: 16px;
+  max-width: 1180px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f7faf8, #c7d3cc);
+  color: #0d1410;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.card p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.status-light {
+  width: 15px;
+  height: 15px;
+  margin-top: 16px;
   border-radius: 50%;
-  border: none;
-  font-size: 18px;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  background: var(--acid);
+  box-shadow: 0 0 16px rgba(0, 255, 65, 0.9);
+  animation: status-breathe 2s ease-in-out infinite;
+}
+
+@keyframes status-breathe {
+  50% {
+    box-shadow: 0 0 4px rgba(0, 255, 65, 0.35);
+    opacity: 0.65;
+  }
+}
+
+.threat-bars {
+  display: flex;
+  gap: 5px;
+  margin-top: 18px;
+  align-items: flex-end;
+  height: 42px;
+}
+
+.threat-bars span {
+  flex: 1;
+  background: linear-gradient(180deg, #0fbf5d, #05642f);
+  border-radius: 2px 2px 0 0;
+}
+
+.threat-bars span:nth-child(1) { height: 34%; }
+.threat-bars span:nth-child(2) { height: 58%; }
+.threat-bars span:nth-child(3) { height: 42%; }
+.threat-bars span:nth-child(4) { height: 82%; }
+.threat-bars span:nth-child(5) { height: 66%; }
+
+.data-grid {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px 14px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  background: #d7ded9;
+  color: #0d1410;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+body.v-brain-sepia #host-content {
+  filter: sepia(0.8) contrast(1.2) saturate(1.7);
+}
+
+body.v-nimda-blur #host-content {
+  filter: blur(1.6px) grayscale(0.55) contrast(1.1);
+}
+
+body.v-sasser-shake #host-content {
+  animation: host-shake 0.22s linear infinite;
+}
+
+@keyframes host-shake {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(2px, -1px); }
+  50% { transform: translate(-2px, 2px); }
+  75% { transform: translate(1px, 1px); }
+}
+
+#virus-container,
+#popup-container,
+#v-layer,
+#cursor-trail {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
+
+#virus-container {
+  z-index: 10;
+  overflow: hidden;
+}
+
+#popup-container {
+  z-index: 20;
+}
+
+#v-layer {
+  z-index: 30;
+}
+
+#cursor-trail {
+  z-index: 100;
+}
+
+.virus-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  font: 700 14px / 1 "Courier New", monospace;
+  letter-spacing: 0.04em;
+  text-shadow: 0 0 8px currentColor;
+  will-change: transform;
+}
+
+.virus-text.v-big {
+  font-size: 26px;
+  letter-spacing: 0.12em;
+}
+
+.virus-text.v-dim {
+  opacity: 0.45;
+}
+
+.trail {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font: 700 11px / 1 "Courier New", monospace;
+  letter-spacing: 0.1em;
+  pointer-events: none;
+  text-shadow: 0 0 7px currentColor;
+  animation: trail-fade 0.9s ease-out forwards;
+}
+
+@keyframes trail-fade {
+  from {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -160%) scale(0.7);
+  }
+}
+
+#scanlines,
+#vignette,
+#glitch-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
+
+#scanlines {
+  z-index: 800000;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.22) 0 1px,
+    transparent 1px 3px
+  );
+  opacity: 0.5;
+  animation: scan-drift 12s linear infinite;
+}
+
+@keyframes scan-drift {
+  from { background-position: 0 0; }
+  to { background-position: 0 60px; }
+}
+
+#vignette {
+  z-index: 801000;
+  background: radial-gradient(circle at 50% 50%, transparent 42%, rgba(0, 0, 0, 0.78) 100%);
+  opacity: 0.75;
+}
+
+#glitch-overlay {
+  z-index: 1200000;
+  opacity: 0;
+  mix-blend-mode: screen;
+  transition: opacity 0.2s ease;
+  background:
+    linear-gradient(90deg, rgba(255, 0, 212, 0.08), transparent 28%, rgba(0, 240, 255, 0.08) 62%, transparent),
+    repeating-linear-gradient(0deg, transparent 0 9px, rgba(255, 0, 212, 0.16) 9px 11px, transparent 11px 23px);
+}
+
+body.glitching #glitch-overlay {
+  opacity: 0.82;
+  animation: glitch-jitter 0.42s steps(2, end) infinite;
+}
+
+@keyframes glitch-jitter {
+  0% { transform: translate(0, 0); }
+  33% { transform: translate(-7px, 2px); }
+  66% { transform: translate(5px, -3px); }
+  100% { transform: translate(0, 0); }
+}
+
+#hud {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1100000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  min-height: 38px;
+  padding: 8px 14px;
+  border-bottom: 1px solid rgba(0, 255, 65, 0.42);
+  background: rgba(0, 0, 0, 0.78);
+  color: var(--acid);
+  font: 700 11px / 1.35 "Courier New", monospace;
+  letter-spacing: 0.12em;
+  text-shadow: 0 0 8px rgba(0, 255, 65, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+body.activated #hud {
+  opacity: 1;
+}
+
+.hud-left,
+.hud-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  white-space: nowrap;
+}
+
+.hud-mid {
+  color: var(--danger);
+  white-space: nowrap;
+}
+
+.hud-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: var(--danger);
+  box-shadow: 0 0 12px var(--danger);
+  animation: blink 1.2s steps(1, end) infinite;
+}
+
+#stage-banner {
+  position: fixed;
+  top: 16%;
+  left: 50%;
+  z-index: 2600000;
+  max-width: min(900px, 92vw);
+  padding: 16px 28px;
+  transform: translateX(-50%) scale(0.96);
+  border: 2px solid var(--acid);
+  background: rgba(0, 0, 0, 0.88);
+  color: var(--acid);
+  font: 700 clamp(15px, 2.6vw, 32px) / 1.25 "Courier New", monospace;
+  letter-spacing: 0.14em;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(0, 255, 65, 0.85);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+#stage-banner.show {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}
+
+#takeover-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2000000;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 6vh 8vw;
+  background: #0078d7;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.22s ease;
 }
-.tv-side-btn.purple { background: #7e22ce; }
-.tv-side-btn.gray { background: #374151; }
-.tv-side-btn.red { background: #b91c1c; }
 
+#takeover-overlay.active {
+  visibility: visible;
+  opacity: 1;
+}
 
-/* 3D Console Art Container */
-#snes {
-  width: 45em;
-  height: 18em;
-  margin: 2.5em auto 1.5rem auto;
+.bsod-content {
+  width: min(920px, 100%);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.bsod-face {
+  font-size: clamp(78px, 15vw, 170px);
+  line-height: 0.9;
+  font-weight: 300;
+}
+
+.bsod-content h2 {
+  margin: 18px 0 16px;
+  font-size: clamp(20px, 3.1vw, 38px);
+  font-weight: 400;
+}
+
+.bsod-content p {
+  margin: 8px 0;
+  font-size: clamp(12px, 1.5vw, 18px);
+}
+
+.bsod-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 22px;
+}
+
+.qr {
   position: relative;
-  color: #B62F28;
-  font-family: 'Coda Caption', sans-serif;
+  flex: 0 0 auto;
+  width: clamp(76px, 10vw, 116px);
+  aspect-ratio: 1;
+  background: #fff;
+}
+
+.qr::before {
+  content: "";
+  position: absolute;
+  inset: 12%;
+  background:
+    repeating-linear-gradient(90deg, #000 0 12%, transparent 12% 24%),
+    repeating-linear-gradient(0deg, #000 0 12%, transparent 12% 24%);
+  background-blend-mode: multiply;
+}
+
+.bsod-sub {
+  opacity: 0.8;
+  font-size: clamp(10px, 1.2vw, 14px) !important;
+}
+
+.fucked-text {
+  margin: 26px 0 0;
+  font-size: clamp(34px, 7vw, 92px);
+  line-height: 1.05;
+  letter-spacing: 0.02em;
+  animation: host-shake 0.28s linear infinite;
+}
+
+#ransom-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2300000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background:
+    radial-gradient(circle at 50% 20%, rgba(255, 0, 0, 0.24), transparent 55%),
+    #090000;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+#ransom-overlay.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+#ransom-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.045) 0 1px, transparent 1px 4px);
+  opacity: 0.55;
+}
+
+.ransom-card {
+  width: min(680px, 100%);
+  padding: 34px;
+  border: 2px solid var(--danger);
+  background: rgba(12, 0, 0, 0.94);
+  box-shadow: 0 0 60px rgba(255, 0, 0, 0.28), inset 0 0 60px rgba(255, 0, 0, 0.06);
+  text-align: center;
+  font-family: "Courier New", monospace;
+  animation: ransom-breathe 3s ease-in-out infinite;
+}
+
+@keyframes ransom-breathe {
+  50% {
+    box-shadow: 0 0 90px rgba(255, 0, 0, 0.42), inset 0 0 90px rgba(255, 0, 0, 0.1);
+  }
+}
+
+.ransom-lock {
+  width: 78px;
+  height: 78px;
+  margin: 0 auto 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--danger);
+  border-radius: 50%;
+  color: var(--danger);
+  font: 700 48px / 1 "Courier New", monospace;
+  box-shadow: 0 0 24px rgba(255, 0, 0, 0.5);
+}
+
+.ransom-card h1 {
+  margin: 0 0 16px;
+  color: #ff4a4a;
+  font-size: clamp(20px, 3.4vw, 36px);
+  letter-spacing: 0.06em;
+}
+
+.ransom-card p {
+  margin: 12px 0;
+  color: #ffd9d9;
+  line-height: 1.55;
+  font-size: 14px;
+}
+
+.ransom-deadline {
+  margin-top: 22px !important;
+  letter-spacing: 0.16em;
+}
+
+#ransom-clock {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 0.08em;
+}
+
+.ransom-progress {
+  height: 18px;
+  margin: 18px 0;
+  border: 1px solid rgba(255, 42, 42, 0.7);
+  background: #1a0000;
+  overflow: hidden;
+}
+
+#ransom-progress-fill {
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90deg, #ff2a2a, #ff8a00);
+  transition: width 0.6s linear;
+}
+
+.ransom-small {
+  color: #ff8f8f !important;
+  font-size: 12px !important;
+  word-break: break-all;
+}
+
+.ransom-wallet {
+  color: #ffbcbc !important;
+  font-size: 11px !important;
+  letter-spacing: 0.08em;
+}
+
+.ransom-ticker {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 42, 42, 0.35);
+  color: #ff8f8f;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ransom-tag {
+  margin-top: 24px !important;
+  color: #7a4e4e !important;
+  font-size: 10px !important;
+  letter-spacing: 0.34em;
+}
+
+#abyss-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2500000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 20px;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(255, 0, 0, 0.2), transparent 60%),
+    #000;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.35s ease;
+}
+
+#abyss-overlay.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.abyss-glitch-text {
+  position: relative;
+  color: #ff2a2a;
+  font: 900 clamp(30px, 7vw, 92px) / 1 "Courier New", monospace;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-shadow: 0 0 30px rgba(255, 0, 0, 0.8);
+}
+
+.abyss-glitch-text::before,
+.abyss-glitch-text::after {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.abyss-glitch-text::before {
+  color: var(--cyan);
+  transform: translate(-4px, 2px);
+  clip-path: inset(12% 0 48% 0);
+  animation: abyss-slice 1.8s ease-in-out infinite;
+}
+
+.abyss-glitch-text::after {
+  color: var(--magenta);
+  transform: translate(4px, -2px);
+  clip-path: inset(58% 0 8% 0);
+  animation: abyss-slice 1.4s ease-in-out infinite reverse;
+}
+
+@keyframes abyss-slice {
+  0%, 100% { opacity: 0.9; transform: translate(-4px, 2px); }
+  50% { opacity: 0.4; transform: translate(6px, -4px); }
+}
+
+.abyss-sub {
+  color: #ff9d9d;
+  font: 700 12px / 1.4 "Courier New", monospace;
+  letter-spacing: 0.35em;
+  text-align: center;
+}
+
+#reveal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 3000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(2, 8, 4, 0.97);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+#reveal-overlay.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.reveal-card {
+  width: min(760px, 100%);
+  max-height: 92vh;
+  overflow: auto;
+  padding: 38px;
+  border: 2px solid var(--acid);
+  background:
+    linear-gradient(180deg, rgba(0, 255, 65, 0.06), transparent 30%),
+    #060d08;
+  box-shadow: 0 0 70px rgba(0, 255, 65, 0.16);
+  text-align: center;
+  font-family: "Courier New", monospace;
+}
+
+.reveal-kicker {
+  margin: 0 0 12px;
+  color: #8ae6a6;
+  font-size: 11px;
+  letter-spacing: 0.24em;
+}
+
+.reveal-card h1 {
+  margin: 0 0 16px;
+  color: var(--acid);
+  font-size: clamp(42px, 8vw, 88px);
+  letter-spacing: 0.04em;
+  text-shadow: 0 0 28px rgba(0, 255, 65, 0.6);
+}
+
+.reveal-card p {
+  margin: 10px auto;
+  max-width: 580px;
+  color: #cdebd6;
+  line-height: 1.65;
+  font-size: 14px;
+}
+
+.reveal-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin: 24px 0;
+}
+
+.reveal-stats div {
+  padding: 14px 8px;
+  border: 1px solid rgba(0, 255, 65, 0.28);
+  background: rgba(0, 255, 65, 0.04);
+}
+
+.reveal-stats strong {
+  display: block;
+  color: var(--acid);
+  font-size: 22px;
+}
+
+.reveal-stats span {
+  display: block;
+  margin-top: 4px;
+  color: #7fa28a;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.reveal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.reveal-actions button {
+  padding: 13px 20px;
+  border: 1px solid var(--acid);
+  background: transparent;
+  color: var(--acid);
+  font: 700 12px / 1 "Courier New", monospace;
+  letter-spacing: 0.14em;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.reveal-actions button:hover {
+  background: var(--acid);
+  color: #001a08;
+}
+
+.reveal-actions button:last-child {
+  border-color: #789486;
+  color: #b8cdc0;
+}
+
+.reveal-small {
+  margin-top: 20px !important;
+  color: #5e7566 !important;
+  font-size: 10px !important;
+  letter-spacing: 0.1em;
+}
+
+#controls {
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  z-index: 4000000;
+  display: flex;
+  gap: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+body.activated #controls {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#controls button {
+  padding: 9px 12px;
+  border: 1px solid #5f7b69;
+  background: rgba(0, 0, 0, 0.82);
+  color: #c9e4d2;
+  font: 700 10px / 1 "Courier New", monospace;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  touch-action: none;
+  user-select: none;
+}
+
+#controls button:hover {
+  border-color: var(--acid);
+  color: var(--acid);
+}
+
+#mute-btn.off {
+  color: #728177;
+}
+
+#panic-btn {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+#panic-btn.holding {
+  background: var(--danger);
+  color: #1a0000;
+}
+
+#panic-btn:disabled {
+  border-color: #3c4a41;
+  color: #5f7267;
+  cursor: default;
+}
+
+.scam-window {
+  position: fixed;
+  z-index: 500000;
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+  overflow: hidden;
+  border: 1px solid #8b9b8f;
+  border-radius: 3px;
+  background: rgba(6, 9, 7, 0.97);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.7), 0 0 22px rgba(0, 255, 65, 0.08);
+  color: #dfffe8;
+  font: 12px / 1.45 "Consolas", "Courier New", monospace;
+}
+
+.scam-window.wobble {
+  animation: window-wobble 0.34s steps(2, end) infinite;
+}
+
+@keyframes window-wobble {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(2px, -1px); }
+  100% { transform: translate(-1px, 1px); }
+}
+
+.scam-title {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 4px 6px 4px 10px;
+  background: linear-gradient(90deg, #d6dfd9, #aebbb3);
+  color: #08110b;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.03em;
+}
+
+.scam-x {
+  width: 20px;
+  height: 18px;
+  padding: 0;
+  border: 1px solid #7a877f;
+  background: #c0cbc4;
+  color: #000;
+  font: 700 10px / 1 "Courier New", monospace;
+  cursor: pointer;
+}
+
+.scam-x:hover {
+  background: var(--danger);
+  color: #fff;
+}
+
+.scam-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.cmd-log {
+  height: 100%;
+  max-height: 118px;
+  overflow: hidden;
+}
+
+.cmd-line {
+  color: #a8ffc1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 0 0 6px rgba(0, 255, 65, 0.4);
+}
+
+.cmd-line.err {
+  color: #ff6b6b;
+  text-shadow: 0 0 6px rgba(255, 42, 42, 0.5);
+}
+
+.cmd-cursor {
+  margin-top: 6px;
+  color: #d9ffe3;
+  opacity: 0.8;
+}
+
+.caret {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+.scam-file {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #c9ffda;
   font-size: 11px;
 }
 
-
-#snes:after {
-  content: "";
-  position: absolute;
-  width: 80%;
-  height: 0;
-  box-shadow: 0 0 5em 3em rgba(0, 0, 0, 0.4);
-  bottom: -4%;
-  left: 10%;
-  z-index: -1;
-  border-radius: 50%;
-}
-
-
-/* ==========================================================================
-   STANDALONE PLUGGABLE CARTRIDGE (Floats above console, docks down into slot)
-   ========================================================================== */
-.standalone-cartridge-container {
-  position: absolute;
-  top: -4.2em;
-  left: 15.5em;
-  width: 14em;
-  height: 6em;
-  cursor: pointer;
-  z-index: 30;
-  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
-}
-
-
-.cartridge-hitbox {
-  position: absolute;
-  inset: 0;
-  cursor: pointer;
-  z-index: 40;
-}
-
-
-.snes-cartridge-body {
-  position: absolute;
-  inset: 0;
-  background: #d0cbc7;
-  border: 2px solid #a49e9a;
-  border-bottom: none;
-  border-radius: 0.45em 0.45em 0 0;
-  box-shadow: 0 -4px 10px rgba(0,0,0,0.3), inset 0 2px 4px rgba(255,255,255,0.9);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-.standalone-cartridge-container:hover {
-  transform: translateY(4.6em); /* Docks straight down into the console slot like a real SNES! */
-}
-
-
-.cartridge-arch-top {
-  width: 86%;
-  height: 0.55em;
-  background: #b5afa9;
-  border-radius: 0.25em 0.25em 0 0;
-  margin-top: 0.3em;
-  box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
-}
-
-
-.cartridge-label-area {
-  width: 76%;
-  height: 2.6em;
-  background: #4a4240;
-  border-radius: 0.2em;
-  margin-top: 0.5em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.8);
-}
-
-
-.cartridge-label-text {
-  font-size: 6px;
-  color: #f3f4f6;
-  letter-spacing: 1px;
-  font-weight: bold;
-}
-
-
-.grip-ribs {
-  position: absolute;
-  top: 1.2em;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4em;
-}
-.grip-ribs.left { left: 0.4em; }
-.grip-ribs.right { right: 0.4em; }
-
-
-.grip-ribs span {
-  width: 0.8em;
-  height: 0.3em;
-  background: #b5afa9;
-  border-radius: 1px;
-}
-
-
-/* Console Top Deck */
-.snes-top {
-  position: absolute;
-  top: 3.5em;
-  left: 0;
-  width: 45em;
-  height: 7.4em;
-  background: #cdc8c5;
-  border-radius: 0.3em 0.3em 0 0;
-  box-shadow: 0 0.1em 0 #B8B4B2, 0 0.5em 0 -0.2em #535353;
-  border-top: 0.2em solid rgba(255, 255, 255, 0.32);
-  border-left: 0.2em solid rgba(255, 255, 255, 0.32);
-}
-
-
-.console-title-branding {
-  position: absolute;
-  top: 0.4em;
-  left: 1.2em;
-}
-.console-title-branding h1 { font-size: 1.2em; color: #423b4f; letter-spacing: 2px; }
-.console-title-branding h2 { font-size: 0.55em; color: #423b4f; letter-spacing: 1px; margin-top: 0.2em; }
-
-
-/* Open Top-Loading Slot Bay on Console */
-.cartridge-slot-bay {
-  width: 15em;
-  height: 2.2em;
-  position: absolute;
-  left: 15em;
-  top: 2.4em;
-  border-radius: 0.3em;
+.progress-bar {
+  height: 15px;
+  margin-top: 10px;
+  border: 1px solid #3d5c49;
+  background: #101a14;
   overflow: hidden;
-  background: #221f24;
-  box-shadow: inset 0 3px 6px #000;
 }
 
-
-.cartridge-slot-border {
-  position: absolute;
-  inset: 0;
-  border: 2px solid #99938f;
-  border-radius: 0.3em;
-}
-
-
-.cartridge-slot-hole {
-  width: 90%;
-  height: 50%;
-  background: #110f12;
-  position: absolute;
-  left: 5%;
-  top: 25%;
-  border-radius: 0.15em;
-  box-shadow: inset 0 2px 4px #000;
-}
-
-
-.snes-bottom {
-  width: 39em;
-  height: 7.5em;
-  background: #7A7077;
-  position: absolute;
-  bottom: 0;
-  left: 3em;
-  box-shadow: 0 0.6em 1em -0.3em rgba(0, 0, 0, 0.45);
-  border-radius: 0 0 0.3em 0.3em;
-}
-
-
-.power-box {
-  position: absolute;
-  left: 1.4em;
-  width: 11.5em;
-  top: 0;
-  height: 5.8em;
-}
-
-
-#power-checkbox { display: none; }
-
-
-.power-btn-label, .reset-btn-label {
-  position: absolute;
-  cursor: pointer;
-  width: 5em;
-  height: 2.4em;
-  line-height: 2.4em;
-  left: 1.5em;
-  top: 1.5em;
-  font-size: 0.7em;
-  text-align: center;
-  background: #5b358c;
-  border-radius: 0.3em;
-  box-shadow: 0 4px 0 #3d225e, 0 6px 8px rgba(0,0,0,0.4);
-  color: #fff;
-  font-weight: bold;
-  transition: all 0.1s;
-}
-
-
-.reset-btn-label { left: 6.5em; }
-
-
-.power-btn-label:active, .reset-btn-label:active {
-  transform: translateY(3px);
-  box-shadow: 0 1px 0 #3d225e, 0 2px 4px rgba(0,0,0,0.4);
-}
-
-
-.console-led {
-  position: absolute;
-  width: 0.6em;
-  height: 0.6em;
-  left: 0.6em;
-  bottom: 1.3em;
-  background: #333;
-  border-radius: 1px;
-  transition: all 0.2s;
-}
-
-
-.console-led.active {
-  background: #22c55e;
-  box-shadow: 0 0 10px #22c55e, inset 0 0 4px #fff;
-}
-
-
-.gamepads-slots {
+.progress-fill {
+  width: 0;
   height: 100%;
-  position: absolute;
-  width: 19%;
-  right: 13%;
-  background: #333;
+  background: linear-gradient(90deg, #00ff41, #9dff00);
+  transition: width 0.18s linear;
 }
 
-
-.gamepad-slot {
-  position: absolute;
-  bottom: 2.15em;
-  width: 3em;
-  left: 0.8em;
-  height: 4em;
-  border-radius: 0.6em;
-  background: #222;
+.scam-pct {
+  margin-top: 6px;
+  color: var(--acid);
+  text-align: right;
+  font-size: 10px;
 }
 
-
-.p2 { right: 0.8em; left: auto; }
-
-
-/* ==========================================================================
-   3. SNES CONTROLLER CSS ART (4 Action Buttons X, Y, B, A)
-   ========================================================================== */
-.controller-container {
-  position: relative;
-  width: 600px;
-  height: 240px;
-  margin: 1.5rem auto;
-  font-size: 12px;
+.dialog-text {
+  margin: 4px 0 14px;
+  color: #f0fff4;
+  line-height: 1.5;
 }
 
-
-.controller-cord {
-  position: absolute;
-  background: #111;
-  top: -15px;
-  left: 50%;
-  width: 10px;
-  height: 30px;
-  transform: translateX(-50%);
-}
-
-
-.controller-outer-box {
-  position: absolute;
-  inset: 0;
-  background: #D0CFCB;
-  border-radius: 0.5em;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-}
-
-
-.controller-cord-connection {
-  background: #8D8C8A;
-  position: absolute;
-  top: -8px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 28px;
-  height: 10px;
-  border-radius: 3px 3px 0 0;
-}
-
-
-.controller-inner-box {
-  background: #36312C;
-  position: absolute;
-  inset: 12px;
-  border-radius: 0.3em;
+.dialog-actions {
   display: flex;
-}
-
-
-.left-inner-box, .center-inner-box, .right-inner-box {
-  position: relative;
-  height: 100%;
-}
-
-
-.left-inner-box { width: 33.33%; }
-.center-inner-box { width: 28%; }
-.right-inner-box { width: 38.67%; }
-
-
-/* Controller D-Pad */
-.up-down-outer-box, .left-right-outer-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #D0CFCB;
-  border-radius: 4px;
-}
-.up-down-outer-box { width: 36px; height: 108px; }
-.left-right-outer-box { width: 108px; height: 36px; }
-
-
-.up-down-inner-box, .left-right-inner-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #2C2823;
-  border-radius: 3px;
-}
-.up-down-inner-box { width: 30px; height: 100px; }
-.left-right-inner-box { width: 100px; height: 30px; }
-
-
-.center-circle {
-  background: #363330;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 24px;
-  height: 24px;
-}
-
-
-.up-arrow, .down-arrow, .left-arrow, .right-arrow {
-  position: absolute;
-  cursor: pointer;
-  touch-action: none;
-}
-
-
-.up-arrow { top: 0; left: 0; width: 30px; height: 35px; }
-.down-arrow { bottom: 0; left: 0; width: 30px; height: 35px; }
-.left-arrow { left: 0; top: 0; width: 35px; height: 30px; }
-.right-arrow { right: 0; top: 0; width: 35px; height: 30px; }
-
-
-.up-arrow:after, .down-arrow:after, .left-arrow:after, .right-arrow:after {
-  content: "";
-  position: absolute;
-  border: 6px solid transparent;
-}
-.up-arrow:after { border-bottom-color: #555; top: 6px; left: 9px; }
-.down-arrow:after { border-top-color: #555; bottom: 6px; left: 9px; }
-.left-arrow:after { border-right-color: #555; left: 6px; top: 9px; }
-.right-arrow:after { border-left-color: #555; right: 6px; top: 9px; }
-
-
-/* Controller Center */
-.center-decorative-box {
-  background: #A3A2A0;
-  width: 100%;
-  height: 18px;
-  position: absolute;
-}
-.dec-1 { top: 12px; }
-.dec-2 { top: 38px; }
-.dec-3 { top: 64px; text-align: center; }
-.dec-4 { bottom: 12px; }
-
-
-.select-start-text {
-  font-size: 8px;
-  color: #5b358c;
-  line-height: 18px;
-  font-weight: bold;
-}
-
-
-.center-button-box {
-  position: absolute;
-  top: 90px;
-  left: 0;
-  width: 100%;
-  height: 40px;
-  background: #A3A2A0;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.center-button-box-inner-border {
-  display: flex;
-  gap: 16px;
-}
-
-
-.left-button, .right-button {
-  background: #5b358c;
-  width: 44px;
-  height: 16px;
-  border-radius: 4px;
-  cursor: pointer;
-  box-shadow: 0 2px 4px #000;
-  touch-action: none;
-}
-
-
-/* Controller Right (SNES 4-Button Diamond Layout) */
-.system-text {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 14px;
-  font-weight: bold;
-  color: #5b358c;
-  font-style: italic;
-}
-
-
-.snes-buttons-container {
-  position: absolute;
-  bottom: 20px;
-  right: 15px;
-  width: 110px;
-  height: 110px;
-}
-
-
-.action-btn-snes {
-  position: absolute;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Coda Caption', sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  box-shadow: 0 3px 0 rgba(0,0,0,0.5);
-  touch-action: none;
-}
-
-
-.btn-y { top: 36px; left: 0; background: #3b383d; color: #9ca3af; border-bottom: 2px solid #555; }
-.btn-x { top: 0; left: 36px; background: #3b383d; color: #9ca3af; border-bottom: 2px solid #555; }
-.btn-b { bottom: 0; left: 36px; background: #5b358c; color: #fff; }
-.btn-a { top: 36px; right: 0; background: #b91c1c; color: #fff; }
-
-
-.desktop-footer-help {
-  text-align: center;
-  font-size: 8px;
-  color: #c084fc;
-  margin-top: 1rem;
-}
-
-
-/* ==========================================================================
-   4. MODAL DIALOGS
-   ========================================================================== */
-.modal-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.85);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  padding: 1rem;
-}
-
-
-.modal-card {
-  background: #1f2937;
-  border: 3px solid #5b358c;
-  border-radius: 1rem;
-  width: 100%;
-  max-width: 500px;
-  max-height: 85vh;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  box-shadow: 0 25px 50px rgba(0,0,0,0.9);
-}
-
-
-.modal-header {
-  padding: 1rem 1.25rem;
-  background: #111827;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid #5b358c;
-}
-.modal-header h2 { font-size: 12px; color: #c084fc; }
-.modal-close-btn {
-  background: transparent;
-  border: none;
-  color: #fff;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
-
-.modal-body {
-  padding: 1.25rem;
-  overflow-y: auto;
-  font-size: 9px;
-  line-height: 1.6;
-}
-.modal-desc { margin-bottom: 1rem; color: #9ca3af; }
-
-
-.modal-footer {
-  padding: 1rem 1.25rem;
-  background: #111827;
-  display: flex;
+  gap: 8px;
   justify-content: flex-end;
-  gap: 0.75rem;
-  border-top: 2px solid #5b358c;
 }
 
-
-.modal-action-btn {
-  padding: 0.5rem 1rem;
-  border-radius: 0.375rem;
-  font-family: inherit;
-  font-size: 8px;
-  font-weight: bold;
+.scam-btn {
+  padding: 6px 14px;
+  border: 1px solid #6f8577;
+  background: #1a241e;
+  color: #d8ffe3;
+  font: 700 11px / 1 "Courier New", monospace;
   cursor: pointer;
-  border: none;
 }
-.modal-action-btn.primary { background: #5b358c; color: #fff; }
-.modal-action-btn.secondary { background: #374151; color: #fff; }
+
+.scam-btn:hover {
+  border-color: var(--acid);
+  color: var(--acid);
+}
+
+.video-wrap {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: #000;
+}
+
+.video-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  filter: contrast(1.2) saturate(1.5);
+}
+
+.video-noise {
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.08) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, rgba(0, 255, 65, 0.08) 0 2px, transparent 2px 9px);
+  opacity: 0.65;
+  animation: video-drift 0.6s steps(2, end) infinite;
+}
+
+@keyframes video-drift {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(-3px, 2px); }
+  100% { transform: translate(2px, -2px); }
+}
+
+.video-lockup {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--danger);
+  font: 700 22px / 1.2 "Courier New", monospace;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-shadow: 0 0 18px rgba(255, 42, 42, 0.9);
+}
+
+.video-tag {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 7px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.92));
+  color: var(--acid);
+  text-align: center;
+  font: 700 9px / 1 "Courier New", monospace;
+  letter-spacing: 0.24em;
+  pointer-events: none;
+}
+
+.fake-toast {
+  position: fixed;
+  right: 12px;
+  z-index: 1050000;
+  width: min(330px, calc(100vw - 24px));
+  padding: 12px 14px;
+  border: 1px solid rgba(0, 255, 65, 0.42);
+  border-left: 3px solid var(--danger);
+  background: rgba(4, 10, 6, 0.95);
+  box-shadow: 0 14px 38px rgba(0, 0, 0, 0.6);
+  color: #d9ffe3;
+  font: 11px / 1.45 "Courier New", monospace;
+  animation: toast-in 0.28s ease-out;
+}
+
+.fake-toast strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--danger);
+  letter-spacing: 0.12em;
+}
+
+.fake-toast span {
+  color: #a9c9b4;
+}
+
+@keyframes toast-in {
+  from {
+    transform: translateX(18px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+body.deep-fried {
+  filter: contrast(1.9) saturate(4.2) brightness(1.06) hue-rotate(18deg);
+  animation: fry-pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes fry-pulse {
+  0%, 100% {
+    filter: contrast(1.9) saturate(4.2) brightness(1.06) hue-rotate(18deg);
+  }
+  50% {
+    filter: contrast(2.3) saturate(5.6) brightness(1.16) hue-rotate(-12deg);
+  }
+}
+
+body.safe #matrix,
+body.safe #scanlines,
+body.safe #vignette,
+body.safe #glitch-overlay,
+body.safe #hud,
+body.safe #controls,
+body.safe #virus-container,
+body.safe #cursor-trail {
+  display: none;
+}
+
+body.safe #host-content {
+  filter: none;
+  animation: none;
+}
+
+@media (max-width: 760px) {
+  #host-content {
+    padding: 56px 12px 12px;
+  }
+
+  .main-ui {
+    grid-template-columns: 1fr;
+  }
+
+  .data-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #v-nav {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .hud-mid {
+    display: none;
+  }
+
+  .hud-right span:first-child {
+    display: none;
+  }
+
+  .bsod-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .ransom-card,
+  .reveal-card {
+    padding: 22px;
+  }
+
+  .reveal-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #controls button {
+    padding: 8px 10px;
+    font-size: 9px;
+  }
+
+  .init-small {
+    white-space: normal;
+    width: 90%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
